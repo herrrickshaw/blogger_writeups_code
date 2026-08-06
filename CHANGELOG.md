@@ -587,3 +587,16 @@ Retitled to 'From Diesel to CNG: India's Greener Fuel Shift'; body headline and 
 **Changed**
 
 - `diesel-doesnt-move-cpi-it-moves-40` — 19,730 → 24,328 bytes (+4,598)
+
+## 2026-08-06T13:31:37+05:30 — 91 posts live
+
+Added ARAI/SIAM-calibrated cost-per-km exhibit; retitled to a claim the evidence supports.
+
+
+**Versions**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+14/-0 distinct numbers)
+
+**Changed**
+
+- `diesel-doesnt-move-cpi-it-moves-40` — 24,328 → 27,729 bytes (+3,401)
