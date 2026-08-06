@@ -99,3 +99,20 @@ Baseline snapshot. Captured before deleting the drafted original of the chemical
 - `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3) (6,134 bytes)
 - `india-trade-sector-policy` — India Trade — Sector & Policy Recommendations (Chart Library) (15,877 bytes)
 - `tech-for-business-so-2019-tech-as` — Tech for Business so 2019, Tech As Business is for 2020!  (26,898 bytes)
+
+## 2026-08-06T09:26:24+05:30 — 89 posts live
+
+Chemical post republished after hard-deleting the drafted original in an attempt to reclaim the clean slug. Blogger reserves slugs permanently: three publishes produced three different random suffixes (_0969568715, _0459870800, _0307512735). The clean URL is unrecoverable.
+
+
+**Added**
+
+- `chemical-import-substitution-full-hsn-8_0307512735` — Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes) (384,147 bytes)
+
+**Changed**
+
+- `top-15-chemicals-for-import` — 19,403 → 74,654 bytes (+55,251)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `chemical-import-substitution-full-hsn-8_0459870800` — Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)
