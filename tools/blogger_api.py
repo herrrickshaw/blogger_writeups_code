@@ -1,0 +1,316 @@
+#!/usr/bin/env python3
+"""Blogger API v3 client for masaladeutsch — read, update and bulk-apply posts.
+
+Replaces driving the web editor, which gives no trustworthy success signal.
+See docs/BLOGGER_API_RUNBOOK.md for the one-time OAuth setup.
+
+    python3 tools/blogger_api.py auth
+    python3 tools/blogger_api.py whoami
+    python3 tools/blogger_api.py get    --slug <slug>
+    python3 tools/blogger_api.py update --slug <slug> --file <body.html> [--dry-run]
+    python3 tools/blogger_api.py bulk   --manifest <fixes/manifest.json> [--limit N]
+
+Exit codes:
+    0  success
+    2  transient failure — safe to retry soon
+    3  per-blog daily write ceiling reached — retry tomorrow, not sooner
+"""
+import argparse
+import http.server
+import json
+import os
+import pathlib
+import random
+import re
+import secrets
+import subprocess
+import sys
+import threading
+import time
+import urllib.error
+import urllib.parse
+import urllib.request
+import webbrowser
+
+BLOG_ID = "2071644453461588122"
+BLOG_URL = "https://masaladeutsch.blogspot.com"
+API = "https://blogger.googleapis.com/v3"
+SCOPE = "https://www.googleapis.com/auth/blogger"
+
+SECRETS = pathlib.Path.home() / ".config" / "market-secrets"
+CLIENT_FILE = SECRETS / "blogger_client.json"
+TOKEN_FILE = SECRETS / "blogger_token.json"
+
+# Pace deliberately: rapid successive writes are what abuse detection watches.
+WRITE_GAP_SECONDS = 4
+MAX_BACKOFF_SECONDS = 64
+
+
+# ----------------------------------------------------------------- transport
+def _req(url, data=None, headers=None, method=None):
+    body = None
+    if data is not None:
+        body = data if isinstance(data, bytes) else json.dumps(data).encode()
+    r = urllib.request.Request(url, data=body, headers=headers or {}, method=method)
+    with urllib.request.urlopen(r, timeout=60) as resp:
+        return json.loads(resp.read().decode() or "{}")
+
+
+def _form(url, fields):
+    return _req(
+        url,
+        data=urllib.parse.urlencode(fields).encode(),
+        headers={"Content-Type": "application/x-www-form-urlencoded"},
+    )
+
+
+# ---------------------------------------------------------------------- auth
+def _client():
+    if not CLIENT_FILE.exists():
+        sys.exit(f"missing {CLIENT_FILE} — see docs/BLOGGER_API_RUNBOOK.md part 1")
+    blob = json.loads(CLIENT_FILE.read_text())
+    cfg = blob.get("installed") or blob.get("web")
+    if not cfg:
+        sys.exit(f"{CLIENT_FILE} is not a Desktop-app OAuth client")
+    return cfg["client_id"], cfg["client_secret"]
+
+
+def cmd_auth(_args):
+    """Run the installed-app OAuth flow and persist the refresh token."""
+    cid, csec = _client()
+    state = secrets.token_urlsafe(16)
+    got = {}
+
+    class H(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            q = urllib.parse.parse_qs(urllib.parse.urlparse(self.path).query)
+            got.update({k: v[0] for k, v in q.items()})
+            self.send_response(200)
+            self.send_header("Content-Type", "text/html")
+            self.end_headers()
+            self.wfile.write(b"<h2>Authorised. You can close this tab.</h2>")
+
+        def log_message(self, *a):
+            pass
+
+    srv = http.server.HTTPServer(("127.0.0.1", 0), H)
+    port = srv.server_address[1]
+    redirect = f"http://127.0.0.1:{port}"
+    auth_url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
+        "client_id": cid, "redirect_uri": redirect, "response_type": "code",
+        "scope": SCOPE, "access_type": "offline", "prompt": "consent", "state": state,
+    })
+    print("Open this URL and sign in as the account that is ADMIN on the blog:\n")
+    print("  " + auth_url + "\n")
+    try:
+        webbrowser.open(auth_url)
+    except Exception:
+        pass
+    threading.Thread(target=srv.handle_request, daemon=True).start()
+    for _ in range(300):
+        if got:
+            break
+        time.sleep(1)
+    srv.server_close()
+    if got.get("state") != state:
+        sys.exit("state mismatch — aborting")
+    if "code" not in got:
+        sys.exit(f"no authorisation code returned: {got}")
+
+    tok = _form("https://oauth2.googleapis.com/token", {
+        "code": got["code"], "client_id": cid, "client_secret": csec,
+        "redirect_uri": redirect, "grant_type": "authorization_code",
+    })
+    if "refresh_token" not in tok:
+        sys.exit("no refresh_token returned — revoke prior access and retry")
+    SECRETS.mkdir(parents=True, exist_ok=True)
+    TOKEN_FILE.write_text(json.dumps({"refresh_token": tok["refresh_token"]}, indent=2))
+    TOKEN_FILE.chmod(0o600)
+    print(f"refresh token saved to {TOKEN_FILE} (mode 600)")
+
+
+_access = {"token": None, "expires": 0}
+
+
+def access_token():
+    if _access["token"] and time.time() < _access["expires"] - 60:
+        return _access["token"]
+    if not TOKEN_FILE.exists():
+        sys.exit("not authorised — run: blogger_api.py auth")
+    cid, csec = _client()
+    rt = json.loads(TOKEN_FILE.read_text())["refresh_token"]
+    tok = _form("https://oauth2.googleapis.com/token", {
+        "client_id": cid, "client_secret": csec,
+        "refresh_token": rt, "grant_type": "refresh_token",
+    })
+    _access["token"] = tok["access_token"]
+    _access["expires"] = time.time() + int(tok.get("expires_in", 3600))
+    return _access["token"]
+
+
+def api(path, data=None, method="GET"):
+    """Call the API with backoff. Raises Ceiling on a 403 that will not clear."""
+    url = f"{API}{path}"
+    delay = 1.0
+    last = None
+    while delay <= MAX_BACKOFF_SECONDS:
+        try:
+            return _req(
+                url, data=data, method=method,
+                headers={"Authorization": f"Bearer {access_token()}",
+                         "Content-Type": "application/json"},
+            )
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode()[:300]
+            last = f"{e.code} {detail}"
+            if e.code in (403, 429, 500, 503):
+                wait = delay + random.uniform(0, 0.5)
+                print(f"    {e.code} — backing off {wait:.1f}s")
+                time.sleep(wait)
+                delay *= 2
+                continue
+            raise SystemExit(f"HTTP {e.code}: {detail}")
+    # backoff exhausted on a 403: this is the per-blog daily ceiling, not a blip
+    raise Ceiling(last)
+
+
+class Ceiling(Exception):
+    pass
+
+
+# ------------------------------------------------------------------ commands
+def find_post(slug):
+    """Locate a post by slug across all pages of the posts list."""
+    token, seen = None, 0
+    while True:
+        q = {"maxResults": 100, "fetchBodies": "false", "status": "LIVE"}
+        if token:
+            q["pageToken"] = token
+        page = api(f"/blogs/{BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+        for p in page.get("items", []):
+            seen += 1
+            if p["url"].rsplit("/", 1)[-1] == f"{slug}.html":
+                return p
+        token = page.get("nextPageToken")
+        if not token:
+            sys.exit(f"no live post with slug {slug!r} (searched {seen})")
+
+
+def cmd_whoami(_args):
+    b = api(f"/blogs/{BLOG_ID}")
+    print(f"blog   : {b['name']}")
+    print(f"url    : {b['url']}")
+    print(f"posts  : {b['posts']['totalItems']}   pages: {b.get('pages',{}).get('totalItems','?')}")
+    print("auth   : OK (a write scope was granted; role must be Admin to edit others' posts)")
+
+
+def cmd_get(args):
+    p = find_post(args.slug)
+    full = api(f"/blogs/{BLOG_ID}/posts/{p['id']}")
+    body = full.get("content", "")
+    print(f"id     : {full['id']}")
+    print(f"title  : {full['title']}")
+    print(f"url    : {full['url']}")
+    print(f"updated: {full['updated']}")
+    print(f"bytes  : {len(body):,}")
+    if args.out:
+        pathlib.Path(args.out).write_text(body, encoding="utf-8")
+        print(f"wrote  : {args.out}")
+
+
+def verify_live(url, needle=None, absent=None):
+    """Independent re-fetch with a cache-buster. The API can accept a write that
+    does not render; this is the only check that proves what a reader sees."""
+    bust = f"{url}?cb={secrets.randbelow(10**6)}"
+    out = subprocess.run(
+        ["curl", "-s", "-A", "Mozilla/5.0", bust], capture_output=True, text=True
+    ).stdout
+    if not out:
+        return False, "empty response"
+    if needle and needle not in out:
+        return False, "expected content missing"
+    if absent and absent in out:
+        return False, "content that should be gone is still present"
+    return True, f"{len(out):,} bytes"
+
+
+def do_update(post_id, url, title, body, dry_run=False):
+    if dry_run:
+        print(f"    DRY RUN — would PUT {len(body):,} bytes")
+        return True
+    api(f"/blogs/{BLOG_ID}/posts/{post_id}",
+        data={"id": post_id, "title": title, "content": body}, method="PUT")
+    time.sleep(3)  # give Blogger a moment to render before verifying
+    probe = re.sub(r"<[^>]+>", "", body)[:60].strip()
+    ok, why = verify_live(url, needle=probe[:40] if len(probe) > 40 else None)
+    print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
+    return ok
+
+
+def cmd_update(args):
+    body = pathlib.Path(args.file).read_text(encoding="utf-8")
+    p = find_post(args.slug)
+    print(f"{args.slug}  id={p['id']}")
+    try:
+        ok = do_update(p["id"], p["url"], p["title"], body, args.dry_run)
+    except Ceiling as e:
+        print(f"daily write ceiling reached: {e}")
+        sys.exit(3)
+    sys.exit(0 if ok else 2)
+
+
+def cmd_bulk(args):
+    entries = json.loads(pathlib.Path(args.manifest).read_text())
+    done = failed = 0
+    for i, e in enumerate(entries):
+        if args.limit and done >= args.limit:
+            print(f"\nstopping at --limit {args.limit}; {len(entries)-i} not attempted")
+            break
+        path = pathlib.Path(e["path"])
+        if not path.exists():
+            print(f"  skip  {e['slug']}: {path} missing")
+            continue
+        print(f"[{i+1}/{len(entries)}] {e['slug']}")
+        try:
+            p = find_post(e["slug"])
+        except SystemExit as err:
+            print(f"    skip: {err}")
+            continue
+        try:
+            ok = do_update(p["id"], p["url"], p["title"],
+                           path.read_text(encoding="utf-8"), args.dry_run)
+        except Ceiling as err:
+            print(f"\ndaily write ceiling reached after {done} writes: {err}")
+            print("retry tomorrow — backoff will not clear this")
+            sys.exit(3)
+        done += ok
+        failed += (not ok)
+        time.sleep(WRITE_GAP_SECONDS)
+    print(f"\n{done} updated, {failed} failed")
+    sys.exit(0 if not failed else 2)
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    sub = ap.add_subparsers(dest="cmd", required=True)
+    sub.add_parser("auth").set_defaults(fn=cmd_auth)
+    sub.add_parser("whoami").set_defaults(fn=cmd_whoami)
+
+    g = sub.add_parser("get"); g.add_argument("--slug", required=True)
+    g.add_argument("--out"); g.set_defaults(fn=cmd_get)
+
+    u = sub.add_parser("update"); u.add_argument("--slug", required=True)
+    u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
+    u.set_defaults(fn=cmd_update)
+
+    b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
+    b.add_argument("--limit", type=int, default=0)
+    b.add_argument("--dry-run", action="store_true"); b.set_defaults(fn=cmd_bulk)
+
+    args = ap.parse_args()
+    args.fn(args)
+
+
+if __name__ == "__main__":
+    main()
