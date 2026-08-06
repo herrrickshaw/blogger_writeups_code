@@ -295,3 +295,70 @@ staleness problem. Say both things plainly.
    port +4.5%, CV sales +5.3%) run much hotter — worth asking whether
    efficiency, rail shift or CNG/LNG substitution is already absorbing freight
    growth. That is a genuinely open question and a good place to introduce CNG.
+
+---
+
+## Diesel diversion and adulteration — the mechanism a price wedge creates
+
+**Why this belongs in the article.** A price gap between two channels for the
+same fuel is an arbitrage, and arbitrage on a bulk commodity shows up as
+diversion. PPAC's own May 2026 report gives the gap (**>₹40/litre**, direct vs
+retail) and the response (direct-sales share 12%→8%, private OMCs −34.7%). The
+theft and adulteration reporting below is the same incentive expressed
+illegally. Treat it as the mechanism connecting the pricing distortion to a
+real-world cost — not as a moral aside.
+
+### Reported cases — ⚠ all secondary press, none primary
+
+- **Bengaluru (2025)** — Central Crime Branch arrested four people siphoning
+  diesel destined for **BMTC and KSRTC depots**; ~**60,000 litres seized** from
+  three tankers. Method: ~50 litres drawn from each tanker in transit using
+  duplicate keys, shortfall explained to depot managers as spillage.
+  [Deccan Herald](https://www.deccanherald.com/india/karnataka/bengaluru/4-held-stealing-diesel-meant-2032092)
+- **Udupi, Karnataka** — driver arrested siphoning from a tanker, **1,020
+  litres** recovered; FIR at Shankaranarayana PS under BNS 303(2) and 112, the
+  **Essential Commodities Act 1955** (ss. 3, 7) and **Petroleum Act** s. 23.
+  [Deccan Herald](https://www.deccanherald.com/amp/story/india%2Fkarnataka%2Fdriver-arrested-for-siphoning-diesel-from-tanker-in-udupi-1020-litres-seized-3441710)
+- **Central government directive** — chief secretaries asked to ensure strict
+  action on fuel adulteration and lapses in the ethanol-blended petrol supply
+  chain. [Autocar India](https://www.autocarindia.com/industry/central-govt-instructs-states-to-crack-down-on-fuel-adulteration-440187)
+- Fleet-telematics vendors describe in-transit siphoning and kerosene blending
+  as routine. ⚠ **Vendor content, commercially interested — use for mechanism
+  description only, never for a number.**
+  [fleetx](https://blog.fleetx.io/how-fuel-theft-happens-in-indian-truck-fleets-and-how-a-sensor-catches-it-in-real-time/)
+
+### The kerosene link, from our own ICR read
+
+Adulteration works because a cheaper liquid exists. PPAC May 2026: **subsidised
+PDS kerosene was 73% of SKO consumption** against 27% non-PDS. Two administered
+prices — subsidised kerosene and below-cost retail diesel — sitting beside an
+unregulated direct-sales price ₹40 higher. That is the whole incentive
+structure in one paragraph.
+
+### 🔴 What cannot be claimed
+
+There is **no national estimate of diesel pilferage volume** in anything read so
+far. Individual seizures (60,000 l, 1,020 l) are anecdotes, not a rate. Do not
+extrapolate them, and do not imply a national loss figure. If a number is
+needed: CAG state transport-undertaking audits and STU annual reports carry
+fuel-consumption-per-km variances that would support a defensible estimate.
+⚠ Not yet obtained.
+
+### How this supports CNG conversion — the strongest version of the argument
+
+CNG is **physically far harder to divert** than diesel. It cannot be siphoned
+into a can, decanted at the roadside, or blended with kerosene; it is dispensed
+under pressure into a sealed vessel and metered. For **depot-based fleets —
+STU buses, municipal vehicles, captive freight** — conversion removes an entire
+category of leakage along with the emissions case.
+
+That reframes the recommendation usefully: **convert the fleets where diesel is
+both most concentrated and most divertible**, which is the same ~38% of demand
+(HCV/LCV + buses) identified from the 2013 study, and the same depot-based duty
+cycle that makes refuelling infrastructure tractable. Three independent lines —
+consumption structure, refuelling feasibility, leakage — point at the same
+segment. That convergence is the article's conclusion.
+
+It also resolves the price-cut tension: **do not argue for cheaper diesel.**
+Argue for closing the tax wedge on the commercial fleet *while* converting it,
+so the arbitrage that drives diversion shrinks from both ends.
