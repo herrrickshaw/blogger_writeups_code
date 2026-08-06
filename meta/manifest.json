@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-06T12:40:01+05:30",
+  "snapshot": "2026-08-06T12:49:16+05:30",
   "count": 91,
   "posts": {
     "1157999291079244419": {
@@ -1540,10 +1540,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
       "slug": "diesel-doesnt-move-cpi-it-moves-40",
       "published": "2026-08-06T12:38:39.791+05:30",
-      "updated": "2026-08-06T12:38:39.791+05:30",
+      "updated": "2026-08-06T12:48:41.654+05:30",
       "labels": [],
-      "bytes": 20197,
-      "sha256": "5b82d9a7a233f43dee3d9e3cff9d26a79b67c9c08faf4ee6649534099e7b3ef8",
+      "bytes": 19730,
+      "sha256": "e3f7b9050e50fe1c3ced4556b887c92b512349d898126dfc329a76b48e605e4e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1555,7 +1555,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1563,6 +1563,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Published: diesel/CPI/CNG article via the new posts.insert path."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-06T12:49:16+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            20197,
+            19730
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Removed the conflict-of-interest section from the diesel article at the author's request."
         }
       ]
     },

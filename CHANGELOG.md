@@ -561,3 +561,16 @@ Published: diesel/CPI/CNG article via the new posts.insert path.
 **Added**
 
 - `diesel-doesnt-move-cpi-it-moves-40` **v1.0.0** — Diesel Doesn't Move the CPI. It Moves ₹40 a Litre Between Two Channels. (20,197 bytes)
+
+## 2026-08-06T12:49:16+05:30 — 91 posts live
+
+Removed the conflict-of-interest section from the diesel article at the author's request.
+
+
+**Versions**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `diesel-doesnt-move-cpi-it-moves-40` — 20,197 → 19,730 bytes (-467)
