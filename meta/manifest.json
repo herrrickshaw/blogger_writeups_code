@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-06T09:57:57+05:30",
+  "snapshot": "2026-08-06T11:09:41+05:30",
   "count": 90,
   "posts": {
     "1157999291079244419": {
@@ -1768,10 +1768,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.442+05:30",
-      "updated": "2026-08-05T15:54:08.494+05:30",
+      "updated": "2026-08-06T10:11:47.997+05:30",
       "labels": [],
-      "bytes": 28639,
-      "sha256": "6a84ae13ab2e63bd058e3f82f7ab8ba8dabddef4c59023d1b86c3c903cf1c356",
+      "bytes": 30665,
+      "sha256": "6e13302a3403f8787e76e21f441c3af9ea87f77a3d468b624aeb5574e82bad7e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1783,7 +1783,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1791,6 +1791,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-06T11:09:41+05:30",
+          "level": "major",
+          "reason": "figures changed (+5/-0 distinct numbers)",
+          "bytes": [
+            28639,
+            30665
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Post-API-setup snapshot. Also captures the mineral-oil guard rewrite (resolved literal colours, no document-level rules)."
         }
       ]
     },
@@ -2088,10 +2101,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-08-06T08:58:26.640+05:30",
-      "updated": "2026-08-06T08:58:26.641+05:30",
+      "updated": "2026-08-06T10:43:55.175+05:30",
       "labels": [],
-      "bytes": 106001,
-      "sha256": "b60a19cd5323a3cdb8e725469a8df891dcabb0f271c7922508d235b6a33f6ab9",
+      "bytes": 105779,
+      "sha256": "493dc7bc8c76355c622d06a7268e1f5ea9f0c69695dd0377c8aec63b2a7faf3c",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -2103,7 +2116,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2111,6 +2124,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:09:41+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            106001,
+            105779
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Post-API-setup snapshot. Also captures the mineral-oil guard rewrite (resolved literal colours, no document-level rules)."
         }
       ]
     },

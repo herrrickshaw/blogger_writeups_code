@@ -405,3 +405,18 @@ Revision line added to all 16 pending fix files (v1.0.1, PATCH — design repair
 
 
 No changes.
+
+## 2026-08-06T11:09:41+05:30 — 90 posts live
+
+Post-API-setup snapshot. Also captures the mineral-oil guard rewrite (resolved literal colours, no document-level rules).
+
+
+**Versions**
+
+- `india-mineral-oil-hsn-ch27-trade` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `article-index-start-here` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+
+**Changed**
+
+- `india-mineral-oil-hsn-ch27-trade` — 106,001 → 105,779 bytes (-222)
+- `article-index-start-here` — 28,639 → 30,665 bytes (+2,026)
