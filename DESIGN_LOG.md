@@ -130,8 +130,23 @@ hero — `Revised <time datetime="…">…</time> · v1.0.0 · what changed` —
 optional `#changelog` list near the foot. The `<time>` element gives search
 engines a machine-readable `dateModified`; the visible line tells a reader the
 piece is maintained. `revision_line` is tracked as a design marker, so coverage
-is measurable: **0 of 90 posts carry it today** — it applies to new and revised
-posts from here, and is not worth back-filling across the archive by hand.
+is measurable: **0 of 90 posts carry it today**. It applies to new and revised
+posts from here rather than being back-filled across the archive by hand — but
+all **16 pending fix files** in `~/blog-consistency-check/fixes/` now carry it
+(`add_revision_line.py`), so coverage reaches 16/90 as that queue is applied.
+
+Two things that bit while wiring this up, both now guarded in code:
+
+- **The revision line must not feed back into its own classification.** It
+  contains a date and a version number, so the classifier read adding it as
+  "figures changed" ⇒ MAJOR. `visible_text()` and `headings()` strip the
+  `data-gs-revision-v1` paragraph and the `#changelog` block before comparing.
+- **Anchor the line on the *first* `</style>`, never the last.** `fix.py` appends
+  the light-lock and dark-panel guard as extra `<style>` blocks at the *end* of
+  the document, so the last one sits next to the AI disclosure — the line landed
+  at the foot of six posts before this was caught. `add_revision_line.py` now
+  also refuses any anchor past 50% of the document or within 500 characters of
+  the disclosure.
 
 ## 2026-08-06 — versioning added
 

@@ -384,3 +384,24 @@ Semantic versioning added. Posts carry version + version_history in meta/*.json;
 
 
 No changes.
+
+## 2026-08-06T09:52:46+05:30 — 90 posts live
+
+**Versions**
+
+- `rooftop-solar-is-working-household` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `rooftop-solar-is-working-household` — 10,743 → 10,743 bytes (+0)
+
+## 2026-08-06T09:52:52+05:30 — 90 posts live
+
+No changes.
+
+## 2026-08-06T09:57:57+05:30 — 90 posts live
+
+Revision line added to all 16 pending fix files (v1.0.1, PATCH — design repairs change no figures). Classifier now strips the revision line and #changelog block so version metadata cannot trigger its own MAJOR bump; add_revision_line.py anchors on the FIRST </style> and refuses any anchor past 50% of the document or within 500 chars of the AI disclosure.
+
+
+No changes.

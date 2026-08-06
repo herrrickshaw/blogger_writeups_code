@@ -135,19 +135,27 @@ def marker_delta(old, rec):
 FIRST_VERSION = "1.0.0"
 
 _DROP = re.compile(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", re.I)
+# The revision line and the revision-history block are *about* the version, so
+# they must not feed back into classifying it — their dates and version numbers
+# would otherwise read as "figures changed" and force a spurious MAJOR bump.
+_REVLINE = re.compile(r"<p\b[^>]*data-gs-revision-v1[^>]*>[\s\S]*?</p>", re.I)
+_REVBLOCK = re.compile(r"<div\b[^>]*id=[\"']changelog[\"'][^>]*>[\s\S]*?</div>", re.I)
 _TAG = re.compile(r"<[^>]+>")
 _NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
 _HEAD = re.compile(r"<h[1-4][^>]*>([\s\S]*?)</h[1-4]>", re.I)
 
 
 def visible_text(html_str):
-    s = _DROP.sub(" ", html_str)
+    s = _REVLINE.sub(" ", html_str)
+    s = _REVBLOCK.sub(" ", s)
+    s = _DROP.sub(" ", s)
     s = _TAG.sub(" ", s)
     s = html.unescape(s)
     return re.sub(r"\s+", " ", s).strip()
 
 
 def headings(html_str):
+    html_str = _REVBLOCK.sub(" ", html_str)
     return [re.sub(r"\s+", " ", _TAG.sub("", h)).strip() for h in _HEAD.findall(html_str)]
 
 
