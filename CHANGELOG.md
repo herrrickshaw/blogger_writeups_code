@@ -306,3 +306,7 @@ Tool fix: manifest re-keyed from slug to post id. Slug is derived from the URL a
 - `where-indias-forex-goes-country` — Where India's Forex Goes — Country Deficits & a Decade of Policy History
 - `where-indias-green-hydrogen-bets-are` — Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline
 - `whos-actually-building-mri-and-ct` — Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing
+
+## 2026-08-06T09:28:43+05:30 — 90 posts live
+
+No changes.
