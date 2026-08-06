@@ -106,3 +106,53 @@ The author advocated CNG tax reduction in a professional capacity at MPIDC
       a-tax-play-grow-ethanol-sgst-revenue, the-cbg-incentive-stack.
 - [ ] House elements: translate widget, index backlink, revision line
       (v1.0.0), AI disclosure last, after every `</script>`.
+
+---
+
+## Source check — 2026-08-06
+
+### Ghosh (2022), *Energy Economics* 113, "Impact of India's diesel subsidy reforms and pricing policy on growth and inflation"
+
+DOI `10.1016/j.eneco.2022.106195`. Verified via Crossref; cited 5 times.
+**Abstract not retrievable** — ScienceDirect returns 403 to non-browsers and
+OpenAlex holds no abstract for this record. ⚠ **Must be read before publishing.**
+
+Why it matters: a peer-reviewed paper on exactly this question, using
+(presumably) higher-frequency data and a structural model rather than 15 annual
+correlations. If it finds meaningful diesel→inflation transmission, our null is
+a frequency artefact and the article's framing changes. **Do not publish the
+"no transmission" reading until this paper is read.** Access via institutional
+login or the author's copy.
+
+### indmoney.com blog — the popular narrative, with no evidence
+
+Reviewed. It asserts the full causal chain — diesel → freight → food →
+CPI → RBI caution — and supplies **no pass-through magnitude, no CPI/WPI basket
+weights, no excise/VAT split, no freight cost share, and no citation of any
+kind.** Useful only as an example of the received wisdom this article is
+testing. Not citable.
+
+### PPAC consumption — diesel is the commercial fuel
+
+July 2026, thousand tonnes:
+
+| Product | Jul-26 | YoY |
+|---|---:|---:|
+| Diesel | 8,049 | +9.4% |
+| Petrol | 3,795 | +8.7% |
+| LPG | 2,373 | −17.4% |
+| ATF | 699 | −1.4% |
+
+**Diesel runs at ~2.1× petrol volume.** That asymmetry is the structural case:
+petrol is largely private mobility, diesel is freight, agriculture and
+industry. It is why diesel *should* transmit to prices even though our annual
+series cannot see it — and it is the strongest argument for targeting the
+commercial fleet in any CNG switch. ⚠ Confirm the fleet/sectoral split of
+diesel consumption from the PPAC ready reckoner before asserting shares.
+
+### Still needed
+
+- [ ] Ghosh (2022) full text — this is now the gating item
+- [ ] Diesel consumption by sector (freight / agriculture / gensets / private)
+- [ ] Excise + state VAT as a share of retail diesel, current
+- [ ] Monthly diesel↔CPI re-test with a Brent control
