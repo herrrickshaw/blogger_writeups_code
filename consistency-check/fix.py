@@ -155,6 +155,30 @@ def _lum(c):
     return (0.2126 * r + 0.7152 * g + 0.0722 * b) / 255
 
 
+# Selectors that are never a "panel", however dark their declared background is.
+# A panel is a bounded box inside the post. These are the document, the post
+# root, or a form control — forcing white text on them whitens everything they
+# contain, and the light-lock has already forced their background light, so the
+# result is white-on-white across the whole page. This is exactly what happened
+# to the mineral-oil post: a `body{background:#0b1220}` rule in the post CSS
+# produced `body,body *{color:#fff!important}` and hid 819 of 1,403 text nodes.
+_NEVER_PANEL = {
+    'body', 'html', ':root', '*', 'select', 'input', 'textarea', 'option',
+    '.post-body', '.artx', '.post', 'article', 'main',
+}
+
+
+def _is_panel(sel):
+    s = sel.strip().lower().rstrip('>+~ ').strip()
+    if s in _NEVER_PANEL:
+        return False
+    # a bare element selector (body, main, article) is document furniture;
+    # a class/id/descendant selector is a real panel.
+    if not any(c in s for c in '.#[:') and ' ' not in s:
+        return False
+    return True
+
+
 def dark_panel_guard(src):
     """Keep intentionally-dark panels, but stop the BW-override painting black
     text on them.
@@ -201,8 +225,16 @@ def dark_panel_guard(src):
         if sum(lums) / len(lums) < 0.42:          # dark panel by design
             for s in sel.split(','):
                 s = s.strip()
-                if s and len(s) < 80:
-                    dark_sels.append((s, bg.group(1).strip()))
+                if not s or len(s) >= 80:
+                    continue
+                if not _is_panel(s):
+                    continue
+                # Emit the RESOLVED colour, never the raw `var(--panel)`:
+                # the light-lock redefines those custom properties to the light
+                # palette, so a var() reference here resolves light while the
+                # companion rule forces white text — white-on-light by
+                # construction. This is what broke the mineral-oil post.
+                dark_sels.append((s, val.strip()))
     seen, uniq = set(), []
     for s, v in dark_sels:
         if s not in seen:
@@ -216,7 +248,7 @@ def dark_panel_guard(src):
         # then put light text on it. Both !important, both after the override.
         parts.append(f"{s}{{background:{orig}!important}}")
         parts.append(f"{s},{s} *{{color:#fff!important}}")
-        parts.append(f"{s} a{{color:#cfe3ff!important}}")
+        parts.append(f"{s} a,{s} a *{{color:#cfe3ff!important}}")
     return '\n<style>/*gs-dark-panel-guard*/' + "".join(parts) + '</style>'
 
 
