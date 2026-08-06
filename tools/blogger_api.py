@@ -268,9 +268,12 @@ def do_update(post_id, url, title, body, dry_run=False):
 def cmd_update(args):
     body = pathlib.Path(args.file).read_text(encoding="utf-8")
     p = find_post(args.slug)
+    title = args.title or p["title"]
     print(f"{args.slug}  id={p['id']}")
+    if args.title:
+        print(f"  title: {p['title']!r}\n      -> {args.title!r}")
     try:
-        ok = do_update(p["id"], p["url"], p["title"], body, args.dry_run)
+        ok = do_update(p["id"], p["url"], title, body, args.dry_run)
     except Ceiling as e:
         print(f"daily write ceiling reached: {e}")
         sys.exit(3)
@@ -355,6 +358,7 @@ def main():
 
     u = sub.add_parser("update"); u.add_argument("--slug", required=True)
     u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
+    u.add_argument("--title", help="also change the post title (the URL slug is fixed and will not change)")
     u.set_defaults(fn=cmd_update)
 
     i = sub.add_parser("insert", help="create a new post from an HTML file")
