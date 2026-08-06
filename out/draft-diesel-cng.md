@@ -156,3 +156,68 @@ diesel consumption from the PPAC ready reckoner before asserting shares.
 - [ ] Diesel consumption by sector (freight / agriculture / gensets / private)
 - [ ] Excise + state VAT as a share of retail diesel, current
 - [ ] Monthly diesel↔CPI re-test with a Brent control
+
+---
+
+## Diesel by end-use — PPAC / Nielsen, "All India Study on Sectoral Demand of Diesel & Petrol"
+
+Commissioned by PPAC, fieldwork by Nielsen India across **2,000+ retail outlets,
+150 districts, 16 states, four rounds** (Jan–Mar 2012, Jul–Sep 2012, Oct–Dec
+2012, Apr–Jun 2013). Report signed by Augustine Peter, DG PPAC, **20 December
+2013**.
+
+**Figure 1 — All-India end-use share, retail + direct sales combined:**
+
+| Segment | Share |
+|---|---:|
+| HCV / LCV | **28.25%** |
+| Cars & UVs — private | 13.15% |
+| Buses | 9.55% |
+| Cars & UVs — commercial | 8.94% |
+| 3-wheelers (passenger/goods) | 6.39% |
+| Railways | 3.24% |
+| Aviation / shipping | 0.48% |
+| **Transport total** | **~70%** |
+| Tractors, agri implements, agri pumpsets | **13.00%** |
+| Others (non-industry gensets) | 6.45% |
+| Industry — other purpose | 4.96% |
+| Industry — gensets | 4.06% |
+| Mobile towers | 1.54% |
+| **Non-transport total** | **~30%** |
+
+Report's own framing: **LCV + HCV + buses ≈ 38%**; cars and UVs ≈ 22%, of which
+private is "a little less than 60%"; agriculture ≈ 13%.
+
+Also from the foreword: diesel was **44% of the 157.1 MMT** of petroleum
+products consumed in 2012-13 (69.1 MMT) against petrol at 10%. Under-recoveries
+were ₹138,541 cr (2011-12) and ₹161,029 cr (2012-13), of which **diesel alone
+was 57.8%** — ₹173,253 cr across the two years.
+
+### 🔴 The caveat that has to be in the article
+
+**These shares are from 2012-13 fieldwork — thirteen years stale.** Two things
+have changed enough to break them:
+
+- **Diesel passenger cars have collapsed** post-BS-VI. A 13.15% private-car
+  share is certainly far lower now; several manufacturers exited diesel
+  entirely.
+- **Under-recovery is gone.** Diesel was deregulated in October 2014, ten
+  months after this report. The ₹173,253 cr subsidy framing describes a regime
+  that no longer exists.
+
+Use this study for **structure, not for current levels** — it establishes that
+diesel is overwhelmingly a commercial-freight and agricultural fuel, which is
+the point the CNG argument needs. Do not quote the percentages as today's
+numbers. ⚠ Look for a post-2020 sectoral update, or state plainly that the last
+authoritative end-use survey is 2013.
+
+### What this does for the CNG case
+
+The addressable segment is now sharply defined: **HCV/LCV + buses ≈ 38% of
+diesel**, concentrated on fixed routes and depot-based fleets — exactly the
+duty cycle where CNG/LNG refuelling infrastructure is tractable. Agriculture
+(13%) is not: dispersed, seasonal, no refuelling network. Private cars are
+self-solving.
+
+That is a far stronger argument than "diesel drives inflation", and it does not
+depend on a CPI relationship the data cannot show.
