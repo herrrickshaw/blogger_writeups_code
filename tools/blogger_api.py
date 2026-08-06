@@ -8,6 +8,7 @@ See docs/BLOGGER_API_RUNBOOK.md for the one-time OAuth setup.
     python3 tools/blogger_api.py whoami
     python3 tools/blogger_api.py get    --slug <slug>
     python3 tools/blogger_api.py update --slug <slug> --file <body.html> [--dry-run]
+    python3 tools/blogger_api.py insert --file <body.html> --title "..." [--draft]
     python3 tools/blogger_api.py bulk   --manifest <fixes/manifest.json> [--limit N]
 
 Exit codes:
@@ -276,6 +277,38 @@ def cmd_update(args):
     sys.exit(0 if ok else 2)
 
 
+def cmd_insert(args):
+    """Create and publish a new post. Blogger's web editor silently stops
+    responding under load; posts.insert returns a status code."""
+    body = pathlib.Path(args.file).read_text(encoding="utf-8")
+    if args.dry_run:
+        print(f"DRY RUN — would insert {len(body):,} bytes"
+              f"\n  title : {args.title}"
+              f"\n  status: {'DRAFT' if args.draft else 'LIVE'}")
+        return
+    payload = {"kind": "blogger#post", "title": args.title, "content": body}
+    q = "?isDraft=true" if args.draft else ""
+    try:
+        res = api(f"/blogs/{BLOG_ID}/posts{q}", data=payload, method="POST")
+    except Ceiling as e:
+        print(f"daily write ceiling reached: {e}")
+        sys.exit(3)
+    print(f"created id={res['id']}")
+    print(f"url     {res.get('url', '(draft — no public URL)')}")
+    if args.draft or not res.get("url"):
+        return
+    time.sleep(4)
+    # Strip script/style CONTENT before taking a probe: a naive tag-strip leaves
+    # CSS text, which Blogger reformats on save, so the probe never matches and
+    # a perfectly good publish reports as failed. That happened once.
+    probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
+    probe = re.sub(r"<[^>]+>", " ", probe)
+    probe = re.sub(r"\s+", " ", probe).strip()[:40]
+    ok, why = verify_live(res["url"], needle=probe)
+    print(f"    {'verified' if ok else 'PUBLISHED BUT VERIFY FAILED'}: {why}")
+    sys.exit(0 if ok else 2)
+
+
 def cmd_bulk(args):
     entries = json.loads(pathlib.Path(args.manifest).read_text())
     done = failed = 0
@@ -323,6 +356,13 @@ def main():
     u = sub.add_parser("update"); u.add_argument("--slug", required=True)
     u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
     u.set_defaults(fn=cmd_update)
+
+    i = sub.add_parser("insert", help="create a new post from an HTML file")
+    i.add_argument("--file", required=True)
+    i.add_argument("--title", required=True)
+    i.add_argument("--draft", action="store_true", help="create as a draft")
+    i.add_argument("--dry-run", action="store_true")
+    i.set_defaults(fn=cmd_insert)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)

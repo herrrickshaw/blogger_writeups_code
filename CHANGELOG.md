@@ -552,3 +552,12 @@ Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed wh
 - `fci-storage-scenario-capacity-stock-and` — 7,888 → 8,259 bytes (+371)
 - `india-grain-cultivation-fci-storage` — 72,125 → 72,546 bytes (+421)
 - `fci-grain-flow-procurement-storage` — 26,289 → 26,626 bytes (+337)
+
+## 2026-08-06T12:40:01+05:30 — 91 posts live
+
+Published: diesel/CPI/CNG article via the new posts.insert path.
+
+
+**Added**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **v1.0.0** — Diesel Doesn't Move the CPI. It Moves ₹40 a Litre Between Two Channels. (20,197 bytes)
