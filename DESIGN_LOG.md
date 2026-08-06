@@ -158,3 +158,44 @@ as a marker flip in `CHANGELOG.md`.
 
 Reverting a post to an earlier state is `git show <commit>:posts/<slug>.html`
 piped back into the editor — see `README.md`.
+
+## 2026-08-06 — the added layers were the bug (measured, not inferred)
+
+Decisive experiment on the worst post (mineral-oil), run in the live DOM:
+disable only the CSS layers this project added — the BW-override, the
+light-lock, the dark-panel guard — and leave the post's own CSS untouched.
+
+    before  795 / 1403 text nodes below 3:1
+    after     0 / 1403
+
+**Every one of the "fixes" was the problem.** The post's original CSS was
+internally consistent: it declared dark panels and white text together. Layering
+a BW-override (black text everywhere), then a light-lock (light backgrounds,
+which redefined the very custom properties the panels referenced), then a guard
+(white text on panels whose backgrounds had just been lightened) produced three
+mutually contradictory `!important` layers. Each fix was a response to the
+previous fix.
+
+**But stripping is not a universal cure.** The same experiment on
+`the-grain-value-loop-integrated-rice` gives 20 → 15, not 20 → 0. That post has a
+genuine pre-existing defect: its inverted media query redefines `:root` text
+tokens to a dark-surface palette (`--text:#e8e8e8`, `--ink-2`, `--ink-3`), and
+because an inverted query applies in LIGHT mode those pale tokens land on light
+surfaces. Removing the query removes the accident that made it look deliberate.
+
+So there are two populations:
+
+| | posts | cure |
+|---|---|---|
+| Damaged by the added layers | those carrying light-lock / guard | strip the layers |
+| Own palette assumes a dark surface | the 37 carrying an inverted media query | needs a real palette, not a strip |
+
+Layer census across 90 live posts: 58 typo-unify · 37 BW-override · 37 inverted
+media query · 12 light-lock · 4 dark-panel guard. 35 posts carry three layers,
+5 carry four, 32 carry none.
+
+**Conclusion, and the direction from here:** per-post palettes cannot be
+reconciled one post at a time — that is what produced this mess. Colour must be
+defined once, centrally, and post bodies must stop declaring it. Structure and
+class names stay in the posts; every colour token moves to a single theme
+stylesheet. Posts will look uniform afterwards; that is the intended trade.
