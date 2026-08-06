@@ -13,23 +13,6 @@
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
 </style>
 <style>
-/* BW-OVERRIDE: black text on white background */
-@media all {
-  body{background:#fff!important}
-  .artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide{background:#fff!important;color:#000!important}
-  .artx p,.artx li,.artx td,.artx div,.artx span:not(.sig):not(.chip):not(.cnt):not(.badge),
-  .fertx p,.fertx li,.fertx td,.fertx div,
-  .ecx p,.ecx li,.ecx td,.ecx div,
-  .mapx p,.mapx li,.mapx td,.mapx div,
-  .idx p,.idx li,.idx td,
-  .wrap p,.wrap li,.wrap td,
-  .slide p,.slide li,.slide td
-  {color:#000!important}
-  .stat{background:#f6f6f4!important}
-  .stat b{color:#000!important}
-  .stat span{color:#333!important}
-}
-</style><style>
 /* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
 :root{
   --oc-gray-0:#f8f9fa;--oc-gray-1:#f1f3f5;--oc-gray-2:#e9ecef;--oc-gray-3:#dee2e6;--oc-gray-4:#ced4da;
@@ -43,13 +26,9 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
   --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:var(--oc-gray-9);--text-mut:var(--oc-gray-6);
 }
-@media not all and (prefers-color-scheme:dark){
-  :root{--surface:#14161a;--surface-alt:#1b1e24;--border:#2c2e36;--text:#e8e8e8;--text-mut:#9a9a9a}
-}
-
 
 :root { --bg:#fff; --fg:#1a1a1a; --mut:#666; --card:#f6f6f4; --acc:#0b5cad; --bd:#e2e2de; }
-@media not all and (prefers-color-scheme:dark) { :root { --bg:#14151a; --fg:#e8e8e8; --mut:#9a9a9a; --card:#1e2027; --acc:#6ab0f3; --bd:#2c2e36; } }
+
 body { margin:0; font:15px/1.5 -apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--fg); }
 .wrap { max-width:880px; margin:0 auto; padding:32px 20px 60px; }
 h1 { font-size:1.5em; margin:0 0 4px; }

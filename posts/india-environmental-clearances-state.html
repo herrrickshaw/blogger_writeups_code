@@ -13,23 +13,6 @@
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
 </style>
 <style>
-/* BW-OVERRIDE: black text on white background */
-
-  body{background:#fff!important}
-  .artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide{background:#fff!important;color:#000!important}
-  .artx p,.artx li,.artx td,.artx div,.artx span:not(.sig):not(.chip):not(.cnt):not(.badge),
-  .fertx p,.fertx li,.fertx td,.fertx div,
-  .ecx p,.ecx li,.ecx td,.ecx div,
-  .mapx p,.mapx li,.mapx td,.mapx div,
-  .idx p,.idx li,.idx td,
-  .wrap p,.wrap li,.wrap td,
-  .slide p,.slide li,.slide td
-  {color:#000!important}
-  .stat{background:#f6f6f4!important}
-  .stat b{color:#000!important}
-  .stat span{color:#333!important}
-
-</style><style>
 /* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
 :root{
   --oc-gray-0:#f8f9fa;--oc-gray-1:#f1f3f5;--oc-gray-2:#e9ecef;--oc-gray-3:#dee2e6;--oc-gray-4:#ced4da;
@@ -43,9 +26,6 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
   --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:#000;--text-mut:#333;
 }
-@media not all and (prefers-color-scheme:dark){
-  :root{--surface:#14161a;--surface-alt:#1b1e24;--border:#2c2e36;--text:#e8e8e8;--text-mut:#9a9a9a}
-}
 
 .ecx{font-family:-apple-system,'Segoe UI',sans-serif;max-width:860px;margin:0 auto;line-height:1.6;color:#14180f}
 .ecx .hero{background:linear-gradient(135deg,#1f5f5b,#0f6e56);color:#fff;padding:24px;border-radius:12px;margin-bottom:20px}
@@ -58,7 +38,7 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 .ecx ul{margin:10px 0 10px 20px}
 .ecx li{margin-bottom:8px}
 .ecx .rel a{color:#1f5f5b}
-@media not all and (prefers-color-scheme:dark){.ecx{color:#e6eae7}.ecx .stat{background:#1d2b23}.ecx .stat b{color:#7bc496}}
+
 .artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
 </style>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>

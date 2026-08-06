@@ -1,0 +1,154 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+</style>
+<style>
+/* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
+:root{
+  --oc-gray-0:#f8f9fa;--oc-gray-1:#f1f3f5;--oc-gray-2:#e9ecef;--oc-gray-3:#dee2e6;--oc-gray-4:#ced4da;
+  --oc-gray-5:#adb5bd;--oc-gray-6:#868e96;--oc-gray-7:#495057;--oc-gray-8:#343a40;--oc-gray-9:#212529;
+  --sp-1:.25rem;--sp-2:.5rem;--sp-3:.75rem;--sp-4:1rem;--sp-5:1.5rem;--sp-6:2rem;--sp-7:3rem;
+  --radius:12px;--radius-sm:8px;
+  --shadow-1:0 1px 2px rgba(0,0,0,.04);--shadow-2:0 2px 8px rgba(0,0,0,.06);
+  --step--1:clamp(.78rem,.75rem + .15vw,.85rem);
+  --step-0:clamp(.92rem,.88rem + .2vw,1rem);
+  --step-1:clamp(1.05rem,1rem + .3vw,1.2rem);
+  --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
+  --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:#000;--text-mut:#333;
+}
+
+:root{--bg:#eef1ea;--surface:#fcfcfa;--ink:#14180f;--ink2:#4f5348;--muted:#82867a;--rule:#d7dace;
+ --accent:#1f5f5b;--g:#2f7d4f;--p:#c98a1f;--d:#a5402c;--x:#9a9e90;--chip:#eef2ec;
+ --serif:"Iowan Old Style",Georgia,serif;--mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+ --sans:-apple-system,"Segoe UI",Helvetica,sans-serif;}
+
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.55}
+.wrap{max-width:1000px;margin:0 auto;padding:40px 20px 60px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1{font-family:var(--serif);font-weight:500;font-size:clamp(25px,3.3vw,34px);margin:6px 0 8px}
+h2{font-family:var(--serif);font-weight:500;font-size:21px;margin:34px 0 6px}
+.dek{color:var(--ink2);font-size:15px;max-width:78ch}
+a{color:var(--accent)}
+.cards{display:grid;grid-template-columns:1fr;gap:16px;margin:22px 0}
+@media(min-width:760px){.cards{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:16px}
+.ctop{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+.clabel{font-family:var(--serif);font-size:18px}.ccode{font-family:var(--mono);font-size:10.5px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
+.cbig{font-family:var(--serif);font-size:30px;color:var(--accent);line-height:1}
+.bar{display:flex;height:12px;border-radius:6px;overflow:hidden;margin:12px 0 8px;background:var(--chip);gap:1.5px}
+.seg{display:block;height:100%}.seg.g{background:var(--g)}.seg.p{background:var(--p)}.seg.d{background:var(--d)}.seg.x{background:var(--x)}
+.crow{display:flex;flex-wrap:wrap;gap:10px;font-size:11.5px;color:var(--ink2)}
+.crow b{font-family:var(--mono)}.g{color:var(--g)}.p{color:var(--p)}.d{color:var(--d)}.x{color:var(--x)}
+.grate{font-size:12px;color:var(--muted);margin-top:10px;border-top:1px dashed var(--rule);padding-top:8px}
+.forms{font-size:12px;color:var(--ink2);margin-top:8px}.forms b{font-family:var(--mono);color:var(--ink)}
+.big-forest{background:var(--surface);border:1px solid var(--rule);border-left:4px solid var(--g);
+ border-radius:10px;padding:16px 18px;margin:8px 0 4px;display:flex;flex-wrap:wrap;gap:26px;align-items:baseline}
+.big-forest .n{font-family:var(--serif);font-size:34px;color:var(--g)}.big-forest .l{font-size:12.5px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:13.5px;margin-top:6px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--rule)}
+th{font-family:var(--mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted);font-weight:400}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums;font-family:var(--mono);font-size:12.5px}
+td.muted{color:var(--muted)}.scroll{overflow-x:auto}
+.two{display:grid;grid-template-columns:1fr;gap:22px}@media(min-width:820px){.two{grid-template-columns:1.5fr 1fr}}
+.note{color:var(--muted);font-size:12.5px;border-top:1px dashed var(--rule);margin-top:34px;padding-top:14px;max-width:84ch}
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="wrap">
+<div class="eyebrow">PARIVESH 2.0 · beyond Environmental Clearance · generated 2026-07-22</div>
+<h1>India's other green clearances — Forest, Wildlife & CRZ</h1>
+<p class="dek">The same open PARIVESH API that serves Environmental Clearances serves three more central
+clearances. Together they are the full green-clearance funnel a project passes through — and Forest Clearance
+carries something EC does not: <b>the actual area of land</b>, in hectares.</p>
+
+<div class="cards">
+<div class="card">
+ <div class="ctop"><div><div class="clabel">Forest Clearance</div>
+   <div class="ccode">FC · majorClearanceType</div></div>
+   <div class="cbig">28,999</div></div>
+ <div class="bar"><span class="seg g" style="width:21.15%"></span><span class="seg p" style="width:29.24%"></span><span class="seg d" style="width:9.18%"></span><span class="seg x" style="width:40.43%"></span></div>
+ <div class="crow"><span><b class="g">6,134</b> granted</span>
+   <span><b class="p">8,479</b> in process</span>
+   <span><b class="d">2,663</b> dead</span>
+   <span><b class="x">11,723</b> delisted</span></div>
+ <div class="grate">Grant rate of decided (granted ÷ granted+dead): <b>69.7%</b> · 36 states/UTs <span style="font-size:.8em">(+1 legacy/unknown category in the source data)</span></div>
+ <div class="forms"><b>25,546</b> fresh (Form-A) · <b>2,097</b> re-diversion (Form-E) · <b>213</b> renewal · <b>261</b> transfer</div></div>
+<div class="card">
+ <div class="ctop"><div><div class="clabel">Wildlife Clearance</div>
+   <div class="ccode">WLC · majorClearanceType</div></div>
+   <div class="cbig">4,919</div></div>
+ <div class="bar"><span class="seg g" style="width:10.51%"></span><span class="seg p" style="width:87.80%"></span><span class="seg d" style="width:1.69%"></span></div>
+ <div class="crow"><span><b class="g">517</b> granted</span>
+   <span><b class="p">4,319</b> in process</span>
+   <span><b class="d">83</b> dead</span>
+   <span><b class="x">0</b> delisted</span></div>
+ <div class="grate">Grant rate of decided: <b>10.7%</b> · 36 states/UTs (+1 legacy/unknown category)</div>
+ </div>
+<div class="card">
+ <div class="ctop"><div><div class="clabel">CRZ Clearance</div>
+   <div class="ccode">CRZ · majorClearanceType</div></div>
+   <div class="cbig">2,264</div></div>
+ <div class="bar"><span class="seg g" style="width:20.67%"></span><span class="seg p" style="width:45.27%"></span><span class="seg d" style="width:3.62%"></span><span class="seg x" style="width:30.43%"></span></div>
+ <div class="crow"><span><b class="g">468</b> granted</span>
+   <span><b class="p">1,025</b> in process</span>
+   <span><b class="d">82</b> dead</span>
+   <span><b class="x">689</b> delisted</span></div>
+ <div class="grate">Grant rate of decided: <b>31.3%</b> · 17 states/UTs</div>
+ </div>
+</div>
+
+<h2>Forest Clearance is a second land-creation channel</h2>
+<p class="dek">Every Environmental Clearance answers "may this project pollute?"; Forest Clearance answers "may
+this project <i>take</i> this forest land?" — so it is the one register that measures land <b>quantum</b>.
+Of the 1.05 million ha in the pipeline (inflated by delisted applications and one ~74,000-ha outlier), the
+trustworthy figure is the forest land with <b>final diversion orders granted</b>:</p>
+<div class="big-forest">
+ <div><div class="n">49,641 ha</div><div class="l">forest land — final diversion granted</div></div>
+ <div><div class="n">122,666</div><div class="l">acres, granted</div></div>
+ <div><div class="n">6,134</div><div class="l">approved proposals of 28,999</div></div>
+</div>
+<p class="dek" style="font-size:13px">For scale: the entire national <i>industrial</i> land bank shows ~253,720
+developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026). Forest diversion adds ~122,666 more acres of granted land-use
+change — a different channel (mining, linear infra, hydro), on a different clock.</p>
+
+<div class="two">
+<div><h2>Forest area by state</h2><div class="scroll"><div class="tblwrap"><table>
+<thead><tr><th>State / UT</th><th class="num">Granted ha</th><th class="num">Granted acres</th><th class="num">Pipeline ha</th></tr></thead>
+<tbody><tr><td>Tripura</td><td class="num">44</td><td class="num">108</td><td class="num muted">184,758</td></tr><tr><td>Chhattisgarh</td><td class="num">8,061</td><td class="num">19,920</td><td class="num muted">146,970</td></tr><tr><td>Madhya Pradesh</td><td class="num">21,146</td><td class="num">52,252</td><td class="num muted">146,905</td></tr><tr><td>Maharashtra</td><td class="num">1,087</td><td class="num">2,686</td><td class="num muted">88,062</td></tr><tr><td>Andhra Pradesh</td><td class="num">738</td><td class="num">1,824</td><td class="num muted">71,232</td></tr><tr><td>Assam</td><td class="num">7,746</td><td class="num">19,141</td><td class="num muted">49,780</td></tr><tr><td>Odisha</td><td class="num">1,611</td><td class="num">3,980</td><td class="num muted">44,518</td></tr><tr><td>Arunachal Pradesh</td><td class="num">1,084</td><td class="num">2,679</td><td class="num muted">42,080</td></tr><tr><td>Rajasthan</td><td class="num">1,343</td><td class="num">3,320</td><td class="num muted">35,289</td></tr><tr><td>Meghalaya</td><td class="num">9</td><td class="num">21</td><td class="num muted">34,793</td></tr><tr><td>Jharkhand</td><td class="num">17</td><td class="num">42</td><td class="num muted">26,582</td></tr><tr><td>Karnataka</td><td class="num">81</td><td class="num">200</td><td class="num muted">26,109</td></tr></tbody></table></div></div></div>
+<div><h2>Top user agencies (FC)</h2><div class="scroll"><div class="tblwrap"><table>
+<thead><tr><th>Agency</th><th class="num">Proposals</th></tr></thead><tbody><tr><td>MAHESH NAIR <span style="font-size:.8em;color:#666">(likely a data-entry artifact — an individual's name, not an agency)</span></td><td class="num">1,697</td></tr><tr><td>Jal Shakti Department</td><td class="num">1,223</td></tr><tr><td>HIMACHAL PRADESH PUBLIC WORK DEPARTMENT</td><td class="num">769</td></tr><tr><td>Public Works Department</td><td class="num">708</td></tr><tr><td>BHARAT SANCHAR NIGAM LIMITED</td><td class="num">409</td></tr><tr><td>Rural Development</td><td class="num">384</td></tr><tr><td>JIO DIGITAL FIBRE PRIVATE LTD</td><td class="num">321</td></tr><tr><td>Department of Irrigation</td><td class="num">279</td></tr></tbody></table></div></div></div>
+</div>
+
+<h2>What the three funnels say</h2>
+<p class="dek">
+<b>Forest (69.7% of decided granted)</b> — 88% are fresh Form-A diversions, but
+40% of the register is auto-delisted, so the live decided pool is smaller than the headline count.
+<b>Wildlife (10.7% granted)</b> is the real bottleneck: 4,319
+of 4,919 sit in process, most "Pending at Proponent" (the ball is with the project applicant, not the regulator) — projects near protected areas stall here for the
+National/State Board for Wildlife recommendation. <b>CRZ (31.3%)</b> is small and
+coastal (17 states/UTs) — the gate for ports, coastal industry and waterfront projects.</p>
+
+<div class="note">
+Source — <b>PARIVESH 2.0</b> open API (<code>advanceSearchData?majorClearanceType=2|3|4</code>), full Forest /
+Wildlife / CRZ registers, fetched 2026-07-22. Grant rate = granted ÷ (granted + in-process); 'dead'
+(rejected/withdrawn/returned) and 'delisted' (PARIVESH auto-cleanup) are excluded from the denominator, as in the
+EC analysis. FC 'granted' = "Final Diversion Order Issued" or "Stage-II Accorded"; Stage-I in-principle is not
+counted. The forest-area pipeline total mixes all statuses and is skewed by a single ~74,000-ha outlier — the
+granted figure is the reliable one. Pipeline snapshot, not a time series. Data + refresh:
+<a href="https://github.com/herrrickshaw/india-ec-subsector-analysis">github.com/herrrickshaw/india-ec-subsector-analysis</a>.
+Corrections are displayed, never silent.
+</div>
+</div>
+<div class="disc-override" style="margin-top:24px;padding:14px 16px;border-top:1px solid #ddd;font-size:.82em;color:#444;background:#f8f8f6;line-height:1.5"><strong>Disclaimer:</strong> This analysis is based on publicly available government and market data cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice. Figures may be revised as source data is updated — verify against the original source before relying on them for decisions.<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+</div>

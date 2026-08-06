@@ -26,10 +26,6 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
   --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:#000;--text-mut:#333;
 }
-@media not all and (prefers-color-scheme:dark){
-  :root{--surface:#14161a;--surface-alt:#1b1e24;--border:#2c2e36;--text:#e8e8e8;--text-mut:#9a9a9a}
-}
-
 
   :root{
     --paper:#F6F8F7; --surface:#FFFFFF; --surface-2:#EEF2F0; --ink:#16211D; --muted:#5A6B63;
@@ -41,13 +37,7 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
     --font-mono:"SF Mono",ui-monospace,"Cascadia Mono","Roboto Mono",Menlo,Consolas,monospace;
     --shadow:0 1px 2px rgba(16,33,29,.05),0 8px 26px rgba(16,33,29,.06);
   }
-  @media not all and (prefers-color-scheme:dark){:root{
-    --paper:#0C1411; --surface:#121D18; --surface-2:#17231D; --ink:#E8EEEA; --muted:#93A69D;
-    --line:#233229; --line-strong:#31463D; --accent:#39B0B8;
-    --naphtha:#39B0B8; --aromatic:#CC9A55; --gas:#8CA096;
-    --s5:#E0705F; --s4:#E08A54; --s3:#DBA850; --s2:#63BE84; --s1:#45B7B7; --s0:#8CA096;
-    --shadow:0 1px 2px rgba(0,0,0,.3),0 10px 30px rgba(0,0,0,.35);
-  }}
+  
   *{box-sizing:border-box}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);line-height:1.5;-webkit-font-smoothing:antialiased;}
   .wrap{max-width:1160px;margin:0 auto;padding:clamp(26px,4vw,56px) clamp(16px,3.5vw,36px) 90px;}
@@ -88,7 +78,6 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 .artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
 </style>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 
 <div class="wrap">
   <header>

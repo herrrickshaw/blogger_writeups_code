@@ -13,23 +13,6 @@
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
 </style>
 <style>
-/* BW-OVERRIDE: black text on white background */
-
-  body{background:#fff!important}
-  .artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide{background:#fff!important;color:#000!important}
-  .artx p,.artx li,.artx td,.artx div,.artx span:not(.sig):not(.chip):not(.cnt):not(.badge),
-  .fertx p,.fertx li,.fertx td,.fertx div,
-  .ecx p,.ecx li,.ecx td,.ecx div,
-  .mapx p,.mapx li,.mapx td,.mapx div,
-  .idx p,.idx li,.idx td,
-  .wrap p,.wrap li,.wrap td,
-  .slide p,.slide li,.slide td
-  {color:#000!important}
-  .stat{background:#f6f6f4!important}
-  .stat b{color:#000!important}
-  .stat span{color:#333!important}
-
-</style><style>
 /* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
 :root{
   --oc-gray-0:#f8f9fa;--oc-gray-1:#f1f3f5;--oc-gray-2:#e9ecef;--oc-gray-3:#dee2e6;--oc-gray-4:#ced4da;
@@ -43,23 +26,13 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
   --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:#000;--text-mut:#333;
 }
-@media not all and (prefers-color-scheme:dark){
-  :root{--surface:#14161a;--surface-alt:#1b1e24;--border:#2c2e36;--text:#e8e8e8;--text-mut:#9a9a9a}
-}
-
 
   :root {
     --paper:#fbf9f5; --ink:#211e19; --ink-2:#5d564b; --jute:#7d6a4e;
     --stencil:#1a6b45; --stencil-soft:#e7f0ea; --hair:#e3ddd1; --band:#f4f0e8;
     --warn:#a34b22; --tab:#f7f4ee;
   }
-  @media not all and (prefers-color-scheme:dark) {
-    :root:where(:not([data-theme="light"])) {
-      --paper:#161410; --ink:#ece7dd; --ink-2:#a89e8e; --jute:#b09a77;
-      --stencil:#46a878; --stencil-soft:#1d2b23; --hair:#2e2a24; --band:#1d1a15;
-      --warn:#d97b4d; --tab:#1b1815;
-    }
-  }
+  
   * { box-sizing:border-box; margin:0; }
   body { background:var(--paper); color:var(--ink);
     font:18px/1.65 "Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif; }
@@ -127,7 +100,6 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 .artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th,tr.hl td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
 </style>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-
 
 <div class="wrap">
 <header class="masthead"><div class="col">

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-06T11:09:41+05:30",
+  "snapshot": "2026-08-06T11:31:49+05:30",
   "count": 90,
   "posts": {
     "1157999291079244419": {
@@ -8,10 +8,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-05T10:02:31.442+05:30",
+      "updated": "2026-08-06T11:29:10.261+05:30",
       "labels": [],
-      "bytes": 11491,
-      "sha256": "0b2293322259b75719b251934e1efc24dcb8fdc5fc72c5d726341c704122f167",
+      "bytes": 8695,
+      "sha256": "09ab870bbd729ab5bdf033eba5cb5c288e0bad237146157cadccd0fef1e4585c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20,10 +20,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31,6 +31,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            11491,
+            8695
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -40,10 +58,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-05T06:05:21.559+05:30",
+      "updated": "2026-08-06T11:30:12.005+05:30",
       "labels": [],
-      "bytes": 74654,
-      "sha256": "35135c7895e5e4baa2460739acb685337c5ab95ddbd85cce55f266e1ea211b5b",
+      "bytes": 73871,
+      "sha256": "5db07a221b81955f71a8b79f49d6e0cda9c3fb7fb3a5fd68ffd24536968ebda9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -52,10 +70,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -63,6 +81,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            74654,
+            73871
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -200,10 +236,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
       "slug": "priority-export-destinations-by-growth",
       "published": "2026-08-02T13:49:40.948+05:30",
-      "updated": "2026-08-05T06:27:28.140+05:30",
+      "updated": "2026-08-06T11:27:41.051+05:30",
       "labels": [],
-      "bytes": 42475,
-      "sha256": "6c01fcc0493aeafe298f8b2b96849944fa20265d9055b32646efebdacff7b39c",
+      "bytes": 32503,
+      "sha256": "6cce0e43ff7e58c6263c01667566aa66078e501912aa52680f3799addeb1d1cc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -212,10 +248,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -223,6 +259,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            42475,
+            32503
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -232,10 +286,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
       "slug": "the-recycling-lottery-playbook-norways",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-08-05T06:11:16.215+05:30",
+      "updated": "2026-08-06T11:29:58.736+05:30",
       "labels": [],
-      "bytes": 20812,
-      "sha256": "95aedcee96bc59276aa185e84a3e5d2057da847255bd7de0947e000e180e25ea",
+      "bytes": 17600,
+      "sha256": "5709b9075f57ce8f7e5f315a791fd0ea049069e5cd2a3c676035b56219c419d8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -244,10 +298,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -255,6 +309,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            20812,
+            17600
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -264,10 +336,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-05T18:17:13.292+05:30",
+      "updated": "2026-08-06T11:22:15.162+05:30",
       "labels": [],
-      "bytes": 20076,
-      "sha256": "753062aa6e1289771a44cbe93de01363016439a1bdc70fc41c8cf383ff5a3536",
+      "bytes": 14855,
+      "sha256": "9308553e69d571950bf579889a4771417055679314a14781d79794b6504cf0ca",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -276,10 +348,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -287,6 +359,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            20076,
+            14855
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -456,12 +546,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
       "slug": "ethanol-blending-omc-books-e20-today-vs",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-06T08:44:13.431+05:30",
+      "updated": "2026-08-06T11:23:45.922+05:30",
       "labels": [],
-      "bytes": 35495,
-      "sha256": "5e76cbad52bc079490a5cb96d82d90dc5be03299d25d1045ee561bd5e02a15d8",
+      "bytes": 33768,
+      "sha256": "02e591d5b6458a9996aabacfb4988693be7016894a5e0033f7d7c3663817ceff",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
@@ -471,7 +561,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -479,6 +569,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            35495,
+            33768
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -584,12 +692,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
       "slug": "imported-fertiliser-fuel-prices-diesel",
       "published": "2026-08-02T13:50:50.526+05:30",
-      "updated": "2026-08-05T21:55:32.043+05:30",
+      "updated": "2026-08-06T11:25:26.854+05:30",
       "labels": [],
-      "bytes": 34574,
-      "sha256": "d531a44a3f48ff7f34a2d4cb5cb55bbf0b8654ed52f6f9a5f9952205daab3162",
+      "bytes": 24474,
+      "sha256": "fa80fcb1d9a18bdc972cdf0f4676dd8e116a23b4878ffab1ecf3710e8271b8e5",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
@@ -599,7 +707,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -607,6 +715,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            34574,
+            24474
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -616,22 +742,22 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
       "slug": "indias-trade-balance-hsn-wise",
       "published": "2026-08-02T14:00:15.886+05:30",
-      "updated": "2026-08-05T20:53:58.235+05:30",
+      "updated": "2026-08-06T11:27:16.843+05:30",
       "labels": [],
-      "bytes": 49846,
-      "sha256": "d05eb5b9e12f56056c1aa9b628a6475195e826641070ece4ef45ec4b19c96cdd",
+      "bytes": 48248,
+      "sha256": "2796b5ecaf97ddc95de862a2624222f0fe8bfcb4de6349d064ad1b0d88d15405",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -639,6 +765,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            49846,
+            48248
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -680,10 +828,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-05T05:03:38.359+05:30",
+      "updated": "2026-08-06T11:22:36.391+05:30",
       "labels": [],
-      "bytes": 31222,
-      "sha256": "442b43b8791cba2e2a4f8e4ef23845e528f5cb86ff64d079d11683425da41a45",
+      "bytes": 24684,
+      "sha256": "d3947f6fe5af90ea7354261b9df22e6c83affd5a2c385d61d80b60329ba10c99",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -692,10 +840,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -703,6 +851,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            31222,
+            24684
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -744,13 +910,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
       "slug": "priority-trade-partners-by-import",
       "published": "2026-08-02T14:01:14.860+05:30",
-      "updated": "2026-08-06T08:36:07.960+05:30",
+      "updated": "2026-08-06T11:27:52.808+05:30",
       "labels": [],
-      "bytes": 45459,
-      "sha256": "dee743f399a3fa57712c7642984499e3c052f339f437943e08c5ec177c2f1d5e",
+      "bytes": 35245,
+      "sha256": "76d7d12fcfcde2db504cfa2ed29547f47590eee9b1a4a16defd78dab5fb33689",
       "markers": {
-        "light_lock": true,
-        "dark_panel_guard": true,
+        "light_lock": false,
+        "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
@@ -759,7 +925,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -767,6 +933,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            45459,
+            35245
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "dark_panel_guard": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -808,10 +996,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
       "slug": "india-grain-cultivation-fci-storage",
       "published": "2026-07-31T10:10:00.000+05:30",
-      "updated": "2026-08-05T09:41:45.548+05:30",
+      "updated": "2026-08-06T11:26:22.297+05:30",
       "labels": [],
-      "bytes": 76404,
-      "sha256": "9167a05e76d4cc9698780695b117c27b56d15e7af03c34a18587b9148d97ddeb",
+      "bytes": 72125,
+      "sha256": "29211c186383bdd05345f878b0c355e6f748677d10212d4e494e0288eec47ce5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -820,10 +1008,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -831,6 +1019,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            76404,
+            72125
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -904,10 +1110,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
       "slug": "five-year-synthesis-trade-currency",
       "published": "2026-08-02T13:51:50.629+05:30",
-      "updated": "2026-08-05T06:30:11.908+05:30",
+      "updated": "2026-08-06T11:24:20.078+05:30",
       "labels": [],
-      "bytes": 36390,
-      "sha256": "2922ddc9f323d78c7de5d5d2761056e3cf0d3d1363d530cf655f16646b8bbc59",
+      "bytes": 34945,
+      "sha256": "83fe420b18a30332231f89d798b1b3adfc9546d73650f4fe0453171a52627173",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -916,10 +1122,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -927,6 +1133,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            36390,
+            34945
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -936,10 +1160,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
       "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-05T09:59:53.391+05:30",
+      "updated": "2026-08-06T11:28:58.968+05:30",
       "labels": [],
-      "bytes": 12999,
-      "sha256": "fac400b2071454744758795783abfa2786b1327330564c0ee250566b53e273dc",
+      "bytes": 9985,
+      "sha256": "504f705bdb84817ac0f4086d12680ce22bf1548311ad75f880bb07918a63aa08",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -948,10 +1172,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -959,6 +1183,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            12999,
+            9985
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -968,10 +1210,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
       "slug": "import-dependent-sectors-vs-government",
       "published": "2026-08-02T14:03:17.793+05:30",
-      "updated": "2026-08-05T09:26:04.616+05:30",
+      "updated": "2026-08-06T11:25:14.793+05:30",
       "labels": [],
-      "bytes": 27799,
-      "sha256": "0d881579d2458df5ad7bde1fd9bd71e5d07c161406f469315b8956ec5ae90302",
+      "bytes": 18676,
+      "sha256": "439ed77b1aa3a803fb6f0207e817f61b4a2ad13181e2dee4e7253f4458783b8b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -980,10 +1222,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -991,6 +1233,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            27799,
+            18676
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1096,10 +1356,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
       "slug": "indias-petrochemical-import-tree-from",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-05T10:07:25.135+05:30",
+      "updated": "2026-08-06T11:26:43.654+05:30",
       "labels": [],
-      "bytes": 16531,
-      "sha256": "26d5946cfb8fb71b891cbb8eb93ad10e151d60742632a8bbbe015785cc57a61c",
+      "bytes": 15954,
+      "sha256": "2363fd06152dc0d45ba47ee5a925e14967fd6cf8ed56e83a65830cff6204628c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1108,10 +1368,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1119,6 +1379,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            16531,
+            15954
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1160,10 +1438,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
       "slug": "india-forest-wildlife-crz-clearances",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:09:04.887+05:30",
+      "updated": "2026-08-06T11:26:00.707+05:30",
       "labels": [],
-      "bytes": 15545,
-      "sha256": "b3aa2670cd45258ad5d3c3f36b07c2de5d56fda891f4247ee6f4cef15c39247a",
+      "bytes": 14546,
+      "sha256": "d14be82be6690c478ec87dcaf6e7ab73f0450f4cd9a554d2fbc030cbea30a62e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1172,10 +1450,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1183,6 +1461,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15545,
+            14546
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1224,10 +1520,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-05T09:43:37.168+05:30",
+      "updated": "2026-08-06T11:23:57.349+05:30",
       "labels": [],
-      "bytes": 31821,
-      "sha256": "4ebd5cc73714a172c46839c98f3817e4098481fee9e38edd8859c7144eaab00e",
+      "bytes": 26289,
+      "sha256": "478f90bbcb62033ee36335a9254d9bb670ac16251e74087b094a54c7040c8bbc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1236,10 +1532,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1247,6 +1543,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            31821,
+            26289
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1320,10 +1634,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
       "slug": "iem-conversion-historical-performance",
       "published": "2026-08-02T13:07:57.507+05:30",
-      "updated": "2026-08-05T06:43:11.265+05:30",
+      "updated": "2026-08-06T11:24:54.745+05:30",
       "labels": [],
-      "bytes": 13351,
-      "sha256": "a4190780783fc0a797bfa6443701feffe40266c4f7eabb5c2fe54981a5764f3a",
+      "bytes": 13026,
+      "sha256": "17b3f294ee5bfce14a69d5642611c9beb70d8750fe412f6dc1b3df3c70781036",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1332,10 +1646,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1343,6 +1657,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            13351,
+            13026
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1352,10 +1684,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import--4751284523575450171",
       "published": "2026-08-01T09:25:00.000+05:30",
-      "updated": "2026-08-05T05:10:13.847+05:30",
+      "updated": "2026-08-06T11:31:25.986+05:30",
       "labels": [],
-      "bytes": 19403,
-      "sha256": "a757662c10487eeb12c61cc8aa4ed4f6b49622ccb70fa04f49d7a587fc9fc365",
+      "bytes": 14369,
+      "sha256": "252678f76b0318f7fc87aff6e01e299f6a02faf207fb886bd5ac6827f249be73",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1364,10 +1696,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1375,6 +1707,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            19403,
+            14369
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1384,10 +1734,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
       "slug": "india-trade-sector-policy",
       "published": "2026-07-21T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:10:03.709+05:30",
+      "updated": "2026-08-06T11:26:34.184+05:30",
       "labels": [],
-      "bytes": 15877,
-      "sha256": "7ae4e45c5e2faf10dc05683be3fbc4d5c1d24756c951390b10d0b95d02f6555e",
+      "bytes": 11680,
+      "sha256": "532e644abbd0fa4b0db91fd6c819ecdb330e1451859dddf685139ff64d1bc3b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1396,10 +1746,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1407,6 +1757,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15877,
+            11680
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1416,10 +1784,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
       "slug": "india-ec-approval-funnel-parivesh-20",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:09:05.823+05:30",
+      "updated": "2026-08-06T11:25:38.698+05:30",
       "labels": [],
-      "bytes": 9634,
-      "sha256": "fe94d06a64c0b117d237d8411e8054961f7c33b009e4ed78bcc25c119c211bbd",
+      "bytes": 8536,
+      "sha256": "109c83250197cb0bb2af1dc4a5cc9c83255fb67647ba04d4449a5314f1f70727",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1428,10 +1796,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1439,6 +1807,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            9634,
+            8536
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1448,10 +1834,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
       "slug": "indias-textile-import-export-strategy",
       "published": "2026-07-27T05:30:00.000+05:30",
-      "updated": "2026-08-05T08:42:11.571+05:30",
+      "updated": "2026-08-06T11:27:05.595+05:30",
       "labels": [],
-      "bytes": 40941,
-      "sha256": "fc169c9bc3c01f0485a9cc4975de599a89454a9bc7b379e8837c0271129bccde",
+      "bytes": 34487,
+      "sha256": "fc548169866e738ba0b3721cfee166cdcf82e9bf9fc25674b4c628ee510ca70c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1460,10 +1846,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1471,6 +1857,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            40941,
+            34487
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1480,10 +1884,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-05T05:07:47.153+05:30",
+      "updated": "2026-08-06T11:22:47.835+05:30",
       "labels": [],
-      "bytes": 46273,
-      "sha256": "8017eec79082306e4f2627c0df1ab2808f839343c2e24027a66ddd5ecfcf41fc",
+      "bytes": 45488,
+      "sha256": "d0954d281177b5e92d0da7177770433ae31a45955456fc41ddb2df7d4b66bfc2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1492,10 +1896,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1503,6 +1907,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            46273,
+            45488
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1544,12 +1966,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
       "slug": "effective-buying-power-china-comparison",
       "published": "2026-08-02T14:02:12.703+05:30",
-      "updated": "2026-08-05T20:51:26.028+05:30",
+      "updated": "2026-08-06T11:23:34.574+05:30",
       "labels": [],
-      "bytes": 28455,
-      "sha256": "9565759a09d233da25284ba42b18486abcf044530c9bf6e8ab461466a2a7d476",
+      "bytes": 27865,
+      "sha256": "18d2d77859408eafb9bddaea44df2c36f85270e9a940fbc4492c4888d3f10e3b",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
@@ -1559,7 +1981,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1567,6 +1989,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28455,
+            27865
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1672,10 +2112,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
       "slug": "fci-storage-scenario-capacity-stock-and",
       "published": "2026-07-31T10:15:00.000+05:30",
-      "updated": "2026-08-05T09:32:13.283+05:30",
+      "updated": "2026-08-06T11:24:08.804+05:30",
       "labels": [],
-      "bytes": 11990,
-      "sha256": "01305238f54580c3d7b80aa5834cce19d8c537a28d1719423de06601fc41f4d1",
+      "bytes": 7888,
+      "sha256": "fd45ae29107cfec8e198ee1f5fdd2e1f195708e75b119a9a79ce6ba92df0631a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1684,10 +2124,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1695,6 +2135,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            11990,
+            7888
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1736,22 +2194,22 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.708+05:30",
-      "updated": "2026-08-05T20:56:40.727+05:30",
+      "updated": "2026-08-06T11:24:30.841+05:30",
       "labels": [],
-      "bytes": 29421,
-      "sha256": "80d546022e6bb8ea151a0f9dbe27bde86f6202671913376f1c6e9083e6d1db93",
+      "bytes": 28105,
+      "sha256": "67dd571f5ad6e182830bff5a5c03d07931aeaa242a4d0697d4a2c6445f554e68",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1759,6 +2217,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            29421,
+            28105
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1845,10 +2325,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
       "slug": "cold-chain-fuel-outlet-integrated-map",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:09:06.245+05:30",
+      "updated": "2026-08-06T11:22:59.408+05:30",
       "labels": [],
-      "bytes": 6093,
-      "sha256": "2fad3203f70fe39bd248e9d75bc2319931fd3b8beeb26b0afe1ed035bb66c880",
+      "bytes": 5227,
+      "sha256": "91b8eb80e866358ba01a6cc608fe49cf2d79bd8c2df50321d335aceee0692636",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1857,10 +2337,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1868,6 +2348,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            6093,
+            5227
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1877,10 +2375,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
       "slug": "the-fearless-girls-charter-indias",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:07:17.389+05:30",
+      "updated": "2026-08-06T11:29:22.013+05:30",
       "labels": [],
-      "bytes": 16448,
-      "sha256": "c8418d18e1f02f3f3e927b3f372aad070960262c40ebc54f0baf9e806b9b61ed",
+      "bytes": 15676,
+      "sha256": "c631319a065df02fdfb74fc1e101f4471f3ffd0c47a11b80cc029469cde8baab",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1889,10 +2387,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1900,6 +2398,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            16448,
+            15676
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1909,10 +2425,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
       "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
       "published": "2026-08-02T09:54:34.516+05:30",
-      "updated": "2026-08-05T09:31:11.415+05:30",
+      "updated": "2026-08-06T11:28:47.446+05:30",
       "labels": [],
-      "bytes": 118331,
-      "sha256": "0b6b3537a4d1a2969e63d359b529aa4c6c3a4d8b5fde53bef3789dc41628eca0",
+      "bytes": 117399,
+      "sha256": "668c8833259335e5f83257729de6fe784c2b0eb43780d5351ee18165a2c3397d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1921,10 +2437,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1932,6 +2448,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            118331,
+            117399
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -1973,10 +2507,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-08-05T07:48:35.345+05:30",
+      "updated": "2026-08-06T11:29:33.971+05:30",
       "labels": [],
-      "bytes": 74462,
-      "sha256": "0deb93a5f357cfc12ae63b575d16b9f15febd208c57c11204360a8e356f16524",
+      "bytes": 67939,
+      "sha256": "877e5285b714fe1f60b2e55789c37ef35d281fece737a1e4cc19c303f9498853",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1985,10 +2519,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1996,6 +2530,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            74462,
+            67939
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2005,13 +2557,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.719+05:30",
-      "updated": "2026-08-06T09:41:17.917+05:30",
+      "updated": "2026-08-06T11:21:00.286+05:30",
       "labels": [],
-      "bytes": 384147,
-      "sha256": "e03d966bd2cd900c96bb900330b70f3fcf8d987b9953fef1f0f6bb59f3cb10bb",
+      "bytes": 381972,
+      "sha256": "545f9d6dafdbadadd5a46e798212726d29c9163b9195224ffd3dc28af83c185f",
       "markers": {
-        "light_lock": true,
-        "dark_panel_guard": true,
+        "light_lock": false,
+        "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
@@ -2020,7 +2572,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2028,6 +2580,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            384147,
+            381972
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "dark_panel_guard": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2101,13 +2675,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-08-06T08:58:26.640+05:30",
-      "updated": "2026-08-06T10:43:55.175+05:30",
+      "updated": "2026-08-06T11:20:42.072+05:30",
       "labels": [],
-      "bytes": 105779,
-      "sha256": "493dc7bc8c76355c622d06a7268e1f5ea9f0c69695dd0377c8aec63b2a7faf3c",
+      "bytes": 99333,
+      "sha256": "e09c6721b7003ad92a42979574a68487b91606a8af14a7aa74e3951337b5a36b",
       "markers": {
-        "light_lock": true,
-        "dark_panel_guard": true,
+        "light_lock": false,
+        "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
@@ -2116,7 +2690,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2137,6 +2711,28 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Post-API-setup snapshot. Also captures the mineral-oil guard rewrite (resolved literal colours, no document-level rules)."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            105779,
+            99333
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "dark_panel_guard": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2146,22 +2742,22 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
       "slug": "rbi-foreign-exchange-reserves-20152026",
       "published": "2026-08-02T13:43:33.839+05:30",
-      "updated": "2026-08-05T20:58:49.946+05:30",
+      "updated": "2026-08-06T11:28:23.539+05:30",
       "labels": [],
-      "bytes": 43315,
-      "sha256": "d7c1a3a45cea64a29db43df249990725a30ed19b72c1d7b0f75589826e3efad6",
+      "bytes": 41982,
+      "sha256": "c5adfb6f96a641469643ea6f66d3db166aa2a961c4a3dbcee6870b7fa36e1ad0",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2169,6 +2765,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            43315,
+            41982
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2210,10 +2828,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
       "slug": "india-environmental-clearances-state",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:09:06.596+05:30",
+      "updated": "2026-08-06T11:25:50.320+05:30",
       "labels": [],
-      "bytes": 7415,
-      "sha256": "e14d43b0379468034748079a76139ab94f70eccf3eb23c8f476a4d2f7864a062",
+      "bytes": 6521,
+      "sha256": "1b7367aac62bf7f3269f284bc875d8022fb001308fb4916ec7de19de4d685645",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2222,10 +2840,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2233,6 +2851,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            7415,
+            6521
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2242,10 +2878,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
       "slug": "cpi-inflation-heatmap-india-june-2026",
       "published": "2026-08-02T14:05:22.114+05:30",
-      "updated": "2026-08-03T15:09:01.252+05:30",
+      "updated": "2026-08-06T11:23:11.668+05:30",
       "labels": [],
-      "bytes": 71848,
-      "sha256": "1f628a59bb067453c477422da0dc1fc1b8dc06ddf1007851362f7c9136febc87",
+      "bytes": 65224,
+      "sha256": "4e3e145926f813c97e4a66fbaa2ce7bfee20bbc3b77e2bf40ee3a089b2263cf3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2254,10 +2890,10 @@
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2265,6 +2901,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            71848,
+            65224
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2370,13 +3024,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
       "slug": "where-indias-forex-goes-country",
       "published": "2026-08-02T13:46:53.722+05:30",
-      "updated": "2026-08-06T07:40:15.101+05:30",
+      "updated": "2026-08-06T11:20:50.803+05:30",
       "labels": [],
-      "bytes": 48459,
-      "sha256": "11d2293f10b79b5ff93c7512f0574dd7f89194e055683713d28be478cfaf1dc5",
+      "bytes": 37475,
+      "sha256": "620f7e812caef2cc371c8c57af872a1e01c998769dd983290bca5e20c61f69c0",
       "markers": {
-        "light_lock": true,
-        "dark_panel_guard": true,
+        "light_lock": false,
+        "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
@@ -2385,7 +3039,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2393,6 +3047,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            48459,
+            37475
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "dark_panel_guard": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2434,22 +3110,22 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
       "slug": "hsn-wise-historical-importexport-trends",
       "published": "2026-08-02T14:04:15.973+05:30",
-      "updated": "2026-08-05T20:47:55.615+05:30",
+      "updated": "2026-08-06T11:24:43.255+05:30",
       "labels": [],
-      "bytes": 30910,
-      "sha256": "531dc89228953246b31cc08459fa1b09766ce30fdeb2c1dabe98fb62cb574028",
+      "bytes": 20820,
+      "sha256": "42788ec98e56f3b97a861aaa662003e62c6c85a816603bfdf94837325f2ff22f",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2457,6 +3133,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            30910,
+            20820
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2498,10 +3196,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
       "slug": "cgd-geographical-areas-district",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:09:04.558+05:30",
+      "updated": "2026-08-06T11:22:25.628+05:30",
       "labels": [],
-      "bytes": 6117,
-      "sha256": "785dda329903c74d8c91fa33b7e3bd4fe05771761dd5bbda92022f8a7bd4e426",
+      "bytes": 5251,
+      "sha256": "e79ac545b0cebfe743ae1c96bf5b6f3cc5773e838206bdab158f90538344108e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2510,10 +3208,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2521,6 +3219,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            6117,
+            5251
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2562,10 +3278,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
       "slug": "india-fuel-retail-outlets-82k-geocoded",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:10:03.379+05:30",
+      "updated": "2026-08-06T11:26:12.096+05:30",
       "labels": [],
-      "bytes": 6134,
-      "sha256": "9ee6eed06f33b331578bbe29f093c6f783634041cdacf6064be4c85a73fb900b",
+      "bytes": 5268,
+      "sha256": "c939247e337e7f704425d0d9360e78af0a48f539bd31c6b244f3696f42ce20bf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2574,10 +3290,10 @@
         "index_link": false,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2585,6 +3301,24 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            6134,
+            5268
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2626,22 +3360,22 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
       "slug": "cpi-wpi-trends-mospi-bulletin",
       "published": "2026-08-02T13:48:25.738+05:30",
-      "updated": "2026-08-06T07:40:09.770+05:30",
+      "updated": "2026-08-06T11:23:23.734+05:30",
       "labels": [],
-      "bytes": 38721,
-      "sha256": "1a438fc0efe1326a8315a3ff15d7f25b212c49328e200f96e5b1bf40b968a05a",
+      "bytes": 37381,
+      "sha256": "67ad0b9a3274e94dc6f4e6bc6123ff2d99bbdf0421be60c48d13e41f38a56d96",
       "markers": {
-        "light_lock": true,
+        "light_lock": false,
         "dark_panel_guard": false,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
-        "inverted_media_query": true,
+        "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2649,6 +3383,28 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            38721,
+            37381
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "light_lock": [
+              true,
+              false
+            ],
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     },
@@ -2754,138 +3510,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
       "slug": "indias-subsidised-imports-fertilisers",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-08-05T05:16:25.314+05:30",
+      "updated": "2026-08-06T11:26:55.043+05:30",
       "labels": [],
-      "bytes": 27657,
-      "sha256": "ef9a15415efefa6ef8eb89509a043768117017978af7ff788f049be217ab0e58",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": false,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": true,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        }
-      ]
-    },
-    "9049829175595337684": {
-      "id": "9049829175595337684",
-      "title": "Real GDP Growth — India, FY2012-13 to FY2025-26",
-      "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
-      "slug": "real-gdp-growth-india-fy2012-13-to",
-      "published": "2026-08-02T13:45:39.652+05:30",
-      "updated": "2026-08-05T18:27:34.893+05:30",
-      "labels": [],
-      "bytes": 22675,
-      "sha256": "40653073538c5efa6f978839b4c3e98ad004696ca93316d883480eec8f6fa4d4",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": true,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        }
-      ]
-    },
-    "9053217851150932322": {
-      "id": "9053217851150932322",
-      "title": "Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy",
-      "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
-      "slug": "jai-kisan-jai-javan-fci-based-military",
-      "published": "2026-08-04T16:15:00.000+05:30",
-      "updated": "2026-08-05T05:57:11.843+05:30",
-      "labels": [],
-      "bytes": 15186,
-      "sha256": "09883423195039ac0da949c0e7d40d41f6b296a114531794165e840f5369a5c7",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": true,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        }
-      ]
-    },
-    "9054600943880295003": {
-      "id": "9054600943880295003",
-      "title": "The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
-      "slug": "the-price-of-grain-msp-msv-and",
-      "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-08-05T13:07:17.223+05:30",
-      "labels": [],
-      "bytes": 29218,
-      "sha256": "fd8010d2e0f4557d9526d8b56bc0ae7ff84f731982deba9e561f45fe0aecf71d",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": false,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": true,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        }
-      ]
-    },
-    "9221556702350942170": {
-      "id": "9221556702350942170",
-      "title": "US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
-      "slug": "us-stock-picks-multi-screen-quant",
-      "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-05T18:12:00.665+05:30",
-      "labels": [],
-      "bytes": 25908,
-      "sha256": "1f0d5ef0d1129ddcaecc16496f54f311fa7fa4856bec5500316973847fd6fd67",
+      "bytes": 24973,
+      "sha256": "c8ac1e521b66509610a5de926a8b223ac8c6018745a2a22c982f8b56a06615e0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2897,7 +3525,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2905,6 +3533,219 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            27657,
+            24973
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        }
+      ]
+    },
+    "9049829175595337684": {
+      "id": "9049829175595337684",
+      "title": "Real GDP Growth — India, FY2012-13 to FY2025-26",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
+      "slug": "real-gdp-growth-india-fy2012-13-to",
+      "published": "2026-08-02T13:45:39.652+05:30",
+      "updated": "2026-08-06T11:28:35.199+05:30",
+      "labels": [],
+      "bytes": 21954,
+      "sha256": "853a2698788f8cdc1ac1c19bb4a19bdbc11d8bf80fca3c41b9d6ebda36ba107a",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-06T09:46:05+05:30",
+          "level": "baseline",
+          "reason": "version tracking introduced",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            22675,
+            21954
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        }
+      ]
+    },
+    "9053217851150932322": {
+      "id": "9053217851150932322",
+      "title": "Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
+      "slug": "jai-kisan-jai-javan-fci-based-military",
+      "published": "2026-08-04T16:15:00.000+05:30",
+      "updated": "2026-08-06T11:27:28.998+05:30",
+      "labels": [],
+      "bytes": 11644,
+      "sha256": "eb06f2e10c2378d1631a860261b09cb02fc53acb8902b4a799d40d9e6f61a42c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-06T09:46:05+05:30",
+          "level": "baseline",
+          "reason": "version tracking introduced",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15186,
+            11644
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        }
+      ]
+    },
+    "9054600943880295003": {
+      "id": "9054600943880295003",
+      "title": "The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State",
+      "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
+      "slug": "the-price-of-grain-msp-msv-and",
+      "published": "2026-07-23T05:30:00.000+05:30",
+      "updated": "2026-08-06T11:29:47.259+05:30",
+      "labels": [],
+      "bytes": 28153,
+      "sha256": "c7d321fe4ecf24f323437f2d3293cbf16555aa1acb804d1db9d4ac28d68d4b8c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": false,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-06T09:46:05+05:30",
+          "level": "baseline",
+          "reason": "version tracking introduced",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            29218,
+            28153
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "inverted_media_query": [
+              true,
+              false
+            ]
+          },
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        }
+      ]
+    },
+    "9221556702350942170": {
+      "id": "9221556702350942170",
+      "title": "US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)",
+      "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
+      "slug": "us-stock-picks-multi-screen-quant",
+      "published": "2026-07-24T05:30:00.000+05:30",
+      "updated": "2026-08-06T11:30:23.512+05:30",
+      "labels": [],
+      "bytes": 25288,
+      "sha256": "f982461d3e63fc637c64870c4552995672b5958c24f34a544220fdc871147c2d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": false,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.1",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-06T09:46:05+05:30",
+          "level": "baseline",
+          "reason": "version tracking introduced",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T11:31:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25908,
+            25288
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
         }
       ]
     }
