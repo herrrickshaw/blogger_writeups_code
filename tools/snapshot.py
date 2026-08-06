@@ -128,18 +128,38 @@ def main():
     if not entries:
         sys.exit("feed returned no posts — refusing to snapshot (would look like a wipe)")
 
+    # Key by post id, never by slug. Slugs are derived from the URL and are not a
+    # safe primary key: two feed entries reducing to the same slug would silently
+    # overwrite each other and report a phantom size change.
+    seen_ids = {}
+    for e in entries:
+        pid = e["id"]["$t"].rsplit(".post-", 1)[-1]
+        if pid in seen_ids:
+            print(f"warning: feed returned post {pid} twice — ignoring the duplicate")
+            continue
+        seen_ids[pid] = e
+    entries = list(seen_ids.values())
+
     now = dt.datetime.now().astimezone().isoformat(timespec="seconds")
     cur, added, changed = {}, [], []
+    slug_owner = {}
 
     for e in entries:
         rec, body = parse(e)
         rec["markers"] = markers(body)
         slug = rec["slug"]
+        if slug in slug_owner:
+            # Two live posts sharing a slug: disambiguate on disk by id so neither
+            # file is lost, and say so loudly.
+            print(f"warning: slug {slug!r} used by posts {slug_owner[slug]} and {rec['id']}")
+            slug = f"{slug}--{rec['id']}"
+            rec["slug"] = slug
+        slug_owner[slug] = rec["id"]
         (POSTS / f"{slug}.html").write_text(body, encoding="utf-8")
         (META / f"{slug}.json").write_text(
             json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
-        old = prev.get(slug)
+        old = prev.get(rec["id"])
         if old is None:
             added.append(rec)
         elif old.get("sha256") != rec["sha256"]:
@@ -149,9 +169,9 @@ def main():
                 if old.get("markers", {}).get(k) != rec["markers"][k]
             }
             changed.append((rec, old, delta))
-        cur[slug] = rec
+        cur[rec["id"]] = rec
 
-    removed = [prev[s] for s in prev if s not in cur]
+    removed = [prev[k] for k in prev if k not in cur]
     for r in removed:
         # keep the file: the archive is the point. Only the manifest drops it.
         pass
