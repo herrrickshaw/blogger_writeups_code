@@ -108,6 +108,14 @@ def markers(body):
     return {k: fn(body) for k, fn in MARKERS.items()}
 
 
+def marker_delta(old, rec):
+    return {
+        k: [old.get("markers", {}).get(k), rec["markers"][k]]
+        for k in rec["markers"]
+        if old.get("markers", {}).get(k) != rec["markers"][k]
+    }
+
+
 def load_manifest():
     if MANIFEST.exists():
         return json.loads(MANIFEST.read_text())
@@ -142,7 +150,7 @@ def main():
     entries = list(seen_ids.values())
 
     now = dt.datetime.now().astimezone().isoformat(timespec="seconds")
-    cur, added, changed = {}, [], []
+    cur, added, changed, moved = {}, [], [], []
     slug_owner = {}
 
     for e in entries:
@@ -163,13 +171,15 @@ def main():
         old = prev.get(rec["id"])
         if old is None:
             added.append(rec)
+        elif old.get("url") != rec["url"]:
+            # Same post, new address. Blogger reserves slugs permanently, so a
+            # moved post leaves a dead URL behind — always worth a log line even
+            # when not one byte of the body changed.
+            moved.append((rec, old))
+            if old.get("sha256") != rec["sha256"]:
+                changed.append((rec, old, marker_delta(old, rec)))
         elif old.get("sha256") != rec["sha256"]:
-            delta = {
-                k: [old["markers"].get(k), rec["markers"][k]]
-                for k in rec["markers"]
-                if old.get("markers", {}).get(k) != rec["markers"][k]
-            }
-            changed.append((rec, old, delta))
+            changed.append((rec, old, marker_delta(old, rec)))
         cur[rec["id"]] = rec
 
     removed = [prev[k] for k in prev if k not in cur]
@@ -203,10 +213,14 @@ def main():
                     f"{k} {a}→{b}" for k, (a, b) in sorted(delta.items())
                 )
             lines.append(bit)
+    if moved:
+        lines.append("\n**Moved** (old URL is now dead — Blogger never releases a slug)\n")
+        for rec, old in moved:
+            lines.append(f"- `{rec['title'][:60]}` — `{old['slug']}` → `{rec['slug']}`")
     if removed:
         lines.append("\n**No longer published** (drafted or deleted; file kept in `posts/`)\n")
         lines += [f"- `{r['slug']}` — {r['title']}" for r in removed]
-    if not (added or changed or removed):
+    if not (added or changed or removed or moved):
         lines.append("\nNo changes.")
     lines.append("")
 
@@ -214,7 +228,12 @@ def main():
     prior = CHANGELOG.read_text() if CHANGELOG.exists() else head
     CHANGELOG.write_text(prior + "\n".join(lines), encoding="utf-8")
 
-    print(f"{len(cur)} posts | +{len(added)} added | ~{len(changed)} changed | -{len(removed)} unpublished")
+    print(
+        f"{len(cur)} posts | +{len(added)} added | ~{len(changed)} changed | "
+        f"->{len(moved)} moved | -{len(removed)} unpublished"
+    )
+    for rec, old in moved:
+        print("  ->", old["slug"], "=>", rec["slug"])
     for r in added:
         print("  + ", r["slug"])
     for rec, old, _ in changed:
@@ -224,7 +243,10 @@ def main():
 
     if args.no_commit:
         return
-    msg = f"snapshot {now}: +{len(added)} ~{len(changed)} -{len(removed)}"
+    msg = (
+        f"snapshot {now}: +{len(added)} ~{len(changed)} "
+        f"->{len(moved)} -{len(removed)}"
+    )
     if args.note:
         msg += f"\n\n{args.note}"
     subprocess.run(["git", "add", "-A"], cwd=ROOT, check=True)

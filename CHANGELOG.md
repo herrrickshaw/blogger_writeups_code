@@ -324,3 +324,10 @@ Chemical post moved to the clean slug chemical-import-substitution-hsn-8-registr
 
 
 No changes.
+
+## 2026-08-06T09:43:07+05:30 — 90 posts live
+
+snapshot.py: detect and log moved posts (same id, new URL). A slug change was previously invisible in the changelog even though it kills the old URL permanently. Verified with a synthetic manifest edit.
+
+
+No changes.
