@@ -17,8 +17,11 @@ tools/snapshot.py      pull the blog and commit the diff
 ## Take a snapshot
 
 ```bash
-python3 ~/masaladeutsch-archive/tools/snapshot.py --note "why you ran this"
+python3 ~/masaladeutsch-archive/tools/snapshot.py --note "why you ran this" --push
 ```
+
+Remote: `herrrickshaw/blogger_writeups_code` (**private** — this mirrors the whole
+blog, so keep it that way). Drop `--push` to commit locally only.
 
 Reads the Blogger public feed (full bodies, no auth), rewrites `posts/` and
 `meta/`, appends to `CHANGELOG.md`, and commits. Run it before and after any

@@ -310,3 +310,10 @@ Tool fix: manifest re-keyed from slug to post id. Slug is derived from the URL a
 ## 2026-08-06T09:28:43+05:30 — 90 posts live
 
 No changes.
+
+## 2026-08-06T09:33:53+05:30 — 90 posts live
+
+Added --push; repo now mirrored to private GitHub remote blogger_writeups_code.
+
+
+No changes.

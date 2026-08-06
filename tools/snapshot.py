@@ -118,6 +118,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--note", default="", help="why this snapshot was taken")
     ap.add_argument("--no-commit", action="store_true")
+    ap.add_argument("--push", action="store_true", help="push to origin after committing")
     args = ap.parse_args()
 
     POSTS.mkdir(exist_ok=True)
@@ -231,6 +232,12 @@ def main():
         ["git", "commit", "-m", msg], cwd=ROOT, capture_output=True, text=True
     )
     print(r.stdout.strip() or r.stderr.strip())
+
+    if args.push:
+        p = subprocess.run(
+            ["git", "push", "origin", "HEAD"], cwd=ROOT, capture_output=True, text=True
+        )
+        print(p.stderr.strip() or p.stdout.strip())
 
 
 if __name__ == "__main__":
