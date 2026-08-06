@@ -65,19 +65,27 @@ def _form(url, fields):
 
 
 # ---------------------------------------------------------------------- auth
+# A Desktop ("installed") client may use any loopback port. A Web client may
+# only use redirect URIs registered in the Cloud Console, so we must bind a
+# fixed, known port and the user must register exactly that URI.
+DEFAULT_PORT = 8765
+
+
 def _client():
     if not CLIENT_FILE.exists():
         sys.exit(f"missing {CLIENT_FILE} — see docs/BLOGGER_API_RUNBOOK.md part 1")
     blob = json.loads(CLIENT_FILE.read_text())
-    cfg = blob.get("installed") or blob.get("web")
-    if not cfg:
-        sys.exit(f"{CLIENT_FILE} is not a Desktop-app OAuth client")
-    return cfg["client_id"], cfg["client_secret"]
+    kind = "installed" if "installed" in blob else ("web" if "web" in blob else None)
+    if not kind:
+        sys.exit(f"{CLIENT_FILE} is not an OAuth client JSON")
+    cfg = blob[kind]
+    return cfg["client_id"], cfg["client_secret"], kind
 
 
-def cmd_auth(_args):
-    """Run the installed-app OAuth flow and persist the refresh token."""
-    cid, csec = _client()
+def cmd_auth(args):
+    """Run the OAuth loopback flow and persist the refresh token."""
+    cid, csec, kind = _client()
+    port = args.port or DEFAULT_PORT
     state = secrets.token_urlsafe(16)
     got = {}
 
@@ -93,9 +101,18 @@ def cmd_auth(_args):
         def log_message(self, *a):
             pass
 
-    srv = http.server.HTTPServer(("127.0.0.1", 0), H)
-    port = srv.server_address[1]
+    try:
+        srv = http.server.HTTPServer(("127.0.0.1", port), H)
+    except OSError as e:
+        sys.exit(f"cannot bind port {port} ({e}) — pass --port with a free one, "
+                 f"and register that exact URI if this is a Web client")
     redirect = f"http://127.0.0.1:{port}"
+    if kind == "web":
+        print("This is a WEB OAuth client. Before continuing, add this EXACT URI")
+        print("under Authorised redirect URIs and save:\n")
+        print(f"    {redirect}\n")
+        print("  https://console.cloud.google.com/apis/credentials\n")
+        input("Press Enter once saved (Google can take ~30s to apply it)... ")
     auth_url = "https://accounts.google.com/o/oauth2/v2/auth?" + urllib.parse.urlencode({
         "client_id": cid, "redirect_uri": redirect, "response_type": "code",
         "scope": SCOPE, "access_type": "offline", "prompt": "consent", "state": state,
@@ -137,7 +154,7 @@ def access_token():
         return _access["token"]
     if not TOKEN_FILE.exists():
         sys.exit("not authorised — run: blogger_api.py auth")
-    cid, csec = _client()
+    cid, csec, _ = _client()
     rt = json.loads(TOKEN_FILE.read_text())["refresh_token"]
     tok = _form("https://oauth2.googleapis.com/token", {
         "client_id": cid, "client_secret": csec,
@@ -294,7 +311,10 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    sub.add_parser("auth").set_defaults(fn=cmd_auth)
+    a = sub.add_parser("auth")
+    a.add_argument("--port", type=int, default=0,
+                   help=f"loopback port for the OAuth callback (default {DEFAULT_PORT})")
+    a.set_defaults(fn=cmd_auth)
     sub.add_parser("whoami").set_defaults(fn=cmd_whoami)
 
     g = sub.add_parser("get"); g.add_argument("--slug", required=True)

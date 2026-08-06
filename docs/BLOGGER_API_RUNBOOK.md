@@ -41,6 +41,12 @@ they are not automatable and should not be.
 
 ### 4. Create the OAuth client
 
+Prefer **Desktop app**: it may use any loopback port, so nothing needs
+registering. A **Web** client works too, but only with a redirect URI you have
+registered by hand — add exactly `http://127.0.0.1:8765` under *Authorised
+redirect URIs*. `blogger_api.py auth` detects a Web client, prints the URI, and
+waits for you to save it.
+
 1. https://console.cloud.google.com/apis/credentials
 2. Create credentials → **OAuth client ID** → Application type **Desktop app**.
 3. Download the JSON. Save it as:
