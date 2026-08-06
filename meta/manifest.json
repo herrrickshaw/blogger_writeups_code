@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-06T11:31:49+05:30",
+  "snapshot": "2026-08-06T12:02:25+05:30",
   "count": 90,
   "posts": {
     "1157999291079244419": {
@@ -236,10 +236,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
       "slug": "priority-export-destinations-by-growth",
       "published": "2026-08-02T13:49:40.948+05:30",
-      "updated": "2026-08-06T11:27:41.051+05:30",
+      "updated": "2026-08-06T11:59:23.319+05:30",
       "labels": [],
-      "bytes": 32503,
-      "sha256": "6cce0e43ff7e58c6263c01667566aa66078e501912aa52680f3799addeb1d1cc",
+      "bytes": 32847,
+      "sha256": "aca73038435a0174c73ee4e16d505b5f2b9f9bbb5c3a9847891eadf11cfe8bf4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -251,7 +251,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -277,6 +277,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            32503,
+            32847
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -692,10 +705,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
       "slug": "imported-fertiliser-fuel-prices-diesel",
       "published": "2026-08-02T13:50:50.526+05:30",
-      "updated": "2026-08-06T11:25:26.854+05:30",
+      "updated": "2026-08-06T11:59:34.360+05:30",
       "labels": [],
-      "bytes": 24474,
-      "sha256": "fa80fcb1d9a18bdc972cdf0f4676dd8e116a23b4878ffab1ecf3710e8271b8e5",
+      "bytes": 24869,
+      "sha256": "27d0b88d16f2b7624d4da2ddf9e15cee8df24fe42eaf7111bc88c5177fd326e4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -707,7 +720,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -733,6 +746,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24474,
+            24869
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -910,10 +936,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
       "slug": "priority-trade-partners-by-import",
       "published": "2026-08-02T14:01:14.860+05:30",
-      "updated": "2026-08-06T11:27:52.808+05:30",
+      "updated": "2026-08-06T11:59:45.464+05:30",
       "labels": [],
-      "bytes": 35245,
-      "sha256": "76d7d12fcfcde2db504cfa2ed29547f47590eee9b1a4a16defd78dab5fb33689",
+      "bytes": 35589,
+      "sha256": "c9aa8d85d405bd1ccc79832526e102692995599a2258a630ac02e52020a9c6b6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -925,7 +951,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -955,6 +981,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            35245,
+            35589
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -996,10 +1035,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
       "slug": "india-grain-cultivation-fci-storage",
       "published": "2026-07-31T10:10:00.000+05:30",
-      "updated": "2026-08-06T11:26:22.297+05:30",
+      "updated": "2026-08-06T11:59:57.440+05:30",
       "labels": [],
-      "bytes": 72125,
-      "sha256": "29211c186383bdd05345f878b0c355e6f748677d10212d4e494e0288eec47ce5",
+      "bytes": 72546,
+      "sha256": "b761af4cb7443e0e7b50d72ee60da3a79069f0bdfb68ceabc5d975d85ab1f3ee",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1011,7 +1050,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1037,6 +1076,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            72125,
+            72546
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -1488,10 +1540,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/about-author.html",
       "slug": "about-author",
       "published": "2026-08-05T10:43:35.439+05:30",
-      "updated": "2026-08-05T15:20:19.531+05:30",
+      "updated": "2026-08-06T11:51:41.847+05:30",
       "labels": [],
-      "bytes": 11441,
-      "sha256": "27ef280bebb0c02fa93487992c0dcc45220e81e7c939f6f336e4cba89b009108",
+      "bytes": 11587,
+      "sha256": "bc64d93ca0524a36305514c30a8ab5318bcf6845c46482881e4f9dd12ee6ce1a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1503,7 +1555,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1511,6 +1563,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            11441,
+            11587
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -1520,10 +1585,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-06T11:23:57.349+05:30",
+      "updated": "2026-08-06T12:00:09.748+05:30",
       "labels": [],
-      "bytes": 26289,
-      "sha256": "478f90bbcb62033ee36335a9254d9bb670ac16251e74087b094a54c7040c8bbc",
+      "bytes": 26626,
+      "sha256": "4ed30b7d14f3fa07288ca6abc314fa05bf4ccfdefa1da8ce10dfd1fd43256f49",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1535,7 +1600,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1561,6 +1626,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            26289,
+            26626
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -2112,10 +2190,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
       "slug": "fci-storage-scenario-capacity-stock-and",
       "published": "2026-07-31T10:15:00.000+05:30",
-      "updated": "2026-08-06T11:24:08.804+05:30",
+      "updated": "2026-08-06T12:00:20.476+05:30",
       "labels": [],
-      "bytes": 7888,
-      "sha256": "fd45ae29107cfec8e198ee1f5fdd2e1f195708e75b119a9a79ce6ba92df0631a",
+      "bytes": 8259,
+      "sha256": "3c3ba82f1af28cbaaebd628726934dd76b9af57f6b001627d1b828b509ebc8b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2127,7 +2205,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2153,6 +2231,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            7888,
+            8259
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -2675,10 +2766,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-08-06T08:58:26.640+05:30",
-      "updated": "2026-08-06T11:20:42.072+05:30",
+      "updated": "2026-08-06T12:00:31.936+05:30",
       "labels": [],
-      "bytes": 99333,
-      "sha256": "e09c6721b7003ad92a42979574a68487b91606a8af14a7aa74e3951337b5a36b",
+      "bytes": 99774,
+      "sha256": "892352cfb2d22c9157b9373a6f7065d6b95ef9c6c2a3f8e5181433b62a661ef9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2690,7 +2781,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2733,6 +2824,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            99333,
+            99774
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -3024,10 +3128,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
       "slug": "where-indias-forex-goes-country",
       "published": "2026-08-02T13:46:53.722+05:30",
-      "updated": "2026-08-06T11:20:50.803+05:30",
+      "updated": "2026-08-06T12:00:44.296+05:30",
       "labels": [],
-      "bytes": 37475,
-      "sha256": "620f7e812caef2cc371c8c57af872a1e01c998769dd983290bca5e20c61f69c0",
+      "bytes": 37835,
+      "sha256": "25acf549511cf4aa4c0fce6ce5419b09fec2e17a0a636542af28dbe7e14eafae",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3039,7 +3143,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3069,6 +3173,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            37475,
+            37835
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },
@@ -3110,10 +3227,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
       "slug": "hsn-wise-historical-importexport-trends",
       "published": "2026-08-02T14:04:15.973+05:30",
-      "updated": "2026-08-06T11:24:43.255+05:30",
+      "updated": "2026-08-06T12:00:56.164+05:30",
       "labels": [],
-      "bytes": 20820,
-      "sha256": "42788ec98e56f3b97a861aaa662003e62c6c85a816603bfdf94837325f2ff22f",
+      "bytes": 21200,
+      "sha256": "4729d1072b6c22ff3f111fea7aa5db9a97659c9c2892e4e364c8f638efdf7260",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3125,7 +3242,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3155,6 +3272,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-06T12:02:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            20820,
+            21200
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
         }
       ]
     },

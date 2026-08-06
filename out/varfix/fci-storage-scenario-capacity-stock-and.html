@@ -1,0 +1,103 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+</style>
+<style>
+/* tblwrap-css */
+.tblwrap{overflow-x:auto!important;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.tblwrap table{width:max-content!important;min-width:100%}
+</style>
+
+<div class="wrap">
+  <h1>FCI storage scenario — from 851 LMT to the 2,150 LMT plan</h1>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+
+  <p class="sub">India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025) while
+  central-pool <b>stock</b> swings roughly 300&ndash;910 LMT with the crop cycle (it touched the ~907 LMT record cited below). The <b>World's Largest Grain Storage
+  Plan</b> (2023, ₹1 lakh cr) now adds <b>+700 LMT of cooperative (PACS) capacity</b> to lift total
+  agri-storage from 1,450 to <b>2,150 LMT</b>. Each figure is PIB-sourced (below).</p>
+  <div class="legend">
+    <span><span class="sw" style="background:var(--green)"></span>FCI + State covered+CAP (LMT)</span>
+    <span><span class="sw" style="background:var(--coop);opacity:.55"></span>+ cooperative / total agri-storage (plan)</span>
+    <span><span class="sw" style="background:var(--stock)"></span>peak central-pool stock (LMT)</span>
+    <span><span class="sw" style="background:transparent;border:1px dashed var(--ink-3)"></span>2,150 LMT target</span>
+  </div>
+  <div class="chart"><svg id="svg" viewBox="0 0 900 470"></svg></div>
+  <div class="note"><b>The scenario story:</b> in mid-2021 stock hit a record <b>~907 LMT</b> — brushing
+  the covered-godown ceiling and spilling into open CAP/hired space (FCI is <b>70% hired</b>, only ~147 LMT owned &mdash; note that 147 LMT is a small share of FCI's total covered capacity, closer to 60% hired by that arithmetic; the 70% figure may use a different capacity base not stated here). The cooperative plan fixes this at the <b>village level</b> (PACS godowns, 1,000 MT each; 2,000 MT
+  hubs) — turning rented, centralised, over-stretched storage into owned, distributed capacity that doubles
+  as procurement centres, Fair Price Shops and <b>processing units</b> — the feedstock node for the biorefinery.</div>
+  <footer>
+  Sources — 2018: <a href="https://www.pib.gov.in/Pressreleaseshare.aspx?PRID=1564065">PIB PRID 1564065</a> (851.54 LMT, 31-12-2018).
+  2023: <a href="https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=1945170">PIB PRID 1945170</a> (FCI 1,923 warehouses / 371.93 LMT, 01-07-2023).
+  2025: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2172351">PIB PRID 2172351</a> (FCI+State 917.83 LMT covered+CAP, 01-07-2025) + Year-End Reviews
+  <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2086345">2024</a>/<a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2210211">2025</a>.
+  Plan: <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2080612">PIB PRID 2080612</a> (+700 LMT cooperative → 2,150 LMT).
+  Stock: DFPD Foodgrain Bulletin monthly series. Data: data/fci_storage_scenario.csv. Scenario years (2028/2031) are plan-ramp illustrations, not official forecasts.</footer>
+</div>
+
+<script>
+
+// year, phase, fciState(green), totalAg(faint gold, 0=none shown), peakStock
+const D=[
+ ["2018","historical",851,0,700],
+ ["2021","historical",880,0,907],
+ ["2023","historical",900,1450,559],
+ ["2025","historical",918,0,615],
+ ["2028","plan (ramp)",1150,1800,650],
+ ["2031","plan (full)",1400,2150,700],
+];
+const W=900,H=470,ML=52,MR=20,MT=24,MB=54, YMAX=2200;
+const x0=ML, x1=W-MR, y0=H-MB, y1=MT;
+const y=v=>y0-(v/YMAX)*(y0-y1);
+const n=D.length, band=(x1-x0)/n, bw=band*0.42;
+const svg=document.getElementById("svg");
+let s="";
+// gridlines + y labels
+[0,500,1000,1450,2150,2000].forEach(v=>{
+  s+=`<line class="gl" x1="${x0}" y1="${y(v)}" x2="${x1}" y2="${y(v)}"/>`;
+  s+=`<text class="axlab" x="${x0-8}" y="${y(v)+3}" text-anchor="end">${v}</text>`;
+});
+// 2150 target dashed
+s+=`<line x1="${x0}" y1="${y(2150)}" x2="${x1}" y2="${y(2150)}" stroke="var(--ink-3)" stroke-width="1.2" stroke-dasharray="6 4"/>`;
+// bars
+D.forEach((d,i)=>{
+  const [yr,ph,fs,tot,st]=d;
+  const cx=x0+band*i+band/2;
+  // faint total-ag bar (behind)
+  if(tot){ s+=`<rect x="${cx-bw*0.7}" y="${y(tot)}" width="${bw*1.4}" height="${y0-y(tot)}" fill="var(--coop)" opacity="0.28" rx="3"/>`;
+    s+=`<text class="val" x="${cx}" y="${y(tot)-4}" fill="var(--coop)">${tot}</text>`; }
+  // FCI+State bar
+  s+=`<rect x="${cx-bw/2}" y="${y(fs)}" width="${bw}" height="${y0-y(fs)}" fill="var(--green)" rx="3"/>`;
+  s+=`<text class="val" x="${cx}" y="${y(fs)-4}">${fs}</text>`;
+  // stock dot
+  s+=`<circle cx="${cx}" cy="${y(st)}" r="4.5" fill="var(--stock)"/>`;
+  s+=`<text class="val" x="${cx+16}" y="${y(st)+3}" fill="var(--stock)" text-anchor="start">${st}</text>`;
+  // year + phase
+  s+=`<text class="yr" x="${cx}" y="${y0+18}">${yr}</text>`;
+  s+=`<text class="phase" x="${cx}" y="${y0+32}">${ph}</text>`;
+});
+// stock line connecting dots
+s+=`<polyline points="${D.map((d,i)=>`${x0+band*i+band/2},${y(d[4])}`).join(' ')}" fill="none" stroke="var(--stock)" stroke-width="1.4" opacity="0.55"/>`;
+// axis title
+s+=`<text class="axlab" x="${x0-40}" y="${MT+2}" transform="rotate(-90 ${x0-40} ${MT+2})" text-anchor="end">Lakh Metric Tonnes (LMT)</text>`;
+svg.innerHTML=s;
+
+</script>
+<div class="disc-override" style="margin-top:24px;padding:14px 16px;border-top:1px solid #ddd;font-size:.82em;color:#444;background:#f8f8f6;line-height:1.5"><strong>Disclaimer:</strong> This analysis is based on publicly available government and market data cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice. Figures may be revised as source data is updated — verify against the original source before relying on them for decisions.<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+</div>
+
+<style>/*gs-chart-vars-v1 — restores CHART colour tokens removed by the 2026-08-06 normalisation. Values verbatim from 4e1d79f. Custom properties only; no element is styled here. Text/surface tokens deliberately NOT restored: they were written for a dark surface and would put light text on a light page.*/
+:root{--coop:#d6a24a;--green:#4ea877;--stock:#6aa0d6;}
+</style>

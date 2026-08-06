@@ -521,3 +521,34 @@ Normalisation applied to all 45 affected posts via the Blogger API. Removed the 
 - `india-environmental-clearances-state` — 7,415 → 6,521 bytes (-894); markers inverted_media_query True→False
 - `india-fuel-retail-outlets-82k-geocoded` — 6,134 → 5,268 bytes (-866); markers inverted_media_query True→False
 - `india-trade-sector-policy` — 15,877 → 11,680 bytes (-4,197); markers inverted_media_query True→False
+
+## 2026-08-06T12:02:25+05:30 — 90 posts live
+
+Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text.
+
+
+**Versions**
+
+- `india-mineral-oil-hsn-ch27-trade` **1.0.2 → 1.0.3** (PATCH) — visible text identical; only markup/styling changed
+- `about-author` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `hsn-wise-historical-importexport-trends` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `priority-trade-partners-by-import` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `imported-fertiliser-fuel-prices-diesel` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `priority-export-destinations-by-growth` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `where-indias-forex-goes-country` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `fci-storage-scenario-capacity-stock-and` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `india-grain-cultivation-fci-storage` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `fci-grain-flow-procurement-storage` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-mineral-oil-hsn-ch27-trade` — 99,333 → 99,774 bytes (+441)
+- `about-author` — 11,441 → 11,587 bytes (+146)
+- `hsn-wise-historical-importexport-trends` — 20,820 → 21,200 bytes (+380)
+- `priority-trade-partners-by-import` — 35,245 → 35,589 bytes (+344)
+- `imported-fertiliser-fuel-prices-diesel` — 24,474 → 24,869 bytes (+395)
+- `priority-export-destinations-by-growth` — 32,503 → 32,847 bytes (+344)
+- `where-indias-forex-goes-country` — 37,475 → 37,835 bytes (+360)
+- `fci-storage-scenario-capacity-stock-and` — 7,888 → 8,259 bytes (+371)
+- `india-grain-cultivation-fci-storage` — 72,125 → 72,546 bytes (+421)
+- `fci-grain-flow-procurement-storage` — 26,289 → 26,626 bytes (+337)
