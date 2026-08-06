@@ -221,3 +221,77 @@ self-solving.
 
 That is a far stronger argument than "diesel drives inflation", and it does not
 depend on a CPI relationship the data cannot show.
+
+---
+
+## PPAC Industry Consumption Report, May 2026 — current data
+
+Signed by Vijay Kansal, Additional Director (Demand & Economic Studies), PPAC.
+
+### Headline
+
+- **HSD May 2026: 8.73 MMT, +1.6% YoY** (8.59 MMT May 2025). Apr–May'26 cumulative
+  **17.06 MMT, +1.2%**.
+- **Diesel is 43.3% of the total POL market** — still the largest product by far.
+- **CPI (provisional) 3.93% in May 2026, up from 3.48% in April — the fifth
+  consecutive monthly increase.** Directly usable for the inflation framing.
+
+### 🔴 The ₹40/litre wedge — this is the story
+
+PPAC states that **direct-sales HSD is priced more than ₹40/litre above retail
+HSD**. The consequences, in their words:
+
+- Direct-sales customers are sourcing from retail outlets instead.
+- **PSU OMCs +6.9%; private OMCs −34.7%** in May 2026.
+- PSU market share rose 4.54 points to **91.8%**.
+- Direct-sales share of diesel fell from **12% to 8%** in a year
+  (Apr–May'25 → Apr–May'26); retail rose 88% → 92%.
+
+A ₹40/litre gap between two channels for the same fuel is not a market outcome
+— it is what administered retail pricing looks like when the unregulated
+channel is left to track cost. **This is the strongest available evidence that
+diesel retail prices are held below cost-reflective levels**, and it is a far
+better argument than the CPI correlation. It also reframes "diesel price
+control": the control is real, it is large, and its visible effect is channel
+arbitrage and private-sector share collapse rather than a lower CPI print.
+
+### Direct-sales sectoral split, Apr–May 2026 (1,411 TMT)
+
+| Sector | Apr–May'26 | Apr–May'25 |
+|---|---:|---:|
+| Road transport | **27%** | 18% |
+| Misc (cement, iron & steel, civil engg, chemicals, textiles…) | 22% | 36% |
+| Mining & quarrying | **18%** | 13% |
+| Railways | 12% | 9% |
+| Shipping | 10% | 7% |
+| Manufacturing | **7%** | 12% |
+| Agriculture | 2% | 3% |
+| Power generation | 2% | 2% |
+
+Manufacturing halved (12%→7%) on weaker cement and metal demand; mining rose
+13%→18%.
+
+### 🔴 Do not misuse this table
+
+**It covers direct sales only — 8% of diesel.** It is *not* the economy-wide
+end-use split, and the year-on-year shifts are partly composition effects from
+the channel shrinking 12%→8%, not real demand swings. For economy-wide
+structure the only survey remains the 2013 PPAC/Nielsen study, with its own
+staleness problem. Say both things plainly.
+
+### Demand-side corroboration (May 2026)
+
+- E-way bills **+11% YoY** (1,360.79 lakh) — freight activity proxy
+- Major-port cargo **153.91 MMT, +4.53%**
+- CV sales **+5.3%** (LCV +7.7%, HCV +1.1%); tractors **+11.2%**
+- Peak power demand **270.82 GW**
+
+### What to do with this
+
+1. Lead the pricing section on the **₹40/litre direct-vs-retail wedge**, not on
+   correlations. It is a current, official, unambiguous number.
+2. Use CPI 3.93% and its five-month climb as the live backdrop.
+3. Note that diesel growth is only +1.6% while freight proxies (e-way +11%,
+   port +4.5%, CV sales +5.3%) run much hotter — worth asking whether
+   efficiency, rail shift or CNG/LNG substitution is already absorbing freight
+   growth. That is a genuinely open question and a good place to introduce CNG.
