@@ -62,8 +62,12 @@ This sits beside the existing credential store and stays out of every repo.
 ### 5. Authorise once and store the refresh token
 
 ```bash
-python3 ~/masaladeutsch-archive/tools/blogger_api.py auth
+python3 ~/masaladeutsch-archive/tools/blogger_api.py auth --port 8766
 ```
+
+**Use port 8766 on this machine.** The default 8765 is permanently held by the
+always-on `graphify-mcp` launchd service, so the callback listener cannot bind
+it. Both 8765 and 8766 are registered on the client; 8766 is the usable one.
 
 It prints a URL, you open it, pick the Admin Google account, accept the
 "unverified app" warning (it is your own app), and it captures the callback on
