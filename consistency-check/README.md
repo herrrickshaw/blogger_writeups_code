@@ -83,20 +83,3 @@ matching line to `CHECKLIST.md`. Rendered rules go in `audit.py`'s
 are for eyeballing a redesign, not for pixel-diff gating: post content changes
 legitimately, so a pixel diff produces mostly false alarms. The computed-style
 checks above are the reliable signal.
-
----
-
-## Where this lives
-
-Vendored into the `masaladeutsch-archive` repo (private remote
-`herrrickshaw/blogger_writeups_code`) under `consistency-check/`. The working
-copy is `~/blog-consistency-check/`; sync changes back with:
-
-```bash
-rsync -a --exclude __pycache__ --exclude .DS_Store \
-  ~/blog-consistency-check/ ~/masaladeutsch-archive/consistency-check/
-```
-
-`fixes/*.html` are **pending repairs, not live content** — the live bodies are in
-`../posts/`. A fix is applied when the live post's markers in `../meta/*.json`
-satisfy what the fix file asks for; `add_revision_line.py` computes that.
