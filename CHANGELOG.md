@@ -574,3 +574,16 @@ Removed the conflict-of-interest section from the diesel article at the author's
 **Changed**
 
 - `diesel-doesnt-move-cpi-it-moves-40` — 20,197 → 19,730 bytes (-467)
+
+## 2026-08-06T13:20:12+05:30 — 91 posts live
+
+Retitled to 'From Diesel to CNG: India's Greener Fuel Shift'; body headline and standfirst rewritten to match.
+
+
+**Versions**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+11/-0 distinct numbers)
+
+**Changed**
+
+- `diesel-doesnt-move-cpi-it-moves-40` — 19,730 → 24,328 bytes (+4,598)

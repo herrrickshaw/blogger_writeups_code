@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-06T12:49:16+05:30",
+  "snapshot": "2026-08-06T13:20:12+05:30",
   "count": 91,
   "posts": {
     "1157999291079244419": {
@@ -1536,14 +1536,14 @@
     },
     "4224393206963221960": {
       "id": "4224393206963221960",
-      "title": "Diesel Doesn't Move the CPI. It Moves ₹40 a Litre Between Two Channels.",
+      "title": "From Diesel to CNG: India's Greener Fuel Shift",
       "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
       "slug": "diesel-doesnt-move-cpi-it-moves-40",
       "published": "2026-08-06T12:38:39.791+05:30",
-      "updated": "2026-08-06T12:48:41.654+05:30",
+      "updated": "2026-08-06T13:19:34.547+05:30",
       "labels": [],
-      "bytes": 19730,
-      "sha256": "e3f7b9050e50fe1c3ced4556b887c92b512349d898126dfc329a76b48e605e4e",
+      "bytes": 24328,
+      "sha256": "4548ab9cd4827fdd28d466ba605060de7153f5e3a173ff7ea943d083293c8169",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1555,7 +1555,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1576,6 +1576,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Removed the conflict-of-interest section from the diesel article at the author's request."
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-06T13:20:12+05:30",
+          "level": "major",
+          "reason": "figures changed (+11/-0 distinct numbers)",
+          "bytes": [
+            19730,
+            24328
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Retitled to 'From Diesel to CNG: India's Greener Fuel Shift'; body headline and standfirst rewritten to match."
         }
       ]
     },
