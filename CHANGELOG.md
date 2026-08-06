@@ -317,3 +317,10 @@ Added --push; repo now mirrored to private GitHub remote blogger_writeups_code.
 
 
 No changes.
+
+## 2026-08-06T09:41:56+05:30 — 90 posts live
+
+Chemical post moved to the clean slug chemical-import-substitution-hsn-8-registry. Confirms the slug namespace is per month-path: the reserved base was 'chemical-import-substitution-full-hsn-8' under /2026/08/, and a different base in the same month published with no suffix on the first try.
+
+
+No changes.
