@@ -331,3 +331,56 @@ snapshot.py: detect and log moved posts (same id, new URL). A slug change was pr
 
 
 No changes.
+
+## 2026-08-06T09:45:37+05:30 — 90 posts live
+
+No changes.
+
+## 2026-08-06T09:46:05+05:30 — 90 posts live
+
+No changes.
+
+## 2026-08-06T09:46:24+05:30 — 90 posts live
+
+**Versions**
+
+- `rooftop-solar-is-working-household` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+
+**Changed**
+
+- `rooftop-solar-is-working-household` — 10,743 → 10,743 bytes (+0)
+
+## 2026-08-06T09:46:46+05:30 — 90 posts live
+
+**Versions**
+
+- `rooftop-solar-is-working-household` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `rooftop-solar-is-working-household` — 10,743 → 10,743 bytes (+0)
+
+## 2026-08-06T09:46:50+05:30 — 90 posts live
+
+**Versions**
+
+- `rooftop-solar-is-working-household` **1.0.0 → 1.1.0** (MINOR) — section(s) added: What would actually change household economics
+
+**Changed**
+
+- `rooftop-solar-is-working-household` — 10,743 → 10,743 bytes (+0)
+
+## 2026-08-06T09:46:56+05:30 — 90 posts live
+
+No changes.
+
+## 2026-08-06T09:47:38+05:30 — 90 posts live
+
+No changes.
+
+## 2026-08-06T09:50:37+05:30 — 90 posts live
+
+Semantic versioning added. Posts carry version + version_history in meta/*.json; snapshot.py auto-classifies MAJOR/MINOR/PATCH from a body diff (numbers, then headings, then length) with --as to override. All 90 existing posts seeded at 1.0.0 with a baseline history entry. Template gains a reader-facing revision line (with machine-readable dateModified) and an optional #changelog block; tracked as the revision_line marker, 0/90 coverage today.
+
+
+No changes.

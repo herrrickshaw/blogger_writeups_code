@@ -17,6 +17,7 @@ tools/capture_draft.md), otherwise the snapshot records it as "removed".
 import argparse
 import datetime as dt
 import hashlib
+import html
 import json
 import re
 import subprocess
@@ -94,6 +95,7 @@ MARKERS = {
     "translate_widget": lambda b: "google_translate_element" in b,
     "index_link": lambda b: "article-index-start-here" in b,
     "ai_disclosure": lambda b: "gs-ai-disclosure" in b,
+    "revision_line": lambda b: "gs-revision-v1" in b,
     "inverted_media_query": lambda b: bool(
         re.search(r"not all and \(prefers-color-scheme", b)
     ),
@@ -116,6 +118,74 @@ def marker_delta(old, rec):
     }
 
 
+# ---------------------------------------------------------------- versioning
+#
+# Semver (semver.org) applied to prose. The "public API" of a post is what a
+# reader could act on — its figures and its claims:
+#
+#   MAJOR  a figure or a conclusion changed. Someone who acted on the previous
+#          version could now be wrong. This is the incompatible change.
+#   MINOR  material new content, backward compatible — a new section, table or
+#          chart. Nothing previously stated stopped being true.
+#   PATCH  nothing the reader relies on moved: styling, markup, a design fix, a
+#          typo, a reworded sentence.
+#
+# Existing posts start at 1.0.0, not 0.1.0: they are published and stable, and
+# semver reserves 0.y.z for "anything MAY change at any time".
+FIRST_VERSION = "1.0.0"
+
+_DROP = re.compile(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", re.I)
+_TAG = re.compile(r"<[^>]+>")
+_NUM = re.compile(r"\d[\d,]*(?:\.\d+)?")
+_HEAD = re.compile(r"<h[1-4][^>]*>([\s\S]*?)</h[1-4]>", re.I)
+
+
+def visible_text(html_str):
+    s = _DROP.sub(" ", html_str)
+    s = _TAG.sub(" ", s)
+    s = html.unescape(s)
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def headings(html_str):
+    return [re.sub(r"\s+", " ", _TAG.sub("", h)).strip() for h in _HEAD.findall(html_str)]
+
+
+def classify(old_body, new_body):
+    """Return (level, reason). Heuristic — override with --as when it is wrong."""
+    if old_body is None:
+        return None, "no previous body on disk"
+    ot, nt = visible_text(old_body), visible_text(new_body)
+    if ot == nt:
+        return "patch", "visible text identical; only markup/styling changed"
+
+    on, nn = sorted(_NUM.findall(ot)), sorted(_NUM.findall(nt))
+    if on != nn:
+        added, removed = len(set(nn) - set(on)), len(set(on) - set(nn))
+        return "major", f"figures changed (+{added}/-{removed} distinct numbers)"
+
+    oh, nh = headings(old_body), headings(new_body)
+    gone = [h for h in oh if h not in nh]
+    if gone:
+        return "major", f"section(s) removed: {', '.join(gone[:3])}"
+
+    fresh = [h for h in nh if h not in oh]
+    if fresh:
+        return "minor", f"section(s) added: {', '.join(fresh[:3])}"
+    if len(nt) > len(ot) * 1.02:
+        return "minor", f"prose grew {len(ot):,}→{len(nt):,} chars with no new figures"
+    return "patch", "wording changed; no figures, sections or claims moved"
+
+
+def bump(version, level):
+    major, minor, patch = (int(x) for x in version.split("."))
+    if level == "major":
+        return f"{major + 1}.0.0"
+    if level == "minor":
+        return f"{major}.{minor + 1}.0"
+    return f"{major}.{minor}.{patch + 1}"
+
+
 def load_manifest():
     if MANIFEST.exists():
         return json.loads(MANIFEST.read_text())
@@ -127,6 +197,12 @@ def main():
     ap.add_argument("--note", default="", help="why this snapshot was taken")
     ap.add_argument("--no-commit", action="store_true")
     ap.add_argument("--push", action="store_true", help="push to origin after committing")
+    ap.add_argument(
+        "--as",
+        dest="force_level",
+        choices=["major", "minor", "patch"],
+        help="override the auto-classified semver level for every change this run",
+    )
     args = ap.parse_args()
 
     POSTS.mkdir(exist_ok=True)
@@ -150,7 +226,7 @@ def main():
     entries = list(seen_ids.values())
 
     now = dt.datetime.now().astimezone().isoformat(timespec="seconds")
-    cur, added, changed, moved = {}, [], [], []
+    cur, added, changed, moved, bumped = {}, [], [], [], []
     slug_owner = {}
 
     for e in entries:
@@ -164,22 +240,69 @@ def main():
             slug = f"{slug}--{rec['id']}"
             rec["slug"] = slug
         slug_owner[slug] = rec["id"]
+
+        old = prev.get(rec["id"])
+        # Read the previous body from its OLD path before anything is overwritten;
+        # a moved post lives under a different filename.
+        old_path = POSTS / f"{(old or {}).get('slug', slug)}.html"
+        old_body = old_path.read_text(encoding="utf-8") if old and old_path.exists() else None
+
         (POSTS / f"{slug}.html").write_text(body, encoding="utf-8")
         (META / f"{slug}.json").write_text(
             json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
         )
-        old = prev.get(rec["id"])
         if old is None:
+            rec["version"] = FIRST_VERSION
+            rec["version_history"] = [
+                {"version": FIRST_VERSION, "date": now, "level": "initial",
+                 "reason": "first snapshot", "note": args.note or ""}
+            ]
             added.append(rec)
-        elif old.get("url") != rec["url"]:
-            # Same post, new address. Blogger reserves slugs permanently, so a
-            # moved post leaves a dead URL behind — always worth a log line even
-            # when not one byte of the body changed.
-            moved.append((rec, old))
-            if old.get("sha256") != rec["sha256"]:
+        else:
+            rec["version"] = old.get("version", FIRST_VERSION)
+            rec["version_history"] = list(old.get("version_history", []))
+            if not rec["version_history"]:
+                # Post predates versioning: record the baseline so history is
+                # never empty and v1.0.0 has a date attached.
+                rec["version_history"].append(
+                    {"version": rec["version"], "date": now, "level": "baseline",
+                     "reason": "version tracking introduced", "note": ""}
+                )
+            url_moved = old.get("url") != rec["url"]
+            body_changed = old.get("sha256") != rec["sha256"]
+
+            if url_moved:
+                # Same post, new address. Blogger reserves slugs permanently, so
+                # a moved post leaves a dead URL behind — always log it, even
+                # when not one byte of the body changed.
+                moved.append((rec, old))
+            if body_changed:
                 changed.append((rec, old, marker_delta(old, rec)))
-        elif old.get("sha256") != rec["sha256"]:
-            changed.append((rec, old, marker_delta(old, rec)))
+
+            if body_changed or url_moved:
+                level, reason = classify(old_body, body)
+                if not body_changed:
+                    level, reason = "patch", "moved to a new URL; body unchanged"
+                if level is None:
+                    level = "patch"
+                    reason = "previous body missing from posts/ — defaulted to patch"
+                if args.force_level:
+                    level = args.force_level
+                    reason = f"forced via --as {level} ({reason})"
+                rec["version"] = bump(rec["version"], level)
+                rec["version_history"].append(
+                    {
+                        "version": rec["version"],
+                        "date": now,
+                        "level": level,
+                        "reason": reason,
+                        "bytes": [old.get("bytes"), rec["bytes"]],
+                        "url_changed": [old.get("url"), rec["url"]] if url_moved else None,
+                        "markers_changed": marker_delta(old, rec) or None,
+                        "note": args.note or "",
+                    }
+                )
+                bumped.append((rec, old, level, reason))
         cur[rec["id"]] = rec
 
     removed = [prev[k] for k in prev if k not in cur]
@@ -202,7 +325,17 @@ def main():
         lines.append(f"\n{args.note}\n")
     if added:
         lines.append("\n**Added**\n")
-        lines += [f"- `{r['slug']}` — {r['title']} ({r['bytes']:,} bytes)" for r in added]
+        lines += [
+            f"- `{r['slug']}` **v{r['version']}** — {r['title']} ({r['bytes']:,} bytes)"
+            for r in added
+        ]
+    if bumped:
+        lines.append("\n**Versions**\n")
+        for rec, old, level, reason in bumped:
+            lines.append(
+                f"- `{rec['slug']}` **{old.get('version', FIRST_VERSION)} → "
+                f"{rec['version']}** ({level.upper()}) — {reason}"
+            )
     if changed:
         lines.append("\n**Changed**\n")
         for rec, old, delta in changed:
@@ -220,7 +353,7 @@ def main():
     if removed:
         lines.append("\n**No longer published** (drafted or deleted; file kept in `posts/`)\n")
         lines += [f"- `{r['slug']}` — {r['title']}" for r in removed]
-    if not (added or changed or removed or moved):
+    if not (added or changed or removed or moved or bumped):
         lines.append("\nNo changes.")
     lines.append("")
 
@@ -232,6 +365,9 @@ def main():
         f"{len(cur)} posts | +{len(added)} added | ~{len(changed)} changed | "
         f"->{len(moved)} moved | -{len(removed)} unpublished"
     )
+    for rec, old, level, reason in bumped:
+        print(f"  v {rec['slug']}: {old.get('version', FIRST_VERSION)} -> "
+              f"{rec['version']} ({level}) — {reason}")
     for rec, old in moved:
         print("  ->", old["slug"], "=>", rec["slug"])
     for r in added:
@@ -246,6 +382,7 @@ def main():
     msg = (
         f"snapshot {now}: +{len(added)} ~{len(changed)} "
         f"->{len(moved)} -{len(removed)}"
+        + (f" | v{len(bumped)} bumped" if bumped else "")
     )
     if args.note:
         msg += f"\n\n{args.note}"

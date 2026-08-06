@@ -39,6 +39,24 @@ git -C ~/masaladeutsch-archive diff HEAD~1 -- meta/                # marker flip
 `meta/*.json` is the fast read: an unwanted design change shows up as a boolean
 flip (`light_lock: true → false`) even when the prose is identical.
 
+## Versions
+
+Every post has a semver number and a `version_history` in `meta/<slug>.json`.
+**MAJOR** = a figure or conclusion changed · **MINOR** = new section · **PATCH** =
+wording, styling, a typo, a URL move. Full rationale in `DESIGN_LOG.md`.
+
+The snapshot classifies each bump by diffing the previous body against the new
+one — numbers first, then headings, then length. It is a heuristic; override it
+when it guesses wrong:
+
+```bash
+python3 tools/snapshot.py --as major --note "corrected the FY25 import figure"
+```
+
+```bash
+git -C ~/masaladeutsch-archive log -p --follow meta/<slug>.json   # a post's version history
+```
+
 ## Revert a post
 
 ```bash

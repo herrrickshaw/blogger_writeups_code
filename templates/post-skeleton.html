@@ -47,6 +47,8 @@
 .XX .warn{background:#fff4f0;border-left:4px solid #a5402c;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
 .XX .src{font-size:.84rem;border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
 .XX .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.XX .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.XX .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
 </style>
 
 <!-- 1. Translate widget — required on every post -->
@@ -59,6 +61,18 @@
 <h1>Headline &mdash; the claim, not the topic</h1>
 <p>One sentence saying what the numbers show and why it matters.</p>
 </div>
+
+<!--
+  3. Revision line. Update BOTH the datetime attribute and the visible text on
+  every substantive edit, and keep the version in step with meta/<slug>.json in
+  the archive (tools/snapshot.py classifies the bump; see DESIGN_LOG.md).
+  MAJOR = a figure or conclusion changed · MINOR = new section · PATCH = wording,
+  styling, typo. The <time> element carries a machine-readable dateModified for
+  search engines; the visible text is what tells a reader the piece is maintained.
+-->
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="YYYY-MM-DD" itemprop="dateModified">D Month YYYY</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
 <div class="stat"><b>&#8377;0</b><span>What this figure is, with its unit</span></div>
@@ -82,7 +96,20 @@
 anything modelled or indicative as such.</p>
 
 <!--
-  3. AI disclosure — LAST, after every </script> in the document.
+  4. Revision history. Newest first. One line per published revision; say what a
+  returning reader needs to know, not what the diff looks like. Drop the whole
+  block on a post that has never been revised.
+-->
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.1.0</b> &mdash; 00 Month YYYY &mdash; added the section on X.</li>
+<li><b>v1.0.0</b> &mdash; 00 Month YYYY &mdash; first published.</li>
+</ul>
+</div>
+
+<!--
+  5. AI disclosure — LAST, after every </script> in the document.
   Never insert it inside a script; that breaks the JS and kills the charts.
 -->
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>

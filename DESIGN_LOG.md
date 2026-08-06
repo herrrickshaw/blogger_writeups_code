@@ -95,6 +95,44 @@ cleanest example at the time. Everything below is what a post must satisfy.
 
 ---
 
+## 2026-08-06 — semantic versioning for posts
+
+Each post carries a semver number in `meta/<slug>.json` (`version`, plus a
+`version_history` list). [semver.org](https://semver.org) is written for APIs, so
+the mapping has to be stated explicitly. **A post's public API is what a reader
+could act on: its figures and its claims.**
+
+| Level | Meaning | Examples |
+|---|---|---|
+| **MAJOR** | A figure or a conclusion changed. Someone who acted on the previous version could now be wrong. | A revised WPI series; a corrected import number; a section deleted |
+| **MINOR** | Material new content, backward compatible. Nothing previously stated stopped being true. | A new section, table or chart |
+| **PATCH** | Nothing the reader relies on moved. | Styling, markup, a design fix, a typo, a reworded sentence, a URL move |
+
+Posts start at **1.0.0**, not 0.1.0 — semver reserves `0.y.z` for "anything MAY
+change at any time", and a published post is not that. The 90 posts live when
+versioning was introduced were seeded at 1.0.0 with a `baseline` history entry.
+
+`tools/snapshot.py` classifies each bump automatically by comparing the previous
+body on disk against the newly fetched one: it strips scripts, styles and tags,
+then compares the **multiset of numbers** first (any difference ⇒ MAJOR), then
+headings (removed ⇒ MAJOR, added ⇒ MINOR), then prose length. It is a heuristic
+and it will be wrong sometimes — `--as major|minor|patch` overrides it. All three
+paths were tested against a real post body before this was committed.
+
+**What gets recorded per revision** (following the practice in
+`argenius.in/blog-details/blog-versioning-track-post-updates`): version, date,
+level, reason, byte delta, any URL change, and any design-marker change. That
+article recommends recording the change set and showing freshness to readers but
+prescribes no numbering scheme, which is why the numbering comes from semver.
+
+**Reader-facing.** The template now carries a `revision_line` block under the
+hero — `Revised <time datetime="…">…</time> · v1.0.0 · what changed` — and an
+optional `#changelog` list near the foot. The `<time>` element gives search
+engines a machine-readable `dateModified`; the visible line tells a reader the
+piece is maintained. `revision_line` is tracked as a design marker, so coverage
+is measurable: **0 of 90 posts carry it today** — it applies to new and revised
+posts from here, and is not worth back-filling across the archive by hand.
+
 ## 2026-08-06 — versioning added
 
 Every published post is now snapshotted into this repo by `tools/snapshot.py`,
