@@ -223,6 +223,10 @@ biting, just at snippet level.
 everything rendered on the index. Until that post is smaller the homepage cannot
 list more than two entries.
 
+**Corrected 2026-08-07 after acting on this.** The ~410 KB figure above was one
+data point mistaken for a limit. With a second point the threshold is far lower —
+see the entry below.
+
 Options, none applied:
 - Split the 827-code registry into a short article plus a linked data page.
 - Move the full table into a separate page and leave a summary in the post.
@@ -232,3 +236,43 @@ Do NOT raise the max-posts setting further expecting an effect; it is not the
 binding constraint. (Also note the folkloric 1 MB per rendered page figure in
 BLOGGER_API_RUNBOOK.md — the observed index cut is well below that, so treat the
 budget as smaller than the folklore for index pages.)
+
+
+## 2026-08-07 — registry split, and the real index threshold
+
+Acted on the entry above. The chemical registry post was 96% table markup:
+367,706 of 381,972 bytes, 835 rows in 8 chapter tables, against ~14 KB of prose.
+
+**What was done.** Tables moved to their own post, backdated to 2026-08-05 so it
+falls outside the newest-five window the homepage draws from. The article keeps
+the analysis and links out to it, and drops 381,972 → 13,748 bytes (3% of
+original). Article and data post both verified live; the data post renders all
+8 tables and 835 rows.
+
+**A Blogger PAGE will not work for this, and that cost an attempt.** Pages were
+the obvious home for a large reference table. The API accepted and *stored* all
+375,511 bytes with every row intact — confirmed by reading the page back through
+the API — but the rendered page returned 39,784 bytes with zero tables. A post
+with the same content renders all 835 rows at 422 KB. **Pages have a much tighter
+render budget than posts.** The page was deleted; use a backdated post instead.
+
+**The index threshold is ~100 KB, not ~410 KB.** Two cut points, each inclusive
+of the post that crosses:
+
+| | cumulative at cut | posts rendered |
+|---|---:|---:|
+| before the split | 409,699 (post 2 crossed) | 2 |
+| after the split | 141,249 (post 3 crossed) | 3 |
+
+41,475 did not cut; 141,249 did. So the budget lies between those, and Blogger
+renders the post that crosses it before stopping. The earlier 410 KB reading was
+a single observation treated as a boundary.
+
+**Next blocker is india-mineral-oil at 99,774 bytes** — on its own it takes the
+running total past the threshold at position three. Slimming it the same way
+(charts and data out to a backdated companion post) should let four or five
+posts through. Not done.
+
+Note the rendered homepage is only ~40 KB with a 4 KB Blog widget block, so this
+is not an output-size cap — Blogger charges the *source* weight of each post it
+must process for the index, whatever the template displays.
