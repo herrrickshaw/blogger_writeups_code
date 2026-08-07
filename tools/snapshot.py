@@ -234,7 +234,7 @@ def main():
     entries = list(seen_ids.values())
 
     now = dt.datetime.now().astimezone().isoformat(timespec="seconds")
-    cur, added, changed, moved, bumped = {}, [], [], [], []
+    cur, added, changed, moved, bumped, redated = {}, [], [], [], [], []
     slug_owner = {}
 
     for e in entries:
@@ -278,6 +278,12 @@ def main():
                 )
             url_moved = old.get("url") != rec["url"]
             body_changed = old.get("sha256") != rec["sha256"]
+            # A publication-date change alters neither body nor URL, so without
+            # this it is invisible in the changelog — yet it reorders the blog
+            # and decides which posts the homepage renders.
+            date_moved = old.get("published") != rec["published"]
+            if date_moved and not (url_moved or body_changed):
+                redated.append((rec, old))
 
             if url_moved:
                 # Same post, new address. Blogger reserves slugs permanently, so
@@ -354,6 +360,11 @@ def main():
                     f"{k} {a}→{b}" for k, (a, b) in sorted(delta.items())
                 )
             lines.append(bit)
+    if redated:
+        lines.append("\n**Re-dated** (publication date changed; body and URL unchanged)\n")
+        for rec, old in redated:
+            lines.append(f"- `{rec['slug']}` — {old.get('published','?')[:10]} "
+                         f"&rarr; {rec['published'][:10]}")
     if moved:
         lines.append("\n**Moved** (old URL is now dead — Blogger never releases a slug)\n")
         for rec, old in moved:
@@ -361,7 +372,7 @@ def main():
     if removed:
         lines.append("\n**No longer published** (drafted or deleted; file kept in `posts/`)\n")
         lines += [f"- `{r['slug']}` — {r['title']}" for r in removed]
-    if not (added or changed or removed or moved or bumped):
+    if not (added or changed or removed or moved or bumped or redated):
         lines.append("\nNo changes.")
     lines.append("")
 
@@ -371,8 +382,10 @@ def main():
 
     print(
         f"{len(cur)} posts | +{len(added)} added | ~{len(changed)} changed | "
-        f"->{len(moved)} moved | -{len(removed)} unpublished"
+        f"->{len(moved)} moved | ~{len(redated)} re-dated | -{len(removed)} unpublished"
     )
+    for rec, old in redated:
+        print(f"  d  {rec['slug']}: {old.get('published','?')[:10]} -> {rec['published'][:10]}")
     for rec, old, level, reason in bumped:
         print(f"  v {rec['slug']}: {old.get('version', FIRST_VERSION)} -> "
               f"{rec['version']} ({level}) — {reason}")

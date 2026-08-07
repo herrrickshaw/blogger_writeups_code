@@ -276,3 +276,37 @@ posts through. Not done.
 Note the rendered homepage is only ~40 KB with a 4 KB Blog widget block, so this
 is not an output-size cap — Blogger charges the *source* weight of each post it
 must process for the index, whatever the template displays.
+
+## 2026-08-07 — mineral-oil: a date correction, not a split
+
+The homepage now renders **five** posts. Getting the last two took a different
+technique from the chemical split, because the post has a different shape.
+
+**Why not the same treatment.** The chemical registry was 96% static table
+markup — liftable. `india-mineral-oil` is 78% *script*: a single 76,889-byte
+block holding a 59,817-byte data object that populates 47 DOM targets (6 in
+sections 1-6, 41 in sections 7-21). Splitting it means operating on live chart
+JS, which is exactly the class of change that silently killed a chart earlier
+in this project and took several rounds to detect.
+
+**What was done instead.** The post's published date read 2026-08-06 — an
+artefact of republishing it to strip the CSS layers, not its real date. Its true
+date, **2026-07-30T09:42:00**, was recovered from the original post still
+sitting in the blog as a draft. Restoring it is a correction, and it moves the
+post out of the newest-five window the homepage draws from. No content changed;
+charts verified intact afterwards (4 scripts, 0 broken).
+
+**A Blogger date change does NOT move the post URL.** This mattered: Blogger
+URLs embed `/YYYY/MM/`, and `/2026/07/india-mineral-oil-hsn-ch27-trade.html` is
+already burned by the draft, so a URL move would have produced another dead
+link. Rather than test that on a flagship post, the date change was first run on
+the registry data post created an hour earlier — URL unchanged — then that post
+was restored and the same change applied. **Test a destructive-looking mechanism
+on something disposable first.**
+
+**Snapshot gap closed.** A re-dated post changes neither body hash nor URL, so
+`snapshot.py` reported "0 changed" for an edit that reorders the whole blog and
+decides what the homepage shows. It now detects and logs re-dates as their own
+category, verified with a synthetic manifest edit.
+
+Homepage progression across the two fixes: **2 → 3 → 5**.
