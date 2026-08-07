@@ -378,3 +378,68 @@ before 2030. Food and urea are the exceptions: food was never calm, urea still i
 The general rule this is an instance of: **a long-run average across a
 structural break is not a description of either side of it.** Both tables now
 carry an explicit note on which question each one answers.
+
+## 2026-08-07 — the break audit, and one post whose conclusion it changed
+
+Scanned all 95 posts for long-span rate claims. Most CAGR mentions are vendor
+forecasts (already governed by the vendor-estimate rule) or already split by the
+author — `securitising-deficit` correctly quotes both a ten-year and a three-year
+rupee depreciation rate. One post had the problem in a way that changed a stated
+conclusion.
+
+**`hsn-wise-historical-importexport-trends`** ranks 24 HS chapters by eight-year
+CAGR. Splitting each series at FY2021-22 shows the ranking is measuring two
+different things at once:
+
+- **10 of 24 finished at their eight-year peak.** For these the CAGR means what
+  it appears to mean. Electrical machinery exports went $12.7bn → $54.0bn with
+  no reversal — a real 22.9% trend.
+- **4 are round trips**, ending ≥20% below a mid-window peak. Iron & steel
+  exports tripled to $22.9bn in FY2021-22 and gave all of it back: an 0.8%
+  eight-year CAGR that is arithmetically correct and informationally empty.
+- The post's headline finding — fertilisers as "fastest-growing chapter … likely
+  reflecting global fertiliser price shocks since 2022" — was **wrong in its
+  attribution**. The series ran flat near $6.7bn for three years, spiked to
+  $15.3bn by FY2022-23, collapsed to $8.3bn, then spiked again. Growth was
+  +24.2%/yr *before* FY2021-22 and +3.4%/yr after. It is the most volatile
+  chapter on the page, not the fastest-growing one. Corrected, and a shape
+  section added; the post went to **v2.0.0** (a stated conclusion moved).
+
+The rule now applies twice, so it is worth stating generally: **before quoting a
+multi-year rate, split the window and check the two halves agree.** If they do
+not, the rate is an artefact of its endpoints. A ranking built on such rates
+ranks volatility as if it were growth.
+
+## 2026-08-07 — 54EC bonds: validating someone else's model before publishing on it
+
+New post on reinvesting long-term capital gains. It began from a spreadsheet
+model supplied by the user; the engine was reproduced independently in Python
+before any of it was written up, and it checked out exactly (₹60.09L / ₹56.96L
+terminal values, 9.92% / 8.66% / 7.72% breakevens, ₹64.33L policy scenario).
+Reproducing first was the right order — two of the model's own flagged
+uncertainties resolved against it:
+
+- **IREDA is notified.** The model listed four issuers and flagged IREDA as
+  unverified. PIB release 2143668 (10 Jul 2025, MNRE) confirms CBDT notified
+  IREDA bonds as a long-term specified asset effective **9 July 2025**, with a
+  renewable-energy end-use condition. Five issuers, not four — and, more
+  usefully, the notification power was exercised **twice in 2025** (HUDCO
+  1 April, IREDA 9 July), which is the article's central point: widening the set
+  needs a notification, not an amendment.
+- **The tax-free PSU YTM conflict resolves downward.** Two sources differed by
+  ~100bp. Live ISIN-level quotes settle it near the lower band — PFC 8.67% 2033
+  at ~5.2%, IRFC 8.63% 2029 at ~5.11%. Using 5.15% instead of the model's 6.0%
+  moves tax-free PSU bonds from 4th place to 8th. The model was right to refuse
+  to pick a side; the fix was to go and get the primary quote.
+- **The SDL row was dropped entirely.** Its only input was a spread estimate with
+  no quote behind it. A row that exists only to be caveated should not be in the
+  table.
+
+Two figures in the first draft were wrong and caught by recomputation before
+publishing: the 5% and 20% slab rows of the breakeven grid. Written from
+plausible interpolation, they were out by 40–90bp. **Every number in a table gets
+computed, never estimated to look right.**
+
+The article also inherits this session's other lesson: the RBI bond's 8.05% is a
+*floating* rate reset half-yearly, and holding it flat for five years is an
+assumption. That is said in the text, with a link back to the WPI post.
