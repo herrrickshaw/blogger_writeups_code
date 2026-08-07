@@ -18,5 +18,15 @@
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
-  }
+  },
+  "version": "1.0.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-07T09:06:19+05:30",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Split the chemical registry: 835 table rows moved to a backdated data post, article slimmed 382KB -> 13.7KB. Homepage now renders 3 posts (was 2)."
+    }
+  ]
 }

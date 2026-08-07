@@ -163,6 +163,13 @@ def classify(old_body, new_body):
     """Return (level, reason). Heuristic — override with --as when it is wrong."""
     if old_body is None:
         return None, "no previous body on disk"
+    if old_body == new_body:
+        # posts/ is the PREVIOUS snapshot. If it already matches what the feed
+        # just returned while the manifest says the bytes moved, the file was
+        # edited in place and then published — so this diff is the new body
+        # against itself and would score "nothing changed" for any edit at all.
+        return None, ("posts/ already held the published body — edited in place, "
+                      "so no diff was possible; set the level with --as")
     ot, nt = visible_text(old_body), visible_text(new_body)
     if ot == nt:
         return "patch", "visible text identical; only markup/styling changed"
@@ -256,9 +263,6 @@ def main():
         old_body = old_path.read_text(encoding="utf-8") if old and old_path.exists() else None
 
         (POSTS / f"{slug}.html").write_text(body, encoding="utf-8")
-        (META / f"{slug}.json").write_text(
-            json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
-        )
         if old is None:
             rec["version"] = FIRST_VERSION
             rec["version_history"] = [
@@ -298,8 +302,11 @@ def main():
                 if not body_changed:
                     level, reason = "patch", "moved to a new URL; body unchanged"
                 if level is None:
+                    # classify() could not compare. Default to patch but keep its
+                    # reason — it says which failure this was, and an in-place
+                    # edit needs a human --as, not a silent 1.0.1.
                     level = "patch"
-                    reason = "previous body missing from posts/ — defaulted to patch"
+                    reason = f"UNCLASSIFIED, defaulted to patch: {reason}"
                 if args.force_level:
                     level = args.force_level
                     reason = f"forced via --as {level} ({reason})"
@@ -317,6 +324,12 @@ def main():
                     }
                 )
                 bumped.append((rec, old, level, reason))
+        # Write the sidecar last: version and version_history are only attached
+        # above, so writing earlier silently shipped meta/ files with no version
+        # in them while the manifest held the real one.
+        (META / f"{slug}.json").write_text(
+            json.dumps(rec, indent=2, ensure_ascii=False) + "\n", encoding="utf-8"
+        )
         cur[rec["id"]] = rec
 
     removed = [prev[k] for k in prev if k not in cur]

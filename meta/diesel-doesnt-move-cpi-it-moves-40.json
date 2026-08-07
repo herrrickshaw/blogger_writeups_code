@@ -18,5 +18,67 @@
     "revision_line": true,
     "inverted_media_query": false,
     "disclaimer_in_script": false
-  }
+  },
+  "version": "5.0.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-06T12:40:01+05:30",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Published: diesel/CPI/CNG article via the new posts.insert path."
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-06T12:49:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        20197,
+        19730
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Removed the conflict-of-interest section from the diesel article at the author's request."
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-06T13:20:12+05:30",
+      "level": "major",
+      "reason": "figures changed (+11/-0 distinct numbers)",
+      "bytes": [
+        19730,
+        24328
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Retitled to 'From Diesel to CNG: India's Greener Fuel Shift'; body headline and standfirst rewritten to match."
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-08-06T13:31:37+05:30",
+      "level": "major",
+      "reason": "figures changed (+14/-0 distinct numbers)",
+      "bytes": [
+        24328,
+        27729
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Added ARAI/SIAM-calibrated cost-per-km exhibit; retitled to a claim the evidence supports."
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-08-07T08:45:53+05:30",
+      "level": "major",
+      "reason": "section(s) removed: From Diesel to CNG: India&rsquo;s Greener Fuel Shift",
+      "bytes": [
+        27729,
+        27727
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title suppressed via :has(). Blogger setting 'max posts on main page' raised 3->5, which did NOT change the homepage (still renders 2) — the constraint is the theme's index rendering, not the setting."
+    }
+  ]
 }

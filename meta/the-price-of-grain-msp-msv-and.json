@@ -18,5 +18,33 @@
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
-  }
+  },
+  "version": "1.0.1",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-06T09:46:05+05:30",
+      "level": "baseline",
+      "reason": "version tracking introduced",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-06T11:31:49+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29218,
+        28153
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "inverted_media_query": [
+          true,
+          false
+        ]
+      },
+      "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    }
+  ]
 }

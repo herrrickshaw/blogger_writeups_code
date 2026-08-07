@@ -1,13 +1,13 @@
 {
   "id": "1665435353922419990",
-  "title": "Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% \u2014 and Three Corrections to Our Own Earlier Posts",
+  "title": "Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts",
   "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.437+05:30",
-  "updated": "2026-08-07T09:46:50.511+05:30",
+  "updated": "2026-08-07T09:53:27.220+05:30",
   "labels": [],
-  "bytes": 16278,
-  "sha256": "e3d3596402f0370404a7f1eb3c1406c930f55136a3ac06d7a8af0eba88be1967",
+  "bytes": 19333,
+  "sha256": "9ab72f45836302771c39d0bd8c72dbaf1f80af1ceab638da92875a5fb9a96471",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,16 +19,40 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
+      "version": "1.0.0",
+      "date": "2026-08-06T09:46:05+05:30",
+      "level": "baseline",
+      "reason": "version tracking introduced",
+      "note": ""
+    },
+    {
       "version": "1.1.0",
-      "date": "2026-08-07",
+      "date": "2026-08-07T09:47:26+05:30",
       "level": "minor",
-      "reason": "section added: The doubling test: 72 divided by the rate",
-      "bytes_delta": 3941,
-      "url_changed": false,
-      "markers_changed": []
+      "reason": "section added: The doubling test: 72 divided by the rate (auto-classifier saw no diff — posts/ had been edited in place)",
+      "bytes": [
+        12337,
+        16278
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "WPI: rule-of-72 doubling test"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-08-07T09:54:08+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+25/-1 distinct numbers))",
+      "bytes": [
+        16278,
+        19333
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "WPI: calm-vs-current split, 2012-20 vs 2020-26"
     }
   ]
 }

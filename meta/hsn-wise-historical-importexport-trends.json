@@ -18,5 +18,50 @@
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
-  }
+  },
+  "version": "1.0.2",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-06T09:46:05+05:30",
+      "level": "baseline",
+      "reason": "version tracking introduced",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-06T11:31:49+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30910,
+        20820
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          true,
+          false
+        ],
+        "inverted_media_query": [
+          true,
+          false
+        ]
+      },
+      "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-06T12:02:25+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20820,
+        21200
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+    }
+  ]
 }

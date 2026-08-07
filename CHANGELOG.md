@@ -654,3 +654,16 @@ WPI: rule-of-72 doubling test
 **Changed**
 
 - `fourteen-years-of-indian-wholesale` — 12,337 → 16,278 bytes (+3,941)
+
+## 2026-08-07T09:54:08+05:30 — 92 posts live
+
+WPI: calm-vs-current split, 2012-20 vs 2020-26
+
+
+**Versions**
+
+- `fourteen-years-of-indian-wholesale` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+25/-1 distinct numbers))
+
+**Changed**
+
+- `fourteen-years-of-indian-wholesale` — 16,278 → 19,333 bytes (+3,055)
