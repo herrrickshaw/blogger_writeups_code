@@ -199,3 +199,36 @@ reconciled one post at a time — that is what produced this mess. Colour must b
 defined once, centrally, and post bodies must stop declaring it. Structure and
 class names stay in the posts; every colour token moves to a single theme
 stylesheet. Posts will look uniform afterwards; that is the intended trade.
+
+## 2026-08-07 — the homepage post count is a size budget, not a setting
+
+The homepage renders two posts however high "Max posts shown on main page" is
+set (tested at 3 and 5). The cause is Blogger's per-page rendering budget, and
+the evidence is the cut point:
+
+| # | post | bytes | cumulative |
+|---|---|---:|---:|
+| 1 | diesel-doesnt-move-cpi | 27,727 | 27,727 |
+| 2 | chemical-import-substitution | 381,972 | **409,699** — last rendered |
+| 3 | india-mineral-oil | 99,774 | 509,473 — not rendered |
+
+Blogger populates `data:posts` with full post bodies even when the index
+template only reads `data:post.snippet`, so body weight is charged against the
+budget whether or not it is displayed. The theme already renders snippets and
+carries a comment warning that full bodies here "would exhaust Blogger's page
+budget, which silently empties the whole list" — that mechanism is what is
+biting, just at snippet level.
+
+**One post causes it.** The chemical HSN-8 registry is 382 KB, roughly 93% of
+everything rendered on the index. Until that post is smaller the homepage cannot
+list more than two entries.
+
+Options, none applied:
+- Split the 827-code registry into a short article plus a linked data page.
+- Move the full table into a separate page and leave a summary in the post.
+- Accept two posts on the index and rely on the topic index widget for browsing.
+
+Do NOT raise the max-posts setting further expecting an effect; it is not the
+binding constraint. (Also note the folkloric 1 MB per rendered page figure in
+BLOGGER_API_RUNBOOK.md — the observed index cut is well below that, so treat the
+budget as smaller than the folklore for index pages.)
