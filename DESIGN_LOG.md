@@ -310,3 +310,22 @@ decides what the homepage shows. It now detects and logs re-dates as their own
 category, verified with a synthetic manifest edit.
 
 Homepage progression across the two fixes: **2 → 3 → 5**.
+
+## 2026-08-07 — never edit `posts/` in place before publishing
+
+The WPI post gained a whole new section and `snapshot.py` classified it
+**PATCH — "visible text identical"**. The classifier was right about what it was
+shown; it was shown the wrong thing.
+
+`posts/<slug>.html` is the **previous snapshot**, and the classifier diffs it
+against the freshly fetched body. Drafting the new section directly into that
+file and then publishing from it means both sides of the diff are the new body:
+every change looks like a no-op. The byte delta still moved (12,337 → 16,278)
+only because it is read from `meta/`, which is why the run *looked* plausible.
+
+**Rule: draft into `out/`, publish from `out/`, let `snapshot.py` write
+`posts/`.** The archive directory is an output, not a workspace. Version
+corrected by hand to 1.1.0 (minor — section added).
+
+Worth noting the failure mode: a diff-based check that silently compares
+something to itself reports "clean", not "error".
