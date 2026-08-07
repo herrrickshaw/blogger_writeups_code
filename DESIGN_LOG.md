@@ -329,3 +329,52 @@ corrected by hand to 1.1.0 (minor — section added).
 
 Worth noting the failure mode: a diff-based check that silently compares
 something to itself reports "clean", not "error".
+
+## 2026-08-07 — audit: the in-place edit happened once, and two real bugs behind it
+
+Every snapshot commit was replayed and each changed `posts/*.html` diffed
+parent-vs-commit through `snapshot.py`'s own `visible_text()`, then checked
+against the level the CHANGELOG recorded. **One post out of 95** was classified
+"visible text identical" while its visible text actually moved: the WPI post,
+7,788 → 10,650 characters. Every other PATCH with that reason was genuine — the
+45-post normalisation really did remove only style blocks.
+
+The obvious detector (posts/ touched outside a snapshot commit) finds nothing
+and never would: the in-place edit is committed *by* the snapshot run that
+mis-scored it. Replaying the diff is the test that works.
+
+Two bugs the audit exposed:
+
+**1. Sidecars never carried a version.** `meta/<slug>.json` was written in the
+middle of the loop, before `version` and `version_history` were attached to the
+record. Ninety-five sidecars shipped with no version field while the manifest
+held the real one — a hand-edit to a sidecar looked like it worked and changed
+nothing. The write now happens at the end of the loop.
+
+**2. `classify()` scored a self-diff as "nothing changed".** It now returns
+`None` when the on-disk previous body is byte-identical to the fetched one, with
+a reason naming the cause, and an unclassified default is labelled
+`UNCLASSIFIED, defaulted to patch: …` instead of silently reading as a routine
+1.0.1. A comparison that can't be made must not report "clean".
+
+## 2026-08-07 — the calm in the table is an average of two different decades
+
+The doubling table invites a wrong reading, so the post now says so outright.
+Split at April 2020, the fourteen-year averages come apart:
+
+| | 2012–20 | 2020–26 | 14-yr avg | Jun 2026 YoY |
+|---|---|---|---|---|
+| HSD (diesel) | **−4.72%** | **+17.53%** | 4.25% | +32.57% |
+| Fuel & Power | −2.09% | +12.46% | 3.90% | +27.41% |
+| All Commodities | 1.63% | 5.84% | 3.42% | +9.87% |
+| Food Articles | 4.80% | 4.52% | 4.68% | +5.49% |
+| Urea | 1.10% | 0.70% | 0.93% | +1.09% |
+
+Diesel's 4.25% "average" describes neither half — it is one period falling and
+another rising, cancelling. Run the rule of 72 on the current pace instead and
+diesel doubles in **2.2 years**, not 16.9; three of the eight series double
+before 2030. Food and urea are the exceptions: food was never calm, urea still is.
+
+The general rule this is an instance of: **a long-run average across a
+structural break is not a description of either side of it.** Both tables now
+carry an explicit note on which question each one answers.
