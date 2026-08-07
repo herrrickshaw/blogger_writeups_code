@@ -641,3 +641,16 @@ No changes.
 ## 2026-08-07T09:40:47+05:30 — 92 posts live
 
 No changes.
+
+## 2026-08-07T09:47:26+05:30 — 92 posts live
+
+WPI: rule-of-72 doubling test
+
+
+**Versions**
+
+- `fourteen-years-of-indian-wholesale` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `fourteen-years-of-indian-wholesale` — 12,337 → 16,278 bytes (+3,941)
