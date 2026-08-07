@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-07T08:45:53+05:30",
-  "count": 91,
+  "snapshot": "2026-08-07T09:06:19+05:30",
+  "count": 92,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -2732,10 +2732,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.719+05:30",
-      "updated": "2026-08-06T11:21:00.286+05:30",
+      "updated": "2026-08-07T09:02:03.704+05:30",
       "labels": [],
-      "bytes": 381972,
-      "sha256": "545f9d6dafdbadadd5a46e798212726d29c9163b9195224ffd3dc28af83c185f",
+      "bytes": 13748,
+      "sha256": "938da798f5a902d77caa31a680229ebce51c8fd1353659c28774bc9b8c72232a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2743,11 +2743,11 @@
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
-        "revision_line": false,
+        "revision_line": true,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2777,6 +2777,24 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-07T09:06:19+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-1902 distinct numbers)",
+          "bytes": [
+            381972,
+            13748
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "revision_line": [
+              false,
+              true
+            ]
+          },
+          "note": "Split the chemical registry: 835 table rows moved to a backdated data post, article slimmed 382KB -> 13.7KB. Homepage now renders 3 posts (was 2)."
         }
       ]
     },
@@ -3619,6 +3637,38 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        }
+      ]
+    },
+    "8677832990636879595": {
+      "id": "8677832990636879595",
+      "title": "Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
+      "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+      "published": "2026-08-05T09:00:00.000+05:30",
+      "updated": "2026-08-07T09:01:21.231+05:30",
+      "labels": [],
+      "bytes": 375511,
+      "sha256": "690b6b699f367445878724ffdbdfd011de6abee094b977c04ed71a21d894f8a2",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": false,
+        "index_link": false,
+        "ai_disclosure": false,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-07T09:06:19+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Split the chemical registry: 835 table rows moved to a backdated data post, article slimmed 382KB -> 13.7KB. Homepage now renders 3 posts (was 2)."
         }
       ]
     },

@@ -613,3 +613,20 @@ End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title
 **Changed**
 
 - `diesel-doesnt-move-cpi-it-moves-40` — 27,729 → 27,727 bytes (-2)
+
+## 2026-08-07T09:06:19+05:30 — 92 posts live
+
+Split the chemical registry: 835 table rows moved to a backdated data post, article slimmed 382KB -> 13.7KB. Homepage now renders 3 posts (was 2).
+
+
+**Added**
+
+- `chemical-import-substitution-full-hsn-8_01082878313` **v1.0.0** — Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables (375,511 bytes)
+
+**Versions**
+
+- `chemical-import-substitution-hsn-8-registry` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+3/-1902 distinct numbers)
+
+**Changed**
+
+- `chemical-import-substitution-hsn-8-registry` — 381,972 → 13,748 bytes (-368,224); markers revision_line False→True

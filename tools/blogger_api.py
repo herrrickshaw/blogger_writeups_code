@@ -312,6 +312,38 @@ def cmd_insert(args):
     sys.exit(0 if ok else 2)
 
 
+def cmd_page(args):
+    """Create or update a Blogger PAGE. Pages are not part of the post index, so
+    a large data table lives here without consuming the homepage render budget
+    (see DESIGN_LOG 2026-08-07)."""
+    body = pathlib.Path(args.file).read_text(encoding="utf-8")
+    if args.dry_run:
+        print(f"DRY RUN — would {'update' if args.id else 'create'} page "
+              f"{len(body):,} bytes\n  title: {args.title}")
+        return
+    payload = {"kind": "blogger#page", "title": args.title, "content": body}
+    if args.id:
+        res = api(f"/blogs/{BLOG_ID}/pages/{args.id}",
+                  data={**payload, "id": args.id}, method="PUT")
+    else:
+        res = api(f"/blogs/{BLOG_ID}/pages", data=payload, method="POST")
+    print(f"page id={res['id']}")
+    print(f"url    {res.get('url','(draft)')}")
+    if res.get("url"):
+        time.sleep(4)
+        probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
+        probe = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", probe)).strip()[:40]
+        ok, why = verify_live(res["url"], needle=probe)
+        print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
+
+
+def cmd_pages(args):
+    res = api(f"/blogs/{BLOG_ID}/pages")
+    for p in res.get("items", []):
+        print(f"  {p['id']}  {p.get('status','?'):<9} {p['title'][:52]}")
+        print(f"      {p.get('url','(no url)')}")
+
+
 def cmd_bulk(args):
     entries = json.loads(pathlib.Path(args.manifest).read_text())
     done = failed = 0
@@ -367,6 +399,12 @@ def main():
     i.add_argument("--draft", action="store_true", help="create as a draft")
     i.add_argument("--dry-run", action="store_true")
     i.set_defaults(fn=cmd_insert)
+
+    pg = sub.add_parser("page", help="create or update a Blogger page")
+    pg.add_argument("--file", required=True); pg.add_argument("--title", required=True)
+    pg.add_argument("--id", help="update this page instead of creating one")
+    pg.add_argument("--dry-run", action="store_true"); pg.set_defaults(fn=cmd_page)
+    sub.add_parser("pages", help="list pages").set_defaults(fn=cmd_pages)
 
     b = sub.add_parser("bulk"); b.add_argument("--manifest", required=True)
     b.add_argument("--limit", type=int, default=0)
