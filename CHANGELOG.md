@@ -600,3 +600,16 @@ Added ARAI/SIAM-calibrated cost-per-km exhibit; retitled to a claim the evidence
 **Changed**
 
 - `diesel-doesnt-move-cpi-it-moves-40` — 24,328 → 27,729 bytes (+3,401)
+
+## 2026-08-07T08:45:53+05:30 — 91 posts live
+
+End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title suppressed via :has(). Blogger setting 'max posts on main page' raised 3->5, which did NOT change the homepage (still renders 2) — the constraint is the theme's index rendering, not the setting.
+
+
+**Versions**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **4.0.0 → 5.0.0** (MAJOR) — section(s) removed: From Diesel to CNG: India&rsquo;s Greener Fuel Shift
+
+**Changed**
+
+- `diesel-doesnt-move-cpi-it-moves-40` — 27,729 → 27,727 bytes (-2)
