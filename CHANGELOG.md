@@ -630,3 +630,10 @@ Split the chemical registry: 835 table rows moved to a backdated data post, arti
 **Changed**
 
 - `chemical-import-substitution-hsn-8-registry` — 381,972 → 13,748 bytes (-368,224); markers revision_line False→True
+
+## 2026-08-07T09:39:42+05:30 — 92 posts live
+
+Mineral-oil restored to its true publication date 2026-07-30 (recovered from the original draft; the 08-06 stamp was an artefact of republishing it). Homepage now renders 5 posts.
+
+
+No changes.
