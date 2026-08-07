@@ -667,3 +667,20 @@ WPI: calm-vs-current split, 2012-20 vs 2020-26
 **Changed**
 
 - `fourteen-years-of-indian-wholesale` — 16,278 → 19,333 bytes (+3,055)
+
+## 2026-08-07T13:48:24+05:30 — 93 posts live
+
+54EC bonds article; HSN shape section
+
+
+**Added**
+
+- `reinvesting-capital-gains-in-higher` **v1.0.0** — Reinvesting Capital Gains in Higher-Yielding Bonds: The Rs 6.5 Lakh Exemption Where the Investor Keeps Rs 2.25 Lakh (21,967 bytes)
+
+**Versions**
+
+- `hsn-wise-historical-importexport-trends` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+40/-0 distinct numbers)
+
+**Changed**
+
+- `hsn-wise-historical-importexport-trends` — 21,200 → 24,485 bytes (+3,285)

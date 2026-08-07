@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-07T09:54:08+05:30",
-  "count": 92,
+  "snapshot": "2026-08-07T13:48:24+05:30",
+  "count": 93,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -1641,6 +1641,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title suppressed via :has(). Blogger setting 'max posts on main page' raised 3->5, which did NOT change the homepage (still renders 2) — the constraint is the theme's index rendering, not the setting."
+        }
+      ]
+    },
+    "4234864832209737909": {
+      "id": "4234864832209737909",
+      "title": "Reinvesting Capital Gains in Higher-Yielding Bonds: The Rs 6.5 Lakh Exemption Where the Investor Keeps Rs 2.25 Lakh",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
+      "slug": "reinvesting-capital-gains-in-higher",
+      "published": "2026-08-07T13:46:48.318+05:30",
+      "updated": "2026-08-07T13:46:48.318+05:30",
+      "labels": [],
+      "bytes": 21967,
+      "sha256": "a1a2f2420691f9ff5a9ee065d977a67b1dee060ec33826788fdbbfff7c9ee5f5",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-07T13:48:24+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "54EC bonds article; HSN shape section"
         }
       ]
     },
@@ -3355,10 +3387,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
       "slug": "hsn-wise-historical-importexport-trends",
       "published": "2026-08-02T14:04:15.973+05:30",
-      "updated": "2026-08-06T12:00:56.164+05:30",
+      "updated": "2026-08-07T13:43:54.610+05:30",
       "labels": [],
-      "bytes": 21200,
-      "sha256": "4729d1072b6c22ff3f111fea7aa5db9a97659c9c2892e4e364c8f638efdf7260",
+      "bytes": 24485,
+      "sha256": "8b4dacce54d12e982629a10f35e6b857996704a69c2c35f6c11185723ec0c5c8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3370,7 +3402,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3413,6 +3445,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-07T13:48:24+05:30",
+          "level": "major",
+          "reason": "figures changed (+40/-0 distinct numbers)",
+          "bytes": [
+            21200,
+            24485
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "54EC bonds article; HSN shape section"
         }
       ]
     },
