@@ -1714,3 +1714,59 @@ robots.txt declares it. Every entry carries a fresh `lastmod`, which is the
 signal Google actually uses. There is no API route for requesting reindexing of
 articles — the Indexing API is restricted to JobPosting and BroadcastEvent — so
 the remaining step is Search Console, by hand, and it is the owner's to take.
+
+## 2026-08-08 — Discoverability: descriptions, titles, labels, robots
+
+Four changes from the keyword analysis, all verified live.
+
+**1. Per-page descriptions.** No page on the site had a meta description; Google
+was writing snippets from the top of the body, which on this blog is the index
+link and the eyebrow line. Blogger's `customMetaData` field is **not settable
+through the API** — it accepts the write and returns null — so per-post search
+descriptions cannot be scripted. Route taken instead: enable Blogger's search
+description feature, set a blog-level default so social shares are never blank,
+and have the existing structured-data script override `description` and
+`og:description` per page from the post's own standfirst. Google renders JS;
+social scrapers do not, which is why the blog-level tag stays in the markup as
+the floor rather than being removed.
+
+**2. Titles.** Every `<title>` was `Thinking global, living local: <post>` —
+31 characters of blog name before the subject, against Google's ~55-60 character
+display. Post pages now emit `data:blog.pageName` alone. The LNG post went from
+109 characters to 78.
+
+**3. Labels: 0 of 99 posts had one.** 80 posts now carry 1-3 of thirteen topic
+labels, assigned from H1/H2/H3 text only — body text is useless for this because
+one boilerplate sentence appears 2,648 times across four HSN-registry posts and
+swamps every count. 17 posts are deliberately unlabelled: no cluster fits.
+Utility pages (About, Index) are excluded by an explicit override, because
+"About the Author" otherwise scores Industrial Policy on "investment promotion"
+in the job title and lands in a topic hub next to actual analysis.
+
+**Labels alone would have been invisible.** The theme's label-rendering markup
+sits in the boilerplate `post` includable — the same dead code that swallowed the
+first JSON-LD attempt. Topic links now render in the live path.
+
+**4. robots.txt** narrowed from `Disallow: /search` to `Disallow: /search?`, so
+the new label hubs are crawlable while query-search pages stay out. This was only
+worth doing *because* the posts now link to those hubs; blocked-but-linked pages
+produce "indexed, though blocked" warnings.
+
+**Three failures worth recording.**
+
+- **Blogger rejected a theme save with `SAXParseException: The element type
+  "div" must be terminated`** and I nearly missed it — the toast is the only
+  signal, and I had been checking the live page instead. The cause: I extracted
+  the fragment by searching for `"          </b:loop>"` (10 spaces), which
+  matched *inside* the 16-space-indented inner loop and truncated the block
+  before its own closing tags. **Anchor on a full closing sequence, and assert
+  tag balance on the fragment before sending it.**
+- **A programmatic `textarea.value` set does not register with Blogger's
+  settings form** — the same failure mode as CodeMirror's `setValue`. It saved an
+  empty robots.txt, briefly losing the sitemap declaration. Then typing on top of
+  the ghost value produced 329 characters of doubled content. Select-all, delete,
+  type.
+- **A save can look identical whether it succeeded or failed.** The reliable
+  test is to attempt navigation: Blogger blocks it with "unsaved changes" when
+  the buffer is dirty. That distinguishes "save failed" from "page is cached",
+  which cost two wrong diagnoses today.
