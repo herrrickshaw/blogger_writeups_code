@@ -1762,3 +1762,16 @@ Shop page + shelf at 9 items
 **Added**
 
 - `the-masala-deutsch-shop-books-things` **v1.0.0** — The Masala Deutsch Shop — Books & Things From the Articles (18,376 bytes)
+
+## 2026-08-08T18:31:33+05:30 — 103 posts live
+
+shop: 5 more titles placed
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 18,376 → 18,831 bytes (+455)

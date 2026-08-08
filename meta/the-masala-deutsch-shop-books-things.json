@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-08T18:13:58.101+05:30",
+  "updated": "2026-08-08T18:31:15.072+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 18376,
-  "sha256": "c2260e7bd154fd8dad8d8b4a3bc0af16f7550215d1e7e5fc6196b9cc5fe44ab5",
+  "bytes": 18831,
+  "sha256": "4832fb33964571e404d1ac6265f72c844add4a408037e6b92afe9f70fb35616d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Shop page + shelf at 9 items"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T18:31:33+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-1 distinct numbers)",
+      "bytes": [
+        18376,
+        18831
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "shop: 5 more titles placed"
     }
   ]
 }
