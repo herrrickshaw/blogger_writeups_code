@@ -20,6 +20,7 @@ import concurrent.futures as cf
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -28,27 +29,36 @@ ROOT = Path(__file__).resolve().parent.parent
 MANIFEST = ROOT / "meta" / "manifest.json"
 BLOG = "https://masaladeutsch.blogspot.com"
 UA = {"User-Agent": "Mozilla/5.0 (masaladeutsch-archive health check)"}
+PACE = 0.0   # seconds between requests per worker; set in main()
 
 
-def get(url, timeout=45):
-    # Blogger throttles a burst of parallel requests with 503s that clear on a
-    # retry. Treating the first 503 as an outage produced a false alarm on a
-    # 415 KB post that was serving perfectly well.
-    import time
-    for attempt in (1, 2, 3):
+THROTTLE_CODES = (429, 503)
+
+
+def get(url, timeout=45, tries=4):
+    """Fetch with backoff. Raises on the last throttle so the caller can bucket it.
+
+    Blogger rate-limits by client IP, and a shared CI runner gets throttled far
+    harder than a home connection: the same check that passed 93/93 locally came
+    back 10/93 with 429s from a GitHub runner. Being slow and polite is the fix,
+    and a throttle that survives it is reported as inconclusive, never as the
+    site being down.
+    """
+    for attempt in range(1, tries + 1):
         try:
             req = urllib.request.Request(url, headers=UA)
             with urllib.request.urlopen(req, timeout=timeout) as r:
                 return r.status, r.read().decode("utf-8", "replace")
         except urllib.error.HTTPError as e:
-            if e.code in (429, 503) and attempt < 3:
-                time.sleep(3 * attempt)
+            if e.code in THROTTLE_CODES and attempt < tries:
+                time.sleep(2 ** attempt)   # 2s, 4s, 8s
                 continue
             raise
 
 
 def check_post(rec):
     url = rec["url"]
+    time.sleep(PACE)   # module-level, set from --pace; keeps us under the limiter
     try:
         status, body = get(url)
     except urllib.error.HTTPError as e:
@@ -67,8 +77,13 @@ def main():
     ap.add_argument("--sample", type=int, default=0,
                     help="check only the N most recent posts (default: all)")
     ap.add_argument("--min-homepage-cards", type=int, default=1)
-    ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--workers", type=int, default=3,
+                    help="keep this low; Blogger rate-limits by IP")
+    ap.add_argument("--pace", type=float, default=0.3,
+                    help="seconds to wait before each request, per worker")
     args = ap.parse_args()
+    global PACE
+    PACE = args.pace
 
     if not MANIFEST.exists():
         print("no manifest — run tools/snapshot.py first", file=sys.stderr)
@@ -100,19 +115,25 @@ def main():
         print(f"homepage      UNREACHABLE {type(e).__name__}")
 
     # 2. Every post the manifest knows about must still serve its own title.
-    ok = 0
+    ok, throttled = 0, []
     with cf.ThreadPoolExecutor(args.workers) as ex:
         for rec, status, present in ex.map(check_post, posts):
             if status == 200 and present:
                 ok += 1
-                continue
-            if status == 200 and present is False:
+            elif status == 200 and present is False:
                 problems.append(f"200 but title missing (drafted? redirected?): {rec['url']}")
+            elif status in THROTTLE_CODES:
+                # We were rate-limited. This says nothing about the post.
+                throttled.append(rec["url"])
             else:
                 problems.append(f"{status}: {rec['url']}")
-    print(f"posts         {ok}/{len(posts)} serving their own title")
+    print(f"posts         {ok}/{len(posts)} serving their own title"
+          + (f"  ({len(throttled)} inconclusive — rate-limited)" if throttled else ""))
 
     print()
+    if throttled:
+        print(f"RATE-LIMITED {len(throttled)} — not checked, not a site fault. "
+              f"Lower --workers or raise --pace, or use --sample.")
     if problems:
         print(f"PROBLEMS {len(problems)}")
         for p in problems:

@@ -82,7 +82,11 @@ jobs:
         continue-on-error: true
         run: |
           set +e
-          python3 tools/site_health.py 2>&1 | tee health.out
+          # Blogger rate-limits by IP and a shared runner gets throttled far
+          # harder than a home connection: checking all 93 posts from CI came
+          # back 83x 429. A paced sample of the 25 most recent catches an
+          # unpublished or broken post without hammering the blog.
+          python3 tools/site_health.py --sample 25 --workers 2 --pace 0.6 2>&1 | tee health.out
           echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
           set -e
 
