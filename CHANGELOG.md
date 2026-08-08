@@ -1696,3 +1696,12 @@ MDR post: retitle + PPAC outlet base
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 19,257 → 19,450 bytes (+193)
+
+## 2026-08-08T16:42:24+05:30 — 101 posts live
+
+new post: CGD overtakes fertiliser as India's largest gas consumer
+
+
+**Added**
+
+- `city-gas-just-became-indias-largest-gas` **v1.0.0** — City Gas Just Became India's Largest Gas Consumer (16,571 bytes)
