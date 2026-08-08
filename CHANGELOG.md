@@ -2004,3 +2004,12 @@ New article: India trade gaps — Export Promotion Mission, EU FTA, PLI scheme (
 **Added**
 
 - `indias-trade-story-has-three-big-wins` **v1.0.0** — India's Trade Story Has Three Big Wins and One Gap the Headlines Skip (14,572 bytes)
+
+## 2026-08-08T21:57:02+05:30 — 113 posts live
+
+New article: India's EPR regime — plastic EOL-certificate loophole closed (19 Jan 2026) + CSE's 2026 EV battery EPR policy brief documenting black-mass/informal-sector enforcement gaps
+
+
+**Added**
+
+- `indias-epr-regime-just-got-teeth-and` **v1.0.0** — India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing (15,153 bytes)
