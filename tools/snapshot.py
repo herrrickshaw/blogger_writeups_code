@@ -445,12 +445,18 @@ def main():
         # common case resolves itself.
         f = subprocess.run(["git", "fetch", "-q", "origin"], cwd=ROOT,
                            capture_output=True, text=True)
+        # Compare against the branch's actual upstream. origin/HEAD is often
+        # unset on a clone, and the first version of this check silently
+        # returned nothing and skipped the rebase it existed to perform.
+        branch = subprocess.run(["git", "rev-parse", "--abbrev-ref", "HEAD"],
+                                cwd=ROOT, capture_output=True,
+                                text=True).stdout.strip() or "main"
         behind = subprocess.run(
-            ["git", "rev-list", "--count", "HEAD..origin/HEAD"],
+            ["git", "rev-list", "--count", f"HEAD..origin/{branch}"],
             cwd=ROOT, capture_output=True, text=True).stdout.strip()
         if behind and behind != "0":
             print(f"remote moved on by {behind} commit(s) — rebasing first")
-            r = subprocess.run(["git", "pull", "--rebase", "origin", "main"],
+            r = subprocess.run(["git", "pull", "--rebase", "origin", branch],
                                cwd=ROOT, capture_output=True, text=True)
             if r.returncode != 0:
                 # Both sides snapshotted the same live blog, so the conflict is
@@ -460,7 +466,7 @@ def main():
                                capture_output=True, text=True)
                 print("rebase conflicted and was aborted — nothing was pushed.\n"
                       "Both commits describe the same live blog, so the fix is\n"
-                      "  git reset --hard origin/main && python3 tools/snapshot.py --push\n"
+                      "  git reset --hard origin/<branch> && python3 tools/snapshot.py --push\n"
                       "which re-captures from the feed on top of the remote.")
                 return
         p = subprocess.run(
