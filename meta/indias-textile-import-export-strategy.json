@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-08-08T09:21:05.773+05:30",
+  "updated": "2026-08-08T10:08:44.683+05:30",
   "labels": [],
-  "bytes": 35760,
-  "sha256": "b0be7213b59f0baf0aef2f350d8a99ff9fa0b3d859bd765de9bf77573d6e32df",
+  "bytes": 35747,
+  "sha256": "f6adb1fbc9efc218baf2ff36d0c026ef5a5767f5a4709cdebcd49c05fb7d863d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T10:09:14+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        35760,
+        35747
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "textile: two investment columns hoisted"
     }
   ]
 }

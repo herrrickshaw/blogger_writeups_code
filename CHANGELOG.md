@@ -1165,3 +1165,16 @@ annadata: leading-percentage hoist
 **Changed**
 
 - `annadata-to-urjadata-farmer-income-case` — 33,429 → 33,428 bytes (-1)
+
+## 2026-08-08T10:09:14+05:30 — 95 posts live
+
+textile: two investment columns hoisted
+
+
+**Versions**
+
+- `indias-textile-import-export-strategy` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `indias-textile-import-export-strategy` — 35,760 → 35,747 bytes (-13)

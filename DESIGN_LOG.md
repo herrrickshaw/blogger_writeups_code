@@ -1318,3 +1318,29 @@ Hoistable work remaining, by post: `indias-textile-import-export-strategy` (5),
 `nature-versus-nurture` and `raising-green-debt-globally` at 2 each.
 
 Blog-wide: **56 → 55.**
+
+## 2026-08-08 — indias-textile-import-export-strategy: 5 → 3
+
+Two columns hoisted, 10 cells: `Investment, US$ bn` (t6) and
+`Investment, ₹ crore` (t7). Both were bare currency figures with a uniform
+magnitude, the easiest case there is.
+
+**Totals re-checked after the rewrite**, because both tables carry a TOTAL row
+and a hoist that dropped a digit would show up there. t7 is exact —
+1,28,509 + 58,918 + 73,518 = 2,60,945. t6's components sum to 31.0 against a
+stated 30.9, which is **pre-existing rounding** of five one-decimal figures, not
+something this edit introduced. Left as published.
+
+Three left, all correct to leave:
+
+- **`Capacity Add`** reads `+1.2 MMTPA refining + C2/C3 crackers`. The unit sits
+  inside a descriptive phrase; hoisting it would leave "+1.2 refining", which is
+  not English.
+- **`Current Need`** and **`FY30 Addressable`** mix `$3.5B/year` with
+  `$800M/year`, and `$2.4B` with `$660M`. Billions beside millions — the same
+  shape as the grain post's LMT/MT, though far less dangerous because B and M
+  are read correctly at a glance and the unit is in every cell. Normalising
+  would mean restating published figures, so it is flagged rather than done.
+
+Blog-wide: **55 → 53 across 15 posts.** Five posts through this pass; 34 units
+hoisted in total.
