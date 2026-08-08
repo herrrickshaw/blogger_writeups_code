@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T21:05:35+05:30",
+  "snapshot": "2026-08-08T21:14:03+05:30",
   "count": 107,
   "posts": {
     "1157999291079244419": {
@@ -1089,14 +1089,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-08-08T20:03:36.828+05:30",
+      "updated": "2026-08-08T21:13:26.123+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 28143,
-      "sha256": "f23e82f3afa49824fa14204cb9c9201543c689d6528c852fbabcf78903655d40",
+      "bytes": 30404,
+      "sha256": "bc17567ac8a34d268d3680458c8e22a1eb06d54575902d61624fe4cff6707a59",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1108,7 +1108,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "10.0.0",
+      "version": "11.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1233,6 +1233,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Split MDR post into two: fuel-retail piece trimmed to Exhibits 1-5; new companion article 'Beyond the Pump' covers non-fuel categories (groceries/restaurants/fast-food centred), cross-linked both ways"
+        },
+        {
+          "version": "11.0.0",
+          "date": "2026-08-08T21:14:03+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            28143,
+            30404
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Strengthened fuel-retail MDR post: added NPCI's official UPI-ATM (ICCW) product details + critical April 2026 update — banks now count UPI-ATM withdrawals against the monthly free-transaction quota, which qualifies the article's cash-out 'hedge' argument. Also refreshed WLA operator landscape (5 operators, CIMS reporting shift)."
         }
       ]
     },

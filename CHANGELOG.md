@@ -1933,3 +1933,16 @@ New article: thermal parity and oil-gas price decoupling — uses Mittal (2016) 
 **Added**
 
 - `thermal-parity-is-dead-what-85-oil-and` **v1.0.0** — Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling (20,980 bytes)
+
+## 2026-08-08T21:14:03+05:30 — 107 posts live
+
+Strengthened fuel-retail MDR post: added NPCI's official UPI-ATM (ICCW) product details + critical April 2026 update — banks now count UPI-ATM withdrawals against the monthly free-transaction quota, which qualifies the article's cash-out 'hedge' argument. Also refreshed WLA operator landscape (5 operators, CIMS reporting shift).
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **10.0.0 → 11.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 28,143 → 30,404 bytes (+2,261)
