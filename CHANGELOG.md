@@ -850,3 +850,16 @@ new global inflation post; Ireland/Germany instrument note
 **Changed**
 
 - `indias-wholesale-prices-next-to` — 30,336 → 31,723 bytes (+1,387)
+
+## 2026-08-08T08:33:31+05:30 — 95 posts live
+
+index +1
+
+
+**Versions**
+
+- `article-index-start-here` **4.0.0 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 31,720 → 31,952 bytes (+232)
