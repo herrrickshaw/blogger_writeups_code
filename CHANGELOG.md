@@ -1718,3 +1718,12 @@ MDR post: outlet count updated to 103,682 (01.07.2026)
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 19,450 → 20,045 bytes (+595)
+
+## 2026-08-08T16:59:48+05:30 — 102 posts live
+
+new post: statewise fuel sales 17 years
+
+
+**Added**
+
+- `where-india-actually-burns-its-fuel` **v1.0.0** — Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales (15,785 bytes)

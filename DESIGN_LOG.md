@@ -2389,3 +2389,36 @@ empty-until-today ads.txt produces. Console screenshot confirms the site is in
 AdSense with Auto ads + Auto optimize ON. Nothing on-page left to change;
 the remaining variable is Google's ads.txt re-crawl and new-site fill ramp,
 typically 24–72 hours.
+
+## 2026-08-08 — Five PPAC files: one correction pass, two new pieces
+
+**Outlet count updated everywhere it lives.** PPAC Snapshot July-26 Table 14 puts
+retail outlets at **103,682 as on 01.07.2026** (29,684 rural), against the
+99,281 (01.10.2025) the blog cited. Updated: the MDR/ATM post (six network-size
+references; the per-outlet throughput exhibit deliberately keeps its FY25-26
+vintage divisor, dated, with a note that the network has since grown), the OMC
+model README, the analysis doc, and fuel-retail-outlets' PPAC doc (with the full
+company-wise July table). Cash@PoS penetration 693/103,682 = 0.67%, still
+rounding to 0.7% — the displayed figure survived its own correction. Bonus rows
+put INTO the MDR post: 29,503 outlets already have EV charging, 34,201 at least
+one alternate fuel — the forecourt-as-services-hub precedent, from PPAC itself.
+
+**Fact-check of published posts against the new files:** oil-fields post
+(36.96→28.70 MMT decade decline) corroborated by June'26 crude 2.3 MMT, −2.7%
+YoY, annualising below the FY25 figure. Ethanol-blending claims match the
+Snapshot's 20% for June'26. Fuel-pricing post is vintage-pegged to 01.10.2025
+and stays as is. No contradictions found; one stale count, now fixed.
+
+**New post: statewise fuel sales, FY2008-09→FY2024-25.** Headline: petrol +255%
+vs diesel +77%, HSD/MS ratio halved 4.6→2.3 — demand is passenger-ising. Top-12
+states hold 73.1%; Gujarat leads Maharashtra; the growth frontier is the eastern
+mineral belt (Odisha +181%); Delhi is slowest (+22%) and the piece reads that as
+the CGD/metro substitution success it is, tying to the city-gas post.
+
+**Two traps handled explicitly.** Telangana has no FY2008-09 baseline and
+Andhra's raw series shows −12% — the 2014 bifurcation posing as a demand
+collapse; AP+TG are combined throughout. And "sales in a state ≠ consumption by
+its residents" (VAT-differential border leakage) is stated, not adjusted for.
+One weasel caught pre-publish: "roughly half the population commonly attributed
+to it" — an unverified per-capita claim sneaking past the note that explicitly
+declined per-capita analysis. Softened to a directional statement.
