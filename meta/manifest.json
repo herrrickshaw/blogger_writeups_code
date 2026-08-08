@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T20:04:22+05:30",
+  "snapshot": "2026-08-08T20:07:38+05:30",
   "count": 105,
   "posts": {
     "1157999291079244419": {
@@ -4089,17 +4089,17 @@
     },
     "5542122685248001245": {
       "id": "5542122685248001245",
-      "title": "Beyond the Pump: What a UPI Fee Would Cost Groceries, Restaurants and the Rest of Retail",
+      "title": "UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?",
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
-      "published": "2026-08-08T20:01:53.280+05:30",
-      "updated": "2026-08-08T20:01:53.280+05:30",
+      "published": "2026-08-08T20:01:53.000+05:30",
+      "updated": "2026-08-08T20:06:36.115+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 25655,
-      "sha256": "125ae4522e841b077d872e40c72f4c36a7ef903bf1214f2bcb0c8056e78b9d63",
+      "bytes": 25626,
+      "sha256": "16aaae66bee3013dc388b05440b269e77fc710eccec9224c131babd437813d05",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4111,7 +4111,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4119,6 +4119,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Split MDR post into two: fuel-retail piece trimmed to Exhibits 1-5; new companion article 'Beyond the Pump' covers non-fuel categories (groceries/restaurants/fast-food centred), cross-linked both ways"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T20:07:38+05:30",
+          "level": "major",
+          "reason": "section(s) removed: Beyond the Pump: What a UPI Fee Would Cost Groceries, Restaurants and the Rest of Retail",
+          "bytes": [
+            25655,
+            25626
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Retitle companion post to 'UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?'"
         }
       ]
     },

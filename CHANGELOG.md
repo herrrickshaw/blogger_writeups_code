@@ -1863,3 +1863,16 @@ Split MDR post into two: fuel-retail piece trimmed to Exhibits 1-5; new companio
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 39,357 → 28,143 bytes (-11,214)
+
+## 2026-08-08T20:07:38+05:30 — 105 posts live
+
+Retitle companion post to 'UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?'
+
+
+**Versions**
+
+- `beyond-pump-what-upi-fee-would-cost` **1.0.0 → 2.0.0** (MAJOR) — section(s) removed: Beyond the Pump: What a UPI Fee Would Cost Groceries, Restaurants and the Rest of Retail
+
+**Changed**
+
+- `beyond-pump-what-upi-fee-would-cost` — 25,655 → 25,626 bytes (-29)
