@@ -1452,3 +1452,16 @@ index: AI Tracker section
 **Changed**
 
 - `article-index-start-here` — 122,416 → 123,490 bytes (+1,074)
+
+## 2026-08-08T13:22:43+05:30 — 99 posts live
+
+Edition 03
+
+
+**Versions**
+
+- `ai-high-demand-launch-tracker` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+65/-66 distinct numbers)
+
+**Changed**
+
+- `ai-high-demand-launch-tracker` — 15,558 → 18,381 bytes (+2,823)

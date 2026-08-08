@@ -52,84 +52,112 @@
 
 <div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 
-<p class="eyebrow">AI Tracker &middot; Edition 02 &middot; Week of 8 August 2026</p>
+<p class="eyebrow">AI Tracker &middot; Edition 03 &middot; Week of 8 August 2026</p>
 
-<h1>Every Repo This Tracker Followed Grew. Three More Than Doubled in a Fortnight.</h1>
+<h1>A Repo With 98,000 Stars That This Tracker Had Never Heard Of</h1>
 
-<p class="standfirst">Edition 01 ranked AI launches by how big they were. Edition 02 re-measured all eleven of them against the GitHub API and ranks them by how fast they are moving instead. Combined stars went from about 266,000 to 407,000 &mdash; up 53% in roughly two weeks &mdash; and not one project went backwards.</p>
+<p class="standfirst">Edition 03 replaces guesswork with a query. Sixty-eight AI repositories created in the last sixty days already carry more than a thousand stars, and the largest of them &mdash; 98,455 stars in 57 days &mdash; appeared in no previous edition. This edition also adds a second measurement, because star counts alone were letting one project through that almost nobody is actually using.</p>
 
-<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-08" itemprop="dateModified">8 August 2026</time> &middot; v2.0.0 &middot; Edition 02 &middot; star counts re-queried from the GitHub API on 8 August 2026, replacing Edition 01&rsquo;s roundup-sourced figures</p>
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-08" itemprop="dateModified">8 August 2026</time> &middot; v3.0.0 &middot; Edition 03 &middot; discovery edition &middot; all figures from the GitHub API, queried 8 August 2026</p>
 
 <div class="stats">
-<div class="stat"><b>11 of 11</b><span>Tracked repositories that gained stars</span></div>
-<div class="stat"><b>+53.2%</b><span>Combined star growth since Edition 01</span></div>
-<div class="stat"><b>104,120</b><span>Graphify, now past 100K</span></div>
-<div class="stat"><b>3</b><span>Projects that more than doubled</span></div>
+<div class="stat"><b>68</b><span>New AI repos above 1,000 stars, created in 60 days</span></div>
+<div class="stat"><b>1,727</b><span>Stars per day for the fastest, ponytail</span></div>
+<div class="stat"><b>504:1</b><span>Worst star-to-fork ratio found &mdash; 51&times; the median</span></div>
+<div class="stat"><b>9.8:1</b><span>Median star-to-fork ratio across the set</span></div>
 </div>
 
-<h2>What changed in the method</h2>
-<p class="h2sub">Edition 01 copied its numbers. Edition 02 queried them.</p>
+<h2>Why there is no growth table this week</h2>
+<p class="h2sub">The previous edition was measured this morning.</p>
 
-<p>Edition 01 promised that &ldquo;GitHub stars are checkable&rdquo; and then took its star counts from a third-party roundup article. That is not the same thing. For this edition every figure in the table below was pulled directly from the <b>GitHub search API on 8 August 2026</b>, which also resolved each project to its actual repository &mdash; useful, because two of the names in Edition 01 are ambiguous and one of them ranks below an unrelated project of the same name.</p>
+<p>Edition 02 re-queried its eleven repositories from the GitHub API on <b>8 August 2026</b>. This edition was compiled the same day. There is therefore <b>no interval to measure across</b>, and publishing a growth column would mean publishing a column of zeros dressed up as stability.</p>
 
-<div class="warn"><b>The growth percentages are softer than they look, and it matters.</b> Edition 01&rsquo;s baselines were rounded to two or three significant figures (&ldquo;32K&rdquo;, &ldquo;18K&rdquo;, &ldquo;10K&rdquo;) and dated only as &ldquo;mid-to-late July 2026&rdquo;. So both ends of every calculation are approximate: the starting number is rounded and the interval is somewhere between two and four weeks. <b>Read the ordering and the orders of magnitude, not the decimal place.</b> From Edition 03 onward the baseline will be an exact API figure with an exact date, and the growth rates will mean what they say.</div>
+<p>So Edition 03 is a <b>discovery edition</b>: it goes looking for what the tracker has been missing rather than re-measuring what it already holds. The velocity table returns in Edition 04, when there is a week between the two readings and the numbers will mean something.</p>
 
-<h2>Ranked by velocity</h2>
-<p class="h2sub">Because in a two-week window, direction is the information.</p>
+<h2>What the tracker had missed</h2>
+<p class="h2sub">Sixty-eight candidates, ranked by stars per day since creation.</p>
+
+<p>Ranking by <i>total</i> stars returns the same established projects every week. Ranking by <b>stars per day since the repository was created</b> normalises for age, which is what &ldquo;coming up&rdquo; actually means: a ten-day-old project pulling twelve hundred stars a day is a stronger signal than a two-month-old one sitting on forty thousand.</p>
 
 <div class="exhibit">
 <p class="exno">Exhibit 1</p>
-<p class="extitle">GitHub star movement since Edition 01</p>
-<p class="exsub">Ranked by growth rate. Edition 01 figures as published; current figures from the GitHub API on 8 August 2026.</p>
+<p class="extitle">Fastest-rising new AI repositories</p>
+<p class="exsub">Created within 60 days of 8 August 2026, at least 1,000 stars, ranked by stars per day. None appeared in Editions 01 or 02.</p>
 <div class="tw">
 <table>
-<thead><tr><th>Project</th><th>Repository</th><th>Edition 01, stars</th><th>8 Aug 2026, stars</th><th>Added</th><th>Growth, %</th></tr></thead>
+<thead><tr><th>Repository</th><th>What it is</th><th>Stars</th><th>Age, days</th><th>Stars per day</th></tr></thead>
 <tbody>
-<tr><td>grok-build</td><td>xai-org/grok-build</td><td>9,300</td><td>24,421</td><td>+15,121</td><td>+162.6</td></tr>
-<tr><td>OmniRoute</td><td>diegosouzapw/OmniRoute</td><td>17,900</td><td>42,798</td><td>+24,898</td><td>+139.1</td></tr>
-<tr><td>hallmark</td><td>Nutlope/hallmark</td><td>10,000</td><td>22,629</td><td>+12,629</td><td>+126.3</td></tr>
-<tr><td>Graphify</td><td>Graphify-Labs/graphify</td><td>63,200</td><td>104,120</td><td>+40,920</td><td>+64.7</td></tr>
-<tr><td>colibri</td><td>JustVugg/colibri</td><td>14,700</td><td>23,235</td><td>+8,535</td><td>+58.1</td></tr>
-<tr><td>OfficeCLI</td><td>iOfficeAI/OfficeCLI</td><td>18,000</td><td>26,611</td><td>+8,611</td><td>+47.8</td></tr>
-<tr><td>ai-job-search</td><td>MadsLorentzen/ai-job-search</td><td>23,000</td><td>30,745</td><td>+7,745</td><td>+33.7</td></tr>
-<tr><td>Vibe-Trading</td><td>HKUDS/Vibe-Trading</td><td>24,000</td><td>30,285</td><td>+6,285</td><td>+26.2</td></tr>
-<tr><td>openwiki</td><td>langchain-ai/openwiki</td><td>11,800</td><td>14,591</td><td>+2,791</td><td>+23.7</td></tr>
-<tr><td>codebase-memory-mcp</td><td>DeusData/codebase-memory-mcp</td><td>32,000</td><td>38,105</td><td>+6,105</td><td>+19.1</td></tr>
-<tr><td>Strix</td><td>usestrix/strix</td><td>42,000</td><td>49,731</td><td>+7,731</td><td>+18.4</td></tr>
-<tr><td><b>All eleven</b></td><td>&mdash;</td><td><b>265,900</b></td><td><b>407,271</b></td><td><b>+141,371</b></td><td><b>+53.2</b></td></tr>
+<tr><td>DietrichGebert/ponytail</td><td>Agent-skills pack that pushes coding agents toward writing less code</td><td>98,455</td><td>57</td><td>1,727</td></tr>
+<tr><td>yc-software/qm</td><td>Multiplayer agent harness for work</td><td>12,386</td><td>10</td><td>1,239</td></tr>
+<tr><td>trycompai/crm</td><td>Open-source CRM designed for AI agents rather than people</td><td>7,567</td><td>8</td><td>946</td></tr>
+<tr><td>FareedKhan-dev/kimi-k3-in-c</td><td>2.78-trillion-parameter inference on one CPU in 8.24 GB, C99, no framework</td><td>3,430</td><td>7</td><td>490</td></tr>
+<tr><td>unicity-aos/aos-ce</td><td>&ldquo;Open agent operating system&rdquo;, community edition</td><td>8,573</td><td>27</td><td>318</td></tr>
+<tr><td>genspark-ai/genoffice</td><td>AI-native desktop office suite for macOS and Windows</td><td>2,208</td><td>8</td><td>276</td></tr>
+<tr><td>drumih/turbo-fieldfare</td><td>Gemma 4 26B-A4B inference in ~2 GB on M-series MacBooks</td><td>5,361</td><td>22</td><td>244</td></tr>
+<tr><td>XiaomiMiMo/MiMo-Code</td><td>Xiaomi&rsquo;s coding-agent CLI</td><td>12,683</td><td>59</td><td>215</td></tr>
+<tr><td>kvcache-ai/AgentENV</td><td>Distributed platform for running agent environments at scale</td><td>2,956</td><td>16</td><td>185</td></tr>
+<tr><td>cobusgreyling/loop-engineering</td><td>Patterns and CLI tooling for agent loop design</td><td>9,969</td><td>60</td><td>166</td></tr>
+<tr><td>lidge-jun/opencodex</td><td>Universal provider proxy for Codex and Claude Code</td><td>8,462</td><td>51</td><td>166</td></tr>
+<tr><td>elder-plinius/T3MP3ST</td><td>Autonomous multi-agent red-teaming platform</td><td>5,474</td><td>37</td><td>148</td></tr>
 </tbody>
 </table>
 </div>
-<p class="exsrc">GitHub search API, <code>search/repositories</code> sorted by stars, queried 8 August 2026. Edition 01 figures are reproduced as published in that edition, which attributed them to third-party roundups; they are rounded and dated only to mid-to-late July 2026. Repository names were resolved by the same query &mdash; note that <code>usestrix/strix</code> and <code>JustVugg/colibri</code> each rank above unrelated projects sharing their name, and Edition 01&rsquo;s warning about the Kolibri/colibri collision still applies.</p>
+<p class="exsrc">GitHub search API, eleven deduplicated queries (<code>topic:ai</code>, <code>topic:llm</code>, <code>topic:agents</code>, <code>topic:mcp</code>, <code>topic:rag</code>, and text searches for agent, llm, mcp, coding agent, inference, ai tool), filtered to <code>created:&gt;=2026-06-09 stars:&gt;1000</code>, queried 8 August 2026 by <code>tools/ai_radar.py</code>. Descriptions are the repositories&rsquo; own, condensed. Several queries were needed because GitHub search matches topics and text rather than meaning &mdash; the <code>mcp</code> query alone returns tooling that <code>topic:ai</code> never does.</p>
 </div>
 
-<h2>What the ordering says</h2>
-<p class="h2sub">The fastest movers are not the biggest projects.</p>
+<div class="note"><b>ponytail is the miss worth explaining.</b> At 98,455 stars it is larger than every repository in Editions 01 and 02 combined bar one, it has 5,406 forks, and it was created on 12 June 2026 &mdash; well inside the window both earlier editions covered. It did not appear because those editions were assembled from roundup articles, and it is not the kind of project a roundup features: an MIT-licensed pack of agent skills whose pitch is that the best code is the code you never wrote. A query finds it; a curated list did not. That is the argument for the method change in one example.</div>
 
-<p><b>Vendor-backed tooling is compounding hardest.</b> xAI&rsquo;s <i>grok-build</i> more than doubled and a half. It was the smallest repository on the Edition 01 list at 9,300 stars and is now larger than seven of the others. A coding-agent reference architecture published by a frontier lab appears to accumulate attention faster than an independent tool solving the same problem.</p>
+<h2>A second measurement, because stars were not enough</h2>
+<p class="h2sub">Stars say who bookmarked a project. Forks say who took a copy to work with.</p>
 
-<p><b>Plumbing is outgrowing products.</b> Three of the top five &mdash; <i>OmniRoute</i> (provider routing), <i>hallmark</i> (output validation) and <i>codebase-memory-mcp</i> (agent memory) &mdash; are infrastructure that sits between a model and an application. None of them is a model or a chat product. That is the layer where the star velocity is.</p>
+<p>Every edition so far has carried the same warning &mdash; a star is a bookmark, it measures attention and not adoption &mdash; and then ranked on stars anyway. This edition adds a check that costs one extra API field: the <b>ratio of stars to forks</b>. Bookmarking is cheap and can be bought. Forking means somebody wanted the code on their own account.</p>
 
-<p><b>Graphify crossed 100,000</b>, up from 63,200, and remains the largest project this tracker follows. Its growth rate has slowed relative to the smaller entrants, which is what usually happens at that size and is not a negative signal.</p>
+<p>Across the twenty candidates examined, the <b>median ratio is 9.8 stars per fork</b>. Two entries sit far outside it, in opposite directions.</p>
 
-<div class="note"><b>What a star is, and is not.</b> A GitHub star is a bookmark. It measures attention, and attention is what this tracker set out to rank. It is not a download, not a deployment and not revenue &mdash; a repository can gain 20,000 stars and be used in production by nobody. Where a project also publishes package downloads, that is the better number, and future editions will prefer it where it exists.</div>
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">Star-to-fork ratio: the two outliers</p>
+<p class="exsub">Selected from the twenty repositories examined. A high ratio means bookmarked but not cloned; a low one means cloned more than admired.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Repository</th><th>Stars</th><th>Forks</th><th>Watchers</th><th>Stars per fork</th><th>Against median</th></tr></thead>
+<tbody>
+<tr><td>unicity-aos/aos-ce</td><td>8,573</td><td>17</td><td>9</td><td>504.3</td><td>51&times; median</td></tr>
+<tr><td>DietrichGebert/ponytail</td><td>98,455</td><td>5,406</td><td>244</td><td>18.2</td><td>1.9&times;</td></tr>
+<tr><td>XiaomiMiMo/MiMo-Code</td><td>12,683</td><td>1,295</td><td>70</td><td>9.8</td><td>at median</td></tr>
+<tr><td>FareedKhan-dev/kimi-k3-in-c</td><td>3,430</td><td>550</td><td>35</td><td>6.2</td><td>0.6&times;</td></tr>
+<tr><td>MIgHTy-alIeN/ai-trader-bot</td><td>2,452</td><td>1,778</td><td>962</td><td>1.4</td><td>0.14&times;</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">GitHub API <code>repos/{owner}/{repo}</code>, queried 8 August 2026. Median of 9.8 computed across all twenty repositories examined, not only the five shown.</p>
+</div>
 
-<h2>New this cycle, and explicitly unverified</h2>
-<p class="h2sub">The model releases could not be checked to the same standard.</p>
+<div class="warn"><b>unicity-aos/aos-ce has 8,573 stars and 17 forks.</b> That is 504 stars for every fork, against a median of 9.8, and it has nine watchers. It also has not been pushed to since 31 July, while almost everything else on the list was updated within a day or two of this query. A great many people bookmarked an &ldquo;open agent operating system&rdquo; and essentially nobody took a copy to run. <b>This edition is not calling that fraudulent</b> &mdash; there are innocent explanations, including a launch that drew a wave of curious attention to a project not yet usable. But it is exactly the pattern a star count alone would have ranked fifth, and on this evidence it should not be treated as adoption.</div>
 
-<p>Several frontier and open-weight releases were reported during this cycle, including <b>Qwen3.8 Max</b> (Alibaba, reported 2 August 2026), <b>Muse Spark 1.2</b> (Meta, reported 5 August 2026), <b>DeepSeek-V4-Flash</b> and further <b>GPT-5.6</b> updates. These are listed as pointers only.</p>
+<div class="note"><b>The opposite outlier is also informative.</b> <i>ai-trader-bot</i> has 1.4 stars per fork and 962 watchers &mdash; more people copying and monitoring than admiring. That is the signature of a template people fork to run rather than a library they depend on, which for an arbitrage bot connected to a smart contract is what you would expect. Nothing here evaluates whether it works or whether it is safe to run; the ratio only says how people are using the repository, not whether they should.</div>
 
-<div class="warn"><b>None of the model releases above was verified against a vendor source for this edition.</b> They come from model-tracking aggregators and startup newsletters, several of which disagree with each other on dates and on whether a given entry is a new model, a point update or a marketplace listing. A model release is not a checkable quantity in the way a star count is: there is no API to query, and the primary source is a vendor blog post that has to be read. <b>Do not cite the dates above.</b> Treat them as a list of things to go and confirm. The GitHub table is this edition&rsquo;s evidence; this section is its to-do list.</div>
+<h2>What is actually being built</h2>
+<p class="h2sub">Harnesses, inference tricks, and agents given ordinary office jobs.</p>
 
-<h2>Carried forward</h2>
-<p class="h2sub">Entries from Edition 01 with no measurable movement.</p>
+<p><b>The agent harness is the busiest category.</b> <i>qm</i>, <i>aos-ce</i>, <i>AgentENV</i>, <i>loop-engineering</i>, <i>omnigent</i> and <i>T3MP3ST</i> are all infrastructure for running agents rather than agents themselves &mdash; scheduling them, giving them environments, keeping them in a loop. Edition 02 noted that plumbing was outgrowing products. Two weeks later the plumbing is most of the new arrivals.</p>
 
-<p>Eight Edition 01 entries carry no GitHub figure and so cannot be re-measured on this edition&rsquo;s basis: <b>Cursor v3.11</b> (Anysphere), <b>Kolibri</b> (Konecta), <b>Ruflo</b>, <b>Claude Opus 5</b> (Anthropic), <b>GPT-5.6</b> (OpenAI), <b>Grok 4.5</b> (xAI), the <b>open-weight wave</b> (GLM-5.2, DeepSeek V4 and others) and <b>Klon AI</b> (Cheer Holding). They remain in scope. Their Edition 01 signals were press coverage, funding and reported adoption, none of which this edition attempted to re-measure, and a ranking that mixes an API-verified star count with &ldquo;major coverage&rdquo; is not a ranking.</p>
+<p><b>Squeezing large models onto small machines is the second cluster.</b> <i>kimi-k3-in-c</i> runs a 2.78-trillion-parameter model on one CPU in 8.24 GB with no framework and no GPU; <i>turbo-fieldfare</i> puts Gemma 4 26B on a MacBook in about 2 GB; <i>waste</i> streams weights beyond available RAM. Three separate projects, all inside a month, all attacking the same constraint.</p>
 
-<p>The five scope categories are unchanged &mdash; coding and developer tools, agentic platforms, foundation models, consumer AI, automation &mdash; so edition-to-edition comparison holds.</p>
+<p><b>And agents are being pointed at ordinary work.</b> A CRM built for agents rather than salespeople, an AI-native office suite, a voice runtime. Whether any of it is used is a different question from whether it is starred, which is the point of Exhibit 2.</p>
 
-<div class="note"><b>What this edition does not establish.</b> Adoption, revenue or production use of anything listed. Whether star growth reflects organic interest or promotion. Any model release date. And the precise growth interval, because Edition 01 dated its snapshot to a three-week range rather than a day &mdash; the single change that would most improve Edition 03.</div>
-<p class="sources"><b>Sources.</b> Star counts &mdash; <b>GitHub search API</b> (<code>search/repositories</code>, sorted by stars), queried 8 August 2026; this also resolved each project name to its repository. Edition 01 baselines are reproduced from <a href="https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html">Edition 01 of this tracker</a> as published there, where they were attributed to third-party roundups and rounded. Model releases named in the &ldquo;new this cycle&rdquo; section come from model-tracking aggregators and are flagged in the text as unverified; no vendor source was checked for them and no date from that section should be cited. This edition uses no commercial data vendor and no paid dataset.</p>
+<h2>Method, and what it still cannot tell you</h2>
+<p class="h2sub">Written down so the next edition is comparable.</p>
+
+<ul>
+<li><b>Discovery:</b> eleven GitHub search queries, deduplicated by repository, filtered to repositories created within sixty days carrying at least 1,000 stars. Run by <code>tools/ai_radar.py</code>, so it is repeatable and the queries are inspectable.</li>
+<li><b>Ranking:</b> stars per day since creation, not total stars.</li>
+<li><b>Quality check:</b> stars per fork, against the median of the examined set.</li>
+<li><b>Baseline for Edition 04:</b> every figure here carries the exact query date of 8 August 2026, so next week&rsquo;s growth rates will be exact rather than approximate.</li>
+</ul>
+
+<div class="note"><b>What none of this establishes.</b> Whether any project is used in production, whether it works, or whether it is safe. Stars can be bought and forks can be automated. <b>Creation date is not launch date</b> &mdash; a project developed privately and opened with an audience already waiting will show an inflated stars-per-day, and this edition cannot distinguish that from organic growth. GitHub search ranks what it indexes, so absence from this list is not evidence that something does not exist. And no model releases are covered this edition: they are not checkable against an API, and Edition 02&rsquo;s unverified list is not repeated here rather than being carried forward unchecked.</div>
+<p class="sources"><b>Sources.</b> Every figure on this page comes from the <b>GitHub API</b>, queried 8 August 2026: <code>search/repositories</code> for discovery (eleven deduplicated queries, filtered to <code>created:&gt;=2026-06-09 stars:&gt;1000</code>) and <code>repos/{owner}/{repo}</code> for the star, fork and watcher counts in Exhibit 2. The discovery step is scripted as <code>tools/ai_radar.py</code> in this blog&rsquo;s archive, so the queries can be inspected and the run repeated. Repository descriptions are the projects&rsquo; own, condensed. Prior editions are linked from <a href="https://masaladeutsch.blogspot.com/search/label/AI%20Tracker">the AI Tracker hub</a>. No roundup article, newsletter, aggregator or commercial data vendor was used for any number in this edition &mdash; which is the change Edition 02 promised and this edition completes.</p>
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
 
 </div>

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T13:11:15+05:30",
+  "snapshot": "2026-08-08T13:22:43+05:30",
   "count": 99,
   "posts": {
     "1157999291079244419": {
@@ -554,14 +554,16 @@
     },
     "179632962556562936": {
       "id": "179632962556562936",
-      "title": "AI Tracker Edition 02: Every Repo We Followed Grew, Three More Than Doubled",
+      "title": "AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of",
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-08T13:09:08.976+05:30",
-      "labels": [],
-      "bytes": 15558,
-      "sha256": "9c98aa0637df2e328856a341c61d81f9b6a87e50e11efe61998edbcec55656c5",
+      "updated": "2026-08-08T13:20:04.676+05:30",
+      "labels": [
+        "AI Tools"
+      ],
+      "bytes": 18381,
+      "sha256": "ad9687355ecaab46dc50ebadd428a33b9a2044100530c890b9e449bc7c9af891",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -573,7 +575,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -630,6 +632,19 @@
             ]
           },
           "note": "AI tracker Edition 02"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-08T13:22:43+05:30",
+          "level": "major",
+          "reason": "figures changed (+65/-66 distinct numbers)",
+          "bytes": [
+            15558,
+            18381
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Edition 03"
         }
       ]
     },
