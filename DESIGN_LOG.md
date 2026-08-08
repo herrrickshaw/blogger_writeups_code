@@ -2302,3 +2302,31 @@ is the cannibalisation problem again — the public entry point IS the blog, and
 this file's job is portability: attach it, mail it, drop it on any server, open
 it from disk. Offered Pages as an option rather than creating a new public
 surface unprompted. Secret-grep run on the file before commit: clean.
+
+## 2026-08-08 — Published the front door; index on every page via a one-line stub
+
+**https://herrrickshaw.github.io/masaladeutsch/** — the entry page is live on
+GitHub Pages (public repo `masaladeutsch`, secret-grep clean before push).
+Verified from the real URL: Latest filled with 7, 13 topic counts, 3 CTAs —
+JSONP confirmed working cross-origin from github.io.
+
+**"Make an index visible on every page"** with the theme unreachable: the only
+surface on every article is the post body, so every live post gets a two-tag
+stub — `<div id="gs-idx">` plus one deferred script tag — and the accordion
+itself lives ONCE, as `accordion.js` on the Pages site. Changing that file
+changes every page; no post is ever edited again for index changes.
+
+**accordion.js discovers the labels from the blog's main feed** (feed.category)
+rather than carrying a hardcoded list, so a topic created next month appears in
+the footer of every article with zero edits anywhere. Topics fill on first
+open; the Full Index link closes the loop.
+
+**The injector** (tools/inject_site_index.py) is the apply_labels pattern:
+marker-idempotent (skips posts already carrying gs-idx), resumable after the
+daily write ceiling, and every PUT sends published AND labels back explicitly —
+today's earlier lesson about PUT-as-replace applied twice over. The index post
+is excluded; it has the richer accordion already.
+
+Risk noted at time of writing: today's API writes are near three figures, so
+the ceiling may interrupt the run; the marker makes tomorrow's resume one
+command.
