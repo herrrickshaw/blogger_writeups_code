@@ -1955,3 +1955,12 @@ New article: digital transformation in India's ethanol sector — E20 build-out 
 **Added**
 
 - `from-cane-to-code-digital-layer` **v1.0.0** — From Cane to Code: The Digital Layer Underneath India's E20 Milestone (18,309 bytes)
+
+## 2026-08-08T21:28:22+05:30 — 109 posts live
+
+New article: cocoa/chocolate blockchain traceability — TradeLens's 2022 discontinuation, GIZ's MiCacao pilot (targets vs unverified outcomes), Tony's Chocolonely's earlier Beantracker effort, and the EUDR's twice-delayed Dec 2026 deadline as the real forcing function
+
+
+**Added**
+
+- `cocoas-blockchain-reckoning-one` **v1.0.0** — Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out (16,918 bytes)
