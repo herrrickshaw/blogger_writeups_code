@@ -2275,3 +2275,30 @@ minutes) → add a Pages gadget to the empty nav section in Layout.
 the user already has open): nav → Add a Gadget → **Link List** → add
 "Topics & Index" → the article-index URL. A Link List needs no Page resource
 and cannot render wrongly, because it renders nothing but an anchor.
+
+## 2026-08-08 — index.html rebuilt to the actual definition of an index page
+
+The user sent a web-design glossary entry: an index page is the site's front
+door — an introduction to what the site is, a navigation hub, a call to action,
+and its most current content. The standalone file was only the second of those
+four, so it was a table of contents, not an index page.
+
+Rebuilt to the full pattern, 11KB, still one file that works from anywhere:
+1. **Introduction** — what the blog is and how it works (official statistics,
+   visible corrections, stated limits), in four lines.
+2. **CTA** — three buttons: read the blog, the full index, the AI tracker.
+3. **Latest** — the newest seven posts, fetched from the blog's main feed at
+   load time with the same JSONP machinery as the accordion. The front door
+   shows today's content without anyone editing it.
+4. **Navigation hub** — the thirteen-topic feed-driven accordion, plus author
+   and contact links.
+
+Verified in-browser from localhost: Latest filled with 7 (South Africa piece
+first, i.e. genuinely current), 13/13 accordion counts, 3 CTAs.
+
+**Deliberately not done: hosting it at its own public URL.** GitHub Pages would
+take ten minutes, but a second front door at github.io competing with the blog
+is the cannibalisation problem again — the public entry point IS the blog, and
+this file's job is portability: attach it, mail it, drop it on any server, open
+it from disk. Offered Pages as an option rather than creating a new public
+surface unprompted. Secret-grep run on the file before commit: clean.
