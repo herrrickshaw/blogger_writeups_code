@@ -2452,3 +2452,26 @@ reported the block missing because the page had run a CACHED accordion.js
 (transferSize 0 was the tell — GitHub Pages caches ~10 min); the selector was
 fine. Re-tested cache-busted before touching any code. The instrument again,
 not the patient.
+
+## 2026-08-08 — Affiliate build-out: user-supplied ASINs, and an honest shelf
+
+The further-reading block matured in one afternoon of the user pasting
+SiteStripe links:
+
+- **Eight titles now carry direct /dp/ links** — every ASIN user-supplied, none
+  from model memory. The rule held under temptation: a batch of six
+  `link.amazon/B0xxxxx` links arrived malformed (9-char lowercase codes, 404s)
+  and was refused with evidence rather than wired; the user then re-sent real
+  product URLs, which took minutes to deploy.
+- **Off-topic picks got their own labelled section.** Siddhartha and a moka pot
+  fit no topic; instead of forcing them under Industrial Policy they render as
+  "From the author's shelf" beneath the topic reading — honest labelling
+  preserves the editorial line while letting the author be a person.
+- Search-link fallback remains for the three titles without ASINs yet
+  (The New Map, India Transformed, Backstage, Overdraft).
+- Verified on the live fuel-surplus post: both sections render, five links,
+  direct/search mix correct, disclosure present, 13-topic accordion intact.
+
+One near-mistake recorded: the "I Do What I Do" ASIN (B0BXD7LG75) is a specific
+third-party paperback listing, not the canonical edition — flagged to the user
+as the one link that could die of stock-out.
