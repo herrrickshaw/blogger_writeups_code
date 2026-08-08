@@ -781,3 +781,16 @@ index +1
 **Changed**
 
 - `article-index-start-here` — 31,451 → 31,720 bytes (+269)
+
+## 2026-08-08T08:05:15+05:30 — 94 posts live
+
+Japan PPI added from Bank of Japan; 2026 'uniquely domestic' claim corrected
+
+
+**Versions**
+
+- `indias-wholesale-prices-next-to` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+12/-3 distinct numbers))
+
+**Changed**
+
+- `indias-wholesale-prices-next-to` — 18,715 → 22,188 bytes (+3,473)

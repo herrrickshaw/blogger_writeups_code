@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T07:57:36+05:30",
+  "snapshot": "2026-08-08T08:05:15+05:30",
   "count": 94,
   "posts": {
     "1157999291079244419": {
@@ -1240,10 +1240,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.538+05:30",
-      "updated": "2026-08-08T07:55:38.538+05:30",
+      "updated": "2026-08-08T08:04:21.690+05:30",
       "labels": [],
-      "bytes": 18715,
-      "sha256": "197cfc36ca1e24b9c2cf6d95c94d039fbad2f330cd71dd2b32d71c43995ea5cb",
+      "bytes": 22188,
+      "sha256": "196fafd2d17470b784f8a37673c66a86f85e9f19270c70de0276239d1a9f972b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1255,7 +1255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1263,6 +1263,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "new post: international WPI/CPI comparison"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T08:05:15+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+12/-3 distinct numbers))",
+          "bytes": [
+            18715,
+            22188
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Japan PPI added from Bank of Japan; 2026 'uniquely domestic' claim corrected"
         }
       ]
     },
