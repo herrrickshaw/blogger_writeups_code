@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-08T13:59:44.107+05:30",
+  "updated": "2026-08-08T22:09:42.109+05:30",
   "labels": [],
-  "bytes": 128986,
-  "sha256": "85eafe71df20cece1f49b9e706c3c6d2bb420a4ba44f0507a046bdf1ca120621",
+  "bytes": 143968,
+  "sha256": "6d3ffba828e2cbe0c3edf3c9a1e3dad04de84e56d305bb2ac4214a12d7bdb0c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "13.0.0",
+  "version": "14.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -222,6 +222,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "14.0.0",
+      "date": "2026-08-08T22:10:18+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-4 distinct numbers)",
+      "bytes": [
+        128986,
+        143968
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuilt article index via index_graph.py + build_index_page.py: 97->111 articles, all of today's new posts (LPG, thermal parity, ethanol digital, cocoa blockchain, food processing, fertiliser imports, trade gaps, EPR, MDR pieces) now listed in By-date/By-topic/By-geography/All-articles views"
     }
   ]
 }

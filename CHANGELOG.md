@@ -2025,3 +2025,16 @@ Fix non-canonical labels on 4 posts (Trade & Investment Policy -> Trade & Tariff
 - `indias-fertiliser-import-bill-hits-18` — 2026-08-08 &rarr; 2026-08-08
 - `indias-food-processing-story-pli-scheme` — 2026-08-08 &rarr; 2026-08-08
 - `cocoas-blockchain-reckoning-one` — 2026-08-08 &rarr; 2026-08-08
+
+## 2026-08-08T22:10:18+05:30 — 113 posts live
+
+Rebuilt article index via index_graph.py + build_index_page.py: 97->111 articles, all of today's new posts (LPG, thermal parity, ethanol digital, cocoa blockchain, food processing, fertiliser imports, trade gaps, EPR, MDR pieces) now listed in By-date/By-topic/By-geography/All-articles views
+
+
+**Versions**
+
+- `article-index-start-here` **13.0.0 → 14.0.0** (MAJOR) — figures changed (+5/-4 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 128,986 → 143,968 bytes (+14,982)
