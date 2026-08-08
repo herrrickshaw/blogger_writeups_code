@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-06T10:11:47.997+05:30",
+  "updated": "2026-08-07T13:48:51.416+05:30",
   "labels": [],
-  "bytes": 30665,
-  "sha256": "6e13302a3403f8787e76e21f441c3af9ea87f77a3d468b624aeb5574e82bad7e",
+  "bytes": 31451,
+  "sha256": "1a0d660447ad5abf4438818956b38fd5051272e0744f6363fcd6122b2aac9f41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Post-API-setup snapshot. Also captures the mineral-oil guard rewrite (resolved literal colours, no document-level rules)."
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-08T06:28:52+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        30665,
+        31451
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix; dead mineral-oil links repointed"
     }
   ]
 }

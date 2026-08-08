@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
   "slug": "half-of-indias-import-bill-is",
   "published": "2026-08-03T17:03:34.204+05:30",
-  "updated": "2026-08-05T09:04:46.007+05:30",
+  "updated": "2026-08-08T06:26:47.241+05:30",
   "labels": [],
   "bytes": 16701,
-  "sha256": "c4eeaa9d92e749726b98564d907a5610ea0effde9b09b91c3412c84dbd791fe6",
+  "sha256": "9861604ba46ec0b51c6d6b1085833d57d6a4109ecfa6301edd7b5e03908d2040",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T06:28:52+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        16701,
+        16701
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix; dead mineral-oil links repointed"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.932+05:30",
-  "updated": "2026-08-05T08:47:20.415+05:30",
+  "updated": "2026-08-08T06:26:55.986+05:30",
   "labels": [],
   "bytes": 71878,
-  "sha256": "74eed4002e85d30e845ecd6027046de5923fdf46c00cb37fd3ef3d2c3d2bed96",
+  "sha256": "04e887271ca19d2702aa7208111abeb77971f89ccc1d5597773db7dd87c73755",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T06:28:52+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        71878,
+        71878
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix; dead mineral-oil links repointed"
     }
   ]
 }

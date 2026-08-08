@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.318+05:30",
-  "updated": "2026-08-07T13:46:48.318+05:30",
+  "updated": "2026-08-08T06:26:38.965+05:30",
   "labels": [],
-  "bytes": 21967,
-  "sha256": "a1a2f2420691f9ff5a9ee065d977a67b1dee060ec33826788fdbbfff7c9ee5f5",
+  "bytes": 22106,
+  "sha256": "f1ed245aa88388dbd8b11a96bdb4e8db228b3b0955cb5afb79081a5ea18801b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "54EC bonds article; HSN shape section"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T06:28:52+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        21967,
+        22106
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix; dead mineral-oil links repointed"
     }
   ]
 }

@@ -19,10 +19,13 @@
 .bnd .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
 .bnd .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
 .bnd .tw{overflow-x:auto}
-.bnd table{width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.bnd table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
 .bnd thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
 .bnd thead th:first-child,.bnd tbody td:first-child{text-align:left}
-.bnd tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums;word-wrap:break-word;overflow-wrap:break-word}
+.bnd tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.bnd th,.bnd td{white-space:nowrap}
 .bnd tbody tr:last-child td{border-bottom:1px solid #000}
 .bnd tbody tr.hl td{background:#f6f4ef;font-weight:600}
 .bnd .note,.bnd .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
@@ -63,12 +66,12 @@
 <div class="exhibit">
 <p class="exno">Exhibit 1</p>
 <p class="extitle">Nothing investment-grade beats the shield over five years</p>
-<p class="exsub">&#8377;50 lakh long-term gain on land or building; 12.5% LTCG + 4% cess; interest taxed at a 30% slab + cess; coupons reinvested at 5.54% post-tax; five-year horizon.</p>
+<p class="exsub">&#8377;L = &#8377; lakh. &#8377;50 lakh long-term gain on land or building; 12.5% LTCG + 4% cess; interest taxed at a 30% slab + cess; coupons reinvested at 5.54% post-tax; five-year horizon.</p>
 <div class="tw">
 <table>
-<thead><tr><th>Route</th><th>Credit</th><th>Pre-tax yield, %</th><th>Capital deployed, &#8377; lakh</th><th>Terminal value, &#8377; lakh</th><th>vs 54EC, &#8377; lakh</th></tr></thead>
+<thead><tr><th>Route</th><th>Credit</th><th>Yield, %</th><th>Deployed, &#8377;L</th><th>Terminal, &#8377;L</th><th>vs 54EC, &#8377;L</th></tr></thead>
 <tbody>
-<tr><td>[Policy scenario] 54EC repriced at market</td><td>AAA PSU</td><td>7.46</td><td>50.00</td><td>64.33</td><td>+4.25</td></tr>
+<tr><td>[Policy] 54EC at market coupon</td><td>AAA PSU</td><td>7.46</td><td>50.00</td><td>64.33</td><td>+4.25</td></tr>
 <tr><td>BBB-rated NCD</td><td>BBB</td><td>12.25</td><td>43.50</td><td>63.98</td><td>+3.89</td></tr>
 <tr><td>A-rated NCD</td><td>A</td><td>10.50</td><td>43.50</td><td>61.05</td><td>+0.96</td></tr>
 <tr class="hl"><td>Section 54EC bonds</td><td>AAA PSU</td><td>5.25</td><td>50.00</td><td>60.09</td><td>&mdash;</td></tr>

@@ -684,3 +684,22 @@ WPI: calm-vs-current split, 2012-20 vs 2020-26
 **Changed**
 
 - `hsn-wise-historical-importexport-trends` — 21,200 → 24,485 bytes (+3,285)
+
+## 2026-08-08T06:28:52+05:30 — 93 posts live
+
+table scroller fix; dead mineral-oil links repointed
+
+
+**Versions**
+
+- `reinvesting-capital-gains-in-higher` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `fuel-pricing-to-crude-cost` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `half-of-indias-import-bill-is` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `article-index-start-here` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+
+**Changed**
+
+- `reinvesting-capital-gains-in-higher` — 21,967 → 22,106 bytes (+139)
+- `fuel-pricing-to-crude-cost` — 71,878 → 71,878 bytes (+0)
+- `half-of-indias-import-bill-is` — 16,701 → 16,701 bytes (+0)
+- `article-index-start-here` — 30,665 → 31,451 bytes (+786)
