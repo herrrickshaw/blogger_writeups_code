@@ -1213,3 +1213,36 @@ Three left, all correct:
 
 Blog-wide: **63 → 57 violations across 16 posts.** Next largest is
 `the-grain-value-loop-integrated-rice` at 7.
+
+## 2026-08-08 — the-grain-value-loop: 7 violations, 0 safely fixable, 2 real defects found
+
+The first post in this pass where **nothing could be hoisted**. Every flagged
+column mixes units, confirmed by tabulating the unit signature of each cell:
+
+| table | column contents |
+|---|---|
+| 1 | `₹/qtl` ×3, `₹/MT` ×1, `₹/kg` ×1 — three different denominators |
+| 10 | `LMT` ×6, `MT` ×1 |
+| 12 | `₹ L cr` ×4, `₹ cr` ×2 |
+| 13 | `₹ cr` ×4, plus a bare multiple `3–5×` |
+
+Hoisting any of them would mean rescaling published figures to a common unit,
+which is a content change and not a formatting pass. **Nothing was published for
+this post.**
+
+**Two of these are readability defects, not just untidy formatting**, and finding
+them is worth more than the fix that was not available:
+
+- **Table 10** puts `40.99 MT` in a column of `LMT` values. 40.99 MT is 409.9
+  LMT — the largest figure in the column is displayed as the smallest-looking
+  number, next to `122 LMT` and `168 LMT`.
+- **Table 12** puts `₹18,000 cr` and `₹7,650 cr` in a column whose other entries
+  are `₹2.32 L cr` and `₹2.05 L cr`. A lakh crore is 100,000 crore, so
+  `₹2.32 L cr` is ₹232,000 cr — again the biggest number reads as the smallest.
+
+Both need the author to pick one unit per column and restate, which is a
+one-minute edit but a decision about the source figures, not about CSS. Logged
+rather than guessed at.
+
+Blog-wide unchanged at **57 violations across 16 posts**. Next largest:
+`annadata-to-urjadata-farmer-income-case` at 6.
