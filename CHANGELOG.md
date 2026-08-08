@@ -759,3 +759,12 @@ verify paced health check
 
 
 No changes.
+
+## 2026-08-08T07:57:10+05:30 — 94 posts live
+
+new post: international WPI/CPI comparison
+
+
+**Added**
+
+- `indias-wholesale-prices-next-to` **v1.0.0** — India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check (18,715 bytes)
