@@ -722,3 +722,26 @@ table scroller fix applied to four more posts
 - `indias-oil-fields-are-running-down-3696` — 12,698 → 12,862 bytes (+164)
 - `rooftop-solar-is-working-household` — 10,743 → 10,907 bytes (+164)
 - `fourteen-years-of-indian-wholesale` — 19,333 → 19,499 bytes (+166)
+
+## 2026-08-08T06:55:29+05:30 — 93 posts live
+
+link audit: 6 posts relinked
+
+
+**Versions**
+
+- `hsn-wise-historical-importexport-trends` **2.0.0 → 2.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `import-dependent-sectors-vs-government` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `indias-trade-balance-hsn-wise` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `fy2025-26-sample-report-india-trade` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `five-year-synthesis-trade-currency` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `india-trade-sector-policy` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `hsn-wise-historical-importexport-trends` — 24,485 → 24,495 bytes (+10)
+- `import-dependent-sectors-vs-government` — 18,676 → 18,638 bytes (-38)
+- `indias-trade-balance-hsn-wise` — 48,248 → 48,258 bytes (+10)
+- `fy2025-26-sample-report-india-trade` — 28,105 → 27,752 bytes (-353)
+- `five-year-synthesis-trade-currency` — 34,945 → 35,112 bytes (+167)
+- `india-trade-sector-policy` — 11,680 → 10,988 bytes (-692)

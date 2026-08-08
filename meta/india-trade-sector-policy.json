@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:26:34.184+05:30",
+  "updated": "2026-08-08T06:49:54.009+05:30",
   "labels": [],
-  "bytes": 11680,
-  "sha256": "532e644abbd0fa4b0db91fd6c819ecdb330e1451859dddf685139ff64d1bc3b3",
+  "bytes": 10988,
+  "sha256": "76a34cbc5b9adde7fee4fe5907e1d600f37f3b373cb8b2cb53196879f22cfcb4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T06:55:29+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        11680,
+        10988
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "link audit: 6 posts relinked"
     }
   ]
 }

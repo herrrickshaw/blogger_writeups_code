@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.973+05:30",
-  "updated": "2026-08-07T13:43:54.610+05:30",
+  "updated": "2026-08-08T06:49:36.644+05:30",
   "labels": [],
-  "bytes": 24485,
-  "sha256": "8b4dacce54d12e982629a10f35e6b857996704a69c2c35f6c11185723ec0c5c8",
+  "bytes": 24495,
+  "sha256": "99f31e6fcb9fe9cd073ae0950c730e21d47a53458c16303d8f9a385e6669e673",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -75,6 +75,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "54EC bonds article; HSN shape section"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-08T06:55:29+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24485,
+        24495
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "link audit: 6 posts relinked"
     }
   ]
 }

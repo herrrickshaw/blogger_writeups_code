@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.793+05:30",
-  "updated": "2026-08-06T11:25:14.793+05:30",
+  "updated": "2026-08-08T06:49:44.795+05:30",
   "labels": [],
-  "bytes": 18676,
-  "sha256": "439ed77b1aa3a803fb6f0207e817f61b4a2ad13181e2dee4e7253f4458783b8b",
+  "bytes": 18638,
+  "sha256": "8d564f045477f06c5532ee29bce4fb37a75016ea5ecd9d9e15d6d57816222c9a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T06:55:29+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18676,
+        18638
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "link audit: 6 posts relinked"
     }
   ]
 }

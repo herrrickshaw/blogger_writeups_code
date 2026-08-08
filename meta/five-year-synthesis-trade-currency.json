@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.629+05:30",
-  "updated": "2026-08-06T11:24:20.078+05:30",
+  "updated": "2026-08-08T06:49:18.820+05:30",
   "labels": [],
-  "bytes": 34945,
-  "sha256": "83fe420b18a30332231f89d798b1b3adfc9546d73650f4fe0453171a52627173",
+  "bytes": 35112,
+  "sha256": "c009e51cd2e70f80f1cdc72ca0598fabb57e665ccd1144c90969e381206e9f30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T06:55:29+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        34945,
+        35112
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "link audit: 6 posts relinked"
     }
   ]
 }
