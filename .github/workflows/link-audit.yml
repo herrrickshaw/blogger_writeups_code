@@ -53,7 +53,7 @@ jobs:
             SCOPE=
           fi
           set +e
-          python3 tools/link_audit.py $SCOPE --json audit.json 2>&1 | tee audit.out
+          python3 tools/link_audit.py $SCOPE --timeout 12 --json audit.json 2>&1 | tee audit.out
           echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
           set -e
 
@@ -90,8 +90,10 @@ jobs:
               '- A **blogspot 404** is usually a burned slug. Blogger never releases a',
               '  slug, so republishing mints a suffixed URL and the original dies.',
               '  Repoint the links, or add a 301 under Settings → Errors and redirects.',
-              '- Anything listed as UNVERIFIABLE is a host refusing scripted requests,',
-              '  not a broken link. Open it in a browser before touching it.',
+              '- UNVERIFIABLE means no answer was obtained — a 403, 429, timeout or',
+              '  DNS failure. It is NOT a broken link, and the count will be large:',
+              '  many Indian government portals refuse GitHub runner IPs outright.',
+              '  Only 404 and 410 are reported as dead. Open one in a browser first.',
               '',
               '```',
               fs.readFileSync('audit.out', 'utf8').slice(0, 55000),

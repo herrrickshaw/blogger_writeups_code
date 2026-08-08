@@ -21,11 +21,14 @@ Three classes of link, checked differently:
             original address dies. Fix by repointing, or with a custom redirect
             in Blogger's Settings -> Errors and redirects.
 
-  external  Everything else. Some hosts refuse scripted requests outright and a
-            non-200 from them is NOT evidence of breakage — LinkedIn answers 999,
-            several publishers answer 403 to anything without a browser. Those are
-            reported separately as UNVERIFIABLE so they do not drown the real
-            findings. Verify one by opening it in a browser before "fixing" it.
+  external  Everything else. Only 404 and 410 count as dead. A 403, 429, 999,
+            timeout or DNS failure means we could not get an answer — the host is
+            blocking scripted requests, throttling us, or unreachable from this
+            network. Those are listed as UNVERIFIABLE and never fail the run.
+            Where the check runs from changes the answer: many Indian government
+            portals refuse foreign datacentre IPs outright, so the same audit
+            reports 391/399 OK from India and 156/399 from a GitHub runner.
+            Open one in a browser before "fixing" it.
 """
 import argparse
 import collections
@@ -51,15 +54,16 @@ UA = {
     "Accept": "text/html,application/xhtml+xml,*/*",
     "Accept-Language": "en-IN,en;q=0.9",
 }
-# Hosts known to answer scripted requests with a block rather than the page.
-# A non-200 from these is unverifiable, not proof of a dead link.
-BOT_HOSTILE = {
-    "www.linkedin.com": {999, 403, 429},
-    "linkedin.com": {999, 403, 429},
-    "www.sciencedirect.com": {403},
-    "www.tomra.com": {403},
-    "doi.org": {403},
-}
+# Only these mean the target is actually gone. Everything else non-200 means we
+# could not get an answer, which is a different claim.
+#
+# Learned from running this in CI: from a GitHub runner in a US datacentre, 243
+# of 399 external links came back non-200 — 99 URLError, 89x 429, 55x 403 — and
+# not one was a 404. The same links returned 391/399 OK from an Indian
+# connection. Many Indian government portals simply refuse foreign datacentre
+# IPs. A checker that calls those "dead" would have the maintainer chasing 243
+# phantom failures every week.
+DEAD_CODES = {404, 410}
 HREF = re.compile(r'href=["\']([^"\'>]+)["\']')
 SKIP_PREFIX = ("mailto:", "#", "javascript:", "data:", "tel:")
 
@@ -118,6 +122,8 @@ def main():
                     help="skip external links (fast; use when only the blog changed)")
     ap.add_argument("--json", metavar="PATH", help="write the full result set here")
     ap.add_argument("--workers", type=int, default=6)
+    ap.add_argument("--timeout", type=int, default=30,
+                    help="per-request seconds; lower in CI where many hosts hang")
     args = ap.parse_args()
 
     links = collect()
@@ -137,15 +143,16 @@ def main():
         todo += sorted(buckets["external"])
 
     with cf.ThreadPoolExecutor(args.workers) as ex:
-        for u, (code, final) in zip(todo, ex.map(lambda x: check(x), todo)):
+        for u, (code, final) in zip(todo, ex.map(lambda x: check(x, args.timeout), todo)):
             results[u] = code
             if code == 200:
                 continue
-            host = urlparse(u).netloc
-            if code in BOT_HOSTILE.get(host, ()):
-                unverifiable.append((u, code))
-            else:
+            if code in DEAD_CODES:
                 dead.append((u, classify(u), code))
+            else:
+                # 403 / 429 / 999 / timeouts / DNS failures: blocked, throttled
+                # or unreachable from here. Says nothing about the link.
+                unverifiable.append((u, code))
 
     checked = len(todo) + len(buckets["relative"])
     print(f"links found {len(links)}  |  checked {checked}  "
