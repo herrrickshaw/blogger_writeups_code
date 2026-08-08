@@ -61,6 +61,31 @@ def _pretty_month(ym):
     return f"{_MON[m-1]} {y}"
 
 
+ACCORDION_JS = "<script>//<![CDATA[\n// Populates each topic from Blogger's own label feed at view time, so this\n// list can never fall behind the blog the way the hand-kept accordion did\n// (it was 18 articles stale when retired). JSONP rather than fetch() so the\n// same block works on the blog, from a saved file, or hosted anywhere else --\n// Blogger's feeds predate CORS but have always supported callback=.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsAcc = window.gsAcc || {};\n  function jsonp(url, cb){\n    var name='cb'+(n++); window.gsAcc[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsAcc.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  function feed(lbl, extra, cb){\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(lbl)\n      +'?alt=json-in-script'+extra, cb);\n  }\n  function fill(d){\n    var ul=d.querySelector('ul'); if(ul.getAttribute('data-done')) return;\n    ul.setAttribute('data-done','1');\n    feed(d.getAttribute('data-label'),'&orderby=published&max-results=150',function(res){\n      if(!res){ ul.innerHTML='<li>Could not load - open the topic page instead.</li>'; return; }\n      var es=res.feed.entry||[]; ul.innerHTML='';\n      for(var i=0;i<es.length;i++){\n        var e=es[i], href='';\n        for(var j=0;j<(e.link||[]).length;j++)\n          if(e.link[j].rel==='alternate') href=e.link[j].href;\n        var li=document.createElement('li'), a=document.createElement('a');\n        a.href=href; a.textContent=e.title.$t; li.appendChild(a);\n        var t=document.createElement('span'); t.className='gs-acc-d';\n        t.textContent=' · '+(e.published.$t||'').slice(0,10);\n        li.appendChild(t); ul.appendChild(li);\n      }\n      if(!es.length) ul.innerHTML='<li>No posts carry this label yet.</li>';\n    });\n  }\n  var ds=document.querySelectorAll('details.gs-acc');\n  for(var k=0;k<ds.length;k++)(function(d){\n    feed(d.getAttribute('data-label'),'&max-results=0',function(res){\n      if(res) d.querySelector('.gs-acc-n').textContent =\n        res.feed.openSearch$totalResults.$t;\n    });\n    d.addEventListener('toggle',function(){ if(d.open) fill(d); });\n  })(ds[k]);\n})();\n//]]></script>"
+
+ACCORDION_CSS = "<style>/*gs-acc-v1*/\n.gs-accwrap{margin:1rem 0 2rem}\n.gs-acc{border-top:1px solid #e2e2e2}\n.gs-acc:last-of-type{border-bottom:1px solid #e2e2e2}\n.gs-acc summary{cursor:pointer;padding:.85rem .2rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;font-size:1rem;color:#0B1F2D;list-style:none;display:flex;align-items:baseline;gap:.55rem}\n.gs-acc summary::-webkit-details-marker{display:none}\n.gs-acc summary::after{content:'+';margin-left:auto;color:#2251FF;font-weight:600}\n.gs-acc[open] summary::after{content:'\\2212'}\n.gs-acc-n{font-weight:600;font-size:.78rem;color:#8a8a8a}\n.gs-acc-hub{font-size:.72rem;font-weight:600;color:#2251FF;text-decoration:none}\n.gs-acc ul{margin:.2rem 0 1rem;padding-left:1.2rem}\n.gs-acc li{font-size:.92rem;line-height:1.5;margin-bottom:.3rem}\n.gs-acc-d{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#8a8a8a;white-space:nowrap}\n</style>"
+
+
+def emit_accordion(A, hubs):
+    """Self-updating topic accordion, driven by Blogger's label feeds.
+
+    Each <details> starts empty and fills on first open; counts load
+    immediately. Without JavaScript the summary still carries a working link
+    to the label hub, so the worst case is navigation, never a dead section.
+    """
+    A(ACCORDION_CSS)
+    A('<div class="gs-accwrap">')
+    for name, slugpart in sorted(hubs, key=lambda t: t[0].lower()):
+        A(f'<details class="gs-acc" data-label="{E(name)}">'
+          f'<summary>{E(name)} <span class="gs-acc-n"></span>'
+          f'<a class="gs-acc-hub" '
+          f'href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">'
+          f'open topic page &#8594;</a></summary>'
+          '<ul><li>Loading&#8230;</li></ul></details>')
+    A('</div>')
+    A(ACCORDION_JS)
+
+
 def svg_graph(posts, min_posts=5, max_nodes=18):
     """Circular entity co-occurrence graph as static SVG."""
     cnt = collections.Counter(e for p in posts.values() for e in p["entities"])
@@ -181,14 +206,10 @@ def main():
     # ---- topics -----------------------------------------------------------
     A('<h2>By topic</h2>')
     A('<p class="h2sub">Live hub pages. Each updates itself as new pieces are labelled.</p>')
-    A('<div class="chips">')
-    # Alphabetical, case-insensitive, to match the site-wide topic browse.
-    # Ordering by post count put the biggest topics first, which reads as a
-    # ranking nobody asked for and moves whenever a post is labelled.
-    for name, slugpart in sorted(LABEL_HUBS, key=lambda t: t[0].lower()):
-        n = 0
-        A(f'<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">{E(name)}</a>')
-    A('</div>')
+    # The accordion replaces the chip row. It reads Blogger's label feeds at
+    # view time, so its counts and its post lists are always current -- the
+    # failure mode of every hand-kept list this page has had.
+    emit_accordion(A, LABEL_HUBS)
 
     # ---- AI tracker ---------------------------------------------------------
     # A standing serial, not a one-off analysis. It sits in its own section

@@ -2211,3 +2211,42 @@ in-app browser permits automation and has no session; the API permits automation
 and has no theme endpoint. Four browser attempts, seven API probes.
 
 Left the replacement content on the clipboard so the remaining step is Cmd+V.
+
+## 2026-08-08 — The accordion returns, this time incapable of going stale
+
+The old accordion died of being hand-kept: 18 articles behind at retirement.
+The new one holds no post list at all. Each topic is a <details> panel that asks
+**Blogger's own label feed** for its contents when opened, and for its count on
+page load. A post published tomorrow appears in it tomorrow, with no edit to
+anything.
+
+**JSONP, deliberately, in 2026.** The same block has to work in three places:
+on the blog (same origin), as a saved file on someone's disk, and hosted
+anywhere else. fetch() fails the last two on CORS; Blogger's GData feeds
+predate CORS and have always supported callback=. One transport that works
+everywhere beats a modern one that needs three variants. Failure modes are
+covered: script onerror shows a "could not load" line, and without JavaScript
+every summary still carries a working link to the label hub — worst case is
+navigation, never a dead page.
+
+**Two deliverables from one emitter** (emit_accordion in build_index_page.py,
+so regeneration keeps it):
+- The blog index post — accordion replaces the chip row; geography, dates,
+  graph and AI Tools sections unchanged.
+- out/index.html — an 8.5KB standalone page anyone can open from anywhere,
+  double-click included, which lists the whole blog live.
+
+**Verified, not assumed**: from localhost (cross-origin) 13/13 counts loaded and
+Gas & LNG filled with its 6 posts newest-first; on the live post 13/13 counts
+and AI Tools expanded to Edition 03. Counts match the label census exactly.
+
+**The Layout gadget round-trip, recorded for the next session.** The paste went
+into a NEW gadget while two stale accordion gadgets (HTML1 and HTML2 — there
+were always two, which one reading missed) kept rendering. The user then
+removed every HTML gadget from the homepage, which was the right call: the
+homepage now has none, the index post carries the accordion, and there is no
+hand-edited widget left to rot. Browser access to blogger.com and
+draft.blogger.com remained permission-denied throughout — five probes across
+three tab groups — and the Blogger API has no gadget endpoint (seven endpoints
+tested earlier today). Anything that must stay current now lives where the API
+or the feeds can reach it.
