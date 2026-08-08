@@ -1426,3 +1426,16 @@ index: full publishing history from 4 October 2020
 **Changed**
 
 - `article-index-start-here` — 120,635 → 122,416 bytes (+1,781)
+
+## 2026-08-08T13:10:12+05:30 — 99 posts live
+
+AI tracker Edition 02
+
+
+**Versions**
+
+- `ai-high-demand-launch-tracker` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+73/-4 distinct numbers)
+
+**Changed**
+
+- `ai-high-demand-launch-tracker` — 16,128 → 15,558 bytes (-570); markers revision_line False→True

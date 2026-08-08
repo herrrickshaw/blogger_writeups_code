@@ -1,194 +1,135 @@
+<div class="artx trk">
 <style>/*gs-typo-unify-v1*/
-.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
-.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
-.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
-.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
-.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
-.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
-{font-family:Georgia,'Times New Roman',serif!important;}
-.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
-.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
-.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
-{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
-body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+.trk{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.trk h1,.trk h2,.trk h3{line-height:1.3}
+.trk p,.trk li{max-width:38rem}
+.trk .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.trk h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.trk .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.trk h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.trk .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.trk h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.trk .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.trk .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.trk .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.trk .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.trk .exhibit{margin:2.2rem 0}
+.trk .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.trk .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.trk .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.trk .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.trk .tw{overflow-x:auto}
+.trk table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.trk thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.trk thead th:first-child,.trk tbody td:first-child{text-align:left}
+.trk tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.trk th,.trk td{white-space:nowrap}
+.trk tbody tr:last-child td{border-bottom:1px solid #000}
+.trk tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.trk .note,.trk .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.trk .warn{border-left-color:#db2b27}
+.trk a{color:#12408f}
+.trk .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.trk .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.trk .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.trk img,.trk svg{max-width:100%;height:auto}
 
-/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
-  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
-  nothing on them. Verified on a canary post before the batch. */
-.post-body .tw{overflow-x:auto;margin:1.1rem 0}
-/* display:block makes the table its OWN scroller, so it works whether or not
-   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
-   width:auto table with no scroller pushes the whole page sideways. */
+/*gs-table-v1*/
 .post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
  min-width:100%;border-collapse:collapse;font-size:.86rem}
 .post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
  text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
- white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+ word-break:keep-all;min-width:5.5rem}
 .post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
 .post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
  font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
 .post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
 .post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
-
-<div class="wrap">
-  <header class="top">
-    <div class="eyebrow">AI Intelligence Digest &middot; Edition 01</div>
-    <h1>High-Demand AI Functions &amp; Launch Tracker</h1>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
 
-    <div class="sub">Week of July 31, 2026 &nbsp;&bull;&nbsp; Trending launches across coding tools, agentic platforms, foundation models, consumer AI &amp; automation &nbsp;&bull;&nbsp; Ranked by traction (GitHub, press, adoption, buzz)</div>
-  </header>
+<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 
-  <div class="kpis">
-    <div class="kpi"><div class="n" id="kTotal">19</div><div class="l">launches tracked</div></div>
-    <div class="kpi"><div class="n">63.2K</div><div class="l">top GitHub traction (Graphify)</div></div>
-    <div class="kpi"><div class="n">4</div><div class="l">frontier-model entries this cycle</div></div>
-    <div class="kpi"><div class="n">5</div><div class="l">scope categories</div></div>
-  </div>
+<p class="eyebrow">AI Tracker &middot; Edition 02 &middot; Week of 8 August 2026</p>
 
-  <div class="controls" id="filters"></div>
-  <div class="grid" id="grid"></div>
+<h1>Every Repo This Tracker Followed Grew. Three More Than Doubled in a Fortnight.</h1>
 
-  <div class="section-note">
-    <b>Consistency &amp; methodology notes.</b> Entries are ranked by demand signals (GitHub stars/downloads, press &amp; funding, reported adoption, social buzz). GitHub figures are point-in-time snapshots (mid-to-late July 2026) and move fast &mdash; Graphify alone climbed 58.3K&nbsp;&rarr;&nbsp;63.2K in weeks, itself a velocity signal. Model pricing/dates are as <b>reported</b> by coverage roundups and should be re-checked against vendor pages before quoting. Note the name collision: the enterprise-agent platform <b>Kolibri</b> (Konecta's enterprise agent platform) is distinct from the GitHub repo <b>colibri</b> (a consumer-hardware inference engine) &mdash; both are listed and labeled.
-  </div>
+<p class="standfirst">Edition 01 ranked AI launches by how big they were. Edition 02 re-measured all eleven of them against the GitHub API and ranks them by how fast they are moving instead. Combined stars went from about 266,000 to 407,000 &mdash; up 53% in roughly two weeks &mdash; and not one project went backwards.</p>
 
-  <footer id="foot"></footer>
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-08" itemprop="dateModified">8 August 2026</time> &middot; v2.0.0 &middot; Edition 02 &middot; star counts re-queried from the GitHub API on 8 August 2026, replacing Edition 01&rsquo;s roundup-sourced figures</p>
+
+<div class="stats">
+<div class="stat"><b>11 of 11</b><span>Tracked repositories that gained stars</span></div>
+<div class="stat"><b>+53.2%</b><span>Combined star growth since Edition 01</span></div>
+<div class="stat"><b>104,120</b><span>Graphify, now past 100K</span></div>
+<div class="stat"><b>3</b><span>Projects that more than doubled</span></div>
 </div>
 
-<script>
+<h2>What changed in the method</h2>
+<p class="h2sub">Edition 01 copied its numbers. Edition 02 queried them.</p>
 
-const DATA = [
-  // ---- Coding / Dev Tools ----
-  {name:"Graphify", co:"Graphify (YC-backed, Safi Shamsi)", cat:"Coding/Dev", hot:true,
-   why:"Turns any codebase into a queryable knowledge graph so AI assistants reason over structure, not just files. The reference example for this tracker.",
-   signals:[["63.2K","GitHub stars",1],["1.2M","PyPI downloads",1],["20+","AI-assistant integrations",0]],
-   date:"v0.8.35 &middot; Jun 2026", src:"https://www.augmentcode.com/learn/graphify-63k-stars-knowledge-graphs", srcname:"Augment Code"},
-  {name:"codebase-memory-mcp", co:"DeusData", cat:"Coding/Dev",
-   why:"Knowledge-graph MCP server that gives coding agents persistent memory and cuts token usage by up to 99%.",
-   signals:[["32K","GitHub stars",1],["~99%","token reduction",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"grok-build", co:"xAI", cat:"Coding/Dev",
-   why:"Open-source coding-agent CLI from xAI shipped as a production-grade reference architecture for building your own agent harness.",
-   signals:[["9.3K","GitHub stars",1],["Vendor-backed","open source",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"OfficeCLI", co:"iOfficeAI", cat:"Coding/Dev",
-   why:"Lets AI agents read and edit Word, Excel &amp; PowerPoint files without Office installed &mdash; unblocks document automation.",
-   signals:[["18K","GitHub stars",1]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"openwiki", co:"langchain-ai", cat:"Coding/Dev",
-   why:"Auto-generates AI-friendly documentation for a codebase via CLI &mdash; feeds cleaner context to assistants.",
-   signals:[["11.8K","GitHub stars",1]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"Cursor v3.11", co:"Anysphere", cat:"Coding/Dev",
-   why:"Adds Side Chats (parallel agent conversations), Conversation Search and Cloud Agent Hooks &mdash; keeps Cursor at the front of the IDE-agent race.",
-   signals:[["Press","major coverage",0],["Adoption","widely used IDE",0]],
-   date:"Jul 2026", src:"https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5", srcname:"Developers Digest"},
+<p>Edition 01 promised that &ldquo;GitHub stars are checkable&rdquo; and then took its star counts from a third-party roundup article. That is not the same thing. For this edition every figure in the table below was pulled directly from the <b>GitHub search API on 8 August 2026</b>, which also resolved each project to its actual repository &mdash; useful, because two of the names in Edition 01 are ambiguous and one of them ranks below an unrelated project of the same name.</p>
 
-  // ---- Agentic Platforms ----
-  {name:"Kolibri", co:"Konecta", cat:"Agentic", hot:true,
-   why:"Enterprise agentic platform to end 'pilot purgatory' &mdash; use cases are ~80% pre-built/tested/secured, 20% tailored, with audit logging &amp; ISO 42001 governance.",
-   signals:[["Jun 16","2026 launch",0],["Press","launch coverage",0],["Salesforce+CrewAI","integrations",0]],
-   date:"Jun 16, 2026", src:"https://www.cmswire.com/customer-experience/konecta-debuts-kolibri-to-end-ai-pilot-purgatory/", srcname:"CMSWire"},
-  {name:"Ruflo", co:"Reuven Cohen (ruv)", cat:"Agentic", hot:true,
-   why:"Self-improving multi-agent orchestration engine for Claude Code &mdash; deploys and coordinates clusters of collaborating agents.",
-   signals:[["Social buzz","heavy dev following",0],["Open source","Claude Code layer",0]],
-   date:"2026", src:"https://medium.com/data-science-in-your-pocket/ruflo-multi-agent-ai-orchestration-for-claude-code-e5343c33f062", srcname:"Data Science in Your Pocket"},
-  {name:"Strix", co:"usestrix", cat:"Agentic",
-   why:"AI penetration-testing agent that runs dynamic vulnerability tests and generates PoC exploits &mdash; fastest-rising security agent.",
-   signals:[["42K","GitHub stars",1]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"Vibe-Trading", co:"HKUDS", cat:"Agentic",
-   why:"Converts natural language into backtests; ships 452 pre-built alpha factors. A vertical agent showing how domain packs drive adoption.",
-   signals:[["24K","GitHub stars",1],["452","alpha factors",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
+<div class="warn"><b>The growth percentages are softer than they look, and it matters.</b> Edition 01&rsquo;s baselines were rounded to two or three significant figures (&ldquo;32K&rdquo;, &ldquo;18K&rdquo;, &ldquo;10K&rdquo;) and dated only as &ldquo;mid-to-late July 2026&rdquo;. So both ends of every calculation are approximate: the starting number is rounded and the interval is somewhere between two and four weeks. <b>Read the ordering and the orders of magnitude, not the decimal place.</b> From Edition 03 onward the baseline will be an exact API figure with an exact date, and the growth rates will mean what they say.</div>
 
-  // ---- Foundation Models ----
-  {name:"Claude Opus 5", co:"Anthropic", cat:"Models", hot:true,
-   why:"Near-Fable-5 intelligence at roughly half the API price ($5/$25 per MTok) &mdash; reset the price/performance frontier for agentic coding.",
-   signals:[["Jul 24","2026",0],["$5 / $25","per MTok (reported)",0]],
-   date:"Jul 24, 2026", src:"https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5", srcname:"Developers Digest"},
-  {name:"GPT-5.6 (Sol/Terra/Luna)", co:"OpenAI", cat:"Models",
-   why:"Three-tier model family (top-end Sol to budget Luna) reached GA via Codex &mdash; tiering by cost is the new default packaging.",
-   signals:[["Jul 9","2026 GA",0],["3 tiers","Sol/Terra/Luna",0]],
-   date:"Jul 9, 2026", src:"https://www.developersdigest.tech/blog/best-ai-coding-tools-june-2026-post-fable5", srcname:"Developers Digest"},
-  {name:"Grok 4.5", co:"xAI", cat:"Models",
-   why:"Real-time data access with fast conversational responses &mdash; keeps xAI competitive in the frontier cluster.",
-   signals:[["Jul 8","2026",0]],
-   date:"Jul 8, 2026", src:"https://www.rauljitechnologies.com/blog/july-2026-ai-model-wave/", srcname:"Raulji Technologies"},
-  {name:"Open-weight wave", co:"GLM-5.2 &middot; DeepSeek V4 &middot; Kimi K2.7 &middot; MiniMax M3 &middot; Qwen 3.6", cat:"Models",
-   why:"Five open-weight frontier models landed in the same window at competitive quality &mdash; open models are closing the gap to closed labs.",
-   signals:[["5 models","same cycle",0],["Open weights","self-hostable",0]],
-   date:"Jun&ndash;Jul 2026", src:"https://www.rauljitechnologies.com/blog/july-2026-ai-model-wave/", srcname:"Raulji Technologies"},
+<h2>Ranked by velocity</h2>
+<p class="h2sub">Because in a two-week window, direction is the information.</p>
 
-  // ---- Consumer AI ----
-  {name:"Klon AI", co:"Cheer Holding", cat:"Consumer",
-   why:"Global consumer launch of an AI portrait &amp; digital-identity platform &mdash; a bet that personal AI avatars go mainstream.",
-   signals:[["Jul 14","2026 global launch",0],["Press","GlobeNewswire",0]],
-   date:"Jul 14, 2026", src:"https://www.globenewswire.com/news-release/2026/07/14/3326783/0/en/klon-ai-global-launch-cheer-holding-rolls-out-consumer-ai-portrait-and-digital-identity-platform.html", srcname:"GlobeNewswire"},
-  {name:"colibri", co:"JustVugg", cat:"Consumer",
-   why:"Runs GLM-5.2 (744B-param MoE) on consumer hardware in ~25GB RAM &mdash; frontier open models on a laptop. (Distinct from Konecta's Kolibri.)",
-   signals:[["14.7K","GitHub stars",1],["~25GB","RAM to run 744B MoE",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-
-  // ---- Automation / repetitive-task tools ----
-  {name:"ai-job-search", co:"MadsLorentzen", cat:"Automation",
-   why:"Automates job applications end-to-end with Claude Code &mdash; tailors resumes and cover letters. Poster child for 'agent does my chores'.",
-   signals:[["23K","GitHub stars",1]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"OmniRoute", co:"diegosouzapw", cat:"Automation",
-   why:"Single endpoint routing across 231+ LLM providers with token compression &mdash; kills per-provider integration busywork.",
-   signals:[["17.9K","GitHub stars",1],["231+","providers routed",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-  {name:"hallmark", co:"Nutlope", cat:"Automation",
-   why:"Quality gate for AI-generated UI with 57 'slop-test' validators &mdash; automates the review step that agents usually skip.",
-   signals:[["10K","GitHub stars",1],["57","slop-test validators",0]],
-   date:"Jul 2026", src:"https://www.analyticsvidhya.com/blog/2026/07/trending-ai-github-repositories/", srcname:"Analytics Vidhya"},
-];
-
-const CATS = ["All","Coding/Dev","Agentic","Models","Consumer","Automation"];
-const CATLABEL = {"Coding/Dev":"Coding / Dev Tools","Agentic":"Agentic Platforms","Models":"Foundation Models","Consumer":"Consumer AI","Automation":"Automation"};
-let active = "All";
-
-function render(){
-  const grid = document.getElementById('grid');
-  const items = DATA.filter(d => active==="All" || d.cat===active);
-  grid.innerHTML = items.map(d => `
-    <div class="card ${d.hot?'hot':''}">
-      <div class="chead">
-        <div>
-          <div class="cname">${d.hot?'<span class="hotdot"></span>':''}${d.name}</div>
-          <div class="cco">${d.co}</div>
-        </div>
-        <span class="tag">${CATLABEL[d.cat]}</span>
-      </div>
-      <div class="why">${d.why}</div>
-      <div class="signals">
-        ${d.signals.map(s=>`<span class="sig ${s[2]?'g':''}"><b>${s[0]}</b> ${s[1]}</span>`).join('')}
-      </div>
-      <div class="foot"><span>${d.date}</span><a href="${d.src}" target="_blank" rel="noopener">${d.srcname} &rarr;</a></div>
-    </div>`).join('');
-  document.getElementById('kTotal').textContent = DATA.length;
-}
-
-function renderFilters(){
-  const f = document.getElementById('filters');
-  f.innerHTML = CATS.map(c=>{
-    const n = c==="All"?DATA.length:DATA.filter(d=>d.cat===c).length;
-    return `<button class="fbtn ${c===active?'active':''}" data-c="${c}">${c==="All"?"All":CATLABEL[c]} <span style="opacity:.6">${n}</span></button>`;
-  }).join('');
-  f.querySelectorAll('.fbtn').forEach(b=>b.onclick=()=>{active=b.dataset.c;renderFilters();render();});
-}
-
-document.getElementById('foot').innerHTML =
-  'Generated ' + 'Jul 31, 2026' + ' &middot; Edition 01 &middot; A recurring digest. Each edition re-scans GitHub trending, launch coverage &amp; funding news. Figures are point-in-time and should be verified against primary sources before decisions.';
-
-renderFilters();
-render();
-
-</script>
-<div class="disc-override" style="margin-top:24px;padding:14px 16px;border-top:1px solid #ddd;font-size:.82em;color:#444;background:#f8f8f6;line-height:1.5"><strong>Disclaimer:</strong> This analysis is based on publicly available government and market data cited in the article above. It is provided for informational and research purposes only and does not constitute investment, legal, or policy advice. Figures may be revised as source data is updated — verify against the original source before relying on them for decisions.<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">GitHub star movement since Edition 01</p>
+<p class="exsub">Ranked by growth rate. Edition 01 figures as published; current figures from the GitHub API on 8 August 2026.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Project</th><th>Repository</th><th>Edition 01, stars</th><th>8 Aug 2026, stars</th><th>Added</th><th>Growth, %</th></tr></thead>
+<tbody>
+<tr><td>grok-build</td><td>xai-org/grok-build</td><td>9,300</td><td>24,421</td><td>+15,121</td><td>+162.6</td></tr>
+<tr><td>OmniRoute</td><td>diegosouzapw/OmniRoute</td><td>17,900</td><td>42,798</td><td>+24,898</td><td>+139.1</td></tr>
+<tr><td>hallmark</td><td>Nutlope/hallmark</td><td>10,000</td><td>22,629</td><td>+12,629</td><td>+126.3</td></tr>
+<tr><td>Graphify</td><td>Graphify-Labs/graphify</td><td>63,200</td><td>104,120</td><td>+40,920</td><td>+64.7</td></tr>
+<tr><td>colibri</td><td>JustVugg/colibri</td><td>14,700</td><td>23,235</td><td>+8,535</td><td>+58.1</td></tr>
+<tr><td>OfficeCLI</td><td>iOfficeAI/OfficeCLI</td><td>18,000</td><td>26,611</td><td>+8,611</td><td>+47.8</td></tr>
+<tr><td>ai-job-search</td><td>MadsLorentzen/ai-job-search</td><td>23,000</td><td>30,745</td><td>+7,745</td><td>+33.7</td></tr>
+<tr><td>Vibe-Trading</td><td>HKUDS/Vibe-Trading</td><td>24,000</td><td>30,285</td><td>+6,285</td><td>+26.2</td></tr>
+<tr><td>openwiki</td><td>langchain-ai/openwiki</td><td>11,800</td><td>14,591</td><td>+2,791</td><td>+23.7</td></tr>
+<tr><td>codebase-memory-mcp</td><td>DeusData/codebase-memory-mcp</td><td>32,000</td><td>38,105</td><td>+6,105</td><td>+19.1</td></tr>
+<tr><td>Strix</td><td>usestrix/strix</td><td>42,000</td><td>49,731</td><td>+7,731</td><td>+18.4</td></tr>
+<tr><td><b>All eleven</b></td><td>&mdash;</td><td><b>265,900</b></td><td><b>407,271</b></td><td><b>+141,371</b></td><td><b>+53.2</b></td></tr>
+</tbody>
+</table>
 </div>
-<style>:root{--surface:#fff!important;--surface-alt:#f6f7f9!important;--bg:#fff!important;--bg-alt:#f6f7f9!important;--panel:#fff!important;--panel2:#f6f7f9!important;--text:#000!important;--text-mut:#333!important;--muted:#333!important;--ink:#000!important;--ink-soft:#333!important;--line:#e2e6ec!important;--border:#e2e6ec!important;--chip:#f0f2f5!important;}</style>
+<p class="exsrc">GitHub search API, <code>search/repositories</code> sorted by stars, queried 8 August 2026. Edition 01 figures are reproduced as published in that edition, which attributed them to third-party roundups; they are rounded and dated only to mid-to-late July 2026. Repository names were resolved by the same query &mdash; note that <code>usestrix/strix</code> and <code>JustVugg/colibri</code> each rank above unrelated projects sharing their name, and Edition 01&rsquo;s warning about the Kolibri/colibri collision still applies.</p>
+</div>
+
+<h2>What the ordering says</h2>
+<p class="h2sub">The fastest movers are not the biggest projects.</p>
+
+<p><b>Vendor-backed tooling is compounding hardest.</b> xAI&rsquo;s <i>grok-build</i> more than doubled and a half. It was the smallest repository on the Edition 01 list at 9,300 stars and is now larger than seven of the others. A coding-agent reference architecture published by a frontier lab appears to accumulate attention faster than an independent tool solving the same problem.</p>
+
+<p><b>Plumbing is outgrowing products.</b> Three of the top five &mdash; <i>OmniRoute</i> (provider routing), <i>hallmark</i> (output validation) and <i>codebase-memory-mcp</i> (agent memory) &mdash; are infrastructure that sits between a model and an application. None of them is a model or a chat product. That is the layer where the star velocity is.</p>
+
+<p><b>Graphify crossed 100,000</b>, up from 63,200, and remains the largest project this tracker follows. Its growth rate has slowed relative to the smaller entrants, which is what usually happens at that size and is not a negative signal.</p>
+
+<div class="note"><b>What a star is, and is not.</b> A GitHub star is a bookmark. It measures attention, and attention is what this tracker set out to rank. It is not a download, not a deployment and not revenue &mdash; a repository can gain 20,000 stars and be used in production by nobody. Where a project also publishes package downloads, that is the better number, and future editions will prefer it where it exists.</div>
+
+<h2>New this cycle, and explicitly unverified</h2>
+<p class="h2sub">The model releases could not be checked to the same standard.</p>
+
+<p>Several frontier and open-weight releases were reported during this cycle, including <b>Qwen3.8 Max</b> (Alibaba, reported 2 August 2026), <b>Muse Spark 1.2</b> (Meta, reported 5 August 2026), <b>DeepSeek-V4-Flash</b> and further <b>GPT-5.6</b> updates. These are listed as pointers only.</p>
+
+<div class="warn"><b>None of the model releases above was verified against a vendor source for this edition.</b> They come from model-tracking aggregators and startup newsletters, several of which disagree with each other on dates and on whether a given entry is a new model, a point update or a marketplace listing. A model release is not a checkable quantity in the way a star count is: there is no API to query, and the primary source is a vendor blog post that has to be read. <b>Do not cite the dates above.</b> Treat them as a list of things to go and confirm. The GitHub table is this edition&rsquo;s evidence; this section is its to-do list.</div>
+
+<h2>Carried forward</h2>
+<p class="h2sub">Entries from Edition 01 with no measurable movement.</p>
+
+<p>Eight Edition 01 entries carry no GitHub figure and so cannot be re-measured on this edition&rsquo;s basis: <b>Cursor v3.11</b> (Anysphere), <b>Kolibri</b> (Konecta), <b>Ruflo</b>, <b>Claude Opus 5</b> (Anthropic), <b>GPT-5.6</b> (OpenAI), <b>Grok 4.5</b> (xAI), the <b>open-weight wave</b> (GLM-5.2, DeepSeek V4 and others) and <b>Klon AI</b> (Cheer Holding). They remain in scope. Their Edition 01 signals were press coverage, funding and reported adoption, none of which this edition attempted to re-measure, and a ranking that mixes an API-verified star count with &ldquo;major coverage&rdquo; is not a ranking.</p>
+
+<p>The five scope categories are unchanged &mdash; coding and developer tools, agentic platforms, foundation models, consumer AI, automation &mdash; so edition-to-edition comparison holds.</p>
+
+<div class="note"><b>What this edition does not establish.</b> Adoption, revenue or production use of anything listed. Whether star growth reflects organic interest or promotion. Any model release date. And the precise growth interval, because Edition 01 dated its snapshot to a three-week range rather than a day &mdash; the single change that would most improve Edition 03.</div>
+<p class="sources"><b>Sources.</b> Star counts &mdash; <b>GitHub search API</b> (<code>search/repositories</code>, sorted by stars), queried 8 August 2026; this also resolved each project name to its repository. Edition 01 baselines are reproduced from <a href="https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html">Edition 01 of this tracker</a> as published there, where they were attributed to third-party roundups and rounded. Model releases named in the &ldquo;new this cycle&rdquo; section come from model-tracking aggregators and are flagged in the text as unverified; no vendor source was checked for them and no date from that section should be cited. This edition uses no commercial data vendor and no paid dataset.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+
+</div>

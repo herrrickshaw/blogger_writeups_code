@@ -187,6 +187,28 @@ def main():
         A(f'<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">{E(name)}</a>')
     A('</div>')
 
+    # ---- AI tracker ---------------------------------------------------------
+    # A standing serial, not a one-off analysis. It sits in its own section
+    # because a reader looking for "the latest edition" should not have to find
+    # it among 96 dated articles, and because each new edition replaces the last
+    # at the same URL rather than adding a row to the list.
+    trk = next((p for s_, p in posts.items() if "ai-high-demand-launch-tracker" in s_), None)
+    if trk:
+        A('<h2>AI Tracker</h2>')
+        A('<p class="h2sub">A standing serial. Newest edition at a fixed address.</p>')
+        A('<div class="serial">')
+        A(f'<p class="ptitle"><a href="{E(trk["url"])}">{E(trk["title"])}</a></p>')
+        A('<p class="pmeta">Updated in place each edition &mdash; the link above always '
+          'points at the current one.</p>')
+        A('<p>Ranks AI launches across five fixed categories &mdash; coding and developer '
+          'tools, agentic platforms, foundation models, consumer AI, automation &mdash; by '
+          'traction that can be checked. Star counts come from the GitHub API rather than '
+          'from roundups, and anything that cannot be verified to that standard is labelled '
+          'as unverified rather than ranked alongside what can.</p>')
+        A(f'<p class="prel"><span>Hub</span> <a href="https://masaladeutsch.blogspot.com/'
+          f'search/label/AI%20Tracker">All AI Tracker editions</a></p>')
+        A('</div>')
+
     # ---- geography --------------------------------------------------------
     A('<h2>By geography</h2>')
     A('<p class="h2sub">The country or state a piece is actually about, not every place it mentions.</p>')
@@ -276,6 +298,7 @@ def main():
  font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0a4c6a;
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
 .artx .geoh span{color:#8a8a8a;font-weight:600}
+.artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
 .artx .allposts{margin:1.2rem 0 0}
 .artx .pitem{padding:.85rem 0;border-top:1px solid #ececec}
 .artx .ptitle{margin:0;font-size:1.02rem;line-height:1.35;max-width:46rem}

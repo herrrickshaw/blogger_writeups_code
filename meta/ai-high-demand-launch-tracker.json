@@ -1,15 +1,13 @@
 {
   "id": "179632962556562936",
-  "title": "AI High-Demand Launch Tracker",
+  "title": "AI Tracker Edition 02: Every Repo We Followed Grew, Three More Than Doubled",
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-08T11:58:41.092+05:30",
-  "labels": [
-    "AI Tracker"
-  ],
-  "bytes": 16128,
-  "sha256": "2e268c485519d0fff7c1eef9989f74293aaae70ec9d530cb4f25956b4ddd9b98",
+  "updated": "2026-08-08T13:09:08.976+05:30",
+  "labels": [],
+  "bytes": 15558,
+  "sha256": "9c98aa0637df2e328856a341c61d81f9b6a87e50e11efe61998edbcec55656c5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -17,11 +15,11 @@
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
-    "revision_line": false,
+    "revision_line": true,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -60,6 +58,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T13:10:12+05:30",
+      "level": "major",
+      "reason": "figures changed (+73/-4 distinct numbers)",
+      "bytes": [
+        16128,
+        15558
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "revision_line": [
+          false,
+          true
+        ]
+      },
+      "note": "AI tracker Edition 02"
     }
   ]
 }
