@@ -94,6 +94,7 @@ def main():
         posts = posts[: args.sample]
 
     problems = []
+    homepage_throttled = False
 
     # 1. The homepage must render at least one post, not just the chrome.
     try:
@@ -110,6 +111,15 @@ def main():
                 f"homepage rendered {cards} post cards (expected at least "
                 f"{args.min_homepage_cards}) — usually the per-index byte budget, "
                 f"blown by an oversized post")
+    except urllib.error.HTTPError as e:
+        if e.code in THROTTLE_CODES:
+            # Same rule as for posts: being rate-limited tells us nothing about
+            # whether the homepage renders. Do not call it an outage.
+            homepage_throttled = True
+            print(f"homepage      RATE-LIMITED {e.code} — inconclusive")
+        else:
+            problems.append(f"homepage returned {e.code}")
+            print(f"homepage      {e.code}")
     except Exception as e:
         problems.append(f"homepage unreachable: {type(e).__name__}")
         print(f"homepage      UNREACHABLE {type(e).__name__}")
@@ -131,6 +141,8 @@ def main():
           + (f"  ({len(throttled)} inconclusive — rate-limited)" if throttled else ""))
 
     print()
+    if homepage_throttled:
+        print("RATE-LIMITED: homepage — inconclusive, not a site fault.")
     if throttled:
         print(f"RATE-LIMITED {len(throttled)} — not checked, not a site fault. "
               f"Lower --workers or raise --pace, or use --sample.")
