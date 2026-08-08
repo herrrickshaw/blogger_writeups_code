@@ -2134,3 +2134,16 @@ Add GOBARdhan primary-source detail (PM India press release) to biogas-rocket-fu
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 26,530 → 26,649 bytes (+119)
+
+## 2026-08-09T04:31:37+05:30 — 115 posts live
+
+Add IS 16087 vs rocket-grade methane comparison table, membrane-based biogas upgrading, cryogenic flash separation, and cold-box/BAHX liquefaction detail to biogas-rocket-fuel article
+
+
+**Versions**
+
+- `cow-dung-already-flew-rocket-engine` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+18/-0 distinct numbers)
+
+**Changed**
+
+- `cow-dung-already-flew-rocket-engine` — 19,584 → 28,762 bytes (+9,178)
