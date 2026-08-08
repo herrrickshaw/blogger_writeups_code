@@ -8,6 +8,7 @@ See docs/BLOGGER_API_RUNBOOK.md for the one-time OAuth setup.
     python3 tools/blogger_api.py whoami
     python3 tools/blogger_api.py get    --slug <slug>
     python3 tools/blogger_api.py update --slug <slug> --file <body.html> [--dry-run]
+    python3 tools/blogger_api.py update --id <post-id> --file <body.html>
     python3 tools/blogger_api.py insert --file <body.html> --title "..." [--draft]
     python3 tools/blogger_api.py bulk   --manifest <fixes/manifest.json> [--limit N]
 
@@ -267,9 +268,15 @@ def do_update(post_id, url, title, body, dry_run=False):
 
 def cmd_update(args):
     body = pathlib.Path(args.file).read_text(encoding="utf-8")
-    p = find_post(args.slug)
+    if args.id:
+        # Two live posts can share a slug — Blogger allows it, and the archive
+        # then stores one of them under a "<slug>--<id>" filename that matches
+        # no live URL. Slug lookup cannot reach that post; its id can.
+        p = api(f"/blogs/{BLOG_ID}/posts/{args.id}")
+    else:
+        p = find_post(args.slug)
     title = args.title or p["title"]
-    print(f"{args.slug}  id={p['id']}")
+    print(f"{args.slug or args.id}  id={p['id']}")
     if args.title:
         print(f"  title: {p['title']!r}\n      -> {args.title!r}")
     try:
@@ -388,7 +395,8 @@ def main():
     g = sub.add_parser("get"); g.add_argument("--slug", required=True)
     g.add_argument("--out"); g.set_defaults(fn=cmd_get)
 
-    u = sub.add_parser("update"); u.add_argument("--slug", required=True)
+    u = sub.add_parser("update"); u.add_argument("--slug")
+    u.add_argument("--id", help="post id; use when two live posts share a slug")
     u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
     u.add_argument("--title", help="also change the post title (the URL slug is fixed and will not change)")
     u.set_defaults(fn=cmd_update)

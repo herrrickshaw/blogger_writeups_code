@@ -1087,3 +1087,16 @@ gs-table-v1 rollout; AI Tracker index section
 - `the-price-of-grain-msp-msv-and` — 28,153 → 29,419 bytes (+1,266)
 - `the-fearless-girls-charter-indias` — 15,676 → 16,949 bytes (+1,273)
 - `tech-for-business-so-2019-tech-as` — 26,898 → 28,171 bytes (+1,273)
+
+## 2026-08-08T09:35:35+05:30 — 95 posts live
+
+verify pull-rebase path
+
+
+**Versions**
+
+- `top-15-chemicals-for-import--4751284523575450171` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `top-15-chemicals-for-import--4751284523575450171` — 14,369 → 15,642 bytes (+1,273)

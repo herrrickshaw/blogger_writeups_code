@@ -438,6 +438,31 @@ def main():
     print(r.stdout.strip() or r.stderr.strip())
 
     if args.push:
+        # The scheduled GitHub Action snapshots the same blog on its own timer.
+        # When a local run and a CI run capture the same live state, a straight
+        # push is rejected and rebasing conflicts on every meta/*.json at once —
+        # ~70 files in the first real collision. Rebase before pushing so the
+        # common case resolves itself.
+        f = subprocess.run(["git", "fetch", "-q", "origin"], cwd=ROOT,
+                           capture_output=True, text=True)
+        behind = subprocess.run(
+            ["git", "rev-list", "--count", "HEAD..origin/HEAD"],
+            cwd=ROOT, capture_output=True, text=True).stdout.strip()
+        if behind and behind != "0":
+            print(f"remote moved on by {behind} commit(s) — rebasing first")
+            r = subprocess.run(["git", "pull", "--rebase", "origin", "main"],
+                               cwd=ROOT, capture_output=True, text=True)
+            if r.returncode != 0:
+                # Both sides snapshotted the same live blog, so the conflict is
+                # not a disagreement about content. Do not guess: abort cleanly
+                # and tell the operator the one-line recovery.
+                subprocess.run(["git", "rebase", "--abort"], cwd=ROOT,
+                               capture_output=True, text=True)
+                print("rebase conflicted and was aborted — nothing was pushed.\n"
+                      "Both commits describe the same live blog, so the fix is\n"
+                      "  git reset --hard origin/main && python3 tools/snapshot.py --push\n"
+                      "which re-captures from the feed on top of the remote.")
+                return
         p = subprocess.run(
             ["git", "push", "origin", "HEAD"], cwd=ROOT, capture_output=True, text=True
         )
