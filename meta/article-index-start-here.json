@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-08T09:49:30.387+05:30",
+  "updated": "2026-08-08T10:27:25.731+05:30",
   "labels": [],
-  "bytes": 31952,
-  "sha256": "dbd027b0d7e0519dfe202437002599bb3263422b62e1e7357ca5c404e7150d3b",
+  "bytes": 32187,
+  "sha256": "3e1d9f51e4a0d574fbdc7fa3961a0add2d466515842836f3916b7a891301bf2e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.0",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -118,6 +118,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "index piece count 73 -> 92"
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-08-08T10:27:35+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-1 distinct numbers)",
+      "bytes": [
+        31952,
+        32187
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "petroleum trade pairings published; contrast fixed"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-08T10:16:42+05:30",
-  "count": 95,
+  "snapshot": "2026-08-08T10:27:35+05:30",
+  "count": 96,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -125,6 +125,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "gs-table-v1 rollout; AI Tracker index section"
+        }
+      ]
+    },
+    "1367106299160743452": {
+      "id": "1367106299160743452",
+      "title": "Petroleum Trade Pairings and the US Crude Storage Picture",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
+      "slug": "petroleum-trade-pairings-and-us-crude",
+      "published": "2026-08-08T10:22:11.934+05:30",
+      "updated": "2026-08-08T10:25:31.146+05:30",
+      "labels": [],
+      "bytes": 137740,
+      "sha256": "9608ac38c3145fa5767474712eb45526ef615c7d45b173cd196ebf820c49fc60",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-08T10:27:35+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "petroleum trade pairings published; contrast fixed"
         }
       ]
     },
@@ -3598,10 +3630,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.442+05:30",
-      "updated": "2026-08-08T09:49:30.387+05:30",
+      "updated": "2026-08-08T10:27:25.731+05:30",
       "labels": [],
-      "bytes": 31952,
-      "sha256": "dbd027b0d7e0519dfe202437002599bb3263422b62e1e7357ca5c404e7150d3b",
+      "bytes": 32187,
+      "sha256": "3e1d9f51e4a0d574fbdc7fa3961a0add2d466515842836f3916b7a891301bf2e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3613,7 +3645,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.0",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3712,6 +3744,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "index piece count 73 -> 92"
+        },
+        {
+          "version": "7.0.0",
+          "date": "2026-08-08T10:27:35+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-1 distinct numbers)",
+          "bytes": [
+            31952,
+            32187
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "petroleum trade pairings published; contrast fixed"
         }
       ]
     },

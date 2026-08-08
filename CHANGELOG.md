@@ -1219,3 +1219,20 @@ EV and green-debt posts cleared; units pass complete
 
 - `raising-green-debt-globally-rec-euroyen` — 49,825 → 49,755 bytes (-70)
 - `indias-ev-market-single-digit` — 32,170 → 32,116 bytes (-54)
+
+## 2026-08-08T10:27:35+05:30 — 96 posts live
+
+petroleum trade pairings published; contrast fixed
+
+
+**Added**
+
+- `petroleum-trade-pairings-and-us-crude` **v1.0.0** — Petroleum Trade Pairings and the US Crude Storage Picture (137,740 bytes)
+
+**Versions**
+
+- `article-index-start-here` **6.0.0 → 7.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 31,952 → 32,187 bytes (+235)

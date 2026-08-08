@@ -1413,3 +1413,32 @@ and are, on the earlier classification, mostly the ~18 genuinely mixed columns �
 key-value lists, deliberate magnitude mixes, and units inside descriptive labels.
 Driving that to zero would mean rescaling published figures, which is the one
 thing this pass consistently refused to do.
+
+## 2026-08-08 — petroleum dashboard published, and a dark-theme trap re-run
+
+New post from `petroleum_trade_pairings_dashboard.html` — 23,000 words, 9 tables,
+8 inline SVGs, **no JavaScript**, sources Comtrade / EIA / DGCI&S TRADESTAT.
+Wrapped in the house shell, one unit column hoisted (`Named destinations, %`),
+and published.
+
+**It went out with 89 contrast failures and I had to fix it live.** The dashboard
+is a **dark** design — surfaces at `rgb(30,27,22)` — and every house element I
+bolted on (revision line `#595959`, disclaimer `#555`, index link `#0b5394`) is
+styled for the blog's light theme. Dark-on-dark at 2.4–2.7:1. This is precisely
+the bug the light-lock work eliminated across the archive, reintroduced by
+importing a dark artefact and not checking the surface it landed on.
+
+**Check the background before styling the foreground.** The source file even
+declared `--bg:#FBF8F…` near the top, which is what I glanced at; the dark
+values win further down. A declared variable is not the computed surface.
+
+Fixed by raising `--ink-3` from `#8A7F70` (4.37:1, just under AA) to `#C2B6A2`
+and recolouring the house elements for a dark surface. **0 failures across 1,412
+nodes**, 8 SVGs rendering, no sideways scroll.
+
+**My measuring function was also wrong**, and it inflated the count. It returned
+the first non-transparent background it found without compositing alpha, so
+`rgba(79,125,74,0.16)` over near-black was scored as if it were pale green —
+several "failures" in the 89 and 59 counts were artifacts. The corrected version
+composites the stack down to an opaque colour. **A contrast checker that does not
+composite alpha will invent failures on any translucent chip.**
