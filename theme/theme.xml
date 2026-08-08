@@ -261,7 +261,7 @@ a:hover{color:var(--accent-ink)}
       </b:widget-settings>
       <b:includable id='main'>
 
-        <b:if cond='data:blog.pageType == &quot;item&quot;'>
+        <b:if cond='data:blog.pageType == &quot;item&quot; or data:blog.pageType == &quot;static_page&quot;'>
           <!-- ============ SINGLE POST: full body ============ -->
           <b:loop values='data:posts' var='post'>
             <!-- Structured-data source values for the JSON-LD block near

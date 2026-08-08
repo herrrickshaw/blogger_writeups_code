@@ -2250,3 +2250,28 @@ draft.blogger.com remained permission-denied throughout — five probes across
 three tab groups — and the Blogger API has no gadget endpoint (seven endpoints
 tested earlier today). Anything that must stay current now lives where the API
 or the feeds can reach it.
+
+## 2026-08-08 — Header topics: found the real wall, staged the real fix
+
+Asked to put the topics-and-index list in the site header. The header nav is a
+Layout section; its PageList gadget was removed along with the HTML gadgets, so
+the nav is empty, and gadgets have no API.
+
+**Tried the one API-writable thing a header can show: a Blogger Page.** Created
+"Topics & Index" carrying the feed-driven accordion — POST /pages works and the
+stored content was byte-perfect. The rendered page showed none of it. **This
+theme's Blog widget renders only `pageType == "item"`; anything else falls into
+the index-snippet branch.** A static Page renders as a list of recent-post
+cards with its own body silently dropped. Deleted the page (DELETE /pages, 204)
+rather than leave a live URL that looks like the homepage — a broken navigation
+target is worse than none.
+
+**Staged in theme.xml, one line:** the item branch now also accepts
+`static_page`, so Pages render their bodies. Once the theme can be applied, the
+sequence is: apply theme → recreate the page (content is emit_accordion, two
+minutes) → add a Pages gadget to the empty nav section in Layout.
+
+**Until then the header entry is a 30-second Layout action** (the same screen
+the user already has open): nav → Add a Gadget → **Link List** → add
+"Topics & Index" → the article-index URL. A Link List needs no Page resource
+and cannot render wrongly, because it renders nothing but an anchor.
