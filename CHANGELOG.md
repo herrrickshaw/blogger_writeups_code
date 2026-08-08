@@ -2117,3 +2117,20 @@ Fixed Wings of Fire (Kalam) shelf entry — cover URL host mismatch (images-na.s
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 25,844 → 26,530 bytes (+686)
+
+## 2026-08-09T04:25:33+05:30 — 115 posts live
+
+Add GOBARdhan primary-source detail (PM India press release) to biogas-rocket-fuel article: exact plant count, six growth engines, ₹2,110/MMBTU pricing, capital assistance, named feedstocks
+
+
+**Added**
+
+- `cow-dung-already-flew-rocket-engine` **v1.0.0** — Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One. (19,584 bytes)
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **4.0.0 → 4.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 26,530 → 26,649 bytes (+119)
