@@ -1122,3 +1122,37 @@ refuses the file if any of it moved.
 at **18.9:1**, 1px borders, four tables all self-scrolling, page not scrolling
 sideways, and `FY30 Substitution, %` over `-30 to -40` where the cells had read
 `-30% to -40%`.
+
+## 2026-08-08 — the last post, and a guarded push
+
+**`top-15-chemicals-for-import--4751284523575450171` is fixed.** It was the one
+post the table rollout could not reach, and the cause is the same-slug collision
+recorded earlier: two live posts share the slug `top-15-chemicals-for-import`,
+so the archive stores one under a `--<id>` filename that matches no live URL and
+`find_post()` searches by slug. `blogger_api.py update` now takes `--id` as an
+alternative to `--slug`. All 94 posts that have tables now carry `gs-table-v1`;
+the index page is the only one without, and it has none.
+
+**`snapshot.py --push` now rebases first.** The scheduled Action snapshots the
+same blog on its own timer, and when a local run and a CI run capture the same
+state a straight push is rejected — then rebasing conflicts on every
+`meta/*.json` at once, seventy files in the first real collision. It now fetches,
+counts how far behind the branch upstream is, and pulls with rebase before
+pushing. If the rebase conflicts it **aborts cleanly and prints the recovery**
+rather than leaving a half-rebased tree:
+
+    git reset --hard origin/<branch> && python3 tools/snapshot.py --push
+
+which re-captures from the feed on top of the remote. That is the right recovery
+because both commits describe the same live blog — the conflict is never a
+disagreement about content, only about which snapshot recorded it.
+
+**Not fully verified, and worth saying so.** The behind-count is confirmed
+correct — with the branch upstream it returns 1 when the remote has moved. But
+the rebase branch itself has not run end-to-end: reaching it needs the blog to
+have changed *and* the remote to have moved in the same run, and the no-op guard
+returns before the push block whenever the blog is unchanged, so the obvious test
+cannot get there. I also blamed an unset `origin/HEAD` for the first failed
+attempt; that was wrong, `origin/HEAD` resolves fine here. Using the branch
+upstream is still the more correct ref, but the real reason that attempt did not
+fire is not established. The next genuine collision is the test.
