@@ -1753,3 +1753,12 @@ MDR post: host-share ATM economics from franchise-market terms
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 22,539 → 24,690 bytes (+2,151)
+
+## 2026-08-08T18:16:52+05:30 — 103 posts live
+
+Shop page + shelf at 9 items
+
+
+**Added**
+
+- `the-masala-deutsch-shop-books-things` **v1.0.0** — The Masala Deutsch Shop — Books & Things From the Articles (18,376 bytes)

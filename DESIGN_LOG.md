@@ -2475,3 +2475,23 @@ SiteStripe links:
 One near-mistake recorded: the "I Do What I Do" ASIN (B0BXD7LG75) is a specific
 third-party paperback listing, not the canonical edition — flagged to the user
 as the one link that could die of stock-out.
+
+## 2026-08-08 — The Shop: one list, three surfaces
+
+The affiliate layer finished the day as a system rather than a pile of links:
+
+- **One source of truth** — the BOOKS + SHELF arrays in accordion.js. The
+  per-post reading blocks render from it at view time; the new Shop page is
+  GENERATED from it (the generator parses accordion.js), so the shop and the
+  shelf cannot disagree; and the shelf heading on every post links to the shop.
+- **The Shop is a Blogger post labelled "Shop"** — which means the label-feed
+  accordion discovers it automatically and every page on the site now carries a
+  "Shop" topic with one entry. The shopping zone is reachable from everywhere
+  without touching the theme.
+- Nine shelf items (Siddhartha, moka pot, filter coffee, ABC milk mix,
+  spirulina, Gladwell, nannari sharbat, Dip/Mindset set, orange burfee), ten
+  topic books, 19 tagged links on the shop page, images from Amazon's own CDN,
+  disclosure top and bottom, an explicit no-freebies editorial note, and no
+  prices quoted anywhere — stale price claims violate Associates rules.
+- Every ASIN on the site remains user-supplied; the model has still never
+  invented one.
