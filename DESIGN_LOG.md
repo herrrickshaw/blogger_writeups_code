@@ -1483,3 +1483,27 @@ because it was built from the older per-post CSS template rather than the
 standard. Caught by grepping the published page for the marker. When the standard
 lives in a script, hand-built posts miss it — the marker check belongs in the
 pre-publish routine, not just in `table_standard.py`.
+
+## 2026-08-08 — LNG post v1.1.0: the primary document changed two definitions
+
+Re-sourced from the full 88-page IGU report instead of its press release. The
+headline numbers held, but the report surfaced two definitional traps the press
+summary had hidden — both now stated in the article.
+
+**"Largest importer" depends on the unit of comparison.** ACER says the EU
+overtook China and Japan. The IGU report says *China remained the world's largest
+LNG importer in 2025*, at about 69 Mt. Both are right: ACER ranks the EU as a
+27-country bloc, the IGU ranks countries. The EU's 146 bcm is ~107 Mt, above
+China as a bloc and not comparable as a country. Published side by side without
+explanation, the two look like one of them is wrong.
+
+**"Europe" is not "the EU".** The IGU puts Europe's 2025 imports at about
+**126 Mt** against the ~107 Mt implied by ACER for the EU. The ~19 Mt gap is the
+UK, Türkiye and other non-EU importers — geography, not a data dispute. The
+article now uses ACER's EU figures for EU policy and says "Europe" only where the
+wider geography is meant.
+
+**The lesson is the cheap one.** A press release gives you the numbers; the
+report gives you what they mean. Both traps were invisible in the summary and
+obvious in the source, and neither would have been caught by cross-checking
+arithmetic — the arithmetic was fine all along.

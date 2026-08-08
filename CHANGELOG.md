@@ -1253,3 +1253,16 @@ LNG status report published
 **Changed**
 
 - `article-index-start-here` — 32,187 → 32,444 bytes (+257)
+
+## 2026-08-08T10:35:59+05:30 — 97 posts live
+
+LNG post re-sourced from the full IGU report
+
+
+**Versions**
+
+- `europe-bought-record-amount-of-lng-and` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+
+**Changed**
+
+- `europe-bought-record-amount-of-lng-and` — 18,462 → 19,786 bytes (+1,324)
