@@ -833,3 +833,20 @@ five-year cumulative summary exhibit
 **Changed**
 
 - `indias-wholesale-prices-next-to` — 26,499 → 30,336 bytes (+3,837)
+
+## 2026-08-08T08:32:57+05:30 — 95 posts live
+
+new global inflation post; Ireland/Germany instrument note
+
+
+**Added**
+
+- `inflation-trends-globally-what-five` **v1.0.0** — Inflation Trends Globally: What Five Years Actually Cost (21,703 bytes)
+
+**Versions**
+
+- `indias-wholesale-prices-next-to` **4.1.0 → 5.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `indias-wholesale-prices-next-to` — 30,336 → 31,723 bytes (+1,387)

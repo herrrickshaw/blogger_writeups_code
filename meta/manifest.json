@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-08T08:26:25+05:30",
-  "count": 94,
+  "snapshot": "2026-08-08T08:32:57+05:30",
+  "count": 95,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -1240,10 +1240,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.538+05:30",
-      "updated": "2026-08-08T08:25:59.990+05:30",
+      "updated": "2026-08-08T08:32:44.856+05:30",
       "labels": [],
-      "bytes": 30336,
-      "sha256": "ee326357db1c98e7aabbd06249147624002924b7046e10e528553b6d8da3b413",
+      "bytes": 31723,
+      "sha256": "34834a255d865d3a5238e7b41392507e784a170aa1cdc23866282bf9978da664",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1255,7 +1255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.1.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1315,6 +1315,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "five-year cumulative summary exhibit"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-08-08T08:32:57+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            30336,
+            31723
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "new global inflation post; Ireland/Germany instrument note"
         }
       ]
     },
@@ -2550,6 +2563,38 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        }
+      ]
+    },
+    "5993280256743257743": {
+      "id": "5993280256743257743",
+      "title": "Inflation Trends Globally: What Five Years Actually Cost",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
+      "slug": "inflation-trends-globally-what-five",
+      "published": "2026-08-08T08:31:31.945+05:30",
+      "updated": "2026-08-08T08:31:31.945+05:30",
+      "labels": [],
+      "bytes": 21703,
+      "sha256": "4b581b99869f700d5c0199251969885e40acf36d474f087d3685c02395d9cb89",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-08T08:32:57+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "new global inflation post; Ireland/Germany instrument note"
         }
       ]
     },
