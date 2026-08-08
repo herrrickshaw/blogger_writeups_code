@@ -1246,3 +1246,37 @@ rather than guessed at.
 
 Blog-wide unchanged at **57 violations across 16 posts**. Next largest:
 `annadata-to-urjadata-farmer-income-case` at 6.
+
+## 2026-08-08 — one inversion fixed, one revert: check the prose before restating a unit
+
+Authorised to fix both unit inversions in the grain post. **One was fixed. The
+other was reverted mid-edit**, because the fix would have made the table
+contradict its own article.
+
+**Table 10 — fixed.** `40.99 MT` sat in a column of LMT values. Verified the
+magnitudes against reality before touching it: 520 LMT rice, 168 LMT edible-oil
+imports and ~41 Mt oilseed output only reconcile if LMT is lakh tonnes and MT is
+million tonnes, so 40.99 Mt = **409.9 LMT**. Restated, and the table — which had
+no header row at all — gained `Measure | LMT`. The prose never quotes 40.99, so
+nothing else moved.
+
+**Table 12 — reverted.** The plan was to restate `₹2.32 L cr` and `₹18,000 cr`
+into one unit. Grepping the prose first killed it: the article says
+"₹2.05 L cr", "₹1.68 lakh cr" and "₹7,650 cr" repeatedly, in its own voice.
+Converting the column to crore would have printed 205,000 in a table whose
+article says ₹2.05 L cr two paragraphs above. Converting the other way gives
+`0.0765 L cr` where the prose says ₹7,650 cr. **Either direction introduces an
+inconsistency worse than the one being fixed.**
+
+So that column is not a formatting defect at all. The article deliberately uses
+lakh crore for state aggregates and crore for specific line items, and the prose
+does the same — the unit is in every cell, and a reader who reads rather than
+scans is not misled. It stays.
+
+**The rule this adds: before restating a figure's unit, grep the prose for that
+figure.** A table does not live alone. This is the same failure mode as the
+earlier `.artx` scoping and the self-diff classifier — a change that is locally
+correct and globally wrong, and the only way to catch it is to look outside the
+thing being changed.
+
+Blog-wide: **57 → 56 violations across 16 posts.**

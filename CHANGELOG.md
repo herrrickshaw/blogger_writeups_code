@@ -1139,3 +1139,16 @@ securitising-deficit: 6 of 9 unit violations hoisted
 **Changed**
 
 - `securitising-deficit-what-it-would` — 114,575 → 114,529 bytes (-46)
+
+## 2026-08-08T10:03:47+05:30 — 95 posts live
+
+grain post: LMT/MT inversion fixed; lakh-crore column left alone
+
+
+**Versions**
+
+- `the-grain-value-loop-integrated-rice` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `the-grain-value-loop-integrated-rice` — 69,208 → 69,218 bytes (+10)

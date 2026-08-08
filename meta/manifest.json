@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T09:56:21+05:30",
+  "snapshot": "2026-08-08T10:03:47+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -3987,10 +3987,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-08-08T09:26:58.483+05:30",
+      "updated": "2026-08-08T10:02:48.456+05:30",
       "labels": [],
-      "bytes": 69208,
-      "sha256": "4c57704b0560e3bcefa3f089b008f8e0d927e997c50dfde7327fa21e900049e4",
+      "bytes": 69218,
+      "sha256": "f9c7c8084592ad1c62aaadca612610e6c6457dcdbc5572228ace7d2b141b1bb4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4002,7 +4002,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4041,6 +4041,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "gs-table-v1 rollout; AI Tracker index section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T10:03:47+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-1 distinct numbers)",
+          "bytes": [
+            69208,
+            69218
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "grain post: LMT/MT inversion fixed; lakh-crore column left alone"
         }
       ]
     },
