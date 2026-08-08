@@ -1833,3 +1833,16 @@ MDR post: added real NPCI/SBI Research merchant-category (MCC) UPI data — Exhi
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 31,766 → 35,629 bytes (+3,863)
+
+## 2026-08-08T19:54:33+05:30 — 104 posts live
+
+MDR post: full NPCI top-15 MCC table + per-category leverage analysis (apparel, electronics, liquor, gaming, marketplaces, utilities/govt)
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **8.0.0 → 9.0.0** (MAJOR) — figures changed (+20/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 35,629 → 39,357 bytes (+3,728)

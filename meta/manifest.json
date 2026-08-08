@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T19:49:34+05:30",
+  "snapshot": "2026-08-08T19:54:33+05:30",
   "count": 104,
   "posts": {
     "1157999291079244419": {
@@ -1089,14 +1089,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-08-08T19:49:06.685+05:30",
+      "updated": "2026-08-08T19:54:07.235+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 35629,
-      "sha256": "72d5d288b1d6510a2197056bd20ba1f4128f7f58437276026dfb7bec3edbcb18",
+      "bytes": 39357,
+      "sha256": "befbad9d023cce3a619e3b05ff50fc8ecabc546a1b961145ff7e1c2a1ee91087",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1108,7 +1108,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "8.0.0",
+      "version": "9.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1207,6 +1207,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "MDR post: added real NPCI/SBI Research merchant-category (MCC) UPI data — Exhibit 5"
+        },
+        {
+          "version": "9.0.0",
+          "date": "2026-08-08T19:54:33+05:30",
+          "level": "major",
+          "reason": "figures changed (+20/-0 distinct numbers)",
+          "bytes": [
+            35629,
+            39357
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MDR post: full NPCI top-15 MCC table + per-category leverage analysis (apparel, electronics, liquor, gaming, marketplaces, utilities/govt)"
         }
       ]
     },
