@@ -820,3 +820,16 @@ China PPI added from archived NBS Statistical Communiques
 **Changed**
 
 - `indias-wholesale-prices-next-to` — 24,300 → 26,499 bytes (+2,199)
+
+## 2026-08-08T08:26:25+05:30 — 94 posts live
+
+five-year cumulative summary exhibit
+
+
+**Versions**
+
+- `indias-wholesale-prices-next-to` **4.0.0 → 4.1.0** (MINOR) — forced via --as minor (figures changed (+33/-0 distinct numbers))
+
+**Changed**
+
+- `indias-wholesale-prices-next-to` — 26,499 → 30,336 bytes (+3,837)

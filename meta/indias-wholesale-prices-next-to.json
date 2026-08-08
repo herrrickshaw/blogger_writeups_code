@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.538+05:30",
-  "updated": "2026-08-08T08:21:51.217+05:30",
+  "updated": "2026-08-08T08:25:59.990+05:30",
   "labels": [],
-  "bytes": 26499,
-  "sha256": "5e26997096d1d8ecd28f4a79f53e700c6db54588cb84436b2cfa8c33c3f1dbac",
+  "bytes": 30336,
+  "sha256": "ee326357db1c98e7aabbd06249147624002924b7046e10e528553b6d8da3b413",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "China PPI added from archived NBS Statistical Communiques"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-08-08T08:26:25+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+33/-0 distinct numbers))",
+      "bytes": [
+        26499,
+        30336
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "five-year cumulative summary exhibit"
     }
   ]
 }
