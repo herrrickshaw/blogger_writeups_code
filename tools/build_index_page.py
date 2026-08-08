@@ -42,6 +42,7 @@ LABEL_HUBS = [
     ("Gas & LNG", "Gas%20%26%20LNG"),
     ("Climate & Carbon", "Climate%20%26%20Carbon"),
     ("Mobility & EV", "Mobility%20%26%20EV"),
+    ("AI Tracker", "AI%20Tracker"),
 ]
 E = lambda s: html.escape(s, quote=True)
 
