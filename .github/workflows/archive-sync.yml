@@ -1,0 +1,105 @@
+name: Archive sync
+
+# Pull the blog into this repo on a schedule, so the archive stays current
+# without anyone's laptop being switched on. This is the disaster-recovery copy
+# of masaladeutsch.blogspot.com — if it only ever updated from a local machine,
+# it would silently go stale the moment that machine stopped.
+#
+# No credentials are involved. tools/snapshot.py reads the PUBLIC Blogger feed,
+# which carries full post bodies. Publishing still needs OAuth and still happens
+# from a workstation; this job only ever reads.
+
+on:
+  schedule:
+    # 02:40 UTC = 08:10 IST, after the usual morning publishing window.
+    # Deliberately not on the hour: GitHub's scheduler queues hardest at :00.
+    - cron: "40 2 * * *"
+  workflow_dispatch:
+    inputs:
+      note:
+        description: "Reason for this snapshot (recorded in CHANGELOG.md)"
+        required: false
+        default: "scheduled sync"
+
+permissions:
+  contents: write
+
+concurrency:
+  # Two snapshots committing to main at once would conflict; let the running
+  # one finish rather than cancelling it half-written.
+  group: archive-sync
+  cancel-in-progress: false
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # snapshot.py diffs each fetched post against the copy already on
+          # disk to classify the semver bump. A shallow clone still gives it
+          # the working tree it needs, but fetch-depth 0 keeps `git log`
+          # useful for anyone debugging a bad bump later.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # snapshot.py is standard library only — no pip install step on purpose.
+      # Anything that needs a dependency does not belong in the sync path.
+
+      - name: Configure committer
+        run: |
+          git config user.name  "masaladeutsch-archive-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Snapshot the blog
+        id: snap
+        run: |
+          set -o pipefail
+          python3 tools/snapshot.py \
+            --note "${{ inputs.note || 'scheduled sync' }}" \
+            2>&1 | tee snapshot.out
+          echo "summary=$(grep -m1 'posts |' snapshot.out || echo 'no summary line')" >> "$GITHUB_OUTPUT"
+
+      - name: Push if the snapshot committed anything
+        run: |
+          if [ -n "$(git log origin/${GITHUB_REF_NAME}..HEAD --oneline)" ]; then
+            git push origin HEAD:${GITHUB_REF_NAME}
+            echo "pushed"
+          else
+            echo "blog unchanged since the last snapshot — nothing to push"
+          fi
+
+      # The snapshot proves the archive is current. This proves the SITE is
+      # fine: every post in the manifest still serves its own title, and the
+      # homepage still renders cards. A post silently reverted to draft, or a
+      # homepage emptied by the per-index byte budget, is invisible to a
+      # snapshot — the feed simply stops mentioning it.
+      - name: Site health
+        id: health
+        continue-on-error: true
+        run: |
+          set +e
+          python3 tools/site_health.py 2>&1 | tee health.out
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Report
+        run: |
+          echo "### Site health" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat health.out >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+          echo "### Archive sync" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat snapshot.out >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail if the site is unhealthy
+        if: steps.health.outputs.status != '0'
+        run: |
+          echo "site health check failed — see the summary"
+          exit 1

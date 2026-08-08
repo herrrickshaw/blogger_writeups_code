@@ -1,0 +1,143 @@
+name: Link audit
+
+# Link rot is silent. A government portal reorganises, a slug gets burned by a
+# republish, and nothing tells you — the post just quietly sends readers to a
+# 404. This checks every href in the archived posts and the theme, and files an
+# issue when something actually breaks.
+#
+# Runs AFTER the archive sync so it audits the current blog, not yesterday's.
+
+on:
+  schedule:
+    # 03:20 UTC Mondays, ~40 min after the daily sync, so posts/ is fresh.
+    - cron: "20 3 * * 1"
+  workflow_dispatch:
+    inputs:
+      scope:
+        description: "Which links to check"
+        type: choice
+        options: ["all", "internal-only"]
+        default: "all"
+  push:
+    # A change to the archived bodies or the theme can introduce a dead link,
+    # so check the fast (internal) subset on the way in.
+    paths:
+      - "posts/**"
+      - "theme/**"
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: link-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Audit links
+        id: audit
+        run: |
+          # A push only needs the fast internal pass; scheduled runs do the lot.
+          if [ "${{ github.event_name }}" = "push" ] || [ "${{ inputs.scope }}" = "internal-only" ]; then
+            SCOPE=--internal
+          else
+            SCOPE=
+          fi
+          set +e
+          python3 tools/link_audit.py $SCOPE --json audit.json 2>&1 | tee audit.out
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          set -e
+
+      - name: Summary
+        run: |
+          echo "### Link audit" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat audit.out >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: link-audit
+          path: |
+            audit.out
+            audit.json
+          retention-days: 30
+
+      - name: Open or update an issue when links are dead
+        if: steps.audit.outputs.status != '0' && github.event_name != 'push'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = [
+              'The scheduled link audit found dead links.',
+              '',
+              'Reminders before fixing, both learned the hard way:',
+              '',
+              '- A **relative** link can never work in a post. It resolves under',
+              '  `blogspot.com/YYYY/MM/` and there is nothing there. Repoint it at the',
+              '  published post, or drop the anchor and keep the label as text.',
+              '- A **blogspot 404** is usually a burned slug. Blogger never releases a',
+              '  slug, so republishing mints a suffixed URL and the original dies.',
+              '  Repoint the links, or add a 301 under Settings → Errors and redirects.',
+              '- Anything listed as UNVERIFIABLE is a host refusing scripted requests,',
+              '  not a broken link. Open it in a browser before touching it.',
+              '',
+              '```',
+              fs.readFileSync('audit.out', 'utf8').slice(0, 55000),
+              '```',
+            ].join('\n');
+            const title = 'Link audit: dead links found';
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-rot',
+            });
+            if (open.length) {
+              // Update the standing issue rather than filing a new one every week.
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: open[0].number, body,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['link-rot'],
+              });
+            }
+
+      - name: Close the standing issue once everything resolves
+        if: steps.audit.outputs.status == '0' && github.event_name == 'schedule'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'link-rot',
+            });
+            for (const i of open) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: i.number,
+                body: 'Audit is clean — every link resolves. Closing.',
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: i.number, state: 'closed',
+              });
+            }
+
+      - name: Fail the run if links are dead
+        if: steps.audit.outputs.status != '0'
+        run: |
+          echo "dead links found — see the summary above"
+          exit 1
