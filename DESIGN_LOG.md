@@ -933,3 +933,40 @@ labels off the rendered page.
 
 Post now v5.0.0. Verified live: 388 text nodes, 0 contrast failures, four tables
 scrolling, no sideways page scroll.
+
+## 2026-08-08 — a second post, global-first, and what the supplied links changed
+
+"Push as a new blog" was ambiguous between a **separate Blogger site** and a
+**new post here**, and the two are very different: Blogger API v3 cannot create
+blogs at all, so a separate site means the UI plus porting the theme, index,
+versioning, GitHub sync and audits — every one of which is wired to blogId
+2071644453461588122. Asked; the answer was a new post.
+
+The new post is **not a copy**. The India piece is the methodology argument with
+an India anchor; *Inflation Trends Globally* leads with the five-year cumulative
+spread, carries the full G20 consumer panel including Argentina, and treats the
+producer side as the second act. The two cross-link each other in both
+directions, and the shared exhibits are labelled to the same sources.
+
+**One supplied link changed a claim in both posts.** Ireland's CSO publishes a
+monthly release literally titled *Wholesale Price Index* — which on its face
+contradicts "almost nobody else publishes a WPI". Reading the release's table
+list settles it the other way: Tables 1–4 are Manufacturing Output Price Indices,
+Industrial Producer Price Indices, Capital Goods Price Indices, and a genuinely
+wholesale index **confined to building and construction materials**. Germany's
+Destatis leads with a *Producer price index for industrial products* and a
+separate services PPI, no economy-wide wholesale basket.
+
+So the name survives in a couple of places where the instrument does not, which
+is a sharper version of the original point and is now a note in both articles.
+**Checking the link that looked like a counter-example produced the best
+sentence in the piece.**
+
+Of the seven links supplied, six are official statistical sources (IMF, OECD,
+ECB, Destatis, CSO Ireland, FRED). The seventh, S&P Global Market Intelligence,
+is a commercial forecaster and is not cited: this blog does not source headline
+figures to vendors, per the standing rule.
+
+Both posts verified live: the new one at 376 text nodes / 0 contrast failures,
+four tables scrolling, exhibits in order; the companion at v5.1.0. Index now 92
+items; internal link audit clean at 97 links, DEAD 0.
