@@ -717,3 +717,52 @@ Final state, both workflows green:
 - `archive-sync` — no change → no changelog entry, no commit, nothing pushed;
   homepage 200 with 5 cards; 10/12 posts verified, 2 inconclusive; **healthy**.
 - `link-audit` — 494 links, **DEAD 0**, 229 unverifiable.
+
+## 2026-08-08 — extending WPI/CPI abroad, and the comparison that no longer exists
+
+New post. The intended shape — India's WPI beside a dozen peers — turned out to
+be impossible, and finding out why became the article's spine.
+
+**India publishes a Wholesale Price Index as its headline producer-side number.
+Almost nobody else does.** Most comparable economies moved to a Producer Price
+Index decades ago: PPI measures prices producers receive for their own output
+and excludes imports, WPI measures goods at the wholesale stage and includes
+them. For an economy importing 85%+ of its crude that is most of the gap in any
+energy year. Japan's Corporate Goods Price Index was itself called a wholesale
+index until 2002.
+
+**Then the data ran out.** Until 2022 the OECD published a harmonised
+wholesale/producer family covering members and partners, India included. It was
+discontinued, and every mirrored series stops that year — India's wholesale
+aggregate at Dec 2022, Japan's at Apr 2022, China's and the euro area's at
+Dec 2022. The OECD's current price database is live and extensive and contains
+**no producer price data at all**. Verified by querying the dataflow list
+directly, not inferred from a failed lookup.
+
+So the producer panel is three economies assembled one statistical office at a
+time — India (MoSPI API), US (BLS PPI All Commodities via FRED), euro area
+(Eurostat `sts_inpp_a`) — with the instrument differences stated rather than
+smoothed. The consumer panel is the OECD's live G20 CPI dataflow, which does
+include India and is genuinely harmonised.
+
+Findings worth keeping:
+
+- The producer-minus-consumer wedge **flips sign in the same two years in all
+  three economies** — negative pre-2021, sharply positive 2021-22, negative from
+  2023. The 2022 Indian wholesale spike was not a domestic policy failure.
+- Amplitude differs enormously: India swung 16.2pp between 2022 and 2023, the
+  euro area **27.3pp**.
+- **India's consumer inflation is now 2.8%** — below the US, Brazil, Mexico,
+  South Africa, Japan and Korea. In 2019 it was the highest in the table outside
+  Argentina. That reversal is underdiscussed.
+- April 2026 wholesale came in at **+8.3%**, with no counterpart in the US or
+  euro-area series. For the first time in this comparison India's producer-side
+  move looks domestic.
+
+**A vintage discrepancy, stated rather than reconciled.** The MoSPI API returns
+**167.0** for April 2026 all-commodities WPI; the OEA index file used in the
+earlier wholesale piece gives **167.6** — 0.36%, about a third of a point on the
+year-on-year rate. Both official, different vintages of a provisional figure.
+The new post uses the API value and says so, and neither post was adjusted to
+match the other. Silently picking one would have made the blog internally
+consistent and externally wrong.
