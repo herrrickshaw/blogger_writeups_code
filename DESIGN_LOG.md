@@ -1977,3 +1977,41 @@ dropped, because "97 articles" should be a statement someone can check.
 The date logic is derived, not hardcoded: the founding date, the gap length and
 the month buckets all come from the manifest, so the section stays correct as
 posts are added.
+
+## 2026-08-08 — AI Tracker Edition 02, and its own methodology caught out
+
+**Edition 01 promised "GitHub stars are checkable" and then copied its star
+counts from a roundup article.** That is not the same thing, and Edition 02 says
+so in the text. Every figure now comes from the **GitHub search API**, queried on
+publication day, which also resolved each project name to its real repository.
+
+**The re-measurement is the edition.** All eleven repositories with a star figure
+grew between the two editions: **265,900 to 407,271 combined, +53.2% in roughly a
+fortnight**, three more than doubling — grok-build +162.6%, OmniRoute +139.1%,
+hallmark +126.3% — and Graphify crossing 100,000. Ranked by velocity rather than
+size, because in a two-week window direction is the information.
+
+**The precision is stated as worse than it looks.** Edition 01's baselines were
+rounded ("32K", "18K", "10K") and dated only to "mid-to-late July", so both ends
+of every growth calculation are approximate and the interval is somewhere between
+two and four weeks. The edition says to read the ordering, not the decimal place,
+and commits Edition 03 to an exact API baseline with an exact date. Publishing
+"+162.6%" off a rounded base without saying so would have been the easy version.
+
+**Model releases were demoted rather than dressed up.** Aggregators disagreed on
+dates and on whether entries were new models, point updates or marketplace
+listings, and none was checked against a vendor page. They appear under a heading
+that says *explicitly unverified*, with an instruction not to cite the dates.
+A star count has an API; a model release has a blog post someone has to read.
+
+**Structural fix worth noting.** Edition 01 rendered its entries from a
+JavaScript `DATA` array, so the archived HTML contained an empty `<div id="grid">`
+and the content existed nowhere in the markup. Edition 02 is a server-rendered
+table in the house `gs-table-v1` style — legible to the archive, to crawlers and
+to anyone reading source.
+
+**Index:** the tracker now has its own section rather than sitting as one dated
+row among 97, because it is a standing serial that replaces itself in place at a
+fixed URL. Rebuilt after snapshotting — the first attempt pulled the pre-retitle
+name from a stale manifest, which is the argument for regenerating from the
+manifest rather than hand-editing.
