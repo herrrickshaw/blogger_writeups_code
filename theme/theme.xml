@@ -314,6 +314,7 @@ a:hover{color:var(--accent-ink)}
           <b:else/>
             <span/>
           </b:if>
+          <a class='pager-index' href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html'>All articles &#183; Index</a>
           <b:if cond='data:olderPageUrl'>
             <a expr:href='data:olderPageUrl'>Older &#8594;</a>
           </b:if>
