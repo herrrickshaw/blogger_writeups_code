@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-08T18:34:26+05:30",
-  "count": 103,
+  "snapshot": "2026-08-08T19:21:53+05:30",
+  "count": 104,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -591,6 +591,42 @@
         }
       ]
     },
+    "1700120772764422048": {
+      "id": "1700120772764422048",
+      "title": "Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
+      "slug": "cheap-yen-rupee-roads-where-carry-trade",
+      "published": "2026-08-08T19:13:15.000+05:30",
+      "updated": "2026-08-08T19:13:52.363+05:30",
+      "labels": [
+        "Climate & Carbon",
+        "Industrial Policy",
+        "Markets & Finance"
+      ],
+      "bytes": 18458,
+      "sha256": "a9e10d2472ba2e069c3fc61ebc47b9b4bd5ba6bb3f5eed1088717ee7fb6b2fa1",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-08T19:21:53+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+        }
+      ]
+    },
     "1750259390312106714": {
       "id": "1750259390312106714",
       "title": "The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application",
@@ -846,12 +882,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-08T18:34:07.885+05:30",
+      "updated": "2026-08-08T19:14:00.104+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 25090,
-      "sha256": "e1bfab5cc8bab0fda16fba96a46a8438db82f8e85a2b05162e2de473f98b9a17",
+      "bytes": 25209,
+      "sha256": "c6b3a51478e9ca8781c11ff9643a1df64266c7ca9dadd3523eb46374832bbb15",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -863,7 +899,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -897,6 +933,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "shop: covers + truncation fix"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2026-08-08T19:21:53+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25090,
+            25209
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
         }
       ]
     },
@@ -1040,14 +1089,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-08-08T17:50:35.170+05:30",
+      "updated": "2026-08-08T19:21:30.035+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 24690,
-      "sha256": "f59cb0c95a080975bb638cdd6df414d84735cb04cfacca13eeef81c0062eeb40",
+      "bytes": 27448,
+      "sha256": "36507f95f7417853387d70caadfcd5bd4f64ec85f1181f4a7dd1151bc3704f86",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1059,7 +1108,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1119,6 +1168,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "MDR post: host-share ATM economics from franchise-market terms"
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-08-08T19:21:53+05:30",
+          "level": "major",
+          "reason": "figures changed (+27/-0 distinct numbers)",
+          "bytes": [
+            24690,
+            27448
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
         }
       ]
     },

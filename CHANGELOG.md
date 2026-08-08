@@ -1788,3 +1788,22 @@ shop: covers + truncation fix
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 18,831 → 25,090 bytes (+6,259)
+
+## 2026-08-08T19:21:53+05:30 — 104 posts live
+
+MDR post: NPCI-scale exhibit; new post: project bonds x carry
+
+
+**Added**
+
+- `cheap-yen-rupee-roads-where-carry-trade` **v1.0.0** — Cheap Yen, Rupee Roads: Where the Carry Trade Meets Project Bonds (18,458 bytes)
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **3.0.0 → 3.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `upi-fees-are-now-legal-petrol-pumps` **5.0.0 → 6.0.0** (MAJOR) — figures changed (+27/-0 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 25,090 → 25,209 bytes (+119)
+- `upi-fees-are-now-legal-petrol-pumps` — 24,690 → 27,448 bytes (+2,758)
