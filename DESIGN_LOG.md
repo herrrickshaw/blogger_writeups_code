@@ -2146,3 +2146,37 @@ gadget. Alphabetical sort and the AI Tools entry are written, XML-validated and
 committed in `theme/theme.xml`, with the single block also exported to
 `out/accordion-ai-tools.html`. It needs either browser access to blogger.com or a
 manual paste.
+
+## 2026-08-08 — Browse widget: replaced the accordion rather than patching it
+
+Given the choice between adding AI Tools to the hand-kept accordion or replacing
+it with the live hub chips, the data decided it. **The accordion listed 81 of 99
+posts** — 18 missing, including every article published in the previous four
+days. It is maintained by hand and is structurally always behind; adding a
+twelfth section would have added a twelfth thing to forget.
+
+**Replaced with thirteen chips linking to the Blogger label hubs**, alphabetical,
+AI Tools second. Those pages build themselves from labels, so the widget cannot
+go stale again. 15,566 characters of hardcoded post lists became 2,101.
+
+**A refactor caught on the way:** the first build inlined the chip styling on
+every anchor — 13 copies of the same 250-character style attribute, 5,276
+characters. Moved to one class in a `<style>` block: 2,101. Same output, and the
+next person to change a colour changes it once.
+
+**Still not applied live.** Browser access to blogger.com was reported as granted
+but every action — JavaScript, page read, screenshot — still returns
+"Permission denied for this action on this domain", in a fresh tab group. Three
+probes, all refused; I stopped rather than keep retrying.
+
+**Made it a one-step paste instead.** `out/gadget-HTML1-browse.html` is the
+complete replacement content for the HTML1 gadget — select all in Layout, paste,
+save. Not a fragment to position, which is what the earlier export got wrong.
+
+**A note on the diff method, because it nearly went badly.** Running difflib
+across the whole theme for this change produced **194 fragmented operations**:
+the old and new blocks share enough characters that the matcher interleaved them.
+Applying 194 micro-edits to a live theme would have been reckless. The change is
+one contiguous replacement and had to be expressed as one, located by its own
+start and end markers. **When a diff explodes into hundreds of hunks, the diff is
+wrong about the change, not the change about itself.**
