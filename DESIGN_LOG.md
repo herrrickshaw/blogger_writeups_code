@@ -2359,3 +2359,23 @@ until the injector runs. Now a cron job runs it daily:
 Full auto-update chain for a new article now: publish → labels make it appear
 in every accordion instantly (feeds) → next 09:05, the post itself gets the
 footer stub → weekly snapshot archives the change. Nothing left to remember.
+
+## 2026-08-08 — Monetisation state, recorded once
+
+Why there were no ads, in one line each, worst first:
+1. **ads.txt was enabled but EMPTY** — HTTP 200, zero bytes, which reads as
+   "nobody may sell this inventory". Fixed by the user in Settings →
+   Monetization; verified serving byte-exact:
+   `google.com, pub-5664000309261019, DIRECT, f08c47fec0942fa0`.
+2. The pages carry the site-level adsbygoogle.js (theme head; now also on the
+   github.io entry page) but **zero ad units and no auto-ads flag** — so
+   rendering depends entirely on Auto ads being ON and the site being
+   approved ("Ready") in the AdSense console, neither visible from here.
+3. `accordion.js` carries a **dormant responsive display unit** above the
+   index on every post: fill in `AD_SLOT` with a data-ad-slot id, push, done.
+   Blog-hostname-guarded and try/caught so an ad failure can never break the
+   index. The user's pasted "AdSense code" was the site script, not a slot id
+   — the distinction cost a round trip and is worth remembering.
+
+Expectation set: after ads.txt, AdSense re-crawls it within days; a site still
+in review serves nothing until "Ready" regardless of on-page correctness.
