@@ -794,3 +794,16 @@ Japan PPI added from Bank of Japan; 2026 'uniquely domestic' claim corrected
 **Changed**
 
 - `indias-wholesale-prices-next-to` — 18,715 → 22,188 bytes (+3,473)
+
+## 2026-08-08T08:12:06+05:30 — 94 posts live
+
+Korea (BoK) and Brazil (IBGE) producer prices added; Brazil runs a separate cycle
+
+
+**Versions**
+
+- `indias-wholesale-prices-next-to` **2.0.0 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+16/-3 distinct numbers))
+
+**Changed**
+
+- `indias-wholesale-prices-next-to` — 22,188 → 24,300 bytes (+2,112)
