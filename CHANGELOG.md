@@ -1266,3 +1266,16 @@ LNG post re-sourced from the full IGU report
 **Changed**
 
 - `europe-bought-record-amount-of-lng-and` — 18,462 → 19,786 bytes (+1,324)
+
+## 2026-08-08T10:40:42+05:30 — 97 posts live
+
+LNG v2.0.0: India section and source-coverage map
+
+
+**Versions**
+
+- `europe-bought-record-amount-of-lng-and` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+
+**Changed**
+
+- `europe-bought-record-amount-of-lng-and` — 19,786 → 26,056 bytes (+6,270)

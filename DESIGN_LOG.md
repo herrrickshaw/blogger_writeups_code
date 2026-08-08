@@ -1507,3 +1507,39 @@ wider geography is meant.
 report gives you what they mean. Both traps were invisible in the summary and
 obvious in the source, and neither would have been caught by cross-checking
 arithmetic — the arithmetic was fine all along.
+
+## 2026-08-08 — LNG v2.0.0: the India angle and a source-coverage map
+
+**The India finding is a division.** IGU gives India 24.60 Mt of imports in 2025,
+**down 1.5 Mt**, against **52.5 Mtpa of regas capacity across eight terminals** —
+**47% utilisation**. And India *added* 7.1 Mtpa during that year, commissioning
+Chhara and expanding Dabhol after its breakwater was finally finished. On the
+prior 45.4 Mtpa base, 2024 utilisation was ~57%. India built a tenth more
+capacity into a year it bought less gas and pushed utilisation down ten points,
+with a further Dahej expansion under construction.
+
+Europe and South Asia are the two sides of the same 2025 trade: when the EU is
+refilling empty storage at any price, the price-sensitive buyer steps back.
+India and Pakistan were the only Asian importers to shrink.
+
+**Exhibit 5 maps who publishes what**, because assembling an Indian LNG picture
+means working across three bodies whose coverage barely overlaps:
+
+- **IGU** names the eight terminals with capacities and 2025 changes, but
+  publishes no price.
+- **PPAC** publishes national volumes, values and prices, but nothing
+  terminal-level.
+- **PNGRB** authorises terminals, pipelines and CGD areas and sets tariffs, but
+  publishes neither imports nor prices.
+
+**The gap in the middle is real and is stated as a finding:** nobody publishes
+terminal-level throughput against terminal-level capacity, which is exactly the
+number that would show whether 47% national utilisation is spread evenly or
+concentrated in a few idle assets.
+
+**One thing not retrieved, and labelled as such in the article.** The PPAC LNG
+import price series was not obtained — PPAC's flash report carries petroleum
+products only and the LNG series sits in a separate report this pass did not
+reach. The price rows in Exhibit 5 therefore describe *what PPAC publishes*, not
+figures reproduced here. An empty cell honestly labelled beats a plausible number
+from somewhere else.
