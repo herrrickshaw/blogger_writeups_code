@@ -1740,3 +1740,16 @@ MDR post: per-tank fee exhibit by vehicle class
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 20,045 → 22,539 bytes (+2,494)
+
+## 2026-08-08T17:50:55+05:30 — 102 posts live
+
+MDR post: host-share ATM economics from franchise-market terms
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **4.0.0 → 5.0.0** (MAJOR) — figures changed (+22/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 22,539 → 24,690 bytes (+2,151)
