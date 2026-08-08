@@ -1902,3 +1902,16 @@ Inflation-trends article: added Eurostat EU-27 member-state spread + category dr
 **Changed**
 
 - `inflation-trends-globally-what-five` — 36,854 → 40,613 bytes (+3,759)
+
+## 2026-08-08T20:28:18+05:30 — 105 posts live
+
+Inflation-trends article: added Exhibit 7 + verdict section on how middle-class families are actually doing, grounded in OECD real-wage bulletin (half of 37 OECD countries still below Q1 2021 real wages); explicit honest gap flagged for non-OECD economies (India/China/Brazil/South Africa/Indonesia/Saudi) where no comparable wage data exists
+
+
+**Versions**
+
+- `inflation-trends-globally-what-five` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `inflation-trends-globally-what-five` — 40,613 → 46,412 bytes (+5,799)
