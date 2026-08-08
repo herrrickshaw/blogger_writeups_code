@@ -2422,3 +2422,33 @@ its residents" (VAT-differential border leakage) is stated, not adjusted for.
 One weasel caught pre-publish: "roughly half the population commonly attributed
 to it" — an unverified per-capita claim sneaking past the note that explicitly
 declined per-capita analysis. Softened to a directional statement.
+
+## 2026-08-08 — Amazon Associates: further-reading links, live via one file
+
+Affiliate monetisation added the same way as everything else on this blog now
+ships: one block in accordion.js on the Pages repo, rendered into every post's
+footer, changeable site-wide with one push.
+
+**Design decisions, each defensible to a reader:**
+- **Books only, matched to the post's own topic labels** (read from the theme's
+  .gs-topics links) — Yergin under the gas pieces, Sainath under agriculture,
+  Rajan/Mollick/Smil elsewhere. Editorial fit over inventory.
+- **Tagged SEARCH links by exact title, never hardcoded ASINs.** A wrong or
+  stale ASIN sends readers to an arbitrary product under the site's name; a
+  title search cannot. rel="nofollow sponsored".
+- **The Associates disclosure renders WITH the block**, not on a separate page:
+  "As an Amazon Associate, this site earns from qualifying purchases."
+- Blog-hostname-guarded, try/caught, max three titles, and an empty
+  AFFILIATE_TAG renders nothing anywhere — the dormant pattern again.
+
+Tag: herpetithabib-21, taken from the Store ID label on the user's payments
+panel — the account dropdown also holds a near-twin id (herrpetithabi-21), so
+the authoritative source was the page's own Store ID line, not the dropdown.
+
+**Verified on the live gas post:** three correctly-matched books, every href
+carrying tag=herpetithabib-21 on /s?k= search URLs, disclosure present, the
+13-topic accordion untouched. One measurement lesson en route: the first check
+reported the block missing because the page had run a CACHED accordion.js
+(transferSize 0 was the tell — GitHub Pages caches ~10 min); the selector was
+fine. Re-tested cache-busted before touching any code. The instrument again,
+not the patient.
