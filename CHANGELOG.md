@@ -1674,3 +1674,12 @@ site-index stub in all 98 posts
 - `india-fuel-retail-outlets-82k-geocoded` — 6,541 → 6,660 bytes (+119)
 - `india-trade-sector-policy` — 12,261 → 12,380 bytes (+119)
 - `tech-for-business-so-2019-tech-as` — 28,171 → 28,290 bytes (+119)
+
+## 2026-08-08T16:27:56+05:30 — 100 posts live
+
+new post: UPI MDR exposure of fuel dealers + ATM hedge
+
+
+**Added**
+
+- `upi-fees-are-now-legal-petrol-pumps` **v1.0.0** — UPI Fees Are Now Legal. Petrol Pumps Have a 26x Problem — and an ATM-Shaped Hedge. (19,257 bytes)
