@@ -851,3 +851,42 @@ table at the time and false once the table grew. The pattern is not that the
 claims were careless; it is that **a claim about universality is only ever as
 strong as the widest sample you have tried**, and the honest move is to name the
 sample in the sentence rather than to generalise past it.
+
+## 2026-08-08 — China, reached through the Archive rather than a proxy
+
+The NBS portal returns `403` to this IP and its main site does not respond at
+all. Asked for "a proxy or archived NBS release", the archive route is the one
+worth taking: an open proxy would give an unverifiable chain of custody for a
+headline figure, while the Internet Archive gives **the Bureau's own published
+text**, timestamped.
+
+**Method.** The annual *Statistical Communiqué on National Economic and Social
+Development* carries the line "the producer prices for industrial products went
+down/up by X percent". Wayback's CDX API lists the archived NBS English
+press-release pages; the communiqués are the late-February entries. Six years
+recovered, 2019–2024:
+
+| 2019 | 2020 | 2021 | 2022 | 2023 | 2024 |
+|---|---|---|---|---|---|
+| −0.3 | −1.8 | +8.1 | +4.1 | −3.0 | −2.2 |
+
+Four overlap the OECD mirror and agree exactly, which is the check that makes
+the route usable rather than merely available.
+
+**Two honest limits, both in the post.** 2025 is missing — that communiqué would
+have appeared in February 2026 and the Archive has no capture; the site went dark
+to crawlers at about the point it went dark to us. And China is absent from the
+monthly 2026 panel, because monthly releases are not archived at all. An annual
+series recovered from archived press releases is a weaker instrument than a live
+API and is labelled as such rather than quietly mixed in.
+
+**China is the second exception, opposite in direction to Brazil.** It is the
+only economy in the panel with producer prices falling in two consecutive years
+(−3.0%, −2.2%) and its 2021 peak was among the mildest at +8.1%. Against consumer
+inflation of 0.2 / 0.2 / 0.0 across 2023–25, both ends of the price chain agree:
+the one large economy here that never had an inflation problem, and now has the
+opposite one. Brazil's deviation is a currency story; China's is a demand story.
+
+Post now v4.0.0, seven economies. The headline claim has been qualified three
+times in a day — "uniquely domestic", then "a shared global cycle", now "five out
+of seven". Each version was true of its sample. That is the whole lesson.
