@@ -2055,3 +2055,42 @@ is a bookmark, not adoption and not revenue, and it can be bought. Creation date
 is not launch date — a project built privately and opened to a waiting audience
 shows an inflated stars-per-day. And GitHub search ranks what it indexes, so
 absence from this list is not evidence of absence.
+
+## 2026-08-08 — Edition 03, and a topic called AI Tools
+
+**Edition 03 is a discovery edition, and says why.** Edition 02 re-queried its
+repos from the API on 8 August; Edition 03 was compiled the same day, so there is
+**no interval to measure across**. Publishing a growth column would have meant a
+column of zeros presented as stability. The velocity table returns in Edition 04
+with a real week between readings.
+
+**What discovery found: DietrichGebert/ponytail, 98,455 stars in 57 days**,
+1,727/day, created well inside the window both earlier editions covered — and
+absent from both. It is MIT-licensed, has 5,406 forks, and is not the sort of
+project a roundup features. A query finds it; a curated list did not. That is the
+method change justified in one example. Sixty-eight candidates in total.
+
+**A second measurement was added, because the first was not enough.** Every
+edition has warned that "a star is a bookmark" and then ranked on stars anyway.
+Edition 03 adds **stars per fork**, which costs one API field. Median across the
+twenty examined is **9.8:1**. Two outliers:
+
+- **unicity-aos/aos-ce: 504:1** — 8,573 stars, **17 forks**, 9 watchers, and no
+  push since 31 July while the rest of the list updated within a day or two. A
+  star ranking put it fifth. Nobody is cloning it. The edition explicitly does
+  not call this fraudulent — a launch can draw curiosity to something not yet
+  usable — but says it should not be read as adoption.
+- **ai-trader-bot: 1.4:1** — more forks than admirers, the signature of a
+  template people run rather than a library they depend on.
+
+**Topic renamed and filed.** "AI Tracker" became **AI Tools** across the label,
+the index chips and the index's own section, matching the request and the phrase
+"weekly AI tools update". The hub at `/search/label/AI Tools` resolves and holds
+the post.
+
+**One piece is blocked and is not done.** The site-wide "Browse all articles by
+topic" accordion is a Blogger HTML gadget whose content is stored in `theme.xml`
+as a `b:widget-setting`. The patch adding an **AI Tools** section as the first
+topic is written, XML-validated and committed locally — but **browser access to
+blogger.com was revoked mid-task**, so it could not be applied. It needs the
+theme editor. Everything reachable through the Blogger API was completed.
