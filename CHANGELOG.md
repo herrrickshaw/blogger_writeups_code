@@ -2013,3 +2013,15 @@ New article: India's EPR regime — plastic EOL-certificate loophole closed (19 
 **Added**
 
 - `indias-epr-regime-just-got-teeth-and` **v1.0.0** — India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing (15,153 bytes)
+
+## 2026-08-08T22:05:59+05:30 — 113 posts live
+
+Fix non-canonical labels on 4 posts (Trade & Investment Policy -> Trade & Tariffs, Agriculture & Food -> Agriculture & Fertilisers), consolidating into established topic hubs
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-trade-story-has-three-big-wins` — 2026-08-08 &rarr; 2026-08-08
+- `indias-fertiliser-import-bill-hits-18` — 2026-08-08 &rarr; 2026-08-08
+- `indias-food-processing-story-pli-scheme` — 2026-08-08 &rarr; 2026-08-08
+- `cocoas-blockchain-reckoning-one` — 2026-08-08 &rarr; 2026-08-08

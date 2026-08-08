@@ -47,6 +47,26 @@ PLACEMENT = {
     "indias-state-incentive-war-gujarats": "t7",
     "rooftop-solar-is-working-household": "t3",
     "where-indias-green-hydrogen-bets-are": "t3",
+    # 2026-08-08 batch
+    "indias-wholesale-prices-next-to": "t8",
+    "inflation-trends-globally-what-five": "t8",
+    "petroleum-trade-pairings-and-us-crude": "t3",
+    "europe-bought-record-amount-of-lng-and": "t3",
+    "india-sells-world-53-billion-of-fuel": "t3",
+    "south-africa-lost-its-gulf-fuel-supply": "t3",
+    "upi-fees-are-now-legal-petrol-pumps": "t9",
+    "city-gas-just-became-indias-largest-gas": "t3",
+    "where-india-actually-burns-its-fuel": "t3",
+    "cheap-yen-rupee-roads-where-carry-trade": "t0",
+    "beyond-pump-what-upi-fee-would-cost": "t9",
+    "lpgs-missing-number-7308-commission-and": "t3",
+    "thermal-parity-is-dead-what-85-oil-and": "t3",
+    "from-cane-to-code-digital-layer": "t3",
+    "cocoas-blockchain-reckoning-one": "t1",
+    "indias-food-processing-story-pli-scheme": "t4",
+    "indias-fertiliser-import-bill-hits-18": "t4",
+    "indias-trade-story-has-three-big-wins": "t1",
+    "indias-epr-regime-just-got-teeth-and": "t6",
 }
 
 # Posts that moved: old URL still in the index -> slug of the live post.
@@ -119,7 +139,9 @@ def main():
     # every href in the result must be a live post (or the index itself)
     urls = set(re.findall(r'href="(https://masaladeutsch\.blogspot\.com/[^"]+)"', body))
     live_urls = {r["url"] for r in live.values()}
-    dead = [u for u in urls if u not in live_urls]
+    # /search/label/* are Blogger label-archive pages, not posts — not in the
+    # manifest by design, so exclude them from the live-post dead-link check.
+    dead = [u for u in urls if u not in live_urls and "/search/label/" not in u]
     if dead:
         sys.exit("still-dead links:\n  " + "\n  ".join(dead))
 
