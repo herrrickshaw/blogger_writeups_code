@@ -2147,3 +2147,18 @@ Add IS 16087 vs rocket-grade methane comparison table, membrane-based biogas upg
 **Changed**
 
 - `cow-dung-already-flew-rocket-engine` — 19,584 → 28,762 bytes (+9,178)
+
+## 2026-08-09T04:59:07+05:30 — 115 posts live
+
+Site-wide diagram audit: reviewed all 112 articles for whether an explanatory literature diagram would help. 111 correctly served by existing tables/SVG house style. Added one verified CC BY 4.0 figure (rice-bran biorefinery branching diagram, Navajas-Preciado et al. 2025, Sustainability) to The Grain Value Loop
+
+
+**Versions**
+
+- `cow-dung-already-flew-rocket-engine` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+13/-0 distinct numbers)
+- `the-grain-value-loop-integrated-rice` **2.0.1 → 2.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `cow-dung-already-flew-rocket-engine` — 28,762 → 31,420 bytes (+2,658)
+- `the-grain-value-loop-integrated-rice` — 69,337 → 70,759 bytes (+1,422)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T04:31:37+05:30",
+  "snapshot": "2026-08-09T04:59:07+05:30",
   "count": 115,
   "posts": {
     "1157999291079244419": {
@@ -1950,13 +1950,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
       "slug": "cow-dung-already-flew-rocket-engine",
       "published": "2026-08-09T04:20:09.000+05:30",
-      "updated": "2026-08-09T04:31:18.558+05:30",
+      "updated": "2026-08-09T04:38:09.859+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 28762,
-      "sha256": "2217b29554c8a58643d95010406dbe9ec215da635b44e6c01cfa965dd148cad7",
+      "bytes": 31420,
+      "sha256": "ab23f44d516abf8649186bfef61c3dfe3d2cbf2677030d8ef733ee37a1964cab",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1968,7 +1968,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1989,6 +1989,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add IS 16087 vs rocket-grade methane comparison table, membrane-based biogas upgrading, cryogenic flash separation, and cold-box/BAHX liquefaction detail to biogas-rocket-fuel article"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-09T04:59:07+05:30",
+          "level": "major",
+          "reason": "figures changed (+13/-0 distinct numbers)",
+          "bytes": [
+            28762,
+            31420
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-wide diagram audit: reviewed all 112 articles for whether an explanatory literature diagram would help. 111 correctly served by existing tables/SVG house style. Added one verified CC BY 4.0 figure (rice-bran biorefinery branching diagram, Navajas-Preciado et al. 2025, Sustainability) to The Grain Value Loop"
         }
       ]
     },
@@ -6031,14 +6044,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-08-08T14:23:18.605+05:30",
+      "updated": "2026-08-09T04:58:08.511+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 69337,
-      "sha256": "06402e13ada283350fbb8e88426494b58accffd7323e656743598e632d2625c6",
+      "bytes": 70759,
+      "sha256": "0cca035c1cb91a6b83f8c07648d46af6f70273e599b6ee2723fa3c56f4af32fe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6050,7 +6063,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6115,6 +6128,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-08-09T04:59:07+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            69337,
+            70759
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-wide diagram audit: reviewed all 112 articles for whether an explanatory literature diagram would help. 111 correctly served by existing tables/SVG house style. Added one verified CC BY 4.0 figure (rice-bran biorefinery branching diagram, Navajas-Preciado et al. 2025, Sustainability) to The Grain Value Loop"
         }
       ]
     },
