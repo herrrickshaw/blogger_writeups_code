@@ -1846,3 +1846,20 @@ MDR post: full NPCI top-15 MCC table + per-category leverage analysis (apparel, 
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 35,629 → 39,357 bytes (+3,728)
+
+## 2026-08-08T20:04:22+05:30 — 105 posts live
+
+Split MDR post into two: fuel-retail piece trimmed to Exhibits 1-5; new companion article 'Beyond the Pump' covers non-fuel categories (groceries/restaurants/fast-food centred), cross-linked both ways
+
+
+**Added**
+
+- `beyond-pump-what-upi-fee-would-cost` **v1.0.0** — Beyond the Pump: What a UPI Fee Would Cost Groceries, Restaurants and the Rest of Retail (25,655 bytes)
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **9.0.0 → 10.0.0** (MAJOR) — figures changed (+1/-89 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 39,357 → 28,143 bytes (-11,214)
