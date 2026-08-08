@@ -807,3 +807,16 @@ Korea (BoK) and Brazil (IBGE) producer prices added; Brazil runs a separate cycl
 **Changed**
 
 - `indias-wholesale-prices-next-to` — 22,188 → 24,300 bytes (+2,112)
+
+## 2026-08-08T08:22:14+05:30 — 94 posts live
+
+China PPI added from archived NBS Statistical Communiques
+
+
+**Versions**
+
+- `indias-wholesale-prices-next-to` **3.0.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+4/-1 distinct numbers))
+
+**Changed**
+
+- `indias-wholesale-prices-next-to` — 24,300 → 26,499 bytes (+2,199)

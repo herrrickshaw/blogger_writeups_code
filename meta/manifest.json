@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T08:12:06+05:30",
+  "snapshot": "2026-08-08T08:22:14+05:30",
   "count": 94,
   "posts": {
     "1157999291079244419": {
@@ -1240,10 +1240,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.538+05:30",
-      "updated": "2026-08-08T08:10:51.822+05:30",
+      "updated": "2026-08-08T08:21:51.217+05:30",
       "labels": [],
-      "bytes": 24300,
-      "sha256": "98b421dd5900a341638788ceee7203c96a6758d4f38fa886cbe2417c4dca04ac",
+      "bytes": 26499,
+      "sha256": "5e26997096d1d8ecd28f4a79f53e700c6db54588cb84436b2cfa8c33c3f1dbac",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1255,7 +1255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1289,6 +1289,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Korea (BoK) and Brazil (IBGE) producer prices added; Brazil runs a separate cycle"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-08-08T08:22:14+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+4/-1 distinct numbers))",
+          "bytes": [
+            24300,
+            26499
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "China PPI added from archived NBS Statistical Communiques"
         }
       ]
     },
