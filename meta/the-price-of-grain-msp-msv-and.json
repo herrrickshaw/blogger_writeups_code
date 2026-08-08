@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-08T12:07:38.707+05:30",
+  "updated": "2026-08-08T14:24:40.604+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 29419,
-  "sha256": "dd06cd90ba7f8e6f55d9316529f97627c32c619ac3999d1530c34ed85f10ab54",
+  "bytes": 29538,
+  "sha256": "d2c4fc2a581a46f86010adddfc71c8c88ffb7b2ca01108de07d79470ef19ed2a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -60,6 +60,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29419,
+        29538
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

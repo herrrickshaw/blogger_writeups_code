@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-08-08T12:02:29.963+05:30",
+  "updated": "2026-08-08T14:21:15.663+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Prices & Inflation"
   ],
-  "bytes": 26142,
-  "sha256": "124ca113d5dc46f6882916360c6ba29b05d8a3db524837d0f7efd47e25c2fe9d",
+  "bytes": 26261,
+  "sha256": "570768f855ad0103d197de406410160246e0fac4b1d6fc39975b853414cb45d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -75,6 +75,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26142,
+        26261
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

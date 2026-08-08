@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.000+05:30",
-  "updated": "2026-08-08T12:01:44.817+05:30",
+  "updated": "2026-08-08T14:21:00.572+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 29025,
-  "sha256": "6bfdeac94fdaf07c980e33d63dbf2e8769e25b34697cc9b948e879475cba7712",
+  "bytes": 29144,
+  "sha256": "11f6237acebb19ddb21ee4dd5f92b6e93faf06b87bb2ad5ba1eedeb66290ca00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29025,
+        29144
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.000+05:30",
-  "updated": "2026-08-08T12:04:31.920+05:30",
+  "updated": "2026-08-08T14:14:09.497+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 33892,
-  "sha256": "e0ff94fc887319c34cfc56d4c65677fba861f0fe35aaa74abb5349c7b4e037e3",
+  "bytes": 34011,
+  "sha256": "64865196595a9a8ea61eb72673a3c099f4f852fcd57500154962f37f82c40cd9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.1",
+  "version": "6.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "6.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33892,
+        34011
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

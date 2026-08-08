@@ -3,11 +3,11 @@
   "title": "Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
-  "published": "2026-08-04T13:58:09.531+05:30",
-  "updated": "2026-08-08T09:23:21.089+05:30",
+  "published": "2026-08-04T13:58:09.000+05:30",
+  "updated": "2026-08-08T14:17:58.414+05:30",
   "labels": [],
-  "bytes": 533994,
-  "sha256": "1f4a0d86f01391789d4555690c1ad2b43dda19a42bb0233bfef75728620947f6",
+  "bytes": 534113,
+  "sha256": "8b58e369677fc93ef2a6211579ceae71f5f701347788bcb9e7720fa2600085dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        533994,
+        534113
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

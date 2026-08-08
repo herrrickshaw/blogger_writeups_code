@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-08-08T12:05:38.099+05:30",
+  "updated": "2026-08-08T14:20:47.041+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 36862,
-  "sha256": "c790822e45482e749d1cbb09421fcddddf9f1f465f8dc81dd83eea04a78d26ff",
+  "bytes": 36981,
+  "sha256": "4878865730b1e421ffca795eae6f0adad619d1d8d3b1b46fb2896b149099cba4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -78,6 +78,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36862,
+        36981
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

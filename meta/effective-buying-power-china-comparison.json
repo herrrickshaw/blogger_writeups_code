@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.000+05:30",
-  "updated": "2026-08-08T12:00:39.008+05:30",
+  "updated": "2026-08-08T14:20:39.342+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29138,
-  "sha256": "b017b0e54f38d22dccebf25f075bb9950f33a3ca82264dec649ac3cf0658ebd7",
+  "bytes": 29257,
+  "sha256": "a6f042fbef13150f8476f970d2e27e8a36aab463be9c51945d3569ad9fcab190",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -60,6 +60,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29138,
+        29257
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-08-08T12:07:01.215+05:30",
+  "updated": "2026-08-08T14:24:04.299+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 11258,
-  "sha256": "fb18cc175d8850844aca659248428194c42822e4ce3ed8996639890b99e4663c",
+  "bytes": 11377,
+  "sha256": "be1c5d5674ed089ca6cad97255dae19188474071436e86e0767428e6e2324509",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -60,6 +60,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        11258,
+        11377
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

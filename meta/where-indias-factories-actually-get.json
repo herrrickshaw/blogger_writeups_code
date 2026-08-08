@@ -3,11 +3,11 @@
   "title": "Where India’s Factories Actually Get Built — IEM State & Sector Analysis",
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
-  "published": "2026-08-02T12:14:17.826+05:30",
-  "updated": "2026-08-08T09:28:51.915+05:30",
+  "published": "2026-08-02T12:14:17.000+05:30",
+  "updated": "2026-08-08T14:22:11.038+05:30",
   "labels": [],
-  "bytes": 37296,
-  "sha256": "50b36781318c9b981d5614cb37c785c4b3d108087414745333309a3ed5256c73",
+  "bytes": 37415,
+  "sha256": "125b0b29f798ed6de86076b02ee4fd59a0beac07b1abbdcfc850ce1afd856f19",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37296,
+        37415
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

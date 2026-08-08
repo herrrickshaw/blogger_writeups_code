@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-08T12:03:47.969+05:30",
+  "updated": "2026-08-08T14:24:26.376+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 17227,
-  "sha256": "06097a45b1881b8ea100fe31b5b9312b6b55146817e3dced63bd46dee7b33ccd",
+  "bytes": 17346,
+  "sha256": "62e7b5deed2a9739e730c5f2ba00c8a16e5c04ec4d3a677f8b879c192205c622",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -62,6 +62,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        17227,
+        17346
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

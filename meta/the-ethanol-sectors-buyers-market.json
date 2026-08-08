@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-08-08T12:07:15.875+05:30",
+  "updated": "2026-08-08T14:15:59.529+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 9443,
-  "sha256": "b990278a0af9775058ed619fb30e41e4406a55a7185acbd37d99c5718d131727",
+  "bytes": 9562,
+  "sha256": "6061217909a48bf395afdc4a1ff11172233fced59dcfd8f627cb93713e0cf39e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        9443,
+        9562
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

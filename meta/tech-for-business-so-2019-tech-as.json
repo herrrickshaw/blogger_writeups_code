@@ -3,11 +3,11 @@
   "title": "Tech for Business so 2019, Tech As Business is for 2020! ",
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
-  "published": "2020-10-04T17:27:00.002+05:30",
-  "updated": "2026-08-08T09:25:46.881+05:30",
+  "published": "2020-10-04T17:27:00.000+05:30",
+  "updated": "2026-08-08T14:25:46.710+05:30",
   "labels": [],
-  "bytes": 28171,
-  "sha256": "042995ebb5a7490aeada6acf03202ba9b65f72ad90ab00de47eb6b04bc63c49a",
+  "bytes": 28290,
+  "sha256": "a14e5110ab4e903c34943bdfe5346b6ae1ab510ec21cc2a252aefff2dd86bf66",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28171,
+        28290
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

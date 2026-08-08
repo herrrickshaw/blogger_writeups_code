@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-08-08T12:42:01.467+05:30",
+  "updated": "2026-08-08T14:14:30.458+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 15015,
-  "sha256": "d3ad375f1c049b8872a2b8073df2d6dc1356fecda29551322d2931b3deba7356",
+  "bytes": 15134,
+  "sha256": "b1bed0ccf54da9b1d4d4a32557515d2fa787393534fb1adc6ae16f630970b170",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "disambiguate four chemical post titles (no deletions)"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        15015,
+        15134
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

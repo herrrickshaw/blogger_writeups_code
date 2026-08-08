@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-08T12:00:00.986+05:30",
+  "updated": "2026-08-08T14:25:15.651+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 6500,
-  "sha256": "d59c65aa69ee8ef52ddbb7e056dd58f8ab1f625d339946b644206077014786e1",
+  "bytes": 6619,
+  "sha256": "72eeca2d898df8f2dc6438227c52904851089f6e5140c9edd65a27c7271874c2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -61,6 +61,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        6500,
+        6619
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-08-08T12:08:42.532+05:30",
+  "updated": "2026-08-08T14:15:52.031+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 9160,
-  "sha256": "644b8e03a31ae97c3ecb0461724a3101fe392ec2e1a96fd4068cd92c363ec527",
+  "bytes": 9279,
+  "sha256": "a297592bd78564f34990fe294c0764652376c0f71a449b0418b078792341ea47",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        9160,
+        9279
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

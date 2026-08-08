@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-08-08T12:08:28.311+05:30",
+  "updated": "2026-08-08T14:21:36.752+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 39108,
-  "sha256": "9b1e2d533c446be83fbc94a3eb3d825391147178bac820c1c88bc08ceeeffc8b",
+  "bytes": 39227,
+  "sha256": "9a3ce56e459522a381c140425b943c45de2b5ac379415e91be1a603bf8c440c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39108,
+        39227
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

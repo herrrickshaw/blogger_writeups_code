@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-08-08T12:08:35.940+05:30",
+  "updated": "2026-08-08T14:15:15.624+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 12342,
-  "sha256": "2cfae8b9cf15d217925c180cb576274678c654cf3b74ba70fba1658f2b83cd6f",
+  "bytes": 12461,
+  "sha256": "dae350982cdcb6de5c94c8768a7efcdc4c8cc29cca9a7bbf2a75a3c44ab3f5f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        12342,
+        12461
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-08-08T12:07:23.951+05:30",
+  "updated": "2026-08-08T14:23:18.605+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 69218,
-  "sha256": "f9c7c8084592ad1c62aaadca612610e6c6457dcdbc5572228ace7d2b141b1bb4",
+  "bytes": 69337,
+  "sha256": "06402e13ada283350fbb8e88426494b58accffd7323e656743598e632d2625c6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -75,6 +75,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "grain post: LMT/MT inversion fixed; lakh-crore column left alone"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        69218,
+        69337
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

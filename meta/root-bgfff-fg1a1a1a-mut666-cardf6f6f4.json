@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
   "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
   "published": "2026-08-02T09:54:34.000+05:30",
-  "updated": "2026-08-08T12:06:37.718+05:30",
+  "updated": "2026-08-08T14:22:19.597+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 118672,
-  "sha256": "196f94a1764185d6aab0ed5be5d5e055cf75efc3ad4c17d0f19c67eb646542a5",
+  "bytes": 118791,
+  "sha256": "d65fef1dd345d0e994ad71875daff40bb24c4e56ec8520cc74325890e77acffc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -60,6 +60,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        118672,
+        118791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

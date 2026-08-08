@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-08-08T12:01:14.979+05:30",
+  "updated": "2026-08-08T14:21:08.170+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 36385,
-  "sha256": "2f0e3fcbf5c721f33e7fd85543a898841da34dcef2a286fb8aa3ecb4216a7ba4",
+  "bytes": 36504,
+  "sha256": "09858a46a34dcaa509c5a28ba03b0c1097e836702df6737a0287fed821a4d52d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -74,6 +74,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36385,
+        36504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

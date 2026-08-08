@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-08-08T12:06:46.161+05:30",
+  "updated": "2026-08-08T14:18:14.949+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 114529,
-  "sha256": "eb6fa9a7273104259a000676433a11e4f43ff71fa0536bddb77cd1420cbe1e24",
+  "bytes": 114648,
+  "sha256": "d44cc26ec2d613757e19092d534078579cc4bde6dd81fb68ee6b43b11434f537",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "securitising-deficit: 6 of 9 unit violations hoisted"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        114529,
+        114648
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

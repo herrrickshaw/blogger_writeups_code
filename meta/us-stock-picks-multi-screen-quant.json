@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-08T12:08:13.372+05:30",
+  "updated": "2026-08-08T14:24:33.954+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 26561,
-  "sha256": "ff2f707e493ac550f58e655f6aa56824c9fc17dac4801bb46bdb336850fc3347",
+  "bytes": 26680,
+  "sha256": "583dd425331184f39db39c249411f1dd8d37f591dd2854d4e984cc8eb61e0cd5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26561,
+        26680
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

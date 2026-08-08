@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-08-08T12:03:09.262+05:30",
+  "updated": "2026-08-08T14:15:37.992+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 9519,
-  "sha256": "3fb260c6a73e958fd483306be09f325264d417b9a3d4fbf232107c98382a41d0",
+  "bytes": 9638,
+  "sha256": "f632302bf151930428935cce1b457ff370e14f880872d50c09fc5ba2edc62a14",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        9519,
+        9638
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

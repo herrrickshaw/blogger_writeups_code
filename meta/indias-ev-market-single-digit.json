@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-08-08T12:03:32.330+05:30",
+  "updated": "2026-08-08T14:20:07.258+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 32116,
-  "sha256": "1a1c81ec9a5b04261a52ff157269360abccc1ddb77d8ceffa690e91cde5f77da",
+  "bytes": 32235,
+  "sha256": "2bd865972f5c1bff221606321f6e1f3da67095fbccc90576be2bae17dccf9507",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "EV and green-debt posts cleared; units pass complete"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32116,
+        32235
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

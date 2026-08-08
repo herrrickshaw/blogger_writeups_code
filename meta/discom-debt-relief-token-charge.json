@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html",
   "slug": "discom-debt-relief-token-charge",
   "published": "2026-08-02T13:41:21.000+05:30",
-  "updated": "2026-08-08T12:00:31.820+05:30",
+  "updated": "2026-08-08T14:21:56.859+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 17603,
-  "sha256": "9c4956fc7cc1bdaa1227a7c2c55f215b6c554784a1e03dd6d0ced06ade5d222a",
+  "bytes": 17722,
+  "sha256": "208abc655ed0defd8f198614ee9d0bab33019529bfdc3b62474c30b5989ccf25",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        17603,
+        17722
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

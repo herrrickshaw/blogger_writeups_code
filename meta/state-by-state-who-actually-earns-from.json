@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-08-08T12:06:53.586+05:30",
+  "updated": "2026-08-08T14:20:00.537+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 47943,
-  "sha256": "785b29945195447d4916b1280a7ecb0531501f8506311499fba04b8e928fe078",
+  "bytes": 48062,
+  "sha256": "d90fc4cb07be2fa383061b3a10f23df9c13c3afa447f2d016ca6078e60e75c07",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        47943,
+        48062
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

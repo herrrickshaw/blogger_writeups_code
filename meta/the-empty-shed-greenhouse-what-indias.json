@@ -3,11 +3,11 @@
   "title": "The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
-  "published": "2026-08-05T14:59:21.416+05:30",
-  "updated": "2026-08-08T09:26:22.175+05:30",
+  "published": "2026-08-05T14:59:21.000+05:30",
+  "updated": "2026-08-08T14:15:30.603+05:30",
   "labels": [],
-  "bytes": 10421,
-  "sha256": "83a5961f21290f7e3c53279bc5b409219c29d3f17521976d967f4fb30522a4e7",
+  "bytes": 10540,
+  "sha256": "edab61912673beca0f89b0b0ccbe08c42e36afc4c4ea9b89ec79e3839d6373c4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        10421,
+        10540
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }

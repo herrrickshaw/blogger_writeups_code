@@ -3,11 +3,11 @@
   "title": "Real GDP Growth — India, FY2012-13 to FY2025-26",
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
-  "published": "2026-08-02T13:45:39.652+05:30",
-  "updated": "2026-08-08T09:24:34.516+05:30",
+  "published": "2026-08-02T13:45:39.000+05:30",
+  "updated": "2026-08-08T14:21:43.322+05:30",
   "labels": [],
-  "bytes": 23227,
-  "sha256": "508ab449baecae388e44f114e116fbc29d9107bb258a990022b6d5d88eb583aa",
+  "bytes": 23346,
+  "sha256": "1420f37dd0b03f21db74184d9b630752fb5f961d40b37124a0e7f0df941fc728",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T14:26:40+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23227,
+        23346
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "site-index stub in all 98 posts"
     }
   ]
 }
