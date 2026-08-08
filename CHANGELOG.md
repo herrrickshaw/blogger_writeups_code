@@ -1113,3 +1113,16 @@ index piece count 73 -> 92
 **Changed**
 
 - `article-index-start-here` — 32,130 → 31,952 bytes (-178)
+
+## 2026-08-08T09:53:09+05:30 — 95 posts live
+
+nature-versus-nurture: 17 of 23 unit violations hoisted
+
+
+**Versions**
+
+- `nature-versus-nurture-indias-fertiliser` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `nature-versus-nurture-indias-fertiliser` — 70,182 → 70,030 bytes (-152)

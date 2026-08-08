@@ -1156,3 +1156,36 @@ cannot get there. I also blamed an unset `origin/HEAD` for the first failed
 attempt; that was wrong, `origin/HEAD` resolves fine here. Using the branch
 upstream is still the more correct ref, but the real reason that attempt did not
 fire is not established. The next genuine collision is the test.
+
+## 2026-08-08 — nature-versus-nurture: 23 unit violations, 17 hoisted, 6 kept
+
+The worst-offending post, done by hand because each column needed a different
+answer. **23 → 6**, 62 cells rewritten, non-table text verified byte-identical.
+
+Hoisted: `Revised requirement, MT` · `Domestic output, MT` · three gas-demand
+columns to `mmscmd` · `Capacity, LMTPA` · `Total incremental demand, mmscmd` ·
+the whole scenario grid to `mmscmd`/`%` · four cost columns to `US$ bn` ·
+`Combined incremental demand by 2030, mmscmd`.
+
+**The six left alone are the interesting half**, and each is a reason the rule
+needs judgement rather than a regex:
+
+- **`Import growth y/y`** holds `+120%` and `up from 56%`. The first is a growth
+  rate, the second is prose about a level. Hoisting the `%` would leave
+  "up from 56", which is not a number and not true.
+- **`Gas price scenario`** holds `APM ($7/MMBtu)`. The unit sits inside a
+  descriptive label, not a numeric column; "APM (7)" reads worse than the
+  original. A label is not a measurement.
+- **`Domestic output, MT`** still shows `%` — but that is the parenthetical
+  change, `19.75 (−3.7%)`, not the column's unit. The MT was hoisted and the
+  change stayed, which is right: two different things were in that cell.
+- **`Figure`** mixes `7.17 MT` with `89.30 LMT`. Two units in one column, an
+  order of magnitude apart. Hoisting either would require silently rescaling the
+  other, which is exactly the thing not to do.
+
+**The checker will keep reporting these six, and it should.** A rule that can be
+permanently silenced per cell becomes a rule nobody re-examines. Six standing
+findings on a 25-table post, each with a recorded reason, is the honest state.
+
+Remaining across the blog: **57 violations in 17 posts**, largest now
+`securitising-deficit` at 9.

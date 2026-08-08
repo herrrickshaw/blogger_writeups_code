@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T09:49:50+05:30",
+  "snapshot": "2026-08-08T09:53:09+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -1393,10 +1393,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
       "slug": "nature-versus-nurture-indias-fertiliser",
       "published": "2026-08-02T21:05:10.094+05:30",
-      "updated": "2026-08-08T09:22:31.716+05:30",
+      "updated": "2026-08-08T09:51:50.702+05:30",
       "labels": [],
-      "bytes": 70182,
-      "sha256": "e136a71049d4c9a7577099511043231b2db4e3205a253c43a661725b6d9d4b44",
+      "bytes": 70030,
+      "sha256": "5a026ef8c0226150ac735e3eb06ed5505aa2a465ca958992ed924550478d5378",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1408,7 +1408,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1429,6 +1429,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T09:53:09+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-0 distinct numbers)",
+          "bytes": [
+            70182,
+            70030
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "nature-versus-nurture: 17 of 23 unit violations hoisted"
         }
       ]
     },
