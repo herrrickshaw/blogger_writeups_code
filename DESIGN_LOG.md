@@ -698,3 +698,22 @@ empty commits a year on top of a history whose whole purpose is being readable
 enough to revert from. It now returns before touching the changelog when nothing
 was added, changed, moved, removed, re-dated or version-bumped; `--allow-empty`
 restores the old behaviour.
+
+### Where the checker runs changes its answer
+
+The first full link audit from CI reported **243 of 399 external links dead**.
+Zero were 404s: 99 `URLError`, 89× `429`, 55× `403`. The same links returned
+**391/399 OK from an Indian connection**. Many Indian government portals —
+`cm.karnataka.gov.in`, `dipr.mizoram.gov.in`, `mpinfo.org` — refuse foreign
+datacentre IPs outright, and a GitHub runner is exactly that.
+
+An audit whose verdict depends on which continent it runs from is not a signal.
+So **only 404 and 410 count as dead**. Everything else non-200 is UNVERIFIABLE
+and never fails the run. The final CI run: `DEAD 0 | unverifiable 229` — a large
+unverifiable count is expected and fine, because the number that matters is zero.
+
+Final state, both workflows green:
+
+- `archive-sync` — no change → no changelog entry, no commit, nothing pushed;
+  homepage 200 with 5 cards; 10/12 posts verified, 2 inconclusive; **healthy**.
+- `link-audit` — 494 links, **DEAD 0**, 229 unverifiable.
