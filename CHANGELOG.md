@@ -1236,3 +1236,20 @@ petroleum trade pairings published; contrast fixed
 **Changed**
 
 - `article-index-start-here` — 31,952 → 32,187 bytes (+235)
+
+## 2026-08-08T10:34:14+05:30 — 97 posts live
+
+LNG status report published
+
+
+**Added**
+
+- `europe-bought-record-amount-of-lng-and` **v1.0.0** — Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier (18,462 bytes)
+
+**Versions**
+
+- `article-index-start-here` **7.0.0 → 8.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 32,187 → 32,444 bytes (+257)

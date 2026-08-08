@@ -1442,3 +1442,44 @@ the first non-transparent background it found without compositing alpha, so
 several "failures" in the 89 and 59 counts were artifacts. The corrected version
 composites the stack down to an opaque colour. **A contrast checker that does not
 composite alpha will invent failures on any translucent chip.**
+
+## 2026-08-08 — LNG status report, European-import focus
+
+New post built from two sources: ACER's *Analysis of the European LNG market
+developments* (13 May 2026, 46pp, extracted locally) and the IGU *World LNG
+Report 2026* (7 July 2026).
+
+**The two sources were reconciled before anything was written**, because they
+report in different units — IGU in million tonnes of LNG, ACER in billion cubic
+metres of gas. At 1 Mt ≈ 1.36 bcm:
+
+| check | IGU | ACER | verdict |
+|---|---|---|---|
+| 2025 growth | +6.3% of 437 MT = 37 bcm | +35 bcm | agrees |
+| 2025 FIDs | 68.4 Mtpa = 93 bcm | 90 bcm | agrees |
+| EU total | — | 84 bcm at 58% ⇒ 145 bcm vs 146 stated | internally closes |
+
+Three independent checks, all within rounding. The conversion is stated in the
+article rather than applied silently to either source's figures, and Exhibit 2
+deliberately keeps both units side by side with the source named per row — which
+is why the units checker still flags that column, correctly.
+
+**The finding.** The EU imported a record 146 bcm in 2025 and passed China and
+Japan to become the largest LNG importer. 84 bcm of it — **58%** — came from the
+United States, which is 25% of all EU gas consumption. The 2022 problem was one
+dominant supplier by pipeline; the 2025 position is one dominant supplier by sea.
+And the Russian phase-out at end-2026 raises the US share by construction: taking
+a supplier out of a concentrated portfolio concentrates it further.
+
+The Hormuz fork is the sharpest number: ACER's two 2026 scenarios are **47 bcm
+apart**, about a third of the EU's annual intake, on whether the Strait reopens
+by 1 July.
+
+Verified live: 179 text nodes, **0 contrast failures**, three tables scrolling,
+no sideways scroll, `gs-table-v1` applied.
+
+**One process note.** The article was first published without `gs-table-v1`
+because it was built from the older per-post CSS template rather than the
+standard. Caught by grepping the published page for the marker. When the standard
+lives in a script, hand-built posts miss it — the marker check belongs in the
+pre-publish routine, not just in `table_standard.py`.

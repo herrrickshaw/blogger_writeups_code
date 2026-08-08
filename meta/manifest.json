@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-08T10:27:35+05:30",
-  "count": 96,
+  "snapshot": "2026-08-08T10:34:14+05:30",
+  "count": 97,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -3630,10 +3630,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.442+05:30",
-      "updated": "2026-08-08T10:27:25.731+05:30",
+      "updated": "2026-08-08T10:32:42.668+05:30",
       "labels": [],
-      "bytes": 32187,
-      "sha256": "3e1d9f51e4a0d574fbdc7fa3961a0add2d466515842836f3916b7a891301bf2e",
+      "bytes": 32444,
+      "sha256": "f715921fed740ad0879bb712225c41dc48e94a81d647ec5b6d52fa1d0351fcc6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3645,7 +3645,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.0.0",
+      "version": "8.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3757,6 +3757,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "petroleum trade pairings published; contrast fixed"
+        },
+        {
+          "version": "8.0.0",
+          "date": "2026-08-08T10:34:14+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-1 distinct numbers)",
+          "bytes": [
+            32187,
+            32444
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "LNG status report published"
         }
       ]
     },
@@ -5351,6 +5364,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "8664072105984985528": {
+      "id": "8664072105984985528",
+      "title": "Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
+      "slug": "europe-bought-record-amount-of-lng-and",
+      "published": "2026-08-08T10:31:50.699+05:30",
+      "updated": "2026-08-08T10:33:04.673+05:30",
+      "labels": [],
+      "bytes": 18462,
+      "sha256": "2cc6010ed54df67ecc04ad67351e5a440e520cf046b661050e59f508b5698e8f",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-08T10:34:14+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "LNG status report published"
         }
       ]
     },
