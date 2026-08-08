@@ -211,6 +211,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--note", default="", help="why this snapshot was taken")
     ap.add_argument("--no-commit", action="store_true")
+    ap.add_argument("--allow-empty", action="store_true",
+                    help="record a changelog entry and commit even when nothing changed")
     ap.add_argument("--push", action="store_true", help="push to origin after committing")
     ap.add_argument(
         "--as",
@@ -346,6 +348,15 @@ def main():
         + "\n",
         encoding="utf-8",
     )
+
+    # A scheduled sync that finds nothing new must leave no trace. Writing a
+    # CHANGELOG entry every run would bury the real history under one empty
+    # commit a day — and this archive exists so the blog can be reverted to an
+    # earlier state, which means its log has to stay readable.
+    nothing_happened = not (added or changed or moved or removed or bumped or redated)
+    if nothing_happened and not args.allow_empty:
+        print("no change since the last snapshot — no changelog entry, no commit")
+        return
 
     lines = [f"\n## {now} — {len(cur)} posts live"]
     if args.note:
