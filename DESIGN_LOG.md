@@ -806,3 +806,48 @@ The general lesson, which this session has now supplied three times over: **the
 claim most worth testing is the one that says a thing is unique.** "For the first
 time" and "only in India" are the sentences that fall over when one more column
 of data arrives — and the column that refutes them is usually one request away.
+
+## 2026-08-08 — Korea and Brazil, and a second qualification to the same claim
+
+Both obtained from national sources, both with a wrinkle worth recording.
+
+**Korea — Bank of Korea ECOS.** The documented public `sample` key works but
+caps at **10 rows per call**, which a 100-month series will not fit. Rather than
+page it a dozen times, request annual frequency (10 years = 10 rows) for the
+history and two 6-row monthly calls for 2026 and its base year. Series 404Y014,
+total index, 2020=100.
+
+**Brazil — IBGE.** Aggregate 6903, *&Iacute;ndice de Pre&ccedil;os ao Produtor*,
+general industry, variable 1394 (change on the same month a year earlier). Note
+the URL needs percent-encoded brackets — `localidades=N1%5Ball%5D` — or curl
+silently writes nothing and the parse fails on a missing file rather than a bad
+response.
+
+**Brazil qualified the central claim a second time.** The article said the
+2021–22 producer surge was a shared global cycle. For India, the US, Japan,
+Korea and the euro area it is. Brazil is not a variation on it:
+
+- **+11.1% in 2020**, the year every other economy here was flat or negative
+- **peak +31.6% in 2021** — earliest and roughly double anyone else's
+- hardest fall too, −6.2% in 2023
+
+That is the real losing about a quarter of its value against the dollar in 2020,
+not the commodity shock, which had not arrived. A producer index in a country
+with a collapsing currency and a heavy imported-input bill is partly measuring
+the exchange rate. Brazil is also the 2026 laggard, entering the year at −4.4%
+and only now crossing positive — the economy that led the last cycle trails this
+one.
+
+Korea, by contrast, is India's near-twin in 2026: +1.9% in January to +8.6% in
+May against India's +8.3% in April. That makes the corrected claim stronger, not
+weaker — the US turned harder and Korea turned identically.
+
+Post now v3.0.0. Verified live: 298 text nodes, 0 contrast failures, three
+tables scrolling, no sideways page scroll.
+
+**Twice now, adding data has qualified the headline claim** — first "uniquely
+domestic", then "a shared global cycle". Both were true of the countries in the
+table at the time and false once the table grew. The pattern is not that the
+claims were careless; it is that **a claim about universality is only ever as
+strong as the widest sample you have tried**, and the honest move is to name the
+sample in the sentence rather than to generalise past it.
