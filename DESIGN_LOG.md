@@ -443,3 +443,63 @@ computed, never estimated to look right.**
 The article also inherits this session's other lesson: the RBI bond's 8.05% is a
 *floating* rate reset half-yearly, and holding it flat for five years is an
 assumption. That is said in the text, with a link back to the WPI post.
+
+## 2026-08-08 — the overflow-x:auto wrapper never engaged
+
+The frozen spec says "every table sits in an `overflow-x:auto` wrapper". Every
+table did. The scroller had never once activated.
+
+`.tw{overflow-x:auto}` around a `table{width:100%}` does nothing: the table is
+told to fit its container, so it never exceeds it, so there is nothing to
+scroll. What it does instead is compress. Measured on a 375px phone, Exhibit 1
+of the 54EC post crushed six columns into 305px and grew rows to **eight lines
+and 170px tall**. The page passed every check the spec asks for — no sideways
+body scroll, cells wrapping, wrapper present — and was still unreadable.
+
+**Fix**, tested in the live DOM against two alternatives before being written to
+the file:
+
+```css
+.bnd table{width:auto;min-width:100%}
+.bnd th,.bnd td{white-space:nowrap}
+```
+
+`min-width:100%` keeps narrow tables filling the column; `width:auto` lets a wide
+one exceed it, which is what finally engages the scroller. `nowrap` puts every
+row on one line — 38px, uniform, the way a financial table should read. On the
+54EC post: 999 / 441 / 743px tables inside a 305px scroller, page still not
+scrolling sideways. A variant keeping the first column wrapping was rejected —
+it starved the label column and produced 60px rows for no gain.
+
+This **supersedes the spec's "cells wrap" rule**, which was written to stop the
+body scrolling sideways. Nowrap inside a working scroller achieves the same thing
+and reads better. Four other posts carry the same dead pattern
+(`diesel-doesnt-move-cpi`, `fourteen-years-of-indian-wholesale`,
+`indias-oil-fields-are-running-down`, `rooftop-solar-is-working-household`) and
+should get the same two lines.
+
+Contrast was clean throughout: 200 text nodes, 0 WCAG failures at both widths.
+One near-miss worth recording — 11.52px text on mobile looked like a finding
+until the node was identified as the `.eyebrow` label, which is `.72rem` by
+design. Body prose is 16.32px. **Read what the selector actually is before
+calling it a bug.**
+
+## 2026-08-08 — /2026/07/india-mineral-oil is a 404, and three links pointed at it
+
+The post renders fine at `/2026/08/india-mineral-oil-hsn-ch27-trade.html`. The
+`/2026/07/` address returns **HTTP 404** and always will: that slug is burned by
+the original, and Blogger never releases a slug.
+
+The trap is that the post's *published date* now reads 30 July 2026 while its URL
+still says `/2026/08/`. Restoring the true date does not move the URL — that was
+verified deliberately before the date change — so date and address permanently
+disagree on this post. Anyone reading the date and constructing the URL from it
+lands on a 404. That is exactly what happened here.
+
+Three internal links pointed at the dead address and are now repointed:
+`half-of-indias-import-bill-is` (2) and `fuel-pricing-to-crude-cost` (1). A feed
+sweep of all 95 posts confirms zero remaining in post content.
+
+**One occurrence remains, in `theme/theme.xml`** — a hardcoded "further reading"
+list in an HTML gadget. It is fixed in the repo copy but the theme has no API;
+applying it needs the Blogger theme editor.
