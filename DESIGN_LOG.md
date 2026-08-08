@@ -1946,3 +1946,34 @@ asked about biofuels.
 8.94% to US$296m in the same year fuel fell 32.6%. Same country, same customs
 source, opposite direction — which is what rules out "the relationship" as the
 explanation and points at petroleum specifically.
+
+## 2026-08-08 — Index now tracks the blog from the day it opened
+
+Cleared the stray `Meta` label from about-author (an artefact of testing whether
+the API could write labels at all — `apply_labels.py` skips posts that already
+have labels, so its own override never got the chance to blank it). Verified the
+orphan hub is empty and linked from nowhere: **Blogger returns HTTP 200 for any
+`/search/label/` path**, so a 200 proves nothing and the real test is whether the
+page renders any cards. It renders none.
+
+Two gaps surfaced while checking. **AI Tracker existed as a label but was missing
+from the index chips** — thirteen labels, twelve hubs listed. And the index had
+been built before the last two posts. Both fixed by regenerating.
+
+**Then the index was given a fourth axis: date.** It now opens with the founding
+date and carries a month-by-month table with a running total.
+
+**The interesting part is what that exposed.** The blog opened on **4 October
+2020** with a single post, then published nothing for **six years**. The archive
+proper starts **21 July 2026**. The month table shows October 2020 (1), July 2026
+(23), August 2026 (73) — and the gap is described in the text rather than hidden
+by starting the chart in 2026. A histogram that quietly begins at the busy part
+is a way of not mentioning the quiet part.
+
+**Also recorded on the page: three withdrawn drafts and duplicate variants** exist
+in the archive with no live URL. They are counted as absent rather than silently
+dropped, because "97 articles" should be a statement someone can check.
+
+The date logic is derived, not hardcoded: the founding date, the gap length and
+the month buckets all come from the manifest, so the section stays correct as
+posts are added.

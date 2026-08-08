@@ -45,6 +45,20 @@ LABEL_HUBS = [
     ("AI Tracker", "AI%20Tracker"),
 ]
 E = lambda s: html.escape(s, quote=True)
+_MON = ["January","February","March","April","May","June","July","August",
+        "September","October","November","December"]
+
+
+def _pretty_date(iso):
+    if not iso or len(iso) < 10:
+        return "?"
+    y, m, d = iso[:4], int(iso[5:7]), int(iso[8:10])
+    return f"{d} {_MON[m-1]} {y}"
+
+
+def _pretty_month(ym):
+    y, m = ym[:4], int(ym[5:7])
+    return f"{_MON[m-1]} {y}"
 
 
 def svg_graph(posts, min_posts=5, max_nodes=18):
@@ -125,15 +139,44 @@ def main():
     A = o.append
     A('<p class="eyebrow">Masala Deutsch &middot; Article index</p>')
     A('<h1>Every piece on this blog, three ways in</h1>')
-    A(f'<p class="standfirst">{len(posts)} articles on India&rsquo;s trade, energy and '
-      'industrial policy, each checked against official statistics. Browse by topic, by '
+    dates = sorted(p["published"] for p in posts.values() if p["published"])
+    first, last = (dates[0], dates[-1]) if dates else ("", "")
+    months = collections.Counter(p["published"][:7] for p in posts.values() if p["published"])
+    A(f'<p class="standfirst">Every piece published on this blog since it opened on '
+      f'{_pretty_date(first)} &mdash; {len(posts)} articles on India&rsquo;s trade, energy and '
+      'industrial policy, each checked against official statistics. Browse by date, by topic, by '
       'the country or state a piece is about, or by how the subjects connect to each other.</p>')
     A('<div class="stats">'
       f'<div class="stat"><b>{len(posts)}</b><span>Articles</span></div>'
       f'<div class="stat"><b>{len(LABEL_HUBS)}</b><span>Topic hubs</span></div>'
       f'<div class="stat"><b>{len(by_country)}</b><span>Countries covered</span></div>'
-      f'<div class="stat"><b>{len(by_state)}</b><span>Indian states covered</span></div>'
+      f'<div class="stat"><b>{_pretty_date(first)}</b><span>First post &mdash; the blog opens</span></div>'
       '</div>')
+
+    # ---- by date ----------------------------------------------------------
+    A('<h2>By date</h2>')
+    A('<p class="h2sub">The whole publishing history, including the part where nothing happened.</p>')
+    gap_note = ""
+    if len(dates) > 1:
+        d0, d1 = dates[0][:10], dates[1][:10]
+        y0, y1 = int(d0[:4]), int(d1[:4])
+        if y1 - y0 >= 1:
+            gap_note = (f'<p>The blog opened on <b>{_pretty_date(dates[0])}</b> with a single post, '
+                        f'and then published nothing for <b>{y1 - y0} years</b>. The archive proper '
+                        f'begins on <b>{_pretty_date(dates[1])}</b>. That gap is left visible here '
+                        'rather than smoothed away: the counts below are what was actually '
+                        'published, not a reconstruction.</p>')
+    A(gap_note)
+    A('<div class="tw"><table>')
+    A('<thead><tr><th>Month</th><th>Articles</th><th>Running total</th></tr></thead><tbody>')
+    run = 0
+    for m in sorted(months):
+        run += months[m]
+        A(f'<tr><td>{_pretty_month(m)}</td><td>{months[m]}</td><td>{run}</td></tr>')
+    A('</tbody></table></div>')
+    A('<p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the '
+      'archive manifest. Three earlier drafts and duplicate variants were withdrawn before this '
+      'index was built and are not listed; they have no live URL to link to.</p>')
 
     # ---- topics -----------------------------------------------------------
     A('<h2>By topic</h2>')

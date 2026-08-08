@@ -1413,3 +1413,16 @@ new post: South Africa fuel trade and the pricing basket
 **Added**
 
 - `south-africa-lost-its-gulf-fuel-supply` **v1.0.0** — South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India. (20,357 bytes)
+
+## 2026-08-08T13:03:46+05:30 — 99 posts live
+
+index: full publishing history from 4 October 2020
+
+
+**Versions**
+
+- `article-index-start-here` **10.0.0 → 11.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 120,635 → 122,416 bytes (+1,781)
