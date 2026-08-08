@@ -1,0 +1,111 @@
+name: AI tracker weekly
+
+# The AI High-Demand Launch Tracker is a dated weekly digest — "Edition 01, week
+# of July 31 2026". A dated post that stops being updated does not look
+# finished, it looks abandoned, and there is nothing in the post itself that
+# says when it went stale.
+#
+# This job does NOT write the edition. Ranking a week of AI launches needs
+# judgement and fresh research, and a workflow that auto-generated it would
+# produce filler. What it does is notice the post has aged, work out which
+# edition is due, and open an issue carrying the research checklist so the
+# writing starts from a brief instead of from scratch.
+
+on:
+  schedule:
+    # 04:00 UTC Monday = 09:30 IST, before the week's first publishing window.
+    - cron: "0 4 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: How stale is the tracker?
+        id: age
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, datetime as dt, re, pathlib
+          mf = json.loads(pathlib.Path("meta/manifest.json").read_text())
+          rec = next((v for v in mf["posts"].values()
+                      if v["slug"] == "ai-high-demand-launch-tracker"), None)
+          if not rec:
+              print("days=-1"); print("edition=?"); print("url="); raise SystemExit
+          upd = dt.datetime.fromisoformat(rec["updated"]).date()
+          days = (dt.date.today() - upd).days
+          body = pathlib.Path("posts/ai-high-demand-launch-tracker.html").read_text(
+              encoding="utf-8", errors="replace")
+          m = re.search(r"Edition\s*(\d+)", body)
+          ed = int(m.group(1)) if m else 0
+          print(f"days={days}")
+          print(f"edition={ed + 1:02d}")
+          print(f"current={ed:02d}")
+          print(f"url={rec['url']}")
+          PY
+
+      - name: Open the edition brief
+        if: steps.age.outputs.days != '-1'
+        uses: actions/github-script@v7
+        env:
+          DAYS: ${{ steps.age.outputs.days }}
+          EDITION: ${{ steps.age.outputs.edition }}
+          CURRENT: ${{ steps.age.outputs.current }}
+          URL: ${{ steps.age.outputs.url }}
+        with:
+          script: |
+            const {DAYS, EDITION, CURRENT, URL} = process.env;
+            const title = `AI tracker: Edition ${EDITION} due`;
+            const body = [
+              `The tracker was last updated **${DAYS} days ago** and is still showing`,
+              `Edition ${CURRENT}. ${URL}`,
+              '',
+              '**What the edition needs.** The post ranks launches by traction, so the',
+              'ranking is the work — a list without one is a feed, not a digest.',
+              '',
+              '- [ ] Launches from the past week across the five existing scope',
+              '      categories: coding tools, agentic platforms, foundation models,',
+              '      consumer AI, automation. Keep the categories stable or the',
+              '      edition-to-edition comparison breaks.',
+              '- [ ] Traction figures with a source for each — GitHub stars are',
+              '      checkable, "buzz" is not. Prefer the checkable one and say where',
+              '      a number is a judgement.',
+              '- [ ] Carry forward anything from Edition ' + CURRENT + ' that moved',
+              '      materially, so a reader can see direction rather than a snapshot.',
+              '- [ ] Update the edition number, the "Week of" date and the headline',
+              '      counts in the stats block. All three have gone stale together',
+              '      before.',
+              '- [ ] Tables follow `gs-table-v1`: units in the header, bare numbers in',
+              '      the cells. Run `python3 tools/units_in_header.py --file <post>`.',
+              '',
+              '**Do not auto-generate this.** A ranked digest assembled without',
+              'judgement reads as filler and is worse than a post that is openly a',
+              'month old. If there is no time to do the ranking, the honest move is to',
+              'date-stamp the existing edition rather than fake a new one.',
+            ].join('\n');
+            const {data: open} = await github.rest.issues.listForRepo({
+              owner: context.repo.owner, repo: context.repo.repo,
+              state: 'open', labels: 'ai-tracker',
+            });
+            if (open.length) {
+              await github.rest.issues.update({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: open[0].number, title, body,
+              });
+              core.info(`updated existing issue #${open[0].number}`);
+            } else {
+              const {data: made} = await github.rest.issues.create({
+                owner: context.repo.owner, repo: context.repo.repo,
+                title, body, labels: ['ai-tracker'],
+              });
+              core.info(`opened issue #${made.number}`);
+            }
