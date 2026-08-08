@@ -541,3 +541,33 @@ fourteen-years WPI, oil fields, rooftop solar. All 15 tables confirmed inside a
 unwrapped table would have started scrolling the page body instead. Verified live
 on the diesel post at 375px: 218 text nodes, 0 contrast failures, every row 38px,
 four of five tables scrolling internally, no sideways page scroll.
+
+## 2026-08-08 — theme.xml fix applied in the editor
+
+The stale `/2026/07/` mineral-oil link in the theme's "further reading" gadget is
+gone from the live theme. Verified three ways: the editor's own buffer after a
+full page reload (0 July, 1 August, 68,153 chars, 5 widgets, the `:has()` rule
+and the HTML2-in-main-bottom move both still present), and by curl on three
+rendered pages — `fuel-pricing-to-crude-cost`, `half-of-indias-import-bill-is`
+and the index — all reporting 0 dead links.
+
+**Method that worked, for next time.** Do not paste the whole file. The live
+theme had drifted from the repo copy, so a full-buffer paste would have silently
+reverted whatever the drift was. Instead:
+
+1. Read the buffer via `document.querySelector('.CodeMirror').CodeMirror` and
+   **count occurrences first** — abort if the target appears more than once.
+2. Replace the exact range with `cm.replaceRange(new, from, to)`, not
+   `setValue`. `replaceRange` is a real edit; `setValue` does not dirty the
+   editor and the save silently does nothing.
+3. Belt and braces on the dirty flag: focus the editor and send `space` then
+   `BackSpace` as **separate** keystrokes.
+4. Re-read the buffer and assert the invariants before saving — length delta,
+   widget count, that it still ends `</html>`, and that unrelated `/2026/07/`
+   links (there are 25, all legitimate) were untouched.
+5. Save, then **verify by curl on the rendered blog**, never by the editor UI.
+
+`theme/theme.xml` in this repo carries the same corrected URL. It differs from
+the live buffer by 16 characters — whitespace or entity normalisation applied by
+the editor, present before this change and not introduced by it. Recording the
+delta rather than pretending the two are byte-identical.
