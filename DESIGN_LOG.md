@@ -639,3 +639,62 @@ What *does* depend on this machine is authoring-side only: `snapshot.py`,
 `blogger_writeups_code`. If the laptop stops, the blog keeps serving and the
 **backup stops updating** — that is the only exposure, and it is a
 disaster-recovery concern, not an availability one.
+
+## 2026-08-08 — the archive syncs itself now
+
+The backup of a 96-post blog depended on one laptop being switched on. The blog
+itself never did — nothing a reader loads comes from here — but the archive, the
+version history and the ability to revert the site all did. Two GitHub Actions
+close that.
+
+**`archive-sync.yml`** — daily 02:40 UTC. Runs `snapshot.py` against the
+**public** Blogger feed, commits, pushes, then runs `site_health.py`. No
+credentials anywhere in it: the feed carries full post bodies, and publishing
+still needs OAuth from a workstation. Read-only by construction, which is the
+point — a scheduled job that can only read cannot damage the blog.
+
+**`link-audit.yml`** — weekly, plus the fast internal pass on any push touching
+`posts/` or `theme/`. Runs `link_audit.py`, keeps **one standing `link-rot`
+issue** rather than filing a new one weekly, and closes it when the audit comes
+back clean.
+
+Two new tools, both with a bug that would have shipped a false alarm:
+
+- `site_health.py` counted Blogger's stock `post-outer` class. This theme renders
+  `<div class='card'>` in **single quotes**, so a perfectly healthy homepage read
+  as zero cards.
+- A burst of parallel requests drew a 503 on a 415 KB post that served fine on
+  retry.
+
+Both were caught by running the tools against the live blog before wiring them
+up. **A monitor you have not watched succeed is not a monitor.**
+
+### The mistake worth keeping: "cannot check" is not "broken"
+
+The first CI run reported **83 of 93 posts broken**. Every one was a `429`.
+Blogger rate-limits by IP and a shared GitHub runner is throttled far harder than
+a home connection — the identical check had passed 93/93 locally minutes before.
+
+The same conflation then bit twice more: once in the post loop, once in the
+homepage branch, where a throttled fetch fell through to a generic handler and
+printed "homepage unreachable". Three instances of one reasoning error in a
+single afternoon.
+
+Throttles now go in their own bucket, are counted as **inconclusive**, and never
+fail the run. Pacing was set from measurement rather than taste: at 2 workers and
+0.6s the runner still drew 429s on 10 of 25 posts, and a check that comes back
+40% inconclusive is not a check. **1 worker, 1.5s apart, the 12 most recent
+posts** returns a real verdict in about twenty seconds. The weekly link audit
+covers the long tail.
+
+A monitor that cries wolf gets muted, and a muted monitor is worse than none —
+it looks like coverage.
+
+### Also fixed: the daily empty commit
+
+`snapshot.py` wrote a CHANGELOG entry and committed on every run, including runs
+that found nothing. Left alone, a daily schedule would have added roughly 365
+empty commits a year on top of a history whose whole purpose is being readable
+enough to revert from. It now returns before touching the changelog when nothing
+was added, changed, moved, removed, re-dated or version-bumped; `--allow-empty`
+restores the old behaviour.
