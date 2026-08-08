@@ -1986,3 +1986,12 @@ Corrected thermal-parity article: pulled live PPAC gas price data directly ($7.8
 **Changed**
 
 - `thermal-parity-is-dead-what-85-oil-and` — 20,980 → 21,655 bytes (+675)
+
+## 2026-08-08T21:50:23+05:30 — 111 posts live
+
+New article: India's fertiliser import bill ($18bn, +76% YoY) — Parliamentary Standing Committee's 90%-of-urea-cost-is-gas finding, cross-linked to the thermal-parity gas-pricing article
+
+
+**Added**
+
+- `indias-fertiliser-import-bill-hits-18` **v1.0.0** — India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why (15,558 bytes)
