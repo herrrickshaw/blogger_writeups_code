@@ -1964,3 +1964,12 @@ New article: cocoa/chocolate blockchain traceability — TradeLens's 2022 discon
 **Added**
 
 - `cocoas-blockchain-reckoning-one` **v1.0.0** — Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out (16,918 bytes)
+
+## 2026-08-08T21:34:03+05:30 — 110 posts live
+
+New article: India food processing — PLISFPI overshooting its own job target, Mega Food Parks, and the ₹92,651cr/yr cold-chain gap the growth numbers sit on top of; flagged 2023-24 wheat-ban precedent as export-policy risk
+
+
+**Added**
+
+- `indias-food-processing-story-pli-scheme` **v1.0.0** — India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing (17,346 bytes)
