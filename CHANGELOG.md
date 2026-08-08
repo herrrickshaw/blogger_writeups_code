@@ -1876,3 +1876,16 @@ Retitle companion post to 'UPI Mimicking the Plastic Card: Will MDR Be Like Visa
 **Changed**
 
 - `beyond-pump-what-upi-fee-would-cost` — 25,655 → 25,626 bytes (-29)
+
+## 2026-08-08T20:13:51+05:30 — 105 posts live
+
+Added card-network fee comparison (Exhibit 1): UPI/RuPay-debit 0%, Visa/Mastercard debit RBI-capped 0.3-0.9%, RuPay-credit-on-UPI ~2%, Visa/Mastercard/RuPay standalone credit 1.5-2.5% — direct answer to the article's title question
+
+
+**Versions**
+
+- `beyond-pump-what-upi-fee-would-cost` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+
+**Changed**
+
+- `beyond-pump-what-upi-fee-would-cost` — 25,626 → 29,472 bytes (+3,846)

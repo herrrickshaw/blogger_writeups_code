@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T20:07:38+05:30",
+  "snapshot": "2026-08-08T20:13:51+05:30",
   "count": 105,
   "posts": {
     "1157999291079244419": {
@@ -4093,13 +4093,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
       "published": "2026-08-08T20:01:53.000+05:30",
-      "updated": "2026-08-08T20:06:36.115+05:30",
+      "updated": "2026-08-08T20:13:23.798+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 25626,
-      "sha256": "16aaae66bee3013dc388b05440b269e77fc710eccec9224c131babd437813d05",
+      "bytes": 29472,
+      "sha256": "c58c91e6c46cbb2f1062ea1081033301d34b17e32d903f3d6df625b9ba6de2d0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4111,7 +4111,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4132,6 +4132,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Retitle companion post to 'UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?'"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-08T20:13:51+05:30",
+          "level": "major",
+          "reason": "figures changed (+9/-0 distinct numbers)",
+          "bytes": [
+            25626,
+            29472
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Added card-network fee comparison (Exhibit 1): UPI/RuPay-debit 0%, Visa/Mastercard debit RBI-capped 0.3-0.9%, RuPay-credit-on-UPI ~2%, Visa/Mastercard/RuPay standalone credit 1.5-2.5% — direct answer to the article's title question"
         }
       ]
     },

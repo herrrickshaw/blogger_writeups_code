@@ -72,13 +72,42 @@
 
 <p>Since 1 January 2020, Section 10A of the Payment and Settlement Systems Act prohibited any merchant discount rate on UPI transactions. On 4 August 2026, the Taxation and Other Laws (Amendment) Bill replaced that blanket ban with a notification power: the government will now specify which payment modes stay fee-exempt, and modes left off the list may lawfully attract a fee. No fee has been notified yet. This piece&rsquo;s <a href="https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html">companion article</a> covers the law change and the &#8377;437 crore incentive scheme in full, and works the fuel-retail case in detail &mdash; the most leveraged single category, at 3.87% dealer margin against a full-ticket fee. What follows here is the same arithmetic run across everywhere else UPI is actually spent.</p>
 
+<h2>Is UPI heading toward card-network pricing?</h2>
+<p class="h2sub">Four rows, one question: does a future UPI MDR converge on what Visa, Mastercard and RuPay already charge?</p>
+
+<p>India&rsquo;s card networks already answer the leverage question this article keeps asking &mdash; they have been pricing merchant acceptance for decades, at rates that are either RBI-capped (debit) or market-set (credit). The comparison matters because one payment mode already sits on <i>both</i> sides of the line: a RuPay credit card routed through the UPI interface is not the zero-MDR bank-to-bank rail this blog has otherwise been describing &mdash; it already carries a card-style fee, today, no new notification required.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">What each payment rail already charges a merchant</p>
+<p class="exsub">Statutory zero-MDR instruments, RBI-capped debit, and market-determined credit &mdash; three different pricing regimes sitting side by side on one QR code.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Payment mode</th><th>MDR to merchant, %</th><th>Basis</th></tr></thead>
+<tbody>
+<tr><td>UPI (bank-to-bank)</td><td>0</td><td>Statutory (PSS Act s.10A, since Jan 2020)</td></tr>
+<tr><td>RuPay debit card</td><td>0</td><td>Statutory (same s.10A provision)</td></tr>
+<tr><td>Visa / Mastercard debit card, turnover &le;&#8377;20L</td><td>0.4 (POS), 0.3 (QR)</td><td>RBI cap, &#8377;200 per-transaction ceiling</td></tr>
+<tr><td>Visa / Mastercard debit card, turnover &gt;&#8377;20L</td><td>0.9 (POS), 0.8 (QR)</td><td>RBI cap, &#8377;1,000 per-transaction ceiling</td></tr>
+<tr class="hl"><td><b>RuPay credit card on UPI, above &#8377;2,000</b></td><td><b>~2.0</b></td><td><b>NPCI interchange schedule (Oct 2023); ~1.5% to issuer, ~0.5% to network/acquirer</b></td></tr>
+<tr><td>RuPay credit card on UPI, &#8377;2,000 and under</td><td>0</td><td>Same NPCI schedule &mdash; small-ticket exemption</td></tr>
+<tr><td>RuPay standalone credit card (off-UPI)</td><td>1.5&ndash;2.0</td><td>Market-determined, uncapped</td></tr>
+<tr><td>Visa / Mastercard credit card</td><td>1.8&ndash;2.5</td><td>Market-determined, uncapped</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">RBI debit-card MDR caps (turnover-tiered, &#8377;200/&#8377;1,000 per-transaction ceilings): as summarised by Razorpay, tracing to RBI's post-2017 debit-card MDR rationalisation. RuPay-credit-on-UPI interchange (~2%, ~1.5%/~0.5% issuer/network split, &#8377;2,000 threshold): NPCI's October 2022 circular enabling the product, effective 1 October 2023, as reported by Terra Insight; the primary NPCI/bank circular (Canara Bank's published copy) could not be extracted as machine-readable text by this author and is not independently verified here, so the secondary reporting is what this table relies on. Credit-card MDR ranges (RuPay 1.5&ndash;2.0%, Visa/Mastercard 1.8&ndash;2.5%): as compiled by Honest Money's 2026 processing-fee comparison; unregulated market rates vary by merchant category, volume and negotiated terms, so these are ranges, not fixed prices.</p>
+</div>
+
+<div class="note"><b>The answer the data already gives.</b> RuPay-credit-on-UPI is the existence proof that the title's question is not hypothetical: the same UPI QR code, scanned with a RuPay credit card instead of a bank account, already carries a fee within spitting distance of what Visa and Mastercard charge on ordinary credit cards &mdash; roughly 2% against their 1.8&ndash;2.5%. Bank-to-bank UPI is still 0% by statute. But the amendment of 4 August 2026 removes the legal barrier that kept it there, and the nearest precedent &mdash; a UPI-rail product that already carries a card-style fee &mdash; suggests convergence toward card pricing is not a hypothetical extreme; it is a rate this ecosystem has already priced once.</div>
+
 <h2>The leverage curve, once more</h2>
 <p class="h2sub">Fee rate &divide; gross margin is the whole model.</p>
 
 <p>An MDR is a percentage of the ticket; the merchant absorbs it out of a gross margin; so the share of margin an MDR consumes is simply the fee rate divided by the margin. That holds for every counter that accepts UPI, regardless of category:</p>
 
 <div class="exhibit">
-<p class="exno">Exhibit 1</p>
+<p class="exno">Exhibit 2</p>
 <p class="extitle">The leverage curve: share of gross margin an MDR consumes</p>
 <p class="exsub">Arithmetic only &mdash; no category data required. Fee share of margin = fee rate &divide; gross margin.</p>
 <div class="tw">
@@ -113,7 +142,7 @@
 <p>NPCI has begun publishing merchant-category classification data, decoded by SBI Research in an August 2025 note. It does not contain margins &mdash; NPCI does not publish those &mdash; but it says where UPI&rsquo;s person-to-merchant volume and value actually sit, for July 2025:</p>
 
 <div class="exhibit">
-<p class="exno">Exhibit 2</p>
+<p class="exno">Exhibit 3</p>
 <p class="extitle">UPI&rsquo;s top 15 merchant categories by transaction value, July 2025</p>
 <p class="exsub">NPCI has published only 29 of an estimated ~300 merchant category codes so far &mdash; these 29 cover 82% of P2M volume and 52% of value.</p>
 <div class="tw">
@@ -147,9 +176,9 @@
 <p>Groceries, full-service restaurants and fast food are three separate NPCI categories, but they describe one behaviour &mdash; buying something to eat, at a counter, at a small ticket. Summed, they dwarf every other category in this table by volume, and their combined fee exposure is where an MDR would actually be felt by the largest number of people, even though no single one of them tops the value ranking:</p>
 
 <div class="exhibit">
-<p class="exno">Exhibit 3</p>
+<p class="exno">Exhibit 4</p>
 <p class="extitle">Groceries + restaurants + fast food, combined</p>
-<p class="exsub">Sum of the three highlighted rows in Exhibit 2; fee pool is author&rsquo;s computation on the combined July 2025 value.</p>
+<p class="exsub">Sum of the three highlighted rows in Exhibit 3; fee pool is author&rsquo;s computation on the combined July 2025 value.</p>
 <div class="tw">
 <table>
 <thead><tr><th>Quantity</th><th>Value</th></tr></thead>
@@ -172,22 +201,22 @@
 </tbody>
 </table>
 </div>
-<p class="exsrc">Author&rsquo;s computation: combined July 2025 value (Exhibit 2 rows) &times; the stated rate; annualised as one month &times; 12, which assumes July is representative &mdash; NPCI has not yet published a full-year series by category, so seasonal variation (festival-season grocery and food spend, for instance) is not captured. This is a gross ceiling on three categories only, not the full retail fee pool.</p>
+<p class="exsrc">Author&rsquo;s computation: combined July 2025 value (Exhibit 3 rows) &times; the stated rate; annualised as one month &times; 12, which assumes July is representative &mdash; NPCI has not yet published a full-year series by category, so seasonal variation (festival-season grocery and food spend, for instance) is not captured. This is a gross ceiling on three categories only, not the full retail fee pool.</p>
 </div>
 
 <p>Two things follow. First, at a &#8377;179 average ticket, the <i>absolute</i> rupee fee on any single grocery or food purchase is tiny &mdash; 45 paise at 0.25% &mdash; which is exactly why a flat MDR on these categories would be politically invisible transaction-by-transaction while generating a multi-thousand-crore annual pool in aggregate. Second, groceries, restaurants and fast food are structurally different merchants even though NPCI's data treats them alike: a kirana store's margin is set by wholesale procurement and thin retail markup, while a restaurant's is set by menu pricing against food cost, and the two do not sit at the same point on the leverage curve.</p>
 
 <ul>
-<li><b>Groceries run thin.</b> Organised and unorganised grocery retail in India conventionally operates on low-double-digit gross margins &mdash; procurement-driven, price-competitive, and the reason wholesale-format retailers exist. On the leverage curve (Exhibit 1), a 10&ndash;15% margin puts a 0.30% MDR at roughly 2&ndash;3% of margin: the same order of magnitude as kirana in the companion piece, because in practice it largely is kirana. At 3,033 million transactions in one month, groceries is UPI's single highest-volume merchant category of any kind &mdash; ahead of fast food, restaurants, and every other row in Exhibit 2.</li>
-<li><b>Restaurants and fast food are not the same margin story, even though NPCI groups them by volume similarly.</b> Menu pricing conventionally runs food cost at roughly a quarter to a third of the ticket, which reads as a wide gross margin on the ingredient line &mdash; but rent, staff, delivery-platform commissions and (for fast food specifically) franchise royalties consume most of that before it becomes operating profit. This article&rsquo;s framework prices an MDR against <i>gross</i> margin, where restaurants and fast food sit comfortably (Exhibit 1's 25&ndash;50% rows); a full-service operator worried about <i>net</i> margin would experience the same fee very differently, and that distinction &mdash; gross versus net, and how much of gross a payment fee actually reaches before opex &mdash; is not resolved by any data source used in this article.</li>
-<li><b>Delivery-platform transactions complicate this further and are outside NPCI's category as published.</b> A UPI payment routed through a food-delivery app is likely coded to the platform's own merchant category, not to the restaurant, meaning the restaurant/fast-food rows in Exhibit 2 probably undercount the true food-service transaction volume that ultimately reaches a kitchen. This article does not attempt to size that gap.</li>
+<li><b>Groceries run thin.</b> Organised and unorganised grocery retail in India conventionally operates on low-double-digit gross margins &mdash; procurement-driven, price-competitive, and the reason wholesale-format retailers exist. On the leverage curve (Exhibit 3), a 10&ndash;15% margin puts a 0.30% MDR at roughly 2&ndash;3% of margin: the same order of magnitude as kirana in the companion piece, because in practice it largely is kirana. At 3,033 million transactions in one month, groceries is UPI's single highest-volume merchant category of any kind &mdash; ahead of fast food, restaurants, and every other row in Exhibit 3.</li>
+<li><b>Restaurants and fast food are not the same margin story, even though NPCI groups them by volume similarly.</b> Menu pricing conventionally runs food cost at roughly a quarter to a third of the ticket, which reads as a wide gross margin on the ingredient line &mdash; but rent, staff, delivery-platform commissions and (for fast food specifically) franchise royalties consume most of that before it becomes operating profit. This article&rsquo;s framework prices an MDR against <i>gross</i> margin, where restaurants and fast food sit comfortably (Exhibit 2's 25&ndash;50% rows); a full-service operator worried about <i>net</i> margin would experience the same fee very differently, and that distinction &mdash; gross versus net, and how much of gross a payment fee actually reaches before opex &mdash; is not resolved by any data source used in this article.</li>
+<li><b>Delivery-platform transactions complicate this further and are outside NPCI's category as published.</b> A UPI payment routed through a food-delivery app is likely coded to the platform's own merchant category, not to the restaurant, meaning the restaurant/fast-food rows in Exhibit 3 probably undercount the true food-service transaction volume that ultimately reaches a kitchen. This article does not attempt to size that gap.</li>
 </ul>
 
 <h2>The rest of NPCI's top 15</h2>
 <p class="h2sub">Apparel, electronics, liquor, gaming, marketplaces, and bill payments &mdash; six more shapes on the same curve.</p>
 
 <ul>
-<li><b>Apparel &mdash; clothing shops (&#8377;10,874cr, &#8377;1,175 ticket) and uniforms/commercial clothing (&#8377;5,969cr, &#8377;909 ticket) &mdash; sit at the comfortable end.</b> Retail apparel conventionally runs 30&ndash;50% gross margin, so even a 1% MDR is 2&ndash;3% of margin (Exhibit 1's bottom rows). High ticket size plus wide margin is the mirror image of fuel: an MDR here is a rounding error.</li>
+<li><b>Apparel &mdash; clothing shops (&#8377;10,874cr, &#8377;1,175 ticket) and uniforms/commercial clothing (&#8377;5,969cr, &#8377;909 ticket) &mdash; sit at the comfortable end.</b> Retail apparel conventionally runs 30&ndash;50% gross margin, so even a 1% MDR is 2&ndash;3% of margin (Exhibit 2's bottom rows). High ticket size plus wide margin is the mirror image of fuel: an MDR here is a rounding error.</li>
 <li><b>Electronics shops (&#8377;10,068cr, &#8377;1,093 ticket) sit closer to fuel than to apparel.</b> Consumer-electronics retail is conventionally thin-margin, single digits to low teens, competing on price against e-commerce; at a 5&ndash;10% margin a 1% MDR is 10&ndash;20% of it. High-ticket, thin-margin, competing on visible price &mdash; the same structural profile that makes jewellery and fuel MDR-sensitive.</li>
 <li><b>Liquor (&#8377;5,920cr, &#8377;407 ticket) is a regulated-margin category, like fuel and kerosene, but the number is state-set and not in this article&rsquo;s sources.</b> State excise departments fix retail margins on liquor in most states (structurally comparable to the OMC dealer commission), but the specific commission percentage is state-by-state and not published in a form this article can cite &mdash; named, not numbered.</li>
 <li><b>Digital Goods: Games (&#8377;10,077cr, &#8377;287 ticket) does not fit the merchant-margin frame at all.</b> In-app and platform game purchases run through app-store or publisher billing with take-rates near 15&ndash;30% of the ticket, not a retail cost-of-goods margin &mdash; an MDR here would be a fee on a fee, a different question this article does not attempt to answer.</li>
