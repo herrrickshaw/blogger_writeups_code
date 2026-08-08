@@ -182,7 +182,10 @@ def main():
     A('<h2>By topic</h2>')
     A('<p class="h2sub">Live hub pages. Each updates itself as new pieces are labelled.</p>')
     A('<div class="chips">')
-    for name, slugpart in LABEL_HUBS:
+    # Alphabetical, case-insensitive, to match the site-wide topic browse.
+    # Ordering by post count put the biggest topics first, which reads as a
+    # ranking nobody asked for and moves whenever a post is labelled.
+    for name, slugpart in sorted(LABEL_HUBS, key=lambda t: t[0].lower()):
         n = 0
         A(f'<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">{E(name)}</a>')
     A('</div>')
