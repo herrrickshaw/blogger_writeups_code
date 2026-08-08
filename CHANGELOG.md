@@ -1915,3 +1915,12 @@ Inflation-trends article: added Exhibit 7 + verdict section on how middle-class 
 **Changed**
 
 - `inflation-trends-globally-what-five` — 40,613 → 46,412 bytes (+5,799)
+
+## 2026-08-08T20:56:29+05:30 — 106 posts live
+
+New article: LPG distributor commission (₹73.08/cylinder, PPAC) — closes the 'named not numbered' gap in the MDR articles; corrects the implicit grouping with fuel/kerosene, since LPG's margin (7.76%) gives it roughly half the MDR leverage exposure
+
+
+**Added**
+
+- `lpgs-missing-number-7308-commission-and` **v1.0.0** — LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol (17,748 bytes)
