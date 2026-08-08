@@ -703,3 +703,22 @@ table scroller fix; dead mineral-oil links repointed
 - `fuel-pricing-to-crude-cost` — 71,878 → 71,878 bytes (+0)
 - `half-of-indias-import-bill-is` — 16,701 → 16,701 bytes (+0)
 - `article-index-start-here` — 30,665 → 31,451 bytes (+786)
+
+## 2026-08-08T06:37:17+05:30 — 93 posts live
+
+table scroller fix applied to four more posts
+
+
+**Versions**
+
+- `diesel-doesnt-move-cpi-it-moves-40` **5.0.0 → 5.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-oil-fields-are-running-down-3696` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `rooftop-solar-is-working-household` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `fourteen-years-of-indian-wholesale` **1.2.0 → 1.2.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `diesel-doesnt-move-cpi-it-moves-40` — 27,727 → 27,891 bytes (+164)
+- `indias-oil-fields-are-running-down-3696` — 12,698 → 12,862 bytes (+164)
+- `rooftop-solar-is-working-household` — 10,743 → 10,907 bytes (+164)
+- `fourteen-years-of-indian-wholesale` — 19,333 → 19,499 bytes (+166)

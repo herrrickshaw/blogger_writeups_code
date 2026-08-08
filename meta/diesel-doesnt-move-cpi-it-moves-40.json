@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.791+05:30",
-  "updated": "2026-08-07T08:23:10.928+05:30",
+  "updated": "2026-08-08T06:30:26.089+05:30",
   "labels": [],
-  "bytes": 27727,
-  "sha256": "a8b0f69a06422b0fa9df4b7a6e2f84041e02910bf108110a0766b6b77282fdf5",
+  "bytes": 27891,
+  "sha256": "0fae7b219a4fff79638cdbb3f5f52765bd0e263d54b2ede6192849d20c363d4a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title suppressed via :has(). Blogger setting 'max posts on main page' raised 3->5, which did NOT change the homepage (still renders 2) — the constraint is the theme's index rendering, not the setting."
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-08-08T06:37:17+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27727,
+        27891
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix applied to four more posts"
     }
   ]
 }

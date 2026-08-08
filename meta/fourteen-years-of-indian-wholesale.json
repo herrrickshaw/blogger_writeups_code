@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.437+05:30",
-  "updated": "2026-08-07T09:53:27.220+05:30",
+  "updated": "2026-08-08T06:30:35.410+05:30",
   "labels": [],
-  "bytes": 19333,
-  "sha256": "9ab72f45836302771c39d0bd8c72dbaf1f80af1ceab638da92875a5fb9a96471",
+  "bytes": 19499,
+  "sha256": "4c299d1a1e79d089fd2fd039c4b843b9974987bbf8d93e8df998f1b38f9df2f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "WPI: calm-vs-current split, 2012-20 vs 2020-26"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-08-08T06:37:17+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        19333,
+        19499
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "table scroller fix applied to four more posts"
     }
   ]
 }

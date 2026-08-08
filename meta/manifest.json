@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T06:28:52+05:30",
+  "snapshot": "2026-08-08T06:37:17+05:30",
   "count": 93,
   "posts": {
     "1157999291079244419": {
@@ -204,10 +204,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
       "slug": "fourteen-years-of-indian-wholesale",
       "published": "2026-08-05T21:46:29.437+05:30",
-      "updated": "2026-08-07T09:53:27.220+05:30",
+      "updated": "2026-08-08T06:30:35.410+05:30",
       "labels": [],
-      "bytes": 19333,
-      "sha256": "9ab72f45836302771c39d0bd8c72dbaf1f80af1ceab638da92875a5fb9a96471",
+      "bytes": 19499,
+      "sha256": "4c299d1a1e79d089fd2fd039c4b843b9974987bbf8d93e8df998f1b38f9df2f1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -219,7 +219,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -253,6 +253,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "WPI: calm-vs-current split, 2012-20 vs 2020-26"
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-08-08T06:37:17+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            19333,
+            19499
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "table scroller fix applied to four more posts"
         }
       ]
     },
@@ -635,10 +648,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
       "slug": "rooftop-solar-is-working-household",
       "published": "2026-08-06T08:11:47.709+05:30",
-      "updated": "2026-08-06T08:11:47.709+05:30",
+      "updated": "2026-08-08T06:30:53.798+05:30",
       "labels": [],
-      "bytes": 10743,
-      "sha256": "82f576e146f79a574d18f0f5921a1645253cc9a9012a90a36d2e5abf328ac6bd",
+      "bytes": 10907,
+      "sha256": "f73979becf457386e4b59fe633bfc9f366e404b3efd4205d2a3809d0660f5f23",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -650,7 +663,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -658,6 +671,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T06:37:17+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            10743,
+            10907
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "table scroller fix applied to four more posts"
         }
       ]
     },
@@ -667,10 +693,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
       "slug": "indias-oil-fields-are-running-down-3696",
       "published": "2026-08-06T08:32:50.804+05:30",
-      "updated": "2026-08-06T08:32:50.804+05:30",
+      "updated": "2026-08-08T06:30:45.181+05:30",
       "labels": [],
-      "bytes": 12698,
-      "sha256": "dffed2f29ede9d06c809880a50401435bbdd613abed753444556ac9abe8ae769",
+      "bytes": 12862,
+      "sha256": "ae23a1a467f97e89b1f63755dad8cbceae2eecafe748b2379e9e33d1a81eef56",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -682,7 +708,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -690,6 +716,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T06:37:17+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            12698,
+            12862
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "table scroller fix applied to four more posts"
         }
       ]
     },
@@ -1579,10 +1618,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
       "slug": "diesel-doesnt-move-cpi-it-moves-40",
       "published": "2026-08-06T12:38:39.791+05:30",
-      "updated": "2026-08-07T08:23:10.928+05:30",
+      "updated": "2026-08-08T06:30:26.089+05:30",
       "labels": [],
-      "bytes": 27727,
-      "sha256": "a8b0f69a06422b0fa9df4b7a6e2f84041e02910bf108110a0766b6b77282fdf5",
+      "bytes": 27891,
+      "sha256": "0fae7b219a4fff79638cdbb3f5f52765bd0e263d54b2ede6192849d20c363d4a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1594,7 +1633,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "5.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1654,6 +1693,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "End-of-session snapshot. Theme: HTML2 moved to main-bottom; duplicate post title suppressed via :has(). Blogger setting 'max posts on main page' raised 3->5, which did NOT change the homepage (still renders 2) — the constraint is the theme's index rendering, not the setting."
+        },
+        {
+          "version": "5.0.1",
+          "date": "2026-08-08T06:37:17+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            27727,
+            27891
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "table scroller fix applied to four more posts"
         }
       ]
     },
