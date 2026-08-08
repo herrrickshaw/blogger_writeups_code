@@ -1946,3 +1946,12 @@ Strengthened fuel-retail MDR post: added NPCI's official UPI-ATM (ICCW) product 
 **Changed**
 
 - `upi-fees-are-now-legal-petrol-pumps` — 28,143 → 30,404 bytes (+2,261)
+
+## 2026-08-08T21:21:26+05:30 — 108 posts live
+
+New article: digital transformation in India's ethanol sector — E20 build-out (KPMG/Rajya Sabha data), AI mill/farm deployments (Findability Sciences), and academic blockchain-MRV proposals, clearly separated from what's actually deployed
+
+
+**Added**
+
+- `from-cane-to-code-digital-layer` **v1.0.0** — From Cane to Code: The Digital Layer Underneath India's E20 Milestone (18,309 bytes)
