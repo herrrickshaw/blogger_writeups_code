@@ -768,3 +768,16 @@ new post: international WPI/CPI comparison
 **Added**
 
 - `indias-wholesale-prices-next-to` **v1.0.0** — India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check (18,715 bytes)
+
+## 2026-08-08T07:57:36+05:30 — 94 posts live
+
+index +1
+
+
+**Versions**
+
+- `article-index-start-here` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 31,451 → 31,720 bytes (+269)
