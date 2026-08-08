@@ -1973,3 +1973,16 @@ New article: India food processing — PLISFPI overshooting its own job target, 
 **Added**
 
 - `indias-food-processing-story-pli-scheme` **v1.0.0** — India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing (17,346 bytes)
+
+## 2026-08-08T21:39:08+05:30 — 110 posts live
+
+Corrected thermal-parity article: pulled live PPAC gas price data directly ($7.86/MMBtu notified domestic price for Aug 2026, $8.90/MMBtu difficult-fields ceiling for Apr-Sep 2026) replacing stale secondary-sourced $7.00/$9.72 figures; ratio corrected 12.2:1→10.8:1 (2.0x thermal parity, near-exact match to industry's 10:1 rule)
+
+
+**Versions**
+
+- `thermal-parity-is-dead-what-85-oil-and` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+8/-5 distinct numbers)
+
+**Changed**
+
+- `thermal-parity-is-dead-what-85-oil-and` — 20,980 → 21,655 bytes (+675)
