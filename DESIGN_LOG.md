@@ -2094,3 +2094,33 @@ as a `b:widget-setting`. The patch adding an **AI Tools** section as the first
 topic is written, XML-validated and committed locally — but **browser access to
 blogger.com was revoked mid-task**, so it could not be applied. It needs the
 theme editor. Everything reachable through the Blogger API was completed.
+
+## 2026-08-08 — Accordion sorted alphabetically; AI Tools added (staged, not live)
+
+**Answer to "where is AI Tracker in this?" — it is not there.** The
+"Browse all articles by topic" accordion is a Blogger HTML gadget whose content
+is stored in `theme.xml` as a `b:widget-setting`, and **browser access to
+blogger.com is revoked**, so nothing in that block can be changed from here. The
+AI Tools topic exists everywhere the Blogger API reaches — the post label, the
+label hub, and the article index — and nowhere the theme editor is required.
+
+**Sorted alphabetically**, eleven topics, verified as a pure reorder: the
+sort asserts that the eleven `<details>` blocks account for the entire topics
+div with nothing between them, and that the file length is unchanged afterwards.
+A reorder that quietly drops a block would otherwise be invisible.
+
+AI Tools lands **second**, after Agriculture — "ai" sorts after "ag". Not pinned
+to the top: the instruction was alphabetical, and a weekly item at position two
+is not hard to find.
+
+**One design decision worth recording.** The first version of the entry used the
+current edition's title as the link text. That is wrong for a post which is
+republished in place every week — it would have been stale within seven days and
+would need a theme edit each time to correct. The link text is now
+"Weekly AI Tools tracker — latest edition", which stays true whatever the current
+edition says. **Anything inside the theme should be written to survive the
+content changing underneath it**, because the theme is the most expensive place
+on this blog to edit.
+
+The block is exported on its own to `out/accordion-ai-tools.html` so it can be
+pasted without touching the rest of the gadget.
