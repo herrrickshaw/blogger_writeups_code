@@ -503,3 +503,41 @@ sweep of all 95 posts confirms zero remaining in post content.
 **One occurrence remains, in `theme/theme.xml`** — a hardcoded "further reading"
 list in an HTML gadget. It is fixed in the repo copy but the theme has no API;
 applying it needs the Blogger theme editor.
+
+## 2026-08-08 — the dead URL is fixed with a 301, not a republish
+
+`/2026/07/india-mineral-oil-hsn-ch27-trade.html` now returns **HTTP 301** to
+`/2026/08/…`, verified by curl. The post loads at 139,734 bytes with its charts.
+
+None of the obvious repairs would have worked. The slug is burned, so
+republishing under it mints a suffix. Deleting whatever holds it does not release
+it — that was established the hard way earlier in this project. Changing the
+post's date does not move its URL either, which is *why* the date and the address
+disagree on this post in the first place.
+
+The fix is **Blogger Settings → Errors and redirects → Custom redirects**, with
+Permanent on so it is a 301 rather than a 302. This is the right tool for any
+burned-slug situation on this blog and should be the first thing reached for next
+time, instead of another republish attempt.
+
+Two UI traps worth writing down:
+
+- **The From/To fields already render a leading `/`.** Typing `/2026/07/…`
+  produces `//2026/07/…`, which the summary view shows plainly. Type the path
+  **without** the leading slash.
+- **The viewport resizes between tool calls** (1416×840 → 1486×812 mid-flow), so
+  a coordinate captured from one screenshot can miss by the next. Two attempts
+  were silently lost this way — the click landed outside the dialog and dismissed
+  it, and the list read "no items" afterwards. **Screenshot immediately before
+  every button click in this dialog**, and confirm the outer dialog says
+  "1 item" before trusting it. There are two levels: OK commits the rule to the
+  list, SAVE commits the list to the blog. Stopping after OK saves nothing.
+
+## 2026-08-08 — table scroller fix rolled out
+
+Applied to the four remaining posts carrying the dead pattern: diesel/CNG,
+fourteen-years WPI, oil fields, rooftop solar. All 15 tables confirmed inside a
+`.tw` wrapper first — the fix makes tables exceed their container, so an
+unwrapped table would have started scrolling the page body instead. Verified live
+on the diesel post at 375px: 218 text nodes, 0 contrast failures, every row 38px,
+four of five tables scrolling internally, no sideways page scroll.
