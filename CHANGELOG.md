@@ -1727,3 +1727,16 @@ new post: statewise fuel sales 17 years
 **Added**
 
 - `where-india-actually-burns-its-fuel` **v1.0.0** — Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales (15,785 bytes)
+
+## 2026-08-08T17:45:40+05:30 — 102 posts live
+
+MDR post: per-tank fee exhibit by vehicle class
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+22/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 20,045 → 22,539 bytes (+2,494)
