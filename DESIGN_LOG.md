@@ -2379,3 +2379,13 @@ Why there were no ads, in one line each, worst first:
 
 Expectation set: after ads.txt, AdSense re-crawls it within days; a site still
 in review serves nothing until "Ready" regardless of on-page correctness.
+
+**Post-fix verification, same hour:** on a live post in a clean browser (no ad
+blocker), `adsbygoogle.loaded === true`, Auto ads inserted its own `<ins>` and
+an `aswift_0` request frame — but every frame is 0×0. That is the signature of
+**"ad requested, no ad returned"**, not misconfiguration: the request chain
+works end-to-end and Google is declining to fill, which is what an
+empty-until-today ads.txt produces. Console screenshot confirms the site is in
+AdSense with Auto ads + Auto optimize ON. Nothing on-page left to change;
+the remaining variable is Google's ads.txt re-crawl and new-site fill ramp,
+typically 24–72 hours.
