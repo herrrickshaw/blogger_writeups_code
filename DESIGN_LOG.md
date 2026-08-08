@@ -890,3 +890,46 @@ opposite one. Brazil's deviation is a currency story; China's is a demand story.
 Post now v4.0.0, seven economies. The headline claim has been qualified three
 times in a day — "uniquely domestic", then "a shared global cycle", now "five out
 of seven". Each version was true of its sample. That is the whole lesson.
+
+## 2026-08-08 — the five-year cumulative summary
+
+Year-on-year rates are how prices get reported and a poor way to feel their
+weight. Exhibit 3 compounds 2021–25 into the question people actually ask.
+
+| | Producer, 5y | Consumer, 5y |
+|---|---|---|
+| Brazil | **+48.9%** | +35.7% |
+| United States | +33.9% | +21.1%* |
+| Euro area | +32.5% | — |
+| **India** | **+29.4%** | **+25.2%** |
+| Japan | +26.9% | +11.9% |
+| Korea | +20.5% | +16.6% |
+| China | +6.8%* | **+3.3%** |
+
+\* four years, not five — China's producer figure because the 2025 communiqué is
+unavailable, the US consumer figure because the OECD has no 2025 print. Both are
+labelled in the exhibit rather than silently averaged in.
+
+Brazil's producer prices rose **seven times** as much as China's over the window.
+India sits mid-table on both sides.
+
+**Where index levels existed, endpoints were used instead of compounding rates**
+— India 119.2→154.2, Korea 100.00→120.45, US 194.4→260.3, euro area 91.4→121.1.
+Compounding rounded annual rates accumulates error; an index has none.
+
+**A claim caught before it shipped.** The draft said India's 4.2-point
+producer-consumer gap was "smaller than the United States' or Japan's". Japan's
+15.0 is a fair comparison; the US number was not, because its producer side ran
+five years and its consumer side four. Recut to a matched 2020–24 window the US
+gap is 9.8 points — the conclusion survives, but only because it was checked.
+**A gap between two series is only meaningful if both cover the same window**, and
+this article had two series that did not.
+
+**And a defect the browser caught that the markup validator could not.** The new
+exhibit was numbered 4 but sits third in reading order, so the page ran
+1, 2, 4, 3. Balanced tags, valid HTML, wrong document. Renumbered. Worth adding
+to the check list: after inserting an exhibit, read the sequence of `.exno`
+labels off the rendered page.
+
+Post now v5.0.0. Verified live: 388 text nodes, 0 contrast failures, four tables
+scrolling, no sideways page scroll.
