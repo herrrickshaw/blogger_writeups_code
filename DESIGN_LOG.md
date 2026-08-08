@@ -1071,3 +1071,54 @@ cells reading `5%`, `14.5%`; `chemical-import-substitution-analysis` has
 `state-by-state-who-actually-earns-from` (20).
 
 Fixing them is a separate pass and has not been done — the ask was for the rule.
+
+## 2026-08-08 — the table standard, gs-table-v1
+
+One template for every table on the blog, and a script that applies it.
+
+```css
+/*gs-table-v1 — scoped to .post-body */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;
+ font-weight:700;text-align:right;vertical-align:bottom;padding:.6rem .7rem;
+ border:1px solid #111;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+```
+
+Dark header band at 18.9:1 contrast, every cell bordered, numerics right-aligned
+and tabular, first column left and allowed to wrap, units in the header.
+
+**Two design decisions taken only after a canary post proved the alternative
+wrong**, and both would have shipped broken across ninety-eight posts:
+
+1. **Scope to `.post-body`, not `.artx`.** The first version was `.artx`-scoped.
+   On the canary the table's wrapper turned out to be `.tblwrap`, the rules
+   matched nothing, and the published page had a transparent header and no
+   borders — while every local check passed. Every Blogger post body is inside
+   `.post-body`; that is the only wrapper you can rely on.
+2. **`display:block` on the table, so it is its own scroller.** With `width:auto`
+   and no `.tw` wrapper the table pushed the whole page sideways — the canary
+   reported `pageScrollsSideways: true`. A block-level table scrolls itself and
+   needs no wrapper, which matters because the posts do not agree on wrappers.
+
+**The unit hoist.** `tools/table_standard.py` moves a repeated unit out of a
+column and into its `<th>`, and refuses anything it cannot do cleanly:
+**73 units hoisted, 61 cells refused**. The refusals are correct and are the
+point — `tax on input 10%` is prose in a numeric column, and `$620mn` sitting in
+a column headed in billions would need silent rescaling. Both are human calls,
+so the script reports them instead of guessing. Compound units are stripped
+together (`₹9,743 cr` needs both tokens, one at a time never gets there) and a
+trailing `/qtl` is carried into the header as part of the unit.
+
+Guard: the script compares all visible non-table text before and after and
+refuses the file if any of it moved.
+
+**Verification on the canary before the batch:** header `rgb(17,17,17)` on white
+at **18.9:1**, 1px borders, four tables all self-scrolling, page not scrolling
+sideways, and `FY30 Substitution, %` over `-30 to -40` where the cells had read
+`-30% to -40%`.

@@ -1,0 +1,264 @@
+<style>
+.itx{font-family:Georgia,'Times New Roman',serif;color:#212529;line-height:1.62;max-width:none}
+.itx p{margin:0 0 1rem;max-width:68ch}
+.itx h2{font-family:-apple-system,'Segoe UI',sans-serif;font-size:1.35em;font-weight:700;color:#051C2C;
+  border-top:2px solid #051C2C;padding-top:.6rem;margin:2.6rem 0 .9rem;letter-spacing:-.01em}
+.itx h2 .num{display:inline-flex;align-items:center;justify-content:center;min-width:1.7em;height:1.7em;
+  margin-right:.55em;border-radius:6px;background:#2251FF;color:#fff;font-size:.62em;font-weight:700;
+  font-variant-numeric:tabular-nums}
+.itx .kick{font-family:-apple-system,'Segoe UI',sans-serif;font-size:.72em;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:700;color:#00A9F4}
+.itx h1{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:300;font-size:2.1em;line-height:1.15;
+  letter-spacing:-.02em;margin:.3rem 0 .8rem;color:#051C2C}
+.itx h1 strong{font-weight:700}
+.itx .dek{font-size:1.08em;color:#5A666E;font-weight:400;max-width:68ch;margin:0 0 1.6rem}
+.itx .brief{background:#051C2C;color:#fff;padding:1.3rem 1.5rem;border-radius:2px;margin:1.6rem 0}
+.itx .brief .h{font-family:-apple-system,'Segoe UI',sans-serif;font-size:.72em;letter-spacing:.16em;
+  text-transform:uppercase;font-weight:700;color:#00A9F4;margin-bottom:.6rem}
+.itx .brief ul{margin:.3rem 0 0 1.1rem;padding:0;font-size:.95em}
+.itx .brief li{margin-bottom:.5rem;color:#E8EDF1}
+.itx .exh{border-top:2px solid #051C2C;padding-top:.6rem;margin:2rem 0}
+.itx .lab{font-family:-apple-system,'Segoe UI',sans-serif;font-size:.7em;letter-spacing:.14em;
+  text-transform:uppercase;font-weight:700;color:#5A666E}
+.itx .ttl{font-family:-apple-system,'Segoe UI',sans-serif;font-size:1.05em;font-weight:700;
+  margin:.2rem 0 .8rem;color:#051C2C}
+.itx .tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.itx table{border-collapse:collapse;width:100%;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.85em}
+.itx thead th{background:#051C2C;color:#fff;text-align:left;padding:.5rem .7rem;font-weight:600;white-space:nowrap}
+.itx td,.itx th{padding:.5rem .7rem;border-bottom:1px solid #D0D5D9;vertical-align:top}
+.itx tbody tr:nth-child(even){background:#F4F7FB}
+.itx .num-r{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+.itx tr.tot td{border-top:2px solid #051C2C;font-weight:700;background:#EEF2F6}
+.itx .note{font-size:.78em;color:#5A666E;line-height:1.5;margin-top:.7rem}
+.itx .side,.itx .warn{border-radius:2px;padding:1.1rem 1.3rem;margin:1.5rem 0;font-size:.94em}
+.itx .side{background:#F4F7FB;border-left:4px solid #2251FF}
+.itx .warn{background:#FDF3F2;border-left:4px solid #C0392B}
+.itx .side .h,.itx .warn .h{display:block;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;
+  margin-bottom:.5rem;color:#051C2C}
+.itx .src{font-size:.78em;color:#5A666E;border-top:1px solid #D0D5D9;margin-top:2.4rem;padding-top:.8rem}
+.itx svg{max-width:100%;height:auto}
+@media(max-width:640px){.itx h1{font-size:1.55em}.itx .brief,.itx .side,.itx .warn{padding:.9rem 1rem}}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="itx">
+
+<div class="kick">Services &middot; Balance of payments &middot; 4 August 2026</div>
+<h1>Indian IT in an <strong>AI Era</strong></h1>
+<p class="dek">The threat is not in the export data. India's services earnings just posted their biggest jump on record. It is in two leading indicators &mdash; and it is a balance-of-payments story, not an unemployment story.</p>
+
+<div class="brief">
+<div class="h">In brief</div>
+<ul>
+<li>Net services receipts hit <strong>$216.6bn in FY2025-26</strong>, up $27.8bn in a single year. They cover <strong>64%</strong> of India's goods trade deficit on their own, and <strong>107%</strong> once remittances are added.</li>
+<li>On every <em>measured</em> outcome, AI has so far <em>increased</em> India's services dollars. India's back-office exports sit <strong>27% above</strong> their pre-AI trend.</li>
+<li>The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to <strong>135,000</strong> (FY26) against a growing revenue base, and chief executives now name <strong>"AI deflation" worth 3&ndash;5% of revenue</strong>.</li>
+<li>IT is <strong>~1% of India's workforce but ~8% of GDP</strong>. That asymmetry is why an AI shock here would show up in the rupee long before it showed up in the jobs data.</li>
+</ul>
+</div>
+
+<h2><span class="num">1</span>Start with what services actually do for India</h2>
+
+<p>India runs a very large deficit in goods and a very large surplus in services. That is not a curiosity; it is the load-bearing structure of the external account. In FY2025-26 the merchandise trade deficit was <strong>$337.3 billion</strong>. The current account deficit was <strong>$25.2 billion &mdash; 0.6% of GDP</strong>. The distance between those two numbers is what services and remittances do.</p>
+
+<div class="exh">
+<div class="lab">Exhibit 1</div>
+<div class="ttl">What actually closes India's external account</div>
+<div class="tw"><table>
+<thead><tr><th>Balance of payments, US$ billion</th><th class="num-r">FY2024-25</th><th class="num-r">FY2025-26</th></tr></thead>
+<tbody>
+<tr><td>Merchandise trade deficit</td><td class="num-r">&minus;286.9</td><td class="num-r">&minus;337.3</td></tr>
+<tr><td><strong>Net services receipts</strong></td><td class="num-r"><strong>+188.8</strong></td><td class="num-r"><strong>+216.6</strong></td></tr>
+<tr><td>Net secondary income (remittances)</td><td class="num-r">+123.5</td><td class="num-r">+143.6</td></tr>
+<tr><td>Primary income (investment income paid out)</td><td class="num-r">&minus;48.3</td><td class="num-r">&minus;48.2</td></tr>
+<tr class="tot"><td>Current account balance</td><td class="num-r">&minus;22.9</td><td class="num-r">&minus;25.2</td></tr>
+</tbody></table></div>
+<div class="note">Source: Reserve Bank of India, Developments in India's Balance of Payments, Q4 2025-26. The lines sum to the published current-account figure in both years to within rounding, which is a useful check on the table. CAD was 0.6% of GDP in both years.</div>
+</div>
+
+<p>Two ratios follow, and they are the reason this article exists. <strong>Net services alone offset 64% of the goods deficit.</strong> Net services plus remittances offset <strong>107%</strong> &mdash; they more than cover the goods gap. What actually produces a current account deficit at all is the <strong>$48.2 billion</strong> that leaves as investment income to foreign holders of Indian assets.</p>
+
+<p>So when people ask whether AI threatens Indian IT, the question that matters for the country is narrower and sharper: does it threaten the <em>dollar receipts</em> that make a $337 billion goods deficit survivable at 0.6% of GDP?</p>
+
+<div class="side">
+<div class="h">The Economic Survey's own uncomfortable framing</div>
+The 2025-26 Survey praises the services performance as &ldquo;creditable and macro-stabilising&rdquo; and then says something harder: services exports are <strong>&ldquo;not a substitute for the goods-based export ecosystems that ultimately underpin durable external and currency stability.&rdquo;</strong> It adds that, unlike manufacturing, they &ldquo;do not impose hard fiscal, employment, or logistical constraints on the State, allowing institutional weakness to persist even alongside globally competitive firms&rdquo; &mdash; and that currency stability &ldquo;has always eluded countries that could not become successful and significant exporters of manufactured goods.&rdquo; That is the government arguing, in its own budget document, that the thing currently holding the external account together is not the thing that makes it durable.
+</div>
+
+<h2><span class="num">2</span>The measured data says AI is helping, not hurting</h2>
+
+<p>This needs stating plainly before any argument about risk, because it is the strongest evidence available and it points the other way.</p>
+
+<p>India's gross services exports reached <strong>$421.3 billion in FY2025-26</strong>, up from $387.5 billion. Telecom, computer and information services were <strong>$206.6 billion &mdash; 49.0%</strong> of the total; business services another <strong>$124.2 billion, or 29.5%</strong>. Net services receipts rose $27.8 billion in one year, the largest increase on record.</p>
+
+<div class="exh">
+<div class="lab">Exhibit 2</div>
+<div class="ttl">Three years after ChatGPT, the &ldquo;automatable&rdquo; exports are growing faster</div>
+<svg viewBox="0 0 740 300" xmlns="http://www.w3.org/2000/svg" style="font-family:-apple-system,'Segoe UI',sans-serif">
+<rect x="0" y="0" width="740" height="300" fill="#fff"/>
+<text x="60" y="20" font-size="12" fill="#5A666E">India's exports of &quot;other business services&quot; &mdash; the statistical home of BPO &mdash; US$ billion</text>
+<line x1="78" y1="42" x2="78" y2="232" stroke="#D0D5D9"/>
+<line x1="78" y1="232" x2="700" y2="232" stroke="#051C2C" stroke-width="1.5"/>
+<text x="70" y="236" font-size="11" fill="#5A666E" text-anchor="end">0</text>
+<text x="70" y="140" font-size="11" fill="#5A666E" text-anchor="end">100</text>
+<text x="70" y="47" font-size="11" fill="#5A666E" text-anchor="end">200</text>
+<line x1="78" y1="137" x2="700" y2="137" stroke="#EDF0F2"/>
+<line x1="78" y1="42" x2="700" y2="42" stroke="#EDF0F2"/>
+<rect x="150" y="117" width="90" height="115" fill="#8FA3B5"/>
+<rect x="330" y="99" width="90" height="133" fill="#2251FF"/>
+<rect x="510" y="56" width="90" height="176" fill="#2251FF"/>
+<text x="195" y="110" font-size="13" fill="#5A666E" text-anchor="middle" font-weight="700">121</text>
+<text x="375" y="92" font-size="13" fill="#2251FF" text-anchor="middle" font-weight="700">~140</text>
+<text x="555" y="49" font-size="13" fill="#2251FF" text-anchor="middle" font-weight="700">185</text>
+<text x="195" y="250" font-size="11" fill="#5A666E" text-anchor="middle">2022</text>
+<text x="375" y="250" font-size="11" fill="#5A666E" text-anchor="middle">2023-24</text>
+<text x="555" y="250" font-size="11" fill="#5A666E" text-anchor="middle">2025</text>
+<line x1="285" y1="42" x2="285" y2="232" stroke="#C0392B" stroke-width="1.5" stroke-dasharray="4,3"/>
+<text x="291" y="39" font-size="11" fill="#C0392B" font-weight="700">ChatGPT launches</text>
+<text x="78" y="275" font-size="12" fill="#051C2C" font-weight="600">Growth accelerated to 15.2% a year after launch &mdash; 27% above the pre-AI trend.</text>
+<text x="78" y="292" font-size="11" fill="#5A666E">All nine economies studied export more of these services than they did in 2022.</text>
+</svg>
+<div class="note">Source: Richard Baldwin (IMD), analysis of WTO quarterly and monthly commercial services statistics, published 30 July 2026, covering nine economies. The 2023-24 bar is interpolated for shape; the 2022 and 2025 endpoints are the published figures.</div>
+</div>
+
+<p>The Global Capability Centre build-out points the same way. India now hosts <strong>2,117 GCCs across 3,728 units</strong>, employing about <strong>2.36 million people</strong> and generating an estimated <strong>$98.4 billion</strong> in FY2025-26 &mdash; a 32% increase in centre count since FY21, with <strong>506 of the Forbes Global 2000</strong> operating one. Nearly half of all GCCs established since FY21 were designed AI-first from inception.</p>
+
+<p>And in the segment supposedly most exposed, Naukri's JobSpeak index recorded <strong>BPO/ITES hiring up 21% year on year</strong> in January 2026.</p>
+
+<div class="warn">
+<div class="h">A distinction that changes the whole argument</div>
+GCC revenue counts as India's services <em>exports</em> in the balance of payments even though the work is captive to a foreign parent. NASSCOM now describes the export base as roughly an even split between global multinationals (including GCCs) and Indian service providers. So the AI threat to <strong>Indian IT vendors</strong> and the AI threat to <strong>India's services export dollars</strong> are not the same question. GCC growth can keep the balance of payments healthy even while it hollows out the listed Indian vendors &mdash; and on current evidence, that is roughly what is happening.
+</div>
+
+<h2><span class="num">3</span>Where the warning actually shows up</h2>
+
+<p>Two indicators have turned, and neither is visible in the export total.</p>
+
+<p><strong>First, the headcount elasticity of revenue has collapsed.</strong> The industry added roughly <strong>450,000 people in FY2021-22</strong>. In FY2025-26 it added <strong>135,000</strong> &mdash; while industry revenue was expected to cross <strong>$315 billion</strong> and direct employment to reach about <strong>6 million</strong>, up 2.3%. Revenue keeps compounding; the hiring that used to accompany it does not.</p>
+
+<div class="exh">
+<div class="lab">Exhibit 3</div>
+<div class="ttl">Revenue keeps growing. Hiring does not.</div>
+<div class="tw"><table>
+<thead><tr><th>NASSCOM basis</th><th class="num-r">FY2024</th><th class="num-r">FY2025</th><th class="num-r">FY2026E</th></tr></thead>
+<tbody>
+<tr><td>Industry revenue (US$ bn)</td><td class="num-r">268.8</td><td class="num-r">282.6</td><td class="num-r">&gt;315</td></tr>
+<tr><td>Total headcount (million)</td><td class="num-r">5.67</td><td class="num-r">5.80</td><td class="num-r">~6.0</td></tr>
+<tr><td><strong>Net headcount additions</strong></td><td class="num-r">60,000<span class="note"> (old basis)</span></td><td class="num-r"><strong>126,000</strong></td><td class="num-r"><strong>135,000</strong></td></tr>
+<tr><td>Memo: net additions, FY2021-22</td><td class="num-r" colspan="3">~450,000</td></tr>
+</tbody></table></div>
+<div class="note">Source: NASSCOM Strategic Review 2024, 2025 and 2026, read from NASSCOM&rsquo;s own press releases and report page. Three cautions, and they matter. (i) NASSCOM <em>restated</em> FY2024 from $253.9bn/5.43mn to $268.8bn/5.67mn after its 2024 GCC landscape study, so the widely-quoted &ldquo;only 60,000 net adds in FY24&rdquo; sits on the pre-restatement basis and is not strictly comparable with the later years. (ii) The published figures give FY2024&rarr;FY2025 growth of 5.1%, which NASSCOM states; but $282.6bn&rarr;$315bn implies 11.5%, which it does not. That gap points to a further upward restatement of the FY2025 base (press reports put it near $297bn) that I could not confirm from a NASSCOM document, so no FY2026 growth rate is asserted here. (iii) All current-year figures are estimates at publication, not audited actuals.</div>
+</div>
+
+<p><strong>Second, and more consequentially, price is being given away.</strong> This is the channel by which AI can reduce dollar earnings even while volumes rise, and it is now on the record from the people running the companies.</p>
+
+<p>NASSCOM's own Strategic Review 2026 says providers &ldquo;re-engineered revenue models, moving away from FTE delivery to outcome-based, risk-sharing constructs as AI-driven productivity materialises,&rdquo; and that hiring will &ldquo;shift from volume to skill mix, reflecting greater <strong>AI-driven productivity gains passed through to clients</strong>.&rdquo; That last clause is the industry body conceding both halves of the problem: the productivity is real, and it is being handed to the customer as price rather than retained as margin.</p>
+
+<p>HCLTech's chief executive C. Vijayakumar put a number on it in April 2026, saying &ldquo;AI deflation&rdquo; would take <strong>3&ndash;5% off revenue</strong> in the coming year &mdash; while his company grew 6.0% in dollar terms (3.9% in constant currency) and added staff. TCS's K. Krithivasan acknowledged the same pressure, calling it &ldquo;degrowth.&rdquo; Infosys's finance chief Jayesh Sanghrajka told analysts in July 2026 that &ldquo;client expectation on productivity, along with high competitive intensity is resulting in <strong>softer increase in price versus our expectations</strong>.&rdquo;</p>
+
+<div class="exh">
+<div class="lab">Exhibit 4</div>
+<div class="ttl">FY2025-26 at the big five: revenue per head rose everywhere &mdash; but only two firms actually shed people</div>
+<div class="tw"><table>
+<thead><tr><th>Company</th><th class="num-r">FY26 revenue, US$</th><th class="num-r">YoY reported, %</th><th class="num-r">YoY const. currency, %</th><th class="num-r">Headcount, 31 Mar 26</th><th class="num-r">Net change</th></tr></thead>
+<tbody>
+<tr><td><strong>TCS</strong></td><td class="num-r">30,017M</td><td class="num-r">−0.5</td><td class="num-r">−2.4</td><td class="num-r">584,519</td><td class="num-r"><strong>&minus;23,460</strong></td></tr>
+<tr><td><strong>Infosys</strong></td><td class="num-r">20,158M</td><td class="num-r">&mdash;</td><td class="num-r">+3.1</td><td class="num-r">328,594</td><td class="num-r">+5,016</td></tr>
+<tr><td><strong>HCLTech</strong></td><td class="num-r">~14,700M</td><td class="num-r">+6.0</td><td class="num-r">+3.9</td><td class="num-r">227,181</td><td class="num-r">+3,761</td></tr>
+<tr><td><strong>Wipro</strong> <span class="note">(IT services)</span></td><td class="num-r">10,478M</td><td class="num-r">−0.3</td><td class="num-r">−1.6</td><td class="num-r">242,156</td><td class="num-r">+8,810</td></tr>
+<tr><td><strong>Tech Mahindra</strong></td><td class="num-r">6,385M</td><td class="num-r">+1.9</td><td class="num-r">+0.6</td><td class="num-r">147,623</td><td class="num-r">&minus;1,108</td></tr>
+<tr class="tot"><td>Cohort</td><td class="num-r">&mdash;</td><td class="num-r">&mdash;</td><td class="num-r">&mdash;</td><td class="num-r">&mdash;</td><td class="num-r"><strong>&minus;6,981</strong></td></tr>
+</tbody></table></div>
+<div class="note">All five now on a like-for-like US-dollar basis, from company filings. TCS: BSE-filed results, 9 April 2026, and the prior-year release for the 607,979 comparator. Infosys: Q4 FY26 fact sheet filed with the SEC (Form 6-K), 328,594 against 323,578. Wipro: Form 6-K Exhibit 99.5 filed with the SEC &mdash; the figure shown is <em>IT services</em> revenue, which <strong>fell</strong> 1.6% in constant currency. Tech Mahindra: Q4/FY26 press release and investor deck filed with BSE, 22 April 2026 (148,731 &rarr; 147,623). HCLTech headcount is press-reported; its own release states only &ldquo;227,000+&rdquo;. Revenue per employee rose at four of the five (roughly 3&ndash;4%); Tech Mahindra&rsquo;s is my calculation on closing headcount (~+2.7% in dollars), not a company disclosure. Lateral hiring across tier-1 fell 31,500 over the year; utilisation ran near 85%.</div>
+<div class="warn"><span class="h">An earlier version of this table overstated two firms</span>HCLTech was shown at <strong>+11.2%</strong> and Wipro at <strong>+4%</strong>. Both are <em>rupee</em> growth rates, and Wipro&rsquo;s was gross revenue including non-IT-services segments. On the dollar basis used by the rest of the table, HCLTech grew 6.0% and Wipro&rsquo;s IT services <em>shrank</em> 0.3%. Tech Mahindra was missing entirely. The corrected rows are above.</div>
+</div>
+
+<div class="side">
+<div class="h">Correcting a widely-repeated error</div>
+Several outlets reported that Infosys's headcount &ldquo;dropped&rdquo; to 328,594. It fell 8,440 <em>in the fourth quarter</em>, but Infosys <strong>added 5,016 people across FY2025-26 as a whole</strong>. TCS is the only one of the big five with a large net reduction. If you are watching this sector, watch the annual figure, not the quarter.</p><p style="margin:.7rem 0 0">Read the cohort the same way. <strong>Three of the five &mdash; Infosys, HCLTech and Wipro &mdash; added people in FY2026</strong>, together <strong>+17,587</strong>. The cohort&rsquo;s net &minus;6,981 is TCS&rsquo;s &minus;23,460 offset by everyone else&rsquo;s hiring, with Tech Mahindra shedding a further 1,108 &mdash; and even that is an internal mix shift (IT &minus;5,232, business process services +4,694) rather than a clean reduction. &ldquo;The industry is shrinking its workforce&rdquo; is not what the filings say. &ldquo;TCS is&rdquo; comes closer.
+</div>
+
+<h2><span class="num">4</span>The layoff that officially was not about AI</h2>
+
+<p>In late July 2025 TCS announced it would cut about <strong>12,000 roles &mdash; some 2% of its workforce</strong> &mdash; over FY2026, concentrated in middle and senior grades, with severance, extended health cover and outplacement. It was the largest such announcement in the sector's history, and the market read it as the first big AI displacement in Indian services.</p>
+
+<p>The company said otherwise, and the denial is unusually specific. Chief executive K. Krithivasan:</p>
+
+<div class="side">
+&ldquo;This is not because of AI giving some 20% productivity gains. This is driven by where there is a skill mismatch, or, where we think that we have not been able to deploy someone. <strong>It is not because that we need less people.</strong>&rdquo;
+</div>
+
+<p>Take him at his word and the story is still awkward. TCS ended the year <strong>down 23,460 net</strong> &mdash; roughly double the announced cut, because gross hiring did not offset separations &mdash; while simultaneously hiring around 40,000 freshers. Indian IT unions alleged the layoffs breached the Industrial Disputes Act. A company can be telling the truth that it does not need fewer people in aggregate and still be demonstrating that it needs <em>different</em> people, faster than it can retrain the ones it has. For an economy whose comparative advantage was supplying large numbers of trainable graduates, that distinction is not reassuring.</p>
+
+<h2><span class="num">5</span>What is genuinely not known</h2>
+
+<p>The honest position is that FY2026 data cannot distinguish between two very different futures, and anyone claiming otherwise is guessing.</p>
+
+<p>Volumes up, prices down, headcount flat is exactly what an industry looks like when it is <strong>simply becoming more productive</strong> &mdash; delivering more work with the same people and passing some of the gain to customers. It is also exactly what an industry looks like <strong>just before dollar revenue rolls over</strong>, when price concessions finally outrun volume growth. The same data supports both readings.</p>
+
+<div class="warn">
+<div class="h">Claims in circulation that do not survive checking</div>
+<p style="margin:0 0 .6rem">There is <strong>no credible measured estimate</strong> of AI-driven job or revenue displacement in Indian BPO. The figures being quoted are consultancy estimates, corporate statements, or inferences from hiring slowdowns &mdash; not measurement. An EY analysis putting entry-level IT role losses at 20&ndash;25% is an estimate, not a survey.</p>
+<p style="margin:0">ICRIER's task-based study of AI and India's labour market, which uses KLEMS, PLFS and occupational data, concludes that displacement risk in employment-intensive sectors is &ldquo;limited for now&rdquo; and that in knowledge services AI &ldquo;may augment capabilities.&rdquo; It contains <em>no</em> quantitative estimate of IT or BPO export displacement. I could find no RBI Bulletin article on AI and India's labour market at all.</p>
+</div>
+
+<p>Officialdom has moved too, and the direction is worth noting. The Economic Survey 2024-25 devoted a chapter to &ldquo;Labour in the AI Era&rdquo; and warned that AI &ldquo;can result in large scale labour displacement, especially at the middle- and lower-quartiles of the wage distribution,&rdquo; adding that &ldquo;a labour-surplus country like India cannot afford protracted labour displacement.&rdquo; One year later, the 2025-26 Survey struck a markedly calmer tone &mdash; fears of mass displacement &ldquo;have not materialised so far,&rdquo; AI &ldquo;is more likely to complement human labour&rdquo; &mdash; while proposing an AI Economic Council to monitor the risk. Two Surveys, twelve months apart, on the same question.</p>
+
+<h2><span class="num">6</span>Why this is a currency story, not a jobs story</h2>
+
+<p>Here is the asymmetry that most coverage misses.</p>
+
+<div class="exh">
+<div class="lab">Exhibit 5</div>
+<div class="ttl">Tiny share of employment. Very large share of the external account.</div>
+<div class="tw"><table>
+<thead><tr><th>Exposure</th><th class="num-r">Value, %</th><th>What it means</th></tr></thead>
+<tbody>
+<tr><td>Direct tech-sector employment</td><td class="num-r">~6.0mn</td><td>Against ~562mn employed nationally &mdash; about <strong>1.1%</strong> of the workforce</td></tr>
+<tr><td>Services exports as share of GDP</td><td class="num-r">~10</td><td>$421.3bn against roughly $4.3trn</td></tr>
+<tr><td>Software + business services share of services exports</td><td class="num-r">78.5</td><td>The AI-exposed slice is about <strong>7.7% of GDP</strong></td></tr>
+<tr class="tot"><td>Share of the goods deficit covered by net services</td><td class="num-r">64</td><td>107% including remittances</td></tr>
+</tbody></table></div>
+<div class="note">Employment figures: NASSCOM Strategic Review 2026 and Economic Survey 2025-26 citing PLFS (56.2 crore employed, Q2 FY26). GCC employment of 2.36 million overlaps with the NASSCOM total and should not be added to it.</div>
+</div>
+
+<p>A sector that is <strong>1% of jobs</strong> but <strong>~8% of GDP</strong> and covers <strong>two-thirds of the goods trade deficit</strong> cannot produce a mass-unemployment event. It can produce a balance-of-payments event. If services receipts stall while the goods deficit keeps widening &mdash; and it widened by $50 billion in FY2026 alone &mdash; the adjustment happens in the exchange rate and the capital account, not in the unemployment rate.</p>
+
+<p>That is the opposite of how the AI-and-India debate is usually framed, and it is what the Economic Survey's own argument implies: precisely <em>because</em> services exports impose no hard employment constraint, an AI shock to them would show up as a currency problem long before it showed up as a jobs problem.</p>
+
+<h2>Implications</h2>
+
+<div class="brief">
+<div class="h">What follows</div>
+<ul>
+<li><strong>Watch price realisation and revenue per employee, not headcount.</strong> Headcount is a lagging, politically noisy indicator that companies manage. Price is where AI deflation lands first, and three chief executives have now said so on the record.</li>
+<li><strong>Watch whether GCC growth keeps offsetting vendor pricing pressure.</strong> Captive centres and listed vendors are now roughly half the export base each. The balance of payments only cares about the sum &mdash; which means the vendors can be in trouble while the country is not, for a while.</li>
+<li><strong>Treat import substitution as balance-of-payments insurance, not industrial nostalgia.</strong> If the services surplus is the thing covering a $337bn goods deficit, then every dollar of that deficit which can be removed by making things domestically is a dollar of reduced dependence on a receipt stream whose pricing power is visibly eroding. That is the real link between this story and the chemical, fertiliser and textile substitution analyses on this blog.</li>
+<li><strong>Do not claim the displacement has happened.</strong> It has not, in any measured series. The case for concern rests on leading indicators and executive testimony, which is enough to act on and not enough to assert.</li>
+</ul>
+</div>
+
+<p class="src"><strong>Sources &amp; method.</strong> Balance of payments: RBI, Developments in India's Balance of Payments, Q4 2025-26; the published lines reconcile to the reported current account in both FY25 and FY26. Services export composition: RBI, cited in a Rajya Sabha written reply, and Economic Survey 2025-26. Industry aggregates: NASSCOM Strategic Review 2024, 2025 and 2026 &mdash; note NASSCOM's own restatement of FY2024 after its GCC landscape study, and that current-year figures are estimates. Company data: Infosys Q4 FY26 fact sheet filed with the SEC (Form 6-K); TCS (BSE-filed) and Wipro (SEC Form 6-K) figures are from company filings; only HCLTech's headcount figure is press-reported (its own release states only "227,000+"). Executive quotations: NASSCOM Strategic Review 2026 (verbatim); Vijayakumar and Krithivasan April 2026, Sanghrajka and Parekh Infosys Q1 FY27 call, 23 July 2026 (press transcripts). Counter-evidence: Richard Baldwin, IMD, analysis of WTO commercial services statistics, 30 July 2026; Zinnov&ndash;NASSCOM India GCC Landscape 2026; Naukri JobSpeak, January 2026. Policy: Economic Survey 2024-25 (&ldquo;Labour in the AI Era&rdquo;) and 2025-26. Structural analysis: ICRIER, <em>Interactions of Artificial Intelligence with India's Labour Market</em>. Figures described as estimates or press-reported are labelled as such in the notes; where a primary source could not be opened, that is stated rather than substituted.</p>
+
+<p class="note"><em>This piece was written with AI assistance from published government, industry and company sources cited above. AI-generated text can misstate figures even when working from real source material &mdash; verify any number that matters to a decision against the cited primary source.</em></p>
+
+</div>

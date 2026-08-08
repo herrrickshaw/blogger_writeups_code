@@ -48,6 +48,7 @@ UNITS = [
     "&#8377; crore", "&#8377; lakh", "percentage points", "basis points",
     "MMSCM", "MMBtu", "MMT", "GWh", "TWh", "kWh", "MWh", "MW", "GW",
     "tonnes", "tonne", "lakh", "crore", "million", "billion", "bn", "mn",
+    "cr", "qtl", "MT", "ktpa", "mtpa",
     "US$", "USD", "EUR", "JPY", "KRW", "BRL", "INR", "₹", "&#8377;", "$", "€",
     "%", "pp", "bps", "kg", "km", "litres", "litre", "years", "yrs",
 ]

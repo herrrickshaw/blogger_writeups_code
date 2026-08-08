@@ -1,0 +1,91 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<style>
+/* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
+:root{
+  --oc-gray-0:#f8f9fa;--oc-gray-1:#f1f3f5;--oc-gray-2:#e9ecef;--oc-gray-3:#dee2e6;--oc-gray-4:#ced4da;
+  --oc-gray-5:#adb5bd;--oc-gray-6:#868e96;--oc-gray-7:#495057;--oc-gray-8:#343a40;--oc-gray-9:#212529;
+  --sp-1:.25rem;--sp-2:.5rem;--sp-3:.75rem;--sp-4:1rem;--sp-5:1.5rem;--sp-6:2rem;--sp-7:3rem;
+  --radius:12px;--radius-sm:8px;
+  --shadow-1:0 1px 2px rgba(0,0,0,.04);--shadow-2:0 2px 8px rgba(0,0,0,.06);
+  --step--1:clamp(.78rem,.75rem + .15vw,.85rem);
+  --step-0:clamp(.92rem,.88rem + .2vw,1rem);
+  --step-1:clamp(1.05rem,1rem + .3vw,1.2rem);
+  --step-2:clamp(1.3rem,1.2rem + .5vw,1.6rem);
+  --surface:#fff;--surface-alt:var(--oc-gray-0);--border:var(--oc-gray-3);--text:#000;--text-mut:#333;
+}
+
+.ecx{font-family:-apple-system,'Segoe UI',sans-serif;max-width:860px;margin:0 auto;line-height:1.6;color:#14180f}
+.ecx .hero{background:linear-gradient(135deg,#1f5f5b,#0f6e56);color:#fff;padding:24px;border-radius:12px;margin-bottom:20px}
+.ecx .hero a{display:inline-block;background:#fff;color:#1f5f5b;font-weight:700;padding:9px 20px;border-radius:999px;text-decoration:none;margin-top:10px}
+.ecx h2{color:#1f5f5b;border-bottom:2px solid #2f7d4f;padding-bottom:5px;font-size:1.15em;margin-top:24px}
+.ecx .stats{display:flex;flex-wrap:wrap;gap:12px;margin:16px 0}
+.ecx .stat{flex:1;min-width:150px;background:#eef2ec;border-radius:10px;padding:12px 14px;text-align:center}
+.ecx .stat b{display:block;font-size:1.5em;color:#1f5f5b}
+.ecx .stat span{font-size:.8em;color:#5c6660}
+.ecx ul{margin:10px 0 10px 20px}
+.ecx li{margin-bottom:8px}
+.ecx .rel a{color:#1f5f5b}
+
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,td,th{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="ecx">
+<div class="hero">
+<div style="font-size:1.25em;font-weight:700">India Environmental Clearances — state × sub-sector dashboard</div>
+<div style="opacity:.9;margin-top:6px">The full national EC register from PARIVESH 2.0's open API — 113,970 proposals (2022–2026), sliced by state, sub-sector and status, with interactive tables and charts.</div>
+<a href="https://herrrickshaw.github.io/india-ec-subsector-analysis/">Open the interactive dashboard →</a>
+</div>
+
+<h2>Headline numbers</h2>
+<div class="stats">
+<div class="stat"><b>113,970</b><span>EC proposals filed (2022–2026)</span></div>
+<div class="stat"><b>54,406</b><span>ECs granted</span></div>
+<div class="stat"><b>88.7%</b><span>grant rate of decided proposals</span></div>
+<div class="stat"><b>49%</b><span>of proposals are fresh new projects</span></div>
+</div>
+
+<h2>What the dashboard shows</h2>
+<ul>
+<li><b>State × sub-sector matrix</b> — which states clear what: mining-heavy registers (MP, Chhattisgarh, Rajasthan minor minerals) vs industrial ECs (Gujarat, Maharashtra) vs infrastructure corridors.</li>
+<li><b>The approval funnel</b> — the real attrition is auto-delisting (22%) and pipeline backlog, not rejection; see the companion post <a class="rel" href="https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html" style="color:#fff0">​</a><a href="https://masaladeutsch.blogspot.com/search?q=EC+Approval+Funnel">EC Approval Funnel</a>.</li>
+<li><b>Fresh vs reuse</b> — only 49% are new projects; 22% are mostly re-appraisals of expiring minor-mineral leases on the same plots, plus transfers, expansions and amendments.</li>
+<li><b>Beyond EC</b> — the Forest / Wildlife / CRZ registers are covered in the companion post <a href="https://masaladeutsch.blogspot.com/search?q=Forest+Wildlife+CRZ">Forest, Wildlife &amp; CRZ Clearances</a>: Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted).</li>
+</ul>
+
+<h2>Why it matters</h2>
+<p>The EC register is the earliest public, machine-readable signal of where physical investment is headed — before IEM implementation, before commissioning. Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants.</p>
+<p style="color:#82867a;font-size:.85em">Source: PARIVESH 2.0 open API, full EC register, fetched 22 Jul 2026. Data, methodology and refresh scripts: <a href="https://github.com/herrrickshaw/india-ec-subsector-analysis">github.com/herrrickshaw/india-ec-subsector-analysis</a>. The dashboard is served from GitHub Pages, so it always reflects the repo's latest data.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+</div>
