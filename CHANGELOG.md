@@ -1204,3 +1204,18 @@ a-tax-play: completed after replace-collision fix
 **Changed**
 
 - `a-tax-play-grow-ethanol-sgst-revenue` — 33,893 → 33,738 bytes (-155)
+
+## 2026-08-08T10:16:42+05:30 — 95 posts live
+
+EV and green-debt posts cleared; units pass complete
+
+
+**Versions**
+
+- `raising-green-debt-globally-rec-euroyen` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-ev-market-single-digit` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `raising-green-debt-globally-rec-euroyen` — 49,825 → 49,755 bytes (-70)
+- `indias-ev-market-single-digit` — 32,170 → 32,116 bytes (-54)

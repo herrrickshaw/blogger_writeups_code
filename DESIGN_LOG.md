@@ -1377,3 +1377,39 @@ identity. That pattern should be the default for every table edit in this repo �
 `table_standard.py` has the same weakness and should be moved over to it.
 
 Blog-wide: **53 → 49 across 14 posts.** Six posts done, 90 units hoisted.
+
+## 2026-08-08 — the last two posts, and a third encoding trap
+
+`indias-ev-market-single-digit` **2 → 0** (12 cells) and
+`raising-green-debt-globally-rec-euroyen` **2 → 0** (6 cells). Both clear.
+
+`nature-versus-nurture` was on the list at 2 but had nothing to do — the
+classifier counted its `Gas price scenario` label column, already judged
+unhoistable because the unit sits inside `APM ($7/MMBtu)`.
+
+**Three encoding traps in one pass, all the same shape.** A cell that renders as
+one character is stored as another:
+
+| renders as | stored as | where it bit |
+|---|---|---|
+| `¥190` | `&yen;190` | securitising-deficit |
+| `−14.7%` | `&minus;14.7%` | raising-green-debt |
+| `4%` | `<b>4%</b>` | indias-ev, markup-wrapped |
+
+Every one produced a silent no-op — the script reported success and changed
+nothing. **Match against the raw cell, allowing entity and markup forms, and
+verify by re-reading the rewritten value.** The count of cells changed is not
+evidence; only the resulting text is.
+
+The green-debt table also carried its own precedent: its JPY column already read
+`🇯🇵 JPY, %` with bare cells while USD and EUR still had signs in every row. The
+fix was to make the other two match what was already there.
+
+### Pass complete
+
+Eight posts worked through. **80 → 49 violations**, 108 cells rewritten,
+three posts cleared to zero. The remaining 49 sit in 30 tables across 14 posts
+and are, on the earlier classification, mostly the ~18 genuinely mixed columns —
+key-value lists, deliberate magnitude mixes, and units inside descriptive labels.
+Driving that to zero would mean rescaling published figures, which is the one
+thing this pass consistently refused to do.

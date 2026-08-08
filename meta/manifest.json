@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T10:13:08+05:30",
+  "snapshot": "2026-08-08T10:16:42+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -4411,10 +4411,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
       "slug": "indias-ev-market-single-digit",
       "published": "2026-08-02T16:16:00.612+05:30",
-      "updated": "2026-08-08T09:19:55.457+05:30",
+      "updated": "2026-08-08T10:15:20.956+05:30",
       "labels": [],
-      "bytes": 32170,
-      "sha256": "5c961c4be7e7873e66f7e8a8ab63581595ecd392ea4b101cc8a56e5870e648ee",
+      "bytes": 32116,
+      "sha256": "1a1c81ec9a5b04261a52ff157269360abccc1ddb77d8ceffa690e91cde5f77da",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4426,7 +4426,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4447,6 +4447,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T10:16:42+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            32170,
+            32116
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "EV and green-debt posts cleared; units pass complete"
         }
       ]
     },
@@ -4582,10 +4595,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
       "slug": "raising-green-debt-globally-rec-euroyen",
       "published": "2026-08-03T19:10:19.175+05:30",
-      "updated": "2026-08-08T09:23:33.949+05:30",
+      "updated": "2026-08-08T10:15:28.921+05:30",
       "labels": [],
-      "bytes": 49825,
-      "sha256": "2c96604625d2ff87179e019add9bd8d2adbad017aaefdd0464bb9c5a85d04f05",
+      "bytes": 49755,
+      "sha256": "748ef757f47a8006a3e14c5a7eb9819721e63a598dae665a3c2b9570a0becb8e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4597,7 +4610,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4618,6 +4631,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T10:16:42+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            49825,
+            49755
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "EV and green-debt posts cleared; units pass complete"
         }
       ]
     },
