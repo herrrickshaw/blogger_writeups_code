@@ -1178,3 +1178,16 @@ textile: two investment columns hoisted
 **Changed**
 
 - `indias-textile-import-export-strategy` — 35,760 → 35,747 bytes (-13)
+
+## 2026-08-08T10:11:18+05:30 — 95 posts live
+
+a-tax-play: four percentage columns hoisted, post clear
+
+
+**Versions**
+
+- `a-tax-play-grow-ethanol-sgst-revenue` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `a-tax-play-grow-ethanol-sgst-revenue` — 33,937 → 33,893 bytes (-44)

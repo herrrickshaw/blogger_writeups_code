@@ -1344,3 +1344,19 @@ Three left, all correct to leave:
 
 Blog-wide: **55 → 53 across 15 posts.** Five posts through this pass; 34 units
 hoisted in total.
+
+## 2026-08-08 — a-tax-play: 4 → 0, the first post cleared completely
+
+Four `%` columns, 56 cells. Each column was 20-of-21 (or 10-of-11) plain values
+like `5%` with **exactly one compound cell** — Uttar Pradesh, which levies a
+split rate: `tax on input 10%; tax on sale 12.5%`.
+
+The rule applied was to strip only from cells that are a bare percentage, and to
+**leave the compound cell exactly as written**. A header reading `%` tells you
+the column's unit; it cannot tell you which of two rates in one cell is which,
+so that cell keeps its own signs. The column now scans as bare numbers with a
+single self-describing exception, which is what it should look like.
+
+This is the first post in the pass to reach **zero**.
+
+Blog-wide: **53 → 49 across 14 posts.** Six posts done, 90 units hoisted.
