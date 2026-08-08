@@ -1807,3 +1807,16 @@ MDR post: NPCI-scale exhibit; new post: project bonds x carry
 
 - `the-masala-deutsch-shop-books-things` — 25,090 → 25,209 bytes (+119)
 - `upi-fees-are-now-legal-petrol-pumps` — 24,690 → 27,448 bytes (+2,758)
+
+## 2026-08-08T19:34:58+05:30 — 104 posts live
+
+MDR post: category leverage curve beyond fuel
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **6.0.0 → 7.0.0** (MAJOR) — figures changed (+25/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 27,448 → 31,766 bytes (+4,318)

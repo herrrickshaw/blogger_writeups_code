@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T19:21:53+05:30",
+  "snapshot": "2026-08-08T19:34:58+05:30",
   "count": 104,
   "posts": {
     "1157999291079244419": {
@@ -1089,14 +1089,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-08-08T19:21:30.035+05:30",
+      "updated": "2026-08-08T19:34:37.618+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 27448,
-      "sha256": "36507f95f7417853387d70caadfcd5bd4f64ec85f1181f4a7dd1151bc3704f86",
+      "bytes": 31766,
+      "sha256": "e9023effd4ef7ac0fef83a225cfdf6c8446620606fecf2f12aeb2db66a8b6dbc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1108,7 +1108,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.0",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1181,6 +1181,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+        },
+        {
+          "version": "7.0.0",
+          "date": "2026-08-08T19:34:58+05:30",
+          "level": "major",
+          "reason": "figures changed (+25/-0 distinct numbers)",
+          "bytes": [
+            27448,
+            31766
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MDR post: category leverage curve beyond fuel"
         }
       ]
     },
