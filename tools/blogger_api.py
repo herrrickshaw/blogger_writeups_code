@@ -253,12 +253,20 @@ def verify_live(url, needle=None, absent=None):
     return True, f"{len(out):,} bytes"
 
 
-def do_update(post_id, url, title, body, dry_run=False):
+def do_update(post_id, url, title, body, published=None, dry_run=False):
     if dry_run:
         print(f"    DRY RUN — would PUT {len(body):,} bytes")
         return True
-    api(f"/blogs/{BLOG_ID}/posts/{post_id}",
-        data={"id": post_id, "title": title, "content": body}, method="PUT")
+    # posts.update is a PUT, i.e. a whole-resource replace, so anything left out
+    # of the payload is in principle up for grabs. In practice Blogger has
+    # preserved `published` on every write this archive has made — 104 snapshots
+    # and not one re-dating — but "it has not bitten yet" is not a guarantee, and
+    # a silently re-dated post is the kind of damage you notice months later.
+    # Send the existing date back explicitly so the behaviour is ours, not theirs.
+    payload = {"id": post_id, "title": title, "content": body}
+    if published:
+        payload["published"] = published
+    api(f"/blogs/{BLOG_ID}/posts/{post_id}", data=payload, method="PUT")
     time.sleep(3)  # give Blogger a moment to render before verifying
     probe = re.sub(r"<[^>]+>", "", body)[:60].strip()
     ok, why = verify_live(url, needle=probe[:40] if len(probe) > 40 else None)
@@ -280,7 +288,8 @@ def cmd_update(args):
     if args.title:
         print(f"  title: {p['title']!r}\n      -> {args.title!r}")
     try:
-        ok = do_update(p["id"], p["url"], title, body, args.dry_run)
+        ok = do_update(p["id"], p["url"], title, body,
+                       published=p.get("published"), dry_run=args.dry_run)
     except Ceiling as e:
         print(f"daily write ceiling reached: {e}")
         sys.exit(3)
@@ -370,7 +379,8 @@ def cmd_bulk(args):
             continue
         try:
             ok = do_update(p["id"], p["url"], p["title"],
-                           path.read_text(encoding="utf-8"), args.dry_run)
+                           path.read_text(encoding="utf-8"),
+                           published=p.get("published"), dry_run=args.dry_run)
         except Ceiling as err:
             print(f"\ndaily write ceiling reached after {done} writes: {err}")
             print("retry tomorrow — backoff will not clear this")

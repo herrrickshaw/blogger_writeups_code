@@ -1673,3 +1673,44 @@ reads either, they agree, and removing it is a bigger change than this needed.
 **Verified on live pages, in a browser that executes the script**: post pages
 emit all four types with the right headline, dates and `@id` links; the homepage
 emits three and no `BlogPosting`, which is the point of the branch guard.
+
+## 2026-08-08 — The publish-date bug that was not there
+
+**I flagged a data-loss bug that does not exist, and the correction matters more
+than the flag did.** I saw the LNG post's `datePublished` come back as today's
+date in the new JSON-LD and inferred that API updates were resetting publish
+dates. Checked before acting:
+
+- **Zero of 97 live posts** have a `published` value differing from the earliest
+  one recorded anywhere in the archive's history.
+- The LNG post specifically: `published` sat at **2026-08-08T10:31:50** across
+  **all six snapshots taken today**, while `updated` moved four times. It reads
+  as today's date because it *was* published today.
+- `snapshot.py` has detected and reported re-dating since it was written. Across
+  **104 commits it has never once fired.**
+
+So the dates were never lost. Had I "restored" them from a guess, I would have
+falsified the publication history of a blog whose whole argument is that it
+checks its numbers.
+
+**The latent risk was real even though the damage was not.** `posts.update` is a
+PUT — a whole-resource replace — and `do_update` was sending only
+`{id, title, content}`. Blogger has preserved `published` on every write so far,
+but that is Blogger's choice, not ours. It now sends the existing date back
+explicitly, so the guarantee is ours.
+
+**Adding the parameter immediately broke both call sites**, which were passing
+`dry_run` positionally straight into the new `published` slot — a dry run would
+have become a live write with a garbage date. Both now use keywords. This is the
+argument for keyword-only parameters on anything that writes.
+
+**Verified by round-trip, not by reading the code**: fetched about-author
+(published 2026-08-05T10:43:35), wrote its own body back, re-fetched. `published`
+unchanged, `updated` moved to 11:40. That is the behaviour we want and now
+explicitly ask for.
+
+**Recrawl.** Nothing to fix: `sitemap.xml` lists all 97 posts with `lastmod`, and
+robots.txt declares it. Every entry carries a fresh `lastmod`, which is the
+signal Google actually uses. There is no API route for requesting reindexing of
+articles — the Indexing API is restricted to JobPosting and BroadcastEvent — so
+the remaining step is Search Console, by hand, and it is the owner's to take.
