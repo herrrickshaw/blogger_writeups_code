@@ -2180,3 +2180,34 @@ Applying 194 micro-edits to a live theme would have been reckless. The change is
 one contiguous replacement and had to be expressed as one, located by its own
 start and end markers. **When a diff explodes into hundreds of hunks, the diff is
 wrong about the change, not the change about itself.**
+
+## 2026-08-08 — Tested for a Blogger theme API instead of asserting there isn't one
+
+Told I had API access and should use it, having previously claimed from memory
+that Blogger v3 has no theme endpoint. That claim deserved a test rather than a
+repetition, so it got one. Seven endpoints, with a valid OAuth token:
+
+    /v3/blogs/{id}/template          404
+    /blogger/v3/blogs/{id}/template  404
+    /blogger/v2/blogs/{id}/template  404
+    /v3/blogs/{id}/layout            404
+    /v3/blogs/{id}/widgets           404
+    www.blogger.com/feeds/{id}/template  404
+    /v3/blogs/{id}/pages             200   <- the only one that answers
+
+**There is no API route to a theme or to a widget.** The assertion was right;
+it is now also evidence. Recorded here so it is not re-litigated next session.
+
+**The `pages` endpoint works and 0 pages exist**, which was briefly tempting: a
+Blogger Page at a clean URL carrying the alphabetical chips. Rejected. The
+article index already does exactly that job, live, with the same chips and the
+same AI Tools entry — a second page would be a near-duplicate competing with it,
+which is precisely the defect fixed on the chemical posts this morning. Adding
+cannibalisation to route around a permissions problem is not a fix.
+
+**The gap is one widget and three surfaces disagree about who can reach it:**
+the user's Chrome has the Blogger session and denies every automated action; the
+in-app browser permits automation and has no session; the API permits automation
+and has no theme endpoint. Four browser attempts, seven API probes.
+
+Left the replacement content on the clipboard so the remaining step is Cmd+V.
