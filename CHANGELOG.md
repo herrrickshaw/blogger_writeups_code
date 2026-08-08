@@ -1775,3 +1775,16 @@ shop: 5 more titles placed
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 18,376 → 18,831 bytes (+455)
+
+## 2026-08-08T18:34:26+05:30 — 103 posts live
+
+shop: covers + truncation fix
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 18,831 → 25,090 bytes (+6,259)
