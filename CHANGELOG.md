@@ -1292,3 +1292,18 @@ LNG v3.0.0: withdraw unpublished-data claim, add PNGRB terminal utilisation
 **Changed**
 
 - `europe-bought-record-amount-of-lng-and` — 26,056 → 32,648 bytes (+6,592)
+
+## 2026-08-08T11:11:46+05:30 — 97 posts live
+
+Author photo replaces UT monogram in both posts and the site-wide theme card
+
+
+**Versions**
+
+- `about-author` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+- `article-index-start-here` **8.0.0 → 9.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `about-author` — 12,860 → 26,963 bytes (+14,103)
+- `article-index-start-here` — 32,444 → 46,548 bytes (+14,104)

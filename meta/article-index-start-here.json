@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-08T10:32:42.668+05:30",
+  "updated": "2026-08-08T11:04:08.283+05:30",
   "labels": [],
-  "bytes": 32444,
-  "sha256": "f715921fed740ad0879bb712225c41dc48e94a81d647ec5b6d52fa1d0351fcc6",
+  "bytes": 46548,
+  "sha256": "fbbc7134f7903c3a042029905fe4a7f10577f4fe9ecd7112c0074ef4a2f574f3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "8.0.0",
+  "version": "9.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -144,6 +144,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "LNG status report published"
+    },
+    {
+      "version": "9.0.0",
+      "date": "2026-08-08T11:11:46+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        32444,
+        46548
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Author photo replaces UT monogram in both posts and the site-wide theme card"
     }
   ]
 }

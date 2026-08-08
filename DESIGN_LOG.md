@@ -1582,3 +1582,48 @@ fastidiousness until you show what one division turns up.
 **Rule reinforced:** before writing that a figure is unpublished, check the
 regulator's non-statistical output. Studies, conclave booklets and projection
 reports carry data that never appears in a statistics release.
+
+## 2026-08-08 — Author photo replaces the "UT" monogram, site-wide
+
+**Three places rendered the monogram, and only one of them was a post.** The
+about-author page (88px), the article index (72px) and — the one that matters —
+the **Contact Us card in `theme.xml` (56px), which renders on every single page**.
+Grepping `>UT<` found all three; a per-post pass would have missed the theme and
+left the monogram on 90-odd pages.
+
+**Source image.** The professional headshot was not on disk — only the passport
+photo was. Found the original in Drive at 1004x1339, cropped to a full-width
+square anchored at the top (face lands at ~40% height, which is where a circular
+avatar wants it), resized to 200px for 88px @2x. 10.5 KB JPEG, 14 KB as a data
+URI. Master kept at `assets/author-avatar-200.jpg`.
+
+**Data URI, not a hosted file.** Blogger's API cannot upload images and the
+archive has no public host. Inlining keeps every page self-contained, which is
+this archive's whole premise. Cost is 14 KB per page load, uncached, against
+70-140 KB pages.
+
+**The theme edit, which is the part that goes wrong.** Blogger has no theme API.
+Two routes: Backup/Restore (replaces the *whole* theme — destructive if the
+archived copy has drifted) or a targeted edit in the HTML editor. Took the
+targeted route after confirming no drift: **live theme 68,174 chars against the
+archive's 68,190** — a 16-character difference, so nothing had been changed
+outside the archive.
+
+Pasting 14 KB into CodeMirror is the failure-prone step. Instead: served the JPEG
+from a **local HTTP server with `Access-Control-Allow-Origin: *`**, had the page
+`fetch()` it and build the data URI in-page, then `cm.replaceRange()` at an index
+computed from the live text. Confirmed the recipe from the earlier session still
+holds — **a programmatic CodeMirror edit does not set Blogger's dirty flag**, so
+the save is a silent no-op unless you follow it with a real keystroke. Typed `x`,
+pressed Backspace, verified the buffer was byte-identical to the intended text
+and carried no stray character, then saved.
+
+**Verified on the live site, never in the editor.** Homepage: zero `>UT</div>`,
+exactly one data-URI image, 56x56, complete, correct alt text.
+
+**One pre-existing bug fixed in passing.** The index page's author blurb rendered
+`India’s` literally — a JSON escape that had been written straight into HTML.
+
+**Not touched:** `theme-html2-moved.xml` and `theme-dedup-h1.xml` still carry the
+monogram. They are historical snapshots, not live templates, and editing them
+would falsify the record.

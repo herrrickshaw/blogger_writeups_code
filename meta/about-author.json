@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/about-author.html",
   "slug": "about-author",
   "published": "2026-08-05T10:43:35.439+05:30",
-  "updated": "2026-08-08T09:11:27.902+05:30",
+  "updated": "2026-08-08T11:03:59.651+05:30",
   "labels": [],
-  "bytes": 12860,
-  "sha256": "a1511538c92a9a679aec0a58eaac4a5e5b8f87fdf18398c000bc9c02ab5da894",
+  "bytes": 26963,
+  "sha256": "1f9e9d2fd08fb2aa6e7bba0138ef80d9654c1f0eb75f43f6b94d403a94936811",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T11:11:46+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        12860,
+        26963
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Author photo replaces UT monogram in both posts and the site-wide theme card"
     }
   ]
 }
