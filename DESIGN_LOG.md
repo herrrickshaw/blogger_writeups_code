@@ -571,3 +571,71 @@ reverted whatever the drift was. Instead:
 the live buffer by 16 characters — whitespace or entity normalisation applied by
 the editor, present before this change and not introduced by it. Recording the
 delta rather than pretending the two are byte-identical.
+
+## 2026-08-08 — whole-site link audit
+
+Every `href` in all 96 posts plus the theme: **537 unique links**, checked with a
+browser user-agent.
+
+| Class | Count | Result |
+|---|---|---|
+| Internal (blogspot) | 96 | 2 dead, both in the theme — fixed |
+| External | 399 | **391 return 200**, 1 genuinely dead — fixed |
+| Relative | 41 | **all dead**, 1 a false positive — 40 fixed |
+
+**The relative links were the real finding.** Forty reader-facing `<a href>`
+targets pointing at a local build bundle: `charts/*.html`, `../data/*.json`,
+`fdi_pitch/*.pptx|pdf`, and sibling report HTML. On a Blogger post these resolve
+against `blogspot.com/2026/xx/` and cannot ever exist. `india-trade-sector-policy`
+was the worst — a 26-link contents page where every link was dead.
+
+Handling, deliberately conservative:
+
+- **Repointed 6** where the anchor text and a published post title matched
+  unambiguously (e.g. "import-side" → *Priority Trade Partners by Import-Growth
+  Sector*, "country-deficit" → *Where India's Forex Goes*).
+- **De-linked 39** to `<span class="was-link">`, keeping the visible label.
+  Several chart names were *plausibly* mappable — `state_iem_implementation`
+  could be either of two IEM posts — and a confidently wrong link is worse than
+  no link. Verified after publishing that visible text is byte-identical on all
+  six posts and that 0 relative hrefs survive on the rendered pages.
+
+**Two more dead links in the theme**, same gadget as the mineral-oil one:
+`/2026/08/chemical-import-substitution-full-hsn-8.html` (the registry's real URL
+carries the `_01082878313` suffix Blogger minted) and `https://www.bis.org/statistics/`
+(404; `…/statistics/index.htm` works). Both fixed and verified live.
+
+**Not dead, do not "fix":** LinkedIn returns `999` and ScienceDirect and Tomra
+return `403` to scripted requests. Tomra was opened in a real browser and loads
+fine. A non-200 from a bot-hostile host is not evidence of a broken link.
+
+**The save trap, again — and it bit.** The theme save silently did nothing: the
+buffer held 68,174 chars while the server still had 68,153. `replaceRange` alone
+does not set Blogger's dirty flag, and neither does a `space`+`BackSpace` pair
+that nets to zero — Blogger reads the document as clean again and the Save button
+stays inert. What worked: park the cursor at end of document, **type a real
+character and delete it**, confirm the undo/save icons have gone active, then
+save. **Always confirm by reloading the editor and re-reading the buffer** — the
+greyed-out save icon looks identical whether it means "saved" or "nothing to
+save".
+
+## 2026-08-08 — the published site has no dependency on this machine
+
+Checked because it matters: **nothing a reader loads comes from this laptop.**
+
+- **Zero** references to `localhost`, `127.0.0.1`, `file://`, dev ports
+  (`:8000`, `:5173`, `:8765`, `:8766`) or `/Users/` paths in any post or in the
+  theme.
+- Every asset host is third-party: Google Translate, `blogger.googleusercontent.com`,
+  `resources.blogblog.com`, jsDelivr, cdnjs, Wikimedia, Google Tag Manager.
+- All GitHub links — `herrrickshaw.github.io` pages and
+  `raw.githubusercontent.com` datasets — resolve **anonymously**, so they are
+  public repos, not authenticated pulls.
+- The 40 relative links fixed above were the one real vestige of local hosting.
+  They were already dead for every visitor; they are now gone.
+
+What *does* depend on this machine is authoring-side only: `snapshot.py`,
+`blogger_api.py`, the versioning archive and the push to
+`blogger_writeups_code`. If the laptop stops, the blog keeps serving and the
+**backup stops updating** — that is the only exposure, and it is a
+disaster-recovery concern, not an availability one.
