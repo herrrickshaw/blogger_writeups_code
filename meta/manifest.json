@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T22:10:18+05:30",
+  "snapshot": "2026-08-08T22:22:26+05:30",
   "count": 113,
   "posts": {
     "1157999291079244419": {
@@ -918,12 +918,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-08T19:14:00.104+05:30",
+      "updated": "2026-08-08T22:21:51.576+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 25209,
-      "sha256": "c6b3a51478e9ca8781c11ff9643a1df64266c7ca9dadd3523eb46374832bbb15",
+      "bytes": 25844,
+      "sha256": "6d82776d480a7df9e08c0c70b8c8682588227f673251bd91a7eb4e464b575f40",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -935,7 +935,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -982,6 +982,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-08-08T22:22:26+05:30",
+          "level": "minor",
+          "reason": "prose grew 3,435→3,522 chars with no new figures",
+          "bytes": [
+            25209,
+            25844
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page."
         }
       ]
     },
@@ -4261,14 +4274,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
       "slug": "indias-fertiliser-import-bill-hits-18",
       "published": "2026-08-08T21:49:47.000+05:30",
-      "updated": "2026-08-08T22:05:27.813+05:30",
+      "updated": "2026-08-08T22:15:51.177+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 15558,
-      "sha256": "ea1076bb65b55ff49df1cef9909bf91a755cf3035a73be76bc23109264109eac",
+      "bytes": 18519,
+      "sha256": "ec9e178bdd4b480504dac84dbbef67172e8c99931e7618c2c24e763b20a60595",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4280,7 +4293,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4288,6 +4301,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: India's fertiliser import bill ($18bn, +76% YoY) — Parliamentary Standing Committee's 90%-of-urea-cost-is-gas finding, cross-linked to the thermal-parity gas-pricing article"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T22:22:26+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-0 distinct numbers)",
+          "bytes": [
+            15558,
+            18519
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page."
         }
       ]
     },

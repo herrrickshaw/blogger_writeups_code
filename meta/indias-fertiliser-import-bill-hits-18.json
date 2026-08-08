@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-08-08T22:05:27.813+05:30",
+  "updated": "2026-08-08T22:15:51.177+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 15558,
-  "sha256": "ea1076bb65b55ff49df1cef9909bf91a755cf3035a73be76bc23109264109eac",
+  "bytes": 18519,
+  "sha256": "ec9e178bdd4b480504dac84dbbef67172e8c99931e7618c2c24e763b20a60595",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New article: India's fertiliser import bill ($18bn, +76% YoY) — Parliamentary Standing Committee's 90%-of-urea-cost-is-gas finding, cross-linked to the thermal-parity gas-pricing article"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T22:22:26+05:30",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        15558,
+        18519
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page."
     }
   ]
 }

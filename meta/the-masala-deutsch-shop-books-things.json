@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-08T19:14:00.104+05:30",
+  "updated": "2026-08-08T22:21:51.576+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 25209,
-  "sha256": "c6b3a51478e9ca8781c11ff9643a1df64266c7ca9dadd3523eb46374832bbb15",
+  "bytes": 25844,
+  "sha256": "6d82776d480a7df9e08c0c70b8c8682588227f673251bd91a7eb4e464b575f40",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-08-08T22:22:26+05:30",
+      "level": "minor",
+      "reason": "prose grew 3,435→3,522 chars with no new figures",
+      "bytes": [
+        25209,
+        25844
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page."
     }
   ]
 }

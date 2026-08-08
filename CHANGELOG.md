@@ -2038,3 +2038,18 @@ Rebuilt article index via index_graph.py + build_index_page.py: 97->111 articles
 **Changed**
 
 - `article-index-start-here` — 128,986 → 143,968 bytes (+14,982)
+
+## 2026-08-08T22:22:26+05:30 — 113 posts live
+
+Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page.
+
+
+**Versions**
+
+- `indias-fertiliser-import-bill-hits-18` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+- `the-masala-deutsch-shop-books-things` **3.0.1 → 3.1.0** (MINOR) — prose grew 3,435→3,522 chars with no new figures
+
+**Changed**
+
+- `indias-fertiliser-import-bill-hits-18` — 15,558 → 18,519 bytes (+2,961)
+- `the-masala-deutsch-shop-books-things` — 25,209 → 25,844 bytes (+635)
