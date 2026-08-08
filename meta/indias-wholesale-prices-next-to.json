@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.538+05:30",
-  "updated": "2026-08-08T08:32:44.856+05:30",
+  "updated": "2026-08-08T08:48:20.427+05:30",
   "labels": [],
-  "bytes": 31723,
-  "sha256": "34834a255d865d3a5238e7b41392507e784a170aa1cdc23866282bf9978da664",
+  "bytes": 32619,
+  "sha256": "3c4150ad3b2ac51c8318ff9fafa0beb1220a3d93a51308971738ede0db25ec58",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "new global inflation post; Ireland/Germany instrument note"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-08-08T08:49:12+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-3 distinct numbers)",
+      "bytes": [
+        31723,
+        32619
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

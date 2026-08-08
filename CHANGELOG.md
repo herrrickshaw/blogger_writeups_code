@@ -863,3 +863,15 @@ index +1
 **Changed**
 
 - `article-index-start-here` — 31,720 → 31,952 bytes (+232)
+
+## 2026-08-08T08:49:12+05:30 — 95 posts live
+
+**Versions**
+
+- `inflation-trends-globally-what-five` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+74/-32 distinct numbers)
+- `indias-wholesale-prices-next-to` **5.0.0 → 6.0.0** (MAJOR) — figures changed (+3/-3 distinct numbers)
+
+**Changed**
+
+- `inflation-trends-globally-what-five` — 21,703 → 35,462 bytes (+13,759)
+- `indias-wholesale-prices-next-to` — 31,723 → 32,619 bytes (+896)

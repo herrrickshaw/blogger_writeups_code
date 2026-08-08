@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.945+05:30",
-  "updated": "2026-08-08T08:31:31.945+05:30",
+  "updated": "2026-08-08T08:46:33.942+05:30",
   "labels": [],
-  "bytes": 21703,
-  "sha256": "4b581b99869f700d5c0199251969885e40acf36d474f087d3685c02395d9cb89",
+  "bytes": 35462,
+  "sha256": "402c0c4d7a3d63f6ebb909fb58b2fa6c5495a35d157cef601db58ee5319384d6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "new global inflation post; Ireland/Germany instrument note"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T08:49:12+05:30",
+      "level": "major",
+      "reason": "figures changed (+74/-32 distinct numbers)",
+      "bytes": [
+        21703,
+        35462
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

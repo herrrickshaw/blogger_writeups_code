@@ -1,4 +1,4 @@
-name: Link audit
+name: House style
 
 # Link rot is silent. A government portal reorganises, a slug gets burned by a
 # republish, and nothing tells you — the post just quietly sends readers to a
@@ -57,8 +57,25 @@ jobs:
           echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
           set -e
 
+      # House rule: a table's units belong in its header, never repeated down
+      # its cells. Advisory — it reports and never fails the run, because the
+      # archive still carries a backlog and a check that fails every time is a
+      # check nobody reads.
+      - name: Units in header
+        id: units
+        continue-on-error: true
+        run: |
+          set +e
+          python3 tools/units_in_header.py --json units.json 2>&1 | tee units.out
+          echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
+          set -e
+
       - name: Summary
         run: |
+          echo "### Units in header (advisory)" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          head -40 units.out >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
           echo "### Link audit" >> "$GITHUB_STEP_SUMMARY"
           echo '```' >> "$GITHUB_STEP_SUMMARY"
           cat audit.out >> "$GITHUB_STEP_SUMMARY"
@@ -71,6 +88,8 @@ jobs:
           path: |
             audit.out
             audit.json
+            units.out
+            units.json
           retention-days: 30
 
       - name: Open or update an issue when links are dead

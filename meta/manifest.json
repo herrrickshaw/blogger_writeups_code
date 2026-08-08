@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T08:33:31+05:30",
+  "snapshot": "2026-08-08T08:49:12+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -1240,10 +1240,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.538+05:30",
-      "updated": "2026-08-08T08:32:44.856+05:30",
+      "updated": "2026-08-08T08:48:20.427+05:30",
       "labels": [],
-      "bytes": 31723,
-      "sha256": "34834a255d865d3a5238e7b41392507e784a170aa1cdc23866282bf9978da664",
+      "bytes": 32619,
+      "sha256": "3c4150ad3b2ac51c8318ff9fafa0beb1220a3d93a51308971738ede0db25ec58",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1255,7 +1255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.0",
+      "version": "6.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1328,6 +1328,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "new global inflation post; Ireland/Germany instrument note"
+        },
+        {
+          "version": "6.0.0",
+          "date": "2026-08-08T08:49:12+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-3 distinct numbers)",
+          "bytes": [
+            31723,
+            32619
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -2572,10 +2585,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.945+05:30",
-      "updated": "2026-08-08T08:31:31.945+05:30",
+      "updated": "2026-08-08T08:46:33.942+05:30",
       "labels": [],
-      "bytes": 21703,
-      "sha256": "4b581b99869f700d5c0199251969885e40acf36d474f087d3685c02395d9cb89",
+      "bytes": 35462,
+      "sha256": "402c0c4d7a3d63f6ebb909fb58b2fa6c5495a35d157cef601db58ee5319384d6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2587,7 +2600,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2595,6 +2608,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "new global inflation post; Ireland/Germany instrument note"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T08:49:12+05:30",
+          "level": "major",
+          "reason": "figures changed (+74/-32 distinct numbers)",
+          "bytes": [
+            21703,
+            35462
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

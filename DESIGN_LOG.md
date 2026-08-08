@@ -1030,3 +1030,44 @@ finding out afterwards costs a rewrite.
 
 Post now v2.0.0, five exhibits. Verified live: 458 text nodes, 0 contrast
 failures, all tables scrolling, exhibits in order.
+
+## 2026-08-08 — the units rule, stated once and made checkable
+
+The house rule everyone already half-followed, now written in one line and
+enforced by a script instead of by memory:
+
+> **A table's units live in its header. The cells carry bare numbers.**
+>
+> ```html
+> <th>Annual imports, US$ bn</th>   <td>14.18</td>     <!-- yes -->
+> <th>Annual imports</th>           <td>$14.18bn</td>  <!-- no  -->
+> ```
+
+**Why it is worth a script.** A unit repeated down a column is noise in every
+row and a transcription risk in each one; it breaks numeric alignment, and it
+makes the column impossible to sort or paste into a spreadsheet. It was the most
+common defect ever found on this blog — 91% of cells in the worst table.
+
+`tools/units_in_header.py` audits `posts/*.html` and exits 1 on any violation.
+Wired into the house-style workflow as **advisory**: it reports and never fails
+the run, because the archive still carries a backlog and a check that fails on
+every commit is a check nobody reads.
+
+**The rule had to be made conservative to be useful**, and the first version was
+not. It fires only when the *same* unit appears in at least half a column's
+cells — a one-off "n/a" or a single footnoted value never trips it, and a column
+of genuinely mixed units is left alone because it cannot be hoisted. Two further
+guards were added after the first run flagged 216 items including prose columns:
+skip a column whose median cell is longer than four words, and skip one where
+fewer than 80% of cells contain a digit. A "Detail" column mentioning rupees is
+not a repeated unit. That took it from **216 findings to 152**, and the ones
+removed were all noise.
+
+**Current state: 152 violations across 29 posts, 78 of 332 tables.** Spot-checked
+against the HTML before believing it — `a-tax-play` has `<th>DPNG VAT</th>` over
+cells reading `5%`, `14.5%`; `chemical-import-substitution-analysis` has
+`<th>Annual Imports</th>` over `$14.18bn`. Both real. Worst three posts are
+`nature-versus-nurture` (25), `securitising-deficit` (25) and
+`state-by-state-who-actually-earns-from` (20).
+
+Fixing them is a separate pass and has not been done — the ask was for the rule.
