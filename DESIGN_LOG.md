@@ -970,3 +970,63 @@ figures to vendors, per the standing rule.
 Both posts verified live: the new one at 376 text nodes / 0 contrast failures,
 four tables scrolling, exhibits in order; the companion at v5.1.0. Index now 92
 items; internal link audit clean at 97 links, DEAD 0.
+
+## 2026-08-08 — the methodology check that should have come first
+
+Asked to look up cumulative-CPI methodology and the cross-country literature
+*after* publishing. It cleared the arithmetic and broke the comparison.
+
+**The arithmetic stands.** Cumulative inflation is the ratio of index endpoints,
+not the sum of annual rates; annualising a total needs the geometric mean, not
+the arithmetic average. Both were done that way, and index endpoints were
+preferred over compounding rounded rates wherever an index existed.
+
+**The comparison did not.** The World Bank maintains a *Global Database of
+Inflation* (Ha, Kose & Ohnsorge, PRWP 9737) — up to 209 countries from 1970,
+headline/core/food/energy CPI, **producer prices** and deflators, updated twice a
+year. It exists for precisely the exercise this article attempted, and it was
+missed because the search stopped at "the OECD discontinued its series".
+
+Checking the hand-built producer panel against it:
+
+| | national source | World Bank | gap |
+|---|---|---|---|
+| Brazil 2019 | +4.6 | +29.2 | **24.6pp** |
+| US 2022 | +16.3 | +8.1 | 8.2pp |
+| China 2021 | +8.1 | +1.6 | 6.5pp |
+| India 2023 | −0.8 | +3.3 | 4.1pp |
+
+Across 36 country-years: median gap 0.8pp, mean 2.7pp, **19 of 36 agree within a
+point**. Compounded to four years the US still lands 30.9% against 22.5%.
+
+The causes are all legitimate: "US PPI" can mean All Commodities (used here, and
+the most volatile choice) or final demand; Brazil's IBGE industrial IPP is not
+the broader producer measure; India's April anchoring is not a calendar average.
+Every figure is defensible and they disagree by eight points.
+
+**The honest resolution was to publish the disagreement**, not to swap panels
+silently or to bury it in a caveat. The rankings and turning points survive; the
+levels are now explicitly "one defensible measurement among several, instrument
+named". The World Bank series is recommended for anything turning on the level,
+with the note that it stops in 2024 — which is why this article's panel, running
+to June 2026, was not simply replaced.
+
+**Two more things the literature gave.** National CPIs are not built to be
+compared: the US imputes rental equivalence for owner-occupied housing with a
+shelter weight above 30%, the euro area's HICP excludes owner-occupied housing
+entirely with a rent weight near 6%. And the synchronisation this article argued
+qualitatively is measured — Ha, Kose & Ohnsorge put a common global factor at
+about **22% of variation in national inflation since 2001**, which calibrates the
+claim nicely: the shared cycle is real and roughly a fifth of the story, which is
+exactly why Brazil and China can run their own.
+
+**The lesson, and it is the same one as the uniqueness claims.** The check that
+would have most changed this work was a twenty-minute literature search, and it
+was run last instead of first. Nothing published was wrong, but the panel would
+have been built differently — probably World Bank as the spine with national
+sources extending it past 2024. *Look for the canonical dataset before assembling
+your own.* Somebody has usually already solved the comparability problem, and
+finding out afterwards costs a rewrite.
+
+Post now v2.0.0, five exhibits. Verified live: 458 text nodes, 0 contrast
+failures, all tables scrolling, exhibits in order.
