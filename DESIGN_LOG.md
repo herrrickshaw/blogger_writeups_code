@@ -2015,3 +2015,43 @@ row among 97, because it is a standing serial that replaces itself in place at a
 fixed URL. Rebuilt after snapshotting — the first attempt pulled the pre-retitle
 name from a stale manifest, which is the argument for regenerating from the
 manifest rather than hand-editing.
+
+## 2026-08-08 — AI radar: discovery for the tracker, not just a reminder
+
+The weekly workflow already noticed the tracker had gone stale and opened a brief.
+It did not know *what* had launched, so every edition still began with an open
+question. `tools/ai_radar.py` answers it from the GitHub API.
+
+**Ranked by stars per day since creation, not by stars.** Total stars ranks the
+same established projects every week — a list the tracker already has. Age
+normalisation is the point: a ten-day-old repo pulling 1,238 stars a day belongs
+above a two-month-old one on 40,000. First run, 68 distinct candidates created in
+the last 60 days with 1,000+ stars:
+
+- **DietrichGebert/ponytail** — 98,451 stars in 57 days, **1,727/day**, and
+  nowhere in Edition 01. The largest thing the tracker has missed.
+- **yc-software/qm** — 12,385 in 10 days
+- **trycompai/crm** — 7,565 in 8 days
+- **FareedKhan-dev/kimi-k3-in-c** — 3,429 in 7 days
+
+**Eleven queries, deduplicated, because GitHub search matches text and topics
+rather than meaning.** `topic:ai`, `topic:mcp`, `agent`, `inference` and the rest
+each return a different slice with only partial overlap — the mcp query alone
+surfaces tooling `topic:ai` never returns. Dropping a query means silently losing
+a category.
+
+**Wired into the weekly job.** The Monday workflow now runs the radar and pastes
+the candidate table into the edition brief, so the issue arrives with data rather
+than with homework. It is `continue-on-error` and the brief still opens without
+it: a brief with no candidates beats no brief.
+
+**The checklist in that brief was rewritten to match Edition 02's standard** —
+figures from the API rather than roundups, record the query date so the next
+edition can compute a real growth rate, re-measure carried-over repos, and put
+anything unverifiable under its own heading instead of into the ranking.
+
+**Three limits are printed with every run and belong in every edition.** A star
+is a bookmark, not adoption and not revenue, and it can be bought. Creation date
+is not launch date — a project built privately and opened to a waiting audience
+shows an inflated stars-per-day. And GitHub search ranks what it indexes, so
+absence from this list is not evidence of absence.

@@ -53,6 +53,33 @@ jobs:
           print(f"url={rec['url']}")
           PY
 
+      # Run the discovery query so the brief arrives with candidates attached
+      # rather than as a reminder to go looking. GITHUB_TOKEN is enough for the
+      # search API. If this step fails the brief still opens, just without data —
+      # a missing candidate list is better than no brief at all.
+      - name: AI radar
+        id: radar
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python3 tools/ai_radar.py --days 45 --min-stars 1000 --top 20 \
+            --md radar.md --json radar.json || true
+          if [ -f radar.md ]; then
+            echo "ok=1" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=0" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ai-radar
+          path: |
+            radar.md
+            radar.json
+          retention-days: 90
+
       - name: Open the edition brief
         if: steps.age.outputs.days != '-1'
         uses: actions/github-script@v7
@@ -63,7 +90,15 @@ jobs:
           URL: ${{ steps.age.outputs.url }}
         with:
           script: |
+            const fs = require('fs');
             const {DAYS, EDITION, CURRENT, URL} = process.env;
+            let radar = '';
+            try {
+              radar = '\n\n---\n\n' + fs.readFileSync('radar.md', 'utf8').slice(0, 40000);
+            } catch (e) {
+              radar = '\n\n---\n\n_The radar query did not produce a candidate list this run. '
+                    + 'Run `python3 tools/ai_radar.py --md radar.md` locally._';
+            }
             const title = `AI tracker: Edition ${EDITION} due`;
             const body = [
               `The tracker was last updated **${DAYS} days ago** and is still showing`,
@@ -76,9 +111,16 @@ jobs:
               '      categories: coding tools, agentic platforms, foundation models,',
               '      consumer AI, automation. Keep the categories stable or the',
               '      edition-to-edition comparison breaks.',
-              '- [ ] Traction figures with a source for each — GitHub stars are',
-              '      checkable, "buzz" is not. Prefer the checkable one and say where',
-              '      a number is a judgement.',
+              '- [ ] Traction figures from the GitHub API, not from roundup',
+              '      articles. Edition 01 copied its star counts from a third-party',
+              '      roundup while claiming they were checkable; Edition 02 corrected',
+              '      that. Record the exact query date so the next edition can compute',
+              '      a real growth rate.',
+              '- [ ] Re-measure every repo carried over, and rank by stars/day rather',
+              '      than absolute stars — velocity is what "coming up" means.',
+              '- [ ] Anything not verifiable to that standard (model release dates,',
+              '      funding, adoption) goes under an explicitly-unverified heading,',
+              '      not into the ranking.',
               '- [ ] Carry forward anything from Edition ' + CURRENT + ' that moved',
               '      materially, so a reader can see direction rather than a snapshot.',
               '- [ ] Update the edition number, the "Week of" date and the headline',
@@ -91,7 +133,7 @@ jobs:
               'judgement reads as filler and is worse than a post that is openly a',
               'month old. If there is no time to do the ranking, the honest move is to',
               'date-stamp the existing edition rather than fake a new one.',
-            ].join('\n');
+            ].join('\n') + radar;
             const {data: open} = await github.rest.issues.listForRepo({
               owner: context.repo.owner, repo: context.repo.repo,
               state: 'open', labels: 'ai-tracker',
