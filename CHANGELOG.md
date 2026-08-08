@@ -745,3 +745,10 @@ link audit: 6 posts relinked
 - `fy2025-26-sample-report-india-trade` — 28,105 → 27,752 bytes (-353)
 - `five-year-synthesis-trade-currency` — 34,945 → 35,112 bytes (+167)
 - `india-trade-sector-policy` — 11,680 → 10,988 bytes (-692)
+
+## 2026-08-08T01:35:40+00:00 — 93 posts live
+
+first automated run — verifying the workflow
+
+
+No changes.
