@@ -1404,3 +1404,12 @@ disambiguate four chemical post titles (no deletions)
 - `chemical-import-substitution-full-hsn-8_01082878313` — 376,784 → 376,775 bytes (-9)
 - `top-15-chemicals-for-import` — 75,137 → 75,117 bytes (-20)
 - `top-15-chemicals-for-import--4751284523575450171` — 15,642 → 15,659 bytes (+17)
+
+## 2026-08-08T12:56:58+05:30 — 99 posts live
+
+new post: South Africa fuel trade and the pricing basket
+
+
+**Added**
+
+- `south-africa-lost-its-gulf-fuel-supply` **v1.0.0** — South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India. (20,357 bytes)

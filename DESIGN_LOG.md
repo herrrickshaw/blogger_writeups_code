@@ -1900,3 +1900,49 @@ raw markup and used it verbatim. Second: my verification regex initially caught
 an `<h1>` inside a *theme comment* and reported all four as mismatched. Stripping
 comments and scoping to `.post-body` showed all four correct. **Two verification
 bugs in one task, both of which would have reported failure on a working change.**
+
+## 2026-08-08 — South Africa: the brief inverted twice
+
+Asked to analyse India's opportunity to export petrol, diesel and biofuels to
+South Africa. The data turned the piece around, then a source the user re-sent
+turned it around again.
+
+**First inversion: India is losing this market, not entering it.** TRADESTAT HS
+2710 to South Africa fell from **US$2,793m to US$1,882m — 32.6%** in FY2025-26,
+against a 15.3% fall in India's total refined exports. South Africa is India's
+9th-largest fuel market and shrinking twice as fast as the average.
+
+**Second inversion, from the Reuters piece.** South Africa's Gulf supply — Oman,
+Saudi Arabia, UAE — was cut off when Hormuz closed, and the replacement cargoes
+were **American**: four tankers, ~165,000 t at Durban in April 2026, roughly
+double January's US arrivals. **India is ~6,000 nautical miles closer than the US
+Gulf Coast, and the buyer's stated complaint was freight and premiums.** The
+supplier that gained was the furthest away.
+
+**The timing had to be handled carefully and nearly was not.** TRADESTAT's
+FY2025-26 ends March 2026; the disruption is April 2026. The 32.6% fall therefore
+happened *before* the crisis, and the US surge *after*. Two adjacent periods, not
+one story — stated explicitly rather than blurred into a single narrative, and
+the article says it has no Indian export data for the post-March window.
+
+**The real finding is regulatory, not commercial.** South Africa's Basic Fuel
+Price is import parity off **Mediterranean/Singapore (petrol)** and
+**Mediterranean/Arabian Gulf (diesel)** — India is in none of them, so an Indian
+cargo is priced off someone else's assessment regardless of origin. But the
+industry association is publicly asking for "a transparent, market-reflective
+basket of alternative international supply sources" and government talks are
+under way. **Getting an Indian assessment into that basket is worth more than any
+cargo, and the window is open now.** That is the piece's actual argument.
+
+**Sourcing under blockade.** `gov.za` refused connections outright; the Consulate
+General of India Johannesburg PDF never cleared Cloudflare; the Reuters article
+403'd to both WebFetch and curl and only opened in a real browser that executes
+the challenge. DMPR and the Agriculture Ministry brief came through. Every gap is
+named in the article rather than papered over — including that South Africa's
+biofuels mandate status could not be established, which matters because the brief
+asked about biofuels.
+
+**One clean contrast worth keeping.** India's agri exports to South Africa *rose*
+8.94% to US$296m in the same year fuel fell 32.6%. Same country, same customs
+source, opposite direction — which is what rules out "the relationship" as the
+explanation and points at petroleum specifically.
