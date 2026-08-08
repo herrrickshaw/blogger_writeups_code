@@ -2162,3 +2162,13 @@ Site-wide diagram audit: reviewed all 112 articles for whether an explanatory li
 
 - `cow-dung-already-flew-rocket-engine` — 28,762 → 31,420 bytes (+2,658)
 - `the-grain-value-loop-integrated-rice` — 69,337 → 70,759 bytes (+1,422)
+
+## 2026-08-09T05:10:57+05:30 — 115 posts live
+
+**Versions**
+
+- `the-grain-value-loop-integrated-rice` **2.0.2 → 2.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-grain-value-loop-integrated-rice` — 70,759 → 71,075 bytes (+316)
