@@ -1825,3 +1825,44 @@ S&P Global in the inflation piece. Every load-bearing number is DGCI&S or PPAC.
 article is in dollars. A 15.3% fall in export value is not a 15.3% fall in
 barrels when crude prices have moved, and the piece says so rather than implying
 volume.
+
+## 2026-08-08 — Index rebuilt: by topic, by geography, by connection
+
+Replaced the hand-maintained ten-section index with three generated views, built
+by `tools/index_graph.py` (extraction) and `tools/build_index_page.py` (page).
+Regenerating is now two commands, so the index stops drifting from the archive.
+
+**By topic** is now twelve links to the Blogger label hubs rather than a
+hardcoded list of posts. The hubs update themselves as pieces are labelled;
+the old sections had to be hand-edited and were already stale.
+
+**By geography** required a decision. Almost every post is about India, so India
+is not a category — it would hold all 96 and say nothing. The page indexes the
+*second* geography instead: the counterpart economy a trade piece measures
+against, or the Indian state whose policy is examined. **25 countries** and
+**20 states**. China leads at 16 posts, then the US and Germany at 6 each;
+Gujarat leads the states at 11.
+
+**Extraction had to resist the tables.** Four HSN-registry posts repeat one
+sentence 2,648 times, so any raw term frequency is table furniture. Headings are
+weighted four times body text, body counts are capped per post, and a place has
+to clear a floor before it counts as a subject — every trade post mentions China
+somewhere, few are about China.
+
+**By connection** is a static inline SVG of subject co-occurrence: 17 subjects
+appearing in five or more posts, 57 edges where two share at least two posts,
+node size by post count. Deterministic circular layout, no JavaScript and no
+external library — a force-directed layout would look better and land differently
+on every rebuild, which makes a data change indistinguishable from jitter. Each
+of the 96 entries also carries up to three related pieces, ranked by shared
+subjects weighted inversely by how common the subject is, so "rare earths"
+links harder than "GST".
+
+**Verification note worth keeping.** The browser pane was collapsed to zero
+width, and `getBoundingClientRect()` in a zero-width viewport reported every SVG
+label as overflowing. That is a measurement artefact, not a layout bug. Checked
+the geometry arithmetically instead — label extents run 85 to 783 inside a
+920-wide viewBox — which needs no browser and cannot lie about a hidden pane.
+**A measurement taken through a broken instrument is not evidence.**
+
+Live: 96 post links all resolving to live posts, 12 hub links, 17 graph nodes.

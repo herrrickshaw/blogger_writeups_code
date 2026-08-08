@@ -1,0 +1,929 @@
+<div class="artx idx">
+<style>/*gs-typo-unify-v1*/
+.artx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.artx h1,.artx h2,.artx h3{line-height:1.3}
+.artx p,.artx li{max-width:38rem}
+.artx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.artx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.artx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.artx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.artx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.artx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.artx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.artx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.artx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.artx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.artx .exhibit{margin:2.2rem 0}
+.artx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.artx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.artx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.artx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.artx .tw{overflow-x:auto}
+.artx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.artx thead th:first-child,.artx tbody td:first-child{text-align:left}
+.artx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.artx th,.artx td{white-space:nowrap}
+.artx tbody tr:last-child td{border-bottom:1px solid #000}
+.artx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.artx .note,.artx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.artx .warn{border-left-color:#db2b27}
+.artx a{color:#12408f}
+.artx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.artx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.artx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.artx img,.artx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+
+<style>/*gs-index-v1*/
+.artx .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}
+.artx .chip{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.82rem;font-weight:600;color:#0B1F2D;background:#F4F7FB;padding:.5rem .9rem;
+ border-radius:2px;text-decoration:none;border:1px solid #e2e6ee}
+.artx .chip:hover{background:#e6ecf5}
+.artx .geo{display:grid;gap:1.4rem 2rem;grid-template-columns:repeat(auto-fit,minmax(17rem,1fr));margin:1.2rem 0 2rem}
+.artx .geoblock ul{margin:.35rem 0 0;padding-left:1.05rem}
+.artx .geoblock li{font-size:.9rem;line-height:1.45;margin-bottom:.28rem;max-width:none}
+.artx .geoh{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0a4c6a;
+ margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
+.artx .geoh span{color:#8a8a8a;font-weight:600}
+.artx .allposts{margin:1.2rem 0 0}
+.artx .pitem{padding:.85rem 0;border-top:1px solid #ececec}
+.artx .ptitle{margin:0;font-size:1.02rem;line-height:1.35;max-width:46rem}
+.artx .pmeta{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.74rem;color:#7a7a7a;margin:.2rem 0 0}
+.artx .prel{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.78rem;color:#595959;margin:.3rem 0 0;max-width:46rem}
+.artx .prel span{font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:.66rem;
+ color:#8a4b08;margin-right:.35rem}
+</style>
+<p class="eyebrow">Masala Deutsch &middot; Article index</p>
+<h1>Every piece on this blog, three ways in</h1>
+<p class="standfirst">96 articles on India&rsquo;s trade, energy and industrial policy, each checked against official statistics. Browse by topic, by the country or state a piece is about, or by how the subjects connect to each other.</p>
+<div class="stats"><div class="stat"><b>96</b><span>Articles</span></div><div class="stat"><b>12</b><span>Topic hubs</span></div><div class="stat"><b>25</b><span>Countries covered</span></div><div class="stat"><b>20</b><span>Indian states covered</span></div></div>
+<h2>By topic</h2>
+<p class="h2sub">Live hub pages. Each updates itself as new pieces are labelled.</p>
+<div class="chips">
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Trade%20%26%20Tariffs">Trade &amp; Tariffs</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Industrial%20Policy">Industrial Policy</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Agriculture%20%26%20Fertilisers">Agriculture &amp; Fertilisers</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Energy%20%26%20Fuels">Energy &amp; Fuels</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Import%20Substitution">Import Substitution</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Markets%20%26%20Finance">Markets &amp; Finance</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Chemicals">Chemicals</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Prices%20%26%20Inflation">Prices &amp; Inflation</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Textiles">Textiles</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Gas%20%26%20LNG">Gas &amp; LNG</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Climate%20%26%20Carbon">Climate &amp; Carbon</a>
+<a class="chip" href="https://masaladeutsch.blogspot.com/search/label/Mobility%20%26%20EV">Mobility &amp; EV</a>
+</div>
+<h2>By geography</h2>
+<p class="h2sub">The country or state a piece is actually about, not every place it mentions.</p>
+<p>Almost everything here is about India, so India is not a category &mdash; it would hold every article and tell you nothing. What follows is the <i>second</i> geography: the counterpart economy a trade piece measures against, or the Indian state whose policy is under examination.</p>
+<h3>Counterpart economies</h3>
+<div class="geo">
+<div class="geoblock"><p class="geoh">China <span>16</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html">Effective Buying Power &amp; the China Comparison — Rupee Real Exchange Rate</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Story Behind the Doubling Headline</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html">India&#x27;s Medical-Device Trade Gap — and the Devices Worth Making Here</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PLI Coverage</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Germany <span>6</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html">Europe&#x27;s Export Credit Agencies Are Quietly Bankrolling India&#x27;s Infrastructure — Not Its Factories</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html">The Recycling Lottery Playbook — Norway&#x27;s Pantelotteriet, and a Jal Jeevan Application</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">United States <span>6</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html">India&#x27;s Ethanol Surplus Isn&#x27;t Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Brazil <span>5</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html">India&#x27;s Ethanol Surplus Isn&#x27;t Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Japan <span>5</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Russia <span>5</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">European Union <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html">Europe&#x27;s Export Credit Agencies Are Quietly Bankrolling India&#x27;s Infrastructure — Not Its Factories</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Saudi Arabia <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">South Africa <span>3</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">South Korea <span>3</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">UAE <span>3</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Canada <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">France <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html">Europe&#x27;s Export Credit Agencies Are Quietly Bankrolling India&#x27;s Infrastructure — Not Its Factories</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Netherlands <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">United Kingdom <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Bhutan <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Indonesia <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Iraq <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Italy <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Mexico <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Nepal <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Norway <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html">The Recycling Lottery Playbook — Norway&#x27;s Pantelotteriet, and a Jal Jeevan Application</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Qatar <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Singapore <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Sri Lanka <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a></li>
+</ul></div>
+</div>
+<h3>Indian states</h3>
+<div class="geo">
+<div class="geoblock"><p class="geoh">Gujarat <span>11</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html">IEM Conversion — A Historical Performance Review (2017–2025)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; Sector Analysis</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Karnataka <span>8</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Uttar Pradesh <span>8</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Madhya Pradesh <span>7</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html">India — Grain Cultivation · FCI Storage · FPOs (State Map)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Odisha <span>7</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html">India&#x27;s Carbon Credit Market: Domestic Compliance Meets International Article 6.2</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html">India&#x27;s Textile Import-Export Strategy: From Dependency to Self-Sufficiency</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; Sector Analysis</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Andhra Pradesh <span>6</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Punjab <span>6</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html">India — Grain Cultivation · FCI Storage · FPOs (State Map)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Tamil Nadu <span>6</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Maharashtra <span>5</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Haryana <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Kerala <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Telangana <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Bihar <span>3</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Rajasthan <span>3</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Goa <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Jharkhand <span>2</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html">Chemical Import Substitution — Quarterly Tracking Dashboard</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Assam <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Himachal Pradesh <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">Uttarakhand <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+</ul></div>
+<div class="geoblock"><p class="geoh">West Bengal <span>1</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
+</ul></div>
+</div>
+<h2>By connection</h2>
+<p class="h2sub">Which subjects keep turning up together.</p>
+<p>Each dot is a subject that appears across several articles; its size is the number of articles. A line means two subjects share articles, and the heavier the line the more they share. The clusters are not designed &mdash; they fall out of what has actually been written.</p>
+<div class="exhibit">
+<p class="exno">Figure</p>
+<p class="extitle">Subject co-occurrence across the archive</p>
+<p class="exsub">Subjects appearing in at least five articles. Lines drawn where two subjects share two or more articles.</p>
+<svg viewBox="0 0 920 780" width="100%" role="img" aria-label="Entity co-occurrence graph across the blog's articles" style="max-width:920px;display:block;margin:0 auto">
+<title>How the subjects connect</title>
+<line x1="229.0" y1="368.6" x2="645.1" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="229.0" y1="368.6" x2="667.7" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="229.0" y1="368.6" x2="337.9" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="229.0" y1="368.6" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="229.0" y1="368.6" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="683.1" y1="453.5" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="645.1" y1="529.8" x2="337.9" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="667.7" y1="286.6" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="337.9" y1="587.3" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="543.8" y1="173.7" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="543.8" y1="173.7" x2="274.9" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="417.4" y1="618.0" x2="582.1" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="667.7" y1="286.6" x2="582.1" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="417.4" y1="618.0" x2="645.1" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="417.4" y1="618.0" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="645.1" y1="529.8" x2="274.9" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="582.1" y1="587.3" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="303.7" y1="218.5" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="683.1" y1="453.5" x2="582.1" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="683.1" y1="453.5" x2="616.3" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="582.1" y1="587.3" x2="502.6" y2="618.0" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="683.1" y1="453.5" x2="502.6" y2="618.0" stroke="#0a4c6a" stroke-opacity="0.22" stroke-width="1.3"/>
+<line x1="645.1" y1="529.8" x2="691.0" y2="368.6" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="667.7" y1="286.6" x2="337.9" y2="587.3" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="417.4" y1="618.0" x2="274.9" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="582.1" y1="587.3" x2="616.3" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="645.1" y1="529.8" x2="252.3" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="683.1" y1="453.5" x2="236.9" y2="453.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="274.9" y1="529.8" x2="252.3" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="667.7" y1="286.6" x2="502.6" y2="618.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="543.8" y1="173.7" x2="502.6" y2="618.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="683.1" y1="453.5" x2="303.7" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="645.1" y1="529.8" x2="236.9" y2="453.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="667.7" y1="286.6" x2="303.7" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="236.9" y1="453.5" x2="303.7" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="376.2" y1="173.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="616.3" y1="218.5" x2="502.6" y2="618.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="667.7" y1="286.6" x2="236.9" y2="453.5" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="582.1" y1="587.3" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="417.4" y1="618.0" x2="252.3" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="667.7" y1="286.6" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="502.6" y1="618.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="616.3" y1="218.5" x2="376.2" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="645.1" y1="529.8" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.34" stroke-width="1.9"/>
+<line x1="236.9" y1="453.5" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="683.1" y1="453.5" x2="645.1" y2="529.8" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="683.1" y1="453.5" x2="667.7" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="645.1" y1="529.8" x2="667.7" y2="286.6" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="645.1" y1="529.8" x2="303.7" y2="218.5" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="303.7" y1="218.5" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="543.8" y1="173.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="616.3" y1="218.5" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="691.0" y1="368.6" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.41" stroke-width="2.3"/>
+<line x1="683.1" y1="453.5" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.47" stroke-width="2.6"/>
+<line x1="645.1" y1="529.8" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.53" stroke-width="2.9"/>
+<line x1="683.1" y1="453.5" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.59" stroke-width="3.3"/>
+<line x1="667.7" y1="286.6" x2="543.8" y2="173.7" stroke="#0a4c6a" stroke-opacity="0.65" stroke-width="3.6"/>
+<circle cx="460.0" cy="158.0" r="18.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="460.0" y="132.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">TradeStat <tspan fill="#595959">21</tspan></text>
+<circle cx="543.8" cy="173.7" r="14.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="552.1" y="152.3" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Petrol <tspan fill="#595959">16</tspan></text>
+<circle cx="616.3" cy="218.5" r="14.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="631.7" y="201.6" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PLI scheme <tspan fill="#595959">16</tspan></text>
+<circle cx="667.7" cy="286.6" r="13.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="687.1" y="276.9" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Ethanol <tspan fill="#595959">14</tspan></text>
+<circle cx="691.0" cy="368.6" r="13.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="712.0" y="366.7" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Rupee <tspan fill="#595959">13</tspan></text>
+<circle cx="683.1" cy="453.5" r="12.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="702.8" y="459.1" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Crude oil <tspan fill="#595959">12</tspan></text>
+<circle cx="645.1" cy="529.8" r="11.8" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="660.9" y="541.7" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Diesel <tspan fill="#595959">11</tspan></text>
+<circle cx="582.1" cy="587.3" r="11.2" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="592.2" y="603.6" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Import substitution <tspan fill="#595959">10</tspan></text>
+<circle cx="502.6" cy="618.0" r="10.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="505.9" y="635.7" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Textiles <tspan fill="#595959">8</tspan></text>
+<circle cx="417.4" cy="618.0" r="10.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="414.1" y="635.7" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">CPI <tspan fill="#595959">8</tspan></text>
+<circle cx="337.9" cy="587.3" r="9.3" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="328.7" y="602.0" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">FCI <tspan fill="#595959">7</tspan></text>
+<circle cx="274.9" cy="529.8" r="9.3" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="261.0" y="540.3" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Urea <tspan fill="#595959">7</tspan></text>
+<circle cx="236.9" cy="453.5" r="8.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="220.8" y="458.1" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">GST <tspan fill="#595959">6</tspan></text>
+<circle cx="229.0" cy="368.6" r="8.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="212.3" y="367.1" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Compressed biogas <tspan fill="#595959">6</tspan></text>
+<circle cx="252.3" cy="286.6" r="8.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="237.4" y="279.1" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">WPI <tspan fill="#595959">6</tspan></text>
+<circle cx="303.7" cy="218.5" r="8.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="292.4" y="206.2" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PPAC <tspan fill="#595959">6</tspan></text>
+<circle cx="376.2" cy="173.7" r="8.1" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="370.4" y="158.7" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Steel <tspan fill="#595959">5</tspan></text>
+</svg>
+<p class="exsrc">Built from the headings and body text of every archived post by <code>tools/index_graph.py</code>. Headings are weighted four times body text, and each subject counts once per article rather than once per mention &mdash; several posts contain long tables whose repeated cell text would otherwise dominate any count. Layout is fixed and deterministic, so a change in the diagram means a change in the writing, not a reshuffle.</p>
+</div>
+<h2>All articles</h2>
+<p class="h2sub">Newest first, with the closest related pieces.</p>
+<div class="allposts">
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></p>
+<p class="pmeta">2026-08-08 &middot; European Union, China, United States</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Securit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Matc</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</a></p>
+<p class="pmeta">2026-08-08 &middot; Nepal, Bhutan, Netherlands</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></p>
+<p class="pmeta">2026-08-08 &middot; United States, Japan, Brazil</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></p>
+<p class="pmeta">2026-08-08 &middot; China, United States, Germany</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></p>
+<p class="pmeta">2026-08-08 &middot; United States, Saudi Arabia, Mexico</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html">Reinvesting Capital Gains in Higher-Yielding Bonds: The Rs 6.5 Lakh Exemption Where the Investor Keeps Rs 2.25 Lakh</a></p>
+<p class="pmeta">2026-08-07</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html">Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)</a></p>
+<p class="pmeta">2026-08-06</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India&#x27;s Import Bill Is Commodities. Recycling and </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a></p>
+<p class="pmeta">2026-08-06</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html">India&#x27;s Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything</a></p>
+<p class="pmeta">2026-08-06</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html">Rooftop Solar Is Working. Household Batteries Are Not Part of the Deal — and That Is the Next Problem.</a></p>
+<p class="pmeta">2026-08-06</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables</a></p>
+<p class="pmeta">2026-08-05 &middot; China, Canada</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html">Chemical Import Substitution — Quarterly Tracking Dashboar</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html">Europe&#x27;s Export Credit Agencies Are Quietly Bankrolling India&#x27;s Infrastructure — Not Its Factories</a></p>
+<p class="pmeta">2026-08-05 &middot; European Union, Germany, France</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html">India&#x27;s Animal-Protein Export Complex: Buffalo Meat, the Tallow-Biodiesel Byproduct, and the Shrimp Boom</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html">India&#x27;s Ethanol Surplus Isn&#x27;t Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative</a></p>
+<p class="pmeta">2026-08-05 &middot; United States, Brazil</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">The Ethanol Sector&#x27;s Buyers&#x27; Market: Overcapacity, Coopera</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html">India&#x27;s Medical-Device Trade Gap — and the Devices Worth Making Here</a></p>
+<p class="pmeta">2026-08-05 &middot; China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PL</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></p>
+<p class="pmeta">2026-08-05 &middot; Maharashtra, Gujarat, Uttar Pradesh</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html">India Trade — Sector &amp; Policy Recommendations (Chart Libra</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html">India&#x27;s Tyre-Waste Problem and the Crumb-Rubber Road Fix</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Au</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html">PLI for Medical Devices: What&#x27;s Covered, What Isn&#x27;t — and Where to Apply Next</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html">Who&#x27;s Actually Building MRI and CT Scanners in India: The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution — India (FY26–30)</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html">Rare-Earth Magnets and Specialty Steel: India&#x27;s ₹7,280 Crore Bet on the EV Supply Chain&#x27;s Missing Middle</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PL</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html">India&#x27;s Subsidised Imports — Fertilisers Explode +76% (FY2</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html">FY2025-26 Sample Report — India Trade, Currency &amp; Policy S</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html">The Empty-Shed Greenhouse: What India&#x27;s Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses</a></p>
+<p class="pmeta">2026-08-05</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">The Ethanol Sector&#x27;s Buyers&#x27; Market: Overcapacity, Cooperative Mills, and the M&amp;A Window</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus and Its Chapter 85 Problem</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html">Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenari</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></p>
+<p class="pmeta">2026-08-05 &middot; Karnataka, Odisha, Gujarat</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html">Who&#x27;s Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They&#x27;re Chasing</a></p>
+<p class="pmeta">2026-08-05</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution — India (FY26–30)</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html">The Most Discussed Schemes in Parliament — Lok Sabha &amp; Raj</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending</a></p>
+<p class="pmeta">2026-08-04</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Securit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill</a></p>
+<p class="pmeta">2026-08-04 &middot; China, Russia</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html">Indian IT in an AI Era</a></p>
+<p class="pmeta">2026-08-04</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html">Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy</a></p>
+<p class="pmeta">2026-08-04</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html">India — Grain Cultivation · FCI Storage · FPOs (State Map)</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html">Lok Sabha Question Registry — Scheme &amp; Incentive Questions, 2019 to Today</a></p>
+<p class="pmeta">2026-08-04</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html">Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026</a></p>
+<p class="pmeta">2026-08-04</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html">Rajya Sabha Question Registry — Scheme &amp; Incentive Questions, 2019 to Today</a></p>
+<p class="pmeta">2026-08-04</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></p>
+<p class="pmeta">2026-08-04 &middot; Russia, China, UAE</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Doll</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html">The Most Discussed Schemes in Parliament — Lok Sabha &amp; Rajya Sabha</a></p>
+<p class="pmeta">2026-08-04</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html">Who&#x27;s Actually Building MRI and CT Scanners in India: The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution — India (FY26–30)</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently</a></p>
+<p class="pmeta">2026-08-04</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchang</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchange Rate Actually Does to India&#x27;s Trade</a></p>
+<p class="pmeta">2026-08-04</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html">Annexure: 314 HSN Codes Mapped to Technical-Textile Segments</a></p>
+<p class="pmeta">2026-08-03</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html">Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenari</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Au</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html">From Fuel to Fibre: India&#x27;s Textile Import-Substitution Loop</a></p>
+<p class="pmeta">2026-08-03</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Au</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India&#x27;s Import Bill Is Commodities. Recycling and Import Substitution Are the Only Two Exits.</a></p>
+<p class="pmeta">2026-08-03</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html">Chemical Import Substitution — Full HSN-8 Chapter-Wise Reg</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has</a></p>
+<p class="pmeta">2026-08-03 &middot; Japan, European Union</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchang</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a></p>
+<p class="pmeta">2026-08-03 &middot; Gujarat</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html">From Fuel to Fibre: India&#x27;s Textile Import-Substitution Lo</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html">India Sells the World $53 Billion of Fuel. Its Neighbours </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Au</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></p>
+<p class="pmeta">2026-08-02 &middot; Maharashtra, Gujarat, Punjab</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Securit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Depen</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></p>
+<p class="pmeta">2026-08-02 &middot; Uttar Pradesh, Karnataka, Haryana</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Story Behi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></p>
+<p class="pmeta">2026-08-02 &middot; Gujarat, Uttar Pradesh, Haryana</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html">India&#x27;s Carbon Credit Market: Domestic Compliance Meets In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Ethanol B</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html">CPI Inflation Heatmap — India, June 2026</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html">India&#x27;s Textile Import-Export Strategy: From Dependency to</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html">CPI &amp; WPI Trends — India (CPI from MoSPI, WPI from DPIIT)</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — Ind</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html">DISCOM Debt Relief — Token Charge Calculator</a></p>
+<p class="pmeta">2026-08-02</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html">Effective Buying Power &amp; the China Comparison — Rupee Real Exchange Rate</a></p>
+<p class="pmeta">2026-08-02 &middot; China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html">Five-Year Synthesis: Trade, Currency &amp; Policy, FY2021-22 to FY2025-26</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchang</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html">FY2025-26 Sample Report — India Trade, Currency &amp; Policy Snapshot</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PL</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html">India&#x27;s Subsidised Imports — Fertilisers Explode +76% (FY2</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html">Rare-Earth Magnets and Specialty Steel: India&#x27;s ₹7,280 Cro</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?</a></p>
+<p class="pmeta">2026-08-02 &middot; European Union</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html">India&#x27;s Carbon Credit Market: Domestic Compliance Meets In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid L</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html">Rare-Earth Magnets and Specialty Steel: India&#x27;s ₹7,280 Cro</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html">HSN-wise Historical Import/Export Trends — India, FY2018-19 to FY2025-26</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus and It</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html">IEM Conversion — A Historical Performance Review (2017–2025)</a></p>
+<p class="pmeta">2026-08-02 &middot; Gujarat</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html">Import-Dependent Sectors vs. Government Scheme Attention — India</a></p>
+<p class="pmeta">2026-08-02</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI — India</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html">India&#x27;s Carbon Credit Market: Domestic Compliance Meets International Article 6.2</a></p>
+<p class="pmeta">2026-08-02 &middot; Odisha</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid L</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance — Real </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Story Behind the Doubling Headline</a></p>
+<p class="pmeta">2026-08-02 &middot; China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Poli</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html">India&#x27;s Trade Balance — HSN-wise Export/Import Analysis</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Doll</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></p>
+<p class="pmeta">2026-08-02 &middot; China, Saudi Arabia &middot; Gujarat, Uttar Pradesh, Jharkhand</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Depen</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Matc</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Au</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a></p>
+<p class="pmeta">2026-08-02 &middot; United States, China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PL</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PLI Coverage</a></p>
+<p class="pmeta">2026-08-02 &middot; China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html">India&#x27;s Medical-Device Trade Gap — and the Devices Worth M</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html">RBI Foreign Exchange Reserves — 2015–2026</a></p>
+<p class="pmeta">2026-08-02</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchang</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html">Real GDP Growth — India, FY2012-13 to FY2025-26</a></p>
+<p class="pmeta">2026-08-02</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></p>
+<p class="pmeta">2026-08-02 &middot; Maharashtra, Gujarat, Uttar Pradesh</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Securit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html">From Fuel to Fibre: India&#x27;s Textile Import-Substitution Lo</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></p>
+<p class="pmeta">2026-08-02 &middot; Maharashtra, Gujarat, Uttar Pradesh</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html">The Ethanol Sector&#x27;s Buyers&#x27; Market: Overcapacity, Coopera</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; Sector Analysis</a></p>
+<p class="pmeta">2026-08-02 &middot; Gujarat, Odisha</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Kar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html">India Trade — Sector &amp; Policy Recommendations (Chart Libra</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></p>
+<p class="pmeta">2026-08-02 &middot; China, Russia, UAE</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees: A Scenario Model of De-Doll</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a></p>
+<p class="pmeta">2026-08-01 &middot; China</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html">Chemical Import Substitution — Quarterly Tracking Dashboard</a></p>
+<p class="pmeta">2026-08-01 &middot; Jharkhand</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution — India (FY26–30)</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution — India (FY26–30)</a></p>
+<p class="pmeta">2026-08-01</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html">Chemical Import Substitution — Quarterly Tracking Dashboar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale</a></p>
+<p class="pmeta">2026-08-01 &middot; China, Germany, Saudi Arabia &middot; Andhra Pradesh</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html">AI High-Demand Launch Tracker</a></p>
+<p class="pmeta">2026-07-31</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html">FCI Grain Flow — Procurement · Storage · Disposal Dashboard</a></p>
+<p class="pmeta">2026-07-31</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html">Jai Kisan, Jai Javan — An FCI-Based Military Ration Strate</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html">FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT</a></p>
+<p class="pmeta">2026-07-31</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html">Jai Kisan, Jai Javan — An FCI-Based Military Ration Strate</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html">India — Grain Cultivation · FCI Storage · FPOs (State Map)</a></p>
+<p class="pmeta">2026-07-31 &middot; Madhya Pradesh, Punjab</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html">Jai Kisan, Jai Javan — An FCI-Based Military Ration Strate</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html">India&#x27;s Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)</a></p>
+<p class="pmeta">2026-07-31</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">Priority Trade Partners by Import-Growth Sector, &amp; Real PL</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html">FY2025-26 Sample Report — India Trade, Currency &amp; Policy S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html">Rare-Earth Magnets and Specialty Steel: India&#x27;s ₹7,280 Cro</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></p>
+<p class="pmeta">2026-07-31 &middot; Karnataka, Rajasthan, Maharashtra</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Ethanol B</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html">The Recycling Lottery Playbook — Norway&#x27;s Pantelotteriet, and a Jal Jeevan Application</a></p>
+<p class="pmeta">2026-07-31 &middot; Norway, Germany</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a></p>
+<p class="pmeta">2026-07-30 &middot; United Kingdom</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html">Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios</a></p>
+<p class="pmeta">2026-07-28</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html">From Fuel to Fibre: India&#x27;s Textile Import-Substitution Lo</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html">The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked</a></p>
+<p class="pmeta">2026-07-28</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html">India&#x27;s Carbon Credit Market: Domestic Compliance Meets In</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid L</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html">India&#x27;s Textile Import-Export Strategy: From Dependency to Self-Sufficiency</a></p>
+<p class="pmeta">2026-07-27 &middot; Odisha</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution — Full HSN-8 Registry (827 Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Sur</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html">Ethanol Blending &amp; the OMC Books — E20 today vs E30 + SGST</a></p>
+<p class="pmeta">2026-07-24</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? </a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html">India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)</a></p>
+<p class="pmeta">2026-07-24</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html">US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)</a></p>
+<p class="pmeta">2026-07-24</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State</a></p>
+<p class="pmeta">2026-07-23</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">Top 15 Chemicals for Import Substitution: Detailed Analysi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Ethanol B</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html">CGD Geographical Areas — District Allotment Map (Part 1 of 3)</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html">Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html">India EC Approval Funnel — PARIVESH 2.0</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html">India Environmental Clearances — State × Sub-sector Dashboard</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html">India Forest, Wildlife &amp; CRZ Clearances — PARIVESH</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html">The Fearless Girl&#x27;s Charter — India&#x27;s Market Asks 2026</a></p>
+<p class="pmeta">2026-07-22</p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html">India Trade — Sector &amp; Policy Recommendations (Chart Library)</a></p>
+<p class="pmeta">2026-07-21</p>
+<p class="prel"><span>Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Kar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS a</a></p>
+</div>
+<div class="pitem">
+<p class="ptitle"><a href="https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html">Tech for Business so 2019, Tech As Business is for 2020! </a></p>
+<p class="pmeta">2020-10-04</p>
+</div>
+</div><p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+
+</div>

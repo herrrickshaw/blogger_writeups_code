@@ -3,23 +3,23 @@
   "title": "📚 Article Index — Start Here",
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
-  "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-08T11:04:08.283+05:30",
+  "published": "2026-08-02T10:43:26.000+05:30",
+  "updated": "2026-08-08T12:36:48.126+05:30",
   "labels": [],
-  "bytes": 46548,
-  "sha256": "fbbc7134f7903c3a042029905fe4a7f10577f4fe9ecd7112c0074ef4a2f574f3",
+  "bytes": 120635,
+  "sha256": "f14470ac1f4d401cbe8003d28f3f25560b172315b9728d3201c7c7da9c1054ed",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
-    "typo_unify": false,
+    "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.0.0",
+  "version": "10.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -157,6 +157,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Author photo replaces UT monogram in both posts and the site-wide theme card"
+    },
+    {
+      "version": "10.0.0",
+      "date": "2026-08-08T12:37:52+05:30",
+      "level": "major",
+      "reason": "figures changed (+4/-5 distinct numbers)",
+      "bytes": [
+        46548,
+        120635
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          false,
+          true
+        ],
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": "index rebuilt: topic hubs, geography, subject graph"
     }
   ]
 }

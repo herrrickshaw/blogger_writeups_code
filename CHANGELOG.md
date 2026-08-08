@@ -1372,3 +1372,16 @@ new post: India's fuel surplus and the neighbourhood
 - `rbi-foreign-exchange-reserves-20152026` — 2026-08-02 &rarr; 2026-08-02
 - `discom-debt-relief-token-charge` — 2026-08-02 &rarr; 2026-08-02
 - `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 2026-08-02 &rarr; 2026-08-02
+
+## 2026-08-08T12:37:52+05:30 — 98 posts live
+
+index rebuilt: topic hubs, geography, subject graph
+
+
+**Versions**
+
+- `article-index-start-here` **9.0.0 → 10.0.0** (MAJOR) — figures changed (+4/-5 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 46,548 → 120,635 bytes (+74,087); markers ai_disclosure False→True, index_link False→True, typo_unify False→True
