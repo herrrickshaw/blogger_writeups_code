@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
   "slug": "indias-subsidised-imports-fertilisers",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-08-08T14:23:39.798+05:30",
+  "updated": "2026-08-08T22:23:31.556+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 26365,
-  "sha256": "8bfaf6b801434b760cacab4641f4321fc94f1efc6ce3d729310f9e9ac35161de",
+  "bytes": 27830,
+  "sha256": "2abe7e6a49e1c1b3b7ce0e71404c8d3e241b5617a93988001b0395831db8cafa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -75,6 +75,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T22:32:38+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        26365,
+        27830
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
     }
   ]
 }

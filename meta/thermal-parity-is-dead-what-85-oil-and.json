@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
   "slug": "thermal-parity-is-dead-what-85-oil-and",
   "published": "2026-08-08T21:04:59.000+05:30",
-  "updated": "2026-08-08T21:38:29.791+05:30",
+  "updated": "2026-08-08T22:23:46.137+05:30",
   "labels": [
     "Energy & Fuels",
     "Markets & Finance"
   ],
-  "bytes": 21655,
-  "sha256": "7b69c77fec4a11e3990c2e17d181db4e5b1213f61b667b21c09119fc7385b8b4",
+  "bytes": 23165,
+  "sha256": "860e06a67805f955ad03054f18b5300d95ff6ca6c358f134f2cd600719fd6657",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Corrected thermal-parity article: pulled live PPAC gas price data directly ($7.86/MMBtu notified domestic price for Aug 2026, $8.90/MMBtu difficult-fields ceiling for Apr-Sep 2026) replacing stale secondary-sourced $7.00/$9.72 figures; ratio corrected 12.2:1→10.8:1 (2.0x thermal parity, near-exact match to industry's 10:1 rule)"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-08T22:32:38+05:30",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        21655,
+        23165
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
     }
   ]
 }

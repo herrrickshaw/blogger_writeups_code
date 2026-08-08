@@ -2053,3 +2053,32 @@ Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Isra
 
 - `indias-fertiliser-import-bill-hits-18` — 15,558 → 18,519 bytes (+2,961)
 - `the-masala-deutsch-shop-books-things` — 25,209 → 25,844 bytes (+635)
+
+## 2026-08-08T22:32:38+05:30 — 113 posts live
+
+Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)
+
+
+**Versions**
+
+- `thermal-parity-is-dead-what-85-oil-and` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+- `lpgs-missing-number-7308-commission-and` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `city-gas-just-became-indias-largest-gas` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `europe-bought-record-amount-of-lng-and` **4.0.1 → 5.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `bio-fertiliser-and-green-credits` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `nature-versus-nurture-indias-fertiliser` **2.0.1 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `imported-fertiliser-fuel-prices-diesel` **1.0.4 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `indias-subsidised-imports-fertilisers` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `the-cbg-incentive-stack-every-leg-of` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `thermal-parity-is-dead-what-85-oil-and` — 21,655 → 23,165 bytes (+1,510)
+- `lpgs-missing-number-7308-commission-and` — 17,748 → 19,259 bytes (+1,511)
+- `city-gas-just-became-indias-largest-gas` — 16,571 → 18,053 bytes (+1,482)
+- `europe-bought-record-amount-of-lng-and` — 32,767 → 34,263 bytes (+1,496)
+- `bio-fertiliser-and-green-credits` — 36,831 → 38,308 bytes (+1,477)
+- `nature-versus-nurture-indias-fertiliser` — 70,149 → 71,621 bytes (+1,472)
+- `imported-fertiliser-fuel-prices-diesel` — 26,261 → 27,737 bytes (+1,476)
+- `indias-subsidised-imports-fertilisers` — 26,365 → 27,830 bytes (+1,465)
+- `the-cbg-incentive-stack-every-leg-of` — 10,087 → 11,598 bytes (+1,511)
