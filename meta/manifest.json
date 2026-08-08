@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T10:40:42+05:30",
+  "snapshot": "2026-08-08T10:57:39+05:30",
   "count": 97,
   "posts": {
     "1157999291079244419": {
@@ -5373,10 +5373,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
       "slug": "europe-bought-record-amount-of-lng-and",
       "published": "2026-08-08T10:31:50.699+05:30",
-      "updated": "2026-08-08T10:39:46.855+05:30",
+      "updated": "2026-08-08T10:56:38.447+05:30",
       "labels": [],
-      "bytes": 26056,
-      "sha256": "f6186a95acb7624ba599132af442ec1f5454118a0df7d50b18fabfc563eb0dc1",
+      "bytes": 32648,
+      "sha256": "45c951a085693d43b077aee236d4531a4f7f438bf283ab810b60a2d2bdebc52b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5388,7 +5388,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5422,6 +5422,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "LNG v2.0.0: India section and source-coverage map"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-08-08T10:57:39+05:30",
+          "level": "major",
+          "reason": "figures changed (+50/-0 distinct numbers)",
+          "bytes": [
+            26056,
+            32648
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "LNG v3.0.0: withdraw unpublished-data claim, add PNGRB terminal utilisation"
         }
       ]
     },

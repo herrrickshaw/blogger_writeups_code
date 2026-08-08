@@ -1543,3 +1543,42 @@ products only and the LNG series sits in a separate report this pass did not
 reach. The price rows in Exhibit 5 therefore describe *what PPAC publishes*, not
 figures reproduced here. An empty cell honestly labelled beats a plausible number
 from somewhere else.
+
+## 2026-08-08 — LNG v3.0.0: a published claim withdrawn, and a vendor figure rejected
+
+**v2.0.0 said "nobody publishes terminal-level throughput against terminal-level
+capacity". PNGRB does.** It sits in section 4.2 of *India's Evolving Natural Gas
+Landscape — NG Demand Projections for 2030 and 2040*, on the board's
+knowledge-sharing page, attributed to PPAC. The claim is withdrawn in the
+revision line rather than quietly edited out, because it was the closing line of
+the section and a reader who acted on it was misled.
+
+**The data changes the reading of the article's own headline number.** National
+utilisation of 47% is an average across a system where **Dahej runs at 95%** and
+has averaged 98% for eight years, while the six other terminals with a reported
+figure hold 30.2 Mtpa and moved 7.8 Mt — **26%**. Worse, the mid-tier is
+deteriorating: Hazira 67%→30%, Dabhol 58%→43%, Mundra 25%→15%. Kochi and Ennore
+rose, from 13% and 12%. This is the average-hiding-a-break problem again, in a
+number I had already published.
+
+**The counter-case is included because PNGRB makes it in the same document** —
+demand to ~200 MMSCMD by 2030, imports more than doubling, capacity takes years.
+Its weak points are also PNGRB's own: affordability against an APM price capped
+at US$6.50/MMBtu, and terminals not integrated with demand centres. Presenting
+only the overbuild reading would have been the easier and worse article.
+
+**One drafting correction caught before publishing.** I had written that the
+underused terminals are "furthest from cheap domestic supply" — a mechanism I
+invented. PNGRB points at evacuation and demand-centre integration, i.e. missing
+pipelines. Replaced with what the source actually says.
+
+**Vendor check (seala.ai).** Asked to evaluate a commercial LNG-statistics site.
+It gives EU-plus-UK 2025 imports as **359 Mt**. Global LNG trade in 2025 was
+**437 Mt**; Europe's share was **126.2 Mt**. The figure is 82% of every cargo
+shipped anywhere on earth. Source undisclosed, product paid. Not used — and the
+check is now *in* the article, because "no commercial vendors" reads as
+fastidiousness until you show what one division turns up.
+
+**Rule reinforced:** before writing that a figure is unpublished, check the
+regulator's non-statistical output. Studies, conclave booklets and projection
+reports carry data that never appears in a statistics release.

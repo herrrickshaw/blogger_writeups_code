@@ -1279,3 +1279,16 @@ LNG v2.0.0: India section and source-coverage map
 **Changed**
 
 - `europe-bought-record-amount-of-lng-and` — 19,786 → 26,056 bytes (+6,270)
+
+## 2026-08-08T10:57:39+05:30 — 97 posts live
+
+LNG v3.0.0: withdraw unpublished-data claim, add PNGRB terminal utilisation
+
+
+**Versions**
+
+- `europe-bought-record-amount-of-lng-and` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+50/-0 distinct numbers)
+
+**Changed**
+
+- `europe-bought-record-amount-of-lng-and` — 26,056 → 32,648 bytes (+6,592)
