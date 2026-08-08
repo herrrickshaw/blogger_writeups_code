@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-08-06T12:00:20.476+05:30",
+  "updated": "2026-08-08T09:15:26.425+05:30",
   "labels": [],
-  "bytes": 8259,
-  "sha256": "3c3ba82f1af28cbaaebd628726934dd76b9af57f6b001627d1b828b509ebc8b3",
+  "bytes": 9532,
+  "sha256": "985b8d6b73a56f2f9a0f33ff6d53a252e35bdd7c9ca305a7ae22991dadf29812",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        8259,
+        9532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

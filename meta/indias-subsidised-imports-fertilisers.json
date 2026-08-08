@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
   "slug": "indias-subsidised-imports-fertilisers",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:26:55.043+05:30",
+  "updated": "2026-08-08T09:20:54.467+05:30",
   "labels": [],
-  "bytes": 24973,
-  "sha256": "c8ac1e521b66509610a5de926a8b223ac8c6018745a2a22c982f8b56a06615e0",
+  "bytes": 26246,
+  "sha256": "472b8e7237c8b2b9dbb106d3b1ddca61a1c08ea119be13e87574f39b330d82c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24973,
+        26246
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

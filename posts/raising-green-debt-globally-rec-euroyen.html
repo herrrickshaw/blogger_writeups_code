@@ -14,6 +14,24 @@
 .gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
 .gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
 .gb-related a{color:#0b5394}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div class="gb-kicker">Sustainable Finance &middot; India Trade &amp; Policy &middot; 3 August 2026</div>
@@ -208,11 +226,11 @@ twenty-five.</div>
 <p>The coupon is only half the borrowing cost. The other half is what the rupee does against the borrowed currency over the bond's life &mdash; and here the three candidate currencies have behaved completely differently. RBI's own reference-rate archive (which runs to the FBIL handover on 24 July 2018) sets the anchor: <strong>&#8377;69.05/USD, &#8377;80.54/EUR and &#8377;61.98 per &#165;100</strong> on its final print. Extend the series to today with market data and the divergence is stark:</p>
 
 <div class="gb-tblwrap"><table class="gb-table">
-<thead><tr><th>Rupee depreciation vs borrowed currency</th><th class="gb-num" style="text-align:right">&#x1F1FA;&#x1F1F8; USD</th><th class="gb-num" style="text-align:right">&#x1F1EA;&#x1F1FA; EUR</th><th class="gb-num" style="text-align:right">&#x1F1EF;&#x1F1F5; JPY</th></tr></thead>
+<thead><tr><th>Rupee depreciation vs borrowed currency</th><th class="gb-num" style="text-align:right">&#x1F1FA;&#x1F1F8; USD</th><th class="gb-num" style="text-align:right">&#x1F1EA;&#x1F1FA; EUR</th><th class="gb-num" style="text-align:right">🇯🇵 JPY, %</th></tr></thead>
 <tbody>
-<tr><td>Since REC's yen issue (Jan 2024 &rarr; Aug 2026)</td><td style="text-align:right">&minus;14.7%</td><td style="text-align:right">&minus;22.1%</td><td style="text-align:right">&minus;8.1%</td></tr>
-<tr><td>5 years (Jul 2021 &rarr; Aug 2026)</td><td style="text-align:right">&minus;28.4%</td><td style="text-align:right">&minus;24.7%</td><td style="text-align:right"><strong>+10.2%</strong></td></tr>
-<tr><td>10 years (Jul 2016 &rarr; Aug 2026)</td><td style="text-align:right">&minus;43.0%</td><td style="text-align:right">&minus;49.7%</td><td style="text-align:right"><strong>+6.5%</strong></td></tr>
+<tr><td>Since REC's yen issue (Jan 2024 &rarr; Aug 2026)</td><td style="text-align:right">&minus;14.7%</td><td style="text-align:right">&minus;22.1%</td><td style="text-align:right">−8.1</td></tr>
+<tr><td>5 years (Jul 2021 &rarr; Aug 2026)</td><td style="text-align:right">&minus;28.4%</td><td style="text-align:right">&minus;24.7%</td><td style="text-align:right">+10.2</td></tr>
+<tr><td>10 years (Jul 2016 &rarr; Aug 2026)</td><td style="text-align:right">&minus;43.0%</td><td style="text-align:right">&minus;49.7%</td><td style="text-align:right">+6.5</td></tr>
 <tr><td>vs RBI's last reference rate (24 Jul 2018)</td><td style="text-align:right">&#8377;69.05 &rarr; &#8377;95.33 (&minus;38%)</td><td style="text-align:right">&#8377;80.54 &rarr; &#8377;109.91 (&minus;36%)</td><td style="text-align:right">&#8377;0.6198 &rarr; &#8377;0.6091/&#165; (<strong>&asymp; flat</strong>)</td></tr>
 </tbody>
 </table></div>

@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div style="border:2px solid #C0392B;background:#FDF3F2;padding:1rem 1.2rem;margin:0 0 1.4rem;font-family:-apple-system,Segoe UI,sans-serif"><div style="font-weight:700;color:#C0392B;letter-spacing:.04em;font-size:.95em;margin-bottom:.5rem">CORRECTION NOTICE &mdash; 4 August 2026</div><p style="margin:0 0 .6rem;font-size:.93em;line-height:1.5">A re-derivation against DGCI&amp;S TradeStat on 2 August 2026 found that several HS-8 codes used to build this dashboard <strong>do not exist in India&rsquo;s tariff schedule</strong>. The dyes/azo line below cites <em>HSN 32030010</em> with a <strong>+$210&ndash;350mn</strong> anti-dumping upside; 32030010 is Cutch/Catechu Extracts (~$2M), and azo-dye-specific imports are roughly <strong>$8&ndash;25M</strong>, with the entire HSN 3204 dyes-and-pigments chapter totalling <strong>$298M</strong>. A 15&ndash;25% duty cannot yield $210&ndash;350mn on that base.</p><p style="margin:0;font-size:.93em;line-height:1.5">The same re-derivation invalidated the ethylene, propylene, polyethylene and lecithin import bases used elsewhere in this series. <strong>The FY30 target of $8.3&ndash;9.8bn shown below is therefore retracted</strong> pending a from-scratch exercise against corrected bases. Treat the quarterly milestones as directional only; the rupee and dollar magnitudes are not reliable.</p></div>
 <style>

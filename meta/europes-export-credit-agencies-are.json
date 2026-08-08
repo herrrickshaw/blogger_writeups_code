@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.583+05:30",
-  "updated": "2026-08-05T19:00:06.584+05:30",
+  "updated": "2026-08-08T09:15:06.158+05:30",
   "labels": [],
-  "bytes": 14339,
-  "sha256": "e4004f34ac1ec83e20643fa48e47f8fa754b5497bc1d1a7a9223e19a6d97b3b3",
+  "bytes": 15612,
+  "sha256": "d18d0cced80ada67656b726cd96201a22ed0039c1efd735383d20667bc0c4076",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        14339,
+        15612
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

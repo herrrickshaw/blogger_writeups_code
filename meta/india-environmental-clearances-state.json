@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:25:50.320+05:30",
+  "updated": "2026-08-08T09:18:00.571+05:30",
   "labels": [],
-  "bytes": 6521,
-  "sha256": "1b7367aac62bf7f3269f284bc875d8022fb001308fb4916ec7de19de4d685645",
+  "bytes": 7794,
+  "sha256": "a0ae5901ef48e988d67ec9f1a95ea7aa8a064c1ac4ff2694987d30dd48972506",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        6521,
+        7794
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-06T11:22:15.162+05:30",
+  "updated": "2026-08-08T09:11:38.230+05:30",
   "labels": [],
-  "bytes": 14855,
-  "sha256": "9308553e69d571950bf579889a4771417055679314a14781d79794b6504cf0ca",
+  "bytes": 16128,
+  "sha256": "2e268c485519d0fff7c1eef9989f74293aaae70ec9d530cb4f25956b4ddd9b98",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        14855,
+        16128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.114+05:30",
-  "updated": "2026-08-06T11:23:11.668+05:30",
+  "updated": "2026-08-08T09:14:00.077+05:30",
   "labels": [],
-  "bytes": 65224,
-  "sha256": "4e3e145926f813c97e4a66fbaa2ce7bfee20bbc3b77e2bf40ee3a089b2263cf3",
+  "bytes": 66497,
+  "sha256": "e87f51cd333bce7b06cb6a1d8334fc93433a56d620585e3a8f709193bcd22eb3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        65224,
+        66497
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

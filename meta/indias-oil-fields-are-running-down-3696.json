@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
   "slug": "indias-oil-fields-are-running-down-3696",
   "published": "2026-08-06T08:32:50.804+05:30",
-  "updated": "2026-08-08T06:30:45.181+05:30",
+  "updated": "2026-08-08T09:20:20.183+05:30",
   "labels": [],
-  "bytes": 12862,
-  "sha256": "ae23a1a467f97e89b1f63755dad8cbceae2eecafe748b2379e9e33d1a81eef56",
+  "bytes": 14099,
+  "sha256": "76abef9178947937bb1b66627e70ef2e989ec0506e2885c49451e32f4d569d42",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "table scroller fix applied to four more posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        12862,
+        14099
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

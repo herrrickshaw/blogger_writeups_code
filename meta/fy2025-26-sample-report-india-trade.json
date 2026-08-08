@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.708+05:30",
-  "updated": "2026-08-08T06:49:27.429+05:30",
+  "updated": "2026-08-08T09:16:23.734+05:30",
   "labels": [],
-  "bytes": 27752,
-  "sha256": "57bc6627f3625490db47ea8c59d767ca1deb9c4b2b8beaaf0ca3234341ca1e9d",
+  "bytes": 29025,
+  "sha256": "6bfdeac94fdaf07c980e33d63dbf2e8769e25b34697cc9b948e879475cba7712",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -62,6 +62,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "link audit: 6 posts relinked"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27752,
+        29025
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

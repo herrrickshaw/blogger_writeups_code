@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.175+05:30",
-  "updated": "2026-08-05T07:28:21.063+05:30",
+  "updated": "2026-08-08T09:23:33.949+05:30",
   "labels": [],
-  "bytes": 48608,
-  "sha256": "9776dfdbb56786bf526a227b5c3f84814a50f748099dbcf89f5b3218914f86fe",
+  "bytes": 49825,
+  "sha256": "2c96604625d2ff87179e019add9bd8d2adbad017aaefdd0464bb9c5a85d04f05",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        48608,
+        49825
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

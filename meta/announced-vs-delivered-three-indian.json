@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.571+05:30",
-  "updated": "2026-08-05T06:50:48.965+05:30",
+  "updated": "2026-08-08T09:12:10.728+05:30",
   "labels": [],
-  "bytes": 37602,
-  "sha256": "cd98cf302da569a66941aeefb280dfcd1d7414a029f61d4fe91ec2035b556d9c",
+  "bytes": 38875,
+  "sha256": "a2cf3058c18add4c9b6316a81d32fd326c1cf970c3eaa060c31891e7f5660063",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37602,
+        38875
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

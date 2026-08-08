@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.094+05:30",
-  "updated": "2026-08-05T05:53:36.886+05:30",
+  "updated": "2026-08-08T09:22:31.716+05:30",
   "labels": [],
-  "bytes": 68947,
-  "sha256": "c285cbf1d4489b9cf8037b504edd78a84c3cc19732f37d8461ec9f372401a98d",
+  "bytes": 70182,
+  "sha256": "e136a71049d4c9a7577099511043231b2db4e3205a253c43a661725b6d9d4b44",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        68947,
+        70182
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

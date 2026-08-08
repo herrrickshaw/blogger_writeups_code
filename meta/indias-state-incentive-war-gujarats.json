@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
   "slug": "indias-state-incentive-war-gujarats",
   "published": "2026-08-05T17:18:03.512+05:30",
-  "updated": "2026-08-05T17:56:53.386+05:30",
+  "updated": "2026-08-08T09:20:41.882+05:30",
   "labels": [],
-  "bytes": 23442,
-  "sha256": "e6474e64470a02f3201bec72b333d7a951473960eaf0f40aa0b4cef937651e00",
+  "bytes": 24611,
+  "sha256": "e7baf8fcf5501545544f07a22d96040caf0d1a52fc0e436471022d9e120b9969",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        23442,
+        24611
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

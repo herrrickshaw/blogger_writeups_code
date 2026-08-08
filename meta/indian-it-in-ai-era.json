@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.582+05:30",
-  "updated": "2026-08-05T06:14:26.705+05:30",
+  "updated": "2026-08-08T09:19:08.207+05:30",
   "labels": [],
-  "bytes": 29458,
-  "sha256": "5fd19f487603390080e627364456ffae5c18a2e58b172c00fe239dcaf7f59f21",
+  "bytes": 30704,
+  "sha256": "1f159b520c99b9b55d1fe831e2ee9db6d3a7929222709670ba35ff17c58693c8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        29458,
+        30704
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

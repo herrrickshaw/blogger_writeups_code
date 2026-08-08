@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div class="artx" style="--h1:#3d2914;--h2:#7a5028"><div class="hero"><h1>Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy</h1>
@@ -56,13 +74,13 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 </tbody></table></div>
 <p>A soya-based vegetarian option (mock meat) sitting alongside animal-protein pouches at a comparable protein density is the kind of detail that separates a genuine nutrition-engineering pass from a pure cost-cutting pitch — it suggests the protein target was designed to be met without mandating non-vegetarian rations across the force.</p>
 <h2>Financial case (as presented)</h2>
-<div class="tblwrap"><table><thead><tr><th>Line</th><th class="num">Value</th></tr></thead><tbody>
-<tr><td>Year-1 setup cost</td><td class="num">₹2.85 Cr</td></tr>
-<tr><td>Operating cost, Year 2+</td><td class="num">₹1.2-1.4 Cr/yr</td></tr>
-<tr><td>5-year net savings vs private <span style="color:#8a5a12;font-size:.85em">(the visible line items in this table sum to ~₹10–14 Cr, not ₹8.51 Cr — the deck does not show a full reconciling derivation)</span></td><td class="num">₹8.51 Cr</td></tr>
+<div class="tblwrap"><table><thead><tr><th>Line</th><th class="num">Value, crore ₹/yr</th></tr></thead><tbody>
+<tr><td>Year-1 setup cost</td><td class="num">2.85</td></tr>
+<tr><td>Operating cost, Year 2+</td><td class="num">1.2-1.4</td></tr>
+<tr><td>5-year net savings vs private <span style="color:#8a5a12;font-size:.85em">(the visible line items in this table sum to ~₹10–14 Cr, not ₹8.51 Cr — the deck does not show a full reconciling derivation)</span></td><td class="num">8.51</td></tr>
 <tr><td>Claimed ROI</td><td class="num">150%</td></tr>
 <tr><td>Claimed payback period</td><td class="num">12 months</td></tr>
-<tr><td>Perpetual annual savings (Yr 2+, gross — before the ₹1.2-1.4 Cr/yr operating cost and Year-1 setup are netted; the ₹8.51 Cr row above is the 5-year net of both)</td><td class="num">₹4.5 Cr/yr</td></tr>
+<tr><td>Perpetual annual savings (Yr 2+, gross — before the ₹1.2-1.4 Cr/yr operating cost and Year-1 setup are netted; the ₹8.51 Cr row above is the 5-year net of both)</td><td class="num">4.5</td></tr>
 </tbody></table></div>
 <h2>18-month rollout plan</h2>
 <ul>

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.507+05:30",
-  "updated": "2026-08-06T11:24:54.745+05:30",
+  "updated": "2026-08-08T09:17:06.436+05:30",
   "labels": [],
-  "bytes": 13026,
-  "sha256": "17b3f294ee5bfce14a69d5642611c9beb70d8750fe412f6dc1b3df3c70781036",
+  "bytes": 14299,
+  "sha256": "d9be5d300da07e7c243df70b781e03e8217830a9665dc1f275d906261d5a6581",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        13026,
+        14299
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

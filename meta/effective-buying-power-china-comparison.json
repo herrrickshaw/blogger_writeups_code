@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.703+05:30",
-  "updated": "2026-08-06T11:23:34.574+05:30",
+  "updated": "2026-08-08T09:14:44.892+05:30",
   "labels": [],
-  "bytes": 27865,
-  "sha256": "18d2d77859408eafb9bddaea44df2c36f85270e9a940fbc4492c4888d3f10e3b",
+  "bytes": 29138,
+  "sha256": "b017b0e54f38d22dccebf25f075bb9950f33a3ca82264dec649ac3cf0658ebd7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27865,
+        29138
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

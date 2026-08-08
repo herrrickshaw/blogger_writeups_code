@@ -22,6 +22,24 @@
 .wpix .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
 .wpix .tw{overflow-x:auto}
 .wpix .wpi-key{background:#f4f8f6;border-left:4px solid #12303f;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -73,15 +91,15 @@
 <p>April anchors avoid seasonality and line up with the fiscal year. Index values, base 2011-12 = 100:</p>
 <div class="tw">
 <table>
-<tr><th>Series</th><th>2012</th><th>2014</th><th>2016</th><th>2018</th><th>2020</th><th>2022</th><th>2024</th><th>2026</th><th>2012&rarr;2026</th></tr>
-<tr><td>All Commodities</td><td>104.7</td><td>114.1</td><td>109.0</td><td>117.3</td><td>119.2</td><td>152.3</td><td>152.9</td><td>167.6</td><td>+60.1%</td></tr>
-<tr><td>Primary Articles</td><td>107.1</td><td>121.5</td><td>126.1</td><td>130.7</td><td>137.8</td><td>174.5</td><td>187.1</td><td>202.5</td><td>+89.1%</td></tr>
-<tr><td>Fuel &amp; Power</td><td>106.3</td><td>116.5</td><td>78.3</td><td>99.0</td><td>89.8</td><td>151.2</td><td>151.4</td><td>181.7</td><td>+70.9%</td></tr>
-<tr><td>Manufactured Products</td><td>103.5</td><td>111.0</td><td>109.2</td><td>116.3</td><td>118.7</td><td>144.7</td><td>141.2</td><td>152.4</td><td>+47.2%</td></tr>
-<tr><td>Food Articles</td><td>106.2</td><td>123.1</td><td>137.8</td><td>139.8</td><td>154.5</td><td>175.3</td><td>196.8</td><td>201.4</td><td>+89.6%</td></tr>
-<tr><td>HSD (diesel)</td><td>111.9</td><td>130.0</td><td>59.1</td><td>92.5</td><td>76.0</td><td>169.3</td><td>168.5</td><td>200.3</td><td>+79.0%</td></tr>
-<tr><td>Urea</td><td>101.4</td><td>104.4</td><td>113.9</td><td>112.0</td><td>110.7</td><td>110.5</td><td>116.6</td><td>115.4</td><td>+13.8%</td></tr>
-<tr><td>DAP</td><td>115.5</td><td>132.9</td><td>133.5</td><td>131.3</td><td>133.5</td><td>159.9</td><td>154.0</td><td>163.9</td><td>+41.9%</td></tr>
+<tr><th>Series</th><th>2012</th><th>2014</th><th>2016</th><th>2018</th><th>2020</th><th>2022</th><th>2024</th><th>2026</th><th>2012→2026, %</th></tr>
+<tr><td>All Commodities</td><td>104.7</td><td>114.1</td><td>109.0</td><td>117.3</td><td>119.2</td><td>152.3</td><td>152.9</td><td>167.6</td><td>+60.1</td></tr>
+<tr><td>Primary Articles</td><td>107.1</td><td>121.5</td><td>126.1</td><td>130.7</td><td>137.8</td><td>174.5</td><td>187.1</td><td>202.5</td><td>+89.1</td></tr>
+<tr><td>Fuel &amp; Power</td><td>106.3</td><td>116.5</td><td>78.3</td><td>99.0</td><td>89.8</td><td>151.2</td><td>151.4</td><td>181.7</td><td>+70.9</td></tr>
+<tr><td>Manufactured Products</td><td>103.5</td><td>111.0</td><td>109.2</td><td>116.3</td><td>118.7</td><td>144.7</td><td>141.2</td><td>152.4</td><td>+47.2</td></tr>
+<tr><td>Food Articles</td><td>106.2</td><td>123.1</td><td>137.8</td><td>139.8</td><td>154.5</td><td>175.3</td><td>196.8</td><td>201.4</td><td>+89.6</td></tr>
+<tr><td>HSD (diesel)</td><td>111.9</td><td>130.0</td><td>59.1</td><td>92.5</td><td>76.0</td><td>169.3</td><td>168.5</td><td>200.3</td><td>+79.0</td></tr>
+<tr><td>Urea</td><td>101.4</td><td>104.4</td><td>113.9</td><td>112.0</td><td>110.7</td><td>110.5</td><td>116.6</td><td>115.4</td><td>+13.8</td></tr>
+<tr><td>DAP</td><td>115.5</td><td>132.9</td><td>133.5</td><td>131.3</td><td>133.5</td><td>159.9</td><td>154.0</td><td>163.9</td><td>+41.9</td></tr>
 </table>
 </div>
 
@@ -149,15 +167,15 @@
 <p>June 2026, index and year-on-year rate (YoY computed from the index and cross-checked against the published release):</p>
 <div class="tw">
 <table>
-<tr><th>Series</th><th>Index, Jun 2026</th><th>YoY inflation</th><th>Since Apr 2023</th></tr>
-<tr><td>All Commodities</td><td>110.2</td><td>+9.87%</td><td>+11.3%</td></tr>
-<tr><td>Primary Articles</td><td>116.1</td><td>+7.00%</td><td>&mdash;</td></tr>
-<tr><td>Fuel &amp; Power</td><td>111.1</td><td>+27.41%</td><td>&mdash;</td></tr>
-<tr><td>Manufactured Products</td><td>107.8</td><td>+7.48%</td><td>&mdash;</td></tr>
-<tr><td>Food Articles</td><td>117.3</td><td>+5.49%</td><td>&mdash;</td></tr>
-<tr><td>HSD (diesel)</td><td>109.9</td><td>+32.57%</td><td>+22.5%</td></tr>
-<tr><td>Urea</td><td>93.1</td><td>+1.09%</td><td>&minus;3.2%</td></tr>
-<tr><td>DAP</td><td>107.0</td><td>+12.63%</td><td>+10.9%</td></tr>
+<tr><th>Series</th><th>Index, Jun 2026</th><th>YoY inflation, %</th><th>Since Apr 2023, %</th></tr>
+<tr><td>All Commodities</td><td>110.2</td><td>+9.87</td><td>+11.3</td></tr>
+<tr><td>Primary Articles</td><td>116.1</td><td>+7.00</td><td>&mdash;</td></tr>
+<tr><td>Fuel &amp; Power</td><td>111.1</td><td>+27.41</td><td>&mdash;</td></tr>
+<tr><td>Manufactured Products</td><td>107.8</td><td>+7.48</td><td>&mdash;</td></tr>
+<tr><td>Food Articles</td><td>117.3</td><td>+5.49</td><td>&mdash;</td></tr>
+<tr><td>HSD (diesel)</td><td>109.9</td><td>+32.57</td><td>+22.5</td></tr>
+<tr><td>Urea</td><td>93.1</td><td>+1.09</td><td>−3.2</td></tr>
+<tr><td>DAP</td><td>107.0</td><td>+12.63</td><td>+10.9</td></tr>
 </table>
 </div>
 

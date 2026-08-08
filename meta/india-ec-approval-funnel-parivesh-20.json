@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:25:38.698+05:30",
+  "updated": "2026-08-08T09:17:48.912+05:30",
   "labels": [],
-  "bytes": 8536,
-  "sha256": "109c83250197cb0bb2af1dc4a5cc9c83255fb67647ba04d4449a5314f1f70727",
+  "bytes": 9809,
+  "sha256": "e25dad4a1e43b1b93cfc20251b06d5bf115567cc63c1c7d68b7254052e596c51",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        8536,
+        9809
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

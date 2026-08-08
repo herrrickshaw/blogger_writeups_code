@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.839+05:30",
-  "updated": "2026-08-06T11:28:23.539+05:30",
+  "updated": "2026-08-08T09:24:11.322+05:30",
   "labels": [],
-  "bytes": 41982,
-  "sha256": "c5adfb6f96a641469643ea6f66d3db166aa2a961c4a3dbcee6870b7fa36e1ad0",
+  "bytes": 43255,
+  "sha256": "6e21b3154efb587d5f20ea5246a0afb30efefe1a86e1f383cdb6a66c05b811ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -49,6 +49,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        41982,
+        43255
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

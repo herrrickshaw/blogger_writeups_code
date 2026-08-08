@@ -22,6 +22,24 @@
 .ogx .og-src{font-size:.84rem;color:#333;border-top:1px solid #d6e0e6;padding-top:12px;margin-top:24px}
 .ogx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
 .ogx .tw{overflow-x:auto}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
@@ -80,14 +98,14 @@
 
 <div class="tw">
 <table>
-<tr><th>Basin</th><th>MMT</th><th>Share</th></tr>
-<tr><td>Mumbai Offshore</td><td>12.471</td><td>43.45%</td></tr>
-<tr><td>Assam-Arakan Shelf</td><td>5.315</td><td>18.52%</td></tr>
-<tr><td>Rajasthan</td><td>4.503</td><td>15.69%</td></tr>
-<tr><td>Cambay</td><td>3.429</td><td>11.95%</td></tr>
-<tr><td>Krishna Godavari</td><td>2.720</td><td>9.48%</td></tr>
-<tr><td>Cauvery</td><td>0.263</td><td>0.92%</td></tr>
-<tr><td>Assam-Arakan Fold Belt</td><td>0.002</td><td>0.01%</td></tr>
+<tr><th>Basin</th><th>MMT</th><th>Share, %</th></tr>
+<tr><td>Mumbai Offshore</td><td>12.471</td><td>43.45</td></tr>
+<tr><td>Assam-Arakan Shelf</td><td>5.315</td><td>18.52</td></tr>
+<tr><td>Rajasthan</td><td>4.503</td><td>15.69</td></tr>
+<tr><td>Cambay</td><td>3.429</td><td>11.95</td></tr>
+<tr><td>Krishna Godavari</td><td>2.720</td><td>9.48</td></tr>
+<tr><td>Cauvery</td><td>0.263</td><td>0.92</td></tr>
+<tr><td>Assam-Arakan Fold Belt</td><td>0.002</td><td>0.01</td></tr>
 </table>
 </div>
 
@@ -98,12 +116,12 @@
 <h2>The targets have detached from the fields</h2>
 <div class="tw">
 <table>
-<tr><th>FY2024-25</th><th>Target</th><th>Actual</th><th>Achieved</th><th>vs 2023-24</th></tr>
-<tr><td>ONGC (Nomination) &mdash; oil</td><td>19,659</td><td>18,466</td><td>93.9%</td><td>96.1%</td></tr>
-<tr><td>OIL (Nomination) &mdash; oil</td><td>3,958</td><td>3,444</td><td>87.0%</td><td>103.0%</td></tr>
-<tr><td>PSC + RSC + CBM &mdash; oil</td><td>7,655</td><td>6,793</td><td>88.7%</td><td>99.9%</td></tr>
-<tr><td><b>Country &mdash; oil (TMT)</b></td><td><b>31,272</b></td><td><b>28,703</b></td><td><b>91.8%</b></td><td><b>97.8%</b></td></tr>
-<tr><td><b>Country &mdash; gas (MMSCM)</b></td><td><b>39,673</b></td><td><b>36,109</b></td><td><b>91.0%</b></td><td><b>99.1%</b></td></tr>
+<tr><th>FY2024-25</th><th>Target</th><th>Actual</th><th>Achieved, %</th><th>vs 2023-24, %</th></tr>
+<tr><td>ONGC (Nomination) &mdash; oil</td><td>19,659</td><td>18,466</td><td>93.9</td><td>96.1</td></tr>
+<tr><td>OIL (Nomination) &mdash; oil</td><td>3,958</td><td>3,444</td><td>87.0</td><td>103.0</td></tr>
+<tr><td>PSC + RSC + CBM &mdash; oil</td><td>7,655</td><td>6,793</td><td>88.7</td><td>99.9</td></tr>
+<tr><td><b>Country &mdash; oil (TMT)</b></td><td><b>31,272</b></td><td><b>28,703</b></td><td>91.8</td><td>97.8</td></tr>
+<tr><td><b>Country &mdash; gas (MMSCM)</b></td><td><b>39,673</b></td><td><b>36,109</b></td><td>91.0</td><td>99.1</td></tr>
 </table>
 </div>
 

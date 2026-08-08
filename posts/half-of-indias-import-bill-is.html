@@ -17,6 +17,24 @@
 .rb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
 .rb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
 .rb-related a{color:#0b5394}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div class="rb-kicker">India Trade Data &middot; Circular Economy &middot; 3 August 2026</div>
@@ -29,13 +47,13 @@
 <p>The FY2025-26 headline: total merchandise imports $776&nbsp;bn, exports $442&nbsp;bn, deficit &minus;$334&nbsp;bn (PIB/DGCI&amp;S provisional) &mdash; widened from &minus;$184&nbsp;bn in FY2018-19. The full 98-chapter decomposition is in this blog's <a href="https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html">Trade Balance &mdash; HSN-wise analysis</a>; the commodity slice looks like this:</p>
 
 <div class="rb-tblwrap"><table class="rb-table">
-<thead><tr><th>Commodity block (FY2025-26, provisional)</th><th class="rb-num">Imports</th><th class="rb-num">Share of all imports</th></tr></thead>
+<thead><tr><th>Commodity block (FY2025-26, provisional)</th><th class="rb-num">Imports, bn US$</th><th class="rb-num">Share of all imports, %</th></tr></thead>
 <tbody>
-<tr><td>Mineral fuels (ch. 27) &mdash; crude, products, coal, LNG</td><td class="rb-num">~$203 bn</td><td class="rb-num">26.2%</td></tr>
-<tr><td>Precious metals &amp; stones (ch. 71)</td><td class="rb-num">$109.4 bn</td><td class="rb-num">14.1%</td></tr>
-<tr><td>&mdash; of which bare gold (HS 7108) alone</td><td class="rb-num">$72.0 bn</td><td class="rb-num">9.3%</td></tr>
-<tr><td>Base-metal chapters (Fe, Cu, Al, Pb, Zn, Ni, Sn + ores)</td><td class="rb-num">~$59 bn</td><td class="rb-num">~7.6%</td></tr>
-<tr><td><strong>Commodity total</strong></td><td class="rb-num"><strong>$372.3 bn</strong></td><td class="rb-num"><strong>48%</strong></td></tr>
+<tr><td>Mineral fuels (ch. 27) &mdash; crude, products, coal, LNG</td><td class="rb-num">~ 203</td><td class="rb-num">26.2</td></tr>
+<tr><td>Precious metals &amp; stones (ch. 71)</td><td class="rb-num">109.4</td><td class="rb-num">14.1</td></tr>
+<tr><td>&mdash; of which bare gold (HS 7108) alone</td><td class="rb-num">72.0</td><td class="rb-num">9.3</td></tr>
+<tr><td>Base-metal chapters (Fe, Cu, Al, Pb, Zn, Ni, Sn + ores)</td><td class="rb-num">~ 59</td><td class="rb-num">~7.6</td></tr>
+<tr><td><strong>Commodity total</strong></td><td class="rb-num">372.3</td><td class="rb-num">48</td></tr>
 </tbody>
 </table></div>
 
@@ -56,13 +74,13 @@
 <p>The companies built on the lead loop show real financials (TTM, 3 Aug 2026):</p>
 
 <div class="rb-tblwrap"><table class="rb-table">
-<thead><tr><th>Company</th><th>Core model</th><th class="rb-num">Revenue (&#8377; cr)</th><th class="rb-num">Growth YoY</th><th class="rb-num">Op. margin</th><th class="rb-num">P/E</th></tr></thead>
+<thead><tr><th>Company</th><th>Core model</th><th class="rb-num">Revenue (&#8377; cr)</th><th class="rb-num">Growth YoY, %</th><th class="rb-num">Op. margin, %</th><th class="rb-num">P/E</th></tr></thead>
 <tbody>
-<tr><td><strong>Jain Resource Recycling</strong></td><td>Non-ferrous scrap &rarr; LME-brand lead, copper, aluminium</td><td class="rb-num">9,543</td><td class="rb-num rb-good">+76%</td><td class="rb-num">3.4%</td><td class="rb-num">34</td></tr>
-<tr><td><strong>Gravita India</strong></td><td>Lead + Al + plastics, multinational smelting</td><td class="rb-num">4,700</td><td class="rb-num rb-good">+42%</td><td class="rb-num">9.7%</td><td class="rb-num">31</td></tr>
-<tr><td><strong>Pondy Oxides</strong></td><td>Secondary lead &rarr; copper diversification</td><td class="rb-num">2,958</td><td class="rb-num rb-good">+79%</td><td class="rb-num">5.7%</td><td class="rb-num">31</td></tr>
-<tr><td><strong>Nile Ltd</strong></td><td>Secondary lead &rarr; Li-ion battery recycling</td><td class="rb-num">1,041</td><td class="rb-num rb-good">+21%</td><td class="rb-num">6.6%</td><td class="rb-num">&mdash;</td></tr>
-<tr><td><strong>Nupur Recyclers</strong></td><td>Non-ferrous scrap (Al/Cu), small scale</td><td class="rb-num">217</td><td class="rb-num rb-good">+49%</td><td class="rb-num">5.0%</td><td class="rb-num">53</td></tr>
+<tr><td><strong>Jain Resource Recycling</strong></td><td>Non-ferrous scrap &rarr; LME-brand lead, copper, aluminium</td><td class="rb-num">9,543</td><td class="rb-num rb-good">+76</td><td class="rb-num">3.4</td><td class="rb-num">34</td></tr>
+<tr><td><strong>Gravita India</strong></td><td>Lead + Al + plastics, multinational smelting</td><td class="rb-num">4,700</td><td class="rb-num rb-good">+42</td><td class="rb-num">9.7</td><td class="rb-num">31</td></tr>
+<tr><td><strong>Pondy Oxides</strong></td><td>Secondary lead &rarr; copper diversification</td><td class="rb-num">2,958</td><td class="rb-num rb-good">+79</td><td class="rb-num">5.7</td><td class="rb-num">31</td></tr>
+<tr><td><strong>Nile Ltd</strong></td><td>Secondary lead &rarr; Li-ion battery recycling</td><td class="rb-num">1,041</td><td class="rb-num rb-good">+21</td><td class="rb-num">6.6</td><td class="rb-num">&mdash;</td></tr>
+<tr><td><strong>Nupur Recyclers</strong></td><td>Non-ferrous scrap (Al/Cu), small scale</td><td class="rb-num">217</td><td class="rb-num rb-good">+49</td><td class="rb-num">5.0</td><td class="rb-num">53</td></tr>
 </tbody>
 </table></div>
 <p class="rb-note">Source: yfinance TTM data, 3 Aug 2026. Every profitable recycler at scale is lead-first &mdash; the trade data and the corporate landscape tell the same story from opposite ends. Operating margins are 3&ndash;10%; returns come from asset turnover (Jain earns ~29% ROE on a 3.4% margin). The dominant cost is buying scrap &mdash; feedstock access <em>is</em> the moat. P/E of 31&ndash;53 means the circular-economy tailwind is already priced in; the thesis being right and the stocks being buys are different claims. Nothing here is investment advice.</p>

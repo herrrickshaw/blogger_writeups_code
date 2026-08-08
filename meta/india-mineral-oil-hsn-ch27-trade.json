@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-08-07T09:37:17.478+05:30",
+  "updated": "2026-08-08T09:18:43.475+05:30",
   "labels": [],
-  "bytes": 99774,
-  "sha256": "892352cfb2d22c9157b9373a6f7065d6b95ef9c6c2a3f8e5181433b62a661ef9",
+  "bytes": 101047,
+  "sha256": "b4518b0bc95236204b5da150aac9dc7776bc1428663fa722576e17c79e3bb69b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -75,6 +75,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        99774,
+        101047
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

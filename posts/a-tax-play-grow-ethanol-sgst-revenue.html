@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <style>
   .artx { max-width: 900px; margin: 0 auto; background: #fff; color: #000;
@@ -112,13 +130,13 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 
 <table>
 <thead>
-<tr><th>Vehicle segment</th><th>CNG efficiency</th><th>Delhi (0% VAT, ₹76.08/kg) (₹/km)</th><th>Himachal Pradesh, avg (13.75% VAT, ₹101.70/kg) (₹/km)</th><th>Himachal Pradesh, max (₹122.00/kg) (₹/km)</th></tr>
+<tr><th>Vehicle segment</th><th>CNG efficiency, kg km/kg</th><th>Delhi (0% VAT, ₹76.08/kg) (₹/km)</th><th>Himachal Pradesh, avg (13.75% VAT, ₹101.70/kg) (₹/km)</th><th>Himachal Pradesh, max (₹122.00/kg) (₹/km)</th></tr>
 </thead>
 <tbody>
-<tr><td>Two-wheeler</td><td>102 km/kg</td><td>0.75</td><td>1.00</td><td>1.20</td></tr>
-<tr><td>Hatchback</td><td>28 km/kg</td><td>2.72</td><td>3.63</td><td>4.36</td></tr>
-<tr><td>Sedan</td><td>26 km/kg</td><td>2.93</td><td>3.91</td><td>4.69</td></tr>
-<tr><td>Compact SUV</td><td>22 km/kg</td><td>3.46</td><td>4.62</td><td>5.55</td></tr>
+<tr><td>Two-wheeler</td><td>102</td><td>0.75</td><td>1.00</td><td>1.20</td></tr>
+<tr><td>Hatchback</td><td>28</td><td>2.72</td><td>3.63</td><td>4.36</td></tr>
+<tr><td>Sedan</td><td>26</td><td>2.93</td><td>3.91</td><td>4.69</td></tr>
+<tr><td>Compact SUV</td><td>22</td><td>3.46</td><td>4.62</td><td>5.55</td></tr>
 </tbody>
 </table>
 <p style="font-size:0.9em;"><em>Source: efficiency from vehicle_fuel_mileage CostPerKm sheet; prices from Part 1's PNGRB table above. Note the Delhi price used here (₹76.08/kg, PNGRB April 2025) differs slightly from the ₹83.09/kg used in the companion cost-model article's own Delhi figures (a Goodreturns/OMC-board city price, dated July 2026) &mdash; the two are independent sources measuring the same thing at different dates/methodologies; both are cited transparently rather than reconciled into one number.</em></p>
@@ -161,20 +179,20 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 
 <table>
 <thead>
-<tr><th>State</th><th>CNG VAT</th><th>Total outlets</th><th>CNG-equipped</th><th>CNG share of outlets (%)</th><th>Avg. posted CNG price (₹/kg)</th></tr>
+<tr><th>State</th><th>CNG VAT, %</th><th>Total outlets</th><th>CNG-equipped</th><th>CNG share of outlets (%)</th><th>Avg. posted CNG price (₹/kg)</th></tr>
 </thead>
 <tbody>
-<tr><td>Gujarat</td><td>5%</td><td>6,325</td><td>1,510</td><td>23.9</td><td>82.00</td></tr>
-<tr><td>Haryana</td><td>5.25%</td><td>3,160</td><td>699</td><td>22.1</td><td>85.51</td></tr>
-<tr><td>Uttar Pradesh</td><td>10&#8211;12.5%</td><td>9,814</td><td>1,612</td><td>16.4</td><td>91.51</td></tr>
-<tr><td>Maharashtra</td><td>3%</td><td>8,270</td><td>1,276</td><td>15.4</td><td>91.22</td></tr>
-<tr><td>Kerala</td><td>5%</td><td>2,525</td><td>359</td><td>14.2</td><td>85.37</td></tr>
-<tr><td>Punjab</td><td>14.3%</td><td>3,296</td><td>403</td><td>12.2</td><td>87.35</td></tr>
-<tr><td>Madhya Pradesh</td><td>14%</td><td>5,887</td><td>708</td><td>12.0</td><td>85.94</td></tr>
-<tr><td>Bihar</td><td>12.5%</td><td>2,860</td><td>358</td><td>12.5</td><td>89.68</td></tr>
-<tr><td>Uttarakhand</td><td>10%</td><td>677</td><td>89</td><td>13.1</td><td>87.96</td></tr>
-<tr><td>Himachal Pradesh</td><td>13.75%</td><td>591</td><td>29</td><td>4.9</td><td>97.89</td></tr>
-<tr><td>Delhi</td><td>0%</td><td>363</td><td>5</td><td>1.4</td><td>80.90</td></tr>
+<tr><td>Gujarat</td><td>5</td><td>6,325</td><td>1,510</td><td>23.9</td><td>82.00</td></tr>
+<tr><td>Haryana</td><td>5.25</td><td>3,160</td><td>699</td><td>22.1</td><td>85.51</td></tr>
+<tr><td>Uttar Pradesh</td><td>10–12.5</td><td>9,814</td><td>1,612</td><td>16.4</td><td>91.51</td></tr>
+<tr><td>Maharashtra</td><td>3</td><td>8,270</td><td>1,276</td><td>15.4</td><td>91.22</td></tr>
+<tr><td>Kerala</td><td>5</td><td>2,525</td><td>359</td><td>14.2</td><td>85.37</td></tr>
+<tr><td>Punjab</td><td>14.3</td><td>3,296</td><td>403</td><td>12.2</td><td>87.35</td></tr>
+<tr><td>Madhya Pradesh</td><td>14</td><td>5,887</td><td>708</td><td>12.0</td><td>85.94</td></tr>
+<tr><td>Bihar</td><td>12.5</td><td>2,860</td><td>358</td><td>12.5</td><td>89.68</td></tr>
+<tr><td>Uttarakhand</td><td>10</td><td>677</td><td>89</td><td>13.1</td><td>87.96</td></tr>
+<tr><td>Himachal Pradesh</td><td>13.75</td><td>591</td><td>29</td><td>4.9</td><td>97.89</td></tr>
+<tr><td>Delhi</td><td>0</td><td>363</td><td>5</td><td>1.4</td><td>80.90</td></tr>
 </tbody>
 </table>
 <p style="font-size:0.9em;"><em>Source: cng-cgd-retail-outlet-mapping repo (PNGRB GA allotment &times; SSRI retail-outlet register, 82,593 outlets, snapshot 22 Jul 2026), aggregated by state for this piece. Note the posted prices in this table come from that 22 Jul 2026 snapshot and can differ from the Part 1 PNGRB table's earlier reference prices (e.g. Delhi ₹80.90 here vs ₹76.08 in Part 1; Himachal ₹97.89 vs ₹101.70) — CNG prices are revised frequently, so treat Part 1 as the tax-math reference and this table as the outlet-level snapshot. Caveat: this register links CNG dispensing to petrol-pump-format outlets specifically; it undercounts standalone CGD-operated CNG stations not co-located with an OMC petrol pump &mdash; which is almost certainly why Delhi's share (1.4%, 5 of 363) reads implausibly low against Indraprastha Gas's actual network of several hundred CNG stations citywide. Treat the outlet-share column as a lower-bound infrastructure-density proxy, not an absolute station count; the avg. posted CNG price column, sourced from the same outlets' listed prices, is more directly comparable to the PNGRB figures above, though on a different snapshot date.</em></p>

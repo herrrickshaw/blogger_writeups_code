@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.973+05:30",
-  "updated": "2026-08-08T06:49:36.644+05:30",
+  "updated": "2026-08-08T09:16:55.008+05:30",
   "labels": [],
-  "bytes": 24495,
-  "sha256": "99f31e6fcb9fe9cd073ae0950c730e21d47a53458c16303d8f9a385e6669e673",
+  "bytes": 25768,
+  "sha256": "3a3e935fec72a4decd29f79c9fb1d150af54477a1b6bd64fa1233ecf42d22cc8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -88,6 +88,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "link audit: 6 posts relinked"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24495,
+        25768
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

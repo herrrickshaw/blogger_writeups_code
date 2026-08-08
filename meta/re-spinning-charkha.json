@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.239+05:30",
-  "updated": "2026-08-05T09:37:48.277+05:30",
+  "updated": "2026-08-08T09:24:22.740+05:30",
   "labels": [],
-  "bytes": 18624,
-  "sha256": "2d06cdc9677e906a9766501fbd9476bc61ce45a6b126195551bd491b8e569ffc",
+  "bytes": 19897,
+  "sha256": "fec454d9cfc1fbbf24c6a85c8f93fa04ffc87313b91424a972c46e1485082ce7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18624,
+        19897
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

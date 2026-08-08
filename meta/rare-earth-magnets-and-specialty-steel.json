@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.470+05:30",
-  "updated": "2026-08-05T12:25:00.100+05:30",
+  "updated": "2026-08-08T09:24:00.829+05:30",
   "labels": [],
-  "bytes": 7912,
-  "sha256": "65322e728a49837764d03548ad537cb9594f50f0e4b564c13c37b6468b7784db",
+  "bytes": 9185,
+  "sha256": "c02300232024ea0236336357b740982bbbafd58a82172ce4c9011820b60bc292",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        7912,
+        9185
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

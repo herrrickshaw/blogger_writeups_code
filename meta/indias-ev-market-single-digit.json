@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.612+05:30",
-  "updated": "2026-08-05T06:53:34.086+05:30",
+  "updated": "2026-08-08T09:19:55.457+05:30",
   "labels": [],
-  "bytes": 30911,
-  "sha256": "81f35c10d1e7250c73a83c4ffede161b2dbc424154c982b8a43ab69acf8c693e",
+  "bytes": 32170,
+  "sha256": "5c961c4be7e7873e66f7e8a8ab63581595ecd392ea4b101cc8a56e5870e648ee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        30911,
+        32170
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

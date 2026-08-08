@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.084+05:30",
-  "updated": "2026-08-05T15:01:25.120+05:30",
+  "updated": "2026-08-08T09:19:19.876+05:30",
   "labels": [],
-  "bytes": 8246,
-  "sha256": "b0ff2e0c4ddc34eaffb9a77d09112f0cb3e4307cb69ba937364c7862b24cd084",
+  "bytes": 9519,
+  "sha256": "3fb260c6a73e958fd483306be09f325264d417b9a3d4fbf232107c98382a41d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        8246,
+        9519
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

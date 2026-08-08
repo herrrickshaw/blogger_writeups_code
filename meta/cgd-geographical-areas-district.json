@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:22:25.628+05:30",
+  "updated": "2026-08-08T09:12:41.370+05:30",
   "labels": [],
-  "bytes": 5251,
-  "sha256": "e79ac545b0cebfe743ae1c96bf5b6f3cc5773e838206bdab158f90538344108e",
+  "bytes": 6524,
+  "sha256": "5cf1287adfe74b7ca6ee81b8f1a71d9ab9af40e838f9a6c62736cac0f0f70fc7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        5251,
+        6524
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

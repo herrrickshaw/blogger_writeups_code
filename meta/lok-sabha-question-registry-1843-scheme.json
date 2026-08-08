@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
   "slug": "lok-sabha-question-registry-1843-scheme",
   "published": "2026-08-04T16:00:00.000+05:30",
-  "updated": "2026-08-04T19:10:22.204+05:30",
+  "updated": "2026-08-08T09:22:17.461+05:30",
   "labels": [],
-  "bytes": 454220,
-  "sha256": "746fb6795e71830a1d6a3405545cfde0727f36ebe57989a8f68e7cd76784ad3e",
+  "bytes": 455493,
+  "sha256": "6dd528008e4b90fdb4d33989d28d5a017d636d25f36949aa02f8121356e0cd01",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        454220,
+        455493
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

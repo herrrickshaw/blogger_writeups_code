@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
   "slug": "a-tax-play-grow-ethanol-sgst-revenue",
   "published": "2026-08-02T17:57:40.643+05:30",
-  "updated": "2026-08-05T08:58:00.734+05:30",
+  "updated": "2026-08-08T09:11:17.136+05:30",
   "labels": [],
-  "bytes": 32692,
-  "sha256": "1cb7549b5bcbf52e4674a4ee5dbf35e05b76adc3badf2a5f51abb162e892b99f",
+  "bytes": 33937,
+  "sha256": "d115fefddeed47ed8270a72075c586ec4d8765e7778b48712c125cb3defeedcf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        32692,
+        33937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

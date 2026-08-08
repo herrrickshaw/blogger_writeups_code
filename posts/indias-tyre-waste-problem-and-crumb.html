@@ -14,6 +14,24 @@
 .artx td{padding:.45rem .6rem;border-bottom:1px solid #E5E9ED;vertical-align:top;}
 .artx td:first-child{font-weight:600;color:#051C2C;}
 .tr-note{font-size:.8em;color:#8A959C;font-style:italic;margin-top:.6rem;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div class="tr-hero">
 <div class="k">Waste Tyres &middot; Rubberised Bitumen &middot; EPR</div>
@@ -28,13 +46,13 @@
 <h2>What crumb rubber actually does to bitumen</h2>
 <p>Crumb rubber is waste tyre rubber ground into uniform granular particles (roughly 400 microns to a few millimetres, depending on the grinding method &mdash; ambient, cryogenic, wet-grind, or high-pressure hydro-jet), with the steel and fibre reinforcement separated out. Blended into hot bitumen &mdash; the &ldquo;wet process,&rdquo; preferred over dry-process blending for Indian conditions &mdash; it measurably changes the binder&rsquo;s properties. Lab testing at India&rsquo;s SSPACE Wardha civil engineering department, reported in a 2025 study, found the following as crumb-rubber content increased from 0% to 14% by weight:</p>
 <table>
-<thead><tr><th>Crumb rubber content</th><th>Penetration value (mm)</th><th>Softening point (&deg;C)</th></tr></thead>
+<thead><tr><th>Crumb rubber content, %</th><th>Penetration value (mm)</th><th>Softening point (&deg;C)</th></tr></thead>
 <tbody>
-<tr><td>0%</td><td>&mdash;</td><td>42.75</td></tr>
-<tr><td>5%</td><td>69</td><td>50.3</td></tr>
-<tr><td>9%</td><td>49.33</td><td>51.65</td></tr>
-<tr><td>13%</td><td>19.67</td><td>54.5</td></tr>
-<tr><td>14%</td><td>14.33</td><td>55.0</td></tr>
+<tr><td>0</td><td>&mdash;</td><td>42.75</td></tr>
+<tr><td>5</td><td>69</td><td>50.3</td></tr>
+<tr><td>9</td><td>49.33</td><td>51.65</td></tr>
+<tr><td>13</td><td>19.67</td><td>54.5</td></tr>
+<tr><td>14</td><td>14.33</td><td>55.0</td></tr>
 </tbody>
 </table>
 <p>Lower penetration value means a harder binder grade &mdash; more structural strength and less water damage. Higher softening point means the road surface resists rutting and shoving better in hot weather. Both trends move in the direction road engineers want, at the cost of a harder, more viscous mix that costs more to produce than plain bitumen.</p>

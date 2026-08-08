@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:23:45.922+05:30",
+  "updated": "2026-08-08T09:14:55.009+05:30",
   "labels": [],
-  "bytes": 33768,
-  "sha256": "02e591d5b6458a9996aabacfb4988693be7016894a5e0033f7d7c3663817ceff",
+  "bytes": 35041,
+  "sha256": "31596aa5bb7e4661eac72ea0c7e7dbea4737a1cc9cda30b20dd14fd555e72e6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33768,
+        35041
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

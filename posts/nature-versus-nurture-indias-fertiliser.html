@@ -24,6 +24,24 @@
 .artx li{margin-bottom:4px;}
 .artx strong{color:#000;}
 .artx th,.artx td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <h1>Nature Versus Nurture: India's Fertiliser-Fed Food Security</h1>
@@ -79,13 +97,13 @@
 <h2>2. Fertiliser Demand Forecast and Supply Scenario</h2>
 <h3>2.1 Sales Hold Firm as Domestic Output Dips</h3>
 <table>
-<tr><th>Nutrient</th><th>FY24–25 (Apr–Nov) (MT)</th><th>FY25–26 (Apr–Nov) (MT)</th><th>Change</th></tr>
-<tr><td>Urea sales</td><td>24.83</td><td>25.40</td><td>+2.3%</td></tr>
-<tr><td>Urea domestic output</td><td>—</td><td>19.75</td><td>−3.7%</td></tr>
-<tr><td>DAP sales</td><td>7.19</td><td>7.12</td><td>−1.0%</td></tr>
-<tr><td>DAP domestic output</td><td>—</td><td>2.68</td><td>−5.2%</td></tr>
-<tr><td>NP/NPK complex sales</td><td>—</td><td>10.38</td><td>+0.1%</td></tr>
-<tr><td>MOP (potash) sales</td><td>—</td><td>1.55</td><td>+8.6%</td></tr>
+<tr><th>Nutrient</th><th>FY24–25 (Apr–Nov) (MT)</th><th>FY25–26 (Apr–Nov) (MT)</th><th>Change, %</th></tr>
+<tr><td>Urea sales</td><td>24.83</td><td>25.40</td><td>+2.3</td></tr>
+<tr><td>Urea domestic output</td><td>—</td><td>19.75</td><td>−3.7</td></tr>
+<tr><td>DAP sales</td><td>7.19</td><td>7.12</td><td>−1.0</td></tr>
+<tr><td>DAP domestic output</td><td>—</td><td>2.68</td><td>−5.2</td></tr>
+<tr><td>NP/NPK complex sales</td><td>—</td><td>10.38</td><td>+0.1</td></tr>
+<tr><td>MOP (potash) sales</td><td>—</td><td>1.55</td><td>+8.6</td></tr>
 </table>
 <p style="font-size:0.85em;">Source: Department of Fertilizers; Fertiliser Association of India (FAI) sales bulletins, Apr–Nov FY 2025–26.</p>
 <p>The entire incremental demand from record cropping is being filled by imports, not new domestic capacity: urea sales rose 2.3% while domestic urea output fell 3.7% over the same window.</p>
@@ -111,10 +129,10 @@
 
 <h3>2.4 Why DAP Is India's Most Exposed Nutrient</h3>
 <table>
-<tr><th>Input</th><th>Import dependence</th><th>Why it matters</th></tr>
-<tr><td>Rock phosphate</td><td>86%</td><td>No domestic substitute at scale</td></tr>
-<tr><td>Ammonia</td><td>75%</td><td>Second key DAP input</td></tr>
-<tr><td>Sulphur and phosphoric acid</td><td>&gt;50%</td><td>Remaining processing inputs</td></tr>
+<tr><th>Input</th><th>Import dependence, %</th><th>Why it matters</th></tr>
+<tr><td>Rock phosphate</td><td>86</td><td>No domestic substitute at scale</td></tr>
+<tr><td>Ammonia</td><td>75</td><td>Second key DAP input</td></tr>
+<tr><td>Sulphur and phosphoric acid</td><td>>50</td><td>Remaining processing inputs</td></tr>
 </table>
 <p style="font-size:0.85em;">Source: National Standing Committee on Chemicals & Fertilisers; Department of Fertilizers.</p>
 <p>Domestic DAP output fell 5.2% to 2.68 MT (Apr–Nov 2025) even as sales held at 7.12 MT — a gap that only imports can close, and one that explains why DAP's import-dependence ratio (67%, up from 56% the prior year) is rising faster than any other major nutrient category.</p>
@@ -183,11 +201,11 @@
 <p style="font-size:0.85em;">Source: Fertilizer Daily, "Friday's Insider: What are the costs of India's urea self-sufficiency," 14 June 2024; Farmonaut, "Urea Fertilizer Price India 2025"; IMARC Group / CF Industries cost-structure references.</p>
 
 <table>
-<tr><th>Gas price scenario</th><th>Feedstock gas price</th><th>Modelled domestic cost</th></tr>
-<tr><td>APM gas (regulated, legacy fields)</td><td>$7/MMBtu</td><td>~$320/tonne</td></tr>
-<tr><td>Pooled gas (historical NIP entry point)</td><td>$9/MMBtu</td><td>~$380/tonne</td></tr>
-<tr><td>NIP-2012 pricing ceiling</td><td>$14/MMBtu</td><td>~$530/tonne</td></tr>
-<tr><td>Crisis-level spot LNG (Mar–Apr 2026 peak)</td><td>~$20/MMBtu</td><td>~$710/tonne</td></tr>
+<tr><th>Gas price scenario</th><th>Feedstock gas price, mmbtu US$/MMBtu</th><th>Modelled domestic cost, tonne US$/tonne</th></tr>
+<tr><td>APM gas (regulated, legacy fields)</td><td>7</td><td>~ 320</td></tr>
+<tr><td>Pooled gas (historical NIP entry point)</td><td>9</td><td>~ 380</td></tr>
+<tr><td>NIP-2012 pricing ceiling</td><td>14</td><td>~ 530</td></tr>
+<tr><td>Crisis-level spot LNG (Mar–Apr 2026 peak)</td><td>~ 20</td><td>~ 710</td></tr>
 </table>
 <p style="font-size:0.85em;">Source: Author's calculation: (Gas price × 30 MMBtu/tonne) + $110/tonne non-gas cost. APM price per PSU Watch / Angel One reporting on the March 2026 APM gas price revision to $7/mmBtu; NIP-2012 ceiling per Department of Fertilizers Urea Pricing Policy documentation; crisis spot LNG level per Energy News Monitor (ORF) reporting.</p>
 
@@ -329,10 +347,10 @@
 
 <h3>8.1–8.2 Volume to Substitute and Incremental Gas Demand</h3>
 <table>
-<tr><th>Scenario</th><th>Urea volume to substitute</th><th>Urea (mmscmd)</th><th>DAP (mmscmd)</th><th>Total incremental demand</th></tr>
-<tr><td>Low</td><td>6 MT/year</td><td>13.7</td><td>4.3</td><td>18.0 mmscmd</td></tr>
-<tr><td>Central</td><td>9 MT/year</td><td>20.6</td><td>4.3</td><td>24.9 mmscmd</td></tr>
-<tr><td>High (crisis-annualised)</td><td>10.75 MT/year</td><td>24.5</td><td>4.3</td><td>28.8 mmscmd</td></tr>
+<tr><th>Scenario</th><th>Urea volume to substitute, MT/year</th><th>Urea (mmscmd)</th><th>DAP (mmscmd)</th><th>Total incremental demand</th></tr>
+<tr><td>Low</td><td>6</td><td>13.7</td><td>4.3</td><td>18.0 mmscmd</td></tr>
+<tr><td>Central</td><td>9</td><td>20.6</td><td>4.3</td><td>24.9 mmscmd</td></tr>
+<tr><td>High (crisis-annualised)</td><td>10.75</td><td>24.5</td><td>4.3</td><td>28.8 mmscmd</td></tr>
 </table>
 <p style="font-size:0.85em;">Source: Author's calculation. Gas-to-urea intensity: 30 MMBtu/tonne. DAP gas intensity via ammonia route: ~0.22 tonne ammonia/tonne DAP × 36 MMBtu/tonne ammonia ≈ 7.9 MMBtu/tonne DAP, applied to the 67% import-dependent share of annualised DAP sales (~7.16 MT/year). MMBtu-to-MMSCM conversion of 36,000 MMBtu/MMSCM.</p>
 <p>Layered onto PNGRB's existing fertiliser-sector gas demand baseline of 58 mmscmd (FY 2023–24), this scenario would push total fertiliser-sector gas demand to between 76 and 87 mmscmd — a 31–50% increase, achieved entirely through import substitution rather than organic demand growth. Critically, "zero urea imports" does not mean zero import dependence: the same tonnes previously imported as finished urea are instead imported as LNG. This substitution is a net financial saving only when delivered gas costs less than approximately $13/MMBtu.</p>

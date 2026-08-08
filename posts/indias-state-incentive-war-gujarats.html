@@ -16,6 +16,24 @@
 .si-role{border:1px solid #EBDCDC;border-left:3px solid #8B2E2E;padding:.9rem 1rem;margin:.8rem 0;background:#FCF8F8;}
 .si-role b{color:#4A1A1A;}
 .si-note{font-size:.8em;color:#9C8686;font-style:italic;margin-top:.6rem;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <div class="si-hero">
@@ -50,15 +68,15 @@
 <h2>What actually landed: implementation, not intent</h2>
 <p>DPIIT's own IEM Part-B data &mdash; industrial investment that has moved from "intended" to "implemented" &mdash; tells a much more concentrated story than the incentive menus suggest. Across 4,859 implemented projects between 2021 and 2025, worth &#8377;19,51,828 crore nationally, just three states account for 63.3% of the total.</p>
 <table>
-<thead><tr><th>Rank</th><th>State</th><th>Implemented, 2021&ndash;25 (&#8377;cr)</th><th>Share</th><th>Cumulative FDI, CY2021&ndash;25 (US$M)</th><th>FDI share of national CY2021&ndash;25 total</th></tr></thead>
+<thead><tr><th>Rank</th><th>State</th><th>Implemented, 2021&ndash;25 (&#8377;cr)</th><th>Share, %</th><th>Cumulative FDI, CY2021&ndash;25 (US$M)</th><th>FDI share of national CY2021–25 total, %</th></tr></thead>
 <tbody>
-<tr><td>1</td><td>Gujarat</td><td>6,60,254</td><td>33.8%</td><td>26,073</td><td>10.2%</td></tr>
-<tr><td>2</td><td>Odisha</td><td>3,36,487</td><td>17.2%</td><td>212</td><td>0.08%</td></tr>
-<tr><td>3</td><td>Maharashtra</td><td>2,37,988</td><td>12.2%</td><td>82,870</td><td>32.5%</td></tr>
-<tr><td>4</td><td>Andhra Pradesh</td><td>1,40,445</td><td>7.2%</td><td>1,435</td><td>0.6%</td></tr>
-<tr><td>5</td><td>Uttar Pradesh</td><td>73,954</td><td>3.8%</td><td>2,291</td><td>0.9%</td></tr>
-<tr><td>9</td><td>Tamil Nadu</td><td>44,627</td><td>2.3%</td><td>15,826</td><td>6.2%</td></tr>
-<tr><td>11</td><td>Karnataka</td><td>42,463</td><td>2.2%</td><td>58,149</td><td>22.8%</td></tr>
+<tr><td>1</td><td>Gujarat</td><td>6,60,254</td><td>33.8</td><td>26,073</td><td>10.2</td></tr>
+<tr><td>2</td><td>Odisha</td><td>3,36,487</td><td>17.2</td><td>212</td><td>0.08</td></tr>
+<tr><td>3</td><td>Maharashtra</td><td>2,37,988</td><td>12.2</td><td>82,870</td><td>32.5</td></tr>
+<tr><td>4</td><td>Andhra Pradesh</td><td>1,40,445</td><td>7.2</td><td>1,435</td><td>0.6</td></tr>
+<tr><td>5</td><td>Uttar Pradesh</td><td>73,954</td><td>3.8</td><td>2,291</td><td>0.9</td></tr>
+<tr><td>9</td><td>Tamil Nadu</td><td>44,627</td><td>2.3</td><td>15,826</td><td>6.2</td></tr>
+<tr><td>11</td><td>Karnataka</td><td>42,463</td><td>2.2</td><td>58,149</td><td>22.8</td></tr>
 </tbody>
 </table>
 <p>Two patterns jump out, and they hold up even after replacing the single-year FDI snapshot with a full five-year cumulative figure (DPIIT Table No. 5, calendar 2021&ndash;2025, computed by summing the annual state-wise columns across two report vintages). Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI &mdash; 0.08% of the national FDI total over the same five years. Its investment is almost entirely domestic capital (steel, metals, refining) landing and getting built, not foreign money. Gujarat tells a softer version of the same story: a real 33.8% implementation share against a comparatively modest 10.2% FDI share &mdash; still meaningfully below its execution dominance. Maharashtra and Karnataka run the opposite skew on paper: Maharashtra is both #3 by implementation and #1 by FDI (32.5% of the national cumulative total), while Karnataka is the clean inversion &mdash; 22.8% of India's five-year FDI inflow but only 2.2% of implemented investment. Money is arriving in Karnataka at real scale; comparatively little of it is showing up as landed factories in this dataset. Tamil Nadu, despite the most aggressive and flexible incentive menu of any state here, pulls a respectable 6.2% of national FDI yet sits mid-table on implementation (9th, 2.3%) &mdash; a reminder that its historically strong auto cluster mostly predates the current incentive window, so recent generosity hasn't yet visibly moved the ranking.</p>
@@ -84,19 +102,19 @@
 <h2>The national PLI report card</h2>
 <p>Zooming out from states to the Centre's flagship Production-Linked Incentive schemes, the disbursal pattern is just as uneven. As of 31 December 2025, &#8377;28,748 crore had been disbursed nationally against an outlay PIB itself states inconsistently as either &#8377;1.91 or &#8377;1.97 lakh crore &mdash; roughly 15% either way.</p>
 <table>
-<thead><tr><th>Scheme</th><th>Outlay</th><th>Disbursed</th><th>%</th></tr></thead>
+<thead><tr><th>Scheme</th><th>Outlay, crore ₹</th><th>Disbursed</th><th>%</th></tr></thead>
 <tbody>
-<tr><td>Electronics (LSEM+ITHW)</td><td>&#8377;11,324cr</td><td>&#8377;15,554cr combined</td><td>~250% of committed target</td></tr>
-<tr><td>Pharmaceuticals (formulations)</td><td>&#8377;15,000cr</td><td>&#8377;5,433cr</td><td>36%</td></tr>
-<tr><td>Telecom &amp; Networking</td><td>&#8377;12,195cr</td><td>~&#8377;1,175cr</td><td>~9.6%</td></tr>
-<tr><td>Automobile &amp; Auto Components</td><td>&#8377;25,938cr</td><td>&#8377;2,378cr</td><td>9.2%</td></tr>
-<tr><td>Medical Devices</td><td>&#8377;3,420cr</td><td>&#8377;157cr</td><td>4.6%</td></tr>
-<tr><td>White Goods (ACs &amp; LEDs)</td><td>&#8377;6,238cr</td><td>&#8377;281cr</td><td>4.5%</td></tr>
-<tr><td>Bulk Drugs (KSMs/APIs)</td><td>&#8377;6,940cr</td><td>~&#8377;55cr</td><td>0.8%</td></tr>
-<tr><td>Specialty Steel</td><td>&#8377;6,322cr</td><td>&#8377;48cr</td><td>0.8% (14 of 58 Round-1 projects withdrew)</td></tr>
-<tr><td>Textiles (MMF/technical)</td><td>&#8377;10,683cr</td><td>&#8377;54.5cr</td><td>0.5% (paid to exactly 2 companies)</td></tr>
-<tr><td>Solar PV Modules</td><td>&#8377;24,000cr</td><td>&#8377;0</td><td>0% by design (~30GW already commissioned; payable a year post-commissioning)</td></tr>
-<tr><td>ACC Battery Storage</td><td>&#8377;18,100cr</td><td>&#8377;0</td><td>0% (Ola: 1 of 40GWh in pilot production; Hyundai's 20GWh exited quietly)</td></tr>
+<tr><td>Electronics (LSEM+ITHW)</td><td>11,324</td><td>&#8377;15,554cr combined</td><td>~250% of committed target</td></tr>
+<tr><td>Pharmaceuticals (formulations)</td><td>15,000</td><td>&#8377;5,433cr</td><td>36%</td></tr>
+<tr><td>Telecom &amp; Networking</td><td>12,195</td><td>~&#8377;1,175cr</td><td>~9.6%</td></tr>
+<tr><td>Automobile &amp; Auto Components</td><td>25,938</td><td>&#8377;2,378cr</td><td>9.2%</td></tr>
+<tr><td>Medical Devices</td><td>3,420</td><td>&#8377;157cr</td><td>4.6%</td></tr>
+<tr><td>White Goods (ACs &amp; LEDs)</td><td>6,238</td><td>&#8377;281cr</td><td>4.5%</td></tr>
+<tr><td>Bulk Drugs (KSMs/APIs)</td><td>6,940</td><td>~&#8377;55cr</td><td>0.8%</td></tr>
+<tr><td>Specialty Steel</td><td>6,322</td><td>&#8377;48cr</td><td>0.8% (14 of 58 Round-1 projects withdrew)</td></tr>
+<tr><td>Textiles (MMF/technical)</td><td>10,683</td><td>&#8377;54.5cr</td><td>0.5% (paid to exactly 2 companies)</td></tr>
+<tr><td>Solar PV Modules</td><td>24,000</td><td>&#8377;0</td><td>0% by design (~30GW already commissioned; payable a year post-commissioning)</td></tr>
+<tr><td>ACC Battery Storage</td><td>18,100</td><td>&#8377;0</td><td>0% (Ola: 1 of 40GWh in pilot production; Hyundai's 20GWh exited quietly)</td></tr>
 </tbody>
 </table>
 <p>Solar PV's zero is a design feature &mdash; the money is deliberately deferred until a year after commissioning, and ~30GW is already built. ACC Battery's zero is the opposite: a genuine execution failure, with one flagship project stuck in pilot-scale production and another that exited the scheme without the word "withdrew" ever appearing in a government document.</p>

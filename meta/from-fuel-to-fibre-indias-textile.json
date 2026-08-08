@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.084+05:30",
-  "updated": "2026-08-05T07:32:25.516+05:30",
+  "updated": "2026-08-08T09:15:59.111+05:30",
   "labels": [],
-  "bytes": 26822,
-  "sha256": "8b33354171d776e442ec50c13453962030963c0e83bf55b89c3a74c96d9ede8a",
+  "bytes": 28095,
+  "sha256": "75c682c376c408054ba7bd05e54439a6a87fb9f2e136e55f05481b17470d7c3b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26822,
+        28095
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

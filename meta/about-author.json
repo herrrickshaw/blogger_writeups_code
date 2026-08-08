@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/about-author.html",
   "slug": "about-author",
   "published": "2026-08-05T10:43:35.439+05:30",
-  "updated": "2026-08-06T11:51:41.847+05:30",
+  "updated": "2026-08-08T09:11:27.902+05:30",
   "labels": [],
-  "bytes": 11587,
-  "sha256": "bc64d93ca0524a36305514c30a8ab5318bcf6845c46482881e4f9dd12ee6ce1a",
+  "bytes": 12860,
+  "sha256": "a1511538c92a9a679aec0a58eaac4a5e5b8f87fdf18398c000bc9c02ab5da894",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        11587,
+        12860
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

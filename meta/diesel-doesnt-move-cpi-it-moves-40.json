@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.791+05:30",
-  "updated": "2026-08-08T06:30:26.089+05:30",
+  "updated": "2026-08-08T09:14:22.596+05:30",
   "labels": [],
-  "bytes": 27891,
-  "sha256": "0fae7b219a4fff79638cdbb3f5f52765bd0e263d54b2ede6192849d20c363d4a",
+  "bytes": 29164,
+  "sha256": "95aa291da46b19fe8f75723b8e8afc9b571b3dbae7864094669a77e81a0a9f0f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "table scroller fix applied to four more posts"
+    },
+    {
+      "version": "5.0.2",
+      "date": "2026-08-08T03:54:45+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27891,
+        29164
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
