@@ -1683,3 +1683,16 @@ new post: UPI MDR exposure of fuel dealers + ATM hedge
 **Added**
 
 - `upi-fees-are-now-legal-petrol-pumps` **v1.0.0** — UPI Fees Are Now Legal. Petrol Pumps Have a 26x Problem — and an ATM-Shaped Hedge. (19,257 bytes)
+
+## 2026-08-08T16:30:03+05:30 — 100 posts live
+
+MDR post: retitle + PPAC outlet base
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 19,257 → 19,450 bytes (+193)

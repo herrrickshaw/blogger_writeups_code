@@ -54,7 +54,7 @@
 
 <p class="eyebrow">Payments &middot; Fuel retail &middot; Rural cash access</p>
 
-<h1>UPI Fees Are Now Legal. Petrol Pumps Have a 26&times; Problem &mdash; and an ATM-Shaped Hedge.</h1>
+<h1>Transaction Fees for UPI: Will Petrol Pumps Have More ATMs? A Case for Rural Financial Inclusion</h1>
 
 <p class="standfirst">For six years the law made UPI free for merchants. On 4 August 2026 that shield came off: the government may now notify which payment modes stay fee-exempt, and the rest may lawfully carry a merchant discount rate. No merchant category is as exposed as the petrol pump, which keeps &#8377;3.87 of every &#8377;100 that crosses its counter while a fee would apply to all &#8377;100. The same forecourt, though, holds the hedge: cash, and the fee income of dispensing it.</p>
 
@@ -64,7 +64,7 @@
 <div class="stat"><b>3.87%</b><span>Blended dealer margin on the pump-price ticket</span></div>
 <div class="stat"><b>25.9&times;</b><span>Leverage of a full-ticket fee on that margin</span></div>
 <div class="stat"><b>&#8377;19</b><span>ATM interchange per cash withdrawal since May 2025</span></div>
-<div class="stat"><b>0.8%</b><span>Fuel outlets in SBI&rsquo;s Cash@PoS list vs the outlet catalog</span></div>
+<div class="stat"><b>0.7%</b><span>Fuel outlets in SBI&rsquo;s Cash@PoS list vs PPAC&rsquo;s 99,281 outlets</span></div>
 </div>
 
 <h2>The shield came off on 4 August</h2>
@@ -137,8 +137,8 @@
 <thead><tr><th>What exists</th><th>Count</th></tr></thead>
 <tbody>
 <tr><td>Fuel stations in SBI&rsquo;s Cash@PoS list</td><td>693</td></tr>
-<tr><td>Outlets in the SSRI national catalog</td><td>82,609</td></tr>
-<tr><td><b>Cash-out penetration of the network</b></td><td><b>0.8% of outlets</b></td></tr>
+<tr><td>Retail outlets nationally (PPAC, 01.10.2025)</td><td>99,281</td></tr>
+<tr><td><b>Cash-out penetration of the network</b></td><td><b>0.7% of outlets</b></td></tr>
 </tbody>
 </table>
 <table>
@@ -150,7 +150,7 @@
 </tbody>
 </table>
 </div>
-<p class="exsrc">Penetration: <code>fuel-retail-outlets</code> repository, Cash@PoS PDF extraction and SSRI catalog (the outlet-level join of the two failed on source data quality &mdash; only 18 of 693 stations could be pinned to a specific outlet, so <i>which</i> pumps have cash-out cannot currently be audited). Interchange pool: withdrawals &times; &#8377;19 &times; 30 days; how it splits between a white-label operator and the host site is commercial and unpublished &mdash; the host&rsquo;s rent and share are bargained out of this pool, not equal to it.</p>
+<p class="exsrc">Penetration: 693 SBI-listed stations against PPAC&rsquo;s 99,281 outlets (01.10.2025); station list from the <code>fuel-retail-outlets</code> repository&rsquo;s Cash@PoS PDF extraction, whose join against the 82,609-outlet SSRI catalog (the outlet-level join of the two failed on source data quality &mdash; only 18 of 693 stations could be pinned to a specific outlet, so <i>which</i> pumps have cash-out cannot currently be audited). Interchange pool: withdrawals &times; &#8377;19 &times; 30 days; how it splits between a white-label operator and the host site is commercial and unpublished &mdash; the host&rsquo;s rent and share are bargained out of this pool, not equal to it.</p>
 </div>
 
 <h2>The integration case: dispensing fees hedge acceptance fees</h2>
@@ -160,11 +160,11 @@
 <li><b>The pump&rsquo;s float is the ATM&rsquo;s inventory.</b> Cash-in-transit and cash handling are the heaviest operating costs of a rural ATM. A machine fed by the forecourt&rsquo;s own takings shortens that loop and cuts the dealer&rsquo;s cash-deposit burden in the same stroke &mdash; subject, honestly, to RBI&rsquo;s currency-fitness rules: recycling needs a recycler machine and note-sorting compliance, not a drawer-to-dispenser shortcut.</li>
 <li><b>Interchange is fee income where MDR is fee outgo.</b> The grids above are the point: a dealer facing a 2&ndash;7% commission hit from a plausible future MDR can recover that order of magnitude as an ATM host &mdash; from the cash-preferring rural footfall that digital acceptance does not monetise.</li>
 <li><b>For the consumer, the win is availability, not price.</b> The capped &#8377;23 is not the real cost of rural cash; the trip to a distant machine is. Cash-out where fuel is bought uses a network that already exists in exactly the geography where machines do not.</li>
-<li><b>The lighter version needs no ATM licence:</b> micro-ATM/AePS with the dealer as business-correspondent agent, or the cash-at-PoS facility that SBI&rsquo;s 693-station list already represents. At 0.8% penetration, the binding constraint is evidently not technology &mdash; it is that nobody has put the dealer&rsquo;s business case on paper. Exhibits 1&ndash;3 are that case.</li>
+<li><b>The lighter version needs no ATM licence:</b> micro-ATM/AePS with the dealer as business-correspondent agent, or the cash-at-PoS facility that SBI&rsquo;s 693-station list already represents. At 0.7% penetration, the binding constraint is evidently not technology &mdash; it is that nobody has put the dealer&rsquo;s business case on paper. Exhibits 1&ndash;3 are that case.</li>
 </ul>
 
 <div class="note"><b>What this article does not establish.</b> UPI&rsquo;s actual share of fuel-retail payment value &mdash; no authoritative split exists, hence the 30&ndash;90% grid. Whether an MDR will in fact be notified, at what rate, or with a fuel or large-merchant carve-out &mdash; the amendment creates the power, not the fee. Whether PPAC&rsquo;s commission formula already imputes payment-acceptance costs &mdash; the Ready Reckoner does not decompose it. The precise rural share of ATMs, beyond RBI&rsquo;s characterisation of white-label deployment. And which specific outlets host cash-out today &mdash; the source data cannot support that join.</div>
-<p class="sources"><b>Sources.</b> Dealer commissions, pump-price build-up, outlet count and throughput &mdash; <b>PPAC Ready Reckoner FY2025-26 H1</b> (01.10.2025 build-up at Delhi), as previously verified in this blog&rsquo;s fuel-pricing piece and modelled in the author&rsquo;s public <a href="https://github.com/herrrickshaw/omc-retail-profitability-model">OMC retail profitability repository</a>. Section 10A amendment of 4 August 2026 &mdash; reporting on the Taxation and Other Laws (Amendment) Bill (<a href="https://www.techtimes.com/articles/322958/20260804/india-opens-door-upi-merchant-fees-parliament-amends-six-year-zero-mdr-law.htm">TechTimes</a>); The Hindu&rsquo;s explainer &ldquo;Will UPI remain free to use?&rdquo; is cited as supplied by a reader &mdash; the site blocks automated retrieval, so it was not independently verified here. Incentive cut &#8377;2,000&nbsp;crore &#8594; &#8377;437&nbsp;crore &mdash; <a href="https://startuptalky.com/news/rupay-upi-incentive-reduced/">Budget 2025 coverage</a>. January 2017 fuel-MDR standoff &mdash; <a href="https://www.deccanherald.com/india/petrol-pumps-not-accept-card-1985185">Deccan Herald</a>. ATM counts, interchange &#8377;19/&#8377;7 and the &#8377;23 cap from May 2025 &mdash; <a href="https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQATM04072025.pdf">RBI ATM/WLA FAQ (4 July 2025)</a> and fee-revision coverage. Cash@PoS penetration &mdash; the author&rsquo;s <a href="https://github.com/herrrickshaw/fuel-retail-outlets">fuel-retail-outlets</a> extraction (693 SBI-listed stations against 82,609 SSRI-cataloged outlets; join limitations documented in the repository). All computed figures are reproducible from these inputs; the MDR grid is scenario arithmetic, not a forecast.</p>
+<p class="sources"><b>Sources.</b> Dealer commissions, pump-price build-up, outlet count and throughput &mdash; <b>PPAC Ready Reckoner FY2025-26 H1</b> (01.10.2025 build-up at Delhi), as previously verified in this blog&rsquo;s fuel-pricing piece and modelled in the author&rsquo;s public <a href="https://github.com/herrrickshaw/omc-retail-profitability-model">OMC retail profitability repository</a>. Section 10A amendment of 4 August 2026 &mdash; reporting on the Taxation and Other Laws (Amendment) Bill (<a href="https://www.techtimes.com/articles/322958/20260804/india-opens-door-upi-merchant-fees-parliament-amends-six-year-zero-mdr-law.htm">TechTimes</a>); The Hindu&rsquo;s explainer &ldquo;Will UPI remain free to use?&rdquo; is cited as supplied by a reader &mdash; the site blocks automated retrieval, so it was not independently verified here. Incentive cut &#8377;2,000&nbsp;crore &#8594; &#8377;437&nbsp;crore &mdash; <a href="https://startuptalky.com/news/rupay-upi-incentive-reduced/">Budget 2025 coverage</a>. January 2017 fuel-MDR standoff &mdash; <a href="https://www.deccanherald.com/india/petrol-pumps-not-accept-card-1985185">Deccan Herald</a>. ATM counts, interchange &#8377;19/&#8377;7 and the &#8377;23 cap from May 2025 &mdash; <a href="https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/FAQATM04072025.pdf">RBI ATM/WLA FAQ (4 July 2025)</a> and fee-revision coverage. Cash@PoS penetration &mdash; the author&rsquo;s <a href="https://github.com/herrrickshaw/fuel-retail-outlets">fuel-retail-outlets</a> extraction (693 SBI-listed stations against PPAC&rsquo;s 99,281 outlets; the SSRI catalog of 82,609 and its join limitations are documented in the repository). All computed figures are reproducible from these inputs; the MDR grid is scenario arithmetic, not a forecast.</p>
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
 
 </div>
