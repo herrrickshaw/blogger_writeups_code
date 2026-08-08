@@ -1770,3 +1770,58 @@ produce "indexed, though blocked" warnings.
   test is to attempt navigation: Blogger blocks it with "unsaved changes" when
   the buffer is dirty. That distinguishes "save failed" from "page is cached",
   which cost two wrong diagnoses today.
+
+## 2026-08-08 — Fuel surplus and the neighbourhood: the brief did not survive the data
+
+Asked for a piece on India's petrol/diesel surplus and the opportunity to sell to
+Nepal, Sri Lanka and Bhutan along with ethanol. Two of those three premises hold.
+One inverts.
+
+**The surplus is real and large.** DGCI&S TRADESTAT, HS 2710: exports
+**US$52,973mn** against imports **US$9,320mn** in FY2025-26 — a net
+**US$43.7bn**. Diesel-led: the 271019 group alone exported US$34.6bn.
+
+**The neighbourhood is 5.2%, and two of the three markets are already closed.**
+Nepal 1,522, Sri Lanka 1,013, Bhutan 240 US$mn — 2,775 combined. And PPAC's own
+footnote settles what kind of market these are: *"Nepal sales by IOCL, Nepal and
+Bhutan sales by BPCL are considered in total exports"*. Indian PSUs are not
+competing for Nepal and Bhutan, they are the incumbent supplier, booking
+subsidiary sales as exports. **Nepal's purchases fell 5.3% last year.** The one
+genuine growth market is Sri Lanka, +30.3% — and it is the only one that sells
+refined product back, i.e. the only competitive one.
+
+**The largest buyer is the Netherlands at US$8.4bn, 15.9%** — Rotterdam, and the
+diesel end of the Russia-crude-to-Europe trade. The neighbourhood does not appear
+until well down the list.
+
+**Ethanol inverts the brief, and then the user's own source made it sharper.**
+TRADESTAT: exports **US$54.3mn**, imports **US$407.2mn** (94% from the US) — a
+net deficit of **US$353mn**. Exports to Nepal: US$0.09mn. On the trade measure,
+India buys alcohol.
+
+The user then supplied CareEdge Ratings (May 2026): capacity past 20 bn litres,
++4 bn coming, E20 absorbing 11 bn, non-fuel 3–3.5 bn, distilleries at ~60%.
+**Not a contradiction — a different quantity.** CareEdge measures idle *capacity*;
+TRADESTAT measures *traded product*. India has unused distilleries and an alcohol
+import bill simultaneously. Idle plant is not a stock of exportable litres.
+
+**Two checks worth recording.** The press figure of "nearly 7 billion litres" of
+surplus does not reconcile with CareEdge's own components: 20 − (11 + 3–3.5)
+gives **5.5–6 bn** now, ~9.5 bn once new capacity lands. Published the components
+and the discrepancy rather than the headline number. Separately, **WebFetch
+mis-converted crore to billion by a factor of ten** ("2,000 crore litres (200
+billion litres)"); 2,000 crore is 20 billion. A summarising model is not a unit
+converter — check every crore/lakh conversion it hands back.
+
+**The pattern this joins.** LNG regas terminals at 47% utilisation, distilleries
+at ~60%, both adding capacity, both proposing exports as the remedy for the
+shortfall. Named it in the article.
+
+**Sourcing.** CareEdge is a commercial ratings agency, so its figures are
+attributed as industry context and carry no headline claim — same treatment as
+S&P Global in the inflation piece. Every load-bearing number is DGCI&S or PPAC.
+
+**Also stated plainly: TRADESTAT returned no quantity columns**, so the entire
+article is in dollars. A 15.3% fall in export value is not a 15.3% fall in
+barrels when crude prices have moved, and the piece says so rather than implying
+volume.

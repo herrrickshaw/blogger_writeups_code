@@ -1307,3 +1307,68 @@ Author photo replaces UT monogram in both posts and the site-wide theme card
 
 - `about-author` — 12,860 → 26,963 bytes (+14,103)
 - `article-index-start-here` — 32,444 → 46,548 bytes (+14,104)
+
+## 2026-08-08T12:29:15+05:30 — 98 posts live
+
+new post: India's fuel surplus and the neighbourhood
+
+
+**Added**
+
+- `india-sells-world-53-billion-of-fuel` **v1.0.0** — India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It. (23,891 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `europe-bought-record-amount-of-lng-and` — 2026-08-08 &rarr; 2026-08-08
+- `petroleum-trade-pairings-and-us-crude` — 2026-08-08 &rarr; 2026-08-08
+- `inflation-trends-globally-what-five` — 2026-08-08 &rarr; 2026-08-08
+- `indias-wholesale-prices-next-to` — 2026-08-08 &rarr; 2026-08-08
+- `reinvesting-capital-gains-in-higher` — 2026-08-07 &rarr; 2026-08-07
+- `diesel-doesnt-move-cpi-it-moves-40` — 2026-08-06 &rarr; 2026-08-06
+- `chemical-import-substitution-hsn-8-registry` — 2026-08-06 &rarr; 2026-08-06
+- `rooftop-solar-is-working-household` — 2026-08-06 &rarr; 2026-08-06
+- `fourteen-years-of-indian-wholesale` — 2026-08-05 &rarr; 2026-08-05
+- `europes-export-credit-agencies-are` — 2026-08-05 &rarr; 2026-08-05
+- `indias-state-incentive-war-gujarats` — 2026-08-05 &rarr; 2026-08-05
+- `where-indias-green-hydrogen-bets-are` — 2026-08-05 &rarr; 2026-08-05
+- `indias-ethanol-surplus-isnt-going-to` — 2026-08-05 &rarr; 2026-08-05
+- `indias-animal-protein-export-complex` — 2026-08-05 &rarr; 2026-08-05
+- `indias-tyre-waste-problem-and-crumb` — 2026-08-05 &rarr; 2026-08-05
+- `whos-actually-building-mri-and-ct` — 2026-08-05 &rarr; 2026-08-05
+- `the-ethanol-sectors-buyers-market` — 2026-08-05 &rarr; 2026-08-05
+- `rare-earth-magnets-and-specialty-steel` — 2026-08-05 &rarr; 2026-08-05
+- `vehicles-out-motors-in-indias-chapter` — 2026-08-05 &rarr; 2026-08-05
+- `about-author` — 2026-08-05 &rarr; 2026-08-05
+- `fuel-pricing-to-crude-cost` — 2026-08-05 &rarr; 2026-08-05
+- `pli-medical-devices-coverage-and-gaps` — 2026-08-05 &rarr; 2026-08-05
+- `indias-medical-device-trade-gap-and` — 2026-08-05 &rarr; 2026-08-05
+- `indian-it-in-ai-era` — 2026-08-04 &rarr; 2026-08-04
+- `securitising-deficit-what-it-would` — 2026-08-04 &rarr; 2026-08-04
+- `the-rupee-fell-10-and-exports-grew-09` — 2026-08-04 &rarr; 2026-08-04
+- `half-of-indias-import-bill-is` — 2026-08-03 &rarr; 2026-08-03
+- `re-spinning-charkha` — 2026-08-03 &rarr; 2026-08-03
+- `annexure-314-hsn-codes-mapped-to` — 2026-08-03 &rarr; 2026-08-03
+- `from-fuel-to-fibre-indias-textile` — 2026-08-03 &rarr; 2026-08-03
+- `greenhouse-emissions-reduction-and-cbam` — 2026-08-02 &rarr; 2026-08-02
+- `indias-carbon-credit-market-domestic` — 2026-08-02 &rarr; 2026-08-02
+- `bio-fertiliser-and-green-credits` — 2026-08-02 &rarr; 2026-08-02
+- `nature-versus-nurture-indias-fertiliser` — 2026-08-02 &rarr; 2026-08-02
+- `announced-vs-delivered-three-indian` — 2026-08-02 &rarr; 2026-08-02
+- `a-tax-play-grow-ethanol-sgst-revenue` — 2026-08-02 &rarr; 2026-08-02
+- `state-by-state-who-actually-earns-from` — 2026-08-02 &rarr; 2026-08-02
+- `indias-ev-market-single-digit` — 2026-08-02 &rarr; 2026-08-02
+- `cpi-inflation-heatmap-india-june-2026` — 2026-08-02 &rarr; 2026-08-02
+- `hsn-wise-historical-importexport-trends` — 2026-08-02 &rarr; 2026-08-02
+- `import-dependent-sectors-vs-government` — 2026-08-02 &rarr; 2026-08-02
+- `effective-buying-power-china-comparison` — 2026-08-02 &rarr; 2026-08-02
+- `priority-trade-partners-by-import` — 2026-08-02 &rarr; 2026-08-02
+- `indias-trade-balance-hsn-wise` — 2026-08-02 &rarr; 2026-08-02
+- `fy2025-26-sample-report-india-trade` — 2026-08-02 &rarr; 2026-08-02
+- `five-year-synthesis-trade-currency` — 2026-08-02 &rarr; 2026-08-02
+- `imported-fertiliser-fuel-prices-diesel` — 2026-08-02 &rarr; 2026-08-02
+- `priority-export-destinations-by-growth` — 2026-08-02 &rarr; 2026-08-02
+- `cpi-wpi-trends-mospi-bulletin` — 2026-08-02 &rarr; 2026-08-02
+- `where-indias-forex-goes-country` — 2026-08-02 &rarr; 2026-08-02
+- `rbi-foreign-exchange-reserves-20152026` — 2026-08-02 &rarr; 2026-08-02
+- `discom-debt-relief-token-charge` — 2026-08-02 &rarr; 2026-08-02
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 2026-08-02 &rarr; 2026-08-02
