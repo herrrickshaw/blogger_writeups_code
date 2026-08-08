@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-08T09:26:46.305+05:30",
+  "updated": "2026-08-08T09:49:30.387+05:30",
   "labels": [],
-  "bytes": 32130,
-  "sha256": "8c9b5889a1d7eb5417b2f9f2721c993cca17e6de7b96aab5bb7ab76466d227ba",
+  "bytes": 31952,
+  "sha256": "dbd027b0d7e0519dfe202437002599bb3263422b62e1e7357ca5c404e7150d3b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -105,6 +105,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-08-08T09:49:50+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-1 distinct numbers)",
+      "bytes": [
+        32130,
+        31952
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index piece count 73 -> 92"
     }
   ]
 }

@@ -1100,3 +1100,16 @@ verify pull-rebase path
 **Changed**
 
 - `top-15-chemicals-for-import--4751284523575450171` — 14,369 → 15,642 bytes (+1,273)
+
+## 2026-08-08T09:49:50+05:30 — 95 posts live
+
+index piece count 73 -> 92
+
+
+**Versions**
+
+- `article-index-start-here` **5.1.0 → 6.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 32,130 → 31,952 bytes (-178)
