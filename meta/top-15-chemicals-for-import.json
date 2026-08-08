@@ -1,16 +1,16 @@
 {
   "id": "1336090290969568886",
-  "title": "Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale",
+  "title": "The Top 15 Import-Substitution Chemicals, Code by Code",
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-08T12:08:05.880+05:30",
+  "updated": "2026-08-08T12:42:30.100+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 75137,
-  "sha256": "114b63cf1b77ac4a3d39dd03bef03318f920ea5a6994005ff769a21273908458",
+  "bytes": 75117,
+  "sha256": "91147ba3346ed7661ef194807f7fbba65a429bec7fee4249a920000c4460e282",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -61,6 +61,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "gs-table-v1 rollout; AI Tracker index section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T12:44:23+05:30",
+      "level": "major",
+      "reason": "section(s) removed: Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale",
+      "bytes": [
+        75137,
+        75117
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "disambiguate four chemical post titles (no deletions)"
     }
   ]
 }

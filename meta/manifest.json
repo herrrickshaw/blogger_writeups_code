@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T12:37:52+05:30",
+  "snapshot": "2026-08-08T12:44:23+05:30",
   "count": 98,
   "posts": {
     "1157999291079244419": {
@@ -70,17 +70,17 @@
     },
     "1336090290969568886": {
       "id": "1336090290969568886",
-      "title": "Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale",
+      "title": "The Top 15 Import-Substitution Chemicals, Code by Code",
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-08T12:08:05.880+05:30",
+      "updated": "2026-08-08T12:42:30.100+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 75137,
-      "sha256": "114b63cf1b77ac4a3d39dd03bef03318f920ea5a6994005ff769a21273908458",
+      "bytes": 75117,
+      "sha256": "91147ba3346ed7661ef194807f7fbba65a429bec7fee4249a920000c4460e282",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -92,7 +92,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -131,6 +131,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "gs-table-v1 rollout; AI Tracker index section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T12:44:23+05:30",
+          "level": "major",
+          "reason": "section(s) removed: Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale",
+          "bytes": [
+            75137,
+            75117
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "disambiguate four chemical post titles (no deletions)"
         }
       ]
     },
@@ -2891,18 +2904,18 @@
     },
     "4751284523575450171": {
       "id": "4751284523575450171",
-      "title": "Top 15 Chemicals for Import Substitution — India (FY26–30)",
+      "title": "India's FY26–30 Chemical Independence Roadmap: the Top 15",
       "url": "https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import--4751284523575450171",
       "published": "2026-08-01T09:25:00.000+05:30",
-      "updated": "2026-08-08T12:07:58.084+05:30",
+      "updated": "2026-08-08T12:42:40.611+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 15642,
-      "sha256": "aeb5f99c94689be639c8fa8474df79269d3d185c30f49e90d203c30e9af44847",
+      "bytes": 15659,
+      "sha256": "ce4f45183b57909ccbaa9e5bbed9e1c23ac47b5f933841e447fa50acc3e788f8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2914,7 +2927,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2953,6 +2966,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "verify pull-rebase path"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T12:44:23+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            15642,
+            15659
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "disambiguate four chemical post titles (no deletions)"
         }
       ]
     },
@@ -4340,16 +4366,16 @@
     },
     "6790374087242629357": {
       "id": "6790374087242629357",
-      "title": "Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)",
+      "title": "Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets",
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.000+05:30",
-      "updated": "2026-08-08T11:59:45.213+05:30",
+      "updated": "2026-08-08T12:42:01.467+05:30",
       "labels": [
         "Import Substitution"
       ],
-      "bytes": 15021,
-      "sha256": "bbbf93e6f8c1f9ede9dad583d0f0ec6ad983bc3fcac5a73ecff7354bd327150e",
+      "bytes": 15015,
+      "sha256": "d3ad375f1c049b8872a2b8073df2d6dc1356fecda29551322d2931b3deba7356",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4361,7 +4387,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4422,6 +4448,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-08T12:44:23+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            15021,
+            15015
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "disambiguate four chemical post titles (no deletions)"
         }
       ]
     },
@@ -5729,18 +5768,18 @@
     },
     "8677832990636879595": {
       "id": "8677832990636879595",
-      "title": "Chemical Import Substitution — Full HSN-8 Registry (827 Codes): Data Tables",
+      "title": "Chemical Import Substitution: the Full 827-Code Data Tables",
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-08-08T11:59:36.420+05:30",
+      "updated": "2026-08-08T12:42:18.281+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 376784,
-      "sha256": "47386e6443395db3649955ec49f65234e2464b7566d140521314555f1fad404f",
+      "bytes": 376775,
+      "sha256": "dabd3c45982d350b5197f82bf379387cf2e1d37120307f66c3538d4c165ff9e8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5752,7 +5791,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5773,6 +5812,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T12:44:23+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            376784,
+            376775
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "disambiguate four chemical post titles (no deletions)"
         }
       ]
     },

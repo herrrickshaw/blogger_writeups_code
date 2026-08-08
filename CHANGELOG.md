@@ -1385,3 +1385,22 @@ index rebuilt: topic hubs, geography, subject graph
 **Changed**
 
 - `article-index-start-here` — 46,548 → 120,635 bytes (+74,087); markers ai_disclosure False→True, index_link False→True, typo_unify False→True
+
+## 2026-08-08T12:44:23+05:30 — 98 posts live
+
+disambiguate four chemical post titles (no deletions)
+
+
+**Versions**
+
+- `chemical-import-substitution-hsn-8-registry` **2.0.1 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `chemical-import-substitution-full-hsn-8_01082878313` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `top-15-chemicals-for-import` **1.0.2 → 2.0.0** (MAJOR) — section(s) removed: Top 15 Chemicals for Import Substitution: Detailed Analysis with Rationale
+- `top-15-chemicals-for-import--4751284523575450171` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `chemical-import-substitution-hsn-8-registry` — 15,021 → 15,015 bytes (-6)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 376,784 → 376,775 bytes (-9)
+- `top-15-chemicals-for-import` — 75,137 → 75,117 bytes (-20)
+- `top-15-chemicals-for-import--4751284523575450171` — 15,642 → 15,659 bytes (+17)

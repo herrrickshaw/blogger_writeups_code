@@ -1,15 +1,15 @@
 {
   "id": "6790374087242629357",
-  "title": "Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)",
+  "title": "Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets",
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-08-08T11:59:45.213+05:30",
+  "updated": "2026-08-08T12:42:01.467+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 15021,
-  "sha256": "bbbf93e6f8c1f9ede9dad583d0f0ec6ad983bc3fcac5a73ecff7354bd327150e",
+  "bytes": 15015,
+  "sha256": "d3ad375f1c049b8872a2b8073df2d6dc1356fecda29551322d2931b3deba7356",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-08T12:44:23+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        15021,
+        15015
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "disambiguate four chemical post titles (no deletions)"
     }
   ]
 }

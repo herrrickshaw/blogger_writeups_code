@@ -1866,3 +1866,37 @@ the geometry arithmetically instead — label extents run 85 to 783 inside a
 **A measurement taken through a broken instrument is not evidence.**
 
 Live: 96 post links all resolving to live posts, 12 hub links, 17 graph nodes.
+
+## 2026-08-08 — The "duplicate" chemical posts were not duplicates
+
+The keyword analysis flagged four posts competing for one query. Read all four
+before touching anything, and the diagnosis was wrong in an instructive way.
+
+**They are four different documents.** `hsn-8-registry` (5.5k chars, 0 tables) is
+the methodology page — the signal framework, four categories with counts, and an
+explicit list of what the analysis cannot do; its tables were deliberately moved
+out in v3.0.0 to keep the page under Blogger's budget.
+`full-hsn-8_01082878313` (185k chars, 8 tables) is where they went. The two
+`top-15` posts are a code-by-code detail piece and an FY26-30 roadmap summary,
+sharing a slug across two month paths.
+
+**So the defect was never duplication. It was that each pair opened with the same
+words** — "Chemical Import Substitution — Full HSN-8 Registry (827 Codes)" twice,
+"Top 15 Chemicals for Import Substitution" twice — which is what makes them
+compete in search and indistinguishable in a list. Consolidating or 301-ing would
+have destroyed working pages to fix a naming problem.
+
+**Retitled to lead with the differentiator. Nothing deleted, no URL changed.**
+
+**Both the Blogger title and the in-body `<h1>` had to change.** The theme hides
+its own h1 when the body supplies one, so changing only the API title would have
+left every page heading disagreeing with its own search result.
+
+**Two failures of assumption, both caught by refusing to guess.** The h1 anchors
+did not match on three of four posts because the live markup carries `&#8212;`
+rather than a literal em dash, and one h1 had newlines inside it. The script
+counted occurrences and skipped rather than doing a fuzzy match — then I read the
+raw markup and used it verbatim. Second: my verification regex initially caught
+an `<h1>` inside a *theme comment* and reported all four as mismatched. Stripping
+comments and scoping to `.post-body` showed all four correct. **Two verification
+bugs in one task, both of which would have reported failure on a working change.**

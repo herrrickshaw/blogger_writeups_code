@@ -1,17 +1,17 @@
 {
   "id": "4751284523575450171",
-  "title": "Top 15 Chemicals for Import Substitution — India (FY26–30)",
+  "title": "India's FY26–30 Chemical Independence Roadmap: the Top 15",
   "url": "https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import--4751284523575450171",
   "published": "2026-08-01T09:25:00.000+05:30",
-  "updated": "2026-08-08T12:07:58.084+05:30",
+  "updated": "2026-08-08T12:42:40.611+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 15642,
-  "sha256": "aeb5f99c94689be639c8fa8474df79269d3d185c30f49e90d203c30e9af44847",
+  "bytes": 15659,
+  "sha256": "ce4f45183b57909ccbaa9e5bbed9e1c23ac47b5f933841e447fa50acc3e788f8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -62,6 +62,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "verify pull-rebase path"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T12:44:23+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        15642,
+        15659
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "disambiguate four chemical post titles (no deletions)"
     }
   ]
 }
