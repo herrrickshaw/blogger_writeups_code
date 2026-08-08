@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T03:06:52+05:30",
+  "snapshot": "2026-08-09T04:12:49+05:30",
   "count": 114,
   "posts": {
     "1157999291079244419": {
@@ -931,12 +931,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-08T22:21:51.576+05:30",
+      "updated": "2026-08-09T04:12:20.255+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 25844,
-      "sha256": "6d82776d480a7df9e08c0c70b8c8682588227f673251bd91a7eb4e464b575f40",
+      "bytes": 26530,
+      "sha256": "e6863333e830cfb063de145eb571dabd03ed0eea34d498a4fc5cccbc67a99fd9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -948,7 +948,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1008,6 +1008,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fertiliser-import article: added MOP-specific import data (Canpotex/Belarus/Israel/Jordan/Russia sourcing, Rajasthan's undeveloped potash reserves) and cross-linked all gas + fertiliser articles. Added 'Middle Class to Money Class' (Sairam & Srividhya) to the author's shelf on accordion.js + Shop page."
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-08-09T04:12:49+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-1 distinct numbers)",
+          "bytes": [
+            25844,
+            26530
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed Wings of Fire (Kalam) shelf entry — cover URL host mismatch (images-na.ssl-images-amazon.com vs build_shop.py's hardcoded m.media-amazon.com regex) silently dropped the entry from the Shop page; corrected and republished, now 12 shelf items"
         }
       ]
     },

@@ -2104,3 +2104,16 @@ Africa refining article updated: added 2018 historical baseline (Dangote's origi
 **Changed**
 
 - `one-refinery-flipped-nigeria-from` — 17,995 → 25,670 bytes (+7,675)
+
+## 2026-08-09T04:12:49+05:30 — 114 posts live
+
+Fixed Wings of Fire (Kalam) shelf entry — cover URL host mismatch (images-na.ssl-images-amazon.com vs build_shop.py's hardcoded m.media-amazon.com regex) silently dropped the entry from the Shop page; corrected and republished, now 12 shelf items
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **3.1.0 → 4.0.0** (MAJOR) — figures changed (+1/-1 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 25,844 → 26,530 bytes (+686)
