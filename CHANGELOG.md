@@ -1995,3 +1995,12 @@ New article: India's fertiliser import bill ($18bn, +76% YoY) — Parliamentary 
 **Added**
 
 - `indias-fertiliser-import-bill-hits-18` **v1.0.0** — India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why (15,558 bytes)
+
+## 2026-08-08T21:53:57+05:30 — 112 posts live
+
+New article: India trade gaps — Export Promotion Mission, EU FTA, PLI scheme (all goods-focused) vs the services-export growth gap (6.5% vs 2.4% merchandise, H1 FY26)
+
+
+**Added**
+
+- `indias-trade-story-has-three-big-wins` **v1.0.0** — India's Trade Story Has Three Big Wins and One Gap the Headlines Skip (14,572 bytes)
