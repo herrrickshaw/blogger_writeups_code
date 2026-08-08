@@ -1924,3 +1924,12 @@ New article: LPG distributor commission (₹73.08/cylinder, PPAC) — closes the
 **Added**
 
 - `lpgs-missing-number-7308-commission-and` **v1.0.0** — LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol (17,748 bytes)
+
+## 2026-08-08T21:05:35+05:30 — 107 posts live
+
+New article: thermal parity and oil-gas price decoupling — uses Mittal (2016) cointegration finding + India's Kirit Parikh crude-linked APM formula (current ceiling $7/mmBtu vs $85 crude) to show India is a deliberate re-coupling case against the global decoupling literature
+
+
+**Added**
+
+- `thermal-parity-is-dead-what-85-oil-and` **v1.0.0** — Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling (20,980 bytes)

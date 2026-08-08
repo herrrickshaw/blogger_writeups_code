@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-08T20:56:29+05:30",
-  "count": 106,
+  "snapshot": "2026-08-08T21:05:35+05:30",
+  "count": 107,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -3651,6 +3651,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        }
+      ]
+    },
+    "4668756122287723508": {
+      "id": "4668756122287723508",
+      "title": "Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
+      "slug": "thermal-parity-is-dead-what-85-oil-and",
+      "published": "2026-08-08T21:04:59.323+05:30",
+      "updated": "2026-08-08T21:04:59.323+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Markets & Finance"
+      ],
+      "bytes": 20980,
+      "sha256": "c047d1a0815e30d6f01c759be5cb3e7b33281e8708ae7630d0a752555e510333",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-08T21:05:35+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New article: thermal parity and oil-gas price decoupling — uses Mittal (2016) cointegration finding + India's Kirit Parikh crude-linked APM formula (current ceiling $7/mmBtu vs $85 crude) to show India is a deliberate re-coupling case against the global decoupling literature"
         }
       ]
     },
