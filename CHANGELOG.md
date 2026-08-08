@@ -1126,3 +1126,16 @@ nature-versus-nurture: 17 of 23 unit violations hoisted
 **Changed**
 
 - `nature-versus-nurture-indias-fertiliser` — 70,182 → 70,030 bytes (-152)
+
+## 2026-08-08T09:56:21+05:30 — 95 posts live
+
+securitising-deficit: 6 of 9 unit violations hoisted
+
+
+**Versions**
+
+- `securitising-deficit-what-it-would` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `securitising-deficit-what-it-would` — 114,575 → 114,529 bytes (-46)

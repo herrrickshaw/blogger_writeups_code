@@ -1189,3 +1189,27 @@ findings on a 25-table post, each with a recorded reason, is the honest state.
 
 Remaining across the blog: **57 violations in 17 posts**, largest now
 `securitising-deficit` at 9.
+
+## 2026-08-08 — securitising-deficit: 9 → 3
+
+Four columns hoisted, 20 cells rewritten: `Break-even INR depreciation, % p.a.`,
+`Annual saving, US$ bn`, `PBoC swap line, ¥ bn`, `Annual value, US$ bn`.
+
+**A currency symbol hid behind its entity.** The yen cells read `&yen;190` in the
+source, so stripping the literal `¥` removed nothing and the published cells
+would have kept their symbol under a header that already carried it. Caught by
+reading the rewritten cells rather than trusting the rewrite. **Strip the entity
+form as well as the glyph** — `&yen;`, `&#8377;`, `&euro;` — or check the raw
+cell, not the rendered one.
+
+Three left, all correct:
+
+- **`Tenor`** runs `91 days`, `364 days`, `4–5 years`. Days and years in one
+  column; there is no single unit to hoist.
+- **`Then` / `Now`** mix `13% (2019)` with `¥9 tn (2017)` — a share and a volume
+  in the same column, which is a table-design question rather than a units one.
+  Splitting them would change what the table says, so it is left for a human
+  edit rather than done as part of a formatting pass.
+
+Blog-wide: **63 → 57 violations across 16 posts.** Next largest is
+`the-grain-value-loop-integrated-rice` at 7.
