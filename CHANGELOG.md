@@ -2082,3 +2082,12 @@ Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this b
 - `imported-fertiliser-fuel-prices-diesel` — 26,261 → 27,737 bytes (+1,476)
 - `indias-subsidised-imports-fertilisers` — 26,365 → 27,830 bytes (+1,465)
 - `the-cbg-incentive-stack-every-leg-of` — 10,087 → 11,598 bytes (+1,511)
+
+## 2026-08-09T03:00:54+05:30 — 114 posts live
+
+New article: Africa refining boom vs demand — Dangote's Nigeria turnaround (650k bpd, 62% of petrol supply) set against the continent-wide import forecast rising 2mn->3.4mn bpd by 2050 despite the refining pipeline
+
+
+**Added**
+
+- `one-refinery-flipped-nigeria-from` **v1.0.0** — One Refinery Flipped Nigeria From Importer to Exporter. Africa's Import Bill Is Still Rising. (17,995 bytes)
