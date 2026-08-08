@@ -1705,3 +1705,16 @@ new post: CGD overtakes fertiliser as India's largest gas consumer
 **Added**
 
 - `city-gas-just-became-indias-largest-gas` **v1.0.0** — City Gas Just Became India's Largest Gas Consumer (16,571 bytes)
+
+## 2026-08-08T16:52:18+05:30 — 101 posts live
+
+MDR post: outlet count updated to 103,682 (01.07.2026)
+
+
+**Versions**
+
+- `upi-fees-are-now-legal-petrol-pumps` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+
+**Changed**
+
+- `upi-fees-are-now-legal-petrol-pumps` — 19,450 → 20,045 bytes (+595)
