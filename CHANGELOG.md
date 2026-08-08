@@ -1889,3 +1889,16 @@ Added card-network fee comparison (Exhibit 1): UPI/RuPay-debit 0%, Visa/Masterca
 **Changed**
 
 - `beyond-pump-what-upi-fee-would-cost` — 25,626 → 29,472 bytes (+3,846)
+
+## 2026-08-08T20:23:16+05:30 — 105 posts live
+
+Inflation-trends article: added Eurostat EU-27 member-state spread + category drivers (Exhibit 3), and a live BLS CPI cross-check note for the US since World Bank's 2025 figure still isn't published; renumbered downstream exhibits 3-5 -> 4-6
+
+
+**Versions**
+
+- `inflation-trends-globally-what-five` **2.0.2 → 2.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `inflation-trends-globally-what-five` — 36,854 → 40,613 bytes (+3,759)
