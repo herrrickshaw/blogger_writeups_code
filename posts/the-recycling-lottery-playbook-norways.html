@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <div class="artx" style="--h1:#153a5e;--h2:#1c6b93"><div class="hero"><h1>The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application</h1>
@@ -91,22 +109,22 @@ SCALE: 600M containers/yr · ~NOK 300M revenue · Red Cross funding growing 5%/y
 <h3>What a regulated Indian lottery could actually fund</h3>
 <p>Pahle India Foundation's January 2024 white paper on lottery regulation in India puts numbers on the funding potential this playbook is ultimately arguing for — not the recycling-lottery mechanic specifically, but the broader case that a well-regulated lottery sector is a real revenue instrument for exactly the kind of social-sector mission Jal Jeevan represents.</p>
 <table>
-<tr><th>Metric</th><th>Value</th></tr>
-<tr><td>Global lottery ticket sales (2021)</td><td>$384.7 billion</td></tr>
-<tr><td>Global funds returned to society (2021)</td><td>$93.2 billion</td></tr>
-<tr><td>UK National Lottery contribution to good causes (2021)</td><td>$4 billion</td></tr>
-<tr><td>India's estimated lottery market (conservative, current)</td><td>$33 billion/yr</td></tr>
-<tr><td>Projected India market by 2030 (5.1% CAGR)</td><td>$44.3 billion/yr</td></tr>
-<tr><td>Potential government revenue from a regulated national market</td><td>$26 billion/yr</td></tr>
-<tr><td>Of which, potential tax + profit available for social schemes</td><td>$12 billion/yr</td></tr>
+<tr><th>Metric</th><th>Value, billion US$/yr</th></tr>
+<tr><td>Global lottery ticket sales (2021)</td><td>384.7</td></tr>
+<tr><td>Global funds returned to society (2021)</td><td>93.2</td></tr>
+<tr><td>UK National Lottery contribution to good causes (2021)</td><td>4</td></tr>
+<tr><td>India's estimated lottery market (conservative, current)</td><td>33</td></tr>
+<tr><td>Projected India market by 2030 (5.1% CAGR)</td><td>44.3</td></tr>
+<tr><td>Potential government revenue from a regulated national market</td><td>26</td></tr>
+<tr><td>Of which, potential tax + profit available for social schemes</td><td>12</td></tr>
 </table>
 <p>Pahle India Foundation's report lines that $12 billion/year up against India's actual FY 2023-24 budget outlays for flagship social programmes — and the comparison is the entire argument in one table:</p>
 <table>
-<tr><th>Programme</th><th>FY 2023-24 outlay</th></tr>
-<tr><td>Jal Jeevan Mission (water)</td><td>$8.4 billion</td></tr>
-<tr><td>MGNREGA (rural employment guarantee)</td><td>$7.2 billion</td></tr>
-<tr><td>National Health Mission</td><td>$4.5 billion</td></tr>
-<tr><td>National Education Mission</td><td>$4.5 billion</td></tr>
+<tr><th>Programme</th><th>FY 2023-24 outlay, billion US$</th></tr>
+<tr><td>Jal Jeevan Mission (water)</td><td>8.4</td></tr>
+<tr><td>MGNREGA (rural employment guarantee)</td><td>7.2</td></tr>
+<tr><td>National Health Mission</td><td>4.5</td></tr>
+<tr><td>National Education Mission</td><td>4.5</td></tr>
 </table>
 <p>A regulated national lottery, on the white paper's own conservative estimate, could generate more in annual tax-and-profit revenue ($12bn) than the entire Jal Jeevan Mission budget ($8.4bn) — and more than MGNREGA, National Health Mission or National Education Mission individually. That is the macro case for lottery-style revenue instruments generally; the recycling-lottery and receipt-lottery models above are the specific, addiction-monitored, choice-based mechanics this blog would actually want to see used to capture a slice of it, rather than the current opaque paper-ticket lottery model the white paper otherwise spends most of its pages criticising (low revenue transparency, CAG-flagged audit lapses, unverified prize-claim processing, no player-protection framework). The funding potential and the governance risk are the same sector — which is exactly why the "choice-based, transparent-odds, audited" design principles from Norway's model in this piece matter more, not less, at the scale the white paper is describing.</p>
 <p class="src">Pfand statistics: Destatis (Germany's Federal Statistical Office, 2024 data via DPG/TOMRA reporting); DPG (Deutsche Pfandsystem GmbH) official site. Lottery-market and social-scheme-comparison figures: Pahle India Foundation, "Lottery in India: A Study on Regulatory Framework and Potential for Social Funding," white paper, January 2024.</p>

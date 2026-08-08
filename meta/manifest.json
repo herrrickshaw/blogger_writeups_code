@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T03:54:45+00:00",
+  "snapshot": "2026-08-08T09:32:14+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -8,10 +8,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:29:10.261+05:30",
+      "updated": "2026-08-08T09:26:10.728+05:30",
       "labels": [],
-      "bytes": 8695,
-      "sha256": "09ab870bbd729ab5bdf033eba5cb5c288e0bad237146157cadccd0fef1e4585c",
+      "bytes": 9968,
+      "sha256": "120e6c9a3c72ac68429935aa60e911ddd5c662fc3f506598b999708be511de93",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23,7 +23,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -49,6 +49,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            8695,
+            9968
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -58,10 +71,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-06T11:30:12.005+05:30",
+      "updated": "2026-08-08T09:28:15.152+05:30",
       "labels": [],
-      "bytes": 73871,
-      "sha256": "5db07a221b81955f71a8b79f49d6e0cda9c3fb7fb3a5fd68ffd24536968ebda9",
+      "bytes": 75137,
+      "sha256": "114b63cf1b77ac4a3d39dd03bef03318f920ea5a6994005ff769a21273908458",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -73,7 +86,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -99,6 +112,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            73871,
+            75137
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -403,10 +429,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
       "slug": "the-recycling-lottery-playbook-norways",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:29:58.736+05:30",
+      "updated": "2026-08-08T09:27:46.694+05:30",
       "labels": [],
-      "bytes": 17600,
-      "sha256": "5709b9075f57ce8f7e5f315a791fd0ea049069e5cd2a3c676035b56219c419d8",
+      "bytes": 18791,
+      "sha256": "6a83e68eed2af0ecf1274f23c7ac989566f83a0f381edebab0156075dd6d2f35",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -418,7 +444,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -444,6 +470,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            17600,
+            18791
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -561,10 +600,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.209+05:30",
-      "updated": "2026-08-05T06:02:40.643+05:30",
+      "updated": "2026-08-08T09:25:20.680+05:30",
       "labels": [],
-      "bytes": 113515,
-      "sha256": "ea4594ec6b86b8359fc2b198db7385ada4987b59dbdd8c8280d8834c01f0242e",
+      "bytes": 114575,
+      "sha256": "e95e1ed71ab3583c070f081f521509b864b386446de3d7e386cced1369189f73",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -576,7 +615,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -584,6 +623,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            113515,
+            114575
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -593,10 +645,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
       "slug": "the-rupee-fell-10-and-exports-grew-09",
       "published": "2026-08-04T06:34:23.146+05:30",
-      "updated": "2026-08-05T09:12:47.961+05:30",
+      "updated": "2026-08-08T09:27:59.025+05:30",
       "labels": [],
-      "bytes": 28372,
-      "sha256": "84b40b86a88d21ccd9b443a44d5b2eb55704d966ac8df9ca9bd14a7ad9ec4291",
+      "bytes": 29645,
+      "sha256": "b9a62996d76c136121369f51e7b062192b4211b9407e430c84aaa69b3e09fdfb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -608,7 +660,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -616,6 +668,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28372,
+            29645
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -778,10 +843,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
       "slug": "rooftop-solar-is-working-household",
       "published": "2026-08-06T08:11:47.709+05:30",
-      "updated": "2026-08-08T06:30:53.798+05:30",
+      "updated": "2026-08-08T09:24:55.410+05:30",
       "labels": [],
-      "bytes": 10907,
-      "sha256": "f73979becf457386e4b59fe633bfc9f366e404b3efd4205d2a3809d0660f5f23",
+      "bytes": 12162,
+      "sha256": "62bcaea43a5c486d5611c330afdc28995e0bb2f7adc899ad289a964a82123ac6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -793,7 +858,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -814,6 +879,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "table scroller fix applied to four more posts"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            10907,
+            12162
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -1190,10 +1268,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
       "slug": "where-indias-factories-actually-get",
       "published": "2026-08-02T12:14:17.826+05:30",
-      "updated": "2026-08-06T07:40:11.890+05:30",
+      "updated": "2026-08-08T09:28:51.915+05:30",
       "labels": [],
-      "bytes": 36023,
-      "sha256": "0aa1ff261f84482fd1a9d66162776c4ca42b9001baf2b17357148afdca236b09",
+      "bytes": 37296,
+      "sha256": "50b36781318c9b981d5614cb37c785c4b3d108087414745333309a3ed5256c73",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1205,7 +1283,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1213,6 +1291,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            36023,
+            37296
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -1468,10 +1559,10 @@
       "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
       "slug": "tech-for-business-so-2019-tech-as",
       "published": "2020-10-04T17:27:00.002+05:30",
-      "updated": "2026-08-05T07:23:58.659+05:30",
+      "updated": "2026-08-08T09:25:46.881+05:30",
       "labels": [],
-      "bytes": 26898,
-      "sha256": "9553fa08770efd91325e13292c16fa6ea917ed9c2bc8ad5fa098f6c6c3984778",
+      "bytes": 28171,
+      "sha256": "042995ebb5a7490aeada6acf03202ba9b65f72ad90ab00de47eb6b04bc63c49a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1483,7 +1574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1491,6 +1582,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            26898,
+            28171
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -1699,10 +1803,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
       "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:28:58.968+05:30",
+      "updated": "2026-08-08T09:25:59.465+05:30",
       "labels": [],
-      "bytes": 9985,
-      "sha256": "504f705bdb84817ac0f4086d12680ce22bf1548311ad75f880bb07918a63aa08",
+      "bytes": 11258,
+      "sha256": "fb18cc175d8850844aca659248428194c42822e4ce3ed8996639890b99e4663c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1714,7 +1818,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1740,6 +1844,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            9985,
+            11258
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -1825,10 +1942,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
       "slug": "the-most-discussed-schemes-in",
       "published": "2026-08-04T15:50:00.000+05:30",
-      "updated": "2026-08-05T06:00:27.336+05:30",
+      "updated": "2026-08-08T09:27:11.326+05:30",
       "labels": [],
-      "bytes": 25230,
-      "sha256": "e7f9596e57e1ee3d2637c10c570739ea5eb3a08b480b52c669e6b1a15d0e266a",
+      "bytes": 26503,
+      "sha256": "05f7474c292ece775c0cfd094553b9bf0358fd13db2507d40b1393ab9823d169",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1840,7 +1957,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1848,6 +1965,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25230,
+            26503
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -2241,10 +2371,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
       "slug": "reinvesting-capital-gains-in-higher",
       "published": "2026-08-07T13:46:48.318+05:30",
-      "updated": "2026-08-08T06:26:38.965+05:30",
+      "updated": "2026-08-08T09:24:45.499+05:30",
       "labels": [],
-      "bytes": 22106,
-      "sha256": "f1ed245aa88388dbd8b11a96bdb4e8db228b3b0955cb5afb79081a5ea18801b9",
+      "bytes": 23379,
+      "sha256": "db025ddd084f9600e88def4bf0a2aff4e6ed04b6537354a96fb956f9e4e3c113",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2256,7 +2386,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2277,6 +2407,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "table scroller fix; dead mineral-oil links repointed"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            22106,
+            23379
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -2420,10 +2563,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
       "slug": "the-ethanol-sectors-buyers-market",
       "published": "2026-08-05T12:13:26.385+05:30",
-      "updated": "2026-08-05T12:13:26.385+05:30",
+      "updated": "2026-08-08T09:26:34.359+05:30",
       "labels": [],
-      "bytes": 8170,
-      "sha256": "51d9e81790f11b97cb509f2dd70b6d5c03ba17fe8fb53148b54c4b00e45041ee",
+      "bytes": 9443,
+      "sha256": "b990278a0af9775058ed619fb30e41e4406a55a7185acbd37d99c5718d131727",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2435,7 +2578,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2443,6 +2586,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            8170,
+            9443
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3390,10 +3546,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.442+05:30",
-      "updated": "2026-08-08T09:12:19.802+05:30",
+      "updated": "2026-08-08T09:26:46.305+05:30",
       "labels": [],
-      "bytes": 33225,
-      "sha256": "f999197a282bb5eb3f251585120e060d302c7ce702f5814556e9e34cb245fb88",
+      "bytes": 32130,
+      "sha256": "8c9b5889a1d7eb5417b2f9f2721c993cca17e6de7b96aab5bb7ab76466d227ba",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3405,7 +3561,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.1",
+      "version": "5.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3478,6 +3634,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "5.1.0",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "minor",
+          "reason": "section(s) added: AI Tracker",
+          "bytes": [
+            33225,
+            32130
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3487,10 +3656,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
       "slug": "where-indias-green-hydrogen-bets-are",
       "published": "2026-08-05T17:14:26.515+05:30",
-      "updated": "2026-08-05T17:14:26.515+05:30",
+      "updated": "2026-08-08T09:29:16.161+05:30",
       "labels": [],
-      "bytes": 11069,
-      "sha256": "54d4ec07010efe459d267c2976c697b1bbeef2c48adc3d9ec68f3ce1a69d6c9a",
+      "bytes": 12342,
+      "sha256": "2cfae8b9cf15d217925c180cb576274678c654cf3b74ba70fba1658f2b83cd6f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3502,7 +3671,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3510,6 +3679,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            11069,
+            12342
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3582,10 +3764,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
       "slug": "the-fearless-girls-charter-indias",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:29:22.013+05:30",
+      "updated": "2026-08-08T09:26:46.862+05:30",
       "labels": [],
-      "bytes": 15676,
-      "sha256": "c631319a065df02fdfb74fc1e101f4471f3ffd0c47a11b80cc029469cde8baab",
+      "bytes": 16949,
+      "sha256": "d56cf855ab87af22f35b7b1d03a5356950b0094f35fc426d8d4589af6fd67420",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3597,7 +3779,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3623,6 +3805,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15676,
+            16949
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3632,10 +3827,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
       "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
       "published": "2026-08-02T09:54:34.516+05:30",
-      "updated": "2026-08-06T11:28:47.446+05:30",
+      "updated": "2026-08-08T09:25:07.105+05:30",
       "labels": [],
-      "bytes": 117399,
-      "sha256": "668c8833259335e5f83257729de6fe784c2b0eb43780d5351ee18165a2c3397d",
+      "bytes": 118672,
+      "sha256": "196f94a1764185d6aab0ed5be5d5e055cf75efc3ad4c17d0f19c67eb646542a5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3647,7 +3842,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3673,6 +3868,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            117399,
+            118672
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3727,10 +3935,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-08-06T11:29:33.971+05:30",
+      "updated": "2026-08-08T09:26:58.483+05:30",
       "labels": [],
-      "bytes": 67939,
-      "sha256": "877e5285b714fe1f60b2e55789c37ef35d281fece737a1e4cc19c303f9498853",
+      "bytes": 69208,
+      "sha256": "4c57704b0560e3bcefa3f089b008f8e0d927e997c50dfde7327fa21e900049e4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3742,7 +3950,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3768,6 +3976,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            67939,
+            69208
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3862,10 +4083,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
       "slug": "whos-actually-building-mri-and-ct",
       "published": "2026-08-05T12:30:13.504+05:30",
-      "updated": "2026-08-05T12:30:13.504+05:30",
+      "updated": "2026-08-08T09:29:29.221+05:30",
       "labels": [],
-      "bytes": 7887,
-      "sha256": "77b005ca804b147a95149a127b753669bd17ce5b78da63d6f6f49e09d1b402e2",
+      "bytes": 9160,
+      "sha256": "644b8e03a31ae97c3ecb0461724a3101fe392ec2e1a96fd4068cd92c363ec527",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3877,7 +4098,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3885,6 +4106,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            7887,
+            9160
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -3894,10 +4128,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
       "slug": "vehicles-out-motors-in-indias-chapter",
       "published": "2026-08-05T12:06:45.500+05:30",
-      "updated": "2026-08-05T12:06:45.500+05:30",
+      "updated": "2026-08-08T09:28:38.623+05:30",
       "labels": [],
-      "bytes": 7848,
-      "sha256": "cff33789a510f7c081ecc95e90a8aad05f106d94b2d5bea54f362f8832d56355",
+      "bytes": 9121,
+      "sha256": "ecab94fbc02ee21858d511ea8ee7337b89fe18c09339bd9d1dd847a73256a6ea",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3909,7 +4143,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3917,6 +4151,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            7848,
+            9121
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -4392,10 +4639,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
       "slug": "where-indias-forex-goes-country",
       "published": "2026-08-02T13:46:53.722+05:30",
-      "updated": "2026-08-06T12:00:44.296+05:30",
+      "updated": "2026-08-08T09:29:04.961+05:30",
       "labels": [],
-      "bytes": 37835,
-      "sha256": "25acf549511cf4aa4c0fce6ce5419b09fec2e17a0a636542af28dbe7e14eafae",
+      "bytes": 39108,
+      "sha256": "9b1e2d533c446be83fbc94a3eb3d825391147178bac820c1c88bc08ceeeffc8b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4407,7 +4654,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4450,6 +4697,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            37835,
+            39108
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -4718,10 +4978,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
       "slug": "state-by-state-who-actually-earns-from",
       "published": "2026-08-02T17:07:30.808+05:30",
-      "updated": "2026-08-05T08:59:42.038+05:30",
+      "updated": "2026-08-08T09:25:33.908+05:30",
       "labels": [],
-      "bytes": 47369,
-      "sha256": "5b6ef716ac885814b92ae66e802d6e4000e58afe8c236152e7dc43ad799a28e5",
+      "bytes": 47943,
+      "sha256": "785b29945195447d4916b1280a7ecb0531501f8506311499fba04b8e928fe078",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4733,7 +4993,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4741,6 +5001,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            47369,
+            47943
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -4813,10 +5086,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
       "slug": "the-price-and-tap-two-levers-behind",
       "published": "2026-08-04T06:09:47.231+05:30",
-      "updated": "2026-08-04T06:36:49.024+05:30",
+      "updated": "2026-08-08T09:27:22.513+05:30",
       "labels": [],
-      "bytes": 13487,
-      "sha256": "fb01c7b9b338d48a07b95172cb3a144aed409ab57ae76d0f15922fe405db650f",
+      "bytes": 14760,
+      "sha256": "2798f04e4289777e84e79848ec5a9174fccdc89f9fa675d181ea668b6639ce87",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4828,7 +5101,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4836,6 +5109,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            13487,
+            14760
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -5047,10 +5333,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
       "slug": "the-empty-shed-greenhouse-what-indias",
       "published": "2026-08-05T14:59:21.416+05:30",
-      "updated": "2026-08-05T14:59:21.416+05:30",
+      "updated": "2026-08-08T09:26:22.175+05:30",
       "labels": [],
-      "bytes": 9148,
-      "sha256": "c8c85c3ef4a472624a95175582d5bafd1d6c0f61f616e2cf6784db35d6110bfd",
+      "bytes": 10421,
+      "sha256": "83a5961f21290f7e3c53279bc5b409219c29d3f17521976d967f4fb30522a4e7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5062,7 +5348,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5070,6 +5356,19 @@
           "level": "baseline",
           "reason": "version tracking introduced",
           "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            9148,
+            10421
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -5268,10 +5567,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
       "slug": "the-price-of-grain-msp-msv-and",
       "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:29:47.259+05:30",
+      "updated": "2026-08-08T09:27:34.774+05:30",
       "labels": [],
-      "bytes": 28153,
-      "sha256": "c7d321fe4ecf24f323437f2d3293cbf16555aa1acb804d1db9d4ac28d68d4b8c",
+      "bytes": 29419,
+      "sha256": "dd06cd90ba7f8e6f55d9316529f97627c32c619ac3999d1530c34ed85f10ab54",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5283,7 +5582,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5309,6 +5608,19 @@
             ]
           },
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            28153,
+            29419
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     },
@@ -5318,10 +5630,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
       "slug": "us-stock-picks-multi-screen-quant",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-06T11:30:23.512+05:30",
+      "updated": "2026-08-08T09:28:27.025+05:30",
       "labels": [],
-      "bytes": 25288,
-      "sha256": "f982461d3e63fc637c64870c4552995672b5958c24f34a544220fdc871147c2d",
+      "bytes": 26561,
+      "sha256": "ff2f707e493ac550f58e655f6aa56824c9fc17dac4801bb46bdb336850fc3347",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5333,7 +5645,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5354,6 +5666,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T09:32:14+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25288,
+            26561
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "gs-table-v1 rollout; AI Tracker index section"
         }
       ]
     }

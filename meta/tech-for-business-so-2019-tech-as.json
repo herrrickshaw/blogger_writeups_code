@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
   "published": "2020-10-04T17:27:00.002+05:30",
-  "updated": "2026-08-05T07:23:58.659+05:30",
+  "updated": "2026-08-08T09:25:46.881+05:30",
   "labels": [],
-  "bytes": 26898,
-  "sha256": "9553fa08770efd91325e13292c16fa6ea917ed9c2bc8ad5fa098f6c6c3984778",
+  "bytes": 28171,
+  "sha256": "042995ebb5a7490aeada6acf03202ba9b65f72ad90ab00de47eb6b04bc63c49a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26898,
+        28171
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

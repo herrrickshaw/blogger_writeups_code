@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:30:23.512+05:30",
+  "updated": "2026-08-08T09:28:27.025+05:30",
   "labels": [],
-  "bytes": 25288,
-  "sha256": "f982461d3e63fc637c64870c4552995672b5958c24f34a544220fdc871147c2d",
+  "bytes": 26561,
+  "sha256": "ff2f707e493ac550f58e655f6aa56824c9fc17dac4801bb46bdb336850fc3347",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25288,
+        26561
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-08-06T11:29:33.971+05:30",
+  "updated": "2026-08-08T09:26:58.483+05:30",
   "labels": [],
-  "bytes": 67939,
-  "sha256": "877e5285b714fe1f60b2e55789c37ef35d281fece737a1e4cc19c303f9498853",
+  "bytes": 69208,
+  "sha256": "4c57704b0560e3bcefa3f089b008f8e0d927e997c50dfde7327fa21e900049e4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        67939,
+        69208
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

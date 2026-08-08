@@ -16,6 +16,24 @@
 .artx td:first-child{text-align:left;font-weight:600;color:#051C2C;}
 .artx tr.hl td{background:#EEF2F6;font-weight:700;}
 .evg-note{font-size:.8em;color:#8A959C;font-style:italic;margin-top:.6rem;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div class="evg-hero">
 <div class="k">HSN Chapter 85 vs 87 &middot; DGCI&amp;S TradeStat</div>

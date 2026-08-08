@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:29:22.013+05:30",
+  "updated": "2026-08-08T09:26:46.862+05:30",
   "labels": [],
-  "bytes": 15676,
-  "sha256": "c631319a065df02fdfb74fc1e101f4471f3ffd0c47a11b80cc029469cde8baab",
+  "bytes": 16949,
+  "sha256": "d56cf855ab87af22f35b7b1d03a5356950b0094f35fc426d8d4589af6fd67420",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        15676,
+        16949
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

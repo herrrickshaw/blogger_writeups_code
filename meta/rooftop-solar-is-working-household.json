@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.709+05:30",
-  "updated": "2026-08-08T06:30:53.798+05:30",
+  "updated": "2026-08-08T09:24:55.410+05:30",
   "labels": [],
-  "bytes": 10907,
-  "sha256": "f73979becf457386e4b59fe633bfc9f366e404b3efd4205d2a3809d0660f5f23",
+  "bytes": 12162,
+  "sha256": "62bcaea43a5c486d5611c330afdc28995e0bb2f7adc899ad289a964a82123ac6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "table scroller fix applied to four more posts"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        10907,
+        12162
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

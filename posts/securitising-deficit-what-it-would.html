@@ -38,6 +38,24 @@
 .mck .src{border-top:1px solid #D0D5D9;padding-top:1rem;margin-top:2rem;font-size:.76em;color:#5A666E;line-height:1.55}
 .mck .pos{color:#0F7A3D;font-weight:600}
 .mck .neg{color:#C0392B;font-weight:600}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
@@ -134,16 +152,16 @@
 <div class="lab">Exhibit 3</div>
 <div class="ttl">The largest residual sits with the least re-invoiceable trade</div>
 <div class="tw"><table>
-<thead><tr><th>Country</th><th class="num-r">Imports</th><th class="num-r">Of which commodities</th><th class="num-r">Commodity share</th><th class="num-r">Residual</th><th class="num-r">Addressable</th></tr></thead>
+<thead><tr><th>Country</th><th class="num-r">Imports</th><th class="num-r">Of which commodities</th><th class="num-r">Commodity share, %</th><th class="num-r">Residual</th><th class="num-r">Addressable</th></tr></thead>
 <tbody>
-<tr><td><strong>China</strong></td><td class="num-r">131.6</td><td class="num-r">10.6</td><td class="num-r neg">8.0%</td><td class="num-r">112.2</td><td class="num-r">10.6</td></tr>
-<tr><td><strong>Russia</strong></td><td class="num-r">55.4</td><td class="num-r">53.4</td><td class="num-r pos">96.5%</td><td class="num-r">50.9</td><td class="num-r">50.9</td></tr>
-<tr><td><strong>UAE</strong></td><td class="num-r">63.9</td><td class="num-r">57.2</td><td class="num-r pos">89.6%</td><td class="num-r">26.5</td><td class="num-r">26.5</td></tr>
-<tr><td>Saudi Arabia</td><td class="num-r">30.8</td><td class="num-r">27.0</td><td class="num-r pos">87.7%</td><td class="num-r">20.5</td><td class="num-r">20.5</td></tr>
-<tr><td>Indonesia</td><td class="num-r">20.3</td><td class="num-r">14.2</td><td class="num-r">69.9%</td><td class="num-r">15.8</td><td class="num-r">14.2</td></tr>
-<tr><td>South Africa</td><td class="num-r">8.6</td><td class="num-r">8.2</td><td class="num-r pos">95.5%</td><td class="num-r">1.6</td><td class="num-r">1.6</td></tr>
-<tr><td>Brazil</td><td class="num-r">8.1</td><td class="num-r">6.9</td><td class="num-r pos">85.8%</td><td class="num-r">1.0</td><td class="num-r">1.0</td></tr>
-<tr class="tot"><td>TOTAL</td><td class="num-r">318.6</td><td class="num-r">177.5</td><td class="num-r">55.7%</td><td class="num-r">228.5</td><td class="num-r">125.3</td></tr>
+<tr><td><strong>China</strong></td><td class="num-r">131.6</td><td class="num-r">10.6</td><td class="num-r neg">8.0</td><td class="num-r">112.2</td><td class="num-r">10.6</td></tr>
+<tr><td><strong>Russia</strong></td><td class="num-r">55.4</td><td class="num-r">53.4</td><td class="num-r pos">96.5</td><td class="num-r">50.9</td><td class="num-r">50.9</td></tr>
+<tr><td><strong>UAE</strong></td><td class="num-r">63.9</td><td class="num-r">57.2</td><td class="num-r pos">89.6</td><td class="num-r">26.5</td><td class="num-r">26.5</td></tr>
+<tr><td>Saudi Arabia</td><td class="num-r">30.8</td><td class="num-r">27.0</td><td class="num-r pos">87.7</td><td class="num-r">20.5</td><td class="num-r">20.5</td></tr>
+<tr><td>Indonesia</td><td class="num-r">20.3</td><td class="num-r">14.2</td><td class="num-r">69.9</td><td class="num-r">15.8</td><td class="num-r">14.2</td></tr>
+<tr><td>South Africa</td><td class="num-r">8.6</td><td class="num-r">8.2</td><td class="num-r pos">95.5</td><td class="num-r">1.6</td><td class="num-r">1.6</td></tr>
+<tr><td>Brazil</td><td class="num-r">8.1</td><td class="num-r">6.9</td><td class="num-r pos">85.8</td><td class="num-r">1.0</td><td class="num-r">1.0</td></tr>
+<tr class="tot"><td>TOTAL</td><td class="num-r">318.6</td><td class="num-r">177.5</td><td class="num-r">55.7</td><td class="num-r">228.5</td><td class="num-r">125.3</td></tr>
 </tbody></table></div>
 <div class="note">"Commodities" are fungible, benchmark-priced HS chapters (mineral fuels, ores, fertilisers, vegetable oils, base metals, bullion, sugar, cotton, pulp and similar). "Addressable" is the lesser of commodity trade and residual. Source: TradeStat country-wise all-commodities import, HS-2 level, FY2025-26; author's classification.</div>
 </div>
@@ -202,15 +220,15 @@ Russia's escape from unusable rupees was into dirhams and yuan &mdash; and the d
 <div class="lab">Exhibit 5</div>
 <div class="ttl">The Indian sovereign curve, and what it pays a foreign holder</div>
 <div class="tw"><table>
-<thead><tr><th>Tenor</th><th>Benchmark</th><th class="num-r">Yield</th></tr></thead>
+<thead><tr><th>Tenor</th><th>Benchmark</th><th class="num-r">Yield, %</th></tr></thead>
 <tbody>
-<tr><td>91 days</td><td>Treasury bill</td><td class="num-r">5.34%</td></tr>
-<tr><td>364 days</td><td>Treasury bill</td><td class="num-r">5.74%</td></tr>
-<tr><td>4&ndash;5 years</td><td>6.36% GS 2031</td><td class="num-r">6.43%</td></tr>
-<tr><td><strong>9&ndash;10 years</strong></td><td><strong>6.94% GS 2036</strong></td><td class="num-r"><strong>6.84%</strong></td></tr>
-<tr><td>13&ndash;15 years</td><td>6.68% GS 2040</td><td class="num-r">7.03%</td></tr>
-<tr><td>28&ndash;30 years</td><td>7.24% GS 2055</td><td class="num-r">7.47%</td></tr>
-<tr><td>10 years (state)</td><td>7.56% Assam SDL 2036</td><td class="num-r">7.56%</td></tr>
+<tr><td>91 days</td><td>Treasury bill</td><td class="num-r">5.34</td></tr>
+<tr><td>364 days</td><td>Treasury bill</td><td class="num-r">5.74</td></tr>
+<tr><td>4&ndash;5 years</td><td>6.36% GS 2031</td><td class="num-r">6.43</td></tr>
+<tr><td><strong>9&ndash;10 years</strong></td><td><strong>6.94% GS 2036</strong></td><td class="num-r">6.84</td></tr>
+<tr><td>13&ndash;15 years</td><td>6.68% GS 2040</td><td class="num-r">7.03</td></tr>
+<tr><td>28&ndash;30 years</td><td>7.24% GS 2055</td><td class="num-r">7.47</td></tr>
+<tr><td>10 years (state)</td><td>7.56% Assam SDL 2036</td><td class="num-r">7.56</td></tr>
 </tbody></table></div>
 <div class="note">Source: CCIL tenor-wise indicative yields, 3 August 2026.</div>
 </div>
@@ -221,15 +239,15 @@ Russia's escape from unusable rupees was into dirhams and yuan &mdash; and the d
 <div class="lab">Exhibit 6</div>
 <div class="ttl">The three largest low-yield creditors hold 70% of the residual</div>
 <div class="tw"><table>
-<thead><tr><th>Country</th><th class="num-r">Policy rate</th><th class="num-r">10-year yield</th><th class="num-r">Pickup vs India 10Y</th><th class="num-r">Break-even INR depreciation</th><th class="num-r">Residual</th></tr></thead>
+<thead><tr><th>Country</th><th class="num-r">Policy rate, %</th><th class="num-r">10-year yield, %</th><th class="num-r">Pickup vs India 10Y</th><th class="num-r">Break-even INR depreciation</th><th class="num-r">Residual</th></tr></thead>
 <tbody>
-<tr><td><strong>China</strong></td><td class="num-r">3.00%</td><td class="num-r">1.71%</td><td class="num-r pos">+513 bp</td><td class="num-r">5.13% p.a.</td><td class="num-r"><strong>112.2</strong></td></tr>
-<tr><td><strong>UAE</strong></td><td class="num-r">~4.15%</td><td class="num-r">~4.30%</td><td class="num-r pos">+254 bp</td><td class="num-r">2.54% p.a.</td><td class="num-r">26.5</td></tr>
-<tr><td><strong>Saudi Arabia</strong></td><td class="num-r">4.25%</td><td class="num-r">~4.60%</td><td class="num-r pos">+224 bp</td><td class="num-r">2.24% p.a.</td><td class="num-r">20.5</td></tr>
-<tr><td>Indonesia</td><td class="num-r">5.75%</td><td class="num-r">~6.60%</td><td class="num-r">+24 bp</td><td class="num-r">0.24% p.a.</td><td class="num-r">15.8</td></tr>
-<tr><td>South Africa</td><td class="num-r">7.00%</td><td class="num-r">~9.90%</td><td class="num-r neg">&minus;306 bp</td><td class="num-r">&mdash;</td><td class="num-r">1.6</td></tr>
-<tr><td>Russia</td><td class="num-r">14.00%</td><td class="num-r">~13.50%</td><td class="num-r neg">&minus;666 bp</td><td class="num-r">&mdash;</td><td class="num-r">50.9</td></tr>
-<tr><td>Brazil</td><td class="num-r">14.25%</td><td class="num-r">~14.25%</td><td class="num-r neg">&minus;741 bp</td><td class="num-r">&mdash;</td><td class="num-r">1.0</td></tr>
+<tr><td><strong>China</strong></td><td class="num-r">3.00</td><td class="num-r">1.71</td><td class="num-r pos">+513 bp</td><td class="num-r">5.13% p.a.</td><td class="num-r"><strong>112.2</strong></td></tr>
+<tr><td><strong>UAE</strong></td><td class="num-r">~4.15</td><td class="num-r">~4.30</td><td class="num-r pos">+254 bp</td><td class="num-r">2.54% p.a.</td><td class="num-r">26.5</td></tr>
+<tr><td><strong>Saudi Arabia</strong></td><td class="num-r">4.25</td><td class="num-r">~4.60</td><td class="num-r pos">+224 bp</td><td class="num-r">2.24% p.a.</td><td class="num-r">20.5</td></tr>
+<tr><td>Indonesia</td><td class="num-r">5.75</td><td class="num-r">~6.60</td><td class="num-r">+24 bp</td><td class="num-r">0.24% p.a.</td><td class="num-r">15.8</td></tr>
+<tr><td>South Africa</td><td class="num-r">7.00</td><td class="num-r">~9.90</td><td class="num-r neg">&minus;306 bp</td><td class="num-r">&mdash;</td><td class="num-r">1.6</td></tr>
+<tr><td>Russia</td><td class="num-r">14.00</td><td class="num-r">~13.50</td><td class="num-r neg">&minus;666 bp</td><td class="num-r">&mdash;</td><td class="num-r">50.9</td></tr>
+<tr><td>Brazil</td><td class="num-r">14.25</td><td class="num-r">~14.25</td><td class="num-r neg">&minus;741 bp</td><td class="num-r">&mdash;</td><td class="num-r">1.0</td></tr>
 </tbody></table></div>
 <div class="note">India: repo 5.25%, 10-year G-sec 6.84%. Policy rates from BIS (late July 2026); 10-year yields are market indications and approximate for the Gulf and Russia. "Break-even" is the annual rupee depreciation against the holder's currency that would erase the pickup. Residual in US$ billion.</div>
 </div>
@@ -406,13 +424,13 @@ The FCNR(B) swap window is not new. In September 2013, during the taper tantrum,
 <div class="lab">Exhibit 9</div>
 <div class="ttl">What Russia actually did with its reserves: bought gold, not yuan</div>
 <div class="tw"><table>
-<thead><tr><th>Month-end</th><th class="num-r">Total reserves</th><th class="num-r">FX component</th><th class="num-r">Gold</th><th class="num-r">Gold share</th></tr></thead>
+<thead><tr><th>Month-end</th><th class="num-r">Total reserves</th><th class="num-r">FX component</th><th class="num-r">Gold</th><th class="num-r">Gold share, %</th></tr></thead>
 <tbody>
-<tr><td>31 Aug 2025</td><td class="num-r">689.5</td><td class="num-r">434.5</td><td class="num-r">255.0</td><td class="num-r">37.0%</td></tr>
-<tr><td>31 Dec 2025</td><td class="num-r">754.9</td><td class="num-r">428.3</td><td class="num-r">326.5</td><td class="num-r">43.3%</td></tr>
-<tr><td>31 Jan 2026</td><td class="num-r">833.6</td><td class="num-r">430.9</td><td class="num-r">402.7</td><td class="num-r"><strong>48.3%</strong></td></tr>
-<tr><td>31 Mar 2026</td><td class="num-r">749.0</td><td class="num-r">415.0</td><td class="num-r">334.0</td><td class="num-r">44.6%</td></tr>
-<tr><td><strong>30 Jun 2026</strong></td><td class="num-r"><strong>720.4</strong></td><td class="num-r"><strong>421.5</strong></td><td class="num-r"><strong>299.0</strong></td><td class="num-r"><strong>41.5%</strong></td></tr>
+<tr><td>31 Aug 2025</td><td class="num-r">689.5</td><td class="num-r">434.5</td><td class="num-r">255.0</td><td class="num-r">37.0</td></tr>
+<tr><td>31 Dec 2025</td><td class="num-r">754.9</td><td class="num-r">428.3</td><td class="num-r">326.5</td><td class="num-r">43.3</td></tr>
+<tr><td>31 Jan 2026</td><td class="num-r">833.6</td><td class="num-r">430.9</td><td class="num-r">402.7</td><td class="num-r">48.3</td></tr>
+<tr><td>31 Mar 2026</td><td class="num-r">749.0</td><td class="num-r">415.0</td><td class="num-r">334.0</td><td class="num-r">44.6</td></tr>
+<tr><td><strong>30 Jun 2026</strong></td><td class="num-r"><strong>720.4</strong></td><td class="num-r"><strong>421.5</strong></td><td class="num-r"><strong>299.0</strong></td><td class="num-r">41.5</td></tr>
 <tr class="tot"><td>Change</td><td class="num-r">+4.5%</td><td class="num-r">&minus;3.0%</td><td class="num-r">+17.3%</td><td class="num-r">+4.5pp</td></tr>
 </tbody></table></div>
 <div class="note">US$ billion. Source: Bank of Russia, International Reserves of the Russian Federation, monthly series, retrieved from cbr.ru 4 August 2026. "FX component" is foreign exchange reserves including SDRs and the IMF reserve position.</div>
@@ -441,14 +459,14 @@ The FCNR(B) swap window is not new. In September 2013, during the taper tantrum,
 <div class="lab">Exhibit 10</div>
 <div class="ttl">The China bill is not just large &mdash; it is accelerating, and electronics is driving it</div>
 <div class="tw"><table>
-<thead><tr><th>Line</th><th class="num-r">FY2024-25</th><th class="num-r">FY2025-26</th><th class="num-r">Change</th><th class="num-r">Share of China bill</th></tr></thead>
+<thead><tr><th>Line</th><th class="num-r">FY2024-25</th><th class="num-r">FY2025-26</th><th class="num-r">Change, %</th><th class="num-r">Share of China bill, %</th></tr></thead>
 <tbody>
-<tr><td><strong>Electrical machinery &amp; electronics (HS85)</strong></td><td class="num-r">38.03</td><td class="num-r"><strong>46.37</strong></td><td class="num-r pos">+21.9%</td><td class="num-r"><strong>35.2%</strong></td></tr>
-<tr><td>Industrial machinery, boilers (HS84)</td><td class="num-r">25.92</td><td class="num-r">29.45</td><td class="num-r">+13.6%</td><td class="num-r">22.4%</td></tr>
-<tr><td>Organic chemicals (HS29)</td><td class="num-r">11.48</td><td class="num-r">11.52</td><td class="num-r">+0.4%</td><td class="num-r">8.8%</td></tr>
-<tr><td>Plastics (HS39)</td><td class="num-r">6.34</td><td class="num-r">6.71</td><td class="num-r">+5.9%</td><td class="num-r">5.1%</td></tr>
-<tr class="tot"><td>These four lines</td><td class="num-r">81.77</td><td class="num-r">94.05</td><td class="num-r">+15.0%</td><td class="num-r">71.4%</td></tr>
-<tr class="tot"><td><strong>TOTAL imports from China</strong></td><td class="num-r">113.4</td><td class="num-r"><strong>131.6</strong></td><td class="num-r"><strong>+16.0%</strong></td><td class="num-r">&mdash;</td></tr>
+<tr><td><strong>Electrical machinery &amp; electronics (HS85)</strong></td><td class="num-r">38.03</td><td class="num-r"><strong>46.37</strong></td><td class="num-r pos">+21.9</td><td class="num-r">35.2</td></tr>
+<tr><td>Industrial machinery, boilers (HS84)</td><td class="num-r">25.92</td><td class="num-r">29.45</td><td class="num-r">+13.6</td><td class="num-r">22.4</td></tr>
+<tr><td>Organic chemicals (HS29)</td><td class="num-r">11.48</td><td class="num-r">11.52</td><td class="num-r">+0.4</td><td class="num-r">8.8</td></tr>
+<tr><td>Plastics (HS39)</td><td class="num-r">6.34</td><td class="num-r">6.71</td><td class="num-r">+5.9</td><td class="num-r">5.1</td></tr>
+<tr class="tot"><td>These four lines</td><td class="num-r">81.77</td><td class="num-r">94.05</td><td class="num-r">+15.0</td><td class="num-r">71.4</td></tr>
+<tr class="tot"><td><strong>TOTAL imports from China</strong></td><td class="num-r">113.4</td><td class="num-r"><strong>131.6</strong></td><td class="num-r">+16.0</td><td class="num-r">&mdash;</td></tr>
 </tbody></table></div>
 <div class="note">US$ billion. India's imports from China have risen from $61.3bn in FY2016-17 to $131.6bn in FY2025-26 &mdash; up 115% over the decade and 16% in the last year alone. The bilateral deficit reached a record <strong>$112.2 billion</strong>. Source: TradeStat, HS-2 level.</div>
 </div>
@@ -496,12 +514,12 @@ India currently settles roughly <strong>2.3% of its imports and 4&ndash;5% of it
 <div class="lab">Exhibit 12</div>
 <div class="ttl">What the four central banks actually disclose &mdash; and the rupee appears nowhere</div>
 <div class="tw"><table>
-<thead><tr><th>Central bank</th><th class="num-r">Renminbi share</th><th class="num-r">Rupee share</th><th class="num-r">Total reserves</th><th class="num-r">Gold share</th><th>Disclosure quality</th></tr></thead>
+<thead><tr><th>Central bank</th><th class="num-r">Renminbi share</th><th class="num-r">Rupee share</th><th class="num-r">Total reserves, bn US$</th><th class="num-r">Gold share</th><th>Disclosure quality</th></tr></thead>
 <tbody>
-<tr><td><strong>Banco Central do Brasil</strong></td><td class="num-r"><strong>5.94%</strong><br><span class="note">5.31% (2024)</span></td><td class="num-r">&mdash;</td><td class="num-r">$358.2bn</td><td class="num-r">7.19%<br><span class="note">3.55% (2024)</span></td><td>Full currency table published annually</td></tr>
-<tr><td><strong>South African Reserve Bank</strong></td><td class="num-r"><strong>5.6%</strong><br><span class="note">6.0% (2025)</span></td><td class="num-r">&mdash;</td><td class="num-r">$77.8bn</td><td class="num-r">23.9%<br><span class="note">18.7% (2025)</span></td><td>Disclosed in the concentration-risk note</td></tr>
-<tr><td><strong>Bank of Russia</strong></td><td class="num-r">not disclosed<br><span class="note">13.1% at Jun-2021</span></td><td class="num-r">not disclosed</td><td class="num-r">$720.4bn</td><td class="num-r"><strong>41.5%</strong></td><td>Currency structure suspended since 2022</td></tr>
-<tr><td><strong>Central Bank of the UAE</strong></td><td class="num-r">not disclosed</td><td class="num-r">not disclosed</td><td class="num-r">$285.0bn</td><td class="num-r">not disclosed</td><td>No currency split published at all</td></tr>
+<tr><td><strong>Banco Central do Brasil</strong></td><td class="num-r"><strong>5.94%</strong><br><span class="note">5.31% (2024)</span></td><td class="num-r">&mdash;</td><td class="num-r">358.2</td><td class="num-r">7.19%<br><span class="note">3.55% (2024)</span></td><td>Full currency table published annually</td></tr>
+<tr><td><strong>South African Reserve Bank</strong></td><td class="num-r"><strong>5.6%</strong><br><span class="note">6.0% (2025)</span></td><td class="num-r">&mdash;</td><td class="num-r">77.8</td><td class="num-r">23.9%<br><span class="note">18.7% (2025)</span></td><td>Disclosed in the concentration-risk note</td></tr>
+<tr><td><strong>Bank of Russia</strong></td><td class="num-r">not disclosed<br><span class="note">13.1% at Jun-2021</span></td><td class="num-r">not disclosed</td><td class="num-r">720.4</td><td class="num-r"><strong>41.5%</strong></td><td>Currency structure suspended since 2022</td></tr>
+<tr><td><strong>Central Bank of the UAE</strong></td><td class="num-r">not disclosed</td><td class="num-r">not disclosed</td><td class="num-r">285.0</td><td class="num-r">not disclosed</td><td>No currency split published at all</td></tr>
 </tbody></table></div>
 <div class="note">Sources: BCB, <em>Relat&oacute;rio de Gest&atilde;o das Reservas Internacionais</em> Vol. 18 (March 2026), data at 31 Dec 2025. SARB, <em>Annual Report 2025/26</em>, Note 29.1.3, data at 31 March 2026. Bank of Russia, monthly international reserves series, 30 June 2026, and the press statement of 30 March 2022 suspending currency-structure disclosure. CBUAE, <em>Annual Report 2025</em>. Em-dashes indicate the currency is absent from a published, itemised currency list &mdash; not that a small holding was rounded to zero.</div>
 </div>
@@ -518,12 +536,12 @@ India currently settles roughly <strong>2.3% of its imports and 4&ndash;5% of it
 <div class="lab">Exhibit 13</div>
 <div class="ttl">Trade gravity explains the reserve holdings almost perfectly</div>
 <div class="tw"><table>
-<thead><tr><th>Country</th><th class="num-r">Trade with India</th><th class="num-r">Trade with China</th><th class="num-r">China : India</th><th class="num-r">PBoC swap line</th><th>Rupee arrangement with India</th></tr></thead>
+<thead><tr><th>Country</th><th class="num-r">Trade with India, bn US$</th><th class="num-r">Trade with China, bn US$</th><th class="num-r">China : India</th><th class="num-r">PBoC swap line</th><th>Rupee arrangement with India</th></tr></thead>
 <tbody>
-<tr><td><strong>Brazil</strong></td><td class="num-r">$15.07bn</td><td class="num-r">$188.0bn</td><td class="num-r"><strong>12.5&times;</strong></td><td class="num-r">&yen;190bn</td><td>None</td></tr>
-<tr><td><strong>Russia</strong></td><td class="num-r">$59.86bn</td><td class="num-r">$228.1bn</td><td class="num-r">3.8&times;</td><td class="num-r">&yen;150bn</td><td>SRVA, ~20 Russian banks live</td></tr>
-<tr><td><strong>South Africa</strong></td><td class="num-r">$15.57bn</td><td class="num-r">$53.6bn</td><td class="num-r">3.4&times;</td><td class="num-r">&yen;30bn</td><td>None</td></tr>
-<tr><td><strong>UAE</strong></td><td class="num-r">$101.25bn</td><td class="num-r">$108.0bn</td><td class="num-r"><strong>1.07&times;</strong></td><td class="num-r">&yen;35bn</td><td>INR&ndash;AED local currency settlement MoU, July 2023</td></tr>
+<tr><td><strong>Brazil</strong></td><td class="num-r">15.07</td><td class="num-r">188.0</td><td class="num-r"><strong>12.5&times;</strong></td><td class="num-r">&yen;190bn</td><td>None</td></tr>
+<tr><td><strong>Russia</strong></td><td class="num-r">59.86</td><td class="num-r">228.1</td><td class="num-r">3.8&times;</td><td class="num-r">&yen;150bn</td><td>SRVA, ~20 Russian banks live</td></tr>
+<tr><td><strong>South Africa</strong></td><td class="num-r">15.57</td><td class="num-r">53.6</td><td class="num-r">3.4&times;</td><td class="num-r">&yen;30bn</td><td>None</td></tr>
+<tr><td><strong>UAE</strong></td><td class="num-r">101.25</td><td class="num-r">108.0</td><td class="num-r"><strong>1.07&times;</strong></td><td class="num-r">&yen;35bn</td><td>INR&ndash;AED local currency settlement MoU, July 2023</td></tr>
 </tbody></table></div>
 <div class="note">India figures: Ministry of Commerce TradeStat, FY2025-26 (April 2025 &ndash; March 2026), imports plus exports. China figures: China General Administration of Customs, calendar 2025; UAE from China's Ministry of Foreign Affairs country page, as the UAE is not broken out in the GACC summary table. PBoC swap-line sizes from the People's Bank of China schedule of bilateral local-currency swap agreements, as at 31 May 2025.</div>
 </div>
@@ -593,12 +611,12 @@ Brazil, Russia and South Africa each anchor their China relationship on a bulk c
 <div class="lab">Exhibit 15</div>
 <div class="ttl">What an Indian buyer with a rouble payable actually experienced</div>
 <div class="tw"><table>
-<thead><tr><th>Quarter-end</th><th class="num-r">Rupees per rouble</th><th class="num-r">Change from prior row</th><th>What it meant for a rouble-denominated contract</th></tr></thead>
+<thead><tr><th>Quarter-end</th><th class="num-r">Rupees per rouble</th><th class="num-r">Change from prior row, %</th><th>What it meant for a rouble-denominated contract</th></tr></thead>
 <tbody>
 <tr><td>March 2022</td><td class="num-r">0.902</td><td class="num-r">&mdash;</td><td>Baseline, at the outbreak of the war</td></tr>
-<tr><td>September 2022</td><td class="num-r">1.419</td><td class="num-r"><strong>+57.4%</strong></td><td>The same rouble invoice now costs 57% more in rupees</td></tr>
-<tr><td>September 2023</td><td class="num-r">0.854</td><td class="num-r"><strong>&minus;39.8%</strong></td><td>And then 40% less &mdash; a full round trip in twelve months</td></tr>
-<tr><td>August 2026</td><td class="num-r">1.200</td><td class="num-r">+40.5%</td><td>Currently 33% above the March 2022 level</td></tr>
+<tr><td>September 2022</td><td class="num-r">1.419</td><td class="num-r">+57.4</td><td>The same rouble invoice now costs 57% more in rupees</td></tr>
+<tr><td>September 2023</td><td class="num-r">0.854</td><td class="num-r">−39.8</td><td>And then 40% less &mdash; a full round trip in twelve months</td></tr>
+<tr><td>August 2026</td><td class="num-r">1.200</td><td class="num-r">+40.5</td><td>Currently 33% above the March 2022 level</td></tr>
 </tbody></table></div>
 <div class="note">Cross rate derived from the Bank of Russia USD/RUB official rate and the corresponding USD/INR rate; quarter-end throughout except the final row, which is the latest reading at 4 August 2026. An importer paying in roubles carries this line; an importer paying in dollars carries the rupee line in Exhibit 14, which moved 4.6% a year.</div>
 </div>
@@ -710,11 +728,11 @@ Reporting on this cluster has picked up two errors that are now circulating wide
 <div class="lab">Exhibit 18</div>
 <div class="ttl">Three numbers for the same thing, and why they differ by a factor of thirty</div>
 <div class="tw"><table>
-<thead><tr><th>Figure</th><th class="num-r">Amount</th><th>What it actually measures</th></tr></thead>
+<thead><tr><th>Figure</th><th class="num-r">Amount, bn US$</th><th>What it actually measures</th></tr></thead>
 <tbody>
-<tr><td><strong>DPIIT, cumulative FDI equity from Russia</strong><br><span class="note">April 2000 &ndash; March 2026</span></td><td class="num-r"><strong>$1.32bn</strong></td><td>Capital attributed to Russia by the immediate source jurisdiction</td></tr>
-<tr><td><strong>Rosneft's Essar Oil acquisition</strong><br><span class="note">Completed 21 August 2017</span></td><td class="num-r"><strong>$12.9bn</strong></td><td>One transaction &mdash; routed through Petrol Complex Pte Ltd, <strong>Singapore</strong>, so it is not counted as Russian</td></tr>
-<tr><td><strong>"Mutual investments of about $38 billion"</strong><br><span class="note">President Putin, New Delhi, 6 December 2021</span></td><td class="num-r"><strong>$38bn</strong></td><td>A Russian-side claim of two-way stock, on an undisclosed basis. Not an Indian government statistic</td></tr>
+<tr><td><strong>DPIIT, cumulative FDI equity from Russia</strong><br><span class="note">April 2000 &ndash; March 2026</span></td><td class="num-r">1.32</td><td>Capital attributed to Russia by the immediate source jurisdiction</td></tr>
+<tr><td><strong>Rosneft's Essar Oil acquisition</strong><br><span class="note">Completed 21 August 2017</span></td><td class="num-r">12.9</td><td>One transaction &mdash; routed through Petrol Complex Pte Ltd, <strong>Singapore</strong>, so it is not counted as Russian</td></tr>
+<tr><td><strong>"Mutual investments of about $38 billion"</strong><br><span class="note">President Putin, New Delhi, 6 December 2021</span></td><td class="num-r">38</td><td>A Russian-side claim of two-way stock, on an undisclosed basis. Not an Indian government statistic</td></tr>
 </tbody></table></div>
 <div class="note">DPIIT Quarterly Fact Sheet on FDI, Annexure-A, data to March 2026. Essar Oil transaction: 98.26% of the company sold for $12.9bn, of which Rosneft took 49.13% via Petrol Complex Pte Ltd and Kesani Enterprises &mdash; a Trafigura and United Capital Partners vehicle &mdash; took an equal 49.13%. Putin's figure from the joint press statement at Hyderabad House.</div>
 </div>

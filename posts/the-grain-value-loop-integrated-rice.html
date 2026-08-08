@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 
 <title>The Grain Value Loop — Integrated Rice Biorefinery Pitch</title>
@@ -198,13 +216,13 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   <div class="eyebrow">Unit economics · from real DPRs</div>
   <h2>Margin and IRR — ranked, government-DPR-backed</h2>
   <div class="tblwrap"><table>
-    <tr><th>Product</th><th class="n">Net margin</th><th class="n">IRR</th><th>DPR source</th></tr>
-    <tr class="hl"><td>Poha / murmura</td><td class="n">10–15%</td><td class="n">&lt;3y payback</td><td>NIFTEM-T PMFME ✓</td></tr>
-    <tr class="hl"><td>RBO solvent extraction</td><td class="n">8–15%</td><td class="n">—</td><td>IMARC/EIRI</td></tr>
-    <tr class="hl"><td>Rice mill (anchor)</td><td class="n">8.5–15%</td><td class="n">19%</td><td>NCDC ✓</td></tr>
-    <tr><td>Maize wet-milling (starch)</td><td class="n">12–20%</td><td class="n">22–28%</td><td>industry</td></tr>
-    <tr><td>Dal mill</td><td class="n">~5.3%</td><td class="n">25–31%</td><td>RACP + NIFTEM ✓</td></tr>
-    <tr><td>Roller flour mill</td><td class="n">3–5.5%</td><td class="n">20–29%</td><td>RACP ✓</td></tr>
+    <tr><th>Product</th><th class="n">Net margin, %</th><th class="n">IRR, %</th><th>DPR source</th></tr>
+    <tr class="hl"><td>Poha / murmura</td><td class="n">10–15</td><td class="n">&lt;3y payback</td><td>NIFTEM-T PMFME ✓</td></tr>
+    <tr class="hl"><td>RBO solvent extraction</td><td class="n">8–15</td><td class="n">—</td><td>IMARC/EIRI</td></tr>
+    <tr class="hl"><td>Rice mill (anchor)</td><td class="n">8.5–15</td><td class="n">19</td><td>NCDC ✓</td></tr>
+    <tr><td>Maize wet-milling (starch)</td><td class="n">12–20</td><td class="n">22–28</td><td>industry</td></tr>
+    <tr><td>Dal mill</td><td class="n">~5.3</td><td class="n">25–31</td><td>RACP + NIFTEM ✓</td></tr>
+    <tr><td>Roller flour mill</td><td class="n">3–5.5</td><td class="n">20–29</td><td>RACP ✓</td></tr>
   </table></div>
   <div class="note"><strong>Margin ≠ return.</strong> The staples show thin 3–5% margins but <strong>19–31% IRR</strong>
   — low capex, fast turnover. The "process, don't sell raw" case rests on return-on-capital, not margin-on-sales.</div>

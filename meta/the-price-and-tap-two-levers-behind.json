@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.231+05:30",
-  "updated": "2026-08-04T06:36:49.024+05:30",
+  "updated": "2026-08-08T09:27:22.513+05:30",
   "labels": [],
-  "bytes": 13487,
-  "sha256": "fb01c7b9b338d48a07b95172cb3a144aed409ab57ae76d0f15922fe405db650f",
+  "bytes": 14760,
+  "sha256": "2798f04e4289777e84e79848ec5a9174fccdc89f9fa675d181ea668b6639ce87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        13487,
+        14760
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

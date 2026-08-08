@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.515+05:30",
-  "updated": "2026-08-05T17:14:26.515+05:30",
+  "updated": "2026-08-08T09:29:16.161+05:30",
   "labels": [],
-  "bytes": 11069,
-  "sha256": "54d4ec07010efe459d267c2976c697b1bbeef2c48adc3d9ec68f3ce1a69d6c9a",
+  "bytes": 12342,
+  "sha256": "2cfae8b9cf15d217925c180cb576274678c654cf3b74ba70fba1658f2b83cd6f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        11069,
+        12342
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

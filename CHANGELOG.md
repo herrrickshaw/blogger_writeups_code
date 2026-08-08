@@ -1026,3 +1026,64 @@ scheduled sync
 - `india-environmental-clearances-state` — 6,521 → 7,794 bytes (+1,273)
 - `india-fuel-retail-outlets-82k-geocoded` — 5,268 → 6,541 bytes (+1,273)
 - `india-trade-sector-policy` — 10,988 → 12,261 bytes (+1,273)
+
+## 2026-08-08T09:32:14+05:30 — 95 posts live
+
+gs-table-v1 rollout; AI Tracker index section
+
+
+**Versions**
+
+- `reinvesting-capital-gains-in-higher` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `rooftop-solar-is-working-household` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `where-indias-green-hydrogen-bets-are` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-empty-shed-greenhouse-what-indias` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `whos-actually-building-mri-and-ct` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-ethanol-sectors-buyers-market` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `vehicles-out-motors-in-indias-chapter` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-most-discussed-schemes-in` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `securitising-deficit-what-it-would` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-price-and-tap-two-levers-behind` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `state-by-state-who-actually-earns-from` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `where-indias-forex-goes-country` **1.0.2 → 1.0.3** (PATCH) — visible text identical; only markup/styling changed
+- `where-indias-factories-actually-get` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `article-index-start-here` **5.0.1 → 5.1.0** (MINOR) — section(s) added: AI Tracker
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `top-15-chemicals-for-import` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-grain-value-loop-integrated-rice` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-recycling-lottery-playbook-norways` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-cbg-incentive-stack-every-leg-of` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `textile-hsn-deep-dive-apparel-vs-mmf` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `us-stock-picks-multi-screen-quant` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `the-price-of-grain-msp-msv-and` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `the-fearless-girls-charter-indias` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `tech-for-business-so-2019-tech-as` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `reinvesting-capital-gains-in-higher` — 22,106 → 23,379 bytes (+1,273)
+- `rooftop-solar-is-working-household` — 10,907 → 12,162 bytes (+1,255)
+- `where-indias-green-hydrogen-bets-are` — 11,069 → 12,342 bytes (+1,273)
+- `the-empty-shed-greenhouse-what-indias` — 9,148 → 10,421 bytes (+1,273)
+- `whos-actually-building-mri-and-ct` — 7,887 → 9,160 bytes (+1,273)
+- `the-ethanol-sectors-buyers-market` — 8,170 → 9,443 bytes (+1,273)
+- `vehicles-out-motors-in-indias-chapter` — 7,848 → 9,121 bytes (+1,273)
+- `the-most-discussed-schemes-in` — 25,230 → 26,503 bytes (+1,273)
+- `securitising-deficit-what-it-would` — 113,515 → 114,575 bytes (+1,060)
+- `the-rupee-fell-10-and-exports-grew-09` — 28,372 → 29,645 bytes (+1,273)
+- `the-price-and-tap-two-levers-behind` — 13,487 → 14,760 bytes (+1,273)
+- `state-by-state-who-actually-earns-from` — 47,369 → 47,943 bytes (+574)
+- `where-indias-forex-goes-country` — 37,835 → 39,108 bytes (+1,273)
+- `where-indias-factories-actually-get` — 36,023 → 37,296 bytes (+1,273)
+- `article-index-start-here` — 33,225 → 32,130 bytes (-1,095)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 117,399 → 118,672 bytes (+1,273)
+- `top-15-chemicals-for-import` — 73,871 → 75,137 bytes (+1,266)
+- `the-grain-value-loop-integrated-rice` — 67,939 → 69,208 bytes (+1,269)
+- `the-recycling-lottery-playbook-norways` — 17,600 → 18,791 bytes (+1,191)
+- `the-cbg-incentive-stack-every-leg-of` — 8,695 → 9,968 bytes (+1,273)
+- `textile-hsn-deep-dive-apparel-vs-mmf` — 9,985 → 11,258 bytes (+1,273)
+- `us-stock-picks-multi-screen-quant` — 25,288 → 26,561 bytes (+1,273)
+- `the-price-of-grain-msp-msv-and` — 28,153 → 29,419 bytes (+1,266)
+- `the-fearless-girls-charter-indias` — 15,676 → 16,949 bytes (+1,273)
+- `tech-for-business-so-2019-tech-as` — 26,898 → 28,171 bytes (+1,273)

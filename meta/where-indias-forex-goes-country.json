@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.722+05:30",
-  "updated": "2026-08-06T12:00:44.296+05:30",
+  "updated": "2026-08-08T09:29:04.961+05:30",
   "labels": [],
-  "bytes": 37835,
-  "sha256": "25acf549511cf4aa4c0fce6ce5419b09fec2e17a0a636542af28dbe7e14eafae",
+  "bytes": 39108,
+  "sha256": "9b1e2d533c446be83fbc94a3eb3d825391147178bac820c1c88bc08ceeeffc8b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -62,6 +62,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Restored chart colour tokens to 9 posts. The 2026-08-06 normalisation removed whole <style> blocks carrying the added layers, and in 9 posts those blocks also held the :root custom properties the charts referenced for stroke/fill — so lines rendered with stroke:none and dots fell back to black. Values restored verbatim from the pre-session baseline, CHART tokens only: --ink/--border/--text tokens were deliberately not restored because they were written for a dark surface and would reintroduce light-on-light text."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37835,
+        39108
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

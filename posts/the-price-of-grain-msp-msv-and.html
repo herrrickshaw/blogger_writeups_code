@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <style>
 /* === Design tokens (Open Color neutrals + Utopia-style fluid type + spacing scale) === */
@@ -176,14 +194,14 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   <h3>Volume — the share of the harvest the promise reaches</h3>
   <div class="tablewrap"><div class="tblwrap"><table>
     <caption>PROCUREMENT AS % OF PRODUCTION · LATEST FULL YEAR PER CROP</caption>
-    <tr><th>Crop</th><th class="num">Share</th><th>Agency</th><th>Reading</th></tr>
-    <tr class="hl"><td>Rice</td><td class="num">36.3%</td><td>FCI + states</td><td>standing operation</td></tr>
-    <tr class="hl"><td>Wheat</td><td class="num">22.6%</td><td>FCI + states</td><td>standing operation</td></tr>
-    <tr><td>Ragi</td><td class="num">14.8%</td><td>states (PDS mandates)</td><td>scheme-driven</td></tr>
-    <tr><td>Mustard</td><td class="num">8.8%</td><td>NAFED/PSS</td><td>crash-year episodes</td></tr>
-    <tr><td>Jowar / bajra / moong</td><td class="num">4–8%</td><td>mixed</td><td>episodic</td></tr>
-    <tr><td>Gram, sunflower, groundnut, masur</td><td class="num">&lt;2%</td><td>NAFED/PSS</td><td>token</td></tr>
-    <tr><td>Tur, urad, soybean, maize</td><td class="num">≈0%</td><td>—</td><td>notification only</td></tr>
+    <tr><th>Crop</th><th class="num">Share, %</th><th>Agency</th><th>Reading</th></tr>
+    <tr class="hl"><td>Rice</td><td class="num">36.3</td><td>FCI + states</td><td>standing operation</td></tr>
+    <tr class="hl"><td>Wheat</td><td class="num">22.6</td><td>FCI + states</td><td>standing operation</td></tr>
+    <tr><td>Ragi</td><td class="num">14.8</td><td>states (PDS mandates)</td><td>scheme-driven</td></tr>
+    <tr><td>Mustard</td><td class="num">8.8</td><td>NAFED/PSS</td><td>crash-year episodes</td></tr>
+    <tr><td>Jowar / bajra / moong</td><td class="num">4–8</td><td>mixed</td><td>episodic</td></tr>
+    <tr><td>Gram, sunflower, groundnut, masur</td><td class="num"><2</td><td>NAFED/PSS</td><td>token</td></tr>
+    <tr><td>Tur, urad, soybean, maize</td><td class="num">≈0</td><td>—</td><td>notification only</td></tr>
   </table></div></div>
   <h3>Reliability — the variance that breaks sowing decisions</h3>
   <p>Year-to-year coefficient of variation of procured volume: rice 24%, wheat 21% — versus

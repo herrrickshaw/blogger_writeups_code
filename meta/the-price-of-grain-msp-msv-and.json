@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-06T11:29:47.259+05:30",
+  "updated": "2026-08-08T09:27:34.774+05:30",
   "labels": [],
-  "bytes": 28153,
-  "sha256": "c7d321fe4ecf24f323437f2d3293cbf16555aa1acb804d1db9d4ac28d68d4b8c",
+  "bytes": 29419,
+  "sha256": "dd06cd90ba7f8e6f55d9316529f97627c32c619ac3999d1530c34ed85f10ab54",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        28153,
+        29419
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

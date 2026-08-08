@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.826+05:30",
-  "updated": "2026-08-06T07:40:11.890+05:30",
+  "updated": "2026-08-08T09:28:51.915+05:30",
   "labels": [],
-  "bytes": 36023,
-  "sha256": "0aa1ff261f84482fd1a9d66162776c4ca42b9001baf2b17357148afdca236b09",
+  "bytes": 37296,
+  "sha256": "50b36781318c9b981d5614cb37c785c4b3d108087414745333309a3ed5256c73",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        36023,
+        37296
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

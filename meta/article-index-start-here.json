@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.442+05:30",
-  "updated": "2026-08-08T09:12:19.802+05:30",
+  "updated": "2026-08-08T09:26:46.305+05:30",
   "labels": [],
-  "bytes": 33225,
-  "sha256": "f999197a282bb5eb3f251585120e060d302c7ce702f5814556e9e34cb245fb88",
+  "bytes": 32130,
+  "sha256": "8c9b5889a1d7eb5417b2f9f2721c993cca17e6de7b96aab5bb7ab76466d227ba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "minor",
+      "reason": "section(s) added: AI Tracker",
+      "bytes": [
+        33225,
+        32130
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-04T15:50:00.000+05:30",
-  "updated": "2026-08-05T06:00:27.336+05:30",
+  "updated": "2026-08-08T09:27:11.326+05:30",
   "labels": [],
-  "bytes": 25230,
-  "sha256": "e7f9596e57e1ee3d2637c10c570739ea5eb3a08b480b52c669e6b1a15d0e266a",
+  "bytes": 26503,
+  "sha256": "05f7474c292ece775c0cfd094553b9bf0358fd13db2507d40b1393ab9823d169",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25230,
+        26503
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

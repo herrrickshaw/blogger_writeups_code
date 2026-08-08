@@ -11,6 +11,24 @@
 .artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
 {font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
 body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
 <div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
 <div class="sgstx artx">
@@ -141,12 +159,12 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
     <div class="tablewrap">
       <table>
         <caption>Ethanol volume, VAT foregone by states, SGST gained (existing 2.5% split), and the net state shortfall &mdash; all-India, four blend scenarios.</caption>
-        <thead><tr><th>Blend</th><th class="num">Ethanol displacing petrol</th><th class="num">State VAT foregone</th><th class="num">SGST gained (2.5%)</th><th class="num">Net state loss</th></tr></thead>
+        <thead><tr><th>Blend</th><th class="num">Ethanol displacing petrol</th><th class="num">State VAT foregone, crore ₹</th><th class="num">SGST gained (2.5%), crore ₹</th><th class="num">Net state loss, crore ₹</th></tr></thead>
         <tbody>
-          <tr><td>E10</td><td class="num">5.4 bn L</td><td class="num">&#8377;9,743 cr</td><td class="num">&#8377;811 cr</td><td class="num">&#8377;8,933 cr</td></tr>
-          <tr><td>E20 <span class="sub">(current)</span></td><td class="num">10.8 bn L</td><td class="num">&#8377;19,485 cr</td><td class="num">&#8377;1,622 cr</td><td class="num">&#8377;17,865 cr</td></tr>
-          <tr><td>E25</td><td class="num">13.5 bn L</td><td class="num">&#8377;24,358 cr</td><td class="num">&#8377;2,025 cr</td><td class="num">&#8377;22,331 cr</td></tr>
-          <tr><td>E30</td><td class="num">16.2 bn L</td><td class="num">&#8377;29,229 cr</td><td class="num">&#8377;2,434 cr</td><td class="num">&#8377;26,792 cr</td></tr>
+          <tr><td>E10</td><td class="num">5.4 bn L</td><td class="num">9,743</td><td class="num">811</td><td class="num">8,933</td></tr>
+          <tr><td>E20 <span class="sub">(current)</span></td><td class="num">10.8 bn L</td><td class="num">19,485</td><td class="num">1,622</td><td class="num">17,865</td></tr>
+          <tr><td>E25</td><td class="num">13.5 bn L</td><td class="num">24,358</td><td class="num">2,025</td><td class="num">22,331</td></tr>
+          <tr><td>E30</td><td class="num">16.2 bn L</td><td class="num">29,229</td><td class="num">2,434</td><td class="num">26,792</td></tr>
         </tbody>
       </table>
     </div>
@@ -156,23 +174,23 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
     <div class="tablewrap">
       <table>
         <caption>Ranked by net state revenue shortfall at E20. VAT rate is the state&rsquo;s headline petrol VAT (excludes cesses/floors &mdash; see Section 5).</caption>
-        <thead><tr><th>State</th><th class="num">Petrol VAT</th><th class="num">Petrol (bn L)</th><th class="num">Ethanol (bn L)</th><th class="num">VAT foregone</th><th class="num">Net loss</th></tr></thead>
+        <thead><tr><th>State</th><th class="num">Petrol VAT, %</th><th class="num">Petrol (bn L)</th><th class="num">Ethanol (bn L)</th><th class="num">VAT foregone, crore ₹</th><th class="num">Net loss, crore ₹</th></tr></thead>
         <tbody>
-          <tr><td>Maharashtra</td><td class="num">25.0%</td><td class="num">5.91</td><td class="num">1.18</td><td class="num">&#8377;2,303 cr</td><td class="num">&#8377;2,126 cr</td></tr>
-          <tr><td>Karnataka</td><td class="num">29.84%</td><td class="num">4.13</td><td class="num">0.83</td><td class="num">&#8377;1,921 cr</td><td class="num">&#8377;1,798 cr</td></tr>
-          <tr><td>Uttar Pradesh</td><td class="num">19.36%</td><td class="num">6.53</td><td class="num">1.31</td><td class="num">&#8377;1,972 cr</td><td class="num">&#8377;1,776 cr</td></tr>
-          <tr><td>Telangana</td><td class="num">35.2%</td><td class="num">2.43</td><td class="num">0.49</td><td class="num">&#8377;1,337 cr</td><td class="num">&#8377;1,264 cr</td></tr>
-          <tr><td>Rajasthan</td><td class="num">29.04%</td><td class="num">2.75</td><td class="num">0.55</td><td class="num">&#8377;1,246 cr</td><td class="num">&#8377;1,164 cr</td></tr>
-          <tr><td>Kerala</td><td class="num">30.08%</td><td class="num">2.54</td><td class="num">0.51</td><td class="num">&#8377;1,192 cr</td><td class="num">&#8377;1,116 cr</td></tr>
-          <tr><td>Madhya Pradesh</td><td class="num">29.0%</td><td class="num">2.64</td><td class="num">0.53</td><td class="num">&#8377;1,195 cr</td><td class="num">&#8377;1,116 cr</td></tr>
-          <tr><td>Andhra Pradesh</td><td class="num">31.0%</td><td class="num">2.20</td><td class="num">0.44</td><td class="num">&#8377;1,063 cr</td><td class="num">&#8377;997 cr</td></tr>
-          <tr><td>Tamil Nadu</td><td class="num">13.0%</td><td class="num">4.78</td><td class="num">0.96</td><td class="num">&#8377;968 cr</td><td class="num">&#8377;825 cr</td></tr>
-          <tr><td>Gujarat</td><td class="num">13.7%</td><td class="num">3.65</td><td class="num">0.73</td><td class="num">&#8377;780 cr</td><td class="num">&#8377;671 cr</td></tr>
-          <tr><td>West Bengal</td><td class="num">25.0%</td><td class="num">1.86</td><td class="num">0.37</td><td class="num">&#8377;727 cr</td><td class="num">&#8377;671 cr</td></tr>
-          <tr><td>Odisha</td><td class="num">28.0%</td><td class="num">1.56</td><td class="num">0.31</td><td class="num">&#8377;683 cr</td><td class="num">&#8377;636 cr</td></tr>
-          <tr><td>Bihar</td><td class="num">23.58%</td><td class="num">1.57</td><td class="num">0.31</td><td class="num">&#8377;577 cr</td><td class="num">&#8377;530 cr</td></tr>
-          <tr><td>Haryana</td><td class="num">18.2%</td><td class="num">1.93</td><td class="num">0.39</td><td class="num">&#8377;549 cr</td><td class="num">&#8377;491 cr</td></tr>
-          <tr><td>Chhattisgarh</td><td class="num">24.0%</td><td class="num">1.19</td><td class="num">0.24</td><td class="num">&#8377;446 cr</td><td class="num">&#8377;410 cr</td></tr>
+          <tr><td>Maharashtra</td><td class="num">25.0</td><td class="num">5.91</td><td class="num">1.18</td><td class="num">2,303</td><td class="num">2,126</td></tr>
+          <tr><td>Karnataka</td><td class="num">29.84</td><td class="num">4.13</td><td class="num">0.83</td><td class="num">1,921</td><td class="num">1,798</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">19.36</td><td class="num">6.53</td><td class="num">1.31</td><td class="num">1,972</td><td class="num">1,776</td></tr>
+          <tr><td>Telangana</td><td class="num">35.2</td><td class="num">2.43</td><td class="num">0.49</td><td class="num">1,337</td><td class="num">1,264</td></tr>
+          <tr><td>Rajasthan</td><td class="num">29.04</td><td class="num">2.75</td><td class="num">0.55</td><td class="num">1,246</td><td class="num">1,164</td></tr>
+          <tr><td>Kerala</td><td class="num">30.08</td><td class="num">2.54</td><td class="num">0.51</td><td class="num">1,192</td><td class="num">1,116</td></tr>
+          <tr><td>Madhya Pradesh</td><td class="num">29.0</td><td class="num">2.64</td><td class="num">0.53</td><td class="num">1,195</td><td class="num">1,116</td></tr>
+          <tr><td>Andhra Pradesh</td><td class="num">31.0</td><td class="num">2.20</td><td class="num">0.44</td><td class="num">1,063</td><td class="num">997</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">13.0</td><td class="num">4.78</td><td class="num">0.96</td><td class="num">968</td><td class="num">825</td></tr>
+          <tr><td>Gujarat</td><td class="num">13.7</td><td class="num">3.65</td><td class="num">0.73</td><td class="num">780</td><td class="num">671</td></tr>
+          <tr><td>West Bengal</td><td class="num">25.0</td><td class="num">1.86</td><td class="num">0.37</td><td class="num">727</td><td class="num">671</td></tr>
+          <tr><td>Odisha</td><td class="num">28.0</td><td class="num">1.56</td><td class="num">0.31</td><td class="num">683</td><td class="num">636</td></tr>
+          <tr><td>Bihar</td><td class="num">23.58</td><td class="num">1.57</td><td class="num">0.31</td><td class="num">577</td><td class="num">530</td></tr>
+          <tr><td>Haryana</td><td class="num">18.2</td><td class="num">1.93</td><td class="num">0.39</td><td class="num">549</td><td class="num">491</td></tr>
+          <tr><td>Chhattisgarh</td><td class="num">24.0</td><td class="num">1.19</td><td class="num">0.24</td><td class="num">446</td><td class="num">410</td></tr>
         </tbody>
       </table>
     </div>
@@ -221,13 +239,13 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
     <div class="tablewrap">
       <table>
         <caption>Illustrative new SGST revenue at a 5% dedicated ethanol levy, E27 blend (the Brazil-style non-flex-fleet ceiling used as the modelling anchor).</caption>
-        <thead><tr><th>State</th><th class="num">Petrol (bn L)</th><th class="num">Ethanol (bn L)</th><th class="num">New SGST</th></tr></thead>
+        <thead><tr><th>State</th><th class="num">Petrol (bn L)</th><th class="num">Ethanol (bn L)</th><th class="num">New SGST, crore ₹</th></tr></thead>
         <tbody>
-          <tr><td>Uttar Pradesh</td><td class="num">6.53</td><td class="num">1.76</td><td class="num">&#8377;578 cr</td></tr>
-          <tr><td>Maharashtra</td><td class="num">5.91</td><td class="num">1.60</td><td class="num">&#8377;523 cr</td></tr>
-          <tr><td>Tamil Nadu</td><td class="num">4.78</td><td class="num">1.29</td><td class="num">&#8377;423 cr</td></tr>
-          <tr><td>Karnataka</td><td class="num">4.13</td><td class="num">1.12</td><td class="num">&#8377;366 cr</td></tr>
-          <tr><td>Gujarat</td><td class="num">3.65</td><td class="num">0.99</td><td class="num">&#8377;323 cr</td></tr>
+          <tr><td>Uttar Pradesh</td><td class="num">6.53</td><td class="num">1.76</td><td class="num">578</td></tr>
+          <tr><td>Maharashtra</td><td class="num">5.91</td><td class="num">1.60</td><td class="num">523</td></tr>
+          <tr><td>Tamil Nadu</td><td class="num">4.78</td><td class="num">1.29</td><td class="num">423</td></tr>
+          <tr><td>Karnataka</td><td class="num">4.13</td><td class="num">1.12</td><td class="num">366</td></tr>
+          <tr><td>Gujarat</td><td class="num">3.65</td><td class="num">0.99</td><td class="num">323</td></tr>
         </tbody>
       </table>
     </div>
@@ -269,12 +287,12 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   <div class="tablewrap">
     <table>
       <caption>Delhi, July 2026 basis. Petrol reflects the model's 4% central E20 mileage-drop assumption (ARAI/SIAM range 2&ndash;6%). Diesel is modelled only for sedan and compact SUV, consistent with actual market offer. Source: vehicle_fuel_mileage, CostPerKm sheet.</caption>
-      <thead><tr><th>Vehicle segment</th><th class="num">Petrol (E20)</th><th class="num">Diesel</th><th class="num">CNG</th><th class="num">EV</th></tr></thead>
+      <thead><tr><th>Vehicle segment</th><th class="num">Petrol (E20), km ₹/km</th><th class="num">Diesel</th><th class="num">CNG, km ₹/km</th><th class="num">EV, km ₹/km</th></tr></thead>
       <tbody>
-        <tr><td>Two-wheeler</td><td class="num">&#8377;1.93/km</td><td class="num">&mdash;</td><td class="num">&#8377;0.81/km</td><td class="num">&#8377;0.35/km</td></tr>
-        <tr><td>Hatchback</td><td class="num">&#8377;6.65/km</td><td class="num">&mdash;</td><td class="num">&#8377;2.97/km</td><td class="num">&#8377;1.41/km</td></tr>
-        <tr><td>Sedan</td><td class="num">&#8377;7.09/km</td><td class="num">&#8377;4.33/km</td><td class="num">&#8377;3.20/km</td><td class="num">&#8377;1.51/km</td></tr>
-        <tr><td>Compact SUV</td><td class="num">&#8377;8.18/km</td><td class="num">&#8377;5.01/km</td><td class="num">&#8377;3.78/km</td><td class="num">&#8377;1.63/km</td></tr>
+        <tr><td>Two-wheeler</td><td class="num">1.93</td><td class="num">&mdash;</td><td class="num">0.81</td><td class="num">0.35</td></tr>
+        <tr><td>Hatchback</td><td class="num">6.65</td><td class="num">&mdash;</td><td class="num">2.97</td><td class="num">1.41</td></tr>
+        <tr><td>Sedan</td><td class="num">7.09</td><td class="num">&#8377;4.33/km</td><td class="num">3.20</td><td class="num">1.51</td></tr>
+        <tr><td>Compact SUV</td><td class="num">8.18</td><td class="num">&#8377;5.01/km</td><td class="num">3.78</td><td class="num">1.63</td></tr>
       </tbody>
     </table>
   </div>
@@ -284,14 +302,14 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   <div class="tablewrap">
     <table>
       <caption>Hatchback petrol/CNG/EV and compact-SUV diesel cost per km, by city (state VAT + local fuel board price baked in). Source: vehicle_fuel_mileage, Cities sheet.</caption>
-      <thead><tr><th>City</th><th class="num">Petrol/km (hatch)</th><th class="num">Diesel/km (SUV)</th><th class="num">CNG/km (hatch)</th><th class="num">EV/km (hatch)</th></tr></thead>
+      <thead><tr><th>City</th><th class="num">Petrol/km (hatch), ₹</th><th class="num">Diesel/km (SUV), ₹</th><th class="num">CNG/km (hatch), ₹</th><th class="num">EV/km (hatch), ₹</th></tr></thead>
       <tbody>
-        <tr><td>Chandigarh &#8211; Delhi cluster (Delhi)</td><td class="num">&#8377;6.65</td><td class="num">&#8377;5.01</td><td class="num">&#8377;2.97</td><td class="num">&#8377;1.41</td></tr>
-        <tr><td>Chennai</td><td class="num">&#8377;7.02</td><td class="num">&#8377;5.24</td><td class="num">&#8377;3.46</td><td class="num">&#8377;1.41</td></tr>
-        <tr><td>Mumbai</td><td class="num">&#8377;7.24</td><td class="num">&#8377;5.15</td><td class="num">&#8377;3.07</td><td class="num">&#8377;1.73</td></tr>
-        <tr><td>Bengaluru</td><td class="num">&#8377;7.27</td><td class="num">&#8377;5.24</td><td class="num">&#8377;3.46</td><td class="num">&#8377;1.52</td></tr>
-        <tr><td>Kolkata</td><td class="num">&#8377;7.39</td><td class="num">&#8377;5.25</td><td class="num">&#8377;3.34</td><td class="num">&#8377;1.52</td></tr>
-        <tr><td>Hyderabad</td><td class="num">&#8377;7.53</td><td class="num">&#8377;5.46</td><td class="num">&#8377;3.46</td><td class="num">&#8377;1.57</td></tr>
+        <tr><td>Chandigarh &#8211; Delhi cluster (Delhi)</td><td class="num">6.65</td><td class="num">5.01</td><td class="num">2.97</td><td class="num">1.41</td></tr>
+        <tr><td>Chennai</td><td class="num">7.02</td><td class="num">5.24</td><td class="num">3.46</td><td class="num">1.41</td></tr>
+        <tr><td>Mumbai</td><td class="num">7.24</td><td class="num">5.15</td><td class="num">3.07</td><td class="num">1.73</td></tr>
+        <tr><td>Bengaluru</td><td class="num">7.27</td><td class="num">5.24</td><td class="num">3.46</td><td class="num">1.52</td></tr>
+        <tr><td>Kolkata</td><td class="num">7.39</td><td class="num">5.25</td><td class="num">3.34</td><td class="num">1.52</td></tr>
+        <tr><td>Hyderabad</td><td class="num">7.53</td><td class="num">5.46</td><td class="num">3.46</td><td class="num">1.57</td></tr>
       </tbody>
     </table>
   </div>
@@ -301,12 +319,12 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   <div class="tablewrap">
     <table>
       <caption>Years to recoup the upfront premium over petrol, at "Average" usage (15,000 km/yr for cars, same bracket applied to two-wheelers in the model). Source: vehicle_fuel_mileage, TCO_Scenarios sheet, Delhi basis.</caption>
-      <thead><tr><th>Vehicle segment</th><th class="num">CNG payback</th><th class="num">EV payback</th><th class="num">Diesel payback</th></tr></thead>
+      <thead><tr><th>Vehicle segment</th><th class="num">CNG payback, yrs</th><th class="num">EV payback, yrs</th><th class="num">Diesel payback</th></tr></thead>
       <tbody>
-        <tr><td>Two-wheeler</td><td class="num">0.9 yrs</td><td class="num">1.8 yrs</td><td class="num">&mdash;</td></tr>
-        <tr><td>Hatchback</td><td class="num">1.7 yrs</td><td class="num">5.6 yrs</td><td class="num">&mdash;</td></tr>
-        <tr><td>Sedan</td><td class="num">1.7 yrs</td><td class="num">5.8 yrs</td><td class="num">3.1 yrs</td></tr>
-        <tr><td>Compact SUV</td><td class="num">1.7 yrs</td><td class="num">4.0 yrs</td><td class="num">3.4 yrs</td></tr>
+        <tr><td>Two-wheeler</td><td class="num">0.9</td><td class="num">1.8</td><td class="num">&mdash;</td></tr>
+        <tr><td>Hatchback</td><td class="num">1.7</td><td class="num">5.6</td><td class="num">&mdash;</td></tr>
+        <tr><td>Sedan</td><td class="num">1.7</td><td class="num">5.8</td><td class="num">3.1 yrs</td></tr>
+        <tr><td>Compact SUV</td><td class="num">1.7</td><td class="num">4.0</td><td class="num">3.4 yrs</td></tr>
       </tbody>
     </table>
   </div>

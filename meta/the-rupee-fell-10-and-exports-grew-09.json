@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
   "slug": "the-rupee-fell-10-and-exports-grew-09",
   "published": "2026-08-04T06:34:23.146+05:30",
-  "updated": "2026-08-05T09:12:47.961+05:30",
+  "updated": "2026-08-08T09:27:59.025+05:30",
   "labels": [],
-  "bytes": 28372,
-  "sha256": "84b40b86a88d21ccd9b443a44d5b2eb55704d966ac8df9ca9bd14a7ad9ec4291",
+  "bytes": 29645,
+  "sha256": "b9a62996d76c136121369f51e7b062192b4211b9407e430c84aaa69b3e09fdfb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28372,
+        29645
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

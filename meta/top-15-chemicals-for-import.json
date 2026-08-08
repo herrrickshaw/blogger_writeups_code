@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-06T11:30:12.005+05:30",
+  "updated": "2026-08-08T09:28:15.152+05:30",
   "labels": [],
-  "bytes": 73871,
-  "sha256": "5db07a221b81955f71a8b79f49d6e0cda9c3fb7fb3a5fd68ffd24536968ebda9",
+  "bytes": 75137,
+  "sha256": "114b63cf1b77ac4a3d39dd03bef03318f920ea5a6994005ff769a21273908458",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
         ]
       },
       "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        73871,
+        75137
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }

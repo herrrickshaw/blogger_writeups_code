@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.416+05:30",
-  "updated": "2026-08-05T14:59:21.416+05:30",
+  "updated": "2026-08-08T09:26:22.175+05:30",
   "labels": [],
-  "bytes": 9148,
-  "sha256": "c8c85c3ef4a472624a95175582d5bafd1d6c0f61f616e2cf6784db35d6110bfd",
+  "bytes": 10421,
+  "sha256": "83a5961f21290f7e3c53279bc5b409219c29d3f17521976d967f4fb30522a4e7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "baseline",
       "reason": "version tracking introduced",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-08T09:32:14+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        9148,
+        10421
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "gs-table-v1 rollout; AI Tracker index section"
     }
   ]
 }
