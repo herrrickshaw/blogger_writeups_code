@@ -14,6 +14,16 @@ from urllib.parse import quote
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 TAG = 'herpetithabib-21'
+COVER_OVERRIDES = {'B0BXD7LG75': 'https://m.media-amazon.com/images/I/71HNESz07RL._SY522_.jpg'}
+
+def cover(e):
+    if not e['asin']:
+        return None
+    if e['asin'] in COVER_OVERRIDES:
+        return COVER_OVERRIDES[e['asin']]
+    if e['asin'].startswith('B0'):
+        return None   # P/ endpoint serves a 1px placeholder for non-ISBN ASINs
+    return f"https://images-na.ssl-images-amazon.com/images/P/{e['asin']}.01._SX120_.jpg"
 SHOP_POST_ID = '1964166395488869750'
 SCRATCH = Path('/private/tmp/claude-501/-Users-umashankar/e50aaf59-8643-4790-a7e8-d74da5d3e4a2/scratchpad')
 
@@ -51,8 +61,11 @@ def main():
     js = Path(args.accordion).read_text()
     books_block = js[js.index('var BOOKS'):js.index('};', js.index('var BOOKS'))]
     shelf_block = js[js.index('var SHELF'):js.index('];', js.index('var SHELF'))]
+    # A topic's value runs to the ']]' that closes its list-of-lists; the old
+    # non-greedy match stopped at the first inner ']' and silently dropped
+    # every book after the first in multi-book topics.
     topics = {m.group(1): parse_entries(m.group(2) + ']')
-              for m in re.finditer(r"'([^']+)':\s*\[(.*?)\](?=,\n|\n  \})", books_block, re.S)}
+              for m in re.finditer(r"'([^']+)':\s*\[(.*?\])\s*\]", books_block, re.S)}
     shelf = parse_entries(shelf_block)
     import datetime
     today = datetime.date.today()
@@ -82,14 +95,17 @@ def main():
         if not fresh: continue
         A(f'<h3 style="font-size:.78em;letter-spacing:.12em;text-transform:uppercase;'
           f'color:#8a4b08;margin:1.4rem 0 .4rem">{H.escape(topic)}</h3>')
-        A('<ul style="margin:.2rem 0;padding-left:1.2rem">')
         for e in fresh:
             seen.add(e['t'])
             by = H.escape(e['by'].replace(' Rohit Lamba', ' & Rohit Lamba'))
-            A(f'<li style="margin-bottom:.3rem"><a href="{link(e)}" rel="nofollow sponsored noopener" '
-              f'target="_blank">{H.escape(e["t"])}</a> '
-              f'<span style="color:#595959;font-size:.85em">&mdash; {by}</span></li>')
-        A('</ul>')
+            cv = cover(e)
+            th = (f'<img src="{cv}" alt="" loading="lazy" style="width:44px;height:62px;'
+                  f'object-fit:contain;background:#fff;border:1px solid #ececec;'
+                  f'border-radius:2px;flex-shrink:0"/>' if cv else
+                  '<span style="width:44px;flex-shrink:0"></span>')
+            A(f'<div style="display:flex;align-items:center;gap:.7rem;margin:.45rem 0">{th}'
+              f'<span><a href="{link(e)}" rel="nofollow sponsored noopener" target="_blank">{H.escape(e["t"])}</a> '
+              f'<span style="color:#595959;font-size:.85em">&mdash; {by}</span></span></div>')
     A('<div class="note"><b>Disclosure.</b> As an Amazon Associate, this site earns from qualifying '
       'purchases made through the links on this page. Prices and availability are whatever Amazon '
       'shows you &mdash; this page quotes neither, because both change and the Associates rules '
