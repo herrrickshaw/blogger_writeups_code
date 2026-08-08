@@ -1357,6 +1357,23 @@ the column's unit; it cannot tell you which of two rates in one cell is which,
 so that cell keeps its own signs. The column now scans as bare numbers with a
 single self-describing exception, which is what it should look like.
 
-This is the first post in the pass to reach **zero**.
+This is the first post in the pass to reach **zero** — but only on the second
+attempt, and the first attempt is the lesson.
+
+**Never `str.replace()` a table cell value that is not unique in the document.**
+The first pass walked the rows and called `new.replace(f'>{raw}<', bare, 1)` for
+each. `>5%<` occurs dozens of times in a table of state VAT rates, so every call
+hit the *earliest remaining* match rather than the cell being iterated. The right
+number of replacements happened; four landed on the wrong cells, and four bare
+`5%` and `4%` values survived in a column whose header now claimed `%`.
+
+It was caught by a residual check on the **published** page — grepping the live
+HTML for `>[\d.]+%</td>` inside the columns that had just been cleaned. Without
+that check the post would have shipped looking finished.
+
+The fix was to stop replacing and start rebuilding: parse each `<tr>`, walk its
+cells by index, and reassemble the row. Positional identity, not string
+identity. That pattern should be the default for every table edit in this repo —
+`table_standard.py` has the same weakness and should be moved over to it.
 
 Blog-wide: **53 → 49 across 14 posts.** Six posts done, 90 units hoisted.

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T10:11:18+05:30",
+  "snapshot": "2026-08-08T10:13:08+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -5334,10 +5334,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
       "slug": "a-tax-play-grow-ethanol-sgst-revenue",
       "published": "2026-08-02T17:57:40.643+05:30",
-      "updated": "2026-08-08T10:10:46.872+05:30",
+      "updated": "2026-08-08T10:12:36.657+05:30",
       "labels": [],
-      "bytes": 33893,
-      "sha256": "d9b96d2e3f2743d2136077d58094904d147135eeb8809d1271de93758f962be1",
+      "bytes": 33738,
+      "sha256": "15723593f6c6e4c4536eeb988333784ddc66af7f539202d2f35cbaa565e3c823",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5349,7 +5349,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5383,6 +5383,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "a-tax-play: four percentage columns hoisted, post clear"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-08T10:13:08+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            33893,
+            33738
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "a-tax-play: completed after replace-collision fix"
         }
       ]
     },

@@ -1191,3 +1191,16 @@ a-tax-play: four percentage columns hoisted, post clear
 **Changed**
 
 - `a-tax-play-grow-ethanol-sgst-revenue` — 33,937 → 33,893 bytes (-44)
+
+## 2026-08-08T10:13:08+05:30 — 95 posts live
+
+a-tax-play: completed after replace-collision fix
+
+
+**Versions**
+
+- `a-tax-play-grow-ethanol-sgst-revenue` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `a-tax-play-grow-ethanol-sgst-revenue` — 33,893 → 33,738 bytes (-155)
