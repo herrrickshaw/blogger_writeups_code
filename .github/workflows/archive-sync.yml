@@ -86,7 +86,11 @@ jobs:
           # harder than a home connection: checking all 93 posts from CI came
           # back 83x 429. A paced sample of the 25 most recent catches an
           # unpublished or broken post without hammering the blog.
-          python3 tools/site_health.py --sample 25 --workers 2 --pace 0.6 2>&1 | tee health.out
+          # One worker, 1.5s apart, 12 posts. Measured, not guessed: at 2
+          # workers/0.6s the runner still drew 429s on 10 of 25, and a check
+          # that is 40% inconclusive is not a check. Slow and small gives a
+          # verdict; the weekly link audit covers the long tail.
+          python3 tools/site_health.py --sample 12 --workers 1 --pace 1.5 2>&1 | tee health.out
           echo "status=${PIPESTATUS[0]}" >> "$GITHUB_OUTPUT"
           set -e
 
