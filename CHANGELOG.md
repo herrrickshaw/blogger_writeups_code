@@ -2091,3 +2091,16 @@ New article: Africa refining boom vs demand — Dangote's Nigeria turnaround (65
 **Added**
 
 - `one-refinery-flipped-nigeria-from` **v1.0.0** — One Refinery Flipped Nigeria From Importer to Exporter. Africa's Import Bill Is Still Rising. (17,995 bytes)
+
+## 2026-08-09T03:06:52+05:30 — 114 posts live
+
+Africa refining article updated: added 2018 historical baseline (Dangote's original Dec-2019 target slipped 4+ years; SA's BRICS refinery apparently died), the $5bn Oct-2026 IPO, and Nigeria's 24-project/2.64mn-bpd-by-2031 pipeline — flagged as a genuine complication to the article's own 'imports keep rising' thesis rather than smoothed over
+
+
+**Versions**
+
+- `one-refinery-flipped-nigeria-from` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+23/-0 distinct numbers)
+
+**Changed**
+
+- `one-refinery-flipped-nigeria-from` — 17,995 → 25,670 bytes (+7,675)
