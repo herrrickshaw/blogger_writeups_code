@@ -766,3 +766,43 @@ year-on-year rate. Both official, different vintages of a provisional figure.
 The new post uses the API value and says so, and neither post was adjusted to
 match the other. Silently picking one would have made the blog internally
 consistent and externally wrong.
+
+## 2026-08-08 — adding Japan refuted a claim published four hours earlier
+
+Asked to add China and Japan producer prices from national sources.
+
+**Japan: obtained.** Bank of Japan, Corporate Goods Price Index, Producer Price
+Index all-commodities, year-on-year, monthly back to 1980 and updated the morning
+it was fetched. The series lives in BoJ's Main Time-series Statistics at
+`stat-search.boj.or.jp/ssi/mtshtml/pr01_m_1_en.html` — found by listing the
+`mtshtml` prefixes on the index page rather than guessing URLs.
+
+**China: not obtained, and the article says so.** The National Bureau of
+Statistics data portal returns `403 Forbidden` to this IP and the main site does
+not respond at all. The OECD mirror stops in December 2022 with everything else.
+Every remaining route is a commercial redistributor, which this blog does not
+cite for a headline figure. So the piece carries an explicit gap rather than a
+sourced-to-a-vendor number. China's *consumer* inflation is unaffected — that
+comes through the OECD and was already in Exhibit 2.
+
+**The finding that mattered was the refutation.** The version published that
+morning ended: *"For the first time in this comparison, India's producer-side
+move looks domestic."* Adding Japan, and pulling 2026 monthlies for the others
+to check it, showed that claim is simply false:
+
+| 2026 | Jan | Mar | Apr | May | Jun |
+|---|---|---|---|---|---|
+| US PPI | +2.4 | +6.8 | +9.4 | **+12.3** | +10.1 |
+| Japan PPI | — | +2.9 | +5.4 | +6.6 | **+7.1** |
+| Euro area PPI | −1.9 | +1.6 | +4.1 | +4.9 | +4.2 |
+| India WPI | — | — | **+8.3** | — | — |
+
+The United States accelerated **ten points in four months**, harder and faster
+than India. India's +8.3% sits in the middle of the range, not outside it. The
+post is now v2.0.0, the revision line states plainly that the earlier claim was
+wrong, and the correction is the strongest part of the piece.
+
+The general lesson, which this session has now supplied three times over: **the
+claim most worth testing is the one that says a thing is unique.** "For the first
+time" and "only in India" are the sentences that fall over when one more column
+of data arrives — and the column that refutes them is usually one request away.
