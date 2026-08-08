@@ -2330,3 +2330,32 @@ is excluded; it has the richer accordion already.
 Risk noted at time of writing: today's API writes are near three figures, so
 the ceiling may interrupt the run; the marker makes tomorrow's resume one
 command.
+
+## 2026-08-08 — The last manual step in the index is now automated
+
+The accordion's CONTENTS were already self-updating — feeds do that. The one
+remaining manual step was that a newly published post carries no footer stub
+until the injector runs. Now a cron job runs it daily:
+
+    5 9 * * *  bash ~/masaladeutsch-archive/tools/cron_inject_wrapper.sh
+
+- **09:05**, between the existing 09:00 and 09:15 jobs; log at
+  ~/Library/Logs/masaladeutsch-inject.log.
+- **Idempotent by marker**, so a day with zero new posts performs zero writes —
+  proven by running the wrapper before installing it: "injected 0 | already
+  had it 98, exit=0". A cron job that cannot be run safely by hand first is a
+  cron job that has not been tested.
+- **/usr/bin/python3 absolute**, because cron's PATH is minimal and the
+  pipeline-venv silent-no-op failure of daily_mailer.sh is not getting a
+  sequel. The tool is stdlib-only, so no venv is involved at all.
+- **Credentials never leave the machine.** The alternative — GitHub Actions
+  with the OAuth refresh token as a CI secret — was rejected because the
+  standing rule is that real credentials live in ~/.config/market-secrets and
+  nowhere else. A local cron on the machine that already holds the token adds
+  no new credential surface.
+- Installed per the cron-verification rule: line built from parts, installed,
+  then grep-asserted verbatim from crontab -l rather than trusted from echo.
+
+Full auto-update chain for a new article now: publish → labels make it appear
+in every accordion instantly (feeds) → next 09:05, the post itself gets the
+footer stub → weekly snapshot archives the change. Nothing left to remember.
