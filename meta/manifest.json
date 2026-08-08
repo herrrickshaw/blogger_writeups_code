@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-08T10:03:47+05:30",
+  "snapshot": "2026-08-08T10:06:57+05:30",
   "count": 95,
   "posts": {
     "1157999291079244419": {
@@ -4784,10 +4784,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
       "slug": "annadata-to-urjadata-farmer-income-case",
       "published": "2026-08-04T16:10:00.000+05:30",
-      "updated": "2026-08-08T09:11:48.705+05:30",
+      "updated": "2026-08-08T10:06:10.808+05:30",
       "labels": [],
-      "bytes": 33429,
-      "sha256": "e69fe2a2c4c47b335bbc03e91ac5441b9e2c5848daae7a02689aa745fa293aeb",
+      "bytes": 33428,
+      "sha256": "97d3c3b56ecdc03e9b2a64838fc5f1a0579348f56a425837705b1f89bd6e983d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4799,7 +4799,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4820,6 +4820,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-08T10:06:57+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            33429,
+            33428
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "annadata: leading-percentage hoist"
         }
       ]
     },

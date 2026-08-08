@@ -1280,3 +1280,41 @@ correct and globally wrong, and the only way to catch it is to look outside the
 thing being changed.
 
 Blog-wide: **57 → 56 violations across 16 posts.**
+
+## 2026-08-08 — annadata-to-urjadata: 6 → 5, and the checker overruled me
+
+I read all six as unhoistable and was about to publish nothing. The classifier
+disagreed on one, and it was right.
+
+**Table 5, the FCI-rice-share column.** I had rejected it because the last cell
+reads `54–57% — workable at current stocks; 72–91% if stocks revert to 2021–24
+levels` — two percentages, and stripping both would strand the second. The fix
+is to strip **only the leading one**: the column's value is the figure at the
+front, and the trailing qualifier is prose that keeps its own sign. Header now
+`vs. ~240–250 lakh MT surplus, %`, cells read `21–22 — comfortable` and
+`54–57 — workable at current stocks; 72–91% if stocks revert`.
+
+**Two mixed-by-design columns stay.** Both `Metric | Value` lists: one holds
+`₹1,97,000 crore` beside `316 lakh metric tonnes`, the other five `cr L/yr` rows
+beside one `~65–75%`. In a key-value list the unit belongs with each value —
+that is what the format is for.
+
+**Arithmetic checked while I was in there**, since these tables assert
+relationships rather than just reporting: 52 / 79 / 105 / 136 lakh MT against a
+240–250 lakh MT surplus give 20.8–21.7%, 31.6–32.9%, 42.0–43.8% and 54.4–56.7%
+— every published range correct. And 2,000 − 1,100 − 325 = 575 cr L/yr, with
++400 of FY27 capacity giving 975 against a claimed "~950". All sound.
+
+### What is actually left
+
+Classifying the remaining 42 flagged columns by whether they carry one unit
+signature or several: **24 likely hoistable, 18 genuinely mixed.** So the
+realistic endpoint of this pass is roughly **18 standing findings, not zero** —
+key-value lists and columns that mix magnitudes on purpose. Worth knowing before
+anyone tries to drive the number to zero and starts rescaling to get there.
+
+Hoistable work remaining, by post: `indias-textile-import-export-strategy` (5),
+`a-tax-play-grow-ethanol-sgst-revenue` (4), then `indias-ev-market-single-digit`,
+`nature-versus-nurture` and `raising-green-debt-globally` at 2 each.
+
+Blog-wide: **56 → 55.**

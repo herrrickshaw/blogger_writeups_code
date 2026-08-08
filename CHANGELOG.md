@@ -1152,3 +1152,16 @@ grain post: LMT/MT inversion fixed; lakh-crore column left alone
 **Changed**
 
 - `the-grain-value-loop-integrated-rice` — 69,208 → 69,218 bytes (+10)
+
+## 2026-08-08T10:06:57+05:30 — 95 posts live
+
+annadata: leading-percentage hoist
+
+
+**Versions**
+
+- `annadata-to-urjadata-farmer-income-case` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `annadata-to-urjadata-farmer-income-case` — 33,429 → 33,428 bytes (-1)
