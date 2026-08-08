@@ -1627,3 +1627,49 @@ exactly one data-URI image, 56x56, complete, correct alt text.
 **Not touched:** `theme-html2-moved.xml` and `theme-dedup-h1.xml` still carry the
 monogram. They are historical snapshots, not live templates, and editing them
 would falsify the record.
+
+## 2026-08-08 — JSON-LD structured data, site-wide via the theme
+
+**One `@graph` per page**: `WebSite` + `Person` + `WebPage` everywhere, plus
+`BlogPosting` on post pages only, cross-referenced by `@id` rather than repeated.
+
+**The JSON is built in JavaScript from `data-*` attributes, not printed into the
+script body.** Blogger escapes an attribute value as XML; `JSON.stringify`
+escapes it as JSON. A template string would emit invalid JSON the first time a
+post title contained a double quote, and it would fail silently: the page still
+renders, the rich result just never appears.
+
+**Three things went wrong, all caught before they shipped.**
+
+1. **`--` is illegal inside an XML comment.** The first patch broke the theme
+   parse. Caught locally by `ET.parse()` before it went anywhere near Blogger.
+
+2. **I patched a dead includable.** The theme has `<b:includable id='post'>`,
+   which looks like the post renderer and is not — it is leftover Blogger
+   boilerplate. This theme renders posts inside the Blog widget's own `main`
+   includable, in the `pageType == "item"` branch. The give-away: the live page
+   had no `.post.hentry` wrapper at all, and `.post-body` was a direct child of
+   `#Blog1`. Result: `WebSite`/`Person`/`WebPage` appeared, `BlogPosting` did
+   not. **Grepping the theme for a plausible-looking hook is not evidence that
+   the hook runs. Check the rendered DOM.**
+
+3. **The save silently no-opped, again, and for a new reason.** The dirty-flag
+   trick worked (the browser blocked navigation with "unsaved changes"), but the
+   Save click at a remembered coordinate missed: the viewport had resized from
+   1416x840 to 1200x656 between calls. Resolving the button by element ref hit
+   it and returned "Update successful". **Never click Blogger's toolbar by
+   remembered coordinates. Resolve the element.**
+
+**Description had to be sourced deliberately.** Blogger emits no meta
+description on these pages, and its auto-generated `og:description` is the top
+of the raw post body, which here is the index link and the eyebrow line: pure
+chrome. The chain is now meta description, then the hand-written `.standfirst`,
+then `og:` as a last resort. `dateModified` comes from the post's own revision
+`<time>` where one exists and is omitted where it does not, rather than invented.
+
+**Existing BlogPosting microdata on the post wrapper is left alone.** Google
+reads either, they agree, and removing it is a bigger change than this needed.
+
+**Verified on live pages, in a browser that executes the script**: post pages
+emit all four types with the right headline, dates and `@id` links; the homepage
+emits three and no `BlogPosting`, which is the point of the branch guard.

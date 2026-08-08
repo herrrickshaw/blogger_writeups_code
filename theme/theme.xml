@@ -246,6 +246,12 @@ a:hover{color:var(--accent-ink)}
         <b:if cond='data:blog.pageType == &quot;item&quot;'>
           <!-- ============ SINGLE POST: full body ============ -->
           <b:loop values='data:posts' var='post'>
+            <!-- Structured-data source values for the JSON-LD block near
+                 </body>. This sits inside the item branch of the loop, which
+                 is the only place data:post is in scope AND the only branch
+                 that renders a single post. The 'post' includable further
+                 down is dead code: this theme renders posts here, not there. -->
+            <div class='gs-sd-post' style='display:none' expr:data-url='data:post.url' expr:data-title='data:post.title' expr:data-published='data:post.timestampISO8601' expr:data-image='data:post.thumbnailUrl'/>
             <div class='post-head'>
               <h1><data:post.title/></h1>
               <div class='meta'><data:post.timestamp/></div>
@@ -1160,5 +1166,99 @@ material, so verify any number that matters to a decision against the linked pri
   </div>
 </footer>
 
+
+<!-- =====================================================================
+     Structured data (JSON-LD): schema.org WebSite + Person + WebPage, plus
+     BlogPosting on post pages, emitted as one @graph so the entities can
+     reference each other by @id instead of being repeated.
+
+     The JSON is assembled in JavaScript from data-* attributes rather than
+     printed into the script body. Blogger escapes an attribute value as XML;
+     JSON.stringify escapes it as JSON. Writing the JSON as a template string
+     would emit invalid JSON the first time a post title contained a double
+     quote, and it would fail silently — the page still renders and the rich
+     result simply never appears.
+
+     The post wrapper already carries BlogPosting microdata. Both are left in
+     place: Google reads either, and they agree.
+     ===================================================================== -->
+<div id='gs-sd-blog' style='display:none' expr:data-title='data:blog.title' expr:data-home='data:blog.homepageUrl'/>
+<script>//<![CDATA[
+(function(){
+  var b=document.getElementById('gs-sd-blog'); if(!b) return;
+  var home=b.getAttribute('data-home')||(location.origin+'/');
+  if(home.charAt(home.length-1)!=='/') home+='/';
+  var cl=document.querySelector('link[rel="canonical"]');
+  var canon=(cl&&cl.href)||location.href.split('#')[0];
+  function meta(sel){var m=document.querySelector(sel);return (m&&m.content)||'';}
+  // Description, in order of trustworthiness. Blogger auto-generates
+  // og:description from the raw top of the post body, which on this blog is
+  // the index link and the eyebrow line -- pure chrome. The standfirst is the
+  // hand-written one-paragraph summary, so it outranks og: here and og: is
+  // kept only as a last resort.
+  function clean(t){ return t.replace(/\s+/g,' ').trim(); }
+  var desc=meta('meta[name="description"]');
+  if(!desc){ var sf=document.querySelector('.post-body .standfirst, .standfirst');
+    if(sf) desc=clean(sf.textContent).slice(0,300); }
+  if(!desc) desc=clean(meta('meta[property="og:description"]')).slice(0,300);
+  var img =meta('meta[property="og:image"]');
+  // Google drops an article whose headline runs past ~110 characters, so trim
+  // on a word boundary rather than shipping something it will ignore.
+  function head(t){ if(!t||t.length<=110) return t;
+    var c=t.slice(0,110); var i=c.lastIndexOf(' ');
+    return (i>60?c.slice(0,i):c).replace(/[\s,;:-]+$/,''); }
+
+  var person={"@type":"Person","@id":home+"#person",
+    "name":"Umashankar Triplicane Dwarakanathan",
+    "url":home+"2026/08/about-author.html",
+    "jobTitle":"Investment Promotion & Energy-Sector Leader",
+    "sameAs":["https://www.linkedin.com/in/umashankar-tdrickshaw-moc/",
+              "https://github.com/herrrickshaw"]};
+
+  var site={"@type":"WebSite","@id":home+"#website","url":home,
+    "name":b.getAttribute('data-title')||document.title,
+    "inLanguage":"en","publisher":{"@id":home+"#person"},
+    "potentialAction":{"@type":"SearchAction",
+      "target":{"@type":"EntryPoint","urlTemplate":home+"search?q={search_term_string}"},
+      "query-input":"required name=search_term_string"}};
+
+  // document.title is prefixed with the blog name ("Thinking global, living
+  // local: <post>"); prefer the bare post title where the post loop gave us one.
+  var pd=document.querySelector('.gs-sd-post');
+  var pageName=(pd&&pd.getAttribute('data-title'))||document.title;
+  var page={"@type":"WebPage","@id":canon+"#webpage","url":canon,
+    "name":pageName,"isPartOf":{"@id":home+"#website"},"inLanguage":"en"};
+  if(desc) page.description=desc;
+  if(img)  page.primaryImageOfPage={"@type":"ImageObject","url":img};
+
+  var graph=[site,person,page];
+
+  var p=pd;
+  if(p){
+    var art={"@type":"BlogPosting","@id":canon+"#article",
+      "headline":head(p.getAttribute('data-title')||document.title),
+      "url":p.getAttribute('data-url')||canon,
+      "mainEntityOfPage":{"@id":canon+"#webpage"},
+      "isPartOf":{"@id":home+"#website"},
+      "author":{"@id":home+"#person"},
+      "publisher":{"@id":home+"#person"},
+      "inLanguage":"en"};
+    var pub=p.getAttribute('data-published'); if(pub) art.datePublished=pub;
+    // Posts carry their own revision stamp. Use it where it exists; leave
+    // dateModified off entirely where it does not, rather than inventing one.
+    var t=document.querySelector('time[itemprop="dateModified"][datetime]');
+    if(t) art.dateModified=t.getAttribute('datetime');
+    if(desc) art.description=desc;
+    var im=img||p.getAttribute('data-image'); if(im) art.image=[im];
+    graph.push(art);
+    page.mainEntity={"@id":canon+"#article"};
+  }
+
+  var s=document.createElement('script');
+  s.type='application/ld+json';
+  s.textContent=JSON.stringify({"@context":"https://schema.org","@graph":graph});
+  document.head.appendChild(s);
+})();
+//]]></script>
 </body>
 </html>
