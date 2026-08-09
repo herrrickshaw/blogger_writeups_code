@@ -2219,3 +2219,12 @@ Add 'The Working of the Indian Constitution' (Sengupta & Goyal, eds.) to author'
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 26,649 → 27,213 bytes (+564)
+
+## 2026-08-09T09:57:39+05:30 — 116 posts live
+
+New article: livestock population (20th Census 2019, cited by govt Dec 2025) vs milk production/yield (BAHS 2025) by state — UP scale vs Punjab efficiency, flags 21st Census results still unpublished
+
+
+**Added**
+
+- `up-has-indias-biggest-herd-punjab-has` **v1.0.0** — UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old. (18,493 bytes)

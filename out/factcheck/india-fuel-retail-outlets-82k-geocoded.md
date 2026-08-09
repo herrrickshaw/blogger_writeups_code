@@ -16,4 +16,20 @@ Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98973, Requested 1040. Please try again in 11.232s. Need more tokens? Upgrade to Dev Tier today at https:/]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99750, Requested 953. Please try again in 10m7.392s. Need more tokens? Upgrade to Dev Tier today at https:]
+
+## Mistral mistral-small-latest
+
+FACTUAL ERRORS:
+- "82,000 outlets" — The article itself notes that the count is approximate and lacks a stated source, date, or basis for the figure. Without a verifiable primary source (e.g., an official government register with a timestamp), this number cannot be confirmed as accurate. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the article acknowledges the lack of individual citations for datasets, it presents the 82,000 figure as a concrete count without clarifying the uncertainty or methodological limitations. This risks implying a false precision, as the figure’s reliability depends entirely on the unreferenced "outlet register." The reasoning gap lies in treating an uncited, approximate number as a definitive baseline for analysis. [confidence: high]
+
+## Kimi kimi-k2-0711-preview
+
+[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+
+## Cerebras gpt-oss-120b
+
+[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]

@@ -18,19 +18,19 @@ Source: `posts/cpi-inflation-heatmap-india-june-2026.html`
 
 FACTUAL ERRORS:
 - "CPI base year 2024" — The base year for CPI in India is typically updated periodically, but without access to the most current information, it's unclear if 2024 is the correct base year. [confidence: medium]
-- "The All-India rate is 4.38%" — Without real-time access to the most current data from MoSPI, it's impossible to verify if this rate is accurate as of June 2026. [confidence: medium]
+- "The All-India rate is 4.38%" — Without real-time access to the MoSPI dataset or the specific date of the data pull, it's challenging to verify if this rate is accurate as of June 2026. [confidence: low]
 
 INTERPRETATION ERRORS:
-- "13 of 28 states are tracked in this dataset" — This statement might imply that the remaining states have lower inflation, but the article itself notes that the rest have no reading, which does not necessarily mean they have low inflation. This could lead to an incorrect assumption about the distribution of inflation across states. [confidence: high]
-- "Ranked, hottest first" followed by the inflation rates — The ranking implies a direct comparison between states, but without considering the potential differences in economic conditions, population, or other factors that could influence inflation rates, this comparison might not be entirely fair or meaningful. [confidence: medium]
+- "13 of 28 states are tracked in this dataset... the rest have no reading here, not necessarily low inflation" — This statement implies that the absence of data for some states might be misinterpreted as low inflation, but it does not directly support the conclusion about where India's inflation runs hottest, as it does not account for the potential inflation rates in untracked states. [confidence: medium]
+- "Ranked, hottest first" followed by inflation rates — The ranking of states by inflation rate assumes that the listed rates are comprehensive and comparable, which might not be the case if the dataset lacks representation from all states, potentially leading to an incomplete picture of where inflation is highest. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Combined-sector CPI, year-on-year inflation by state, June 2026, shaded low to high against the scale below. The All-India rate is 4.38%." — The claim references June 2026 inflation data, which is a future date and cannot be verified as factual. [confidence: high]
+- "Combined-sector CPI, year-on-year inflation by state, June 2026" — The claim states June 2026, which is a future date and cannot be verified as it has not yet occurred. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "13 of 28 states are tracked in this dataset (see the earlier CPI/WPI trend chart); the rest have no reading here, not necessarily low inflation." — The claim suggests that the absence of data for 15 states does not imply low inflation, but the article does not provide any evidence or data to support this interpretation. The reasoning gap is that the claim assumes the missing data is not indicative of low inflation without any supporting analysis or context. [confidence: medium]
+- "13 of 28 states are tracked in this dataset (see the earlier CPI/WPI trend chart); the rest have no reading here, not necessarily low inflation." — The claim implies that the absence of data for 15 states does not indicate low inflation, but it also does not rule out the possibility of missing data due to other reasons (e.g., methodological limitations). The interpretation lacks clarity on why the missing data does not suggest low inflation, creating a reasoning gap. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

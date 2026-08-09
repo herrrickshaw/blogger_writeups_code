@@ -16,4 +16,20 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98929, Requested 1230. Please try again in 2m17.376s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99500, Requested 814. Please try again in 4m31.296s. Need more tokens? Upgrade to Dev Tier today at https:]
+
+## Mistral mistral-small-latest
+
+FACTUAL ERRORS:
+- "17th and 18th Lok Sabha (2019-06-21 → 2026-08-04)" — The 17th Lok Sabha was in office from 2019 to 2024, and the 18th Lok Sabha began in 2024. The date range provided (2019-06-21 to 2026-08-04) incorrectly extends the 18th Lok Sabha's term beyond its actual start date. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — The claim implies that the classification system ensures identical filtering between the registry and the Quarterly Reportage, but the article itself notes that the registry only captures "scheme-titled questions" and not every mention of a scheme. This creates a gap where questions discussing a scheme without naming it in the subject line are excluded, leading to inconsistent filtering. [confidence: high]
+
+## Kimi kimi-k2-0711-preview
+
+[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+
+## Cerebras gpt-oss-120b
+
+[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
