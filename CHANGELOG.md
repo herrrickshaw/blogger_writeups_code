@@ -2326,3 +2326,12 @@ Correct/strengthen livestock census article: verified via direct PIB fetch that 
 - `inflation-trends-globally-what-five` — 46,412 → 46,416 bytes (+4)
 - `fci-storage-scenario-capacity-stock-and` — 9,651 → 9,589 bytes (-62)
 - `fci-grain-flow-procurement-storage` — 28,018 → 28,030 bytes (+12)
+
+## 2026-08-09T10:55:33+05:30 — 117 posts live
+
+New article: DTAA (97 countries) vs FTA network (9 new-generation + 10 legacy agreements) comparison
+
+
+**Added**
+
+- `india-has-tax-treaties-with-97` **v1.0.0** — India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them (18,919 bytes)
