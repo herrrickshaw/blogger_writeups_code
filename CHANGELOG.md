@@ -2266,3 +2266,13 @@ Correct/strengthen livestock census article: verified via direct PIB fetch that 
 
 - `up-has-indias-biggest-herd-punjab-has` — 18,493 → 19,499 bytes (+1,006)
 - `indias-wholesale-prices-next-to` — 34,011 → 33,757 bytes (-254)
+
+## 2026-08-09T10:36:19+05:30 — 116 posts live
+
+**Versions**
+
+- `priority-trade-partners-by-import` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `priority-trade-partners-by-import` — 36,981 → 36,981 bytes (+0)
