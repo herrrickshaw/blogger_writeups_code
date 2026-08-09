@@ -12,6 +12,11 @@ credentials.env). The panel:
 
     Gemini     gemini-flash-latest (ungrounded — see note in ask_gemini)
     Groq       llama-3.3-70b-versatile (see note by GROQ_MODELS)
+    Mistral    mistral-small-latest (see note by MISTRAL_MODEL) — key added
+               2026-08-09, confirmed working incl. full-post-sized prompts;
+               a REQUIRED/load-bearing model like Gemini and Groq, not
+               best-effort, since it's the one that keeps the batch moving
+               on days Gemini/Groq are quota-capped.
     Kimi       kimi-k2-0711-preview via Moonshot AI (see note by KIMI_MODEL) —
                key added 2026-08-09; account had zero balance as of that date,
                so calls 429 with "insufficient balance" until it's funded.
@@ -98,6 +103,11 @@ KIMI_URL = "https://api.moonshot.ai/v1/chat/completions"
 # the largest/best available once billing is sorted out.
 CEREBRAS_MODEL = "gpt-oss-120b"
 CEREBRAS_URL = "https://api.cerebras.ai/v1/chat/completions"
+
+# Mistral, OpenAI-compatible endpoint. Confirmed working on both a one-word
+# prompt and a ~8000-word one.
+MISTRAL_MODEL = "mistral-small-latest"
+MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
 
 PROMPT = """You are fact-checking a published article for an India-focused economics
 blog. Read the article text below and report two DISTINCT kinds of problems only.
@@ -232,6 +242,27 @@ def ask_kimi(k, text):
         return f"[Kimi unexpected response: {json.dumps(d)[:300]}]"
 
 
+def ask_mistral(k, text):
+    body = {
+        "model": MISTRAL_MODEL,
+        "messages": [{"role": "user", "content": PROMPT.format(text=text)}],
+        "temperature": 0.1,
+    }
+    req = urllib.request.Request(
+        MISTRAL_URL, data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json", "Authorization": f"Bearer {k}", "User-Agent": UA})
+    try:
+        d = json.loads(urllib.request.urlopen(req, timeout=120).read())
+    except urllib.error.HTTPError as e:
+        return f"[Mistral API error {e.code}: {e.read().decode()[:300]}]"
+    except urllib.error.URLError as e:
+        return f"[Mistral network error: {e}]"
+    try:
+        return d["choices"][0]["message"]["content"].strip()
+    except (KeyError, IndexError):
+        return f"[Mistral unexpected response: {json.dumps(d)[:300]}]"
+
+
 def ask_cerebras(k, text):
     body = {
         "model": CEREBRAS_MODEL,
@@ -253,12 +284,17 @@ def ask_cerebras(k, text):
         return f"[Cerebras unexpected response: {json.dumps(d)[:300]}]"
 
 
-# Kimi and Cerebras are best-effort, not load-bearing: as of 2026-08-09 the
+# Mistral joins Gemini/Groq as required/load-bearing: confirmed working, and
+# it's the one that keeps a day's batch moving when Gemini/Groq are quota-
+# capped (all_failed only trips if ALL required models fail together, so
+# Mistral alone succeeding keeps the run going instead of stopping early).
+#
+# Kimi and Cerebras stay best-effort, not required: as of 2026-08-09 the
 # Moonshot account has zero balance and the Cerebras account 402s on every
 # call — both fail until funded. Gating "done" or the early-stop-on-quota-wall
 # check on either would mean no post is EVER marked done and the daily cron
 # re-runs all 118 posts from scratch forever.
-REQUIRED_MODELS = ("Gemini", "Groq")
+REQUIRED_MODELS = ("Gemini", "Groq", "Mistral")
 
 
 def failed(out):
@@ -279,14 +315,14 @@ def already_done(slug):
     return bool(required) and not any(failed(s) for s in required)
 
 
-def run_one(path, gk, qk, kk, ck):
+def run_one(path, gk, qk, mk, kk, ck):
     text = extract_text(path)
     slug = pathlib.Path(path).stem
     print(f"… {slug}  ({len(text)} chars)")
 
     if len(text) > MAX_CHARS:
         note = (f"[SKIPPED: too large — {len(text):,} chars exceeds the {MAX_CHARS:,}-char cap. "
-                 "Both Gemini and Groq have failed outright on posts this size regardless of "
+                 "Gemini and Groq have both failed outright on posts this size regardless of "
                  "quota status; needs a chunked approach, not a straight send. Not retried on "
                  "future --all runs unless this file is edited.]")
         OUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -299,6 +335,8 @@ def run_one(path, gk, qk, kk, ck):
     for m in GROQ_MODELS:
         results.append((f"Groq {m}", ask_groq(qk, m, text)))
         time.sleep(1)  # be polite to the free tier
+    results.append((f"Mistral {MISTRAL_MODEL}", ask_mistral(mk, text)))
+    time.sleep(1)
     if kk:
         results.append((f"Kimi {KIMI_MODEL}", ask_kimi(kk, text)))
         time.sleep(1)
@@ -336,6 +374,7 @@ def main():
     blob = creds()
     gk = key("GEMINI_API_KEY", blob)
     qk = key("GROQ_API_KEY", blob)
+    mk = key("MISTRAL_API_KEY", blob)
     kk = key_optional("MOONSHOT_API_KEY", blob)
     ck = key_optional("CEREBRAS_API_KEY", blob)
 
@@ -356,7 +395,7 @@ def main():
         if not pathlib.Path(f).exists():
             print(f"skip (not found): {f}", file=sys.stderr)
             continue
-        _, all_failed = run_one(f, gk, qk, kk, ck)
+        _, all_failed = run_one(f, gk, qk, mk, kk, ck)
         if args.all and all_failed:
             consecutive_failures += 1
             if consecutive_failures >= 2:
