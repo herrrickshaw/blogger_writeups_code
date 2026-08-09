@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-08-08T14:22:03.418+05:30",
+  "updated": "2026-08-09T10:42:08.708+05:30",
   "labels": [],
-  "bytes": 14418,
-  "sha256": "54921f3d02aa7391d0091e5ff61e259b132c97c7eba63cb45c664bbfc0ab7ea9",
+  "bytes": 14593,
+  "sha256": "08bc2f4d34761a8550f28c066bdaaec6fd5b16f7bf939ed3668bd62ad947bcd0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-09T10:42:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        14418,
+        14593
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

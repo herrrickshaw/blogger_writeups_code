@@ -2276,3 +2276,19 @@ Correct/strengthen livestock census article: verified via direct PIB fetch that 
 **Changed**
 
 - `priority-trade-partners-by-import` — 36,981 → 36,981 bytes (+0)
+
+## 2026-08-09T10:42:28+05:30 — 116 posts live
+
+**Versions**
+
+- `indias-animal-protein-export-complex` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fuel-pricing-to-crude-cost` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `hsn-wise-historical-importexport-trends` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `iem-conversion-historical-performance` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-animal-protein-export-complex` — 9,638 → 9,692 bytes (+54)
+- `fuel-pricing-to-crude-cost` — 73,204 → 73,204 bytes (+0)
+- `hsn-wise-historical-importexport-trends` — 25,887 → 25,897 bytes (+10)
+- `iem-conversion-historical-performance` — 14,418 → 14,593 bytes (+175)
