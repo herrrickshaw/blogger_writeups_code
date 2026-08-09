@@ -2251,3 +2251,18 @@ Rebuild article index: 114 articles including new livestock census post
 **Changed**
 
 - `cocoas-blockchain-reckoning-one` — 16,918 → 16,965 bytes (+47)
+
+## 2026-08-09T10:34:49+05:30 — 116 posts live
+
+Correct/strengthen livestock census article: verified via direct PIB fetch that the ministry's own 25 Mar 2025 written reply (its own census target date) states 21st Census enumeration was still ongoing and falls back to 2019 data — replaces earlier vaguer Oct2024-Feb2025 claim with this precisely dated, directly-sourced fact
+
+
+**Versions**
+
+- `up-has-indias-biggest-herd-punjab-has` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+- `indias-wholesale-prices-next-to` **6.0.2 → 6.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `up-has-indias-biggest-herd-punjab-has` — 18,493 → 19,499 bytes (+1,006)
+- `indias-wholesale-prices-next-to` — 34,011 → 33,757 bytes (-254)

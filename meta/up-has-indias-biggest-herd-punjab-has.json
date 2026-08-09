@@ -3,13 +3,13 @@
   "title": "UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
-  "published": "2026-08-09T09:57:06.894+05:30",
-  "updated": "2026-08-09T09:57:06.894+05:30",
+  "published": "2026-08-09T09:57:06.000+05:30",
+  "updated": "2026-08-09T10:34:20.097+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 18493,
-  "sha256": "1664904b508ec2da98caee97e1b8c14dc4113c8334e04e610de3f9b94530d0f7",
+  "bytes": 19499,
+  "sha256": "95766c91c1e6b21aae3af490792267b246d52a9ce296cc9201f7e6e022926c48",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New article: livestock population (20th Census 2019, cited by govt Dec 2025) vs milk production/yield (BAHS 2025) by state — UP scale vs Punjab efficiency, flags 21st Census results still unpublished"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-09T10:34:49+05:30",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        18493,
+        19499
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Correct/strengthen livestock census article: verified via direct PIB fetch that the ministry's own 25 Mar 2025 written reply (its own census target date) states 21st Census enumeration was still ongoing and falls back to 2019 data — replaces earlier vaguer Oct2024-Feb2025 claim with this precisely dated, directly-sourced fact"
     }
   ]
 }

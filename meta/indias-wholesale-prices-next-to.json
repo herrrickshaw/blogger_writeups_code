@@ -4,12 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.000+05:30",
-  "updated": "2026-08-08T14:14:09.497+05:30",
-  "labels": [
-    "Prices & Inflation"
-  ],
-  "bytes": 34011,
-  "sha256": "64865196595a9a8ea61eb72673a3c099f4f852fcd57500154962f37f82c40cd9",
+  "updated": "2026-08-09T10:07:31.080+05:30",
+  "labels": [],
+  "bytes": 33757,
+  "sha256": "656c0de5c8a04562274f89eeaf897dc16038de7c9344d2b46bf50bbbc4d98dcc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.2",
+  "version": "6.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +131,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "6.0.3",
+      "date": "2026-08-09T10:34:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34011,
+        33757
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Correct/strengthen livestock census article: verified via direct PIB fetch that the ministry's own 25 Mar 2025 written reply (its own census target date) states 21st Census enumeration was still ongoing and falls back to 2019 data — replaces earlier vaguer Oct2024-Feb2025 claim with this precisely dated, directly-sourced fact"
     }
   ]
 }
