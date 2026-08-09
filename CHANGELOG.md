@@ -2206,3 +2206,16 @@ Site-wide diagram audit: reviewed all 112 articles for whether an explanatory li
 - `chemical-import-substitution-quarterly` — 46,880 → 47,425 bytes (+545)
 - `chemical-import-substitution-analysis` — 26,062 → 26,817 bytes (+755)
 - `ai-high-demand-launch-tracker` — 18,500 → 18,598 bytes (+98)
+
+## 2026-08-09T09:29:24+05:30 — 115 posts live
+
+Add 'The Working of the Indian Constitution' (Sengupta & Goyal, eds.) to author's shelf; rebuild+republish Shop page (12→13 items)
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **4.0.1 → 4.1.0** (MINOR) — prose grew 3,600→3,681 chars with no new figures
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 26,649 → 27,213 bytes (+564)

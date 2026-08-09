@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-09T04:20:53.763+05:30",
+  "updated": "2026-08-09T09:28:52.076+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 26649,
-  "sha256": "147e8f9170a6d397006c9c24ed90be1a9edeff0e9eb6f45efe77e5b0032733fc",
+  "bytes": 27213,
+  "sha256": "dc9dc6613861d9cc653bc79f10f3a2e16021d23846443d64785f9e363688c879",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add GOBARdhan primary-source detail (PM India press release) to biogas-rocket-fuel article: exact plant count, six growth engines, ₹2,110/MMBTU pricing, capital assistance, named feedstocks"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-08-09T09:29:24+05:30",
+      "level": "minor",
+      "reason": "prose grew 3,600→3,681 chars with no new figures",
+      "bytes": [
+        26649,
+        27213
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'The Working of the Indian Constitution' (Sengupta & Goyal, eds.) to author's shelf; rebuild+republish Shop page (12→13 items)"
     }
   ]
 }
