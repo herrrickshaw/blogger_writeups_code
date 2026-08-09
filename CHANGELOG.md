@@ -2228,3 +2228,16 @@ New article: livestock population (20th Census 2019, cited by govt Dec 2025) vs 
 **Added**
 
 - `up-has-indias-biggest-herd-punjab-has` **v1.0.0** — UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old. (18,493 bytes)
+
+## 2026-08-09T09:59:00+05:30 — 116 posts live
+
+Rebuild article index: 114 articles including new livestock census post
+
+
+**Versions**
+
+- `article-index-start-here` **14.0.0 → 15.0.0** (MAJOR) — figures changed (+3/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 143,968 → 148,518 bytes (+4,550)
