@@ -2241,3 +2241,13 @@ Rebuild article index: 114 articles including new livestock census post
 **Changed**
 
 - `article-index-start-here` — 143,968 → 148,518 bytes (+4,550)
+
+## 2026-08-09T10:04:20+05:30 — 116 posts live
+
+**Versions**
+
+- `cocoas-blockchain-reckoning-one` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `cocoas-blockchain-reckoning-one` — 16,918 → 16,965 bytes (+47)

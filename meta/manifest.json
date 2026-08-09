@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T09:59:00+05:30",
+  "snapshot": "2026-08-09T10:04:20+05:30",
   "count": 116,
   "posts": {
     "1157999291079244419": {
@@ -7580,13 +7580,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
       "slug": "cocoas-blockchain-reckoning-one",
       "published": "2026-08-08T21:27:49.000+05:30",
-      "updated": "2026-08-08T22:05:12.428+05:30",
-      "labels": [
-        "Industrial Policy",
-        "Trade & Tariffs"
-      ],
-      "bytes": 16918,
-      "sha256": "38a10049fa5ed34d94d020e3aae871bea420ac0cb8cd556246aab58fc2e8eb34",
+      "updated": "2026-08-09T10:04:00.755+05:30",
+      "labels": [],
+      "bytes": 16965,
+      "sha256": "a98e85cc4e4289744b2210cb0296160b432cd64648e69300ced76a6796fa10fe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7598,7 +7595,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7606,6 +7603,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: cocoa/chocolate blockchain traceability — TradeLens's 2022 discontinuation, GIZ's MiCacao pilot (targets vs unverified outcomes), Tony's Chocolonely's earlier Beantracker effort, and the EUDR's twice-delayed Dec 2026 deadline as the real forcing function"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-09T10:04:20+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            16918,
+            16965
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
