@@ -4,14 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
   "slug": "indias-food-processing-story-pli-scheme",
   "published": "2026-08-08T21:33:25.000+05:30",
-  "updated": "2026-08-08T22:05:20.316+05:30",
-  "labels": [
-    "Agriculture & Fertilisers",
-    "Industrial Policy",
-    "Trade & Tariffs"
-  ],
-  "bytes": 17346,
-  "sha256": "b0b27ffaa95eee69595f21cc428bd8f3c2e3665935bab867b8c66038b2d83882",
+  "updated": "2026-08-09T10:48:49.538+05:30",
+  "labels": [],
+  "bytes": 17359,
+  "sha256": "836f313f15e69af529aa92332cf8be7cedf4ebf888cbbbca41c78a3eeaf7de65",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New article: India food processing — PLISFPI overshooting its own job target, Mega Food Parks, and the ₹92,651cr/yr cold-chain gap the growth numbers sit on top of; flagged 2023-24 wheat-ban precedent as export-policy risk"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-09T10:50:32+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        17346,
+        17359
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

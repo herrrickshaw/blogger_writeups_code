@@ -2302,3 +2302,13 @@ Correct/strengthen livestock census article: verified via direct PIB fetch that 
 **Changed**
 
 - `indias-tyre-waste-problem-and-crumb` — 11,882 → 11,882 bytes (+0)
+
+## 2026-08-09T10:50:32+05:30 — 116 posts live
+
+**Versions**
+
+- `indias-food-processing-story-pli-scheme` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-food-processing-story-pli-scheme` — 17,346 → 17,359 bytes (+13)
