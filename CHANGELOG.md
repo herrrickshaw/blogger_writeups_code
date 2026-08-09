@@ -2182,3 +2182,27 @@ Site-wide diagram audit: reviewed all 112 articles for whether an explanatory li
 **Changed**
 
 - `the-grain-value-loop-integrated-rice` — 71,075 → 71,456 bytes (+381)
+
+## 2026-08-09T07:19:06+05:30 — 115 posts live
+
+**Versions**
+
+- `beyond-pump-what-upi-fee-would-cost` **3.0.0 → 3.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cheap-yen-rupee-roads-where-carry-trade` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-hsn-8-registry` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `annexure-314-hsn-codes-mapped-to` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `announced-vs-delivered-three-indian` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-quarterly` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-analysis` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ai-high-demand-launch-tracker` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `beyond-pump-what-upi-fee-would-cost` — 29,472 → 29,466 bytes (-6)
+- `cheap-yen-rupee-roads-where-carry-trade` — 18,458 → 18,495 bytes (+37)
+- `chemical-import-substitution-hsn-8-registry` — 15,134 → 15,238 bytes (+104)
+- `annexure-314-hsn-codes-mapped-to` — 39,288 → 39,518 bytes (+230)
+- `announced-vs-delivered-three-indian` — 38,994 → 38,996 bytes (+2)
+- `chemical-import-substitution-quarterly` — 46,880 → 47,425 bytes (+545)
+- `chemical-import-substitution-analysis` — 26,062 → 26,817 bytes (+755)
+- `ai-high-demand-launch-tracker` — 18,500 → 18,598 bytes (+98)

@@ -4,13 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-08-08T14:19:45.849+05:30",
-  "labels": [
-    "Industrial Policy",
-    "Mobility & EV"
-  ],
-  "bytes": 38994,
-  "sha256": "73980b18f6f7a94a4f06f5f57df5ce7ca986b0d237966aa765799cd2cdeb9b8a",
+  "updated": "2026-08-09T07:18:10.127+05:30",
+  "labels": [],
+  "bytes": 38996,
+  "sha256": "ac3f9747ce0be31be02ecdaddbcb10db188bf230652995c56d3d6f3cd4131762",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-09T07:19:06+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        38994,
+        38996
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

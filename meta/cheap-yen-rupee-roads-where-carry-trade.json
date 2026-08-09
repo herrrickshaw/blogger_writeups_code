@@ -4,14 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
   "slug": "cheap-yen-rupee-roads-where-carry-trade",
   "published": "2026-08-08T19:13:15.000+05:30",
-  "updated": "2026-08-08T19:13:52.363+05:30",
-  "labels": [
-    "Climate & Carbon",
-    "Industrial Policy",
-    "Markets & Finance"
-  ],
-  "bytes": 18458,
-  "sha256": "a9e10d2472ba2e069c3fc61ebc47b9b4bd5ba6bb3f5eed1088717ee7fb6b2fa1",
+  "updated": "2026-08-09T07:18:27.850+05:30",
+  "labels": [],
+  "bytes": 18495,
+  "sha256": "f251131a2e0804c92ffcedcdf2207dcd58aeb8249dd525ac077a68a1fb90aec9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-09T07:19:06+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18458,
+        18495
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

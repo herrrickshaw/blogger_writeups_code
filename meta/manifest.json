@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T05:34:07+05:30",
+  "snapshot": "2026-08-09T07:19:06+05:30",
   "count": 115,
   "posts": {
     "1157999291079244419": {
@@ -646,14 +646,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-08-08T19:13:52.363+05:30",
-      "labels": [
-        "Climate & Carbon",
-        "Industrial Policy",
-        "Markets & Finance"
-      ],
-      "bytes": 18458,
-      "sha256": "a9e10d2472ba2e069c3fc61ebc47b9b4bd5ba6bb3f5eed1088717ee7fb6b2fa1",
+      "updated": "2026-08-09T07:18:27.850+05:30",
+      "labels": [],
+      "bytes": 18495,
+      "sha256": "f251131a2e0804c92ffcedcdf2207dcd58aeb8249dd525ac077a68a1fb90aec9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -665,7 +661,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -673,6 +669,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "MDR post: NPCI-scale exhibit; new post: project bonds x carry"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            18458,
+            18495
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -760,12 +769,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-08T14:23:25.692+05:30",
-      "labels": [
-        "AI Tools"
-      ],
-      "bytes": 18500,
-      "sha256": "74e350bcc88e17743195981dfc312ea954128ef51b7b4215d671cce78cc13092",
+      "updated": "2026-08-09T07:16:09.985+05:30",
+      "labels": [],
+      "bytes": 18598,
+      "sha256": "b650e3d2116763e30030bcc6cc6b6174135d41005985f8dec13b732f4dbb0c25",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -777,7 +784,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -860,6 +867,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            18500,
+            18598
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -1404,13 +1424,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-08T14:19:45.849+05:30",
-      "labels": [
-        "Industrial Policy",
-        "Mobility & EV"
-      ],
-      "bytes": 38994,
-      "sha256": "73980b18f6f7a94a4f06f5f57df5ce7ca986b0d237966aa765799cd2cdeb9b8a",
+      "updated": "2026-08-09T07:18:10.127+05:30",
+      "labels": [],
+      "bytes": 38996,
+      "sha256": "ac3f9747ce0be31be02ecdaddbcb10db188bf230652995c56d3d6f3cd4131762",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1422,7 +1439,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1456,6 +1473,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            38994,
+            38996
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -2072,14 +2102,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-08T14:22:47.803+05:30",
-      "labels": [
-        "Chemicals",
-        "Import Substitution",
-        "Trade & Tariffs"
-      ],
-      "bytes": 26062,
-      "sha256": "3fb80543cddb368f1cb1603e0cd23791078d2c95de92ac8eab10a0f6b361ff09",
+      "updated": "2026-08-09T07:15:34.223+05:30",
+      "labels": [],
+      "bytes": 26817,
+      "sha256": "4b282e67b254479fd117e39f4473896c5e7bdf7f6abc6936cd94f3bd34a3b6fa",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2091,7 +2117,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2143,6 +2169,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            26062,
+            26817
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -4488,13 +4527,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
       "published": "2026-08-08T20:01:53.000+05:30",
-      "updated": "2026-08-08T20:13:23.798+05:30",
-      "labels": [
-        "Industrial Policy",
-        "Markets & Finance"
-      ],
-      "bytes": 29472,
-      "sha256": "c58c91e6c46cbb2f1062ea1081033301d34b17e32d903f3d6df625b9ba6de2d0",
+      "updated": "2026-08-09T07:16:18.571+05:30",
+      "labels": [],
+      "bytes": 29466,
+      "sha256": "ed88e7d64c040874023b54eb0e165e4e89486241751b5d3657e39f883c671499",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4506,7 +4542,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "3.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4540,6 +4576,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Added card-network fee comparison (Exhibit 1): UPI/RuPay-debit 0%, Visa/Mastercard debit RBI-capped 0.3-0.9%, RuPay-credit-on-UPI ~2%, Visa/Mastercard/RuPay standalone credit 1.5-2.5% — direct answer to the article's title question"
+        },
+        {
+          "version": "3.0.1",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            29472,
+            29466
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -4642,14 +4691,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-08T14:22:35.590+05:30",
-      "labels": [
-        "Chemicals",
-        "Import Substitution",
-        "Trade & Tariffs"
-      ],
-      "bytes": 46880,
-      "sha256": "ab7112b3ee3c8ab2ea4a6a071da9fa4a0d5c1c08b9e7b03367b81b7729515ca1",
+      "updated": "2026-08-09T07:15:44.123+05:30",
+      "labels": [],
+      "bytes": 47425,
+      "sha256": "7c0289176ec47d215ae3b07c62d53065ddcd9be99155897d580024765681d4bf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4661,7 +4706,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4713,6 +4758,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            46880,
+            47425
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -4934,12 +4992,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
       "slug": "annexure-314-hsn-codes-mapped-to",
       "published": "2026-08-03T09:53:02.000+05:30",
-      "updated": "2026-08-08T14:19:00.947+05:30",
-      "labels": [
-        "Textiles"
-      ],
-      "bytes": 39288,
-      "sha256": "d89b6b99a2fe56e851bf0426f745ae5a5abe832ee226204ec141593ab355feb9",
+      "updated": "2026-08-09T07:18:18.355+05:30",
+      "labels": [],
+      "bytes": 39518,
+      "sha256": "83656a3fc7ca067d8a5c076870970a090981672bd984d142ef49acde224be169",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4951,7 +5007,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4985,6 +5041,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            39288,
+            39518
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -6172,12 +6241,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.000+05:30",
-      "updated": "2026-08-08T14:14:30.458+05:30",
-      "labels": [
-        "Import Substitution"
-      ],
-      "bytes": 15134,
-      "sha256": "b1bed0ccf54da9b1d4d4a32557515d2fa787393534fb1adc6ae16f630970b170",
+      "updated": "2026-08-09T07:15:52.833+05:30",
+      "labels": [],
+      "bytes": 15238,
+      "sha256": "40807bc02a91e758e4d3a3815443e8a8d92f652702fb77f2c42ba8e2324d082d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6189,7 +6256,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6276,6 +6343,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-08-09T07:19:06+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            15134,
+            15238
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
