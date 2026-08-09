@@ -2335,3 +2335,16 @@ New article: DTAA (97 countries) vs FTA network (9 new-generation + 10 legacy ag
 **Added**
 
 - `india-has-tax-treaties-with-97` **v1.0.0** — India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them (18,919 bytes)
+
+## 2026-08-09T10:57:08+05:30 — 117 posts live
+
+Rebuild article index: 115 articles including new DTAA/FTA post
+
+
+**Versions**
+
+- `article-index-start-here` **15.0.0 → 16.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 148,518 → 148,983 bytes (+465)

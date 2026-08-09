@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-09T09:58:28.681+05:30",
+  "updated": "2026-08-09T10:56:00.679+05:30",
   "labels": [],
-  "bytes": 148518,
-  "sha256": "7cd27a1a15376e8ad9810b43f4e537bb49c97adfb8cc1c9b032f969ab1c75106",
+  "bytes": 148983,
+  "sha256": "db632e6fa161e6d78e5e5e24a4c4e5417e2e3e166bea9bdcbead81a5b29ed1bf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "15.0.0",
+  "version": "16.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -248,6 +248,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild article index: 114 articles including new livestock census post"
+    },
+    {
+      "version": "16.0.0",
+      "date": "2026-08-09T10:57:08+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        148518,
+        148983
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index: 115 articles including new DTAA/FTA post"
     }
   ]
 }
