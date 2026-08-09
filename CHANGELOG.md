@@ -2172,3 +2172,13 @@ Site-wide diagram audit: reviewed all 112 articles for whether an explanatory li
 **Changed**
 
 - `the-grain-value-loop-integrated-rice` — 70,759 → 71,075 bytes (+316)
+
+## 2026-08-09T05:34:07+05:30 — 115 posts live
+
+**Versions**
+
+- `the-grain-value-loop-integrated-rice` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-grain-value-loop-integrated-rice` — 71,075 → 71,456 bytes (+381)

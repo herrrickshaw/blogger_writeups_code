@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-08-09T05:10:38.633+05:30",
+  "updated": "2026-08-09T05:33:48.937+05:30",
   "labels": [],
-  "bytes": 71075,
-  "sha256": "c6e589ebbb4892fb18d566572fc4136216a776e4f7e7dc00da2b2dcc11676282",
+  "bytes": 71456,
+  "sha256": "45bbdc9fbc03fee149cbc94b31532253ff6b0c52c79dcac749f5822bb087ebdf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -106,6 +106,19 @@
       "bytes": [
         70759,
         71075
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-09T05:34:07+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        71075,
+        71456
       ],
       "url_changed": null,
       "markers_changed": null,
