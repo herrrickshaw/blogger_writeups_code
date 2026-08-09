@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T10:42:28+05:30",
+  "snapshot": "2026-08-09T10:46:25+05:30",
   "count": 116,
   "posts": {
     "1157999291079244419": {
@@ -275,12 +275,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
       "slug": "indias-tyre-waste-problem-and-crumb",
       "published": "2026-08-05T14:30:35.000+05:30",
-      "updated": "2026-08-08T14:15:45.386+05:30",
-      "labels": [
-        "Trade & Tariffs"
-      ],
+      "updated": "2026-08-09T10:46:02.363+05:30",
+      "labels": [],
       "bytes": 11882,
-      "sha256": "5735d692784d71df4e8d0a0c1105dd06ec88dc4bdfccf7a03e0d0ac35649f1ff",
+      "sha256": "ac8ca0ff5057d91aef4353b3e8107dfa39e957697053b766677062dcf48b4c81",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -292,7 +290,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -326,6 +324,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-09T10:46:25+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            11882,
+            11882
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
