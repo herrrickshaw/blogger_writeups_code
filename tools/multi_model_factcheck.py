@@ -44,7 +44,29 @@ CREDS = pathlib.Path(os.path.expanduser("~/.config/market-secrets/credentials.en
 # page. Fact-checking normal CV phrasing or a link list against "is this
 # verifiable" produces noise, not findings (confirmed on about-author.html:
 # both models flagged ordinary résumé bullets as unverified claims).
-SKIP_SLUGS = {"about-author", "article-index-start-here"}
+#
+# Plus two stale snapshot files: chemical-import-substitution-full-hsn-8
+# _0307512735 and _0459870800 share the exact Blogger post id
+# (6790374087242629357) with chemical-import-substitution-hsn-8-registry —
+# same live post, trimmed from a 384KB raw dump to 15KB since 2026-08-06, but
+# the old under-old-filename snapshots are still sitting in posts/. Checking
+# them re-analyzes content that's no longer live. _drafted-chemical-import-
+# substitution-full-hsn-8 has no meta/*.json at all — an unpublished local
+# draft, not a live post.
+SKIP_SLUGS = {
+    "about-author", "article-index-start-here",
+    "chemical-import-substitution-full-hsn-8_0307512735",
+    "chemical-import-substitution-full-hsn-8_0459870800",
+    "_drafted-chemical-import-substitution-full-hsn-8",
+}
+
+# Groq's llama-3.3-70b-versatile has handled a ~34K-char post cleanly and choked
+# (413/429) on ~200K-char ones; the real per-request ceiling sits somewhere
+# between. 100,000 chars is a conservative cut well above every post that has
+# worked so far. A post over this is skipped with a note, not sent — better
+# than burning both models' per-request budget on a guaranteed failure and
+# tripping the early-stop logic for every post behind it in the same run.
+MAX_CHARS = 100_000
 
 # gemini-2.0-flash returns a hard "limit: 0" free-tier quota on this key (not a
 # transient rate limit); gemini-flash-latest is what this key actually has quota for.
@@ -199,16 +221,46 @@ def ask_kimi(k, text):
         return f"[Kimi unexpected response: {json.dumps(d)[:300]}]"
 
 
+# Kimi is best-effort, not load-bearing: the Moonshot account had zero balance
+# as of 2026-08-09 and will fail every call until funded. Gating "done" or the
+# early-stop-on-quota-wall check on Kimi succeeding would mean no post is EVER
+# marked done and the daily cron re-runs all 118 posts from scratch forever.
+REQUIRED_MODELS = ("Gemini", "Groq")
+
+
+def failed(out):
+    return "API error" in out or "network error" in out
+
+
 def already_done(slug):
-    """A clean prior report (no API error in it) — skip on resumed --all runs."""
+    """A clean prior report from the required models, or a deliberate too-large
+    skip (terminal — retrying won't make the post smaller) — skip on resumed runs."""
     p = OUT_DIR / f"{slug}.md"
-    return p.exists() and "API error" not in p.read_text(encoding="utf-8")
+    if not p.exists():
+        return False
+    text = p.read_text(encoding="utf-8")
+    if "SKIPPED: too large" in text:
+        return True
+    sections = re.split(r"^## ", text, flags=re.M)[1:]
+    required = [s for s in sections if s.startswith(REQUIRED_MODELS)]
+    return bool(required) and not any(failed(s) for s in required)
 
 
 def run_one(path, gk, qk, kk):
     text = extract_text(path)
     slug = pathlib.Path(path).stem
     print(f"… {slug}  ({len(text)} chars)")
+
+    if len(text) > MAX_CHARS:
+        note = (f"[SKIPPED: too large — {len(text):,} chars exceeds the {MAX_CHARS:,}-char cap. "
+                 "Both Gemini and Groq have failed outright on posts this size regardless of "
+                 "quota status; needs a chunked approach, not a straight send. Not retried on "
+                 "future --all runs unless this file is edited.]")
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        out_path = OUT_DIR / f"{slug}.md"
+        out_path.write_text(f"# Fact/interpretation check — {slug}\n\n{note}\n", encoding="utf-8")
+        print(f"  -> {out_path.relative_to(ROOT)}  [SKIPPED, too large]")
+        return out_path, False
 
     results = [("Gemini " + GEMINI_MODEL, ask_gemini(gk, text))]
     for m in GROQ_MODELS:
@@ -230,8 +282,9 @@ def run_one(path, gk, qk, kk):
     OUT_DIR.mkdir(parents=True, exist_ok=True)
     out_path = OUT_DIR / f"{slug}.md"
     out_path.write_text("\n".join(md), encoding="utf-8")
-    all_failed = all("API error" in out or "network error" in out for _, out in results)
-    print(f"  -> {out_path.relative_to(ROOT)}" + ("  [ALL CALLS FAILED]" if all_failed else ""))
+    required_results = [out for name, out in results if name.startswith(REQUIRED_MODELS)]
+    all_failed = all(failed(out) for out in required_results)
+    print(f"  -> {out_path.relative_to(ROOT)}" + ("  [ALL REQUIRED CALLS FAILED]" if all_failed else ""))
     return out_path, all_failed
 
 

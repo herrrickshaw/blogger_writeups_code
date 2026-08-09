@@ -16,10 +16,8 @@ Source: `posts/cocoas-blockchain-reckoning-one.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "30 Dec 2026 The EU Deforestation Regulation’s new deadline for large and medium operators — twice delayed already" — The article does not provide evidence that this is the third delay, only that it has been delayed twice, with the original deadline being 30 December 2024 and the first postponement being to 30 December 2025, and then to 30 December 2026 [confidence: medium]
-- None found for other factual errors
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98202, Requested 2836. Please try again in 14m56.832s. Need more tokens? Upgrade to Dev Tier today at http]
 
-INTERPRETATION ERRORS:
-- "A five-year, multinational blockchain logistics venture, backed by the world's largest shipping line and one of the world's largest technology companies, could not make the economics work." — This statement implies that the failure of TradeLens is due to the economics of blockchain technology itself, rather than the specific business model or implementation of TradeLens [confidence: high]
-- "Whether it hit those targets is a different question this article's research could not answer: no results report dated after the project's April 2025 close was found." — The article assumes that the lack of a results report means that the project's targets may not have been met, but it is also possible that the project was successful and a results report is forthcoming or has not been made publicly available [confidence: medium]
+## Kimi kimi-k2-0711-preview
+
+[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]

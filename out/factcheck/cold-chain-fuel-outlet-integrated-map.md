@@ -17,8 +17,12 @@ Source: `posts/cold-chain-fuel-outlet-integrated-map.html`
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "82k geocoded retail outlets" — The article does not provide a source to verify this specific number, but it does not necessarily mean it is incorrect. However, without a source, it cannot be confirmed. [confidence: medium]
+- "82k geocoded retail outlets" — The article does not provide a source to verify this specific number, but it does not necessarily mean it is incorrect. However, without a citation, it's difficult to confirm its accuracy. [confidence: medium]
 - "Part 3 of 3 in the CNG/CGD retail-mapping series" — There is no information provided in the given text to verify if this is indeed the third part of a series or if the series only has three parts. [confidence: low]
 
 INTERPRETATION ERRORS:
 - none found
+
+## Kimi kimi-k2-0711-preview
+
+[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
