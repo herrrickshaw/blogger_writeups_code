@@ -10,11 +10,15 @@ causal link, an overstated trend, a mismatched comparison).
 No DeepSeek key exists on this machine (checked ~/.config/market-secrets/
 credentials.env). The panel:
 
-    Gemini    gemini-flash-latest (ungrounded — see note in ask_gemini)
-    Groq      llama-3.3-70b-versatile (see note by GROQ_MODELS)
-    Kimi      kimi-k2-0711-preview via Moonshot AI (see note by KIMI_MODEL) —
-              key added 2026-08-09; account had zero balance as of that date,
-              so calls 429 with "insufficient balance" until it's funded.
+    Gemini     gemini-flash-latest (ungrounded — see note in ask_gemini)
+    Groq       llama-3.3-70b-versatile (see note by GROQ_MODELS)
+    Kimi       kimi-k2-0711-preview via Moonshot AI (see note by KIMI_MODEL) —
+               key added 2026-08-09; account had zero balance as of that date,
+               so calls 429 with "insufficient balance" until it's funded.
+    Cerebras   gpt-oss-120b (see note by CEREBRAS_MODEL) — key added
+               2026-08-09; this account 402s on every call, including a
+               one-word prompt, on all three models it lists — not the
+               free tier Cerebras otherwise advertises. Needs billing setup.
 
 Report-only. This never edits the post — it writes a markdown report for a
 human to read, the same "model output is not a verified fact" contract as
@@ -87,6 +91,13 @@ UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
 # key (not api.moonshot.cn — a 401 there, different account namespace).
 KIMI_MODEL = "kimi-k2-0711-preview"
 KIMI_URL = "https://api.moonshot.ai/v1/chat/completions"
+
+# Cerebras, OpenAI-compatible endpoint. This account's model list has no
+# Llama 3.3 70B (Cerebras' usual free-tier headline model) — only these three,
+# and all three 402 on every call regardless of size. gpt-oss-120b picked as
+# the largest/best available once billing is sorted out.
+CEREBRAS_MODEL = "gpt-oss-120b"
+CEREBRAS_URL = "https://api.cerebras.ai/v1/chat/completions"
 
 PROMPT = """You are fact-checking a published article for an India-focused economics
 blog. Read the article text below and report two DISTINCT kinds of problems only.
@@ -221,10 +232,32 @@ def ask_kimi(k, text):
         return f"[Kimi unexpected response: {json.dumps(d)[:300]}]"
 
 
-# Kimi is best-effort, not load-bearing: the Moonshot account had zero balance
-# as of 2026-08-09 and will fail every call until funded. Gating "done" or the
-# early-stop-on-quota-wall check on Kimi succeeding would mean no post is EVER
-# marked done and the daily cron re-runs all 118 posts from scratch forever.
+def ask_cerebras(k, text):
+    body = {
+        "model": CEREBRAS_MODEL,
+        "messages": [{"role": "user", "content": PROMPT.format(text=text)}],
+        "temperature": 0.1,
+    }
+    req = urllib.request.Request(
+        CEREBRAS_URL, data=json.dumps(body).encode(),
+        headers={"Content-Type": "application/json", "Authorization": f"Bearer {k}", "User-Agent": UA})
+    try:
+        d = json.loads(urllib.request.urlopen(req, timeout=120).read())
+    except urllib.error.HTTPError as e:
+        return f"[Cerebras API error {e.code}: {e.read().decode()[:300]}]"
+    except urllib.error.URLError as e:
+        return f"[Cerebras network error: {e}]"
+    try:
+        return d["choices"][0]["message"]["content"].strip()
+    except (KeyError, IndexError):
+        return f"[Cerebras unexpected response: {json.dumps(d)[:300]}]"
+
+
+# Kimi and Cerebras are best-effort, not load-bearing: as of 2026-08-09 the
+# Moonshot account has zero balance and the Cerebras account 402s on every
+# call — both fail until funded. Gating "done" or the early-stop-on-quota-wall
+# check on either would mean no post is EVER marked done and the daily cron
+# re-runs all 118 posts from scratch forever.
 REQUIRED_MODELS = ("Gemini", "Groq")
 
 
@@ -246,7 +279,7 @@ def already_done(slug):
     return bool(required) and not any(failed(s) for s in required)
 
 
-def run_one(path, gk, qk, kk):
+def run_one(path, gk, qk, kk, ck):
     text = extract_text(path)
     slug = pathlib.Path(path).stem
     print(f"… {slug}  ({len(text)} chars)")
@@ -268,6 +301,9 @@ def run_one(path, gk, qk, kk):
         time.sleep(1)  # be polite to the free tier
     if kk:
         results.append((f"Kimi {KIMI_MODEL}", ask_kimi(kk, text)))
+        time.sleep(1)
+    if ck:
+        results.append((f"Cerebras {CEREBRAS_MODEL}", ask_cerebras(ck, text)))
         time.sleep(1)
 
     md = [f"# Fact/interpretation check — {slug}", "",
@@ -301,6 +337,7 @@ def main():
     gk = key("GEMINI_API_KEY", blob)
     qk = key("GROQ_API_KEY", blob)
     kk = key_optional("MOONSHOT_API_KEY", blob)
+    ck = key_optional("CEREBRAS_API_KEY", blob)
 
     if args.all:
         files = sorted(glob.glob(str(ROOT / "posts" / "*.html")))
@@ -319,7 +356,7 @@ def main():
         if not pathlib.Path(f).exists():
             print(f"skip (not found): {f}", file=sys.stderr)
             continue
-        _, all_failed = run_one(f, gk, qk, kk)
+        _, all_failed = run_one(f, gk, qk, kk, ck)
         if args.all and all_failed:
             consecutive_failures += 1
             if consecutive_failures >= 2:
