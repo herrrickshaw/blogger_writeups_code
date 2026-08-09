@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-09T10:50:32+05:30",
+  "snapshot": "2026-08-09T10:54:39+05:30",
   "count": 116,
   "posts": {
     "1157999291079244419": {
@@ -3870,12 +3870,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-08T14:23:11.281+05:30",
-      "labels": [
-        "Agriculture & Fertilisers"
-      ],
-      "bytes": 28018,
-      "sha256": "fcf57e9fe45dfda293522c4d4d03f02e044451e06c18b207ae87382f1edbe268",
+      "updated": "2026-08-09T10:52:44.649+05:30",
+      "labels": [],
+      "bytes": 28030,
+      "sha256": "7f569ba573933323153b2cd3fb47096f311b8caf695e83490e039b8f8c70ffcb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3887,7 +3885,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3952,6 +3950,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-09T10:54:39+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            28018,
+            28030
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -5211,12 +5222,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.000+05:30",
-      "updated": "2026-08-08T20:27:49.086+05:30",
-      "labels": [
-        "Prices & Inflation"
-      ],
-      "bytes": 46412,
-      "sha256": "9dab0dcf1b1af91ed85401851ca80e4c5f3da519694bcd04e8c33e9b9620864f",
+      "updated": "2026-08-09T10:54:07.563+05:30",
+      "labels": [],
+      "bytes": 46416,
+      "sha256": "cfbcfaecb997dc5ef79c5decdae52a2a635ac893caa9d1913e865396f7d0fa21",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5228,7 +5237,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5301,6 +5310,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Inflation-trends article: added Exhibit 7 + verdict section on how middle-class families are actually doing, grounded in OECD real-wage bulletin (half of 37 OECD countries still below Q1 2021 real wages); explicit honest gap flagged for non-OECD economies (India/China/Brazil/South Africa/Indonesia/Saudi) where no comparable wage data exists"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-09T10:54:39+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            46412,
+            46416
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -5310,10 +5332,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
       "slug": "fci-storage-scenario-capacity-stock-and",
       "published": "2026-07-31T10:15:00.000+05:30",
-      "updated": "2026-08-08T14:22:55.486+05:30",
+      "updated": "2026-08-09T10:54:00.217+05:30",
       "labels": [],
-      "bytes": 9651,
-      "sha256": "21ad5a739227e03242d19e1e3a2720aba2baf686bbcaafa32a441d1e8beaeffc",
+      "bytes": 9589,
+      "sha256": "ef0dcea242fd8395d611ab977be37fa2a18d7d3b4917e05bd9a6ee3c9dc89a68",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5325,7 +5347,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5390,6 +5412,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-09T10:54:39+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            9651,
+            9589
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

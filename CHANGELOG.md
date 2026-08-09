@@ -2312,3 +2312,17 @@ Correct/strengthen livestock census article: verified via direct PIB fetch that 
 **Changed**
 
 - `indias-food-processing-story-pli-scheme` — 17,346 → 17,359 bytes (+13)
+
+## 2026-08-09T10:54:39+05:30 — 116 posts live
+
+**Versions**
+
+- `inflation-trends-globally-what-five` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fci-storage-scenario-capacity-stock-and` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fci-grain-flow-procurement-storage` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `inflation-trends-globally-what-five` — 46,412 → 46,416 bytes (+4)
+- `fci-storage-scenario-capacity-stock-and` — 9,651 → 9,589 bytes (-62)
+- `fci-grain-flow-procurement-storage` — 28,018 → 28,030 bytes (+12)
