@@ -2580,3 +2580,16 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 - `indias-carbon-credit-market-domestic` — 24,387 → 24,835 bytes (+448)
 - `bio-fertiliser-and-green-credits` — 38,308 → 38,885 bytes (+577)
 - `nature-versus-nurture-indias-fertiliser` — 71,621 → 72,182 bytes (+561)
+
+## 2026-08-10T04:16:26+00:00 — 121 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.0.0 → 7.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 37,858 → 37,977 bytes (+119)
