@@ -1,0 +1,37 @@
+# Language audit summary — 2026-08-10
+
+*33 of 123 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+
+- [Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html) — 3 matches — see `europe-bought-record-amount-of-lng-and.md`
+- [From Fuel to Fibre: India's Textile Import-Substitution Loop](https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html) — 3 matches — see `from-fuel-to-fibre-indias-textile.md`
+- [Petroleum Trade Pairings and the US Crude Storage Picture](https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html) — 3 matches — see `petroleum-trade-pairings-and-us-crude.md`
+- [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
+- [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 2 matches — see `annadata-to-urjadata-farmer-income-case.md`
+- [Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers](https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html) — 2 matches — see `announced-vs-delivered-three-indian.md`
+- [Indian IT in an AI Era](https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html) — 2 matches — see `indian-it-in-ai-era.md`
+- [India's Trade Balance — HSN-wise Export/Import Analysis](https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html) — 2 matches — see `indias-trade-balance-hsn-wise.md`
+- [India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check](https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html) — 2 matches — see `indias-wholesale-prices-next-to.md`
+- [IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html) — 2 matches — see `root-bgfff-fg1a1a1a-mut666-cardf6f6f4.md`
+- [The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html) — 2 matches — see `the-503020-rule-is-elizabeth-warrens.md`
+- [The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html) — 2 matches — see `the-rule-of-72-rule-of-114-and-how-to.md`
+- [Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html) — 2 matches — see `where-india-actually-burns-its-fuel.md`
+- [Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html) — 2 matches — see `where-indias-factories-actually-get.md`
+- [Annexure: 314 HSN Codes Mapped to Technical-Textile Segments](https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html) — 1 matches — see `annexure-314-hsn-codes-mapped-to.md`
+- [Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html) — 1 matches — see `cow-dung-already-flew-rocket-engine.md`
+- [CPI Inflation Heatmap — India, June 2026](https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html) — 1 matches — see `cpi-inflation-heatmap-india-june-2026.md`
+- [From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html) — 1 matches — see `diesel-doesnt-move-cpi-it-moves-40.md`
+- [Effective Buying Power & the China Comparison — Rupee Real Exchange Rate](https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html) — 1 matches — see `effective-buying-power-china-comparison.md`
+- [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html) — 1 matches — see `fourteen-years-of-indian-wholesale.md`
+- [India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.](https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html) — 1 matches — see `india-sells-world-53-billion-of-fuel.md`
+- [India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html) — 1 matches — see `indias-fertiliser-import-bill-hits-18.md`
+- [LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol](https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html) — 1 matches — see `lpgs-missing-number-7308-commission-and.md`
+- [Nature Versus Nurture: India's Fertiliser-Fed Food Security](https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html) — 1 matches — see `nature-versus-nurture-indias-fertiliser.md`
+- [RBI Foreign Exchange Reserves — 2015–2026](https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html) — 1 matches — see `rbi-foreign-exchange-reserves-20152026.md`
+- [Re-Spinning the Charkha](https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html) — 1 matches — see `re-spinning-charkha.md`
+- [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html) — 1 matches — see `the-empty-shed-greenhouse-what-indias.md`
+- [The Grain Value Loop — Integrated Rice Biorefinery Pitch](https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html) — 1 matches — see `the-grain-value-loop-integrated-rice.md`
+- [The Masala Deutsch Shop — Books & Things From the Articles](https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html) — 1 matches — see `the-masala-deutsch-shop-books-things.md`
+- [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
+- [AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of](https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html) — 0 matches — see `ai-high-demand-launch-tracker.md`
+- [Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?](https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html) — 0 matches — see `greenhouse-emissions-reduction-and-cbam.md`
+- [India's Ethanol Surplus Isn't Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative](https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html) — 0 matches — see `indias-ethanol-surplus-isnt-going-to.md`

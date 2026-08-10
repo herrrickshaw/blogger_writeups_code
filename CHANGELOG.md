@@ -2671,3 +2671,13 @@ scheduled sync
 - `nature-versus-nurture-indias-fertiliser` — 72,182 → 72,186 bytes (+4)
 - `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 118,791 → 118,790 bytes (-1)
 - `the-price-of-grain-msp-msv-and` — 29,538 → 29,536 bytes (-2)
+
+## 2026-08-10T17:51:40+05:30 — 122 posts live
+
+**Versions**
+
+- `article-index-start-here` **21.0.0 → 22.0.0** (MAJOR) — figures changed (+1/-8 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 155,991 → 165,267 bytes (+9,276)
