@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T08:44:09+05:30",
+  "snapshot": "2026-08-10T08:55:34+05:30",
   "count": 121,
   "posts": {
     "1157999291079244419": {
@@ -3418,12 +3418,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-08-10T08:42:18.367+05:30",
-      "labels": [
-        "Agriculture & Fertilisers"
-      ],
-      "bytes": 15812,
-      "sha256": "2545412a9719e845ae4bf503265b4308dbeff65112578ea2a8240258c1aa758f",
+      "updated": "2026-08-10T08:52:50.463+05:30",
+      "labels": [],
+      "bytes": 15309,
+      "sha256": "b867c54b1abc596d68754d8380b42e159d799a85523cc37489d15d234bc2ea82",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3435,13 +3433,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-10T08:42:52+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-10T08:55:34+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            15812,
+            15309
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
