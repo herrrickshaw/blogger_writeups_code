@@ -2383,3 +2383,12 @@ Add prominent standalone caveat: Rule of 72/114/144 apply only to one-time lump-
 **Changed**
 
 - `the-rule-of-72-rule-of-114-and-how-to` — 17,450 → 18,356 bytes (+906)
+
+## 2026-08-10T06:34:08+05:30 — 119 posts live
+
+New article: Thali Investing — diversification explainer across PPF/EPF/mutual funds/SIP/stocks/gold/pre-IPO, non-advisory framing, SEBI's 3rd unlisted-shares warning (Jun 2026)
+
+
+**Added**
+
+- `thali-investing-whats-actually-on-plate` **v1.0.0** — Thali Investing: What's Actually on the Plate When People Say "Diversify" (21,276 bytes)
