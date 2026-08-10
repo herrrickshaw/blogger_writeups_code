@@ -2440,3 +2440,16 @@ Rebuild article index: 118 articles including new 50/30/20 rule post
 **Changed**
 
 - `article-index-start-here` — 149,731 → 149,983 bytes (+252)
+
+## 2026-08-10T06:55:04+05:30 — 120 posts live
+
+Rewrite 50/30/20 article: removed all Warren Buffett references per request, added save-first framing grounded in the FIRE movement's 50-75% savings-rate benchmark instead
+
+
+**Versions**
+
+- `the-503020-rule-is-elizabeth-warrens` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `the-503020-rule-is-elizabeth-warrens` — 14,588 → 14,623 bytes (+35)

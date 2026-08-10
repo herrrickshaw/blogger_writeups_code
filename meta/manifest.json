@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T06:48:44+05:30",
+  "snapshot": "2026-08-10T06:55:04+05:30",
   "count": 120,
   "posts": {
     "1157999291079244419": {
@@ -4015,16 +4015,16 @@
     },
     "445167875999989915": {
       "id": "445167875999989915",
-      "title": "The 50/30/20 Rule Is Elizabeth Warren's, Not Warren Buffett's",
+      "title": "The 50/30/20 Rule — and the Case for Flipping It to Save First",
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
       "slug": "the-503020-rule-is-elizabeth-warrens",
-      "published": "2026-08-10T06:47:21.580+05:30",
-      "updated": "2026-08-10T06:47:21.580+05:30",
+      "published": "2026-08-10T06:47:21.000+05:30",
+      "updated": "2026-08-10T06:54:29.359+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 14588,
-      "sha256": "9cada73a21f3dbb8e63f1c7ff143431e38c5c507b7c296aaf7f1f13d86adb560",
+      "bytes": 14623,
+      "sha256": "2ae6f23e2d8f4c4369b3e799941cbe48c66c7d6aa09a3d5becfee3f8b5ef7553",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4036,7 +4036,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4044,6 +4044,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: 50/30/20 budgeting rule (Elizabeth Warren, 2005) with a factual correction — the widely-shared 'Warren Buffett flips it to 50% savings' claim could not be verified and appears to be a name-confusion with Elizabeth Warren; Buffett's actual on-record guidance is 10-20%"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-10T06:55:04+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-2 distinct numbers)",
+          "bytes": [
+            14588,
+            14623
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rewrite 50/30/20 article: removed all Warren Buffett references per request, added save-first framing grounded in the FIRE movement's 50-75% savings-rate benchmark instead"
         }
       ]
     },
