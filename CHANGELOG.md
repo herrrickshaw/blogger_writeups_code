@@ -2554,3 +2554,13 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 **Changed**
 
 - `ahidf-has-sanctioned-19751-crore-in` — 15,812 → 15,309 bytes (-503)
+
+## 2026-08-10T08:57:48+05:30 — 121 posts live
+
+**Versions**
+
+- `ahidf-has-sanctioned-19751-crore-in` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+
+**Changed**
+
+- `ahidf-has-sanctioned-19751-crore-in` — 15,309 → 15,978 bytes (+669)

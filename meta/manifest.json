@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T08:55:34+05:30",
+  "snapshot": "2026-08-10T08:57:48+05:30",
   "count": 121,
   "posts": {
     "1157999291079244419": {
@@ -3418,10 +3418,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-08-10T08:52:50.463+05:30",
+      "updated": "2026-08-10T08:57:19.275+05:30",
       "labels": [],
-      "bytes": 15309,
-      "sha256": "b867c54b1abc596d68754d8380b42e159d799a85523cc37489d15d234bc2ea82",
+      "bytes": 15978,
+      "sha256": "f96f3e13affb92fd0fccc655c20ac0790a1a9bf0c2f1e80acf5dc8479a016392",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3433,7 +3433,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3450,6 +3450,19 @@
           "bytes": [
             15812,
             15309
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-10T08:57:48+05:30",
+          "level": "major",
+          "reason": "figures changed (+1/-0 distinct numbers)",
+          "bytes": [
+            15309,
+            15978
           ],
           "url_changed": null,
           "markers_changed": null,
