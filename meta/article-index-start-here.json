@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-10T06:35:08.936+05:30",
+  "updated": "2026-08-10T06:48:33.363+05:30",
   "labels": [],
-  "bytes": 149731,
-  "sha256": "dfcc8c0bf69c3ce2072d6d59051dd60e0db33feabf0dea7ad8cce41ba25bf72e",
+  "bytes": 149983,
+  "sha256": "c278cc88a3328936ff74327e39002b2529befdab4992bcca3654f9f5fcdff9a8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "18.0.0",
+  "version": "19.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -287,6 +287,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild article index: 117 articles including new Thali Investing post"
+    },
+    {
+      "version": "19.0.0",
+      "date": "2026-08-10T06:48:44+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        149731,
+        149983
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index: 118 articles including new 50/30/20 rule post"
     }
   ]
 }

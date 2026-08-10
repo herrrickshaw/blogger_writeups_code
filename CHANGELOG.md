@@ -2427,3 +2427,16 @@ New article: 50/30/20 budgeting rule (Elizabeth Warren, 2005) with a factual cor
 **Added**
 
 - `the-503020-rule-is-elizabeth-warrens` **v1.0.0** — The 50/30/20 Rule Is Elizabeth Warren's, Not Warren Buffett's (14,588 bytes)
+
+## 2026-08-10T06:48:44+05:30 — 120 posts live
+
+Rebuild article index: 118 articles including new 50/30/20 rule post
+
+
+**Versions**
+
+- `article-index-start-here` **18.0.0 → 19.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 149,731 → 149,983 bytes (+252)
