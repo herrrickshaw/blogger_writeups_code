@@ -4,24 +4,24 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-09T09:28:52.076+05:30",
+  "updated": "2026-08-10T07:03:47.564+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 27213,
-  "sha256": "dc9dc6613861d9cc653bc79f10f3a2e16021d23846443d64785f9e363688c879",
+  "bytes": 28095,
+  "sha256": "d87c79090a7de270e093cab3bcd94f0587ff01842d833516df9245a927d8a488",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
-    "translate_widget": true,
-    "index_link": true,
+    "translate_widget": false,
+    "index_link": false,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'The Working of the Indian Constitution' (Sengupta & Goyal, eds.) to author's shelf; rebuild+republish Shop page (12→13 items)"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-08-10T07:04:33+05:30",
+      "level": "major",
+      "reason": "figures changed (+60/-0 distinct numbers)",
+      "bytes": [
+        27213,
+        28095
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "translate_widget": [
+          true,
+          false
+        ],
+        "index_link": [
+          true,
+          false
+        ]
+      },
+      "note": "Add The Two-Income Trap, All Your Worth, and Your Money or Your Life to author's shelf (all referenced in the 50/30/20 budgeting article); rebuild+republish Shop page (13→16 items)"
     }
   ]
 }

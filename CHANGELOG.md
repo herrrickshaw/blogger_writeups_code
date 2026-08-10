@@ -2453,3 +2453,16 @@ Rewrite 50/30/20 article: removed all Warren Buffett references per request, add
 **Changed**
 
 - `the-503020-rule-is-elizabeth-warrens` — 14,588 → 14,623 bytes (+35)
+
+## 2026-08-10T07:04:33+05:30 — 120 posts live
+
+Add The Two-Income Trap, All Your Worth, and Your Money or Your Life to author's shelf (all referenced in the 50/30/20 budgeting article); rebuild+republish Shop page (13→16 items)
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **4.1.0 → 5.0.0** (MAJOR) — figures changed (+60/-0 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 27,213 → 28,095 bytes (+882); markers index_link True→False, translate_widget True→False
