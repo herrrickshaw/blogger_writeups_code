@@ -4,13 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
   "slug": "indias-used-oil-epr-wants-half-of-all",
   "published": "2026-08-10T11:46:04.000+05:30",
-  "updated": "2026-08-10T11:46:35.686+05:30",
-  "labels": [
-    "Energy & Fuels",
-    "Industrial Policy"
-  ],
-  "bytes": 18167,
-  "sha256": "a1d4193ba6890d2702283bb9f93fcd6b86d5aa9ba84d5e5e94f9aa658f990ae7",
+  "updated": "2026-08-10T12:12:29.028+05:30",
+  "labels": [],
+  "bytes": 20852,
+  "sha256": "acb132f5cb8af04d1d9c1cad1e2db85a14eb931e1164e3c7b8ace386260a617b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +19,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-10T11:48:45+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-10T12:14:06+05:30",
+      "level": "major",
+      "reason": "figures changed (+19/-3 distinct numbers)",
+      "bytes": [
+        18167,
+        20852
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

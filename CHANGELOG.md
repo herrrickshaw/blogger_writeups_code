@@ -2617,3 +2617,15 @@ scheduled sync
 **Changed**
 
 - `indias-epr-regime-just-got-teeth-and` — 15,153 → 15,627 bytes (+474)
+
+## 2026-08-10T12:14:06+05:30 — 122 posts live
+
+**Versions**
+
+- `indias-used-oil-epr-wants-half-of-all` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+19/-3 distinct numbers)
+- `india-mineral-oil-hsn-ch27-trade` **1.0.5 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+
+**Changed**
+
+- `indias-used-oil-epr-wants-half-of-all` — 18,167 → 20,852 bytes (+2,685)
+- `india-mineral-oil-hsn-ch27-trade` — 101,166 → 101,692 bytes (+526)
