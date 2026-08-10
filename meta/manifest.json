@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T08:42:52+05:30",
+  "snapshot": "2026-08-10T08:44:09+05:30",
   "count": 121,
   "posts": {
     "1157999291079244419": {
@@ -5945,10 +5945,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-10T06:48:33.363+05:30",
+      "updated": "2026-08-10T08:43:35.543+05:30",
       "labels": [],
-      "bytes": 149983,
-      "sha256": "c278cc88a3328936ff74327e39002b2529befdab4992bcca3654f9f5fcdff9a8",
+      "bytes": 150493,
+      "sha256": "28637dc6d91975808a8ec7209894ca65a3d90e2790f7bdd649808548e81eac89",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5960,7 +5960,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "19.0.0",
+      "version": "20.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6241,6 +6241,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index: 118 articles including new 50/30/20 rule post"
+        },
+        {
+          "version": "20.0.0",
+          "date": "2026-08-10T08:44:09+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-2 distinct numbers)",
+          "bytes": [
+            149983,
+            150493
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

@@ -2534,3 +2534,13 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 **Added**
 
 - `ahidf-has-sanctioned-19751-crore-in` **v1.0.0** — AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account. (15,812 bytes)
+
+## 2026-08-10T08:44:09+05:30 — 121 posts live
+
+**Versions**
+
+- `article-index-start-here` **19.0.0 → 20.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 149,983 → 150,493 bytes (+510)
