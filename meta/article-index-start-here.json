@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-10T08:43:35.543+05:30",
+  "updated": "2026-08-10T10:59:22.450+05:30",
   "labels": [],
-  "bytes": 150493,
-  "sha256": "28637dc6d91975808a8ec7209894ca65a3d90e2790f7bdd649808548e81eac89",
+  "bytes": 155165,
+  "sha256": "ad6ba1c4a5a7f256903dd4342f7330b98077245cb40be8d950507db39f8c2ae9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "20.0.0",
+  "version": "20.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -309,6 +309,19 @@
       "bytes": [
         149983,
         150493
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "20.1.0",
+      "date": "2026-08-10T11:02:30+05:30",
+      "level": "minor",
+      "reason": "section(s) added: Energy &amp; Fuels, Trade &amp; Tariffs, Industrial Policy",
+      "bytes": [
+        150493,
+        155165
       ],
       "url_changed": null,
       "markers_changed": null,

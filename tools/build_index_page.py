@@ -66,6 +66,40 @@ ACCORDION_JS = "<script>//<![CDATA[\n// Populates each topic from Blogger's own 
 ACCORDION_CSS = "<style>/*gs-acc-v1*/\n.gs-accwrap{margin:1rem 0 2rem}\n.gs-acc{border-top:1px solid #e2e2e2}\n.gs-acc:last-of-type{border-bottom:1px solid #e2e2e2}\n.gs-acc summary{cursor:pointer;padding:.85rem .2rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;font-size:1rem;color:#0B1F2D;list-style:none;display:flex;align-items:baseline;gap:.55rem}\n.gs-acc summary::-webkit-details-marker{display:none}\n.gs-acc summary::after{content:'+';margin-left:auto;color:#2251FF;font-weight:600}\n.gs-acc[open] summary::after{content:'\\2212'}\n.gs-acc-n{font-weight:600;font-size:.78rem;color:#8a8a8a}\n.gs-acc-hub{font-size:.72rem;font-weight:600;color:#2251FF;text-decoration:none}\n.gs-acc ul{margin:.2rem 0 1rem;padding-left:1.2rem}\n.gs-acc li{font-size:.92rem;line-height:1.5;margin-bottom:.3rem}\n.gs-acc-d{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#8a8a8a;white-space:nowrap}\n</style>"
 
 
+PITCH_CSS = "<style>/*gs-pitch-v1*/\n.gs-pitch{padding:0 0 1.2rem;border-bottom:1px solid #e2e2e2;margin:0 0 1.6rem}\n.gs-pitch p{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;color:#595959;line-height:1.55;max-width:42rem;margin:0}\n.gs-theme-lbl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#595959;margin:0 0 .7rem}\n.gs-theme-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin:0 0 2rem}\n.gs-tcard{display:block;background:#F4F7FB;border-radius:4px;padding:.9rem 1rem 1rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color .15s}\n.gs-tcard:hover{border-color:#0a4c6a}\n.gs-tcard h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:1rem;color:#0B1F2D;margin:0 0 .55rem;line-height:1.3}\n.gs-tcard ul{list-style:none;margin:0;padding:0}\n.gs-tcard li{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;line-height:1.5;padding:.15rem 0;border-top:1px solid #e2e2e2}\n.gs-tcard li:first-child{border-top:none}\n.gs-tcard .more{display:block;margin-top:.5rem;font-size:.72rem;font-weight:600;color:#2251FF}\n</style>"
+
+PITCH_JS = "<script>//<![CDATA[\n// Same JSONP label-feed pattern as the topic accordion below: each theme\n// card pulls its own 2 latest live headlines at view time, so this section\n// can never go stale the way a hand-kept summary would.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsPitchCb = window.gsPitchCb || {};\n  function jsonp(url, cb){\n    var name='p'+(n++); window.gsPitchCb[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsPitchCb.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  var cards=document.querySelectorAll('.gs-tcard[data-label]');\n  for(var i=0;i<cards.length;i++)(function(card){\n    var label=card.getAttribute('data-label'), ul=card.querySelector('ul');\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(label)+'?alt=json-in-script&orderby=published&max-results=2',function(res){\n      var es=res&&res.feed.entry;\n      if(!es||!es.length){ ul.innerHTML='<li>New articles coming soon.</li>'; return; }\n      ul.innerHTML='';\n      for(var j=0;j<es.length;j++){ var li=document.createElement('li'); li.textContent=es[j].title.$t; ul.appendChild(li); }\n    });\n  })(cards[i]);\n})();\n//]]></script>"
+
+PITCH_THEMES = [
+    "Energy & Fuels", "Trade & Tariffs", "Industrial Policy",
+    "Agriculture & Fertilisers", "Markets & Finance", "Climate & Carbon",
+]
+
+
+def emit_pitch(A):
+    """Elevator-pitch + theme cards, in-page (not a Blogger Layout gadget --
+    those live outside the Posts API and can only be hand-edited through the
+    Blogger UI forever after). Lives inside this index post instead, so it
+    ships through the same build-and-publish pipeline as everything else and
+    stays trivially editable.
+    """
+    A(PITCH_CSS)
+    A('<div class="gs-pitch"><p>Six years of trade, energy, industrial-policy and fertiliser data, '
+      'read from primary sources (PIB, Parliament replies, RBI, government dashboards) rather than '
+      'press releases. New this month: plain-language explainers on personal finance, alongside the '
+      'usual HSN-coded deep dives.</p></div>')
+    A('<p class="gs-theme-lbl">Browse by theme</p>')
+    A('<div class="gs-theme-grid">')
+    for name in PITCH_THEMES:
+        slugpart = next((s for n, s in LABEL_HUBS if n == name), name.replace(" & ", " %26 ").replace(" ", "%20"))
+        A(f'<a class="gs-tcard" data-label="{E(name)}" '
+          f'href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">'
+          f'<h3>{E(name)}</h3><ul><li>Loading&#8230;</li></ul>'
+          f'<span class="more">All {E(name)} articles &#8594;</span></a>')
+    A('</div>')
+    A(PITCH_JS)
+
+
 def emit_accordion(A, hubs):
     """Self-updating topic accordion, driven by Blogger's label feeds.
 
@@ -177,6 +211,8 @@ def main():
       f'<div class="stat"><b>{len(by_country)}</b><span>Countries covered</span></div>'
       f'<div class="stat"><b>{_pretty_date(first)}</b><span>First post &mdash; the blog opens</span></div>'
       '</div>')
+
+    emit_pitch(A)
 
     # ---- by date ----------------------------------------------------------
     A('<h2>By date</h2>')

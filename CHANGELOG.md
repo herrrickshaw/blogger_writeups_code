@@ -2593,3 +2593,13 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 37,858 → 37,977 bytes (+119)
+
+## 2026-08-10T11:02:30+05:30 — 121 posts live
+
+**Versions**
+
+- `article-index-start-here` **20.0.0 → 20.1.0** (MINOR) — section(s) added: Energy &amp; Fuels, Trade &amp; Tariffs, Industrial Policy
+
+**Changed**
+
+- `article-index-start-here` — 150,493 → 155,165 bytes (+4,672)

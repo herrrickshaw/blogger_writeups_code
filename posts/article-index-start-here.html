@@ -80,6 +80,55 @@
 <h1>Every piece on this blog, three ways in</h1>
 <p class="standfirst">Every piece published on this blog since it opened on 4 October 2020 &mdash; 119 articles on India&rsquo;s trade, energy and industrial policy, each checked against official statistics. Browse by date, by topic, by the country or state a piece is about, or by how the subjects connect to each other.</p>
 <div class="stats"><div class="stat"><b>119</b><span>Articles</span></div><div class="stat"><b>13</b><span>Topic hubs</span></div><div class="stat"><b>28</b><span>Countries covered</span></div><div class="stat"><b>4 October 2020</b><span>First post &mdash; the blog opens</span></div></div>
+<style>/*gs-pitch-v1*/
+.gs-pitch{padding:0 0 1.2rem;border-bottom:1px solid #e2e2e2;margin:0 0 1.6rem}
+.gs-pitch p{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;color:#595959;line-height:1.55;max-width:42rem;margin:0}
+.gs-theme-lbl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#595959;margin:0 0 .7rem}
+.gs-theme-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin:0 0 2rem}
+.gs-tcard{display:block;background:#F4F7FB;border-radius:4px;padding:.9rem 1rem 1rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color .15s}
+.gs-tcard:hover{border-color:#0a4c6a}
+.gs-tcard h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:1rem;color:#0B1F2D;margin:0 0 .55rem;line-height:1.3}
+.gs-tcard ul{list-style:none;margin:0;padding:0}
+.gs-tcard li{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;line-height:1.5;padding:.15rem 0;border-top:1px solid #e2e2e2}
+.gs-tcard li:first-child{border-top:none}
+.gs-tcard .more{display:block;margin-top:.5rem;font-size:.72rem;font-weight:600;color:#2251FF}
+</style>
+<div class="gs-pitch"><p>Six years of trade, energy, industrial-policy and fertiliser data, read from primary sources (PIB, Parliament replies, RBI, government dashboards) rather than press releases. New this month: plain-language explainers on personal finance, alongside the usual HSN-coded deep dives.</p></div>
+<p class="gs-theme-lbl">Browse by theme</p>
+<div class="gs-theme-grid">
+<a class="gs-tcard" data-label="Energy &amp; Fuels" href="https://masaladeutsch.blogspot.com/search/label/Energy%20%26%20Fuels"><h3>Energy &amp; Fuels</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Energy &amp; Fuels articles &#8594;</span></a>
+<a class="gs-tcard" data-label="Trade &amp; Tariffs" href="https://masaladeutsch.blogspot.com/search/label/Trade%20%26%20Tariffs"><h3>Trade &amp; Tariffs</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Trade &amp; Tariffs articles &#8594;</span></a>
+<a class="gs-tcard" data-label="Industrial Policy" href="https://masaladeutsch.blogspot.com/search/label/Industrial%20Policy"><h3>Industrial Policy</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Industrial Policy articles &#8594;</span></a>
+<a class="gs-tcard" data-label="Agriculture &amp; Fertilisers" href="https://masaladeutsch.blogspot.com/search/label/Agriculture%20%26%20Fertilisers"><h3>Agriculture &amp; Fertilisers</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Agriculture &amp; Fertilisers articles &#8594;</span></a>
+<a class="gs-tcard" data-label="Markets &amp; Finance" href="https://masaladeutsch.blogspot.com/search/label/Markets%20%26%20Finance"><h3>Markets &amp; Finance</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Markets &amp; Finance articles &#8594;</span></a>
+<a class="gs-tcard" data-label="Climate &amp; Carbon" href="https://masaladeutsch.blogspot.com/search/label/Climate%20%26%20Carbon"><h3>Climate &amp; Carbon</h3><ul><li>Loading&#8230;</li></ul><span class="more">All Climate &amp; Carbon articles &#8594;</span></a>
+</div>
+<script>//<![CDATA[
+// Same JSONP label-feed pattern as the topic accordion below: each theme
+// card pulls its own 2 latest live headlines at view time, so this section
+// can never go stale the way a hand-kept summary would.
+(function(){
+  var BASE='https://masaladeutsch.blogspot.com', n=0;
+  window.gsPitchCb = window.gsPitchCb || {};
+  function jsonp(url, cb){
+    var name='p'+(n++); window.gsPitchCb[name]=cb;
+    var s=document.createElement('script');
+    s.src=url+'&callback=gsPitchCb.'+name;
+    s.onerror=function(){ cb(null); };
+    document.head.appendChild(s);
+  }
+  var cards=document.querySelectorAll('.gs-tcard[data-label]');
+  for(var i=0;i<cards.length;i++)(function(card){
+    var label=card.getAttribute('data-label'), ul=card.querySelector('ul');
+    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(label)+'?alt=json-in-script&orderby=published&max-results=2',function(res){
+      var es=res&&res.feed.entry;
+      if(!es||!es.length){ ul.innerHTML='<li>New articles coming soon.</li>'; return; }
+      ul.innerHTML='';
+      for(var j=0;j<es.length;j++){ var li=document.createElement('li'); li.textContent=es[j].title.$t; ul.appendChild(li); }
+    });
+  })(cards[i]);
+})();
+//]]></script>
 <h2>By date</h2>
 <p class="h2sub">The whole publishing history, including the part where nothing happened.</p>
 <p>The blog opened on <b>4 October 2020</b> with a single post, and then published nothing for <b>6 years</b>. The archive proper begins on <b>21 July 2026</b>. That gap is left visible here rather than smoothed away: the counts below are what was actually published, not a reconstruction.</p>
@@ -1162,3 +1211,4 @@
 
 </div>
 
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
