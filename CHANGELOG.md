@@ -2492,3 +2492,16 @@ Add All Your Worth, Your Money or Your Life, and The Two-Income Trap to Markets 
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 29,291 → 30,870 bytes (+1,579)
+
+## 2026-08-10T07:33:06+05:30 — 120 posts live
+
+Split author's shelf into Books (10) and Other items (6) subsections, both on the Shop page and the per-article shelf widget; SHELF entries now carry a 5th type field, build_shop.py and accordion.js updated to match
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **6.1.0 → 6.2.0** (MINOR) — section(s) added: Books, Other items
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 30,870 → 31,172 bytes (+302)

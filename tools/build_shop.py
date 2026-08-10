@@ -31,10 +31,11 @@ def parse_entries(block):
     out = []
     for m in re.finditer(r"\[\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'"
                          r"(?:\s*,\s*'([A-Z0-9]{10})')?"
-                         r"(?:\s*,\s*\n?\s*'(https://m\.media-amazon\.com[^']+)')?\s*\]", block):
-        t, by, asin, img = m.groups()
+                         r"(?:\s*,\s*\n?\s*'(https://m\.media-amazon\.com[^']+)')?"
+                         r"(?:\s*,\s*'(book|other)')?\s*\]", block):
+        t, by, asin, img, kind = m.groups()
         fix = lambda x: x.encode().decode('unicode_escape') if '\\u' in x else x.replace("\\'", "'")
-        out.append({'t': fix(t), 'by': fix(by), 'asin': asin, 'img': img})
+        out.append({'t': fix(t), 'by': fix(by), 'asin': asin, 'img': img, 'kind': kind or 'book'})
     return out
 
 def link(e):
@@ -84,9 +85,18 @@ def main():
       'cannot disagree.</p>')
     A('<h2>From the author&rsquo;s shelf</h2>')
     A('<p class="h2sub">Off-topic, personal, and used at this desk.</p>')
-    A('<div style="display:flex;flex-wrap:wrap;gap:1.1rem">')
-    for e in shelf: A(card(e))
-    A('</div>')
+    shelf_books = [e for e in shelf if e['kind'] == 'book']
+    shelf_other = [e for e in shelf if e['kind'] == 'other']
+    if shelf_books:
+        A('<h3 style="font-size:.72em;letter-spacing:.1em;text-transform:uppercase;color:#8a8a8a;margin:1rem 0 .5rem">Books</h3>')
+        A('<div style="display:flex;flex-wrap:wrap;gap:1.1rem">')
+        for e in shelf_books: A(card(e))
+        A('</div>')
+    if shelf_other:
+        A('<h3 style="font-size:.72em;letter-spacing:.1em;text-transform:uppercase;color:#8a8a8a;margin:1rem 0 .5rem">Other items</h3>')
+        A('<div style="display:flex;flex-wrap:wrap;gap:1.1rem">')
+        for e in shelf_other: A(card(e))
+        A('</div>')
     A('<h2>Reading by topic</h2>')
     A('<p class="h2sub">The books recommended under each topic&rsquo;s articles.</p>')
     seen = set()

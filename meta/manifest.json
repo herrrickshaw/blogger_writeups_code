@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T07:19:36+05:30",
+  "snapshot": "2026-08-10T07:33:06+05:30",
   "count": 120,
   "posts": {
     "1157999291079244419": {
@@ -1018,12 +1018,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-10T07:18:58.805+05:30",
+      "updated": "2026-08-10T07:29:31.356+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 30870,
-      "sha256": "9fec97d460e3b748fe6baa94b98da2b60a854e32d1088dd935970223f35ba840",
+      "bytes": 31172,
+      "sha256": "9d71bc49b87baa93afc1d44c903185cc87dda04d22b9335b92e2ab119322182a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1035,7 +1035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.1.0",
+      "version": "6.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1191,6 +1191,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add All Your Worth, Your Money or Your Life, and The Two-Income Trap to Markets & Finance topic 'Further reading' list (was only 2 books); Shop page topic-books count 18->21"
+        },
+        {
+          "version": "6.2.0",
+          "date": "2026-08-10T07:33:06+05:30",
+          "level": "minor",
+          "reason": "section(s) added: Books, Other items",
+          "bytes": [
+            30870,
+            31172
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Split author's shelf into Books (10) and Other items (6) subsections, both on the Shop page and the per-article shelf widget; SHELF entries now carry a 5th type field, build_shop.py and accordion.js updated to match"
         }
       ]
     },
