@@ -2405,3 +2405,16 @@ Rebuild article index: 117 articles including new Thali Investing post
 **Changed**
 
 - `article-index-start-here` — 149,246 → 149,731 bytes (+485)
+
+## 2026-08-10T06:43:08+05:30 — 119 posts live
+
+Add thali photo (CC BY-SA 2.0, Wikimedia Commons) to Thali Investing article, illustrating the multiple-katori metaphor
+
+
+**Versions**
+
+- `thali-investing-whats-actually-on-plate` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `thali-investing-whats-actually-on-plate` — 21,276 → 22,201 bytes (+925)
