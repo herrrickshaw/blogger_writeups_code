@@ -2639,3 +2639,15 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 155,165 → 155,991 bytes (+826)
+
+## 2026-08-10T13:59:08+05:30 — 122 posts live
+
+**Versions**
+
+- `south-africa-lost-its-gulf-fuel-supply` **1.0.1 → 1.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+- `fourteen-years-of-indian-wholesale` **2.0.1 → 2.0.2** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `south-africa-lost-its-gulf-fuel-supply` — 20,476 → 20,477 bytes (+1)
+- `fourteen-years-of-indian-wholesale` — 20,869 → 20,868 bytes (-1)

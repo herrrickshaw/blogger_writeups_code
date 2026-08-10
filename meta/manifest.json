@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T12:36:25+05:30",
+  "snapshot": "2026-08-10T13:59:08+05:30",
   "count": 122,
   "posts": {
     "1157999291079244419": {
@@ -465,14 +465,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
       "slug": "fourteen-years-of-indian-wholesale",
       "published": "2026-08-05T21:46:29.000+05:30",
-      "updated": "2026-08-08T14:14:53.349+05:30",
-      "labels": [
-        "Agriculture & Fertilisers",
-        "Energy & Fuels",
-        "Prices & Inflation"
-      ],
-      "bytes": 20869,
-      "sha256": "1f94078f91067a29d660c0e53e08551c7d0279aa0a4bb6dd16a0e564fcb41b50",
+      "updated": "2026-08-10T13:50:44.583+05:30",
+      "labels": [],
+      "bytes": 20868,
+      "sha256": "e7c80eee94828c7994fab5656d158144149859d94f34048d5f3f3f7abcd76d76",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -484,7 +480,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -557,6 +553,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-08-10T13:59:08+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            20869,
+            20868
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -8476,14 +8485,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
       "slug": "south-africa-lost-its-gulf-fuel-supply",
       "published": "2026-08-08T12:55:40.000+05:30",
-      "updated": "2026-08-08T14:13:29.070+05:30",
-      "labels": [
-        "Energy & Fuels",
-        "Gas & LNG",
-        "Trade & Tariffs"
-      ],
-      "bytes": 20476,
-      "sha256": "d945af6f436e634dfe157ffed957460ac665602d45e86a825ac63df42f7cf480",
+      "updated": "2026-08-10T13:50:36.111+05:30",
+      "labels": [],
+      "bytes": 20477,
+      "sha256": "74d5a8db7664998d7fe856d9e8a11d53570e6d9ebfec346a7685a0452c6689b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8495,7 +8500,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8516,6 +8521,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "site-index stub in all 98 posts"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-10T13:59:08+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            20476,
+            20477
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
