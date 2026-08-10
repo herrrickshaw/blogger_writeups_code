@@ -2629,3 +2629,13 @@ scheduled sync
 
 - `indias-used-oil-epr-wants-half-of-all` — 18,167 → 20,852 bytes (+2,685)
 - `india-mineral-oil-hsn-ch27-trade` — 101,166 → 101,692 bytes (+526)
+
+## 2026-08-10T12:36:25+05:30 — 122 posts live
+
+**Versions**
+
+- `article-index-start-here` **20.1.0 → 21.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 155,165 → 155,991 bytes (+826)
