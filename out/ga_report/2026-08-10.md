@@ -52,12 +52,11 @@
 | Page path | Page views | Active users |
 |---|---|---|
 | / | 275 | 43 |
+| /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
 | /search | 34 | 3 |
 | /2026/08/article-index-start-here.html | 31 | 4 |
-| /2026/07/india-mineral-oil-hsn-ch27-trade.html | 25 | 13 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 21 | 3 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 19 | 3 |
-| /2026/08/india-mineral-oil-hsn-ch27-trade.html | 16 | 5 |
 | /2026/07/us-stock-picks-multi-screen-quant.html | 15 | 2 |
 | /2026/08/the-503020-rule-is-elizabeth-warrens.html | 15 | 5 |
 | /2026/07/the-grain-value-loop-integrated-rice.html | 14 | 12 |
@@ -71,3 +70,5 @@
 | /2026/08/jai-kisan-jai-javan-fci-based-military.html | 11 | 9 |
 | /2026/07/ethanol-blending-omc-books-e20-today-vs.html | 9 | 9 |
 | /2026/07/fci-grain-flow-procurement-storage.html | 8 | 8 |
+
+[1]: same post, folded in from a pre-redirect URL still present in GA4's history (301 confirmed working) -- `/2026/07/india-mineral-oil-hsn-ch27-trade.html` (25 views/13 users)
