@@ -18,6 +18,7 @@ Exit codes:
     3  per-blog daily write ceiling reached — retry tomorrow, not sooner
 """
 import argparse
+import html
 import http.server
 import json
 import os
@@ -237,18 +238,40 @@ def cmd_get(args):
         print(f"wrote  : {args.out}")
 
 
+def _flatten_html(raw, limit=None):
+    """Strip script/style content, strip remaining tags, collapse whitespace,
+    and unescape HTML entities -- reduces markup to the plain text a reader
+    actually sees, independent of how tags/entities happen to be arranged.
+    Used on both sides of the live-verify substring check (see verify_live):
+    a probe built from local source and a probe checked against markup Blogger
+    re-renders (re-encoding typographic characters as numeric entities, and
+    with tag boundaries in different places) must be flattened the same way
+    or a byte-for-byte 'needle in out' check fails on identical content."""
+    text = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", raw, flags=re.I)
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = html.unescape(re.sub(r"\s+", " ", text).strip())
+    return text[:limit] if limit else text
+
+
 def verify_live(url, needle=None, absent=None):
     """Independent re-fetch with a cache-buster. The API can accept a write that
-    does not render; this is the only check that proves what a reader sees."""
+    does not render; this is the only check that proves what a reader sees.
+
+    needle/absent are checked both as raw substrings of the fetched HTML and,
+    via _flatten_html, as plain text -- the latter catches cases where the
+    content is identical but a tag boundary or an HTML-entity re-encoding
+    (Blogger converts interpunct, em/en dash etc. to numeric entities on save)
+    would otherwise make a literal substring search fail."""
     bust = f"{url}?cb={secrets.randbelow(10**6)}"
     out = subprocess.run(
         ["curl", "-s", "-A", "Mozilla/5.0", bust], capture_output=True, text=True
     ).stdout
     if not out:
         return False, "empty response"
-    if needle and needle not in out:
+    out_flat = _flatten_html(out)
+    if needle and needle not in out and _flatten_html(needle) not in out_flat:
         return False, "expected content missing"
-    if absent and absent in out:
+    if absent and (absent in out or _flatten_html(absent) in out_flat):
         return False, "content that should be gone is still present"
     return True, f"{len(out):,} bytes"
 
@@ -268,13 +291,7 @@ def do_update(post_id, url, title, body, published=None, dry_run=False):
         payload["published"] = published
     api(f"/blogs/{BLOG_ID}/posts/{post_id}", data=payload, method="PUT")
     time.sleep(3)  # give Blogger a moment to render before verifying
-    # Strip script/style CONTENT before taking a probe: a naive tag-strip leaves
-    # CSS/JS text, which Blogger reformats on save, so the probe never matches
-    # and a perfectly good publish reports as failed. That happened once
-    # (cmd_insert already had this fix; do_update didn't).
-    probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
-    probe = re.sub(r"<[^>]+>", " ", probe)
-    probe = re.sub(r"\s+", " ", probe).strip()[:40]
+    probe = _flatten_html(body, limit=40)
     ok, why = verify_live(url, needle=probe)
     print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
     return ok
@@ -323,12 +340,7 @@ def cmd_insert(args):
     if args.draft or not res.get("url"):
         return
     time.sleep(4)
-    # Strip script/style CONTENT before taking a probe: a naive tag-strip leaves
-    # CSS text, which Blogger reformats on save, so the probe never matches and
-    # a perfectly good publish reports as failed. That happened once.
-    probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
-    probe = re.sub(r"<[^>]+>", " ", probe)
-    probe = re.sub(r"\s+", " ", probe).strip()[:40]
+    probe = _flatten_html(body, limit=40)
     ok, why = verify_live(res["url"], needle=probe)
     print(f"    {'verified' if ok else 'PUBLISHED BUT VERIFY FAILED'}: {why}")
     sys.exit(0 if ok else 2)
@@ -353,8 +365,7 @@ def cmd_page(args):
     print(f"url    {res.get('url','(draft)')}")
     if res.get("url"):
         time.sleep(4)
-        probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
-        probe = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", probe)).strip()[:40]
+        probe = _flatten_html(body, limit=40)
         ok, why = verify_live(res["url"], needle=probe)
         print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
 
