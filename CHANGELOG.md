@@ -2479,3 +2479,16 @@ Fix Shop page: head_gas.html scratch template was missing its closing </style> t
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 28,095 → 29,291 bytes (+1,196); markers index_link False→True, translate_widget False→True
+
+## 2026-08-10T07:19:36+05:30 — 120 posts live
+
+Add All Your Worth, Your Money or Your Life, and The Two-Income Trap to Markets & Finance topic 'Further reading' list (was only 2 books); Shop page topic-books count 18->21
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **6.0.0 → 6.1.0** (MINOR) — prose grew 3,929→4,182 chars with no new figures
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 29,291 → 30,870 bytes (+1,579)

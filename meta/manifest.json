@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T07:16:43+05:30",
+  "snapshot": "2026-08-10T07:19:36+05:30",
   "count": 120,
   "posts": {
     "1157999291079244419": {
@@ -1018,12 +1018,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-10T07:14:53.071+05:30",
+      "updated": "2026-08-10T07:18:58.805+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 29291,
-      "sha256": "b95690d67600110aa0cfbc523f2a35d60fc517be9b08ac5538f742da9050aca7",
+      "bytes": 30870,
+      "sha256": "9fec97d460e3b748fe6baa94b98da2b60a854e32d1088dd935970223f35ba840",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1035,7 +1035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.0",
+      "version": "6.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1178,6 +1178,19 @@
             ]
           },
           "note": "Fix Shop page: head_gas.html scratch template was missing its closing </style> tag, causing the browser to swallow all content (shelf items, topic books) as CSS text -- page rendered blank below the title rule. Rebuilt head_gas.html from the known-good head_mdr.html pattern and republished."
+        },
+        {
+          "version": "6.1.0",
+          "date": "2026-08-10T07:19:36+05:30",
+          "level": "minor",
+          "reason": "prose grew 3,929→4,182 chars with no new figures",
+          "bytes": [
+            29291,
+            30870
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add All Your Worth, Your Money or Your Life, and The Two-Income Trap to Markets & Finance topic 'Further reading' list (was only 2 books); Shop page topic-books count 18->21"
         }
       ]
     },
