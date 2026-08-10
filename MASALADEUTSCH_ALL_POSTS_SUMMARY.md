@@ -1,14 +1,225 @@
 # Masala Deutsch — All Posts, Summarised
 
-*121 published posts, 15 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*119 published posts, 15 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
 *Generated 10 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+
+
+## Units & Figures Used in This Blog
+
+*A quick reference for the number formats that recur across posts.*
+
+- **%** — percent, parts per hundred
+- **acres** — land area unit (1 acre ≈ 0.405 hectares)
+- **billion** — billion = 1,000,000,000
+- **bn** — billion = 1,000,000,000
+- **bpd** — barrels per day — a crude oil / fuel flow-rate unit
+- **crore** — Indian numbering unit = 1,00,00,000 = 10 million
+- **gw** — gigawatt — power capacity (10⁹ watts)
+- **gwh** — gigawatt-hour — energy generated/consumed
+- **hectares** — land area unit (1 hectare = 2.47 acres)
+- **kg** — kilogram
+- **km** — kilometre
+- **ktpa** — kilotonnes per annum = 1,000 tonnes/year
+- **kwh** — kilowatt-hour — energy generated/consumed
+- **lakh** — Indian numbering unit = 1,00,000 = 100,000
+- **litre** — volume unit (1 litre = 1,000 cm³)
+- **litres** — volume unit (1 litre = 1,000 cm³)
+- **lmt** — lakh metric tonnes = 100,000 tonnes
+- **million** — million = 1,000,000
+- **mmtpa** — million metric tonnes per annum
+- **mn** — million = 1,000,000
+- **mt** — million tonnes (also used for metric tonne in some contexts — check the surrounding sentence)
+- **mw** — megawatt — power capacity (10⁶ watts)
+- **mwh** — megawatt-hour — energy generated/consumed
+- **tonne** — metric tonne = 1,000 kg
+- **tonnes** — metric tonne = 1,000 kg
+- **tpa** — tonnes per annum
+- **trillion** — trillion = 1,000,000,000,000
+- **twh** — terawatt-hour — energy generated/consumed, national-grid scale
+
+
+## Glossary of Terms & Abbreviations
+
+*Every abbreviation below appears in at least one published post. Where a term has more than one meaning on the blog, both are noted — check the surrounding sentence in the source article.*
+
+- **ADB** — Asian Development Bank
+- **AHIDF** — Animal Husbandry Infrastructure Development Fund
+- **AI** — Artificial Intelligence
+- **AIDC** — Agriculture Infrastructure and Development Cess
+- **APEDA** — Agricultural and Processed Food Products Export Development Authority
+- **API** — Application Programming Interface (or, in petroleum contexts, American Petroleum Institute gravity)
+- **APM** — Administered Price Mechanism (natural gas pricing)
+- **ATF** — Aviation Turbine Fuel
+- **BCD** — Basic Customs Duty
+- **BIS** — Bureau of Indian Standards
+- **BPCL** — Bharat Petroleum Corporation Limited
+- **BRICS** — Brazil, Russia, India, China, South Africa (economic bloc)
+- **BSE** — Bombay Stock Exchange
+- **CACP** — Commission for Agricultural Costs and Prices
+- **CAG** — Comptroller and Auditor General of India
+- **CAGR** — Compound Annual Growth Rate
+- **CBAM** — Carbon Border Adjustment Mechanism — EU carbon tariff
+- **CBDC** — Central Bank Digital Currency
+- **CBDT** — Central Board of Direct Taxes
+- **CBG** — Compressed Bio-Gas
+- **CCEA** — Cabinet Committee on Economic Affairs
+- **CCTS** — Carbon Credit Trading Scheme
+- **CDSCO** — Central Drugs Standard Control Organisation
+- **CEEW** — Council on Energy, Environment and Water — an Indian policy research institute
+- **CGD** — City Gas Distribution
+- **CGST** — Central Goods and Services Tax
+- **CII** — Confederation of Indian Industry
+- **CNG** — Compressed Natural Gas
+- **COVID** — COVID-19 pandemic
+- **CPCB** — Central Pollution Control Board
+- **CPI** — Consumer Price Index
+- **CRZ** — Coastal Regulation Zone
+- **CSE** — Centre for Science and Environment
+- **CWC** — Central Warehousing Corporation
+- **DAHD** — Department of Animal Husbandry and Dairying
+- **DAP** — Di-Ammonium Phosphate — a phosphatic fertiliser
+- **DFPD** — Department of Food and Public Distribution
+- **DGCI** — Directorate General of Commercial Intelligence (and Statistics) — see DGCIS
+- **DGCIS** — Directorate General of Commercial Intelligence and Statistics — India's trade-data authority
+- **DGFT** — Directorate General of Foreign Trade
+- **DPIIT** — Department for Promotion of Industry and Internal Trade
+- **EBITDA** — Earnings Before Interest, Taxes, Depreciation and Amortisation
+- **EBP** — Ethanol Blended Petrol programme
+- **EC** — Environmental Clearance
+- **ECB** — External Commercial Borrowing, or European Central Bank, depending on context
+- **EFTA** — European Free Trade Association
+- **EIA** — U.S. Energy Information Administration
+- **EIDB** — Ethanol Interest-subvention/incentive scheme reference (Ethanol Infrastructure Development Bank/scheme, check source article)
+- **EPC** — Engineering, Procurement and Construction (contract model)
+- **EPR** — Extended Producer Responsibility
+- **ESG** — Environmental, Social and Governance (investing/reporting framework)
+- **EU** — European Union
+- **EV** — Electric Vehicle
+- **FAME** — Faster Adoption and Manufacturing of (Hybrid &) Electric vehicles scheme
+- **FCI** — Food Corporation of India
+- **FCO** — Fertiliser Control Order
+- **FDI** — Foreign Direct Investment
+- **FOB** — Free On Board — a trade/shipping price basis
+- **FPO** — Farmer Producer Organisation
+- **FSSAI** — Food Safety and Standards Authority of India
+- **FTA** — Free Trade Agreement
+- **FX** — Foreign Exchange
+- **FY** — Fiscal Year (India: 1 April – 31 March)
+- **GAIL** — Gas Authority of India Limited
+- **GCC** — Gulf Cooperation Council
+- **GDP** — Gross Domestic Product
+- **GHG** — Greenhouse Gas
+- **GST** — Goods and Services Tax
+- **GVA** — Gross Value Added
+- **HDPE** — High-Density Polyethylene
+- **HPCL** — Hindustan Petroleum Corporation Limited
+- **HS** — Harmonized System — the international goods-classification code standard
+- **HSD** — High-Speed Diesel
+- **HSN** — Harmonized System of Nomenclature — India's HS-derived tariff/trade code
+- **IBEF** — India Brand Equity Foundation
+- **ICIS** — Independent Commodity Intelligence Services — petrochemical/commodity price data provider
+- **ICRA** — ICRA Limited — an Indian credit rating agency
+- **IEM** — Industrial Entrepreneurs Memorandum
+- **IGST** — Integrated Goods and Services Tax (inter-state GST)
+- **IIP** — Index of Industrial Production
+- **IMARC** — IMARC Group — a market-research/consulting firm cited as a source
+- **IMF** — International Monetary Fund
+- **INR** — Indian Rupee
+- **IOCL** — Indian Oil Corporation Limited
+- **IPO** — Initial Public Offering
+- **IPR** — Import Penetration Ratio, or Intellectual Property Rights, depending on context
+- **IREDA** — Indian Renewable Energy Development Agency
+- **IRR** — Internal Rate of Return
+- **JBIC** — Japan Bank for International Cooperation
+- **KTPA** — Kilotonnes Per Annum
+- **KUSUM** — Kisan Urja Suraksha evam Utthaan Mahabhiyan — solar-for-farmers scheme
+- **LDPE** — Low-Density Polyethylene
+- **LLDPE** — Linear Low-Density Polyethylene
+- **LMT** — Lakh Metric Tonnes (100,000 tonnes)
+- **LNG** — Liquefied Natural Gas
+- **LOBS** — Lube Oil Base Stocks
+- **LPG** — Liquefied Petroleum Gas
+- **LTCG** — Long-Term Capital Gains (tax)
+- **MDR** — Merchant Discount Rate
+- **MEG** — Mono Ethylene Glycol (a petrochemical)
+- **MITRA** — Mega Investment Textiles Parks scheme (or context-specific — check article)
+- **MMF** — Man-Made Fibre
+- **MMSCM** — Million Metric Standard Cubic Metres (natural gas volume)
+- **MMT** — Million Metric Tonnes
+- **MMTPA** — Million Metric Tonnes Per Annum
+- **MNRE** — Ministry of New and Renewable Energy
+- **MSME** — Micro, Small and Medium Enterprises
+- **MSP** — Minimum Support Price
+- **MSV** — Minimum Selling Value/Price (context-dependent — check article)
+- **MT** — Million Tonnes
+- **NABARD** — National Bank for Agriculture and Rural Development
+- **NAFED** — National Agricultural Cooperative Marketing Federation of India
+- **NBFC** — Non-Banking Financial Company
+- **NCDC** — National Cooperative Development Corporation
+- **NFSA** — National Food Security Act
+- **NHAI** — National Highways Authority of India
+- **NITI** — NITI Aayog — National Institution for Transforming India (government policy think tank)
+- **NMEO** — National Mission on Edible Oils
+- **NPCI** — National Payments Corporation of India
+- **NPK** — Nitrogen-Phosphorus-Potassium (a fertiliser grade)
+- **NSE** — National Stock Exchange (of India)
+- **OECD** — Organisation for Economic Co-operation and Development
+- **OMC** — Oil Marketing Company (e.g. IOCL, BPCL, HPCL)
+- **OMSS** — Open Market Sale Scheme (FCI grain sales)
+- **ONGC** — Oil and Natural Gas Corporation
+- **OPEC** — Organization of the Petroleum Exporting Countries
+- **PARIVESH** — Government of India's online environmental-clearance portal
+- **PDS** — Public Distribution System
+- **PET** — Polyethylene Terephthalate (plastic resin)
+- **PFC** — Power Finance Corporation
+- **PIB** — Press Information Bureau — Government of India's official press-release agency
+- **PLI** — Production-Linked Incentive scheme
+- **PM** — Prime Minister, or Particulate Matter, depending on context
+- **PMFME** — Pradhan Mantri Formalisation of Micro Food Processing Enterprises scheme
+- **PMGKAY** — Pradhan Mantri Garib Kalyan Anna Yojana — free foodgrain scheme
+- **PMKSY** — Pradhan Mantri Krishi Sinchayee Yojana — irrigation scheme
+- **PNGRB** — Petroleum and Natural Gas Regulatory Board
+- **PP** — Polypropylene
+- **PPAC** — Petroleum Planning and Analysis Cell — Ministry of Petroleum & Natural Gas data unit
+- **PPF** — Public Provident Fund
+- **PPP** — Purchasing Power Parity, or Public-Private Partnership, depending on context
+- **PSU** — Public Sector Undertaking
+- **PTA** — Purified Terephthalic Acid (a petrochemical), or Preferential Trade Agreement, depending on context
+- **RBI** — Reserve Bank of India
+- **REC** — Renewable Energy Certificate, or Rural Electrification Corporation, depending on context
+- **REER** — Real Effective Exchange Rate
+- **RIL** — Reliance Industries Limited
+- **RLNG** — Regasified Liquefied Natural Gas
+- **SAF** — Sustainable Aviation Fuel
+- **SATAT** — Sustainable Alternative Towards Affordable Transportation — India's CBG scheme
+- **SBI** — State Bank of India
+- **SEBI** — Securities and Exchange Board of India
+- **SFAC** — Small Farmers' Agri-Business Consortium
+- **SIAM** — Society of Indian Automobile Manufacturers
+- **SIP** — Systematic Investment Plan
+- **TEPA** — Trade and Economic Partnership Agreement (India-EFTA)
+- **TERI** — The Energy and Resources Institute
+- **TPA** — Tonnes Per Annum
+- **TPD** — Tonnes Per Day
+- **TTF** — Title Transfer Facility — Europe's benchmark natural-gas price hub
+- **UAE** — United Arab Emirates
+- **UCO** — Used Cooking Oil
+- **UDAN** — Ude Desh ka Aam Naagrik — regional air connectivity scheme
+- **UPI** — Unified Payments Interface
+- **US** — United States
+- **USA** — United States of America
+- **USD** — United States Dollar
+- **VAT** — Value Added Tax
+- **WPI** — Wholesale Price Index
+- **WTI** — West Texas Intermediate — a US crude-oil price benchmark
+- **WTO** — World Trade Organization
 
 
 ## By Topic
 
 
-### Agriculture & Fertilisers (13)
+### Agriculture & Fertilisers (12)
 
 - **[UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.](https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html)** — 2026-08-09
   India is the world's largest milk producer, and the government's own December 2025 answer to the Rajya Sabha proves it with a state-by-state livestock count. What it doesn't mention: that count is the 20th Livestock Census, taken in 2019. The 21st Census was launched in October 2024 with a target completion date of 31 March 2025 — and on that very date, in a separate written Lok Sabha reply, the ministry itself confirmed the enumeration was still ongoing, and fell back on 2019 numbers to answer the question in front of it. Laid against the government's own current-year production data, the stale headcount and the fresh output numbers tell two different stories about which states actually run India's dairy sector.
@@ -18,8 +229,6 @@
   Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion. A Parliamentary Standing Committee report, tabled the same month, explains the mechanism in one line: 90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically. This is the fertiliser side of a story this blog has already priced from the gas side.
 - **[City Gas Just Became India's Largest Gas Consumer](https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html)** — 2026-08-08
   For as long as PPAC’s sectoral series has run, fertiliser plants were India’s biggest burners of natural gas. In the first quarter of FY2026-27 that ended: city gas distribution — the CNG in vehicles and PNG piped into kitchens — consumed 4,964 million standard cubic metres against fertiliser’s 4,703, leading in May and June individually. The crossover happened inside a shrinking pool, on a gas supply that is now majority imported.
-- **[Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)** — 2026-08-05
-  The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 - **[The Ethanol Sector's Buyers' Market: Overcapacity, Cooperative Mills, and the M&A Window](https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html)** — 2026-08-05
   India built roughly 2,000 crore litres of ethanol distillation capacity to chase the EBP blending mandate — and demand has not caught up. The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place.
 - **[Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html)** — 2026-08-04
@@ -68,7 +277,7 @@
 - **[Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?](https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html)** — 2026-08-02
   In thermodynamics, an ideal gas is the simplified model; a real gas is what you actually get once intermolecular forces and finite volume intrude. India's emissions-reduction and CBAM-compliance story has the same split — a $20.7 billion exposure that is very real, and a trade-agreement response that, on the evidence so far, is still mostly ideal.
 
-### Energy & Fuels (22)
+### Energy & Fuels (20)
 
 - **[One Refinery Flipped Nigeria From Importer to Exporter. Africa's Import Bill Is Still Rising.](https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html)** — 2026-08-09
   Dangote's refinery is the real thing: Nigeria now makes most of its own petrol and has cut fuel imports by more than half. Read the continent-wide numbers next to it, and the story changes. Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it.
@@ -78,8 +287,6 @@
   Where the USA, Mexico and the GCC buy and sell crude, refined products, LPG and lubricants — and why US storage levels at Cushing sit underneath the whole crude-slate question.
 - **[Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html)** — 2026-08-08
   PPAC’s statewise sales series runs from FY2008-09 to FY2024-25, and it tells a sharper story than the national total: petrol demand grew three and a half times faster than diesel, the diesel-to-petrol ratio collapsed from 4.6 to 2.3, the growth frontier moved east to Odisha and Chhattisgarh — and the slowest-growing fuel market in India is Delhi, which is exactly what its gas and metro build-out was meant to achieve.
-- **[South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.](https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html)** — 2026-08-08
-  India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 - **[India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html)** — 2026-08-08
   Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion. A Parliamentary Standing Committee report, tabled the same month, explains the mechanism in one line: 90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically. This is the fertiliser side of a story this blog has already priced from the gas side.
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
@@ -96,8 +303,6 @@
   The case for moving Indian fleets off diesel is usually made on inflation: diesel drives prices, so switching fuel eases them. Fourteen years of official data do not show that link. The real case is different and stronger — a ₹40-per-litre gap between how the same fuel is sold to two sets of buyers, a stationary segment that is trivial to convert, and a fuel that is far harder to siphon out of a tanker.
 - **[India's Ethanol Surplus Isn't Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative](https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html)** — 2026-08-05
   India's distilleries have real spare capacity: roughly 2,100 crore litres a year of fuel-registered capacity running at only ~57% utilisation. The obvious question is whether that surplus should be exported. The world's own price benchmarks say no — and the more interesting answer is a domestic one: pharma-grade ethanol.
-- **[Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)** — 2026-08-05
-  The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 - **[Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html)** — 2026-08-04
   The Ethanol Blended Petrol Programme has already put ₹1.66 lakh crore directly into farmers' hands and cut CO₂ emissions by roughly 952 lakh tonnes. It has also built more distillation capacity than the E20 cap can absorb. Both facts are true at once, and the fix for the second one is not to slow down the first.
 - **[Re-Spinning the Charkha](https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html)** — 2026-08-03
@@ -120,12 +325,10 @@
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
   India hit 20% ethanol blending five years ahead of its own 2030 target, and immediately started planning the next phase — E22, E30, flex-fuel vehicles, E85 dispensing. That next phase is a harder operational problem than the last one, and it is being met with satellite crop models, AI-tuned distillation columns, and academic proposals for blockchain traceability. This piece maps what is actually deployed against what is still a research paper.
 
-### Gas & LNG (6)
+### Gas & LNG (5)
 
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
-- **[South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.](https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html)** — 2026-08-08
-  India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 - **[City Gas Just Became India's Largest Gas Consumer](https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html)** — 2026-08-08
   For as long as PPAC’s sectoral series has run, fertiliser plants were India’s biggest burners of natural gas. In the first quarter of FY2026-27 that ended: city gas distribution — the CNG in vehicles and PNG piped into kitchens — consumed 4,964 million standard cubic metres against fertiliser’s 4,703, leading in May and June individually. The crossover happened inside a shrinking pool, on a gas supply that is now majority imported.
 - **[Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline](https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html)** — 2026-08-05
@@ -255,12 +458,10 @@
 - **[India's EV Market: The Single-Digit Penetration Story Behind the Doubling Headline](https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html)** — 2026-08-02
   Sales volumes, segment penetration, the auto-component supply chain, and the subsidy taper — read against a cost-per-km reality check
 
-### Prices & Inflation (5)
+### Prices & Inflation (4)
 
 - **[Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html)** — 2026-08-08
   PPAC’s statewise sales series runs from FY2008-09 to FY2024-25, and it tells a sharper story than the national total: petrol demand grew three and a half times faster than diesel, the diesel-to-petrol ratio collapsed from 4.6 to 2.3, the growth frontier moved east to Odisha and Chhattisgarh — and the slowest-growing fuel market in India is Delhi, which is exactly what its gas and metro build-out was meant to achieve.
-- **[Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)** — 2026-08-05
-  The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 - **[CPI Inflation Heatmap — India, June 2026](https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html)** — 2026-08-02
   Combined-sector CPI, year-on-year inflation by state, June 2026, shaded low to high against the scale below. The All-India rate is 4.38%.
 - **[Imported Fertiliser & Fuel Prices → Diesel → CPI/WPI — India](https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html)** — 2026-08-02
@@ -279,7 +480,7 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (25)
+### Trade & Tariffs (24)
 
 - **[India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them](https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html)** — 2026-08-09
   India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly. Its free-trade network is a much newer and much smaller thing: a handful of agreements inherited from the SAARC and ASEAN era, plus a fast-moving cluster of "new generation" deals signed only in the last four years. The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach.
@@ -291,8 +492,6 @@
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
 - **[India's Trade Story Has Three Big Wins and One Gap the Headlines Skip](https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html)** — 2026-08-08
   A record $825 billion in exports, a landmark EU trade deal, a PLI scheme that overshot its own investment target by 26%. Every headline number is real. The gap sits underneath them: in the first half of this fiscal year, merchandise exports grew 2.4% while services grew 6.5% — and almost every big new scheme this piece covers is aimed at the slower-growing half.
-- **[South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.](https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html)** — 2026-08-08
-  India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 - **[India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html)** — 2026-08-08
   Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion. A Parliamentary Standing Committee report, tabled the same month, explains the mechanism in one line: 90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically. This is the fertiliser side of a story this blog has already priced from the gas side.
 - **[India's Medical-Device Trade Gap — and the Devices Worth Making Here](https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html)** — 2026-08-05
@@ -346,6 +545,8 @@
   Six years of statutory zero-MDR on UPI ended on 4 August 2026, and this blog’s companion piece worked out why the petrol pump is the single most exposed merchant in the country. But fuel is one counter. NPCI’s own merchant-category data shows groceries, restaurants and fast food together carry 43.7% of UPI’s person-to-merchant transaction volume — the counters most Indians actually stand at. This piece runs the same leverage arithmetic across them, and across the rest of NPCI’s published top 15.
 - **[India's Food Processing Story: A PLI Scheme Beating Its Own Targets, and a Cold-Chain Gap That Isn't Closing](https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html)** — 2026-08-08
   India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline. In the same sector, roughly 30% of the fruit and vegetables India grows spoils before reaching a consumer, because the cold storage to stop that from happening does not exist. Both things are true at once, and this piece prices both.
+- **[South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.](https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html)** — 2026-08-08
+  India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 - **[Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out](https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html)** — 2026-08-08
   Blockchain-traceable chocolate has been promised since at least 2017. This piece checks four specific projects against what actually happened: a flagship logistics platform that shut down after five years, a completed EU-funded pilot whose own numbers are targets rather than results, an early confectioner-led effort that stalled on the hardest part of the problem, and the one thing that is not a pilot — a European law, twice delayed, now four months from taking effect.
 - **[India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing](https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html)** — 2026-08-08
@@ -354,18 +555,16 @@
   A price that cost 100 in 2020 costs 103.5 in China today and about 1,900 in Argentina. Between those poles sit the rest of the G20. This version is rebuilt on the World Bank’s harmonised inflation database rather than on figures assembled country by country — a change that corrected one of this article’s own claims about India, described at the end.
 - **[India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check](https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html)** — 2026-08-08
   Extending this blog’s WPI and CPI work across borders runs into a problem before it reaches a finding: almost no other country publishes a wholesale price index, and the one harmonised international series that allowed the comparison was discontinued in 2022. What survives the methodology check is still worth having — the producer-side boom and bust of 2021–24 was universal in shape, the 2026 turn is universal too — with the United States turning hardest, not India — and India’s consumer inflation has quietly become one of the lowest in the G20.
-- **[Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_0307512735.html)** — 2026-08-06
-  Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 - **[Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html)** — 2026-08-06
   Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
-- **[Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_0459870800.html)** — 2026-08-06
-  Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 - **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
   DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 - **[The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html)** — 2026-08-05
   A cluster of Indian crop-science papers on protected tomato, capsicum and cucumber cultivation makes a consistent, well-documented case: covered structures beat open-field farming by a wide margin on yield and profitability. What none of them ask is the more interesting question — does that case get even better once you stop building new polyhouses from scratch and start retrofitting structures that already exist?
 - **[Fuel Pricing to Crude Cost](https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html)** — 2026-08-05
   Petrol and diesel at the pump are not a simple pass-through of the crude oil price — they run through a fixed-rate excise duty, a dealer commission and a percentage state VAT before they reach the retail selling price (RSP). This piece builds that chain from PPAC's own published price structure, re-prices it against live crude benchmarks from Rigzone and OilPriceAPI, and runs it across all 35 state capitals to show how much of a crude move actually reaches the pump — and how much gets held back or amplified by tax design.
+- **[Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)** — 2026-08-05
+  The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 - **[India's Animal-Protein Export Complex: Buffalo Meat, the Tallow-Biodiesel Byproduct, and the Shrimp Boom](https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html)** — 2026-08-05
   Buffalo meat, the rendering-industry fat it throws off, and farmed shrimp look like unrelated export categories. They share the same underlying story: India is one of the world's largest animal-protein producers, and each byproduct stream is at a different stage of being turned into an export or energy business.
 - **[India's Tyre-Waste Problem and the Crumb-Rubber Road Fix](https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html)** — 2026-08-05
@@ -819,7 +1018,7 @@ A September 2024 project registry compiled by the Indo-German Green Hydrogen Tas
 India’s vehicle trade is a genuine export success. Its electrical-machinery trade — the chapter that houses EV motors, batteries and power electronics — is the opposite. As the fleet electrifies, the value that used to sit safely inside Chapter 87 starts migrating into the chapter India is worst at.
 
 ### [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)
-*2026-08-05 · Agriculture & Fertilisers, Energy & Fuels, Prices & Inflation*
+*2026-08-05 · —*
 
 The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 
@@ -853,11 +1052,6 @@ Gujarat, Uttar Pradesh, Tamil Nadu and a dozen other states are locked into an i
 
 India built roughly 2,000 crore litres of ethanol distillation capacity to chase the EBP blending mandate — and demand has not caught up. The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place.
 
-### [Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_0307512735.html)
-*2026-08-06 · —*
-
-Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
-
 ### [From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html)
 *2026-08-06 · Energy & Fuels*
 
@@ -872,11 +1066,6 @@ PM Surya Ghar has put 12 GW on Indian roofs in about two years, and the subsidy 
 *2026-08-06 · —*
 
 Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
-
-### [Chemical Import Substitution — Full HSN-8 Chapter-Wise Registry (827 Codes)](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_0459870800.html)
-*2026-08-06 · —*
-
-Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 
 ### [India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)
 *2026-08-06 · —*
@@ -929,7 +1118,7 @@ A record $825 billion in exports, a landmark EU trade deal, a PLI scheme that ov
 PPAC’s statewise sales series runs from FY2008-09 to FY2024-25, and it tells a sharper story than the national total: petrol demand grew three and a half times faster than diesel, the diesel-to-petrol ratio collapsed from 4.6 to 2.3, the growth frontier moved east to Odisha and Chhattisgarh — and the slowest-growing fuel market in India is Delhi, which is exactly what its gas and metro build-out was meant to achieve.
 
 ### [South Africa Lost Its Gulf Fuel Supply. It Turned to America, Not India.](https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html)
-*2026-08-08 · Energy & Fuels, Gas & LNG, Trade & Tariffs*
+*2026-08-08 · —*
 
 India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 
