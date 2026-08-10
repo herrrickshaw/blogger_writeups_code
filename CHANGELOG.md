@@ -2370,3 +2370,16 @@ Rebuild article index: 116 articles including new Rule of 72/114/144 post
 **Changed**
 
 - `article-index-start-here` — 148,983 → 149,246 bytes (+263)
+
+## 2026-08-10T06:27:32+05:30 — 118 posts live
+
+Add prominent standalone caveat: Rule of 72/114/144 apply only to one-time lump-sum investments, not SIPs/recurring investments
+
+
+**Versions**
+
+- `the-rule-of-72-rule-of-114-and-how-to` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `the-rule-of-72-rule-of-114-and-how-to` — 17,450 → 18,356 bytes (+906)

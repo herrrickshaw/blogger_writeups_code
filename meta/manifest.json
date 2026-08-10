@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T06:23:54+05:30",
+  "snapshot": "2026-08-10T06:27:32+05:30",
   "count": 118,
   "posts": {
     "1157999291079244419": {
@@ -899,13 +899,13 @@
       "title": "The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim",
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
       "slug": "the-rule-of-72-rule-of-114-and-how-to",
-      "published": "2026-08-10T06:21:23.569+05:30",
-      "updated": "2026-08-10T06:21:23.569+05:30",
+      "published": "2026-08-10T06:21:23.000+05:30",
+      "updated": "2026-08-10T06:26:59.313+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 17450,
-      "sha256": "0eebe8c715a47cbc19493ecb7e9bc30ac0bad1e74223727af7831a00965da46b",
+      "bytes": 18356,
+      "sha256": "329f8df30d083e98001eb9291d5567ee3e84cd54823969443bb817b625972f51",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -917,7 +917,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -925,6 +925,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: Rule of 72/114/144 compound-interest explainer, with verified doubling/tripling/quadrupling math vs exact logarithmic formula, PPF 7.1% worked example"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-10T06:27:32+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            17450,
+            18356
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add prominent standalone caveat: Rule of 72/114/144 apply only to one-time lump-sum investments, not SIPs/recurring investments"
         }
       ]
     },
