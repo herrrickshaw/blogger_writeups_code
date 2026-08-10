@@ -2348,3 +2348,12 @@ Rebuild article index: 115 articles including new DTAA/FTA post
 **Changed**
 
 - `article-index-start-here` — 148,518 → 148,983 bytes (+465)
+
+## 2026-08-10T06:22:25+05:30 — 118 posts live
+
+New article: Rule of 72/114/144 compound-interest explainer, with verified doubling/tripling/quadrupling math vs exact logarithmic formula, PPF 7.1% worked example
+
+
+**Added**
+
+- `the-rule-of-72-rule-of-114-and-how-to` **v1.0.0** — The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim (17,450 bytes)
