@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T06:22:25+05:30",
+  "snapshot": "2026-08-10T06:23:54+05:30",
   "count": 118,
   "posts": {
     "1157999291079244419": {
@@ -5708,10 +5708,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-09T10:56:00.679+05:30",
+      "updated": "2026-08-10T06:23:35.890+05:30",
       "labels": [],
-      "bytes": 148983,
-      "sha256": "db632e6fa161e6d78e5e5e24a4c4e5417e2e3e166bea9bdcbead81a5b29ed1bf",
+      "bytes": 149246,
+      "sha256": "1a63107b07718012944a78dee712c74d00a3cfa9a473b69580ee33b82648f012",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5723,7 +5723,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "16.0.0",
+      "version": "17.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5965,6 +5965,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index: 115 articles including new DTAA/FTA post"
+        },
+        {
+          "version": "17.0.0",
+          "date": "2026-08-10T06:23:54+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-2 distinct numbers)",
+          "bytes": [
+            148983,
+            149246
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild article index: 116 articles including new Rule of 72/114/144 post"
         }
       ]
     },

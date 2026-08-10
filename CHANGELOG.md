@@ -2357,3 +2357,16 @@ New article: Rule of 72/114/144 compound-interest explainer, with verified doubl
 **Added**
 
 - `the-rule-of-72-rule-of-114-and-how-to` **v1.0.0** — The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim (17,450 bytes)
+
+## 2026-08-10T06:23:54+05:30 — 118 posts live
+
+Rebuild article index: 116 articles including new Rule of 72/114/144 post
+
+
+**Versions**
+
+- `article-index-start-here` **16.0.0 → 17.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 148,983 → 149,246 bytes (+263)
