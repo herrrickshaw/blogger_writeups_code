@@ -2466,3 +2466,16 @@ Add The Two-Income Trap, All Your Worth, and Your Money or Your Life to author's
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 27,213 → 28,095 bytes (+882); markers index_link True→False, translate_widget True→False
+
+## 2026-08-10T07:16:43+05:30 — 120 posts live
+
+Fix Shop page: head_gas.html scratch template was missing its closing </style> tag, causing the browser to swallow all content (shelf items, topic books) as CSS text -- page rendered blank below the title rule. Rebuilt head_gas.html from the known-good head_mdr.html pattern and republished.
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **5.0.0 → 6.0.0** (MAJOR) — figures changed (+0/-60 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 28,095 → 29,291 bytes (+1,196); markers index_link False→True, translate_widget False→True

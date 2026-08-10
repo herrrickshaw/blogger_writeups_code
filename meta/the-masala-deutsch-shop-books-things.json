@@ -4,24 +4,24 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-10T07:03:47.564+05:30",
+  "updated": "2026-08-10T07:14:53.071+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 28095,
-  "sha256": "d87c79090a7de270e093cab3bcd94f0587ff01842d833516df9245a927d8a488",
+  "bytes": 29291,
+  "sha256": "b95690d67600110aa0cfbc523f2a35d60fc517be9b08ac5538f742da9050aca7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
-    "translate_widget": false,
-    "index_link": false,
+    "translate_widget": true,
+    "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -142,6 +142,28 @@
         ]
       },
       "note": "Add The Two-Income Trap, All Your Worth, and Your Money or Your Life to author's shelf (all referenced in the 50/30/20 budgeting article); rebuild+republish Shop page (13→16 items)"
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-08-10T07:16:43+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-60 distinct numbers)",
+      "bytes": [
+        28095,
+        29291
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "translate_widget": [
+          false,
+          true
+        ],
+        "index_link": [
+          false,
+          true
+        ]
+      },
+      "note": "Fix Shop page: head_gas.html scratch template was missing its closing </style> tag, causing the browser to swallow all content (shelf items, topic books) as CSS text -- page rendered blank below the title rule. Rebuilt head_gas.html from the known-good head_mdr.html pattern and republished."
     }
   ]
 }
