@@ -2392,3 +2392,16 @@ New article: Thali Investing — diversification explainer across PPF/EPF/mutual
 **Added**
 
 - `thali-investing-whats-actually-on-plate` **v1.0.0** — Thali Investing: What's Actually on the Plate When People Say "Diversify" (21,276 bytes)
+
+## 2026-08-10T06:35:41+05:30 — 119 posts live
+
+Rebuild article index: 117 articles including new Thali Investing post
+
+
+**Versions**
+
+- `article-index-start-here` **17.0.0 → 18.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 149,246 → 149,731 bytes (+485)
