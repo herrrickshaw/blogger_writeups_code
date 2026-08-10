@@ -20,6 +20,7 @@ THE GRAPH IS DRAWN, NOT EMBEDDED
 """
 import argparse
 import collections
+import glob
 import html
 import itertools
 import json
@@ -28,6 +29,25 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+
+
+def load_labels_by_slug():
+    """slug -> topic labels, from this archive's local post metadata. The
+    entity graph (index_graph.py's output, what `posts` is built from in
+    main()) doesn't carry Blogger labels at all -- the topic accordion above
+    gets its labels live from Blogger's own feeds at view time instead. The
+    flat "All articles" list is server-rendered, though, so it needs labels
+    available at build time; meta/*.json already has them (same source
+    build_md_summary.py uses)."""
+    out = {}
+    for f in glob.glob(str(ROOT / "meta" / "*.json")):
+        try:
+            m = json.loads(Path(f).read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if m.get("slug"):
+            out[m["slug"]] = m.get("labels") or []
+    return out
 
 LABEL_HUBS = [
     ("Trade & Tariffs", "Trade%20%26%20Tariffs"),
@@ -185,6 +205,7 @@ def main():
     # utility pages are navigation, not articles
     for s in ("article-index-start-here", "about-author"):
         posts.pop(s, None)
+    labels_by_slug = load_labels_by_slug()
 
     by_country = collections.defaultdict(list)
     by_state = collections.defaultdict(list)
@@ -319,26 +340,34 @@ def main():
     A('</div>')
 
     # ---- full list with related -------------------------------------------
+    # Flat date -> topic -> title rows (see chrono_list_mockup.html, inspired
+    # by jungle.vc/resources), not cards: the scan is date and headline first,
+    # everything else -- geography, related pieces -- demoted to a quieter
+    # line underneath rather than competing on the same visual level.
     A('<h2>All articles</h2>')
-    A('<p class="h2sub">Newest first, with the closest related pieces.</p>')
-    A('<div class="allposts">')
+    A('<p class="h2sub">Newest first.</p>')
+    A('<div class="chrono">')
     for slug, p in sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True):
-        A('<div class="pitem">')
-        A(f'<p class="ptitle"><a href="{E(p["url"])}">{E(p["title"])}</a></p>')
-        bits = []
-        if p["published"]:
-            bits.append(E(p["published"]))
-        if p["countries"]:
-            bits.append(E(", ".join(p["countries"][:3])))
-        if p["states"]:
-            bits.append(E(", ".join(p["states"][:3])))
-        A(f'<p class="pmeta">{" &middot; ".join(bits)}</p>')
+        labels = labels_by_slug.get(slug) or []
+        tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
+        date_str = _pretty_date(p["published"]) if p["published"] else "?"
+        A('<div class="crow">')
+        A(f'<span class="cdate">{E(date_str)}</span>')
+        A(f'<span class="{tag_cls}">{E(tag)}</span>')
+        A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
+        geo = (p["countries"][:2] + p["states"][:2])
         rel = [r for r in p["related"] if r["slug"] in posts][:3]
-        if rel:
-            links = " &middot; ".join(
-                f'<a href="{E(posts[r["slug"]]["url"])}">{E(posts[r["slug"]]["title"][:58])}</a>'
-                for r in rel)
-            A(f'<p class="prel"><span>Related</span> {links}</p>')
+        if geo or rel:
+            A('<span class="csub">')
+            if geo:
+                A(f'<span class="cgeo">{E(", ".join(geo))}</span>')
+            if rel:
+                links = " &middot; ".join(
+                    f'<a href="{E(posts[r["slug"]]["url"])}">{E(posts[r["slug"]]["title"][:52])}</a>'
+                    for r in rel)
+                sep = ' <span class="cdot">&middot;</span> ' if geo else ''
+                A(f'{sep}<span class="crel-lbl">Related</span> {links}')
+            A('</span>')
         A('</div>')
     A('</div>')
 
@@ -359,15 +388,30 @@ def main():
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
 .artx .geoh span{color:#8a8a8a;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
-.artx .allposts{margin:1.2rem 0 0}
-.artx .pitem{padding:.85rem 0;border-top:1px solid #ececec}
-.artx .ptitle{margin:0;font-size:1.02rem;line-height:1.35;max-width:46rem}
-.artx .pmeta{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.74rem;color:#7a7a7a;margin:.2rem 0 0}
-.artx .prel{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.78rem;color:#595959;margin:.3rem 0 0;max-width:46rem}
-.artx .prel span{font-weight:700;text-transform:uppercase;letter-spacing:.09em;font-size:.66rem;
- color:#8a4b08;margin-right:.35rem}
+.artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
+.artx .crow{display:grid;grid-template-columns:6.4rem 11rem 1fr;align-items:baseline;
+ column-gap:1.1rem;row-gap:.2rem;padding:.85rem .2rem;border-bottom:1px solid #e2e2e2;
+ transition:background-color .12s ease}
+.artx .crow:hover{background:#F4F7FB}
+.artx .crow:hover .ctitle{color:#2251FF}
+.artx .cdate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:.15rem}
+.artx .ctag{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2251FF;
+ padding-top:.15rem}
+.artx .ctag.none{color:#8a8a8a;font-weight:600;letter-spacing:.03em;text-transform:none}
+.artx .ctitle{grid-column:3;font-family:Georgia,'Times New Roman',serif;font-size:1.02rem;
+ line-height:1.4;color:#0B1F2D;text-decoration:none;transition:color .12s ease}
+.artx .csub{grid-column:3;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,
+ sans-serif;font-size:.76rem;color:#8a8a8a;line-height:1.5}
+.artx .csub a{color:#8a8a8a}
+.artx .csub .crel-lbl{font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.64rem;
+ color:#8a4b08}
+.artx .csub .cdot{margin:0 .1rem}
+@media (max-width:640px){
+ .artx .crow{grid-template-columns:1fr;row-gap:.25rem;padding:1rem .2rem}
+ .artx .ctitle,.artx .csub{grid-column:1}
+}
 </style>
 """
     Path(args.out).write_text(head + extra + body + tail, encoding="utf-8")
