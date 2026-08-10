@@ -4,12 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-08-10T09:47:32.940+05:30",
-  "labels": [
-    "Climate & Carbon"
-  ],
-  "bytes": 38885,
-  "sha256": "db6b62c22192cf2f1ad48efb723b6987ca2ac1d8dde278b9a08adb3a765e461c",
+  "updated": "2026-08-10T14:27:57.007+05:30",
+  "labels": [],
+  "bytes": 38886,
+  "sha256": "36ac735d9f7370c6d7375aebc3f384c0a0ce4fa902eea5d85531957982959edf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +75,19 @@
       "bytes": [
         38308,
         38885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-08-10T14:30:40+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        38885,
+        38886
       ],
       "url_changed": null,
       "markers_changed": null,

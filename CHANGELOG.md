@@ -2651,3 +2651,23 @@ scheduled sync
 
 - `south-africa-lost-its-gulf-fuel-supply` — 20,476 → 20,477 bytes (+1)
 - `fourteen-years-of-indian-wholesale` — 20,869 → 20,868 bytes (-1)
+
+## 2026-08-10T14:30:40+05:30 — 122 posts live
+
+**Versions**
+
+- `fourteen-years-of-indian-wholesale` **2.0.2 → 2.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `bio-fertiliser-and-green-credits` **2.0.1 → 2.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `nature-versus-nurture-indias-fertiliser` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-price-of-grain-msp-msv-and` **2.0.1 → 2.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `fourteen-years-of-indian-wholesale` — 20,868 → 20,867 bytes (-1)
+- `rare-earth-magnets-and-specialty-steel` — 9,304 → 9,306 bytes (+2)
+- `bio-fertiliser-and-green-credits` — 38,885 → 38,886 bytes (+1)
+- `nature-versus-nurture-indias-fertiliser` — 72,182 → 72,186 bytes (+4)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 118,791 → 118,790 bytes (-1)
+- `the-price-of-grain-msp-msv-and` — 29,538 → 29,536 bytes (-2)

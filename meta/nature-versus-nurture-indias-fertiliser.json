@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-08-10T09:01:52.451+05:30",
+  "updated": "2026-08-10T14:28:06.116+05:30",
   "labels": [],
-  "bytes": 72182,
-  "sha256": "b6f131cf6ad9f5cee7017528b2c3e21758570397c6540aa6bc724a63832d546b",
+  "bytes": 72186,
+  "sha256": "a7b5fff67a1603095e46f46eeb71f05fe1c4d38c582cf802a670889010dd6068",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -88,6 +88,19 @@
       "bytes": [
         71621,
         72182
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-08-10T14:30:40+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        72182,
+        72186
       ],
       "url_changed": null,
       "markers_changed": null,

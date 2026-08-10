@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.000+05:30",
-  "updated": "2026-08-10T13:50:44.583+05:30",
+  "updated": "2026-08-10T14:28:43.731+05:30",
   "labels": [],
-  "bytes": 20868,
-  "sha256": "e7c80eee94828c7994fab5656d158144149859d94f34048d5f3f3f7abcd76d76",
+  "bytes": 20867,
+  "sha256": "08d3173cb7c47e80cc42d79ccffdb5c2b30e2e9fa8ee905475ccb5c5678d81dd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -101,6 +101,19 @@
       "bytes": [
         20869,
         20868
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-10T14:30:40+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20868,
+        20867
       ],
       "url_changed": null,
       "markers_changed": null,
