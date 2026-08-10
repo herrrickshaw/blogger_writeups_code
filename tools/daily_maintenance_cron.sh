@@ -19,6 +19,15 @@ echo "=== $(date '+%Y-%m-%d %H:%M:%S') summary regeneration ==="
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') language audit (report-only, no publish) ==="
 /opt/homebrew/bin/python3 tools/language_audit.py
 echo "$(date '+%Y-%m-%d %H:%M:%S') language audit complete -- see out/language_audit/_summary_latest.md"
+# Pushed to GitHub, same reasoning as the GA4 report below: a cloud routine
+# has no access to this machine's disk, so cross-referencing traffic against
+# flagged posts needs both reports available in the repo.
+git add out/language_audit/
+if ! git diff --cached --quiet -- out/language_audit/; then
+  git commit -m "Language audit snapshot $(date +%Y-%m-%d)"
+  git push origin main
+  echo "$(date '+%Y-%m-%d %H:%M:%S') language audit committed + pushed"
+fi
 
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') GA4 traffic report (report-only) ==="
 mkdir -p out/ga_report
