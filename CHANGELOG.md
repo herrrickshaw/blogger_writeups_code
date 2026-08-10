@@ -2418,3 +2418,12 @@ Add thali photo (CC BY-SA 2.0, Wikimedia Commons) to Thali Investing article, il
 **Changed**
 
 - `thali-investing-whats-actually-on-plate` — 21,276 → 22,201 bytes (+925)
+
+## 2026-08-10T06:47:53+05:30 — 120 posts live
+
+New article: 50/30/20 budgeting rule (Elizabeth Warren, 2005) with a factual correction — the widely-shared 'Warren Buffett flips it to 50% savings' claim could not be verified and appears to be a name-confusion with Elizabeth Warren; Buffett's actual on-record guidance is 10-20%
+
+
+**Added**
+
+- `the-503020-rule-is-elizabeth-warrens` **v1.0.0** — The 50/30/20 Rule Is Elizabeth Warren's, Not Warren Buffett's (14,588 bytes)
