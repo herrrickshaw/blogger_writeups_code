@@ -268,8 +268,14 @@ def do_update(post_id, url, title, body, published=None, dry_run=False):
         payload["published"] = published
     api(f"/blogs/{BLOG_ID}/posts/{post_id}", data=payload, method="PUT")
     time.sleep(3)  # give Blogger a moment to render before verifying
-    probe = re.sub(r"<[^>]+>", "", body)[:60].strip()
-    ok, why = verify_live(url, needle=probe[:40] if len(probe) > 40 else None)
+    # Strip script/style CONTENT before taking a probe: a naive tag-strip leaves
+    # CSS/JS text, which Blogger reformats on save, so the probe never matches
+    # and a perfectly good publish reports as failed. That happened once
+    # (cmd_insert already had this fix; do_update didn't).
+    probe = re.sub(r"<(script|style)\b[^>]*>[\s\S]*?</\1>", " ", body, flags=re.I)
+    probe = re.sub(r"<[^>]+>", " ", probe)
+    probe = re.sub(r"\s+", " ", probe).strip()[:40]
+    ok, why = verify_live(url, needle=probe)
     print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
     return ok
 
