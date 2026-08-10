@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T07:33:06+05:30",
+  "snapshot": "2026-08-10T07:38:59+05:30",
   "count": 120,
   "posts": {
     "1157999291079244419": {
@@ -1018,12 +1018,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-10T07:29:31.356+05:30",
+      "updated": "2026-08-10T07:38:12.635+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 31172,
-      "sha256": "9d71bc49b87baa93afc1d44c903185cc87dda04d22b9335b92e2ab119322182a",
+      "bytes": 32501,
+      "sha256": "77c50e88fc3f2209d28671f50a908886fe7e84a436845c14cb9667a103be1ba4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1035,7 +1035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.2.0",
+      "version": "6.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1204,6 +1204,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Split author's shelf into Books (10) and Other items (6) subsections, both on the Shop page and the per-article shelf widget; SHELF entries now carry a 5th type field, build_shop.py and accordion.js updated to match"
+        },
+        {
+          "version": "6.3.0",
+          "date": "2026-08-10T07:38:59+05:30",
+          "level": "minor",
+          "reason": "prose grew 4,200→4,321 chars with no new figures",
+          "bytes": [
+            31172,
+            32501
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fiction to author's shelf Books section (16->18 shelf items)"
         }
       ]
     },

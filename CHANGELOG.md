@@ -2505,3 +2505,16 @@ Split author's shelf into Books (10) and Other items (6) subsections, both on th
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 30,870 → 31,172 bytes (+302)
+
+## 2026-08-10T07:38:59+05:30 — 120 posts live
+
+Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fiction to author's shelf Books section (16->18 shelf items)
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **6.2.0 → 6.3.0** (MINOR) — prose grew 4,200→4,321 chars with no new figures
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 31,172 → 32,501 bytes (+1,329)
