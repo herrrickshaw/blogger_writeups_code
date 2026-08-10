@@ -4,13 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-08-08T22:31:13.262+05:30",
-  "labels": [
-    "Agriculture & Fertilisers",
-    "Climate & Carbon"
-  ],
-  "bytes": 38308,
-  "sha256": "82e6fb8022de679df503d8aab8bf6eb16b13be245a1606f15c813cd45e1e60eb",
+  "updated": "2026-08-10T09:02:14.558+05:30",
+  "labels": [],
+  "bytes": 38885,
+  "sha256": "db6b62c22192cf2f1ad48efb723b6987ca2ac1d8dde278b9a08adb3a765e461c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +66,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-10T09:02:55+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        38308,
+        38885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

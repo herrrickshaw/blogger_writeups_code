@@ -4,13 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-08-09T04:38:09.859+05:30",
-  "labels": [
-    "Energy & Fuels",
-    "Gas & LNG"
-  ],
-  "bytes": 31420,
-  "sha256": "ab23f44d516abf8649186bfef61c3dfe3d2cbf2677030d8ef733ee37a1964cab",
+  "updated": "2026-08-10T09:00:40.729+05:30",
+  "labels": [],
+  "bytes": 32436,
+  "sha256": "27bf3c0e0508b82e8086914656bfe6b1d149c93b0fd99aa264d4700c4494faec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Site-wide diagram audit: reviewed all 112 articles for whether an explanatory literature diagram would help. 111 correctly served by existing tables/SVG house style. Added one verified CC BY 4.0 figure (rice-bran biorefinery branching diagram, Navajas-Preciado et al. 2025, Sustainability) to The Grain Value Loop"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-08-10T09:02:55+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        31420,
+        32436
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

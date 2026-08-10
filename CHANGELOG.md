@@ -2564,3 +2564,19 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 **Changed**
 
 - `ahidf-has-sanctioned-19751-crore-in` — 15,309 → 15,978 bytes (+669)
+
+## 2026-08-10T09:02:55+05:30 — 121 posts live
+
+**Versions**
+
+- `cow-dung-already-flew-rocket-engine` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `indias-carbon-credit-market-domestic` **1.0.2 → 1.0.3** (PATCH) — wording changed; no figures, sections or claims moved
+- `bio-fertiliser-and-green-credits` **2.0.0 → 2.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `nature-versus-nurture-indias-fertiliser` **3.0.0 → 3.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `cow-dung-already-flew-rocket-engine` — 31,420 → 32,436 bytes (+1,016)
+- `indias-carbon-credit-market-domestic` — 24,387 → 24,835 bytes (+448)
+- `bio-fertiliser-and-green-credits` — 38,308 → 38,885 bytes (+577)
+- `nature-versus-nurture-indias-fertiliser` — 71,621 → 72,182 bytes (+561)
