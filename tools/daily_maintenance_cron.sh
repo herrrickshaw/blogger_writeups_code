@@ -26,6 +26,15 @@ today=$(date +%Y-%m-%d)
 if /opt/homebrew/bin/python3 tools/ga_report.py --days 28 --out "out/ga_report/${today}.md"; then
   cp "out/ga_report/${today}.md" out/ga_report/latest.md
   echo "$(date '+%Y-%m-%d %H:%M:%S') GA4 report complete -- see out/ga_report/latest.md"
+  # Pushed to GitHub (unlike the language audit, which stays local-only) so a
+  # cloud routine with no access to this machine's disk can read the latest
+  # snapshot straight from the repo.
+  git add out/ga_report/
+  if ! git diff --cached --quiet -- out/ga_report/; then
+    git commit -m "GA4 report snapshot ${today}"
+    git push origin main
+    echo "$(date '+%Y-%m-%d %H:%M:%S') GA4 report committed + pushed"
+  fi
 else
   echo "$(date '+%Y-%m-%d %H:%M:%S') GA4 report FAILED -- see output above (previous latest.md left untouched)"
 fi
