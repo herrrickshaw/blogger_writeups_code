@@ -2528,3 +2528,9 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 32,501 → 37,858 bytes (+5,357)
+
+## 2026-08-10T08:42:52+05:30 — 121 posts live
+
+**Added**
+
+- `ahidf-has-sanctioned-19751-crore-in` **v1.0.0** — AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account. (15,812 bytes)
