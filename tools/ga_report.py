@@ -12,7 +12,7 @@ Report-only: reads GA4 data, prints/writes a summary. Never touches the blog.
     python3 tools/ga_report.py --days 7
     python3 tools/ga_report.py --days 90 --out out/ga_report.md
 """
-import argparse, base64, json, time, urllib.request, urllib.parse, pathlib
+import argparse, base64, glob, json, re, time, urllib.request, urllib.parse, pathlib
 
 from cryptography.hazmat.primitives import hashes, serialization
 from cryptography.hazmat.primitives.asymmetric import padding
@@ -22,6 +22,8 @@ SA_FILE = SECRETS / "ga_service_account.json"
 PROPERTY_ID = "548678807"
 SCOPE = "https://www.googleapis.com/auth/analytics.readonly"
 DATA_API = f"https://analyticsdata.googleapis.com/v1beta/properties/{PROPERTY_ID}:runReport"
+ROOT = pathlib.Path(__file__).resolve().parent.parent
+PAGE_PATH_RE = re.compile(r"^/\d{4}/\d{2}/([^/]+)\.html$")
 
 
 def _b64url(raw: bytes) -> str:
@@ -66,6 +68,58 @@ def run_report(access_token, body):
         raise RuntimeError(f"GA4 API error {e.code}: {e.read().decode()}") from e
 
 
+def canonical_path_map():
+    """slug -> canonical URL path, from this archive's local post metadata.
+    Blogger permalinks are fixed at post-creation time, but if a post's
+    `published` date is later edited (as tools/blogger_api.py deliberately
+    does, to avoid Blogger silently re-dating a post on every update), the
+    URL's year/month prefix can end up not matching the published date --
+    and Blogger 301-redirects the "naturally guessed" old-dated URL to the
+    real permalink. GA4 tracks pagePath as whatever was actually live at
+    the time, so the same post's pageviews end up split across both paths
+    in the raw report even though there's only ever been one live URL at
+    any given moment (verified: the old path 301s, it's not a duplicate
+    post). This map lets the top-pages report merge those back together."""
+    m = {}
+    for f in glob.glob(str(ROOT / "meta" / "*.json")):
+        try:
+            meta = json.load(open(f))
+        except Exception:
+            continue
+        slug = meta.get("slug")
+        url = meta.get("url")
+        if not slug or not url:
+            continue
+        m[slug] = urllib.parse.urlparse(url).path
+    return m
+
+
+def merge_page_aliases(report):
+    """Collapse rows whose pagePath resolves to the same post slug (see
+    canonical_path_map) into one row keyed by that post's current canonical
+    path, summing the metrics and recording which alias paths were folded
+    in. Rows with no slug match (/, /search, etc.) pass through unchanged."""
+    canon = canonical_path_map()
+    merged = {}   # canonical_path -> {"views": int, "users": int, "aliases": {path: (views, users)}}
+    order = []
+    for row in report.get("rows", []):
+        path = row["dimensionValues"][0]["value"]
+        views = int(row["metricValues"][0]["value"])
+        users = int(row["metricValues"][1]["value"])
+        m = PAGE_PATH_RE.match(path)
+        slug = m.group(1) if m else None
+        key = canon.get(slug, path)
+        if key not in merged:
+            merged[key] = {"views": 0, "users": 0, "aliases": {}}
+            order.append(key)
+        merged[key]["views"] += views
+        merged[key]["users"] += users
+        if path != key:
+            merged[key]["aliases"][path] = (views, users)
+    order.sort(key=lambda k: -merged[k]["views"])
+    return order, merged
+
+
 def rows_to_table(report, dim_label, metric_labels):
     header = [dim_label] + metric_labels
     lines = ["| " + " | ".join(header) + " |", "|" + "---|" * len(header)]
@@ -75,6 +129,29 @@ def rows_to_table(report, dim_label, metric_labels):
         lines.append("| " + " | ".join(dims + mets) + " |")
     if not report.get("rows"):
         lines.append("| *(no data returned)* |" + " |" * len(metric_labels))
+    return "\n".join(lines)
+
+
+def merged_pages_to_table(order, merged):
+    lines = ["| Page path | Page views | Active users |", "|---|---|---|"]
+    footnotes = []
+    for key in order:
+        row = merged[key]
+        note = ""
+        if row["aliases"]:
+            n = len(footnotes) + 1
+            note = f" [{n}]"
+            alias_desc = "; ".join(f"`{p}` ({v} views/{u} users)"
+                                    for p, (v, u) in row["aliases"].items())
+            footnotes.append(f"[{n}]: same post, folded in from a pre-redirect URL "
+                              f"still present in GA4's history (301 confirmed working) "
+                              f"-- {alias_desc}")
+        lines.append(f"| {key}{note} | {row['views']} | {row['users']} |")
+    if not order:
+        lines.append("| *(no data returned)* | | |")
+    if footnotes:
+        lines.append("")
+        lines.extend(footnotes)
     return "\n".join(lines)
 
 
@@ -129,7 +206,7 @@ def main():
           "\n## Views by city (top 30)\n",
           rows_to_table(by_city, "City", ["Active users", "Page views"]),
           "\n## Top pages (top 20)\n",
-          rows_to_table(by_page, "Page path", ["Page views", "Active users"]),
+          merged_pages_to_table(*merge_page_aliases(by_page)),
           ]
     if t_vals[0] == "0" and not by_country.get("rows"):
         md.append("\n**No data returned for this range.** Either the GA4 "
