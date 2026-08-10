@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-10T11:02:30+05:30",
-  "count": 121,
+  "snapshot": "2026-08-10T11:48:45+05:30",
+  "count": 122,
   "posts": {
     "1157999291079244419": {
       "id": "1157999291079244419",
@@ -5700,6 +5700,41 @@
         }
       ]
     },
+    "5999286060961140832": {
+      "id": "5999286060961140832",
+      "title": "India's Used-Oil EPR Wants Half of All Lubricant Recycled by 2030. So Far, 119 Producers Have Actually Registered.",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
+      "slug": "indias-used-oil-epr-wants-half-of-all",
+      "published": "2026-08-10T11:46:04.000+05:30",
+      "updated": "2026-08-10T11:46:35.686+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Industrial Policy"
+      ],
+      "bytes": 18167,
+      "sha256": "a1d4193ba6890d2702283bb9f93fcd6b86d5aa9ba84d5e5e94f9aa658f990ae7",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-10T11:48:45+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "6005716037070145582": {
       "id": "6005716037070145582",
       "title": "FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT",
@@ -6014,7 +6049,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-10T10:59:22.450+05:30",
+      "updated": "2026-08-10T11:48:22.217+05:30",
       "labels": [],
       "bytes": 155165,
       "sha256": "ad6ba1c4a5a7f256903dd4342f7330b98077245cb40be8d950507db39f8c2ae9",
@@ -8220,14 +8255,11 @@
       "title": "India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing",
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
       "slug": "indias-epr-regime-just-got-teeth-and",
-      "published": "2026-08-08T21:56:27.584+05:30",
-      "updated": "2026-08-08T21:56:27.584+05:30",
-      "labels": [
-        "Energy & Fuels",
-        "Industrial Policy"
-      ],
-      "bytes": 15153,
-      "sha256": "476a8b9f045414c0986a00ac3d6248dae5d091ad8dd1d7dd97c21d93fa91b767",
+      "published": "2026-08-08T21:56:27.000+05:30",
+      "updated": "2026-08-10T11:47:32.399+05:30",
+      "labels": [],
+      "bytes": 15627,
+      "sha256": "378142f14a39607affd4f53ca240bcc25a4db8686a9aaef8dc51072091d589b4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8239,7 +8271,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8247,6 +8279,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: India's EPR regime — plastic EOL-certificate loophole closed (19 Jan 2026) + CSE's 2026 EV battery EPR policy brief documenting black-mass/informal-sector enforcement gaps"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-10T11:48:45+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            15153,
+            15627
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

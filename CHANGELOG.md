@@ -2603,3 +2603,17 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 150,493 → 155,165 bytes (+4,672)
+
+## 2026-08-10T11:48:45+05:30 — 122 posts live
+
+**Added**
+
+- `indias-used-oil-epr-wants-half-of-all` **v1.0.0** — India's Used-Oil EPR Wants Half of All Lubricant Recycled by 2030. So Far, 119 Producers Have Actually Registered. (18,167 bytes)
+
+**Versions**
+
+- `indias-epr-regime-just-got-teeth-and` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `indias-epr-regime-just-got-teeth-and` — 15,153 → 15,627 bytes (+474)
