@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T07:38:59+05:30",
+  "snapshot": "2026-08-10T07:51:03+05:30",
   "count": 120,
   "posts": {
     "1157999291079244419": {
@@ -1018,12 +1018,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-10T07:38:12.635+05:30",
+      "updated": "2026-08-10T07:50:33.485+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 32501,
-      "sha256": "77c50e88fc3f2209d28671f50a908886fe7e84a436845c14cb9667a103be1ba4",
+      "bytes": 37858,
+      "sha256": "22ca2f0dd7e43848795ff8d95989d3cc9bd687856b47fc043d574d452887a508",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1035,7 +1035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.3.0",
+      "version": "7.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1217,6 +1217,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fiction to author's shelf Books section (16->18 shelf items)"
+        },
+        {
+          "version": "7.0.0",
+          "date": "2026-08-10T07:51:03+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            32501,
+            37858
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

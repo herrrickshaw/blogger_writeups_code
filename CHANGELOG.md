@@ -2518,3 +2518,13 @@ Add The Second Sex (Simone de Beauvoir) and The Blaft Anthology of Tamil Pulp Fi
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 31,172 → 32,501 bytes (+1,329)
+
+## 2026-08-10T07:51:03+05:30 — 120 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **6.3.0 → 7.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 32,501 → 37,858 bytes (+5,357)
