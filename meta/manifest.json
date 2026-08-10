@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-10T17:51:40+05:30",
+  "snapshot": "2026-08-10T18:01:02+05:30",
   "count": 122,
   "posts": {
     "1157999291079244419": {
@@ -1645,10 +1645,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-09T07:18:10.127+05:30",
+      "updated": "2026-08-10T18:00:46.033+05:30",
       "labels": [],
-      "bytes": 38996,
-      "sha256": "ac3f9747ce0be31be02ecdaddbcb10db188bf230652995c56d3d6f3cd4131762",
+      "bytes": 38995,
+      "sha256": "7e91c523732fb9f8602bdf3fa2869460ef89a37f7b7fef7cea726e1bd433edde",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1660,7 +1660,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1703,6 +1703,19 @@
           "bytes": [
             38994,
             38996
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-10T18:01:02+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            38996,
+            38995
           ],
           "url_changed": null,
           "markers_changed": null,

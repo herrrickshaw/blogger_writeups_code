@@ -2681,3 +2681,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 155,991 → 165,267 bytes (+9,276)
+
+## 2026-08-10T18:01:02+05:30 — 122 posts live
+
+**Versions**
+
+- `announced-vs-delivered-three-indian` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `announced-vs-delivered-three-indian` — 38,996 → 38,995 bytes (-1)
