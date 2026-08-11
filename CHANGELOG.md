@@ -2723,3 +2723,9 @@ scheduled sync
 **Changed**
 
 - `indias-lock-imports-hit-19784-million` — 17,559 → 17,485 bytes (-74)
+
+## 2026-08-11T10:59:24+05:30 — 124 posts live
+
+**Added**
+
+- `a-slice-of-apple-costs-about-1700-slice` **v1.0.0** — A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet. (15,681 bytes)
