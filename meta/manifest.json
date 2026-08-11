@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T14:38:42+05:30",
+  "snapshot": "2026-08-11T14:44:38+05:30",
   "count": 126,
   "posts": {
     "1157999291079244419": {
@@ -9551,12 +9551,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
       "slug": "why-bet-on-one-horse-when-you-can-buy",
       "published": "2026-08-11T14:23:23.000+05:30",
-      "updated": "2026-08-11T14:38:17.563+05:30",
+      "updated": "2026-08-11T14:42:23.394+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 23821,
-      "sha256": "699e3dc0528ad96d00d889adb7d0e14949b73e2391889655b16eb76e24db8854",
+      "bytes": 24221,
+      "sha256": "d43f5765a22ab798983831a1c1a674c7c6f5aa7189f473bd06667132410b25ae",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9568,7 +9568,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9637,6 +9637,19 @@
           "bytes": [
             22513,
             23821
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-11T14:44:38+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23821,
+            24221
           ],
           "url_changed": null,
           "markers_changed": null,
