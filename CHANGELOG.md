@@ -2739,3 +2739,13 @@ scheduled sync
 **Changed**
 
 - `a-slice-of-apple-costs-about-1700-slice` — 15,681 → 15,920 bytes (+239)
+
+## 2026-08-11T11:03:32+05:30 — 124 posts live
+
+**Versions**
+
+- `article-index-start-here` **23.0.0 → 24.0.0** (MAJOR) — figures changed (+3/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 166,568 → 166,823 bytes (+255)
