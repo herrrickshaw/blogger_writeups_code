@@ -16,19 +16,19 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99509, Requested 2061. Please try again in 22m36.479999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99477, Requested 2061. Please try again in 22m8.832s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between the ₹300 Cr procurement value and the annual output. The ₹300 Cr is a multi-year cumulative figure (as noted in the article), not an annual output, so comparing it directly to an annual output is incorrect. [confidence: high]
+- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between the ₹300 Cr figure and the annual output. The ₹300 Cr appears to be a cumulative multi-year procurement value (as noted in the article's own caution), not an annual output. The comparison is incorrect because it treats a multi-year cumulative figure as an annual value. [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline is inconsistent. An 18-month plan starting in August 2026 would conclude in February 2028, not July 2027, indicating a factual error in the projected completion date. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect. An 18-month plan starting in August 2026 would end in February 2028, not July 2027. The discrepancy suggests a miscalculation in the proposal's timeline. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "5-year net savings vs private (the visible line items in this table sum to ~₹10–14 Cr, not ₹8.51 Cr — the deck does not show a full reconciling derivation)" — The claim highlights a discrepancy in the savings figures, but the deeper issue is that the proposal does not provide a transparent or verifiable breakdown of how the ₹8.51 Cr savings figure was derived. This undermines the credibility of the financial case, as the savings projection lacks proper reconciliation. [confidence: high]
+- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat ration protein content and the proposed target, but it does not account for whether the 8-12g figure is based on actual measured intake or theoretical nutritional content. Without clarifying the methodology (e.g., whether the current rations are consistently delivering 8-12g per day or if this is a theoretical maximum), the comparison lacks a clear foundation for the proposed 53g target. [confidence: medium]
 
-- "Perpetual annual savings (Yr 2+, gross — before the ₹1.2-1.4 Cr/yr operating cost and Year-1 setup are netted; the ₹8.51 Cr row above is the 5-year net of both)" — The claim conflates gross and net savings without clarifying the accounting method. The perpetual annual savings figure (₹4.5 Cr) is presented as gross, but the 5-year net savings (₹8.51 Cr) already accounts for operating costs and setup. This double-counting or mislabeling of figures creates confusion about the actual savings. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period are presented without a clear explanation of the underlying assumptions or calculations. For example, the ROI figure does not specify whether it accounts for the ₹2.85 Cr setup cost or the ongoing operating costs (₹1.2–1.4 Cr/yr). The lack of transparency in the financial model makes it difficult to assess the validity of these claims. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

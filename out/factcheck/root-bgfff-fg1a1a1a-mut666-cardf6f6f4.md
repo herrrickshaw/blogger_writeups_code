@@ -16,19 +16,19 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99329, Requested 11773. Please try again in 2h39m52.127999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99299, Requested 11772. Please try again in 2h39m25.344s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The claim incorrectly attributes the approval to the Cabinet twice, when it should be attributed to the Cabinet Committee on Economic Affairs (CCEA) as shown in the other instances of this approval. [confidence: high]
+- "Cabinet approves 'Samudra Manthan' (National Offshore Exploration Scheme) with an outlay of Rs.84,084 crore" — The claim is unverifiable as the article provides no source or link to verify this specific outlay figure. The scheme name itself is not a standard or widely recognized government scheme in India as of 2026. [confidence: medium]
 
-- "Cabinet Cabinet approves scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — Similar to the above, the approval is incorrectly attributed to the Cabinet twice, when it should be attributed to the CCEA as per standard practice for such schemes. [confidence: high]
+- "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore" — The PM-KISAN scheme's financial outlay is not publicly announced or approved by the Cabinet for such an extended period (2026-27 to 2030-31) in any official government document or press release as of 2026. The scheme's budget is typically approved annually. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — While the statement about pan-India implementation may be factually correct, it does not logically support the conclusion that "no state-wise allocation has been done." State-wise allocations could still exist within a pan-India scheme, and the absence of such allocations is not implied by the pan-India nature of the scheme. [confidence: high]
+- "Cabinet approves 'Pradhan Mantri Surya Sarovar Yojana (PM-SSY)' for Development of Floating Solar Photovoltaic Projects with Energy Storage Systems with a total..." — The claim implies a Cabinet approval for a new scheme (PM-SSY) with a specific focus on floating solar projects and energy storage, but the article does not provide any details on the scope, budget, or implementation plan of this scheme. The mention of "with a total" is incomplete, suggesting the article may be extrapolating or misinterpreting partial information. There is no clear evidence that such a scheme has been formally approved or launched by the Cabinet. [confidence: high]
 
-- "Ministry of Heavy Industries Under the FAME-II Scheme Rs.912.50 crore were allocated for setting up of EVPCS on pan India basis and no state wise allocation was made" — Similar to the above, the statement that funds were allocated on a pan-India basis does not logically preclude state-wise allocations. The claim conflates the scope of allocation (pan-India) with the absence of state-wise allocations, which are not mutually exclusive. [confidence: high]
+- "Ministry of Electronics & IT IndiaAI and Ministry of AYUSH Sign MoU to Accelerate AI Innovation in Traditional Healthcare" — While the MoU itself is plausible, the article does not provide any details on the expected outcomes, funding, or timeline of the collaboration. The claim implies a direct acceleration of AI innovation in traditional healthcare, but the MoU alone does not guarantee measurable outcomes or impact. The article overstates the potential impact without evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

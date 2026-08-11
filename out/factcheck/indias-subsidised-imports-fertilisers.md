@@ -16,19 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99577, Requested 5633. Please try again in 1h15m1.44s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99549, Requested 5640. Please try again in 1h14m43.296s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect because FY2025-26 ends on March 31, 2026, making July 15, 2026, outside the fiscal year. The policy cannot be approved after the fiscal year it is meant to cover. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect as the article was analyzed on 31 Jul 2026, and the NIPU-2026 approval date cannot logically be after the analysis date. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The breakdown of urea subsidy (~₹1.19 lakh crore) and NBS (~₹49,000 crore) does not align with the total range of ₹1.5–1.7 lakh crore, as the sum (₹1.68 lakh crore) exceeds the upper bound. This suggests either a double-counting error or an overestimation in the components. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which does not match the stated range of ₹1.5–1.7 lakh crore. The figures appear inconsistent. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — This claim misinterprets the data by conflating *subsidized commodities* with *commodities with subsidies or policy protection*. The 81.6% share refers only to the 12 listed categories, which are *protected* (via tariffs, PLI, or other measures), not all of which involve direct subsidies. The conclusion incorrectly assumes all 12 categories are subsidized, ignoring that some (e.g., gems/jewelry, machinery) have protection but no subsidies. [confidence: high]
+- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — The claim conflates "subsidies or policy protection" with the 12 commodity categories analyzed. The 81.6% share of the 12 categories does not necessarily equate to "subsidies or policy protection" for all, as some categories (e.g., Pearls, Gems & Jewellery) are re-export flows with no subsidy or protection. [confidence: high]
 
-- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The claim implies that the subsidy cost is directly tied to the import bill of the 12 categories, but the subsidy estimates for fuels (₹50,000–70,000 crore) and fertilizers (₹1.5–1.7 lakh crore) are not derived from the import values of those categories alone. For example, fuel subsidies depend on global prices and domestic pricing policies, not just import volumes. The reasoning incorrectly assumes a direct causal link between import values and subsidy costs. [confidence: high]
+- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The claim implies that the subsidy cost is directly tied to the 12 subsidized categories, but the subsidy estimates for fuel and fertilizers are not explicitly linked to the import bill figures provided for those categories. The subsidy burden is an estimate, not a direct accounting of the import bill. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

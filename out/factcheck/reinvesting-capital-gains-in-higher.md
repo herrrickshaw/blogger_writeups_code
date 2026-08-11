@@ -16,19 +16,19 @@ Source: `posts/reinvesting-capital-gains-in-higher.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99348, Requested 4020. Please try again in 48m29.952s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99319, Requested 4020. Please try again in 48m4.896s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 7 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Revised 7 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and incorrect. [confidence: high]
 
 - "₹34.0L What the unchanged ₹50 lakh cap is worth in FY2014-15 wholesale prices" — The calculation uses a wholesale price index (WPI) of 114.1 in April 2014 and 167.6 in April 2026, but the WPI value for April 2026 is not yet available (as of 2023), making this claim unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "5.25% against 8.05% is not a yield gap. It is two different questions." — While the article correctly notes that comparing the coupons of 54EC bonds and RBI savings bonds is apples-to-oranges, it later claims that the "only honest comparison is terminal wealth." However, the terminal wealth comparison itself is flawed because it assumes reinvestment of coupons at a fixed post-tax rate (5.54%), which may not reflect actual investor behavior or market conditions. This introduces an interpretation error by oversimplifying the reinvestment assumption. [confidence: high]
+- "Comparing the coupons puts 54EC 280 basis points behind and ends the discussion. That is the wrong test, because 54EC’s benefit is not a coupon at all. It is a one-time increase in the capital you get to deploy." — While the article correctly identifies that the benefit of 54EC is not just the coupon, it does not adequately address the opportunity cost of locking funds in a low-yield instrument. The comparison to the RBI bond is not apples-to-apples because the RBI bond is taxable, whereas the 54EC coupon is tax-exempt (as it is part of the capital gains exemption). The article does not explicitly account for the tax treatment difference, which is critical to the comparison. [confidence: high]
 
-- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it." — The article correctly notes that the advantage of 54EC decays over time, but it does not account for the fact that the lock-in period itself is a significant deterrent for investors. The interpretation error lies in not acknowledging that the decay in advantage is compounded by the lack of liquidity and flexibility, which are critical factors in investment decisions. [confidence: medium]
+- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it." — The article correctly notes that the advantage of 54EC decays over time, but it does not fully explain why this is the case. The "one-time head start" is the tax shield, but the decay is also influenced by the reinvestment rate of the coupon income (assumed at 5.54% post-tax in Exhibit 1). The article does not clarify whether the reinvestment rate is realistic or how it compares to the actual returns available in the market over longer horizons. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

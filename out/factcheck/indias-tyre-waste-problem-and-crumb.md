@@ -16,19 +16,19 @@ Source: `posts/indias-tyre-waste-problem-and-crumb.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99537, Requested 2207. Please try again in 25m6.816s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99506, Requested 2679. Please try again in 31m27.84s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Lab testing at India’s SSPACE Wardha civil engineering department, reported in a 2025 study" — The article cites a 2025 study, but as of the current date (2023), this is a future-dated claim that cannot be verified. [confidence: high]
+- "Lab testing at India’s SSPACE Wardha civil engineering department, reported in a 2025 study" — The article cites a 2025 study, but the current year is 2024, making this claim unverifiable and likely incorrect. [confidence: high]
 
 - "Revenue was around ₹572 crore in the most recent reported year" (for Tinna Rubber & Infrastructure Limited) — The article does not specify the fiscal year for this revenue figure, making it unverifiable without additional context. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on the actual CRMB adoption rate in road construction or the proportion of eligible network share where CRMB is used, making the magnitude of the "dent" unverifiable. [confidence: high]
+- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution percentage is correct, the claim that this "represents a real, quantifiable dent" in the import bill lacks evidence or quantification. The article does not provide data on how much CRMB is actually used in road construction or the resulting reduction in bitumen imports. [confidence: high]
 
-- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, the claim that this alone will shift CRMB from a niche to mainstream option is an overstatement. The shift depends on multiple factors (e.g., CRMB cost competitiveness, NHAI/state adoption rates, and recycler capacity), which are not addressed in the article. [confidence: medium]
+- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, the article does not provide evidence that CRMB use has actually shifted to mainstream adoption. The claim assumes compliance with EPR will directly translate to increased CRMB usage without demonstrating current or projected adoption rates. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

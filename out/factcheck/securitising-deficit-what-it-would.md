@@ -16,21 +16,21 @@ Source: `posts/securitising-deficit-what-it-would.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99319, Requested 18682. Please try again in 4h19m12.864s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99289, Requested 18772. Please try again in 4h20m4.704s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — This claim is incorrect. The article later clarifies that India's total merchandise imports in FY2025-26 were $774.98 billion, of which $321.8 billion (41.5%) came from BRICS members. The claim implies that almost all of India's imports are from BRICS, which is not supported by the data. [confidence: high]
+- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — This claim is unverifiable as stated. The article later provides trade data for FY2025-26, but the claim about payment currency is not sourced or supported by any data in the article. [confidence: medium]
 
-- "Russia already ran the experiment and quietly abandoned it. Trapped rupees peaked near $8 billion and fell to about $3.5 billion — not because they were spent, but because the oil trade moved to dirhams and yuan instead." — The claim that the rupee balances fell because the oil trade moved to dirhams and yuan is not supported by verifiable data. The article cites "press estimates citing unnamed officials," which are not official disclosures and may be unreliable. [confidence: medium]
+- "Russia already ran the experiment and quietly abandoned it. Trapped rupees peaked near $8 billion and fell to about $3.5 billion — not because they were spent, but because the oil trade moved to dirhams and yuan instead." — The claim about the movement of oil trade to dirhams and yuan is not supported by any cited data or source in the article. The article cites Sergey Lavrov's statement about trapped rupees but does not provide evidence for the shift to dirhams and yuan. [confidence: medium]
 
 ---
 
 INTERPRETATION ERRORS:
-- "The prize is $321.8 billion — 41.5% of India's merchandise import bill, and 67.8% of its entire trade deficit, sits with ten BRICS members and partners." — The article conflates the trade deficit with the residual trade imbalance. The trade deficit is a net figure ($333.19 billion), while the residual ($228.5 billion) is the portion of imports not covered by exports to BRICS members. The claim incorrectly implies that the entire trade deficit is concentrated in BRICS trade, which is misleading. [confidence: high]
+- "The carry works for exactly the right countries. China, the UAE and Saudi Arabia all have policy rates and 10-year yields below India's. They hold 70% of the residual and would earn a genuine pickup — up to 513 basis points for China — on Indian government paper." — The claim assumes that these countries would willingly hold Indian government securities to earn the yield pickup, but it ignores the significant exchange-rate risk and the lack of deep, liquid markets for Indian securities in these countries. The article acknowledges the break-even depreciation rates but does not adequately address the practical barriers to such investments. [confidence: high]
 
-- "China, the UAE and Saudi Arabia all have policy rates and 10-year yields below India's. They hold 70% of the residual and would earn a genuine pickup — up to 513 basis points for China — on Indian government paper." — The article assumes that the yield pickup (513 basis points for China) is a "genuine" benefit without accounting for the risks of rupee depreciation. The break-even analysis later in the article shows that the rupee has depreciated faster than the yield pickup for the UAE and Saudi Arabia, making the carry trade negative. The claim overstates the benefit without addressing the exchange-rate risk. [confidence: high]
+- "The one genuine opening is pharmaceuticals: India is already Russia's largest supplier of generics by volume, exporting roughly $546 million against Russian global pharma import bill of $9.7 billion. That is the biggest single addressable gap anywhere in the Russian basket — and it is worth about 1% of the annual deficit." — The claim suggests that increasing pharmaceutical exports to Russia could meaningfully reduce the trade deficit, but it ignores the fact that pharmaceuticals represent only a tiny fraction of the deficit (1%) and does not account for Russia's ability or willingness to import more from India given geopolitical and logistical constraints. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

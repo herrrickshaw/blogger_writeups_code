@@ -16,4 +16,24 @@ Source: `posts/the-empty-shed-greenhouse-what-indias.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98886, Requested 2324. Please try again in 17m25.44s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99226, Requested 1893. Please try again in 16m6.816s. Need more tokens? Upgrade to Dev Tier today at https]
+
+## Mistral mistral-small-latest
+
+FACTUAL ERRORS:
+- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim is unverifiable as stated. The cited sources (NHM/NHB/State Horticulture Mission rates, 2026) are not provided in the article, and no primary source is linked or quoted to confirm the ₹12 lakh figure for 2026. The year "2026" is also speculative without a clear basis. [confidence: medium]
+
+- "~20–25% CAGR of India's vertical-farming/CEA market, much of it built inside repurposed warehouses" — The claim lacks a clear source or definition of the market being measured (e.g., revenue, area, or number of projects). The cited market research (IMARC, Farmonaut) is not quoted or linked, making verification impossible. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "Converting one of these [unused sheds] into a protected-cultivation structure — adding shade netting or polyfilm walls, a drip system, and basic ventilation — skips the largest single line item in the NHM cost model: the structural shell itself." — The reasoning gap is that the NHM subsidy is *credit-linked and back-ended*, meaning the subsidy is disbursed *after* the structure is built and inspected. Retrofitting an existing structure may not qualify for the subsidy unless it meets the same structural standards as a new-build, as explicitly noted later in the article ("The gap isn't technical... it's that the subsidy paperwork... assumes a from-scratch build"). The claim implies retrofitting is a straightforward shortcut to subsidy eligibility, but the article contradicts this by stating retrofits are *not automatically eligible*. [confidence: high]
+
+- "The same logic is already playing out at industrial scale globally: vertical-farming and controlled-environment-agriculture operators are increasingly built 'within repurposed warehouses...'" — The reasoning gap is that the article conflates *global trends* with *India-specific applicability*. While global vertical farming may use repurposed warehouses, the article provides no evidence that this trend is materializing in India or that Indian farmers are adopting retrofits at scale. The claim extrapolates from global trends to India without data or examples specific to the Indian context. [confidence: high]
+
+## Kimi kimi-k2-0711-preview
+
+[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+
+## Cerebras gpt-oss-120b
+
+[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]

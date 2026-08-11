@@ -16,15 +16,15 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99500, Requested 814. Please try again in 4m31.296s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99467, Requested 911. Please try again in 5m26.592s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "17th and 18th Lok Sabha (2019-06-21 → 2026-08-04)" — The 17th Lok Sabha was in office from 2019 to 2024, and the 18th Lok Sabha began in 2024. The date range provided (2019-06-21 to 2026-08-04) incorrectly extends the 18th Lok Sabha's term beyond its actual start date. [confidence: high]
+- "17th and 18th Lok Sabha (2019-06-21 → 2026-08-04)" — The 17th Lok Sabha's term ended in 2024, and the 18th Lok Sabha began in 2024. The date range is incorrect as it implies the 18th Lok Sabha runs until 2026-08-04, which is not factually accurate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — The claim implies that the classification system ensures identical filtering between the registry and the Quarterly Reportage, but the article itself notes that the registry only captures "scheme-titled questions" and not every mention of a scheme. This creates a gap where questions discussing a scheme without naming it in the subject line are excluded, leading to inconsistent filtering. [confidence: high]
+- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — This claim suggests that the classification method ensures identical filtering between the registry and the Quarterly Reportage, but the text also mentions "known limits" where coverage is only of scheme-titled questions, not every mention. This creates a gap in reasoning, as the classification method does not guarantee identical filtering due to potential misclassifications or omissions. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

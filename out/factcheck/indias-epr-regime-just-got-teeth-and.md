@@ -16,19 +16,19 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99668, Requested 2406. Please try again in 29m51.936s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99641, Requested 2622. Please try again in 32m35.232s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The publication date is likely incorrect as the article references a 2026 policy brief and rules notified in January 2026, which would not be published in August 2026 (as it would be the same month or earlier). [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect as it is set in the future relative to the article's content (which references 2025 and 2026 policies). [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article claims the incentive was approved in September 2025, but the source (CSE policy brief, 2026) does not provide a specific month for approval, only that it was announced in 2025. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a primary source confirming the approval date or amount, and the phrasing suggests it is a fact when it may only be a claim from the CSE brief. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The claim implies a direct comparison between the 2026-27 target and the 2024-25 baseline, but the article does not clarify whether the 70% figure is a *mandated* target or an *achieved* recovery rate in 2024-25. Without this distinction, the interpretation that the target is "up from" a prior mandate is unsupported. [confidence: high]
+- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The article implies a direct comparison between the 90% target for 2026-27 and the 70% target for 2024-25 as if they are part of the same continuous requirement, but the 70% target may have been for a different scope or phase. The reasoning gap is that the article does not clarify whether the 70% target was a prior baseline or a separate obligation. [confidence: medium]
 
-- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling" — The article presents this as a strict enforcement hierarchy, but it does not provide evidence that this hierarchy is *actively enforced* or that producers are complying with it in practice. The claim assumes the rule's intent equals its real-world impact. [confidence: medium]
+- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this claim to suggest that producers are supposed to assess residual capacity and route batteries to second-use applications, but it does not provide evidence that the EPR framework explicitly requires this assessment or that producers are failing to do so. The reasoning gap is that the claim assumes a causal link between the state-of-health threshold and EPR obligations without verifying the legal or practical enforcement of this requirement. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

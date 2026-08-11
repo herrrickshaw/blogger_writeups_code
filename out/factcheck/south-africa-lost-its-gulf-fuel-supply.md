@@ -16,19 +16,19 @@ Source: `posts/south-africa-lost-its-gulf-fuel-supply.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 3106. Please try again in 34m46.56s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99277, Requested 3106. Please try again in 34m18.912s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this with Exhibit 1, which shows FY2025-26 refined petroleum exports to South Africa as US$1,882 million (US$1.882bn), not US$1.88bn. The rounding is inconsistent. [confidence: high]
+- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this with Exhibit 1, which shows FY2025-26 exports at US$1,882 million (US$1.882bn), not US$1.88bn. The rounding is inconsistent. [confidence: high]
 
-- "165,000 t US refined fuel landed at Durban in April 2026 alone" — The Reuters source cited (April 2026) likely refers to *tonnes* (t), but the article later states "US$1.6m Indian ethanol exports to South Africa — the entire biofuels trade," which is a monetary value, not a volume. The inconsistency in units (tonnes vs. dollars) for different claims creates confusion. [confidence: medium]
+- "−32.6% Change on the previous year, before the disruption" — The article states this decline occurred "before the Hormuz disruption," but the FY2025-26 data (ending March 2026) would not include the April 2026 disruption. However, the disruption began in the *following* fiscal year (FY2026-27), so the claim that the decline predated the crisis is correct. The error is in the phrasing "before the disruption" implying it was *before* any disruption, when the disruption hadn't occurred yet. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India was already losing this market — A third of it, in the year before the crisis." — The article claims India lost a third of its refined fuel market in FY2024-25 (US$2,793mn to US$1,882mn is a 32.6% drop), but this decline is presented as if it were a *loss to competitors* rather than a *general market contraction*. The text does not establish that India's share of South Africa's imports fell; it only shows a decline in absolute export value, which could result from reduced total demand or other factors. [confidence: high]
+- "India was already losing this market — A third of it, in the year before the crisis." — The article claims India lost a third of its refined-fuel market in FY2024-25 (before the crisis), but the data shows a 32.6% decline in *value* (US$2,793m to US$1,882m), not a one-third loss of *market share*. The decline in value could be due to price changes rather than volume, and the article itself notes that quantity data is unavailable. The conclusion about market share loss is an overreach. [confidence: high]
 
-- "The supplier that gained was the one furthest away." — The article argues that the US (6,000 nautical miles from Durban) replaced Gulf suppliers despite being farther away, implying India's disadvantage is not distance. However, this ignores that the US may have had *available surplus capacity* or *pre-existing trade relationships* that made it a viable alternative, while India's decline predated the crisis. The conclusion that "India's disadvantage is evidently not distance" is an overgeneralization unsupported by the data provided. [confidence: medium]
+- "The supplier that gained was the one furthest away." — The article argues that the US (6,000 nautical miles from Durban) replaced Gulf suppliers, implying distance was not a disadvantage, but this ignores that the US Gulf Coast is actually closer to Durban than Oman/Saudi Arabia/UAE (which are also in the Gulf). The Strait of Hormuz closure would have forced South Africa to source from farther afield (e.g., US East Coast or Europe), not closer. The claim misrepresents the geography of alternative suppliers. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

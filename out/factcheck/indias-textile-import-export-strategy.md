@@ -16,19 +16,19 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99566, Requested 4503. Please try again in 58m35.615999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99539, Requested 4510. Please try again in 58m18.336s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's largest export strength" (referring to Ch 61-62: Apparel) — The claim is unverifiable as the article does not provide a source or methodology for this assertion, and it is not a standard or widely recognized metric in trade data. [confidence: medium]
+- "India's Textile Import-Export Strategy: From $20.5B Dependency to Feedstock Self-Sufficiency" — The article claims a "$20.5B Annual Feedstock Deficit" in the header, but the text later clarifies that the $20.5B figure refers to the *textile sector's overall trade balance surplus* (not the feedstock deficit). The feedstock deficit is quantified separately as $22.1B (Ch 39) + $26.6B (Ch 29) = $48.7B, not $20.5B. [confidence: high]
 
-- "$36.96bn/year" (Total Textile Export) — The figure is presented without a clear citation or breakdown of how it was derived, particularly since it combines HS chapters 50–63. Trade data typically requires precise HS code definitions and timeframes, which are not explicitly confirmed here. [confidence: medium]
+- "Ch 29: Organic Chemicals — Structural Vulnerability" section states: "Imports surged +45% in FY22 (energy crisis, OPEC+ cuts)" — While imports did rise in FY22, the +45% figure is not supported by the data table, which shows imports increasing from $19.7B (FY21) to $28.5B (FY22), a +44.2% rise. The rounding to +45% is technically correct but misleadingly precise given the table's data granularity (no decimal places). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Polymer imports grew +66% in 4 years while exports stalled, widening gap from $6.4bn to $14.0bn" — The claim implies a direct causal link between import growth and export stagnation, but the data only shows a correlation. The widening deficit could be due to other factors such as global price changes, demand shifts, or currency fluctuations, not solely export performance. [confidence: high]
+- "Key Finding: Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article conflates *chemical-feedstock imports* (Ch 29 + Ch 39) with the *textile sector's trade balance* (Ch 50–63). The 63% figure refers to the share of *chemical-feedstock imports* (Ch 29 + Ch 39) within *all chemical imports* (not the textile sector's trade balance). The claim implies these feedstocks are solely for textiles, but they are used across industries (e.g., plastics, pharmaceuticals). The causal link to textile sector vulnerability is overstated. [confidence: high]
 
-- "Capacity addition (+5.2 MMTPA FY26-30) does NOT cannibalize fuel production" — The claim assumes that adding 5.2 MMTPA of petrochemical capacity will not affect refinery fuel output, but in a system operating at ~97% utilization, any new cracker capacity would likely draw from existing feedstocks or require rebalancing of refinery operations, potentially impacting fuel production. [confidence: high]
+- "Economic Implication: ~97% utilisation = little spare cracker/polymerization capacity available — Marginal cracker run cost $1-2 vs $8-10 import cost — but with utilisation near capacity this is not idle-capacity offtake: incremental domestic feedstock needs new cracker investment, not spare-capacity absorption." — The article assumes that *all* incremental domestic feedstock production would require *new* cracker investment, ignoring potential efficiency gains, debottlenecking, or temporary capacity expansions (e.g., short-term shutdowns for maintenance). The claim that "incremental needs new cracker investment" is an overgeneralization that doesn't account for operational flexibility in refineries. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99492, Requested 2749. Please try again in 32m16.224s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99459, Requested 3123. Please try again in 37m10.848s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — While the calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08 commission) is correct, the article does not explicitly state that this is an *annual* figure in the claim itself, which could mislead readers into assuming it is a one-time or monthly amount. [confidence: medium]
+- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — The calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08) is correct, but the claim that this is the "Annual distributor commission on Ujjwala refills alone" is misleading because it is an *estimate* (as acknowledged later in the article) and not an official government-published total. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The article correctly notes that LPG's margin (7.76%) is nearly double that of petrol dealers (3.87%), but then claims this means LPG is "roughly half the MDR exposure." This is a false causal claim: the MDR exposure depends on the *absolute fee* (₹73.08) relative to the margin, not the margin size itself. The MDR exposure is calculated as (MDR rate ÷ margin), so a higher margin actually *reduces* the MDR's bite, but the claim conflates margin size with exposure. [confidence: high]
+- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The claim that LPG's higher margin (7.76%) means it has "roughly half the MDR exposure" is misleading. While the *percentage* of margin lost to an MDR is lower for LPG (e.g., 12.9% at 1% MDR) compared to fuel (25.8%), the *absolute* exposure (₹ value lost per transaction) is higher for LPG due to its larger ticket size. The comparison conflates relative and absolute impacts. [confidence: high]
 
-- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — While the math (₹3,642 crore ÷ ₹12,000 crore) is correct, this is an apples-to-oranges comparison. The subsidy outlay is a *government expenditure*, while the distributor commission is a *private sector payment*. The two are not directly comparable in terms of economic impact or policy relevance, as they serve different purposes. [confidence: high]
+- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay" — While mathematically correct (₹3,642 crore / ₹12,000 crore ≈ 30%), this comparison is apples-to-oranges because the subsidy outlay includes the *full* cost of cylinders (including the LPG price), whereas the commission is only a *portion* of the distributor's margin. The subsidy outlay is not directly comparable to the distributor commission alone. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

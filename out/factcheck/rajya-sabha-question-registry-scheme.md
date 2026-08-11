@@ -16,17 +16,19 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99401, Requested 846. Please try again in 3m33.408s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99370, Requested 943. Please try again in 4m30.432s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Generated 2026-08-04 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa" — The date is in the future (2026), which is impossible for a published article in the present. [confidence: high]
+- "2026-08-04" — The article claims the data was generated on this date, but the article itself is dated "4 August 2026," which is in the future relative to the current date (2023). This is likely a placeholder or error in the date format. [confidence: high]
+
+- "1,825 at this build" — The article states there are 1,825 captured Rajya Sabha questions, but this number is unverifiable without access to the underlying dataset or the official source (rsdoc.nic.in). The claim lacks a primary source citation for verification. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The index matches keywords against the subject line only, so a question whose subject names no scheme is not captured even when its answer discusses one at length — coverage is of scheme-titled questions, not of every mention." — This statement is correct but is framed as a limitation of the data collection method rather than an interpretation error. No interpretation error is found in the article text. [confidence: high]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While this is a cautionary note, it is not an interpretation error per se. However, the article does not explicitly state that the AI-generated text is the *source* of the figures (e.g., 1,825 questions), which could mislead readers into assuming the AI is the origin of the data rather than a tool for synthesis. The gap is that the article does not clarify the AI's role in generating or verifying the figures, potentially leading to confusion about data provenance. [confidence: medium]
 
-none found
+- none found (No other distinct interpretation errors were identified in the text.)
 
 ## Kimi kimi-k2-0711-preview
 

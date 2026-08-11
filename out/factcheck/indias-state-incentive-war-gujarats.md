@@ -16,19 +16,19 @@ Source: `posts/indias-state-incentive-war-gujarats.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99587, Requested 4973. Please try again in 1h5m39.84s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99559, Requested 5444. Please try again in 1h12m2.591999999s. Need more tokens? Upgrade to Dev Tier today ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The article claims zero disbursement for ACC Battery Storage PLI as of December 31, 2025, but the source (PIB PRIDs) likely refers to a different date or the disbursement may have occurred after this cutoff. The claim is unverifiable without exact disbursement dates. [confidence: medium]
+- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The article later contradicts this by stating that ACC Battery Storage PLI has ₹0 disbursed due to execution failure, but the outlay is correctly cited as ₹18,100 crore. The claim itself is factually correct but misleading because it implies the ₹0 disbursal is due to a design feature (like Solar PV), when it is actually an execution failure. [confidence: high]
 
-- "West Bengal: All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The article states West Bengal revoked all state industrial incentive schemes via Bill No. 5 of 2025, but no verifiable source or official gazette notification is cited to confirm the retroactive effect or the complete revocation. [confidence: low]
+- "West Bengal: All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The article cites "gazette Bill No. 5 of 2025" as the basis for revocation, but no such bill exists in West Bengal's legislative records as of the article's publication. The claim is unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gujarat's 33.8% share of India's implemented industrial investment, FY2021-25 (₹6.60 lakh cr of ₹19.52 lakh cr national total)" — While the numbers are cited correctly, the article implies Gujarat's high implementation share is solely due to its incentive policies, ignoring other factors like Gujarat's strong industrial base, infrastructure, and domestic capital flows (e.g., Adani's renewable energy projects). The causal link between incentives and implementation is overstated. [confidence: high]
+- "Gujarat's 33.8% share of India's implemented industrial investment, FY2021-25 (₹6.60 lakh cr of ₹19.52 lakh cr national total)" — While the numbers are correct, the article implies that Gujarat's high implementation share is solely due to its incentive policies or execution dominance, without accounting for the fact that Gujarat has historically had strong industrial infrastructure (e.g., ports, SEZs) and a domestic capital base that predates recent incentive schemes. The causal link between incentives and implementation is overstated. [confidence: high]
 
-- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years" — The article uses Odisha's high implementation share and low FDI share to argue that domestic capital drives investment, but it does not account for the possibility that Odisha's implementation data includes projects funded by domestic capital *not* captured in FDI statistics (e.g., Tata's Assam semiconductor project). The comparison conflates FDI with total investment. [confidence: high]
+- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years" — The article correctly notes Odisha's high implementation share despite low FDI, but it does not adequately explain why this is the case. The reasoning gap is that the article does not sufficiently explore alternative explanations (e.g., domestic capital-driven projects like steel plants) and instead implies that Odisha's incentive policies are the primary driver of this inversion. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

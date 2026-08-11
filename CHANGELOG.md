@@ -3099,3 +3099,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 168,408 → 168,726 bytes (+318)
+
+## 2026-08-11T15:32:40+05:30 — 128 posts live
+
+**Added**
+
+- `050-is-its-own-category-diving-into` **v1.0.0** — ₹0–50 Is Its Own Category: Diving Into India's Actual Microcap Basement (12,256 bytes)

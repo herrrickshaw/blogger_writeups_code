@@ -16,19 +16,19 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99629, Requested 2644. Please try again in 32m43.872s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99599, Requested 2978. Please try again in 37m6.528s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 8 August 2026" — The date is impossible as the article references data through June 2026 and mentions FY2026-27 allocations, which would not be available in August 2026. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but acknowledges it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without a verifiable source, this claim cannot be confirmed as accurate. [confidence: medium]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but acknowledges it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without a verifiable source, this claim cannot be confirmed as factual. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India's food processing PLI scheme has created more jobs than it promised, four years early." — The claim implies a causal link between the PLISFPI scheme and job creation, but the article does not establish that the jobs were directly attributable to the scheme rather than other factors (e.g., general sector growth, other policies, or economic conditions). The data shows jobs created under the scheme, but not that the scheme alone caused the job growth. [confidence: high]
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims the PLISFPI scheme "created more jobs than it promised" but does not clarify whether the 3.39 lakh jobs are net new jobs or include existing jobs reclassified under the scheme. Without this distinction, the claim that the scheme "created" more jobs than targeted is unsupported. [confidence: high]
 
-- "The Union Budget 2026-27 allocated ₹4,064 crore to the Ministry of Food Processing Industries in total — ₹1,200 crore to PLISFPI, ₹1,700 crore to PMFME, and ₹915 crore to PMKSY... a single year's PMKSY allocation of ₹915 crore is not sized to close [the cold-chain gap] — it is sized to keep adding to it more slowly than the sector is growing around it." — The claim assumes that the ₹915 crore allocation is insufficient to close the gap based on the size of the gap (₹92,651 crore annual loss and 3.5-million-tonne capacity gap). However, the article does not provide evidence or analysis to support the conclusion that the allocation is inadequate relative to the gap's scale or the rate of sector growth. The reasoning conflates absolute size with proportional impact without demonstrating feasibility or timelines. [confidence: medium]
+- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26" — The article implies this growth is attributable to the PLISFPI scheme, but the sales figures include pre-PLISFPI data (FY2019-20) and do not isolate the impact of the scheme. The causal link between PLISFPI and the sales growth is not established. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

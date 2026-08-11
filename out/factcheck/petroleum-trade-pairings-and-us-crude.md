@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99460, Requested 8093. Please try again in 1h48m45.792s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99428, Requested 8093. Please try again in 1h48m18.144s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "UAE 2024 and Qatar 2025 are genuinely absent" — The article claims UAE and Qatar data are missing for 2024 and 2025, but the UAE section explicitly references 2023 data, and Qatar's section includes 2024 data. This creates confusion about the actual availability of the data. [confidence: high]
+- "UAE 2024 and Qatar 2025 are genuinely absent" — The article claims UAE and Qatar data are missing for 2024 and 2025, but the UAE data is labeled as 2023, and Qatar's data is labeled as 2024. The phrasing suggests these are the latest available years, but the claim implies they are absent, which is misleading. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer, the claim that it "still buys more crude than it sells" is not directly supported by the data presented. The article shows a net crude position deficit of -$46.5 billion, but this is based on value, not volume. The grade mismatch explanation is plausible but not explicitly demonstrated by the data provided, which mixes value and volume without clear separation. [confidence: medium]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer, the claim that it "still buys more crude than it sells" is not directly supported by the data presented. The article shows a net crude position deficit of -$46.5 billion, but this is based on value, not volume, and does not necessarily indicate a grade mismatch. The reasoning conflates trade value with physical volume and grade differences without clear evidence. [confidence: high]
 
-- "US crude exports sells 100.3 $bn HS 2709 · 2025" — The phrasing "sells" is misleading because it implies a net export figure, but the article later clarifies that the US is a net importer of crude (-$46.5 billion). The claim conflates gross exports with net exports, which are fundamentally different metrics. [confidence: high]
+- "US crude exports sells 100.3 $bn" and "US crude imports buys 146.8 $bn" — The article uses these figures to claim a net crude position deficit of -$46.5 billion, but the terms "sells" and "buys" are ambiguous. These figures likely represent the value of exports and imports, not the physical volume, and the net deficit is based on value, not a direct contradiction in production and trade. The interpretation incorrectly frames the trade imbalance as a contradiction to being the largest producer without clarifying the distinction between value and volume. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

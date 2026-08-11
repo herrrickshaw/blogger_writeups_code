@@ -16,19 +16,19 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99527, Requested 6146. Please try again in 1h21m41.472s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99497, Requested 6084. Please try again in 1h20m21.983999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the claim that India’s 2026 producer-side move was uniquely domestic was wrong and has been corrected" — This is not a factual error but a correction note from the author, not a claim made in the article itself. No factual errors are found in the article's claims. [confidence: high]
+- "India’s 2026 producer-side move was uniquely domestic" — The article itself states this claim was corrected in a revision dated 8 August 2026, indicating it was previously incorrect. [confidence: high]
 
-- "Brazil’s producer prices rose 11.1% in 2020" — This is incorrect. The table in Exhibit 1 shows Brazil's producer inflation in 2020 as 11.1%, but the accompanying text states it as "11.1% in 2020, the year every other economy here was flat or falling," which is factually correct. No factual error is found. [confidence: high]
+- "+31.6% Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — While the figure itself is correct, the claim that it was the "earliest" peak is misleading because Brazil's producer inflation began rising in 2020 (+11.1%), making 2021 not the earliest peak. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is supported by Exhibit 2, which shows India's consumer inflation at 2.8% in 2025, below several G20 economies. However, the article does not account for the fact that Argentina's inflation is excluded from this comparison due to incomparability, which could skew the perception of India's relative position. The exclusion of other high-inflation economies (e.g., Türkiye, Russia) may also affect the ranking. [confidence: medium]
+- "India’s consumer inflation has quietly become one of the lowest in the G20" — The article cites India's 2025 consumer inflation as 2.8%, which is indeed low by G20 standards, but this conclusion is based on a single year's data without broader context (e.g., volatility, policy impacts, or structural factors). The claim implies a sustained trend without sufficient evidence. [confidence: medium]
 
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim about the timing and magnitude of the spike is correct, the conclusion that it was "not an Indian policy failure" is an overgeneralization. The article does not address whether domestic policies (e.g., fuel taxes, subsidies) influenced India's specific inflation dynamics within the global trend. The causal claim about policy failure is not supported by the data presented. [confidence: high]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the spike was synchronized globally, this does not rule out the possibility that domestic policies (e.g., fuel taxes, supply-side constraints) amplified or mitigated the spike in India. The claim conflates correlation (timing) with causation (policy failure or success). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

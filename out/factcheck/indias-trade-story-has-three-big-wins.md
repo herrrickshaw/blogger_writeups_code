@@ -16,19 +16,19 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99545, Requested 2059. Please try again in 23m5.856s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99516, Requested 2059. Please try again in 22m40.8s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references data from FY2025-26 and events through March 2026, making a publication date in August 2026 nonsensical. [confidence: high]
+- "India-EU FTA, concluded 27 January 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India-EU FTA, concluded 27 January 2026" — The EU-India FTA was not concluded by January 2026; negotiations are ongoing as of 2024, and no such agreement has been finalized. [confidence: high]
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The article cites the Economic Survey 2025-26, but the source is not directly accessible (403 error on PIB release PRID 2219907), and the figure cannot be independently verified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the investment figure exceeds the approved outlay, the article does not establish whether this "overshooting" is due to genuine additional private investment or reclassification of existing commitments, nor does it address potential double-counting across overlapping PLI schemes. [confidence: medium]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore — and generated cumulative exports of ₹15.2 lakh crore (US$161.7 billion) across its 14 sectors since inception." — While the PLI scheme's investment and export figures may be correct, the article implies a direct causal link between the investment and the exports generated without providing evidence that the exports were a direct result of the PLI scheme. The export growth could be due to other factors such as global demand, exchange rates, or other policies. [confidence: high]
 
-- "Whether the 2.4% merchandise growth figure reflects US-tariff drag specifically or broader global demand softness — the Economic Survey's own framing credits tariffs, but this article did not decompose the effect." — The article attributes the slow merchandise growth to "higher US tariffs" without providing evidence or analysis to isolate this factor from other potential causes (e.g., global demand shifts, supply chain constraints). [confidence: high]
+- "Whether the 2.4% merchandise growth figure reflects US-tariff drag specifically or broader global demand softness — the Economic Survey's own framing credits tariffs, but this article did not decompose the effect." — The article acknowledges that it does not analyze the specific impact of US tariffs on merchandise export growth but still presents the 2.4% growth figure as a standalone fact without clarifying the potential influence of other factors. This leaves the reader with an incomplete understanding of the drivers behind the growth rate. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

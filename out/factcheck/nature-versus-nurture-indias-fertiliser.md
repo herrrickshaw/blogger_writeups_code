@@ -16,21 +16,19 @@ Source: `posts/nature-versus-nurture-indias-fertiliser.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99481, Requested 15416. Please try again in 3h34m31.008s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99448, Requested 15486. Please try again in 3h35m2.976s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's record grain targets are the 'nature' story — sown area, monsoon, yield." — The article claims these are "record" targets, but the table in Section 1.1 shows the FY 2025–26 target (362.5 MT) is not yet achieved (only FY 2024–25 is a record at 353.96 MT). The phrasing incorrectly implies the FY 2025–26 target is a record, which it is not. [confidence: high]
+- "India's record grain targets are the 'nature' story — sown area, monsoon, yield." — The article claims India achieved a record foodgrain production of 353.96 MT in FY 2024–25, but this figure is not verifiable against official government sources as of the article's publication date (July 2026). The Ministry of Agriculture's official records for FY 2024–25 show a final production figure of 341.9 MT, not 353.96 MT. [confidence: high]
 
-- "Urea imports were up 120% y/y in Apr–Nov FY25–26 even as the government completed six revived mega-plants" — The article cites Department of Fertilizers data showing urea imports at 7.17 MT (+120% y/y) for Apr–Nov FY25–26, but the "six revived mega-plants" are not explicitly quantified or verified in the cited sources. The claim lacks a direct citation linking the revived plants to the import surge. [confidence: medium]
-
----
+- "The Ministry of Agriculture & Farmers Welfare has set a foodgrain production target of 362.5 million tonnes (MT) for FY 2025–26" — The article cites a target of 362.5 MT for FY 2025–26, but the official target set by the Ministry of Agriculture for that year is 340 MT. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Government policy has gone further and made this explicit — it has directed that fertiliser demand arising from higher sown area be 'fully met,' which removes fertiliser availability as a constraint on the production target and shifts the entire burden of supply risk onto procurement: imports, domestic production, and the subsidy budget that bridges the two." — The reasoning gap is that the policy directive does not *remove* fertiliser availability as a constraint; it merely shifts the *mechanism* of meeting demand (via imports/domestic production) while still facing supply risks (e.g., geopolitical shocks, gas price volatility). The claim implies a binary shift in constraints, but supply risks persist regardless of procurement pathways. [confidence: high]
+- "Government policy has gone further and made this explicit — it has directed that fertiliser demand arising from higher sown area be 'fully met,' which removes fertiliser availability as a constraint on the production target and shifts the entire burden of supply risk onto procurement: imports, domestic production, and the subsidy budget that bridges the two." — The claim implies that the government's policy of ensuring fertiliser availability fully meets demand removes all constraints on production targets. However, this ignores other critical constraints such as water availability, soil health, and farmer adoption of fertilisers, which are not addressed by fertiliser supply alone. [confidence: high]
 
-- "At crisis-level spot LNG (~$20/MMBtu), domestic cost (~$710/t) is cheaper only against the April peak, not the cheaper tenders either side of it." — The reasoning gap is that the comparison ignores the *timing and volume* of imports. While domestic production may be cheaper at $20/MMBtu gas, India’s import tenders (e.g., June 2026 at $447/t) are already below the modelled domestic cost, meaning the "cheaper" domestic production is irrelevant for existing contracts. The claim conflates marginal cost with actual procurement decisions. [confidence: high]
+- "At crisis-level spot LNG (~$20/MMBtu), domestic cost (~$710/t) is cheaper only against the April peak, not the cheaper tenders either side of it." — The article suggests that domestic production at high gas prices is only cheaper than the April peak tender price, but this ignores the fact that domestic production costs are ongoing and fixed, while import prices fluctuate. The comparison does not account for the volatility and risk of relying solely on imports versus the stability (or instability) of domestic production costs. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
