@@ -2691,3 +2691,9 @@ scheduled sync
 **Changed**
 
 - `announced-vs-delivered-three-indian` — 38,996 → 38,995 bytes (-1)
+
+## 2026-08-11T10:04:26+05:30 — 123 posts live
+
+**Added**
+
+- `indias-lock-imports-hit-19784-million` **v1.0.0** — India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It. (17,559 bytes)
