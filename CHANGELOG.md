@@ -2861,3 +2861,15 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 166,823 → 166,964 bytes (+141)
+
+## 2026-08-11T12:47:05+05:30 — 124 posts live
+
+**Versions**
+
+- `a-slice-of-apple-costs-about-1700-slice` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **24.0.1 → 24.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-slice-of-apple-costs-about-1700-slice` — 15,920 → 22,024 bytes (+6,104)
+- `article-index-start-here` — 166,964 → 167,640 bytes (+676)

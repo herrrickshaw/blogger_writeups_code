@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-08-11T11:00:50.527+05:30",
+  "updated": "2026-08-11T12:36:19.265+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 15920,
-  "sha256": "869cb2f9568be5b37cae90867aa9a9200c7d3b22a5a4a74fc5ebb79c353126d7",
+  "bytes": 22024,
+  "sha256": "2e0b5564e8c86391140bdf8f47dbf7482e16cd28e4b4c818cc6c46f3e7f38652",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         15681,
         15920
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-11T12:47:05+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        15920,
+        22024
       ],
       "url_changed": null,
       "markers_changed": null,

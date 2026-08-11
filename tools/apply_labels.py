@@ -50,11 +50,14 @@ TAXONOMY = {
     "Chemicals":           ["chemical", "petrochem", "dyes", "pigment",
                             "speciality", "specialty", "polymer", "acid"],
     "Energy & Fuels":      ["ethanol", "cbg", "biogas", "blending", "biofuel",
-                            "crude", "petroleum", "refinery", "diesel", "petrol"],
+                            "crude", "petroleum", "refinery", "diesel", "petrol",
+                            "oil field", "retail outlet", "petrol pump"],
     "Gas & LNG":           ["lng", "natural gas", "cgd", "pngrb", "regas",
                             "city gas", "pipeline", "gail"],
     "Agriculture & Fertilisers": ["fertiliser", "urea", "agri", "grain", "farm",
-                                  "annadata", "kisan", "crop", "sugar", "paddy"],
+                                  "annadata", "kisan", "crop", "sugar", "paddy",
+                                  " fci ", "storage capacity", "polyhouse",
+                                  "greenhouse", "cocoa"],
     "Textiles":            ["textile", "apparel", "fibre", "charkha", "cotton", "mmf"],
     "Prices & Inflation":  ["wpi", "cpi", "inflation", "wholesale price",
                             "consumer price", "price index", "deflator"],
@@ -63,9 +66,11 @@ TAXONOMY = {
     "Mobility & EV":       ["electric vehicle", " ev ", "vehicle", "mobility",
                             "ev battery", "vehicle battery", "charging", "automobile"],
     "Trade & Tariffs":     ["export", "import", "tariff", "trade balance",
-                            "trade deficit", "customs", "fta", "wto"],
-    "Markets & Finance":   ["bond", "equity", "portfolio", "capital gains",
-                            "yield", "securitis", "rupee", "currency", "fdi"],
+                            "trade deficit", "customs", "fta", "wto",
+                            "supply chain"],
+    "Markets & Finance":   ["bond", "equity", "portfolio", "capital gain",
+                            "yield", "securitis", "rupee", "currency", "fdi",
+                            "green bond", "green debt", "capital market"],
     # "pli" as a bare 3-letter fragment matched inside ordinary words --
     # "split", "supplies", "multiply" -- and mislabelled unrelated posts
     # (caught on the-503020-rule-is-elizabeth-warrens.html, via "wants
@@ -73,7 +78,13 @@ TAXONOMY = {
     "Industrial Policy":   [" pli ", "pli scheme", "production linked incentive",
                             "production-linked incentive", "scheme", "incentive",
                             "subsidy", "policy", "cluster", "investment promotion",
-                            "sabha"],
+                            "sabha", " iem "],
+    "Environment & Clearances": ["environmental clearance", "parivesh", " ec ",
+                                 "crz", "coastal regulation zone", "forest clearance",
+                                 "wildlife clearance", "forest, wildlife"],
+    "Macroeconomics & Monetary Policy": ["monetary policy", "repo rate",
+                                         "central bank", "real gdp", "gdp growth",
+                                         " rbi "],
 }
 
 
@@ -90,6 +101,24 @@ OVERRIDE = {
     "ai-high-demand-launch-tracker":   ["AI Tracker"],
     "cgd-geographical-areas-district": ["Gas & LNG", "Industrial Policy"],
     "cold-chain-fuel-outlet-integrated-map": ["Gas & LNG", "Agriculture & Fertilisers"],
+    # H1 is the bare title "Quarterly Reportage" with no descriptive subtitle
+    # in a class headings() recognises -- the real subject only appears in
+    # the eyebrow's plain text and the body. Self-declares "Industrial
+    # policy - PIB register" in its own eyebrow line.
+    "quarterly-reportage-4034-scheme": ["Industrial Policy"],
+    # These two are interactive-map/dashboard embeds, not prose articles --
+    # the title lives in an inline-styled div inside class="hero", a
+    # structure headings() doesn't parse (and shouldn't be widened to catch,
+    # since arbitrary inline-styled divs would be a false-positive magnet
+    # elsewhere). Titles state the subject plainly: "82,000 outlets...
+    # petrol pumps and CNG supply linkage" / "India Environmental
+    # Clearances -- state x sub-sector dashboard" (PARIVESH 2.0 EC register).
+    "india-fuel-retail-outlets-82k-geocoded": ["Energy & Fuels", "Gas & LNG"],
+    "india-environmental-clearances-state": ["Environment & Clearances"],
+    # yet another one-off custom title structure (class="gh-hero" > ".k"
+    # kicker + inline-styled div), self-declares "Protected Cultivation .
+    # Adaptive Reuse" -- polyhouse/greenhouse economics.
+    "the-empty-shed-greenhouse-what-indias": ["Agriculture & Fertilisers"],
 }
 
 
@@ -98,7 +127,11 @@ def headings(path):
     s = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)
     h1 = re.findall(r"<h1[^>]*>(.*?)</h1>", s, flags=re.S | re.I)
     rest = re.findall(r"<h[23][^>]*>(.*?)</h[23]>", s, flags=re.S | re.I)
-    rest += re.findall(r'class="(?:extitle|h2sub|standfirst)"[^>]*>(.*?)</p>', s, flags=re.S)
+    rest += re.findall(r'class="(?:extitle|h2sub|standfirst|eyebrow)"[^>]*>(.*?)</p>', s, flags=re.S)
+    # kicker eyebrows sometimes open with an empty decorative <span
+    # class="dot"></span> before the real text -- skip it, or the
+    # non-greedy match stops at that inner span's close and captures "".
+    rest += re.findall(r'class="kicker"[^>]*>(?:<span[^>]*></span>)?(.*?)</span>', s, flags=re.S)
     strip = lambda xs: [html.unescape(re.sub(r"<[^>]+>", " ", x)) for x in xs]
     return " ".join(strip(h1) * 3 + strip(rest)).lower()
 
