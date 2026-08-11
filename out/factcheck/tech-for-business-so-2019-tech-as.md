@@ -16,11 +16,16 @@ Source: `posts/tech-for-business-so-2019-tech-as.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99327, Requested 2299. Please try again in 23m24.864s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98292, Requested 2299. Please try again in 8m30.624s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written." — The claim that the disclosure block was added in a later site-wide pass is unverifiable without access to the site's internal records, and the phrasing suggests it was part of the original publication. [confidence: low]
+
+INTERPRETATION ERRORS:
+- "The customer is always hungry for more... And they are right; however, should we give the person fish or teach them to fish?" — The analogy implies a false dichotomy between providing immediate value (fish) and educating customers (teaching to fish), but it does not address whether both approaches can coexist or be strategically balanced. The reasoning gap is that the claim oversimplifies customer needs by framing the choice as mutually exclusive rather than complementary. [confidence: high]
+- "Product managers are the astronomers (Kepler) trying to predict when the User comets could come and how best we can put together a solution to create convenience for users in their journey through the ecosystem you have created." — The metaphor of product managers as astronomers predicting "User comets" is poetic but scientifically inaccurate. It conflates prediction with astronomical forecasting, which is not analogous to user behavior analysis. The reasoning gap is that the claim misrepresents the role of product managers by using an inappropriate and misleading analogy. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
