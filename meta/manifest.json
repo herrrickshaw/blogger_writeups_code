@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T12:10:04+05:30",
+  "snapshot": "2026-08-11T12:17:52+05:30",
   "count": 124,
   "posts": {
     "1157999291079244419": {
@@ -894,8 +894,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-11T12:07:17.096+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:14:56.440+05:30",
+      "labels": [
+        "AI Tracker"
+      ],
       "bytes": 31960,
       "sha256": "681fa4ebd2a4ded9beace89893e1aa0f2492e1cc007e8e94afee50bd2d4bc662",
       "markers": {
@@ -6747,10 +6749,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-11T11:02:12.023+05:30",
+      "updated": "2026-08-11T12:16:08.655+05:30",
       "labels": [],
-      "bytes": 166823,
-      "sha256": "6c23300d40b653828480b41df2450e98449fca14dfe0e3520576be2883ff49a5",
+      "bytes": 166964,
+      "sha256": "e06e0f2f4ab7d7f8ca7eb4310ba113b9378dc77af46c41027b484302b7e561f0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6762,7 +6764,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.0.0",
+      "version": "24.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7117,6 +7119,19 @@
           "bytes": [
             166568,
             166823
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "24.0.1",
+          "date": "2026-08-11T12:17:52+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            166823,
+            166964
           ],
           "url_changed": null,
           "markers_changed": null,

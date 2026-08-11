@@ -2851,3 +2851,13 @@ scheduled sync
 **Changed**
 
 - `ai-high-demand-launch-tracker` — 18,598 → 31,960 bytes (+13,362)
+
+## 2026-08-11T12:17:52+05:30 — 124 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.0 → 24.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `article-index-start-here` — 166,823 → 166,964 bytes (+141)
