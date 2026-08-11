@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99158, Requested 8093. Please try again in 1h44m24.864s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99827, Requested 8093. Please try again in 1h54m2.88s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable or incorrect. [confidence: high]
 
-- "UAE records $162.8bn of crude to Areas, nes" — The term "Areas, nes" (not elsewhere specified) is not a valid country or region name, and the claim cannot be verified as a factual destination. [confidence: high]
+- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in effect, making the claim unverifiable or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer, the claim that it "still buys more crude than it sells" is not directly supported by the data presented. The article cites a net crude position deficit of -$46.5bn, but this is a monetary value, not a volume comparison. The interpretation conflates monetary trade flows with physical volumes, which may not align due to price differences. [confidence: high]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer and a net importer of crude, the claim that this is due to a "grade mismatch" is not directly supported by the trade data presented. The data shows trade flows and values but does not explicitly demonstrate that the grade mismatch is the sole or primary driver of the US's net crude import position. [confidence: medium]
 
-- "HS 271019 bundles gasoil/diesel, kerosene, fuel oil and lubricating base oils into one line. No six-digit query can split lube-oil exports from diesel exports — that needs national tariff detail (India's 8-digit TRADESTAT, US HTS 10-digit). The $35.7bn 'India 271019 exports' figure is mostly diesel, not lubricants." — While the HS code bundles these products, the claim that "$35.7bn 'India 271019 exports' figure is mostly diesel" is an extrapolation beyond the data. The article does not provide a breakdown or evidence to support this proportion, and the HS code includes multiple products that could contribute to the total value. [confidence: medium]
+- "Cushing is the physical delivery point for the WTI contract. When its tanks run toward operating minimum, the barrels available to settle that contract thin out, and WTI trades more on local tank economics than on global supply." — While Cushing is indeed the delivery point for WTI, the claim that WTI trades "more on local tank economics than on global supply" when stocks are low is an extrapolation beyond the data provided. The article does not present evidence or analysis linking Cushing's storage levels to WTI price dynamics or trading behavior. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

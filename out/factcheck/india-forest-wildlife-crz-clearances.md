@@ -16,19 +16,21 @@ Source: `posts/india-forest-wildlife-crz-clearances.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99472, Requested 1676. Please try again in 16m31.872s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99542, Requested 1676. Please try again in 17m32.352s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — This figure appears to be incorrectly stated as "acres" when the rest of the article uses hectares for forest land measurements. The source (Industrial Information & Land Bank) likely reports in hectares, not acres, making this claim unverifiable or incorrect. [confidence: high]
+- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026)" — The figure is implausible as it suggests only ~253,720 acres (≈102,670 hectares) of developed-and-vacant industrial land across India, which is far below known estimates (e.g., NITI Aayog or state land banks typically report much larger figures). The source or methodology for this specific number is unverifiable and likely incorrect. [confidence: high]
 
-- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — While the article correctly identifies this as a likely data-entry artifact, it incorrectly presents it as a factual claim about the name being an individual rather than an agency. The claim itself is speculative and not verifiable as presented. [confidence: medium]
+- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — While the article correctly flags this as a likely data-entry artifact, it still lists it under "Top user agencies (FC)" with a count of 1,697 proposals, implying it is a legitimate agency. This is misleading because it treats a data-entry error as a real entity. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that forest diversion land-use changes are additive to the industrial land bank in a meaningful way for comparison, but it does not account for the fact that forest land diversions are not necessarily "developed-and-vacant" acres and may include forested or ecologically sensitive areas. The comparison is apples-to-oranges. [confidence: high]
+- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that forest diversion land is *additional* to the industrial land bank, but it does not account for overlaps or dependencies (e.g., diverted forest land may later be developed into industrial land). The comparison treats the two figures as mutually exclusive or additive, which they are not. [confidence: medium]
 
-- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator) — projects near protected areas stall here for the National/State Board for Wildlife recommendation." — While the data on Wildlife Clearance processing is correct, the conclusion that it is "the real bottleneck" is an overgeneralization. The article does not provide comparative processing times or backlog data for other clearances to justify this claim. [confidence: high]
+- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator)" — While the bottleneck claim is plausible, the article conflates *process status* ("Pending at Proponent") with *regulatory bottleneck*. The fact that projects are pending with applicants does not necessarily mean the Wildlife clearance process itself is the bottleneck; it could reflect applicant delays or other systemic issues unrelated to the Wildlife Board's capacity or decisions. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

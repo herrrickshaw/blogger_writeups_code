@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T18:03:25+05:30",
+  "snapshot": "2026-08-11T18:11:38+05:30",
   "count": 129,
   "posts": {
     "1157999291079244419": {
@@ -10105,12 +10105,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
       "slug": "do-cheap-stocks-stay-cheap-price-band",
       "published": "2026-08-11T15:52:01.000+05:30",
-      "updated": "2026-08-11T18:02:41.769+05:30",
+      "updated": "2026-08-11T18:11:22.805+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 79038,
-      "sha256": "461a9f8969bd892ac3975977ac3f3daed9a6027fe1c00df738cae4ea3447071d",
+      "bytes": 83606,
+      "sha256": "fcbcb34d71221ae193a74a17476932f824214e3a11f13976eedcc9b52ce43b0d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10122,7 +10122,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10152,6 +10152,19 @@
           "bytes": [
             42554,
             79038
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-08-11T18:11:38+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            79038,
+            83606
           ],
           "url_changed": null,
           "markers_changed": null,

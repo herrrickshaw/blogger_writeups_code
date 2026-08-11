@@ -16,19 +16,19 @@ Source: `posts/the-ethanol-sectors-buyers-market.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99307, Requested 1644. Please try again in 13m41.664s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98935, Requested 1644. Please try again in 8m20.256s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "roughly 400 crore litres of additional capacity due by FY27" — The claim implies a specific future capacity addition, but the article does not provide a verifiable source or methodology for this estimate. FY27 projections are speculative without official government or industry data backing. [confidence: medium]
+- "roughly 400 crore litres of additional capacity due by FY27 on top of the existing ~2,000 crore litres" — The claim implies FY27 is the deadline for 400 crore litres of capacity addition, but the article does not provide a verifiable source or specific timeline for this projection. The figure may be speculative or outdated. [confidence: medium]
 
-- "E20 fuel demand sitting around 1,100 crore litres" — The article presents this as a current figure, but ethanol demand is dynamic and depends on actual blending rates, which fluctuate monthly. The 1,100 crore litres figure is not sourced or verified against real-time OMC (Oil Marketing Companies) offtake data. [confidence: medium]
+- "EV displacement of two-wheeler petrol demand" — The article presents this as a medium-term threat without citing specific data or projections on EV adoption rates or its impact on ethanol demand. The claim lacks verifiable evidence. [confidence: low]
 
 INTERPRETATION ERRORS:
-- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim suggests that overcapacity is the *direct cause* of consolidation in cooperative sugar mills (CSMs), but the article later notes that CSMs face governance complexities, technical limitations, and funding access issues that are independent of market overcapacity. Overcapacity may exacerbate existing challenges, but it is not the sole or primary driver of consolidation in CSMs. [confidence: high]
+- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim suggests that overcapacity is directly causing consolidation in cooperative sugar mills, but it does not establish a clear causal link. Consolidation could be driven by other factors (e.g., financial distress, policy incentives), and the article does not provide evidence that overcapacity is the primary driver. [confidence: high]
 
-- "EV displacement of two-wheeler petrol demand. A medium-term threat to blending-volume growth as two-wheeler electrification accelerates — ethanol’s non-fuel uses (industrial, pharma, potable) are the partial offset." — The claim implies a causal link between EV adoption and reduced ethanol demand for fuel blending, but it does not account for potential policy adjustments (e.g., higher blending mandates) or the fact that ethanol's non-fuel uses are niche and unlikely to absorb the displaced fuel demand at scale. The reasoning conflates displacement with demand destruction without evidence of substitution or policy response. [confidence: high]
+- "mills that make that conversion get Priority-1 allocation in OMC ethanol offtake — i.e. supply-agreement certainty ahead of other producers." — While the claim states that converted mills receive priority allocation, it does not explain whether this priority is sufficient to offset the structural overcapacity or regional imbalances. The article assumes that priority allocation guarantees demand, but it does not address potential limitations (e.g., OMC quotas, ethanol blending mandates). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

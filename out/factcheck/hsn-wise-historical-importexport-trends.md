@@ -16,21 +16,21 @@ Source: `posts/hsn-wise-historical-importexport-trends.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99546, Requested 2346. Please try again in 27m14.687999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99616, Requested 2346. Please try again in 28m15.168s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)" — The CAGR calculation is incorrect. The article later states the correct CAGR as 11.8% (not 118.9%), and the 118.9% figure is inconsistent with the provided annual rate (11.8% over 8 years would yield ~140% total growth, not 118.9%). [confidence: high]
+- "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)" — The CAGR is incorrectly stated as 118.9% (which would imply a doubling plus 18.9%) when the correct calculation from the provided data (e.g., $6.7bn to $14.6bn) is approximately 10.5% CAGR. The 118.9% figure appears to be a misinterpretation of the absolute growth (e.g., ($14.6bn - $6.7bn)/$6.7bn ≈ 118.9%), but CAGR is not the same as absolute growth. [confidence: high]
 
-- "DPIIT's '24 champion sub-sectors' programme separately names electronics and aluminium among sectors selected partly for 'need for import substitution'" — The article does not provide a direct quote or citation from the DPIIT's 2025-26 Annual Report to verify this claim. While the investment data is cited, the specific program detail is unverified. [confidence: medium]
+- "DPIIT's '24 champion sub-sectors' programme separately names electronics and aluminium among sectors selected partly for 'need for import substitution' — the same conclusion this chart reaches from the trade numbers alone." — The article claims the DPIIT programme names aluminium as a sector needing import substitution, but the cited DPIIT investment data (Appendix IV) only mentions "Electricals Equipment" and "Fertilizers." There is no mention of aluminium in the provided DPIIT data or the quoted programme description. [confidence: high]
 
 ---
 
 INTERPRETATION ERRORS:
-- "Fertilisers (HS31) ... is the most volatile chapter here, not the fastest-growing one" — The article correctly identifies fertilisers as volatile but then contradicts itself by ranking it as the highest CAGR chapter earlier. The CAGR metric is misapplied here because the series does not exhibit consistent growth (it has sharp spikes and collapses), making the CAGR misleading. The conclusion that it is "not the fastest-growing" is correct, but the reasoning conflates volatility with growth rate without clarifying that CAGR is inappropriate for non-linear trends. [confidence: high]
+- "Fertilisers (HS31) ... is the most volatile chapter here, not the fastest-growing one" — While the article correctly notes the volatility of fertiliser imports, it then claims that electrical machinery (HS85) is the fastest-growing chapter with a +101.5% CAGR. However, the table later shows that electrical machinery (imports) has a CAGR of 10.5%, which is lower than the 11.8% CAGR for fertilisers (despite the earlier correction to 10.5%). The article conflates "fastest-growing" with "most volatile," ignoring that the CAGR for fertilisers (even when corrected) is higher than for electrical machinery. The conclusion that electrical machinery is the fastest-growing is not supported by the CAGR figures provided. [confidence: high]
 
-- "Electrical machinery is unusual in that it's growing fast on both sides of the ledger (imports of components, exports of assembled goods) — consistent with India importing parts for final assembly and re-export, rather than either pure import substitution or pure domestic manufacturing" — While the data shows growth in both imports and exports, the article assumes this pattern *proves* India is importing parts for assembly/re-export without ruling out alternative explanations (e.g., simultaneous import substitution in components and export growth in finished goods). The causal claim lacks supporting evidence or counterfactual analysis. [confidence: medium]
+- "The chapters actually accelerating — fertilisers, electrical machinery, edible oils — point to where new import dependency is building" — The article uses the CAGR of these chapters to argue for growing import dependency, but CAGR alone does not indicate dependency; it only shows growth rate. For example, edible oils (HS15) may have grown rapidly, but if domestic production also grew proportionally, the import dependency might not have increased. The article does not provide data on domestic production or consumption to support the claim of rising dependency. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

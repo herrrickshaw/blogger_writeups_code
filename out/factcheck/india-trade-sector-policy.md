@@ -16,19 +16,19 @@ Source: `posts/india-trade-sector-policy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99416, Requested 1670. Please try again in 15m38.304s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99484, Requested 1670. Please try again in 16m37.056s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the $333bn deficit (current TradeStat running total is closer to $334.3bn)" — The claim conflates a specific figure ($333bn) with a "running total" ($334.3bn) without clarifying whether the latter is an updated, verified figure or a preliminary estimate. TradeStat data is typically revised, and the article does not provide a source or date for the $334.3bn figure, making it unverifiable as a factual correction. [confidence: medium]
+- "the $333bn deficit (current TradeStat running total is closer to $334.3bn)" — The claim conflates a specific figure ($333bn) with a "running total" ($334.3bn) without clarifying whether the latter is an official or updated figure. TradeStat (likely referring to India's official trade statistics) does not typically report "running totals" in this manner, and the discrepancy suggests a lack of precision in sourcing. [confidence: high]
 
-- "₹1.97 lakh cr forex saved" — The claim attributes forex savings to PIB-verified ethanol blending but does not provide a source, methodology, or breakdown for how this figure was calculated. Without a cited government document or official report, the claim cannot be verified. [confidence: high]
+- "₹1.97 lakh cr forex saved" — The claim attributes forex savings to PIB-verified ethanol blending but does not provide a verifiable source or methodology for this calculation. The Reserve Bank of India (RBI) or Ministry of Petroleum and Natural Gas (which oversees ethanol blending) do not publish such a specific figure in public reports. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "DPIIT attributes inflow to the recipient company's registered office, not the project site — with no published caveat" — The claim suggests a flaw in DPIIT's methodology by implying that attributing FDI to the registered office (rather than the project site) is inherently misleading. However, this attribution method is standard practice in FDI tracking (as FDI is legally tied to the recipient company's domicile, not the project location). The article does not explain why this practice is problematic or how it misrepresents FDI flows. [confidence: high]
+- "DPIIT attributes inflow to the recipient company's registered office, not the project site — with no published caveat" — The claim suggests a causal link between DPIIT's methodology and potential misattribution of FDI inflows, but it does not provide evidence that this methodological choice leads to systematic over- or underestimation of FDI. The absence of a caveat does not inherently invalidate the data; the interpretation assumes a problem without demonstrating its impact. [confidence: medium]
 
-- "FDI equity counts pure share purchases; no greenfield/brownfield split exists anywhere" — The claim implies that the lack of a greenfield/brownfield split in FDI data is a deficiency, but it does not acknowledge that equity FDI (as reported by DPIIT/RBI) is inherently distinct from greenfield/brownfield investments (which are tracked separately in other datasets). The article does not explain why the absence of this split in equity FDI data is problematic or how it affects the analysis. [confidence: high]
+- "₹28,748cr = ~15% of outlay; Pharma A to ACC Battery F" — The claim grades PLI disbursals but does not clarify whether the 15% figure refers to disbursed funds relative to total allocated outlays or actual utilization. Without a clear definition of "outlay" (e.g., committed vs. disbursed), the grading system lacks a transparent benchmark, making the comparison between sectors (e.g., Pharma vs. ACC Battery) potentially misleading. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

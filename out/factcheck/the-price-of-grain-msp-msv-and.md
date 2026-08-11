@@ -16,19 +16,19 @@ Source: `posts/the-price-of-grain-msp-msv-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99250, Requested 4600. Please try again in 55m26.4s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99953, Requested 4600. Please try again in 1h5m33.792s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹3,535 FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The claim conflates the *economic cost* (₹4,000/qtl, as stated earlier in the article) with the sum of its components. The economic cost is an order-of-magnitude estimate, not a precise sum of the listed items. [confidence: high]
+- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such clarification is provided in the text. The claim itself is unverifiable without the specific breakdown of costs or a source citation. [confidence: medium]
 
-- "sugarcane FRP ₹355/qtl, +29% since 2019" — The article does not provide a source for the 29% increase, and the base FRP (₹355/qtl) is not verifiable against official records (e.g., CACP or government notifications). [confidence: medium]
+- "₹3,535 Paddy MSP in rice terms buys at KMS 2025-26 common paddy MSP ₹2,369/qtl ÷ 0.67 milling outturn." — The calculation (₹2,369 ÷ 0.67 ≈ ₹3,535) is mathematically correct, but the milling outturn of 0.67 is not sourced or explained. The claim implies a fixed conversion rate, which may not account for variations in milling efficiency or quality. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does [absorb maize exports]." — While the article correctly notes that maize exports are unviable at MSP, it does not establish that the ethanol loop *actively absorbs* maize exports. The ethanol program purchases maize for blending, but this does not imply it replaces export demand; the two are separate markets. [confidence: high]
+- "The state buys at rung 2, carries to rung 1, and disposes at rungs 3–6 — the vertical gaps are the food subsidy." — The claim conflates the "buy rung" (MSP) with the "economic cost" (rung 1), which includes additional costs like storage and freight. The vertical gaps between these rungs represent the *total* food subsidy, but the article does not clearly distinguish between the MSP (a price guarantee) and the economic cost (a total cost to the state). The reasoning gap is that the "food subsidy" is not solely the difference between these rungs but also includes other costs like procurement incidentals and disposal losses. [confidence: high]
 
-- "a θ of just 0.3 removes 51% of price-revenue variance" — The claim assumes a linear relationship between θ and variance reduction, but the formula Var(R) = (1−θ)²·Var(Pₘₖₜ) implies that the reduction is quadratic, not linear. A θ of 0.3 reduces variance by (1−0.3)² = 0.49 (49%), not 51%. The article rounds incorrectly. [confidence: high]
+- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The claim suggests that the ethanol loop is a viable and existing channel for maize disposal, but it does not address the scalability or sustainability of this channel. The reasoning gap is that while the ethanol loop exists, it may not be sufficient to absorb the entire surplus maize production, especially given the export parity issues and the limited capacity of distilleries. The article does not provide evidence that this channel can handle the full volume of maize that would be procured under an MSV policy. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

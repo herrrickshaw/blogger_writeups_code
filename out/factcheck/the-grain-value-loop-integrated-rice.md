@@ -16,19 +16,19 @@ Source: `posts/the-grain-value-loop-integrated-rice.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99289, Requested 10307. Please try again in 2h18m10.943999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99991, Requested 10307. Please try again in 2h28m17.472s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India imports what it grows — and gifts the feedstock" — The claim is misleading because India does not import rice or wheat (it is a net exporter of both), though it does import derivatives like edible oils, pulses, and specialty starches. The article conflates the import of derivatives with the import of the raw grains themselves. [confidence: high]
+- "India imports what it grows — and gifts the feedstock" — The claim is misleading because India does not import rice or wheat (it is a net exporter of both), though it does import derivatives like edible oil, gluten, and starch. The phrasing incorrectly suggests India imports the raw grains it procures. [confidence: high]
 
-- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — While the procurement numbers are approximately correct for recent years, the article does not specify the year, making the claim unverifiable without a timeframe. Additionally, the claim that the government "hands the milling byproducts to private millers for free" is not universally true across all states or procurement systems, as some states may charge nominal fees or have different arrangements. [confidence: medium]
+- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The article itself acknowledges this discrepancy, implying the ₹7,650 cr figure is inconsistent with the full husk+bran tonnage. This is a self-contradictory claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rice bran oil — bran from the ~832 LMT of paddy under CMR; ₹60/kg ex-mill vs ₹105 import parity = ₹45/kg edge" — The claim assumes that the entire 832 LMT of CMR paddy will yield bran that can be converted to rice bran oil (RBO) at ₹60/kg, but the article itself notes that only ~40 LMT of government-touchable bran is available (41% of national production). The ₹45/kg edge is based on a partial volume (7.7 LMT) and does not account for the full cost of processing, logistics, or market fluctuations. The savings estimate of ₹7,544 crore is an extrapolation that may not hold for the entire potential volume. [confidence: high]
+- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year, then hands the milling byproducts to private millers for free and imports the finished derivative." — While the government does procure rice and wheat, the claim that it "imports the finished derivative" is not directly supported by the cited sources (DFPD, DGCI&S, MoFPI). The article conflates general import trends with the specific derivatives derived from the procured grain, without clear evidence that the imported derivatives are directly tied to the byproducts of the procured grain. [confidence: medium]
 
-- "The same pattern repeats for gluten, starch, protein, and nutraceuticals across every crop the state procures" — The article generalizes the "import the derivative, hold the feedstock" pattern to all crops procured by the state (e.g., gluten, starch, protein, nutraceuticals), but it does not provide evidence or data for each of these specific derivatives. The claim implies a uniform pattern without verifying whether the feedstock for these derivatives is indeed procured by the government or whether the state holds the raw material for these specific products. [confidence: medium]
+- "Value density rises ~1,000× from grain to derivative" — The article presents this as a factual multiplier without citing a verifiable source or methodology. The claim is an extrapolation that may not hold across all derivatives or market conditions, and the 1,000× figure appears to be an unsupported estimate. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

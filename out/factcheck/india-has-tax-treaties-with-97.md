@@ -16,19 +16,19 @@ Source: `posts/india-has-tax-treaties-with-97.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99447, Requested 2958. Please try again in 34m37.92s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99515, Requested 2958. Please try again in 35m36.672s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 9 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them" — The claim is misleading because it conflates "tax treaties" (DTAAs) with "trade treaties" (FTAs). While India has 97 comprehensive DTAAs, the number of trade treaties (FTAs) is not directly comparable as the article later clarifies that only 9 FTAs cover 38 countries. The phrasing suggests a direct numerical comparison between two distinct categories, which is incorrect. [confidence: high]
 
-- "India–UK CETA (signed July 2025)" — The UK-CETA was not signed in July 2025; negotiations are ongoing, and no such agreement exists as of 2025. [confidence: high]
+- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — The claim that the network is "nearly universal" is an overstatement. While 97 countries is a large number, it does not cover all major economies (e.g., the U.S. is not included in the 97, despite having a DTAA since 1990). The "amended monthly" phrasing is also hyperbolic, as the article itself notes that updates are routine but not necessarily monthly. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — While the claim that India has DTAAs with 97 countries is factually correct, the assertion that the network is "nearly universal" is an overgeneralization. Many of these agreements are limited or outdated, and the claim implies a broader coverage than what is practically meaningful. [confidence: high]
+- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach." — The claim implies a causal or comparative relationship between the two networks (tax treaties vs. trade treaties) that is not logically supported. The two networks serve fundamentally different purposes (tax jurisdiction vs. tariff reduction), and their "reach" cannot be directly compared in terms of progress or coverage. The article conflates the scope of the networks with their functional importance. [confidence: high]
 
-- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach." — The comparison conflates two distinct policy tools (tax treaties vs. trade agreements) without accounting for their different objectives. Tax treaties address cross-border income taxation, while trade agreements focus on tariff reductions and market access. The conclusion that India's trade-agreement reach "has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. [confidence: high]
+- "A country can have a functioning tax relationship with India, in the form of a DTAA governing how income is taxed, for years or decades before any tariff-level trade agreement exists between the two." — While this is factually correct (e.g., the U.S. example), the article uses this to imply that the absence of an FTA is a meaningful gap in economic engagement. However, the presence of a DTAA does not necessarily correlate with the need for an FTA, as trade can occur under WTO rules or other arrangements without a comprehensive FTA. The interpretation overstates the significance of the gap. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

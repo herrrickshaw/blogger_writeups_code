@@ -16,19 +16,19 @@ Source: `posts/india-sells-world-53-billion-of-fuel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99426, Requested 3965. Please try again in 48m49.824s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99494, Requested 3965. Please try again in 49m48.576s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 8 August 2026" — The article cites DGCI&S TRADESTAT data for FY2024-25 and FY2025-26, but the publication date is implausible as it predates the end of FY2025-26 (which would conclude in March 2026). The data run date (8 August 2026) is also inconsistent with the FY2025-26 data being finalized before the fiscal year ends. [confidence: high]
 
-- "US$53.0bn Refined petroleum exports, HS 2710, FY2025-26" — The article later cites actual export values of US$52,973 million (≈US$53.0bn) for FY2025-26, but the initial claim rounds this to US$53.0bn without acknowledging the precise figure, which could mislead readers expecting exact figures. [confidence: high]
+- "US$53.0bn Refined petroleum exports, HS 2710, FY2025-26" — The article later contradicts this by stating exports were US$52,973 million (US$52.973bn), not US$53.0bn. The rounding is inconsistent with the precise figure provided elsewhere. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The surplus is real. India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the surplus in refined petroleum trade is real, the claim that the margin between crude imports and fuel exports is "one of the country’s largest export earnings" conflates net surplus (US$43.7bn) with gross export earnings (US$53.0bn). The net surplus is not an "export earning" but the difference between exports and imports. [confidence: high]
+- "The surplus is real — India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the surplus is real in terms of trade value, the article conflates *trade surplus* (exports minus imports) with *profit margin* (revenue minus cost of crude). The trade surplus does not reflect refining margins, which depend on crude prices, refining costs, and product prices—none of which are accounted for in the trade data. [confidence: high]
 
-- "The neighbourhood does not appear until well down the list." — The claim implies that the neighbourhood is not a significant market for Indian refined petroleum exports, but the article later notes that Nepal, Sri Lanka, and Bhutan together account for 5.2% of exports (a non-trivial share). The phrasing downplays the actual share without justification. [confidence: medium]
+- "Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template." — The article correctly notes Sri Lanka's growth but incorrectly implies that its competitive market structure (where India both exports to and imports from Sri Lanka) is unique among neighbors. However, the trade data shows Bangladesh also had a small two-way trade (though not explicitly highlighted), and the article does not establish that Sri Lanka's growth is structurally different from other neighbors in a way that invalidates it as a template. The reasoning gap is in overgeneralizing Sri Lanka's uniqueness without broader comparative analysis. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

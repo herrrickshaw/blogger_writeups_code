@@ -16,7 +16,7 @@ Source: `posts/below-250-is-where-real-junk-lives.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99680, Requested 2334. Please try again in 29m0.096s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99791, Requested 2334. Please try again in 30m36s. Need more tokens? Upgrade to Dev Tier today at https://]
 
 ## Mistral mistral-small-latest
 
@@ -24,7 +24,7 @@ FACTUAL ERRORS:
 - "3.5 years of weekly local NSE price data (2 January 2023 to 7 August 2026)" — The date range is incorrect as it spans 3 years and 7 months, not 3.5 years. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Price itself still isn't the risk factor — market capitalisation and liquidity are, and they happen to correlate tightly with price only at the very bottom of the market" — While the article correctly identifies market cap and liquidity as the true risk factors, it does not provide evidence to support the claim that these factors "correlate tightly with price only at the very bottom of the market." The data shows a sharp drop in median market cap at the ₹0–250 sub-band, but this does not establish a broader correlation pattern across the entire price spectrum. [confidence: medium]
+- "Price itself still isn't the risk factor — market capitalisation and liquidity are, and they happen to correlate tightly with price only at the very bottom of the market" — The article correctly identifies that market cap and liquidity are the true risk factors, but it does not provide evidence or reasoning to support the claim that these factors "correlate tightly with price only at the very bottom of the market." The data shows a sharp drop in median market cap in the ₹0–250 band, but this does not inherently prove a lack of correlation in higher price bands. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

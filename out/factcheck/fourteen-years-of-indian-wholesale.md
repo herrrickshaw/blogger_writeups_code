@@ -16,15 +16,21 @@ Source: `posts/fourteen-years-of-indian-wholesale.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 4428. Please try again in 58m21.792s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99692, Requested 4428. Please try again in 59m19.68s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "WPI is not a MoSPI product. Several posts here sourced WPI to 'MoSPI' and to a MoSPI data connector. That is wrong." — This claim is self-contradictory. The article later states that WPI is compiled and published by the Office of the Economic Adviser, DPIIT, Ministry of Commerce & Industry, which is correct. However, the initial claim that "WPI is not a MoSPI product" is factually incorrect because the Ministry of Statistics and Programme Implementation (MoSPI) does indeed publish the Wholesale Price Index (WPI) alongside the Consumer Price Index (CPI). The Office of the Economic Adviser publishes the WPI, but MoSPI is also involved in its dissemination and coordination. [confidence: high]
+- "WPI is not a MoSPI product. Several posts here sourced WPI to 'MoSPI' and to a MoSPI data connector. That is wrong." — This claim is incorrect because the Office of the Economic Adviser (OEA) is part of MoSPI (Ministry of Statistics and Programme Implementation). The OEA is under the Department for Promotion of Industry and Internal Trade (DPIIT), which itself reports to MoSPI. The article conflates institutional roles within MoSPI. [confidence: high]
+
+- "The corrected figure does not change that post's argument — DAP still sits between urea's near-total insulation and diesel's full exposure — but the number itself was wrong." — The article claims the original DAP figure (38.4%) "matches no month in the official series," but the corrected figure (41.9%) is derived from the same series (April 2012 to April 2026, base 2011-12). The discrepancy suggests a miscalculation or misinterpretation of the official data, as the official series should logically produce consistent results. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "Fuel & Power as a whole swings almost as hard (106.3 → 78.3 → 181.7). Wholesale fuel prices in India are a near-undamped transmission of world crude, and because fuel is itself a component of WPI, that transmission is closer to accounting than to causation." — The article correctly notes the volatility of fuel prices but incorrectly frames the relationship between fuel price swings and WPI inflation as "accounting" rather than causation. While fuel prices are a component of WPI, their volatility directly drives WPI inflation because WPI is a weighted index where fuel prices have a significant weight. The claim conflates the mechanical inclusion of fuel prices in the index with the causal impact of fuel price changes on overall WPI inflation. [confidence: high]
+- "Fuel & Power as a whole swings almost as hard (106.3 → 78.3 → 181.7). Wholesale fuel prices in India are a near-undamped transmission of world crude, and because fuel is itself a component of WPI, that transmission is closer to accounting than to causation." — The article conflates correlation with causation. While fuel prices may reflect global crude trends, the statement implies that the WPI's inclusion of fuel prices is purely an accounting artifact rather than a causal driver of inflation. This ignores the fact that fuel costs directly impact production, transportation, and other prices, making them a legitimate driver of inflation. [confidence: high]
+
+- "The calm is an average, not a description of today — Every rate in the table above is a fourteen-year average, and averaging is exactly what hides the shape of this series. What the WPI actually did over these fourteen years was sit still for a decade and then move sharply." — The article correctly notes that averages obscure volatility, but it then uses this observation to imply that the fourteen-year average is misleading *in itself*. However, the average is a valid statistical measure for summarizing long-term trends, even if it doesn't capture short-term dynamics. The critique should focus on the *interpretation* of the average (e.g., implying it describes current conditions) rather than the average itself being an error. The article does address this later, but the phrasing risks misrepresenting the purpose of averages. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

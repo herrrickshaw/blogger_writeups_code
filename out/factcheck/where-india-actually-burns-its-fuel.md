@@ -16,19 +16,19 @@ Source: `posts/where-india-actually-burns-its-fuel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99147, Requested 2278. Please try again in 20m31.2s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99853, Requested 2278. Please try again in 30m41.184s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The publication date is impossible as the article references data up to FY2024-25 (ending March 2024) and future projections (FY2024-25 is not yet complete as of August 2026). The PPAC workbook is likely dated August 2025, not 2026. [confidence: high]
+- "Published 8 August 2026" — The date is impossible as the article references data up to FY2024-25 (ending March 2025) and cites sources dated August 2026, which is a logical inconsistency. [confidence: high]
 
-- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026)" — The date is impossible as the article was published before May 2026 (per the "Published 8 August 2026" claim). The PNGRB data would not be available for a future date. [confidence: high]
+- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The date 31.05.2026 is in the future relative to the article's publication context and the data cutoff (FY2024-25). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Delhi is exactly what its gas and metro build-out was meant to achieve" — The article attributes Delhi's slow fuel growth to CNG, metro expansion, and vehicle-age rules, but does not provide quantified evidence or decomposition to support this causal claim. The correlation is asserted without isolating the contribution of these factors. [confidence: high]
+- "Delhi is exactly what its gas and metro build-out was meant to achieve" — The article attributes Delhi's slow fuel growth to substitution via CNG, metro, and vehicle-age rules but does not quantify or decompose the contributions of these factors. The causal claim is plausible but unsupported by the data presented. [confidence: high]
 
-- "The increment is two-wheelers and cars, not trucks and tractors — which is why the ethanol-blending programme (petrol-side) keeps gaining policy leverage while diesel-side interventions fade" — While the shift toward petrol demand is noted, the article does not provide data or analysis to directly link this shift to the ethanol-blending program or to demonstrate that diesel-side interventions have "faded" in relevance. This is an unsupported causal extrapolation. [confidence: medium]
+- "The frontier moved east; the plateau is in the north-west" — While the article correctly identifies Odisha and Chhattisgarh as fast-growing markets, the claim that the "plateau is in the north-west" is an overgeneralization. Punjab (+23%) and Rajasthan (+49%) are in the north-west but show different growth patterns, and Maharashtra (+46%) is in the west but not a "plateau." The interpretation lacks nuance and conflates regional trends. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

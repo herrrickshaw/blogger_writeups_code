@@ -16,7 +16,7 @@ Source: `posts/up-has-indias-biggest-herd-punjab-has.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99185, Requested 3416. Please try again in 37m27.263999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99893, Requested 3730. Please try again in 52m10.272s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
@@ -24,7 +24,7 @@ FACTUAL ERRORS:
 - "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While Uttar Pradesh's large herd size explains its high raw milk output, the claim implies a direct causal link between herd size and output without acknowledging that Punjab achieves higher yield per animal despite a smaller herd. The reasoning conflates scale with efficiency. [confidence: high]
+- "the stale headcount and the fresh output numbers tell two different stories about which states actually run India's dairy sector" — The article conflates raw milk production (a flow measure) with livestock population (a stock measure). A state with a large herd may produce more milk overall, while a state with fewer animals but higher yield per animal may have higher efficiency. The claim implies a direct contradiction where none necessarily exists, as the two metrics measure different aspects of the dairy sector. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

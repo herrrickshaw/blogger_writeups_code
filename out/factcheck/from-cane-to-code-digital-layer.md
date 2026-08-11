@@ -16,19 +16,19 @@ Source: `posts/from-cane-to-code-digital-layer.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 2791. Please try again in 34m30.143999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99671, Requested 3105. Please try again in 39m58.464s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references events and sources dated June 2026 and March 2026, and the "ESY2025-26" data is partial (to March 2026). The publication date is likely a typo or misstatement. [confidence: high]
+- "Published 8 August 2026" — The date is impossible as the article references events and sources dated June 2026 and March 2026, which would not be available by August 2026. [confidence: high]
 
-- "Maruti Suzuki launch India's first flex-fuel car (June 2026)" — While the article cites this claim, it does not provide a verifiable source or confirm the exact date. Flex-fuel vehicle launches in India have historically been associated with earlier dates (e.g., 2021), and the claim lacks corroboration. [confidence: medium]
+- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The claim lacks a clear source or methodology for calculating the cumulative forex savings, and the figure appears to be an unaudited vendor/trade press claim without independent verification. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article attributes this figure to government sources but does not explain how the cumulative forex savings were calculated or whether they account for potential offsets (e.g., ethanol imports, feedstock costs, or opportunity costs). Without this context, the claim risks double-counting or overstating net benefits. [confidence: high]
+- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The claim implies a direct causal link between AI-tuned fermentation and increased ethanol yield, but the article does not provide evidence that the yield improvement is solely attributable to AI rather than other factors like better feedstock quality, process optimizations, or seasonal variations. [confidence: high]
 
-- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article reports vendor-claimed efficiency gains without clarifying whether these improvements are net of additional energy or chemical inputs required by AI systems. The claim implies a direct yield increase, but the operational reality may involve trade-offs not addressed. [confidence: medium]
+- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The claim suggests a uniform improvement across all participating farmers, but the pilot is limited to a specific cohort (e.g., "Super 50 AI Farmers, Jalna district") and does not account for variability in farm conditions, farmer practices, or external factors like weather. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

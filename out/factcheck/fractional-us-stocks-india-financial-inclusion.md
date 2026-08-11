@@ -16,19 +16,19 @@ Source: `posts/fractional-us-stocks-india-financial-inclusion.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99616, Requested 2583. Please try again in 31m39.936s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99687, Requested 2583. Please try again in 32m41.28s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share" — Berkshire Hathaway Class A shares were worth ~$650,000 as of early August 2026 (per CNBC), not $780,000. [confidence: high]
+- "India has roughly 23.15 crore demat accounts as of June 2026" — The cited source (SBI Securities) reports 23.15 crore demat accounts as of June 2026, but the article itself notes this is a cross-check against "more recent June 2026 industry reporting," implying the figure may not be final or officially confirmed. The claim is unverified against a primary regulatory source (e.g., SEBI or CDSL/NSDL). [confidence: medium]
 
-- "MRF Ltd (NSE, India's highest-priced listed stock) | ₹1,34,200 | 10 Aug 2026" — The NSE-listed price of MRF on 10 Aug 2026 was actually ₹1,34,200 per share, but this is not the "highest-priced listed stock" in India. As of that date, Page Industries (parent of Jockey India) traded at ~₹45,000–50,000, while MRF was among the highest but not definitively the top. [confidence: medium]
+- "over 2.5 million added in June 2026 alone, the highest monthly count in months" — The article does not provide a source for this specific monthly addition figure, and it is not corroborated by the cited sources (e.g., SBI Securities or other industry reporting). The claim lacks verifiable evidence. [confidence: low]
 
 INTERPRETATION ERRORS:
-- "Fractional ownership of an Indian-listed share is a different problem, and it's a legal one, not a plumbing one" — While the legal barrier is real, the article frames the "plumbing" (custody/splitting mechanism) as entirely separate from the legal constraint. However, the legal constraint (Companies Act 2013) directly prevents the plumbing solution (broker-level fractionalization), making the distinction between "legal" and "plumbing" somewhat artificial. The legal issue is the root cause that blocks the plumbing workaround. [confidence: high]
+- "Fractional ownership of an Indian-listed share is a different problem, and it's a legal one, not a plumbing one" — While the legal barrier is correctly identified, the article conflates the *legal* issue (fractional shares not being recognized under the Companies Act) with the *operational* challenge of custody. The Xaults sandbox pilot (admitted in July 2025) is framed as addressing the legal issue by testing a depository-level custody model, but the article does not clarify that the legal amendment (Companies Act) is still pending. The claim implies the legal barrier is purely a "plumbing" issue solvable by custody models, which is an oversimplification. [confidence: high]
 
-- "The inclusion case for fractional investing is real, but it's currently asymmetric" — The article claims fractional investing has "solved" access to foreign high-priced stocks for Indian savers, but it does not address whether the LRS cap ($250,000/year) or TCS (20% above ₹10 lakh) create a meaningful barrier for small investors trying to build diversified portfolios. The claim assumes the mechanism is sufficient without verifying affordability or scalability for retail users. [confidence: medium]
+- "The inclusion case for fractional investing is real, but it's currently asymmetric" — The article correctly notes that fractional investing for US stocks is available while Indian stocks are not, but it does not address the *quantitative* impact of this asymmetry on financial inclusion. For example, it does not provide data on how many Indian retail investors actually use fractional US stock investing or the proportion of demat accounts that could benefit from domestic fractional shares. The claim is presented as a broad conclusion without supporting evidence or context. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

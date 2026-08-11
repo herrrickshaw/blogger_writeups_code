@@ -16,19 +16,19 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99165, Requested 3422. Please try again in 37m15.168s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99874, Requested 3422. Please try again in 47m27.744s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above." — The article does not cite any government, industry, or academic sources above, and the claim of "cited above" is unverifiable as no sources are provided in the text. [confidence: high]
+- "AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above." — The article does not cite any sources above the disclosure, making the claim unverifiable. [confidence: high]
 
-- "Avg ROE -20.9%." (for BeOne Medicines Ltd.) — A negative ROE of -20.9% is highly unusual for a company with a Piotroski score of 7 (indicating strong financial health), as Piotroski scores are designed to filter out firms with poor profitability metrics like negative ROE. This inconsistency suggests a data error or miscalculation. [confidence: high]
+- "Generated 2026-07-24 13:33 UTC" — The article header states "scan as of 2026-07-24 00:43," while the footer claims generation at "2026-07-24 13:33 UTC," creating a contradiction in timestamps. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Avg ROE flagged (near-zero/negative equity distorts this ratio)." (for Seagate Technology Holdings PLC) — While the article acknowledges the distortion caused by near-zero/negative equity, it still includes the Piotroski score of 7 (which relies heavily on ROE) and presents the stock as a high-conviction pick. This is contradictory because a Piotroski score of 7 should not be possible if ROE is severely distorted by negative equity. [confidence: high]
+- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — While the negative ROE is correctly stated, it is used to support a "Quality A/B" rating despite Piotroski F=7 (which typically requires positive earnings and improving financial health). The negative ROE contradicts the implied quality, creating a reasoning gap. [confidence: high]
 
-- "Multi-screen agreement → highest conviction sleeve." (repeated for all stocks) — The article claims that multi-screen agreement leads to the "highest conviction sleeve" for all listed stocks, but it does not provide any evidence or data to support the claim that multi-screen agreement correlates with higher returns or lower risk. This is an unsupported causal assertion. [confidence: high]
+- "Breakout quality A (80)" (Woodward, Inc.) — The article claims a "Darvas breakout" and "Breakout quality A (80)" while also noting the stock is priced at $414.37, which is far above typical Darvas breakout thresholds (often seen in lower-priced stocks). The high price may distort the breakout signal's validity, but this is not addressed. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

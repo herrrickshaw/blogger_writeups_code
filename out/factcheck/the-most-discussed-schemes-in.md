@@ -16,19 +16,19 @@ Source: `posts/the-most-discussed-schemes-in.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99270, Requested 4450. Please try again in 53m34.08s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99972, Requested 4450. Please try again in 1h3m40.608s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PM MITRA / textiles PLI | 2017-04-11" — The PM MITRA scheme was announced in October 2021, not April 2017. The PLI for textiles was announced in September 2021. [confidence: high]
+- "PM MITRA / textiles PLI | 2017-04-11" — The PM MITRA scheme was announced in October 2021, not April 2017. The date appears to be incorrect. [confidence: high]
 
-- "PM-KUSUM | 2018-03-15" — The PM-KUSUM scheme was launched in February 2019, not March 2018. [confidence: high]
+- "PLI — White Goods | 2021-04-07" — The PLI scheme for white goods was approved in April 2021, but the scheme's operational launch was later. However, the key issue is that the article claims zero questions for this scheme since 2021, but the scheme may have been questioned under broader "PLI Scheme" categories, making the zero count unverifiable without deeper analysis. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "UDAN is the outlier twice over: Parliament's most-questioned incentive scheme, and the one where the Rajya Sabha asks more than the Lok Sabha (288 vs 269)." — While the claim about UDAN being the most-questioned scheme is factual, the implication that this directly reflects active monitoring or scrutiny of the scheme's effectiveness is an overinterpretation. The number of questions does not necessarily correlate with the quality or depth of oversight, nor does it confirm whether Parliament is effectively monitoring progress. [confidence: medium]
+- "UDAN is the outlier twice over: Parliament's most-questioned incentive scheme, and the one where the Rajya Sabha asks more than the Lok Sabha (288 vs 269)." — While the claim about UDAN being the most-questioned scheme is factual, the implication that this directly reflects parliamentary monitoring intensity or effectiveness is an overgeneralization. The number of questions does not necessarily correlate with the scheme's importance, implementation challenges, or actual oversight quality. [confidence: high]
 
-- "Note the inversions further down: PM-KUSUM draws about five times more parliamentary attention than government publicity, while the Semiconductor Mission is the reverse." — The claim that PM-KUSUM receives more parliamentary attention relative to government publicity is not supported by the data presented. The article does not provide any measure of "government publicity" to compare against the parliamentary questions, making this an apples-to-oranges comparison. [confidence: high]
+- "Note the inversions further down: PM-KUSUM draws about five times more parliamentary attention than government publicity, while the Semiconductor Mission is the reverse." — The article compares parliamentary attention (questions) to government publicity (PIB announcements) without providing evidence or methodology for how "government publicity" is quantified. This apples-to-oranges comparison assumes that PIB announcements are a reliable proxy for publicity, which is not justified. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
