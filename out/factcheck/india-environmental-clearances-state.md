@@ -16,19 +16,19 @@ Source: `posts/india-environmental-clearances-state.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99769, Requested 1127. Please try again in 12m54.143999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99751, Requested 1273. Please try again in 14m44.736s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "113,970 proposals (2022–2026)" — The date range "2022–2026" is incorrect because the data was fetched on 22 Jul 2026, meaning the dataset cannot include proposals from 2026 (as it is only July). The correct range should be 2022–2025. [confidence: high]
+- "113,970 proposals (2022–2026)" — The claim implies these proposals span the entire 5-year period, but the source (PARIVESH 2.0 API) may only include proposals up to the fetch date (22 Jul 2026), which could exclude proposals filed in the latter half of 2026. The exact timeframe is unclear. [confidence: medium]
 
-- "only 10.7% of decided wildlife proposals are granted" — The source (PARIVESH 2.0) does not cover wildlife clearances; wildlife clearances fall under the Forest/Wildlife/CRZ registers, which are explicitly stated to be covered in a companion post. The claim conflates wildlife proposals with EC proposals, which are distinct. [confidence: high]
+- "88.7% grant rate of decided proposals" — The article does not define what constitutes a "decided proposal." Without clarity on whether "decided" includes auto-delisted or withdrawn cases, the metric is ambiguous and potentially misleading. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The EC register is the earliest public, machine-readable signal of where physical investment is headed — before IEM implementation, before commissioning." — While the EC register may indicate investment intentions, it does not necessarily reflect actual investment flows or outcomes, as many proposals may never materialize into commissioned projects. The claim assumes a direct link between EC proposals and realized investment without evidence. [confidence: medium]
+- "Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants." — The claim assumes that the absence of certain flagship projects in the EC register is inherently meaningful for investment trends, but it does not account for potential delays, alternative approval pathways, or projects not requiring ECs. The causal link between absence and investment direction is unsupported. [confidence: high]
 
-- "Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants." — The absence of a project in the EC register does not inherently indicate its absence from investment plans; it could simply mean the project has not yet reached the EC stage or is being pursued through alternative approval pathways not captured in the EC register. The claim overgeneralizes the significance of absences. [confidence: medium]
+- "Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted)." — While the grant rate is low, the article does not address whether the high rejection rate is due to stringent criteria, incomplete applications, or other systemic factors. The conclusion that wildlife clearances are the "true bottleneck" without comparing processing times or rejection reasons across other clearance types (e.g., Forest, CRZ) is an overgeneralization. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

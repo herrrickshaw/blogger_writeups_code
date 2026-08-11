@@ -9,28 +9,31 @@ Source: `posts/cpi-inflation-heatmap-india-june-2026.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "Combined-sector CPI, year-on-year inflation by state, June 2026" — June 2026 is a future date; actual CPI inflation data for this period does not exist. [confidence: high]
+- "CPI base year 2024" — The official base year for India's Consumer Price Index (Combined) published by MoSPI is 2012 (2012=100), not 2024. [confidence: high]
+- "13 of 28 states are tracked in this dataset" — MoSPI regularly compiles and releases state-level CPI index numbers for all 28 Indian states (along with Union Territories), not just 13. [confidence: high]
+
+INTERPRETATION ERRORS:
+none found
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "CPI base year 2024" — The base year for CPI in India is typically updated periodically, but without access to the most current information, it's unclear if 2024 is the correct base year. [confidence: medium]
-- "The All-India rate is 4.38%" — Without real-time access to the MoSPI dataset or the specific date of the data pull, it's challenging to verify if this rate is accurate as of June 2026. [confidence: low]
+- "CPI base year 2024" — The claim cannot be verified as the article does not provide information about the base year of the CPI data, and it is not clear if this is the actual base year used by MoSPI [confidence: medium]
+- "state boundaries: amCharts amcharts4-geodata (india2023Low)" — The claim implies that the state boundaries are based on 2023 data, but it is not clear if this is accurate or up-to-date [confidence: low]
 
 INTERPRETATION ERRORS:
-- "13 of 28 states are tracked in this dataset... the rest have no reading here, not necessarily low inflation" — This statement implies that the absence of data for some states might be misinterpreted as low inflation, but it does not directly support the conclusion about where India's inflation runs hottest, as it does not account for the potential inflation rates in untracked states. [confidence: medium]
-- "Ranked, hottest first" followed by inflation rates — The ranking of states by inflation rate assumes that the listed rates are comprehensive and comparable, which might not be the case if the dataset lacks representation from all states, potentially leading to an incomplete picture of where inflation is highest. [confidence: medium]
+- "13 of 28 states are tracked in this dataset... the rest have no reading here, not necessarily low inflation" — The article implies that the absence of data for certain states means that their inflation rates are not necessarily low, but it does not provide any evidence or reasoning to support this claim, and it is possible that the absence of data is due to other factors [confidence: medium]
+- "The All-India rate is 4.38%" — The article presents this figure without providing any context or comparison to other time periods or datasets, making it difficult to interpret its significance or relevance [confidence: low]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Combined-sector CPI, year-on-year inflation by state, June 2026" — The claim states June 2026, which is a future date and cannot be verified as it has not yet occurred. [confidence: high]
+- "Combined-sector CPI, year-on-year inflation by state, June 2026" — The claim references June 2026, which is a future date and cannot be verified as of the current date (2023). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "13 of 28 states are tracked in this dataset (see the earlier CPI/WPI trend chart); the rest have no reading here, not necessarily low inflation." — The claim implies that the absence of data for 15 states does not indicate low inflation, but it also does not rule out the possibility of missing data due to other reasons (e.g., methodological limitations). The interpretation lacks clarity on why the missing data does not suggest low inflation, creating a reasoning gap. [confidence: medium]
+- "13 of 28 states are tracked in this dataset (see the earlier CPI/WPI trend chart); the rest have no reading here, not necessarily low inflation." — The claim correctly notes that states without tracked readings do not necessarily have low inflation, but it implies that the dataset's lack of coverage is the only reason for missing data, which may not account for other potential reasons (e.g., methodological limitations or data suppression). This could mislead readers into assuming the dataset is comprehensive except for these states. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

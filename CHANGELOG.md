@@ -3077,3 +3077,9 @@ scheduled sync
 - `the-503020-rule-is-elizabeth-warrens` — 14,623 → 14,681 bytes (+58)
 - `thali-investing-whats-actually-on-plate` — 22,371 → 23,193 bytes (+822)
 - `the-rule-of-72-rule-of-114-and-how-to` — 18,356 → 18,563 bytes (+207)
+
+## 2026-08-11T15:22:18+05:30 — 127 posts live
+
+**Added**
+
+- `below-250-is-where-real-junk-lives` **v1.0.0** — Below ₹250 Is Where the Real Junk Lives: Splitting India's Cheapest Stocks Four Ways (12,594 bytes)

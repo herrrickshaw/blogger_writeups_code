@@ -9,26 +9,35 @@ Source: `posts/cpi-wpi-trends-mospi-bulletin.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "...base 2011-12 series and the current official base 2022-23 series" — The official base year for India's Wholesale Price Index (WPI) is 2011-12=100. There is no official, published 2022-23 base series for WPI. [confidence: high]
+- "WPI's April 2026 reading (167) is a ~3.9% one-month jump versus March's 160.8 — verify against an official MoSPI/RBI release before citing." — WPI data is compiled and released exclusively by the Office of the Economic Adviser (DPIIT), Ministry of Commerce & Industry. Neither MoSPI nor the RBI publishes official releases for WPI. [confidence: high]
+- "...since the base-year-2024 series has no 2024 comparison months to diff against." — The official CPI series published by MoSPI uses 2012 as its base year, not 2024. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Their levels are not splice-able — a rebasing resets the index to 100 on a new basket — but their inflation rates are directly comparable, which is the honest way to read across the break." — Year-on-year inflation rates derived from two different base series are not directly comparable. A base-year revision changes the commodity basket, item weightings, and methodology, making direct comparison across the break an apples-to-oranges comparison. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98381, Requested 2002. Please try again in 5m30.912s. Need more tokens? Upgrade to Dev Tier today at https]
+FACTUAL ERRORS:
+- "WPI is not a MoSPI product — the earlier attribution of it to MoSPI was wrong." — This claim may be correct, but without further information, it's unclear what the earlier attribution was or when it was made [confidence: medium]
+- "The sparkline itself still covers the full Jan 2025–Jun 2026 window; only the labeled % is limited to the last six months." — This claim may be incorrect if the sparkline does not actually cover the full window, but without visual confirmation, it's difficult to verify [confidence: low]
+
+INTERPRETATION ERRORS:
+- "CPI runs hottest in the south; WPI breaks a year of calm" — This claim implies a causal relationship between the CPI and WPI trends, but it's unclear if the trends are actually related or if they're just coincidental [confidence: medium]
+- "The long blue line is the 2011-12 series (April 2012 to April 2026), which is what makes a fourteen-year comparison possible at all." — This claim implies that the 2011-12 series is necessary for a fourteen-year comparison, but it's unclear if this is the only possible way to make such a comparison [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Combined Consumer Price Index across 13 states plus the All-India benchmark, and the national Wholesale Price Index, drawn from the MoSPI connector on 18 July 2026" — The article later corrects itself by stating that WPI is not a MoSPI product but is published by the Office of the Economic Adviser, DPIIT. The initial claim incorrectly attributes WPI to MoSPI. [confidence: high]
+- "Combined Consumer Price Index across 13 states plus the All-India benchmark, and the national Wholesale Price Index, drawn from the MoSPI connector on 18 July 2026." — The article later corrects itself by stating that WPI is not a MoSPI product, but the initial claim incorrectly attributes WPI to MoSPI without qualification. [confidence: high]
 
-- "WPI retrieved 5 Aug 2026 from the published monthly index files" — The article later clarifies that the WPI data for May and June 2026 was released by the Office of the Economic Adviser in August 2026, but the initial pull for the 16-month panel (Jan 2025–Apr 2026) was from the old 2011-12 base series, which is not directly comparable to the new 2022-23 base releases. The claim does not specify the base year or the incomparability issue. [confidence: high]
+- "Headline WPI inflation was 9.87% in June 2026 (index 110.2, base 2022-23), with Fuel & Power at 27.41%." — The article later notes that the June 2026 WPI data was released by the Office of the Economic Adviser on 14 July 2026, not 18 July 2026 as initially implied by the dataset retrieval date. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Panels share one index scale (100–110) and are ranked by latest year-on-year inflation, hottest first" — The article notes that the YoY inflation figure is only computable for January 2026 onward in the base-year-2024 CPI series, yet the panels still use a single index scale (100–110) and rank states by YoY inflation. This creates a misleading comparison because the YoY figures for pre-January 2026 months are not available or comparable, making the ranking and scale potentially inconsistent. [confidence: high]
+- "Panels share one index scale (100–110) and are ranked by latest year-on-year inflation, hottest first." — The article acknowledges that YoY inflation for CPI is only computable from January 2026 onward in the base-year-2024 series, yet the panels are still ranked by YoY inflation for the full Jan 2025–Jun 2026 window. This creates a misleading comparison, as the ranking for months prior to January 2026 is not based on actual YoY inflation data. [confidence: high]
 
-- "WPI's April 2026 reading (167) is a ~3.9% one-month jump versus March's 160.8 after four quarters near 154–158 — verify against an official MoSPI/RBI release before citing" — While the article flags this as a caveat, it presents the 3.9% one-month jump as a factual observation without sufficient context or explanation of why such a jump occurred or whether it is statistically significant. This could mislead readers into treating a provisional or anomalous figure as a definitive trend. [confidence: medium]
+- "WPI's April 2026 reading (167) is a ~3.9% one-month jump versus March's 160.8 after four quarters near 154–158 — verify against an official MoSPI/RBI release before citing." — While the article flags this as a potential issue, it presents the 3.9% one-month jump as a factual observation without clarifying that this is provisional and subject to revision. This could mislead readers into treating an unconfirmed figure as definitive. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

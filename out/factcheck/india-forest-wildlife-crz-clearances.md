@@ -16,19 +16,15 @@ Source: `posts/india-forest-wildlife-crz-clearances.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99759, Requested 1927. Please try again in 24m16.704s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99741, Requested 2143. Please try again in 27m7.775999999s. Need more tokens? Upgrade to Dev Tier today at]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — The claim is unverifiable as the source is not provided in the article, and the figure appears to be an extrapolation rather than a direct quote from the cited "Industrial Information & Land Bank" source. [confidence: medium]
-
-- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — The article assumes the name "MAHESH NAIR" is a data-entry error without providing evidence or a citation to support this claim. [confidence: medium]
+- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — This figure is unverifiable as the source is not provided in the article, and the claim lacks a clear citation to the "Industrial Information & Land Bank" dataset mentioned. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that the granted forest land diversion (122,666 acres) is directly comparable to the national industrial land bank (~253,720 acres) in terms of land availability or usage, but the two figures represent different types of land (forest vs. industrial) and are not directly comparable without additional context or normalization. [confidence: high]
-
-- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator)" — While the grant rate is low, the article conflates the "in process" status with a bottleneck without explaining whether these projects are delayed due to applicant inaction, regulatory backlog, or other factors. The claim assumes that all "in process" cases are bottlenecks, which may not account for varying reasons for delays. [confidence: high]
+- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — While the figure of 122,666 acres is correct, the claim that this represents a "different channel" and "on a different clock" is an overgeneralization. The article does not provide evidence that these diversions are systematically faster or slower than other land-use changes, nor does it establish that they operate on a distinct timeline compared to other processes. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

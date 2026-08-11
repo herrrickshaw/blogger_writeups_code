@@ -16,24 +16,25 @@ Source: `posts/from-fuel-to-fibre-indias-textile.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99885, Requested 5855. Please try again in 1h22m39.36s. Need more tokens? Upgrade to Dev Tier today at htt]
+FACTUAL ERRORS:
+- "Chapter 39 (plastics/polymers) and Chapter 29 (organic chemicals/monomers)" are stated to have a combined import deficit of $20.4 billion — [confidence: medium, as the article provides a source (TradeStat DGCI&S) but does not specify the exact time frame or methodology used to calculate this figure, which could be subject to variation or outdated information].
+- "E20 alone displaces roughly 10.8 billion litres of petrol a year" — [confidence: medium, as this claim is presented without a clear source or explanation of how this figure was calculated, which could lead to inaccuracies or outdated information].
+
+INTERPRETATION ERRORS:
+- The article claims that the $20.4 billion Chapter 39+29 deficit and the narrower $2–2.4 billion fibre-monomer opportunity are "not the same claim scaled differently" but rather measure "different scopes" — [confidence: high, as this comparison may conflate different aspects of the textile industry, potentially leading to misleading conclusions about the relative importance or addressability of these deficits].
+- The article suggests that freeing ~2 MMT/yr of MEG, acrylonitrile, caprolactam, and BDO from the petrol-displacement loop is worth an estimated $1.5 billion/year in import substitution — [confidence: medium, as this estimate may not fully account for various factors such as production costs, market demand, and competition, which could affect the actual impact of this substitution on the textile industry].
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PM MITRA parks give it somewhere to land" — The article later clarifies that PM MITRA parks were approved in October 2021, but the claim implies they were already operational or planned at the time of the broader narrative (e.g., ethanol blending, feedstock pathways), which is misleading. The parks' progress is only confirmed as of February 2026, and their role in absorbing feedstock is speculative. [confidence: high]
+- "Ethanol frees the petrochemical feedstock, PM MITRA parks give it somewhere to land, and 12 technical-textile segments show exactly which imports are worth chasing first." — This is not a factual error per se, but the claim that "12 technical-textile segments show exactly which imports are worth chasing first" is misleading because the article later clarifies that the segments are not uniformly prioritized and some (like Packtech) require no rescue. [confidence: medium]
 
-- "Chapter 54 (man-made filaments) flipped from a $255M surplus to a $337M deficit in a single year as MMF imports rose 29.3%" — The update (3 Aug 2026) cites this as a finding from FY2025-26 TradeStat data, but the article does not provide the original source or methodology for this specific calculation, making it unverifiable. [confidence: medium]
-
----
+- "E20 alone displaces roughly 10.8 billion litres of petrol a year; a prospective E30 would displace closer to 16 billion litres." — The source of these displacement figures is not cited, and they appear to be speculative projections rather than verified data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the $20.4bn Chapter 39+29 deficit and the narrower $2–2.4bn fibre-monomer opportunity are not the same claim scaled differently — they measure different scopes (all plastics/chemicals imports vs. the specific MEG/ACN/caprolactam/BDO/PP-PE-fibre-grade slice that feeds textile MMF)" — While the scopes are different, the article later conflates them by implying that addressing the $2–2.4bn fibre-monomer slice will meaningfully reduce the $20.4bn broader deficit. The $20.4bn includes non-textile petrochemicals (e.g., pharma intermediates, auto plastics), so solving the textile-specific feedstock issue does not directly translate to a proportional reduction in the total deficit. [confidence: high]
+- "the $20.4bn Chapter 39+29 deficit and the narrower $2–2.4bn fibre-monomer opportunity are not the same claim scaled differently — they measure different scopes (all plastics/chemicals imports vs. the specific MEG/ACN/caprolactam/BDO/PP-PE-fibre-grade slice that feeds textile MMF)." — While the scopes are different, the article later conflates the two by implying that addressing the $20.4bn deficit is directly tied to the $2–2.4bn fibre-monomer opportunity without clearly distinguishing between the broader petrochemical deficit and the textile-specific feedstock deficit. This creates confusion about which deficit is being addressed by ethanol blending and PM MITRA parks. [confidence: high]
 
-- "freeing ~2 MMT/yr of MEG, acrylonitrile, caprolactam and BDO from the petrol-displacement loop is worth an estimated $1.5bn/year in import substitution on the fibre-monomer slice alone" — The $1.5bn figure is derived from a model assuming full substitution of imports with domestic production, but the article does not account for potential offsetting factors such as:
-  1) Domestic production may not fully replace imports if quality or cost competitiveness lags.
-  2) Some freed feedstock may be exported or used in other industries, reducing the net import substitution.
-  3) The $1.5bn does not subtract the cost of ethanol blending or refinery retrofits, which could erode the net benefit. [confidence: high]
+- "Put together: freeing ~2 MMT/yr of MEG, acrylonitrile, caprolactam and BDO from the petrol-displacement loop is worth an estimated $1.5bn/year in import substitution on the fibre-monomer slice alone — separate from, and smaller than, the broader $20.4bn Chapter 39+29 number above, but the part of it most directly tied to the ethanol-blending programme specifically." — The $1.5bn estimate is derived from a narrow subset of feedstocks (MEG, acrylonitrile, caprolactam, BDO) and assumes perfect substitution, but it does not account for the fact that these feedstocks are also used in other industries (e.g., plastics, pharmaceuticals). The claim implies that all freed feedstock would directly substitute imports in the textile sector, which is an overstatement. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

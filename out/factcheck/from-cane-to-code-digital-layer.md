@@ -16,19 +16,25 @@ Source: `posts/from-cane-to-code-digital-layer.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99896, Requested 3049. Please try again in 42m24.48s. Need more tokens? Upgrade to Dev Tier today at https]
+FACTUAL ERRORS:
+- "The Ethanol Blended Petrol programme launched in 2003, mandating a 5% blend in selected states." — No information is provided to verify if the launch year or the mandated blend percentage is accurate [confidence: medium]
+- "E10 arrived nationwide in 2022, ahead of its own schedule; E20 arrived in ESY2025-26, five years ahead of the original 2030 target" — The article does not provide a source to confirm the original target year or the schedule for E10 [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "A single fixed target is a simple system to run. A multi-grade, multi-feedstock one is not." — This statement implies that the complexity of the system is the only factor affecting its manageability, ignoring potential factors like technological advancements, policy support, or economic incentives that could simplify the management of a multi-grade, multi-feedstock system [confidence: high]
+- "The system that delivered E20 was, in KPMG's framing, deliberately simple: a fixed blending mandate, administered pricing, and uniform nationwide distribution. That simplicity is precisely what has to change next." — The article assumes that the simplicity of the previous system is the primary reason for its success and that this simplicity must be abandoned for the next phase, without considering whether other factors, such as increased investment or improved technology, could allow the current system to adapt to new targets [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article references a document ("KPMG–ChiniMandi, 'Beyond E20' (June 2026)") and a Rajya Sabha question ("9 March 2026"), but the publication date of the article itself is stated as "8 August 2026," which is in the future relative to the cited sources. This is likely a typographical error, as publishing dates are typically not set in the future. [confidence: high]
+- "Published 8 August 2026" — The date is inconsistent with the article's content, which references events and data up to ESY2025-26 (ending March 2026) and a Rajya Sabha question from March 2026. A publication date in 2026 is also highly unlikely given the current year (2024). [confidence: high]
 
-- "20% Nationwide ethanol blending achieved in ESY2025-26 — five years ahead of the 2030 target" — The table shows ESY2025-26 as a partial year (November 2025–March 2026) with a blending rate of 20.0%, but the claim implies this is a full-year achievement. The partial-year data does not confirm a full-year 20% blending rate. [confidence: high]
+- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article cites this figure as reported to the Rajya Sabha in March 2026, but the exact claim is not verifiable in the provided text or standard sources. The figure appears to be a direct quote from an unspecified government source without independent verification. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article presents this as a verified efficiency gain, but it is sourced from vendor-reported figures (Findability Sciences) that are not independently audited. The claim implies a causal relationship between AI tuning and yield improvement, but without primary operational data or third-party verification, the magnitude and generalizability of this effect remain uncertain. [confidence: high]
+- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article presents this vendor-reported figure as a factual efficiency gain without clarifying that it is based on a single distillery's deployment (370 KLPD) and lacks independent auditing or broader industry validation. The claim implies a generalizable improvement, but the evidence is limited to a specific case. [confidence: high]
 
-- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The article treats this as a concrete outcome, but it is based on a small, unaudited pilot (the "Super 50 AI Farmers" in Jalna district). The claim extrapolates localized results to broader farm yield improvements without evidence of scalability or statistical significance. [confidence: high]
+- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The article treats this pilot result as representative of broader outcomes, but the claim is based on a small, unaudited pilot (the "Super 50 AI Farmers" in Jalna district) and does not account for variability in farm conditions, adoption rates, or scalability. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

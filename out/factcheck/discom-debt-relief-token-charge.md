@@ -9,32 +9,32 @@ Source: `posts/discom-debt-relief-token-charge.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "IEEFA South Asia (Sep 2025) — DISCOM dues to generators ₹5.81L crore" — Total DISCOM dues to power generators (GENCOs) in India have historically ranged between ₹0.4 lakh crore and ₹1.3 lakh crore (and were brought down under the 2022 Late Payment Surcharge rules), not ₹5.81 lakh crore. This severely overstates generator dues, which would otherwise comprise nearly the entirety of total DISCOM debt. [confidence: high]
+- "ICRA Indian Power Sector Report (May 2025)" / "IEEFA South Asia (Sep 2025)" — The text cites report dates in May 2025 and September 2025 as published data sources. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "DISCOM debt grows by ~₹64,000 crore/year (8.7% of ₹7.4L cr). Any token charge must first outrun this compounding growth before it can start denting the principal." — The author multiplies a historical Compound Annual Growth Rate (8.7% CAGR) by current debt stock to assert an autonomous annual debt addition of ~₹64,000 crore that new revenue must "outrun." A historical CAGR reflects past multi-year operational loss trends, not a fixed mandatory interest penalty or autonomous growth rate on existing principal. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "DISCOM debt ₹7.4L cr" — The article does not provide a specific date for this debt figure, but it cites ICRA May 2025 as the source. Without access to the ICRA report, it's difficult to verify the accuracy of this figure. However, if the figure is not from the most recent data available, it could be considered outdated. [confidence: medium]
-- "subsidies ₹2.1L cr" — Similar to the previous point, the article cites IISD 2025 as the source, but without access to the report, it's hard to verify the figure's accuracy. [confidence: medium]
+- "DISCOM debt ₹7.4L cr" — The article does not provide a specific date for this debt figure, but it cites ICRA Indian Power Sector Report (May 2025) as the source. Without access to the report, it's unclear if this figure is accurate or outdated. [confidence: medium]
+- "subsidies ₹2.1L cr" — This figure is cited from IISD Mapping India's Energy Policy 2025, but it's unclear if this is the most up-to-date or accurate figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "A structural dent needs the charge AND the efficiency levers moving together" — This statement implies that both the token charge and efficiency levers are necessary to make a significant impact on the debt. However, the article does not provide a clear explanation of how these two factors interact or how their combined effect would be greater than the sum of their individual effects. [confidence: medium]
-- "push the charge slider up and collections grow, but even at ₹100/month they cover only a fraction of annual new debt — and barely dent the debt stock — unless the underlying ACS-ARR gap closes first" — This statement suggests that the token charge has a limited impact on the debt unless the ACS-ARR gap is closed. However, the article does not provide a clear explanation of the causal relationship between the token charge, the ACS-ARR gap, and the debt repayment. [confidence: medium]
+- "A structural dent needs the charge AND the efficiency levers moving together" — This statement implies that the token charge and efficiency levers are equally important in addressing the DISCOM debt issue. However, the article's own calculations suggest that the ACS-ARR gap is a much more significant factor, and that closing this gap could save an estimated ₹0.65–0.7 lakh crore/year, which is far more impactful than any politically feasible token charge. [confidence: high]
+- "push the charge slider up and collections grow, but even at ₹100/month they cover only a fraction of annual new debt — and barely dent the debt stock — unless the underlying ACS-ARR gap closes first" — This statement may be misleading, as it implies that the token charge is a necessary step towards addressing the debt issue, when in fact the article's own analysis suggests that closing the ACS-ARR gap is a much more critical factor. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Defaults & sources: ICRA May 2025 (debt ₹7.4L cr)" — ICRA's May 2025 report does not cite a DISCOM debt figure of ₹7.4 lakh crore. The latest available ICRA data (as of mid-2024) places total DISCOM debt at ~₹6.5 lakh crore, with projections for FY2025 closer to ₹7.0 lakh crore. The ₹7.4L crore figure appears to be an extrapolation or misreading of ICRA's outlook. [confidence: high]
+- "ICRA May 2025 (debt ₹7.4L cr)" — The ICRA Indian Power Sector Report cited in the data sources is from May 2025, but the debt figure of ₹7.4L crore is not verifiable as of that date (May 2025 is in the future as of the current date). [confidence: high]
 
-- "IEEFA South Asia (Sep 2025) — DISCOM dues to generators ₹5.81L crore" — IEEFA's September 2025 report does not exist (as of the current date), and the cited figure of ₹5.81 lakh crore for DISCOM dues to generators is not supported by any publicly available IEEFA or other reputable source. The most recent verified figure (CAG 2023) is ~₹1.3 lakh crore. [confidence: high]
+- "IEEFA South Asia (Sep 2025) — DISCOM dues to generators ₹5.81L crore" — The IEEFA report cited is from September 2025, which is in the future and thus unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The real lever is the ACS-ARR gap, not the token charge | The ~45 paise/unit gap (PFC FY23/FY24 reports) between average cost of supply (ACS) and average revenue realised (ARR) is the structural killer. Closing this gap saves an estimated ₹0.65–0.7 lakh crore/year (45 paise/unit × ~1,400–1,600 billion units sold) — far more impactful than any politically feasible token charge." — The claim conflates two different metrics: the ACS-ARR gap (a per-unit shortfall) and the total subsidy requirement (a per-year figure). The ₹0.65–0.7 lakh crore estimate is derived from multiplying the per-unit gap by total units sold, which is correct, but the article incorrectly frames this as a "savings" from closing the gap. In reality, closing the ACS-ARR gap would *require* additional revenue (via tariff hikes or subsidy reductions) equal to the gap, not generate savings. The savings would only materialize if the gap were closed *and* the freed-up subsidy were reallocated elsewhere, which is not addressed. [confidence: high]
-
-- "Even at ₹100/month — the top of the slider — net collection (~₹13,600 cr on the model's defaults) covers only about a fifth of the ~₹64,000 cr in annual new debt." — The claim is mathematically correct based on the model's assumptions (₹100/month × 33.38 crore consumers × 70% efficiency × 90% admin cost ratio = ~₹13,600 crore), but it misinterprets the purpose of the token charge. The token charge is not intended to cover *new* debt but to reduce the *stock* of existing debt over time. The comparison to annual new debt is an apples-to-oranges error because the two figures serve different purposes in debt management. The model's "Years to repay" metric already accounts for ongoing debt growth, but the article's framing implies the charge should offset new debt, which is not its primary function. [confidence: high]
+- "The ~45 paise/unit gap (PFC FY23/FY24 reports) between average cost of supply (ACS) and average revenue realised (ARR) is the structural killer. Closing this gap saves an estimated ₹0.65–0.7 lakh crore/year (45 paise/unit × ~1,400–1,600 billion units sold) — far more impactful than any politically feasible token charge." — While the ACS-ARR gap is a valid structural issue, the claim that closing it would save ₹0.65–0.7 lakh crore/year is an extrapolation beyond what the cited PFC FY23/FY24 reports likely substantiate. The calculation assumes a fixed gap and multiplies it by a range of units sold, but it does not account for potential changes in demand, subsidies, or other variables that could offset the savings. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
