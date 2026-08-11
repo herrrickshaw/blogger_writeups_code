@@ -2975,3 +2975,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `why-bet-on-one-horse-when-you-can-buy` — 2026-08-11 &rarr; 2026-08-11
+
+## 2026-08-11T14:24:58+05:30 — 126 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.4 → 24.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 168,125 → 168,408 bytes (+283)
