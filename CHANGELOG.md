@@ -2697,3 +2697,9 @@ scheduled sync
 **Added**
 
 - `indias-lock-imports-hit-19784-million` **v1.0.0** — India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It. (17,559 bytes)
+
+## 2026-08-11T10:37:37+05:30 — 123 posts live
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-lock-imports-hit-19784-million` — 2026-08-11 &rarr; 2026-08-11
