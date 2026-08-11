@@ -2963,3 +2963,9 @@ scheduled sync
 **Changed**
 
 - `a-slice-of-apple-costs-about-1700-slice` — 42,386 → 43,455 bytes (+1,069)
+
+## 2026-08-11T14:23:42+05:30 — 126 posts live
+
+**Added**
+
+- `why-bet-on-one-horse-when-you-can-buy` **v1.0.0** — Why Bet on One Horse, When You Can Buy the Stable? (14,758 bytes)
