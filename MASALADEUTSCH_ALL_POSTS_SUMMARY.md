@@ -1,6 +1,6 @@
 # Masala Deutsch — All Posts, Summarised
 
-*121 published posts, 16 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*121 published posts, 18 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
 *Generated 11 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
@@ -219,7 +219,7 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (19)
+### Agriculture & Fertilisers (22)
 
 - **[UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.](https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html)** — 2026-08-09
   India is the world's largest milk producer, and the government's own December 2025 answer to the Rajya Sabha proves it with a state-by-state livestock count. What it doesn't mention: that count is the 20th Livestock Census, taken in 2019. The 21st Census was launched in October 2024 with a target completion date of 31 March 2025 — and on that very date, in a separate written Lok Sabha reply, the ministry itself confirmed the enumeration was still ongoing, and fell back on 2019 numbers to answer the question in front of it. Laid against the government's own current-year production data, the stale headcount and the fresh output numbers tell two different stories about which states actually run India's dairy sector.
@@ -227,8 +227,12 @@
   India runs a genuine refined-fuel surplus — US$53.0 billion of petroleum products out against US$9.3 billion in. But the biggest buyer is the Netherlands, not the neighbourhood, and Nepal and Bhutan are already supplied almost entirely by Indian public-sector refiners. On ethanol the premise reverses completely: India is a net importer.
 - **[India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html)** — 2026-08-08
   Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion. A Parliamentary Standing Committee report, tabled the same month, explains the mechanism in one line: 90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically. This is the fertiliser side of a story this blog has already priced from the gas side.
+- **[Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out](https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html)** — 2026-08-08
+  Blockchain-traceable chocolate has been promised since at least 2017. This piece checks four specific projects against what actually happened: a flagship logistics platform that shut down after five years, a completed EU-funded pilot whose own numbers are targets rather than results, an early confectioner-led effort that stalled on the hardest part of the problem, and the one thing that is not a pilot — a European law, twice delayed, now four months from taking effect.
 - **[City Gas Just Became India's Largest Gas Consumer](https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html)** — 2026-08-08
   For as long as PPAC’s sectoral series has run, fertiliser plants were India’s biggest burners of natural gas. In the first quarter of FY2026-27 that ended: city gas distribution — the CNG in vehicles and PNG piped into kitchens — consumed 4,964 million standard cubic metres against fertiliser’s 4,703, leading in May and June individually. The crossover happened inside a shrinking pool, on a gas supply that is now majority imported.
+- **[The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html)** — 2026-08-05
+  A cluster of Indian crop-science papers on protected tomato, capsicum and cucumber cultivation makes a consistent, well-documented case: covered structures beat open-field farming by a wide margin on yield and profitability. What none of them ask is the more interesting question — does that case get even better once you stop building new polyhouses from scratch and start retrofitting structures that already exist?
 - **[Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html)** — 2026-08-05
   The full WPI record, April 2012 to June 2026, pulled from the actual publisher. Along the way it turned out we had the publisher wrong, one fertiliser number wrong, and a caveat that was simply unnecessary.
 - **[India's Animal-Protein Export Complex: Buffalo Meat, the Tallow-Biodiesel Byproduct, and the Shrimp Boom](https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html)** — 2026-08-05
@@ -247,6 +251,8 @@
   Correlates the WPI sub-indices for diesel (HSD) and fertilisers (urea, DAP) — the domestic price points where this repo's own import-value growth for mineral fuels (HS27) and fertilisers (HS31) actually lands — against WPI and CPI headline and food inflation, 2012–2026. Cross-checked against five published studies on import-price pass-through in India.
 - **[Nature Versus Nurture: India's Fertiliser-Fed Food Security](https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html)** — 2026-08-02
   India's record grain targets are the "nature" story — sown area, monsoon, yield. The fertiliser supply chain that actually delivers them is the "nurture" — engineered, imported, gas-priced, and increasingly exposed to events thousands of kilometres from any Indian field.
+- **[FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT](https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html)** — 2026-07-31
+  India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025) while central-pool stock swings roughly 300–910 LMT with the crop cycle (it touched the ~907 LMT record cited below). The World's Largest Grain Storage Plan (2023, ₹1 lakh cr) now adds +700 LMT of cooperative (PACS) capacity to lift total agri-storage from 1,450 to 2,150 LMT. Each figure is PIB-sourced (below).
 - **[India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)](https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html)** — 2026-07-31
   Key insight: Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection.
 - **[FCI Grain Flow — Procurement · Storage · Disposal Dashboard](https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html)** — 2026-07-31
@@ -302,7 +308,7 @@
 - **[Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?](https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html)** — 2026-08-02
   In thermodynamics, an ideal gas is the simplified model; a real gas is what you actually get once intermolecular forces and finite volume intrude. India's emissions-reduction and CBAM-compliance story has the same split — a $20.7 billion exposure that is very real, and a trade-agreement response that, on the evidence so far, is still mostly ideal.
 
-### Energy & Fuels (27)
+### Energy & Fuels (29)
 
 - **[Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html)** — 2026-08-09
   A Japanese startup ran a rocket engine on liquefied cattle manure in 2023 — not a stunt, but 99%-pure methane that matched rocket-grade propellant. India spent early 2026 testing its own methane engines, from ISRO's national programme down to a private Gujarat startup that built one on biomethane specifically. The two threads haven't been tied together yet. This piece lays out why India's existing, underperforming biogas scheme is the raw material for exactly that.
@@ -332,6 +338,8 @@
   For as long as PPAC’s sectoral series has run, fertiliser plants were India’s biggest burners of natural gas. In the first quarter of FY2026-27 that ended: city gas distribution — the CNG in vehicles and PNG piped into kitchens — consumed 4,964 million standard cubic metres against fertiliser’s 4,703, leading in May and June individually. The crossover happened inside a shrinking pool, on a gas supply that is now majority imported.
 - **[From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html)** — 2026-08-06
   The case for moving Indian fleets off diesel is usually made on inflation: diesel drives prices, so switching fuel eases them. Fourteen years of official data do not show that link. The real case is different and stronger — a ₹40-per-litre gap between how the same fuel is sold to two sets of buyers, a stationary segment that is trivial to convert, and a fuel that is far harder to siphon out of a tanker.
+- **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
+  DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 - **[India's Ethanol Surplus Isn't Going to Brazil or the USA — the Price Gap, and the Pharma-Grade Alternative](https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html)** — 2026-08-05
   India's distilleries have real spare capacity: roughly 2,100 crore litres a year of fuel-registered capacity running at only ~57% utilisation. The obvious question is whether that surplus should be exported. The world's own price benchmarks say no — and the more interesting answer is a domestic one: pharma-grade ethanol.
 - **[Fuel Pricing to Crude Cost](https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html)** — 2026-08-05
@@ -358,13 +366,24 @@
   Every litre of ethanol swaps a high-tax petrol litre for a cheaper, lightly-taxed one — reshaping oil-marketer margins, the exchequer, and the export book. Here is the difference between where India sits today and a higher-blend, revenue-shared future.
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
+- **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
+  Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
+
+### Environment & Clearances (3)
+
+- **[India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html)** — 2026-07-22
+  The same open PARIVESH API that serves Environmental Clearances serves three more central clearances. Together they are the full green-clearance funnel a project passes through — and Forest Clearance carries something EC does not: the actual area of land, in hectares.
+- **[India Environmental Clearances — State × Sub-sector Dashboard](https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html)** — 2026-07-22
+  The EC register is the earliest public, machine-readable signal of where physical investment is headed — before IEM implementation, before commissioning. Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants.
+- **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
+  How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
 ### Ethanol & Biofuels (1)
 
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
   India hit 20% ethanol blending five years ahead of its own 2030 target, and immediately started planning the next phase — E22, E30, flex-fuel vehicles, E85 dispensing. That next phase is a harder operational problem than the last one, and it is being met with satellite crop models, AI-tuned distillation columns, and academic proposals for blockchain traceability. This piece maps what is actually deployed against what is still a research paper.
 
-### Gas & LNG (6)
+### Gas & LNG (7)
 
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
   The EU imported 146 bcm of LNG in 2025, overtaking China and Japan to become the world’s largest buyer. Nearly three-fifths of it came from the United States. That is not diversification — it is one dependency exchanged for another, on a market where Europe now buys a third of its volume at spot and a chokepoint 6,000 km away can move the price.
@@ -378,6 +397,8 @@
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 - **[CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html)** — 2026-07-22
   Part 1 of 3 in the CNG/CGD retail-mapping series. The map is ~2.7MB of district-level data and is served live from GitHub Pages — best viewed full-screen on desktop. Source data: PNGRB GA authorisation lists (bidding round and retrieval date not stated in the underlying build); repo: cng-cgd-retail-outlet-mapping.
+- **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
+  Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
 ### Import Substitution (10)
 
@@ -402,7 +423,7 @@
 - **[India's FY26–30 Chemical Independence Roadmap: the Top 15](https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html)** — 2026-08-01
   Independent analysis by masaladeutsch | Data: DCPC, Ministry of Chemicals and Fertilizers | August 2026
 
-### Industrial Policy (33)
+### Industrial Policy (36)
 
 - **[India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)** — 2026-08-11
   India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
@@ -440,6 +461,8 @@
   Gujarat, Uttar Pradesh, Tamil Nadu and a dozen other states are locked into an incentive arms race for the same pool of manufacturing investment — SGST reimbursements, capital subsidies, top-ups on central PLI schemes. The generosity is easy to compare. What states actually disburse, and to whom, is not — and the gap between the two numbers is the real story.
 - **[The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha](https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html)** — 2026-08-04
   Cross-referencing the PIB announcement register (4,158 scheme-mapped announcements as of this post's build; the sibling Quarterly Reportage post is a later 4,034-row rebuild — figures are vintage-different, not contradictory) with the Lok Sabha and Rajya Sabha question registries (2,242 and 1,825 questions since 2019), all classified by one scheme map — so the join is exact. Which schemes does Parliament actively monitor, and which have been announced but never questioned in detail?
+- **[Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026](https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html)** — 2026-08-04
+  4,034 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-04), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
 - **[Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html)** — 2026-08-04
   Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-04) — 1,825 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 139 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
 - **[Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html)** — 2026-08-04
@@ -452,6 +475,8 @@
   In thermodynamics, an ideal gas is the simplified model; a real gas is what you actually get once intermolecular forces and finite volume intrude. India's emissions-reduction and CBAM-compliance story has the same split — a $20.7 billion exposure that is very real, and a trade-agreement response that, on the evidence so far, is still mostly ideal.
 - **[DISCOM Debt Relief — Token Charge Calculator](https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html)** — 2026-08-02
   Data sources: ICRA Indian Power Sector Report (May 2025) — DISCOM debt ₹7.4L crore · IISD Mapping India's Energy Policy 2025 — subsidies ₹2.1L crore, FY24 · PRS India Demand for Grants 2024-25 (Power) — ACS-ARR gap, AT&C losses · Manorama Yearbook 2024 / CEA / PFC Annual Reports — debt growth 8.7% CAGR · IEEFA South Asia (Sep 2025) — DISCOM dues to generators ₹5.81L crore · CAG India Electricity Trends 2022-23 — 33.38 crore consumers.
+- **[IEM Conversion — A Historical Performance Review (2017–2025)](https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html)** — 2026-08-02
+  Every calendar year of DPIIT's Industrial Entrepreneurs Memoranda since 2017: how much investment intent got FILED (Part A) vs how much actually got BUILT (Part B) — the closest thing India's manufacturing-investment data has to a government report card.
 - **[FY2025-26 Sample Report — India Trade, Currency & Policy Snapshot](https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html)** — 2026-08-02
   A single consolidated reference for the fiscal year this whole repo has been tracking: merchandise trade, top chapters, country concentration, PLI scheme funding, currency and reserves — pulled from the datasets already collected for the bulletins above, cross-checked against independent sources, and standardised to one unit throughout.
 - **[Import-Dependent Sectors vs. Government Scheme Attention — India](https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html)** — 2026-08-02
@@ -460,6 +485,8 @@
   Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.
 - **[Where India's Forex Goes — Country Deficits & a Decade of Policy History](https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html)** — 2026-08-02
   Ranks India's FY2025-26 bilateral trade balance by partner country to find where its forex is actually being spent, then traces the policy history behind the five biggest deficit relationships back several years — not just the last six months — to see whether sustained attention has actually narrowed each gap.
+- **[Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html)** — 2026-08-02
+  DPIIT’s Industrial Entrepreneurs Memoranda (I(D&R) Act 1951): Part A (intent filed) vs Part B (implemented), broken down by state and by sector, plus the pending-demand backlog matched against industrial land supply.
 - **[Five-Year Synthesis: Trade, Currency & Policy, FY2021-22 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html)** — 2026-08-02
   A synthesis across every thread in this repo, re-cut to a single consistent window: FY2021-22 to FY2025-26. Pulls together the trade totals, the goods-vs-services balance, the rupee, GDP growth, forex reserves, and the PLI policy timeline that the rest of this report examined one bulletin at a time.
 - **[The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application](https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html)** — 2026-07-31
@@ -471,7 +498,14 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Markets & Finance (18)
+### Macroeconomics & Monetary Policy (2)
+
+- **[The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently](https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html)** — 2026-08-04
+  Every central bank runs monetary policy through the same two levers: the rate (what money costs) and the window (how much money gets through, and against what collateral). Commentary obsesses over the first and mostly ignores the second. That is exactly backwards for understanding India in 2025-26 — because in the current cycle, the Reserve Bank of India's quantity lever did more work than its rate lever. And the world's other big central banks now pull these two levers in almost opposite proportions to the RBI.
+- **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
+  Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
+
+### Markets & Finance (20)
 
 - **[A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)** — 2026-08-11
   Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
@@ -501,6 +535,8 @@
   The threat is not in the export data. India's services earnings just posted their biggest jump on record. It is in two leading indicators — and it is a balance-of-payments story, not an unemployment story.
 - **[Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html)** — 2026-08-04
   Ten BRICS members and partners supplied $321.8 billion of India's imports in FY2025-26 against total merchandise imports of $774.98 billion. India sold them $95.8 billion. The gap — $226.1 billion — is more than two-thirds of India's entire merchandise trade deficit of $333.19 billion.
+- **[Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has](https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html)** — 2026-08-03
+  On 28 November 2025 the Climate Bonds Standard Board approved post-issuance certification of REC Limited's EuroYen Green Bonds — the letter, signed by CBI chief Sean Kidney, sits in front of us. That one page is the end of a chain that starts with a ¥61.1 billion bond, runs through a verifier's audit of where every yen went — solar, wind, biogas, pumped storage, electric buses — and ends with access to a class of global investors that plain-vanilla debt never reaches. This piece uses the REC deal, the CBI standard, SBI's framework and India's own sovereign programme to map every avenue an Indian issuer has for raising sustainable debt globally, and what the green label is actually worth.
 - **[FY2025-26 Sample Report — India Trade, Currency & Policy Snapshot](https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html)** — 2026-08-02
   A single consolidated reference for the fiscal year this whole repo has been tracking: merchandise trade, top chapters, country concentration, PLI scheme funding, currency and reserves — pulled from the datasets already collected for the bulletins above, cross-checked against independent sources, and standardised to one unit throughout.
 - **[RBI Foreign Exchange Reserves — 2015–2026](https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html)** — 2026-08-02
@@ -509,6 +545,8 @@
   A follow-on to the currency segment: separating how much of the rupee's slide against the dollar is just India's higher inflation catching up, versus a genuine loss of real buying power — then asking whether India's currency defense looks anything like the "manipulation" China was scrutinized for.
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.
+- **[The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html)** — 2026-07-22
+  She stands where the bull charges — the retail saver, the issuer, the market itself — feet planted, asking the policymakers for eight changes. Not a plea. A stance.
 
 ### Mobility & EV (5)
 
@@ -555,7 +593,7 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (36)
+### Trade & Tariffs (37)
 
 - **[India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)** — 2026-08-11
   India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
@@ -575,6 +613,8 @@
   India already sells South Africa nearly two billion dollars of refined fuel a year, and lost a third of that market in FY2025-26 — before anything went wrong. Then the Strait of Hormuz closed, South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States. The real opening is not a cargo. It is that South Africa is currently rewriting the formula that prices every litre it imports.
 - **[India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html)** — 2026-08-08
   Fertiliser imports are set to surge 76% in a single fiscal year to a record $18 billion. A Parliamentary Standing Committee report, tabled the same month, explains the mechanism in one line: 90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically. This is the fertiliser side of a story this blog has already priced from the gas side.
+- **[Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out](https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html)** — 2026-08-08
+  Blockchain-traceable chocolate has been promised since at least 2017. This piece checks four specific projects against what actually happened: a flagship logistics platform that shut down after five years, a completed EU-funded pilot whose own numbers are targets rather than results, an early confectioner-led effort that stalled on the hardest part of the problem, and the one thing that is not a pilot — a European law, twice delayed, now four months from taking effect.
 - **[India's Medical-Device Trade Gap — and the Devices Worth Making Here](https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html)** — 2026-08-05
   A $6.2 billion deficit, growing at 22% a year, with exports flat — against a policy landscape (PLI, SMDI, four device parks) that has demonstrably moved the needle in imaging and implants but never touched the two largest gaps: lab instruments and IVD reagents. This piece sets the scenario; a companion piece maps it against what PLI actually covers.
 - **[PLI for Medical Devices: What's Covered, What Isn't — and Where to Apply Next](https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html)** — 2026-08-05
@@ -630,38 +670,8 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (16)
+### Unlabelled (1)
 
-- **[Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out](https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html)** — 2026-08-08
-  Blockchain-traceable chocolate has been promised since at least 2017. This piece checks four specific projects against what actually happened: a flagship logistics platform that shut down after five years, a completed EU-funded pilot whose own numbers are targets rather than results, an early confectioner-led effort that stalled on the hardest part of the problem, and the one thing that is not a pilot — a European law, twice delayed, now four months from taking effect.
-- **[India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)** — 2026-08-06
-  DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
-- **[The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html)** — 2026-08-05
-  A cluster of Indian crop-science papers on protected tomato, capsicum and cucumber cultivation makes a consistent, well-documented case: covered structures beat open-field farming by a wide margin on yield and profitability. What none of them ask is the more interesting question — does that case get even better once you stop building new polyhouses from scratch and start retrofitting structures that already exist?
-- **[The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently](https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html)** — 2026-08-04
-  Every central bank runs monetary policy through the same two levers: the rate (what money costs) and the window (how much money gets through, and against what collateral). Commentary obsesses over the first and mostly ignores the second. That is exactly backwards for understanding India in 2025-26 — because in the current cycle, the Reserve Bank of India's quantity lever did more work than its rate lever. And the world's other big central banks now pull these two levers in almost opposite proportions to the RBI.
-- **[Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026](https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html)** — 2026-08-04
-  4,034 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-04), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
-- **[Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has](https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html)** — 2026-08-03
-  On 28 November 2025 the Climate Bonds Standard Board approved post-issuance certification of REC Limited's EuroYen Green Bonds — the letter, signed by CBI chief Sean Kidney, sits in front of us. That one page is the end of a chain that starts with a ¥61.1 billion bond, runs through a verifier's audit of where every yen went — solar, wind, biogas, pumped storage, electric buses — and ends with access to a class of global investors that plain-vanilla debt never reaches. This piece uses the REC deal, the CBI standard, SBI's framework and India's own sovereign programme to map every avenue an Indian issuer has for raising sustainable debt globally, and what the green label is actually worth.
-- **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
-  Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
-- **[IEM Conversion — A Historical Performance Review (2017–2025)](https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html)** — 2026-08-02
-  Every calendar year of DPIIT's Industrial Entrepreneurs Memoranda since 2017: how much investment intent got FILED (Part A) vs how much actually got BUILT (Part B) — the closest thing India's manufacturing-investment data has to a government report card.
-- **[Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html)** — 2026-08-02
-  DPIIT’s Industrial Entrepreneurs Memoranda (I(D&R) Act 1951): Part A (intent filed) vs Part B (implemented), broken down by state and by sector, plus the pending-demand backlog matched against industrial land supply.
-- **[FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT](https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html)** — 2026-07-31
-  India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025) while central-pool stock swings roughly 300–910 LMT with the crop cycle (it touched the ~907 LMT record cited below). The World's Largest Grain Storage Plan (2023, ₹1 lakh cr) now adds +700 LMT of cooperative (PACS) capacity to lift total agri-storage from 1,450 to 2,150 LMT. Each figure is PIB-sourced (below).
-- **[The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html)** — 2026-07-22
-  She stands where the bull charges — the retail saver, the issuer, the market itself — feet planted, asking the policymakers for eight changes. Not a plea. A stance.
-- **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
-  Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
-- **[India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html)** — 2026-07-22
-  The same open PARIVESH API that serves Environmental Clearances serves three more central clearances. Together they are the full green-clearance funnel a project passes through — and Forest Clearance carries something EC does not: the actual area of land, in hectares.
-- **[India Environmental Clearances — State × Sub-sector Dashboard](https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html)** — 2026-07-22
-  The EC register is the earliest public, machine-readable signal of where physical investment is headed — before IEM implementation, before commissioning. Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants.
-- **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
-  How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
   AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written. It is a personal essay and carries no formal source citations beyond the one link below. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.
 
@@ -685,7 +695,7 @@ Every chart and dataset in this project, served directly via GitHub Pages. Compa
 Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
 ### [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html)
-*2026-07-22 · —*
+*2026-07-22 · Markets & Finance*
 
 She stands where the bull charges — the retail saver, the issuer, the market itself — feet planted, asking the policymakers for eight changes. Not a plea. A stance.
 
@@ -695,22 +705,22 @@ She stands where the bull charges — the retail saver, the issuer, the market i
 Part 1 of 3 in the CNG/CGD retail-mapping series. The map is ~2.7MB of district-level data and is served live from GitHub Pages — best viewed full-screen on desktop. Source data: PNGRB GA authorisation lists (bidding round and retrieval date not stated in the underlying build); repo: cng-cgd-retail-outlet-mapping.
 
 ### [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)
-*2026-07-22 · —*
+*2026-07-22 · Energy & Fuels, Gas & LNG*
 
 Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
 ### [India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html)
-*2026-07-22 · —*
+*2026-07-22 · Environment & Clearances*
 
 The same open PARIVESH API that serves Environmental Clearances serves three more central clearances. Together they are the full green-clearance funnel a project passes through — and Forest Clearance carries something EC does not: the actual area of land, in hectares.
 
 ### [India Environmental Clearances — State × Sub-sector Dashboard](https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html)
-*2026-07-22 · —*
+*2026-07-22 · Environment & Clearances*
 
 The EC register is the earliest public, machine-readable signal of where physical investment is headed — before IEM implementation, before commissioning. Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants.
 
 ### [India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)
-*2026-07-22 · —*
+*2026-07-22 · Environment & Clearances*
 
 How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
@@ -755,7 +765,7 @@ Import–export scenarios for the knitted/woven apparel chapters (HS 61–62) ve
 This dashboard covers the trade and duty picture for base oil and other Chapter 27 mineral-oil lines. The demand side of that picture — what happens to base oil once it becomes lubricant, gets used, and needs replacing — is covered separately in this blog's piece on India's used-oil EPR regime, including PPAC's own LOBS/Lube oil import-export numbers and the 2024-2030 recycling target ramp now in force.
 
 ### [FCI Storage Scenario — Capacity, Stock, and the Road to 2,150 LMT](https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html)
-*2026-07-31 · —*
+*2026-07-31 · Agriculture & Fertilisers*
 
 India's grain-storage system has grown slowly (851→918 LMT, FCI+State, 2018→2025) while central-pool stock swings roughly 300–910 LMT with the crop cycle (it touched the ~907 LMT record cited below). The World's Largest Grain Storage Plan (2023, ₹1 lakh cr) now adds +700 LMT of cooperative (PACS) capacity to lift total agri-storage from 1,450 to 2,150 LMT. Each figure is PIB-sourced (below).
 
@@ -835,7 +845,7 @@ Combined-sector CPI, year-on-year inflation by state, June 2026, shaded low to h
 Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 
 ### [Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)
-*2026-08-02 · —*
+*2026-08-02 · Macroeconomics & Monetary Policy*
 
 Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
 
@@ -865,7 +875,7 @@ Correlates the WPI sub-indices for diesel (HSD) and fertilisers (urea, DAP) — 
 Sales volumes, segment penetration, the auto-component supply chain, and the subsidy taper — read against a cost-per-km reality check
 
 ### [IEM Conversion — A Historical Performance Review (2017–2025)](https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html)
-*2026-08-02 · —*
+*2026-08-02 · Industrial Policy*
 
 Every calendar year of DPIIT's Industrial Entrepreneurs Memoranda since 2017: how much investment intent got FILED (Part A) vs how much actually got BUILT (Part B) — the closest thing India's manufacturing-investment data has to a government report card.
 
@@ -925,7 +935,7 @@ Ranks India's FY2025-26 bilateral trade balance by partner country to find where
 India's record grain targets are the "nature" story — sown area, monsoon, yield. The fertiliser supply chain that actually delivers them is the "nurture" — engineered, imported, gas-priced, and increasingly exposed to events thousands of kilometres from any Indian field.
 
 ### [Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html)
-*2026-08-02 · —*
+*2026-08-02 · Industrial Policy*
 
 DPIIT’s Industrial Entrepreneurs Memoranda (I(D&R) Act 1951): Part A (intent filed) vs Part B (implemented), broken down by state and by sector, plus the pending-demand backlog matched against industrial land supply.
 
@@ -950,7 +960,7 @@ Reference table for "From Fuel to Fibre" — every HSN code used in that article
 Ethanol frees the petrochemical feedstock, PM MITRA parks give it somewhere to land, and 12 technical-textile segments show exactly which imports are worth chasing first.
 
 ### [Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has](https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html)
-*2026-08-03 · —*
+*2026-08-03 · Markets & Finance*
 
 On 28 November 2025 the Climate Bonds Standard Board approved post-issuance certification of REC Limited's EuroYen Green Bonds — the letter, signed by CBI chief Sean Kidney, sits in front of us. That one page is the end of a chain that starts with a ¥61.1 billion bond, runs through a verifier's audit of where every yen went — solar, wind, biogas, pumped storage, electric buses — and ends with access to a class of global investors that plain-vanilla debt never reaches. This piece uses the REC deal, the CBI standard, SBI's framework and India's own sovereign programme to map every avenue an Indian issuer has for raising sustainable debt globally, and what the green label is actually worth.
 
@@ -970,7 +980,7 @@ Dhirubhai Ambani built one company backward from cloth to crude to escape India'
 The textbook is unambiguous: a weaker currency makes your exports cheaper abroad, so exports rise. India has just run that experiment at scale, and the result is awkward.
 
 ### [The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently](https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html)
-*2026-08-04 · —*
+*2026-08-04 · Macroeconomics & Monetary Policy*
 
 Every central bank runs monetary policy through the same two levers: the rate (what money costs) and the window (how much money gets through, and against what collateral). Commentary obsesses over the first and mostly ignores the second. That is exactly backwards for understanding India in 2025-26 — because in the current cycle, the Reserve Bank of India's quantity lever did more work than its rate lever. And the world's other big central banks now pull these two levers in almost opposite proportions to the RBI.
 
@@ -990,7 +1000,7 @@ The proposition is seductive. India buys enormous quantities of goods from other
 The Ethanol Blended Petrol Programme has already put ₹1.66 lakh crore directly into farmers' hands and cut CO₂ emissions by roughly 952 lakh tonnes. It has also built more distillation capacity than the E20 cap can absorb. Both facts are true at once, and the fix for the second one is not to slow down the first.
 
 ### [Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026](https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html)
-*2026-08-04 · —*
+*2026-08-04 · Industrial Policy*
 
 4,034 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-04), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
 
@@ -1020,7 +1030,7 @@ Ten BRICS members and partners supplied $321.8 billion of India's imports in FY2
 Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-04) — 2,242 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 116 starred (answered orally on the floor), the rest unstarred (written).
 
 ### [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html)
-*2026-08-05 · —*
+*2026-08-05 · Agriculture & Fertilisers*
 
 A cluster of Indian crop-science papers on protected tomato, capsicum and cucumber cultivation makes a consistent, well-documented case: covered structures beat open-field farming by a wide margin on yield and profitability. What none of them ask is the more interesting question — does that case get even better once you stop building new polyhouses from scratch and start retrofitting structures that already exist?
 
@@ -1115,7 +1125,7 @@ PM Surya Ghar has put 12 GW on Indian roofs in about two years, and the subsidy 
 Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
 
 ### [India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)
-*2026-08-06 · —*
+*2026-08-06 · Energy & Fuels*
 
 DGH's own ten-year table shows crude output falling every year but one since 2014-15. Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it.
 
@@ -1185,7 +1195,7 @@ India hit 20% ethanol blending five years ahead of its own 2030 target, and imme
 One MMBtu of gas and one-sixth of a barrel of crude carry the same heat. That equivalence — thermal parity — is the textbook anchor for oil-gas pricing, and academic literature has spent fifteen years documenting how far real markets have drifted from it. India’s own domestic gas price is a live experiment in the opposite direction: a formula that re-pegs gas to crude by government notification, every month, regardless of what the physical energy-equivalence math says it should cost.
 
 ### [Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out](https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html)
-*2026-08-08 · —*
+*2026-08-08 · Agriculture & Fertilisers, Trade & Tariffs*
 
 Blockchain-traceable chocolate has been promised since at least 2017. This piece checks four specific projects against what actually happened: a flagship logistics platform that shut down after five years, a completed EU-funded pilot whose own numbers are targets rather than results, an early confectioner-led effort that stalled on the hardest part of the problem, and the one thing that is not a pilot — a European law, twice delayed, now four months from taking effect.
 
