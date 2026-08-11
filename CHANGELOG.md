@@ -2893,3 +2893,9 @@ scheduled sync
 **Changed**
 
 - `a-slice-of-apple-costs-about-1700-slice` — 22,024 → 27,458 bytes (+5,434)
+
+## 2026-08-11T13:45:40+05:30 — 125 posts live
+
+**Added**
+
+- `tiffin-meets-thali-10-day-sip-already` **v1.0.0** — Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't. (13,832 bytes)
