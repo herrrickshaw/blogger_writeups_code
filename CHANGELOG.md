@@ -3141,3 +3141,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `do-cheap-stocks-stay-cheap-price-band` — 2026-08-11 &rarr; 2026-08-11
+
+## 2026-08-11T15:55:48+05:30 — 129 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.7 → 24.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 169,032 → 169,355 bytes (+323)
