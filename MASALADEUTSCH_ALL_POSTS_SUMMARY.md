@@ -1,6 +1,6 @@
 # Masala Deutsch — All Posts, Summarised
 
-*120 published posts, 16 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*121 published posts, 16 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
 *Generated 11 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
@@ -356,10 +356,8 @@
 - **[India's FY26–30 Chemical Independence Roadmap: the Top 15](https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html)** — 2026-08-01
   Independent analysis by masaladeutsch | Data: DCPC, Ministry of Chemicals and Fertilizers | August 2026
 
-### Industrial Policy (29)
+### Industrial Policy (28)
 
-- **[India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)** — 2026-08-11
-  India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
 - **[AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.](https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html)** — 2026-08-10
   The Animal Husbandry Infrastructure Development Fund is the government's main credit lever for private investment in dairy plants, meat processing, animal feed and veterinary-vaccine units — a 3%-subsidised, 90%-loan-to-cost scheme routed through SIDBI's Udyami Mitra portal. Its own live dashboard, checked on 10 August 2026, shows the fund has sanctioned ₹19,750.8 crore in term loans against 916 applications. It has actually disbursed ₹7,770.4 crore — 39% of what's been sanctioned, and just 358 applications. The gap between a scheme's headline sanction number and what's actually reached a builder's account is where most infrastructure-fund stories live, and AHIDF's own dashboard makes the gap unusually easy to see.
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
@@ -417,8 +415,10 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Markets & Finance (16)
+### Markets & Finance (17)
 
+- **[A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)** — 2026-08-11
+  Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
 - **[The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html)** — 2026-08-10
   The 50/30/20 budgeting rule — 50% needs, 30% wants, 20% savings — is one of the most-cited rules of thumb in personal finance, built to be simple enough to use without a spreadsheet. But the rule assumes savings gets whatever is left over after needs and wants are paid. A different, more aggressive school of budgeting inverts that order entirely: save first, and let needs and wants split whatever remains. This article covers both — where the standard 50/30/20 rule comes from, and what it actually means to flip it and save 50% before anything else.
 - **[The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html)** — 2026-08-10
@@ -489,10 +489,8 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (25)
+### Trade & Tariffs (24)
 
-- **[India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)** — 2026-08-11
-  India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
 - **[India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them](https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html)** — 2026-08-09
   India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly. Its free-trade network is a much newer and much smaller thing: a handful of agreements inherited from the SAARC and ASEAN era, plus a fast-moving cluster of "new generation" deals signed only in the last four years. The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach.
 - **[One Refinery Flipped Nigeria From Importer to Exporter. Africa's Import Bill Is Still Rising.](https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html)** — 2026-08-09
@@ -542,8 +540,10 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (41)
+### Unlabelled (42)
 
+- **[India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)** — 2026-08-11
+  India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
 - **[India's Used-Oil EPR Wants Half of All Lubricant Recycled by 2030. So Far, 119 Producers Have Actually Registered.](https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html)** — 2026-08-10
   Since 1 April 2024, any company that sells base oil or lubrication oil in India has had a legal recycling target — a Rule 27 obligation under the Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023, ramping from 5% this year to 50% by 2030-31. CPCB's own live portal shows the target for 2024-25 alone: 68,946 tonnes of used oil to be recycled, and 119 producers granted registration against 252 applications received. A BIS standard for the recycled product — Re-refined Base Oil (RRBO) — followed the rules by about ten months. What's still missing, according to the people actually running collection centres and shaping the standard, is the price floor that would make any of this pay for itself.
 - **[Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html)** — 2026-08-09
@@ -1227,6 +1227,11 @@ The Animal Husbandry Infrastructure Development Fund is the government's main cr
 An Indian thali works because no single dish is trying to do everything — the dal isn't meant to be sweet, the dessert isn't meant to fill you up, and a meal built from six small bowls survives a mediocre one better than a plate with just one big dish on it. Portfolio diversification runs on the same logic: PPF, EPF, mutual funds, direct stocks, gold and pre-IPO shares each behave differently when the same news hits the market, and holding several rather than one is what actually reduces risk — not because any single instrument is bad, but because they rarely move together. This article explains what each course on the plate actually is, what it has returned, and what regulators have specifically warned about with one of them. It is not a recommendation of how much of your money to put where — that depends on your own age, goals and risk appetite, and is worth a conversation with a SEBI-registered adviser, not a blog post.
 
 ### [India's Lock Imports Hit $197.84 Million. Dindigul's 150-Year-Old Cluster Isn't Who's Losing Sleep Over It.](https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html)
-*2026-08-11 · Industrial Policy, Trade & Tariffs*
+*2026-08-11 · —*
 
 India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
+
+### [A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)
+*2026-08-11 · Markets & Finance*
+
+Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
