@@ -61,13 +61,19 @@ TAXONOMY = {
     "Climate & Carbon":    ["carbon", "ccts", "cbam", "green hydrogen",
                             "green credit", "emission", "climate", "esg"],
     "Mobility & EV":       ["electric vehicle", " ev ", "vehicle", "mobility",
-                            "battery", "charging", "automobile"],
+                            "ev battery", "vehicle battery", "charging", "automobile"],
     "Trade & Tariffs":     ["export", "import", "tariff", "trade balance",
                             "trade deficit", "customs", "fta", "wto"],
     "Markets & Finance":   ["bond", "equity", "portfolio", "capital gains",
                             "yield", "securitis", "rupee", "currency", "fdi"],
-    "Industrial Policy":   ["pli", "scheme", "incentive", "subsidy", "policy",
-                            "cluster", "investment promotion", "sabha"],
+    # "pli" as a bare 3-letter fragment matched inside ordinary words --
+    # "split", "supplies", "multiply" -- and mislabelled unrelated posts
+    # (caught on the-503020-rule-is-elizabeth-warrens.html, via "wants
+    # split"). Space-bound / phrase-bound instead.
+    "Industrial Policy":   [" pli ", "pli scheme", "production linked incentive",
+                            "production-linked incentive", "scheme", "incentive",
+                            "subsidy", "policy", "cluster", "investment promotion",
+                            "sabha"],
 }
 
 
@@ -78,6 +84,9 @@ TAXONOMY = {
 OVERRIDE = {
     "about-author":                    [],
     "article-index-start-here":        [],
+    # utility page, not an article -- was missing from this list, so it was
+    # getting auto-scored against the topic taxonomy like a real post
+    "the-masala-deutsch-shop-books-things": [],
     "ai-high-demand-launch-tracker":   ["AI Tracker"],
     "cgd-geographical-areas-district": ["Gas & LNG", "Industrial Policy"],
     "cold-chain-fuel-outlet-integrated-map": ["Gas & LNG", "Agriculture & Fertilisers"],

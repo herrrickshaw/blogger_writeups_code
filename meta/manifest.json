@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T11:44:28+05:30",
+  "snapshot": "2026-08-11T12:10:04+05:30",
   "count": 124,
   "posts": {
     "1157999291079244419": {
@@ -8,8 +8,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:41:12.431+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:09.066+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Industrial Policy"
+      ],
       "bytes": 11835,
       "sha256": "b898e472bc5ed8e58b6a38115ce24ba3d52813a5488b8829be521d8e9f77187b",
       "markers": {
@@ -290,8 +293,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
       "slug": "indias-tyre-waste-problem-and-crumb",
       "published": "2026-08-05T14:30:35.000+05:30",
-      "updated": "2026-08-11T11:40:07.825+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:05.537+05:30",
+      "labels": [
+        "Trade & Tariffs"
+      ],
       "bytes": 12702,
       "sha256": "a7a27dccfce7ba134e6b8c032ace66436a09a6881122fa84bcdfa823cffab137",
       "markers": {
@@ -463,8 +468,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
       "slug": "pli-medical-devices-coverage-and-gaps",
       "published": "2026-08-05T05:27:53.000+05:30",
-      "updated": "2026-08-11T11:40:23.119+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:00.178+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 13562,
       "sha256": "cf462829e01196ccd9a68ee2fd7abf2adfaf6c8184b255f790a165d526fe4a07",
       "markers": {
@@ -543,8 +551,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
       "slug": "fourteen-years-of-indian-wholesale",
       "published": "2026-08-05T21:46:29.000+05:30",
-      "updated": "2026-08-10T14:28:43.731+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:35.513+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Energy & Fuels",
+        "Prices & Inflation"
+      ],
       "bytes": 20867,
       "sha256": "08d3173cb7c47e80cc42d79ccffdb5c2b30e2e9fa8ee905475ccb5c5678d81dd",
       "markers": {
@@ -757,8 +769,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-08-09T07:18:27.850+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:07.225+05:30",
+      "labels": [
+        "Markets & Finance"
+      ],
       "bytes": 18495,
       "sha256": "f251131a2e0804c92ffcedcdf2207dcd58aeb8249dd525ac077a68a1fb90aec9",
       "markers": {
@@ -880,12 +894,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-11T10:05:55.523+05:30",
-      "labels": [
-        "AI Tracker"
-      ],
-      "bytes": 18598,
-      "sha256": "b650e3d2116763e30030bcc6cc6b6174135d41005985f8dec13b732f4dbb0c25",
+      "updated": "2026-08-11T12:07:17.096+05:30",
+      "labels": [],
+      "bytes": 31960,
+      "sha256": "681fa4ebd2a4ded9beace89893e1aa0f2492e1cc007e8e94afee50bd2d4bc662",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -897,7 +909,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.2",
+      "version": "3.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -993,6 +1005,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.3",
+          "date": "2026-08-11T12:10:04+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            18598,
+            31960
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -1049,8 +1074,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
       "slug": "indias-animal-protein-export-complex",
       "published": "2026-08-05T14:53:50.000+05:30",
-      "updated": "2026-08-11T11:39:29.250+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:51.460+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
       "bytes": 10512,
       "sha256": "be1d2d2ca27a852acbdc4e8ca9706f8bc526b43c8f694703f433921ebe85a544",
       "markers": {
@@ -1376,8 +1405,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.000+05:30",
-      "updated": "2026-08-11T11:41:00.119+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:49.664+05:30",
+      "labels": [
+        "Markets & Finance"
+      ],
       "bytes": 115231,
       "sha256": "211cc82afade28143cee22abfabcde1c5c06776ea1a2f28a0f5e034485ee0d49",
       "markers": {
@@ -1465,8 +1496,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
       "slug": "the-rupee-fell-10-and-exports-grew-09",
       "published": "2026-08-04T06:34:23.000+05:30",
-      "updated": "2026-08-11T11:41:50.294+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:48.144+05:30",
+      "labels": [
+        "Markets & Finance",
+        "Trade & Tariffs"
+      ],
       "bytes": 30347,
       "sha256": "77aa1ad9f1d9e6b53e19d7e821baed6b41e9f740bfca7318e453f5d12e173676",
       "markers": {
@@ -1707,8 +1741,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
       "slug": "rare-earth-magnets-and-specialty-steel",
       "published": "2026-08-05T12:10:49.000+05:30",
-      "updated": "2026-08-11T11:40:54.137+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:27.243+05:30",
+      "labels": [
+        "Chemicals",
+        "Industrial Policy"
+      ],
       "bytes": 10126,
       "sha256": "e7f31b82cb94433812e098563f25f1d429bfe2067c861dcc60341066f7f93b56",
       "markers": {
@@ -1887,8 +1924,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
       "slug": "ethanol-blending-omc-books-e20-today-vs",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:38:19.927+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:09.605+05:30",
+      "labels": [
+        "Energy & Fuels"
+      ],
       "bytes": 35397,
       "sha256": "c17b687ffe2705abb8c24eee3b3aa529d78871c769ae4020ecdb0a623ffe1545",
       "markers": {
@@ -2126,8 +2165,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
       "slug": "if-india-paid-brics-in-rupees-scenario",
       "published": "2026-08-04T16:05:00.000+05:30",
-      "updated": "2026-08-11T11:38:46.373+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:11.980+05:30",
+      "labels": [
+        "Markets & Finance",
+        "Trade & Tariffs"
+      ],
       "bytes": 26672,
       "sha256": "e4ee36d79d12a87a0f63c0c21f06df3a5d1d6955662710f7a97add92e4368b85",
       "markers": {
@@ -2403,8 +2445,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
       "slug": "cow-dung-already-flew-rocket-engine",
       "published": "2026-08-09T04:20:09.000+05:30",
-      "updated": "2026-08-10T09:00:40.729+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:56.322+05:30",
+      "labels": [
+        "Energy & Fuels"
+      ],
       "bytes": 32436,
       "sha256": "27bf3c0e0508b82e8086914656bfe6b1d149c93b0fd99aa264d4700c4494faec",
       "markers": {
@@ -2474,8 +2518,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
       "slug": "lok-sabha-question-registry-1843-scheme",
       "published": "2026-08-04T16:00:00.000+05:30",
-      "updated": "2026-08-11T11:40:15.250+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:39.712+05:30",
+      "labels": [
+        "Import Substitution",
+        "Industrial Policy"
+      ],
       "bytes": 456432,
       "sha256": "074553ac92b1955899203b56d3ec92458a4cdef33fcc719c0359feb0976bbb06",
       "markers": {
@@ -2554,8 +2601,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-09T07:15:34.223+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:14.161+05:30",
+      "labels": [
+        "Chemicals",
+        "Import Substitution",
+        "Trade & Tariffs"
+      ],
       "bytes": 26817,
       "sha256": "4b282e67b254479fd117e39f4473896c5e7bdf7f6abc6936cd94f3bd34a3b6fa",
       "markers": {
@@ -2701,8 +2752,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
       "slug": "priority-trade-partners-by-import",
       "published": "2026-08-02T14:01:14.000+05:30",
-      "updated": "2026-08-09T10:35:49.612+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:08.611+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 36981,
       "sha256": "0041024d74df3a2420ab092ac06bc09959c9ba62f125082ff2480e82a6170bb9",
       "markers": {
@@ -2807,8 +2861,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
       "slug": "nature-versus-nurture-indias-fertiliser",
       "published": "2026-08-02T21:05:10.000+05:30",
-      "updated": "2026-08-10T14:28:06.116+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:49.597+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Gas & LNG"
+      ],
       "bytes": 72186,
       "sha256": "a7b5fff67a1603095e46f46eeb71f05fe1c4d38c582cf802a670889010dd6068",
       "markers": {
@@ -3008,8 +3065,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
       "slug": "indias-medical-device-trade-gap-and",
       "published": "2026-08-05T05:24:27.000+05:30",
-      "updated": "2026-08-11T11:39:39.616+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:31.100+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 18691,
       "sha256": "7a753d74beaec205a0c7247aefe9d43552db2e89a42b9daaa404b5b54e99125e",
       "markers": {
@@ -3164,8 +3224,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.000+05:30",
-      "updated": "2026-08-09T10:07:31.080+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:20.502+05:30",
+      "labels": [
+        "Prices & Inflation"
+      ],
       "bytes": 33757,
       "sha256": "656c0de5c8a04562274f89eeaf897dc16038de7c9344d2b46bf50bbbc4d98dcc",
       "markers": {
@@ -3405,8 +3467,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
       "slug": "indias-food-processing-story-pli-scheme",
       "published": "2026-08-08T21:33:25.000+05:30",
-      "updated": "2026-08-09T10:48:49.538+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:16.944+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 17359,
       "sha256": "836f313f15e69af529aa92332cf8be7cedf4ebf888cbbbca41c78a3eeaf7de65",
       "markers": {
@@ -3620,8 +3684,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
       "slug": "the-most-discussed-schemes-in",
       "published": "2026-08-04T15:50:00.000+05:30",
-      "updated": "2026-08-11T11:41:33.431+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:32.859+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 27442,
       "sha256": "45683c78cace91e9bfd77ed4b098ee01924d4b8571a2fb50cb923c22f3a31e26",
       "markers": {
@@ -3700,8 +3766,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
       "slug": "half-of-indias-import-bill-is",
       "published": "2026-08-03T17:03:34.000+05:30",
-      "updated": "2026-08-11T11:38:40.457+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:57.562+05:30",
+      "labels": [
+        "Import Substitution",
+        "Trade & Tariffs"
+      ],
       "bytes": 18626,
       "sha256": "57f653ad1139747ce4eef932c3d81bc57880246ace8c85cea3243556f57bbfe2",
       "markers": {
@@ -3849,8 +3918,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
       "slug": "indian-it-in-ai-era",
       "published": "2026-08-04T12:48:16.000+05:30",
-      "updated": "2026-08-11T11:39:22.313+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:43.978+05:30",
+      "labels": [
+        "Markets & Finance"
+      ],
       "bytes": 31643,
       "sha256": "04b04d5b56fd5fc51e8cdb604fb2499824d7f31ba547e7939f3ae462965efc00",
       "markers": {
@@ -3929,8 +4000,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
       "slug": "indias-petrochemical-import-tree-from",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:39:45.365+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:37.670+05:30",
+      "labels": [
+        "Chemicals",
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
       "bytes": 17583,
       "sha256": "721fd2eded4f740de782d113379c8085d16c715f12c2f05d57ea48267d4c508a",
       "markers": {
@@ -4058,8 +4133,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
       "slug": "rajya-sabha-question-registry-scheme",
       "published": "2026-08-04T15:55:00.000+05:30",
-      "updated": "2026-08-11T11:40:47.041+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:18.874+05:30",
+      "labels": [
+        "Import Substitution",
+        "Industrial Policy"
+      ],
       "bytes": 319818,
       "sha256": "4467ace3c64f39c96fc8925f5d46ecd2b67eb6eb88805fced654d9a455b494e6",
       "markers": {
@@ -4514,8 +4592,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-09T10:52:44.649+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:26.433+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 28030,
       "sha256": "7f569ba573933323153b2cd3fb47096f311b8caf695e83490e039b8f8c70ffcb",
       "markers": {
@@ -4663,8 +4743,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
       "slug": "the-ethanol-sectors-buyers-market",
       "published": "2026-08-05T12:13:26.000+05:30",
-      "updated": "2026-08-11T11:41:22.208+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:16.619+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 10382,
       "sha256": "070b734d72361d674a8f47bea8e74bafff3a98e2f2dad2345adc4e2576683f8c",
       "markers": {
@@ -4804,8 +4886,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-08-10T14:27:57.007+05:30",
-      "labels": [],
+      "updated": "2026-08-11T11:59:51.816+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Climate & Carbon"
+      ],
       "bytes": 38886,
       "sha256": "36ac735d9f7370c6d7375aebc3f384c0a0ce4fa902eea5d85531957982959edf",
       "markers": {
@@ -5132,8 +5217,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
       "slug": "indias-lock-imports-hit-19784-million",
       "published": "2026-08-11T10:03:48.000+05:30",
-      "updated": "2026-08-11T10:53:42.252+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:24.431+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 17485,
       "sha256": "ae72a111e0e9e14c7e9b30cec3e53e55c370aec47a720b9c1ed2b2d334a78d09",
       "markers": {
@@ -5177,8 +5265,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
       "slug": "india-trade-sector-policy",
       "published": "2026-07-21T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:39:17.366+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:36.248+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 12617,
       "sha256": "fa10027ca4f1d0355d3cd1120a0492fd74a40238d395e073471fbda0dc3e463b",
       "markers": {
@@ -5548,8 +5638,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
       "slug": "indias-textile-import-export-strategy",
       "published": "2026-07-27T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:40:01.982+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:56.624+05:30",
+      "labels": [
+        "Chemicals",
+        "Textiles",
+        "Trade & Tariffs"
+      ],
       "bytes": 36103,
       "sha256": "7205e480838e42e5a6285a3708284956a8654fc1b7ccbabd67ddf1718b60e17f",
       "markers": {
@@ -5655,8 +5749,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-09T07:15:44.123+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:40.634+05:30",
+      "labels": [
+        "Chemicals",
+        "Import Substitution",
+        "Trade & Tariffs"
+      ],
       "bytes": 47425,
       "sha256": "7c0289176ec47d215ae3b07c62d53065ddcd9be99155897d580024765681d4bf",
       "markers": {
@@ -5744,8 +5842,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-08-11T11:38:34.369+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:46.490+05:30",
+      "labels": [
+        "Energy & Fuels"
+      ],
       "bytes": 74024,
       "sha256": "7bca5f050b0a0f6d150b56c833799abfd66f3af67f364e6eda612c7aa0366a1b",
       "markers": {
@@ -6157,8 +6257,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.000+05:30",
-      "updated": "2026-08-09T10:54:07.563+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:28.065+05:30",
+      "labels": [
+        "Prices & Inflation"
+      ],
       "bytes": 46416,
       "sha256": "cfbcfaecb997dc5ef79c5decdae52a2a635ac893caa9d1913e865396f7d0fa21",
       "markers": {
@@ -6267,8 +6369,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
       "slug": "indias-used-oil-epr-wants-half-of-all",
       "published": "2026-08-10T11:46:04.000+05:30",
-      "updated": "2026-08-10T12:12:29.028+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:04:13.014+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
       "bytes": 20852,
       "sha256": "acb132f5cb8af04d1d9c1cad1e2db85a14eb931e1164e3c7b8ace386260a617b",
       "markers": {
@@ -6414,8 +6519,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
       "slug": "indias-ethanol-surplus-isnt-going-to",
       "published": "2026-08-05T16:50:47.000+05:30",
-      "updated": "2026-08-11T11:39:33.943+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:07.273+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
       "bytes": 14658,
       "sha256": "11ff8baca9a9fe87d7b522e71e4996c991c591f7357420a518307a2210687ecc",
       "markers": {
@@ -7022,8 +7130,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
       "slug": "where-indias-green-hydrogen-bets-are",
       "published": "2026-08-05T17:14:26.000+05:30",
-      "updated": "2026-08-11T11:42:06.992+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:07:19.365+05:30",
+      "labels": [
+        "Gas & LNG",
+        "Industrial Policy"
+      ],
       "bytes": 13281,
       "sha256": "af5c46210db8a741f2c90b5742959e4848d452f79941ab8e9a6f9b7d6de7acee",
       "markers": {
@@ -7102,8 +7213,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
       "slug": "cold-chain-fuel-outlet-integrated-map",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:38:14.731+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:49.719+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Gas & LNG"
+      ],
       "bytes": 6856,
       "sha256": "ba1fcff6a186a9271aea6a59dfe91d933bba7df64e25660cf35962d37e2e68a7",
       "markers": {
@@ -7290,8 +7404,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
       "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
       "published": "2026-08-02T09:54:34.000+05:30",
-      "updated": "2026-08-10T14:28:33.844+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:41.076+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 118790,
       "sha256": "a4aff349c4e0a0c76c07a88bac45b48610e5fbb6b68d7b0d02adddfcfbfe0f08",
       "markers": {
@@ -7452,8 +7568,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
       "slug": "the-grain-value-loop-integrated-rice",
       "published": "2026-07-31T10:00:00.000+05:30",
-      "updated": "2026-08-09T05:33:48.937+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:24.121+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
       "bytes": 71456,
       "sha256": "45bbdc9fbc03fee149cbc94b31532253ff6b0c52c79dcac749f5822bb087ebdf",
       "markers": {
@@ -7580,8 +7700,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.000+05:30",
-      "updated": "2026-08-09T07:15:52.833+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:33.722+05:30",
+      "labels": [
+        "Chemicals",
+        "Import Substitution"
+      ],
       "bytes": 15238,
       "sha256": "40807bc02a91e758e4d3a3815443e8a8d92f652702fb77f2c42ba8e2324d082d",
       "markers": {
@@ -7753,8 +7876,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
       "slug": "whos-actually-building-mri-and-ct",
       "published": "2026-08-05T12:30:13.000+05:30",
-      "updated": "2026-08-11T11:42:12.599+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:07:26.889+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 10099,
       "sha256": "c02a70b0eb1f402c476e281c639c0f0825d1a13b5d034d6701cf26e3bd717251",
       "markers": {
@@ -7833,8 +7958,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
       "slug": "vehicles-out-motors-in-indias-chapter",
       "published": "2026-08-05T12:06:45.000+05:30",
-      "updated": "2026-08-11T11:42:01.486+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:07:08.619+05:30",
+      "labels": [
+        "Industrial Policy"
+      ],
       "bytes": 10060,
       "sha256": "61bc5623cbbff8f9902529c6bd256b769ed9ae2fe44f3de4a4d8ba6a2f5b3b1c",
       "markers": {
@@ -7913,8 +8040,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-07-30T09:42:00.000+05:30",
-      "updated": "2026-08-10T12:13:41.872+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:27.123+05:30",
+      "labels": [
+        "Trade & Tariffs"
+      ],
       "bytes": 101692,
       "sha256": "7622138b8084aef43959803ffff9c449f6f64604166ed95115ddabd0c882dabd",
       "markers": {
@@ -8534,8 +8663,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
       "slug": "indias-state-incentive-war-gujarats",
       "published": "2026-08-05T17:18:03.000+05:30",
-      "updated": "2026-08-11T11:39:51.085+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:43.204+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Markets & Finance"
+      ],
       "bytes": 25550,
       "sha256": "0f717a4cfeab9af3d0e37334755ad95057e795c4a23b6921352a41efb22ff6ff",
       "markers": {
@@ -8614,8 +8746,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
       "slug": "europes-export-credit-agencies-are",
       "published": "2026-08-05T19:00:06.000+05:30",
-      "updated": "2026-08-11T11:38:27.000+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:01:18.824+05:30",
+      "labels": [
+        "Trade & Tariffs"
+      ],
       "bytes": 15968,
       "sha256": "fc9da48bf18ab592ad8d7f7d4f0dfd7e3c2906a0a8cfab652cd1d9174832c543",
       "markers": {
@@ -8906,8 +9040,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
       "slug": "hsn-wise-historical-importexport-trends",
       "published": "2026-08-02T14:04:15.000+05:30",
-      "updated": "2026-08-09T10:41:40.393+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:04.296+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Trade & Tariffs"
+      ],
       "bytes": 25897,
       "sha256": "dafa25ac8aed3de3877ead21fb53f9e2d10df27b3eb8ac1370134f1597d72893",
       "markers": {
@@ -9083,8 +9220,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
       "slug": "indias-epr-regime-just-got-teeth-and",
       "published": "2026-08-08T21:56:27.000+05:30",
-      "updated": "2026-08-10T11:47:32.399+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:02:59.625+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Mobility & EV"
+      ],
       "bytes": 15627,
       "sha256": "378142f14a39607affd4f53ca240bcc25a4db8686a9aaef8dc51072091d589b4",
       "markers": {
@@ -9190,8 +9330,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
       "slug": "cgd-geographical-areas-district",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:37:59.139+05:30",
-      "labels": [],
+      "updated": "2026-08-11T11:59:59.576+05:30",
+      "labels": [
+        "Gas & LNG",
+        "Industrial Policy"
+      ],
       "bytes": 6880,
       "sha256": "388590053dfd9be05ddcd9488f763fa147e4d823bf3fb2e546a28f1c984f2fcd",
       "markers": {
@@ -9284,8 +9427,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
       "slug": "south-africa-lost-its-gulf-fuel-supply",
       "published": "2026-08-08T12:55:40.000+05:30",
-      "updated": "2026-08-10T13:50:36.111+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:05:56.892+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
       "bytes": 20477,
       "sha256": "74d5a8db7664998d7fe856d9e8a11d53570e6d9ebfec346a7685a0452c6689b3",
       "markers": {
@@ -9802,8 +9948,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-08-11T11:38:07.296+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:00:25.108+05:30",
+      "labels": [
+        "Chemicals",
+        "Import Substitution",
+        "Trade & Tariffs"
+      ],
       "bytes": 378154,
       "sha256": "66a61d56848804a12b854323ba655f5c5dfa7ec570e379d566861de3e86695bb",
       "markers": {
@@ -10125,8 +10275,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
       "slug": "indias-subsidised-imports-fertilisers",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:39:55.974+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:03:48.971+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Chemicals",
+        "Trade & Tariffs"
+      ],
       "bytes": 28067,
       "sha256": "ffc53fb6c792f61cb65ade36bc2f8810abb9cc7c27647deded2125ec050f4da4",
       "markers": {
@@ -10386,8 +10540,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
       "slug": "the-price-of-grain-msp-msv-and",
       "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:41:44.561+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:06:39.758+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 29773,
       "sha256": "50b8f59f81555f3c442e80628c521cd6da31cdfdbc2eb9fa8db4f7943d0f78bf",
       "markers": {
@@ -10493,8 +10649,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
       "slug": "us-stock-picks-multi-screen-quant",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-11T11:41:55.953+05:30",
-      "labels": [],
+      "updated": "2026-08-11T12:07:02.038+05:30",
+      "labels": [
+        "Markets & Finance"
+      ],
       "bytes": 26917,
       "sha256": "5c73ce841370b647f2490758fefd7a70a007560656dfd3b0106545b64cb4fc96",
       "markers": {

@@ -2841,3 +2841,13 @@ scheduled sync
 - `india-fuel-retail-outlets-82k-geocoded` — 6,660 → 6,897 bytes (+237); markers index_link False→True
 - `india-trade-sector-policy` — 12,380 → 12,617 bytes (+237); markers index_link False→True
 - `tech-for-business-so-2019-tech-as` — 28,290 → 28,527 bytes (+237); markers index_link False→True
+
+## 2026-08-11T12:10:04+05:30 — 124 posts live
+
+**Versions**
+
+- `ai-high-demand-launch-tracker` **3.0.2 → 3.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ai-high-demand-launch-tracker` — 18,598 → 31,960 bytes (+13,362)
