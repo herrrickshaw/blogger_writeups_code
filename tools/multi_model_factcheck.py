@@ -54,18 +54,14 @@ CREDS = pathlib.Path(os.path.expanduser("~/.config/market-secrets/credentials.en
 # verifiable" produces noise, not findings (confirmed on about-author.html:
 # both models flagged ordinary résumé bullets as unverified claims).
 #
-# Plus two stale snapshot files: chemical-import-substitution-full-hsn-8
-# _0307512735 and _0459870800 share the exact Blogger post id
-# (6790374087242629357) with chemical-import-substitution-hsn-8-registry —
-# same live post, trimmed from a 384KB raw dump to 15KB since 2026-08-06, but
-# the old under-old-filename snapshots are still sitting in posts/. Checking
-# them re-analyzes content that's no longer live. _drafted-chemical-import-
-# substitution-full-hsn-8 has no meta/*.json at all — an unpublished local
-# draft, not a live post.
+# The two stale chemical-import-substitution-full-hsn-8 _0307512735 /
+# _0459870800 snapshot files (dead 404s, superseded by
+# chemical-import-substitution-hsn-8-registry since 2026-08-06) were removed
+# from posts/ and meta/ on 2026-08-11, so they no longer need a skip entry
+# here. _drafted-chemical-import-substitution-full-hsn-8 has no meta/*.json
+# at all — an unpublished local draft, not a live post — still skipped.
 SKIP_SLUGS = {
     "about-author", "article-index-start-here",
-    "chemical-import-substitution-full-hsn-8_0307512735",
-    "chemical-import-substitution-full-hsn-8_0459870800",
     "_drafted-chemical-import-substitution-full-hsn-8",
 }
 
