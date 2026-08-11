@@ -2713,3 +2713,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 165,267 → 166,568 bytes (+1,301)
+
+## 2026-08-11T10:54:00+05:30 — 123 posts live
+
+**Versions**
+
+- `indias-lock-imports-hit-19784-million` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-lock-imports-hit-19784-million` — 17,559 → 17,485 bytes (-74)

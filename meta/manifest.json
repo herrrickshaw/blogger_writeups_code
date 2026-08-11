@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T10:40:56+05:30",
+  "snapshot": "2026-08-11T10:54:00+05:30",
   "count": 123,
   "posts": {
     "1157999291079244419": {
@@ -4767,13 +4767,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
       "slug": "indias-lock-imports-hit-19784-million",
       "published": "2026-08-11T10:03:48.000+05:30",
-      "updated": "2026-08-11T10:06:51.662+05:30",
-      "labels": [
-        "Industrial Policy",
-        "Trade & Tariffs"
-      ],
-      "bytes": 17559,
-      "sha256": "138e1be64272e4f66ba1a0c5dea890be9a81178c738bc3de3bcc1f6adff566a0",
+      "updated": "2026-08-11T10:53:42.252+05:30",
+      "labels": [],
+      "bytes": 17485,
+      "sha256": "ae72a111e0e9e14c7e9b30cec3e53e55c370aec47a720b9c1ed2b2d334a78d09",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4785,13 +4782,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-11T10:04:26+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-11T10:54:00+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            17559,
+            17485
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
