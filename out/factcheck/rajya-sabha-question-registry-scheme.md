@@ -16,19 +16,21 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99085, Requested 943. Please try again in 24.191999999s. Need more tokens? Upgrade to Dev Tier today at ht]
+FACTUAL ERRORS:
+- "since 2019 (2019-01-02 → 2026-08-04)" — The start date of 2019-01-02 may be incorrect as the Rajya Sabha may not have been in session on this specific date, and the actual start date of the data collection is not verified [confidence: medium]
+- "1,825 at this build" — This number may not be verifiable or up-to-date, as the article does not provide a clear source or timestamp for this figure [confidence: low]
+
+INTERPRETATION ERRORS:
+- "this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate" — The article acknowledges the potential for miscounting, but does not provide a clear estimate of the error margin or explain how this approximation may impact the conclusions drawn from the data [confidence: medium]
+- "All three views are classified by one scheme-keyword map, so they filter identically" — The article assumes that the use of a single scheme-keyword map ensures identical filtering, but does not address potential issues with the map's comprehensiveness or accuracy [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2026-08-04" — The article claims the data was generated on this date, but the article itself is dated "4 August 2026," which is in the future relative to the current date (2023). This is likely a placeholder or error in the date format. [confidence: high]
-
-- "1,825 at this build" — The article states there are 1,825 captured Rajya Sabha questions, but this number is unverifiable without access to the linked dataset or primary source (sansad.in). The claim lacks a verifiable citation or confirmation. [confidence: medium]
+- "2026-08-04" — The date is in the future relative to the current date (2025), making it unverifiable or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the article correctly acknowledges the potential for AI to misstate figures, it does not address the broader issue of whether the AI's synthesis of the data (e.g., the classification of questions into schemes) is accurate or reliable. The claim implies a need for verification but does not interpret the data itself, leaving the reader without clarity on the AI's accuracy in classification or analysis. [confidence: high]
-
-- "Ministries answer as of their date; figures in older answers are superseded by newer ones." — This statement is presented as a known limit, but it is not clear how the article accounts for or corrects for superseded figures in its analysis. The claim does not explain whether the dataset includes only the most recent answers or if it aggregates historical data, which could lead to misinterpretation of trends or policies. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI-generated text is valid, the claim implies that the AI's output is inherently unreliable, which could mislead readers into dismissing the entire dataset without proper context. The statement does not acknowledge that the AI's role was likely limited to synthesis and that the underlying data (from official sources) is verifiable. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

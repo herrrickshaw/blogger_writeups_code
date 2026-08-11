@@ -16,19 +16,19 @@ Source: `posts/textile-hsn-deep-dive-apparel-vs-mmf.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98966, Requested 1808. Please try again in 11m8.736s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99841, Requested 1808. Please try again in 23m44.736s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Total textiles & apparel exports ≈ US$37 bn (FY2024-25, +6% YoY); India is the world's 6th-largest T&A exporter with ~3.9% global share." — The FY2024-25 export figure is likely incorrect or unverifiable. The article cites sources like AEPC Annual Report 2024-25 and DGCI&S, but the US$37 bn figure is not corroborated by official government or industry reports (e.g., AEPC typically reports lower figures for FY2024-25). The global share of ~3.9% is plausible but not directly tied to the US$37 bn claim. [confidence: medium]
+- "India is the world's 6th-largest T&A exporter with ~3.9% global share." — This claim is unverifiable as the article does not provide a source or context for the global ranking and share. The cited sources (AEPC Annual Report 2024-25, CITI T&A export statistics) do not appear to include this specific ranking or global comparison. [confidence: medium]
 
-- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026), projected US$309 bn by 2047." — The US$309 bn projection for 2047 is an extreme extrapolation with no clear methodology or source cited. The US$29 bn (FY24) and US$45 bn (2026) figures are also unverified against official projections (e.g., no government or reputable industry source supports a 2047 figure of this magnitude). [confidence: high]
+- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026) , projected US$309 bn by 2047." — The projection of US$309 bn by 2047 is highly speculative and lacks a credible source or methodology. The article cites "Technical-textile market $29bn FY24 → $309bn 2047" without attribution to a reputable forecasting body or study. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India imports very little finished apparel (high duties + domestic supply) — a large structural surplus in Ch 61/62." — While the claim about high duties and domestic supply limiting apparel imports is plausible, the article does not provide data on import volumes or values for Ch 61/62 to substantiate the "large structural surplus" claim. The trade balance for Ch 61/62 is not explicitly quantified in the article, making this conclusion unsupported. [confidence: high]
+- "Cotton textiles were ~33% of the Apr–Oct FY25 export basket vs man-made textiles ~15%." — This claim is presented as a direct comparison between cotton and man-made textiles in the apparel basket, but the article does not clarify whether these percentages are based on volume, value, or another metric. Additionally, the "fibre-level share" vs "garment-purchase share" distinction is not consistently applied, making it unclear if the comparison is apples-to-apples. [confidence: high]
 
-- "The MMF gap is visible inside the 6-digit codes. Nearly every heading forks into '…of cotton' (61xx2), '…of man-made fibres' (61xx3), '…of other'... India's exports concentrate in the cotton lines; the synthetic-fibre lines [...] are underweight against a world where MMF accounts for ~70% of fibre consumption (a fibre-level share, not a garment-purchase share — India's own basket skews the other way, see below)." — The article correctly notes that India's apparel exports are cotton-skewed, but it conflates fibre consumption (global ~70% MMF) with garment exports (where MMF share is lower). The claim implies a direct comparison between global fibre consumption and India's export basket, which is an apples-to-oranges comparison. The article does not clarify whether the ~70% MMF share refers to global fibre use in apparel or total fibre use (including non-apparel). [confidence: high]
+- "The binding constraint is specialty fibre + technology. India imports high-performance fibres and the machinery for depolymerization-grade and high-tenacity output." — While the claim about import dependence on specialty fibres is likely correct, the article conflates the need for fibres with the need for machinery, implying that importing machinery alone would solve the constraint. This is an overgeneralization, as technology adoption also depends on skills, infrastructure, and policy support, which are not addressed. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

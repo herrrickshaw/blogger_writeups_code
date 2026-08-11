@@ -16,11 +16,19 @@ Source: `posts/half-of-indias-import-bill-is.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99622, Requested 2750. Please try again in 34m9.408s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99547, Requested 2750. Please try again in 33m4.608s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "India's merchandise trade deficit hit −$334 billion in FY2025-26" — The article cites PIB/DGCI&S provisional data showing imports of $776bn and exports of $442bn, which would imply a deficit of −$334bn, but later in the text, it reconciles headline totals to PIB's FY2025-26 release showing imports of $774.98bn and exports of $441.78bn, implying a deficit of −$333.19bn. The initial claim of −$334bn is inconsistent with the later reconciliation to −$333.19bn. [confidence: high]
+
+- "Silver imports rose 2.5× to $12.1bn in a single year (from $4.8bn)" — The article does not specify the time frame for this comparison (e.g., FY2024-25 to FY2025-26), making the claim unverifiable without additional context. The lack of a clear time frame creates ambiguity about the actual growth rate. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "The realized depreciation [of the rupee] is essentially all real: a widening goods deficit whose marginal driver was bullion, and partly self-reinforcing — rupee weakness makes gold a better hedge, gold buying widens the deficit, the deficit weakens the rupee." — While the article correctly identifies a feedback loop between rupee depreciation and gold imports, it conflates correlation with causation. The claim implies that the marginal driver of the rupee's depreciation was bullion imports, but the article does not provide evidence that bullion imports were the primary driver of the depreciation rather than a secondary factor. The depreciation could be driven by other structural factors (e.g., trade deficit composition, capital flows) that are not addressed. [confidence: high]
+
+- "The P/E of 31–53 means the circular-economy tailwind is already priced in; the thesis being right and the stocks being buys are different claims." — The article correctly distinguishes between the validity of the circular-economy thesis and the investment case for the stocks, but it does not explain why high P/E ratios (31–53) necessarily imply that the tailwind is "already priced in." High P/E ratios could reflect growth expectations, not just the incorporation of known tailwinds. The claim assumes that the market has fully priced in the circular-economy opportunity, which may not be supported by the data. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

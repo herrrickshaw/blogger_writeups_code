@@ -16,19 +16,19 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99874, Requested 3422. Please try again in 47m27.744s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99620, Requested 3422. Please try again in 43m48.288s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above." — The article does not cite any sources above the disclosure, making the claim unverifiable. [confidence: high]
 
-- "Generated 2026-07-24 13:33 UTC" — The article header states "scan as of 2026-07-24 00:43," while the footer claims generation at "2026-07-24 13:33 UTC," creating a contradiction in timestamps. [confidence: high]
+- "Generated 2026-07-24 13:33 UTC" — The article header states "scan as of 2026-07-24 00:43," while the footer claims generation at "2026-07-24 13:33 UTC." These timestamps are inconsistent and likely incorrect as 2026 is a future year. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — While the negative ROE is correctly stated, it is used to support a "Quality A/B" rating despite Piotroski F=7 (which typically requires positive earnings and improving financial health). The negative ROE contradicts the implied quality, creating a reasoning gap. [confidence: high]
+- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — While the negative ROE is correctly stated, using it to support a "Quality A/B" rating is misleading because Piotroski scores (which are strong here) do not account for negative equity distorting ROE. The article flags this distortion but still assigns a high-quality grade, creating a contradiction in interpretation. [confidence: high]
 
-- "Breakout quality A (80)" (Woodward, Inc.) — The article claims a "Darvas breakout" and "Breakout quality A (80)" while also noting the stock is priced at $414.37, which is far above typical Darvas breakout thresholds (often seen in lower-priced stocks). The high price may distort the breakout signal's validity, but this is not addressed. [confidence: medium]
+- "Multi-screen agreement → highest conviction sleeve" (for all picks) — The article claims multi-screen agreement implies "highest conviction" for every pick, but the methodology section states that only the "CORE" sleeve represents multi-screen agreement. This conflates the sleeve designation with conviction, as other sleeves (MOMENTUM, WATCH, QUALITY) may also reflect agreement but are not labeled as "highest conviction." [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

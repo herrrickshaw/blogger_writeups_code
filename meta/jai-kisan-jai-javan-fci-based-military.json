@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-08-08T14:17:03.160+05:30",
+  "updated": "2026-08-11T21:44:45.225+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 13026,
-  "sha256": "a936ec0a7a794731e2c4eb0e8cbf5c06c51581bf3f55363ecc0169844a11774e",
+  "bytes": 13107,
+  "sha256": "e5ffeb7209f1a62b72988b6f16c839fc07dae9422c6837891956cf30b2473632",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -73,6 +73,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-11T21:45:23+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        13026,
+        13107
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

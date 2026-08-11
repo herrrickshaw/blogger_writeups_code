@@ -16,15 +16,15 @@ Source: `posts/if-india-paid-brics-in-rupees-scenario.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99592, Requested 4214. Please try again in 54m48.383999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99514, Requested 4214. Please try again in 53m40.992s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh — but it is included here because the trade relationship is what matters to the model." — Saudi Arabia was officially admitted as a BRICS member in January 2023 (effective January 1, 2024), so the claim that its membership status is "formally ambiguous" is incorrect. [confidence: high]
+- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh — but it is included here because the trade relationship is what matters to the model." — Saudi Arabia was officially admitted as a BRICS member in January 2024 (effective January 1, 2024), not just "invited in 2023." The claim that it was never unambiguously confirmed by Riyadh is outdated. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Local-currency settlement of a trade deficit is not de-dollarisation. It is vendor financing, and someone has to agree to extend it." — While the claim itself is factually correct, the interpretation that this invalidates the entire concept of de-dollarisation is an overgeneralization. The article conflates *full* de-dollarisation (which would require balanced trade or willing foreign holders of the currency) with *partial* de-dollarisation (which can still reduce dollar dependency even if some trade remains dollar-denominated). The conclusion that local-currency settlement of deficits is not de-dollarisation at all ignores that it can still reduce dollar demand for a portion of trade (e.g., the self-financing $93.4bn in Scenario S2). [confidence: high]
+- "Local-currency settlement of a trade deficit is not de-dollarisation. It is vendor financing, and someone has to agree to extend it." — While the claim itself is factually correct, the article uses this to argue that local-currency settlement does not reduce dollar demand, which is an overgeneralization. The reduction in dollar demand depends on the invoicing currency of the trade, not just the settlement currency. If trade is invoiced in dollars but settled in rupees, the dollar exposure remains until the rupees are converted back to dollars by the counterparty. The article conflates settlement currency with invoicing currency, leading to a false causal claim about the persistence of dollar demand. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

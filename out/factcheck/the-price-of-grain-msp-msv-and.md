@@ -16,19 +16,19 @@ Source: `posts/the-price-of-grain-msp-msv-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99953, Requested 4600. Please try again in 1h5m33.792s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99739, Requested 4600. Please try again in 1h2m28.895999999s. Need more tokens? Upgrade to Dev Tier today ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such clarification is provided in the text. The claim itself is unverifiable without the specific breakdown of costs or a source citation. [confidence: medium]
+- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification is missing, but the claim itself is an order-of-magnitude estimate (as noted in the article). However, the article does not provide a verifiable primary source for this specific figure, making it unverifiable as a precise claim. [confidence: medium]
 
-- "₹3,535 Paddy MSP in rice terms buys at KMS 2025-26 common paddy MSP ₹2,369/qtl ÷ 0.67 milling outturn." — The calculation (₹2,369 ÷ 0.67 ≈ ₹3,535) is mathematically correct, but the milling outturn of 0.67 is not sourced or explained. The claim implies a fixed conversion rate, which may not account for variations in milling efficiency or quality. [confidence: medium]
+- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure as a result of the sugarcane FRP model but does not provide a primary source or breakdown to verify this claim. The figure appears in the context of a broader claim about policy-induced arrears, but without a direct citation, it cannot be independently verified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The state buys at rung 2, carries to rung 1, and disposes at rungs 3–6 — the vertical gaps are the food subsidy." — The claim conflates the "buy rung" (MSP) with the "economic cost" (rung 1), which includes additional costs like storage and freight. The vertical gaps between these rungs represent the *total* food subsidy, but the article does not clearly distinguish between the MSP (a price guarantee) and the economic cost (a total cost to the state). The reasoning gap is that the "food subsidy" is not solely the difference between these rungs but also includes other costs like procurement incidentals and disposal losses. [confidence: high]
+- "The rice ladder, 2025-26 vintages. *Economic cost is order-of-magnitude (DFPD/FCI cost heads); every other rung is a notified rate." — The article presents the "rice ladder" as a series of prices with gaps representing subsidies and distortions. However, it does not clearly explain how these gaps translate into actual fiscal transfers or distortions in a way that is empirically measurable. The claim implies a direct causal link between the price gaps and subsidy amounts, but the article does not provide a methodology to quantify these transfers or their economic impact. [confidence: high]
 
-- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The claim suggests that the ethanol loop is a viable and existing channel for maize disposal, but it does not address the scalability or sustainability of this channel. The reasoning gap is that while the ethanol loop exists, it may not be sufficient to absorb the entire surplus maize production, especially given the export parity issues and the limited capacity of distilleries. The article does not provide evidence that this channel can handle the full volume of maize that would be procured under an MSV policy. [confidence: high]
+- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The article suggests that the ethanol blending mandate creates demand that absorbs maize at MSP, but it does not provide evidence that this demand is sufficient to justify the claim that it "already does" absorb the marketed surplus. The claim extrapolates from a single price point (₹2,291/qtl) to a broader market dynamic without demonstrating the scale or sustainability of this demand relative to production. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,21 +16,19 @@ Source: `posts/india-forest-wildlife-crz-clearances.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99542, Requested 1676. Please try again in 17m32.352s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99461, Requested 1676. Please try again in 16m22.367999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026)" — The figure is implausible as it suggests only ~253,720 acres (≈102,670 hectares) of developed-and-vacant industrial land across India, which is far below known estimates (e.g., NITI Aayog or state land banks typically report much larger figures). The source or methodology for this specific number is unverifiable and likely incorrect. [confidence: high]
+- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — The claim is unverifiable as the source (Industrial Information & Land Bank) is not provided, and the figure appears to be a direct quote without citation. [confidence: medium]
 
-- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — While the article correctly flags this as a likely data-entry artifact, it still lists it under "Top user agencies (FC)" with a count of 1,697 proposals, implying it is a legitimate agency. This is misleading because it treats a data-entry error as a real entity. [confidence: high]
-
----
+- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — The article assumes the name "MAHESH NAIR" is a data-entry error without providing evidence or a primary source to confirm this claim. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that forest diversion land is *additional* to the industrial land bank, but it does not account for overlaps or dependencies (e.g., diverted forest land may later be developed into industrial land). The comparison treats the two figures as mutually exclusive or additive, which they are not. [confidence: medium]
+- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that all forest diversions are for mining, linear infrastructure, or hydro projects, but the data does not specify the project types. The interpretation extrapolates beyond what the data shows. [confidence: high]
 
-- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator)" — While the bottleneck claim is plausible, the article conflates *process status* ("Pending at Proponent") with *regulatory bottleneck*. The fact that projects are pending with applicants does not necessarily mean the Wildlife clearance process itself is the bottleneck; it could reflect applicant delays or other systemic issues unrelated to the Wildlife Board's capacity or decisions. [confidence: medium]
+- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator) — projects near protected areas stall here for the National/State Board for Wildlife recommendation." — While the grant rate is low, the article conflates the "in process" status with a bottleneck caused by project applicants ("Pending at Proponent"). The data does not explain why applications are pending, and the interpretation assumes a causal link without evidence. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

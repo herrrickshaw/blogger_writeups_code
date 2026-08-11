@@ -16,19 +16,19 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99234, Requested 6084. Please try again in 1h16m34.751999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99224, Requested 6084. Please try again in 1h16m26.112s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is not verifiably supported by the data presented in Exhibit 2, which only includes a subset of G20 economies (and excludes some large ones like Russia and Türkiye). The article itself acknowledges this limitation in the source notes. [confidence: high]
+- "Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — Brazil's producer inflation in 2021 was +31.6%, but the claim that it was the "earliest" peak is incorrect because the US PPI peaked in 2021 as well (17.0%), and the euro area PPI peaked in 2022 (26.0%). The article later acknowledges Brazil's unique cycle but incorrectly states its 2021 peak as the earliest. [confidence: high]
 
-- "Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — The claim that Brazil's 2021 producer inflation was the "earliest" peak is incorrect, as Exhibit 1 shows the US PPI peaked in 2021 as well (17.0% vs. Brazil's 31.6%). The "highest" part is correct, but the "earliest" is not. [confidence: high]
+- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this correction but does not provide the original source or methodology for the 25.2% figure, making it unverifiable. The World Bank data cited later shows a 27.4% cumulative rise, but the prior figure lacks transparency. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim about the timing and magnitude is factually correct, it does not logically disprove a domestic policy failure explanation. The article conflates correlation (similar timing/magnitude across economies) with causation, ignoring that domestic policies (e.g., fuel taxes, subsidies) could have influenced India's spike even if it aligned with global trends. The reasoning gap is that the claim assumes a false dichotomy: either the spike was purely global or purely domestic, without considering interactive effects. [confidence: medium]
+- "India’s consumer inflation has quietly become one of the lowest in the G20" — While the data shows India's 2025 consumer inflation at 2.8%, which is low relative to many G20 economies, the claim implies a causal or structural shift without addressing potential temporary factors (e.g., food price stabilization, base effects) or comparing to India's own historical trends. The conclusion oversimplifies the drivers of low inflation. [confidence: high]
 
-- "The current divergence is the unusual part. India’s wholesale inflation has run near zero for three years — −0.8%, +1.2%, +0.9% — while consumer inflation fell steadily from 5.6% to 2.8%." — The claim that this divergence is "unusual" is not supported by the data provided. The article does not compare this divergence to historical patterns or other economies' experiences in Exhibit 1 or 2. Without such context, the interpretation that this is unusual is speculative. The reasoning gap is the lack of comparative evidence to justify the claim of unusualness. [confidence: medium]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the spike was not unique to India, the article does not adequately address whether domestic policies (e.g., fuel taxes, supply-side constraints) amplified or mitigated the global commodity shock. The claim assumes that synchrony implies irrelevance of domestic factors, ignoring potential interaction effects. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

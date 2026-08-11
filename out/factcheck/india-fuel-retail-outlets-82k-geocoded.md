@@ -16,15 +16,15 @@ Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99532, Requested 631. Please try again in 2m20.832s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99452, Requested 631. Please try again in 1m11.712s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "82,000 outlets" — The article itself notes that the count basis and as-of date are not stated, making the figure unverifiable. Without a clear source or timestamp, the number cannot be confirmed as accurate. [confidence: high]
+- "82,000 outlets" — The article itself notes that the count is approximate and lacks a stated source, date, or basis for the figure, making it unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of individual citations, it does not address the potential for double-counting or inconsistencies in the data sources. The absence of clear sourcing for the outlet register could lead to misinterpretation of the data's reliability or scope. [confidence: medium]
+- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges missing citations, it does not address the potential for double-counting or inconsistencies in the outlet register data, which could lead to an overestimation of unique retail outlets. The lack of clarity on how duplicates or overlapping entries (e.g., shared CNG supply linkages) are handled introduces a reasoning gap in interpreting the 82,000 figure. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/the-grain-value-loop-integrated-rice.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99991, Requested 10307. Please try again in 2h28m17.472s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99790, Requested 10570. Please try again in 2h29m11.04s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India imports what it grows — and gifts the feedstock" — The claim is misleading because India does not import rice or wheat (it is a net exporter of both), though it does import derivatives like edible oil, gluten, and starch. The phrasing incorrectly suggests India imports the raw grains it procures. [confidence: high]
+- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — This claim is outdated. The latest official data (DA&FW 2023-24) shows rice procurement at ~520 LMT but wheat procurement at ~300 LMT is incorrect; wheat procurement was ~260 LMT in 2023-24. [confidence: high]
 
-- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The article itself acknowledges this discrepancy, implying the ₹7,650 cr figure is inconsistent with the full husk+bran tonnage. This is a self-contradictory claim. [confidence: high]
+- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The article itself contradicts this claim by stating the ₹7,650 cr figure is derived from the ~40 LMT CMR-bran base, not the full husk+bran tonnage. The claim that the figure "matches only" the CMR-bran base is accurate, but the phrasing implies the ₹7,650 cr is incorrect or misleading, which it is not. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year, then hands the milling byproducts to private millers for free and imports the finished derivative." — While the government does procure rice and wheat, the claim that it "imports the finished derivative" is not directly supported by the cited sources (DFPD, DGCI&S, MoFPI). The article conflates general import trends with the specific derivatives derived from the procured grain, without clear evidence that the imported derivatives are directly tied to the byproducts of the procured grain. [confidence: medium]
+- "The same pattern repeats for gluten, starch, protein, and nutraceuticals across every crop the state procures." — This claim implies a uniform pattern of import substitution potential across all crops, but the article does not provide evidence or data to support this broad generalization. The import substitution potential varies significantly by crop and derivative, and the claim extrapolates beyond the specific examples provided (e.g., rice bran oil, pulses). [confidence: medium]
 
-- "Value density rises ~1,000× from grain to derivative" — The article presents this as a factual multiplier without citing a verifiable source or methodology. The claim is an extrapolation that may not hold across all derivatives or market conditions, and the 1,000× figure appears to be an unsupported estimate. [confidence: high]
+- "The ethanol mandate has saved ₹1,97,000 cr in forex since ESY2014-15 — built mostly on sugarcane, with surplus/broken grain a smaller but fast-growing share of the feedstock mix in recent years." — While the ethanol mandate has saved forex, the claim that the savings are "built mostly on sugarcane" is not supported by the data in the article. The article cites ethanol blending progress but does not provide a breakdown of feedstock sources or their contribution to forex savings. The savings attribution is an overgeneralization. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

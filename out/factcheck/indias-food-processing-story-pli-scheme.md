@@ -16,19 +16,19 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 2650. Please try again in 28m37.631999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99320, Requested 2650. Please try again in 28m22.08s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article references data and allocations from the Union Budget 2026-27, which would not have been finalized or published by August 2026 (India's budget is typically presented in late February/early March). This date is likely incorrect or premature. [confidence: high]
+- "Published 8 August 2026" — The article claims a publication date of 8 August 2026, but this is impossible as the current date is before that (as of the knowledge cutoff in April 2024). The date is likely a placeholder or error. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely reported but acknowledges it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without verifiable sourcing, this claim cannot be confirmed as accurate. [confidence: medium]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but admits it could not trace it to a single primary NABARD or MoFPI study with a stated methodology. Without verifiable sourcing, this claim cannot be confirmed as accurate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26, and export sales from the scheme's beneficiaries have grown at a 13.23% compound annual rate since 2019-20." — While the sales figures may be correct, the article implies a direct causal link between the PLI scheme and this growth without controlling for other factors (e.g., general sector trends, inflation, or external demand shifts). The growth could be driven by broader industry dynamics rather than the PLI scheme alone. [confidence: high]
+- "India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline." — The article claims the PLISFPI scheme created 3.39 lakh jobs against a 2.5 lakh target by 2026, but it does not establish whether the 2.5 lakh target was for 2026-27 or an earlier year. The comparison may be apples-to-oranges if the target was set for a different timeframe. [confidence: medium]
 
-- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — The article correctly notes the shift in export composition but does not address whether this is *solely* due to increased processing capacity or if other factors (e.g., global demand trends, trade policies, or currency fluctuations) played a role. The conclusion oversimplifies the drivers of this structural change. [confidence: high]
+- "The Union Budget 2026-27 allocated ₹4,064 crore to the Ministry of Food Processing Industries in total — ₹1,200 crore to PLISFPI, ₹1,700 crore to PMFME, and ₹915 crore to PMKSY, the scheme that funds cold-chain and processing infrastructure directly." — The article implies that the ₹915 crore allocation to PMKSY is insufficient to address the ₹92,651 crore annual loss from cold-chain gaps. However, it does not account for the fact that PMKSY funds infrastructure projects (e.g., cold-chain projects) that may address the capacity gap over multiple years, not just a single year. The comparison conflates annual loss with one-time or multi-year infrastructure investments. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

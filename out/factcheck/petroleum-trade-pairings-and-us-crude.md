@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99827, Requested 8093. Please try again in 1h54m2.88s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99127, Requested 8093. Please try again in 1h43m58.08s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable or incorrect. [confidence: high]
+- "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in effect, making the claim unverifiable or incorrect. [confidence: high]
+- "UAE 2024 and 2025 are genuinely absent, so UAE figures here are 2023 and are not comparable year-on-year with Saudi or US 2025 numbers." — The UAE data for 2024 is actually present in the article (e.g., "UAE 2023" tables include 2023 data, but the text claims UAE 2024 is absent). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer and a net importer of crude, the claim that this is due to a "grade mismatch" is not directly supported by the trade data presented. The data shows trade flows and values but does not explicitly demonstrate that the grade mismatch is the sole or primary driver of the US's net crude import position. [confidence: medium]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavier crude (grade mismatch), the claim that this explains the trade deficit is an oversimplification. The trade deficit in crude oil is measured in value ($46.5 billion), not volume, and the grade mismatch alone does not account for the net import position. The reasoning conflates physical trade flows with financial outcomes. [confidence: high]
 
-- "Cushing is the physical delivery point for the WTI contract. When its tanks run toward operating minimum, the barrels available to settle that contract thin out, and WTI trades more on local tank economics than on global supply." — While Cushing is indeed the delivery point for WTI, the claim that WTI trades "more on local tank economics than on global supply" when stocks are low is an extrapolation beyond the data provided. The article does not present evidence or analysis linking Cushing's storage levels to WTI price dynamics or trading behavior. [confidence: medium]
+- "Cushing is the physical delivery point for the WTI contract. When its tanks run toward operating minimum, the barrels available to settle that contract thin out, and WTI trades more on local tank economics than on global supply." — While Cushing is indeed the delivery point for WTI, the claim that low storage levels cause WTI to trade "more on local tank economics than on global supply" is an overgeneralization. WTI pricing is influenced by global supply-demand dynamics, and storage levels at Cushing are just one factor among many. The conclusion overstates the causal link between storage levels and pricing behavior. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

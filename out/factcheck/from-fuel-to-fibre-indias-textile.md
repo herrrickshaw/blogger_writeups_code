@@ -16,19 +16,11 @@ Source: `posts/from-fuel-to-fibre-indias-textile.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99662, Requested 5597. Please try again in 1h15m43.776s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99583, Requested 5597. Please try again in 1h14m35.52s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "Ethanol frees the petrochemical feedstock, PM MITRA parks give it somewhere to land, and 12 technical-textile segments show exactly which imports are worth chasing first." — The article later clarifies that the $20.4 billion/year feedstock problem is tied to Chapters 39 and 29 of the tariff schedule (plastics + organic chemicals), not directly to ethanol or PM MITRA parks. The claim implies a direct causal link that is not supported by the subsequent analysis. [confidence: high]
-
-- "E20 alone displaces roughly 10.8 billion litres of petrol a year; a prospective E30 would displace closer to 16 billion litres." — The article does not provide a source for these specific displacement figures, and they appear to be estimates not grounded in publicly verifiable data. [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "the $20.4bn Chapter 39+29 deficit and the narrower $2–2.4bn 'core fibre-monomer' opportunity are not the same claim scaled differently — they measure different scopes (all plastics/chemicals imports vs. the specific MEG/ACN/caprolactam/BDO/PP-PE-fibre-grade slice that feeds textile MMF)." — While the article correctly distinguishes between the broader deficit and the narrower fibre-monomer slice, it later conflates the two by suggesting that the ethanol-blending programme's impact on the fibre-monomer slice ($1.5bn) is a direct solution to the broader $20.4bn deficit. The $1.5bn figure is a subset of the fibre-monomer slice, which itself is a subset of the broader deficit, and the article does not adequately explain how addressing the smaller slice would meaningfully reduce the larger deficit. [confidence: high]
-
-- "Put together: freeing ~2 MMT/yr of MEG, acrylonitrile, caprolactam and BDO from the petrol-displacement loop is worth an estimated $1.5bn/year in import substitution on the fibre-monomer slice alone — separate from, and smaller than, the broader $20.4bn Chapter 39+29 number above, but the part of it most directly tied to the ethanol-blending programme specifically." — The article claims that the ethanol-blending programme is "most directly tied" to the fibre-monomer substitution opportunity, but it does not provide evidence or reasoning to support this causal link. The displacement of petrol by ethanol may free up naphtha for petrochemicals, but the article does not demonstrate that this feedstock would necessarily be directed toward MMF production or that it would reduce imports of fibre-monomer inputs. [confidence: high]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
 
 ## Kimi kimi-k2-0711-preview
 

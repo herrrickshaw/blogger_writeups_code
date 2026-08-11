@@ -16,19 +16,19 @@ Source: `posts/the-recycling-lottery-playbook-norways.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99943, Requested 3244. Please try again in 45m53.568s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99728, Requested 3507. Please try again in 46m35.039999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "97% return rates" (container return rate) — The article cites 97% for Norway's Pantelotteriet, but the text later contradicts this by stating Germany's return rate is 97.7% and Norway's is 97%. The claim about Norway's return rate is not directly sourced in the text and appears inconsistent with the Germany comparison. [confidence: medium]
+- "97% return rates" — The article conflates container return rates (97% for Norway, 97.7% for Germany) with lottery participation rates (39% for Norway). The claim implies a single 97% figure applies to both metrics, which is incorrect. [confidence: high]
 
-- "€62M+ to charity over 16 years" (charitable funding) — The article states NOK 737.4M (€62M+) to Red Cross by 2023, but the conversion from NOK to EUR is not clearly supported by the cited sources. The exchange rate used (NOK to EUR) is not provided, and the cumulative figure may not align with the 16-year period if calculated annually. [confidence: medium]
+- "€62M+ to charity over 16 years" — The article cites NOK 737.4M (€62M+) to Red Cross by 2023, but the 16-year period is not explicitly tied to the €62M figure. The cumulative charity funding may not align with the 16-year timeframe. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "University of British Columbia study (2024): people recycled 47% more bottles when offered the lottery option vs a guaranteed refund." — The claim implies a causal link between the lottery option and increased recycling, but the study cited (UBC 2024) is not directly referenced in the text with a source link or detailed methodology. The 47% increase is presented as a definitive outcome, but the article does not clarify whether this is a controlled experiment, the sample size, or the context (e.g., whether the increase is statistically significant or practically meaningful). The claim extrapolates the study's findings to Norway's national return rate without addressing potential confounding factors (e.g., infrastructure, cultural differences). [confidence: high]
+- "University of British Columbia study (2024): people recycled 47% more bottles when offered the lottery option vs a guaranteed refund." — The study likely shows a *relative increase in recycling behavior* when the lottery option is presented, but the article incorrectly implies this is a *causal mechanism* for Norway's 97% return rate. The high return rate in Norway is likely driven by multiple factors (e.g., deposit system, infrastructure, cultural norms), not solely the lottery option. [confidence: high]
 
-- "A regulated national lottery, on the white paper's own conservative estimate, could generate more in annual tax-and-profit revenue ($12bn) than the entire Jal Jeevan Mission budget ($8.4bn)." — The claim assumes that the $12bn potential revenue from a regulated lottery can be directly allocated to Jal Jeevan Mission, but the Pahle India Foundation white paper cited does not specify that lottery revenue would be earmarked for specific social programs like Jal Jeevan. The comparison is an apples-to-oranges argument, as the $12bn figure represents total potential tax-and-profit revenue across all social schemes, not a dedicated allocation. [confidence: high]
+- "A regulated national lottery, on the white paper's own conservative estimate, could generate more in annual tax-and-profit revenue ($12bn) than the entire Jal Jeevan Mission budget ($8.4bn)." — The comparison is apples-to-oranges. The $12bn figure represents *potential tax-and-profit revenue from a regulated lottery market*, while the $8.4bn is the *actual budget outlay* for Jal Jeevan Mission. The former is a projection of market revenue, while the latter is a government expenditure figure. They are not directly comparable in terms of funding capacity or allocation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

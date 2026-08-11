@@ -16,19 +16,19 @@ Source: `posts/real-gdp-growth-india-fy2012-13-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99044, Requested 1088. Please try again in 1m54.048s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99963, Requested 1088. Please try again in 15m8.064s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2020-21's First Advance Estimate was -8%" — The claim is incorrect. The First Advance Estimate for FY2020-21 was -7.3%, not -8%. [confidence: high]
+- "FY2025-26 is a First Advance Estimate only — the sole data point MoSPI has released for it so far." — This is incorrect because MoSPI typically releases multiple estimates for a fiscal year, including Provisional, First Revised, and other revisions. The claim that FY2025-26 has only a First Advance Estimate is unverifiable as of the retrieval date (18 Jul 2026) and contradicts standard MoSPI practices. [confidence: high]
 
-- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate" — The claim is incorrect. The First Advance Estimate for FY2023-24 was 7.3%, and the First Revised Estimate was 8.9%, not 7% to 9%. [confidence: high]
+- "The COVID-19 contraction was revised away from its worst reading: FY2020-21's First Advance Estimate was -8% ; by the Third Revised Estimate it stood at -6% — still the sharpest contraction on record here, just not quite as deep as first reported." — While the direction of revision is correct, the claim that FY2020-21's contraction was "the sharpest on record" is unverifiable without comparing it to all other years' contractions in the dataset. The article does not provide evidence that no other year had a sharper contraction. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — The claim is correct, but the interpretation that the revision gap represents the "forecast error" is misleading. The revision gap reflects data updates and methodological changes, not necessarily forecast errors, as the article suggests. [confidence: medium]
+- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate — tied with the COVID year's revision in size (both 2 percentage points) and, in fact, the same direction — both revisions moved upward, one shrinking a contraction, the other enlarging an expansion." — The claim that FY2023-24's revision is "tied with the COVID year's revision in size" is misleading because the COVID year's revision was a *shrinkage of a contraction* (from -8% to -6%), while FY2023-24's revision was an *enlargement of an expansion* (from 7% to 9%). These are not comparable in terms of economic impact or direction of change, despite both being 2 percentage points in magnitude. [confidence: high]
 
-- "FY2025-26 is a First Advance Estimate only — the sole data point MoSPI has released for it so far. Like every other year on this chart, expect it to move; historically the first guess has shifted by as much as 2 percentage points by the time later revisions land." — The claim is correct, but the interpretation that the revision size (2 percentage points) applies uniformly to all years, including FY2025-26, is an extrapolation beyond what the data shows. The revision size is based on historical data, but FY2025-26 is an outlier year with limited data, making this claim unsupported. [confidence: medium]
+- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — While the first part of the claim is correct, the second part ("even 'Final Estimates' can predate a later methodology change") is an overgeneralization. MoSPI's "Final Estimates" are typically the most comprehensive and are not usually revised unless there is a methodological change, which is not a common occurrence. The phrasing implies that methodology changes are frequent or expected, which is not supported by standard practices. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

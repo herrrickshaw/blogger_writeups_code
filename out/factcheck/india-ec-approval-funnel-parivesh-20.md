@@ -16,19 +16,15 @@ Source: `posts/india-ec-approval-funnel-parivesh-20.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99562, Requested 855. Please try again in 6m0.288s. Need more tokens? Upgrade to Dev Tier today at https:/]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99479, Requested 855. Please try again in 4m48.576s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "56 raw PARIVESH status values consolidated into canonical process stages" — The article claims 56 raw status values were consolidated, but the PARIVESH 2.0 API documentation (as of the referenced period) does not explicitly confirm this number. The source link provided does not detail the exact count of raw status values, making this unverifiable. [confidence: medium]
-
-- "Grant rate = granted ÷ decided" — While the formula is mathematically correct, the article does not clarify whether "decided" includes only proposals that reached a final decision (e.g., rejected, withdrawn, returned, or granted) or if it excludes auto-delisted proposals. The PARIVESH data may treat auto-delisted proposals differently, potentially skewing the denominator. [confidence: high]
+- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a source or methodology to verify this 49% figure. The claim is presented as fact without citation or supporting data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Only 49% of these EC proposals are fresh new projects. The rest are activity on land that already holds a clearance" — The claim implies that 51% of proposals are not "new projects," but the article does not define what constitutes a "fresh new project" versus an "activity on land." Without clear criteria (e.g., whether expansions or transfers are considered new projects), this distinction is arbitrary and unsupported by the data. [confidence: high]
-
-- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection" — While the percentages are correct, the conclusion that rejection is not a major attrition factor is misleading. The article acknowledges that 6,954 proposals were not approved (including 2,553 rejected), which is ~11.3% of decided proposals. Framing rejection as insignificant ignores its role in the approval funnel. [confidence: high]
+- "Once a proposal reaches a decision, it is overwhelmingly approved" — While the grant rate of decided proposals is 88.7%, this does not necessarily imply that the approval process is "overwhelmingly" favorable. The high grant rate could be due to proposals being filtered out earlier (e.g., auto-delisted or withdrawn), leaving only the most viable applications for final decision. The claim conflates the high grant rate among decided proposals with the overall likelihood of approval, ignoring the attrition before reaching a decision. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

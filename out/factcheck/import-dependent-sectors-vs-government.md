@@ -16,19 +16,19 @@ Source: `posts/import-dependent-sectors-vs-government.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99584, Requested 2365. Please try again in 28m3.936s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99502, Requested 2365. Please try again in 26m53.088s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article claims a scheme was introduced in mid-July 2026, but the actual date mentioned later is **15 July 2026** (Cabinet approval for NIPU-2026). While close, "mid-July" is imprecise and could mislead readers about the exact timing. [confidence: high]
+- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article later contradicts this by stating that fertiliser (HS31) was the fastest-growing high-value import and that its scheme (NIPU-2026) was approved on **15 July 2026**, not "mid-July 2026." The phrasing implies the scheme was announced *before* the analysis, but the text clarifies it was approved *three days before* the analysis (i.e., 15 July 2026). [confidence: high]
 
-- "HS31 imports up 118.9% since FY2018-19" — The article cites a 118.9% growth in HS31 (fertilisers) imports, but this figure is not verifiable in the provided text or standard trade databases. The Cabinet's own figures mention a **30 million tonnes produced vs. 40 million tonnes demand** gap, but no growth percentage is cited. The 118.9% claim lacks a clear source or methodology. [confidence: high]
+- "HS31 imports up 118.9% since FY2018-19" — The article cites this figure from the repo's data, but no primary source (e.g., TRADESTAT/DGCI&S) is provided to verify the exact percentage. The claim lacks a direct citation to an official dataset. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — The reasoning gap here is that **import gap ≠ production gap**. The Cabinet's figures describe a **demand-supply gap** (10 million tonnes), but NIPU-2026's target (1 crore tonnes) exceeds this by 3x. The policy is framed as import reduction, but the numbers suggest it aims for **overcapacity** relative to the stated import gap, not just substitution. [confidence: high]
+- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — The claim implies that the 1 crore tonne capacity addition will *directly* close the 10-million-tonne import gap, but it does not account for potential delays in plant construction, operational ramp-up, or demand growth. The policy's impact is speculative without evidence of timeline feasibility or demand stability. [confidence: high]
 
-- "Edible oils (HS15) has a real scheme — the National Mission on Edible Oils–Oilseeds (₹10,103 crore, Cabinet-approved, 2024-25 to 2030-31, targeting 72% domestic self-sufficiency by 2030-31) — that also didn't surface in the six-month recap despite this chapter's own import growth (+97.9%)" — The reasoning gap is that **import growth (+97.9%) is not directly comparable to self-sufficiency targets**. The mission aims for 72% self-sufficiency by 2030-31, but import growth over a specific period (FY2018-19 to FY2025-26) does not necessarily indicate a failure of the scheme, especially if the scheme was launched mid-way through the period. The article conflates **short-term import trends** with **long-term policy targets** without accounting for lag effects. [confidence: medium]
+- "Electrical machinery (HS85) ... is the one place this cross-reference finds strong, matched coverage" — The article conflates *scheme announcements* (e.g., Semiconductor Mission 2.0) with *actual import substitution outcomes*. The schemes may incentivize domestic production, but the article does not provide data showing a measurable reduction in HS85 imports as a result. The claim assumes correlation equals causation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

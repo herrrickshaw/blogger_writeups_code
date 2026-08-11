@@ -16,19 +16,19 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99328, Requested 3146. Please try again in 35m37.536s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 3146. Please try again in 35m21.12s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A $6.2 billion deficit, growing at 22% a year" — The article later states the deficit grew from $5.111 billion in FY2024-25 to $6.220 billion in FY2025-26, which is a 21.7% increase, not 22%. The 22% figure is inconsistent with the provided data. [confidence: high]
+- "A $6.2 billion deficit, growing at 22% a year" — The article later states the deficit grew by 21.7% from FY2024-25 to FY2025-26, not 22% annually. The 22% figure is inconsistent with the provided data. [confidence: high]
 
-- "India has roughly 3 MRI units per million population against a global average of 7" — The article cites a global average of 7 MRI units per million, but this is outdated. The global average is closer to 10–12 MRI units per million population as of 2026, based on OECD and WHO data. [confidence: high]
+- "India has roughly 3 MRI units per million population against a global average of 7" — The article cites a global average of 7 MRI units per million, but this is likely outdated or incorrect. The WHO and other sources typically cite a higher global average (closer to 10-15 per million in developed countries). The claim lacks a clear source or context for the "global average." [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%, imports up 2.5× since 2014-15." — The article uses the broader basket (including pharma lines) to claim that imports have grown 2.5× since 2014-15, but the trade deficit analysis earlier focuses on a narrower device basket. Comparing these two baskets without adjustment is an apples-to-oranges comparison, as the broader basket includes drugs/APIs, which are not part of the device trade deficit analysis. [confidence: high]
+- "the policy landscape (PLI, SMDI, four device parks) that has demonstrably moved the needle in imaging and implants but never touched the two largest gaps: lab instruments and IVD reagents" — While the policy may have had some impact on imaging and implants, the article does not provide quantitative evidence or a clear causal link to show that these policies "demonstrably moved the needle." The claim assumes causation without sufficient proof. [confidence: high]
 
-- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The article claims that import dependency did not improve despite the market roughly doubling, but it does not provide evidence that import dependency should have improved proportionally with market growth. Import dependency is a ratio (imports/(imports+domestic production)), and market growth alone does not necessarily imply a change in dependency unless domestic production also grows at a comparable rate. The conclusion assumes a causal link between market growth and import dependency without demonstrating it. [confidence: medium]
+- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The article compares a 2020 baseline to FY2024-25 data but does not account for inflation, changes in HS code classifications, or other methodological differences that could explain the doubling of the market. The conclusion that "dependency did not improve" is an overgeneralization without controlling for these factors. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

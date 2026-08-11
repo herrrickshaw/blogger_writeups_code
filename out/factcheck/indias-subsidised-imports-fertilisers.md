@@ -16,19 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99286, Requested 5640. Please try again in 1h10m56.063999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99275, Requested 5640. Please try again in 1h10m46.559999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article states the approval was given "3 days before the data cutoff" (which is 31 Jul 2026), implying the approval date was 28 Jul 2026, not 15 Jul 2026. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article itself later states "NIPU-2026 (approved 3 days before the data cutoff)" and the data cutoff is 31 Jul 2026, making the approval date 28 Jul 2026, not 15 Jul 2026. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is outside the stated range of ₹1.5–1.7 lakh crore. The range appears to be incorrectly rounded or misstated. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is outside the stated range of ₹1.5–1.7 lakh crore. The range is too narrow to include the calculated sum. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — The claim is based on the sum of the 12 subsidised categories ($632.8bn) as a share of total imports ($775bn), which is ~81.6%. However, the article later states that these categories "carry subsidies or policy protection," but some (e.g., Pearls, Gems & Jewellery) are explicitly noted as "not an import-substitution candidate" and involve re-export flows. Including such categories inflates the share without reflecting actual import substitution or subsidy burden. [confidence: high]
+- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — The article cites 81.6% as the share of the 12 subsidised categories in total imports (₹632.8bn / ₹775bn). However, the claim that "nearly 82%" of the *entire* import bill goes to *subsidised commodities* conflates the 12 protected categories with all commodities receiving *any* form of subsidy or policy protection. The 12 categories are a subset of all protected imports, and the article does not establish that all other imports lack any protection. [confidence: high]
 
-- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The subsidy cost is attributed to supporting "these imports" (the 12 categories), but the breakdown shows that only 6 categories (Mineral Fuels, Fertilisers, Edible Oils, Electrical Machinery, Specialty Steel, Medical Devices) have estimated subsidy costs. The remaining 6 categories (e.g., Plastics, Inorganic Chemicals, Aircraft) have no subsidy burden listed, yet the total subsidy cost is presented as supporting all 12 categories. This double-counts or misattributes the subsidy burden. [confidence: high]
+- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The article lists subsidy costs for only six categories (fuels, fertilisers, edible oils, electrical machinery, specialty steel, and medical devices) totaling ₹2.2–2.8 lakh crore. However, it does not account for subsidies in the remaining six categories (e.g., iron & steel, inorganic chemicals, aircraft) or other potential indirect subsidies, leading to an undercount. The claim implies the estimate covers *all* subsidised imports, which it does not. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

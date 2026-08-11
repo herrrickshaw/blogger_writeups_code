@@ -16,19 +16,19 @@ Source: `posts/indias-oil-fields-are-running-down-3696.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99318, Requested 2697. Please try again in 29m0.96s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99300, Requested 2697. Please try again in 28m45.408s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "LNG imports up 15.4%" — The article cites this figure without a source or timeframe, making it unverifiable. The PPAC "Snapshot of India's Oil & Gas Data" (March 2025) does not appear to include this specific metric in the cited sections. [confidence: medium]
+- "LNG imports up 15.4%" — The claim is unverifiable as the article does not cite a source or timeframe for this percentage, and no such figure appears in the cited PPAC sources (March 2025 or July 2026). [confidence: medium]
 
-- "10.9% in March 2025 alone" — The article claims this figure for self-sufficiency in petroleum products, but it is unclear whether this refers to a single month (March 2025) or a rolling average. The PPAC "Flash Report" (July 2026) is cited, but the article does not specify if the 10.9% is a monthly or annualized figure. [confidence: medium]
+- "10.9% in March 2025 alone" — The article cites this as a self-sufficiency figure for petroleum products, but PPAC's "Snapshot of India's Oil & Gas Data" (March 2025) does not provide monthly self-sufficiency data; this appears to be an extrapolation or misinterpretation of annual data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gas is where the divergence is opening fastest, and it lands directly on city gas distribution and on fertiliser feedstock — both sectors this blog has covered, and both now more exposed to LNG price than they were." — The article correctly notes rising LNG imports and declining domestic gas share, but it does not provide evidence linking these trends to increased exposure to LNG prices for city gas distribution and fertilizer feedstock. The claim assumes a direct causal relationship without data on price exposure or sector-specific impacts. [confidence: high]
+- "Gas is where the divergence is opening fastest, and it lands directly on city gas distribution and on fertiliser feedstock — both sectors this blog has covered, and both now more exposed to LNG price than they were." — The article correctly notes rising LNG imports and declining domestic gas share, but it does not provide evidence linking these trends to increased exposure to LNG price volatility for city gas distribution or fertiliser feedstock. The causal link is asserted without data on price exposure or sectoral impacts. [confidence: high]
 
-- "The refining industry is world-scale, expanding and profitable. It simply runs on other people's oil, and 78.5% of what it processes is high-sulphur crude, which narrows the grades India can realistically substitute toward when it wants to change supplier." — While the refining capacity and high-sulphur crude share may be correct, the article does not provide evidence that this narrows India's ability to substitute suppliers. The claim conflates refining constraints with supply chain flexibility without demonstrating how high-sulphur crude dependence limits supplier diversification. [confidence: high]
+- "When a target is set 2.6 MMT above what the reservoirs deliver, and the same gap appears in the same direction each year, the target has stopped being a forecast and become an aspiration." — While the article correctly highlights consistent underperformance against targets, it does not demonstrate that the targets are inherently unrealistic or aspirational rather than forecasts. The gap could reflect conservative forecasting, external shocks, or other factors; the conclusion that targets are "aspirational" is an interpretation not supported by the data alone. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

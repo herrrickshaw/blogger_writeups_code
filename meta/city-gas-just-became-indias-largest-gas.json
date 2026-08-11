@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
   "slug": "city-gas-just-became-indias-largest-gas",
   "published": "2026-08-08T16:38:51.000+05:30",
-  "updated": "2026-08-08T22:23:53.645+05:30",
+  "updated": "2026-08-11T21:41:34.258+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 18053,
-  "sha256": "0613a27c60a236aa8192f8ed751eff85dd749a645d8567b01af799a84d1e878d",
+  "bytes": 18063,
+  "sha256": "c07204e3d77b85a31fd0579a85fb80ef944994315131db2eade4021b10142d4b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-11T21:45:23+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        18053,
+        18063
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

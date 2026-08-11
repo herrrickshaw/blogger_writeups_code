@@ -16,22 +16,22 @@ Source: `posts/iem-conversion-historical-performance.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 2009. Please try again in 23m14.496s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99526, Requested 2009. Please try again in 22m6.24s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article later states that the implemented value for 2024 is Rs 4,93,765 cr (which is Rs 4.94L cr), but the table shows Rs 493,765 cr for 2024 Part B Implemented, which is Rs 4.94L cr. However, the "Up to Dec 2025" row shows Rs 583,096 cr, which is higher than 2024. The claim that 2024 is the best year on record is incorrect because the partial-year 2025 data already exceeds it. [confidence: high]
+- "2024 first year IEM implementation > FDI equity inflow" — The article claims that 2024 was the first year IEM implementation (Rs 4,93,765 cr) overtook FDI equity inflow (Rs 4,21,929 cr), but this comparison mixes calendar-year IEM data with fiscal-year FDI data (FY2024-25). The periods are not identical, making the claim unverifiable as stated. [confidence: high]
 
-- "2019 Part B EXCLUDED — source defect: AR2022-23 prints Gujarat 2019 at Rs 15,18,861cr (~6x all-India)" — The article claims Gujarat's 2019 Part B value was printed at Rs 15,18,861 cr in AR2022-23, which is implausibly high (6x the all-India total). However, the table shows no value for 2019 Part B, and the explanation for exclusion is provided. The factual error is in the magnitude of the Gujarat figure (Rs 15,18,861 cr is Rs 15.19 lakh crore, which is indeed ~6x the all-India total for that year, but the source of this figure is not verifiable in the article's context). [confidence: medium]
+- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article cites Rs 4.94 lakh crore as the implemented value for CY2024, but the table shows Rs 4,93,765 crore (Rs 4.93765 lakh crore), which is not rounded to Rs 4.94 lakh crore. The discrepancy suggests a rounding error or misstatement. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "2024 first year IEM implementation > FDI equity inflow" — The article claims that 2024 was the first year where IEM implementation (Rs 4,93,765 cr) overtook FY2024-25 FDI equity inflow (Rs 4,21,929 cr). This is an apples-to-oranges comparison because:
-  1. IEM implementation is a calendar-year figure (Jan-Dec 2024), while FDI equity inflow is a fiscal-year figure (Apr 2024-Mar 2025).
-  2. The FDI figure is for FY2024-25, which overlaps with but is not identical to the calendar year 2024.
-  3. The comparison mixes calendar-year and fiscal-year data without adjustment, making the conclusion unreliable. [confidence: high]
+- "This is the year IEM implementation (Rs 4,93,765cr, CY2024 as reconciled in the Dec-2025 Annual Report vintage) overtook FY2024-25 FDI equity inflow (Rs 4,21,929cr) for the first time — domestic industrial capex outpacing foreign investment as a growth engine" — The claim implies a causal relationship between IEM implementation and domestic industrial capex outpacing foreign investment, but the comparison is flawed because:
+  1. IEM implementation includes both domestic and foreign investments (as it is a record of investment intent filings, not a source-of-funds breakdown).
+  2. FDI equity inflow is only one component of foreign investment and does not account for other forms of foreign capital (e.g., FDI reinvested earnings, foreign portfolio investment in manufacturing).
+  Thus, the conclusion that domestic industrial capex outpaced foreign investment is not supported by the data presented. [confidence: high]
 
-- "Supports a genuine improvement story: the 2024 inflection isn't just a pipeline artefact — the raw implemented value (Rs 4.94L cr) is the highest single year on record, and it happened while the Part A base (Rs 6.02L cr) sat well below 2021's outlier peak (Rs 7.71L cr), meaning most of 2024's Part A filings weren't just filed but built." — The reasoning gap here is that the article conflates "highest implemented value" with "genuine improvement in conversion efficiency." While the implemented value is high, the conversion rate (82%) is still influenced by pipeline effects (earlier years' filings being implemented now). The claim that "most of 2024's Part A filings weren't just filed but built" is not supported by the data because the conversion rate is a same-period flow ratio, not a cohort match. The high implemented value could still be from older filings, not necessarily 2024's filings. [confidence: high]
+- "Supports a genuine improvement story: the 2024 inflection isn't just a pipeline artefact — the raw implemented value (Rs 4.94L cr) is the highest single year on record, and it happened while the Part A base (Rs 6.02L cr) sat well below 2021's outlier peak (Rs 7.71L cr), meaning most of 2024's Part A filings weren't just filed but built." — The article argues that the high conversion rate in 2024 reflects genuine improvement because the implemented value was high despite a lower Part A base. However, this ignores the pipeline effect: Part B in 2024 could still be implementing filings from 2021-2022 (as acknowledged earlier), meaning the high conversion rate may partly reflect the landing of older backlogs rather than solely improved execution. The conclusion conflates the timing of implementation with the efficiency of execution. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

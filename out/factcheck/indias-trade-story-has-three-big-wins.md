@@ -16,19 +16,19 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99254, Requested 2059. Please try again in 18m54.432s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99243, Requested 2059. Please try again in 18m44.928s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references data and events (e.g., PLI scheme figures as of 31 March 2026, India-EU FTA concluded 27 January 2026) that would not be available in August 2026. The Economic Survey 2025-26 would have been published in early 2026, not mid-2026. [confidence: high]
+- "Published 8 August 2026" — The publication date is impossible as the article references data and events from FY2025-26 and January 2026, which would not be available in August 2026. [confidence: high]
 
-- "₹25,060cr Export Promotion Mission outlay, FY26–FY31" — The article cites this figure without a primary source (noting a 403 error for PIB release PRID 2199733). The figure may be correct, but it cannot be verified from the provided sources. [confidence: medium]
+- "India-EU FTA, concluded 27 January 2026" — The India-EU Free Trade Agreement was not concluded on this date; negotiations are ongoing, and no such agreement has been finalized as of mid-2024. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore — and generated cumulative exports of ₹15.2 lakh crore (US$161.7 billion) across its 14 sectors since inception." — While the PLI scheme's investment and export figures may be accurate, the article implies a causal link between the two (i.e., that the investment directly generated the exports), without evidence that the exports were a direct result of the PLI scheme's incentives. The exports could be from pre-existing capacity or unrelated factors. [confidence: high]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the investment figure exceeds the approved outlay, the article does not establish whether this "overshooting" is due to genuine additional private investment or reclassification of existing commitments, nor does it account for potential delays or underutilization in actual disbursement. [confidence: medium]
 
-- "Whether the 2.4% merchandise growth figure reflects US-tariff drag specifically or broader global demand softness — the Economic Survey's own framing credits tariffs, but this article did not decompose the effect." — The article acknowledges the ambiguity but does not address it, leaving the reader with an unsupported causal claim that higher US tariffs are the sole or primary reason for the slow merchandise growth. This conflates correlation with causation without analysis. [confidence: high]
+- "Whether the 2.4% merchandise growth figure reflects US-tariff drag specifically or broader global demand softness — the Economic Survey's own framing credits tariffs, but this article did not decompose the effect." — The article cites the 2.4% growth figure as evidence of a gap in policy focus but does not isolate the impact of US tariffs, conflating it with general global demand trends without providing comparative data or analysis. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

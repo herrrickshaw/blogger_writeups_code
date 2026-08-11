@@ -3181,3 +3181,53 @@ scheduled sync
 **Changed**
 
 - `do-cheap-stocks-stay-cheap-price-band` — 79,038 → 83,606 bytes (+4,568)
+
+## 2026-08-11T21:45:23+05:30 — 130 posts live
+
+**Added**
+
+- `mrs-watanabe-traded-from-kitchen-table` **v1.0.0** — Mrs Watanabe Traded From the Kitchen Table. India's Next Wave of Traders Could Too (19,041 bytes)
+
+**Versions**
+
+- `below-250-is-where-real-junk-lives` **1.0.1 → 1.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `cow-dung-already-flew-rocket-engine` **4.0.0 → 4.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `cocoas-blockchain-reckoning-one` **1.0.1 → 1.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `thermal-parity-is-dead-what-85-oil-and` **3.0.0 → 3.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `beyond-pump-what-upi-fee-would-cost` **3.0.1 → 3.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `city-gas-just-became-indias-largest-gas` **2.0.0 → 2.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-wholesale-prices-next-to` **6.0.3 → 6.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `europes-export-credit-agencies-are` **1.0.3 → 1.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `the-ethanol-sectors-buyers-market` **1.0.3 → 1.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `jai-kisan-jai-javan-fci-based-military` **1.0.3 → 1.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `bio-fertiliser-and-green-credits` **2.0.2 → 2.0.3** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-tax-play-grow-ethanol-sgst-revenue` **1.0.4 → 1.0.5** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `cpi-wpi-trends-mospi-bulletin` **1.0.3 → 1.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `real-gdp-growth-india-fy2012-13-to` **1.0.3 → 1.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `discom-debt-relief-token-charge` **1.0.2 → 1.0.3** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `article-index-start-here` **24.0.8 → 24.0.9** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.4 → 1.0.5** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `top-15-chemicals-for-import` **2.0.1 → 2.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-subsidised-imports-fertilisers` **2.0.1 → 2.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `below-250-is-where-real-junk-lives` — 12,594 → 12,621 bytes (+27)
+- `cow-dung-already-flew-rocket-engine` — 32,436 → 32,475 bytes (+39)
+- `cocoas-blockchain-reckoning-one` — 16,965 → 16,988 bytes (+23)
+- `thermal-parity-is-dead-what-85-oil-and` — 23,165 → 23,168 bytes (+3)
+- `beyond-pump-what-upi-fee-would-cost` — 29,466 → 29,466 bytes (+0)
+- `city-gas-just-became-indias-largest-gas` — 18,053 → 18,063 bytes (+10)
+- `indias-wholesale-prices-next-to` — 33,757 → 33,775 bytes (+18)
+- `europes-export-credit-agencies-are` — 15,968 → 16,255 bytes (+287)
+- `the-ethanol-sectors-buyers-market` — 10,382 → 10,454 bytes (+72)
+- `jai-kisan-jai-javan-fci-based-military` — 13,026 → 13,107 bytes (+81)
+- `bio-fertiliser-and-green-credits` — 38,886 → 38,897 bytes (+11)
+- `a-tax-play-grow-ethanol-sgst-revenue` — 33,857 → 33,921 bytes (+64)
+- `cpi-wpi-trends-mospi-bulletin` — 38,773 → 38,773 bytes (+0)
+- `real-gdp-growth-india-fy2012-13-to` — 23,346 → 23,474 bytes (+128)
+- `discom-debt-relief-token-charge` — 17,722 → 17,760 bytes (+38)
+- `article-index-start-here` — 169,355 → 169,362 bytes (+7)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 118,790 → 118,826 bytes (+36)
+- `top-15-chemicals-for-import` — 75,236 → 75,727 bytes (+491)
+- `indias-subsidised-imports-fertilisers` — 28,067 → 28,307 bytes (+240)

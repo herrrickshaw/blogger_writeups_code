@@ -16,7 +16,7 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99981, Requested 1484. Please try again in 21m5.76s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99767, Requested 1484. Please try again in 18m0.864s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
@@ -24,7 +24,7 @@ FACTUAL ERRORS:
 - "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI Disclosure: This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above." — The disclosure does not clarify how AI assistance was used (e.g., drafting, fact-checking, or editing) or whether the AI-generated text was verified against primary sources, creating ambiguity about the reliability of the claims. [confidence: medium]
+- "AI-generated text can occasionally misstate figures or 'hallucinate' details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone." — While the disclaimer is technically correct, it is placed in a context where no AI-generated text is actually cited or referenced in the article itself. This creates a misleading implication that the article's content may be AI-generated, which is not supported by the text. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

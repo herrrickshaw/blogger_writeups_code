@@ -16,7 +16,7 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99014, Requested 11772. Please try again in 2h35m19.104s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99930, Requested 11772. Please try again in 2h48m30.528s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
@@ -26,9 +26,9 @@ FACTUAL ERRORS:
 - "Cabinet approves one multitracking project covering three Districts across Karnataka and Andhra Pradesh, increasing the existing network of Indian Railways by a" [incomplete sentence] — The claim is incomplete and cannot be verified as a factual statement. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The government approved the PLI Scheme for Automobile and Auto Component Industry in India (PLI-Auto) with a budgetary outlay of Rs. 25,938 crore" — The claim states a budgetary outlay for PLI-Auto but does not provide context on whether this figure represents the total approved allocation, annual outlay, or cumulative spending. Without clarifying the timeframe or scope of the outlay, it is unclear whether this figure supports any specific conclusion about the scheme's scale or impact. [confidence: high]
+- "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore" — The claim states a financial outlay for the continuation of PM-KISAN, but the continuation of a scheme does not inherently imply a specific financial outlay unless explicitly stated in the approval. The article does not provide evidence or context to verify that the financial outlay is part of the approval decision rather than a projection or historical allocation. [confidence: medium]
 
-- "Ministry of Electronics & IT Production Linked Incentive Schemes Strengthen India's Electronics Manufacturing Ecosystem, Boosting Domestic Production, Exports and Value Addition" — The claim asserts a causal relationship between PLI schemes and strengthened electronics manufacturing ecosystem, domestic production, exports, and value addition. However, the article does not provide any data or evidence to substantiate this causal link, nor does it distinguish between correlation and causation. The claim extrapolates beyond what the data shows. [confidence: high]
+- "Cabinet approves revamped Khelo India Scheme and enhanced Assistance to National Sports Federations (ANSFs)" — The claim states that the revamped Khelo India Scheme includes enhanced assistance to ANSFs, but the article does not provide any data or context to support the claim that the assistance is "enhanced" or to quantify the increase. The conclusion that assistance is enhanced is an extrapolation beyond what the data shows. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

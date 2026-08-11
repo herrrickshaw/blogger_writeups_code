@@ -16,19 +16,19 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99191, Requested 2749. Please try again in 27m56.16s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99184, Requested 2749. Please try again in 27m50.112s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — The calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08) is correct, but the claim that this is the "Annual distributor commission on Ujjwala refills alone" is misleading because it is presented as a verified figure when the article explicitly states it is "this article’s own computation and is not a government-published total." [confidence: high]
+- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — While the calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08 commission) is correct, the claim that this is the "Annual distributor commission on Ujjwala refills alone" is presented as a verified figure, but the article explicitly states it is "this article’s own computation and is not a government-published total." The phrasing implies it is an official figure, which is misleading. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The claim that LPG's margin is "roughly half the MDR exposure" is an apples-to-oranges comparison. The MDR exposure depends on the fee rate (e.g., 0.25%, 0.30%, 1.00%) applied to the margin, not the margin itself. The article correctly calculates the impact of MDR on LPG's margin (e.g., 12.9% at 1.00% MDR), but the phrasing implies a direct comparison of margins, which is misleading. [confidence: high]
+- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The article correctly notes that LPG's margin (7.76%) is higher than fuel dealers' margins (3.87% for petrol), but then claims this means LPG is "roughly half the MDR exposure." This is a false causal claim: the MDR exposure depends on the margin percentage, not the absolute margin value. A higher margin does not necessarily mean lower MDR exposure; in fact, the MDR exposure is calculated as (MDR rate ÷ margin), so a higher margin would reduce the MDR's bite (as the article later correctly explains in Exhibit 2). The initial claim misrepresents the relationship between margin size and MDR exposure. [confidence: high]
 
-- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — The claim that the distributor commission is "about 30% of the scheme’s entire subsidy outlay" is an extrapolation beyond the data. The subsidy outlay is ₹12,000 crore for FY2025-26, but the commission is only for Ujjwala refills (PMUY beneficiaries), not the entire scheme. The article does not establish that the subsidy outlay applies solely to Ujjwala refills, so the comparison is not valid. [confidence: medium]
+- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — The article calculates ₹3,642 crore as the distributor commission on PMUY refills and compares it to the ₹12,000 crore subsidy outlay. While the arithmetic is correct, the interpretation is misleading because the subsidy outlay is a government expenditure, while the distributor commission is a private-sector payment. The two are not directly comparable in terms of "share of outlay" because they are from different sectors (government vs. private). The comparison conflates apples (government subsidy) with oranges (private distributor commission). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
