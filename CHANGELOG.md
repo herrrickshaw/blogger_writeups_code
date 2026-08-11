@@ -2953,3 +2953,13 @@ scheduled sync
 **Changed**
 
 - `a-slice-of-apple-costs-about-1700-slice` — 38,080 → 42,386 bytes (+4,306)
+
+## 2026-08-11T14:11:14+05:30 — 125 posts live
+
+**Versions**
+
+- `a-slice-of-apple-costs-about-1700-slice` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-slice-of-apple-costs-about-1700-slice` — 42,386 → 43,455 bytes (+1,069)
