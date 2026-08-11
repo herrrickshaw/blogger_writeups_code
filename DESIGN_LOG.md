@@ -15,36 +15,78 @@ The enforceable form of these rules lives in `~/blog-consistency-check/`
 The design was frozen against the fertiliser/fuel-prices post, which was the
 cleanest example at the time. Everything below is what a post must satisfy.
 
-### Required elements, in document order
+### Required elements, in document order — corrected 2026-08-11
 
-1. `<div class="artx …">` wrapper — every rule is scoped to a post-level class so
-   nothing leaks into the Blogger theme.
-2. `<style>` block, post-scoped.
-3. Google Translate widget (`#google_translate_element` + the two inline scripts).
-4. Index backlink to `article-index-start-here`.
-5. Hero / stats / body.
-6. Sources paragraph.
-7. AI-disclosure paragraph, tagged `data-gs-ai-disclosure-v1="1"`, **last, after
-   every `</script>`**.
+*The list below replaces the one originally written here 2026-08-06, which had
+the index backlink and the closing script inside `.artx` and omitted the
+human-facing disclaimer and the related-posts block entirely. The order below
+is transcribed from a live, currently-clean post
+(`posts/indias-lock-imports-hit-19784-million.html`), not redrafted from
+memory — verify against a live post again if this list and reality ever
+disagree, because reality wins.*
 
-### Colour and contrast
+1. `<div class="topnav-index-link">` — the backlink to `article-index-start-here`,
+   **outside and before** `.artx`, the very first thing in the post body.
+2. `<div class="artx">` wrapper — every CSS rule is scoped to this post-level
+   class so nothing leaks into the Blogger theme, and no theme rule leaks in.
+3. `<style scoped>` block, immediately inside the wrapper.
+4. `<h1>`.
+5. Google Translate widget (`#google_translate_element` + the two inline
+   scripts) — immediately after `</h1>`.
+6. `.dek` paragraph (the standfirst/subtitle).
+7. Body: `<h2>`/`<h3>` sections, tables, lists.
+8. `.verdict` div — a boxed one-paragraph summary judgment, not required on
+   every post type (map/dashboard-embed posts skip it) but standard on prose
+   analysis pieces.
+9. `<hr>` then `<h3>Related on this blog</h3>` with 1–2 hand-picked links to
+   posts that share a method or a topic, each with a one-clause reason why.
+10. `<h3>Sources</h3>` + `<ul class="sources">`, one `<li>` per citation,
+    full attribution (publication, date where known) not a bare URL.
+11. Human-facing disclaimer, `<p class="disclaimer">` — scope and limits of the
+    analysis, and explicitly calls out any figure the sources disagreed on or
+    any claim that could not be verified, rather than silently resolving it.
+12. AI-disclosure paragraph, `<p class="disclaimer" data-gs-ai-disclosure-v1="1">`
+    — **last inside `.artx`**, after every other paragraph and after every
+    `</script>` that precedes it (never let generated boilerplate splice into a
+    JS string literal — see Charts and scripts, below).
+13. `</div>` closes `.artx`.
+14. `<div id="gs-idx"></div>` + the deferred `accordion.js` site-index stub —
+    **outside and after** `.artx`, the very last thing in the post body.
 
-- **Light is the only committed theme.** A `gs-light-lock` block re-asserts the
-  post's own `:root` custom properties with `!important`, so a Blogger theme
-  switching to dark cannot repaint post text.
-- **Deliberately dark panels survive** via `gs-dark-panel-guard`: each dark
-  selector re-declares its background `!important`, forces `color:#fff` on itself
-  and descendants, and lightens links to `#cfe3ff`.
-  - *Rejected:* a blanket light-lock over everything. It whitened panels designed
-    to be dark, converting "all text invisible" into "headline invisible" — a
-    smaller bug, still a bug.
-- **`@media not all and (prefers-color-scheme: dark)` is banned.** It reads like
-  "only when not dark" and in fact applies in **light** mode. Four posts shipped
-  dark-mode palettes into light rendering this way.
-- Contrast is measured on the **rendered** page, not the source. The checker walks
-  ancestors for an effective background and **must stop at gradients**
-  (`background-image`), which is where the hero colours actually live — an early
-  version ignored gradients and reported dark heroes as white-on-white.
+Map/dashboard-embed posts (an iframe or an interactive HTML board rather than
+prose) keep elements 1–6, 10–14 and drop 7–9 for whatever their embed actually
+is; see "Interactive embeds" below for the one added requirement they carry
+instead.
+
+### Colour and contrast — superseded 2026-08-11, see below
+
+*The `gs-light-lock` / `gs-dark-panel-guard` mechanism described in this
+subsection until 2026-08-08 was removed outright (task #14), not patched
+further. It is kept here struck through in spirit rather than deleted, because
+the reasoning for rejecting the *next* fix down this road (a blanket
+CSS-custom-property override layer) is still worth having on record.*
+
+- **There is no dark-mode adaptation layer at all, by design.** Every post's
+  `<style scoped>` block hardcodes `background:#fff` / `color:#000` directly on
+  `.artx` and its descendants — no `:root` custom properties, no
+  `prefers-color-scheme` query, nothing for a theme engine to override. A
+  Blogger (or browser) dark-mode toggle cannot repaint post text because there
+  is no variable indirection for it to repaint *through*.
+  - *Why this over a lock/guard layer:* the guard mechanism needed a rule per
+    dark-styled panel and broke every time a new post shipped a panel the guard
+    didn't know about (44 posts were flagged "at risk" under it at once — see
+    task #50, closed 2026-08-11 as moot once the audit confirmed 124/124 posts
+    already carry zero conflicting CSS layers). Hardcoding wins because a
+    two-colour scheme has nothing left to guard.
+  - *Cost accepted knowingly:* posts do not respect a reader's OS dark-mode
+    preference. Given the failure mode on the other side of that trade
+    (invisible text on a live post), that's the right side to be wrong on.
+- **`@media not all and (prefers-color-scheme: dark)` is banned**, for the
+  reason above — it reads like "only when not dark" and in fact applies in
+  **light** mode. It survives only in already-dead/orphaned files
+  (`chemical-import-substitution-full-hsn-8_0307512735`,
+  `..._0459870800`, and one undrafted `_drafted-*` file) that are not live and
+  should not be treated as a live counter-example if found.
 
 ### Typography and tables
 
@@ -57,6 +99,71 @@ cleanest example at the time. Everything below is what a post must satisfy.
 - Every table sits in an `overflow-x:auto` wrapper. Cells wrap
   (`word-wrap:break-word`); the page body never scrolls sideways.
 - Numeric columns right-align; the first column left-aligns.
+
+### Interactive embeds — added 2026-08-11
+
+A handful of posts embed a full standalone interactive HTML board (a filterable
+dashboard, an iframe map) rather than prose. Two failure modes are specific to
+this post type and don't come up in ordinary articles:
+
+- **The embed's own CSS/JS must be scoped under one wrapper ID before it goes
+  anywhere near Blogger**, never left with global selectors. A dashboard
+  authored as a standalone page typically ships `body{}`, `:root{}`, `*{}` and
+  a `document.documentElement` theme toggle — every one of those, embedded
+  raw, repaints or breaks the *entire* Blogger page, not just the widget.
+  Fix: wrap the whole thing in `<div id="someDashRoot">`, qualify every CSS
+  rule with `#someDashRoot` as an ancestor (`#someDashRoot .card`, not
+  `.card`), turn `:root{--x:..}` into `#someDashRoot{--x:..}` (custom
+  properties still inherit correctly through the wrapper), and rewrite any
+  JS that touches `document.documentElement` or bare `document.querySelector`
+  to scope through `document.getElementById('someDashRoot')` instead. Verify
+  with a live computed-style check (`getComputedStyle(document.body)` should
+  show zero effect from the embed) before publishing, not after.
+- **`headings()` in `tools/apply_labels.py` cannot see into one of these** —
+  there's usually no `<h1>`/`<h2>` at all, just a `.hero`-style div with the
+  real title in an inline-styled child. Give these an explicit `OVERRIDE`
+  entry in that file rather than trying to widen the heading regex to catch
+  arbitrary inline-styled divs, which is a false-positive magnet on ordinary
+  prose posts. See "Labels and taxonomy" below.
+
+### Labels and taxonomy — added 2026-08-11
+
+- Blogger labels are assigned by `tools/apply_labels.py`, not by hand. It scores
+  each post's H1 (×3 weight), H2/H3 text, and any `class="extitle"`,
+  `"h2sub"`, `"standfirst"`, `"eyebrow"` or `"kicker"` subtitle paragraph
+  against a `TAXONOMY` dict of keyword clusters, and assigns up to 3 labels
+  (any cluster scoring ≥ a third of the best-scoring cluster's score).
+- **The eyebrow/kicker line is the strongest signal on the page and used to
+  be ignored entirely.** Posts routinely self-declare their own topic there
+  ("Industrial policy · PIB register", "Monetary Policy · India Macro") —
+  `headings()` reads it now. Watch for a kicker built as
+  `<span class="kicker"><span class="dot"></span>real text</span>`: a naive
+  non-greedy regex matching to the first `</span>` captures the empty dot
+  span and nothing else; skip one optional empty leading `<span>` explicitly.
+- **Keywords must be space- or phrase-bound, never bare short fragments.**
+  Bare `"pli"` matched inside "sp**li**t"; bare `"battery"` mislabelled a
+  household-solar post "Mobility & EV" via its storage batteries. Prefer
+  `" pli "` / `"pli scheme"` over `"pli"`.
+- `OVERRIDE` in the same file is for two cases only: utility pages that
+  aren't articles (`about-author`, the Shop page, the index page itself —
+  give these `[]`), and posts whose real subject genuinely can't be extracted
+  by the heading scorer (map/dashboard embeds; one post whose only heading is
+  a bare two-word H1 with no subtitle anywhere headings() reads) — give these
+  an explicit label list with a comment explaining why the scorer can't do it
+  itself.
+- Current clusters (2026-08-11): Trade & Tariffs, Industrial Policy, Energy &
+  Fuels, Agriculture & Fertilisers, Markets & Finance, Chemicals, Import
+  Substitution, Gas & LNG, Textiles, Prices & Inflation, Mobility & EV,
+  Climate & Carbon, Environment & Clearances, Macroeconomics & Monetary
+  Policy, AI Tracker. `LABEL_HUBS` in `tools/build_index_page.py` must list
+  every one of these or its hub link on the Article Index silently 404s —
+  it's a separate hardcoded list, not derived from `TAXONOMY`, and the two
+  drift out of sync unless updated together.
+- A handful of posts are legitimate single-post outliers with no real home in
+  this taxonomy (general personal-finance explainers with no India
+  trade/energy/policy angle). Leaving these unlabelled is the correct
+  outcome, not a gap to keep chasing — forcing a label onto a post that
+  doesn't fit pollutes every hub it gets forced into.
 
 ### Charts and scripts
 
@@ -92,6 +199,15 @@ cleanest example at the time. Everything below is what a post must satisfy.
 - **A drafted post keeps holding its slug.** Reverting the old post to draft does
   not free the URL for a replacement; only deleting it does. Same-month
   replacements therefore break the original URL unless the old post is deleted.
+- **`blogger_api.py`'s `do_update()` must always resend `labels` explicitly,
+  the same way it already resends `published`.** An update that omits the
+  `labels` field silently wiped the AI Tracker post's label once (Blogger's
+  PUT semantics for an omitted array field are not reliably "leave
+  unchanged"); several other same-day updates through the identical code path
+  did *not* lose their labels, so the trigger condition was never fully
+  pinned down — the fix (never omit the field, always pass the post's current
+  labels) is applied regardless, since the alternative is relying on
+  undocumented behaviour that has already caused one real data loss.
 
 ---
 
@@ -2495,3 +2611,35 @@ The affiliate layer finished the day as a system rather than a pile of links:
   prices quoted anywhere — stale price claims violate Associates rules.
 - Every ASIN on the site remains user-supplied; the model has still never
   invented one.
+
+## 2026-08-11 — Frozen baseline re-verified against a live post, not memory
+
+The "Frozen baseline" section at the top of this file was written 2026-08-06
+and had drifted from reality in three ways by the time task #51 ("write the
+frozen design spec") came due:
+
+- It still documented the `gs-light-lock` / `gs-dark-panel-guard` mechanism as
+  current. Task #14 (2026-08-08) had already removed that layer outright in
+  favour of hardcoded `#fff`/`#000` — the baseline doc just never caught up.
+  Task #50 ("light-lock dark-mode vars on 44 at-risk posts") turned out to be
+  chasing a mechanism that no longer existed; closed as moot once
+  `tools/audit_blog.py` confirmed 124/124 live posts already carry zero
+  conflicting CSS layers.
+- The required-elements order had the index backlink and the closing
+  `accordion.js` stub *inside* `.artx`; on every live post checked they're
+  outside it, first and last respectively. It also omitted the human-facing
+  disclaimer and the "Related on this blog" block entirely.
+- Nothing in it covered labelling (`apply_labels.py` didn't exist on
+  2026-08-06) or interactive-embed posts (the AI Tracker dashboard rewrite,
+  this week, was the first of those).
+
+Re-derived the required-elements list, the labelling rules, and the
+interactive-embed rules directly from a live, currently-clean post
+(`indias-lock-imports-hit-19784-million`) and from the taxonomy work done
+this session, rather than redrafting from what the old doc claimed. Also
+fixed one drift bug this exercise surfaced in passing: `LABEL_HUBS` in
+`tools/build_index_page.py` pointed a hub link at "AI Tools", a label that
+was never actually assigned to any post — the real label is "AI Tracker".
+
+Net effect: this file's top section is now the enforceable spec again, not a
+description of a mechanism that was already gone.
