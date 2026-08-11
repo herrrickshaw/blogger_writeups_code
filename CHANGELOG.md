@@ -3045,3 +3045,13 @@ scheduled sync
 **Changed**
 
 - `why-bet-on-one-horse-when-you-can-buy` — 23,821 → 24,221 bytes (+400)
+
+## 2026-08-11T14:51:51+05:30 — 126 posts live
+
+**Versions**
+
+- `thali-investing-whats-actually-on-plate` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `thali-investing-whats-actually-on-plate` — 22,201 → 22,371 bytes (+170)
