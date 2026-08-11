@@ -3083,3 +3083,9 @@ scheduled sync
 **Added**
 
 - `below-250-is-where-real-junk-lives` **v1.0.0** — Below ₹250 Is Where the Real Junk Lives: Splitting India's Cheapest Stocks Four Ways (12,594 bytes)
+
+## 2026-08-11T15:22:53+05:30 — 127 posts live
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `below-250-is-where-real-junk-lives` — 2026-08-11 &rarr; 2026-08-11
