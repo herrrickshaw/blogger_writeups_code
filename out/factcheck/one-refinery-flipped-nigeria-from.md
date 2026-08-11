@@ -16,19 +16,21 @@ Source: `posts/one-refinery-flipped-nigeria-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99515, Requested 4250. Please try again in 54m12.96s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99169, Requested 4250. Please try again in 49m14.015999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0 · African Energy Chamber, 2026 · OilPrice.com, January 2026 Dangote production data" — The publication date is impossible (August 8, 2026) as the article references events and data from January 2026 and earlier, which would not yet exist in the future. [confidence: high]
+- "Published 8 August 2026 · v1.0.0 · African Energy Chamber, 2026 · OilPrice.com, January 2026 Dangote production data" — The publication date is implausible (August 2026) and contradicts the article's own references to January–February 2026 reporting and July–August 2026 announcements. The date appears to be a placeholder or error. [confidence: high]
 
-- "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply" — The claim that Nigeria is a net petrol exporter is not independently verified against customs or trade data, as acknowledged in the article itself ("this article treats the export-flow claims as reported, not independently traced through customs data"). [confidence: high]
+- "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply" — The claim about net petrol exporter status is not independently verified (as acknowledged in the article), and the specific claim about contributing to European jet-fuel supply lacks primary-source confirmation (e.g., EU customs data). [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The article correctly states that imports are rising due to demand outpacing capacity additions, but it does not adequately address whether the forecast accounts for the newly reported Nigerian refining projects (e.g., the 24-project pipeline and Dangote's expansion to 1.4 million bpd). The conclusion that imports will rise "not despite" the refining boom implies the boom is insufficient, but the forecast may not include these projects, making the causal claim premature. [confidence: high]
+- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The article conflates correlation with causation. While demand growth outpaces refining capacity additions, the rise in imports is not necessarily *because* of the refining boom—it could simply reflect insufficient capacity relative to demand growth. The refining boom may mitigate but does not cause the import increase. [confidence: high]
 
-- "Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects." — This claim assumes the African Energy Chamber's 2050 import forecast does not account for Dangote's expansion to 1.4 million bpd or Nigeria's 24-project pipeline. However, the article does not confirm whether these projects are included in the forecast, leading to an unsupported conclusion about Dangote's relative contribution. [confidence: high]
+- "Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects." — This is an apples-to-oranges comparison. The 650,000 bpd refers to Dangote's *current* capacity, while the "increase in demand" refers to projected *total* demand growth (2+ million bpd by 2050). Dangote's capacity is not a fraction of the *increase* but a fraction of the *total* demand. The comparison misrepresents the scale of Dangote's contribution relative to demand growth. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

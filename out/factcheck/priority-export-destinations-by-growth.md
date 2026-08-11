@@ -16,19 +16,19 @@ Source: `posts/priority-export-destinations-by-growth.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99485, Requested 1924. Please try again in 20m17.376s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99138, Requested 1924. Please try again in 15m17.568s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The USA takes 11 of India's 12 fastest-growing export chapters." — The claim is incorrect because the article later states that the USA is the top-8 destination in 11 of the 12 fastest-growing export chapters, not that it "takes" 11 chapters outright. The phrasing implies exclusive dominance, which is not supported by the subsequent data. [confidence: high]
+- "The USA takes 11 of India's 12 fastest-growing export chapters." — This claim is unverifiable as stated because the article does not provide the list of the 12 fastest-growing export chapters or their growth metrics. Without this, the claim cannot be fact-checked against TRADESTAT data. [confidence: low]
 
-- "PLI Textiles (₹10,683 crore, notified September 2021; 91 companies selected as of September 2025, ₹7,731 crore invested, but only ₹733 crore of exports reported so far)" — The investment figure (₹7,731 crore) exceeds the total scheme outlay (₹10,683 crore), which is impossible unless the scheme was expanded, but no such expansion is mentioned. This suggests a possible misreporting of the investment figure. [confidence: medium]
+- "The PLI Scheme for Textiles (₹10,683 crore, notified September 2021; 91 companies selected as of September 2025, ₹7,731 crore invested, but only ₹733 crore of exports reported so far)" — The article cites specific figures (₹10,683 crore, ₹7,731 crore, ₹733 crore) without providing a primary source or verification link. These numbers cannot be independently confirmed from the given text. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The USA is the top-8 destination in 11 of the 12 fastest-growing export chapters, ranking #1 or #2 in 9 of them — $63.9bn combined across just these tracked chapters (India's total exports to the US were $87.31bn in FY2025-26 per IBEF/commerce data)" — The article conflates the $63.9bn (exports to the USA in the 12 tracked chapters) with India's total exports to the USA ($87.31bn). The $63.9bn is a subset of the total, not the total itself, and the comparison is misleading because it implies the tracked chapters represent the majority of exports to the USA, which is not necessarily true. [confidence: high]
+- "The USA is the top-8 destination in 11 of the 12 fastest-growing export chapters, ranking #1 or #2 in 9 of them — $63.9bn combined across just these tracked chapters (India's total exports to the US were $87.31bn in FY2025-26 per IBEF/commerce data)" — The claim implies a causal link between the concentration of exports to the USA in these 12 chapters and the overall export performance to the USA, but the $63.9bn figure is only for the tracked chapters, not the total $87.31bn. The comparison is apples-to-oranges because the $63.9bn is a subset of the total exports to the USA. [confidence: high]
 
-- "PLI Bulk Drugs ... generating ₹1,962 crore in sales (₹479 crore of it exports) and avoiding an estimated ₹1,483 crore in imports — explicitly aimed at cutting India's roughly 70% dependence on Chinese bulk-drug imports." — The article claims the PLI Bulk Drugs scheme is "explicitly aimed" at reducing import dependence, but the sales and export figures provided are relatively small compared to the scale of India's bulk-drug imports (which are in the tens of billions). The causal link between the scheme's impact and import reduction is not supported by the data presented. [confidence: high]
+- "PLI Bulk Drugs ... generating ₹1,962 crore in sales (₹479 crore of it exports) and avoiding an estimated ₹1,483 crore in imports — explicitly aimed at cutting India's roughly 70% dependence on Chinese bulk-drug imports." — The article claims the PLI Bulk Drugs scheme is "explicitly aimed at cutting India's roughly 70% dependence on Chinese bulk-drug imports," but the figures provided (₹1,962 crore in sales, ₹479 crore in exports, ₹1,483 crore in import substitution) do not directly quantify or demonstrate a reduction in import dependence. The causal link between the scheme's outputs and the 70% import dependence is not supported by the data presented. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

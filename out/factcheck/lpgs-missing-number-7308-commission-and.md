@@ -16,19 +16,19 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99537, Requested 2749. Please try again in 32m55.103999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99191, Requested 2749. Please try again in 27m56.16s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — The calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08 commission) is mathematically correct, but the underlying data (10.58 crore beneficiaries and 4.71 refills/year) is not sourced from a primary government document in the article, raising doubts about its accuracy. [confidence: medium]
+- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — The calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08) is correct, but the claim that this is the "Annual distributor commission on Ujjwala refills alone" is misleading because it is presented as a verified figure when the article explicitly states it is "this article’s own computation and is not a government-published total." [confidence: high]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The claim that LPG's margin is "roughly half the MDR exposure" compared to fuel dealers is misleading because it conflates the *size of the margin* (7.76% for LPG vs. 3.87% for petrol) with *exposure to MDR*. While the MDR's impact as a percentage of margin is smaller for LPG (e.g., 1% MDR eats 12.9% of LPG's margin vs. 25.8% for petrol), the article incorrectly frames this as LPG being "safer" without clarifying that the absolute MDR burden (₹ per transaction) depends on the ticket size, which is not compared here. [confidence: high]
+- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The claim that LPG's margin is "roughly half the MDR exposure" is an apples-to-oranges comparison. The MDR exposure depends on the fee rate (e.g., 0.25%, 0.30%, 1.00%) applied to the margin, not the margin itself. The article correctly calculates the impact of MDR on LPG's margin (e.g., 12.9% at 1.00% MDR), but the phrasing implies a direct comparison of margins, which is misleading. [confidence: high]
 
-- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay" — The article compares the *computed* distributor commission (₹3,642 crore) to the *government-approved* PMUY subsidy budget (₹12,000 crore), but the subsidy budget is for *subsidized cylinders*, while the commission applies to *all* refills (including unsubsidized ones). This apples-to-oranges comparison inflates the perceived share of the subsidy budget consumed by commissions. [confidence: high]
+- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — The claim that the distributor commission is "about 30% of the scheme’s entire subsidy outlay" is an extrapolation beyond the data. The subsidy outlay is ₹12,000 crore for FY2025-26, but the commission is only for Ujjwala refills (PMUY beneficiaries), not the entire scheme. The article does not establish that the subsidy outlay applies solely to Ujjwala refills, so the comparison is not valid. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

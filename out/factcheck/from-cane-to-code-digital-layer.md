@@ -16,21 +16,19 @@ Source: `posts/from-cane-to-code-digital-layer.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99246, Requested 2791. Please try again in 29m19.967999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 2791. Please try again in 34m30.143999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article cites a publication date of 8 August 2026, but the content references events and data (e.g., "ESY2025-26," "June 2026," "March 2026") that are either future-dated or inconsistent with a 2026 publication date. This creates a temporal contradiction. [confidence: high]
+- "Published 8 August 2026" — The date is impossible as the article references events and sources dated June 2026 and March 2026, and the "ESY2025-26" data is partial (to March 2026). The publication date is likely a typo or misstatement. [confidence: high]
 
-- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article attributes this figure to a Rajya Sabha unstarred question (9 March 2026), but the claim lacks a direct citation to the official source (e.g., a parliamentary document or government press release). The figure is presented as a fact without verifiable primary evidence in the text. [confidence: medium]
-
----
+- "Maruti Suzuki launch India's first flex-fuel car (June 2026)" — While the article cites this claim, it does not provide a verifiable source or confirm the exact date. Flex-fuel vehicle launches in India have historically been associated with earlier dates (e.g., 2021), and the claim lacks corroboration. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article presents this vendor-reported figure as a factual efficiency gain without clarifying that it is a *claimed* improvement (not independently audited) and may not reflect real-world performance across the industry. The lack of caveats about the unreliability of vendor data creates a false impression of certainty. [confidence: high]
+- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article attributes this figure to government sources but does not explain how the cumulative forex savings were calculated or whether they account for potential offsets (e.g., ethanol imports, feedstock costs, or opportunity costs). Without this context, the claim risks double-counting or overstating net benefits. [confidence: high]
 
-- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The article cites this as a concrete outcome, but it is based on a small, unaudited pilot (the "Super 50 AI Farmers" cohort in Jalna district). The claim extrapolates localized results to broader farm yields without addressing selection bias, sample size limitations, or external validity. [confidence: high]
+- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article reports vendor-claimed efficiency gains without clarifying whether these improvements are net of additional energy or chemical inputs required by AI systems. The claim implies a direct yield increase, but the operational reality may involve trade-offs not addressed. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

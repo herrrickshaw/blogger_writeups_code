@@ -16,19 +16,19 @@ Source: `posts/where-india-actually-burns-its-fuel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99062, Requested 2278. Please try again in 19m17.76s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99147, Requested 2278. Please try again in 20m31.2s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references data up to FY2024-25 (ending March 2025) and cites sources dated May 2026 (e.g., PNGRB's count). The publication date is likely a typo or hallucination. [confidence: high]
+- "Published 8 August 2026" — The publication date is impossible as the article references data up to FY2024-25 (ending March 2024) and future projections (FY2024-25 is not yet complete as of August 2026). The PPAC workbook is likely dated August 2025, not 2026. [confidence: high]
 
-- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The PNGRB data is cited as of May 2026, but the article claims these figures are used in the analysis. However, the analysis covers FY2008-09 to FY2024-25, and the May 2026 data would not be available for the entire period. The use of future-dated data for historical analysis is incorrect. [confidence: high]
+- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026)" — The date is impossible as the article was published before May 2026 (per the "Published 8 August 2026" claim). The PNGRB data would not be available for a future date. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Delhi is exactly what its gas and metro build-out was meant to achieve" — The article attributes Delhi's slow fuel growth to its CNG, metro, and vehicle-age policies, but it does not quantify the contribution of these factors. The causal claim is asserted without decomposition or evidence, making it an unsupported interpretation. [confidence: high]
+- "Delhi is exactly what its gas and metro build-out was meant to achieve" — The article attributes Delhi's slow fuel growth to CNG, metro expansion, and vehicle-age rules, but does not provide quantified evidence or decomposition to support this causal claim. The correlation is asserted without isolating the contribution of these factors. [confidence: high]
 
-- "The frontier moved east to Odisha and Chhattisgarh — and the slowest-growing fuel market in India is Delhi" — While the growth rates are correctly stated, the framing implies a causal or structural shift (e.g., "frontier") without explaining why these states (Odisha, Chhattisgarh) are leading growth. The interpretation conflates correlation (growth rates) with causation (e.g., industrialization, motorization) without clarifying the underlying drivers. [confidence: medium]
+- "The increment is two-wheelers and cars, not trucks and tractors — which is why the ethanol-blending programme (petrol-side) keeps gaining policy leverage while diesel-side interventions fade" — While the shift toward petrol demand is noted, the article does not provide data or analysis to directly link this shift to the ethanol-blending program or to demonstrate that diesel-side interventions have "faded" in relevance. This is an unsupported causal extrapolation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

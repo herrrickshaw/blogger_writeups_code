@@ -16,15 +16,15 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99188, Requested 1484. Please try again in 9m40.608s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99278, Requested 1484. Please try again in 10m58.368s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it incorrect or unverifiable. [confidence: high]
+- "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI-generated text can occasionally misstate figures or 'hallucinate' details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone." — While the disclaimer is technically correct, it is placed *after* the article content rather than as a clear warning at the beginning. This misinterprets the purpose of such disclaimers, which should typically precede the content to avoid misleading readers about the reliability of the information. [confidence: medium]
+- "AI-generated text can occasionally misstate figures or 'hallucinate' details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone." — While the disclaimer is technically correct, it is placed *after* the article text itself, which could mislead readers into assuming the entire article was AI-generated without proper verification. This creates a false implication that the article's content is untrustworthy, rather than just the AI-generated text (if any). The disclaimer should precede the content it refers to. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,15 +16,15 @@ Source: `posts/india-grain-cultivation-fci-storage.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99808, Requested 2185. Please try again in 28m41.952s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99455, Requested 2185. Please try again in 23m36.96s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Punjab has 569 FCI depots but only 78 FPOs" — The article later contradicts this by stating Punjab has 569 FCI depots but only 78 FPOs in the initial schematic map, while the detailed list shows Punjab with 569 FCI depots and 78 FPOs. However, the initial claim in the schematic map text is inconsistent with the later detailed list (which is correct). [confidence: high]
+- "Punjab has 569 FCI depots" — The article later states Punjab has 569 FCI depots in the state list, but the top 12 states table lists Punjab with 262 FCI depots. This inconsistency suggests a factual error in the number of FCI depots for Punjab. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the storage belt and the FPO belt are different states" — While the data shows a divergence between states with high storage capacity (e.g., Madhya Pradesh, Punjab) and those with high FPO counts (e.g., Uttar Pradesh), the article implies this is a systemic or policy-relevant distinction without providing evidence or analysis to support why this divergence matters or what it signifies. The claim is presented as a conclusion without explaining the implications or underlying causes. [confidence: medium]
+- "the storage belt and the FPO belt are different states" — While the article correctly notes that Madhya Pradesh has both high storage (200 LMT) and high FPOs (348), and Punjab has high storage (174 LMT) but low FPOs (78), the claim that these represent distinct "belts" implies a geographic or policy-driven separation that isn't directly supported by the data. The data shows state-level variations but does not establish a broader "belt" pattern or causal link between storage capacity and FPO prevalence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

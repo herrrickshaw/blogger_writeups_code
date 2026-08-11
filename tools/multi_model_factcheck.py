@@ -189,7 +189,7 @@ def ask_gemini(k, text):
         d = json.loads(urllib.request.urlopen(req, timeout=120).read())
     except urllib.error.HTTPError as e:
         return f"[Gemini API error {e.code}: {e.read().decode()[:300]}]"
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, OSError) as e:
         return f"[Gemini network error: {e}]"
     cand = (d.get("candidates") or [{}])[0]
     return "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", [])).strip() or "[empty response]"
@@ -209,7 +209,7 @@ def ask_groq(k, model, text):
         d = json.loads(urllib.request.urlopen(req, timeout=120).read())
     except urllib.error.HTTPError as e:
         return f"[Groq/{model} API error {e.code}: {e.read().decode()[:300]}]"
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, OSError) as e:
         return f"[Groq/{model} network error: {e}]"
     try:
         return d["choices"][0]["message"]["content"].strip()
@@ -230,7 +230,7 @@ def ask_kimi(k, text):
         d = json.loads(urllib.request.urlopen(req, timeout=120).read())
     except urllib.error.HTTPError as e:
         return f"[Kimi API error {e.code}: {e.read().decode()[:300]}]"
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, OSError) as e:
         return f"[Kimi network error: {e}]"
     try:
         return d["choices"][0]["message"]["content"].strip()
@@ -251,7 +251,7 @@ def ask_mistral(k, text):
         d = json.loads(urllib.request.urlopen(req, timeout=120).read())
     except urllib.error.HTTPError as e:
         return f"[Mistral API error {e.code}: {e.read().decode()[:300]}]"
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, OSError) as e:
         return f"[Mistral network error: {e}]"
     try:
         return d["choices"][0]["message"]["content"].strip()
@@ -272,7 +272,7 @@ def ask_cerebras(k, text):
         d = json.loads(urllib.request.urlopen(req, timeout=120).read())
     except urllib.error.HTTPError as e:
         return f"[Cerebras API error {e.code}: {e.read().decode()[:300]}]"
-    except urllib.error.URLError as e:
+    except (urllib.error.URLError, OSError) as e:
         return f"[Cerebras network error: {e}]"
     try:
         return d["choices"][0]["message"]["content"].strip()

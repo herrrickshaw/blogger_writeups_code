@@ -16,19 +16,19 @@ Source: `posts/reinvesting-capital-gains-in-higher.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99393, Requested 4020. Please try again in 49m8.832s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99034, Requested 4020. Please try again in 43m58.656s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 7 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Revised 7 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹34.0L What the unchanged ₹50 lakh cap is worth in FY2014-15 wholesale prices" — The calculation uses a wholesale price index (WPI) of 114.1 in April 2014 and 167.6 in April 2026, but the WPI value for April 2026 is not yet available (as of 2023), making this claim unverifiable. [confidence: high]
+- "₹34.0L What the unchanged ₹50 lakh cap is worth in FY2014-15 wholesale prices" — The calculation uses WPI (Wholesale Price Index) with a base of 2011-12, but the article does not specify the exact WPI value used for April 2026 (only mentions 167.6 in April 2026 without a source). The claim lacks verifiable sourcing for the exact deflated value. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "5.25% against 8.05% is not a yield gap. It is two different questions." — While the article correctly notes that comparing the coupons of 54EC bonds and RBI savings bonds is apples-to-oranges, it later claims that the "only honest comparison is terminal wealth." However, the terminal wealth comparison itself is flawed because it assumes reinvestment of coupons at a fixed post-tax rate (5.54%), which may not reflect actual market conditions or investor behavior. The model does not account for reinvestment risk or the possibility of lower future rates, which could materially affect the outcome. [confidence: high]
+- "5.25% against 8.05% is not a yield gap. It is two different questions." — While the article correctly notes that comparing the coupons of 54EC bonds and RBI savings bonds is apples-to-oranges, it later uses this comparison to argue that 54EC bonds are superior based on terminal wealth calculations. However, the article does not adequately address the opportunity cost of locking funds in 54EC bonds for five years (e.g., liquidity constraints, alternative investment horizons, or the risk of needing the capital earlier). The terminal wealth comparison assumes the investor has no other use for the funds, which may not reflect real-world decision-making. [confidence: high]
 
-- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it" — The article correctly notes that the advantage of 54EC decays over time, but it does not adequately explain why this is an *interpretation error* in the context of the instrument's purpose. The decay is framed as a negative, but the instrument's primary benefit (tax deferral) is inherently time-bound, and the decay is a natural consequence of the lock-in period. The article conflates the decay with a flaw in the instrument, rather than acknowledging that the decay is a feature of the design (i.e., the tax shield is front-loaded). [confidence: medium]
+- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it." — The article correctly notes that the advantage of 54EC bonds diminishes over time, but it does not fully explore the implications of this for policy design. The claim implies that the instrument is only beneficial at its lock-in length, but the article does not discuss whether this is a feature or a bug of the policy. The interpretation treats the decay as a negative without considering whether the policy's design (e.g., lock-in period) is intentional to align with infrastructure financing timelines. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

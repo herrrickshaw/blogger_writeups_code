@@ -16,19 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99631, Requested 5640. Please try again in 1h15m54.144s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99286, Requested 5640. Please try again in 1h10m56.063999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect as July 15, 2026 is in the future (as of the article's publication date of July 31, 2026) and cannot be a past event. The policy may not have been approved yet. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article states the approval was given "3 days before the data cutoff" (which is 31 Jul 2026), implying the approval date was 28 Jul 2026, not 15 Jul 2026. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The subsidy estimate for urea (~₹1.19 lakh crore) appears inconsistent with historical data. For example, the urea subsidy in FY2023-24 was around ₹1.08 lakh crore, and the NBS component for FY2025-26 is unlikely to reach ₹49,000 crore alone, making the combined total implausibly high. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is outside the stated range of ₹1.5–1.7 lakh crore. The range appears to be incorrectly rounded or misstated. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — This claim conflates "subsidies or policy protection" with the 12 commodity categories analyzed. The 81.6% share of the 12 categories does not imply that these commodities *receive* subsidies or protection—only that they are the focus of the analysis. The conclusion incorrectly generalizes the scope of the data. [confidence: high]
+- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — The claim is based on the sum of the 12 subsidised categories ($632.8bn) as a share of total imports ($775bn), which is ~81.6%. However, the article later states that these categories "carry subsidies or policy protection," but some (e.g., Pearls, Gems & Jewellery) are explicitly noted as "not an import-substitution candidate" and involve re-export flows. Including such categories inflates the share without reflecting actual import substitution or subsidy burden. [confidence: high]
 
-- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The article double-counts subsidies by including both the fuel subsidy estimate (₹50,000–70,000 crore) and the fertiliser subsidy estimate (₹1.5–1.7 lakh crore) in the total, while also noting that the fuel subsidy "saved money" due to lower global prices. This inflates the total subsidy burden without accounting for overlapping or mutually exclusive accounting. [confidence: high]
+- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The subsidy cost is attributed to supporting "these imports" (the 12 categories), but the breakdown shows that only 6 categories (Mineral Fuels, Fertilisers, Edible Oils, Electrical Machinery, Specialty Steel, Medical Devices) have estimated subsidy costs. The remaining 6 categories (e.g., Plastics, Inorganic Chemicals, Aircraft) have no subsidy burden listed, yet the total subsidy cost is presented as supporting all 12 categories. This double-counts or misattributes the subsidy burden. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

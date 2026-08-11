@@ -16,19 +16,19 @@ Source: `posts/thermal-parity-is-dead-what-85-oil-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99128, Requested 3654. Please try again in 40m3.648s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99217, Requested 3654. Please try again in 41m20.544s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The date is impossible as the article references data from August 2026 (e.g., "$85.2/bbl, 4 August 2026") but is being fact-checked in the present, indicating a future-dated publication claim that cannot be correct. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "$7 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The article later clarifies the actual notified APM gas price for August 2026 is $7.86/MMBtu, not $7, and the ceiling is $8.90/MMBtu for difficult fields. The "$7" figure is outdated or incorrect. [confidence: high]
+- "$7 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The article later cites the actual notified APM gas price as $7.86/MMBtu (not $7) and the crude price as $85.2/bbl (not $85). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s own domestic gas price is a live experiment in the opposite direction: a formula that re-pegs gas to crude by government notification, every month, regardless of what the physical energy-equivalence math says it should cost." — While the formula ties gas to crude, the claim implies this is a deliberate rejection of thermal parity, but the article later notes the ceiling ($7.86) is binding below the formula's raw output ($8.4–8.5), meaning the pass-through is incomplete. The "opposite direction" framing overstates the decoupling avoidance by ignoring the ceiling's role in partially decoupling prices. [confidence: high]
+- "That is not a coincidence of geography; it is two different pricing regimes, one of them mechanically tied to oil and one of them not." — While the article correctly notes that India’s APM gas is tied to crude and US Henry Hub gas is not, it incorrectly implies that the difference in oil-to-gas ratios (2.0× vs. 5.8× thermal parity) is solely due to pricing regimes. The comparison is apples-to-oranges because it contrasts an Indian crude basket price with a US gas price, which are not traded in the same market or subject to the same supply/demand dynamics. The article acknowledges this ("illustrative of scale, not a claim that Indian crude and US gas trade in the same market"), but the phrasing still overgeneralizes the cause of the ratio difference. [confidence: high]
 
-- "The 2015 cointegration study’s empirical finding is the after-the-fact confirmation of what the 2006 review predicted was possible." — The 2006 review predicted *potential* decoupling via fuel-switching, but the 2015 study confirmed *actual* decoupling via statistical cointegration analysis. The phrasing conflates prediction with confirmation, implying the review's prediction was uniquely validated when other mechanisms (e.g., shale gas) could also explain the break. [confidence: medium]
+- "A crude price fall, symmetrically, would flow straight through to the 10% calculation until it hits the $4 floor." — The article correctly describes the formula mechanics but misinterprets the decoupling effect. The ceiling ($7.86) is currently binding, so a crude price fall would *not* flow through symmetrically—it would only flow through until the ceiling is no longer binding (i.e., until the 10% calculation drops below $7.86). The symmetry claim ignores the asymmetric role of the ceiling as a cap. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

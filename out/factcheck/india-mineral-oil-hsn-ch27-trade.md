@@ -16,21 +16,19 @@ Source: `posts/india-mineral-oil-hsn-ch27-trade.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99789, Requested 3553. Please try again in 48m7.488s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99437, Requested 3553. Please try again in 43m3.36s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims this figure is for FY25-26 H1, but the fiscal year 2025-26 (April 2025–March 2026) has not yet occurred as of the current date (June 2025). This is a future projection mislabeled as a historical fact. [confidence: high]
+- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims this figure is for FY25-26 H1, but the data source (PPAC Ready Reckoner) is only available for H1 of FY2025-26 (April-September 2025), not the full fiscal year. The claim implies it covers the first half of the fiscal year, but the phrasing could mislead readers into thinking it's a full-year figure. [confidence: high]
 
-- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46" — The Kirit Parikh Committee report (2023) does not set a floor/ceiling mechanism tied to the Indian crude basket for APM gas. The committee recommended a market-linked pricing formula, not a fixed floor/ceiling tied to crude. [confidence: high]
-
----
+- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The article presents this as a full-year FY25-26 figure, but the caveats note that FY2025-26 data is provisional and H1 columns are half-year. The claim does not clarify this limitation, risking misinterpretation as a finalized annual figure. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Implied $/bbl from trade value÷quantity tracks the Indian basket within ±6% every year — the core consistency check." — While the implied $/bbl may track the Indian basket closely, this does not necessarily validate the *entire* pricing mechanism or trade data accuracy. The ±6% range could reflect minor discrepancies in trade reporting, currency conversion, or timing differences rather than a true validation of the pricing formula's integrity. The claim implies a stronger causal link between the consistency check and the reliability of the pricing formula than is justified. [confidence: medium]
+- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The claim suggests that the Kirit Parikh 2023 formula for APM gas pricing is directly tied to the Indian crude basket, implying a causal link where the gas price is derived from crude prices. However, the Kirit Parikh Committee (2023) actually recommended a formula based on a weighted average of imported and domestic gas prices, with a floor and ceiling, but not a direct 1:1 linkage to the Indian crude basket. The crude basket is only one factor in the broader gas pricing mechanism. [confidence: high]
 
-- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article states this ratio as a fixed rule, but the Trade Parity Price (TPP) formula is actually defined as TPP = 0.80 × IPP + 0.20 × EPP, where IPP and EPP are weighted components. The phrasing "80 : 20 Trade Parity Price = IPP : EPP weight" incorrectly suggests a direct equivalence between the ratio and the weights, rather than clarifying that the weights are applied to the components in the formula. This conflates the formula's structure with a standalone ratio. [confidence: high]
+- "Implied $/bbl from trade value÷quantity tracks the Indian basket within ±6% every year — the core consistency check." — The claim implies that the consistency check (trade value divided by quantity) is a reliable proxy for the Indian crude basket price. However, this method assumes that the unit value derived from trade data accurately reflects the Indian basket, which may not account for differences in crude grades, quality adjustments, or timing mismatches between trade data and benchmark pricing. The ±6% range is presented as a validation, but it does not establish causality or accuracy in tracking the Indian basket. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

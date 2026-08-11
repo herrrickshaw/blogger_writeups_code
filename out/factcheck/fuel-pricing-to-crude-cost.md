@@ -16,17 +16,19 @@ Source: `posts/fuel-pricing-to-crude-cost.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99225, Requested 4989. Please try again in 1h0m40.895999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99585, Requested 4989. Please try again in 1h5m51.936s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "AI-generated text and computed scenarios can misstate figures even when working from real source data — verify any number that matters to a decision against the linked primary source." — This is a meta-commentary about the article itself, not a factual claim about the subject matter (fuel pricing). It does not qualify as a factual error in the context of the article's content. [confidence: high]
-- "AI Disclosure: This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above." — While the AI assistance is disclosed, the claim that the article was "written with AI assistance" is not a factual error in the context of the article's content, as it is a disclosure rather than a claim about fuel pricing. [confidence: high]
+- "₹100.35/l PPAC published: ₹94.77/l" — The article incorrectly states the PPAC published petrol RSP in Delhi as ₹100.35/l when the table clearly shows ₹94.77/l. This is a direct contradiction of the cited source. [confidence: high]
+
+- "$78.87/bbl Brent Crude, live (OilPriceAPI & Rigzone agree to 2¢)" — While the Brent crude price is correctly cited as $78.87/bbl, the claim that OilPriceAPI and Rigzone agree to 2¢ is unverifiable and not supported by the data-quality note, which highlights conflicting fields in OilPriceAPI's response. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Because none of these four components move with crude, they are the lever government has historically pulled to cushion pump prices when crude spikes, and the reason the 'full pass-through' scenarios below likely overstate how much of a crude rally would actually reach the pump." — The article correctly notes that excise duties are fixed and do not move with crude prices, but it does not provide evidence that the government has *historically* used these duties as a lever to cushion pump prices. The claim assumes a causal relationship without demonstrating it with data or historical examples. [confidence: medium]
-- "Capacity is not the constraint. India's installed ethanol distillery capacity is roughly 2,000 crore litres for ESY2025-26 (CareEdge estimate), against 904.8 crore litres actually drawn by PSU OMCs in ESY2024-25 (PPAC Table 6.10) — about 1,095 crore litres of spare, already-built capacity sitting unused." — While the capacity figures may be correct, the article implies that this spare capacity can be immediately utilized to increase ethanol blending during a crude shock without considering logistical, regulatory, or feedstock constraints (e.g., the 46.4% reliance on maize, which competes with food security). The claim overstates the practical feasibility of rapid scaling. [confidence: high]
+- "a 97% swing in crude (past-year low to high) would, on a naive full pass-through, move Delhi petrol by ≈43% (₹87.65 to ₹125.71)" — The article assumes a "naive full pass-through" scenario where only the dealer price and VAT layers scale with crude, but this ignores that VAT is a percentage-based tax applied on top of the dealer price, excise, and commission. The actual pass-through would be higher because VAT compounds on the increased dealer price, making the 43% estimate an understatement. [confidence: high]
+
+- "Because ethanol's cost is fixed annually by government notification rather than tracking crude, a higher blend share structurally dampens how much a crude spike passes through to the pump" — The article correctly notes that ethanol's cost is fixed, but it incorrectly implies that this alone reduces volatility. In reality, the excise exemption on ethanol (not its fixed cost) is the primary reason for reduced volatility, as the excise duty is only applied to the non-ethanol portion of the blend. The fixed cost of ethanol does not directly affect the pass-through of crude price changes. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

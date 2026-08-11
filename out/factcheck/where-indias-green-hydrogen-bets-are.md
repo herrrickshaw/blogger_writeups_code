@@ -16,19 +16,17 @@ Source: `posts/where-indias-green-hydrogen-bets-are.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99030, Requested 2348. Please try again in 19m50.592s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99116, Requested 2348. Please try again in 21m4.896s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "8,000 TPA Green hydrogen capacity actually commissioned, as of February 2026" — The article claims 8,000 tonnes per annum (TPA) of green hydrogen capacity is commissioned as of February 2026, but this figure is inconsistent with the earlier statement that only 8,000 TPA is commissioned against a 5-million-tonne target. The 8,000 TPA figure is likely a cumulative total of commissioned projects, not an annual capacity. The article does not clarify whether this is annual or cumulative, creating ambiguity. [confidence: high]
-
-- "Mission funding itself has ramped slowly: ₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26." — The article does not specify the fiscal years (e.g., FY24 = 2023-24) or provide a source for these funding figures. Without a clear reference, these numbers cannot be verified. [confidence: medium]
+- "8,000 TPA Green hydrogen capacity actually commissioned, as of February 2026" — The article cites this figure, but it is inconsistent with the broader context. The National Green Hydrogen Mission's target is 5 million tonnes by 2030, and the article later states that commissioned capacity is ~0.16% of this target. However, 8,000 tonnes is 0.16% of 5 million, which suggests the figure is correct. No factual error is found here. [confidence: high]
+- "126-project pipeline behind that gap tells you where the real bets are being placed" — The article claims the pipeline consists of 126 projects, but the registry actually names 126 production projects, 21 electrolyser/fuel-cell manufacturing plants, and 40 other related projects, totaling 187 projects. The claim undercounts the total number of projects. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Almost none of it is built yet — but the geography of where it's being announced is itself the story." — The article uses the lack of built capacity to argue that the geographic distribution of announcements reveals strategic priorities. However, the absence of built capacity does not inherently validate the significance of these announcements as indicators of real investment or feasibility. The claim assumes that announcement geography reflects actual future outcomes, which is speculative without evidence of project progression or economic viability. [confidence: high]
-
-- "The registry names a project's state for 116 of its 126 production entries (the rest are unlocated multi-site "plans"). Ranked by project count, the picture is a handful of coastal and port-adjacent states doing almost all of the early running" — The article equates project count with strategic importance, implying that states with more projects are prioritizing green hydrogen more effectively. However, project count does not account for differences in project scale, feasibility, or actual investment. A state with fewer but larger projects could be more significant in terms of capacity or economic impact. The interpretation conflates quantity with strategic value. [confidence: high]
+- "Almost none of it is built yet — but the geography of where it's being announced is itself the story." — While the article correctly notes that most projects are not built, it implies that the geography of announcements alone reveals strategic intent without sufficient evidence. The concentration of projects in coastal states could reflect port access for exports, but the article does not provide data or analysis to confirm that this is the primary reason for the geographic distribution. [confidence: medium]
+- "Mission funding itself has ramped slowly: ₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26." — The article presents these figures as slow funding growth but does not contextualize them against the mission's total budget or the scale of investments required for the 5-million-tonne target. Without this context, the claim that funding is "slow" is an unsupported interpretation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

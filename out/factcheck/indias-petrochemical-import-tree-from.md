@@ -16,19 +16,19 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99652, Requested 1226. Please try again in 12m38.592s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99308, Requested 899. Please try again in 2m58.848s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The conversion from ₹1.25 lakh crore to ~$15 billion assumes an exchange rate of ₹86 per USD, but the article does not explicitly state this rate in the same context as the figure. The repo rate mentioned later (₹86 · repo india-omc-fuel-fleet-model) is not clearly tied to the conversion, making the figure unverifiable without additional context. [confidence: medium]
+- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The conversion from ₹1.25 lakh crore to ~$15 billion assumes an exchange rate of ₹86 per USD, but the article does not explicitly state this rate in the claim itself (it appears later in the text). Without this context, the conversion is unverifiable as presented. [confidence: high]
 
-- "Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC" — The source "Digital Refining" is not cited with a specific publication, date, or accessible reference, making it difficult to verify the accuracy of these marginal and full COTC (crude-to-chemicals) premium figures. [confidence: medium]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — The claim that these specific products are "~85–100% imported" is not directly sourced or verified in the quoted text. The article cites "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" but does not provide the exact import dependence figures for these products in the claim itself. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the claim that these products are highly import-dependent is supported by the data, the article implies that cracking ethanol/EV-free petrol-range volume into these products would "capture the petrochemical premium" and "erase an import." This is an overstatement because substituting imports with domestic production would not necessarily "erase" imports entirely; it would only reduce import dependence. The causal claim that cracking petrol-range streams directly leads to import substitution without addressing infrastructure, economics, or policy constraints is unsupported. [confidence: high]
+- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The claim implies a direct causal link between cracking petrol-range streams into these products and erasing imports, but it does not address feasibility, infrastructure constraints, or economic viability (e.g., whether domestic production would actually replace imports given cost, technology, or policy barriers). The "petrochemical premium" figures are presented as a benefit but are not tied to the import substitution claim in a verifiable way. [confidence: high]
 
-- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)." — The use of approximate values across multiple sources (2023–2025) without clarifying the base year or methodology for approximation introduces ambiguity. This could lead to misinterpretation of the data's reliability or comparability over time, especially if the figures are used for policy or investment decisions. [confidence: high]
+- "Each product carries the ITC-HS code to pull live tonnage, value and origin on Tradestat (tradestat.commerce.gov.in) or Niryat." — While the ITC-HS codes are provided for traceability, the article does not explain how these codes would directly translate to actionable import substitution strategies or policy recommendations. The claim assumes a functional link between data accessibility and policy outcomes without demonstrating how the data would be used to reduce imports. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

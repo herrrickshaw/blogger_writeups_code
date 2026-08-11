@@ -16,19 +16,19 @@ Source: `posts/india-has-tax-treaties-with-97.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99799, Requested 2958. Please try again in 39m42.048s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99447, Requested 2958. Please try again in 34m37.92s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 9 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 9 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India–UK CETA (signed July 2025)" — The Comprehensive Economic and Trade Agreement (CETA) between India and the UK was not signed in July 2025; such an agreement does not exist as of 2023. This appears to be a fabrication or misrepresentation. [confidence: high]
+- "India–UK CETA (signed July 2025)" — The UK-CETA was not signed in July 2025; negotiations are ongoing, and no such agreement exists as of 2025. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — While the claim that India has DTAAs with 97 countries may be factually correct, the assertion that this network is "nearly universal" is an overgeneralization. The term "universal" implies near-complete coverage of all significant trading partners, which is not necessarily supported by the data. For example, India does not have a DTAA with several major economies like the United States (though it has a tax information exchange agreement) or Canada, which are significant trading partners. [confidence: high]
+- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — While the claim that India has DTAAs with 97 countries is factually correct, the assertion that the network is "nearly universal" is an overgeneralization. Many of these agreements are limited or outdated, and the claim implies a broader coverage than what is practically meaningful. [confidence: high]
 
-- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach" — While the distinction between tax treaties and trade agreements is correct, the conclusion that India's trade-agreement reach "still has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. Tax treaties and trade agreements serve fundamentally different purposes and are not directly comparable in scope or reach. The number of countries covered is not a meaningful metric for comparison because the underlying objectives and negotiation processes are entirely different. [confidence: high]
+- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach." — The comparison conflates two distinct policy tools (tax treaties vs. trade agreements) without accounting for their different objectives. Tax treaties address cross-border income taxation, while trade agreements focus on tariff reductions and market access. The conclusion that India's trade-agreement reach "has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

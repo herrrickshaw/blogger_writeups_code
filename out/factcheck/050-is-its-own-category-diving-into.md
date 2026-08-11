@@ -16,15 +16,19 @@ Source: `posts/050-is-its-own-category-diving-into.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99314, Requested 2197. Please try again in 21m45.504s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99704, Requested 2433. Please try again in 30m46.368s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "3.5 years of weekly local NSE price data (2 Jan 2023–7 Aug 2026)" — The date range spans 3 years and 7 months, not 3.5 years. [confidence: high]
+- "3,850 stocks priced under ₹250" — The article cites this number in multiple places, but the sources section states the data is for "3,850 stocks under ₹250" as of 11 Aug 2026. However, the NSE had 5,300+ listed stocks as of 2023, and the number of stocks under ₹250 fluctuates daily. The claim is unverifiable without a specific date and may be outdated or incorrect. [confidence: medium]
+
+- "6.5% risk-free proxy" — The article mentions a "6.5% risk-free proxy" without specifying the source or timeframe. The risk-free rate in India (e.g., 10-year G-Sec yield) was closer to 7% in 2023–2024 and has varied significantly. The claim lacks clarity and verification. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "price under roughly ₹250, and especially under ₹50, is doing double duty as a rough proxy for market capitalisation, which is the thing that's actually moving with risk" — The article conflates correlation with causation. While price and market cap are correlated (as shown by the rising median market cap across bands), the claim that price is *doing double duty as a proxy for market cap* implies a causal mechanism that isn't demonstrated. The data shows a relationship, but not that price itself is the driver of risk metrics like beta or Sharpe ratio. [confidence: high]
+- "It is not, on this evidence, a coincidence that the cheapest four out of every ten listed Indian stocks by count are also the segment with the highest beta, the worst Sharpe ratio, the most negative typical return, and no dividend income to show for holding through the volatility." — The article conflates correlation with causation. While the ₹0–50 band has the worst performance metrics, the claim that "price under roughly ₹250" is a proxy for market capitalization (and thus risk) is an interpretation, not a proven causal mechanism. The data shows a correlation between low price, low market cap, and high risk, but it does not prove that price itself is the driver of risk. Other factors (e.g., liquidity, governance, sector exposure) could also explain the pattern. [confidence: high]
+
+- "The gradient from there to ₹250 is clean and consistent across every metric checked (beta, Sharpe, return, market cap), reinforcing that market capitalisation and liquidity, not the price tag itself, are what's actually driving the pattern this deep into the cheap end of the market." — The article assumes that the observed gradient (e.g., rising market cap with higher price bands) implies that market cap is the *primary* driver of risk/return. However, the data does not isolate market cap as the sole explanatory variable. For example, the ₹50–100 band has a higher median market cap than the ₹0–50 band but still underperforms in Sharpe ratio and returns. The interpretation overgeneralizes the relationship without controlling for other variables (e.g., sector composition, profitability, or liquidity). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

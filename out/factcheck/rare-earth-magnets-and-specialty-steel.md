@@ -16,15 +16,15 @@ Source: `posts/rare-earth-magnets-and-specialty-steel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99437, Requested 1609. Please try again in 15m3.744s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99075, Requested 1609. Please try again in 9m50.976s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — The global average figure of 7 MRI units per million population is incorrect. According to OECD data, the global average is closer to 15-20 MRI units per million population, with developed countries like the US, Korea, and Japan having higher figures (e.g., US ~40, Korea ~30, Japan ~50 per million). [confidence: high]
+- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — The global average MRI units per million is incorrect. According to OECD data, the global average is closer to 15-20 per million, with the US at ~40, Korea at ~30, and Japan at ~50. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The claim implies that the REPM scheme's impact on reducing the electrical-machinery deficit (Chapter 85) is plausible due to the high value density of rare-earth magnets. However, the article does not provide evidence or data showing that the scheme's capacity (6,000 MTPA) or incentives (₹7,280 crore) are sufficient to meaningfully reduce a $50bn-plus deficit, nor does it address other critical factors like domestic mining/refining capacity, global supply chain competition, or the actual import substitution potential. The causal link between the scheme and deficit reduction is overstated. [confidence: high]
+- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it" — The claim implies that the $50bn-plus Chapter 85 electrical-machinery deficit is directly comparable to the value of rare-earth magnets, but the deficit is a trade balance figure encompassing a wide range of electrical machinery and equipment, while rare-earth magnets represent only a small fraction of that category. The comparison is an apples-to-oranges comparison. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

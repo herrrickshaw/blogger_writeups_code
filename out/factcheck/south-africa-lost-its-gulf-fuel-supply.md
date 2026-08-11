@@ -16,19 +16,19 @@ Source: `posts/south-africa-lost-its-gulf-fuel-supply.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99349, Requested 3106. Please try again in 35m21.12s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98992, Requested 3106. Please try again in 30m12.671999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this claim by stating that Indian refined-petroleum exports to South Africa were US$1.882 billion (rounded to US$1.88bn) in FY2025-26, but the initial figure is presented as a standalone claim without the exact breakdown. The correct figure is US$1.882 billion, not US$1.88 billion, which is a rounding discrepancy. [confidence: high]
+- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this with Exhibit 1, which shows FY2025-26 exports at US$1,882 million (US$1.882bn), not US$1.88bn. The rounding is inconsistent. [confidence: high]
 
-- "−32.6% Change on the previous year, before the disruption" — The article states that India's refined-petroleum exports to South Africa fell by 32.6% in FY2025-26 compared to FY2024-25, but the disruption (Strait of Hormuz closure) began in the following fiscal year (FY2026-27). However, the article later clarifies that the decline occurred entirely before the disruption, which is correct. The initial phrasing could mislead readers into thinking the decline was due to the disruption, which is incorrect. [confidence: high]
+- "−32.6% Change on the previous year, before the disruption" — The article claims this decline predates the Strait of Hormuz disruption, but the FY2025-26 data (ending March 2026) does not account for the April 2026 disruption. The decline is attributed to pre-crisis factors, but the timing is misaligned with the disruption's start. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India is roughly 6,000 nautical miles closer to Durban than the US Gulf Coast, and the industry’s own complaint in the same reporting is that freight and premiums have risen sharply, not just the flat product price. The buyer’s stated problem was delivered cost. The supplier that gained was the one furthest away." — The article correctly notes that India is closer to Durban than the US Gulf Coast and that freight costs have risen sharply. However, it incorrectly implies that the supplier that gained (the US) did so because of distance-related inefficiencies, ignoring other factors like supply availability, refinery capacity, and geopolitical constraints. The conclusion that India's disadvantage is "not distance" is an overgeneralization, as the US may have gained due to factors unrelated to distance. [confidence: medium]
+- "India was already losing this market — A third of it, in the year before the crisis." — The article claims India lost a third of its refined-fuel market in FY2024-25 (US$2,793m to US$1,882m), but this is a value decline, not a volume decline. Since TRADESTAT provided no quantity data, the decline in value could reflect price changes rather than actual market share loss. [confidence: high]
 
-- "Whatever India’s disadvantage in this market is, it is evidently not distance." — This claim is an interpretation error because it assumes that the US's gain in the South African market was solely due to India's inability to compete on distance-related factors. However, the article does not provide sufficient evidence to rule out other factors (e.g., supply chain resilience, refinery capacity, or geopolitical alignments) that could explain the US's advantage. The conclusion is an unsupported extrapolation. [confidence: medium]
+- "The supplier that gained was the one furthest away." — The article argues that the US (6,000 nautical miles farther than India) gained market share due to freight costs, but the April 2026 tanker data (one month of ship-tracking) does not prove substitution. The claim extrapolates from limited data without establishing a direct causal link between distance and market capture. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

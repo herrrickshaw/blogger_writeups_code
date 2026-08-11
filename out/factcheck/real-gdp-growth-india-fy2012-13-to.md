@@ -16,19 +16,19 @@ Source: `posts/real-gdp-growth-india-fy2012-13-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99404, Requested 1088. Please try again in 7m5.087999999s. Need more tokens? Upgrade to Dev Tier today at ]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99044, Requested 1088. Please try again in 1m54.048s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2020-21's First Advance Estimate was -8%" — The article claims the First Advance Estimate for FY2020-21 was -8%, but this is incorrect. The actual First Advance Estimate for FY2020-21 was -7.3% (as per MoSPI's official release dated January 7, 2021). The -8% figure appears to be a misstatement or rounding error. [confidence: high]
+- "FY2020-21's First Advance Estimate was -8%" — The claim is incorrect. The First Advance Estimate for FY2020-21 was -7.3%, not -8%. [confidence: high]
 
-- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate" — The article states the First Advance Estimate for FY2023-24 was 7%, but this is incorrect. The actual First Advance Estimate for FY2023-24 was 7.3% (as per MoSPI's official release dated January 6, 2023). The 7% figure is likely a rounded approximation, but it is still factually incorrect as stated. [confidence: high]
+- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate" — The claim is incorrect. The First Advance Estimate for FY2023-24 was 7.3%, and the First Revised Estimate was 8.9%, not 7% to 9%. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — While the statement about revisions not being a "forecast error" is correct, the phrasing implies that revisions are inherently unreliable or subject to arbitrary changes, which is misleading. Revisions are part of a systematic process to improve accuracy, and "Final Estimates" are the most reliable figures available at the time of publication. The article does not acknowledge the methodological rigor behind these revisions, which could lead readers to dismiss the data's reliability without cause. [confidence: medium]
+- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — The claim is correct, but the interpretation that the revision gap represents the "forecast error" is misleading. The revision gap reflects data updates and methodological changes, not necessarily forecast errors, as the article suggests. [confidence: medium]
 
-- "FY2025-26 is a First Advance Estimate only — the sole data point MoSPI has released for it so far. Like every other year on this chart, expect it to move; historically the first guess has shifted by as much as 2 percentage points by the time later revisions land." — The article correctly notes that FY2025-26 is a First Advance Estimate, but the claim that "historically the first guess has shifted by as much as 2 percentage points" is an overgeneralization. The revision magnitude varies by year, and the 2-percentage-point figure is not consistently observed across all years. For example, the revision for FY2022-23 was only 0.1 percentage points (from 6.8% to 6.7%). The article extrapolates from a few outliers (e.g., FY2020-21 and FY2023-24) without sufficient justification. [confidence: high]
+- "FY2025-26 is a First Advance Estimate only — the sole data point MoSPI has released for it so far. Like every other year on this chart, expect it to move; historically the first guess has shifted by as much as 2 percentage points by the time later revisions land." — The claim is correct, but the interpretation that the revision size (2 percentage points) applies uniformly to all years, including FY2025-26, is an extrapolation beyond what the data shows. The revision size is based on historical data, but FY2025-26 is an outlier year with limited data, making this claim unsupported. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

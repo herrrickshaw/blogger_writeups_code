@@ -16,19 +16,19 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99556, Requested 2061. Please try again in 23m17.088s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99212, Requested 2061. Please try again in 18m19.872s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim incorrectly states the relationship between ₹300 Cr and ₹11 Cr. Two orders of magnitude would imply ₹300 Cr is 100 times ₹3 Cr (not ₹11 Cr), making the comparison factually incorrect. [confidence: high]
+- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between ₹300 Cr and ₹11 Cr. ₹300 Cr is approximately 27 times larger than ₹11 Cr (not two orders of magnitude, which would imply ~100x). [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline is inconsistent. An 18-month plan starting in August 2026 would end in February 2028, not July 2027, indicating a miscalculation in the projected completion date. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline is inconsistent. An 18-month plan starting in August 2026 would conclude in February 2028, not July 2027. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat ration protein content (8-12g/day) and the proposed target (53g/day), but it does not account for whether the current 8-12g/day figure is based on actual consumption data or just theoretical ration specifications. Without verifying the source of the current protein intake data, the comparison may be misleading. [confidence: medium]
+- "54,700 jobs projected (farmers + logistics)" — The claim lacks clarity on how the job numbers were derived. The article does not explain the methodology for calculating job creation across farmers and logistics, nor does it provide a breakdown of assumptions (e.g., labor intensity per ₹ Cr of procurement). Without this, the figure cannot be validated as a reasonable projection. [confidence: medium]
 
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period are presented without clear justification or breakdown of how these figures were derived. The savings table shows a 5-year net savings of ₹8.51 Cr, but the ROI and payback period suggest immediate and high returns, which may not align with the actual financial projections provided. The reasoning gap lies in the lack of transparency in how these metrics were calculated. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the financial figures provided. The 5-year net savings (₹8.51 Cr) and setup/operating costs (₹2.85 Cr + ₹1.2–1.4 Cr/yr) do not clearly support a 150% ROI or 12-month payback. The deck’s figures appear inconsistent, and the ROI claim lacks a transparent derivation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

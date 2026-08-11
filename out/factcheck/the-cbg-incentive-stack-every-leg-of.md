@@ -16,19 +16,19 @@ Source: `posts/the-cbg-incentive-stack-every-leg-of.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99235, Requested 2039. Please try again in 18m20.735999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98955, Requested 2039. Please try again in 14m18.815999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹54/kg basis in the model, excl. 5% GST" — The article cites a May 2025 revision to the SATAT procurement price but does not provide a primary source for the ₹54/kg figure. The claim lacks verification against official MoPNG circulars or other authoritative documents. [confidence: medium]
+- "₹54/kg basis in the model, excl. 5% GST" — The article cites a May 2025 revision for the SATAT procurement price, but the linked MoPNG circular (20-May-2022 + 15-May-2025 revision) does not explicitly confirm ₹54/kg as the revised price. The claim lacks verifiable primary-source confirmation. [confidence: medium]
 
-- "₹0.59/kg" (impact on CNG pump price from 5% CBO) — The article claims that a 5% CBO would only increase the CNG pump price by ~₹0.59/kg, but no primary source or calculation methodology is provided to substantiate this specific price impact. [confidence: medium]
+- "the newest money on the page" (referring to SASCI — Special Assistance to States for Capital Investment 2026-27) — The article claims this is the "newest money," but the cited Department of Expenditure circular is dated Mar-2026, while other schemes (e.g., Chhattisgarh CBG Policy, 8-Jul-2026) are later. The claim is chronologically incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the plant sells into the grid rather than trucking to a pump" (CBG–CGD Synchronization Scheme) — While the scheme allows CBG injection into city-gas networks, the claim implies a complete elimination of trucking logistics, which may not account for plants located far from CGD grids or those without direct pipeline access. The interpretation overgeneralizes the scheme's impact. [confidence: high]
+- "the analysis shows even 5% [CBO] moves the CNG pump price only ~₹0.59/kg" — The article implies a direct causal link between the CBO mandate and a negligible pump price impact, but it does not provide the methodology, data, or assumptions behind this calculation (e.g., blending cost pass-through, market dynamics). The conclusion lacks transparency. [confidence: high]
 
-- "the newest money on the page" (SASCI — Special Assistance to States for Capital Investment 2026-27) — The article presents SASCI as a new funding mechanism tied to CBG-sector reforms, but it does not clarify whether this is a rebranded or expanded version of existing schemes (e.g., earlier state capital assistance programs). The claim risks double-counting or misattributing funds. [confidence: medium]
+- "the stack de-risks every leg of the CBG business model" — While the article lists multiple incentives, it does not demonstrate that these mechanisms collectively eliminate key risks (e.g., feedstock variability, operational costs, or market volatility) in a quantified or evidence-based way. The claim is an unsupported generalization. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,15 +16,15 @@ Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99815, Requested 631. Please try again in 6m25.344s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99463, Requested 631. Please try again in 1m21.216s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "82,000 outlets" — The article itself notes that the count is approximate and lacks a stated source, date, or basis for verification, making the figure unverifiable as presented. [confidence: high]
+- "82,000 outlets" — The article itself notes that the count basis and as-of date are not stated, and treats the figure as approximate pending citation. Without a verifiable source or date, this cannot be confirmed as accurate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of individual citations, it does not address the potential for double-counting or inconsistencies across datasets (e.g., OMC petrol pumps and CNG supply linkages) that could skew the analysis. The claim implies transparency but does not resolve the risk of methodological flaws in combining datasets. [confidence: medium]
+- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of individual citations, it does not address whether the analysis itself (beyond the raw data) is valid or properly interpreted. The article does not explain how the geocoded data was analyzed or what conclusions were drawn from it, leaving potential gaps in reasoning about the analysis' validity. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

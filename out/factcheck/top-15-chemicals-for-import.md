@@ -16,19 +16,19 @@ Source: `posts/top-15-chemicals-for-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99108, Requested 13572. Please try again in 3h2m35.52s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99194, Requested 13572. Please try again in 3h3m49.824s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene section) — The corrected Summary Table shows Ethylene imports as $44M, not $2.8B. The original claim was based on an invalid HSN code. [confidence: high]
-- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid section) — The corrected Summary Table shows Sulfuric Acid imports as $250M, not $1.65B. The original claim was based on an invalid HSN code. [confidence: high]
+- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene section) — The corrected Summary Table (2026-08-02) explicitly states the real FY25-26 import value for ethylene is $44M, not $2.8B. The article acknowledges this as a fabricated figure due to an invalid HSN code. [confidence: high]
 
----
+- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid section) — The corrected Summary Table shows the real FY25-26 import value for sulfuric acid is $250M, not $1.65B. The article admits this was based on an invalid HSN code. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "YoY Growth : +81% (significant demand surge; supply alert)" (Acetic Acid section) — The corrected Summary Table shows Acetic Acid growth as +2.6% YoY, not +81%. Even if the original +81% figure were correct, a YoY growth rate alone does not justify a "supply alert" without additional context about inventory levels, production capacity, or demand forecasts. [confidence: high]
-- "Import Dependency : 68% [rank vs. LDPE unverified against this page's own LDPE entry]" (HDPE section) — The article claims HDPE has a 68% import dependency but notes this ranking is unverified against the LDPE entry. This self-contradiction undermines the reliability of the dependency figure and suggests the authors did not cross-check their own data. [confidence: high]
+- "FY30 Savings : $980 million" (Ethylene section) — The article later retracts all FY30 savings figures in the Summary Table (2026-08-02), stating that mechanically applying old substitution-target percentages to corrected import values is not meaningful. The $980M savings claim is thus unsupported by the revised data. [confidence: high]
+
+- "Total : ~1.2 MMTPA (meets ~70% of Indian demand)" (TPA section) — The article claims India’s domestic TPA production meets ~70% of demand, but the corrected import value ($1,469M) and global production figures suggest a much higher import dependency (45%). The 70% self-sufficiency claim contradicts the stated 45% import dependency and lacks supporting evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

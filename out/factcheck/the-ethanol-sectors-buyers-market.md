@@ -16,19 +16,19 @@ Source: `posts/the-ethanol-sectors-buyers-market.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99216, Requested 1644. Please try again in 12m23.04s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99307, Requested 1644. Please try again in 13m41.664s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "~2,000 Cr L Current installed ethanol capacity" — The article cites this figure without a clear source or verification against the latest DFPD/OMC data, as noted in the disclaimer. The claim is unverifiable as presented. [confidence: medium]
+- "roughly 400 crore litres of additional capacity due by FY27" — The claim implies a specific future capacity addition, but the article does not provide a verifiable source or methodology for this estimate. FY27 projections are speculative without official government or industry data backing. [confidence: medium]
 
-- "~1,100 Cr L E20 fuel-blending demand" — This figure is presented as a current demand estimate but lacks a specific date or source verification, and the article itself notes that figures should be verified against the latest DFPD/OMC data. [confidence: medium]
+- "E20 fuel demand sitting around 1,100 crore litres" — The article presents this as a current figure, but ethanol demand is dynamic and depends on actual blending rates, which fluctuate monthly. The 1,100 crore litres figure is not sourced or verified against real-time OMC (Oil Marketing Companies) offtake data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim implies a direct causal link between overcapacity and consolidation in cooperative sugar mills, but the article does not provide evidence that overcapacity is the primary driver of consolidation in these mills. The funding structure (90:10 NCDC financing) and policy incentives may be more significant factors. [confidence: high]
+- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim suggests that overcapacity is the *direct cause* of consolidation in cooperative sugar mills (CSMs), but the article later notes that CSMs face governance complexities, technical limitations, and funding access issues that are independent of market overcapacity. Overcapacity may exacerbate existing challenges, but it is not the sole or primary driver of consolidation in CSMs. [confidence: high]
 
-- "EV displacement of two-wheeler petrol demand. A medium-term threat to blending-volume growth as two-wheeler electrification accelerates — ethanol’s non-fuel uses (industrial, pharma, potable) are the partial offset." — The claim assumes that EV displacement of petrol demand will directly reduce ethanol blending demand, but it does not account for potential policy adjustments (e.g., higher blending mandates) or the fact that ethanol has non-fuel uses that may compensate for reduced fuel demand. The reasoning gap is the lack of evidence that non-fuel uses will fully offset the decline in fuel demand. [confidence: medium]
+- "EV displacement of two-wheeler petrol demand. A medium-term threat to blending-volume growth as two-wheeler electrification accelerates — ethanol’s non-fuel uses (industrial, pharma, potable) are the partial offset." — The claim implies a causal link between EV adoption and reduced ethanol demand for fuel blending, but it does not account for potential policy adjustments (e.g., higher blending mandates) or the fact that ethanol's non-fuel uses are niche and unlikely to absorb the displaced fuel demand at scale. The reasoning conflates displacement with demand destruction without evidence of substitution or policy response. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

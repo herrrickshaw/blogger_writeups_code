@@ -16,19 +16,19 @@ Source: `posts/indias-ev-market-single-digit.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99702, Requested 5790. Please try again in 1h19m5.088s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99352, Requested 5790. Please try again in 1h14m2.688s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India registered roughly 2.5 million electric vehicles in FY2025-26 — up 24% year-on-year, and about double the volume of three years earlier." — The article later contradicts this by stating "India registered ~28.2 million vehicles across all fuel types in CY2025; EVs crossed 2.3 million of that" (CY2025 vs FY2025-26 inconsistency) and "Actual FY26 e-2W sales... were 1.4 million units" (which would not sum to 2.5 million across all segments). The 2.5 million figure appears inconsistent with later data. [confidence: high]
+- "India registered roughly 2.5 million electric vehicles in FY2025-26 — up 24% year-on-year, and about double the volume of three years earlier." — The article later contradicts this by stating "India registered ~28.2 million vehicles across all fuel types in CY2025; EVs crossed 2.3 million of that, or ~8%." The initial claim of 2.5 million EVs in FY2025-26 is inconsistent with the later CY2025 figure of 2.3 million EVs. [confidence: high]
 
-- "IEA counts ~88,000 [public charging stations] for India on a different methodology" — The IEA Global EV Outlook 2026 dataset cited later states India had ~88,000 public charging points (55k slow, 31k fast, 2k ultra-fast) in CY2025, but the article presents this as a separate count from CEEW-GFC/Vahan basis (29,000+ stations, 55% in 5 states), implying a discrepancy that is not clearly resolved. [confidence: medium]
+- "The IEA counts ~88,000 [public charging stations] for India on a different methodology" — The article cites CEEW-GFC/Vahan data for 29,000+ stations but references IEA's count of ~88,000 without clarifying that the IEA figure includes private and non-public charging points, which are not comparable to the public charging station count. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Three-wheelers are the outlier: past 60% electrified with essentially no personal-subsidy dependence, because the commercial TCO math already clears in this segment" — While the commercial TCO math may favor e-3Ws, the article later states that e-3W support under PM E-DRIVE runs to March 2028, meaning subsidies are still in place for this segment. The claim that they moved "without subsidy" is misleading because subsidies are still active, even if not the primary driver. [confidence: high]
+- "Three-wheelers are the outlier: past 60% electrified with essentially no personal-subsidy dependence, because the commercial TCO math already clears in this segment" — While the claim that three-wheelers are 60% electrified is likely correct, the reasoning that this is due to "commercial TCO math" without accounting for the role of subsidies (e.g., PM E-DRIVE's extended support for e-3Ws until March 2028) is an oversimplification. The article later acknowledges that subsidies play a role in e-3W adoption but does not reconcile this with the earlier causal claim. [confidence: medium]
 
-- "The cost case for EVs over CNG in personal cars is arguably stronger than the current 8.5%-vs-22% penetration gap suggests" — The article compares EV penetration (8.5% across all vehicle categories) with CNG penetration (22% of passenger-vehicle sales), but these are not comparable denominators (all vehicles vs. only passenger vehicles). This apples-to-oranges comparison undermines the validity of the conclusion about the cost case. [confidence: high]
+- "The cost case for EVs over CNG in personal cars is arguably stronger than the current 8.5%-vs-22% penetration gap suggests" — The article compares cost-per-km (₹1.41 for EV hatchback vs ₹2.97 for CNG) but does not address that the 8.5% EV penetration figure includes all vehicle categories (2W, 3W, 4W), while the 22% CNG figure is specific to passenger vehicles. This apples-to-oranges comparison undermines the conclusion about the cost case. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

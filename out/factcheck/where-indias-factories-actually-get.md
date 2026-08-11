@@ -16,19 +16,19 @@ Source: `posts/where-indias-factories-actually-get.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99052, Requested 5907. Please try again in 1h11m24.576s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99138, Requested 5907. Please try again in 1h12m38.88s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Rs 1,869,333 Rs cr implemented" — The article later states the 5-year total as Rs 19,51,828cr (Rs 1.95 lakh crore), which is inconsistent with the initial figure. The correct total is likely Rs 19,51,828cr as per the "All-India Part B 2021-2025" section. [confidence: high]
+- "Rs 1,869,333 Rs cr implemented" — The correct figure for implemented industrial projects (Part B) from 2021–Dec 2025 is Rs 19,51,828 cr (as stated later in the article), not Rs 1,869,333 Rs cr. The "Rs cr" unit is redundant and incorrect. [confidence: high]
 
-- "Appendix V is headed 'Up to Dec 2025' while Appendix VI says 'Up to Nov 2025' — yet both grand-total to the identical Rs 5,83,096cr" — The article claims both appendices total Rs 5,83,096cr, but this figure does not appear anywhere in the provided text. The grand totals mentioned are Rs 19,51,828cr (Part B) and Rs 5,83,096cr is not referenced in the article. [confidence: high]
+- "Rs 4.55 lakh cr in 2024-2025 alone" (Gujarat) — The article states Gujarat's 2024-2025 implementation is Rs 4.55 lakh cr, but the table shows Rs 208,025 cr (2024) + Rs 246,595 cr (2025 to Dec) = Rs 454,620 cr (Rs 4.55 lakh cr). However, the 2024-2025 fiscal year total is not directly comparable to the calendar-year data in the table. The claim conflates fiscal and calendar years without clarification. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rs 4.55 lakh cr in 2024-2025 alone" (Gujarat) — The claim implies that Gujarat implemented Rs 4.55 lakh crore in a single year (2024-2025), but the table shows Gujarat's 2025 (to Dec) as Rs 246,595cr (Rs 2.47 lakh crore). The Rs 4.55 lakh crore figure is the sum of Gujarat's 2024 (Rs 208,025cr) and 2025 (Rs 246,595cr), which is a 2-year total, not a single year. The article misrepresents this as a single-year figure. [confidence: high]
+- "Rs 70,117cr of the [Fuels sector's] total is one year (2025) -- likely a single refinery/energy mega-filing." — While the data shows a spike in Fuels sector implementation in 2025, attributing it to a single project ("likely a single refinery/energy mega-filing") is speculative. The article provides no evidence or external verification for this claim, and the DPIIT data does not specify project-level details. This is an overinterpretation of the aggregate data. [confidence: high]
 
-- "Rs 1,22,497cr of the 5-yr total sits in a single year (2024) against Rs 1-3,000cr in every other year" (Glass sector) — While the anomaly is correctly flagged, the article does not explain why this single-year spike is treated as an anomaly rather than a trend. The spike could reflect a genuine mega-project (e.g., solar glass manufacturing) or a data reporting quirk, but the article does not provide external evidence to justify dismissing it as an anomaly. The interpretation lacks justification for why this should not be considered a trend. [confidence: medium]
+- "Punjab's 356% [A→B conversion] is a small-base artifact (2023's Rs 32,182cr spike vs tiny same-period intent) -- old filings landing, not a boom in new intent." — While the article correctly notes the small-base effect, it does not adequately address the broader issue: the A→B conversion rate is a flow ratio (same-period intent vs. same-period implementation) and does not account for pre-2023 filings being implemented in 2023. The claim implies the spike is solely due to old filings, but the data does not isolate the source of the implementation surge. This is a misinterpretation of the conversion metric's limitations. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

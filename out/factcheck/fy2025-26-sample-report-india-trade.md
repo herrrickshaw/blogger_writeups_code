@@ -16,15 +16,11 @@ Source: `posts/fy2025-26-sample-report-india-trade.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99926, Requested 2604. Please try again in 36m25.92s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99574, Requested 2604. Please try again in 31m21.792s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim implies the First Advance Estimate (FAE) was superseded by a Provisional Estimate, but the FAE is the earliest official estimate, followed by the Provisional Estimate later. The FAE is not "superseded" in the sense of being incorrect; it is a preliminary figure replaced by more refined estimates. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports) is ~$10.7bn higher than this report's own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30 — consistent with this repo's existing PLI Bulk Drugs finding." — While the explanation correctly notes the difference in coverage (HS29 vs. HS30), it does not address why the discrepancy is framed as a methodological issue rather than a definitional one. The claim implies the report's figure is incomplete or incorrect, but it is simply narrower in scope. The interpretation conflates a definitional boundary (HS chapters) with an error in measurement. [confidence: high]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
 
 ## Kimi kimi-k2-0711-preview
 

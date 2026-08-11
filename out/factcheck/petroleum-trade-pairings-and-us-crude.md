@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99505, Requested 8093. Please try again in 1h49m24.672s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99158, Requested 8093. Please try again in 1h44m24.864s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "UAE 2024 and 2025 are genuinely absent, so UAE figures here are 2023 and are not comparable year-on-year with Saudi or US 2025 numbers." — The UAE 2024 data is presented in the article (e.g., in the "Reporter | Year | Named destinations, %" table), contradicting the claim that UAE 2024 data is absent. [confidence: high]
+- "UAE records $162.8bn of crude to Areas, nes" — The term "Areas, nes" (not elsewhere specified) is not a valid country or region name, and the claim cannot be verified as a factual destination. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavier crude due to refinery configurations, the article does not provide sufficient evidence to confirm that this grade mismatch fully explains the net import position. The claim assumes a direct causal link without addressing other potential factors like domestic demand, production declines, or policy constraints. [confidence: medium]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer, the claim that it "still buys more crude than it sells" is not directly supported by the data presented. The article cites a net crude position deficit of -$46.5bn, but this is a monetary value, not a volume comparison. The interpretation conflates monetary trade flows with physical volumes, which may not align due to price differences. [confidence: high]
 
-- "US crude exports sells 100.3 $bn HS 2709 · 2025" and "US crude imports buys 146.8 $bn HS 2709 · 2025" — The article presents these figures as if they are directly comparable, but they are nominal values in different years (2025 for exports, 2025 for imports). Without adjusting for inflation or volume, the comparison is misleading as it implies a net deficit without accounting for price changes or volume differences. [confidence: high]
+- "HS 271019 bundles gasoil/diesel, kerosene, fuel oil and lubricating base oils into one line. No six-digit query can split lube-oil exports from diesel exports — that needs national tariff detail (India's 8-digit TRADESTAT, US HTS 10-digit). The $35.7bn 'India 271019 exports' figure is mostly diesel, not lubricants." — While the HS code bundles these products, the claim that "$35.7bn 'India 271019 exports' figure is mostly diesel" is an extrapolation beyond the data. The article does not provide a breakdown or evidence to support this proportion, and the HS code includes multiple products that could contribute to the total value. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

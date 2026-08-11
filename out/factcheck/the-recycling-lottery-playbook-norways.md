@@ -16,19 +16,19 @@ Source: `posts/the-recycling-lottery-playbook-norways.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99151, Requested 3244. Please try again in 34m29.279999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99239, Requested 3244. Please try again in 35m45.312s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "97% return rates" (referring to Norway's container return rate) — The article later cites Germany's return rate as 97.7% and Norway's as 97%, but the initial claim of "97% return rates" is vague and could be misinterpreted as a single global figure. The phrasing is also inconsistent with the later detailed metrics. [confidence: high]
+- "University of British Columbia study (2024)" — The study is cited as 2024, but the article's sources list ends with "Research summary from primary sources, 31 Jul 2026," and the UBC study is referenced as part of the synthesis. There is no evidence of a 2024 UBC study in the cited sources, and the claim cannot be verified. [confidence: high]
 
-- "€62M+ to charity over 16 years" (referring to charitable funding from Norway's Pantelotteriet) — The article later specifies NOK 737.4M (€62M+) by 2023, but the initial claim lacks clarity on the timeframe (e.g., whether it's cumulative or annual). The phrasing "over 16 years" is misleading if the €62M is cumulative up to 2023 (16 years from 2008–2023). [confidence: high]
+- "NOK 737.4M (€62M+) to Red Cross by 2023" — The article claims €62M+ cumulative to Red Cross by 2023, but the financial model section states "50%+ of proceeds → Red Cross" and "Red Cross funding growing 5%/yr." Without a clear breakdown of total proceeds or annual contributions, the €62M+ figure cannot be verified and may be an overstatement or miscalculation. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "University of British Columbia study (2024): people recycled 47% more bottles when offered the lottery option vs a guaranteed refund." — The study likely shows a *relative increase in recycling participation* when the lottery option is offered, but the article implies a *47% absolute increase in the number of bottles recycled*, which is a much stronger (and likely incorrect) claim. The phrasing conflates participation rates with total recycling volume. [confidence: high]
+- "University of British Columbia study (2024): people recycled 47% more bottles when offered the lottery option vs a guaranteed refund." — The study likely shows a correlation between lottery participation and increased recycling, but the article implies causation (i.e., the lottery *caused* the 47% increase). The study may not have controlled for other factors (e.g., marketing, convenience, or pre-existing high return rates in Norway), and the 47% figure is presented as a direct causal effect without acknowledging potential confounders. [confidence: high]
 
-- "A regulated national lottery, on the white paper's own conservative estimate, could generate more in annual tax-and-profit revenue ($12bn) than the entire Jal Jeevan Mission budget ($8.4bn)." — The Pahle India Foundation white paper's $12bn figure represents *potential tax + profit revenue from a regulated national lottery market*, not *direct funding for Jal Jeevan*. The article incorrectly equates the two, suggesting the lottery revenue would directly fund Jal Jeevan at that scale, which is not how tax/profit allocations typically work in practice. [confidence: high]
+- "A regulated national lottery, on the white paper's own conservative estimate, could generate more in annual tax-and-profit revenue ($12bn) than the entire Jal Jeevan Mission budget ($8.4bn)." — The Pahle India Foundation white paper estimates potential tax + profit revenue from a regulated lottery at $12bn/year, but this is a *projection* based on global benchmarks and India's market size, not a guaranteed outcome. The article presents this as a direct comparison to Jal Jeevan's *actual* FY 2023-24 outlay ($8.4bn), implying the lottery revenue could fully replace or exceed the mission's budget. This is an apples-to-oranges comparison because the $12bn is not earmarked for Jal Jeevan specifically, nor is it certain to materialize. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -3161,3 +3161,13 @@ scheduled sync
 **Changed**
 
 - `do-cheap-stocks-stay-cheap-price-band` — 45,623 → 42,554 bytes (-3,069)
+
+## 2026-08-11T18:03:25+05:30 — 129 posts live
+
+**Versions**
+
+- `do-cheap-stocks-stay-cheap-price-band` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `do-cheap-stocks-stay-cheap-price-band` — 42,554 → 79,038 bytes (+36,484)

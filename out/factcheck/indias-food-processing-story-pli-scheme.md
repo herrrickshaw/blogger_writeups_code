@@ -16,19 +16,19 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99682, Requested 2650. Please try again in 33m34.848s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 2650. Please try again in 28m37.631999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article references data through June 2026 and cites sources dated between September 2025 and June 2026, but the publication date of 8 August 2026 is impossible to verify as accurate given the timeline of cited data and the fact that the article itself notes it could not retrieve primary PIB releases (suggesting the article may not have been published yet or the date is incorrect). [confidence: high]
+- "Published 8 August 2026" — The article references data and allocations from the Union Budget 2026-27, which would not have been finalized or published by August 2026 (India's budget is typically presented in late February/early March). This date is likely incorrect or premature. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely reported but admits it could not trace it to a primary NABARD or MoFPI study with a stated methodology, meaning the figure's accuracy or source cannot be verified. [confidence: high]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely reported but acknowledges it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without verifiable sourcing, this claim cannot be confirmed as accurate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — While the PLISFPI scheme did create 3.39 lakh jobs against a 2.5 lakh target, the article does not clarify whether these jobs are *direct* or *indirect* (as it later mentions both terms separately) or whether the target itself was for direct jobs only. This ambiguity risks double-counting or misrepresenting the achievement. [confidence: medium]
+- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26, and export sales from the scheme's beneficiaries have grown at a 13.23% compound annual rate since 2019-20." — While the sales figures may be correct, the article implies a direct causal link between the PLI scheme and this growth without controlling for other factors (e.g., general sector trends, inflation, or external demand shifts). The growth could be driven by broader industry dynamics rather than the PLI scheme alone. [confidence: high]
 
-- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26" — The article attributes this growth solely to the PLISFPI scheme, but the sales figures include products from FY2019-20 (pre-PLISFPI implementation) and do not isolate the scheme's incremental impact. The growth could reflect broader sector trends unrelated to PLISFPI. [confidence: high]
+- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — The article correctly notes the shift in export composition but does not address whether this is *solely* due to increased processing capacity or if other factors (e.g., global demand trends, trade policies, or currency fluctuations) played a role. The conclusion oversimplifies the drivers of this structural change. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

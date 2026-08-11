@@ -16,19 +16,19 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99722, Requested 2482. Please try again in 31m44.256s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99371, Requested 2155. Please try again in 21m58.464s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect as the article references a 2026 policy brief and rules notified in January 2026, which would not be published in August 2026 (as of the current date in 2024). [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect as the article references a 2026 policy brief and rules notified in January 2026, which would not be available in August 2026 at the time of writing. [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article claims the incentive was approved in September 2025, but this date is not verifiable against the cited sources (CSE brief, 2026), and no primary government source is provided to confirm the approval date. [confidence: medium]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article cites this as a requirement, but the CSE policy brief (the source for this claim) does not explicitly state this as a mandatory target. The brief discusses the 90% figure as a context but does not confirm it as an enforceable rule. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The article implies a direct comparison between the 90% target for 2026-27 and the 70% target for 2024-25, suggesting a linear progression. However, the 70% target may have been for a different scope (e.g., specific battery types or phases), and the 90% target might not be directly comparable without context. The reasoning gap is the lack of clarity on whether these targets are cumulative, overlapping, or applicable to the same categories. [confidence: medium]
+- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The claim implies a clear hierarchy where reuse and recycling obligations are strictly prioritized over EOL disposal, but the article does not provide evidence or legal text confirming that this hierarchy is enforceable or how it would be verified. The gap is in assuming the hierarchy translates to practical enforcement without further clarification. [confidence: medium]
 
-- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this claim to argue that producers should route batteries to second-use applications before recycling, but it does not establish that the EPR framework or current practices account for this nuance. The reasoning gap is that the claim assumes producers are already following this practice, but the article provides no evidence that this is happening under the current regime. [confidence: high]
+- "A 2025 amendment added QR-code and barcode marking requirements so a battery's EPR registration travels with the physical product." — While the CSE brief mentions QR-code and barcode marking, the article does not explain how this mechanism addresses the reverse-logistics and collection gaps (e.g., informal sector participation) or whether it has been implemented effectively. The interpretation error lies in assuming the marking requirement alone solves tracking issues without evidence of its impact. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

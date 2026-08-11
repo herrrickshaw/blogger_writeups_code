@@ -16,19 +16,19 @@ Source: `posts/import-dependent-sectors-vs-government.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99867, Requested 2692. Please try again in 36m50.976s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99512, Requested 2365. Please try again in 27m1.727999999s. Need more tokens? Upgrade to Dev Tier today at]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article later contradicts this by stating that fertilizers (HS31) were the fastest-growing high-value import but had no scheme until the Cabinet approved NIPU-2026 on 15 July 2026, which postdates the claim. The initial statement is incorrect as it implies the scheme was already in place before mid-July 2026. [confidence: high]
+- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article later contradicts this by stating that fertilizers (HS31) had no scheme in the six-month window until the Cabinet approved NIPU-2026 on 15 July 2026, which postdates the window. The claim implies the scheme was already in place before mid-July 2026, which is incorrect. [confidence: high]
 
-- "HS31 imports up 118.9% since FY2018-19" — The article cites this figure without providing a source or context for verification. While the repo's data is mentioned, the exact percentage is not directly verifiable from the article itself. [confidence: medium]
+- "HS31 imports up 118.9% since FY2018-19" — The article cites this figure from its own dataset, but no primary source or external verification is provided to confirm this specific percentage. Without cross-referencing with an official TRADESTAT/DGCI&S or MoSPI source, this figure cannot be verified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — The article assumes that the capacity addition will directly and proportionally reduce imports, but it does not account for potential delays in implementation, changes in demand, or other supply chain constraints that could affect the actual import reduction. [confidence: high]
+- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — While the capacity target (1 crore tonnes) aligns with the import gap (10 million tonnes), the article assumes this will directly reduce imports without addressing potential operational, logistical, or market constraints (e.g., feedstock availability, pricing, or demand elasticity). The causal link between capacity addition and import reduction is overstated. [confidence: high]
 
-- "Mineral fuels & oils (HS27) — 26% of India's entire import bill, no scheme at its scale" — The article claims no scheme is sized to match HS27's import scale, but it does not consider that schemes like EV adoption or renewables (which are not explicitly import-substitution policies) could indirectly reduce crude oil imports over the long term. The conclusion conflates direct import-substitution policies with indirect effects, which may not materialize as intended. [confidence: high]
+- "Mineral fuels & oils (HS27) — 26% of India's entire import bill, no scheme at its scale" — The article conflates the size of the import bill (26%) with the need for a "scheme at its scale," implying that a policy response must match the import value in monetary terms. However, import substitution policies (e.g., EV adoption, renewables) may not require direct funding proportional to the import bill but could instead target specific bottlenecks (e.g., refining capacity, infrastructure). The interpretation incorrectly assumes a one-to-one correspondence between import value and policy scale. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99081, Requested 3422. Please try again in 36m2.592s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99165, Requested 3422. Please try again in 37m15.168s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — The article lists a negative average ROE (-20.9%) for BeOne Medicines Ltd., but the Piotroski F-score of 7 suggests strong financial health, which is inconsistent with a negative ROE. Negative ROE would typically result in a low Piotroski score, not a high one. [confidence: high]
+- "AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above." — The article does not cite any government, industry, or academic sources above, and the claim of "cited above" is unverifiable as no sources are provided in the text. [confidence: high]
 
-- "Avg ROE 65.3%" (Medpace Holdings, Inc.) — The article claims an average ROE of 65.3% for Medpace Holdings, Inc., but the Piotroski F-score of 6 (which is moderate) does not align with such an exceptionally high ROE. High ROE is usually associated with stronger Piotroski scores (e.g., 8 or 9). [confidence: high]
+- "Avg ROE -20.9%." (for BeOne Medicines Ltd.) — A negative ROE of -20.9% is highly unusual for a company with a Piotroski score of 7 (indicating strong financial health), as Piotroski scores are designed to filter out firms with poor profitability metrics like negative ROE. This inconsistency suggests a data error or miscalculation. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Multi-screen agreement → highest conviction sleeve" (repeated for all stocks) — The article repeatedly claims that multi-screen agreement leads to the "highest conviction sleeve" for every stock listed. However, the methodology section does not define what constitutes "highest conviction" or how the multi-screen agreement score (e.g., 77.4, 76.4) translates to conviction. Without clear criteria or evidence linking the score to conviction, this is an unsupported extrapolation. [confidence: high]
+- "Avg ROE flagged (near-zero/negative equity distorts this ratio)." (for Seagate Technology Holdings PLC) — While the article acknowledges the distortion caused by near-zero/negative equity, it still includes the Piotroski score of 7 (which relies heavily on ROE) and presents the stock as a high-conviction pick. This is contradictory because a Piotroski score of 7 should not be possible if ROE is severely distorted by negative equity. [confidence: high]
 
-- "Piotroski F=9" (Woodward, Inc. and Caseys General Stores, Inc.) — The article states a Piotroski F-score of 9 for these companies, indicating strong financial health, but also lists negative or low average ROE values (e.g., 13.7% for Woodward, 16.8% for Caseys). A Piotroski score of 9 typically implies high profitability, which should correlate with strong ROE, but the reported ROE values are not exceptionally high. This suggests a misinterpretation of how the Piotroski score relates to ROE or an inconsistency in the data. [confidence: medium]
+- "Multi-screen agreement → highest conviction sleeve." (repeated for all stocks) — The article claims that multi-screen agreement leads to the "highest conviction sleeve" for all listed stocks, but it does not provide any evidence or data to support the claim that multi-screen agreement correlates with higher returns or lower risk. This is an unsupported causal assertion. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
