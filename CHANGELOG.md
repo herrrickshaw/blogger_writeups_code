@@ -2703,3 +2703,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-lock-imports-hit-19784-million` — 2026-08-11 &rarr; 2026-08-11
+
+## 2026-08-11T10:40:56+05:30 — 123 posts live
+
+**Versions**
+
+- `article-index-start-here` **22.0.0 → 23.0.0** (MAJOR) — figures changed (+5/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 165,267 → 166,568 bytes (+1,301)
