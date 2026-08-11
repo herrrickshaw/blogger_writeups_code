@@ -3089,3 +3089,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `below-250-is-where-real-junk-lives` — 2026-08-11 &rarr; 2026-08-11
+
+## 2026-08-11T15:23:40+05:30 — 127 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.5 → 24.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 168,408 → 168,726 bytes (+318)
