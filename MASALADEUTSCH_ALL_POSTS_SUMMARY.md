@@ -1,6 +1,6 @@
 # Masala Deutsch — All Posts, Summarised
 
-*122 published posts, 18 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*123 published posts, 18 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
 *Generated 11 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
@@ -505,8 +505,10 @@
 - **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
   Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
 
-### Markets & Finance (21)
+### Markets & Finance (22)
 
+- **[Why Bet on One Horse, When You Can Buy the Stable?](https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html)** — 2026-08-11
+  Two earlier pieces on this blog treated price as a barrier (fractional investing) and diversification as a virtue (the thali). This one puts them together properly, using actual portfolio theory: if price is the only filter applied, does buying every stock in a price band — the "stable" — actually produce a better risk-adjusted outcome than the alternative, or does portfolio theory's own central result say the whole exercise is asking the wrong question?
 - **[A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)** — 2026-08-11
   Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
 - **[Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html)** — 2026-08-11
@@ -1280,6 +1282,11 @@ An Indian thali works because no single dish is trying to do everything — the 
 *2026-08-11 · Industrial Policy, Trade & Tariffs*
 
 India imports nearly $200 million of locks and padlocks a year, and the number is growing. Dindigul, Tamil Nadu — a Geographical Indication-tagged cluster with a genuine claim to being India's original lock town — is not the industry that import number describes. Its problem is older, more local, and harder to fix with a tariff.
+
+### [Why Bet on One Horse, When You Can Buy the Stable?](https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html)
+*2026-08-11 · Markets & Finance*
+
+Two earlier pieces on this blog treated price as a barrier (fractional investing) and diversification as a virtue (the thali). This one puts them together properly, using actual portfolio theory: if price is the only filter applied, does buying every stock in a price band — the "stable" — actually produce a better risk-adjusted outcome than the alternative, or does portfolio theory's own central result say the whole exercise is asking the wrong question?
 
 ### [A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)
 *2026-08-11 · Markets & Finance*
