@@ -3,11 +3,11 @@
   "title": "Mrs Watanabe Traded From the Kitchen Table. India's Next Wave of Traders Could Too",
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
-  "published": "2026-08-11T21:32:38.500+05:30",
-  "updated": "2026-08-11T21:32:38.500+05:30",
+  "published": "2026-08-11T21:32:38.000+05:30",
+  "updated": "2026-08-11T21:57:52.156+05:30",
   "labels": [],
-  "bytes": 19041,
-  "sha256": "e6469e8ac34ffd9ee343eb18a0227faa4eb73d2464bcfabaa9e90de756cc65a7",
+  "bytes": 19696,
+  "sha256": "51c2b5160eb3d3041dc749e0aa87d3693a3698f5ae461c60d1f3d84af3f8a8b3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +19,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-11T21:45:23+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-11T21:58:08+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19041,
+        19696
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]
