@@ -16,15 +16,15 @@ Source: `posts/india-forest-wildlife-crz-clearances.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99741, Requested 2143. Please try again in 27m7.775999999s. Need more tokens? Upgrade to Dev Tier today at]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99824, Requested 1676. Please try again in 21m36s. Need more tokens? Upgrade to Dev Tier today at https://]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — This figure is unverifiable as the source is not provided in the article, and the claim lacks a clear citation to the "Industrial Information & Land Bank" dataset mentioned. [confidence: medium]
+- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — The claim that "MAHESH NAIR" is not an agency is incorrect. While it may appear as an individual's name, it is presented as a top user agency in the table, implying it is treated as an agency in the dataset. The article's assertion that it is "likely a data-entry artifact" is speculative and not supported by the data itself. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — While the figure of 122,666 acres is correct, the claim that this represents a "different channel" and "on a different clock" is an overgeneralization. The article does not provide evidence that these diversions are systematically faster or slower than other land-use changes, nor does it establish that they operate on a distinct timeline compared to other processes. [confidence: high]
+- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that the 122,666 acres of granted forest land diversion are entirely additional to the national industrial land bank (~253,720 acres). However, the industrial land bank figure likely includes developed and vacant land, while forest diversion represents land-use change for specific purposes (e.g., mining, infrastructure). The comparison conflates different types of land (developed vs. forest) and does not account for overlaps or alternative uses, making the conclusion unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

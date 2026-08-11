@@ -16,21 +16,19 @@ Source: `posts/state-by-state-who-actually-earns-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99266, Requested 7576. Please try again in 1h38m31.487999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 7576. Please try again in 1h39m33.695999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The CareEdge report cited ("E85 Impact: Ethanol Overcapacity to Persist," May 14, 2026) states that India has **700 crore litres/year of structural ethanol overcapacity**, not 2,000 crore litres/year of installed capacity. The article later corrects this but initially misrepresents the capacity figure. [confidence: high]
+- "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The CareEdge report cited ("E85 Impact: Ethanol Overcapacity to Persist," May 14, 2026) states that India has **700 crore litres/year of structural ethanol overcapacity**, not 2,000 crore litres/year of installed capacity. The article later corrects this but initially misstates the figure. [confidence: high]
 
-- "The Department of Food & Public Distribution’s sanction register is far larger — roughly 4,530 crore litres across 1,212 approved projects" — While the article later acknowledges that built capacity lags sanctioned capacity, it does not clarify that these sanctioned projects are **not all operational or even under construction**, and the 4,530 crore litres figure is likely an overestimate of actual potential capacity. [confidence: medium]
-
----
+- "The Department of Food & Public Distribution’s sanction register is far larger — roughly 4,530 crore litres across 1,212 approved projects" — While the article later acknowledges that built capacity lags sanctioned capacity, it does not provide a source or verification for the 4,530 crore litres figure. The CareEdge report does not mention this number, and no other cited source supports it. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article correctly notes that a 5% dedicated SGST does not fully offset the VAT loss, but it **implies that the shortfall is purely a fiscal gap** without considering that the ethanol blending policy is a **national energy and environmental policy** with broader objectives (e.g., reducing oil imports, lowering emissions). The interpretation treats the fiscal shortfall as the sole metric of success, ignoring the policy's non-fiscal goals. [confidence: high]
+- "The loss scales almost exactly with blend fraction — doubling volume from E10 to E20 roughly doubles the shortfall, and pushing to E30 roughly triples it against E10." — While the table shows a linear relationship between blend percentage and net state loss, this does not account for potential non-linear effects such as changes in ethanol feedstock costs, blending logistics, or state-specific VAT adjustments (e.g., cesses or floors). The model assumes a fixed pre-VAT petrol price and ethanol price, which may not hold in reality, especially as blends increase and feedstock shifts from molasses to more expensive grains. [confidence: high]
 
-- "Higher blending is, in this narrow fiscal sense, a headwind for every state simultaneously — it just isn’t the same size of headwind everywhere." — The article frames higher ethanol blending as a **purely negative fiscal outcome for states** based on VAT foregone vs. SGST gained. However, it **fails to consider that states may benefit indirectly** from reduced petrol consumption (e.g., lower pollution, reduced road maintenance costs, or alignment with national energy goals), which could offset some of the fiscal loss. The interpretation is overly narrow and ignores potential co-benefits. [confidence: medium]
+- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article correctly notes that a 5% dedicated SGST does not fully offset the VAT loss, but it does not explore whether a higher SGST rate (e.g., 10% or more) could achieve parity. The conclusion implies that no feasible SGST rate could close the gap, but this is an extrapolation beyond the modeled scenarios (which only test up to 5%). The article does not justify why rates beyond 5% are infeasible or politically unrealistic. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

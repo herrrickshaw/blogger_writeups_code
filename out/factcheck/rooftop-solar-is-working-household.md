@@ -16,19 +16,19 @@ Source: `posts/rooftop-solar-is-working-household.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 2048. Please try again in 19m32.448s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99383, Requested 2048. Please try again in 20m36.384s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹78,000 Maximum central subsidy, 3 kW and above" — The article later contradicts this by stating that the subsidy is capped at ₹78,000 for systems of 3 kW and above, implying no additional subsidy for larger systems. However, the table shows that the subsidy is derived as 60% of benchmark cost up to 2 kW, plus 40% of the additional cost from 2–3 kW, effectively capping the subsidy at 3 kW. The claim that ₹78,000 is the maximum for 3 kW and above is correct, but the phrasing could be misinterpreted as implying a higher subsidy for larger systems, which is not the case. [confidence: high]
+- "₹78,000 Maximum central subsidy, 3 kW and above, under PM Surya Ghar" — The article later contradicts this by stating the subsidy is capped at 3 kW, with the same ₹78,000 applying to systems of 3 kW or larger. The claim implies the subsidy is available for systems *above* 3 kW, which is incorrect. [confidence: high]
 
-- "₹0 Central subsidy available to a household adding a battery" — The article claims no central subsidy is available for household batteries under PM Surya Ghar. While this is likely correct based on the scheme's design, the article does not provide an official government source explicitly stating this. The claim is plausible but unverified in the given text. [confidence: medium]
+- "~12 GW Rooftop capacity added since Feb 2024, ~33 lakh systems (May 2026)" — The article cites PIB figures for 9,566.89 MW as of 20 March 2026 and "above 12 GW" for May 2026, but the exact figure of "~12 GW" is not directly sourced from PIB and may be an approximation. The phrasing suggests a precise figure, which could be misleading. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Rooftop under this one scheme is therefore roughly 8% of all solar capacity in the country, built in two years." — The article calculates 12 GW of rooftop solar as 8% of India's total solar fleet (150.26 GW in FY2025-26). However, this comparison mixes installed capacity (GW) with generation capacity (units of electricity). Rooftop solar's contribution to total solar capacity is not the same as its contribution to electricity generation, as rooftop systems typically have lower capacity factors than utility-scale solar. The comparison is apples-to-oranges. [confidence: high]
+- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — While the government's estimate may be correct, the article does not provide the methodology or assumptions behind these projections (e.g., average system size, capacity factor, or grid emission factors). Without this context, the figures cannot be independently verified or assessed for plausibility. [confidence: high]
 
-- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — The article presents these figures as projections without clarifying the assumptions behind them (e.g., average system size, capacity factor, or CO₂e per unit of electricity). Without these details, the projections are not verifiable and could be misleading if taken at face value. The claim extrapolates from unspecified assumptions to a broad conclusion. [confidence: medium]
+- "A domestic battery of that size is roughly ₹1.5–3 lakh installed at current prices, which is comfortably more than the entire subsidy on the panels it would serve." — The article correctly notes the lack of subsidy for household batteries but does not account for potential cost reductions due to economies of scale, technological advancements, or alternative financing models (e.g., leasing or pay-as-you-go). The claim implies the high cost is a permanent barrier without considering dynamic market changes. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

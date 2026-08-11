@@ -16,19 +16,21 @@ Source: `posts/india-mineral-oil-hsn-ch27-trade.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99706, Requested 4020. Please try again in 53m39.264s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99789, Requested 3553. Please try again in 48m7.488s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims this figure is for FY25-26 H1, but the PPAC Ready Reckoner (the cited source) typically reports annual data, not half-year. The half-year figure would need to be explicitly labeled as such or sourced from a half-year report, which is not indicated here. [confidence: high]
+- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims this figure is for FY25-26 H1, but the fiscal year 2025-26 (April 2025–March 2026) has not yet occurred as of the current date (June 2025). This is a future projection mislabeled as a historical fact. [confidence: high]
 
-- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The claim that Chapter 27 imports are 26.2% of all imports lacks a clear source or context for the total import figure. Without a cited total import value for FY25-26, this percentage cannot be verified. [confidence: medium]
+- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46" — The Kirit Parikh Committee report (2023) does not set a floor/ceiling mechanism tied to the Indian crude basket for APM gas. The committee recommended a market-linked pricing formula, not a fixed floor/ceiling tied to crude. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article states that the Trade Parity Price (TPP) formula is 80% Import Parity Price (IPP) and 20% Export Parity Price (EPP), but does not explain why this ratio is appropriate or how it reflects actual market conditions. The 80:20 split appears arbitrary without justification, and the article does not address whether this ratio aligns with empirical trade patterns or policy intent. [confidence: high]
+- "Implied $/bbl from trade value÷quantity tracks the Indian basket within ±6% every year — the core consistency check." — While the implied $/bbl may track the Indian basket closely, this does not necessarily validate the *entire* pricing mechanism or trade data accuracy. The ±6% range could reflect minor discrepancies in trade reporting, currency conversion, or timing differences rather than a true validation of the pricing formula's integrity. The claim implies a stronger causal link between the consistency check and the reliability of the pricing formula than is justified. [confidence: medium]
 
-- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The article implies a direct causal link between the Indian crude basket and the pricing of gas (APM gas), LPG, MS, and HSD, suggesting that all these commodities are "anchored" by crude. However, the Kirit Parikh Committee (2023) report likely sets gas pricing separately (e.g., via APM reforms) and does not equate gas pricing to the crude basket in the manner described. The claim conflates different pricing mechanisms without evidence. [confidence: high]
+- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article states this ratio as a fixed rule, but the Trade Parity Price (TPP) formula is actually defined as TPP = 0.80 × IPP + 0.20 × EPP, where IPP and EPP are weighted components. The phrasing "80 : 20 Trade Parity Price = IPP : EPP weight" incorrectly suggests a direct equivalence between the ratio and the weights, rather than clarifying that the weights are applied to the components in the formula. This conflates the formula's structure with a standalone ratio. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

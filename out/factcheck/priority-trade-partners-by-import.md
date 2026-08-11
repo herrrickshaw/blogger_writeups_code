@@ -16,19 +16,19 @@ Source: `posts/priority-trade-partners-by-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99398, Requested 1870. Please try again in 18m15.552s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99475, Requested 1870. Please try again in 19m22.08s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of July 2026 (the article's retrieval date). The correct fiscal year at that time would be 2024-25 or earlier. [confidence: high]
+- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of July 2026 (the article's retrieval date). The correct fiscal year at this time would be 2024-25 or 2025-26 (if referring to projections). [confidence: high]
 
-- "PLI 1.2, launched November 2025" — The PLI 1.2 for Specialty Steel was not launched in November 2025; PLI schemes are typically announced in the Union Budget (February) or through subsequent notifications. The timeline appears inconsistent with standard policy timelines. [confidence: high]
+- "₹11,198 crore" (PLI White Goods committed amount) — The article cites this figure as a committed amount, but the PLI White Goods scheme's total outlay is officially reported as ₹10,383 crore (as per PIB releases). The ₹11,198 crore figure appears to be a misstatement or double-counting of commitments across rounds. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "China supplies 8 of India's 12 fastest-growing high-value imports" — The claim implies a causal or structural relationship between China's supply dominance and the growth of these imports, but the article does not provide evidence that China's supply is driving the growth (e.g., whether the growth is due to increased demand, substitution effects, or other factors). The claim is descriptive but presented as if it has explanatory power. [confidence: medium]
+- "China supplies 8 of India's 12 fastest-growing high-value imports" — The claim implies a causal or structural dominance of China in these sectors, but the article does not provide evidence that these imports are *high-value* (e.g., value per unit or revenue share) rather than just high in absolute dollar terms. The TRADESTAT data cited is import value in US$ million, which conflates volume and price effects. [confidence: high]
 
-- "The USA is the most diversified major partner — present in 9 of 12 sectors but never dominant in any single one, which is a structurally different (and lower-risk) kind of relationship than China's." — While the diversification claim is factual, the assertion that this makes the relationship "lower-risk" is an interpretation unsupported by the data. The article does not define "risk" or provide evidence linking diversification to lower risk in this context. [confidence: high]
+- "PLI schemes cover the import value of only 2 of the 12 with a strong scheme match (3 more have partial coverage; 7 have none)" — The article treats "coverage" as a binary or ordinal measure (strong/partial/none) without defining the metric. For example, "strong scheme match" is not quantified (e.g., what % of imports or sectors must be covered to qualify?), and the claim assumes that PLI coverage directly offsets import growth, ignoring substitution effects, time lags, or indirect impacts (e.g., domestic production displacing imports). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

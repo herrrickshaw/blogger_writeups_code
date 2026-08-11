@@ -16,19 +16,19 @@ Source: `posts/pli-medical-devices-coverage-and-gaps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99418, Requested 2374. Please try again in 25m48.287999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99495, Requested 2374. Please try again in 26m54.815999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PLI-MD closes to new applicants in March 2027" — The article incorrectly states the closure date as March 2027, while the Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies that the scheme closes in March 2027 with a one-year gestation period, implying the actual closure for new applicants is likely earlier (e.g., March 2026). [confidence: high]
+- "PLI-MD closes to new applicants in March 2027 — the scheme is done taking entrants." — The article incorrectly states the closure date as March 2027, while the Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies that the scheme closes in March 2027 with a one-year gestation period, implying no further rounds of application are under consideration. The phrasing "done taking entrants" is misleading as it suggests immediate closure rather than the end of new application rounds. [confidence: high]
 
-- "Pacemakers — inside Segment 4's scope (“implantable electronic devices”), yet no applicant makes one: imports $64mn at 1% export coverage" — The claim that no applicant makes pacemakers is unverifiable against the cited sources (DoP approved-applicant list revised 25 Apr 2023; PIB 16 Dec 2025). The trade data ($64mn imports) may be correct, but the absence of applicants cannot be confirmed from the provided references. [confidence: medium]
+- "Checked against the FY2025-26 trade data, it has genuinely moved the needle in imaging and implants, but never touched the two largest deficit families: lab instruments and IVD reagents." — The claim about FY2025-26 trade data is unverifiable as the article does not provide direct access to the trade data or a clear methodology for how the data was checked. The assertion about "never touched" the deficit families lacks supporting evidence or citations. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Checked against the FY2025-26 trade data, it has genuinely moved the needle in imaging and implants, but never touched the two largest deficit families: lab instruments and IVD reagents" — The article conflates correlation with causation by attributing the decline in MRI imports or growth in exports (e.g., Philips MRI coils) *directly* to PLI-MD without controlling for other factors like global supply chain shifts, domestic demand changes, or pre-existing trends. The trade data alone does not isolate the scheme's impact. [confidence: high]
+- "Per the Department of Pharmaceuticals' own statement to Lok Sabha (16 December 2025): since the scheme closes in March 2027 with a one-year gestation period, no further rounds of application are under consideration." — The reasoning gap here is that the statement does not explicitly rule out future rounds of application; it only mentions the closure timeline and gestation period. The conclusion that "no further rounds of application are under consideration" is an overinterpretation of the statement. [confidence: high]
 
-- "Oxygen concentrators — four applicants, near-zero exports, imports still +30%: a procurement/demand-side problem, not a capacity problem" — The article assumes the +30% import growth and low exports are solely due to demand-side issues (e.g., procurement policies) without evidence that capacity is sufficient to meet demand. The claim conflates *observed outcomes* (imports +30%) with *underlying causes* (demand vs. capacity constraints), which requires additional data (e.g., production capacity utilization, order backlogs) to substantiate. [confidence: high]
+- "PLI has genuinely started fixing equipment — imaging, monitoring, renal, implants. Its measurable wins (MRI import decline, coils/dialyser/stent exports) are exactly where applicants invested." — The claim implies a causal relationship between PLI investments and measurable wins (e.g., MRI import decline), but the article does not provide evidence or analysis to confirm that these outcomes are directly attributable to the PLI scheme rather than other factors (e.g., global supply chain changes, domestic industry trends). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

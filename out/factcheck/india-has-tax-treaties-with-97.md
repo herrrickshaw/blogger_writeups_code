@@ -16,19 +16,19 @@ Source: `posts/india-has-tax-treaties-with-97.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99716, Requested 3286. Please try again in 43m13.728s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99799, Requested 2958. Please try again in 39m42.048s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Published 9 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India–UK CETA (signed July 2025)" — The Comprehensive Economic and Trade Agreement (CETA) between India and the UK was not signed in July 2025; as of 2023, no such agreement exists. The claim appears to be a fabrication or hallucination. [confidence: high]
+- "India–UK CETA (signed July 2025)" — The Comprehensive Economic and Trade Agreement (CETA) between India and the UK was not signed in July 2025; such an agreement does not exist as of 2023. This appears to be a fabrication or misrepresentation. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — While the claim that India has DTAAs with 97 countries may be factually correct, the assertion that the network is "nearly universal" is an overgeneralization. The claim implies that the network covers all or nearly all of India's major trading partners, but this is not explicitly supported by the data. The article does not provide a list of India's top trading partners or demonstrate that the 97 countries represent a near-universal coverage of them. [confidence: medium]
+- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly" — While the claim that India has DTAAs with 97 countries may be factually correct, the assertion that this network is "nearly universal" is an overgeneralization. The term "universal" implies near-complete coverage of all significant trading partners, which is not necessarily supported by the data. For example, India does not have a DTAA with several major economies like the United States (though it has a tax information exchange agreement) or Canada, which are significant trading partners. [confidence: high]
 
-- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach." — While the distinction between tax treaties and trade treaties is correct, the conclusion that India's trade-agreement reach "still has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. Tax treaties and trade treaties serve fundamentally different purposes and are not directly comparable in terms of "reach." The number of countries covered by each type of agreement does not imply a lag in one over the other, as they address different economic and policy objectives. [confidence: high]
+- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach" — While the distinction between tax treaties and trade agreements is correct, the conclusion that India's trade-agreement reach "still has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. Tax treaties and trade agreements serve fundamentally different purposes and are not directly comparable in scope or reach. The number of countries covered is not a meaningful metric for comparison because the underlying objectives and negotiation processes are entirely different. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

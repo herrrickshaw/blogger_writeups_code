@@ -16,21 +16,15 @@ Source: `posts/fy2025-26-sample-report-india-trade.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate" — The article states that this figure has been superseded by MoSPI's Provisional Estimate, but it does not provide the updated figure, making the claim outdated [confidence: medium]
-- "Forex reserves (MoSPI connector) | 698,100.0 | 2025-06 | 13 months stale" — The article itself states that this figure is 13 months stale and should not be used as the current reserve, instead, it should be 675,157.0 [confidence: high]
-
-INTERPRETATION ERRORS:
-- "Imports and PIB's export/deficit figures agree with TRADESTAT to within rounding. TIA Portal's export total alone reads ~US$9,300M (2.1%) higher than both other sources" — The article attributes the difference to a data-vintage/provisional-revision difference, but it does not consider the possibility of a methodology error, which could lead to incorrect conclusions [confidence: medium]
-- "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports) is ~$10.7bn higher than this report's own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30" — The article assumes that the difference is due to the inclusion of API exports in HS29, but it does not provide evidence to support this claim, and other factors could contribute to the discrepancy [confidence: medium]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99926, Requested 2604. Please try again in 36m25.92s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim implies the FAE figure was superseded by a Provisional Estimate, but the Provisional Estimate is typically released *after* the FAE. The FAE is the first estimate, followed by the Provisional Estimate, so the FAE is not "superseded" in a way that invalidates it as a historical record. [confidence: high]
+- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim implies the First Advance Estimate (FAE) was superseded by a Provisional Estimate, but the FAE is the earliest official estimate, followed by the Provisional Estimate later. The FAE is not "superseded" in the sense of being incorrect; it is a preliminary figure replaced by more refined estimates. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports) is ~$10.7bn higher than this report's own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30 — consistent with this repo's existing PLI Bulk Drugs finding." — While the explanation of the discrepancy (HS29 vs. HS30) is correct, the phrasing suggests this is a *finding* of the repo, when in fact it is merely restating the reason for the difference provided by NITI Aayog. The repo does not independently verify or analyze the $35.8bn figure; it merely notes the definitional difference. This risks implying an unwarranted conclusion about the accuracy or completeness of the figures. [confidence: high]
+- "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports) is ~$10.7bn higher than this report's own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30 — consistent with this repo's existing PLI Bulk Drugs finding." — While the explanation correctly notes the difference in coverage (HS29 vs. HS30), it does not address why the discrepancy is framed as a methodological issue rather than a definitional one. The claim implies the report's figure is incomplete or incorrect, but it is simply narrower in scope. The interpretation conflates a definitional boundary (HS chapters) with an error in measurement. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

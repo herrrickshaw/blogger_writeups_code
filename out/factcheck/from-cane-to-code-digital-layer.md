@@ -16,19 +16,21 @@ Source: `posts/from-cane-to-code-digital-layer.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99958, Requested 3118. Please try again in 44m17.664s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99246, Requested 2791. Please try again in 29m19.967999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is inconsistent with the article's content, which references events and data up to ESY2025-26 (ending March 2026) and a Rajya Sabha question from March 2026. A publication date in 2026 is also highly unlikely given the current date (2023). [confidence: high]
+- "Published 8 August 2026" — The article cites a publication date of 8 August 2026, but the content references events and data (e.g., "ESY2025-26," "June 2026," "March 2026") that are either future-dated or inconsistent with a 2026 publication date. This creates a temporal contradiction. [confidence: high]
 
-- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The claim lacks a primary source citation for verification. While the article later cites a Rajya Sabha answer for cumulative impacts, the specific forex savings figure is not directly sourced to that document in the provided text. [confidence: medium]
+- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article attributes this figure to a Rajya Sabha unstarred question (9 March 2026), but the claim lacks a direct citation to the official source (e.g., a parliamentary document or government press release). The figure is presented as a fact without verifiable primary evidence in the text. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The claim implies a causal relationship between AI tuning and increased ethanol yield, but the article does not establish that the reported gains are solely attributable to AI. Other factors (e.g., improved feedstock quality, operational changes) could contribute to the yield improvement, and the vendor-reported figures are not independently audited. [confidence: high]
+- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The article presents this vendor-reported figure as a factual efficiency gain without clarifying that it is a *claimed* improvement (not independently audited) and may not reflect real-world performance across the industry. The lack of caveats about the unreliability of vendor data creates a false impression of certainty. [confidence: high]
 
-- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The claim suggests a direct, causal link between AI advisory and farm yield improvement, but the article does not rule out confounding variables (e.g., weather conditions, fertilizer use, or other interventions) that could explain the observed yield changes. The pilot's limited scope (Jalna district) also makes it unclear whether the results generalize to broader contexts. [confidence: high]
+- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The article cites this as a concrete outcome, but it is based on a small, unaudited pilot (the "Super 50 AI Farmers" cohort in Jalna district). The claim extrapolates localized results to broader farm yields without addressing selection bias, sample size limitations, or external validity. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99599, Requested 2978. Please try again in 37m6.528s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99682, Requested 2650. Please try again in 33m34.848s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references data through June 2026 and mentions FY2026-27 allocations, which would not be available in August 2026. [confidence: high]
+- "Published 8 August 2026" — The article references data through June 2026 and cites sources dated between September 2025 and June 2026, but the publication date of 8 August 2026 is impossible to verify as accurate given the timeline of cited data and the fact that the article itself notes it could not retrieve primary PIB releases (suggesting the article may not have been published yet or the date is incorrect). [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but acknowledges it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without a verifiable source, this claim cannot be confirmed as factual. [confidence: medium]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely reported but admits it could not trace it to a primary NABARD or MoFPI study with a stated methodology, meaning the figure's accuracy or source cannot be verified. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims the PLISFPI scheme "created more jobs than it promised" but does not clarify whether the 3.39 lakh jobs are net new jobs or include existing jobs reclassified under the scheme. Without this distinction, the claim that the scheme "created" more jobs than targeted is unsupported. [confidence: high]
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — While the PLISFPI scheme did create 3.39 lakh jobs against a 2.5 lakh target, the article does not clarify whether these jobs are *direct* or *indirect* (as it later mentions both terms separately) or whether the target itself was for direct jobs only. This ambiguity risks double-counting or misrepresenting the achievement. [confidence: medium]
 
-- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26" — The article implies this growth is attributable to the PLISFPI scheme, but the sales figures include pre-PLISFPI data (FY2019-20) and do not isolate the impact of the scheme. The causal link between PLISFPI and the sales growth is not established. [confidence: high]
+- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26" — The article attributes this growth solely to the PLISFPI scheme, but the sales figures include products from FY2019-20 (pre-PLISFPI implementation) and do not isolate the scheme's incremental impact. The growth could reflect broader sector trends unrelated to PLISFPI. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

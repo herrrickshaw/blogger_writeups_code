@@ -16,19 +16,19 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99477, Requested 2061. Please try again in 22m8.832s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99556, Requested 2061. Please try again in 23m17.088s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between the ₹300 Cr figure and the annual output. The ₹300 Cr appears to be a cumulative multi-year procurement value (as noted in the article's own caution), not an annual output. The comparison is incorrect because it treats a multi-year cumulative figure as an annual value. [confidence: high]
+- "₹300 Cr is roughly two orders of magnitude larger than this plan's own annual output (~₹11 Cr)" — The claim incorrectly states the relationship between ₹300 Cr and ₹11 Cr. Two orders of magnitude would imply ₹300 Cr is 100 times ₹3 Cr (not ₹11 Cr), making the comparison factually incorrect. [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect. An 18-month plan starting in August 2026 would end in February 2028, not July 2027. The discrepancy suggests a miscalculation in the proposal's timeline. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline is inconsistent. An 18-month plan starting in August 2026 would end in February 2028, not July 2027, indicating a miscalculation in the projected completion date. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat ration protein content and the proposed target, but it does not account for whether the 8-12g figure is based on actual measured intake or theoretical nutritional content. Without clarifying the methodology (e.g., whether the current rations are consistently delivering 8-12g per day or if this is a theoretical maximum), the comparison lacks a clear foundation for the proposed 53g target. [confidence: medium]
+- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat ration protein content (8-12g/day) and the proposed target (53g/day), but it does not account for whether the current 8-12g/day figure is based on actual consumption data or just theoretical ration specifications. Without verifying the source of the current protein intake data, the comparison may be misleading. [confidence: medium]
 
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period are presented without a clear explanation of the underlying assumptions or calculations. For example, the ROI figure does not specify whether it accounts for the ₹2.85 Cr setup cost or the ongoing operating costs (₹1.2–1.4 Cr/yr). The lack of transparency in the financial model makes it difficult to assess the validity of these claims. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period are presented without clear justification or breakdown of how these figures were derived. The savings table shows a 5-year net savings of ₹8.51 Cr, but the ROI and payback period suggest immediate and high returns, which may not align with the actual financial projections provided. The reasoning gap lies in the lack of transparency in how these metrics were calculated. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

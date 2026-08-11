@@ -16,15 +16,15 @@ Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99733, Requested 1005. Please try again in 10m37.632s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99815, Requested 631. Please try again in 6m25.344s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "82,000 outlets" — The article itself notes that the count basis and as-of date are not stated, and treats the figure as approximate. Without a verifiable source or timestamp, this cannot be confirmed as accurate. [confidence: high]
+- "82,000 outlets" — The article itself notes that the count is approximate and lacks a stated source, date, or basis for verification, making the figure unverifiable as presented. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of individual citations, it does not address potential double-counting or inconsistencies in the outlet register data. The claim implies transparency but fails to ensure that the data sources are mutually exclusive or properly aggregated, which could lead to misinterpretation of the total number of outlets. [confidence: medium]
+- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of individual citations, it does not address the potential for double-counting or inconsistencies across datasets (e.g., OMC petrol pumps and CNG supply linkages) that could skew the analysis. The claim implies transparency but does not resolve the risk of methodological flaws in combining datasets. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99641, Requested 2622. Please try again in 32m35.232s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99722, Requested 2482. Please try again in 31m44.256s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect as it is set in the future relative to the article's content (which references 2025 and 2026 policies). [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect as the article references a 2026 policy brief and rules notified in January 2026, which would not be published in August 2026 (as of the current date in 2024). [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a primary source confirming the approval date or amount, and the phrasing suggests it is a fact when it may only be a claim from the CSE brief. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article claims the incentive was approved in September 2025, but this date is not verifiable against the cited sources (CSE brief, 2026), and no primary government source is provided to confirm the approval date. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The article implies a direct comparison between the 90% target for 2026-27 and the 70% target for 2024-25 as if they are part of the same continuous requirement, but the 70% target may have been for a different scope or phase. The reasoning gap is that the article does not clarify whether the 70% target was a prior baseline or a separate obligation. [confidence: medium]
+- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The article implies a direct comparison between the 90% target for 2026-27 and the 70% target for 2024-25, suggesting a linear progression. However, the 70% target may have been for a different scope (e.g., specific battery types or phases), and the 90% target might not be directly comparable without context. The reasoning gap is the lack of clarity on whether these targets are cumulative, overlapping, or applicable to the same categories. [confidence: medium]
 
-- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this claim to suggest that producers are supposed to assess residual capacity and route batteries to second-use applications, but it does not provide evidence that the EPR framework explicitly requires this assessment or that producers are failing to do so. The reasoning gap is that the claim assumes a causal link between the state-of-health threshold and EPR obligations without verifying the legal or practical enforcement of this requirement. [confidence: high]
+- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this claim to argue that producers should route batteries to second-use applications before recycling, but it does not establish that the EPR framework or current practices account for this nuance. The reasoning gap is that the claim assumes producers are already following this practice, but the article provides no evidence that this is happening under the current regime. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

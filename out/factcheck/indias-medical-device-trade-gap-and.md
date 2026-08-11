@@ -16,19 +16,19 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99590, Requested 3474. Please try again in 44m7.296s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99672, Requested 3146. Please try again in 40m34.752s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr" — The article itself states the deficit is $6.22 billion in FY2025-26 (provisional) and grew by 21.7% from FY2024-25, not "~20%/yr." The growth rate is specific and higher than the rounded figure cited. [confidence: high]
+- "India has roughly 3 MRI units per million population against a global average of 7 (the US, Korea and Japan run 28–57 per million)" — The global average MRI density is likely higher than 7 per million. According to OECD data, the global average is closer to 15-20 per million, with advanced economies like the US, Japan, and South Korea having much higher densities (e.g., Japan has ~55 per million). The cited claim understates the global average and overstates the gap. [confidence: high]
 
-- "India has roughly 3 MRI units per million population against a global average of 7" — The article cites a global average of 7 MRI units per million but does not provide a source for this figure. The global average is likely higher (e.g., OECD countries average ~15-20 per million). The claim lacks verifiable sourcing. [confidence: medium]
+- "AIIMS Delhi OPD imaging dates have been issued as far out as 2027" — While long wait times for MRI scans at AIIMS Delhi are well-documented, there is no verifiable public source confirming imaging dates issued as far out as 2027. This appears to be an exaggeration or unverified claim. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%, imports up 2.5× since 2014-15." — The claim that imports rose "2.5× since 2014-15" is presented as a direct consequence of the deficit growth, but the article does not provide the 2014-15 import figure to verify this multiplier. Without the base year data, the interpretation that the market "roughly doubled" (as stated earlier) and dependency did not improve is not directly supported by the cited claim alone. [confidence: medium]
+- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%, imports up 2.5× since 2014-15." — The article uses the broader basket (including pharma lines) to argue that the medical device trade deficit is worsening, but this conflates pharma trade data with medical device trade data. The two are distinct sectors, and the inclusion of pharma lines distorts the interpretation of medical device-specific trends. [confidence: high]
 
-- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The EEPC baseline is cited as $6.2bn imports and $2.1bn exports, but the article later states the FY2025-26 deficit is $6.22bn with imports of $9.85bn and exports of $3.63bn. The claim that the "market roughly doubled" conflates the deficit with the total market size (imports + exports). The total market did not double; the deficit did. This is an apples-to-oranges comparison. [confidence: high]
+- "India leads the world in cataract-surgery volume yet imports the instruments; IOL manufacturing (Aurolab) proves the model works here." — While India may lead in cataract surgery volume, the claim that this "proves the model works" for ophthalmic surgical instruments is an overgeneralization. The success of IOL manufacturing (a specific component) does not necessarily imply that the broader ecosystem for ophthalmic surgical instruments is viable or that the same model can be replicated for other instruments. The reasoning conflates a specific success case with broader industry capability. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,15 +16,19 @@ Source: `posts/india-ec-approval-funnel-parivesh-20.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99759, Requested 1229. Please try again in 14m13.632s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99843, Requested 1182. Please try again in 14m45.6s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a source or methodology to verify this 49% figure. The claim is presented as fact without citation or supporting data. [confidence: low]
+- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a direct source or breakdown to support this 49% figure. The claim is presented as a definitive statement, but the text only mentions that "49% of these EC proposals are fresh new projects" without citing the underlying data or methodology for this calculation. [confidence: medium]
+
+- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection." — While the numbers 22% (auto-delisted) and 31% (pipeline backlog) are correctly cited from the data, the claim that "not rejection" is the real attrition is misleading. The article itself states that 6,954 proposals were not approved (including 2,553 rejected), which is a significant attrition rate (11.3% of decided proposals). The framing downplays the role of rejection in attrition. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Once a proposal reaches a decision, it is overwhelmingly approved." — While the grant rate of decided proposals is 88.7%, this does not necessarily imply that the approval process is "overwhelmingly" favorable. The high grant rate could be due to self-selection (only viable proposals reaching the decision stage) or other factors not accounted for in the data. The conclusion overgeneralizes the meaning of the grant rate. [confidence: high]
+- "Grant rate of DECIDED proposals: 88.7%" — The article calculates the grant rate as "granted ÷ decided," which is mathematically correct but potentially misleading in interpretation. The "decided" category includes proposals that were rejected, withdrawn, or returned, which are not all equivalent to "rejected" in terms of finality or outcome. The grant rate does not distinguish between proposals that were rejected outright versus those that were withdrawn or returned for revisions, which may not represent a true "approval" rate. [confidence: high]
+
+- "Once a proposal reaches a decision, it is overwhelmingly approved." — While the grant rate of 88.7% suggests high approval rates among decided proposals, this does not account for the fact that many proposals may be withdrawn or returned due to deficiencies, which could indicate systemic issues in the application process rather than high approval rates. The statement oversimplifies the outcome by focusing solely on the grant rate without considering the quality or completeness of the proposals that were approved. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

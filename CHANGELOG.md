@@ -3121,3 +3121,17 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 168,726 → 169,032 bytes (+306)
+
+## 2026-08-11T15:54:23+05:30 — 129 posts live
+
+**Added**
+
+- `do-cheap-stocks-stay-cheap-price-band` **v1.0.0** — Do Cheap Stocks Stay Cheap? Price-Band Migration and What K-Means Clustering Actually Finds (45,623 bytes)
+
+**Versions**
+
+- `below-250-is-where-real-junk-lives` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `below-250-is-where-real-junk-lives` — 12,594 → 12,594 bytes (+0)

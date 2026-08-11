@@ -16,19 +16,19 @@ Source: `posts/india-environmental-clearances-state.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99751, Requested 1273. Please try again in 14m44.736s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99834, Requested 806. Please try again in 9m12.96s. Need more tokens? Upgrade to Dev Tier today at https:/]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "113,970 proposals (2022–2026)" — The claim implies these proposals span the entire 5-year period, but the source (PARIVESH 2.0 API) may only include proposals up to the fetch date (22 Jul 2026), which could exclude proposals filed in the latter half of 2026. The exact timeframe is unclear. [confidence: medium]
+- "113,970 proposals (2022–2026)" — The claim implies these proposals span the entire 5-year period, but the source (PARIVESH 2.0 API) likely reflects cumulative proposals up to the fetch date (22 Jul 2026), not necessarily covering the full 2022–2026 period. The dataset may include proposals filed before 2022 that were still active in 2022–2026. [confidence: high]
 
-- "88.7% grant rate of decided proposals" — The article does not define what constitutes a "decided proposal." Without clarity on whether "decided" includes auto-delisted or withdrawn cases, the metric is ambiguous and potentially misleading. [confidence: high]
+- "Source: PARIVESH 2.0 open API, full EC register, fetched 22 Jul 2026" — The date "22 Jul 2026" is in the future relative to the current date (June 2025), making it impossible for the data to have been fetched on that date. This is likely a typo (e.g., "2025" intended). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants." — The claim assumes that the absence of certain flagship projects in the EC register is inherently meaningful for investment trends, but it does not account for potential delays, alternative approval pathways, or projects not requiring ECs. The causal link between absence and investment direction is unsupported. [confidence: high]
+- "88.7% grant rate of decided proposals" — The claim suggests a high approval rate, but the article later notes that 22% of proposals are auto-delisted (likely due to inactivity or non-compliance), which artificially inflates the grant rate by reducing the denominator of "decided proposals." The true approval rate among actively processed proposals may be lower. [confidence: high]
 
-- "Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted)." — While the grant rate is low, the article does not address whether the high rejection rate is due to stringent criteria, incomplete applications, or other systemic factors. The conclusion that wildlife clearances are the "true bottleneck" without comparing processing times or rejection reasons across other clearance types (e.g., Forest, CRZ) is an overgeneralization. [confidence: high]
+- "Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted)" — While the statistic is correct, the article does not provide context on the volume or significance of wildlife proposals relative to other clearances (e.g., ECs). A low grant rate alone does not necessarily indicate a "bottleneck" if wildlife clearances are a small fraction of total proposals or if rejections are justified by environmental safeguards. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

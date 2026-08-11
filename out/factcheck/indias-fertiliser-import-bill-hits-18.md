@@ -16,19 +16,19 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99609, Requested 3001. Please try again in 37m35.04s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99691, Requested 2534. Please try again in 32m2.399999999s. Need more tokens? Upgrade to Dev Tier today at]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Published 8 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The 90% figure is presented as an absolute without context (e.g., whether it includes subsidies, transport, or other costs). [confidence: medium]
+- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The 90% figure is presented as a fact without cross-checking against official government or industry data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's cost is natural gas, and India sources only a quarter of that gas domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the import bill surge (76% YoY). However, the 90% cost share of gas does not necessarily explain the 76% increase in the import bill, as the latter could be driven by global gas price spikes, exchange rate fluctuations, or demand-side factors (e.g., rains). The article conflates cost structure with import volume changes without demonstrating a direct causal mechanism. [confidence: high]
+- "90% of urea's production cost is natural gas, and India sources only a quarter of that gas domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the import bill surge, but the article does not establish that the 76% increase in the import bill is directly attributable to the gas import dependence. The weather-driven demand surge is also a major factor, and the article does not disentangle the relative contributions of these factors. [confidence: high]
 
-- "India imports 100% of its potash" — While the article correctly notes that India has no commercially exploited potash mines, the 100% import figure is presented as a static fact without addressing potential domestic production from undeveloped reserves (e.g., the 20,000 million tonnes cited). The claim risks misrepresenting the situation by implying no domestic production is possible, when in fact the issue is one of *current* capacity, not geological feasibility. [confidence: medium]
+- "The Standing Committee's 90%-of-urea-cost figure is the other end of that same pipe: whatever India's gas price does, urea's production cost moves with it almost one-for-one" — While the article correctly notes the linkage between gas prices and urea production costs, it extrapolates this to claim that gas price movements directly translate to a one-for-one change in urea production costs without providing evidence or data to support this specific causal claim. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

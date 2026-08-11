@@ -16,19 +16,19 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99497, Requested 6084. Please try again in 1h20m21.983999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99579, Requested 6084. Please try again in 1h21m32.832s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India’s 2026 producer-side move was uniquely domestic" — The article itself states this claim was corrected in a revision dated 8 August 2026, indicating it was previously incorrect. [confidence: high]
+- "Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — Brazil's producer inflation in 2021 was indeed the highest at +31.6%, but it was not the earliest peak. The US PPI peaked in 2021 (17.0%), while Brazil's peak occurred in 2021 but was driven by a currency collapse rather than the commodity shock. [confidence: high]
 
-- "+31.6% Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — While the figure itself is correct, the claim that it was the "earliest" peak is misleading because Brazil's producer inflation began rising in 2020 (+11.1%), making 2021 not the earliest peak. [confidence: high]
+- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this correction in the revision note, but the Exhibit 3 table shows India's consumer-side total as 27.4%, which aligns with the corrected figure. However, the initial claim in the revision note that it "rises from 25.2% to 27.4%" implies a prior incorrect figure of 25.2%, which is not supported by the data presented in the article or its sources. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — The article cites India's 2025 consumer inflation as 2.8%, which is indeed low by G20 standards, but this conclusion is based on a single year's data without broader context (e.g., volatility, policy impacts, or structural factors). The claim implies a sustained trend without sufficient evidence. [confidence: medium]
+- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is supported by Exhibit 2, which shows India's 2025 consumer inflation at 2.8%, below several G20 economies. However, the article does not adequately address the methodological differences in consumer price indices across countries (e.g., basket composition, base years, or weighting). For example, India's CPI includes a higher weight for food items, which can lead to greater volatility, while other countries may have more diversified baskets. The comparison assumes these indices are directly comparable, which they are not. [confidence: high]
 
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the spike was synchronized globally, this does not rule out the possibility that domestic policies (e.g., fuel taxes, supply-side constraints) amplified or mitigated the spike in India. The claim conflates correlation (timing) with causation (policy failure or success). [confidence: medium]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s" — While the spike was indeed synchronized and not uniquely Indian, the article does not sufficiently account for the structural differences between India's WPI (which includes imports and excludes services) and the euro area's PPI (which excludes imports and includes services). The claim that the spike was "smaller" (India's WPI at +15.4% vs. euro area PPI at +26.0%) does not control for these methodological differences, making the comparison misleading. The euro area's higher spike may partly reflect its energy-intensive industrial base and gas price shocks, while India's WPI was more influenced by global crude prices. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

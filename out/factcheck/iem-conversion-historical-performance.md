@@ -16,19 +16,19 @@ Source: `posts/iem-conversion-historical-performance.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99804, Requested 2383. Please try again in 31m29.568s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99886, Requested 2009. Please try again in 27m17.28s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2024 first year IEM implementation > FDI equity inflow" — The claim is incorrect because the article itself notes that the comparison is between calendar-year IEM implementation (Rs 4,93,765cr) and fiscal-year FDI equity inflow (Rs 4,21,929cr), which are not directly comparable due to differing time periods. The statement implies a direct comparison without acknowledging this methodological mismatch. [confidence: high]
+- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article later states that the implemented value for 2024 is Rs 4,93,765 cr (which is Rs 4.93765L cr), not Rs 4.94L cr. The rounding is incorrect. [confidence: high]
 
-- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article does not provide a verifiable source or context for this claim beyond the DPIIT Annual Reports. While the figure is cited, the absence of a clear baseline comparison (e.g., historical range, methodology for "best year") makes it difficult to assess its factual accuracy without cross-referencing the primary source. [confidence: medium]
+- "2019 Part B EXCLUDED — source defect: AR2022-23 prints Gujarat 2019 at Rs 15,18,861cr (~6x all-India)" — The claim that Gujarat's 2019 Part B value is ~6x all-India is unverifiable without the actual source data. The article does not provide a reliable cross-check or primary source to confirm this ratio. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Conversion (Part B implemented ÷ same-year Part A filed) is a same-period flow ratio, not a cohort match: this year's Part B often implements filings from 2-3 years earlier, so a high ratio can mean either 'government executing faster' or 'an old backlog finally landing.'" — While the caveat about the ratio being a flow measure is correct, the article then uses the 2024 conversion rate (82.0%) to argue that "the 2024 inflection isn't just a pipeline artefact" and that it reflects genuine improvement. This is an interpretation error because the high conversion rate could still be driven by the landing of older backlogs (e.g., 2021-22 filings) rather than faster execution of recent filings. The article does not disentangle these effects to justify the conclusion. [confidence: high]
+- "2024 first year IEM implementation > FDI equity inflow" — The article claims that 2024 was the first year IEM implementation (Rs 4,93,765cr) overtook FDI equity inflow (Rs 4,21,929cr). However, the comparison is flawed because IEM implementation is measured on a calendar year basis (Jan-Dec 2024), while FDI equity inflow is measured on a fiscal year basis (FY2024-25). These periods do not align, making the comparison apples-to-oranges. [confidence: high]
 
-- "State-level Part B data [...] shows the 2024-2025 jump concentrated in a few states: Gujarat alone implemented Rs 4.55L cr across just 2024-2025, and the top-3 states (Gujarat, Odisha, Maharashtra) account for 63.3% of all 2021-2025 implementation." — The article correctly reports the state-level concentration but then implies that this disproportionality undermines the national conversion-rate story. This is an apples-to-oranges comparison because the conversion rate is a national aggregate, while the state-level data highlights distribution. The interpretation error lies in conflating national performance with state-level disparities without explaining how the latter invalidates the former. [confidence: high]
+- "Conversion (Part B implemented ÷ same-year Part A filed) is a same-period flow ratio, not a cohort match: this year's Part B often implements filings from 2-3 years earlier" — While the article correctly notes that conversion is a flow ratio, it then uses this to support the claim that "the 2024 inflection isn't just a pipeline artefact." This is an overreach: the high conversion rate in 2024 could still be driven by older filings landing, not necessarily improved execution. The article conflates the two interpretations without resolving the ambiguity. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

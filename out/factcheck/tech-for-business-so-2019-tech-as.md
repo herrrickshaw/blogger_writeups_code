@@ -16,19 +16,11 @@ Source: `posts/tech-for-business-so-2019-tech-as.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99255, Requested 2299. Please try again in 22m22.656s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99327, Requested 2299. Please try again in 23m24.864s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "AI Disclosure: This article was originally published in October 2020" — The article text itself does not contain any date, and the AI disclosure is a meta-commentary added later, not part of the original article's claims. The claim about the publication date is unverifiable from the provided text. [confidence: low]
-
-- "The relationship between an investor and your company's CEO can be seen as the relationship between Tom and Jerry." — While this is a metaphor, it is not a factual claim that can be verified or falsified. Metaphors are not factual errors unless they misrepresent a verifiable fact. [confidence: low]
-
-INTERPRETATION ERRORS:
-- "The local farmer (CEO) has a stock of potatoes and consumers who already buy potatoes from him/her but have recently shown interest in french fries. The French fry business is booming, which he/she estimates will be valuable to the trader." — The claim implies that the farmer's *estimate* of the french fry business's value is sufficient to justify investment, but it does not address whether this estimate is based on verifiable data or market validation. The reasoning gap is that the farmer's subjective estimate is treated as a factual basis for investment decisions without evidence of market demand or scalability. [confidence: high]
-
-- "A trader can ask in length about the guarantee of quality, volume, and price of potatoes." — The claim suggests that the trader's due diligence (quality, volume, price) is sufficient to mitigate all risks, but it does not account for other critical risks such as regulatory compliance, supply chain disruptions, or competitive dynamics in the global market. The reasoning gap is that the trader's focus on these factors is presented as comprehensive risk management, ignoring other potential risks. [confidence: medium]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
 
 ## Kimi kimi-k2-0711-preview
 

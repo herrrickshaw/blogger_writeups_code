@@ -16,19 +16,19 @@ Source: `posts/fractional-us-stocks-india-financial-inclusion.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99968, Requested 2583. Please try again in 36m44.064s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99255, Requested 2583. Please try again in 26m28.032s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India has roughly 23.15 crore demat accounts as of June 2026" — The cited source (SBI Securities) reports 23.15 crore demat accounts as of June 2026, but the article itself notes this is a cross-check against "more recent June 2026 industry reporting," implying the figure may not be final or officially confirmed. The claim lacks a primary government or exchange source (e.g., CDSL/NSDL) for verification. [confidence: medium]
+- "Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share." — The article later states Berkshire Hathaway Class A shares are worth ~$780,000 *as of early Aug 2026*, but the claim here is presented without a date, making it unclear if this is current or outdated. [confidence: medium]
 
-- "MRF Ltd (NSE, India's highest-priced listed stock) | ₹1,34,200 | 10 Aug 2026" — The price of ₹1,34,200 for MRF Ltd is not verifiable against the cited source (StockAnalysis.com) or other mainstream financial data providers. MRF's share price as of August 2026 is significantly lower (e.g., ~₹1,00,000–1,10,000 per share in recent trading). [confidence: high]
+- "India has roughly 23.15 crore demat accounts as of June 2026" — The source cited (SBI Securities) mentions "Total Number of Demat Accounts in India Exceed 17.10 crore mark," with the 23.15 crore figure described as "more recent June 2026 industry reporting." This is inconsistent, as the SBI Securities report is older and does not explicitly confirm the 23.15 crore figure. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Fractional investing hasn't closed that gap yet" — The claim implies fractional investing is the *only* solution to the price barrier for Indian stocks, but it ignores alternative mechanisms (e.g., stock splits, bonus issues, or mutual funds) that could make whole shares more accessible without legal changes. The article frames the problem as solely solvable via fractional ownership, which is an overgeneralization. [confidence: high]
+- "Fractional investing hasn't closed that gap yet" — The article conflates the *legal availability* of fractional Indian shares (which is not yet permitted) with the *practical accessibility* of fractional US shares (which is already possible). The claim implies fractional investing is uniformly unavailable in India, ignoring the asymmetry between domestic and foreign markets. [confidence: high]
 
-- "The inclusion case for fractional investing is real, but it's currently asymmetric" — While the article correctly notes that fractional investing for US stocks is available, it extrapolates this to claim the *inclusion case itself* is "asymmetric" without quantifying the actual impact on retail participation or comparing pre- and post-fractional investing metrics (e.g., demat account growth rates or retail ownership of high-priced stocks). The conclusion is not directly supported by the data presented. [confidence: medium]
+- "The inclusion case for fractional investing is real, but it's currently asymmetric." — While the asymmetry between foreign and domestic fractional investing is correctly noted, the article does not sufficiently emphasize that the *primary barrier* for Indian stocks is a *legal one* (Companies Act, 2013), not a technical one. The framing risks misleading readers into thinking the issue is merely operational rather than regulatory. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99299, Requested 11772. Please try again in 2h39m25.344s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99373, Requested 11772. Please try again in 2h40m29.279999999s. Need more tokens? Upgrade to Dev Tier toda]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet approves 'Samudra Manthan' (National Offshore Exploration Scheme) with an outlay of Rs.84,084 crore" — The claim is unverifiable as the article provides no source or link to verify this specific outlay figure. The scheme name itself is not a standard or widely recognized government scheme in India as of 2026. [confidence: medium]
+- "Cabinet approves 'Samudra Manthan' (National Offshore Exploration Scheme) with an outlay of Rs.84,084 crore" — The scheme name "Samudra Manthan" is not an official government designation; it appears to be a descriptive title rather than a formal program name. The actual scheme is likely the "National Offshore Exploration Programme" or similar, and the outlay figure cannot be independently verified as correct for 2026. [confidence: high]
 
-- "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore" — The PM-KISAN scheme's financial outlay is not publicly announced or approved by the Cabinet for such an extended period (2026-27 to 2030-31) in any official government document or press release as of 2026. The scheme's budget is typically approved annually. [confidence: high]
+- "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore" — The PM-KISAN scheme's continuation timeline and outlay are not officially confirmed for such an extended period (2026-27 to 2030-31) in publicly available government documents as of the article's date. The standard allocation is typically annual. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Cabinet approves 'Pradhan Mantri Surya Sarovar Yojana (PM-SSY)' for Development of Floating Solar Photovoltaic Projects with Energy Storage Systems with a total..." — The claim implies a Cabinet approval for a new scheme (PM-SSY) with a specific focus on floating solar projects and energy storage, but the article does not provide any details on the scope, budget, or implementation plan of this scheme. The mention of "with a total" is incomplete, suggesting the article may be extrapolating or misinterpreting partial information. There is no clear evidence that such a scheme has been formally approved or launched by the Cabinet. [confidence: high]
+- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — While the statement may be factually correct, it is presented as a definitive conclusion about the scheme's implementation without providing any data or evidence (e.g., budget documents, implementation reports, or third-party audits) to support the claim that no state-wise allocations exist. This is an unsupported assertion rather than a verified fact. [confidence: high]
 
-- "Ministry of Electronics & IT IndiaAI and Ministry of AYUSH Sign MoU to Accelerate AI Innovation in Traditional Healthcare" — While the MoU itself is plausible, the article does not provide any details on the expected outcomes, funding, or timeline of the collaboration. The claim implies a direct acceleration of AI innovation in traditional healthcare, but the MoU alone does not guarantee measurable outcomes or impact. The article overstates the potential impact without evidence. [confidence: medium]
+- "Ministry of Electronics & IT IndiaAI and Ministry of AYUSH Sign MoU to Accelerate AI Innovation in Traditional Healthcare" — Signing an MoU does not guarantee successful implementation, measurable outcomes, or even that the collaboration will proceed as planned. The article presents the MoU as a positive development without acknowledging the uncertainty or potential challenges in execution, leading to an overstatement of impact. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

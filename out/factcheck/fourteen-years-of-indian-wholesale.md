@@ -16,15 +16,15 @@ Source: `posts/fourteen-years-of-indian-wholesale.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99978, Requested 4755. Please try again in 1h8m9.312s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99263, Requested 4428. Please try again in 53m9.024s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "WPI is not a MoSPI product. Several posts here sourced WPI to 'MoSPI' and to a MoSPI data connector. That is wrong." — This claim is incorrect because the article itself later states that WPI is compiled and published by the Office of the Economic Adviser, DPIIT, Ministry of Commerce & Industry, which is consistent with MoSPI's role in publishing economic data. The correction is based on a misunderstanding of institutional roles. [confidence: high]
+- "WPI is not a MoSPI product. Several posts here sourced WPI to 'MoSPI' and to a MoSPI data connector. That is wrong." — This claim is incorrect because the Office of the Economic Adviser (OEA) is part of MoSPI (Ministry of Statistics and Programme Implementation), and WPI is indeed a MoSPI product. The OEA is a wing of MoSPI, not a separate ministry. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Fuel & Power as a whole swings almost as hard (106.3 → 78.3 → 181.7). Wholesale fuel prices in India are a near-undamped transmission of world crude, and because fuel is itself a component of WPI, that transmission is closer to accounting than to causation." — The claim conflates correlation with causation. While fuel prices may reflect global crude trends, the statement that this transmission is "closer to accounting than to causation" implies that the price movements are merely reflective rather than driven by underlying economic factors, which is an overreach. The data shows volatility, but the interpretation incorrectly dismisses potential causal mechanisms. [confidence: medium]
+- "Fuel & Power as a whole swings almost as hard (106.3 → 78.3 → 181.7). Wholesale fuel prices in India are a near-undamped transmission of world crude, and because fuel is itself a component of WPI, that transmission is closer to accounting than to causation." — The article conflates correlation with causation. While fuel prices may reflect global crude trends, the statement implies that the WPI's inclusion of fuel prices is purely an accounting artifact rather than a causal driver of inflation. The WPI's composition does not negate the real economic impact of fuel price changes on inflation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

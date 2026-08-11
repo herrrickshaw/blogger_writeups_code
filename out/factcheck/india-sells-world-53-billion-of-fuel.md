@@ -16,19 +16,19 @@ Source: `posts/india-sells-world-53-billion-of-fuel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99696, Requested 4339. Please try again in 58m6.24s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99779, Requested 3965. Please try again in 53m54.816s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The publication date is incorrect as the article references FY2024-25 and FY2025-26 data, which would not be available until mid-2025 and mid-2026 respectively. The latest possible publication date for FY2025-26 data would be August 2026, but the article claims a future date (2026), which is impossible. [confidence: high]
+- "Published 8 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "US$53.0bn Refined petroleum exports, HS 2710, FY2025-26" — The article states exports as US$52,973 million (or ~US$53.0bn) but later in the text contradicts this by quoting US$52,973 million as the exact figure. The rounding to US$53.0bn is technically correct but the inconsistency in presentation (switching between rounded and exact figures) could confuse readers. However, this is not a factual error per se, so no error is flagged here. Instead, the publication date error is the only factual error found.
+- "US$53.0bn Refined petroleum exports, HS 2710, FY2025-26" — The article later cites actual export values of US$52,973 million (≈US$53.0bn) for FY2025-26, but the initial claim is presented as a rounded figure without the precise value, which could mislead readers about the exactness of the data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The surplus is real — India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the surplus is real in terms of trade value, the claim that the margin between crude imports and refined fuel exports is "one of the country’s largest export earnings" is an apples-to-oranges comparison. The "margin" (difference between import and export values) is not an export earning; export earnings are the gross export value (US$53bn), not the net surplus (US$43.7bn). The net surplus is a measure of profitability or trade balance, not revenue. [confidence: high]
+- "The surplus is real" — The article correctly notes that India has a net surplus in refined petroleum trade, but it conflates this with the idea that the surplus is "one of the country’s largest export earnings" without providing comparative context (e.g., ranking among other export categories) to justify this claim. [confidence: high]
 
-- "The single largest destination for Indian refined petroleum is the Netherlands, at US$8,435 million — 15.9% of the total, and almost all of it in the diesel-and-fuel-oil group." — While the claim about the Netherlands being the largest destination is factually correct, the implication that this is due to Rotterdam being a "trading hub" for discounted Russian fuel is an interpretation that goes beyond the data presented. The article does not provide evidence linking Indian refined fuel exports to the European market's reduced purchases of Russian refined fuel. This is speculative and not supported by the trade data alone. [confidence: medium]
+- "The neighbourhood does not appear until well down the list" — While the claim that the Netherlands is the largest buyer is factually correct, the interpretation that this means the neighbourhood is not a significant market is misleading. The combined share of Nepal, Sri Lanka, Bhutan, and Bangladesh (6.7%) is non-trivial, and the article later acknowledges this, but the phrasing downplays the actual market presence of these neighbors. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
