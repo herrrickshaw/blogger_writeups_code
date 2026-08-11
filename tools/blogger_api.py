@@ -276,7 +276,7 @@ def verify_live(url, needle=None, absent=None):
     return True, f"{len(out):,} bytes"
 
 
-def do_update(post_id, url, title, body, published=None, dry_run=False):
+def do_update(post_id, url, title, body, published=None, labels=None, dry_run=False):
     if dry_run:
         print(f"    DRY RUN — would PUT {len(body):,} bytes")
         return True
@@ -286,9 +286,18 @@ def do_update(post_id, url, title, body, published=None, dry_run=False):
     # and not one re-dating — but "it has not bitten yet" is not a guarantee, and
     # a silently re-dated post is the kind of damage you notice months later.
     # Send the existing date back explicitly so the behaviour is ours, not theirs.
+    #
+    # `labels` needs the same treatment, and unlike `published` it has actually
+    # bitten: an update on 2026-08-11 that omitted labels wiped
+    # ai-high-demand-launch-tracker's "AI Tracker" label, while other same-day
+    # updates that also omitted labels did not lose theirs -- Blogger's PUT
+    # behaviour for omitted array fields is not reliably "leave unchanged", so
+    # don't rely on it. Callers must pass the post's current labels through.
     payload = {"id": post_id, "title": title, "content": body}
     if published:
         payload["published"] = published
+    if labels:
+        payload["labels"] = labels
     api(f"/blogs/{BLOG_ID}/posts/{post_id}", data=payload, method="PUT")
     time.sleep(3)  # give Blogger a moment to render before verifying
     probe = _flatten_html(body, limit=40)
@@ -312,7 +321,8 @@ def cmd_update(args):
         print(f"  title: {p['title']!r}\n      -> {args.title!r}")
     try:
         ok = do_update(p["id"], p["url"], title, body,
-                       published=p.get("published"), dry_run=args.dry_run)
+                       published=p.get("published"), labels=p.get("labels"),
+                       dry_run=args.dry_run)
     except Ceiling as e:
         print(f"daily write ceiling reached: {e}")
         sys.exit(3)
@@ -397,7 +407,8 @@ def cmd_bulk(args):
         try:
             ok = do_update(p["id"], p["url"], p["title"],
                            path.read_text(encoding="utf-8"),
-                           published=p.get("published"), dry_run=args.dry_run)
+                           published=p.get("published"), labels=p.get("labels"),
+                           dry_run=args.dry_run)
         except Ceiling as err:
             print(f"\ndaily write ceiling reached after {done} writes: {err}")
             print("retry tomorrow — backoff will not clear this")

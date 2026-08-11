@@ -192,7 +192,7 @@ def main():
             meta = json.loads(meta_path.read_text())
             try:
                 ok = B.do_update(meta["id"], meta["url"], meta["title"], fixed,
-                                  published=meta.get("published"))
+                                  published=meta.get("published"), labels=meta.get("labels"))
             except B.Ceiling as e:
                 print(f"\ndaily write ceiling reached after {done} publishes: {e}")
                 print("posts not yet reached remain untouched, locally and live -- "
