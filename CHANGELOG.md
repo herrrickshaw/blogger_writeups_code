@@ -2729,3 +2729,13 @@ scheduled sync
 **Added**
 
 - `a-slice-of-apple-costs-about-1700-slice` **v1.0.0** — A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet. (15,681 bytes)
+
+## 2026-08-11T11:00:33+05:30 — 124 posts live
+
+**Versions**
+
+- `a-slice-of-apple-costs-about-1700-slice` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `a-slice-of-apple-costs-about-1700-slice` — 15,681 → 15,920 bytes (+239)
