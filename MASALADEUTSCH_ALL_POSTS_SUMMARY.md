@@ -1,6 +1,6 @@
 # Masala Deutsch — All Posts, Summarised
 
-*121 published posts, 18 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*122 published posts, 18 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
 *Generated 11 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
@@ -505,10 +505,12 @@
 - **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
   Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
 
-### Markets & Finance (20)
+### Markets & Finance (21)
 
 - **[A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal. Fractional Investing Hasn't Closed That Gap Yet.](https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html)** — 2026-08-11
   Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
+- **[Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html)** — 2026-08-11
+  This blog has floated two separate ideas in two separate articles: "tiffin investing" — a daily, UPI-sized micro-investing habit — and "thali investing" — the case for spreading money across instruments that don't move together. It turns out a real product already combines both, launched three months after this blog's own fractional-shares piece first named the idea. It just isn't the product that piece was actually about.
 - **[The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html)** — 2026-08-10
   The 50/30/20 budgeting rule — 50% needs, 30% wants, 20% savings — is one of the most-cited rules of thumb in personal finance, built to be simple enough to use without a spreadsheet. But the rule assumes savings gets whatever is left over after needs and wants are paid. A different, more aggressive school of budgeting inverts that order entirely: save first, and let needs and wants split whatever remains. This article covers both — where the standard 50/30/20 rule comes from, and what it actually means to flip it and save 50% before anything else.
 - **[The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html)** — 2026-08-10
@@ -1283,3 +1285,8 @@ India imports nearly $200 million of locks and padlocks a year, and the number i
 *2026-08-11 · Markets & Finance*
 
 Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share. That's a real, working piece of financial inclusion, built entirely on foreign-market plumbing. The much harder version — a fractional slice of an Indian stock like MRF — is still against the law, and the regulatory path to changing that only opened in mid-2025.
+
+### [Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html)
+*2026-08-11 · Markets & Finance*
+
+This blog has floated two separate ideas in two separate articles: "tiffin investing" — a daily, UPI-sized micro-investing habit — and "thali investing" — the case for spreading money across instruments that don't move together. It turns out a real product already combines both, launched three months after this blog's own fractional-shares piece first named the idea. It just isn't the product that piece was actually about.
