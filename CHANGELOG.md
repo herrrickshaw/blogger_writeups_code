@@ -2873,3 +2873,13 @@ scheduled sync
 
 - `a-slice-of-apple-costs-about-1700-slice` — 15,920 → 22,024 bytes (+6,104)
 - `article-index-start-here` — 166,964 → 167,640 bytes (+676)
+
+## 2026-08-11T13:16:38+05:30 — 124 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.2 → 24.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 167,640 → 167,793 bytes (+153)

@@ -277,7 +277,7 @@ def main():
     # at the same URL rather than adding a row to the list.
     trk = next((p for s_, p in posts.items() if "ai-high-demand-launch-tracker" in s_), None)
     if trk:
-        A('<h2>AI Tools</h2>')
+        A('<h2>AI Tracker</h2>')
         A('<p class="h2sub">The weekly AI tools update. Newest edition at a fixed address.</p>')
         A('<div class="serial">')
         A(f'<p class="ptitle"><a href="{E(trk["url"])}">{E(trk["title"])}</a></p>')
@@ -289,7 +289,7 @@ def main():
           'from roundups, and anything that cannot be verified to that standard is labelled '
           'as unverified rather than ranked alongside what can.</p>')
         A(f'<p class="prel"><span>Hub</span> <a href="https://masaladeutsch.blogspot.com/'
-          f'search/label/AI%20Tools">All AI Tools editions</a></p>')
+          f'search/label/AI%20Tracker">All AI Tracker editions</a></p>')
         A('</div>')
 
     # ---- geography --------------------------------------------------------
