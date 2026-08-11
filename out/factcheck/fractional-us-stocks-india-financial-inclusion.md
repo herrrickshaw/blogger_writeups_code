@@ -16,25 +16,19 @@ Source: `posts/fractional-us-stocks-india-financial-inclusion.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "India has roughly 23.15 crore demat accounts as of June 2026" — This claim cannot be verified against a primary source, but it is cross-checked against more recent June 2026 industry reporting, so the confidence is medium [confidence: medium]
-- "SEBI rejected a similar fractional-ownership proposal in its regulatory sandbox in 2021" — This claim is based on the article's text, but the primary source is not provided, so the confidence is medium [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "The inclusion case for fractional investing is real, but it's currently asymmetric" — The article concludes that fractional investing has solved the problem of accessing foreign high-priced stocks, but not domestic ones. However, this conclusion is based on the current regulatory environment and may not account for potential future changes or workarounds [confidence: medium]
-- "A claim worth flagging and setting aside: several crypto-industry news sites... have reported that SEBI has already launched 'tokenized' fractional shares of Reliance Industries for retail investors" — The article dismisses this claim as unverified, but it may be a genuine development that has not been officially announced by SEBI, highlighting the need for verification of information through official channels [confidence: high]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99968, Requested 2583. Please try again in 36m44.064s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Indian investing apps already let you buy a $10 slice of a $780,000 Berkshire Hathaway share." — The article later states Berkshire Hathaway Class A shares are worth ~$780,000 as of early August 2026, but the claim that Indian apps allow fractional purchases of this share is presented as a current reality. However, the article also notes that fractional ownership of Indian stocks is illegal and the regulatory path only opened in mid-2025, implying fractional US stock investing may not yet be widely available in India. The claim lacks verification in the article itself. [confidence: medium]
+- "India has roughly 23.15 crore demat accounts as of June 2026" — The cited source (SBI Securities) reports 23.15 crore demat accounts as of June 2026, but the article itself notes this is a cross-check against "more recent June 2026 industry reporting," implying the figure may not be final or officially confirmed. The claim lacks a primary government or exchange source (e.g., CDSL/NSDL) for verification. [confidence: medium]
 
-- "India has roughly 23.15 crore demat accounts as of June 2026" — The article cites this figure but also references "17.10 crore mark" from SBI Securities, creating inconsistency. The June 2026 figure is not corroborated by the primary source cited (SBI Securities), which only mentions exceeding 17.10 crore. [confidence: high]
+- "MRF Ltd (NSE, India's highest-priced listed stock) | ₹1,34,200 | 10 Aug 2026" — The price of ₹1,34,200 for MRF Ltd is not verifiable against the cited source (StockAnalysis.com) or other mainstream financial data providers. MRF's share price as of August 2026 is significantly lower (e.g., ~₹1,00,000–1,10,000 per share in recent trading). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Fractional investing hasn't closed that gap yet" — The article claims fractional investing hasn't closed the gap between the price of an Apple slice and an MRF slice, but this conflates two different markets (US vs. Indian stocks). Fractional investing in US stocks (like Apple) is already possible, while fractional investing in Indian stocks (like MRF) is not. The "gap" is not between two similar products but between two distinct regulatory regimes. The claim implies a failure of fractional investing in general, when the issue is specific to Indian stocks. [confidence: high]
+- "Fractional investing hasn't closed that gap yet" — The claim implies fractional investing is the *only* solution to the price barrier for Indian stocks, but it ignores alternative mechanisms (e.g., stock splits, bonus issues, or mutual funds) that could make whole shares more accessible without legal changes. The article frames the problem as solely solvable via fractional ownership, which is an overgeneralization. [confidence: high]
 
-- "The inclusion case for fractional investing is real, but it's currently asymmetric." — While the article correctly notes that fractional investing in US stocks is possible and in Indian stocks is not, the claim that this creates an "asymmetric" inclusion case is an overgeneralization. The asymmetry is not in the concept of fractional investing itself but in the legal and regulatory frameworks governing Indian vs. foreign stocks. The term "asymmetric" suggests a balanced comparison where one side is more developed, but the reality is a binary legal barrier for Indian stocks. [confidence: medium]
+- "The inclusion case for fractional investing is real, but it's currently asymmetric" — While the article correctly notes that fractional investing for US stocks is available, it extrapolates this to claim the *inclusion case itself* is "asymmetric" without quantifying the actual impact on retail participation or comparing pre- and post-fractional investing metrics (e.g., demat account growth rates or retail ownership of high-priced stocks). The conclusion is not directly supported by the data presented. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

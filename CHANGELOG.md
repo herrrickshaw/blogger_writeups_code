@@ -3111,3 +3111,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `050-is-its-own-category-diving-into` — 2026-08-11 &rarr; 2026-08-11
+
+## 2026-08-11T15:34:05+05:30 — 128 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.6 → 24.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 168,726 → 169,032 bytes (+306)
