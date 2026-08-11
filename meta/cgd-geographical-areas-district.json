@@ -4,25 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-08T14:24:55.671+05:30",
-  "labels": [
-    "Gas & LNG",
-    "Industrial Policy"
-  ],
-  "bytes": 6643,
-  "sha256": "bf7a5abcc106e8bb7ae57aaba823f186464eb2a4d64d4a6abda104544d3ff305",
+  "updated": "2026-08-11T11:37:59.139+05:30",
+  "labels": [],
+  "bytes": 6880,
+  "sha256": "388590053dfd9be05ddcd9488f763fa147e4d823bf3fb2e546a28f1c984f2fcd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
+    "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -74,6 +71,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        6643,
+        6880
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

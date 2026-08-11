@@ -4,25 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-08-08T14:15:15.624+05:30",
-  "labels": [
-    "Gas & LNG",
-    "Industrial Policy"
-  ],
-  "bytes": 12461,
-  "sha256": "dae350982cdcb6de5c94c8768a7efcdc4c8cc29cca9a7bbf2a75a3c44ab3f5f9",
+  "updated": "2026-08-11T11:42:06.992+05:30",
+  "labels": [],
+  "bytes": 13281,
+  "sha256": "af5c46210db8a741f2c90b5742959e4848d452f79941ab8e9a6f9b7d6de7acee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": true,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +53,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        12461,
+        13281
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

@@ -4,25 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.000+05:30",
-  "updated": "2026-08-08T14:18:06.240+05:30",
-  "labels": [
-    "Industrial Policy",
-    "Markets & Finance"
-  ],
-  "bytes": 30823,
-  "sha256": "997f94403e1dbe71de420ccbe7a41126e445528c6c3b3eb6b47435b995bd1ee6",
+  "updated": "2026-08-11T11:39:22.313+05:30",
+  "labels": [],
+  "bytes": 31643,
+  "sha256": "04b04d5b56fd5fc51e8cdb604fb2499824d7f31ba547e7939f3ae462965efc00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": true,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +53,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30823,
+        31643
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

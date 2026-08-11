@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-08-10T14:28:24.454+05:30",
+  "updated": "2026-08-11T11:40:54.137+05:30",
   "labels": [],
-  "bytes": 9306,
-  "sha256": "d47d102c4363c8dd431238d3cf5444513616e71363f431ffea6a5bdfcfa4211c",
+  "bytes": 10126,
+  "sha256": "e7f31b82cb94433812e098563f25f1d429bfe2067c861dcc60341066f7f93b56",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": false,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,28 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        9306,
+        10126
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

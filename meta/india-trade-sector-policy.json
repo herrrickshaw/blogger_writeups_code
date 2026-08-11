@@ -4,24 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-08-08T14:25:39.114+05:30",
-  "labels": [
-    "Industrial Policy"
-  ],
-  "bytes": 12380,
-  "sha256": "1e14a14ad61322e0694ff222244e1d566bfc644511eab73d7f8e828a8d6684c4",
+  "updated": "2026-08-11T11:39:17.366+05:30",
+  "labels": [],
+  "bytes": 12617,
+  "sha256": "fa10027ca4f1d0355d3cd1120a0492fd74a40238d395e073471fbda0dc3e463b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
+    "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -86,6 +84,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        12380,
+        12617
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

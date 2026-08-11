@@ -4,25 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
   "slug": "rajya-sabha-question-registry-scheme",
   "published": "2026-08-04T15:55:00.000+05:30",
-  "updated": "2026-08-08T14:17:39.463+05:30",
-  "labels": [
-    "Import Substitution",
-    "Industrial Policy"
-  ],
-  "bytes": 318998,
-  "sha256": "0fec0ba031c36f7ca722d38a058fb1de55826c41ae598f8f43147706f4a35c7c",
+  "updated": "2026-08-11T11:40:47.041+05:30",
+  "labels": [],
+  "bytes": 319818,
+  "sha256": "4467ace3c64f39c96fc8925f5d46ecd2b67eb6eb88805fced654d9a455b494e6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +53,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        318998,
+        319818
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

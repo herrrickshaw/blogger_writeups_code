@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-08-09T10:41:50.201+05:30",
+  "updated": "2026-08-11T11:39:29.250+05:30",
   "labels": [],
-  "bytes": 9692,
-  "sha256": "0c279ab29859f9a38fca042c3cc0d3cd4ce61c277e7ee546ea3ba0ac1d075d48",
+  "bytes": 10512,
+  "sha256": "be1d2d2ca27a852acbdc4e8ca9706f8bc526b43c8f694703f433921ebe85a544",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": false,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,28 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        9692,
+        10512
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

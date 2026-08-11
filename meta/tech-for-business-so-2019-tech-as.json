@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
   "published": "2020-10-04T17:27:00.000+05:30",
-  "updated": "2026-08-08T14:25:46.710+05:30",
+  "updated": "2026-08-11T11:41:06.584+05:30",
   "labels": [],
-  "bytes": 28290,
-  "sha256": "a14e5110ab4e903c34943bdfe5346b6ae1ab510ec21cc2a252aefff2dd86bf66",
+  "bytes": 28527,
+  "sha256": "4478c8b918601501164525f3d0338e6b46e9d6044580d4ab1fca5c99f5fe249b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
+    "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28290,
+        28527
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }

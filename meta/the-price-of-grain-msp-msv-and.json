@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-10T14:28:16.290+05:30",
+  "updated": "2026-08-11T11:41:44.561+05:30",
   "labels": [],
-  "bytes": 29536,
-  "sha256": "e9f83254d346b45b0486e59f63788ef0cb657ed72bbc5038eb00b5f00bc54e68",
+  "bytes": 29773,
+  "sha256": "50b8f59f81555f3c442e80628c521cd6da31cdfdbc2eb9fa8db4f7943d0f78bf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": true,
     "translate_widget": true,
-    "index_link": false,
+    "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,24 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        29536,
+        29773
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

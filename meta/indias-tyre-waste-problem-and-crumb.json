@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-08-09T10:46:02.363+05:30",
+  "updated": "2026-08-11T11:40:07.825+05:30",
   "labels": [],
-  "bytes": 11882,
-  "sha256": "ac8ca0ff5057d91aef4353b3e8107dfa39e957697053b766677062dcf48b4c81",
+  "bytes": 12702,
+  "sha256": "a7a27dccfce7ba134e6b8c032ace66436a09a6881122fa84bcdfa823cffab137",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": false,
-    "index_link": false,
-    "ai_disclosure": false,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -65,6 +65,28 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-11T11:44:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        11882,
+        12702
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

@@ -2749,3 +2749,95 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 166,568 → 166,823 bytes (+255)
+
+## 2026-08-11T11:44:28+05:30 — 124 posts live
+
+**Versions**
+
+- `europes-export-credit-agencies-are` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-state-incentive-war-gujarats` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-indias-green-hydrogen-bets-are` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ethanol-surplus-isnt-going-to` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-empty-shed-greenhouse-what-indias` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-animal-protein-export-complex` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-tyre-waste-problem-and-crumb` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `whos-actually-building-mri-and-ct` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-ethanol-sectors-buyers-market` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `vehicles-out-motors-in-indias-chapter` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-full-hsn-8_01082878313` **2.0.1 → 2.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fuel-pricing-to-crude-cost` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `pli-medical-devices-coverage-and-gaps` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-medical-device-trade-gap-and` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `if-india-paid-brics-in-rupees-scenario` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `lok-sabha-question-registry-1843-scheme` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rajya-sabha-question-registry-scheme` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-most-discussed-schemes-in` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `quarterly-reportage-4034-scheme` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indian-it-in-ai-era` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `securitising-deficit-what-it-would` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-price-and-tap-two-levers-behind` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `raising-green-debt-globally-rec-euroyen` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `half-of-indias-import-bill-is` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-subsidised-imports-fertilisers` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-cbg-incentive-stack-every-leg-of` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-textile-import-export-strategy` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ethanol-blending-omc-books-e20-today-vs` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-petrochemical-import-tree-from` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `us-stock-picks-multi-screen-quant` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-price-of-grain-msp-msv-and` **2.0.2 → 2.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-fearless-girls-charter-indias` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cgd-geographical-areas-district` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-forest-wildlife-crz-clearances` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-ec-approval-funnel-parivesh-20` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cold-chain-fuel-outlet-integrated-map` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-environmental-clearances-state` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-fuel-retail-outlets-82k-geocoded` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-trade-sector-policy` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tech-for-business-so-2019-tech-as` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `europes-export-credit-agencies-are` — 15,731 → 15,968 bytes (+237); markers index_link False→True
+- `indias-state-incentive-war-gujarats` — 24,730 → 25,550 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `where-indias-green-hydrogen-bets-are` — 12,461 → 13,281 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `indias-ethanol-surplus-isnt-going-to` — 13,838 → 14,658 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `the-empty-shed-greenhouse-what-indias` — 10,540 → 11,360 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `indias-animal-protein-export-complex` — 9,692 → 10,512 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `indias-tyre-waste-problem-and-crumb` — 11,882 → 12,702 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `whos-actually-building-mri-and-ct` — 9,279 → 10,099 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `the-ethanol-sectors-buyers-market` — 9,562 → 10,382 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `rare-earth-magnets-and-specialty-steel` — 9,306 → 10,126 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `vehicles-out-motors-in-indias-chapter` — 9,240 → 10,060 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `chemical-import-substitution-full-hsn-8_01082878313` — 376,894 → 378,154 bytes (+1,260); markers ai_disclosure False→True, index_link False→True, translate_widget False→True
+- `fuel-pricing-to-crude-cost` — 73,204 → 74,024 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `pli-medical-devices-coverage-and-gaps` — 12,742 → 13,562 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `indias-medical-device-trade-gap-and` — 17,871 → 18,691 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `if-india-paid-brics-in-rupees-scenario` — 26,089 → 26,672 bytes (+583); markers ai_disclosure False→True
+- `lok-sabha-question-registry-1843-scheme` — 455,612 → 456,432 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `rajya-sabha-question-registry-scheme` — 318,998 → 319,818 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `the-most-discussed-schemes-in` — 26,622 → 27,442 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `quarterly-reportage-4034-scheme` — 534,113 → 534,933 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `indian-it-in-ai-era` — 30,823 → 31,643 bytes (+820); markers ai_disclosure False→True, index_link False→True
+- `securitising-deficit-what-it-would` — 114,648 → 115,231 bytes (+583); markers ai_disclosure False→True
+- `the-rupee-fell-10-and-exports-grew-09` — 29,764 → 30,347 bytes (+583); markers ai_disclosure False→True
+- `the-price-and-tap-two-levers-behind` — 14,879 → 15,462 bytes (+583); markers ai_disclosure False→True
+- `raising-green-debt-globally-rec-euroyen` — 49,874 → 50,457 bytes (+583); markers ai_disclosure False→True
+- `half-of-indias-import-bill-is` — 18,043 → 18,626 bytes (+583); markers ai_disclosure False→True
+- `indias-subsidised-imports-fertilisers` — 27,830 → 28,067 bytes (+237); markers index_link False→True
+- `the-cbg-incentive-stack-every-leg-of` — 11,598 → 11,835 bytes (+237); markers index_link False→True
+- `indias-textile-import-export-strategy` — 35,866 → 36,103 bytes (+237); markers index_link False→True
+- `ethanol-blending-omc-books-e20-today-vs` — 35,160 → 35,397 bytes (+237); markers index_link False→True
+- `indias-petrochemical-import-tree-from` — 17,346 → 17,583 bytes (+237); markers index_link False→True
+- `us-stock-picks-multi-screen-quant` — 26,680 → 26,917 bytes (+237); markers index_link False→True
+- `the-price-of-grain-msp-msv-and` — 29,536 → 29,773 bytes (+237); markers index_link False→True
+- `the-fearless-girls-charter-indias` — 17,068 → 17,305 bytes (+237); markers index_link False→True
+- `cgd-geographical-areas-district` — 6,643 → 6,880 bytes (+237); markers index_link False→True
+- `india-forest-wildlife-crz-clearances` — 15,938 → 16,175 bytes (+237); markers index_link False→True
+- `india-ec-approval-funnel-parivesh-20` — 9,928 → 10,165 bytes (+237); markers index_link False→True
+- `cold-chain-fuel-outlet-integrated-map` — 6,619 → 6,856 bytes (+237); markers index_link False→True
+- `india-environmental-clearances-state` — 7,913 → 8,150 bytes (+237); markers index_link False→True
+- `india-fuel-retail-outlets-82k-geocoded` — 6,660 → 6,897 bytes (+237); markers index_link False→True
+- `india-trade-sector-policy` — 12,380 → 12,617 bytes (+237); markers index_link False→True
+- `tech-for-business-so-2019-tech-as` — 28,290 → 28,527 bytes (+237); markers index_link False→True
