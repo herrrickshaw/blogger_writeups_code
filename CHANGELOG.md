@@ -2899,3 +2899,17 @@ scheduled sync
 **Added**
 
 - `tiffin-meets-thali-10-day-sip-already` **v1.0.0** — Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't. (13,832 bytes)
+
+## 2026-08-11T13:49:04+05:30 — 125 posts live
+
+**Versions**
+
+- `a-slice-of-apple-costs-about-1700-slice` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-slice-of-apple-costs-about-1700-slice` — 27,458 → 30,660 bytes (+3,202)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `tiffin-meets-thali-10-day-sip-already` — 2026-08-11 &rarr; 2026-08-11
