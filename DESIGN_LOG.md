@@ -208,6 +208,17 @@ this post type and don't come up in ordinary articles:
   pinned down — the fix (never omit the field, always pass the post's current
   labels) is applied regardless, since the alternative is relying on
   undocumented behaviour that has already caused one real data loss.
+- **`apply_labels.py --apply` writes labels straight to the Blogger API and
+  touches no local file.** Rebuilding the Article Index from
+  `meta/manifest.json` or `meta/<slug>.json` right after an `--apply` run
+  bakes in the *old* labels, because those local files are still stale until
+  a `snapshot.py --push` pulls the new state back down. Confirmed live on
+  2026-08-11: the index was built and published between the apply and the
+  snapshot pull, so 15 correctly-labelled posts still showed "Unlabelled" on
+  the published index page even though the labels were genuinely live on
+  Blogger. Order matters: `apply_labels.py --apply` → `snapshot.py --push`
+  (refreshes local meta) → *then* rebuild and publish the index, never the
+  other way round.
 
 ---
 
