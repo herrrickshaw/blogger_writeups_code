@@ -3025,3 +3025,13 @@ scheduled sync
 **Changed**
 
 - `why-bet-on-one-horse-when-you-can-buy` — 20,902 → 22,513 bytes (+1,611)
+
+## 2026-08-11T14:38:42+05:30 — 126 posts live
+
+**Versions**
+
+- `why-bet-on-one-horse-when-you-can-buy` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `why-bet-on-one-horse-when-you-can-buy` — 22,513 → 23,821 bytes (+1,308)
