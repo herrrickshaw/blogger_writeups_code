@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
   "slug": "the-rule-of-72-rule-of-114-and-how-to",
   "published": "2026-08-10T06:21:23.000+05:30",
-  "updated": "2026-08-10T06:26:59.313+05:30",
+  "updated": "2026-08-11T15:02:19.250+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 18356,
-  "sha256": "329f8df30d083e98001eb9291d5567ee3e84cd54823969443bb817b625972f51",
+  "bytes": 18563,
+  "sha256": "7b3d18154864612102eafc5f1b98425669c325a1eb323460c30c475453b08a53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add prominent standalone caveat: Rule of 72/114/144 apply only to one-time lump-sum investments, not SIPs/recurring investments"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-11T15:06:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18356,
+        18563
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

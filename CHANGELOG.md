@@ -3055,3 +3055,25 @@ scheduled sync
 **Changed**
 
 - `thali-investing-whats-actually-on-plate` — 22,201 → 22,371 bytes (+170)
+
+## 2026-08-11T15:06:28+05:30 — 126 posts live
+
+**Versions**
+
+- `why-bet-on-one-horse-when-you-can-buy` **1.0.6 → 1.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-lock-imports-hit-19784-million` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-used-oil-epr-wants-half-of-all` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ahidf-has-sanctioned-19751-crore-in` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-503020-rule-is-elizabeth-warrens` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `thali-investing-whats-actually-on-plate` **2.0.1 → 2.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-rule-of-72-rule-of-114-and-how-to` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `why-bet-on-one-horse-when-you-can-buy` — 24,221 → 27,267 bytes (+3,046)
+- `indias-lock-imports-hit-19784-million` — 17,485 → 17,487 bytes (+2)
+- `indias-used-oil-epr-wants-half-of-all` — 20,852 → 20,859 bytes (+7)
+- `ahidf-has-sanctioned-19751-crore-in` — 15,978 → 15,990 bytes (+12)
+- `the-503020-rule-is-elizabeth-warrens` — 14,623 → 14,681 bytes (+58)
+- `thali-investing-whats-actually-on-plate` — 22,371 → 23,193 bytes (+822)
+- `the-rule-of-72-rule-of-114-and-how-to` — 18,356 → 18,563 bytes (+207)

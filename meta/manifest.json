@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-11T14:51:51+05:30",
+  "snapshot": "2026-08-11T15:06:28+05:30",
   "count": 126,
   "posts": {
     "1157999291079244419": {
@@ -1031,12 +1031,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
       "slug": "the-rule-of-72-rule-of-114-and-how-to",
       "published": "2026-08-10T06:21:23.000+05:30",
-      "updated": "2026-08-10T06:26:59.313+05:30",
+      "updated": "2026-08-11T15:02:19.250+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 18356,
-      "sha256": "329f8df30d083e98001eb9291d5567ee3e84cd54823969443bb817b625972f51",
+      "bytes": 18563,
+      "sha256": "7b3d18154864612102eafc5f1b98425669c325a1eb323460c30c475453b08a53",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1048,7 +1048,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1069,6 +1069,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add prominent standalone caveat: Rule of 72/114/144 apply only to one-time lump-sum investments, not SIPs/recurring investments"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            18356,
+            18563
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -3866,12 +3879,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-08-11T10:05:48.806+05:30",
+      "updated": "2026-08-11T15:04:49.310+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 15978,
-      "sha256": "f96f3e13affb92fd0fccc655c20ac0790a1a9bf0c2f1e80acf5dc8479a016392",
+      "bytes": 15990,
+      "sha256": "bf427c3b30659ff5fdd16494472b1775b07973b303a821e06687261bd6575870",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3883,7 +3896,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3913,6 +3926,19 @@
           "bytes": [
             15309,
             15978
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            15978,
+            15990
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -4706,12 +4732,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
       "slug": "the-503020-rule-is-elizabeth-warrens",
       "published": "2026-08-10T06:47:21.000+05:30",
-      "updated": "2026-08-10T06:54:29.359+05:30",
+      "updated": "2026-08-11T15:02:10.417+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 14623,
-      "sha256": "2ae6f23e2d8f4c4369b3e799941cbe48c66c7d6aa09a3d5becfee3f8b5ef7553",
+      "bytes": 14681,
+      "sha256": "63ab931182684fd5a5057c3ff19cfb60eeb3302ddd198ee0dde25014e2df20b8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4723,7 +4749,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4744,6 +4770,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rewrite 50/30/20 article: removed all Warren Buffett references per request, added save-first framing grounded in the FIRE movement's 50-75% savings-rate benchmark instead"
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            14623,
+            14681
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -5229,13 +5268,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
       "slug": "indias-lock-imports-hit-19784-million",
       "published": "2026-08-11T10:03:48.000+05:30",
-      "updated": "2026-08-11T12:03:24.431+05:30",
+      "updated": "2026-08-11T15:04:42.593+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 17485,
-      "sha256": "ae72a111e0e9e14c7e9b30cec3e53e55c370aec47a720b9c1ed2b2d334a78d09",
+      "bytes": 17487,
+      "sha256": "4ce31706cbb4cfb5092fddf0abb52dca6e4038f9e31b1c91a420b66357a2e644",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5247,7 +5286,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5264,6 +5303,19 @@
           "bytes": [
             17559,
             17485
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            17485,
+            17487
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -5482,12 +5534,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
       "slug": "thali-investing-whats-actually-on-plate",
       "published": "2026-08-10T06:32:54.000+05:30",
-      "updated": "2026-08-11T14:50:59.280+05:30",
+      "updated": "2026-08-11T14:55:33.892+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 22371,
-      "sha256": "f56e97f0de619aa1b9d115293a128722992640ba485ce6bce45d261a020e0c37",
+      "bytes": 23193,
+      "sha256": "00b4cf7d031b6e07461bf364a7a52b6ef96b4aa3e0f2b89aeae0b2df65c3b716",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5499,7 +5551,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.1",
+      "version": "2.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5529,6 +5581,19 @@
           "bytes": [
             22201,
             22371
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.2",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            22371,
+            23193
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -6396,13 +6461,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
       "slug": "indias-used-oil-epr-wants-half-of-all",
       "published": "2026-08-10T11:46:04.000+05:30",
-      "updated": "2026-08-11T12:04:13.014+05:30",
+      "updated": "2026-08-11T15:04:56.954+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 20852,
-      "sha256": "acb132f5cb8af04d1d9c1cad1e2db85a14eb931e1164e3c7b8ace386260a617b",
+      "bytes": 20859,
+      "sha256": "b501f6b321b37210b1713129ed9ada37bbb38ca268fe9dabcd0ea3b0ec4a9faa",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6414,7 +6479,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6431,6 +6496,19 @@
           "bytes": [
             18167,
             20852
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.1",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            20852,
+            20859
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -9564,12 +9642,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
       "slug": "why-bet-on-one-horse-when-you-can-buy",
       "published": "2026-08-11T14:23:23.000+05:30",
-      "updated": "2026-08-11T14:42:23.394+05:30",
+      "updated": "2026-08-11T15:06:02.915+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 24221,
-      "sha256": "d43f5765a22ab798983831a1c1a674c7c6f5aa7189f473bd06667132410b25ae",
+      "bytes": 27267,
+      "sha256": "6ee0190a8250384220c8f8e9fa3ea3b6bca470dac0316c866d2fca1e12072798",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9581,7 +9659,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9663,6 +9741,19 @@
           "bytes": [
             23821,
             24221
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-11T15:06:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24221,
+            27267
           ],
           "url_changed": null,
           "markers_changed": null,

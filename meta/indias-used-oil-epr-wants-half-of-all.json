@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
   "slug": "indias-used-oil-epr-wants-half-of-all",
   "published": "2026-08-10T11:46:04.000+05:30",
-  "updated": "2026-08-11T12:04:13.014+05:30",
+  "updated": "2026-08-11T15:04:56.954+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 20852,
-  "sha256": "acb132f5cb8af04d1d9c1cad1e2db85a14eb931e1164e3c7b8ace386260a617b",
+  "bytes": 20859,
+  "sha256": "b501f6b321b37210b1713129ed9ada37bbb38ca268fe9dabcd0ea3b0ec4a9faa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         18167,
         20852
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-11T15:06:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20852,
+        20859
       ],
       "url_changed": null,
       "markers_changed": null,
