@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T19:41:38+05:30",
+  "snapshot": "2026-08-12T19:45:50+05:30",
   "count": 135,
   "posts": {
     "1058853159205559121": {
@@ -8,13 +8,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-08-12T19:41:06.821+05:30",
+      "updated": "2026-08-12T19:45:34.104+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 23251,
-      "sha256": "284a46c7df800bb3ec63d7bd8e0d0bda0c3d6f0dcc1c7092364233ba553e4da2",
+      "bytes": 23467,
+      "sha256": "d3e629b0b6ea34584e1a2328c19e9c08e64f1ad79a9745f418fed9c9994f36b0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26,7 +26,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43,6 +43,19 @@
           "bytes": [
             20190,
             23251
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-08-12T19:45:50+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23251,
+            23467
           ],
           "url_changed": null,
           "markers_changed": null,

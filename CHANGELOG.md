@@ -3352,3 +3352,13 @@ scheduled sync
 
 - `uttar-pradeshs-gst-puzzle-growing` — 19,181 → 19,625 bytes (+444)
 - `who-collects-indias-gst-and-who` — 20,190 → 23,251 bytes (+3,061)
+
+## 2026-08-12T19:45:50+05:30 — 135 posts live
+
+**Versions**
+
+- `who-collects-indias-gst-and-who` **1.1.0 → 1.1.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `who-collects-indias-gst-and-who` — 23,251 → 23,467 bytes (+216)
