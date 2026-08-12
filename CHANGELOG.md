@@ -4026,3 +4026,17 @@ scheduled sync
 - `india-fuel-retail-outlets-82k-geocoded` — 7,056 → 11,590 bytes (+4,534)
 - `india-trade-sector-policy` — 12,776 → 17,310 bytes (+4,534)
 - `tech-for-business-so-2019-tech-as` — 28,686 → 33,220 bytes (+4,534)
+
+## 2026-08-13T04:08:42+05:30 — 141 posts live
+
+**Added**
+
+- `the-fcc-lever-trading-petrol-yield-for` **v1.0.0** — The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference (26,840 bytes)
+
+**Versions**
+
+- `top-15-chemicals-for-import--4751284523575450171` **2.0.3 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `top-15-chemicals-for-import--4751284523575450171` — 20,406 → 20,471 bytes (+65)
