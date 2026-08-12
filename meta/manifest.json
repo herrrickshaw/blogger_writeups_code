@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T22:24:04+05:30",
+  "snapshot": "2026-08-12T22:32:00+05:30",
   "count": 140,
   "posts": {
     "1058853159205559121": {
@@ -7174,13 +7174,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-08-12T22:00:18.724+05:30",
+      "updated": "2026-08-12T22:30:55.762+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 23109,
-      "sha256": "0e9c67645c85d0731256fa356888c050c87132838b85106941e4ef4f5489ab36",
+      "bytes": 27578,
+      "sha256": "bf2805c1170033681503c10d9541c46ceebbb9162720e87abe537bbe63a62eba",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7192,7 +7192,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7222,6 +7222,19 @@
           "bytes": [
             22950,
             23109
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-08-12T22:32:00+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23109,
+            27578
           ],
           "url_changed": null,
           "markers_changed": null,

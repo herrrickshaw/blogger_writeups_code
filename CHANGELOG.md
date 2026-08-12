@@ -3744,3 +3744,13 @@ scheduled sync
 - `india-fuel-retail-outlets-82k-geocoded` — 6,897 → 7,056 bytes (+159)
 - `india-trade-sector-policy` — 12,617 → 12,776 bytes (+159)
 - `tech-for-business-so-2019-tech-as` — 28,527 → 28,686 bytes (+159)
+
+## 2026-08-12T22:32:00+05:30 — 140 posts live
+
+**Versions**
+
+- `fuel-and-bottle-two-taxes-states-never` **1.0.2 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `fuel-and-bottle-two-taxes-states-never` — 23,109 → 27,578 bytes (+4,469)
