@@ -3426,3 +3426,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 169,628 → 169,628 bytes (+0)
+
+## 2026-08-12T21:19:37+05:30 — 139 posts live
+
+**Versions**
+
+- `the-barrel-really-is-shifting-indias` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-barrel-really-is-shifting-indias` — 15,740 → 21,787 bytes (+6,047)
