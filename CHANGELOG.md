@@ -4040,3 +4040,13 @@ scheduled sync
 **Changed**
 
 - `top-15-chemicals-for-import--4751284523575450171` — 20,406 → 20,471 bytes (+65)
+
+## 2026-08-13T04:23:49+05:30 — 141 posts live
+
+**Versions**
+
+- `the-fcc-lever-trading-petrol-yield-for` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-fcc-lever-trading-petrol-yield-for` — 26,840 → 33,332 bytes (+6,492)
