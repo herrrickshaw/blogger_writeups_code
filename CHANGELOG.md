@@ -3384,3 +3384,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 169,628 → 169,628 bytes (+0)
+
+## 2026-08-12T20:10:48+05:30 — 137 posts live
+
+**Versions**
+
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 17,586 → 22,691 bytes (+5,105)
