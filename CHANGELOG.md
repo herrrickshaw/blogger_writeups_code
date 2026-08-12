@@ -3286,3 +3286,13 @@ scheduled sync
 **Added**
 
 - `who-collects-indias-gst-and-who` **v1.0.0** — Who Collects India's GST, and Who Actually Gets It Back (20,190 bytes)
+
+## 2026-08-12T19:06:50+05:30 — 133 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.0 → 24.1.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
