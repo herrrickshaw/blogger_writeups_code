@@ -3318,3 +3318,13 @@ scheduled sync
 **Added**
 
 - `tamil-nadus-gst-gap-108-economy-growing` **v1.0.0** — Tamil Nadu's GST Gap: A 10.8% Economy Growing a 0.7%-Shrinking Tax Base (17,023 bytes)
+
+## 2026-08-12T19:31:25+05:30 — 135 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.2 → 24.1.3** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
