@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
   "slug": "thali-investing-whats-actually-on-plate",
   "published": "2026-08-10T06:32:54.000+05:30",
-  "updated": "2026-08-12T22:14:17.797+05:30",
+  "updated": "2026-08-12T22:54:58.145+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 23352,
-  "sha256": "3ea4d9ce86e1f40bba853b4b0f37d13ff52f4a8efbcdc84c63b0e186f45edd8a",
+  "bytes": 27886,
+  "sha256": "01a4996f147b271b9286a3939ca332c18d41134fdd487a28ea37a1f5b03c081f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         23193,
         23352
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23352,
+        27886
       ],
       "url_changed": null,
       "markers_changed": null,

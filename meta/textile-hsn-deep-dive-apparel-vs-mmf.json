@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-08-12T22:14:05.915+05:30",
+  "updated": "2026-08-12T22:54:46.077+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 11536,
-  "sha256": "d2bd8197d8a75c3ccfc6776c1e10d2ae8bc9945a517fbc905a8c770630fb5ada",
+  "bytes": 16070,
+  "sha256": "a857115cadc0f5136e68c20b33116e6a875f7bc32a387b58842e0f0607bfbc69",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         11377,
         11536
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        11536,
+        16070
       ],
       "url_changed": null,
       "markers_changed": null,

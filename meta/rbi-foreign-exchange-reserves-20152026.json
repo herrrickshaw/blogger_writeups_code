@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-08-12T22:11:45.389+05:30",
+  "updated": "2026-08-12T22:52:25.203+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 43533,
-  "sha256": "537adec2a27d7211ff36399f6a58e164a3896176ef86c8441ad22092ee0183fb",
+  "bytes": 48067,
+  "sha256": "992b72d0884d82f0c8bcaefa27d123c0546c9dfae105daf7c6b191a8c76ecc30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -86,6 +86,19 @@
       "bytes": [
         43374,
         43533
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        43533,
+        48067
       ],
       "url_changed": null,
       "markers_changed": null,

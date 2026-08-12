@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-08-12T22:11:17.111+05:30",
+  "updated": "2026-08-12T22:51:54.542+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 50616,
-  "sha256": "4fc7f2624346b56031d7708598ab1f3c2ff6eaf3bd7aaf7f7a95be71abc97179",
+  "bytes": 55150,
+  "sha256": "8bbc75f9f8b6dbcaebafe2750d7256ed81b78f1e32744ea195db2cf52b0a83b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         50457,
         50616
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        50616,
+        55150
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.000+05:30",
-  "updated": "2026-08-12T22:00:05.608+05:30",
+  "updated": "2026-08-12T22:41:16.594+05:30",
   "labels": [
     "Import Substitution",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 28373,
-  "sha256": "e4c00db1b5d11d3d8859b71edfec82c3d0e122ec521be696249eb13dd08deec7",
+  "bytes": 32907,
+  "sha256": "8593aa432625f5a608982f863252f05c7f7619ba752d467e5e21c547ce750c64",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "bytes": [
         28214,
         28373
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        28373,
+        32907
       ],
       "url_changed": null,
       "markers_changed": null,

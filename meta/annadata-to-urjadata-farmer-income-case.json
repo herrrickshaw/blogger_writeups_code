@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
   "slug": "annadata-to-urjadata-farmer-income-case",
   "published": "2026-08-04T16:10:00.000+05:30",
-  "updated": "2026-08-12T21:53:25.212+05:30",
+  "updated": "2026-08-12T22:34:51.759+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 33706,
-  "sha256": "4a9d3960b56e2d6444b9a944017398ac6669d8e8972977bd65fa364fbf0231a4",
+  "bytes": 38175,
+  "sha256": "4a61449f3ab5bffbb487ff76c50f498136e9bcd70f84ec43ffa1261e5de763d7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -78,6 +78,19 @@
       "bytes": [
         33547,
         33706
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        33706,
+        38175
       ],
       "url_changed": null,
       "markers_changed": null,

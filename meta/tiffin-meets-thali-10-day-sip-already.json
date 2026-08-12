@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
   "slug": "tiffin-meets-thali-10-day-sip-already",
   "published": "2026-08-11T13:45:20.000+05:30",
-  "updated": "2026-08-12T22:17:14.080+05:30",
+  "updated": "2026-08-12T22:58:06.948+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 13991,
-  "sha256": "7f65e1af808c419610d6ab12b65108736d20644ccd867a1f7af22bb6b9c2aaf1",
+  "bytes": 18525,
+  "sha256": "b54b53a4fca5f5fb1451e4a4bcdc0123e0c0b9d577e66bda1b11c68930290ca6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         13832,
         13991
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        13991,
+        18525
       ],
       "url_changed": null,
       "markers_changed": null,

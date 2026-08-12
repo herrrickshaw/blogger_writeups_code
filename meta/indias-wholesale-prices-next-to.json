@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.000+05:30",
-  "updated": "2026-08-12T22:08:08.682+05:30",
+  "updated": "2026-08-12T22:48:54.066+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 33934,
-  "sha256": "3ffcfadf3d95b8d6d0e8d918eb9865a1a8937c3eb273238da1d56ecce5ccc47a",
+  "bytes": 38468,
+  "sha256": "f46692ba26786eb40916ca1e7c0296c8323001f6650d7d693f947004f869c8ce",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.5",
+  "version": "6.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,19 @@
       "bytes": [
         33775,
         33934
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.6",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        33934,
+        38468
       ],
       "url_changed": null,
       "markers_changed": null,

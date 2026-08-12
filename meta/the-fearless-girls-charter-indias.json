@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-12T22:15:19.685+05:30",
+  "updated": "2026-08-12T22:56:02.375+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 17464,
-  "sha256": "5f56a39e47c6ba30b6550ee40b210447882823000a00d063ab2fc5dea572abd2",
+  "bytes": 21998,
+  "sha256": "a3aacd4cd4fa3f159c63ecfbcb3ccaf055a12883229e3c75b2331e37dbc23091",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -100,6 +100,19 @@
       "bytes": [
         17305,
         17464
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        17464,
+        21998
       ],
       "url_changed": null,
       "markers_changed": null,

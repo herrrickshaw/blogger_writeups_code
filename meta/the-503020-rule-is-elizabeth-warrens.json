@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-08-12T22:14:29.565+05:30",
+  "updated": "2026-08-12T22:55:09.758+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 14840,
-  "sha256": "fb0ba5ba27a953406ab7162e911ae2923e1fb6a9cabd4ed79d517a236543db10",
+  "bytes": 19374,
+  "sha256": "1b229d7fc6b003ac54fd91ee70f40fe10e1a74d997cb2e605a9ba1509edaed37",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -64,6 +64,19 @@
       "bytes": [
         14681,
         14840
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14840,
+        19374
       ],
       "url_changed": null,
       "markers_changed": null,

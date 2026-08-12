@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
   "slug": "indias-ethanol-surplus-isnt-going-to",
   "published": "2026-08-05T16:50:47.000+05:30",
-  "updated": "2026-08-12T22:04:58.875+05:30",
+  "updated": "2026-08-12T22:45:53.777+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 14817,
-  "sha256": "3ba48efa158ac6f4fb1799b881591a9521a8a76ae4a4d662402a3c029a8e8f41",
+  "bytes": 19351,
+  "sha256": "5347d24b1f93f2e07dd2e1b5dc9df6aba4b31b46492b969bfa2d29da9964ea91",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -87,6 +87,19 @@
       "bytes": [
         14658,
         14817
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14817,
+        19351
       ],
       "url_changed": null,
       "markers_changed": null,

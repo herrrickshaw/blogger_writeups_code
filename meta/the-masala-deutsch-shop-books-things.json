@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-12T22:15:45.048+05:30",
+  "updated": "2026-08-12T22:56:27.606+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 39449,
-  "sha256": "572facbdd49d037b31a0188a0e328ea51388ad5204198bc76d25a822c20764c1",
+  "bytes": 43983,
+  "sha256": "05be6cf22036e92e9c4a2b9dc34e1cce9234a0b5efc65d787f3fb0daff7fe9dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.1.1",
+  "version": "7.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "bytes": [
         39290,
         39449
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "7.1.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        39449,
+        43983
       ],
       "url_changed": null,
       "markers_changed": null,

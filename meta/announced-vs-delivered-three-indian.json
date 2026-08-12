@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-08-12T21:53:48.196+05:30",
+  "updated": "2026-08-12T22:35:16.103+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 39154,
-  "sha256": "ae3447569571b00744ce1c93ee3cd4a6f62260fbd3e440c75518fa9fcf95a377",
+  "bytes": 43623,
+  "sha256": "444eb71f1c8a3d7a61d1f41d7e7b533a6a21b3ce4212a8f5685282fc8107b21f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -91,6 +91,19 @@
       "bytes": [
         38995,
         39154
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        39154,
+        43623
       ],
       "url_changed": null,
       "markers_changed": null,

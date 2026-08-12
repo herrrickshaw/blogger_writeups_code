@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
   "slug": "fourteen-years-of-indian-wholesale",
   "published": "2026-08-05T21:46:29.000+05:30",
-  "updated": "2026-08-12T21:59:39.206+05:30",
+  "updated": "2026-08-12T22:40:52.592+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Prices & Inflation"
   ],
-  "bytes": 21026,
-  "sha256": "9def2eecdfc1295fcf8e8c62f620c3f4abb4b4c23cb7cbdd3371fa0c33581462",
+  "bytes": 25560,
+  "sha256": "ce2c15541ec38f167863318345b1e7110f6b6836e3fbb4fd02202b9040a7bb53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -131,6 +131,19 @@
       "bytes": [
         20867,
         21026
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        21026,
+        25560
       ],
       "url_changed": null,
       "markers_changed": null,

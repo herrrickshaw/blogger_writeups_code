@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-08-12T22:07:32.721+05:30",
+  "updated": "2026-08-12T22:48:17.893+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 14731,
-  "sha256": "5d56545470d7f004fd5fb825472480878dd71c2711941b2e30d9886ae647b5de",
+  "bytes": 19265,
+  "sha256": "2d5c90cc403eb0063b749643855a1fae170eb1e5d0b055dd22d0c71f01df7e37",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         14572,
         14731
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14731,
+        19265
       ],
       "url_changed": null,
       "markers_changed": null,

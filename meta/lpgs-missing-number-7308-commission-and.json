@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-08-12T22:09:07.844+05:30",
+  "updated": "2026-08-12T22:49:46.989+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 19418,
-  "sha256": "f963a440d8ab5cb3a80d3d0a7a4cdab91f7c560e9ebaac8c74e46fc04e7629d5",
+  "bytes": 23952,
+  "sha256": "f26d2669c57f003ea391c4a750b796c406dc23e74b7c7c25929223bfb399e246",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "bytes": [
         19259,
         19418
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19418,
+        23952
       ],
       "url_changed": null,
       "markers_changed": null,

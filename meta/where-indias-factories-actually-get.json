@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-08-12T22:18:41.125+05:30",
+  "updated": "2026-08-12T22:59:39.610+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 37574,
-  "sha256": "6818dab3801da0428d6fe8de3a7be129d548d1d102d11606fc0afb5c345255b8",
+  "bytes": 42108,
+  "sha256": "2527f701bf1c8be16a75e5b8fe5a7cae29518e7692080cbde2c7235d904f408c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -64,6 +64,19 @@
       "bytes": [
         37415,
         37574
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        37574,
+        42108
       ],
       "url_changed": null,
       "markers_changed": null,

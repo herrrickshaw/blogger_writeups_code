@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
   "slug": "indias-oil-fields-are-running-down-3696",
   "published": "2026-08-06T08:32:50.000+05:30",
-  "updated": "2026-08-12T22:06:11.548+05:30",
+  "updated": "2026-08-12T22:47:04.123+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 14377,
-  "sha256": "cdc11644edf2dc26f391f45db80717e31724cbdb15d1cfe80a281ca478281549",
+  "bytes": 18911,
+  "sha256": "233846ea9ed01e57607420a6e8b523a949f41333fd975d32e91fd67307af0bc6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         14218,
         14377
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14377,
+        18911
       ],
       "url_changed": null,
       "markers_changed": null,

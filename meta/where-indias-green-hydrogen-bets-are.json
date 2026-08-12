@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-08-12T22:19:05.182+05:30",
+  "updated": "2026-08-12T23:00:04.650+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 13440,
-  "sha256": "f82b07bab1025de100fa61df8de12a7dc8b9b09325072e66f2e4dae47cacc04a",
+  "bytes": 17974,
+  "sha256": "258f8f98052473581759a928cdd03827da090293d7a408425a3f277a1e2fddf5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -87,6 +87,19 @@
       "bytes": [
         13281,
         13440
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        13440,
+        17974
       ],
       "url_changed": null,
       "markers_changed": null,

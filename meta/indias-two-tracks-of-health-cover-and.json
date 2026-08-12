@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html",
   "slug": "indias-two-tracks-of-health-cover-and",
   "published": "2026-08-12T10:54:13.000+05:30",
-  "updated": "2026-08-12T22:07:45.885+05:30",
+  "updated": "2026-08-12T22:48:30.530+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 17193,
-  "sha256": "601b13fdbad658eaced1db1309fe681b6e245b776c47940d23953b5112ed6c9e",
+  "bytes": 21727,
+  "sha256": "ec23e72dcd5478a6cf6c2a53606a2914f676df1a7542613fe45a05b4a46f8946",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         17034,
         17193
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        17193,
+        21727
       ],
       "url_changed": null,
       "markers_changed": null,

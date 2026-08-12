@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-08-12T22:03:56.948+05:30",
+  "updated": "2026-08-12T22:44:52.866+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 24169,
-  "sha256": "6cfeabeb2a1276d6bfff09e561b669090b3578d178019e2b9a0c96000aa78a5f",
+  "bytes": 28703,
+  "sha256": "dbc1024d55fa4e09a6780a69b83018f69bec1907e4b33d994e44424915f0f4e3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "bytes": [
         24010,
         24169
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        24169,
+        28703
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-08-12T22:09:20.865+05:30",
+  "updated": "2026-08-12T22:49:59.150+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 19855,
-  "sha256": "b598a5cf2833eb3e23fdbb07da403d7fead8eca715e976a0e0842c736bbff1bc",
+  "bytes": 24389,
+  "sha256": "f4e84a8b217bafa834c16b9b9a88a6668fd9f8b2feaf73b361a1369c2cdbdf8c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,19 @@
       "bytes": [
         19696,
         19855
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19855,
+        24389
       ],
       "url_changed": null,
       "markers_changed": null,

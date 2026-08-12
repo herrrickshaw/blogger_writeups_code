@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
   "slug": "indias-subsidised-imports-fertilisers",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-08-12T22:06:53.699+05:30",
+  "updated": "2026-08-12T22:47:41.017+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 28466,
-  "sha256": "170d2b6f22faca53375403902db91678bd43adc5bdb87f4435cd03bd6762ccde",
+  "bytes": 33000,
+  "sha256": "30fdae022c789aede4dff28840644c26e8d36c46ce948afb223c5b1fc6624f88",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -128,6 +128,19 @@
       "bytes": [
         28307,
         28466
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        28466,
+        33000
       ],
       "url_changed": null,
       "markers_changed": null,

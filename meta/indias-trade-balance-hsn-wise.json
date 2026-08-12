@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-08-12T22:07:19.793+05:30",
+  "updated": "2026-08-12T22:48:05.030+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 49809,
-  "sha256": "ea9f3502a2decab5a50cea80dfbb6df5a4a9ab8410af5a50e649938a245d4079",
+  "bytes": 54343,
+  "sha256": "5d594c8300d1cd94121bcef35347159e1fc7b75be276fdfa4bec4f654f196cd0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -99,6 +99,19 @@
       "bytes": [
         49650,
         49809
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T03:50:57+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        49809,
+        54343
       ],
       "url_changed": null,
       "markers_changed": null,
