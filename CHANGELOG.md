@@ -3452,3 +3452,13 @@ scheduled sync
 **Added**
 
 - `fuel-and-bottle-two-taxes-states-never` **v1.0.0** — Fuel and the Bottle: The Two Taxes States Never Handed to GST (22,484 bytes)
+
+## 2026-08-12T21:33:24+05:30 — 140 posts live
+
+**Versions**
+
+- `fuel-and-bottle-two-taxes-states-never` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `fuel-and-bottle-two-taxes-states-never` — 22,484 → 22,950 bytes (+466)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T21:28:37+05:30",
+  "snapshot": "2026-08-12T21:33:24+05:30",
   "count": 140,
   "posts": {
     "1058853159205559121": {
@@ -6276,14 +6276,14 @@
       "title": "Fuel and the Bottle: The Two Taxes States Never Handed to GST",
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
-      "published": "2026-08-12T21:27:32.946+05:30",
-      "updated": "2026-08-12T21:28:21.463+05:30",
+      "published": "2026-08-12T21:27:32.000+05:30",
+      "updated": "2026-08-12T21:33:09.351+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 22484,
-      "sha256": "7593e5f0c94aa02eaa2e0ff36bbacfbd9d54e7f60840597fdb8efaa37bf71318",
+      "bytes": 22950,
+      "sha256": "bf0545ebc34260c73ee74f99e312df493fec024244a2642f4c942c9c29a6db6a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6295,13 +6295,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-12T21:28:37+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-12T21:33:24+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22484,
+            22950
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
