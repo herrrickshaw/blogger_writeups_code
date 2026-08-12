@@ -3340,3 +3340,15 @@ scheduled sync
 
 - `tamil-nadus-gst-gap-108-economy-growing` — 17,023 → 17,479 bytes (+456)
 - `uttar-pradeshs-gst-puzzle-growing` — 19,180 → 19,181 bytes (+1)
+
+## 2026-08-12T19:41:38+05:30 — 135 posts live
+
+**Versions**
+
+- `uttar-pradeshs-gst-puzzle-growing` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `who-collects-indias-gst-and-who` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `uttar-pradeshs-gst-puzzle-growing` — 19,181 → 19,625 bytes (+444)
+- `who-collects-indias-gst-and-who` — 20,190 → 23,251 bytes (+3,061)

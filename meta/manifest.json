@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T19:38:26+05:30",
+  "snapshot": "2026-08-12T19:41:38+05:30",
   "count": 135,
   "posts": {
     "1058853159205559121": {
@@ -8,13 +8,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-08-12T19:04:46.707+05:30",
+      "updated": "2026-08-12T19:41:06.821+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 20190,
-      "sha256": "8d0be5851a3439722589a6a3877844f92e5b68224464329ddb2f93623b35415b",
+      "bytes": 23251,
+      "sha256": "284a46c7df800bb3ec63d7bd8e0d0bda0c3d6f0dcc1c7092364233ba553e4da2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26,13 +26,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-12T19:05:00+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-08-12T19:41:38+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            20190,
+            23251
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -518,13 +531,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
       "slug": "uttar-pradeshs-gst-puzzle-growing",
       "published": "2026-08-12T19:19:19.000+05:30",
-      "updated": "2026-08-12T19:38:00.615+05:30",
+      "updated": "2026-08-12T19:41:15.304+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 19181,
-      "sha256": "2e9e1c8dac3745ed25d42cd22121c43f81109345ffdc84b4252c29b49f3d781f",
+      "bytes": 19625,
+      "sha256": "b0b262525976e4738299cda886d419f2a3842d41633b3768f7696e3753af3374",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -536,7 +549,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -553,6 +566,19 @@
           "bytes": [
             19180,
             19181
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-08-12T19:41:38+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19181,
+            19625
           ],
           "url_changed": null,
           "markers_changed": null,
