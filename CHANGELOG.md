@@ -3368,3 +3368,9 @@ scheduled sync
 **Added**
 
 - `would-more-sgst-fix-donor-state-problem` **v1.0.0** — Would More SGST Fix the "Donor State" Problem? Ethanol Shows Why the Real Lever Sits Elsewhere (17,732 bytes)
+
+## 2026-08-12T20:03:14+05:30 — 137 posts live
+
+**Added**
+
+- `push-ethanol-sgst-rate-from-25-to-5-and` **v1.0.0** — Push the Ethanol SGST Rate From 2.5% to 5% and Beyond: What Each State Would Actually Earn (17,586 bytes)
