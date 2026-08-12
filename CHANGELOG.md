@@ -3260,3 +3260,13 @@ scheduled sync
 
 - `indias-two-tracks-of-health-cover-and` — 2026-08-12 &rarr; 2026-08-12
 - `abha-what-indias-14-digit-health-id` — 2026-08-12 &rarr; 2026-08-12
+
+## 2026-08-12T11:04:53+05:30 — 132 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.0.9 → 24.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,362 → 169,628 bytes (+266)
