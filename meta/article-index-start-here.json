@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-12T19:06:30.931+05:30",
+  "updated": "2026-08-12T19:21:18.742+05:30",
   "labels": [],
   "bytes": 169628,
-  "sha256": "a9aca77d8c943b37172ddb0790194e3b86f2a4bea1796959d72fd1081a7b6570",
+  "sha256": "7dc1f61c4cc4c748b9bbf1ae73648eb7f668cea0526bcdde627cc05355c1cb65",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "24.1.1",
+  "version": "24.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -512,6 +512,19 @@
     {
       "version": "24.1.1",
       "date": "2026-08-12T19:06:50+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        169628,
+        169628
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "24.1.2",
+      "date": "2026-08-12T19:21:37+05:30",
       "level": "patch",
       "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
       "bytes": [

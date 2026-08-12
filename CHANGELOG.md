@@ -3302,3 +3302,13 @@ scheduled sync
 **Added**
 
 - `uttar-pradeshs-gst-puzzle-growing` **v1.0.0** — Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't (19,180 bytes)
+
+## 2026-08-12T19:21:37+05:30 — 134 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.1 → 24.1.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
