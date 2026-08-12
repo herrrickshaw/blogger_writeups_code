@@ -3400,3 +3400,13 @@ scheduled sync
 **Added**
 
 - `the-case-for-biofuels-over-imports` **v1.0.0** — The Case for Biofuels Over Imports: Raise Ethanol's SGST, Cut CNG's VAT, Free the Barrel for Petrochemicals (20,367 bytes)
+
+## 2026-08-12T20:21:03+05:30 — 138 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.4 → 24.1.5** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
