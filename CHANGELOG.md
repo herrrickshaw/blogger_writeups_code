@@ -3436,3 +3436,13 @@ scheduled sync
 **Changed**
 
 - `the-barrel-really-is-shifting-indias` — 15,740 → 21,787 bytes (+6,047)
+
+## 2026-08-12T21:23:07+05:30 — 139 posts live
+
+**Versions**
+
+- `the-barrel-really-is-shifting-indias` **1.0.1 → 1.0.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-barrel-really-is-shifting-indias` — 21,787 → 24,489 bytes (+2,702)
