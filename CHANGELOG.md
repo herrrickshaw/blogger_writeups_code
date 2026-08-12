@@ -3446,3 +3446,9 @@ scheduled sync
 **Changed**
 
 - `the-barrel-really-is-shifting-indias` — 21,787 → 24,489 bytes (+2,702)
+
+## 2026-08-12T21:28:37+05:30 — 140 posts live
+
+**Added**
+
+- `fuel-and-bottle-two-taxes-states-never` **v1.0.0** — Fuel and the Bottle: The Two Taxes States Never Handed to GST (22,484 bytes)
