@@ -3362,3 +3362,9 @@ scheduled sync
 **Changed**
 
 - `who-collects-indias-gst-and-who` — 23,251 → 23,467 bytes (+216)
+
+## 2026-08-12T19:54:46+05:30 — 136 posts live
+
+**Added**
+
+- `would-more-sgst-fix-donor-state-problem` **v1.0.0** — Would More SGST Fix the "Donor State" Problem? Ethanol Shows Why the Real Lever Sits Elsewhere (17,732 bytes)
