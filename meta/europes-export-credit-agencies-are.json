@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-08-11T21:44:28.144+05:30",
+  "updated": "2026-08-12T21:58:48.842+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 16255,
-  "sha256": "4c43754aca859efb6a0cd7cdc33edb5ea958e48f24fbcf82b162d1ccef87aca8",
+  "bytes": 16414,
+  "sha256": "2ea9f3bc0bc2c33149f385b56c72ee7790caad7aa8285df964affdb79f92adaf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         15968,
         16255
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        16255,
+        16414
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-11T12:14:56.440+05:30",
+  "updated": "2026-08-12T21:53:13.363+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 31960,
-  "sha256": "681fa4ebd2a4ded9beace89893e1aa0f2492e1cc007e8e94afee50bd2d4bc662",
+  "bytes": 32119,
+  "sha256": "3b8380e5b0fb3b5ae446e47e97febe2deea425fbea2fe3b117a70e0d79f9e4fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -126,6 +126,19 @@
       "bytes": [
         18598,
         31960
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.4",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        31960,
+        32119
       ],
       "url_changed": null,
       "markers_changed": null,

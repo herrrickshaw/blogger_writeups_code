@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
   "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
   "published": "2026-08-02T09:54:34.000+05:30",
-  "updated": "2026-08-11T21:45:05.922+05:30",
+  "updated": "2026-08-12T22:12:50.924+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 118826,
-  "sha256": "1e4d65ef81cd1c86665b390fa910b5e73c93c4b361354cd452cb514dffda7c51",
+  "bytes": 118985,
+  "sha256": "3b64df8d2bfc03aa1ce90ca0792d3ce53971b53d90774fc3684cfd9c835bbab1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         118790,
         118826
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        118826,
+        118985
       ],
       "url_changed": null,
       "markers_changed": null,

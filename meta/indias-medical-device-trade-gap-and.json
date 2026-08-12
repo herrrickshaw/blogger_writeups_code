@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
   "slug": "indias-medical-device-trade-gap-and",
   "published": "2026-08-05T05:24:27.000+05:30",
-  "updated": "2026-08-11T12:03:31.100+05:30",
+  "updated": "2026-08-12T22:05:58.723+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 18691,
-  "sha256": "7a753d74beaec205a0c7247aefe9d43552db2e89a42b9daaa404b5b54e99125e",
+  "bytes": 18850,
+  "sha256": "df2d7a62fe08dd44dff59c93b1508cf995fddad9f1fe40d48e46b338be0a94a8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        18691,
+        18850
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

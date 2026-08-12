@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-08-08T22:24:01.165+05:30",
+  "updated": "2026-08-12T22:09:07.844+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 19259,
-  "sha256": "5f99b0fd196f5497fd5d54162c966c2eab6fc9d7b9286102b5cccea7e0204f7e",
+  "bytes": 19418,
+  "sha256": "f963a440d8ab5cb3a80d3d0a7a4cdab91f7c560e9ebaac8c74e46fc04e7629d5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19259,
+        19418
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

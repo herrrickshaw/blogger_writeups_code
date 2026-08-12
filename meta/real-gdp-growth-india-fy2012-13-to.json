@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-08-11T21:44:03.217+05:30",
+  "updated": "2026-08-12T22:12:10.859+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 23474,
-  "sha256": "27da6f9aac6dcdf025f5fb9d34066417ad3857a7fafc556c513e96675c577972",
+  "bytes": 23633,
+  "sha256": "2324275f8be78a6f061bf472345c60a39f8f7e177d255cd09c6f4b579a68f305",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "bytes": [
         23346,
         23474
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23474,
+        23633
       ],
       "url_changed": null,
       "markers_changed": null,

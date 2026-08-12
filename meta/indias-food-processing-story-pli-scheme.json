@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
   "slug": "indias-food-processing-story-pli-scheme",
   "published": "2026-08-08T21:33:25.000+05:30",
-  "updated": "2026-08-11T12:03:16.944+05:30",
+  "updated": "2026-08-12T22:05:34.307+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 17359,
-  "sha256": "836f313f15e69af529aa92332cf8be7cedf4ebf888cbbbca41c78a3eeaf7de65",
+  "bytes": 17518,
+  "sha256": "3d83c83c98f8973d9d6c4dbec175bb3e212f9bb0a267bf16d768b94741f0494b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         17346,
         17359
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        17359,
+        17518
       ],
       "url_changed": null,
       "markers_changed": null,

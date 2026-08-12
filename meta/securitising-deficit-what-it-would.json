@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-08-11T12:05:49.664+05:30",
+  "updated": "2026-08-12T22:13:03.526+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 115231,
-  "sha256": "211cc82afade28143cee22abfabcde1c5c06776ea1a2f28a0f5e034485ee0d49",
+  "bytes": 115390,
+  "sha256": "ab8c404b3e2f51eb82866478d18283b4892c6b6cc9476b2f346879c8f7c5f0f2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -85,6 +85,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        115231,
+        115390
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

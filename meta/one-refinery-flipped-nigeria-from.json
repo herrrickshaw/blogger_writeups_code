@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
   "slug": "one-refinery-flipped-nigeria-from",
   "published": "2026-08-09T03:00:24.000+05:30",
-  "updated": "2026-08-09T03:06:20.167+05:30",
+  "updated": "2026-08-12T22:09:44.775+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 25670,
-  "sha256": "680be93e19d5ebe3ee63ae6451209fcb3ed9ed291769e5c4a284113500b121d3",
+  "bytes": 25829,
+  "sha256": "c6f517bb4299a8fa99993d2056f4e077a995d8924237021c8402309c90ad3307",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Africa refining article updated: added 2018 historical baseline (Dangote's original Dec-2019 target slipped 4+ years; SA's BRICS refinery apparently died), the $5bn Oct-2026 IPO, and Nigeria's 24-project/2.64mn-bpd-by-2031 pipeline — flagged as a genuine complication to the article's own 'imports keep rising' thesis rather than smoothed over"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25670,
+        25829
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

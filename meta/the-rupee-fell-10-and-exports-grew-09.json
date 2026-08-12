@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
   "slug": "the-rupee-fell-10-and-exports-grew-09",
   "published": "2026-08-04T06:34:23.000+05:30",
-  "updated": "2026-08-11T12:06:48.144+05:30",
+  "updated": "2026-08-12T22:16:52.300+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 30347,
-  "sha256": "77aa1ad9f1d9e6b53e19d7e821baed6b41e9f740bfca7318e453f5d12e173676",
+  "bytes": 30506,
+  "sha256": "a483c63df4567a57e4b6e206b72ce7e8803b74e20538495b36e0f60d8cdc577d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -73,6 +73,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        30347,
+        30506
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

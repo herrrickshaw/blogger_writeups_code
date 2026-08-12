@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
   "slug": "annexure-314-hsn-codes-mapped-to",
   "published": "2026-08-03T09:53:02.000+05:30",
-  "updated": "2026-08-11T10:06:04.511+05:30",
+  "updated": "2026-08-12T21:53:37.722+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 39518,
-  "sha256": "83656a3fc7ca067d8a5c076870970a090981672bd984d142ef49acde224be169",
+  "bytes": 39677,
+  "sha256": "cb17c27264e4042134005773fe9d99ca96a8121feb5684848a8e458f63fbe7c3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -64,6 +64,19 @@
       "bytes": [
         39288,
         39518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        39518,
+        39677
       ],
       "url_changed": null,
       "markers_changed": null,

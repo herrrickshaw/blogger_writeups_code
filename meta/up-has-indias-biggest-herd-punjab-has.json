@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-08-09T10:34:20.097+05:30",
+  "updated": "2026-08-12T22:17:42.284+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 19499,
-  "sha256": "95766c91c1e6b21aae3af490792267b246d52a9ce296cc9201f7e6e022926c48",
+  "bytes": 19658,
+  "sha256": "4f5af22ed76bcca67f9f35458391a92180c6ec94602430337f637ce85cbcb806",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Correct/strengthen livestock census article: verified via direct PIB fetch that the ministry's own 25 Mar 2025 written reply (its own census target date) states 21st Census enumeration was still ongoing and falls back to 2019 data — replaces earlier vaguer Oct2024-Feb2025 claim with this precisely dated, directly-sourced fact"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19499,
+        19658
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

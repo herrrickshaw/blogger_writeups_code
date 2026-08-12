@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-11T12:40:12.893+05:30",
+  "updated": "2026-08-12T22:02:52.502+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 16175,
-  "sha256": "7fa0f49f5c9e087aaf543979970ad92082e497bc9bb5bb60c881922ae5d80405",
+  "bytes": 16334,
+  "sha256": "8a90951f74f9bee733b72cd4e553a3a3aa81b11afdde22a3d0b4ddf126318522",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -90,6 +90,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        16175,
+        16334
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
   "slug": "indias-state-incentive-war-gujarats",
   "published": "2026-08-05T17:18:03.000+05:30",
-  "updated": "2026-08-11T12:03:43.204+05:30",
+  "updated": "2026-08-12T22:06:39.034+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 25550,
-  "sha256": "0f717a4cfeab9af3d0e37334755ad95057e795c4a23b6921352a41efb22ff6ff",
+  "bytes": 25709,
+  "sha256": "a7bffbb8399a48934658f4f17040a22e42c1b62db06bdb525c05109a158ee436",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25550,
+        25709
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

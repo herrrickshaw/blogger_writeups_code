@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-08-11T21:42:48.704+05:30",
+  "updated": "2026-08-12T21:56:52.653+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 32475,
-  "sha256": "0fa6b9eca7aa517acb3e8aa9c3b3ac2229df3eca3e01eebd2df63ec0c3ebe01d",
+  "bytes": 32634,
+  "sha256": "b667d75b7b48ccd7860ac93de78803d0d7d28c6451a6bd81e625e436d8119667",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         32436,
         32475
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        32475,
+        32634
       ],
       "url_changed": null,
       "markers_changed": null,

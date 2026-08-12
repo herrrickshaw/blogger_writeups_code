@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-11T12:01:09.605+05:30",
+  "updated": "2026-08-12T21:58:24.512+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 35397,
-  "sha256": "c17b687ffe2705abb8c24eee3b3aa529d78871c769ae4020ecdb0a623ffe1545",
+  "bytes": 35556,
+  "sha256": "aad7856fc918a3a4236689a8ebff37d8bc552f97a2915c824d0fa3da30fff4b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -90,6 +90,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        35397,
+        35556
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

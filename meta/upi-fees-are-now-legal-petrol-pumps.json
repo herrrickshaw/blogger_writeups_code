@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-08-08T21:13:26.123+05:30",
+  "updated": "2026-08-12T22:17:54.025+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 30404,
-  "sha256": "bc17567ac8a34d268d3680458c8e22a1eb06d54575902d61624fe4cff6707a59",
+  "bytes": 30563,
+  "sha256": "9a7155c9f4c7df97617fb6d97585f77f2d04fcae3cbbb4f290d80170a189c594",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "11.0.0",
+  "version": "11.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Strengthened fuel-retail MDR post: added NPCI's official UPI-ATM (ICCW) product details + critical April 2026 update — banks now count UPI-ATM withdrawals against the monthly free-transaction quota, which qualifies the article's cash-out 'hedge' argument. Also refreshed WLA operator landscape (5 operators, CIMS reporting shift)."
+    },
+    {
+      "version": "11.0.1",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        30404,
+        30563
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

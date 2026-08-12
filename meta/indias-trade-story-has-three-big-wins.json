@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-08-08T22:05:34.749+05:30",
+  "updated": "2026-08-12T22:07:32.721+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 14572,
-  "sha256": "367429d5ee6d4368d555eef30c781523e18b5953290969e13e1e013ce3119072",
+  "bytes": 14731,
+  "sha256": "5d56545470d7f004fd5fb825472480878dd71c2711941b2e30d9886ae647b5de",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New article: India trade gaps — Export Promotion Mission, EU FTA, PLI scheme (all goods-focused) vs the services-export growth gap (6.5% vs 2.4% merchandise, H1 FY26)"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14572,
+        14731
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

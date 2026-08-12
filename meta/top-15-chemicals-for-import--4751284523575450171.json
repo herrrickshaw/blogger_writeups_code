@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import--4751284523575450171",
   "published": "2026-08-01T09:25:00.000+05:30",
-  "updated": "2026-08-08T14:22:41.200+05:30",
+  "updated": "2026-08-12T21:54:29.066+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 15778,
-  "sha256": "96699d6d5e397a9f81b3a669e179013dd3141b2cfcfff880428bcfd43005c564",
+  "bytes": 15937,
+  "sha256": "3e60f8cd89b252d79b02af673be528056e9193603ebf211d6b07fbcc3dbf65ce",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -88,6 +88,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "site-index stub in all 98 posts"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-08-12T22:24:04+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        15778,
+        15937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
