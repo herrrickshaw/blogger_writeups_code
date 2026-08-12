@@ -3416,3 +3416,13 @@ scheduled sync
 **Added**
 
 - `the-barrel-really-is-shifting-indias` **v1.0.0** — The Barrel Really Is Shifting: India's Refiners Quantify the Petrochemical Pivot (15,740 bytes)
+
+## 2026-08-12T20:28:13+05:30 — 139 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.5 → 24.1.6** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
