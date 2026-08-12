@@ -3280,3 +3280,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 37,977 → 39,290 bytes (+1,313)
+
+## 2026-08-12T19:05:00+05:30 — 133 posts live
+
+**Added**
+
+- `who-collects-indias-gst-and-who` **v1.0.0** — Who Collects India's GST, and Who Actually Gets It Back (20,190 bytes)
