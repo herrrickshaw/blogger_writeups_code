@@ -3296,3 +3296,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 169,628 → 169,628 bytes (+0)
+
+## 2026-08-12T19:20:05+05:30 — 134 posts live
+
+**Added**
+
+- `uttar-pradeshs-gst-puzzle-growing` **v1.0.0** — Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't (19,180 bytes)
