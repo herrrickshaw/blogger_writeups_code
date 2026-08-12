@@ -85,6 +85,10 @@ TAXONOMY = {
     "Macroeconomics & Monetary Policy": ["monetary policy", "repo rate",
                                          "central bank", "real gdp", "gdp growth",
                                          " rbi "],
+    "Healthcare":          ["abha", "health account", "health id", "digital health",
+                            "ayushman", "pm-jay", "pmjay", "health insurance",
+                            "hospital", "healthcare", "out-of-pocket", "oope",
+                            "health record", "health cover"],
 }
 
 
