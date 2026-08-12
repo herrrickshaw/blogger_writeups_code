@@ -3462,3 +3462,13 @@ scheduled sync
 **Changed**
 
 - `fuel-and-bottle-two-taxes-states-never` — 22,484 → 22,950 bytes (+466)
+
+## 2026-08-12T21:43:28+05:30 — 140 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.6 → 24.1.7** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 171,281 bytes (+1,653)
