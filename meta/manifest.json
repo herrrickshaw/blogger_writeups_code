@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T11:04:53+05:30",
+  "snapshot": "2026-08-12T11:08:06+05:30",
   "count": 132,
   "posts": {
     "1157999291079244419": {
@@ -1235,12 +1235,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-10T09:05:35.368+05:30",
+      "updated": "2026-08-12T11:07:52.193+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 37977,
-      "sha256": "5aab601b2d8de7bd7ce71b62de13b0c890a9d456ab61af62ec63d5ec75f74b08",
+      "bytes": 39290,
+      "sha256": "4faa2cc47e5fc71875f1d2c40997b57a8d6fa18f61980eee0f7fd438ec07be4b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1252,7 +1252,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.0.1",
+      "version": "7.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1460,6 +1460,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "7.1.0",
+          "date": "2026-08-12T11:08:06+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37977,
+            39290
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
