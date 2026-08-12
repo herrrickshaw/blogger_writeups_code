@@ -3374,3 +3374,13 @@ scheduled sync
 **Added**
 
 - `push-ethanol-sgst-rate-from-25-to-5-and` **v1.0.0** — Push the Ethanol SGST Rate From 2.5% to 5% and Beyond: What Each State Would Actually Earn (17,586 bytes)
+
+## 2026-08-12T20:05:17+05:30 — 137 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.1.3 → 24.1.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 169,628 → 169,628 bytes (+0)
