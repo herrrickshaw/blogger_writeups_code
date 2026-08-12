@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:00:51.196+05:30",
+  "updated": "2026-08-13T04:31:36.598+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 11484,
-  "sha256": "a23314b2028b4518b1dc7c2ba1ce4f2558fb898858a05faebaec53d317657f36",
+  "bytes": 11549,
+  "sha256": "f7956ac1e28c47675c2a9a6e0fa51fab45af3b76aca08441b8b7c539d4e6cef7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -114,6 +114,19 @@
       "bytes": [
         7015,
         11484
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T04:33:52+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        11484,
+        11549
       ],
       "url_changed": null,
       "markers_changed": null,

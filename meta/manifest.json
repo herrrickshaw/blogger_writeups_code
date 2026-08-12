@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T04:23:49+05:30",
+  "snapshot": "2026-08-13T04:33:52+05:30",
   "count": 141,
   "posts": {
     "1058853159205559121": {
@@ -8,7 +8,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-08-12T23:00:16.747+05:30",
+      "updated": "2026-08-13T04:23:53.774+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
@@ -1226,12 +1226,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-08-13T03:59:13.407+05:30",
+      "updated": "2026-08-13T04:29:59.524+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 23123,
-      "sha256": "6dd4e873322eb54e82a06cb4115c4d69c766d14e2b5e062f7379b04b7a87936c",
+      "bytes": 23188,
+      "sha256": "08b2dbf04fcbf757328488572a3c1ffe28db073d5baa46714c0e2829ba848e43",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1243,7 +1243,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1286,6 +1286,19 @@
           "bytes": [
             18654,
             23123
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23123,
+            23188
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -1403,12 +1416,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-13T03:57:17.108+05:30",
+      "updated": "2026-08-13T04:28:15.352+05:30",
       "labels": [
         "AI Tracker"
       ],
-      "bytes": 36588,
-      "sha256": "c646d9265d095e353227f786045865f3d7ad7c89b15cbfa47f318ee84d79042d",
+      "bytes": 36653,
+      "sha256": "dee3ad4f96ebe2f50b302d2d72e2cdad3065b1df42ab77bc6d77c7dbac59836b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1420,7 +1433,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.5",
+      "version": "3.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1551,6 +1564,19 @@
           "bytes": [
             32119,
             36588
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            36588,
+            36653
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -2530,13 +2556,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-13T03:57:54.397+05:30",
+      "updated": "2026-08-13T04:28:54.257+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 43623,
-      "sha256": "444eb71f1c8a3d7a61d1f41d7e7b533a6a21b3ce4212a8f5685282fc8107b21f",
+      "bytes": 43688,
+      "sha256": "007331a9dc7b5db6c514a0c474893e06259eb910738b23201e6f0d0f5211c494",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2548,7 +2574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2630,6 +2656,19 @@
           "bytes": [
             39154,
             43623
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            43623,
+            43688
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -3322,12 +3361,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
       "slug": "cow-dung-already-flew-rocket-engine",
       "published": "2026-08-09T04:20:09.000+05:30",
-      "updated": "2026-08-13T04:01:02.092+05:30",
+      "updated": "2026-08-13T04:31:49.319+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 37103,
-      "sha256": "7426d9b6a731149b38ecb1ab95dcce9ff742bef0ed9ed39168bd8bf87ba2b8cc",
+      "bytes": 37168,
+      "sha256": "7b0ffe497bfe09a6b3867ec8266622a2da4b6b4c75c62c84699a58fb2bf5c44a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3339,7 +3378,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.3",
+      "version": "4.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3421,6 +3460,19 @@
           "bytes": [
             32634,
             37103
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.4",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37103,
+            37168
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -3604,14 +3656,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-13T03:59:30.055+05:30",
+      "updated": "2026-08-13T04:30:13.658+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 31445,
-      "sha256": "d38157bb122e2b083ba9b4265092d6d8399cefcdc5c355299c182bb4116a342d",
+      "bytes": 31510,
+      "sha256": "8185c23584665be76e5bad8f8c0001252343b0f3627c83b068fbf0125043a2dd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3623,7 +3675,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3710,6 +3762,19 @@
           "bytes": [
             26976,
             31445
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            31445,
+            31510
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -5475,12 +5540,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-08-13T03:57:02.517+05:30",
+      "updated": "2026-08-13T04:28:00.686+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 20618,
-      "sha256": "2357113fa2363756011d4ebcbc258578edf6085e7c1bcc276fbaec6928cf7960",
+      "bytes": 20683,
+      "sha256": "b391bf097c8540be3338947299a7cdcc4a0f2201c8a41ccb9bb7e8e69199dd7a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5492,7 +5557,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5561,6 +5626,19 @@
           "bytes": [
             16149,
             20618
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            20618,
+            20683
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -6098,12 +6176,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
       "slug": "diesel-doesnt-move-cpi-it-moves-40",
       "published": "2026-08-06T12:38:39.000+05:30",
-      "updated": "2026-08-13T04:01:40.590+05:30",
+      "updated": "2026-08-13T04:32:27.952+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 33911,
-      "sha256": "3bb3b4845a63f3297cef1eefab1c4d29d125690f744912c25d7d2aeab0accefc",
+      "bytes": 33976,
+      "sha256": "a0024135dfefa09fa8ac3c253ea7caea9cfd004a1de61e8c138c284093f4d877",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6115,7 +6193,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.5",
+      "version": "5.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6240,6 +6318,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33911,
+            33976
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -6348,7 +6439,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
       "slug": "would-more-sgst-fix-donor-state-problem",
       "published": "2026-08-12T19:54:17.000+05:30",
-      "updated": "2026-08-12T23:00:41.502+05:30",
+      "updated": "2026-08-13T04:24:16.594+05:30",
       "labels": [
         "Energy & Fuels",
         "Macroeconomics & Monetary Policy"
@@ -6977,13 +7068,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-08-13T03:58:48.066+05:30",
+      "updated": "2026-08-13T04:29:32.567+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Climate & Carbon"
       ],
-      "bytes": 43525,
-      "sha256": "702e6e72881d203cbcab782a1510261b27319ac5d5e2f9ce5241a93e5bab72d6",
+      "bytes": 43590,
+      "sha256": "6e5d0b560a9bdbcd725946a0aced10c403c7ecb507d8e434d98ef9c56cf418c1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6995,7 +7086,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7103,6 +7194,19 @@
           "bytes": [
             39056,
             43525
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            43525,
+            43590
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -7233,14 +7337,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
       "slug": "city-gas-just-became-indias-largest-gas",
       "published": "2026-08-08T16:38:51.000+05:30",
-      "updated": "2026-08-13T04:00:24.705+05:30",
+      "updated": "2026-08-13T04:31:10.961+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 22691,
-      "sha256": "ee62ab9e1e7d102c752eeb73f347f575802110025a5f4fab32684b9ce773ee84",
+      "bytes": 22756,
+      "sha256": "e7cb06c41a734018629728958a885155ec33284abcc5b60c0a10e36dd2124a91",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7252,7 +7356,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7308,6 +7412,19 @@
           "bytes": [
             18222,
             22691
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22691,
+            22756
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -7971,13 +8088,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
       "published": "2026-08-08T20:01:53.000+05:30",
-      "updated": "2026-08-13T03:58:35.170+05:30",
+      "updated": "2026-08-13T04:29:20.077+05:30",
       "labels": [
         "Energy & Fuels",
         "Textiles"
       ],
-      "bytes": 34094,
-      "sha256": "16fafb0af8541544adc37d5b290cb67035f7e671fee9083c989620bdd9575760",
+      "bytes": 34159,
+      "sha256": "70b00409562cafc8e3cd6e47959134a1a50387d1916140ba8fc66fcda33920d7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7989,7 +8106,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.4",
+      "version": "3.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8071,6 +8188,19 @@
           "bytes": [
             29625,
             34094
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.5",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34094,
+            34159
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -8308,14 +8438,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-13T04:00:11.621+05:30",
+      "updated": "2026-08-13T04:30:57.793+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 52053,
-      "sha256": "a2314682b0286d0723782a6d8df6c95e7908b994508945341243b91e42178ff0",
+      "bytes": 52118,
+      "sha256": "34e72dd8369842fbf1c5b657a0374b578b426fa28b4ae61f06f2bb40f4f9a4ee",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8327,7 +8457,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8414,6 +8544,19 @@
           "bytes": [
             47584,
             52053
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            52053,
+            52118
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -8561,12 +8704,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
       "slug": "050-is-its-own-category-diving-into",
       "published": "2026-08-11T15:32:23.000+05:30",
-      "updated": "2026-08-13T03:56:14.301+05:30",
+      "updated": "2026-08-13T04:27:09.720+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 16884,
-      "sha256": "0a870689ce18d6b851e73b2e49c9eb62c42233483ff1dc0cd952acdfddf73e62",
+      "bytes": 16949,
+      "sha256": "14c38a3befa497dc513636582c408a8a8ab52613051717d689875949a01a6748",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8578,7 +8721,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8612,6 +8755,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            16884,
+            16949
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -8621,12 +8777,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
       "slug": "effective-buying-power-china-comparison",
       "published": "2026-08-02T14:02:12.000+05:30",
-      "updated": "2026-08-13T04:02:19.609+05:30",
+      "updated": "2026-08-13T04:33:07.961+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 33885,
-      "sha256": "660486a6347cb323aef0d368068c301f50a92dce1617a6f610b4b09c72c77301",
+      "bytes": 33950,
+      "sha256": "8a3e4fd02b4fe745ecac86f9077ded840a4857d26dea454aacf46d0eab8502c9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8638,7 +8794,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8716,6 +8872,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33885,
+            33950
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -8725,7 +8894,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
       "slug": "re-spinning-charkha",
       "published": "2026-08-03T10:32:15.000+05:30",
-      "updated": "2026-08-12T22:52:37.418+05:30",
+      "updated": "2026-08-13T04:24:27.635+05:30",
       "labels": [
         "Energy & Fuels",
         "Textiles"
@@ -8872,12 +9041,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
       "slug": "annexure-314-hsn-codes-mapped-to",
       "published": "2026-08-03T09:53:02.000+05:30",
-      "updated": "2026-08-13T03:57:42.129+05:30",
+      "updated": "2026-08-13T04:28:41.025+05:30",
       "labels": [
         "Textiles"
       ],
-      "bytes": 44146,
-      "sha256": "a1121f96f4dc910f9125cf9a243ee7134445e622cd37b6f4d9c3a5f36de979a2",
+      "bytes": 44211,
+      "sha256": "f0d7721f6a64102a4e10a76fe9898f5237cb1f8689a5577b97ab4a0c42726530",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8889,7 +9058,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8958,6 +9127,19 @@
           "bytes": [
             39677,
             44146
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44146,
+            44211
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -9645,12 +9827,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
       "slug": "below-250-is-where-real-junk-lives",
       "published": "2026-08-11T15:22:00.000+05:30",
-      "updated": "2026-08-13T03:58:22.290+05:30",
+      "updated": "2026-08-13T04:29:07.756+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 17249,
-      "sha256": "0f72673aadf8720a51613a3ba6cbdcc00ec96e1f1431cc170e1155c11e521848",
+      "bytes": 17314,
+      "sha256": "1fa5451548e631c6bca6f48eac5fc21aafb62ef982bada9ac318ea7461b2e4a9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9662,7 +9844,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9718,6 +9900,19 @@
           "bytes": [
             12780,
             17249
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            17249,
+            17314
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -9805,10 +10000,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-13T03:58:09.728+05:30",
+      "updated": "2026-08-13T04:26:53.803+05:30",
       "labels": [],
-      "bytes": 175909,
-      "sha256": "d30ede30d51ae10e9028fcdeac57263f9bd9362189934ac66f6ab450e591a4ef",
+      "bytes": 175974,
+      "sha256": "ab0347bf7e4e9267d89f05906f30fd90e3828ae928be1cece26366d1bc0a9443",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9820,7 +10015,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.1.9",
+      "version": "24.1.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10426,6 +10621,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "24.1.10",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            175909,
+            175974
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -10435,12 +10643,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
       "slug": "abha-what-indias-14-digit-health-id",
       "published": "2026-08-12T04:31:28.000+05:30",
-      "updated": "2026-08-13T03:56:49.693+05:30",
+      "updated": "2026-08-13T04:27:47.974+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 21952,
-      "sha256": "832436d4a355866b711f28cdd316c0beabf8d5ef369a6ae544684e4ebf278c6b",
+      "bytes": 22017,
+      "sha256": "cddf7a29780e7fe47b97698f19b778ca6692d6d3cf6306b2f76c0920587d7599",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10452,7 +10660,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10486,6 +10694,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21952,
+            22017
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -10495,7 +10716,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
       "slug": "where-indias-green-hydrogen-bets-are",
       "published": "2026-08-05T17:14:26.000+05:30",
-      "updated": "2026-08-12T23:00:04.650+05:30",
+      "updated": "2026-08-13T04:23:41.812+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
@@ -10604,13 +10825,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
       "slug": "cold-chain-fuel-outlet-integrated-map",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:00:51.196+05:30",
+      "updated": "2026-08-13T04:31:36.598+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Gas & LNG"
       ],
-      "bytes": 11484,
-      "sha256": "a23314b2028b4518b1dc7c2ba1ce4f2558fb898858a05faebaec53d317657f36",
+      "bytes": 11549,
+      "sha256": "f7956ac1e28c47675c2a9a6e0fa51fab45af3b76aca08441b8b7c539d4e6cef7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10622,7 +10843,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10714,6 +10935,19 @@
           "bytes": [
             7015,
             11484
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            11484,
+            11549
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -11284,13 +11518,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
       "slug": "chemical-import-substitution-hsn-8-registry",
       "published": "2026-08-06T09:07:16.000+05:30",
-      "updated": "2026-08-13T03:59:58.142+05:30",
+      "updated": "2026-08-13T04:30:42.886+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 19866,
-      "sha256": "6b32c9edb4a023aee22f3cd16cef89562d8c26d3e8a9885f6d48efc467c16313",
+      "bytes": 19931,
+      "sha256": "7a74d3d1cc0fe7db0477bd4abff1328e9fc40d8cb91fd93937847e434b3a125b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11302,7 +11536,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.4",
+      "version": "3.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11424,6 +11658,19 @@
           "bytes": [
             15397,
             19866
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.5",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19866,
+            19931
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -12290,12 +12537,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
       "slug": "cpi-inflation-heatmap-india-june-2026",
       "published": "2026-08-02T14:05:22.000+05:30",
-      "updated": "2026-08-13T04:01:14.432+05:30",
+      "updated": "2026-08-13T04:32:01.613+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 71244,
-      "sha256": "9c08bddfd1b82b06414586d02d8e2480261d3a0a68a8c19c446797d8f9a19458",
+      "bytes": 71309,
+      "sha256": "b7f4be3245227ae32a0602d4d87cf27658355065a2fbafdc86c8a651dbd6e4a9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12307,7 +12554,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12381,6 +12628,19 @@
           "bytes": [
             66775,
             71244
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            71244,
+            71309
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -12931,13 +13191,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
       "slug": "annadata-to-urjadata-farmer-income-case",
       "published": "2026-08-04T16:10:00.000+05:30",
-      "updated": "2026-08-13T03:57:29.962+05:30",
+      "updated": "2026-08-13T04:28:28.637+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 38175,
-      "sha256": "4a61449f3ab5bffbb487ff76c50f498136e9bcd70f84ec43ffa1261e5de763d7",
+      "bytes": 38240,
+      "sha256": "bae598eeef03ca503e7ff48e13669fea477a696154a14a16794d22c6ccd4a61d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12949,7 +13209,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13018,6 +13278,19 @@
           "bytes": [
             33706,
             38175
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            38175,
+            38240
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -13252,13 +13525,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
       "slug": "cocoas-blockchain-reckoning-one",
       "published": "2026-08-08T21:27:49.000+05:30",
-      "updated": "2026-08-13T04:00:36.750+05:30",
+      "updated": "2026-08-13T04:31:23.055+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 21616,
-      "sha256": "9ef7aeb179e3ba10645170e8436e95254df4435c444f81d3a74fd475fc387238",
+      "bytes": 21681,
+      "sha256": "8dfe60e9d5fab63c63ed479536a312db0746665a28b17804acb9d9740f792e80",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13270,7 +13543,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13326,6 +13599,19 @@
           "bytes": [
             17147,
             21616
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21616,
+            21681
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -13501,13 +13787,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
       "slug": "cgd-geographical-areas-district",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T03:59:01.713+05:30",
+      "updated": "2026-08-13T04:29:46.530+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 11508,
-      "sha256": "d4234694d779b47b0d301ed5a98f3d19a7616a8607445fbe49db625e008db7b5",
+      "bytes": 11573,
+      "sha256": "fcae7f85a7cd14e7cf771196d671491c247a303b447fcb30498b97ca52744750",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13519,7 +13805,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13615,6 +13901,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            11508,
+            11573
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -13624,7 +13923,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
       "slug": "why-bet-on-one-horse-when-you-can-buy",
       "published": "2026-08-11T14:23:23.000+05:30",
-      "updated": "2026-08-12T23:00:29.667+05:30",
+      "updated": "2026-08-13T04:24:04.645+05:30",
       "labels": [
         "Markets & Finance"
       ],
@@ -14071,12 +14370,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
       "slug": "do-cheap-stocks-stay-cheap-price-band",
       "published": "2026-08-11T15:52:01.000+05:30",
-      "updated": "2026-08-13T04:02:08.276+05:30",
+      "updated": "2026-08-13T04:32:55.597+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 88234,
-      "sha256": "ec93fcac2f6adf1b48b973830d6dac0b18d6f9eaf1fc81b3f6648b0e32d727cb",
+      "bytes": 88299,
+      "sha256": "6530ea06628891c1039aa81b0396df73cf6d39dea296b4a667eda94bc6556de9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14088,7 +14387,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.2",
+      "version": "2.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14161,6 +14460,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            88234,
+            88299
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14170,12 +14482,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
       "slug": "a-slice-of-apple-costs-about-1700-slice",
       "published": "2026-08-11T10:59:06.000+05:30",
-      "updated": "2026-08-13T03:56:26.128+05:30",
+      "updated": "2026-08-13T04:27:22.382+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 48083,
-      "sha256": "c5267ca734c816f9530f61f5c55afa4996c7a4156cd6583d93e26fa620bf430c",
+      "bytes": 48148,
+      "sha256": "43cd128fafe45cc9e75fb5b024a6df50949399b715c1f6d23d2888e625beedde",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14187,7 +14499,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.10",
+      "version": "1.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14325,6 +14637,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.11",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            48083,
+            48148
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14438,12 +14763,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
       "slug": "cpi-wpi-trends-mospi-bulletin",
       "published": "2026-08-02T13:48:25.000+05:30",
-      "updated": "2026-08-13T04:01:28.576+05:30",
+      "updated": "2026-08-13T04:32:15.166+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 43401,
-      "sha256": "8919220f3e631d972fc3c835f701b7da00988d8ef5bed464c4daccd0b626313e",
+      "bytes": 43466,
+      "sha256": "76ae35930914cd5c55ad8f8f085d1fc316efb0cdd1939365bcbe69fb292d40b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14455,7 +14780,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14546,6 +14871,19 @@
           "bytes": [
             38932,
             43401
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            43401,
+            43466
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -14686,14 +15024,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-08-13T03:59:44.161+05:30",
+      "updated": "2026-08-13T04:30:28.189+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 382782,
-      "sha256": "2a770963cf9f37598f51eb52273d746a42ff11bfe8a9749e9eebec182099f274",
+      "bytes": 382847,
+      "sha256": "dc2493935b29efb7630fe445097793f8bac23e4b2db88fee113c2bde8a0d3e4b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14705,7 +15043,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14804,6 +15142,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            382782,
+            382847
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14813,12 +15164,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
       "slug": "a-tax-play-grow-ethanol-sgst-revenue",
       "published": "2026-08-02T17:57:40.000+05:30",
-      "updated": "2026-08-13T03:56:37.682+05:30",
+      "updated": "2026-08-13T04:27:34.893+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 38549,
-      "sha256": "2265c4c73779f02129952539c0cb0fa629d35d804e3707a23ff4701bdf65a428",
+      "bytes": 38614,
+      "sha256": "81f185a9c36dde3fb12cc9e7011f6e36c9a77f0ad2bdb063c2b952c3df6ebe92",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14830,7 +15181,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14929,6 +15280,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            38549,
+            38614
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14938,12 +15302,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html",
       "slug": "discom-debt-relief-token-charge",
       "published": "2026-08-02T13:41:21.000+05:30",
-      "updated": "2026-08-13T04:01:55.344+05:30",
+      "updated": "2026-08-13T04:32:42.636+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 22388,
-      "sha256": "a0b41562de93606f119583f14e4f1d0322fe2ca9a3d550d7cd1d03bf78f294b8",
+      "bytes": 22453,
+      "sha256": "e80c37a6eab357dd27f859bd82cdfec5e43c788d9341e6cc9b1fc00f447ca132",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14955,7 +15319,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15024,6 +15388,19 @@
           "bytes": [
             17919,
             22388
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T04:33:52+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22388,
+            22453
           ],
           "url_changed": null,
           "markers_changed": null,

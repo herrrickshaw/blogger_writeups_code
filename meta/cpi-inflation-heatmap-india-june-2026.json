@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-08-13T04:01:14.432+05:30",
+  "updated": "2026-08-13T04:32:01.613+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 71244,
-  "sha256": "9c08bddfd1b82b06414586d02d8e2480261d3a0a68a8c19c446797d8f9a19458",
+  "bytes": 71309,
+  "sha256": "b7f4be3245227ae32a0602d4d87cf27658355065a2fbafdc86c8a651dbd6e4a9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "bytes": [
         66775,
         71244
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T04:33:52+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        71244,
+        71309
       ],
       "url_changed": null,
       "markers_changed": null,
