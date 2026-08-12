@@ -3394,3 +3394,9 @@ scheduled sync
 **Changed**
 
 - `push-ethanol-sgst-rate-from-25-to-5-and` — 17,586 → 22,691 bytes (+5,105)
+
+## 2026-08-12T20:17:10+05:30 — 138 posts live
+
+**Added**
+
+- `the-case-for-biofuels-over-imports` **v1.0.0** — The Case for Biofuels Over Imports: Raise Ethanol's SGST, Cut CNG's VAT, Free the Barrel for Petrochemicals (20,367 bytes)
