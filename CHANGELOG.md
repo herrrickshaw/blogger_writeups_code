@@ -3247,3 +3247,9 @@ scheduled sync
 **Added**
 
 - `abha-what-indias-14-digit-health-id` **v1.0.0** — ABHA: What India's 14-Digit Health ID Actually Does, in the Real Numbers (17,324 bytes)
+
+## 2026-08-12T10:54:29+05:30 — 132 posts live
+
+**Added**
+
+- `indias-two-tracks-of-health-cover-and` **v1.0.0** — India's Two Tracks of Health Cover, and Where They Actually Meet (17,034 bytes)
