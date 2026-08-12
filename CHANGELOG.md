@@ -3328,3 +3328,15 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 169,628 → 169,628 bytes (+0)
+
+## 2026-08-12T19:38:26+05:30 — 135 posts live
+
+**Versions**
+
+- `tamil-nadus-gst-gap-108-economy-growing` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `uttar-pradeshs-gst-puzzle-growing` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `tamil-nadus-gst-gap-108-economy-growing` — 17,023 → 17,479 bytes (+456)
+- `uttar-pradeshs-gst-puzzle-growing` — 19,180 → 19,181 bytes (+1)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-12T19:31:25+05:30",
+  "snapshot": "2026-08-12T19:38:26+05:30",
   "count": 135,
   "posts": {
     "1058853159205559121": {
@@ -518,13 +518,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
       "slug": "uttar-pradeshs-gst-puzzle-growing",
       "published": "2026-08-12T19:19:19.000+05:30",
-      "updated": "2026-08-12T19:19:51.341+05:30",
+      "updated": "2026-08-12T19:38:00.615+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 19180,
-      "sha256": "e0b794888aa6822ab2a49fa18982ad1a3ad15c0f54a75c48192123a9914da809",
+      "bytes": 19181,
+      "sha256": "2e9e1c8dac3745ed25d42cd22121c43f81109345ffdc84b4252c29b49f3d781f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -536,13 +536,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-12T19:20:05+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-12T19:38:26+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19180,
+            19181
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -3691,13 +3704,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html",
       "slug": "tamil-nadus-gst-gap-108-economy-growing",
       "published": "2026-08-12T19:27:46.000+05:30",
-      "updated": "2026-08-12T19:28:02.886+05:30",
+      "updated": "2026-08-12T19:38:08.956+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 17023,
-      "sha256": "42411ae07badc10778304d07182ee77ab14a8b715d6c3b414498cff4657dac37",
+      "bytes": 17479,
+      "sha256": "bf2b46cbb86663e4659dfa8c672210df9004dab5714e8bba7762391a1daab339",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3709,13 +3722,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-12T19:28:15+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-12T19:38:26+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            17023,
+            17479
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
