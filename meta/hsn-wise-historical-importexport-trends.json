@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.000+05:30",
-  "updated": "2026-08-13T04:05:40.622+05:30",
+  "updated": "2026-08-13T04:47:37.401+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 30590,
-  "sha256": "94502ce857af6114eb677b0adbe392ad8e1f7fa35d19237981bab2ad258d69bb",
+  "bytes": 31509,
+  "sha256": "7bc031d41a4a33bd8e2b9d16a1439b0b584aeb9de25a7ffe0168b9a8f978b2df",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -152,6 +152,19 @@
       "bytes": [
         26056,
         30590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.7",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        30590,
+        31509
       ],
       "url_changed": null,
       "markers_changed": null,

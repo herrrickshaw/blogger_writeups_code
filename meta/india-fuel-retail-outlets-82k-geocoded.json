@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:07:29.086+05:30",
+  "updated": "2026-08-13T04:49:20.719+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 11590,
-  "sha256": "977adcb56f9743f258eaa98bc0c4fc797d9307a2a690f1c85e14d53e4f0e9229",
+  "bytes": 12509,
+  "sha256": "d9ed5d12900e8668def3edbc1c2fbebf35484401b0ae7a25885b5b3842f69384",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -114,6 +114,19 @@
       "bytes": [
         7056,
         11590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        11590,
+        12509
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
   "slug": "cheap-yen-rupee-roads-where-carry-trade",
   "published": "2026-08-08T19:13:15.000+05:30",
-  "updated": "2026-08-13T04:29:59.524+05:30",
+  "updated": "2026-08-13T04:41:36.997+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 23188,
-  "sha256": "08b2dbf04fcbf757328488572a3c1ffe28db073d5baa46714c0e2829ba848e43",
+  "bytes": 24107,
+  "sha256": "7be5e176e79b550d0ea1dc8f9f61409a7d9a33890946137a97addfe4f46a3364",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         23123,
         23188
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23188,
+        24107
       ],
       "url_changed": null,
       "markers_changed": null,

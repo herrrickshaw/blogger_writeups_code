@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-08-13T04:02:53.530+05:30",
+  "updated": "2026-08-13T04:45:08.256+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 38956,
-  "sha256": "1e67168b8930f658ef6d0d349c3bb165c5333536d9c7a15820a40178e871abd4",
+  "bytes": 39875,
+  "sha256": "1f184e0f396dd774296a447a328d9bd609814c4eecbdab5fbbb35987cf32c57b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.2",
+  "version": "5.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -118,6 +118,19 @@
       "bytes": [
         34422,
         38956
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.3",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        38956,
+        39875
       ],
       "url_changed": null,
       "markers_changed": null,

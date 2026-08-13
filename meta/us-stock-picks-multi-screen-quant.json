@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:22:38.299+05:30",
+  "updated": "2026-08-13T05:04:51.792+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 31610,
-  "sha256": "deaa468690653322e34bb2616b6dc696fefbd722a06450a42725ab5b138d0a72",
+  "bytes": 32529,
+  "sha256": "2a4a7a156877736a04139a0377a1e9c11f13bcff84457c147d6c5ca4c9623d21",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "bytes": [
         27076,
         31610
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        31610,
+        32529
       ],
       "url_changed": null,
       "markers_changed": null,

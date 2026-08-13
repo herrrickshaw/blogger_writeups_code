@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:07:01.089+05:30",
+  "updated": "2026-08-13T04:48:53.628+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 12843,
-  "sha256": "28263649e7ae20c241db0c41e637b4a189f1d56fc90f82ae4c303b20d265697c",
+  "bytes": 13762,
+  "sha256": "ac7b698cf1a4064de9cc2c95d35a55f1cf0e89cda8e47562648f2991ad99a494",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -113,6 +113,19 @@
       "bytes": [
         8309,
         12843
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        12843,
+        13762
       ],
       "url_changed": null,
       "markers_changed": null,

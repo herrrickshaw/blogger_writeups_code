@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
   "slug": "indias-carbon-credit-market-domestic",
   "published": "2026-08-02T21:37:31.000+05:30",
-  "updated": "2026-08-13T04:08:59.943+05:30",
+  "updated": "2026-08-13T04:50:49.444+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 29528,
-  "sha256": "2498ce886fe5288d8954b737a5cedb3079c042dcb64bd1b10e1d481f1d529ba0",
+  "bytes": 30447,
+  "sha256": "7c785b70d94859fefcec869879c3bd3925eff0161d40288268018c916e87c687",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -90,6 +90,19 @@
       "bytes": [
         24994,
         29528
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        29528,
+        30447
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.000+05:30",
-  "updated": "2026-08-13T04:06:19.115+05:30",
+  "updated": "2026-08-13T04:48:13.916+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 24723,
-  "sha256": "86ea977f00f0653fd6497e130c31899ab69117549d81dad5667940c773ed2962",
+  "bytes": 25642,
+  "sha256": "85c892473322e54da591335d87ee8b967a532bc9a1e53ee5dea8aac33b1a2634",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "bytes": [
         20189,
         24723
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        24723,
+        25642
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
   "slug": "city-gas-just-became-indias-largest-gas",
   "published": "2026-08-08T16:38:51.000+05:30",
-  "updated": "2026-08-13T04:31:10.961+05:30",
+  "updated": "2026-08-13T04:42:45.650+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 22756,
-  "sha256": "e7cb06c41a734018629728958a885155ec33284abcc5b60c0a10e36dd2124a91",
+  "bytes": 23675,
+  "sha256": "b0103f8cf7344541ca7f35887b0d7d17129ba150c3b4873d52f39d2b6a567a0f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "bytes": [
         22691,
         22756
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        22756,
+        23675
       ],
       "url_changed": null,
       "markers_changed": null,

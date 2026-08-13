@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-08-13T04:32:15.166+05:30",
+  "updated": "2026-08-13T04:43:50.594+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 43466,
-  "sha256": "76ae35930914cd5c55ad8f8f085d1fc316efb0cdd1939365bcbe69fb292d40b3",
+  "bytes": 44385,
+  "sha256": "2f3b45886d841bbc38a94b964788754b8f408f221c7015b219d921d6e16fd664",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "bytes": [
         43401,
         43466
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        43466,
+        44385
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-08-13T04:09:48.482+05:30",
+  "updated": "2026-08-13T04:51:35.227+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 23212,
-  "sha256": "89c90f946d8de17c50b5cd51090b7a362bf2b99ae3d6ac008f0c553cca1de8ba",
+  "bytes": 24131,
+  "sha256": "bea4c61430947d4bbd8c3d633137a5efde58db4e9b03aad97a2e1741cb631ed2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "bytes": [
         18678,
         23212
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23212,
+        24131
       ],
       "url_changed": null,
       "markers_changed": null,

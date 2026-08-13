@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
   "published": "2020-10-04T17:27:00.000+05:30",
-  "updated": "2026-08-13T04:18:05.820+05:30",
+  "updated": "2026-08-13T05:00:10.584+05:30",
   "labels": [],
-  "bytes": 33220,
-  "sha256": "f4ddf1e131a4e469883e6b3ae4d270574170bd94ce06a5a74de5a82eac9fecfc",
+  "bytes": 34139,
+  "sha256": "e90327f78be2da8f6fd04f37bbe3b7dfb9fd8fac5fe7fc1ce9449551621133e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -93,6 +93,19 @@
       "bytes": [
         28686,
         33220
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        33220,
+        34139
       ],
       "url_changed": null,
       "markers_changed": null,

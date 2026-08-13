@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-08-13T04:30:57.793+05:30",
+  "updated": "2026-08-13T04:42:33.367+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 52118,
-  "sha256": "34e72dd8369842fbf1c5b657a0374b578b426fa28b4ae61f06f2bb40f4f9a4ee",
+  "bytes": 53037,
+  "sha256": "870d7bde463b10c67352806acf5f9914f374549661da550ed59301a896f4f0d1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "bytes": [
         52053,
         52118
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        52118,
+        53037
       ],
       "url_changed": null,
       "markers_changed": null,

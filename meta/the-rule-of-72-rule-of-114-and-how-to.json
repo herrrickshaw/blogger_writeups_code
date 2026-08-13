@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
   "slug": "the-rule-of-72-rule-of-114-and-how-to",
   "published": "2026-08-10T06:21:23.000+05:30",
-  "updated": "2026-08-13T04:21:08.430+05:30",
+  "updated": "2026-08-13T05:03:24.290+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 23256,
-  "sha256": "036f674e216ddb4aa2b4de64bb6d4dd1dcb974461153098a48e3fa4c86a31409",
+  "bytes": 24175,
+  "sha256": "9d86eb98b4c768bccef5732b72233ec1613d6413865aabac7e50a1c6726b9cf8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         18722,
         23256
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23256,
+        24175
       ],
       "url_changed": null,
       "markers_changed": null,

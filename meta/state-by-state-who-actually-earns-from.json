@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-08-13T04:17:38.826+05:30",
+  "updated": "2026-08-13T04:59:44.924+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 52755,
-  "sha256": "320a897a501dc84965634eb05e89c692807e0e939a001342a9ff2df84de71502",
+  "bytes": 53674,
+  "sha256": "d8ba5e523fee0e824b5218c4ab3fd07eb51d197cc8eaa3585b6e4dcdba046391",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         48221,
         52755
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        52755,
+        53674
       ],
       "url_changed": null,
       "markers_changed": null,

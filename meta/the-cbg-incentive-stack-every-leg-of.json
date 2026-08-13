@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
   "slug": "the-cbg-incentive-stack-every-leg-of",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:19:22.553+05:30",
+  "updated": "2026-08-13T05:01:26.931+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 16528,
-  "sha256": "4cec46d3414e41930511d4ca42349d008c2f6442bd787d75c2639aa8444a68f0",
+  "bytes": 17447,
+  "sha256": "f482aa898783c28205dd321c4b193800966d1b5d099f6445b86a4e10d7eb7186",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -127,6 +127,19 @@
       "bytes": [
         11994,
         16528
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        16528,
+        17447
       ],
       "url_changed": null,
       "markers_changed": null,

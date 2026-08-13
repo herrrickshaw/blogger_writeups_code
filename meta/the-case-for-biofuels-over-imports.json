@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html",
   "slug": "the-case-for-biofuels-over-imports",
   "published": "2026-08-12T20:16:34.000+05:30",
-  "updated": "2026-08-13T04:19:08.123+05:30",
+  "updated": "2026-08-13T05:01:14.502+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 25060,
-  "sha256": "b7c73c61fa3958d778c4e5e4ab2e5232f97e2091fc509fa5e683bfad2ceec8e9",
+  "bytes": 25979,
+  "sha256": "02b30aacbbb06a06428f8dfaba8cb47a100e107bf3ec5c02d051019d0966f249",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -52,6 +52,19 @@
       "bytes": [
         20526,
         25060
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-13T08:42:55+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25060,
+        25979
       ],
       "url_changed": null,
       "markers_changed": null,
