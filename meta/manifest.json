@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-13T11:09:16+05:30",
-  "count": 144,
+  "snapshot": "2026-08-13T11:24:21+05:30",
+  "count": 145,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -10003,14 +10003,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
       "slug": "price-is-wire-how-gcam-actually-links",
       "published": "2026-08-13T10:21:55.000+05:30",
-      "updated": "2026-08-13T11:08:49.751+05:30",
+      "updated": "2026-08-13T11:23:53.150+05:30",
       "labels": [
         "Climate Modeling",
         "Energy Systems",
         "India"
       ],
-      "bytes": 34678,
-      "sha256": "774e5c01fa46d65c05398ebecf6eee3b4bbb1cd51bfcbfdb5aea8a868befa6c7",
+      "bytes": 39015,
+      "sha256": "71e42262768dd53338f10bee4a3d98d17513cdd32a04853f67e6699cac6e8d93",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10022,7 +10022,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10043,6 +10043,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "GCAM article revision: removed KLEM equation, added architecture diagram (price/quantity split, no-foresight loop), added Modelling Energy Access section with CEEW's own admitted urban-rural income convergence gap"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-08-13T11:24:21+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34678,
+            39015
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
         }
       ]
     },
@@ -10181,6 +10194,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        }
+      ]
+    },
+    "5331484031743767237": {
+      "id": "5331484031743767237",
+      "title": "One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
+      "slug": "one-gallon-five-numbers-how-gcam-fits",
+      "published": "2026-08-13T11:20:44.000+05:30",
+      "updated": "2026-08-13T11:21:03.137+05:30",
+      "labels": [
+        "Biofuels",
+        "Carbon Markets",
+        "Climate Modeling"
+      ],
+      "bytes": 25098,
+      "sha256": "d963ffe8ca22f28fc73149d5b6d73015186cf0f60a8f7a418f80974614ba9234",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-13T11:24:21+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
         }
       ]
     },

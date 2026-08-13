@@ -4833,3 +4833,20 @@ GCAM article revision: removed KLEM equation, added architecture diagram (price/
 **Changed**
 
 - `price-is-wire-how-gcam-actually-links` — 23,611 → 34,678 bytes (+11,067)
+
+## 2026-08-13T11:24:21+05:30 — 145 posts live
+
+New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece
+
+
+**Added**
+
+- `one-gallon-five-numbers-how-gcam-fits` **v1.0.0** — One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems (25,098 bytes)
+
+**Versions**
+
+- `price-is-wire-how-gcam-actually-links` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `price-is-wire-how-gcam-actually-links` — 34,678 → 39,015 bytes (+4,337)
