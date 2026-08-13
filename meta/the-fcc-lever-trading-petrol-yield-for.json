@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
   "slug": "the-fcc-lever-trading-petrol-yield-for",
   "published": "2026-08-13T04:07:57.000+05:30",
-  "updated": "2026-08-13T05:01:38.790+05:30",
+  "updated": "2026-08-13T09:05:21.905+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34251,
-  "sha256": "00e008645c6222afe1d4179b825cd6075a1a21a6b49bb06b8db1144d50a73369",
+  "bytes": 34370,
+  "sha256": "defcbce16c2415ffb4b797070ced6751ae268611ad37976668519e1ee4054ddc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -52,6 +52,19 @@
       "bytes": [
         33332,
         34251
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-13T09:12:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        34251,
+        34370
       ],
       "url_changed": null,
       "markers_changed": null,

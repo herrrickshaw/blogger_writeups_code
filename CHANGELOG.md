@@ -4406,3 +4406,41 @@ scheduled sync
 **Changed**
 
 - `from-barrel-to-bottle-petrochemical` — 23,752 → 28,420 bytes (+4,668)
+
+## 2026-08-13T09:12:45+05:30 — 143 posts live
+
+**Added**
+
+- `the-margin-case-why-lpg-and` **v1.0.0** — The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel (24,744 bytes)
+
+**Versions**
+
+- `from-barrel-to-bottle-petrochemical` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `the-fcc-lever-trading-petrol-yield-for` **1.0.2 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `fuel-and-bottle-two-taxes-states-never` **1.1.2 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `the-barrel-really-is-shifting-indias` **1.0.5 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `the-case-for-biofuels-over-imports` **1.0.3 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.1.3 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `would-more-sgst-fix-donor-state-problem` **1.0.3 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `tamil-nadus-gst-gap-108-economy-growing` **1.0.4 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `uttar-pradeshs-gst-puzzle-growing` **1.1.3 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `who-collects-indias-gst-and-who` **1.1.4 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-two-tracks-of-health-cover-and` **1.0.3 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `abha-what-indias-14-digit-health-id` **1.0.4 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `mrs-watanabe-traded-from-kitchen-table` **1.1.3 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `from-barrel-to-bottle-petrochemical` — 28,420 → 28,539 bytes (+119)
+- `the-fcc-lever-trading-petrol-yield-for` — 34,251 → 34,370 bytes (+119)
+- `fuel-and-bottle-two-taxes-states-never` — 28,562 → 28,681 bytes (+119)
+- `the-barrel-really-is-shifting-indias` — 30,101 → 30,220 bytes (+119)
+- `the-case-for-biofuels-over-imports` — 25,979 → 26,098 bytes (+119)
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 28,303 → 28,422 bytes (+119)
+- `would-more-sgst-fix-donor-state-problem` — 23,344 → 23,463 bytes (+119)
+- `tamil-nadus-gst-gap-108-economy-growing` — 23,091 → 23,210 bytes (+119)
+- `uttar-pradeshs-gst-puzzle-growing` — 25,237 → 25,356 bytes (+119)
+- `who-collects-indias-gst-and-who` — 29,079 → 29,198 bytes (+119)
+- `indias-two-tracks-of-health-cover-and` — 22,646 → 22,765 bytes (+119)
+- `abha-what-indias-14-digit-health-id` — 22,936 → 23,055 bytes (+119)
+- `mrs-watanabe-traded-from-kitchen-table` — 25,308 → 25,427 bytes (+119)
