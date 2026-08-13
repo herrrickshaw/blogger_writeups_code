@@ -4670,3 +4670,12 @@ Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:po
 - `reinvesting-capital-gains-in-higher` — 29,111 → 29,242 bytes (+131)
 - `diesel-doesnt-move-cpi-it-moves-40` — 34,896 → 35,027 bytes (+131)
 - `ai-high-demand-launch-tracker` — 37,574 → 37,705 bytes (+131)
+
+## 2026-08-13T10:27:29+05:30 — 144 posts live
+
+New post: GCAM system-integration explainer, using PNNL/JGCRI docs, GMD v5.1 paper, KLEM macro module, and CEEW's India-specific GCAM-CEEW build
+
+
+**Added**
+
+- `price-is-wire-how-gcam-actually-links` **v1.0.0** — Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target (23,611 bytes)

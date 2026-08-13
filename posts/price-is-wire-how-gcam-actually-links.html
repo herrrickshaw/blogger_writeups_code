@@ -1,0 +1,207 @@
+<div class="artx gcx">
+<style>
+.gcx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.gcx h1,.gcx h2,.gcx h3{line-height:1.3}
+.gcx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec}
+.gcx,.gcx p,.gcx li,.gcx td,.gcx th{color:var(--ink)!important}
+.gcx{background:#fff!important}
+.gcx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
+.gcx h1{margin:0 0 10px;font-size:1.5rem}
+.gcx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.gcx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.gcx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.gcx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.gcx .stat span{font-size:.8rem}
+.gcx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+.gcx .tw{overflow-x:auto}
+.gcx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.gcx th,.gcx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.gcx th:first-child,.gcx td:first-child{text-align:left}
+.gcx th{background:var(--accent);color:#fff!important;font-weight:600}
+.gcx tr:nth-child(even){background:var(--panel)}
+.gcx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.gcx .warn{background:#fff4f0;border-left:4px solid #a5402c;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.gcx .src{font-size:.84rem;border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.gcx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.gcx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.gcx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">GCAM &mdash; the Global Change Analysis Model, maintained at Pacific Northwest National Laboratory &mdash; is usually described as a model that &ldquo;links energy, water, land and the economy.&rdquo; That phrase hides the actual mechanism. GCAM does not run one unified optimisation across all four; it solves five separate markets independently, five years at a time, with no subsystem allowed to see the future, and lets a single price signal carry information between them. The version CEEW and IIM Ahmedabad have run for India since 2007 uses exactly this machinery to work out what a net-zero target implies sector by sector. This piece works through how the wiring is actually built.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Climate Modeling &middot; Energy Systems &middot; India</p>
+<h1 style="order:3">Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-08-13" itemprop="dateModified">13 August 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<div class="stats">
+<div class="stat"><b>32</b><span>geopolitical regions GCAM solves, India as one</span></div>
+<div class="stat"><b>5&nbsp;yr</b><span>time step; the model never sees past the current one</span></div>
+<div class="stat"><b>2007&ndash;09</b><span>India-specific version built at IIM Ahmedabad</span></div>
+<div class="stat"><b>9</b><span>fuels competing for every unit of electricity demand</span></div>
+</div>
+
+<p>GCAM was built at what is now Pacific Northwest National Laboratory's Joint Global Change Research Institute (JGCRI), and the Department of Energy's Office of Science still funds its development through the MultiSector Dynamics program. The question it was built to answer, in 1980, was narrow: the likely magnitude of mid-21st-century global fossil-fuel CO&#8322; emissions. Everything since &mdash; land, water, agriculture, a full macroeconomy &mdash; was added because answering that one question properly turned out to require modelling the systems that drive fuel choice, and those systems drive each other.</p>
+
+<h2>1. The model doesn't run one solve &mdash; it runs five, one period at a time</h2>
+
+<p>GCAM represents five distinct systems: the macro-economy, the energy system, agriculture and land use, water, and the physical Earth system (via the Hector climate emulator). Documentation describes them as operating as &ldquo;one integrated whole,&rdquo; which is true in outcome but slightly misleading about mechanism. What actually happens is a <strong>recursive dynamic</strong> solve: for each five-year period, the model finds the set of prices at which every one of dozens of markets &mdash; electricity, individual fuels, agricultural commodities, land, water, tradable carbon permits &mdash; clears simultaneously, given the technology costs and behaviour assumed for that period. Then it stops, banks the consequences (capital stock retirements and installations, resource depletion, land-use changes), and moves to the next five-year period with those consequences as fixed starting conditions.</p>
+
+<p>The agents inside GCAM have no foresight. A least-cost decision made in 2035 does not anticipate a carbon price GCAM itself will compute for 2050. This is a genuinely different structure from an intertemporal optimisation model that picks a path by looking at the whole century at once, and it is why GCAM's own documentation is careful to call this a market-equilibrium (some documentation says general-equilibrium) model rather than an optimiser.</p>
+
+<h2>2. The actual wire is a logit share-weight formula, not a magic coupling layer</h2>
+
+<p>Every technology that competes for a given service &mdash; a fuel for power generation, a mode for a passenger trip, a fuel for a cooking service &mdash; is allocated a market share by the same underlying formula: each competitor's share is weighted by its own calibration constant and driven down as its cost rises relative to the pack, controlled by a &ldquo;cost distribution parameter&rdquo; that sets how sharply price differences translate into share shifts. The India-specific build documents this explicitly for electricity, where nine fuel types &mdash; coal, gas, oil, nuclear, solar, wind, hydro, biomass, and combined heat and power &mdash; compete this way for every unit of generation demand.</p>
+
+<p>Two details in that formulation matter more than they look. First, even a technology with a clearly higher average cost keeps a small share rather than being zeroed out &mdash; deliberately, to reflect that local factors keep some higher-cost options alive in the real world. Second, the capital cost of an existing plant is treated as sunk once built: it doesn't re-enter the competition in later periods, so a coal plant built today is cheap to keep running for years after a policy shift makes a new coal plant uncompetitive. That single modelling choice is a large part of why GCAM-style models tend to show fossil capacity persisting for a while even in aggressive decarbonisation scenarios &mdash; it's not model inertia, it's sunk-cost economics, deliberately built in.</p>
+
+<h2>3. A concrete chain: how one region's energy choice reaches its own land and water</h2>
+
+<p>The clearest real cross-system link in GCAM's documentation runs through bioenergy. The energy system demands bioenergy as a feedstock from the agriculture and land system. The agriculture and land system, in turn, demands water from the water system to grow it. A single change in energy-sector technology costs or prices therefore does three things at once: it shifts bioenergy demand directly; it changes the price agriculture receives for competing crops, which reallocates land between food, fibre and energy feedstock; and it changes water withdrawal by however much that reallocated land needs. None of this is a separate "environmental module" bolted onto an energy model &mdash; the same price that clears the energy market is the number agriculture and land see when they decide what to grow where.</p>
+
+<h2>4. The macro-economy's actual math: a three-input production function called KLEM</h2>
+
+<p>GCAM's macroeconomic module (documented as GCAM-Macro, informally KLEM for Capital-Labor-Energy-Materials) builds GDP from a single &ldquo;Materials&rdquo; sector production function in each of the 32 regions &mdash; the paper's own phrase is that Materials is &ldquo;the retailer to the economy.&rdquo; It is implemented as a nested constant-elasticity-of-substitution function combining capital, labor and energy services:</p>
+
+<p style="text-align:center;font-style:italic">X<sub>M</sub> = a&middot;( (b&middot;X<sub>L,M</sub><sup>&eta;</sup> + X<sub>K,M</sub><sup>&eta;</sup>)<sup>&rho;/&eta;</sup> + c&middot;X<sub>E,M</sub><sup>&rho;</sup> )<sup>1/&rho;</sup></p>
+
+<p>where capital and labor nest together first, and that composite then combines with energy services under a separate substitution elasticity &mdash; a structure that lets capital substitute for labor more easily than either substitutes for energy, matching what most empirical production-function work finds. The link to the rest of the model runs two ways: net energy exports, calculated in the energy module, are added to Materials output to get full regional GDP; and the capital stock used by the Materials sector is tracked completely separately from the capital stock in the energy sector, so a boom in energy-sector investment doesn't mechanically inflate the capital available to the rest of the economy. Total factor productivity &mdash; the multiplier that makes the same inputs produce more output over time &mdash; is not something the model discovers; it is fed in as an externally assumed growth rate for each region.</p>
+
+<div class="warn"><b>Caveat.</b> That last point matters for reading any GCAM scenario output: GDP and population paths are scenario <em>inputs</em> the modeller chooses, not something the model derives independently. Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone &mdash; the socioeconomic table in Section 6 is what CEEW's India build assumed, not something GCAM calculated from first principles.</div>
+
+<h2>5. India isn't just "one of the 32 regions" &mdash; it's a structurally different model underneath</h2>
+
+<p>An India-specific build, GCAM-IIM, was set up at IIM Ahmedabad in 2007&ndash;09; the version CEEW now runs (GCAM-CEEW) is an update of it, with revised transport-sector assumptions. India is treated as its own region in the standard 32-region set, but the end-use sectors underneath it are rebuilt at a different level of detail than the globally-available core model:</p>
+
+<ul>
+<li><strong>Buildings</strong> are split into commercial, rural residential and urban residential sub-sectors, each with named competing technologies for cooking (biomass, coal, electricity, LPG, natural gas), lighting (incandescent, fluorescent, kerosene lamps, LEDs), water heating (electricity, LPG, solar) and separate efficiency tiers for air-conditioning, refrigeration and ceiling fans.</li>
+<li><strong>Transport</strong> is actually <em>simplified</em> relative to the globally-distributed core GCAM: where core GCAM represents four separate car types competing by logit, GCAM-CEEW represents one car type differentiated only by fuel; freight goes from five truck categories in core GCAM down to one representative category. Passenger demand (passenger-km travelled) is driven by per-capita GDP and population through a calibrated income/price-elasticity formula, and each mode's total cost bakes in fuel price, vehicle fuel intensity, non-fuel cost, load factor and the time value of travel &mdash; itself a function of the average wage rate and that mode's door-to-door speed.</li>
+<li><strong>Industry</strong> stays aggregate &mdash; a single representative sector covering the full range of industrial energy and feedstock use, rather than disaggregated by industry type. This is a real, acknowledged simplification, not an oversight; it is the trade-off CEEW's documentation explicitly notes in exchange for the detail added to buildings and transport.</li>
+</ul>
+
+<h2>6. What this machinery is actually used for: India's net-zero pathway</h2>
+
+<p>India committed to a 2070 net-zero target at COP26 in Glasgow in November 2021. CEEW's GCAM-India work &mdash; titled, in its own annexure, &ldquo;Implications of a net-zero target for India's sectoral energy transitions and climate policy&rdquo; &mdash; is a research exercise that runs that target through the machinery above to see what it implies sector by sector: how much electricity generation has to shift technology, how fast buildings and transport have to change fuel mix, and at what cost. It is CEEW's own modelling, not a government roadmap, but it uses the same India-specific model IIM Ahmedabad has run for India-focused published research since 2007.</p>
+
+<p>The socioeconomic assumptions that scenario runs against are themselves a real, disclosed part of the work:</p>
+
+<div class="tw">
+<table>
+<tr><th>Variable</th><th>2015</th><th>2030</th><th>2050</th><th>2075</th><th>2100</th></tr>
+<tr><td>GDP (billion 2015 USD)</td><td>2,118</td><td>5,375</td><td>17,143</td><td>37,028</td><td>51,820</td></tr>
+<tr><td>Population (million)</td><td>1,310</td><td>1,504</td><td>1,639</td><td>1,607</td><td>1,447</td></tr>
+<tr><td>Per-capita income (2015 USD)</td><td>1,617</td><td>3,574</td><td>10,458</td><td>23,038</td><td>35,811</td></tr>
+<tr><td>Urbanisation rate (%)</td><td>32.7</td><td>39.9</td><td>50.7</td><td>62.5</td><td>74.4</td></tr>
+</table>
+</div>
+
+<p>The population row is worth pausing on: India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015&ndash;50) to negative (&minus;0.25% CAGR, 2050&ndash;2100) in this scenario &mdash; a demographic assumption that shapes every downstream energy-service demand number in the model, and one worth checking against whatever the latest UN or Census projection says before treating any single-decade GCAM output as a forecast rather than a scenario.</p>
+
+<div class="note"><b>Context.</b> This is the same logit-competition, sunk-capital, recursive-dynamic machinery described in Sections 1&ndash;2, just run with India-specific technology costs, sector detail and CCS/hydrogen scenario variants layered on top &mdash; it is not a separate India model with different rules.</div>
+
+<h2>What this actually settles</h2>
+
+<p>The phrase "GCAM links energy, water, land and the economy" is accurate but does no useful work on its own &mdash; it describes an outcome, not a mechanism. The mechanism is specific and checkable: five systems, solved independently every five years with no foresight, connected only by the prices each one publishes and the next one reads, with a documented logit formula governing how technologies win or lose share as those prices move, and a macroeconomic module that treats GDP growth as an assumption fed in, not a result computed out. That is also exactly the kind of transparent, inspectable machinery a target like India's 2070 pledge needs behind it before anyone treats a sector-level number from a scenario run as more than what it is: one internally consistent story about how the assumptions given to the model play out.</p>
+
+<p class="src">Sources: Pacific Northwest National Laboratory / Joint Global Change Research Institute, GCAM overview (gcims.pnnl.gov); JGCRI, GCAM documentation overview and v4.2 documentation (jgcri.github.io/gcam-doc); Integrated Assessment Modeling Consortium, GCAM model documentation (iamcdocumentation.eu); Calvin, K. et al. (2019), "GCAM v5.1: representing the linkages between energy, water, land, climate, and economic systems," Geoscientific Model Development, 12, 677&ndash;698; JGCRI, "GCAM Macro-Economic Module (KLEM)" technical documentation (jgcri.github.io/gcam-doc/cmp/332); Council on Energy, Environment and Water, "Implications of a net-zero target for India's sectoral energy transitions and climate policy," annexure (ceew.in), documenting the GCAM-IIM/GCAM-CEEW India build originally set up at IIM Ahmedabad in 2007&ndash;09. India's 2070 net-zero commitment: announced at COP26, Glasgow, November 2021.</p>
+
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 13 August 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or &ldquo;hallucinate&rdquo; details even when working from real source material &mdash; readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
+
+</div>
