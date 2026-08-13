@@ -4895,3 +4895,16 @@ Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate st
 - `where-indias-forex-goes-country` — 44,978 → 44,971 bytes (-7)
 - `india-mineral-oil-hsn-ch27-trade` — 107,304 → 107,297 bytes (-7)
 - `ethanol-blending-omc-books-e20-today-vs` — 41,148 → 41,141 bytes (-7)
+
+## 2026-08-13T20:40:01+05:30 — 146 posts live
+
+Fixed real contradiction found by full-site audit: Nature Versus Nurture Section 8.5 Low-scenario row mislabeled 13.7 instead of 18.0 mmscmd, causing verdict text to cite wrong 71% instead of the table's own correct 94%
+
+
+**Versions**
+
+- `nature-versus-nurture-indias-fertiliser` **3.0.6 → 3.0.7** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `nature-versus-nurture-indias-fertiliser` — 77,920 → 77,920 bytes (+0)
