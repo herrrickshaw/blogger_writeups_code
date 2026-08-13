@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-08-13T09:54:40.365+05:30",
+  "updated": "2026-08-13T10:13:00.036+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 20295,
-  "sha256": "5423226cbff328c29ba446ed094a1d4b52c617cc5ab0ba7a4a0413a420f05d3c",
+  "bytes": 20426,
+  "sha256": "e1d17c0df7200c75c393938abb5a908de01d01aaabb628bdde7baf01ec1991c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        20295,
+        20426
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

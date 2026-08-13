@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-08-13T09:53:22.784+05:30",
+  "updated": "2026-08-13T10:11:40.777+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 25429,
-  "sha256": "2b750153c297ab030494140747d3199f45d0956974172ff62bfd702d720cff38",
+  "bytes": 25560,
+  "sha256": "44e107b3b51b1234c43805e413d69e0800f5c82bbdd9b337ae98a7b903019c6d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25429,
+        25560
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

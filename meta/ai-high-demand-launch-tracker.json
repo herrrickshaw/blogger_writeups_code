@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-13T09:48:55.595+05:30",
+  "updated": "2026-08-13T10:07:34.799+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 37574,
-  "sha256": "b621fb6a6a7a6815d3aef7b3baa3044f7f1abefe24fe89857b43a8426cc17532",
+  "bytes": 37705,
+  "sha256": "daa3ec3d7bc7564cf51503f3ac26e96bb9cd115969e102edd03d12c73652061d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.8",
+  "version": "3.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.9",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        37574,
+        37705
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

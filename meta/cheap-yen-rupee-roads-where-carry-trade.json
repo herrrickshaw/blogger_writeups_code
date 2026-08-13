@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
   "slug": "cheap-yen-rupee-roads-where-carry-trade",
   "published": "2026-08-08T19:13:15.000+05:30",
-  "updated": "2026-08-13T09:49:31.561+05:30",
+  "updated": "2026-08-13T10:07:57.722+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 24109,
-  "sha256": "6b2d02b039148a22d32ea361b8b977c8f13d1fb475b177cf9d1b22f3ff4ab97d",
+  "bytes": 24240,
+  "sha256": "079198aeefe6b3faf29ad24f772e67640de41e9335fbf9446280f55cea3c97af",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        24109,
+        24240
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

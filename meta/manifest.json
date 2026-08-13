@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T04:28:21+00:00",
+  "snapshot": "2026-08-13T10:16:59+05:30",
   "count": 143,
   "posts": {
     "1058853159205559121": {
@@ -8,13 +8,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-08-13T09:56:56.758+05:30",
+      "updated": "2026-08-13T10:15:16.141+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 29200,
-      "sha256": "443811b0831b1824fe7032edc4cda894356604c2dae285e8c741c8cd108b5bdc",
+      "bytes": 29331,
+      "sha256": "c3ac35f64112b39c8aad800ca4a8b4e015deb8e485ea69738339ae4469a8a2e4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26,7 +26,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -125,6 +125,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            29200,
+            29331
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -283,14 +296,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
       "slug": "from-cane-to-code-digital-layer",
       "published": "2026-08-08T21:20:54.000+05:30",
-      "updated": "2026-08-13T09:50:51.088+05:30",
+      "updated": "2026-08-13T10:09:17.227+05:30",
       "labels": [
         "AI Tools",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 23923,
-      "sha256": "ff30d53357b89a3c97b5de43d2a3105605b3c47de9b40fcb730cb3f03c8969b4",
+      "bytes": 24054,
+      "sha256": "d9f5fe7f4df6cc52361963d244adf68e17bd08e9f1ea4643b6b4893fe7546220",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -302,7 +315,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -362,6 +375,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23923,
+            24054
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -817,13 +843,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
       "slug": "uttar-pradeshs-gst-puzzle-growing",
       "published": "2026-08-12T19:19:19.000+05:30",
-      "updated": "2026-08-13T09:56:34.071+05:30",
+      "updated": "2026-08-13T10:14:53.966+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 25358,
-      "sha256": "d3e8480fb080f91df01cb19582d77133719ef5ef61254926f10cdd2692123a91",
+      "bytes": 25489,
+      "sha256": "8df7ca55ff350718e8ed616afec43601c7825b1085047241acc12860c11129c1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -835,7 +861,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -934,6 +960,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25358,
+            25489
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -943,12 +982,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html",
       "slug": "indias-two-tracks-of-health-cover-and",
       "published": "2026-08-12T10:54:13.000+05:30",
-      "updated": "2026-08-13T09:52:21.430+05:30",
+      "updated": "2026-08-13T10:10:44.975+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 22767,
-      "sha256": "bd3004aeb2da19ebd8082d5a54f89165f148229f13695f1aad0ac04258bf8b2f",
+      "bytes": 22898,
+      "sha256": "073685a8476f84483e3a47239f6612bae06e3bf38f381c58d42db5a14e6c8775",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -960,7 +999,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1033,6 +1072,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22767,
+            22898
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -1460,12 +1512,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-08-13T09:49:31.561+05:30",
+      "updated": "2026-08-13T10:07:57.722+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 24109,
-      "sha256": "6b2d02b039148a22d32ea361b8b977c8f13d1fb475b177cf9d1b22f3ff4ab97d",
+      "bytes": 24240,
+      "sha256": "079198aeefe6b3faf29ad24f772e67640de41e9335fbf9446280f55cea3c97af",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1477,7 +1529,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1563,6 +1615,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24109,
+            24240
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -1689,12 +1754,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-08-13T09:48:55.595+05:30",
+      "updated": "2026-08-13T10:07:34.799+05:30",
       "labels": [
         "AI Tracker"
       ],
-      "bytes": 37574,
-      "sha256": "b621fb6a6a7a6815d3aef7b3baa3044f7f1abefe24fe89857b43a8426cc17532",
+      "bytes": 37705,
+      "sha256": "daa3ec3d7bc7564cf51503f3ac26e96bb9cd115969e102edd03d12c73652061d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1706,7 +1771,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.8",
+      "version": "3.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1880,6 +1945,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.0.9",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37574,
+            37705
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -1889,12 +1967,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
       "slug": "the-rule-of-72-rule-of-114-and-how-to",
       "published": "2026-08-10T06:21:23.000+05:30",
-      "updated": "2026-08-13T09:55:47.409+05:30",
+      "updated": "2026-08-13T10:14:08.285+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 24177,
-      "sha256": "56611d1eabab8a2f481ea81f806b2f15580b6acb3de511997eafa650977602e9",
+      "bytes": 24308,
+      "sha256": "b2fb96e4729a73fbd72af1166a595b337456269115869252ca080d5841cda10a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1906,7 +1984,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1992,6 +2070,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24177,
+            24308
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -2098,12 +2189,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-13T09:55:36.358+05:30",
+      "updated": "2026-08-13T10:13:57.378+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 44904,
-      "sha256": "47068f413354d95d887d80511182090d68f9b80046bfce772d7808e70c96d449",
+      "bytes": 45038,
+      "sha256": "78a5a0d411ed90dc5b9df7ad27e2ee6b7aa159c13ba6f0599c6d002212f5c2b4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2115,7 +2206,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.1.4",
+      "version": "7.1.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2388,6 +2479,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "7.1.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44904,
+            45038
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -2645,14 +2749,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
       "slug": "upi-fees-are-now-legal-petrol-pumps",
       "published": "2026-08-08T16:24:01.000+05:30",
-      "updated": "2026-08-13T09:56:22.526+05:30",
+      "updated": "2026-08-13T10:14:42.633+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 36018,
-      "sha256": "86496e10036bd35632994a91b7c40b5f3f6c9a56e3cd02fc3d23de6898fed4e5",
+      "bytes": 36149,
+      "sha256": "5d9ec18f5641367a485730759d8f06e44546bea14a53a86b6b82c58e0ae93896",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2664,7 +2768,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "11.0.4",
+      "version": "11.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2854,6 +2958,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "11.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            36018,
+            36149
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -3855,12 +3972,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
       "slug": "cow-dung-already-flew-rocket-engine",
       "published": "2026-08-09T04:20:09.000+05:30",
-      "updated": "2026-08-13T09:50:07.026+05:30",
+      "updated": "2026-08-13T10:08:32.052+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 38089,
-      "sha256": "fce394194f8ec95cbd080d5d4c9b83f8caffa6e3ce31da6c32bb6b966761a359",
+      "bytes": 38220,
+      "sha256": "29b91420b6a7c287d1634703fc147c36beb32e61f48b2dfb0ef1179cbe9c66a1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3872,7 +3989,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.6",
+      "version": "4.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3997,6 +4114,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "4.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            38089,
+            38220
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -4006,13 +4136,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html",
       "slug": "the-case-for-biofuels-over-imports",
       "published": "2026-08-12T20:16:34.000+05:30",
-      "updated": "2026-08-13T09:55:01.653+05:30",
+      "updated": "2026-08-13T10:13:22.152+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 26100,
-      "sha256": "0dfa1d4f124120ba79873b72ff995437a277b83db827b2222c3baf18881e2c26",
+      "bytes": 26231,
+      "sha256": "d2035262f55135da095afa9da781d2240db9f3587d0ee2953ab6c7fcfa1bf270",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4024,7 +4154,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4097,6 +4227,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26100,
+            26231
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -4472,13 +4615,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html",
       "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
       "published": "2026-08-12T20:02:46.000+05:30",
-      "updated": "2026-08-13T09:53:44.033+05:30",
+      "updated": "2026-08-13T10:12:03.627+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 28424,
-      "sha256": "4110b9ebaa7c2c537318bb2eecc81d87aaa62cba0ce929641762bb050b5ca983",
+      "bytes": 28555,
+      "sha256": "b0bf7ce40f24533a53abd245afc37237a47a328288cb69afd2bc569f1428f165",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4490,7 +4633,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4576,6 +4719,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28424,
+            28555
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -5252,12 +5408,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.000+05:30",
-      "updated": "2026-08-13T09:52:44.311+05:30",
+      "updated": "2026-08-13T10:11:07.757+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 39389,
-      "sha256": "78b28ef5a2404b4db09d16a680f3931d33bc7c45f7f17299b9d265ed00f1b92d",
+      "bytes": 39520,
+      "sha256": "6e1fbd0d5e68edef5b85b53fe3c53ca81a7aceb9c87545302e6da0d9202df7dc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5269,7 +5425,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.8",
+      "version": "6.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5459,6 +5615,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "6.0.9",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            39389,
+            39520
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -5599,12 +5768,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
       "slug": "indias-food-processing-story-pli-scheme",
       "published": "2026-08-08T21:33:25.000+05:30",
-      "updated": "2026-08-13T09:51:58.577+05:30",
+      "updated": "2026-08-13T10:10:23.129+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 22973,
-      "sha256": "eba800f8778b729036a42b505f7254914fb842cd3b2f4fdba9212a54e3fee827",
+      "bytes": 23104,
+      "sha256": "afda85fa93499e8ebf3c8ce310031529c07ebbb77db7bd0fa0003d6730fadc7e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5616,7 +5785,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5689,6 +5858,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22973,
+            23104
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -5698,13 +5880,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html",
       "slug": "tamil-nadus-gst-gap-108-economy-growing",
       "published": "2026-08-12T19:27:46.000+05:30",
-      "updated": "2026-08-13T09:54:17.805+05:30",
+      "updated": "2026-08-13T10:12:38.644+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 23212,
-      "sha256": "53e32a23f2ef1b037b08cb86a1cfecaccc6b97b0375aa594b03e25e8e29e0d94",
+      "bytes": 23343,
+      "sha256": "939a617ade1d7e422d4fbebe428ef6a843c3e4f66097e716e18b911b27fdf771",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5716,7 +5898,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5802,6 +5984,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23212,
+            23343
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -5928,13 +6123,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
       "slug": "the-barrel-really-is-shifting-indias",
       "published": "2026-08-12T20:24:23.000+05:30",
-      "updated": "2026-08-13T09:54:50.601+05:30",
+      "updated": "2026-08-13T10:13:10.552+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 30222,
-      "sha256": "5a07493b0a24b87d78ca152be6d2d1f2d4860548fffcf79393f9e267dbbe8bed",
+      "bytes": 30353,
+      "sha256": "cfa4fd83bc1440a15b5bbe3788fa0ba396526835e8090ec53174a20d3b210ef5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5946,7 +6141,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6045,6 +6240,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            30222,
+            30353
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -6437,12 +6645,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
       "slug": "ahidf-has-sanctioned-19751-crore-in",
       "published": "2026-08-10T08:41:50.000+05:30",
-      "updated": "2026-08-13T09:48:43.671+05:30",
+      "updated": "2026-08-13T10:07:22.069+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 21604,
-      "sha256": "5c1a53952995f14467539180605bd35f302a10fcbf8f64bf5c5d4b5dd3039ec7",
+      "bytes": 21735,
+      "sha256": "1875564f091a1614844cf96d6df44bfa7c0973b5d802bd3630a83372d5e74881",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6454,7 +6662,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6566,6 +6774,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21604,
+            21735
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -6833,13 +7054,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
       "slug": "indias-trade-story-has-three-big-wins",
       "published": "2026-08-08T21:53:13.000+05:30",
-      "updated": "2026-08-13T09:52:09.984+05:30",
+      "updated": "2026-08-13T10:10:32.904+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 20186,
-      "sha256": "26dcb0d6e748a5b91ed7b35d125d0fbed6d844cca54e6674e9808ad2930e628d",
+      "bytes": 20317,
+      "sha256": "6a6f8163cb38e6a69dd3f1593efb5727fba076497cb10c21807414308c0ec03d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6851,7 +7072,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6911,6 +7132,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            20186,
+            20317
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -7177,12 +7411,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
       "slug": "diesel-doesnt-move-cpi-it-moves-40",
       "published": "2026-08-06T12:38:39.000+05:30",
-      "updated": "2026-08-13T09:50:17.307+05:30",
+      "updated": "2026-08-13T10:08:42.738+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 34896,
-      "sha256": "c6a85855ba1a1dc5cc293db7c6a2fead082e03d1960080bbe4b15881a2b7acc1",
+      "bytes": 35027,
+      "sha256": "d08f3e4ede634313fc42f0fd599d8691e01c9922c0b144a71814de5f00f34759",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7194,7 +7428,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.8",
+      "version": "5.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7358,6 +7592,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "5.0.9",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34896,
+            35027
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -7367,12 +7614,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
       "slug": "reinvesting-capital-gains-in-higher",
       "published": "2026-08-07T13:46:48.000+05:30",
-      "updated": "2026-08-13T09:53:54.787+05:30",
+      "updated": "2026-08-13T10:12:14.891+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 29111,
-      "sha256": "53b211aec756ffa3a66e82cd0eca471579c06db87ad016e509122c9d748b09e7",
+      "bytes": 29242,
+      "sha256": "ef4c82b6a71f5367c725cff1bd7b66b46a030dc37dc694b128e8a95e3ff3862a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7384,7 +7631,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7483,6 +7730,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            29111,
+            29242
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -7492,13 +7752,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
       "slug": "would-more-sgst-fix-donor-state-problem",
       "published": "2026-08-12T19:54:17.000+05:30",
-      "updated": "2026-08-13T09:57:08.104+05:30",
+      "updated": "2026-08-13T10:15:27.492+05:30",
       "labels": [
         "Energy & Fuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 23465,
-      "sha256": "013075de59286a9960ae6d070fd272f5bbcd1bf0aadc9d3b1ff2dc2e4cf9e44d",
+      "bytes": 23596,
+      "sha256": "523c01fb289f341c04f36f6800fb45f81f92f9f8bf2addcc6ebd224a15322613",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7510,7 +7770,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7583,6 +7843,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23465,
+            23596
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -7819,12 +8092,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
       "slug": "the-503020-rule-is-elizabeth-warrens",
       "published": "2026-08-10T06:47:21.000+05:30",
-      "updated": "2026-08-13T09:54:40.365+05:30",
+      "updated": "2026-08-13T10:13:00.036+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 20295,
-      "sha256": "5423226cbff328c29ba446ed094a1d4b52c617cc5ab0ba7a4a0413a420f05d3c",
+      "bytes": 20426,
+      "sha256": "e1d17c0df7200c75c393938abb5a908de01d01aaabb628bdde7baf01ec1991c7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7836,7 +8109,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7922,6 +8195,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            20295,
+            20426
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -7931,12 +8217,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
       "slug": "mrs-watanabe-traded-from-kitchen-table",
       "published": "2026-08-11T21:32:38.000+05:30",
-      "updated": "2026-08-13T09:53:22.784+05:30",
+      "updated": "2026-08-13T10:11:40.777+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 25429,
-      "sha256": "2b750153c297ab030494140747d3199f45d0956974172ff62bfd702d720cff38",
+      "bytes": 25560,
+      "sha256": "44e107b3b51b1234c43805e413d69e0800f5c82bbdd9b337ae98a7b903019c6d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7948,7 +8234,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8034,6 +8320,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25429,
+            25560
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -8138,13 +8437,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
       "slug": "thermal-parity-is-dead-what-85-oil-and",
       "published": "2026-08-08T21:04:59.000+05:30",
-      "updated": "2026-08-13T09:55:58.758+05:30",
+      "updated": "2026-08-13T10:14:19.485+05:30",
       "labels": [
         "Energy & Fuels",
         "Markets & Finance"
       ],
-      "bytes": 28782,
-      "sha256": "38daab3967fb1e12341b0d8a1015565cf013cf881870a66ab1fe30996a0cf357",
+      "bytes": 28913,
+      "sha256": "94a40748245d1670ae030274a34050eb6a4f14489e31ae0d4872f10b5feef4eb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8156,7 +8455,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.5",
+      "version": "3.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8255,6 +8554,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28782,
+            28913
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -8559,14 +8871,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
       "slug": "city-gas-just-became-indias-largest-gas",
       "published": "2026-08-08T16:38:51.000+05:30",
-      "updated": "2026-08-13T09:49:43.027+05:30",
+      "updated": "2026-08-13T10:08:08.925+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 23677,
-      "sha256": "2ac1d6a1f2ec0c9187849cf431f2dae54288dd2b80ede623b8d2c1e3662f5845",
+      "bytes": 23808,
+      "sha256": "612fd9bc013772a60adaf2845bb991826c8d3477f056b943a23e6c97601c7b6e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8578,7 +8890,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8677,6 +8989,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23677,
+            23808
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -8931,13 +9256,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
       "slug": "from-barrel-to-bottle-petrochemical",
       "published": "2026-08-13T08:48:38.000+05:30",
-      "updated": "2026-08-13T09:50:40.193+05:30",
+      "updated": "2026-08-13T10:09:05.927+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 28540,
-      "sha256": "5806d3213546bd3214f39f85d7f588df75825dcde1338e9c36eb8d11a3563d24",
+      "bytes": 28671,
+      "sha256": "8f2e5c0069ced716cb64bfb104fb9b963fcc8935c5a2bfc1f0f04cc5be8fc5de",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8949,7 +9274,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8996,6 +9321,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28540,
+            28671
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -9288,12 +9626,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
       "slug": "thali-investing-whats-actually-on-plate",
       "published": "2026-08-10T06:32:54.000+05:30",
-      "updated": "2026-08-13T09:54:29.083+05:30",
+      "updated": "2026-08-13T10:12:48.539+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 28807,
-      "sha256": "43201edb5fef45f6a407fb2b0e7898bceda9fe9553d754dff77725f400ca3125",
+      "bytes": 28938,
+      "sha256": "3d14523ebd4180d552c4f3aed98d0f11eccbd2b680a2f5977f2cfada31dab8c6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9305,7 +9643,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9404,6 +9742,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28807,
+            28938
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -9413,14 +9764,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
       "slug": "indias-fertiliser-import-bill-hits-18",
       "published": "2026-08-08T21:49:47.000+05:30",
-      "updated": "2026-08-13T09:51:47.110+05:30",
+      "updated": "2026-08-13T10:10:11.832+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 24133,
-      "sha256": "3936f961105be082477f2779083c5bef25532f35acccf828e031c83df4b24a6f",
+      "bytes": 24264,
+      "sha256": "c99633db372b32d32d54e2ff10432f1a4f019bc3b89c6e53a3afa93894482793",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9432,7 +9783,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9505,6 +9856,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24133,
+            24264
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -9514,13 +9878,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
       "slug": "beyond-pump-what-upi-fee-would-cost",
       "published": "2026-08-08T20:01:53.000+05:30",
-      "updated": "2026-08-13T09:49:20.133+05:30",
+      "updated": "2026-08-13T10:07:47.191+05:30",
       "labels": [
         "Energy & Fuels",
         "Textiles"
       ],
-      "bytes": 35080,
-      "sha256": "4a49114c4f10b9ee7070215c12a51271213d16abdcab8ed658e0c4267e55e461",
+      "bytes": 35211,
+      "sha256": "a9d68528cf6ac867dc27fbc3c139651f3c0b3e8009c72ca7fb70dbd1ae409a7a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9532,7 +9896,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.7",
+      "version": "3.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9657,6 +10021,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.0.8",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            35080,
+            35211
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -9666,13 +10043,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-08-13T09:51:02.263+05:30",
+      "updated": "2026-08-13T10:09:28.657+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 28683,
-      "sha256": "79d4336190c6dcc2aa5450786db2bee90149bdb31bfa8370203a1d22f68ae3ed",
+      "bytes": 28814,
+      "sha256": "6747084d01892e448435d9ff03b220c183d6b43deff0d2a77c7d7ffe98cd0473",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9684,7 +10061,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9783,6 +10160,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28683,
+            28814
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -10550,12 +10940,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
       "slug": "india-has-tax-treaties-with-97",
       "published": "2026-08-09T10:54:39.000+05:30",
-      "updated": "2026-08-13T09:51:13.698+05:30",
+      "updated": "2026-08-13T10:09:40.120+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 24533,
-      "sha256": "50a0d1a961fdcd8425723d511a05891b2197f76da1abbd7f6646f3a017ae5b9e",
+      "bytes": 24664,
+      "sha256": "8e4ffccfcdcfc75ca457e259ace95b55860e8c2e346f08ba70bf6f061ff85239",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10567,7 +10957,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10627,6 +11017,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24533,
+            24664
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -10861,12 +11264,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.000+05:30",
-      "updated": "2026-08-13T09:52:55.925+05:30",
+      "updated": "2026-08-13T10:11:18.494+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 52030,
-      "sha256": "fea6d6c252162b46a02a5e116cb02424a0e1541d576b80bed7cf7ded5f4594f4",
+      "bytes": 52161,
+      "sha256": "dce5f01c44fad318bdd93b2bfe46dee3703d8da36c0147b4562ac9142f0f1e0e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10878,7 +11281,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.9",
+      "version": "2.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11016,6 +11419,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.10",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            52030,
+            52161
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -11025,13 +11441,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
       "slug": "indias-used-oil-epr-wants-half-of-all",
       "published": "2026-08-10T11:46:04.000+05:30",
-      "updated": "2026-08-13T09:52:32.305+05:30",
+      "updated": "2026-08-13T10:10:56.134+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 26473,
-      "sha256": "16800998a17fb0007f33a7a26038da42477f9d31a47b6277344f0c62c78c3277",
+      "bytes": 26604,
+      "sha256": "090a0c271aa8b2dcbb1026c439956a45a4ae9da38507aeabdfa0bbf9134a2e68",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11043,7 +11459,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11129,6 +11545,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26473,
+            26604
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -11651,13 +12080,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
       "slug": "one-refinery-flipped-nigeria-from",
       "published": "2026-08-09T03:00:24.000+05:30",
-      "updated": "2026-08-13T09:53:32.643+05:30",
+      "updated": "2026-08-13T10:11:52.116+05:30",
       "labels": [
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 31284,
-      "sha256": "039b308ec773c69c83c85fc7817c67c89a43a3fa390bcaa063a582b5e29f6d2a",
+      "bytes": 31415,
+      "sha256": "3afe06b37c5c8d55cb0088b68df7550ffb7bcd28a033f206845f0a3519b364ad",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11669,7 +12098,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11742,6 +12171,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            31284,
+            31415
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -12433,12 +12875,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
       "slug": "abha-what-indias-14-digit-health-id",
       "published": "2026-08-12T04:31:28.000+05:30",
-      "updated": "2026-08-13T09:48:32.992+05:30",
+      "updated": "2026-08-13T10:07:09.214+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 23057,
-      "sha256": "99be9c7b73d659b093e4e94850de8588fa0ae40feaf273648568de7282d965ff",
+      "bytes": 23188,
+      "sha256": "dcfe3db0a30457a459084252c487cc1c5e62e7c9d197c2181a2b7c0cc9fbab18",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12450,7 +12892,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12536,6 +12978,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23057,
+            23188
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -12816,13 +13271,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
       "slug": "the-fcc-lever-trading-petrol-yield-for",
       "published": "2026-08-13T04:07:57.000+05:30",
-      "updated": "2026-08-13T09:55:13.050+05:30",
+      "updated": "2026-08-13T10:13:34.376+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34371,
-      "sha256": "3aab2224df8db94083d96ee47d33e81d3156ab378e7476522b0eed14a469bd35",
+      "bytes": 34502,
+      "sha256": "b3535ab8e0365045d465d45e7cc8cfef41df053b281e075ff120065874dd6f0c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12834,7 +13289,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.1",
+      "version": "1.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12894,6 +13349,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.1.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34371,
+            34502
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -13643,14 +14111,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
       "slug": "lpgs-missing-number-7308-commission-and",
       "published": "2026-08-08T20:55:54.000+05:30",
-      "updated": "2026-08-13T09:53:08.646+05:30",
+      "updated": "2026-08-13T10:11:28.725+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 24873,
-      "sha256": "2c00d6e131abeab5e0995dc5034baad305e543b9e8e9eee12c4a24b6e00c6f71",
+      "bytes": 25004,
+      "sha256": "4445a6ef50351e94969ce68a7fa66791e13c334db1eb8b30d8ae9f9aa4d2a564",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13662,7 +14130,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13735,6 +14203,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24873,
+            25004
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -14189,14 +14670,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
       "slug": "india-sells-world-53-billion-of-fuel",
       "published": "2026-08-08T12:26:53.000+05:30",
-      "updated": "2026-08-13T09:51:24.298+05:30",
+      "updated": "2026-08-13T10:09:50.599+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 29624,
-      "sha256": "787ead8eef4e4e5aadd52f573be20cbb033486b551e34186e0a1b468bff35964",
+      "bytes": 29755,
+      "sha256": "dd3e924d2efeccc1d4a0fa517b43de5ae151cc7efc7aee263b93e0f96072b4b5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14208,7 +14689,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14281,6 +14762,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            29624,
+            29755
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -14403,14 +14897,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
       "slug": "where-india-actually-burns-its-fuel",
       "published": "2026-08-08T16:55:16.000+05:30",
-      "updated": "2026-08-13T09:56:45.531+05:30",
+      "updated": "2026-08-13T10:15:04.758+05:30",
       "labels": [
         "Energy & Fuels",
         "Mobility & EV",
         "Prices & Inflation"
       ],
-      "bytes": 21399,
-      "sha256": "5f6889924875a16c0bf278c839dbf974be25edcf159e1d421b3012cd432b6a92",
+      "bytes": 21530,
+      "sha256": "b553226639ff26e94dd59f8e67296c5aaf9c6757119f19ebe8dcd5afe5efd24e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14422,7 +14916,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14482,6 +14976,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21399,
+            21530
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -14886,13 +15393,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
       "slug": "the-margin-case-why-lpg-and",
       "published": "2026-08-13T08:58:40.000+05:30",
-      "updated": "2026-08-13T09:55:24.523+05:30",
+      "updated": "2026-08-13T10:13:45.442+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 34874,
-      "sha256": "3f92dcdaccb7cb37dfa3195430236b441bf38993c4e2f8e7ded5c8928887bbaa",
+      "bytes": 35005,
+      "sha256": "9ed53086add8f58ae63d80bdf964948673860fb1095af2759367010c91e6349a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14904,7 +15411,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.1",
+      "version": "1.2.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14951,6 +15458,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.2",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34874,
+            35005
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -15346,12 +15866,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
       "slug": "up-has-indias-biggest-herd-punjab-has",
       "published": "2026-08-09T09:57:06.000+05:30",
-      "updated": "2026-08-13T09:56:11.131+05:30",
+      "updated": "2026-08-13T10:14:31.128+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 25113,
-      "sha256": "efb1828300218e06b0d793b4efbd06817ff4187bf9b4e2ee26bcd282aa4144bf",
+      "bytes": 25244,
+      "sha256": "e596480fd84a6d553f6161e8a734235f6def5398148df465db948bc641791487",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15363,7 +15883,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15436,6 +15956,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25113,
+            25244
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -15818,13 +16351,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
       "slug": "cocoas-blockchain-reckoning-one",
       "published": "2026-08-08T21:27:49.000+05:30",
-      "updated": "2026-08-13T09:49:55.637+05:30",
+      "updated": "2026-08-13T10:08:20.114+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 22602,
-      "sha256": "754161bd09983a50bf4fd682f36d58a1c94afdc8cda8ff036f8dc5c2ede53bc4",
+      "bytes": 22733,
+      "sha256": "897711948eee7e36141035e6a5e714653eaa5b745d6116e1997fe170c89b4a00",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15836,7 +16369,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15935,6 +16468,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22602,
+            22733
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -15944,13 +16490,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
       "slug": "indias-epr-regime-just-got-teeth-and",
       "published": "2026-08-08T21:56:27.000+05:30",
-      "updated": "2026-08-13T09:51:35.646+05:30",
+      "updated": "2026-08-13T10:10:02.085+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 21241,
-      "sha256": "07ae603a596fa07815007cd3cd285c842808a6e52e0594405c7eef021a3a3c85",
+      "bytes": 21372,
+      "sha256": "048f802d00717021eeb05e02c4d594312bbe20d843743f472a2de589157e3dd2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15962,7 +16508,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16035,6 +16581,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21241,
+            21372
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -16458,13 +17017,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
       "slug": "south-africa-lost-its-gulf-fuel-supply",
       "published": "2026-08-08T12:55:40.000+05:30",
-      "updated": "2026-08-13T09:54:06.225+05:30",
+      "updated": "2026-08-13T10:12:27.145+05:30",
       "labels": [
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 26091,
-      "sha256": "eeb980aefb89ea486754ed2e760d976ac7e71ac9159c8c24091d82caf18e6fe2",
+      "bytes": 26222,
+      "sha256": "35a340218781c0f09af9671ad690f1827b091cfa990d920a5e25558cf335be0c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16476,7 +17035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16562,6 +17121,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26091,
+            26222
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },
@@ -17385,14 +17957,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
       "slug": "europe-bought-record-amount-of-lng-and",
       "published": "2026-08-08T10:31:50.000+05:30",
-      "updated": "2026-08-13T09:50:28.658+05:30",
+      "updated": "2026-08-13T10:08:54.292+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 39877,
-      "sha256": "a73b617ea6a9ee555ed5a53485f3de846c932be1a5343bc4cf348e2fd1d68aa6",
+      "bytes": 40008,
+      "sha256": "f5158a994f4373bca89b5aa51b0514336c44b86ca614a5c24151be0e9e976fd3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17404,7 +17976,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.4",
+      "version": "5.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17529,6 +18101,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "5.0.5",
+          "date": "2026-08-13T10:16:59+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            39877,
+            40008
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
         }
       ]
     },

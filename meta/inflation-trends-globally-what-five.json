@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-08-13T09:52:55.925+05:30",
+  "updated": "2026-08-13T10:11:18.494+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 52030,
-  "sha256": "fea6d6c252162b46a02a5e116cb02424a0e1541d576b80bed7cf7ded5f4594f4",
+  "bytes": 52161,
+  "sha256": "dce5f01c44fad318bdd93b2bfe46dee3703d8da36c0147b4562ac9142f0f1e0e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.9",
+  "version": "2.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.10",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        52030,
+        52161
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

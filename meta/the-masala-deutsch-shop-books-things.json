@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-08-13T09:55:36.358+05:30",
+  "updated": "2026-08-13T10:13:57.378+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 44904,
-  "sha256": "47068f413354d95d887d80511182090d68f9b80046bfce772d7808e70c96d449",
+  "bytes": 45038,
+  "sha256": "78a5a0d411ed90dc5b9df7ad27e2ee6b7aa159c13ba6f0599c6d002212f5c2b4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.1.4",
+  "version": "7.1.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -294,6 +294,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "7.1.5",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        44904,
+        45038
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

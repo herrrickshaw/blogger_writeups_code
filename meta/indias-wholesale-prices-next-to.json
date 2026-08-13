@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.000+05:30",
-  "updated": "2026-08-13T09:52:44.311+05:30",
+  "updated": "2026-08-13T10:11:07.757+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 39389,
-  "sha256": "78b28ef5a2404b4db09d16a680f3931d33bc7c45f7f17299b9d265ed00f1b92d",
+  "bytes": 39520,
+  "sha256": "6e1fbd0d5e68edef5b85b53fe3c53ca81a7aceb9c87545302e6da0d9202df7dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.8",
+  "version": "6.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "6.0.9",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        39389,
+        39520
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }

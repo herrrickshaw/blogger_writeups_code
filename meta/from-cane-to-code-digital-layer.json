@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-08-13T09:50:51.088+05:30",
+  "updated": "2026-08-13T10:09:17.227+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 23923,
-  "sha256": "ff30d53357b89a3c97b5de43d2a3105605b3c47de9b40fcb730cb3f03c8969b4",
+  "bytes": 24054,
+  "sha256": "d9f5fe7f4df6cc52361963d244adf68e17bd08e9f1ea4643b6b4893fe7546220",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T10:16:59+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23923,
+        24054
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
     }
   ]
 }
