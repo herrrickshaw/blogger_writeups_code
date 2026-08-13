@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-13T04:40:33.821+05:30",
+  "updated": "2026-08-13T09:22:48.047+05:30",
   "labels": [],
-  "bytes": 176893,
-  "sha256": "f4cb8f1616998d23f501dc76eb703d4228a805cc496548af520bdd258903dc36",
+  "bytes": 177578,
+  "sha256": "7a72e653d0576041851b2e314923853f9c5d787cec1d3ee312514cccb5268f45",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "24.1.11",
+  "version": "24.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -647,6 +647,19 @@
       "bytes": [
         175974,
         176893
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "24.2.0",
+      "date": "2026-08-13T09:23:12+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        176893,
+        177578
       ],
       "url_changed": null,
       "markers_changed": null,

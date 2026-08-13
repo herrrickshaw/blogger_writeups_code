@@ -4444,3 +4444,15 @@ scheduled sync
 - `indias-two-tracks-of-health-cover-and` — 22,646 → 22,765 bytes (+119)
 - `abha-what-indias-14-digit-health-id` — 22,936 → 23,055 bytes (+119)
 - `mrs-watanabe-traded-from-kitchen-table` — 25,308 → 25,427 bytes (+119)
+
+## 2026-08-13T09:23:12+05:30 — 143 posts live
+
+**Versions**
+
+- `the-margin-case-why-lpg-and` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `article-index-start-here` **24.1.11 → 24.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-margin-case-why-lpg-and` — 24,744 → 30,278 bytes (+5,534)
+- `article-index-start-here` — 176,893 → 177,578 bytes (+685)

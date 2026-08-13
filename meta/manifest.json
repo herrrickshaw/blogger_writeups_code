@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T09:12:45+05:30",
+  "snapshot": "2026-08-13T09:23:12+05:30",
   "count": 143,
   "posts": {
     "1058853159205559121": {
@@ -11309,10 +11309,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-13T04:40:33.821+05:30",
+      "updated": "2026-08-13T09:22:48.047+05:30",
       "labels": [],
-      "bytes": 176893,
-      "sha256": "f4cb8f1616998d23f501dc76eb703d4228a805cc496548af520bdd258903dc36",
+      "bytes": 177578,
+      "sha256": "7a72e653d0576041851b2e314923853f9c5d787cec1d3ee312514cccb5268f45",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11324,7 +11324,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.1.11",
+      "version": "24.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11952,6 +11952,19 @@
           "bytes": [
             175974,
             176893
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "24.2.0",
+          "date": "2026-08-13T09:23:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            176893,
+            177578
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -14353,13 +14366,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
       "slug": "the-margin-case-why-lpg-and",
       "published": "2026-08-13T08:58:40.000+05:30",
-      "updated": "2026-08-13T09:12:20.919+05:30",
+      "updated": "2026-08-13T09:22:39.025+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 24744,
-      "sha256": "0d930fc3f8a9f1ce56d874251aedae6963166984e52027d9f1246c53ad903b15",
+      "bytes": 30278,
+      "sha256": "a3b363e43baf3308946ff2097fb2abf83d58d40a64e6bced0ad508d57a6abdb2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14371,13 +14384,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-13T09:12:45+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-08-13T09:23:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24744,
+            30278
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

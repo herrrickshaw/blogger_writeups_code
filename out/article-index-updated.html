@@ -48,7 +48,90 @@
 .post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
 .post-body tbody tr:nth-child(even) td{background:#fafafa}
 </style>
-<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
 <div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 
@@ -418,17 +501,21 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html">Where India’s Factories Actually Get Built — IEM State &amp; Sector Analysis</a></li>
 </ul></div>
-<div class="geoblock"><p class="geoh">Uttar Pradesh <span>10</span></p><ul>
+<div class="geoblock"><p class="geoh">Uttar Pradesh <span>14</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India&#x27;s Arid Land</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html">Fuel and the Bottle: The Two Taxes States Never Handed to GST</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html">UP Has India&#x27;s Biggest Herd. Punjab Has India&#x27;s Best Yield. The Census Behind Both Numbers Is Six Years Old.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html">Uttar Pradesh&#x27;s GST Puzzle</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html">Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html">Who Collects India&#x27;s GST, and Who Actually Gets It Back</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem?</a></li>
 </ul></div>
 <div class="geoblock"><p class="geoh">Karnataka <span>9</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
@@ -487,14 +574,18 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html">UP Has India&#x27;s Biggest Herd. Punjab Has India&#x27;s Best Yield. The Census Behind Both Numbers Is Six Years Old.</a></li>
 </ul></div>
-<div class="geoblock"><p class="geoh">Tamil Nadu <span>7</span></p><ul>
+<div class="geoblock"><p class="geoh">Tamil Nadu <span>11</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html">Fuel and the Bottle: The Two Taxes States Never Handed to GST</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html">India&#x27;s State Incentive War: Gujarat&#x27;s Execution Edge, Karnataka&#x27;s FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html">Tamil Nadu&#x27;s GST Gap</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html">The Barrel Really Is Shifting: India&#x27;s Refiners Quantify the Petrochemical Pivot</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html">Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem?</a></li>
 </ul></div>
 <div class="geoblock"><p class="geoh">Haryana <span>5</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
@@ -510,12 +601,14 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html">Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html">Where India&#x27;s Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline</a></li>
 </ul></div>
-<div class="geoblock"><p class="geoh">Telangana <span>5</span></p><ul>
+<div class="geoblock"><p class="geoh">Telangana <span>7</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html">A Tax Play: Grow Ethanol SGST Revenue, Cut CNG VAT to Match Low-Tax States</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html">Fuel and the Bottle: The Two Taxes States Never Handed to GST</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html">State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html">Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem?</a></li>
 </ul></div>
 <div class="geoblock"><p class="geoh">Goa <span>4</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html">IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)</a></li>
