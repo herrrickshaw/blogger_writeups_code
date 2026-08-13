@@ -4850,3 +4850,12 @@ New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertempor
 **Changed**
 
 - `price-is-wire-how-gcam-actually-links` — 34,678 → 39,015 bytes (+4,337)
+
+## 2026-08-13T11:44:03+05:30 — 146 posts live
+
+New post: RIN/RED/CBIO comparison with India ethanol-credit hybrid proposal, Article 6.2 eligibility gap, and CBAM Article 9 carbon-price recognition gap
+
+
+**Added**
+
+- `rin-red-and-cbio-what-indias-ethanol` **v1.0.0** — RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines (31,799 bytes)
