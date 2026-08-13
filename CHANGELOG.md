@@ -4456,3 +4456,13 @@ scheduled sync
 
 - `the-margin-case-why-lpg-and` — 24,744 → 30,278 bytes (+5,534)
 - `article-index-start-here` — 176,893 → 177,578 bytes (+685)
+
+## 2026-08-13T09:28:11+05:30 — 143 posts live
+
+**Versions**
+
+- `the-margin-case-why-lpg-and` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-margin-case-why-lpg-and` — 30,278 → 34,873 bytes (+4,595)

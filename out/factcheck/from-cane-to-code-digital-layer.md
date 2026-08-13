@@ -9,26 +9,34 @@ Source: `posts/from-cane-to-code-digital-layer.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "Ethanol Supply Year runs roughly December–November" — In India, the Ethanol Supply Year (ESY) officially runs from 1 November to 31 October. The Ministry of Petroleum and Natural Gas revised the ESY schedule from December–November to November–October starting from ESY 2023-24. [confidence: high]
+- "seen Maruti Suzuki launch India's first flex-fuel car (June 2026)" — Maruti Suzuki did not launch India's first flex-fuel car. Toyota launched India's first flex-fuel vehicle (the electrified flex-fuel Innova HyCross) in August 2023. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Government figures put the cumulative impact of the programme, from ESY2014-15 to January 2026, at roughly 283 lakh tonnes of crude oil displaced, ₹1.67 lakh crore in foreign exchange saved, ₹1.47 lakh crore paid to farmers through the ethanol value chain, and 851 lakh tonnes of CO₂ avoided . Those numbers, reported to the Rajya Sabha in March 2026, are the scale this article's digital layer now has to operate at." — The author equates cumulative multi-year macroeconomic and environmental outputs (12 years of aggregate forex savings, crude substitution, and emissions reduction) with the technical operational scale required of a digital tracking layer. The system scale of a software or traceability infrastructure depends on live data throughput, active supply chain nodes, concurrent batch updates, and daily transaction volume, not the cumulative historical economic savings of the entire national program. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99593, Requested 2791. Please try again in 34m19.775999999s. Need more tokens? Upgrade to Dev Tier today a]
+FACTUAL ERRORS:
+- "The Ethanol Blended Petrol programme launched in 2003, mandating a 5% blend in selected states." — The article does not provide a source to verify this specific launch date and mandate, but it does not necessarily mean it is incorrect. However, without further information, the confidence in this claim being incorrect is low. [confidence: low]
+- None of the other claims appear to be factually incorrect based on the information provided in the article.
+
+INTERPRETATION ERRORS:
+- "A 0.5-point recovery gain on a 5,000-tonnes-crushed-per-day mill is, on the interview's own framing, worth “several crores in a season”" — This claim may be an example of extrapolation beyond what the data shows, as it is based on vendor-reported figures and not independently audited outcomes. The article itself notes that these numbers should be read as directional, not audited. [confidence: medium]
+- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — This claim may be an example of double-counting or an apples-to-oranges comparison, as it is not clear how this improvement is measured or compared to other factors that may influence farm yield. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible because the article references events and sources dated June 2026 and March 2026, and the Rajya Sabha question is dated 9 March 2026. A publication date cannot precede the events it reports. [confidence: high]
+- "Published 8 August 2026 · v1.0.0 · KPMG–ChiniMandi, “Beyond E20” (June 2026)" — The publication date of the article (8 August 2026) contradicts the cited report's date (June 2026), which is impossible unless the report was published in June and the article was published later. The article claims the report is from June 2026, but the publication date suggests it is newer. [confidence: high]
 
-- "₹1.67L cr Cumulative forex saved by ethanol blending since ESY2014-15" — The article cites this figure as "Government figures" reported to the Rajya Sabha in March 2026, but the Rajya Sabha unstarred question cited (9 March 2026) does not provide a cumulative forex savings figure of ₹1.67 lakh crore. The claim appears to conflate multiple government-reported figures (e.g., crude oil displaced, CO₂ avoided) without a direct source for the forex savings amount. [confidence: high]
+- "Maruti Suzuki launch India's first flex-fuel car (June 2026)" — While Maruti Suzuki did announce a flex-fuel car in 2026, the claim that it was the *first* in India is unverified and potentially incorrect, as other manufacturers may have launched flex-fuel vehicles earlier. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The claim implies a direct causal link between AI-tuned fermentation and increased ethanol yield, but the article does not establish that the reported yield improvements are solely attributable to AI. The efficiency gains could result from other factors (e.g., improved feedstock quality, operational changes, or reporting biases in vendor-supplied data). The article acknowledges these figures are "vendor-reported" and "not yet independently audited," yet presents them as factual outcomes without addressing potential confounding variables. [confidence: high]
+- "4–8% Additional ethanol yield claimed from AI-tuned fermentation, same molasses input" — The claim implies a direct causal relationship between AI-tuned fermentation and increased ethanol yield, but the article does not provide evidence that the yield increase is solely attributable to AI rather than other factors like improved feedstock quality, operational changes, or seasonal variations. [confidence: high]
 
-- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The claim suggests a causal relationship between AI advisory and farm yield improvements, but the article does not rule out other contributing factors (e.g., weather conditions, fertilizer use, or selection bias in the pilot cohort). The lack of independent verification and the small, localized nature of the pilot (Jalna district) make it inappropriate to generalize these results as representative of broader farm yield improvements. [confidence: high]
+- "10–20% Farm yield improvement claimed for growers on an AI advisory pilot in Maharashtra" — The article presents this as a general improvement without clarifying whether the yield increase is statistically significant, sustained over multiple seasons, or applicable beyond the specific pilot cohort. The claim extrapolates from a small, localized pilot to broader farm yields without sufficient context. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
