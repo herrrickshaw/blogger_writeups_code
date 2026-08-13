@@ -4859,3 +4859,16 @@ New post: RIN/RED/CBIO comparison with India ethanol-credit hybrid proposal, Art
 **Added**
 
 - `rin-red-and-cbio-what-indias-ethanol` **v1.0.0** — RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines (31,799 bytes)
+
+## 2026-08-13T11:59:42+05:30 — 146 posts live
+
+Added real Agmarknet mandi price data (maize/rice/paddy trends, 23 Jul-11 Aug 2026) to RIN/RED/CBIO article, grounding the feedstock-cost-vs-fuel-pricing argument
+
+
+**Versions**
+
+- `rin-red-and-cbio-what-indias-ethanol` **1.0.0 → 1.0.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `rin-red-and-cbio-what-indias-ethanol` — 31,799 → 35,472 bytes (+3,673)

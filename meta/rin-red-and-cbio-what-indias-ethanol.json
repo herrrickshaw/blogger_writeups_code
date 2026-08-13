@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-08-13T11:40:39.023+05:30",
+  "updated": "2026-08-13T11:59:16.163+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "India"
   ],
-  "bytes": 31799,
-  "sha256": "df9ab845c24bc615adf8e121a989ee33c0c6e8f2c3c1585536b7c954caaa4c72",
+  "bytes": 35472,
+  "sha256": "7fc52c13fe095fa6fcf42d867d9d46573491ac54a971234826203e0af51e9347",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: RIN/RED/CBIO comparison with India ethanol-credit hybrid proposal, Article 6.2 eligibility gap, and CBAM Article 9 carbon-price recognition gap"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-13T11:59:42+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        31799,
+        35472
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Added real Agmarknet mandi price data (maize/rice/paddy trends, 23 Jul-11 Aug 2026) to RIN/RED/CBIO article, grounding the feedstock-cost-vs-fuel-pricing argument"
     }
   ]
 }
