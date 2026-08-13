@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-08-13T10:47:45.593+05:30",
+  "updated": "2026-08-13T19:43:03.587+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 42732,
-  "sha256": "40f066cc5016fb5a9dc450db81cbee20d780d6fe2216430e986a3f125c2e576a",
+  "bytes": 42725,
+  "sha256": "0056f1a1c7ecea3ae704a893ddf69408e3f7235f5944f4fa9d58ab6c98252a76",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-13T19:43:46+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        42732,
+        42725
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
     }
   ]
 }

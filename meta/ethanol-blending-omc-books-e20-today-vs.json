@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-13T10:56:37.867+05:30",
+  "updated": "2026-08-13T19:42:10.264+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 41148,
-  "sha256": "92e52549a141cbd6182baddae1a87cc7a9d48cea2e0e160ffab2e13e2424e1e9",
+  "bytes": 41141,
+  "sha256": "c94e4fd9176d7011a78ec0238b7fd0e41c4a4e9fd6ecf260d5ef4654241c5460",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-13T19:43:46+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        41148,
+        41141
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.000+05:30",
-  "updated": "2026-08-13T10:43:51.779+05:30",
+  "updated": "2026-08-13T19:42:20.985+05:30",
   "labels": [
     "Import Substitution",
     "Textiles",
     "Trade & Tariffs"
   ],
   "bytes": 33948,
-  "sha256": "0ede704000544994ecf6c8e825027c0b30c66e8181e98871fbfccdb7b8ec6f11",
+  "sha256": "602a7163f2c4871a4b7b10cb0b52bc62189df7a7b3f3e2741b53f61eef4947b7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T19:43:46+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        33948,
+        33948
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
     }
   ]
 }

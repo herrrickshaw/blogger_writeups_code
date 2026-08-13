@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.000+05:30",
-  "updated": "2026-08-13T10:45:40.867+05:30",
+  "updated": "2026-08-13T19:42:49.262+05:30",
   "labels": [
     "Markets & Finance"
   ],
   "bytes": 37394,
-  "sha256": "fc91f549d7b9410449253670bbb57b45cb51a48f6b338877e7f6993de3e3848b",
+  "sha256": "0b14756d7f2a8f994eb381f8fb05ae0f44a9497d01bc637b659759bfb81c6178",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T19:43:46+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        37394,
+        37394
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
     }
   ]
 }

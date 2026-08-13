@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T11:59:42+05:30",
+  "snapshot": "2026-08-13T19:43:46+05:30",
   "count": 146,
   "posts": {
     "1058853159205559121": {
@@ -3319,12 +3319,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
       "slug": "ethanol-blending-omc-books-e20-today-vs",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-13T10:56:37.867+05:30",
+      "updated": "2026-08-13T19:42:10.264+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 41148,
-      "sha256": "92e52549a141cbd6182baddae1a87cc7a9d48cea2e0e160ffab2e13e2424e1e9",
+      "bytes": 41141,
+      "sha256": "c94e4fd9176d7011a78ec0238b7fd0e41c4a4e9fd6ecf260d5ef4654241c5460",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3336,7 +3336,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3458,6 +3458,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            41148,
+            41141
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },
@@ -4923,13 +4936,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
       "slug": "priority-trade-partners-by-import",
       "published": "2026-08-02T14:01:14.000+05:30",
-      "updated": "2026-08-13T10:47:45.593+05:30",
+      "updated": "2026-08-13T19:43:03.587+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 42732,
-      "sha256": "40f066cc5016fb5a9dc450db81cbee20d780d6fe2216430e986a3f125c2e576a",
+      "bytes": 42725,
+      "sha256": "0056f1a1c7ecea3ae704a893ddf69408e3f7235f5944f4fa9d58ab6c98252a76",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4941,7 +4954,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5075,6 +5088,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            42732,
+            42725
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },
@@ -7069,12 +7095,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
       "slug": "indian-it-in-ai-era",
       "published": "2026-08-04T12:48:16.000+05:30",
-      "updated": "2026-08-13T10:45:40.867+05:30",
+      "updated": "2026-08-13T19:42:49.262+05:30",
       "labels": [
         "Markets & Finance"
       ],
       "bytes": 37394,
-      "sha256": "fc91f549d7b9410449253670bbb57b45cb51a48f6b338877e7f6993de3e3848b",
+      "sha256": "0b14756d7f2a8f994eb381f8fb05ae0f44a9497d01bc637b659759bfb81c6178",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7086,7 +7112,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7194,6 +7220,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37394,
+            37394
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },
@@ -12860,7 +12899,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-13T11:43:41.197+05:30",
+      "updated": "2026-08-13T12:31:01.879+05:30",
       "labels": [],
       "bytes": 177580,
       "sha256": "90445855fb9c7e5918788ffd31f4e44e8c6aac2dccb546d3c67918b1021f7d4f",
@@ -15108,12 +15147,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-07-30T09:42:00.000+05:30",
-      "updated": "2026-08-13T04:50:00.168+05:30",
+      "updated": "2026-08-13T19:42:36.512+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 107304,
-      "sha256": "814cfe4294b6a1d99ab24cc77d29b4abfd80aeb119212a60a447b9bbe91526e3",
+      "bytes": 107297,
+      "sha256": "5ee538cdc4a8fc7678146ca029fc112367635878dfc17b5690b864602cc010bc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15125,7 +15164,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15259,6 +15298,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            107304,
+            107297
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },
@@ -16529,12 +16581,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
       "slug": "where-indias-forex-goes-country",
       "published": "2026-08-02T13:46:53.000+05:30",
-      "updated": "2026-08-13T10:49:42.838+05:30",
+      "updated": "2026-08-13T19:43:16.907+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 44978,
-      "sha256": "9f2a842459381658b08edb243da15d0b2afc94e10fde27e00e49f6ea6ab51230",
+      "bytes": 44971,
+      "sha256": "485db62e26a302d9ad78f8672361a6803047a1046b9d77757018a4d8403824de",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16546,7 +16598,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16667,6 +16719,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44978,
+            44971
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },
@@ -17452,14 +17517,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
       "slug": "from-fuel-to-fibre-indias-textile",
       "published": "2026-08-03T09:12:32.000+05:30",
-      "updated": "2026-08-13T10:43:51.779+05:30",
+      "updated": "2026-08-13T19:42:20.985+05:30",
       "labels": [
         "Import Substitution",
         "Textiles",
         "Trade & Tariffs"
       ],
       "bytes": 33948,
-      "sha256": "0ede704000544994ecf6c8e825027c0b30c66e8181e98871fbfccdb7b8ec6f11",
+      "sha256": "602a7163f2c4871a4b7b10cb0b52bc62189df7a7b3f3e2741b53f61eef4947b7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17471,7 +17536,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17557,6 +17622,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T19:43:46+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33948,
+            33948
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
         }
       ]
     },

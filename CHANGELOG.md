@@ -4872,3 +4872,26 @@ Added real Agmarknet mandi price data (maize/rice/paddy trends, 23 Jul-11 Aug 20
 **Changed**
 
 - `rin-red-and-cbio-what-indias-ethanol` — 31,799 → 35,472 bytes (+3,673)
+
+## 2026-08-13T19:43:46+05:30 — 146 posts live
+
+Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs
+
+
+**Versions**
+
+- `indian-it-in-ai-era` **1.0.7 → 1.0.8** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `from-fuel-to-fibre-indias-textile` **1.0.6 → 1.0.7** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `priority-trade-partners-by-import` **1.0.9 → 1.0.10** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `where-indias-forex-goes-country` **1.0.8 → 1.0.9** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-mineral-oil-hsn-ch27-trade` **2.0.3 → 2.0.4** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `ethanol-blending-omc-books-e20-today-vs` **1.0.8 → 1.0.9** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `indian-it-in-ai-era` — 37,394 → 37,394 bytes (+0)
+- `from-fuel-to-fibre-indias-textile` — 33,948 → 33,948 bytes (+0)
+- `priority-trade-partners-by-import` — 42,732 → 42,725 bytes (-7)
+- `where-indias-forex-goes-country` — 44,978 → 44,971 bytes (-7)
+- `india-mineral-oil-hsn-ch27-trade` — 107,304 → 107,297 bytes (-7)
+- `ethanol-blending-omc-books-e20-today-vs` — 41,148 → 41,141 bytes (-7)
