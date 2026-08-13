@@ -4396,3 +4396,13 @@ scheduled sync
 **Added**
 
 - `from-barrel-to-bottle-petrochemical` **v1.0.0** — From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder (23,752 bytes)
+
+## 2026-08-13T08:53:31+05:30 — 142 posts live
+
+**Versions**
+
+- `from-barrel-to-bottle-petrochemical` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `from-barrel-to-bottle-petrochemical` — 23,752 → 28,420 bytes (+4,668)
