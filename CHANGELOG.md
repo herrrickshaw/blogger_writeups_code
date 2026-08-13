@@ -4390,3 +4390,9 @@ scheduled sync
 - `india-fuel-retail-outlets-82k-geocoded` — 11,590 → 12,509 bytes (+919)
 - `india-trade-sector-policy` — 17,310 → 18,229 bytes (+919)
 - `tech-for-business-so-2019-tech-as` — 33,220 → 34,139 bytes (+919)
+
+## 2026-08-13T08:49:14+05:30 — 142 posts live
+
+**Added**
+
+- `from-barrel-to-bottle-petrochemical` **v1.0.0** — From Barrel to Bottle: The Petrochemical Pivot Also Makes a Lighter LPG Cylinder (23,752 bytes)
