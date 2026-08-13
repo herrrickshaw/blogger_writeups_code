@@ -20,15 +20,10 @@
 .XX,.XX p,.XX li,.XX td,.XX th{color:var(--ink)!important}
 .XX{background:#fff!important}
 
-/* ---- dark panel guard (gs-dark-panel-guard): panels designed dark stay dark
-       and keep readable text. One trio of rules per dark selector. ---- */
-.XX .hero{background:linear-gradient(135deg,#8a4b08,#c98a1f)!important}
-.XX .hero,.XX .hero *{color:#fff!important}
-.XX .hero a{color:#cfe3ff!important}
-
 /* ---- structure ---- */
-.XX .hero{border-radius:14px;padding:22px 24px;margin:8px 0 20px}
-.XX .hero h1{margin:0 0 8px;font-size:1.45rem}
+.XX .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
+.XX h1{margin:0 0 10px;font-size:1.5rem}
+.XX .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
 .XX .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
 .XX .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
 .XX .stat b{display:block;font-size:1.2rem;color:var(--accent)}
@@ -51,23 +46,33 @@
 .XX .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
 </style>
 
-<!-- 2. Index backlink — required on every post -->
-<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
-
-<div class="hero">
-<h1>Headline &mdash; the claim, not the topic</h1>
-<p>One sentence saying what the numbers show and why it matters.</p>
+<!--
+  1. Header block — required on every post, and its structure matters.
+  Blogger's data:post.snippet (the "Recent analysis" home-page cards) does pure
+  server-side plain-text extraction from the raw HTML source, tags stripped, in
+  source order — it has NO awareness of CSS, so visual position never affects
+  it. If the index backlink / eyebrow / duplicate title run first in source,
+  the home page shows "All Articles (Index) Section · Topic Headline..." — nav
+  chrome, not the article. The fix: this flex wrapper puts <p class="standfirst">
+  FIRST in source (so the snippet reads real opening prose) while `order`
+  restores the normal reading layout — backlink, eyebrow, title, standfirst —
+  on screen. Do not reorder these elements back to document order; that
+  reintroduces the bug. The site's JSON-LD script (theme.xml) already relies on
+  `.standfirst` the same way for meta description, so this class must stay.
+-->
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">One sentence saying what the numbers show and why it matters.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Section &middot; Topic &middot; Subtopic</p>
+<h1 style="order:3">Headline &mdash; the claim, not the topic</h1>
 </div>
 
 <!--
-  1. Accessibility bar + translate widget — required on every post. Placed AFTER
-  the hero/h1 in source order on purpose: Blogger's data:post.snippet (used by
-  the "Recent analysis" home-page cards) auto-extracts the first plain text of
-  the post body, tags stripped. If this block runs first in the DOM, the home
-  page shows "Skip to article content Text Size A A A..." instead of the real
-  standfirst. Keep real content first; this block visually renders fine lower
-  down (it does not need to be first for its own accessibility purpose — the
-  skip-link still works via its href/focus regardless of position).
+  2. Accessibility bar + translate widget — required on every post. Placed AFTER
+  the header block in source order for the same reason as above: keep real
+  content first, this block visually renders fine lower down (it does not need
+  to be first for its own accessibility purpose — the skip-link still works via
+  its href/focus regardless of position).
 -->
 <a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
 <style>.gs-skip-link:focus{left:8px!important;top:8px!important}
