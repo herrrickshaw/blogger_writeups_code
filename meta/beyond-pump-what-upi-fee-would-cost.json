@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
   "slug": "beyond-pump-what-upi-fee-would-cost",
   "published": "2026-08-08T20:01:53.000+05:30",
-  "updated": "2026-08-13T04:40:58.298+05:30",
+  "updated": "2026-08-13T09:49:20.133+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 35078,
-  "sha256": "78a0e7475d9cf4da15bf754a9c1b65a44a48b918b026ae20e3772ebe8c13e4d7",
+  "bytes": 35080,
+  "sha256": "4a49114c4f10b9ee7070215c12a51271213d16abdcab8ed658e0c4267e55e461",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.6",
+  "version": "3.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.7",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        35078,
+        35080
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

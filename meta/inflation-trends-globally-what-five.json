@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-08-13T04:54:35.681+05:30",
+  "updated": "2026-08-13T09:52:55.925+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 52028,
-  "sha256": "4603be9b33457e2c8a018c11dbb570aa9d87996cba41439aea2f770ec6553c09",
+  "bytes": 52030,
+  "sha256": "fea6d6c252162b46a02a5e116cb02424a0e1541d576b80bed7cf7ded5f4594f4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        52028,
+        52030
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

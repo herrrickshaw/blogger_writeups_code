@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.000+05:30",
-  "updated": "2026-08-13T04:44:02.366+05:30",
+  "updated": "2026-08-13T09:50:17.307+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 34895,
-  "sha256": "40e3ce194aa2f336af9557769ab2f37ed35daf27ba7ea290345e9e5cc252419e",
+  "bytes": 34896,
+  "sha256": "c6a85855ba1a1dc5cc293db7c6a2fead082e03d1960080bbe4b15881a2b7acc1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.7",
+  "version": "5.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.8",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        34895,
+        34896
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

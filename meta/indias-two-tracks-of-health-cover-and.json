@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html",
   "slug": "indias-two-tracks-of-health-cover-and",
   "published": "2026-08-12T10:54:13.000+05:30",
-  "updated": "2026-08-13T09:06:24.389+05:30",
+  "updated": "2026-08-13T09:52:21.430+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 22765,
-  "sha256": "eb535142cb9674ac1446249c5bbab2f1851ff6fc865b0db8049e9331f5eba393",
+  "bytes": 22767,
+  "sha256": "bd3004aeb2da19ebd8082d5a54f89165f148229f13695f1aad0ac04258bf8b2f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        22765,
+        22767
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

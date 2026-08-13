@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
   "slug": "thali-investing-whats-actually-on-plate",
   "published": "2026-08-10T06:32:54.000+05:30",
-  "updated": "2026-08-13T05:00:36.763+05:30",
+  "updated": "2026-08-13T09:54:29.083+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 28805,
-  "sha256": "38690e2e85a1e850047a88d751c9b25850bf59ee2dd0c1b80588ac5dc6766210",
+  "bytes": 28807,
+  "sha256": "43201edb5fef45f6a407fb2b0e7898bceda9fe9553d754dff77725f400ca3125",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        28805,
+        28807
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

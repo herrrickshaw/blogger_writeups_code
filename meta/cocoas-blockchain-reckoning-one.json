@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
   "slug": "cocoas-blockchain-reckoning-one",
   "published": "2026-08-08T21:27:49.000+05:30",
-  "updated": "2026-08-13T04:42:57.290+05:30",
+  "updated": "2026-08-13T09:49:55.637+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 22600,
-  "sha256": "e2ae0a924fa0c5174e4877b89f1f828ad19ac86b3f0a2edb0e54c1f09704868a",
+  "bytes": 22602,
+  "sha256": "754161bd09983a50bf4fd682f36d58a1c94afdc8cda8ff036f8dc5c2ede53bc4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        22600,
+        22602
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

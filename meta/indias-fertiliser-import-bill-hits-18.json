@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-08-13T04:51:35.227+05:30",
+  "updated": "2026-08-13T09:51:47.110+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 24131,
-  "sha256": "bea4c61430947d4bbd8c3d633137a5efde58db4e9b03aad97a2e1741cb631ed2",
+  "bytes": 24133,
+  "sha256": "3936f961105be082477f2779083c5bef25532f35acccf828e031c83df4b24a6f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        24131,
+        24133
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

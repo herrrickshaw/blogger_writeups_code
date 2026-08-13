@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-08-13T04:50:12.508+05:30",
+  "updated": "2026-08-13T09:51:24.298+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 29622,
-  "sha256": "c57131e7d62b189c117108d54f118906d74fe2959d77621fac45eae865d037f3",
+  "bytes": 29624,
+  "sha256": "787ead8eef4e4e5aadd52f573be20cbb033486b551e34186e0a1b468bff35964",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        29622,
+        29624
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

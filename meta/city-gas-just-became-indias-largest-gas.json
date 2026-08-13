@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
   "slug": "city-gas-just-became-indias-largest-gas",
   "published": "2026-08-08T16:38:51.000+05:30",
-  "updated": "2026-08-13T04:42:45.650+05:30",
+  "updated": "2026-08-13T09:49:43.027+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 23675,
-  "sha256": "b0103f8cf7344541ca7f35887b0d7d17129ba150c3b4873d52f39d2b6a567a0f",
+  "bytes": 23677,
+  "sha256": "2ac1d6a1f2ec0c9187849cf431f2dae54288dd2b80ede623b8d2c1e3662f5845",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        23675,
+        23677
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

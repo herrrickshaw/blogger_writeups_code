@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
   "slug": "indias-epr-regime-just-got-teeth-and",
   "published": "2026-08-08T21:56:27.000+05:30",
-  "updated": "2026-08-13T04:51:00.358+05:30",
+  "updated": "2026-08-13T09:51:35.646+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 21239,
-  "sha256": "a866b44a1eb2dd1d33b2443f34f464454aa20304e9f126dd1b11a4691ad9829a",
+  "bytes": 21241,
+  "sha256": "07ae603a596fa07815007cd3cd285c842808a6e52e0594405c7eef021a3a3c85",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        21239,
+        21241
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

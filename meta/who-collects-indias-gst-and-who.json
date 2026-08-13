@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
   "slug": "who-collects-indias-gst-and-who",
   "published": "2026-08-12T19:04:21.000+05:30",
-  "updated": "2026-08-13T09:06:17.041+05:30",
+  "updated": "2026-08-13T09:56:56.758+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29198,
-  "sha256": "2d133f96387a9a6669be5d59bebe05f238d28c10c17ce754910bc8aa6a02f799",
+  "bytes": 29200,
+  "sha256": "443811b0831b1824fe7032edc4cda894356604c2dae285e8c741c8cd108b5bdc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-08-13T04:28:21+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        29198,
+        29200
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4466,3 +4466,106 @@ scheduled sync
 **Changed**
 
 - `the-margin-case-why-lpg-and` — 30,278 → 34,873 bytes (+4,595)
+
+## 2026-08-13T04:28:21+00:00 — 143 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `the-margin-case-why-lpg-and` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `from-barrel-to-bottle-petrochemical` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-fcc-lever-trading-petrol-yield-for` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `fuel-and-bottle-two-taxes-states-never` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-barrel-really-is-shifting-indias` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-case-for-biofuels-over-imports` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `would-more-sgst-fix-donor-state-problem` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `tamil-nadus-gst-gap-108-economy-growing` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `uttar-pradeshs-gst-puzzle-growing` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `who-collects-indias-gst-and-who` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-two-tracks-of-health-cover-and` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `abha-what-indias-14-digit-health-id` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `mrs-watanabe-traded-from-kitchen-table` **1.2.0 → 1.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-used-oil-epr-wants-half-of-all` **2.0.4 → 2.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `ahidf-has-sanctioned-19751-crore-in` **2.0.5 → 2.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-503020-rule-is-elizabeth-warrens` **2.0.4 → 2.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `thali-investing-whats-actually-on-plate` **2.0.5 → 2.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-rule-of-72-rule-of-114-and-how-to` **2.0.4 → 2.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `india-has-tax-treaties-with-97` **1.0.3 → 1.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `up-has-indias-biggest-herd-punjab-has` **2.0.3 → 2.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `cow-dung-already-flew-rocket-engine` **4.0.5 → 4.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `one-refinery-flipped-nigeria-from` **2.0.3 → 2.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-epr-regime-just-got-teeth-and` **2.0.3 → 2.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-trade-story-has-three-big-wins` **1.0.3 → 1.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-fertiliser-import-bill-hits-18` **2.0.3 → 2.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-food-processing-story-pli-scheme` **1.0.4 → 1.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `cocoas-blockchain-reckoning-one` **1.0.6 → 1.0.7** (PATCH) — wording changed; no figures, sections or claims moved
+- `from-cane-to-code-digital-layer` **1.0.3 → 1.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `thermal-parity-is-dead-what-85-oil-and` **3.0.4 → 3.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `lpgs-missing-number-7308-commission-and` **2.0.3 → 2.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `beyond-pump-what-upi-fee-would-cost` **3.0.6 → 3.0.7** (PATCH) — wording changed; no figures, sections or claims moved
+- `cheap-yen-rupee-roads-where-carry-trade` **1.0.5 → 1.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `the-masala-deutsch-shop-books-things` **7.1.3 → 7.1.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `where-india-actually-burns-its-fuel` **1.0.3 → 1.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `city-gas-just-became-indias-largest-gas` **2.0.5 → 2.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `upi-fees-are-now-legal-petrol-pumps` **11.0.3 → 11.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `south-africa-lost-its-gulf-fuel-supply` **1.0.5 → 1.0.6** (PATCH) — wording changed; no figures, sections or claims moved
+- `india-sells-world-53-billion-of-fuel` **1.0.4 → 1.0.5** (PATCH) — wording changed; no figures, sections or claims moved
+- `europe-bought-record-amount-of-lng-and` **5.0.3 → 5.0.4** (PATCH) — wording changed; no figures, sections or claims moved
+- `inflation-trends-globally-what-five` **2.0.8 → 2.0.9** (PATCH) — wording changed; no figures, sections or claims moved
+- `indias-wholesale-prices-next-to` **6.0.7 → 6.0.8** (PATCH) — wording changed; no figures, sections or claims moved
+- `reinvesting-capital-gains-in-higher` **1.0.6 → 1.0.7** (PATCH) — wording changed; no figures, sections or claims moved
+- `diesel-doesnt-move-cpi-it-moves-40` **5.0.7 → 5.0.8** (PATCH) — wording changed; no figures, sections or claims moved
+- `article-index-start-here` **24.2.0 → 24.2.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `ai-high-demand-launch-tracker` **3.0.7 → 3.0.8** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `the-margin-case-why-lpg-and` — 34,873 → 34,874 bytes (+1)
+- `from-barrel-to-bottle-petrochemical` — 28,539 → 28,540 bytes (+1)
+- `the-fcc-lever-trading-petrol-yield-for` — 34,370 → 34,371 bytes (+1)
+- `fuel-and-bottle-two-taxes-states-never` — 28,681 → 28,683 bytes (+2)
+- `the-barrel-really-is-shifting-indias` — 30,220 → 30,222 bytes (+2)
+- `the-case-for-biofuels-over-imports` — 26,098 → 26,100 bytes (+2)
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 28,422 → 28,424 bytes (+2)
+- `would-more-sgst-fix-donor-state-problem` — 23,463 → 23,465 bytes (+2)
+- `tamil-nadus-gst-gap-108-economy-growing` — 23,210 → 23,212 bytes (+2)
+- `uttar-pradeshs-gst-puzzle-growing` — 25,356 → 25,358 bytes (+2)
+- `who-collects-indias-gst-and-who` — 29,198 → 29,200 bytes (+2)
+- `indias-two-tracks-of-health-cover-and` — 22,765 → 22,767 bytes (+2)
+- `abha-what-indias-14-digit-health-id` — 23,055 → 23,057 bytes (+2)
+- `mrs-watanabe-traded-from-kitchen-table` — 25,427 → 25,429 bytes (+2)
+- `indias-used-oil-epr-wants-half-of-all` — 26,471 → 26,473 bytes (+2)
+- `ahidf-has-sanctioned-19751-crore-in` — 21,602 → 21,604 bytes (+2)
+- `the-503020-rule-is-elizabeth-warrens` — 20,293 → 20,295 bytes (+2)
+- `thali-investing-whats-actually-on-plate` — 28,805 → 28,807 bytes (+2)
+- `the-rule-of-72-rule-of-114-and-how-to` — 24,175 → 24,177 bytes (+2)
+- `india-has-tax-treaties-with-97` — 24,531 → 24,533 bytes (+2)
+- `up-has-indias-biggest-herd-punjab-has` — 25,111 → 25,113 bytes (+2)
+- `cow-dung-already-flew-rocket-engine` — 38,087 → 38,089 bytes (+2)
+- `one-refinery-flipped-nigeria-from` — 31,282 → 31,284 bytes (+2)
+- `indias-epr-regime-just-got-teeth-and` — 21,239 → 21,241 bytes (+2)
+- `indias-trade-story-has-three-big-wins` — 20,184 → 20,186 bytes (+2)
+- `indias-fertiliser-import-bill-hits-18` — 24,131 → 24,133 bytes (+2)
+- `indias-food-processing-story-pli-scheme` — 22,971 → 22,973 bytes (+2)
+- `cocoas-blockchain-reckoning-one` — 22,600 → 22,602 bytes (+2)
+- `from-cane-to-code-digital-layer` — 23,921 → 23,923 bytes (+2)
+- `thermal-parity-is-dead-what-85-oil-and` — 28,780 → 28,782 bytes (+2)
+- `lpgs-missing-number-7308-commission-and` — 24,871 → 24,873 bytes (+2)
+- `beyond-pump-what-upi-fee-would-cost` — 35,078 → 35,080 bytes (+2)
+- `cheap-yen-rupee-roads-where-carry-trade` — 24,107 → 24,109 bytes (+2)
+- `the-masala-deutsch-shop-books-things` — 44,902 → 44,904 bytes (+2)
+- `where-india-actually-burns-its-fuel` — 21,397 → 21,399 bytes (+2)
+- `city-gas-just-became-indias-largest-gas` — 23,675 → 23,677 bytes (+2)
+- `upi-fees-are-now-legal-petrol-pumps` — 36,016 → 36,018 bytes (+2)
+- `south-africa-lost-its-gulf-fuel-supply` — 26,089 → 26,091 bytes (+2)
+- `india-sells-world-53-billion-of-fuel` — 29,622 → 29,624 bytes (+2)
+- `europe-bought-record-amount-of-lng-and` — 39,875 → 39,877 bytes (+2)
+- `inflation-trends-globally-what-five` — 52,028 → 52,030 bytes (+2)
+- `indias-wholesale-prices-next-to` — 39,387 → 39,389 bytes (+2)
+- `reinvesting-capital-gains-in-higher` — 29,110 → 29,111 bytes (+1)
+- `diesel-doesnt-move-cpi-it-moves-40` — 34,895 → 34,896 bytes (+1)
+- `article-index-start-here` — 177,578 → 177,580 bytes (+2)
+- `ai-high-demand-launch-tracker` — 37,572 → 37,574 bytes (+2)
