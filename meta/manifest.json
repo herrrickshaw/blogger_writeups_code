@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T21:47:23+05:30",
+  "snapshot": "2026-08-13T21:52:16+05:30",
   "count": 146,
   "posts": {
     "1058853159205559121": {
@@ -3619,12 +3619,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
       "slug": "indias-oil-fields-are-running-down-3696",
       "published": "2026-08-06T08:32:50.000+05:30",
-      "updated": "2026-08-13T10:57:46.132+05:30",
+      "updated": "2026-08-13T21:49:47.419+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 19921,
-      "sha256": "a070ec2afc1b823a11fdfcb6413df55e6480a7bba4e4ab120782a7a217264951",
+      "bytes": 20268,
+      "sha256": "dd2ff5952ee9b8a03338f43098e5817417306763317e12e2900687ee3c539556",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3636,7 +3636,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3735,6 +3735,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19921,
+            20268
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -8745,12 +8758,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
       "slug": "the-ethanol-sectors-buyers-market",
       "published": "2026-08-05T12:13:26.000+05:30",
-      "updated": "2026-08-11T21:41:52.321+05:30",
+      "updated": "2026-08-13T21:51:52.112+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 10454,
-      "sha256": "708c237dd5c31dd336864bb79c7863ecfa4796cc8c7f3555e5114444b67c7c4c",
+      "bytes": 10480,
+      "sha256": "856ea730eb0c05edb0390d92b9421e1d756e8f9af180bf89f8f46c29b8a9cca4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8762,7 +8775,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8831,6 +8844,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            10454,
+            10480
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -10205,12 +10231,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
       "slug": "thali-investing-whats-actually-on-plate",
       "published": "2026-08-10T06:32:54.000+05:30",
-      "updated": "2026-08-13T10:12:48.539+05:30",
+      "updated": "2026-08-13T21:51:35.169+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 28938,
-      "sha256": "3d14523ebd4180d552c4f3aed98d0f11eccbd2b680a2f5977f2cfada31dab8c6",
+      "bytes": 28946,
+      "sha256": "b27d44179ffec86a5c6767cb4ae7d34cd1df193af1a13e45167a6b5f2f627a41",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10222,7 +10248,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.7",
+      "version": "2.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10334,6 +10360,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.8",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            28938,
+            28946
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -11646,12 +11685,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
       "slug": "india-has-tax-treaties-with-97",
       "published": "2026-08-09T10:54:39.000+05:30",
-      "updated": "2026-08-13T10:09:40.120+05:30",
+      "updated": "2026-08-13T21:51:44.183+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 24664,
-      "sha256": "8e4ffccfcdcfc75ca457e259ace95b55860e8c2e346f08ba70bf6f061ff85239",
+      "bytes": 24972,
+      "sha256": "d295a77f4d336d1f3bae0fd43c127ed308cef2d18f1a649b80e98db89b722d89",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11663,7 +11702,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11736,6 +11775,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24664,
+            24972
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -13771,13 +13823,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
       "slug": "where-indias-green-hydrogen-bets-are",
       "published": "2026-08-05T17:14:26.000+05:30",
-      "updated": "2026-08-13T10:59:48.851+05:30",
+      "updated": "2026-08-13T21:49:55.407+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 18998,
-      "sha256": "03c2cc26f46ce2e3d38282b1a2fa8e3fee525a3c7a8ec98016991bea4bf28833",
+      "bytes": 19484,
+      "sha256": "5c8679beb8ad991a65ba092e89c6f2a2e7ea085ca5bd5667b1e6c7fe89b92e11",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13789,7 +13841,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13897,6 +13949,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            18998,
+            19484
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -16368,13 +16433,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
       "slug": "indias-state-incentive-war-gujarats",
       "published": "2026-08-05T17:18:03.000+05:30",
-      "updated": "2026-08-13T10:58:10.246+05:30",
+      "updated": "2026-08-13T21:49:30.851+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
       "bytes": 31267,
-      "sha256": "4e17015360dee1f2f40b3f29b3cb43b7baa3b4c29a104237c18e91eac3aea8c1",
+      "sha256": "938a3c6e7ff3a8d4e7b306cd9c5cffa1dc6f52cc43a0d56b8b6c03c9b7392b15",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16386,7 +16451,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16494,6 +16559,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            31267,
+            31267
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },
@@ -16806,12 +16884,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
       "slug": "up-has-indias-biggest-herd-punjab-has",
       "published": "2026-08-09T09:57:06.000+05:30",
-      "updated": "2026-08-13T10:14:31.128+05:30",
+      "updated": "2026-08-13T21:49:39.211+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
       "bytes": 25244,
-      "sha256": "e596480fd84a6d553f6161e8a734235f6def5398148df465db948bc641791487",
+      "sha256": "d9a7676a52832e07a14c046ef6680511b4390cab69de6ecc856b0e5e80391f11",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16823,7 +16901,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16909,6 +16987,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T21:52:16+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25244,
+            25244
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
         }
       ]
     },

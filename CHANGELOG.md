@@ -4927,3 +4927,28 @@ Site-audit fixes batch 1: chemical import substitution cluster (4 posts) — unt
 - `chemical-import-substitution-quarterly` — 53,064 → 53,265 bytes (+201)
 - `top-15-chemicals-for-import--4751284523575450171` — 21,390 → 21,723 bytes (+333)
 - `chemical-import-substitution-analysis` — 32,429 → 33,355 bytes (+926)
+
+## 2026-08-13T21:52:16+05:30 — 146 posts live
+
+Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure
+
+
+**Versions**
+
+- `thali-investing-whats-actually-on-plate` **2.0.7 → 2.0.8** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-has-tax-treaties-with-97` **1.0.5 → 1.0.6** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `up-has-indias-biggest-herd-punjab-has` **2.0.5 → 2.0.6** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-oil-fields-are-running-down-3696` **2.0.5 → 2.0.6** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-state-incentive-war-gujarats` **1.0.7 → 1.0.8** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `where-indias-green-hydrogen-bets-are` **1.0.7 → 1.0.8** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `the-ethanol-sectors-buyers-market` **1.0.4 → 1.0.5** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `thali-investing-whats-actually-on-plate` — 28,938 → 28,946 bytes (+8)
+- `india-has-tax-treaties-with-97` — 24,664 → 24,972 bytes (+308)
+- `up-has-indias-biggest-herd-punjab-has` — 25,244 → 25,244 bytes (+0)
+- `indias-oil-fields-are-running-down-3696` — 19,921 → 20,268 bytes (+347)
+- `indias-state-incentive-war-gujarats` — 31,267 → 31,267 bytes (+0)
+- `where-indias-green-hydrogen-bets-are` — 18,998 → 19,484 bytes (+486)
+- `the-ethanol-sectors-buyers-market` — 10,454 → 10,480 bytes (+26)

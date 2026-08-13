@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-08-13T10:09:40.120+05:30",
+  "updated": "2026-08-13T21:51:44.183+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 24664,
-  "sha256": "8e4ffccfcdcfc75ca457e259ace95b55860e8c2e346f08ba70bf6f061ff85239",
+  "bytes": 24972,
+  "sha256": "d295a77f4d336d1f3bae0fd43c127ed308cef2d18f1a649b80e98db89b722d89",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T21:52:16+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        24664,
+        24972
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
     }
   ]
 }

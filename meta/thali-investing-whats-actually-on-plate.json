@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
   "slug": "thali-investing-whats-actually-on-plate",
   "published": "2026-08-10T06:32:54.000+05:30",
-  "updated": "2026-08-13T10:12:48.539+05:30",
+  "updated": "2026-08-13T21:51:35.169+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 28938,
-  "sha256": "3d14523ebd4180d552c4f3aed98d0f11eccbd2b680a2f5977f2cfada31dab8c6",
+  "bytes": 28946,
+  "sha256": "b27d44179ffec86a5c6767cb4ae7d34cd1df193af1a13e45167a6b5f2f627a41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.7",
+  "version": "2.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "2.0.8",
+      "date": "2026-08-13T21:52:16+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        28938,
+        28946
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
     }
   ]
 }
