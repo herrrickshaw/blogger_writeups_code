@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:48:40.172+05:30",
+  "updated": "2026-08-13T10:45:04.378+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 15777,
-  "sha256": "950f936fc35a8eea44a4bc8409c5d8f51e1cf4d205209f73a13cea1d6f47dc7d",
+  "bytes": 15899,
+  "sha256": "310d1ae1d81a0b9899bb8e4d99d791e6c9023de77eb3cf5a1d3f9d91d30f9b23",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -130,6 +130,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        15777,
+        15899
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

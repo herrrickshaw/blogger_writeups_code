@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:52:35.317+05:30",
+  "updated": "2026-08-13T10:57:58.651+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 23195,
-  "sha256": "fc6c50c580351bedea0a7e4057f144a7825d72c8d72df91721555e5a38095941",
+  "bytes": 23334,
+  "sha256": "21b4a77e2a72c9b2453429e56260234f583a06849ae19b259c7975e232efee86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -132,6 +132,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        23195,
+        23334
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

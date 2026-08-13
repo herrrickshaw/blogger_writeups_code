@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
   "slug": "annadata-to-urjadata-farmer-income-case",
   "published": "2026-08-04T16:10:00.000+05:30",
-  "updated": "2026-08-13T04:39:53.781+05:30",
+  "updated": "2026-08-13T10:41:49.687+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 39159,
-  "sha256": "7880899593d0a412d917e4bc79b9d4fd19c4a744291f41983316869ac9dea6cf",
+  "bytes": 39281,
+  "sha256": "e2d78c9b0d16e8fb8d17aa59abddb9fac12d698fa79eaf63109db4dd0199e72d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        39159,
+        39281
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

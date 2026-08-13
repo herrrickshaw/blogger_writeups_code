@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-08-13T04:58:14.057+05:30",
+  "updated": "2026-08-13T10:48:41.903+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 25628,
-  "sha256": "4c4376ecb73b24be03a42bc020381e39c653d9d2fa5ac8caf2a073d126b329ad",
+  "bytes": 25750,
+  "sha256": "87b3bc9062bf11ad7c942da5f57170d78f4d432f5d6eecc0fe4be7c30335fdae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25628,
+        25750
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

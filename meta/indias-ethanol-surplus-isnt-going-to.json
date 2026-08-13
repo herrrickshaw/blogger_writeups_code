@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
   "slug": "indias-ethanol-surplus-isnt-going-to",
   "published": "2026-08-05T16:50:47.000+05:30",
-  "updated": "2026-08-13T04:51:12.259+05:30",
+  "updated": "2026-08-13T10:57:34.782+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 20270,
-  "sha256": "a5b49fcfb6f6042f9d70b5c8568873aeba0be711f77eb6589ccfe89fce356a4b",
+  "bytes": 20375,
+  "sha256": "d56ccf7523460823e2fb5bd95eec4dcda1646529a3a9b41d31646d0992bbd9a8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        20270,
+        20375
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

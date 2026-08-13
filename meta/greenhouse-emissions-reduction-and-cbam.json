@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-08-13T04:47:13.683+05:30",
+  "updated": "2026-08-13T10:44:18.305+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 26061,
-  "sha256": "658df6f81ac2f1499bd15286e8be7e4c60496d3b596e9711649b7b118b39d146",
+  "bytes": 26183,
+  "sha256": "039cf515104a909bfba3e7e6c2f64efeecf75e3a0af0d1acf8dae114023082bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        26061,
+        26183
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

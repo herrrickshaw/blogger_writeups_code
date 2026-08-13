@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:53:16.276+05:30",
+  "updated": "2026-08-13T10:58:35.347+05:30",
   "labels": [
     "Chemicals",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 41715,
-  "sha256": "815e0dd767f9190c9e6d22dc7787e47af2210b603a274ad95d20a19a95927b0f",
+  "bytes": 41742,
+  "sha256": "f2b559e2a397bd7d7a8d82069c705b1d16005386a99b1eac0f382353196a2450",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -145,6 +145,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        41715,
+        41742
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

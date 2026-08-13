@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-08-13T04:45:20.231+05:30",
+  "updated": "2026-08-13T10:56:48.377+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 21867,
-  "sha256": "63d1b751683e589248a19441997b546be9b9605f2e1a2ed73f62930eb558e900",
+  "bytes": 21957,
+  "sha256": "6f2b937afa3d4bf5f5f18b35909dacff32dd4432e0a6d755f214dd727e59945d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        21867,
+        21957
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

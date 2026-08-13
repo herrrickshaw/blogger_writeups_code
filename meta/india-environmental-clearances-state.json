@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T04:48:53.628+05:30",
+  "updated": "2026-08-13T10:57:12.398+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 13762,
-  "sha256": "ac7b698cf1a4064de9cc2c95d35a55f1cf0e89cda8e47562648f2991ad99a494",
+  "bytes": 13867,
+  "sha256": "4096609975183fc4d670fdf91c660d0a01954f2c70dfa9efff01a6855892b53b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -130,6 +130,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        13762,
+        13867
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

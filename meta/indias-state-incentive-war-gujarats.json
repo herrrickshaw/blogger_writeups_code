@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
   "slug": "indias-state-incentive-war-gujarats",
   "published": "2026-08-05T17:18:03.000+05:30",
-  "updated": "2026-08-13T04:52:48.496+05:30",
+  "updated": "2026-08-13T10:58:10.246+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 31162,
-  "sha256": "cc58d91fbec940e064ec60ba5135548d92742694629a2df0991c37d6f8a7b955",
+  "bytes": 31267,
+  "sha256": "4e17015360dee1f2f40b3f29b3cb43b7baa3b4c29a104237c18e91eac3aea8c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        31162,
+        31267
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

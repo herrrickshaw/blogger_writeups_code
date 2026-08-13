@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-08-13T04:38:48.630+05:30",
+  "updated": "2026-08-13T10:41:38.074+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 49067,
-  "sha256": "7bbc6377de7f1979dadd5d69edf38afd5bf4dd894e23cdfb1390f707de9d3c50",
+  "bytes": 49189,
+  "sha256": "faddf355a49ea35c575578aec406ca1de40d4d6d25bb31fa5e11b60de191809a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        49067,
+        49189
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

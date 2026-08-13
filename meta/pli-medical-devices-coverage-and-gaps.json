@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-08-13T04:56:24.937+05:30",
+  "updated": "2026-08-13T10:47:21.410+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 19174,
-  "sha256": "eb8e5177e92cb09514e050ea1fab33d343c83cf5d0d714df25c369f59a8e38a1",
+  "bytes": 19305,
+  "sha256": "f59bfc159e96869e8a82ed641929403162a6924459156ef5f6d30703a8d8787b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19174,
+        19305
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

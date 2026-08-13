@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T10:27:29+05:30",
+  "snapshot": "2026-08-13T11:02:49+05:30",
   "count": 144,
   "posts": {
     "1058853159205559121": {
@@ -147,13 +147,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-13T05:01:26.931+05:30",
+      "updated": "2026-08-13T10:59:24.755+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 17447,
-      "sha256": "f482aa898783c28205dd321c4b193800966d1b5d099f6445b86a4e10d7eb7186",
+      "bytes": 17544,
+      "sha256": "61a8c6f46161e98f422d71cc415b67c22cf28cf53c17fe91f92150ab04434a79",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -165,7 +165,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -287,6 +287,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            17447,
+            17544
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -541,12 +554,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
       "slug": "petroleum-trade-pairings-and-us-crude",
       "published": "2026-08-08T10:22:11.000+05:30",
-      "updated": "2026-08-13T04:56:11.023+05:30",
+      "updated": "2026-08-13T10:55:34.622+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 143471,
-      "sha256": "de8061bec4bdccc0135d04fb8e19482cc3993e82ae94c925cc7a9e0668d52c2b",
+      "bytes": 143610,
+      "sha256": "d5ab06ee93d8d989d97ed86cd4efc0f320c3b6e17cf6d4063502bf1df5f848d9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -558,7 +571,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -618,6 +631,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            143471,
+            143610
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -722,12 +748,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
       "slug": "quarterly-reportage-4034-scheme",
       "published": "2026-08-04T13:58:09.000+05:30",
-      "updated": "2026-08-13T04:57:19.943+05:30",
+      "updated": "2026-08-13T10:48:00.960+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 540545,
-      "sha256": "1805c0396ff0c641c138392aebd365c7170048183eb0a1bfccbcb6445da6c626",
+      "bytes": 540684,
+      "sha256": "8fcb118c98f3edaa5e13940af18f42fdd78c5665eb3338a0aa58f249b1f9566c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -739,7 +765,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -834,6 +860,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            540545,
+            540684
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -1094,13 +1133,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
       "slug": "pli-medical-devices-coverage-and-gaps",
       "published": "2026-08-05T05:27:53.000+05:30",
-      "updated": "2026-08-13T04:56:24.937+05:30",
+      "updated": "2026-08-13T10:47:21.410+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 19174,
-      "sha256": "eb8e5177e92cb09514e050ea1fab33d343c83cf5d0d714df25c369f59a8e38a1",
+      "bytes": 19305,
+      "sha256": "f59bfc159e96869e8a82ed641929403162a6924459156ef5f6d30703a8d8787b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1112,7 +1151,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1207,6 +1246,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19174,
+            19305
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -1216,14 +1268,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html",
       "slug": "fourteen-years-of-indian-wholesale",
       "published": "2026-08-05T21:46:29.000+05:30",
-      "updated": "2026-08-13T04:46:11.483+05:30",
+      "updated": "2026-08-13T10:56:58.974+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Prices & Inflation"
       ],
-      "bytes": 26479,
-      "sha256": "f833ed97a931d29e9033674a819856b8e1dfc335ae94f9154ccd08a5f34dd29d",
+      "bytes": 26569,
+      "sha256": "deae6294a95d76083645ac412d1ee993cc10172d85ba04b134cc8210e556e300",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1235,7 +1287,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1373,6 +1425,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26479,
+            26569
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -1382,12 +1447,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
       "slug": "priority-export-destinations-by-growth",
       "published": "2026-08-02T13:49:40.000+05:30",
-      "updated": "2026-08-13T04:56:40.109+05:30",
+      "updated": "2026-08-13T10:47:32.748+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 39851,
-      "sha256": "88c2f2ee360c4681547a2dc718792d3c074ed55bc4aec371e423bb769b294422",
+      "bytes": 39990,
+      "sha256": "f60e359263556ef86e08e3dd7f2683f9bf109e55412a70fffb1fa004cce0e6df",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1399,7 +1464,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1503,6 +1568,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            39851,
+            39990
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -2501,12 +2579,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.000+05:30",
-      "updated": "2026-08-13T04:59:18.408+05:30",
+      "updated": "2026-08-13T10:58:58.664+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 120843,
-      "sha256": "523f899b53b3118383ec3cc6963221647cabe48738614c170ed8d50a72b9a725",
+      "bytes": 120982,
+      "sha256": "4466d2eeeb012405a1a2fd96bada8545e0687b1f611788b2899870001638200c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2518,7 +2596,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2622,6 +2700,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            120843,
+            120982
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3076,13 +3167,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-13T04:40:19.371+05:30",
+      "updated": "2026-08-13T10:42:12.976+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 44607,
-      "sha256": "be371ead6ab350f105bcefe6e0af0e2d0f694bcc67aa5e6500565402d36f08d9",
+      "bytes": 44729,
+      "sha256": "8ed4b6014fe9b52f93cef62dcd404e915fc3fe7de5c1507eb8b3a3c1a6d921aa",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3094,7 +3185,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3206,6 +3297,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44607,
+            44729
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3215,12 +3319,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
       "slug": "ethanol-blending-omc-books-e20-today-vs",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:44:56.424+05:30",
+      "updated": "2026-08-13T10:56:37.867+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 41009,
-      "sha256": "7b46f4ba57e50127a37bbb1735cc97b5f7f8462cd01d6d96613443d95ffd74ac",
+      "bytes": 41148,
+      "sha256": "92e52549a141cbd6182baddae1a87cc7a9d48cea2e0e160ffab2e13e2424e1e9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3232,7 +3336,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3341,6 +3445,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            41009,
+            41148
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3350,13 +3467,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
       "slug": "rooftop-solar-is-working-household",
       "published": "2026-08-06T08:11:47.000+05:30",
-      "updated": "2026-08-13T04:58:52.331+05:30",
+      "updated": "2026-08-13T10:58:47.751+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 17893,
-      "sha256": "54d62949e07a2260c60c094e71709ca28f33a9e2bc2644e72d5245bb4ab2eead",
+      "bytes": 17984,
+      "sha256": "d7d3f130fa2b331e5cbdf65f71002b352fea2a5038a0c29f2b1d42f98ba51072",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3368,7 +3485,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3454,6 +3571,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            17893,
+            17984
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3463,12 +3593,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
       "slug": "indias-oil-fields-are-running-down-3696",
       "published": "2026-08-06T08:32:50.000+05:30",
-      "updated": "2026-08-13T04:52:21.778+05:30",
+      "updated": "2026-08-13T10:57:46.132+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 19830,
-      "sha256": "de6cc3342788fd0d521db1450cce08facb0f6458b51176e933d7a1773b522e1d",
+      "bytes": 19921,
+      "sha256": "a070ec2afc1b823a11fdfcb6413df55e6480a7bba4e4ab120782a7a217264951",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3480,7 +3610,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3566,6 +3696,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19830,
+            19921
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3693,14 +3836,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
       "slug": "imported-fertiliser-fuel-prices-diesel",
       "published": "2026-08-02T13:50:50.000+05:30",
-      "updated": "2026-08-13T04:48:27.523+05:30",
+      "updated": "2026-08-13T10:44:53.096+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Prices & Inflation"
       ],
-      "bytes": 33349,
-      "sha256": "de47db03b14ed7e96fd55c29044c6c7c6f8e812d76c3facf1897bf84631d071c",
+      "bytes": 33488,
+      "sha256": "0a220add162c3b4ef86f630593a6c607b101002380894fc5f9d357b9f99e5715",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3712,7 +3855,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3829,6 +3972,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33349,
+            33488
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -3838,12 +3994,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
       "slug": "indias-trade-balance-hsn-wise",
       "published": "2026-08-02T14:00:15.000+05:30",
-      "updated": "2026-08-13T04:53:29.602+05:30",
+      "updated": "2026-08-13T10:46:40.760+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 55262,
-      "sha256": "1bcbc65e0cee7f094223d9c0709ce58b3326d1f347138bc78a303e6e0f4a228e",
+      "bytes": 55401,
+      "sha256": "000a7363e8086a2fd3159e6362f077c95477de6c542b8fc1cace0f9396dd7bdf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3855,7 +4011,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3963,6 +4119,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            55262,
+            55401
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -4249,13 +4418,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
       "slug": "lok-sabha-question-registry-1843-scheme",
       "published": "2026-08-04T16:00:00.000+05:30",
-      "updated": "2026-08-13T04:55:03.756+05:30",
+      "updated": "2026-08-13T10:46:55.629+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy"
       ],
-      "bytes": 462044,
-      "sha256": "979c4391ae3853bcde3500c10288f2a5c704ee0f9e794afffd8fe293e449d22d",
+      "bytes": 462183,
+      "sha256": "f55401e11d6e1b391fdf05e9b4279687a57e9348eed2f6292b951e4fe00813b5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4267,7 +4436,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4362,6 +4531,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            462044,
+            462183
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -4741,13 +4923,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
       "slug": "priority-trade-partners-by-import",
       "published": "2026-08-02T14:01:14.000+05:30",
-      "updated": "2026-08-13T04:56:52.911+05:30",
+      "updated": "2026-08-13T10:47:45.593+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 42593,
-      "sha256": "f9c049c3a16b4fc80793b452395a9dcb568f1222c47d0e62c2eb3db1735f760f",
+      "bytes": 42732,
+      "sha256": "40f066cc5016fb5a9dc450db81cbee20d780d6fe2216430e986a3f125c2e576a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4759,7 +4941,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4880,6 +5062,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            42593,
+            42732
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -4889,13 +5084,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
       "slug": "nature-versus-nurture-indias-fertiliser",
       "published": "2026-08-02T21:05:10.000+05:30",
-      "updated": "2026-08-13T04:55:44.573+05:30",
+      "updated": "2026-08-13T10:47:08.721+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Gas & LNG"
       ],
-      "bytes": 77798,
-      "sha256": "54f643092496c5ad601f7bcefa5f0d44bdcb53a7701262447f74204b066b9e77",
+      "bytes": 77920,
+      "sha256": "84bad5786ccb9b9fb251d41e2f985d2d86bcdfc2fd7a491e46ddd03143462538",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4907,7 +5102,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.5",
+      "version": "3.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5032,6 +5227,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            77798,
+            77920
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -5171,13 +5379,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
       "slug": "indias-medical-device-trade-gap-and",
       "published": "2026-08-05T05:24:27.000+05:30",
-      "updated": "2026-08-13T04:52:09.850+05:30",
+      "updated": "2026-08-13T10:46:27.445+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 24303,
-      "sha256": "3a3ec1273363994839b571f111ed0bc78a4f3a107f4d8f9dbf472389601536a0",
+      "bytes": 24442,
+      "sha256": "fa4e3d9a85a57db8766c5fcce2ee62b0b10b0f3d48ee030d5379d4dc8c8c82a3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5189,7 +5397,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5284,6 +5492,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            24303,
+            24442
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -5637,13 +5858,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
       "slug": "five-year-synthesis-trade-currency",
       "published": "2026-08-02T13:51:50.000+05:30",
-      "updated": "2026-08-13T04:45:59.329+05:30",
+      "updated": "2026-08-13T10:43:36.342+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 42116,
-      "sha256": "5fa15d7e662cbf3e8562d20c212e61b204a2479a7060cf6472ce733084ba9a64",
+      "bytes": 42255,
+      "sha256": "dc63caa022749aabfc9f66285e2d5e0c3da18c32ad9cc73ee64432ecb7b9461d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5655,7 +5876,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5759,6 +5980,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            42116,
+            42255
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -6006,12 +6240,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
       "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-08-13T05:00:23.983+05:30",
+      "updated": "2026-08-13T10:59:12.024+05:30",
       "labels": [
         "Textiles"
       ],
-      "bytes": 16989,
-      "sha256": "5285135d920ae5256abe5526ecd5148d0495d0d73c0ac2ab289df76d75576bb8",
+      "bytes": 17084,
+      "sha256": "cca4ad4ea6b4f7b716920cc399f0fcd147fe365ee534e9f8a911e177d1223e00",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6023,7 +6257,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6114,6 +6348,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            16989,
+            17084
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -6262,13 +6509,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
       "slug": "import-dependent-sectors-vs-government",
       "published": "2026-08-02T14:03:17.000+05:30",
-      "updated": "2026-08-13T04:48:13.916+05:30",
+      "updated": "2026-08-13T10:44:40.342+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 25642,
-      "sha256": "85c892473322e54da591335d87ee8b967a532bc9a1e53ee5dea8aac33b1a2634",
+      "bytes": 25781,
+      "sha256": "b094a226386cbd7c667617aa3a2682da83c877c67fb6dd90125fc352ab4ba83b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6280,7 +6527,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6384,6 +6631,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25642,
+            25781
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -6393,12 +6653,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
       "slug": "the-most-discussed-schemes-in",
       "published": "2026-08-04T15:50:00.000+05:30",
-      "updated": "2026-08-13T05:02:32.742+05:30",
+      "updated": "2026-08-13T10:49:05.611+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 33054,
-      "sha256": "03d0c86ec321e9cc0f4eb0dc212b78dd0a923ea9f8765753507e249b0e42e0a9",
+      "bytes": 33185,
+      "sha256": "b77eb5ac819fad45661e0f35c183d2968249dba9f976021275d00b812edb081b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6410,7 +6670,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6505,6 +6765,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33054,
+            33185
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -6796,12 +7069,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
       "slug": "indian-it-in-ai-era",
       "published": "2026-08-04T12:48:16.000+05:30",
-      "updated": "2026-08-13T04:50:37.640+05:30",
+      "updated": "2026-08-13T10:45:40.867+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 37255,
-      "sha256": "176d707b0a1c9e2982601000f141947de549f624624683a54c404b347b434c73",
+      "bytes": 37394,
+      "sha256": "fc91f549d7b9410449253670bbb57b45cb51a48f6b338877e7f6993de3e3848b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6813,7 +7086,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6908,6 +7181,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37255,
+            37394
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -6917,14 +7203,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
       "slug": "indias-petrochemical-import-tree-from",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:52:35.317+05:30",
+      "updated": "2026-08-13T10:57:58.651+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 23195,
-      "sha256": "fc6c50c580351bedea0a7e4057f144a7825d72c8d72df91721555e5a38095941",
+      "bytes": 23334,
+      "sha256": "21b4a77e2a72c9b2453429e56260234f583a06849ae19b259c7975e232efee86",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6936,7 +7222,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7045,6 +7331,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23195,
+            23334
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -7154,13 +7453,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
       "slug": "rajya-sabha-question-registry-scheme",
       "published": "2026-08-04T15:55:00.000+05:30",
-      "updated": "2026-08-13T04:57:47.040+05:30",
+      "updated": "2026-08-13T10:48:15.339+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy"
       ],
-      "bytes": 325430,
-      "sha256": "cb83bbca071dad6cd11a98b208d9adbb08ea9f3f960f6113ccd1c3c6a22fd08d",
+      "bytes": 325569,
+      "sha256": "f698b49f7b20e2dcf9255a31f5c6d4abd838013cbc33f1b7dc6146201b2ad576",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7172,7 +7471,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7267,6 +7566,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            325430,
+            325569
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -7276,12 +7588,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
       "slug": "india-forest-wildlife-crz-clearances",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:49:07.276+05:30",
+      "updated": "2026-08-13T10:45:17.020+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 21787,
-      "sha256": "61d1d5fe84c914f4497ea679ff214185a5a55a8ba688451ad791d66788ddd084",
+      "bytes": 21926,
+      "sha256": "e12b01ae37d234bfa782f5c3f118a804b105523772594b3f44d46122c7fd5ac8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7293,7 +7605,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7402,6 +7714,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21787,
+            21926
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -8576,13 +8901,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-08-13T04:41:10.431+05:30",
+      "updated": "2026-08-13T10:42:34.918+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Climate & Carbon"
       ],
-      "bytes": 44509,
-      "sha256": "93fdad607d8e73a9c16e39a7c6d93d164aa82135ef67f7866b420476419c1a63",
+      "bytes": 44631,
+      "sha256": "8967880ceaa9bcac6bf5fadbad73e63e69b7429069a3131605fa6a5c838b46e4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8594,7 +8919,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.7",
+      "version": "2.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8732,6 +9057,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44509,
+            44631
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -9156,13 +9494,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
       "slug": "indias-lock-imports-hit-19784-million",
       "published": "2026-08-11T10:03:48.000+05:30",
-      "updated": "2026-08-13T04:51:58.725+05:30",
+      "updated": "2026-08-13T10:46:16.513+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 23099,
-      "sha256": "f3422e467913768242ddec7abd5ddcc67f9a6a107aae579a8bc0a780e6e2a29b",
+      "bytes": 23221,
+      "sha256": "5f23d5d7b4998066e80d4e1000fe4b938cbdbb262b23e5cb067f7435ad928fd3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9174,7 +9512,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9247,6 +9585,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23099,
+            23221
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -9343,12 +9694,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
       "slug": "india-trade-sector-policy",
       "published": "2026-07-21T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:50:25.845+05:30",
+      "updated": "2026-08-13T10:45:29.649+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 18229,
-      "sha256": "95ca6d1328d37adbd60608ff51e3abe960ad381a2969a7f24ed76d11034b5eb8",
+      "bytes": 18368,
+      "sha256": "4cd47000883c367e6ce9d23930af124e7e39ee5e361a71e61b4daaa7092980bf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9360,7 +9711,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9482,6 +9833,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            18229,
+            18368
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -9491,12 +9855,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
       "slug": "india-ec-approval-funnel-parivesh-20",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:48:40.172+05:30",
+      "updated": "2026-08-13T10:45:04.378+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 15777,
-      "sha256": "950f936fc35a8eea44a4bc8409c5d8f51e1cf4d205209f73a13cea1d6f47dc7d",
+      "bytes": 15899,
+      "sha256": "310d1ae1d81a0b9899bb8e4d99d791e6c9023de77eb3cf5a1d3f9d91d30f9b23",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9508,7 +9872,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9617,6 +9981,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            15777,
+            15899
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10218,14 +10595,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
       "slug": "indias-textile-import-export-strategy",
       "published": "2026-07-27T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:53:16.276+05:30",
+      "updated": "2026-08-13T10:58:35.347+05:30",
       "labels": [
         "Chemicals",
         "Textiles",
         "Trade & Tariffs"
       ],
-      "bytes": 41715,
-      "sha256": "815e0dd767f9190c9e6d22dc7787e47af2210b603a274ad95d20a19a95927b0f",
+      "bytes": 41742,
+      "sha256": "f2b559e2a397bd7d7a8d82069c705b1d16005386a99b1eac0f382353196a2450",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10237,7 +10614,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10359,6 +10736,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            41715,
+            41742
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10368,14 +10758,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-13T04:42:33.367+05:30",
+      "updated": "2026-08-13T10:56:12.112+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 53037,
-      "sha256": "870d7bde463b10c67352806acf5f9914f374549661da550ed59301a896f4f0d1",
+      "bytes": 53064,
+      "sha256": "24dab2bb380e5351052b4f571e1e22dee5a3cc4612ec2090301ad2e3e4425801",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10387,7 +10777,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10504,6 +10894,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            53037,
+            53064
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10513,12 +10916,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-08-13T04:46:47.959+05:30",
+      "updated": "2026-08-13T10:49:54.841+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 79636,
-      "sha256": "a18546def2e223437c9b81ec467c4bfa68c05d7a74b5fe45fd71d91e9b2ebd70",
+      "bytes": 79775,
+      "sha256": "bb8a9ecb6b566a1132d31ffe4e67f48f58fd09185a7c585f1defc7ec39e490b5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10530,7 +10933,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10651,6 +11054,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            79636,
+            79775
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10660,12 +11076,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
       "slug": "050-is-its-own-category-diving-into",
       "published": "2026-08-11T15:32:23.000+05:30",
-      "updated": "2026-08-13T04:38:36.719+05:30",
+      "updated": "2026-08-13T10:41:27.445+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 17868,
-      "sha256": "cabee299b1ee3672e000bc17eb39eabad4a853294592d0faa11a14ecd15b30e4",
+      "bytes": 17990,
+      "sha256": "04bf77a6cc7f389c2813d701e37e1c1d9e37c1457ed79846a2ed6b0789bb214d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10677,7 +11093,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10737,6 +11153,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            17868,
+            17990
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10746,12 +11175,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
       "slug": "effective-buying-power-china-comparison",
       "published": "2026-08-02T14:02:12.000+05:30",
-      "updated": "2026-08-13T04:44:42.006+05:30",
+      "updated": "2026-08-13T10:43:23.615+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 34869,
-      "sha256": "bee1d861e2b7a0c7be655925b8119d1e30c9081c892ebfffa029233e7a2d530b",
+      "bytes": 35008,
+      "sha256": "c11443bfcf1cb0fb5841fda2bd9accdf2da5130eb3efe6c4ec7ed1d4ee78faf8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10763,7 +11192,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10867,6 +11296,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34869,
+            35008
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -10876,13 +11318,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
       "slug": "re-spinning-charkha",
       "published": "2026-08-03T10:32:15.000+05:30",
-      "updated": "2026-08-13T04:58:14.057+05:30",
+      "updated": "2026-08-13T10:48:41.903+05:30",
       "labels": [
         "Energy & Fuels",
         "Textiles"
       ],
-      "bytes": 25628,
-      "sha256": "4c4376ecb73b24be03a42bc020381e39c653d9d2fa5ac8caf2a073d126b329ad",
+      "bytes": 25750,
+      "sha256": "87b3bc9062bf11ad7c942da5f57170d78f4d432f5d6eecc0fe4be7c30335fdae",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10894,7 +11336,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10967,6 +11409,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25628,
+            25750
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -11075,12 +11530,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
       "slug": "annexure-314-hsn-codes-mapped-to",
       "published": "2026-08-03T09:53:02.000+05:30",
-      "updated": "2026-08-13T04:40:06.440+05:30",
+      "updated": "2026-08-13T10:42:01.107+05:30",
       "labels": [
         "Textiles"
       ],
-      "bytes": 45130,
-      "sha256": "e200b34cf78296d07a990f8c2e6ed09641e6aab42d5db002bed0ea40809732ef",
+      "bytes": 45252,
+      "sha256": "f781ea2a21921c98091aec283336e31773c0e8470f3008cedda46ff47266c523",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11092,7 +11547,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11191,6 +11646,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            45130,
+            45252
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -11200,13 +11668,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
       "slug": "greenhouse-emissions-reduction-and-cbam",
       "published": "2026-08-02T22:18:00.000+05:30",
-      "updated": "2026-08-13T04:47:13.683+05:30",
+      "updated": "2026-08-13T10:44:18.305+05:30",
       "labels": [
         "Climate & Carbon",
         "Industrial Policy"
       ],
-      "bytes": 26061,
-      "sha256": "658df6f81ac2f1499bd15286e8be7e4c60496d3b596e9711649b7b118b39d146",
+      "bytes": 26183,
+      "sha256": "039cf515104a909bfba3e7e6c2f64efeecf75e3a0af0d1acf8dae114023082bd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11218,7 +11686,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11291,6 +11759,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26061,
+            26183
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -11746,13 +12227,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
       "slug": "indias-ethanol-surplus-isnt-going-to",
       "published": "2026-08-05T16:50:47.000+05:30",
-      "updated": "2026-08-13T04:51:12.259+05:30",
+      "updated": "2026-08-13T10:57:34.782+05:30",
       "labels": [
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 20270,
-      "sha256": "a5b49fcfb6f6042f9d70b5c8568873aeba0be711f77eb6589ccfe89fce356a4b",
+      "bytes": 20375,
+      "sha256": "d56ccf7523460823e2fb5bd95eec4dcda1646529a3a9b41d31646d0992bbd9a8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11764,7 +12245,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11859,6 +12340,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            20270,
+            20375
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -11868,14 +12362,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.000+05:30",
-      "updated": "2026-08-13T04:47:01.836+05:30",
+      "updated": "2026-08-13T10:44:07.250+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 34756,
-      "sha256": "ecdedfe9111e7bc79d32c5e01c13093a704a33b0430ca4c9c42ef737af533c20",
+      "bytes": 34895,
+      "sha256": "d9a05ccb8279a0687de3d7422fdb530f9b112b6b7748cd7a9f72571cbf26eec0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11887,7 +12381,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11995,6 +12489,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34756,
+            34895
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -12004,12 +12511,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
       "slug": "below-250-is-where-real-junk-lives",
       "published": "2026-08-11T15:22:00.000+05:30",
-      "updated": "2026-08-13T04:40:46.417+05:30",
+      "updated": "2026-08-13T10:42:23.514+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 18233,
-      "sha256": "66641358cd093565f249d3230b036dcd01a3668e3b56477bf0973a9c6292c8dc",
+      "bytes": 18355,
+      "sha256": "d4410c82163718f3a1c33e4eaa2d5c0d8c730fcb1e77561236f5ba9d06cb3aed",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12021,7 +12528,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12107,6 +12614,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            18233,
+            18355
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -13036,13 +13556,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
       "slug": "where-indias-green-hydrogen-bets-are",
       "published": "2026-08-05T17:14:26.000+05:30",
-      "updated": "2026-08-13T05:05:55.232+05:30",
+      "updated": "2026-08-13T10:59:48.851+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 18893,
-      "sha256": "db2f8dfb4a6bdd4127e25072c34bd10ab1a43cf9793f932c7f249050a92f832e",
+      "bytes": 18998,
+      "sha256": "03c2cc26f46ce2e3d38282b1a2fa8e3fee525a3c7a8ec98016991bea4bf28833",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13054,7 +13574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13149,6 +13669,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            18893,
+            18998
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -13158,13 +13691,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
       "slug": "cold-chain-fuel-outlet-integrated-map",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:43:11.553+05:30",
+      "updated": "2026-08-13T10:56:25.183+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Gas & LNG"
       ],
-      "bytes": 12468,
-      "sha256": "e8c01ff19f4c88413df1cf30d1e9989dcc16f05e9e38ad08e9def4163f60f129",
+      "bytes": 12573,
+      "sha256": "73013e5c20901b50afb04a86de1ca1450b48e427f63dc0287a6d4bf54ec3f343",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13176,7 +13709,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13298,6 +13831,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            12468,
+            12573
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -13407,12 +13953,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
       "slug": "the-fearless-girls-charter-indias",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T05:01:52.390+05:30",
+      "updated": "2026-08-13T10:56:00.026+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 22917,
-      "sha256": "cf49e5915c34ccac394f343effdbc1daa2ea65091ed9dc04a865bc2f037d2d04",
+      "bytes": 23039,
+      "sha256": "48d32e579cb43d5f1144265c5e3bd466c3333d52c9c9c13f3691d93f9300ab15",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13424,7 +13970,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13533,6 +14079,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            22917,
+            23039
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -13685,12 +14244,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
       "slug": "indias-carbon-credit-market-domestic",
       "published": "2026-08-02T21:37:31.000+05:30",
-      "updated": "2026-08-13T04:50:49.444+05:30",
+      "updated": "2026-08-13T10:45:52.515+05:30",
       "labels": [
         "Climate & Carbon"
       ],
-      "bytes": 30447,
-      "sha256": "7c785b70d94859fefcec869879c3bd3925eff0161d40288268018c916e87c687",
+      "bytes": 30569,
+      "sha256": "ab1bb993a745d8040ad9567fb309ef93874d525e6ef5dcfdfed049e647eefc38",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13702,7 +14261,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13788,6 +14347,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            30447,
+            30569
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -14585,12 +15157,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
       "slug": "rbi-foreign-exchange-reserves-20152026",
       "published": "2026-08-02T13:43:33.000+05:30",
-      "updated": "2026-08-13T04:58:02.821+05:30",
+      "updated": "2026-08-13T10:48:29.591+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 48986,
-      "sha256": "a9c646880bc75f9101b7a7b1ffbc3e783c898933f07827c7074531edbdadf2cd",
+      "bytes": 49125,
+      "sha256": "7d71cf774afeaa9b2f8be3d1b6693ee745d3dd06dee4efe7f81fcd1f4cc1ecf3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14602,7 +15174,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14697,6 +15269,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            48986,
+            49125
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -14820,13 +15405,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
       "slug": "indias-ev-market-single-digit",
       "published": "2026-08-02T16:16:00.000+05:30",
-      "updated": "2026-08-13T04:51:24.223+05:30",
+      "updated": "2026-08-13T10:46:04.093+05:30",
       "labels": [
         "Mobility & EV",
         "Trade & Tariffs"
       ],
-      "bytes": 37847,
-      "sha256": "faf1af99e91db6e210fc37610b013ff7e0ad0b4df8ef59e3a029d601215b5261",
+      "bytes": 37969,
+      "sha256": "3b5b635a8ab3c952877fa5ed1e883d89bbfda7e2b794cc599b09684f0d43345b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14838,7 +15423,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14924,6 +15509,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            37847,
+            37969
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -15034,12 +15632,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
       "slug": "india-environmental-clearances-state",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:48:53.628+05:30",
+      "updated": "2026-08-13T10:57:12.398+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 13762,
-      "sha256": "ac7b698cf1a4064de9cc2c95d35a55f1cf0e89cda8e47562648f2991ad99a494",
+      "bytes": 13867,
+      "sha256": "4096609975183fc4d670fdf91c660d0a01954f2c70dfa9efff01a6855892b53b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15051,7 +15649,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15160,6 +15758,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            13762,
+            13867
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -15169,12 +15780,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
       "slug": "cpi-inflation-heatmap-india-june-2026",
       "published": "2026-08-02T14:05:22.000+05:30",
-      "updated": "2026-08-13T04:43:36.434+05:30",
+      "updated": "2026-08-13T10:42:46.695+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 72228,
-      "sha256": "c152f2c88e45746810a0b7a264d6c198ea9b898a45c69d26fbd4ddfcbef6922a",
+      "bytes": 72367,
+      "sha256": "643630347fcc78a86a4d62d5e039ae4925f525406f4633207398266f76ea68f1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15186,7 +15797,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15290,6 +15901,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            72228,
+            72367
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -15516,13 +16140,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
       "slug": "indias-state-incentive-war-gujarats",
       "published": "2026-08-05T17:18:03.000+05:30",
-      "updated": "2026-08-13T04:52:48.496+05:30",
+      "updated": "2026-08-13T10:58:10.246+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 31162,
-      "sha256": "cc58d91fbec940e064ec60ba5135548d92742694629a2df0991c37d6f8a7b955",
+      "bytes": 31267,
+      "sha256": "4e17015360dee1f2f40b3f29b3cb43b7baa3b4c29a104237c18e91eac3aea8c1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15534,7 +16158,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15629,6 +16253,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            31162,
+            31267
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -15638,12 +16275,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
       "slug": "europes-export-credit-agencies-are",
       "published": "2026-08-05T19:00:06.000+05:30",
-      "updated": "2026-08-13T04:45:20.231+05:30",
+      "updated": "2026-08-13T10:56:48.377+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 21867,
-      "sha256": "63d1b751683e589248a19441997b546be9b9605f2e1a2ed73f62930eb558e900",
+      "bytes": 21957,
+      "sha256": "6f2b937afa3d4bf5f5f18b35909dacff32dd4432e0a6d755f214dd727e59945d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15655,7 +16292,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15759,6 +16396,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            21867,
+            21957
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -15768,12 +16418,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
       "slug": "where-indias-forex-goes-country",
       "published": "2026-08-02T13:46:53.000+05:30",
-      "updated": "2026-08-13T05:05:43.271+05:30",
+      "updated": "2026-08-13T10:49:42.838+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 44839,
-      "sha256": "04238751c14bdae1face410712cb05bfbc5938bffd09810fdd16d16c382e8044",
+      "bytes": 44978,
+      "sha256": "9f2a842459381658b08edb243da15d0b2afc94e10fde27e00e49f6ea6ab51230",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15785,7 +16435,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15893,6 +16543,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44839,
+            44978
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16014,13 +16677,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
       "slug": "annadata-to-urjadata-farmer-income-case",
       "published": "2026-08-04T16:10:00.000+05:30",
-      "updated": "2026-08-13T04:39:53.781+05:30",
+      "updated": "2026-08-13T10:41:49.687+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 39159,
-      "sha256": "7880899593d0a412d917e4bc79b9d4fd19c4a744291f41983316869ac9dea6cf",
+      "bytes": 39281,
+      "sha256": "e2d78c9b0d16e8fb8d17aa59abddb9fac12d698fa79eaf63109db4dd0199e72d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16032,7 +16695,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16131,6 +16794,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            39159,
+            39281
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16140,12 +16816,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
       "slug": "tiffin-meets-thali-10-day-sip-already",
       "published": "2026-08-11T13:45:20.000+05:30",
-      "updated": "2026-08-13T05:03:59.361+05:30",
+      "updated": "2026-08-13T10:49:28.697+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 19444,
-      "sha256": "ac8cff1694020413bae8e07e9e84389285c01f46f23957cd784881b30e443520",
+      "bytes": 19566,
+      "sha256": "14bb156063e5e4bdc620fd0bdc9afe6eb18cc87a82e4bf988c3c4a5d9e50f4d5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16157,7 +16833,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16204,6 +16880,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            19444,
+            19566
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16213,13 +16902,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
       "slug": "hsn-wise-historical-importexport-trends",
       "published": "2026-08-02T14:04:15.000+05:30",
-      "updated": "2026-08-13T04:47:37.401+05:30",
+      "updated": "2026-08-13T10:44:29.147+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 31509,
-      "sha256": "7bc031d41a4a33bd8e2b9d16a1439b0b584aeb9de25a7ffe0168b9a8f978b2df",
+      "bytes": 31648,
+      "sha256": "99373783c933ef876b1aedba314478a64690c271436f2c1baec273d8b639da3b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16231,7 +16920,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.7",
+      "version": "2.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16378,6 +17067,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            31509,
+            31648
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16639,14 +17341,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
       "slug": "from-fuel-to-fibre-indias-textile",
       "published": "2026-08-03T09:12:32.000+05:30",
-      "updated": "2026-08-13T04:46:36.589+05:30",
+      "updated": "2026-08-13T10:43:51.779+05:30",
       "labels": [
         "Import Substitution",
         "Textiles",
         "Trade & Tariffs"
       ],
-      "bytes": 33826,
-      "sha256": "0b790bc573834d0e8975afcbed7df3ef6d8b125c89d4098a2a472d08d1cdc355",
+      "bytes": 33948,
+      "sha256": "0ede704000544994ecf6c8e825027c0b30c66e8181e98871fbfccdb7b8ec6f11",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16658,7 +17360,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16731,6 +17433,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33826,
+            33948
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16740,13 +17455,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
       "slug": "cgd-geographical-areas-district",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:41:25.032+05:30",
+      "updated": "2026-08-13T10:55:47.267+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 12492,
-      "sha256": "1be0e2158167b22ec18212b8267e0c951625d23e08bca180154e8d17308f2fb3",
+      "bytes": 12597,
+      "sha256": "af76159c13360744eb68230a53df7ce8fde9326449ad6a5cb2a540e671ad40d7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16758,7 +17473,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16880,6 +17595,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            12492,
+            12597
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -16889,12 +17617,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
       "slug": "why-bet-on-one-horse-when-you-can-buy",
       "published": "2026-08-11T14:23:23.000+05:30",
-      "updated": "2026-08-13T05:06:18.781+05:30",
+      "updated": "2026-08-13T10:50:06.274+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 32879,
-      "sha256": "74fe778a4cf2ecbd8df8bbec93de193c532ed2b7ced4589c1cd496cc321d8953",
+      "bytes": 33001,
+      "sha256": "9c7cf8e744c2b5f71f618a1839f9d7a96c1dd6b414aa9be2a18596952334250b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16906,7 +17634,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.10",
+      "version": "1.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17044,6 +17772,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.11",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            32879,
+            33001
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -17278,13 +18019,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
       "slug": "india-fuel-retail-outlets-82k-geocoded",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:49:20.719+05:30",
+      "updated": "2026-08-13T10:57:24.273+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 12509,
-      "sha256": "d9ed5d12900e8668def3edbc1c2fbebf35484401b0ae7a25885b5b3842f69384",
+      "bytes": 12614,
+      "sha256": "64d780e157872e27a0d049bb6739bd1b5137a3c6081aa9e344326f9baaae8019",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17296,7 +18037,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17405,6 +18146,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            12509,
+            12614
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -17414,12 +18168,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
       "slug": "do-cheap-stocks-stay-cheap-price-band",
       "published": "2026-08-11T15:52:01.000+05:30",
-      "updated": "2026-08-13T04:44:28.880+05:30",
+      "updated": "2026-08-13T10:43:11.930+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 89218,
-      "sha256": "41ef9193eb916c1916c98a3d07dbd6115f9148efb0ef93f50a69ee1869ea71e5",
+      "bytes": 89340,
+      "sha256": "d329b5d6e665be84b4a24cd2c90bb9db9f592b7f7e457566cb04379ee13800f9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17431,7 +18185,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.4",
+      "version": "2.1.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17530,6 +18284,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.5",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            89218,
+            89340
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -17539,12 +18306,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
       "slug": "a-slice-of-apple-costs-about-1700-slice",
       "published": "2026-08-11T10:59:06.000+05:30",
-      "updated": "2026-08-13T04:38:48.630+05:30",
+      "updated": "2026-08-13T10:41:38.074+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 49067,
-      "sha256": "7bbc6377de7f1979dadd5d69edf38afd5bf4dd894e23cdfb1390f707de9d3c50",
+      "bytes": 49189,
+      "sha256": "faddf355a49ea35c575578aec406ca1de40d4d6d25bb31fa5e11b60de191809a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17556,7 +18323,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.12",
+      "version": "1.0.13",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17720,6 +18487,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.13",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            49067,
+            49189
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -17846,12 +18626,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
       "slug": "cpi-wpi-trends-mospi-bulletin",
       "published": "2026-08-02T13:48:25.000+05:30",
-      "updated": "2026-08-13T04:43:50.594+05:30",
+      "updated": "2026-08-13T10:43:00.016+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 44385,
-      "sha256": "2f3b45886d841bbc38a94b964788754b8f408f221c7015b219d921d6e16fd664",
+      "bytes": 44524,
+      "sha256": "4427d37fe11fd86b4c9b83d7aef0c23b378df0af503b3f51675583b3bceaba47",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17863,7 +18643,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17984,6 +18764,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            44385,
+            44524
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -18670,14 +19463,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
       "slug": "indias-subsidised-imports-fertilisers",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-08-13T04:53:03.105+05:30",
+      "updated": "2026-08-13T10:58:23.155+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals",
         "Trade & Tariffs"
       ],
-      "bytes": 33919,
-      "sha256": "c9822b910545bd6e0374767831968aef4100cf742485129db8207df54c93207d",
+      "bytes": 34024,
+      "sha256": "2b1ea705e8ab65fe3a257156010227a8e3b2653c95d2177e6666621a7c7b2ba5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18689,7 +19482,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18824,6 +19617,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33919,
+            34024
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -18833,12 +19639,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
       "slug": "real-gdp-growth-india-fy2012-13-to",
       "published": "2026-08-02T13:45:39.000+05:30",
-      "updated": "2026-08-13T04:58:27.562+05:30",
+      "updated": "2026-08-13T10:48:54.052+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 29086,
-      "sha256": "5ef8bab7632db386252deec058958149262f17913e3558adacdf9c028dfe2e66",
+      "bytes": 29225,
+      "sha256": "dcbcad6df3b003e2d6caa51766cc49963b638fb3d91c3a99c6c95c4c7b3d23c7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18850,7 +19656,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18954,6 +19760,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            29086,
+            29225
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -19093,12 +19912,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
       "slug": "the-price-of-grain-msp-msv-and",
       "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-08-13T05:02:59.023+05:30",
+      "updated": "2026-08-13T10:49:18.095+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 35385,
-      "sha256": "2af7872bd07d632327c8900cb5a35f6dc651cad88f079460a8ecf3c2a571058f",
+      "bytes": 35524,
+      "sha256": "d7ec372b6ddff0a11cc16cc466f0a8a497c086ff9bfc8bd42440e5f54e3adfa3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19110,7 +19929,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19232,6 +20051,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            35385,
+            35524
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     },
@@ -19241,12 +20073,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
       "slug": "us-stock-picks-multi-screen-quant",
       "published": "2026-07-24T05:30:00.000+05:30",
-      "updated": "2026-08-13T05:04:51.792+05:30",
+      "updated": "2026-08-13T10:59:38.047+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 32529,
-      "sha256": "2a4a7a156877736a04139a0377a1e9c11f13bcff84457c147d6c5ca4c9623d21",
+      "bytes": 32651,
+      "sha256": "fe434f61a54d25bc09a9b0f70e55327e052a767734332248de1b99a987b31981",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19258,7 +20090,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19362,6 +20194,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-13T11:02:49+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            32529,
+            32651
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
         }
       ]
     }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-08-13T04:58:27.562+05:30",
+  "updated": "2026-08-13T10:48:54.052+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 29086,
-  "sha256": "5ef8bab7632db386252deec058958149262f17913e3558adacdf9c028dfe2e66",
+  "bytes": 29225,
+  "sha256": "dcbcad6df3b003e2d6caa51766cc49963b638fb3d91c3a99c6c95c4c7b3d23c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        29086,
+        29225
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

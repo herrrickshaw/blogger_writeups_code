@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-08-13T04:43:36.434+05:30",
+  "updated": "2026-08-13T10:42:46.695+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 72228,
-  "sha256": "c152f2c88e45746810a0b7a264d6c198ea9b898a45c69d26fbd4ddfcbef6922a",
+  "bytes": 72367,
+  "sha256": "643630347fcc78a86a4d62d5e039ae4925f525406f4633207398266f76ea68f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        72228,
+        72367
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

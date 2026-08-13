@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-08-13T04:58:02.821+05:30",
+  "updated": "2026-08-13T10:48:29.591+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 48986,
-  "sha256": "a9c646880bc75f9101b7a7b1ffbc3e783c898933f07827c7074531edbdadf2cd",
+  "bytes": 49125,
+  "sha256": "7d71cf774afeaa9b2f8be3d1b6693ee745d3dd06dee4efe7f81fcd1f4cc1ecf3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -116,6 +116,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        48986,
+        49125
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

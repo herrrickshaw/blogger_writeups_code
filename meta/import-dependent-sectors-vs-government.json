@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.000+05:30",
-  "updated": "2026-08-13T04:48:13.916+05:30",
+  "updated": "2026-08-13T10:44:40.342+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 25642,
-  "sha256": "85c892473322e54da591335d87ee8b967a532bc9a1e53ee5dea8aac33b1a2634",
+  "bytes": 25781,
+  "sha256": "b094a226386cbd7c667617aa3a2682da83c877c67fb6dd90125fc352ab4ba83b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -126,6 +126,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25642,
+        25781
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }

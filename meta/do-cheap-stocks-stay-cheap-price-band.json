@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
   "slug": "do-cheap-stocks-stay-cheap-price-band",
   "published": "2026-08-11T15:52:01.000+05:30",
-  "updated": "2026-08-13T04:44:28.880+05:30",
+  "updated": "2026-08-13T10:43:11.930+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 89218,
-  "sha256": "41ef9193eb916c1916c98a3d07dbd6115f9148efb0ef93f50a69ee1869ea71e5",
+  "bytes": 89340,
+  "sha256": "d329b5d6e665be84b4a24cd2c90bb9db9f592b7f7e457566cb04379ee13800f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.4",
+  "version": "2.1.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.5",
+      "date": "2026-08-13T11:02:49+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        89218,
+        89340
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
     }
   ]
 }
