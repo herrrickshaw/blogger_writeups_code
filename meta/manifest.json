@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-13T11:02:49+05:30",
+  "snapshot": "2026-08-13T11:09:16+05:30",
   "count": 144,
   "posts": {
     "1058853159205559121": {
@@ -10003,14 +10003,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
       "slug": "price-is-wire-how-gcam-actually-links",
       "published": "2026-08-13T10:21:55.000+05:30",
-      "updated": "2026-08-13T10:26:39.571+05:30",
+      "updated": "2026-08-13T11:08:49.751+05:30",
       "labels": [
         "Climate Modeling",
         "Energy Systems",
         "India"
       ],
-      "bytes": 23611,
-      "sha256": "98dc18b8de97b83572fb602ab965663bf740b55d033fc3c5f12b8695001e3387",
+      "bytes": 34678,
+      "sha256": "774e5c01fa46d65c05398ebecf6eee3b4bbb1cd51bfcbfdb5aea8a868befa6c7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10022,7 +10022,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10030,6 +10030,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post: GCAM system-integration explainer, using PNNL/JGCRI docs, GMD v5.1 paper, KLEM macro module, and CEEW's India-specific GCAM-CEEW build"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-08-13T11:09:16+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            23611,
+            34678
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "GCAM article revision: removed KLEM equation, added architecture diagram (price/quantity split, no-foresight loop), added Modelling Energy Access section with CEEW's own admitted urban-rural income convergence gap"
         }
       ]
     },

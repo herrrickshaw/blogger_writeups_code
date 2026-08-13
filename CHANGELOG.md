@@ -4820,3 +4820,16 @@ Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22
 - `india-environmental-clearances-state` — 13,762 → 13,867 bytes (+105)
 - `india-fuel-retail-outlets-82k-geocoded` — 12,509 → 12,614 bytes (+105)
 - `india-trade-sector-policy` — 18,229 → 18,368 bytes (+139)
+
+## 2026-08-13T11:09:16+05:30 — 144 posts live
+
+GCAM article revision: removed KLEM equation, added architecture diagram (price/quantity split, no-foresight loop), added Modelling Energy Access section with CEEW's own admitted urban-rural income convergence gap
+
+
+**Versions**
+
+- `price-is-wire-how-gcam-actually-links` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `price-is-wire-how-gcam-actually-links` — 23,611 → 34,678 bytes (+11,067)
