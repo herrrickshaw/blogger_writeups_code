@@ -4908,3 +4908,22 @@ Fixed real contradiction found by full-site audit: Nature Versus Nurture Section
 **Changed**
 
 - `nature-versus-nurture-indias-fertiliser` — 77,920 → 77,920 bytes (+0)
+
+## 2026-08-13T21:47:23+05:30 — 146 posts live
+
+Site-audit fixes batch 1: chemical import substitution cluster (4 posts) — untagged retracted figures (FY30 savings, Tier1 .1bn, LDPE/Ethylene targets, Scenario Analysis), Cross-Validation table caveat, stray editorial bracket, capex reconciliation gap, Ministry name fix, pointer direction fix
+
+
+**Versions**
+
+- `top-15-chemicals-for-import` **2.0.5 → 2.0.6** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `chemical-import-substitution-quarterly` **1.0.9 → 1.0.10** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `top-15-chemicals-for-import--4751284523575450171` **2.1.1 → 2.1.2** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `chemical-import-substitution-analysis` **1.0.8 → 1.0.9** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `top-15-chemicals-for-import` — 81,339 → 82,215 bytes (+876)
+- `chemical-import-substitution-quarterly` — 53,064 → 53,265 bytes (+201)
+- `top-15-chemicals-for-import--4751284523575450171` — 21,390 → 21,723 bytes (+333)
+- `chemical-import-substitution-analysis` — 32,429 → 33,355 bytes (+926)

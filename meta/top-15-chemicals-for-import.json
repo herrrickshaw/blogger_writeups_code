@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-13T05:04:13.927+05:30",
+  "updated": "2026-08-13T21:43:38.930+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 81339,
-  "sha256": "74990b42c572a875a49b6b78775fd53c9de94c9c23de6243fa3625a9f5d775d6",
+  "bytes": 82215,
+  "sha256": "76213e216f279dce801fa3c0439047f9cc5fceae1f2fd6a7cc211bb9de2ac952",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -139,6 +139,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-08-13T21:47:23+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        81339,
+        82215
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Site-audit fixes batch 1: chemical import substitution cluster (4 posts) — untagged retracted figures (FY30 savings, Tier1 .1bn, LDPE/Ethylene targets, Scenario Analysis), Cross-Validation table caveat, stray editorial bracket, capex reconciliation gap, Ministry name fix, pointer direction fix"
     }
   ]
 }
