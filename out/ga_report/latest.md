@@ -4,17 +4,17 @@
 
 ## Totals
 
-- Active users: **74**
-- Total users: **74**
-- Page views: **1059**
-- Sessions: **173**
+- Active users: **77**
+- Total users: **77**
+- Page views: **1181**
+- Sessions: **185**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 46 | 1019 |
-| United States | 22 | 27 |
+| India | 47 | 1139 |
+| United States | 24 | 29 |
 | (not set) | 2 | 2 |
 | Oman | 2 | 2 |
 | Ireland | 1 | 2 |
@@ -26,11 +26,12 @@
 |---|---|---|
 | Chennai | 21 | 312 |
 | (not set) | 11 | 12 |
-| Coimbatore | 9 | 365 |
+| Coimbatore | 10 | 386 |
 | Madurai | 8 | 230 |
 | Flint Hill | 7 | 11 |
-| Salem | 4 | 95 |
+| Salem | 4 | 194 |
 | Hyderabad | 3 | 3 |
+|  | 2 | 2 |
 | Bengaluru | 2 | 5 |
 | Delhi | 2 | 2 |
 | Muscat | 2 | 2 |
@@ -53,9 +54,9 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 365 | 49 |
+| / | 412 | 51 |
+| /search | 89 | 4 |
 | /2026/08/article-index-start-here.html | 48 | 5 |
-| /search | 41 | 4 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 21 | 3 |
