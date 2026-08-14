@@ -9,26 +9,37 @@ Source: `posts/hsn-wise-historical-importexport-trends.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99536, Requested 2346. Please try again in 27m6.048s. Need more tokens? Upgrade to Dev Tier today at https]
+FACTUAL ERRORS:
+- "FY2025-26 is the most recent data available (updated 19 May 2026 per source)" — The article does not provide information to verify this claim, but it does not seem to be an error based on the given context. However, without access to the source, it's impossible to confirm. [confidence: low]
+- "proposed domestic investment in Electricals Equipment jumped from ₹65,979 crore (2021) to ₹233,829 crore (2024)" — This claim cannot be verified without access to DPIIT's 2025-26 Annual Report, but it is presented as a factual statement. [confidence: medium]
+None of the other claims appear to be factual errors based on the information provided in the article.
+
+INTERPRETATION ERRORS:
+- "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)" — The article later explains that this number describes an endpoint, not a trend, due to the volatility of the chapter. This could be seen as an interpretation error because the CAGR is used to support the claim that fertilisers are the fastest-growing import, when in fact the chapter's growth is not consistent. [confidence: high]
+- "The chapters actually accelerating — fertilisers, electrical machinery, edible oils — point to where new import dependency is building" — This claim assumes a causal relationship between the growth of these chapters and the building of new import dependency, which may not be entirely accurate. The growth of these chapters could be due to various factors, and the article does not provide sufficient evidence to support this conclusion. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)" — The CAGR is incorrectly stated as 118.9% (which would imply a 10.8x increase) when the actual calculation from the provided data (from $6.7bn to $14.6bn) is closer to ~11.8% CAGR. The 118.9% figure appears to be a misinterpretation of the percentage change over the period rather than the annualized rate. [confidence: high]
+- "Fertilisers (HS31) posts the highest eight-year CAGR among India's dozen largest imports — +118.9% since FY2018-19 (11.8% a year)" — The CAGR is incorrectly stated as 118.9% (which would imply a 2.189x increase) when the actual calculation from the data shows a +11.8% CAGR (0.118x increase). The article confuses the total percentage increase with the annualized rate. [confidence: high]
 
-- "DPIIT's '24 champion sub-sectors' programme separately names electronics and aluminium among sectors selected partly for 'need for import substitution' — the same conclusion this chart reaches from the trade numbers alone." — The article claims the trade data independently concludes a "need for import substitution" for electronics, but the trade data only shows growth in imports and exports of electrical machinery. The conclusion about import substitution is an interpretation not directly supported by the trade data alone; it requires additional context (e.g., domestic production capacity or policy intent) which is not provided in the trade figures. [confidence: high]
+- "DPIIT's own 2025-26 Annual Report (not a trade-data source — it doesn't publish a balance-of-trade series — but its Industrial Entrepreneur Memorandum investment-intention data, Appendix IV)" — The article incorrectly states that the DPIIT Annual Report does not publish a balance-of-trade series, as the report itself includes trade-related data (e.g., exports/imports, trade balance) in its statistical appendices. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Fertilisers (HS31) ... is the most volatile chapter here, not the fastest-growing one" — While the article correctly notes the volatility of fertiliser imports, it then contrasts this with the CAGR ranking, implying that volatility negates the CAGR metric entirely. However, CAGR is a mathematical construct that can still be calculated for volatile series; the issue is that the CAGR may not meaningfully describe the trend due to the volatility. The article conflates "volatility" with "not fastest-growing," which is a misinterpretation of what CAGR represents. [confidence: high]
+- "Fertilisers (HS31) ... It is the most volatile chapter here, not the fastest-growing one" — While the article correctly notes the volatility of fertiliser imports, it then claims that electrical machinery (+101.5% CAGR) and edible oils (+97.9% CAGR) are the fastest-growing, which is misleading. The CAGR for fertilisers is actually higher (+118.9% total increase, though misstated as noted above), and the article's own table shows fertilisers with a higher 8-year CAGR (11.8%) than edible oils (10.2%) when calculated correctly. The conclusion that fertilisers are not the fastest-growing is based on a misinterpretation of volatility as the sole criterion, ignoring the CAGR metric. [confidence: high]
 
-- "The chapters actually accelerating — fertilisers, electrical machinery, edible oils — point to where new import dependency is building" — The article uses the growth of these import chapters to infer "new import dependency," but the trade data alone does not establish dependency. Dependency would require evidence of reduced domestic production, increased consumption, or lack of substitution—factors not directly measurable from import growth rates alone. The conclusion overreaches the data. [confidence: high]
+- "Electrical machinery is unusual in that it's growing fast on both sides of the ledger (imports of components, exports of assembled goods) — consistent with India importing parts for final assembly and re-export, rather than either pure import substitution or pure domestic manufacturing." — While the data shows electrical machinery growing on both sides, the article assumes this implies a specific trade pattern (importing parts for assembly/re-export) without sufficient evidence. The trade data alone does not distinguish between import substitution, domestic manufacturing, or re-export activity. The conclusion conflates correlation (growth on both sides) with causation (a specific trade pattern). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

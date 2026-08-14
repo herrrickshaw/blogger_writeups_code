@@ -16,19 +16,19 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99330, Requested 2534. Please try again in 26m50.496s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9416, Requested 2866. Please try again in 1.41s. Need more tokens? Upgrade to Dev Tier today at https://]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article claims a publication date of 8 August 2026, but the content references sources dated January 2026 (e.g., Business Standard article) and a Standing Committee report from 1 December 2025. This is internally inconsistent and likely incorrect, as a January 2026 source would not be available in August 2026. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The publication date is in the future relative to the cited sources (e.g., Business Standard January 2026, Standing Committee report December 2025), which is impossible. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct evidence, and urea production costs can vary by plant and region. [confidence: medium]
+- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The 90% figure is presented as a fact without confirmation from an official government document or peer-reviewed study. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's production cost is natural gas, and India sources only a quarter of that gas domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the $18 billion import bill, but the article does not establish that the remaining 74% of gas is imported at prices that directly translate to higher urea costs. The 90% cost share is for *production*, not the import bill, and the article conflates gas price volatility with import dependence without quantifying the actual contribution of imported gas to the total import bill. [confidence: high]
+- "90% of urea's production cost is natural gas... and only 26% of that gas is sourced domestically" — The article implies that the 76% surge in the fertiliser import bill is directly caused by India's import dependence for natural gas (74% imported) and the high share of gas in urea production costs. However, the surge in the import bill is attributed to "rains-driven demand surge" and "structural import dependence," not explicitly linked to the gas cost share. The causal chain between gas import dependence, gas price volatility, and the 76% increase is not directly supported by the data presented. [confidence: high]
 
-- "A rains-driven demand surge on top of a structural import dependence" — The article attributes the 76% YoY increase in the import bill primarily to heavy rains and expanded cultivation, but it does not provide data showing that the *entire* 76% increase is due to demand-side factors. Structural import dependence (e.g., 95–100% for potash/phosphate) may have contributed to the baseline import bill, but the article does not disentangle the incremental impact of the rains from pre-existing trends. [confidence: medium]
+- "A crude price spike does not just raise India's fuel-retail bill... it raises the fertiliser subsidy bill through the exact same gas-price channel" — While the article correctly notes that urea production is gas-intensive and linked to crude prices via thermal parity, it conflates the "fertiliser subsidy bill" with the "fertiliser import bill." The import bill is driven by quantity and global prices of fertilisers (urea, DAP, etc.), while the subsidy bill is a domestic policy cost. The two are related but distinct, and the article does not clarify this distinction or provide evidence that the subsidy bill increase is directly proportional to the import bill surge. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,22 +9,29 @@ Source: `posts/india-ec-approval-funnel-parivesh-20.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- none found
+
+INTERPRETATION ERRORS:
+- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection." — Conflating active pipeline backlog with "attrition." Applications currently pending review across ToR, screening, and appraisal are ongoing work-in-progress, not lost or terminated proposals (attrition). [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99479, Requested 855. Please try again in 4m48.576s. Need more tokens? Upgrade to Dev Tier today at https:]
+FACTUAL ERRORS:
+- "113,970 EC proposals" — The article does not provide a source to verify this specific number, but it does mention that the data comes from the PARIVESH 2.0 open API, which may be a reliable source. However, without direct access to the API or more information about the data collection, the accuracy of this number cannot be confirmed. [confidence: medium]
+- None other found.
+
+INTERPRETATION ERRORS:
+- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection." — This statement implies that auto-delisting and pipeline backlog are the primary causes of proposal failure, while rejection is not a significant factor. However, the article also states that 6,954 proposals were not approved, which includes 2,553 rejections. This number, although smaller than auto-delisted and pending proposals, still represents a significant portion of proposals that did not move forward. The statement may downplay the importance of rejection as a factor in proposal failure. [confidence: medium]
+- None other found.
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a source or methodology to verify this 49% figure. The claim is presented as fact without citation or supporting data. [confidence: medium]
+- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a source or methodology to verify this claim. The percentage appears to be an unsupported assertion rather than a verified fact. [confidence: low]
 
 INTERPRETATION ERRORS:
-- "Once a proposal reaches a decision, it is overwhelmingly approved" — While the grant rate of decided proposals is 88.7%, this does not necessarily imply that the approval process is "overwhelmingly" favorable. The high grant rate could be due to proposals being filtered out earlier (e.g., auto-delisted or withdrawn), leaving only the most viable applications for final decision. The claim conflates the high grant rate among decided proposals with the overall likelihood of approval, ignoring the attrition before reaching a decision. [confidence: high]
+- "Grant rate of DECIDED proposals: 88.7%" — The claim that "once a proposal reaches a decision, it is overwhelmingly approved" is an overgeneralization. The grant rate is calculated as granted ÷ decided, but the article does not account for the fact that "decided" proposals may include withdrawn or returned applications, which are not rejections but also not approvals. This inflates the perceived approval rate. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

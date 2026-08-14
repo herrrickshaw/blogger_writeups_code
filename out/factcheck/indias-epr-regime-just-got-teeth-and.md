@@ -16,19 +16,25 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99362, Requested 2155. Please try again in 21m50.687999999s. Need more tokens? Upgrade to Dev Tier today a]
+FACTUAL ERRORS:
+- "India's Battery Waste Management Rules, first notified in 2022 and amended in 2023, 2024 and 2025" — The article does not provide a source to verify the exact dates of the amendments in 2023, 2024, and 2025, but the main claim of the rules being first notified in 2022 can be verified [confidence: medium]
+- None found for other specific factual errors, but the article itself notes the potential for AI-generated text to misstate figures, which could lead to factual errors [confidence: low]
+
+INTERPRETATION ERRORS:
+- "Detailed rules, escalating targets, and a persistent gap between what's mandated and what's tracked" — This conclusion assumes that the existence of detailed rules and escalating targets should naturally lead to effective tracking and enforcement, which may not be the case due to various factors such as lack of resources, corruption, or inadequate infrastructure [confidence: high]
+- "The pattern across both [plastic-EPR rule change and battery-EPR regime] — a regulator writing increasingly specific rules, and an enforcement gap that specificity alone does not close" — This interpretation implies a direct causal relationship between the specificity of rules and the enforcement gap, which might oversimplify the complex issues involved in enforcement, such as the need for adequate resources, public awareness, and effective monitoring mechanisms [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The publication date is likely incorrect because the article references a 2026 policy brief and rules notified in January 2026, but the AI disclosure mentions the article was written with AI assistance (Claude), which did not exist in 2026. The date is likely a hallucination. [confidence: high]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source material (CSE policy brief) specifies that the 90% recovery rate is required by 2026-27 for the *plastic packaging* EPR rules, not for batteries. For batteries, the 90% recovery rate was already required in 2024-25 (as noted later in the article). [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article states the incentive was approved in September 2025, but the source (CSE policy brief, 2026) does not provide a specific month for the approval. The month may be unverified or incorrect. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a source confirming the disbursement or implementation status of this incentive, and the CSE brief describes it as an approved-but-unspent allocation. The claim implies it is already in effect, which is unverified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Manufacturers must hit a 90% recovery rate of battery materials by 2026-27, up from 70% in 2024-25" — The claim implies a direct comparison between the 2026-27 target and the 2024-25 baseline, but the source (CSE policy brief) does not explicitly state that the 70% rate was a *mandatory* requirement in 2024-25. The 70% figure may refer to an earlier draft or a different context, making the comparison misleading. [confidence: medium]
+- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The claim suggests that the new rules create a strict hierarchy where reuse offsets downstream obligations, but the article does not clarify whether this hierarchy is explicitly codified in the rules or merely implied by the removal of EOL certificates. The enforcement gap between the stated hierarchy and actual compliance remains unproven. [confidence: medium]
 
-- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The claim suggests that the EPR framework requires producers to assess residual capacity and route batteries to second-use applications, but the source (CSE brief) does not explicitly state that the framework *mandates* this assessment or that producers are required to act on it. The interpretation overstates the enforceability of the "second-use" stage. [confidence: medium]
+- "A 2026 policy brief lays out exactly where India's battery-EPR regime is being routed around." — The article presents the CSE policy brief as definitive evidence of systemic gaps in the battery-EPR regime, but it does not establish causation between the documented gaps (e.g., black mass market, informal sector) and the failure of the EPR framework to address them. The brief describes these issues but does not prove they are directly caused by the EPR rules' design. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

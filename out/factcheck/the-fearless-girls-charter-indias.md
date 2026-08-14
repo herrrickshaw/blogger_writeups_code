@@ -16,15 +16,15 @@ Source: `posts/the-fearless-girls-charter-indias.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99798, Requested 954. Please try again in 10m49.728s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99087, Requested 991. Please try again in 1m7.391999999s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "STCG at 20%, LTCG at 12.5%" — The current long-term capital gains (LTCG) tax rate for equities in India is 10% (for gains exceeding ₹1 lakh), not 12.5%, and short-term capital gains (STCG) for equities are taxed at 15%, not 20%. The 2024 hike mentioned does not reflect the correct rates. [confidence: high]
+- "STCG at 20%, LTCG at 12.5%" — The current long-term capital gains (LTCG) tax rate for equity in India is 10% (for gains above ₹1 lakh), not 12.5%, and short-term capital gains (STCG) tax is 15%, not 20%. The 2024 budget did not change these rates. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Carry the 2026 expense-ratio reset all the way through — unbundled, comparable fund fees and tighter brokerage caps, so nothing hides in the fine print." — The claim implies that a 2026 expense-ratio reset will automatically ensure unbundled, comparable fees and tighter brokerage caps. However, expense-ratio resets alone do not guarantee these outcomes unless explicitly mandated by regulatory changes (e.g., SEBI rules). The reasoning conflates a potential policy change with its enforcement and impact. [confidence: medium]
+- "Carry the 2026 expense-ratio reset all the way through — unbundled, comparable fund fees and tighter brokerage caps, so nothing hides in the fine print." — The claim implies that a 2026 expense-ratio reset is a confirmed policy or regulatory action, but there is no evidence in the article or public records that such a reset is planned or scheduled for 2026. The reasoning gap is the assumption of an impending policy change without verification. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

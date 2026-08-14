@@ -16,19 +16,19 @@ Source: `posts/priority-trade-partners-by-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99085, Requested 1870. Please try again in 13m45.12s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99314, Requested 2315. Please try again in 23m27.456s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of the article's retrieval date (18 Jul 2026). The correct fiscal year for data collection should be 2024-25 or earlier. [confidence: high]
+- "China supplies 8 of India's 12 fastest-growing high-value imports." — This claim is unverifiable as stated because the article does not provide the specific list of the 12 fastest-growing/highest-value import chapters or their corresponding import values. Without this data, the claim cannot be fact-checked against TRADESTAT or other sources. [confidence: medium]
 
-- "PLI 1.2 ... launched November 2025" — The PLI 1.2 scheme for Specialty Steel was not launched in November 2025; PLI schemes are typically announced and implemented in the fiscal year they are budgeted for (e.g., FY2025-26). The timeline appears inconsistent with standard government budget cycles. [confidence: high]
+- "PLI schemes cover the import value of only 2 of the 12 with a strong scheme match (3 more have partial coverage; 7 have none)." — This claim is unverifiable because the article does not provide the exact import values for the 12 chapters or the specific calculations used to determine coverage. The claim relies on an unstated methodology for quantifying "coverage," making it impossible to verify. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "China supplies 8 of India's 12 fastest-growing high-value imports" — The claim implies a causal or structural dominance of China in these sectors, but the article does not establish whether China's supply is due to import substitution gaps, price competitiveness, or other factors. The data only shows *what* is supplied, not *why*, making the conclusion about China's role speculative. [confidence: medium]
+- "PLI Specialty Steel ... directly targets HS72 (iron & steel, +25.2% growth, Korea/Indonesia/Japan/China as the top current suppliers) — a stronger, more recent lever than this repo's earlier 'Partial' rating reflected." — The claim implies that the PLI Specialty Steel scheme directly reduces imports of HS72 by targeting production, but the article does not provide evidence that the scheme has already led to a measurable reduction in imports. The growth rate (+25.2%) and supplier rankings are factual, but the causal link to import reduction is an extrapolation beyond what the data shows. [confidence: high]
 
-- "The USA is the most diversified major partner — present in 9 of 12 sectors but never dominant in any single one, which is a structurally different (and lower-risk) kind of relationship than China's." — While the diversification claim is factual, the assertion that this makes the relationship "lower-risk" is an interpretation unsupported by the data. Diversification does not inherently equate to lower risk (e.g., geopolitical or supply chain risks may still exist). [confidence: high]
+- "The USA is the most diversified major partner — present in 9 of 12 sectors but never dominant in any single one, which is a structurally different (and lower-risk) kind of relationship than China's." — While the diversification claim is factual, the assertion that this makes the relationship "lower-risk" is an interpretation that lacks supporting evidence or analysis. The article does not define "risk" or provide data to justify this conclusion. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

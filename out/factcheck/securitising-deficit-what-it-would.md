@@ -16,19 +16,21 @@ Source: `posts/securitising-deficit-what-it-would.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99906, Requested 18772. Please try again in 4h28m57.792s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99190, Requested 18818. Please try again in 4h19m18.911999999s. Need more tokens? Upgrade to Dev Tier toda]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — This claim is incorrect. The article later states that India's total merchandise imports in FY2025-26 were $774.98 billion, with $321.8 billion from BRICS members. The claim that "almost all" of these BRICS imports are paid in dollars is an overstatement, as the article itself discusses the potential for local currency settlement. [confidence: high]
+- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — This claim is incorrect. The article later states that India sold BRICS members $95.8 billion, meaning not all imports are paid for in dollars. The claim implies all imports are paid in dollars, which contradicts the trade balance data provided. [confidence: high]
 
-- "Russia already ran the experiment and quietly abandoned it. Trapped rupees peaked near $8 billion and fell to about $3.5 billion — not because they were spent, but because the oil trade moved to dirhams and yuan instead." — The claim that the oil trade moved to dirhams and yuan is not supported by the data provided. The article later states that Russia's trade settlement in "unfriendly" currencies is only about 18%, with 42% in "friendly" currencies, but it does not specify that the oil trade moved to dirhams and yuan. [confidence: medium]
+- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies, with roughly 42% in 'friendly' ones." — This claim cannot be verified as the Bank of Russia does not publicly disclose currency breakdowns of trade settlements since 2022. The article cites this as a source but provides no official confirmation. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "The carry works for exactly the right countries. China, the UAE and Saudi Arabia all have policy rates and 10-year yields below India's. They hold 70% of the residual and would earn a genuine pickup — up to 513 basis points for China — on Indian government paper." — The reasoning gap here is that the article assumes that the yield pickup is a net benefit for the counterparties, but it does not account for the fact that the rupee's depreciation could erase this pickup. The article later acknowledges that the rupee has depreciated faster than the pickup for the UAE and Saudi Arabia, making the carry negative for them. [confidence: high]
+- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — This claim conflates two distinct concepts. While settling a deficit in local currency does create a foreign-held claim (vendor financing), it can still reduce dollar demand if the counterparty holds the currency for trade or investment purposes. The article incorrectly frames this as purely a liability without acknowledging potential benefits in reducing dollar dependency. [confidence: high]
 
-- "The one genuine opening is pharmaceuticals: India is already Russia's largest supplier of generics by volume, exporting roughly $546 million against Russian global pharma import bill of $9.7 billion. That is the biggest single addressable gap anywhere in the Russian basket — and it is worth about 1% of the annual deficit." — The reasoning gap here is that the article assumes that increasing pharmaceutical exports to Russia is a viable solution to the trade deficit, but it does not consider the practical constraints such as Russia's own pharmaceutical production capacity, regulatory barriers, or the impact of sanctions on trade flows. [confidence: medium]
+- "The break-even is not comfortable. The rupee has depreciated about 3.55% a year against the dollar over the past decade and 5.34% a year over the past five. Against China's 5.13% break-even, a ten-year Indian bond is a genuine but not overwhelming trade; against the UAE's 2.54% and Saudi Arabia's 2.24% — both effectively dollar-pegged — recent rupee depreciation has been faster than the pickup." — This reasoning gap incorrectly assumes that the break-even depreciation rate is the only factor determining the attractiveness of holding rupee assets. It ignores the broader strategic and geopolitical motivations for holding rupees, such as diversifying away from dollar exposure or maintaining trade relationships. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

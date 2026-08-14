@@ -9,26 +9,36 @@ Source: `posts/india-sells-world-53-billion-of-fuel.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99414, Requested 3965. Please try again in 48m39.456s. Need more tokens? Upgrade to Dev Tier today at http]
+FACTUAL ERRORS:
+- "US$53.0 billion of petroleum products out against US$9.3 billion in" — The article itself later states that the export value is actually US$52,973 million, not US$53.0 billion, and the import value is US$9,320 million, not US$9.3 billion [confidence: high]
+- "India exported US$62.6bn to US$53.0bn" — The article itself later states that the export value is actually US$62,550 million, not US$62.6 billion, and the export value for the next year is US$52,973 million, not US$53.0 billion [confidence: high]
+
+INTERPRETATION ERRORS:
+- "India has idle distilleries and an alcohol trade deficit at the same time" — The article concludes that India has idle distilleries due to overcapacity, but this does not necessarily mean that the distilleries are idle because of a lack of demand for ethanol; it could be due to other factors such as lack of feedstock or uncompetitive pricing [confidence: medium]
+- "The surplus is shrinking in value and its centre of gravity is Rotterdam, a market exposed to European sanctions policy in a way the neighbourhood is not" — The article implies that the shrinking surplus is a problem, but it does not consider the possibility that the decline in value could be due to a decrease in global prices rather than a decrease in demand or a loss of market share [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is impossible as the article references FY2025-26 data (which ends in March 2026) and mentions "FY2026-27" in the future tense. The correct publication date should be in 2025. [confidence: high]
+- "India runs a genuine refined-fuel surplus — US$53.0 billion of petroleum products out against US$9.3 billion in." — The article later clarifies that the net surplus is US$43.7 billion (US$53.0 billion exports minus US$9.3 billion imports), not US$53.0 billion. The phrasing incorrectly presents the gross exports as the surplus. [confidence: high]
 
-- "US$53.0bn Refined petroleum exports, HS 2710, FY2025-26" — The article later cites the exact export value as US$52,973 million (≈US$53.0bn), but the table shows FY2025-26 exports as US$52,973 million, not US$53.0bn. The rounding is inconsistent with the precision of other figures. [confidence: high]
+- "The single largest destination for Indian refined petroleum is the Netherlands, at US$8,435 million — 15.9% of the total, and almost all of it in the diesel-and-fuel-oil group." — The article cites US$8,435 million as the value for the Netherlands, but the exhibit table shows US$8,435 million as the value for the Netherlands, which is 15.9% of the total exports (US$52,973 million). However, the claim that "almost all of it in the diesel-and-fuel-oil group" is not explicitly verified in the provided text or exhibits. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The surplus is real. India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the net surplus of US$43.653bn is correct, attributing the entire margin to export earnings is misleading. The margin includes domestic consumption and refining profits, not just exports. The surplus is a trade surplus, not necessarily a pure export earnings surplus. [confidence: high]
+- "The surplus is real — India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the surplus is real in terms of trade value, the article does not establish that the margin between crude imports and refined fuel exports is a direct or primary source of export earnings. The margin could include refining costs, logistics, and other expenses, and the claim conflates trade surplus with earnings from refining margins. [confidence: high]
 
-- "Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template." — The article correctly notes Sri Lanka's growth but incorrectly implies that the growth is due to competitive market dynamics rather than other factors (e.g., supply chain disruptions, policy changes, or pricing anomalies). The data does not support the conclusion that Sri Lanka's growth is a "template" for other markets. [confidence: medium]
+- "Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template." — The article correctly notes Sri Lanka's growth in imports from India but does not adequately explain why this growth is not a replicable template. The reasoning gap is that the article does not address whether Sri Lanka's unique economic or political circumstances (e.g., debt crisis, fuel shortages) that may have driven this growth are present in other potential markets. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

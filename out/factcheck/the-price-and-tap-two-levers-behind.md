@@ -16,19 +16,19 @@ Source: `posts/the-price-and-tap-two-levers-behind.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99751, Requested 2595. Please try again in 33m46.944s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99036, Requested 2387. Please try again in 20m29.472s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The RBI's rate lever is not one number but a deliberately narrow corridor around the policy repo rate, with the weighted average call rate (WACR) as the operating target it steers inside that corridor" — The WACR is not the operating target; it is the *outcome* of the corridor system. The RBI steers the *repo rate* (or the corridor around it), and the WACR is the market-determined rate that fluctuates within the corridor. [confidence: high]
+- "The RBI's rate lever is not one number but a deliberately narrow corridor around the policy repo rate, with the weighted average call rate (WACR) as the operating target it steers inside that corridor" — The WACR is not the operating target; it is the rate that the RBI steers within the corridor. The operating target is the policy repo rate itself. [confidence: high]
 
-- "The Monetary Policy Committee cut the repo rate by a cumulative 125bp in this cycle (6.50% → 5.25%)" — The article cites the February 2026 policy as holding the repo rate at 5.25% after a cumulative 125bp cut, but the RBI MPC statement referenced (6 February 2026) does not mention a 6.50% starting rate. The initial rate in the cycle is not explicitly stated in the article, and the 6.50% figure cannot be verified from the cited sources. [confidence: medium]
+- "The Monetary Policy Committee cut the repo rate by a cumulative 125bp in this cycle (6.50% → 5.25%)" — The article claims the MPC cut the repo rate from 6.50% to 5.25%, but the RBI Monetary Policy Statement cited (6 February 2026) shows the repo rate was already at 5.25% in February 2026, and the cumulative cut from 6.50% would imply a 125bp cut, which is not reflected in the cited statement. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The combination [of CRR cut, OMO purchases, and forex swaps] is why transmission worked. Fresh-loan lending rates (WALR) fell 105bp against 125bp of cuts — unusually high pass-through by Indian standards." — The article implies that the liquidity operations (CRR cut, OMO, swaps) directly caused the high transmission of rate cuts to WALR. However, transmission depends on multiple factors (e.g., bank competition, credit demand, macroeconomic conditions), and the article does not establish causality or rule out confounding variables. The claim conflates correlation with causation. [confidence: high]
+- "The rate sets the direction. The window decides how much of it arrives." — While the rate lever sets the direction of monetary policy, the claim that the window "decides how much of it arrives" is an oversimplification. The transmission of rate cuts to lending rates depends on multiple factors, including bank competition, borrower demand, and macroeconomic conditions, not just liquidity windows. The article conflates correlation with causation by attributing the high pass-through solely to liquidity operations. [confidence: high]
 
-- "The February 2026 'hold' was not neutral in effect — with a ₹70,000 crore daily surplus maintained, it was an easing hold." — While the RBI maintained a daily surplus of ₹70,000 crore, the *stance* of "neutral" explicitly signals no change in the direction of policy. The article incorrectly equates liquidity conditions with policy stance, ignoring that the RBI can hold rates steady while adjusting liquidity independently. The conclusion overreaches by redefining "neutral" based on liquidity alone. [confidence: high]
+- "The February 2026 'hold' was not neutral in effect — with a ₹70,000 crore daily surplus maintained, it was an easing hold." — While the RBI maintained a daily surplus, calling it an "easing hold" is misleading. A "hold" refers to the policy rate decision, not the liquidity stance. The liquidity surplus is a separate tool and does not change the neutral stance of the policy rate. The article incorrectly equates liquidity management with monetary policy stance. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

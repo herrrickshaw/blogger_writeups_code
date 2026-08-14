@@ -9,29 +9,29 @@ Source: `posts/iem-conversion-historical-performance.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+[Gemini network error: The read operation timed out]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99526, Requested 2009. Please try again in 22m6.24s. Need more tokens? Upgrade to Dev Tier today at https:]
+FACTUAL ERRORS:
+- "2024 first year IEM implementation > FDI equity inflow" — The article compares calendar-year IEM implementation with fiscal-year FDI equity inflow, which may not be directly comparable due to the difference in reporting periods [confidence: medium]
+- "Gujarat alone implemented Rs 4.55L cr across just 2024-2025" — This claim is based on state-level Part B data, but the article does not provide a source for this specific figure, making it difficult to verify [confidence: low]
+
+INTERPRETATION ERRORS:
+- "45.1% → 82.0% conversion rate, 2021 low to 2024 high" — The article interprets the increase in conversion rate as a sign of improving government performance, but it also acknowledges that the conversion rate is a same-period flow ratio, not a cohort match, which means that the increase could be due to other factors, such as a pipeline effect [confidence: high]
+- "The headline number: is conversion improving? Yes, and sharply" — The article concludes that conversion is improving based on the increase in conversion rate, but it does not account for the fact that the eligibility threshold changed mid-series, which could affect the comparability of the data [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2024 first year IEM implementation > FDI equity inflow" — The article claims that 2024 was the first year IEM implementation (Rs 4,93,765 cr) overtook FDI equity inflow (Rs 4,21,929 cr), but this comparison mixes calendar-year IEM data with fiscal-year FDI data (FY2024-25). The periods are not identical, making the claim unverifiable as stated. [confidence: high]
+- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article later contradicts this by stating "Rs 4,93,765cr, CY2024 as reconciled in the Dec-2025 Annual Report vintage," which is Rs 4.93765 lakh crore, not Rs 4.94 lakh crore. The rounding is inconsistent and incorrect. [confidence: high]
 
-- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article cites Rs 4.94 lakh crore as the implemented value for CY2024, but the table shows Rs 4,93,765 crore (Rs 4.93765 lakh crore), which is not rounded to Rs 4.94 lakh crore. The discrepancy suggests a rounding error or misstatement. [confidence: high]
+- "2019 Part B EXCLUDED — source defect: AR2022-23 prints Gujarat 2019 at Rs 15,18,861cr (~6x all-India)" — The figure Rs 15,18,861 crore is implausibly high for Gujarat's 2019 Part B implementation (likely a typographical error where "15,18,861" should be "15,188.61" or similar). This is a clear data entry error in the source material. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This is the year IEM implementation (Rs 4,93,765cr, CY2024 as reconciled in the Dec-2025 Annual Report vintage) overtook FY2024-25 FDI equity inflow (Rs 4,21,929cr) for the first time — domestic industrial capex outpacing foreign investment as a growth engine" — The claim implies a causal relationship between IEM implementation and domestic industrial capex outpacing foreign investment, but the comparison is flawed because:
-  1. IEM implementation includes both domestic and foreign investments (as it is a record of investment intent filings, not a source-of-funds breakdown).
-  2. FDI equity inflow is only one component of foreign investment and does not account for other forms of foreign capital (e.g., FDI reinvested earnings, foreign portfolio investment in manufacturing).
-  Thus, the conclusion that domestic industrial capex outpaced foreign investment is not supported by the data presented. [confidence: high]
+- "2024 first year IEM implementation > FDI equity inflow" — The article claims that "IEM implementation (Rs 4,93,765cr, CY2024) overtook FY2024-25 FDI equity inflow (Rs 4,21,929cr) for the first time," but compares a calendar-year IEM figure to a fiscal-year FDI figure (FY2024-25). This is an apples-to-oranges comparison because the periods do not align (calendar vs. fiscal year), and the FDI figure may not correspond to the same economic activity. [confidence: high]
 
-- "Supports a genuine improvement story: the 2024 inflection isn't just a pipeline artefact — the raw implemented value (Rs 4.94L cr) is the highest single year on record, and it happened while the Part A base (Rs 6.02L cr) sat well below 2021's outlier peak (Rs 7.71L cr), meaning most of 2024's Part A filings weren't just filed but built." — The article argues that the high conversion rate in 2024 reflects genuine improvement because the implemented value was high despite a lower Part A base. However, this ignores the pipeline effect: Part B in 2024 could still be implementing filings from 2021-2022 (as acknowledged earlier), meaning the high conversion rate may partly reflect the landing of older backlogs rather than solely improved execution. The conclusion conflates the timing of implementation with the efficiency of execution. [confidence: high]
+- "The national conversion-rate story is thus not evenly distributed — it is disproportionately a story about a handful of large industrial states executing faster, not a uniform national acceleration." — While the state-level data shows concentration in Gujarat, Odisha, and Maharashtra, the article does not provide evidence that this disproportionality is due to "executing faster" rather than other factors like larger project sizes or state-specific incentives. The conclusion assumes causation without addressing potential confounding variables. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

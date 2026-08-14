@@ -16,19 +16,19 @@ Source: `posts/re-spinning-charkha.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99973, Requested 3887. Please try again in 55m35.04s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99254, Requested 4069. Please try again in 47m51.072s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "roughly 10.8 billion litres of petrol displaced under E20 alone (PPAC/CareEdge estimate, ESY2025-26)" — The claim is unverifiable as no such estimate from PPAC/CareEdge for ESY2025-26 is publicly available or cited in the article. [confidence: high]
+- "Sixty years on, ethanol blending is trying to do the same thing at national scale" — The article claims ethanol blending is attempting to replicate Dhirubhai Ambani's backward integration strategy, but ethanol blending (E20/E30) is a fuel policy aimed at reducing petrol consumption, not a direct substitute for yarn or fibre imports. The analogy is misleading as the primary goal is decarbonization and energy security, not textile self-reliance. [confidence: high]
 
-- "China alone supplied 45% of India's Chapter 29 organic-chemical imports and 30% of Chapter 39 plastics imports in FY2025-26" — The TRADESTAT data cited does not provide exact percentage shares for these chapters; the article appears to have misinterpreted or misrepresented the data. [confidence: high]
+- "roughly 10.8 billion litres of petrol displaced under E20 alone (PPAC/CareEdge estimate, ESY2025-26)" — The cited estimate of 10.8 billion litres of petrol displacement under E20 is unverifiable in the provided sources (no direct link or full citation to PPAC/CareEdge's ESY2025-26 report is given). The TRADESTAT data for FY2025-26 does not include ethanol blending volumes, making this claim unsupported. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The version underway now — detailed in From Fuel to Fibre and its HSN annexure — is policy-driven and distributed across dozens of companies, and its feedstock unlock comes from a different source entirely: ethanol blending." — While ethanol blending may free up naphtha/reformate, the article does not establish a clear causal link between ethanol blending (E20/E30) and the actual substitution of imported feedstocks (e.g., paraxylene, MEG) at scale. The feedstock substitution depends on complex petrochemical conversion processes and market dynamics, not just policy mandates. [confidence: high]
+- "the version underway now [...] is policy-driven and distributed across dozens of companies, and its feedstock unlock comes from a different source entirely: ethanol blending" — The article assumes ethanol blending will automatically free up sufficient naphtha/reformate feedstock for petrochemical production, but it does not account for the technical and logistical constraints of redirecting refinery streams from fuel to petrochemical feedstock. Ethanol blending may reduce petrol demand, but refiners may not have the flexibility to repurpose the freed naphtha/reformate for petrochemical use without significant infrastructure adjustments. [confidence: high]
 
-- "A successful ethanol-fed backward-integration push would need to substitute both relationships, not just the more visible one." — The article conflates the substitution of China-dominated organic chemicals (Chapter 29) with the substitution of specific monomers (e.g., PTA, PE) without demonstrating that ethanol-derived feedstock can effectively replace these imports in practice. The claim assumes substitutability without evidence of technical or economic feasibility. [confidence: medium]
+- "China alone supplied 45% of India's Chapter 29 organic-chemical imports and 30% of Chapter 39 plastics imports in FY2025-26 — more than the next several countries combined" — While the TRADESTAT data likely shows high import dependence on China for these chapters, the article extrapolates this to imply that ethanol-fed backward integration would necessarily substitute these imports. However, the specific monomers (e.g., PTA, MEG) used in fibre production have different supplier geographies (e.g., South Korea, Middle East), and the ethanol pathway may not address these diversified supply chains. The claim conflates broad chapter-level data with specific monomer dependencies. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

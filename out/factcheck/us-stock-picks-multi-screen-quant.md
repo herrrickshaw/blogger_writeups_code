@@ -16,19 +16,19 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99620, Requested 3422. Please try again in 43m48.288s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98946, Requested 3469. Please try again in 34m46.56s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "AI Disclosure: This article was researched and written with AI assistance (Claude Sonnet), drawing on publicly available government, industry, and academic sources cited above." — The article does not cite any sources above the disclosure, making the claim unverifiable. [confidence: high]
+- "Avg ROE -20.9%" for BeOne Medicines Ltd. — The article lists a negative average ROE (-20.9%) for BeOne Medicines Ltd., but this is inconsistent with the Piotroski F-score of 7 (which typically requires positive earnings and ROA). Negative ROE is also highly unusual for a company with a strong Piotroski score. [confidence: high]
 
-- "Generated 2026-07-24 13:33 UTC" — The article header states "scan as of 2026-07-24 00:43," while the footer claims generation at "2026-07-24 13:33 UTC." These timestamps are inconsistent and likely incorrect as 2026 is a future year. [confidence: high]
+- "Avg ROE 5.4%" for Micron Technology, Inc. — The article states an average ROE of 5.4% for Micron Technology, but Micron's historical ROE has been significantly higher (often above 20% in recent years) and negative during downturns. The figure appears inconsistent with known financial performance. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — While the negative ROE is correctly stated, using it to support a "Quality A/B" rating is misleading because Piotroski scores (which are strong here) do not account for negative equity distorting ROE. The article flags this distortion but still assigns a high-quality grade, creating a contradiction in interpretation. [confidence: high]
+- "Multi-screen agreement → highest conviction sleeve" for all listed stocks — The article repeatedly claims that multi-screen agreement leads to "highest conviction sleeve" for every stock in the CORE sleeve. However, the methodology section states that the screens are "mechanical filters on historical/public data" and that "past patterns do not guarantee future returns." The claim that multi-screen agreement implies highest conviction is an overstatement, as mechanical screens do not inherently reflect investment conviction or predictive power. [confidence: high]
 
-- "Multi-screen agreement → highest conviction sleeve" (for all picks) — The article claims multi-screen agreement implies "highest conviction" for every pick, but the methodology section states that only the "CORE" sleeve represents multi-screen agreement. This conflates the sleeve designation with conviction, as other sleeves (MOMENTUM, WATCH, QUALITY) may also reflect agreement but are not labeled as "highest conviction." [confidence: high]
+- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" for Seagate Technology Holdings PLC — While the article correctly flags the distortion in ROE due to near-zero equity, it still includes the distorted ROE figure in the analysis without adjustment or caveat. This creates a misleading comparison across stocks, as ROE is not comparable when equity is near zero. The interpretation error lies in using a distorted metric to support the thesis without proper normalization or exclusion. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

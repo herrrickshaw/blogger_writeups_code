@@ -16,19 +16,25 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99320, Requested 2650. Please try again in 28m22.08s. Need more tokens? Upgrade to Dev Tier today at https]
+FACTUAL ERRORS:
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The claim is presented as a fact, but the article itself notes that the figures are compiled from secondary reporting of government data and the primary document could not be accessed, which may raise questions about the accuracy of the figure [confidence: medium].
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article could not trace this figure to a single primary NABARD or MoFPI study with a stated methodology, which may indicate that the figure is not verifiable [confidence: medium].
+
+INTERPRETATION ERRORS:
+- "The scheme that overshot its own target ... generated 3.39 lakh direct and indirect jobs — against the scheme's own 2.5 lakh target for 2026" — The article implies that the scheme's success in creating jobs is a direct result of its implementation, but it does not provide a clear causal link between the scheme and the job creation, nor does it account for other factors that may have contributed to the job growth [confidence: high].
+- "India's food-export numbers are exposed to domestic food-security policy as much as to global demand" — The article suggests that domestic food-security policy is a significant factor in India's food-export numbers, but it does not provide sufficient evidence to support this claim, and the example provided (the wheat export ban) may not be representative of the broader trend [confidence: medium].
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article claims a publication date of 8 August 2026, but this is impossible as the current date is before that (as of the knowledge cutoff in April 2024). The date is likely a placeholder or error. [confidence: high]
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims 3.39 lakh jobs were created, but the exhibit table lists "Jobs created (vs. 2.5 lakh target)" as 3.39 lakh. The "L" notation is inconsistent with the rest of the article's use of "lakh" (e.g., "2.5 lakh target"). This is likely a typographical inconsistency rather than a factual error, but it could cause confusion. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but admits it could not trace it to a single primary NABARD or MoFPI study with a stated methodology. Without verifiable sourcing, this claim cannot be confirmed as accurate. [confidence: high]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but does not provide a primary source or methodology. Without verification from a NABARD or MoFPI study, this claim cannot be confirmed as accurate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline." — The article claims the PLISFPI scheme created 3.39 lakh jobs against a 2.5 lakh target by 2026, but it does not establish whether the 2.5 lakh target was for 2026-27 or an earlier year. The comparison may be apples-to-oranges if the target was set for a different timeframe. [confidence: medium]
+- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26, and export sales from the scheme's beneficiaries have grown at a 13.23% compound annual rate since 2019-20." — While the sales figures are correct, the article implies that the PLI scheme directly caused this growth without providing evidence of a causal link. The growth could be due to other factors such as general industry trends, inflation, or other policies. [confidence: high]
 
-- "The Union Budget 2026-27 allocated ₹4,064 crore to the Ministry of Food Processing Industries in total — ₹1,200 crore to PLISFPI, ₹1,700 crore to PMFME, and ₹915 crore to PMKSY, the scheme that funds cold-chain and processing infrastructure directly." — The article implies that the ₹915 crore allocation to PMKSY is insufficient to address the ₹92,651 crore annual loss from cold-chain gaps. However, it does not account for the fact that PMKSY funds infrastructure projects (e.g., cold-chain projects) that may address the capacity gap over multiple years, not just a single year. The comparison conflates annual loss with one-time or multi-year infrastructure investments. [confidence: high]
+- "Under PMKSY, 399 cold-chain projects have been approved to date. Against a stated annual loss of ₹92,651 crore and a 3.5-million-tonne capacity gap, a single year's PMKSY allocation of ₹915 crore is not sized to close it — it is sized to keep adding to it more slowly than the sector is growing around it." — The article correctly notes the scale of the cold-chain gap but incorrectly implies that the ₹915 crore allocation is insufficient to make progress. The allocation may be part of a multi-year plan, and the article does not provide evidence that the gap is growing faster than the allocation can address. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

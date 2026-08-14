@@ -16,19 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99275, Requested 5640. Please try again in 1h10m46.559999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99515, Requested 6138. Please try again in 1h21m24.192s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article itself later states "NIPU-2026 (approved 3 days before the data cutoff)" and the data cutoff is 31 Jul 2026, making the approval date 28 Jul 2026, not 15 Jul 2026. [confidence: high]
+- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026, which is impossible (approval cannot occur after the data cutoff). The correct approval date should be before the data cutoff. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is outside the stated range of ₹1.5–1.7 lakh crore. The range is too narrow to include the calculated sum. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The subsidy estimate for urea (~₹1.19 lakh crore) and NBS (~₹49,000 crore) sums to ~₹1.68 lakh crore, but the article rounds this to ₹1.5–1.7 lakh crore. While not strictly incorrect, the rounding obscures the fact that the upper bound is very close to the sum, which could mislead readers about the precision of the estimate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Nearly 82% of India's entire import bill goes to commodities with subsidies or policy protection." — The article cites 81.6% as the share of the 12 subsidised categories in total imports (₹632.8bn / ₹775bn). However, the claim that "nearly 82%" of the *entire* import bill goes to *subsidised commodities* conflates the 12 protected categories with all commodities receiving *any* form of subsidy or policy protection. The 12 categories are a subset of all protected imports, and the article does not establish that all other imports lack any protection. [confidence: high]
+- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that the 12 categories account for 81.6% of total imports ($632.8bn/$775bn), but the table shows that the 12 categories are defined as those with subsidies or policy protection. However, the article earlier states that some categories (e.g., Gems & Jewellery, Plastics, Inorganic Chemicals, Machinery) are tracked but have no identified subsidy. This creates a contradiction: if these categories are included in the 12 but have no subsidy, the 81.6% share is inflated by non-subsidised imports, making the claim misleading about the actual subsidised import share. [confidence: high]
 
-- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year... most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The article lists subsidy costs for only six categories (fuels, fertilisers, edible oils, electrical machinery, specialty steel, and medical devices) totaling ₹2.2–2.8 lakh crore. However, it does not account for subsidies in the remaining six categories (e.g., iron & steel, inorganic chemicals, aircraft) or other potential indirect subsidies, leading to an undercount. The claim implies the estimate covers *all* subsidised imports, which it does not. [confidence: high]
+- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — The article correctly notes that mineral fuels fell by 6.88% YoY, but it then implies that lower global crude prices *caused* the subsidy to "save money." However, the subsidy cost is estimated at ₹50,000–70,000 crore/year regardless of global prices (as it absorbs the price gap). The subsidy cost is not reduced by lower global prices; it is the mechanism by which the government shields domestic prices. The reasoning conflates lower import values (due to price declines) with subsidy savings, which is incorrect. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

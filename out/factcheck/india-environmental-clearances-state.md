@@ -9,26 +9,34 @@ Source: `posts/india-environmental-clearances-state.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "PARIVESH 2.0's open API — 113,970 proposals (2022–2026)" / "Source: PARIVESH 2.0 open API, full EC register, fetched 22 Jul 2026." — The date cited (22 July 2026) and the time span ending in 2026 are future dates, making the timeframe and data retrieval date factually impossible. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Fresh vs reuse — only 49% are new projects; 22% are mostly re-appraisals of expiring minor-mineral leases on the same plots, plus transfers, expansions and amendments." — In a fresh vs. reuse classification, if fresh projects account for 49%, the non-fresh/reuse share should account for the remaining 51%. Stating that re-appraisals, transfers, expansions, and amendments account for only 22% leaves 29% of total proposals unaccounted for, likely duplicating the 22% auto-delisting attrition figure from the funnel analysis. [confidence: high]
+- "Real attrition here isn't rejection — it's auto-delisting and pipeline backlog..." — Treating a "pipeline backlog" as part of the approval process's "attrition" is an extrapolation error; backlogged proposals are pending or under active review in the appraisal queue, not terminated or rejected applications. [confidence: medium]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99471, Requested 806. Please try again in 3m59.328s. Need more tokens? Upgrade to Dev Tier today at https:]
+FACTUAL ERRORS:
+- "88.7% grant rate of decided proposals" — cannot verify against what is known, as the article does not provide enough context or information about the source of this statistic, although it does mention that the data comes from the PARIVESH 2.0 open API [confidence: medium]
+- "only 10.7% of decided wildlife proposals are granted" — cannot verify against what is known, as the article does not provide enough information about the source of this statistic, although it does mention that it is covered in the companion post Forest, Wildlife & CRZ Clearances [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "The headline 88.7% grant rate makes India's EC process look more permissive than the underlying dynamics suggest" — the article concludes that the EC process is not as permissive as the grant rate suggests, but it does so based on the presence of auto-delisting and pipeline backlog, which may not necessarily be the primary factors influencing the grant rate [confidence: medium]
+- "that fresh-vs-reuse split is the number that actually matters, and the state × sub-sector breakdown shows where the concentration sits" — the article implies that the fresh-vs-reuse split is the most important factor in understanding new industrial capacity, but it does not provide sufficient evidence to support this claim, and other factors may also be relevant [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "113,970 proposals (2022–2026)" — The claim implies these proposals span the entire 5-year period, but the source (PARIVESH 2.0 API) may only include data up to the fetch date (22 Jul 2026), which does not cover the full 2026 year. The dataset likely excludes proposals filed after July 22, 2026, making the 2022–2026 range misleading. [confidence: high]
+- "113,970 proposals (2022–2026)" — The date range is incorrect as the data is fetched on 22 Jul 2026, meaning the latest proposals could extend beyond 2026. The claim implies all proposals are within 2022–2026, which is unverifiable without knowing the exact submission dates. [confidence: high]
 
-- "Source: PARIVESH 2.0 open API, full EC register, fetched 22 Jul 2026" — The article claims the dashboard "always reflects the repo's latest data," but GitHub Pages serves static content unless manually updated. Without evidence of automated syncing, this is unverifiable and potentially incorrect. [confidence: medium]
+- "88.7% grant rate of decided proposals" — The article does not clarify whether "decided proposals" includes auto-delisted cases, which are mentioned as a major attrition factor. If auto-delisted proposals are excluded from "decided," the grant rate could be misleadingly high. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "88.7% grant rate of decided proposals" — The article uses this statistic to imply efficiency in the EC approval process, but it does not account for the high rate of auto-delisting (22%) or pipeline backlog. The grant rate may be artificially inflated by the exclusion of unresolved proposals, making it an unreliable measure of true approval efficiency. [confidence: high]
+- "The headline 88.7% grant rate makes India's EC process look more permissive than the underlying dynamics suggest." — While the grant rate is high, the article does not provide evidence that this rate is unusually permissive compared to historical trends or other countries' EC processes. The claim assumes the rate is high without a benchmark. [confidence: high]
 
-- "Flagship-project absences (e.g. POSCO-JSW JV, RRPCL) are as informative as the grants" — The article suggests that the absence of specific projects in the EC register is a meaningful signal, but it does not provide evidence that these projects were expected to appear in the register or that their absence is statistically significant. This is an unsupported extrapolation. [confidence: medium]
+- "only about half of all proposals are genuinely new projects rather than re-appraisals, transfers, expansions and amendments of the same underlying assets." — The article does not explain why this split (49% fresh) is problematic for measuring new industrial capacity. It assumes that re-appraisals/expansions do not contribute to new capacity, which may not be true (e.g., expansions could represent new investment). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

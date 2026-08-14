@@ -16,19 +16,21 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99930, Requested 11772. Please try again in 2h48m30.528s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99202, Requested 11831. Please try again in 2h38m52.512s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet approves 'Pradhan Mantri Surya Sarovar Yojana (PM-SSY)' for Development of Floating Solar Photovoltaic Projects with Energy Storage Systems with a total" [incomplete sentence] — The claim is incomplete and cannot be verified as a factual statement. [confidence: high]
+- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The claim is duplicated in the same list, which is a factual inconsistency as it suggests the same announcement was made twice on the same day by the same entity. [confidence: high]
 
-- "Cabinet approves one multitracking project covering three Districts across Karnataka and Andhra Pradesh, increasing the existing network of Indian Railways by a" [incomplete sentence] — The claim is incomplete and cannot be verified as a factual statement. [confidence: high]
+- "Cabinet Cabinet approves scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — Similar to the above, this scheme approval is listed twice under the same date and ministry, indicating a duplication error. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Cabinet approves continuation of the PM-KISAN Scheme from 2026-27 to 2030-31 with a Financial Outlay of Rs.3.15 lakh crore" — The claim states a financial outlay for the continuation of PM-KISAN, but the continuation of a scheme does not inherently imply a specific financial outlay unless explicitly stated in the approval. The article does not provide evidence or context to verify that the financial outlay is part of the approval decision rather than a projection or historical allocation. [confidence: medium]
+- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — This claim suggests that the absence of state-wise allocation implies uniform implementation across India, but it does not address whether the scheme's design or effectiveness varies by state due to local conditions, administrative capacity, or demand. The statement assumes pan-India implementation without acknowledging potential disparities in outcomes or reach. [confidence: medium]
 
-- "Cabinet approves revamped Khelo India Scheme and enhanced Assistance to National Sports Federations (ANSFs)" — The claim states that the revamped Khelo India Scheme includes enhanced assistance to ANSFs, but the article does not provide any data or context to support the claim that the assistance is "enhanced" or to quantify the increase. The conclusion that assistance is enhanced is an extrapolation beyond what the data shows. [confidence: medium]
+- "Ministry of New and Renewable Energy Over 48 Lakh Households Benefit Under PM Surya Ghar: Muft Bijli Yojana Since February 2024" — While the number of beneficiaries may be accurate, the claim does not clarify whether these households are unique beneficiaries or if some households received multiple benefits (e.g., subsidies for multiple installations), which could lead to double-counting. Without a clear definition of "benefit" or a methodology to avoid double-counting, the figure may overstate actual household-level impact. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

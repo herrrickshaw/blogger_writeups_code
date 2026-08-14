@@ -16,19 +16,15 @@ Source: `posts/pli-medical-devices-coverage-and-gaps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99106, Requested 2374. Please try again in 21m18.72s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99346, Requested 2819. Please try again in 31m10.56s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PLI-MD closes to new applicants in March 2027" — The article incorrectly states the closure date as March 2027, while the Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies the scheme closes in March 2027 with a one-year gestation period, implying the actual closure for new applicants is March 2026 (one year before the end of the scheme). [confidence: high]
-
-- "Pacemakers — inside Segment 4's scope (“implantable electronic devices”), yet no applicant makes one: imports $64mn at 1% export coverage" — The claim that pacemakers are part of Segment 4 ("implantable electronic devices") is incorrect. Pacemakers are typically classified under HS code 9019.20 (mechanical appliances for stimulating organs) or similar, not under implantable electronic devices. The article conflates categories. [confidence: high]
+- "PLI-MD closes to new applicants in March 2027" — The article incorrectly states the closure date as March 2027, while the Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies that the scheme closes in March 2027 with a one-year gestation period, implying no further rounds of application are under consideration. The phrasing "closes to new applicants in March 2027" is misleading, as it suggests the scheme is open until March 2027, whereas the correct interpretation is that no new applications are under consideration. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Checked against the FY2025-26 trade data, it has genuinely moved the needle in imaging and implants, but never touched the two largest deficit families: lab instruments and IVD reagents" — The article assumes that the absence of PLI coverage for lab instruments and IVD reagents directly implies these are the "largest deficit families" without providing comparative data on import values or growth rates to justify this ranking. The claim that these are the two largest deficit families is an extrapolation beyond what the trade data alone shows, as the article does not explicitly compare the import gaps across all categories. [confidence: medium]
-
-- "Oxygen concentrators — four applicants, near-zero exports, imports still +30%: a procurement/demand-side problem, not a capacity problem" — The article attributes the persistent import growth (+30%) to a procurement/demand-side issue, but the trade data alone does not establish causality. The +30% import growth could also stem from supply-side constraints (e.g., insufficient local production capacity) or other factors like pricing, quality, or regulatory hurdles. The conclusion is an unsupported causal claim. [confidence: medium]
+- "PLI has genuinely started fixing equipment — imaging, monitoring, renal, implants. Its measurable wins (MRI import decline, coils/dialyser/stent exports) are exactly where applicants invested." — While the article correctly identifies measurable wins in certain segments (e.g., MRI import decline, exports of coils/dialysers/stents), it incorrectly implies a direct causal link between PLI investments and these outcomes without accounting for other potential factors (e.g., global supply chain shifts, demand fluctuations, or pre-existing trends). The claim assumes that the observed changes are solely attributable to PLI, which is not sufficiently supported by the evidence presented. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

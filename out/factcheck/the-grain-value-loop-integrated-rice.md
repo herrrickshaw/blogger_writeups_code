@@ -16,19 +16,19 @@ Source: `posts/the-grain-value-loop-integrated-rice.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99790, Requested 10570. Please try again in 2h29m11.04s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99079, Requested 10353. Please try again in 2h15m49.248s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — This claim is outdated. The latest official data (DA&FW 2023-24) shows rice procurement at ~520 LMT but wheat procurement at ~300 LMT is incorrect; wheat procurement was ~260 LMT in 2023-24. [confidence: high]
+- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — This claim is incorrect. The article later states that FCI procures 520 LMT of rice (38% of crop), but the wheat procurement figure of 300 LMT is not supported by the cited sources (DA&FW Final Est. 2023-24 shows wheat procurement at ~300 LMT, but this is not explicitly stated in the claim). The article also contradicts itself by later citing wheat procurement as ~300 LMT in the "The safety valve" section. [confidence: high]
 
-- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The article itself contradicts this claim by stating the ₹7,650 cr figure is derived from the ~40 LMT CMR-bran base, not the full husk+bran tonnage. The claim that the figure "matches only" the CMR-bran base is accurate, but the phrasing implies the ₹7,650 cr is incorrect or misleading, which it is not. [confidence: high]
+- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The claim that the ₹7,650 cr figure matches only the ~40 LMT CMR-bran base is misleading. The ₹7,650 cr figure is derived from the value of the bran given away (₹20/kg × 40 LMT × 100), but the article does not clarify that this is only for the CMR-bran and not the full husk+bran tonnage. The claim implies the figure is incorrect, but it is actually a specific calculation based on the CMR-bran base. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The same pattern repeats for gluten, starch, protein, and nutraceuticals across every crop the state procures." — This claim implies a uniform pattern of import substitution potential across all crops, but the article does not provide evidence or data to support this broad generalization. The import substitution potential varies significantly by crop and derivative, and the claim extrapolates beyond the specific examples provided (e.g., rice bran oil, pulses). [confidence: medium]
+- "The margin is in the cascade, not the commodity — the sugarcane model (sugar + ethanol + power + CBG) ported to grain." — The reasoning gap here is that the sugarcane model's success is based on specific conditions (e.g., high sugar recovery rates, established ethanol blending mandates, and co-generation infrastructure) that may not directly translate to grains like rice or wheat. The article assumes the same cascade economics apply without sufficient evidence that the grain biorefinery model can replicate the sugarcane industry's margins and infrastructure. [confidence: high]
 
-- "The ethanol mandate has saved ₹1,97,000 cr in forex since ESY2014-15 — built mostly on sugarcane, with surplus/broken grain a smaller but fast-growing share of the feedstock mix in recent years." — While the ethanol mandate has saved forex, the claim that the savings are "built mostly on sugarcane" is not supported by the data in the article. The article cites ethanol blending progress but does not provide a breakdown of feedstock sources or their contribution to forex savings. The savings attribution is an overgeneralization. [confidence: medium]
+- "The ethanol mandate has saved ₹1,97,000 cr in forex since ESY2014-15 — built mostly on sugarcane, with surplus/broken grain a smaller but fast-growing share of the feedstock mix in recent years." — The reasoning gap is that the ₹1,97,000 cr savings figure is not directly attributable to the ethanol mandate alone. The savings are likely a combination of forex saved from reduced crude oil imports, ethanol blending, and other factors. The article does not provide a breakdown or methodology to isolate the savings specifically from the ethanol mandate, leading to potential double-counting or overestimation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

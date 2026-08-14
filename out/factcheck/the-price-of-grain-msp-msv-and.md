@@ -16,19 +16,19 @@ Source: `posts/the-price-of-grain-msp-msv-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99739, Requested 4600. Please try again in 1h2m28.895999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99026, Requested 4646. Please try again in 52m52.608s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification is missing, but the claim itself is an order-of-magnitude estimate (as noted in the article). However, the article does not provide a verifiable primary source for this specific figure, making it unverifiable as a precise claim. [confidence: medium]
+- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification is missing, but the claim itself is unverifiable as presented. The economic cost components are listed, but the exact figure of ₹4,000/qtl is not sourced or explained in the text. [confidence: medium]
 
-- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure as a result of the sugarcane FRP model but does not provide a primary source or breakdown to verify this claim. The figure appears in the context of a broader claim about policy-induced arrears, but without a direct citation, it cannot be independently verified. [confidence: medium]
+- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure for sugarcane FRP arrears but does not provide a primary source or verification for this specific amount. The claim appears in the context of a broader discussion but lacks direct attribution. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The rice ladder, 2025-26 vintages. *Economic cost is order-of-magnitude (DFPD/FCI cost heads); every other rung is a notified rate." — The article presents the "rice ladder" as a series of prices with gaps representing subsidies and distortions. However, it does not clearly explain how these gaps translate into actual fiscal transfers or distortions in a way that is empirically measurable. The claim implies a direct causal link between the price gaps and subsidy amounts, but the article does not provide a methodology to quantify these transfers or their economic impact. [confidence: high]
+- "The state buys at rung 2, carries to rung 1, and disposes at rungs 3–6 — the vertical gaps are the food subsidy." — This claim implies a direct causal link between the "vertical gaps" in the price ladder and the food subsidy, but it conflates accounting categories. The food subsidy is determined by the difference between the economic cost to the state and the issue price to beneficiaries (e.g., NFSA), not merely the gaps between administered prices. The "vertical gaps" include procurement costs, storage, and other expenses that are not part of the food subsidy calculation. [confidence: high]
 
-- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The article suggests that the ethanol blending mandate creates demand that absorbs maize at MSP, but it does not provide evidence that this demand is sufficient to justify the claim that it "already does" absorb the marketed surplus. The claim extrapolates from a single price point (₹2,291/qtl) to a broader market dynamic without demonstrating the scale or sustainability of this demand relative to production. [confidence: high]
+- "a θ of just 0.3 removes 51% of price-revenue variance; θ = 0.5 removes 75%." — While the mathematical relationship between θ and variance reduction is correct in isolation, the article extrapolates this to claim that a pre-committed volume floor will "stabilize farm incomes" and act as a "put option on the crash-year tail." This interpretation assumes that the variance reduction directly translates to income stabilization for farmers, ignoring factors like market access, price discovery, and the fact that only a fraction of farmers sell to procurement agencies. The claim overstates the causal impact of θ on farmer outcomes. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

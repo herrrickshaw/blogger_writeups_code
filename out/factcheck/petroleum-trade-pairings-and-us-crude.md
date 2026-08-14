@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99127, Requested 8093. Please try again in 1h43m58.08s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99356, Requested 8473. Please try again in 1h52m44.256s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "UAE 2024 and 2025 are genuinely absent, so UAE figures here are 2023 and are not comparable year-on-year with Saudi or US 2025 numbers." — The UAE data for 2024 is actually present in the article (e.g., "UAE 2023" tables include 2023 data, but the text claims UAE 2024 is absent). [confidence: high]
+- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in effect, making this claim unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavier crude (grade mismatch), the claim that this explains the trade deficit is an oversimplification. The trade deficit in crude oil is measured in value ($46.5 billion), not volume, and the grade mismatch alone does not account for the net import position. The reasoning conflates physical trade flows with financial outcomes. [confidence: high]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the claim about grade mismatch is plausible, the article does not provide sufficient evidence or data to conclusively demonstrate that the trade deficit is *solely* due to grade mismatches. The interpretation assumes causation without addressing other potential factors (e.g., refining capacity constraints, policy restrictions, or market dynamics). [confidence: medium]
 
-- "Cushing is the physical delivery point for the WTI contract. When its tanks run toward operating minimum, the barrels available to settle that contract thin out, and WTI trades more on local tank economics than on global supply." — While Cushing is indeed the delivery point for WTI, the claim that low storage levels cause WTI to trade "more on local tank economics than on global supply" is an overgeneralization. WTI pricing is influenced by global supply-demand dynamics, and storage levels at Cushing are just one factor among many. The conclusion overstates the causal link between storage levels and pricing behavior. [confidence: medium]
+- "US crude exports sells 100.3 $bn" and "US crude imports buys 146.8 $bn" — The article presents these figures as absolute values but does not clarify whether they are nominal or inflation-adjusted, nor does it provide context on how these values were derived (e.g., whether they account for volume changes or price fluctuations). This lack of clarity could lead to misinterpretation of the trade balance. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

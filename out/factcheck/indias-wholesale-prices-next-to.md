@@ -16,19 +16,19 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99224, Requested 6084. Please try again in 1h16m26.112s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99450, Requested 6534. Please try again in 1h26m10.175999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Brazil’s producer inflation in 2021 — the earliest and highest peak of the six" — Brazil's producer inflation in 2021 was +31.6%, but the claim that it was the "earliest" peak is incorrect because the US PPI peaked in 2021 as well (17.0%), and the euro area PPI peaked in 2022 (26.0%). The article later acknowledges Brazil's unique cycle but incorrectly states its 2021 peak as the earliest. [confidence: high]
+- "the one harmonised international series that allowed the comparison was discontinued in 2022" — The OECD harmonised producer price series was discontinued, but the OECD also discontinued harmonised wholesale price series in 2022. The claim implies only one series was discontinued, but multiple series were affected. [confidence: high]
 
-- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this correction but does not provide the original source or methodology for the 25.2% figure, making it unverifiable. The World Bank data cited later shows a 27.4% cumulative rise, but the prior figure lacks transparency. [confidence: medium]
+- "+31.6% Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — Brazil's producer inflation in 2021 was +31.6%, but it was not tied with the US for the earliest peak. The US PPI peaked in 2021 (17.0%), while Brazil's IPP peaked in 2021 but at a different time (earlier in the year due to currency effects). The claim conflates the magnitude and timing of peaks. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — While the data shows India's 2025 consumer inflation at 2.8%, which is low relative to many G20 economies, the claim implies a causal or structural shift without addressing potential temporary factors (e.g., food price stabilization, base effects) or comparing to India's own historical trends. The conclusion oversimplifies the drivers of low inflation. [confidence: high]
+- "the 2026 turn is universal too — with the United States turning hardest, not India" — The claim suggests the 2026 producer-side inflation turn is universal, but the article later contradicts this by showing Brazil lagging behind due to its prior cycle. The "universal" claim is overstated because Brazil's cycle differs significantly. [confidence: high]
 
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the spike was not unique to India, the article does not adequately address whether domestic policies (e.g., fuel taxes, supply-side constraints) amplified or mitigated the global commodity shock. The claim assumes that synchrony implies irrelevance of domestic factors, ignoring potential interaction effects. [confidence: medium]
+- "India’s consumer inflation has quietly become one of the lowest in the G20" — While India's 2025 consumer inflation (2.8%) is low relative to the listed G20 economies, the claim that it is "one of the lowest in the G20" is not fully supported because the article omits several G20 economies (e.g., Russia, Türkiye) due to incomplete data. The comparison is incomplete. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,26 +9,36 @@ Source: `posts/india-has-tax-treaties-with-97.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99435, Requested 2958. Please try again in 34m27.552s. Need more tokens? Upgrade to Dev Tier today at http]
+FACTUAL ERRORS:
+- "India–Sri Lanka FTA | 1998 | 2000" — The year of signing is stated as 1998, but the article does not provide a source to verify this specific date, and it is known that the India-Sri Lanka FTA was signed in 1998 but came into effect in 2000, however the text "India–Sri Lanka FTA | 1998 | 2000" could be interpreted as the FTA was signed in 1998 and came into force in 2000 which seems correct but the date of signing could be verified for accuracy [confidence: medium]
+- None found for other factual errors, as the rest of the data appears to be supported by the provided sources or is not verifiable without additional information.
+
+INTERPRETATION ERRORS:
+- "A country can have a functioning tax relationship with India, in the form of a DTAA governing how income is taxed, for years or decades before any tariff-level trade agreement exists between the two." — This statement is used to support the conclusion that India's trade-treaty network lags behind its tax-treaty network, but it does not necessarily follow that the existence of a DTAA is a prerequisite for or a guarantee of a subsequent trade agreement, or that the lack of a trade agreement is solely due to India's efforts or lack thereof [confidence: medium]
+- None found for other interpretation errors, as the rest of the article's conclusions appear to be supported by the data and sources provided.
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them" — The article later clarifies that the 97-count refers specifically to *comprehensive* Double Taxation Avoidance Agreements (DTAAs), not all tax treaties. India also has limited agreements, TIEAs, and protocols, which are not counted in the 97. The headline oversimplifies by implying all tax treaties are comprehensive DTAAs. [confidence: high]
+- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly." — The claim that the network is "amended monthly" is unverifiable and likely exaggerated. While the article later cites specific amendment dates (e.g., protocols in 2025–2026), there is no evidence or data to support the assertion that amendments occur monthly. [confidence: high]
 
-- "the India–UK CETA (signed July 2025)" — The article itself notes that the India–UK CETA's "in force" status is marked as "—" (not confirmed) as of the 6 March 2026 PIB release. The claim that it was signed in July 2025 is unverified in the article's own text. [confidence: high]
+- "India–UK CETA (signed July 2025)" — The article lists the India–UK CETA as signed in July 2025, but the source (PIB release ID 2236134, 6 March 2026) does not provide a signing date. The claim appears to be an extrapolation or assumption not supported by the cited source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the India–US framework announced in February 2026 is the clearest current example: India and the US have had a functioning DTAA since 1990, but as of this article's research have only an interim framework, not a concluded free trade agreement." — While the DTAA and FTA are distinct instruments, the article implies a causal or explanatory link between the existence of a DTAA and the absence of an FTA, which is not supported. The two agreements serve different purposes (taxation vs. tariffs), and the presence of one does not logically preclude the other. The gap is in suggesting a direct relationship where none is proven. [confidence: high]
+- "The two networks answer different questions — one about where income gets taxed, the other about what tariff a shipment pays — and reading them side by side shows how much further India's trade-agreement reach still has to run to catch its tax-treaty reach." — While the article correctly distinguishes between DTAAs (tax treaties) and FTAs (trade agreements), the conclusion that India's trade-agreement reach "still has to run to catch its tax-treaty reach" is an apples-to-oranges comparison. Tax treaties and trade agreements serve fundamentally different purposes (tax jurisdiction vs. tariff reduction), and their coverage cannot be directly compared in terms of "reach." The number of countries covered by each type of agreement does not imply a lag in one network relative to the other. [confidence: high]
 
-- "India's double-taxation network is nearly universal — 97 countries, built up over six decades, still being amended monthly." — The article cites 97 comprehensive DTAAs but does not establish that this network is "nearly universal." The claim implies near-completeness (e.g., covering all major trading partners), but the article does not provide evidence or a definition of "nearly universal" (e.g., what share of India's trade partners are covered). This is an extrapolation beyond the data. [confidence: medium]
+- "A country can have a functioning tax relationship with India, in the form of a DTAA governing how income is taxed, for years or decades before any tariff-level trade agreement exists between the two. The US framework announced in February 2026 is the clearest current example: India and the US have had a functioning DTAA since 1990, but as of this article's research have only an interim framework, not a concluded free trade agreement." — While the factual premise (US-India DTAA since 1990) is correct, the interpretation that this demonstrates India's trade-agreement network "lagging" behind its tax-treaty network is flawed. The absence of an FTA does not imply a deficiency in trade policy; trade and tax treaties address distinct policy objectives, and their coexistence is standard practice. The comparison conflates two unrelated metrics. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

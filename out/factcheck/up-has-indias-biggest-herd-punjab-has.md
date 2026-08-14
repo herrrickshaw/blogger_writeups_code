@@ -16,19 +16,15 @@ Source: `posts/up-has-indias-biggest-herd-punjab-has.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99653, Requested 3679. Please try again in 47m58.848s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98964, Requested 3462. Please try again in 34m56.063999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. The article rounds incorrectly. [confidence: high]
 
-- "The 21st Livestock Census ... with a target completion date of 31 March 2025" — The article states the census was launched on 25 October 2024 with a target completion date of 31 March 2025, but the Lok Sabha reply on 25 March 2025 confirmed enumeration was still ongoing. This implies the target date was missed, but the article does not explicitly state this as a factual error. However, the phrasing "with a target completion date of 31 March 2025" is misleading because it suggests the census was completed by that date, which it was not. [confidence: high]
-
 INTERPRETATION ERRORS:
-- "Uttar Pradesh's milk lead is a herd-size story: more animals, more raw tonnes, a stable but not fast-growing share." — While the article correctly notes Uttar Pradesh's large herd size and milk output share, it implies that the state's milk production growth is solely a function of herd size. However, the data shows Uttar Pradesh's milk production growth (0.09%) is the slowest among major states, which contradicts the idea that herd size alone explains its output. The article does not explore why a state with the largest herd has such low growth, missing a key interpretation gap. [confidence: high]
-
-- "Punjab ... posts the highest cattle yield rate in the country (14.10 kg/day for exotic/crossbred cattle, against a national spread that tops out elsewhere around 11)" — The article compares Punjab's yield rate (14.10 kg/day) to a vague "national spread that tops out elsewhere around 11," but does not provide the actual national average or range for yield rates. This makes it unclear whether Punjab's yield is truly exceptional or if the comparison is apples-to-oranges. The lack of context for the "national spread" weakens the interpretation. [confidence: medium]
+- "The headcount Parliament was given is a 2019 snapshot... Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites... is a 2019 measurement of a sector that has since grown at nearly 13% a year." — The article claims the livestock sector has grown at "nearly 13% a year" based on the 12.77% CAGR from FY2014-15 to FY2023-24, but this CAGR refers to milk production, not livestock population. The two are not directly comparable, and the article conflates growth in output with growth in herd size. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

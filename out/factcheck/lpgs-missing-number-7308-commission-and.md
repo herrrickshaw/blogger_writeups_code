@@ -16,19 +16,19 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99184, Requested 2749. Please try again in 27m50.112s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99409, Requested 3194. Please try again in 37m28.992s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹3,642cr Annual distributor commission on Ujjwala refills alone" — While the calculation (10.58 crore beneficiaries × 4.71 refills/year × ₹73.08 commission) is correct, the claim that this is the "Annual distributor commission on Ujjwala refills alone" is presented as a verified figure, but the article explicitly states it is "this article’s own computation and is not a government-published total." The phrasing implies it is an official figure, which is misleading. [confidence: high]
+- "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023" — The article cites a commission rate of ₹73.08, but the source (PPAC's commission page) is not directly verifiable in the provided text, and the claim lacks a primary document link or screenshot for independent verification. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The article correctly notes that LPG's margin (7.76%) is higher than fuel dealers' margins (3.87% for petrol), but then claims this means LPG is "roughly half the MDR exposure." This is a false causal claim: the MDR exposure depends on the margin percentage, not the absolute margin value. A higher margin does not necessarily mean lower MDR exposure; in fact, the MDR exposure is calculated as (MDR rate ÷ margin), so a higher margin would reduce the MDR's bite (as the article later correctly explains in Exhibit 2). The initial claim misrepresents the relationship between margin size and MDR exposure. [confidence: high]
+- "The LPG counter turns out to sit nowhere near fuel on the leverage curve — it is nearly twice as well protected." — The article claims LPG is "nearly twice as well protected" from MDR exposure compared to fuel based on margin percentages (7.76% vs. ~3.87%). However, this interpretation conflates the *size* of the margin with *protection* from MDR. The actual protection depends on how the MDR is applied (e.g., whether it is a flat fee or a percentage of the ticket), not just the margin size. The article does not establish that a larger margin inherently means better protection from a fixed MDR. [confidence: high]
 
-- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — The article calculates ₹3,642 crore as the distributor commission on PMUY refills and compares it to the ₹12,000 crore subsidy outlay. While the arithmetic is correct, the interpretation is misleading because the subsidy outlay is a government expenditure, while the distributor commission is a private-sector payment. The two are not directly comparable in terms of "share of outlay" because they are from different sectors (government vs. private). The comparison conflates apples (government subsidy) with oranges (private distributor commission). [confidence: high]
+- "LPG’s distributor network runs on a commission larger, as a share of its own ticket, than fuel’s — and larger in aggregate, on the subsidised segment alone, than the entire incentive scheme built to keep UPI free." — The article compares the ₹3,642 crore annual distributor commission on PMUY refills to the ₹437 crore UPI incentive budget, implying LPG's commission pool is "larger" in a meaningful way. However, this is an apples-to-oranges comparison because the UPI incentive budget funds *all* UPI transactions (not just LPG), while the ₹3,642 crore is only for LPG refills under PMUY. The two figures are not directly comparable in terms of policy impact or economic significance. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

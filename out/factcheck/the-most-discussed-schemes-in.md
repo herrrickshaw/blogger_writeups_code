@@ -16,19 +16,19 @@ Source: `posts/the-most-discussed-schemes-in.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99760, Requested 4713. Please try again in 1h4m24.672s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99048, Requested 4541. Please try again in 51m40.895999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PM MITRA / textiles PLI | 2017-04-11" — The PM MITRA scheme was launched in 2021, not 2017. The date appears to be incorrect. [confidence: high]
+- "4 August 2026" — The article claims the post was built on 4 August 2026, but the script-generated timestamp at the end states "Generated 2026-08-04," which is August 4, 2026, not August 4, 2026 (a date that doesn't exist). [confidence: high]
 
-- "PM Dhan-Dhaanya Krishi Yojana | 2025-02-01" — The scheme name "PM Dhan-Dhaanya Krishi Yojana" does not correspond to any known government scheme as of 2025. This appears to be a fabricated or incorrect name. [confidence: high]
+- "PM Dhan-Dhaanya Krishi Yojana" — The scheme name appears to be a misspelling or incorrect rendering of "PM Kisan Samman Nidhi" or another similar scheme. No official scheme by this exact name exists in government records. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "PM-KUSUM draws about five times more parliamentary attention than government publicity" — The article claims that PM-KUSUM receives significantly more parliamentary questions than government publicity, but it does not provide any data or source to support the comparison between parliamentary attention and government publicity. The claim assumes a causal or comparative relationship without evidence. [confidence: medium]
+- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — This claim assumes that zero questions about a scheme launched in 2025–2026 necessarily means it hasn't been questioned due to timing, ignoring the possibility that schemes may genuinely not be monitored or debated despite being recent. The reasoning conflates absence of evidence (no questions) with evidence of absence (not questioned due to timing), without accounting for other factors like lack of public interest or oversight. [confidence: high]
 
-- "zero questions mostly means not yet, since Parliament has not had a full session cycle" — While the article acknowledges that zero questions may indicate schemes are too new, it does not account for schemes like "PLI — White Goods," which has been active since 2021 but has received no questions. The claim generalizes without addressing exceptions or providing a nuanced explanation. [confidence: medium]
+- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While the limitation is correctly noted, the article does not address whether the subject lines are comprehensive or standardized enough to capture all relevant questions. This could lead to undercounting, but the article treats zero questions as merely an "upper bound," which may overstate the reliability of the data. The interpretation risks downplaying the potential for significant underreporting due to indexing flaws. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

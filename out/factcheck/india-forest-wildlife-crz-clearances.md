@@ -9,26 +9,29 @@ Source: `posts/india-forest-wildlife-crz-clearances.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+[Gemini network error: The read operation timed out]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99461, Requested 1676. Please try again in 16m22.367999999s. Need more tokens? Upgrade to Dev Tier today a]
+FACTUAL ERRORS:
+- "122,666 acres, granted" — The article does not provide a clear source for this specific number of acres granted for Forest Clearance, and it is not directly verifiable against the provided data [confidence: medium]
+- "253,720 developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026)" — The article does not provide a direct link or specific details about the Industrial Information & Land Bank data, making it difficult to verify this number [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "Forest Clearance is a second land-creation channel" — This statement implies that Forest Clearance directly contributes to the creation of new land, which might be misleading as it actually involves the diversion of existing forest land for other uses, not the creation of new land [confidence: high]
+- "Grant rate = granted ÷ (granted + in-process); 'dead' (rejected/withdrawn/returned) and 'delisted' (PARIVESH auto-cleanup) are excluded from the denominator" — The exclusion of 'dead' and 'delisted' applications from the denominator for calculating the grant rate might not provide a complete picture of the clearance process, as it does not account for all outcomes [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres" — The claim is unverifiable as the source (Industrial Information & Land Bank) is not provided, and the figure appears to be a direct quote without citation. [confidence: medium]
+- "generated 2026-07-22" — The date is in the future (2026), which is impossible for a published article. [confidence: high]
 
-- "MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency)" — The article assumes the name "MAHESH NAIR" is a data-entry error without providing evidence or a primary source to confirm this claim. [confidence: medium]
+- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026)" — The source retrieval date (2026) is in the future, making the claim unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock." — The claim implies that all forest diversions are for mining, linear infrastructure, or hydro projects, but the data does not specify the project types. The interpretation extrapolates beyond what the data shows. [confidence: high]
+- "Forest Clearance carries something EC does not: the actual area of land, in hectares." — While Forest Clearance does measure land area, this claim implies that Environmental Clearance (EC) does not consider land area at all, which is misleading. EC applications typically include land area details (e.g., project footprint, affected area), even if they are not the primary focus. The comparison oversimplifies the roles of the two clearances. [confidence: high]
 
-- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator) — projects near protected areas stall here for the National/State Board for Wildlife recommendation." — While the grant rate is low, the article conflates the "in process" status with a bottleneck caused by project applicants ("Pending at Proponent"). The data does not explain why applications are pending, and the interpretation assumes a causal link without evidence. [confidence: high]
+- "Grant rate = granted ÷ (granted + in-process); 'dead' (rejected/withdrawn/returned) and 'delisted' (PARIVESH auto-cleanup) are excluded from the denominator, as in the EC analysis." — The article does not provide evidence or justification for why this method of calculating the grant rate (excluding 'dead' and 'delisted' cases) is comparable to or consistent with the method used for Environmental Clearance (EC) analysis. This could lead to inconsistent or misleading comparisons between clearance types. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

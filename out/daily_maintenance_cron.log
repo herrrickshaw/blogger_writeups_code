@@ -1,0 +1,151 @@
+=== 2026-08-14 09:35:01 summary regeneration ===
+wrote 143 posts, 28 units, 171 glossary terms, 247231 bytes -> /Users/umashankar/masaladeutsch-archive/MASALADEUTSCH_ALL_POSTS_SUMMARY.md
+[main 80a64e3] Update all-posts summary 2026-08-14
+ 1 file changed, 222 insertions(+), 30 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+=== 2026-08-14 09:37:29 language audit (report-only, no publish) ===
+[0 flagged / 1/151] 050-is-its-own-category-diving-into: clean
+[0 flagged / 2/151] _drafted-chemical-import-substitution-full-hsn-8: clean
+[0 flagged / 3/151] a-slice-of-apple-costs-about-1700-slice: clean
+[0 flagged / 4/151] a-tax-play-grow-ethanol-sgst-revenue: clean
+[0 flagged / 5/151] abha-what-indias-14-digit-health-id: clean
+[0 flagged / 7/151] ahidf-has-sanctioned-19751-crore-in: clean
+[1 flagged / 8/151] ai-high-demand-launch-tracker: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/ai-high-demand-launch-tracker.md
+[2 flagged / 9/151] annadata-to-urjadata-farmer-income-case: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/annadata-to-urjadata-farmer-income-case.md
+[3 flagged / 10/151] annexure-314-hsn-codes-mapped-to: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/annexure-314-hsn-codes-mapped-to.md
+[4 flagged / 11/151] announced-vs-delivered-three-indian: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/announced-vs-delivered-three-indian.md
+[4 flagged / 13/151] below-250-is-where-real-junk-lives: clean
+[4 flagged / 14/151] beyond-pump-what-upi-fee-would-cost: clean
+[4 flagged / 15/151] bio-fertiliser-and-green-credits: clean
+[5 flagged / 16/151] can-rupee-trade-offset-imported-inflation: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/can-rupee-trade-offset-imported-inflation.md
+[5 flagged / 17/151] cgd-geographical-areas-district: clean
+[5 flagged / 18/151] cheap-yen-rupee-roads-where-carry-trade: clean
+[5 flagged / 19/151] chemical-import-substitution-analysis: clean
+[5 flagged / 20/151] chemical-import-substitution-full-hsn-8_01082878313: clean
+[5 flagged / 21/151] chemical-import-substitution-hsn-8-registry: clean
+[5 flagged / 22/151] chemical-import-substitution-quarterly: clean
+[5 flagged / 23/151] city-gas-just-became-indias-largest-gas: clean
+[5 flagged / 24/151] cocoas-blockchain-reckoning-one: clean
+[5 flagged / 25/151] cold-chain-fuel-outlet-integrated-map: clean
+[6 flagged / 26/151] cow-dung-already-flew-rocket-engine: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cow-dung-already-flew-rocket-engine.md
+[7 flagged / 27/151] cpi-inflation-heatmap-india-june-2026: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cpi-inflation-heatmap-india-june-2026.md
+[7 flagged / 28/151] cpi-wpi-trends-mospi-bulletin: clean
+[8 flagged / 29/151] diesel-doesnt-move-cpi-it-moves-40: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/diesel-doesnt-move-cpi-it-moves-40.md
+[8 flagged / 30/151] discom-debt-relief-token-charge: clean
+[8 flagged / 31/151] do-cheap-stocks-stay-cheap-price-band: clean
+[9 flagged / 32/151] effective-buying-power-china-comparison: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/effective-buying-power-china-comparison.md
+[9 flagged / 33/151] ethanol-blending-omc-books-e20-today-vs: clean
+[10 flagged / 34/151] europe-bought-record-amount-of-lng-and: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/europe-bought-record-amount-of-lng-and.md
+[10 flagged / 35/151] europes-export-credit-agencies-are: clean
+[10 flagged / 36/151] fci-grain-flow-procurement-storage: clean
+[10 flagged / 37/151] fci-storage-scenario-capacity-stock-and: clean
+[10 flagged / 38/151] five-year-synthesis-trade-currency: clean
+[11 flagged / 39/151] fourteen-years-of-indian-wholesale: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/fourteen-years-of-indian-wholesale.md
+[11 flagged / 40/151] from-barrel-to-bottle-petrochemical: clean
+[11 flagged / 41/151] from-cane-to-code-digital-layer: clean
+[12 flagged / 42/151] from-fuel-to-fibre-indias-textile: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/from-fuel-to-fibre-indias-textile.md
+[12 flagged / 43/151] fuel-and-bottle-two-taxes-states-never: clean
+[12 flagged / 44/151] fuel-pricing-to-crude-cost: clean
+[12 flagged / 45/151] fy2025-26-sample-report-india-trade: clean
+[12 flagged / 46/151] global-oil-storage-hormuz-crisis-2026: clean
+[12 flagged / 47/151] greenhouse-emissions-reduction-and-cbam: clean
+[12 flagged / 48/151] half-of-indias-import-bill-is: clean
+[12 flagged / 49/151] hsn-wise-historical-importexport-trends: clean
+[12 flagged / 50/151] iem-conversion-historical-performance: clean
+[12 flagged / 51/151] if-india-paid-brics-in-rupees-scenario: clean
+[12 flagged / 52/151] import-dependent-sectors-vs-government: clean
+[12 flagged / 53/151] imported-fertiliser-fuel-prices-diesel: clean
+[12 flagged / 54/151] india-ec-approval-funnel-parivesh-20: clean
+[12 flagged / 55/151] india-environmental-clearances-state: clean
+[12 flagged / 56/151] india-forest-wildlife-crz-clearances: clean
+[12 flagged / 57/151] india-fuel-retail-outlets-82k-geocoded: clean
+[12 flagged / 58/151] india-grain-cultivation-fci-storage: clean
+[12 flagged / 59/151] india-has-tax-treaties-with-97: clean
+[12 flagged / 60/151] india-mineral-oil-hsn-ch27-trade: clean
+[13 flagged / 61/151] india-sells-world-53-billion-of-fuel: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-sells-world-53-billion-of-fuel.md
+[13 flagged / 62/151] india-trade-sector-policy: clean
+[14 flagged / 63/151] indian-it-in-ai-era: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indian-it-in-ai-era.md
+[14 flagged / 64/151] indias-animal-protein-export-complex: clean
+[14 flagged / 65/151] indias-carbon-credit-market-domestic: clean
+[14 flagged / 66/151] indias-coking-coal-dependency-and-biomass: clean
+[14 flagged / 67/151] indias-epr-regime-just-got-teeth-and: clean
+[14 flagged / 68/151] indias-ethanol-surplus-isnt-going-to: clean
+[14 flagged / 69/151] indias-ev-market-single-digit: clean
+[15 flagged / 70/151] indias-fertiliser-import-bill-hits-18: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-fertiliser-import-bill-hits-18.md
+[15 flagged / 71/151] indias-food-processing-story-pli-scheme: clean
+[15 flagged / 72/151] indias-lock-imports-hit-19784-million: clean
+[15 flagged / 73/151] indias-medical-device-trade-gap-and: clean
+[15 flagged / 74/151] indias-oil-fields-are-running-down-3696: clean
+[15 flagged / 75/151] indias-petrochemical-import-tree-from: clean
+[15 flagged / 76/151] indias-state-incentive-war-gujarats: clean
+[15 flagged / 77/151] indias-subsidised-imports-fertilisers: clean
+[15 flagged / 78/151] indias-textile-import-export-strategy: clean
+[16 flagged / 79/151] indias-trade-balance-hsn-wise: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-trade-balance-hsn-wise.md
+[16 flagged / 80/151] indias-trade-story-has-three-big-wins: clean
+[16 flagged / 81/151] indias-two-tracks-of-health-cover-and: clean
+[16 flagged / 82/151] indias-tyre-waste-problem-and-crumb: clean
+[16 flagged / 83/151] indias-used-oil-epr-wants-half-of-all: clean
+[17 flagged / 84/151] indias-wholesale-prices-next-to: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-wholesale-prices-next-to.md
+[17 flagged / 85/151] inflation-trends-globally-what-five: clean
+[17 flagged / 86/151] jai-kisan-jai-javan-fci-based-military: clean
+[17 flagged / 87/151] lok-sabha-question-registry-1843-scheme: clean
+[18 flagged / 88/151] lpgs-missing-number-7308-commission-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/lpgs-missing-number-7308-commission-and.md
+[18 flagged / 89/151] mrs-watanabe-traded-from-kitchen-table: clean
+[19 flagged / 90/151] nature-versus-nurture-indias-fertiliser: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/nature-versus-nurture-indias-fertiliser.md
+[20 flagged / 91/151] one-gallon-five-numbers-how-gcam-fits: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/one-gallon-five-numbers-how-gcam-fits.md
+[20 flagged / 92/151] one-refinery-flipped-nigeria-from: clean
+[21 flagged / 93/151] petroleum-trade-pairings-and-us-crude: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/petroleum-trade-pairings-and-us-crude.md
+[22 flagged / 94/151] pli-medical-devices-coverage-and-gaps: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pli-medical-devices-coverage-and-gaps.md
+[22 flagged / 95/151] price-is-wire-how-gcam-actually-links: clean
+[22 flagged / 96/151] priority-export-destinations-by-growth: clean
+[22 flagged / 97/151] priority-trade-partners-by-import: clean
+[23 flagged / 98/151] push-ethanol-sgst-rate-from-25-to-5-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/push-ethanol-sgst-rate-from-25-to-5-and.md
+[23 flagged / 99/151] quarterly-reportage-4034-scheme: clean
+[24 flagged / 100/151] raising-green-debt-globally-rec-euroyen: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/raising-green-debt-globally-rec-euroyen.md
+[24 flagged / 101/151] rajya-sabha-question-registry-scheme: clean
+[24 flagged / 102/151] rare-earth-magnets-and-specialty-steel: clean
+[25 flagged / 103/151] rbi-foreign-exchange-reserves-20152026: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rbi-foreign-exchange-reserves-20152026.md
+[26 flagged / 104/151] re-spinning-charkha: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/re-spinning-charkha.md
+[26 flagged / 105/151] real-gdp-growth-india-fy2012-13-to: clean
+[26 flagged / 106/151] reinvesting-capital-gains-in-higher: clean
+[27 flagged / 107/151] rin-red-and-cbio-what-indias-ethanol: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rin-red-and-cbio-what-indias-ethanol.md
+[27 flagged / 108/151] rooftop-solar-is-working-household: clean
+[28 flagged / 109/151] root-bgfff-fg1a1a1a-mut666-cardf6f6f4: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.md
+[29 flagged / 110/151] securitising-deficit-what-it-would: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/securitising-deficit-what-it-would.md
+[29 flagged / 111/151] south-africa-lost-its-gulf-fuel-supply: clean
+[29 flagged / 112/151] state-by-state-who-actually-earns-from: clean
+[29 flagged / 113/151] tamil-nadus-gst-gap-108-economy-growing: clean
+[29 flagged / 114/151] tech-for-business-so-2019-tech-as: clean
+[29 flagged / 115/151] textile-hsn-deep-dive-apparel-vs-mmf: clean
+[29 flagged / 116/151] thali-investing-whats-actually-on-plate: clean
+[30 flagged / 117/151] the-503020-rule-is-elizabeth-warrens: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-503020-rule-is-elizabeth-warrens.md
+[30 flagged / 118/151] the-barrel-really-is-shifting-indias: clean
+[30 flagged / 119/151] the-case-for-biofuels-over-imports: clean
+[30 flagged / 120/151] the-cbg-incentive-stack-every-leg-of: clean
+[31 flagged / 121/151] the-empty-shed-greenhouse-what-indias: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-empty-shed-greenhouse-what-indias.md
+[31 flagged / 122/151] the-ethanol-sectors-buyers-market: clean
+[32 flagged / 123/151] the-fcc-lever-trading-petrol-yield-for: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-fcc-lever-trading-petrol-yield-for.md
+[32 flagged / 124/151] the-fearless-girls-charter-indias: clean
+[33 flagged / 125/151] the-grain-value-loop-integrated-rice: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-grain-value-loop-integrated-rice.md
+[34 flagged / 126/151] the-margin-case-why-lpg-and: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-margin-case-why-lpg-and.md
+[35 flagged / 127/151] the-masala-deutsch-shop-books-things: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-masala-deutsch-shop-books-things.md
+[35 flagged / 128/151] the-most-discussed-schemes-in: clean
+[36 flagged / 129/151] the-price-and-tap-two-levers-behind: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-price-and-tap-two-levers-behind.md
+[36 flagged / 130/151] the-price-of-grain-msp-msv-and: clean
+[36 flagged / 131/151] the-recycling-lottery-playbook-norways: clean
+[37 flagged / 132/151] the-rule-of-72-rule-of-114-and-how-to: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-rule-of-72-rule-of-114-and-how-to.md
+[37 flagged / 133/151] the-rupee-fell-10-and-exports-grew-09: clean
+[37 flagged / 134/151] thermal-parity-is-dead-what-85-oil-and: clean
+[38 flagged / 135/151] tiffin-meets-thali-10-day-sip-already: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tiffin-meets-thali-10-day-sip-already.md
+[38 flagged / 136/151] top-15-chemicals-for-import--4751284523575450171: clean
+[38 flagged / 137/151] top-15-chemicals-for-import: clean
+[38 flagged / 138/151] up-has-indias-biggest-herd-punjab-has: clean
+[38 flagged / 139/151] upi-fees-are-now-legal-petrol-pumps: clean
+[38 flagged / 140/151] us-stock-picks-multi-screen-quant: clean
+[39 flagged / 141/151] uttar-pradeshs-gst-puzzle-growing: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/uttar-pradeshs-gst-puzzle-growing.md
+[39 flagged / 142/151] vehicles-out-motors-in-indias-chapter: clean
+[40 flagged / 143/151] what-india-is-actually-paying-for-post-covid: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/what-india-is-actually-paying-for-post-covid.md
+[41 flagged / 144/151] where-india-actually-burns-its-fuel: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-india-actually-burns-its-fuel.md
+[42 flagged / 145/151] where-indias-factories-actually-get: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-indias-factories-actually-get.md
+[42 flagged / 146/151] where-indias-forex-goes-country: clean
+[42 flagged / 147/151] where-indias-green-hydrogen-bets-are: clean

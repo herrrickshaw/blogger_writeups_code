@@ -16,19 +16,19 @@ Source: `posts/thermal-parity-is-dead-what-85-oil-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99706, Requested 3654. Please try again in 48m23.04s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98994, Requested 3702. Please try again in 38m49.344s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The date is impossible as it is in the future relative to the current date (2025). [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "$7 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The article later states the actual notified APM gas price for August 2026 is $7.86/MMBtu, not $7. [confidence: high]
+- "$7.86 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The article later clarifies that $7.86 is the *actual* notified price, not a ceiling, and the ceiling for nomination fields is not explicitly stated as $7.86. The $7.86 figure is presented as the binding price, but the text acknowledges uncertainty about the exact ceiling mechanics. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s domestic gas price is not floating freely at 10% of crude; something is holding it below the formula's raw output, and that something is a policy choice to protect city-gas and fertiliser consumers from a full pass-through of crude-linked pricing, layered on top of a formula that already ties the two together by design." — While the article correctly notes the ceiling is binding, it does not establish that the policy choice is *solely* to protect consumers. The ceiling could also reflect other objectives (e.g., balancing producer and consumer interests, fiscal constraints, or strategic energy security considerations). The claim oversimplifies the rationale behind the policy. [confidence: medium]
+- "India’s domestic gas price is a live experiment in the opposite direction: a formula that re-pegs gas to crude by government notification, every month, regardless of what the physical energy-equivalence math says it should cost." — While the formula ties gas to crude, the claim that it is "regardless of what the physical energy-equivalence math says it should cost" is misleading. The formula is a *policy choice* to peg gas to crude, not an attempt to reflect thermal parity. The article later acknowledges that the formula is a deliberate policy mechanism, but the initial framing implies an incorrect causal claim that the formula ignores thermal parity entirely, when in fact it is a conscious deviation from it. [confidence: high]
 
-- "A crude price fall, symmetrically, would flow straight through to the 10% calculation until it hits the $4 floor." — The article assumes symmetry in the pass-through mechanism without verifying whether the floor ($4) is equally binding or whether there are other administrative or market constraints that could disrupt this symmetry. The claim extrapolates from a single data point ($7.86 at $85 crude) without evidence that the relationship holds in all scenarios. [confidence: medium]
+- "A crude price fall, symmetrically, would flow straight through to the 10% calculation until it hits the $4 floor." — The claim suggests a direct pass-through of crude price changes to gas prices, but the formula includes a ceiling ($7.86) and floor ($4), meaning the pass-through is *not* symmetric or unconditional. The article later acknowledges the ceiling's role, but the phrasing here oversimplifies the mechanics by implying a linear relationship without constraints. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

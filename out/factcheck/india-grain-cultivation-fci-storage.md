@@ -9,22 +9,34 @@ Source: `posts/india-grain-cultivation-fci-storage.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99443, Requested 2185. Please try again in 23m26.591999999s. Need more tokens? Upgrade to Dev Tier today a]
+FACTUAL ERRORS:
+- "Madhya Pradesh has 200 LMT storage" — The article does not provide a primary source to verify this specific number, and the source data is mentioned as "national_fci_fpo_by_state.csv (FCI-warehouse-MSPvsMSV repo)", which may not be accessible for verification [confidence: medium]
+- "Uttar Pradesh has 758 FPOs (the most of any state)" — The article mentions that the FPO count is from the "SFAC 10,000-FPO registry, 24-02-2025" which reports 3,649 FPOs in the SFAC channel, but it also mentions that the India-wide FPO count is "~45,000 across all promoting agencies", which may indicate that the number of FPOs in Uttar Pradesh might not be the highest when considering all promoting agencies [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "the storage belt and the FPO belt are different states" — This conclusion is based on the comparison of storage capacity and FPO counts across states, but it does not consider other factors that might influence the difference, such as the type of crops grown, agricultural policies, or geographical characteristics [confidence: high]
+- "Punjab has 174 LMT of storage but only 78 FPOs" — This statement is used to support the idea that the storage belt and FPO belt are different, but it does not account for the fact that Punjab is a major wheat-producing state and might have different storage and FPO requirements compared to other states [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Punjab has 569 FCI depots but only 78 FPOs" — The article later states Punjab has 569 FCI depots, but the initial claim is incorrect as the detailed list shows Punjab with 569 FCI depots (not 78). The 78 figure refers to FPOs, not depots. [confidence: high]
+- "Punjab has 569 FCI depots but only 78 FPOs" — The article text later contradicts this by stating Punjab has 569 FCI depots but only 78 FPOs, which is consistent. However, the initial claim in the schematic state map section ("Punjab has 569 FCI depots but only 78 FPOs") is accurate based on the later detailed list. No factual error found here. [confidence: high]
+- "FCI covered storage, Nov 2024 (LMT)" — The article mentions "~841 LMT all-India, all agencies" but the state-by-state figures do not sum to this total (e.g., Madhya Pradesh 200.4 + Punjab 174.5 + Haryana 100.2 + Uttar Pradesh 47.2 + Chhattisgarh 35.5 + Andhra Pradesh 24.6 + Telangana 24.4 + Maharashtra 24.3 + Bihar 20.9 + Tamil Nadu 20.9 + West Bengal 20.0 + Rajasthan 16.4 = ~768.9 LMT, excluding other states). This discrepancy suggests either missing data or double-counting in the all-India total. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the storage belt and the FPO belt are different states" — While the data shows a divergence between storage capacity and FPO counts across states (e.g., Punjab has high storage but low FPOs, Uttar Pradesh has high FPOs but low storage), the article implies this is a systemic or policy-relevant pattern without providing evidence or analysis to support a causal or structural interpretation. The claim is descriptive but presented as a definitive conclusion without further context or investigation. [confidence: medium]
+- "the storage belt and the FPO belt are different states" — While the data shows a spatial mismatch between storage capacity and FPO density across states, the article does not provide evidence or reasoning to support the causal claim that this mismatch is problematic or requires policy intervention. The observation alone does not justify the conclusion that this is a systemic issue. [confidence: medium]
+- "Madhya Pradesh has both (200 LMT storage, 348 FPOs)" — The article implies that Madhya Pradesh's dual advantage in storage and FPOs is a positive or optimal outcome, but it does not explain why this combination is desirable or how it benefits farmers or the agricultural supply chain. The presence of both does not inherently validate their effectiveness or efficiency. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

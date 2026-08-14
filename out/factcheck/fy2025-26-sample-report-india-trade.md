@@ -9,22 +9,32 @@ Source: `posts/fy2025-26-sample-report-india-trade.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99567, Requested 2604. Please try again in 31m15.744s. Need more tokens? Upgrade to Dev Tier today at http]
+FACTUAL ERRORS:
+- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The article does not provide the updated GDP growth figure, but it mentions that the provided figure has been superseded, implying that the figure might be outdated. [confidence: medium]
+- None found for other factual errors.
+
+INTERPRETATION ERRORS:
+- "Merchandise exports 441,745.9 TRADESTAT figure; PIB agrees to within 0.01%" — The article implies that the close agreement between TRADESTAT and PIB figures validates the accuracy of the export figure. However, this agreement does not necessarily rule out the possibility of both sources being incorrect or based on the same flawed data. [confidence: medium]
+- None found for other interpretation errors.
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim that MoSPI's Provisional Estimate has superseded the First Advance Estimate is incorrect. The First Advance Estimate (FAE) is the earliest official GDP growth estimate released by MoSPI, followed later by the Provisional Estimate. The Provisional Estimate does not supersede the FAE; both are sequential estimates with the Provisional Estimate being more refined. [confidence: high]
+- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim implies the FAE figure is outdated, but it does not specify what the superseding figure is or provide a corrected value. The article acknowledges the FAE is provisional but does not state the updated estimate, making the claim incomplete. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "NITI Aayog's pharma-sector thematic figure ($35.8bn pharma+API exports) is ~$10.7bn higher than this report's own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30 — consistent with this repo's existing PLI Bulk Drugs finding." — The reasoning gap here is that the article assumes the difference between NITI Aayog's pharma+API exports ($35.8bn) and the report's HS30-only figure ($25.07bn) is solely due to HS29 API exports being excluded. However, HS30 includes more than just APIs (e.g., vitamins, hormones), and NITI Aayog's broader pharma+API category may include additional subcategories or adjustments not accounted for in the HS30 figure. The explanation oversimplifies the discrepancy without verifying whether HS29 alone accounts for the full $10.7bn difference or if other factors (e.g., methodological differences, inclusion of services, or re-exports) are at play. [confidence: medium]
+- "NITI Aayog's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y) — this repo's goods-only figures show export growth of just +0.92% over the same year, explained by services exports growing faster (+9.0% per NITI Aayog) and pulling the blended rate up, not a discrepancy." — The reasoning gap is that the article assumes the difference in growth rates between goods-only and blended trade is solely due to faster services export growth, without providing evidence or data to support this causal claim. The blended trade figure is a sum of goods and services, but the article does not demonstrate that the +0.92% goods export growth is consistent with the +4.2% blended growth when accounting for services. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

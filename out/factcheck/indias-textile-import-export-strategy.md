@@ -16,19 +16,19 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99264, Requested 4510. Please try again in 54m20.736s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99502, Requested 4914. Please try again in 1h3m35.424s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Textile Import-Export Strategy: From $20.5B Dependency to Feedstock Self-Sufficiency" — The article claims a "$20.5B Annual Feedstock Deficit" in the subheading, but the text later clarifies that the $20.5B figure refers to the total textile sector's trade balance surplus (FY2024-25, HS Ch.50–63), not the feedstock deficit. The feedstock deficit is broken down separately as $14B (Ch.39) and $6.5B (Ch.29), totaling $20.5B for feedstocks alone. The subheading conflates the two. [confidence: high]
+- "India's Textile Import-Export Strategy" — The article title suggests a focus on India's textile sector, but the analysis primarily examines chemical feedstocks (HSN Chapters 29 and 39) rather than textile-specific trade data. The claim that these two chapters account for 63% of India's chemical-feedstock import bill for textiles is unverifiable as presented, since the article does not provide a source or breakdown for this percentage. [confidence: medium]
 
-- "$22.1B Ch 39: Polymer Imports (FY25)" — The table shows polymer imports at $22.1B for FY25, but the article also states "Polymer imports grew +66% in 4 years" from $13.3B (FY21) to $22.1B (FY25). However, $13.3B + 66% growth would be $22.148B, which rounds to $22.1B, so this is mathematically correct. No error here. (No factual error in this category.)
+- "$20.5B Annual Feedstock Deficit" — The article repeatedly references a "$20.5B" figure (e.g., in the title and section headers), but this number does not appear in the detailed data tables or analysis. The actual combined deficit for Chapters 29 and 39 in FY25 is approximately $12.5B ($6.5B + $14.0B), not $20.5B. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Key Finding: Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article correctly notes that the textile sector's overall trade balance is a surplus, but it implies that the 63% figure (for feedstock imports) is directly comparable to the overall trade balance surplus. This is an apples-to-oranges comparison: the 63% refers to a subset of imports (feedstocks for textiles), while the surplus refers to total textile exports (including finished goods) minus total textile imports (including both feedstocks and finished goods). The two figures are not mutually exclusive but represent different scopes of trade. [confidence: high]
+- "Polymer imports grew +66% in 4 years while exports stalled, widening gap from $6.4bn to $14.0bn." — The claim implies a causal link between import growth and export stagnation, but the data only shows a correlation. The article does not provide evidence that import growth *caused* export stagnation or that reducing imports would reverse this trend. The widening deficit could be due to other factors (e.g., global demand shifts, domestic capacity constraints unrelated to imports). [confidence: medium]
 
-- "Risk: 1% feedstock cost spike = 1-2% margin compression." — The article does not provide evidence or data to support this causal claim. While it is plausible that higher feedstock costs could compress margins, the article does not quantify the relationship between feedstock cost spikes and margin compression for the Indian textile sector. This is an unsupported extrapolation. [confidence: medium]
+- "5.2 MMTPA capacity addition vs 1.4 MMTPA demand growth = 3.8 MMTPA surplus available for export + quality improvement" — The article assumes that the additional capacity will directly translate into exportable surplus or quality improvements without addressing potential bottlenecks (e.g., feedstock availability, infrastructure constraints, or global market competition). The surplus calculation also does not account for the fact that some of the new capacity may be used to replace imports rather than create new exports. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

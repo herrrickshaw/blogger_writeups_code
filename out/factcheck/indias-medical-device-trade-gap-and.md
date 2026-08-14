@@ -16,19 +16,19 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99309, Requested 3146. Please try again in 35m21.12s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8667, Requested 3534. Please try again in 1.005s. Need more tokens? Upgrade to Dev Tier today at https:/]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A $6.2 billion deficit, growing at 22% a year" — The article later states the deficit grew by 21.7% from FY2024-25 to FY2025-26, not 22% annually. The 22% figure is inconsistent with the provided data. [confidence: high]
+- "5 August 2026" — The article references a future date (August 5, 2026) as the publication date, which is impossible. The current date is beyond this, indicating an error in the timestamp. [confidence: high]
 
-- "India has roughly 3 MRI units per million population against a global average of 7" — The article cites a global average of 7 MRI units per million, but this is likely outdated or incorrect. The WHO and other sources typically cite a higher global average (closer to 10-15 per million in developed countries). The claim lacks a clear source or context for the "global average." [confidence: medium]
+- "₹3,420cr" (PLI outlay) — The article mentions ₹3,420 crore for the PLI scheme but does not specify the year of allocation. The PLI scheme for medical devices was announced in 2020 with a ₹3,420 crore outlay, but the article does not clarify this, leaving ambiguity about whether the figure is nominal or current. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the policy landscape (PLI, SMDI, four device parks) that has demonstrably moved the needle in imaging and implants but never touched the two largest gaps: lab instruments and IVD reagents" — While the policy may have had some impact on imaging and implants, the article does not provide quantitative evidence or a clear causal link to show that these policies "demonstrably moved the needle." The claim assumes causation without sufficient proof. [confidence: high]
+- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr, with exports flat." — The article cites a $6.2 billion deficit (from the 2020 EEPC baseline) and claims it is growing at ~20% per year, but the provided data shows the deficit grew from $5.111 billion in FY2024-25 to $6.220 billion in FY2025-26, which is a 21.7% increase over one year, not an annualized growth rate. The claim implies a sustained ~20% annual growth, which is not supported by the single-year data point. [confidence: high]
 
-- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The article compares a 2020 baseline to FY2024-25 data but does not account for inflation, changes in HS code classifications, or other methodological differences that could explain the doubling of the market. The conclusion that "dependency did not improve" is an overgeneralization without controlling for these factors. [confidence: medium]
+- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article lists net-export segments (e.g., gloves, dressings, PPE), it does not provide historical data to substantiate the claim that this transition occurred "within a decade." The COVID-era indigenization is mentioned, but no baseline or timeline is given to confirm the decade-long trend. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

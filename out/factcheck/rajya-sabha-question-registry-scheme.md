@@ -16,21 +16,15 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "since 2019 (2019-01-02 → 2026-08-04)" — The start date of 2019-01-02 may be incorrect as the Rajya Sabha may not have been in session on this specific date, and the actual start date of the data collection is not verified [confidence: medium]
-- "1,825 at this build" — This number may not be verifiable or up-to-date, as the article does not provide a clear source or timestamp for this figure [confidence: low]
-
-INTERPRETATION ERRORS:
-- "this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate" — The article acknowledges the potential for miscounting, but does not provide a clear estimate of the error margin or explain how this approximation may impact the conclusions drawn from the data [confidence: medium]
-- "All three views are classified by one scheme-keyword map, so they filter identically" — The article assumes that the use of a single scheme-keyword map ensures identical filtering, but does not address potential issues with the map's comprehensiveness or accuracy [confidence: medium]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99282, Requested 1388. Please try again in 9m38.88s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2026-08-04" — The date is in the future relative to the current date (2025), making it unverifiable or incorrect. [confidence: high]
+- "Generated 2026-08-04 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI-generated text is valid, the claim implies that the AI's output is inherently unreliable, which could mislead readers into dismissing the entire dataset without proper context. The statement does not acknowledge that the AI's role was likely limited to synthesis and that the underlying data (from official sources) is verifiable. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI hallucinations is valid, the article itself is not a decision-making tool but a synthesis aid. The phrasing implies a stronger need for verification than is necessary for its stated purpose. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
