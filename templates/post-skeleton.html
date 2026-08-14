@@ -1,9 +1,29 @@
 <!--
-  masaladeutsch post skeleton — frozen 2026-08-06. See DESIGN_LOG.md for why.
-  Replace the XX prefix with a short per-post class (rsx, ecx, fertx, mapx …) so
-  the styles stay scoped to this post. Keep the element order below.
-  Run ~/blog-consistency-check/audit.py --url <live url> --rendered before calling
+  masaladeutsch post skeleton — frozen 2026-08-06, mobile/colour reference added
+  2026-08-14. See DESIGN_LOG.md for why. Replace the XX prefix with a short
+  per-post class (rsx, ecx, fertx, mapx …) so the styles stay scoped to this
+  post. Keep the element order below. Run
+  ~/blog-consistency-check/audit.py --url <live url> --rendered before calling
   a post done.
+
+  DO NOT COPY A PAST POST'S <div class="topnav-index-link">...<h1>...</h1>
+  BLOCK AS A SHORTCUT. Copying an older post's raw header (rather than this
+  skeleton) is exactly how the snippet bug reappeared on three posts in
+  August 2026 — those posts had a valid-looking header that simply predated
+  this file's gs-head-order fix. Always start a new post from this file.
+
+  ---- MOBILE / RESPONSIVE (verified 2026-08-14 at 375px viewport) ----
+  Every rule below already produces zero page-level horizontal scroll on
+  mobile, verified across 5+ live posts: .tw{overflow-x:auto} makes the TABLE
+  WRAPPER, not the page, the scrolling element, so a table with many columns
+  scrolls inside its own box instead of blowing out the viewport — do not
+  remove .tw from around a <table>, and do not set a fixed px width on a
+  table or its wrapper. The .stats grid uses auto-fit/minmax so cards
+  collapse to one column on narrow screens without a media query. The a11y
+  bar and translate widget both wrap via flex-wrap. If you add any new
+  block-level element with a fixed width, wrap it in a class with
+  `max-width:100%;overflow-x:auto` the same way .tw does, or it will
+  reintroduce page-level mobile overflow.
 -->
 <div class="artx XX">
 <style>
@@ -11,16 +31,41 @@
 .XX{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
 .XX h1,.XX h2,.XX h3{line-height:1.3}
 
-/* ---- palette: define every colour as a custom property here ---- */
+/* ---- palette: define every colour as a custom property here. Do not add
+       raw hex elsewhere in a post's <style> block — reference these vars, so
+       a future palette change is a 4-line edit instead of a find-and-replace
+       across every post. ----
+   --ink     #111    body text, light-locked (see below)
+   --accent  #8a4b08  eyebrow text, h2 rule, table header bg, stat numbers —
+                       the one colour that carries this post's "brand"
+   --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
+   --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
+*/
 .XX{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec}
 
-/* ---- light lock (gs-light-lock): a dark Blogger theme must not repaint text.
-       Re-assert the same values with !important. Do NOT add selectors here for
-       panels that are meant to be dark — those go in the guard below. ---- */
+/* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
+       set to prefers-color-scheme:dark) must not repaint text. Re-assert
+       the same values with !important — verified 2026-08-14 across 5 live
+       posts with the browser's colour scheme forced to dark: body/h1/p/table
+       all stayed light-background/dark-text with no low-contrast pairs.
+       Do NOT add selectors here for panels that are meant to be dark —
+       those go in the guard below. ---- */
 .XX,.XX p,.XX li,.XX td,.XX th{color:var(--ink)!important}
 .XX{background:#fff!important}
 
-/* ---- structure ---- */
+/* ---- structure: title + subtitle ----
+   .eyebrow    = the small-caps kicker ABOVE the h1 — "Section · Topic ·
+                 Subtopic", sets context before the reader hits the claim
+   h1          = the headline itself. Write it as the CLAIM, not the topic
+                 ("The Rouble Is the Outlier, Not the Dollar" beats
+                 "Currency Trends Update"). font-size 1.5rem is the deliberate
+                 site-wide size — do not bump it per-post.
+   .standfirst = the one/two-sentence SUBTITLE directly under the h1. This is
+                 also what Blogger's snippet extractor and the JSON-LD meta
+                 description both read (see the gs-head-order block below) —
+                 write it as a real, complete sentence a reader could act on,
+                 not a fragment.
+*/
 .XX .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
 .XX h1{margin:0 0 10px;font-size:1.5rem}
 .XX .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
@@ -30,7 +75,8 @@
 .XX .stat span{font-size:.8rem}
 .XX h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
 
-/* ---- tables: units live in the header, cells carry bare numbers ---- */
+/* ---- tables: units live in the header, cells carry bare numbers.
+       .tw is the mobile-overflow fix — see the MOBILE comment above. ---- */
 .XX .tw{overflow-x:auto}
 .XX table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
 .XX th,.XX td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
