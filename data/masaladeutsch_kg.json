@@ -1,0 +1,969 @@
+{
+ "directed": false,
+ "multigraph": false,
+ "graph": {},
+ "nodes": [
+  {
+   "label": "Raising Green Debt Globally",
+   "kind": "post",
+   "id": "post:raising-green-debt-globally-rec-euroyen"
+  },
+  {
+   "label": "Where the Rupee Actually Stands",
+   "kind": "post",
+   "id": "post:where-the-rupee-actually-stands-five-currencies"
+  },
+  {
+   "label": "Financing the Fuel-to-Chemicals Pivot",
+   "kind": "post",
+   "id": "post:financing-indias-refinery-to-petrochemical-pivot"
+  },
+  {
+   "label": "What TEPA Actually Opens",
+   "kind": "post",
+   "id": "post:what-tepa-actually-opens-efta-goods"
+  },
+  {
+   "label": "Tamil Nadu Wind Potential (NIWE)",
+   "kind": "post",
+   "id": "post:tamil-nadu-wind-power-potential-niwe"
+  },
+  {
+   "label": "Can Rupee Trade Actually Offset...",
+   "kind": "post",
+   "id": "post:can-rupee-trade-offset-imported-inflation"
+  },
+  {
+   "label": "What India Is Actually Paying For",
+   "kind": "post",
+   "id": "post:what-india-is-actually-paying-for-post-covid"
+  },
+  {
+   "label": "If India Paid BRICS in Rupees",
+   "kind": "post",
+   "id": "post:if-india-paid-brics-in-rupees-scenario"
+  },
+  {
+   "label": "Where the World's Oil Sits",
+   "kind": "post",
+   "id": "post:global-oil-storage-hormuz-crisis-2026"
+  },
+  {
+   "label": "India's Coking Coal Import Problem",
+   "kind": "post",
+   "id": "post:indias-coking-coal-dependency-and-biomass"
+  },
+  {
+   "label": "REC",
+   "kind": "ORG",
+   "id": "ent:REC"
+  },
+  {
+   "label": "SBI",
+   "kind": "ORG",
+   "id": "ent:SBI"
+  },
+  {
+   "label": "India",
+   "kind": "LOC",
+   "id": "ent:India"
+  },
+  {
+   "label": "IndianOil",
+   "kind": "ORG",
+   "id": "ent:IndianOil"
+  },
+  {
+   "label": "Japan",
+   "kind": "LOC",
+   "id": "ent:Japan"
+  },
+  {
+   "label": "RBI (ECB framework)",
+   "kind": "ORG",
+   "id": "ent:RBI (ECB framework)"
+  },
+  {
+   "label": "RBI",
+   "kind": "ORG",
+   "id": "ent:RBI"
+  },
+  {
+   "label": "PFC",
+   "kind": "ORG",
+   "id": "ent:PFC"
+  },
+  {
+   "label": "Switzerland",
+   "kind": "LOC",
+   "id": "ent:Switzerland"
+  },
+  {
+   "label": "Canada",
+   "kind": "LOC",
+   "id": "ent:Canada"
+  },
+  {
+   "label": "Malaysia",
+   "kind": "LOC",
+   "id": "ent:Malaysia"
+  },
+  {
+   "label": "China",
+   "kind": "LOC",
+   "id": "ent:China"
+  },
+  {
+   "label": "United States",
+   "kind": "LOC",
+   "id": "ent:United States"
+  },
+  {
+   "label": "Israel",
+   "kind": "LOC",
+   "id": "ent:Israel"
+  },
+  {
+   "label": "Norway",
+   "kind": "LOC",
+   "id": "ent:Norway"
+  },
+  {
+   "label": "Saudi Arabia",
+   "kind": "LOC",
+   "id": "ent:Saudi Arabia"
+  },
+  {
+   "label": "Australia",
+   "kind": "LOC",
+   "id": "ent:Australia"
+  },
+  {
+   "label": "FBIL",
+   "kind": "ORG",
+   "id": "ent:FBIL"
+  },
+  {
+   "label": "S&P Global",
+   "kind": "ORG",
+   "id": "ent:S&P Global"
+  },
+  {
+   "label": "Moody's",
+   "kind": "ORG",
+   "id": "ent:Moody's"
+  },
+  {
+   "label": "ICRA",
+   "kind": "ORG",
+   "id": "ent:ICRA"
+  },
+  {
+   "label": "Fitch",
+   "kind": "ORG",
+   "id": "ent:Fitch"
+  },
+  {
+   "label": "PIB",
+   "kind": "ORG",
+   "id": "ent:PIB"
+  },
+  {
+   "label": "Business Standard",
+   "kind": "ORG",
+   "id": "ent:Business Standard"
+  },
+  {
+   "label": "EXIM Bank",
+   "kind": "ORG",
+   "id": "ent:EXIM Bank"
+  },
+  {
+   "label": "Saudi",
+   "kind": "MISC",
+   "id": "ent:Saudi"
+  },
+  {
+   "label": "UAE",
+   "kind": "LOC",
+   "id": "ent:UAE"
+  },
+  {
+   "label": "Labs",
+   "kind": "ORG",
+   "id": "ent:Labs"
+  },
+  {
+   "label": "Russia",
+   "kind": "LOC",
+   "id": "ent:Russia"
+  },
+  {
+   "label": "Ukraine",
+   "kind": "LOC",
+   "id": "ent:Ukraine"
+  },
+  {
+   "label": "Financial Benchmarks India Pvt Ltd",
+   "kind": "ORG",
+   "id": "ent:Financial Benchmarks India Pvt Ltd"
+  },
+  {
+   "label": "FBI",
+   "kind": "ORG",
+   "id": "ent:FBI"
+  },
+  {
+   "label": "USA",
+   "kind": "LOC",
+   "id": "ent:USA"
+  },
+  {
+   "label": "DGCI&S",
+   "kind": "ORG",
+   "id": "ent:DGCI&S"
+  },
+  {
+   "label": "Indian Oil Corporation",
+   "kind": "ORG",
+   "id": "ent:Indian Oil Corporation"
+  },
+  {
+   "label": "Gujarat",
+   "kind": "LOC",
+   "id": "ent:Gujarat"
+  },
+  {
+   "label": "TradeStat",
+   "kind": "ORG",
+   "id": "ent:TradeStat"
+  },
+  {
+   "label": "com",
+   "kind": "ORG",
+   "id": "ent:com"
+  },
+  {
+   "label": "Brent",
+   "kind": "ORG",
+   "id": "ent:Brent"
+  },
+  {
+   "label": "Moscow",
+   "kind": "LOC",
+   "id": "ent:Moscow"
+  },
+  {
+   "label": "Gulf",
+   "kind": "LOC",
+   "id": "ent:Gulf"
+  },
+  {
+   "label": "Iran",
+   "kind": "LOC",
+   "id": "ent:Iran"
+  },
+  {
+   "label": "Strait of Hormuz",
+   "kind": "LOC",
+   "id": "ent:Strait of Hormuz"
+  },
+  {
+   "label": "Hormuz",
+   "kind": "LOC",
+   "id": "ent:Hormuz"
+  },
+  {
+   "label": "Ministry of Commerce & Industry",
+   "kind": "ORG",
+   "id": "ent:Ministry of Commerce & Industry"
+  },
+  {
+   "label": "Indonesia",
+   "kind": "LOC",
+   "id": "ent:Indonesia"
+  },
+  {
+   "label": "Africa",
+   "kind": "LOC",
+   "id": "ent:Africa"
+  }
+ ],
+ "edges": [
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:REC"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:SBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:IndianOil"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Japan"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:RBI (ECB framework)"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:PFC"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Switzerland"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Canada"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Malaysia"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:United States"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Israel"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Norway"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Saudi Arabia"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Australia"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:FBIL"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:S&P Global"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Moody's"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:ICRA"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Fitch"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:PIB"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:Business Standard"
+  },
+  {
+   "weight": 1,
+   "source": "post:raising-green-debt-globally-rec-euroyen",
+   "target": "ent:EXIM Bank"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Saudi"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:UAE"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Labs"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Saudi Arabia"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Ukraine"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:FBIL"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:Financial Benchmarks India Pvt Ltd"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:FBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:USA"
+  },
+  {
+   "weight": 1,
+   "source": "post:where-the-rupee-actually-stands-five-currencies",
+   "target": "ent:DGCI&S"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:Indian Oil Corporation"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:IndianOil"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:Gujarat"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:Business Standard"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:PIB"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:SBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:REC"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:PFC"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:EXIM Bank"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:financing-indias-refinery-to-petrochemical-pivot",
+   "target": "ent:RBI (ECB framework)"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:Switzerland"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:Norway"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:PIB"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:TradeStat"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-tepa-actually-opens-efta-goods",
+   "target": "ent:com"
+  },
+  {
+   "weight": 1,
+   "source": "post:tamil-nadu-wind-power-potential-niwe",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:tamil-nadu-wind-power-potential-niwe",
+   "target": "ent:Gujarat"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Brent"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:UAE"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Indian Oil Corporation"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Moscow"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Saudi Arabia"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:USA"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:DGCI&S"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:FBIL"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Financial Benchmarks India Pvt Ltd"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Saudi"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Gulf"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:FBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:can-rupee-trade-offset-imported-inflation",
+   "target": "ent:Business Standard"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Israel"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Iran"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Strait of Hormuz"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Hormuz"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Brent"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:UAE"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:USA"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Saudi Arabia"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:United States"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Gulf"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Moody's"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:S&P Global"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Fitch"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Moscow"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:com"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:Ministry of Commerce & Industry"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:PIB"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:ICRA"
+  },
+  {
+   "weight": 1,
+   "source": "post:what-india-is-actually-paying-for-post-covid",
+   "target": "ent:TradeStat"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:RBI"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Saudi Arabia"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Indonesia"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Africa"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Iran"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:UAE"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Brent"
+  },
+  {
+   "weight": 1,
+   "source": "post:if-india-paid-brics-in-rupees-scenario",
+   "target": "ent:Ministry of Commerce & Industry"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Iran"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Strait of Hormuz"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:United States"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Gulf"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:China"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Japan"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Malaysia"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Hormuz"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Brent"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Ukraine"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:global-oil-storage-hormuz-crisis-2026",
+   "target": "ent:Africa"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:India"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Labs"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:DGCI&S"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:TradeStat"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Australia"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:USA"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Russia"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Canada"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Indonesia"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:Switzerland"
+  },
+  {
+   "weight": 1,
+   "source": "post:indias-coking-coal-dependency-and-biomass",
+   "target": "ent:PIB"
+  }
+ ]
+}

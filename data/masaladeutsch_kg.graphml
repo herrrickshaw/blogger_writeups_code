@@ -1,0 +1,641 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d2" for="edge" attr.name="weight" attr.type="long" />
+  <key id="d1" for="node" attr.name="kind" attr.type="string" />
+  <key id="d0" for="node" attr.name="label" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="post:raising-green-debt-globally-rec-euroyen">
+      <data key="d0">Raising Green Debt Globally</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:where-the-rupee-actually-stands-five-currencies">
+      <data key="d0">Where the Rupee Actually Stands</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:financing-indias-refinery-to-petrochemical-pivot">
+      <data key="d0">Financing the Fuel-to-Chemicals Pivot</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:what-tepa-actually-opens-efta-goods">
+      <data key="d0">What TEPA Actually Opens</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:tamil-nadu-wind-power-potential-niwe">
+      <data key="d0">Tamil Nadu Wind Potential (NIWE)</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:can-rupee-trade-offset-imported-inflation">
+      <data key="d0">Can Rupee Trade Actually Offset...</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:what-india-is-actually-paying-for-post-covid">
+      <data key="d0">What India Is Actually Paying For</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:if-india-paid-brics-in-rupees-scenario">
+      <data key="d0">If India Paid BRICS in Rupees</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:global-oil-storage-hormuz-crisis-2026">
+      <data key="d0">Where the World's Oil Sits</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="post:indias-coking-coal-dependency-and-biomass">
+      <data key="d0">India's Coking Coal Import Problem</data>
+      <data key="d1">post</data>
+    </node>
+    <node id="ent:REC">
+      <data key="d0">REC</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:SBI">
+      <data key="d0">SBI</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:India">
+      <data key="d0">India</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:IndianOil">
+      <data key="d0">IndianOil</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Japan">
+      <data key="d0">Japan</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:RBI (ECB framework)">
+      <data key="d0">RBI (ECB framework)</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:RBI">
+      <data key="d0">RBI</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:PFC">
+      <data key="d0">PFC</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Switzerland">
+      <data key="d0">Switzerland</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Canada">
+      <data key="d0">Canada</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Malaysia">
+      <data key="d0">Malaysia</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:China">
+      <data key="d0">China</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:United States">
+      <data key="d0">United States</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Israel">
+      <data key="d0">Israel</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Norway">
+      <data key="d0">Norway</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Saudi Arabia">
+      <data key="d0">Saudi Arabia</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Australia">
+      <data key="d0">Australia</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:FBIL">
+      <data key="d0">FBIL</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:S&amp;P Global">
+      <data key="d0">S&amp;P Global</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Moody's">
+      <data key="d0">Moody's</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:ICRA">
+      <data key="d0">ICRA</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Fitch">
+      <data key="d0">Fitch</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:PIB">
+      <data key="d0">PIB</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Business Standard">
+      <data key="d0">Business Standard</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:EXIM Bank">
+      <data key="d0">EXIM Bank</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Saudi">
+      <data key="d0">Saudi</data>
+      <data key="d1">MISC</data>
+    </node>
+    <node id="ent:UAE">
+      <data key="d0">UAE</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Labs">
+      <data key="d0">Labs</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Russia">
+      <data key="d0">Russia</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Ukraine">
+      <data key="d0">Ukraine</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Financial Benchmarks India Pvt Ltd">
+      <data key="d0">Financial Benchmarks India Pvt Ltd</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:FBI">
+      <data key="d0">FBI</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:USA">
+      <data key="d0">USA</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:DGCI&amp;S">
+      <data key="d0">DGCI&amp;S</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Indian Oil Corporation">
+      <data key="d0">Indian Oil Corporation</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Gujarat">
+      <data key="d0">Gujarat</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:TradeStat">
+      <data key="d0">TradeStat</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:com">
+      <data key="d0">com</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Brent">
+      <data key="d0">Brent</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Moscow">
+      <data key="d0">Moscow</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Gulf">
+      <data key="d0">Gulf</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Iran">
+      <data key="d0">Iran</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Strait of Hormuz">
+      <data key="d0">Strait of Hormuz</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Hormuz">
+      <data key="d0">Hormuz</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Ministry of Commerce &amp; Industry">
+      <data key="d0">Ministry of Commerce &amp; Industry</data>
+      <data key="d1">ORG</data>
+    </node>
+    <node id="ent:Indonesia">
+      <data key="d0">Indonesia</data>
+      <data key="d1">LOC</data>
+    </node>
+    <node id="ent:Africa">
+      <data key="d0">Africa</data>
+      <data key="d1">LOC</data>
+    </node>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:REC">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:SBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:IndianOil">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Japan">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:RBI (ECB framework)">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:PFC">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Switzerland">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Canada">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Malaysia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:United States">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Israel">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Norway">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Saudi Arabia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Australia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:FBIL">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:S&amp;P Global">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Moody's">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:ICRA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Fitch">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:PIB">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:Business Standard">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:raising-green-debt-globally-rec-euroyen" target="ent:EXIM Bank">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Saudi">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:UAE">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Labs">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Saudi Arabia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Ukraine">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:FBIL">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:Financial Benchmarks India Pvt Ltd">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:FBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:USA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:where-the-rupee-actually-stands-five-currencies" target="ent:DGCI&amp;S">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:Indian Oil Corporation">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:IndianOil">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:Gujarat">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:Business Standard">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:PIB">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:SBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:REC">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:PFC">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:EXIM Bank">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:financing-indias-refinery-to-petrochemical-pivot" target="ent:RBI (ECB framework)">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:Switzerland">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:Norway">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:PIB">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:TradeStat">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-tepa-actually-opens-efta-goods" target="ent:com">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:tamil-nadu-wind-power-potential-niwe" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:tamil-nadu-wind-power-potential-niwe" target="ent:Gujarat">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Brent">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:UAE">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Indian Oil Corporation">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Moscow">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Saudi Arabia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:USA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:DGCI&amp;S">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:FBIL">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Financial Benchmarks India Pvt Ltd">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Saudi">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Gulf">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:FBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:can-rupee-trade-offset-imported-inflation" target="ent:Business Standard">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Israel">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Iran">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Strait of Hormuz">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Hormuz">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Brent">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:UAE">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:USA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Saudi Arabia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:United States">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Gulf">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Moody's">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:S&amp;P Global">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Fitch">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Moscow">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:com">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:Ministry of Commerce &amp; Industry">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:PIB">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:ICRA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:what-india-is-actually-paying-for-post-covid" target="ent:TradeStat">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:RBI">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Saudi Arabia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Indonesia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Africa">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Iran">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:UAE">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Brent">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:if-india-paid-brics-in-rupees-scenario" target="ent:Ministry of Commerce &amp; Industry">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Iran">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Strait of Hormuz">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:United States">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Gulf">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:China">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Japan">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Malaysia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Hormuz">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Brent">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Ukraine">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:global-oil-storage-hormuz-crisis-2026" target="ent:Africa">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:India">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Labs">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:DGCI&amp;S">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:TradeStat">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Australia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:USA">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Russia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Canada">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Indonesia">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:Switzerland">
+      <data key="d2">1</data>
+    </edge>
+    <edge source="post:indias-coking-coal-dependency-and-biomass" target="ent:PIB">
+      <data key="d2">1</data>
+    </edge>
+  </graph>
+</graphml>
