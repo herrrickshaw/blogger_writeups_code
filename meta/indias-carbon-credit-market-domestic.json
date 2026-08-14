@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
   "slug": "indias-carbon-credit-market-domestic",
   "published": "2026-08-02T21:37:31.000+05:30",
-  "updated": "2026-08-13T10:45:52.515+05:30",
+  "updated": "2026-08-14T06:37:00.983+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 30569,
-  "sha256": "ab1bb993a745d8040ad9567fb309ef93874d525e6ef5dcfdfed049e647eefc38",
+  "bytes": 30645,
+  "sha256": "8867c0d5bca100776f1a33a65970658d39815aec0f4d11e311c6a57484fea705",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30569,
+        30645
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

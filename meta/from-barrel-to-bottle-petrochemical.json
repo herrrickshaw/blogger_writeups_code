@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
   "slug": "from-barrel-to-bottle-petrochemical",
   "published": "2026-08-13T08:48:38.000+05:30",
-  "updated": "2026-08-13T10:09:05.927+05:30",
+  "updated": "2026-08-14T06:35:03.731+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
   "bytes": 28671,
-  "sha256": "8f2e5c0069ced716cb64bfb104fb9b963fcc8935c5a2bfc1f0f04cc5be8fc5de",
+  "sha256": "670a6b2dabad62df9faa9be5f717a53f5cdc0ec1b0b2ba5aa4cadaa942495b0a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28671,
+        28671
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

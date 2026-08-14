@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-08-13T19:42:36.512+05:30",
+  "updated": "2026-08-13T21:58:20.110+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
   "bytes": 107297,
-  "sha256": "5ee538cdc4a8fc7678146ca029fc112367635878dfc17b5690b864602cc010bc",
+  "sha256": "61cfc2405a3331fad66e6f6be457e2fcdd2175b9f29d349c782f035de519ff90",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        107297,
+        107297
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

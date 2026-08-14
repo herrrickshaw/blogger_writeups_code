@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
   "slug": "indias-fertiliser-import-bill-hits-18",
   "published": "2026-08-08T21:49:47.000+05:30",
-  "updated": "2026-08-13T10:10:11.832+05:30",
+  "updated": "2026-08-14T06:30:08.649+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 24264,
-  "sha256": "c99633db372b32d32d54e2ff10432f1a4f019bc3b89c6e53a3afa93894482793",
+  "bytes": 24280,
+  "sha256": "2932a9c840e229589954b00bc7100e2777f429e46dc3763e7b811c769c85723c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24264,
+        24280
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

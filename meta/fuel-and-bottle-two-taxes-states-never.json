@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-08-13T10:09:28.657+05:30",
+  "updated": "2026-08-14T06:33:30.173+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 28814,
-  "sha256": "6747084d01892e448435d9ff03b220c183d6b43deff0d2a77c7d7ffe98cd0473",
+  "bytes": 28812,
+  "sha256": "09c8a3d59f63739c70d978905d9c1e5c863780daa37078ed75a18806b22df385",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28814,
+        28812
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

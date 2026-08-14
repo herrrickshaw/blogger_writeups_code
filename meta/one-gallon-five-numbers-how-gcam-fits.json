@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
   "slug": "one-gallon-five-numbers-how-gcam-fits",
   "published": "2026-08-13T11:20:44.000+05:30",
-  "updated": "2026-08-13T11:21:03.137+05:30",
+  "updated": "2026-08-14T09:05:20.648+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Climate Modeling"
   ],
-  "bytes": 25098,
-  "sha256": "d963ffe8ca22f28fc73149d5b6d73015186cf0f60a8f7a418f80974614ba9234",
+  "bytes": 25217,
+  "sha256": "975fa962f3f15c0354fc4e93acf3c0b907ac6356f5886198b2a5583ddf477947",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25098,
+        25217
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
   "slug": "a-slice-of-apple-costs-about-1700-slice",
   "published": "2026-08-11T10:59:06.000+05:30",
-  "updated": "2026-08-13T10:41:38.074+05:30",
+  "updated": "2026-08-13T22:06:14.422+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 49189,
-  "sha256": "faddf355a49ea35c575578aec406ca1de40d4d6d25bb31fa5e11b60de191809a",
+  "bytes": 49209,
+  "sha256": "6c843784b6b45e241ed07889467d9a09f833614468ace1fd8825c71ba91951d3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.13",
+  "version": "1.0.14",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.14",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        49189,
+        49209
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

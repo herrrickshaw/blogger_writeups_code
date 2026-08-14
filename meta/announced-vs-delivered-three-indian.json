@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-08-13T10:42:12.976+05:30",
+  "updated": "2026-08-14T06:47:52.640+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 44729,
-  "sha256": "8ed4b6014fe9b52f93cef62dcd404e915fc3fe7de5c1507eb8b3a3c1a6d921aa",
+  "bytes": 44932,
+  "sha256": "5fc3348ce4d4df63f591697729e9ee8c1493d71213428b610f8ab3b69ba26418",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        44729,
+        44932
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

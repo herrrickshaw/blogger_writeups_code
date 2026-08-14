@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
   "slug": "would-more-sgst-fix-donor-state-problem",
   "published": "2026-08-12T19:54:17.000+05:30",
-  "updated": "2026-08-13T10:15:27.492+05:30",
+  "updated": "2026-08-13T22:03:47.126+05:30",
   "labels": [
     "Energy & Fuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 23596,
-  "sha256": "523c01fb289f341c04f36f6800fb45f81f92f9f8bf2addcc6ebd224a15322613",
+  "bytes": 23613,
+  "sha256": "10945705e0c1a4f16ca67c57f84ae0873faf7b15f161e3da9a18939f4b1d7160",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23596,
+        23613
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

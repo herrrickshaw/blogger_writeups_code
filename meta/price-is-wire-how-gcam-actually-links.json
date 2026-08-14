@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-08-13T11:23:53.150+05:30",
+  "updated": "2026-08-14T09:05:27.628+05:30",
   "labels": [
     "Climate Modeling",
     "Energy Systems",
     "India"
   ],
-  "bytes": 39015,
-  "sha256": "71e42262768dd53338f10bee4a3d98d17513cdd32a04853f67e6699cac6e8d93",
+  "bytes": 39134,
+  "sha256": "1a09f2b347cb8cb2269859d83967e6dc86878d83a3cdeaa03284f7b2320728bb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39015,
+        39134
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

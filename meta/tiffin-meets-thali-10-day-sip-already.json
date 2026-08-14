@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
   "slug": "tiffin-meets-thali-10-day-sip-already",
   "published": "2026-08-11T13:45:20.000+05:30",
-  "updated": "2026-08-13T10:49:28.697+05:30",
+  "updated": "2026-08-14T06:38:20.706+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 19566,
-  "sha256": "14bb156063e5e4bdc620fd0bdc9afe6eb18cc87a82e4bf988c3c4a5d9e50f4d5",
+  "bytes": 19550,
+  "sha256": "1e6a47b486adc5dbe6478b9b3f346fda5af13ec4229021c3f103cca5a41f4879",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19566,
+        19550
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

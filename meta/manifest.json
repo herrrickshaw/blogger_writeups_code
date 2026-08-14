@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-13T21:52:16+05:30",
-  "count": 146,
+  "snapshot": "2026-08-14T04:25:49+00:00",
+  "count": 150,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -8,13 +8,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-08-13T10:15:16.141+05:30",
+      "updated": "2026-08-14T06:34:32.927+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
       "bytes": 29331,
-      "sha256": "c3ac35f64112b39c8aad800ca4a8b4e015deb8e485ea69738339ae4469a8a2e4",
+      "sha256": "367c65bf3fb1bcf309fe53f9d56a872f2762878db13590d4787191b55aef757d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26,7 +26,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -138,6 +138,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            29331,
+            29331
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -309,14 +322,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
       "slug": "from-cane-to-code-digital-layer",
       "published": "2026-08-08T21:20:54.000+05:30",
-      "updated": "2026-08-13T10:09:17.227+05:30",
+      "updated": "2026-08-13T22:05:15.266+05:30",
       "labels": [
         "AI Tools",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 24054,
-      "sha256": "d9f5fe7f4df6cc52361963d244adf68e17bd08e9f1ea4643b6b4893fe7546220",
+      "bytes": 24053,
+      "sha256": "190604ae7fc38e83ac927d2ec9260e254409ca629ecf9539ac179d8851b1c8d8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -328,7 +341,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -401,6 +414,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24054,
+            24053
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -895,13 +921,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
       "slug": "uttar-pradeshs-gst-puzzle-growing",
       "published": "2026-08-12T19:19:19.000+05:30",
-      "updated": "2026-08-13T10:14:53.966+05:30",
+      "updated": "2026-08-14T06:34:41.001+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 25489,
-      "sha256": "8df7ca55ff350718e8ed616afec43601c7825b1085047241acc12860c11129c1",
+      "bytes": 25644,
+      "sha256": "8d3be5c2ec7938d94ee9bc53de3585753dc9833cfd7dbd175742897214e1cfeb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -913,7 +939,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1025,6 +1051,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            25489,
+            25644
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -1603,12 +1642,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-08-13T10:07:57.722+05:30",
+      "updated": "2026-08-14T06:30:16.924+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 24240,
-      "sha256": "079198aeefe6b3faf29ad24f772e67640de41e9335fbf9446280f55cea3c97af",
+      "bytes": 24243,
+      "sha256": "da088d212fd1ddc7839df50b631604880841d038196669aa462e9ac1c5be2c25",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1620,7 +1659,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1719,6 +1758,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24240,
+            24243
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -2183,14 +2235,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
       "slug": "indias-animal-protein-export-complex",
       "published": "2026-08-05T14:53:50.000+05:30",
-      "updated": "2026-08-11T12:02:51.460+05:30",
+      "updated": "2026-08-13T21:59:41.258+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 10512,
-      "sha256": "be1d2d2ca27a852acbdc4e8ca9706f8bc526b43c8f694703f433921ebe85a544",
+      "bytes": 10534,
+      "sha256": "f652192365546672ff7d4ed80b6d23750e9c806d514ad4b53e4f563db6b79411",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2202,7 +2254,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2271,6 +2323,19 @@
             ]
           },
           "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            10512,
+            10534
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -2280,12 +2345,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-13T10:13:57.378+05:30",
+      "updated": "2026-08-14T06:50:39.347+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 45038,
-      "sha256": "78a5a0d411ed90dc5b9df7ad27e2ee6b7aa159c13ba6f0599c6d002212f5c2b4",
+      "bytes": 44873,
+      "sha256": "d09cff4e9088ebadc9ba7a9112ee67f76b846e59d5386dff3b82f7e38ba09cdd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2297,7 +2362,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.1.5",
+      "version": "7.1.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2583,6 +2648,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "7.1.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            45038,
+            44873
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -2735,13 +2813,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
       "slug": "the-rupee-fell-10-and-exports-grew-09",
       "published": "2026-08-04T06:34:23.000+05:30",
-      "updated": "2026-08-13T05:03:35.637+05:30",
+      "updated": "2026-08-14T06:37:22.825+05:30",
       "labels": [
         "Markets & Finance",
         "Trade & Tariffs"
       ],
       "bytes": 35959,
-      "sha256": "a9e13ad1ac0b002b63b2b35cfd4733d3357989a9a3daa81c7bb0644faa28d41d",
+      "sha256": "a4439b772c1781f254a704ca8c23ed25cb05fa8505865482a413e483ad4a3657",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2753,7 +2831,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2844,6 +2922,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            35959,
+            35959
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -3180,13 +3271,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-13T10:42:12.976+05:30",
+      "updated": "2026-08-14T06:47:52.640+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 44729,
-      "sha256": "8ed4b6014fe9b52f93cef62dcd404e915fc3fe7de5c1507eb8b3a3c1a6d921aa",
+      "bytes": 44932,
+      "sha256": "5fc3348ce4d4df63f591697729e9ee8c1493d71213428b610f8ab3b69ba26418",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3198,7 +3289,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3323,6 +3414,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            44729,
+            44932
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -3757,13 +3861,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
       "slug": "if-india-paid-brics-in-rupees-scenario",
       "published": "2026-08-04T16:05:00.000+05:30",
-      "updated": "2026-08-13T04:48:02.061+05:30",
+      "updated": "2026-08-14T06:28:52.999+05:30",
       "labels": [
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 32284,
-      "sha256": "ed7f5495389dcd3e46899268e30e9b71ef6683f976c745de9b8a241ec39bef65",
+      "bytes": 32211,
+      "sha256": "0cb0859b8cd77b7c4430c91be34523cf2a93af8a5e91551cb4e84574b5d51f3a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3775,7 +3879,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3866,6 +3970,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            32284,
+            32211
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -4180,12 +4297,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
       "slug": "cow-dung-already-flew-rocket-engine",
       "published": "2026-08-09T04:20:09.000+05:30",
-      "updated": "2026-08-13T10:08:32.052+05:30",
+      "updated": "2026-08-14T06:44:50.516+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 38220,
-      "sha256": "29b91420b6a7c287d1634703fc147c36beb32e61f48b2dfb0ef1179cbe9c66a1",
+      "bytes": 38246,
+      "sha256": "fcbbe9405ed40d04973894c7cb35287e2daed12ba4c21feef28c94f2e47163a0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4197,7 +4314,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.7",
+      "version": "4.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4335,6 +4452,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "4.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            38220,
+            38246
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -4457,13 +4587,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
       "slug": "lok-sabha-question-registry-1843-scheme",
       "published": "2026-08-04T16:00:00.000+05:30",
-      "updated": "2026-08-13T10:46:55.629+05:30",
+      "updated": "2026-08-14T06:44:05.706+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy"
       ],
       "bytes": 462183,
-      "sha256": "f55401e11d6e1b391fdf05e9b4279687a57e9348eed2f6292b951e4fe00813b5",
+      "sha256": "1eb3965e0ffd4bc425c1657f33d944ab6bbce00b1985f8edb7634f9ed2ea9914",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4475,7 +4605,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4583,6 +4713,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            462183,
+            462183
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -4849,13 +4992,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html",
       "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
       "published": "2026-08-12T20:02:46.000+05:30",
-      "updated": "2026-08-13T10:12:03.627+05:30",
+      "updated": "2026-08-14T06:49:53.897+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 28555,
-      "sha256": "b0bf7ce40f24533a53abd245afc37237a47a328288cb69afd2bc569f1428f165",
+      "bytes": 28545,
+      "sha256": "93454a397d9955192cc97a3abe91ec7a772ed2bf7912809b6812908abe8128af",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4867,7 +5010,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4966,6 +5109,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            28555,
+            28545
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -5327,12 +5483,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
       "slug": "india-grain-cultivation-fci-storage",
       "published": "2026-07-31T10:10:00.000+05:30",
-      "updated": "2026-08-13T04:49:34.410+05:30",
+      "updated": "2026-08-14T06:46:56.751+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 79550,
-      "sha256": "c894a80cc4302003a1df4f25d58249079d3e83cfa39116fcf42c7df5de692812",
+      "bytes": 79858,
+      "sha256": "b34985d808119f7ad08d5cf9cdffdc9b17a22261f81ee0474f32e9e37df47534",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5344,7 +5500,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5448,6 +5604,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            79550,
+            79858
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -5457,13 +5626,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
       "slug": "indias-medical-device-trade-gap-and",
       "published": "2026-08-05T05:24:27.000+05:30",
-      "updated": "2026-08-13T10:46:27.445+05:30",
+      "updated": "2026-08-14T06:26:55.693+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 24442,
-      "sha256": "fa4e3d9a85a57db8766c5fcce2ee62b0b10b0f3d48ee030d5379d4dc8c8c82a3",
+      "bytes": 24073,
+      "sha256": "47559c5993750d976622183c03ef13d1e678e51efba357567cc83783ffa6b524",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5475,7 +5644,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5583,6 +5752,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24442,
+            24073
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -6080,12 +6262,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
       "slug": "indias-food-processing-story-pli-scheme",
       "published": "2026-08-08T21:33:25.000+05:30",
-      "updated": "2026-08-13T10:10:23.129+05:30",
+      "updated": "2026-08-13T22:03:01.166+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 23104,
-      "sha256": "afda85fa93499e8ebf3c8ce310031529c07ebbb77db7bd0fa0003d6730fadc7e",
+      "bytes": 23346,
+      "sha256": "e48cdf167af67ab551d70fa5f3f1c9867f8999686d2acf45a72c27b099ba765e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6097,7 +6279,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6183,6 +6365,53 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23104,
+            23346
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        }
+      ]
+    },
+    "32998844735054096": {
+      "id": "32998844735054096",
+      "title": "What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
+      "slug": "what-india-is-actually-paying-for",
+      "published": "2026-08-14T08:10:54.000+05:30",
+      "updated": "2026-08-14T08:26:11.485+05:30",
+      "labels": [
+        "Macroeconomics & Monetary Policy"
+      ],
+      "bytes": 33452,
+      "sha256": "0301dbb20e9cdafdea5262a78b7568483db82664edb965820824a5a6a6423a16",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -6442,19 +6671,18 @@
         }
       ]
     },
-    "3515752825690979254": {
-      "id": "3515752825690979254",
-      "title": "The Barrel Really Is Shifting: India's Refiners Quantify the Petrochemical Pivot",
-      "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
-      "slug": "the-barrel-really-is-shifting-indias",
-      "published": "2026-08-12T20:24:23.000+05:30",
-      "updated": "2026-08-13T10:13:10.552+05:30",
+    "3467462935277445173": {
+      "id": "3467462935277445173",
+      "title": "Can Rupee Trade Actually Offset the Inflation India Is Importing?",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
+      "slug": "can-rupee-trade-actually-offset",
+      "published": "2026-08-14T08:31:13.000+05:30",
+      "updated": "2026-08-14T08:45:44.983+05:30",
       "labels": [
-        "Chemicals",
-        "Energy & Fuels"
+        "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 30353,
-      "sha256": "cfa4fd83bc1440a15b5bbe3788fa0ba396526835e8090ec53174a20d3b210ef5",
+      "bytes": 27915,
+      "sha256": "29de324e6421542525e175c7fd3343dc3faecd4c9a42c04e2ef3a7659ba5fb25",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6466,7 +6694,42 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.2",
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
+        }
+      ]
+    },
+    "3515752825690979254": {
+      "id": "3515752825690979254",
+      "title": "The Barrel Really Is Shifting: India's Refiners Quantify the Petrochemical Pivot",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
+      "slug": "the-barrel-really-is-shifting-indias",
+      "published": "2026-08-12T20:24:23.000+05:30",
+      "updated": "2026-08-14T06:32:26.486+05:30",
+      "labels": [
+        "Chemicals",
+        "Energy & Fuels"
+      ],
+      "bytes": 30345,
+      "sha256": "34376141713ef692ce919d194e08e997f2d920daa3180a0c9cd33df2010e015e",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6578,6 +6841,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.1.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            30353,
+            30345
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -6731,12 +7007,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
       "slug": "the-most-discussed-schemes-in",
       "published": "2026-08-04T15:50:00.000+05:30",
-      "updated": "2026-08-13T10:49:05.611+05:30",
+      "updated": "2026-08-14T06:51:55.615+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 33185,
-      "sha256": "b77eb5ac819fad45661e0f35c183d2968249dba9f976021275d00b812edb081b",
+      "bytes": 33433,
+      "sha256": "fa8b08f74ba9174fa587b1568ef3cc7f5a0adaf89763785d8a1bed18ef768fe5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6748,7 +7024,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6856,6 +7132,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            33185,
+            33433
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -6865,13 +7154,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
       "slug": "half-of-indias-import-bill-is",
       "published": "2026-08-03T17:03:34.000+05:30",
-      "updated": "2026-08-13T04:47:25.550+05:30",
+      "updated": "2026-08-14T06:28:45.201+05:30",
       "labels": [
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 24238,
-      "sha256": "44a975772a9c91f165f5fbe6bcfc197f805e547aea4cebb8fa0a9ab36b241233",
+      "bytes": 23840,
+      "sha256": "4f09a4f24436c6ee24290e157373b9590d2f4d1d53569793b2da46e07dbf8ae5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6883,7 +7172,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6987,6 +7276,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24238,
+            23840
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -7147,12 +7449,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
       "slug": "indian-it-in-ai-era",
       "published": "2026-08-04T12:48:16.000+05:30",
-      "updated": "2026-08-13T19:42:49.262+05:30",
+      "updated": "2026-08-14T06:29:11.887+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 37394,
-      "sha256": "0b14756d7f2a8f994eb381f8fb05ae0f44a9497d01bc637b659759bfb81c6178",
+      "bytes": 37083,
+      "sha256": "1ec766955e9258a7d8fefec1c64509594861f2edc0487c8b6b7d99ab521bf19e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7164,7 +7466,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7285,6 +7587,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            37394,
+            37083
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -7444,13 +7759,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
       "slug": "indias-trade-story-has-three-big-wins",
       "published": "2026-08-08T21:53:13.000+05:30",
-      "updated": "2026-08-13T10:10:32.904+05:30",
+      "updated": "2026-08-14T06:43:36.069+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 20317,
-      "sha256": "6a6f8163cb38e6a69dd3f1593efb5727fba076497cb10c21807414308c0ec03d",
+      "bytes": 20522,
+      "sha256": "0c56c166034b443fa576d7cd5a914b719bb8684103b6f36bd58ddba18ef3bf8c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7462,7 +7777,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7535,6 +7850,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            20317,
+            20522
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -8168,13 +8496,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
       "slug": "would-more-sgst-fix-donor-state-problem",
       "published": "2026-08-12T19:54:17.000+05:30",
-      "updated": "2026-08-13T10:15:27.492+05:30",
+      "updated": "2026-08-13T22:03:47.126+05:30",
       "labels": [
         "Energy & Fuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 23596,
-      "sha256": "523c01fb289f341c04f36f6800fb45f81f92f9f8bf2addcc6ebd224a15322613",
+      "bytes": 23613,
+      "sha256": "10945705e0c1a4f16ca67c57f84ae0873faf7b15f161e3da9a18939f4b1d7160",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8186,7 +8514,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.2",
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8272,6 +8600,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.1.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23596,
+            23613
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -8365,12 +8706,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-13T04:45:32.742+05:30",
+      "updated": "2026-08-14T06:47:26.019+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 33642,
-      "sha256": "2844dc2a8a6531898f471b1c8c410b4655c0253407b759b30d7a2447ac6c0492",
+      "bytes": 33702,
+      "sha256": "549cab0edbe18bdb976b82fed096101303b942138d2dfc2c3e3972a468fa7f7a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8382,7 +8723,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8499,6 +8840,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            33642,
+            33702
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -9005,13 +9359,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-08-13T10:42:34.918+05:30",
+      "updated": "2026-08-14T06:36:25.415+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Climate & Carbon"
       ],
-      "bytes": 44631,
-      "sha256": "8967880ceaa9bcac6bf5fadbad73e63e69b7429069a3131605fa6a5c838b46e4",
+      "bytes": 44662,
+      "sha256": "088b0968750f71dd637a30572a84b871b4987607bd37e35122653c4faaae8a43",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9023,7 +9377,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.8",
+      "version": "2.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9174,6 +9528,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "2.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            44631,
+            44662
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -9611,13 +9978,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
       "slug": "indias-lock-imports-hit-19784-million",
       "published": "2026-08-11T10:03:48.000+05:30",
-      "updated": "2026-08-13T10:46:16.513+05:30",
+      "updated": "2026-08-13T22:06:33.000+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 23221,
-      "sha256": "5f23d5d7b4998066e80d4e1000fe4b938cbdbb262b23e5cb067f7435ad928fd3",
+      "bytes": 23220,
+      "sha256": "8385eae1ce5da57c83c7a22cddfc776c983532424763cf73acb660f80e79bcf3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9629,7 +9996,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9715,6 +10082,53 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23221,
+            23220
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        }
+      ]
+    },
+    "4944973073342428982": {
+      "id": "4944973073342428982",
+      "title": "Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
+      "slug": "where-worlds-oil-sits-when-it-isnt",
+      "published": "2026-08-14T07:00:46.000+05:30",
+      "updated": "2026-08-14T07:14:59.155+05:30",
+      "labels": [
+        "Energy & Fuels"
+      ],
+      "bytes": 43233,
+      "sha256": "ded07be99da2938f55462b80d193d5135800c19dd61cf1fff45e50900110472d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -9724,14 +10138,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
       "slug": "rin-red-and-cbio-what-indias-ethanol",
       "published": "2026-08-13T11:40:24.000+05:30",
-      "updated": "2026-08-13T11:59:16.163+05:30",
+      "updated": "2026-08-14T09:05:12.868+05:30",
       "labels": [
         "Biofuels",
         "Carbon Markets",
         "India"
       ],
-      "bytes": 35472,
-      "sha256": "7fc52c13fe095fa6fcf42d867d9d46573491ac54a971234826203e0af51e9347",
+      "bytes": 35591,
+      "sha256": "cc80c14564b8e8dfcbe7d3a3f1db1802485d86571f2f8b785ec98f092416e1ec",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9743,7 +10157,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9764,6 +10178,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Added real Agmarknet mandi price data (maize/rice/paddy trends, 23 Jul-11 Aug 2026) to RIN/RED/CBIO article, grounding the feedstock-cost-vs-fuel-pricing argument"
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            35472,
+            35591
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -9773,13 +10200,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
       "slug": "from-barrel-to-bottle-petrochemical",
       "published": "2026-08-13T08:48:38.000+05:30",
-      "updated": "2026-08-13T10:09:05.927+05:30",
+      "updated": "2026-08-14T06:35:03.731+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
       "bytes": 28671,
-      "sha256": "8f2e5c0069ced716cb64bfb104fb9b963fcc8935c5a2bfc1f0f04cc5be8fc5de",
+      "sha256": "670a6b2dabad62df9faa9be5f717a53f5cdc0ec1b0b2ba5aa4cadaa942495b0a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9791,7 +10218,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9851,6 +10278,53 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            28671,
+            28671
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        }
+      ]
+    },
+    "507441048491220111": {
+      "id": "507441048491220111",
+      "title": "India's Coking Coal Import Problem, and Why \"Biomass Pellets\" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
+      "slug": "indias-coking-coal-import-problem-and",
+      "published": "2026-08-14T07:34:14.000+05:30",
+      "updated": "2026-08-14T08:01:05.045+05:30",
+      "labels": [
+        "Import Substitution"
+      ],
+      "bytes": 45384,
+      "sha256": "1e5b87426f4ae12eec195b757483cd580dc0aa314d68e154cb5fe1068c7262d2",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10021,12 +10495,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
       "slug": "india-ec-approval-funnel-parivesh-20",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T10:45:04.378+05:30",
+      "updated": "2026-08-14T06:45:19.287+05:30",
       "labels": [
         "Environment & Clearances"
       ],
       "bytes": 15899,
-      "sha256": "310d1ae1d81a0b9899bb8e4d99d791e6c9023de77eb3cf5a1d3f9d91d30f9b23",
+      "sha256": "81faa7c11dcfccd97ba9c3265465205f7a80223ff9a948d47910e581088fcee7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10038,7 +10512,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10160,6 +10634,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            15899,
+            15899
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10169,14 +10656,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
       "slug": "price-is-wire-how-gcam-actually-links",
       "published": "2026-08-13T10:21:55.000+05:30",
-      "updated": "2026-08-13T11:23:53.150+05:30",
+      "updated": "2026-08-14T09:05:27.628+05:30",
       "labels": [
         "Climate Modeling",
         "Energy Systems",
         "India"
       ],
-      "bytes": 39015,
-      "sha256": "71e42262768dd53338f10bee4a3d98d17513cdd32a04853f67e6699cac6e8d93",
+      "bytes": 39134,
+      "sha256": "1a09f2b347cb8cb2269859d83967e6dc86878d83a3cdeaa03284f7b2320728bb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10188,7 +10675,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10222,6 +10709,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            39015,
+            39134
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10382,14 +10882,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
       "slug": "one-gallon-five-numbers-how-gcam-fits",
       "published": "2026-08-13T11:20:44.000+05:30",
-      "updated": "2026-08-13T11:21:03.137+05:30",
+      "updated": "2026-08-14T09:05:20.648+05:30",
       "labels": [
         "Biofuels",
         "Carbon Markets",
         "Climate Modeling"
       ],
-      "bytes": 25098,
-      "sha256": "d963ffe8ca22f28fc73149d5b6d73015186cf0f60a8f7a418f80974614ba9234",
+      "bytes": 25217,
+      "sha256": "975fa962f3f15c0354fc4e93acf3c0b907ac6356f5886198b2a5583ddf477947",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10401,7 +10901,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10409,6 +10909,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New post on GCAM's role vs RIN/RED/CBIO carbon-credit systems; added intertemporal-optimisation IAM literature (REMIND, MESSAGEix, WITCH, MERGE, MIT EPPA comparison) to the GCAM architecture piece"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25098,
+            25217
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10418,14 +10931,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html",
       "slug": "indias-fertiliser-import-bill-hits-18",
       "published": "2026-08-08T21:49:47.000+05:30",
-      "updated": "2026-08-13T10:10:11.832+05:30",
+      "updated": "2026-08-14T06:30:08.649+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 24264,
-      "sha256": "c99633db372b32d32d54e2ff10432f1a4f019bc3b89c6e53a3afa93894482793",
+      "bytes": 24280,
+      "sha256": "2932a9c840e229589954b00bc7100e2777f429e46dc3763e7b811c769c85723c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10437,7 +10950,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10523,6 +11036,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24264,
+            24280
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10697,13 +11223,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-08-13T10:09:28.657+05:30",
+      "updated": "2026-08-14T06:33:30.173+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 28814,
-      "sha256": "6747084d01892e448435d9ff03b220c183d6b43deff0d2a77c7d7ffe98cd0473",
+      "bytes": 28812,
+      "sha256": "09c8a3d59f63739c70d978905d9c1e5c863780daa37078ed75a18806b22df385",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10715,7 +11241,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10827,6 +11353,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            28814,
+            28812
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -10836,14 +11375,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
       "slug": "indias-textile-import-export-strategy",
       "published": "2026-07-27T05:30:00.000+05:30",
-      "updated": "2026-08-13T10:58:35.347+05:30",
+      "updated": "2026-08-13T21:59:13.853+05:30",
       "labels": [
         "Chemicals",
         "Textiles",
         "Trade & Tariffs"
       ],
-      "bytes": 41742,
-      "sha256": "f2b559e2a397bd7d7a8d82069c705b1d16005386a99b1eac0f382353196a2450",
+      "bytes": 41816,
+      "sha256": "ed6e3a487a14d0b4c744c185d076e449f4b6c4b9e1b594b1407dafe65bc5a39f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10855,7 +11394,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10990,6 +11529,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            41742,
+            41816
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -11170,12 +11722,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-08-13T10:49:54.841+05:30",
+      "updated": "2026-08-14T06:29:03.242+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 79775,
-      "sha256": "bb8a9ecb6b566a1132d31ffe4e67f48f58fd09185a7c585f1defc7ec39e490b5",
+      "bytes": 79322,
+      "sha256": "affdba6e66b13a485b7b4421825e286474f060f9bf34ce27fbe27c783aa3a1ea",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11187,7 +11739,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11321,6 +11873,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            79775,
+            79322
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -12048,12 +12613,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.000+05:30",
-      "updated": "2026-08-13T10:11:18.494+05:30",
+      "updated": "2026-08-13T22:02:42.623+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 52161,
-      "sha256": "dce5f01c44fad318bdd93b2bfe46dee3703d8da36c0147b4562ac9142f0f1e0e",
+      "bytes": 52160,
+      "sha256": "b592b8f634bab6cd1776afb7250ed09924a4166bdce3640a180594da312ab6b2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12065,7 +12630,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.10",
+      "version": "2.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12216,6 +12781,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.11",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            52161,
+            52160
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -12351,12 +12929,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
       "slug": "fci-storage-scenario-capacity-stock-and",
       "published": "2026-07-31T10:15:00.000+05:30",
-      "updated": "2026-08-13T04:45:45.654+05:30",
+      "updated": "2026-08-14T06:45:40.438+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
       "bytes": 15201,
-      "sha256": "5ffe4b37c26e3ae7533f6ceae1f6d7ffb5bc2f99c2f12e2a4d4230ee630d50ff",
+      "sha256": "2458fd85612a31a0d581d2f9d59a1444731d850b79298965dde96f25415115ca",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12368,7 +12946,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12485,6 +13063,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            15201,
+            15201
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -12629,14 +13220,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.000+05:30",
-      "updated": "2026-08-13T10:44:07.250+05:30",
+      "updated": "2026-08-13T22:02:16.811+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 34895,
-      "sha256": "d9a05ccb8279a0687de3d7422fdb530f9b112b6b7748cd7a9f72571cbf26eec0",
+      "bytes": 35329,
+      "sha256": "28cce21a57a3d252b5172a317b09abfe7f1dd7dc6156bddae53a8cfc99753e1c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12648,7 +13239,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12769,6 +13360,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34895,
+            35329
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -13016,7 +13620,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-13T12:31:01.879+05:30",
+      "updated": "2026-08-14T08:50:02.198+05:30",
       "labels": [],
       "bytes": 177580,
       "sha256": "90445855fb9c7e5918788ffd31f4e44e8c6aac2dccb546d3c67918b1021f7d4f",
@@ -14133,13 +14737,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
       "slug": "the-fcc-lever-trading-petrol-yield-for",
       "published": "2026-08-13T04:07:57.000+05:30",
-      "updated": "2026-08-13T10:13:34.376+05:30",
+      "updated": "2026-08-14T06:35:52.719+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34502,
-      "sha256": "b3535ab8e0365045d465d45e7cc8cfef41df053b281e075ff120065874dd6f0c",
+      "bytes": 34498,
+      "sha256": "21eb1653e3d229f6149a26349dca1a40d584fb43d000bddb992293fdca391682",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14151,7 +14755,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.2",
+      "version": "1.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14224,6 +14828,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.1.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34502,
+            34498
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -14233,12 +14850,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
       "slug": "the-fearless-girls-charter-indias",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T10:56:00.026+05:30",
+      "updated": "2026-08-14T06:51:06.199+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 23039,
-      "sha256": "48d32e579cb43d5f1144265c5e3bd466c3333d52c9c9c13f3691d93f9300ab15",
+      "bytes": 22996,
+      "sha256": "8f795956d26fba14f0dcecaadd7826f66f48ad1eaba5a2a30cd53875f02c1614",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14250,7 +14867,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14372,6 +14989,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23039,
+            22996
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -14524,12 +15154,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
       "slug": "indias-carbon-credit-market-domestic",
       "published": "2026-08-02T21:37:31.000+05:30",
-      "updated": "2026-08-13T10:45:52.515+05:30",
+      "updated": "2026-08-14T06:37:00.983+05:30",
       "labels": [
         "Climate & Carbon"
       ],
-      "bytes": 30569,
-      "sha256": "ab1bb993a745d8040ad9567fb309ef93874d525e6ef5dcfdfed049e647eefc38",
+      "bytes": 30645,
+      "sha256": "8867c0d5bca100776f1a33a65970658d39815aec0f4d11e311c6a57484fea705",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14541,7 +15171,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14640,6 +15270,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            30569,
+            30645
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -15195,12 +15838,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
       "slug": "vehicles-out-motors-in-indias-chapter",
       "published": "2026-08-05T12:06:45.000+05:30",
-      "updated": "2026-08-11T12:07:08.619+05:30",
+      "updated": "2026-08-13T21:54:00.344+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 10060,
-      "sha256": "61bc5623cbbff8f9902529c6bd256b769ed9ae2fe44f3de4a4d8ba6a2f5b3b1c",
+      "bytes": 10128,
+      "sha256": "c097de67f5908fa1d549895e7b04f3d555e3dc5131a3b9831e2dfc1fc9679534",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15212,7 +15855,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15268,6 +15911,19 @@
             ]
           },
           "note": ""
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            10060,
+            10128
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -15277,12 +15933,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
       "slug": "india-mineral-oil-hsn-ch27-trade",
       "published": "2026-07-30T09:42:00.000+05:30",
-      "updated": "2026-08-13T19:42:36.512+05:30",
+      "updated": "2026-08-13T21:58:20.110+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
       "bytes": 107297,
-      "sha256": "5ee538cdc4a8fc7678146ca029fc112367635878dfc17b5690b864602cc010bc",
+      "sha256": "61cfc2405a3331fad66e6f6be457e2fcdd2175b9f29d349c782f035de519ff90",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15294,7 +15950,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15441,6 +16097,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            107297,
+            107297
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -15450,12 +16119,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
       "slug": "rbi-foreign-exchange-reserves-20152026",
       "published": "2026-08-02T13:43:33.000+05:30",
-      "updated": "2026-08-13T10:48:29.591+05:30",
+      "updated": "2026-08-14T06:37:43.701+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 49125,
-      "sha256": "7d71cf774afeaa9b2f8be3d1b6693ee745d3dd06dee4efe7f81fcd1f4cc1ecf3",
+      "bytes": 49333,
+      "sha256": "0b512727065a5bb99ab8a9fe78a71ccb3d32f527dace59346f0c2a3f3bd7f492",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15467,7 +16136,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15575,6 +16244,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            49125,
+            49333
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -15925,12 +16607,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
       "slug": "india-environmental-clearances-state",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-13T10:57:12.398+05:30",
+      "updated": "2026-08-13T21:53:52.851+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 13867,
-      "sha256": "4096609975183fc4d670fdf91c660d0a01954f2c70dfa9efff01a6855892b53b",
+      "bytes": 14573,
+      "sha256": "2cfa2c10644fe66d6d755bebc7af08eacde67c9794c80f9c8ad460c4831acbff",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15942,7 +16624,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16064,6 +16746,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            13867,
+            14573
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -16216,12 +16911,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
       "slug": "raising-green-debt-globally-rec-euroyen",
       "published": "2026-08-03T19:10:19.000+05:30",
-      "updated": "2026-08-13T04:57:33.948+05:30",
+      "updated": "2026-08-14T08:49:48.120+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 56069,
-      "sha256": "3be14b0669ec7384ac21b327c1a203ff44dce02303439b696baed994198e62a1",
+      "bytes": 64139,
+      "sha256": "cec93ac16b9afec8582f4f7691a480859888760dbcb9d9b8b1b405b6ac7a7d52",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16233,7 +16928,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16337,6 +17032,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            56069,
+            64139
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -16346,13 +17054,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
       "slug": "the-margin-case-why-lpg-and",
       "published": "2026-08-13T08:58:40.000+05:30",
-      "updated": "2026-08-13T10:13:45.442+05:30",
+      "updated": "2026-08-14T09:05:34.638+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 35005,
-      "sha256": "9ed53086add8f58ae63d80bdf964948673860fb1095af2759367010c91e6349a",
+      "bytes": 35124,
+      "sha256": "275c0a4881ae1ad024427228ac18d4012edfba48f6524a1ef89c09b4895aefd2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16364,7 +17072,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.2",
+      "version": "1.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16424,6 +17132,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.2.3",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            35005,
+            35124
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17009,13 +17730,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html",
       "slug": "annadata-to-urjadata-farmer-income-case",
       "published": "2026-08-04T16:10:00.000+05:30",
-      "updated": "2026-08-13T10:41:49.687+05:30",
+      "updated": "2026-08-14T06:32:35.307+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 39281,
-      "sha256": "e2d78c9b0d16e8fb8d17aa59abddb9fac12d698fa79eaf63109db4dd0199e72d",
+      "bytes": 39279,
+      "sha256": "cf81a4b7293f533a84ea27c115d6f13d992ad12be96f690f115fabd84f24ce7d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17027,7 +17748,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17139,6 +17860,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            39281,
+            39279
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17148,12 +17882,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
       "slug": "tiffin-meets-thali-10-day-sip-already",
       "published": "2026-08-11T13:45:20.000+05:30",
-      "updated": "2026-08-13T10:49:28.697+05:30",
+      "updated": "2026-08-14T06:38:20.706+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 19566,
-      "sha256": "14bb156063e5e4bdc620fd0bdc9afe6eb18cc87a82e4bf988c3c4a5d9e50f4d5",
+      "bytes": 19550,
+      "sha256": "1e6a47b486adc5dbe6478b9b3f346fda5af13ec4229021c3f103cca5a41f4879",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17165,7 +17899,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17225,6 +17959,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            19566,
+            19550
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17421,13 +18168,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
       "slug": "cocoas-blockchain-reckoning-one",
       "published": "2026-08-08T21:27:49.000+05:30",
-      "updated": "2026-08-13T10:08:20.114+05:30",
+      "updated": "2026-08-13T22:04:55.858+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 22733,
-      "sha256": "897711948eee7e36141035e6a5e714653eaa5b745d6116e1997fe170c89b4a00",
+      "bytes": 22751,
+      "sha256": "91265755b4eac7499431121a89487b88b1040f682fbdac5f6642bdac254b0809",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17439,7 +18186,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "1.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17551,6 +18298,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.9",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            22733,
+            22751
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17560,13 +18320,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
       "slug": "indias-epr-regime-just-got-teeth-and",
       "published": "2026-08-08T21:56:27.000+05:30",
-      "updated": "2026-08-13T10:10:02.085+05:30",
+      "updated": "2026-08-14T06:30:24.988+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 21372,
-      "sha256": "048f802d00717021eeb05e02c4d594312bbe20d843743f472a2de589157e3dd2",
+      "bytes": 21364,
+      "sha256": "f0f2538f69d52d4901f0dccf25ae63bd5a4d1aa524da800e049480fa00d8e9fa",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17578,7 +18338,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17664,6 +18424,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            21372,
+            21364
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -18265,12 +19038,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
       "slug": "state-by-state-who-actually-earns-from",
       "published": "2026-08-02T17:07:30.000+05:30",
-      "updated": "2026-08-13T04:59:44.924+05:30",
+      "updated": "2026-08-14T06:49:18.879+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 53674,
-      "sha256": "d8ba5e523fee0e824b5218c4ab3fd07eb51d197cc8eaa3585b6e4dcdba046391",
+      "bytes": 53661,
+      "sha256": "469b4cd9acbd47e3c59884b9f0479f5cd83db94657f683672a166a1d47b85026",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18282,7 +19055,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18355,6 +19128,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            53674,
+            53661
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -18651,12 +19437,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html",
       "slug": "a-slice-of-apple-costs-about-1700-slice",
       "published": "2026-08-11T10:59:06.000+05:30",
-      "updated": "2026-08-13T10:41:38.074+05:30",
+      "updated": "2026-08-13T22:06:14.422+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 49189,
-      "sha256": "faddf355a49ea35c575578aec406ca1de40d4d6d25bb31fa5e11b60de191809a",
+      "bytes": 49209,
+      "sha256": "6c843784b6b45e241ed07889467d9a09f833614468ace1fd8825c71ba91951d3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18668,7 +19454,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.13",
+      "version": "1.0.14",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18845,6 +19631,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.14",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            49189,
+            49209
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -18854,12 +19653,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
       "slug": "the-price-and-tap-two-levers-behind",
       "published": "2026-08-04T06:09:47.000+05:30",
-      "updated": "2026-08-13T05:02:44.687+05:30",
+      "updated": "2026-08-14T06:32:46.787+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 21074,
-      "sha256": "b4be9937b50bf196d088f1d4a42381afe2624112a5e471e5c527343a26c776fc",
+      "bytes": 21099,
+      "sha256": "08bffc8da616f00e7996dd1ddd7bf5aabf2be8b57028c23e840843dc5b21a6b9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18871,7 +19670,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.6",
+      "version": "1.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18962,6 +19761,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.7",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            21074,
+            21099
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -19450,12 +20262,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
       "slug": "a-tax-play-grow-ethanol-sgst-revenue",
       "published": "2026-08-02T17:57:40.000+05:30",
-      "updated": "2026-08-13T04:39:02.014+05:30",
+      "updated": "2026-08-14T06:48:20.934+05:30",
       "labels": [
         "Energy & Fuels"
       ],
       "bytes": 39533,
-      "sha256": "a2dddda9a3a920049c043e02b9448e54e3e8f7b220bd8f046442079ef2fed0e1",
+      "sha256": "d763a59b3e6558daab84c2ac842e2be6a5ecf51133e454fb545fceb9894025be",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19467,7 +20279,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19592,6 +20404,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-14T04:25:49+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            39533,
+            39533
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },

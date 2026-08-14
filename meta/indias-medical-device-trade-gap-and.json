@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
   "slug": "indias-medical-device-trade-gap-and",
   "published": "2026-08-05T05:24:27.000+05:30",
-  "updated": "2026-08-13T10:46:27.445+05:30",
+  "updated": "2026-08-14T06:26:55.693+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 24442,
-  "sha256": "fa4e3d9a85a57db8766c5fcce2ee62b0b10b0f3d48ee030d5379d4dc8c8c82a3",
+  "bytes": 24073,
+  "sha256": "47559c5993750d976622183c03ef13d1e678e51efba357567cc83783ffa6b524",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -130,6 +130,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24442,
+        24073
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

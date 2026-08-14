@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-08-13T10:42:34.918+05:30",
+  "updated": "2026-08-14T06:36:25.415+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon"
   ],
-  "bytes": 44631,
-  "sha256": "8967880ceaa9bcac6bf5fadbad73e63e69b7429069a3131605fa6a5c838b46e4",
+  "bytes": 44662,
+  "sha256": "088b0968750f71dd637a30572a84b871b4987607bd37e35122653c4faaae8a43",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        44631,
+        44662
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

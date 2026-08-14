@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-08-13T10:48:29.591+05:30",
+  "updated": "2026-08-14T06:37:43.701+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 49125,
-  "sha256": "7d71cf774afeaa9b2f8be3d1b6693ee745d3dd06dee4efe7f81fcd1f4cc1ecf3",
+  "bytes": 49333,
+  "sha256": "0b512727065a5bb99ab8a9fe78a71ccb3d32f527dace59346f0c2a3f3bd7f492",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        49125,
+        49333
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

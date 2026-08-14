@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-04T15:50:00.000+05:30",
-  "updated": "2026-08-13T10:49:05.611+05:30",
+  "updated": "2026-08-14T06:51:55.615+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 33185,
-  "sha256": "b77eb5ac819fad45661e0f35c183d2968249dba9f976021275d00b812edb081b",
+  "bytes": 33433,
+  "sha256": "fa8b08f74ba9174fa587b1568ef3cc7f5a0adaf89763785d8a1bed18ef768fe5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        33185,
+        33433
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

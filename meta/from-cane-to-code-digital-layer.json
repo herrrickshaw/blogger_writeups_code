@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-08-13T10:09:17.227+05:30",
+  "updated": "2026-08-13T22:05:15.266+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 24054,
-  "sha256": "d9f5fe7f4df6cc52361963d244adf68e17bd08e9f1ea4643b6b4893fe7546220",
+  "bytes": 24053,
+  "sha256": "190604ae7fc38e83ac927d2ec9260e254409ca629ecf9539ac179d8851b1c8d8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24054,
+        24053
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

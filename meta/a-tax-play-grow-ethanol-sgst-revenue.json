@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
   "slug": "a-tax-play-grow-ethanol-sgst-revenue",
   "published": "2026-08-02T17:57:40.000+05:30",
-  "updated": "2026-08-13T04:39:02.014+05:30",
+  "updated": "2026-08-14T06:48:20.934+05:30",
   "labels": [
     "Energy & Fuels"
   ],
   "bytes": 39533,
-  "sha256": "a2dddda9a3a920049c043e02b9448e54e3e8f7b220bd8f046442079ef2fed0e1",
+  "sha256": "d763a59b3e6558daab84c2ac842e2be6a5ecf51133e454fb545fceb9894025be",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39533,
+        39533
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

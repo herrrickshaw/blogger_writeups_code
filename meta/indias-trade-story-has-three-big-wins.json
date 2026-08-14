@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-08-13T10:10:32.904+05:30",
+  "updated": "2026-08-14T06:43:36.069+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 20317,
-  "sha256": "6a6f8163cb38e6a69dd3f1593efb5727fba076497cb10c21807414308c0ec03d",
+  "bytes": 20522,
+  "sha256": "0c56c166034b443fa576d7cd5a914b719bb8684103b6f36bd58ddba18ef3bf8c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-14T04:25:49+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20317,
+        20522
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
