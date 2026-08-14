@@ -277,12 +277,12 @@ if(skip){
           <thead><tr><th>Source</th><th>Exports</th><th>Imports</th><th>Deficit</th><th>Consistency</th></tr></thead>
           <tbody>
             <tr><td>TRADESTAT (this repo's primary source)</td><td>441,745.9</td><td>776,013.7</td><td>-334,267.7</td><td class="flag-pass">baseline</td></tr>
-            <tr><td>TIA Portal (Dept. of Commerce)</td><td>451,070.0</td><td>776,013.65</td><td>-324,943.7 (implied)</td><td class="flag-warn">exports +2.1% vs. baseline</td></tr>
+            <tr><td>TIA Portal (Dept. of Commerce)</td><td>451,070.0</td><td>776,013.65</td><td>-324,943.7 (implied)</td><td class="flag-warn">exports +2.1% vs. baseline — see caveat</td></tr>
             <tr><td>PIB press release</td><td>441,780.0</td><td>774,970.0</td><td>-333,190.0</td><td class="flag-pass">agrees within 0.3%</td></tr>
           </tbody>
         </table>
       </div>
-      <p class="prose">Imports and PIB's export/deficit figures agree with TRADESTAT to within rounding. <b>TIA Portal's export total alone reads ~US$9,300M (2.1%) higher</b> than both other sources — flagged in this repo's original cross-validation as most likely a data-vintage/provisional-revision difference (two of three sources still agree closely), not a methodology error. FY2025-26 is a still-provisional fiscal year on every source used here.</p>
+      <p class="prose">Imports and PIB's export/deficit figures agree with TRADESTAT to within rounding. <b>TIA Portal's export total alone reads ~US$9,300M (2.1%) higher</b> than both other sources. This is not a plausible data-vintage difference: $451,070.0M is digit-identical to India's actual, separately-published FY2022-23 goods export total (the year exports first crossed the $450bn mark) — strong evidence this row was pulled from the wrong fiscal year in TIA Portal's own interface rather than a genuine FY2025-26 provisional revision. Until re-pulled and reconciled directly against TIA Portal, treat this row as unverified and use the TRADESTAT/PIB figures above, which agree with each other to within 0.3%. FY2025-26 is a still-provisional fiscal year on every source used here.</p>
     </section>
 
     <div class="twin-grid">
@@ -438,7 +438,7 @@ if(skip){
     { status: "pass", text: "<b>Import totals</b> agree across TRADESTAT ($776,013.7M) and TIA Portal ($776,013.65M) to within $0.05M." },
     { status: "pass", text: "<b>HS27 export chapter</b> matches exactly between TRADESTAT ($55,871.2M) and TIA Portal ($55,871.21M)." },
     { status: "pass", text: "<b>PIB's official export/deficit figures</b> ($441,780.0M / -$333,190.0M) agree with TRADESTAT within 0.3%." },
-    { status: "flag", text: "<b>TIA Portal's export total</b> ($451,070.0M) reads 2.1% / $9,300M higher than TRADESTAT and PIB — flagged as a data-vintage difference, not reconciled further." },
+    { status: "flag", text: "<b>TIA Portal's export total</b> ($451,070.0M) reads 2.1% / $9,300M higher than TRADESTAT and PIB — digit-identical to India's real FY2022-23 export total, likely a wrong-fiscal-year pull rather than a vintage difference; treat as unverified." },
     { status: "flag", text: "<b>Two forex-reserves vintages exist</b>: the MoSPI-connector series (stale at $698,100.0M, Jun 2025) and this repo's own RBI weekly scrape ($675,157.0M, 10 Jul 2026) — kept visually and numerically distinct throughout, never silently merged." },
     { status: "flag", text: "<b>No FY2025-26 services-trade figure exists yet</b> — RBI's services data runs one year behind goods trade. The FY2025-26 goods deficit above cannot be combined with an 'overall balance' figure for the same year." },
     { status: "pass", text: "<b>All PLI \u20B9 crore figures</b> converted at each scheme's own elapsed-period average rate (\u20B977.91–84.68/US$ depending on the scheme's actual timeline) — not one blanket rate applied indiscriminately." },

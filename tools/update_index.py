@@ -67,6 +67,9 @@ PLACEMENT = {
     "indias-fertiliser-import-bill-hits-18": "t4",
     "indias-trade-story-has-three-big-wins": "t1",
     "indias-epr-regime-just-got-teeth-and": "t6",
+    "one-gallon-five-numbers-how-gcam-fits": "t6",
+    "the-margin-case-why-lpg-and": "t3",
+    "abha-what-indias-14-digit-health-id": "t7",
 }
 
 # Posts that moved: old URL still in the index -> slug of the live post.
