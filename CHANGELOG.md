@@ -5135,3 +5135,18 @@ scheduled sync
 - `the-grain-value-loop-integrated-rice` — 77,068 → 77,199 bytes (+131)
 - `the-recycling-lottery-playbook-norways` — 24,522 → 24,641 bytes (+119)
 - `india-mineral-oil-hsn-ch27-trade` — 107,297 → 107,415 bytes (+118)
+
+## 2026-08-15T03:20:07+00:00 — 160 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `india-grows-soybean-exports-meal-leads` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `article-index-start-here` **24.2.1 → 24.2.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-grows-soybean-exports-meal-leads` — 23,339 → 28,519 bytes (+5,180)
+- `article-index-start-here` — 177,580 → 203,009 bytes (+25,429)

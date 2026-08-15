@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-08-15T08:01:34.606+05:30",
+  "updated": "2026-08-15T08:19:44.349+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "India Trade & Policy"
   ],
-  "bytes": 23339,
-  "sha256": "123199fe2ddfcfeb59c73d3a18164ea0501b8ab38183487f59d34318cdcd36f7",
+  "bytes": 28519,
+  "sha256": "2960fe19b8e4fda7b6823bffa687e9e9f6cd56dfaeafc88e694eb1ed2f192c19",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-15T03:20:07+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        23339,
+        28519
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
