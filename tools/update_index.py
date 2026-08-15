@@ -70,6 +70,7 @@ PLACEMENT = {
     "one-gallon-five-numbers-how-gcam-fits": "t6",
     "the-margin-case-why-lpg-and": "t3",
     "abha-what-indias-14-digit-health-id": "t7",
+    "india-grows-soybean-exports-meal-leads": "t4",
 }
 
 # Posts that moved: old URL still in the index -> slug of the live post.
