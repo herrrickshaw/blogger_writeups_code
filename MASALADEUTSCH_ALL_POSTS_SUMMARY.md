@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*143 published posts, 24 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*157 published posts, 29 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 14 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 15 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -268,6 +268,11 @@
 - **[Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html)** — 2026-07-22
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
+### Agriculture & Food Processing (1)
+
+- **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
+  Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
+
 ### AI Tools (1)
 
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
@@ -303,7 +308,7 @@
 - **[The Barrel Really Is Shifting: India's Refiners Quantify the Petrochemical Pivot](https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html)** — 2026-08-12
   This blog's earlier piece argued, deliberately without a number attached, that biofuel substitution and refiners' own petrochemical ambitions pull on the same barrel in the same direction — freeing crude allocation from combustion toward chemistry. That caveat can now be dropped. India's refiners track this shift with a specific, named metric — Petrochemical Intensity Index (PII), the share of crude converted to chemicals rather than fuel — and it has real, reported numbers: a national PII that has already roughly doubled, individual refiners setting explicit multi-year targets to double or triple their own, and, concretely, Indian Oil's own flagship Tamil Nadu project switching from being planned as a refinery to being reconfigured as a standalone petrochemicals complex.
 - **[Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html)** — 2026-08-06
-  Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
+  Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 - **[Rare-Earth Magnets and Specialty Steel: India's ₹7,280 Crore Bet on the EV Supply Chain's Missing Middle](https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html)** — 2026-08-05
   The Union Cabinet has approved a ₹7,280 crore scheme to build India’s first significant rare-earth permanent magnet manufacturing base — the component category that sits, largely imported, inside every EV traction motor, wind turbine and defence system built in the country today.
 - **[Chemical Import Substitution: the Full 827-Code Data Tables](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html)** — 2026-08-05
@@ -339,8 +344,21 @@
 - **[One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems](https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html)** — 2026-08-13
   Five official government models were run on the same corn ethanol scenario in 2023 and produced land-use-change emissions estimates ranging from −0.95 to roughly 41 grams of CO₂e per megajoule — a number that, in the real world, decides whether a fuel batch clears a regulatory threshold or not. GCAM was one of the five. But GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine. This piece works out what GCAM's real job is in this space, and how the three real systems differ from each other and from it.
 
-### Energy & Fuels (36)
+### Currency Markets (2)
 
+- **[The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like](https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html)** — 2026-08-14
+  The rupee-trends piece on this site covered INR against USD, CNY, RUB, SAR and AED — five currencies chosen because they anchor India's largest trade relationships. It left out the yen, even though a separate piece on this site built its entire cross-border financing argument around Japan being the cheapest place to borrow. This piece closes that gap: INR/JPY over ten years, and what it turns out to explain about why yen debt was such a good trade.
+- **[FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance?](https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html)** — 2026-08-14
+  Two data sources have anchored most of this site's recent research: FBIL's reference rates behind every currency-volatility figure, and DGCI&S TradeStat behind every import/export number. They've never been combined directly. This piece asks the obvious question sitting between them — does a trading partner's currency volatility actually predict anything about the shape of India's trade with that partner — using the five-country dataset already built for the rupee-trade series.
+
+### Energy & Fuels (39)
+
+- **[Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html)** — 2026-08-14
+  Indian Oil Corporation's finance director put a number on it plainly: ₹15,000 crore of debt, roughly 30% of it — $500 million to $1 billion — sourced from foreign currency loans and bonds, to help fund a ₹35,000 crore annual capex programme. That single fundraise is a small piece of a much larger, multi-company shift: India's state refiners and one large private one are collectively committing several trillion rupees to bolt petrochemical plants onto refineries that have, until now, mostly just made fuel. This piece maps who is financing that shift, and how.
+- **[Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html)** — 2026-08-14
+  NIWE's own wind atlas says Tamil Nadu has installed only about a third of its assessed onshore potential, and almost none of its offshore potential, despite being India's most mature wind state. This piece works through NIWE's numbers, what's actually been built, and why the gap between potential and installed capacity has less to do with wind resource and more to do with an ageing turbine fleet and a transmission grid built for a smaller sector.
+- **[Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html)** — 2026-08-14
+  Global crude storage exists for exactly the situation the market is in right now: since a US-Israel military campaign against Iran opened in late February 2026, the Strait of Hormuz — the transit point for roughly a quarter of the world's seaborne crude — has been under sustained attack, and the world's storage and shipping system has been absorbing the shock in real time. This piece lays out where crude actually sits when it isn't moving — onshore tanks and caverns, strategic reserves, and floating storage at sea — and what the 2026 disruption has actually done to each of those pools, as distinct from the steady-state numbers usually quoted for them.
 - **[The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference](https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html)** — 2026-08-13
   India's ethanol suppliers offered refiners 17.76 billion litres for ESY2025-26 against a stated requirement of just 10.5 billion — a gap covered in an earlier piece on this site. That surplus opens a narrow but real opportunity: the petrol a refinery no longer needs to blend can, with real (not cosmetic) modifications to the FCC unit's gas-recovery train, come out as LPG instead — directly addressing India's import-heavy cooking-gas supply. This piece works through what that modification actually involves, how it differs mechanically from the naphtha-cracker petrochemical pivot covered separately on this site, and the parallel, independently-verified push to expand India's underground crude storage that gives refiners more room to absorb the supply-side volatility this shift is a response to.
 - **[The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html)** — 2026-08-13
@@ -461,10 +479,12 @@
 - **[India's Two Tracks of Health Cover, and Where They Actually Meet](https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html)** — 2026-08-12
   India now runs two large, separately-growing health-cover systems at once. On one track, the government's Ayushman Bharat PM-JAY has issued 43.52 crore cards and reached every state and union territory as of June 2026, after West Bengal became the last holdout to join. On the other, private individual health insurance premiums grew nearly 30% in the six months after a September 2025 GST exemption, and international reinsurers are opening branches in GIFT City at a pace that's tripled the sector's local capacity this year. Both are real growth stories. What this piece checks is whether they're actually the same story — whether public scheme coverage and private insurance uptake move together, substitute for each other, or barely touch — using the state-level and research data available, not assumption.
 
-### Import Substitution (10)
+### Import Substitution (11)
 
+- **[India's Coking Coal Import Problem, and Why "Biomass Pellets" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme](https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html)** — 2026-08-14
+  India imports roughly 90% of the coking coal its steel mills need — the single most expensive raw material in the steel-making process, and one the country cannot dig its way out of, because its own coal seams are largely the wrong grade. The government's real answer to that gap, Mission Coking Coal, is a domestic-mining and washery push, not a biomass one: India's actual biomass-pellet mandate exists for a completely different coal stream (thermal coal, in power plants), and the one real, India-specific attempt to put biomass into steel-making — a SAIL pilot at Rourkela — is a small-scale trial, not a deployed substitution programme. This piece keeps those three things separate, because coverage of "biomass replacing coking coal" routinely blurs them.
 - **[Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html)** — 2026-08-06
-  Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
+  Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 - **[Chemical Import Substitution: the Full 827-Code Data Tables](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html)** — 2026-08-05
   The complete chapter-wise tables supporting Chemical Import Substitution. Held on a separate page because the tables run to 835 rows; keeping them in the post exhausted Blogger’s index rendering budget and suppressed the homepage post list.
 - **[Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html)** — 2026-08-04
@@ -490,6 +510,11 @@
   GCAM — the Global Change Analysis Model, maintained at Pacific Northwest National Laboratory — is usually described as a model that “links energy, water, land and the economy.” That phrase hides the actual mechanism. GCAM does not run one unified optimisation across all four; it solves five separate markets independently, five years at a time, with no subsystem allowed to see the future, and lets a single price signal carry information between them. The version CEEW and IIM Ahmedabad have run for India since 2007 uses exactly this machinery to work out what a net-zero target implies sector by sector. This piece works through how the wiring is actually built.
 - **[RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html)** — 2026-08-13
   Three real countries have already built three structurally different answers to "how much should a litre of clean fuel earn beyond the pump price": America strips a paper credit off every gallon and lets refiners trade it; Europe doesn't trade anything, it just weights which fuels count more toward a supplier's target; Brazil hands the producer a directly sellable, exchange-traded tonne of avoided carbon. India has none of the three, an ethanol-blending programme that already runs into how fast pump prices can politically move, a Paris Agreement credit list that excluded ethanol the first time it was written and has already been revised once, and a new EU carbon border tax creating real demand for exactly the kind of verified carbon performance these three systems were built to certify. This piece works out what a hybrid built from pieces of all three could actually look like here — and where the real gaps are.
+
+### India Trade & Policy (1)
+
+- **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
+  Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
 ### Industrial Policy (36)
 
@@ -542,7 +567,7 @@
 - **[Greenhouse Emissions Reduction and CBAM Compliance — Real or Ideal Gases?](https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html)** — 2026-08-02
   In thermodynamics, an ideal gas is the simplified model; a real gas is what you actually get once intermolecular forces and finite volume intrude. India's emissions-reduction and CBAM-compliance story has the same split — a $20.7 billion exposure that is very real, and a trade-agreement response that, on the evidence so far, is still mostly ideal.
 - **[DISCOM Debt Relief — Token Charge Calculator](https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html)** — 2026-08-02
-  Data sources: ICRA Indian Power Sector Report (May 2025) — DISCOM debt ₹7.4L crore · IISD Mapping India's Energy Policy 2025 — subsidies ₹2.1L crore, FY24 · PRS India Demand for Grants 2024-25 (Power) — ACS-ARR gap, AT&C losses · Manorama Yearbook 2024 / CEA / PFC Annual Reports — debt growth 8.7% CAGR · PRAAPTI portal (Ministry of Power) — DISCOM dues to generators ~₹0.6–0.7L crore (₹71,750cr Apr 2025) · CAG India Electricity Trends 2022-23 — 33.38 crore consumers.
+  India Power Sector · Policy Analysis Model · interactive version of the FY2024-25 workbook
 - **[IEM Conversion — A Historical Performance Review (2017–2025)](https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html)** — 2026-08-02
   Every calendar year of DPIIT's Industrial Entrepreneurs Memoranda since 2017: how much investment intent got FILED (Part A) vs how much actually got BUILT (Part B) — the closest thing India's manufacturing-investment data has to a government report card.
 - **[FY2025-26 Sample Report — India Trade, Currency & Policy Snapshot](https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html)** — 2026-08-02
@@ -566,8 +591,14 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Macroeconomics & Monetary Policy (7)
+### Macroeconomics & Monetary Policy (10)
 
+- **[Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html)** — 2026-08-14
+  Two companion pieces on this site have already used the rupee's exchange rate as a supporting fact — the FX-volatility ranking in "Can Rupee Trade Actually Offset the Inflation India Is Importing?" and the depreciation-vs-borrowed-currency table in the green-debt article. This piece builds the actual ten-year series behind those numbers: daily INR rates against the five currencies that matter most to India's trade bill — the US dollar, Chinese yuan, Russian rouble, Saudi riyal and UAE dirham — and asks what each currency's trend actually says about India's position against that specific trading partner.
+- **[Can Rupee Trade Actually Offset the Inflation India Is Importing?](https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html)** — 2026-08-14
+  If dollar-priced oil and gold are the mechanism by which global inflation lands on India's import bill, the obvious next question is whether settling those trades in rupees instead of dollars would soften the blow. The honest answer, checked against what's actually running today — real Vostro-account infrastructure, a real oil deal already settled in rupees, and a real accumulated-rupee problem with Russia that still isn't solved — is: it helps with a real but different cost, and it does almost nothing about the one this series has been describing.
+- **[What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html)** — 2026-08-14
+  India's import bill nearly doubled between FY2020-21 and FY2025-26 — from $393 billion to $775.7 billion — and only part of that is India actually consuming more. A meaningful share of it is India paying, in real rupees, for someone else's inflation: crude oil priced in dollars and pushed higher by a geopolitical shock it didn't cause, gold bought globally as an inflation hedge, and a currency that keeps buying less of both. This piece traces exactly where that bill is landing, and what it's costing to absorb it rather than pass it straight through to prices at home.
 - **[Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html)** — 2026-08-12
   Uttar Pradesh's own Economic Survey projects 10–12% GSDP growth and a ₹50 lakh crore investment pipeline. Its state budget assumed a 41% jump in own-tax revenue for FY2025-26. And yet the state's actual domestic GST collection fell 11.0% that same year, in a year national collection fell — among the sharpest state-level declines this piece has data for, though not independently verified against every major state's own filing, and this piece has not separately confirmed how many of the prior five years also saw a national decline. Those two facts look contradictory until you look inside the year rather than just at its total: UP's GST was roughly flat as late as December 2025, the decline was concentrated in the first quarter of calendar 2026, and by April 2026 — the first month of the new fiscal year — collection was back to positive growth alongside a striking 19.6% jump in registered taxpayers. This piece walks through how GST actually gets divided between Centre and states, why that mechanism matters for reading any state's numbers correctly, and what UP's month-by-month data says about whether its GST dip was a real slowdown or a transition effect from September 2025's GST 2.0 rate cuts working through the system.
 - **[Would More SGST Fix the "Donor State" Problem? Ethanol Shows Why the Real Lever Sits Elsewhere](https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html)** — 2026-08-12
@@ -582,6 +613,13 @@
   Every central bank runs monetary policy through the same two levers: the rate (what money costs) and the window (how much money gets through, and against what collateral). Commentary obsesses over the first and mostly ignores the second. That is exactly backwards for understanding India in 2025-26 — because in the current cycle, the Reserve Bank of India's quantity lever did more work than its rate lever. And the world's other big central banks now pull these two levers in almost opposite proportions to the RBI.
 - **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
   Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
+
+### Manufacturing (2)
+
+- **[The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub](https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html)** — 2026-08-15
+  A companion piece on this site mapped India's automotive clusters — Chennai, NCR, Pune, Sanand, AURIC — and left one out: Pithampur, Madhya Pradesh, which already hosts 120 large industrial units, five OEMs and roughly $11.3 billion in combined investment. This piece makes the case that omission deserves correcting, using MP's own 2025 Logistics Policy and its position directly on the Delhi-Mumbai Industrial Corridor as the investment argument.
+- **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
+  Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
 ### Markets & Finance (26)
 
@@ -668,6 +706,11 @@
 - **[CPI & WPI Trends — India (CPI from MoSPI, WPI from DPIIT)](https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html)** — 2026-08-02
   Combined Consumer Price Index across 13 states plus the All-India benchmark, and the national Wholesale Price Index, drawn from the MoSPI connector on 18 July 2026.
 
+### Sustainable Finance (1)
+
+- **[Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory](https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html)** — 2026-08-14
+  "Raising Green Debt Globally" identified 13 currencies deep enough for an Indian issuer to actually borrow in, ranked by headline policy-rate gap against India's 5.25% repo — and flagged Switzerland's franc, the widest gap of all, as "close to the least useful," on the reasoning that hedging costs would eat most of the saving. That was an inference from covered-interest-parity theory, not a measured number. This piece measures it: real 10-year INR volatility against the reachable currencies this site now has data for, to test whether the currencies with the biggest rate gap are also the ones actually riskiest to borrow in.
+
 ### Textiles (6)
 
 - **[UPI Mimicking the Plastic Card: Will MDR Be Like Visa Fees?](https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html)** — 2026-08-08
@@ -683,8 +726,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (40)
+### Trade & Tariffs (41)
 
+- **[What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up](https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html)** — 2026-08-14
+  A companion piece on this site already flagged the India-EFTA TEPA's headline $100 billion investment commitment as a general framework, not a sector-specific plan. This piece goes one layer deeper: what does the actual tariff schedule cover, what does India's real trade with Switzerland and Norway look like today, and which categories are genuinely exposed to new import competition versus which are just noise around a number (gold) that TEPA doesn't actually touch.
 - **[Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html)** — 2026-08-12
   Uttar Pradesh's own Economic Survey projects 10–12% GSDP growth and a ₹50 lakh crore investment pipeline. Its state budget assumed a 41% jump in own-tax revenue for FY2025-26. And yet the state's actual domestic GST collection fell 11.0% that same year, in a year national collection fell — among the sharpest state-level declines this piece has data for, though not independently verified against every major state's own filing, and this piece has not separately confirmed how many of the prior five years also saw a national decline. Those two facts look contradictory until you look inside the year rather than just at its total: UP's GST was roughly flat as late as December 2025, the decline was concentrated in the first quarter of calendar 2026, and by April 2026 — the first month of the new fiscal year — collection was back to positive growth alongside a striking 19.6% jump in registered taxpayers. This piece walks through how GST actually gets divided between Centre and states, why that mechanism matters for reading any state's numbers correctly, and what UP's month-by-month data says about whether its GST dip was a real slowdown or a transition effect from September 2025's GST 2.0 rate cuts working through the system.
 - **[Tamil Nadu's GST Gap: A 10.8% Economy Growing a 0.7%-Shrinking Tax Base](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html)** — 2026-08-12
@@ -958,7 +1003,7 @@ In thermodynamics, an ideal gas is the simplified model; a real gas is what you 
 ### [DISCOM Debt Relief — Token Charge Calculator](https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html)
 *2026-08-02 · Industrial Policy*
 
-Data sources: ICRA Indian Power Sector Report (May 2025) — DISCOM debt ₹7.4L crore · IISD Mapping India's Energy Policy 2025 — subsidies ₹2.1L crore, FY24 · PRS India Demand for Grants 2024-25 (Power) — ACS-ARR gap, AT&C losses · Manorama Yearbook 2024 / CEA / PFC Annual Reports — debt growth 8.7% CAGR · PRAAPTI portal (Ministry of Power) — DISCOM dues to generators ~₹0.6–0.7L crore (₹71,750cr Apr 2025) · CAG India Electricity Trends 2022-23 — 33.38 crore consumers.
+India Power Sector · Policy Analysis Model · interactive version of the FY2024-25 workbook
 
 ### [Imported Fertiliser & Fuel Prices → Diesel → CPI/WPI — India](https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html)
 *2026-08-02 · Agriculture & Fertilisers, Energy & Fuels, Prices & Inflation*
@@ -1218,7 +1263,7 @@ PM Surya Ghar has put 12 GW on Indian roofs in about two years, and the subsidy 
 ### [Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html)
 *2026-08-06 · Chemicals, Import Substitution*
 
-Revised 7 August 2026 · v3.0.0 · full registry moved to a separate reference page
+Every 8-digit HSN code across Chapters 28, 29, 31, 32, 33, 34, 38 & 39 where India ran a FY2025-26 trade deficit (import − export ≥ US$0.5M) — 827 codes, US$67.9B combined deficit — scored against a value/volume/price signal framework and cross-checked against public reporting.
 
 ### [India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything](https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html)
 *2026-08-06 · Energy & Fuels*
@@ -1489,3 +1534,73 @@ Five official government models were run on the same corn ethanol scenario in 20
 *2026-08-13 · Chemicals, Energy & Fuels*
 
 India has roughly 50 crore LPG cylinders in circulation, almost all of them steel, each weighing around 15.3 kg empty before a single kilogram of gas goes in. A newer alternative — a composite cylinder built from HDPE and fibreglass rather than steel — weighs about half that. This piece works through what that cylinder is actually made of, the real government reply that describes it, and why the same refinery investment already covered on this site in the petrochemical-pivot lever supplies exactly the polymer feedstock this substitution would need.
+
+### [What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up](https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html)
+*2026-08-14 · Trade & Tariffs*
+
+A companion piece on this site already flagged the India-EFTA TEPA's headline $100 billion investment commitment as a general framework, not a sector-specific plan. This piece goes one layer deeper: what does the actual tariff schedule cover, what does India's real trade with Switzerland and Norway look like today, and which categories are genuinely exposed to new import competition versus which are just noise around a number (gold) that TEPA doesn't actually touch.
+
+### [Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html)
+*2026-08-14 · Energy & Fuels*
+
+Indian Oil Corporation's finance director put a number on it plainly: ₹15,000 crore of debt, roughly 30% of it — $500 million to $1 billion — sourced from foreign currency loans and bonds, to help fund a ₹35,000 crore annual capex programme. That single fundraise is a small piece of a much larger, multi-company shift: India's state refiners and one large private one are collectively committing several trillion rupees to bolt petrochemical plants onto refineries that have, until now, mostly just made fuel. This piece maps who is financing that shift, and how.
+
+### [Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html)
+*2026-08-14 · Energy & Fuels*
+
+NIWE's own wind atlas says Tamil Nadu has installed only about a third of its assessed onshore potential, and almost none of its offshore potential, despite being India's most mature wind state. This piece works through NIWE's numbers, what's actually been built, and why the gap between potential and installed capacity has less to do with wind resource and more to do with an ageing turbine fleet and a transmission grid built for a smaller sector.
+
+### [The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like](https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html)
+*2026-08-14 · Currency Markets*
+
+The rupee-trends piece on this site covered INR against USD, CNY, RUB, SAR and AED — five currencies chosen because they anchor India's largest trade relationships. It left out the yen, even though a separate piece on this site built its entire cross-border financing argument around Japan being the cheapest place to borrow. This piece closes that gap: INR/JPY over ten years, and what it turns out to explain about why yen debt was such a good trade.
+
+### [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html)
+*2026-08-14 · Energy & Fuels*
+
+Global crude storage exists for exactly the situation the market is in right now: since a US-Israel military campaign against Iran opened in late February 2026, the Strait of Hormuz — the transit point for roughly a quarter of the world's seaborne crude — has been under sustained attack, and the world's storage and shipping system has been absorbing the shock in real time. This piece lays out where crude actually sits when it isn't moving — onshore tanks and caverns, strategic reserves, and floating storage at sea — and what the 2026 disruption has actually done to each of those pools, as distinct from the steady-state numbers usually quoted for them.
+
+### [FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance?](https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html)
+*2026-08-14 · Currency Markets*
+
+Two data sources have anchored most of this site's recent research: FBIL's reference rates behind every currency-volatility figure, and DGCI&S TradeStat behind every import/export number. They've never been combined directly. This piece asks the obvious question sitting between them — does a trading partner's currency volatility actually predict anything about the shape of India's trade with that partner — using the five-country dataset already built for the rupee-trade series.
+
+### [Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html)
+*2026-08-14 · Macroeconomics & Monetary Policy*
+
+Two companion pieces on this site have already used the rupee's exchange rate as a supporting fact — the FX-volatility ranking in "Can Rupee Trade Actually Offset the Inflation India Is Importing?" and the depreciation-vs-borrowed-currency table in the green-debt article. This piece builds the actual ten-year series behind those numbers: daily INR rates against the five currencies that matter most to India's trade bill — the US dollar, Chinese yuan, Russian rouble, Saudi riyal and UAE dirham — and asks what each currency's trend actually says about India's position against that specific trading partner.
+
+### [Can Rupee Trade Actually Offset the Inflation India Is Importing?](https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html)
+*2026-08-14 · Macroeconomics & Monetary Policy*
+
+If dollar-priced oil and gold are the mechanism by which global inflation lands on India's import bill, the obvious next question is whether settling those trades in rupees instead of dollars would soften the blow. The honest answer, checked against what's actually running today — real Vostro-account infrastructure, a real oil deal already settled in rupees, and a real accumulated-rupee problem with Russia that still isn't solved — is: it helps with a real but different cost, and it does almost nothing about the one this series has been describing.
+
+### [Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory](https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html)
+*2026-08-14 · Sustainable Finance*
+
+"Raising Green Debt Globally" identified 13 currencies deep enough for an Indian issuer to actually borrow in, ranked by headline policy-rate gap against India's 5.25% repo — and flagged Switzerland's franc, the widest gap of all, as "close to the least useful," on the reasoning that hedging costs would eat most of the saving. That was an inference from covered-interest-parity theory, not a measured number. This piece measures it: real 10-year INR volatility against the reachable currencies this site now has data for, to test whether the currencies with the biggest rate gap are also the ones actually riskiest to borrow in.
+
+### [What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html)
+*2026-08-14 · Macroeconomics & Monetary Policy*
+
+India's import bill nearly doubled between FY2020-21 and FY2025-26 — from $393 billion to $775.7 billion — and only part of that is India actually consuming more. A meaningful share of it is India paying, in real rupees, for someone else's inflation: crude oil priced in dollars and pushed higher by a geopolitical shock it didn't cause, gold bought globally as an inflation hedge, and a currency that keeps buying less of both. This piece traces exactly where that bill is landing, and what it's costing to absorb it rather than pass it straight through to prices at home.
+
+### [India's Coking Coal Import Problem, and Why "Biomass Pellets" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme](https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html)
+*2026-08-14 · Import Substitution*
+
+India imports roughly 90% of the coking coal its steel mills need — the single most expensive raw material in the steel-making process, and one the country cannot dig its way out of, because its own coal seams are largely the wrong grade. The government's real answer to that gap, Mission Coking Coal, is a domestic-mining and washery push, not a biomass one: India's actual biomass-pellet mandate exists for a completely different coal stream (thermal coal, in power plants), and the one real, India-specific attempt to put biomass into steel-making — a SAIL pilot at Rourkela — is a small-scale trial, not a deployed substitution programme. This piece keeps those three things separate, because coverage of "biomass replacing coking coal" routinely blurs them.
+
+### [The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub](https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html)
+*2026-08-15 · Manufacturing*
+
+A companion piece on this site mapped India's automotive clusters — Chennai, NCR, Pune, Sanand, AURIC — and left one out: Pithampur, Madhya Pradesh, which already hosts 120 large industrial units, five OEMs and roughly $11.3 billion in combined investment. This piece makes the case that omission deserves correcting, using MP's own 2025 Logistics Policy and its position directly on the Delhi-Mumbai Industrial Corridor as the investment argument.
+
+### [How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)
+*2026-08-15 · Manufacturing*
+
+Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
+
+### [India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)
+*2026-08-15 · Agriculture & Food Processing, India Trade & Policy*
+
+Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
