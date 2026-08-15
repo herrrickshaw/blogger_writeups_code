@@ -1,6 +1,6 @@
-# Language audit summary — 2026-08-14
+# Language audit summary — 2026-08-15
 
-*43 of 149 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*47 of 172 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html) — 3 matches — see `europe-bought-record-amount-of-lng-and.md`
 - [From Fuel to Fibre: India's Textile Import-Substitution Loop](https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html) — 3 matches — see `from-fuel-to-fibre-indias-textile.md`
@@ -8,16 +8,23 @@
 - [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
 - [AI Tools Edition 03: A Repo With 98,000 Stars This Tracker Had Never Heard Of](https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html) — 2 matches — see `ai-high-demand-launch-tracker.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 2 matches — see `annadata-to-urjadata-farmer-income-case.md`
+- [Can Rupee Trade Actually Offset the Inflation India Is Importing?](https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html) — 2 matches — see `can-rupee-trade-actually-offset.md`
 - [can-rupee-trade-offset-imported-inflation]() — 2 matches — see `can-rupee-trade-offset-imported-inflation.md`
+- [Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html) — 2 matches — see `financing-fuel-to-chemicals-pivot-how.md`
+- [financing-indias-refinery-to-petrochemical-pivot]() — 2 matches — see `financing-indias-refinery-to-petrochemical-pivot.md`
 - [Indian IT in an AI Era](https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html) — 2 matches — see `indian-it-in-ai-era.md`
 - [India's Trade Balance — HSN-wise Export/Import Analysis](https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html) — 2 matches — see `indias-trade-balance-hsn-wise.md`
 - [India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check](https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html) — 2 matches — see `indias-wholesale-prices-next-to.md`
 - [IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html) — 2 matches — see `root-bgfff-fg1a1a1a-mut666-cardf6f6f4.md`
 - [The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html) — 2 matches — see `the-503020-rule-is-elizabeth-warrens.md`
+- [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 2 matches — see `the-margin-case-why-lpg-and.md`
 - [The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html) — 2 matches — see `the-rule-of-72-rule-of-114-and-how-to.md`
 - [what-india-is-actually-paying-for-post-covid]() — 2 matches — see `what-india-is-actually-paying-for-post-covid.md`
+- [What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html) — 2 matches — see `what-india-is-actually-paying-for.md`
 - [Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html) — 2 matches — see `where-india-actually-burns-its-fuel.md`
 - [Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html) — 2 matches — see `where-indias-factories-actually-get.md`
+- [Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html) — 2 matches — see `where-rupee-actually-stands-ten-years.md`
+- [where-the-rupee-actually-stands-five-currencies]() — 2 matches — see `where-the-rupee-actually-stands-five-currencies.md`
 - [Annexure: 314 HSN Codes Mapped to Technical-Textile Segments](https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html) — 1 matches — see `annexure-314-hsn-codes-mapped-to.md`
 - [Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers](https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html) — 1 matches — see `announced-vs-delivered-three-indian.md`
 - [Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html) — 1 matches — see `cow-dung-already-flew-rocket-engine.md`
@@ -38,10 +45,7 @@
 - [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html) — 1 matches — see `the-empty-shed-greenhouse-what-indias.md`
 - [The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference](https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html) — 1 matches — see `the-fcc-lever-trading-petrol-yield-for.md`
 - [The Grain Value Loop — Integrated Rice Biorefinery Pitch](https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html) — 1 matches — see `the-grain-value-loop-integrated-rice.md`
-- [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 1 matches — see `the-margin-case-why-lpg-and.md`
 - [The Masala Deutsch Shop — Books & Things From the Articles](https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html) — 1 matches — see `the-masala-deutsch-shop-books-things.md`
 - [Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html) — 1 matches — see `tiffin-meets-thali-10-day-sip-already.md`
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 1 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [PLI for Medical Devices: What's Covered, What Isn't — and Where to Apply Next](https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html) — 0 matches — see `pli-medical-devices-coverage-and-gaps.md`
-- [The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently](https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html) — 0 matches — see `the-price-and-tap-two-levers-behind.md`
