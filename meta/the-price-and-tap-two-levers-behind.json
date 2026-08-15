@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-08-14T06:32:46.787+05:30",
+  "updated": "2026-08-14T12:19:05.756+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 21099,
-  "sha256": "08bffc8da616f00e7996dd1ddd7bf5aabf2be8b57028c23e840843dc5b21a6b9",
+  "bytes": 21224,
+  "sha256": "ab0c9662a918a3f28fe803ca160759d9086a017954456ad9feceaa18547185b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-15T08:03:25+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21099,
+        21224
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

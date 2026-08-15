@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-08-14T06:46:56.751+05:30",
+  "updated": "2026-08-14T12:21:10.902+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 79858,
-  "sha256": "b34985d808119f7ad08d5cf9cdffdc9b17a22261f81ee0474f32e9e37df47534",
+  "bytes": 79974,
+  "sha256": "50c1295d8b9c50a5481513ef13eebee41bbbb03b57f5f6062448ef9208363b11",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -138,6 +138,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-15T08:03:25+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        79858,
+        79974
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -5076,3 +5076,62 @@ scheduled sync
 - `the-fearless-girls-charter-indias` — 23,039 → 22,996 bytes (-43)
 - `india-ec-approval-funnel-parivesh-20` — 15,899 → 15,899 bytes (+0)
 - `india-environmental-clearances-state` — 13,867 → 14,573 bytes (+706)
+
+## 2026-08-15T08:03:25+05:30 — 160 posts live
+
+**Added**
+
+- `india-grows-soybean-exports-meal-leads` **v1.0.0** — India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet (23,339 bytes)
+- `the-cluster-automotive-piece-left-out` **v1.0.0** — The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub (19,390 bytes)
+- `how-indias-automotive-clusters-rewired` **v1.0.0** — How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery (23,496 bytes)
+- `which-ecb-currencies-are-actually` **v1.0.0** — Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory (21,020 bytes)
+- `fbil-rates-vs-tradestat-volumes-does-fx` **v1.0.0** — FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance? (17,921 bytes)
+- `the-currency-rupee-trends-piece-left` **v1.0.0** — The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like (33,007 bytes)
+- `tamil-nadus-wind-potential-according-to` **v1.0.0** — Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table (22,814 bytes)
+- `what-tepa-actually-opens-efta-goods` **v1.0.0** — What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up (27,355 bytes)
+- `financing-fuel-to-chemicals-pivot-how` **v1.0.0** — Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern (22,171 bytes)
+- `where-rupee-actually-stands-ten-years` **v1.0.0** — Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham (50,140 bytes)
+
+**Versions**
+
+- `chemical-import-substitution-hsn-8-registry` **3.0.6 → 3.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `jai-kisan-jai-javan-fci-based-military` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `if-india-paid-brics-in-rupees-scenario` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-price-and-tap-two-levers-behind` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `raising-green-debt-globally-rec-euroyen` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `half-of-indias-import-bill-is` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-tax-play-grow-ethanol-sgst-revenue` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `state-by-state-who-actually-earns-from` **1.0.6 → 1.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `discom-debt-relief-token-charge` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `iem-conversion-historical-performance` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-indias-factories-actually-get` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fci-storage-scenario-capacity-stock-and` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-grain-cultivation-fci-storage` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fci-grain-flow-procurement-storage` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-grain-value-loop-integrated-rice` **2.0.7 → 2.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-recycling-lottery-playbook-norways` **1.0.6 → 1.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-mineral-oil-hsn-ch27-trade` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `chemical-import-substitution-hsn-8-registry` — 20,850 → 20,944 bytes (+94)
+- `jai-kisan-jai-javan-fci-based-military` — 18,719 → 18,838 bytes (+119)
+- `if-india-paid-brics-in-rupees-scenario` — 32,211 → 32,336 bytes (+125)
+- `the-rupee-fell-10-and-exports-grew-09` — 35,959 → 36,084 bytes (+125)
+- `the-price-and-tap-two-levers-behind` — 21,099 → 21,224 bytes (+125)
+- `raising-green-debt-globally-rec-euroyen` — 64,139 → 64,256 bytes (+117)
+- `half-of-indias-import-bill-is` — 23,840 → 23,957 bytes (+117)
+- `a-tax-play-grow-ethanol-sgst-revenue` — 39,533 → 39,650 bytes (+117)
+- `state-by-state-who-actually-earns-from` — 53,661 → 53,812 bytes (+151)
+- `discom-debt-relief-token-charge` — 23,372 → 23,493 bytes (+121)
+- `iem-conversion-historical-performance` — 20,205 → 20,324 bytes (+119)
+- `where-indias-factories-actually-get` — 43,027 → 43,146 bytes (+119)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 124,438 → 124,563 bytes (+125)
+- `fci-storage-scenario-capacity-stock-and` — 15,201 → 15,317 bytes (+116)
+- `india-grain-cultivation-fci-storage` — 79,858 → 79,974 bytes (+116)
+- `fci-grain-flow-procurement-storage` — 33,702 → 33,827 bytes (+125)
+- `the-grain-value-loop-integrated-rice` — 77,068 → 77,199 bytes (+131)
+- `the-recycling-lottery-playbook-norways` — 24,522 → 24,641 bytes (+119)
+- `india-mineral-oil-hsn-ch27-trade` — 107,297 → 107,415 bytes (+118)
