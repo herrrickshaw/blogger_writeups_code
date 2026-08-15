@@ -4,17 +4,17 @@
 
 ## Totals
 
-- Active users: **77**
-- Total users: **77**
-- Page views: **1181**
-- Sessions: **185**
+- Active users: **84**
+- Total users: **84**
+- Page views: **1256**
+- Sessions: **206**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 47 | 1139 |
-| United States | 24 | 29 |
+| India | 49 | 1207 |
+| United States | 29 | 36 |
 | (not set) | 2 | 2 |
 | Oman | 2 | 2 |
 | Ireland | 1 | 2 |
@@ -25,13 +25,12 @@
 | City | Active users | Page views |
 |---|---|---|
 | Chennai | 21 | 312 |
-| (not set) | 11 | 12 |
-| Coimbatore | 10 | 386 |
+| (not set) | 13 | 16 |
+| Coimbatore | 12 | 445 |
+| Flint Hill | 11 | 15 |
 | Madurai | 8 | 230 |
-| Flint Hill | 7 | 11 |
-| Salem | 4 | 194 |
+| Salem | 4 | 203 |
 | Hyderabad | 3 | 3 |
-|  | 2 | 2 |
 | Bengaluru | 2 | 5 |
 | Delhi | 2 | 2 |
 | Muscat | 2 | 2 |
@@ -48,15 +47,16 @@
 | Matar | 1 | 1 |
 | Mumbai | 1 | 1 |
 | New Delhi | 1 | 1 |
+| North Charleston | 1 | 1 |
 | Vadodara | 1 | 1 |
 
 ## Top pages (top 20)
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 412 | 51 |
-| /search | 89 | 4 |
-| /2026/08/article-index-start-here.html | 48 | 5 |
+| / | 437 | 54 |
+| /search | 91 | 4 |
+| /2026/08/article-index-start-here.html | 50 | 6 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 21 | 3 |
