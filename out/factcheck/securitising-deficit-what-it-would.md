@@ -16,21 +16,21 @@ Source: `posts/securitising-deficit-what-it-would.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99190, Requested 18818. Please try again in 4h19m18.911999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98964, Requested 18818. Please try again in 4h16m3.648s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — This claim is incorrect. The article later states that India sold BRICS members $95.8 billion, meaning not all imports are paid for in dollars. The claim implies all imports are paid in dollars, which contradicts the trade balance data provided. [confidence: high]
+- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — The article later contradicts this claim by stating that India's total merchandise imports in FY2025-26 were $774.98 billion, of which $321.8 billion came from BRICS members. The claim that India pays for "almost all" of its BRICS imports in dollars is not supported by the data provided, as the article itself discusses the potential for local currency settlement. [confidence: high]
 
-- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies, with roughly 42% in 'friendly' ones." — This claim cannot be verified as the Bank of Russia does not publicly disclose currency breakdowns of trade settlements since 2022. The article cites this as a source but provides no official confirmation. [confidence: medium]
+- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies, with roughly 42% in 'friendly' ones." — The article cites this as a source for Russia's shift away from rupees, but the claim about "friendly" currencies is not defined or sourced in the text. The term "friendly" currencies is ambiguous and lacks a clear reference or official data to support the breakdown. [confidence: medium]
 
 ---
 
 INTERPRETATION ERRORS:
-- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — This claim conflates two distinct concepts. While settling a deficit in local currency does create a foreign-held claim (vendor financing), it can still reduce dollar demand if the counterparty holds the currency for trade or investment purposes. The article incorrectly frames this as purely a liability without acknowledging potential benefits in reducing dollar dependency. [confidence: high]
+- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — While the distinction between de-dollarisation and vendor financing is valid, the article conflates the two concepts without acknowledging that vendor financing can still reduce dollar dependency if it replaces dollar-denominated trade. The claim implies that settling deficits in local currency has no de-dollarisation benefit, which is an overgeneralization. [confidence: high]
 
-- "The break-even is not comfortable. The rupee has depreciated about 3.55% a year against the dollar over the past decade and 5.34% a year over the past five. Against China's 5.13% break-even, a ten-year Indian bond is a genuine but not overwhelming trade; against the UAE's 2.54% and Saudi Arabia's 2.24% — both effectively dollar-pegged — recent rupee depreciation has been faster than the pickup." — This reasoning gap incorrectly assumes that the break-even depreciation rate is the only factor determining the attractiveness of holding rupee assets. It ignores the broader strategic and geopolitical motivations for holding rupees, such as diversifying away from dollar exposure or maintaining trade relationships. [confidence: high]
+- "The break-even is not comfortable. The rupee has depreciated about 3.55% a year against the dollar over the past decade and 5.34% a year over the past five. Against China's 5.13% break-even, a ten-year Indian bond is a genuine but not overwhelming trade; against the UAE's 2.54% and Saudi Arabia's 2.24% — both effectively dollar-pegged — recent rupee depreciation has been faster than the pickup." — The article correctly notes that the rupee's depreciation erodes the yield pickup for Gulf countries, but it does not address the fact that the UAE and Saudi Arabia's currencies are pegged to the dollar, meaning their effective break-even against the rupee is already embedded in the peg. The comparison to the dollar-pegged currencies is misleading because their break-even is structurally tied to the dollar's movement, not the rupee's. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

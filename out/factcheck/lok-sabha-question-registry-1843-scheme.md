@@ -16,19 +16,19 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99419, Requested 1358. Please try again in 11m11.328s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99200, Requested 1336. Please try again in 7m43.104s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "17th and 18th Lok Sabha (2019-06-17 → 2026-08-04)" — The 17th Lok Sabha's term was from 2019 to 2024, not starting on 2019-06-17. The 18th Lok Sabha's term began in 2024, but the end date of 2026-08-04 is incorrect as it extends beyond the typical 5-year term of a Lok Sabha. [confidence: high]
+- "17th and 18th Lok Sabha (2019-06-17 → 2026-08-04)" — The 17th Lok Sabha's term ended in 2024, not 2026. The 18th Lok Sabha began in 2024, but the end date (2026-08-04) is incorrect as it implies the current date is in 2026, which is not accurate. [confidence: high]
 
-- "Generated 2026-08-04 by scripts/build_pq_registry.py in digital-twin-for-ipa" — The date 2026-08-04 is in the future relative to the current date (June 2025) and is likely a placeholder or error. [confidence: high]
+- "Generated 2026-08-04 by scripts/build_pq_registry.py" — The date "2026-08-04" is incorrect as it refers to a future date (August 4, 2026), which is not plausible for a current or recent build. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This registry is the parliamentary companion to the Quarterly Reportage: where the reportage tracks what government announced, this tracks what Parliament asked — and the ministry's answer of record." — While the registry tracks parliamentary questions and answers, it does not inherently establish a direct causal or comparative relationship between what the government announced and what Parliament asked. The claim implies a systematic linkage that may not exist in the data. [confidence: medium]
+- "This registry is the parliamentary companion to the Quarterly Reportage: where the reportage tracks what government announced, this tracks what Parliament asked — and the ministry's answer of record." — The claim implies a direct and meaningful comparison between "what government announced" and "what Parliament asked," but the registry only tracks questions asked in Parliament, not the government's announcements. The two datasets may not be comparable in a way that supports the stated purpose. [confidence: medium]
 
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — The article warns about potential AI errors but does not provide evidence or context for how frequently such errors occur or their potential impact on the registry's accuracy. This is an overgeneralization without supporting data. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about verifying AI-generated figures is valid, the claim that AI "can misstate figures" is presented as a general warning without evidence or specificity. It does not explain how or why this might occur in the context of the article's claims. [confidence: low]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -5150,3 +5150,21 @@ scheduled sync
 
 - `india-grows-soybean-exports-meal-leads` — 23,339 → 28,519 bytes (+5,180)
 - `article-index-start-here` — 177,580 → 203,009 bytes (+25,429)
+
+## 2026-08-15T11:29:02+05:30 — 161 posts live
+
+**Added**
+
+- `airbags-and-seat-belts-are-import-heavy` **v1.0.0** — Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story (24,611 bytes)
+
+**Versions**
+
+- `india-grows-soybean-exports-meal-leads` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `chemical-import-substitution-full-hsn-8_01082878313` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-grows-soybean-exports-meal-leads` — 28,519 → 30,717 bytes (+2,198)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 383,766 → 383,924 bytes (+158)
+- `top-15-chemicals-for-import` — 82,215 → 82,356 bytes (+141)

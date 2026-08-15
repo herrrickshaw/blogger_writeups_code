@@ -16,19 +16,15 @@ Source: `posts/one-gallon-five-numbers-how-gcam-fits.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99376, Requested 4155. Please try again in 50m50.784s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99146, Requested 4124. Please try again in 47m5.28s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026 · v1.0.0" — The publication date is impossible as it is in the future relative to the current date (2023). [confidence: high]
-
-- "1 tonne CO₂e avoided = 1 CBIO, Brazil's tradable credit" — While this is a common simplification, the actual RenovaBio program defines 1 CBIO as 1 metric tonne of CO₂e avoided *relative to a fossil fuel baseline*, not absolute avoided emissions. The claim omits the critical comparison to a baseline, which is essential for the credit's meaning. [confidence: high]
+- "Revised 13 August 2026" — The article claims a revision date of 13 August 2026, but this date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine." — While GCAM is not the compliance engine, the article later correctly states that GCAM's role is as an independent cross-check. However, the phrasing implies a stronger causal or functional separation than is supported. The three systems do not "run GCAM" as a compliance engine, but this does not preclude GCAM from indirectly influencing or being referenced in regulatory contexts (e.g., as a sensitivity tool or reference model). The claim risks oversimplifying the potential indirect role of GCAM in shaping regulatory understanding or thresholds. [confidence: medium]
-
-- "Only bioenergy paired with carbon capture and storage (BECCS) gets to keep the original subsidy, because that carbon never comes back out." — The reasoning gap is that the claim assumes that all carbon captured in BECCS remains permanently sequestered, which is not necessarily true depending on storage integrity, leakage risks, and time horizons. The model's accounting may treat it as permanent, but the real-world permanence is uncertain. The article conflates model accounting with real-world permanence without acknowledging the uncertainty. [confidence: high]
+- "GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine." — While this claim is factually correct, the article later implies that GCAM's role is solely as an "independent, wider-lens cross-check" on narrower tools. This understates GCAM's potential indirect influence, as its broader architecture could theoretically inform or shape the assumptions underlying compliance models (e.g., GREET or RenovaCalc) even if not used directly. The reasoning gap is that GCAM's broader systemic insights might still indirectly affect real-world compliance decisions through methodological spillovers, which the article does not acknowledge. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,17 @@ Source: `posts/top-15-chemicals-for-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98975, Requested 13826. Please try again in 3h4m20.064s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99891, Requested 13826. Please try again in 3h17m31.488s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value) [retracted — the 4-Aug correction notice gives Ethylene's real FY25-26 import value as $44mn]" — The article initially claimed ethylene imports were $2.8 billion, but the correction notice explicitly states this was fabricated due to an invalid HSN code. The corrected value is $44 million. [confidence: high]
-
-- "Annual Imports (FY25-26) : $1,650 million" for Sulfuric Acid — The correction notice states this figure was based on an invalid HSN code and the real import value is $250 million, roughly one-seventh of the original claim. [confidence: high]
+- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene) — The corrected figure is $44 million, as explicitly stated in the 2026-08-02 correction notice. [confidence: high]
+- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected figure is $250 million, as explicitly stated in the 2026-08-02 correction notice. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "FY30 Substitution Target : -80% (down to $275mn imports)" for Polypropylene — The article claims an 80% reduction in imports by FY30 based on capex projects, but the corrected import value ($1,372 million) and the FY30 target ($275 million) are not meaningfully derived from the corrected data. The original substitution target was mechanically tied to the retracted $2.8 billion ethylene figure, making the PP target unsupported by the corrected base. [confidence: high]
-
-- "YoY Growth : +81%" for Acetic Acid — The article cites an 81% year-over-year growth rate for acetic acid imports, but the correction notice explicitly states this was incorrect and the real growth rate is +2.6%. Using the retracted growth rate to justify the chemical's priority status (e.g., "red flag") is an apples-to-oranges comparison, as the corrected growth rate does not indicate a structural surge in demand. [confidence: high]
+- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The original claim used a +81% growth rate to justify Acetic Acid as a "fastest-growing import" and a "red flag," but the corrected +2.6% growth rate does not support the same urgency or conclusion about structural demand shifts. [confidence: high]
+- "Major Exporters to India : Saudi Aramco (38%), SABIC (25%), Sinopec (12%), LyondellBasell (8%)" (HDPE) — The article implies these export shares reflect India's HDPE import dependency, but the corrected import value for HDPE is $939 million, which is significantly lower than the originally cited $2.8 billion. The export share breakdown may not proportionally apply to the corrected import base, creating an apples-to-oranges comparison in assessing supply chain risk. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

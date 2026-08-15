@@ -16,21 +16,19 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99202, Requested 11831. Please try again in 2h38m52.512s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98975, Requested 11831. Please try again in 2h35m36.384s. Need more tokens? Upgrade to Dev Tier today at h]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The claim is duplicated in the same list, which is a factual inconsistency as it suggests the same announcement was made twice on the same day by the same entity. [confidence: high]
+- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The article lists this claim under the Ministry of Electronics & IT and the Cabinet, but Semicon 2.0 is a scheme under the Ministry of Electronics & IT, not a Cabinet approval. The Cabinet approves policies, but the scheme itself is under a specific ministry. [confidence: high]
 
-- "Cabinet Cabinet approves scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — Similar to the above, this scheme approval is listed twice under the same date and ministry, indicating a duplication error. [confidence: high]
-
----
+- "Cabinet approves scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — The scheme name is incorrectly formatted. The correct name is "Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" but the article lists it as "scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" which is redundant and incorrect. The scheme is known as "Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" and not as a "scheme of Chemical Parks". [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — This claim suggests that the absence of state-wise allocation implies uniform implementation across India, but it does not address whether the scheme's design or effectiveness varies by state due to local conditions, administrative capacity, or demand. The statement assumes pan-India implementation without acknowledging potential disparities in outcomes or reach. [confidence: medium]
+- "Ministry of Heavy Industries The government approved the PLI Scheme for Automobile and Auto Component Industry in India (PLI-Auto) with a budgetary outlay of Rs. 25,938 crore" — The claim states that the government approved the PLI Scheme for Automobile and Auto Component Industry with a specific budgetary outlay. However, the article does not provide a source or context for this figure, and it is unclear whether this is the total approved outlay or just a portion. The claim implies a definitive approval and allocation, but without a primary source or further context, it is difficult to verify the accuracy or completeness of this figure. [confidence: medium]
 
-- "Ministry of New and Renewable Energy Over 48 Lakh Households Benefit Under PM Surya Ghar: Muft Bijli Yojana Since February 2024" — While the number of beneficiaries may be accurate, the claim does not clarify whether these households are unique beneficiaries or if some households received multiple benefits (e.g., subsidies for multiple installations), which could lead to double-counting. Without a clear definition of "benefit" or a methodology to avoid double-counting, the figure may overstate actual household-level impact. [confidence: medium]
+- "Ministry of Electronics & IT Production Linked Incentive Schemes Strengthen India's Electronics Manufacturing Ecosystem, Boosting Domestic Production, Exports and Value Addition" — The claim suggests a causal relationship between the PLI schemes and the strengthening of India's electronics manufacturing ecosystem, domestic production, exports, and value addition. However, the article does not provide any data or evidence to support this causal claim. The claim assumes that the PLI schemes are the sole or primary driver of these outcomes, which may not be the case. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

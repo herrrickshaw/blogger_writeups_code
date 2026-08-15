@@ -16,15 +16,15 @@ Source: `posts/rare-earth-magnets-and-specialty-steel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99275, Requested 1943. Please try again in 17m32.352s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99048, Requested 2123. Please try again in 16m51.744s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — The global average figure of 7 MRI units per million population is outdated. According to OECD data (2022), the global average is closer to 18 MRI units per million population, with the US at 41, Korea at 32, and Japan at 57. [confidence: high]
+- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — The global average figure of 7 MRI units per million population is incorrect. According to OECD data, the global average is closer to 15-20 MRI units per million population, with high-income countries averaging around 30-40 units per million. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The claim implies that the REPM scheme's impact on India's electrical-machinery trade deficit (Chapter 85) is plausible within 7 years, but the article does not provide evidence or analysis to support this timeline or the scheme's potential scale of impact relative to the deficit. The $50bn-plus gap is a macroeconomic figure, while the scheme targets a specific niche (6,000 MTPA capacity). There is no clear connection between the scheme's output and the trade deficit reduction. [confidence: high]
+- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The claim implies that the ₹7,280 crore scheme could meaningfully impact India's $50bn-plus electrical-machinery trade deficit (Chapter 85) within 7 years. However, the scheme's outlay (₹7,280 crore ≈ $875 million at current exchange rates) is too small relative to the deficit magnitude to plausibly "move the needle" on a $50bn gap, even if magnets are high-value components. The reasoning gap is an overestimation of the scheme's potential impact given the scale mismatch. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

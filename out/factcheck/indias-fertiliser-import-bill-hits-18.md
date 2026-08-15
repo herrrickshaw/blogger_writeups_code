@@ -16,19 +16,19 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9416, Requested 2866. Please try again in 1.41s. Need more tokens? Upgrade to Dev Tier today at https://]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9056, Requested 3096. Please try again in 760ms. Need more tokens? Upgrade to Dev Tier today at https://]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The publication date is in the future relative to the cited sources (e.g., Business Standard January 2026, Standing Committee report December 2025), which is impossible. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The article references sources dated January 2026 (e.g., Business Standard article) and December 2025 (Standing Committee report), but claims a publication date of August 2026, which is inconsistent with the cited sources. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The 90% figure is presented as a fact without confirmation from an official government document or peer-reviewed study. [confidence: medium]
+- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct confirmation from an official or primary dataset. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's production cost is natural gas... and only 26% of that gas is sourced domestically" — The article implies that the 76% surge in the fertiliser import bill is directly caused by India's import dependence for natural gas (74% imported) and the high share of gas in urea production costs. However, the surge in the import bill is attributed to "rains-driven demand surge" and "structural import dependence," not explicitly linked to the gas cost share. The causal chain between gas import dependence, gas price volatility, and the 76% increase is not directly supported by the data presented. [confidence: high]
+- "90% of urea's production cost is natural gas, and India sources only a quarter of that gas domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the 76% surge in fertiliser imports, but the article does not establish that the import surge is *primarily* driven by gas import dependence rather than other factors (e.g., weather-driven demand, global price spikes, or policy changes). The reasoning conflates structural dependence with a specific year's import spike. [confidence: high]
 
-- "A crude price spike does not just raise India's fuel-retail bill... it raises the fertiliser subsidy bill through the exact same gas-price channel" — While the article correctly notes that urea production is gas-intensive and linked to crude prices via thermal parity, it conflates the "fertiliser subsidy bill" with the "fertiliser import bill." The import bill is driven by quantity and global prices of fertilisers (urea, DAP, etc.), while the subsidy bill is a domestic policy cost. The two are related but distinct, and the article does not clarify this distinction or provide evidence that the subsidy bill increase is directly proportional to the import bill surge. [confidence: high]
+- "A rains-driven demand surge on top of a structural import dependence" — The article attributes the 76% import surge to heavy rains expanding cultivation area, but does not provide data showing that rainfall was *exceptionally* higher than previous years or that it directly caused the import spike. The claim assumes causation without quantifying the magnitude of the weather impact relative to other factors (e.g., global fertiliser price trends). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

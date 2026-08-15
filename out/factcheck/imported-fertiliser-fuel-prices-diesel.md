@@ -9,29 +9,38 @@ Source: `posts/imported-fertiliser-fuel-prices-diesel.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini network error: The read operation timed out]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
 - "WPI is published by DPIIT, not MoSPI" — This claim may be outdated or incorrect as the responsibility for publishing WPI might have changed, but without current information, it's hard to verify [confidence: medium]
-- "CPI (base 2012) only covers 2011–2025" — This might be incorrect if the CPI series has been updated or extended beyond 2025 [confidence: medium]
+- None other found
 
 INTERPRETATION ERRORS:
-- "diesel (HSD) is up 79.0% , moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation r = 0.92)" — The high correlation between diesel prices and WPI headline might be due to diesel being a component of WPI, which could make the correlation more of a mechanical relationship rather than a causal one [confidence: high]
-- "the actual monthly year-on-year print went from -18.17% in June 2023 to +21.24% in August 2025" — This dramatic swing in CPI oils & fats might be attributed to various factors, but the article implies it's mainly due to global price pass-through without considering other possible causes [confidence: medium]
+- "diesel (HSD) is up 79.0% , moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation r = 0.92 ) — diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation" — The high correlation between diesel and WPI headline is interpreted as not being causal, but this reasoning might overlook potential causal relationships between diesel prices and other components of WPI, not just its mechanical inclusion in the index [confidence: medium]
+- None other found
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a longer period (e.g., 2012–2025 or beyond). The claim that it "only covers 2011–2025" is incorrect, as the base year does not define the coverage period. [confidence: high]
+- "CPI (base 2012) only covers 2011–2025" — The CPI series is stated to have a base of 2012, but the coverage period is incorrectly given as 2011–2025. CPI base years typically refer to the year from which weights are derived, not the coverage period. The article later mentions CPI data up to 2025, implying the series runs from 2012 to 2025 (not 2011). [confidence: high]
 
-- "HSD is one of the ~10 items inside the WPI 'Mineral oils' group" — The WPI "Mineral oils" group contains more than 10 items (e.g., petrol, naphtha, ATF, lubricants, etc.), and HSD (diesel) is one of the major components but not limited to ~10 items. The claim understates the size of the group. [confidence: high]
+- "Diesel (HSD) is up 79.0% over the same 14 years" — The article claims diesel (HSD) is up 79.0% from April 2012 to April 2026, but the WPI series is rebased to 2022-23, and the cumulative change should be recalculated on the new base. The 79.0% figure may not align with the rebased series, and the article does not clarify whether the 79.0% is based on the old or new base. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "Diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation." — While the article correctly notes that HSD is part of the WPI fuel basket, it then uses this to dismiss the correlation as "accounting" rather than causation. However, the high correlation (r=0.92) still implies a strong empirical relationship, even if it is partly mechanical. The interpretation incorrectly frames the correlation as meaningless rather than acknowledging that it reflects both accounting and real economic pass-through. [confidence: high]
+- "Diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation." — While the article acknowledges the mechanical relationship between diesel and WPI, it does not adequately address the fact that the high correlation (r = 0.92) is largely driven by this inclusion, making it an apples-to-apples comparison rather than evidence of pass-through. The article later mentions this but does not fully correct the interpretation of the correlation as evidence of economic pass-through. [confidence: high]
 
-- "That is not evidence the pass-through described in the literature doesn't exist — it's evidence that annual data is the wrong resolution to see it in." — While the article correctly notes that annual data may obscure short-term pass-through, it does not adequately explain why the weak annual correlations (r between -0.52 and +0.29) are insufficient to reject the existence of pass-through. The claim implies that the literature's findings are still valid despite the weak annual correlations, but it does not address the possibility that the annual data could be masking or distorting the true relationship. The interpretation oversimplifies the relationship between time resolution and pass-through evidence. [confidence: medium]
+- "The one strong number here — diesel vs. WPI headline, r = 0.92 — is closer to a mechanical fact than a discovery, since HSD is itself inside the WPI fuel basket." — The article correctly identifies the mechanical relationship but then uses this to dismiss the correlation entirely, without acknowledging that even within this constraint, the pass-through dynamics (e.g., global crude prices driving domestic diesel prices) may still hold. The interpretation conflates mechanical inclusion with the absence of any meaningful economic relationship. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/where-india-actually-burns-its-fuel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98914, Requested 2324. Please try again in 17m49.632s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99809, Requested 2324. Please try again in 30m42.911999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article text includes a publication date of 8 August 2026, but the PPAC data cited only runs up to FY2024-25 (ending March 2024). The future-dated publication is inconsistent with the data's timeframe. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The article claims a publication date of 8 August 2026, which is in the future relative to the current date (June 2025). This is likely an error in the versioning or metadata. [confidence: high]
 
-- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The PNGRB data is cited as of 31 May 2026, which is after the article's publication date (8 August 2026). This is logically impossible and suggests a typographical error (likely meant to be 31 May 2025). [confidence: high]
+- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The date 31.05.2026 is in the future and cannot be verified as of June 2025. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Delhi is exactly what its gas and metro build-out was meant to achieve" — The article attributes Delhi's slow fuel sales growth to substitution via CNG, metro expansion, and vehicle-age rules, but does not quantify the contribution of each factor. Without decomposition, the causal claim is unsupported. [confidence: high]
+- "Delhi is the finding hiding in the slow column. The capital’s fuel sales grew 22% in sixteen years — a period in which its vehicle stock multiplied. The explanation is substitution, not stagnation: Delhi runs India’s densest gas transport network — 458 CNG station clusters and 19.6 lakh piped-gas connections on PNGRB’s May 2026 count — a metro carrying millions of trips, and the country’s most aggressive vehicle-age rules." — While the claim about Delhi's fuel sales growth being low is correct, the interpretation that substitution (via CNG, metro, and vehicle rules) is the sole or primary explanation is not established by the data presented. The article does not decompose the contributions of these factors or rule out other explanations (e.g., changes in commuting patterns, remote work, or economic activity). The reasoning gap is that correlation is presented as causation without sufficient evidence. [confidence: high]
 
-- "The increment is two-wheelers and cars, not trucks and tractors — which is why the ethanol-blending programme (petrol-side) keeps gaining policy leverage while diesel-side interventions fade" — While the shift in fuel mix (petrol vs. diesel) is documented, the article does not provide evidence linking this shift *directly* to the ethanol-blending programme's growing policy leverage or the fading relevance of diesel-side interventions. The causal inference is speculative. [confidence: medium]
+- "The frontier moved east; the plateau is in the north-west" — The claim that the "frontier" (fastest-growing fuel markets) moved east is supported by the data (e.g., Odisha, Chhattisgarh), but the characterization of the "plateau" as being in the north-west is an overgeneralization. The data shows that some north-western states (e.g., Haryana, Rajasthan) had moderate growth, while others (e.g., Punjab) had very low growth. The "plateau" label is not uniformly accurate for the entire region, and the reasoning gap is that the conclusion oversimplifies regional variations. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

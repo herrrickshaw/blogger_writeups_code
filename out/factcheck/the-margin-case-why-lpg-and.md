@@ -16,21 +16,19 @@ Source: `posts/the-margin-case-why-lpg-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99067, Requested 5342. Please try again in 1h3m29.375999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99981, Requested 5664. Please try again in 1h21m17.28s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect because US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the price cap on Russian oil) and expanded in subsequent months, not November 2025. The EU ban on products refined from Russian crude was also implemented earlier (e.g., December 2022 for seaborne crude and February 2023 for refined products). [confidence: high]
+- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect as US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the US Treasury's OFAC sanctions on Sovcomflot and other entities), not November 2025. [confidence: high]
 
-- "LPG import dependency at roughly 60–64% through FY2024-25" — While the article cites this figure, it does not provide a primary source (e.g., PPAC or government data) for FY2024-25 specifically. The PPAC Ready Reckoner table only provides data up to FY2021-22, and the article acknowledges this by stating it is "not asserting the more recent figure to PPAC-Ready-Reckoner precision." The claim lacks verifiable sourcing for the latest fiscal year. [confidence: medium]
-
----
+- "EU ban on products refined from Russian crude (January 2026)" — The EU's ban on Russian refined petroleum products (e.g., diesel, gasoline) was implemented in **February 2023** (as part of the 6th sanctions package), not January 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A refiner that redirects FCC yield toward LPG... is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The reasoning gap here is that the article assumes **all** rising LPG import volumes can be displaced by domestic refiners increasing LPG yield. However, LPG imports include specialized grades (e.g., propane/butane blends) that may not be substitutable by domestic refinery output due to quality or specification constraints. The claim conflates total import volume with the specific types of LPG that refiners can produce. [confidence: high]
+- "the same crude barrel that makes petrol can, with the modifications this blog has already covered piece by piece, make more LPG and more petrochemical feedstock instead. This piece pulls those separate findings together into the actual margin argument for doing so." — The claim implies a direct causal link between the technical modifications (e.g., FCC yield adjustments) and the improved margins for LPG/petrochemicals, but it does not account for the fact that **margins are also influenced by global commodity price cycles, government subsidies, and import dynamics** (e.g., LPG import dependency, US Gulf Coast deals). The argument conflates technical feasibility with economic justification without isolating the contribution of each factor. [confidence: high]
 
-- "The direction of all three [fuel GRM halving, LPG economics improvement, polymer spreads widening], taken together, points the same way: away from petrol margin, toward LPG and petrochemical margin, on the same barrel of crude." — The reasoning gap is that the article **correlates** these three trends without establishing **causality** or **sufficient evidence** that refiners are actively shifting barrels toward LPG/petrochemicals *because* of these trends. The trends could be coincidental or driven by other factors (e.g., global supply chain shifts, policy changes), and the article does not rule out alternative explanations or provide refinery-level data to confirm the shift. [confidence: medium]
+- "Reliance's own reported GRM for Q4 FY2024-25 was $7.6/bbl, down from $9.6/bbl a year earlier — a real decline, consistent with the sector-wide fuel-margin compression in Section 1, but still running meaningfully above the $4–6/bbl PSU OMC average for the same broad period." — While the GRM figures are directionally correct, the comparison is flawed because **Reliance's GRM is not directly comparable to PSU OMCs' GRM** due to differences in crude slates, integration levels, and reporting conventions. The article acknowledges this but still uses the comparison to imply a margin advantage, which is misleading without further qualification. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

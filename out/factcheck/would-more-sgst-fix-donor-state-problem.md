@@ -16,15 +16,15 @@ Source: `posts/would-more-sgst-fix-donor-state-problem.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98859, Requested 2669. Please try again in 22m0.192s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99713, Requested 2669. Please try again in 34m18.048s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PIB's 1 August 2026 devolution instalment share" — The date is in the future (2026), which is impossible as the article is being fact-checked now (2024). [confidence: high]
+- "PIB's 1 August 2026 devolution instalment share" — The date "1 August 2026" is in the future relative to the current date (2023) and appears to be a typographical error or placeholder. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population." — This claim assumes that the GST base is the sole determinant of the benefit from raising SGST share, ignoring that the devolution gap is also influenced by the Finance Commission's formula (which weights population and income-distance). Thus, the conclusion that raising SGST share would widen the donor-state grievance is not necessarily supported by the reasoning provided, as it conflates GST base with devolution outcomes. [confidence: high]
+- "Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population." — The claim assumes that the primary grievance of donor states is about absolute revenue gains rather than relative devolution ratios. However, the article later clarifies that donor states are concerned about the *ratio* of devolution to their contributions (e.g., devolution ÷ effective-GST-share ratio). The interpretation error lies in conflating absolute gains with the specific metric (ratio) that defines the "donor state" problem. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

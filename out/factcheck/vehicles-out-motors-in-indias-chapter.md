@@ -16,15 +16,15 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98935, Requested 1878. Please try again in 11m42.432s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99850, Requested 2200. Please try again in 29m31.2s. Need more tokens? Upgrade to Dev Tier today at https:]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Chapter 85’s deficit widened in 3 of the last 7 year-over-year moves" — The article claims Chapter 85's deficit widened in 3 of the last 7 years, but the data shows it widened in 5 of the 7 years (2018-19 to 2025-26): 2018-19 to 2019-20 (deficit narrowed), 2019-20 to 2020-21 (narrowed), 2020-21 to 2021-22 (widened), 2021-22 to 2022-23 (narrowed), 2022-23 to 2023-24 (widened), 2023-24 to 2024-25 (narrowed), 2024-25 to 2025-26 (widened). [confidence: high]
+- "Chapter 85’s deficit widened in 3 of the last 7 year-over-year moves" — The article claims that Chapter 85's deficit widened in 3 of the last 7 year-over-year moves, but the data table shows the deficit widened in 5 out of 7 years (2018-19 to 2025-26). The deficit increased from -$39.32bn to -$50.88bn, with only 2 years (2019-20 and 2022-23) showing a narrowing deficit. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further" — While this is technically true, the article later uses the Chapter 85 deficit as a proxy for EV-related trade imbalance without acknowledging that Chapter 85 includes non-EV items like mobile phones and consumer electronics. This risks overstating the EV-specific trade deficit. [confidence: high]
+- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further; this post works at the chapter level available here." — The article acknowledges that Chapter 85 includes non-EV items (e.g., mobile phones, consumer electronics) but then uses the entire Chapter 85 deficit to argue about EV-related trade risks. This conflates general electrical machinery trade with EV-specific components, overstating the EV trade deficit's contribution to the overall Chapter 85 deficit. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

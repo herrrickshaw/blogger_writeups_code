@@ -16,19 +16,21 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99450, Requested 6534. Please try again in 1h26m10.175999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99283, Requested 6649. Please try again in 1h25m25.248s. Need more tokens? Upgrade to Dev Tier today at ht]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the one harmonised international series that allowed the comparison was discontinued in 2022" — The OECD harmonised producer price series was discontinued, but the OECD also discontinued harmonised wholesale price series in 2022. The claim implies only one series was discontinued, but multiple series were affected. [confidence: high]
+- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — This claim is incorrect. The article later contradicts itself by stating that Brazil's producer prices peaked at +31.6% in 2021, while the US peaked in 2021 as well, but the US peak was +17.0% (from Exhibit 1), not tied for the highest. Brazil's peak was indeed the highest, but the "tied for earliest" phrasing is misleading because the US also peaked in 2021, but at a lower rate. [confidence: high]
 
-- "+31.6% Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — Brazil's producer inflation in 2021 was +31.6%, but it was not tied with the US for the earliest peak. The US PPI peaked in 2021 (17.0%), while Brazil's IPP peaked in 2021 but at a different time (earlier in the year due to currency effects). The claim conflates the magnitude and timing of peaks. [confidence: high]
+- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is unverifiable as stated. The article provides a table (Exhibit 2) showing India's consumer inflation at 2.8% in 2025, but it does not explicitly state that this is "one of the lowest in the G20." While the table suggests India is near the bottom, the claim is not directly supported by the data presented, and the G20 includes economies not shown in the table (e.g., Russia, Türkiye). [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "the 2026 turn is universal too — with the United States turning hardest, not India" — The claim suggests the 2026 producer-side inflation turn is universal, but the article later contradicts this by showing Brazil lagging behind due to its prior cycle. The "universal" claim is overstated because Brazil's cycle differs significantly. [confidence: high]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — This claim implies that the similarity in timing and magnitude of the 2022 wholesale inflation spike across economies rules out domestic policy as a cause in India. However, this reasoning commits a *false causal claim*: the fact that other economies experienced a similar spike does not preclude domestic policies in India from having amplified or mitigated the effect. The article does not provide evidence to rule out domestic factors contributing to India's specific experience. [confidence: high]
 
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — While India's 2025 consumer inflation (2.8%) is low relative to the listed G20 economies, the claim that it is "one of the lowest in the G20" is not fully supported because the article omits several G20 economies (e.g., Russia, Türkiye) due to incomplete data. The comparison is incomplete. [confidence: medium]
+- "The current divergence is the unusual part. India’s wholesale inflation has run near zero for three years — −0.8%, +1.2%, +0.9% — while consumer inflation fell steadily from 5.6% to 2.8%. Both falling is normal; both being this low simultaneously, in an economy growing at 6–7%, is not the configuration of the 2010s." — This claim suggests that the simultaneous low levels of wholesale and consumer inflation in India are unusual given the high growth rate. However, this is an *apples-to-oranges comparison*: wholesale inflation (WPI) and consumer inflation (CPI) measure different things and are influenced by different factors (e.g., WPI includes imports and excludes services, while CPI includes services and excludes imports). The article does not establish that this "divergence" is unusual in a meaningful way, as the two indices are not directly comparable. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/rooftop-solar-is-working-household.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99213, Requested 2493. Please try again in 24m33.984s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98985, Requested 2094. Please try again in 15m32.256s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "~12 GW Rooftop capacity added since Feb 2024, ~33 lakh systems (May 2026)" — The claim conflates two different timeframes. The 9,566.89 MW (9.57 GW) figure is explicitly dated as of 20 March 2026, while the "above 12 GW" figure is stated as of May 2026. The article does not clarify whether the 12 GW includes the 9.57 GW or is cumulative over a different period, creating ambiguity in the total capacity added. [confidence: high]
+- "₹78,000 Maximum central subsidy, 3 kW and above, under PM Surya Ghar" — The subsidy table shows ₹78,000 is only for 3 kW systems, not "3 kW and above." For systems larger than 3 kW, the subsidy remains capped at ₹78,000. [confidence: high]
 
-- "₹78,000 Maximum central subsidy, 3 kW and above, under PM Surya Ghar" — The subsidy table shows ₹78,000 as the maximum for 3 kW and above, but the article does not specify that this is the *maximum* subsidy (i.e., it is the same for all systems ≥3 kW). The phrasing could mislead readers into thinking ₹78,000 is the subsidy for *any* system ≥3 kW, which is correct but not explicitly clarified as the cap. [confidence: medium]
+- "₹0 Central subsidy available to a household adding a battery" — The article claims no subsidy is available for household batteries under PM Surya Ghar, but this is not explicitly stated in the cited sources (MNRE guidelines or PIB releases). The absence of evidence does not confirm the claim. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — The article presents these projections as direct outcomes of the PM Surya Ghar scheme without clarifying the assumptions behind them (e.g., average system size, capacity utilization factor, or grid emission factors). These figures likely rely on modeling that assumes optimal performance and may not reflect real-world variability in household adoption, system efficiency, or grid conditions. [confidence: high]
+- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — The article presents these projections as direct outputs of the PM Surya Ghar scheme, but it does not clarify whether these estimates account for system degradation, actual usage patterns, or grid integration challenges. The projections may overstate real-world benefits without proper caveats. [confidence: high]
 
-- "A domestic battery of that size is roughly ₹1.5–3 lakh installed at current prices, which is comfortably more than the entire subsidy on the panels it would serve." — While the battery cost estimate is plausible, the article does not provide a source or methodology for this figure, nor does it account for potential economies of scale, regional price variations, or future cost reductions. The comparison to the ₹78,000 subsidy is presented as a straightforward cost-benefit analysis without acknowledging these uncertainties. [confidence: medium]
+- "The marginal rate also steps down from 60% to 40% in the third kilowatt. Both features push households toward small systems, which is deliberate: the scheme is designed to cover a typical domestic load, not to subsidise a household becoming a generator." — While the subsidy structure may incentivize smaller systems, the article does not provide evidence that this was an explicit policy goal. The claim assumes intent without citing supporting documentation (e.g., MNRE policy statements or scheme guidelines). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

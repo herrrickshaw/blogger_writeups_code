@@ -16,19 +16,19 @@ Source: `posts/textile-hsn-deep-dive-apparel-vs-mmf.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99150, Requested 1854. Please try again in 14m27.456s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98891, Requested 1854. Please try again in 10m43.68s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is the world's 6th-largest T&A exporter with ~3.9% global share." — This claim is unverifiable as the article does not provide a source for the global ranking or the 3.9% share. The cited sources (AEPC Annual Report 2024-25, CITI T&A export statistics, etc.) are not linked or quoted directly to confirm this specific statistic. [confidence: medium]
+- "Total textiles & apparel exports ≈ US$37 bn (FY2024-25, +6% YoY); India is the world's 6th-largest T&A exporter with ~3.9% global share." — The FY2024-25 export figure is likely incorrect or unverifiable. The article cites sources like AEPC Annual Report 2024-25 and CITI T&A export statistics, but the US$37 bn figure does not align with known data (e.g., AEPC's reported exports for FY2023-24 were ~US$44 bn, and FY2024-25 growth would not plausibly reduce this to US$37 bn). [confidence: high]
 
-- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026), projected US$309 bn by 2047." — The projection of US$309 bn by 2047 is highly speculative and lacks a credible source or methodology. The intermediate figure (US$45 bn by 2026) is plausible but not verified in the article. [confidence: high]
+- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026) , projected US$309 bn by 2047." — The US$309 bn projection for 2047 is an extreme extrapolation with no cited methodology or source. The 2026 figure (US$45 bn) is plausible, but the 2047 projection lacks credible backing and appears speculative. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The MMF gap is visible inside the 6-digit codes. Nearly every heading forks into '…of cotton' (61xx2), '…of man-made fibres' (61xx3), '…of other'... India's exports concentrate in the cotton lines; the synthetic-fibre lines (610323, 610333, 610343, 610463, 610520, 610620, 611130, 611430…) are underweight against a world where MMF accounts for ~70% of fibre consumption (a fibre-level share, not a garment-purchase share — India's own basket skews the other way, see below)." — The article conflates fibre consumption share (~70% MMF globally) with garment export composition (where India's basket is cotton-skewed). The claim implies a causal link between global fibre consumption and India's export basket, but the two are not directly comparable. India's export structure is shaped by domestic industry strengths (e.g., cotton supply chains) and trade policies, not global fibre trends. [confidence: high]
+- "India imports very little finished apparel (high duties + domestic supply) — a large structural surplus in Ch 61/62." — While India may have a trade surplus in apparel (HS 61–62), the claim that this is due to "high duties + domestic supply" conflates correlation with causation. The article does not provide evidence that duties are the primary driver of the surplus (e.g., by comparing pre- and post-duty periods or analyzing duty-free competitors like Bangladesh). The surplus could also stem from India's cost advantages, global demand, or other factors. [confidence: medium]
 
-- "Trade-data quality for this basket is reliable only post-2019." — While the 2019 HSN carve-out improved granularity, the article overstates the reliability of trade data. The carve-out enabled better tracking, but data quality depends on reporting accuracy, coverage gaps, and methodological consistency. The claim assumes perfect post-2019 data reliability without acknowledging potential limitations. [confidence: medium]
+- "The binding constraint is specialty fibre + technology. India imports high-performance fibres and the machinery for depolymerization-grade and high-tenacity output." — The article correctly identifies India's import dependence on specialty fibres but incorrectly implies that the *only* binding constraint is fibre/technology imports. It ignores other critical factors like domestic demand growth, policy bottlenecks (e.g., PLI scheme uptake), infrastructure gaps, or skill shortages that may also limit technical-textile expansion. The claim oversimplifies the problem by attributing it solely to imports. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

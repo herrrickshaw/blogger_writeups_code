@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-15T03:20:07+00:00",
-  "count": 160,
+  "snapshot": "2026-08-15T11:29:02+05:30",
+  "count": 161,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -436,13 +436,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-13T21:43:38.930+05:30",
+      "updated": "2026-08-15T08:58:52.630+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 82215,
-      "sha256": "76213e216f279dce801fa3c0439047f9cc5fceae1f2fd6a7cc211bb9de2ac952",
+      "bytes": 82356,
+      "sha256": "35b85292461185cccb3485d32722e17b51614ec62790bf652d7e2db70c5304ea",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -454,7 +454,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -584,6 +584,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Site-audit fixes batch 1: chemical import substitution cluster (4 posts) — untagged retracted figures (FY30 savings, Tier1 .1bn, LDPE/Ethylene targets, Scenario Analysis), Cross-Validation table caveat, stray editorial bracket, capex reconciliation gap, Ministry name fix, pointer direction fix"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-15T11:29:02+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            82215,
+            82356
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -11491,6 +11504,42 @@
         }
       ]
     },
+    "5572443051977108998": {
+      "id": "5572443051977108998",
+      "title": "Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
+      "slug": "airbags-and-seat-belts-are-import-heavy",
+      "published": "2026-08-15T11:27:49.522+05:30",
+      "updated": "2026-08-15T11:28:02.668+05:30",
+      "labels": [
+        "Automotive & Manufacturing",
+        "India Trade & Policy",
+        "Textiles"
+      ],
+      "bytes": 24611,
+      "sha256": "7fa1ed714811c8f46982af39723933381051e5f818d9c79f35cd648f683b8140",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-15T11:29:02+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "5577698951877824521": {
       "id": "5577698951877824521",
       "title": "Fuel and the Bottle: The Two Taxes States Never Handed to GST",
@@ -16471,13 +16520,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
       "slug": "india-grows-soybean-exports-meal-leads",
       "published": "2026-08-15T08:01:21.000+05:30",
-      "updated": "2026-08-15T08:19:44.349+05:30",
+      "updated": "2026-08-15T09:45:43.706+05:30",
       "labels": [
         "Agriculture & Food Processing",
         "India Trade & Policy"
       ],
-      "bytes": 28519,
-      "sha256": "2960fe19b8e4fda7b6823bffa687e9e9f6cd56dfaeafc88e694eb1ed2f192c19",
+      "bytes": 30717,
+      "sha256": "5f847af040384cd1c4bc409c0f1515939f7f725de1ebf1b5b3b3dec80aaa5309",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16489,7 +16538,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16510,6 +16559,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-08-15T11:29:02+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-0 distinct numbers)",
+          "bytes": [
+            28519,
+            30717
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -20650,14 +20712,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-08-13T04:42:05.131+05:30",
+      "updated": "2026-08-15T08:59:22.084+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 383766,
-      "sha256": "1762a9ddbd6ac6b5f3358e6e95f9dfa4308b95597ad9d190d3e607c32ba7b5f3",
+      "bytes": 383924,
+      "sha256": "934161b8adf067309360f9f1e1b429ed6cf40442bafc286e755f2252dc5df696",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20669,7 +20731,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20790,6 +20852,19 @@
           "bytes": [
             382847,
             383766
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-15T11:29:02+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            383766,
+            383924
           ],
           "url_changed": null,
           "markers_changed": null,

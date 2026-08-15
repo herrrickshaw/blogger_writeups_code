@@ -21,20 +21,20 @@ Source: `posts/fy2025-26-sample-report-india-trade.html`
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The article does not provide the updated GDP growth figure, but it mentions that the provided figure has been superseded, implying that the figure might be outdated. [confidence: medium]
-- None found for other factual errors.
+- "GDP growth (real, FAE) +7% First Advance Estimate" — The article later states that this figure has been superseded by MoSPI's Provisional Estimate, but it does not provide the updated figure, making the claim outdated [confidence: medium]
+- None found for other factual errors
 
 INTERPRETATION ERRORS:
-- "Merchandise exports 441,745.9 TRADESTAT figure; PIB agrees to within 0.01%" — The article implies that the close agreement between TRADESTAT and PIB figures validates the accuracy of the export figure. However, this agreement does not necessarily rule out the possibility of both sources being incorrect or based on the same flawed data. [confidence: medium]
-- None found for other interpretation errors.
+- "India's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y)" — The article uses this figure to compare with its own goods-only figures, but it does not account for the difference in the growth rates of goods and services exports, which could lead to an incorrect interpretation of the trade data [confidence: medium]
+- None found for other interpretation errors
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim implies the FAE figure is outdated, but it does not specify what the superseding figure is or provide a corrected value. The article acknowledges the FAE is provisional but does not state the updated estimate, making the claim incomplete. [confidence: high]
+- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The article incorrectly states that the First Advance Estimate (FAE) has been superseded by MoSPI's Provisional Estimate, but the FAE is the first official estimate released by MoSPI, and the Provisional Estimate is a later revision. The FAE is not superseded; it is the initial estimate that is later refined. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "NITI Aayog's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y) — this repo's goods-only figures show export growth of just +0.92% over the same year, explained by services exports growing faster (+9.0% per NITI Aayog) and pulling the blended rate up, not a discrepancy." — The reasoning gap is that the article assumes the difference in growth rates between goods-only and blended trade is solely due to faster services export growth, without providing evidence or data to support this causal claim. The blended trade figure is a sum of goods and services, but the article does not demonstrate that the +0.92% goods export growth is consistent with the +4.2% blended growth when accounting for services. [confidence: medium]
+- "NITI Aayog's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y) — this repo's goods-only figures show export growth of just +0.92% over the same year, explained by services exports growing faster (+9.0% per NITI Aayog) and pulling the blended rate up, not a discrepancy." — While the article correctly notes that services exports grew faster, it implies that the difference in growth rates between goods-only and blended trade is solely due to services exports growing faster. However, this ignores the fact that the blended trade figure includes both goods and services, so the growth rates are not directly comparable without adjusting for the composition of trade. The article does not provide the actual weights of goods and services in the blended trade figure, making the causal claim unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

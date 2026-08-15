@@ -9,36 +9,26 @@ Source: `posts/india-sells-world-53-billion-of-fuel.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "US$53.0 billion of petroleum products out against US$9.3 billion in" — The article itself later states that the export value is actually US$52,973 million, not US$53.0 billion, and the import value is US$9,320 million, not US$9.3 billion [confidence: high]
-- "India exported US$62.6bn to US$53.0bn" — The article itself later states that the export value is actually US$62,550 million, not US$62.6 billion, and the export value for the next year is US$52,973 million, not US$53.0 billion [confidence: high]
-
-INTERPRETATION ERRORS:
-- "India has idle distilleries and an alcohol trade deficit at the same time" — The article concludes that India has idle distilleries due to overcapacity, but this does not necessarily mean that the distilleries are idle because of a lack of demand for ethanol; it could be due to other factors such as lack of feedstock or uncompetitive pricing [confidence: medium]
-- "The surplus is shrinking in value and its centre of gravity is Rotterdam, a market exposed to European sanctions policy in a way the neighbourhood is not" — The article implies that the shrinking surplus is a problem, but it does not consider the possibility that the decline in value could be due to a decrease in global prices rather than a decrease in demand or a loss of market share [confidence: medium]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8013, Requested 4287. Please try again in 1.5s. Need more tokens? Upgrade to Dev Tier today at https://c]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India runs a genuine refined-fuel surplus — US$53.0 billion of petroleum products out against US$9.3 billion in." — The article later clarifies that the net surplus is US$43.7 billion (US$53.0 billion exports minus US$9.3 billion imports), not US$53.0 billion. The phrasing incorrectly presents the gross exports as the surplus. [confidence: high]
+- "India runs a genuine refined-fuel surplus — US$53.0 billion of petroleum products out against US$9.3 billion in." — The article later clarifies that the net surplus is US$43.7 billion (US$53.0bn exports minus US$9.3bn imports), not US$53.0 billion. The phrasing incorrectly presents the gross exports as the surplus. [confidence: high]
 
-- "The single largest destination for Indian refined petroleum is the Netherlands, at US$8,435 million — 15.9% of the total, and almost all of it in the diesel-and-fuel-oil group." — The article cites US$8,435 million as the value for the Netherlands, but the exhibit table shows US$8,435 million as the value for the Netherlands, which is 15.9% of the total exports (US$52,973 million). However, the claim that "almost all of it in the diesel-and-fuel-oil group" is not explicitly verified in the provided text or exhibits. [confidence: medium]
+- "The surplus is real" — The article later states that the surplus shrank by a sixth in one year (from US$62.6bn to US$53.0bn in exports, and net surplus from US$52.9bn to US$43.7bn), contradicting the unqualified claim that the surplus is "real" without acknowledging the decline. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The surplus is real — India buys crude and sells fuel, and the margin between them is one of the country’s largest export earnings." — While the surplus is real in terms of trade value, the article does not establish that the margin between crude imports and refined fuel exports is a direct or primary source of export earnings. The margin could include refining costs, logistics, and other expenses, and the claim conflates trade surplus with earnings from refining margins. [confidence: high]
+- "The single largest destination for Indian refined petroleum is the Netherlands, at US$8,435 million — 15.9% of the total, and almost all of it in the diesel-and-fuel-oil group." — While the claim about the Netherlands being the largest destination is factually correct, the article implies that this is evidence of India's refined-fuel surplus being primarily driven by European demand, without addressing whether this trade is sustainable or dependent on geopolitical factors (e.g., EU sanctions on Russian fuel). The interpretation conflates a large trade flow with a stable or strategic export opportunity. [confidence: high]
 
-- "Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template." — The article correctly notes Sri Lanka's growth in imports from India but does not adequately explain why this growth is not a replicable template. The reasoning gap is that the article does not address whether Sri Lanka's unique economic or political circumstances (e.g., debt crisis, fuel shortages) that may have driven this growth are present in other potential markets. [confidence: medium]
+- "Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template." — The article correctly notes Sri Lanka's growth in imports from India but does not adequately explain why this growth is not replicable in other neighboring countries (e.g., Nepal, Bhutan, or Bangladesh). The reasoning gap is that the article does not provide evidence or analysis of Sri Lanka's unique economic or political conditions that enable this growth, making the conclusion unsupported. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

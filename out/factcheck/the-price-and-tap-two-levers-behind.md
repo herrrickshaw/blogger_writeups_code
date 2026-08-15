@@ -16,19 +16,19 @@ Source: `posts/the-price-and-tap-two-levers-behind.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99036, Requested 2387. Please try again in 20m29.472s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99952, Requested 2709. Please try again in 38m19.104s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The RBI's rate lever is not one number but a deliberately narrow corridor around the policy repo rate, with the weighted average call rate (WACR) as the operating target it steers inside that corridor" — The WACR is not the operating target; it is the rate that the RBI steers within the corridor. The operating target is the policy repo rate itself. [confidence: high]
+- "The RBI Monetary Policy Statement, 6 February 2026 (repo 5.25%, SDF 5.00%, MSF/Bank Rate 5.50%, neutral stance; ₹3.5 lakh crore OMO purchases and $15.1bn (~₹1.3 lakh crore) forex swaps Dec 2025–Jan 2026; ~₹70,000 crore/day average surplus; WALR −105bp on fresh loans)" — The article incorrectly attributes the OMO purchases and forex swaps to the February 2026 policy statement, as these actions occurred in December 2025–January 2026, not February 2026. The February 2026 policy statement would not retroactively include these prior actions. [confidence: high]
 
-- "The Monetary Policy Committee cut the repo rate by a cumulative 125bp in this cycle (6.50% → 5.25%)" — The article claims the MPC cut the repo rate from 6.50% to 5.25%, but the RBI Monetary Policy Statement cited (6 February 2026) shows the repo rate was already at 5.25% in February 2026, and the cumulative cut from 6.50% would imply a 125bp cut, which is not reflected in the cited statement. [confidence: high]
+- "US Federal Reserve, Monetary Policy Report July 2026 (QT ended Dec 2025; reserves ~$3.1tn, ample; T-bill purchases)" — The Federal Reserve's Monetary Policy Report is typically published semi-annually (in February and July), but the July 2026 report would not have been available at the time of the article's publication (3 August 2026). The article likely misdates or misattributes the source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The rate sets the direction. The window decides how much of it arrives." — While the rate lever sets the direction of monetary policy, the claim that the window "decides how much of it arrives" is an oversimplification. The transmission of rate cuts to lending rates depends on multiple factors, including bank competition, borrower demand, and macroeconomic conditions, not just liquidity windows. The article conflates correlation with causation by attributing the high pass-through solely to liquidity operations. [confidence: high]
+- "The RBI was, in effect, running the tap and the drain at the same time." — While the article correctly notes that FX intervention drains liquidity, it does not adequately explain how the RBI's simultaneous use of CRR cuts, OMO purchases, and forex swaps (which inject liquidity) offsets this drain. The claim implies a net tightening effect without sufficient evidence that the liquidity injections fully neutralized the FX drain. [confidence: medium]
 
-- "The February 2026 'hold' was not neutral in effect — with a ₹70,000 crore daily surplus maintained, it was an easing hold." — While the RBI maintained a daily surplus, calling it an "easing hold" is misleading. A "hold" refers to the policy rate decision, not the liquidity stance. The liquidity surplus is a separate tool and does not change the neutral stance of the policy rate. The article incorrectly equates liquidity management with monetary policy stance. [confidence: high]
+- "The February 2026 'hold' was not neutral in effect — with a ₹70,000 crore daily surplus maintained, it was an easing hold." — The article conflates the maintenance of a daily surplus with an easing stance. While a surplus may indicate accommodative liquidity conditions, the policy stance ("hold") refers to the repo rate decision, not liquidity operations. The conclusion that the hold was "easing" overstates the causal link between liquidity management and policy stance. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

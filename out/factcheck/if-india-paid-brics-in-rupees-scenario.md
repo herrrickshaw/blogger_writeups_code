@@ -9,36 +9,35 @@ Source: `posts/if-india-paid-brics-in-rupees-scenario.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "The chronology settles it: the RBI only permitted surplus vostro balances to be invested in government securities in August 2025..." — This is factually incorrect. The Reserve Bank of India explicitly permitted foreign banks to invest surplus Special Rupee Vostro Account (SRVA) balances in Government Securities and Treasury Bills when it introduced the rupee trade settlement framework on July 11, 2022 (vide A.P. (DIR Series) Circular No. 10, paragraph 3(d)), not in August 2025. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "India's merchandise imports of $775 billion spread over roughly 250 trading days is about $3.1 billion a day of dollar demand. Global USD/INR turnover was around $185 billion a day in the BIS Triennial Survey... So India's entire import-related dollar demand is about 1.7% of daily USD/INR turnover. Removing all BRICS imports from the dollar — the maximalist S3 — would remove roughly 0.70% of daily turnover." — This is an apples-to-oranges comparison. Gross foreign exchange turnover in the BIS survey includes interbank trades, swaps, forward rollovers, and speculative churn, where a single real transaction is multiplied across dealers. Comparing net real underlying trade demand directly against gross dealer turnover creates a misleading ratio that trivialises the macro impact of fundamental trade flows on currency pressure. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh" — The article does not provide a verifiable source for Saudi Arabia's BRICS membership status, and the claim of ambiguity may be outdated or incorrect [confidence: medium]
-- "India's entire foreign exchange reserves are $682.2 billion" — The article cites the RBI Weekly Statistical Supplement for the week ended 24 July 2026, but does not account for potential changes in reserves since that date [confidence: low]
+- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh" — The article does not provide a verifiable source for Saudi Arabia's BRICS membership status, and the claim of ambiguity may not be accurate [confidence: medium]
+- "The RBI's own Inter-Departmental Group put dollar invoicing at about 86% of both India's exports and imports" — The article cites the RBI Inter-Departmental Group on Internationalisation of the INR, July 2023, but does not provide a direct quote or a verifiable source to confirm this specific figure [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The BRICS bloc also accounts for $226.1 billion of bilateral deficit — 67.8% of India's total merchandise trade deficit" — The article uses this figure to argue that settling trade in local currency would reduce dollar demand, but it does not consider that the deficit may be driven by factors other than the settlement currency, such as trade imbalances or commodity prices [confidence: high]
-- "Settling a deficit in local currency does not remove the obligation — it converts it into a rupee claim on India held by a foreign government" — The article correctly identifies the accounting identity problem, but may overstate the implications of this conversion, as it does not consider potential benefits of reduced dollar demand or increased sanctions resilience [confidence: medium]
+- "The prize is real but the usable share is a quarter of it. BRICS supplies 41.5% of India's imports ($321.8bn), but only $93.4bn can be settled in local currency on a self-financing basis" — The article concludes that only $93.4bn can be settled in local currency, but this interpretation assumes that the self-financing portion is the only viable option, ignoring potential alternatives for settling the remaining $228.5bn [confidence: high]
+- "The exchange-rate benefit is small. Even total success removes about 0.70% of daily USD/INR turnover, and it does not shrink the current account deficit at all" — The article interprets the removal of 0.70% of daily USD/INR turnover as a small benefit, but this conclusion may underestimate the potential impact of reducing dollar demand on the rupee's exchange rate and the overall economy [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh — but it is included here because the trade relationship is what matters to the model." — Saudi Arabia was officially admitted as a BRICS member in January 2023 (effective January 1, 2024), so the claim that its membership status is "formally ambiguous" is incorrect. [confidence: high]
+- "The Reserve Bank proposed, in January 2026, linking BRICS central bank digital currencies to make exactly this cheaper." — The RBI's proposal to link BRICS central bank digital currencies was made in **January 2026**, but the article later cites the RBI's proposal as being on the **2026 summit agenda**, which is inconsistent with the January timing. The claim implies the proposal was made in January, but the summit agenda reference suggests it was proposed earlier or is pending. [confidence: high]
 
-- "The Reserve Bank proposed, in January 2026, linking BRICS central bank digital currencies to make exactly this cheaper." — The RBI's proposal for linking BRICS CBDCs was made in **January 2024**, not 2026. The article incorrectly states the year. [confidence: high]
+- "Saudi Arabia's BRICS membership status is formally ambiguous — invited in 2023, listed by BRICS chairs, never unambiguously confirmed by Riyadh — but it is included here because the trade relationship is what matters to the model." — The article claims Saudi Arabia was invited to BRICS in **2023**, but BRICS officially announced the expansion including Saudi Arabia, Iran, Ethiopia, Egypt, and UAE in **August 2023**, with membership effective from January 2024. The 2023 invitation is correct, but the phrasing implies ambiguity persists, which is misleading as membership was confirmed by early 2024. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Local-currency settlement of a trade deficit is not de-dollarisation. It is vendor financing, and someone has to agree to extend it." — While the claim itself is factually correct, the article uses this to argue that full de-dollarization (Scenario S3) is unsustainable due to the need for counterparties to hold rupees. However, this interpretation conflates *de-dollarization* (reducing reliance on the dollar) with *settlement currency* (the currency used for invoicing). The article does not adequately distinguish between reducing dollar *invoicing* (which could still involve holding rupees) and reducing dollar *demand* (which requires counterparties to hold rupees). The reasoning gap is that the article assumes that any local-currency settlement of a deficit inherently fails to reduce dollar dependence, ignoring that even if counterparties hold rupees, the *initial dollar demand* for trade settlement is reduced. [confidence: medium]
+- "Local-currency settlement of a trade deficit is not de-dollarisation. It is vendor financing, and someone has to agree to extend it." — The article correctly identifies that settling a trade deficit in local currency does not reduce dollar demand but instead creates a capital inflow (rupee claims). However, it frames this as a failure of de-dollarization, implying that any local-currency settlement of deficits is inherently unsustainable or undesirable. This overlooks that **partial de-dollarization** (e.g., Scenario S2) can still reduce dollar exposure in balanced trade flows, even if deficits require financing. The interpretation conflates **full de-dollarization** (impossible without balanced trade) with **partial de-dollarization** (achievable and beneficial). [confidence: high]
 
-- "Scenario S3 — Full BRICS import settlement | $321.8bn | 41.5% | Partners must absorb $228.5bn of rupee claims every year." — The article argues that Scenario S3 is unsustainable because it would require counterparties to hold large rupee claims, but it does not consider that these claims could be recycled or invested in Indian assets (e.g., bonds, FDI), which would still reduce immediate dollar demand for trade settlement. The interpretation error is that the article treats the accumulation of rupee claims as inherently problematic without acknowledging that such claims could be part of India's capital account inflows, thereby still achieving partial de-dollarization. [confidence: medium]
+- "The exchange-rate benefit is small. Even total success removes about 0.70% of daily USD/INR turnover, and it does not shrink the current account deficit at all." — The article correctly notes that local-currency settlement does not reduce the current account deficit, but it understates the **potential exchange-rate benefits** by focusing solely on turnover reduction. While the immediate impact on the rupee's level may be small, the **volatility reduction** from lower forced conversions and smaller RBI intervention could indirectly stabilize the exchange rate over time. The interpretation treats the absence of a direct level effect as proof of no benefit, ignoring secondary stabilization effects. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

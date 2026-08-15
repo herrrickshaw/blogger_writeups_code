@@ -16,19 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99356, Requested 8473. Please try again in 1h52m44.256s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99129, Requested 8653. Please try again in 1h52m3.648s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in effect, making this claim unverifiable. [confidence: high]
+- "Total crude incl. SPR 58% of peak 711.8 M bbl all US crude · peak 1,227.7M (2017-03)" — The peak value of 1,227.7M barrels for total US crude (including SPR) in March 2017 is incorrect. Historical EIA data shows the peak was closer to 1,000M barrels (e.g., around 990M barrels in 2017). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the claim about grade mismatch is plausible, the article does not provide sufficient evidence or data to conclusively demonstrate that the trade deficit is *solely* due to grade mismatches. The interpretation assumes causation without addressing other potential factors (e.g., refining capacity constraints, policy restrictions, or market dynamics). [confidence: medium]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavier crude due to refinery configurations, the claim that this explains the entire net import deficit of $46.5 billion is an oversimplification. The grade mismatch is a contributing factor, but other factors like domestic demand, production costs, and global price differentials also play significant roles. The article does not provide evidence to support that the grade mismatch is the primary driver of the net import deficit. [confidence: medium]
 
-- "US crude exports sells 100.3 $bn" and "US crude imports buys 146.8 $bn" — The article presents these figures as absolute values but does not clarify whether they are nominal or inflation-adjusted, nor does it provide context on how these values were derived (e.g., whether they account for volume changes or price fluctuations). This lack of clarity could lead to misinterpretation of the trade balance. [confidence: medium]
+- "US crude exports sells 100.3 $bn HS 2709 · 2025 US crude imports buys 146.8 $bn HS 2709 · 2025 Net crude position deficit -46.5 $bn still a net crude importer" — The article uses trade values in dollars to conclude the US is a net crude importer, but this ignores the fact that trade values are influenced by price fluctuations. A more accurate measure would be volume (barrels), as the US could be exporting higher-value light crude and importing lower-value heavy crude, skewing the dollar-based net position. The article does not address this price-volume discrepancy. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

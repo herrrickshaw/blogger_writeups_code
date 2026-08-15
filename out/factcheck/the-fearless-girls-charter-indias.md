@@ -16,15 +16,25 @@ Source: `posts/the-fearless-girls-charter-indias.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99087, Requested 991. Please try again in 1m7.391999999s. Need more tokens? Upgrade to Dev Tier today at h]
+FACTUAL ERRORS:
+- "New York Stock Exchange, 1909" — The image is described as being from 1909, but without more context, it's unclear if this is an error. However, the New York Stock Exchange was founded in 1792 under the Buttonwood Agreement, so stating it as "New York Stock Exchange, 1909" might be misleading or inaccurate in the context of its founding [confidence: medium].
+- "roll back the 2024 hikes — STCG at 20%, LTCG at 12.5%" — Without access to current tax rates or the specific 2024 hikes mentioned, it's difficult to verify the accuracy of these tax rates [confidence: low].
+
+INTERPRETATION ERRORS:
+- "Ease the long-term capital gains bite and roll back the 2024 hikes — STCG at 20%, LTCG at 12.5%. Reward those who stay invested instead of penalising them" — The claim implies that reducing long-term capital gains tax will reward patient investors. However, it doesn't account for the potential impact on government revenue or the possibility that such tax cuts might primarily benefit wealthy investors rather than the average retail saver [confidence: medium].
+- "Take the optional T+0 beta to scale — move the whole market toward same-day, then instant settlement, safely freeing up capital that sits idle in the pipes" — The article suggests that moving towards instant settlement will free up capital, but it doesn't consider potential operational, security, or liquidity risks associated with such a rapid transition [confidence: medium].
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "STCG at 20%, LTCG at 12.5%" — The current long-term capital gains (LTCG) tax rate for equity in India is 10% (for gains above ₹1 lakh), not 12.5%, and short-term capital gains (STCG) tax is 15%, not 20%. The 2024 budget did not change these rates. [confidence: high]
+- "STCG at 20%, LTCG at 12.5%" — These tax rates are incorrect for India as of 2024. The current STCG tax rate for equities is 15% (for holdings <12 months), and LTCG tax rate is 10% (for holdings >12 months) on gains exceeding ₹1 lakh. The article likely conflates these with other jurisdictions or outdated rates. [confidence: high]
+
+- "FPI net settlement on schedule" — The article does not specify a schedule or deadline for FPI net settlement, making this claim unverifiable. Without a concrete date or reference to an official policy timeline, this cannot be fact-checked. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Carry the 2026 expense-ratio reset all the way through — unbundled, comparable fund fees and tighter brokerage caps, so nothing hides in the fine print." — The claim implies that a 2026 expense-ratio reset is a confirmed policy or regulatory action, but there is no evidence in the article or public records that such a reset is planned or scheduled for 2026. The reasoning gap is the assumption of an impending policy change without verification. [confidence: medium]
+- "Reward those who stay invested instead of penalising them" — The claim implies a causal link between LTCG/STCG tax rates and investor behavior (e.g., discouraging long-term investment), but the tax rates alone do not necessarily determine investment horizons. Other factors (e.g., market conditions, risk appetite) play a role, and the article does not provide evidence to support this causal claim. [confidence: high]
+
+- "Cut the funding cost and friction on the capital India needs" — The claim assumes that easing FPI net settlement, AIF rules, and IPO disclosure will directly reduce funding costs and friction for Indian capital markets. However, the relationship between these reforms and funding costs is not explicitly demonstrated, and other variables (e.g., global liquidity, domestic macroeconomic conditions) may also influence funding costs. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

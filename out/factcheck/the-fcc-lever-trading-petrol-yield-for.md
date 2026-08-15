@@ -16,7 +16,7 @@ Source: `posts/the-fcc-lever-trading-petrol-yield-for.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99096, Requested 5059. Please try again in 59m49.919999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98816, Requested 5059. Please try again in 55m48s. Need more tokens? Upgrade to Dev Tier today at https://]
 
 ## Mistral mistral-small-latest
 
@@ -24,7 +24,7 @@ FACTUAL ERRORS:
 - "ONGC Board gave in-principle approval, July 2026" — The date is incorrect; the approval was given in July 2023, not 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the FCC-yield lever is real, technically well-documented, and moderate by design — the paper's own recommendation is 7.5–13.1% reactor C3 yield, not a maximalist redesign" — While the technical paper recommends a moderate yield increase, the article does not adequately address whether this moderate shift would meaningfully reduce India's LPG import bill. The claim implies a direct causal link between the FCC modification and LPG import substitution, but the actual impact depends on allocation choices (LPG vs. petrochemical feedstock) and market dynamics, which are not resolved in the article. [confidence: high]
+- "redirect that freed-up FCC (fluid catalytic cracking) capacity toward LPG instead of more petrol... directly addressing India's import-heavy cooking-gas supply" — The claim implies a direct causal link between FCC yield shifts and reduced LPG imports, but the article itself notes that refiners could allocate the incremental C3/C4 to petrochemical production instead of LPG cylinders, meaning the LPG-import-substitution goal is not guaranteed. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

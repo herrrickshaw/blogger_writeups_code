@@ -16,15 +16,15 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99056, Requested 1530. Please try again in 8m26.304s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99971, Requested 1852. Please try again in 26m15.072s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and incorrect. [confidence: high]
+- "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "generated from the same list that renders the reading blocks on every article, so the two cannot disagree" — This claim assumes that the list used for affiliate links is identical to the one rendered in reading blocks, which may not account for potential discrepancies in updates, deletions, or additions between the two sources. The statement implies a guarantee of consistency that cannot be verified from the given text alone. [confidence: medium]
+- "Every link is an affiliate link — as an Amazon Associate, this site earns from qualifying purchases — and nothing here was supplied free or sponsored; each item was chosen by the author." — While the claim about affiliate links and editorial independence may be factually correct, it does not address potential biases in selection (e.g., whether the author’s choices are influenced by commercial incentives beyond affiliate earnings). The interpretation implies full transparency, but the reasoning gap lies in assuming that editorial independence is absolute without addressing conflicts of interest. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

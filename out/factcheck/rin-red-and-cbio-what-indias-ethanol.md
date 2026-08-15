@@ -16,19 +16,19 @@ Source: `posts/rin-red-and-cbio-what-indias-ethanol.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99222, Requested 4577. Please try again in 54m42.336s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98995, Requested 4577. Please try again in 51m26.208s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026" — The revision date is incorrect as the article was first published on 13 August 2026 (v1.0.0) and revised to v1.1.0 on the same day, which is not possible. [confidence: high]
+- "₹75.36 per tCO₂e, EU CBAM's first quarterly certificate price, April 2026" — The EU CBAM's first quarterly certificate price was actually €75.36 per tCO₂e, not ₹75.36. The article incorrectly converts the price to Indian Rupees without justification or source. [confidence: high]
 
-- "₹75.36 per tCO₂e, EU CBAM's first quarterly certificate price, April 2026" — The EU CBAM's first quarterly certificate price was actually €75.36 per tCO₂e, not ₹75.36. The article mixes currencies without clarification. [confidence: high]
+- "13 August 2026" (publication date) — The article mentions "Revised 13 August 2026" and "v1.1.0 · what changed," but the revision history at the end states "v1.1.0 — 13 August 2026," which is inconsistent with the claim that the revision was made on the same date as publication (v1.0.0 is also dated 13 August 2026). This suggests a possible error in versioning or dating. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "ethanol isn't on India's own Article 6.2 list" — The claim is factually correct, but the interpretation that this is a "policy gap" is misleading. The exclusion of ethanol from the Article 6.2 list does not necessarily indicate a policy gap; it may reflect deliberate prioritization or other strategic considerations by policymakers. The article assumes that ethanol *should* be included without sufficient evidence that its exclusion is an error or oversight. [confidence: medium]
+- "ethanol isn't one [of the 13 activities on India's Article 6.2 eligible list]" — The article correctly states that ethanol is not on India's Article 6.2 eligible list, but then claims this is a "real gap" without acknowledging that the list is subject to revision and that the three-year window from the original notification (17 February 2023) has technically elapsed. The claim implies a settled gap, but the caveat later notes it is an "open question." The reasoning gap is that the article treats the exclusion as a definitive barrier rather than a potential policy variable. [confidence: high]
 
-- "A CBIO-style, exchange-traded, per-tonne instrument is a carbon price in the way CCTS credits currently are not" — While CBIOs are exchange-traded and per-tonne, they are not a carbon price in the economic sense (e.g., a tax or cap-and-trade allowance). They are tradable compliance instruments, but their price is determined by market dynamics, not a government-imposed price signal. The article conflates the two concepts. [confidence: high]
+- "A CBIO-style, exchange-traded, per-tonne instrument is a carbon price in the way CCTS credits currently are not" — The article asserts that CBIOs are a carbon price while CCTS credits are not, but this oversimplifies the distinction. CCTS issues tradable credits, which can function similarly to a carbon price in some contexts (e.g., compliance markets), even if they are not a direct tax or fee. The claim conflates "carbon price" (a monetary value on carbon) with "carbon pricing mechanism" (a system to price carbon), creating a false dichotomy. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

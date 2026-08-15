@@ -16,19 +16,21 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99502, Requested 4914. Please try again in 1h3m35.424s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 5094. Please try again in 1h3m49.248s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Textile Import-Export Strategy" — The article title suggests a focus on India's textile sector, but the analysis primarily examines chemical feedstocks (HSN Chapters 29 and 39) rather than textile-specific trade data. The claim that these two chapters account for 63% of India's chemical-feedstock import bill for textiles is unverifiable as presented, since the article does not provide a source or breakdown for this percentage. [confidence: medium]
+- "India's Textile Import-Export Strategy" — The article title is not a factual claim but a framing device; however, the claim that "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles" is presented as a key finding. The article does not provide a source or methodology to verify this 63% figure, and it is not a standard or widely recognized statistic in official trade data (e.g., DGCIS or UN Comtrade). [confidence: medium]
 
-- "$20.5B Annual Feedstock Deficit" — The article repeatedly references a "$20.5B" figure (e.g., in the title and section headers), but this number does not appear in the detailed data tables or analysis. The actual combined deficit for Chapters 29 and 39 in FY25 is approximately $12.5B ($6.5B + $14.0B), not $20.5B. [confidence: high]
+- "IOCL Board, December 2024" — The article states that the IOCL Bhadrak project was approved by the IOCL Board in December 2024. However, as of the publication date of this analysis (June 2025), there is no publicly verifiable confirmation of this board approval from official IOCL sources or regulatory filings. The project is listed as "Funded & committed (50:50 JV with MCPI)" but lacks a primary source citation for the December 2024 approval date. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "Polymer imports grew +66% in 4 years while exports stalled, widening gap from $6.4bn to $14.0bn." — The claim implies a causal link between import growth and export stagnation, but the data only shows a correlation. The article does not provide evidence that import growth *caused* export stagnation or that reducing imports would reverse this trend. The widening deficit could be due to other factors (e.g., global demand shifts, domestic capacity constraints unrelated to imports). [confidence: medium]
+- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article uses the plateau in polymer imports at $22.1 billion in FY25 as evidence of "supplier lock-in" and a closing window for domestic capex. However, a stabilization in import values could reflect a range of factors (e.g., demand saturation, price stabilization, inventory adjustments, or temporary supply chain normalization) and does not necessarily indicate supplier lock-in or a narrowing window for domestic investment. The causal link between import stabilization and supplier lock-in is not supported by the data presented. [confidence: high]
 
-- "5.2 MMTPA capacity addition vs 1.4 MMTPA demand growth = 3.8 MMTPA surplus available for export + quality improvement" — The article assumes that the additional capacity will directly translate into exportable surplus or quality improvements without addressing potential bottlenecks (e.g., feedstock availability, infrastructure constraints, or global market competition). The surplus calculation also does not account for the fact that some of the new capacity may be used to replace imports rather than create new exports. [confidence: high]
+- "Capacity addition (+5.2 MMTPA FY26-30) does NOT cannibalize fuel production" — The article claims that adding 5.2 MMTPA of petrochemical capacity will not cannibalize fuel production because utilization is near 100%. However, this ignores the fact that refinery operations are highly integrated: adding petrochemical crackers typically requires diverting a portion of naphtha or other refinery intermediates from fuel production, especially when refineries are running at or near capacity. The claim assumes no trade-off between fuel and petrochemical feedstocks, which is inconsistent with refinery economics and operational constraints. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

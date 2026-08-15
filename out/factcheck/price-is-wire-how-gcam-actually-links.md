@@ -16,19 +16,19 @@ Source: `posts/price-is-wire-how-gcam-actually-links.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99337, Requested 5683. Please try again in 1h12m17.279999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99108, Requested 5652. Please try again in 1h8m32.64s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 13 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — The UN World Population Prospects (2022) projects India's population to peak around 2060 and decline only slightly by 2100, not as sharply as described. The CAGR values are inconsistent with UN projections. [confidence: high]
+- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — The UN World Population Prospects (2022) projects India's population to peak around 2060 and decline thereafter, but the specific CAGR values (0.64% and −0.25%) are not standard figures and cannot be verified against widely cited projections. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND assumes perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may not reflect real-world decision-making, and the efficiency of pathways depends on the validity of the assumption itself. [confidence: high]
+- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND may use perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may produce unrealistic policy pathways, and the efficiency claim conflates internal model consistency with real-world applicability. [confidence: high]
 
-- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — This implies that GDP growth is purely an exogenous assumption, but it does not acknowledge that GDP growth itself can be influenced by energy and climate policies in the model (e.g., through feedback loops). The statement oversimplifies the relationship between GDP and energy pathways. [confidence: medium]
+- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — While the claim about GDP inputs affecting outcomes is correct, the phrasing implies that GDP growth is entirely exogenous and uninfluenced by the model's internal dynamics, which oversimplifies the feedback between energy systems, economic growth, and policy. The model's structure may still allow for some endogenous adjustments, even if limited. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,29 +9,32 @@ Source: `posts/india-mineral-oil-hsn-ch27-trade.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini network error: The read operation timed out]
+[Gemini API error 429: {
+  "error": {
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The article does not provide a source to verify this specific claim, and without access to the most current data from the DGCI&S or TRADESTAT, it's difficult to confirm the accuracy of this figure [confidence: medium].
-- None found for other factual errors, as most numbers and dates seem to be properly referenced to sources like DGCI&S, TRADESTAT, and PPAC Ready Reckoner.
+- "121.1 MMT Crude imported (FY25-26 H1)" — This claim cannot be verified against publicly available data as of my knowledge cutoff, and the article itself mentions that the data is provisional and based on half-year columns. [confidence: medium]
+- None found for other factual errors.
 
 INTERPRETATION ERRORS:
-- "The landed-cost stack a trader must build before quoting. Duty rates change by notification — verify on CBIC/ICEGATE before costing a real cargo." — This statement might imply that traders solely rely on the landed-cost stack for pricing, which could overlook other factors like market demand, competition, and profit margins [confidence: medium].
-- "India imports crude & LPG (deficit products) and exports refined petrol/diesel/naphtha/ATF — the classic refining-hub pattern." — This statement might oversimplify the complexity of India's mineral-oil trade by not fully accounting for variations in import/export patterns due to factors like global market fluctuations, domestic demand, and policy changes [confidence: medium].
+- "The landed-cost stack a trader must build before quoting. Duty rates change by notification — verify on CBIC/ICEGATE before costing a real cargo." — This statement implies that traders can easily verify duty rates, but it does not account for potential complexities or nuances in the verification process, such as changes in notification or varying interpretations of the rules. [confidence: medium]
+- None found for other interpretation errors.
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The claim states "FY25-26 H1" (first half of fiscal year 2025-26), but the data source (PPAC Ready Reckoner) is for FY2025-26 H1, which would be April-September 2024 (since India's fiscal year runs April-March). The claim incorrectly labels the period as FY25-26 H1 when it should be FY24-25 H1. [confidence: high]
+- "121.1 MMT Crude imported (FY25-26 H1)" — The claim is unverifiable as FY25-26 H1 data is provisional and not yet finalized in official sources like PPAC or DGCI&S. The article itself notes FY25-26 is provisional in the caveats section. [confidence: high]
 
-- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The claim states FY25-26 imports, but the article later clarifies that FY2025-26 data is provisional and based on H1 (half-year) figures. Using H1 data to project full-year imports is unreliable without explicit methodology or adjustment. The claim presents the H1 figure as a full-year estimate without qualification. [confidence: high]
+- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The 26.2% share is likely incorrect because Chapter 27 includes coal, LNG, and electricity alongside petroleum, which are not part of "all imports" in standard trade statistics. The share calculation appears to double-count or misclassify these non-petroleum items. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "80 : 20 Trade Parity Price = IPP : EPP weight" — The claim states that the Trade Parity Price (TPP) formula uses an 80:20 weight between Import Parity Price (IPP) and Export Parity Price (EPP). However, the article later defines TPP as "TPP = 0.80 × IPP + 0.20 × EPP," which is mathematically correct. The interpretation error lies in implying that this ratio is a fixed or universally accepted standard, when in fact it is a policy-derived formula (from the Rangarajan Committee and Expert Group) that could change. The article does not clarify that this is a policy-specific formula, not an economic or market-determined ratio. [confidence: high]
+- "80 : 20 Trade Parity Price = IPP : EPP weight" — The claim implies a direct causal relationship between the 80:20 ratio and the Trade Parity Price (TPP) formula, but the TPP formula (TPP = 0.80 × IPP + 0.20 × EPP) is a pricing mechanism for sensitive products (MS, HSD), not a trade balance metric. The 80:20 ratio is not a trade parity weight but a pricing weight, and conflating the two misrepresents the purpose of the formula. [confidence: high]
 
-- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The claim suggests that the pricing of natural gas (APM gas) is directly anchored to the Indian crude basket via the Kirit Parikh formula, implying a causal link where gas prices are set based on crude prices. However, the Kirit Parikh Committee (2023) actually recommends a formula where gas prices are linked to a domestic gas price index (not directly to crude), with a floor and ceiling, and a separate cap for "difficult fields." The article oversimplifies the relationship by stating that "one crude commodity anchors crude, LPG, MS, HSD and gas," which conflates the pricing mechanisms for different energy commodities. Gas pricing is not directly tied to crude oil prices in the same way as petroleum products like MS or HSD. [confidence: high]
+- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The claim suggests a single crude commodity price (Indian basket) directly anchors the pricing of gas, LPG, MS, and HSD, but this ignores the distinct pricing mechanisms for each product (e.g., LPG uses Saudi Aramco CP, gas uses APM with its own formula). The "one crude commodity anchors" phrasing implies an oversimplified causal link that does not reflect the actual multi-benchmark pricing structure. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

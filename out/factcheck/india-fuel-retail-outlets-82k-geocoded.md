@@ -9,13 +9,17 @@ Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini network error: The read operation timed out]
+FACTUAL ERRORS:
+none found
+
+INTERPRETATION ERRORS:
+none found
 
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "82,000 outlets" — The claim is stated as approximate and the source, count basis, and as-of date are not provided, which makes it difficult to verify the accuracy of the figure. [confidence: medium]
-- "7MB" — The size of the heavy map is stated, but without further context or verification, it's unclear if this is an exact or approximate figure. [confidence: low]
+- "India fuel retail outlets — 82,000 outlets, geocoded" — The claim is stated as approximate and the source, count basis, and as-of date are not provided, which makes it difficult to verify the accuracy of the figure. [confidence: medium]
+- "The national retail-outlet register with coordinates: OMC (oil marketing company) petrol pumps and CNG supply linkage across the country" — The register source is not stated, which makes it impossible to verify the claim. [confidence: medium]
 
 INTERPRETATION ERRORS:
 - none found
@@ -23,10 +27,10 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India fuel retail outlets — 82,000 outlets" — The article itself notes that the register source, count basis, and as-of date are not stated, and the figure is treated as approximate. However, the claim is presented as a definitive number without qualification, which could mislead readers into treating it as exact. [confidence: high]
+- "India fuel retail outlets — 82,000 outlets" — The article itself acknowledges that the source, count basis, and as-of date for the 82,000 figure are not stated, making it unverifiable. The claim is presented as a definitive number without proper citation or context. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer acknowledges the lack of citations for some datasets, it does not address the potential for double-counting or inconsistencies in the outlet register data (e.g., overlapping OMC petrol pumps and CNG supply linkages). The absence of this clarification could lead readers to assume the 82,000 figure is a clean, non-duplicative count, which may not be the case. [confidence: medium]
+- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer notes the lack of individual citations, the article presents the 82,000 figure as a concrete claim without clarifying its approximate or provisional nature. This creates an interpretation gap where readers may treat the figure as exact despite the author's own caveat. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
