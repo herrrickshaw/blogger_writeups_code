@@ -5168,3 +5168,21 @@ scheduled sync
 - `india-grows-soybean-exports-meal-leads` — 28,519 → 30,717 bytes (+2,198)
 - `chemical-import-substitution-full-hsn-8_01082878313` — 383,766 → 383,924 bytes (+158)
 - `top-15-chemicals-for-import` — 82,215 → 82,356 bytes (+141)
+
+## 2026-08-15T11:50:15+05:30 — 162 posts live
+
+**Added**
+
+- `tarpaulin-is-genuine-export-win` **v1.0.0** — Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story (17,909 bytes)
+
+**Versions**
+
+- `airbags-and-seat-belts-are-import-heavy` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+6/-0 distinct numbers)
+- `from-fuel-to-fibre-indias-textile` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **24.2.2 → 24.2.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `airbags-and-seat-belts-are-import-heavy` — 24,611 → 25,442 bytes (+831)
+- `from-fuel-to-fibre-indias-textile` — 33,948 → 34,498 bytes (+550)
+- `article-index-start-here` — 203,009 → 204,540 bytes (+1,531)

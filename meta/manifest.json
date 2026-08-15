@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-15T11:29:02+05:30",
-  "count": 161,
+  "snapshot": "2026-08-15T11:50:15+05:30",
+  "count": 162,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -11509,15 +11509,15 @@
       "title": "Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story",
       "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
       "slug": "airbags-and-seat-belts-are-import-heavy",
-      "published": "2026-08-15T11:27:49.522+05:30",
-      "updated": "2026-08-15T11:28:02.668+05:30",
+      "published": "2026-08-15T11:27:49.000+05:30",
+      "updated": "2026-08-15T11:33:51.766+05:30",
       "labels": [
         "Automotive & Manufacturing",
         "India Trade & Policy",
         "Textiles"
       ],
-      "bytes": 24611,
-      "sha256": "7fa1ed714811c8f46982af39723933381051e5f818d9c79f35cd648f683b8140",
+      "bytes": 25442,
+      "sha256": "6af9697f2723c0a15e48e827c6f199222db3a3c226ad5c91b4f3c72410b5ca26",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11529,13 +11529,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-15T11:29:02+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-15T11:50:15+05:30",
+          "level": "major",
+          "reason": "figures changed (+6/-0 distinct numbers)",
+          "bytes": [
+            24611,
+            25442
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -13956,10 +13969,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-15T08:14:00.950+05:30",
+      "updated": "2026-08-15T11:29:42.434+05:30",
       "labels": [],
-      "bytes": 203009,
-      "sha256": "7eb965f7bcb0a69e25e95c35c906f17cf0f11f6fc7f10cde88854acbbfcdcac1",
+      "bytes": 204540,
+      "sha256": "eba6cbc68f12875904a8eedd169078386d45f56446e394162cb16d71a63af68a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13971,7 +13984,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.2.2",
+      "version": "24.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14642,6 +14655,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "24.2.3",
+          "date": "2026-08-15T11:50:15+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            203009,
+            204540
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -19023,14 +19049,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
       "slug": "from-fuel-to-fibre-indias-textile",
       "published": "2026-08-03T09:12:32.000+05:30",
-      "updated": "2026-08-13T19:42:20.985+05:30",
+      "updated": "2026-08-15T11:34:01.687+05:30",
       "labels": [
         "Import Substitution",
         "Textiles",
         "Trade & Tariffs"
       ],
-      "bytes": 33948,
-      "sha256": "602a7163f2c4871a4b7b10cb0b52bc62189df7a7b3f3e2741b53f61eef4947b7",
+      "bytes": 34498,
+      "sha256": "5c464aa3575dd462ff9f15ce7f7af962c25450c2283ecc135e89754a3b84e75a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19042,7 +19068,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19141,6 +19167,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-15T11:50:15+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            33948,
+            34498
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -20018,6 +20057,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        }
+      ]
+    },
+    "8512329038244256942": {
+      "id": "8512329038244256942",
+      "title": "Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html",
+      "slug": "tarpaulin-is-genuine-export-win",
+      "published": "2026-08-15T11:49:15.096+05:30",
+      "updated": "2026-08-15T11:49:30.636+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "India Trade & Policy",
+        "Textiles"
+      ],
+      "bytes": 17909,
+      "sha256": "8f677beafd18f437d7299c0e6d5912c51ee52557881af623feeaa9d6727f58ef",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-15T11:50:15+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
         }
       ]
     },
