@@ -5287,3 +5287,13 @@ scheduled sync
 **Changed**
 
 - `guar-gum-indias-35-billion-export-peak` — 25,676 → 27,045 bytes (+1,369)
+
+## 2026-08-16T12:28:49+05:30 — 165 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.1.8 → 7.1.9** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 45,957 → 46,803 bytes (+846)
