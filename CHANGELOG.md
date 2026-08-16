@@ -5207,11 +5207,10 @@ scheduled sync
 - `indias-tyre-waste-problem-and-crumb` — 12,702 → 13,242 bytes (+540)
 - `article-index-start-here` — 204,540 → 205,478 bytes (+938)
 
-## 2026-08-16T11:01:33+05:30 — 164 posts live
+## 2026-08-16T03:30:08+00:00 — 163 posts live
 
-**Added**
+scheduled sync
 
-- `basf-and-mitsubishi-are-running` **v1.0.0** — BASF and Mitsubishi Are Running Separate Rice-Carbon Programmes in India, Not One Partnership (19,811 bytes)
 
 **Versions**
 

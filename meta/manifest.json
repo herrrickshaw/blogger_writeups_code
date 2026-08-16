@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-16T11:01:33+05:30",
-  "count": 164,
+  "snapshot": "2026-08-16T03:30:08+00:00",
+  "count": 163,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -941,7 +941,7 @@
         },
         {
           "version": "1.0.8",
-          "date": "2026-08-16T11:01:33+05:30",
+          "date": "2026-08-16T03:30:08+00:00",
           "level": "patch",
           "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
           "bytes": [
@@ -950,7 +950,7 @@
           ],
           "url_changed": null,
           "markers_changed": null,
-          "note": ""
+          "note": "scheduled sync"
         }
       ]
     },
@@ -2716,7 +2716,7 @@
         },
         {
           "version": "7.1.7",
-          "date": "2026-08-16T11:01:33+05:30",
+          "date": "2026-08-16T03:30:08+00:00",
           "level": "patch",
           "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
           "bytes": [
@@ -2725,7 +2725,7 @@
           ],
           "url_changed": null,
           "markers_changed": null,
-          "note": ""
+          "note": "scheduled sync"
         }
       ]
     },
@@ -11744,7 +11744,7 @@
         },
         {
           "version": "1.2.4",
-          "date": "2026-08-16T11:01:33+05:30",
+          "date": "2026-08-16T03:30:08+00:00",
           "level": "patch",
           "reason": "visible text identical; only markup/styling changed",
           "bytes": [
@@ -11753,7 +11753,7 @@
           ],
           "url_changed": null,
           "markers_changed": null,
-          "note": ""
+          "note": "scheduled sync"
         }
       ]
     },
@@ -14749,7 +14749,7 @@
         },
         {
           "version": "24.2.5",
-          "date": "2026-08-16T11:01:33+05:30",
+          "date": "2026-08-16T03:30:08+00:00",
           "level": "patch",
           "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
           "bytes": [
@@ -14758,7 +14758,7 @@
           ],
           "url_changed": null,
           "markers_changed": null,
-          "note": ""
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17214,7 +17214,7 @@
         },
         {
           "version": "1.0.6",
-          "date": "2026-08-16T11:01:33+05:30",
+          "date": "2026-08-16T03:30:08+00:00",
           "level": "patch",
           "reason": "visible text identical; only markup/styling changed",
           "bytes": [
@@ -17223,7 +17223,7 @@
           ],
           "url_changed": null,
           "markers_changed": null,
-          "note": ""
+          "note": "scheduled sync"
         }
       ]
     },
@@ -18429,42 +18429,6 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
-        }
-      ]
-    },
-    "7866802904186623558": {
-      "id": "7866802904186623558",
-      "title": "BASF and Mitsubishi Are Running Separate Rice-Carbon Programmes in India, Not One Partnership",
-      "url": "https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html",
-      "slug": "basf-and-mitsubishi-are-running",
-      "published": "2026-08-16T11:00:30.275+05:30",
-      "updated": "2026-08-16T11:00:44.610+05:30",
-      "labels": [
-        "Agriculture & Fertilisers",
-        "Climate & Carbon",
-        "India Trade & Policy"
-      ],
-      "bytes": 19811,
-      "sha256": "dd209cd923591098119d334fde82c100725e79c7f52c68f72370ca3493b7e5b2",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-16T11:01:33+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": ""
         }
       ]
     },
