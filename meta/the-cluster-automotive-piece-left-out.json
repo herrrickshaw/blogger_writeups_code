@@ -3,13 +3,13 @@
   "title": "The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
-  "published": "2026-08-15T07:20:21.133+05:30",
-  "updated": "2026-08-15T07:20:33.598+05:30",
+  "published": "2026-08-15T07:20:21.000+05:30",
+  "updated": "2026-08-16T13:49:58.743+05:30",
   "labels": [
     "Manufacturing"
   ],
-  "bytes": 19390,
-  "sha256": "c0691ab775d96283e03c47adc128e31814b65dc14bf61f58f1d229e72c10ce17",
+  "bytes": 19918,
+  "sha256": "c5584193d47cae598522f85d3fd7b6dfa074d8c22c4db717c5dd8b619e552c86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-15T08:03:25+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        19390,
+        19918
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

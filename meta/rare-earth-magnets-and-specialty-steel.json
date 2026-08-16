@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-08-11T12:05:27.243+05:30",
+  "updated": "2026-08-16T14:00:15.103+05:30",
   "labels": [
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 10126,
-  "sha256": "e7f31b82cb94433812e098563f25f1d429bfe2067c861dcc60341066f7f93b56",
+  "bytes": 10655,
+  "sha256": "25e9a4470a88ed1c4c063d3120572c30c421ed0a20be69b97b4b813c8a189ebf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -90,6 +90,19 @@
           true
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        10126,
+        10655
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

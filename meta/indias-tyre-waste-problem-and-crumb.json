@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-08-16T07:26:21.870+05:30",
+  "updated": "2026-08-16T14:00:03.840+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 13242,
-  "sha256": "715b6c8d60ac55bc0de311ee1b687c05e8f17ff38e6ff827e5e35a3fec65e1e3",
+  "bytes": 13771,
+  "sha256": "830c78bc7792ebb2424515f7314d6753466aeb285764632da75e4305aa0aa62a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -99,6 +99,19 @@
       "bytes": [
         12702,
         13242
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        13242,
+        13771
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html",
   "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
   "published": "2026-08-12T20:02:46.000+05:30",
-  "updated": "2026-08-14T06:49:53.897+05:30",
+  "updated": "2026-08-16T13:51:20.683+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 28545,
-  "sha256": "93454a397d9955192cc97a3abe91ec7a772ed2bf7912809b6812908abe8128af",
+  "bytes": 29073,
+  "sha256": "e0f5fc7f2c3a792868c585426d235d112319bcd91ea3512b18d2e872c2bdd94c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.2.4",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28545,
+        29073
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

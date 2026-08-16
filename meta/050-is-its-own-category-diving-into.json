@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
   "slug": "050-is-its-own-category-diving-into",
   "published": "2026-08-11T15:32:23.000+05:30",
-  "updated": "2026-08-13T10:41:27.445+05:30",
+  "updated": "2026-08-16T13:51:54.022+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 17990,
-  "sha256": "04bf77a6cc7f389c2813d701e37e1c1d9e37c1457ed79846a2ed6b0789bb214d",
+  "bytes": 18518,
+  "sha256": "39f74dbe9320649e1e348ed68712e9acb18660abc48198b563630893cf7ab04d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        17990,
+        18518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

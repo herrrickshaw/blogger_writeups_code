@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-08-13T10:12:14.891+05:30",
+  "updated": "2026-08-16T13:54:03.784+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29242,
-  "sha256": "ef4c82b6a71f5367c725cff1bd7b66b46a030dc37dc694b128e8a95e3ff3862a",
+  "bytes": 29770,
+  "sha256": "fef1a7decaec5dbd614eb0a4ba191336fce44fed296d56a77b113541f56f8652",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29242,
+        29770
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

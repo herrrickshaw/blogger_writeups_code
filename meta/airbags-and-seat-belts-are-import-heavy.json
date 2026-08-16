@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
   "slug": "airbags-and-seat-belts-are-import-heavy",
   "published": "2026-08-15T11:27:49.000+05:30",
-  "updated": "2026-08-15T11:33:51.766+05:30",
+  "updated": "2026-08-16T13:49:51.982+05:30",
   "labels": [
     "Automotive & Manufacturing",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 25442,
-  "sha256": "6af9697f2723c0a15e48e827c6f199222db3a3c226ad5c91b4f3c72410b5ca26",
+  "bytes": 25970,
+  "sha256": "57a92d7a1ad387a4b5a449f4acf238e4025404ae4a71aa4a94d14deea0998f5d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "bytes": [
         24611,
         25442
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25442,
+        25970
       ],
       "url_changed": null,
       "markers_changed": null,

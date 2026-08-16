@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-08-14T12:19:32.630+05:30",
+  "updated": "2026-08-16T13:55:01.408+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 18838,
-  "sha256": "616fa848d683a66381787890f4e07f3bc1b80f938af1c46608510665d24842d4",
+  "bytes": 19366,
+  "sha256": "97467b6d3d691ee115710a6a17feedd09ce59a81ea670553a7c2f6d214bdc879",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "bytes": [
         18719,
         18838
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18838,
+        19366
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-08-13T19:43:16.907+05:30",
+  "updated": "2026-08-16T13:57:31.697+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 44971,
-  "sha256": "485db62e26a302d9ad78f8672361a6803047a1046b9d77757018a4d8403824de",
+  "bytes": 45499,
+  "sha256": "0b00afd641c8c062289d3b2388979c8c2b9ad40d3b19cb325ee692f527676867",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed 6 pre-existing tag-balance bugs found earlier this session: 4 duplicate stray </div> after chart <script> blocks, 2 missing/extra </p> around dynamically-inserted paragraphs"
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        44971,
+        45499
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

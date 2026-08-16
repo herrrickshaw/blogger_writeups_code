@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
   "slug": "fci-grain-flow-procurement-storage",
   "published": "2026-07-31T10:04:00.000+05:30",
-  "updated": "2026-08-14T12:20:51.585+05:30",
+  "updated": "2026-08-16T13:58:31.002+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 33827,
-  "sha256": "190f7d0e32b0e142d1e28f2fbcaac1a1a8b7258c136a95cfa1b11895125c31cc",
+  "bytes": 34355,
+  "sha256": "97960ac8f11bff1ee352795d03b8fb7f71cf384063250a60cca6f8e9e198741f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         33702,
         33827
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33827,
+        34355
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-08-13T21:43:55.123+05:30",
+  "updated": "2026-08-16T13:58:11.591+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 53265,
-  "sha256": "e66a77f9822c5287bcd2dfcf7052cef3a98f3dbc2c24d25731ea02a6fb15d1a6",
+  "bytes": 53793,
+  "sha256": "afc7e0c6522948608c357d98946366137e62cbb7019c1a4b4884afd260c37304",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -166,6 +166,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Site-audit fixes batch 1: chemical import substitution cluster (4 posts) — untagged retracted figures (FY30 savings, Tier1 .1bn, LDPE/Ethylene targets, Scenario Analysis), Cross-Validation table caveat, stray editorial bracket, capex reconciliation gap, Ministry name fix, pointer direction fix"
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        53265,
+        53793
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

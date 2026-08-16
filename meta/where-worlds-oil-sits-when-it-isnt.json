@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
   "slug": "where-worlds-oil-sits-when-it-isnt",
   "published": "2026-08-14T07:00:46.000+05:30",
-  "updated": "2026-08-14T07:14:59.155+05:30",
+  "updated": "2026-08-16T13:50:45.337+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 43233,
-  "sha256": "ded07be99da2938f55462b80d193d5135800c19dd61cf1fff45e50900110472d",
+  "bytes": 43761,
+  "sha256": "d88ba532ce12b2e8dea7ab9c3f390115eaac27256cf6fe51a283541d5862831b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        43233,
+        43761
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

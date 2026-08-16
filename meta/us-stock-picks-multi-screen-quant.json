@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-13T10:59:38.047+05:30",
+  "updated": "2026-08-16T13:59:13.984+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 32651,
-  "sha256": "fe434f61a54d25bc09a9b0f70e55327e052a767734332248de1b99a987b31981",
+  "bytes": 33179,
+  "sha256": "72a488c80de55dc0b509964b261832661d2c08b1cf783851bf1f879b9ea1b8d6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -138,6 +138,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32651,
+        33179
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

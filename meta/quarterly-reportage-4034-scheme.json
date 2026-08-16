@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-08-16T08:02:35.930+05:30",
+  "updated": "2026-08-16T13:55:34.238+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 539146,
-  "sha256": "95ec946fd50ff8dcdb09baee129bca5ed6f7b9f7372530f18c35e74783dde903",
+  "bytes": 539674,
+  "sha256": "7d333a355336baf2615d9f61946530fb92acbd6e94aceb5d64a0da4583ba31ca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -142,6 +142,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        539146,
+        539674
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

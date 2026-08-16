@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-08-13T20:39:34.176+05:30",
+  "updated": "2026-08-16T13:56:28.596+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 77920,
-  "sha256": "122373698c743993ea21c8da4222b92dc41b59b7ef98dbf8c7c1772a763d7e1c",
+  "bytes": 78448,
+  "sha256": "6e41a43e09431c97e21060580ec05adadfaf6eacd9c195b8e5190fb9a3856d16",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.7",
+  "version": "3.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed real contradiction found by full-site audit: Nature Versus Nurture Section 8.5 Low-scenario row mislabeled 13.7 instead of 18.0 mmscmd, causing verdict text to cite wrong 71% instead of the table's own correct 94%"
+    },
+    {
+      "version": "3.0.8",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        77920,
+        78448
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

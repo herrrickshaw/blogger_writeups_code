@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-08-13T21:49:39.211+05:30",
+  "updated": "2026-08-16T13:52:38.286+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 25244,
-  "sha256": "d9a7676a52832e07a14c046ef6680511b4390cab69de6ecc856b0e5e80391f11",
+  "bytes": 25772,
+  "sha256": "6bcaa5aa68d75fe1d2b11abd082f478f04d0ba608e31b299679a8c396625ac1b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
+    },
+    {
+      "version": "2.0.7",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25244,
+        25772
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

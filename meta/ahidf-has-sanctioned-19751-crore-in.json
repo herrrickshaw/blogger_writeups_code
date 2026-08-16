@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
   "slug": "ahidf-has-sanctioned-19751-crore-in",
   "published": "2026-08-10T08:41:50.000+05:30",
-  "updated": "2026-08-13T10:07:22.069+05:30",
+  "updated": "2026-08-16T13:52:21.047+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21735,
-  "sha256": "1875564f091a1614844cf96d6df44bfa7c0973b5d802bd3630a83372d5e74881",
+  "bytes": 22263,
+  "sha256": "8d99ef03c3eb6703f054294593640e3f1e24b37257b3871faa7314f8bacb1f97",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.7",
+  "version": "2.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "2.0.8",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21735,
+        22263
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

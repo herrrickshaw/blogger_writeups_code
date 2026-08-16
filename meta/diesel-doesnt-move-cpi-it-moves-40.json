@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.000+05:30",
-  "updated": "2026-08-13T10:08:42.738+05:30",
+  "updated": "2026-08-16T13:54:07.920+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 35027,
-  "sha256": "d08f3e4ede634313fc42f0fd599d8691e01c9922c0b144a71814de5f00f34759",
+  "bytes": 35555,
+  "sha256": "0ddb9ccc24315e9c2fc12d01d11b2490feeb62dc3ddeacd39e74b31b257c29a1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.9",
+  "version": "5.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "5.0.10",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35027,
+        35555
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-08-16T08:10:14.934+05:30",
+  "updated": "2026-08-16T13:53:26.281+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 21533,
-  "sha256": "bbbee5ceb5ebf2a9c73b93b674e57ddfbb039b10ea379e0b031749f3a0c98e2e",
+  "bytes": 22061,
+  "sha256": "ef1e6a660d5152266e24f72dd6133b90ea2dbc6fc255ae24cc3eab6115e97597",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21533,
+        22061
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

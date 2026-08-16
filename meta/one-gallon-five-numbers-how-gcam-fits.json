@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
   "slug": "one-gallon-five-numbers-how-gcam-fits",
   "published": "2026-08-13T11:20:44.000+05:30",
-  "updated": "2026-08-14T09:05:20.648+05:30",
+  "updated": "2026-08-16T13:50:52.487+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Climate Modeling"
   ],
-  "bytes": 25217,
-  "sha256": "975fa962f3f15c0354fc4e93acf3c0b907ac6356f5886198b2a5583ddf477947",
+  "bytes": 25745,
+  "sha256": "690c87abe24f075d874f166d3101615123f5dfad2bed6e253f1b3e12aefb2bea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25217,
+        25745
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

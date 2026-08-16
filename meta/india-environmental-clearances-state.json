@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T21:53:52.851+05:30",
+  "updated": "2026-08-16T13:59:41.471+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 14573,
-  "sha256": "2cfa2c10644fe66d6d755bebc7af08eacde67c9794c80f9c8ad460c4831acbff",
+  "bytes": 15101,
+  "sha256": "c659f5383dfd32af3470975a5e45962588ce1626aa6775c2ab5857010cb47dac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        14573,
+        15101
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

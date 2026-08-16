@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html",
   "slug": "indias-lock-imports-hit-19784-million",
   "published": "2026-08-11T10:03:48.000+05:30",
-  "updated": "2026-08-13T22:06:33.000+05:30",
+  "updated": "2026-08-16T13:52:14.479+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 23220,
-  "sha256": "8385eae1ce5da57c83c7a22cddfc776c983532424763cf73acb660f80e79bcf3",
+  "bytes": 23748,
+  "sha256": "3f4830764be10cccd4a5a0169aba30f36fbfafba79edbcd8fdf83e21d094d367",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23220,
+        23748
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

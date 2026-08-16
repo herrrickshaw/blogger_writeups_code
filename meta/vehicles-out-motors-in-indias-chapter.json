@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
   "slug": "vehicles-out-motors-in-indias-chapter",
   "published": "2026-08-05T12:06:45.000+05:30",
-  "updated": "2026-08-13T21:54:00.344+05:30",
+  "updated": "2026-08-16T14:00:19.695+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 10128,
-  "sha256": "c097de67f5908fa1d549895e7b04f3d555e3dc5131a3b9831e2dfc1fc9679534",
+  "bytes": 10657,
+  "sha256": "c9705cfe27aa4553545ae0f1dc34a0915fcb913a63e963b8fff112568af62b30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -90,6 +90,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        10128,
+        10657
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

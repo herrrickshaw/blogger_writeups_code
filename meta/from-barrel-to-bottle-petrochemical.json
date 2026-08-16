@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
   "slug": "from-barrel-to-bottle-petrochemical",
   "published": "2026-08-13T08:48:38.000+05:30",
-  "updated": "2026-08-14T06:35:03.731+05:30",
+  "updated": "2026-08-16T13:51:02.169+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 28671,
-  "sha256": "670a6b2dabad62df9faa9be5f717a53f5cdc0ec1b0b2ba5aa4cadaa942495b0a",
+  "bytes": 29199,
+  "sha256": "102add582067b46e59797952915372be6e301f1b7870f60e7b00139cc17b0ac0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.3",
+  "version": "1.2.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.2.4",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28671,
+        29199
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

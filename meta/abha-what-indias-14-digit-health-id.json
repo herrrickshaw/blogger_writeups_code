@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-08-13T10:07:09.214+05:30",
+  "updated": "2026-08-16T13:51:42.520+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 23188,
-  "sha256": "dcfe3db0a30457a459084252c487cc1c5e62e7c9d197c2181a2b7c0cc9fbab18",
+  "bytes": 23716,
+  "sha256": "e72d83a4182a5cd06323fbe5640b39a1cf7b76a85a63eb06434dfb253c9399e1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23188,
+        23716
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

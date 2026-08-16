@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-13T10:49:18.095+05:30",
+  "updated": "2026-08-16T13:59:18.299+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 35524,
-  "sha256": "d7ec372b6ddff0a11cc16cc466f0a8a497c086ff9bfc8bd42440e5f54e3adfa3",
+  "bytes": 36052,
+  "sha256": "d720b13c541f7218a842238025e654ba6a8e113ea40bcb5e48af38bcc538835b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.7",
+  "version": "2.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "2.0.8",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35524,
+        36052
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

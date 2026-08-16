@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-08-13T10:47:32.748+05:30",
+  "updated": "2026-08-16T13:57:23.422+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 39990,
-  "sha256": "f60e359263556ef86e08e3dd7f2683f9bf109e55412a70fffb1fa004cce0e6df",
+  "bytes": 40518,
+  "sha256": "cde13ab4e5bf3daf55bb18dc009dc29409fd6d23418a2f2469e7e29cda3b07ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -138,6 +138,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39990,
+        40518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

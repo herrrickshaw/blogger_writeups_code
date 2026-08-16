@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-13T10:45:17.020+05:30",
+  "updated": "2026-08-16T13:59:30.364+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 21926,
-  "sha256": "e12b01ae37d234bfa782f5c3f118a804b105523772594b3f44d46122c7fd5ac8",
+  "bytes": 22454,
+  "sha256": "6bc689dac05d901cc50b549c2d2f9f2fc4b7d505c54f86caa413d2e56e7c9337",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21926,
+        22454
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

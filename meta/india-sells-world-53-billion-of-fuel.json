@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-08-13T10:09:50.599+05:30",
+  "updated": "2026-08-16T13:53:41.445+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 29755,
-  "sha256": "dd3e924d2efeccc1d4a0fa517b43de5ae151cc7efc7aee263b93e0f96072b4b5",
+  "bytes": 30283,
+  "sha256": "130b0b077ccb170bfd81a0eeb89516a574fc61b3dba93f3f33217577fdc2fc4b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29755,
+        30283
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

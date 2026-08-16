@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-08-13T21:51:52.112+05:30",
+  "updated": "2026-08-16T14:00:11.933+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 10480,
-  "sha256": "856ea730eb0c05edb0390d92b9421e1d756e8f9af180bf89f8f46c29b8a9cca4",
+  "bytes": 11009,
+  "sha256": "623f682601780ddee7cbc9d5d0c2f8f82c4ab7ff76540fc9ae42a739a31a87e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -103,6 +103,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        10480,
+        11009
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

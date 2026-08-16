@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-08-13T22:05:15.266+05:30",
+  "updated": "2026-08-16T13:53:08.694+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 24053,
-  "sha256": "190604ae7fc38e83ac927d2ec9260e254409ca629ecf9539ac179d8851b1c8d8",
+  "bytes": 24581,
+  "sha256": "8d8fdd0883404fc8cd0284bb692f1419cc64ac0231181401ee94c09d7e28f7aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24053,
+        24581
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

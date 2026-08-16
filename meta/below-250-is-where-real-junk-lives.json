@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
   "slug": "below-250-is-where-real-junk-lives",
   "published": "2026-08-11T15:22:00.000+05:30",
-  "updated": "2026-08-13T10:42:23.514+05:30",
+  "updated": "2026-08-16T13:51:58.144+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 18355,
-  "sha256": "d4410c82163718f3a1c33e4eaa2d5c0d8c730fcb1e77561236f5ba9d06cb3aed",
+  "bytes": 18883,
+  "sha256": "be4e649b8adf975b23fb794b98203fd52359fd763e844665a2307fb1b32c78cc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        18355,
+        18883
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

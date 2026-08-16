@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
   "slug": "half-of-indias-import-bill-is",
   "published": "2026-08-03T17:03:34.000+05:30",
-  "updated": "2026-08-14T12:18:56.861+05:30",
+  "updated": "2026-08-16T13:56:00.417+05:30",
   "labels": [
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 23957,
-  "sha256": "d5f68b9403faaa1a5c28572c8c740cff0b75b8a5914a8b3d2bb02acdffdea133",
+  "bytes": 24485,
+  "sha256": "430a8192e0596e18a5927660088d7bb171f1726f247b0d20c3021365d43b38f0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "bytes": [
         23840,
         23957
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23957,
+        24485
       ],
       "url_changed": null,
       "markers_changed": null,

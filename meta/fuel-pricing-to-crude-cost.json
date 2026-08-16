@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-08-14T06:29:03.242+05:30",
+  "updated": "2026-08-16T13:54:48.921+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 79322,
-  "sha256": "affdba6e66b13a485b7b4421825e286474f060f9bf34ce27fbe27c783aa3a1ea",
+  "bytes": 79850,
+  "sha256": "8e3752d1c701ca75223e5c4fedae0f48581515b185a81cb27714c968e04d38a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        79322,
+        79850
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

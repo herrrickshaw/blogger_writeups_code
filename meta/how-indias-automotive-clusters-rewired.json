@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
   "slug": "how-indias-automotive-clusters-rewired",
   "published": "2026-08-15T07:16:39.000+05:30",
-  "updated": "2026-08-15T07:30:53.993+05:30",
+  "updated": "2026-08-16T13:50:02.262+05:30",
   "labels": [
     "Manufacturing"
   ],
-  "bytes": 23496,
-  "sha256": "7c0c3a029de68c33d3ac12c71c3d5ac114f2099cc913f18667f0a607f4227d24",
+  "bytes": 24024,
+  "sha256": "6272f376b83d7935ed3c022f6bc0aba8b48bcbacbc9e2a37b39b144c25f3c69e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,13 +21,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-15T08:03:25+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23496,
+        24024
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-14T06:51:06.199+05:30",
+  "updated": "2026-08-16T13:59:22.344+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 22996,
-  "sha256": "8f795956d26fba14f0dcecaadd7826f66f48ad1eaba5a2a30cd53875f02c1614",
+  "bytes": 23524,
+  "sha256": "8a3b2ba5ffa1f50b96bfd7e0ea91e759637a9fb20b374893469f5130c8311e5a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22996,
+        23524
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

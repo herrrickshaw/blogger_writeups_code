@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-08-14T09:05:12.868+05:30",
+  "updated": "2026-08-16T13:50:49.429+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "India"
   ],
-  "bytes": 35591,
-  "sha256": "cc80c14564b8e8dfcbe7d3a3f1db1802485d86571f2f8b785ec98f092416e1ec",
+  "bytes": 36119,
+  "sha256": "7770db0c3a76800d7300f645ca48d470b5587b4726c3794a8b31f01f05ac5a06",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35591,
+        36119
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

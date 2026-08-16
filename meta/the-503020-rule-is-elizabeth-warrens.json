@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-08-13T10:13:00.036+05:30",
+  "updated": "2026-08-16T13:52:25.030+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 20426,
-  "sha256": "e1d17c0df7200c75c393938abb5a908de01d01aaabb628bdde7baf01ec1991c7",
+  "bytes": 20954,
+  "sha256": "6814331c5470ac8a589c85ccf4254529e0fd288514f92cbbf843af961e0c8ea7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "2.0.7",
+      "date": "2026-08-16T14:49:00+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20426,
+        20954
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
