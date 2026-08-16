@@ -5186,3 +5186,23 @@ scheduled sync
 - `airbags-and-seat-belts-are-import-heavy` — 24,611 → 25,442 bytes (+831)
 - `from-fuel-to-fibre-indias-textile` — 33,948 → 34,498 bytes (+550)
 - `article-index-start-here` — 203,009 → 204,540 bytes (+1,531)
+
+## 2026-08-16T07:28:17+05:30 — 163 posts live
+
+**Added**
+
+- `pet-recycling-already-cuts-emissions-60` **v1.0.0** — PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable (21,087 bytes)
+
+**Versions**
+
+- `indias-used-oil-epr-wants-half-of-all` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-epr-regime-just-got-teeth-and` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-tyre-waste-problem-and-crumb` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **24.2.3 → 24.2.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-used-oil-epr-wants-half-of-all` — 26,604 → 26,882 bytes (+278)
+- `indias-epr-regime-just-got-teeth-and` — 21,364 → 21,764 bytes (+400)
+- `indias-tyre-waste-problem-and-crumb` — 12,702 → 13,242 bytes (+540)
+- `article-index-start-here` — 204,540 → 205,478 bytes (+938)

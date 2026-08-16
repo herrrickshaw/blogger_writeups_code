@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-15T11:50:15+05:30",
-  "count": 162,
+  "snapshot": "2026-08-16T07:28:17+05:30",
+  "count": 163,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -705,12 +705,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
       "slug": "indias-tyre-waste-problem-and-crumb",
       "published": "2026-08-05T14:30:35.000+05:30",
-      "updated": "2026-08-11T12:04:05.537+05:30",
+      "updated": "2026-08-16T07:26:21.870+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 12702,
-      "sha256": "a7a27dccfce7ba134e6b8c032ace66436a09a6881122fa84bcdfa823cffab137",
+      "bytes": 13242,
+      "sha256": "715b6c8d60ac55bc0de311ee1b687c05e8f17ff38e6ff827e5e35a3fec65e1e3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -722,7 +722,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -790,6 +790,19 @@
               true
             ]
           },
+          "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-08-16T07:28:17+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            12702,
+            13242
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -13139,13 +13152,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
       "slug": "indias-used-oil-epr-wants-half-of-all",
       "published": "2026-08-10T11:46:04.000+05:30",
-      "updated": "2026-08-13T10:10:56.134+05:30",
+      "updated": "2026-08-16T07:26:30.944+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 26604,
-      "sha256": "090a0c271aa8b2dcbb1026c439956a45a4ae9da38507aeabdfa0bbf9134a2e68",
+      "bytes": 26882,
+      "sha256": "56ca407e3cb87f753c12dc3b189ea7a51263573fb2fd36ceebd4455f2e48ec53",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13157,7 +13170,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13256,6 +13269,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-16T07:28:17+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            26604,
+            26882
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -13969,10 +13995,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-15T11:29:42.434+05:30",
+      "updated": "2026-08-15T11:51:09.311+05:30",
       "labels": [],
-      "bytes": 204540,
-      "sha256": "eba6cbc68f12875904a8eedd169078386d45f56446e394162cb16d71a63af68a",
+      "bytes": 205478,
+      "sha256": "76a7d299a7e6b45ba83ac98daf6bb4c7eb24c2e5c795cc50b6c9c543878ca261",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13984,7 +14010,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.2.3",
+      "version": "24.2.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14664,6 +14690,19 @@
           "bytes": [
             203009,
             204540
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "24.2.4",
+          "date": "2026-08-16T07:28:17+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            204540,
+            205478
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -17865,6 +17904,41 @@
         }
       ]
     },
+    "7452695219826556995": {
+      "id": "7452695219826556995",
+      "title": "PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
+      "slug": "pet-recycling-already-cuts-emissions-60",
+      "published": "2026-08-16T07:25:04.839+05:30",
+      "updated": "2026-08-16T07:25:17.073+05:30",
+      "labels": [
+        "Circularity & Waste-to-Value",
+        "India Trade & Policy"
+      ],
+      "bytes": 21087,
+      "sha256": "86cefbb783907e09b0dee58efb7507efbabeb61a0b3972d5268939723af3421c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-16T07:28:17+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "7601363762801353983": {
       "id": "7601363762801353983",
       "title": "Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories",
@@ -18889,13 +18963,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
       "slug": "indias-epr-regime-just-got-teeth-and",
       "published": "2026-08-08T21:56:27.000+05:30",
-      "updated": "2026-08-14T06:30:24.988+05:30",
+      "updated": "2026-08-16T07:26:40.037+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 21364,
-      "sha256": "f0f2538f69d52d4901f0dccf25ae63bd5a4d1aa524da800e049480fa00d8e9fa",
+      "bytes": 21764,
+      "sha256": "8b5a27c0fae52c866e8d60119fb61c59f72c99de3f22c5dc977e01be04c31ae2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18907,7 +18981,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.6",
+      "version": "2.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19006,6 +19080,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.7",
+          "date": "2026-08-16T07:28:17+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            21364,
+            21764
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
