@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-16T15:22:21+05:30",
+  "snapshot": "2026-08-16T22:39:44+05:30",
   "count": 165,
   "posts": {
     "1058853159205559121": {
@@ -2839,12 +2839,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-16T12:26:17.231+05:30",
+      "updated": "2026-08-16T22:38:37.638+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 46803,
-      "sha256": "7afd59740dc3e4a63d24d285afb6245b67ac9caff21e02da83aca11b706be72b",
+      "bytes": 48239,
+      "sha256": "3c0ba7b96ce40bd1c07a61ad5ddc397c457fd8121dba1839c44b5fe9852fb6e0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2856,7 +2856,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.1.9",
+      "version": "7.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3190,6 +3190,19 @@
           "bytes": [
             45957,
             46803
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "7.2.0",
+          "date": "2026-08-16T22:39:44+05:30",
+          "level": "minor",
+          "reason": "prose grew 4,973→5,154 chars with no new figures",
+          "bytes": [
+            46803,
+            48239
           ],
           "url_changed": null,
           "markers_changed": null,

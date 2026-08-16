@@ -5951,3 +5951,13 @@ scheduled sync
 - `india-ec-approval-funnel-parivesh-20` — 16,427 → 16,782 bytes (+355)
 - `india-environmental-clearances-state` — 15,101 → 15,456 bytes (+355)
 - `tech-for-business-so-2019-tech-as` — 34,667 → 35,022 bytes (+355)
+
+## 2026-08-16T22:39:44+05:30 — 165 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.1.9 → 7.2.0** (MINOR) — prose grew 4,973→5,154 chars with no new figures
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 46,803 → 48,239 bytes (+1,436)
