@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-08-13T10:15:04.758+05:30",
+  "updated": "2026-08-16T08:10:14.934+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 21530,
-  "sha256": "b553226639ff26e94dd59f8e67296c5aaf9c6757119f19ebe8dcd5afe5efd24e",
+  "bytes": 21533,
+  "sha256": "bbbee5ceb5ebf2a9c73b93b674e57ddfbb039b10ea379e0b031749f3a0c98e2e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-16T11:01:33+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21530,
+        21533
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
