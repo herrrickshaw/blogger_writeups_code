@@ -5241,3 +5241,17 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 205,825 → 206,773 bytes (+948)
+
+## 2026-08-16T11:45:36+05:30 — 165 posts live
+
+**Added**
+
+- `guar-gum-indias-35-billion-export-peak` **v1.0.0** — Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil (19,934 bytes)
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.1.7 → 7.1.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 45,560 → 45,957 bytes (+397)

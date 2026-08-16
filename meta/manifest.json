@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-16T11:05:19+05:30",
-  "count": 164,
+  "snapshot": "2026-08-16T11:45:36+05:30",
+  "count": 165,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -2397,12 +2397,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-16T07:48:44.928+05:30",
+      "updated": "2026-08-16T11:40:16.781+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 45560,
-      "sha256": "cf2611569bb4d0334dbf80b0895202e56148b2f97bcee96c0685c5fc6f64f20c",
+      "bytes": 45957,
+      "sha256": "a2d8ecdbfb68f9499ea46d89de45ac1aecaaf31bd3d286cab2bd7012fa4d40ef",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2414,7 +2414,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.1.7",
+      "version": "7.1.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2726,6 +2726,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "7.1.8",
+          "date": "2026-08-16T11:45:36+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            45560,
+            45957
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -11754,6 +11767,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "5630156769104678345": {
+      "id": "5630156769104678345",
+      "title": "Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
+      "slug": "guar-gum-indias-35-billion-export-peak",
+      "published": "2026-08-16T11:44:39.235+05:30",
+      "updated": "2026-08-16T11:44:53.196+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "India Trade & Policy"
+      ],
+      "bytes": 19934,
+      "sha256": "fc2e91efb729fdea4fc7c95b76c896d1cd118253a523de2d101042c3af78dfc8",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-16T11:45:36+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
         }
       ]
     },
