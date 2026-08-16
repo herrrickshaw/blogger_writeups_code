@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-16T11:45:36+05:30",
+  "snapshot": "2026-08-16T11:50:37+05:30",
   "count": 165,
   "posts": {
     "1058853159205559121": {
@@ -11775,14 +11775,14 @@
       "title": "Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil",
       "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
       "slug": "guar-gum-indias-35-billion-export-peak",
-      "published": "2026-08-16T11:44:39.235+05:30",
-      "updated": "2026-08-16T11:44:53.196+05:30",
+      "published": "2026-08-16T11:44:39.000+05:30",
+      "updated": "2026-08-16T11:49:10.718+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India Trade & Policy"
       ],
-      "bytes": 19934,
-      "sha256": "fc2e91efb729fdea4fc7c95b76c896d1cd118253a523de2d101042c3af78dfc8",
+      "bytes": 23528,
+      "sha256": "92b15979b88ecab7be562a9648b6b58276c8a146b6d33ae07e5d2f219d6c3e3e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11794,13 +11794,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-16T11:45:36+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-16T11:50:37+05:30",
+          "level": "major",
+          "reason": "figures changed (+17/-0 distinct numbers)",
+          "bytes": [
+            19934,
+            23528
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -14082,10 +14095,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-16T11:01:59.175+05:30",
+      "updated": "2026-08-16T11:46:07.609+05:30",
       "labels": [],
-      "bytes": 206773,
-      "sha256": "5f07733bdaa38d011c55aa8d2efeeff068a4921f5dfcdd838f56e9ec3af5a840",
+      "bytes": 207091,
+      "sha256": "99d02d0a115d9d856ba4bcb8a141b8c4075a024c8804d4e069cf2ffc93993172",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14097,7 +14110,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.2.6",
+      "version": "24.2.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14816,6 +14829,19 @@
           "bytes": [
             205825,
             206773
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "24.2.7",
+          "date": "2026-08-16T11:50:37+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            206773,
+            207091
           ],
           "url_changed": null,
           "markers_changed": null,

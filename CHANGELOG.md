@@ -5255,3 +5255,15 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 45,560 → 45,957 bytes (+397)
+
+## 2026-08-16T11:50:37+05:30 — 165 posts live
+
+**Versions**
+
+- `guar-gum-indias-35-billion-export-peak` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+- `article-index-start-here` **24.2.6 → 24.2.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `guar-gum-indias-35-billion-export-peak` — 19,934 → 23,528 bytes (+3,594)
+- `article-index-start-here` — 206,773 → 207,091 bytes (+318)
