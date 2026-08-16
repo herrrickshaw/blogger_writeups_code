@@ -5206,3 +5206,24 @@ scheduled sync
 - `indias-epr-regime-just-got-teeth-and` — 21,364 → 21,764 bytes (+400)
 - `indias-tyre-waste-problem-and-crumb` — 12,702 → 13,242 bytes (+540)
 - `article-index-start-here` — 204,540 → 205,478 bytes (+938)
+
+## 2026-08-16T03:30:08+00:00 — 163 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `fuel-and-bottle-two-taxes-states-never` **1.2.3 → 1.2.4** (PATCH) — visible text identical; only markup/styling changed
+- `the-masala-deutsch-shop-books-things` **7.1.6 → 7.1.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-india-actually-burns-its-fuel` **1.0.5 → 1.0.6** (PATCH) — visible text identical; only markup/styling changed
+- `quarterly-reportage-4034-scheme` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **24.2.4 → 24.2.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `fuel-and-bottle-two-taxes-states-never` — 28,812 → 28,812 bytes (+0)
+- `the-masala-deutsch-shop-books-things` — 44,873 → 45,560 bytes (+687)
+- `where-india-actually-burns-its-fuel` — 21,530 → 21,533 bytes (+3)
+- `quarterly-reportage-4034-scheme` — 540,684 → 539,146 bytes (-1,538)
+- `article-index-start-here` — 205,478 → 205,825 bytes (+347)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-16T07:28:17+05:30",
+  "snapshot": "2026-08-16T03:30:08+00:00",
   "count": 163,
   "posts": {
     "1058853159205559121": {
@@ -809,16 +809,16 @@
     },
     "141021557520176306": {
       "id": "141021557520176306",
-      "title": "Quarterly Reportage — 4,034 Scheme Announcements, 2017 to August 2026",
+      "title": "Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026",
       "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
       "slug": "quarterly-reportage-4034-scheme",
       "published": "2026-08-04T13:58:09.000+05:30",
-      "updated": "2026-08-13T10:48:00.960+05:30",
+      "updated": "2026-08-16T08:02:35.930+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 540684,
-      "sha256": "8fcb118c98f3edaa5e13940af18f42fdd78c5665eb3338a0aa58f249b1f9566c",
+      "bytes": 539146,
+      "sha256": "95ec946fd50ff8dcdb09baee129bca5ed6f7b9f7372530f18c35e74783dde903",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -830,7 +830,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -938,6 +938,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-16T03:30:08+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            540684,
+            539146
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -2384,12 +2397,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-14T06:50:39.347+05:30",
+      "updated": "2026-08-16T07:48:44.928+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 44873,
-      "sha256": "d09cff4e9088ebadc9ba7a9112ee67f76b846e59d5386dff3b82f7e38ba09cdd",
+      "bytes": 45560,
+      "sha256": "cf2611569bb4d0334dbf80b0895202e56148b2f97bcee96c0685c5fc6f64f20c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2401,7 +2414,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.1.6",
+      "version": "7.1.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2696,6 +2709,19 @@
           "bytes": [
             45038,
             44873
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        },
+        {
+          "version": "7.1.7",
+          "date": "2026-08-16T03:30:08+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            44873,
+            45560
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -11572,13 +11598,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-08-14T06:33:30.173+05:30",
+      "updated": "2026-08-16T08:10:13.634+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
       "bytes": 28812,
-      "sha256": "09c8a3d59f63739c70d978905d9c1e5c863780daa37078ed75a18806b22df385",
+      "sha256": "531625758fc49fe9e47146e62ef8a30c6854023dbd726221534613f6c2896315",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11590,7 +11616,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.3",
+      "version": "1.2.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11710,6 +11736,19 @@
           "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
           "bytes": [
             28814,
+            28812
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        },
+        {
+          "version": "1.2.4",
+          "date": "2026-08-16T03:30:08+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28812,
             28812
           ],
           "url_changed": null,
@@ -13995,10 +14034,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-15T11:51:09.311+05:30",
+      "updated": "2026-08-16T07:28:42.094+05:30",
       "labels": [],
-      "bytes": 205478,
-      "sha256": "76a7d299a7e6b45ba83ac98daf6bb4c7eb24c2e5c795cc50b6c9c543878ca261",
+      "bytes": 205825,
+      "sha256": "a62f262870ca9c6cac94034bb700f89f01d844bea4c2ac89cc5b4b08b1f35158",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14010,7 +14049,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.2.4",
+      "version": "24.2.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14707,6 +14746,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "24.2.5",
+          "date": "2026-08-16T03:30:08+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            205478,
+            205825
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
@@ -17067,14 +17119,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
       "slug": "where-india-actually-burns-its-fuel",
       "published": "2026-08-08T16:55:16.000+05:30",
-      "updated": "2026-08-13T10:15:04.758+05:30",
+      "updated": "2026-08-16T08:10:14.934+05:30",
       "labels": [
         "Energy & Fuels",
         "Mobility & EV",
         "Prices & Inflation"
       ],
-      "bytes": 21530,
-      "sha256": "b553226639ff26e94dd59f8e67296c5aaf9c6757119f19ebe8dcd5afe5efd24e",
+      "bytes": 21533,
+      "sha256": "bbbee5ceb5ebf2a9c73b93b674e57ddfbb039b10ea379e0b031749f3a0c98e2e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17086,7 +17138,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "1.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17159,6 +17211,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Reorder standfirst before nav/eyebrow/h1 (gs-head-order flex wrapper) so data:post.snippet reads real article prose, not nav chrome — 45 posts + post-skeleton template"
+        },
+        {
+          "version": "1.0.6",
+          "date": "2026-08-16T03:30:08+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            21530,
+            21533
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
