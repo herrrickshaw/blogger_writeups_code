@@ -32,13 +32,21 @@ def parse_entries(block):
     for m in re.finditer(r"\[\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'"
                          r"(?:\s*,\s*'([A-Z0-9]{10})')?"
                          r"(?:\s*,\s*\n?\s*'(https://m\.media-amazon\.com[^']+)')?"
-                         r"(?:\s*,\s*'(book|other)')?\s*\]", block):
-        t, by, asin, img, kind = m.groups()
+                         r"(?:\s*,\s*'(book|other)')?"
+                         r"(?:\s*,\s*\n?\s*'(https://[^']+)')?\s*\]", block):
+        t, by, asin, img, kind, url = m.groups()
         fix = lambda x: x.encode().decode('unicode_escape') if '\\u' in x else x.replace("\\'", "'")
-        out.append({'t': fix(t), 'by': fix(by), 'asin': asin, 'img': img, 'kind': kind or 'book'})
+        # url is a full-link override -- used when the affiliate link needs to carry
+        # tracking params (crid/dib/linkId/etc.) beyond the plain /dp/ASIN?tag= form
+        # link() below constructs by default. See Kadavulai Thedatheergal for the
+        # first real use case: Amazon blocked cover-image scraping for this ASIN, and
+        # the linkId in the full URL is the author's own Associates-tool-generated one.
+        out.append({'t': fix(t), 'by': fix(by), 'asin': asin, 'img': img, 'kind': kind or 'book', 'url': url})
     return out
 
 def link(e):
+    if e.get('url'):
+        return e['url']
     return (f"https://www.amazon.in/dp/{e['asin']}?tag={TAG}" if e['asin']
             else f"https://www.amazon.in/s?k={quote(e['t'] + ' ' + e['by'])}&tag={TAG}")
 
