@@ -5277,3 +5277,13 @@ scheduled sync
 **Changed**
 
 - `guar-gum-indias-35-billion-export-peak` — 23,528 → 25,676 bytes (+2,148)
+
+## 2026-08-16T11:59:44+05:30 — 165 posts live
+
+**Versions**
+
+- `guar-gum-indias-35-billion-export-peak` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+7/-3 distinct numbers)
+
+**Changed**
+
+- `guar-gum-indias-35-billion-export-peak` — 25,676 → 27,045 bytes (+1,369)
