@@ -5227,3 +5227,17 @@ scheduled sync
 - `where-india-actually-burns-its-fuel` — 21,530 → 21,533 bytes (+3)
 - `quarterly-reportage-4034-scheme` — 540,684 → 539,146 bytes (-1,538)
 - `article-index-start-here` — 205,478 → 205,825 bytes (+347)
+
+## 2026-08-16T11:05:19+05:30 — 164 posts live
+
+**Added**
+
+- `basf-and-mitsubishi-are-running` **v1.0.0** — Rice Cultivation and Innovation (19,749 bytes)
+
+**Versions**
+
+- `article-index-start-here` **24.2.5 → 24.2.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 205,825 → 206,773 bytes (+948)

@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-16T03:30:08+00:00",
-  "count": 163,
+  "snapshot": "2026-08-16T11:05:19+05:30",
+  "count": 164,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -14034,10 +14034,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-16T07:28:42.094+05:30",
+      "updated": "2026-08-16T11:01:59.175+05:30",
       "labels": [],
-      "bytes": 205825,
-      "sha256": "a62f262870ca9c6cac94034bb700f89f01d844bea4c2ac89cc5b4b08b1f35158",
+      "bytes": 206773,
+      "sha256": "5f07733bdaa38d011c55aa8d2efeeff068a4921f5dfcdd838f56e9ec3af5a840",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14049,7 +14049,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "24.2.5",
+      "version": "24.2.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14759,6 +14759,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "24.2.6",
+          "date": "2026-08-16T11:05:19+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            205825,
+            206773
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -18429,6 +18442,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Site-audit fixes batch 2: State Incentive War (Electronics 250%->137%), UP Herd table resort, Oil Fields PSC gas/oil generalization, Green Hydrogen Odisha count caveat, Thali Investing quarter-count fix, Tax Treaties 9-vs-8 FTA caveat, Ethanol Buyers Market utilisation figure"
+        }
+      ]
+    },
+    "7866802904186623558": {
+      "id": "7866802904186623558",
+      "title": "Rice Cultivation and Innovation",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html",
+      "slug": "basf-and-mitsubishi-are-running",
+      "published": "2026-08-16T11:00:30.000+05:30",
+      "updated": "2026-08-16T11:03:47.278+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Climate & Carbon",
+        "India Trade & Policy"
+      ],
+      "bytes": 19749,
+      "sha256": "3f5631ea605c9c6b07d9ff0ad72506a95e564ce39b148c9cc72c57b41aadf028",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-16T11:05:19+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
         }
       ]
     },
