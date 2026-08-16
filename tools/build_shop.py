@@ -31,16 +31,18 @@ def parse_entries(block):
     out = []
     for m in re.finditer(r"\[\s*'((?:[^'\\]|\\.)*)'\s*,\s*'((?:[^'\\]|\\.)*)'"
                          r"(?:\s*,\s*'([A-Z0-9]{10})')?"
-                         r"(?:\s*,\s*\n?\s*'(https://m\.media-amazon\.com[^']+)')?"
+                         r"(?:\s*,\s*\n?\s*'(https://(?:m\.media-amazon\.com|[^']*\.github\.io)[^']+)')?"
                          r"(?:\s*,\s*'(book|other)')?"
                          r"(?:\s*,\s*\n?\s*'(https://[^']+)')?\s*\]", block):
         t, by, asin, img, kind, url = m.groups()
         fix = lambda x: x.encode().decode('unicode_escape') if '\\u' in x else x.replace("\\'", "'")
         # url is a full-link override -- used when the affiliate link needs to carry
         # tracking params (crid/dib/linkId/etc.) beyond the plain /dp/ASIN?tag= form
-        # link() below constructs by default. See Kadavulai Thedatheergal for the
-        # first real use case: Amazon blocked cover-image scraping for this ASIN, and
-        # the linkId in the full URL is the author's own Associates-tool-generated one.
+        # link() below constructs by default. img now also accepts a self-hosted
+        # GitHub Pages cover (github.io) for ASINs Amazon won't serve a cover for.
+        # See Kadavulai Thedatheergal for the first real use case of both: Amazon
+        # blocked cover-image scraping for this ASIN, and the linkId in the full
+        # URL is the author's own Associates-tool-generated one.
         out.append({'t': fix(t), 'by': fix(by), 'asin': asin, 'img': img, 'kind': kind or 'book', 'url': url})
     return out
 
