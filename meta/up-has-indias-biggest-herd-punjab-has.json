@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-08-16T13:52:38.286+05:30",
+  "updated": "2026-08-16T15:09:22.298+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 25772,
-  "sha256": "6bcaa5aa68d75fe1d2b11abd082f478f04d0ba608e31b299679a8c396625ac1b",
+  "bytes": 26127,
+  "sha256": "3f97477288a40571bfdc20c88ff274cf9741b4f332181b55ef24b859a2ad3e10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.7",
+  "version": "2.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "bytes": [
         25244,
         25772
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.8",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25772,
+        26127
       ],
       "url_changed": null,
       "markers_changed": null,

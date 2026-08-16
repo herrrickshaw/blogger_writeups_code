@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-08-16T13:50:55.619+05:30",
+  "updated": "2026-08-16T15:07:36.976+05:30",
   "labels": [
     "Climate Modeling",
     "Energy Systems",
     "India"
   ],
-  "bytes": 39662,
-  "sha256": "7bfdf5c961fbacb7837c0799d90ac2be82a0d0608fa3da06ff63ebd86214c8cd",
+  "bytes": 40017,
+  "sha256": "ec2363c7a6845eb7fbf102d96a23840de13c48089b42bdd14b917033d0ac1ef2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,19 @@
       "bytes": [
         39134,
         39662
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        39662,
+        40017
       ],
       "url_changed": null,
       "markers_changed": null,

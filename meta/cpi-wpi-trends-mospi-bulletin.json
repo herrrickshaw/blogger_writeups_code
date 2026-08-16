@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-08-16T13:57:27.540+05:30",
+  "updated": "2026-08-16T15:13:57.114+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 45052,
-  "sha256": "b33762994413d58bb6f1c159e30485f22d5ad94940c51ae7d20be64db57e4546",
+  "bytes": 45407,
+  "sha256": "49f8f0e1d722571e8a841ff1c3059def23a11a7ea58c7218f6d10cd581c3d2ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -164,6 +164,19 @@
       "bytes": [
         44524,
         45052
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        45052,
+        45407
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.000+05:30",
-  "updated": "2026-08-16T13:59:56.675+05:30",
+  "updated": "2026-08-16T15:16:00.586+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 11889,
-  "sha256": "5a41e4f822b23147a9b38dad4a8af64f252c77659c16aee9559db6b17f3d8dbf",
+  "bytes": 12244,
+  "sha256": "98f92a68479b2d8e0d703c0eb9ff485b826828d36294e92ceb21eb8628f03475",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -86,6 +86,19 @@
       "bytes": [
         11360,
         11889
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        11889,
+        12244
       ],
       "url_changed": null,
       "markers_changed": null,

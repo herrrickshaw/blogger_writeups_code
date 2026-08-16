@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
   "slug": "thermal-parity-is-dead-what-85-oil-and",
   "published": "2026-08-08T21:04:59.000+05:30",
-  "updated": "2026-08-16T13:53:11.773+05:30",
+  "updated": "2026-08-16T15:09:56.246+05:30",
   "labels": [
     "Energy & Fuels",
     "Markets & Finance"
   ],
-  "bytes": 29441,
-  "sha256": "4f5d42e68aa1bf1e1228d58d6eb28fa7c5db8f03e16546eb84aef9eb8cd7beea",
+  "bytes": 29796,
+  "sha256": "a0241c2923df02e0f174997966cea82a3e5f52ddad5675854723c1c851a7584c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.7",
+  "version": "3.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "bytes": [
         28913,
         29441
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.8",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29441,
+        29796
       ],
       "url_changed": null,
       "markers_changed": null,

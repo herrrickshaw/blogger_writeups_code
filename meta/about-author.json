@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/about-author.html",
   "slug": "about-author",
   "published": "2026-08-05T10:43:35.000+05:30",
-  "updated": "2026-08-16T14:00:23.771+05:30",
+  "updated": "2026-08-16T15:16:27.102+05:30",
   "labels": [],
-  "bytes": 27611,
-  "sha256": "117f2cfd24bd9f80b66bc77e366f489883db80589425c85bdfc8580b4d41a02b",
+  "bytes": 27966,
+  "sha256": "77664b812d5a8a0fd0a046b23ffc18dd42ecf54e166f41a6fc6ee18ff5e1760e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -88,6 +88,19 @@
       "bytes": [
         27082,
         27611
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        27611,
+        27966
       ],
       "url_changed": null,
       "markers_changed": null,

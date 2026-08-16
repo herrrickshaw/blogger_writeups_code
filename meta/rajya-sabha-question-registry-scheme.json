@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
   "slug": "rajya-sabha-question-registry-scheme",
   "published": "2026-08-04T15:55:00.000+05:30",
-  "updated": "2026-08-16T13:55:23.325+05:30",
+  "updated": "2026-08-16T15:11:56.355+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 326097,
-  "sha256": "07f5f0a3a2f7b41753f9caa3d403c2286d48ca18113411019a7385ad4e23d740",
+  "bytes": 326452,
+  "sha256": "1799bf28ddd842d4f1564d419bdd3c5acacfcccdb85edf1b57430a47e713ae80",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -139,6 +139,19 @@
       "bytes": [
         325569,
         326097
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        326097,
+        326452
       ],
       "url_changed": null,
       "markers_changed": null,

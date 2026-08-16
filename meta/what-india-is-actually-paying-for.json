@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-08-16T13:50:37.034+05:30",
+  "updated": "2026-08-16T15:07:17.090+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 33980,
-  "sha256": "3816604e15bebf339dbedd802a7376f5fa96d57b4b09893bcb5910fe86293631",
+  "bytes": 34335,
+  "sha256": "e54ac32003458dde0a9f74cac7c130638859528033b36dcb6c8bb45ebf2f50d6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         33452,
         33980
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33980,
+        34335
       ],
       "url_changed": null,
       "markers_changed": null,

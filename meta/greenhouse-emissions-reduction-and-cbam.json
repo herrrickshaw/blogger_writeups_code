@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-08-16T13:56:15.599+05:30",
+  "updated": "2026-08-16T15:12:47.594+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 26711,
-  "sha256": "da494790817ec424b1a700752fc8aeb2bd5977c16778d24dcdf229a6bf39e6c3",
+  "bytes": 27066,
+  "sha256": "ad127373191f5b1e112616ce560fde4b5980e5c4b177c2504ee60026598eeb8c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "bytes": [
         26183,
         26711
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26711,
+        27066
       ],
       "url_changed": null,
       "markers_changed": null,

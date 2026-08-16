@@ -5633,3 +5633,321 @@ scheduled sync
 - `india-fuel-retail-outlets-82k-geocoded` — 12,614 → 13,142 bytes (+528)
 - `india-trade-sector-policy` — 18,368 → 18,896 bytes (+528)
 - `tech-for-business-so-2019-tech-as` — 34,139 → 34,667 bytes (+528)
+
+## 2026-08-16T15:22:21+05:30 — 165 posts live
+
+**Versions**
+
+- `guar-gum-indias-35-billion-export-peak` **4.0.1 → 4.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `basf-and-mitsubishi-are-running` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `pet-recycling-already-cuts-emissions-60` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `tarpaulin-is-genuine-export-win` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `airbags-and-seat-belts-are-import-heavy` **2.0.1 → 2.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `india-grows-soybean-exports-meal-leads` **3.0.1 → 3.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `the-cluster-automotive-piece-left-out` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `how-indias-automotive-clusters-rewired` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `which-ecb-currencies-are-actually` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `fbil-rates-vs-tradestat-volumes-does-fx` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `the-currency-rupee-trends-piece-left` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `tamil-nadus-wind-potential-according-to` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `what-tepa-actually-opens-efta-goods` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `financing-fuel-to-chemicals-pivot-how` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `where-rupee-actually-stands-ten-years` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `can-rupee-trade-actually-offset` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `what-india-is-actually-paying-for` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `indias-coking-coal-import-problem-and` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `where-worlds-oil-sits-when-it-isnt` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `rin-red-and-cbio-what-indias-ethanol` **1.0.3 → 1.0.4** (PATCH) — visible text identical; only markup/styling changed
+- `one-gallon-five-numbers-how-gcam-fits` **1.0.2 → 1.0.3** (PATCH) — visible text identical; only markup/styling changed
+- `price-is-wire-how-gcam-actually-links` **1.2.2 → 1.2.3** (PATCH) — visible text identical; only markup/styling changed
+- `the-margin-case-why-lpg-and` **1.2.4 → 1.2.5** (PATCH) — visible text identical; only markup/styling changed
+- `from-barrel-to-bottle-petrochemical` **1.2.4 → 1.2.5** (PATCH) — visible text identical; only markup/styling changed
+- `the-fcc-lever-trading-petrol-yield-for` **1.1.4 → 1.1.5** (PATCH) — visible text identical; only markup/styling changed
+- `fuel-and-bottle-two-taxes-states-never` **1.2.5 → 1.2.6** (PATCH) — visible text identical; only markup/styling changed
+- `the-barrel-really-is-shifting-indias` **1.1.4 → 1.1.5** (PATCH) — visible text identical; only markup/styling changed
+- `the-case-for-biofuels-over-imports` **1.1.3 → 1.1.4** (PATCH) — visible text identical; only markup/styling changed
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.2.4 → 1.2.5** (PATCH) — visible text identical; only markup/styling changed
+- `would-more-sgst-fix-donor-state-problem` **1.1.4 → 1.1.5** (PATCH) — visible text identical; only markup/styling changed
+- `tamil-nadus-gst-gap-108-economy-growing` **1.1.3 → 1.1.4** (PATCH) — visible text identical; only markup/styling changed
+- `uttar-pradeshs-gst-puzzle-growing` **1.2.4 → 1.2.5** (PATCH) — visible text identical; only markup/styling changed
+- `who-collects-indias-gst-and-who` **1.2.4 → 1.2.5** (PATCH) — visible text identical; only markup/styling changed
+- `indias-two-tracks-of-health-cover-and` **1.1.3 → 1.1.4** (PATCH) — visible text identical; only markup/styling changed
+- `abha-what-indias-14-digit-health-id` **1.1.3 → 1.1.4** (PATCH) — visible text identical; only markup/styling changed
+- `mrs-watanabe-traded-from-kitchen-table` **1.2.3 → 1.2.4** (PATCH) — visible text identical; only markup/styling changed
+- `do-cheap-stocks-stay-cheap-price-band` **2.1.6 → 2.1.7** (PATCH) — visible text identical; only markup/styling changed
+- `050-is-its-own-category-diving-into` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `below-250-is-where-real-junk-lives` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `why-bet-on-one-horse-when-you-can-buy` **1.0.12 → 1.0.13** (PATCH) — visible text identical; only markup/styling changed
+- `tiffin-meets-thali-10-day-sip-already` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `a-slice-of-apple-costs-about-1700-slice` **1.0.15 → 1.0.16** (PATCH) — visible text identical; only markup/styling changed
+- `indias-lock-imports-hit-19784-million` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-used-oil-epr-wants-half-of-all` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `ahidf-has-sanctioned-19751-crore-in` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `the-503020-rule-is-elizabeth-warrens` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `thali-investing-whats-actually-on-plate` **2.0.9 → 2.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `the-rule-of-72-rule-of-114-and-how-to` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `india-has-tax-treaties-with-97` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `up-has-indias-biggest-herd-punjab-has` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `cow-dung-already-flew-rocket-engine` **4.0.9 → 4.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `one-refinery-flipped-nigeria-from` **2.0.6 → 2.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `indias-epr-regime-just-got-teeth-and` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-trade-story-has-three-big-wins` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `indias-fertiliser-import-bill-hits-18` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `indias-food-processing-story-pli-scheme` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `cocoas-blockchain-reckoning-one` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `from-cane-to-code-digital-layer` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `thermal-parity-is-dead-what-85-oil-and` **3.0.7 → 3.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `lpgs-missing-number-7308-commission-and` **2.0.6 → 2.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `beyond-pump-what-upi-fee-would-cost` **3.0.9 → 3.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `cheap-yen-rupee-roads-where-carry-trade` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `where-india-actually-burns-its-fuel` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `city-gas-just-became-indias-largest-gas` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `upi-fees-are-now-legal-petrol-pumps` **11.0.6 → 11.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `south-africa-lost-its-gulf-fuel-supply` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `india-sells-world-53-billion-of-fuel` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `europe-bought-record-amount-of-lng-and` **5.0.6 → 5.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `petroleum-trade-pairings-and-us-crude` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `inflation-trends-globally-what-five` **2.0.12 → 2.0.13** (PATCH) — visible text identical; only markup/styling changed
+- `indias-wholesale-prices-next-to` **6.0.10 → 6.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `reinvesting-capital-gains-in-higher` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `diesel-doesnt-move-cpi-it-moves-40` **5.0.10 → 5.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `chemical-import-substitution-hsn-8-registry` **3.0.8 → 3.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-oil-fields-are-running-down-3696` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `rooftop-solar-is-working-household` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `fourteen-years-of-indian-wholesale` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `europes-export-credit-agencies-are` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `indias-state-incentive-war-gujarats` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `where-indias-green-hydrogen-bets-are` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ethanol-surplus-isnt-going-to` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `the-empty-shed-greenhouse-what-indias` **1.0.4 → 1.0.5** (PATCH) — visible text identical; only markup/styling changed
+- `indias-animal-protein-export-complex` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `indias-tyre-waste-problem-and-crumb` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `whos-actually-building-mri-and-ct` **1.0.4 → 1.0.5** (PATCH) — visible text identical; only markup/styling changed
+- `the-ethanol-sectors-buyers-market` **1.0.6 → 1.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `rare-earth-magnets-and-specialty-steel` **1.0.5 → 1.0.6** (PATCH) — visible text identical; only markup/styling changed
+- `vehicles-out-motors-in-indias-chapter` **1.0.5 → 1.0.6** (PATCH) — visible text identical; only markup/styling changed
+- `about-author` **1.0.5 → 1.0.6** (PATCH) — visible text identical; only markup/styling changed
+- `fuel-pricing-to-crude-cost` **1.0.11 → 1.0.12** (PATCH) — visible text identical; only markup/styling changed
+- `pli-medical-devices-coverage-and-gaps` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-medical-device-trade-gap-and` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `jai-kisan-jai-javan-fci-based-military` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `annadata-to-urjadata-farmer-income-case` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `if-india-paid-brics-in-rupees-scenario` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `lok-sabha-question-registry-1843-scheme` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `rajya-sabha-question-registry-scheme` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `the-most-discussed-schemes-in` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `quarterly-reportage-4034-scheme` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `indian-it-in-ai-era` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `securitising-deficit-what-it-would` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `the-price-and-tap-two-levers-behind` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `raising-green-debt-globally-rec-euroyen` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `half-of-indias-import-bill-is` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `re-spinning-charkha` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `annexure-314-hsn-codes-mapped-to` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `from-fuel-to-fibre-indias-textile` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `greenhouse-emissions-reduction-and-cbam` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `indias-carbon-credit-market-domestic` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `bio-fertiliser-and-green-credits` **2.0.10 → 2.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `nature-versus-nurture-indias-fertiliser` **3.0.8 → 3.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `announced-vs-delivered-three-indian` **1.0.11 → 1.0.12** (PATCH) — visible text identical; only markup/styling changed
+- `a-tax-play-grow-ethanol-sgst-revenue` **1.0.12 → 1.0.13** (PATCH) — visible text identical; only markup/styling changed
+- `state-by-state-who-actually-earns-from` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ev-market-single-digit` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `cpi-inflation-heatmap-india-june-2026` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `hsn-wise-historical-importexport-trends` **2.0.9 → 2.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `import-dependent-sectors-vs-government` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `effective-buying-power-china-comparison` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `priority-trade-partners-by-import` **1.0.11 → 1.0.12** (PATCH) — visible text identical; only markup/styling changed
+- `indias-trade-balance-hsn-wise` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `fy2025-26-sample-report-india-trade` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `five-year-synthesis-trade-currency` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `imported-fertiliser-fuel-prices-diesel` **2.0.5 → 2.0.6** (PATCH) — visible text identical; only markup/styling changed
+- `priority-export-destinations-by-growth` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `cpi-wpi-trends-mospi-bulletin` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `where-indias-forex-goes-country` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `real-gdp-growth-india-fy2012-13-to` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `rbi-foreign-exchange-reserves-20152026` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `discom-debt-relief-token-charge` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `iem-conversion-historical-performance` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `where-indias-factories-actually-get` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `article-index-start-here` **24.2.8 → 24.2.9** (PATCH) — visible text identical; only markup/styling changed
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `top-15-chemicals-for-import` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `chemical-import-substitution-quarterly` **1.0.11 → 1.0.12** (PATCH) — visible text identical; only markup/styling changed
+- `top-15-chemicals-for-import--4751284523575450171` **2.1.3 → 2.1.4** (PATCH) — visible text identical; only markup/styling changed
+- `chemical-import-substitution-analysis` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `india-grain-cultivation-fci-storage` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `the-grain-value-loop-integrated-rice` **2.0.9 → 2.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `ai-high-demand-launch-tracker` **3.0.10 → 3.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `the-recycling-lottery-playbook-norways` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-subsidised-imports-fertilisers` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `india-mineral-oil-hsn-ch27-trade` **2.0.7 → 2.0.8** (PATCH) — visible text identical; only markup/styling changed
+- `the-cbg-incentive-stack-every-leg-of` **2.0.6 → 2.0.7** (PATCH) — visible text identical; only markup/styling changed
+- `textile-hsn-deep-dive-apparel-vs-mmf` **1.0.8 → 1.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `indias-textile-import-export-strategy` **1.0.11 → 1.0.12** (PATCH) — visible text identical; only markup/styling changed
+- `ethanol-blending-omc-books-e20-today-vs` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `the-price-of-grain-msp-msv-and` **2.0.8 → 2.0.9** (PATCH) — visible text identical; only markup/styling changed
+- `the-fearless-girls-charter-indias` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `india-forest-wildlife-crz-clearances` **1.0.9 → 1.0.10** (PATCH) — visible text identical; only markup/styling changed
+- `india-ec-approval-funnel-parivesh-20` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `india-environmental-clearances-state` **1.0.10 → 1.0.11** (PATCH) — visible text identical; only markup/styling changed
+- `tech-for-business-so-2019-tech-as` **1.0.7 → 1.0.8** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `guar-gum-indias-35-billion-export-peak` — 27,574 → 27,929 bytes (+355)
+- `basf-and-mitsubishi-are-running` — 20,277 → 20,632 bytes (+355)
+- `pet-recycling-already-cuts-emissions-60` — 21,615 → 21,970 bytes (+355)
+- `tarpaulin-is-genuine-export-win` — 18,437 → 18,792 bytes (+355)
+- `airbags-and-seat-belts-are-import-heavy` — 25,970 → 26,325 bytes (+355)
+- `india-grows-soybean-exports-meal-leads` — 31,245 → 31,600 bytes (+355)
+- `the-cluster-automotive-piece-left-out` — 19,918 → 20,273 bytes (+355)
+- `how-indias-automotive-clusters-rewired` — 24,024 → 24,379 bytes (+355)
+- `which-ecb-currencies-are-actually` — 21,548 → 21,903 bytes (+355)
+- `fbil-rates-vs-tradestat-volumes-does-fx` — 18,449 → 18,804 bytes (+355)
+- `the-currency-rupee-trends-piece-left` — 33,535 → 33,890 bytes (+355)
+- `tamil-nadus-wind-potential-according-to` — 23,342 → 23,697 bytes (+355)
+- `what-tepa-actually-opens-efta-goods` — 27,883 → 28,238 bytes (+355)
+- `financing-fuel-to-chemicals-pivot-how` — 22,699 → 23,054 bytes (+355)
+- `where-rupee-actually-stands-ten-years` — 50,668 → 51,023 bytes (+355)
+- `can-rupee-trade-actually-offset` — 28,443 → 28,798 bytes (+355)
+- `what-india-is-actually-paying-for` — 33,980 → 34,335 bytes (+355)
+- `indias-coking-coal-import-problem-and` — 45,912 → 46,267 bytes (+355)
+- `where-worlds-oil-sits-when-it-isnt` — 43,761 → 44,116 bytes (+355)
+- `rin-red-and-cbio-what-indias-ethanol` — 36,119 → 36,474 bytes (+355)
+- `one-gallon-five-numbers-how-gcam-fits` — 25,745 → 26,100 bytes (+355)
+- `price-is-wire-how-gcam-actually-links` — 39,662 → 40,017 bytes (+355)
+- `the-margin-case-why-lpg-and` — 35,652 → 36,007 bytes (+355)
+- `from-barrel-to-bottle-petrochemical` — 29,199 → 29,554 bytes (+355)
+- `the-fcc-lever-trading-petrol-yield-for` — 35,026 → 35,381 bytes (+355)
+- `fuel-and-bottle-two-taxes-states-never` — 29,340 → 29,695 bytes (+355)
+- `the-barrel-really-is-shifting-indias` — 30,873 → 31,228 bytes (+355)
+- `the-case-for-biofuels-over-imports` — 26,759 → 27,114 bytes (+355)
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 29,073 → 29,428 bytes (+355)
+- `would-more-sgst-fix-donor-state-problem` — 24,141 → 24,496 bytes (+355)
+- `tamil-nadus-gst-gap-108-economy-growing` — 23,871 → 24,226 bytes (+355)
+- `uttar-pradeshs-gst-puzzle-growing` — 26,172 → 26,527 bytes (+355)
+- `who-collects-indias-gst-and-who` — 29,859 → 30,214 bytes (+355)
+- `indias-two-tracks-of-health-cover-and` — 23,426 → 23,781 bytes (+355)
+- `abha-what-indias-14-digit-health-id` — 23,716 → 24,071 bytes (+355)
+- `mrs-watanabe-traded-from-kitchen-table` — 26,088 → 26,443 bytes (+355)
+- `do-cheap-stocks-stay-cheap-price-band` — 89,868 → 90,223 bytes (+355)
+- `050-is-its-own-category-diving-into` — 18,518 → 18,873 bytes (+355)
+- `below-250-is-where-real-junk-lives` — 18,883 → 19,238 bytes (+355)
+- `why-bet-on-one-horse-when-you-can-buy` — 33,529 → 33,884 bytes (+355)
+- `tiffin-meets-thali-10-day-sip-already` — 20,078 → 20,433 bytes (+355)
+- `a-slice-of-apple-costs-about-1700-slice` — 49,737 → 50,092 bytes (+355)
+- `indias-lock-imports-hit-19784-million` — 23,748 → 24,103 bytes (+355)
+- `indias-used-oil-epr-wants-half-of-all` — 27,410 → 27,765 bytes (+355)
+- `ahidf-has-sanctioned-19751-crore-in` — 22,263 → 22,618 bytes (+355)
+- `the-503020-rule-is-elizabeth-warrens` — 20,954 → 21,309 bytes (+355)
+- `thali-investing-whats-actually-on-plate` — 29,474 → 29,829 bytes (+355)
+- `the-rule-of-72-rule-of-114-and-how-to` — 24,836 → 25,191 bytes (+355)
+- `india-has-tax-treaties-with-97` — 25,500 → 25,855 bytes (+355)
+- `up-has-indias-biggest-herd-punjab-has` — 25,772 → 26,127 bytes (+355)
+- `cow-dung-already-flew-rocket-engine` — 38,774 → 39,129 bytes (+355)
+- `one-refinery-flipped-nigeria-from` — 31,943 → 32,298 bytes (+355)
+- `indias-epr-regime-just-got-teeth-and` — 22,292 → 22,647 bytes (+355)
+- `indias-trade-story-has-three-big-wins` — 21,050 → 21,405 bytes (+355)
+- `indias-fertiliser-import-bill-hits-18` — 24,808 → 25,163 bytes (+355)
+- `indias-food-processing-story-pli-scheme` — 23,874 → 24,229 bytes (+355)
+- `cocoas-blockchain-reckoning-one` — 23,279 → 23,634 bytes (+355)
+- `from-cane-to-code-digital-layer` — 24,581 → 24,936 bytes (+355)
+- `thermal-parity-is-dead-what-85-oil-and` — 29,441 → 29,796 bytes (+355)
+- `lpgs-missing-number-7308-commission-and` — 25,532 → 25,887 bytes (+355)
+- `beyond-pump-what-upi-fee-would-cost` — 35,739 → 36,094 bytes (+355)
+- `cheap-yen-rupee-roads-where-carry-trade` — 24,771 → 25,126 bytes (+355)
+- `where-india-actually-burns-its-fuel` — 22,061 → 22,416 bytes (+355)
+- `city-gas-just-became-indias-largest-gas` — 24,336 → 24,691 bytes (+355)
+- `upi-fees-are-now-legal-petrol-pumps` — 36,677 → 37,032 bytes (+355)
+- `south-africa-lost-its-gulf-fuel-supply` — 26,750 → 27,105 bytes (+355)
+- `india-sells-world-53-billion-of-fuel` — 30,283 → 30,638 bytes (+355)
+- `europe-bought-record-amount-of-lng-and` — 40,536 → 40,891 bytes (+355)
+- `petroleum-trade-pairings-and-us-crude` — 144,138 → 144,493 bytes (+355)
+- `inflation-trends-globally-what-five` — 52,688 → 53,043 bytes (+355)
+- `indias-wholesale-prices-next-to` — 40,048 → 40,403 bytes (+355)
+- `reinvesting-capital-gains-in-higher` — 29,770 → 30,125 bytes (+355)
+- `diesel-doesnt-move-cpi-it-moves-40` — 35,555 → 35,910 bytes (+355)
+- `chemical-import-substitution-hsn-8-registry` — 21,472 → 21,827 bytes (+355)
+- `indias-oil-fields-are-running-down-3696` — 20,796 → 21,151 bytes (+355)
+- `rooftop-solar-is-working-household` — 18,512 → 18,867 bytes (+355)
+- `fourteen-years-of-indian-wholesale` — 27,097 → 27,452 bytes (+355)
+- `europes-export-credit-agencies-are` — 22,485 → 22,840 bytes (+355)
+- `indias-state-incentive-war-gujarats` — 31,795 → 32,150 bytes (+355)
+- `where-indias-green-hydrogen-bets-are` — 20,012 → 20,367 bytes (+355)
+- `indias-ethanol-surplus-isnt-going-to` — 20,903 → 21,258 bytes (+355)
+- `the-empty-shed-greenhouse-what-indias` — 11,889 → 12,244 bytes (+355)
+- `indias-animal-protein-export-complex` — 11,063 → 11,418 bytes (+355)
+- `indias-tyre-waste-problem-and-crumb` — 13,771 → 14,126 bytes (+355)
+- `whos-actually-building-mri-and-ct` — 10,628 → 10,983 bytes (+355)
+- `the-ethanol-sectors-buyers-market` — 11,009 → 11,364 bytes (+355)
+- `rare-earth-magnets-and-specialty-steel` — 10,655 → 11,010 bytes (+355)
+- `vehicles-out-motors-in-indias-chapter` — 10,657 → 11,012 bytes (+355)
+- `about-author` — 27,611 → 27,966 bytes (+355)
+- `fuel-pricing-to-crude-cost` — 79,850 → 80,205 bytes (+355)
+- `pli-medical-devices-coverage-and-gaps` — 19,833 → 20,188 bytes (+355)
+- `indias-medical-device-trade-gap-and` — 24,601 → 24,956 bytes (+355)
+- `jai-kisan-jai-javan-fci-based-military` — 19,366 → 19,721 bytes (+355)
+- `annadata-to-urjadata-farmer-income-case` — 39,807 → 40,162 bytes (+355)
+- `if-india-paid-brics-in-rupees-scenario` — 32,864 → 33,219 bytes (+355)
+- `lok-sabha-question-registry-1843-scheme` — 462,711 → 463,066 bytes (+355)
+- `rajya-sabha-question-registry-scheme` — 326,097 → 326,452 bytes (+355)
+- `the-most-discussed-schemes-in` — 33,961 → 34,316 bytes (+355)
+- `quarterly-reportage-4034-scheme` — 539,674 → 540,029 bytes (+355)
+- `indian-it-in-ai-era` — 37,611 → 37,966 bytes (+355)
+- `securitising-deficit-what-it-would` — 121,510 → 121,865 bytes (+355)
+- `the-rupee-fell-10-and-exports-grew-09` — 36,612 → 36,967 bytes (+355)
+- `the-price-and-tap-two-levers-behind` — 21,752 → 22,107 bytes (+355)
+- `raising-green-debt-globally-rec-euroyen` — 64,784 → 65,139 bytes (+355)
+- `half-of-indias-import-bill-is` — 24,485 → 24,840 bytes (+355)
+- `re-spinning-charkha` — 26,278 → 26,633 bytes (+355)
+- `annexure-314-hsn-codes-mapped-to` — 45,780 → 46,135 bytes (+355)
+- `from-fuel-to-fibre-indias-textile` — 35,026 → 35,381 bytes (+355)
+- `greenhouse-emissions-reduction-and-cbam` — 26,711 → 27,066 bytes (+355)
+- `indias-carbon-credit-market-domestic` — 31,173 → 31,528 bytes (+355)
+- `bio-fertiliser-and-green-credits` — 45,190 → 45,545 bytes (+355)
+- `nature-versus-nurture-indias-fertiliser` — 78,448 → 78,803 bytes (+355)
+- `announced-vs-delivered-three-indian` — 45,460 → 45,815 bytes (+355)
+- `a-tax-play-grow-ethanol-sgst-revenue` — 40,178 → 40,533 bytes (+355)
+- `state-by-state-who-actually-earns-from` — 54,340 → 54,695 bytes (+355)
+- `indias-ev-market-single-digit` — 38,497 → 38,852 bytes (+355)
+- `cpi-inflation-heatmap-india-june-2026` — 72,895 → 73,250 bytes (+355)
+- `hsn-wise-historical-importexport-trends` — 32,176 → 32,531 bytes (+355)
+- `import-dependent-sectors-vs-government` — 26,309 → 26,664 bytes (+355)
+- `effective-buying-power-china-comparison` — 35,536 → 35,891 bytes (+355)
+- `priority-trade-partners-by-import` — 43,253 → 43,608 bytes (+355)
+- `indias-trade-balance-hsn-wise` — 55,929 → 56,284 bytes (+355)
+- `fy2025-26-sample-report-india-trade` — 35,857 → 36,212 bytes (+355)
+- `five-year-synthesis-trade-currency` — 42,783 → 43,138 bytes (+355)
+- `imported-fertiliser-fuel-prices-diesel` — 34,016 → 34,371 bytes (+355)
+- `priority-export-destinations-by-growth` — 40,518 → 40,873 bytes (+355)
+- `cpi-wpi-trends-mospi-bulletin` — 45,052 → 45,407 bytes (+355)
+- `where-indias-forex-goes-country` — 45,499 → 45,854 bytes (+355)
+- `real-gdp-growth-india-fy2012-13-to` — 29,753 → 30,108 bytes (+355)
+- `rbi-foreign-exchange-reserves-20152026` — 49,861 → 50,216 bytes (+355)
+- `discom-debt-relief-token-charge` — 24,021 → 24,376 bytes (+355)
+- `iem-conversion-historical-performance` — 20,852 → 21,207 bytes (+355)
+- `where-indias-factories-actually-get` — 43,674 → 44,029 bytes (+355)
+- `article-index-start-here` — 207,619 → 207,974 bytes (+355)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 125,091 → 125,446 bytes (+355)
+- `top-15-chemicals-for-import` — 82,884 → 83,239 bytes (+355)
+- `chemical-import-substitution-quarterly` — 53,793 → 54,148 bytes (+355)
+- `top-15-chemicals-for-import--4751284523575450171` — 22,251 → 22,606 bytes (+355)
+- `chemical-import-substitution-analysis` — 33,883 → 34,238 bytes (+355)
+- `india-grain-cultivation-fci-storage` — 80,502 → 80,857 bytes (+355)
+- `the-grain-value-loop-integrated-rice` — 77,727 → 78,082 bytes (+355)
+- `ai-high-demand-launch-tracker` — 38,233 → 38,588 bytes (+355)
+- `the-recycling-lottery-playbook-norways` — 25,169 → 25,524 bytes (+355)
+- `indias-subsidised-imports-fertilisers` — 34,552 → 34,907 bytes (+355)
+- `india-mineral-oil-hsn-ch27-trade` — 107,943 → 108,298 bytes (+355)
+- `the-cbg-incentive-stack-every-leg-of` — 18,072 → 18,427 bytes (+355)
+- `textile-hsn-deep-dive-apparel-vs-mmf` — 17,612 → 17,967 bytes (+355)
+- `indias-textile-import-export-strategy` — 42,344 → 42,699 bytes (+355)
+- `ethanol-blending-omc-books-e20-today-vs` — 41,669 → 42,024 bytes (+355)
+- `the-price-of-grain-msp-msv-and` — 36,052 → 36,407 bytes (+355)
+- `the-fearless-girls-charter-indias` — 23,524 → 23,879 bytes (+355)
+- `india-forest-wildlife-crz-clearances` — 22,454 → 22,809 bytes (+355)
+- `india-ec-approval-funnel-parivesh-20` — 16,427 → 16,782 bytes (+355)
+- `india-environmental-clearances-state` — 15,101 → 15,456 bytes (+355)
+- `tech-for-business-so-2019-tech-as` — 34,667 → 35,022 bytes (+355)

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-08-16T13:56:04.630+05:30",
+  "updated": "2026-08-16T15:12:34.930+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 26278,
-  "sha256": "2c29a478d257936df51a479cfd3d8ab34e9f12ebacb3ff3a6b3a8880f57ac86b",
+  "bytes": 26633,
+  "sha256": "50f0707961015a7bf916d221530f4eb9ff7856308ff35b0abf9865b8db61bc06",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "bytes": [
         25750,
         26278
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26278,
+        26633
       ],
       "url_changed": null,
       "markers_changed": null,

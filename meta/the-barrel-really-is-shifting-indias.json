@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
   "slug": "the-barrel-really-is-shifting-indias",
   "published": "2026-08-12T20:24:23.000+05:30",
-  "updated": "2026-08-16T13:51:12.562+05:30",
+  "updated": "2026-08-16T15:07:55.691+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 30873,
-  "sha256": "ba43fe88fa894eb68e5fb45554b1117bee30d6a72113185d9b6643f2aa6d9cfc",
+  "bytes": 31228,
+  "sha256": "ce94542b6d936fdc22d47612113cb9529196626b1d773a2e4d11117bd65c8bb9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "1.1.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "bytes": [
         30345,
         30873
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        30873,
+        31228
       ],
       "url_changed": null,
       "markers_changed": null,

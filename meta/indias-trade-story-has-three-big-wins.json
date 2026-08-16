@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-08-16T13:52:52.655+05:30",
+  "updated": "2026-08-16T15:09:38.612+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 21050,
-  "sha256": "72408fbb300f13a6bd6c04ace9052dddec407f7147a3738b788b0e6096bed4db",
+  "bytes": 21405,
+  "sha256": "4f8dedbea4305b6666fdb5b29f1664d16509299a65613b8c9f21aeb97bcd13f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -117,6 +117,19 @@
       "bytes": [
         20522,
         21050
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21050,
+        21405
       ],
       "url_changed": null,
       "markers_changed": null,

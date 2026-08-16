@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html",
   "slug": "the-currency-rupee-trends-piece-left",
   "published": "2026-08-14T18:48:54.000+05:30",
-  "updated": "2026-08-16T13:50:13.608+05:30",
+  "updated": "2026-08-16T15:06:53.681+05:30",
   "labels": [
     "Currency Markets"
   ],
-  "bytes": 33535,
-  "sha256": "2c2610a0406223a56a455242420de6437e6305405e18e57c5097a97107b711d5",
+  "bytes": 33890,
+  "sha256": "19aa32e4dfeae2e9364a97e05c61de25cd7afbf388709364ea113d286fc68733",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -38,6 +38,19 @@
       "bytes": [
         33007,
         33535
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33535,
+        33890
       ],
       "url_changed": null,
       "markers_changed": null,

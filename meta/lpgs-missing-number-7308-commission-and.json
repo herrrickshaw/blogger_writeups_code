@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-08-16T13:53:15.008+05:30",
+  "updated": "2026-08-16T15:09:58.382+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 25532,
-  "sha256": "c649ac0ea5d7eeeea29646ea92e931a0c9cb12c3dc5cd670bcd330fa60647402",
+  "bytes": 25887,
+  "sha256": "7cabcd2f842bce29771d16b2f52a8b0d69944d6241fed457ac48222cce36737f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "2.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -118,6 +118,19 @@
       "bytes": [
         25004,
         25532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.7",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25532,
+        25887
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-08-16T13:57:23.422+05:30",
+  "updated": "2026-08-16T15:13:53.070+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 40518,
-  "sha256": "cde13ab4e5bf3daf55bb18dc009dc29409fd6d23418a2f2469e7e29cda3b07ff",
+  "bytes": 40873,
+  "sha256": "476f5989fffafa3756714c872795a9b1ee484049afba06aac20c5a3980d69feb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "bytes": [
         39990,
         40518
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        40518,
+        40873
       ],
       "url_changed": null,
       "markers_changed": null,

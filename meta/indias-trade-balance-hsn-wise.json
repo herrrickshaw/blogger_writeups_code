@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-08-16T13:57:08.580+05:30",
+  "updated": "2026-08-16T15:13:36.939+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 55929,
-  "sha256": "49dc7808d5544fffba1f452ba42c5d4d5cbe5fbc0f5f8772c77ed4fb057e9a24",
+  "bytes": 56284,
+  "sha256": "43fcdfcd0185530173054693cd9d0959ec5a0732ec2b99b357bf70729b824bf7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -151,6 +151,19 @@
       "bytes": [
         55401,
         55929
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        55929,
+        56284
       ],
       "url_changed": null,
       "markers_changed": null,

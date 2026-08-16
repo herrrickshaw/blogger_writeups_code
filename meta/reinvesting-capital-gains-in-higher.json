@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-08-16T13:54:03.784+05:30",
+  "updated": "2026-08-16T15:10:44.505+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29770,
-  "sha256": "fef1a7decaec5dbd614eb0a4ba191336fce44fed296d56a77b113541f56f8652",
+  "bytes": 30125,
+  "sha256": "f7b3ac990438b4df08057cc3dcdf365457e2e873811139eef304a52b9d75d1ba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -142,6 +142,19 @@
       "bytes": [
         29242,
         29770
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29770,
+        30125
       ],
       "url_changed": null,
       "markers_changed": null,

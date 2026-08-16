@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-08-16T13:51:42.520+05:30",
+  "updated": "2026-08-16T15:08:24.826+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 23716,
-  "sha256": "e72d83a4182a5cd06323fbe5640b39a1cf7b76a85a63eb06434dfb253c9399e1",
+  "bytes": 24071,
+  "sha256": "94dcfca6f527d0f9dcdd1d7bbb33faaf6cd2cb4fa91be5a11773c62d2a37db67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.3",
+  "version": "1.1.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "bytes": [
         23188,
         23716
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23716,
+        24071
       ],
       "url_changed": null,
       "markers_changed": null,

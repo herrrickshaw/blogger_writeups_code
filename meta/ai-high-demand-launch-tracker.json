@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-16T13:58:38.725+05:30",
+  "updated": "2026-08-16T15:15:00.941+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 38233,
-  "sha256": "576dd0ab04dd4ffff0cc32e4e4a8cf7ebebd0bea381d5dfb2c222f6e5465b29e",
+  "bytes": 38588,
+  "sha256": "38ec9b679507763b23ba10b78c64a54d7cfe993942f8df3767a0877786ec329d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.10",
+  "version": "3.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -217,6 +217,19 @@
       "bytes": [
         37705,
         38233
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.11",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38233,
+        38588
       ],
       "url_changed": null,
       "markers_changed": null,

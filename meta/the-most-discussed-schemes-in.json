@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-04T15:50:00.000+05:30",
-  "updated": "2026-08-16T13:55:27.271+05:30",
+  "updated": "2026-08-16T15:12:01.383+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 33961,
-  "sha256": "a5a87791959f260aef7eb86470d1bd64ed3a2314d92dfad97f85d33ab00ab323",
+  "bytes": 34316,
+  "sha256": "f4a7a2b65ff513b695ca979a47acf5e1caf14bbd04c3e75af396d74674fb264f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -151,6 +151,19 @@
       "bytes": [
         33433,
         33961
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        33961,
+        34316
       ],
       "url_changed": null,
       "markers_changed": null,

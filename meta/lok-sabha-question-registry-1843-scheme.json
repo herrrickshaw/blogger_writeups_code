@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
   "slug": "lok-sabha-question-registry-1843-scheme",
   "published": "2026-08-04T16:00:00.000+05:30",
-  "updated": "2026-08-16T13:55:15.296+05:30",
+  "updated": "2026-08-16T15:11:49.498+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 462711,
-  "sha256": "af1f693474fb068d9f2a0dab10b89b0451c66947cd49337cd50960d336cbaa30",
+  "bytes": 463066,
+  "sha256": "0f8cbfed95078197674dacf8d235957518d06fd2ba1342173815921c08e87ce0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -152,6 +152,19 @@
       "bytes": [
         462183,
         462711
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        462711,
+        463066
       ],
       "url_changed": null,
       "markers_changed": null,

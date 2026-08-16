@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
   "slug": "south-africa-lost-its-gulf-fuel-supply",
   "published": "2026-08-08T12:55:40.000+05:30",
-  "updated": "2026-08-16T13:53:37.382+05:30",
+  "updated": "2026-08-16T15:10:20.764+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 26750,
-  "sha256": "a1ec7b8d9e59d540075bc30befecfeebd24b6930258a16cd1cbd7bdc1896ddd2",
+  "bytes": 27105,
+  "sha256": "b654858bb315465aee079e1212eb70b1fe50fc091bd3400621bf18a51bdb8729",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -130,6 +130,19 @@
       "bytes": [
         26222,
         26750
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        26750,
+        27105
       ],
       "url_changed": null,
       "markers_changed": null,

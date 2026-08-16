@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-08-16T13:51:09.454+05:30",
+  "updated": "2026-08-16T15:07:51.620+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 29340,
-  "sha256": "582077e4c57d08662743c7b82ee11d65d5474227f3e1dce7e3122eff01e2c207",
+  "bytes": 29695,
+  "sha256": "f346a42c05efcd06dead1c1c6710a2904a480929dd0ed28cd5d4e4b99300d464",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.5",
+  "version": "1.2.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,19 @@
       "bytes": [
         28812,
         29340
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.6",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        29340,
+        29695
       ],
       "url_changed": null,
       "markers_changed": null,

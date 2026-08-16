@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
   "slug": "pet-recycling-already-cuts-emissions-60",
   "published": "2026-08-16T07:25:04.000+05:30",
-  "updated": "2026-08-16T13:49:43.782+05:30",
+  "updated": "2026-08-16T15:06:23.314+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "India Trade & Policy"
   ],
-  "bytes": 21615,
-  "sha256": "7043d8f9cccb235400d12b31297e19b5b95724f9775a60a53dc0f5f495f0c98b",
+  "bytes": 21970,
+  "sha256": "c1a8a6d3b214736246693ebfa8623a0b35a9362c654a7a7aa4b4ed131d2d722a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "bytes": [
         21087,
         21615
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21615,
+        21970
       ],
       "url_changed": null,
       "markers_changed": null,

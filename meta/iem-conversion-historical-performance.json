@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-08-16T13:57:46.518+05:30",
+  "updated": "2026-08-16T15:14:15.202+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 20852,
-  "sha256": "3c19e7cb3349131349f8f44c6be23f4af71bd5e080c1a6b12595fc899b02bb0a",
+  "bytes": 21207,
+  "sha256": "3efc24bf5d05bd274280bcac81a698a5dc05343a223b7d47dfba5f39fa86c16a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "bytes": [
         20324,
         20852
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20852,
+        21207
       ],
       "url_changed": null,
       "markers_changed": null,

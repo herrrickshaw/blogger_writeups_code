@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html",
   "slug": "from-fuel-to-fibre-indias-textile",
   "published": "2026-08-03T09:12:32.000+05:30",
-  "updated": "2026-08-16T13:56:11.564+05:30",
+  "updated": "2026-08-16T15:12:43.563+05:30",
   "labels": [
     "Import Substitution",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 35026,
-  "sha256": "5226e6926128fa982c8ed4d4f4219c01e3ac0e50974f1ce4fe849e1d2637e1b5",
+  "bytes": 35381,
+  "sha256": "1c77b42cc98d9de88b3aa7d86df770a834a135be9ed6287659d021a9488637c3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "1.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -144,6 +144,19 @@
       "bytes": [
         34498,
         35026
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        35026,
+        35381
       ],
       "url_changed": null,
       "markers_changed": null,

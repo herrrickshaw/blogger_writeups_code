@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
   "slug": "ahidf-has-sanctioned-19751-crore-in",
   "published": "2026-08-10T08:41:50.000+05:30",
-  "updated": "2026-08-16T13:52:21.047+05:30",
+  "updated": "2026-08-16T15:09:02.554+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 22263,
-  "sha256": "8d99ef03c3eb6703f054294593640e3f1e24b37257b3871faa7314f8bacb1f97",
+  "bytes": 22618,
+  "sha256": "3ac448b3c4e9d9057feb7d6a6838c4283e1c9d9362c65544741075fea45bbec0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "bytes": [
         21735,
         22263
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-16T15:22:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        22263,
+        22618
       ],
       "url_changed": null,
       "markers_changed": null,
