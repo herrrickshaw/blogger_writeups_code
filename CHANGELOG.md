@@ -6049,3 +6049,13 @@ scheduled sync
 **Changed**
 
 - `not-drop-out-ethanols-zero-liquid` — 30,258 → 36,220 bytes (+5,962)
+
+## 2026-08-17T22:13:07+05:30 — 168 posts live
+
+**Versions**
+
+- `not-drop-out-ethanols-zero-liquid` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `not-drop-out-ethanols-zero-liquid` — 36,220 → 43,374 bytes (+7,154)
