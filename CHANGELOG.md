@@ -5967,3 +5967,13 @@ scheduled sync
 **Added**
 
 - `scan-bottle-deliver-what-ppacs-numbers` **v1.0.0** — Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen (23,587 bytes)
+
+## 2026-08-17T07:23:04+05:30 — 166 posts live
+
+**Versions**
+
+- `article-index-start-here` **24.2.9 → 25.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 207,974 → 208,889 bytes (+915)
