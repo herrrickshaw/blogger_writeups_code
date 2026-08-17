@@ -6073,3 +6073,13 @@ scheduled sync
 **Changed**
 
 - `not-drop-out-ethanols-zero-liquid` — 43,374 → 43,568 bytes (+194)
+
+## 2026-08-18T04:43:09+05:30 — 169 posts live
+
+**Versions**
+
+- `article-index-start-here` **27.0.0 → 28.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 210,625 → 211,028 bytes (+403)
