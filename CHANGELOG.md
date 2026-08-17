@@ -6059,3 +6059,17 @@ scheduled sync
 **Changed**
 
 - `not-drop-out-ethanols-zero-liquid` — 36,220 → 43,374 bytes (+7,154)
+
+## 2026-08-18T04:41:47+05:30 — 169 posts live
+
+**Added**
+
+- `the-water-bill-nobody-mentions-what` **v1.0.0** — The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans (21,993 bytes)
+
+**Versions**
+
+- `not-drop-out-ethanols-zero-liquid` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `not-drop-out-ethanols-zero-liquid` — 43,374 → 43,568 bytes (+194)
