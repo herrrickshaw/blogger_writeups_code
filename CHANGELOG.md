@@ -6015,3 +6015,17 @@ scheduled sync
 
 - `ethanols-coal-boilers-briquette-gap-and` — 32,046 → 32,268 bytes (+222)
 - `annadata-to-urjadata-farmer-income-case` — 40,162 → 40,599 bytes (+437)
+
+## 2026-08-17T21:50:29+05:30 — 168 posts live
+
+**Added**
+
+- `not-drop-out-ethanols-zero-liquid` **v1.0.0** — Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It (30,258 bytes)
+
+**Versions**
+
+- `ethanols-coal-boilers-briquette-gap-and` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ethanols-coal-boilers-briquette-gap-and` — 32,268 → 32,468 bytes (+200)

@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-17T17:52:32+05:30",
-  "count": 167,
+  "snapshot": "2026-08-17T21:50:29+05:30",
+  "count": 168,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -22078,6 +22078,42 @@
         }
       ]
     },
+    "7714544472537767701": {
+      "id": "7714544472537767701",
+      "title": "Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
+      "slug": "not-drop-out-ethanols-zero-liquid",
+      "published": "2026-08-17T21:43:00.000+05:30",
+      "updated": "2026-08-17T21:48:55.423+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Environment & Clearances",
+        "Ethanol & Biofuels"
+      ],
+      "bytes": 30258,
+      "sha256": "64dd1f3be5c985a8a3d28a39e5098155438ff0cfeb8f4f2e2c07bc9d1a91a573",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-17T21:50:29+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "7866802904186623558": {
       "id": "7866802904186623558",
       "title": "Rice Cultivation and Innovation",
@@ -25958,14 +25994,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
       "slug": "ethanols-coal-boilers-briquette-gap-and",
       "published": "2026-08-17T09:07:49.000+05:30",
-      "updated": "2026-08-17T17:50:57.586+05:30",
+      "updated": "2026-08-17T21:45:28.098+05:30",
       "labels": [
         "Carbon Markets",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 32268,
-      "sha256": "db0b5e1454ded26e88e48ab7984b63cccf743d0a75cc0d777a35b34d8d9271b3",
+      "bytes": 32468,
+      "sha256": "72d3d72e249aad4696d091b98db553060913819f4ec08f644f4e5c5842d6b7b4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25977,7 +26013,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26007,6 +26043,19 @@
           "bytes": [
             32046,
             32268
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-17T21:50:29+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            32268,
+            32468
           ],
           "url_changed": null,
           "markers_changed": null,
