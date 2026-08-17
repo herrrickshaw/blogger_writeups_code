@@ -10,3 +10,4 @@
 - **[GRAMMAR/ADVERB_OR_HYPHENATED_ADJECTIVE]** Make sure that the adjective ‘single’ is correct. Possibly, it should be an adverb (typically ~ly) that modifies ‘fixed’. Possibly, it should be the first word in a compound adjective (hyphenated adjective). Possibly, it is correct.
   context: ...only real-world example because it is a single fixed number with no estimation involved; it ...
   suggested: single-fixed
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
