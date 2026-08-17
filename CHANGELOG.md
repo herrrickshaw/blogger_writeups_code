@@ -6039,3 +6039,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 209,754 → 210,625 bytes (+871)
+
+## 2026-08-17T22:01:58+05:30 — 168 posts live
+
+**Versions**
+
+- `not-drop-out-ethanols-zero-liquid` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `not-drop-out-ethanols-zero-liquid` — 30,258 → 36,220 bytes (+5,962)
