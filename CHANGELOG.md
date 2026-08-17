@@ -6029,3 +6029,13 @@ scheduled sync
 **Changed**
 
 - `ethanols-coal-boilers-briquette-gap-and` — 32,268 → 32,468 bytes (+200)
+
+## 2026-08-17T21:51:47+05:30 — 168 posts live
+
+**Versions**
+
+- `article-index-start-here` **26.0.0 → 27.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 209,754 → 210,625 bytes (+871)
