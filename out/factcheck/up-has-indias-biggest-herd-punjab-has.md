@@ -16,19 +16,19 @@ Source: `posts/up-has-indias-biggest-herd-punjab-has.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99881, Requested 3784. Please try again in 52m46.56s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99615, Requested 3828. Please try again in 49m34.752s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. The article rounds incorrectly. [confidence: high]
 
-- "247.87 MT Milk production, 2024-25 — up 3.58% year-on-year, per BAHS 2025" — The article does not specify whether "MT" refers to metric tonnes or million tonnes, which are numerically equivalent but contextually distinct. The abbreviation is ambiguous. [confidence: medium]
+- "247.87 MT Milk production, 2024-25 — up 3.58% year-on-year, per BAHS 2025" — The article does not specify the unit "MT" (million tonnes) in the claim itself, but the context implies it. However, the claim is accurate as per the cited source (DAHD Basic Animal Husbandry Statistics 2025). No error found here. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While the claim about Uttar Pradesh's milk production share is factually correct, the implication that its large herd size *causes* its high milk output is an oversimplification. The article later acknowledges that Punjab achieves higher yield per animal despite a smaller herd, showing that production depends on both herd size *and* productivity. The causal claim that herd size alone explains Uttar Pradesh's output is not supported by the data presented. [confidence: high]
+- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While the claim about Uttar Pradesh's milk production share is factually correct, the article implies a causal link between herd size and milk production share without acknowledging that yield per animal (efficiency) also plays a significant role. The reasoning gap is that herd size alone does not fully explain milk production share; yield per animal is a critical factor, as shown in Exhibit 2 (e.g., Punjab's high yield despite smaller herd size). [confidence: high]
 
-- "The headcount Parliament was given is a 2019 snapshot... Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites — including the one placed on the record in December 2025 — is a 2019 measurement of a sector that has since grown at nearly 13% a year." — The article correctly notes that the 2019 census is outdated and that the sector has grown, but it extrapolates a 12.77% CAGR (from FY2014-15 to FY2023-24) to claim that the livestock population has grown "nearly 13% a year" since 2019. This is an apples-to-oranges comparison: the CAGR refers to *production* growth, not *population* growth. The article conflates the two metrics without justification. [confidence: high]
+- "The livestock-population count, however current, only measures the first of these." — This claim is accurate, but the article does not sufficiently emphasize that the 2019 census data is outdated and cannot reflect recent growth or changes in herd distribution. The reasoning gap is that the article does not clearly state that using 2019 census data to explain current production dynamics is flawed due to the time lag, even if the general point about population counts measuring only one aspect is correct. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,21 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99351, Requested 6116. Please try again in 1h18m43.488s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99040, Requested 6115. Please try again in 1h14m13.92s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as "31 Jul 2026," which is only 16 days later. This is chronologically impossible (approval cannot occur after the data cutoff for the same fiscal year). The correct approval date should likely be earlier in the fiscal year (e.g., July 2025). [confidence: high]
+- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where the approval occurs before the data cutoff, which is impossible. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The subsidy estimate for urea (~₹1.19 lakh crore) and NBS (~₹49,000 crore) sums to ~₹1.68 lakh crore, but the article rounds this to ₹1.5–1.7 lakh crore. While the rounding is technically correct, the phrasing implies the total is an estimate, whereas the sum of the two components is a precise figure. This could mislead readers into thinking the total is an independent estimate rather than a derived calculation. [confidence: medium]
-
----
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore. However, the total subsidy cost for fertilizers is stated as ₹1.5–1.7 lakh crore, which suggests the urea subsidy alone cannot exceed the total subsidy range. This is a double-counting error. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that the 12 categories account for 81.6% of total imports ($632.8bn/$775bn), but this is based on the *subsidised* categories list, which includes items like Gems & Jewellery (no subsidy) and Plastics (no scheme). The conclusion that these categories are "subsidised" is misleading because the article itself flags several as having no identified subsidy or protection. The 81.6% share is thus an apples-to-oranges comparison: it mixes subsidised and non-subsidised items under the same umbrella. [confidence: high]
+- "Plastics ($22.2bn) growing +0.54% with ZERO scheme — the standout gap in the analysis. No PLI, no mission, minimal tariff." — The article identifies plastics as a gap with no scheme and minimal tariff, but then uses this to imply it is a major import-substitution opportunity. However, the flat growth (+0.54%) suggests demand is stable, and the lack of subsidy may not be a problem if domestic production is sufficient or demand is met through other means. The conclusion that this is a "standout gap" is not supported by the data showing minimal growth. [confidence: high]
 
-- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — The article correctly notes that mineral fuels fell YoY, but it conflates two distinct points: (1) the *import bill* fell due to lower global prices, and (2) the *subsidy cost* may have been lower as a result. However, the statement implies that the subsidy "saved money" in a causal sense (i.e., the government spent less on subsidies because prices fell), which is not necessarily true. Subsidies in India for fuels are demand-side (to hold domestic prices low), so the government absorbs the price gap *regardless* of global prices. The subsidy cost could have risen or fallen independently of the import bill. The reasoning gap is that the article assumes a direct causal link between lower import bills and lower subsidy outlays, which is not supported by the data. [confidence: high]
+- "Gems/Jewelry ($109.4bn) up +23% — not a subsidy target — it's re-export flow. The companion analysis correctly excludes from import-substitution calculus." — The article correctly notes that gems and jewelry imports are re-export flows and not consumption imports, but then uses this to dismiss the entire category as irrelevant to import substitution. However, the sheer size of the imports ($109.4bn) and their growth (+23%) still represent a significant trade flow that could impact the trade deficit, even if not directly substitutable. The interpretation that this category is irrelevant to trade policy is an overgeneralization. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

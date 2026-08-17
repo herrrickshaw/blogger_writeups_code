@@ -16,19 +16,19 @@ Source: `posts/rooftop-solar-is-working-household.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98985, Requested 2094. Please try again in 15m32.256s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99957, Requested 2094. Please try again in 29m32.064s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹78,000 Maximum central subsidy, 3 kW and above, under PM Surya Ghar" — The subsidy table shows ₹78,000 is only for 3 kW systems, not "3 kW and above." For systems larger than 3 kW, the subsidy remains capped at ₹78,000. [confidence: high]
+- "₹78,000 Maximum central subsidy, 3 kW and above, under PM Surya Ghar" — The article later contradicts this by stating the subsidy is capped at ₹78,000 for systems of 3 kW and above, with the marginal rate stepping down from 60% to 40% in the third kilowatt. The claim implies ₹78,000 is the maximum for all systems 3 kW and above, but the subsidy does not increase beyond 3 kW, making the phrasing misleading. [confidence: high]
 
-- "₹0 Central subsidy available to a household adding a battery" — The article claims no subsidy is available for household batteries under PM Surya Ghar, but this is not explicitly stated in the cited sources (MNRE guidelines or PIB releases). The absence of evidence does not confirm the claim. [confidence: medium]
+- "~12 GW Rooftop capacity added since Feb 2024, ~33 lakh systems (May 2026)" — The article cites PIB figures stating 9,566.89 MW as of 20 March 2026 and "above 12 GW" as of May 2026. However, 12 GW is 12,000 MW, which is a significant jump from 9,566.89 MW in just over two months. The lack of clarity on whether the "above 12 GW" figure is rounded or includes projections introduces uncertainty. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — The article presents these projections as direct outputs of the PM Surya Ghar scheme, but it does not clarify whether these estimates account for system degradation, actual usage patterns, or grid integration challenges. The projections may overstate real-world benefits without proper caveats. [confidence: high]
+- "The government's own estimate is that rooftop solar across one crore households would generate roughly 1,000 billion units of renewable electricity and avoid about 720 million tonnes of CO₂e over a 25-year system life." — The article presents these projections as direct outcomes of the PM Surya Ghar scheme without clarifying whether these estimates account for system degradation, maintenance downtime, or variations in solar insolation across regions. The projections may overstate actual generation and emissions savings. [confidence: high]
 
-- "The marginal rate also steps down from 60% to 40% in the third kilowatt. Both features push households toward small systems, which is deliberate: the scheme is designed to cover a typical domestic load, not to subsidise a household becoming a generator." — While the subsidy structure may incentivize smaller systems, the article does not provide evidence that this was an explicit policy goal. The claim assumes intent without citing supporting documentation (e.g., MNRE policy statements or scheme guidelines). [confidence: medium]
+- "A domestic battery of that size is roughly ₹1.5–3 lakh installed at current prices, which is comfortably more than the entire subsidy on the panels it would serve." — While the battery cost estimate may be accurate, the article does not provide a cost-benefit analysis or payback period for households considering adding a battery. The claim implies that the lack of subsidy is the sole barrier, but other factors like electricity tariffs, battery lifespan, and grid reliability also influence the decision. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

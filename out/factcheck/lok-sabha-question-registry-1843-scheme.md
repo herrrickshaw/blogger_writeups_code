@@ -16,19 +16,19 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99200, Requested 1336. Please try again in 7m43.104s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98935, Requested 1293. Please try again in 3m16.992s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "17th and 18th Lok Sabha (2019-06-17 → 2026-08-04)" — The 17th Lok Sabha's term ended in 2024, not 2026. The 18th Lok Sabha began in 2024, but the end date (2026-08-04) is incorrect as it implies the current date is in 2026, which is not accurate. [confidence: high]
+- "17th and 18th Lok Sabha (2019-06-17 → 2026-08-04)" — The 17th Lok Sabha was constituted on **June 17, 2019**, but the 18th Lok Sabha was **not yet constituted as of August 4, 2026** (the date in the article). The 18th Lok Sabha elections were held in April–May 2024, and the new Lok Sabha was formed in June 2024, but the term would not extend to 2026. [confidence: high]
 
-- "Generated 2026-08-04 by scripts/build_pq_registry.py" — The date "2026-08-04" is incorrect as it refers to a future date (August 4, 2026), which is not plausible for a current or recent build. [confidence: high]
+- "Generated 2026-08-04 by scripts/build_pq_registry.py in digital-twin-for-ipa" — The date **August 4, 2026**, is in the future relative to the current date (June 2024). This is likely a placeholder or typo, as the article cannot be generated for a future date. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This registry is the parliamentary companion to the Quarterly Reportage: where the reportage tracks what government announced, this tracks what Parliament asked — and the ministry's answer of record." — The claim implies a direct and meaningful comparison between "what government announced" and "what Parliament asked," but the registry only tracks questions asked in Parliament, not the government's announcements. The two datasets may not be comparable in a way that supports the stated purpose. [confidence: medium]
+- "This registry is the parliamentary companion to the Quarterly Reportage: where the reportage tracks what government announced, this tracks what Parliament asked — and the ministry's answer of record." — While the registry tracks parliamentary questions and answers, it does not inherently establish a **direct causal or comparative relationship** between government announcements and parliamentary questions. The claim implies a systematic linkage that may not exist in practice (e.g., questions may not always correlate with announcements, and answers may not reflect actual policy implementation). [confidence: medium]
 
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about verifying AI-generated figures is valid, the claim that AI "can misstate figures" is presented as a general warning without evidence or specificity. It does not explain how or why this might occur in the context of the article's claims. [confidence: low]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — The article acknowledges AI limitations but does not clarify **how or why** AI-generated text might misstate figures in this specific context. The warning is generic and does not address potential biases or errors in the registry's construction (e.g., keyword matching flaws or classification bugs). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

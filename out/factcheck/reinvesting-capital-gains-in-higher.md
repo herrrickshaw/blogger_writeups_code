@@ -16,19 +16,19 @@ Source: `posts/reinvesting-capital-gains-in-higher.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99006, Requested 4066. Please try again in 44m14.208s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99991, Requested 4066. Please try again in 58m25.248s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 7 August 2026 · v1.0.0" — The date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹34.0L What the unchanged ₹50 lakh cap is worth in FY2014-15 wholesale prices" — The calculation uses a wholesale price index (WPI) of 114.1 in April 2014 and 167.6 in April 2026, but the WPI value for April 2026 is not yet available (as of June 2025), making this figure unverifiable. [confidence: high]
+- "₹34.0L What the unchanged ₹50 lakh cap is worth in FY2014-15 wholesale prices" — The calculation uses WPI (Wholesale Price Index) with a base of 2011-12, but the article does not provide the exact WPI values or the method for adjusting the ₹50 lakh cap to FY2014-15 prices. The claim lacks verifiable sourcing. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Comparing the coupons puts 54EC 280 basis points behind and ends the discussion. That is the wrong test, because 54EC’s benefit is not a coupon at all. It is a one-time increase in the capital you get to deploy." — While the article correctly identifies that the benefit of 54EC is not just the coupon, it does not adequately address why comparing coupons is inherently flawed in this context. The comparison is not just "wrong" but misleading because it ignores the tax shield's primary purpose (deferring tax) and focuses only on yield, which is not the instrument's intended benefit. [confidence: high]
+- "Comparing the coupons puts 54EC 280 basis points behind and ends the discussion. That is the wrong test, because 54EC’s benefit is not a coupon at all. It is a one-time increase in the capital you get to deploy." — While the article correctly identifies that the benefit of 54EC is not just the coupon, it does not adequately address why comparing coupons is inherently flawed in this context. The comparison is not apples-to-oranges but rather highlights the opportunity cost of locking funds at a lower rate, which the article later acknowledges but does not fully reconcile in its initial dismissal. [confidence: medium]
 
-- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it" — The article correctly notes that the advantage of 54EC decays over time, but it does not explain why this is an *interpretation error* in the context of the instrument's design. The lock-in period is a feature, not a flaw, and the decay is a natural consequence of the one-time tax shield being amortized over a longer period. The article frames this as a negative without acknowledging that the instrument is not designed for long-term holding. [confidence: medium]
+- "The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it" — The article correctly notes that the advantage of 54EC decays over time, but it does not sufficiently explain why this is an *interpretation error* rather than a factual one. The claim is factually correct, but the framing implies that the decay is a negative feature of 54EC, whereas it could also be viewed as a feature of the instrument's design (e.g., ensuring capital is deployed in infrastructure). The interpretation lacks nuance in presenting this as solely a drawback. [confidence: low]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,21 +16,19 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99338, Requested 5094. Please try again in 1h3m49.248s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99029, Requested 4916. Please try again in 56m48.48s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Textile Import-Export Strategy" — The article title is not a factual claim but a framing device; however, the claim that "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles" is presented as a key finding. The article does not provide a source or methodology to verify this 63% figure, and it is not a standard or widely recognized statistic in official trade data (e.g., DGCIS or UN Comtrade). [confidence: medium]
+- "India's Textile Import-Export Strategy" — The article title is not a factual claim but a stylistic choice. No factual errors found in the article text. [confidence: high]
 
-- "IOCL Board, December 2024" — The article states that the IOCL Bhadrak project was approved by the IOCL Board in December 2024. However, as of the publication date of this analysis (June 2025), there is no publicly verifiable confirmation of this board approval from official IOCL sources or regulatory filings. The project is listed as "Funded & committed (50:50 JV with MCPI)" but lacks a primary source citation for the December 2024 approval date. [confidence: medium]
-
----
+- "Ch 39 Deficit (widened from -$6.4B)" — The article states the deficit widened from -$6.4B to -$14.0B, but the table shows the deficit in FY21 was -$6.4B and in FY23 it peaked at -$15.4B, not -$14.0B. The -$14.0B figure appears in FY25, not as the widened gap from FY21. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article uses the plateau in polymer imports at $22.1 billion in FY25 as evidence of "supplier lock-in" and a closing window for domestic capex. However, a stabilization in import values could reflect a range of factors (e.g., demand saturation, price stabilization, inventory adjustments, or temporary supply chain normalization) and does not necessarily indicate supplier lock-in or a narrowing window for domestic investment. The causal link between import stabilization and supplier lock-in is not supported by the data presented. [confidence: high]
+- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article correctly notes that the textile sector's overall trade balance runs a surplus, but it does not provide evidence or data to support the claim that these two chapters account for 63% of the *chemical-feedstock import bill for textiles*. The 63% figure is presented without a clear breakdown or source, making it an unsupported extrapolation. [confidence: high]
 
-- "Capacity addition (+5.2 MMTPA FY26-30) does NOT cannibalize fuel production" — The article claims that adding 5.2 MMTPA of petrochemical capacity will not cannibalize fuel production because utilization is near 100%. However, this ignores the fact that refinery operations are highly integrated: adding petrochemical crackers typically requires diverting a portion of naphtha or other refinery intermediates from fuel production, especially when refineries are running at or near capacity. The claim assumes no trade-off between fuel and petrochemical feedstocks, which is inconsistent with refinery economics and operational constraints. [confidence: high]
+- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article implies that the stabilization of polymer imports at $22B indicates supplier lock-in and a closing window for domestic capex. However, import stabilization alone does not necessarily indicate lock-in; it could reflect market stabilization, demand adjustments, or other factors. The conclusion is an overreach based on the data presented. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

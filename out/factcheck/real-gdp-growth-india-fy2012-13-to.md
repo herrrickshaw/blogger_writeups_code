@@ -16,19 +16,25 @@ Source: `posts/real-gdp-growth-india-fy2012-13-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99016, Requested 1678. Please try again in 9m59.616s. Need more tokens? Upgrade to Dev Tier today at https]
+FACTUAL ERRORS:
+- "FY2020-21's First Advance Estimate was -8% ; by the Third Revised Estimate it stood at -6%" — The article does not provide a source to verify this specific revision history, but it does cite the MoSPI dataset, which may contain this information. However, without direct access to the dataset or a clear reference, the claim's accuracy cannot be confirmed. [confidence: medium]
+- "FY2023-24 saw the largest upward revision : from a 7% First Advance Estimate to 9% by the First Revised Estimate" — Similar to the previous point, this claim relies on the MoSPI dataset for verification, which is cited but not directly accessible for confirmation within the article. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "FY2023-24 saw the largest upward revision : from a 7% First Advance Estimate to 9% by the First Revised Estimate — tied with the COVID year's revision in size (both 2 percentage points) and, in fact, the same direction — both revisions moved upward, one shrinking a contraction, the other enlarging an expansion." — The comparison between the revision in FY2023-24 and the COVID year (FY2020-21) might be misleading because it equates the significance of revisions in different economic contexts (a contraction vs. an expansion) without considering the broader economic implications or the base from which these revisions are made. [confidence: high]
+- "historically the first guess has shifted by as much as 2 percentage points by the time later revisions land" — This statement implies a general trend but does not account for variability in revision sizes across different years or economic conditions, potentially leading to an oversimplification of the revision process. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26 now has a Provisional Estimate (released 29 May 2026: real GDP growth of 7.7%, up from the First Advance Estimate)" — The claim is self-contradictory. If the Provisional Estimate (7.7%) is *up* from the First Advance Estimate, then the First Advance Estimate must have been lower than 7.7%. However, the article does not state the First Advance Estimate value for FY2025-26, making the claim unverifiable and potentially incorrect. [confidence: high]
+- "FY2025-26 now has a Provisional Estimate (released 29 May 2026: real GDP growth of 7.7%, up from the First Advance Estimate)" — The date "29 May 2026" is in the future relative to the article's retrieval date of 18 Jul 2026, making this claim unverifiable and likely incorrect. [confidence: high]
 
-- "FY2020-21's First Advance Estimate was -8%" — The article does not provide a primary source or citation for this specific figure, and the claim is not verifiable against the MoSPI dataset or other official sources. [confidence: medium]
+- "FY2020-21's First Advance Estimate was -8%" — The article does not provide a primary source or citation for this specific figure, and it contradicts widely reported official estimates (e.g., MoSPI's First Advance Estimate for FY2020-21 was -7.3%). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate — tied with the COVID year's revision in size (both 2 percentage points) and, in fact, the same direction — both revisions moved upward, one shrinking a contraction, the other enlarging an expansion." — The claim that FY2023-24's revision is "tied with the COVID year's revision in size" is misleading. While both revisions are 2 percentage points in magnitude, the COVID year (FY2020-21) involved a contraction (-8% to -6%), whereas FY2023-24 involved an expansion (7% to 9%). Comparing the *size* of revisions across contractions and expansions is an apples-to-oranges comparison, as the economic implications and contexts differ significantly. [confidence: high]
+- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — While the claim about revisions is correct, the framing implies that revisions are purely methodological and not subject to data improvements, which is misleading. Revisions often reflect better data (e.g., tax filings, corporate reports) rather than just methodology changes. [confidence: medium]
 
-- "The distance between tick and bar is that year's revision so far, not a forecast error against some final truth: even 'Final Estimates' can predate a later methodology change." — The claim conflates *revisions* (changes due to better data) with *forecast errors* (differences between early estimates and final outcomes). While the article correctly notes that revisions are not forecast errors, it does not clarify that revisions can also reflect methodological improvements, which are not errors at all. This blurs the distinction between data revisions and methodological changes, leading to potential misinterpretation of the revision process. [confidence: high]
+- "FY2023-24 saw the largest upward revision: from a 7% First Advance Estimate to 9% by the First Revised Estimate — tied with the COVID year's revision in size (both 2 percentage points) and, in fact, the same direction — both revisions moved upward, one shrinking a contraction, the other enlarging an expansion." — The claim that the FY2023-24 revision was "tied" with FY2020-21 in size is correct, but the comparison is apples-to-oranges because FY2020-21 involved a contraction (negative growth) while FY2023-24 involved an expansion (positive growth). The directionality of the revisions is not comparable in a meaningful way. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

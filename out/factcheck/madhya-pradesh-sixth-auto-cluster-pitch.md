@@ -16,19 +16,19 @@ Source: `posts/madhya-pradesh-sixth-auto-cluster-pitch.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99180, Requested 2796. Please try again in 28m27.264s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98917, Requested 2747. Please try again in 23m57.696s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Five OEMs operate there (Force Motors, Eicher Motors, AVTAC Motors, Kinetic Motors, Man Force, and L&T Case among the named operators)" — The claim lists six OEMs (Force Motors, Eicher Motors, AVTAC Motors, Kinetic Motors, Man Force, and L&T Case), not five as stated. [confidence: high]
 
-- "MP approved its Logistics Policy 2025 in February 2025" — The article cites multiple sources for this claim, but the primary source (the actual Logistics Policy 2025 document) is not directly verified in the article. The policy's approval date and provisions are based on secondary coverage, which may not be accurate. [confidence: medium]
+- "MP approved its Logistics Policy 2025 in February 2025" — The article cites multiple sources for this policy, but the claim is unverifiable as the primary source (the actual Logistics Policy 2025 document) is not directly linked or quoted. The secondary sources may have misinterpreted or misdated the approval. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "a supplier or Tier-1 facility based in Pithampur isn't just serving MP's own OEMs, it sits on a corridor that can plausibly feed NCR and Pune/Sanand without the multi-day transit times a more peripheral state would carry" — The claim assumes that Pithampur's position on the DMIC and its rail connectivity directly translate to faster or more efficient logistics for suppliers serving NCR and Pune/Sanand. However, the article does not provide evidence or modeling to support this claim, such as actual transit-time comparisons or freight-cost savings. The logistics advantages are asserted but not quantified. [confidence: high]
+- "A supplier deciding where to site a new Tier-1 facility to serve multiple OEM clusters is choosing, in effect, between paying for that speed via proximity to one cluster (the existing model) or via a logistics-subsidised central position that reaches several (the case this policy is trying to make attractive)." — The article assumes that the logistics subsidies and infrastructure in MP (e.g., multimodal parks, 24x7 permissions) will directly translate into cost savings or efficiency gains for suppliers serving multiple clusters. However, it does not provide evidence (e.g., freight cost modeling, transit-time comparisons, or case studies) to support this causal claim. The argument conflates potential infrastructure benefits with proven operational advantages. [confidence: high]
 
-- "MP's testing infrastructure is a genuine differentiator rather than a shared commodity" — While NATRAX is indeed a unique asset, the article does not establish that it provides a *competitive advantage* over other clusters. The claim implies that proximity to NATRAX alone confers a testing advantage, but it does not address whether other clusters have comparable or alternative testing infrastructure (e.g., private test tracks) or whether the logistics of using NATRAX (e.g., distance from OEMs) offset its benefits. [confidence: medium]
+- "MP's testing infrastructure is a genuine differentiator rather than a shared commodity. NATRAX (National Automotive Test Tracks), located in MP, spans 1,200 hectares with an 11.3km test track, built at a cost of roughly ₹1,653 crore (~$200 million). This is not duplicated at the scale of any of the five clusters mapped in the companion piece..." — While NATRAX is indeed a unique facility, the article does not establish that its existence alone provides a competitive advantage for OEMs/Tier-1s in MP. It does not compare testing infrastructure availability or usage costs across the other clusters (e.g., whether Chennai, Pune, or NCR have equivalent or better alternatives, or whether NATRAX's capacity is sufficient to meet demand). The claim overstates the differentiator without comparative analysis. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

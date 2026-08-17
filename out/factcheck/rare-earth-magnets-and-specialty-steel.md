@@ -16,15 +16,19 @@ Source: `posts/rare-earth-magnets-and-specialty-steel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99048, Requested 2123. Please try again in 16m51.744s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98759, Requested 2074. Please try again in 11m59.712s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — The global average figure of 7 MRI units per million population is incorrect. According to OECD data, the global average is closer to 15-20 MRI units per million population, with high-income countries averaging around 30-40 units per million. [confidence: high]
+- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — This claim cannot be verified against publicly available WHO or OECD data, which typically report MRI units per million population with more recent figures (e.g., 2021–2023 data) showing India at ~1.5–2 units per million, not 3. The cited "blog’s medical-device trade-gap piece" is not provided for verification. [confidence: medium]
+
+- "AIIMS Delhi OPD imaging dates have been issued as far out as 2027" — This specific claim about AIIMS Delhi's imaging queue timeline is not supported by any publicly verifiable source or official announcement. No official AIIMS Delhi document or credible news report confirms imaging slots being scheduled as far as 2027. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The claim implies that the ₹7,280 crore scheme could meaningfully impact India's $50bn-plus electrical-machinery trade deficit (Chapter 85) within 7 years. However, the scheme's outlay (₹7,280 crore ≈ $875 million at current exchange rates) is too small relative to the deficit magnitude to plausibly "move the needle" on a $50bn gap, even if magnets are high-value components. The reasoning gap is an overestimation of the scheme's potential impact given the scale mismatch. [confidence: high]
+- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The claim that the scheme can "plausibly move the needle" within 7 years is not supported by evidence. The article does not provide data on the expected impact on import substitution, domestic production scale-up, or timeline alignment with the $50bn-plus trade deficit in Chapter 85. The causal link between a 6,000 MTPA magnet capacity and measurable reduction in a $50bn trade gap is speculative and not quantified. [confidence: high]
+
+- "That makes MRI localisation a second, more immediate demand pull on the same rare-earth and specialty-alloy manufacturing capability the REPM scheme is trying to build for EVs — not a competing use case, but a second customer for the same factories." — While the overlap in manufacturing capability is plausible, the article does not provide evidence that MRI magnet production uses the same rare-earth inputs or manufacturing processes as sintered NdFeB magnets for EVs. MRI magnets are typically superconducting (requiring niobium-titanium or similar alloys and cryogenic systems), not sintered rare-earth permanent magnets. This conflates two distinct magnet technologies and supply chains. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

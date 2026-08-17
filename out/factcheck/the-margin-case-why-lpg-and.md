@@ -16,19 +16,19 @@ Source: `posts/the-margin-case-why-lpg-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99981, Requested 5664. Please try again in 1h21m17.28s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99715, Requested 5342. Please try again in 1h12m49.247999999s. Need more tokens? Upgrade to Dev Tier today]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect as US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the US Treasury's OFAC sanctions on Sovcomflot and other entities), not November 2025. [confidence: high]
+- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect because US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the price cap on Russian oil), not November 2025. [confidence: high]
 
-- "EU ban on products refined from Russian crude (January 2026)" — The EU's ban on Russian refined petroleum products (e.g., diesel, gasoline) was implemented in **February 2023** (as part of the 6th sanctions package), not January 2026. [confidence: high]
+- "EU ban on products refined from Russian crude (January 2026)" — The claim is incorrect because the EU's ban on seaborne Russian oil products (e.g., diesel) took effect in **February 2023**, not January 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the same crude barrel that makes petrol can, with the modifications this blog has already covered piece by piece, make more LPG and more petrochemical feedstock instead. This piece pulls those separate findings together into the actual margin argument for doing so." — The claim implies a direct causal link between the technical modifications (e.g., FCC yield adjustments) and the improved margins for LPG/petrochemicals, but it does not account for the fact that **margins are also influenced by global commodity price cycles, government subsidies, and import dynamics** (e.g., LPG import dependency, US Gulf Coast deals). The argument conflates technical feasibility with economic justification without isolating the contribution of each factor. [confidence: high]
+- "None of that is a coincidence refiners can ignore: the same crude barrel that makes petrol can, with the modifications this blog has already covered piece by piece, make more LPG and more petrochemical feedstock instead." — The reasoning gap is that the article conflates correlation with causation. While refiners *can* modify output to produce more LPG or petrochemical feedstock, the article does not provide evidence that this is the *primary* reason for the observed changes in demand, subsidy economics, or spreads. The claim assumes a direct link between technical modifications and market outcomes without demonstrating that refiners are actively making these changes in response to the cited trends. [confidence: medium]
 
-- "Reliance's own reported GRM for Q4 FY2024-25 was $7.6/bbl, down from $9.6/bbl a year earlier — a real decline, consistent with the sector-wide fuel-margin compression in Section 1, but still running meaningfully above the $4–6/bbl PSU OMC average for the same broad period." — While the GRM figures are directionally correct, the comparison is flawed because **Reliance's GRM is not directly comparable to PSU OMCs' GRM** due to differences in crude slates, integration levels, and reporting conventions. The article acknowledges this but still uses the comparison to imply a margin advantage, which is misleading without further qualification. [confidence: high]
+- "A refiner watching its core fuel margin roughly halve, at the same time as LPG demand outpaces petrol demand, has a straightforward incentive to ask whether more of the barrel should come out as LPG rather than petrol — independent of any petrochemical ambition at all." — The reasoning gap is that the article assumes a direct causal relationship between fuel margin compression and refiner decisions without evidence. While refiners may have an *incentive* to shift production, the article does not show that they are *actually doing so* or that this is the *only* factor influencing their decisions. Other factors (e.g., contractual obligations, infrastructure constraints, or policy restrictions) could also play a role. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

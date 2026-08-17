@@ -16,7 +16,7 @@ Source: `posts/state-by-state-who-actually-earns-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98932, Requested 7620. Please try again in 1h34m20.928s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99900, Requested 7620. Please try again in 1h48m17.28s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
@@ -26,9 +26,9 @@ FACTUAL ERRORS:
 - "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The article later contradicts this by citing the same CareEdge report as stating India has "roughly 700 crore litres/year of structural ethanol overcapacity," implying installed capacity is higher than 2,000 crore litres. This inconsistency suggests a misinterpretation or misrepresentation of the report's findings. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The loss scales almost exactly with blend fraction — doubling volume from E10 to E20 roughly doubles the shortfall, and pushing to E30 roughly triples it against E10." — While the table shows a linear relationship between blend percentage and net state loss, this does not account for potential non-linear effects such as changes in ethanol feedstock costs, vehicle compatibility constraints, or policy adjustments that could alter the relationship at higher blends. The claim assumes a direct proportionality without justification for why such a relationship would hold beyond the modeled scenarios. [confidence: medium]
+- "The loss scales almost exactly with blend fraction — doubling volume from E10 to E20 roughly doubles the shortfall, and pushing to E30 roughly triples it against E10." — While the table shows a linear relationship between blend percentage and net state loss, this does not account for potential non-linear effects such as changes in ethanol procurement costs, feedstock constraints, or state-specific tax adjustments that could alter the relationship at higher blend levels. The claim assumes a direct proportionality without justification for why such a relationship would hold beyond the modeled scenarios. [confidence: medium]
 
-- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article models a hypothetical dedicated SGST but does not address whether states could adjust other tax policies (e.g., increasing VAT rates on petrol) to offset the foregone revenue. The conclusion that the shortfall cannot be "closed" understates the potential for states to adapt their tax structures in response to blending mandates. [confidence: medium]
+- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article does not provide evidence or reasoning for why a 5% dedicated SGST would be the upper limit of what is feasible or politically acceptable. The claim assumes that higher rates are impractical without addressing the actual policy or economic constraints that would limit such a levy. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

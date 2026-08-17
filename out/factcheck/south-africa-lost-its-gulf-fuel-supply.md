@@ -16,19 +16,11 @@ Source: `posts/south-africa-lost-its-gulf-fuel-supply.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98953, Requested 3152. Please try again in 30m18.72s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99917, Requested 3152. Please try again in 44m11.616s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this with a table showing FY2025-26 exports at US$1,882 million (US$1.882bn), not US$1.88bn. The initial claim is incorrect by US$18 million. [confidence: high]
-
-- "South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States" — While the article later clarifies that the replacement flows were reported as American, the initial phrasing implies a direct substitution where India lost the market entirely, which is not supported by the data. The claim oversimplifies the situation. [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "India was already losing this market — A third of it, in the year before the crisis" — The article correctly notes a 32.6% decline in FY2025-26 exports to South Africa, but the phrasing "a third of it" is misleading because it suggests a one-third decline occurred *before* the crisis (i.e., in FY2024-25), when the decline actually happened *during* FY2025-26 (the crisis year). The decline is attributed to pre-crisis factors, but the wording implies a prior loss. [confidence: high]
-
-- "The supplier that gained was the one furthest away" — The article argues that the US (furthest from Durban) gained market share despite higher freight costs, implying India's disadvantage was not distance. However, this ignores that the US may have had other advantages (e.g., product pricing, availability, or contractual terms) that offset freight costs. The conclusion that "distance" is not a factor is an overgeneralization. [confidence: medium]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
 
 ## Kimi kimi-k2-0711-preview
 

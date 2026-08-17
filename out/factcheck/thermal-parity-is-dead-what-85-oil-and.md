@@ -16,19 +16,19 @@ Source: `posts/thermal-parity-is-dead-what-85-oil-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99912, Requested 3702. Please try again in 52m2.496s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99645, Requested 3702. Please try again in 48m11.808s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The article claims to be published on 8 August 2026, but this date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "$7.86 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The article later clarifies that $7.86 is the *notified domestic gas price*, not a ceiling. The ceiling for nomination fields is not explicitly stated, and the $7.86 figure is described as the binding price, which may or may not be a ceiling. The claim conflates price and ceiling. [confidence: high]
+- "5.55 MMBtu of energy in one barrel of crude — the thermal-parity anchor" — The article cites Mittal (2016) for this conversion, but the standard conversion factor is approximately 5.8 MMBtu per barrel of crude oil (based on API gravity and energy content). The 5.55 figure is outdated or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s domestic gas price is a live experiment in the opposite direction: a formula that re-pegs gas to crude by government notification, every month, regardless of what the physical energy-equivalence math says it should cost." — While the formula ties gas to crude, the article later acknowledges that the *notified price* ($7.86) is below the raw formula output (10% of crude), implying a policy choice (ceiling) is constraining the pass-through. The claim oversimplifies by implying the formula operates without any constraints, ignoring the documented ceiling mechanism. [confidence: high]
+- "India’s own domestic gas price is a live experiment in the opposite direction: a formula that re-pegs gas to crude by government notification, every month, regardless of what the physical energy-equivalence math says it should cost." — While the formula ties gas to crude, the claim that this is "regardless of what the physical energy-equivalence math says it should cost" is misleading. The formula is a policy choice, not a rejection of physics, and the article later acknowledges that the ceiling (not the formula itself) is what decouples the price in practice. The phrasing implies an intentional disregard for physics, which is not supported by the article's own explanation of the policy. [confidence: high]
 
-- "The 2015 cointegration study’s empirical finding is the after-the-fact confirmation of what the 2006 review predicted was possible." — The 2006 review predicted *potential* decoupling via fuel-switching, but the 2015 study confirmed *actual* decoupling via statistical cointegration analysis. The claim conflates prediction with confirmation, implying the review directly anticipated the study's findings, which is an overstatement. [confidence: high]
+- "A 2015 empirical study using daily NYMEX spot data from January 2006 to December 2014 tested exactly this question with cointegration analysis — the formal statistical test for whether two price series share a genuine long-run equilibrium rather than just moving together by coincidence. Its finding: the correlation between crude oil and natural gas prices was strongly positive before the 2008 financial crisis (+0.72), moderately positive during it (+0.58), and had turned negative afterward (−0.17)." — The study's findings are correctly reported, but the article extrapolates from a correlation shift to conclude that "the entire literature on oil-gas 'decoupling' is the story of markets refusing to price that way." This conflates statistical decoupling (no long-run relationship) with market behavior (pricing based on heat content). The literature documents that markets decoupled *from oil*, not that they adopted thermal parity pricing. The claim misrepresents the nature of the decoupling. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

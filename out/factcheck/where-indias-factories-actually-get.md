@@ -16,19 +16,19 @@ Source: `posts/where-indias-factories-actually-get.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99798, Requested 6277. Please try again in 1h27m28.8s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99532, Requested 5956. Please try again in 1h19m1.632s. Need more tokens? Upgrade to Dev Tier today at htt]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "1,869,333 Rs cr implemented, top 15 states, 2021–Dec 2025" — The correct figure for all-India Part B implementation (2021–Dec 2025) is Rs 19,51,828 cr (as stated later in the article), not Rs 1,869,333 cr. The latter number appears to be a misformatted or incorrect total. [confidence: high]
+- "1,869,333 Rs cr implemented, top 15 states, 2021–Dec 2025" — The article later states the all-India Part B total as Rs 19,51,828 cr (1.95 lakh crore), which is significantly lower than 1.86 lakh crore. The figure appears to be a misplaced comma or formatting error (likely meant to be 1,95,1828 cr or similar). [confidence: high]
 
-- "Rs 4.55 lakh cr in 2024-2025 alone" (Gujarat) — The Gujarat 2025 column shows Rs 246,595 cr, not Rs 4.55 lakh cr (which would be Rs 455,000 cr). This is a clear numerical error in the state's 2025 implementation figure. [confidence: high]
+- "Rs 4.55 lakh cr in 2024-2025 alone" (Gujarat) — The table shows Gujarat's 2024 and 2025 (to Dec) values as 208,025 cr and 246,595 cr respectively, totaling ~454,620 cr (Rs 4.55 lakh cr). However, the article claims this is "2024-2025 alone," which is ambiguous (could imply FY2024-25 or CY2024-25). If FY2024-25, the data does not align with standard fiscal year definitions (April 2024–March 2025), as the 2025 column is only "to Dec 2025." [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Gujarat ... implementing 178% of same-period intent (the pre-2021 pipeline landing)" — The article claims Gujarat's 178% conversion rate is due to a "pre-2021 pipeline landing," but the conversion percentage is calculated as (Part B / Part A) within the same period (2021–Dec 2025). A 178% conversion implies more implementation than intent filed in the same window, which is impossible unless pre-2021 filings are included. The article acknowledges this in the caveat ("Part A/B are period flows; A-B over the window approximates the unconverted backlog but is not a clean stock"), but still uses the 178% figure as evidence of a pipeline effect without clarifying that the ratio is not cohort-matched. This misrepresents the meaning of the conversion rate. [confidence: high]
+- "Rs 1,22,497cr of the 5-yr total [for Glass] sits in a single year (2024) against Rs 1-3,000cr in every other year -- either one mega-project (solar glass?) or a data quirk. Not treated as a trend." — While the anomaly is correctly flagged, the article does not explain why this single-year spike should *not* be treated as a trend, especially given the context of solar glass manufacturing expansion in India. The spike could reflect a real industrial trend (e.g., PLI-driven solar glass capacity addition) rather than a data error. The dismissal as a "quirk" without further analysis is an overreach. [confidence: high]
 
-- "The 2023 Rs 18,778cr registers in IEM well before the Tata Electronics Assam OSAT plant's Feb–Mar 2024 approval, so it is unlikely to be that specific project — more likely earlier-stage electronics capex in the same broader investment wave" — While the timing discrepancy is noted, the article implies that the Rs 18,778cr in Assam's 2023 IEM data is unrelated to the Tata Electronics project because the project was approved later. However, large industrial projects often file IEMs (Part A) years before implementation (Part B), and the Rs 18,778cr could plausibly represent the Tata project's pre-approval filing. The article dismisses this possibility without evidence, suggesting an unwarranted causal inference that the IEM figure is unrelated to the Tata project. [confidence: medium]
+- "Rs 70,117cr of the [Fuels] total is one year (2025) -- likely a single refinery/energy mega-filing." — The article assumes a single project caused the spike without providing evidence or acknowledging that large energy projects (e.g., refinery expansions or LNG terminals) are often filed as single IEMs. The claim implies causation (a single filing) without ruling out alternative explanations (e.g., multiple smaller projects aggregating to the total). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

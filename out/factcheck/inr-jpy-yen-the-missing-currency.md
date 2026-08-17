@@ -16,19 +16,19 @@ Source: `posts/inr-jpy-yen-the-missing-currency.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99220, Requested 3143. Please try again in 34m1.632s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98957, Requested 3229. Please try again in 31m28.704s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like" published on **14 August 2026** — The date is impossible as the current date is before this, and no future-dated article can be published in advance. [confidence: high]
 
-- "REC's EuroYen bond priced at 1.76–2.20% in January 2024" — The referenced bond pricing is not verifiable in the provided text or standard financial databases, and the claim lacks a primary source citation within the article itself. [confidence: medium]
+- "an estimated $4 trillion in global yen carry positions began reversing" — The BIS Bulletin No. 90 cited does not provide a specific dollar estimate of $4 trillion for the July 2024 carry-trade unwind; this figure appears to be an extrapolation or misinterpretation of the BIS analysis. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen. Combine that with the low nominal yen coupons... and the arithmetic of the 2021–24 yen-borrowing rush becomes obvious" — The article conflates the yen's depreciation against the rupee with the attractiveness of yen borrowing, but the 10.3% fall in JPY/INR (meaning fewer rupees needed to buy yen) implies the rupee strengthened, which would *increase* the cost of repaying yen-denominated debt in rupee terms, not decrease it. The causal claim that this trend explains the yen-borrowing rush is unsupported. [confidence: high]
+- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years. JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — While the data shows JPY/INR fell 10.3% over five years (implying INR strengthened), this does not by itself explain why yen debt was "such a good trade" for Indian borrowers. The article conflates currency movement with borrowing cost advantages without demonstrating that the timing of borrowing aligned with favorable exchange rate movements or that the principal repayment benefit outweighed interest costs or volatility risks. [confidence: high]
 
-- "The yen appreciated 7.7% against the rupee in the nine trading days between 29 July and 5 August 2024 alone" — While the yen's appreciation against the rupee is a fact, the article implies this single event was the sole driver of the carry trade unwind, ignoring broader macroeconomic factors (e.g., global risk sentiment, BoJ policy shifts) that likely contributed. The claim oversimplifies the causality of the carry trade reversal. [confidence: medium]
+- "Funding currencies have already started rotating away from the yen since. Reporting from 2026 describes investors diversifying carry-trade funding out of JPY and into the euro and Swiss franc..." — The claim that investors are rotating away from JPY into EUR/CHF in 2026 is presented as a factual trend based on "Reporting from 2026," but no verifiable source is provided within the article text, and the claim extrapolates from a single data point (yen volatility) to a broad behavioral shift without sufficient evidence or context. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

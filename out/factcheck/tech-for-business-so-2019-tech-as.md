@@ -16,19 +16,19 @@ Source: `posts/tech-for-business-so-2019-tech-as.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98902, Requested 2345. Please try again in 17m57.408s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99832, Requested 2345. Please try again in 31m20.928s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written." — The claim that the disclosure block was added in a later site-wide pass is unverifiable without access to the site's internal records or version history. The statement itself is a meta-commentary on the disclosure process, not a factual claim about the article's publication date or AI usage. [confidence: low]
+- "AI Disclosure: This article was originally published in October 2020" — The article text itself does not contain any date, and the disclosure block is likely an automated addition rather than a factual claim made within the article's content. The article's content does not reference any specific date, making this claim unverifiable within the text. [confidence: medium]
 
-- "Product Potato - a case study" — The case study is a hypothetical example (a potato farmer selling frozen french fries) and not a real-world case study with verifiable data, names, or events. While hypothetical examples are not inherently factual errors, the framing as a "case study" implies it is based on real-world evidence, which it is not. [confidence: high]
+- "Product Potato - a case study" — The case study is a hypothetical example (a potato farmer selling frozen french fries) and not a real-world case study. While hypothetical examples are not inherently factual errors, the framing as a "case study" implies real-world applicability, which is misleading. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The relationship between an investor and your company's CEO can be seen as the relationship between Tom and Jerry. Although they often fight, they always get together at the end and turn up for the next episode." — This analogy is used to illustrate trust and mutual dependence between investors and CEOs, but it is an oversimplification that does not accurately reflect the complexities of investor-CEO relationships, such as legal obligations, fiduciary duties, or the consequences of failure. The analogy does not support the conclusion that trust and respect alone define the relationship. [confidence: high]
+- "The farmer thinks this new product will address the spoken need for french fries and the unspoken need for convenience by adding a new feature, pre-processed potatoes availability as ready to cook." — The claim assumes that the farmer's intuition about unspoken needs (convenience) is validated by the experiment (selling pre-processed potatoes). However, the experiment only tests the *stated* need (convenience via pre-processed potatoes) and does not objectively measure or validate the "unspoken need" as a distinct or broader market demand. The reasoning conflates a single experiment with broader consumer behavior. [confidence: high]
 
-- "An Angel investor is effectively a fairy godmother who believes in the CEO's vision and enables them to succeed." — This claim implies that angel investors are purely benevolent and act solely based on belief in a CEO's vision, ignoring the financial incentives, due diligence, and risk assessment that angel investors typically perform. The characterization does not support the conclusion that angel investors are "fairy godmothers." [confidence: high]
+- "Leaders in the industry often claim - The customer is always hungry for more... And they are right; however, should we give the person fish or teach them to fish?" — The claim implies a false dichotomy between providing immediate solutions ("give the person fish") and long-term empowerment ("teach them to fish"). In reality, businesses often do both (e.g., offering convenience while educating users), and the framing oversimplifies the nuanced balance between customer satisfaction and education. The reasoning does not account for hybrid approaches. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

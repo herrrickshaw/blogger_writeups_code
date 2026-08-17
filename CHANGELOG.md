@@ -6003,3 +6003,15 @@ scheduled sync
 **Changed**
 
 - `ethanols-coal-boilers-briquette-gap-and` — 27,946 → 32,046 bytes (+4,100)
+
+## 2026-08-17T17:52:32+05:30 — 167 posts live
+
+**Versions**
+
+- `ethanols-coal-boilers-briquette-gap-and` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `annadata-to-urjadata-farmer-income-case` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ethanols-coal-boilers-briquette-gap-and` — 32,046 → 32,268 bytes (+222)
+- `annadata-to-urjadata-farmer-income-case` — 40,162 → 40,599 bytes (+437)

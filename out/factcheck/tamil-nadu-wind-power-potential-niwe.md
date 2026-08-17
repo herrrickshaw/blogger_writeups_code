@@ -16,19 +16,19 @@ Source: `posts/tamil-nadu-wind-power-potential-niwe.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98922, Requested 3035. Please try again in 28m10.848s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99889, Requested 3035. Please try again in 42m6.336s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future relative to the article's publication date of 14 August 2026, making it unverifiable and likely incorrect. [confidence: high]
 
-- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is sourced from secondary coverage rather than a primary NIWE document. This makes the exact number unverifiable and potentially inaccurate. [confidence: medium]
+- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is sourced from secondary coverage rather than a primary NIWE document. This makes the exact figure unverifiable as a settled number. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The article uses the 100m-hub-height potential (33,799 MW) to calculate utilisation, but modern turbines operate at much taller hub heights (120–150m), where the potential is significantly higher. Comparing installed capacity (which uses modern hub heights) to a lower-potential baseline creates a misleading impression of underutilisation. [confidence: high]
+- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The calculation compares installed capacity (11,938 MW) to NIWE's 100m-hub-height potential (33,799 MW), but modern turbines operate at 120–150m hub heights, where the potential is significantly higher. The 35% utilisation figure is misleading because it understates the true potential at modern hub heights, making the conclusion about unbuilt potential inaccurate. [confidence: high]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article implies that Tamil Nadu's wind potential is underutilised based on the 35% utilisation figure, but this calculation is flawed because it does not account for the higher potential at modern hub heights. The "unused headroom" is overstated due to this apples-to-oranges comparison. [confidence: high]
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article uses the 35% utilisation figure (based on 100m hub height) to argue for unused headroom, but this ignores the much higher potential at 120–150m hub heights. The conclusion about wind being the resource with the most unused headroom is not supported by the data presented, as the true potential is likely higher than the 33,799 MW figure used. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

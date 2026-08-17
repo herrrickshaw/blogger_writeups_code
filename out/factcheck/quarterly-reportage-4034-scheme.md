@@ -16,19 +16,19 @@ Source: `posts/quarterly-reportage-4034-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99078, Requested 1560. Please try again in 9m11.232s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98790, Requested 1511. Please try again in 4m20.064s. Need more tokens? Upgrade to Dev Tier today at https]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "4,034 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-04)" — The date range spans 9 years and 7 months (from Jan 2017 to Aug 2026), which is 115 months, not 39 quarters (39 quarters = 117 months). The claim miscounts the number of quarters. [confidence: high]
+- "4,081 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-13)" — The date range is incorrect because 39 quarters from 2017-01-02 would end in 2026-06-30, not 2026-08-13. The end date is misstated. [confidence: high]
 
-- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list." — The article claims 32 rows were removed on a specific date, but this is not verifiable from the provided text or context. The claim lacks a source or evidence. [confidence: medium]
+- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list." — The date "2026-08-04" is in the future relative to the article's publication date of 16 August 2026, making this claim unverifiable or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A release qualifies as an announcement here if its title matches the scheme-keyword map, or if it is a Cabinet/CCEA approval carrying incentive language." — The article conflates two different criteria for qualifying announcements (title matching and incentive language in Cabinet/CCEA approvals) without clarifying how these are weighted or combined. This could lead to double-counting or inconsistent classification of announcements. [confidence: high]
+- "This is an index into the register, not a reading of it. Mapping is by keyword against release titles, so it will miss a scheme referred to obliquely and it cannot tell an approval from a progress report — a Parliament answer about PM E-DRIVE and the Cabinet decision creating it look alike here." — While the limitations of keyword-based mapping are acknowledged, the article does not clarify how this affects the count of 4,081 announcements. The claim implies potential inaccuracies in the count due to these limitations, but the article presents the number as definitive without addressing the magnitude of the error. [confidence: medium]
 
-- "Quarters are calendar quarters, so 2026Q3 is Jul–Sep 2026." — While technically correct, this interpretation assumes the reader understands that the article uses calendar quarters rather than fiscal quarters (common in Indian government reporting). The lack of explicit clarification could mislead readers unfamiliar with this convention. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the cited primary source." — The article warns about potential AI errors but does not explain how this applies to the specific count of 4,081 announcements. The warning is generic and does not address whether the figure itself might be affected by AI hallucination or misinterpretation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

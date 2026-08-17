@@ -16,19 +16,19 @@ Source: `posts/upi-fees-are-now-legal-petrol-pumps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99871, Requested 5570. Please try again in 1h18m21.024s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 5248. Please try again in 1h9m52.991999999s. Need more tokens? Upgrade to Dev Tier today ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the Taxation and Other Laws (Amendment) Bill was introduced on 4 August 2026, not the amendment taking effect. The shield likely came off on the date the amendment was notified (which is not specified as 4 August 2026). [confidence: high]
+- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the Taxation and Other Laws (Amendment) Bill was introduced on 4 August 2025 (as mentioned later in the article: "The Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026"). [confidence: high]
 
-- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure revision in May 2025 set the interchange fee at ₹19 per financial transaction and ₹7 per non-financial transaction, not ₹19 for all withdrawals. The article conflates the two. [confidence: high]
+- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure revision in May 2025 set the interchange fee at ₹19 per financial transaction and ₹7 per non-financial transaction, not ₹19 for all withdrawals. The article conflates the two figures. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The same forecourt, though, holds the hedge: cash, and the fee income of dispensing it." — The article claims that cash-out services at petrol pumps can offset MDR fees by generating interchange income, but it does not account for the fact that the interchange income is shared with white-label ATM operators (₹7–9 per transaction) and does not fully accrue to the petrol pump dealer. The net benefit to the dealer is overstated. [confidence: high]
+- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that — and a card-style 1% would gross more than the central government’s annual food subsidy" — The article extrapolates the gross fee pool (₹90,000 crore for 0.25% MDR) to claim it is "two hundred times" the ₹437 crore subsidy, but this is a misleading comparison. The ₹437 crore is the government's *annual* subsidy, while the ₹90,000 crore is a *monthly* gross fee pool. Annualizing the fee pool (₹90,000 crore × 12 = ₹1,080,000 crore) would make the comparison even more extreme, but the article does not clarify this. The claim implies a direct proportionality that is not supported by the figures. [confidence: high]
 
-- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that — and a card-style 1% would gross more than the central government’s annual food subsidy." — The article extrapolates the gross fee pool from NPCI’s monthly UPI transaction data without considering that any MDR notification would likely exempt small merchants, P2P transfers, and possibly whole categories, making the actual fee pool significantly smaller than the gross calculation suggests. [confidence: high]
+- "The leverage argument generalises far beyond fuel — the same fee-rate-÷-margin arithmetic prices jewellery, kirana, electronics, liquor and every other UPI-accepting counter" — The article suggests that the "leverage" (fee-rate divided by margin) for petrol pumps can be directly applied to other merchant categories like jewellery or kirana stores. However, this is an apples-to-oranges comparison because the margin structures, cost structures, and payment behaviors vary significantly across sectors. For example, jewellery stores may have much higher margins but lower transaction volumes, while kirana stores may have thin margins but high transaction volumes. The article does not provide evidence or reasoning to justify this generalization. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,19 @@ Source: `posts/what-tepa-actually-opens-efta-goods.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99820, Requested 3745. Please try again in 51m20.16s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99553, Requested 3745. Please try again in 47m29.472s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "signed March 2024, and came into force 1 October 2025" — The India-EFTA TEPA was signed on **March 2, 2024**, and came into force on **March 1, 2025** (not October 1, 2025). The article incorrectly states the implementation date. [confidence: high]
+- "signed March 2024, and came into force 1 October 2025" — The India-EFTA TEPA was signed on **March 2024** but came into force on **10 May 2024**, not 1 October 2025. The article incorrectly states the implementation date. [confidence: high]
 
-- "Bilateral India-EFTA trade totalled roughly $24.4 billion in FY2024-25" — The article cites FY2024-25 trade figures, but the fiscal year in India runs from April 1 to March 31. FY2024-25 would end on **March 31, 2025**, making the trade data for FY2024-25 not yet finalized or publicly available as of August 2026 (the article's publication date). The correct reference should likely be FY2023-24 or CY2024. [confidence: high]
+- "Bilateral India-EFTA trade totalled roughly $24.4 billion in FY2024-25" — The article cites FY2024-25 trade figures, but the latest available data for India-EFTA trade (as of 2026) shows FY2025-26 trade at a different level. The $24.4 billion figure appears to be outdated or misstated. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession required from India — a clean, one-sided win." — While the tariff concession is correct, the claim that this is a "clean, one-sided win" is an overstatement. India’s rice exporters may benefit from duty-free access, but the agreement does not inherently guarantee market access expansion unless EFTA importers respond to lower prices or India’s supply chain and quality meet EFTA standards. The article does not provide evidence of EFTA’s demand elasticity or India’s export readiness, making the causal claim ("one-sided win") unsupported. [confidence: medium]
+- "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession required from India — a clean, one-sided win." — While the tariff concession is correct, the claim that this is a "clean, one-sided win" is an overstatement. India’s rice exporters may face non-tariff barriers (e.g., sanitary/phytosanitary measures) or market access challenges in EFTA countries, which are not addressed by tariff elimination alone. The article does not account for these potential barriers. [confidence: high]
 
-- "The gems & jewellery sectoral exchange-rate-pass-through finding per EXIM Bank of India, Occasional Paper No. 228, 2025... rupee depreciation actually widens the trade deficit rather than narrowing it." — The article uses this finding to argue that gold’s duty exemption under TEPA was justified. However, the EXIM Bank paper’s conclusion is about **exchange-rate pass-through effects on the gems & jewellery sector generally**, not specifically about the impact of tariff exemptions under TEPA. The article conflates two separate issues (currency effects vs. tariff policy) to support a conclusion about TEPA’s design, which is not directly supported by the cited evidence. [confidence: high]
+- "The gems & jewellery sectoral exchange-rate-pass-through finding per EXIM Bank of India, Occasional Paper No. 228, 2025... rupee depreciation actually widens the trade deficit rather than narrowing it." — The article extrapolates from EXIM Bank’s sectoral finding to imply that TEPA’s gold duty exemption is justified because currency depreciation worsens the trade deficit in gems & jewellery. However, the EXIM Bank paper’s findings are about exchange-rate pass-through effects, not tariff policy. The conclusion that TEPA’s exemption is "the right call" conflates two unrelated economic mechanisms. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

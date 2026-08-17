@@ -16,19 +16,19 @@ Source: `posts/indias-tyre-waste-problem-and-crumb.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99297, Requested 2819. Please try again in 30m28.224s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98991, Requested 2853. Please try again in 26m33.216s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Lab testing at India’s SSPACE Wardha civil engineering department, reported in a 2025 study" — The article cites a 2025 study, but the source listed at the end ("Shweta N. Rokade et al., IJAITE, 2025") is not a real or verifiable publication (IJAITE is not a recognized academic journal, and no 2025 study from this source exists). [confidence: high]
+- "Revenue was around ₹572 crore in the most recent reported year" — The article does not specify the fiscal year for this revenue figure, making it unverifiable. Additionally, the claim lacks a source citation for this specific financial data, which is unusual given the article's otherwise detailed sourcing. [confidence: medium]
 
-- "Revenue was around ₹572 crore in the most recent reported year" — The article does not specify the fiscal year for this revenue figure, making it unverifiable without additional context. Company disclosures are mentioned as a source, but the exact year is omitted. [confidence: medium]
+- "₹23.9 crore in EPR-credit revenue in just the first nine months of FY2026" — FY2026 is a future fiscal year (as of 2024), and the article cites this as a reported figure without clarifying whether it is projected or based on interim data. This is either a factual error or a misleading projection. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on the actual CRMB adoption rate in road construction or the proportion of eligible network using CRMB, so the impact on the import bill cannot be quantified from the given information. [confidence: high]
+- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on the actual CRMB adoption rate in road construction or the proportion of eligible network using CRMB, making the causal link to a "dent" speculative. [confidence: high]
 
-- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, the claim that this alone will shift CRMB from a niche to mainstream use is an overstatement. The article does not provide evidence of increased CRMB adoption rates, cost competitiveness, or industry readiness to scale up, so the causal link between EPR targets and mainstream adoption is unsupported. [confidence: medium]
+- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, it does not inherently mean CRMB will become mainstream. The claim conflates policy compliance with market adoption, as the technical, economic, and logistical barriers to scaling CRMB use are not addressed. The EPR target could drive compliance without ensuring mainstream adoption. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

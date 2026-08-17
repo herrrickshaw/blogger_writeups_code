@@ -16,21 +16,19 @@ Source: `posts/indias-two-tracks-of-health-cover-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99307, Requested 2990. Please try again in 33m4.608s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99001, Requested 2958. Please try again in 28m12.576s. Need more tokens? Upgrade to Dev Tier today at http]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "West Bengal became the last holdout to join [PM-JAY] as of June 2026" — The article later contradicts this by stating West Bengal signed its implementation MoU on **8 June 2026**, implying it joined in mid-2026, not as of June 2026. The phrasing suggests it was the last holdout *by* June 2026, which is misleading. [confidence: high]
+- "after West Bengal became the last holdout to join" — The article later states West Bengal signed its implementation MoU on 8 June 2026, implying the scheme reached full national coverage in mid-2026, not June 2026. The phrasing suggests the event occurred *after* June 2026, which is contradictory. [confidence: high]
 
-- "International General Insurance (IGI), Singapore Reinsurance Corporation, Santam, Abu Dhabi National Insurance, Eurasia Insurance, Korean Re, Kuwait Re, Peak Re, Saudi Re, Allianz, Generali, Starr International, Qatar Re, Doha Re and Lloyd's have all either received licences or begun operations in GIFT City's insurance offices (IIOs) this financial year" — The claim lists multiple reinsurers as active in GIFT City, but the article does not provide primary-source verification (e.g., IFSCA filings) for all entities. Some may still be in the licensing pipeline. [confidence: medium]
-
----
+- "as of June 2026" (in the first paragraph) — The article later specifies dates like "30 June 2026" and "mid-2026," but the initial claim lacks precision and could be misinterpreted as a future date (June 2026) rather than a past one. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "PM-JAY's 43.52-crore-card, all-36-state reach and the private sector's GST-driven 29.7% premium surge are both real, verified growth stories happening at the same time, but the evidence points to them serving largely different segments" — While the article cites research showing PM-JAY increases private-facility visits, it extrapolates this to conclude the two systems serve "largely different segments" without direct evidence linking enrollment data to private insurance uptake at the household level. The claim assumes segmentation based on utilization patterns, not actual overlap or substitution effects. [confidence: high]
+- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes that research shows PM-JAY *increases* private facility visits, but it then concludes that the two systems are "complementary" without addressing the potential for *future* crowding out. The claim that they serve "largely different segments" is an extrapolation beyond the cited evidence, which only examines immediate utilization shifts, not long-term insurance demand dynamics. [confidence: medium]
 
-- "States that layer their own schemes (CMCHIS, BSKY, Chiranjeevi) on top of PM-JAY rather than replacing it reinforce the same complement-not-substitute pattern" — The article conflates *state-layered schemes* (which expand coverage) with *private insurance uptake* (which the GST exemption targets). The existence of layered state schemes does not logically prove that private insurance demand is complementary rather than substitutive, as the latter depends on household behavior, not just policy design. [confidence: medium]
+- "the GST-driven premium growth is happening among the population that already could [afford insurance]" — The article cites a 29.7% growth in premiums post-GST exemption but does not provide data on the income distribution of new policyholders. The claim assumes the growth is concentrated among those who *could* afford insurance before the exemption, but the evidence only shows aggregate growth, not segmentation by affordability. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

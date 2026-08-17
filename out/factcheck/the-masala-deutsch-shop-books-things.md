@@ -16,15 +16,15 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99971, Requested 1852. Please try again in 26m15.072s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99704, Requested 1977. Please try again in 24m12.383999999s. Need more tokens? Upgrade to Dev Tier today a]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Updated 10 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Updated 16 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Every link is an affiliate link — as an Amazon Associate, this site earns from qualifying purchases — and nothing here was supplied free or sponsored; each item was chosen by the author." — While the claim about affiliate links and editorial independence may be factually correct, it does not address potential biases in selection (e.g., whether the author’s choices are influenced by commercial incentives beyond affiliate earnings). The interpretation implies full transparency, but the reasoning gap lies in assuming that editorial independence is absolute without addressing conflicts of interest. [confidence: medium]
+- "Every link is an affiliate link — as an Amazon Associate, this site earns from qualifying purchases — and nothing here was supplied free or sponsored; each item was chosen by the author." — The claim implies that the author's choices are entirely independent and unbiased, but the use of affiliate links creates a financial incentive that could influence recommendations, even if no items were supplied free or sponsored. This is a potential conflict of interest that undermines the objectivity of the recommendations. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
