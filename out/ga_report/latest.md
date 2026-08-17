@@ -4,62 +4,66 @@
 
 ## Totals
 
-- Active users: **84**
-- Total users: **84**
-- Page views: **1256**
-- Sessions: **206**
+- Active users: **100**
+- Total users: **100**
+- Page views: **1378**
+- Sessions: **240**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 49 | 1207 |
-| United States | 29 | 36 |
+| India | 53 | 1311 |
+| United States | 39 | 52 |
 | (not set) | 2 | 2 |
+| Malaysia | 2 | 8 |
 | Oman | 2 | 2 |
 | Ireland | 1 | 2 |
-| Malaysia | 1 | 7 |
+| United Arab Emirates | 1 | 1 |
 
 ## Views by city (top 30)
 
 | City | Active users | Page views |
 |---|---|---|
 | Chennai | 21 | 312 |
-| (not set) | 13 | 16 |
-| Coimbatore | 12 | 445 |
-| Flint Hill | 11 | 15 |
+| Coimbatore | 15 | 548 |
+| (not set) | 14 | 17 |
+| Flint Hill | 13 | 19 |
 | Madurai | 8 | 230 |
+| Des Moines | 6 | 9 |
 | Salem | 4 | 203 |
+|  | 3 | 4 |
 | Hyderabad | 3 | 3 |
 | Bengaluru | 2 | 5 |
 | Delhi | 2 | 2 |
+| Kuala Lumpur | 2 | 8 |
 | Muscat | 2 | 2 |
 | Pune | 2 | 2 |
 | San Jose | 2 | 2 |
 | Ashburn | 1 | 1 |
 | Cork | 1 | 2 |
-| Des Moines | 1 | 1 |
 | Dublin | 1 | 0 |
 | Faridabad | 1 | 1 |
 | Hialeah Gardens | 1 | 1 |
-| Kuala Lumpur | 1 | 7 |
 | Los Angeles | 1 | 1 |
 | Matar | 1 | 1 |
 | Mumbai | 1 | 1 |
 | New Delhi | 1 | 1 |
 | North Charleston | 1 | 1 |
+| Sharjah | 1 | 1 |
 | Vadodara | 1 | 1 |
 
 ## Top pages (top 20)
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 437 | 54 |
+| / | 461 | 61 |
 | /search | 91 | 4 |
-| /2026/08/article-index-start-here.html | 50 | 6 |
+| /2026/08/article-index-start-here.html | 54 | 8 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 31 | 5 |
+| /2026/08/guar-gum-indias-35-billion-export-peak.html | 26 | 6 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 21 | 3 |
 | /2026/08/the-503020-rule-is-elizabeth-warrens.html | 19 | 9 |
 | /2026/07/us-stock-picks-multi-screen-quant.html | 15 | 2 |
 | /2026/07/the-grain-value-loop-integrated-rice.html | 14 | 12 |
@@ -72,6 +76,5 @@
 | /2026/08/europe-bought-record-amount-of-lng-and.html | 12 | 3 |
 | /2026/08/where-indias-factories-actually-get.html | 12 | 12 |
 | /2026/08/imported-fertiliser-fuel-prices-diesel.html | 11 | 3 |
-| /2026/08/jai-kisan-jai-javan-fci-based-military.html | 11 | 9 |
 
 [1]: same post, folded in from a pre-redirect URL still present in GA4's history (301 confirmed working) -- `/2026/07/india-mineral-oil-hsn-ch27-trade.html` (25 views/13 users)
