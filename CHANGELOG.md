@@ -5983,3 +5983,13 @@ scheduled sync
 **Added**
 
 - `ethanols-coal-boilers-briquette-gap-and` **v1.0.0** — Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers (27,946 bytes)
+
+## 2026-08-17T09:10:39+05:30 — 167 posts live
+
+**Versions**
+
+- `article-index-start-here` **25.0.0 → 26.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 208,889 → 209,754 bytes (+865)
