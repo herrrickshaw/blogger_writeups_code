@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-17T09:10:39+05:30",
+  "snapshot": "2026-08-17T09:28:43+05:30",
   "count": 167,
   "posts": {
     "1058853159205559121": {
@@ -25945,14 +25945,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
       "slug": "ethanols-coal-boilers-briquette-gap-and",
       "published": "2026-08-17T09:07:49.000+05:30",
-      "updated": "2026-08-17T09:08:08.019+05:30",
+      "updated": "2026-08-17T09:27:52.069+05:30",
       "labels": [
         "Carbon Markets",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 27946,
-      "sha256": "24f2761baf9bbe74e5011ee4014d142bae5a9e8ec37d3176bcd0eb7b6116b33e",
+      "bytes": 32046,
+      "sha256": "dd5a20c240e2e905d038f95bfcd7eeffb6aff512df4e642104731cef57fb92ee",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25964,13 +25964,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-17T09:09:32+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-17T09:28:43+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            27946,
+            32046
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

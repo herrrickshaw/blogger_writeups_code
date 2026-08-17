@@ -17,24 +17,24 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 ## Groq llama-3.3-70b-versatile
 
 FACTUAL ERRORS:
-- "India's Battery Waste Management Rules, first notified in 2022 and amended in 2023, 2024 and 2025" — The article does not provide a source to verify the exact dates of the amendments in 2023, 2024, and 2025, but the main claim about the first notification in 2022 can be verified [confidence: medium]
-- None found for other specific factual errors, but the article itself notes the potential for AI-generated text to misstate figures, which could lead to undetected factual errors [confidence: low]
+- "India's Battery Waste Management Rules, first notified in 2022 and amended in 2023, 2024 and 2025" — The article does not provide a source to verify these specific amendment years, but the main issue is that it claims the rules were first notified in 2022, which may or may not be accurate as no direct source is given in the text to confirm this [confidence: medium]
+- None found for other factual errors, as the rest of the claims are either supported by the provided context or are not verifiable without external information.
 
 INTERPRETATION ERRORS:
-- "Detailed rules, escalating targets, and a persistent gap between what's mandated and what's tracked" — This conclusion assumes that the existence of detailed rules and escalating targets should naturally lead to effective tracking and compliance, which may not be the case due to various factors such as enforcement gaps, lack of resources, or inadequate implementation mechanisms [confidence: high]
-- "The pattern across both" — The article implies a direct comparison between the plastic-EPR rule change and the battery-EPR regime, suggesting that the issues in one area (e.g., enforcement gaps) are directly applicable to the other, which might not be entirely accurate due to differences in the specific regulations, industries, and contexts [confidence: medium]
+- "Detailed rules, escalating targets, and a persistent gap between what's mandated and what's tracked" — This statement implies a causal relationship between the detail of the rules and the enforcement gap, which may not necessarily be the case. The gap could be due to various factors unrelated to the rule's detail, such as lack of resources for enforcement or inadequate infrastructure [confidence: medium]
+- None found for other interpretation errors, as the article generally presents the information in a neutral manner without making unsupported leaps in logic.
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source material (CSE policy brief) specifies that the 90% recovery rate is required by 2026-27 for the **plastic packaging** EPR rules, not for battery recycling. The battery recycling rules require a 90% recovery rate by 2026-27, but this is not explicitly stated in the claim. [confidence: high]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the Battery Waste Management Rules actually mandate a 70% recovery rate in 2024-25, rising to 90% by 2026-27. The claim conflates the timeline. [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a source confirming the ₹1,500 crore figure or its approval status as of September 2025. The CSE policy brief mentions the incentive but does not specify the amount or exact timing. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article presents this as a disbursed amount, but it is only an approved allocation. The article does not establish whether funds have been disbursed. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The claim implies a direct causal link between the new rules and the closure of the loophole, but it does not address whether the enforcement mechanisms (e.g., verification guidelines, auditors) are sufficient to ensure compliance. The article assumes the rules will work as intended without evidence of their effectiveness. [confidence: high]
+- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The claim implies that the new rules create a strict hierarchy where reuse is prioritized over recycling, but it does not demonstrate that this hierarchy will effectively reduce landfilling or incineration. The article assumes the hierarchy will lead to better outcomes without evidence of enforcement or behavioral change. [confidence: medium]
 
-- "A 2026 policy brief lays out exactly where India's battery-EPR regime is being routed around." — The claim suggests the policy brief provides a comprehensive explanation of the enforcement gaps, but the brief itself characterizes the black market and informal sector as "opaque" and "under-tracked," meaning the brief cannot fully document the extent of the problem. The article overstates the brief's ability to quantify or explain the gaps. [confidence: high]
+- "A 2026 Centre for Science and Environment policy brief on EV battery recycling... documents specific structural gaps a compliance rulebook does not by itself close" — The article attributes the enforcement gap solely to the lack of a rulebook, but the brief itself highlights multiple systemic issues (e.g., informal sector, black mass market) that a rulebook alone cannot address. The article oversimplifies the cause of the enforcement gap by implying it is solely due to the absence of detailed rules. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

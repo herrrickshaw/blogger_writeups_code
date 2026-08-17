@@ -5993,3 +5993,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 208,889 → 209,754 bytes (+865)
+
+## 2026-08-17T09:28:43+05:30 — 167 posts live
+
+**Versions**
+
+- `ethanols-coal-boilers-briquette-gap-and` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ethanols-coal-boilers-briquette-gap-and` — 27,946 → 32,046 bytes (+4,100)

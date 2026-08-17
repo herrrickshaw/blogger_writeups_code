@@ -16,19 +16,25 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9056, Requested 3096. Please try again in 760ms. Need more tokens? Upgrade to Dev Tier today at https://]
+FACTUAL ERRORS:
+- "India's fertiliser import bill is projected to hit a record $18 billion this fiscal year, a 76% jump from the year before" — The article could not independently locate a PIB or Ministry of Chemicals and Fertilisers statement with the same figure, so the accuracy of this claim cannot be verified. [confidence: medium]
+- "India imports roughly 40 lakh tonnes (about 4 million tonnes) of Muriate of Potash (MOP) a year" — The article could not independently verify the 40-lakh-tonne figure against a single primary customs or Department of Fertilizers dataset, so it is reported as a widely cited industry estimate rather than an official statistic. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "90% of the total cost of producing urea is natural gas, procured largely through long-term import agreements — and only 26% of that gas is sourced domestically" — This fact is used to support the conclusion that India's fertiliser import bill is high due to its dependence on imported natural gas, but it does not account for other factors that may contribute to the high import bill, such as demand surge or domestic production capacity. [confidence: medium]
+- "The Standing Committee's 90%-of-urea-cost figure is the other end of that same pipe: whatever India's gas price does, urea's production cost moves with it almost one-for-one" — This statement implies a direct causal relationship between gas prices and urea production costs, but it does not consider other factors that may affect urea production costs, such as changes in demand or production efficiency. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The article references sources dated January 2026 (e.g., Business Standard article) and December 2025 (Standing Committee report), but claims a publication date of August 2026, which is inconsistent with the cited sources. [confidence: high]
+- "Published 8 August 2026" — The article references sources dated January 2026 (e.g., Business Standard article) and a Standing Committee report from December 2025, but claims publication in August 2026, which is inconsistent with the cited dates. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct confirmation from an official or primary dataset. [confidence: medium]
+- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The claim is presented as fact without cross-checking against official government data or industry reports. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's production cost is natural gas, and India sources only a quarter of that gas domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the 76% surge in fertiliser imports, but the article does not establish that the import surge is *primarily* driven by gas import dependence rather than other factors (e.g., weather-driven demand, global price spikes, or policy changes). The reasoning conflates structural dependence with a specific year's import spike. [confidence: high]
+- "90% of urea's production cost that is natural gas... and only 26% of that gas is sourced domestically" — The article implies that the 26% domestic sourcing of gas directly explains the 76% surge in fertiliser imports. However, the 90% gas cost share and 26% domestic sourcing are structural factors (long-term dependencies), not direct causes of a year-on-year spike. The surge is attributed to weather-driven demand, not gas sourcing changes. The causal link between gas sourcing and the import surge is overstated. [confidence: high]
 
-- "A rains-driven demand surge on top of a structural import dependence" — The article attributes the 76% import surge to heavy rains expanding cultivation area, but does not provide data showing that rainfall was *exceptionally* higher than previous years or that it directly caused the import spike. The claim assumes causation without quantifying the magnitude of the weather impact relative to other factors (e.g., global fertiliser price trends). [confidence: medium]
+- "A crude price spike does not just raise India's fuel-retail bill... it raises the fertiliser subsidy bill through the exact same gas-price channel" — While the article correctly notes that gas price volatility affects urea production costs, it conflates the *subsidy bill* with the *import bill*. The import bill is driven by volume and global prices, while the subsidy bill is a separate fiscal outlay. The article does not distinguish between these two distinct financial impacts. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
