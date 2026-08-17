@@ -5961,3 +5961,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 46,803 → 48,239 bytes (+1,436)
+
+## 2026-08-17T07:17:52+05:30 — 166 posts live
+
+**Added**
+
+- `scan-bottle-deliver-what-ppacs-numbers` **v1.0.0** — Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen (23,587 bytes)
