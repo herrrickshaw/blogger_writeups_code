@@ -35,7 +35,15 @@ about a discom token charge.
 **The 2026-08-06 normalisation held.** Zero of 169 sidecars carry
 `light_lock`, `dark_panel_guard`, `inverted_media_query` or
 `disclaimer_in_script`. The layers that caused the contrast bug were removed and
-have not crept back in over the ~180 snapshots since.
+have not crept back in over the 271 snapshot commits since.
+
+*(Corrected 18 August 2026: an earlier revision said "~180 snapshots". The
+checkout this analysis ran against was a **shallow** clone reaching back only to
+2026-08-15, so no count — and no "this never existed in history" claim — was
+answerable from it. Re-run after `git fetch --unshallow`: 447 commits on `main`,
+271 of them snapshots since 2026-08-06. The §2.1 finding that `CLAUDE.md` was
+never added is now verified across all 453 commits on all refs, rather than
+inferred from a truncated history.)*
 
 **CI is portable.** All five tools the workflows invoke — `snapshot.py`,
 `site_health.py`, `link_audit.py`, `units_in_header.py`, `ai_radar.py` — resolve
@@ -92,15 +100,23 @@ The traps a short file would need to carry, all already documented somewhere:
 
 | Provider | Usable | Failed | Usable % | Failure |
 |---|---:|---:|---:|---|
-| Groq `llama-3.3-70b-versatile` | 185 | 0 | 100% | — |
+| Groq `llama-3.3-70b-versatile` | 94 | 91 | **50.8%** | 429 ×91 (tokens-per-day cap) |
 | Mistral `mistral-small-latest` | 169 | 1 | 99.4% | 429 ×1 |
 | Gemini `gemini-flash-latest` | 82 | 103 | **44.3%** | 429 ×99, 503 ×4 |
 | Kimi `kimi-k2-0711-preview` | 0 | 172 | **0%** | 429 ×172, insufficient balance |
 | Cerebras `gpt-oss-120b` | 0 | 171 | **0%** | 402 ×171, payment required |
 
-**447 of 883 calls wasted — 50.6%.** Kimi and Cerebras have never returned a
+**538 of 883 calls wasted — 60.9%.** Kimi and Cerebras have never returned a
 usable answer in the entire report corpus, and are called on every post on every
 run.
+
+*(Corrected 18 August 2026. An earlier revision of this document reported
+Groq at 185/0/100% and the total waste at 447 calls / 50.6%. Groq's failures are
+labelled `[Groq/llama-3.3-70b-versatile …]` — with a slash — and the pattern used
+to harvest them accepted word characters only, so all 91 were missed. The
+correction makes the finding worse, not better: the one provider described as
+fully reliable actually answers barely half the time, and on a day both Groq and
+Gemini are capped the "five-model panel" can be Mistral alone.)*
 
 The editorial consequence is the larger one. The module's docstring describes a
 five-model cross-vendor panel, and the value of that design is independence —
