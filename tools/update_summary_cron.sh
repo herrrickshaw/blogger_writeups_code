@@ -3,7 +3,8 @@
 # commits+pushes it to GitHub if changed, and syncs a copy to Dropbox.
 # Run daily via cron; safe to run manually too.
 set -euo pipefail
-cd /Users/umashankar/masaladeutsch-archive
+# Repo root relative to this script (see daily_maintenance_cron.sh).
+cd "$(dirname "$0")/.." || exit 1
 
 /opt/homebrew/bin/python3 tools/build_md_summary.py
 

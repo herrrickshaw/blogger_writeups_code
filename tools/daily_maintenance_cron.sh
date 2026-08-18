@@ -11,7 +11,9 @@
 # LanguageTool's own suggestions were false positives, so unattended
 # auto-apply would silently introduce real errors into live posts.
 set -uo pipefail
-cd /Users/umashankar/masaladeutsch-archive
+# Repo root relative to this script, so the chain is not tied to one machine.
+# (The absolute python3 below stays: cron runs with a minimal PATH.)
+cd "$(dirname "$0")/.." || exit 1
 
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') summary regeneration ==="
 /bin/bash tools/update_summary_cron.sh

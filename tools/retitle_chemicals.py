@@ -22,8 +22,10 @@ Both the Blogger title AND the in-body <h1> are changed. The theme hides its own
 h1 when the body supplies one, so changing only the Blogger title would leave the
 page heading disagreeing with the search result.
 """
-import sys, time
-sys.path.insert(0, "/Users/umashankar/masaladeutsch-archive/tools")
+import pathlib, sys, time
+# blogger_api.py sits beside this file, so resolve from here rather than from
+# one machine's checkout path.
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import blogger_api as B
 
 PLAN = [

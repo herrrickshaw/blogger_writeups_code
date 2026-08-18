@@ -8,9 +8,12 @@ Also compiles a Units reference and a Glossary of terms/abbreviations,
 scanned across the corpus and matched against a curated definition list --
 only terms actually present in the current posts are printed.
 """
-import glob, html, json, re, sys, collections, datetime, urllib.request, urllib.error
+import glob, html, json, pathlib, re, sys, collections, datetime, urllib.request, urllib.error
 
-ROOT = '/Users/umashankar/masaladeutsch-archive'
+# Resolved from this file's location, not hardcoded: the daily chain in
+# MAINTENANCE.md used to be runnable only from one laptop. Kept a str, not a
+# Path -- every use below is an f-string join.
+ROOT = str(pathlib.Path(__file__).resolve().parent.parent)
 OUT_PATH = f'{ROOT}/MASALADEUTSCH_ALL_POSTS_SUMMARY.md'
 SKIP_SLUGS = {'article-index-start-here', 'about-author', 'the-masala-deutsch-shop-books-things'}
 
