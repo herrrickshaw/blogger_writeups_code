@@ -203,8 +203,13 @@ a schedule.
 `DESIGN_LOG.md` states the enforceable form of its rules *"lives in
 `~/blog-consistency-check/`"*. That directory is not in the repo — the rules are
 in-repo at `consistency-check/` (`checks.py`, `audit.py`, `fix.py`), which is
-where they were found for this analysis. `market-pipeline/` is referenced once
-and is likewise absent. The drift is not confined to prose: committed data
+where they were found for this analysis. `market-pipeline/` is referenced once and is
+also not in this tree, but that reference is **correct and not drift**:
+`MAINTENANCE.md` §1 points at *"that repo's `weekly_maintenance.sh`"*, and
+`herrrickshaw/market-pipeline` exists as a separate private repository. Named
+here only so a future reader does not go looking for a missing directory.
+*(Corrected 18 August 2026: an earlier revision of this document listed it
+alongside the genuine drift below.)* The drift is not confined to prose: committed data
 points there too — every `path` entry in `consistency-check/fixes/manifest.json`
 is an absolute `~/blog-consistency-check/fixes/...` location, and
 `consistency-check/out/priority_run.log` records its report path the same way.
