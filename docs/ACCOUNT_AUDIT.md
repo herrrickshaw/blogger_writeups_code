@@ -31,9 +31,10 @@ not implied by absence from this document.
 | Missing topics | 69 (97%) |
 | Open issues, all repositories | 10 |
 
-**Languages.** Python 43, HTML 13, — 7, Shell 3, Jupyter Notebook 2, CQL 1, JavaScript 1, C++ 1.
+**Languages.** Python 43, HTML 13, none detected 7, Shell 3, Jupyter Notebook 2, CQL 1, JavaScript 1, C++ 1.
 
 **Push recency, active repositories only.** 0-7 days: 10 · 8-30 days: 39 · 31-60 days: 1 · 60+ days: 0. Of 50 active repositories, 49 were pushed within 30 days.
+
 ## 2. Findings
 
 ### 2.1 One repository is public while its own README calls it private
@@ -120,6 +121,7 @@ is external rather than internal.
 reads like an import branch that became the default and was never moved. Worth
 checking whether `main` exists there and carries the work someone would expect
 to find on a default checkout.
+
 ## 3. Thematic concentration
 
 | Cluster | Repos | Active | Archived |
