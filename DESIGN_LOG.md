@@ -2654,3 +2654,59 @@ was never actually assigned to any post — the real label is "AI Tracker".
 
 Net effect: this file's top section is now the enforceable spec again, not a
 description of a mechanism that was already gone.
+
+## 2026-08-18 — PCPIR section added to the Top-15 chemicals post
+
+The Top-15 post answered "which codes" and "who is building capex" but never
+answered **where** the plant physically goes — which is the binding question for
+every base-petrochemical line in it, since the rationale on those codes is
+uniformly "cracker capacity gap". Added a `WHERE THE CAPACITY LANDS` H2 between
+the government-support summary and the implementation roadmap, built from PIB
+releases and parliamentary replies of the Department of Chemicals and
+Petrochemicals.
+
+**Four editorial decisions worth keeping on record:**
+
+- **Three PCPIRs, not four.** Almost every secondary source still says four
+  (Dahej, Visakhapatnam–Kakinada, Paradeep, Cuddalore–Nagapattinam). Tamil Nadu
+  cancelled its own in Feb 2020 — G.O. (Ms) No. 36, Housing & Urban Development
+  Dept, 45 villages across Cuddalore and Nagapattinam denotified after the
+  Cauvery delta was declared a protected agricultural zone — and recent PIB
+  releases count three. The post says three, names the cancellation, and uses it
+  as the section's risk anchor: a region approved in 2012 with ₹8,100 crore
+  already committed died on land and consent, not on capital. That is the same
+  class of risk as the unfiled EC already flagged against BPCL Andhra further
+  down the same post.
+- **The state-wise splits do not reconcile with the national total, and the post
+  says so rather than hiding it.** Dahej ₹1,12,873 cr + Vizag–Kakinada ₹43,744 cr
+  + Paradeep ₹45,000 cr = ₹2,01,617 cr against the ₹3,49,192 cr reported for the
+  three regions together in 2026. Roughly 42% of the current stock cannot be
+  placed in a state from published replies. The splits are of different vintages
+  (Dahej alone appears at both ₹85,928 cr and ₹1,12,873 cr in different replies),
+  so they are labelled last-known state positions, not a decomposition.
+- **A PIB release number was deliberately NOT cited for the newest figure.** The
+  ₹3,49,192 cr / 2,246 units / 3,71,263 persons totals come from a Rajya Sabha
+  written reply by the MoS for Chemicals & Fertilizers in the 2026 Monsoon
+  Session, reached through trade-press reportage; the specific PIB release could
+  not be opened to confirm its number and date. The source note says exactly
+  that instead of attaching a plausible-looking PRID. Cite the release id on the
+  next revision if it can be confirmed directly.
+- **The cluster layer is included but explicitly demoted.** Plastic Parks (10
+  states), Bulk Drug Parks (3 states) and the new ₹600 crore Chemical Parks
+  line in the FY2026-27 Budget are tabulated because the ask was state coverage —
+  but each row carries what it does *not* do for this post's codes. Plastic Parks
+  consume PP/PE, they do not make it; Bulk Drug Parks sit next to the Chapter 29
+  fine-chemical lines, not the polymer lines. Listing them without that column
+  would have implied substitution capacity that none of them build.
+
+One phrasing trap avoided: PIB reports "investment made/committed" as a single
+number. A committed rupee is not a commissioned tonne and maps to no HSN-8 line;
+the limits blockquote states that before anything else, because the whole section
+would otherwise read as evidence that substitution has happened rather than as a
+map of where it could.
+
+**Mechanical note.** This post's preamble sits in a `.gs-head-order` flex column
+(`display:flex;flex-direction:column`) where every child carries an explicit
+`order:`. The house revision line — which this post did not have — must be given
+`order:3` to land after the index backlink; inserted without one it defaults to
+`order:0` and jumps above the H1.
