@@ -6157,3 +6157,13 @@ scheduled sync
 **Added**
 
 - `the-milk-india-doesnt-drink-cheese-and` **v1.0.0** — The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity (23,339 bytes)
+
+## 2026-08-19T06:38:45+05:30 — 172 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.2 → 28.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 212,336 → 212,722 bytes (+386)
