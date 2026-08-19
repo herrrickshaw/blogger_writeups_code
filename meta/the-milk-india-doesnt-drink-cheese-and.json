@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-08-19T06:37:17.111+05:30",
+  "updated": "2026-08-19T06:41:40.554+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 23339,
-  "sha256": "ad8feed60e78d3b5127f1a6c604d5a837a3480e0357b105535f17855d2224221",
+  "bytes": 28015,
+  "sha256": "13f4ef7321af453ca6cb0dde92cdc700c763578e6f1a888826b2ef840d943123",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-19T06:37:50+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-19T06:42:44+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23339,
+        28015
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

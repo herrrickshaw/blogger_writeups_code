@@ -6167,3 +6167,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 212,336 → 212,722 bytes (+386)
+
+## 2026-08-19T06:42:44+05:30 — 172 posts live
+
+**Versions**
+
+- `the-milk-india-doesnt-drink-cheese-and` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-milk-india-doesnt-drink-cheese-and` — 23,339 → 28,015 bytes (+4,676)
