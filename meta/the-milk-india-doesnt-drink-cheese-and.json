@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-08-19T07:11:35.666+05:30",
+  "updated": "2026-08-19T07:23:26.570+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 34408,
-  "sha256": "2b93a9cbe81c234fb3b797707e8cefdafdbd4de7f335733f5e88f84145ef5403",
+  "bytes": 37082,
+  "sha256": "09d2005b4022d334156614bc00b3e722767213f36a85ccf5f5160ea1d99b2dd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -78,6 +78,19 @@
       "bytes": [
         32728,
         34408
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-08-19T07:24:05+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34408,
+        37082
       ],
       "url_changed": null,
       "markers_changed": null,
