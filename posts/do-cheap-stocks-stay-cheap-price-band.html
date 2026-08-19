@@ -161,7 +161,7 @@ if(skip){
 
 
 <h2>2. What K-means clustering finds when it isn't told about price bands</h2>
-<p>Same correction applied here: K-means clustering (four clusters, standardised features) was re-run using only the 1,761 confirmed equity tickers with sufficient price history, on four inputs &mdash; price (log-scaled), annualised return, annualised volatility, and beta &mdash; with the algorithm given no knowledge of this series' own ₹250/₹1,000/₹10,000 boundaries.</p>
+<p>Same correction applied here: K-means clustering (four clusters, standardised features) was re-run using only the 1,761 confirmed equity tickers with sufficient price history &mdash; a stricter bar than the migration table's 2,444, since clustering needs a continuous price series across the full 3.5-year window to compute annualised return, volatility, and beta, while migration only needs a start and end price &mdash; on four inputs &mdash; price (log-scaled), annualised return, annualised volatility, and beta &mdash; with the algorithm given no knowledge of this series' own ₹250/₹1,000/₹10,000 boundaries.</p>
 <div id="clusterChartWrap">
 <canvas id="clusterChart" width="1200" height="640"></canvas>
 <p class="cluster-legend">Each point is one equity stock: x-axis is price (log scale), y-axis is annualised volatility (%). Colour is the K-means cluster assignment.</p>

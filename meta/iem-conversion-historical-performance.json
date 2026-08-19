@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-08-16T15:14:15.202+05:30",
+  "updated": "2026-08-19T11:49:29.050+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21207,
-  "sha256": "3efc24bf5d05bd274280bcac81a698a5dc05343a223b7d47dfba5f39fa86c16a",
+  "bytes": 21261,
+  "sha256": "ae335d845e536ae5f1e6085254bfbc0709a9a881af56a792c8f0433ffe344cb9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "bytes": [
         20852,
         21207
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21207,
+        21261
       ],
       "url_changed": null,
       "markers_changed": null,

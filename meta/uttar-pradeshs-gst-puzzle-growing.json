@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-08-16T15:08:14.442+05:30",
+  "updated": "2026-08-19T11:52:37.331+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26527,
-  "sha256": "df3ee21ffbcb3adf314f0166af41733365abf258e1bc6257ca0137d2a1fc3ffc",
+  "bytes": 26766,
+  "sha256": "7a929af43761d025ad0b1071e97292c39fdc5d4fab38070d48fe974d556d66bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.5",
+  "version": "1.2.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,19 @@
       "bytes": [
         26172,
         26527
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.6",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        26527,
+        26766
       ],
       "url_changed": null,
       "markers_changed": null,

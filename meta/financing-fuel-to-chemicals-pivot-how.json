@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
   "slug": "financing-fuel-to-chemicals-pivot-how",
   "published": "2026-08-14T11:33:51.000+05:30",
-  "updated": "2026-08-16T15:07:04.250+05:30",
+  "updated": "2026-08-19T11:48:44.091+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 23054,
-  "sha256": "37704c24dd01d06ab015155e95e785864a8e915c2393ded2b0cfbd7c6bfc3af3",
+  "bytes": 23261,
+  "sha256": "dbe117f19d6f186f01c6638cd6d73c810900a2b53fe63731811d5a40c3fcb633",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,19 @@
       "bytes": [
         22699,
         23054
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23054,
+        23261
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-16T15:15:43.563+05:30",
+  "updated": "2026-08-19T11:51:03.529+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 16782,
-  "sha256": "f303c94ebc4cd4b71906a2c7d5707980f86ac0dc6255e1938af9b1401e739834",
+  "bytes": 17128,
+  "sha256": "3f0a6f055adab8c38c3f28ba0d4a7768b24668dd82af1f232a212d68734f1fbc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.11",
+  "version": "1.0.12",
   "version_history": [
     {
       "version": "1.0.0",
@@ -178,6 +178,19 @@
       "bytes": [
         16427,
         16782
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        16782,
+        17128
       ],
       "url_changed": null,
       "markers_changed": null,

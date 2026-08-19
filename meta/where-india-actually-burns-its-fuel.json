@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-08-16T15:10:09.996+05:30",
+  "updated": "2026-08-19T11:48:42.147+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 22416,
-  "sha256": "071fd89fee5cde804cbe1cd4a41668f2aaf6db60e1465f6482a9ac2ff5c9c55d",
+  "bytes": 22432,
+  "sha256": "b4becbb15ab3c41156d2d15782d9b2595c2ae3a7b9a02ebdfed3c2b2856e1f70",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -131,6 +131,19 @@
       "bytes": [
         22061,
         22416
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22416,
+        22432
       ],
       "url_changed": null,
       "markers_changed": null,

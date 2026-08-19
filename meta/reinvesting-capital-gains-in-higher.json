@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-08-16T15:10:44.505+05:30",
+  "updated": "2026-08-19T11:52:15.663+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 30125,
-  "sha256": "f7b3ac990438b4df08057cc3dcdf365457e2e873811139eef304a52b9d75d1ba",
+  "bytes": 30230,
+  "sha256": "c95088917aa7c6e0edd2b525f9a27d0d8b44c5e11caa289f886ab1fc081aa193",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "bytes": [
         29770,
         30125
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30125,
+        30230
       ],
       "url_changed": null,
       "markers_changed": null,
