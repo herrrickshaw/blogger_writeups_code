@@ -6501,3 +6501,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 214,140 → 214,998 bytes (+858)
+
+## 2026-08-19T12:14:36+05:30 — 174 posts live
+
+**Versions**
+
+- `blending-on-budget-energy-density-and` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `blending-on-budget-energy-density-and` — 26,541 → 29,791 bytes (+3,250)
