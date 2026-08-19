@@ -6485,3 +6485,9 @@ scheduled sync
 - `india-ec-approval-funnel-parivesh-20` — 16,782 → 17,128 bytes (+346)
 - `cold-chain-fuel-outlet-integrated-map` — 13,101 → 13,138 bytes (+37)
 - `india-trade-sector-policy` — 18,896 → 18,912 bytes (+16)
+
+## 2026-08-19T12:08:42+05:30 — 174 posts live
+
+**Added**
+
+- `blending-on-budget-energy-density-and` **v1.0.0** — Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs (26,541 bytes)
