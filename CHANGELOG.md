@@ -6115,3 +6115,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 211,028 → 211,982 bytes (+954)
+
+## 2026-08-19T05:48:35+05:30 — 170 posts live
+
+**Versions**
+
+- `green-gold-what-spirulina-actually-is` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `green-gold-what-spirulina-actually-is` — 27,666 → 32,652 bytes (+4,986)

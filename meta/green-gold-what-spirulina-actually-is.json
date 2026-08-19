@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html",
   "slug": "green-gold-what-spirulina-actually-is",
   "published": "2026-08-19T05:42:27.000+05:30",
-  "updated": "2026-08-19T05:42:47.106+05:30",
+  "updated": "2026-08-19T05:48:02.536+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Biofuels",
     "Healthcare"
   ],
-  "bytes": 27666,
-  "sha256": "8135749590161e275530b0004dc24ce7615f54226c14b781723c1a25646ebab7",
+  "bytes": 32652,
+  "sha256": "52c50e67af72507ebdda83f4415518b799fe31d0db91e88cdecc5a5e4760bfa5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-19T05:43:32+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-19T05:48:35+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27666,
+        32652
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]
