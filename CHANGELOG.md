@@ -6151,3 +6151,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 48,239 → 53,124 bytes (+4,885)
+
+## 2026-08-19T06:37:50+05:30 — 172 posts live
+
+**Added**
+
+- `the-milk-india-doesnt-drink-cheese-and` **v1.0.0** — The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity (23,339 bytes)
