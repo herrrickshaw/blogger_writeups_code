@@ -65,6 +65,8 @@ LABEL_HUBS = [
     ("Environment & Clearances", "Environment%20%26%20Clearances"),
     ("Macroeconomics & Monetary Policy", "Macroeconomics%20%26%20Monetary%20Policy"),
     ("AI Tracker", "AI%20Tracker"),
+    ("Healthcare", "Healthcare"),
+    ("Ethanol & Biofuels", "Ethanol%20%26%20Biofuels"),
 ]
 E = lambda s: html.escape(s, quote=True)
 _MON = ["January","February","March","April","May","June","July","August",

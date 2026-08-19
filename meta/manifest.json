@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-19T12:35:38+05:30",
+  "snapshot": "2026-08-19T14:21:16+05:30",
   "count": 174,
   "posts": {
     "1058853159205559121": {
@@ -7861,8 +7861,9 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
       "slug": "the-cluster-automotive-piece-left-out",
       "published": "2026-08-15T07:20:21.000+05:30",
-      "updated": "2026-08-19T11:18:20.036+05:30",
+      "updated": "2026-08-19T14:18:02.657+05:30",
       "labels": [
+        "Industrial Policy",
         "Manufacturing"
       ],
       "bytes": 20272,
@@ -11601,8 +11602,9 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
       "slug": "how-indias-automotive-clusters-rewired",
       "published": "2026-08-15T07:16:39.000+05:30",
-      "updated": "2026-08-16T15:06:42.064+05:30",
+      "updated": "2026-08-19T14:18:10.471+05:30",
       "labels": [
+        "Industrial Policy",
         "Manufacturing"
       ],
       "bytes": 24379,
@@ -13186,10 +13188,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
       "slug": "rin-red-and-cbio-what-indias-ethanol",
       "published": "2026-08-13T11:40:24.000+05:30",
-      "updated": "2026-08-16T15:07:28.737+05:30",
+      "updated": "2026-08-19T14:18:18.360+05:30",
       "labels": [
         "Biofuels",
         "Carbon Markets",
+        "Ethanol & Biofuels",
         "India"
       ],
       "bytes": 36474,
@@ -13933,9 +13936,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
       "slug": "price-is-wire-how-gcam-actually-links",
       "published": "2026-08-13T10:21:55.000+05:30",
-      "updated": "2026-08-19T11:50:59.294+05:30",
+      "updated": "2026-08-19T14:18:26.307+05:30",
       "labels": [
+        "Climate & Carbon",
         "Climate Modeling",
+        "Energy & Fuels",
         "Energy Systems",
         "India"
       ],
@@ -14237,11 +14242,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html",
       "slug": "one-gallon-five-numbers-how-gcam-fits",
       "published": "2026-08-13T11:20:44.000+05:30",
-      "updated": "2026-08-16T15:07:32.893+05:30",
+      "updated": "2026-08-19T14:18:35.073+05:30",
       "labels": [
         "Biofuels",
         "Carbon Markets",
-        "Climate Modeling"
+        "Climate & Carbon",
+        "Climate Modeling",
+        "Ethanol & Biofuels"
       ],
       "bytes": 26100,
       "sha256": "07350f81ff4de44b1442f56781a860b2e0b780b9ad1b85dace6ed947f1bf8590",
@@ -14465,9 +14472,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html",
       "slug": "the-currency-rupee-trends-piece-left",
       "published": "2026-08-14T18:48:54.000+05:30",
-      "updated": "2026-08-16T15:06:53.681+05:30",
+      "updated": "2026-08-19T14:18:42.074+05:30",
       "labels": [
-        "Currency Markets"
+        "Currency Markets",
+        "Macroeconomics & Monetary Policy"
       ],
       "bytes": 33890,
       "sha256": "19aa32e4dfeae2e9364a97e05c61de25cd7afbf388709364ea113d286fc68733",
@@ -17938,10 +17946,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-19T12:09:40.490+05:30",
+      "updated": "2026-08-19T14:20:48.774+05:30",
       "labels": [],
-      "bytes": 214998,
-      "sha256": "6d0ab94e410cb9757d4b18e999d00d05f73f6b4d0bf99d1d321820cc9816274e",
+      "bytes": 215312,
+      "sha256": "b73bc72f6801acb941fb5119357f432b064d343d88eaa672b9f2523b401085c3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17953,7 +17961,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "28.0.6",
+      "version": "28.0.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18841,6 +18849,19 @@
           "bytes": [
             214140,
             214998
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "28.0.7",
+          "date": "2026-08-19T14:21:16+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            214998,
+            215312
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -21152,10 +21173,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
       "slug": "india-grows-soybean-exports-meal-leads",
       "published": "2026-08-15T08:01:21.000+05:30",
-      "updated": "2026-08-19T11:48:48.393+05:30",
+      "updated": "2026-08-19T14:18:47.793+05:30",
       "labels": [
+        "Agriculture & Fertilisers",
         "Agriculture & Food Processing",
-        "India Trade & Policy"
+        "India Trade & Policy",
+        "Trade & Tariffs"
       ],
       "bytes": 31607,
       "sha256": "409a2ddc62e007001168f3f25a1803d91f9410da17e0453819d8ebd57e40d794",
@@ -22659,8 +22682,9 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
       "slug": "which-ecb-currencies-are-actually",
       "published": "2026-08-14T18:53:36.000+05:30",
-      "updated": "2026-08-16T15:06:46.150+05:30",
+      "updated": "2026-08-19T14:18:54.623+05:30",
       "labels": [
+        "Markets & Finance",
         "Sustainable Finance"
       ],
       "bytes": 21903,
@@ -22906,10 +22930,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
       "slug": "pet-recycling-already-cuts-emissions-60",
       "published": "2026-08-16T07:25:04.000+05:30",
-      "updated": "2026-08-19T11:50:51.300+05:30",
+      "updated": "2026-08-19T14:19:03.034+05:30",
       "labels": [
         "Circularity & Waste-to-Value",
-        "India Trade & Policy"
+        "Environment & Clearances",
+        "India Trade & Policy",
+        "Trade & Tariffs"
       ],
       "bytes": 21970,
       "sha256": "4f290df5c8892b48ef90ba0dace03e190e1a4bf671ad660fde3f22e20d76b745",
@@ -24634,9 +24660,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
       "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
       "published": "2026-08-14T18:51:11.000+05:30",
-      "updated": "2026-08-16T15:06:50.568+05:30",
+      "updated": "2026-08-19T14:19:10.822+05:30",
       "labels": [
-        "Currency Markets"
+        "Currency Markets",
+        "Macroeconomics & Monetary Policy"
       ],
       "bytes": 18804,
       "sha256": "ea15f0d93fd355e3ebe18035a966d0624ae6f69b20b1d775649ddf0f06b83e24",
