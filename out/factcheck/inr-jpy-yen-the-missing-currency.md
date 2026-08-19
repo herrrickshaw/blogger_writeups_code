@@ -16,19 +16,20 @@ Source: `posts/inr-jpy-yen-the-missing-currency.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98957, Requested 3229. Please try again in 31m28.704s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like" published on **14 August 2026** — The date is impossible as the current date is before this, and no future-dated article can be published in advance. [confidence: high]
+- "The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like" published on **14 August 2026** — The article references events and data up to August 2026, but as of the current date (June 2025), this future date is incorrect and unverifiable. [confidence: high]
 
-- "an estimated $4 trillion in global yen carry positions began reversing" — The BIS Bulletin No. 90 cited does not provide a specific dollar estimate of $4 trillion for the July 2024 carry-trade unwind; this figure appears to be an extrapolation or misinterpretation of the BIS analysis. [confidence: high]
+- "an estimated $4 trillion in global yen carry positions began reversing" — The claim cites the BIS Bulletin No. 90 for this figure, but the BIS Bulletin No. 90 (August 2024) does not quantify the total size of global yen carry positions; it discusses the unwind event qualitatively. The $4 trillion figure appears to be an extrapolation or misattribution. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years. JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — While the data shows JPY/INR fell 10.3% over five years (implying INR strengthened), this does not by itself explain why yen debt was "such a good trade" for Indian borrowers. The article conflates currency movement with borrowing cost advantages without demonstrating that the timing of borrowing aligned with favorable exchange rate movements or that the principal repayment benefit outweighed interest costs or volatility risks. [confidence: high]
+- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years. JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — While the data shows JPY/INR fell 10.3% over five years (implying INR strengthened), this does not logically explain why yen debt was "such a good trade" for Indian borrowers. The article conflates currency appreciation with the cost of debt service. A stronger rupee reduces the INR cost of repaying yen debt, but the "good trade" claim relies on the low nominal yen coupon, not the currency movement alone. The reasoning incorrectly attributes the benefit solely to the exchange rate trend without isolating the interest rate advantage. [confidence: high]
 
-- "Funding currencies have already started rotating away from the yen since. Reporting from 2026 describes investors diversifying carry-trade funding out of JPY and into the euro and Swiss franc..." — The claim that investors are rotating away from JPY into EUR/CHF in 2026 is presented as a factual trend based on "Reporting from 2026," but no verifiable source is provided within the article text, and the claim extrapolates from a single data point (yen volatility) to a broad behavioral shift without sufficient evidence or context. [confidence: medium]
+- "Adding JPY doesn't overturn that ranking, but it adds a category the original five-currency set couldn't show: a currency that is both moderately volatile and has moved in the borrower's favour on trend." — The article claims JPY/INR is "trend-favourable-and-moderate-volatility," but the data shows JPY/INR had an annualized volatility of 12.1%, which is higher than USD, AED, SAR, and CNY (6–9.6%) and not "moderate" in absolute terms. The classification of 12.1% as "moderate" is subjective and not supported by standard volatility benchmarks (e.g., IMF or BIS classifications). The interpretation misrepresents the risk profile by using a relative, non-standard label. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

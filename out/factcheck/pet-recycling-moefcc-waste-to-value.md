@@ -16,19 +16,20 @@ Source: `posts/pet-recycling-moefcc-waste-to-value.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98852, Requested 3072. Please try again in 27m42.336s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026" — The article itself acknowledges a discrepancy in the notification date, with some sources citing 19 January 2026 and others late March 2026. The claim is unverifiable as stated. [confidence: high]
+- "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026" — The article itself acknowledges a discrepancy in the notification date, citing both 19 January 2026 (from its own EPR-regime piece) and late March 2026 (from secondary reporting). The claim is internally inconsistent and unverifiable as stated. [confidence: high]
 
-- "FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity" — The article cites this as occurring in March 2026, but the rules were notified in January/March 2026. The timeline is inconsistent, and the claim lacks primary verification. [confidence: medium]
+- "FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity" — The article cites this as occurring in March 2026, but the notification date for the rules is disputed (see above). The timing of FSSAI's authorization relative to the rules' notification is unclear, creating potential chronological inconsistency. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Recycled PET (rPET) uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 60-79% range depending on the specific process comparison." — While the energy and emissions savings figures are plausible, the article extrapolates these global averages to India-specific conditions without citing peer-reviewed lifecycle assessments or India-specific data. The claim implies a direct equivalence between global averages and India's rPET processing, which may not hold due to differences in energy mix, recycling technologies, or feedstock sources. [confidence: high]
+- "Recycled PET (rPET) uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 60-79% range depending on the specific process comparison." — While the energy and emissions savings figures are plausible, the article extrapolates these global averages to India-specific conditions without providing evidence that Indian rPET processing achieves similar reductions. The claim implies direct applicability to India's context, which is not substantiated. [confidence: high]
 
-- "At India's own scale, industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year." — The article presents this as a factual claim but does not reconcile the methodology behind the industry estimate (e.g., whether it accounts for transportation emissions, energy mix differences, or processing inefficiencies). The causal link between substituting rPET and emissions reduction is asserted without sufficient evidence of India-specific validation. [confidence: medium]
+- "At India's own scale, industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year." — The article does not explain how the global energy/emissions savings percentages are translated into this India-specific estimate. There is no methodological breakdown or verification of the assumptions (e.g., energy mix, recycling efficiency, or substitution rates in India). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

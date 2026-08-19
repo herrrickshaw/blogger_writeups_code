@@ -9,26 +9,28 @@ Source: `posts/indias-coking-coal-dependency-and-biomass.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "...explaining why the 2021 Ministry of Steel–Russia MoU and SAIL's Russian-supplier trial (Section 1) were framed as deliberate diversification, not business as usual." — Section 1 contains no mention of a 2021 Ministry of Steel–Russia MoU or SAIL's Russian-supplier trial; the cross-reference cites text that does not exist in the article. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Domestic raw coking coal production stood at 59.6 MT in FY2024-25. The Ministry's target for FY2025-26 is 83 MT, rising to 140 MT by FY2029-30 — roughly a 2.4× increase from current output inside five years." — Apples-to-oranges comparison / extrapolation gap: The article uses raw coking coal production targets (140 MT) to imply closing the ~90% coking coal import gap, but imported coking coal is washed/clean metallurgical coal. Indian raw coking coal has high ash content and must be washed (typically yielding only ~35–50% clean coal). Furthermore, the article notes planned washery capacity will reach only 58 MT by FY2030, meaning the 140 MT raw production target cannot translate 1:1 into usable domestic coking coal to replace imports. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9127, Requested 7922. Please try again in 25.245s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" when the correct period should be "December 2024" (as the data is from FY2024-25 and earlier years). [confidence: high]
+- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is not a valid fiscal or calendar year reference. The correct timeframe should be December 2024 (FY2024-25), as the article itself later refers to FY2024-25 data. [confidence: high]
 
-- "₹60,681.67 crore" — The article cites this foreign exchange savings figure without providing a clear source or methodology for the calculation, making it unverifiable. [confidence: medium]
+- "140 MT Mission Coking Coal's domestic production target for FY2029-30" — The article cites this figure without clarifying whether it refers to raw coking coal or washed coking coal. Mission Coking Coal's targets are typically for raw coal, but the context implies processed coal, creating ambiguity. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The SAMARTH mandate isn't the only biomass-co-firing rule in force, and the sourcing for this section turned up something worth flagging rather than smoothing over: there appear to be two related but not fully reconciled compliance tracks, run by different bodies, with different phase-in percentages for the same period." — While the article correctly notes the discrepancy between CAQM's 3% and SAMARTH's 5% mandate for FY2024-25, it does not explain why this inconsistency exists or whether it reflects a deliberate policy divergence. The lack of reconciliation leaves the reader without context for the gap. [confidence: high]
+- "The SAMARTH mandate isn't the only biomass-co-firing rule in force, and the sourcing for this section turned up something worth flagging rather than smoothing over: there appear to be two related but not fully reconciled compliance tracks, run by different bodies, with different phase-in percentages for the same period." — While the article correctly notes the discrepancy between CAQM's 3% and SAMARTH's 5% mandate for FY2024-25, it does not explain why this discrepancy exists or whether it reflects overlapping but distinct regulatory scopes. The lack of reconciliation is presented as a curiosity rather than an inconsistency requiring resolution, which could mislead readers about the nature of the policy conflict. [confidence: high]
 
-- "The connection drawn above is this piece's own extrapolation from real research and a real agricultural-economics pattern seen elsewhere in Indian biomass policy, not a projection any cited source makes for bio-coke specifically." — The article suggests a plausible farmer-income case for bio-coke adoption but does not quantify potential gains or adoption timelines, extrapolating from unrelated biomass policies (e.g., ethanol) without evidence specific to bio-coke. This overreaches beyond the data. [confidence: high]
+- "The reason this pass-through mechanism exists at all is that biomass pellets cost meaningfully more than the coal they're displacing. Reported landed-cost figures put biomass pellets in the roughly ₹9,000–13,000 per tonne range against coal at around ₹5,000 per tonne — a gap wide enough that, in at least one regulatory cost estimate this piece found, co-firing at mandated levels added on the order of ₹0.13 per unit to the generation cost." — The article conflates the cost of biomass pellets in power plants (thermal coal co-firing) with their potential cost in steel-making (coking coal substitution). Since coking coal and thermal coal are not interchangeable, the cost comparison is an apples-to-oranges comparison that does not support the conclusion about biomass substitution in steel-making. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

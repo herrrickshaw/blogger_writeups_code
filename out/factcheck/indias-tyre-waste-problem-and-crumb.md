@@ -16,19 +16,20 @@ Source: `posts/indias-tyre-waste-problem-and-crumb.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98991, Requested 2853. Please try again in 26m33.216s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revenue was around ₹572 crore in the most recent reported year" — The article does not specify the fiscal year for this revenue figure, making it unverifiable. Additionally, the claim lacks a source citation for this specific financial data, which is unusual given the article's otherwise detailed sourcing. [confidence: medium]
+- "Lab testing at India’s SSPACE Wardha civil engineering department, reported in a 2025 study" — The article cites a 2025 study, but 2025 is in the future as of the current date (2023). This is likely a typographical error or misattribution. [confidence: high]
 
-- "₹23.9 crore in EPR-credit revenue in just the first nine months of FY2026" — FY2026 is a future fiscal year (as of 2024), and the article cites this as a reported figure without clarifying whether it is projected or based on interim data. This is either a factual error or a misleading projection. [confidence: high]
+- "Revenue was around ₹572 crore in the most recent reported year. In FY2026 the company won a two-year, ₹75.79 crore contract" — The article mixes FY2026 revenue and contract figures, but FY2026 is in the future. This is inconsistent with standard fiscal year reporting. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on the actual CRMB adoption rate in road construction or the proportion of eligible network using CRMB, making the causal link to a "dent" speculative. [confidence: high]
+- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution percentage is correct, the claim that this "represents a real, quantifiable dent" in the import bill lacks quantification or evidence. The article does not provide data on how much CRMB is actually used in road construction or the resulting reduction in bitumen imports. [confidence: high]
 
-- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, it does not inherently mean CRMB will become mainstream. The claim conflates policy compliance with market adoption, as the technical, economic, and logistical barriers to scaling CRMB use are not addressed. The EPR target could drive compliance without ensuring mainstream adoption. [confidence: high]
+- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, the article does not provide evidence that CRMB use has actually shifted from niche to mainstream. The claim assumes compliance with EPR will directly translate to increased CRMB adoption, but this is not necessarily supported by the data presented. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -6083,3 +6083,19 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 210,625 → 211,028 bytes (+403)
+
+## 2026-08-19T05:31:50+05:30 — 169 posts live
+
+**Versions**
+
+- `lok-sabha-question-registry-1843-scheme` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rajya-sabha-question-registry-scheme` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-most-discussed-schemes-in` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `quarterly-reportage-4034-scheme` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `lok-sabha-question-registry-1843-scheme` — 463,066 → 391,866 bytes (-71,200)
+- `rajya-sabha-question-registry-scheme` — 326,452 → 336,679 bytes (+10,227)
+- `the-most-discussed-schemes-in` — 34,316 → 34,227 bytes (-89)
+- `quarterly-reportage-4034-scheme` — 540,029 → 560,567 bytes (+20,538)

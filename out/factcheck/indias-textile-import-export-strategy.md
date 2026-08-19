@@ -16,19 +16,20 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99029, Requested 4916. Please try again in 56m48.48s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Textile Import-Export Strategy" — The article title is not a factual claim but a stylistic choice. No factual errors found in the article text. [confidence: high]
+- "India's Textile Import-Export Strategy" — The article title suggests a focus on India's textile sector, but the analysis primarily examines chemical feedstocks (HSN Chapters 29 and 39) rather than textile-specific trade data. The claim that these two chapters account for 63% of India's chemical-feedstock import bill for textiles is unverifiable as presented, since the article does not provide a source or breakdown for this percentage. [confidence: medium]
 
-- "Ch 39 Deficit (widened from -$6.4B)" — The article states the deficit widened from -$6.4B to -$14.0B, but the table shows the deficit in FY21 was -$6.4B and in FY23 it peaked at -$15.4B, not -$14.0B. The -$14.0B figure appears in FY25, not as the widened gap from FY21. [confidence: high]
+- "Reliance did it (1958-2005)" — The article claims Reliance's transition from textiles to refining took place between 1958 and 2005, but the timeline provided in the table shows key milestones (e.g., Hazira refinery commissioned in 1999) that do not align with the 2005 end date. The claim implies a 47-year span, but the milestones suggest a shorter, more concentrated period of integration. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article correctly notes that the textile sector's overall trade balance runs a surplus, but it does not provide evidence or data to support the claim that these two chapters account for 63% of the *chemical-feedstock import bill for textiles*. The 63% figure is presented without a clear breakdown or source, making it an unsupported extrapolation. [confidence: high]
+- "Polymer imports grew +66% in 4 years while exports stalled, widening gap from $6.4bn to $14.0bn" — The article correctly notes the growth in imports and the widening deficit, but it does not establish a causal link between the two phenomena. The claim implies that stalled exports directly caused the deficit to widen, but the deficit could also be driven by other factors such as increased domestic demand, changes in global prices, or shifts in trade patterns. The reasoning gap is that the article does not rule out alternative explanations for the widening deficit. [confidence: high]
 
-- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article implies that the stabilization of polymer imports at $22B indicates supplier lock-in and a closing window for domestic capex. However, import stabilization alone does not necessarily indicate lock-in; it could reflect market stabilization, demand adjustments, or other factors. The conclusion is an overreach based on the data presented. [confidence: medium]
+- "5.2 MMTPA capacity addition vs 1.4 MMTPA demand growth = 3.8 MMTPA surplus available for export + quality improvement" — The article assumes that the additional capacity will directly translate into exportable surplus, but it does not account for potential bottlenecks in logistics, quality control, or market demand. The reasoning gap is that the claim extrapolates capacity addition to surplus without addressing whether the surplus can be absorbed by the market or meet quality standards. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

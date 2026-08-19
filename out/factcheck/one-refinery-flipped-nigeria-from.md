@@ -16,19 +16,20 @@ Source: `posts/one-refinery-flipped-nigeria-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98872, Requested 4761. Please try again in 52m18.912s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply" — This claim cannot be verified as the article explicitly states it is treating the export-flow claims as reported, not independently traced through customs data. [confidence: high]
 
-- "Dangote refinery is now operating at, ~99% utilisation" — The article itself notes a discrepancy between Wikipedia's 700,000 bpd nameplate capacity and the refinery's own design target of 650,000 bpd, which the utilisation figure is based on. This creates ambiguity about the actual operating capacity. [confidence: high]
+- "Dangote refinery is now operating at, ~99% utilisation" — The article later notes a discrepancy between Wikipedia's 700,000 bpd nameplate capacity and the refinery's own 650,000 bpd figure, which the article uses for its calculations. However, the claim of 99% utilization is based on the 650,000 bpd figure, which may not reflect the actual nameplate capacity. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The claim implies a causal relationship between demand growth and rising imports, but the forecast itself does not establish that imports are rising *because* of demand growth. The forecast could simply reflect a scenario where demand outpaces capacity additions, regardless of the reason. [confidence: medium]
+- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The article correctly notes that demand is growing faster than refining capacity, but the phrasing "not despite it" implies that the refining boom is somehow mitigating the rise in imports, which is misleading. The refining boom is not preventing the rise in imports; it is simply not growing fast enough to offset demand growth. [confidence: high]
 
-- "Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects." — The article uses Dangote's current capacity (650,000 bpd) to compare against projected demand growth (2+ million bpd), but this ignores that Dangote plans to expand to 1.4 million bpd within three years. The comparison is apples-to-oranges because it uses outdated capacity figures. [confidence: high]
+- "Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects." — While the claim is numerically correct (650,000 bpd is roughly a third of the 2 million bpd increase in demand projected by 2050), it is misleading to suggest that Dangote's refinery alone could single-handedly address the continent's import needs. The interpretation oversimplifies the complex interplay between demand growth, refining capacity additions, and infrastructure constraints across Africa. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

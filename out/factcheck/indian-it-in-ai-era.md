@@ -9,26 +9,31 @@ Source: `posts/indian-it-in-ai-era.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8210, Requested 5286. Please try again in 7.48s. Need more tokens? Upgrade to Dev Tier today at https://]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Services · Balance of payments · 4 August 2026" — The article is dated 4 August 2026, but the referenced data (e.g., FY2025-26 figures) and sources (e.g., RBI's Q4 2025-26 report) are for FY2025-26, which ends on 31 March 2026. The article incorrectly labels the fiscal year as 2026-27 or later. [confidence: high]
+- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year." — The article cites the Reserve Bank of India (RBI) as the source, but the RBI's "Developments in India's Balance of Payments, Q4 2025-26" does not show net services receipts increasing by $27.8bn in a single year. The table shows an increase from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), which is $27.8bn, but the article incorrectly implies this is the largest increase on record without verifying the historical data. [confidence: high]
 
-- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year." — The RBI data in Exhibit 1 shows net services receipts rising from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), a $27.8bn increase. However, the article later cites NASSCOM's Strategic Review 2026, which restated FY2024-25 services receipts from $188.8bn to $268.8bn, implying the $27.8bn increase is based on the restated figure. The original RBI figure ($188.8bn) is correct, but the article does not clarify this restatement, making the claim misleading. [confidence: high]
+- "The merchandise trade deficit was $337.3 billion." — The article cites the RBI as the source, but the RBI's table shows the merchandise trade deficit as $337.3bn for FY2025-26. However, the article does not clarify that this is a preliminary or estimated figure, as the RBI typically releases finalized data with a lag. The use of this figure without qualification could mislead readers into thinking it is final. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue." — While the hiring and revenue data are correct, the article conflates correlation with causation. The collapse in net hiring could be due to factors other than AI (e.g., automation, outsourcing, or structural shifts in the industry), and the "AI deflation" claim is based on executive testimony rather than measured displacement. The article assumes AI is the primary driver without sufficient evidence. [confidence: medium]
+- "Net services alone offset 64% of the goods deficit. Net services plus remittances offset 107% — they more than cover the goods gap." — While the numbers are factually correct, the interpretation that this makes the current account deficit "survivable at 0.6% of GDP" is misleading. The current account deficit is primarily driven by the outflow of investment income ($48.2bn), not just the goods deficit. The article conflates the goods deficit with the current account deficit, ignoring the role of investment income outflows in determining the overall current account balance. [confidence: high]
 
-- "So when people ask whether AI threatens Indian IT, the question that matters for the country is narrower and sharper: does it threaten the dollar receipts that make a $337 billion goods deficit survivable at 0.6% of GDP?" — The article correctly notes that services receipts offset the goods deficit, but it overstates the causal link between AI and potential threats to dollar receipts. The data shows AI has increased productivity and volumes, but the "AI deflation" (price erosion) is a separate issue. The conclusion that AI threatens dollar receipts is an extrapolation beyond the evidence, as the article itself acknowledges that the displacement has not been measured. [confidence: high]
+- "A sector that is 1% of jobs but ~8% of GDP and covers two-thirds of the goods trade deficit cannot produce a mass-unemployment event. It can produce a balance-of-payments event." — While the sector's share of employment and GDP is correct, the causal claim that an AI shock would "show up in the rupee long before it showed up in the jobs data" is an over-extrapolation. The article assumes that the balance-of-payments impact would be immediate and dominant, but it does not provide evidence that the rupee would adjust before labor market effects become visible. The relationship between services receipts, the current account, and the exchange rate is complex and depends on multiple factors, including capital flows and monetary policy. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

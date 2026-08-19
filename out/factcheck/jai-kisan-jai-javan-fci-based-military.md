@@ -16,19 +16,20 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98946, Requested 2592. Please try again in 22m8.832s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between the ₹300 Cr figure and the annual output. The ₹300 Cr is described as a multi-channel sourcing value across five procurement routes, not an annual output figure. The comparison to "annual output" is incorrect because the ₹300 Cr is a cumulative procurement value, not an annual figure. [confidence: high]
+- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure (as noted in the article), but the comparison to annual output (~₹11 Cr) is incorrect because the ₹11 Cr figure is not clearly defined or sourced in the article. The article itself flags that ₹300 Cr is "likely a multi-year cumulative figure," but the comparison to ₹11 Cr lacks clarity or verification. [confidence: medium]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline is inconsistent. An 18-month plan starting in August 2026 would conclude in February 2028, not July 2027. This is a clear date calculation error. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The article correctly notes that an 18-month plan starting in August 2026 would end in February 2028, not July 2027, indicating a factual error in the timeline claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "54,700 jobs projected (farmers + logistics)" — The claim does not explain how the job numbers are derived or what assumptions underlie the projection. Without methodological transparency (e.g., labor intensity per ₹ Cr of procurement, sourcing channel-specific employment multipliers), the figure lacks credibility as a supported conclusion. [confidence: high]
+- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat-ration protein content (8-12g/day) and a proposed target (53g/day), but the article does not provide evidence or data to support the feasibility or necessity of this target. The reasoning gap is that the article does not explain how the proposed protein sources (e.g., powdered eggs, chicken tikka) would realistically achieve a 53g/day intake within the constraints of ration packaging, shelf stability, and soldier consumption patterns. [confidence: high]
 
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period are presented without a clear explanation of the underlying financial model or assumptions (e.g., discount rate, salvage value, or time horizon for ROI calculation). A 150% ROI with a 12-month payback is unusually high for a government-led procurement initiative and requires justification to avoid being an unsupported extrapolation. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the financial figures provided (e.g., setup cost of ₹2.85 Cr, operating cost of ₹1.2-1.4 Cr/yr, and savings of ₹4.5 Cr/yr). The reasoning gap is that the article does not show how these figures derive the ROI or payback period, making the claims unsupported by the presented data. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
