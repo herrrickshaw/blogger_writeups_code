@@ -16,19 +16,20 @@ Source: `posts/pli-medical-devices-coverage-and-gaps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98832, Requested 2756. Please try again in 22m52.032s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PLI-MD closes to new applicants in March 2027" — The article incorrectly states the closure date as March 2027. The Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies that the scheme closes with a one-year gestation period, implying the closure is in March 2026, not 2027. [confidence: high]
+- "PLI-MD closes to new applicants in March 2027" — The article later contradicts this by stating that the scheme closes in March 2027 with a one-year gestation period, implying no further rounds of application are under consideration. However, the claim that it "closes to new applicants in March 2027" is misleading because the scheme's closure to new applicants is not explicitly stated to be in March 2027; rather, the scheme's timeline and application process are described in a way that suggests no new applications are under consideration. [confidence: high]
 
-- "28 approved projects, ₹1,094cr invested, ₹5,753cr cumulative exports to Sep 2025" — The article cites these figures without clarifying that they are cumulative since the scheme's inception (likely 2020-21) rather than for FY2025-26 alone. The phrasing could mislead readers into thinking these are FY2025-26 figures. [confidence: high]
+- "Pacemakers — inside Segment 4's scope (“implantable electronic devices”), yet no applicant makes one: imports $64mn at 1% export coverage" — The claim that no applicant makes pacemakers is incorrect. While the article later mentions that pacemakers are part of Segment 4's scope, it does not provide evidence that no applicant is manufacturing them. The claim that imports are $64mn at 1% export coverage is also unverified in the provided text. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Pacemakers — inside Segment 4's scope (“implantable electronic devices”), yet no applicant makes one: imports $64mn at 1% export coverage, every implanted unit imported." — While the claim about pacemakers being imported is correct, the article implies that PLI's failure to address pacemakers is solely due to a lack of applicants. However, it does not consider whether the PLI scheme's design (e.g., minimum investment thresholds, eligibility criteria) may have discouraged potential applicants in this niche. [confidence: medium]
+- "Checked against the FY2025-26 trade data, it has genuinely moved the needle in imaging and implants, but never touched the two largest deficit families: lab instruments and IVD reagents." — The article uses trade data to claim that PLI-MD has had an impact on imaging and implants but not on lab instruments and IVD reagents. However, the trade data alone does not conclusively prove that PLI-MD is the cause of the observed changes in imports/exports. Other factors, such as global supply chain issues, demand shifts, or other policy interventions, could also explain these trends. [confidence: high]
 
-- "Oxygen concentrators — four applicants, near-zero exports, imports still +30%: a procurement/demand-side problem, not a capacity problem." — The article attributes the issue to procurement/demand-side factors without providing evidence or data to support this claim. The trade deficit could also stem from quality, pricing, or regulatory hurdles, which are not addressed. [confidence: medium]
+- "Oxygen concentrators — four applicants, near-zero exports, imports still +30%: a procurement/demand-side problem, not a capacity problem." — The article attributes the continued high imports of oxygen concentrators to a procurement/demand-side problem rather than a capacity issue. However, the trade data showing +30% imports does not inherently distinguish between capacity constraints and demand-side factors. The conclusion that it is solely a procurement/demand-side problem is an overreach without additional evidence on production capacity or demand dynamics. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

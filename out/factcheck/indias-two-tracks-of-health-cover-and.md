@@ -22,14 +22,14 @@ Source: `posts/indias-two-tracks-of-health-cover-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "West Bengal became the last holdout to join [PM-JAY] as of June 2026" — The article later states West Bengal signed its implementation MoU on **8 June 2026**, but the claim implies full coverage by June 2026, which is inconsistent with the MoU date (implementation would follow signing). [confidence: high]
+- "West Bengal became the last holdout to join" — The article later contradicts this by stating West Bengal signed its implementation MoU on 8 June 2026, implying it joined in 2026, not 2025. The initial claim is incorrect. [confidence: high]
 
-- "IRDAI subsequently confirmed to the Finance Department that insurers had not raised base premium rates to offset the tax cut" — The article cites a secondary source (VATupdate) for this claim, but does not provide direct evidence from IRDAI or the Finance Department. [confidence: medium]
+- "as of June 2026" (in the first paragraph) — The article later specifies dates like "30 June 2026" and "mid-2026," but the first mention lacks precision and could be misinterpreted as June 2025. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes research showing PM-JAY **increases** private facility visits, but then claims this means the two systems are "complementary" rather than substitutes. However, the **mechanism** (higher private utilization due to affordability) does not inherently prove they serve **different income segments**—it could also mean PM-JAY beneficiaries are now able to afford private insurance *on top of* the scheme, potentially increasing private demand. The article conflates utilization shifts with market segmentation without direct evidence. [confidence: high]
+- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes that research shows PM-JAY increases private facility visits, but it does not adequately explain why this would *not* lead to some degree of crowding out for private insurance demand among the newly covered population. The claim that they serve "largely different segments" is asserted but not fully substantiated by the cited evidence. [confidence: medium]
 
-- "The new reinsurance capacity arriving in GIFT City... is the supply-side infrastructure catching up to both tracks at once." — While reinsurance capacity may lower costs for both public and private schemes, the article does not provide data showing **actual cost reductions** or **increased private premium growth** attributable to this capacity. The claim assumes a causal link without verification. [confidence: medium]
+- "the GST-driven premium growth is happening among the population that already could [afford insurance]" — The article provides growth rates but does not directly link these to income distribution data or policyholder demographics, making the causal claim about who is driving the growth speculative rather than empirically supported. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

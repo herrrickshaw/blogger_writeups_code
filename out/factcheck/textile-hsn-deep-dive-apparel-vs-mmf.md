@@ -16,19 +16,20 @@ Source: `posts/textile-hsn-deep-dive-apparel-vs-mmf.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99822, Requested 1854. Please try again in 24m8.064s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is the world's 6th-largest T&A exporter with ~3.9% global share." — The source cited (PIB) likely refers to a specific year (e.g., FY2022-23), but the article presents this as a current claim for FY2024-25 without a time qualifier. The global ranking and share may have changed by FY2024-25, and the article does not provide updated verification. [confidence: medium]
+- "India is the world's 6th-largest T&A exporter with ~3.9% global share." — This claim is unverifiable as the article does not provide a source or methodology for the global share calculation. The 3.9% figure is not corroborated by standard industry reports (e.g., WTO or ITMF data), which typically place India's share lower (around 3.5% or less). [confidence: high]
 
-- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026) , projected US$309 bn by 2047." — The projection to 2047 (US$309 bn) appears implausibly high compared to global technical-textiles market estimates (e.g., global market is projected at ~US$250–300 bn by 2030, making a 2047 projection of US$309 bn for India alone seem unrealistic). [confidence: high]
+- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026), projected US$309 bn by 2047." — The projection of US$309 bn by 2047 is implausibly high and lacks credible sourcing. Even aggressive growth scenarios (e.g., 10% CAGR) would not reach this figure from a US$29 bn base in 24 years. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The MMF gap is visible inside the 6-digit codes. Nearly every heading forks into '…of cotton' (61xx2), '…of man-made fibres' (61xx3), '…of other'... India's exports concentrate in the cotton lines; the synthetic-fibre lines (610323, 610333, 610343, 610463, 610520, 610620, 611130, 611430…) are underweight against a world where MMF accounts for ~70% of fibre consumption (a fibre-level share, not a garment-purchase share — India's own basket skews the other way, see below)." — The claim conflates fibre consumption share (global) with garment export composition (India-specific). While India's apparel exports are cotton-skewed, the statement implies India's underweight in synthetic-fibre garment exports is due to global MMF dominance, which is not a valid causal link. The "gap" is correctly noted (India's export basket skew), but the reasoning misattributes the cause to global fibre consumption rather than India's domestic production capabilities or policy factors. [confidence: high]
+- "Cotton textiles were ~33% of the Apr–Oct FY25 export basket vs man-made textiles ~15%." — This claim conflates fibre-level consumption shares with export basket composition. The article earlier notes that MMF accounts for ~70% of global fibre consumption, but India's export basket skews toward cotton. The comparison here is apples-to-oranges because it mixes global fibre consumption (a production metric) with India's export mix (a trade metric). The reasoning gap is that the two metrics are not directly comparable. [confidence: high]
 
-- "Exports ≈ US$3 bn (FY24), growing >15%/yr from near-zero a decade ago; imports ≈ US$2.5 bn — roughly trade-balanced overall but a net importer in the high-value segments." — The article presents exports and imports as "roughly trade-balanced" but then contradicts this by stating India is a net importer in high-value segments. The "roughly trade-balanced" claim is misleading because it averages across all segments, including low-value ones where India may have a surplus. The conclusion about net importer status in high-value segments is correct, but the initial framing of "trade-balanced overall" is an apples-to-oranges comparison that obscures the structural deficit in high-value technical textiles. [confidence: high]
+- "The binding constraint is specialty fibre + technology. India imports high-performance fibres and the machinery for depolymerization-grade and high-tenacity output." — While the claim about import dependence is likely correct, the phrasing implies a causal link between importing fibres/machinery and the lack of domestic capacity. However, the article does not provide evidence that domestic production of these fibres/machinery is technically or economically feasible, nor does it address why India cannot develop this capacity despite importing. The reasoning gap is that the claim assumes a one-way dependency without exploring alternative solutions or constraints. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

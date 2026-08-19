@@ -9,13 +9,14 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Gemini gemini-flash-latest
 
-**FACTUAL ERRORS:**
-- "The Standing Committee on Chemicals and Fertilisers, chaired by Azad Kirti Jha..." — The Chairperson's name is inverted; it is Kirti Jha Azad (commonly known as Kirti Azad), not "Azad Kirti Jha." [confidence: high]
-- "...domestic natural gas price is set monthly at 10% of the Indian crude oil basket, currently notified at $7.86/MMBtu against roughly $85/bbl crude..." — Under the revised domestic APM gas pricing guidelines (effective April 2023 following the Kirit Parikh committee recommendations), APM gas price for priority sectors (including fertiliser) is subject to a hard ceiling of $6.50/MMBtu. Even if 10% of an $85/bbl crude basket equals $8.50, the notified APM price cannot exceed $6.50/MMBtu. [confidence: high]
-
-**INTERPRETATION ERRORS:**
-- "...it raises the fertiliser subsidy bill through the exact same gas-price channel, on a product where import dependence for the other two major nutrients (phosphate, potash) is already 95–100%." — Apples-to-oranges extrapolation. The 90% natural gas feedstock cost applies exclusively to nitrogenous fertilisers (urea). Phosphatic (DAP) and potassic (MOP) fertilisers do not rely on natural gas as their primary feedstock or cost driver; their import costs are determined by global mining and trade in rock phosphate, phosphoric acid, and potash salts. Linking the gas-price transmission channel to the 95–100% import dependence of phosphate and potash is technically invalid. [confidence: high]
-- "...whatever India's gas price does, urea's production cost moves with it almost one-for-one, and only a quarter of the gas behind that cost is domestically sourced..." — Reasoning gap. If domestic gas accounts for only 26% of the gas used in urea production and the remaining 74% is imported LNG (priced via global spot markets or international long-term contracts), changes in the domestic gas price cannot move total urea production cost "almost one-for-one." The overwhelming majority of the gas cost is determined by international LNG pricing, not the domestic APM price formula. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -25,14 +26,14 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article references sources dated January 2026 (e.g., Business Standard article) and a Standing Committee report from December 2025, making a publication date of August 2026 implausible. The article itself is likely from 2025 or early 2026. [confidence: high]
+- "Published 8 August 2026" — The article references sources dated January 2026 (e.g., Business Standard article) and a Standing Committee report from 1 December 2025, making a publication date of August 2026 implausible. The article itself is likely from 2025 or early 2026. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source or methodology to verify this claim independently. The 90% figure is presented as a fact without direct confirmation from an official government document or peer-reviewed study. [confidence: medium]
+- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct confirmation. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's production cost that is natural gas... and only 26% of that gas is sourced domestically" — The article implies that India's high fertiliser import bill is directly caused by its low domestic gas sourcing (26%), but this conflates two separate issues: (1) the cost structure of urea production (90% gas) and (2) import dependence for gas itself (74% imported). The 26% domestic sourcing does not logically explain the 76% surge in import bills, which is driven by global gas price spikes and increased fertiliser demand, not just import dependence. The causal link is overstated. [confidence: high]
+- "90% of urea's production cost is natural gas... and only 26% of that gas is sourced domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the import surge (76% YoY increase in the fertiliser bill). However, the article does not establish that the 26% domestic sourcing figure is the *primary driver* of the import bill spike. The 76% increase is attributed to weather-driven demand (rains expanding cultivation), not gas sourcing constraints. The committee's focus on gas procurement may address long-term structural issues, but the article conflates structural dependence with the immediate cause of the spike. [confidence: high]
 
-- "A rains-driven demand surge on top of a structural import dependence" — While heavy rains may have increased fertiliser demand, the article does not provide evidence that this demand surge was the *primary* driver of the 76% import bill increase. The Standing Committee's focus on gas costs (90% of urea production) suggests price volatility, not demand, was the dominant factor. The article conflates demand-side and supply-side factors without quantifying their relative contributions. [confidence: medium]
+- "A crude price spike does not just raise India's fuel-retail bill... it raises the fertiliser subsidy bill through the exact same gas-price channel" — While the article correctly notes that gas prices (linked to crude) affect urea production costs, it does not quantify the *proportion* of the $18 billion import bill attributable to gas price volatility versus volume increases (e.g., due to higher demand). The claim assumes the gas-price channel is the dominant driver of the import bill, but the article itself attributes the surge to demand (rains) and does not provide evidence to support the causal primacy of gas prices. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

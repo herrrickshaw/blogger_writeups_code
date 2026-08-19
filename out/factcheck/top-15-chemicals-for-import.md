@@ -16,19 +16,20 @@ Source: `posts/top-15-chemicals-for-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 14192. Please try again in 3h18m57.887999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene) — The corrected figure is $44 million, as explicitly stated in the correction notice. [confidence: high]
-- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected figure is $250 million, as explicitly stated in the correction notice. [confidence: high]
+- "Annual Imports (FY25-26) : $2,800 million (highest by value) [retracted — the 4-Aug correction notice gives Ethylene's real FY25-26 import value as $44mn]" — The article initially claimed Ethylene imports were $2.8 billion, but the correction notice explicitly states the correct value is $44 million. This is a clear factual error in the initial claim. [confidence: high]
 
----
+- "Annual Imports (FY25-26) : $1,650 million" for Sulfuric Acid — The correction notice states the correct value is $250 million, which is significantly lower than the original claim. This is a factual error in the initial import value. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article uses the retracted +81% growth figure to justify Acetic Acid as a "fastest-growing import" priority, but the corrected +2.6% growth does not support the claim of a significant demand surge. [confidence: high]
-- "Major Exporters to India : Saudi Aramco (38%), SABIC (25%), Sinopec (12%), LyondellBasell (8%)" (HDPE) — The article lists LyondellBasell as a major exporter to India, but LyondellBasell is a global producer and not a direct exporter to India in the same way as national oil companies or regional suppliers. This misrepresents the supply chain concentration and may overstate the geopolitical risk. [confidence: medium]
+- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article initially claimed Acetic Acid imports grew by 81% year-over-year, but the correction notice states the actual growth was +2.6%. Using the retracted 81% growth figure to imply a "significant demand surge" and "supply alert" is an interpretation error because the corrected growth rate does not support such a strong conclusion about demand dynamics. [confidence: high]
+
+- "Annual Imports (FY25-26) : $1,400 million" for Propylene — The article initially claimed Propylene imports were $1.4 billion, but the correction notice states the correct value is $14 million. Using the retracted $1.4 billion figure to justify Propylene as a "Priority #6" chemical based on import value is an apples-to-oranges comparison, as the corrected value is negligible compared to the original claim. This misrepresents the actual import dependency and undermines the prioritization logic. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

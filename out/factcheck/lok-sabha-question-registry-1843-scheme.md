@@ -22,14 +22,10 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "17th and 18th Lok Sabha (2019-06-17 → 2026-08-04)" — The 17th Lok Sabha was constituted in 2019 (correct), but the 18th Lok Sabha's term is not yet known as of August 2026 (it is currently ongoing and not scheduled to end until 2029). The date range is incorrect. [confidence: high]
-
-- "Generated 2026-08-04 by scripts/build_pq_registry.py in digital-twin-for-ipa" — The article claims the data was generated on 2026-08-04, but this date is in the future relative to the current date (June 2025). This is likely a placeholder or error. [confidence: high]
+- "17th and 18th Lok Sabha (2019-06-21 → 2026-08-12)" — The 17th Lok Sabha was constituted on 2019-06-21, but the 18th Lok Sabha was not yet constituted as of 2026-08-12 (the current date is 2024-06-25). The 18th Lok Sabha election results were declared in June 2024, and the house is expected to convene later in 2024. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "This registry is the parliamentary companion to the Quarterly Reportage: where the reportage tracks what government announced, this tracks what Parliament asked — and the ministry's answer of record." — While the registry tracks parliamentary questions and answers, it does not necessarily follow that it is a "companion" to the Quarterly Reportage in a meaningful analytical sense. The claim implies a direct comparative or complementary relationship that is not substantiated by the description of the registry's purpose. [confidence: medium]
-
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — The article acknowledges the risk of AI hallucinations but does not provide evidence or context for why this registry, specifically, might be prone to such errors. The warning is generic and does not address the actual reliability of the data or methodology. [confidence: medium]
+- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — This claim suggests that the classification method ensures identical filtering between the registry and the Quarterly Reportage, but the article later acknowledges a known limitation: "The sansad.in index matches keywords against the subject line only, so a question whose subject names no scheme is not captured even when its answer discusses one at length." This means the filtering cannot be identical in practice, as the registry misses questions where schemes are discussed but not explicitly named in the subject line. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

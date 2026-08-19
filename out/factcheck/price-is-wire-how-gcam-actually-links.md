@@ -16,19 +16,20 @@ Source: `posts/price-is-wire-how-gcam-actually-links.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98822, Requested 5749. Please try again in 1h5m49.344s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "Revised 13 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — The UN World Population Prospects (2022) projects India's population to peak around 2060 and decline thereafter, but the specific CAGR values (0.64% and −0.25%) are not standard figures and lack citation. The claim is unverifiable without primary source confirmation. [confidence: medium]
+- "India's population is assumed to peak around mid-century and then decline" — While the article cites specific population figures (e.g., 1,639 million in 2050, 1,447 million in 2100), these projections are not consistent with the latest UN World Population Prospects (2022 revision), which projects India's population to continue growing beyond 2050 (e.g., ~1.67 billion in 2050 and ~1.53 billion in 2100). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND uses perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may not reflect real-world decision-making, and its "efficiency" is a model artifact rather than a realistic outcome. [confidence: high]
+- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND does use perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may produce unrealistic policy pathways, as it assumes agents have complete knowledge of future prices and policies, which is not behaviorally realistic. The article does acknowledge this later, but the phrasing here implies a blanket endorsement of perfect foresight as a valid methodological choice without sufficient caveats. [confidence: medium]
 
-- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — This implies that GDP growth is purely an exogenous input, but the article later acknowledges that GDP growth is tied to economic assumptions (e.g., urbanization, income convergence). The claim oversimplifies the model's treatment of GDP, which may have endogenous feedbacks in some scenarios. [confidence: medium]
+- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — While this is factually correct, it is presented as a neutral observation rather than highlighting that GDP growth is a critical exogenous assumption that can dominate scenario outcomes. The article does not emphasize that this makes GCAM's results highly sensitive to socioeconomic inputs, which could mislead readers into treating GDP projections as neutral or secondary. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

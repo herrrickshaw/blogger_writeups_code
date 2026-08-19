@@ -16,19 +16,20 @@ Source: `posts/state-by-state-who-actually-earns-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99900, Requested 7620. Please try again in 1h48m17.28s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "CareEdge Ratings report cited above (“E85 Impact: Ethanol Overcapacity to Persist,” May 14, 2026)" — The report title and date are inconsistent with the article's claim that the report is from "May 2026" (without a specific date). The title also mentions "E85," which is not referenced elsewhere in the article, suggesting a possible misattribution or incorrect title. [confidence: high]
 
-- "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The article later contradicts this by citing the same CareEdge report as stating India has "roughly 700 crore litres/year of structural ethanol overcapacity," implying installed capacity is higher than 2,000 crore litres. This inconsistency suggests a misinterpretation or misrepresentation of the report's findings. [confidence: high]
+- "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The article later contradicts this by citing the same CareEdge report as stating India has "roughly 700 crore litres/year of structural ethanol overcapacity," implying installed capacity is higher than 2,000 crore litres/year. This inconsistency suggests a misinterpretation or misrepresentation of the report's findings. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The loss scales almost exactly with blend fraction — doubling volume from E10 to E20 roughly doubles the shortfall, and pushing to E30 roughly triples it against E10." — While the table shows a linear relationship between blend percentage and net state loss, this does not account for potential non-linear effects such as changes in ethanol procurement costs, feedstock constraints, or state-specific tax adjustments that could alter the relationship at higher blend levels. The claim assumes a direct proportionality without justification for why such a relationship would hold beyond the modeled scenarios. [confidence: medium]
+- "The loss scales almost exactly with blend fraction — doubling volume from E10 to E20 roughly doubles the shortfall, and pushing to E30 roughly triples it against E10." — While the table shows a linear relationship between blend percentage and net state loss, this does not account for potential non-linear effects such as changes in ethanol procurement costs, feedstock constraints, or state-specific VAT adjustments (e.g., cesses or floors). The claim assumes a direct proportionality without justification for why other factors would not introduce non-linearities. [confidence: medium]
 
-- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article does not provide evidence or reasoning for why a 5% dedicated SGST would be the upper limit of what is feasible or politically acceptable. The claim assumes that higher rates are impractical without addressing the actual policy or economic constraints that would limit such a levy. [confidence: medium]
+- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article does not provide a clear explanation for why a 5% dedicated SGST would only recover 3–18% of the VAT foregone. The calculation appears to assume a fixed ethanol volume and VAT rate without demonstrating how the SGST recovery rate is derived or why it is so low relative to the VAT loss. This lacks transparency in the underlying methodology. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

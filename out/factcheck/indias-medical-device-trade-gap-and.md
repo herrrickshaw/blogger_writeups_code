@@ -10,11 +10,13 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 ## Gemini gemini-flash-latest
 
 FACTUAL ERRORS:
-- "India–EU FTA (Jan 2026) — opens a $572bn EU pharma+device market" — India and the European Union have not signed or implemented a Free Trade Agreement in January 2026; negotiations on the India–EU Broad-based Trade and Investment Agreement (BTIA) remain ongoing. [confidence: high]
+- "against a policy landscape (PLI, SMDI, four device parks) that has demonstrably moved the needle in imaging and implants but never touched the two largest gaps: lab instruments and IVD reagents." — The Production Linked Incentive (PLI) Scheme for Medical Devices (notified in 2020) explicitly includes "In-Vitro Diagnostic Medical Devices" (IVDs) as one of its four target segments (Segment 4: In-Vitro Diagnostic Medical Devices). [confidence: high]
+- "India–EU FTA (Jan 2026) — opens a $572bn EU pharma+device market" — There is no concluded or operational India–EU Free Trade Agreement signed in January 2026; negotiations between India and the EU remain ongoing. [confidence: high]
+- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%" — India is a large net exporter of pharmaceuticals (with annual pharma exports typically exceeding $25 billion against substantially lower imports). A trade basket incorporating broad pharma lines would show a significant trade surplus, not a 31% export coverage. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Net-export or near-parity lines, FY2025-26: ... dialysis machines (71% coverage), endoscopes (57%) ... These are the exact segments the 2020 EEPC deck called out — the strategy worked where it was tried." — Endoscopes (57% coverage, meaning imports exceed exports by nearly 75%) and dialysis machines (71% coverage) run substantial trade deficits. Grouping them under "net-export or near-parity" lines to argue that domestic production policy succeeded misrepresents the data. [confidence: high]
-- "just 14% of primary health blocks report local MRI access" — MRI scanners are capital-intensive, high-complexity tertiary diagnostic modalities requiring specialized magnetic shielding, cryogenics, and radiologists. Benchmarking MRI penetration against primary health blocks is an apples-to-oranges comparison, as primary care facilities globally are not designed to host advanced cross-sectional imaging infrastructure. [confidence: medium]
+- "Net-export or near-parity lines, FY2025-26: catheters & cannulae (up to 10× coverage), orthopaedic/fracture appliances (136% coverage), spectacle lenses (89%), hormonal contraceptives & condoms, surgical sutures (7× coverage), syringes & needles, dialysis machines (71% coverage), endoscopes (57%)..." — Classifying categories with 57% and 71% export-to-import coverage (endoscopes and dialysis machines) under "net-export or near-parity" is an internal contradiction, as both represent substantial import deficits where imports exceed exports by roughly 40–75%. [confidence: high]
+- "just 14% of primary health blocks report local MRI access." — Primary healthcare centers and block-level facilities in India are designed for primary care and are not standard infrastructure for high-capital, tertiary-level imaging equipment like MRIs. Citing block-level primary health access as a benchmark for MRI availability mischaracterizes health-tier service delivery norms. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -24,14 +26,14 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "5 August 2026" — The article references a future date (August 5, 2026) as the publication date, which is impossible. The correct date should be in the past or present. [confidence: high]
+- "5 August 2026" — The article references a future date (August 5, 2026) as the publication date, which is impossible. The current date is beyond this, indicating a factual error in the timestamp. [confidence: high]
 
-- "₹3,420cr" (₹3,420 crore) — The article mentions this amount for the PLI scheme, but the official PLI scheme for medical devices (announced in 2020) was ₹3,420 crore *over five years*, not a one-time outlay. The phrasing implies a single-year allocation, which is misleading. [confidence: high]
+- "₹3,420cr" (₹3,420 crore) — The PLI outlay for medical devices is cited as ₹3,420 crore, but the official PLI scheme document (as of 2023) specifies an outlay of ₹3,420 crore *over five years*, not a single-year allocation. The article implies it is a one-time or annual figure, which is incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr, with exports flat" — The article cites a $6.2 billion deficit but does not provide a clear source or methodology for calculating the growth rate (~20%/yr). The trade deficit figures for FY2024-25 and FY2025-26 show a 21.7% increase, but this is not equivalent to a sustained ~20% annual growth rate over multiple years. The claim extrapolates a single-year change as a trend without sufficient evidence. [confidence: high]
+- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr, with exports flat." — The article cites a $6.2 billion deficit but does not provide a clear source or methodology for the "growing at ~20%/yr" claim. The trade deficit in the table grows from $5,111 million in FY2024-25 to $6,220 million in FY2025-26, which is a 21.7% increase, not a sustained ~20% annual growth rate. The article extrapolates this single-year change to imply a long-term trend without justification. [confidence: high]
 
-- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade" — While the article lists net-export segments (e.g., gloves, dressings), it does not provide historical data to substantiate the claim that this transition occurred *within a decade*. The EEPC 2020 report (cited as a source) may not contain sufficient longitudinal data to confirm this timeline. The assertion assumes causation (policy success) without demonstrating the timeframe or baseline. [confidence: medium]
+- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article lists net-export or near-parity lines (e.g., gloves, dressings, PPE), it does not provide historical data to substantiate the claim that this transition occurred "within a decade." The COVID-era indigenization is mentioned, but no pre-2014-15 baseline is provided to confirm the timeline or magnitude of the shift. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

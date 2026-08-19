@@ -16,19 +16,20 @@ Source: `posts/rin-red-and-cbio-what-indias-ethanol.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99970, Requested 4577. Please try again in 1h5m28.607999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹75.36 per tCO₂e, EU CBAM's first quarterly certificate price, April 2026" — The article cites this price as fact, but CBAM's first quarterly certificate price was actually €75.36 per tCO₂e (not ₹75.36). The conversion to rupees is not provided in the article, and the claim implies the price is in rupees without justification. [confidence: high]
+- "₹75.36 per tCO₂e, EU CBAM's first quarterly certificate price, April 2026" — The EU CBAM's first quarterly certificate price was €75.36 per tCO₂e, not ₹75.36. The article incorrectly converts the price to Indian Rupees without justification or citation. [confidence: high]
 
-- "13 August 2026" (revision date) — The article claims this is the revision date, but the revision history section states "v1.1.0 — 13 August 2026," which is likely a typo or error since the article is dated the same day as its first publication (v1.0.0). This suggests the revision date is incorrect or misleading. [confidence: medium]
+- "13 August 2026" (revision date) — The revision history states the article was revised on 13 August 2026, but the text claims it is "Revised 13 August 2026" at the top, which is redundant and potentially misleading about the nature of the revision. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India has none of the three [systems], an ethanol-blending programme that already runs into how fast pump prices can politically move" — The article implies that India's ethanol-blending programme is inherently constrained by political sensitivity around pump prices, but this is an overgeneralization. While pump price sensitivity is a factor, the programme's constraints are more specifically tied to the lack of a tradable credit system (like CBIO) that could decouple producer revenue from fuel pricing. The claim conflates the symptom (political sensitivity) with the cause (lack of a suitable credit mechanism). [confidence: high]
+- "ethanol isn't one [of the 13 activities on India's Article 6.2 eligible list]" — The claim is factually correct (ethanol is not on the list), but the article uses this to argue that India lacks a carbon-credit system for ethanol, implying this is a gap that needs to be filled. However, the article itself notes that the list is subject to revision and that the three-year window from the original notification has elapsed, making this a "live, open question" rather than a settled gap. The interpretation incorrectly treats the exclusion as a definitive policy failure rather than an unresolved issue. [confidence: high]
 
-- "A CBIO-style, exchange-traded, per-tonne instrument is a carbon price in the way CCTS credits currently are not" — The article asserts that CBIOs are a carbon price while CCTS credits are not, but this is an oversimplification. CBIOs are tradable instruments tied to verified emissions reductions, which can function similarly to a carbon price in practice, but they are not a direct carbon tax or fee. CCTS credits, while not a carbon price in the traditional sense, can still influence carbon pricing by creating a market for emissions reductions. The distinction between "carbon price" and "carbon credit" is blurred here. [confidence: medium]
+- "A CBIO-style, exchange-traded, per-tonne instrument is a carbon price in the way CCTS credits currently are not" — The article conflates the nature of carbon credits (CCTS) with a carbon price. While CCTS issues credits rather than imposing a direct carbon price, the distinction between the two is not as clear-cut as implied. A carbon credit can function as a de facto carbon price in markets where credits are traded, and the EU CBAM's recognition criteria (Article 9) may accept credits as a form of carbon pricing if they meet certain conditions. The claim oversimplifies the relationship between credits and prices. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

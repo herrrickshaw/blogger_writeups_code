@@ -16,19 +16,20 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99595, Requested 3835. Please try again in 49m23.519999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — The article lists a negative ROE for BeOne Medicines Ltd., but negative ROE is not a valid Piotroski score component (Piotroski F-score requires ROE ≥ 0). The F-score of 7 suggests a positive ROE, creating a contradiction. [confidence: high]
+- "Avg ROE -20.9%" for BeOne Medicines Ltd. — The reported average ROE of -20.9% is inconsistent with the Piotroski F-score of 7 (which typically requires positive earnings and ROE). This suggests a data error or miscalculation in the ROE figure. [confidence: high]
 
-- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" (Seagate Technology Holdings PLC) — The article flags Seagate’s ROE as distorted due to near-zero/negative equity but still assigns it a Piotroski F-score of 7, which is inconsistent because negative equity would typically result in a zero or lower F-score. [confidence: high]
+- "Avg ROE 65.3%" for Medpace Holdings, Inc. — While Medpace's ROE is indeed high, a 65.3% average ROE is unusually extreme for a healthcare services company and may reflect a one-time anomaly or data error rather than a sustainable figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Multi-screen agreement → highest conviction sleeve" (repeated for all stocks) — The article claims that multi-screen agreement implies "highest conviction sleeve" for every stock in the CORE sleeve, but it does not provide evidence or methodology to support that these mechanical filters (e.g., Darvas breakout, Piotroski quality) reliably correlate with higher conviction or future performance. The claim extrapolates beyond what the data shows. [confidence: high]
+- "Multi-screen agreement → highest conviction sleeve" for all listed stocks — The article claims that multi-screen agreement implies "highest conviction," but it does not provide evidence or context to support that these screens (e.g., Darvas breakout, Piotroski quality) are predictive of future returns. The claim conflates mechanical screening with investment conviction without justification. [confidence: high]
 
-- "Avg ROE 65.3%" (Medpace Holdings, Inc.) — While the ROE figure itself may be correct, the article uses it to support a "high conviction" thesis without addressing whether such a high ROE is sustainable, industry-comparable, or factored into the screening methodology. This is an apples-to-oranges comparison because Piotroski F-score (used in the screen) does not incorporate ROE magnitude, only its sign and trend. [confidence: medium]
+- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" for Seagate Technology Holdings PLC — While the note acknowledges a distortion in ROE due to negative equity, the article still lists an average ROE figure (not flagged in the table) without clarifying that the ratio is unreliable. This could mislead readers into trusting a flawed metric. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

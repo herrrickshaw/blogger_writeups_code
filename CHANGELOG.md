@@ -6227,3 +6227,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 53,124 → 54,301 bytes (+1,177)
+
+## 2026-08-19T10:02:50+05:30 — 173 posts live
+
+**Added**
+
+- `global-biofuels-m-bankruptcy-bolt-on` **v1.0.0** — Global Biofuels M&A: A Bankruptcy, a Bolt-On, and Where the Capital Is Actually Going (23,484 bytes)

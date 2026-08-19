@@ -16,15 +16,20 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99584, Requested 1878. Please try again in 21m3.168s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 is not yet complete as of July 2026, making the data provisional is correct, but the phrasing implies the fiscal year has ended, which is misleading. The fiscal year 2025-26 runs from April 2025 to March 2026, so the data is provisional because the year is not yet over. [confidence: high]
+- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 (FY2025-26) is not yet complete as of July 2026, so referring to it as "FY2025-26" is misleading. The correct designation should be FY2024-25 or a future year, or the data should be explicitly labeled as provisional for a future fiscal year. [confidence: high]
+
+- "Chapter 85’s deficit is now $11.6bn wider than at the start — even as Ch.87’s surplus grew" — The article does not specify the starting year for this comparison, making the claim unverifiable. The table shows data from FY2018-19 to FY2025-26, but the "$11.6bn wider" figure is not directly supported by the table's net trade values. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further; this post works at the chapter level available here." — While the article acknowledges that Chapter 85 includes non-EV items (e.g., mobile phones, consumer electronics), it does not explicitly address the risk of attributing the entire deficit to EV-related components. The deficit is framed as primarily EV-related without sufficient evidence that the growth in the deficit is driven by EV components rather than other goods in Chapter 85. This risks overstating the EV-specific trade imbalance. [confidence: high]
+- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further; this post works at the chapter level available here." — While the article acknowledges that Chapter 85 includes non-EV items (e.g., mobile phones, consumer electronics), it proceeds to discuss the EV transition's impact on trade balance using Chapter 85 data without isolating EV-specific components. This risks conflating general electrical machinery trade with EV-specific trade, leading to an apples-to-oranges comparison. [confidence: high]
+
+- "Sustaining the Chapter 87 surplus through the EV transition means building Chapter 85 capability at the same pace India already built engine and transmission capability — not just continuing to assemble vehicle bodies around an imported electric core." — The article correctly identifies that EV components (Chapter 85) are imported, but it does not provide evidence that India is *not* building domestic capability in these areas (e.g., via PLI schemes or FAME II). The claim assumes a lack of progress without data, making it an unsupported extrapolation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

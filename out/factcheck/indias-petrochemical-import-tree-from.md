@@ -9,11 +9,14 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- none found
-
-INTERPRETATION ERRORS:
-- "As ethanol/EV free petrol-range volume, cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The claim conflates the availability of surplus petrol-range refinery streams (via ethanol blending and EV adoption) with the ability to capture full Crude-to-Chemicals (COTC) margins and substitute downstream specialty imports. Converting basic olefin and aromatic building blocks into complex polymers and specialty chemicals (such as polycarbonate, MDI/TDI, and nylon) requires extensive, multi-step downstream chemical synthesis plants, proprietary process licensing, and massive capital expenditure, rather than simple refinery-level cracking or COTC integration alone. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -23,14 +26,14 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The conversion from ₹1.25 lakh crore to ~$15 billion assumes an exchange rate of ₹86 per USD, but the article does not explicitly state this rate in the claim itself (it is mentioned later in the text). The claim should either specify the exchange rate or use a consistent format. [confidence: high]
+- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The claim implies that the values are sourced from official government statistics (MoC, DGCI&S, TradeStat) covering 2023–2025, but the article does not provide direct citations or links to these specific datasets. Without verification, this cannot be confirmed as accurate. [confidence: medium]
 
-- "Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC" — The source "Digital Refining" is not clearly cited or verifiable in the article, and the figures ($1.5–2/bbl marginal, $60–80/bbl full COTC) lack direct attribution to a primary or reputable secondary source. [confidence: medium]
+- "HSN = ITC-HS 8-digit; verify on DGFT ITC-HS 2022" — The article incorrectly equates "HSN" (Harmonized System Nomenclature) with "ITC-HS" (Indian Trade Classification based on Harmonized System). While related, they are not the same, and HSN is a broader classification system used globally, whereas ITC-HS is India's specific adaptation. This conflation is factually incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the import dependence figures (~85–100%) may be correct, the claim implies a direct causal link between the clustering of these products in benzene/propylene chains and their high import dependence without providing evidence or data to support this specific relationship. The reasoning gap is the lack of demonstrated causation or correlation between the product grouping and import dependence. [confidence: high]
+- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import" — The claim suggests that cracking petrol-range streams into petrochemicals (e.g., olefins, BTX) will "erase an import" by substituting imports entirely. However, this ignores the fact that India may still need to import crude oil or other feedstocks to produce these chemicals domestically, meaning the import dependence is merely shifted, not eliminated. The reasoning assumes a direct substitution without accounting for upstream dependencies. [confidence: high]
 
-- "As ethanol/EV free petrol-range volume, cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The claim suggests that cracking ethanol/EV-free petrol-range volume into petrochemicals will "erase an import" and capture a premium, but it does not clarify whether the import being erased is the same as the one being substituted or if there are additional imports (e.g., feedstock) that might offset this. The reasoning gap is the assumption that substituting one import with another (or domestic production) will necessarily reduce total imports without accounting for potential trade-offs or additional dependencies. [confidence: medium]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported" — While the products listed are indeed part of the benzene/propylene chains, the claim that their import dependence is "~85–100%" is not clearly supported by the data presented. The article does not provide specific import figures for these individual products, and the 85–100% range appears to be an extrapolation from broader categories (e.g., "high-petrol-link substitutable imports") without justification. This overgeneralizes the import dependence of specific products. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

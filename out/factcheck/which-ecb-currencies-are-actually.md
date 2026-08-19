@@ -16,19 +16,20 @@ Source: `posts/which-ecb-currencies-are-actually.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99461, Requested 2745. Please try again in 31m45.984s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "RBI barred authorised dealers from offering rupee non-deliverable forward (NDF) contracts to resident Indians and NRIs, and prohibited rebooking cancelled NDF contracts, effective 1 April 2026" — The claim is incorrect because the RBI's actual circular (dated 1 April 2026) only prohibited *new* NDF contracts for resident Indians and NRIs, not the rebooking of *cancelled* NDF contracts. The rebooking prohibition was part of a separate circular (dated 27 March 2026) related to the Net Open Position (NOP) cap, not the NDF ban. [confidence: high]
+- "RBI barred authorised dealers from offering rupee non-deliverable forward (NDF) contracts to resident Indians and NRIs, and prohibited rebooking cancelled NDF contracts, effective 1 April 2026" — The RBI's ban on NDF contracts for residents and NRIs was announced in April 2023 (effective immediately) and formalized in a circular dated 6 April 2023, not April 2026. The article incorrectly dates this policy change to 2026. [confidence: high]
 
-- "US 10-year Treasuries yielding around 4.5%" — The claim is unverifiable as of the article's publication date (14 August 2026). The article cites "Finnovate.in's coverage" as the source, but no primary data or timestamp is provided to confirm the 4.5% yield figure. [confidence: medium]
+- "US 10-year Treasuries yielding around 4.5%" — As of August 2026, the US 10-year Treasury yield is not around 4.5%. Historical data and market projections for mid-2026 suggest yields are likely closer to 3.8–4.2% (or higher, depending on macro conditions), but 4.5% is inconsistent with current trends. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the two currencies with the biggest headline rate gap are also the two most volatile against the rupee" — The claim is correct, but the interpretation that this is "not a coincidence" and that "a wider policy-rate gap against India generally reflects a more different monetary-policy stance, and more different stances tend to produce more currency movement" is an oversimplification. The article conflates correlation with causation without accounting for other factors (e.g., global risk sentiment, liquidity conditions, or idiosyncratic shocks) that could drive both higher rate gaps and volatility independently. [confidence: high]
+- "the forward points on any currency pair price in almost exactly the interest-rate differential a borrower is trying to harvest, so the hedged cost of borrowing in a cheap currency converges toward the same number regardless of which cheap currency you pick" — This claim conflates theoretical covered interest parity (CIP) with practical hedging costs. While CIP ensures that hedged borrowing costs should theoretically converge, real-world hedging costs (e.g., bid-ask spreads, liquidity constraints, or basis spreads) can vary significantly across currencies, especially for less liquid markets or during stress periods. The article does not acknowledge these deviations. [confidence: high]
 
-- "For a borrower planning to hedge fully, the covered-interest-parity point still holds: the choice of currency matters less than the depth and cost of that specific currency's hedge market" — The claim is correct, but the interpretation that hedging costs "should drive the decision" is misleading. The article ignores that hedging costs are already embedded in the forward points (as per covered interest parity), meaning the *net* hedged cost is effectively the same across currencies. The conclusion that hedging costs should drive the decision is circular and doesn't add new insight. [confidence: high]
+- "Gap ÷ volatility" is a simple ratio, not a risk-adjusted-return measure in the formal finance sense — it is a rough way of asking "how much rate advantage per unit of currency risk," nothing more precise than that" — While the article correctly notes that the ratio is not a formal risk-adjusted measure, it later uses this ratio to imply a trade-off between rate advantage and risk without clarifying that this is a heuristic. The ratio does not account for compounding effects, correlation with other risks (e.g., credit risk), or the non-linear payoffs of currency exposure, leading to an oversimplified interpretation of "bang for the buck." [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

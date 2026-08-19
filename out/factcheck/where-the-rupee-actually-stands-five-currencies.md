@@ -16,19 +16,20 @@ Source: `posts/where-the-rupee-actually-stands-five-currencies.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 6304. Please try again in 1h23m19.968s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated 14 August 2026, but this date is in the future relative to the current date (June 2025). The article cannot have been published on a date that has not yet occurred. [confidence: high]
+- "14 August 2026" (date in the article title and multiple places) — The article is dated in the future relative to the current date (2025), which is impossible for a published piece. [confidence: high]
 
-- "CNY, RUB and SAR have no direct, officially published INR reference rate (see Section 4)" — The article later contradicts itself by stating that FBIL publishes direct rates against AED and IDR, implying that some non-USD currencies do have direct INR reference rates. The claim is overly broad and incorrect as stated. [confidence: high]
+- "CNY, RUB and SAR have no direct, officially published INR reference rate (see Section 4)" — While the article later acknowledges that FBIL does not publish direct INR reference rates for these currencies, it incorrectly states that no direct rates exist at all. The RBI's NEER/REER methodology explicitly uses derived cross-rates for these currencies, implying some form of official computation exists, even if not a direct benchmark. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the rouble is the outlier, and not in the direction the other four suggest: it sits at just 112, the shallowest ten-year rise of the five, but it got there by way of the sharpest single move on the chart — the vertical plunge and rebound around 2022" — While the rouble's volatility is correctly noted, the interpretation that its ten-year trend (shallow rise) is the primary takeaway ignores the fact that the volatility itself (not the trend) is the defining characteristic of the rouble's behavior. The article conflates trend and volatility in its framing. [confidence: high]
+- "RUB/INR's ten-year change (+4.1%) is the smallest by a wide margin, and its three-year change (+32.0%, the largest of the five) is a mechanical artefact of measuring from a post-crash low rather than genuine three-year weakness." — While the claim about the three-year change being a mechanical artifact is correct, the conclusion that the ten-year change is "the smallest by a wide margin" is misleading. The rouble's ten-year change (+4.1%) is indeed the smallest, but this is not because it is "genuinely weak" — it reflects the rouble's recovery after the 2022 crash. The interpretation incorrectly frames the ten-year change as a meaningful indicator of weakness rather than volatility and recovery. [confidence: high]
 
-- "Rupee settlement moves who bears conversion risk and when; it does not touch the underlying trade imbalance" — This claim oversimplifies the relationship between currency invoicing and trade imbalances. While invoicing may not directly alter the trade balance, the choice of invoicing currency can influence trade flows by affecting relative prices and competitiveness, which in turn can indirectly impact the trade balance. The article ignores this potential feedback effect. [confidence: medium]
+- "More rupee-rouble trade would not have made the rouble less volatile through 2022 — that volatility came from sanctions and capital controls inside Russia, and rupee settlement at most changes where the resulting risk is parked (RBI's treasury-bill workaround for Russia's rupee surplus, Section 3 of the companion piece, is exactly that kind of relocation, not a reduction)." — While the claim about the source of rouble volatility is correct, the interpretation that rupee settlement only relocates risk rather than potentially reducing it is an overstatement. Rupee settlement could reduce systemic risk by reducing exposure to dollar-denominated sanctions, even if it does not change the rouble's inherent volatility. The article conflates the source of volatility with the potential for risk mitigation through alternative settlement mechanisms. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

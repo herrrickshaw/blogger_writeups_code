@@ -16,19 +16,20 @@ Source: `posts/the-empty-shed-greenhouse-what-indias.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99767, Requested 2259. Please try again in 29m10.464s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim specifies a cost for 2026, but no source or methodology is provided to justify this future projection. Costs for 2026 are speculative without clear inflation assumptions or market data. [confidence: medium]
+- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim is unverifiable as written. The cited sources (NHM/NHB/State Horticulture Mission rates, 2026) are not provided in the article, and no primary source is accessible to confirm the ₹12 lakh figure for 2026. The claim may be speculative or based on outdated data. [confidence: medium]
 
-- "~20–25% CAGR of India's vertical-farming/CEA market, much of it built inside repurposed warehouses" — The cited sources (IMARC, Farmonaut) are not provided with specific figures or timeframes to support this precise CAGR estimate. The claim appears to be an extrapolation without verifiable data in the article. [confidence: medium]
+- "~20–25% CAGR of India's vertical-farming/CEA market, much of it built inside repurposed warehouses" — The article cites "India vertical-farming market research (IMARC, Farmonaut)" but does not provide a specific source or page for the 20–25% CAGR figure. Without a verifiable citation, this claim cannot be confirmed. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Converting one of these [unused sheds] into a protected-cultivation structure — adding shade netting or polyfilm walls, a drip system, and basic ventilation — skips the largest single line item in the NHM cost model: the structural shell itself." — While the retrofit may avoid the cost of a new structural shell, the NHM subsidy is credit-linked and requires compliance with structural and cladding standards. The article does not address whether retrofitted structures meet these standards or whether the avoided cost is fully realized in subsidy eligibility. The claim implies a direct cost saving without acknowledging potential subsidy ineligibility or additional compliance costs. [confidence: high]
+- "Converting one of these [unused sheds] into a protected-cultivation structure — adding shade netting or polyfilm walls, a drip system, and basic ventilation — skips the largest single line item in the NHM cost model: the structural shell itself." — The reasoning gap is that the NHM subsidy is credit-linked and requires the retrofit to meet the same structural and cladding standards as a new-build polyhouse. The article does not address whether retrofitted structures (e.g., warehouses with reused trusses) would qualify for the full subsidy, implying cost savings that may not materialize. The claim assumes eligibility without evidence. [confidence: high]
 
-- "The same logic is already playing out at industrial scale globally: vertical-farming and controlled-environment-agriculture operators are increasingly built 'within repurposed warehouses...'" — The article generalizes global trends to India without providing India-specific evidence or data on the prevalence or success of such retrofits in the Indian context. This extrapolation assumes applicability without verification. [confidence: medium]
+- "The same logic is already playing out at industrial scale globally: vertical-farming and controlled-environment-agriculture operators are increasingly built 'within repurposed warehouses, dedicated agricultural buildings, and purpose-built structures,' and in India specifically, growing availability of underutilised peri-urban commercial real estate is cited as a factor lowering entry costs for exactly this kind of conversion." — The reasoning gap is that the article conflates global trends with India-specific conditions. While global data may show warehouse repurposing, the article does not provide India-specific evidence that such conversions are a significant or feasible trend in India, nor does it address regulatory, structural, or market barriers unique to India. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

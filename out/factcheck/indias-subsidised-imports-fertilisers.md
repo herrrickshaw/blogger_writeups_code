@@ -9,14 +9,10 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where the approval occurs before the data cutoff, which is impossible. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The article states NIPU-2026 was approved on 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where an approval cannot occur after the data cutoff date. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore. However, the official Union Budget documents for FY25-26 show the urea subsidy at ₹1.08 lakh crore and NBS at ₹49,000 crore, totaling ₹1.57 lakh crore. The article's figure is overstated. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY2025-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore, but the range given is ₹1.5–1.7 lakh crore. This suggests a possible miscalculation or rounding inconsistency in the figures. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that 81.6% of India's import bill (₹775bn) is accounted for by the 12 subsidised categories ($632.8bn). However, this implies that the 12 categories include all commodities with subsidies or policy protection, while the article itself earlier states that several categories (e.g., Gems & Jewellery, Plastics, Inorganic Chemicals, Machinery) are tracked but have no identified subsidy. This creates a contradiction where the 12 categories are treated as both subsidised and non-subsidised, leading to an apples-to-oranges comparison in the calculation of their share of the import bill. [confidence: high]
+- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that 81.6% of India's import bill (FY2025-26) is accounted for by the 12 subsidised categories, but it also states that several of these categories (e.g., Gems & Jewellery, Plastics, Inorganic Chemicals, Machinery) have no identified subsidy or policy protection. This creates a contradiction where non-subsidised categories are included in the "subsidised" total, leading to an apples-to-oranges comparison. [confidence: high]
 
-- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — The article attributes the fall in mineral fuels imports to lower global crude prices and implies that this reduced the subsidy burden. However, the subsidy cost is estimated based on the gap between domestic prices and import parity prices, not the import bill itself. A decline in global prices could reduce the subsidy burden only if domestic prices were adjusted accordingly, which is not explicitly stated. The reasoning conflates the import bill with the subsidy cost, leading to a false causal claim. [confidence: medium]
+- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — The article attributes the fall in mineral fuels imports to lower global crude prices, implying a causal relationship. However, it does not provide evidence or data to confirm that the price decline was the sole or primary driver of the import reduction, nor does it rule out other contributing factors (e.g., demand-side changes, policy shifts). This is an unsupported causal claim. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

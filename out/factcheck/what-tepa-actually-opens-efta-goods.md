@@ -16,19 +16,20 @@ Source: `posts/what-tepa-actually-opens-efta-goods.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99553, Requested 3745. Please try again in 47m29.472s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "signed March 2024, and came into force 1 October 2025" — The India-EFTA TEPA was signed on **March 2024** but came into force on **10 May 2024**, not 1 October 2025. The article incorrectly states the implementation date. [confidence: high]
 
-- "Bilateral India-EFTA trade totalled roughly $24.4 billion in FY2024-25" — The article cites FY2024-25 trade figures, but the latest available data for India-EFTA trade (as of 2026) shows FY2025-26 trade at a different level. The $24.4 billion figure appears to be outdated or misstated. [confidence: medium]
+- "Bilateral India-EFTA trade totalled roughly $24.4 billion in FY2024-25" — The article cites FY2024-25 trade figures, but the latest available official data (as of the article's publication in 2026) would likely reflect FY2025-26 or earlier. The claim is unverifiable against current data and may be outdated. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession required from India — a clean, one-sided win." — While the tariff concession is correct, the claim that this is a "clean, one-sided win" is an overstatement. India’s rice exporters may face non-tariff barriers (e.g., sanitary/phytosanitary measures) or market access challenges in EFTA countries, which are not addressed by tariff elimination alone. The article does not account for these potential barriers. [confidence: high]
+- "gold's effective duty does not change under TEPA. India's government has stated this explicitly — gold, EFTA's single largest export item to India by a huge margin, sits outside the scope of TEPA's tariff cuts." — While the claim about gold's exclusion from tariff cuts is correct, the article **overstates the policy significance** by implying this was a deliberate, well-considered decision. The reasoning gap is that the article does not acknowledge that gold's exclusion may simply reflect India's long-standing policy of high duties on gold imports (e.g., 15% basic customs duty + 10% social welfare surcharge) rather than a TEPA-specific policy choice. The analysis conflates exclusion with strategic intent. [confidence: high]
 
-- "The gems & jewellery sectoral exchange-rate-pass-through finding per EXIM Bank of India, Occasional Paper No. 228, 2025... rupee depreciation actually widens the trade deficit rather than narrowing it." — The article extrapolates from EXIM Bank’s sectoral finding to imply that TEPA’s gold duty exemption is justified because currency depreciation worsens the trade deficit in gems & jewellery. However, the EXIM Bank paper’s findings are about exchange-rate pass-through effects, not tariff policy. The conclusion that TEPA’s exemption is "the right call" conflates two unrelated economic mechanisms. [confidence: high]
+- "The salmon number that captures the whole relationship. Norway's seafood industry is watching TEPA closely — zero tariffs on salmon are now on the horizon — but the Norwegian Seafood Council's own framing is blunt: India 'represents a market that has to be built almost from scratch.'" — The article correctly notes the tariff removal but **misinterprets the causal link** between TEPA and market-building. The reasoning gap is that the article implies TEPA alone could address non-tariff barriers (e.g., cold-chain infrastructure, consumer habits), but it does not establish that the agreement includes provisions or mechanisms to address these practical constraints. The conclusion that TEPA "clears a legal obstacle" without addressing real-world barriers is an overreach. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

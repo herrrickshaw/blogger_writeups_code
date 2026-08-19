@@ -22,14 +22,14 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure (as noted in the article), but the comparison to annual output (~₹11 Cr) is incorrect because the ₹11 Cr figure is not clearly defined or sourced in the article. The article itself flags that ₹300 Cr is "likely a multi-year cumulative figure," but the comparison to ₹11 Cr lacks clarity or verification. [confidence: medium]
+- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure, but the article presents it as an annual output without clear labeling, creating confusion. [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The article correctly notes that an 18-month plan starting in August 2026 would end in February 2028, not July 2027, indicating a factual error in the timeline claim. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect; an 18-month plan starting in August 2026 would end in February 2028, not July 2027. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat-ration protein content (8-12g/day) and a proposed target (53g/day), but the article does not provide evidence or data to support the feasibility or necessity of this target. The reasoning gap is that the article does not explain how the proposed protein sources (e.g., powdered eggs, chicken tikka) would realistically achieve a 53g/day intake within the constraints of ration packaging, shelf stability, and soldier consumption patterns. [confidence: high]
+- "53g target daily protein vs 8-12g today" — While the protein target is stated, the article does not provide evidence or justification for why 53g/day is the appropriate benchmark for military nutrition, nor does it explain how this target was derived or validated. [confidence: medium]
 
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the financial figures provided (e.g., setup cost of ₹2.85 Cr, operating cost of ₹1.2-1.4 Cr/yr, and savings of ₹4.5 Cr/yr). The reasoning gap is that the article does not show how these figures derive the ROI or payback period, making the claims unsupported by the presented data. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the detailed cost and savings figures provided elsewhere in the article (e.g., the 5-year net savings of ₹8.51 Cr vs. the sum of visible line items of ₹10–14 Cr). The relationship between these figures is unclear. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

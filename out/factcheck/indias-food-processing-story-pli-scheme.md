@@ -9,13 +9,14 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "one widely cited estimate puts the annual economic loss from inadequate cold-chain and supply-chain infrastructure at ₹92,651 crore" — The ₹92,651 crore figure comes from the 2015 ICAR-CIPHET national study on post-harvest agricultural losses across *all* commodity groups (including foodgrains, oilseeds, pulses, sugarcane, milk, and fisheries), not losses attributable solely to a lack of cold-chain infrastructure. [confidence: high]
-- "Published 8 August 2026... PIB/MoFPI PLISFPI progress data through June 2026 · Union Budget 2026-27 allocations" — The article cites future dates (August 2026), future budget allocations (Union Budget 2026–27), and data reported through mid-2026 that do not exist in historical record. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — A rising percentage share in a rapidly expanding total export basket (total agri-exports grew from ~$32 billion to over $50 billion over the past decade) does not mean the absolute volume or value of raw commodity exports decreased; raw commodity exports grew in absolute terms even as processed food grew at a faster rate. [confidence: high]
-- "Against a stated annual loss of ₹92,651 crore and a 3.5-million-tonne capacity gap, a single year's PMKSY allocation of ₹915 crore is not sized to close it..." — This is an apples-to-oranges comparison. PMKSY operates as a capital subsidy/grant-in-aid scheme to catalyze private investment (leveraging several times the public outlay in private capital), rather than directly funding 100% of infrastructure creation from the Union budget. Comparing the annual budgetary grant directly against total national losses or total capital cost misrepresents how the scheme funds capacity. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -25,14 +26,14 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims 3.39 lakh jobs were created against a 2.5 lakh target, but the table later states the target was 2.5 lakh (250,000), while the jobs created are 3.39 lakh (339,000). This is a misrepresentation of the numbers, as 3.39 lakh is greater than 2.5 lakh, not against it. [confidence: high]
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article states "3.39 lakh" (339,000) jobs created, but the table later clarifies this as "3.39 lakh" (339,000) vs. a 2.5 lakh (250,000) target. The phrasing "3.39L" is inconsistent with the rest of the text (which uses "lakh" spelled out) and could be misinterpreted as 339,000 vs. 250,000, which is correct, but the inconsistency in notation is a minor factual inconsistency in presentation. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure without providing a primary source or methodology. While widely cited, the lack of verifiable origin (e.g., no direct NABARD or MoFPI study is linked) makes it unverifiable. [confidence: medium]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but does not provide a primary source or methodology. Without verification from NABARD or MoFPI, this cannot be confirmed as accurate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26, and export sales from the scheme's beneficiaries have grown at a 13.23% compound annual rate since 2019-20." — While the sales figures are correct, the article implies that the PLI scheme directly caused this growth without establishing causality. The growth could be due to other factors (e.g., general sector trends, inflation, or other policies), and the article does not control for these confounding variables. [confidence: high]
+- "India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline." — The article claims the PLI scheme "overshot its own target" by creating 3.39 lakh jobs against a 2.5 lakh target. However, the target is for 2026 (the deadline year), and the data is as of June 2026. The claim implies the target was for the entire scheme duration, but the target may have been set for the cumulative period up to 2026-27, not a specific year. The overshooting could be due to early acceleration rather than exceeding the final cumulative target. The reasoning gap is whether the 2.5 lakh target was for the entire period or an annual target. [confidence: medium]
 
-- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — The article correctly notes the increase in processed food's share of exports but does not account for the fact that raw commodities (e.g., rice) still dominate the export basket in absolute terms. The conclusion that India is "exporting less raw commodity" is misleading because the total export value of raw commodities may still be higher, even if their share has declined. [confidence: high]
+- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — While the percentage increase is correct, the conclusion that India is exporting "less raw commodity" is an overinterpretation. The rise in processed food's share does not necessarily mean absolute declines in raw commodity exports; raw commodity exports could still be growing in absolute terms but at a slower rate than processed food exports. The reasoning gap is conflating a rising share with an absolute decline in raw commodity exports. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

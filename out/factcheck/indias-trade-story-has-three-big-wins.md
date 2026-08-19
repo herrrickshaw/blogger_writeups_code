@@ -22,10 +22,14 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India-EU FTA, concluded 27 January 2026" — The India-EU Free Trade Agreement was not concluded on 27 January 2026; negotiations are ongoing, and no agreement has been finalized as of June 2024. [confidence: high]
+- "India-EU Free Trade Agreement, concluded 27 January 2026" — The EU-India trade deal is not yet concluded as of June 2024; negotiations are ongoing, and no agreement has been finalized. [confidence: high]
+
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide this specific figure or growth rate for services exports. The article appears to fabricate or misattribute this data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme may have attracted ₹2.40 lakh crore in investment against an approved outlay of ₹1.91 lakh crore, this does not necessarily imply that the scheme itself caused or directly enabled the cumulative exports of ₹15.2 lakh crore. The article conflates investment attraction with export generation, which are distinct outcomes. [confidence: high]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme's investment figures may be correct, the article implies that this 26% overshoot is a direct measure of success without accounting for potential overestimation in approved outlays, delayed disbursements, or unmet commitments. The 26% figure alone does not validate the scheme's economic impact or efficiency. [confidence: medium]
+
+- "Every major policy instrument covered above [...] is aimed overwhelmingly at merchandise trade" — The article assumes that the Export Promotion Mission (EPM), EU FTA, and PLI scheme are *exclusively* goods-focused without acknowledging that the EU FTA includes services provisions (e.g., Mode 1–4 under GATS) and the EPM's "trade-finance component" could theoretically support services exports. The blanket claim overstates the gap. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

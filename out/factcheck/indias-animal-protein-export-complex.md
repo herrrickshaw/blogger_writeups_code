@@ -9,11 +9,14 @@ Source: `posts/indias-animal-protein-export-complex.html`
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "Roughly 513 plants across the country carry this export registration, current as of APEDA's most recent published list (July 2026)." / "Seafood exports hit an all-time high of ₹72,325.82 crore (~$8.28 billion) in FY2025-26..." — July 2026 and FY2025-26 are future dates; completed fiscal year export statistics and APEDA published lists cannot exist for these periods. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "By share of India's overall meat production, West Bengal (12.62%), Uttar Pradesh (12.29%), Maharashtra (11.28%), Telangana (10.85%) and Andhra Pradesh (10.41%) together account for well over half the national total." — The author uses aggregate national meat production data (which is heavily dominated by poultry and includes sheep, goat, and pork) to explain the geographic concentration of the buffalo-meat (carabeef) export trade. States like West Bengal lead in overall meat production due to poultry and goat meat, not export-oriented buffalo processing, creating an apples-to-oranges conflation. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -23,14 +26,14 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)" — The fiscal year notation is inconsistent. FY2025-26 is the same as FY2026, but the article later mentions "FY2025-26" for seafood exports and "FY2024-25" for buffalo meat exports. This creates confusion about the actual fiscal year referenced for seafood exports. [confidence: high]
+- "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)" — The fiscal year is incorrectly stated as FY2025-26, which would imply the year ending March 2026. However, the article later references FY2024-25 for buffalo meat exports, and the MPEDA data for seafood exports is typically reported for FY2023-24 (ending March 2024). The correct fiscal year for the seafood export record is likely FY2023-24, not FY2025-26. [confidence: high]
 
-- "₹47,973.13cr Frozen shrimp alone — roughly two-thirds (66.3%) of total seafood export earnings" — The percentage (66.3%) does not match the implied calculation from the given figures. ₹47,973.13cr / ₹72,325.82cr ≈ 66.3%, but the article states this as a fact without verifying the source or calculation. While the math appears correct, the lack of explicit confirmation from the cited source (MPEDA) makes this unverified. [confidence: medium]
+- "₹47,973.13cr Frozen shrimp alone — roughly two-thirds (66.3%) of total seafood export earnings" — The article does not provide the total seafood export earnings figure that would allow this calculation. The ₹72,325.82cr figure is cited as the total seafood export value, but 66.3% of this would be ₹47,973.13cr, which matches the frozen shrimp value. However, the article does not explicitly state that the total seafood export earnings are ₹72,325.82cr, making the claim unverifiable without cross-referencing the source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The constraint isn't feedstock availability — it's structure. Tallow supply is almost entirely a derivative of the meat-processing and rendering industry, which means it inherits that industry's volatility. When COVID-era lockdowns cut meat exports and shut abattoirs, India's nascent tallow-biodiesel supply chain lost its raw material at the same time, a linkage flagged directly in contemporary trade reporting." — While the claim about volatility is correct, the conclusion that the constraint is solely "structure" (i.e., logistics and collection) is an oversimplification. The article does not address other critical factors such as economic viability (e.g., cost competitiveness of tallow vs. UCO), policy incentives (e.g., pricing, subsidies), or technological readiness (e.g., processing efficiency). The reasoning gap is that the article attributes the lack of scaling primarily to structural issues without adequately ruling out or addressing these other potential constraints. [confidence: high]
+- "India's National Biofuel Policy already permits tallow as a biodiesel feedstock, and the country carries a 5% biodiesel blending (B5) target for 2030 (separate from the unrelated 20% ethanol/E20 target set for 2025-26)." — While the policy and targets are correctly stated, the article implies that the tallow-to-biodiesel pipeline is a natural extension of the biofuel policy without addressing the structural challenges (e.g., feedstock volatility, collection logistics, or economic viability) that prevent scaling. The claim does not acknowledge that the policy mandate (B5 by 2030) is not aligned with current feedstock realities (tallow contributes only ~3% of biodiesel feedstock). This creates a false expectation that the policy alone will drive the industry forward. [confidence: high]
 
-- "The pattern across all three: India already has the raw production base — buffalo herds, rendering byproducts, brackish-water shrimp ponds. What separates the businesses that have scaled (buffalo meat, and now shrimp) from the one that hasn't (tallow biodiesel) is regulatory and logistics infrastructure..." — This claim conflates correlation with causation. While regulatory and logistics infrastructure are important, the article does not provide evidence that these are the *primary* or *only* factors separating scaled vs. unscaled businesses. Other factors such as market demand, profitability, policy support, and technological maturity are not addressed. The reasoning gap is that the article assumes infrastructure is the sole or main differentiator without ruling out or analyzing other contributing factors. [confidence: high]
+- "A rendering sector this concentrated in a few states, feeding a biodiesel programme with an explicit national blending target, is exactly the kind of byproduct-to-energy pipeline that gets built out once the economics and collection logistics catch up with the policy mandate — it just hasn't happened at scale yet." — The article assumes that the concentration of the rendering sector and the national blending target are sufficient conditions for the tallow-to-biodiesel pipeline to scale. However, it does not address other critical factors such as feedstock pricing, competition with other biodiesel feedstocks (e.g., UCO), or the lack of dedicated infrastructure for tallow collection and processing. The claim overgeneralizes the conditions required for scaling without evidence. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
