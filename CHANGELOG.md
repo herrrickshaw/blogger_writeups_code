@@ -6217,3 +6217,13 @@ scheduled sync
 **Changed**
 
 - `the-milk-india-doesnt-drink-cheese-and` — 34,408 → 37,082 bytes (+2,674)
+
+## 2026-08-19T08:39:29+05:30 — 172 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.1 → 7.2.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 53,124 → 54,301 bytes (+1,177)
