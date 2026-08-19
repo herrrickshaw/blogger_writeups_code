@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-19T10:02:50+05:30",
+  "snapshot": "2026-08-19T10:04:01+05:30",
   "count": 173,
   "posts": {
     "1058853159205559121": {
@@ -17023,10 +17023,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-19T06:38:24.096+05:30",
+      "updated": "2026-08-19T10:03:37.241+05:30",
       "labels": [],
-      "bytes": 212722,
-      "sha256": "1868cdc1742a710ca1019b829ec0b968ab7c871e8cb9015542792836889a7572",
+      "bytes": 214140,
+      "sha256": "3c7fbe3ba05115ded90a4ec74b53445a4881695889c01765dedbe854320451fd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17038,7 +17038,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "28.0.3",
+      "version": "28.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17887,6 +17887,19 @@
           "bytes": [
             212336,
             212722
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "28.0.4",
+          "date": "2026-08-19T10:04:01+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            212722,
+            214140
           ],
           "url_changed": null,
           "markers_changed": null,

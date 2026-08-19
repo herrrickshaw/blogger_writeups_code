@@ -6233,3 +6233,13 @@ scheduled sync
 **Added**
 
 - `global-biofuels-m-bankruptcy-bolt-on` **v1.0.0** — Global Biofuels M&A: A Bankruptcy, a Bolt-On, and Where the Capital Is Actually Going (23,484 bytes)
+
+## 2026-08-19T10:04:01+05:30 — 173 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.3 → 28.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 212,722 → 214,140 bytes (+1,418)
