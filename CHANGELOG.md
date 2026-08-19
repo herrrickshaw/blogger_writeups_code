@@ -6491,3 +6491,13 @@ scheduled sync
 **Added**
 
 - `blending-on-budget-energy-density-and` **v1.0.0** — Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs (26,541 bytes)
+
+## 2026-08-19T12:10:40+05:30 — 174 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.5 → 28.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 214,140 → 214,998 bytes (+858)
