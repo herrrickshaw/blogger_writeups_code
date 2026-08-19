@@ -4,19 +4,19 @@
 
 ## Totals
 
-- Active users: **100**
-- Total users: **100**
-- Page views: **1378**
-- Sessions: **240**
+- Active users: **102**
+- Total users: **102**
+- Page views: **1447**
+- Sessions: **258**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 53 | 1311 |
+| India | 55 | 1379 |
 | United States | 39 | 52 |
 | (not set) | 2 | 2 |
-| Malaysia | 2 | 8 |
+| Malaysia | 2 | 9 |
 | Oman | 2 | 2 |
 | Ireland | 1 | 2 |
 | United Arab Emirates | 1 | 1 |
@@ -26,17 +26,16 @@
 | City | Active users | Page views |
 |---|---|---|
 | Chennai | 21 | 312 |
-| Coimbatore | 15 | 548 |
-| (not set) | 14 | 17 |
+| (not set) | 17 | 21 |
+| Coimbatore | 17 | 616 |
 | Flint Hill | 13 | 19 |
 | Madurai | 8 | 230 |
 | Des Moines | 6 | 9 |
 | Salem | 4 | 203 |
-|  | 3 | 4 |
 | Hyderabad | 3 | 3 |
 | Bengaluru | 2 | 5 |
 | Delhi | 2 | 2 |
-| Kuala Lumpur | 2 | 8 |
+| Kuala Lumpur | 2 | 9 |
 | Muscat | 2 | 2 |
 | Pune | 2 | 2 |
 | San Jose | 2 | 2 |
@@ -57,12 +56,12 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 461 | 61 |
-| /search | 91 | 4 |
-| /2026/08/article-index-start-here.html | 54 | 8 |
+| / | 485 | 62 |
+| /search | 93 | 4 |
+| /2026/08/article-index-start-here.html | 58 | 8 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 31 | 5 |
-| /2026/08/guar-gum-indias-35-billion-export-peak.html | 26 | 6 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 34 | 6 |
+| /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
 | /2026/08/the-503020-rule-is-elizabeth-warrens.html | 19 | 9 |
 | /2026/07/us-stock-picks-multi-screen-quant.html | 15 | 2 |
