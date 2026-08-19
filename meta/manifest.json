@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-19T12:30:34+05:30",
+  "snapshot": "2026-08-19T12:35:38+05:30",
   "count": 174,
   "posts": {
     "1058853159205559121": {
@@ -22980,13 +22980,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
       "slug": "blending-on-budget-energy-density-and",
       "published": "2026-08-19T12:07:25.000+05:30",
-      "updated": "2026-08-19T12:28:32.353+05:30",
+      "updated": "2026-08-19T12:35:15.976+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 38083,
-      "sha256": "889432fac4858fcbfb59f7ba901ffb50e4f1f84aaeb9e5219c6962f751dff7ed",
+      "bytes": 38972,
+      "sha256": "41149f5e253f0832506c9f3896bb261dc306c96115a8f168b4b91eb035f8fd04",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22998,7 +22998,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23028,6 +23028,19 @@
           "bytes": [
             29791,
             38083
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-19T12:35:38+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            38083,
+            38972
           ],
           "url_changed": null,
           "markers_changed": null,

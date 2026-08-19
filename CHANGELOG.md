@@ -6521,3 +6521,13 @@ scheduled sync
 **Changed**
 
 - `blending-on-budget-energy-density-and` — 29,791 → 38,083 bytes (+8,292)
+
+## 2026-08-19T12:35:38+05:30 — 174 posts live
+
+**Versions**
+
+- `blending-on-budget-energy-density-and` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `blending-on-budget-energy-density-and` — 38,083 → 38,972 bytes (+889)
