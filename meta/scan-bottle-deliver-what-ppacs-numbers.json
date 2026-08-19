@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-08-17T07:16:05.962+05:30",
+  "updated": "2026-08-19T11:45:27.564+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "India Trade & Policy"
   ],
-  "bytes": 23587,
-  "sha256": "aecff17151ad351f746861379eb8dde0c38fb6c9ecbf2e020bb532f511b758e7",
+  "bytes": 23564,
+  "sha256": "1f631feae6371f9355dfc441b218a740c6c020ddde39940e2c061323ed50cf3f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-17T07:17:52+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23587,
+        23564
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]
