@@ -169,7 +169,7 @@
      "Anti-dumping",
      "Textiles"
     ],
-    "w": 0.591
+    "w": 0.583
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -183,14 +183,14 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.341
+    "w": 0.333
    },
    {
-    "slug": "chemical-import-substitution-quarterly",
+    "slug": "green-gold-what-spirulina-actually-is",
     "shared": [
-     "Anti-dumping"
+     "Textiles"
     ],
-    "w": 0.25
+    "w": 0.333
    }
   ]
  },
@@ -266,28 +266,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    },
    {
     "slug": "tarpaulin-is-genuine-export-win",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    }
   ]
  },
@@ -478,7 +478,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.122
+    "w": 0.115
    },
    {
     "slug": "re-spinning-charkha",
@@ -486,7 +486,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.122
+    "w": 0.115
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -494,14 +494,15 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.122
+    "w": 0.115
    },
    {
-    "slug": "top-15-chemicals-for-import",
+    "slug": "where-india-actually-burns-its-fuel",
     "shared": [
-     "Textiles"
+     "PPAC",
+     "Petrol"
     ],
-    "w": 0.091
+    "w": 0.09
    }
   ]
  },
@@ -1641,7 +1642,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.194
+    "w": 0.186
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
@@ -1650,7 +1651,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.158
+    "w": 0.15
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -1658,7 +1659,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.127
+    "w": 0.119
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -1666,7 +1667,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.127
+    "w": 0.119
    }
   ]
  },
@@ -1842,11 +1843,13 @@
    "South Korea"
   ],
   "states": [
+   "Tamil Nadu",
    "Karnataka",
    "Kerala"
   ],
   "entities": [
-   "Ethanol"
+   "Ethanol",
+   "Textiles"
   ],
   "related": [
    {
@@ -1857,25 +1860,25 @@
     "w": 0.536
    },
    {
-    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+    "slug": "top-15-chemicals-for-import",
     "shared": [
-     "Ethanol"
+     "Textiles"
     ],
-    "w": 0.286
+    "w": 0.333
    },
    {
-    "slug": "would-more-sgst-fix-donor-state-problem",
+    "slug": "tarpaulin-is-genuine-export-win",
     "shared": [
-     "Ethanol"
+     "Textiles"
     ],
-    "w": 0.036
+    "w": 0.333
    },
    {
-    "slug": "the-price-of-grain-msp-msv-and",
+    "slug": "priority-export-destinations-by-growth",
     "shared": [
-     "Ethanol"
+     "Textiles"
     ],
-    "w": 0.036
+    "w": 0.333
    }
   ]
  },
@@ -3495,6 +3498,20 @@
    }
   ]
  },
+ "lemon-cultivation-in-india-steady-trees": {
+  "title": "Lemon Cultivation in India: Steady Trees, Volatile Prices",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
+  "published": "2026-08-19",
+  "countries": [],
+  "states": [
+   "Tamil Nadu",
+   "Karnataka",
+   "Andhra Pradesh",
+   "Assam"
+  ],
+  "entities": [],
+  "related": []
+ },
  "lok-sabha-question-registry-1843-scheme": {
   "title": "Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today",
   "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
@@ -3954,14 +3971,15 @@
      "PLI scheme",
      "Textiles"
     ],
-    "w": 0.394
+    "w": 0.386
    },
    {
-    "slug": "airbags-and-seat-belts-are-import-heavy",
+    "slug": "where-indias-forex-goes-country",
     "shared": [
-     "Textiles"
+     "PLI scheme",
+     "TradeStat"
     ],
-    "w": 0.341
+    "w": 0.338
    }
   ]
  },
@@ -4240,7 +4258,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.194
+    "w": 0.186
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
@@ -4249,7 +4267,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.158
+    "w": 0.15
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -4267,7 +4285,7 @@
      "Crude oil",
      "Textiles"
     ],
-    "w": 0.134
+    "w": 0.127
    }
   ]
  },
@@ -4687,28 +4705,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.341
+    "w": 0.333
+   },
+   {
+    "slug": "green-gold-what-spirulina-actually-is",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.333
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
-   },
-   {
-    "slug": "re-spinning-charkha",
-    "shared": [
-     "Textiles"
-    ],
-    "w": 0.091
+    "w": 0.083
    }
   ]
  },
@@ -4738,7 +4756,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.127
+    "w": 0.119
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -4746,7 +4764,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.127
+    "w": 0.119
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -4754,14 +4772,14 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.127
+    "w": 0.119
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "Textiles"
     ],
-    "w": 0.091
+    "w": 0.083
    }
   ]
  },
@@ -5600,7 +5618,7 @@
      "Anti-dumping",
      "Textiles"
     ],
-    "w": 0.591
+    "w": 0.583
    },
    {
     "slug": "what-india-is-actually-paying-for",

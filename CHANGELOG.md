@@ -6131,3 +6131,13 @@ scheduled sync
 **Added**
 
 - `lemon-cultivation-in-india-steady-trees` **v1.0.0** — Lemon Cultivation in India: Steady Trees, Volatile Prices (24,520 bytes)
+
+## 2026-08-19T06:10:57+05:30 — 171 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.1 → 28.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 211,982 → 212,336 bytes (+354)
