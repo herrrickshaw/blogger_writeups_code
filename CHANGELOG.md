@@ -6187,3 +6187,13 @@ scheduled sync
 **Changed**
 
 - `the-milk-india-doesnt-drink-cheese-and` — 28,015 → 30,792 bytes (+2,777)
+
+## 2026-08-19T07:08:38+05:30 — 172 posts live
+
+**Versions**
+
+- `the-milk-india-doesnt-drink-cheese-and` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-milk-india-doesnt-drink-cheese-and` — 30,792 → 32,728 bytes (+1,936)
