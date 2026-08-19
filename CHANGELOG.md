@@ -6243,3 +6243,39 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 212,722 → 214,140 bytes (+1,418)
+
+## 2026-08-19T11:40:30+05:30 — 173 posts live
+
+**Versions**
+
+- `guar-gum-indias-35-billion-export-peak` **4.0.2 → 4.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-cluster-automotive-piece-left-out` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-tepa-actually-opens-efta-goods` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fuel-and-bottle-two-taxes-states-never` **1.2.6 → 1.2.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tamil-nadus-gst-gap-108-economy-growing` **1.1.4 → 1.1.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-wholesale-prices-next-to` **6.0.11 → 6.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-tyre-waste-problem-and-crumb` **1.0.7 → 1.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-most-discussed-schemes-in` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `nature-versus-nurture-indias-fertiliser` **3.0.9 → 3.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `announced-vs-delivered-three-indian` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **2.0.9 → 2.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-analysis` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-forest-wildlife-crz-clearances` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `guar-gum-indias-35-billion-export-peak` — 27,929 → 27,875 bytes (-54)
+- `the-cluster-automotive-piece-left-out` — 20,273 → 20,272 bytes (-1)
+- `what-tepa-actually-opens-efta-goods` — 28,238 → 28,211 bytes (-27)
+- `fuel-and-bottle-two-taxes-states-never` — 29,695 → 29,695 bytes (+0)
+- `tamil-nadus-gst-gap-108-economy-growing` — 24,226 → 24,232 bytes (+6)
+- `indias-wholesale-prices-next-to` — 40,403 → 40,449 bytes (+46)
+- `indias-tyre-waste-problem-and-crumb` — 14,126 → 14,215 bytes (+89)
+- `the-most-discussed-schemes-in` — 34,227 → 34,480 bytes (+253)
+- `the-rupee-fell-10-and-exports-grew-09` — 36,967 → 36,993 bytes (+26)
+- `nature-versus-nurture-indias-fertiliser` — 78,803 → 78,794 bytes (-9)
+- `announced-vs-delivered-three-indian` — 45,815 → 46,037 bytes (+222)
+- `top-15-chemicals-for-import` — 83,239 → 82,975 bytes (-264)
+- `chemical-import-substitution-analysis` — 34,238 → 34,928 bytes (+690)
+- `india-forest-wildlife-crz-clearances` — 22,809 → 22,815 bytes (+6)

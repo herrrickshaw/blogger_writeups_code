@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
   "published": "2026-08-15T07:20:21.000+05:30",
-  "updated": "2026-08-16T15:06:38.010+05:30",
+  "updated": "2026-08-19T11:18:20.036+05:30",
   "labels": [
     "Manufacturing"
   ],
-  "bytes": 20273,
-  "sha256": "010ef926c42eb48bb73d7107d2276499c2f4a658e9833bc528860517b98fd7a9",
+  "bytes": 20272,
+  "sha256": "03b680168c822740561983090f41a7120b112924904b5d47472225dce8419405",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,19 @@
       "bytes": [
         19918,
         20273
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20273,
+        20272
       ],
       "url_changed": null,
       "markers_changed": null,

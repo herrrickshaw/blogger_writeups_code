@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-19T10:04:01+05:30",
+  "snapshot": "2026-08-19T11:40:30+05:30",
   "count": 173,
   "posts": {
     "1058853159205559121": {
@@ -514,13 +514,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-16T15:14:35.700+05:30",
+      "updated": "2026-08-19T11:16:37.365+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 83239,
-      "sha256": "45879fde2e9c2c628002bc91309d595596dd70536be196f06d55151b042a63d5",
+      "bytes": 82975,
+      "sha256": "1cd9bb3e0d7807284e27a8190f74853a41da3ed212c7793ffce2448dd63157a1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -532,7 +532,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.9",
+      "version": "2.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -697,6 +697,19 @@
           "bytes": [
             82884,
             83239
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.10",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            83239,
+            82975
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -884,12 +897,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
       "slug": "indias-tyre-waste-problem-and-crumb",
       "published": "2026-08-05T14:30:35.000+05:30",
-      "updated": "2026-08-16T15:16:07.645+05:30",
+      "updated": "2026-08-19T11:16:23.402+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 14126,
-      "sha256": "1130fd2b66ff0ca86a1ef90b8672e1bb0d7edde6b13d160deadc08ddda8712a2",
+      "bytes": 14215,
+      "sha256": "9eeb3698675ca91a31906bb6a68e00633b825671f63db2d93120632b418c642c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -901,7 +914,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.7",
+      "version": "1.0.8",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1009,16 +1022,29 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.8",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            14126,
+            14215
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
     "141021557520176306": {
       "id": "141021557520176306",
-      "title": "Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026",
+      "title": "Quarterly Reportage — 4,082 Scheme Announcements, 2017 to August 2026",
       "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
       "slug": "quarterly-reportage-4034-scheme",
       "published": "2026-08-04T13:58:09.000+05:30",
-      "updated": "2026-08-19T05:30:45.088+05:30",
+      "updated": "2026-08-19T11:17:11.454+05:30",
       "labels": [
         "Industrial Policy"
       ],
@@ -3473,13 +3499,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
       "slug": "the-rupee-fell-10-and-exports-grew-09",
       "published": "2026-08-04T06:34:23.000+05:30",
-      "updated": "2026-08-16T15:12:21.340+05:30",
+      "updated": "2026-08-19T11:17:44.183+05:30",
       "labels": [
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 36967,
-      "sha256": "12c0261e3ca358416cd871bed33acacb662a33792b29e63a2ae7ff9cb2f06b1a",
+      "bytes": 36993,
+      "sha256": "6c4c40250e576438ffa210d65a0af847fc4a3bbbe35e3dbcc230a9a0dccfcc7c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3491,7 +3517,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.10",
+      "version": "1.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3630,6 +3656,19 @@
           "bytes": [
             36612,
             36967
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.11",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            36967,
+            36993
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -3900,12 +3939,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html",
       "slug": "what-tepa-actually-opens-efta-goods",
       "published": "2026-08-14T12:27:50.000+05:30",
-      "updated": "2026-08-16T15:07:00.087+05:30",
+      "updated": "2026-08-19T11:17:59.768+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 28238,
-      "sha256": "b72b5c00a330e4eba467b6abc65445db0e860bf2493a9fdca15ff4215a94c4e2",
+      "bytes": 28211,
+      "sha256": "e01cef6428e70ffc74f4b8b74e66340298c0802c4aa96859d656f52db8029be5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3917,7 +3956,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3947,6 +3986,19 @@
           "bytes": [
             27883,
             28238
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            28238,
+            28211
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -4082,13 +4134,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-08-16T15:13:03.072+05:30",
+      "updated": "2026-08-19T11:16:51.425+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 45815,
-      "sha256": "c870576afa7ba37c2c4f021a47d81c954a4c4348bf6846e94fe5363d0a7c1a68",
+      "bytes": 46037,
+      "sha256": "caa6ff5d485b196ce1213b57199fd88c2f29b5f4469fba08a9c8f2ec55605bb3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4100,7 +4152,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.12",
+      "version": "1.0.13",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4260,6 +4312,19 @@
           "bytes": [
             45460,
             45815
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.13",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            45815,
+            46037
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -5867,14 +5932,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-16T15:14:48.402+05:30",
+      "updated": "2026-08-19T11:17:48.965+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 34238,
-      "sha256": "e2092ffe28ea2c1bb45e81bd45db04c1c555d918ac6738befe8acf388955bf14",
+      "bytes": 34928,
+      "sha256": "f5d98fc3e29c435df87b895b7ffe9f8f6e3883438799f496cc09783133497253",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5886,7 +5951,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6038,6 +6103,19 @@
           "bytes": [
             33883,
             34238
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34238,
+            34928
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -6554,13 +6632,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
       "slug": "nature-versus-nurture-indias-fertiliser",
       "published": "2026-08-02T21:05:10.000+05:30",
-      "updated": "2026-08-16T15:12:58.507+05:30",
+      "updated": "2026-08-19T11:18:35.939+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Gas & LNG"
       ],
-      "bytes": 78803,
-      "sha256": "5decbae6f8c8f3af0dafc8e72feea9a0fda4a23d62b4855734e266e0b6d555de",
+      "bytes": 78794,
+      "sha256": "c3e01de59999beec9aa702b811c1d9dacc4b836abfb3721a64e1b77ad5abe628",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6572,7 +6650,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.9",
+      "version": "3.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6745,6 +6823,19 @@
           "bytes": [
             78448,
             78803
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "3.0.10",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            78803,
+            78794
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -6940,7 +7031,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
       "slug": "indias-medical-device-trade-gap-and",
       "published": "2026-08-05T05:24:27.000+05:30",
-      "updated": "2026-08-16T15:11:29.549+05:30",
+      "updated": "2026-08-19T11:16:11.338+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
@@ -7255,12 +7346,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
       "slug": "indias-wholesale-prices-next-to",
       "published": "2026-08-08T07:55:38.000+05:30",
-      "updated": "2026-08-16T15:10:41.936+05:30",
+      "updated": "2026-08-19T11:18:13.716+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 40403,
-      "sha256": "62a89f5585b1d653464ac4720c32546aac7481140d50a24a109864646059ae37",
+      "bytes": 40449,
+      "sha256": "d5975517470ec9ca1be408fa946331d9755ff96fa227e001812368184adef31e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7272,7 +7363,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "6.0.11",
+      "version": "6.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7501,6 +7592,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "6.0.12",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            40403,
+            40449
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -7510,12 +7614,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
       "slug": "the-cluster-automotive-piece-left-out",
       "published": "2026-08-15T07:20:21.000+05:30",
-      "updated": "2026-08-16T15:06:38.010+05:30",
+      "updated": "2026-08-19T11:18:20.036+05:30",
       "labels": [
         "Manufacturing"
       ],
-      "bytes": 20273,
-      "sha256": "010ef926c42eb48bb73d7107d2276499c2f4a658e9833bc528860517b98fd7a9",
+      "bytes": 20272,
+      "sha256": "03b680168c822740561983090f41a7120b112924904b5d47472225dce8419405",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7527,7 +7631,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7557,6 +7661,19 @@
           "bytes": [
             19918,
             20273
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            20273,
+            20272
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -7951,13 +8068,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html",
       "slug": "tamil-nadus-gst-gap-108-economy-growing",
       "published": "2026-08-12T19:27:46.000+05:30",
-      "updated": "2026-08-16T15:08:10.252+05:30",
+      "updated": "2026-08-19T11:18:38.263+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 24226,
-      "sha256": "6852fa2c92f60201de0a5f25e2f9ef36a6fc65c7324fd7c1ef6e3eb02c5e39ad",
+      "bytes": 24232,
+      "sha256": "c7692914bff51012073386d9f7150828aa26f986ac18e32faf4aecf412871d22",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7969,7 +8086,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.4",
+      "version": "1.1.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8090,6 +8207,19 @@
           "bytes": [
             23871,
             24226
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.1.5",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24226,
+            24232
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -8667,12 +8797,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
       "slug": "the-most-discussed-schemes-in",
       "published": "2026-08-04T15:50:00.000+05:30",
-      "updated": "2026-08-19T05:28:35.722+05:30",
+      "updated": "2026-08-19T11:39:32.609+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 34227,
-      "sha256": "9192e1f529f207256faf7592376018b03f5c185504cdb2d1e9f4880e933a4a9c",
+      "bytes": 34480,
+      "sha256": "ee40303f2e73d4e6fedcfe5e184d316dad2ad5e3addcc37aef3b0f99bde4e4ec",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -8684,7 +8814,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8840,6 +8970,19 @@
           "bytes": [
             34316,
             34227
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34227,
+            34480
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -9875,12 +10018,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
       "slug": "india-forest-wildlife-crz-clearances",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-16T15:15:40.528+05:30",
+      "updated": "2026-08-19T11:18:53.543+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 22809,
-      "sha256": "3cf092ad63edcbad5b92f9c185cedb6e0b152064c09081f3ac65b33f06aae63b",
+      "bytes": 22815,
+      "sha256": "cb2c1fa31a4b1f2c59ee5d7cc921f9d69596cde2e400a41e70e53958becdc223",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9892,7 +10035,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.10",
+      "version": "1.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10036,6 +10179,19 @@
           "bytes": [
             22454,
             22809
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.11",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            22809,
+            22815
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -14058,13 +14214,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-08-16T15:07:51.620+05:30",
+      "updated": "2026-08-19T11:19:00.218+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
       "bytes": 29695,
-      "sha256": "f346a42c05efcd06dead1c1c6710a2904a480929dd0ed28cd5d4e4b99300d464",
+      "sha256": "81a32f53356527d602f185c29dc2697eb30bfc4a92fd7edde80cb56c06771519",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14076,7 +14232,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.6",
+      "version": "1.2.7",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14240,6 +14396,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.2.7",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            29695,
+            29695
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14249,13 +14418,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
       "slug": "guar-gum-indias-35-billion-export-peak",
       "published": "2026-08-16T11:44:39.000+05:30",
-      "updated": "2026-08-16T14:56:49.078+05:30",
+      "updated": "2026-08-19T11:19:23.322+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India Trade & Policy"
       ],
-      "bytes": 27929,
-      "sha256": "295e7ce43ff9dee6f9b03ee867e8eaf0f1ddc4223e50036025a11f437ba43d6a",
+      "bytes": 27875,
+      "sha256": "dc5e39cf2109c86e51509004eaf29702af45ff4d6c6bca64eb424210c1cec29c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14267,7 +14436,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.2",
+      "version": "4.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14336,6 +14505,19 @@
           "bytes": [
             27574,
             27929
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "4.0.3",
+          "date": "2026-08-19T11:40:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            27929,
+            27875
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -14947,7 +15129,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
       "slug": "050-is-its-own-category-diving-into",
       "published": "2026-08-11T15:32:23.000+05:30",
-      "updated": "2026-08-16T15:08:36.869+05:30",
+      "updated": "2026-08-19T11:17:03.339+05:30",
       "labels": [
         "Markets & Finance"
       ],
