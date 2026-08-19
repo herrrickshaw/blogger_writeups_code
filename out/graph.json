@@ -76,7 +76,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    }
   ]
  },
@@ -220,7 +220,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.408
+    "w": 0.407
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -231,7 +231,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.292
+    "w": 0.291
    },
    {
     "slug": "thermal-parity-is-dead-what-85-oil-and",
@@ -405,7 +405,7 @@
      "Carbon credits",
      "Ethanol"
     ],
-    "w": 1.037
+    "w": 1.036
    }
   ]
  },
@@ -1170,7 +1170,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.174
+    "w": 0.173
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -1180,7 +1180,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.174
+    "w": 0.173
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -1190,7 +1190,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.174
+    "w": 0.173
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -1220,7 +1220,7 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.237
+    "w": 0.236
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
@@ -1594,7 +1594,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -1602,7 +1602,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -1616,7 +1616,7 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.037
+    "w": 0.036
    }
   ]
  },
@@ -1641,7 +1641,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.195
+    "w": 0.194
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
@@ -1650,7 +1650,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.159
+    "w": 0.158
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -1693,7 +1693,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -1702,7 +1702,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -1711,7 +1711,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -1720,7 +1720,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    }
   ]
  },
@@ -1759,7 +1759,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.245
+    "w": 0.244
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -1770,7 +1770,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.233
+    "w": 0.232
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -1781,7 +1781,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.23
+    "w": 0.228
    }
   ]
  },
@@ -1830,6 +1830,52 @@
      "TradeStat"
     ],
     "w": 0.179
+   }
+  ]
+ },
+ "green-gold-what-spirulina-actually-is": {
+  "title": "Green Gold: What Spirulina Actually Is, and Isn't, Good For",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html",
+  "published": "2026-08-19",
+  "countries": [
+   "China",
+   "South Korea"
+  ],
+  "states": [
+   "Karnataka",
+   "Kerala"
+  ],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.536
+   },
+   {
+    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.286
+   },
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.036
+   },
+   {
+    "slug": "the-price-of-grain-msp-msv-and",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.036
    }
   ]
  },
@@ -2361,17 +2407,6 @@
     "w": 0.416
    },
    {
-    "slug": "fuel-pricing-to-crude-cost",
-    "shared": [
-     "Crude oil",
-     "Diesel",
-     "Ethanol",
-     "PPAC",
-     "Petrol"
-    ],
-    "w": 0.226
-   },
-   {
     "slug": "india-mineral-oil-hsn-ch27-trade",
     "shared": [
      "Crude oil",
@@ -2383,6 +2418,17 @@
     "w": 0.225
    },
    {
+    "slug": "fuel-pricing-to-crude-cost",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "Ethanol",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.225
+   },
+   {
     "slug": "state-by-state-who-actually-earns-from",
     "shared": [
      "Diesel",
@@ -2390,7 +2436,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.183
+    "w": 0.181
    }
   ]
  },
@@ -2633,28 +2679,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.537
+    "w": 0.536
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    }
   ]
  },
@@ -3604,28 +3650,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "would-more-sgst-fix-donor-state-problem",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.037
+    "w": 0.036
    }
   ]
  },
@@ -3647,28 +3693,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.537
+    "w": 0.536
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.537
+    "w": 0.536
    },
    {
     "slug": "not-drop-out-ethanols-zero-liquid",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "indias-ethanol-surplus-isnt-going-to",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    }
   ]
  },
@@ -3990,7 +4036,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.188
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -4000,7 +4046,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.188
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4010,7 +4056,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.188
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -4194,7 +4240,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.195
+    "w": 0.194
    },
    {
     "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
@@ -4203,7 +4249,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.159
+    "w": 0.158
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -4213,7 +4259,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.147
+    "w": 0.146
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -4265,7 +4311,7 @@
      "Carbon credits",
      "Ethanol"
     ],
-    "w": 1.037
+    "w": 1.036
    },
    {
     "slug": "greenhouse-emissions-reduction-and-cbam",
@@ -4280,14 +4326,14 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.537
+    "w": 0.536
    },
    {
     "slug": "not-drop-out-ethanols-zero-liquid",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.287
+    "w": 0.286
    }
   ]
  },
@@ -4328,7 +4374,7 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.237
+    "w": 0.236
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -4481,7 +4527,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.624
+    "w": 0.623
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -4493,14 +4539,14 @@
     "w": 0.373
    },
    {
-    "slug": "indias-ethanol-surplus-isnt-going-to",
+    "slug": "what-india-is-actually-paying-for",
     "shared": [
-     "Ethanol"
+     "TradeStat"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
-    "slug": "what-india-is-actually-paying-for",
+    "slug": "securitising-deficit-what-it-would",
     "shared": [
      "TradeStat"
     ],
@@ -4540,7 +4586,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "from-cane-to-code-digital-layer",
@@ -4548,7 +4594,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -4566,7 +4612,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.245
+    "w": 0.244
    }
   ]
  },
@@ -4765,7 +4811,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.233
+    "w": 0.232
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -4785,7 +4831,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.188
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -4795,7 +4841,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.188
    }
   ]
  },
@@ -4823,7 +4869,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.292
+    "w": 0.291
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4834,7 +4880,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.23
+    "w": 0.228
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
@@ -4843,7 +4889,7 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.218
+    "w": 0.216
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -4976,7 +5022,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "from-cane-to-code-digital-layer",
@@ -4984,7 +5030,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.287
+    "w": 0.286
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -4998,7 +5044,7 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.037
+    "w": 0.036
    }
   ]
  },
@@ -5021,7 +5067,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.112
+    "w": 0.11
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -5030,7 +5076,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.112
+    "w": 0.11
    },
    {
     "slug": "re-spinning-charkha",
@@ -5039,7 +5085,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.112
+    "w": 0.11
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -5048,7 +5094,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.112
+    "w": 0.11
    }
   ]
  },
@@ -5100,7 +5146,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.513
+    "w": 0.512
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -5111,7 +5157,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.408
+    "w": 0.407
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -5127,7 +5173,7 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.218
+    "w": 0.216
    }
   ]
  },
@@ -5321,7 +5367,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.513
+    "w": 0.512
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -5336,7 +5382,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.18
+    "w": 0.179
    },
    {
     "slug": "jai-kisan-jai-javan-fci-based-military",
@@ -6258,7 +6304,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -6267,7 +6313,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -6276,7 +6322,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -6285,7 +6331,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.131
+    "w": 0.129
    }
   ]
  }

@@ -6105,3 +6105,13 @@ scheduled sync
 **Added**
 
 - `green-gold-what-spirulina-actually-is` **v1.0.0** — Green Gold: What Spirulina Actually Is, and Isn't, Good For (27,666 bytes)
+
+## 2026-08-19T05:44:50+05:30 — 170 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.0 → 28.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 211,028 → 211,982 bytes (+954)
