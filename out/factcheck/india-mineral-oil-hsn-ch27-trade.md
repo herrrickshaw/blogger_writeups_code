@@ -9,26 +9,31 @@ Source: `posts/india-mineral-oil-hsn-ch27-trade.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9831, Requested 3935. Please try again in 8.83s. Need more tokens? Upgrade to Dev Tier today at https://]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims FY25-26 H1 crude imports were 121.1 MMT, but this figure is inconsistent with official PPAC Ready Reckoner data for H1 FY25-26, which reports ~110 MMT. The discrepancy suggests a miscalculation or outdated data. [confidence: high]
+- "121.1 MMT Crude imported (FY25-26 H1)" — The claim refers to the first half of FY2025-26 (H1), but the article later states "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" and "$55.9B Ch.27 exports FY25-26," implying full-year figures. The H1 crude import figure cannot be directly compared to full-year trade values without adjustment, and the article does not clarify this. [confidence: high]
 
-- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The import value of $203.4B for FY25-26 is likely overstated. PPAC data for FY25-26 (full year) shows total mineral-oil imports closer to $180B, with Chapter 27 imports at ~24% of total imports. The figure appears to conflate provisional H1 data with full-year estimates. [confidence: high]
+- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46" — The Kirit Parikh Committee report (2023) does not set a "floor" or "ceiling" price for APM gas tied to the Indian crude basket in this manner. The committee recommended a pricing formula based on the Indian crude basket but did not specify fixed price bands or annual increments as described. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article states that the Trade Parity Price (TPP) formula uses an 80:20 weight between Import Parity Price (IPP) and Export Parity Price (EPP), but this is misleading. The correct TPP formula is 0.80 × IPP + 0.20 × EPP, which does not imply an 80:20 ratio in the sense of a fixed trade split. The weights are applied to prices, not trade volumes, and the interpretation conflates pricing mechanics with trade flows. [confidence: high]
+- "Implied $/bbl from trade value÷quantity tracks the Indian basket within ±6% every year — the core consistency check." — While the implied $/bbl may track the Indian basket closely, this does not necessarily validate the entire pricing methodology or trade data accuracy. The ±6% range could reflect minor discrepancies in trade reporting, currency conversion, or timing differences rather than a true validation of the pricing formula or trade balance. The claim implies a stronger causal link between the consistency check and the reliability of the data than is justified. [confidence: medium]
 
-- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — While the Kirit Parikh Committee (2023) report does link APM gas pricing to the Indian crude basket, the claim that "one crude commodity anchors crude, LPG, MS, HSD and gas" is an overgeneralization. The pricing mechanisms for these products are distinct (e.g., LPG follows Saudi Aramco CP, MS/HSD follow Platts benchmarks), and the committee's recommendations do not imply a single anchor commodity for all. The interpretation incorrectly conflates pricing formulas with commodity linkages. [confidence: high]
+- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article states that the Trade Parity Price (TPP) formula is 0.80 × IPP + 0.20 × EPP, but then claims this equals an "80:20 IPP:EPP weight." This is a correct representation of the formula, but the phrasing could mislead readers into thinking this is a fixed or universally applied ratio, rather than a specific policy formula introduced in 2006. The interpretation error lies in presenting this as a general rule rather than a historical policy construct. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

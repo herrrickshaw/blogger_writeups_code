@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-04T15:50:00.000+05:30",
-  "updated": "2026-08-16T15:12:01.383+05:30",
+  "updated": "2026-08-19T11:39:32.609+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 34316,
-  "sha256": "f4a7a2b65ff513b695ca979a47acf5e1caf14bbd04c3e75af396d74674fb264f",
+  "bytes": 34480,
+  "sha256": "ee40303f2e73d4e6fedcfe5e184d316dad2ad5e3addcc37aef3b0f99bde4e4ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "1.0.12",
   "version_history": [
     {
       "version": "1.0.0",
@@ -164,6 +164,32 @@
       "bytes": [
         33961,
         34316
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T05:31:50+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34316,
+        34227
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34227,
+        34480
       ],
       "url_changed": null,
       "markers_changed": null,

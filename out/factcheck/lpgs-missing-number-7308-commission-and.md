@@ -16,15 +16,20 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98925, Requested 3173. Please try again in 30m12.671999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 8 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+
+- "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023" — The article cites a commission rate effective from 4 October 2023, but the article itself is dated 8 August 2026. This creates a timeline inconsistency, as the commission rate would have been in effect for nearly 3 years by the article's publication date. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The claim suggests LPG's higher margin (7.76%) directly translates to "half the MDR exposure" (12.9% vs. 25.8% at 1% MDR), but this conflates margin size with MDR impact. The MDR's "bite" depends on the fee rate (e.g., 0.25%, 0.30%, 1.00%) applied to the margin, not the margin itself. The comparison is apples-to-oranges because it compares absolute margin percentages to MDR-induced percentage losses. [confidence: high]
+- "The LPG counter turns out to sit nowhere near fuel on the leverage curve — it is nearly twice as well protected." — The article claims LPG is "nearly twice as well protected" from MDR exposure compared to fuel based on the margin percentages (7.76% for LPG vs. ~3.87% for petrol/diesel). However, the leverage curve comparison (Exhibit 2) shows that at a 1% MDR, LPG loses 12.9% of its margin, while petrol/diesel loses 25.8%. While LPG is less exposed, the claim that it is "nearly twice as well protected" is an oversimplification because the protection is not linear (e.g., 12.9% vs. 25.8% is roughly half the loss, not "twice as protected"). [confidence: high]
+
+- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay." — The article calculates the commission pool as ₹3,642 crore and compares it to the PMUY subsidy outlay of ₹12,000 crore, concluding it is "about 30%." However, this assumes all PMUY refills are subsidized at ₹300/cylinder (₹12,000 crore / ₹300 = 40 crore cylinders), but the article itself states PMUY refills are ~49.8 crore cylinders. This double-counts the subsidy, as the ₹12,000 crore outlay likely covers all refills, not just the 40 crore implied by the subsidy rate. The correct comparison would require clarifying whether the subsidy is per cylinder or total. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

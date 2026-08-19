@@ -16,19 +16,20 @@ Source: `posts/one-gallon-five-numbers-how-gcam-fits.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98882, Requested 4134. Please try again in 43m25.824s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026" — The article claims a revision date of 13 August 2026, which is in the future relative to the current date (June 2025). This is likely a typographical error or misstatement. [confidence: high]
+- "Revised 13 August 2026 · v1.0.0" — The revision date is in the future relative to the current date (2025), making it factually incorrect or premature. [confidence: high]
 
-- "1 tonne CO₂e avoided = 1 CBIO, Brazil's tradable credit" — While this is a common simplification, the actual RenovaBio program in Brazil defines 1 CBIO as equivalent to 1 metric tonne of CO₂e avoided *relative to a fossil fuel baseline*, not an absolute value. The claim oversimplifies the mechanism by omitting the baseline comparison. [confidence: high]
+- "1 tonne CO₂e avoided = 1 CBIO, Brazil's tradable credit" — While this is a common simplification, the actual RenovaBio program defines 1 CBIO as equivalent to 1 metric tonne of CO₂e avoided *relative to a fossil fuel baseline*, not absolute avoidance. The claim oversimplifies the mechanism by omitting the baseline comparison. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine." — While this claim is factually correct, it is presented as if it undermines GCAM's utility in biofuel carbon accounting. However, the article later clarifies that GCAM's role is as an independent cross-check on narrower tools, which is a valid and useful function. The phrasing could misleadingly suggest GCAM is irrelevant to compliance systems, when its role is supplementary. [confidence: medium]
+- "GCAM treats raw biofuel — corn for ethanol, wood pellets, whatever the feedstock — as removing carbon from the atmosphere at the point of cultivation, and pays an implicit subsidy for that removal, equal to the model's own carbon price." — While GCAM's accounting mechanism is internally consistent, the claim that this "removes carbon from the atmosphere" is an interpretation that conflates *accounting* with *actual atmospheric removal*. The model's "subsidy" is a notional price signal, not a real-world carbon removal, and the carbon is only "removed" in the model's accounting framework, not in reality. The reasoning gap is equating model accounting with physical reality. [confidence: high]
 
-- "Only bioenergy paired with carbon capture and storage (BECCS) gets to keep the original subsidy, because that carbon never comes back out." — The reasoning here conflates GCAM's internal accounting mechanism (where carbon subsidies are repaid upon combustion unless sequestered) with real-world carbon credit systems. In practice, real-world systems (e.g., CBIO, RINs) do not operate on this "subsidy repayment" logic; they rely on lifecycle emissions accounting. The claim implies a direct parallel between GCAM's internal accounting and real compliance systems, which is not supported. [confidence: high]
+- "Independent life-cycle work on Brazilian sugarcane ethanol, run through the GREET model using data actually submitted under RenovaBio, put its carbon intensity at 35.2 gCO₂e/MJ — a 62% reduction against US gasoline blendstock, before land-use change is even added — giving a real, checkable cross-system comparison point against the corn-ethanol land-use-change spread from Section 2." — The claim implies that the 35.2 gCO₂e/MJ figure is directly comparable to the corn-ethanol land-use-change estimates (e.g., −0.95 to 41 gCO₂e/MJ) from the EPA model comparison, but these are apples-to-oranges comparisons. The sugarcane ethanol figure is a *full lifecycle carbon intensity* (including land-use change), while the corn-ethanol spread is *only the land-use-change component* of lifecycle emissions. The reasoning gap is comparing a total value to a partial component without acknowledging the difference. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

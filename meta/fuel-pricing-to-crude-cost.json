@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-08-16T15:11:22.968+05:30",
+  "updated": "2026-08-19T11:51:52.951+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 80205,
-  "sha256": "d342c6792bc02e8058b3fd2b3918dc37f6734f60dcc3f17a050b1c2cc92ce292",
+  "bytes": 80211,
+  "sha256": "cde1f0a60a9d714cdab00dc4d68b19c86fd2513526ba0ed3993449c2024ad96a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "bytes": [
         79850,
         80205
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        80205,
+        80211
       ],
       "url_changed": null,
       "markers_changed": null,

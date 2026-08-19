@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-08-16T15:06:34.715+05:30",
+  "updated": "2026-08-19T11:48:48.393+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "India Trade & Policy"
   ],
-  "bytes": 31600,
-  "sha256": "451a0b1cf4392ba25c89f50c31afc05ef87064bec99c64a469b4f4cb42b9dd20",
+  "bytes": 31607,
+  "sha256": "409a2ddc62e007001168f3f25a1803d91f9410da17e0453819d8ebd57e40d794",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -78,6 +78,19 @@
       "bytes": [
         31245,
         31600
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        31600,
+        31607
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-08-16T15:16:11.750+05:30",
+  "updated": "2026-08-19T11:46:03.441+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 10983,
-  "sha256": "82839618cb034e7a1da7be135d25160e93402923d4d898b8ba20949dfbd677a0",
+  "bytes": 11258,
+  "sha256": "dea9e6888a9a213ddd47363cead287861a95f9b59cbf4072d49f380c4c1a7d40",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -99,6 +99,19 @@
       "bytes": [
         10628,
         10983
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        10983,
+        11258
       ],
       "url_changed": null,
       "markers_changed": null,

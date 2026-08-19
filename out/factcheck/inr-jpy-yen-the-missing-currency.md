@@ -16,19 +16,20 @@ Source: `posts/inr-jpy-yen-the-missing-currency.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98957, Requested 3229. Please try again in 31m28.704s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like" published on **14 August 2026** — The date is impossible as the current date is before this, and no future-dated article can be published in advance. [confidence: high]
+- "14 August 2026" (date in the article header) — The article is dated in the future relative to the current date (2025), which is impossible for a published piece. [confidence: high]
 
-- "an estimated $4 trillion in global yen carry positions began reversing" — The BIS Bulletin No. 90 cited does not provide a specific dollar estimate of $4 trillion for the July 2024 carry-trade unwind; this figure appears to be an extrapolation or misinterpretation of the BIS analysis. [confidence: high]
+- "REC's EuroYen bond priced at 1.76–2.20% in January 2024" — The referenced bond pricing is not verifiable in the cited sources (Yahoo Finance, BIS Bulletin No. 90, or Wellington Management's account) and appears to be a specific claim without direct evidence in the provided text. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years. JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — While the data shows JPY/INR fell 10.3% over five years (implying INR strengthened), this does not by itself explain why yen debt was "such a good trade" for Indian borrowers. The article conflates currency movement with borrowing cost advantages without demonstrating that the timing of borrowing aligned with favorable exchange rate movements or that the principal repayment benefit outweighed interest costs or volatility risks. [confidence: high]
+- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years." — The claim conflates the 5-year change (-10.3% for JPY/INR) with the broader trend of "spending real time below 100" in the indexed chart. The 5-year change is negative (rupee strengthened), but the indexed chart shows JPY/INR below 100 for the entire period, meaning the rupee was stronger than the base period (Aug 2016) throughout. The interpretation incorrectly implies that the rupee was weakening against other currencies "by double digits" over five years, which is not supported by the data (e.g., USD/INR is +26.7% over five years, not double digits in the sense of >100%). [confidence: high]
 
-- "Funding currencies have already started rotating away from the yen since. Reporting from 2026 describes investors diversifying carry-trade funding out of JPY and into the euro and Swiss franc..." — The claim that investors are rotating away from JPY into EUR/CHF in 2026 is presented as a factual trend based on "Reporting from 2026," but no verifiable source is provided within the article text, and the claim extrapolates from a single data point (yen volatility) to a broad behavioral shift without sufficient evidence or context. [confidence: medium]
+- "The yen appreciated 7.7% against the rupee in the nine trading days between 29 July and 5 August 2024 alone." — The claim uses a percentage change direction that is ambiguous without specifying whether it is JPY/INR or INR/JPY. The article later states "Positive = rupee weakened against that currency," implying the table uses JPY/INR (rupees per yen). A 7.7% appreciation of the yen against the rupee would mean JPY/INR fell by 7.7%, but the article does not clarify the direction of the percentage change in the text, leading to potential confusion in interpretation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

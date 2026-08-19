@@ -9,32 +9,33 @@ Source: `posts/india-grows-soybean-exports-meal-leads.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "India exported around 21 lakh tonnes of soybean meal in 2023-24, up 16% on the year" — This claim cannot be verified against the provided sources, and the article does not specify the exact source for this data. [confidence: medium]
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes" — The article does not provide a direct source for this specific estimate, and it is unclear if this is based on SOPA's compiled tables or another source. [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "A country growing this much soybean is, at the same time, actively lowering barriers to import more soybean oil — the crush economics, not the farm-gate harvest, are what actually govern the trade balance" — This statement implies a causal relationship between the country's soybean production and its decision to lower import barriers for soybean oil, but it does not provide evidence to support this claim. The decision to lower import barriers may be driven by other factors, such as domestic demand for edible oil or trade agreements. [confidence: high]
-- "India's roughly 150 soybean processing units are overwhelmingly built for crush-to-meal-and-oil, not food-grade protein extraction" — This statement is used to support the conclusion that India's domestic soy-food sector is underdeveloped, but it does not account for the possibility that some of these processing units may be capable of producing food-grade protein products, or that new units may be built to meet growing demand. [confidence: medium]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is one of the world's largest soybean growers by area" — This claim is not supported by the data presented in the article. The article itself states that Madhya Pradesh and Maharashtra alone account for roughly 93-97 lakh hectares of soybean cultivation, but it does not provide a global comparison to confirm India's ranking. Without global context, this claim cannot be verified as factually accurate. [confidence: medium]
+- "India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet" (headline) — The headline implies India barely produces tofu, but the article later notes that soya chunks/nuggets/granules (TVP) are a long-standing, mass-market staple in India, led by brands like Nutrela. This contradicts the headline's framing of India's soy-food industry as minimal. [confidence: high]
 
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes" — The article cites SOPA estimates for 2025-26, but the prior season's figure (125.82 lakh tonnes) is not explicitly sourced or verified in the text. The article mentions 2024-25 final estimates for MP and Maharashtra but does not provide a national total for that season to support the 16% decline claim. [confidence: medium]
+- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes." (text) — The article cites SOPA estimates for 2025-26 output but does not provide a clear source or verification for this specific figure. The cited "Global Agriculture reporting" is vague, and SOPA's own tables do not explicitly list a 2025-26 estimate in the provided data. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry" — While lecithin is indeed a byproduct of oil refining, the article implies that this alone explains India's global leadership in lecithin exports. However, it does not address other potential factors such as India's crushing capacity, export infrastructure, or trade policies that could contribute to its dominance in lecithin exports. The claim oversimplifies the causal relationship by attributing leadership solely to lecithin being a byproduct. [confidence: high]
+- "A country growing this much soybean is, at the same time, actively lowering barriers to import more soybean oil — the crush economics, not the farm-gate harvest, are what actually govern the trade balance." (text) — While the claim about crush economics influencing trade balance is plausible, the article does not provide evidence linking the specific import duty cut (from 20% to 10% in May 2025) to the trade balance outcome. The duty cut could have other objectives (e.g., controlling retail prices), and the article does not establish causality between the policy change and the trade balance. [confidence: high]
 
-- "A crushed soybean splits, roughly, into about 80% meal and 18-20% oil by weight — which is why the export story and the domestic-shortage story point in opposite directions for the same crop" — The article uses the split ratio (80% meal, 18-20% oil) to explain why India exports meal while importing oil. However, this interpretation ignores other critical factors such as global demand for soymeal, domestic crushing capacity, and trade policies (e.g., export taxes or import duties) that influence these trade flows. The ratio alone does not causally explain the trade dynamics. [confidence: high]
+- "Lecithin didn't require India to build a new industry. It required India to keep the one it already had for meal and oil, and sell what used to be a processing waste stream." (text) — While lecithin is indeed a byproduct of oil refining, the claim that India "leads the world" in lecithin exports (8,582 shipments vs. Argentina's 1,499 and China's 586) is presented as a direct result of repurposing waste. However, the article does not explain whether India's leadership is due to processing capacity, export infrastructure, or other factors like global demand shifts. The causal link between India's existing infrastructure and its export dominance is implied but not substantiated. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,19 +16,20 @@ Source: `posts/priority-trade-partners-by-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98799, Requested 2294. Please try again in 15m44.352s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of July 2026 (the article's retrieval date). The correct fiscal year at the time of writing would be 2024-25 or earlier. [confidence: high]
+- "China supplies 8 of India's 12 fastest-growing high-value imports." — This claim is unverifiable as stated because the article does not provide the specific list of the 12 fastest-growing/highest-value import chapters or their corresponding growth metrics. Without this baseline data, the claim cannot be fact-checked. [confidence: medium]
 
-- "PLI 1.2 ... launched November 2025" — The PLI 1.2 for Specialty Steel was not launched in November 2025, as this date is in the future relative to the article's retrieval date (18 July 2026). The correct timing would be prior to July 2026. [confidence: high]
+- "PLI schemes cover the import value of only 2 of the 12 with a strong scheme match (3 more have partial coverage; 7 have none)." — The article does not provide the exact import values or the methodology used to determine "strong scheme match" or "partial coverage." This makes the claim unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "China supplies 8 of India's 12 fastest-growing high-value imports. PLI schemes cover the import value of only 2 of the 12 with a strong scheme match (3 more have partial coverage; 7 have none)." — The claim conflates "coverage" of import value with the presence of PLI schemes targeting specific HS chapters. The PLI schemes may not be designed to cover entire import chapters but rather specific products or sub-sectors within those chapters. The interpretation incorrectly assumes that PLI coverage should match the entire import value of a chapter, which is not its intended purpose. [confidence: high]
+- "AC compressors are classified under HS84 (machinery), not HS85 — so White Goods PLI is one of the few concrete levers actually touching this repo's #4 growth chapter (machinery & mechanical appliances, +68.8%, 39.8% China-sourced)." — While the classification detail is correct, the conclusion that White Goods PLI "touches" the machinery chapter is an overreach. The PLI scheme targets specific components (e.g., compressors) but does not cover the broader machinery & mechanical appliances chapter (HS84), which includes many other products unrelated to white goods. The scheme's impact is limited to a subset of inputs, not the entire chapter. [confidence: high]
 
-- "The USA is the most diversified major partner — present in 9 of 12 sectors but never dominant in any single one, which is a structurally different (and lower-risk) kind of relationship than China's." — While the USA's presence across multiple sectors is noted, the claim that this makes it a "lower-risk" relationship than China's is an interpretation unsupported by the data presented. The article does not provide any risk metrics or criteria to justify this causal claim about risk levels. [confidence: medium]
+- "PLI Specialty Steel ... directly targets HS72 (iron & steel, +25.2% growth, Korea/Indonesia/Japan/China as the top current suppliers) — a stronger, more recent lever than this repo's earlier 'Partial' rating reflected." — The claim implies that the PLI Specialty Steel scheme directly reduces imports of HS72 products, but the scheme's stated goal is to increase domestic production of specialty steel (to reduce imports *significantly* over time). The article does not provide evidence that the scheme has already led to import reductions or that its impact is stronger than previously assessed. The causal link between the scheme and import reduction is speculative. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

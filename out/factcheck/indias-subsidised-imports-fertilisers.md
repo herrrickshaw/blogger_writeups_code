@@ -16,19 +16,20 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99040, Requested 6115. Please try again in 1h14m13.92s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where the approval occurs before the data cutoff, which is impossible. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The article states NIPU-2026 was approved on 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where an approval cannot occur after the data cutoff date. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore. However, the total subsidy cost for fertilizers is stated as ₹1.5–1.7 lakh crore, which suggests the urea subsidy alone cannot exceed the total subsidy range. This is a double-counting error. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY2025-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore, but the range given is ₹1.5–1.7 lakh crore. This suggests a possible miscalculation or rounding inconsistency in the figures. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Plastics ($22.2bn) growing +0.54% with ZERO scheme — the standout gap in the analysis. No PLI, no mission, minimal tariff." — The article identifies plastics as a gap with no scheme and minimal tariff, but then uses this to imply it is a major import-substitution opportunity. However, the flat growth (+0.54%) suggests demand is stable, and the lack of subsidy may not be a problem if domestic production is sufficient or demand is met through other means. The conclusion that this is a "standout gap" is not supported by the data showing minimal growth. [confidence: high]
+- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that 81.6% of India's import bill (FY2025-26) is accounted for by the 12 subsidised categories, but it also states that several of these categories (e.g., Gems & Jewellery, Plastics, Inorganic Chemicals, Machinery) have no identified subsidy or policy protection. This creates a contradiction where non-subsidised categories are included in the "subsidised" total, leading to an apples-to-oranges comparison. [confidence: high]
 
-- "Gems/Jewelry ($109.4bn) up +23% — not a subsidy target — it's re-export flow. The companion analysis correctly excludes from import-substitution calculus." — The article correctly notes that gems and jewelry imports are re-export flows and not consumption imports, but then uses this to dismiss the entire category as irrelevant to import substitution. However, the sheer size of the imports ($109.4bn) and their growth (+23%) still represent a significant trade flow that could impact the trade deficit, even if not directly substitutable. The interpretation that this category is irrelevant to trade policy is an overgeneralization. [confidence: medium]
+- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — The article attributes the fall in mineral fuels imports to lower global crude prices, implying a causal relationship. However, it does not provide evidence or data to confirm that the price decline was the sole or primary driver of the import reduction, nor does it rule out other contributing factors (e.g., demand-side changes, policy shifts). This is an unsupported causal claim. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

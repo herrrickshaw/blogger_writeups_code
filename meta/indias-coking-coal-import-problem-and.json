@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-08-16T15:07:20.256+05:30",
+  "updated": "2026-08-19T11:43:05.799+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 46267,
-  "sha256": "469cb99f4e229b613630422c577dff2e0cf16938ef96ae342d05c0892724122c",
+  "bytes": 46092,
+  "sha256": "b867a694d0337a91601c48fd726ee256a70eee4de2c2f31d98ae6496e35a8fca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,19 @@
       "bytes": [
         45912,
         46267
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        46267,
+        46092
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-08-16T15:09:18.088+05:30",
+  "updated": "2026-08-19T11:51:58.232+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 25855,
-  "sha256": "991d693936c092d4a44dbe5f4e0d931171c112241495896f7bbe16b1d976b380",
+  "bytes": 25941,
+  "sha256": "a95b48198b734ce8d6aee18ebf6a9d07137af31eb09d3d948990b8f8f0bb1d5f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "bytes": [
         25500,
         25855
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25855,
+        25941
       ],
       "url_changed": null,
       "markers_changed": null,

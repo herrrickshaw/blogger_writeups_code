@@ -16,19 +16,20 @@ Source: `posts/tamil-nadus-wind-potential-according-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99879, Requested 3401. Please try again in 47m13.92s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Energy & Fuels · India Trade & Policy · 14 August 2026" — The date is impossible (August 2026 is in the future as of the current date), and the category "India Trade & Policy" is not a standard section for an economics blog focused on energy/renewables. [confidence: high]
+- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future relative to the article's publication date of 14 August 2026, making the claim unverifiable and likely incorrect. [confidence: high]
 
-- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The source cited (RenewableAffairs.com's 2025 state-ranking compilation) is not provided, and the date (October 2025) is in the future relative to the article's publication date (which is incorrectly listed as 14 August 2026). [confidence: medium]
+- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is sourced from "recent coverage" rather than a primary NIWE document. This introduces uncertainty about the exact figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The calculation assumes that the 33,799 MW figure (based on a 100m hub height) is directly comparable to the installed capacity (which uses modern turbines at higher hub heights). This is an apples-to-oranges comparison because the potential figure understates the true installable capacity at modern hub heights (e.g., 120m or 150m), as acknowledged later in the article. The "two-thirds unbuilt" conclusion is misleading without adjusting for hub height. [confidence: high]
+- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The calculation assumes that the 33,799 MW figure (based on a 100m hub height) is directly comparable to the installed capacity (which uses modern, taller turbines). However, the article later clarifies that the true installable potential at modern hub heights (120m–150m) is likely much higher, making the 35% utilisation figure misleading. The comparison is apples-to-oranges. [confidence: high]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article conflates "unused headroom" with unbuilt capacity, ignoring that the NIWE's 100m-hub-height estimate is not the true potential at modern hub heights. The claim implies that Tamil Nadu could theoretically install more wind capacity based on the 33,799 MW figure, but this ignores the fact that the same land could yield significantly more capacity at taller hub heights. The "headroom" is overstated. [confidence: high]
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The claim implies that the "unused headroom" is directly tied to the 35% utilisation figure, but this ignores the fact that the NIWE's 100m-hub-height potential is a conservative estimate. The true unused potential is likely higher, and the conclusion overstates the certainty of the headroom based on the flawed comparison. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

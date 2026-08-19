@@ -9,26 +9,31 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97835, Requested 3208. Please try again in 15m1.152s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims 3.39 lakh jobs were created, but the table below shows "Jobs created (vs. 2.5 lakh target) | 3.39 lakh." The discrepancy in units (3.39L vs. 3.39 lakh) is inconsistent, as "L" typically denotes 100,000, while "lakh" is 100,000. This suggests a potential typographical or numerical error in the claim. [confidence: high]
+- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article states "3.39 lakh" (339,000) jobs created, but the table later clarifies this as "3.39 lakh" (339,000) vs. a 2.5 lakh (250,000) target. The phrasing "3.39L" is inconsistent with the rest of the text (which uses "lakh" spelled out) and could be misinterpreted as 339,000 vs. 250,000, which is correct, but the inconsistency in notation is a minor factual inconsistency in presentation. [confidence: high]
 
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but notes it could not trace it to a primary NABARD or MoFPI study with a stated methodology. Without a verifiable source, this claim lacks credibility. [confidence: high]
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but does not provide a primary source or methodology. Without verification from NABARD or MoFPI, this cannot be confirmed as accurate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Sales of PLI-supported products nearly doubled, from ₹58,758 crore in FY2019-20 to ₹1,08,854 crore in FY2025-26, and export sales from the scheme's beneficiaries have grown at a 13.23% compound annual rate since 2019-20." — While the sales figures are correct, the article implies a causal link between the PLI scheme and this growth without providing evidence that the scheme directly caused the increase. The growth could be due to other factors like general industry trends, global demand, or other policies. [confidence: high]
+- "India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline." — The article claims the PLI scheme "overshot its own target" by creating 3.39 lakh jobs against a 2.5 lakh target. However, the target is for 2026 (the deadline year), and the data is as of June 2026. The claim implies the target was for the entire scheme duration, but the target may have been set for the cumulative period up to 2026-27, not a specific year. The overshooting could be due to early acceleration rather than exceeding the final cumulative target. The reasoning gap is whether the 2.5 lakh target was for the entire period or an annual target. [confidence: medium]
 
-- "Under PMKSY, 399 cold-chain projects have been approved to date. Against a stated annual loss of ₹92,651 crore and a 3.5-million-tonne capacity gap, a single year's PMKSY allocation of ₹915 crore is not sized to close it — it is sized to keep adding to it more slowly than the sector is growing around it." — The article correctly notes the scale of the cold-chain gap but incorrectly implies that the ₹915 crore allocation is insufficient to make any meaningful progress. The allocation may be part of a multi-year plan, and its impact should be evaluated over time rather than as a one-time fix. [confidence: medium]
+- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — While the percentage increase is correct, the conclusion that India is exporting "less raw commodity" is an overinterpretation. The rise in processed food's share does not necessarily mean absolute declines in raw commodity exports; raw commodity exports could still be growing in absolute terms but at a slower rate than processed food exports. The reasoning gap is conflating a rising share with an absolute decline in raw commodity exports. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

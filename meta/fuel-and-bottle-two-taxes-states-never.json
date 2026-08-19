@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-08-16T15:07:51.620+05:30",
+  "updated": "2026-08-19T11:19:00.218+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
   "bytes": 29695,
-  "sha256": "f346a42c05efcd06dead1c1c6710a2904a480929dd0ed28cd5d4e4b99300d464",
+  "sha256": "81a32f53356527d602f185c29dc2697eb30bfc4a92fd7edde80cb56c06771519",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.6",
+  "version": "1.2.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -181,6 +181,19 @@
       "reason": "visible text identical; only markup/styling changed",
       "bytes": [
         29340,
+        29695
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        29695,
         29695
       ],
       "url_changed": null,

@@ -16,19 +16,20 @@ Source: `posts/soybean-mp-maharashtra-tofu-lecithin-protein.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 4314. Please try again in 1h0m49.536s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is one of the world's largest soybean growers by area" — This claim is not necessarily incorrect, but it lacks precision. The article does not provide a global ranking or comparison to confirm this statement. Without a specific reference (e.g., "India is the 4th largest soybean grower by area"), the claim is unverifiable. [confidence: medium]
+- "India is one of the world's largest soybean growers by area" — This claim is outdated or incorrect. While India is a major soybean producer, it is not among the *largest by area* globally. The top soybean-growing countries by area are the U.S., Brazil, Argentina, and China, with India ranking lower. [confidence: high]
 
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes" — The article cites SOPA estimates for 2025-26, but the "oil year" is not clearly defined. Soybean production is typically reported for agricultural years (e.g., Kharif or Rabi), not "oil years," which could lead to confusion or misinterpretation. [confidence: high]
+- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes." — The article cites SOPA estimates for 2025-26, but the 2024-25 final production figures (55.40 lakh tonnes for MP and 50.17 lakh tonnes for Maharashtra) already sum to 105.57 lakh tonnes, which is lower than the claimed 125.82 lakh tonnes for the prior season. This inconsistency suggests a miscalculation or misattribution. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A country growing this much soybean is, at the same time, actively lowering barriers to import more soybean oil — the crush economics, not the farm-gate harvest, are what actually govern the trade balance." — While the claim about crush economics influencing trade balance is plausible, the article does not provide evidence linking the import duty reduction (May 2025) to the trade balance or crush economics. The duty cut could be motivated by other factors (e.g., retail price control), and its impact on trade balance is not demonstrated. [confidence: medium]
+- "The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry." — While lecithin is indeed a byproduct of oil refining, the claim that this alone explains India's global leadership in lecithin exports is an oversimplification. India's dominance in lecithin exports is likely also influenced by its large-scale crushing infrastructure, cost advantages, and export market access, not just the fact that it is a byproduct. The article does not provide evidence to support the causal claim that the byproduct status is the *primary* reason for leadership. [confidence: medium]
 
-- "Lecithin didn't require India to build a new industry. It required India to keep the one it already had for meal and oil, and sell what used to be a processing waste stream." — While lecithin is indeed a byproduct of oil refining, the claim that India "leads the world" in lecithin exports (8,582 shipments) is not directly tied to the argument that it didn't require a new industry. The leadership in exports could be due to other factors (e.g., global demand, pricing, or processing efficiency), not just the existence of crushing infrastructure. The reasoning conflates correlation with causation. [confidence: high]
+- "This is the same maize-for-ethanol pull this blog has covered from the ethanol side; here it shows up as an oilseed-acreage problem instead." — The article links the shift from soybean to maize to ethanol demand but does not provide data or analysis to quantify the extent to which ethanol policy (rather than other factors like price weakness or agronomic conditions) is driving this acreage shift. The causal claim is asserted without evidence of the relative contribution of ethanol demand versus other factors. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

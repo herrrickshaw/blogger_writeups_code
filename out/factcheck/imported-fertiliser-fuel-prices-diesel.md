@@ -20,25 +20,20 @@ Source: `posts/imported-fertiliser-fuel-prices-diesel.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "WPI is published by DPIIT, not MoSPI" — This claim may be outdated or incorrect as the article does not provide a specific date or context for this statement, and the current publication status of WPI could have changed [confidence: medium].
-- None found for other specific factual errors, but the article's data and claims are based on specific datasets and timeframes (e.g., 2011-12 base series for WPI, 2012 base for CPI), which may not reflect the most current information or could be subject to revision [confidence: low].
-
-INTERPRETATION ERRORS:
-- "diesel (HSD) is up 79.0% , moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation r = 0.92 ) — diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation" — This interpretation may overlook the potential for causation in the relationship between diesel prices and WPI, even if diesel is a component of WPI, as the high correlation could also reflect underlying economic factors driving both diesel prices and WPI [confidence: medium].
-- "The one strong number here — diesel vs. WPI headline, r = 0.92 — is closer to a mechanical fact than a discovery, since HSD is itself inside the WPI fuel basket" — This statement may downplay the significance of the correlation by attributing it solely to the mechanical relationship between diesel and WPI, without fully considering the economic implications of such a strong correlation [confidence: medium].
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "CPI (base 2012) only covers 2011–2025" — The article incorrectly states the CPI base year coverage. The CPI base 2012 series in India typically covers 2012–2025 (not 2011–2025), as the base year is the starting point for the index. [confidence: high]
+- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a longer period (e.g., 2012–2026). The claim incorrectly restricts the coverage to 2011–2025. [confidence: high]
 
-- "WPI series use the April value of each year as an annual anchor (FY2012 = April 2012, etc.)" — While the article claims this methodology is used, the WPI (base 2011-12) series is typically published as monthly averages or end-of-month values, not anchored to April values alone. The April-anchor method is unconventional for WPI reporting. [confidence: high]
+- "WPI series use the April value of each year as an annual anchor (FY2012 = April 2012, etc.) rather than a full monthly series or FY average" — While the article states this, the WPI (base 2011-12) series is published monthly, and the April anchor is a methodological choice for consistency, not a limitation of the series itself. The claim implies the series is inherently limited, which is misleading. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Diesel (HSD) is up 79.0% ... moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation r = 0.92)" — The claim implies a causal or explanatory relationship between diesel prices and WPI headline inflation, but the high correlation (r = 0.92) is largely mechanical because HSD is a component of the WPI "Fuel & Power" group (weight 13.15%). This is an accounting identity, not evidence of pass-through or causation. [confidence: high]
+- "Diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation." — While the article acknowledges the mechanical relationship, it does not adequately address the fact that the high correlation (r = 0.92) is expected due to diesel's inclusion in the WPI fuel basket, making the claim about "causation" a misinterpretation of the statistical relationship. The article should clarify that the correlation is largely tautological rather than economically meaningful. [confidence: high]
 
-- "Edible-oil inflation is the one food category with near one-to-one pass-through from global prices" — While the article cites Mishra and Roy (2011-12) to support this claim, the interpretation conflates correlation with causation. The near one-to-one pass-through is likely due to India's heavy reliance on edible oil imports (HS15) and minimal trade barriers, but the article does not explicitly acknowledge that this is a policy-driven outcome (e.g., import dependence) rather than an inherent economic property of edible oils. The claim reads as a general statement about all food categories, which is misleading. [confidence: medium]
+- "Every other pair — fertiliser or fuel input costs against CPI headline, CPI food, or CPI oils & fats — comes out weak or inconsistent (r between -0.52 and +0.29) at this annual, year-on-year-growth resolution. That is not evidence the pass-through described in the literature doesn't exist — it's evidence that annual data is the wrong resolution to see it in." — While the article correctly notes that annual data may obscure short-term pass-through effects, it does not sufficiently emphasize that the weak correlations could also reflect other dominant factors (e.g., policy interventions, supply shocks) that annual averaging fails to capture. The claim implies the only issue is data resolution, but the weak correlations may also reflect the absence of pass-through due to subsidies or other distortions. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

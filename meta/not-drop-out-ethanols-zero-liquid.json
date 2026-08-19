@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-08-18T04:41:14.676+05:30",
+  "updated": "2026-08-19T11:44:04.433+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 43568,
-  "sha256": "89da2d1839b2d0de81956c8fb47d1d09c324d2de2a5e7a18c2e23d32c13a8482",
+  "bytes": 43576,
+  "sha256": "4e785d39178bf721718a1b6c5d0e1dcf66dd5891f0de516a1037846a1f697818",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "bytes": [
         43374,
         43568
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        43568,
+        43576
       ],
       "url_changed": null,
       "markers_changed": null,

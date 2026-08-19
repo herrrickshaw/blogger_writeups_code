@@ -16,19 +16,20 @@ Source: `posts/the-ethanol-sectors-buyers-market.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99757, Requested 1667. Please try again in 20m30.336s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "roughly 400 crore litres of additional capacity due by FY27" — The article does not provide a verifiable source for this specific figure, and FY27 capacity additions are not clearly documented in the cited sources (Government Interest Subvention Scheme guidelines, EBP Programme documentation, NCDC/DFPD scheme notifications). [confidence: medium]
+- "roughly 400 crore litres of additional capacity due by FY27" — The article does not provide a verifiable source for this specific figure, and FY27 capacity additions are not clearly documented in the cited sources (Government Interest Subvention Scheme guidelines, EBP Programme documentation, NCDC/DFPD scheme notifications). The claim lacks transparency on how this estimate was derived. [confidence: medium]
 
-- "roughly 277 crore litres" surplus in Maharashtra and "roughly 77 crore litres" shortfall in Tamil Nadu — These regional surplus/shortfall figures are presented without attribution or methodology, making them unverifiable against primary sources. [confidence: medium]
+- "roughly 277 crore litres" surplus in Maharashtra and "roughly 77 crore litres" shortfall in Tamil Nadu — These regional surplus/deficit figures are presented without clear methodological justification or citation to official data (e.g., DFPD/OMC reports or state-level ethanol supply data). The granularity of such estimates is not typically published in public sources. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India’s ethanol-blending success — hitting the E20 target roughly on the government’s original schedule" — The article claims success in hitting the E20 target without providing evidence (e.g., official blending percentage data for a specific year) or clarifying whether this refers to a national average or specific states. The claim implies a causal link between capacity building and blending success, but it does not address whether the blending mandate was met due to capacity alone or other factors like feedstock availability or policy enforcement. [confidence: high]
+- "India’s ethanol-blending success — hitting the E20 target roughly on the government’s original schedule" — The claim implies that India has successfully achieved the E20 blending target, but the article does not provide evidence (e.g., official blending percentage data for a specific year) to support this conclusion. The E20 target is aspirational and not confirmed to be met in the cited sources. [confidence: high]
 
-- "The mismatch is real, but it is not evenly distressed: standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills represent a less-examined, better-subsidised route into the same sector" — The article conflates "distress" with "utilisation risk" without defining what constitutes distress (e.g., financial viability, operational losses). It also assumes that cooperative sugar mills (CSMs) are a "better-subsidised route" without comparing the net present value of subsidies to standalone distilleries or accounting for governance risks (e.g., farmer dues, state approval processes) that could offset subsidy benefits. [confidence: high]
+- "The mismatch is real, but it is not evenly distressed: standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills represent a less-examined, better-subsidised route into the same sector" — The article conflates "distress" with "utilisation risk" without defining what constitutes distress or providing evidence that cooperative sugar mills are less distressed. The 90:10 financing advantage may reduce financial distress but does not necessarily imply operational or market viability. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

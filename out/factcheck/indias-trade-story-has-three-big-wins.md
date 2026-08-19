@@ -16,19 +16,20 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99010, Requested 2480. Please try again in 21m27.36s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India-EU Free Trade Agreement, concluded 27 January 2026" — The India-EU FTA was not concluded by January 2026; negotiations are ongoing as of mid-2024, and no agreement has been finalized. [confidence: high]
+- "India-EU Free Trade Agreement, concluded 27 January 2026" — The EU-India trade deal is not yet concluded as of June 2024; negotiations are ongoing, and no agreement has been finalized. [confidence: high]
 
-- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide a year-on-year growth rate for services exports in FY25; the 13.6% figure is unverified and likely incorrect. [confidence: high]
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide this specific figure or growth rate for services exports. The article appears to fabricate or misattribute this data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Every major policy instrument covered above — the Export Promotion Mission, the EU FTA's tariff concessions, the PLI scheme's ₹2.4 lakh crore in investment — is aimed overwhelmingly at merchandise trade" — While the policies are indeed focused on merchandise trade, the article does not establish that this is a *problem* or a *gap* in policy design. The growth in services exports could reflect natural competitiveness rather than a policy failure. [confidence: high]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme's investment figures may be correct, the article implies that this 26% overshoot is a direct measure of success without accounting for potential overestimation in approved outlays, delayed disbursements, or unmet commitments. The 26% figure alone does not validate the scheme's economic impact or efficiency. [confidence: medium]
 
-- "Whether the 2.4% merchandise growth figure reflects US-tariff drag specifically or broader global demand softness — the Economic Survey's own framing credits tariffs, but this article did not decompose the effect" — The article attributes the slow merchandise growth to "higher US tariffs" without providing evidence or analysis to isolate the tariff impact from other factors like global demand. [confidence: medium]
+- "Every major policy instrument covered above [...] is aimed overwhelmingly at merchandise trade" — The article assumes that the Export Promotion Mission (EPM), EU FTA, and PLI scheme are *exclusively* goods-focused without acknowledging that the EU FTA includes services provisions (e.g., Mode 1–4 under GATS) and the EPM's "trade-finance component" could theoretically support services exports. The blanket claim overstates the gap. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

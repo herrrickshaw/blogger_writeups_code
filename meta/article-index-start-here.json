@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-18T04:42:49.925+05:30",
+  "updated": "2026-08-19T11:43:33.524+05:30",
   "labels": [],
-  "bytes": 211028,
-  "sha256": "583f80140f508d7b67aea9b29d2a8d28aa3905086beb4912dd06e9f3bf3c0daf",
+  "bytes": 214140,
+  "sha256": "0827f4b91003618900d74f33b598146e852b2f761d5d48cc7979e81c6e50f1ab",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "28.0.0",
+  "version": "28.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -829,6 +829,71 @@
       "bytes": [
         210625,
         211028
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.1",
+      "date": "2026-08-19T05:44:50+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        211028,
+        211982
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.2",
+      "date": "2026-08-19T06:10:57+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        211982,
+        212336
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.3",
+      "date": "2026-08-19T06:38:45+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        212336,
+        212722
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.4",
+      "date": "2026-08-19T10:04:01+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        212722,
+        214140
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.5",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        214140,
+        214140
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -16,19 +16,20 @@ Source: `posts/indias-two-tracks-of-health-cover-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99001, Requested 2958. Please try again in 28m12.576s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "after West Bengal became the last holdout to join" — The article later states West Bengal signed its implementation MoU on 8 June 2026, implying the scheme reached full national coverage in mid-2026, not June 2026. The phrasing suggests the event occurred *after* June 2026, which is contradictory. [confidence: high]
+- "West Bengal became the last holdout to join" — The article later contradicts this by stating West Bengal signed its implementation MoU on 8 June 2026, implying it joined in 2026, not 2025. The initial claim is incorrect. [confidence: high]
 
-- "as of June 2026" (in the first paragraph) — The article later specifies dates like "30 June 2026" and "mid-2026," but the initial claim lacks precision and could be misinterpreted as a future date (June 2026) rather than a past one. [confidence: high]
+- "as of June 2026" (in the first paragraph) — The article later specifies dates like "30 June 2026" and "mid-2026," but the first mention lacks precision and could be misinterpreted as June 2025. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes that research shows PM-JAY *increases* private facility visits, but it then concludes that the two systems are "complementary" without addressing the potential for *future* crowding out. The claim that they serve "largely different segments" is an extrapolation beyond the cited evidence, which only examines immediate utilization shifts, not long-term insurance demand dynamics. [confidence: medium]
+- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes that research shows PM-JAY increases private facility visits, but it does not adequately explain why this would *not* lead to some degree of crowding out for private insurance demand among the newly covered population. The claim that they serve "largely different segments" is asserted but not fully substantiated by the cited evidence. [confidence: medium]
 
-- "the GST-driven premium growth is happening among the population that already could [afford insurance]" — The article cites a 29.7% growth in premiums post-GST exemption but does not provide data on the income distribution of new policyholders. The claim assumes the growth is concentrated among those who *could* afford insurance before the exemption, but the evidence only shows aggregate growth, not segmentation by affordability. [confidence: medium]
+- "the GST-driven premium growth is happening among the population that already could [afford insurance]" — The article provides growth rates but does not directly link these to income distribution data or policyholder demographics, making the causal claim about who is driving the growth speculative rather than empirically supported. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

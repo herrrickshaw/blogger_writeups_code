@@ -16,21 +16,20 @@ Source: `posts/the-price-of-grain-msp-msv-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99675, Requested 4646. Please try again in 1h2m13.344s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such clarification is provided in the text. The figure of ₹4,000/qtl is presented as a precise economic cost, but the article later states that the economic cost is an "order-of-magnitude" estimate, which contradicts the implied precision of the figure. [confidence: high]
+- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such note is provided in the text. The claim itself is plausible but unverifiable without the specific breakdown or source. [confidence: medium]
 
-- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure as a result of the sugarcane FRP model's squeeze, but the source (DFPD Annual Report 2024-25) is not directly quoted or verified in the text. The figure appears to be an extrapolation or projection rather than a confirmed amount, and the timeline (February 2026) is in the future relative to the article's publication date (July 2026), making it unverifiable as a past event. [confidence: medium]
-
----
+- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure for sugarcane FRP arrears, but the source (likely from a report or PIB release) is not directly quoted or linked in the text. The claim is unverifiable as presented. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The ethanol rate, and issue prices move by executive order — sometimes twice a season (rice-for-ethanol: ₹2,800 → ₹2,250 in one January)." — While the article correctly notes that the ethanol rate for rice changed from ₹2,800 to ₹2,250 in January 2025, it implies that this adjustment was a deliberate policy tool to "steer private demand" akin to a central bank's repo rate adjustments. However, the change in the ethanol rate is more likely a response to market conditions (e.g., surplus rice stocks, blending mandates, or cost pressures) rather than a proactive monetary policy-like tool. The causal claim overstates the government's control over the ethanol rate as a precise demand-steering mechanism. [confidence: high]
+- "The state buys at rung 2, carries to rung 1, and disposes at rungs 3–6 — the vertical gaps are the food subsidy." — The claim implies a direct causal link between the "vertical gaps" in the price ladder and the food subsidy, but it conflates the accounting of procurement costs with the actual subsidy mechanism. The food subsidy is determined by the difference between the central issue price (CIP) and the economic cost, not merely the gaps between administered prices. [confidence: high]
 
-- "The state's buffer function, done deliberately, partially self-finances." — The article suggests that the government's counter-cyclical release of grain stocks (buying at MSP in glut years and selling at higher prices in tight years) "partially self-finances" the buffer function. However, this assumes that the government can consistently sell at higher prices in tight years, which is not guaranteed. In reality, tight years may coincide with global supply shocks or high domestic demand, forcing the government to sell at subsidized prices (e.g., OMSS or PDS issue prices), which could result in losses rather than self-financing. The causal claim overstates the financial sustainability of the buffer function. [confidence: high]
+- "a θ of just 0.3 removes 51% of price-revenue variance; θ = 0.5 removes 75%." — While the mathematical relationship (Var(R) = (1−θ)²·Var(P mkt)) is correct, the article extrapolates this to claim outsized farmer value without empirical validation. The variance reduction is theoretical and may not translate to real-world income stabilization due to other market frictions (e.g., credit constraints, input costs, or regional disparities). [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

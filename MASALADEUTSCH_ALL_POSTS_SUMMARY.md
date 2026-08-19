@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*164 published posts, 31 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*169 published posts, 31 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 17 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 19 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,14 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (26)
+### Agriculture & Fertilisers (29)
 
+- **[Green Gold: What Spirulina Actually Is, and Isn't, Good For](https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html)** — 2026-08-19
+  A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops — which is the entire case for calling spirulina “green gold.” It is also, right now, an Axiom-4 astronaut’s microgravity experiment, a malnutrition supplement with a real efficacy dispute attached, an unproven biofuel feedstock, and the organism a Kerala carbon-capture startup is using to scrub CO₂ out of building air. China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in.
+- **[Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)** — 2026-08-19
+  On 30 April 2026, lemons were selling for ₹250/kg in the open market at Tamil Nadu's Puliyangudi market — a drought had cut the daily influx from 150-200 tonnes to 75. A year earlier, in the same state's Dindigul district, farmers were switching out of guava and tomato into lemon at a steady ₹90/kg, for a much duller reason: a fallen lemon survives three days on the ground, a fallen guava starts rotting immediately. Both stories are true, and they're the same crop.
+- **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
+  India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 - **[Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html)** — 2026-08-16
   BASF and Mitsubishi are not partners on rice carbon credits in India — they run two separate, competing programmes. That correction turns out to matter, because both sit on top of a carbon-credit methodology that only recently survived a near-total market collapse: Verra invalidated 37 rice-methane projects and 4.5 million credits in 2024 — effectively all the rice credits that existed. This piece untangles who's actually doing what in India, what the carbon-credit science underneath it looked like before and after the collapse, and a third, unrelated thread — Japan's agrivoltaic rice-paddy research — that shares a crop but not a market.
 - **[Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil](https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html)** — 2026-08-16
@@ -274,8 +280,10 @@
 - **[Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html)** — 2026-07-22
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
-### Agriculture & Food Processing (1)
+### Agriculture & Food Processing (2)
 
+- **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
+  India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
@@ -294,8 +302,10 @@
 - **[Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn't. India's Automotive Textiles Aren't One Story](https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html)** — 2026-08-15
   Seat belt webbing and airbag fabric are two of the fastest-growing categories in India's automotive textiles, and both remain significantly import-dependent even as global safety-systems majors localise assembly here. Tyre cord fabric tells almost the opposite story: India is the world's second-largest nylon-6 tyre-cord-fabric producer, protected by anti-dumping duties against Chinese imports since 2019. This piece separates the two stories, and traces the one raw-material dependency — imported nylon-6 polymer — that sits underneath both.
 
-### Biofuels (2)
+### Biofuels (3)
 
+- **[Green Gold: What Spirulina Actually Is, and Isn't, Good For](https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html)** — 2026-08-19
+  A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops — which is the entire case for calling spirulina “green gold.” It is also, right now, an Axiom-4 astronaut’s microgravity experiment, a malnutrition supplement with a real efficacy dispute attached, an unproven biofuel feedstock, and the organism a Kerala carbon-capture startup is using to scrub CO₂ out of building air. China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in.
 - **[RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html)** — 2026-08-13
   Three real countries have already built three structurally different answers to "how much should a litre of clean fuel earn beyond the pump price": America strips a paper credit off every gallon and lets refiners trade it; Europe doesn't trade anything, it just weights which fuels count more toward a supplier's target; Brazil hands the producer a directly sellable, exchange-traded tonne of avoided carbon. India has none of the three, an ethanol-blending programme that already runs into how fast pump prices can politically move, a Paris Agreement credit list that excluded ethanol the first time it was written and has already been revised once, and a new EU carbon border tax creating real demand for exactly the kind of verified carbon performance these three systems were built to certify. This piece works out what a hybrid built from pieces of all three could actually look like here — and where the real gaps are.
 - **[One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems](https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html)** — 2026-08-13
@@ -371,12 +381,14 @@
 - **[FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance?](https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html)** — 2026-08-14
   Two data sources have anchored most of this site's recent research: FBIL's reference rates behind every currency-volatility figure, and DGCI&S TradeStat behind every import/export number. They've never been combined directly. This piece asks the obvious question sitting between them — does a trading partner's currency volatility actually predict anything about the shape of India's trade with that partner — using the five-country dataset already built for the rupee-trade series.
 
-### Energy & Fuels (41)
+### Energy & Fuels (42)
 
 - **[Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers](https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html)** — 2026-08-17
   Not all Indian ethanol distilleries burn fossil fuels — but the ones that do are exactly the ones the sugar-mill story leaves out: standalone grain distilleries with no bagasse to fall back on. India already runs a coal-to-biomass mandate that's the direct precedent for fixing that — and it's currently short by 12–17 million tonnes of biomass pellets a year, penalties and all. Layered on top is a carbon-credit opportunity distilleries can claim today, one they mostly aren't. And America's own ethanol-CCS record, checked against the Global CCS Institute's own numbers, is a useful reality check on how far "credit-eligible" is from "actually built."
 - **[Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen](https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html)** — 2026-08-17
   Two oil marketing companies have piloted QR codes on domestic LPG cylinders since 2022 — a quality and anti-pilferage check, not a completed national rollout. Meanwhile PPAC's own numbers show two things that don't obviously square: active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion — and PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year. Both figures are real. This piece works through what each is measuring, and maps where India's 214 LPG bottling plants actually sit.
+- **[Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html)** — 2026-08-17
+  Zero Liquid Discharge for Indian ethanol distilleries isn't one law with one start date — it's a regulatory ratchet that tightened over two decades, and since 2021 it's also a hard gate on government money: no CPCB-verified ZLD certificate, no interest-subvention reimbursement, for grain, molasses and dual-feed distilleries alike. That's a genuinely mandatory criterion. What it isn't connected to, despite sharing the same MLD units, is India's municipal sewage-treatment capacity — a separate system, tracked separately, and running at roughly 28% of what the country actually generates.
 - **[Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html)** — 2026-08-14
   Indian Oil Corporation's finance director put a number on it plainly: ₹15,000 crore of debt, roughly 30% of it — $500 million to $1 billion — sourced from foreign currency loans and bonds, to help fund a ₹35,000 crore annual capex programme. That single fundraise is a small piece of a much larger, multi-company shift: India's state refiners and one large private one are collectively committing several trillion rupees to bolt petrochemical plants onto refineries that have, until now, mostly just made fuel. This piece maps who is financing that shift, and how.
 - **[Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html)** — 2026-08-14
@@ -461,8 +473,12 @@
 - **[Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target](https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html)** — 2026-08-13
   GCAM — the Global Change Analysis Model, maintained at Pacific Northwest National Laboratory — is usually described as a model that “links energy, water, land and the economy.” That phrase hides the actual mechanism. GCAM does not run one unified optimisation across all four; it solves five separate markets independently, five years at a time, with no subsystem allowed to see the future, and lets a single price signal carry information between them. The version CEEW and IIM Ahmedabad have run for India since 2007 uses exactly this machinery to work out what a net-zero target implies sector by sector. This piece works through how the wiring is actually built.
 
-### Environment & Clearances (3)
+### Environment & Clearances (5)
 
+- **[The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html)** — 2026-08-18
+  In 2021, Taiwan's worst drought since 1964 forced TSMC to run 8,000 water-tanker trucks a day just to keep its fabs running, while a million households had their taps cut twice a week. That's the real-world stress test for what "not enough water treatment capacity" means for a chip industry. Dholera's Tata Electronics fab has a dedicated 50 MLD treatment plant built for it — a number that looks adequate against the mature-node fab actually being built there, but small against what Taiwan's own science parks needed once they scaled up.
+- **[Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html)** — 2026-08-17
+  Zero Liquid Discharge for Indian ethanol distilleries isn't one law with one start date — it's a regulatory ratchet that tightened over two decades, and since 2021 it's also a hard gate on government money: no CPCB-verified ZLD certificate, no interest-subvention reimbursement, for grain, molasses and dual-feed distilleries alike. That's a genuinely mandatory criterion. What it isn't connected to, despite sharing the same MLD units, is India's municipal sewage-treatment capacity — a separate system, tracked separately, and running at roughly 28% of what the country actually generates.
 - **[India Forest, Wildlife & CRZ Clearances — PARIVESH](https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html)** — 2026-07-22
   The same open PARIVESH API that serves Environmental Clearances serves three more central clearances. Together they are the full green-clearance funnel a project passes through — and Forest Clearance carries something EC does not: the actual area of land, in hectares.
 - **[India Environmental Clearances — State × Sub-sector Dashboard](https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html)** — 2026-07-22
@@ -470,10 +486,12 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Ethanol & Biofuels (4)
+### Ethanol & Biofuels (5)
 
 - **[Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers](https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html)** — 2026-08-17
   Not all Indian ethanol distilleries burn fossil fuels — but the ones that do are exactly the ones the sugar-mill story leaves out: standalone grain distilleries with no bagasse to fall back on. India already runs a coal-to-biomass mandate that's the direct precedent for fixing that — and it's currently short by 12–17 million tonnes of biomass pellets a year, penalties and all. Layered on top is a carbon-credit opportunity distilleries can claim today, one they mostly aren't. And America's own ethanol-CCS record, checked against the Global CCS Institute's own numbers, is a useful reality check on how far "credit-eligible" is from "actually built."
+- **[Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html)** — 2026-08-17
+  Zero Liquid Discharge for Indian ethanol distilleries isn't one law with one start date — it's a regulatory ratchet that tightened over two decades, and since 2021 it's also a hard gate on government money: no CPCB-verified ZLD certificate, no interest-subvention reimbursement, for grain, molasses and dual-feed distilleries alike. That's a genuinely mandatory criterion. What it isn't connected to, despite sharing the same MLD units, is India's municipal sewage-treatment capacity — a separate system, tracked separately, and running at roughly 28% of what the country actually generates.
 - **[The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference](https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html)** — 2026-08-13
   India's ethanol suppliers offered refiners 17.76 billion litres for ESY2025-26 against a stated requirement of just 10.5 billion — a gap covered in an earlier piece on this site. That surplus opens a narrow but real opportunity: the petrol a refinery no longer needs to blend can, with real (not cosmetic) modifications to the FCC unit's gas-recovery train, come out as LPG instead — directly addressing India's import-heavy cooking-gas supply. This piece works through what that modification actually involves, how it differs mechanically from the naphtha-cracker petrochemical pivot covered separately on this site, and the parallel, independently-verified push to expand India's underground crude storage that gives refiners more room to absorb the supply-side volatility this shift is a response to.
 - **[Fuel and the Bottle: The Two Taxes States Never Handed to GST](https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html)** — 2026-08-12
@@ -500,15 +518,19 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Healthcare (2)
+### Healthcare (3)
 
+- **[Green Gold: What Spirulina Actually Is, and Isn't, Good For](https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html)** — 2026-08-19
+  A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops — which is the entire case for calling spirulina “green gold.” It is also, right now, an Axiom-4 astronaut’s microgravity experiment, a malnutrition supplement with a real efficacy dispute attached, an unproven biofuel feedstock, and the organism a Kerala carbon-capture startup is using to scrub CO₂ out of building air. China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in.
 - **[ABHA: What India's 14-Digit Health ID Actually Does, in the Real Numbers](https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html)** — 2026-08-12
   Ayushman Bharat Health Account (ABHA) is a free, voluntary, 14-digit digital health identity that has quietly become one of the largest identity systems India has built since Aadhaar — over 93 crore accounts as of mid-2026, more than 104 crore health records linked to them, and a growth curve that's roughly sextupled in five years. It is not the same thing as Ayushman Bharat's PM-JAY insurance scheme, though the two names get conflated constantly; ABHA is the identity and records layer underneath India's whole digital-health push (ABDM), not a health-cover product. This piece explains what ABHA actually is, what the real adoption numbers say about who has one and where, what's genuinely working (a QR-scan queue-skip feature already used over 23 crore times), and what the honest caveat is on the consent and privacy side of a system this large.
 - **[India's Two Tracks of Health Cover, and Where They Actually Meet](https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html)** — 2026-08-12
   India now runs two large, separately-growing health-cover systems at once. On one track, the government's Ayushman Bharat PM-JAY has issued 43.52 crore cards and reached every state and union territory as of June 2026, after West Bengal became the last holdout to join. On the other, private individual health insurance premiums grew nearly 30% in the six months after a September 2025 GST exemption, and international reinsurers are opening branches in GIFT City at a pace that's tripled the sector's local capacity this year. Both are real growth stories. What this piece checks is whether they're actually the same story — whether public scheme coverage and private insurance uptake move together, substitute for each other, or barely touch — using the state-level and research data available, not assumption.
 
-### Import Substitution (11)
+### Import Substitution (12)
 
+- **[The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html)** — 2026-08-18
+  In 2021, Taiwan's worst drought since 1964 forced TSMC to run 8,000 water-tanker trucks a day just to keep its fabs running, while a million households had their taps cut twice a week. That's the real-world stress test for what "not enough water treatment capacity" means for a chip industry. Dholera's Tata Electronics fab has a dedicated 50 MLD treatment plant built for it — a number that looks adequate against the mature-node fab actually being built there, but small against what Taiwan's own science parks needed once they scaled up.
 - **[India's Coking Coal Import Problem, and Why "Biomass Pellets" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme](https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html)** — 2026-08-14
   India imports roughly 90% of the coking coal its steel mills need — the single most expensive raw material in the steel-making process, and one the country cannot dig its way out of, because its own coal seams are largely the wrong grade. The government's real answer to that gap, Mission Coking Coal, is a domestic-mining and washery push, not a biomass one: India's actual biomass-pellet mandate exists for a completely different coal stream (thermal coal, in power plants), and the one real, India-specific attempt to put biomass into steel-making — a SAIL pilot at Rourkela — is a small-scale trial, not a deployed substitution programme. This piece keeps those three things separate, because coverage of "biomass replacing coking coal" routinely blurs them.
 - **[Which of 827 Chemical HSN-8 Codes Are Real Substitution Targets](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html)** — 2026-08-06
@@ -516,9 +538,9 @@
 - **[Chemical Import Substitution: the Full 827-Code Data Tables](https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html)** — 2026-08-05
   The complete chapter-wise tables supporting Chemical Import Substitution. Held on a separate page because the tables run to 835 rows; keeping them in the post exhausted Blogger’s index rendering budget and suppressed the homepage post list.
 - **[Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html)** — 2026-08-04
-  Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-04) — 1,825 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 139 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
+  Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 141 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
 - **[Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html)** — 2026-08-04
-  Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-17 → 2026-08-04) — 2,242 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 116 starred (answered orally on the floor), the rest unstarred (written).
+  Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-12) — 1,890 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 104 starred (answered orally on the floor), the rest unstarred (written).
 - **[From Fuel to Fibre: India's Textile Import-Substitution Loop](https://masaladeutsch.blogspot.com/2026/08/from-fuel-to-fibre-indias-textile.html)** — 2026-08-03
   Ethanol frees the petrochemical feedstock, PM MITRA parks give it somewhere to land, and 12 technical-textile segments show exactly which imports are worth chasing first.
 - **[Half of India's Import Bill Is Commodities. Recycling and Import Substitution Are the Only Two Exits.](https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html)** — 2026-08-03
@@ -593,13 +615,13 @@
 - **[India's State Incentive War: Gujarat's Execution Edge, Karnataka's FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid](https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html)** — 2026-08-05
   Gujarat, Uttar Pradesh, Tamil Nadu and a dozen other states are locked into an incentive arms race for the same pool of manufacturing investment — SGST reimbursements, capital subsidies, top-ups on central PLI schemes. The generosity is easy to compare. What states actually disburse, and to whom, is not — and the gap between the two numbers is the real story.
 - **[The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha](https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html)** — 2026-08-04
-  Cross-referencing the PIB announcement register (4,158 scheme-mapped announcements as of this post's build; the sibling Quarterly Reportage post is a later 4,034-row rebuild — figures are vintage-different, not contradictory) with the Lok Sabha and Rajya Sabha question registries (2,242 and 1,825 questions since 2019), all classified by one scheme map — so the join is exact. Which schemes does Parliament actively monitor, and which have been announced but never questioned in detail?
+  Cross-referencing the PIB announcement register (4,211 scheme-mapped announcements as of this post's build; the sibling Quarterly Reportage post may show a different total — figures are vintage-different, not contradictory) with the Lok Sabha and Rajya Sabha question registries (1,890 and 1,883 questions since 2019), all classified by one scheme map — so the join is exact. Which schemes does Parliament actively monitor, and which have been announced but never questioned in detail?
 - **[Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026](https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html)** — 2026-08-04
-  4,081 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-13), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
+  4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
 - **[Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html)** — 2026-08-04
-  Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-04) — 1,825 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 139 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
+  Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 141 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
 - **[Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html)** — 2026-08-04
-  Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-17 → 2026-08-04) — 2,242 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 116 starred (answered orally on the floor), the rest unstarred (written).
+  Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-12) — 1,890 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 104 starred (answered orally on the floor), the rest unstarred (written).
 - **[Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage](https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html)** — 2026-08-02
   Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 - **[Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers](https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html)** — 2026-08-02
@@ -654,8 +676,10 @@
 - **[Real GDP Growth — India, FY2012-13 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html)** — 2026-08-02
   Real (constant-price) GDP growth, FY2012-13 through FY2025-26, using the most-revised figure available for each year. The tick on each bar marks where MoSPI's original First Advance Estimate landed — the gap between tick and bar is how much the number moved as better data came in.
 
-### Manufacturing (2)
+### Manufacturing (3)
 
+- **[The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html)** — 2026-08-18
+  In 2021, Taiwan's worst drought since 1964 forced TSMC to run 8,000 water-tanker trucks a day just to keep its fabs running, while a million households had their taps cut twice a week. That's the real-world stress test for what "not enough water treatment capacity" means for a chip industry. Dholera's Tata Electronics fab has a dedicated 50 MLD treatment plant built for it — a number that looks adequate against the mature-node fab actually being built there, but small against what Taiwan's own science parks needed once they scaled up.
 - **[The Cluster the Automotive Piece Left Out: Pitching Madhya Pradesh as India's Sixth Hub](https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html)** — 2026-08-15
   A companion piece on this site mapped India's automotive clusters — Chennai, NCR, Pune, Sanand, AURIC — and left one out: Pithampur, Madhya Pradesh, which already hosts 120 large industrial units, five OEMs and roughly $11.3 billion in combined investment. This piece makes the case that omission deserves correcting, using MP's own 2025 Logistics Policy and its position directly on the Delhi-Mumbai Industrial Corridor as the investment argument.
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
@@ -770,8 +794,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (41)
+### Trade & Tariffs (42)
 
+- **[Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)** — 2026-08-19
+  On 30 April 2026, lemons were selling for ₹250/kg in the open market at Tamil Nadu's Puliyangudi market — a drought had cut the daily influx from 150-200 tonnes to 75. A year earlier, in the same state's Dindigul district, farmers were switching out of guava and tomato into lemon at a steady ₹90/kg, for a much duller reason: a fallen lemon survives three days on the ground, a fallen guava starts rotting immediately. Both stories are true, and they're the same crop.
 - **[What TEPA Actually Opens: EFTA Goods, India's Real Numbers, and Where Domestic Manufacturing Needs to Catch Up](https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html)** — 2026-08-14
   A companion piece on this site already flagged the India-EFTA TEPA's headline $100 billion investment commitment as a general framework, not a sector-specific plan. This piece goes one layer deeper: what does the actual tariff schedule cover, what does India's real trade with Switzerland and Norway look like today, and which categories are genuinely exposed to new import competition versus which are just noise around a number (gold) that TEPA doesn't actually touch.
 - **[Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html)** — 2026-08-12
@@ -1172,7 +1198,7 @@ Every central bank runs monetary policy through the same two levers: the rate (w
 ### [The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha](https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html)
 *2026-08-04 · Industrial Policy*
 
-Cross-referencing the PIB announcement register (4,158 scheme-mapped announcements as of this post's build; the sibling Quarterly Reportage post is a later 4,034-row rebuild — figures are vintage-different, not contradictory) with the Lok Sabha and Rajya Sabha question registries (2,242 and 1,825 questions since 2019), all classified by one scheme map — so the join is exact. Which schemes does Parliament actively monitor, and which have been announced but never questioned in detail?
+Cross-referencing the PIB announcement register (4,211 scheme-mapped announcements as of this post's build; the sibling Quarterly Reportage post may show a different total — figures are vintage-different, not contradictory) with the Lok Sabha and Rajya Sabha question registries (1,890 and 1,883 questions since 2019), all classified by one scheme map — so the join is exact. Which schemes does Parliament actively monitor, and which have been announced but never questioned in detail?
 
 ### [If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill](https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html)
 *2026-08-04 · Markets & Finance, Trade & Tariffs*
@@ -1187,12 +1213,12 @@ The Ethanol Blended Petrol Programme has already put ₹1.66 lakh crore directly
 ### [Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026](https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html)
 *2026-08-04 · Industrial Policy*
 
-4,081 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-13), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
+4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18), each mapped to its scheme and owning ministry from the Press Information Bureau register. Every line links to the original release by PRID (the PIB press-release ID). Filter by quarter, scheme or ministry; search titles.
 
 ### [Rajya Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html)
 *2026-08-04 · Import Substitution, Industrial Policy*
 
-Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-04) — 1,825 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 139 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
+Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 141 starred (answered orally on the floor), the rest unstarred (written) — this split is done by case-sensitive text matching on the question-type field, which is known to miscount a small number of mixed-case rows; treat the exact starred/unstarred split as approximate.
 
 ### [Jai Kisan, Jai Javan — An FCI-Based Military Ration Strategy](https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html)
 *2026-08-04 · Agriculture & Fertilisers*
@@ -1212,7 +1238,7 @@ Ten BRICS members and partners supplied $321.8 billion of India's imports in FY2
 ### [Lok Sabha Question Registry — Scheme & Incentive Questions, 2019 to Today](https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html)
 *2026-08-04 · Import Substitution, Industrial Policy*
 
-Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-17 → 2026-08-04) — 2,242 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 116 starred (answered orally on the floor), the rest unstarred (written).
+Every captured Lok Sabha question on investment policies, schemes and incentives, across the 17th and 18th Lok Sabha (2019-06-21 → 2026-08-12) — 1,890 at this build — each mapped to its scheme and answering ministry. Every row links to the official answer PDF on sansad.in — 104 starred (answered orally on the floor), the rest unstarred (written).
 
 ### [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html)
 *2026-08-05 · Agriculture & Fertilisers*
@@ -1683,3 +1709,28 @@ Not all Indian ethanol distilleries burn fossil fuels — but the ones that do a
 *2026-08-17 · Energy & Fuels, Gas & LNG, India Trade & Policy*
 
 Two oil marketing companies have piloted QR codes on domestic LPG cylinders since 2022 — a quality and anti-pilferage check, not a completed national rollout. Meanwhile PPAC's own numbers show two things that don't obviously square: active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion — and PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year. Both figures are real. This piece works through what each is measuring, and maps where India's 214 LPG bottling plants actually sit.
+
+### [Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html)
+*2026-08-17 · Energy & Fuels, Environment & Clearances, Ethanol & Biofuels*
+
+Zero Liquid Discharge for Indian ethanol distilleries isn't one law with one start date — it's a regulatory ratchet that tightened over two decades, and since 2021 it's also a hard gate on government money: no CPCB-verified ZLD certificate, no interest-subvention reimbursement, for grain, molasses and dual-feed distilleries alike. That's a genuinely mandatory criterion. What it isn't connected to, despite sharing the same MLD units, is India's municipal sewage-treatment capacity — a separate system, tracked separately, and running at roughly 28% of what the country actually generates.
+
+### [The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html)
+*2026-08-18 · Environment & Clearances, Import Substitution, Manufacturing*
+
+In 2021, Taiwan's worst drought since 1964 forced TSMC to run 8,000 water-tanker trucks a day just to keep its fabs running, while a million households had their taps cut twice a week. That's the real-world stress test for what "not enough water treatment capacity" means for a chip industry. Dholera's Tata Electronics fab has a dedicated 50 MLD treatment plant built for it — a number that looks adequate against the mature-node fab actually being built there, but small against what Taiwan's own science parks needed once they scaled up.
+
+### [Green Gold: What Spirulina Actually Is, and Isn't, Good For](https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html)
+*2026-08-19 · Agriculture & Fertilisers, Biofuels, Healthcare*
+
+A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops — which is the entire case for calling spirulina “green gold.” It is also, right now, an Axiom-4 astronaut’s microgravity experiment, a malnutrition supplement with a real efficacy dispute attached, an unproven biofuel feedstock, and the organism a Kerala carbon-capture startup is using to scrub CO₂ out of building air. China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in.
+
+### [Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)
+*2026-08-19 · Agriculture & Fertilisers, Trade & Tariffs*
+
+On 30 April 2026, lemons were selling for ₹250/kg in the open market at Tamil Nadu's Puliyangudi market — a drought had cut the daily influx from 150-200 tonnes to 75. A year earlier, in the same state's Dindigul district, farmers were switching out of guava and tomato into lemon at a steady ₹90/kg, for a much duller reason: a fallen lemon survives three days on the ground, a fallen guava starts rotting immediately. Both stories are true, and they're the same crop.
+
+### [The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)
+*2026-08-19 · Agriculture & Fertilisers, Agriculture & Food Processing*
+
+India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.

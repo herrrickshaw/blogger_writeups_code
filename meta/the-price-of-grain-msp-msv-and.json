@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-16T15:15:32.409+05:30",
+  "updated": "2026-08-19T11:52:10.414+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 36407,
-  "sha256": "af80ffd7025de2accfad079c69849ac51c36012ac7a43a21dee6fbd5faabb900",
+  "bytes": 36408,
+  "sha256": "cba7bcbc75f13af7aae884643219b646aece62ff84795ae14e3fec05666594d6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.9",
+  "version": "2.0.10",
   "version_history": [
     {
       "version": "1.0.0",
@@ -178,6 +178,19 @@
       "bytes": [
         36052,
         36407
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.10",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36407,
+        36408
       ],
       "url_changed": null,
       "markers_changed": null,

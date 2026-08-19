@@ -16,19 +16,22 @@ Source: `posts/securitising-deficit-what-it-would.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99928, Requested 18818. Please try again in 4h29m56.543999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — The article later contradicts this claim by stating that India's total merchandise imports from BRICS members and partners are $321.8 billion, not that India pays for "almost all" of it in dollars. The claim is overly broad and not supported by the data presented. [confidence: high]
+- "India sold them $95.8 billion" — The article later contradicts this with a table showing India sold BRICS members $93.4 billion (Exhibit 1). The initial claim is incorrect. [confidence: high]
 
-- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies, with roughly 42% in 'friendly' ones." — The article cites this figure without providing a source or context for what constitutes "unfriendly" or "friendly" currencies. This classification is subjective and lacks verifiable backing. [confidence: medium]
+- "The commodity split decides feasibility. Russia (96.5%), UAE (89.6%) and Saudi Arabia (87.7%) sell India fungible, benchmark-priced commodities that can be re-invoiced." — The article does not provide a source or methodology for these commodity share percentages. While the table in Exhibit 3 shows commodity shares for some countries, it does not explicitly state these exact percentages for Russia, UAE, and Saudi Arabia. The claim appears to be an extrapolation without clear verification. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — While the distinction between de-dollarisation and vendor financing is valid, the article frames the entire policy as vendor financing without acknowledging that de-dollarisation can still occur even if the counterparty holds rupees as a financial asset (e.g., government bonds). The claim oversimplifies the potential benefits of local currency settlement. [confidence: high]
+- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — While the distinction between de-dollarisation and vendor financing is valid, the article frames the entire policy discussion around shifting trade settlement to local currencies as a form of de-dollarisation. This claim implies that such a shift is not meaningful, but it ignores the strategic and geopolitical value of reducing dollar dependency, even if it results in vendor financing. The reasoning gap is that the article dismisses the potential benefits of reducing dollar exposure purely on accounting grounds, without acknowledging broader strategic or systemic advantages. [confidence: high]
 
-- "China, the UAE and Saudi Arabia all have policy rates and long yields below India's, and between them hold $159.2 billion — 70% of the residual. For China the pickup is 513 basis points: a Chinese institution holding a ten-year Indian government bond earns four times what a Chinese government bond pays." — The article assumes that the yield pickup is a net benefit without accounting for the risks of rupee depreciation or the counterparty's willingness to hold Indian bonds. The calculation ignores the fact that the yield pickup may be offset by currency risk, making the net benefit uncertain. [confidence: high]
+- "The prize is $321.8 billion — 41.5% of India's merchandise import bill, and 67.8% of its entire trade deficit, sits with ten BRICS members and partners." — The article treats the entire trade deficit with BRICS members as a "prize" to be captured by shifting to local currency settlement. However, this ignores the structural imbalance in trade with these countries (e.g., India's large deficit with China) and the fact that shifting to local currency settlement does not reduce the deficit itself—it merely changes the currency of denomination. The reasoning gap is that the article conflates the size of the trade flow with a potential benefit, without addressing whether the deficit can realistically be reduced or financed through local currency settlement. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

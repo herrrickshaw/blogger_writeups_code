@@ -9,32 +9,31 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The exchange rate used for conversion is not explicitly stated, but based on the disclaimer, it seems to be ₹86 = $1, which may not be the actual exchange rate at the time of writing, and the conversion may be inaccurate. [confidence: medium]
-- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The years mentioned (2023-25) may not be up-to-date or accurate, as the article does not provide a specific date of publication. [confidence: low]
-
-INTERPRETATION ERRORS:
-- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import" — The article implies that capturing the petrochemical premium will automatically erase an import, but it does not provide evidence that the premium is directly related to import substitution, or that the savings from capturing the premium would be enough to offset the cost of the import. [confidence: high]
-- "~85–100% imported" — The article states that certain products have a high import dependence, but it does not explain why this is the case, or what factors contribute to this dependence, which could lead to an oversimplification of the issue. [confidence: medium]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The conversion rate used here (₹86 = $1) is outdated. As of mid-2024, the exchange rate is closer to ₹83–84 per USD, making the dollar equivalent slightly higher (~$15.1–15.3 bn). The rupee value itself may also need verification against the latest MoC/DGCI&S data. [confidence: high]
+- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The claim implies that the values are sourced from official government statistics (MoC, DGCI&S, TradeStat) covering 2023–2025, but the article does not provide direct citations or links to these specific datasets. Without verification, this cannot be confirmed as accurate. [confidence: medium]
 
-- "HSN = ITC-HS 8-digit; verify on DGFT ITC-HS 2022" — HSN (Harmonized System Nomenclature) is not the same as ITC-HS (Indian Trade Classification based on HS). While related, they are distinct systems, and this conflation could mislead readers about the correct classification system to use. [confidence: high]
+- "HSN = ITC-HS 8-digit; verify on DGFT ITC-HS 2022" — The article incorrectly equates "HSN" (Harmonized System Nomenclature) with "ITC-HS" (Indian Trade Classification based on Harmonized System). While related, they are not the same, and HSN is a broader classification system used globally, whereas ITC-HS is India's specific adaptation. This conflation is factually incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import" — The claim implies a direct causal link between cracking petrol-range streams into petrochemicals and erasing imports, but it does not account for India's existing refining capacity, feedstock constraints, or the economic viability of such substitution. The premium figures cited may not translate to actual import substitution without addressing infrastructure, policy, and market dynamics. [confidence: medium]
+- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import" — The claim suggests that cracking petrol-range streams into petrochemicals (e.g., olefins, BTX) will "erase an import" by substituting imports entirely. However, this ignores the fact that India may still need to import crude oil or other feedstocks to produce these chemicals domestically, meaning the import dependence is merely shifted, not eliminated. The reasoning assumes a direct substitution without accounting for upstream dependencies. [confidence: high]
 
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported" — While the import dependence figures may be correct, the clustering of these products under "benzene/propylene chains" oversimplifies their production pathways. For example, polycarbonate relies heavily on bisphenol-A (derived from phenol, not directly from benzene/propylene), and MDI/TDI are isocyanates requiring additional feedstocks (e.g., aniline). The grouping risks conflating distinct chemical processes. [confidence: high]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported" — While the products listed are indeed part of the benzene/propylene chains, the claim that their import dependence is "~85–100%" is not clearly supported by the data presented. The article does not provide specific import figures for these individual products, and the 85–100% range appears to be an extrapolation from broader categories (e.g., "high-petrol-link substitutable imports") without justification. This overgeneralizes the import dependence of specific products. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

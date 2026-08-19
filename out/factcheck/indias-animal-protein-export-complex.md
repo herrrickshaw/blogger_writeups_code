@@ -9,32 +9,31 @@ Source: `posts/indias-animal-protein-export-complex.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "$4,060.56M Buffalo meat export value, FY2024-25 — 79.40% of total Animal Products exports" — This claim cannot be verified against available data as of my knowledge cutoff, and the article does not provide a direct source for this specific figure [confidence: medium]
-- "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)" — The exchange rate and conversion to USD may not be accurate or up-to-date [confidence: low]
-
-INTERPRETATION ERRORS:
-- "The constraint isn't feedstock availability — it's structure. Tallow supply is almost entirely a derivative of the meat-processing and rendering industry, which means it inherits that industry's volatility." — This statement implies a causal link between the structure of the tallow supply chain and its volatility, but it does not provide sufficient evidence to support the claim that the structure is the primary constraint, rather than other factors such as demand, policy, or logistics [confidence: medium]
-- "The forward projection is aggressive: India's shrimp market is expected to grow at a 9.60% CAGR from 2026-2035, reaching roughly 2.55 million tonnes of volume by the end of that window — a scale-up that dwarfs the tallow-biodiesel opportunity in absolute size, even though both start from the same underlying idea of turning an animal-protein production base into a structured export or energy business." — This statement compares the growth potential of the shrimp market to the tallow-biodiesel opportunity, but it does not account for differences in market dynamics, regulatory environments, or other factors that may affect the two industries [confidence: high]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)" — The fiscal year label is incorrect. FY2025-26 would imply the fiscal year ending in March 2026, but the article cites MPEDA data, which typically reports for FY2024-25 (April 2024–March 2025). The correct fiscal year for the record seafood export value is likely FY2024-25, not FY2025-26. [confidence: high]
+- "₹72,325.82cr Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)" — The fiscal year is incorrectly stated as FY2025-26, which would imply the year ending March 2026. However, the article later references FY2024-25 for buffalo meat exports, and the MPEDA data for seafood exports is typically reported for FY2023-24 (ending March 2024). The correct fiscal year for the seafood export record is likely FY2023-24, not FY2025-26. [confidence: high]
 
-- "₹47,973.13cr Frozen shrimp alone — roughly two-thirds (66.3%) of total seafood export earnings" — The percentage (66.3%) does not match the implied calculation from the given figures. ₹47,973.13cr divided by ₹72,325.82cr equals approximately 66.3%, but the article does not clarify whether this is based on value or volume. If it is based on value, the claim is correct, but if it is based on volume, the percentage would differ. The article does not specify, creating ambiguity. [confidence: medium]
+- "₹47,973.13cr Frozen shrimp alone — roughly two-thirds (66.3%) of total seafood export earnings" — The article does not provide the total seafood export earnings figure that would allow this calculation. The ₹72,325.82cr figure is cited as the total seafood export value, but 66.3% of this would be ₹47,973.13cr, which matches the frozen shrimp value. However, the article does not explicitly state that the total seafood export earnings are ₹72,325.82cr, making the claim unverifiable without cross-referencing the source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The constraint isn't feedstock availability — it's structure. Tallow supply is almost entirely a derivative of the meat-processing and rendering industry, which means it inherits that industry's volatility. When COVID-era lockdowns cut meat exports and shut abattoirs, India's nascent tallow-biodiesel supply chain lost its raw material at the same time, a linkage flagged directly in contemporary trade reporting." — While the claim about volatility is correct, the interpretation that the constraint is solely structural (logistics/infrastructure) is incomplete. The article does not address economic viability (e.g., cost competitiveness of tallow vs. UCO as a biodiesel feedstock) or policy incentives (e.g., pricing, subsidies, or blending mandates for tallow specifically). The structural explanation alone does not fully account for the lack of scale in tallow-to-biodiesel conversion. [confidence: high]
+- "India's National Biofuel Policy already permits tallow as a biodiesel feedstock, and the country carries a 5% biodiesel blending (B5) target for 2030 (separate from the unrelated 20% ethanol/E20 target set for 2025-26)." — While the policy and targets are correctly stated, the article implies that the tallow-to-biodiesel pipeline is a natural extension of the biofuel policy without addressing the structural challenges (e.g., feedstock volatility, collection logistics, or economic viability) that prevent scaling. The claim does not acknowledge that the policy mandate (B5 by 2030) is not aligned with current feedstock realities (tallow contributes only ~3% of biodiesel feedstock). This creates a false expectation that the policy alone will drive the industry forward. [confidence: high]
 
-- "The pattern across all three: India already has the raw production base — buffalo herds, rendering byproducts, brackish-water shrimp ponds. What separates the businesses that have scaled (buffalo meat, and now shrimp) from the one that hasn't (tallow biodiesel) is regulatory and logistics infrastructure..." — The claim oversimplifies the separation between scaled and unscaled businesses. While regulatory/logistics infrastructure is a factor, it does not fully explain why shrimp exports scaled rapidly while tallow biodiesel did not. Other critical factors, such as global market demand (e.g., shrimp's high-value export markets like the US and EU), price competitiveness, and the maturity of supply chains, are not addressed. The comparison is an apples-to-oranges analysis that ignores key economic and market drivers. [confidence: high]
+- "A rendering sector this concentrated in a few states, feeding a biodiesel programme with an explicit national blending target, is exactly the kind of byproduct-to-energy pipeline that gets built out once the economics and collection logistics catch up with the policy mandate — it just hasn't happened at scale yet." — The article assumes that the concentration of the rendering sector and the national blending target are sufficient conditions for the tallow-to-biodiesel pipeline to scale. However, it does not address other critical factors such as feedstock pricing, competition with other biodiesel feedstocks (e.g., UCO), or the lack of dedicated infrastructure for tallow collection and processing. The claim overgeneralizes the conditions required for scaling without evidence. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

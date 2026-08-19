@@ -16,19 +16,20 @@ Source: `posts/indias-trade-balance-hsn-wise.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99020, Requested 2850. Please try again in 26m55.68s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Imports have exceeded exports in all 8 fiscal years of merchandise data (FY2018-19 to FY2025-26)" — The article later contradicts this by stating that FY2025-26 data is "not necessarily a complete fiscal year" and was updated on 19 May 2026, implying the data may not cover the full fiscal year. Thus, the claim about all 8 years is premature. [confidence: high]
+- "Imports have exceeded exports in all 8 fiscal years of merchandise data (FY2018-19 to FY2025-26)" — The article claims 8 fiscal years of data, but the text later states that FY2025-26 is "the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." This implies the data for FY2025-26 is provisional and may not represent the full fiscal year, making the claim about all 8 years potentially incorrect. [confidence: high]
 
-- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — The article itself acknowledges that FY2025-26 data is provisional and incomplete, yet it still uses this data to make definitive claims about the trade balance for that year (e.g., "-$334.3bn"). This is inconsistent. [confidence: high]
+- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — While the article acknowledges the provisional nature of FY2025-26 data, it later uses this year's figures as if they were complete (e.g., in the deficit calculation of -$334.3bn). This inconsistency suggests a factual error in how the provisional data is treated. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Even with services trade included, India ran a current-account-style deficit every year from FY2018-19 to FY2024-25 — meaning India still needed to buy more foreign currency than it earned, just by a smaller margin than the goods numbers alone suggest." — The article conflates a trade deficit (goods + services) with a current account deficit. While the trade deficit is part of the current account, the current account also includes income (e.g., remittances, investment income) and unilateral transfers. The claim incorrectly implies that the trade deficit alone determines the current account balance. [confidence: high]
+- "Even with services trade included, India ran a current-account-style deficit every year from FY2018-19 to FY2024-25 — meaning India still needed to buy more foreign currency than it earned, just by a smaller margin than the goods numbers alone suggest." — The article conflates the trade balance (goods + services) with the current account balance. The current account includes not just trade in goods and services but also primary income (e.g., investment income) and secondary income (e.g., remittances). The trade balance (goods + services) is not the same as the current account balance, so the conclusion that India "ran a current-account-style deficit" based solely on trade data is an overreach. [confidence: high]
 
-- "A genuinely widening gap between what India earns abroad and what it spends abroad, even net of its strongest export sector, is exactly the kind of fundamental that currency markets price in over time" — The article attributes the rupee's depreciation solely to the trade deficit, ignoring other factors like capital flows, RBI interventions, global liquidity conditions, and domestic monetary policy. The claim overgeneralizes the relationship between trade deficits and currency depreciation. [confidence: medium]
+- "That's structural downward pressure on the rupee that has nothing to do with any single shock, and it's the backdrop the RBI has been intervening against: spending down reserves (from a $728.5bn peak to a $666.9bn trough) specifically to slow a depreciation this trade picture would otherwise make worse, not to engineer a competitive devaluation." — The article attributes the RBI's reserve spending solely to the trade deficit, but the current account deficit (which includes more than just trade) and capital account flows (e.g., FDI, portfolio investments) also influence reserve movements. The causal claim that the trade picture is the primary driver of reserve depletion is not sufficiently supported by the data presented. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

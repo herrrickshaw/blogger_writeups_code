@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-08-16T15:15:13.536+05:30",
+  "updated": "2026-08-19T11:52:22.239+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 108298,
-  "sha256": "6a4d1e56ebc128a41962fff925e1971ca2d4687470bc5d5f4759ebcb5ae416d1",
+  "bytes": 108201,
+  "sha256": "05357942ed164cda231893ca11a4a116d3c5ced23d247cffe4c514b6d4ed34c6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
       "bytes": [
         107943,
         108298
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        108298,
+        108201
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-08-16T15:16:07.645+05:30",
+  "updated": "2026-08-19T11:16:23.402+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 14126,
-  "sha256": "1130fd2b66ff0ca86a1ef90b8672e1bb0d7edde6b13d160deadc08ddda8712a2",
+  "bytes": 14215,
+  "sha256": "9eeb3698675ca91a31906bb6a68e00633b825671f63db2d93120632b418c642c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -125,6 +125,19 @@
       "bytes": [
         13771,
         14126
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        14126,
+        14215
       ],
       "url_changed": null,
       "markers_changed": null,

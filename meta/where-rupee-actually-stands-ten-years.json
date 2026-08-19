@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-08-16T15:07:09.931+05:30",
+  "updated": "2026-08-19T11:44:46.482+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 51023,
-  "sha256": "7e333bd3d9c20ba660a0b4ba3e858ec9f6248c0fa5cc1247e60f233648657d0b",
+  "bytes": 50954,
+  "sha256": "b7e6ec479764a37679808103f12b626803bf969a94ad79abaf2dbe5c04150c06",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -51,6 +51,19 @@
       "bytes": [
         50668,
         51023
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        51023,
+        50954
       ],
       "url_changed": null,
       "markers_changed": null,

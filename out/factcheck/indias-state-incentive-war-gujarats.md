@@ -9,26 +9,31 @@ Source: `posts/indias-state-incentive-war-gujarats.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99051, Requested 5454. Please try again in 1h4m52.32s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The claim is incorrect because the article itself later states that ACC Battery Storage PLI has ₹0 disbursed due to execution failure, but the outlay is ₹18,100 crore, not ₹18,100cr as of 31 Dec 2025. The phrasing suggests the outlay is as of that date, which is misleading. The outlay is a fixed figure, not a date-specific value. [confidence: high]
+- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The claim is incorrect because the article itself later clarifies that the zero disbursement is a design feature for Solar PV Modules, not ACC Battery Storage. The ACC Battery Storage PLI disbursement is zero due to execution failure, not by design. [confidence: high]
 
-- "West Bengal: All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The claim is unverifiable as stated because the article does not provide a direct source or quote from the gazette bill to confirm the retroactive nature of the revocation. The claim may be correct, but without explicit evidence, it cannot be verified. [confidence: medium]
+- "West Bengal All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The claim is unverifiable as the article does not provide a direct source or quote from the gazette bill to confirm the retroactive revocation. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Gujarat's 2026 industrial policy sorts investors into MSME/Large/Mega/Ultra-Mega tiers with capital-subsidy ceilings from 35% (MSME) up to 40–50% for Ultra-Mega and selected thrust sectors (toys, footwear, robotics, drones), plus a flat 7% interest subsidy and 100% electricity-duty exemption across every tier." — The claim is factually correct but is used to imply that Gujarat's incentive generosity is unmatched or highly effective. However, the article later contradicts this by showing that Karnataka, despite having a less generous incentive menu, has a higher FDI share (22.8%) than Gujarat's implementation share (33.8%). This suggests that the incentive structure alone does not predict investment outcomes, creating a gap in reasoning. [confidence: high]
+- "Gujarat's 2026 industrial policy sorts investors into MSME/Large/Mega/Ultra-Mega tiers with capital-subsidy ceilings from 35% (MSME) up to 40–50% for Ultra-Mega and selected thrust sectors (toys, footwear, robotics, drones), plus a flat 7% interest subsidy and 100% electricity-duty exemption across every tier." — The claim implies that Gujarat's policy is highly generous, but it does not establish whether these subsidies are actually disbursed or if they are merely offered. The article later notes that Gujarat publishes MSME-track disbursal numbers but keeps Large/Mega-track data login-gated, creating a gap between policy intent and actual implementation. [confidence: high]
 
-- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years." — The claim is factually correct but is used to imply that Odisha's investment is almost entirely domestic capital. However, the article does not provide evidence to support the claim that the investment is "almost entirely domestic capital" beyond the low FDI share. The reasoning gap lies in assuming that low FDI share directly translates to domestic capital dominance without further data on the source of investment. [confidence: medium]
+- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years." — The claim suggests that Odisha's investment is almost entirely domestic capital, but it does not provide evidence that the implemented industrial investment is directly tied to domestic capital rather than other forms of investment (e.g., retained earnings, inter-corporate investments). The reasoning gap lies in assuming that low FDI implies domestic capital dominance without verifying the source of the implemented investment. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
