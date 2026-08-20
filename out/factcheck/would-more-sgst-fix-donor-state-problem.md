@@ -22,10 +22,10 @@ Source: `posts/would-more-sgst-fix-donor-state-problem.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PIB's 1 August 2026 devolution instalment share" — The date "1 August 2026" is in the future relative to the current date (2023) and appears to be a typographical error or placeholder. [confidence: high]
+- "PIB’s 1 August 2026 devolution instalment share" — The date is in the future (2026), which is impossible as the article is being fact-checked in the present. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population." — The claim assumes that the primary grievance of "donor states" is about absolute revenue gains rather than relative shares or net contributions. However, the grievance is specifically about the *ratio* of devolution (devolution share relative to contribution), not absolute amounts. Thus, the reasoning conflates absolute gains with the actual metric of concern (devolution-to-contribution ratio). [confidence: high]
+- "Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population." — The claim assumes that the primary grievance of donor states is about absolute revenue gains rather than relative shares or proportional fairness. However, the article does not provide evidence that donor states are primarily concerned with absolute gains rather than their relative share of contributions vs. receipts. The interpretation conflates absolute gains with the actual grievance, which is about the ratio of contributions to receipts. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

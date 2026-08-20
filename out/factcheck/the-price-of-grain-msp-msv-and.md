@@ -22,14 +22,14 @@ Source: `posts/the-price-of-grain-msp-msv-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such note is provided in the text. The claim itself is plausible but unverifiable without the specific breakdown or source. [confidence: medium]
+- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The asterisk (*) suggests a footnote or clarification, but no such note is provided in the text. The claim itself is an order-of-magnitude estimate (as noted later), but the lack of clarity around the asterisk makes it unverifiable. [confidence: medium]
 
-- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure for sugarcane FRP arrears, but the source (likely from a report or PIB release) is not directly quoted or linked in the text. The claim is unverifiable as presented. [confidence: medium]
+- "₹16,087 crore of farmer arrears by February 2026" — The article cites this figure for sugarcane FRP arrears, but the source (IEG WP379/WP420) is not directly verifiable in the provided text, and the claim is not cross-referenced with an official government source (e.g., CACP or PIB). The figure appears in a research synthesis, but its accuracy cannot be confirmed without primary data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The state buys at rung 2, carries to rung 1, and disposes at rungs 3–6 — the vertical gaps are the food subsidy." — The claim implies a direct causal link between the "vertical gaps" in the price ladder and the food subsidy, but it conflates the accounting of procurement costs with the actual subsidy mechanism. The food subsidy is determined by the difference between the central issue price (CIP) and the economic cost, not merely the gaps between administered prices. [confidence: high]
+- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The claim implies that the ethanol loop is a viable and functioning channel for maize procurement, but it does not address the fiscal or logistical feasibility of scaling this channel to absorb a significant portion of the marketed surplus. The article does not provide evidence that the ethanol program can realistically handle the volume required to make MSV effective for maize, nor does it account for potential bottlenecks (e.g., distillery capacity, ethanol blending mandates). [confidence: high]
 
-- "a θ of just 0.3 removes 51% of price-revenue variance; θ = 0.5 removes 75%." — While the mathematical relationship (Var(R) = (1−θ)²·Var(P mkt)) is correct, the article extrapolates this to claim outsized farmer value without empirical validation. The variance reduction is theoretical and may not translate to real-world income stabilization due to other market frictions (e.g., credit constraints, input costs, or regional disparities). [confidence: high]
+- "The state's buffer function, done deliberately, partially self-finances." — The article assumes that counter-cyclical release of stocks (buying at MSP in glut years and selling at higher prices in tight years) will generate revenue to offset procurement costs. However, it does not provide empirical evidence or modeling to support this claim. The assertion ignores potential scenarios where market conditions (e.g., global price collapses, domestic demand shocks) could prevent profitable resale, leaving the government with losses. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

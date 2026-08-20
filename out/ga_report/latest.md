@@ -4,17 +4,17 @@
 
 ## Totals
 
-- Active users: **102**
-- Total users: **102**
-- Page views: **1447**
-- Sessions: **258**
+- Active users: **160**
+- Total users: **160**
+- Page views: **1585**
+- Sessions: **324**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 55 | 1379 |
-| United States | 39 | 52 |
+| United States | 97 | 132 |
+| India | 55 | 1437 |
 | (not set) | 2 | 2 |
 | Malaysia | 2 | 9 |
 | Oman | 2 | 2 |
@@ -25,14 +25,16 @@
 
 | City | Active users | Page views |
 |---|---|---|
+| Flint Hill | 45 | 63 |
 | Chennai | 21 | 312 |
-| (not set) | 17 | 21 |
-| Coimbatore | 17 | 616 |
-| Flint Hill | 13 | 19 |
+| Des Moines | 19 | 25 |
+| (not set) | 18 | 22 |
+| Coimbatore | 17 | 674 |
+|  | 9 | 15 |
 | Madurai | 8 | 230 |
-| Des Moines | 6 | 9 |
 | Salem | 4 | 203 |
 | Hyderabad | 3 | 3 |
+| Moses Lake | 3 | 4 |
 | Bengaluru | 2 | 5 |
 | Delhi | 2 | 2 |
 | Kuala Lumpur | 2 | 9 |
@@ -56,12 +58,15 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 485 | 62 |
-| /search | 93 | 4 |
+| / | 529 | 83 |
+| /search | 94 | 4 |
 | /2026/08/article-index-start-here.html | 58 | 8 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 34 | 6 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 35 | 6 |
 | /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
+| /2026/08/the-milk-india-doesnt-drink-cheese-and.html | 28 | 25 |
+| /2026/08/blending-on-budget-energy-density-and.html | 24 | 24 |
+| /2026/08/global-biofuels-m-bankruptcy-bolt-on.html | 23 | 27 |
 | /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
 | /2026/08/the-503020-rule-is-elizabeth-warrens.html | 19 | 9 |
 | /2026/07/us-stock-picks-multi-screen-quant.html | 15 | 2 |
@@ -72,8 +77,5 @@
 | /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 13 | 4 |
 | /2026/08/a-slice-of-apple-costs-about-1700-slice.html | 12 | 1 |
 | /2026/08/cpi-wpi-trends-mospi-bulletin.html | 12 | 3 |
-| /2026/08/europe-bought-record-amount-of-lng-and.html | 12 | 3 |
-| /2026/08/where-indias-factories-actually-get.html | 12 | 12 |
-| /2026/08/imported-fertiliser-fuel-prices-diesel.html | 11 | 3 |
 
 [1]: same post, folded in from a pre-redirect URL still present in GA4's history (301 confirmed working) -- `/2026/07/india-mineral-oil-hsn-ch27-trade.html` (25 views/13 users)

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html",
   "slug": "tamil-nadus-gst-gap-108-economy-growing",
   "published": "2026-08-12T19:27:46.000+05:30",
-  "updated": "2026-08-19T11:18:38.263+05:30",
+  "updated": "2026-08-20T12:07:33.892+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 24232,
-  "sha256": "c7692914bff51012073386d9f7150828aa26f986ac18e32faf4aecf412871d22",
+  "bytes": 24484,
+  "sha256": "d5940be44cf70e9b56791d98ed2837b19a8121a6b7c3ac9d47178d8e4eede00d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.5",
+  "version": "1.1.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "bytes": [
         24226,
         24232
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24232,
+        24484
       ],
       "url_changed": null,
       "markers_changed": null,

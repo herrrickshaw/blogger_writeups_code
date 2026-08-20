@@ -22,14 +22,12 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (2026-08-13), which is impossible for captured questions. The count of 1,883 is likely incorrect or unverifiable as of the publication date (19 August 2026). [confidence: high]
+- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (e.g., 2026-08-13), which is impossible for a dataset capturing past questions. The claim is unverifiable as stated. [confidence: high]
 
-- "Generated 2026-08-19 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa" — The generation date (2026-08-19) is after the article's publication date (19 August 2026), which is logically inconsistent. [confidence: high]
+- "Generated 2026-08-19 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa." — The generation date is in the future (2026-08-19), which is not possible for a published article. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI-generated text is valid, the article itself is presented as a synthesis aid, not a primary source. The phrasing could mislead readers into treating the article as authoritative rather than a secondary interpretation of the data. [confidence: medium]
-
-- "Ministries answer as of their date; figures in older answers are superseded by newer ones." — This statement is factually correct but implies a causal relationship (older answers are automatically invalidated by newer ones) without clarifying that users must actively cross-reference answers or that the registry does not automatically update or flag superseded data. The interpretation oversimplifies the need for manual verification. [confidence: medium]
+- "The index matches keywords against the subject line only, so a question whose subject names no scheme is not captured even when its answer discusses one at length — coverage is of scheme-titled questions, not of every mention." — While the limitation is correctly stated, the phrasing implies that the dataset is intentionally limited to scheme-titled questions, which may mislead readers into thinking it captures all relevant parliamentary discussions on schemes. The interpretation could be read as a broader claim about the dataset's comprehensiveness than is justified. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

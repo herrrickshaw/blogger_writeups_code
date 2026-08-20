@@ -22,14 +22,10 @@ Source: `posts/one-gallon-five-numbers-how-gcam-fits.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026 · v1.0.0" — The revision date is in the future relative to the current date (2025), making it factually incorrect or premature. [confidence: high]
-
-- "1 tonne CO₂e avoided = 1 CBIO, Brazil's tradable credit" — While this is a common simplification, the actual RenovaBio program defines 1 CBIO as equivalent to 1 metric tonne of CO₂e avoided *relative to a fossil fuel baseline*, not absolute avoidance. The claim oversimplifies the mechanism by omitting the baseline comparison. [confidence: high]
+- "Revised 13 August 2026" — The article claims a revision date of 13 August 2026, but this date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "GCAM treats raw biofuel — corn for ethanol, wood pellets, whatever the feedstock — as removing carbon from the atmosphere at the point of cultivation, and pays an implicit subsidy for that removal, equal to the model's own carbon price." — While GCAM's accounting mechanism is internally consistent, the claim that this "removes carbon from the atmosphere" is an interpretation that conflates *accounting* with *actual atmospheric removal*. The model's "subsidy" is a notional price signal, not a real-world carbon removal, and the carbon is only "removed" in the model's accounting framework, not in reality. The reasoning gap is equating model accounting with physical reality. [confidence: high]
-
-- "Independent life-cycle work on Brazilian sugarcane ethanol, run through the GREET model using data actually submitted under RenovaBio, put its carbon intensity at 35.2 gCO₂e/MJ — a 62% reduction against US gasoline blendstock, before land-use change is even added — giving a real, checkable cross-system comparison point against the corn-ethanol land-use-change spread from Section 2." — The claim implies that the 35.2 gCO₂e/MJ figure is directly comparable to the corn-ethanol land-use-change estimates (e.g., −0.95 to 41 gCO₂e/MJ) from the EPA model comparison, but these are apples-to-oranges comparisons. The sugarcane ethanol figure is a *full lifecycle carbon intensity* (including land-use change), while the corn-ethanol spread is *only the land-use-change component* of lifecycle emissions. The reasoning gap is comparing a total value to a partial component without acknowledging the difference. [confidence: high]
+- "Only bioenergy paired with carbon capture and storage (BECCS) gets to keep the original subsidy, because that carbon never comes back out." — The reasoning gap here is that the claim implies BECCS is the *only* pathway to retain the subsidy, but GCAM's accounting mechanism (as described) actually allows for other forms of permanent sequestration or carbon removal to retain the subsidy, not just BECCS. The statement oversimplifies the conditions under which the subsidy is retained. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

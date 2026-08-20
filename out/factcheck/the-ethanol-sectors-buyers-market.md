@@ -22,14 +22,16 @@ Source: `posts/the-ethanol-sectors-buyers-market.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "roughly 400 crore litres of additional capacity due by FY27" — The article does not provide a verifiable source for this specific figure, and FY27 capacity additions are not clearly documented in the cited sources (Government Interest Subvention Scheme guidelines, EBP Programme documentation, NCDC/DFPD scheme notifications). The claim lacks transparency on how this estimate was derived. [confidence: medium]
+- "roughly 400 crore litres of additional capacity due by FY27" — The article does not provide a verifiable source for this specific figure, and FY27 capacity additions are not clearly documented in the cited sources (Government Interest Subvention Scheme guidelines, EBP Programme documentation, NCDC/DFPD scheme notifications). The claim lacks transparency in how the estimate was derived. [confidence: medium]
 
-- "roughly 277 crore litres" surplus in Maharashtra and "roughly 77 crore litres" shortfall in Tamil Nadu — These regional surplus/deficit figures are presented without clear methodological justification or citation to official data (e.g., DFPD/OMC reports or state-level ethanol supply data). The granularity of such estimates is not typically published in public sources. [confidence: medium]
+- "roughly 277 crore litres" surplus in Maharashtra and "roughly 77 crore litres" shortfall in Tamil Nadu — These regional surplus/deficit figures are presented without clear methodological justification or citation. The article does not explain how these state-level imbalances were calculated or whether they account for transport logistics, local demand variations, or other variables. [confidence: low]
+
+---
 
 INTERPRETATION ERRORS:
-- "India’s ethanol-blending success — hitting the E20 target roughly on the government’s original schedule" — The claim implies that India has successfully achieved the E20 blending target, but the article does not provide evidence (e.g., official blending percentage data for a specific year) to support this conclusion. The E20 target is aspirational and not confirmed to be met in the cited sources. [confidence: high]
+- "India’s ethanol-blending success — hitting the E20 target roughly on the government’s original schedule" — The article conflates the *policy target* (E20 blending mandate) with *actual market success* (achievement of that target). While the government may have set a schedule, there is no evidence in the text that India has actually met the E20 blending target in practice. The claim implies success without verifying real-world blending rates or supply chain outcomes. [confidence: high]
 
-- "The mismatch is real, but it is not evenly distressed: standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills represent a less-examined, better-subsidised route into the same sector" — The article conflates "distress" with "utilisation risk" without defining what constitutes distress or providing evidence that cooperative sugar mills are less distressed. The 90:10 financing advantage may reduce financial distress but does not necessarily imply operational or market viability. [confidence: high]
+- "The mismatch is real, but it is not evenly distressed: standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills represent a less-examined, better-subsidised route into the same sector" — The article assumes that cooperative sugar mills (CSMs) are insulated from utilisation risk due to subsidies and funding structures, but it does not address whether these mills can actually *operate* profitably at 60% absorption or whether their technical limitations (e.g., single-feedstock constraints) make them equally vulnerable to overcapacity. The claim overgeneralizes the resilience of CSMs without evidence of their operational or financial sustainability under current market conditions. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

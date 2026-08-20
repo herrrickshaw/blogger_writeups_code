@@ -22,10 +22,14 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "17th and 18th Lok Sabha (2019-06-21 → 2026-08-12)" — The 17th Lok Sabha was constituted on 2019-06-21, but the 18th Lok Sabha was not yet constituted as of 2026-08-12 (the current date is 2024-06-25). The 18th Lok Sabha election results were declared in June 2024, and the house is expected to convene later in 2024. [confidence: high]
+- "2019-06-21 → 2026-08-12" — The date range is incorrect as the 17th Lok Sabha ended in 2024, and the 18th Lok Sabha began in June 2024, not 2026. [confidence: high]
+
+- "nearly one in seven" — The claim that UDAN/RCS accounts for "nearly one in seven" Lok Sabha questions (273 out of 1,890) is unverifiable without access to the underlying dataset or methodology. The article does not provide a source or breakdown to confirm this proportion. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — This claim suggests that the classification method ensures identical filtering between the registry and the Quarterly Reportage, but the article later acknowledges a known limitation: "The sansad.in index matches keywords against the subject line only, so a question whose subject names no scheme is not captured even when its answer discusses one at length." This means the filtering cannot be identical in practice, as the registry misses questions where schemes are discussed but not explicitly named in the subject line. [confidence: high]
+- "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions captured here" — The claim implies a causal or significant relationship between the number of questions and the scheme's performance or scrutiny level, but the number of questions alone does not objectively measure parliamentary scrutiny or scheme viability. Scrutiny could be driven by other factors (e.g., media attention, public interest, or political controversy). [confidence: high]
+
+- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — The claim suggests that the classification method ensures consistency between the "Quarterly Reportage" and the "Lok Sabha Question Registry," but the article later admits that "a row whose subject has nothing to do with its chip is a classification bug," indicating potential inaccuracies in the classification process. The claim overstates the reliability of the classification method. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -1,16 +1,16 @@
 {
   "id": "6221231851687532011",
-  "title": "One Refinery Flipped Nigeria From Importer to Exporter. Africa's Import Bill Is Still Rising.",
+  "title": "One Refinery Flipped Nigeria From Importer to Exporter. Africa's Oil Imports Are Still Rising.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
   "slug": "one-refinery-flipped-nigeria-from",
   "published": "2026-08-09T03:00:24.000+05:30",
-  "updated": "2026-08-19T11:43:01.468+05:30",
+  "updated": "2026-08-20T12:07:35.199+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 32408,
-  "sha256": "0f703a17024fb1611f8e3c2a0f88236f45af508eb8f52dc878943a9a0d4068ea",
+  "bytes": 32409,
+  "sha256": "b0cb307d8a3be092e6874cf8b1cef830bea838738db659d342e184a331fd7a24",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "bytes": [
         32298,
         32408
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        32408,
+        32409
       ],
       "url_changed": null,
       "markers_changed": null,

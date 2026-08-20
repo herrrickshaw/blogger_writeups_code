@@ -6485,3 +6485,342 @@ scheduled sync
 - `india-ec-approval-funnel-parivesh-20` — 16,782 → 17,128 bytes (+346)
 - `cold-chain-fuel-outlet-integrated-map` — 13,101 → 13,138 bytes (+37)
 - `india-trade-sector-policy` — 18,896 → 18,912 bytes (+16)
+
+## 2026-08-19T12:08:42+05:30 — 174 posts live
+
+**Added**
+
+- `blending-on-budget-energy-density-and` **v1.0.0** — Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs (26,541 bytes)
+
+## 2026-08-19T12:10:40+05:30 — 174 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.5 → 28.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 214,140 → 214,998 bytes (+858)
+
+## 2026-08-19T12:14:36+05:30 — 174 posts live
+
+**Versions**
+
+- `blending-on-budget-energy-density-and` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `blending-on-budget-energy-density-and` — 26,541 → 29,791 bytes (+3,250)
+
+## 2026-08-19T12:30:34+05:30 — 174 posts live
+
+**Versions**
+
+- `blending-on-budget-energy-density-and` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `blending-on-budget-energy-density-and` — 29,791 → 38,083 bytes (+8,292)
+
+## 2026-08-19T12:35:38+05:30 — 174 posts live
+
+**Versions**
+
+- `blending-on-budget-energy-density-and` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `blending-on-budget-energy-density-and` — 38,083 → 38,972 bytes (+889)
+
+## 2026-08-19T14:21:16+05:30 — 174 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.6 → 28.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 214,998 → 215,312 bytes (+314)
+
+## 2026-08-20T05:43:08+05:30 — 175 posts live
+
+**Added**
+
+- `the-national-beekeeping-honey-mission` **v1.0.0** — The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It (24,628 bytes)
+
+## 2026-08-20T05:44:23+05:30 — 175 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.7 → 28.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 215,312 → 215,725 bytes (+413)
+
+## 2026-08-20T05:55:31+05:30 — 176 posts live
+
+**Added**
+
+- `biomass-power-at-night-dispatchable` **v1.0.0** — Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind (21,346 bytes)
+
+## 2026-08-20T05:56:39+05:30 — 176 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.8 → 28.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 215,725 → 216,044 bytes (+319)
+
+## 2026-08-20T06:03:49+05:30 — 176 posts live
+
+**Versions**
+
+- `biomass-power-at-night-dispatchable` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `biomass-power-at-night-dispatchable` — 21,346 → 25,596 bytes (+4,250)
+
+## 2026-08-20T06:14:21+05:30 — 178 posts live
+
+**Added**
+
+- `the-levelised-cost-of-hydrogen` **v1.0.0** — The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target (23,424 bytes)
+- `indian-railways-98-to-earn-100-business` **v1.0.0** — Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made (22,083 bytes)
+
+## 2026-08-20T06:15:27+05:30 — 178 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.9 → 28.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 216,044 → 217,150 bytes (+1,106)
+
+## 2026-08-20T06:25:54+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indian-railways-98-to-earn-100-business` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `biomass-power-at-night-dispatchable` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-national-beekeeping-honey-mission` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 23,424 → 25,484 bytes (+2,060)
+- `indian-railways-98-to-earn-100-business` — 22,083 → 24,362 bytes (+2,279)
+- `biomass-power-at-night-dispatchable` — 25,596 → 27,941 bytes (+2,345)
+- `the-national-beekeeping-honey-mission` — 24,628 → 26,963 bytes (+2,335)
+
+## 2026-08-20T08:51:17+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 25,484 → 33,791 bytes (+8,307)
+
+## 2026-08-20T09:00:41+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 33,791 → 42,244 bytes (+8,453)
+
+## 2026-08-20T09:09:58+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 42,244 → 52,091 bytes (+9,847)
+
+## 2026-08-20T09:16:39+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 52,091 → 52,622 bytes (+531)
+
+## 2026-08-20T09:35:24+05:30 — 179 posts live
+
+**Added**
+
+- `inside-refinery-how-hydrogen-cleans` **v1.0.0** — Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price (34,659 bytes)
+
+## 2026-08-20T09:37:37+05:30 — 179 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.10 → 28.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 217,150 → 218,418 bytes (+1,268)
+
+## 2026-08-20T09:52:38+05:30 — 180 posts live
+
+**Added**
+
+- `the-software-behind-still-whats` **v1.0.0** — The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain (33,733 bytes)
+
+## 2026-08-20T09:54:22+05:30 — 180 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.11 → 28.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 218,418 → 219,362 bytes (+944)
+
+## 2026-08-20T10:02:39+05:30 — 181 posts live
+
+**Added**
+
+- `ten-cubic-metres-hour-indias-first` **v1.0.0** — Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It (28,926 bytes)
+
+## 2026-08-20T10:04:17+05:30 — 181 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.12 → 28.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 219,362 → 220,629 bytes (+1,267)
+
+## 2026-08-20T10:16:30+05:30 — 181 posts live
+
+**Versions**
+
+- `ten-cubic-metres-hour-indias-first` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `inside-refinery-how-hydrogen-cleans` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ten-cubic-metres-hour-indias-first` — 28,926 → 30,946 bytes (+2,020)
+- `inside-refinery-how-hydrogen-cleans` — 34,659 → 36,445 bytes (+1,786)
+
+## 2026-08-20T10:23:18+05:30 — 182 posts live
+
+**Added**
+
+- `refineries-under-fire-how-two-wars` **v1.0.0** — Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item (31,301 bytes)
+
+## 2026-08-20T10:24:56+05:30 — 182 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.13 → 28.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 220,629 → 221,638 bytes (+1,009)
+
+## 2026-08-20T10:47:28+05:30 — 182 posts live
+
+**Versions**
+
+- `refineries-under-fire-how-two-wars` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `refineries-under-fire-how-two-wars` — 31,301 → 34,347 bytes (+3,046)
+
+## 2026-08-20T12:15:48+05:30 — 183 posts live
+
+**Added**
+
+- `the-balkan-relish-india-already-has` **v1.0.0** — The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar (26,030 bytes)
+
+**Versions**
+
+- `the-national-beekeeping-honey-mission` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-most-discussed-schemes-in` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-water-bill-nobody-mentions-what` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `guar-gum-indias-35-billion-export-peak` **4.0.3 → 4.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `how-indias-automotive-clusters-rewired` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.2.6 → 1.2.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `would-more-sgst-fix-donor-state-problem` **1.1.6 → 1.1.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tamil-nadus-gst-gap-108-economy-growing` **1.1.5 → 1.1.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `one-refinery-flipped-nigeria-from` **2.0.8 → 2.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cocoas-blockchain-reckoning-one` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-state-incentive-war-gujarats` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **1.0.6 → 1.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `lok-sabha-question-registry-1843-scheme` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `securitising-deficit-what-it-would` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `state-by-state-who-actually-earns-from` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-indias-factories-actually-get` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-national-beekeeping-honey-mission` — 26,963 → 27,182 bytes (+219)
+- `the-most-discussed-schemes-in` — 34,480 → 34,518 bytes (+38)
+- `the-water-bill-nobody-mentions-what` — 22,029 → 22,029 bytes (+0)
+- `guar-gum-indias-35-billion-export-peak` — 27,875 → 27,897 bytes (+22)
+- `how-indias-automotive-clusters-rewired` — 24,379 → 24,379 bytes (+0)
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 29,494 → 29,894 bytes (+400)
+- `would-more-sgst-fix-donor-state-problem` — 24,532 → 25,630 bytes (+1,098)
+- `tamil-nadus-gst-gap-108-economy-growing` — 24,232 → 24,484 bytes (+252)
+- `one-refinery-flipped-nigeria-from` — 32,408 → 32,409 bytes (+1)
+- `cocoas-blockchain-reckoning-one` — 23,634 → 23,646 bytes (+12)
+- `indias-state-incentive-war-gujarats` — 32,267 → 32,374 bytes (+107)
+- `rare-earth-magnets-and-specialty-steel` — 11,010 → 11,800 bytes (+790)
+- `lok-sabha-question-registry-1843-scheme` — 392,062 → 392,266 bytes (+204)
+- `securitising-deficit-what-it-would` — 121,865 → 121,988 bytes (+123)
+- `state-by-state-who-actually-earns-from` — 54,695 → 54,835 bytes (+140)
+- `where-indias-factories-actually-get` — 44,029 → 44,062 bytes (+33)
+
+## 2026-08-20T12:18:04+05:30 — 183 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.14 → 28.0.15** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 221,638 → 222,583 bytes (+945)
+
+## 2026-08-20T12:33:26+05:30 — 183 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.2 → 7.2.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-full-hsn-8_01082878313` **2.0.8 → 2.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **2.0.10 → 2.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-quarterly` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-analysis` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 54,301 → 54,895 bytes (+594)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 384,452 → 385,027 bytes (+575); markers revision_line False→True
+- `top-15-chemicals-for-import` — 82,975 → 83,289 bytes (+314)
+- `chemical-import-substitution-quarterly` — 53,388 → 54,036 bytes (+648)
+- `chemical-import-substitution-analysis` — 34,928 → 34,944 bytes (+16)
+
+## 2026-08-20T12:44:18+05:30 — 183 posts live
+
+**Versions**
+
+- `the-balkan-relish-india-already-has` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-balkan-relish-india-already-has` — 26,030 → 26,721 bytes (+691)

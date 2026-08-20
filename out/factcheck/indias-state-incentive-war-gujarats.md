@@ -9,14 +9,10 @@ Source: `posts/indias-state-incentive-war-gujarats.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,16 @@ Source: `posts/indias-state-incentive-war-gujarats.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The claim is incorrect because the article itself later clarifies that the zero disbursement is a design feature for Solar PV Modules, not ACC Battery Storage. The ACC Battery Storage PLI disbursement is zero due to execution failure, not by design. [confidence: high]
+- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The article later contradicts this by stating that ACC Battery Storage PLI has ₹0 disbursed due to execution failure, but the outlay figure of ₹18,100cr is not confirmed in the cited sources. The PLI disbursement table lists ACC Battery Storage with ₹0 disbursed but does not provide an outlay figure, making the claim unverifiable. [confidence: medium]
 
-- "West Bengal All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The claim is unverifiable as the article does not provide a direct source or quote from the gazette bill to confirm the retroactive revocation. [confidence: medium]
+- "West Bengal All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The article cites "West Bengal Bill No. 5 of 2025" as the source for revoked schemes, but no such bill is publicly available or verifiable in official West Bengal legislative records as of the article's publication. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Gujarat's 2026 industrial policy sorts investors into MSME/Large/Mega/Ultra-Mega tiers with capital-subsidy ceilings from 35% (MSME) up to 40–50% for Ultra-Mega and selected thrust sectors (toys, footwear, robotics, drones), plus a flat 7% interest subsidy and 100% electricity-duty exemption across every tier." — The claim implies that Gujarat's policy is highly generous, but it does not establish whether these subsidies are actually disbursed or if they are merely offered. The article later notes that Gujarat publishes MSME-track disbursal numbers but keeps Large/Mega-track data login-gated, creating a gap between policy intent and actual implementation. [confidence: high]
+- "Gujarat's 2026 industrial policy sorts investors into MSME/Large/Mega/Ultra-Mega tiers with capital-subsidy ceilings from 35% (MSME) up to 40–50% for Ultra-Mega and selected thrust sectors (toys, footwear, robotics, drones), plus a flat 7% interest subsidy and 100% electricity-duty exemption across every tier. Its dedicated Semiconductor Policy tops up the central ISM subsidy by 40 percentage points, taking total capex support to roughly 70%." — The claim implies that the Gujarat Semiconductor Policy's 40 percentage-point top-up is additive to the 50% capital subsidy ceiling for Ultra-Mega projects, resulting in a total of ~70% support. However, the article does not provide evidence that the 40 percentage-point top-up is applied on top of the 50% ceiling (which may already include central subsidies). Without clarification on whether the 50% is state-only or includes central PLI, this could be double-counting or an apples-to-oranges comparison. [confidence: high]
 
-- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years." — The claim suggests that Odisha's investment is almost entirely domestic capital, but it does not provide evidence that the implemented industrial investment is directly tied to domestic capital rather than other forms of investment (e.g., retained earnings, inter-corporate investments). The reasoning gap lies in assuming that low FDI implies domestic capital dominance without verifying the source of the implemented investment. [confidence: medium]
+- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years. Its investment is almost entirely domestic capital (steel, metals, refining) landing and getting built, not foreign money." — The article correctly notes Odisha's high implementation share despite low FDI, but it incorrectly implies that the domestic capital is necessarily "not foreign money." Domestic capital can include investments from Indian entities with foreign ownership or funding sources, which may not be captured in FDI statistics. The reasoning conflates "domestic capital" with "non-foreign money," ignoring the possibility of foreign-influenced domestic investments. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

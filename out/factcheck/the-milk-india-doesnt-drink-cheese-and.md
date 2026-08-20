@@ -22,14 +22,14 @@ Source: `posts/the-milk-india-doesnt-drink-cheese-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India produced an estimated 216.5 million tonnes (MT) of milk in 2025" — The article itself later contradicts this figure, citing 228 million tonnes (2025) and 239.2 million tonnes (2023-24) from CRISIL/APEDA sources. The 216.5 MT figure is inconsistent with other credible sources in the same article. [confidence: high]
+- "India produced an estimated 216.5 million tonnes (MT) of milk in 2025" — The article itself later contradicts this figure, citing 228 million tonnes (2025) and 239.2 million tonnes (2023-24) from other sources. The 216.5 MT figure is inconsistent with its own cited data. [confidence: high]
 
-- "India's mozzarella exports reached USD 3.29 million in April-September 2025, a year-on-year increase of more than 1,200%" — While the export growth figure is correct, the article incorrectly attributes this to Amul's production capacity expansion, which was a separate ₹200 crore investment. The 1,200% refers to export volume growth, not production capacity. [confidence: high]
+- "India's cheese market was valued at roughly ₹128.9 billion (~USD 1.5 billion) in 2025, per IMARC Group's market sizing" — The article later notes that cheese-market valuation figures come from a single market-research firm (IMARC) without cross-checking against a second independent estimate, raising reliability concerns. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "cheese isn't competing with milk, it's competing for a share of milk that's already leaving the liquid channel, against ghee, paneer and powder that got there first" — While the claim that cheese competes for non-liquid milk is plausible, the article does not provide evidence that cheese is actually displacing other value-added dairy products (like ghee or paneer) in the non-liquid milk pool. The claim assumes substitution without demonstrating it. [confidence: medium]
+- "cheese isn't competing with milk, it's competing for a share of milk that's already leaving the liquid channel, against ghee, paneer and powder that got there first" — While the claim that cheese competes for non-liquid milk is plausible, the article does not provide evidence that cheese is *actually* displacing other value-added dairy products (e.g., ghee or paneer) in the non-liquid milk pool. The reasoning assumes competition without demonstrating substitution or market dynamics. [confidence: medium]
 
-- "The growth story is mozzarella, and mozzarella's growth story is pizza and QSR chains, not the breakfast table" — While mozzarella's growth is linked to pizza and QSR demand, the article does not establish that this shift has *reduced* demand for traditional cheese formats (e.g., breakfast cubes) or that the breakfast table market has declined. The causal claim is not supported by data. [confidence: medium]
+- "The growth story is mozzarella, and mozzarella's growth story is pizza and QSR chains, not the breakfast table" — The article cites shredded cheese's 30% market share and HoReCa dominance as evidence of this shift but does not provide data on historical breakfast-table cheese consumption (e.g., processed cheese cubes) to substantiate the claim that the market has *moved away* from breakfast formats. The conclusion extrapolates from current format shares without baseline context. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

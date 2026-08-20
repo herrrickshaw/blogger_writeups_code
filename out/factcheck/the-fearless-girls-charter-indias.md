@@ -22,14 +22,14 @@ Source: `posts/the-fearless-girls-charter-indias.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "STCG at 20%, LTCG at 12.5%" — These tax rates are incorrect for India as of 2024. The current STCG tax on equity is 15% (for holdings <12 months) and LTCG tax is 10% (for holdings >12 months, with exemptions up to ₹1 lakh). The article likely conflates these with other jurisdictions or outdated rates. [confidence: high]
+- "STCG at 20%, LTCG at 12.5%" — These tax rates are incorrect for India as of 2024. The current STCG tax rate for equities is 15% (for holdings <12 months), and LTCG tax rate is 10% (for holdings >12 months) on gains exceeding ₹1 lakh. The article does not specify the asset class, but these rates are not applicable to equities. [confidence: high]
 
-- "FPI net settlement on schedule" — The claim lacks specificity about the schedule or whether such a timeline has been officially announced by SEBI or RBI. Without a verifiable source, this cannot be confirmed. [confidence: medium]
+- "FPI net settlement on schedule" — The article does not provide a specific date or schedule for FPI net settlement implementation, making this claim unverifiable. The phrasing suggests a definitive timeline exists, which may not be accurate or publicly confirmed. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Reward those who stay invested instead of penalising them" — The claim implies a causal link between LTCG/STCG tax rates and investor behavior (e.g., discouraging long-term investment), but the article does not provide evidence or data to support this assertion. Tax rates are one of many factors influencing investment decisions, and the claim extrapolates beyond what the tax policy alone can justify. [confidence: high]
+- "Reward those who stay invested instead of penalising them" — The claim implies a causal link between LTCG/STCG tax rates and investor behavior (rewarding patience), but it does not account for other factors influencing investment decisions (e.g., market conditions, risk appetite, or alternative investment avenues). The tax policy alone may not directly incentivize long-term holding. [confidence: high]
 
-- "Deepening the corporate bond market with bond ETFs and RBI-coordinated derivatives will give ordinary savers safe fixed-income options" — While bond ETFs can provide access to corporate bonds, they are not inherently "safe" (e.g., credit risk, interest rate risk, liquidity risk remain). The claim conflates accessibility with safety without addressing these risks or providing evidence that such instruments are safer than alternatives for retail savers. [confidence: high]
+- "Move the whole market toward same-day, then instant settlement, safely freeing up capital that sits idle in the pipes" — While T+0 settlement could theoretically free up capital, the claim assumes seamless scalability and safety without addressing potential risks (e.g., operational bottlenecks, systemic risks, or regulatory constraints). The extrapolation from a beta phase to a full market transition is not supported by evidence. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

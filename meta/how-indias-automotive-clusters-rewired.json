@@ -4,12 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
   "slug": "how-indias-automotive-clusters-rewired",
   "published": "2026-08-15T07:16:39.000+05:30",
-  "updated": "2026-08-16T15:06:42.064+05:30",
+  "updated": "2026-08-20T12:07:33.736+05:30",
   "labels": [
+    "Industrial Policy",
     "Manufacturing"
   ],
   "bytes": 24379,
-  "sha256": "892eb5c3af6e0a1f7cda199cf5d7e5008983950a5031d49d50144b463bc2f87d",
+  "sha256": "34e6b53bc6da7e29a9749118ac6744980ffce25f65ddf4be153056422fb3d999",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -50,6 +51,19 @@
       "reason": "visible text identical; only markup/styling changed",
       "bytes": [
         24024,
+        24379
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24379,
         24379
       ],
       "url_changed": null,

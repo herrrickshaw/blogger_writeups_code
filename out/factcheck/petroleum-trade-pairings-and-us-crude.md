@@ -24,12 +24,12 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Total crude incl. SPR 58% of peak 711.8 M bbl all US crude · peak 1,227.7M (2017-03)" — The peak value of 1,227.7M barrels for total US crude (including SPR) in March 2017 is incorrect. Historical EIA data shows the peak was closer to 1,000M barrels (e.g., around 990M barrels in 2017). [confidence: high]
+- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in the past, making these claims unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavier crude due to refinery configurations, the claim that this "grade mismatch" fully explains the net import position is an oversimplification. The US is a net importer of crude oil primarily because domestic production does not meet total refinery demand, not just because of grade mismatches. The article conflates two separate issues: product mix and overall supply-demand balance. [confidence: high]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavy sour crude, the claim that this "grade mismatch" fully explains the trade deficit is an oversimplification. The trade deficit could also be influenced by other factors such as refining capacity, domestic demand, or geopolitical constraints, which are not addressed in the data presented. [confidence: medium]
 
-- "US crude exports sells 100.3 $bn HS 2709 · 2025 US crude imports buys 146.8 $bn HS 2709 · 2025 Net crude position deficit -46.5 $bn still a net crude importer" — The article presents net crude trade in dollar terms without adjusting for price differences between exports and imports. Since the US exports lighter, higher-value crude and imports heavier, lower-value crude, the dollar deficit does not accurately reflect the volume deficit. Comparing trade values without accounting for price differentials leads to a misleading interpretation of the net import position. [confidence: high]
+- "US crude exports sells 100.3 $bn" and "US crude imports buys 146.8 $bn" — The article presents these figures as absolute values without clarifying whether they are nominal or volume-adjusted, or whether they account for price fluctuations. This could lead to misinterpretation of the actual trade volumes or trends. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -22,14 +22,10 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 (FY2025-26) is not yet complete as of July 2026, so referring to it as "FY2025-26" is misleading. The correct designation should be FY2024-25 or a future year, or the data should be explicitly labeled as provisional for a future fiscal year. [confidence: high]
-
-- "Chapter 85’s deficit is now $11.6bn wider than at the start — even as Ch.87’s surplus grew" — The article does not specify the starting year for this comparison, making the claim unverifiable. The table shows data from FY2018-19 to FY2025-26, but the "$11.6bn wider" figure is not directly supported by the table's net trade values. [confidence: high]
+- "FY2025-26" — The fiscal year 2025-26 has not yet concluded (as of July 2026), so provisional data for this period cannot be accurate or finalized. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further; this post works at the chapter level available here." — While the article acknowledges that Chapter 85 includes non-EV items (e.g., mobile phones, consumer electronics), it proceeds to discuss the EV transition's impact on trade balance using Chapter 85 data without isolating EV-specific components. This risks conflating general electrical machinery trade with EV-specific trade, leading to an apples-to-oranges comparison. [confidence: high]
-
-- "Sustaining the Chapter 87 surplus through the EV transition means building Chapter 85 capability at the same pace India already built engine and transmission capability — not just continuing to assemble vehicle bodies around an imported electric core." — The article correctly identifies that EV components (Chapter 85) are imported, but it does not provide evidence that India is *not* building domestic capability in these areas (e.g., via PLI schemes or FAME II). The claim assumes a lack of progress without data, making it an unsupported extrapolation. [confidence: medium]
+- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further" — While this claim is factually correct about the need for finer classification, it does not address the article's broader interpretation that the entire Chapter 85 deficit is directly tied to EV components. The deficit in Chapter 85 includes many non-EV items (e.g., mobile phones, consumer electronics), so attributing the deficit's widening solely to EV-related imports is an overgeneralization. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

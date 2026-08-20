@@ -3,13 +3,13 @@
   "title": "The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
-  "published": "2026-08-04T15:50:00.000+05:30",
-  "updated": "2026-08-19T11:39:32.609+05:30",
+  "published": "2026-08-19T15:50:00.000+05:30",
+  "updated": "2026-08-20T12:07:45.146+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 34480,
-  "sha256": "ee40303f2e73d4e6fedcfe5e184d316dad2ad5e3addcc37aef3b0f99bde4e4ec",
+  "bytes": 34518,
+  "sha256": "4ee263e4d62e899b7006ee3158b820a7ea28c1b0482a9c4b69393945fbc584c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "bytes": [
         34227,
         34480
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34480,
+        34518
       ],
       "url_changed": null,
       "markers_changed": null,

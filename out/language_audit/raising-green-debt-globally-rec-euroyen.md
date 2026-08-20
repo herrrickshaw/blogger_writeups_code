@@ -7,4 +7,3 @@
 - **[GRAMMAR/IS_AND_ARE]** Possible subject-verb agreement error.
   context: ...ign rating shapes the risk appetite and mandate structure of its domestic institutional...
   suggested: mandates
-- ERROR checking chunk: HTTP Error 500: Internal Server Error

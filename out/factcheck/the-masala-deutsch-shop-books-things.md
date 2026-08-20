@@ -22,10 +22,10 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Updated 16 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+- "Updated 16 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "generated from the same list that renders the reading blocks on every article, so the two cannot disagree" — This claim implies that the list on this page is automatically generated and thus error-free, but it does not address the possibility of human error in the original list or the automated process. The reasoning gap is that automation does not guarantee correctness, and the claim assumes the system is foolproof without evidence. [confidence: medium]
+- "generated from the same list that renders the reading blocks on every article, so the two cannot disagree" — This claim implies a technical guarantee of consistency between the list and the reading blocks, but it does not logically follow that the two cannot disagree in content or presentation. The statement conflates technical generation with content accuracy or editorial consistency. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

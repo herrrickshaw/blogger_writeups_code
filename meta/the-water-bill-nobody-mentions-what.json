@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
   "slug": "the-water-bill-nobody-mentions-what",
   "published": "2026-08-18T04:39:02.000+05:30",
-  "updated": "2026-08-19T11:50:15.794+05:30",
+  "updated": "2026-08-20T11:58:00.250+05:30",
   "labels": [
     "Environment & Clearances",
     "Import Substitution",
     "Manufacturing"
   ],
   "bytes": 22029,
-  "sha256": "0bd517a28368bc631518ab7b1e52e4fb9c4eba805843c13610a79cc63b0001ba",
+  "sha256": "07d43cdd309b2536ea6896fb6f263d19bed76c861dcff143a7c23e211cb5b24b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -39,6 +39,19 @@
       "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
       "bytes": [
         21993,
+        22029
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22029,
         22029
       ],
       "url_changed": null,

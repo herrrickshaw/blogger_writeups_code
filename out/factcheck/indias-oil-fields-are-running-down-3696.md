@@ -9,14 +9,10 @@ Source: `posts/indias-oil-fields-are-running-down-3696.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,12 +22,14 @@ Source: `posts/indias-oil-fields-are-running-down-3696.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "28.70 MMT Crude production FY2024-25, against a 31.27 MMT target — 91.8% achieved" — The table in the article shows FY2024-25 crude production as 28.70 MMT, but the target is listed as 31,272 TMT (31.272 MMT), which matches the claim. However, the article later states "28.70 MMT Crude production FY2024-25, against a 31.27 MMT target — 91.8% achieved," which is correct in terms of the numbers provided. No factual error found here. [confidence: high]
-- "Gas consumption rising 7.1% to 72,293 MMSCM" — The article cites PPAC's "Flash Report on Oil & Gas, July 2026" for this figure, but July 2026 is a future date (as of the current knowledge cutoff in 2023), making this claim unverifiable and likely incorrect. [confidence: high]
+- "28.70 MMT Crude production FY2024-25, against a 31.27 MMT target — 91.8% achieved" — The article states the target as 31.27 MMT, but the table later shows the target as 31,272 TMT (31.272 MMT), which is consistent with the 91.8% achievement. However, the claim that "28.70 MMT Crude production FY2024-25" is correct, but the target is listed as 31.27 MMT in the text and 31,272 TMT in the table. The discrepancy in decimal places (31.27 vs. 31.272) is minor but could be clarified. [confidence: high]
+
+- "LNG imports up 15.4%" — The article cites "LNG imports up 15.4%" but does not specify the time frame or baseline for this percentage. Without a clear reference period or data source, this claim is unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "PSC oil fell from 11.78 to 6.79 MMT — a loss of 5.0 MMT, or 42%. The private blocks declined faster than the state ones." — While the numbers are correct, the interpretation that "private blocks declined faster than the state ones" is misleading because the PSC oil started at a lower base (11.78 MMT vs. ONGC's 22.26 MMT). The absolute decline (5.0 MMT) is larger for PSC, but the percentage decline (42%) is not directly comparable to ONGC's 17% decline without considering the initial volumes. The framing implies a uniform trend across all operators, which is not supported by the data. [confidence: high]
-- "The refining industry is world-scale, expanding and profitable. It simply runs on other people's oil, and 78.5% of what it processes is high-sulphur crude, which narrows the grades India can realistically substitute toward when it wants to change supplier." — While the refining industry's scale and profitability are likely correct, the claim that "78.5% of what it processes is high-sulphur crude" is not directly supported by the cited sources in the article. The article does not provide a breakdown of crude grades processed by Indian refineries, making this an unsupported interpretation. [confidence: medium]
+- "Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it." — While the data shows PSC gas production increased from 7.84 to 13.38 BCM, attributing this solely to "private deepwater" replacing "state fields" is an oversimplification. The increase in PSC gas is due to new deepwater discoveries (e.g., KG basin), but the decline in state fields (ONGC/OIL) is not directly "replaced" by private deepwater in a one-to-one manner. The claim implies a direct replacement, which the data does not fully support. [confidence: high]
+
+- "The refining industry is world-scale, expanding and profitable. It simply runs on other people's oil, and 78.5% of what it processes is high-sulphur crude, which narrows the grades India can realistically substitute toward when it wants to change supplier." — While the refining industry's scale and profitability are likely correct, the claim that "78.5% of what it processes is high-sulphur crude" is not directly supported by the cited sources in the article. The article does not provide a clear breakdown of crude grades processed by Indian refineries, making this an unsupported generalization. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
