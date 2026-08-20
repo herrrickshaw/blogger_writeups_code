@@ -6870,3 +6870,9 @@ scheduled sync
 **Changed**
 
 - `028-unit-diesel-math-behind-indias-data` — 29,428 → 32,867 bytes (+3,439)
+
+## 2026-08-20T21:17:18+05:30 — 185 posts live
+
+**Added**
+
+- `where-indias-gigawatt-data-centre-bets` **v1.0.0** — Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them (24,780 bytes)
