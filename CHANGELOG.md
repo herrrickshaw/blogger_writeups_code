@@ -6902,3 +6902,13 @@ scheduled sync
 **Added**
 
 - `574-gw-and-counting-indias-wind-fleet` **v1.0.0** — 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There (20,543 bytes)
+
+## 2026-08-21T04:05:55+05:30 — 186 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.17 → 28.0.18** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 223,982 → 224,388 bytes (+406)
