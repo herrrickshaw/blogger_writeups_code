@@ -6824,3 +6824,13 @@ scheduled sync
 **Changed**
 
 - `the-balkan-relish-india-already-has` — 26,030 → 26,721 bytes (+691)
+
+## 2026-08-20T13:04:42+05:30 — 183 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.3 → 7.2.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 54,895 → 55,666 bytes (+771)
