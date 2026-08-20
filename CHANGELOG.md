@@ -6583,3 +6583,10 @@ scheduled sync
 **Changed**
 
 - `biomass-power-at-night-dispatchable` — 21,346 → 25,596 bytes (+4,250)
+
+## 2026-08-20T06:14:21+05:30 — 178 posts live
+
+**Added**
+
+- `the-levelised-cost-of-hydrogen` **v1.0.0** — The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target (23,424 bytes)
+- `indian-railways-98-to-earn-100-business` **v1.0.0** — Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made (22,083 bytes)
