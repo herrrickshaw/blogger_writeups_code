@@ -6876,3 +6876,13 @@ scheduled sync
 **Added**
 
 - `where-indias-gigawatt-data-centre-bets` **v1.0.0** — Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them (24,780 bytes)
+
+## 2026-08-20T21:18:28+05:30 — 185 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.16 → 28.0.17** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 223,540 → 223,982 bytes (+442)

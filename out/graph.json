@@ -8,36 +8,43 @@
    "Tamil Nadu"
   ],
   "entities": [
-   "Diesel"
+   "Diesel",
+   "Compressed biogas",
+   "Natural gas"
   ],
   "related": [
    {
-    "slug": "where-india-actually-burns-its-fuel",
+    "slug": "annadata-to-urjadata-farmer-income-case",
     "shared": [
-     "Diesel"
+     "Compressed biogas",
+     "Diesel",
+     "Natural gas"
     ],
-    "w": 0.043
-   },
-   {
-    "slug": "upi-fees-are-now-legal-petrol-pumps",
-    "shared": [
-     "Diesel"
-    ],
-    "w": 0.043
-   },
-   {
-    "slug": "the-margin-case-why-lpg-and",
-    "shared": [
-     "Diesel"
-    ],
-    "w": 0.043
+    "w": 0.286
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
+     "Compressed biogas",
      "Diesel"
     ],
-    "w": 0.043
+    "w": 0.143
+   },
+   {
+    "slug": "the-case-for-biofuels-over-imports",
+    "shared": [
+     "Compressed biogas",
+     "Diesel"
+    ],
+    "w": 0.143
+   },
+   {
+    "slug": "blending-on-budget-energy-density-and",
+    "shared": [
+     "Compressed biogas",
+     "Diesel"
+    ],
+    "w": 0.143
    }
   ]
  },
@@ -262,7 +269,16 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.376
+    "w": 0.365
+   },
+   {
+    "slug": "028-unit-diesel-math-behind-indias-data",
+    "shared": [
+     "Compressed biogas",
+     "Diesel",
+     "Natural gas"
+    ],
+    "w": 0.286
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -273,7 +289,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.256
+    "w": 0.245
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -283,15 +299,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.216
-   },
-   {
-    "slug": "thermal-parity-is-dead-what-85-oil-and",
-    "shared": [
-     "Crude oil",
-     "Natural gas"
-    ],
-    "w": 0.207
+    "w": 0.205
    }
   ]
  },
@@ -573,7 +581,7 @@
      "Carbon credits",
      "Compressed biogas"
     ],
-    "w": 0.278
+    "w": 0.267
    },
    {
     "slug": "the-software-behind-still-whats",
@@ -628,7 +636,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.216
+    "w": 0.205
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -638,7 +646,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.216
+    "w": 0.205
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
@@ -647,15 +655,15 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.186
+    "w": 0.175
    },
    {
-    "slug": "bio-fertiliser-and-green-credits",
+    "slug": "028-unit-diesel-math-behind-indias-data",
     "shared": [
      "Compressed biogas",
-     "Petrol"
+     "Diesel"
     ],
-    "w": 0.141
+    "w": 0.143
    }
   ]
  },
@@ -958,7 +966,7 @@
      "LNG",
      "Natural gas"
     ],
-    "w": 0.667
+    "w": 0.643
    },
    {
     "slug": "a-tax-play-grow-ethanol-sgst-revenue",
@@ -968,20 +976,20 @@
     "w": 0.333
    },
    {
-    "slug": "thermal-parity-is-dead-what-85-oil-and",
+    "slug": "europe-bought-record-amount-of-lng-and",
     "shared": [
-     "Natural gas",
+     "LNG",
      "PPAC"
     ],
     "w": 0.225
    },
    {
-    "slug": "scan-bottle-deliver-what-ppacs-numbers",
+    "slug": "thermal-parity-is-dead-what-85-oil-and",
     "shared": [
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.225
+    "w": 0.202
    }
   ]
  },
@@ -2710,7 +2718,7 @@
      "Carbon credits",
      "Compressed biogas"
     ],
-    "w": 0.278
+    "w": 0.267
    },
    {
     "slug": "the-software-behind-still-whats",
@@ -2921,14 +2929,6 @@
   ],
   "related": [
    {
-    "slug": "nature-versus-nurture-indias-fertiliser",
-    "shared": [
-     "Natural gas",
-     "Urea"
-    ],
-    "w": 0.292
-   },
-   {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Crude oil"
@@ -2944,6 +2944,13 @@
    },
    {
     "slug": "what-india-is-actually-paying-for",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.29
+   },
+   {
+    "slug": "securitising-deficit-what-it-would",
     "shared": [
      "Crude oil"
     ],
@@ -3845,7 +3852,7 @@
      "LNG",
      "Natural gas"
     ],
-    "w": 0.667
+    "w": 0.643
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -4683,7 +4690,7 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.225
+    "w": 0.202
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -4691,7 +4698,7 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.225
+    "w": 0.202
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -4699,7 +4706,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.197
+    "w": 0.173
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -4707,7 +4714,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.197
+    "w": 0.173
    }
   ]
  },
@@ -5223,7 +5230,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.256
+    "w": 0.245
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -5233,7 +5240,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.216
+    "w": 0.205
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -5274,28 +5281,28 @@
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "cow-dung-already-flew-rocket-engine",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.111
+    "w": 0.1
    }
   ]
  },
@@ -5513,7 +5520,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.376
+    "w": 0.365
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -5976,7 +5983,7 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.225
+    "w": 0.202
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -5984,7 +5991,7 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.225
+    "w": 0.202
    },
    {
     "slug": "indias-fertiliser-import-bill-hits-18",
@@ -5992,7 +5999,7 @@
      "Crude oil",
      "Natural gas"
     ],
-    "w": 0.207
+    "w": 0.183
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -6000,7 +6007,7 @@
      "Crude oil",
      "Natural gas"
     ],
-    "w": 0.207
+    "w": 0.183
    }
   ]
  },
@@ -6514,6 +6521,19 @@
     "w": 0.824
    }
   ]
+ },
+ "where-indias-gigawatt-data-centre-bets": {
+  "title": "Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
+  "published": "2026-08-20",
+  "countries": [],
+  "states": [
+   "Tamil Nadu",
+   "Uttar Pradesh",
+   "Telangana"
+  ],
+  "entities": [],
+  "related": []
  },
  "where-indias-green-hydrogen-bets-are": {
   "title": "Where India's Green Hydrogen Bets Are Actually Landing: A State-by-State Map of the Pipeline",
