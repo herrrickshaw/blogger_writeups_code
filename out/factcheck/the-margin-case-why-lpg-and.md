@@ -22,14 +22,10 @@ Source: `posts/the-margin-case-why-lpg-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect because US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the Treasury Department's OFAC sanctions on Sovcomflot and other entities), not November 2025. The EU ban on products refined from Russian crude was set for **December 2022** (not January 2026). [confidence: high]
-
-- "LPG import dependency at roughly 60–64% through FY2024-25" — While the article cites PPAC data showing import dependency rising to 60.1% by FY2021-22, it extrapolates this trend to FY2024-25 without providing PPAC's official figures for those years. The claim lacks verifiable sourcing for the 60–64% range. [confidence: high]
+- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect as US sanctions on Russian crude entities were imposed in 2022 and 2023, not November 2025. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "None of that is a coincidence refiners can ignore: the same crude barrel that makes petrol can, with the modifications this blog has already covered piece by piece, make more LPG and more petrochemical feedstock instead." — The article conflates correlation with causation. While refiners *can* adjust yields to produce more LPG or petrochemical feedstock, the claim that the observed margin compression *must* be due to refiners' deliberate redirection of barrels (rather than external factors like global crack spreads or sanctions) is an overreach. The structural pressures (e.g., weakening diesel/jet cracks, narrowing Russian crude discounts) are not addressed in this causal claim. [confidence: high]
-
-- "A refiner that redirects FCC yield toward LPG... is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The article assumes that domestic LPG production is a fixed or expandable quantity, but it does not account for potential constraints (e.g., refinery capacity, technical limits of FCC units, or policy restrictions) that might prevent refiners from fully displacing imports. The claim treats import dependency as a purely economic opportunity without addressing supply-side feasibility. [confidence: medium]
+- "A refiner that redirects FCC yield toward LPG, using the technical lever and the improved product-differential economics described in Sections 1 and 3, is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The claim assumes that redirecting FCC yield toward LPG will directly displace import volumes, but it does not account for potential supply chain adjustments, changes in domestic production capacity, or shifts in import sources that could mitigate this displacement. The reasoning gap lies in assuming a direct, unidirectional impact on import volumes without considering broader market dynamics. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

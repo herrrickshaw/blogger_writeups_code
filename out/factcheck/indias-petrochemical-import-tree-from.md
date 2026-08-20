@@ -9,14 +9,10 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,10 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The claim implies that the values are sourced from official government statistics (MoC, DGCI&S, TradeStat) covering 2023–2025, but the article does not provide direct citations or links to these specific datasets. Without verification, this cannot be confirmed as accurate. [confidence: medium]
-
-- "HSN = ITC-HS 8-digit; verify on DGFT ITC-HS 2022" — The article incorrectly equates "HSN" (Harmonized System Nomenclature) with "ITC-HS" (Indian Trade Classification based on Harmonized System). While related, they are not the same, and HSN is a broader classification system used globally, whereas ITC-HS is India's specific adaptation. This conflation is factually incorrect. [confidence: high]
+- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The claim implies that the values are based on data from 2023–2025, but the article itself states that the HSN = ITC-HS 8-digit should be verified on DGFT ITC-HS 2022. This creates a contradiction in the timeframe of the data sources. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import" — The claim suggests that cracking petrol-range streams into petrochemicals (e.g., olefins, BTX) will "erase an import" by substituting imports entirely. However, this ignores the fact that India may still need to import crude oil or other feedstocks to produce these chemicals domestically, meaning the import dependence is merely shifted, not eliminated. The reasoning assumes a direct substitution without accounting for upstream dependencies. [confidence: high]
-
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported" — While the products listed are indeed part of the benzene/propylene chains, the claim that their import dependence is "~85–100%" is not clearly supported by the data presented. The article does not provide specific import figures for these individual products, and the 85–100% range appears to be an extrapolation from broader categories (e.g., "high-petrol-link substitutable imports") without justification. This overgeneralizes the import dependence of specific products. [confidence: medium]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — The claim suggests that the high import dependence (~85–100%) for these products is directly linked to their clustering in benzene/propylene chains. However, the article does not provide evidence or data to support this causal relationship. The import dependence could be due to other factors such as lack of domestic production capacity, trade policies, or market dynamics unrelated to the chemical composition. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

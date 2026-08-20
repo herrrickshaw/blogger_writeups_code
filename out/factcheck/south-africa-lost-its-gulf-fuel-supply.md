@@ -21,7 +21,15 @@ Source: `posts/south-africa-lost-its-gulf-fuel-supply.html`
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this with DGCI&S TRADESTAT data showing FY2025-26 exports at US$1,882 million (US$1.882bn), not US$1.88bn. The rounding is inconsistent. [confidence: high]
+
+- "−32.6% Change on the previous year, before the disruption" — The article claims the 32.6% decline in Indian refined-fuel exports to South Africa occurred *before* the Strait of Hormuz disruption, but the FY2025-26 data (April 2025–March 2026) includes the period *after* the disruption began (as the disruption started in the following Indian fiscal year, FY2026-27). The decline is attributed to pre-crisis factors, but the timeline is misaligned. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "India lost a third of that market in FY2025-26 — before anything went wrong." — The article conflates the 32.6% decline in Indian refined-fuel exports to South Africa with a loss of market share, but the decline is in *export value*, not necessarily market share. The article does not provide South Africa's total refined-fuel import data to verify if India's share actually fell or if the decline was due to lower global prices or reduced demand. [confidence: high]
+
+- "The supplier that gained was the one furthest away." — The article uses the April 2026 tanker data (165,000 tonnes from the US) to argue that the US gained market share over India due to distance, but this is an *extrapolation beyond the data*. The tanker figures cover one month at one port and do not account for India's exports in April 2026 (which are not provided) or South Africa's total imports. The claim assumes the US replacement flows displaced India entirely, which is unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -22,10 +22,10 @@ Source: `posts/scan-bottle-deliver-what-ppacs-numbers.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article cites PPAC's Q1 FY2026-27 report for this claim, but the report's date is 1 July 2026, which is before the end of the quarter (30 June 2026). Sales data for a quarter cannot be finalized until the quarter ends, making this claim unverifiable or premature. [confidence: high]
+- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article cites PPAC's Q1 FY2026-27 report for this claim, but the report's date is "as on 1 July 2026," which is before the end of Q1 FY2026-27 (ending 30 June 2026). This is a temporal inconsistency, as the quarterly data cannot be finalized before the quarter ends. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion" — While the growth in connections is real, the article conflates "connections" (which may include inactive or duplicate accounts) with actual "consumption" or "usage." The PPAC report does not clarify whether these connections are actively used, leading to an overstatement of the expansion's impact on actual LPG consumption. [confidence: high]
+- "Active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion" — While the growth in connections is real, the article implies this directly reflects increased LPG consumption or usage. However, the same article later notes a 15.6% year-on-year *decline* in PSU OMCs' domestic LPG sales in Q1 FY2026-27, suggesting that connection growth does not necessarily correlate with consumption growth in that period. The article acknowledges this discrepancy but does not adequately explain why the two metrics diverge, leaving the causal link between connection growth and consumption growth unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

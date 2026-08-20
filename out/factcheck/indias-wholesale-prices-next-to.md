@@ -9,10 +9,14 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -22,14 +26,16 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — This claim is incorrect. The article later contradicts itself by stating that Brazil's producer prices peaked at +31.6% in 2021, while the US PPI peaked in 2021 as well, but the US peak was +17.0% (from Exhibit 1), which is not the highest among the six economies listed. Brazil's peak was indeed the highest, but the "tied for earliest" part is misleading because the US PPI also peaked in 2021, but at a lower rate. [confidence: high]
+- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — Brazil's producer inflation in 2021 was +31.6%, which is indeed the highest peak among the six economies listed in Exhibit 1 for that year. However, the claim that it was "tied with the US for earliest" is incorrect because the US PPI peaked in 2021 (as shown in Exhibit 1 with +17.0% for 2021), while Brazil's peak was also in 2021. The phrasing suggests a tie in timing, which is accurate, but the claim is misleading as it implies the US and Brazil peaked at the same time *and* were tied for the highest peak, which is not the case (Brazil's peak was higher). [confidence: high]
 
-- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states that the cumulative consumer inflation for India over five years (2020–2025) is 27.4%, but Exhibit 3 shows India's consumer inflation as 27.4% over five years (2020–2025). However, the article also mentions that the cumulative rise is +27.4% for India, which aligns with Exhibit 3. This is not an error but a potential misinterpretation of the data. Upon closer inspection, the claim is correct, so this is not a factual error. [confidence: low]
+- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this in the correction note, but the initial claim in the text ("India’s consumer inflation has quietly become one of the lowest in the G20") does not provide a specific cumulative figure. The correction note itself is accurate (27.4% cumulative consumer inflation from 2020–2025), but the lack of clarity in the original claim about the cumulative nature of the figure could be seen as a factual error in context. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is based on Exhibit 2, which shows India's consumer inflation at 2.4% in 2025, lower than several G20 economies. However, the article does not account for the fact that Argentina's inflation is excluded from the comparison due to incomparability, and Argentina's inflation is extremely high (e.g., 219.9% in 2024). While India's inflation is indeed low compared to most G20 economies, the statement could be misleading if interpreted as India being among the absolute lowest in the G20, as Argentina's exclusion skews the comparison. [confidence: medium]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim about the timing and relative size of the 2022 wholesale spike is factually correct (India's WPI in 2022 was +15.4%, while the euro area's PPI was +26.0%), the conclusion that this "was not an Indian policy failure" is an overreach. The article does not provide evidence to rule out the possibility that domestic policies (e.g., fuel taxes, subsidies, or supply-side interventions) influenced the magnitude or persistence of the spike in India relative to other economies. The comparison of absolute values does not address the role of policy. [confidence: high]
 
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim that the 2022 wholesale spike was not uniquely Indian is supported by Exhibit 1 (showing similar patterns across economies), the article does not adequately address the fact that India's WPI is structurally different from other economies' PPIs (e.g., it includes imports and excludes services). The comparison between India's WPI and the euro area's PPI is not apples-to-apples, as the instruments measure different things. This undermines the causal claim that the spike was not due to Indian policy. [confidence: high]
+- "Whatever is driving the 2026 turn — crude moving from roughly $77 to $92 over the period (Brent spot price, EIA, January to June 2026) is the obvious candidate — it is not something happening only to India." — While the rise in crude prices is a plausible driver of the 2026 producer-side turn, the article does not establish causality or rule out other contributing factors (e.g., domestic fuel taxes, supply chain disruptions, or global commodity price movements beyond crude). The claim that the turn is "not something happening only to India" is supported by the synchronised acceleration in other economies, but the attribution to crude prices alone is an oversimplification. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

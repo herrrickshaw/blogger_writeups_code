@@ -26,16 +26,10 @@ Source: `posts/india-grows-soybean-exports-meal-leads.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet" (headline) — The headline implies India barely produces tofu, but the article later notes that soya chunks/nuggets/granules (TVP) are a long-standing, mass-market staple in India, led by brands like Nutrela. This contradicts the headline's framing of India's soy-food industry as minimal. [confidence: high]
-
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes." (text) — The article cites SOPA estimates for 2025-26 output but does not provide a clear source or verification for this specific figure. The cited "Global Agriculture reporting" is vague, and SOPA's own tables do not explicitly list a 2025-26 estimate in the provided data. [confidence: medium]
-
----
+- "India is one of the world's largest soybean growers by area" — This claim is vague and unverifiable without a specific ranking or comparison to other countries. The article does not provide a source or context to confirm India's position relative to other soybean-growing nations. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "A country growing this much soybean is, at the same time, actively lowering barriers to import more soybean oil — the crush economics, not the farm-gate harvest, are what actually govern the trade balance." (text) — While the claim about crush economics influencing trade balance is plausible, the article does not provide evidence linking the specific import duty cut (from 20% to 10% in May 2025) to the trade balance outcome. The duty cut could have other objectives (e.g., controlling retail prices), and the article does not establish causality between the policy change and the trade balance. [confidence: high]
-
-- "Lecithin didn't require India to build a new industry. It required India to keep the one it already had for meal and oil, and sell what used to be a processing waste stream." (text) — While lecithin is indeed a byproduct of oil refining, the claim that India "leads the world" in lecithin exports (8,582 shipments vs. Argentina's 1,499 and China's 586) is presented as a direct result of repurposing waste. However, the article does not explain whether India's leadership is due to processing capacity, export infrastructure, or other factors like global demand shifts. The causal link between India's existing infrastructure and its export dominance is implied but not substantiated. [confidence: medium]
+- "India still imports roughly two-thirds of its total vegetable-oil demand — palm oil alone covers 55-60% of that import bill, with soybean oil (mainly from Argentina and Brazil) and sunflower oil making up most of the rest." — While the import dependence figure may be correct, the article does not establish a causal link between India's soybean production scale and its edible oil import dependency. The crush economics (meal vs. oil split) and global trade dynamics (e.g., palm oil dominance) are not sufficiently analyzed to support the conclusion that India's soybean production directly contributes to its oil import reliance. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

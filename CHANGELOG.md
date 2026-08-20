@@ -6656,3 +6656,9 @@ scheduled sync
 **Changed**
 
 - `the-levelised-cost-of-hydrogen` — 52,091 → 52,622 bytes (+531)
+
+## 2026-08-20T09:35:24+05:30 — 179 posts live
+
+**Added**
+
+- `inside-refinery-how-hydrogen-cleans` **v1.0.0** — Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price (34,659 bytes)

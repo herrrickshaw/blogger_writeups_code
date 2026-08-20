@@ -22,14 +22,14 @@ Source: `posts/tamil-nadu-wind-power-potential-niwe.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future relative to the article's publication date (14 August 2026), making it unverifiable and likely incorrect. [confidence: high]
+- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future (2025) relative to the article's publication date of 14 August 2026, making it unverifiable and likely incorrect. [confidence: high]
 
-- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is not directly sourced from NIWE's primary atlas. This introduces uncertainty about the accuracy of the claim. [confidence: medium]
+- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is not directly sourced from NIWE's primary atlas but from secondary coverage. This introduces uncertainty about the exact figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is a plausible solution, the article does not provide evidence that the policy's design or implementation is sufficient to address the structural issues (e.g., grid connectivity gaps, evacuation infrastructure inadequacies) that are preventing progress. The claim assumes the policy will work without demonstrating its effectiveness. [confidence: high]
+- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is a plausible solution, the article does not provide evidence that the policy's implementation challenges (banking-charge disputes, grid-connectivity gaps, inadequate evacuation infrastructure) are the primary reasons for the slow progress. The causal link between these frictions and the policy's effectiveness is not substantiated. [confidence: medium]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article calculates 35% utilisation based on NIWE's 100m-hub-height assessment (33,799 MW), but acknowledges that modern turbines at 120–150m hub heights would yield significantly higher potential. The conclusion that wind has "unused headroom" is based on an outdated and likely underestimated potential figure, making the claim unsupported. [confidence: high]
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article does not establish that wind is the most effective or feasible resource to address the gap, given the structural constraints (transmission, repowering frictions) and the lack of offshore development. The conclusion assumes wind's primacy without comparing it to other renewable options (e.g., solar, storage) or addressing the practical barriers. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

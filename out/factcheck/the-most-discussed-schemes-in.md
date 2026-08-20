@@ -22,14 +22,14 @@ Source: `posts/the-most-discussed-schemes-in.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "19 August 2026" — The article is dated in the future relative to the current date (2023), and the publication timestamp at the end ("Generated 2026-08-19") suggests this is a projected or placeholder date. This is likely incorrect or unverifiable. [confidence: high]
+- "19 August 2026" — The article is dated in the future relative to the current date (2023), and the publication timestamp at the bottom ("Generated 2026-08-19") suggests this is a placeholder or error. No article can be published in August 2026 as of now. [confidence: high]
 
-- "PM Dhan-Dhaanya Krishi Yojana" first announced on "2025-02-01" — This scheme name and date appear to be fabricated or unverifiable, as no such centrally sponsored scheme is known to exist in official Indian government records. [confidence: high]
+- "PM Dhan-Dhaanya Krishi Yojana | 2025-02-01" — The scheme name appears to be a typographical error or misrepresentation. The correct name is likely "PM Kisan Samman Nidhi" or another scheme, as "Dhan-Dhaanya" is not a recognized government scheme name in India. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — This claim assumes that lack of parliamentary questions is solely due to recency or timing of sessions, ignoring other plausible explanations such as low public salience, poor implementation, or lack of awareness among MPs. The conclusion extrapolates from absence of questions to "not yet questioned," which is not logically supported by the data alone. [confidence: high]
+- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — This claim assumes that lack of parliamentary questions is solely due to the recency of the scheme, ignoring other possible reasons such as low public interest, lack of awareness, or schemes operating without parliamentary scrutiny. The absence of questions does not necessarily imply the schemes are "not yet" monitored or discussed. [confidence: high]
 
-- "PM-KUSUM draws about five times more parliamentary attention than government publicity" — The article compares parliamentary questions (183 total) to an unspecified measure of "government publicity," which is not defined or quantified. Without a comparable metric or source for publicity intensity, this comparison is an apples-to-oranges fallacy. [confidence: high]
+- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While this is a valid methodological limitation, the article later uses the absence of questions as evidence of neglect (e.g., "PLI — White Goods: still running since 2021 with not one subject-titled question"), creating a contradiction. The interpretation conflates a data limitation with a conclusion about scheme neglect. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

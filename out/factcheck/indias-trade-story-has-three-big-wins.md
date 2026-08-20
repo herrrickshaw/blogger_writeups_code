@@ -22,14 +22,14 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India-EU Free Trade Agreement, concluded 27 January 2026" — The EU-India trade deal is not yet concluded as of June 2024; negotiations are ongoing, and no agreement has been finalized. [confidence: high]
+- "India's exports hit a record US$825.3 billion in FY25 across goods and services combined, per the Economic Survey 2025-26" — The article cites the Economic Survey 2025-26, but the date in the article header is "Published 8 August 2026 · v1.0.0 · Economic Survey 2025-26," which implies the survey covers FY2025-26 (April 2025–March 2026), not FY25 (April 2024–March 2025). The figure likely belongs to FY2025-26, not FY25. [confidence: high]
 
-- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide this specific figure or growth rate for services exports. The article appears to fabricate or misattribute this data. [confidence: high]
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The article does not provide a source for this specific figure or the year-on-year growth rate, and it is not clearly attributed to the Economic Survey 2025-26 or any other verifiable source within the text. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme's investment figures may be correct, the article implies that this 26% overshoot is a direct measure of success without accounting for potential overestimation in approved outlays, delayed disbursements, or unmet commitments. The 26% figure alone does not validate the scheme's economic impact or efficiency. [confidence: medium]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme's investment figures are factually correct, the article implies that this overshooting is a direct measure of success without addressing potential inefficiencies or overestimation in the approved outlay. The 26% overshoot could reflect conservative initial estimates rather than exceptional performance, and the article does not explore whether the actual economic impact (e.g., net exports, job sustainability) justifies the higher investment. [confidence: high]
 
-- "Every major policy instrument covered above [...] is aimed overwhelmingly at merchandise trade" — The article assumes that the Export Promotion Mission (EPM), EU FTA, and PLI scheme are *exclusively* goods-focused without acknowledging that the EU FTA includes services provisions (e.g., Mode 1–4 under GATS) and the EPM's "trade-finance component" could theoretically support services exports. The blanket claim overstates the gap. [confidence: medium]
+- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make — it only surfaces that the asymmetry exists" — The article highlights the mismatch between policy focus (goods) and export growth (services) but does not critically assess whether the lack of services-specific policies is justified by market dynamics or if it reflects an oversight. The claim that services may already be globally competitive is speculative and not supported by data in the article. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
