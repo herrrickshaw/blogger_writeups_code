@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-08-16T15:16:19.641+05:30",
+  "updated": "2026-08-20T12:11:07.491+05:30",
   "labels": [
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 11010,
-  "sha256": "e0cdaf3a42b61e65603e82eb9ce065fc62fcde359ab60ad1b00f12318b6a5740",
+  "bytes": 11800,
+  "sha256": "7cd85a02ef88aca4a3330c3400ab70f09da9ccc60cb4a818ca2afe1e847cc7c5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -113,6 +113,19 @@
       "bytes": [
         10655,
         11010
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        11010,
+        11800
       ],
       "url_changed": null,
       "markers_changed": null,

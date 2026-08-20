@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-08-19T11:19:23.322+05:30",
+  "updated": "2026-08-20T11:58:14.520+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
-  "bytes": 27875,
-  "sha256": "dc5e39cf2109c86e51509004eaf29702af45ff4d6c6bca64eb424210c1cec29c",
+  "bytes": 27897,
+  "sha256": "3ef122cbad8136c3780dc8804928692ca6359662e05fadbdca719eec4a533397",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.3",
+  "version": "4.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -104,6 +104,19 @@
       "bytes": [
         27929,
         27875
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.4",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27875,
+        27897
       ],
       "url_changed": null,
       "markers_changed": null,

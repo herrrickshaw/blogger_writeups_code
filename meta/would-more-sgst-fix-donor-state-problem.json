@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html",
   "slug": "would-more-sgst-fix-donor-state-problem",
   "published": "2026-08-12T19:54:17.000+05:30",
-  "updated": "2026-08-19T11:52:06.162+05:30",
+  "updated": "2026-08-20T12:07:35.173+05:30",
   "labels": [
     "Energy & Fuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 24532,
-  "sha256": "5a4463f3bf40c447574b7a30f44ca0ced3013be6e2b1e86a11cbb089b01f09b6",
+  "bytes": 25630,
+  "sha256": "905ca5c068f72e7d3077b070b785822ac5e6364eee94d521c2afcb56b0081986",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.6",
+  "version": "1.1.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,19 @@
       "bytes": [
         24496,
         24532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.7",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24532,
+        25630
       ],
       "url_changed": null,
       "markers_changed": null,

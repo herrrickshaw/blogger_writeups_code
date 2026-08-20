@@ -6742,3 +6742,47 @@ scheduled sync
 **Changed**
 
 - `refineries-under-fire-how-two-wars` — 31,301 → 34,347 bytes (+3,046)
+
+## 2026-08-20T12:15:48+05:30 — 183 posts live
+
+**Added**
+
+- `the-balkan-relish-india-already-has` **v1.0.0** — The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar (26,030 bytes)
+
+**Versions**
+
+- `the-national-beekeeping-honey-mission` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-most-discussed-schemes-in` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-water-bill-nobody-mentions-what` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `guar-gum-indias-35-billion-export-peak` **4.0.3 → 4.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `how-indias-automotive-clusters-rewired` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `push-ethanol-sgst-rate-from-25-to-5-and` **1.2.6 → 1.2.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `would-more-sgst-fix-donor-state-problem` **1.1.6 → 1.1.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tamil-nadus-gst-gap-108-economy-growing` **1.1.5 → 1.1.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `one-refinery-flipped-nigeria-from` **2.0.8 → 2.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cocoas-blockchain-reckoning-one` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-state-incentive-war-gujarats` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **1.0.6 → 1.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `lok-sabha-question-registry-1843-scheme` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `securitising-deficit-what-it-would` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `state-by-state-who-actually-earns-from` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-indias-factories-actually-get` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-national-beekeeping-honey-mission` — 26,963 → 27,182 bytes (+219)
+- `the-most-discussed-schemes-in` — 34,480 → 34,518 bytes (+38)
+- `the-water-bill-nobody-mentions-what` — 22,029 → 22,029 bytes (+0)
+- `guar-gum-indias-35-billion-export-peak` — 27,875 → 27,897 bytes (+22)
+- `how-indias-automotive-clusters-rewired` — 24,379 → 24,379 bytes (+0)
+- `push-ethanol-sgst-rate-from-25-to-5-and` — 29,494 → 29,894 bytes (+400)
+- `would-more-sgst-fix-donor-state-problem` — 24,532 → 25,630 bytes (+1,098)
+- `tamil-nadus-gst-gap-108-economy-growing` — 24,232 → 24,484 bytes (+252)
+- `one-refinery-flipped-nigeria-from` — 32,408 → 32,409 bytes (+1)
+- `cocoas-blockchain-reckoning-one` — 23,634 → 23,646 bytes (+12)
+- `indias-state-incentive-war-gujarats` — 32,267 → 32,374 bytes (+107)
+- `rare-earth-magnets-and-specialty-steel` — 11,010 → 11,800 bytes (+790)
+- `lok-sabha-question-registry-1843-scheme` — 392,062 → 392,266 bytes (+204)
+- `securitising-deficit-what-it-would` — 121,865 → 121,988 bytes (+123)
+- `state-by-state-who-actually-earns-from` — 54,695 → 54,835 bytes (+140)
+- `where-indias-factories-actually-get` — 44,029 → 44,062 bytes (+33)

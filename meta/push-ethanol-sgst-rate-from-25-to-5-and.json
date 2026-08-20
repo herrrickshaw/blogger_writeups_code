@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html",
   "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
   "published": "2026-08-12T20:02:46.000+05:30",
-  "updated": "2026-08-19T11:44:15.205+05:30",
+  "updated": "2026-08-20T12:08:32.955+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 29494,
-  "sha256": "93b69e5827c83e4d1a5a9a23fb8310e82041c49c2911bf8bab5dbd2fc732518a",
+  "bytes": 29894,
+  "sha256": "d368c14b17c108d8bc1702daf1a394977f65b1c2a6e253266da5afb9150d36f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.6",
+  "version": "1.2.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,19 @@
       "bytes": [
         29428,
         29494
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.2.7",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        29494,
+        29894
       ],
       "url_changed": null,
       "markers_changed": null,
