@@ -6722,3 +6722,13 @@ scheduled sync
 **Added**
 
 - `refineries-under-fire-how-two-wars` **v1.0.0** — Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item (31,301 bytes)
+
+## 2026-08-20T10:24:56+05:30 — 182 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.13 → 28.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 220,629 → 221,638 bytes (+1,009)
