@@ -1,40 +1,35 @@
 #!/usr/bin/env python3
 """Build a boilerplate-stripped plain-text corpus for the plagiarism-check pipeline.
 
-Every post shares identical UI chrome (accessibility bar, language picker,
-AI-disclosure paragraph, index-link, revision line). Feeding that straight
-into a similarity checker would just report 183-way "matches" on the
-boilerplate, drowning any real signal. This reuses tools/extract_post.py's
-block extraction, then drops blocks that are pure chrome.
+Uses trafilatura's structural content extraction instead of a hand-maintained
+list of boilerplate marker strings (the original approach here, kept working
+but fragile -- every new bit of site chrome needed its own marker added).
+trafilatura already drops nav/accessibility-bar/language-picker chrome
+automatically; only the two truly identical cross-post sentences (the AI
+disclosure paragraph and the generic government-data disclaimer) still need
+an explicit filter, since those really are inside the article body.
 """
-import glob, os, re, shutil, sys
-
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
-import extract_post
+import glob, os, shutil, sys
+import trafilatura
 
 BOILERPLATE_MARKERS = [
-    'Text Size', 'Small text', 'Medium text', 'Large text',
-    'Read this article aloud', 'Stop reading aloud', 'More tools:',
-    'Jyoti AI', 'Trestle Labs', "Let's Talk Sign", 'Select Language',
-    'Skip to article content', 'All Articles (Index)',
-    'AI Disclosure:', 'as an Amazon Associate',
-    'Updated <time', 'Revised <time', 'gs-typo-unify',
+    'AI Disclosure:',
     'This analysis is based on publicly available government and market data',
     'This analysis draws on publicly available government and market data',
 ]
 
 
-def is_boilerplate(block: str) -> bool:
-    if len(block) < 40:
-        return True  # headers/labels, not prose
-    return any(marker in block for marker in BOILERPLATE_MARKERS)
+def is_boilerplate(paragraph: str) -> bool:
+    return any(marker in paragraph for marker in BOILERPLATE_MARKERS)
 
 
 def clean_text(html_path: str) -> str:
     raw = open(html_path, encoding='utf-8', errors='ignore').read()
-    blocks = extract_post.extract(raw)
-    kept = [b for b in blocks if not is_boilerplate(b)]
-    return '\n\n'.join(kept)
+    extracted = trafilatura.extract(raw, include_tables=True, favor_recall=False)
+    if not extracted:
+        return ''
+    paragraphs = [p for p in extracted.split('\n') if p.strip() and not is_boilerplate(p)]
+    return '\n\n'.join(paragraphs)
 
 
 if __name__ == '__main__':

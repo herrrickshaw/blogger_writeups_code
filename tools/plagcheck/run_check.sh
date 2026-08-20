@@ -18,7 +18,7 @@ OUT="out/plagcheck"
 REPORTS="out/plagcheck/reports"
 mkdir -p "$REPORTS"
 
-python3 tools/plagcheck/extract_corpus.py "$OUT/txt"
+"$PYVENV" tools/plagcheck/extract_corpus.py "$OUT/txt"
 
 rm -rf "$OUT/jplag-results" "$OUT/jplag-results.jplag"
 "$JAVA" -jar tools/plagcheck/bin/jplag-6.3.0.jar "$OUT/txt" -l text -M RUN \
