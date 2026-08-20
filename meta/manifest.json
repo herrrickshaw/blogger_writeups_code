@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-20T19:19:07+05:30",
+  "snapshot": "2026-08-20T21:05:22+05:30",
   "count": 184,
   "posts": {
     "1058853159205559121": {
@@ -14645,13 +14645,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
       "slug": "028-unit-diesel-math-behind-indias-data",
       "published": "2026-08-20T19:11:25.000+05:30",
-      "updated": "2026-08-20T19:18:28.167+05:30",
+      "updated": "2026-08-20T21:04:49.805+05:30",
       "labels": [
         "Data Centres & AI Infra",
         "Energy & Fuels"
       ],
-      "bytes": 29428,
-      "sha256": "e2b6f5a7d80f7428e4b63fca3f243ee681548b5a00d790f6cfa6b35cea46b857",
+      "bytes": 32867,
+      "sha256": "60a5bb29eb1c6400145b175a6c36ba5bbba866659ca74a67d1939cc64f2e2546",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14663,7 +14663,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14680,6 +14680,19 @@
           "bytes": [
             25220,
             29428
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-20T21:05:22+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            29428,
+            32867
           ],
           "url_changed": null,
           "markers_changed": null,

@@ -6860,3 +6860,13 @@ scheduled sync
 **Changed**
 
 - `028-unit-diesel-math-behind-indias-data` — 25,220 → 29,428 bytes (+4,208)
+
+## 2026-08-20T21:05:22+05:30 — 184 posts live
+
+**Versions**
+
+- `028-unit-diesel-math-behind-indias-data` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `028-unit-diesel-math-behind-indias-data` — 29,428 → 32,867 bytes (+3,439)
