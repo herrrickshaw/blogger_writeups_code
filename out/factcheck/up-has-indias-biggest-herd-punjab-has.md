@@ -24,12 +24,8 @@ Source: `posts/up-has-indias-biggest-herd-punjab-has.html`
 FACTUAL ERRORS:
 - "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. The article rounds incorrectly. [confidence: high]
 
-- "247.87 MT Milk production, 2024-25 — up 3.58% year-on-year, per BAHS 2025" — The article does not specify whether "MT" refers to metric tons or million tonnes. In the context of milk production, "MT" typically stands for million tonnes, but the article should clarify this to avoid ambiguity. [confidence: medium]
-
 INTERPRETATION ERRORS:
-- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While Uttar Pradesh's milk production share aligns with its herd size, the article implies a direct causal link between herd size and milk production without accounting for other factors like yield per animal, which vary significantly across states (e.g., Punjab's higher yield). The reasoning gap is assuming that herd size alone explains production share without considering efficiency. [confidence: high]
-
-- "The headcount Parliament was given is a 2019 snapshot... Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites — including the one placed on the record in December 2025 — is a 2019 measurement of a sector that has since grown at nearly 13% a year." — The article claims the livestock sector has grown at "nearly 13% a year" based on the 12.77% CAGR from FY2014-15 to FY2023-24, but this CAGR refers to milk production, not livestock population. The reasoning gap is conflating growth in milk production with growth in livestock numbers, which are distinct metrics. [confidence: high]
+- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While Uttar Pradesh leads in both herd size and milk output, the article implies a direct causal link between herd size and milk production without accounting for other factors like yield per animal, which varies significantly (e.g., Punjab's higher yield). The conclusion oversimplifies the relationship between population and production. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

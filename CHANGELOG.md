@@ -6662,3 +6662,13 @@ scheduled sync
 **Added**
 
 - `inside-refinery-how-hydrogen-cleans` **v1.0.0** — Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price (34,659 bytes)
+
+## 2026-08-20T09:37:37+05:30 — 179 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.10 → 28.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 217,150 → 218,418 bytes (+1,268)
