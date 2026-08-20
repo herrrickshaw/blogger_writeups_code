@@ -6626,3 +6626,13 @@ scheduled sync
 **Changed**
 
 - `the-levelised-cost-of-hydrogen` — 25,484 → 33,791 bytes (+8,307)
+
+## 2026-08-20T09:00:41+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 33,791 → 42,244 bytes (+8,453)
