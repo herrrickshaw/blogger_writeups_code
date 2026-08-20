@@ -6850,3 +6850,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 222,583 → 223,540 bytes (+957)
+
+## 2026-08-20T19:19:07+05:30 — 184 posts live
+
+**Versions**
+
+- `028-unit-diesel-math-behind-indias-data` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `028-unit-diesel-math-behind-indias-data` — 25,220 → 29,428 bytes (+4,208)
