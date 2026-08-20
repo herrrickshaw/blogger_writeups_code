@@ -7,7 +7,7 @@ into a similarity checker would just report 183-way "matches" on the
 boilerplate, drowning any real signal. This reuses tools/extract_post.py's
 block extraction, then drops blocks that are pure chrome.
 """
-import glob, os, re, sys
+import glob, os, re, shutil, sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 import extract_post
@@ -39,6 +39,7 @@ def clean_text(html_path: str) -> str:
 
 if __name__ == '__main__':
     out_dir = sys.argv[1] if len(sys.argv) > 1 else 'out/plagcheck/txt'
+    shutil.rmtree(out_dir, ignore_errors=True)  # drop stale .txt for posts removed since the last run
     os.makedirs(out_dir, exist_ok=True)
     posts_dir = os.path.join(os.path.dirname(__file__), '..', '..', 'posts')
     n = 0
