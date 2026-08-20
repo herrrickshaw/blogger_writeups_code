@@ -5,13 +5,17 @@ ranking surfaces different (often more recent/popular) results than OpenAlex's
 citation-graph ranking, so worth checking both before publishing on a topic.
 
 Routed through rotating free proxies (scholarly's ProxyGenerator.FreeProxies)
-since Google blocks unproxied scrapers outright. Two real compatibility bugs
-had to be pinned around in the venv requirements (see requirements.txt in
-this dir) -- scholarly 1.7.11's proxy code predates both httpx 0.28's
-`proxies=` removal and free-proxy 1.2's `repeat` argument. Even proxied,
-Scholar-via-free-proxy is inherently flaky (most public proxies are dead or
-already blocked) -- this retries a few times, then gives up and tells you to
-use openalex_search.py, which has no such problem.
+since Google blocks unproxied scrapers outright. Three real bugs had to be
+worked around: httpx 0.28 removed Client(proxies=...) (pinned httpx<0.28 in
+requirements-plagcheck.txt), and scholarly's own _fp_coroutine calls
+FreeProxy.get_proxy_list() two different ways -- one correct, one missing the
+required `repeat` arg on every free-proxy version on PyPI, and it's the one
+that fires once the first proxy batch is exhausted, i.e. exactly when
+rotation is needed. Monkeypatched below rather than pinned around, since no
+free-proxy version actually avoids it. Even with all that fixed, Scholar-via-
+free-proxy is inherently flaky (most public proxies are dead or already
+blocked) -- this retries a few times, then gives up and tells you to use
+openalex_search.py, which has no such problem.
 
 Needs the dedicated venv: ~/.venvs/masaladeutsch-plagcheck/bin/python3
 
@@ -21,6 +25,19 @@ Usage:
 """
 import argparse, sys
 from scholarly import scholarly, ProxyGenerator
+
+# Monkeypatch: scholarly._proxy_generator.ProxyGenerator._fp_coroutine has two
+# call sites for FreeProxy.get_proxy_list() -- one passes repeat=False (correct
+# for free-proxy>=1.1.0), the other (used only once the first proxy batch is
+# exhausted, i.e. exactly when rotation is needed most) calls it with no args
+# at all and crashes with TypeError on every free-proxy version currently on
+# PyPI. Giving get_proxy_list a default fixes both call sites without needing
+# to patch scholarly itself.
+from fp.fp import FreeProxy
+_orig_get_proxy_list = FreeProxy.get_proxy_list
+def _get_proxy_list_patched(self, repeat=False):
+    return _orig_get_proxy_list(self, repeat)
+FreeProxy.get_proxy_list = _get_proxy_list_patched
 
 MAX_ATTEMPTS = 3
 
