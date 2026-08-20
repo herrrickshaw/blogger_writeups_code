@@ -1,0 +1,9 @@
+# venv: python3 -m venv ~/.venvs/masaladeutsch-plagcheck && pip install -r tools/requirements-plagcheck.txt
+copydetect
+scholarly
+# scholarly 1.7.11's proxy code predates these two dependencies' current
+# APIs (httpx dropped Client(proxies=...) in 0.28; free-proxy added a
+# required `repeat` arg in 1.2) -- pinned older so scholarly's proxy setup
+# doesn't crash outright. See tools/scholarly_search.py for the full story.
+httpx<0.28
+free-proxy==1.1.1
