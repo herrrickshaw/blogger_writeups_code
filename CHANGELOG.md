@@ -6616,3 +6616,13 @@ scheduled sync
 - `indian-railways-98-to-earn-100-business` — 22,083 → 24,362 bytes (+2,279)
 - `biomass-power-at-night-dispatchable` — 25,596 → 27,941 bytes (+2,345)
 - `the-national-beekeeping-honey-mission` — 24,628 → 26,963 bytes (+2,335)
+
+## 2026-08-20T08:51:17+05:30 — 178 posts live
+
+**Versions**
+
+- `the-levelised-cost-of-hydrogen` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-levelised-cost-of-hydrogen` — 25,484 → 33,791 bytes (+8,307)
