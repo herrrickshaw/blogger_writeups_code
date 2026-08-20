@@ -6557,3 +6557,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 215,312 → 215,725 bytes (+413)
+
+## 2026-08-20T05:55:31+05:30 — 176 posts live
+
+**Added**
+
+- `biomass-power-at-night-dispatchable` **v1.0.0** — Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind (21,346 bytes)
