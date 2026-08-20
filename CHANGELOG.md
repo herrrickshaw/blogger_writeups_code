@@ -6814,3 +6814,13 @@ scheduled sync
 - `top-15-chemicals-for-import` — 82,975 → 83,289 bytes (+314)
 - `chemical-import-substitution-quarterly` — 53,388 → 54,036 bytes (+648)
 - `chemical-import-substitution-analysis` — 34,928 → 34,944 bytes (+16)
+
+## 2026-08-20T12:44:18+05:30 — 183 posts live
+
+**Versions**
+
+- `the-balkan-relish-india-already-has` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-balkan-relish-india-already-has` — 26,030 → 26,721 bytes (+691)

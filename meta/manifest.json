@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-20T12:33:26+05:30",
+  "snapshot": "2026-08-20T12:44:18+05:30",
   "count": 183,
   "posts": {
     "1058853159205559121": {
@@ -13215,13 +13215,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html",
       "slug": "the-balkan-relish-india-already-has",
       "published": "2026-08-20T12:14:58.000+05:30",
-      "updated": "2026-08-20T12:15:16.498+05:30",
+      "updated": "2026-08-20T12:43:11.639+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Import Substitution"
       ],
-      "bytes": 26030,
-      "sha256": "f75c557cb7a2cf2fe3a0e96f804c2c5aea21ae1524724b914b00eae2d2b3f608",
+      "bytes": 26721,
+      "sha256": "2a1d89b643202d49d60e3d3f2f8c5b53c31c1572d98e61ab1003ac1e13201944",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13233,13 +13233,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-20T12:15:48+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-20T12:44:18+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            26030,
+            26721
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
