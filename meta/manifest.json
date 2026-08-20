@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-20T10:24:56+05:30",
+  "snapshot": "2026-08-20T10:47:28+05:30",
   "count": 182,
   "posts": {
     "1058853159205559121": {
@@ -29047,13 +29047,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html",
       "slug": "refineries-under-fire-how-two-wars",
       "published": "2026-08-20T10:22:11.000+05:30",
-      "updated": "2026-08-20T10:22:33.539+05:30",
+      "updated": "2026-08-20T10:47:05.026+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 31301,
-      "sha256": "514606b7a9cc1cb75d36660006570179560d39c9e17b8e3ba54d3d84cb3283d7",
+      "bytes": 34347,
+      "sha256": "02f87a47c975bc6475d50db4597cfe1c15d1f95cc0d0128030e38d5f6d3fbdb1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29065,13 +29065,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-20T10:23:18+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-20T10:47:28+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            31301,
+            34347
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

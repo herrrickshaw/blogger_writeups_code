@@ -6732,3 +6732,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 220,629 → 221,638 bytes (+1,009)
+
+## 2026-08-20T10:47:28+05:30 — 182 posts live
+
+**Versions**
+
+- `refineries-under-fire-how-two-wars` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `refineries-under-fire-how-two-wars` — 31,301 → 34,347 bytes (+3,046)
