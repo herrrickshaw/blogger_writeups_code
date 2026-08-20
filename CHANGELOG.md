@@ -6896,3 +6896,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 55,666 → 56,275 bytes (+609)
+
+## 2026-08-21T04:04:52+05:30 — 186 posts live
+
+**Added**
+
+- `574-gw-and-counting-indias-wind-fleet` **v1.0.0** — 57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There (20,543 bytes)
