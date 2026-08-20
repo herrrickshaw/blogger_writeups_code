@@ -6796,3 +6796,21 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 221,638 → 222,583 bytes (+945)
+
+## 2026-08-20T12:33:26+05:30 — 183 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.2 → 7.2.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-full-hsn-8_01082878313` **2.0.8 → 2.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **2.0.10 → 2.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-quarterly` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-analysis` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 54,301 → 54,895 bytes (+594)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 384,452 → 385,027 bytes (+575); markers revision_line False→True
+- `top-15-chemicals-for-import` — 82,975 → 83,289 bytes (+314)
+- `chemical-import-substitution-quarterly` — 53,388 → 54,036 bytes (+648)
+- `chemical-import-substitution-analysis` — 34,928 → 34,944 bytes (+16)

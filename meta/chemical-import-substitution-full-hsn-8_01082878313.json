@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
   "slug": "chemical-import-substitution-full-hsn-8_01082878313",
   "published": "2026-08-05T09:00:00.000+05:30",
-  "updated": "2026-08-16T13:54:45.077+05:30",
+  "updated": "2026-08-20T12:29:56.643+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 384452,
-  "sha256": "cca79aa6a6f37c0716ea49a6a5d7cfb95f2c7eda2d6cbe1d35caa7d24fd85491",
+  "bytes": 385027,
+  "sha256": "ecbbf7f855cf0d49fe46e8ab90d3f34b23f02ac434766af596e3e877c364ac5d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,11 +19,11 @@
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
-    "revision_line": false,
+    "revision_line": true,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.8",
+  "version": "2.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,24 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.9",
+      "date": "2026-08-20T12:33:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        384452,
+        385027
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "revision_line": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-20T12:18:04+05:30",
+  "snapshot": "2026-08-20T12:33:26+05:30",
   "count": 183,
   "posts": {
     "1058853159205559121": {
@@ -540,13 +540,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-19T11:16:37.365+05:30",
+      "updated": "2026-08-20T12:27:50.761+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 82975,
-      "sha256": "1cd9bb3e0d7807284e27a8190f74853a41da3ed212c7793ffce2448dd63157a1",
+      "bytes": 83289,
+      "sha256": "0148364853a369fe4c1bce22fdf47dddeac68f5392e816682c627be37f6519ed",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -558,7 +558,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.10",
+      "version": "2.0.11",
       "version_history": [
         {
           "version": "1.0.0",
@@ -736,6 +736,19 @@
           "bytes": [
             83239,
             82975
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.11",
+          "date": "2026-08-20T12:33:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            82975,
+            83289
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -3031,12 +3044,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-19T08:38:50.732+05:30",
+      "updated": "2026-08-20T12:20:10.951+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 54301,
-      "sha256": "5e6ad3e32463f604c36a218b39e92368f83e0d9a4a495810903649eca413ee45",
+      "bytes": 54895,
+      "sha256": "9b4b138b31211b69f7bb46545dee0362af40f1bfd1ee67d3b231d9d53ed63323",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3048,7 +3061,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.2.2",
+      "version": "7.2.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3421,6 +3434,19 @@
           "bytes": [
             53124,
             54301
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "7.2.3",
+          "date": "2026-08-20T12:33:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            54301,
+            54895
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -6179,14 +6205,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-08-19T11:17:48.965+05:30",
+      "updated": "2026-08-20T12:31:57.207+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 34928,
-      "sha256": "f5d98fc3e29c435df87b895b7ffe9f8f6e3883438799f496cc09783133497253",
+      "bytes": 34944,
+      "sha256": "779249e57b1fae6c7eceed214660cc23c1f2fb252d927f9763f10a59f4d006c5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6198,7 +6224,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.12",
+      "version": "1.0.13",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6363,6 +6389,19 @@
           "bytes": [
             34238,
             34928
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.13",
+          "date": "2026-08-20T12:33:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34928,
+            34944
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -15618,14 +15657,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-08-19T11:46:15.652+05:30",
+      "updated": "2026-08-20T12:33:01.413+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 53388,
-      "sha256": "d1b21089e0a95afa902cc46e15b0378bfd673b01a2da158d0d3a93ebb7e833f9",
+      "bytes": 54036,
+      "sha256": "f4dace214b9b5a3aa5014583622b2d6a4c70649dcea58bafc76d3e7523aac6ac",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15637,7 +15676,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.13",
+      "version": "1.0.14",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15815,6 +15854,19 @@
           "bytes": [
             54148,
             53388
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.14",
+          "date": "2026-08-20T12:33:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            53388,
+            54036
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -27682,14 +27734,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-08-16T13:54:45.077+05:30",
+      "updated": "2026-08-20T12:29:56.643+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 384452,
-      "sha256": "cca79aa6a6f37c0716ea49a6a5d7cfb95f2c7eda2d6cbe1d35caa7d24fd85491",
+      "bytes": 385027,
+      "sha256": "ecbbf7f855cf0d49fe46e8ab90d3f34b23f02ac434766af596e3e877c364ac5d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27697,11 +27749,11 @@
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
-        "revision_line": false,
+        "revision_line": true,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.8",
+      "version": "2.0.9",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27851,6 +27903,24 @@
           ],
           "url_changed": null,
           "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.9",
+          "date": "2026-08-20T12:33:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            384452,
+            385027
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "revision_line": [
+              false,
+              true
+            ]
+          },
           "note": ""
         }
       ]
