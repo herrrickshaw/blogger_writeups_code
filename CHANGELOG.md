@@ -6704,3 +6704,15 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 219,362 → 220,629 bytes (+1,267)
+
+## 2026-08-20T10:16:30+05:30 — 181 posts live
+
+**Versions**
+
+- `ten-cubic-metres-hour-indias-first` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `inside-refinery-how-hydrogen-cleans` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `ten-cubic-metres-hour-indias-first` — 28,926 → 30,946 bytes (+2,020)
+- `inside-refinery-how-hydrogen-cleans` — 34,659 → 36,445 bytes (+1,786)
