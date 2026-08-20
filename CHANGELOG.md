@@ -6716,3 +6716,9 @@ scheduled sync
 
 - `ten-cubic-metres-hour-indias-first` — 28,926 → 30,946 bytes (+2,020)
 - `inside-refinery-how-hydrogen-cleans` — 34,659 → 36,445 bytes (+1,786)
+
+## 2026-08-20T10:23:18+05:30 — 182 posts live
+
+**Added**
+
+- `refineries-under-fire-how-two-wars` **v1.0.0** — Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item (31,301 bytes)
