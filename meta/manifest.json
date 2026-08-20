@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-20T06:15:27+05:30",
+  "snapshot": "2026-08-20T06:25:54+05:30",
   "count": 178,
   "posts": {
     "1058853159205559121": {
@@ -11128,13 +11128,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
       "slug": "biomass-power-at-night-dispatchable",
       "published": "2026-08-20T05:54:52.000+05:30",
-      "updated": "2026-08-20T06:03:26.422+05:30",
+      "updated": "2026-08-20T06:25:27.680+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels"
       ],
-      "bytes": 25596,
-      "sha256": "ce77565a86d34ecde07dcfd7e9fc6170d5fe7c22052e9258cf64ad7c70ad8914",
+      "bytes": 27941,
+      "sha256": "4b1749c02307506792a488178858279e0912a22a71d7324ea0b5a76c5c94232f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11146,7 +11146,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11163,6 +11163,19 @@
           "bytes": [
             21346,
             25596
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-20T06:25:54+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            25596,
+            27941
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -15602,13 +15615,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
       "slug": "the-levelised-cost-of-hydrogen",
       "published": "2026-08-20T06:13:26.000+05:30",
-      "updated": "2026-08-20T06:13:56.689+05:30",
+      "updated": "2026-08-20T06:23:59.341+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 23424,
-      "sha256": "dd3eb0cc82ebe01e4ee7b9d123ae0c5d6bc609bc4638e4f6f9bfcb9cf8c8d6f1",
+      "bytes": 25484,
+      "sha256": "bdde39429aef92a7b003ad52ba60b674671607eebd4cef226b93450b246b6dd4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15620,13 +15633,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-20T06:14:21+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-20T06:25:54+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23424,
+            25484
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -24843,13 +24869,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
       "slug": "the-national-beekeeping-honey-mission",
       "published": "2026-08-20T05:42:27.000+05:30",
-      "updated": "2026-08-20T05:42:43.519+05:30",
+      "updated": "2026-08-20T06:22:38.688+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Agriculture & Food Processing"
       ],
-      "bytes": 24628,
-      "sha256": "0ff804966a7dc51f297acba35136e68e319e4358c424960cb892c1fec0188f7a",
+      "bytes": 26963,
+      "sha256": "9bcdd1cb8b3147eae03e01361d1e6d55171d98e91db189a36f6db413d38fd3e5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24861,13 +24887,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-20T05:43:08+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-20T06:25:54+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            24628,
+            26963
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -25294,13 +25333,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html",
       "slug": "indian-railways-98-to-earn-100-business",
       "published": "2026-08-20T06:09:42.000+05:30",
-      "updated": "2026-08-20T06:09:57.675+05:30",
+      "updated": "2026-08-20T06:21:07.571+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 22083,
-      "sha256": "19fced7d5030238bb114b362d1c76a3ceefcd85579e419b08db4a86abd5e857d",
+      "bytes": 24362,
+      "sha256": "ae52385f00b810e49e8743de94487f22b7d5ea5edb5893d9aea0fad85fe3ca89",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25312,13 +25351,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-20T06:14:21+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-20T06:25:54+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            22083,
+            24362
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

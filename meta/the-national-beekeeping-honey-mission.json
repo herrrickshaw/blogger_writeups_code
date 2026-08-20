@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-08-20T05:42:43.519+05:30",
+  "updated": "2026-08-20T06:22:38.688+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 24628,
-  "sha256": "0ff804966a7dc51f297acba35136e68e319e4358c424960cb892c1fec0188f7a",
+  "bytes": 26963,
+  "sha256": "9bcdd1cb8b3147eae03e01361d1e6d55171d98e91db189a36f6db413d38fd3e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-20T05:43:08+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-20T06:25:54+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24628,
+        26963
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]
