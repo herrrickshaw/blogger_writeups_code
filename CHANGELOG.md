@@ -6547,3 +6547,13 @@ scheduled sync
 **Added**
 
 - `the-national-beekeeping-honey-mission` **v1.0.0** — The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It (24,628 bytes)
+
+## 2026-08-20T05:44:23+05:30 — 175 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.7 → 28.0.8** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 215,312 → 215,725 bytes (+413)
