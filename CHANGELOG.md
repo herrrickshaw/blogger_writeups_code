@@ -6834,3 +6834,9 @@ scheduled sync
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 54,895 → 55,666 bytes (+771)
+
+## 2026-08-20T19:13:16+05:30 — 184 posts live
+
+**Added**
+
+- `028-unit-diesel-math-behind-indias-data` **v1.0.0** — $0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing (25,220 bytes)

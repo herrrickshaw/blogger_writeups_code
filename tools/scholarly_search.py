@@ -43,8 +43,16 @@ MAX_ATTEMPTS = 3
 
 
 def setup_proxy():
+    """Returns a working ProxyGenerator, or None. FreeProxies() can itself
+    raise (StopIteration when the whole fetched batch is dead, not just a
+    single bad proxy) rather than just returning False -- that's the free
+    proxy pool being genuinely empty at this moment, not a bug to work
+    around, so it's caught here alongside the False case."""
     pg = ProxyGenerator()
-    if not pg.FreeProxies():
+    try:
+        if not pg.FreeProxies():
+            return None
+    except Exception:
         return None
     scholarly.use_proxy(pg)
     return pg
@@ -56,19 +64,17 @@ def main():
     ap.add_argument("-n", "--limit", type=int, default=5)
     args = ap.parse_args()
 
-    pg = setup_proxy()
-    if pg is None:
-        print("Could not initialize any free proxy -- try again shortly.", file=sys.stderr)
-        sys.exit(1)
-
     results = None
     for attempt in range(MAX_ATTEMPTS):
+        pg = setup_proxy()
+        if pg is None:
+            print(f"attempt {attempt + 1}/{MAX_ATTEMPTS}: no working free proxy found, retrying...", file=sys.stderr)
+            continue
         try:
             results = scholarly.search_pubs(args.query)
             break
         except Exception as e:
             print(f"attempt {attempt + 1}/{MAX_ATTEMPTS} failed ({type(e).__name__}), rotating proxy...", file=sys.stderr)
-            setup_proxy()
 
     if results is None:
         print(
