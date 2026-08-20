@@ -6590,3 +6590,13 @@ scheduled sync
 
 - `the-levelised-cost-of-hydrogen` **v1.0.0** — The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target (23,424 bytes)
 - `indian-railways-98-to-earn-100-business` **v1.0.0** — Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made (22,083 bytes)
+
+## 2026-08-20T06:15:27+05:30 — 178 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.9 → 28.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 216,044 → 217,150 bytes (+1,106)

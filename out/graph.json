@@ -2602,6 +2602,15 @@
   "entities": [],
   "related": []
  },
+ "indian-railways-98-to-earn-100-business": {
+  "title": "Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html",
+  "published": "2026-08-20",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
+ },
  "indias-animal-protein-export-complex": {
   "title": "India's Animal-Protein Export Complex: Buffalo Meat, the Tallow-Biodiesel Byproduct, and the Shrimp Boom",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
@@ -5303,6 +5312,32 @@
    }
   ]
  },
+ "the-levelised-cost-of-hydrogen": {
+  "title": "The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
+  "published": "2026-08-20",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Green hydrogen"
+  ],
+  "related": [
+   {
+    "slug": "where-indias-green-hydrogen-bets-are",
+    "shared": [
+     "Green hydrogen"
+    ],
+    "w": 0.333
+   },
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Green hydrogen"
+    ],
+    "w": 0.333
+   }
+  ]
+ },
  "the-margin-case-why-lpg-and": {
   "title": "The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
@@ -6220,11 +6255,18 @@
   ],
   "related": [
    {
+    "slug": "the-levelised-cost-of-hydrogen",
+    "shared": [
+     "Green hydrogen"
+    ],
+    "w": 0.333
+   },
+   {
     "slug": "article-index-start-here",
     "shared": [
      "Green hydrogen"
     ],
-    "w": 0.5
+    "w": 0.333
    }
   ]
  },
