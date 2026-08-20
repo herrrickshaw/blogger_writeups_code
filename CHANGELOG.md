@@ -6786,3 +6786,13 @@ scheduled sync
 - `securitising-deficit-what-it-would` — 121,865 → 121,988 bytes (+123)
 - `state-by-state-who-actually-earns-from` — 54,695 → 54,835 bytes (+140)
 - `where-indias-factories-actually-get` — 44,029 → 44,062 bytes (+33)
+
+## 2026-08-20T12:18:04+05:30 — 183 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.14 → 28.0.15** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 221,638 → 222,583 bytes (+945)
