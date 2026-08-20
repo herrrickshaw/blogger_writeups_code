@@ -6688,3 +6688,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 218,418 → 219,362 bytes (+944)
+
+## 2026-08-20T10:02:39+05:30 — 181 posts live
+
+**Added**
+
+- `ten-cubic-metres-hour-indias-first` **v1.0.0** — Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It (28,926 bytes)
