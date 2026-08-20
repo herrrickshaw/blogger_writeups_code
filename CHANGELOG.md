@@ -6840,3 +6840,13 @@ scheduled sync
 **Added**
 
 - `028-unit-diesel-math-behind-indias-data` **v1.0.0** — $0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing (25,220 bytes)
+
+## 2026-08-20T19:14:39+05:30 — 184 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.15 → 28.0.16** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 222,583 → 223,540 bytes (+957)
