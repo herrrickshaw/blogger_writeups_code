@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-08-20T05:55:07.990+05:30",
+  "updated": "2026-08-20T06:03:26.422+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 21346,
-  "sha256": "11898ec32beb06b65b9b5c318b7e6457516499ed706afe98ba580143f574d913",
+  "bytes": 25596,
+  "sha256": "ce77565a86d34ecde07dcfd7e9fc6170d5fe7c22052e9258cf64ad7c70ad8914",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-20T05:55:31+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-20T06:03:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21346,
+        25596
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

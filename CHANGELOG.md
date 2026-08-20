@@ -6573,3 +6573,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 215,725 → 216,044 bytes (+319)
+
+## 2026-08-20T06:03:49+05:30 — 176 posts live
+
+**Versions**
+
+- `biomass-power-at-night-dispatchable` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `biomass-power-at-night-dispatchable` — 21,346 → 25,596 bytes (+4,250)
