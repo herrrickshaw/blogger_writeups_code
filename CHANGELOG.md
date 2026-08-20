@@ -6886,3 +6886,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 223,540 → 223,982 bytes (+442)
+
+## 2026-08-20T21:49:32+05:30 — 185 posts live
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.4 → 7.2.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 55,666 → 56,275 bytes (+609)
