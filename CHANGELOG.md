@@ -6672,3 +6672,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 217,150 → 218,418 bytes (+1,268)
+
+## 2026-08-20T09:52:38+05:30 — 180 posts live
+
+**Added**
+
+- `the-software-behind-still-whats` **v1.0.0** — The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain (33,733 bytes)
