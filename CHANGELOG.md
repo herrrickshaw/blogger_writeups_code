@@ -6968,3 +6968,17 @@ scheduled sync
 - `fci-grain-flow-procurement-storage` — 34,514 → 38,207 bytes (+3,693)
 - `cold-chain-fuel-outlet-integrated-map` — 13,138 → 19,385 bytes (+6,247)
 - `india-fuel-retail-outlets-82k-geocoded` — 13,142 → 18,744 bytes (+5,602)
+
+## 2026-08-21T22:18:30+05:30 — 188 posts live
+
+**Versions**
+
+- `india-grain-cultivation-fci-storage` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-fearless-girls-charter-indias` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cgd-geographical-areas-district` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-grain-cultivation-fci-storage` — 80,857 → 85,404 bytes (+4,547)
+- `the-fearless-girls-charter-indias` — 23,879 → 28,780 bytes (+4,901)
+- `cgd-geographical-areas-district` — 13,123 → 18,126 bytes (+5,003)

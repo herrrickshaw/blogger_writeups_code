@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-21T21:45:26+05:30",
+  "snapshot": "2026-08-21T22:18:30+05:30",
   "count": 188,
   "posts": {
     "1058853159205559121": {
@@ -7213,12 +7213,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
       "slug": "india-grain-cultivation-fci-storage",
       "published": "2026-07-31T10:10:00.000+05:30",
-      "updated": "2026-08-16T15:14:52.286+05:30",
+      "updated": "2026-08-21T22:13:58.260+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 80857,
-      "sha256": "d8d73a253185a9671be859728e1f3be5b2a751682057766154734750a53e25f2",
+      "bytes": 85404,
+      "sha256": "c4c8768b21d3488249a824dbeee5d97a0cf44a6f3749062cb7eb4daca3d923c2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7230,7 +7230,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7382,6 +7382,19 @@
           "bytes": [
             80502,
             80857
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-21T22:18:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            80857,
+            85404
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -20488,12 +20501,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
       "slug": "the-fearless-girls-charter-indias",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-16T15:15:36.495+05:30",
+      "updated": "2026-08-21T21:56:18.342+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 23879,
-      "sha256": "bb8411461ad24284a791faf103046a59c1df174c47e3b0efb402ea6e15e7abd9",
+      "bytes": 28780,
+      "sha256": "064cd238268803b0034a782b1f710c3ee450ad203a0b842af19784e64d8e51d4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20505,7 +20518,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20662,6 +20675,19 @@
           "bytes": [
             23524,
             23879
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-21T22:18:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            23879,
+            28780
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -25984,13 +26010,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
       "slug": "cgd-geographical-areas-district",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-19T11:52:14.508+05:30",
+      "updated": "2026-08-21T21:54:08.135+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 13123,
-      "sha256": "f265901d11cb03318fed3b174215b40fc192ce66e4b7a78e037983b7082e6223",
+      "bytes": 18126,
+      "sha256": "6127bc80ace1f77c57541ba552e4bf476a76630919ac5c860ee5d3df9298ea9e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26002,7 +26028,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26159,6 +26185,19 @@
           "bytes": [
             13125,
             13123
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-21T22:18:30+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            13123,
+            18126
           ],
           "url_changed": null,
           "markers_changed": null,
