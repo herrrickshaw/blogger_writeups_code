@@ -6954,3 +6954,17 @@ scheduled sync
 **Changed**
 
 - `7186-litre-why-maize-is-indias-priciest` — 22,974 → 40,439 bytes (+17,465)
+
+## 2026-08-21T21:45:26+05:30 — 188 posts live
+
+**Versions**
+
+- `fci-grain-flow-procurement-storage` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cold-chain-fuel-outlet-integrated-map` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-fuel-retail-outlets-82k-geocoded` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `fci-grain-flow-procurement-storage` — 34,514 → 38,207 bytes (+3,693)
+- `cold-chain-fuel-outlet-integrated-map` — 13,138 → 19,385 bytes (+6,247)
+- `india-fuel-retail-outlets-82k-geocoded` — 13,142 → 18,744 bytes (+5,602)

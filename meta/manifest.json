@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-21T21:28:26+05:30",
+  "snapshot": "2026-08-21T21:45:26+05:30",
   "count": 188,
   "posts": {
     "1058853159205559121": {
@@ -11617,12 +11617,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-08-19T11:45:30.446+05:30",
+      "updated": "2026-08-21T21:43:48.829+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 34514,
-      "sha256": "05ba7666804293d4fa5d9d02f05dd079f291f4bbaff2bfd63f3d67ac879ca72e",
+      "bytes": 38207,
+      "sha256": "efd55662c28f4c0fbd023fa7d16648ff44223f5464cdc502680c9ece6c2759b0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11634,7 +11634,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.12",
+      "version": "1.0.13",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11799,6 +11799,19 @@
           "bytes": [
             34355,
             34514
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.13",
+          "date": "2026-08-21T21:45:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34514,
+            38207
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -20122,13 +20135,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
       "slug": "cold-chain-fuel-outlet-integrated-map",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-19T11:50:48.036+05:30",
+      "updated": "2026-08-21T21:42:25.142+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Gas & LNG"
       ],
-      "bytes": 13138,
-      "sha256": "280bfbcdbbf49fa71032b313e8ced31b74d134e0ed28fa18ccacd4f79348ae7c",
+      "bytes": 19385,
+      "sha256": "9fc3102eb9e988654ac8d8449f1050b9c2b776ad19e9f23ec53757dfe045bf02",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20140,7 +20153,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.11",
+      "version": "1.0.12",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20297,6 +20310,19 @@
           "bytes": [
             13101,
             13138
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.12",
+          "date": "2026-08-21T21:45:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            13138,
+            19385
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -26774,13 +26800,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
       "slug": "india-fuel-retail-outlets-82k-geocoded",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-08-16T13:59:45.458+05:30",
+      "updated": "2026-08-21T21:38:49.115+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 13142,
-      "sha256": "705305d395ef0e5cf5c0a715999b99c98153a233fd2d669fa4edf7308be7947e",
+      "bytes": 18744,
+      "sha256": "d5f4ddc9195919feffde4aecacd7077f6de6a0b85e2974c0fb35869b05c10eba",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26792,7 +26818,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.9",
+      "version": "1.0.10",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26923,6 +26949,19 @@
           "bytes": [
             12614,
             13142
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.10",
+          "date": "2026-08-21T21:45:26+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            13142,
+            18744
           ],
           "url_changed": null,
           "markers_changed": null,
