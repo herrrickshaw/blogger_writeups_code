@@ -6944,3 +6944,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 225,352 → 226,223 bytes (+871)
+
+## 2026-08-21T21:28:26+05:30 — 188 posts live
+
+**Versions**
+
+- `7186-litre-why-maize-is-indias-priciest` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `7186-litre-why-maize-is-indias-priciest` — 22,974 → 40,439 bytes (+17,465)
