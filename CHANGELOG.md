@@ -6928,3 +6928,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 224,388 → 225,352 bytes (+964)
+
+## 2026-08-21T21:12:34+05:30 — 188 posts live
+
+**Added**
+
+- `7186-litre-why-maize-is-indias-priciest` **v1.0.0** — ₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls (22,974 bytes)
