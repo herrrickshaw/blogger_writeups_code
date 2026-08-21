@@ -147,7 +147,7 @@ if(skip){
 </div>
 
 <div class="card" style="margin-top:8px;border-color:var(--ok)">
- <h3>&#63743;🟢 Live EIA spot benchmark <span class="mut small" id="eia_date"></span></h3>
+ <div class="mut small">&#63743;🟢 Live EIA spot benchmark <span class="mut small" id="eia_date"></span></div>
  <div class="cap">Pulled live from the EIA API &#8212; replaces the dead OilPrice feed. US Gulf Coast + crude benchmarks; directional proxy, not India FOB / Platts AG.</div>
  <div class="kpis" id="eia_kpis" style="margin:8px 0 4px"></div>
  <div class="note" id="eia_note"></div>
@@ -166,7 +166,7 @@ if(skip){
 <h2>2 &#183; Product-level POL trade (PPAC) &#8212; where petrol, diesel, LPG &amp; lube sit</h2>
 <div class="card"><h3>Import vs export value by product</h3>
  <div class="cap">India imports crude &amp; LPG (deficit products) and exports refined petrol/diesel/naphtha/ATF &#8212; the classic refining-hub pattern. Pick a year.</div>
- <div class="controls"><label class="small mut">Year&nbsp;</label><select id="yearSel"></select></div>
+ <div class="controls"><label class="small mut" for="yearSel">Year&nbsp;</label><select id="yearSel"></select></div>
  <div class="chartbox" style="height:340px"><canvas id="c_prod"></canvas></div>
  <div class="legend"><span><i style="background:var(--imp)"></i>Import value US$B</span><span><i style="background:var(--exp)"></i>Export value US$B</span></div>
 </div>
@@ -178,7 +178,7 @@ if(skip){
   <div class="chartbox"><canvas id="c_crude"></canvas></div></div>
  <div class="card"><h3>Product unit values (US$/tonne)</h3>
   <div class="cap">Import vs export realized unit value. Divergence = grade/quality &amp; timing vs the Platts benchmark. Pick a product.</div>
-  <div class="controls"><label class="small mut">Product&nbsp;</label><select id="prodSel"></select></div>
+  <div class="controls"><label class="small mut" for="prodSel">Product&nbsp;</label><select id="prodSel"></select></div>
   <div class="chartbox"><canvas id="c_unit"></canvas></div></div>
 </div>
 

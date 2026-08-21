@@ -176,25 +176,25 @@ if(skip){
   <div class="panel">
     <h2>Inputs &amp; Assumptions</h2>
     <h3>A. DISCOM Financial Position (₹ Crore)</h3>
-    <label>Total DISCOM outstanding debt <span class="note">₹ cr</span></label>
+    <label for="debt">Total DISCOM outstanding debt <span class="note">₹ cr</span></label>
     <input type="number" id="debt" value="740000">
-    <label>Annual electricity subsidies <span class="note">₹ cr</span></label>
+    <label for="subsidy">Annual electricity subsidies <span class="note">₹ cr</span></label>
     <input type="number" id="subsidy" value="210000">
-    <label>Annual debt growth rate <span class="note">decimal (0.087 = 8.7%)</span></label>
+    <label for="growth">Annual debt growth rate <span class="note">decimal (0.087 = 8.7%)</span></label>
     <input type="number" id="growth" value="0.087" step="0.001">
 
     <h3>B. Connections (crore)</h3>
-    <label>Subsidised domestic connections <span class="note">crore</span></label>
+    <label for="domestic">Subsidised domestic connections <span class="note">crore</span></label>
     <input type="number" id="domestic" value="15" step="0.1">
-    <label>Free agricultural pump connections <span class="note">crore</span></label>
+    <label for="agri">Free agricultural pump connections <span class="note">crore</span></label>
     <input type="number" id="agri" value="3" step="0.1">
 
     <h3>C. Token Charge (drag to model scenarios)</h3>
-    <label>Token charge per connection / month: <b id="chargeLbl" style="color:var(--blue)">₹1</b></label>
+    <label for="charge">Token charge per connection / month: <b id="chargeLbl" style="color:var(--blue)">₹1</b></label>
     <input type="range" id="charge" min="1" max="100" value="1" step="1">
-    <label>Billing &amp; collection efficiency: <b id="effLbl" style="color:var(--blue)">70%</b></label>
+    <label for="eff">Billing &amp; collection efficiency: <b id="effLbl" style="color:var(--blue)">70%</b></label>
     <input type="range" id="eff" min="40" max="100" value="70" step="1">
-    <label>Admin / implementation cost ratio: <b id="adminLbl" style="color:var(--blue)">10%</b></label>
+    <label for="admin">Admin / implementation cost ratio: <b id="adminLbl" style="color:var(--blue)">10%</b></label>
     <input type="range" id="admin" min="0" max="30" value="10" step="1">
     <div class="src">Defaults &amp; sources: ICRA May 2025 (debt ₹7.4L cr), IISD 2025 (subsidies ₹2.1L cr),
       CEA/Manorama (8.7% CAGR), PFC (≈70% rural billing efficiency).</div>

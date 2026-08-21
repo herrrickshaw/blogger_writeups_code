@@ -6992,3 +6992,87 @@ scheduled sync
 **Changed**
 
 - `cpi-inflation-heatmap-india-june-2026` — 73,250 → 75,762 bytes (+2,512)
+
+## 2026-08-21T23:03:41+05:30 — 189 posts live
+
+**Added**
+
+- `india-imports-283000-tonnes-of-almonds` **v1.0.0** — India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade (31,221 bytes)
+
+**Versions**
+
+- `do-cheap-stocks-stay-cheap-price-band` **2.1.8 → 2.1.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `petroleum-trade-pairings-and-us-crude` **1.0.8 → 1.0.9** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fuel-pricing-to-crude-cost` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `if-india-paid-brics-in-rupees-scenario` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `lok-sabha-question-registry-1843-scheme` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rajya-sabha-question-registry-scheme` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `quarterly-reportage-4034-scheme` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indian-it-in-ai-era` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `securitising-deficit-what-it-would` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-rupee-fell-10-and-exports-grew-09` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-price-and-tap-two-levers-behind` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cpi-inflation-heatmap-india-june-2026` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `hsn-wise-historical-importexport-trends` **2.0.10 → 2.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `effective-buying-power-china-comparison` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `priority-trade-partners-by-import` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-trade-balance-hsn-wise` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `five-year-synthesis-trade-currency` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `imported-fertiliser-fuel-prices-diesel` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `priority-export-destinations-by-growth` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cpi-wpi-trends-mospi-bulletin` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `where-indias-forex-goes-country` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `real-gdp-growth-india-fy2012-13-to` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rbi-foreign-exchange-reserves-20152026` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `discom-debt-relief-token-charge` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **28.0.20 → 28.0.21** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `fci-storage-scenario-capacity-stock-and` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-grain-value-loop-integrated-rice` **2.0.10 → 2.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-mineral-oil-hsn-ch27-trade` **2.0.9 → 2.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-textile-import-export-strategy` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-fearless-girls-charter-indias` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cgd-geographical-areas-district` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `cold-chain-fuel-outlet-integrated-map` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-environmental-clearances-state` **1.0.11 → 1.0.12** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-fuel-retail-outlets-82k-geocoded` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tech-for-business-so-2019-tech-as` **1.0.9 → 1.0.10** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `do-cheap-stocks-stay-cheap-price-band` — 90,469 → 90,642 bytes (+173)
+- `petroleum-trade-pairings-and-us-crude` — 144,510 → 145,002 bytes (+492)
+- `fuel-pricing-to-crude-cost` — 80,211 → 80,419 bytes (+208)
+- `if-india-paid-brics-in-rupees-scenario` — 33,433 → 33,653 bytes (+220)
+- `lok-sabha-question-registry-1843-scheme` — 392,266 → 392,434 bytes (+168)
+- `rajya-sabha-question-registry-scheme` — 336,679 → 336,847 bytes (+168)
+- `quarterly-reportage-4034-scheme` — 560,567 → 560,694 bytes (+127)
+- `indian-it-in-ai-era` — 37,931 → 38,097 bytes (+166)
+- `securitising-deficit-what-it-would` — 121,988 → 122,814 bytes (+826)
+- `the-rupee-fell-10-and-exports-grew-09` — 36,993 → 37,180 bytes (+187)
+- `the-price-and-tap-two-levers-behind` — 22,116 → 22,397 bytes (+281)
+- `cpi-inflation-heatmap-india-june-2026` — 75,762 → 75,932 bytes (+170)
+- `hsn-wise-historical-importexport-trends` — 32,531 → 32,665 bytes (+134)
+- `effective-buying-power-china-comparison` — 35,891 → 36,087 bytes (+196)
+- `priority-trade-partners-by-import` — 43,579 → 43,752 bytes (+173)
+- `indias-trade-balance-hsn-wise` — 56,284 → 56,700 bytes (+416)
+- `five-year-synthesis-trade-currency` — 43,138 → 43,605 bytes (+467)
+- `imported-fertiliser-fuel-prices-diesel` — 34,371 → 34,681 bytes (+310)
+- `priority-export-destinations-by-growth` — 40,873 → 41,053 bytes (+180)
+- `cpi-wpi-trends-mospi-bulletin` — 45,409 → 45,746 bytes (+337)
+- `where-indias-forex-goes-country` — 46,024 → 46,174 bytes (+150)
+- `real-gdp-growth-india-fy2012-13-to` — 30,108 → 30,242 bytes (+134)
+- `rbi-foreign-exchange-reserves-20152026` — 50,215 → 50,549 bytes (+334)
+- `discom-debt-relief-token-charge` — 24,376 → 24,475 bytes (+99)
+- `article-index-start-here` — 226,223 → 226,384 bytes (+161)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 125,611 → 125,660 bytes (+49)
+- `fci-storage-scenario-capacity-stock-and` — 15,823 → 15,905 bytes (+82)
+- `the-grain-value-loop-integrated-rice` — 78,082 → 78,082 bytes (+0)
+- `india-mineral-oil-hsn-ch27-trade` — 108,201 → 108,249 bytes (+48)
+- `indias-textile-import-export-strategy` — 42,699 → 42,699 bytes (+0)
+- `the-fearless-girls-charter-indias` — 28,780 → 28,991 bytes (+211)
+- `cgd-geographical-areas-district` — 18,126 → 18,152 bytes (+26)
+- `cold-chain-fuel-outlet-integrated-map` — 19,385 → 19,411 bytes (+26)
+- `india-environmental-clearances-state` — 15,456 → 15,324 bytes (-132)
+- `india-fuel-retail-outlets-82k-geocoded` — 18,744 → 18,770 bytes (+26)
+- `tech-for-business-so-2019-tech-as` — 34,669 → 33,082 bytes (-1,587)

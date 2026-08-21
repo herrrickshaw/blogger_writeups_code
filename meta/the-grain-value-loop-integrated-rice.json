@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-08-16T15:14:57.336+05:30",
+  "updated": "2026-08-21T22:59:39.982+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
   "bytes": 78082,
-  "sha256": "e700ac8854db5e354d9ed7a226c81134bdf4aefe5abd38a375e3eaa181a2043c",
+  "sha256": "bf580937a820f5360ebecae2f82aca3ea658aa36f50710e55a0057f50636d935",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.10",
+  "version": "2.0.11",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,19 @@
       "reason": "visible text identical; only markup/styling changed",
       "bytes": [
         77727,
+        78082
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.11",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        78082,
         78082
       ],
       "url_changed": null,

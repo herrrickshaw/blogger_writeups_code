@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-08-19T11:52:55.707+05:30",
+  "updated": "2026-08-21T22:57:39.668+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 144510,
-  "sha256": "d77061e4aa0dd981c666b185ba43ca8d0ab2e0d7e4ffbe08c06212622107aeb3",
+  "bytes": 145002,
+  "sha256": "acf56800fd49eced18b3c1954c9f0e3fcb8b7c5fed47be311c6aab443d592225",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "1.0.9",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "bytes": [
         144493,
         144510
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.9",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        144510,
+        145002
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-21T21:54:08.135+05:30",
+  "updated": "2026-08-21T22:54:22.929+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 18126,
-  "sha256": "6127bc80ace1f77c57541ba552e4bf476a76630919ac5c860ee5d3df9298ea9e",
+  "bytes": 18152,
+  "sha256": "16655d69d38c3624397cf62501e1822257eddba277294320b71115958bf1ab37",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "version_history": [
     {
       "version": "1.0.0",
@@ -192,6 +192,19 @@
       "bytes": [
         13123,
         18126
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18126,
+        18152
       ],
       "url_changed": null,
       "markers_changed": null,

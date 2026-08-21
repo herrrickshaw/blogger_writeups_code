@@ -174,11 +174,11 @@ if(skip){
 <p style="font-size:.85em;color:var(--mut,#666);margin:8px 0 0">Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives &mdash; personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.</p>
 
 <div id="rf-bar" style="display:flex;flex-wrap:wrap;gap:10px;align-items:end;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:12px 16px;margin:16px 0 26px;">
-<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;">Ministry</label>
+<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;" for="rf-ministry">Ministry</label>
 <select id="rf-ministry" style="font:inherit;padding:5px 7px;border-radius:6px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);"><option value="">All ministries</option></select></div>
-<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;">Policy / Scheme</label>
+<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;" for="rf-policy">Policy / Scheme</label>
 <select id="rf-policy" style="font:inherit;padding:5px 7px;border-radius:6px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);"><option value="">All policies</option></select></div>
-<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;">State</label>
+<div><label style="display:block;font-size:.75em;color:var(--mut);margin-bottom:3px;" for="rf-state">State</label>
 <select id="rf-state" style="font:inherit;padding:5px 7px;border-radius:6px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);"><option value="">All states</option></select></div>
 <button id="rf-reset" style="font:inherit;padding:6px 12px;border-radius:6px;border:1px solid var(--bd);background:var(--bg);color:var(--fg);cursor:pointer;">Reset</button>
 <span id="rf-count" style="font-size:.8em;color:var(--mut);margin-left:auto;align-self:center;"></span>

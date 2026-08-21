@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
   "slug": "if-india-paid-brics-in-rupees-scenario",
   "published": "2026-08-04T16:05:00.000+05:30",
-  "updated": "2026-08-19T11:49:29.050+05:30",
+  "updated": "2026-08-21T22:56:09.989+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 33433,
-  "sha256": "9d9779e525c50bdbd32b18b1eb9a672b1419636e8c12ee5d6539b86cfb48702a",
+  "bytes": 33653,
+  "sha256": "5d2d6c2453935f5de0fbe28e7d897d7640cf263cda275064d7d609a9598f7b91",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.11",
+  "version": "1.0.12",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "bytes": [
         33219,
         33433
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        33433,
+        33653
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -271,9 +271,9 @@ the state-by-state VAT build-up math, so the "effective incidence" column below 
 of the published RSP &mdash; it captures state VAT <em>plus</em> any local freight
 differential baked into that city's dealer price, not the bare statutory VAT rate alone.</p>
 <div class="filterrow">
-<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px">State / UT capital</label>
+<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px" for="fp_state">State / UT capital</label>
 <select id="fp_state"></select></div>
-<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px">Crude scenario</label>
+<div><label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px" for="fp_scen">Crude scenario</label>
 <select id="fp_scen">
 <option value="59.16">Past-year low ($59/bbl)</option>
 <option value="69.89">PPAC Jul-Sep 2025 baseline ($70/bbl)</option>
@@ -302,11 +302,11 @@ map</a>, re-priced state by state.</p>
 <p class="dek"><strong>Capacity is not the constraint.</strong> India's installed ethanol distillery capacity is roughly 2,000 crore litres for ESY2025-26 (CareEdge estimate), against 904.8 crore litres actually drawn by PSU OMCs in ESY2024-25 (PPAC Table 6.10) &mdash; about 1,095 crore litres of spare, already-built capacity sitting unused. Because ethanol's cost is fixed annually by government notification rather than tracking crude, a higher blend share structurally dampens how much a crude spike passes through to the pump: modelling the FY2021-22&ndash;FY2025-26 crude range ($69.89&ndash;$93.15/bbl) through the build-up above, petrol's cost-reflective price would have swung &#8377;15.43/litre at E0 versus &#8377;12.34/litre at E20 &mdash; about 20% less volatile. That spare capacity means blending can be pushed harder during a crude shock without waiting on new plants; the real limit is feedstock supply (46.4% of ethanol now comes from maize, per Table 6.10A) competing with food-security demand for the same grain, not distillery capacity itself.</p>
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin:1rem 0;">
   <div style="flex:1;min-width:160px;">
-    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;">Indian basket crude ($/bbl)</label>
+    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_crude">Indian basket crude ($/bbl)</label>
     <input type="number" id="em_crude" value="78.30" min="20" max="200" step="0.5" style="width:100%;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:8px;" />
   </div>
   <div style="flex:1;min-width:160px;">
-    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;">Ethanol blend</label>
+    <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_blend">Ethanol blend</label>
     <select id="em_blend" style="width:100%;">
       <option value="0">E0 (no blending)</option>
       <option value="0.05">E5</option>
@@ -324,7 +324,7 @@ map</a>, re-priced state by state.</p>
 <div class="kpi"><b id="em_selName">Delhi</b><span>Selected state</span></div>
 </div>
 <div style="width:100%;max-width:480px;margin:10px auto;">
-<svg id="em_svg" viewBox="0 0 640.0 715.8" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;"></svg>
+<svg role="img" aria-label="Clickable map of India used to pick a state or union territory capital and show its petrol and diesel retail selling prices." id="em_svg" viewBox="0 0 640.0 715.8" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" style="width:100%;height:auto;"></svg>
 </div>
 <div id="em_tooltip" style="background:var(--chip);border-radius:10px;padding:12px 14px;font-size:.85em;min-height:60px;">
 Click a state on the map to see its price build-up.
