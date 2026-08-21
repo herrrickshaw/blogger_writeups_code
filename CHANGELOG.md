@@ -6982,3 +6982,13 @@ scheduled sync
 - `india-grain-cultivation-fci-storage` — 80,857 → 85,404 bytes (+4,547)
 - `the-fearless-girls-charter-indias` — 23,879 → 28,780 bytes (+4,901)
 - `cgd-geographical-areas-district` — 13,123 → 18,126 bytes (+5,003)
+
+## 2026-08-21T22:26:03+05:30 — 188 posts live
+
+**Versions**
+
+- `cpi-inflation-heatmap-india-june-2026` **1.0.10 → 1.0.11** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `cpi-inflation-heatmap-india-june-2026` — 73,250 → 75,762 bytes (+2,512)
