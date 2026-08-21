@@ -4,17 +4,17 @@
 
 ## Totals
 
-- Active users: **160**
-- Total users: **160**
-- Page views: **1585**
-- Sessions: **324**
+- Active users: **164**
+- Total users: **164**
+- Page views: **1641**
+- Sessions: **342**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 97 | 132 |
-| India | 55 | 1437 |
+| United States | 101 | 141 |
+| India | 55 | 1484 |
 | (not set) | 2 | 2 |
 | Malaysia | 2 | 9 |
 | Oman | 2 | 2 |
@@ -25,12 +25,11 @@
 
 | City | Active users | Page views |
 |---|---|---|
-| Flint Hill | 45 | 63 |
+| Flint Hill | 47 | 67 |
+| (not set) | 29 | 42 |
 | Chennai | 21 | 312 |
 | Des Moines | 19 | 25 |
-| (not set) | 18 | 22 |
-| Coimbatore | 17 | 674 |
-|  | 9 | 15 |
+| Coimbatore | 17 | 721 |
 | Madurai | 8 | 230 |
 | Salem | 4 | 203 |
 | Hyderabad | 3 | 3 |
@@ -58,11 +57,11 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 529 | 83 |
+| / | 547 | 85 |
 | /search | 94 | 4 |
-| /2026/08/article-index-start-here.html | 58 | 8 |
+| /2026/08/article-index-start-here.html | 60 | 9 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 41 | 6 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 35 | 6 |
 | /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
 | /2026/08/the-milk-india-doesnt-drink-cheese-and.html | 28 | 25 |
 | /2026/08/blending-on-budget-energy-density-and.html | 24 | 24 |
