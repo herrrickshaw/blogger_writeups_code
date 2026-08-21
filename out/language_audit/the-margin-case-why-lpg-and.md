@@ -7,4 +7,6 @@
 - **[GRAMMAR/PCT_SINGULAR_NOUN_PLURAL_VERB_AGREEMENT]** “Diversification” is a singular noun. It appears that the verb form is incorrect.
   context: ...ulf Coast, a structural diversification move away from Middle East-origin supply aft...
   suggested: moves
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘programme’ seems to be countable.
+  context: ...ate ₹4,000 crore refinery modernisation programme, and has already tied up a ₹4,016 crore...
+  suggested: programmes
