@@ -7086,3 +7086,21 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 226,384 → 227,058 bytes (+674)
+
+## 2026-08-21T23:14:47+05:30 — 190 posts live
+
+**Added**
+
+- `ipa-digital-twin-reportage-latest` **v1.0.0** — IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026) (125,660 bytes)
+
+**Versions**
+
+- `quarterly-reportage-4034-scheme` **1.0.12 → 1.0.13** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **28.0.22 → 28.0.23** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `quarterly-reportage-4034-scheme` — 560,694 → 560,690 bytes (-4)
+- `article-index-start-here` — 227,058 → 227,002 bytes (-56)
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 125,660 → 1,477 bytes (-124,183); markers ai_disclosure True→False, translate_widget True→False, typo_unify True→False
