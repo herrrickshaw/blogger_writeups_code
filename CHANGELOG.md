@@ -7076,3 +7076,13 @@ scheduled sync
 - `india-environmental-clearances-state` — 15,456 → 15,324 bytes (-132)
 - `india-fuel-retail-outlets-82k-geocoded` — 18,744 → 18,770 bytes (+26)
 - `tech-for-business-so-2019-tech-as` — 34,669 → 33,082 bytes (-1,587)
+
+## 2026-08-21T23:05:00+05:30 — 189 posts live
+
+**Versions**
+
+- `article-index-start-here` **28.0.21 → 28.0.22** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 226,384 → 227,058 bytes (+674)
