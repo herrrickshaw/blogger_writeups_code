@@ -22,14 +22,14 @@ Source: `posts/what-tepa-actually-opens-efta-goods.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "signed March 2024, and came into force 1 October 2025" — The TEPA was signed on **March 2024** but came into force on **10 May 2024**, not 1 October 2025. The article incorrectly states the implementation date. [confidence: high]
+- "signed March 2024, and came into force 1 October 2025" — The TEPA was signed on **March 2, 2024**, but the in-force date is **March 1, 2026** (not October 1, 2025). This is a factual error in the timeline. [confidence: high]
 
-- "Bilateral India-EFTA trade totalled roughly $24.4 billion in FY2024-25" — The article cites FY2024-25 trade figures, but India's fiscal year runs from April to March, and the TEPA came into force in May 2024. The FY2024-25 trade data would not yet reflect a full year of TEPA's impact, making the claim misleading in context. [confidence: medium]
+- "FY2024-25 bilateral trade total ($24.4bn, India exports $1.96bn/imports $22.45bn)" — The fiscal year 2024-25 (April 2024–March 2025) trade data for India-EFTA was not finalized or publicly released by August 2026 (the article's publication date). The cited figures appear to be estimates or projections, not verified official data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession required from India — a clean, one-sided win." — While the claim about duty-free access is correct, labeling it a "clean, one-sided win" is an overstatement. India may benefit from improved market access for its rice exports, but the agreement could also facilitate broader trade relationships or concessions in other areas not explicitly mentioned here. The conclusion oversimplifies the potential trade-offs. [confidence: medium]
+- "Basmati and non-basmati rice get duty-free EFTA access with no reciprocal concession required from India — a clean, one-sided win." — While the tariff concession is correct, the claim that this is a "clean, one-sided win" is an overstatement. India’s rice sector faces non-tariff barriers (e.g., sanitary/phytosanitary measures, quality standards) in EFTA markets, which could limit the actual export gains. The article does not address these practical constraints. [confidence: medium]
 
-- "The gems & jewellery sectoral exchange-rate-pass-through finding per EXIM Bank of India... finds that for this specific sector, rupee depreciation actually widens the trade deficit rather than narrowing it." — The article uses this finding to argue that gold's duty exemption under TEPA was justified. However, this interpretation conflates exchange-rate effects with tariff policy. The EXIM Bank paper discusses exchange-rate pass-through broadly, not the specific impact of tariff exemptions on gold imports. The conclusion incorrectly ties the two together. [confidence: high]
+- "The investment commitment is the mechanism most likely to actually close the 'needs domestic manufacturing support' gaps identified above (precision machinery, medical instruments, specialty pharma capability) if it materialises in those sectors specifically, rather than the tariff schedule itself..." — The article assumes the $100 billion investment commitment will directly address manufacturing gaps without evidence of sectoral earmarking or enforceability. The investment framework is broad and non-binding, making this causal link speculative. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

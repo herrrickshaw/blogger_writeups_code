@@ -22,14 +22,14 @@ Source: `posts/top-15-chemicals-for-import.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value) [retracted — the 4-Aug correction notice gives Ethylene's real FY25-26 import value as $44mn]" — The article initially claimed ethylene imports were $2.8 billion, but the correction notice explicitly states the correct value is $44 million. This is a significant factual error in the import value. [confidence: high]
-- "Annual Imports (FY25-26) : $1,650 million" for Sulfuric Acid — The correction notice states the correct import value is $250 million, which is only about 15% of the originally claimed figure. This is a clear factual error in the import value. [confidence: high]
+- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene) — The corrected notice explicitly states this figure was retracted as fabricated (invalid HSN code), with the real FY25-26 import value being $44 million. [confidence: high]
+- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected notice states this figure was retracted as fabricated (invalid HSN code), with the real FY25-26 import value being $250 million. [confidence: high]
 
 ---
 
 INTERPRETATION ERRORS:
-- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article initially claimed acetic acid imports grew by 81% year-over-year, but the corrected figure is +2.6%. Using the retracted 81% growth rate to justify acetic acid as a "fastest-growing import" and a "red flag" is an interpretation error because the corrected growth rate does not support the conclusion of an alarming surge in demand. [confidence: high]
-- "FY30 Substitution Target : -80% (down to $275mn imports)" for Polypropylene — The article sets an 80% reduction target for polypropylene imports by FY30, implying a savings of $1,098 million. However, the corrected import value for polypropylene is $1,372 million, and the FY30 substitution target is based on capex projects that may not fully materialize due to execution risks (e.g., BPCL AP Environmental Clearance NOT FILED). The 80% reduction target is an optimistic interpretation that may not be achievable given the cited risks and the capex timeline. [confidence: high]
+- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article claims a dramatic surge in acetic acid imports (+81% YoY) as a "red flag," but the corrected growth rate is +2.6%, which does not indicate an unusual surge. The original conclusion about the severity of the supply alert is not supported by the corrected data. [confidence: high]
+- "Annual Imports (FY25-26) : $1,400 million" (Propylene) — The article treats propylene as a standalone import item with a $1.4 billion value, but the corrected notice reveals this figure was fabricated (invalid HSN code). The real import dependency is already captured under polypropylene (Tier 1), making the standalone treatment and its associated conclusions (e.g., "co-produced with ethylene" as a standalone priority) misleading. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

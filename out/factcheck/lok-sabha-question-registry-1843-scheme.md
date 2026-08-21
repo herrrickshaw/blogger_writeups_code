@@ -22,14 +22,12 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2019-06-21 → 2026-08-12" — The date range is incorrect as the 17th Lok Sabha ended in 2024, and the 18th Lok Sabha began in June 2024, not 2026. [confidence: high]
+- "273 of the 1,890 Lok Sabha questions captured here" — The article claims 1,890 total questions, but the registry's date range (2019-06-21 to 2026-08-12) and the method description (17th LS: 2019–2024; 18th LS: 2024–today) suggest the total number of questions is likely higher than 1,890. The figure appears inconsistent with the stated coverage period. [confidence: high]
 
-- "nearly one in seven" — The claim that UDAN/RCS accounts for "nearly one in seven" Lok Sabha questions (273 out of 1,890) is unverifiable without access to the underlying dataset or methodology. The article does not provide a source or breakdown to confirm this proportion. [confidence: medium]
+- "nearly one in seven" — This is a derived claim based on the 273/1,890 ratio, which is incorrect if the total number of questions is not 1,890. The phrasing is misleading even if the ratio itself is accurate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions captured here" — The claim implies a causal or significant relationship between the number of questions and the scheme's performance or scrutiny level, but the number of questions alone does not objectively measure parliamentary scrutiny or scheme viability. Scrutiny could be driven by other factors (e.g., media attention, public interest, or political controversy). [confidence: high]
-
-- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — The claim suggests that the classification method ensures consistency between the "Quarterly Reportage" and the "Lok Sabha Question Registry," but the article later admits that "a row whose subject has nothing to do with its chip is a classification bug," indicating potential inaccuracies in the classification process. The claim overstates the reliability of the classification method. [confidence: high]
+- "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions captured here, nearly one in seven and more than any other scheme tracked" — The claim implies that the number of questions about UDAN/RCS directly reflects its parliamentary scrutiny or importance, but the registry only tracks questions where the scheme is explicitly mentioned in the subject line. This does not account for questions where the scheme is discussed in the answer but not the subject line, nor does it measure scrutiny in a broader sense (e.g., debate time, committee attention). The interpretation overgeneralizes the significance of the count. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

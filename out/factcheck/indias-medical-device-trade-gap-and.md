@@ -22,14 +22,10 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India has roughly 3 MRI units per million population against a global average of 7 (the US, Korea and Japan run 28–57 per million)" — This claim is incorrect. According to the *World Health Organization* and other reliable sources, the global average for MRI units per million people is closer to **10–12**, not 7. The US, South Korea, and Japan indeed have much higher densities (e.g., ~40–50 per million in the US), but the global average is higher than stated. [confidence: high]
-
-- "AIIMS Delhi OPD imaging dates have been issued as far out as 2027" — This claim lacks verifiable sourcing and appears exaggerated. While AIIMS Delhi does face long wait times for imaging, no official or reputable source has documented imaging appointment dates extending to 2027. This is likely an overstatement or misinterpretation of wait-time data. [confidence: medium]
+- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr" — The article states the deficit is $6.2 billion in FY2025-26 (provisional) and grew by 21.7% YoY, not "~20%/yr" as a general trend. The 20% figure is an approximation, but the exact YoY growth is provided (21.7%), making the rounded claim imprecise. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%, imports up 2.5× since 2014-15." — The claim that "imports up 2.5× since 2014-15" is presented as a direct comparison to the FY2024-25 data, but the article does not provide the 2014-15 import figure to verify this ratio. Without the base-year value, the 2.5× multiplier cannot be independently confirmed, making the interpretation unsupported by the data presented. [confidence: high]
-
-- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The article claims the market "roughly doubled" since 2020 based on the EEPC baseline, but the comparison is flawed because the EEPC baseline includes a broader basket (including pharma lines), while the current article’s figures exclude drug/API lines. Comparing these two different baskets directly is an apples-to-oranges comparison, as the composition of imports/exports differs significantly. [confidence: high]
+- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article cites specific examples of net-export segments (e.g., gloves, dressings, ECGs), it does not provide historical data or a clear baseline to substantiate the claim that this transition occurred "within a decade." The 2020 EEPC deck is referenced, but no timeline or pre-2020 data is presented to confirm the decade-long trend. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

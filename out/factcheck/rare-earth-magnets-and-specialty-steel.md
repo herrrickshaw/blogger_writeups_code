@@ -22,10 +22,10 @@ Source: `posts/rare-earth-magnets-and-specialty-steel.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "MRI machines: the other magnet demand story" section claims "India runs roughly 3 MRI units per million population against a global average of 7 — the US, Korea and Japan run 28–57 per million" — These figures are outdated or unverifiable. The latest WHO/OECD data (2023) shows India's MRI density is closer to 1.2 per million, while the US has ~40 per million and Japan ~50 per million. [confidence: high]
+- "Government and press accounts of the scheme cite a round ₹7,280 crore total — ₹80 crore above the sum of these two published components — but no public breakdown identifies a third line item accounting for the gap" — The article claims there is an unexplained ₹80 crore discrepancy in the scheme's total outlay, but the PIB press release (PRID 2194684) explicitly states the total outlay as ₹7,200 crore, with no mention of ₹7,280 crore. The article's own sources (PIB) contradict this claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it" — The claim implies a causal relationship between domestic magnet production and reducing India's electrical-machinery trade deficit (Chapter 85), but the article does not provide evidence that domestic magnet production will directly substitute imports in this category or that the deficit is primarily driven by magnet imports. The connection between the two is speculative. [confidence: medium]
+- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The article correctly notes that rare-earth magnets are a high-value component, but it does not provide evidence or reasoning to support the claim that a single scheme with five beneficiaries can "plausibly move the needle" on a $50bn-plus trade deficit. The causal link between the scheme's scale and impact on the deficit is unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

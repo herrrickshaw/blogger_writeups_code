@@ -22,14 +22,16 @@ Source: `posts/one-refinery-flipped-nigeria-from.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0 · African Energy Chamber, 2026 · OilPrice.com, January 2026 Dangote production data" — The publication date (8 August 2026) is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
+- "Published 9 August 2026 · v1.0.0 · African Energy Chamber, 2026 · OilPrice.com, January 2026 Dangote production data" — The publication date (9 August 2026) is in the future relative to the current date (June 2025), making it factually incorrect. [confidence: high]
 
-- "Dangote refinery is now operating at, ~99% utilisation" — The article later acknowledges a discrepancy between Wikipedia's 700,000 bpd nameplate capacity and the refinery's operating capacity of 650,000 bpd, but does not correct the utilisation figure to match the operating capacity. The 99% utilisation is based on the 650,000 bpd figure, but the initial claim does not clarify this, creating ambiguity. [confidence: medium]
+- "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply" — The claim about Nigeria exporting to Europe lacks independent verification (as acknowledged in the article itself), and no primary customs or trade data is cited to confirm this. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The claim implies that the rise in imports is due to demand outpacing refining capacity additions, but the article later notes that the African Energy Chamber's 2050 forecast does not account for Nigeria's newly reported 24-project refining pipeline (2.64 million bpd by 2031) or Dangote's expansion to 1.4 million bpd. This suggests the forecast may overstate the import rise, making the causal claim premature. [confidence: high]
+- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The article correctly states that imports are rising due to demand outpacing capacity additions, but it does not adequately address whether the forecast accounts for *all* announced projects (e.g., Nigeria's 24-project pipeline and Dangote's expansion to 1.4 million bpd). The conclusion that imports will rise "not despite" the refining boom implies the boom is insufficient, but the article later admits it cannot confirm whether the forecast includes these new projects, leaving the causal claim unsupported. [confidence: high]
 
-- "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply — this article treats the export-flow claims as reported, not independently traced through customs data." — The article acknowledges it has not independently verified the export claims (e.g., the 466,000-tonne jet-fuel export to Europe in June 2026) but still presents them as factual in the narrative. This conflates reported claims with established facts, potentially misleading readers about the refinery's actual export status. [confidence: high]
+- "Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects." — This claim assumes the African Energy Chamber's 2050 import forecast (3.4 million bpd) is based on a static 2024 baseline without accounting for future capacity additions. However, the article later notes that Nigeria's 24-project pipeline and Dangote's expansion could materially alter the forecast, making the conclusion that Dangote's capacity is "under a third" of the increase speculative and unsupported by the cited data. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

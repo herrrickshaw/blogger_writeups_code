@@ -22,14 +22,16 @@ Source: `posts/the-levelised-cost-of-hydrogen.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "20 August 2026" — The date is in the future relative to the current date (2025) and appears to be a typographical error, likely meant to be 2025. [confidence: high]
+- "20 August 2026" — The date is in the future relative to the current date (2025) and appears to be a typographical error, as the article references events and reports from 2023–2025. [confidence: high]
 
-- "₹5.05 lakh crore (about $61 billion)" — The conversion from ₹5.05 lakh crore to $61 billion assumes an exchange rate of approximately ₹82.8 per USD, which is plausible but not explicitly verified in the article. The lack of a cited exchange rate or source for the conversion introduces uncertainty. [confidence: medium]
+- "The first competitively bid supply contracts under its own SIGHT scheme — to Indian Oil and to Bharat Petroleum/Hindustan Petroleum's refineries — came in at $4.11–4.21 per kilogram" — While the article cites these figures as "separately reported," it does not provide a primary source or direct link to verify these exact bid prices, making them unverifiable as stated. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "Closing the gap to $1.50/kg is a statement about utilisation and electricity cost as much as it is about subsidy." — While utilisation and electricity cost are important factors in LCOH, the article does not provide specific data on the current utilisation rates or electricity prices for the SIGHT bid projects. Without this granularity, it is speculative to claim that closing the gap is "as much about" these factors as subsidies, especially when the article itself notes that the total incentive layer (₹5.05 lakh crore) is far larger than the NGHM budget. The claim conflates general methodological levers with the specific context of India's current bid prices and policy support. [confidence: high]
+- "Closing the gap to $1.50/kg is a statement about utilisation and electricity cost as much as it is about subsidy." — This claim conflates the *potential* impact of utilisation and electricity cost with the *actual* feasibility of achieving the $1.50/kg target. While the methodology identifies these as key levers, the article does not demonstrate that these factors alone (or even in combination) can realistically close the gap to the target, given the current bid prices and the scale of reductions required. [confidence: high]
 
-- "India's own 2030 target sits below even the optimistic global benchmark this section's methodology implies is achievable — making it an aggressive goal, not a conservative one, well before the actual current bid price is factored in." — The article cites a global optimistic benchmark of $2–2.5/kg for green hydrogen production, but this benchmark is not clearly defined or sourced in a way that directly compares to India's $1.50/kg target. The claim that India's target is "aggressive" assumes that the global benchmark is the relevant comparator, but the article does not establish whether this benchmark accounts for country-specific factors like India's capital costs, renewable resource variability, or policy environment. The interpretation risks overgeneralizing a global benchmark to India's context without sufficient justification. [confidence: medium]
+- "India's own 2030 target sits below even the optimistic global benchmark this section's methodology implies is achievable — making it an aggressive goal, not a conservative one, well before the actual current bid price is factored in." — The article cites a "global optimistic benchmark" of $2–2.5/kg but does not provide evidence that this benchmark is widely accepted or achievable under realistic conditions. The claim that India's target is "aggressive" is based on a comparison to an unspecified or unverified benchmark, which may not be a fair or accurate standard. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

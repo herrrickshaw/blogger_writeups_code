@@ -22,14 +22,14 @@ Source: `posts/quarterly-reportage-4034-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18)" — The date range implies 9.5 years (2017-2026), but 39 quarters only cover 9.75 years (e.g., Q1 2017 to Q3 2026). The claim is internally inconsistent. [confidence: high]
+- "4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18)" — The date range suggests 39 quarters (9.75 years), but 2017-01-02 to 2026-08-18 is ~9.6 years (116 months), which does not align with 39 quarters (9.75 years). The claim is inconsistent. [confidence: high]
 
-- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list" — The article does not provide a source or verification for this specific removal action, making it unverifiable. [confidence: medium]
+- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list" — The article does not provide a source or verification for this specific action (removal of 32 rows on that date). The claim lacks verifiability. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Mapping is by keyword against release titles, so it will miss a scheme referred to obliquely and it cannot tell an approval from a progress report — a Parliament answer about PM E-DRIVE and the Cabinet decision creating it look alike here." — While the limitation is correctly stated, the article implies that this mapping method is sufficient for identifying incentive-scheme announcements without acknowledging the potential for significant undercounting or misclassification. The conclusion that the dataset is reliable for analysis is not supported by the described methodology. [confidence: high]
+- "A release qualifies as an announcement here if its title matches the scheme-keyword map, or if it is a Cabinet/CCEA approval carrying incentive language." — The method conflates two distinct criteria (title matching and incentive language in approvals) without clarifying how "incentive language" is defined or validated. This risks including non-announcement items (e.g., progress reports) or excluding relevant ones. [confidence: high]
 
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the cited primary source." — The article warns about AI-generated inaccuracies but does not address how the AI-assisted methodology might systematically bias the dataset (e.g., overcounting or undercounting schemes due to keyword mapping errors). The warning is too generic to address the specific risks of the AI-assisted process. [confidence: medium]
+- "Quarters are calendar quarters, so 2026Q3 is Jul–Sep 2026." — While technically correct, the article does not address whether fiscal quarters (common in policy contexts) were considered, which could mislead readers expecting fiscal-year alignment. The claim assumes calendar quarters without justification. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

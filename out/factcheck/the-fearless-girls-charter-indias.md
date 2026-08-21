@@ -22,14 +22,14 @@ Source: `posts/the-fearless-girls-charter-indias.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "STCG at 20%, LTCG at 12.5%" — These tax rates are incorrect for India as of 2024. The current STCG tax rate for equities is 15% (for holdings <12 months), and LTCG tax rate is 10% (for holdings >12 months) on gains exceeding ₹1 lakh. The article does not specify the asset class, but these rates are not applicable to equities. [confidence: high]
+- "STCG at 20%, LTCG at 12.5%" — These rates are incorrect for India as of 2024. The current STCG tax on equity is 15% (for holdings <12 months) and LTCG tax is 10% (for holdings >12 months, with exemption up to ₹1 lakh). The article likely conflates these with other jurisdictions or outdated rates. [confidence: high]
 
-- "FPI net settlement on schedule" — The article does not provide a specific date or schedule for FPI net settlement implementation, making this claim unverifiable. The phrasing suggests a definitive timeline exists, which may not be accurate or publicly confirmed. [confidence: medium]
+- "FPI net settlement on schedule" — The article does not specify a date or policy timeline for FPI net settlement, making this claim unverifiable. Without a referenced policy announcement or implementation date, this cannot be confirmed as fact. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Reward those who stay invested instead of penalising them" — The claim implies a causal link between LTCG/STCG tax rates and investor behavior (rewarding patience), but it does not account for other factors influencing investment decisions (e.g., market conditions, risk appetite, or alternative investment avenues). The tax policy alone may not directly incentivize long-term holding. [confidence: high]
+- "Reward the patient. Protect the small. Open the gates — wisely." (as applied to tax policy) — The article claims that easing LTCG/STCG taxes "rewards" patient investors, but this ignores the potential trade-off of reduced government revenue and the distributional impact (benefiting higher-income investors more). The causal link between tax cuts and "rewarding patience" is not substantiated with evidence or analysis of opportunity costs. [confidence: high]
 
-- "Move the whole market toward same-day, then instant settlement, safely freeing up capital that sits idle in the pipes" — While T+0 settlement could theoretically free up capital, the claim assumes seamless scalability and safety without addressing potential risks (e.g., operational bottlenecks, systemic risks, or regulatory constraints). The extrapolation from a beta phase to a full market transition is not supported by evidence. [confidence: high]
+- "Carry the 2026 expense-ratio reset all the way through — unbundled, comparable fund fees and tighter brokerage caps, so nothing hides in the fine print." — While expense ratio transparency is a valid goal, the claim that a 2026 reset will "carry through" to solve all fine-print opacity assumes that regulatory changes alone will eliminate hidden fees, without addressing structural issues like embedded commissions or the complexity of fund disclosures. The conclusion over-extrapolates from a policy change to a systemic fix. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

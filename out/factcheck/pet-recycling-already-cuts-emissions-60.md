@@ -16,20 +16,19 @@ Source: `posts/pet-recycling-already-cuts-emissions-60.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 503: no healthy upstream]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026" — The article itself acknowledges a discrepancy in the notification date, with some sources citing 19 January 2026 and others late March 2026. The claim is unverifiable as stated. [confidence: high]
+- "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026" — The article itself acknowledges a discrepancy in the notification date, with some sources citing 19 January 2026 and others late March 2026. The claim is unverifiable as presented, and the article flags this as unresolved. [confidence: high]
 
-- "FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity" — The article cites this as a March 2026 event, but the rules are dated 2026 (not specifying a month), and the FSSAI authorization timing is not clearly aligned with the rule notification. The claim lacks clarity on the sequence of events. [confidence: medium]
+- "FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity" — The article cites this as occurring in March 2026, but the notification date of the rules is uncertain (as noted above). The timing of FSSAI's authorization relative to the rules' notification is unclear, creating potential confusion about causality or sequence. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Recycled PET (rPET) uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 59-79% range depending on the specific process comparison." — While the energy and emissions figures may be correct in isolation, the article extrapolates these global averages to India-specific conditions without providing evidence that Indian rPET processing achieves similar reductions. The claim implies a direct equivalence that is not substantiated. [confidence: high]
+- "Recycled PET (rPET) uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 59-79% range depending on the specific process comparison." — The article conflates energy savings with emissions reductions without clarifying whether the cited CO2-equivalent figures are directly proportional to the energy savings. Energy savings do not always translate linearly to emissions reductions, especially if the energy mix (e.g., reliance on fossil fuels vs. renewables) differs between processes. The claim implies a direct equivalence that may not hold. [confidence: high]
 
-- "At India's own scale, industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year." — The article does not explain how the global energy/emissions reduction percentages were applied to India's specific context (e.g., energy mix, recycling infrastructure efficiency). This is an apples-to-oranges extrapolation from global averages to a national estimate. [confidence: high]
+- "At India's own scale, industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year." — The article extrapolates a global or generic emissions reduction factor to India-specific substitution without accounting for India's unique energy mix, recycling infrastructure, or process efficiencies. The claim assumes the same emissions profile applies locally, which may not be accurate. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

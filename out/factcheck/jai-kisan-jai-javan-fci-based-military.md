@@ -22,14 +22,14 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure, not an annual output, as the article itself notes ("likely a multi-year cumulative figure the deck does not label as such"). The comparison to annual output is incorrect because it treats a cumulative figure as an annual one. [confidence: high]
+- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure, but the article incorrectly presents it as an annual output comparison without clarifying this. [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect. An 18-month plan starting in August 2026 would end in February 2028, not July 2027. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect; an 18-month plan starting in August 2026 would conclude in February 2028, not July 2027. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "5-year net savings vs private (the visible line items in this table sum to ~₹10–14 Cr, not ₹8.51 Cr — the deck does not show a full reconciling derivation)" — The claim of ₹8.51 Cr in 5-year savings is not supported by the visible line items, which sum to a higher amount. The discrepancy suggests either missing items or an error in the deck's calculations, but the article does not reconcile this gap. [confidence: high]
+- "54,700 jobs projected (farmers + logistics)" — The article does not explain how the job projections were derived or whether they account for potential job losses in the private vendor sector, leading to a potential overestimation of net job creation. [confidence: medium]
 
-- "Perpetual annual savings (Yr 2+, gross — before the ₹1.2-1.4 Cr/yr operating cost and Year-1 setup are netted; the ₹8.51 Cr row above is the 5-year net of both)" — The presentation of "perpetual annual savings" as ₹4.5 Cr/yr is misleading because it does not account for the ongoing operating costs (₹1.2–1.4 Cr/yr) or the initial setup cost (₹2.85 Cr). The net savings would be lower after accounting for these costs, but the article does not clarify this. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the operating costs (₹1.2–1.4 Cr/yr) or setup costs (₹2.85 Cr), making it unclear how these figures were calculated or whether they are realistic. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

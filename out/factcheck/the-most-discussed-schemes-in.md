@@ -9,10 +9,14 @@ Source: `posts/the-most-discussed-schemes-in.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -22,14 +26,14 @@ Source: `posts/the-most-discussed-schemes-in.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "19 August 2026" — The article is dated in the future relative to the current date (2023), and the publication timestamp at the bottom ("Generated 2026-08-19") suggests this is a placeholder or error. No article can be published in August 2026 as of now. [confidence: high]
+- "19 August 2026" — The article is dated in the future (August 19, 2026), which is impossible for a published post. The correct date should be a past or present date (e.g., August 19, 2024 or 2025). [confidence: high]
 
-- "PM Dhan-Dhaanya Krishi Yojana | 2025-02-01" — The scheme name appears to be a typographical error or misrepresentation. The correct name is likely "PM Kisan Samman Nidhi" or another scheme, as "Dhan-Dhaanya" is not a recognized government scheme name in India. [confidence: high]
+- "PM Dhan-Dhaanya Krishi Yojana" (first announced: 2025-02-01) — This scheme does not appear to be a recognized government scheme in official records. The date and name may be incorrect or unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — This claim assumes that lack of parliamentary questions is solely due to the recency of the scheme, ignoring other possible reasons such as low public interest, lack of awareness, or schemes operating without parliamentary scrutiny. The absence of questions does not necessarily imply the schemes are "not yet" monitored or discussed. [confidence: high]
+- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — The claim assumes that zero questions for schemes launched in 2025–2026 is due to lack of parliamentary sessions, but it could also reflect genuine lack of interest, oversight, or other factors. The conclusion extrapolates beyond the data without evidence of session cycles or parliamentary behavior. [confidence: high]
 
-- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While this is a valid methodological limitation, the article later uses the absence of questions as evidence of neglect (e.g., "PLI — White Goods: still running since 2021 with not one subject-titled question"), creating a contradiction. The interpretation conflates a data limitation with a conclusion about scheme neglect. [confidence: high]
+- "PM-KUSUM draws about five times more parliamentary attention than government publicity, while the Semiconductor Mission is the reverse." — The article compares parliamentary questions to an unspecified measure of "government publicity," which is not defined or quantified. This is an apples-to-oranges comparison, as parliamentary attention (questions) and government publicity are distinct metrics with no clear basis for direct comparison. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -22,10 +22,10 @@ Source: `posts/the-masala-deutsch-shop-books-things.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Updated 16 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and incorrect. [confidence: high]
+- "Updated 20 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "generated from the same list that renders the reading blocks on every article, so the two cannot disagree" — This claim implies a technical guarantee of consistency between the list and the reading blocks, but it does not logically follow that the two cannot disagree in content or presentation. The statement conflates technical generation with content accuracy or editorial consistency. [confidence: high]
+- "Every link is an affiliate link — as an Amazon Associate, this site earns from qualifying purchases — and nothing here was supplied free or sponsored; each item was chosen by the author." — While the claim about affiliate links and authorial choice may be factually correct, it implies a blanket endorsement of all linked items without any disclosure of potential bias or lack of independent verification. This could mislead readers into assuming the recommendations are unbiased or thoroughly vetted. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

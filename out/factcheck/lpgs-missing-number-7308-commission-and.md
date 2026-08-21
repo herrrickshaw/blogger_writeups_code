@@ -22,14 +22,14 @@ Source: `posts/lpgs-missing-number-7308-commission-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article claims to be published on 8 August 2026, but this date is in the future relative to the current date (2023). [confidence: high]
+- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023" — While the article cites PPAC's commission page, it does not provide a direct link or screenshot to verify this claim independently. The reliance on a scanned PDF (MoP&NG’s “Revision in Domestic LPG Distributors’ Commission”) that "could not be read as text" introduces uncertainty about the accuracy of the ₹73.08 figure. [confidence: medium]
+- "₹73.08 Distributor commission per 14.2kg domestic cylinder, since 4 Oct 2023" — The article claims the commission has been ₹73.08 since 4 October 2023, but the source (PPAC’s commission page) is not directly verifiable in the text, and the claim lacks a primary document citation. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The article claims LPG's margin is "nearly twice" that of fuel dealers (7.76% vs. 3.87%) and thus "half the MDR exposure." However, the "MDR exposure" is calculated as the MDR rate divided by the margin (e.g., 1% MDR on 7.76% margin = 12.9% of margin vs. 25.8% for fuel). While the math is correct, the phrasing ("half the MDR exposure") could mislead readers into thinking LPG is less affected by MDR in absolute terms, when the comparison is relative to the margin size. The article does clarify this later, but the initial framing risks misinterpretation. [confidence: high]
+- "LPG’s margin versus the fuel dealer’s 3.87% — roughly half the MDR exposure" — The article compares LPG’s margin (7.76%) to fuel dealers’ margins (3.87%) and concludes LPG is "nearly twice as well protected" from MDR. However, this conflates margin size with MDR exposure. MDR exposure depends on the fee rate (e.g., 0.25%, 0.30%, 1.00%) relative to the margin, not just the margin itself. The correct comparison should be the MDR fee as a percentage of the margin (e.g., 1% MDR on LPG’s 7.76% margin = 12.9% of margin lost, vs. 25.8% for fuel). The article’s conclusion is misleading because it implies margin size alone determines MDR vulnerability. [confidence: high]
 
-- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay" — The article calculates ₹3,642 crore as 30% of PMUY’s ₹12,000 crore subsidy budget. However, this assumes the ₹12,000 crore figure is the *total* subsidy outlay for PMUY in 2025-26, which may not account for other administrative or operational costs included in the budget. The comparison is apples-to-oranges if the subsidy figure includes non-commission expenses. [confidence: medium]
+- "The distributor commission on PMUY refills alone — ₹3,642 crore a year — is about 30% of the scheme’s entire subsidy outlay" — The article calculates ₹3,642 crore as 30% of the ₹12,000 crore PMUY subsidy budget. However, this assumes the entire subsidy budget is allocated to refills, which is incorrect. The ₹12,000 crore is the total subsidy outlay for PMUY, which includes administrative costs, infrastructure, and other expenditures—not just distributor commissions. The comparison is apples-to-oranges because the subsidy budget is not solely for refills or commissions. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

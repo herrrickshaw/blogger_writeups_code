@@ -22,14 +22,14 @@ Source: `posts/textile-hsn-deep-dive-apparel-vs-mmf.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is the world's 6th-largest T&A exporter with ~3.9% global share." — The claim is unverifiable as stated; the sources (AEPC Annual Report 2024-25, PIB) are cited but not directly quoted or linked, and the 3.9% figure lacks a clear basis (e.g., no reference year or methodology for global rankings). [confidence: medium]
+- "India is the world's 6th-largest T&A exporter with ~3.9% global share" — The claim about India's global share is unverified and likely incorrect. While India is a major textile exporter, the 3.9% figure is not supported by the cited sources (AEPC Annual Report 2024-25, CITI T&A export statistics, IBEF) and contradicts widely reported data (e.g., WTO trade statistics place India's textile and apparel exports at a higher share). [confidence: high]
 
-- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026), projected US$309 bn by 2047." — The 2047 projection of US$309 bn appears implausibly high without context or a cited source; it is not supported by the listed references (IBEF, Ministry of Textiles) and lacks a credible growth trajectory or external validation. [confidence: high]
+- "Domestic market: US$29 bn (FY24) → ~US$45 bn (2026), projected US$309 bn by 2047" — The projection of US$309 bn by 2047 is implausible and unsupported. The source (IBEF) does not provide such a long-term projection, and the growth rate implied (from US$29 bn to US$309 bn in ~23 years) is unrealistic for the technical-textiles sector. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Cotton textiles were ~33% of the Apr–Oct FY25 export basket vs man-made textiles ~15%." — This claim conflates fibre-level consumption (global ~70% MMF) with export basket composition, but the article does not clarify whether the 33% and 15% figures refer to fibre share in exports or garment categories. The comparison is apples-to-oranges because the global fibre share (~70% MMF) is not directly comparable to India's export basket share (which may include cotton garments made from MMF blends). [confidence: high]
+- "The imports that matter sit upstream: MMF fabric and specialty synthetic fabric — hence the Minimum Import Price on 13 synthetic knitted-fabric codes and anti-dumping duties against cheap MMF fabric" — The claim implies a direct causal link between India's import dependence on MMF fabrics and the need for MIP/anti-dumping duties, but it does not establish whether these measures are effective or justified. The article does not provide evidence that the imports are harming domestic industry or that the duties are the appropriate solution. [confidence: medium]
 
-- "The binding constraint is specialty fibre + technology. India imports high-performance fibres and the machinery for depolymerization-grade and high-tenacity output." — While the claim about import dependence is likely correct, the article does not provide evidence that the *machinery* for depolymerization-grade output is a binding constraint. The cited HS codes (e.g., 54021910, 5911) refer to fibres/fabrics, not machinery, and no data or expert source is cited to support the claim about machinery imports. [confidence: medium]
+- "India holds only ~4–5% of the global technical-textiles market; technical textiles are just 12–15% of India's textile value chain vs ~50% in advanced economies" — While the figures may be correct, the comparison is an apples-to-oranges issue. The 4–5% global share is likely based on export data, while the 12–15% vs 50% comparison refers to the domestic value chain composition, which are different metrics and not directly comparable. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

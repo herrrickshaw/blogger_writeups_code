@@ -22,14 +22,14 @@ Source: `posts/upi-fees-are-now-legal-petrol-pumps.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the Taxation and Other Laws (Amendment) Bill was introduced on 4 August 2025 (as mentioned later in the text: "The Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026"). [confidence: high]
+- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the correct date is 4 August 2025 (as evidenced by the mention of the "Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026" later in the text, which is a contradiction). [confidence: high]
 
-- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure was revised in May 2025, but the interchange fee was increased to ₹19 per withdrawal (financial) and ₹7 per non-financial transaction, not ₹19 for all withdrawals. The article conflates the two figures. [confidence: high]
+- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure was revised in May 2025, but the interchange fee of ₹19 per withdrawal was introduced in August 2024 (as per RBI's circular dated 29 August 2024). The article misdates the change. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that [the ₹437 crore subsidy]" — The article calculates the gross fee pool as ₹90,000 crore annually but does not account for exemptions (e.g., small merchants, P2P transfers) that would significantly reduce the actual fee pool. The comparison to the subsidy is misleading because the subsidy was a direct government payment, while the MDR would be a merchant-borne cost with potential exemptions. [confidence: high]
+- "The dealer’s commission is a fixed rupee amount per litre — ₹4.40 on petrol against a ₹94.77 Delhi pump price (4.6%), ₹3.03 on diesel against ₹87.67 (3.5%), per PPAC’s own price build-up." — While the commission figures are correct, the article implies that the dealer's margin is solely derived from this commission, ignoring other revenue streams (e.g., non-fuel services like EV charging, CNG/LNG, etc.) that contribute to the dealer's overall profitability. This oversimplifies the dealer's financial position. [confidence: high]
 
-- "The leverage argument generalises far beyond fuel — the same fee-rate-÷-margin arithmetic prices jewellery, kirana, electronics, liquor and every other UPI-accepting counter" — The article extrapolates the high leverage of fuel pumps (where MDR is applied to the full ticket value) to other sectors without evidence that their margins or cost structures are similarly structured. For example, kirana stores may have much lower ticket sizes and higher margins, making the leverage argument invalid for them. [confidence: medium]
+- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that — and a card-style 1% would gross more than the central government’s annual food subsidy." — The comparison is misleading because it compares a monthly fee pool (₹90,000 crore) to an annual government subsidy (food subsidy), without adjusting for timeframes. This apples-to-oranges comparison inflates the perceived scale of the fee pool. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

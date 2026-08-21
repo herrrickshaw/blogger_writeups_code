@@ -22,14 +22,10 @@ Source: `posts/price-is-wire-how-gcam-actually-links.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026" — The revision date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
-
-- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — The UN World Population Prospects (2022) projects India's population to peak around 2060 and decline thereafter, but the specific CAGR values (0.64% to −0.25%) are not standard figures and cannot be verified against widely cited projections. [confidence: medium]
+- "Revised 13 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND may use perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may produce unrealistic policy implications, and its efficiency does not necessarily translate to real-world applicability. [confidence: high]
-
-- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — This implies that GDP growth is purely an exogenous assumption, but it does not acknowledge that GDP growth itself can be influenced by energy-sector dynamics (e.g., energy prices affecting productivity). The claim oversimplifies the bidirectional relationship between energy and the macroeconomy. [confidence: high]
+- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — The claim correctly states REMIND's assumption of perfect foresight, but the interpretation that this assumption is "literally false" about real-world decision-making is not supported by the text. The article itself acknowledges this as a methodological choice rather than a factual claim about reality. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -22,14 +22,14 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's exports hit a record US$825.3 billion in FY25 across goods and services combined, per the Economic Survey 2025-26" — The article cites the Economic Survey 2025-26, but the date in the article header is "Published 8 August 2026 · v1.0.0 · Economic Survey 2025-26," which implies the survey covers FY2025-26 (April 2025–March 2026), not FY25 (April 2024–March 2025). The figure likely belongs to FY2025-26, not FY25. [confidence: high]
+- "India-EU Free Trade Agreement, concluded 27 January 2026" — The India-EU FTA was not concluded by January 2026; negotiations are ongoing as of mid-2024, and no agreement has been finalized. [confidence: high]
 
-- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The article does not provide a source for this specific figure or the year-on-year growth rate, and it is not clearly attributed to the Economic Survey 2025-26 or any other verifiable source within the text. [confidence: medium]
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide a US$387.5 billion figure for services exports in FY25; the actual figure is lower (e.g., ~US$340 billion per RBI data). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme's investment figures are factually correct, the article implies that this overshooting is a direct measure of success without addressing potential inefficiencies or overestimation in the approved outlay. The 26% overshoot could reflect conservative initial estimates rather than exceptional performance, and the article does not explore whether the actual economic impact (e.g., net exports, job sustainability) justifies the higher investment. [confidence: high]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme overshot its investment target, the claim implies this is a net positive without addressing potential inefficiencies (e.g., whether the additional investment correlates with proportional export growth or job creation). The article does not examine whether the 26% overshoot translates to commensurate economic benefits. [confidence: medium]
 
-- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make — it only surfaces that the asymmetry exists" — The article highlights the mismatch between policy focus (goods) and export growth (services) but does not critically assess whether the lack of services-specific policies is justified by market dynamics or if it reflects an oversight. The claim that services may already be globally competitive is speculative and not supported by data in the article. [confidence: medium]
+- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make" — The article highlights the asymmetry between goods- and services-focused policies but does not critically assess whether the lack of services-specific schemes is justified by market dynamics (e.g., services' inherent competitiveness) or represents an oversight. The claim about the "gap" is framed as a question without evidence to support either interpretation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

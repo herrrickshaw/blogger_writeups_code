@@ -6912,3 +6912,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 223,982 → 224,388 bytes (+406)
+
+## 2026-08-21T21:05:49+05:30 — 187 posts live
+
+**Added**
+
+- `sugar-at-5570-kilo-why-cane-acreage` **v1.0.0** — Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race (23,579 bytes)

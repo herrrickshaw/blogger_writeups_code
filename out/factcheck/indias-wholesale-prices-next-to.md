@@ -9,14 +9,10 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,16 +22,16 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — Brazil's producer inflation in 2021 was +31.6%, which is indeed the highest peak among the six economies listed in Exhibit 1 for that year. However, the claim that it was "tied with the US for earliest" is incorrect because the US PPI peaked in 2021 (as shown in Exhibit 1 with +17.0% for 2021), while Brazil's peak was also in 2021. The phrasing suggests a tie in timing, which is accurate, but the claim is misleading as it implies the US and Brazil peaked at the same time *and* were tied for the highest peak, which is not the case (Brazil's peak was higher). [confidence: high]
+- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — The claim that Brazil's 2021 producer inflation was tied with the US for the earliest peak is incorrect. The US PPI peaked in 2021 (as shown in the table), but Brazil's producer inflation peaked in 2021 as well, not earlier. However, the phrasing "tied with the US for earliest" implies they peaked at the same time, which is not supported by the data since the US PPI peaked in 2021 and Brazil's in 2021 as well, but the US did not peak earlier. The table shows Brazil's peak in 2021 (+31.6%) and the US PPI also peaked in 2021 (+17.0%), but the US did not peak earlier than Brazil. The claim is misleading about the timing comparison. [confidence: high]
 
-- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this in the correction note, but the initial claim in the text ("India’s consumer inflation has quietly become one of the lowest in the G20") does not provide a specific cumulative figure. The correction note itself is accurate (27.4% cumulative consumer inflation from 2020–2025), but the lack of clarity in the original claim about the cumulative nature of the figure could be seen as a factual error in context. [confidence: medium]
+- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this as a correction, but the original claim of 25.2% is not verifiable in the provided text or context. The correction mentions the change from 7.7% to 3.7% for 2019, but the 25.2% figure is not explicitly sourced or explained in the article. Without a clear reference for the 25.2% figure, this cannot be verified as accurate. [confidence: medium]
 
 ---
 
 INTERPRETATION ERRORS:
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim about the timing and relative size of the 2022 wholesale spike is factually correct (India's WPI in 2022 was +15.4%, while the euro area's PPI was +26.0%), the conclusion that this "was not an Indian policy failure" is an overreach. The article does not provide evidence to rule out the possibility that domestic policies (e.g., fuel taxes, subsidies, or supply-side interventions) influenced the magnitude or persistence of the spike in India relative to other economies. The comparison of absolute values does not address the role of policy. [confidence: high]
+- "India’s consumer inflation has quietly become one of the lowest in the G20." — The article cites India's 2025 consumer inflation as 2.4%, which is indeed low compared to many G20 economies. However, the claim that this is "quietly become one of the lowest" implies a significant and noteworthy shift, but the article does not provide historical context or statistical significance to support the idea that this is a meaningful or sustained change. The low 2025 figure could be an outlier or part of a short-term trend, and the article does not address this. [confidence: medium]
 
-- "Whatever is driving the 2026 turn — crude moving from roughly $77 to $92 over the period (Brent spot price, EIA, January to June 2026) is the obvious candidate — it is not something happening only to India." — While the rise in crude prices is a plausible driver of the 2026 producer-side turn, the article does not establish causality or rule out other contributing factors (e.g., domestic fuel taxes, supply chain disruptions, or global commodity price movements beyond crude). The claim that the turn is "not something happening only to India" is supported by the synchronised acceleration in other economies, but the attribution to crude prices alone is an oversimplification. [confidence: medium]
+- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the article correctly notes that India's 2022 wholesale inflation (15.4%) was smaller than the euro area's (26.0%), it incorrectly implies that this similarity in timing and magnitude across economies negates the possibility of domestic policy influences. The claim assumes that a global commodity shock explains all variations, but it does not account for potential domestic factors (e.g., fuel taxes, subsidies, or supply chain policies) that could have amplified or mitigated the spike in India relative to others. The reasoning oversimplifies the role of domestic policy by attributing the entire spike to external factors. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

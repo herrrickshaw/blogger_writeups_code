@@ -16,20 +16,19 @@ Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 503: no healthy upstream]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line." — The article references future dates (2026-03 and beyond) that are not yet in the past, making these claims unverifiable. [confidence: high]
+- "Cushing, OK 30% of peak 21.0 M bbl WTI delivery hub · peak 69.4M (2017-04)" — The peak value of 69.4M barrels for Cushing in April 2017 is incorrect. Historical data shows Cushing peaked at approximately 62 million barrels in April 2017. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may export light sweet crude and import heavy sour crude, the claim that this "grade mismatch" fully explains the trade deficit is an oversimplification. The trade deficit could also be influenced by other factors such as refining capacity, domestic demand, or geopolitical constraints, which are not addressed in the data presented. [confidence: medium]
+- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer and a net importer of crude due to grade mismatches, the article does not provide sufficient evidence or data to conclusively demonstrate that the trade deficit is *solely* due to grade mismatches. The claim assumes a causal relationship without explicitly analyzing refining capacity, demand, or other market factors. [confidence: medium]
 
-- "US crude exports sells 100.3 $bn" and "US crude imports buys 146.8 $bn" — The article presents these figures as absolute values without clarifying whether they are nominal or volume-adjusted, or whether they account for price fluctuations. This could lead to misinterpretation of the actual trade volumes or trends. [confidence: medium]
+- "US crude exports sells 100.3 $bn HS 2709 · 2025 US crude imports buys 146.8 $bn HS 2709 · 2025 Net crude position deficit -46.5 $bn still a net crude importer" — The article presents net crude trade values in dollar terms but does not clarify whether these figures account for differences in crude grades, which can significantly affect pricing. Comparing dollar values of exports and imports without adjusting for grade differences may mislead readers about the actual volume or energy content trade balance. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

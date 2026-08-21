@@ -22,14 +22,10 @@ Source: `posts/the-empty-shed-greenhouse-what-indias.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim is unverifiable as no primary source is provided for the ₹12 lakh figure, and the year "2026" is speculative (future cost projection without citation). [confidence: low]
-
-- "50–95% Combined NHM + State Horticulture Mission subsidy on polyhouse project cost" — The claim lacks specificity about whether this is a range for *combined* subsidies or individual programs, and no primary source is cited to verify the exact percentages or their applicability. [confidence: medium]
+- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim states a cost for a polyhouse in 2026, which is a future projection. As of the current date (2023), this figure cannot be verified as factual, and no reliable source is provided to support a 2026 cost estimate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Eight Indian crop-science papers on protected tomato, cherry-tomato, capsicum and cucumber cultivation converge on the same finding: covered structures — net houses, shade nets, naturally ventilated polyhouses, glasshouses — consistently outperform open fields." — While the papers likely show yield/quality advantages under protected cultivation, the claim that they "consistently outperform" open fields *in all cases* is an overgeneralization. The papers may not account for regional variations, crop-specific exceptions, or long-term sustainability trade-offs (e.g., soil health, pest resistance). [confidence: high]
-
-- "Converting one of these [unused sheds] into a protected-cultivation structure [...] skips the largest single line item in the NHM cost model: the structural shell itself." — The reasoning assumes that retrofitting existing structures *always* avoids the cost of the structural shell, but this ignores potential hidden costs (e.g., structural reinforcement, compliance with NHM standards, or retrofitting inefficiencies). The claim conflates *potential* savings with *guaranteed* avoidance of the shell cost. [confidence: high]
+- "3–5x Yield increase, protected vs. open-field cultivation, across multiple Indian crop studies" — While the article cites studies showing higher yields under protected cultivation, it does not address potential confounding factors such as differences in crop varieties, input use (fertilizers, pesticides), or management practices between protected and open-field systems. The claim implies a direct causal relationship between the use of protected structures and yield increase without accounting for these variables, which could independently influence yields. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

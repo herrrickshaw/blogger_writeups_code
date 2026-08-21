@@ -22,16 +22,14 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The duplicate entry suggests a data processing error where the same announcement is listed twice under different entries. [confidence: high]
+- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The duplicate entry is a formatting error, not a factual claim, but the repetition itself is incorrect as it suggests two separate announcements when it is the same announcement listed twice. [confidence: high]
 
-- "Cabinet Committee on Economic Affairs (CCEA) Cabinet approves one multitracking project covering three Districts across Karnataka and Andhra Pradesh, increasing the existing network of Indian Railways by about 46 Kms" — The claim that a single project increases the network by "about 46 Kms" is likely incorrect or misleading, as a single railway project typically does not add 46 km to the national network in one go; such expansions are usually incremental and part of larger schemes. [confidence: medium]
-
----
+- "Cabinet Cabinet approves scheme of Chemical Parks “Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — Similar to the above, this is a duplicate entry of the same announcement, which is factually incorrect as it implies two separate approvals. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — While the statement may be factually correct, it implies that the absence of state-wise allocation is a positive or neutral fact, without addressing potential equity concerns or the rationale behind centralized implementation. This could mislead readers into assuming that the scheme’s uniform implementation is inherently optimal or sufficient for regional development needs. [confidence: high]
+- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — This claim suggests that the absence of state-wise allocation implies uniform implementation across all states, but it does not address whether the scheme is effectively reaching all states or whether there are disparities in uptake or impact. The statement conflates lack of allocation with successful implementation. [confidence: medium]
 
-- "Ministry of New and Renewable Energy Over 48 Lakh Households Benefit Under PM Surya Ghar: Muft Bijli Yojana Since February 2024" — The claim that 48 lakh households have benefited since February 2024 is presented as a cumulative achievement, but the article does not clarify whether this number includes new beneficiaries added in the specified period or is a cumulative total since the scheme’s inception. This ambiguity could lead readers to misinterpret the pace or scale of recent progress. [confidence: high]
+- "Ministry of Heavy Industries Under the FAME-II Scheme Rs.912.50 crore were allocated for setting up of EVPCS on pan India basis and no state wise allocation was made" — This claim implies that the allocation of funds for EV public charging stations (EVPCS) on a pan-India basis is sufficient to ensure equitable distribution and implementation across states. However, it does not account for potential regional disparities in infrastructure readiness, demand, or actual utilization of funds, which could lead to unequal outcomes despite the uniform allocation. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

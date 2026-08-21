@@ -16,20 +16,21 @@ Source: `posts/the-currency-rupee-trends-piece-left.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+[Groq/llama-3.3-70b-versatile API error 502: 502 Bad Gateway
+Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared
 ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated in the future (2026), which is impossible as of the current date (2025). This is a clear factual error. [confidence: high]
+- "14 August 2026" — The article is dated 14 August 2026, but this date is in the future relative to the current date (2025). This is likely a typographical error or misconfiguration, as published articles typically use past or present dates. [confidence: high]
 
-- "REC's EuroYen bond priced at 1.76–2.20% in January 2024" — The article cites a specific bond pricing event, but the referenced companion piece ("Raising Green Debt Globally") is not provided for verification. Without access to the primary source, this claim cannot be confirmed. [confidence: medium]
+- "REC's EuroYen bond priced at 1.76–2.20% in January 2024" — The article cites a specific bond pricing for January 2024, but the referenced companion piece ("Raising Green Debt Globally") is not provided for verification. Without direct access to the source, the exact pricing cannot be confirmed. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years." — The claim conflates the direction of the exchange rate (JPY/INR) with the strength of the rupee. A decline in JPY/INR means the rupee is *strengthening* against the yen, not that the yen is weakening in absolute terms. The article incorrectly frames this as a favorable trend for borrowers without clarifying that the principal repayment in rupees would be cheaper due to the rupee's appreciation, not the yen's depreciation. [confidence: high]
+- "JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen" — While the claim about the direction of the exchange rate movement is factually correct, the article implies that this alone explains the "yen-borrowing rush" by combining it with low nominal yen coupons. However, the favorable borrowing conditions also depend on hedging costs (e.g., IREDA's hedged loan cost being higher than the naked coupon), which the article acknowledges elsewhere. The conclusion that the arithmetic of the borrowing rush is "obvious" oversimplifies the role of hedging and market conditions, as the carry trade's profitability is not solely determined by the exchange rate trend but also by the cost of hedging and the stability of the funding currency. [confidence: high]
 
-- "The yen appreciated 7.7% against the rupee in the nine trading days between 29 July and 5 August 2024 alone." — While the yen did appreciate against the rupee during this period, the article implies this was solely due to the BoJ's rate hike. However, currency movements are influenced by multiple factors (e.g., global risk sentiment, USD dynamics), and the BoJ's role is not isolated. The causal claim oversimplifies the drivers of the yen's appreciation. [confidence: medium]
+- "A five-year favourable trend is not a forecast" — While the article correctly states that a past trend does not guarantee future performance, it does not adequately address the risk that the BoJ's rate hikes (cited as a potential future risk) could reverse the trend *before* the five-year window ends. The article frames the risk as a future projection ("BoJ rate hikes to 1.00% by June 2026"), but the July 2024 unwind (within the ten-year window) already demonstrated that such reversals can occur abruptly. The interpretation gap is that the article does not fully reconcile the documented past trend with the acknowledged live risk of an early reversal. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

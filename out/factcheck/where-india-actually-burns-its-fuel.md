@@ -22,14 +22,14 @@ Source: `posts/where-india-actually-burns-its-fuel.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Delhi is the finding hiding in the slow column. The capital’s fuel sales grew 22% in sixteen years — a period in which its vehicle stock multiplied." — The claim that Delhi's vehicle stock multiplied is not supported by any cited data in the article. While fuel sales growth is stated as +22%, there is no verifiable evidence provided for the assertion about vehicle stock growth. [confidence: medium]
+- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The date "31.05.2026" is in the future relative to the article's publication date of 8 August 2026, making it an impossible reference date. [confidence: high]
 
-- "Delhi runs India’s densest gas transport network — 458 CNG station clusters and 19.6 lakh piped-gas connections on PNGRB’s May 2026 count" — The figure "19.6 lakh piped-gas connections" is not sourced or explained in the article. The PNGRB count is mentioned, but the specific number is not referenced in the cited sources (PPAC workbook or PNGRB snapshot). [confidence: high]
+- "FY2024-25 figures are provisional." — While this is likely correct, the article does not provide a source or definition for what "provisional" entails (e.g., whether it refers to preliminary estimates, partial data, or subject to revision). Without verification, this cannot be confirmed as factually accurate. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The composition flipped: India’s fuel demand is passenger-ising. Diesel still dominates, but every increment leans petrol." — The article conflates growth rates (+255% petrol vs +77% diesel) with the *composition* of demand. While petrol grew faster, diesel still accounts for a larger absolute volume of sales (91,408 TMT vs 40,004 TMT in FY2024-25). The claim that "every increment leans petrol" implies a structural shift in the *share* of demand, but the data only shows relative growth rates, not absolute shares or incremental contributions. [confidence: high]
+- "Delhi is what the CGD takeover of India’s gas demand looks like from the petrol pump’s side of the ledger." — The article attributes Delhi's slow fuel growth to substitution via CNG, metro, and vehicle-age rules but does not quantify the contribution of each factor or rule out other potential causes (e.g., policy changes, economic shifts, or data anomalies). The causal claim is plausible but not decomposed, making it an overgeneralization. [confidence: high]
 
-- "Delhi is what the CGD takeover of India’s gas demand looks like from the petrol pump’s side of the ledger." — The article attributes Delhi's slow fuel growth *solely* to CNG/metro expansion without quantifying the contribution of each factor (e.g., CNG adoption rate, metro ridership impact, vehicle-age rules). The causal claim is presented as definitive without decomposition or statistical evidence. [confidence: high]
+- "The increment is two-wheelers and cars, not trucks and tractors — which is why the ethanol-blending programme (petrol-side) keeps gaining policy leverage while diesel-side interventions fade..." — The article links the shift in fuel demand composition to vehicle type (two-wheelers/cars vs. trucks/tractors) without providing data on vehicle sales, fleet composition, or fuel use by vehicle type. The causal inference assumes a direct relationship without supporting evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

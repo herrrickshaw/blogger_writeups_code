@@ -22,10 +22,10 @@ Source: `posts/up-has-indias-biggest-herd-punjab-has.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. The article rounds incorrectly. [confidence: high]
+- "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population." — While Uttar Pradesh leads in both herd size and milk output, the article implies a direct causal link between herd size and milk production without accounting for other factors like yield per animal, which varies significantly (e.g., Punjab's higher yield). The conclusion oversimplifies the relationship between population and production. [confidence: high]
+- "The headcount Parliament was given is a 2019 snapshot... Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites... is a 2019 measurement of a sector that has since grown at nearly 13% a year." — The article claims the livestock sector has grown at "nearly 13% a year" based on the 12.77% CAGR from FY2014-15 to FY2023-24, but this CAGR refers to milk production, not livestock population. The two are not directly comparable, and the article incorrectly extrapolates growth in production to growth in population. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

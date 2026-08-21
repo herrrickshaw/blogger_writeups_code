@@ -22,10 +22,14 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The fiscal year 2025-26 has not yet concluded (as of July 2026), so provisional data for this period cannot be accurate or finalized. [confidence: high]
+- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of July 2026 (the article's retrieval date), making this claim unverifiable and incorrect. [confidence: high]
+
+- "−$50.9bn Chapter 85 (electrical machinery & parts) net trade deficit, FY2025-26" — The table shows a net deficit of −$50.8764bn for FY2025-26, which rounds to −$50.9bn, but the article does not specify rounding conventions. While not strictly incorrect, the precision suggests an implied exactness that may mislead. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further" — While this claim is factually correct about the need for finer classification, it does not address the article's broader interpretation that the entire Chapter 85 deficit is directly tied to EV components. The deficit in Chapter 85 includes many non-EV items (e.g., mobile phones, consumer electronics), so attributing the deficit's widening solely to EV-related imports is an overgeneralization. [confidence: high]
+- "Chapter 85’s deficit widened in 3 of the last 7 year-over-year moves, and is now $11.6bn wider than at the start — even as Ch.87’s surplus grew" — The article implies a causal or correlative relationship between the widening deficit in Chapter 85 and the growth in Chapter 87’s surplus, but the data only shows parallel trends without evidence that one caused the other. The deficit in Chapter 85 could widen due to factors unrelated to the surplus in Chapter 87 (e.g., global supply chain shifts, demand for electronics). [confidence: high]
+
+- "A vehicle exported with an imported motor and an imported battery pack still counts as a Chapter 87 export" — While technically true at the HS 2-digit chapter level, this statement oversimplifies the trade dynamics. The value of the imported components (e.g., motors, batteries) is embedded in the final vehicle's price, but the article does not clarify whether the trade surplus in Chapter 87 accounts for the embedded import content. This risks double-counting or misrepresenting the true value addition in Chapter 87. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

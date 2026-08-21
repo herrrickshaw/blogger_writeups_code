@@ -22,12 +22,10 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (e.g., 2026-08-13), which is impossible for a dataset capturing past questions. The claim is unverifiable as stated. [confidence: high]
-
-- "Generated 2026-08-19 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa." — The generation date is in the future (2026-08-19), which is not possible for a published article. [confidence: high]
+- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (2026-08-13), which is impossible for a dataset capturing past questions. The end date should not exceed the current date (as of the article's publication in 2026, the latest possible date would be 2026-08-12 or earlier). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The index matches keywords against the subject line only, so a question whose subject names no scheme is not captured even when its answer discusses one at length — coverage is of scheme-titled questions, not of every mention." — While the limitation is correctly stated, the phrasing implies that the dataset is intentionally limited to scheme-titled questions, which may mislead readers into thinking it captures all relevant parliamentary discussions on schemes. The interpretation could be read as a broader claim about the dataset's comprehensiveness than is justified. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the article correctly acknowledges the potential for AI hallucinations, it does not address how the AI might have misinterpreted or misclassified the data (e.g., scheme-keyword mapping errors, double-counting, or incorrect causal inferences from the data). The warning is too generic and does not explain the specific risks of misinterpretation in the context of the dataset's methodology. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

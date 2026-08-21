@@ -22,12 +22,14 @@ Source: `posts/tech-for-business-so-2019-tech-as.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The relationship between an investor and your company's CEO can be seen as the relationship between Tom and Jerry." — This is a metaphorical comparison, not a factual claim, and thus does not qualify as a factual error. No factual errors found. [confidence: high]
+- "AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written." — The claim is self-referential (about the article's own publication date and disclosure block) and cannot be independently verified as factually correct. The date and context of the disclosure block's addition are not corroborated by external sources. [confidence: low]
+
+- "Read more about an efficient frontier https://www.investopedia.com/terms/e/efficientfrontier.asp" — While the link is correct, the article does not provide any context or explanation of the efficient frontier concept, making it an unsupported claim in the context of the article's discussion. The claim is not inherently false but is presented without verification or relevance to the article's content. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "An Angel investor is effectively a fairy godmother who believes in the CEO's vision and enables them to succeed." — This claim implies a causal relationship where angel investors' belief in a CEO's vision *directly enables* their success, which is an overgeneralization. Angel investments provide capital and support, but success depends on multiple factors beyond investor belief, such as market conditions, execution, and product-market fit. [confidence: high]
+- "The relationship between an investor and your company's CEO can be seen as the relationship between Tom and Jerry. Although they often fight, they always get together at the end and turn up for the next episode." — This analogy implies a consistent, recurring reconciliation between investors and CEOs, which oversimplifies the dynamic. Investor-CEO relationships can end in failure, disputes, or permanent separation, and the analogy does not account for these possibilities. [confidence: high]
 
-- "A trader can ask in length about the guarantee of quality, volume, and price of potatoes." — This claim suggests that a trader (investor) can demand guarantees on quality, volume, and price from a farmer (entrepreneur), which may not be feasible or realistic. Investors typically assess risks and potential returns rather than demand guarantees, as startups operate under uncertainty. [confidence: medium]
+- "A trader (Investor) at the market has an idea of the risks in the global potato products category, what types of potatoes /ready to cook french fries are already selling, and what the whole potato market looks like to consumers (who love french fries) and potato price speculators, commodity traders and regulators." — The claim assumes the trader/investor has comprehensive knowledge of all these factors, which is an overgeneralization. Investors may lack detailed market knowledge or may rely on incomplete data, and the claim implies an unrealistic level of certainty. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

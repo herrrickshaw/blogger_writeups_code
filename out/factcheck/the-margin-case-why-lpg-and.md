@@ -22,10 +22,14 @@ Source: `posts/the-margin-case-why-lpg-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect as US sanctions on Russian crude entities were imposed in 2022 and 2023, not November 2025. [confidence: high]
+- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect as US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the US Treasury's OFAC sanctions on Sovcomflot and other entities), not November 2025. [confidence: high]
+
+- "EU ban on products refined from Russian crude (January 2026)" — The EU's ban on Russian refined petroleum products (e.g., diesel) took effect in **February 2023** (as part of the sixth sanctions package), not January 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A refiner that redirects FCC yield toward LPG, using the technical lever and the improved product-differential economics described in Sections 1 and 3, is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The claim assumes that redirecting FCC yield toward LPG will directly displace import volumes, but it does not account for potential supply chain adjustments, changes in domestic production capacity, or shifts in import sources that could mitigate this displacement. The reasoning gap lies in assuming a direct, unidirectional impact on import volumes without considering broader market dynamics. [confidence: medium]
+- "the discount India's refiners had been getting on Russian crude — which made up 35–40% of the country's crude import mix — narrowing as US sanctions on major Russian crude entities (November 2025) and an EU ban on products refined from Russian crude (January 2026) both took effect" — The claim implies that the narrowing discount was directly caused by the US sanctions and EU ban. However, the discounts on Russian crude were already narrowing due to market dynamics (e.g., global oil price shifts, India's diversification efforts) and the sanctions/ban were not the primary drivers of the discount compression. The causal link is overstated. [confidence: medium]
+
+- "A refiner that redirects FCC yield toward LPG, using the technical lever and the improved product-differential economics described in Sections 1 and 3, is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The claim assumes that redirecting FCC yield toward LPG will directly displace import growth. However, LPG imports are influenced by multiple factors (e.g., domestic production capacity, infrastructure constraints, policy changes), and the refiner's yield shift may not fully offset import dependency, especially given the scale of import growth (51.2% over five years). The conclusion extrapolates beyond the data. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
