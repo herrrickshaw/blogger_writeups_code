@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-08-22T07:56:40.151+05:30",
+  "updated": "2026-08-22T08:15:39.343+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 61911,
-  "sha256": "e792f12bda58ac24cc100f49bd9153652024f082eaeaa7025b66c9418be823b1",
+  "bytes": 67931,
+  "sha256": "8dfc5674d2a02835c97731ad0e4c85922fea24e24f790f4045cb6dd89fe80311",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -64,6 +64,19 @@
       "bytes": [
         51200,
         61911
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-08-22T08:15:59+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        61911,
+        67931
       ],
       "url_changed": null,
       "markers_changed": null,
