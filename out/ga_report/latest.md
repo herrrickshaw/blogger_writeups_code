@@ -4,17 +4,17 @@
 
 ## Totals
 
-- Active users: **164**
-- Total users: **164**
-- Page views: **1641**
-- Sessions: **342**
+- Active users: **168**
+- Total users: **168**
+- Page views: **1708**
+- Sessions: **355**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 101 | 141 |
-| India | 55 | 1484 |
+| United States | 103 | 143 |
+| India | 57 | 1549 |
 | (not set) | 2 | 2 |
 | Malaysia | 2 | 9 |
 | Oman | 2 | 2 |
@@ -28,8 +28,8 @@
 | Flint Hill | 47 | 67 |
 | (not set) | 29 | 42 |
 | Chennai | 21 | 312 |
-| Des Moines | 19 | 25 |
-| Coimbatore | 17 | 721 |
+| Des Moines | 21 | 27 |
+| Coimbatore | 19 | 786 |
 | Madurai | 8 | 230 |
 | Salem | 4 | 203 |
 | Hyderabad | 3 | 3 |
@@ -57,9 +57,9 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 547 | 85 |
-| /search | 94 | 4 |
-| /2026/08/article-index-start-here.html | 60 | 9 |
+| / | 571 | 87 |
+| /search | 95 | 4 |
+| /2026/08/article-index-start-here.html | 61 | 9 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 41 | 6 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
 | /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
@@ -72,9 +72,9 @@
 | /2026/07/the-grain-value-loop-integrated-rice.html | 14 | 12 |
 | /2026/07/ai-high-demand-launch-tracker.html | 13 | 3 |
 | /2026/08/cow-dung-already-flew-rocket-engine.html | 13 | 5 |
+| /2026/08/cpi-wpi-trends-mospi-bulletin.html | 13 | 4 |
 | /2026/08/diesel-doesnt-move-cpi-it-moves-40.html | 13 | 5 |
 | /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 13 | 4 |
 | /2026/08/a-slice-of-apple-costs-about-1700-slice.html | 12 | 1 |
-| /2026/08/cpi-wpi-trends-mospi-bulletin.html | 12 | 3 |
 
 [1]: same post, folded in from a pre-redirect URL still present in GA4's history (301 confirmed working) -- `/2026/07/india-mineral-oil-hsn-ch27-trade.html` (25 views/13 users)
