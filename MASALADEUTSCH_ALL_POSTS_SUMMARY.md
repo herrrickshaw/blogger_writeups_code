@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*183 published posts, 33 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*189 published posts, 33 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 21 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 22 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (32)
+### Agriculture & Fertilisers (33)
 
+- **[379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html)** — 2026-08-22
+  India sold 396.6 lakh tonnes of urea in 2025-26. Uttar Pradesh took a fifth of it. But divide each state’s urea by the land it actually crops and the ranking scrambles: Punjab burns through 379 kilos a hectare, Kerala 44, and the national average sits at 182. The map of Indian urea is not a map of farm size or of subsidy. It is a map of which crops each state chose to grow.
 - **[The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html)** — 2026-08-20
   Ajvar — a roasted red pepper and eggplant relish that is practically a national dish across the Balkans — is not manufactured in India today. Every jar on an Indian shelf or import-grocery site arrived from North Macedonia, Serbia, Croatia, or Bulgaria. What makes that gap interesting is not the dish itself but the inputs: India already grows the two vegetables ajvar is made from at industrial scale, already runs a directly analogous roasted-and-ground pepper industry in Karnataka, and already has government-built processing infrastructure sitting underused. This piece maps what it would actually take to close that gap, and how big the opportunity realistically is.
 - **[The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)** — 2026-08-20
@@ -286,8 +288,12 @@
 - **[Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html)** — 2026-07-22
   Part 3 of 3 in the CNG/CGD retail-mapping series — with Part 1 (CGD GA district allotments) and Part 2 (82k geocoded retail outlets). Served live from GitHub Pages.
 
-### Agriculture & Food Processing (3)
+### Agriculture & Food Processing (5)
 
+- **[Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html)** — 2026-08-21
+  India's sugarcane acreage barely moved this season, sugar prices just jumped 10 per cent in a month to record levels, and the years-long story of sugar being diverted to ethanol is quietly running in reverse. Cane acreage is flat, mills are earning more from sugar than from ethanol for the first time in years, and one industry body is warning that juice- and B-heavy-molasses-based ethanol could stop altogether if prices stay where they are.
+- **[₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html)** — 2026-08-21
+  Maize is now India's most expensive ethanol feedstock by government-set price — ₹71.86 a litre, ahead of sugarcane juice, rice, and every grade of molasses — and maize-based ethanol volumes went from zero to nearly 500 crore litres in three years. But this kharif season, actual maize acreage fell 9.7 per cent. The demand-side price signal and the on-the-ground planting decision are currently pointing in opposite directions, and this piece sets that against what rice, wheat, and sugarcane acreage did over the same period.
 - **[The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)** — 2026-08-20
   India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 government-linked investigation found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test still isn't mandatory for anything sold domestically, only for export.
 - **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
@@ -404,8 +410,10 @@
 - **[Where India's Gigawatt Data-Centre Bets Actually Land: Projects, Cables, and the $210 Billion Behind Them](https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html)** — 2026-08-20
   India's data-centre build-out is a land, power, and cable story as much as a compute one. Adani and Reliance alone have committed more than $210 billion to AI-ready campuses, Google and Microsoft tens of billions more, and almost all of it is landing in a handful of places — Chennai, Mumbai, Hyderabad, Jamnagar, Greater Noida — chosen as much for their proximity to a submarine cable landing station as for power and land. This piece maps where the gigawatts are actually going, and why a data centre without a fat subsea pipe next door isn't really in the race.
 
-### Energy & Fuels (52)
+### Energy & Fuels (53)
 
+- **[Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)** — 2026-08-22
+  Five EU states have no coastline: Austria, Czechia, Hungary, Slovakia and Luxembourg. Between them they burn 28 billion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can dock an LNG tanker. Every molecule they use arrives through somebody else’s pipes, at somebody else’s tariff. The EU has now set a date to cut off the Russian gas that has flowed to them since 1967. Europe has built the terminals to replace it — and they run barely half full, because the binding constraint has moved from the sea to the pipes.
 - **[57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)** — 2026-08-21
   India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
 - **[The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html)** — 2026-08-20
@@ -531,8 +539,12 @@
 - **[India EC Approval Funnel — PARIVESH 2.0](https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html)** — 2026-07-22
   How 113,970 EC proposals move from filing to grant on PARIVESH 2.0 (2022–2026). A current-state snapshot: each proposal shows its latest status, so proposals counted as "granted" have already passed through the ToR (Terms of Reference) and appraisal stages.
 
-### Ethanol & Biofuels (10)
+### Ethanol & Biofuels (12)
 
+- **[Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html)** — 2026-08-21
+  India's sugarcane acreage barely moved this season, sugar prices just jumped 10 per cent in a month to record levels, and the years-long story of sugar being diverted to ethanol is quietly running in reverse. Cane acreage is flat, mills are earning more from sugar than from ethanol for the first time in years, and one industry body is warning that juice- and B-heavy-molasses-based ethanol could stop altogether if prices stay where they are.
+- **[₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html)** — 2026-08-21
+  Maize is now India's most expensive ethanol feedstock by government-set price — ₹71.86 a litre, ahead of sugarcane juice, rice, and every grade of molasses — and maize-based ethanol volumes went from zero to nearly 500 crore litres in three years. But this kharif season, actual maize acreage fell 9.7 per cent. The demand-side price signal and the on-the-ground planting decision are currently pointing in opposite directions, and this piece sets that against what rice, wheat, and sugarcane acreage did over the same period.
 - **[The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html)** — 2026-08-20
   A companion piece to this blog's earlier survey of AI-in-the-field claims for India's sugar and ethanol sector looked at a much larger, previously untapped research notebook — 83 sources deep, the biggest single collection behind any article on this site. What it actually contains is not more AI hype: it's the unglamorous enterprise software layer — ERP, maintenance management, lab systems, compliance platforms — that a biofuel plant runs on day to day, plus two genuinely new India-specific finds: a July 2025 marine biofuel-bunkering circular, and a seventeen-year-old magazine story that this "2026 digital transformation" collection had filed as current.
 - **[Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html)** — 2026-08-19
@@ -554,8 +566,10 @@
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
   India hit 20% ethanol blending five years ahead of its own 2030 target, and immediately started planning the next phase — E22, E30, flex-fuel vehicles, E85 dispensing. That next phase is a harder operational problem than the last one, and it is being met with satellite crop models, AI-tuned distillation columns, and academic proposals for blockchain traceability. This piece maps what is actually deployed against what is still two research papers.
 
-### Gas & LNG (8)
+### Gas & LNG (9)
 
+- **[Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)** — 2026-08-22
+  Five EU states have no coastline: Austria, Czechia, Hungary, Slovakia and Luxembourg. Between them they burn 28 billion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can dock an LNG tanker. Every molecule they use arrives through somebody else’s pipes, at somebody else’s tariff. The EU has now set a date to cut off the Russian gas that has flowed to them since 1967. Europe has built the terminals to replace it — and they run barely half full, because the binding constraint has moved from the sea to the pipes.
 - **[Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen](https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html)** — 2026-08-17
   Two oil marketing companies have piloted QR codes on domestic LPG cylinders since 2022 — a quality and anti-pilferage check, not a completed national rollout. Meanwhile PPAC's own numbers show two things that don't obviously square: active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion — and PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year. Both figures are real. This piece works through what each is measuring, and maps where India's 214 LPG bottling plants actually sit.
 - **[Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html)** — 2026-08-08
@@ -637,7 +651,7 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (43)
+### Industrial Policy (44)
 
 - **[Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html)** — 2026-08-20
   India's first port-based green hydrogen plant produces 10 normal cubic metres an hour — enough, today, to run some streetlights and an EV charging point at Tuticorin. It does not bunker a single ship. But behind that small pilot sits a genuinely new, detailed regulatory rulebook — India's first — for supplying biofuels to ships at all, three ports formally designated as national green hydrogen hubs, and a live shore-to-ship methanol trial tied to one of the world's busiest shipping corridors. This piece maps what's actually built, what's only approved, and how far behind the established global bunkering hubs India's ports currently sit.
@@ -710,13 +724,15 @@
 - **[Import-Dependent Sectors vs. Government Scheme Attention — India](https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html)** — 2026-08-02
   Cross-references this repo's own HS-chapter import rankings (value and growth, FY2018-19 → FY2025-26) against a six-month roundup of PIB-reported government schemes and incentives (January–July 2026), to check whether import-dependent sectors are actually getting matching policy attention — and where the gaps are.
 - **[IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html)** — 2026-08-02
-  Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.
+  This post was originally published at a malformed address generated from the page’s own stylesheet rather than its title. It now lives at a permanent, readable URL, and this page forwards there automatically.
 - **[Where India's Forex Goes — Country Deficits & a Decade of Policy History](https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html)** — 2026-08-02
   Ranks India's FY2025-26 bilateral trade balance by partner country to find where its forex is actually being spent, then traces the policy history behind the five biggest deficit relationships back several years — not just the last six months — to see whether sustained attention has actually narrowed each gap.
 - **[Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html)** — 2026-08-02
   DPIIT’s Industrial Entrepreneurs Memoranda (I(D&R) Act 1951): Part A (intent filed) vs Part B (implemented), broken down by state and by sector, plus the pending-demand backlog matched against industrial land supply.
 - **[Five-Year Synthesis: Trade, Currency & Policy, FY2021-22 to FY2025-26](https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html)** — 2026-08-02
   A synthesis across every thread in this repo, re-cut to a single consistent window: FY2021-22 to FY2025-26. Pulls together the trade totals, the goods-vs-services balance, the rupee, GDP growth, forex reserves, and the PLI policy timeline that the rest of this report examined one bulletin at a time.
+- **[IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html)** — 2026-08-02
+  Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.
 - **[The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application](https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html)** — 2026-07-31
   Norway turns bottle deposits into lottery tickets — 97% return rates, zero addiction cases, €62M+ to charity over 16 years. The research summary, and how the same mechanic could power participation in India's water and waste programmes like Jal Jeevan.
 - **[The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked](https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html)** — 2026-07-28
@@ -973,8 +989,10 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (1)
+### Unlabelled (2)
 
+- **[India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)** — 2026-08-21
+  India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
   AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written. It is a personal essay and carries no formal source citations beyond the one link below.
 
@@ -1215,7 +1233,7 @@ Cross-references this repo's own HS-chapter import rankings (value and growth, F
 ### [IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html)
 *2026-08-02 · Industrial Policy*
 
-Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.
+This post was originally published at a malformed address generated from the page’s own stylesheet rather than its title. It now lives at a permanent, readable URL, and this page forwards there automatically.
 
 ### [State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30](https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html)
 *2026-08-02 · Energy & Fuels*
@@ -1246,6 +1264,11 @@ DPIIT’s Industrial Entrepreneurs Memoranda (I(D&R) Act 1951): Part A (intent f
 *2026-08-02 · Industrial Policy, Trade & Tariffs*
 
 A synthesis across every thread in this repo, re-cut to a single consistent window: FY2021-22 to FY2025-26. Pulls together the trade totals, the goods-vs-services balance, the rupee, GDP growth, forex reserves, and the PLI policy timeline that the rest of this report examined one bulletin at a time.
+
+### [IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html)
+*2026-08-02 · Industrial Policy*
+
+Method note: scheme tags below are assigned by keyword matching against release titles, not manual review. This produces occasional false positives — personal names that happen to contain a scheme keyword (e.g. an official surname matching an unrelated acronym), and short acronyms (e.g. NBS, NIDHI) that collide across unrelated ministries. Treat individual chip assignments as indicative, not verified.
 
 ### [Effective Buying Power & the China Comparison — Rupee Real Exchange Rate](https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html)
 *2026-08-02 · Markets & Finance*
@@ -1892,7 +1915,32 @@ India's data-centre build-out is a land, power, and cable story as much as a com
 
 By June 2026, Ukrainian drones had struck Russian oil facilities more than 300 times since the war began — disabling, at peak, over 40 per cent of the country's refining capacity and leaving fuel shortages in 78 of Russia's 83 regions. In the same window, Yemen's Houthis hit a Saudi Aramco refinery twice in a single week, and an alleged Iranian drone attack shut down Saudi Arabia's single largest refinery for security checks. Two unconnected wars have converged on the same conclusion: refineries, storage tanks, and export terminals are now genuinely vulnerable to cheap, long-range drones, and the global energy industry's counter-drone spending is scaling up accordingly — with a direct, measurable knock-on for how Indian refiners now route their crude.
 
+### [Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html)
+*2026-08-21 · Agriculture & Food Processing, Ethanol & Biofuels*
+
+India's sugarcane acreage barely moved this season, sugar prices just jumped 10 per cent in a month to record levels, and the years-long story of sugar being diverted to ethanol is quietly running in reverse. Cane acreage is flat, mills are earning more from sugar than from ethanol for the first time in years, and one industry body is warning that juice- and B-heavy-molasses-based ethanol could stop altogether if prices stay where they are.
+
+### [India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)
+*2026-08-21 · —*
+
+India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
+
 ### [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html)
 *2026-08-21 · Energy & Fuels, India Trade & Policy*
 
 India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time. But measured against NIWE's own resource atlas — 695.5 GW of onshore potential at 120m hub height — the entire national fleet still uses barely 8 per cent of what the wind alone could support, and offshore wind, with 70 GW of technical potential off the Gujarat and Tamil Nadu coasts, has yet to commission a single megawatt.
+
+### [₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html)
+*2026-08-21 · Agriculture & Food Processing, Ethanol & Biofuels*
+
+Maize is now India's most expensive ethanol feedstock by government-set price — ₹71.86 a litre, ahead of sugarcane juice, rice, and every grade of molasses — and maize-based ethanol volumes went from zero to nearly 500 crore litres in three years. But this kharif season, actual maize acreage fell 9.7 per cent. The demand-side price signal and the on-the-ground planting decision are currently pointing in opposite directions, and this piece sets that against what rice, wheat, and sugarcane acreage did over the same period.
+
+### [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)
+*2026-08-22 · Energy & Fuels, Gas & LNG*
+
+Five EU states have no coastline: Austria, Czechia, Hungary, Slovakia and Luxembourg. Between them they burn 28 billion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can dock an LNG tanker. Every molecule they use arrives through somebody else’s pipes, at somebody else’s tariff. The EU has now set a date to cut off the Russian gas that has flowed to them since 1967. Europe has built the terminals to replace it — and they run barely half full, because the binding constraint has moved from the sea to the pipes.
+
+### [379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html)
+*2026-08-22 · Agriculture & Fertilisers*
+
+India sold 396.6 lakh tonnes of urea in 2025-26. Uttar Pradesh took a fifth of it. But divide each state’s urea by the land it actually crops and the ranking scrambles: Punjab burns through 379 kilos a hectare, Kerala 44, and the national average sits at 182. The map of Indian urea is not a map of farm size or of subsidy. It is a map of which crops each state chose to grow.
