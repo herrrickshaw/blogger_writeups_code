@@ -7220,3 +7220,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 228,338 → 228,965 bytes (+627)
+
+## 2026-08-22T11:26:04+05:30 — 193 posts live
+
+**Versions**
+
+- `a-17-rural-pay-rise-that-nobody-received` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-17-rural-pay-rise-that-nobody-received` — 31,648 → 34,791 bytes (+3,143)
