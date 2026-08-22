@@ -22,14 +22,14 @@ Source: `posts/us-stock-picks-multi-screen-quant.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — The reported average ROE of -20.9% is inconsistent with the Piotroski F-score of 7, which typically indicates strong financial health. A Piotroski score of 7 suggests profitability and financial strength, making a negative ROE highly unlikely. [confidence: high]
+- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — The article claims BeOne Medicines Ltd. has an average ROE of -20.9%, but this is inconsistent with the Piotroski F-score of 7 (which typically requires positive earnings and ROE). The negative ROE likely reflects a one-time accounting anomaly rather than a sustainable metric. [confidence: high]
 
-- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" (Seagate Technology Holdings PLC) — While the article flags the ROE as distorted due to near-zero/negative equity, it still reports an average ROE value (not explicitly stated but implied by the context). This is misleading because the ratio is not meaningful in such cases and should not be reported as a standalone figure. [confidence: high]
+- "Avg ROE 65.3%" (Medpace Holdings, Inc.) — The article states Medpace Holdings has an average ROE of 65.3%, which is unusually high for a healthcare services company and may reflect a misinterpretation of the ROE calculation (e.g., using trailing twelve months (TTM) equity instead of average equity). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Multi-screen agreement → highest conviction sleeve" (for all listed stocks) — The article claims that multi-screen agreement implies the highest conviction sleeve, but it does not provide evidence or methodology to support this causal claim. The presence of multiple screening criteria does not inherently translate to higher conviction without validation of the screens' predictive power or backtesting results. [confidence: high]
+- "Multi-screen agreement → highest conviction sleeve" (repeated for all 15 picks) — The article implies that multi-screen agreement (CORE) automatically translates to "highest conviction," but it does not explain how the mechanical filters (e.g., Darvas breakout, Piotroski score) interact or whether their signals are independent. The claim assumes correlation equals causation without addressing potential redundancy or conflicting signals. [confidence: high]
 
-- "Avg ROE 65.3%" (Medpace Holdings, Inc.) — While the Piotroski F-score of 6 suggests decent financial health, the ROE of 65.3% is extremely high and may not be sustainable or comparable to industry benchmarks. The article does not contextualize this figure or explain why such an outlier ROE is justified as a positive signal, leading to potential misinterpretation of its significance. [confidence: medium]
+- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" (Seagate Technology Holdings PLC) — While the article acknowledges the distortion in ROE due to near-zero equity, it still includes the metric in the thesis without adjusting or explaining how this affects the multi-screen ranking. The presence of a distorted metric in the "screens" column undermines the reliability of the ranking. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

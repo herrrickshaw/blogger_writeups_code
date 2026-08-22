@@ -22,12 +22,14 @@ Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "273 of the 1,890 Lok Sabha questions captured here" — The article claims 1,890 total questions, but the registry's date range (2019-06-21 to 2026-08-12) and the method description (17th LS: 2019–2024; 18th LS: 2024–today) suggest the total number of questions is likely higher than 1,890. The figure appears inconsistent with the stated coverage period. [confidence: high]
+- "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions captured here" — The claim states that 273 out of 1,890 questions pertain to UDAN/RCS, but the article does not provide a verifiable source or methodology to confirm this exact number. The registry's methodology is described, but the specific count is not directly linked to an official or independently verifiable dataset. [confidence: medium]
 
-- "nearly one in seven" — This is a derived claim based on the 273/1,890 ratio, which is incorrect if the total number of questions is not 1,890. The phrasing is misleading even if the ratio itself is accurate. [confidence: high]
+- "Generated 2026-08-19 by scripts/build_pq_registry.py in digital-twin-for-ipa" — The date "2026-08-19" is in the future relative to the current date (2023), making this claim factually impossible. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "its regional-connectivity viability-gap funding accounts for 273 of the 1,890 Lok Sabha questions captured here, nearly one in seven and more than any other scheme tracked" — The claim implies that the number of questions about UDAN/RCS directly reflects its parliamentary scrutiny or importance, but the registry only tracks questions where the scheme is explicitly mentioned in the subject line. This does not account for questions where the scheme is discussed in the answer but not the subject line, nor does it measure scrutiny in a broader sense (e.g., debate time, committee attention). The interpretation overgeneralizes the significance of the count. [confidence: high]
+- "Questions are classified by the same scheme-keyword map, so the two views filter identically." — While the classification method is described, this claim implies a perfect alignment between the registry's classification and the Quarterly Reportage, which may not account for potential inconsistencies in keyword matching or acronym handling (e.g., "Sanchar Mitra" not filing under PM MITRA). The assumption that identical filtering ensures identical classification accuracy is an overgeneralization. [confidence: medium]
+
+- "Use it to find the answer, then read the answer." — This claim suggests a direct utility of the registry for locating answers, but it does not address potential limitations, such as questions where the subject line does not mention the scheme but the answer discusses it (as acknowledged in the "Known limits" section). The recommendation oversimplifies the registry's practical use. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -22,14 +22,12 @@ Source: `posts/top-15-chemicals-for-import.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene) — The corrected notice explicitly states this figure was retracted as fabricated (invalid HSN code), with the real FY25-26 import value being $44 million. [confidence: high]
-- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected notice states this figure was retracted as fabricated (invalid HSN code), with the real FY25-26 import value being $250 million. [confidence: high]
-
----
+- "Annual Imports (FY25-26) : $2,800 million" (Ethylene) — The corrected figure is $44 million, as explicitly stated in the article's correction notice. [confidence: high]
+- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected figure is $250 million, as explicitly stated in the article's correction notice. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article claims a dramatic surge in acetic acid imports (+81% YoY) as a "red flag," but the corrected growth rate is +2.6%, which does not indicate an unusual surge. The original conclusion about the severity of the supply alert is not supported by the corrected data. [confidence: high]
-- "Annual Imports (FY25-26) : $1,400 million" (Propylene) — The article treats propylene as a standalone import item with a $1.4 billion value, but the corrected notice reveals this figure was fabricated (invalid HSN code). The real import dependency is already captured under polypropylene (Tier 1), making the standalone treatment and its associated conclusions (e.g., "co-produced with ethylene" as a standalone priority) misleading. [confidence: high]
+- "FY30 Substitution Target : -80% (down to $275mn imports)" (Polypropylene) — The article later retracts the FY30 savings targets due to corrected import values, making the substitution target meaningless as it was derived from the retracted figures. The corrected Summary Table does not provide meaningful substitution targets, so the claim lacks valid support. [confidence: high]
+- "YoY Growth : +81%" (Acetic Acid) — The corrected YoY growth is +2.6%, but the article still uses the retracted +81% figure to justify the chemical's priority status as a "red flag." This misrepresents the actual growth trend and undermines the reasoning for its inclusion as a high-priority import-substitution target. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

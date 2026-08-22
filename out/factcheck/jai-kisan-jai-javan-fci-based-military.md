@@ -22,14 +22,14 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure, but the article incorrectly presents it as an annual output comparison without clarifying this. [confidence: high]
+- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The ₹300 Cr figure is likely a multi-year cumulative figure, not an annual output, as the article itself notes ("likely a multi-year cumulative figure the deck does not label as such"). The comparison to ₹11 Cr (which appears to be derived from the ₹27/unit cost × 4.1M units/year) is incorrect because ₹300 Cr is not an annual output but a total procurement value. [confidence: high]
 
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect; an 18-month plan starting in August 2026 would conclude in February 2028, not July 2027. [confidence: high]
+- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The article correctly notes that an 18-month plan starting in August 2026 would end in February 2028, not July 2027, indicating a miscalculation in the proposal's timeline. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "54,700 jobs projected (farmers + logistics)" — The article does not explain how the job projections were derived or whether they account for potential job losses in the private vendor sector, leading to a potential overestimation of net job creation. [confidence: medium]
+- "53g target daily protein vs 8-12g today" — The claim implies a direct comparison between current combat rations and the proposed protein target, but the article does not provide verifiable data on the actual protein content of current combat rations. The 8-12g figure is presented without a source or methodology, making it unclear whether this is an average, a minimum, or a maximum. The proposed 53g target is ambitious but lacks context on how it was derived or whether it aligns with nutritional standards for military personnel. [confidence: medium]
 
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the operating costs (₹1.2–1.4 Cr/yr) or setup costs (₹2.85 Cr), making it unclear how these figures were calculated or whether they are realistic. [confidence: high]
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are based on the projected savings of ₹8.51 Cr over 5 years, but the article notes that the visible line items in the table sum to only ₹10–14 Cr, not ₹8.51 Cr, and the deck does not show a full reconciling derivation. This inconsistency suggests that the ROI and payback period figures may be overstated or based on incomplete data, undermining their validity. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

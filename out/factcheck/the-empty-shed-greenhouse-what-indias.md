@@ -22,10 +22,14 @@ Source: `posts/the-empty-shed-greenhouse-what-indias.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim states a cost for a polyhouse in 2026, which is a future projection. As of the current date (2023), this figure cannot be verified as factual, and no reliable source is provided to support a 2026 cost estimate. [confidence: high]
+- "A naturally ventilated polyhouse of 1,000 sq. m built new in 2026 costs roughly ₹12 lakh in materials and structure alone — before land, power backup, or irrigation infrastructure." — The claim is unverifiable as stated. The cited sources (NHM/NHB/State Horticulture Mission rates, 2026) are not provided in the article, and no primary source is accessible to confirm the ₹12 lakh figure for 2026. The year "2026" is also speculative for a 2024 article. [confidence: medium]
+
+- "50–95% Combined NHM + State Horticulture Mission subsidy on polyhouse project cost" — The claim lacks specificity about whether this is a cumulative maximum or per-scheme cap. The article does not clarify if the 50–95% range is additive (e.g., 50% from NHM + up to 45% from state schemes) or overlapping, which could mislead readers about actual subsidy availability. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "3–5x Yield increase, protected vs. open-field cultivation, across multiple Indian crop studies" — While the article cites studies showing higher yields under protected cultivation, it does not address potential confounding factors such as differences in crop varieties, input use (fertilizers, pesticides), or management practices between protected and open-field systems. The claim implies a direct causal relationship between the use of protected structures and yield increase without accounting for these variables, which could independently influence yields. [confidence: high]
+- "~20–25% CAGR of India's vertical-farming/CEA market, much of it built inside repurposed warehouses" — The claim implies that the majority of India's vertical-farming/CEA market growth (20–25% CAGR) is attributable to repurposed warehouses. However, the cited sources (IMARC, Farmonaut) do not provide data to support this causal link or quantify the share of growth from retrofits versus new builds. The growth rate is likely an industry-wide projection, not specific to retrofits. [confidence: high]
+
+- "Converting one of these [unused sheds] into a protected-cultivation structure — adding shade netting or polyfilm walls, a drip system, and basic ventilation — skips the largest single line item in the NHM cost model: the structural shell itself." — While the structural shell is a major cost, the claim assumes that retrofitting an existing structure *always* skips this cost entirely. However, many existing sheds may require significant structural reinforcement (e.g., to meet polyhouse standards for wind load, UV stability, or drainage), which could partially or fully offset the "saved" cost. The article does not address these potential retrofitting expenses. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

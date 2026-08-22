@@ -21,7 +21,15 @@ Source: `posts/tamil-nadus-wind-potential-according-to.html`
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "14 August 2026" — The date is in the future relative to the current date (2025), making it incorrect or premature. [confidence: high]
+
+- "a LIDAR wind-measurement survey off Dhanushkodi completed in January 2026" — The survey is described as completed in January 2026, which is in the future and thus unverifiable or incorrect. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is presented as the solution to the ageing fleet problem, the article does not provide evidence or data showing that repowering has been effective in other states or contexts, nor does it quantify the expected impact of repowering on Tamil Nadu's installed capacity or CUF improvements. The claim assumes repowering will succeed without addressing potential barriers like policy execution, financing, or grid upgrades. [confidence: medium]
+
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article uses the 35% utilisation figure (based on NIWE's 100m-hub-height assessment) to argue that wind has "unused headroom," but this ignores the fact that the true potential is likely higher at modern hub heights (120m/150m), as acknowledged elsewhere in the article. The conclusion overstates the headroom by relying on an outdated or conservative potential estimate. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

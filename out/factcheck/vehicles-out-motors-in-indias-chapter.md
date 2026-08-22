@@ -22,14 +22,10 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The fiscal year 2025-26 has not yet occurred as of July 2026 (the article's retrieval date), making this claim unverifiable and incorrect. [confidence: high]
-
-- "−$50.9bn Chapter 85 (electrical machinery & parts) net trade deficit, FY2025-26" — The table shows a net deficit of −$50.8764bn for FY2025-26, which rounds to −$50.9bn, but the article does not specify rounding conventions. While not strictly incorrect, the precision suggests an implied exactness that may mislead. [confidence: medium]
+- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 is not yet complete as of July 2026, making the data provisional is correct, but the phrasing implies the fiscal year is already over, which is misleading. The fiscal year 2025-26 runs from April 2025 to March 2026, so data for the full year cannot be available in July 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Chapter 85’s deficit widened in 3 of the last 7 year-over-year moves, and is now $11.6bn wider than at the start — even as Ch.87’s surplus grew" — The article implies a causal or correlative relationship between the widening deficit in Chapter 85 and the growth in Chapter 87’s surplus, but the data only shows parallel trends without evidence that one caused the other. The deficit in Chapter 85 could widen due to factors unrelated to the surplus in Chapter 87 (e.g., global supply chain shifts, demand for electronics). [confidence: high]
-
-- "A vehicle exported with an imported motor and an imported battery pack still counts as a Chapter 87 export" — While technically true at the HS 2-digit chapter level, this statement oversimplifies the trade dynamics. The value of the imported components (e.g., motors, batteries) is embedded in the final vehicle's price, but the article does not clarify whether the trade surplus in Chapter 87 accounts for the embedded import content. This risks double-counting or misrepresenting the true value addition in Chapter 87. [confidence: high]
+- "the same unit shift from ICE to electric that keeps Chapter 87 volumes flowing can quietly move value out of the chapter India is strong in and into the chapter India is weak in, without the vehicle trade numbers themselves showing it — because a vehicle exported with an imported motor and an imported battery pack still counts as a Chapter 87 export." — The claim suggests that the shift to EVs is causing a hidden deterioration in trade balance by moving value from Chapter 87 to Chapter 85, but the data provided does not isolate or quantify this effect. The article does not show that the increase in Chapter 85 imports is directly tied to EV components within exported vehicles, nor does it prove that the surplus in Chapter 87 is being eroded by EV-related imports. The reasoning assumes a causal link without evidence that the imported EV components are embedded in exported vehicles. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

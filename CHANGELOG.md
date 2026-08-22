@@ -7206,3 +7206,17 @@ scheduled sync
 
 - `winter-is-coming-for-europes-landlocked` — 65,047 → 65,155 bytes (+108)
 - `article-index-start-here` — 228,304 → 228,338 bytes (+34)
+
+## 2026-08-22T11:11:11+05:30 — 193 posts live
+
+**Added**
+
+- `a-17-rural-pay-rise-that-nobody-received` **v1.0.0** — A 17% Rural Pay Rise That Nobody Received (31,648 bytes)
+
+**Versions**
+
+- `article-index-start-here` **28.0.26 → 28.0.27** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 228,338 → 228,965 bytes (+627)

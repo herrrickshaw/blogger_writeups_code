@@ -22,10 +22,10 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (2026-08-13), which is impossible for a dataset capturing past questions. The end date should not exceed the current date (as of the article's publication in 2026, the latest possible date would be 2026-08-12 or earlier). [confidence: high]
+- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (e.g., 2026-08-13) which are not yet realized, making the claim unverifiable and factually incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the article correctly acknowledges the potential for AI hallucinations, it does not address how the AI might have misinterpreted or misclassified the data (e.g., scheme-keyword mapping errors, double-counting, or incorrect causal inferences from the data). The warning is too generic and does not explain the specific risks of misinterpretation in the context of the dataset's methodology. [confidence: medium]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI-generated text is valid, the article itself is presented as a synthesis aid rather than a primary source. The phrasing implies that the AI-generated content is the article itself, which could mislead readers into treating it as a definitive source rather than a tool for verification. The reasoning gap lies in conflating the role of the AI assistance with the article's own authority. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

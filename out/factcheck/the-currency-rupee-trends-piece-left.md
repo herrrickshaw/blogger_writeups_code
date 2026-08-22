@@ -16,21 +16,20 @@ Source: `posts/the-currency-rupee-trends-piece-left.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 502: 502 Bad Gateway
-Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated 14 August 2026, but this date is in the future relative to the current date (2025). This is likely a typographical error or misconfiguration, as published articles typically use past or present dates. [confidence: high]
+- "14 August 2026" — The article is dated in the future (2026), which is impossible as of the current date (2025). This is a factual error in the publication date. [confidence: high]
 
-- "REC's EuroYen bond priced at 1.76–2.20% in January 2024" — The article cites a specific bond pricing for January 2024, but the referenced companion piece ("Raising Green Debt Globally") is not provided for verification. Without direct access to the source, the exact pricing cannot be confirmed. [confidence: medium]
+- "REC's EuroYen bond priced at 1.76–2.20% in January 2024, while the BoJ was still at −0.10%" — The Bank of Japan's policy rate was not at −0.10% in January 2024; it was raised to 0.0% in March 2024 and to 0.25% in July 2024. The claim about the BoJ rate is incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen" — While the claim about the direction of the exchange rate movement is factually correct, the article implies that this alone explains the "yen-borrowing rush" by combining it with low nominal yen coupons. However, the favorable borrowing conditions also depend on hedging costs (e.g., IREDA's hedged loan cost being higher than the naked coupon), which the article acknowledges elsewhere. The conclusion that the arithmetic of the borrowing rush is "obvious" oversimplifies the role of hedging and market conditions, as the carry trade's profitability is not solely determined by the exchange rate trend but also by the cost of hedging and the stability of the funding currency. [confidence: high]
+- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years." — While the claim about JPY/INR is factually correct (the rupee strengthened against the yen), the interpretation that this alone explains the yen-borrowing rush is flawed. The article conflates correlation with causation: the favorable trend in JPY/INR may have contributed to the borrowing rush, but it does not *explain* it fully. Other factors, such as Japan's ultra-low interest rates and global carry trade dynamics, are equally or more critical to understanding the yen-borrowing phenomenon. [confidence: high]
 
-- "A five-year favourable trend is not a forecast" — While the article correctly states that a past trend does not guarantee future performance, it does not adequately address the risk that the BoJ's rate hikes (cited as a potential future risk) could reverse the trend *before* the five-year window ends. The article frames the risk as a future projection ("BoJ rate hikes to 1.00% by June 2026"), but the July 2024 unwind (within the ten-year window) already demonstrated that such reversals can occur abruptly. The interpretation gap is that the article does not fully reconcile the documented past trend with the acknowledged live risk of an early reversal. [confidence: medium]
+- "Adding JPY doesn't overturn that ranking, but it adds a category the original five-currency set couldn't show: a currency that is both moderately volatile and has moved in the borrower's favour on trend." — The article correctly identifies JPY/INR as a unique case, but the framing of this as a *new category* is misleading. The "trend-favourable-and-moderate-volatility" label is an arbitrary classification created post-hoc to fit the narrative. The data does not inherently support this as a distinct, meaningful category in economic or financial analysis. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

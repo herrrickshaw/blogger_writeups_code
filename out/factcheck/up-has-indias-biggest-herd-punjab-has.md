@@ -25,7 +25,7 @@ FACTUAL ERRORS:
 - "53.68cr India's total livestock population, 20th Livestock Census (2019)" — The correct figure is 536.76 million (53.676 crore), not 53.68 crore. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The headcount Parliament was given is a 2019 snapshot... Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites... is a 2019 measurement of a sector that has since grown at nearly 13% a year." — The article claims the livestock sector has grown at "nearly 13% a year" based on the 12.77% CAGR from FY2014-15 to FY2023-24, but this CAGR refers to milk production, not livestock population. The two are not directly comparable, and the article incorrectly extrapolates growth in production to growth in population. [confidence: high]
+- "Uttar Pradesh's milk lead is a herd-size story: more animals, more raw tonnes, a stable but not fast-growing share." — While the claim about herd size is correct, the article implies that Uttar Pradesh's milk production growth is solely due to herd size, ignoring potential improvements in yield or efficiency that may have occurred since 2019. The 2019 census data does not account for changes in productivity over time, making this causal claim unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

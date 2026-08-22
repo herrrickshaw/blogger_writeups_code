@@ -16,21 +16,20 @@ Source: `posts/the-balkan-relish-india-already-has.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 502: 502 Bad Gateway
-Unable to reach the origin service. The service may be down or it may not be responding to traffic from cloudflared
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
 ]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Agriculture & Food Processing · Import Substitution · 20 August 2026" — The date is in the future (20 August 2026) and thus unverifiable or incorrect. [confidence: high]
+- "A 20 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India's chutney-and-relish product category is growing at a reported 10.68 per cent compound annual rate" — The source cited (MoFPI's Food Processing sector-profile documentation) is not provided in the article text, and no direct link or full citation is given to verify this specific figure. [confidence: medium]
+- "India's eggplant/brinjal production figures (national volume, global rank, and state-wise shares) per Statista's India eggplant production data" — While the article cites Statista, the claim that India is the "world's second-largest producer after China" is not explicitly verified in the provided text or sources. The global rank should be confirmed with FAO or another authoritative source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The gap between what Byadagi's cluster already does and what an ajvar line would need is technique-adjacent, not a leap into unfamiliar territory: roasting whole fresh peppers instead of soaking dried ones, adding eggplant to the blend, and packaging for a different flavour category." — While the processing techniques are similar, the article assumes that the existing Byadagi chilli processing industry can easily pivot to ajvar production without addressing potential differences in raw material sourcing (fresh vs. dried peppers), equipment compatibility (e.g., roasting whole fresh peppers vs. grinding dried chillies), or market readiness for a new product category. The claim conflates technical feasibility with commercial and operational feasibility. [confidence: high]
+- "The gap between what Byadagi's cluster already does and what an ajvar line would need is technique-adjacent, not a leap into unfamiliar territory: roasting whole fresh peppers instead of soaking dried ones, adding eggplant to the blend, and packaging for a different flavour category." — While the processing techniques are similar, the article assumes that the existing Byadagi chilli industry's capabilities directly translate to ajvar production without addressing potential differences in quality control, flavor consistency, or market acceptance for a new product category. The claim conflates technical feasibility with commercial viability. [confidence: high]
 
-- "The honest framing, then, is not 'there's a large ajvar import market to substitute' — there isn't, because the specialty-import channel by its nature stays small. The more credible opportunity is a new domestic product category..." — The article correctly notes that ajvar imports are niche, but it extrapolates from this to claim that the opportunity lies in creating a new domestic product category rather than substituting imports. However, it does not provide evidence that Indian consumers would accept a domestically produced ajvar-style relish or that it would compete effectively with established imported brands in the specialty-food segment. The reasoning assumes demand without substantiation. [confidence: medium]
+- "The honest framing, then, is not 'there's a large ajvar import market to substitute' — there isn't, because the specialty-import channel by its nature stays small." — The article correctly notes that the import market is small, but it extrapolates this to mean there is no opportunity for domestic production. However, the growth of the chutney-and-relish category (10.68% CAGR) suggests a potential market for a domestically produced, price-competitive alternative, even if import substitution is limited. The conclusion dismisses a plausible domestic market opportunity based on import data alone. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

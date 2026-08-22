@@ -22,10 +22,10 @@ Source: `posts/scan-bottle-deliver-what-ppacs-numbers.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article states this figure is from PPAC's Q1 FY2026-27 report, but the report's date is 1 July 2026, which is before the end of the quarter (30 June 2026). Sales data for a quarter cannot be finalized until the quarter ends, making this claim unverifiable or premature. [confidence: high]
+- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article claims this figure is from PPAC's Q1 FY2026-27 report, but the report's actual data (as cited in the article) shows sales of 6.48 million tonnes for April-June 2026, with no explicit year-on-year comparison provided in the quoted text. The 15.6% figure appears to be an unsupported assertion rather than a direct quote from PPAC. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion" — While the growth in connections is real, the article does not address whether these connections are *active* in terms of usage. A high number of connections does not necessarily imply high consumption, as evidenced by the same article's later claim of a 15.6% drop in sales in Q1 FY2026-27. The conclusion that the expansion is "genuine" conflates *access* (connections) with *usage* (sales), which are distinct metrics. [confidence: high]
+- "Rising connection counts and falling sales volume in the same quarter aren't automatically a contradiction — a high year-ago base, price or subsidy timing, or a one-quarter demand dip could each explain it" — While the article acknowledges potential explanations for the disconnect between rising connections and falling sales, it does not critically assess whether these factors are sufficient to account for the 15.6% decline. The claim implies that the gap is merely unexplained rather than potentially indicative of deeper issues (e.g., underreporting, data discrepancies, or methodological changes in PPAC's reporting). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

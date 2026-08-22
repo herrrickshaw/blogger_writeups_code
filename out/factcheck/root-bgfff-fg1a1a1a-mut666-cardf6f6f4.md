@@ -22,14 +22,12 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The duplicate entry is a formatting error, not a factual claim, but the repetition itself is incorrect as it suggests two separate announcements when it is the same announcement listed twice. [confidence: high]
+- "This article has moved" — The claim is a placeholder text and not a factual error in the context of the article's content. The rest of the text is either a system-generated notice or a meta-description about URL redirection, which does not contain verifiable factual claims. [confidence: high]
 
-- "Cabinet Cabinet approves scheme of Chemical Parks “Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — Similar to the above, this is a duplicate entry of the same announcement, which is factually incorrect as it implies two separate approvals. [confidence: high]
+- "IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)" — The date range (3 Jul – 1 Aug 2026) is in the future relative to the current date (2023) and cannot be verified as accurate or factual. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — This claim suggests that the absence of state-wise allocation implies uniform implementation across all states, but it does not address whether the scheme is effectively reaching all states or whether there are disparities in uptake or impact. The statement conflates lack of allocation with successful implementation. [confidence: medium]
-
-- "Ministry of Heavy Industries Under the FAME-II Scheme Rs.912.50 crore were allocated for setting up of EVPCS on pan India basis and no state wise allocation was made" — This claim implies that the allocation of funds for EV public charging stations (EVPCS) on a pan-India basis is sufficient to ensure equitable distribution and implementation across states. However, it does not account for potential regional disparities in infrastructure readiness, demand, or actual utilization of funds, which could lead to unequal outcomes despite the uniform allocation. [confidence: medium]
+none found
 
 ## Kimi kimi-k2-0711-preview
 

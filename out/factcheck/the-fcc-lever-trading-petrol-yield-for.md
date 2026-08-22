@@ -25,7 +25,7 @@ FACTUAL ERRORS:
 - "ONGC Board gave in-principle approval, July 2026" — The date is incorrect; the approval was given in July 2025, not 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the petrol a refinery no longer needs to blend can, with real (not cosmetic) modifications to the FCC unit's gas-recovery train, come out as LPG instead — directly addressing India's import-heavy cooking-gas supply" — The claim implies a direct causal link between FCC modifications and reduced LPG imports, but the article later acknowledges that the incremental C3/C4 from FCC could instead be routed to petrochemical production, negating the LPG substitution benefit. The reasoning gap is that the article does not resolve this allocation choice, which is critical to the claim's validity. [confidence: high]
+- "redirect that freed-up FCC capacity toward LPG instead of more petrol... directly addressing India's import-heavy cooking-gas supply" — The claim implies a direct causal link between FCC modifications and reduced LPG imports, but the article itself notes that refiners could instead route the incremental C3/C4 to petrochemical production, which would not reduce LPG imports. The reasoning gap is that the LPG-import substitution outcome depends on allocation choices not controlled by the FCC modification alone. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

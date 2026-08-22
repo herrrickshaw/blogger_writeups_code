@@ -22,16 +22,14 @@ Source: `posts/the-levelised-cost-of-hydrogen.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "20 August 2026" — The date is in the future relative to the current date (2025) and appears to be a typographical error, as the article references events and reports from 2023–2025. [confidence: high]
+- "20 August 2026" — The date is in the future relative to the current date (2025), making it incorrect or premature. [confidence: high]
 
-- "The first competitively bid supply contracts under its own SIGHT scheme — to Indian Oil and to Bharat Petroleum/Hindustan Petroleum's refineries — came in at $4.11–4.21 per kilogram" — While the article cites these figures as "separately reported," it does not provide a primary source or direct link to verify these exact bid prices, making them unverifiable as stated. [confidence: medium]
-
----
+- "The first competitively bid supply contracts under its own SIGHT scheme — to Indian Oil and to Bharat Petroleum/Hindustan Petroleum's refineries — came in at $4.11–4.21 per kilogram" — The article does not provide a verifiable source for these specific bid prices, and they are not clearly attributed to an official government or corporate announcement. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Closing the gap to $1.50/kg is a statement about utilisation and electricity cost as much as it is about subsidy." — This claim conflates the *potential* impact of utilisation and electricity cost with the *actual* feasibility of achieving the $1.50/kg target. While the methodology identifies these as key levers, the article does not demonstrate that these factors alone (or even in combination) can realistically close the gap to the target, given the current bid prices and the scale of reductions required. [confidence: high]
+- "Closing the gap to $1.50/kg is a statement about utilisation and electricity cost as much as it is about subsidy." — While utilisation and electricity cost are important factors, the article does not provide sufficient evidence to conclude that subsidies are not a major driver of the cost gap. The discussion of subsidies is deferred to later sections, and the claim implies a causal equivalence that is not supported by the data presented. [confidence: high]
 
-- "India's own 2030 target sits below even the optimistic global benchmark this section's methodology implies is achievable — making it an aggressive goal, not a conservative one, well before the actual current bid price is factored in." — The article cites a "global optimistic benchmark" of $2–2.5/kg but does not provide evidence that this benchmark is widely accepted or achievable under realistic conditions. The claim that India's target is "aggressive" is based on a comparison to an unspecified or unverified benchmark, which may not be a fair or accurate standard. [confidence: medium]
+- "India's own 2030 target sits below even the optimistic global benchmark this section's methodology implies is achievable — making it an aggressive goal, not a conservative one, well before the actual current bid price is factored in." — The article cites a global optimistic benchmark of $2–2.5/kg but does not establish that this benchmark is universally accepted or directly comparable to India's specific conditions (e.g., resource quality, infrastructure, policy environment). The conclusion that India's target is "aggressive" is an extrapolation beyond what the cited data supports. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

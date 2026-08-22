@@ -22,14 +22,14 @@ Source: `posts/the-grain-value-loop-integrated-rice.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India imports what it grows — and gifts the feedstock" — This is an oversimplification. While India imports edible oils (including rice bran oil, despite being the world's #1 producer), it does not import rice or wheat, which it grows in surplus. The claim conflates different commodities and their trade patterns. [confidence: high]
+- "India imports what it grows — and gifts the feedstock" — This is a misleading generalization. While India imports edible oils (including rice bran oil, despite being the world's #1 producer), it does not import rice or wheat, which it grows in surplus. The claim conflates different commodities and their trade patterns. [confidence: high]
 
-- "₹7,650 cr byproduct giveaway (this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage)" — The article itself acknowledges this discrepancy, implying the ₹7,650 cr figure is inconsistent with the full husk+bran tonnage. This is a self-contradictory claim. [confidence: high]
+- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — The wheat procurement figure is outdated. As per the latest available data (e.g., DFPD Foodgrain Bulletin 2024-25), wheat procurement is closer to ~250-260 LMT, not 300 LMT. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year, then hands the milling byproducts to private millers for free and imports the finished derivative." — While the government procures rice and wheat, the claim that it "imports the finished derivative" is misleading. The article later clarifies that India imports edible oils (e.g., palm oil) and other derivatives, not necessarily the same derivatives produced from its own byproducts. The causal link between procuring grain and importing derivatives is overstated, as imports are driven by demand-supply gaps in specific products, not a direct consequence of giving away byproducts. [confidence: high]
+- "Rice bran oil — bran from the ~832 LMT of paddy under CMR; ₹60/kg ex-mill vs ₹105 import parity = ₹45/kg edge" — The claim assumes that the entire potential rice bran oil (RBO) production (6.4 LMT from 40 LMT bran) can be captured at ₹60/kg, but this ignores market dynamics, processing costs, and the fact that only a fraction of the bran is currently stabilized (as noted in the article itself: "this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage"). The ₹45/kg edge is not fully realizable at scale. [confidence: high]
 
-- "Value density rises ~1,000× from grain to derivative" — The article presents a broad range of price tiers (from ₹7–40/kg for commodity floor to ₹350–17,700/kg for molecular tail products) but does not provide a clear calculation or justification for the "~1,000×" claim. This is an unsupported extrapolation that may not hold for all derivatives or across all contexts. [confidence: medium]
+- "The ethanol mandate has saved ₹1,97,000 cr in forex since ESY2014-15 — built mostly on sugarcane, with surplus/broken grain a smaller but fast-growing share of the feedstock mix in recent years" — While ethanol blending has saved forex, the attribution to "mostly sugarcane" is an overstatement. Sugarcane-based ethanol contributes significantly, but grain-based ethanol (including rice and maize) has grown rapidly, especially in recent years. The claim underplays the role of grains in ethanol production. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
