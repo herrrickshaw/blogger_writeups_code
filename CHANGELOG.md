@@ -7104,3 +7104,17 @@ scheduled sync
 - `quarterly-reportage-4034-scheme` — 560,694 → 560,690 bytes (-4)
 - `article-index-start-here` — 227,058 → 227,002 bytes (-56)
 - `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 125,660 → 1,477 bytes (-124,183); markers ai_disclosure True→False, translate_widget True→False, typo_unify True→False
+
+## 2026-08-22T07:26:20+05:30 — 191 posts live
+
+**Added**
+
+- `379-kilos-hectare-in-punjab-44-in` **v1.0.0** — 379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map (33,065 bytes)
+
+**Versions**
+
+- `article-index-start-here` **28.0.23 → 28.0.24** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 227,002 → 227,675 bytes (+673)

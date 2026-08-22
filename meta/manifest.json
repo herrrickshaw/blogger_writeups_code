@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-21T23:14:47+05:30",
-  "count": 190,
+  "snapshot": "2026-08-22T07:26:20+05:30",
+  "count": 191,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -10293,6 +10293,40 @@
         }
       ]
     },
+    "3994406984307552714": {
+      "id": "3994406984307552714",
+      "title": "379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
+      "slug": "379-kilos-hectare-in-punjab-44-in",
+      "published": "2026-08-22T07:25:22.000+05:30",
+      "updated": "2026-08-22T07:25:43.449+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
+      "bytes": 33065,
+      "sha256": "b7273ce186882509e7ecb609d7f457122fc365ce92223d8586f71a47ee58670e",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-22T07:26:20+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
+        }
+      ]
+    },
     "4012327228996532498": {
       "id": "4012327228996532498",
       "title": "India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)",
@@ -18991,10 +19025,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-21T23:13:48.471+05:30",
+      "updated": "2026-08-22T07:26:03.549+05:30",
       "labels": [],
-      "bytes": 227002,
-      "sha256": "b394f5046c8dd11189a44888f1f8f6b9d233dbdb77380b282c8d3b366def6c11",
+      "bytes": 227675,
+      "sha256": "8a2299f2e90a8d86901a5fea936b7c3a894587204be404aae7dbf79382da512a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19006,7 +19040,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "28.0.23",
+      "version": "28.0.24",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20115,6 +20149,19 @@
           "bytes": [
             227058,
             227002
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "28.0.24",
+          "date": "2026-08-22T07:26:20+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            227002,
+            227675
           ],
           "url_changed": null,
           "markers_changed": null,
