@@ -9,14 +9,10 @@ Source: `posts/indias-coking-coal-import-problem-and.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indias-coking-coal-import-problem-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is impossible since December 2025 had not occurred at the time of writing. The correct timeframe should be December 2024 (FY2024-25). [confidence: high]
+- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is inconsistent with the fiscal year context (FY2024-25). The correct timeframe should be December 2024, as the article itself later references FY2024-25 data. [confidence: high]
 
-- "₹60,681.67 crore" — The article cites this foreign exchange savings figure without providing a clear source or methodology for its calculation, making it unverifiable. [confidence: medium]
+- "The SAMARTH Mission (Sustainable Agrarian Mission on Use of Agri-Residue in Thermal Power Plants), run by the Ministry of Power, mandates that coal-based thermal power plants co-fire 5% biomass pellets (made from crop residue such as rice straw) alongside their coal from FY2024-25, rising to 7% from FY2025-26." — The claim misrepresents the SAMARTH mandate's timeline. The article later contradicts this by stating that the CAQM's Delhi-NCR enforcement requires 3% for FY2024-25, while the national SAMARTH mandate specifies 5%. This inconsistency suggests the 5% figure may not be accurate for FY2024-25. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Coking coal doesn't share in that improvement, and can't, for a geological reason rather than a policy failure" — While the geological constraint is correctly noted, the phrasing implies that policy has no role in addressing coking coal imports, which is misleading. Mission Coking Coal is explicitly a policy response to this geological constraint, so the claim oversimplifies the interplay between geological realities and policy interventions. [confidence: high]
+- "Stamp-charging is a coke-making technique that compacts the coal blend before it goes into the oven, which allows a higher proportion of India's own (lower-quality) coking coal to be blended in without compromising coke strength. The Ministry states this raises the domestic-coal share of the blend from roughly 10% to 30% — a real substitution of imported coking coal, achieved through process technology on India's own coal, not through a different material altogether." — The claim implies that stamp-charging directly substitutes imported coking coal by increasing domestic coal usage. However, this is an apples-to-oranges comparison because stamp-charging does not reduce the absolute volume of imported coking coal; it merely allows more domestic coal to be used in the blend. The substitution is relative, not absolute, and does not address the 90% import dependency. [confidence: high]
 
-- "The best-performing blends were narrower than the full range tested: roughly 70:30 coal-to-biochar for coconut-shell and groundnut-shell biochar, and 80:20 for sawdust biochar" — The article presents these ratios as definitive best-performing blends without clarifying that these results are from lab-scale academic research, not industrial-scale trials. This extrapolation beyond the data's scope overstates the practical applicability of the findings. [confidence: high]
+- "The farmer-income logic, stated plainly and hedged appropriately: coconut shell, groundnut shell and sugarcane bagasse are by-products of crops millions of Indian farmers already grow — coconut and groundnut cultivation and sugarcane processing generate these residues regardless of what happens to them afterward, and today a meaningful share is low-value, burned, or discarded. If bio-coke blending were ever validated at industrial scale and adopted by steel plants at even a modest blend ratio, it would create a new, steel-industry-sized demand stream for exactly these residues — the same basic mechanism (turning an agricultural by-product into a saleable industrial input) that already underpins the farmer-income case made for ethanol from crop residue and ethanol/CBG feedstock diversification elsewhere on this site, and the one broader biochar research (not specific to bio-coke) has separately estimated could support on the order of 520,000 rural jobs nationally if agricultural-residue-to-biochar conversion were scaled across all its potential uses, not steel-making alone." — The claim extrapolates from lab-scale bio-coke research to suggest a potential farmer-income benefit without quantifying the actual scale of adoption, the timeline, or the economic feasibility. The research cited is not yet deployed at an industrial scale, and the 520,000 rural jobs figure is a broader biochar estimate, not specific to bio-coke in steel-making. This is an unsupported causal leap from research to economic impact. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

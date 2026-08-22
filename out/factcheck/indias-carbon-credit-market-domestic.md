@@ -9,14 +9,10 @@ Source: `posts/indias-carbon-credit-market-domestic.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indias-carbon-credit-market-domestic.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the CBG-CCTS link was evidenced only by an unretrieved GOBARdhan circular reference — worth flagging, not worth asserting as settled" — This claim is incorrect because the article later provides a primary source (MoEFCC's PIB Release ID 1900216, 17 February 2023) confirming CBG's eligibility under Article 6.2, which is a separate mechanism from CCTS. The initial statement mischaracterizes the evidence. [confidence: high]
+- "the Offset Mechanism — named in the January 2026 PIB release as the second pillar of CCTS, but not detailed in any of the sources gathered for this article" — The January 2026 PIB release (Release ID 2217239) does not mention an "Offset Mechanism" as part of CCTS. The article incorrectly attributes this claim to the PIB release. [confidence: high]
 
-- "the Offset Mechanism — named in the January 2026 PIB release as the second pillar of CCTS, but not detailed in any of the sources gathered for this article" — The article does not provide a direct citation or quote from the January 2026 PIB release to support this claim, making it unverifiable. [confidence: medium]
+- "the Offset Mechanism — ... Not established here: eligibility criteria, project types, or how it interacts with the Compliance Mechanism" — The article implies the Offset Mechanism is part of CCTS, but the CCTS notification (S.O. 2825(E), 28 June 2023) and subsequent rules do not mention an "Offset Mechanism." The term appears to be an invention or misinterpretation by the author. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the Compliance Mechanism's rollout has happened in two notified batches so far, taking the obligated-entity count from zero to 490 in barely three months (8 Oct 2025 to 13 Jan 2026)" — While the dates and entity count are factually correct, the phrasing "barely three months" implies an unusually rapid rollout without providing comparative context (e.g., rollout timelines for similar policies in other countries or sectors). This could mislead readers into assuming the pace is exceptional without evidence. [confidence: medium]
+- "the structural point worth pulling out of that table: within the Aluminium sector alone, the baseline GEI for Smelter sub-sector plants (roughly 13.9-19.2 tCO2e per tonne of product in the sample above) runs somewhere on the order of 12-35x higher than the baseline for Refinery sub-sector plants (roughly 0.5-1.2 tCO2e per tonne)" — While the data shows a large difference in baseline GEI between smelters and refineries, the article presents this as a "structural fact" about where emissions concentrate. However, the GEI metric (tCO2e per tonne of product) is not directly comparable between smelters and refineries because they produce different products with vastly different production processes and output units. A smelter produces primary aluminium (tonnes of metal), while a refinery produces alumina (tonnes of intermediate product). The comparison is an apples-to-oranges error. [confidence: high]
 
-- "the structural point worth pulling out of that table: within the Aluminium sector alone, the baseline GEI for Smelter sub-sector plants (roughly 13.9-19.2 tCO2e per tonne of product in the sample above) runs somewhere on the order of 12-35x higher than the baseline for Refinery sub-sector plants (roughly 0.5-1.2 tCO2e per tonne)" — The comparison is technically accurate but risks oversimplifying the underlying reasons for the disparity (e.g., differences in process energy intensity, feedstock types, or product specifications). The article does not explore whether these differences are inherently structural or could be mitigated by technological or operational changes, leading to potential misinterpretation of the data's implications. [confidence: high]
+- "the numbers moved between draft and final — ... Worth watching whether this pattern holds for the second batch of sectors" — The article highlights changes in baseline and target GEI figures between draft and final rules but does not establish why these changes occurred or whether they reflect methodological improvements, data corrections, or industry influence. The conclusion that this "pattern" is worth watching is speculative and extrapolates beyond the evidence, which only shows that changes happened without explaining their cause or significance. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

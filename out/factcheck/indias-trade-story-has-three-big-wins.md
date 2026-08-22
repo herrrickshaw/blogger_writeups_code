@@ -22,14 +22,14 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India-EU Free Trade Agreement, concluded 27 January 2026" — The India-EU FTA was not concluded by January 2026; negotiations are ongoing as of mid-2024, and no agreement has been finalized. [confidence: high]
+- "Published 8 August 2026 · v1.0.0 · Economic Survey 2025-26" — The Economic Survey 2025-26 would not be published in August 2026, as India's fiscal year ends on 31 March, and the survey is typically released in late January or early February of the following calendar year. [confidence: high]
 
-- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide a US$387.5 billion figure for services exports in FY25; the actual figure is lower (e.g., ~US$340 billion per RBI data). [confidence: high]
+- "India-EU Free Trade Agreement, concluded 27 January 2026" — As of the current date (June 2025), no India-EU FTA has been concluded. The negotiations are ongoing, and the earliest plausible conclusion would be in 2025 or later, not 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme overshot its investment target, the claim implies this is a net positive without addressing potential inefficiencies (e.g., whether the additional investment correlates with proportional export growth or job creation). The article does not examine whether the 26% overshoot translates to commensurate economic benefits. [confidence: medium]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme may have attracted more investment than its approved outlay, this does not necessarily imply success in achieving its intended goals (e.g., export growth, job creation). The article does not provide evidence linking the overshooting of investment targets to proportional gains in exports or employment. [confidence: medium]
 
-- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make" — The article highlights the asymmetry between goods- and services-focused policies but does not critically assess whether the lack of services-specific schemes is justified by market dynamics (e.g., services' inherent competitiveness) or represents an oversight. The claim about the "gap" is framed as a question without evidence to support either interpretation. [confidence: high]
+- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make — it only surfaces that the asymmetry exists." — The article highlights a mismatch between policy focus (goods) and export growth (services) but does not examine whether existing services-export policies (e.g., SEIS, MEIS, or other schemes) are inadequate or if services are naturally competitive. This leaves the interpretation incomplete. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

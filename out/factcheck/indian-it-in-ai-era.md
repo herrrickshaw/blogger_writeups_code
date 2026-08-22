@@ -9,14 +9,10 @@ Source: `posts/indian-it-in-ai-era.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,12 +22,14 @@ Source: `posts/indian-it-in-ai-era.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year." — The article cites the Reserve Bank of India (RBI) data showing net services receipts at $216.6bn for FY2025-26, but the RBI's "Developments in India's Balance of Payments, Q4 2025-26" report (the cited source) lists net services receipts as $216.6bn for FY2025-26 and $188.8bn for FY2024-25, implying an increase of $27.8bn. However, the RBI report's table shows the increase as $27.8bn ($216.6bn - $188.8bn), which is correct. No factual error found here. [confidence: high]
-- "The Economic Survey's own uncomfortable framing" — The article quotes the 2025-26 Economic Survey as saying services exports are "not a substitute for the goods-based export ecosystems that ultimately underpin durable external and currency stability." However, the Economic Survey 2025-26 does not contain this exact phrasing. The quoted lines appear to be paraphrased or misattributed. [confidence: high]
+- "Services · Balance of payments · 4 August 2026" — The article is dated 4 August 2026, but the referenced RBI data (e.g., "Developments in India's Balance of Payments, Q4 2025-26") and other sources (e.g., Economic Survey 2025-26) are from FY2025-26, which ended on 31 March 2026. The date is incorrect as it postdates the fiscal year data. [confidence: high]
+
+- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year" — The RBI data shows net services receipts of $216.6bn in FY2025-26, but the $27.8bn increase is incorrect. The correct increase is $27.8bn from FY2024-25 ($188.8bn to $216.6bn), which is accurate, but the phrasing implies a single-year jump from FY2024-25 to FY2025-26, which is correct. However, the claim that this is the "biggest jump on record" is unverified and lacks a source. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Net services alone offset 64% of the goods deficit. Net services plus remittances offset 107% — they more than cover the goods gap." — While the numbers are factually correct (64% and 107%), the interpretation that this means the current account deficit is solely due to investment income outflows ($48.2bn) is incomplete. The article implies that the services surplus and remittances fully cover the goods deficit, leaving only investment income outflows as the cause of the CAD. However, the CAD is also influenced by other factors like secondary income (remittances) and primary income (investment income), and the article does not adequately explain how these interact to produce the CAD. The reasoning oversimplifies the balance-of-payments dynamics. [confidence: high]
-- "A sector that is 1% of jobs but ~8% of GDP and covers two-thirds of the goods trade deficit cannot produce a mass-unemployment event. It can produce a balance-of-payments event." — While the sector's share of employment (1%) and GDP (~8%) is correct, the interpretation that it "cannot produce a mass-unemployment event" is an overstatement. The article correctly notes that the sector's employment share is small, but it does not rule out sector-specific unemployment (e.g., layoffs in IT firms) or broader economic impacts (e.g., reduced hiring of graduates). The claim conflates macroeconomic unemployment (national level) with sectoral unemployment (industry level), which is a reasoning gap. [confidence: medium]
+- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue" — The claim conflates correlation with causation. While hiring has slowed and executives cite "AI deflation," the article does not establish that AI is the primary driver of either trend. Other factors (e.g., economic cycles, automation unrelated to AI, or strategic shifts in hiring) could also explain the decline in net hiring. The causal link to AI is speculative. [confidence: high]
+
+- "It can produce a balance-of-payments event. If services receipts stall while the goods deficit keeps widening — and it widened by $50 billion in FY2026 alone — the adjustment happens in the exchange rate and the capital account, not in the unemployment rate" — The claim extrapolates from a single year's data ($50 billion goods deficit widening in FY2026) to a generalizable trend without sufficient evidence. The goods deficit widened from $286.9bn (FY2024-25) to $337.3bn (FY2025-26), a $50.4bn increase, but this is not necessarily indicative of a persistent trend. The article does not provide historical context or projections to support the assertion that this widening will continue or that it will directly trigger a balance-of-payments crisis. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,14 +9,10 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article claims the ₹1,500 crore incentive was approved in September 2025, but the source cited (CSE policy brief, 2026) does not provide a specific approval date. The claim lacks verifiable evidence for the month and year. [confidence: medium]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source material (CSE policy brief) specifies that the 90% recovery rate is required by 2026-27, while the 70% rate applies to 2024-25. The phrasing implies the 90% target is new for 2026-27, but it is actually an escalation from the 70% target. [confidence: high]
 
-- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article states that manufacturers must hit a 90% recovery rate by 2026-27, but the cited CSE policy brief (2026) does not explicitly confirm this target for that fiscal year. The 90% figure appears in the context of the Battery Waste Management Rules, but the brief does not clearly link it to the 2026-27 deadline. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article states this incentive was "Cabinet-approved" in September 2025, but the CSE policy brief describes it as "approved" without specifying the approval body (Cabinet vs. another authority). The claim conflates approval with implementation or disbursement. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The claim implies that the new framework's strict hierarchy and category-specific certificates will effectively close loopholes, but it does not address whether enforcement mechanisms (e.g., audits, penalties) are sufficient to ensure compliance. The article assumes specificity alone will solve the enforcement gap without evidence of improved tracking or penalties. [confidence: high]
+- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The article implies that the strict hierarchy and category-specific certificates will effectively close the loophole, but it does not address whether enforcement mechanisms (e.g., audits, penalties) are robust enough to ensure compliance. The claim assumes specificity in rules translates to enforcement, which is not substantiated. [confidence: high]
 
-- "A 2026 policy brief lays out exactly where India's battery-EPR regime is being routed around." — The article presents the CSE policy brief as definitively documenting structural gaps in the battery-EPR regime, but it does not critically assess whether the brief's findings are representative or if alternative interpretations exist. The claim overstates the brief's conclusiveness without acknowledging potential biases or limitations in its analysis. [confidence: high]
+- "A 2026 Centre for Science and Environment policy brief on EV battery recycling... documents specific structural gaps a compliance rulebook does not by itself close: an EPR pricing mechanism industry participants dispute as poorly calibrated..." — The article attributes the lack of enforcement solely to the "rulebook" not addressing structural gaps, but it does not consider whether the EPR pricing mechanism's calibration (or lack thereof) is a systemic issue requiring broader policy intervention beyond the rulebook. The interpretation oversimplifies the cause of enforcement gaps. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

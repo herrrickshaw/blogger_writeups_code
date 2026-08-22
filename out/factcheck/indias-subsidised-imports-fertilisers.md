@@ -22,14 +22,14 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026, which is only 16 days later. This is chronologically impossible for a policy approved after the data cutoff to influence FY2025-26 figures. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The article states the NIPU-2026 was approved 15 days before the data cutoff (which is 31 Jul 2026), implying approval on 16 Jul 2026, not 15 Jul 2026. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The subsidy estimate for urea (~₹1.19 lakh crore) and NBS (~₹49,000 crore) sums to ~₹1.68 lakh crore, but the total range given is ₹1.5–1.7 lakh crore. This is inconsistent because the lower bound (₹1.5 lakh crore) is already exceeded by the sum of the components. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The figures for urea subsidy (~₹1.19 lakh crore) and NBS (~₹49,000 crore) do not sum to the total range of ₹1.5–1.7 lakh crore. The sum is ₹1.68 lakh crore, which is outside the stated range. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims that 81.6% of imports fall under the 12 "subsidised categories," but the table shows these categories include items like Gems & Jewellery, Plastics, and Inorganic Chemicals, which are explicitly flagged as having "NO subsidy" or "ZERO" subsidy. This mislabels non-subsidised imports as "subsidised," conflating tracked categories with actual subsidy-protected imports. [confidence: high]
+- "The 12 subsidised categories account for roughly $632.8 billion/year against India's official $775bn FY2025-26 merchandise import bill" — The article claims these 12 categories account for 81.6% of total imports ($632.8bn/$775bn), but earlier it states that "Nearly 82% of India's entire import bill goes to commodities in these 12 tracked/watch categories." This creates a circular reasoning issue where the same data is used to both define the categories and measure their share, potentially double-counting or misrepresenting the scope. [confidence: high]
 
-- "Mineral fuels actually fell −6.88% — but still $203.4bn/year, 26.2% of total imports. Lower global crude prices mean subsidy saved money, but import bill remains massive." — While the import value of mineral fuels fell, the article attributes the subsidy savings to lower global crude prices. However, the subsidy cost is estimated at ₹50,000–70,000 crore/year regardless of global prices, as it absorbs the price gap to keep domestic prices low. The claim implies the subsidy *saved* money due to lower prices, but the subsidy burden is fixed by policy, not global prices. [confidence: medium]
+- "Plastics ($22.2bn) growing +0.54% with ZERO scheme — the standout gap in the analysis. No PLI, no mission, minimal tariff." — While the article correctly identifies that plastics imports have no dedicated scheme, it extrapolates this to conclude it is a "standout gap" in import substitution without providing comparative data on domestic production capacity, import dependency trends, or policy effectiveness in other sectors. The claim assumes a causal link between lack of scheme and import gap without sufficient evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -7194,3 +7194,15 @@ scheduled sync
 
 - `winter-is-coming-for-europes-landlocked` — 50,189 → 65,047 bytes (+14,858)
 - `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — 1,477 → 1,596 bytes (+119)
+
+## 2026-08-22T09:26:10+05:30 — 192 posts live
+
+**Versions**
+
+- `winter-is-coming-for-europes-landlocked` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **28.0.25 → 28.0.26** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `winter-is-coming-for-europes-landlocked` — 65,047 → 65,155 bytes (+108)
+- `article-index-start-here` — 228,304 → 228,338 bytes (+34)

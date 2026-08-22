@@ -22,10 +22,14 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr" — The article states the deficit is $6.2 billion in FY2025-26 (provisional) and grew by 21.7% YoY, not "~20%/yr" as a general trend. The 20% figure is an approximation, but the exact YoY growth is provided (21.7%), making the rounded claim imprecise. [confidence: high]
+- "5 August 2026" — The article references a future date (August 5, 2026) as the publication date, which is impossible. The correct date should be in the past or present. [confidence: high]
+
+- "₹3,420cr" (₹3,420 crore) — The article mentions this amount for the PLI scheme, but the official PLI scheme for medical devices (announced in 2020) was ₹3,420 crore *over five years*, not a one-time outlay. The phrasing implies a single-year allocation, which is misleading. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article cites specific examples of net-export segments (e.g., gloves, dressings, ECGs), it does not provide historical data or a clear baseline to substantiate the claim that this transition occurred "within a decade." The 2020 EEPC deck is referenced, but no timeline or pre-2020 data is presented to confirm the decade-long trend. [confidence: medium]
+- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr, with exports flat." — The article cites a $6.2 billion deficit (from the 2020 EEPC baseline) but then uses the FY2025-26 provisional trade deficit of $6.22 billion as evidence of a "growing at ~20%/yr" trend. However, the FY2025-26 deficit is only 21.7% higher than FY2024-25 ($5.111 billion to $6.220 billion), not 20% annually compounded over multiple years. The claim conflates a single-year growth rate with a multi-year trend. [confidence: high]
+
+- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article correctly notes that certain consumables (e.g., gloves, dressings) are now net exports, it extrapolates this as a "winning pattern" applicable to all medical devices without evidence that the same strategy (e.g., PLI, indigenization) caused this shift or that it can be replicated for high-tech devices like lab instruments or IVD reagents. The causal claim is unsupported. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

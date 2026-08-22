@@ -9,14 +9,10 @@ Source: `posts/imported-fertiliser-fuel-prices-diesel.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/imported-fertiliser-fuel-prices-diesel.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "WPI is published by DPIIT, not MoSPI." — This is incorrect. The Wholesale Price Index (WPI) is published by the Office of the Economic Adviser (OEA), DPIIT, Ministry of Commerce & Industry, while the Consumer Price Index (CPI) is published by MoSPI. The article incorrectly attributes WPI publication to DPIIT but then correctly cites the source as "Office of the Economic Adviser, DPIIT" in the data retrieval note. [confidence: high]
+- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a longer period (e.g., 2012–2025 or beyond). The claim that it "only covers 2011–2025" is incorrect, as the base year does not define the coverage period. [confidence: high]
 
-- "CPI (base 2012) only covers 2011–2025" — The CPI series with base 2012 covers 2012–2025, not 2011–2025. The article likely misstates the starting year. [confidence: high]
+- "WPI series use the April value of each year as an annual anchor (FY2012 = April 2012, etc.) rather than a full monthly series or FY average" — While the article states this, the WPI (base 2011-12) series is typically published as monthly averages, not just April values. The claim misrepresents the standard publication format of WPI. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Diesel isn't just correlated with WPI, it's one of the components that defines WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation." — While the article correctly notes that HSD (diesel) is part of the WPI fuel basket, it then uses this to dismiss the correlation as "accounting" rather than causation. However, the high correlation (r = 0.92) still implies a strong empirical relationship, even if it is partly mechanical. The article conflates the mechanical inclusion with the absence of any meaningful economic interpretation, ignoring that the weight and inclusion of diesel in WPI reflect its economic significance. The reasoning gap is that the article understates the economic meaning of the correlation by overemphasizing its mechanical nature without acknowledging that the mechanical inclusion itself reflects a real economic linkage. [confidence: high]
+- "Diesel passes straight through to WPI. Fertiliser mostly doesn't — because subsidy absorbs it." — The article correctly notes that diesel has a high pass-through to WPI due to its inclusion in the WPI fuel basket, but the phrasing implies a causal relationship where the mechanical inclusion (not pass-through) is the primary driver. The subsidy explanation for fertilizers is accurate, but the framing oversimplifies the distinction between mechanical inclusion and economic pass-through. [confidence: high]
 
-- "That is not evidence the pass-through described in the literature doesn't exist — it's evidence that annual data is the wrong resolution to see it in." — While the article correctly notes that annual data may obscure short-term pass-through effects, it uses this to dismiss weak annual correlations as uninformative. However, the claim implies that the absence of evidence (weak annual correlations) is evidence of absence (no pass-through), which is a logical gap. The literature cited (e.g., Bhattacharya and Gupta) shows that pass-through exists at monthly frequencies, but the article does not provide evidence that the annual correlations are systematically misleading—only that they are less informative. The reasoning gap is that the article conflates "not visible in annual data" with "does not exist," which is a form of false dichotomy. [confidence: medium]
+- "The one strong number here — diesel vs. WPI headline, r = 0.92 — is closer to a mechanical fact than a discovery, since HSD is itself inside the WPI fuel basket." — While the article acknowledges the mechanical relationship, it does not adequately address that the high correlation is still a valid observation about the sensitivity of WPI to diesel prices, even if it is not a pure "pass-through" effect. The interpretation risks dismissing the correlation as uninformative without clarifying its relevance to policy or analysis. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

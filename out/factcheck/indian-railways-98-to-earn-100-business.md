@@ -9,14 +9,10 @@ Source: `posts/indian-railways-98-to-earn-100-business.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indian-railways-98-to-earn-100-business.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The pattern in one line: Railways' near-100% operating ratio isn't a mystery — freight overpays to cover passenger losses that are formally classified as a social obligation, not a business failure" — The claim implies that the operating ratio being near 100% is *not* a mystery, but the article later contradicts this by stating that the operating ratio has been above 96% since 2016-17 and hit 107% in 2021-22, which is explicitly noted as a mystery requiring adjustments to avoid crossing 100%. [confidence: high]
+- "FY2025-26" — The article is dated 20 August 2026, making FY2025-26 (ending March 2026) impossible as it would not have concluded by the publication date. The correct fiscal year should be FY2026-27. [confidence: high]
 
-- "Freight charges ran almost three times passenger charges as of 2018-19" — The article cites NITI Aayog's 2023 finding, but the claim is not directly verifiable from the provided sources in the article text. The PRS analysis is mentioned as the source, but the exact figure is not explicitly quoted in the cited PRS analysis summary. [confidence: medium]
+- "₹98.43 to earn every ₹100 in FY2025-26" — The operating ratio is stated as 98.43%, which would mean spending ₹98.43 to earn ₹100, not ₹98.43 to earn ₹100. The phrasing is incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The mechanism is explicit, not accidental. PRS's analysis states plainly that 'freight services cross-subsidise passenger services,' and cites NITI Aayog's 2023 finding that freight charges ran almost three times passenger charges as of 2018-19" — The claim that the cross-subsidy mechanism is "explicit, not accidental" is an interpretation that assumes intent behind the policy, but the article does not provide direct evidence of deliberate policy design to cross-subsidize. The data on freight charges being three times passenger charges does not inherently prove that this is a *deliberate* mechanism rather than an outcome of separate pricing decisions. [confidence: high]
+- "freight overpays to cover passenger losses that are formally classified as a social obligation" — While freight does cross-subsidize passenger services, the article conflates this with the operating ratio being a "mystery." The operating ratio is a mechanical outcome of this cross-subsidy, not an unexplained phenomenon. The causal claim that the ratio's persistence is a "mystery" is misleading. [confidence: high]
 
-- "Two retired Indian Railway Traffic Service officers — R. Badri Narayan and A. Madhukumar Reddy — put a precise figure on the passenger side in a January 2025 analysis for The Hindu Centre: 'on average only 57 per cent of travel cost is recovered' from passenger fares. They frame the distortion as structurally hard to fix rather than a simple pricing oversight" — The claim that the distortion is "structurally hard to fix" is an interpretation that extrapolates from the 57% fare recovery figure to a conclusion about the difficulty of fixing the issue. However, the article does not provide evidence or analysis to support why the problem is structurally hard to fix beyond political sensitivity and modal share loss. The 57% figure alone does not logically imply structural intractability. [confidence: high]
+- "Railways' ratio has stayed above 96% every year since 2016-17" — The article cites PRS Legislative Research's analysis but does not clarify whether the ratio includes the "one-off adjustments" (e.g., deferred pension costs) noted by the CAG. Without this context, the claim could mislead readers into thinking the ratio is purely operational, when it is influenced by accounting adjustments. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

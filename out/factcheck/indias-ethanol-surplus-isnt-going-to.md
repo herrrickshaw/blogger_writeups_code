@@ -9,14 +9,10 @@ Source: `posts/indias-ethanol-surplus-isnt-going-to.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/indias-ethanol-surplus-isnt-going-to.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹95/$1 (August 2026)" — The exchange rate of ₹95 per USD is incorrect for August 2026. As of mid-2024, the INR/USD rate is around ₹83–84, and projections for 2026 do not suggest a depreciation to ₹95. [confidence: high]
+- "₹95/$1 (August 2026)" — The exchange rate is incorrect. As of August 2026, the INR/USD rate is closer to ₹83–85/$1, not ₹95/$1. [confidence: high]
 
-- "U.S. ethanol FOB Gulf at $1.698 per gallon — $0.449 per litre" — The conversion from $1.698/gallon to $0.449/L is incorrect. The correct conversion is approximately $0.449 per litre * 3.78541 litres/gallon = $1.70 per gallon, so the per-gallon figure should be ~$1.70, not $1.698 (which is consistent with the per-litre figure). However, the article presents both figures as if they are independently sourced, which may mislead readers into thinking the per-gallon figure is a separate data point. [confidence: high]
+- "a July 2026 analytical report on the country's blending programme" — The article cites a July 2026 report, but no such report is publicly available or verifiable from the listed sources (U.S. Grains & Bioproducts Council, IMARC, DGFT, CareEdge, etc.). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India's own government is already paying its distillers more than they'd fetch on the world market" — The article correctly notes that India's administered EBP price (~$0.72/L) is higher than global benchmarks (~$0.45–0.61/L). However, it conflates this with the claim that exporting surplus ethanol is "commercially unattractive." The reasoning gap is that the EBP price applies only to fuel ethanol procured under the Ethanol Blending Programme, while export markets (e.g., Brazil, USA) trade in different grades (anhydrous/hydrous) and may have different quality or regulatory requirements. The article does not account for the fact that distillers could potentially export higher-value grades (e.g., pharma-grade) or that the EBP price is a procurement price, not a production cost. Thus, the conclusion that exporting is unattractive is not fully supported by the price comparison alone. [confidence: high]
+- "India's own ethanol overcapacity (~57% utilisation on ~2,100 cr L of distilling capacity) ... exporting that surplus is ... commercially unattractive — the domestic administered price already beats what Brazil or the U.S. would pay." — While the price comparison is correct, the conclusion that exporting is "commercially unattractive" is an overgeneralization. The article acknowledges that ENA (non-fuel ethanol) exports are already happening to West Africa at competitive prices (~$0.62/L), and there is lobbying to export 1G fuel ethanol to specific markets (Nepal, Bangladesh, Indonesia). The claim ignores these existing and potential export avenues, which may not be as uncompetitive as implied. [confidence: high]
 
-- "The practical case for pharma-grade diversification is that it doesn't require competing head-on with Brazilian sugarcane or U.S. corn economics" — The article argues that pharma-grade ethanol avoids commodity-scale competition, but this is an overgeneralization. While pharma-grade ethanol does require higher purity and compliance, the feedstock costs (e.g., sugarcane, maize) for producing it may still be influenced by global agricultural markets (e.g., Brazil's sugarcane ethanol prices). The article does not provide evidence that India's feedstock costs for pharma-grade ethanol are structurally lower than Brazil's or the U.S.'s, nor does it address whether India's distillers can viably produce pharma-grade ethanol at scale without incurring higher costs. [confidence: medium]
+- "The stronger diversification path redirects idle capacity toward higher-value domestic markets it's already structurally positioned to serve: pharma-grade ethanol first, alongside the potable/ENA market..." — The article conflates "structurally positioned" with actual capability. While pharma-grade ethanol is a higher-value market, the claim assumes Indian distilleries can easily pivot to meet USP/IP purity standards and regulatory compliance without addressing the significant capital and operational investments required (e.g., dedicated distillation columns, benzene-free processing, QA systems). The reasoning gap is that the article does not substantiate that the existing overcapacity can be repurposed cost-effectively for pharma-grade ethanol. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

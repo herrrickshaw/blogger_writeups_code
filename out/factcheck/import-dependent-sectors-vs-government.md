@@ -9,14 +9,10 @@ Source: `posts/import-dependent-sectors-vs-government.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/import-dependent-sectors-vs-government.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article later contradicts this by stating that fertilizers (HS31), which it claims is the fastest-growing import, had no production-capacity scheme until the Cabinet approved NIPU-2026 on 15 July 2026, which postdates the six-month window (Jan–Jul 2026). The claim is incorrect because the scheme was not announced *within* the mid-July 2026 window but just before it. [confidence: high]
+- "India's fastest-growing major import got a production-capacity scheme in mid-July 2026" — The article later contradicts this by stating that fertilizers (HS31), which it claims is the fastest-growing import, had no production-capacity scheme until the Cabinet approved NIPU-2026 on 15 July 2026, which postdates the six-month roundup window (January–July 2026). The claim is internally inconsistent. [confidence: high]
 
-- "HS31 imports up 118.9% since FY2018-19" — The article cites this figure from the repo's data, but the source (TRADESTAT/DGCI&S) is not directly verifiable in the text. The claim lacks a primary citation or context (e.g., whether this is nominal or real growth, or if it accounts for inflation/devaluation). [confidence: medium]
+- "HS31 imports up 118.9% since FY2018-19" — The article cites this figure from its own repo's data, but the source is not independently verifiable in the provided text. The claim lacks a primary or secondary authoritative source citation (e.g., TRADESTAT/DGCI&S official data) to confirm the exact percentage growth. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — The reasoning gap here is that the article assumes the new capacity (1 crore tonnes) will directly replace the import gap (10 million tonnes), but it does not account for operational timelines, actual production ramp-up, or whether the new plants will be competitive enough to displace imports. The causal link between capacity addition and import reduction is not substantiated. [confidence: high]
+- "The National Investment Policy for Urea-2026 (NIPU-2026) targets 8–9 new plants adding roughly 1 crore tonnes of capacity — sized almost exactly to India's current urea import gap (~30 million tonnes produced against ~40 million tonnes of demand, per the Cabinet's own figures)" — The reasoning gap here is that the article assumes the new capacity will directly and fully substitute imports, but it does not account for potential operational delays, feedstock constraints (e.g., natural gas availability), or demand-side factors that could prevent the new plants from fully closing the import gap. The causal link between capacity addition and import reduction is asserted without evidence of feasibility or timeline alignment. [confidence: high]
 
-- "Mineral fuels & oils (HS27) — 26% of India's entire import bill, no scheme at its scale" — The article conflates the *size* of the import bill (26%) with the *import substitution potential* of schemes. The claim implies that no scheme exists to address the scale of imports, but the schemes mentioned (coal gasification, CCUS, battery/solar PLI) are framed as decarbonization or energy transition measures, not direct crude oil import substitution. The interpretation error lies in assuming that decarbonization schemes inherently serve import security, which they may not. [confidence: high]
+- "Mineral fuels & oils (HS27) — 26% of India's entire import bill, no scheme at its scale" — The article claims there is no scheme "at its scale" for HS27, but then lists smaller schemes (e.g., coal gasification, CCUS funding) and argues they are not crude-oil-import-substitution policies. The interpretation error is that the article conflates the *stated purpose* of these schemes (e.g., decarbonization) with their *potential secondary impact* on import substitution. It does not provide evidence that these schemes are insufficient in scale or that their decarbonization focus precludes any import-reduction effect. The conclusion that there is a "gap" is based on a narrow reading of policy intent rather than empirical impact. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
