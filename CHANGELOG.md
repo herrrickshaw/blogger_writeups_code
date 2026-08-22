@@ -7118,3 +7118,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 227,002 → 227,675 bytes (+673)
+
+## 2026-08-22T07:36:06+05:30 — 191 posts live
+
+**Versions**
+
+- `379-kilos-hectare-in-punjab-44-in` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `379-kilos-hectare-in-punjab-44-in` — 33,065 → 45,477 bytes (+12,412)
