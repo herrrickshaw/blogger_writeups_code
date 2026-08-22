@@ -7230,3 +7230,13 @@ scheduled sync
 **Changed**
 
 - `a-17-rural-pay-rise-that-nobody-received` — 31,648 → 34,791 bytes (+3,143)
+
+## 2026-08-22T11:37:30+05:30 — 193 posts live
+
+**Versions**
+
+- `winter-is-coming-for-europes-landlocked` **1.0.3 → 1.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `winter-is-coming-for-europes-landlocked` — 65,155 → 70,653 bytes (+5,498)
