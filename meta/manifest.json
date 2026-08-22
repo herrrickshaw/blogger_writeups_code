@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-22T07:36:06+05:30",
+  "snapshot": "2026-08-22T07:43:52+05:30",
   "count": 191,
   "posts": {
     "1058853159205559121": {
@@ -10299,12 +10299,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
       "slug": "379-kilos-hectare-in-punjab-44-in",
       "published": "2026-08-22T07:25:22.000+05:30",
-      "updated": "2026-08-22T07:35:41.853+05:30",
+      "updated": "2026-08-22T07:41:51.532+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 45477,
-      "sha256": "a4a225e73424f1812051af618ea787ee9c92da17c63f66e1384ab0dd83e57931",
+      "bytes": 51200,
+      "sha256": "73c5cdc59f490707038b57996f7927ecf2c4a11a262666f6a8b5857181d5bf81",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10316,7 +10316,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10333,6 +10333,19 @@
           "bytes": [
             33065,
             45477
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-22T07:43:52+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            45477,
+            51200
           ],
           "url_changed": null,
           "markers_changed": null,
