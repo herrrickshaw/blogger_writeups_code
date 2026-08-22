@@ -32,6 +32,11 @@ EXCLUDE_LABELS = {"Shop"}
 CSS = """
 :root{color-scheme:only light}
 *{box-sizing:border-box}
+/* Must beat the author `display` rules below: the UA stylesheet gives [hidden]
+   only display:none, which any explicit display (e.g. ul.posts li{display:flex})
+   silently overrides -- so the search would count matches while showing
+   everything. */
+[hidden]{display:none!important}
 body{margin:0;padding:2rem 1rem 3rem;background:#fff;color:#1a1a1a;
  font-family:Georgia,"Times New Roman",serif;line-height:1.6}
 main{max-width:46rem;margin:0 auto}
@@ -67,6 +72,21 @@ ul.posts a:hover{text-decoration:underline}
 .top{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
  font-size:.72rem;color:#8a8a8a;text-decoration:none;margin-left:.6rem}
 .foot{margin-top:2.6rem;font-size:.8rem;color:#8a8a8a;border-top:1px solid #e2e2e2;padding-top:1rem}
+/* Search is a progressive enhancement: the markup below is hidden until the
+   script runs, so a reader without JavaScript never sees a dead control. */
+.search[hidden]{display:none}
+.search{margin:1.6rem 0 0}
+.search label{display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;font-weight:700;margin:0 0 .5rem}
+.search input{width:100%;font-family:Georgia,"Times New Roman",serif;font-size:1rem;color:#1a1a1a;
+ background:#fff;border:1px solid #c9d0dc;border-radius:2px;padding:.7rem .85rem;-webkit-appearance:none}
+.search input:focus{outline:2px solid #2251FF;outline-offset:1px;border-color:#2251FF}
+.search .count{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ font-size:.78rem;color:#43535F;margin:.55rem 0 0;min-height:1.2em}
+.search .count b{color:#0B1F2D}
+.nomatch{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ font-size:.9rem;color:#43535F;background:#F4F7FB;border:1px solid #e2e6ee;padding:1rem;border-radius:2px}
+mark{background:#fff2b8;color:inherit;padding:0 .05em}
 @media (max-width:520px){
  ul.posts li{display:block}
  ul.posts .d{display:block;min-width:0;margin-bottom:.1rem}
@@ -121,7 +141,7 @@ def main():
         secs.append(
             f'<section class="topic" id="{slugify(t)}">'
             f'<h2>{html.escape(t)}'
-            f'<span class="n">{len(by_topic[t])} article{"s" if len(by_topic[t])!=1 else ""}'
+            f'<span class="n"><span class="ct">{len(by_topic[t])} article{"s" if len(by_topic[t])!=1 else ""}</span>'
             f' &middot; <a class="top" href="{BLOG}/search/label/{urllib.parse.quote(t)}">on the blog &rarr;</a>'
             f'</span></h2>'
             f'<ul class="posts">{items}</ul></section>')
@@ -153,17 +173,101 @@ because it is generated from the published-post manifest.</p>
 <a class="cta alt" href="./">Front page</a>
 </p>
 
-<nav class="jump" aria-label="Jump to a topic">
+<div class="search" id="search" hidden="hidden">
+<label for="q">Search titles and topics</label>
+<input type="search" id="q" name="q" autocomplete="off" spellcheck="false"
+ placeholder="urea, Hormuz, ethanol, Slovakia&hellip;" aria-describedby="qcount">
+<p class="count" id="qcount" role="status" aria-live="polite"></p>
+</div>
+
+<nav class="jump" id="jump" aria-label="Jump to a topic">
 <p class="jump-lbl">Jump to a topic</p>
 {chips}
 </nav>
+
+<p class="nomatch" id="nomatch" hidden="hidden">No article title or topic matches that.
+Try a shorter word, or <a href="#" id="clearq">clear the search</a>.</p>
 
 {"".join(secs)}
 
 <p class="foot">Generated {built} from the blog's published-post manifest by
 <code>tools/build_topic_hub.py</code> in the archive repo. Topic links go to the
-blog's own label archives, which update themselves as pieces are labelled.</p>
+blog's own label archives, which update themselves as pieces are labelled.
+The search box filters this page in the browser; every article is in the HTML
+either way.</p>
 </main>
+<script>
+/* Client-side filter over markup that is already complete without it.
+   Nothing here fetches or generates content -- it only hides rows. */
+(function () {{
+  var box = document.getElementById('search'),
+      q = document.getElementById('q'),
+      count = document.getElementById('qcount'),
+      jump = document.getElementById('jump'),
+      none = document.getElementById('nomatch'),
+      clear = document.getElementById('clearq'),
+      secs = [].slice.call(document.querySelectorAll('section.topic')),
+      total = document.querySelectorAll('ul.posts li').length;
+
+  var rows = secs.map(function (s) {{
+    return {{
+      sec: s,
+      topic: (s.querySelector('h2') ? s.querySelector('h2').firstChild.nodeValue || '' : '').toLowerCase(),
+      n: s.querySelector('h2 .n .ct'),
+      nFull: s.querySelector('h2 .n .ct') ? s.querySelector('h2 .n .ct').textContent : '',
+      items: [].slice.call(s.querySelectorAll('li')).map(function (li) {{
+        var a = li.querySelector('a');
+        return {{ li: li, a: a, text: (a ? a.textContent : '').toLowerCase(), html: a ? a.textContent : '' }};
+      }})
+    }};
+  }});
+
+  function esc(s) {{ return s.replace(/[.*+?^${{}}()|[\\]\\\\]/g, '\\\\$&'); }}
+
+  function paint(term) {{
+    var t = term.trim().toLowerCase(), shown = 0, re = t ? new RegExp('(' + esc(t) + ')', 'ig') : null;
+    rows.forEach(function (r) {{
+      var hit = 0, topicHit = t && r.topic.indexOf(t) !== -1;
+      r.items.forEach(function (it) {{
+        var m = !t || topicHit || it.text.indexOf(t) !== -1;
+        it.li.hidden = !m;
+        if (m) {{ hit++; }}
+        it.a.innerHTML = (t && re && !topicHit && m)
+          ? it.html.replace(re, '<mark>$1</mark>')
+          : it.html;
+      }});
+      r.sec.hidden = hit === 0;
+      if (r.n) {{
+        r.n.textContent = t
+          ? hit + ' of ' + r.items.length + ' shown'
+          : r.nFull;
+      }}
+      shown += hit;
+    }});
+    if (jump) {{ jump.hidden = !!t; }}
+    if (none) {{ none.hidden = shown !== 0; }}
+    count.innerHTML = t
+      ? '<b>' + shown + '</b> of ' + total + ' entries match &ldquo;' + t.replace(/&/g, '&amp;').replace(/</g, '&lt;') + '&rdquo;'
+      : '';
+    var u = new URL(location.href);
+    if (t) {{ u.searchParams.set('q', term.trim()); }} else {{ u.searchParams.delete('q'); }}
+    history.replaceState(null, '', u);
+  }}
+
+  box.hidden = false;                       // only now is the control real
+  q.addEventListener('input', function () {{ paint(q.value); }});
+  q.addEventListener('keydown', function (e) {{
+    if (e.key === 'Escape') {{ q.value = ''; paint(''); }}
+  }});
+  if (clear) {{
+    clear.addEventListener('click', function (e) {{
+      e.preventDefault(); q.value = ''; paint(''); q.focus();
+    }});
+  }}
+  var pre = new URLSearchParams(location.search).get('q');
+  if (pre) {{ q.value = pre; paint(pre); }}
+}})();
+</script>
 </body>
 </html>
 """
