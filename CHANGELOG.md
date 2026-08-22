@@ -7172,3 +7172,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 227,675 → 228,304 bytes (+629)
+
+## 2026-08-22T09:08:13+05:30 — 192 posts live
+
+**Versions**
+
+- `winter-is-coming-for-europes-landlocked` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `winter-is-coming-for-europes-landlocked` — 44,271 → 50,189 bytes (+5,918)

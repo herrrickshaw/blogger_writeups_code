@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-22T08:49:42+05:30",
+  "snapshot": "2026-08-22T09:08:13+05:30",
   "count": 192,
   "posts": {
     "1058853159205559121": {
@@ -1663,13 +1663,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html",
       "slug": "winter-is-coming-for-europes-landlocked",
       "published": "2026-08-22T08:38:34.000+05:30",
-      "updated": "2026-08-22T08:45:54.743+05:30",
+      "updated": "2026-08-22T09:06:58.032+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 44271,
-      "sha256": "f0a062291b71ecb49c98963c6bf5855989c7c218cbd1a2484ba3ca88679715dc",
+      "bytes": 50189,
+      "sha256": "e3a218a00b24fa50458cd774723642bb8c25b0fa076fc8cc735466b05e716b61",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1681,13 +1681,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-22T08:49:42+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-22T09:08:13+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            44271,
+            50189
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
