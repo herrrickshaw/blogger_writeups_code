@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-22T11:37:30+05:30",
+  "snapshot": "2026-08-22T11:53:15+05:30",
   "count": 193,
   "posts": {
     "1058853159205559121": {
@@ -7979,10 +7979,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
       "slug": "india-imports-283000-tonnes-of-almonds",
       "published": "2026-08-21T23:00:40.000+05:30",
-      "updated": "2026-08-21T23:03:17.757+05:30",
+      "updated": "2026-08-22T11:52:56.862+05:30",
       "labels": [],
       "bytes": 31221,
-      "sha256": "423b92660262bd23f12a87ff92776afd3f6bebbdee6b781a139a947a735e91af",
+      "sha256": "af9b3b8afffc67de4800be41d3d57e92edfb0b59c3829fe5df5e48778ee8f7ab",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7994,13 +7994,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-08-21T23:03:41+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-22T11:53:15+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            31221,
+            31221
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -19164,10 +19177,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-22T11:10:54.579+05:30",
+      "updated": "2026-08-22T11:52:47.599+05:30",
       "labels": [],
       "bytes": 228965,
-      "sha256": "d5553b6aa28be546d62af3cf8867ab99da3470eb70c10da201de4960c4146fd4",
+      "sha256": "3e0a3b4537ee0ed5413edbe966d63b5ff8912d6cf1a79df82aef8ded67b27ef0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19179,7 +19192,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "28.0.27",
+      "version": "28.0.28",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20339,6 +20352,19 @@
           "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
           "bytes": [
             228338,
+            228965
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "28.0.28",
+          "date": "2026-08-22T11:53:15+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            228965,
             228965
           ],
           "url_changed": null,

@@ -7240,3 +7240,15 @@ scheduled sync
 **Changed**
 
 - `winter-is-coming-for-europes-landlocked` — 65,155 → 70,653 bytes (+5,498)
+
+## 2026-08-22T11:53:15+05:30 — 193 posts live
+
+**Versions**
+
+- `india-imports-283000-tonnes-of-almonds` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `article-index-start-here` **28.0.27 → 28.0.28** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-imports-283000-tonnes-of-almonds` — 31,221 → 31,221 bytes (+0)
+- `article-index-start-here` — 228,965 → 228,965 bytes (+0)

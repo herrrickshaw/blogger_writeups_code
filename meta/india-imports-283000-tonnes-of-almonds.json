@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-08-21T23:03:17.757+05:30",
+  "updated": "2026-08-22T11:52:56.862+05:30",
   "labels": [],
   "bytes": 31221,
-  "sha256": "423b92660262bd23f12a87ff92776afd3f6bebbdee6b781a139a947a735e91af",
+  "sha256": "af9b3b8afffc67de4800be41d3d57e92edfb0b59c3829fe5df5e48778ee8f7ab",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +19,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-21T23:03:41+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-22T11:53:15+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        31221,
+        31221
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

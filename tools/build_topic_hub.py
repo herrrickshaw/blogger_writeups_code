@@ -20,6 +20,7 @@ import argparse
 import html
 import json
 import pathlib
+import re
 import urllib.parse
 from collections import defaultdict
 from datetime import datetime
@@ -87,6 +88,11 @@ ul.posts a:hover{text-decoration:underline}
 .nomatch{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
  font-size:.9rem;color:#43535F;background:#F4F7FB;border:1px solid #e2e6ee;padding:1rem;border-radius:2px}
 mark{background:#fff2b8;color:inherit;padding:0 .05em}
+ul.posts .e{flex:1}
+.secs{display:block;margin:.2rem 0 .5rem;padding-left:.1rem}
+.secs .sec{display:block;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+ font-size:.78rem;color:#43535F;line-height:1.45;padding-left:1.15rem;position:relative}
+.secs .sec::before{content:"\2014";position:absolute;left:0;color:#b9c2cc}
 @media (max-width:520px){
  ul.posts li{display:block}
  ul.posts .d{display:block;min-width:0;margin-bottom:.1rem}
@@ -96,6 +102,23 @@ mark{background:#fff2b8;color:inherit;padding:0 .05em}
 
 def slugify(label):
     return "t-" + "".join(c.lower() if c.isalnum() else "-" for c in label).strip("-")
+
+
+def sections_for(slug):
+    """h2 headings inside a post body, used as searchable sub-entries."""
+    f = ROOT / "posts" / f"{slug}.html"
+    if not f.exists():
+        return []
+    src = f.read_text(encoding="utf-8", errors="replace")
+    src = re.sub(r"<script\b.*?</script>", "", src, flags=re.S | re.I)
+    src = re.sub(r"<style\b.*?</style>", "", src, flags=re.S | re.I)
+    out = []
+    for m in re.finditer(r"<h2\b[^>]*>(.*?)</h2>", src, re.S):
+        t = html.unescape(re.sub(r"<[^>]+>", "", m.group(1))).strip()
+        t = re.sub(r"\s+", " ", t)
+        if 4 < len(t) < 110 and t not in out:
+            out.append(t)
+    return out
 
 
 def load_posts():
@@ -131,13 +154,19 @@ def main():
 
     secs = []
     for t in topics:
-        items = "".join(
-            '<li><span class="d">{d}</span>'
-            '<a href="{u}">{ttl}</a></li>'.format(
-                d=(p.get("published", "")[:10] or ""),
-                u=html.escape(p["url"], quote=True),
-                ttl=html.escape(p["title"]))
-            for p in by_topic[t])
+        items = ""
+        for p in by_topic[t]:
+            heads = sections_for(p.get("slug", ""))
+            sec_html = "".join('<span class="sec">%s</span>' % html.escape(x) for x in heads)
+            items += (
+                '<li><span class="d">{d}</span><span class="e">'
+                '<a href="{u}">{ttl}</a>'
+                '<span class="secs" hidden="hidden">{secs}</span>'
+                '</span></li>').format(
+                    d=(p.get("published", "")[:10] or ""),
+                    u=html.escape(p["url"], quote=True),
+                    ttl=html.escape(p["title"]),
+                    secs=sec_html)
         secs.append(
             f'<section class="topic" id="{slugify(t)}">'
             f'<h2>{html.escape(t)}'
@@ -165,7 +194,9 @@ def main():
 <p class="lede">The full archive of <a href="{BLOG}">Masala Deutsch</a>, grouped.
 {len(labelled)} articles across {len(topics)} topics, newest first within each.
 This page is plain HTML &mdash; it needs no JavaScript and does not go stale silently,
-because it is generated from the published-post manifest.</p>
+because it is generated from the published-post manifest. Search reaches inside the
+articles too: section headings are indexed, so a term that appears only in one part
+of a piece will still find it.</p>
 
 <p>
 <a class="cta" href="{BLOG}">Read the blog</a>
@@ -176,7 +207,7 @@ because it is generated from the published-post manifest.</p>
 <div class="search" id="search" hidden="hidden">
 <label for="q">Search titles and topics</label>
 <input type="search" id="q" name="q" autocomplete="off" spellcheck="false"
- placeholder="urea, Hormuz, ethanol, Slovakia&hellip;" aria-describedby="qcount">
+ placeholder="Norway, urea, Hormuz, tariff stack&hellip;" aria-describedby="qcount">
 <p class="count" id="qcount" role="status" aria-live="polite"></p>
 </div>
 
@@ -216,8 +247,14 @@ either way.</p>
       n: s.querySelector('h2 .n .ct'),
       nFull: s.querySelector('h2 .n .ct') ? s.querySelector('h2 .n .ct').textContent : '',
       items: [].slice.call(s.querySelectorAll('li')).map(function (li) {{
-        var a = li.querySelector('a');
-        return {{ li: li, a: a, text: (a ? a.textContent : '').toLowerCase(), html: a ? a.textContent : '' }};
+        var a = li.querySelector('a'), box = li.querySelector('.secs');
+        var heads = box ? [].slice.call(box.querySelectorAll('.sec')) : [];
+        return {{
+          li: li, a: a, box: box, heads: heads,
+          text: (a ? a.textContent : '').toLowerCase(),
+          html: a ? a.textContent : '',
+          secText: heads.map(function (h) {{ return h.textContent.toLowerCase(); }})
+        }};
       }})
     }};
   }});
@@ -229,12 +266,28 @@ either way.</p>
     rows.forEach(function (r) {{
       var hit = 0, topicHit = t && r.topic.indexOf(t) !== -1;
       r.items.forEach(function (it) {{
-        var m = !t || topicHit || it.text.indexOf(t) !== -1;
+        var titleHit = t && it.text.indexOf(t) !== -1;
+        var secHits = [];
+        if (t) {{
+          for (var k = 0; k < it.secText.length; k++) {{
+            if (it.secText[k].indexOf(t) !== -1) {{ secHits.push(k); }}
+          }}
+        }}
+        var m = !t || topicHit || titleHit || secHits.length > 0;
         it.li.hidden = !m;
         if (m) {{ hit++; }}
-        it.a.innerHTML = (t && re && !topicHit && m)
+        it.a.innerHTML = (t && re && !topicHit && titleHit)
           ? it.html.replace(re, '<mark>$1</mark>')
           : it.html;
+        // show the sections that matched, so the reader sees why the article did
+        if (it.box) {{
+          it.heads.forEach(function (h, k) {{
+            var on = secHits.indexOf(k) !== -1;
+            h.hidden = !on;
+            h.innerHTML = on && re ? h.textContent.replace(re, '<mark>$1</mark>') : h.textContent;
+          }});
+          it.box.hidden = secHits.length === 0;
+        }}
       }});
       r.sec.hidden = hit === 0;
       if (r.n) {{
