@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
   "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
   "published": "2026-08-02T09:54:34.000+05:30",
-  "updated": "2026-08-21T23:12:27.072+05:30",
+  "updated": "2026-08-22T09:09:31.333+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 1477,
-  "sha256": "219e120807ca3f21f9d206f507d005bf54046af4409e15427e2b56f4cba23f44",
+  "bytes": 1596,
+  "sha256": "292834af6ccdee59d6e333b509abc458f881d7e93f0d6512f18c67fdc5a6f5e1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.14",
+  "version": "1.0.15",
   "version_history": [
     {
       "version": "1.0.0",
@@ -228,6 +228,19 @@
           false
         ]
       },
+      "note": ""
+    },
+    {
+      "version": "1.0.15",
+      "date": "2026-08-22T09:21:19+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        1477,
+        1596
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

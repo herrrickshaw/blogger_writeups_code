@@ -9,14 +9,10 @@ Source: `posts/blending-on-budget-energy-density-and.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/blending-on-budget-energy-density-and.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India now has one live nationwide fuel-blending mandate (E20 petrol)" — The article incorrectly states that E20 petrol is a live nationwide mandate. As of the article's publication date (19 August 2026), E20 petrol is only a voluntary standard (IS 17021) and not a nationwide mandate. The government had not yet mandated E20 nationwide, despite earlier discussions. [confidence: high]
+- "Ethanol figures from the NITI Aayog Roadmap for Ethanol Blending and the US DOE Alternative Fuels Data Center (AFDC), cross-checked and mutually consistent to within 0.1 MJ/L." — The article cites ethanol energy density as 21.3 MJ/L, but the US DOE AFDC lists ethanol's lower heating value (LHV) as 23.5 MJ/L (not 21.3 MJ/L). This discrepancy suggests an error in the cross-checking process or a misinterpretation of the source data. [confidence: high]
 
-- "SAF in ATF ... from 2027" — The article claims India's SAF mandate starts in 2027, but this is incorrect. The mandate timeline is already set: 1% from January 2025, 2% from January 2026, and 5% from January 2030, as per ICAO CORSIA Phase II and India's own policy alignment. The article misdates the start by two years. [confidence: high]
+- "Diesel LHV computed from AFDC's low-sulfur-diesel Btu/gal figure." — The article does not provide the exact Btu/gal figure used for this computation, making it impossible to verify the derived MJ/L value (35.8 MJ/L). Without the primary source value, the calculation cannot be confirmed. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the Compressed Biogas Blending Obligation (CBO), approved by the National Biofuels Coordination Committee, mandates CBG blending into the CNG (transport) and PNG (domestic) streams of city gas distribution starting at 1% of consumption in FY2025-26, rising to 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29 onward" — The article uses the CBO blending schedule to claim that CBG blending "is metered into the same pipeline network and sold at the same per-kilogram CNG price," implying no cost impact. However, the blending obligation applies to *consumption*, not supply, and the cost of CBG is typically higher than fossil CNG due to production costs. The blending mandate may require blending more expensive CBG into the supply, which could still result in a price premium for consumers, even if it is not directly visible as a mileage loss. The article conflates the lack of mileage penalty with no cost impact at all. [confidence: medium]
+- "The blend chemistry decides who pays and how; the mandate percentage is almost beside the point." — While the article correctly highlights the importance of energy density differences in determining cost impacts, it overgeneralizes that the mandate percentage is "almost beside the point." The mandate percentage still matters for supply chain logistics, infrastructure readiness, and policy enforcement, even if it doesn't directly determine the cost impact per kilometre. The claim conflates the *mechanism* of cost imposition (energy density) with the *scale* of its application (mandate percentage). [confidence: high]
 
-- "the MC²+ Grand Butanol Challenge ... Applications closed 15 August 2026" — The article presents the challenge as a forward-looking initiative to develop bio-based isobutanol supply, but it does not acknowledge that the challenge's timeline (applications closed 15 August 2026) is after the article's publication date (19 August 2026). This creates a logical inconsistency: the article discusses the challenge as if it were ongoing or completed, but the application deadline had already passed by the time of publication. This undermines the article's projection about supply readiness for the proposed 2027 mandate. [confidence: medium]
+- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect — the running-cost figures already published for CNG vehicles [...] already implicitly include whatever share of CBG is in the pipeline blend, indistinguishably." — While CBG blending does not cause a mileage penalty, the claim that there is "no cost-per-kilometre penalty" is misleading. The cost of CBG production is typically higher than fossil CNG, and this premium is embedded in the blended CNG price. Thus, consumers *do* pay a higher price per kilometre, just not in the form of reduced mileage. The article conflates "no mileage penalty" with "no cost penalty." [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

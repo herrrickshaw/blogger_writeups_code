@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-22T09:08:13+05:30",
+  "snapshot": "2026-08-22T09:21:19+05:30",
   "count": 192,
   "posts": {
     "1058853159205559121": {
@@ -1663,13 +1663,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html",
       "slug": "winter-is-coming-for-europes-landlocked",
       "published": "2026-08-22T08:38:34.000+05:30",
-      "updated": "2026-08-22T09:06:58.032+05:30",
+      "updated": "2026-08-22T09:20:56.615+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 50189,
-      "sha256": "e3a218a00b24fa50458cd774723642bb8c25b0fa076fc8cc735466b05e716b61",
+      "bytes": 65047,
+      "sha256": "48c2fc84bbd69a6a788fc930724ffa42eb2bda20ff72d5179c16ceea409acd45",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1681,7 +1681,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1698,6 +1698,19 @@
           "bytes": [
             44271,
             50189
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-08-22T09:21:19+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            50189,
+            65047
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -21205,12 +21218,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html",
       "slug": "root-bgfff-fg1a1a1a-mut666-cardf6f6f4",
       "published": "2026-08-02T09:54:34.000+05:30",
-      "updated": "2026-08-21T23:12:27.072+05:30",
+      "updated": "2026-08-22T09:09:31.333+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 1477,
-      "sha256": "219e120807ca3f21f9d206f507d005bf54046af4409e15427e2b56f4cba23f44",
+      "bytes": 1596,
+      "sha256": "292834af6ccdee59d6e333b509abc458f881d7e93f0d6512f18c67fdc5a6f5e1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21222,7 +21235,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.14",
+      "version": "1.0.15",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21429,6 +21442,19 @@
               false
             ]
           },
+          "note": ""
+        },
+        {
+          "version": "1.0.15",
+          "date": "2026-08-22T09:21:19+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            1477,
+            1596
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

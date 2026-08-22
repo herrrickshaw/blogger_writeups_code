@@ -9,14 +9,10 @@ Source: `posts/biomass-power-at-night-dispatchable.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -26,14 +22,14 @@ Source: `posts/biomass-power-at-night-dispatchable.html`
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "biomass power grew just 19% — the slowest of any renewable category, in the one slot on the grid where a dispatchable renewable should be winning" — The article correctly states biomass grew 19% between December 2019 and July 2026, but the claim that this is "the slowest of any renewable category" is incorrect. Small hydro grew only 11% in the same period, making it the slowest-growing category. [confidence: high]
+- "biomass power grew just 19% — the slowest of any renewable category, in the one slot on the grid where a dispatchable renewable should be winning" — The article later contradicts this claim by stating biomass grew "roughly a ninth" (11.1%) of the total non-hydro renewable growth rate (178%), not "just 19%." The 19% figure refers to absolute growth in MW (from 9,861 MW to 11,747.57 MW), while the "slowest" comparison is relative to the total non-hydro renewable growth rate. The phrasing conflates absolute and relative growth, making the claim misleading. [confidence: high]
 
-- "the Ministry of New & Renewable Energy's state-wise installed renewable capacity table, dated 31 July 2026" — The article cites this as the source for 2026 biomass capacity figures, but the Ministry of New & Renewable Energy (MNRE) typically releases capacity data quarterly or annually, not mid-year (July 31). The latest available MNRE data as of mid-2026 would likely be from March 2026 or earlier, making a July 31, 2026 date unverifiable or potentially incorrect. [confidence: medium]
+- "the Ministry of New & Renewable Energy's state-wise installed renewable capacity table, dated 31 July 2026" — The article cites this table as the source for 2026 biomass capacity figures, but the date "31 July 2026" is in the future relative to the article's publication date (20 August 2026). This is likely a typographical error, as capacity tables are typically dated at the end of a month or quarter, not in the future. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A 10–20% peak-hour premium is a percentage of the 'normal tariff' a state commission sets — for competitively bid solar and wind power in India, that normal tariff typically sits in the ₹2.5–3.5/kWh range, several times lower than biomass's own levellised cost before any ToD premium is even applied." — While the claim about biomass costs being higher than solar/wind tariffs is correct, the interpretation that the ToD premium is insufficient to bridge this gap is flawed. The article does not account for the fact that biomass generators may sell power at higher tariffs (e.g., peak-hour rates) or through different agreements (e.g., captive use, bagasse cogeneration) that could make the economics viable despite higher levellised costs. The conclusion that the ToD premium "looks unlikely to be the deciding factor on its own" overgeneralizes without evidence of actual PPA pricing or biomass plant economics. [confidence: high]
+- "Biomass power can run at night. It is one of the few renewable sources that actually can. And yet, while India's total renewable capacity (excluding large hydro) grew 178% between December 2019 and July 2026, biomass power grew just 19% — the slowest of any renewable category, in the one slot on the grid where a dispatchable renewable should be winning." — The article implies that biomass should have grown faster because it is dispatchable at night, but it does not account for the fact that biomass growth is constrained by feedstock availability, capital costs, and policy barriers (e.g., PPA structures) that are unrelated to its dispatchability. The claim assumes that dispatchability alone should drive growth, ignoring other economic and logistical factors. [confidence: high]
 
-- "Biomass power, unlike solar, can be dispatched into exactly that window [night-time peak]." — While technically true, this claim implies biomass is uniquely suited to address the evening ramp problem, ignoring other dispatchable renewables (e.g., pumped hydro, battery storage) or demand-side solutions (e.g., time-of-use shifting for consumers). The article frames biomass as the only viable solution without justification, creating a false dichotomy. [confidence: medium]
+- "A 10–20% peak-hour premium is a percentage of the 'normal tariff' a state commission sets — for competitively bid solar and wind power in India, that normal tariff typically sits in the ₹2.5–3.5/kWh range, several times lower than biomass's own levellised cost before any ToD premium is even applied." — The article correctly notes that biomass's levellised cost (₹9.6–11.1/kWh) is higher than solar/wind tariffs, but it does not explain whether the ToD premium is applied to biomass generators or only to consumers. If the premium is not passed through to biomass generators (e.g., via PPAs), then the economic signal is ineffective, and the interpretation that the premium "isn't enough" is incomplete without evidence of pass-through. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
