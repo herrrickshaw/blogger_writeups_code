@@ -7158,3 +7158,17 @@ scheduled sync
 **Changed**
 
 - `379-kilos-hectare-in-punjab-44-in` — 61,911 → 67,931 bytes (+6,020)
+
+## 2026-08-22T08:49:42+05:30 — 192 posts live
+
+**Added**
+
+- `winter-is-coming-for-europes-landlocked` **v1.0.0** — Winter Is Coming for Europe's Landlocked Five (44,271 bytes)
+
+**Versions**
+
+- `article-index-start-here` **28.0.24 → 28.0.25** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 227,675 → 228,304 bytes (+629)
