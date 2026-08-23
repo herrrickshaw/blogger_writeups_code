@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
   "slug": "7186-litre-why-maize-is-indias-priciest",
   "published": "2026-08-21T21:11:49.000+05:30",
-  "updated": "2026-08-21T21:27:47.449+05:30",
+  "updated": "2026-08-23T06:33:55.060+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 40439,
-  "sha256": "c1954c3aa074caf6eac0a958aa51920a5163b6921e75f5b5467be4fde2f7c312",
+  "bytes": 41161,
+  "sha256": "511b6a8fb33a841084883d436c084c5c5760ea14dea32a7e1aeccd90025857ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        40439,
+        41161
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

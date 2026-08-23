@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-08-20T06:25:27.680+05:30",
+  "updated": "2026-08-23T06:33:58.449+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 27941,
-  "sha256": "4b1749c02307506792a488178858279e0912a22a71d7324ea0b5a76c5c94232f",
+  "bytes": 28590,
+  "sha256": "da1ae6b332226275bbb5cf21e02773589aee0125cf530d315553dd92ec5fcb9d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27941,
+        28590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

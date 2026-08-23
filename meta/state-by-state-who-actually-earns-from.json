@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-08-20T12:07:36.301+05:30",
+  "updated": "2026-08-23T06:33:18.950+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 54835,
-  "sha256": "89b3fe6ecb4dc3567bb4a4a5a3f6311ae4af0424b1347ab302b530db9242d634",
+  "bytes": 56181,
+  "sha256": "6d881863e03e6a2c0c9ddc92d11fead995ee04fe95983ada09f08d5640e0504e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        54835,
+        56181
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

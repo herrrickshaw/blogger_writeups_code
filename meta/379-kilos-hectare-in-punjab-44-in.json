@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-08-22T08:15:39.343+05:30",
+  "updated": "2026-08-23T06:33:04.835+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 67931,
-  "sha256": "8dfc5674d2a02835c97731ad0e4c85922fea24e24f790f4045cb6dd89fe80311",
+  "bytes": 68640,
+  "sha256": "03a824230e25e32c65cf47b526161197edb08983378821a4664c61be9d1b7319",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        67931,
+        68640
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

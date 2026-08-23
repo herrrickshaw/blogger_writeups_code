@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-20T12:27:50.761+05:30",
+  "updated": "2026-08-22T13:31:15.770+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 83289,
-  "sha256": "0148364853a369fe4c1bce22fdf47dddeac68f5392e816682c627be37f6519ed",
+  "bytes": 85830,
+  "sha256": "6be153ca3f8387a7d37a5c22387ba2befd1605765338dc5ee271e282a9bce778",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.11",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -217,6 +217,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-15 distinct numbers)",
+      "bytes": [
+        83289,
+        85830
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

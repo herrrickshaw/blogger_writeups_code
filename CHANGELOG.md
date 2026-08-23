@@ -7252,3 +7252,77 @@ scheduled sync
 
 - `india-imports-283000-tonnes-of-almonds` — 31,221 → 31,221 bytes (+0)
 - `article-index-start-here` — 228,965 → 228,965 bytes (+0)
+
+## 2026-08-23T03:32:24+00:00 — 200 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `indias-8-digit-trade-book-searchable` **v1.0.0** — India's 8-Digit Trade Book, Searchable (29,810 bytes)
+- `japan-ran-out-of-matcha-assam-just-sold` **v1.0.0** — Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos. (32,109 bytes)
+- `thirty-one-years-of-asking-parliament` **v1.0.0** — Thirty-One Years of Asking Parliament the Same Question About Fertiliser (35,418 bytes)
+- `indias-shrimp-exports-did-not-collapse` **v1.0.0** — India's Shrimp Exports Did Not Collapse. The Code Did. (30,613 bytes)
+- `nano-urea-works-as-supplement-and-fails` **v1.0.0** — Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees. (25,598 bytes)
+- `india-hit-e20-on-maize-and-rice-not` **v1.0.0** — India Hit E20 on Maize and Rice, Not Sugarcane (23,234 bytes)
+- `you-cannot-substitute-crude-oil-or-gold` **v1.0.0** — You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill. (32,446 bytes)
+- `5071-items-you-cannot-import-and-rs` **v1.0.0** — 5,071 Items You Cannot Import, and the Rs 2,570 Crore That Replaced Them (29,211 bytes)
+- `premium-now-claim-later-float-indias` **v1.0.0** — Premium Now, Claim Later: The Float India's Car Boom Is Building (64,375 bytes)
+
+**Versions**
+
+- `379-kilos-hectare-in-punjab-44-in` **1.0.4 → 2.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `7186-litre-why-maize-is-indias-priciest` **1.0.1 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `biomass-power-at-night-dispatchable` **1.0.2 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `the-most-discussed-schemes-in` **1.0.13 → 1.1.0** (MINOR) — prose grew 9,278→9,482 chars with no new figures
+- `not-drop-out-ethanols-zero-liquid` **1.0.4 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `where-rupee-actually-stands-ten-years` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+- `indias-coking-coal-import-problem-and` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `where-worlds-oil-sits-when-it-isnt` **1.0.3 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `the-margin-case-why-lpg-and` **1.2.6 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `petroleum-trade-pairings-and-us-crude` **1.0.9 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `inflation-trends-globally-what-five` **2.0.14 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `rooftop-solar-is-working-household` **1.0.10 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `annadata-to-urjadata-farmer-income-case` **1.0.13 → 2.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `quarterly-reportage-4034-scheme` **1.0.13 → 1.1.0** (MINOR) — prose grew 3,126→3,330 chars with no new figures
+- `annexure-314-hsn-codes-mapped-to` **1.0.11 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `from-fuel-to-fibre-indias-textile` **1.0.11 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `bio-fertiliser-and-green-credits` **2.0.11 → 3.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `nature-versus-nurture-indias-fertiliser` **3.0.10 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+- `state-by-state-who-actually-earns-from` **1.0.10 → 2.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+- `priority-export-destinations-by-growth` **1.0.11 → 2.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `article-index-start-here` **28.0.28 → 29.0.0** (MAJOR) — figures changed (+7/-3 distinct numbers)
+- `ipa-digital-twin-reportage-latest` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `top-15-chemicals-for-import` **2.0.11 → 3.0.0** (MAJOR) — figures changed (+1/-15 distinct numbers)
+
+**Changed**
+
+- `379-kilos-hectare-in-punjab-44-in` — 67,931 → 68,640 bytes (+709)
+- `7186-litre-why-maize-is-indias-priciest` — 40,439 → 41,161 bytes (+722)
+- `biomass-power-at-night-dispatchable` — 27,941 → 28,590 bytes (+649)
+- `the-most-discussed-schemes-in` — 34,518 → 35,307 bytes (+789)
+- `not-drop-out-ethanols-zero-liquid` — 43,576 → 44,922 bytes (+1,346)
+- `where-rupee-actually-stands-ten-years` — 50,954 → 51,707 bytes (+753)
+- `indias-coking-coal-import-problem-and` — 46,092 → 46,729 bytes (+637)
+- `where-worlds-oil-sits-when-it-isnt` — 44,094 → 44,692 bytes (+598)
+- `the-margin-case-why-lpg-and` — 36,212 → 36,810 bytes (+598)
+- `petroleum-trade-pairings-and-us-crude` — 145,002 → 145,600 bytes (+598)
+- `inflation-trends-globally-what-five` — 52,985 → 53,738 bytes (+753)
+- `rooftop-solar-is-working-household` — 19,005 → 19,654 bytes (+649)
+- `annadata-to-urjadata-farmer-income-case` — 40,621 → 41,967 bytes (+1,346)
+- `quarterly-reportage-4034-scheme` — 560,690 → 561,479 bytes (+789)
+- `annexure-314-hsn-codes-mapped-to` — 46,146 → 46,852 bytes (+706)
+- `from-fuel-to-fibre-indias-textile` — 35,522 → 36,228 bytes (+706)
+- `bio-fertiliser-and-green-credits` — 45,545 → 46,254 bytes (+709)
+- `nature-versus-nurture-indias-fertiliser` — 78,794 → 79,503 bytes (+709)
+- `state-by-state-who-actually-earns-from` — 54,835 → 56,181 bytes (+1,346)
+- `priority-export-destinations-by-growth` — 41,053 → 41,669 bytes (+616)
+- `article-index-start-here` — 228,965 → 252,399 bytes (+23,434)
+- `ipa-digital-twin-reportage-latest` — 125,660 → 126,449 bytes (+789)
+- `top-15-chemicals-for-import` — 83,289 → 85,830 bytes (+2,541)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `top-15-chemicals-for-import--4751284523575450171` — India's FY26–30 Chemical Independence Roadmap: the Top 15
+- `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)
