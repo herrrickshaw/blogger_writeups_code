@@ -7326,3 +7326,26 @@ scheduled sync
 
 - `top-15-chemicals-for-import--4751284523575450171` — India's FY26–30 Chemical Independence Roadmap: the Top 15
 - `root-bgfff-fg1a1a1a-mut666-cardf6f6f4` — IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)
+
+## 2026-08-24T03:34:36+00:00 — 205 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `indias-renewable-energy-certificates` **v1.0.0** — India's Renewable Energy Certificates Swung 20x in Three Years — and They're One of Six Certificate Markets Now Running (31,738 bytes)
+- `what-actually-happens-to-indias-used` **v1.0.0** — What Actually Happens to India's Used Motor Oil, and What the Government Just Started Requiring (37,635 bytes)
+- `every-india-europe-tech-agreement-pib` **v1.0.0** — What India and Europe Actually Signed on Technology, Country by Country (27,162 bytes)
+- `foreign-capital-found-indias-hospitals` **v1.0.0** — Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones (28,900 bytes)
+- `india-cannot-sell-china-free-medicine` **v1.0.0** — India Cannot Sell "China-Free" Medicine While Importing 43% of What's In It (32,888 bytes)
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **7.2.5 → 8.0.0** (MAJOR) — figures changed (+1/-2 distinct numbers)
+- `article-index-start-here` **29.0.0 → 30.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 56,275 → 55,166 bytes (-1,109)
+- `article-index-start-here` — 252,399 → 260,721 bytes (+8,322)

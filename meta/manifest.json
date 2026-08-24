@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-23T03:32:24+00:00",
-  "count": 200,
+  "snapshot": "2026-08-24T03:34:36+00:00",
+  "count": 205,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -3273,12 +3273,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-20T21:47:41.679+05:30",
+      "updated": "2026-08-23T22:02:42.853+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 56275,
-      "sha256": "a53cbb653cc566e05b260a16f1bd897774aace27e82a8d9b0e7ef65fc1c5d9eb",
+      "bytes": 55166,
+      "sha256": "3ebd854afb184d6cfc671c4c93d9d469d9cef473078a58b912946a26aa9486e5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3290,7 +3290,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "7.2.5",
+      "version": "8.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3706,6 +3706,55 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "8.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "major",
+          "reason": "figures changed (+1/-2 distinct numbers)",
+          "bytes": [
+            56275,
+            55166
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        }
+      ]
+    },
+    "1975857880529961487": {
+      "id": "1975857880529961487",
+      "title": "What Actually Happens to India's Used Motor Oil, and What the Government Just Started Requiring",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
+      "slug": "what-actually-happens-to-indias-used",
+      "published": "2026-08-23T22:08:12.000+05:30",
+      "updated": "2026-08-23T22:17:50.904+05:30",
+      "labels": [
+        "Chemicals",
+        "Circularity & Waste-to-Value",
+        "India"
+      ],
+      "bytes": 37635,
+      "sha256": "6919b959a7b32cf5e07655fdfef1c9aa17937e849835ef844108f014b509121b",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -5369,6 +5418,42 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": ""
+        }
+      ]
+    },
+    "2477910080752035281": {
+      "id": "2477910080752035281",
+      "title": "India Cannot Sell \"China-Free\" Medicine While Importing 43% of What's In It",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html",
+      "slug": "india-cannot-sell-china-free-medicine",
+      "published": "2026-08-23T10:16:58.000+05:30",
+      "updated": "2026-08-23T18:45:14.874+05:30",
+      "labels": [
+        "Chemicals",
+        "Healthcare",
+        "Trade & Tariffs"
+      ],
+      "bytes": 32888,
+      "sha256": "03cdfb6966cbad6a2d99b2d18fe109ad0c9838ec62463844fa5de99058a98608",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -9773,6 +9858,42 @@
         }
       ]
     },
+    "3677624312514527278": {
+      "id": "3677624312514527278",
+      "title": "India's Renewable Energy Certificates Swung 20x in Three Years — and They're One of Six Certificate Markets Now Running",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
+      "slug": "indias-renewable-energy-certificates",
+      "published": "2026-08-23T22:23:00.000+05:30",
+      "updated": "2026-08-23T22:42:09.456+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "India",
+        "Industrial Policy"
+      ],
+      "bytes": 31738,
+      "sha256": "adad74a9afec41854dd71cdd2a6aa11cbafd3707bda4b06b151e1afcb87e96dd",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
+        }
+      ]
+    },
     "3750506158663005147": {
       "id": "3750506158663005147",
       "title": "The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha",
@@ -13681,6 +13802,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "4711118775886108720": {
+      "id": "4711118775886108720",
+      "title": "What India and Europe Actually Signed on Technology, Country by Country",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html",
+      "slug": "every-india-europe-tech-agreement-pib",
+      "published": "2026-08-23T18:35:54.000+05:30",
+      "updated": "2026-08-23T19:03:19.086+05:30",
+      "labels": [
+        "India",
+        "India Trade & Policy",
+        "Industrial Policy"
+      ],
+      "bytes": 27162,
+      "sha256": "dae4259f76c19de9a722211621bed148804d4f684a744a120abbe5d6aa3c014a",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
@@ -19358,10 +19515,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-23T04:51:48.240+05:30",
+      "updated": "2026-08-23T22:24:21.567+05:30",
       "labels": [],
-      "bytes": 252399,
-      "sha256": "2978cc6c2568d46332c8bfc11e8eb28db871b9826ae338418051674f6f49fd81",
+      "bytes": 260721,
+      "sha256": "af92080ff2009195bfcf738b32f2ce687e43c195523842e4ccc5a0a7e278e653",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19373,7 +19530,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "29.0.0",
+      "version": "30.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20560,6 +20717,19 @@
           "bytes": [
             228965,
             252399
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
+        },
+        {
+          "version": "30.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "major",
+          "reason": "figures changed (+3/-2 distinct numbers)",
+          "bytes": [
+            252399,
+            260721
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -22782,6 +22952,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "6962157966390170519": {
+      "id": "6962157966390170519",
+      "title": "Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
+      "slug": "foreign-capital-found-indias-hospitals",
+      "published": "2026-08-23T14:22:31.000+05:30",
+      "updated": "2026-08-23T18:45:23.004+05:30",
+      "labels": [
+        "Healthcare",
+        "India",
+        "Infrastructure & Investment"
+      ],
+      "bytes": 28900,
+      "sha256": "711869b4396c23fc516d23e08c03cfd3458cf2aa05ce8a67bbe0d4685597758d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-24T03:34:36+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "scheduled sync"
         }
       ]
     },
