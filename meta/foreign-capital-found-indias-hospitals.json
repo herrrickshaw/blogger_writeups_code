@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-08-23T18:45:23.004+05:30",
+  "updated": "2026-08-24T12:55:45.443+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 28900,
-  "sha256": "711869b4396c23fc516d23e08c03cfd3458cf2aa05ce8a67bbe0d4685597758d",
+  "bytes": 29121,
+  "sha256": "ce976e0201f7ea91a6939f4e25ab92b696b16a871aed9b6f5fedaa1f43e7f838",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-24T03:34:36+00:00",
       "level": "initial",
       "reason": "first snapshot",
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-25T03:28:39+00:00",
+      "level": "major",
+      "reason": "figures changed (+6/-2 distinct numbers)",
+      "bytes": [
+        28900,
+        29121
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": "scheduled sync"
     }
   ]

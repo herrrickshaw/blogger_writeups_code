@@ -7349,3 +7349,28 @@ scheduled sync
 
 - `the-masala-deutsch-shop-books-things` — 56,275 → 55,166 bytes (-1,109)
 - `article-index-start-here` — 252,399 → 260,721 bytes (+8,322)
+
+## 2026-08-25T03:28:39+00:00 — 210 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `india-approved-15-lakh-crore-in` **v1.0.0** — India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid. (33,148 bytes)
+- `we-fact-checked-66-investment` **v1.0.0** — India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector (63,540 bytes)
+- `indias-445-billion-spice-export-book-is` **v1.0.0** — India's $4.45 Billion Spice Export Book Is Really Eight Different Crops in Eight Different States (29,293 bytes)
+- `indias-coffee-crop-hasnt-grown-in` **v1.0.0** — India's Coffee Crop Hasn't Grown in a Decade. Its Export Earnings Have. (26,856 bytes)
+- `india-grows-most-coconuts-in-world-and` **v1.0.0** — India Grows the Most Coconuts in the World and Still Imports Copra (27,134 bytes)
+
+**Versions**
+
+- `every-india-europe-tech-agreement-pib` **1.0.0 → 1.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `foreign-capital-found-indias-hospitals` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+6/-2 distinct numbers)
+- `article-index-start-here` **30.0.0 → 31.0.0** (MAJOR) — figures changed (+5/-3 distinct numbers)
+
+**Changed**
+
+- `every-india-europe-tech-agreement-pib` — 27,162 → 27,244 bytes (+82)
+- `foreign-capital-found-indias-hospitals` — 28,900 → 29,121 bytes (+221)
+- `article-index-start-here` — 260,721 → 268,487 bytes (+7,766)
