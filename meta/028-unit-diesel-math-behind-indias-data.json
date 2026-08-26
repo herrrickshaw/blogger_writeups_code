@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-08-20T21:04:49.805+05:30",
+  "updated": "2026-08-25T10:11:28.971+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels"
   ],
-  "bytes": 32867,
-  "sha256": "60a5bb29eb1c6400145b175a6c36ba5bbba866659ca74a67d1939cc64f2e2546",
+  "bytes": 35823,
+  "sha256": "32ab2ccf1020e28c716568293c7e5303085c8d746580228070da42a77255d719",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        32867,
+        35823
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-08-19T11:46:03.441+05:30",
+  "updated": "2026-08-25T10:38:57.723+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 11258,
-  "sha256": "dea9e6888a9a213ddd47363cead287861a95f9b59cbf4072d49f380c4c1a7d40",
+  "bytes": 14037,
+  "sha256": "eefeb66e07e18c575158ae355d791521606d24a84baafa81941cf50eb1c2f16f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -116,6 +116,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        11258,
+        14037
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
   "slug": "the-water-bill-nobody-mentions-what",
   "published": "2026-08-18T04:39:02.000+05:30",
-  "updated": "2026-08-20T11:58:00.250+05:30",
+  "updated": "2026-08-25T10:35:46.850+05:30",
   "labels": [
     "Environment & Clearances",
     "Import Substitution",
     "Manufacturing"
   ],
-  "bytes": 22029,
-  "sha256": "07d43cdd309b2536ea6896fb6f263d19bed76c861dcff143a7c23e211cb5b24b",
+  "bytes": 25343,
+  "sha256": "6dffb17cabf8918ea2543bb0e90f86e18b7906970367d97b6f5ff0a8b5ee20dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        22029,
+        25343
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-08-19T11:43:01.494+05:30",
+  "updated": "2026-08-25T10:38:30.429+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 20421,
-  "sha256": "b876b275a4d2739466b3db3df3d6809c0b78a42ff0219f447bfd9e0294f53eb9",
+  "bytes": 23602,
+  "sha256": "a156bac900f0cfd7bd8e46f4f78c050f4453eba3e44482513955dfb2ad109110",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.11",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -182,6 +182,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        20421,
+        23602
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

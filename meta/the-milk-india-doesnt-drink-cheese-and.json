@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-08-19T11:48:46.650+05:30",
+  "updated": "2026-08-25T10:34:32.095+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 37089,
-  "sha256": "ba0f51519a0ce82a1f14658a5c49712eaae681a74250abfee940ae2458958f70",
+  "bytes": 42653,
+  "sha256": "3f776b2a8a585796cf3ac9f1c5b411acec5ba075eb041e245bf708aa7f112a7d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+9/-0 distinct numbers)",
+      "bytes": [
+        37089,
+        42653
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

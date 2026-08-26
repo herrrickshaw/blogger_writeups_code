@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-08-21T22:57:07.973+05:30",
+  "updated": "2026-08-25T10:26:29.211+05:30",
   "labels": [
     "Chemicals",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 42699,
-  "sha256": "1ecf7bbeb98a8977e48002aed764b7886e1324dc2ae9967d87d30ccc6edb6ee7",
+  "bytes": 46888,
+  "sha256": "83b2c13d443a9408a15a3606ef83c76e2407e6cbb2adfa3434c10b8c8508d8a6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.14",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -223,6 +223,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        42699,
+        46888
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

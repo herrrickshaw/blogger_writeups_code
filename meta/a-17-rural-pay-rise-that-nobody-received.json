@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html",
   "slug": "a-17-rural-pay-rise-that-nobody-received",
   "published": "2026-08-22T11:06:55.000+05:30",
-  "updated": "2026-08-22T11:25:46.069+05:30",
+  "updated": "2026-08-25T10:11:55.524+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Prices & Inflation"
   ],
-  "bytes": 34791,
-  "sha256": "b25811ef4f515c992890b88a8dbdb7e56bcd8ddfa9434c7218b4a79989669709",
+  "bytes": 38573,
+  "sha256": "b533e25ede6c6aa6217eaf0e3a5adc463a009b70a84fcd54acee87b5c2c2b633",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        34791,
+        38573
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

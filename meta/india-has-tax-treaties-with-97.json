@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-08-19T11:51:58.232+05:30",
+  "updated": "2026-08-25T10:22:31.418+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 25941,
-  "sha256": "a95b48198b734ce8d6aee18ebf6a9d07137af31eb09d3d948990b8f8f0bb1d5f",
+  "bytes": 28419,
+  "sha256": "53796f1582370cd842d2d392ebd8ece9cf866d4923cb7133173e3f387477251c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        25941,
+        28419
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-08-19T11:45:19.057+05:30",
+  "updated": "2026-08-25T10:34:05.996+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 11368,
-  "sha256": "5c397b9ad7516dd9dfbe7c1824f9ca6d3bb3d11ababa681ff261f06db3904ab4",
+  "bytes": 13937,
+  "sha256": "4bc1d5ab270ab8d4fe421be7925f4aafa2b582cd188e639f93be6e4bbca1ab67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -142,6 +142,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        11368,
+        13937
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-08-19T11:52:10.414+05:30",
+  "updated": "2026-08-25T10:35:01.593+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 36408,
-  "sha256": "cba7bcbc75f13af7aae884643219b646aece62ff84795ae14e3fec05666594d6",
+  "bytes": 39079,
+  "sha256": "9b51e3c494e59f3d9cd781d0ef07bf3488757b8a472f0f4476825566cd2d9691",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.10",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        36408,
+        39079
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-08-21T04:04:15.085+05:30",
+  "updated": "2026-08-25T10:11:47.209+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy"
   ],
-  "bytes": 20543,
-  "sha256": "8fdd52a356525473ab5edf3c8fd23e0a011f697df365d3c6a571169d6ce68320",
+  "bytes": 23719,
+  "sha256": "d2698678a438dbb06f573d7e74227dc71d627ffee8ef2ee79e5c329398b52b6f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        20543,
+        23719
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

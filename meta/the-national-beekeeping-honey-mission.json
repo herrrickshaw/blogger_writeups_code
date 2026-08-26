@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-08-20T12:07:33.124+05:30",
+  "updated": "2026-08-25T10:34:40.075+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 27182,
-  "sha256": "0fdbf4abc364350d0165f4be32db196373a9780b64b72e5a9f3bb3bdc5f38420",
+  "bytes": 30604,
+  "sha256": "100cb62603163f61eea3b65e897c3a2c0958aa9489af1440d81e405ade695ad3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27182,
+        30604
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

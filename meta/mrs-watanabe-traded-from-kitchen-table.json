@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-08-19T11:49:54.122+05:30",
+  "updated": "2026-08-25T10:28:26.889+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 27200,
-  "sha256": "bdb0484da82d82fe40b5a864f640c01b3ac0f5200b0409d3e9c14d67c1b438ce",
+  "bytes": 29514,
+  "sha256": "4fe92bcf2263a0d1a02f817b8626f5c5e24cc4ab880838d4d1151d3260e0f6e6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.5",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27200,
+        29514
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

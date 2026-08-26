@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-08-21T22:13:58.260+05:30",
+  "updated": "2026-08-25T10:22:05.716+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 85404,
-  "sha256": "c4c8768b21d3488249a824dbeee5d97a0cf44a6f3749062cb7eb4daca3d923c2",
+  "bytes": 88388,
+  "sha256": "d1cb523305b6b900d30bd612c30d2758a5e1aafc2282f5102b03af96cef61895",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        85404,
+        88388
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
   "slug": "indias-carbon-credit-market-domestic",
   "published": "2026-08-02T21:37:31.000+05:30",
-  "updated": "2026-08-19T11:49:48.632+05:30",
+  "updated": "2026-08-25T10:24:04.171+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 31390,
-  "sha256": "3a71e1ab3737887251c4027a0f90f73d8ac5b1d3be006c83a0106345bcba1daf",
+  "bytes": 33700,
+  "sha256": "8d6055b6b2ad8c73207175857c8ec2da473546d748981cb648e91717fa262458",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.11",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        31390,
+        33700
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

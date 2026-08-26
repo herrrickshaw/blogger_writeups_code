@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-08-19T11:51:37.925+05:30",
+  "updated": "2026-08-25T10:16:40.863+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 40931,
-  "sha256": "75970ec33511375d5f17e9f3577b65806793ee182fbcf093f4eb5d8a9bdcf8a2",
+  "bytes": 44226,
+  "sha256": "2d559a29937c87b0924dfd2358913aac623d4d47abd764faf4f9c58e9d4e9ec2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.8",
+  "version": "6.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -200,6 +200,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        40931,
+        44226
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

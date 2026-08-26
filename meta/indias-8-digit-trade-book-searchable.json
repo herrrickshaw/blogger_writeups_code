@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html",
   "slug": "indias-8-digit-trade-book-searchable",
   "published": "2026-08-23T07:09:47.000+05:30",
-  "updated": "2026-08-23T07:17:28.030+05:30",
+  "updated": "2026-08-25T10:23:43.619+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 29810,
-  "sha256": "ff28bf89ce980a3cb02c44d41c476070e75f5c1ee9dd5589b22f669d62efa314",
+  "bytes": 32786,
+  "sha256": "6cadd5f108e1db20356b8acc2468897a8655cc529afc72cee6dd42dd1a4e8518",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-23T03:32:24+00:00",
       "level": "initial",
       "reason": "first snapshot",
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        29810,
+        32786
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": "scheduled sync"
     }
   ]

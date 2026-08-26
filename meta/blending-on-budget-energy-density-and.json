@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
   "slug": "blending-on-budget-energy-density-and",
   "published": "2026-08-19T12:07:25.000+05:30",
-  "updated": "2026-08-19T12:35:15.976+05:30",
+  "updated": "2026-08-25T10:13:31.494+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 38972,
-  "sha256": "41149f5e253f0832506c9f3896bb261dc306c96115a8f168b4b91eb035f8fd04",
+  "bytes": 42026,
+  "sha256": "09df9d64b945b26bf09550780bc43768df3f04551e17c36b134d38cebd401938",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        38972,
+        42026
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

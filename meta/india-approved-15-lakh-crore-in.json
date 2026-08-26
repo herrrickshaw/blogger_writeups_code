@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
   "slug": "india-approved-15-lakh-crore-in",
   "published": "2026-08-25T06:30:48.000+05:30",
-  "updated": "2026-08-25T06:54:09.256+05:30",
+  "updated": "2026-08-25T10:20:59.107+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 33148,
-  "sha256": "c4a830d54de6e1b4bc7b6b1a6f1e91702bd55e2f057a5ce037cddc9037e6fa4a",
+  "bytes": 36819,
+  "sha256": "c362812d6cd2c84a404d452a078493469ef397f801153ad67ecc7136e5dceb8e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-25T03:28:39+00:00",
       "level": "initial",
       "reason": "first snapshot",
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        33148,
+        36819
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": "scheduled sync"
     }
   ]

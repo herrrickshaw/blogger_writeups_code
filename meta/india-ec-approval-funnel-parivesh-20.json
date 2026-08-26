@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-19T11:51:03.529+05:30",
+  "updated": "2026-08-25T10:21:21.113+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 17128,
-  "sha256": "3f0a6f055adab8c38c3f28ba0d4a7768b24668dd82af1f232a212d68734f1fbc",
+  "bytes": 19791,
+  "sha256": "7290412de1029b57ba6d7e8547074e8ed52a00a1535017f6d2c6dfdb32a20dd0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        17128,
+        19791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

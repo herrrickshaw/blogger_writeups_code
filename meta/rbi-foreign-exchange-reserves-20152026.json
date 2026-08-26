@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-08-21T22:58:38.901+05:30",
+  "updated": "2026-08-25T10:30:09.233+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 50549,
-  "sha256": "c1023636ed0a295237b421cef4f2fda92176c1c4f7aea04eb9d1a455003ede8c",
+  "bytes": 53286,
+  "sha256": "36bff03660598ea4afa5d8d06283deae7397476b1ba907535e352f37ff5f6ba7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -194,6 +194,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        50549,
+        53286
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

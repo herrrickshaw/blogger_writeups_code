@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-19T11:18:53.543+05:30",
+  "updated": "2026-08-25T10:21:44.245+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 22815,
-  "sha256": "cb2c1fa31a4b1f2c59ee5d7cc921f9d69596cde2e400a41e70e53958becdc223",
+  "bytes": 25855,
+  "sha256": "8a4fd4be04f740d6bc4afff11cef3361dc3762ecc743961c9360675b5a6b1c88",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.11",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -182,6 +182,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+7/-0 distinct numbers)",
+      "bytes": [
+        22815,
+        25855
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

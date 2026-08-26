@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
   "slug": "if-india-paid-brics-in-rupees-scenario",
   "published": "2026-08-04T16:05:00.000+05:30",
-  "updated": "2026-08-21T22:56:09.989+05:30",
+  "updated": "2026-08-25T10:20:30.222+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 33653,
-  "sha256": "5d2d6c2453935f5de0fbe28e7d897d7640cf263cda275064d7d609a9598f7b91",
+  "bytes": 37240,
+  "sha256": "9d08df3fe999e70170537efe368e1efa7468bc7a9a678adf659fe9706c236f09",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -191,6 +191,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        33653,
+        37240
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

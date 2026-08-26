@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-08-21T21:05:07.552+05:30",
+  "updated": "2026-08-25T10:31:32.640+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 23579,
-  "sha256": "85ff6dabe12308a70e5a8b1cc6f2bbd0ca310758b480c57607e60b62cdca6350",
+  "bytes": 26636,
+  "sha256": "47f6b72d5e6f1c5ad207e14be81b1a7ef531c6acceda80173e364c6c6e4f398d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        23579,
+        26636
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

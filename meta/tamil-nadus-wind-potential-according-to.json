@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-08-16T15:06:57.038+05:30",
+  "updated": "2026-08-25T10:31:49.512+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 23697,
-  "sha256": "2bf220cc91aa4f1941129d48aa6e8f5bd694d7d929c5fc0c632cd3bb69e33b5b",
+  "bytes": 27489,
+  "sha256": "3592ada40ee410ae77508d329ee8e59372840d21885797b0615a8c0e3a2d1fb0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        23697,
+        27489
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

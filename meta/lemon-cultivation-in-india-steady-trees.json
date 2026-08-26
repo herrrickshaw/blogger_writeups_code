@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
   "slug": "lemon-cultivation-in-india-steady-trees",
   "published": "2026-08-19T06:09:17.000+05:30",
-  "updated": "2026-08-19T11:50:54.163+05:30",
+  "updated": "2026-08-25T10:27:55.598+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 24583,
-  "sha256": "03e4c99034ec2625630c1ef8ab47eddcc83e5ef57dde082c3ae773cfb32fcabc",
+  "bytes": 28095,
+  "sha256": "013b118ba71bc4f44989a1a60c23b085a463ac9e89bc1ff8457965129a270f38",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+8/-0 distinct numbers)",
+      "bytes": [
+        24583,
+        28095
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
