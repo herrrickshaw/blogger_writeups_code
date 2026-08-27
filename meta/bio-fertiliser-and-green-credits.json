@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-08-23T06:33:15.038+05:30",
+  "updated": "2026-08-26T10:23:20.894+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon"
   ],
-  "bytes": 46254,
-  "sha256": "90efb39f50f5ab27a8e0c1eea60786a16ca255f17bb0349aa9d85b612ee1bf65",
+  "bytes": 49190,
+  "sha256": "8931f4ea09e32998a6068d700edbdd96f28d799c00084243a4a21ee581f963d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "bytes": [
         45545,
         46254
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        46254,
+        49190
       ],
       "url_changed": null,
       "markers_changed": null,

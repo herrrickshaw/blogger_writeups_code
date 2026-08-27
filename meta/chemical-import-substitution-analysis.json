@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
   "slug": "chemical-import-substitution-analysis",
   "published": "2026-08-01T09:22:00.000+05:30",
-  "updated": "2026-08-25T10:14:10.267+05:30",
+  "updated": "2026-08-26T12:07:29.964+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 38528,
-  "sha256": "61bcbd823fb6718d97ee62096461dd38ef841ce4b0c50c69b18cdcdeb533c0c8",
+  "bytes": 38573,
+  "sha256": "3532b4298387fb9778b5e1380522c52118f2b8f71ed5d627c4a07009beeeb164",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -214,6 +214,19 @@
       "bytes": [
         34944,
         38528
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-1 distinct numbers)",
+      "bytes": [
+        38528,
+        38573
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-08-23T06:33:22.532+05:30",
+  "updated": "2026-08-26T09:51:45.547+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 46729,
-  "sha256": "37cd121bff38f343b401b3824b418be829dc74204c91e06a60987fe7745ec95a",
+  "bytes": 48839,
+  "sha256": "3192f744bcf8b8686edd111939bb23a19dd96913249af2d9db952035060735a0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -77,6 +77,19 @@
       "bytes": [
         46092,
         46729
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        46729,
+        48839
       ],
       "url_changed": null,
       "markers_changed": null,

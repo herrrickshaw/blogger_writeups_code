@@ -1,15 +1,15 @@
 {
   "id": "141021557520176306",
-  "title": "Quarterly Reportage — 4,082 Scheme Announcements, 2017 to August 2026",
+  "title": "Quarterly Reportage — 4,099 Scheme Announcements, 2017 to August 2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-08-23T06:34:15.852+05:30",
+  "updated": "2026-08-26T11:53:00.385+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 561479,
-  "sha256": "403a6b91d61f09ae87ba591ea559076b4858846f5bfda4119d096210db119954",
+  "bytes": 543498,
+  "sha256": "7ed394f7dcd8d13816e15d317a5e96418977109f1fe8250c7eb13b99eefc8395",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
       "bytes": [
         560690,
         561479
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-4 distinct numbers)",
+      "bytes": [
+        561479,
+        543498
       ],
       "url_changed": null,
       "markers_changed": null,

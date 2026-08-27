@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-08-23T06:32:55.893+05:30",
+  "updated": "2026-08-26T13:37:35.014+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 79503,
-  "sha256": "90b90f72e262374bc5cba34be003e602a494862ba2ca4d1d12d569d032b8359c",
+  "bytes": 87603,
+  "sha256": "41523d75d62cd3911238bf2848ab6bc2e7ae9b759169cf30d6dbe89e93c1c64f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "bytes": [
         78794,
         79503
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        79503,
+        87603
       ],
       "url_changed": null,
       "markers_changed": null,

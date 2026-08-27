@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html",
   "slug": "indias-shrimp-exports-did-not-collapse",
   "published": "2026-08-23T04:44:23.000+05:30",
-  "updated": "2026-08-23T06:59:00.435+05:30",
+  "updated": "2026-08-26T10:23:48.491+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 30613,
-  "sha256": "df886e23787b370ca6013c056d4f28cc0f6a6472391d6f40a922a5d04d25d16c",
+  "bytes": 34051,
+  "sha256": "518048d4ec69ced3f6a990b103d6703b4e865483ded5e0aa75d13035efb7290a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-08-23T03:32:24+00:00",
       "level": "initial",
       "reason": "first snapshot",
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        30613,
+        34051
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": "scheduled sync"
     }
   ]

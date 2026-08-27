@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-08-23T06:33:26.163+05:30",
+  "updated": "2026-08-26T10:58:21.477+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 44922,
-  "sha256": "876403b80851e4114a25443e9ada13916c1f675aa075d4ab3e93c8b466a71f0f",
+  "bytes": 47426,
+  "sha256": "491dc14dcfc896b86aa056a8708c224ba2a2784326efcd0ee4fae3ff8265bc47",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "bytes": [
         43576,
         44922
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44922,
+        47426
       ],
       "url_changed": null,
       "markers_changed": null,

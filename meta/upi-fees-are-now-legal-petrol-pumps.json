@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-08-25T10:36:39.599+05:30",
+  "updated": "2026-08-26T13:37:01.913+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 40882,
-  "sha256": "6506ef8f12a4a50e283cab0af4fd5482d63418a44eac8e45ecc40d9d5fed0967",
+  "bytes": 43532,
+  "sha256": "64c8b80033f10ac49facad10514af62d72ead21b4a39987a6c2f9cb2d8ea36a8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "12.0.0",
+  "version": "13.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -274,6 +274,19 @@
       "bytes": [
         37044,
         40882
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "13.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        40882,
+        43532
       ],
       "url_changed": null,
       "markers_changed": null,

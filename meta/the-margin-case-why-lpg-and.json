@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-08-23T06:33:48.847+05:30",
+  "updated": "2026-08-26T09:51:27.972+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 36810,
-  "sha256": "c991764d55f026ef51f11cdbcb588c428073bbeb6668da699a7214d0b94d79c1",
+  "bytes": 39890,
+  "sha256": "4ca24e5c7eb1ad80a57b2820ea6d0ee59b425246042c268ce33b742aaf8f13c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -143,6 +143,19 @@
       "bytes": [
         36212,
         36810
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        36810,
+        39890
       ],
       "url_changed": null,
       "markers_changed": null,

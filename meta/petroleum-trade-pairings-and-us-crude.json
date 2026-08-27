@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-08-23T06:33:37.296+05:30",
+  "updated": "2026-08-26T13:37:23.629+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 145600,
-  "sha256": "9a8f259d7b15e60e5c4772ccd1afc601db69b005b434c95f9b35f589045def1d",
+  "bytes": 151462,
+  "sha256": "3e8860f69aa573abf09d5d933e6ebdd64aa1d4b66fabfb1445a54369fb4f9683",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "bytes": [
         145002,
         145600
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        145600,
+        151462
       ],
       "url_changed": null,
       "markers_changed": null,

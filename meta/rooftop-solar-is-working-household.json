@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-08-23T06:34:05.642+05:30",
+  "updated": "2026-08-26T10:23:31.709+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 19654,
-  "sha256": "ea1f5ac3f6fe987ceb399cf54767212385a80313fdfabf28ac635b48010e532b",
+  "bytes": 21739,
+  "sha256": "3d56afd41feb71de347620f0db0e2367827b7729dc91f8b902a4efa3d76fd280",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,19 @@
       "bytes": [
         19005,
         19654
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        19654,
+        21739
       ],
       "url_changed": null,
       "markers_changed": null,
