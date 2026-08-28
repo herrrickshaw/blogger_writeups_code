@@ -7828,3 +7828,28 @@ scheduled sync
 - `the-grain-value-loop-integrated-rice` — 78,082 → 86,277 bytes (+8,195)
 - `indias-textile-import-export-strategy` — 46,888 → 52,427 bytes (+5,539)
 - `the-price-of-grain-msp-msv-and` — 39,079 → 41,220 bytes (+2,141)
+
+## 2026-08-28T14:14:42+05:30 — 222 posts live
+
+**Added**
+
+- `the-green-shift-what-indias-oil` **v1.0.0** — The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate (21,659 bytes)
+- `what-seven-model-stock-portfolios-look` **v1.0.0** — What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index (24,098 bytes)
+- `where-indias-captured-carbon-would` **v1.0.0** — Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map (28,353 bytes)
+- `how-india-actually-plans-to-hit-net` **v1.0.0** — How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture (39,453 bytes)
+
+**Versions**
+
+- `the-battery-passport-was-built-for` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+- `indias-coal-to-chemicals-menu-ranked-by` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+7/-0 distinct numbers)
+- `interest-subvention-built-499-ethanol` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+12/-0 distinct numbers)
+- `article-index-start-here` **33.0.0 → 34.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+- `us-stock-picks-multi-screen-quant` **2.0.0 → 2.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `the-battery-passport-was-built-for` — 32,567 → 36,130 bytes (+3,563)
+- `indias-coal-to-chemicals-menu-ranked-by` — 58,642 → 64,531 bytes (+5,889)
+- `interest-subvention-built-499-ethanol` — 28,389 → 35,281 bytes (+6,892)
+- `article-index-start-here` — 280,451 → 290,065 bytes (+9,614); markers ai_disclosure False→True, index_link False→True, translate_widget False→True, typo_unify False→True
+- `us-stock-picks-multi-screen-quant` — 36,250 → 36,578 bytes (+328)

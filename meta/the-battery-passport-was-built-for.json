@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-08-27T09:16:33.909+05:30",
+  "updated": "2026-08-28T07:11:35.730+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 32567,
-  "sha256": "716692b98b1dc18551081f48e1d2dfaffaf0f1747af8c676a2204b1ed111b467",
+  "bytes": 36130,
+  "sha256": "6dd0fc756f3325bcc3505758f936ab0244f93f78e422a2528cfd903910c6fb88",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-28T14:14:42+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        32567,
+        36130
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

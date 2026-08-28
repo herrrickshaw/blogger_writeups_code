@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-27T09:17:33.614+05:30",
+  "updated": "2026-08-28T13:38:43.682+05:30",
   "labels": [],
-  "bytes": 280451,
-  "sha256": "c80c60c689980b06aa961bf85b99b6a0053c6e79869fabedcd02091d9601b148",
+  "bytes": 290065,
+  "sha256": "8acf1c3a1868e73538d15299c653214ae15f6118d03504bf8a8dba6f14ba0153",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
-    "typo_unify": false,
-    "translate_widget": false,
-    "index_link": false,
-    "ai_disclosure": false,
+    "typo_unify": true,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "33.0.0",
+  "version": "34.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1279,6 +1279,36 @@
         ]
       },
       "note": "scheduled sync"
+    },
+    {
+      "version": "34.0.0",
+      "date": "2026-08-28T14:14:42+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        280451,
+        290065
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          false,
+          true
+        ],
+        "translate_widget": [
+          false,
+          true
+        ],
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": ""
     }
   ]
 }
