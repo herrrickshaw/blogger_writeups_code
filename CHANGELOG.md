@@ -7875,3 +7875,16 @@ Publish: EU ETS vs Sulphur Directive vs FuelEU Maritime vs green corridors
 **Added**
 
 - `three-different-eu-rules-are-making` **v1.0.0** — Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS (27,638 bytes)
+
+## 2026-08-28T14:35:17+05:30 — 223 posts live
+
+rebuild+republish article index after EU ETS/green corridors post
+
+
+**Versions**
+
+- `article-index-start-here` **34.0.0 → 35.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 290,065 → 290,669 bytes (+604)

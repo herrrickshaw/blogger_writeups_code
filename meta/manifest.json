@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-28T14:34:38+05:30",
+  "snapshot": "2026-08-28T14:35:17+05:30",
   "count": 223,
   "posts": {
     "1058853159205559121": {
@@ -21662,10 +21662,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-28T13:38:43.682+05:30",
+      "updated": "2026-08-28T14:34:56.981+05:30",
       "labels": [],
-      "bytes": 290065,
-      "sha256": "8acf1c3a1868e73538d15299c653214ae15f6118d03504bf8a8dba6f14ba0153",
+      "bytes": 290669,
+      "sha256": "a3081fe7c6b4f254d840277b92c45f9f889629cb2959445a34bae8a41ef45249",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21677,7 +21677,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "34.0.0",
+      "version": "35.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22967,6 +22967,19 @@
             ]
           },
           "note": ""
+        },
+        {
+          "version": "35.0.0",
+          "date": "2026-08-28T14:35:17+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-2 distinct numbers)",
+          "bytes": [
+            290065,
+            290669
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "rebuild+republish article index after EU ETS/green corridors post"
         }
       ]
     },
