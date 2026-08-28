@@ -7897,3 +7897,16 @@ Publish: Sugarcane's Third Claimant — bagasse/cane-juice-to-PLA, Balrampur Chi
 **Added**
 
 - `sugarcanes-third-claimant-whats` **v1.0.0** — Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant (22,945 bytes)
+
+## 2026-08-28T21:10:10+05:30 — 224 posts live
+
+rebuild+republish article index after PLA/bagasse post
+
+
+**Versions**
+
+- `article-index-start-here` **35.0.0 → 36.0.0** (MAJOR) — figures changed (+3/-3 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 290,669 → 291,551 bytes (+882)
