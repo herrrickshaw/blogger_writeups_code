@@ -7888,3 +7888,12 @@ rebuild+republish article index after EU ETS/green corridors post
 **Changed**
 
 - `article-index-start-here` — 290,065 → 290,669 bytes (+604)
+
+## 2026-08-28T21:09:18+05:30 — 224 posts live
+
+Publish: Sugarcane's Third Claimant — bagasse/cane-juice-to-PLA, Balrampur Chini, import-substitution case
+
+
+**Added**
+
+- `sugarcanes-third-claimant-whats` **v1.0.0** — Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant (22,945 bytes)
