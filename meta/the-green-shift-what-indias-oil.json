@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.586+05:30",
-  "updated": "2026-08-28T13:37:32.239+05:30",
+  "updated": "2026-08-28T14:24:33.389+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 21659,
-  "sha256": "5653ec5348e9fdcd15ac1f7a285221586d6234904b2336fee5b4f4332ea9ec95",
+  "bytes": 24257,
+  "sha256": "4b47aea266889d8e47183f4fb8b5cc665b83c9037dd3b2563b7a35dcd3e1446e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-28T14:25:29+05:30",
+      "level": "major",
+      "reason": "figures changed (+21/-0 distinct numbers)",
+      "bytes": [
+        21659,
+        24257
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add Indian PSU (ONGC/IOCL/BPCL/HPCL/GAIL/OIL) net-zero commitments table to Green Shift post"
     }
   ]
 }

@@ -7853,3 +7853,16 @@ scheduled sync
 - `interest-subvention-built-499-ethanol` — 28,389 → 35,281 bytes (+6,892)
 - `article-index-start-here` — 280,451 → 290,065 bytes (+9,614); markers ai_disclosure False→True, index_link False→True, translate_widget False→True, typo_unify False→True
 - `us-stock-picks-multi-screen-quant` — 36,250 → 36,578 bytes (+328)
+
+## 2026-08-28T14:25:29+05:30 — 222 posts live
+
+add Indian PSU (ONGC/IOCL/BPCL/HPCL/GAIL/OIL) net-zero commitments table to Green Shift post
+
+
+**Versions**
+
+- `the-green-shift-what-indias-oil` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+21/-0 distinct numbers)
+
+**Changed**
+
+- `the-green-shift-what-indias-oil` — 21,659 → 24,257 bytes (+2,598)
