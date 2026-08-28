@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-28T21:10:10+05:30",
+  "snapshot": "2026-08-28T21:15:34+05:30",
   "count": 224,
   "posts": {
     "1058853159205559121": {
@@ -1681,14 +1681,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
       "slug": "sugarcanes-third-claimant-whats",
       "published": "2026-08-28T21:08:06.993+05:30",
-      "updated": "2026-08-28T21:08:20.120+05:30",
+      "updated": "2026-08-28T21:14:36.246+05:30",
       "labels": [
         "Chemicals",
         "Circularity & Waste-to-Value",
         "Ethanol & Biofuels"
       ],
-      "bytes": 22945,
-      "sha256": "9b11cb4b326775046fb26fa276821100fb3a9435b87d6bcf06ac663051b6120e",
+      "bytes": 26089,
+      "sha256": "deb060bc95d7b6fa7587a7265f0d6c2065deeb42f9fa07d82e801945b7fe84cc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1700,7 +1700,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1708,6 +1708,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish: Sugarcane's Third Claimant — bagasse/cane-juice-to-PLA, Balrampur Chini, import-substitution case"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-28T21:15:34+05:30",
+          "level": "major",
+          "reason": "figures changed (+11/-1 distinct numbers)",
+          "bytes": [
+            22945,
+            26089
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Update: BCML Q1FY27 investor-presentation figures (capex, timeline, progress), no-other-mill finding"
         }
       ]
     },

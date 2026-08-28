@@ -7910,3 +7910,16 @@ rebuild+republish article index after PLA/bagasse post
 **Changed**
 
 - `article-index-start-here` — 290,669 → 291,551 bytes (+882)
+
+## 2026-08-28T21:15:34+05:30 — 224 posts live
+
+Update: BCML Q1FY27 investor-presentation figures (capex, timeline, progress), no-other-mill finding
+
+
+**Versions**
+
+- `sugarcanes-third-claimant-whats` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+11/-1 distinct numbers)
+
+**Changed**
+
+- `sugarcanes-third-claimant-whats` — 22,945 → 26,089 bytes (+3,144)
