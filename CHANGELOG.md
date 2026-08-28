@@ -7866,3 +7866,12 @@ add Indian PSU (ONGC/IOCL/BPCL/HPCL/GAIL/OIL) net-zero commitments table to Gree
 **Changed**
 
 - `the-green-shift-what-indias-oil` — 21,659 → 24,257 bytes (+2,598)
+
+## 2026-08-28T14:34:38+05:30 — 223 posts live
+
+Publish: EU ETS vs Sulphur Directive vs FuelEU Maritime vs green corridors
+
+
+**Added**
+
+- `three-different-eu-rules-are-making` **v1.0.0** — Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS (27,638 bytes)
