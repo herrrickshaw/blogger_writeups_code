@@ -7971,3 +7971,12 @@ rebuild+republish article index after JJM rural water pipeline post
 **Changed**
 
 - `article-index-start-here` — 291,551 → 291,869 bytes (+318)
+
+## 2026-08-29T12:47:40+05:30 — 226 posts live
+
+Publish: AMRUT's ₹1.97 Lakh Crore Urban Portfolio — state-wise count/cost by component
+
+
+**Added**
+
+- `amruts-197-lakh-crore-urban-portfolio` **v1.0.0** — AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money (23,003 bytes)
