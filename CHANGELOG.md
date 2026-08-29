@@ -7993,3 +7993,16 @@ rebuild+republish article index after AMRUT urban portfolio post
 **Changed**
 
 - `article-index-start-here` — 291,869 → 292,181 bytes (+312)
+
+## 2026-08-29T12:55:07+05:30 — 226 posts live
+
+Cross-link: JJM rural water post now links back to AMRUT urban portfolio post
+
+
+**Versions**
+
+- `indias-79-lakh-crore-rural-water` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+
+**Changed**
+
+- `indias-79-lakh-crore-rural-water` — 24,465 → 25,051 bytes (+586)

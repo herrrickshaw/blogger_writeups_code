@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-29T12:48:29+05:30",
+  "snapshot": "2026-08-29T12:55:07+05:30",
   "count": 226,
   "posts": {
     "1058853159205559121": {
@@ -34767,13 +34767,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
       "slug": "indias-79-lakh-crore-rural-water",
       "published": "2026-08-29T12:08:35.775+05:30",
-      "updated": "2026-08-29T12:08:48.987+05:30",
+      "updated": "2026-08-29T12:54:44.791+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment"
       ],
-      "bytes": 24465,
-      "sha256": "8d3bd961d6ed943c2c20ddd7861c8406caff8ae97b6d9fc91067e26611753ee2",
+      "bytes": 25051,
+      "sha256": "0ad0c31e21ec18dce11313affdc315b7ebd66471a3bd49e778053107ad01917e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34785,7 +34785,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34793,6 +34793,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish: India's Rural Water Pipeline — state-wise JJM scheme status, ₹7.9 lakh crore upcoming"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-08-29T12:55:07+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-0 distinct numbers)",
+          "bytes": [
+            24465,
+            25051
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Cross-link: JJM rural water post now links back to AMRUT urban portfolio post"
         }
       ]
     },
