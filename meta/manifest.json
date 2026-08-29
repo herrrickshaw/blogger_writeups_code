@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-29T05:53:00+05:30",
+  "snapshot": "2026-08-29T06:04:20+05:30",
   "count": 224,
   "posts": {
     "1058853159205559121": {
@@ -1681,14 +1681,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
       "slug": "sugarcanes-third-claimant-whats",
       "published": "2026-08-28T21:08:06.993+05:30",
-      "updated": "2026-08-29T05:52:22.842+05:30",
+      "updated": "2026-08-29T06:02:33.901+05:30",
       "labels": [
         "Chemicals",
         "Circularity & Waste-to-Value",
         "Ethanol & Biofuels"
       ],
-      "bytes": 31058,
-      "sha256": "61feac071471a128f53b95faa5d6ab40a6348844b4057c74554934fb8485006b",
+      "bytes": 34650,
+      "sha256": "573b9f5a74f76f2d0644a6e24b7359b74a7a8ab4290f5beab931fa02e1463230",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1700,7 +1700,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1734,6 +1734,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add: PSA-chaired paan masala/gutkha PLA policy track (PIB 2217328), CPCB compostable-plastic certification pathway, TGP Bioplastics/UKHI"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-08-29T06:04:20+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-0 distinct numbers)",
+          "bytes": [
+            31058,
+            34650
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "MAJOR CORRECTION: FSSAI's Aug 2026 packaging ban (Gazette 10 Aug) excludes polyester/synthetic polymers from pan masala packaging — PLA is chemically a polyester, likely closing the pan-masala addressable-market thesis"
         }
       ]
     },

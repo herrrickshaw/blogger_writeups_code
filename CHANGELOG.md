@@ -7936,3 +7936,16 @@ Add: PSA-chaired paan masala/gutkha PLA policy track (PIB 2217328), CPCB compost
 **Changed**
 
 - `sugarcanes-third-claimant-whats` — 26,089 → 31,058 bytes (+4,969)
+
+## 2026-08-29T06:04:20+05:30 — 224 posts live
+
+MAJOR CORRECTION: FSSAI's Aug 2026 packaging ban (Gazette 10 Aug) excludes polyester/synthetic polymers from pan masala packaging — PLA is chemically a polyester, likely closing the pan-masala addressable-market thesis
+
+
+**Versions**
+
+- `sugarcanes-third-claimant-whats` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `sugarcanes-third-claimant-whats` — 31,058 → 34,650 bytes (+3,592)
