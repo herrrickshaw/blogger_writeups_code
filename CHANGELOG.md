@@ -7980,3 +7980,16 @@ Publish: AMRUT's ₹1.97 Lakh Crore Urban Portfolio — state-wise count/cost by
 **Added**
 
 - `amruts-197-lakh-crore-urban-portfolio` **v1.0.0** — AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money (23,003 bytes)
+
+## 2026-08-29T12:48:29+05:30 — 226 posts live
+
+rebuild+republish article index after AMRUT urban portfolio post
+
+
+**Versions**
+
+- `article-index-start-here` **37.0.0 → 38.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 291,869 → 292,181 bytes (+312)

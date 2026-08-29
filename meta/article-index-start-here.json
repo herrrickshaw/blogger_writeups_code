@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-29T12:16:02.972+05:30",
+  "updated": "2026-08-29T12:48:06.081+05:30",
   "labels": [],
-  "bytes": 291869,
-  "sha256": "88d75fcf35cabb61c60eb6920ac61b092e71ebb37e4fd5383e31996b40c453f3",
+  "bytes": 292181,
+  "sha256": "89d9e28ad620e157338e5315d47ea6b91ae0de2eacafb7ad1dbd838aaa91a129",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "37.0.0",
+  "version": "38.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1348,6 +1348,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "rebuild+republish article index after JJM rural water pipeline post"
+    },
+    {
+      "version": "38.0.0",
+      "date": "2026-08-29T12:48:29+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        291869,
+        292181
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "rebuild+republish article index after AMRUT urban portfolio post"
     }
   ]
 }
