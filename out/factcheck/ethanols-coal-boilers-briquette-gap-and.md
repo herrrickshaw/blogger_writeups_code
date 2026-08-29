@@ -9,23 +9,23 @@ Source: `posts/ethanols-coal-boilers-briquette-gap-and.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+[Gemini network error: Remote end closed connection without response]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India already runs a coal-to-biomass mandate that's the direct precedent for fixing that — and it's currently short by 12–17 million tonnes of biomass pellets a year, penalties and all." — The claim conflates the coal-to-biomass mandate (which is a biomass co-firing mandate for thermal power plants) with a mandate for distilleries. The biomass co-firing mandate applies to thermal power plants, not distilleries, and there is no evidence in the article or cited sources that a coal-to-biomass mandate exists for distilleries. [confidence: high]
+- "India already runs a coal-to-biomass mandate that's the direct precedent for fixing that — and it's currently short by 12–17 million tonnes of biomass pellets a year, penalties and all." — The article conflates the coal-to-biomass mandate (biomass co-firing in thermal power plants) with a mandate for distilleries. The coal-to-biomass mandate applies to thermal power plants, not distilleries, as explicitly stated later in the article. [confidence: high]
+
+- "ADM's Illinois Industrial Carbon Capture and Storage project at its Decatur ethanol plant — the first commercial-scale CCS deployment at any ethanol facility, storing CO₂ over 2 km deep in the Mount Simon Sandstone formation — was built and permitted against a stated target of storing over 1 million tonnes of CO₂ a year. Since operations began in 2017, EPA-reported figures show the project actually storing roughly 428,580 to 525,002 tonnes a year — consistently under half its stated target, cumulatively exceeding 3.5 million tonnes stored by 2022." — The cumulative storage figure of "3.5 million tonnes by 2022" is incorrect. The article cites EPA-reported annual storage figures (428,580–525,002 tonnes/year) but does not provide a verified cumulative total. The 3.5 million tonnes figure appears to be an extrapolation or misinterpretation of the annual data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The direct analogue the original question points to is real and already running. The Ministry of Power's revised biomass policy, issued 16 June 2023, mandates 5% biomass co-firing (agri-residue pellets blended with coal) in coal-based thermal power plants from FY 2024-25, rising to 7% from FY 2025-26 — administered through the SAMARTH Mission." — While the biomass co-firing mandate for thermal power plants is a real policy, the article incorrectly implies that this mandate is a direct precedent for extending similar requirements to distilleries. The mandate applies to thermal power plants, not distilleries, and there is no evidence that it is intended or designed to serve as a model for distillery boiler fuel switching. The reasoning gap is that the policy context and target entities are fundamentally different, making the analogy misleading. [confidence: high]
+- "India's biomass-pellet output covers roughly a tenth of what the coal co-firing mandate requires — a 12–17 million tonne annual gap." — The article correctly quantifies the supply gap (12–17 million tonnes) but then implies this gap is a direct opportunity for distilleries to switch from coal to biomass without addressing whether the existing supply chain (e.g., logistics, aggregation machinery) can realistically meet distillery demand. The supply gap is framed as an "opportunity" without acknowledging that distilleries may face the same aggregation and procurement challenges as thermal power plants. [confidence: high]
+
+- "A distillery that does switch its boiler from coal to biomass has an existing route to monetise that switch as a carbon credit." — While the BM IN02.001 methodology exists for non-obligated entities like distilleries, the article does not address whether the carbon credit revenue would be sufficient to offset the higher cost of biomass pellets compared to coal, especially given the supply gap and potential price volatility. The claim assumes monetization is feasible without analyzing the economic viability of the switch. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

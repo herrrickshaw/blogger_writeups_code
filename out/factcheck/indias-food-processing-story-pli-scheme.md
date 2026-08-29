@@ -16,18 +16,19 @@ Source: `posts/indias-food-processing-story-pli-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "3.39L Jobs created under the food-processing PLI scheme, against a 2.5 lakh target" — The article claims 3.39 lakh jobs were created against a 2.5 lakh target, but the table later states the target was for 2026 (implying a deadline), while the jobs figure is as of June 2026. However, the target is not explicitly dated in the claim, and the jobs figure (3.39 lakh) exceeds the target (2.5 lakh), which is correct. No factual error found here. [confidence: high]
-- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure as widely cited but does not provide a primary source or methodology. Without verification from NABARD or MoFPI, this cannot be confirmed as accurate. [confidence: medium]
+- "3.39L Jobs created (June 2026)" — The article claims 3.39 lakh jobs were created by June 2026, but the scheme's target was for 2026-27 (not June 2026). The target year is fiscal 2026-27, not mid-year, making the claim misleading about timing. [confidence: high]
+
+- "₹92,651cr Estimated annual loss from inadequate cold storage and supply-chain gaps" — The article cites this figure without a primary source or methodology. While widely cited, it cannot be verified against a specific NABARD or MoFPI study with stated methods, as acknowledged in the article itself. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's food processing PLI scheme has created more jobs than it promised, ahead of its 2026-27 deadline." — The claim implies causation between the PLI scheme and job creation, but the article does not establish a direct link. The jobs figure could include indirect effects or pre-existing trends. [confidence: high]
-- "The structural shift is the more interesting number: processed food's share of India's total agricultural exports has risen from 13.7% to 20.4% over the last decade — the country is exporting less raw commodity and more value-added product than it did ten years ago." — While the share increase is correct, the conclusion that this represents a structural shift toward value-added exports is an overgeneralization. Rice (a raw commodity) remains the largest agricultural export by value, as noted later in the article. [confidence: high]
+- "30% Share of India's fruit and vegetable output that spoils before reaching consumers" — While the 30% spoilage figure may be correct, the article implies this is solely due to a lack of cold storage, ignoring other potential causes (e.g., poor logistics, handling practices, or market inefficiencies). The claim oversimplifies the problem by attributing spoilage exclusively to cold-chain gaps. [confidence: medium]
+
+- "Under PMKSY, 399 cold-chain projects have been approved to date. Against a stated annual loss of ₹92,651 crore and a 3.5-million-tonne capacity gap, a single year's PMKSY allocation of ₹915 crore is not sized to close it — it is sized to keep adding to it more slowly than the sector is growing around it." — The article correctly notes the scale of the cold-chain gap but incorrectly implies that the ₹915 crore PMKSY allocation is the *only* funding addressing the issue. The budget also includes other allocations (e.g., PLISFPI, PMFME) that may indirectly support cold-chain improvements, and the claim ignores potential synergies between schemes. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

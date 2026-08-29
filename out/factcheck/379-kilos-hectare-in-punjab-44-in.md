@@ -9,27 +9,30 @@ Source: `posts/379-kilos-hectare-in-punjab-44-in.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India sold 396.6 lakh tonnes of urea in 2025-26" — This is incorrect as the article later states that India sold 396.6 lakh tonnes of urea in 2025-26, but the sales data provided in the article is for 2023-24 (357.81 lakh tonnes), 2024-25 (387.92 lakh tonnes), and 2025-26 (396.60 lakh tonnes). The initial claim is a repetition of the 2025-26 figure and not an error in itself, but the context implies it is a standalone claim for 2025-26 without reference to prior years, which could be misleading. [confidence: high]
+- "India sold 396.6 lakh tonnes of urea in 2025-26" — The article cites Department of Fertilizers data showing urea sales of 357.81 lakh tonnes in 2023-24, 387.92 in 2024-25, and 396.60 in 2025-26. However, the opening sentence incorrectly states "2025-26" as the year for the 396.6 lakh tonnes figure, which actually corresponds to the 2025-26 sales year (not the publication date). The claim is technically correct in context but misleadingly phrased as if it were a future projection. [confidence: high]
 
-- "The Economic Survey 2025-26 tracks the applied ratio from 4:3.2:1 in 2009-10, close to the benchmark, to 7:2.8:1 by 2019-20 and about 10.9:4.1:1 by 2023-24" — The ratios provided (7:2.8:1 and 10.9:4.1:1) are not explicitly verified in the cited sources within the article text. While the trend of increasing nitrogen imbalance is plausible, the exact ratios are not confirmed in the provided references. [confidence: medium]
+- "The Economic Survey 2025-26 tracks the applied ratio from 4:3.2:1 in 2009-10, close to the benchmark, to 7:2.8:1 by 2019-20 and about 10.9:4.1:1 by 2023-24" — The Economic Survey 2025-26 (published January 2026) would not have data for 2025-26 (a future year at the time of publication). The ratio for 2025-26 is likely estimated or projected, but the article does not clarify this. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The pattern in one line: urea intensity across Indian states tracks cropping pattern almost perfectly — paddy-and-wheat states sit at two to three times the rate of pulse, oilseed and coarse-cereal states — which is also why the famous 4:2:1 fertiliser norm fits only the north-west, the region whose crops it was derived from." — While the claim that urea intensity tracks cropping patterns is supported by the data, the conclusion that the 4:2:1 norm "fits only the north-west" is an overgeneralization. The 4:2:1 norm was historically derived from agronomic trials in the north-west, but the article later acknowledges that the crop-derived national norm is closer to 2.6:1.4:1, implying that the 4:2:1 norm is outdated for most of India. The claim oversimplifies the applicability of the norm by suggesting it is only valid in the north-west, without addressing whether it could be adjusted or replaced by a more accurate national norm. [confidence: high]
+- "The pattern in one line: urea intensity across Indian states tracks cropping pattern almost perfectly — paddy-and-wheat states sit at two to three times the rate of pulse, oilseed and coarse-cereal states — which is also why the famous 4:2:1 fertiliser norm fits only the north-west, the region whose crops it was derived from." — While the claim that urea intensity correlates with cropping patterns is supported by data, the conclusion that this *alone* explains why the 4:2:1 norm fits only the north-west is an oversimplification. The 4:2:1 norm was derived from agronomic trials in the north-west, but its applicability is also constrained by other factors like soil conditions, irrigation, and historical policy design. The article does not adequately address these additional factors. [confidence: high]
 
-- "Substituting a quarter of the nitrogen on Punjab’s 379 kg of urea a hectare still leaves it near 285 — well above the recommended dose for either crop in its rotation." — The claim assumes that substituting 25% of nitrogen with organic manure would reduce Punjab's urea application to 285 kg/ha, but this is an apples-to-oranges comparison. The recommended dose for wheat or paddy in Punjab is not explicitly stated in the article, and the 285 kg/ha figure is derived from a hypothetical calculation rather than measured data. Additionally, the article notes that organic manure is not a direct substitute for urea in terms of nitrogen delivery, as it requires mineralization time and does not provide immediate nitrogen availability. The reasoning gap lies in equating a theoretical substitution with actual agronomic outcomes. [confidence: high]
+- "Substituting a quarter of the nitrogen on Punjab’s 379 kg of urea a hectare still leaves it near 285 — well above the recommended dose for either crop in its rotation." — The article correctly notes that Punjab's urea intensity (379 kg/ha) far exceeds recommended doses (e.g., 130 kg/ha for irrigated kharif paddy and 174 kg/ha for rabi rice). However, it does not account for the fact that Punjab practices double-cropping (e.g., wheat-paddy rotations), meaning the 379 kg/ha figure is an *annual* total across two crops, not a per-crop dose. The comparison to single-crop recommended doses is apples-to-oranges. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

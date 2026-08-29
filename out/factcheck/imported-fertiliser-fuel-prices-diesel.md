@@ -9,27 +9,30 @@ Source: `posts/imported-fertiliser-fuel-prices-diesel.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a longer period (e.g., 2012–2025 or beyond). The claim that it "only covers 2011–2025" is incorrect, as the base year does not define the coverage period. [confidence: high]
+- "WPI is published by DPIIT, not MoSPI." — This is incorrect. The Wholesale Price Index (WPI) is published by the Office of the Economic Adviser (OEA), DPIIT, Ministry of Commerce & Industry, while the Consumer Price Index (CPI) is published by MoSPI. The article incorrectly attributes WPI's publication to DPIIT alone, ignoring the OEA's role. [confidence: high]
 
-- "WPI series use the April value of each year as an annual anchor (FY2012 = April 2012, etc.) rather than a full monthly series or FY average" — While the article states this, the WPI (base 2011-12) series is typically published as monthly averages, not just April values. The claim misrepresents the standard publication format of WPI. [confidence: high]
+- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a broader timeframe (e.g., 2012–2025 or beyond). The claim that it "only covers 2011–2025" is misleading, as the base year refers to the reference period for the index, not its coverage. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Diesel passes straight through to WPI. Fertiliser mostly doesn't — because subsidy absorbs it." — The article correctly notes that diesel has a high pass-through to WPI due to its inclusion in the WPI fuel basket, but the phrasing implies a causal relationship where the mechanical inclusion (not pass-through) is the primary driver. The subsidy explanation for fertilizers is accurate, but the framing oversimplifies the distinction between mechanical inclusion and economic pass-through. [confidence: high]
+- "Diesel moves almost 1:1 with WPI (r = 0.92); subsidy insulates urea, only partly shields DAP" — The article correctly notes that diesel's high correlation with WPI is partly mechanical (since diesel is a component of the WPI fuel basket), but then uses this to imply a causal relationship. The correlation does not establish that diesel *causes* WPI inflation; rather, it reflects accounting overlap. The reasoning gap is conflating correlation with causation. [confidence: high]
 
-- "The one strong number here — diesel vs. WPI headline, r = 0.92 — is closer to a mechanical fact than a discovery, since HSD is itself inside the WPI fuel basket." — While the article acknowledges the mechanical relationship, it does not adequately address that the high correlation is still a valid observation about the sensitivity of WPI to diesel prices, even if it is not a pure "pass-through" effect. The interpretation risks dismissing the correlation as uninformative without clarifying its relevance to policy or analysis. [confidence: medium]
+- "the subsidy regime holds the retail/wholesale price down almost regardless of what happens at the border" — While the article acknowledges that urea prices are insulated by subsidies, it does not adequately address the lag in subsidy disbursement or the fact that global price shocks may still affect farmers' costs before subsidies are adjusted. The claim oversimplifies the transmission mechanism by ignoring timing and administrative lags. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,20 +16,19 @@ Source: `posts/indias-trade-story-has-three-big-wins.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0 · Economic Survey 2025-26" — The Economic Survey 2025-26 would not be published in August 2026, as India's fiscal year ends on 31 March, and the survey is typically released in late January or early February of the following calendar year. [confidence: high]
+- "India-EU Free Trade Agreement, concluded 27 January 2026" — The India-EU FTA was not concluded by this date; negotiations are ongoing as of mid-2024, and no agreement has been finalized. [confidence: high]
 
-- "India-EU Free Trade Agreement, concluded 27 January 2026" — As of the current date (June 2025), no India-EU FTA has been concluded. The negotiations are ongoing, and the earliest plausible conclusion would be in 2025 or later, not 2026. [confidence: high]
+- "Services exports alone reached an all-time high of US$387.5 billion, up 13.6% year-on-year" — The Economic Survey 2025-26 (the cited source) does not provide a year-on-year growth rate for services exports in the article text. The 13.6% figure is not supported by the quoted source. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme may have attracted more investment than its approved outlay, this does not necessarily imply success in achieving its intended goals (e.g., export growth, job creation). The article does not provide evidence linking the overshooting of investment targets to proportional gains in exports or employment. [confidence: medium]
+- "The PLI scheme has attracted 26% more investment than its own approved outlay — ₹2.40 lakh crore against ₹1.91 lakh crore" — While the PLI scheme overshot its investment target, the article implies this is a direct measure of success without addressing whether the additional investment was cost-effective or aligned with actual export growth. The 26% figure does not establish that the scheme's economic impact justified the overshoot. [confidence: high]
 
-- "Whether that is a genuine policy gap or simply a reflection of services already being globally competitive without needing the same subsidy architecture is a judgement this article does not make — it only surfaces that the asymmetry exists." — The article highlights a mismatch between policy focus (goods) and export growth (services) but does not examine whether existing services-export policies (e.g., SEIS, MEIS, or other schemes) are inadequate or if services are naturally competitive. This leaves the interpretation incomplete. [confidence: medium]
+- "in H1 FY26, combined goods-and-services exports grew 5.9% per the source figure... but that headline number is doing a lot of work to smooth over a real divergence" — The article criticizes the 5.9% blended growth figure for masking the divergence between merchandise (2.4%) and services (6.5%) exports but does not provide evidence that the divergence is problematic or that policies should address it. The interpretation assumes a policy gap without demonstrating its necessity or effectiveness. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

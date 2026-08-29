@@ -16,20 +16,19 @@ Source: `posts/indias-wholesale-prices-next-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Brazil’s producer inflation in 2021 — the highest peak of the six, tied with the US for earliest" — The claim that Brazil's 2021 producer inflation was tied with the US for the earliest peak is incorrect. The US PPI peaked in 2021 (as shown in the table), but Brazil's producer inflation peaked in 2020 (+11.1%) and again in 2021 (+31.6%), making it the earliest peak by a year. [confidence: high]
+- "India’s consumer inflation has quietly become one of the lowest in the G20." — This claim is not verifiable as a factual statement because the article does not provide a complete G20 comparison for consumer inflation in 2025 or 2026. The Exhibit 2 table includes only a subset of G20 economies and omits major ones like Russia and Türkiye, making the claim unverifiable. [confidence: high]
 
-- "India’s five-year cumulative consumer total rises from 25.2% to 27.4%" — The article states this as a correction, but the original claim of 25.2% is not verifiable in the provided text or context. The correction itself implies a change, but the initial figure lacks a clear source or justification in the article. [confidence: medium]
+- "+27.4% Total rise in Indian consumer prices over the five years to 2025" — The article later corrects this figure to "+27.4%" in Exhibit 3, but the initial mention in the text (before the correction note) states "+25.2%" as the five-year cumulative rise. This inconsistency suggests a factual error in the initial claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India’s consumer inflation has quietly become one of the lowest in the G20" — This claim is supported by Exhibit 2, which shows India's 2025 consumer inflation at 2.4%, below several G20 economies. However, the article does not account for the fact that Argentina's inflation (53.5% in 2019, rising to 219.9% in 2024) skews the G20 comparison. Excluding Argentina, India's 2025 inflation is not uniquely low but is indeed below many peers. The interpretation is technically correct but misleading without explicit exclusion of Argentina. [confidence: high]
+- "The 2026 producer-price turn: US hardest, not India" — The article claims that the United States turned hardest in producer-price inflation in 2026, based on Exhibit 4 data. However, the claim that this turn is "not an Indian phenomenon" is an overgeneralization. While the US and India both show high producer-price inflation in April 2026, the article does not adequately explain why India's turn is not considered significant or unique, given that India's WPI is structurally different (includes imports, excludes services) and its inflation dynamics may not be directly comparable to the US PPI. The reasoning gap lies in conflating different measurement methodologies without sufficient justification for why the US turn is more "universal" or harder. [confidence: medium]
 
-- "The 2022 wholesale spike was not an Indian policy failure. It was smaller than the euro area’s and arrived at roughly the same time as everyone else’s." — While the claim about the timing and magnitude is factually supported by Exhibit 1, the conclusion that it was "not an Indian policy failure" is an overreach. The article does not provide evidence to rule out domestic policy factors (e.g., fuel taxes, supply-side interventions) that may have amplified or mitigated the global shock in India. The causal claim about policy failure is not justified by the data presented. [confidence: high]
+- "So the synchronised turn is real but it is not universal, and the exception is instructive: it appears exactly where a large currency move sits on top of the commodity cycle." — The article attributes Brazil's deviation in producer-price inflation to a currency collapse and China's to weak demand. However, it does not provide sufficient evidence or analysis to support the claim that these deviations are *solely* due to these factors. For example, Brazil's producer-price index may also reflect domestic supply shocks or policy changes, and China's low inflation could be influenced by structural factors beyond demand. The reasoning gap is that the article assumes a direct causal link without ruling out other potential drivers. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

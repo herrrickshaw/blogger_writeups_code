@@ -16,20 +16,19 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source material (CSE policy brief) specifies that the 90% recovery rate is required by 2026-27, while the 70% rate applies to 2024-25. The phrasing implies the 90% target is new for 2026-27, but it is actually an escalation from the 70% target. [confidence: high]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source (CSE policy brief, 2026) specifies that the 90% recovery rate is required by 2026-27 **up from 70% in 2024-25**, implying the 90% target is for a later year (likely 2027-28 or beyond). The phrasing suggests it is a new 2026-27 target, which is misleading. [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article states this incentive was "Cabinet-approved" in September 2025, but the CSE policy brief describes it as "approved" without specifying the approval body (Cabinet vs. another authority). The claim conflates approval with implementation or disbursement. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article implies the ₹1,500 crore incentive was approved in September 2025, but the CSE policy brief (2026) describes it as a "Cabinet-approved" program without specifying the exact approval date. The September 2025 date is not verified in the cited sources. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The replacement framework enforces a strict hierarchy — reuse offsets every downstream obligation, recycling offsets recycling and EOL disposal, but EOL disposal can no longer offset reuse or recycling — and certificates must now match the specific waste category they claim to satisfy, with no cross-category substitution once FY2025-26 closes." — The article implies that the strict hierarchy and category-specific certificates will effectively close the loophole, but it does not address whether enforcement mechanisms (e.g., audits, penalties) are robust enough to ensure compliance. The claim assumes specificity in rules translates to enforcement, which is not substantiated. [confidence: high]
+- "That closes a real loophole: an EOL certificate let a producer technically satisfy its EPR target without any material actually being recycled." — While the claim about the loophole is correct, the article does not provide evidence that the closure of this loophole has had any measurable impact on actual recycling rates or producer behavior. The statement assumes the rule change will effectively address the issue, but the article itself notes that compliance data post-dating the rule is not yet available. [confidence: high]
 
-- "A 2026 Centre for Science and Environment policy brief on EV battery recycling... documents specific structural gaps a compliance rulebook does not by itself close: an EPR pricing mechanism industry participants dispute as poorly calibrated..." — The article attributes the lack of enforcement solely to the "rulebook" not addressing structural gaps, but it does not consider whether the EPR pricing mechanism's calibration (or lack thereof) is a systemic issue requiring broader policy intervention beyond the rulebook. The interpretation oversimplifies the cause of enforcement gaps. [confidence: medium]
+- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this fact to imply that second-use applications (e.g., stationary storage) are a critical part of the EPR framework, but it does not establish that the EPR rules explicitly require or incentivize such second-use pathways. The connection between the state-of-health threshold and EPR obligations is an extrapolation not supported by the cited rules. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

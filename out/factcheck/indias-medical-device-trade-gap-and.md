@@ -16,20 +16,19 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "5 August 2026" — The article references a future date (August 5, 2026) as the publication date, which is impossible. The correct date should be in the past or present. [confidence: high]
+- "India's medical-device deficit, by device family FY2025-26 (provisional), import minus export, US$ million" — The article claims the deficit is $6.22 billion with a +21.7% YoY growth, but the table shows a deficit of $6,220 million ($6.22 billion) for FY2025-26, which is a 21.7% increase from FY2024-25 ($5,111 million). However, the article also states "growing at 22% a year" in the opening line, which is inconsistent with the 21.7% figure provided later. [confidence: high]
 
-- "₹3,420cr" (₹3,420 crore) — The article mentions this amount for the PLI scheme, but the official PLI scheme for medical devices (announced in 2020) was ₹3,420 crore *over five years*, not a one-time outlay. The phrasing implies a single-year allocation, which is misleading. [confidence: high]
+- "India–EU FTA (Jan 2026)" — The India-EU Free Trade Agreement (FTA) was not finalized or implemented in January 2026. Negotiations are ongoing, and no such agreement has been signed or enacted as of mid-2024. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's medical-device trade runs a $6.2bn deficit growing at ~20%/yr, with exports flat." — The article cites a $6.2 billion deficit (from the 2020 EEPC baseline) but then uses the FY2025-26 provisional trade deficit of $6.22 billion as evidence of a "growing at ~20%/yr" trend. However, the FY2025-26 deficit is only 21.7% higher than FY2024-25 ($5.111 billion to $6.220 billion), not 20% annually compounded over multiple years. The claim conflates a single-year growth rate with a multi-year trend. [confidence: high]
+- "The pattern is stark: India has conquered the low end (consumables, dressings, gloves, contraceptives, PPE are all net exports — the COVID-era indigenisation held) and remains 70–90% import-dependent at the technology end (lab instruments, imaging, radiotherapy, IVD)." — While the data shows that India is a net exporter in certain low-end consumables (e.g., gloves, dressings), the claim that this "conquest" is a proven, sustainable strategy for climbing the value ladder is an overgeneralization. The article does not provide evidence that the same playbook can be successfully applied to high-tech devices like lab instruments or IVD reagents, which require different capabilities (e.g., R&D, precision manufacturing, regulatory compliance). The jump from low-end success to high-end localization is not logically supported by the data presented. [confidence: high]
 
-- "The winning pattern is proven: consumables went from import-dependent to net-export within a decade." — While the article correctly notes that certain consumables (e.g., gloves, dressings) are now net exports, it extrapolates this as a "winning pattern" applicable to all medical devices without evidence that the same strategy (e.g., PLI, indigenization) caused this shift or that it can be replicated for high-tech devices like lab instruments or IVD reagents. The causal claim is unsupported. [confidence: high]
+- "A radiologist bottleneck compounds it — roughly 15,000 radiologists for 1.4bn+ people (about one per 93,000), with only ~1,200 new graduates a year." — The article uses the radiologist shortage to argue for the need to localize MRI manufacturing, implying a direct causal link between device availability and radiologist supply. However, the shortage of radiologists is a separate issue from the availability of MRI machines. The two problems are correlated but not causally linked in the way suggested; increasing MRI production may not address the radiologist bottleneck, which is a workforce/training issue. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

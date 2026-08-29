@@ -16,20 +16,19 @@ Source: `posts/indian-railways-98-to-earn-100-business.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26" — The article is dated 20 August 2026, making FY2025-26 (ending March 2026) impossible as it would not have concluded by the publication date. The correct fiscal year should be FY2026-27. [confidence: high]
+- "₹98.43 to earn every ₹100 in FY2025-26" — The article later contradicts this with a table showing the operating ratio for FY2025-26 (BE) as 98.43, which means spending ₹98.43 to earn ₹100, not the reverse. The phrasing is inverted. [confidence: high]
 
-- "₹98.43 to earn every ₹100 in FY2025-26" — The operating ratio is stated as 98.43%, which would mean spending ₹98.43 to earn ₹100, not ₹98.43 to earn ₹100. The phrasing is incorrect. [confidence: high]
+- "FY2025-26's budget estimate of ₹3,041 crore is actually a 126.7% jump over the FY2024-25 revised estimate of just ₹1,341 crore" — The calculation is incorrect. A 126.7% increase from ₹1,341 crore would be ₹3,041 crore + (1.267 × ₹1,341 crore) ≈ ₹4,730 crore, not ₹3,041 crore. The correct interpretation is that the revised estimate for FY2024-25 was ₹1,341 crore, and the budget estimate for FY2025-26 is ₹3,041 crore, which is a 126.7% increase over the revised estimate. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "freight overpays to cover passenger losses that are formally classified as a social obligation" — While freight does cross-subsidize passenger services, the article conflates this with the operating ratio being a "mystery." The operating ratio is a mechanical outcome of this cross-subsidy, not an unexplained phenomenon. The causal claim that the ratio's persistence is a "mystery" is misleading. [confidence: high]
+- "freight overpays to cover passenger losses that are formally classified as a social obligation, not a business failure" — While the article correctly notes that passenger services are classified as social obligations, it implies that this cross-subsidy is a deliberate and efficient policy choice. However, the lack of clarity on whether Railways is meant to be run as a commercial undertaking or a subsidised public service (as noted by NITI Aayog) suggests that the cross-subsidy may not be a well-managed trade-off but rather a structural inefficiency. The article does not sufficiently address whether the current system is optimal or merely a default outcome of poor accounting and pricing. [confidence: medium]
 
-- "Railways' ratio has stayed above 96% every year since 2016-17" — The article cites PRS Legislative Research's analysis but does not clarify whether the ratio includes the "one-off adjustments" (e.g., deferred pension costs) noted by the CAG. Without this context, the claim could mislead readers into thinking the ratio is purely operational, when it is influenced by accounting adjustments. [confidence: medium]
+- "The scale of the underlying loss has been substantial in specific years: CAG reported a loss of about ₹26,388 crore for 2019-20, with the operating ratio that year at 98.36%" — The article conflates the operating ratio (a ratio of expenses to revenue) with a net loss (where expenses exceed revenue). An operating ratio of 98.36% means the Railways spent ₹98.36 to earn ₹100, which implies a small surplus, not a loss of ₹26,388 crore. The CAG-reported loss likely refers to a different accounting measure (e.g., net revenue after all expenses, including capital expenditure or adjustments). The article does not clarify this distinction. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

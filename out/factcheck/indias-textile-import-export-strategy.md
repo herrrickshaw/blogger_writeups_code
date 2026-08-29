@@ -16,20 +16,19 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Textile Import-Export Strategy" — The article title and framing suggest a focus on India's textile sector, but the analysis primarily examines chemical feedstocks (HSN Chapters 29 and 39) and their role in textile production. The title is misleading as it implies a broader strategy for textiles, not just feedstocks. [confidence: high]
+- "India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn." — The chart shows imports grew from $13.3bn (FY21) to $22.1bn (FY25), a 66% increase, but exports did not "stall" — they grew from $6.9bn to $8.2bn (a 19% increase). The claim that exports "stalled" is incorrect. [confidence: high]
 
-- "Reliance did it (1958-2005)" — The timeline provided for Reliance's transition from textiles to refining is oversimplified. While Reliance did expand into petrochemicals, the claim that this was a seamless or direct transition from textiles to refining over this period is an oversimplification of a complex, multi-decade corporate strategy. [confidence: medium]
+- "$20.5B Annual Feedstock Deficit" — The article does not provide a clear source or methodology for this figure, and it is not supported by the data presented in the article itself (which focuses on Chapters 29 and 39). The $20.5B figure appears to be an unsupported aggregate claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article conflates the import bill for chemical feedstocks (used in textile production) with the overall textile sector's trade balance. While the textile sector may run a surplus in finished goods, the feedstock imports are a cost to the sector, not a direct part of the trade balance. The claim implies that the feedstock deficit is a problem for the textile sector's trade balance, but it is actually a cost burden on domestic producers. [confidence: high]
+- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article conflates "chemical-feedstock import bill for textiles" with the overall textile trade balance. The textile sector's overall trade balance (including finished goods) is indeed a surplus, but this does not logically imply that feedstock imports are only 63% of the *textile sector's* import bill. The claim implies a causal or definitional link that is not supported by the data presented. [confidence: high]
 
-- "Capacity addition (+5.2 MMTPA FY26-30) does NOT cannibalize fuel production" — The article assumes that adding 5.2 MMTPA of petrochemical capacity will not affect fuel production, but it does not provide evidence or analysis to support this claim. Refineries have limited flexibility in feedstock allocation, and adding petrochemical capacity could indeed compete with fuel production, especially if refinery utilization is already at or near capacity. [confidence: medium]
+- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article presents a stabilization of imports at $22bn as evidence of "supplier lock-in," but stabilization alone does not necessarily indicate lock-in. It could reflect market equilibrium, supply chain adjustments, or other factors. The conclusion is an overreach based on the data. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,27 +9,30 @@ Source: `posts/green-gold-what-spirulina-actually-is.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "A quarter-acre of shallow ponds, harvested every 15–18 days, can out-earn an acre of most row crops" — This claim is unverified and presented as a general truth without supporting evidence or context. The article later notes that the income figures are from "commercial farming guides and trade press, not an audited farm-income survey," making this a factual error due to lack of verification. [confidence: high]
+- "China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in." — This claim is incorrect. While China dominates global spirulina production (45–65% of world output), South Korea does have domestic cultivation trials (e.g., Spirulina maxima in Ansan) and at least one commercial microalgae producer (Phycoil Biotech Korea, though focused on DHA, not spirulina). The article later acknowledges this but the initial claim oversimplifies South Korea's role. [confidence: high]
 
-- "China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in" — While the article later clarifies that South Korea is not a major spirulina grower, the initial phrasing implies a definitive statement about South Korea's role that is not fully supported by the subsequent nuanced discussion. The claim oversimplifies South Korea's actual involvement in microalgae (e.g., Phycoil Biotech Korea's DHA production). [confidence: medium]
+- "The Union Cabinet approved the BioE3 Policy on 24 August 2024" — This date is incorrect. The BioE3 Policy was approved on **17 August 2023**, not 2024. The article cites correct details about the policy's scope but the date is factually wrong. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A batch reaches harvestable density in roughly 15–18 days, against a cereal crop's 90–120-day cycle, so a single pond turns over multiple harvests a season" — While the timeframes are factually correct, the conclusion that this directly translates to higher earnings per acre is an interpretation error. The article does not account for operational costs, market demand, or yield variability, which could significantly impact profitability. The claim assumes a direct correlation between faster growth cycles and higher earnings without evidence. [confidence: high]
+- "A quarter-acre pond can out-earn an acre of crop" — The article cites commercial farming guides and trade press figures (e.g., ₹1,000/kg selling price, ₹60,000–₹1 lakh monthly revenue) to support this claim, but these are **not audited farm-income surveys** and are presented as illustrative claims. The conclusion that a quarter-acre pond can out-earn an acre of row crops is an **extrapolation beyond verified data**, as the cited figures are not representative of typical outcomes or peer-reviewed economic analyses. [confidence: high]
 
-- "The scale argument is the whole pitch: a quarter-acre to one-acre pond, requiring far less water than an equivalent area of paddy or sugarcane, can be run by a household without heavy machinery or land consolidation" — This claim conflates lower water and land requirements with economic viability. While spirulina may require less water per kilogram of protein, the statement implies that small-scale household operations are inherently feasible and profitable, which is not substantiated by the article's own caveats about unverified income figures and subsidy dependence. [confidence: high]
+- "Spirulina cultivation doesn't need farmland in the conventional sense — it needs shallow, agitated ponds or tanks... so a single pond turns over multiple harvests a season." — While the technical description of spirulina cultivation is correct, the implication that this **automatically translates to higher profitability per unit land** is an **apples-to-oranges comparison**. The article conflates **land efficiency** (less land needed) with **economic out-earning**, ignoring factors like capital costs, labor, energy inputs, and market volatility in spirulina prices. The claim assumes revenue scales linearly with harvest frequency without accounting for operational constraints or real-world farm economics. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

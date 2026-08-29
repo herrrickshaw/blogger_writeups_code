@@ -16,22 +16,21 @@ Source: `posts/india-imports-283000-tonnes-of-almonds.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Diwali falls on Sunday, 8 November 2026" — This is incorrect. Diwali in 2026 falls on **Friday, 6 November 2026** (based on the Hindu lunar calendar). [confidence: high]
+- "Diwali falls on Sunday, 8 November 2026" — The date is incorrect. Diwali in 2026 falls on **Friday, 6 November 2026** (based on standard Hindu calendar calculations for the Gregorian year 2026). [confidence: high]
 
-- "The 2026 change costs an importer nothing and is easy to miss, but it is the most consequential of the four rows." — The article claims the 2026 tariff change (folding the concession into the tariff schedule) "costs an importer nothing," but this is misleading. While the duty rate itself did not change, the shift from an exemption notification to the tariff schedule reduces policy risk, which could indirectly affect importers' cost calculations (e.g., by reducing uncertainty). The phrasing implies no financial impact, which is an oversimplification. [confidence: medium]
+- "India imports roughly 69 times more almonds than it grows" — While the article states India imported **283,000 tonnes** and produced **4,100 tonnes**, the claim that this represents "69 times more" is mathematically incorrect. The correct ratio is **283,000 / 4,100 ≈ 69**, but the phrasing implies a direct comparison of import volume to domestic production, which is misleading because imports and domestic production are not directly substitutable in this context (imports are in-shell, while domestic production is likely shelled). The article later clarifies the import weight basis but does not correct this phrasing. [confidence: high]
 
 ---
 
 INTERPRETATION ERRORS:
-- "Volume grew 69 per cent in five years, a compound rate of about 11 per cent a year. Value grew only 28 per cent over the same stretch, because the average unit price fell a quarter, from $5.10 to $3.84 a kilo." — The article correctly notes the divergence between volume and value growth but **does not explain why the price drop did not translate into proportionally higher demand**. The claim implies a straightforward inverse relationship between price and demand, but the context (e.g., income growth, cultural preferences, or substitution effects) is missing. The reasoning gap is that the article assumes the price decline fully explains the volume increase without addressing other potential drivers. [confidence: high]
+- "The duty is specific, not ad valorem — rupees per kilo, not a percentage of value — and it is levied on the weight that crosses the border. Ship kernels and you pay ₹100 on every kilo of kernel. Ship in-shell and you pay ₹35 on shell-inclusive weight, of which roughly 60 per cent becomes saleable kernel using USDA’s official conversion factor. That works out to about ₹60 of duty per kilo of finished kernel against ₹100." — The reasoning gap here is that the article assumes the **entire duty advantage** is due to the tariff structure, but it ignores **freight costs**. Shipping in-shell may reduce tariff costs but increases shipping weight (and thus freight expenses). The net cost advantage depends on the trade-off between lower tariffs and higher freight, which is not addressed. [confidence: high]
 
-- "The duty advantage is still there; the price advantage that used to sit alongside it is not." — The article states that the arbitrage between in-shell and shelled almonds has narrowed due to in-shell trading above kernel parity, but it **does not quantify the remaining duty advantage**. The claim implies the duty logic is still favorable, but without comparing the net landed cost (including freight, handling, and conversion losses) of in-shell vs. shelled almonds, the conclusion is unsupported. The reasoning gap is that the article asserts the duty advantage persists without demonstrating its materiality in current market conditions. [confidence: medium]
+- "The festive premium is worth roughly the whole gap between a mid-twenties per cent gross margin and a low-teens one." — The article claims the Diwali price premium is the **primary determinant** of profitability, but it does not provide evidence that margins are **solely** driven by this seasonal price increase. Other factors (e.g., procurement costs, exchange rate fluctuations, handling fees, or storage costs) could also materially impact margins, and the article does not rule out or quantify these alternatives. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

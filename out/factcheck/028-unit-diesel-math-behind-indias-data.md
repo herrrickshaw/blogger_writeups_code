@@ -9,31 +9,28 @@ Source: `posts/028-unit-diesel-math-behind-indias-data.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "India is building two new diesel-dependent industries at the same time — a gigawatt-scale AI data-centre pipeline and a five-fold expansion of telecom tower sites for 5G" — The article later states that the telecom tower base is projected to grow from roughly 750,000 (or 606,300) towers to around 1.2 million. Expanding to 1.2 million is an increase of roughly 60% to 100% (1.6x–2x), not a "five-fold" (5x) expansion. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." / "...roughly three-and-a-half times what solar-charged battery storage costs" — Apples-to-oranges comparison and misattribution: The $0.076–0.112/kWh figure represents wholesale round-the-clock (RTC) renewable power-purchase agreements (grid supply tariffs), not the levelised cost of on-site solar-plus-battery backup storage. The article's own cited backup storage study (Auroville Consulting) places the levelised cost of storage (LCOS) for on-site solar BESS backup at ₹39.71–61.72/kWh (roughly $0.48–0.74/kWh), which is comparable to or higher than the diesel backup cost ($0.28/kWh or ₹49.58–57.63/kWh). [confidence: high]
+- "A straight comparison of two backup architectures — Diesel Rotary UPS (DRUPS, which uses flywheel kinetic energy) against Static UPS with a battery bank (SUPS) — found DRUPS has a 9-month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 million versus $5.46 million OpEx), even before counting emissions." — Inverted evidence: The author uses this comparison to argue that data centre backup economics are shifting away from diesel and toward batteries/clean alternatives. However, DRUPS is a diesel-driven generator architecture and SUPS is a battery-based system; citing a 9-month payback and lower OpEx for DRUPS demonstrates the economic superiority of the diesel option over the battery option in that scenario, contradicting the article's core thesis. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." — The article cites these figures as sourced from Takshashila Institution and Auroville Consulting, but the dollar and rupee figures are quoted separately without conversion, and the methodology for blending national grid averages with state-specific backup-power models is inconsistent. The claim implies a direct comparison that the sources do not support. [confidence: high]
+- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." — The article cites these figures from the Takshashila Institution, but the dollar and rupee figures are quoted as sourced and not converted to a common currency, which could lead to confusion or misinterpretation. The methodology differences between national grid-tariff averages and state-specific backup-power models mean these figures should not be directly compared without adjustment. [confidence: high]
 
-- "The Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32 into national transmission planning, published via the Press Information Bureau in March 2026." — The article cites this figure as published in March 2026, but the referenced PIB release is not provided, and the date is inconsistent with the article's own publication date of 20 August 2026 (suggesting the PIB release would logically precede the article by months, not coincide with it). [confidence: medium]
+- "The Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32 into national transmission planning, published via the Press Information Bureau in March 2026." — The article cites this figure as an official government projection, but the source is the Ministry of Power's transmission planning, which may not represent a formal government projection or policy. The PIB release in March 2026 is referenced, but the distinction between transmission planning and formal government projections is not clarified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Telecom towercos have already proven the alternative works at scale; data centres, still writing their backup-power playbook, have not yet caught up." — While the telecom sector has demonstrated diesel phase-out where grid reliability permits, the article does not establish that the same backup-power alternatives (e.g., solar-charged BESS) are directly comparable in cost or performance for data centres due to differences in load profiles, uptime requirements, and scale. The claim implies a straightforward transferability of telecom tower solutions to data centres without sufficient evidence. [confidence: high]
+- "Diesel backup power costs roughly 3x the Indian grid average and 3.5x round-the-clock renewable PPAs — figures the post cites from the Takshashila Institution." — The article uses the cost comparison to argue that diesel is economically unviable for backup power, but it does not account for the operational differences between diesel generators and renewable PPAs. Diesel generators are typically used for short-term backup during outages, while renewable PPAs provide continuous power. The comparison assumes similar usage patterns, which may not hold true in practice. [confidence: high]
 
-- "A straight comparison of two backup architectures — Diesel Rotary UPS (DRUPS) against Static UPS with a battery bank (SUPS) — found DRUPS has a 9-month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 million versus $5.46 million OpEx), even before counting emissions." — The payback calculation is based on a single vendor's reference system (1.5 MW) and not an independently audited multi-project average. The claim extrapolates from a narrow case to a general conclusion about backup-power economics for data centres, which may not hold across different system sizes, configurations, or operational contexts. [confidence: high]
+- "The DRUPS-vs-SUPS payback comparison is drawn from one vendor/industry source describing a 1.5 MW reference system, not an independently audited multi-project average." — The article uses this single-vendor comparison to generalize about the payback period for diesel vs. battery backup systems in data centers, but it does not address the variability in system sizes, usage patterns, or site-specific conditions that could significantly impact the payback period. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

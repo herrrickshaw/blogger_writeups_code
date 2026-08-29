@@ -16,16 +16,15 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)" — The conversion rate used here (₹86 = $1) is outdated. As of recent data (2024), the exchange rate is closer to ₹83–84 per USD, which would slightly alter the dollar value. [confidence: high]
+- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The article cites a date range (2023–25) for data sources, but 2025 data is not yet available (as of mid-2024). This is incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The claim conflates marginal and full COTC (cash operating cost) premiums with import substitution value. The premium figures likely represent cost savings from petrochemical production vs. fuel use, but they do not directly equate to the economic value of erasing an import (which depends on global prices, tariffs, and domestic production costs). The reasoning gap is that the premium does not necessarily translate to import substitution value. [confidence: high]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the products listed may indeed have high import dependence, the claim that they "cluster" in benzene/propylene chains is an overgeneralization. Some of these (e.g., polycarbonate, nylon) are derived from other feedstocks (e.g., phenol, caprolactam) and not directly from benzene/propylene chains. The reasoning conflates import dependence with feedstock linkage without sufficient evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

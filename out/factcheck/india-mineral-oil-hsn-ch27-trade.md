@@ -16,20 +16,19 @@ Source: `posts/india-mineral-oil-hsn-ch27-trade.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "121.1 MMT Crude imported (FY25-26 H1)" — The claim is inconsistent with the stated FY25-26 full-year import value of $203.4B for Chapter 27 imports. Assuming an average crude price of ~$80/bbl (realistic for FY25-26), 121.1 MMT would imply ~$58B in crude imports alone for H1, which is implausible given the full-year total of $203.4B. The correct figure should likely be for a full year or another period. [confidence: high]
+- "121.1 MMT Crude imported (FY25-26 H1)" — The article claims crude imports for FY2025-26 H1 (first half) were 121.1 million metric tonnes (MMT), but this figure is inconsistent with known data. India's total crude imports for FY2024-25 were approximately 270 MMT, implying H1 imports would be around 135 MMT, not 121.1 MMT. The figure appears to be an underestimate. [confidence: high]
 
-- "4 / 11 POL items with an OilPrice benchmark (2 partial, 5 none)" — The claim is unverifiable as written. The article does not provide a clear list of the 11 POL items or how they are classified as having "partial" or "none" OilPrice benchmark coverage. Without this breakdown, the claim cannot be fact-checked. [confidence: medium]
+- "$203.4B Ch.27 imports FY25-26 (26.2% of all imports)" — The article states Chapter 27 imports for FY2025-26 were $203.4 billion, but this conflicts with the earlier per-partner data showing Russia ($47.8B), UAE ($24.3B), USA ($17.3B), and China ($0.3B) summing to $89.7B, which is far below $203.4B. The total is likely overstated. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "80 : 20 Trade Parity Price = IPP : EPP weight" — The claim suggests a fixed 80:20 ratio between IPP (Import Parity Price) and EPP (Export Parity Price) in the Trade Parity Price (TPP) formula. However, the formula is explicitly defined as TPP = 0.80 × IPP + 0.20 × EPP, which is a weighted average, not a ratio. The phrasing implies a direct 80:20 split, which could mislead readers into thinking the two components are interchangeable or that the ratio is static, when in fact the weights are applied to derive a single price. [confidence: high]
+- "80 : 20 Trade Parity Price = IPP : EPP weight" — The article claims the Trade Parity Price (TPP) formula uses an 80:20 weight between Import Parity Price (IPP) and Export Parity Price (EPP), but this is misleading. The actual formula is TPP = 0.80 × IPP + 0.20 × EPP, which does not imply a direct 80:20 ratio in the sense of a balanced trade parity but rather a weighted average where IPP dominates. The phrasing suggests a symmetric trade-off, which is incorrect. [confidence: high]
 
-- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The claim implies a direct causal link between the Indian crude basket and the pricing of gas (APM gas), LPG, MS, HSD, and gas, suggesting they are all anchored to the same commodity. However, while crude prices may influence gas pricing (e.g., via the Rangarajan formula or Kirit Parikh recommendations), the mechanisms and benchmarks differ significantly (e.g., gas pricing involves APM, difficult fields, and other regulatory factors). The statement oversimplifies the relationship and implies a uniformity that does not exist in practice. [confidence: high]
+- "Gas (Kirit Parikh 2023): APM gas sloped to the same Indian crude basket, floor $4 / ceiling $6.5 per MMBtu (+$0.5/yr), difficult fields cap $12.46 — one crude commodity anchors crude, LPG, MS, HSD and gas." — The article implies that the Kirit Parikh 2023 formula for gas pricing is directly anchored to the Indian crude basket, but this is an oversimplification. While gas pricing reforms may reference crude prices, the actual APM (Administered Pricing Mechanism) gas pricing formula is more complex and includes factors like inflation adjustments and field-specific costs, not a direct crude basket linkage. The claim conflates different pricing mechanisms. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -9,27 +9,28 @@ Source: `posts/global-biofuels-m-bankruptcy-bolt-on.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Global Clean Energy's $2.1 billion restructuring" — The article later clarifies that the total potential claims were "roughly $2.1 billion," not the restructuring value itself. The restructuring outcome involved lenders taking equity, but the $2.1 billion figure refers to claims, not the deal size. [confidence: high]
-
-- "World Energy's SAF-producing refinery in Paramount, California lost a key partner when Air Products terminated its agreement to fund the facility's SAF expansion (24 February 2025)" — The article does not provide primary-source verification of the termination or its funding implications. The claim is presented as fact without direct confirmation from Air Products or World Energy. [confidence: medium]
+- "Global Clean Energy Holdings... filed Chapter 11 on 19 April 2025" — The article later states the company emerged from bankruptcy in mid-August 2025, but the filing date is correct as per the restructuring-support agreement details. No factual error found in this claim. [confidence: high]
+- "Montana Renewables (owned by Calumet) isn't an M&A story but is the segment's largest capital event of the period: a $1.44 billion US DOE loan guarantee" — The DOE loan guarantee is correct, but the claim that it is the "largest capital event" is unverified and potentially misleading without broader market context. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The pattern in one line: renewable diesel is where distressed assets get recapitalized or wiped out; SAF and RNG are where growth capital and strategic buyers are still actively deploying; ethanol consolidation is happening plant-by-plant, not company-by-company." — This sweeping generalization conflates different deal types (e.g., SAF/RNG "growth capital" vs. ethanol "plant-by-plant") without defining the boundaries of the claim or acknowledging exceptions (e.g., Triveni Engineering's consolidation in India's ethanol sector). The pattern is presented as a universal truth without sufficient qualification. [confidence: high]
-
-- "A refinery that raised over $2 billion to convert into renewable diesel, delayed more than three years, lost its offtake partner (ExxonMobil exited), and ended up handing 100% of its common equity to lenders — that's not a cautionary footnote, that's the risk profile of the entire renewable-diesel build-out era now visible in one case." — While the Global Clean Energy case is illustrative, it is not sufficient evidence to generalize the "risk profile of the entire renewable-diesel build-out era." The claim extrapolates from a single case to an entire industry without broader data or statistical support. [confidence: high]
+- "renewable diesel is where distressed assets get recapitalized or wiped out; SAF and RNG are where growth capital and strategic buyers are still actively deploying" — This broad generalization lacks nuance. While the article provides specific examples (e.g., Global Clean Energy's bankruptcy, CMA CGM's investment in Vanguard Renewables), it does not establish that this pattern holds universally across all renewable diesel, SAF, and RNG deals. The claim extrapolates from a few cases to an entire industry segment without sufficient evidence. [confidence: high]
+- "ethanol consolidation is happening plant-by-plant, not company-by-company" — The article cites specific plant-level transactions (e.g., POET buying Green Plains' plant) but does not rule out broader company-level consolidation in the ethanol sector. The claim implies a universal trend that may not account for other potential consolidation mechanisms (e.g., minority stake acquisitions, joint ventures). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

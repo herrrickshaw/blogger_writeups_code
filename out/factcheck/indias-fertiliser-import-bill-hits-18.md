@@ -16,20 +16,19 @@ Source: `posts/indias-fertiliser-import-bill-hits-18.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026" — The article references sources dated January 2026 (e.g., Business Standard article) and a Standing Committee report from 1 December 2025, making a publication date of August 2026 implausible. The article itself is likely a retrospective analysis of past events, not a future prediction. [confidence: high]
+- "Standing Committee on Chemicals & Fertilisers, report tabled the same month" — The article later clarifies the report was tabled on **1 December 2025**, but the initial claim implies it was tabled in the same month as the article's publication (August 2026), which is incorrect. [confidence: high]
 
-- "90% Share of urea's production cost that is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct evidence in the article itself. [confidence: medium]
+- "90% of urea's cost is natural gas" — While the Standing Committee report likely cites this figure, the article does not provide a primary source (e.g., government document or peer-reviewed study) to verify this claim independently. The 90% figure is presented as fact without direct confirmation. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "90% of urea's production cost is natural gas... and only 26% of that gas is sourced domestically" — This claim implies a direct causal link between domestic gas sourcing (26%) and the 90% cost share of natural gas in urea production. However, the 26% domestic sourcing figure refers to the *share of gas supply* (not cost), while the 90% refers to the *cost share* of natural gas in urea production. The two figures are not directly comparable, as the cost share depends on global gas prices (for imported gas) and domestic gas pricing policies, not just the volume sourced domestically. [confidence: high]
+- "A rains-driven demand surge on top of a structural import dependence" — The article attributes the 76% surge in fertiliser imports primarily to heavy rains expanding cultivation area, but it does not establish a causal link between rainfall data and the import increase. Weather may correlate with demand, but the article does not rule out other factors (e.g., policy changes, global supply disruptions) or provide quantitative evidence to isolate rainfall as the proximate cause. [confidence: high]
 
-- "A rains-driven demand surge on top of a structural import dependence" — The article attributes the 76% surge in the fertiliser import bill primarily to heavy rains expanding cultivation area. However, it does not provide evidence that the *magnitude* of the import bill increase (76%) is directly proportional to the rains-driven demand surge. The import bill could also be influenced by global price spikes (e.g., gas or fertiliser prices), which are not accounted for in the article's reasoning. [confidence: medium]
+- "The committee recommended reworking India's gas procurement mechanism to secure constant supply at competitive prices, and expediting domestic gas extraction to cut both import dependence and production cost" — While the committee's recommendations are accurately quoted, the article implies these actions would directly reduce the fertiliser import bill without addressing potential lags (e.g., years for domestic gas extraction to scale) or whether the proposed gas procurement changes would materially lower urea production costs in the short term. The causal chain from recommendations to immediate import reduction is overstated. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

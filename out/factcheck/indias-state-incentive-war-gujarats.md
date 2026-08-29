@@ -16,20 +16,19 @@ Source: `posts/indias-state-incentive-war-gujarats.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The article claims zero disbursement for ACC Battery Storage PLI as of December 31, 2025, but this is inconsistent with the later statement that "Ola: 1 of 40GWh in pilot production" under the scheme. The zero disbursement claim contradicts the existence of at least one pilot project. [confidence: high]
+- "₹0 ACC Battery Storage PLI disbursed of an ₹18,100cr outlay, as of 31 Dec 2025" — The article claims ₹0 disbursement for ACC Battery Storage PLI as of 31 Dec 2025, but the source (PIB PRIDs) indicates that disbursement is deferred until a year after commissioning (~30GW already commissioned). The ₹0 figure is a design feature, not an execution failure. [confidence: high]
 
-- "West Bengal: All state industrial incentive schemes formally revoked, gazette Bill No. 5 of 2025, retroactive to original notification dates" — The article attributes the revocation to "gazette Bill No. 5 of 2025," but no such bill number is verifiable in official West Bengal legislative records as of the article's publication. The claim lacks a verifiable source. [confidence: medium]
+- "Maharashtra is both #3 by implementation and #1 by FDI (32.5% of the national cumulative total)" — The article incorrectly states Maharashtra is #3 by implementation. The data shows Maharashtra is #3 by FDI share (32.5%) but ranks #4 by implementation share (12.2%), behind Gujarat (33.8%) and Odisha (17.2%). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gujarat's 2026 industrial policy sorts investors into MSME/Large/Mega/Ultra-Mega tiers with capital-subsidy ceilings from 35% (MSME) up to 40–50% for Ultra-Mega and selected thrust sectors... plus a flat 7% interest subsidy and 100% electricity-duty exemption across every tier" — The article presents Gujarat's incentive tiers and subsidies as a coherent, uniformly applied policy, but it does not address the potential overlap or double-counting between the capital subsidy, interest subsidy, and electricity-duty exemption. These incentives could be additive or substitutive, and the article does not clarify how they interact or whether they are capped cumulatively. [confidence: high]
+- "Karnataka: 22.8% of FDI, 2.2% of implemented investment — the sharpest inversion in the data" — The article presents Karnataka's FDI share (22.8%) and implementation share (2.2%) as evidence of a stark inversion, implying a causal link between high FDI and low implementation. However, the FDI data is distorted by registered-office attribution (e.g., software/services firms registered in Karnataka but operating elsewhere), while implementation data reflects actual factory investments. The inversion is largely an artifact of FDI measurement, not a meaningful economic contrast. [confidence: high]
 
-- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years" — The article uses Odisha's high implementation share and low FDI share to argue that Odisha's investment is "almost entirely domestic capital," but it does not provide evidence that the implemented projects are indeed domestic or that the FDI data excludes domestic investment. The conclusion conflates FDI (foreign) with total investment (domestic + foreign), leading to a misleading interpretation of the investment composition. [confidence: high]
+- "Odisha is the starkest case: 17.2% of India's implemented industrial investment on just $212 million of cumulative FDI — 0.08% of the national FDI total over the same five years. Its investment is almost entirely domestic capital (steel, metals, refining) landing and getting built, not foreign money." — The article uses Odisha's high implementation share and low FDI share to argue that its investment is "almost entirely domestic." However, the FDI data is unreliable due to registered-office attribution (e.g., domestic projects like Tata's Assam semiconductor project are invisible in FDI statistics), and the implementation data does not distinguish between domestic and foreign capital. The conclusion overreaches by conflating low FDI with domestic investment. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -16,20 +16,21 @@ Source: `posts/indias-two-tracks-of-health-cover-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "West Bengal became the last holdout to join" — The article later states West Bengal signed its implementation MoU on 8 June 2026, but the claim about it being the "last holdout" is incorrect because the article itself mentions that PM-JAY reached full national coverage in mid-2026, implying all states/UTs had joined by then. The phrasing is misleading as it suggests West Bengal was the final state to join, but the article does not provide evidence that it was the last. [confidence: high]
+- "West Bengal became the last holdout to join [PM-JAY] as of June 2026" — The article later contradicts this by stating West Bengal signed its implementation MoU on **8 June 2026**, implying the June 2026 date refers to the MoU signing, not full implementation. The claim that it was "the last holdout" as of June 2026 is ambiguous and potentially misleading, as the MoU signing does not equate to full operationalization. [confidence: high]
 
-- "as of June 2026" (in the first paragraph) — The article later specifies dates like "30 June 2026" and "mid-2026," but the initial claim of "June 2026" without a specific date is vague and could be misinterpreted. While not necessarily incorrect, it lacks precision. [confidence: medium]
+- "International General Insurance (IGI), Singapore Reinsurance Corporation, Santam, Abu Dhabi National Insurance, Eurasia Insurance, Korean Re, Kuwait Re, Peak Re, Saudi Re, Allianz, Generali, Starr International, Qatar Re, Doha Re and Lloyd's have all either received licences or begun operations in GIFT City's insurance offices (IIOs) this financial year" — The article lists multiple reinsurers but does not specify the exact number of licences or operations approved in the **current financial year (2025-26)**. The claim that "this financial year" applies to all listed entities is unverified, as some may have been approved in prior years. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "PM-JAY's expansion should crowd out private insurance demand — why buy a policy if the government already covers ₹5 lakh of hospitalisation?" — The article correctly notes that research shows PM-JAY enrollment is associated with higher private facility visits, but it does not adequately explain why this would *not* lead to crowding out of private insurance demand. The reasoning gap is that the article assumes PM-JAY and private insurance serve different segments without providing evidence that households with private insurance do not reduce their reliance on PM-JAY or that private insurers do not adjust their offerings in response to PM-JAY's expansion. The claim that they are "complement, not substitute" is asserted but not fully substantiated with data on household-level decision-making. [confidence: medium]
+- "PM-JAY's 43.52-crore-card, all-36-state reach and the private sector's GST-driven 29.7% premium surge are both real, verified growth stories happening at the same time, but the evidence points to them serving largely different segments" — While the article correctly cites research showing PM-JAY increases private facility visits, it **overgeneralizes** the conclusion that the two systems serve "largely different segments" without providing state-level or income-group data to substantiate this claim. The research cited (PLOS One, Health Systems & Reform) may show a national trend, but it does not prove segmentation across income groups or states. [confidence: high]
 
-- "The new reinsurance capacity arriving in GIFT City... is the supply-side infrastructure catching up to both tracks at once." — While the article lists reinsurers entering GIFT City and mentions their interest in health reinsurance, it does not provide evidence that this capacity is *directly* linked to PM-JAY or private insurance growth. The claim implies a causal relationship without showing how the new reinsurance capacity is being utilized by PM-JAY or private insurers or how it is reducing costs for either track. The reasoning gap is that the article assumes the new reinsurance capacity is a response to the growth in PM-JAY claims and private premiums without demonstrating a direct or measurable impact. [confidence: high]
+- "The new reinsurance capacity arriving in GIFT City... is the supply-side infrastructure catching up to both tracks at once" — The article assumes that the influx of reinsurers is **directly linked** to the growth in PM-JAY and private health insurance demand, but it does not provide evidence that these reinsurers are specifically targeting health reinsurance due to PM-JAY or private sector growth. The claim that several entrants "specifically flagged health reinsurance" as an underdeveloped product line is based on secondary reporting (Insurance Business Magazine, etc.) and lacks primary data linking their entry to the observed demand growth. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

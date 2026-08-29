@@ -7949,3 +7949,12 @@ MAJOR CORRECTION: FSSAI's Aug 2026 packaging ban (Gazette 10 Aug) excludes polye
 **Changed**
 
 - `sugarcanes-third-claimant-whats` — 31,058 → 34,650 bytes (+3,592)
+
+## 2026-08-29T12:09:20+05:30 — 225 posts live
+
+Publish: India's Rural Water Pipeline — state-wise JJM scheme status, ₹7.9 lakh crore upcoming
+
+
+**Added**
+
+- `indias-79-lakh-crore-rural-water` **v1.0.0** — India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State (24,465 bytes)

@@ -16,20 +16,19 @@ Source: `posts/indias-trade-balance-hsn-wise.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Imports have exceeded exports in all 8 fiscal years of merchandise data (FY2018-19 to FY2025-26)" — The article later contradicts this by stating that FY2020-21 had a "much narrower gap" due to the COVID-19 import crash, implying imports did not exceed exports in that year. [confidence: high]
+- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — The article contradicts itself later by stating "FY2025-26 is the most recent, not necessarily complete — the source states data last updated 19 May 2026; treat this year's figures as provisional/in-progress rather than a closed fiscal year like the others." The claim that FY2025-26 is the most recent data is correct, but the phrasing "not necessarily a complete fiscal year" is misleading because the article itself clarifies that FY2025-26 is provisional/in-progress, not necessarily incomplete. [confidence: high]
 
-- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — The article later states that FY2025-26 data was last updated on 19 May 2026, but the fiscal year 2025-26 would not be complete until 31 March 2026, making the phrasing redundant and potentially misleading. [confidence: high]
+- "DPIIT's 2025-26 Annual Report (295 pages, dpiit.gov.in) doesn't publish a trade-balance series — consistent with what this repo found when checking DPIIT for services data" — The DPIIT Annual Report does include trade-related data (e.g., export/import figures in Appendix IV), though it may not publish a full trade-balance series. The claim is overly broad and risks misrepresenting the scope of DPIIT's published data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Mineral fuels (HS27) alone accounts for a -$147.5bn deficit — India imports far more crude oil and refined fuel than it exports, by design (import-dependent energy needs)." — While the deficit figure is correct, the claim that this is "by design" (implying intentional policy) is an interpretation not supported by the data alone. The deficit could result from structural factors (e.g., lack of domestic refining capacity) rather than deliberate policy choices. [confidence: medium]
+- "Mineral fuels (HS27) alone accounts for a -$147.5bn deficit — India imports far more crude oil and refined fuel than it exports, by design (import-dependent energy needs)." — While the deficit figure is correct, the causal claim that India's energy import dependence is the *only* or primary driver of the deficit is an oversimplification. The deficit could also be influenced by global oil price fluctuations, domestic refining capacity, export policies, or other factors. The article does not provide evidence to isolate energy import dependence as the sole or dominant driver. [confidence: high]
 
-- "DPIIT's 2025-26 Annual Report ... independently corroborates the fastest-growing import chapters identified in the historical-trends bulletin: proposed investment in Electricals Equipment rose from ₹65,979 crore (2021) to ₹233,829 crore (2024), and in Fertilizers from ₹1,112 crore (2021) to ₹41,127 crore (2024) — domestic capacity-building is scaling up fastest in exactly the two sectors where import growth is also fastest." — The article conflates correlation with causation. While investment in these sectors is rising, this does not necessarily mean that import growth is driven by domestic capacity-building. The two could be unrelated or even inversely related (e.g., increased domestic production could reduce imports). [confidence: high]
+- "Even with services trade included, India ran a current-account-style deficit every year from FY2018-19 to FY2024-25 — meaning India still needed to buy more foreign currency than it earned, just by a smaller margin than the goods numbers alone suggest." — The article conflates the *current account balance* (which includes goods, services, income, and transfers) with the *trade balance* (goods only). While the trade deficit narrowed with services included, the current account balance could still be in deficit for other reasons (e.g., income outflows like remittances or investment income). The article does not clarify whether the "current-account-style deficit" refers to the trade balance or the full current account. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

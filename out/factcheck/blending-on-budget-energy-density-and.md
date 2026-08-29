@@ -9,27 +9,28 @@ Source: `posts/blending-on-budget-energy-density-and.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+FACTUAL ERRORS:
+- "...nearly half of E20's 6.9% ceiling despite isobutanol displacing a deeper share of the base fuel." (and "isobutanol's proposed 15% ceiling is far deeper than E20's 20% actual blend...") — A 15% blend displaces less of the base fuel than a 20% blend (E20). Describing 15% as a "deeper share" than 20% is mathematically inverted. [confidence: high]
+- "SAF traded globally in 2026 at roughly $1,817 per tonne, on the order of five times a conventional jet-fuel benchmark in tight markets..." — Conventional jet fuel priced at $0.60–$0.80 per litre translates to roughly $750–$1,000 per metric tonne (at standard jet fuel density of ~0.80 kg/L). A price of $1,817 per tonne is roughly 1.8× to 2.4× conventional jet fuel, not 5× (which would require conventional jet fuel to trade around $360/tonne or SAF to trade around $4,000/tonne). [confidence: high]
+
+INTERPRETATION ERRORS:
+- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect..." — The article notes in Table 1 and Section 4 that CBG carries lower gravimetric energy density (47–52 MJ/kg, ~93–95%) than fossil CNG (50–56 MJ/kg). Because CNG is retailed and metered by mass (₹/kg), blending a fuel with lower MJ/kg and selling it at the same ₹/kg price means the consumer receives fewer megajoules per rupee, resulting in a mileage/range loss per kilogram purchased. Selling at the same pump price shifts the cost directly onto vehicle efficiency/range, contradicting the article's conclusion that CBG imposes no mileage penalty. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Ethanol figures from the NITI Aayog Roadmap for Ethanol Blending and the US DOE Alternative Fuels Data Center (AFDC), cross-checked and mutually consistent to within 0.1 MJ/L." — The article cites ethanol energy density as 21.3 MJ/L, but the US DOE AFDC lists ethanol's lower heating value (LHV) as 23.5 MJ/L (not 21.3 MJ/L). This discrepancy suggests an error in the cross-checking process or a misinterpretation of the source data. [confidence: high]
+- "19 August 2026" — The date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Diesel LHV computed from AFDC's low-sulfur-diesel Btu/gal figure." — The article does not provide the exact Btu/gal figure used for this computation, making it impossible to verify the derived MJ/L value (35.8 MJ/L). Without the primary source value, the calculation cannot be confirmed. [confidence: medium]
+- "SAF traded globally in 2026 at roughly $1,817 per tonne" — The article cites a global SAF price for 2026, but as of June 2025, this figure is speculative and unverifiable. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The blend chemistry decides who pays and how; the mandate percentage is almost beside the point." — While the article correctly highlights the importance of energy density differences in determining cost impacts, it overgeneralizes that the mandate percentage is "almost beside the point." The mandate percentage still matters for supply chain logistics, infrastructure readiness, and policy enforcement, even if it doesn't directly determine the cost impact per kilometre. The claim conflates the *mechanism* of cost imposition (energy density) with the *scale* of its application (mandate percentage). [confidence: high]
+- "The pattern in one line: ethanol carries 66% of petrol's energy per litre and isobutanol carries 74% of diesel's, so both mandates cost the driver mileage." — While the energy density ratios are correct, the conclusion that *both* mandates cost the driver mileage is an oversimplification. The article later acknowledges that isobutanol's mileage loss is smaller than ethanol's (1–2% vs. 2–6%), but the initial claim implies a uniform penalty, which is misleading. [confidence: high]
 
-- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect — the running-cost figures already published for CNG vehicles [...] already implicitly include whatever share of CBG is in the pipeline blend, indistinguishably." — While CBG blending does not cause a mileage penalty, the claim that there is "no cost-per-kilometre penalty" is misleading. The cost of CBG production is typically higher than fossil CNG, and this premium is embedded in the blended CNG price. Thus, consumers *do* pay a higher price per kilometre, just not in the form of reduced mileage. The article conflates "no mileage penalty" with "no cost penalty." [confidence: high]
+- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect — the running-cost figures already published for CNG vehicles [...] already implicitly include whatever share of CBG is in the pipeline blend, indistinguishably." — While CBG blending does not directly cause a mileage penalty, the claim that there is *no cost-per-kilometre penalty at all* ignores potential indirect costs (e.g., infrastructure adjustments, supply chain inefficiencies, or future price adjustments to offset blending costs). The reasoning assumes perfect pass-through of costs, which may not hold. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
