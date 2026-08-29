@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-29T12:09:20+05:30",
+  "snapshot": "2026-08-29T12:16:24+05:30",
   "count": 225,
   "posts": {
     "1058853159205559121": {
@@ -21737,10 +21737,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-28T21:09:46.427+05:30",
+      "updated": "2026-08-29T12:16:02.972+05:30",
       "labels": [],
-      "bytes": 291551,
-      "sha256": "09c6dbab07d4d05a1e01de4d8f1c0543156f1b8e597244bbc2a9816ae6891820",
+      "bytes": 291869,
+      "sha256": "88d75fcf35cabb61c60eb6920ac61b092e71ebb37e4fd5383e31996b40c453f3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21752,7 +21752,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "36.0.0",
+      "version": "37.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23068,6 +23068,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "rebuild+republish article index after PLA/bagasse post"
+        },
+        {
+          "version": "37.0.0",
+          "date": "2026-08-29T12:16:24+05:30",
+          "level": "major",
+          "reason": "figures changed (+4/-2 distinct numbers)",
+          "bytes": [
+            291551,
+            291869
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "rebuild+republish article index after JJM rural water pipeline post"
         }
       ]
     },

@@ -7958,3 +7958,16 @@ Publish: India's Rural Water Pipeline — state-wise JJM scheme status, ₹7.9 l
 **Added**
 
 - `indias-79-lakh-crore-rural-water` **v1.0.0** — India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State (24,465 bytes)
+
+## 2026-08-29T12:16:24+05:30 — 225 posts live
+
+rebuild+republish article index after JJM rural water pipeline post
+
+
+**Versions**
+
+- `article-index-start-here` **36.0.0 → 37.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 291,551 → 291,869 bytes (+318)
