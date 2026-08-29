@@ -7923,3 +7923,16 @@ Update: BCML Q1FY27 investor-presentation figures (capex, timeline, progress), n
 **Changed**
 
 - `sugarcanes-third-claimant-whats` — 22,945 → 26,089 bytes (+3,144)
+
+## 2026-08-29T05:53:00+05:30 — 224 posts live
+
+Add: PSA-chaired paan masala/gutkha PLA policy track (PIB 2217328), CPCB compostable-plastic certification pathway, TGP Bioplastics/UKHI
+
+
+**Versions**
+
+- `sugarcanes-third-claimant-whats` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+9/-0 distinct numbers)
+
+**Changed**
+
+- `sugarcanes-third-claimant-whats` — 26,089 → 31,058 bytes (+4,969)
