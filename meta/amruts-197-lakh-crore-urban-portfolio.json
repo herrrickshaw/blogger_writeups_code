@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html",
   "slug": "amruts-197-lakh-crore-urban-portfolio",
   "published": "2026-08-29T12:46:45.440+05:30",
-  "updated": "2026-08-29T13:02:29.743+05:30",
+  "updated": "2026-08-29T15:15:24.596+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 23322,
-  "sha256": "39a23e2b919dc9412565d28135c0cc019294b0742c4dab39721a9a8eb72a936e",
+  "bytes": 23330,
+  "sha256": "7d46eb76986ae7c2544297bba6b53c6152cb6b8b16be5e6b3234e467e83972ba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Clarity fixes from Mistral content review: abbreviation footnote, why-no-AMRUT-dashboard context"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-08-29T15:15:53+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        23322,
+        23330
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Gemini clarity fix: corrected Feb->Aug 2026 date discrepancy, fixed ambiguous 36%-of-what phrasing"
     }
   ]
 }

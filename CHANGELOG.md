@@ -8032,3 +8032,16 @@ Clarity fixes from Mistral content review: informal phrasing, vague 'planning qu
 **Changed**
 
 - `indias-79-lakh-crore-rural-water` — 25,051 → 25,194 bytes (+143)
+
+## 2026-08-29T15:15:53+05:30 — 226 posts live
+
+Gemini clarity fix: corrected Feb->Aug 2026 date discrepancy, fixed ambiguous 36%-of-what phrasing
+
+
+**Versions**
+
+- `amruts-197-lakh-crore-urban-portfolio` **1.1.0 → 1.1.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `amruts-197-lakh-crore-urban-portfolio` — 23,322 → 23,330 bytes (+8)
