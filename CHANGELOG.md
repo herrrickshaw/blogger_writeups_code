@@ -8006,3 +8006,16 @@ Cross-link: JJM rural water post now links back to AMRUT urban portfolio post
 **Changed**
 
 - `indias-79-lakh-crore-rural-water` — 24,465 → 25,051 bytes (+586)
+
+## 2026-08-29T13:02:49+05:30 — 226 posts live
+
+Clarity fixes from Mistral content review: abbreviation footnote, why-no-AMRUT-dashboard context
+
+
+**Versions**
+
+- `amruts-197-lakh-crore-urban-portfolio` **1.0.0 → 1.1.0** (MINOR) — prose grew 8,867→9,180 chars with no new figures
+
+**Changed**
+
+- `amruts-197-lakh-crore-urban-portfolio` — 23,003 → 23,322 bytes (+319)
