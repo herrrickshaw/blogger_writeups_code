@@ -8019,3 +8019,16 @@ Clarity fixes from Mistral content review: abbreviation footnote, why-no-AMRUT-d
 **Changed**
 
 - `amruts-197-lakh-crore-urban-portfolio` — 23,003 → 23,322 bytes (+319)
+
+## 2026-08-29T13:08:34+05:30 — 226 posts live
+
+Clarity fixes from Mistral content review: informal phrasing, vague 'planning queue' wording, PM3/B15 divergence context
+
+
+**Versions**
+
+- `indias-79-lakh-crore-rural-water` **2.0.0 → 3.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `indias-79-lakh-crore-rural-water` — 25,051 → 25,194 bytes (+143)
