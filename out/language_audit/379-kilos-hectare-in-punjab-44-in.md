@@ -4,7 +4,36 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...kg of actual nitrogen, since urea is 46 per cent N.  Urea per hectare of cropped land, 2...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...rea — and lands at 101 kg a hectare, 45 per cent below the national rate. Madhya Pradesh...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...nd uses 113. Meanwhile Punjab, with 3.8 per cent of the cropped area, takes 7.9 per cent...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...per cent of the cropped area, takes 7.9 per cent of the urea.  It is a crop map  The sta...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ane and cotton — account for roughly 70 per cent of India’s total nitrogen consumption. ...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...rigation closely: Punjab irrigates 93.5 per cent of its gross cropped area and Haryana o...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...rectly. Paddy and wheat alone take 52.8 per cent of all the fertiliser India applies, on...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...column converts the nitrogen half at 46 per cent N.  Read the two tables together and th...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...4:2:1 but about 2.6:1.4:1 — nitrogen 52 per cent of total nutrients rather than the 57.8...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...of total nutrients rather than the 57.8 per cent the old norm implies. Second, and more ...
+  suggested: percent
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ended level, by anything from 4.4 to 60 per cent. India’s real deficits, on their estima...
   suggested: percent

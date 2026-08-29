@@ -4,6 +4,9 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
+- **[GRAMMAR/APPRECIATE_IF]** It appears that an object is missing here.
+  context: ... mention me as the author. I would much appreciate if you send me an email tagooty@yahoo.c...
+  suggested: appreciate it
 - **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘norm’ seems to be countable.
   context: ...ril 2026, against a ~135 lakh MT buffer norm — a surplus of roughly 240–250 lakh MT ...
   suggested: norms
