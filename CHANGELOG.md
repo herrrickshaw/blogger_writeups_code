@@ -8067,3 +8067,16 @@ feat(fisheries): first article on Fisheries & Aquaculture beat — PM-MKSSY regi
 **Added**
 
 - `indias-6000-crore-fisheries-scheme` **v1.0.0** — India's ₹6,000 Crore Fisheries Scheme Registered 35.92 Lakh Fishers. It Has Paid Out ₹4.73 Crore. (22,425 bytes)
+
+## 2026-08-30T07:48:13+05:30 — 227 posts live
+
+index: add fisheries article to article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **38.0.0 → 39.0.0** (MAJOR) — figures changed (+5/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 292,181 → 292,792 bytes (+611)
