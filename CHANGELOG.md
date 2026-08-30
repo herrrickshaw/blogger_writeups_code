@@ -8165,3 +8165,12 @@ index: update fisheries article title in article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 294,752 → 294,736 bytes (-16)
+
+## 2026-08-30T08:49:29+05:30 — 230 posts live
+
+feat(bidder-list): cross-ministry compilation of named tender/PLI winners, 2019-2026
+
+
+**Added**
+
+- `nine-ministries-one-list-every-company` **v1.0.0** — Nine Ministries, One List: Every Company India Named as a Government-Tender Winner, 2019–2026 (32,767 bytes)
