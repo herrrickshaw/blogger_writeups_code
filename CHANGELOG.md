@@ -8187,3 +8187,16 @@ index: add bidder-list article to article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 294,736 → 296,297 bytes (+1,561)
+
+## 2026-08-30T08:58:52+05:30 — 230 posts live
+
+content: add applicant/bidder counts (not just winners) to bidder-list article
+
+
+**Versions**
+
+- `nine-ministries-one-list-every-company` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `nine-ministries-one-list-every-company` — 32,767 → 36,342 bytes (+3,575)

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.292+05:30",
-  "updated": "2026-08-30T08:48:47.657+05:30",
+  "updated": "2026-08-30T08:58:30.342+05:30",
   "labels": [
     "India",
     "Industrial Policy"
   ],
-  "bytes": 32767,
-  "sha256": "ea986f3e54aabb2860c26538f3f4102098a8f056f6f178154ec7b5add9b06fdd",
+  "bytes": 36342,
+  "sha256": "0833d712ef640c8eceae0a334c8d14417fa974bcaf98eb0a8edd747789151ff1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "feat(bidder-list): cross-ministry compilation of named tender/PLI winners, 2019-2026"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-30T08:58:52+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        32767,
+        36342
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "content: add applicant/bidder counts (not just winners) to bidder-list article"
     }
   ]
 }
