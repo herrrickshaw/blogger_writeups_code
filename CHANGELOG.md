@@ -8152,3 +8152,16 @@ fix(fisheries): retitle around allocation framing; resolve enterprises-table mis
 **Changed**
 
 - `indias-6000-crore-fisheries-scheme` — 22,425 → 24,525 bytes (+2,100)
+
+## 2026-08-30T08:44:54+05:30 — 229 posts live
+
+index: update fisheries article title in article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **41.0.0 → 42.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 294,752 → 294,736 bytes (-16)

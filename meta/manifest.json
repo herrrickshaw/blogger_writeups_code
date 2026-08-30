@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-30T08:43:53+05:30",
+  "snapshot": "2026-08-30T08:44:54+05:30",
   "count": 229,
   "posts": {
     "1058853159205559121": {
@@ -21895,10 +21895,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-30T08:16:51.632+05:30",
+      "updated": "2026-08-30T08:44:36.573+05:30",
       "labels": [],
-      "bytes": 294752,
-      "sha256": "f1329a697c1eabadeb51ea6db681858fc6c3657a9c622ced40cb049c2750dddc",
+      "bytes": 294736,
+      "sha256": "b576e7415e4f92d320d42435dfd01a78a297eaa67179bac3501ffc0400cd9eba",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21910,7 +21910,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "41.0.0",
+      "version": "42.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23291,6 +23291,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "index: add electronics PLI article to article-index-start-here"
+        },
+        {
+          "version": "42.0.0",
+          "date": "2026-08-30T08:44:54+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-1 distinct numbers)",
+          "bytes": [
+            294752,
+            294736
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "index: update fisheries article title in article-index-start-here"
         }
       ]
     },
