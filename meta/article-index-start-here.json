@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-30T07:47:55.196+05:30",
+  "updated": "2026-08-30T08:04:31.876+05:30",
   "labels": [],
-  "bytes": 292792,
-  "sha256": "349ab635d04cb5c15a679b5d86521de9cc7917dfd94d1cb0a0c5975c17821ce0",
+  "bytes": 293868,
+  "sha256": "1fab32ab87c47b9209e8ac4389526ae4c01b26dca464f6ce3541b2d5d0743d70",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "39.0.0",
+  "version": "40.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1374,6 +1374,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "index: add fisheries article to article-index-start-here"
+    },
+    {
+      "version": "40.0.0",
+      "date": "2026-08-30T08:04:50+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        292792,
+        293868
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add PMAY-G article to article-index-start-here"
     }
   ]
 }

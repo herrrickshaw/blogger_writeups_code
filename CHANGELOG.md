@@ -8104,3 +8104,16 @@ feat(pmay-g): West Bengal PMAY-G funds-freeze piece — 5yr completion 12.1% vs 
 **Added**
 
 - `west-bengal-sanctioned-126-lakh-pmay-g` **v1.0.0** — West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze. (22,547 bytes)
+
+## 2026-08-30T08:04:50+05:30 — 228 posts live
+
+index: add PMAY-G article to article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **39.0.0 → 40.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 292,792 → 293,868 bytes (+1,076)
