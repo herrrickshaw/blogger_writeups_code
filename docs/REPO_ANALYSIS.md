@@ -177,6 +177,16 @@ was last captured. The recovery guarantee silently does not apply to 10% of what
 is in `posts/`. Either the sidecar should be retained when a post leaves the
 feed, or §5 should name the exception.
 
+> **Status, re-read 30 August 2026 — this gap has closed, but not in the way
+> either option above proposes.** `posts/` and `meta/` now hold 233 entries
+> each and no post lacks a sidecar. The 19 uncovered posts were not given
+> sidecars; the post files themselves were dropped from `posts/`, taking the
+> question with them. So `MAINTENANCE.md` §5's recovery guarantee is currently
+> accurate as written, and the choice this section asked for was never made —
+> it stopped applying. That is worth knowing before §5 is edited: the next post
+> to leave the public feed will re-open the same question, and nothing in the
+> tooling records which of the two behaviours is intended.
+
 ### 2.5 Semver is being applied to generated pages, where it means nothing
 
 | Post | Version | History entries | MAJOR bumps |
@@ -248,7 +258,10 @@ as §2.1.
 3. **De-hardcode the six paths** (§2.3) using the pattern 22 other tools use.
    Makes the daily chain reproducible off one laptop.
 4. **Decide the sidecar question** for unpublished posts (§2.4) — retain, or
-   document the exception in `MAINTENANCE.md` §5.
+   document the exception in `MAINTENANCE.md` §5. *No longer urgent as of
+   30 August 2026: the uncovered posts were dropped from `posts/`, so coverage
+   is complete and §5 is accurate today. The decision is still unmade, and the
+   next post to leave the feed re-opens it.*
 5. **Separate build versions from editorial versions** (§2.5).
 6. **Re-run the required-element fix** for the seven posts in §2.6.
 
