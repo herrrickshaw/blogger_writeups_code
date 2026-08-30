@@ -8226,3 +8226,16 @@ index: update PLI-schemes article title in article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 296,297 → 297,318 bytes (+1,021)
+
+## 2026-08-30T11:19:24+05:30 — 230 posts live
+
+content: add HS-code magnet import-bill data (DGCIS) to rare-earth magnets article
+
+
+**Versions**
+
+- `rare-earth-magnets-and-specialty-steel` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `rare-earth-magnets-and-specialty-steel` — 18,285 → 20,855 bytes (+2,570)

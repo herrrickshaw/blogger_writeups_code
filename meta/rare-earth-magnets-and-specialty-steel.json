@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-08-30T07:53:09.536+05:30",
+  "updated": "2026-08-30T11:18:20.265+05:30",
   "labels": [
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 18285,
-  "sha256": "5b58b97ea934750406b8563321b1e99b1012e9b40cd73975fcaab9bd4b90e34a",
+  "bytes": 20855,
+  "sha256": "c2cc3e0d8963ca81d802a8a0e570b738d7b9b68f0dfa45c821a36c70834847a2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "content: refresh dairy milk-production figure with primary Lok Sabha source; add REPM bid-count update to rare-earth magnets piece"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-08-30T11:19:24+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18285,
+        20855
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "content: add HS-code magnet import-bill data (DGCIS) to rare-earth magnets article"
     }
   ]
 }
