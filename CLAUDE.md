@@ -146,20 +146,26 @@ yet fixed.
 
 ## Scale, so you know what a full run costs
 
-The archive grows every day, so treat any count here as a reading, not a
-constant. As of **30 August 2026**: 234 files in `posts/`, 234 sidecars in
-`meta/` (`ls meta/*.json` counts 235 — `manifest.json` lives there too and is
-not a sidecar), 399 snapshot commits (the first is dated 2026-08-06), and a
-fact-check corpus of 230 reports. `--all` runs are long; they resume, so let
-them.
+Order of magnitude, not a figure to quote: a couple of hundred posts, a
+matching sidecar for each, several hundred snapshot commits since 2026-08-06,
+and a fact-check corpus in the low hundreds. `--all` runs are long; they
+resume, so let them.
 
-Recompute rather than trusting the numbers above:
+**This section deliberately carries no exact counts.** They were pinned twice
+and went stale twice inside a single day — the archive gained five posts and
+seven snapshot commits in one three-hour stretch — and a stale number in a
+document a newcomer is told to trust is worse than no number at all. Read the
+current values instead:
 
 ```bash
 ls posts/ | wc -l
 ls meta/*.json | grep -v manifest.json | wc -l
 git log --oneline --grep='^snapshot ' | wc -l
 ```
+
+Expect the snapshot count to differ by one or two between a branch and `main`:
+merge commits change what is reachable. That is normal and is another reason
+not to treat any single reading as authoritative.
 
 Do **not** add `--since=2026-08-06` to that last command. It looks like the
 obvious way to scope the count, and it silently undercounts by around fifteen:
