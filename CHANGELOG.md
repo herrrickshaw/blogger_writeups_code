@@ -8058,3 +8058,12 @@ shop: add Grapes of Wrath (Penguin Modern Classics) to shelf
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 55,166 → 56,345 bytes (+1,179)
+
+## 2026-08-30T07:47:22+05:30 — 227 posts live
+
+feat(fisheries): first article on Fisheries & Aquaculture beat — PM-MKSSY registered-vs-paid gap, EEZ Access Pass state skew
+
+
+**Added**
+
+- `indias-6000-crore-fisheries-scheme` **v1.0.0** — India's ₹6,000 Crore Fisheries Scheme Registered 35.92 Lakh Fishers. It Has Paid Out ₹4.73 Crore. (22,425 bytes)

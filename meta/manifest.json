@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-30T07:30:37+05:30",
-  "count": 226,
+  "snapshot": "2026-08-30T07:47:22+05:30",
+  "count": 227,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -31426,6 +31426,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "8477134620379082390": {
+      "id": "8477134620379082390",
+      "title": "India's ₹6,000 Crore Fisheries Scheme Registered 35.92 Lakh Fishers. It Has Paid Out ₹4.73 Crore.",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
+      "slug": "indias-6000-crore-fisheries-scheme",
+      "published": "2026-08-30T07:43:52.363+05:30",
+      "updated": "2026-08-30T07:44:04.690+05:30",
+      "labels": [
+        "Fisheries & Aquaculture",
+        "India"
+      ],
+      "bytes": 22425,
+      "sha256": "0daccabf3ddacad6bae9bb00e254830aa100c03c9d9ac8588ac45a0383b4a7b5",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-30T07:47:22+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "feat(fisheries): first article on Fisheries & Aquaculture beat — PM-MKSSY registered-vs-paid gap, EEZ Access Pass state skew"
         }
       ]
     },
