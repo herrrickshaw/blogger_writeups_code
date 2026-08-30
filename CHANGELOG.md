@@ -8200,3 +8200,16 @@ content: add applicant/bidder counts (not just winners) to bidder-list article
 **Changed**
 
 - `nine-ministries-one-list-every-company` — 32,767 → 36,342 bytes (+3,575)
+
+## 2026-08-30T09:12:15+05:30 — 230 posts live
+
+feat(pli): expand bidder-list article to cover all 14 PLI schemes via PIB + ministry-portal research
+
+
+**Versions**
+
+- `nine-ministries-one-list-every-company` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `nine-ministries-one-list-every-company` — 36,342 → 65,821 bytes (+29,479)
