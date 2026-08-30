@@ -8126,3 +8126,16 @@ feat(electronics): PLI-LSEM vs Semicon India execution comparison, first Electro
 **Added**
 
 - `indias-mobile-phone-pli-beat-every` **v1.0.0** — India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing. (21,271 bytes)
+
+## 2026-08-30T08:17:07+05:30 — 229 posts live
+
+index: add electronics PLI article to article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **40.0.0 → 41.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 293,868 → 294,752 bytes (+884)
