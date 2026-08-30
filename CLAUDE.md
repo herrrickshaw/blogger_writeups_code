@@ -147,15 +147,16 @@ yet fixed.
 ## Scale, so you know what a full run costs
 
 The archive grows every day, so treat any count here as a reading, not a
-constant. As of **30 August 2026**: 233 files in `posts/`, 234 sidecars in
-`meta/`, 386 snapshot commits since 2026-08-06, and a fact-check corpus of 230
-reports. `--all` runs are long; they resume, so let them.
+constant. As of **30 August 2026**: 233 files in `posts/`, 233 sidecars in
+`meta/` (`ls meta/*.json` counts 234 — `manifest.json` lives there too and is
+not a sidecar), 386 snapshot commits since 2026-08-06, and a fact-check corpus
+of 230 reports. `--all` runs are long; they resume, so let them.
 
 Recompute rather than trusting the numbers above:
 
 ```bash
 ls posts/ | wc -l
-ls meta/*.json | wc -l
+ls meta/*.json | grep -v manifest.json | wc -l
 git log --oneline --since=2026-08-06 --grep='^snapshot ' | wc -l
 ```
 
