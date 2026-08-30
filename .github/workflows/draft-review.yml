@@ -1,30 +1,49 @@
 name: Draft review
 
-# A three-stage, chained review pipeline for pull requests touching out/ (new
+# A four-stage, chained review pipeline for pull requests touching out/ (new
 # post drafts) or posts/ (published content) -- the same shape as an LLM
-# prompt-chaining pipeline (each stage's scope is framed by the last), but
-# built from deterministic checks: no model calls, no API key, no per-PR
-# cost, and no risk of writing anything back.
+# prompt-chaining pipeline (each stage's scope is framed by the last):
 #
-#   Stage 1 (static rules)  -- consistency-check/checks.py's STATIC_RULES,
-#                               including the JS-parse check, run against
-#                               every changed out/**/*.html draft. This is
-#                               the same check every post in this repo has
-#                               been hand-run against before publishing.
-#   Stage 2 (content loss)  -- flags any changed posts/**/*.html or
-#                               out/**/*.html file that shrank more than 8%
-#                               vs. the PR's base ref -- the exact failure
-#                               mode behind the 2026-08-07 WPI incident and
-#                               the 2026-08-30 top-15-chemicals-for-import.html
-#                               regression documented in CLAUDE.md.
-#   Stage 3 (routing)       -- this workflow: posts (or updates) a single PR
-#                               comment with the combined findings, and fails
-#                               the check only on a BLOCKER-severity static
-#                               rule -- content loss and MINOR/MAJOR findings
-#                               are surfaced for a human to glance at, not
-#                               gated on, since plenty of legitimate edits in
-#                               this repo's own history shrink a post's byte
-#                               count too.
+#   Stage 1 (static rules)   -- consistency-check/checks.py's STATIC_RULES,
+#                                including the JS-parse check, run against
+#                                every changed out/**/*.html draft. This is
+#                                the same check every post in this repo has
+#                                been hand-run against before publishing.
+#                                No model calls, no cost.
+#   Stage 2 (content loss)   -- flags any changed posts/**/*.html or
+#                                out/**/*.html file that shrank more than 8%
+#                                vs. the PR's base ref -- the exact failure
+#                                mode behind the 2026-08-07 WPI incident and
+#                                the 2026-08-30 top-15-chemicals-for-import.html
+#                                regression documented in CLAUDE.md. No model
+#                                calls, no cost.
+#   Stage 3 (fact-check)     -- consistency-check/pr_factcheck.py sends each
+#                                changed out/**/*.html draft to Gemini,
+#                                Mistral and OpenAI independently (whichever
+#                                have keys configured -- see Secrets below),
+#                                reusing tools/multi_model_factcheck.py's
+#                                proven prompt and request patterns, pointed
+#                                at drafts before they're merged instead of
+#                                published posts after the fact. Findings are
+#                                always advisory (CLAUDE.md rule 3: "model
+#                                output is not a verified fact") -- this stage
+#                                can never fail the check, only add a section
+#                                to the PR comment.
+#   Stage 4 (routing)        -- this workflow: posts (or updates) a single PR
+#                                comment combining stages 1-3, and fails the
+#                                check only on a BLOCKER-severity static rule
+#                                from stage 1 -- content loss, fact-check
+#                                findings, and MINOR/MAJOR static-rule findings
+#                                are surfaced for a human to weigh, not gated
+#                                on.
+#
+# Secrets (optional, stage 3 only -- everything else runs with none of these
+# set): add GEMINI_API_KEY, MISTRAL_API_KEY and/or OPENAI_API_KEY as
+# repository secrets (Settings -> Secrets and variables -> Actions) to enable
+# fact-checking. Any subset works -- a provider with no key configured is
+# skipped, not treated as a failure. None of these secrets are readable by
+# tools/blogger_api.py or tools/snapshot.py; this workflow's permissions
+# block below has no access to the live blog either way.
 #
 # This workflow is read-only against the live blog: it never runs
 # tools/blogger_api.py or tools/snapshot.py, and never writes to posts/ or
@@ -54,7 +73,7 @@ jobs:
     # (see the wine/LNG/BrandSafway/canopy PRs) -- draft status is the normal
     # state to review in, not a reason to skip.
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
@@ -70,7 +89,7 @@ jobs:
       - name: Confirm node is available
         run: node --version
 
-      - name: Run staged review
+      - name: "Stage 1-2: static rules + content loss"
         id: review
         run: |
           set +e
@@ -82,14 +101,28 @@ jobs:
           set -e
           cat review.md >> "$GITHUB_STEP_SUMMARY"
 
-      - name: Comment on the PR
+      - name: "Stage 3: cross-vendor fact-check (advisory only)"
+        id: factcheck
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          python3 consistency-check/pr_factcheck.py \
+            --base-ref "${{ github.event.pull_request.base.sha }}" \
+            --head-ref "${{ github.event.pull_request.head.sha }}" \
+            > factcheck.md
+          cat factcheck.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: "Stage 4: post the combined review as a PR comment"
         uses: actions/github-script@v7
         with:
           script: |
             const fs = require('fs');
-            const body = fs.readFileSync('review.md', 'utf8');
+            const review = fs.readFileSync('review.md', 'utf8');
+            const factcheck = fs.readFileSync('factcheck.md', 'utf8');
             const marker = '<!-- draft-review-bot -->';
-            const full = `${marker}\n### Draft review\n\n${body}`;
+            const full = `${marker}\n### Draft review\n\n${review}\n\n---\n\n### Cross-vendor fact-check\n\n${factcheck}`;
             const { data: comments } = await github.rest.issues.listComments({
               owner: context.repo.owner, repo: context.repo.repo,
               issue_number: context.issue.number,
