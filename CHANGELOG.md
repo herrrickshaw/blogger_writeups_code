@@ -8117,3 +8117,12 @@ index: add PMAY-G article to article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 292,792 → 293,868 bytes (+1,076)
+
+## 2026-08-30T08:16:25+05:30 — 229 posts live
+
+feat(electronics): PLI-LSEM vs Semicon India execution comparison, first Electronics & Semiconductors piece
+
+
+**Added**
+
+- `indias-mobile-phone-pli-beat-every` **v1.0.0** — India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing. (21,271 bytes)
