@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-30T11:10:36.526+05:30",
+  "updated": "2026-08-30T11:25:42.703+05:30",
   "labels": [],
-  "bytes": 297318,
-  "sha256": "2310148f0cd5e7fb85605527eba3236f4b7e4a63271b41db062620e30d93f25c",
+  "bytes": 298590,
+  "sha256": "1e5bfa99835412147dde2919c63559de612f9aec359e8cc3c2ac627926bbad73",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "44.0.0",
+  "version": "45.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1439,6 +1439,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "index: update PLI-schemes article title in article-index-start-here"
+    },
+    {
+      "version": "45.0.0",
+      "date": "2026-08-30T11:25:59+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-2 distinct numbers)",
+      "bytes": [
+        297318,
+        298590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add TASMAC article to article-index-start-here"
     }
   ]
 }

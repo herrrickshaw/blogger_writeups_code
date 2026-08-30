@@ -8248,3 +8248,16 @@ feat(tasmac): Tamil Nadu liquor-retail privatization piece — 2,500 of 4,048 sh
 **Added**
 
 - `tasmacs-retail-exit-case-for` **v1.0.0** — TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops (24,069 bytes)
+
+## 2026-08-30T11:25:59+05:30 — 231 posts live
+
+index: add TASMAC article to article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **44.0.0 → 45.0.0** (MAJOR) — figures changed (+5/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 297,318 → 298,590 bytes (+1,272)
