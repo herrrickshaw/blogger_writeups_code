@@ -8095,3 +8095,12 @@ content: refresh dairy milk-production figure with primary Lok Sabha source; add
 
 - `the-milk-india-doesnt-drink-cheese-and` — 42,653 → 43,266 bytes (+613)
 - `rare-earth-magnets-and-specialty-steel` — 16,917 → 18,285 bytes (+1,368)
+
+## 2026-08-30T08:04:13+05:30 — 228 posts live
+
+feat(pmay-g): West Bengal PMAY-G funds-freeze piece — 5yr completion 12.1% vs national 56.6%
+
+
+**Added**
+
+- `west-bengal-sanctioned-126-lakh-pmay-g` **v1.0.0** — West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze. (22,547 bytes)
