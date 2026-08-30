@@ -8332,3 +8332,16 @@ publish Flettner rotor / alt-fuel ships post
 **Added**
 
 - `the-1920s-rotor-thats-now-on-22-real` **v1.0.0** — The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power (31,790 bytes)
+
+## 2026-08-30T22:32:05+05:30 — 236 posts live
+
+add wider wind-assist fleet stats and EcoNavis rotor R&D
+
+
+**Versions**
+
+- `the-1920s-rotor-thats-now-on-22-real` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+10/-0 distinct numbers))
+
+**Changed**
+
+- `the-1920s-rotor-thats-now-on-22-real` — 31,790 → 35,627 bytes (+3,837)
