@@ -147,9 +147,9 @@ yet fixed.
 ## Scale, so you know what a full run costs
 
 The archive grows every day, so treat any count here as a reading, not a
-constant. As of **30 August 2026**: 233 files in `posts/`, 233 sidecars in
-`meta/` (`ls meta/*.json` counts 234 — `manifest.json` lives there too and is
-not a sidecar), 398 snapshot commits (the first is dated 2026-08-06), and a
+constant. As of **30 August 2026**: 234 files in `posts/`, 234 sidecars in
+`meta/` (`ls meta/*.json` counts 235 — `manifest.json` lives there too and is
+not a sidecar), 399 snapshot commits (the first is dated 2026-08-06), and a
 fact-check corpus of 230 reports. `--all` runs are long; they resume, so let
 them.
 
@@ -162,10 +162,13 @@ git log --oneline --grep='^snapshot ' | wc -l
 ```
 
 Do **not** add `--since=2026-08-06` to that last command. It looks like the
-obvious way to scope the count and it silently returns 385, thirteen short:
+obvious way to scope the count, and it silently undercounts by around fifteen:
 `--since` prunes on commit timestamps, and the archive's opening commits carry
-a `+05:30` offset that puts them on the far side of the UTC boundary. Every
-snapshot commit is reachable anyway, so no date filter is needed.
+a `+05:30` offset that puts them on the far side of the UTC boundary, so the
+filter excludes part of the very day it names. The shortfall is a fixed set of
+early commits, so it does not shrink as the archive grows. Every snapshot
+commit is reachable from `HEAD` anyway, so no date filter is needed — compare
+the two counts yourself if you want to see the gap.
 
 Sidecar coverage is currently **complete** — every slug in `posts/` has a
 `meta/` sidecar, so MAINTENANCE §5's per-post `version_history` recovery covers
