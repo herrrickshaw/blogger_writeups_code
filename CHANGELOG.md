@@ -8274,3 +8274,12 @@ content: add Aabkari Times model-policy examples (UP e-lottery, Karnataka AIB ta
 **Changed**
 
 - `tasmacs-retail-exit-case-for` — 24,069 → 27,340 bytes (+3,271)
+
+## 2026-08-30T08:31:27+00:00 — 232 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `a-million-wine-market-behind-150-wall` **v1.0.0** — A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It (32,531 bytes)
