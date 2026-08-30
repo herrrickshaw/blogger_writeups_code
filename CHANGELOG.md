@@ -8213,3 +8213,16 @@ feat(pli): expand bidder-list article to cover all 14 PLI schemes via PIB + mini
 **Changed**
 
 - `nine-ministries-one-list-every-company` — 36,342 → 65,821 bytes (+29,479)
+
+## 2026-08-30T11:10:54+05:30 — 230 posts live
+
+index: update PLI-schemes article title in article-index-start-here
+
+
+**Versions**
+
+- `article-index-start-here` **43.0.0 → 44.0.0** (MAJOR) — figures changed (+0/-0 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 296,297 → 297,318 bytes (+1,021)

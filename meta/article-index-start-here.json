@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-30T08:49:59.653+05:30",
+  "updated": "2026-08-30T11:10:36.526+05:30",
   "labels": [],
-  "bytes": 296297,
-  "sha256": "85f7424b50cc9e0032ca3f0a6044cff205e9242f5237db3aaccc7e32327f231f",
+  "bytes": 297318,
+  "sha256": "2310148f0cd5e7fb85605527eba3236f4b7e4a63271b41db062620e30d93f25c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "43.0.0",
+  "version": "44.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1426,6 +1426,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "index: add bidder-list article to article-index-start-here"
+    },
+    {
+      "version": "44.0.0",
+      "date": "2026-08-30T11:10:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        296297,
+        297318
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: update PLI-schemes article title in article-index-start-here"
     }
   ]
 }

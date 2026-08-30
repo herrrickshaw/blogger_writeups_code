@@ -413,7 +413,7 @@
      "Anti-dumping",
      "Textiles"
     ],
-    "w": 0.567
+    "w": 0.562
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -427,14 +427,14 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.312
    }
   ]
  },
@@ -521,28 +521,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -621,7 +621,8 @@
    "Odisha",
    "Kerala",
    "Assam",
-   "Goa"
+   "Goa",
+   "Rajasthan"
   ],
   "entities": [
    "Ethanol",
@@ -735,7 +736,15 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.094
+    "w": 0.09
+   },
+   {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Petrol",
+     "Textiles"
+    ],
+    "w": 0.09
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -743,7 +752,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.094
+    "w": 0.09
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -751,15 +760,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.094
-   },
-   {
-    "slug": "where-india-actually-burns-its-fuel",
-    "shared": [
-     "PPAC",
-     "Petrol"
-    ],
-    "w": 0.083
+    "w": 0.09
    }
   ]
  },
@@ -2022,28 +2023,28 @@
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    },
    {
     "slug": "priority-trade-partners-by-import",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    }
   ]
  },
@@ -2113,7 +2114,15 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.145
+    "w": 0.141
+   },
+   {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Petrol",
+     "Textiles"
+    ],
+    "w": 0.09
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -2121,7 +2130,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.094
+    "w": 0.09
    },
    {
     "slug": "beyond-pump-what-upi-fee-would-cost",
@@ -2129,15 +2138,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.094
-   },
-   {
-    "slug": "green-gold-what-spirulina-actually-is",
-    "shared": [
-     "Ethanol",
-     "Textiles"
-    ],
-    "w": 0.093
+    "w": 0.09
    }
   ]
  },
@@ -2275,7 +2276,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.152
+    "w": 0.145
    },
    {
     "slug": "indias-subsidised-imports-fertilisers",
@@ -2284,7 +2285,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.152
+    "w": 0.145
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
@@ -2292,15 +2293,15 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.127
+    "w": 0.12
    },
    {
-    "slug": "you-cannot-substitute-crude-oil-or-gold",
+    "slug": "nine-ministries-one-list-every-company",
     "shared": [
-     "Steel",
-     "TradeStat"
+     "PLI scheme",
+     "Steel"
     ],
-    "w": 0.108
+    "w": 0.12
    }
   ]
  },
@@ -2372,7 +2373,7 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.567
+    "w": 0.562
    },
    {
     "slug": "article-index-start-here",
@@ -2387,14 +2388,14 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.343
+    "w": 0.339
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.312
    }
   ]
  },
@@ -2547,12 +2548,20 @@
   ],
   "related": [
    {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Coal",
+     "Steel"
+    ],
+    "w": 0.202
+   },
+   {
     "slug": "indias-coking-coal-import-problem-and",
     "shared": [
      "Coal",
      "Steel"
     ],
-    "w": 0.208
+    "w": 0.202
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -2560,17 +2569,10 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.208
+    "w": 0.202
    },
    {
     "slug": "where-indias-captured-carbon-would",
-    "shared": [
-     "Coal"
-    ],
-    "w": 0.125
-   },
-   {
-    "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
@@ -2702,7 +2704,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -2710,7 +2712,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    },
    {
     "slug": "indias-subsidised-imports-fertilisers",
@@ -2718,7 +2720,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -2726,7 +2728,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    }
   ]
  },
@@ -3630,7 +3632,7 @@
     "shared": [
      "Steel"
     ],
-    "w": 0.333
+    "w": 0.327
    }
   ]
  },
@@ -3667,12 +3669,20 @@
   ],
   "related": [
    {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Coal",
+     "Steel"
+    ],
+    "w": 0.202
+   },
+   {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
      "Coal",
      "Steel"
     ],
-    "w": 0.208
+    "w": 0.202
    },
    {
     "slug": "how-india-actually-plans-to-hit-net",
@@ -3680,18 +3690,10 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.208
+    "w": 0.202
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
-    "shared": [
-     "Import substitution",
-     "TradeStat"
-    ],
-    "w": 0.136
-   },
-   {
-    "slug": "half-of-indias-import-bill-is",
     "shared": [
      "Import substitution",
      "TradeStat"
@@ -4285,14 +4287,6 @@
   ],
   "related": [
    {
-    "slug": "indias-coal-to-chemicals-menu-ranked-by",
-    "shared": [
-     "Steel",
-     "Urea"
-    ],
-    "w": 0.155
-   },
-   {
     "slug": "article-index-start-here",
     "shared": [
      "Crude oil",
@@ -4302,13 +4296,21 @@
     "w": 0.153
    },
    {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Steel",
+     "Urea"
+    ],
+    "w": 0.148
+   },
+   {
     "slug": "priority-trade-partners-by-import",
     "shared": [
      "PLI scheme",
      "Steel",
      "TradeStat"
     ],
-    "w": 0.152
+    "w": 0.145
    },
    {
     "slug": "fy2025-26-sample-report-india-trade",
@@ -4317,7 +4319,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.152
+    "w": 0.145
    }
   ]
  },
@@ -4384,7 +4386,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.108
+    "w": 0.104
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -4392,7 +4394,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.108
+    "w": 0.104
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -4400,7 +4402,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -4408,7 +4410,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    }
   ]
  },
@@ -5089,22 +5091,37 @@
   ]
  },
  "nine-ministries-one-list-every-company": {
-  "title": "Nine Ministries, One List: Every Company India Named as a Government-Tender Winner, 2019–2026",
+  "title": "India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "published": "2026-08-30",
   "countries": [],
   "states": [
    "Rajasthan",
-   "Chhattisgarh"
+   "Maharashtra",
+   "Karnataka",
+   "Gujarat",
+   "Chhattisgarh",
+   "Madhya Pradesh"
   ],
   "entities": [
    "PLI scheme",
+   "Textiles",
    "Coal",
+   "Steel",
    "GST",
    "Natural gas",
    "Petrol"
   ],
   "related": [
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Coal",
+     "Natural gas",
+     "Steel"
+    ],
+    "w": 0.302
+   },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
@@ -5115,28 +5132,20 @@
     "w": 0.252
    },
    {
-    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "slug": "indias-coking-coal-import-problem-and",
     "shared": [
      "Coal",
-     "Natural gas"
+     "Steel"
     ],
-    "w": 0.225
+    "w": 0.202
    },
    {
-    "slug": "scan-bottle-deliver-what-ppacs-numbers",
+    "slug": "how-india-actually-plans-to-hit-net",
     "shared": [
-     "Natural gas",
-     "Petrol"
+     "Coal",
+     "Steel"
     ],
-    "w": 0.127
-   },
-   {
-    "slug": "cgd-geographical-areas-district",
-    "shared": [
-     "Natural gas",
-     "Petrol"
-    ],
-    "w": 0.127
+    "w": 0.202
    }
   ]
  },
@@ -5714,7 +5723,15 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.127
+    "w": 0.12
+   },
+   {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "PLI scheme",
+     "Steel"
+    ],
+    "w": 0.12
    },
    {
     "slug": "indias-subsidised-imports-fertilisers",
@@ -5722,7 +5739,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.127
+    "w": 0.12
    },
    {
     "slug": "fy2025-26-sample-report-india-trade",
@@ -5730,14 +5747,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.127
-   },
-   {
-    "slug": "you-cannot-substitute-crude-oil-or-gold",
-    "shared": [
-     "Steel"
-    ],
-    "w": 0.083
+    "w": 0.12
    }
   ]
  },
@@ -5806,15 +5816,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.38
-   },
-   {
-    "slug": "green-gold-what-spirulina-actually-is",
-    "shared": [
-     "Ethanol",
-     "Textiles"
-    ],
-    "w": 0.343
+    "w": 0.376
    },
    {
     "slug": "article-index-start-here",
@@ -5826,12 +5828,21 @@
     "w": 0.342
    },
    {
-    "slug": "priority-export-destinations-by-growth",
+    "slug": "petroleum-trade-pairings-and-us-crude",
     "shared": [
-     "Textiles",
+     "Crude oil",
+     "Petrol",
      "TradeStat"
     ],
-    "w": 0.342
+    "w": 0.34
+   },
+   {
+    "slug": "green-gold-what-spirulina-actually-is",
+    "shared": [
+     "Ethanol",
+     "Textiles"
+    ],
+    "w": 0.339
    }
   ]
  },
@@ -6356,28 +6367,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.567
+    "w": 0.562
    },
    {
     "slug": "green-gold-what-spirulina-actually-is",
     "shared": [
      "Textiles"
     ],
-    "w": 0.567
+    "w": 0.562
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "priority-export-destinations-by-growth",
     "shared": [
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.312
    }
   ]
  },
@@ -6455,7 +6466,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    },
    {
     "slug": "re-spinning-charkha",
@@ -6463,7 +6474,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -6471,7 +6482,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -6479,7 +6490,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.092
+    "w": 0.087
    }
   ]
  },
@@ -7419,7 +7430,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.108
+    "w": 0.104
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -7427,21 +7438,21 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.108
+    "w": 0.104
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "Textiles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -7842,32 +7853,33 @@
   ],
   "related": [
    {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Steel",
+     "Textiles"
+    ],
+    "w": 0.139
+   },
+   {
     "slug": "you-cannot-substitute-crude-oil-or-gold",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.077
    },
    {
     "slug": "priority-trade-partners-by-import",
     "shared": [
      "Steel"
     ],
-    "w": 0.083
-   },
-   {
-    "slug": "indias-subsidised-imports-fertilisers",
-    "shared": [
-     "Steel"
-    ],
-    "w": 0.083
+    "w": 0.077
    }
   ]
  },
@@ -8661,7 +8673,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.147
+    "w": 0.14
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -8669,7 +8681,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -8677,7 +8689,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    },
    {
     "slug": "import-dependent-sectors-vs-government",
@@ -8685,7 +8697,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.108
+    "w": 0.102
    }
   ]
  }
