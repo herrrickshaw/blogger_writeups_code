@@ -8239,3 +8239,12 @@ content: add HS-code magnet import-bill data (DGCIS) to rare-earth magnets artic
 **Changed**
 
 - `rare-earth-magnets-and-specialty-steel` — 18,285 → 20,855 bytes (+2,570)
+
+## 2026-08-30T11:25:17+05:30 — 231 posts live
+
+feat(tasmac): Tamil Nadu liquor-retail privatization piece — 2,500 of 4,048 shops, quality/regulation/tax case
+
+
+**Added**
+
+- `tasmacs-retail-exit-case-for` **v1.0.0** — TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops (24,069 bytes)
