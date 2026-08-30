@@ -8283,3 +8283,20 @@ scheduled sync
 **Added**
 
 - `a-million-wine-market-behind-150-wall` **v1.0.0** — A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It (32,531 bytes)
+
+## 2026-08-30T17:47:15+05:30 — 233 posts live
+
+restore: recovered PCPIR section, disclaimer, translate widget and index link lost from the live post
+
+
+**Added**
+
+- `the-helper-motor-trick-that-already` **v1.0.0** — The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine (27,140 bytes)
+
+**Versions**
+
+- `top-15-chemicals-for-import` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+37/-0 distinct numbers))
+
+**Changed**
+
+- `top-15-chemicals-for-import` — 89,466 → 101,140 bytes (+11,674); markers revision_line False→True
