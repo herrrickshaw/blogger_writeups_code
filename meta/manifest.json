@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-08-30T08:31:27+00:00",
-  "count": 232,
+  "snapshot": "2026-08-30T18:07:46+05:30",
+  "count": 235,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -640,13 +640,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-08-25T10:36:22.360+05:30",
+      "updated": "2026-08-30T17:46:49.739+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 89466,
-      "sha256": "dcde2073e99255a1407c3bb1321983fbca8c2bc0eac6b7246f2e18f2551d80a0",
+      "bytes": 101140,
+      "sha256": "988faf16669eeb409226d6682c68c49ed93741327031144a003a99cf8e57b707",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -654,11 +654,11 @@
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
-        "revision_line": false,
+        "revision_line": true,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -879,6 +879,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-08-30T18:07:46+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+37/-0 distinct numbers))",
+          "bytes": [
+            89466,
+            101140
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "revision_line": [
+              false,
+              true
+            ]
+          },
+          "note": "first published: UK retail canopy height standards post"
         }
       ]
     },
@@ -14499,6 +14517,38 @@
         }
       ]
     },
+    "4536759894981506393": {
+      "id": "4536759894981506393",
+      "title": "UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
+      "slug": "uk-retail-canopies-at-54m-real-design",
+      "published": "2026-08-30T18:07:20.344+05:30",
+      "updated": "2026-08-30T18:07:20.344+05:30",
+      "labels": [],
+      "bytes": 27963,
+      "sha256": "3f1640e570d8b4ef298fae8e7926defac5b75a0f697aac65560fb49d3542b355",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-30T18:07:46+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "first published: UK retail canopy height standards post"
+        }
+      ]
+    },
     "4540001917901304633": {
       "id": "4540001917901304633",
       "title": "Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen",
@@ -27749,7 +27799,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
       "slug": "a-million-wine-market-behind-150-wall",
       "published": "2026-08-30T13:25:43.000+05:30",
-      "updated": "2026-08-30T14:00:18.331+05:30",
+      "updated": "2026-08-30T16:49:46.760+05:30",
       "labels": [],
       "bytes": 32531,
       "sha256": "d9e715a95207e19cedcf8df4d27652c2e691f84dcf3c31e2237a958f93c53652",
@@ -28982,6 +29032,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "7746751441164958902": {
+      "id": "7746751441164958902",
+      "title": "The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
+      "slug": "the-helper-motor-trick-that-already",
+      "published": "2026-08-30T16:49:04.319+05:30",
+      "updated": "2026-08-30T16:49:04.319+05:30",
+      "labels": [],
+      "bytes": 27140,
+      "sha256": "7eda7d28e3a10f5d9713d740e2c6673d8d226400ea2abb701402f5019ebf3a30",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-30T18:07:46+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "first published: UK retail canopy height standards post"
         }
       ]
     },
@@ -35248,6 +35330,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Clarity fixes from Mistral content review: informal phrasing, vague 'planning queue' wording, PM3/B15 divergence context"
+        }
+      ]
+    },
+    "9165231126204000395": {
+      "id": "9165231126204000395",
+      "title": "BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
+      "slug": "brandsafway-and-2017-roll-up-wave-that",
+      "published": "2026-08-30T17:58:26.538+05:30",
+      "updated": "2026-08-30T17:58:26.538+05:30",
+      "labels": [],
+      "bytes": 24335,
+      "sha256": "730f899d0268f4cfc701ae32b1012cf3227f34e6134d7cdeb66dd34169b88d01",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-30T18:07:46+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "first published: UK retail canopy height standards post"
         }
       ]
     },
