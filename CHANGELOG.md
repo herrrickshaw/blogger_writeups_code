@@ -8261,3 +8261,16 @@ index: add TASMAC article to article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 297,318 → 298,590 bytes (+1,272)
+
+## 2026-08-30T11:28:04+05:30 — 231 posts live
+
+content: add Aabkari Times model-policy examples (UP e-lottery, Karnataka AIB tax) to TASMAC piece
+
+
+**Versions**
+
+- `tasmacs-retail-exit-case-for` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `tasmacs-retail-exit-case-for` — 24,069 → 27,340 bytes (+3,271)
