@@ -149,16 +149,23 @@ yet fixed.
 The archive grows every day, so treat any count here as a reading, not a
 constant. As of **30 August 2026**: 233 files in `posts/`, 233 sidecars in
 `meta/` (`ls meta/*.json` counts 234 — `manifest.json` lives there too and is
-not a sidecar), 386 snapshot commits since 2026-08-06, and a fact-check corpus
-of 230 reports. `--all` runs are long; they resume, so let them.
+not a sidecar), 398 snapshot commits (the first is dated 2026-08-06), and a
+fact-check corpus of 230 reports. `--all` runs are long; they resume, so let
+them.
 
 Recompute rather than trusting the numbers above:
 
 ```bash
 ls posts/ | wc -l
 ls meta/*.json | grep -v manifest.json | wc -l
-git log --oneline --since=2026-08-06 --grep='^snapshot ' | wc -l
+git log --oneline --grep='^snapshot ' | wc -l
 ```
+
+Do **not** add `--since=2026-08-06` to that last command. It looks like the
+obvious way to scope the count and it silently returns 385, thirteen short:
+`--since` prunes on commit timestamps, and the archive's opening commits carry
+a `+05:30` offset that puts them on the far side of the UTC boundary. Every
+snapshot commit is reachable anyway, so no date filter is needed.
 
 Sidecar coverage is currently **complete** — every slug in `posts/` has a
 `meta/` sidecar, so MAINTENANCE §5's per-post `version_history` recovery covers
