@@ -8283,3 +8283,69 @@ scheduled sync
 **Added**
 
 - `a-million-wine-market-behind-150-wall` **v1.0.0** — A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It (32,531 bytes)
+
+## 2026-08-30T16:49:34+05:30 — 233 posts live
+
+first published: LNG starter-helper motor / E-drive retrofit post
+
+
+**Added**
+
+- `the-helper-motor-trick-that-already` **v1.0.0** — The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine (27,140 bytes)
+
+## 2026-08-30T17:47:15+05:30 — 233 posts live
+
+restore: recovered PCPIR section, disclaimer, translate widget and index link lost from the live post
+
+
+**Versions**
+
+- `top-15-chemicals-for-import` **4.0.0 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+37/-0 distinct numbers))
+
+**Changed**
+
+- `top-15-chemicals-for-import` — 89,466 → 101,140 bytes (+11,674); markers revision_line False→True
+
+## 2026-08-30T17:58:50+05:30 — 234 posts live
+
+first published: BrandSafway / 2017 industrial-services roll-up post
+
+
+**Added**
+
+- `brandsafway-and-2017-roll-up-wave-that` **v1.0.0** — BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry (24,335 bytes)
+
+## 2026-08-30T18:07:46+05:30 — 235 posts live
+
+first published: UK retail canopy height standards post
+
+
+**Added**
+
+- `uk-retail-canopies-at-54m-real-design` **v1.0.0** — UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m (27,963 bytes)
+
+## 2026-08-30T22:16:58+05:30 — 236 posts live
+
+publish Flettner rotor / alt-fuel ships post
+
+
+**Added**
+
+- `the-1920s-rotor-thats-now-on-22-real` **v1.0.0** — The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power (31,790 bytes)
+
+## 2026-08-30T22:42:28+05:30 — 237 posts live
+
+publish CUI/FSRU/FPSO asset-integrity post
+
+
+**Added**
+
+- `the-corrosion-you-cant-see-until` **v1.0.0** — The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs (31,489 bytes)
+
+**Versions**
+
+- `the-1920s-rotor-thats-now-on-22-real` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+10/-0 distinct numbers))
+
+**Changed**
+
+- `the-1920s-rotor-thats-now-on-22-real` — 31,790 → 35,627 bytes (+3,837)
