@@ -146,9 +146,28 @@ yet fixed.
 
 ## Scale, so you know what a full run costs
 
-169 sidecars, 188 files in `posts/` (19 are posts that left the public feed and
-have no sidecar), 271 snapshot commits since 2026-08-06, and a fact-check corpus
-of 186 reports. `--all` runs are long; they resume, so let them.
+The archive grows every day, so treat any count here as a reading, not a
+constant. As of **30 August 2026**: 233 files in `posts/`, 234 sidecars in
+`meta/`, 386 snapshot commits since 2026-08-06, and a fact-check corpus of 230
+reports. `--all` runs are long; they resume, so let them.
+
+Recompute rather than trusting the numbers above:
+
+```bash
+ls posts/ | wc -l
+ls meta/*.json | wc -l
+git log --oneline --since=2026-08-06 --grep='^snapshot ' | wc -l
+```
+
+Sidecar coverage is currently **complete** — every slug in `posts/` has a
+`meta/` sidecar, so MAINTENANCE §5's per-post `version_history` recovery covers
+the whole archive. It was not always so: 19 posts were uncovered as of
+2026-08-18. If that gap reopens, this finds it:
+
+```bash
+comm -23 <(ls posts/ | sed 's/\.[^.]*$//' | sort -u) \
+         <(ls meta/ | sed 's/\.json$//' | sort -u)
+```
 
 Cloud sessions often get a **shallow** clone. Check with
 `git rev-parse --is-shallow-repository` before drawing any conclusion from
