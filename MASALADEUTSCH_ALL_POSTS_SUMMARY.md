@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*221 published posts, 38 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*229 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 29 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 30 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -248,7 +248,7 @@
 - **[Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)** — 2026-08-19
   On 30 April 2026, lemons were selling for ₹250/kg in the open market at Tamil Nadu's Puliyangudi market — a drought had cut the daily influx from 150-200 tonnes to 75. A year earlier, in the same state's Dindigul district, farmers were switching out of guava and tomato into lemon at a steady ₹90/kg, for a much duller reason: a fallen lemon survives three days on the ground, a fallen guava starts rotting immediately. Both stories are true, and they're the same crop.
 - **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
-  India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
+  India made 247.87 million tonnes of milk in 2024-25 — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 - **[Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html)** — 2026-08-16
   BASF and Mitsubishi are not partners on rice carbon credits in India — they run two separate, competing programmes. That correction turns out to matter, because both sit on top of a carbon-credit methodology that only recently survived a near-total market collapse: Verra invalidated 37 rice-methane projects and 4.5 million credits in 2024 — effectively all the rice credits that existed. This piece untangles who's actually doing what in India, what the carbon-credit science underneath it looked like before and after the collapse, and a third, unrelated thread — Japan's agrivoltaic rice-paddy research — that shares a crop but not a market.
 - **[Guar Gum: India's $3.5 Billion Export Peak, the Crash After, and Why the Crop Still Makes Sense on Poor Soil](https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html)** — 2026-08-16
@@ -315,7 +315,7 @@
 - **[The National Beekeeping & Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It](https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html)** — 2026-08-20
   India became the world's second-largest honey exporter in 2024, up from ninth place four years earlier, on the back of a ₹500 crore Central Sector Scheme. The same four years contain a fact the scheme's own success story rarely mentions: a 2020 government-linked investigation found ten of thirteen major honey brands sold in Indian shops failed the internationally accepted purity test for the exact adulteration those brands were accused of — and that test still isn't mandatory for anything sold domestically, only for export.
 - **[The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)** — 2026-08-19
-  India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
+  India made 247.87 million tonnes of milk in 2024-25 — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
@@ -459,6 +459,11 @@
 
 - **[5,071 Items You Cannot Import, and the Rs 2,570 Crore That Replaced Them](https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html)** — 2026-08-23
   India has banned the import of 5,071 defence items across six lists, funded a ₹750 crore innovation scheme to invent replacements, and hit a record ₹1.78 lakh crore of annual defence production. Those three numbers are all real and all official, and they do not add up to the same story. The substitution actually booked against the banned-items lists is ₹2,570 crore — about 1.4 per cent of one year’s production, and roughly ₹94 lakh per item.
+
+### Electronics & Semiconductors (1)
+
+- **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
+  India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
 ### Energy & Fuels (64)
 
@@ -646,6 +651,11 @@
 - **[From Cane to Code: The Digital Layer Underneath India's E20 Milestone](https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html)** — 2026-08-08
   India hit 20% ethanol blending five years ahead of its own 2030 target, and immediately started planning the next phase — E22, E30, flex-fuel vehicles, E85 dispensing. That next phase is a harder operational problem than the last one, and it is being met with satellite crop models, AI-tuned distillation columns, and academic proposals for blockchain traceability. This piece maps what is actually deployed against what is still two research papers.
 
+### Fisheries & Aquaculture (1)
+
+- **[India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)** — 2026-08-30
+  PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
+
 ### Gas & LNG (9)
 
 - **[Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)** — 2026-08-22
@@ -711,8 +721,22 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### India (21)
+### India (28)
 
+- **[TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html)** — 2026-08-30
+  Tamil Nadu's new government wants to hand roughly 2,500 of TASMAC's 4,048 retail liquor shops to private licensees, ending a 23-year state retail monopoly. The trigger is a ₹1,000-crore-plus corruption case, not an ideological turn — and the model the state says it's copying, used in Karnataka, Andhra Pradesh and Puducherry, keeps the state as wholesale gatekeeper while outsourcing the part of the business that kept generating scandals: the shop counter.
+- **[India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026](https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html)** — 2026-08-30
+  India runs 14 Production Linked Incentive schemes and a handful of major competitive-auction programmes, and almost every one of them names its winners in public — in Press Information Bureau releases and, less consistently, on ministry websites, but never on one aggregated portal. This piece compiles all 14 PLI schemes plus four auction categories, reading the actual release and portal text rather than trusting a headline. It also asks the harder question — how many companies actually competed, not just who won — and reports plainly, scheme by scheme, what is and isn't publicly known. No names or numbers are invented where none exist.
+- **[India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)** — 2026-08-30
+  PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
+- **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
+  India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
+- **[West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.](https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html)** — 2026-08-30
+  West Bengal has sanctioned 99.99% of its PMAY-G rural-housing target since FY2021-22 — and completed 12% of it. Nationally, the completion rate over the same window is 56.6%. The gap isn't a construction problem: Parliament's own answer says the Centre withheld West Bengal's funds over irregularity complaints starting FY2022-23, and the state's own corrective report is still "under examination" four years later.
+- **[India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State](https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html)** — 2026-08-29
+  "Upcoming" is doing a lot of work in Jal Jeevan Mission progress reports. Pull the actual scheme-status data behind the headline household-connection numbers, and a specific pattern falls out: almost none of what's "upcoming" is actually waiting to start. It's already under construction.
+- **[AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money](https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html)** — 2026-08-29
+  AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally. Water supply alone is 41% of that project count but 60% of the money — the single most capital-intensive line item in India's urban infrastructure programme. What the public data can't tell you, unlike its rural counterpart, is how much of that money has actually been spent.
 - **[The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html)** — 2026-08-28
   India's oil ministry has its own scoreboard for how seriously the world's oil and gas majors are taking decarbonisation — and it isn't flattering. Buried in the Energy Transition Advisory Committee's 2023 report "The Green Shift" is a company-by-company table of who has pledged what, and a companion chart showing oil and gas has the weakest net-zero commitment rate of any hard-to-abate sector benchmarked. The same report is also the clearest public trail connecting that global scorecard to what ONGC, IOCL and OIL are actually building at home — carbon injection wells and biogas-fertiliser plants, not press-release pledges.
 - **[Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map](https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html)** — 2026-08-28
@@ -783,8 +807,12 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (55)
+### Industrial Policy (57)
 
+- **[India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026](https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html)** — 2026-08-30
+  India runs 14 Production Linked Incentive schemes and a handful of major competitive-auction programmes, and almost every one of them names its winners in public — in Press Information Bureau releases and, less consistently, on ministry websites, but never on one aggregated portal. This piece compiles all 14 PLI schemes plus four auction categories, reading the actual release and portal text rather than trusting a headline. It also asks the harder question — how many companies actually competed, not just who won — and reports plainly, scheme by scheme, what is and isn't publicly known. No names or numbers are invented where none exist.
+- **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
+  India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 - **[How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture](https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html)** — 2026-08-28
   In February 2026, NITI Aayog published eleven reports doing something no Indian government body had done before: modelling, sector by sector, what it actually takes to hit both Viksit Bharat 2047 and Net Zero 2070 at the same time. The headline numbers are stark — $22.7 trillion in investment, a $6.5 trillion gap, coal consumption that keeps rising for another two decades even inside the Net Zero pathway — and carbon capture keeps showing up as the technology the scenarios lean on wherever electrification alone can't reach. This piece summarises what all eleven reports actually say, and traces the ₹20,000 crore bet on Carbon Capture, Utilisation and Storage (CCUS) the government has placed to back one part of that plan.
 - **[The Battery Passport Was Built for Recycling. Now It's Also the Fix for Battery Fires.](https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html)** — 2026-08-27
@@ -896,8 +924,14 @@
 - **[India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)** — 2026-07-21
   Every chart and dataset in this project, served directly via GitHub Pages. Companion repo: India Trade & Macro Data Analysis (the descriptive half).
 
-### Infrastructure & Investment (3)
+### Infrastructure & Investment (6)
 
+- **[West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.](https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html)** — 2026-08-30
+  West Bengal has sanctioned 99.99% of its PMAY-G rural-housing target since FY2021-22 — and completed 12% of it. Nationally, the completion rate over the same window is 56.6%. The gap isn't a construction problem: Parliament's own answer says the Centre withheld West Bengal's funds over irregularity complaints starting FY2022-23, and the state's own corrective report is still "under examination" four years later.
+- **[India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State](https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html)** — 2026-08-29
+  "Upcoming" is doing a lot of work in Jal Jeevan Mission progress reports. Pull the actual scheme-status data behind the headline household-connection numbers, and a specific pattern falls out: almost none of what's "upcoming" is actually waiting to start. It's already under construction.
+- **[AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money](https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html)** — 2026-08-29
+  AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally. Water supply alone is 41% of that project count but 60% of the money — the single most capital-intensive line item in India's urban infrastructure programme. What the public data can't tell you, unlike its rural counterpart, is how much of that money has actually been spent.
 - **[Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and None of Them Match the Number You've Heard](https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html)** — 2026-08-25
   Tamil Nadu's rivers, lakes and canals draw money from at least three separate directions at once: a German development bank funding urban water infrastructure in half-billion-euro tranches, a state government running its own tank-desilting programme in parallel, and a much larger climate-resilience project still at the feasibility stage. None of these numbers add up to the figure that's been circulating for the flagship river-restoration deal — and the technical rulebook behind all of them says the actual volume of silt that should come out of a riverbed is a site-specific calculation, not a target set in advance.
 - **[Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html)** — 2026-08-23
@@ -950,8 +984,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (32)
+### Markets & Finance (33)
 
+- **[TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html)** — 2026-08-30
+  Tamil Nadu's new government wants to hand roughly 2,500 of TASMAC's 4,048 retail liquor shops to private licensees, ending a 23-year state retail monopoly. The trigger is a ₹1,000-crore-plus corruption case, not an ideological turn — and the model the state says it's copying, used in Karnataka, Andhra Pradesh and Puducherry, keeps the state as wholesale gatekeeper while outsourcing the part of the business that kept generating scandals: the shop counter.
 - **[Oilfield Costs Rose 6–8% While Global Spending Fell. Asia's Thin Rig Fleet Is Where That Squeeze Bites Hardest.](https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html)** — 2026-08-26
   S&P Global's oilfield cost indexes say building and running an oil or gas project got roughly 6–8% more expensive over the past year. The same year, the industry spent less money doing it — global upstream capital spending is falling for a second straight year running. India's own oil and gas public-sector companies just posted their first first-quarter capex decline in at least five years. None of this is a coincidence; it's the same cost squeeze showing up in three different data sets.
 - **[India's Shrimp Exports Did Not Collapse. The Code Did.](https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html)** — 2026-08-23
@@ -1202,8 +1238,10 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (2)
+### Unlabelled (3)
 
+- **[A  Million Wine Market Behind a 150% Wall, and the Deal That Cracks It](https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html)** — 2026-08-30
+  India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
 - **[India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)** — 2026-08-21
   India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
@@ -2056,7 +2094,7 @@ On 30 April 2026, lemons were selling for ₹250/kg in the open market at Tamil 
 ### [The Milk India Doesn't Drink: Cheese and the Value-Added Dairy Opportunity](https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html)
 *2026-08-19 · Agriculture & Fertilisers, Agriculture & Food Processing*
 
-India makes 216.5 million tonnes of milk a year — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
+India made 247.87 million tonnes of milk in 2024-25 — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day. The remaining third is where cheese lives, and cheese is currently a rounding error inside it. A Maharashtra cooperative-adjacent brand betting ₹100 crore on a mozzarella plant, and an Indian cheesemaker just medalling in Brazil, are both symptoms of the same gap closing.
 
 ### [Global Biofuels M&A: A Bankruptcy, a Bolt-On, and Where the Capital Is Actually Going](https://masaladeutsch.blogspot.com/2026/08/global-biofuels-m-bankruptcy-bolt-on.html)
 *2026-08-19 · Ethanol & Biofuels, Markets & Finance*
@@ -2317,3 +2355,43 @@ It's a common assumption that the EU Emissions Trading System is what makes a co
 *2026-08-28 · Climate & Carbon, Energy & Fuels, Industrial Policy*
 
 In February 2026, NITI Aayog published eleven reports doing something no Indian government body had done before: modelling, sector by sector, what it actually takes to hit both Viksit Bharat 2047 and Net Zero 2070 at the same time. The headline numbers are stark — $22.7 trillion in investment, a $6.5 trillion gap, coal consumption that keeps rising for another two decades even inside the Net Zero pathway — and carbon capture keeps showing up as the technology the scenarios lean on wherever electrification alone can't reach. This piece summarises what all eleven reports actually say, and traces the ₹20,000 crore bet on Carbon Capture, Utilisation and Storage (CCUS) the government has placed to back one part of that plan.
+
+### [India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State](https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html)
+*2026-08-29 · India, Infrastructure & Investment*
+
+"Upcoming" is doing a lot of work in Jal Jeevan Mission progress reports. Pull the actual scheme-status data behind the headline household-connection numbers, and a specific pattern falls out: almost none of what's "upcoming" is actually waiting to start. It's already under construction.
+
+### [AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money](https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html)
+*2026-08-29 · India, Infrastructure & Investment*
+
+AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally. Water supply alone is 41% of that project count but 60% of the money — the single most capital-intensive line item in India's urban infrastructure programme. What the public data can't tell you, unlike its rural counterpart, is how much of that money has actually been spent.
+
+### [TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html)
+*2026-08-30 · India, Markets & Finance*
+
+Tamil Nadu's new government wants to hand roughly 2,500 of TASMAC's 4,048 retail liquor shops to private licensees, ending a 23-year state retail monopoly. The trigger is a ₹1,000-crore-plus corruption case, not an ideological turn — and the model the state says it's copying, used in Karnataka, Andhra Pradesh and Puducherry, keeps the state as wholesale gatekeeper while outsourcing the part of the business that kept generating scandals: the shop counter.
+
+### [India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026](https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html)
+*2026-08-30 · India, Industrial Policy*
+
+India runs 14 Production Linked Incentive schemes and a handful of major competitive-auction programmes, and almost every one of them names its winners in public — in Press Information Bureau releases and, less consistently, on ministry websites, but never on one aggregated portal. This piece compiles all 14 PLI schemes plus four auction categories, reading the actual release and portal text rather than trusting a headline. It also asks the harder question — how many companies actually competed, not just who won — and reports plainly, scheme by scheme, what is and isn't publicly known. No names or numbers are invented where none exist.
+
+### [India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)
+*2026-08-30 · Fisheries & Aquaculture, India*
+
+PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
+
+### [India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)
+*2026-08-30 · Electronics & Semiconductors, India, Industrial Policy*
+
+India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
+
+### [West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.](https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html)
+*2026-08-30 · India, Infrastructure & Investment*
+
+West Bengal has sanctioned 99.99% of its PMAY-G rural-housing target since FY2021-22 — and completed 12% of it. Nationally, the completion rate over the same window is 56.6%. The gap isn't a construction problem: Parliament's own answer says the Centre withheld West Bengal's funds over irregularity complaints starting FY2022-23, and the state's own corrective report is still "under examination" four years later.
+
+### [A  Million Wine Market Behind a 150% Wall, and the Deal That Cracks It](https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html)
+*2026-08-30 · —*
+
+India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
