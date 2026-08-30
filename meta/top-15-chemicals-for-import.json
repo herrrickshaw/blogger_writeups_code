@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-25T10:36:22.360+05:30",
+  "updated": "2026-08-30T17:46:49.739+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 89466,
-  "sha256": "dcde2073e99255a1407c3bb1321983fbca8c2bc0eac6b7246f2e18f2551d80a0",
+  "bytes": 101140,
+  "sha256": "988faf16669eeb409226d6682c68c49ed93741327031144a003a99cf8e57b707",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -18,11 +18,11 @@
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
-    "revision_line": false,
+    "revision_line": true,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -243,6 +243,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-08-30T17:58:50+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+37/-0 distinct numbers))",
+      "bytes": [
+        89466,
+        101140
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "revision_line": [
+          false,
+          true
+        ]
+      },
+      "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
     }
   ]
 }
