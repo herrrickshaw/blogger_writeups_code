@@ -8314,3 +8314,12 @@ first published: BrandSafway / 2017 industrial-services roll-up post
 **Added**
 
 - `brandsafway-and-2017-roll-up-wave-that` **v1.0.0** — BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry (24,335 bytes)
+
+## 2026-08-30T18:07:46+05:30 — 235 posts live
+
+first published: UK retail canopy height standards post
+
+
+**Added**
+
+- `uk-retail-canopies-at-54m-real-design` **v1.0.0** — UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m (27,963 bytes)
