@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-30T08:17:07+05:30",
+  "snapshot": "2026-08-30T08:43:53+05:30",
   "count": 229,
   "posts": {
     "1058853159205559121": {
@@ -31554,17 +31554,17 @@
     },
     "8477134620379082390": {
       "id": "8477134620379082390",
-      "title": "India's ₹6,000 Crore Fisheries Scheme Registered 35.92 Lakh Fishers. It Has Paid Out ₹4.73 Crore.",
+      "title": "India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.",
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
       "slug": "indias-6000-crore-fisheries-scheme",
       "published": "2026-08-30T07:43:52.363+05:30",
-      "updated": "2026-08-30T07:44:04.690+05:30",
+      "updated": "2026-08-30T08:43:26.327+05:30",
       "labels": [
         "Fisheries & Aquaculture",
         "India"
       ],
-      "bytes": 22425,
-      "sha256": "0daccabf3ddacad6bae9bb00e254830aa100c03c9d9ac8588ac45a0383b4a7b5",
+      "bytes": 24525,
+      "sha256": "635aae188885aad9dcdb962fe8cdcc7129dce3dc62856664887fbc1c390ea43c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31576,7 +31576,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31584,6 +31584,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "feat(fisheries): first article on Fisheries & Aquaculture beat — PM-MKSSY registered-vs-paid gap, EEZ Access Pass state skew"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-08-30T08:43:53+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            22425,
+            24525
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "fix(fisheries): retitle around allocation framing; resolve enterprises-table mismatch via NFDP live data; flag PMMSY dashboard as stale"
         }
       ]
     },

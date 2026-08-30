@@ -8139,3 +8139,16 @@ index: add electronics PLI article to article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 293,868 → 294,752 bytes (+884)
+
+## 2026-08-30T08:43:53+05:30 — 229 posts live
+
+fix(fisheries): retitle around allocation framing; resolve enterprises-table mismatch via NFDP live data; flag PMMSY dashboard as stale
+
+
+**Versions**
+
+- `indias-6000-crore-fisheries-scheme` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-6000-crore-fisheries-scheme` — 22,425 → 24,525 bytes (+2,100)
