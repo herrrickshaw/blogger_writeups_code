@@ -297,6 +297,42 @@ def failed(out):
     return "API error" in out or "network error" in out
 
 
+# A billing/auth failure is TERMINAL for the run: it will not clear between one
+# post and the next, so calling the provider again 185 more times buys nothing.
+# A quota (429 rate-limit) or network error is NOT terminal — those do clear, and
+# a provider that is merely rate-limited right now should stay in the panel.
+#
+# Measured 2026-08-18 over the 186 reports in out/factcheck/: Kimi returned 0
+# usable answers in 172 calls (429, "insufficient balance") and Cerebras 0 in 171
+# (402, "payment required"). That is 343 calls per full sweep spent on endpoints
+# that cannot answer. The probe below spends 2 calls to find that out instead.
+TERMINAL = re.compile(
+    r"insufficient balance|payment[_ ]required|exceeded_current_quota"
+    r"|API error (401|402|403)\b", re.I)
+
+
+def probe(label, fn, k):
+    """One cheap call to see whether an optional provider can answer at all.
+
+    Returns (usable, reason). Only a TERMINAL failure drops the provider; a
+    transient one leaves it in, because the point is to skip endpoints that are
+    dead for the whole run, not to punish a provider for one bad moment.
+
+    Self-healing by design: nothing here is hardcoded to "off". Fund the account
+    and the next run's probe passes and the provider rejoins the panel with no
+    code change.
+    """
+    out = fn(k, "Reply with the single word OK.")
+    if not failed(out):
+        return True, ""
+    reason = re.sub(r"\s+", " ", out).strip()[:120]
+    if TERMINAL.search(out):
+        return False, reason
+    print(f"  ! {label} probe failed but not terminally, keeping it in the panel: {reason}",
+          file=sys.stderr)
+    return True, ""
+
+
 def already_done(slug):
     """A clean prior report from the required models, or a deliberate too-large
     skip (terminal — retrying won't make the post smaller) — skip on resumed runs."""
@@ -311,7 +347,7 @@ def already_done(slug):
     return bool(required) and not any(failed(s) for s in required)
 
 
-def run_one(path, gk, qk, mk, kk, ck):
+def run_one(path, gk, qk, mk, kk, ck, skipped=()):
     text = extract_text(path)
     slug = pathlib.Path(path).stem
     print(f"… {slug}  ({len(text)} chars)")
@@ -346,6 +382,15 @@ def run_one(path, gk, qk, mk, kk, ck):
           "> before it changes anything in the post. Models disagreeing with each other or with",
           "> the post is a prompt to check, not a verdict.",
           "", f"Source: `posts/{slug}.html`", ""]
+    # State the panel actually used. Without this the report renders a heading
+    # per configured provider and a reader counts five cross-vendor opinions
+    # when two of them are error blocks -- the check looks broader than it was.
+    panel_n = len(results)
+    line = f"Panel: **{panel_n} of {panel_n + len(skipped)} configured models** answered."
+    if skipped:
+        line += ("  Skipped this run: "
+                 + "; ".join(f"{n} ({r})" for n, r in skipped) + ".")
+    md += [line, ""]
     for name, out in results:
         md += [f"## {name}", "", out, ""]
 
@@ -374,6 +419,26 @@ def main():
     kk = key_optional("MOONSHOT_API_KEY", blob)
     ck = key_optional("CEREBRAS_API_KEY", blob)
 
+    # Probe the best-effort providers ONCE per run rather than discovering the
+    # same dead endpoint on every post. Required models are never probed: if
+    # Gemini/Groq/Mistral are down that is the early-stop logic's business, and
+    # a probe would only add a call to a run that is already failing loudly.
+    skipped = []
+    for label, fn, k, drop in (("Kimi", ask_kimi, kk, "kk"),
+                               ("Cerebras", ask_cerebras, ck, "ck")):
+        if not k:
+            continue
+        ok, reason = probe(label, fn, k)
+        if not ok:
+            skipped.append((label, reason))
+            if drop == "kk":
+                kk = None
+            else:
+                ck = None
+    if skipped:
+        print("panel reduced for this run — "
+              + "; ".join(f"{n} skipped: {r}" for n, r in skipped))
+
     if args.all:
         files = sorted(glob.glob(str(ROOT / "posts" / "*.html")))
         files = [f for f in files if pathlib.Path(f).stem not in SKIP_SLUGS]
@@ -391,7 +456,7 @@ def main():
         if not pathlib.Path(f).exists():
             print(f"skip (not found): {f}", file=sys.stderr)
             continue
-        _, all_failed = run_one(f, gk, qk, mk, kk, ck)
+        _, all_failed = run_one(f, gk, qk, mk, kk, ck, skipped)
         if args.all and all_failed:
             consecutive_failures += 1
             if consecutive_failures >= 2:

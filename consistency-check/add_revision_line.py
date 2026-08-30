@@ -16,7 +16,9 @@ import re
 import sys
 
 FIXES = pathlib.Path(__file__).resolve().parent / "fixes"
-MANIFEST = pathlib.Path("/Users/umashankar/masaladeutsch-archive/meta/manifest.json")
+# consistency-check/ lives inside the archive repo, so the manifest is one
+# level up -- no absolute path needed.
+MANIFEST = pathlib.Path(__file__).resolve().parent.parent / "meta" / "manifest.json"
 MARKER = "data-gs-revision-v1"
 
 # These fixes are design repairs — light-lock, dark-panel guard, removing an

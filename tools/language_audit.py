@@ -18,9 +18,11 @@ glued into one run-on string -- the bug that made the FIRST audit pass
     python3 tools/language_audit.py            # full sweep, all posts
     python3 tools/language_audit.py --slug X   # single post, prints to stdout
 """
-import argparse, glob, json, re, sys, time, datetime, urllib.request, urllib.parse
+import argparse, glob, json, pathlib, re, sys, time, datetime, urllib.request, urllib.parse
 
-ROOT = '/Users/umashankar/masaladeutsch-archive'
+# Resolved from this file's location; kept a str because every use is an
+# f-string join. See the note in build_md_summary.py.
+ROOT = str(pathlib.Path(__file__).resolve().parent.parent)
 OUT_DIR = f'{ROOT}/out/language_audit'
 SKIP_SLUGS = {'article-index-start-here', 'about-author'}
 
