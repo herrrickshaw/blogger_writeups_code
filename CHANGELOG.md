@@ -8332,3 +8332,20 @@ publish Flettner rotor / alt-fuel ships post
 **Added**
 
 - `the-1920s-rotor-thats-now-on-22-real` **v1.0.0** — The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power (31,790 bytes)
+
+## 2026-08-30T22:42:28+05:30 — 237 posts live
+
+publish CUI/FSRU/FPSO asset-integrity post
+
+
+**Added**
+
+- `the-corrosion-you-cant-see-until` **v1.0.0** — The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs (31,489 bytes)
+
+**Versions**
+
+- `the-1920s-rotor-thats-now-on-22-real` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+10/-0 distinct numbers))
+
+**Changed**
+
+- `the-1920s-rotor-thats-now-on-22-real` — 31,790 → 35,627 bytes (+3,837)

@@ -3,11 +3,11 @@
   "title": "The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
-  "published": "2026-08-30T22:16:33.418+05:30",
-  "updated": "2026-08-30T22:16:33.418+05:30",
+  "published": "2026-08-30T22:16:33.000+05:30",
+  "updated": "2026-08-30T22:31:44.560+05:30",
   "labels": [],
-  "bytes": 31790,
-  "sha256": "962d0ab8740141e1e2e75abdb609207045d64883744eb8f24386825c0cfa6f6c",
+  "bytes": 35627,
+  "sha256": "896f08dc47019a7f6cf26cc69f7e6ab74cc8601c6d325c089f32e50f7ea3fc6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish Flettner rotor / alt-fuel ships post"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-30T22:42:28+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+10/-0 distinct numbers))",
+      "bytes": [
+        31790,
+        35627
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "publish CUI/FSRU/FPSO asset-integrity post"
     }
   ]
 }
