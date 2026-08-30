@@ -8323,3 +8323,12 @@ first published: UK retail canopy height standards post
 **Added**
 
 - `uk-retail-canopies-at-54m-real-design` **v1.0.0** — UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m (27,963 bytes)
+
+## 2026-08-30T22:16:58+05:30 — 236 posts live
+
+publish Flettner rotor / alt-fuel ships post
+
+
+**Added**
+
+- `the-1920s-rotor-thats-now-on-22-real` **v1.0.0** — The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power (31,790 bytes)
