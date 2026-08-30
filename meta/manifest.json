@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-30T17:58:50+05:30",
+  "snapshot": "2026-08-30T16:49:34+05:30",
   "count": 234,
   "posts": {
     "1058853159205559121": {
@@ -882,7 +882,7 @@
         },
         {
           "version": "5.0.0",
-          "date": "2026-08-30T17:58:50+05:30",
+          "date": "2026-08-30T17:47:15+05:30",
           "level": "major",
           "reason": "forced via --as major (figures changed (+37/-0 distinct numbers))",
           "bytes": [
@@ -896,7 +896,7 @@
               true
             ]
           },
-          "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
+          "note": "restore: recovered PCPIR section, disclaimer, translate widget and index link lost from the live post"
         }
       ]
     },
@@ -27767,7 +27767,7 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
       "slug": "a-million-wine-market-behind-150-wall",
       "published": "2026-08-30T13:25:43.000+05:30",
-      "updated": "2026-08-30T16:49:46.760+05:30",
+      "updated": "2026-08-30T14:00:18.331+05:30",
       "labels": [],
       "bytes": 32531,
       "sha256": "d9e715a95207e19cedcf8df4d27652c2e691f84dcf3c31e2237a958f93c53652",
@@ -29028,10 +29028,10 @@
       "version_history": [
         {
           "version": "1.0.0",
-          "date": "2026-08-30T17:58:50+05:30",
+          "date": "2026-08-30T16:49:34+05:30",
           "level": "initial",
           "reason": "first snapshot",
-          "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
+          "note": "first published: LNG starter-helper motor / E-drive retrofit post"
         }
       ]
     },
@@ -35301,38 +35301,6 @@
         }
       ]
     },
-    "9165231126204000395": {
-      "id": "9165231126204000395",
-      "title": "BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry",
-      "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
-      "slug": "brandsafway-and-2017-roll-up-wave-that",
-      "published": "2026-08-30T17:58:26.538+05:30",
-      "updated": "2026-08-30T17:58:26.538+05:30",
-      "labels": [],
-      "bytes": 24335,
-      "sha256": "730f899d0268f4cfc701ae32b1012cf3227f34e6134d7cdeb66dd34169b88d01",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-30T17:58:50+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
-        }
-      ]
-    },
     "9221556702350942170": {
       "id": "9221556702350942170",
       "title": "US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)",
@@ -35598,6 +35566,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "9165231126204000395": {
+      "id": "9165231126204000395",
+      "title": "BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry",
+      "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
+      "slug": "brandsafway-and-2017-roll-up-wave-that",
+      "published": "2026-08-30T17:58:26.538+05:30",
+      "updated": "2026-08-30T17:58:26.538+05:30",
+      "labels": [],
+      "bytes": 24335,
+      "sha256": "730f899d0268f4cfc701ae32b1012cf3227f34e6134d7cdeb66dd34169b88d01",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-08-30T17:58:50+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
         }
       ]
     }
