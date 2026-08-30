@@ -4,12 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-08-16T15:06:46.150+05:30",
+  "updated": "2026-08-25T10:38:39.348+05:30",
   "labels": [
+    "Markets & Finance",
     "Sustainable Finance"
   ],
-  "bytes": 21903,
-  "sha256": "204aad912656de99d46c0aa79f4cf10dbb427c1b605890c1dacbe2c136a7fac6",
+  "bytes": 25182,
+  "sha256": "87ec81285d1fda4074fb199f250911d24cad5264c9c1c4e704c9bc3408e0d969",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        21903,
+        25182
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

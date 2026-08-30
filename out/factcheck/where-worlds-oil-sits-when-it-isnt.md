@@ -16,21 +16,20 @@ Source: `posts/where-worlds-oil-sits-when-it-isnt.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99472, Requested 6475. Please try again in 1h25m38.208s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "~25% Share of world seaborne crude & products trade that normally transits the Strait of Hormuz (2025 baseline, pre-crisis)" — The cited source (Congress.gov/CRS) likely refers to a pre-2025 baseline, as the 25% figure is widely documented for earlier years (e.g., EIA reports from 2010s–2020). The article incorrectly labels it as a "2025 baseline," which is not supported by the cited source or general industry knowledge. [confidence: high]
+- "~25% Share of world seaborne crude & products trade that normally transits the Strait of Hormuz (2025 baseline, pre-crisis)" — The claim cites a 2025 baseline, but the article later references a Congressional Research Service source stating the ~25% figure as a general baseline without a specific year. The 2025 attribution is unsupported and potentially incorrect. [confidence: high]
 
-- "298.7M bbl US Strategic Petroleum Reserve level, 10 Aug 2026 — lowest since 1983, against 714M bbl of authorised capacity" — While the SPR level and capacity figures are correct, the claim that this is the "lowest since 1983" is unverified. The SPR has historically dipped below 300 million barrels during emergency releases (e.g., 2011, 2022), and the article does not provide a primary source confirming the 1983 comparison. [confidence: medium]
-
----
+- "Iran's floating-storage buildup... is the ship-to-shore version of this same logic running in reverse for a specific, blockade-driven reason rather than a price signal" — While the blockade is a cited reason, the article does not provide primary evidence linking the floating storage buildup *directly* to the blockade as the sole or primary driver, rather than other factors like demand destruction or logistical constraints. The claim assumes causation without sufficient verification. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Iran's floating-storage buildup, covered in Section 3, is the ship-to-shore version of this same logic running in reverse for a specific, blockade-driven reason rather than a price signal: those cargoes are laden and waiting, not because holding them is profitable, but because the US port blockade is physically preventing the ship-to-shore transfer that would normally happen on a commercial timetable." — The article conflates two distinct mechanisms: (1) *forced* floating storage due to the blockade (involuntary) and (2) *voluntary* floating storage driven by contango (profit-seeking). While both involve oil sitting idle, the price dynamics and market implications differ fundamentally. The claim implies the blockade-driven storage operates under the same logic as price-driven storage, which is incorrect. [confidence: high]
+- "The US Strategic Petroleum Reserve has an authorised capacity of 714 million barrels across its Gulf Coast salt-cavern sites — a figure widely (and correctly) cited as the SPR's size. But the actual level in the reserve fell below 300 million barrels in early August 2026, the lowest since 1983..." — The article correctly distinguishes between authorised capacity and actual stock levels but then implies that the SPR's role as "insurance rather than working inventory" is undermined by the drawdown. This conflates policy purpose with operational reality; strategic reserves are *designed* to be drawn down in emergencies, so the drawdown does not invalidate their insurance function. [confidence: high]
 
-- "The Brent-WTI spread of $5.96/bbl on 14 Aug 2026 is itself a shore-vs-ship signal: WTI's price is set at a hub with pipeline and limited storage access rather than direct port access, so when seaborne routes tighten (as Hormuz has), a barrel that can reach open water commands a premium over one that's landlocked at Cushing, widening the discount." — The spread reflects multiple factors (e.g., regional supply/demand imbalances, pipeline constraints, refining capacity), not solely "shore-vs-ship" dynamics. The article oversimplifies by attributing the entire spread to seaborne route tightness, ignoring other drivers like Cushing's local storage glut or refinery outages. [confidence: high]
+- "The Brent-WTI spread... is itself a shore-vs-ship signal: WTI's price is set at a hub with pipeline and limited storage access rather than direct port access, so when seaborne routes tighten (as Hormuz has), a barrel that can reach open water commands a premium over one that's landlocked at Cushing, widening the discount." — The spread reflects multiple factors (e.g., regional supply/demand imbalances, refining capacity, pipeline constraints), not solely seaborne route tightness. The article overgeneralizes the spread as a direct proxy for shore-vs-ship storage pressure without accounting for other drivers. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

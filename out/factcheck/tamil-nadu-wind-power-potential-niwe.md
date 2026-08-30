@@ -16,19 +16,20 @@ Source: `posts/tamil-nadu-wind-power-potential-niwe.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99889, Requested 3035. Please try again in 42m6.336s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future relative to the article's publication date of 14 August 2026, making it unverifiable and likely incorrect. [confidence: high]
+- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The date is in the future (2025) relative to the article's publication date of 14 August 2026, making it unverifiable and likely incorrect. [confidence: high]
 
-- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is sourced from secondary coverage rather than a primary NIWE document. This makes the exact figure unverifiable as a settled number. [confidence: high]
+- "NIWE's separate offshore assessment puts wind potential off the Tamil Nadu coast at roughly 35 GW" — The article acknowledges that offshore assessments vary across studies and years, and the 35 GW figure is not directly sourced from NIWE's primary atlas but from secondary coverage. This introduces uncertainty about the exact figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The calculation compares installed capacity (11,938 MW) to NIWE's 100m-hub-height potential (33,799 MW), but modern turbines operate at 120–150m hub heights, where the potential is significantly higher. The 35% utilisation figure is misleading because it understates the true potential at modern hub heights, making the conclusion about unbuilt potential inaccurate. [confidence: high]
+- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is a plausible solution, the article does not provide evidence that the policy's implementation challenges (banking-charge disputes, grid-connectivity gaps, inadequate evacuation infrastructure) are the primary reasons for the slow progress. The causal link between these frictions and the policy's effectiveness is not substantiated. [confidence: medium]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article uses the 35% utilisation figure (based on 100m hub height) to argue for unused headroom, but this ignores the much higher potential at 120–150m hub heights. The conclusion about wind being the resource with the most unused headroom is not supported by the data presented, as the true potential is likely higher than the 33,799 MW figure used. [confidence: high]
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article does not establish that wind is the most effective or feasible resource to address the gap, given the structural constraints (transmission, repowering frictions) and the lack of offshore development. The conclusion assumes wind's primacy without comparing it to other renewable options (e.g., solar, storage) or addressing the practical barriers. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

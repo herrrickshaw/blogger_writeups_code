@@ -16,19 +16,20 @@ Source: `posts/the-margin-case-why-lpg-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99715, Requested 5342. Please try again in 1h12m49.247999999s. Need more tokens? Upgrade to Dev Tier today]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "US sanctions on major Russian crude entities (November 2025)" — The claim is incorrect because US sanctions on Russian crude entities were imposed in **February 2024** (e.g., the price cap on Russian oil), not November 2025. [confidence: high]
+- "US sanctions on major Russian crude entities (November 2025)" — The US sanctions on Russian crude entities (e.g., Sovcomflot) were imposed in **March 2022**, not November 2025. The EU ban on products refined from Russian crude took effect in **February 2023** (not January 2026). [confidence: high]
 
-- "EU ban on products refined from Russian crude (January 2026)" — The claim is incorrect because the EU's ban on seaborne Russian oil products (e.g., diesel) took effect in **February 2023**, not January 2026. [confidence: high]
+- "LPG import dependency at roughly 60–64% through FY2024-25" — The PPAC Ready Reckoner data only provides figures up to FY2021-22, and the article does not cite a primary source for the 60–64% figure for FY2024-25. The claim appears unverified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "None of that is a coincidence refiners can ignore: the same crude barrel that makes petrol can, with the modifications this blog has already covered piece by piece, make more LPG and more petrochemical feedstock instead." — The reasoning gap is that the article conflates correlation with causation. While refiners *can* modify output to produce more LPG or petrochemical feedstock, the article does not provide evidence that this is the *primary* reason for the observed changes in demand, subsidy economics, or spreads. The claim assumes a direct link between technical modifications and market outcomes without demonstrating that refiners are actively making these changes in response to the cited trends. [confidence: medium]
+- "Every tonne of that rising import share is currently being sourced abroad — including, most recently, a first-of-its-kind one-year deal signed in November 2025 for Indian PSU oil companies to import 2.2 million tonnes of LPG a year from the US Gulf Coast... A refiner that redirects FCC yield toward LPG... is not competing for a shrinking market: it is displacing exactly the volume growth that has, for the better part of a decade, gone to imports rather than domestic production." — The claim implies that refiners can directly substitute imported LPG by increasing domestic LPG production via FCC yield adjustments. However, LPG production from FCC units is chemically different from imported LPG (which is typically propane/butane blends), and the article does not provide evidence that refiners can produce LPG of the exact quality/specification required to replace imports. The reasoning conflates volume displacement with product substitutability. [confidence: high]
 
-- "A refiner watching its core fuel margin roughly halve, at the same time as LPG demand outpaces petrol demand, has a straightforward incentive to ask whether more of the barrel should come out as LPG rather than petrol — independent of any petrochemical ambition at all." — The reasoning gap is that the article assumes a direct causal relationship between fuel margin compression and refiner decisions without evidence. While refiners may have an *incentive* to shift production, the article does not show that they are *actually doing so* or that this is the *only* factor influencing their decisions. Other factors (e.g., contractual obligations, infrastructure constraints, or policy restrictions) could also play a role. [confidence: medium]
+- "Reliance's own reported GRM for Q4 FY2024-25 was $7.6/bbl, down from $9.6/bbl a year earlier — a real decline, consistent with the sector-wide fuel-margin compression in Section 1, but still running meaningfully above the $4–6/bbl PSU OMC average for the same broad period." — The article acknowledges that Reliance's GRM is not directly comparable to PSU OMCs' GRM due to differences in crude slates, reporting conventions, and trading advantages. However, it still uses the comparison to argue that petrochemical integration provides a margin advantage. This is an apples-to-oranges comparison because the figures are derived from fundamentally different refining and reporting contexts, making the conclusion about integration's impact unsupported by the data presented. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

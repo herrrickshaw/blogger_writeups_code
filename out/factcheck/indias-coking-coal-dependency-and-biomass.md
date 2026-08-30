@@ -9,26 +9,27 @@ Source: `posts/indias-coking-coal-dependency-and-biomass.html`
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 429: {
+[Gemini API error 503: {
   "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 9127, Requested 7922. Please try again in 25.245s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" when the correct period should be "December 2024" (as the data is from FY2024-25 and earlier years). [confidence: high]
-
-- "₹60,681.67 crore" — The article cites this foreign exchange savings figure without providing a clear source or methodology for the calculation, making it unverifiable. [confidence: medium]
+- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" when the article text refers to "December 2024" in the context of FY2024-25 data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The SAMARTH mandate isn't the only biomass-co-firing rule in force, and the sourcing for this section turned up something worth flagging rather than smoothing over: there appear to be two related but not fully reconciled compliance tracks, run by different bodies, with different phase-in percentages for the same period." — While the article correctly notes the discrepancy between CAQM's 3% and SAMARTH's 5% mandate for FY2024-25, it does not explain why this inconsistency exists or whether it reflects a deliberate policy divergence. The lack of reconciliation leaves the reader without context for the gap. [confidence: high]
-
-- "The connection drawn above is this piece's own extrapolation from real research and a real agricultural-economics pattern seen elsewhere in Indian biomass policy, not a projection any cited source makes for bio-coke specifically." — The article suggests a plausible farmer-income case for bio-coke adoption but does not quantify potential gains or adoption timelines, extrapolating from unrelated biomass policies (e.g., ethanol) without evidence specific to bio-coke. This overreaches beyond the data. [confidence: high]
+- "Stamp-charging is a coke-making technique that compacts the coal blend before it goes into the oven, which allows a higher proportion of India's own (lower-quality) coking coal to be blended in without compromising coke strength. The Ministry states this raises the domestic-coal share of the blend from roughly 10% to 30% — a real substitution of imported coking coal, achieved through process technology on India's own coal, not through a different material altogether." — The claim implies that stamp-charging directly substitutes imported coking coal by increasing domestic coal usage, but it does not account for the fact that the domestic coal being used is still coking coal (albeit lower-grade), not a replacement material. The substitution is within the same material category (coking coal), not a replacement of imported coking coal with a different input. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

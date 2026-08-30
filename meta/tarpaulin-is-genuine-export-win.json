@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html",
   "slug": "tarpaulin-is-genuine-export-win",
   "published": "2026-08-15T11:49:15.000+05:30",
-  "updated": "2026-08-16T15:06:26.517+05:30",
+  "updated": "2026-08-25T10:31:57.010+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 18792,
-  "sha256": "b10249eab33ca084e93e7707055cc03d86d0aefc78329cc5d22e701e3ec1ba77",
+  "bytes": 20954,
+  "sha256": "5c52c0e9363f21f40db00cbb42bdb2d7c218ede12ad27091446fb3eee6f54622",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        18792,
+        20954
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

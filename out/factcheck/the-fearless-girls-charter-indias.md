@@ -16,19 +16,20 @@ Source: `posts/the-fearless-girls-charter-indias.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99736, Requested 991. Please try again in 10m28.128s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "STCG at 20%, LTCG at 12.5%" — These tax rates are incorrect for India as of 2024. The current STCG tax rate on equity is 15% (for holdings <12 months), and LTCG tax rate is 10% (for holdings >12 months) on gains exceeding ₹1 lakh. The article likely conflates these with other jurisdictions or outdated rates. [confidence: high]
+- "SEBI's December 2025 mutual-fund expense-ratio overhaul cuts the maximum base expense ratio for large equity schemes (above ₹50,000 crore in assets) from 1.05 to 0.95 per cent, and for equivalent-size debt schemes from 0.80 to 0.70 per cent" — The claim about SEBI's December 2025 mutual-fund expense-ratio overhaul is incorrect because SEBI's mutual fund expense ratio regulations are typically revised in June (not December) of a given year, and the cited percentages (1.05% to 0.95% for equity, 0.80% to 0.70% for debt) do not match any known SEBI circulars or official announcements. [confidence: high]
 
-- "FPI net settlement on schedule" — The article does not specify a schedule or deadline for FPI net settlement, making this claim unverifiable. Without a concrete date or reference to an official policy timeline, this cannot be fact-checked. [confidence: medium]
+- "SEBI's optional T+0 (same-day) settlement cycle, launched as a 25-stock beta in March 2024, had expanded to the top 500 stocks by market capitalisation by end-2025" — While SEBI did introduce a T+0 settlement pilot in March 2024, there is no verifiable evidence or official announcement that it expanded to the top 500 stocks by market capitalization by end-2025. SEBI's public communications only mention a phased expansion, and the timeline for reaching the top 500 stocks is not confirmed. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Reward those who stay invested instead of penalising them" — The claim implies that reducing LTCG/STCG taxes would directly reward long-term investors, but this ignores other factors like inflation, opportunity cost, or market risks. The causal link between tax cuts and "rewarding patience" is not supported by evidence alone, as tax policy is not the sole determinant of investor behavior. [confidence: high]
+- "Reward those who stay invested instead of penalising them" — The claim implies that the 2024 capital gains tax hike (LTCG from 10% to 12.5%, STCG from 15% to 20%) directly penalizes "patience" or long-term investing, but the tax change applies uniformly to all investors regardless of holding period. The argument conflates the tax rate increase with a disincentive for long-term holding, without evidence that the change disproportionately affects patient investors or that it undermines the intended goal of encouraging long-term investment. [confidence: high]
 
-- "Move the whole market toward same-day, then instant settlement, safely freeing up capital that sits idle in the pipes" — While T+0 settlement may reduce settlement time, the claim that this would "safely free up capital" assumes no systemic risks (e.g., liquidity crunches, operational failures) and ignores potential costs (e.g., margin requirements, settlement failures). The extrapolation from settlement speed to capital efficiency is not inherently justified. [confidence: high]
+- "Keep the F&O guardrails (delta-based limits, position caps) that curb gamified losses, but don't shut the small trader out of the market she helped build" — The claim assumes that SEBI's F&O position limits and delta-based restrictions are primarily aimed at curbing "gamified losses" for retail traders, but SEBI's public rationale emphasizes systemic risk reduction and investor protection from documented high losses in options trading. The framing in the charter ("don't cage me") pits protection against access without acknowledging that the restrictions may be justified by risk management concerns rather than merely limiting participation. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

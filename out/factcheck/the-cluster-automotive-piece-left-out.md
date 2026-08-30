@@ -16,19 +16,20 @@ Source: `posts/the-cluster-automotive-piece-left-out.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99789, Requested 2282. Please try again in 29m49.343999999s. Need more tokens? Upgrade to Dev Tier today a]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Five OEMs operate there (Force Motors, Eicher Motors, AVTAC Motors, Kinetic Motors, Man Force, and L&T Case among the named operators)" — The claim lists six OEMs (Force Motors, Eicher Motors, AVTAC Motors, Kinetic Motors, Man Force, and L&T Case), not five as stated. [confidence: high]
+- "roughly $11.3 billion in combined investment" — The claim is repeated later as "$11.3 billion" for Pithampur alone, but the article also states MP state-wide has "more than 10 OEMs, 2,770 engineering manufacturers and 200 dedicated auto-component manufacturers." The $11.3 billion figure cannot logically apply to both the Pithampur cluster and the entire state simultaneously without clarification. [confidence: high]
 
-- "MP approved its Logistics Policy 2025 in February 2025" — The article cites multiple sources for this claim, but the primary policy document (Madhya Pradesh Logistics Policy 2025) was actually approved in **February 2024**, not 2025. The 2025 date appears to be a typographical error or misinterpretation of the policy's implementation timeline. [confidence: high]
+- "Six OEMs operate there (Force Motors, Eicher Motors, Avtec Motors, Kinetic Motors, Man Force, and L&T Case among the named operators)" — "Man Force" is not a recognized OEM in India; it appears to be a typo or misattribution. The correct name is likely "Man Trucks India" (a subsidiary of Volvo Group), but the article does not correct this. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A supplier deciding where to site a new Tier-1 facility to serve multiple OEM clusters is choosing, in effect, between paying for that speed via proximity to one cluster (the existing model) or via a logistics-subsidised central position that reaches several (the case this policy is trying to make attractive)." — The article assumes that MP's logistics subsidies and central position on the DMIC can substitute for proximity to multiple OEM clusters in a just-in-time (JIT) supply chain model. However, it does not provide evidence or modeling to show that the freight cost/time savings from MP's logistics infrastructure would match or exceed the benefits of being physically close to OEMs (e.g., within 100km as cited for Maruti's model). The claim conflates potential advantages with demonstrated cost-effectiveness. [confidence: high]
+- "MP's position on the DMIC, plus its rail reach, puts it within a single logistics spine of nearly all of them [the other five clusters]." — While Pithampur is on the DMIC and has extensive rail connectivity, the article does not provide evidence or modeling to support the claim that this positioning enables suppliers in Pithampur to "plausibly feed NCR and Pune/Sanand without the multi-day transit times a more peripheral state would carry." The claim assumes a causal link between geographic position and logistics efficiency without quantifying transit times or freight costs. [confidence: high]
 
-- "MP's testing infrastructure is a genuine differentiator rather than a shared commodity. NATRAX (National Automotive Test Tracks), located in MP, spans 1,200 hectares with an 11.3km test track, built at a cost of roughly ₹1,653 crore (~$200 million). This is not duplicated at the scale of any of the five clusters mapped in the companion piece..." — While NATRAX is indeed a unique asset, the article does not establish that the other five clusters lack comparable testing infrastructure. For example, Pune (Chakan) and Chennai (Oragadam) host major automotive test tracks (e.g., Tata Motors' test track in Pune, Hyundai's facility in Chennai). The claim overstates the exclusivity of NATRAX by omitting context about existing alternatives in other clusters. [confidence: medium]
+- "The policy's specific bets (multimodal logistics parks, dry ports, 24×7 permissions) are aimed at exactly the kind of high-frequency, low-latency freight movement JIT and JIS depend on." — The article does not demonstrate that the Madhya Pradesh Logistics Policy 2025 includes measures that would directly reduce transit times or improve coordination for just-in-time (JIT) supply chains. The policy's provisions (e.g., subsidies, fast-track approvals) are structural and may improve logistics efficiency, but there is no evidence they achieve the specific operational outcomes required for JIT/JIS systems. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

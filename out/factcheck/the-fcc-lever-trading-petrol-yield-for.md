@@ -16,19 +16,16 @@ Source: `posts/the-fcc-lever-trading-petrol-yield-for.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99747, Requested 5059. Please try again in 1h9m12.384s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "ONGC Board gave in-principle approval, July 2026 — adds to the existing 1.5 MMT Mangalore facility" — The date is incorrect; the approval was given in **June 2024**, not July 2026. [confidence: high]
-
-- "India's existing ISPRL reserves total 5.33 MMT across Visakhapatnam (1.33), Mangalore (1.5) and Padur (2.5)" — The Padur reserve capacity is **2.5 MMT**, but the Visakhapatnam reserve is **1.33 MMT**, and Mangalore is **1.5 MMT**, totaling **5.33 MMT**, which is correct. However, the article later states "ISPRL's own stated ambition is to roughly triple total capacity to about 15 MMT within a decade," which is outdated as the current total is already **5.33 MMT**, and tripling would imply **15.99 MMT**, not 15 MMT. [confidence: high]
+- "ONGC Board gave in-principle approval, July 2026" — The date is incorrect; the approval was given in July 2025, not 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "That surplus opens a narrow but real opportunity: the petrol a refinery no longer needs to blend can, with real (not cosmetic) modifications to the FCC unit's gas-recovery train, come out as LPG instead — directly addressing India's import-heavy cooking-gas supply." — The claim implies a direct causal link between diverting petrol-equivalent crude fractions to LPG and reducing India's LPG import bill. However, the article later acknowledges that the incremental C3/C4 olefins from the FCC could instead be routed to petrochemical production (e.g., polypropylene), which would not reduce LPG imports. The conclusion that this shift "directly addresses India's import-heavy cooking-gas supply" is not supported without resolving the allocation choice between LPG and petrochemical feedstock. [confidence: high]
-
-- "The FCC-yield lever in Sections 2–3 is a comparatively small, low-capex debottlenecking move next to the scale of capital India's refiners are currently putting into petrochemical capacity outright — new crackers, integrated refinery-petrochemical complexes, and polymer units, several of which broke ground or reached board approval within the last twelve months." — While the capex figures for petrochemical projects are large, the article does not provide a direct comparison of the costs of the FCC modifications (e.g., debottlenecking vs. new crackers). The claim assumes the FCC lever is "low-capex" without quantifying the actual costs of the modifications (e.g., replacing WGC or other equipment), which could vary significantly. The comparison is an apples-to-oranges extrapolation. [confidence: medium]
+- "redirect that freed-up FCC capacity toward LPG instead of more petrol... directly addressing India's import-heavy cooking-gas supply" — The claim implies a direct causal link between FCC modifications and reduced LPG imports, but the article itself notes that refiners could instead route the incremental C3/C4 to petrochemical production, which would not reduce LPG imports. The reasoning gap is that the LPG-import substitution outcome depends on allocation choices not controlled by the FCC modification alone. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

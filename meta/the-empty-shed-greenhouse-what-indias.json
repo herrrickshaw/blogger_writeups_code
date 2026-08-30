@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.000+05:30",
-  "updated": "2026-08-16T15:16:00.586+05:30",
+  "updated": "2026-08-25T10:33:55.780+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 12244,
-  "sha256": "98f92a68479b2d8e0d703c0eb9ff485b826828d36294e92ceb21eb8628f03475",
+  "bytes": 13764,
+  "sha256": "c833784beb0e8cf8eb25aa7a54fd4b05332cb3cd710a6fe4103f2a9a59f9a96f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -103,6 +103,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        12244,
+        12242
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        12242,
+        13764
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

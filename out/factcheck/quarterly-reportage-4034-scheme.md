@@ -16,19 +16,20 @@ Source: `posts/quarterly-reportage-4034-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98790, Requested 1511. Please try again in 4m20.064s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "4,081 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-13)" — The date range is incorrect because 39 quarters from 2017-01-02 would end in 2026-06-30, not 2026-08-13. The end date is misstated. [confidence: high]
+- "4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18)" — The date range is incorrect because 39 quarters from 2017-01-02 would end in 2026-06-30, not 2026-08-18. The article likely miscounted the quarters or misstated the end date. [confidence: high]
 
-- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list." — The date "2026-08-04" is in the future relative to the article's publication date of 16 August 2026, making this claim unverifiable or incorrect. [confidence: high]
+- "151 of these rows are Cabinet or CCEA items" — The claim is unverifiable as no source or methodology is provided to confirm this count. The article does not explain how "Cabinet or CCEA items" were identified beyond the keyword mapping, which is acknowledged to be imperfect. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "This is an index into the register, not a reading of it. Mapping is by keyword against release titles, so it will miss a scheme referred to obliquely and it cannot tell an approval from a progress report — a Parliament answer about PM E-DRIVE and the Cabinet decision creating it look alike here." — While the limitations of keyword-based mapping are acknowledged, the article does not clarify how this affects the count of 4,081 announcements. The claim implies potential inaccuracies in the count due to these limitations, but the article presents the number as definitive without addressing the magnitude of the error. [confidence: medium]
+- "A release qualifies as an announcement here if its title matches the scheme-keyword map, or if it is a Cabinet/CCEA approval carrying incentive language." — The claim conflates two different types of announcements (scheme-keyword matches and Cabinet/CCEA approvals) without clarifying whether these are mutually exclusive or overlapping. This could lead to double-counting of announcements that appear in both categories, inflating the total number. [confidence: high]
 
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the cited primary source." — The article warns about potential AI errors but does not explain how this applies to the specific count of 4,081 announcements. The warning is generic and does not address whether the figure itself might be affected by AI hallucination or misinterpretation. [confidence: medium]
+- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list." — The claim implies that the removal of these rows corrected all mapping errors, but the article also states that "Others may remain" and that mapping errors can still occur. This creates a false sense of completeness in the data cleaning process. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

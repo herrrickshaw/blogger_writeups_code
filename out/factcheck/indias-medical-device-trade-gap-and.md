@@ -16,21 +16,19 @@ Source: `posts/indias-medical-device-trade-gap-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97823, Requested 3598. Please try again in 20m27.744s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India has roughly 3 MRI units per million population against a global average of 7 (the US, Korea and Japan run 28–57 per million)" — This claim is incorrect. According to the *World Health Organization* and other global health data sources, the global average for MRI units per million is closer to **10–12**, not 7. The US, South Korea, and Japan do have higher densities (e.g., ~40–50 per million in the US), but the global average is not as low as 7. [confidence: high]
+- "India's medical-device deficit, by device family FY2025-26 (provisional), import minus export, US$ million" — The article claims the deficit is $6.22 billion with a +21.7% YoY growth, but the table shows a deficit of $6,220 million ($6.22 billion) for FY2025-26, which is a 21.7% increase from FY2024-25 ($5,111 million). However, the article also states "growing at 22% a year" in the opening line, which is inconsistent with the 21.7% figure provided later. [confidence: high]
 
-- "AIIMS Delhi OPD imaging dates have been issued as far out as 2027" — This claim lacks verifiable sourcing and appears to be an exaggeration or misinterpretation. While AIIMS Delhi does face long wait times for imaging, there is no publicly documented evidence of appointments being scheduled as far out as 2027. [confidence: medium]
-
----
+- "India–EU FTA (Jan 2026)" — The India-EU Free Trade Agreement (FTA) was not finalized or implemented in January 2026. Negotiations are ongoing, and no such agreement has been signed or enacted as of mid-2024. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The official Department of Pharmaceuticals series tabled in Lok Sabha (Unstarred Question 3451, 13 March 2026) tells the same story on its broader basket — which also counts pharma-side lines: ₹137,088 crore imports against ₹42,360 crore exports in FY2024-25, coverage of 31%, imports up 2.5× since 2014-15." — The article uses the broader basket (including pharma lines) to argue that the medical-device trade deficit is worsening, but this is an apples-to-oranges comparison. The broader basket conflates pharmaceuticals (drugs/APIs) with medical devices, which are distinct sectors with different policy challenges. The deficit growth in the broader basket does not necessarily reflect the performance of the medical-device sector alone. [confidence: high]
+- "The pattern is stark: India has conquered the low end (consumables, dressings, gloves, contraceptives, PPE are all net exports — the COVID-era indigenisation held) and remains 70–90% import-dependent at the technology end (lab instruments, imaging, radiotherapy, IVD)." — While the data shows that India is a net exporter in certain low-end consumables (e.g., gloves, dressings), the claim that this "conquest" is a proven, sustainable strategy for climbing the value ladder is an overgeneralization. The article does not provide evidence that the same playbook can be successfully applied to high-tech devices like lab instruments or IVD reagents, which require different capabilities (e.g., R&D, precision manufacturing, regulatory compliance). The jump from low-end success to high-end localization is not logically supported by the data presented. [confidence: high]
 
-- "Since the 2020 EEPC baseline ($6.2bn imports, $2.1bn exports, “75–80% import dependency”), the market roughly doubled and dependency did not improve — the deficit grew faster than exports." — The article claims that import dependency did not improve despite the market roughly doubling, but it does not provide evidence that the doubling of the market size (imports + exports) correlates with unchanged dependency ratios. The dependency ratio (imports/imports+exports) could remain stable or even improve even if the absolute deficit grows, depending on export growth. The conclusion that dependency did not improve is not directly supported by the data presented. [confidence: medium]
+- "A radiologist bottleneck compounds it — roughly 15,000 radiologists for 1.4bn+ people (about one per 93,000), with only ~1,200 new graduates a year." — The article uses the radiologist shortage to argue for the need to localize MRI manufacturing, implying a direct causal link between device availability and radiologist supply. However, the shortage of radiologists is a separate issue from the availability of MRI machines. The two problems are correlated but not causally linked in the way suggested; increasing MRI production may not address the radiologist bottleneck, which is a workforce/training issue. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

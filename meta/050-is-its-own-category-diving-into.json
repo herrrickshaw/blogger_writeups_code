@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
   "slug": "050-is-its-own-category-diving-into",
   "published": "2026-08-11T15:32:23.000+05:30",
-  "updated": "2026-08-16T15:08:36.869+05:30",
+  "updated": "2026-08-25T10:11:37.823+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 18873,
-  "sha256": "ef6b34b1d1e24dba4a57be35e999c46e8202795a5ef7713fe66c56f4acaf6153",
+  "bytes": 22220,
+  "sha256": "398919ec550633dacc1cd76fda8289d66f0cadb7734fb5ecb7ff90a38e29feee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.7",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-0 distinct numbers)",
+      "bytes": [
+        18873,
+        22220
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

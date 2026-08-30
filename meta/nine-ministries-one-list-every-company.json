@@ -1,0 +1,61 @@
+{
+  "id": "6375593370761887241",
+  "title": "India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026",
+  "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
+  "slug": "nine-ministries-one-list-every-company",
+  "published": "2026-08-30T08:48:36.292+05:30",
+  "updated": "2026-08-30T09:11:55.569+05:30",
+  "labels": [
+    "India",
+    "Industrial Policy"
+  ],
+  "bytes": 65821,
+  "sha256": "56b658f22c4574aa84a46de3474e40c521f3c0a99d63c12665db897f0fd27a06",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": false,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.0.2",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-08-30T08:49:29+05:30",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "feat(bidder-list): cross-ministry compilation of named tender/PLI winners, 2019-2026"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-30T08:58:52+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        32767,
+        36342
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "content: add applicant/bidder counts (not just winners) to bidder-list article"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-08-30T09:12:15+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36342,
+        65821
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "feat(pli): expand bidder-list article to cover all 14 PLI schemes via PIB + ministry-portal research"
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-08-16T13:59:13.984+05:30",
+  "updated": "2026-08-28T10:29:41.086+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 33179,
-  "sha256": "72a488c80de55dc0b509964b261832661d2c08b1cf783851bf1f879b9ea1b8d6",
+  "bytes": 36578,
+  "sha256": "d9d2d64c82325456e9fe0ca6d97e2811aed71cfd3257c1715aafa715a044c3da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,32 @@
       "bytes": [
         32651,
         33179
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        33179,
+        36250
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-28T14:14:42+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        36250,
+        36578
       ],
       "url_changed": null,
       "markers_changed": null,

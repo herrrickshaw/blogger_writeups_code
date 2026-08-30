@@ -16,19 +16,20 @@ Source: `posts/securitising-deficit-what-it-would.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99928, Requested 18818. Please try again in 4h29m56.543999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India buys $321.8 billion a year from BRICS members and pays for almost all of it in dollars." — The article later contradicts this claim by stating that India's total merchandise imports from BRICS members and partners are $321.8 billion, not that India pays for "almost all" of it in dollars. The claim is overly broad and not supported by the data presented. [confidence: high]
+- "India sells them $95.8 billion" — The article later contradicts this with "India sold China $19.5 billion and buys $131.6 billion" and the table showing total exports to BRICS as $95.8 billion. The claim is inconsistent with the data provided in the same article. [confidence: high]
 
-- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies, with roughly 42% in 'friendly' ones." — The article cites this figure without providing a source or context for what constitutes "unfriendly" or "friendly" currencies. This classification is subjective and lacks verifiable backing. [confidence: medium]
+- "Russia's central bank reports that only about 18% of its trade settlement now runs in 'unfriendly' currencies" — The article cites this claim without providing a source or date for the statistic, making it unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — While the distinction between de-dollarisation and vendor financing is valid, the article frames the entire policy as vendor financing without acknowledging that de-dollarisation can still occur even if the counterparty holds rupees as a financial asset (e.g., government bonds). The claim oversimplifies the potential benefits of local currency settlement. [confidence: high]
+- "Settling a trade deficit in your own currency is not de-dollarisation. It is vendor financing — and someone has to agree to extend it." — While the distinction between de-dollarisation and vendor financing is valid, the article conflates the two concepts without acknowledging that vendor financing can still reduce dollar dependency if it replaces dollar-denominated trade. The claim oversimplifies the potential benefits of local currency settlement. [confidence: high]
 
-- "China, the UAE and Saudi Arabia all have policy rates and long yields below India's, and between them hold $159.2 billion — 70% of the residual. For China the pickup is 513 basis points: a Chinese institution holding a ten-year Indian government bond earns four times what a Chinese government bond pays." — The article assumes that the yield pickup is a net benefit without accounting for the risks of rupee depreciation or the counterparty's willingness to hold Indian bonds. The calculation ignores the fact that the yield pickup may be offset by currency risk, making the net benefit uncertain. [confidence: high]
+- "The break-even is not comfortable. The rupee has depreciated about 3.55% a year against the dollar over the past decade and 5.34% a year over the past five." — The article uses historical depreciation rates to argue that the carry trade is unsustainable, but it does not account for the possibility that future depreciation could be lower or that the yield pickup could still make the trade attractive under certain conditions. The reasoning gap lies in extrapolating past trends as a definitive predictor of future outcomes. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

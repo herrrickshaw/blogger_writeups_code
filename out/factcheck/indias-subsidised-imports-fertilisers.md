@@ -16,19 +16,19 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99040, Requested 6115. Please try again in 1h14m13.92s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (approved 15 Jul 2026)" — The article states the approval date as 15 July 2026, but the data cutoff is mentioned as 31 July 2026. This creates a logical inconsistency where the approval occurs before the data cutoff, which is impossible. [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article states "approved 15 Jul 2026" but the data cutoff is mentioned as "31 Jul 2026," which is impossible if the approval was on 15 Jul 2026. The correct date should likely be 15 Jul 2025 (or another plausible date). [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The article claims the urea subsidy is ₹1.19 lakh crore and NBS is ₹49,000 crore, totaling ₹1.68 lakh crore. However, the total subsidy cost for fertilizers is stated as ₹1.5–1.7 lakh crore, which suggests the urea subsidy alone cannot exceed the total subsidy range. This is a double-counting error. [confidence: high]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is within the stated range. However, the article later claims the total subsidy cost for fertilisers is ₹1.5–1.7 lakh crore, which is inconsistent with the breakdown (₹1.19L + ₹49,000 = ₹1.68L). The range should either be adjusted or the breakdown clarified. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Plastics ($22.2bn) growing +0.54% with ZERO scheme — the standout gap in the analysis. No PLI, no mission, minimal tariff." — The article identifies plastics as a gap with no scheme and minimal tariff, but then uses this to imply it is a major import-substitution opportunity. However, the flat growth (+0.54%) suggests demand is stable, and the lack of subsidy may not be a problem if domestic production is sufficient or demand is met through other means. The conclusion that this is a "standout gap" is not supported by the data showing minimal growth. [confidence: high]
+- "Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year, more than triple the next-fastest category." — While the 76% growth is correct, the claim that it is "more than triple the next-fastest category" is misleading. The next-fastest growth is Inorganic Chemicals at +24.63%, and 76% is not triple 24.63% (which would be ~74%). The phrasing exaggerates the margin of difference. [confidence: high]
 
-- "Gems/Jewelry ($109.4bn) up +23% — not a subsidy target — it's re-export flow. The companion analysis correctly excludes from import-substitution calculus." — The article correctly notes that gems and jewelry imports are re-export flows and not consumption imports, but then uses this to dismiss the entire category as irrelevant to import substitution. However, the sheer size of the imports ($109.4bn) and their growth (+23%) still represent a significant trade flow that could impact the trade deficit, even if not directly substitutable. The interpretation that this category is irrelevant to trade policy is an overgeneralization. [confidence: medium]
+- "Roughly $633bn of the official $775bn FY2025-26 import bill (PIB: imports $774.98bn, deficit $333.19bn) sits in these protected categories." — The article later states the 12 subsidised categories account for $632.8 billion, which aligns with the $633bn figure. However, the claim that these categories "sit in these protected categories" implies that the entire $632.8bn is due to protection, which is not necessarily true. Many of these imports (e.g., gems/jewellery, electrical machinery) may not be directly subsidised but are tracked for other policy reasons. The conclusion conflates tracking with protection. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

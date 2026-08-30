@@ -16,19 +16,18 @@ Source: `posts/root-bgfff-fg1a1a1a-mut666-cardf6f6f4.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99946, Requested 11831. Please try again in 2h49m35.328s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Cabinet Cabinet approves Semicon 2.0 - Government delivers on its commitment for a long-term policy support to Semiconductors in India" (appears twice) — The correct name of the scheme is "Semicon India 2.0," not "Semicon 2.0." [confidence: high]
+- "This article has moved" — The claim is a placeholder text and not a factual error in the context of the article's content. The rest of the text is either a system-generated notice or a meta-description about URL redirection, which does not contain verifiable factual claims. [confidence: high]
 
-- "Cabinet Cabinet approves scheme of Chemical Parks 'Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)" (appears twice) — The correct name is "Bharat Rasayan Yojana" (BRY), not "Bharat Audyogik Vikas Yojana Rasayan (BHAVYA Rasayan)." [confidence: high]
+- "IPA Digital Twin — Reportage: Latest Updates (3 Jul – 1 Aug 2026)" — The date range (3 Jul – 1 Aug 2026) is in the future relative to the current date (2023) and cannot be verified as accurate or factual. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ministry of Heavy Industries The PM E-DRIVE Scheme has been implemented on pan India basis and no state-wise allocation has been done under the scheme" — While the statement may be factually correct, it implies that the absence of state-wise allocation is a positive or neutral feature, without providing context on whether such allocations are necessary or beneficial for the scheme's objectives. This is an apples-to-oranges comparison, as the scheme's goals (e.g., pan-India adoption of electric mobility) may not inherently require state-wise allocations. [confidence: medium]
-
-- "Ministry of Heavy Industries Under the FAME-II Scheme Rs.912.50 crore were allocated for setting up of EVPCS on pan India basis and no state wise allocation was made" — Similar to the above, this claim does not establish whether state-wise allocations would have improved the scheme's outcomes or if the pan-India approach was the intended design. The interpretation lacks justification for why the absence of state-wise allocation is significant or problematic. [confidence: medium]
+none found
 
 ## Kimi kimi-k2-0711-preview
 

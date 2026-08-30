@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html",
   "slug": "basf-and-mitsubishi-are-running",
   "published": "2026-08-16T11:00:30.000+05:30",
-  "updated": "2026-08-16T15:06:19.132+05:30",
+  "updated": "2026-08-25T10:13:06.227+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "India Trade & Policy"
   ],
-  "bytes": 20632,
-  "sha256": "b7668604f2f101cc81640375af614c76a6b532a80faefc9f2f484bf5407427cf",
+  "bytes": 23830,
+  "sha256": "a0fb77064bcfd6145f1d7dd24ccd6c659357cc07a4977bbae97151143b940d1a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-0 distinct numbers)",
+      "bytes": [
+        20632,
+        23830
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

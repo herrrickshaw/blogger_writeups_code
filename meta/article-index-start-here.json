@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-08-18T04:42:49.925+05:30",
+  "updated": "2026-08-30T11:25:42.703+05:30",
   "labels": [],
-  "bytes": 211028,
-  "sha256": "583f80140f508d7b67aea9b29d2a8d28aa3905086beb4912dd06e9f3bf3c0daf",
+  "bytes": 298590,
+  "sha256": "1e5bfa99835412147dde2919c63559de612f9aec359e8cc3c2ac627926bbad73",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "28.0.0",
+  "version": "45.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -833,6 +833,625 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "28.0.1",
+      "date": "2026-08-19T05:44:50+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        211028,
+        211982
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.2",
+      "date": "2026-08-19T06:10:57+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        211982,
+        212336
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.3",
+      "date": "2026-08-19T06:38:45+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        212336,
+        212722
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.4",
+      "date": "2026-08-19T10:04:01+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        212722,
+        214140
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.5",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        214140,
+        214140
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.6",
+      "date": "2026-08-19T12:10:40+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        214140,
+        214998
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.7",
+      "date": "2026-08-19T14:21:16+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        214998,
+        215312
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.8",
+      "date": "2026-08-20T05:44:23+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        215312,
+        215725
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.9",
+      "date": "2026-08-20T05:56:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        215725,
+        216044
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.10",
+      "date": "2026-08-20T06:15:27+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        216044,
+        217150
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.11",
+      "date": "2026-08-20T09:37:37+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        217150,
+        218418
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.12",
+      "date": "2026-08-20T09:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        218418,
+        219362
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.13",
+      "date": "2026-08-20T10:04:17+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        219362,
+        220629
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.14",
+      "date": "2026-08-20T10:24:56+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        220629,
+        221638
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.15",
+      "date": "2026-08-20T12:18:04+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        221638,
+        222583
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.16",
+      "date": "2026-08-20T19:14:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        222583,
+        223540
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.17",
+      "date": "2026-08-20T21:18:28+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        223540,
+        223982
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.18",
+      "date": "2026-08-21T04:05:55+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        223982,
+        224388
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.19",
+      "date": "2026-08-21T21:07:17+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        224388,
+        225352
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.20",
+      "date": "2026-08-21T21:13:42+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        225352,
+        226223
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.21",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        226223,
+        226384
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.22",
+      "date": "2026-08-21T23:05:00+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        226384,
+        227058
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.23",
+      "date": "2026-08-21T23:14:47+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        227058,
+        227002
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.24",
+      "date": "2026-08-22T07:26:20+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        227002,
+        227675
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.25",
+      "date": "2026-08-22T08:49:42+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        227675,
+        228304
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.26",
+      "date": "2026-08-22T09:26:10+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        228304,
+        228338
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.27",
+      "date": "2026-08-22T11:11:11+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        228338,
+        228965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "28.0.28",
+      "date": "2026-08-22T11:53:15+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        228965,
+        228965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "29.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+7/-3 distinct numbers)",
+      "bytes": [
+        228965,
+        252399
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "30.0.0",
+      "date": "2026-08-24T03:34:36+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        252399,
+        260721
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "31.0.0",
+      "date": "2026-08-25T03:28:39+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-3 distinct numbers)",
+      "bytes": [
+        260721,
+        268487
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "32.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-3 distinct numbers)",
+      "bytes": [
+        268487,
+        278921
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "33.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-3 distinct numbers)",
+      "bytes": [
+        278921,
+        280451
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          true,
+          false
+        ],
+        "translate_widget": [
+          true,
+          false
+        ],
+        "index_link": [
+          true,
+          false
+        ],
+        "ai_disclosure": [
+          true,
+          false
+        ]
+      },
+      "note": "scheduled sync"
+    },
+    {
+      "version": "34.0.0",
+      "date": "2026-08-28T14:14:42+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        280451,
+        290065
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          false,
+          true
+        ],
+        "translate_widget": [
+          false,
+          true
+        ],
+        "index_link": [
+          false,
+          true
+        ],
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
+      "note": ""
+    },
+    {
+      "version": "35.0.0",
+      "date": "2026-08-28T14:35:17+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-2 distinct numbers)",
+      "bytes": [
+        290065,
+        290669
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "rebuild+republish article index after EU ETS/green corridors post"
+    },
+    {
+      "version": "36.0.0",
+      "date": "2026-08-28T21:10:10+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-3 distinct numbers)",
+      "bytes": [
+        290669,
+        291551
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "rebuild+republish article index after PLA/bagasse post"
+    },
+    {
+      "version": "37.0.0",
+      "date": "2026-08-29T12:16:24+05:30",
+      "level": "major",
+      "reason": "figures changed (+4/-2 distinct numbers)",
+      "bytes": [
+        291551,
+        291869
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "rebuild+republish article index after JJM rural water pipeline post"
+    },
+    {
+      "version": "38.0.0",
+      "date": "2026-08-29T12:48:29+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        291869,
+        292181
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "rebuild+republish article index after AMRUT urban portfolio post"
+    },
+    {
+      "version": "39.0.0",
+      "date": "2026-08-30T07:48:13+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-2 distinct numbers)",
+      "bytes": [
+        292181,
+        292792
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add fisheries article to article-index-start-here"
+    },
+    {
+      "version": "40.0.0",
+      "date": "2026-08-30T08:04:50+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        292792,
+        293868
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add PMAY-G article to article-index-start-here"
+    },
+    {
+      "version": "41.0.0",
+      "date": "2026-08-30T08:17:07+05:30",
+      "level": "major",
+      "reason": "figures changed (+2/-2 distinct numbers)",
+      "bytes": [
+        293868,
+        294752
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add electronics PLI article to article-index-start-here"
+    },
+    {
+      "version": "42.0.0",
+      "date": "2026-08-30T08:44:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-1 distinct numbers)",
+      "bytes": [
+        294752,
+        294736
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: update fisheries article title in article-index-start-here"
+    },
+    {
+      "version": "43.0.0",
+      "date": "2026-08-30T08:50:16+05:30",
+      "level": "major",
+      "reason": "figures changed (+3/-3 distinct numbers)",
+      "bytes": [
+        294736,
+        296297
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add bidder-list article to article-index-start-here"
+    },
+    {
+      "version": "44.0.0",
+      "date": "2026-08-30T11:10:54+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        296297,
+        297318
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: update PLI-schemes article title in article-index-start-here"
+    },
+    {
+      "version": "45.0.0",
+      "date": "2026-08-30T11:25:59+05:30",
+      "level": "major",
+      "reason": "figures changed (+5/-2 distinct numbers)",
+      "bytes": [
+        297318,
+        298590
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "index: add TASMAC article to article-index-start-here"
     }
   ]
 }

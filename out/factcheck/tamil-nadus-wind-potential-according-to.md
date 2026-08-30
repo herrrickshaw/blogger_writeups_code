@@ -16,19 +16,20 @@ Source: `posts/tamil-nadus-wind-potential-according-to.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99879, Requested 3401. Please try again in 47m13.92s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Energy & Fuels · India Trade & Policy · 14 August 2026" — The date is impossible (August 2026 is in the future as of the current date), and the category "India Trade & Policy" is not a standard section for an economics blog focused on energy/renewables. [confidence: high]
+- "14 August 2026" — The date is in the future relative to the current date (2025), making it incorrect or premature. [confidence: high]
 
-- "Tamil Nadu's installed wind capacity stood at roughly 11,938 MW as of 31 October 2025" — The source cited (RenewableAffairs.com's 2025 state-ranking compilation) is not provided, and the date (October 2025) is in the future relative to the article's publication date (which is incorrectly listed as 14 August 2026). [confidence: medium]
+- "a LIDAR wind-measurement survey off Dhanushkodi completed in January 2026" — The survey is described as completed in January 2026, which is in the future and thus unverifiable or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The calculation assumes that the 33,799 MW figure (based on a 100m hub height) is directly comparable to the installed capacity (which uses modern turbines at higher hub heights). This is an apples-to-oranges comparison because the potential figure understates the true installable capacity at modern hub heights (e.g., 120m or 150m), as acknowledged later in the article. The "two-thirds unbuilt" conclusion is misleading without adjusting for hub height. [confidence: high]
+- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is presented as the solution to the ageing fleet problem, the article does not provide evidence or data showing that repowering has been effective in other states or contexts, nor does it quantify the expected impact of repowering on Tamil Nadu's installed capacity or CUF improvements. The claim assumes repowering will succeed without addressing potential barriers like policy execution, financing, or grid upgrades. [confidence: medium]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article conflates "unused headroom" with unbuilt capacity, ignoring that the NIWE's 100m-hub-height estimate is not the true potential at modern hub heights. The claim implies that Tamil Nadu could theoretically install more wind capacity based on the 33,799 MW figure, but this ignores the fact that the same land could yield significantly more capacity at taller hub heights. The "headroom" is overstated. [confidence: high]
+- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article uses the 35% utilisation figure (based on NIWE's 100m-hub-height assessment) to argue that wind has "unused headroom," but this ignores the fact that the true potential is likely higher at modern hub heights (120m/150m), as acknowledged elsewhere in the article. The conclusion overstates the headroom by relying on an outdated or conservative potential estimate. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

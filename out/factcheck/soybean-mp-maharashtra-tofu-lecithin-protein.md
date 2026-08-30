@@ -16,19 +16,22 @@ Source: `posts/soybean-mp-maharashtra-tofu-lecithin-protein.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99910, Requested 4314. Please try again in 1h0m49.536s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India is one of the world's largest soybean growers by area" — This claim is not necessarily incorrect, but it lacks precision. The article does not provide a global ranking or comparison to confirm this statement. Without a specific reference (e.g., "India is the 4th largest soybean grower by area"), the claim is unverifiable. [confidence: medium]
+- "India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet" (headline) — The headline implies that India barely makes tofu, but the article itself states that soya chunks/nuggets/granules (e.g., Nutrela) are a long-standing, mass-market staple in India, which contradicts the "barely makes tofu" claim. [confidence: high]
 
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes" — The article cites SOPA estimates for 2025-26, but the "oil year" is not clearly defined. Soybean production is typically reported for agricultural years (e.g., Kharif or Rabi), not "oil years," which could lead to confusion or misinterpretation. [confidence: high]
+- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes." (text) — The article cites SOPA estimates for 2025-26 output but does not provide a clear definition of the "oil year" or confirm whether this aligns with the Kharif 2025 estimates (which show lower production). The discrepancy between the 2024-25 final (125.82 lakh tonnes) and Kharif 2025 estimate (e.g., MP at 43.25 lakh tonnes) suggests potential confusion in seasonal reporting or a miscalculation. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "A country growing this much soybean is, at the same time, actively lowering barriers to import more soybean oil — the crush economics, not the farm-gate harvest, are what actually govern the trade balance." — While the claim about crush economics influencing trade balance is plausible, the article does not provide evidence linking the import duty reduction (May 2025) to the trade balance or crush economics. The duty cut could be motivated by other factors (e.g., retail price control), and its impact on trade balance is not demonstrated. [confidence: medium]
+- "This is the same maize-for-ethanol pull this blog has covered from the ethanol side; here it shows up as an oilseed-acreage problem instead." (text) — The article conflates two separate issues: (1) maize's role as an ethanol feedstock (driving acreage shifts) and (2) soybean's price weakness (due to floor price vs. mandi prices). While both factors may contribute to reduced soybean acreage, the causal link between maize-for-ethanol and soybean's acreage decline is not directly supported by the data presented. The article does not demonstrate that ethanol demand for maize is the *primary* driver of soybean acreage reduction, nor does it rule out other factors (e.g., input costs, weather). [confidence: medium]
 
-- "Lecithin didn't require India to build a new industry. It required India to keep the one it already had for meal and oil, and sell what used to be a processing waste stream." — While lecithin is indeed a byproduct of oil refining, the claim that India "leads the world" in lecithin exports (8,582 shipments) is not directly tied to the argument that it didn't require a new industry. The leadership in exports could be due to other factors (e.g., global demand, pricing, or processing efficiency), not just the existence of crushing infrastructure. The reasoning conflates correlation with causation. [confidence: high]
+- "Lecithin didn't require India to build a new industry. It required India to keep the one it already had for meal and oil, and sell what used to be a processing waste stream." (text) — While lecithin is indeed a byproduct of oil refining, the claim that India "leads the world" in lecithin exports (8,582 shipments vs. Argentina's 1,499 and China's 586) is presented as a direct outcome of India's crushing infrastructure. However, the article does not establish whether India's leadership in lecithin exports is due to its crushing scale *alone* or also reflects other factors (e.g., global demand shifts, pricing advantages, or trade policies). The causal claim overstates the role of India's existing infrastructure without addressing these additional variables. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

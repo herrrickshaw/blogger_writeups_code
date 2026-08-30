@@ -54,6 +54,12 @@ TRACKED = {
     "iofficeai/officecli", "langchain-ai/openwiki", "usestrix/strix",
     "hkuds/vibe-trading", "justvugg/colibri", "madslorentzen/ai-job-search",
     "diegosouzapw/omniroute", "nutlope/hallmark",
+    # Added to the launch board in the Edition 03 refresh of 18 Aug 2026 --
+    # the Claude Code tooling layer. Entries must be lowercase: the membership
+    # test below is `fn.lower() in TRACKED`, so "thedotmack/Claude-Mem" here
+    # would silently never match and the repo would resurface every week.
+    "thedotmack/claude-mem", "gglucass/headroom-desktop",
+    "centminmod/my-claude-code-setup", "rebelytics/one-skill-to-rule-them-all",
 }
 
 

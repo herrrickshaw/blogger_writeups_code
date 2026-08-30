@@ -4,22 +4,22 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/about-author.html",
   "slug": "about-author",
   "published": "2026-08-05T10:43:35.000+05:30",
-  "updated": "2026-08-16T15:16:27.102+05:30",
+  "updated": "2026-08-19T11:48:47.198+05:30",
   "labels": [],
-  "bytes": 27966,
-  "sha256": "77664b812d5a8a0fd0a046b23ffc18dd42ecf54e166f41a6fc6ee18ff5e1760e",
+  "bytes": 28486,
+  "sha256": "05158e08f4a1b3caa621b695a4ac3961b57522f93ce90b78165bf9d6a16693ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
     "translate_widget": false,
     "index_link": false,
-    "ai_disclosure": false,
+    "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.7",
   "version_history": [
     {
       "version": "1.0.0",
@@ -104,6 +104,24 @@
       ],
       "url_changed": null,
       "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27966,
+        28486
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "ai_disclosure": [
+          false,
+          true
+        ]
+      },
       "note": ""
     }
   ]

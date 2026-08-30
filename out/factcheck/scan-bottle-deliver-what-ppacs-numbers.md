@@ -16,15 +16,16 @@ Source: `posts/scan-bottle-deliver-what-ppacs-numbers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99937, Requested 3608. Please try again in 51m2.88s. Need more tokens? Upgrade to Dev Tier today at https:]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article cites PPAC's Q1 FY2026-27 report for this claim, but the report's actual date is 1 July 2026, and FY2026-27 would not begin until April 2026. The sales data for April-June 2026 cannot be year-on-year compared to April-June 2025 because 2025-26 would not yet be complete at the time of the report. [confidence: high]
+- "PSU oil companies' domestic LPG sales in April-June 2026 actually fell 15.6% year-on-year" — The article claims this figure is from PPAC's Q1 FY2026-27 report, but the report's actual data (as cited in the article) shows sales of 6.48 million tonnes for April-June 2026, with no explicit year-on-year comparison provided in the quoted text. The 15.6% figure appears to be an unsupported assertion rather than a direct quote from PPAC. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Active domestic LPG connections have grown from 14.9 crore in 2015 to 33.14 crore this July, a genuine, government-verified expansion" — While the growth in connections is real, the article implies this directly reflects increased LPG consumption or usage, which is not necessarily true. The number of active connections does not account for deactivated or dormant connections, refill rates, or actual consumption per connection. The 15.6% drop in sales volume in Q1 FY2026-27 suggests that the increase in connections does not directly translate to increased consumption. [confidence: high]
+- "Rising connection counts and falling sales volume in the same quarter aren't automatically a contradiction — a high year-ago base, price or subsidy timing, or a one-quarter demand dip could each explain it" — While the article acknowledges potential explanations for the disconnect between rising connections and falling sales, it does not critically assess whether these factors are sufficient to account for the 15.6% decline. The claim implies that the gap is merely unexplained rather than potentially indicative of deeper issues (e.g., underreporting, data discrepancies, or methodological changes in PPAC's reporting). [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

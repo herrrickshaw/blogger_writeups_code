@@ -16,19 +16,18 @@ Source: `posts/top-15-chemicals-for-import.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99625, Requested 14192. Please try again in 3h18m57.887999999s. Need more tokens? Upgrade to Dev Tier toda]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Annual Imports (FY25-26) : $2,800 million (highest by value)" (Ethylene) — The corrected figure is $44 million, as explicitly stated in the correction notice. [confidence: high]
-- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected figure is $250 million, as explicitly stated in the correction notice. [confidence: high]
-
----
+- "Annual Imports (FY25-26) : $2,800 million" (Ethylene) — The corrected figure is $44 million, as explicitly stated in the article's correction notice. [confidence: high]
+- "Annual Imports (FY25-26) : $1,650 million" (Sulfuric Acid) — The corrected figure is $250 million, as explicitly stated in the article's correction notice. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "YoY Growth : +81% [retracted — the 4-Aug correction notice gives Acetic Acid's real FY25-26 YoY growth as +2.6%]" — The article uses the retracted +81% growth figure to justify Acetic Acid as a "fastest-growing import" priority, but the corrected +2.6% growth does not support the claim of a significant demand surge. [confidence: high]
-- "Major Exporters to India : Saudi Aramco (38%), SABIC (25%), Sinopec (12%), LyondellBasell (8%)" (HDPE) — The article lists LyondellBasell as a major exporter to India, but LyondellBasell is a global producer and not a direct exporter to India in the same way as national oil companies or regional suppliers. This misrepresents the supply chain concentration and may overstate the geopolitical risk. [confidence: medium]
+- "FY30 Substitution Target : -80% (down to $275mn imports)" (Polypropylene) — The article later retracts the FY30 savings targets due to corrected import values, making the substitution target meaningless as it was derived from the retracted figures. The corrected Summary Table does not provide meaningful substitution targets, so the claim lacks valid support. [confidence: high]
+- "YoY Growth : +81%" (Acetic Acid) — The corrected YoY growth is +2.6%, but the article still uses the retracted +81% figure to justify the chemical's priority status as a "red flag." This misrepresents the actual growth trend and undermines the reasoning for its inclusion as a high-priority import-substitution target. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

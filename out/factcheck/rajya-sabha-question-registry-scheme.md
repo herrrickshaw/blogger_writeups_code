@@ -16,19 +16,16 @@ Source: `posts/rajya-sabha-question-registry-scheme.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98768, Requested 1325. Please try again in 1m20.352s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "2019-01-02 → 2026-08-04" — The date range is incorrect because the article was published on 4 August 2026, and the end date (2026-08-04) is the same as the publication date, implying no data beyond that point. However, the claim suggests data collection up to that exact date, which is redundant and potentially misleading. [confidence: high]
-
-- "Generated 2026-08-04 by scripts/build_rs_pq_registry.py in digital-twin-for-ipa" — The script name "digital-twin-for-ipa" appears to be a placeholder or internal reference that is not verifiable in public repositories or official documentation. [confidence: medium]
+- "Every captured Rajya Sabha question on investment policies, schemes and incentives since 2019 (2019-01-02 → 2026-08-13) — 1,883 at this build" — The date range includes future dates (e.g., 2026-08-13) which are not yet realized, making the claim unverifiable and factually incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The underlying data analysis and build scripts are backed up at github.com/herrrickshaw" — The claim implies that the data and scripts are fully reproducible and verifiable via the GitHub repository, but the article does not confirm whether the repository is public, up-to-date, or contains all necessary components (e.g., raw data, dependencies). This could mislead readers into assuming full transparency without verification. [confidence: high]
-
-- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF" — While the caution is valid, the article itself is AI-generated and does not provide a clear mechanism for readers to distinguish between AI-generated claims and verified facts. This creates a gap in accountability, as readers cannot easily cross-check AI-generated content against primary sources. [confidence: high]
+- "AI-generated text can misstate figures even when working from real source material — verify any number that matters to a decision against the linked answer PDF." — While the caution about AI-generated text is valid, the article itself is presented as a synthesis aid rather than a primary source. The phrasing implies that the AI-generated content is the article itself, which could mislead readers into treating it as a definitive source rather than a tool for verification. The reasoning gap lies in conflating the role of the AI assistance with the article's own authority. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

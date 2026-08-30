@@ -16,19 +16,19 @@ Source: `posts/indias-tyre-waste-problem-and-crumb.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98991, Requested 2853. Please try again in 26m33.216s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Revenue was around ₹572 crore in the most recent reported year" — The article does not specify the fiscal year for this revenue figure, making it unverifiable. Additionally, the claim lacks a source citation for this specific financial data, which is unusual given the article's otherwise detailed sourcing. [confidence: medium]
+- "211M units Projected India tyre market by 2026, up from ~179M in 2020" — The claim lacks a clear definition of "units" (e.g., tyres, sets, or weight) and no verifiable source is provided for these figures. The cited sources (company disclosures, CPCB portal) do not mention such projections. [confidence: high]
 
-- "₹23.9 crore in EPR-credit revenue in just the first nine months of FY2026" — FY2026 is a future fiscal year (as of 2024), and the article cites this as a reported figure without clarifying whether it is projected or based on interim data. This is either a factual error or a misleading projection. [confidence: high]
+- "Tinna Rubber & Infrastructure Limited (TRIL) ... NSE-listed April 2025" — As of the latest available data (June 2024), TRIL is not listed on NSE. The claim appears to be speculative or unverified. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on the actual CRMB adoption rate in road construction or the proportion of eligible network using CRMB, making the causal link to a "dent" speculative. [confidence: high]
+- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill is an extrapolation. The article does not provide data on how much CRMB is actually used in road construction or the proportion of bitumen demand it displaces. Without this, the causal link between CRMB adoption and import reduction is unsupported. [confidence: high]
 
-- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, it does not inherently mean CRMB will become mainstream. The claim conflates policy compliance with market adoption, as the technical, economic, and logistical barriers to scaling CRMB use are not addressed. The EPR target could drive compliance without ensuring mainstream adoption. [confidence: high]
+- "The 100%-of-production EPR target now in force from 2024-25 is the clearest signal yet that this shifts from a niche technical option to a mainstream compliance-driven material stream." — While the EPR target is a strong policy signal, it does not inherently mean CRMB will become a mainstream material stream. The claim conflates regulatory compliance with market adoption. The EPR mechanism ensures recycling, but CRMB's uptake depends on economic, technical, and logistical factors not addressed here. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 
