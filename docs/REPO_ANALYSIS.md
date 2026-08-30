@@ -178,8 +178,11 @@ is in `posts/`. Either the sidecar should be retained when a post leaves the
 feed, or §5 should name the exception.
 
 > **Status, re-read 30 August 2026 — this gap has closed, but not in the way
-> either option above proposes.** `posts/` and `meta/` now hold 233 entries
-> each and no post lacks a sidecar. The 19 uncovered posts were not given
+> either option above proposes.** Every slug in `posts/` now has a `meta/`
+> sidecar — the `comm(1)` check reports nothing uncovered. (Deliberately no
+> count here: the archive gains posts most days, so a number would be wrong
+> within a day while the coverage claim stays true.) The 19 uncovered posts
+> were not given
 > sidecars; the post files themselves were dropped from `posts/`, taking the
 > question with them. So `MAINTENANCE.md` §5's recovery guarantee is currently
 > accurate as written, and the choice this section asked for was never made —
