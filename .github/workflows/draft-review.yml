@@ -1,0 +1,114 @@
+name: Draft review
+
+# A three-stage, chained review pipeline for pull requests touching out/ (new
+# post drafts) or posts/ (published content) -- the same shape as an LLM
+# prompt-chaining pipeline (each stage's scope is framed by the last), but
+# built from deterministic checks: no model calls, no API key, no per-PR
+# cost, and no risk of writing anything back.
+#
+#   Stage 1 (static rules)  -- consistency-check/checks.py's STATIC_RULES,
+#                               including the JS-parse check, run against
+#                               every changed out/**/*.html draft. This is
+#                               the same check every post in this repo has
+#                               been hand-run against before publishing.
+#   Stage 2 (content loss)  -- flags any changed posts/**/*.html or
+#                               out/**/*.html file that shrank more than 8%
+#                               vs. the PR's base ref -- the exact failure
+#                               mode behind the 2026-08-07 WPI incident and
+#                               the 2026-08-30 top-15-chemicals-for-import.html
+#                               regression documented in CLAUDE.md.
+#   Stage 3 (routing)       -- this workflow: posts (or updates) a single PR
+#                               comment with the combined findings, and fails
+#                               the check only on a BLOCKER-severity static
+#                               rule -- content loss and MINOR/MAJOR findings
+#                               are surfaced for a human to glance at, not
+#                               gated on, since plenty of legitimate edits in
+#                               this repo's own history shrink a post's byte
+#                               count too.
+#
+# This workflow is read-only against the live blog: it never runs
+# tools/blogger_api.py or tools/snapshot.py, and never writes to posts/ or
+# meta/. Publishing stays a manual, OAuth-authorised action from a
+# maintainer's own machine, per CLAUDE.md rule 4.
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+    paths:
+      - "out/**"
+      - "posts/**"
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  # A second push to the same PR supersedes the review in flight -- only the
+  # latest commit's findings are worth having.
+  group: draft-review-${{ github.event.pull_request.number }}
+  cancel-in-progress: true
+
+jobs:
+  review:
+    # Every PR in this repo is opened as a draft awaiting maintainer review
+    # (see the wine/LNG/BrandSafway/canopy PRs) -- draft status is the normal
+    # state to review in, not a reason to skip.
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # ubuntu-latest ships Node.js already; this is just a sanity check so
+      # a missing runtime shows up as a clear log line, not a silently
+      # skipped js-parses rule (see pr_review.py's node_check_for docstring).
+      - name: Confirm node is available
+        run: node --version
+
+      - name: Run staged review
+        id: review
+        run: |
+          set +e
+          python3 consistency-check/pr_review.py \
+            --base-ref "${{ github.event.pull_request.base.sha }}" \
+            --head-ref "${{ github.event.pull_request.head.sha }}" \
+            > review.md
+          echo "status=$?" >> "$GITHUB_OUTPUT"
+          set -e
+          cat review.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Comment on the PR
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('review.md', 'utf8');
+            const marker = '<!-- draft-review-bot -->';
+            const full = `${marker}\n### Draft review\n\n${body}`;
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner, repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find(c => c.body.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                comment_id: existing.id, body: full,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner, repo: context.repo.repo,
+                issue_number: context.issue.number, body: full,
+              });
+            }
+
+      - name: Fail on BLOCKER-severity findings
+        if: steps.review.outputs.status != '0'
+        run: |
+          echo "A BLOCKER-severity static rule failed -- see the PR comment above."
+          exit 1
