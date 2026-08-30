@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-08-29T15:15:53+05:30",
+  "snapshot": "2026-08-30T07:30:37+05:30",
   "count": 226,
   "posts": {
     "1058853159205559121": {
@@ -3692,12 +3692,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-23T22:02:42.853+05:30",
+      "updated": "2026-08-30T07:30:07.009+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 55166,
-      "sha256": "3ebd854afb184d6cfc671c4c93d9d469d9cef473078a58b912946a26aa9486e5",
+      "bytes": 56345,
+      "sha256": "efb344a6fd50686409207d3b0e6ddfcbd93bb78e46339b15d62b55479c8d2fd0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3709,7 +3709,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "8.0.0",
+      "version": "8.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4138,6 +4138,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "8.0.1",
+          "date": "2026-08-30T07:30:37+05:30",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            55166,
+            56345
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "shop: add Grapes of Wrath (Penguin Modern Classics) to shelf"
         }
       ]
     },

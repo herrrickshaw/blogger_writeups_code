@@ -8045,3 +8045,16 @@ Gemini clarity fix: corrected Feb->Aug 2026 date discrepancy, fixed ambiguous 36
 **Changed**
 
 - `amruts-197-lakh-crore-urban-portfolio` — 23,322 → 23,330 bytes (+8)
+
+## 2026-08-30T07:30:37+05:30 — 226 posts live
+
+shop: add Grapes of Wrath (Penguin Modern Classics) to shelf
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **8.0.0 → 8.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 55,166 → 56,345 bytes (+1,179)
