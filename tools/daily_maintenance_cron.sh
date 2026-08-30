@@ -11,6 +11,8 @@
 # LanguageTool's own suggestions were false positives, so unattended
 # auto-apply would silently introduce real errors into live posts.
 set -uo pipefail
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+export GH_TOKEN="$(cat "$HOME/.config/gh_cron_token" 2>/dev/null)"
 # Repo root relative to this script, so the chain is not tied to one machine.
 # (The absolute python3 below stays: cron runs with a minimal PATH.)
 cd "$(dirname "$0")/.." || exit 1
