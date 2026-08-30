@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html",
   "slug": "the-rupee-fell-10-and-exports-grew-09",
   "published": "2026-08-04T06:34:23.000+05:30",
-  "updated": "2026-08-16T15:12:21.340+05:30",
+  "updated": "2026-08-25T10:35:30.330+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 36967,
-  "sha256": "12c0261e3ca358416cd871bed33acacb662a33792b29e63a2ae7ff9cb2f06b1a",
+  "bytes": 40269,
+  "sha256": "b63f9ce10a5a9c4d6172ee4e1dc62680489f73cafa90d1ee81f95b73f72d0a4b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -165,6 +165,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36967,
+        36993
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36993,
+        37180
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        37180,
+        40269
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

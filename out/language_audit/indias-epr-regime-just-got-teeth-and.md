@@ -4,4 +4,11 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: The read operation timed out
+- **[GRAMMAR/PRP_VBG]** An auxiliary verb seems to be missing from this progressive structure. Did you mean “I'm packaging”, “I am packaging”, or “I was packaging”?
+  context: ...tory minimum recycled content, Category I packaging (2026 amendment) 20% 40% 60% 30% 2025-2...
+  suggested: I'm packaging, I am packaging, I was packaging
+- **[GRAMMAR/PRP_VBG]** An auxiliary verb seems to be missing from this progressive structure. Did you mean “I'm packaging”, “I am packaging”, or “I was packaging”?
+  context: ...atory recycled-content target, Category I packaging. Category I plastic packaging must cont...
+  suggested: I'm packaging, I am packaging, I was packaging
+- **[GRAMMAR/PRP_JJ]** A verb or adverb may be missing or misspelled.
+  context: ... target, Category I packaging. Category I plastic packaging must contain a rising minimum...

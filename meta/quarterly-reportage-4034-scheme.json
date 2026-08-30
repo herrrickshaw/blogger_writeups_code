@@ -1,15 +1,15 @@
 {
   "id": "141021557520176306",
-  "title": "Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026",
+  "title": "Quarterly Reportage — 4,099 Scheme Announcements, 2017 to August 2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-08-16T15:12:09.597+05:30",
+  "updated": "2026-08-26T11:53:00.385+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 540029,
-  "sha256": "ec5521fc48c4f02bbedbc0161dd34d13e74a936276fa62363c96a6e2f71e4d06",
+  "bytes": 543498,
+  "sha256": "7ed394f7dcd8d13816e15d317a5e96418977109f1fe8250c7eb13b99eefc8395",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,71 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T05:31:50+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        540029,
+        560567
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        560567,
+        560694
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-21T23:14:47+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        560694,
+        560690
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "minor",
+      "reason": "prose grew 3,126→3,330 chars with no new figures",
+      "bytes": [
+        560690,
+        561479
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-4 distinct numbers)",
+      "bytes": [
+        561479,
+        543498
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

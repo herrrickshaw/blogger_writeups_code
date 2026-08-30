@@ -2654,3 +2654,127 @@ was never actually assigned to any post — the real label is "AI Tracker".
 
 Net effect: this file's top section is now the enforceable spec again, not a
 description of a mechanism that was already gone.
+
+## 2026-08-18 — PCPIR section added to the Top-15 chemicals post
+
+The Top-15 post answered "which codes" and "who is building capex" but never
+answered **where** the plant physically goes — which is the binding question for
+every base-petrochemical line in it, since the rationale on those codes is
+uniformly "cracker capacity gap". Added a `WHERE THE CAPACITY LANDS` H2 between
+the government-support summary and the implementation roadmap, built from PIB
+releases and parliamentary replies of the Department of Chemicals and
+Petrochemicals.
+
+**Four editorial decisions worth keeping on record:**
+
+- **Three PCPIRs, not four.** Almost every secondary source still says four
+  (Dahej, Visakhapatnam–Kakinada, Paradeep, Cuddalore–Nagapattinam). Tamil Nadu
+  cancelled its own in Feb 2020 — G.O. (Ms) No. 36, Housing & Urban Development
+  Dept, 45 villages across Cuddalore and Nagapattinam denotified after the
+  Cauvery delta was declared a protected agricultural zone — and recent PIB
+  releases count three. The post says three, names the cancellation, and uses it
+  as the section's risk anchor: a region approved in 2012 with ₹8,100 crore
+  already committed died on land and consent, not on capital. That is the same
+  class of risk as the unfiled EC already flagged against BPCL Andhra further
+  down the same post.
+- **The state-wise splits do not reconcile with the national total, and the post
+  says so rather than hiding it.** Dahej ₹1,12,873 cr + Vizag–Kakinada ₹43,744 cr
+  + Paradeep ₹45,000 cr = ₹2,01,617 cr against the ₹3,49,192 cr reported for the
+  three regions together in 2026. Roughly 42% of the current stock cannot be
+  placed in a state from published replies. The splits are of different vintages
+  (Dahej alone appears at both ₹85,928 cr and ₹1,12,873 cr in different replies),
+  so they are labelled last-known state positions, not a decomposition.
+- **A PIB release number was deliberately NOT cited for the newest figure.** The
+  ₹3,49,192 cr / 2,246 units / 3,71,263 persons totals come from a Rajya Sabha
+  written reply by the MoS for Chemicals & Fertilizers in the 2026 Monsoon
+  Session, reached through trade-press reportage; the specific PIB release could
+  not be opened to confirm its number and date. The source note says exactly
+  that instead of attaching a plausible-looking PRID. Cite the release id on the
+  next revision if it can be confirmed directly.
+- **The cluster layer is included but explicitly demoted.** Plastic Parks (10
+  states), Bulk Drug Parks (3 states) and the new ₹600 crore Chemical Parks
+  line in the FY2026-27 Budget are tabulated because the ask was state coverage —
+  but each row carries what it does *not* do for this post's codes. Plastic Parks
+  consume PP/PE, they do not make it; Bulk Drug Parks sit next to the Chapter 29
+  fine-chemical lines, not the polymer lines. Listing them without that column
+  would have implied substitution capacity that none of them build.
+
+One phrasing trap avoided: PIB reports "investment made/committed" as a single
+number. A committed rupee is not a commissioned tonne and maps to no HSN-8 line;
+the limits blockquote states that before anything else, because the whole section
+would otherwise read as evidence that substitution has happened rather than as a
+map of where it could.
+
+**Mechanical note.** This post's preamble sits in a `.gs-head-order` flex column
+(`display:flex;flex-direction:column`) where every child carries an explicit
+`order:`. The house revision line — which this post did not have — must be given
+`order:3` to land after the index backlink; inserted without one it defaults to
+`order:0` and jumps above the H1.
+## 2026-08-18 — Edition 03 refresh 2: five tools that are all the same story
+
+Five additions to the launch board — **claude-mem**, **OmniRoute**,
+**my-claude-code-setup**, **Task Observer** and **Headroom** — and the reason
+they go in together is that they are one story, not five. None of them is a
+model or a product launch. They are the tooling layer that has assembled itself
+*around* Claude Code and Codex: memory, routing, configuration, self-improvement
+and cost trimming, all built by people who are not the vendor. The board had no
+way to say that before, because it tracked labs and companies.
+
+**Every figure came from the GitHub API on 18 August**, queried per repository
+rather than sampled. Edition 02's lesson — that copying star counts from a
+roundup is not the same as checking them — is the standing rule now, so the
+notes print the owner-prefixed path for all five so the read can be repeated.
+
+**The top of the board changed, which is the actual news.** claude-mem's 91,065
+stars displace Ruflo's 67.6k as the largest repository tracked. The KPI strip
+said "Top repo stars (Ruflo) · flat" and would have kept saying it; a headline
+number that never moves is usually a number nobody re-queries.
+
+**Two dates are now mixed on one board, and it says so.** The five new entries
+are an 18 August read; every carried-over figure is still the 11 August one and
+was not re-queried. So a ranking that puts a new entry against a carried-over
+one is a week out of alignment. Printing "snapshot 18 Aug" under the new cards
+while the old ones silently kept an older date would have been the quiet
+version. The next edition owes a full re-read on a single date.
+
+**A fourth name collision, caught before it produced a wrong number.** Four
+separate repositories are called Headroom in this exact niche —
+`gglucass/headroom-desktop` (513 stars, the one tracked),
+`henchmarketing-rgb/headroom` (68), `patwalls/headroom` (11) and
+`allandecastro/headroom` (9). Same word, four authors, four different tools.
+This is the Graphify failure mode from the last refresh, and the answer is the
+same: an owner prefix on every repository named in the notes, and a collision
+note in the body. A "Headroom" figure quoted bare is unusable.
+
+**Task Observer's stars are not Task Observer's**, and the card says so. It is
+one skill inside `rebelytics/one-skill-to-rule-them-all`; the 1,879 stars belong
+to the parent plugin. A skill shipped inside a bundle has no star count of its
+own, so ranking it against a standalone repository is a category error. Rather
+than drop it or quietly borrow the parent's number, the card carries the number
+labelled *(parent repo)* and the notes explain why it is not comparable.
+
+**Efficiency claims got their own badge.** OmniRoute's "15–95% token savings"
+and Headroom's "~50% cost cut" are quoted from the projects' own descriptions
+and are marked *vendor claim*. A star count has an API; a savings percentage has
+a marketing page. Those are not the same evidence and the board should not
+render them in the same weight.
+
+**A stale-state bug the refresh exposed.** The six movers added on 11 August
+still carried `isNew:true`, so the board would have drawn eleven NEW ribbons
+under a revision line promising five. `isNew` is per-window state that nothing
+was resetting — the previous refresh set it and no step ever cleared it. All six
+are demoted to carryovers here, and their "why" text now opens with *Carried
+over from the 11 August refresh* instead of "NEW:". Any future refresh has to
+clear the previous window's flags as its first step, or the ribbons and the
+count drift apart again.
+
+**Drafted into `out/post-aitracker.html`, not into `posts/`.** Per the
+2026-08-07 rule: the archive directory is an output. Publishing from `out/` and
+letting `snapshot.py` write `posts/` is what keeps the version classifier
+diffing the old body against the new one instead of the new body against itself.
+
+**`tools/ai_radar.py`'s `TRACKED` set gained the four repositories it was
+missing** (OmniRoute was already there), so weekly discovery stops resurfacing
+things the board already carries. Entries must be lowercase — the membership
+test is `fn.lower() in TRACKED`, so a capitalised entry silently never matches;
+that is now a comment in the file rather than a fact to rediscover.

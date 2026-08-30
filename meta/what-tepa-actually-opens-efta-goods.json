@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html",
   "slug": "what-tepa-actually-opens-efta-goods",
   "published": "2026-08-14T12:27:50.000+05:30",
-  "updated": "2026-08-16T15:07:00.087+05:30",
+  "updated": "2026-08-25T10:37:41.848+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 28238,
-  "sha256": "b72b5c00a330e4eba467b6abc65445db0e860bf2493a9fdca15ff4215a94c4e2",
+  "bytes": 30295,
+  "sha256": "31db084c58a2ca7a80b0c9430a6188967b7e5e7aed3c58c2ec637abe2e3b3187",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28238,
+        28211
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        28211,
+        30295
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

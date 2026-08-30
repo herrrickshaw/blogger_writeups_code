@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-08-16T15:10:26.919+05:30",
+  "updated": "2026-08-26T12:07:39.505+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 40891,
-  "sha256": "5530308369e411040285f10ff943d037ac986c47345d5326fc5e6cfcda2f44e9",
+  "bytes": 44247,
+  "sha256": "c950750e967eded1b15f7b2f1bc8e95a3152c71d4b603e445804b9fee10d8dfc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.7",
+  "version": "7.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.8",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        40891,
+        40931
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "6.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        40931,
+        44226
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "7.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        44226,
+        44247
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

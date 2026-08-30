@@ -16,19 +16,20 @@ Source: `posts/inr-jpy-yen-the-missing-currency.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98957, Requested 3229. Please try again in 31m28.704s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like" published on **14 August 2026** — The date is impossible as the current date is before this, and no future-dated article can be published in advance. [confidence: high]
+- "14 August 2026" — The article is dated in the future (2026), which is impossible as the current date is 2023. [confidence: high]
 
-- "an estimated $4 trillion in global yen carry positions began reversing" — The BIS Bulletin No. 90 cited does not provide a specific dollar estimate of $4 trillion for the July 2024 carry-trade unwind; this figure appears to be an extrapolation or misinterpretation of the BIS analysis. [confidence: high]
+- "JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — The table shows JPY/INR at 0.599 on 14 Aug 2026, which implies INR/JPY (rupee per yen) is ~1.67. The 5-year change is listed as -10.3%, meaning the rupee weakened against the yen (more rupees needed to buy 1 yen), not strengthened. The claim reverses the direction of the exchange rate movement. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years. JPY/INR fell 10.3% over that window — the rupee actually got stronger against the yen." — While the data shows JPY/INR fell 10.3% over five years (implying INR strengthened), this does not by itself explain why yen debt was "such a good trade" for Indian borrowers. The article conflates currency movement with borrowing cost advantages without demonstrating that the timing of borrowing aligned with favorable exchange rate movements or that the principal repayment benefit outweighed interest costs or volatility risks. [confidence: high]
+- "Combine that with the low nominal yen coupons documented in 'Raising Green Debt Globally' (REC's EuroYen bond priced at 1.76–2.20% in January 2024, while the BoJ was still at −0.10%) and the arithmetic of the 2021–24 yen-borrowing rush becomes obvious: Indian borrowers weren't just getting a cheap nominal rate, they were also repaying a shrinking rupee liability on the principal, for years at a stretch." — The article conflates two separate effects: (1) the nominal cost of yen borrowing (low coupons) and (2) the currency depreciation/appreciation of the yen vs. rupee. The claim implies that the principal repayment benefit (rupee strengthening) was a direct result of the yen's low nominal rates, but these are independent factors. The yen's low rates do not cause the rupee to strengthen; the two are separate variables. The "arithmetic" is not logically connected. [confidence: high]
 
-- "Funding currencies have already started rotating away from the yen since. Reporting from 2026 describes investors diversifying carry-trade funding out of JPY and into the euro and Swiss franc..." — The claim that investors are rotating away from JPY into EUR/CHF in 2026 is presented as a factual trend based on "Reporting from 2026," but no verifiable source is provided within the article text, and the claim extrapolates from a single data point (yen volatility) to a broad behavioral shift without sufficient evidence or context. [confidence: medium]
+- "It already unwind once, violently, within the window this piece's own data covers. When the Bank of Japan raised rates to 0.25% in July 2024 — ending 17 years of near-zero policy — an estimated $4 trillion in global yen carry positions began reversing." — The article cites a $4 trillion global yen carry position unwind, but this figure is not sourced from the BIS Bulletin No. 90 or any other primary source within the article. The claim extrapolates a specific dollar amount from a general description of market turbulence, which may not be accurate or verifiable. The BIS likely reports the scale of the unwind in qualitative terms (e.g., "large" or "significant") rather than a precise trillion-dollar figure. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

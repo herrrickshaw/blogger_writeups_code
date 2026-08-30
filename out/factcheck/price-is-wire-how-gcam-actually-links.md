@@ -16,19 +16,20 @@ Source: `posts/price-is-wire-how-gcam-actually-links.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98822, Requested 5749. Please try again in 1h5m49.344s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "Revised 13 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — The UN World Population Prospects (2022) projects India's population to peak around 2060 and decline thereafter, but the specific CAGR values (0.64% and −0.25%) are not standard figures and lack citation. The claim is unverifiable without primary source confirmation. [confidence: medium]
+- "India's population is assumed to peak around mid-century and then decline, taking the population growth rate from positive (0.64% CAGR, 2015–50) to negative (−0.25% CAGR, 2050–2100)" — While the UN and other projections do show India's population peaking around mid-century, the specific CAGR values provided (-0.25% for 2050–2100) are not standard and may not align with widely accepted demographic projections. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND uses perfect foresight, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an overgeneralization. Perfect foresight is a strong assumption that may not reflect real-world decision-making, and its "efficiency" is a model artifact rather than a realistic outcome. [confidence: high]
+- "The representative agent in each region is, in REMIND's own words, 'endowed with perfect foresight' — it chooses how much of this year's output to consume versus invest with full knowledge of every future price the model will itself go on to compute." — While REMIND may use perfect foresight in its optimization, the claim that this leads to "internally efficient, easily interpreted cost-effectiveness pathways" is an interpretation that assumes perfect foresight is a valid or desirable modeling choice, rather than a strong and arguably unrealistic assumption. The article does not sufficiently acknowledge the limitations of this assumption in real-world policy analysis. [confidence: high]
 
-- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — This implies that GDP growth is purely an exogenous input, but the article later acknowledges that GDP growth is tied to economic assumptions (e.g., urbanization, income convergence). The claim oversimplifies the model's treatment of GDP, which may have endogenous feedbacks in some scenarios. [confidence: medium]
+- "Two GCAM runs with identical technology and policy assumptions but different GDP-growth inputs will show different sectoral energy paths for that reason alone — the socioeconomic table in Section 8 is what CEEW's India build assumed, not something GCAM calculated from first principles." — While this is factually correct, it is presented as a critique of GCAM's limitations, when in fact it is a standard feature of scenario modeling. The interpretation implies that GCAM's reliance on exogenous GDP assumptions is a flaw, but it is actually a common and necessary practice in integrated assessment models. The article frames this as a problem without sufficient context. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

@@ -7,3 +7,6 @@
 - **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘shortfall’ seems to be countable.
   context: ...er than the ₹17,863 crore net state VAT shortfall a companion piece calculated at the sam...
   suggested: shortfalls
+- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘shortfall’ seems to be countable.
+  context: ... next to UP's own ~₹1,776 crore net VAT shortfall from ethanol blending (VAT foregone net...
+  suggested: shortfalls

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-gst-gap-108-economy-growing.html",
   "slug": "tamil-nadus-gst-gap-108-economy-growing",
   "published": "2026-08-12T19:27:46.000+05:30",
-  "updated": "2026-08-16T15:08:10.252+05:30",
+  "updated": "2026-08-25T10:31:40.948+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 24226,
-  "sha256": "6852fa2c92f60201de0a5f25e2f9ef36a6fc65c7324fd7c1ef6e3eb02c5e39ad",
+  "bytes": 28370,
+  "sha256": "5153181f826d09bce8a4a5016a1cb1f1990be091c2fa45f0ec7687fa80192435",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24226,
+        24232
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.1.6",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24232,
+        24484
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        24484,
+        28370
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -16,19 +16,20 @@ Source: `posts/the-ethanol-sectors-buyers-market.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99757, Requested 1667. Please try again in 20m30.336s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "roughly 400 crore litres of additional capacity due by FY27" — The article does not provide a verifiable source for this specific figure, and FY27 capacity additions are not clearly documented in the cited sources (Government Interest Subvention Scheme guidelines, EBP Programme documentation, NCDC/DFPD scheme notifications). [confidence: medium]
+- "~2,000 Cr L Current installed ethanol capacity" — The article cites this figure multiple times, but it is not sourced from a primary government document (e.g., DFPD or OMC) and appears to be an estimate from a 2025 sector analysis. Without verification against the latest DFPD/OMC data, this claim is unverifiable. [confidence: medium]
 
-- "roughly 277 crore litres" surplus in Maharashtra and "roughly 77 crore litres" shortfall in Tamil Nadu — These regional surplus/shortfall figures are presented without attribution or methodology, making them unverifiable against primary sources. [confidence: medium]
+- "~60% Current absorption rate of offered ethanol" — The article states this as a current figure, but it is not attributed to a specific, recent source (e.g., a government report or industry survey). The claim lacks a clear, verifiable reference point. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "India’s ethanol-blending success — hitting the E20 target roughly on the government’s original schedule" — The article claims success in hitting the E20 target without providing evidence (e.g., official blending percentage data for a specific year) or clarifying whether this refers to a national average or specific states. The claim implies a causal link between capacity building and blending success, but it does not address whether the blending mandate was met due to capacity alone or other factors like feedstock availability or policy enforcement. [confidence: high]
+- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim implies a direct causal link between overcapacity and consolidation in cooperative sugar mills, but the article does not provide evidence that these mills are consolidating due to overcapacity. The funding structure (90:10 NCDC financing) and subsidies may be driving consolidation more than overcapacity. [confidence: high]
 
-- "The mismatch is real, but it is not evenly distressed: standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills represent a less-examined, better-subsidised route into the same sector" — The article conflates "distress" with "utilisation risk" without defining what constitutes distress (e.g., financial viability, operational losses). It also assumes that cooperative sugar mills (CSMs) are a "better-subsidised route" without comparing the net present value of subsidies to standalone distilleries or accounting for governance risks (e.g., farmer dues, state approval processes) that could offset subsidy benefits. [confidence: high]
+- "EV displacement of two-wheeler petrol demand. A medium-term threat to blending-volume growth as two-wheeler electrification accelerates — ethanol’s non-fuel uses (industrial, pharma, potable) are the partial offset." — The claim assumes that EV displacement of petrol demand will directly reduce ethanol blending demand, but it does not account for potential policy adjustments (e.g., higher blending mandates) or the fact that ethanol has non-fuel uses that may offset declines in fuel blending. The reasoning gap is the lack of evidence that non-fuel demand will fully compensate for reduced fuel blending. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

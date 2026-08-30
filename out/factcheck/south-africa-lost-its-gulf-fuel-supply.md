@@ -16,11 +16,20 @@ Source: `posts/south-africa-lost-its-gulf-fuel-supply.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99917, Requested 3152. Please try again in 44m11.616s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "US$1.88bn Indian refined-fuel exports to South Africa, FY2025-26" — The article later contradicts this claim by stating that Indian refined-petroleum exports to South Africa were US$1,882 million (or US$1.882bn) in FY2025-26, not US$1.88bn. The difference is significant (US$1.88bn vs. US$1.882bn) and suggests a rounding or transcription error. [confidence: high]
+
+- "South Africa’s Gulf suppliers were cut off, and the replacement cargoes docking in Durban came from the United States" — While the article cites Reuters reporting that US refined fuel tankers docked in Durban in April 2026, it does not establish that these were *replacement* cargoes for lost Gulf supplies. The claim implies a direct substitution, but the evidence only shows concurrent flows, not causation. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "India is roughly 6,000 nautical miles closer to Durban than the US Gulf Coast, and the industry’s own complaint in the same reporting is that freight and premiums have risen sharply, not just the flat product price. The buyer’s stated problem was delivered cost. The supplier that gained was the one furthest away." — The article correctly notes that freight costs rose and that the US (a farther supplier) gained market share. However, it incorrectly implies that distance is irrelevant to the outcome. The reasoning gap is that freight costs are influenced by factors beyond distance (e.g., vessel availability, war-related premiums, or Suez Canal fees), and the article does not disentangle these variables to conclude that distance alone is not a disadvantage. [confidence: high]
+
+- "Adding biofuels to an India–South Africa fuel trade meets the same wall as the neighbourhood version of the argument. India’s ethyl alcohol exports to South Africa in FY2025-26 were US$1.6 million. Against India’s own net position — US$54.3 million exported against US$407.2 million imported, a deficit of US$353 million — there is no pool of exportable Indian ethanol for South Africa to buy." — The article conflates *exportable surplus* with *net trade position*. While India has a net ethanol deficit, it may still have exportable ethanol if domestic production exceeds domestic demand in specific segments (e.g., molasses-based ethanol). The claim incorrectly assumes that a national net deficit precludes any exports, ignoring potential localized surpluses or contractual obligations. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

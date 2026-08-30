@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-08-17T07:16:05.962+05:30",
+  "updated": "2026-08-25T10:31:02.892+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "India Trade & Policy"
   ],
-  "bytes": 23587,
-  "sha256": "aecff17151ad351f746861379eb8dde0c38fb6c9ecbf2e020bb532f511b758e7",
+  "bytes": 26063,
+  "sha256": "1bdf146f56ed5c285248a8dc131220b5e2e19186be61f18c5189ada1636c9e10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,32 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23587,
+        23564
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        23564,
+        26063
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -16,19 +16,19 @@ Source: `posts/indian-it-in-ai-era.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 8210, Requested 5286. Please try again in 7.48s. Need more tokens? Upgrade to Dev Tier today at https://]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Services · Balance of payments · 4 August 2026" — The article is dated 4 August 2026, but the referenced data (e.g., FY2025-26 figures) and sources (e.g., RBI's Q4 2025-26 report) are for FY2025-26, which ends on 31 March 2026. The article incorrectly labels the fiscal year as 2026-27 or later. [confidence: high]
+- "4 August 2026" — The article is dated in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year." — The RBI data in Exhibit 1 shows net services receipts rising from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), a $27.8bn increase. However, the article later cites NASSCOM's Strategic Review 2026, which restated FY2024-25 services receipts from $188.8bn to $268.8bn, implying the $27.8bn increase is based on the restated figure. The original RBI figure ($188.8bn) is correct, but the article does not clarify this restatement, making the claim misleading. [confidence: high]
+- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year" — The RBI data in Exhibit 1 shows net services receipts rising from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), which is an increase of $27.8bn. However, the article later states that the merchandise trade deficit widened by $50 billion in FY2026 alone, which contradicts the RBI data showing a $50.4bn increase ($337.3bn - $286.9bn). The $50bn figure is not supported by the RBI data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue." — While the hiring and revenue data are correct, the article conflates correlation with causation. The collapse in net hiring could be due to factors other than AI (e.g., automation, outsourcing, or structural shifts in the industry), and the "AI deflation" claim is based on executive testimony rather than measured displacement. The article assumes AI is the primary driver without sufficient evidence. [confidence: medium]
+- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue" — While the hiring decline and executive statements about "AI deflation" are factual, the article implies a causal link between AI and the hiring collapse without sufficient evidence. The hiring slowdown could be due to other factors (e.g., post-pandemic normalization, automation unrelated to AI, or strategic shifts in hiring practices), and the "AI deflation" figures are forward-looking estimates, not measured impacts. [confidence: medium]
 
-- "So when people ask whether AI threatens Indian IT, the question that matters for the country is narrower and sharper: does it threaten the dollar receipts that make a $337 billion goods deficit survivable at 0.6% of GDP?" — The article correctly notes that services receipts offset the goods deficit, but it overstates the causal link between AI and potential threats to dollar receipts. The data shows AI has increased productivity and volumes, but the "AI deflation" (price erosion) is a separate issue. The conclusion that AI threatens dollar receipts is an extrapolation beyond the evidence, as the article itself acknowledges that the displacement has not been measured. [confidence: high]
+- "It can produce a balance-of-payments event. If services receipts stall while the goods deficit keeps widening — and it widened by $50 billion in FY2026 alone — the adjustment happens in the exchange rate and the capital account, not in the unemployment rate." — The article conflates the goods deficit widening ($50bn) with services receipts stalling, but the data shows services receipts grew by $27.8bn in FY2025-26. The claim that the goods deficit widened by $50bn in FY2026 alone is not directly tied to services receipts stalling, and the causal link to exchange rate adjustments is speculative without evidence of an imminent stall. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

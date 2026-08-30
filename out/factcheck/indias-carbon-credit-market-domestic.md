@@ -16,25 +16,19 @@ Source: `posts/indias-carbon-credit-market-domestic.html`
 
 ## Groq llama-3.3-70b-versatile
 
-FACTUAL ERRORS:
-- "The Carbon Credit Trading Scheme was notified by the Government of India in 2023 (S.O. 2825(E), 28 June 2023) under clause (w) of Section 14, read with Section 14AA, of the Energy Conservation Act, 2001 (as amended in 2022)" — The Energy Conservation Act, 2001, may not have been amended in 2022, as this information cannot be verified against available data. [confidence: medium]
-- None found for other factual errors.
-
-INTERPRETATION ERRORS:
-- "A sector-wide 'Aluminium' reduction target of 5.8% (per the legal/ESG summary of the final rules) is doing very different work at a smelter than at a refinery" — This statement may imply that the reduction target is ineffective or not tailored to specific sub-sectors, but it does not necessarily follow that the target is flawed or that a different approach would be more effective. [confidence: medium]
-- None found for other interpretation errors.
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "the second batch [of CCTS sectors] was notified 13.01.2026 (per PIB, 22 Jan 2026 release)" — The date format "13.01.2026" is ambiguous (could mean 13 January or 1 January) and the phrasing incorrectly suggests the notification date was 13 January 2026. The PIB release (22 Jan 2026) only mentions the sectors were notified, not the exact date. [confidence: high]
+- "Two-year average target, 282 obligated entities · notified G.S.R. 739(E), 8 Oct 2025" — The claim implies that the 282 obligated entities correspond to a two-year average target, but the text later clarifies that the 282 entities are part of the **first batch** notified on 8 Oct 2025, and the two-year average target applies to the **sectors** (e.g., Chlor-Alkali at 7.5%, Pulp & Paper at 7.1%, etc.). The phrasing conflates entities with targets. [confidence: high]
 
-- "the Greenhouse Gases Emission Intensity Target Rules, 2025, first published in draft form (G.S.R. 234(अ), 16 April 2025)" — The draft rules were published as "G.S.R. 234(E)" (not "G.S.R. 234(अ)"), as the "(अ)" symbol is not standard for Indian Gazette notifications. [confidence: high]
+- "Second batch (Jan 2026: Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium, 208 entities) had no targets specified in sources gathered." — The claim states that targets were "not specified," but the text later mentions that the second batch was notified on 13 Jan 2026 (per PIB release 22 Jan 2026), and the sources gathered did not specify targets. However, the **notification date** (13 Jan 2026) is incorrectly stated as "Jan 2026" without a day, while the PIB release date (22 Jan 2026) is provided. The article should clarify whether the notification was issued on 13 Jan or later. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "the Compliance Mechanism's rollout has happened in two notified batches so far, taking the obligated-entity count from zero to 490 in barely three months (8 Oct 2025 to 13 Jan 2026)" — The claim implies a causal link between the dates (8 Oct 2025 to 13 Jan 2026) and the increase in obligated entities (to 490), but the article does not establish that the batches were the *only* reason for the increase or that the timeline was unusually rapid. The phrasing suggests an interpretation that may overstate the significance of the timeline without evidence. [confidence: medium]
+- "First-batch CCTS sectors face very different two-year emission-intensity cuts — Chlor-Alkali and Pulp & Paper nearly double Cement's target." — The claim suggests that the **magnitude** of the targets (e.g., 7.5% vs. 3.4%) implies a direct comparison of effort or burden, but the text does not establish that these percentage targets are **comparable** across sectors. For example, the baseline GEI (tCO2e per unit of product) for Chlor-Alkali may be far lower than for Cement, meaning a 7.5% reduction in Chlor-Alkali could represent a smaller absolute emission cut than a 3.4% reduction in Cement. The article does not account for baseline differences when interpreting the targets. [confidence: high]
 
-- "the structural point worth pulling out of that table: within the Aluminium sector alone, the baseline GEI for Smelter sub-sector plants [...] runs somewhere on the order of 12-35x higher than the baseline for Refinery sub-sector plants" — While the data in the table supports the *observation* that smelters have higher GEI than refineries, the article does not explain why this structural difference exists or whether it was intentional in the policy design. The claim is presented as a "structural fact," but it is not clear if this was a deliberate outcome of the rules or an incidental observation. [confidence: medium]
+- "An entity that falls short must purchase Carbon Credit Certificates from the ICM to cover the shortfall; an entity that beats its target earns certificates it can sell." — The claim implies a **direct and automatic** trading mechanism where shortfalls are covered by CCC purchases and surpluses are sold, but the text does not specify **how** the trading mechanism operates (e.g., whether there is a centralized exchange, price discovery, or liquidity constraints). The interpretation assumes seamless fungibility and market efficiency without evidence. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

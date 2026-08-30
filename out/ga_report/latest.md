@@ -4,50 +4,54 @@
 
 ## Totals
 
-- Active users: **100**
-- Total users: **100**
-- Page views: **1378**
-- Sessions: **240**
+- Active users: **215**
+- Total users: **215**
+- Page views: **2172**
+- Sessions: **484**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| India | 53 | 1311 |
-| United States | 39 | 52 |
+| United States | 133 | 180 |
+| India | 73 | 1975 |
 | (not set) | 2 | 2 |
-| Malaysia | 2 | 8 |
+| Malaysia | 2 | 9 |
 | Oman | 2 | 2 |
 | Ireland | 1 | 2 |
+| Netherlands | 1 | 1 |
 | United Arab Emirates | 1 | 1 |
 
 ## Views by city (top 30)
 
 | City | Active users | Page views |
 |---|---|---|
+| Flint Hill | 50 | 71 |
+| Des Moines | 40 | 51 |
+| (not set) | 33 | 46 |
+| Coimbatore | 31 | 1166 |
 | Chennai | 21 | 312 |
-| Coimbatore | 15 | 548 |
-| (not set) | 14 | 17 |
-| Flint Hill | 13 | 19 |
 | Madurai | 8 | 230 |
-| Des Moines | 6 | 9 |
-| Salem | 4 | 203 |
-|  | 3 | 4 |
-| Hyderabad | 3 | 3 |
-| Bengaluru | 2 | 5 |
+| Moses Lake | 6 | 8 |
+| Salem | 5 | 214 |
+| Hyderabad | 4 | 5 |
+| Mumbai | 4 | 31 |
+| Bengaluru | 3 | 6 |
 | Delhi | 2 | 2 |
-| Kuala Lumpur | 2 | 8 |
+| Kuala Lumpur | 2 | 9 |
 | Muscat | 2 | 2 |
+| Noida | 2 | 2 |
 | Pune | 2 | 2 |
 | San Jose | 2 | 2 |
+| Amsterdam | 1 | 1 |
 | Ashburn | 1 | 1 |
 | Cork | 1 | 2 |
 | Dublin | 1 | 0 |
 | Faridabad | 1 | 1 |
+| Fort Worth | 1 | 1 |
 | Hialeah Gardens | 1 | 1 |
 | Los Angeles | 1 | 1 |
 | Matar | 1 | 1 |
-| Mumbai | 1 | 1 |
 | New Delhi | 1 | 1 |
 | North Charleston | 1 | 1 |
 | Sharjah | 1 | 1 |
@@ -57,24 +61,24 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 461 | 61 |
-| /search | 91 | 4 |
-| /2026/08/article-index-start-here.html | 54 | 8 |
+| / | 755 | 107 |
+| /search | 116 | 4 |
+| /2026/08/article-index-start-here.html | 75 | 12 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 46 | 9 |
 | /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 31 | 5 |
-| /2026/08/guar-gum-indias-35-billion-export-peak.html | 26 | 6 |
-| /2026/08/thali-investing-whats-actually-on-plate.html | 22 | 3 |
-| /2026/08/the-503020-rule-is-elizabeth-warrens.html | 19 | 9 |
-| /2026/07/us-stock-picks-multi-screen-quant.html | 15 | 2 |
-| /2026/07/the-grain-value-loop-integrated-rice.html | 14 | 12 |
+| /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
+| /2026/08/the-milk-india-doesnt-drink-cheese-and.html | 28 | 25 |
+| /2026/08/blending-on-budget-energy-density-and.html | 24 | 24 |
+| /2026/08/global-biofuels-m-bankruptcy-bolt-on.html | 23 | 27 |
+| /2026/08/thali-investing-whats-actually-on-plate.html | 23 | 4 |
+| /2026/07/us-stock-picks-multi-screen-quant.html | 20 | 3 |
+| /2026/08/the-503020-rule-is-elizabeth-warrens.html | 20 | 10 |
+| /2026/07/the-grain-value-loop-integrated-rice.html | 15 | 13 |
+| /2026/08/indias-coal-to-chemicals-menu-ranked-by.html | 14 | 3 |
 | /2026/07/ai-high-demand-launch-tracker.html | 13 | 3 |
 | /2026/08/cow-dung-already-flew-rocket-engine.html | 13 | 5 |
+| /2026/08/cpi-wpi-trends-mospi-bulletin.html | 13 | 4 |
 | /2026/08/diesel-doesnt-move-cpi-it-moves-40.html | 13 | 5 |
 | /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 13 | 4 |
-| /2026/08/a-slice-of-apple-costs-about-1700-slice.html | 12 | 1 |
-| /2026/08/cpi-wpi-trends-mospi-bulletin.html | 12 | 3 |
-| /2026/08/europe-bought-record-amount-of-lng-and.html | 12 | 3 |
-| /2026/08/where-indias-factories-actually-get.html | 12 | 12 |
-| /2026/08/imported-fertiliser-fuel-prices-diesel.html | 11 | 3 |
 
 [1]: same post, folded in from a pre-redirect URL still present in GA4's history (301 confirmed working) -- `/2026/07/india-mineral-oil-hsn-ch27-trade.html` (25 views/13 users)

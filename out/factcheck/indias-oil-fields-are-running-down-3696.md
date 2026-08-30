@@ -16,19 +16,15 @@ Source: `posts/indias-oil-fields-are-running-down-3696.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 97812, Requested 3192. Please try again in 14m27.456s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "91.8% achieved" (for crude production in FY2024-25) — The article states that 28.70 MMT was achieved against a 31.27 MMT target, which is 91.8%. However, the table in the article shows the target as 31,272 TMT (31.272 MMT) and actual as 28,703 TMT (28.703 MMT), which calculates to 91.78% (28.703/31.272 * 100). Rounding to one decimal place should yield 91.8%, but the exact figure is 91.78%, which is not precisely 91.8%. [confidence: high]
-
-- "11.8% Self-sufficiency in petroleum products" — The article cites this figure for FY2024-25, but the text later clarifies that the correct figure is 11.8% for indigenous crude-based petroleum products as a share of domestic consumption, not overall self-sufficiency in petroleum products. The initial claim conflates these two distinct metrics. [confidence: high]
+- "36.96 to 28.70 MMT in a Decade" — The article claims a decline from 36.96 MMT in 2015-16 to 28.70 MMT in 2024-25, but the table shows 37.45 MMT in 2014-15 and 28.70 MMT in 2024-25. The decade referenced (2015-16 to 2024-25) does not align with the starting point of 36.96 MMT, which is incorrect as the table lists 36.96 MMT for 2015-16. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it." — While the data shows PSC gas production increased from 7.84 to 13.38 BCM, the claim implies a direct replacement of state fields' decline by private deepwater gas. However, the decline in ONGC/OIL gas (21.18 → 18.80 BCM) is not fully offset by PSC gas growth (7.84 → 13.38 BCM), as total gas production only rose from 32.25 to 36.11 BCM. The net increase is modest, and the phrasing overstates the replacement effect. [confidence: high]
-
-- "The refining industry is world-scale, expanding and profitable. It simply runs on other people's oil, and 78.5% of what it processes is high-sulphur crude, which narrows the grades India can realistically substitute toward when it wants to change supplier." — The claim that 78.5% of refined crude is high-sulphur is presented as a constraint on substitution, but the source (PPAC) likely refers to the *share of high-sulphur crude in total crude processed*, not the *share of high-sulphur crude in India's total crude imports*. The interpretation conflates processing capacity constraints with import substitution flexibility, which are distinct issues. [confidence: medium]
+- "Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it." — While the data shows PSC gas production increased from 7.84 BCM to 13.38 BCM, the claim implies a direct replacement of state fields' decline by private deepwater gas. However, the decline in ONGC/OIL nomination gas (21.18 → 18.80 BCM) is not fully offset by PSC gas growth, as total gas production only rose from 32.25 BCM to 36.11 BCM. The phrasing suggests a complete offset, which is not supported by the numbers. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

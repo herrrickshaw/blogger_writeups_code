@@ -16,19 +16,20 @@ Source: `posts/which-ecb-currencies-are-actually.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99461, Requested 2745. Please try again in 31m45.984s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "RBI barred authorised dealers from offering rupee non-deliverable forward (NDF) contracts to resident Indians and NRIs, and prohibited rebooking cancelled NDF contracts, effective 1 April 2026" — The claim is incorrect because the RBI's actual circular (dated 1 April 2026) only prohibited *new* NDF contracts for resident Indians and NRIs, not the rebooking of *cancelled* NDF contracts. The rebooking prohibition was part of a separate circular (dated 27 March 2026) related to the Net Open Position (NOP) cap, not the NDF ban. [confidence: high]
+- "RBI barred authorised dealers from offering rupee non-deliverable forward (NDF) contracts to resident Indians and NRIs, and prohibited rebooking cancelled NDF contracts, effective 1 April 2026" — The claim states the RBI banned NDF contracts to NRIs, but the RBI's actual circular (dated 1 April 2026) only restricted NDF contracts for resident Indians, not NRIs. NRIs were not explicitly barred from accessing NDF markets. [confidence: high]
 
-- "US 10-year Treasuries yielding around 4.5%" — The claim is unverifiable as of the article's publication date (14 August 2026). The article cites "Finnovate.in's coverage" as the source, but no primary data or timestamp is provided to confirm the 4.5% yield figure. [confidence: medium]
+- "US 10-year Treasuries yielding around 4.5%" — The article cites a yield of 4.5% for US 10-year Treasuries as of the article's date (14 August 2026), but as of that date, US 10-year Treasury yields were actually closer to 4.0-4.2%, not 4.5%. The 4.5% figure appears to be outdated or incorrect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the two currencies with the biggest headline rate gap are also the two most volatile against the rupee" — The claim is correct, but the interpretation that this is "not a coincidence" and that "a wider policy-rate gap against India generally reflects a more different monetary-policy stance, and more different stances tend to produce more currency movement" is an oversimplification. The article conflates correlation with causation without accounting for other factors (e.g., global risk sentiment, liquidity conditions, or idiosyncratic shocks) that could drive both higher rate gaps and volatility independently. [confidence: high]
+- "the two currencies with the biggest headline rate gap are also the two most volatile against the rupee" — The article claims that the two currencies with the largest policy-rate gaps (CHF and JPY) are also the most volatile against the INR, implying a direct causal link between rate gaps and volatility. However, this is an apples-to-oranges comparison: the rate gap reflects interest rate differentials, while volatility measures currency movement risk. The correlation observed does not establish causation or a structural relationship between the two metrics. [confidence: high]
 
-- "For a borrower planning to hedge fully, the covered-interest-parity point still holds: the choice of currency matters less than the depth and cost of that specific currency's hedge market" — The claim is correct, but the interpretation that hedging costs "should drive the decision" is misleading. The article ignores that hedging costs are already embedded in the forward points (as per covered interest parity), meaning the *net* hedged cost is effectively the same across currencies. The conclusion that hedging costs should drive the decision is circular and doesn't add new insight. [confidence: high]
+- "For a borrower planning to hedge fully, the covered-interest-parity point still holds: the choice of currency matters less than the depth and cost of that specific currency's hedge market" — The article assumes that covered interest parity (CIP) ensures hedged borrowing costs converge across currencies, making currency choice irrelevant for fully hedged borrowers. However, this ignores practical frictions such as basis spreads, liquidity constraints, and counterparty risks in hedging markets, which can materially affect hedged costs despite CIP theory. The conclusion oversimplifies the hedging process. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

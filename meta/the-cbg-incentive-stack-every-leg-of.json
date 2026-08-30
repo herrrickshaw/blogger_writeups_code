@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
   "slug": "the-cbg-incentive-stack-every-leg-of",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-08-16T15:15:17.364+05:30",
+  "updated": "2026-08-25T10:33:29.272+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 18427,
-  "sha256": "3cbc3ebe4905773cd86466e7370c7d727e68958c0290da82dbaee7003c778d71",
+  "bytes": 21095,
+  "sha256": "f4ccf87b0e6b2951e76cf76708590acd2b811ae7528f0a8cc3605011d1bd0246",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.7",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -183,6 +183,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        18427,
+        21095
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

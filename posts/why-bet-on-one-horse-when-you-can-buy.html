@@ -8,6 +8,61 @@
 <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5664000309261019" data-ad-slot="2886755424" data-ad-format="auto" data-full-width-responsive="true"></ins>
 <script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
 </div>
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="400" fill="#ffffff" />
+<text x="350" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">Sharpe Ratio by Price-Band Portfolio</text>
+<text x="350" y="52" text-anchor="middle" font-size="12.5" fill="#444">Equal-weighted NSE portfolios, weekly returns, Jan 2023 &amp;ndash; Aug 2026</text>
+
+
+
+<line x1="190" y1="80" x2="190" y2="345" stroke="#000" stroke-width="1.5" />
+
+
+<line x1="374" y1="75" x2="374" y2="350" stroke="#0b5794" stroke-width="1.3" stroke-dasharray="5,4" />
+<text x="374" y="68" text-anchor="middle" font-size="11" fill="#0b5794">Sharpe = 1.0 (acceptable)</text>
+
+
+
+<rect x="190" y="90" width="418" height="38" fill="#0b5794" />
+<text x="184" y="114" text-anchor="end" font-size="13" fill="#111">Above ₹10,000</text>
+<text x="184" y="128" text-anchor="end" font-size="10.5" fill="#666">30 stocks</text>
+<text x="618" y="114" font-size="14" font-weight="bold" fill="#111">2.27</text>
+
+
+<rect x="190" y="140" width="305" height="38" fill="#1a8f4c" />
+<text x="184" y="164" text-anchor="end" font-size="13" fill="#111">₹3,000&amp;ndash;5,000</text>
+<text x="184" y="178" text-anchor="end" font-size="10.5" fill="#666">68 stocks</text>
+<text x="505" y="164" font-size="14" font-weight="bold" fill="#111">1.66</text>
+
+
+<rect x="190" y="190" width="289" height="38" fill="#1a8f4c" />
+<text x="184" y="214" text-anchor="end" font-size="13" fill="#111">₹5,000&amp;ndash;10,000</text>
+<text x="184" y="228" text-anchor="end" font-size="10.5" fill="#666">45 stocks</text>
+<text x="489" y="214" font-size="14" font-weight="bold" fill="#111">1.57</text>
+
+
+<rect x="190" y="240" width="285" height="38" fill="#1a8f4c" />
+<text x="184" y="264" text-anchor="end" font-size="13" fill="#111">₹1,000&amp;ndash;3,000</text>
+<text x="184" y="278" text-anchor="end" font-size="10.5" fill="#666">314 stocks</text>
+<text x="485" y="264" font-size="14" font-weight="bold" fill="#111">1.55</text>
+
+
+<rect x="190" y="290" width="103" height="38" fill="#b23b2e" />
+<text x="184" y="314" text-anchor="end" font-size="13" fill="#111">Under ₹1,000</text>
+<text x="184" y="328" text-anchor="end" font-size="10.5" fill="#666">1,987 stocks</text>
+<text x="303" y="314" font-size="14" font-weight="bold" fill="#111">0.56</text>
+
+<line x1="190" y1="345" x2="608" y2="345" stroke="#000" stroke-width="1.5" />
+<text x="190" y="365" font-size="10.5" fill="#666">0</text>
+<text x="374" y="365" text-anchor="middle" font-size="10.5" fill="#666">1.0</text>
+<text x="560" y="365" text-anchor="middle" font-size="10.5" fill="#666">2.0</text>
+
+<text x="350" y="390" text-anchor="middle" font-size="11" fill="#666" font-style="italic">Source: local NSE price warehouse, equal-weighted portfolios per price band, 6.5% risk-free proxy</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Sharpe ratios for five price-band portfolios, Jan 2023–Aug 2026: the priciest stocks come out on top, the cheapest — despite being the most diversified — comes in worst.</figcaption>
+</figure>
+
 <a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
 <style>.gs-skip-link:focus{left:8px!important;top:8px!important}
 .gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
@@ -184,7 +239,7 @@ if(skip){
 <p>The framework used throughout this piece — Markowitz mean-variance optimisation, the Sharpe ratio as the reward-per-unit-of-risk yardstick, and Tobin's Mutual Fund Theorem for what a single "optimal" portfolio implies — is standard graduate-level corporate finance and valuation curriculum, not a bespoke method invented for this piece. <a href="https://pages.stern.nyu.edu/~adamodar/">Aswath Damodaran</a>, the NYU Stern finance professor whose free public data sets on cost of capital, equity risk premiums and betas by industry are widely used as a teaching and practitioner reference, publishes exactly the kind of risk-free-rate and equity-risk-premium inputs this piece's Sharpe and alpha calculations depend on. His most recent country risk data (updated January 2026) puts India's total equity risk premium at <strong>7.08%</strong> (Baa3 sovereign rating, a 2.85% country risk premium layered on a 4.23% mature-market premium) &mdash; a premium <em>on top of</em> the risk-free rate, not the risk-free rate itself, so it isn't directly comparable to the flat 6.5% risk-free proxy used in this piece's own calculations, but it confirms the risk-free rate this piece assumed is in the right neighbourhood: India's 10-year government bond yield, the usual risk-free proxy, has recently sat close to that same 6.5&ndash;7% range.</p>
 <p>More directly relevant to this piece's actual conclusion: Damodaran has repeatedly and publicly pushed back on "characteristic-based" investing strategies that sort stocks by some observable trait and assume the sorting itself explains a return difference, unless that trait is tied to an actual, priced risk factor. Established asset-pricing models add factors like company size, valuation (value vs. growth) and momentum to the market-risk term CAPM already captures — but a stock's raw per-share price is not one of them, precisely because it's a mechanical artifact of how many times a company has split its shares, unrelated to the size or risk of the underlying business. That is exactly this piece's own finding, arrived at independently: sorting the market by price produced real, measurable Sharpe-ratio differences in this specific window, but with no structural reason to expect that pattern to persist, because price was never a legitimate risk factor to sort by in the first place. The analysis and the standard teaching agree; they just agree from two different directions.</p>
 
-<div class="verdict">Verdict: <strong>Buying the stable beats betting on one horse, but the stable still has to be the right one.</strong> Equal-weighted portfolios built purely from price bands show real, measurable differences in Sharpe ratio — the above-₹10,000 band (2.27) look genuinely better than the under-₹1,000 band (0.56) over this period, and diversifying within a price band (up to 1,987 stocks, in the cheapest band's case) did not by itself fix a weak risk-return profile. But price is not a risk factor the Mutual Fund Theorem recognises, and the theorem's actual prescription &mdash; one optimal risky portfolio, built from the whole market by mean-variance weighting, not by any single characteristic like price &mdash; points toward a broad index fund over any price-filtered subset, however diversified that subset happens to be.</div>
+<div class="verdict">Verdict: <strong>Buying the stable beats betting on one horse, but the stable still has to be the right one.</strong> Equal-weighted portfolios built purely from price bands show real, measurable differences in Sharpe ratio — the above-₹10,000 band (2.27) looks genuinely better than the under-₹1,000 band (0.56) over this period, and diversifying within a price band (up to 1,987 stocks, in the cheapest band's case) did not by itself fix a weak risk-return profile. But price is not a risk factor the Mutual Fund Theorem recognises, and the theorem's actual prescription &mdash; one optimal risky portfolio, built from the whole market by mean-variance weighting, not by any single characteristic like price &mdash; points toward a broad index fund over any price-filtered subset, however diversified that subset happens to be.</div>
 
 <hr>
 <h3>Related on this blog</h3>
@@ -203,7 +258,7 @@ if(skip){
 <li>Constituent price-band lists sourced from Screener.in company data, 11 Aug 2026</li>
 </ul>
 
-<p class="disclaimer">This analysis is based on historical price data and does not constitute investment advice. Past risk-adjusted returns (Sharpe ratios) are backward-looking and specific to the 3.5-year window measured; they are not a prediction that any price band will continue to outperform or underperform. Equal-weighted portfolios (one unit of every stock in a band) do not reflect how any real investor would actually construct a portfolio and are used here purely to isolate price as the sole selection filter, consistent with this blog's earlier price-segmentation work. Local warehouse price coverage was incomplete for the largest band (1,987 of 4,862 stocks under ₹1,000 had usable price history), a limitation shared with the live-data beta figures in the companion piece and noted there in more detail.</p>
+<p class="disclaimer">This analysis is based on historical price data and does not constitute investment advice. Past risk-adjusted returns (Sharpe ratios) are backward-looking and specific to the 3.5-year window measured; they are not a prediction that any price band will continue to outperform or underperform. Equal-weighted portfolios (an equal rupee amount invested in every stock in a band) do not reflect how any real investor would actually construct a portfolio and are used here purely to isolate price as the sole selection filter, consistent with this blog's earlier price-segmentation work. Local warehouse price coverage was incomplete for the largest band (1,987 of 4,862 stocks under ₹1,000 had usable price history), a limitation shared with the live-data beta figures in the companion piece and noted there in more detail.</p>
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>AI Disclosure:</strong> This article was researched and written with AI assistance (Claude), drawing on publicly available government, industry, and academic sources cited above. AI-generated text can occasionally misstate figures or "hallucinate" details even when working from real source material — readers should treat this piece as a synthesis aid, verify any figure that matters to a decision against the cited primary source, and focus on the underlying material rather than this summary alone.</p>
 </div>
 

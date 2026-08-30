@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
   "slug": "rajya-sabha-question-registry-scheme",
   "published": "2026-08-04T15:55:00.000+05:30",
-  "updated": "2026-08-16T15:11:56.355+05:30",
+  "updated": "2026-08-25T10:29:48.322+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 326452,
-  "sha256": "1799bf28ddd842d4f1564d419bdd3c5acacfcccdb85edf1b57430a47e713ae80",
+  "bytes": 338585,
+  "sha256": "acdcd9de1ac6ad839238e5b5b2940162e5f70854216f23c4400807d391750269",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -156,6 +156,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-19T05:31:50+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        326452,
+        336679
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        336679,
+        336847
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        336847,
+        338585
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-08-16T13:59:49.519+05:30",
+  "updated": "2026-08-25T10:23:10.381+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 18896,
-  "sha256": "9bcb60f1dd3922ae9f5fb180665558200a3c0cade33dc3a9651c3f037b8af066",
+  "bytes": 21550,
+  "sha256": "91db1a8967aa1fe4d78c0dc752784cfa3d0f17ed32ede4292c0164b0f9141d29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -169,6 +169,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18896,
+        18912
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-0 distinct numbers)",
+      "bytes": [
+        18912,
+        21550
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

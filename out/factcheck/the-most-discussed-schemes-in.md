@@ -16,19 +16,20 @@ Source: `posts/the-most-discussed-schemes-in.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99695, Requested 4541. Please try again in 1h0m59.904s. Need more tokens? Upgrade to Dev Tier today at htt]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "4 August 2026" — The article is dated 4 August 2026, but this is a future date (as of the current real-world date), making it incorrect or unverifiable. [confidence: high]
+- "19 August 2026" — The date is in the future relative to the current date (2023) and the article's publication context, making it unverifiable and likely incorrect. [confidence: high]
 
-- "PM Dhan-Dhaanya Krishi Yojana" first announced on "2025-02-01" — The scheme name and date appear to be incorrect or unverifiable, as there is no widely recognized scheme by this exact name or date in official records. [confidence: medium]
+- "PM Dhan-Dhaanya Krishi Yojana" — The scheme name appears to be a misspelling or misattribution. The correct scheme is likely "PM Kisan Samman Nidhi" or another similar agricultural scheme, as "Dhan-Dhaanya" is not a recognized government scheme name. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — This claim assumes that zero questions for schemes launched in 2025–2026 is solely due to lack of parliamentary sessions, ignoring other possible reasons like delayed implementation, low public awareness, or schemes not yet operational. The reasoning gap is that it conflates absence of questions with temporal factors without considering alternative explanations. [confidence: high]
+- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — The claim assumes that zero questions for 2025–26 schemes are due to lack of parliamentary sessions, but it does not account for the possibility that these schemes may not have been implemented or publicized enough to warrant parliamentary attention. The reasoning gap is that the absence of questions does not necessarily imply lack of sessions but could also imply lack of awareness or urgency. [confidence: medium]
 
-- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While the limitation is correctly noted, the interpretation that zero questions is an "upper bound on neglect" is misleading. Zero questions could also indicate no public interest, lack of awareness, or schemes not yet operational, not necessarily neglect. The reasoning gap is equating absence of questions with neglect without acknowledging other valid interpretations. [confidence: high]
+- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While the claim is factually correct about the limitation, it is used to justify the interpretation that zero questions imply neglect, which is an overgeneralization. The reasoning gap is that zero questions could also mean the scheme is running smoothly without issues, not necessarily that it is being neglected. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

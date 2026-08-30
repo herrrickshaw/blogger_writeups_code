@@ -1,4 +1,4 @@
-# Language audit — Where India Actually Burns Its Fuel: Seventeen Years of State-Level Sales
+# Language audit — Where India Actually Burns Its Fuel: Sixteen Years of State-Level Sales
 
 *https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html*
 

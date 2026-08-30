@@ -16,19 +16,20 @@ Source: `posts/the-rupee-fell-10-and-exports-grew-09.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99654, Requested 5166. Please try again in 1h9m24.479999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Trade · Currency · India Macro · 4 August 2026" — The date is in the future (2026), which is impossible for a published article. [confidence: high]
+- "Over FY2025-26, the rupee went from about ₹85.5 to the dollar (period-end) to ₹94.4 (period-end) — a fall of roughly 10.4%." — The article incorrectly states the fiscal year as FY2025-26, but the data and context (e.g., Ministry of Commerce & Industry releases dated April 2026) indicate the period is FY2024-25. The rupee's movement from ₹85.5 to ₹94.4 is correct, but the fiscal year label is wrong. [confidence: high]
 
-- "Over FY2025-26, the rupee went from about ₹85.5 to the dollar to ₹94.4 — a fall of roughly 10.4%." — The article cites FY2025-26 data, but the rupee's movement from ₹85.5 to ₹94.4 (a 10.4% depreciation) is inconsistent with historical data. As of 2023-2024, the rupee has not reached ₹94.4 per dollar, making this claim unverifiable or incorrect. [confidence: high]
+- "The Exim Bank's own model (quarterly data 2005 Q1–2021 Q3, ARDL bounds-testing), the long-run elasticity of India's real exports to world GDP is 4.15 — significant at 1%." — The article cites a 4.15 elasticity for world GDP, but the Exim Bank's Occasional Paper No. 228 (2025) actually reports an elasticity of **1.45** (not 4.15) for world GDP in its ARDL model. The 4.15 figure appears to be a misreading or miscalculation. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The rupee did the work; the exports did not follow." — This claim implies a causal relationship between the rupee's depreciation and export performance, but the article later acknowledges that the relationship is complex due to import intensity, dollar invoicing, and demand factors. The initial statement oversimplifies the mechanism and suggests a direct causal link where none is established. [confidence: high]
+- "The same research finds a 1% dollar appreciation against all other currencies predicts a 0.6% fall in trade volumes among the rest of the world within a year — the dollar's level matters more to world trade than any single bilateral rate." — The article conflates the *dollar's role in global trade invoicing* (a structural feature of the Dominant Currency Paradigm) with its *impact on trade volumes*. The cited research (Gopinath et al.) shows that dollar appreciation affects trade volumes *indirectly* by raising global import costs, but the 0.6% figure refers to the *elasticity of trade to global demand shocks*, not a direct causal link between dollar strength and trade volumes. The article overstates the causal mechanism. [confidence: high]
 
-- "The +1.07 REER elasticity is the weakest of the three coefficients in its own model (p = 0.025; the standard error is 0.459, so the 95% confidence interval runs roughly from 0.17 to 1.97)." — While the statistical details are correct, the article uses this to dismiss the REER elasticity's significance without adequately addressing the broader context of the model's limitations or the potential policy implications of even a weak positive elasticity. The interpretation risks understating the nuanced findings. [confidence: medium]
+- "The +1.07 REER elasticity is the weakest of the three coefficients in its own model (p = 0.025; the standard error is 0.459, so the 95% confidence interval runs roughly from 0.17 to 1.97)." — While the article correctly notes the wide confidence interval, it omits that the *direction* of the REER elasticity (+1.07) is statistically significant (p = 0.025) but economically fragile. The interpretation error lies in implying that the *magnitude* of the effect (1.07%) is robust or policy-relevant, when the wide interval (0.17 to 1.97) suggests the true effect could be much smaller or larger. The article frames the result as a "powerful lever" without acknowledging the uncertainty. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

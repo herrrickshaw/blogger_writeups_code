@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-08-16T15:10:58.092+05:30",
+  "updated": "2026-08-26T10:23:31.709+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 18867,
-  "sha256": "83b1a9f6de4a1e6d42f5ffe47edb5109e5336c34ddf772a5c37ee545d01517fd",
+  "bytes": 21739,
+  "sha256": "3d56afd41feb71de347620f0db0e2367827b7729dc91f8b902a4efa3d76fd280",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.9",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.10",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18867,
+        19005
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        19005,
+        19654
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        19654,
+        21739
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

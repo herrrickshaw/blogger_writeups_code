@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-08-16T15:12:23.716+05:30",
+  "updated": "2026-08-25T10:34:50.853+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 22107,
-  "sha256": "500477b839115670d738c013df3299280a7ae42c44dad4cb70556d8abdd70477",
+  "bytes": 24982,
+  "sha256": "63f20ecfd56ebd1bb8bfc666a1eaa85ac47d7a64e8db43a07269f486a70b1e1f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -164,6 +164,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22107,
+        22116
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22116,
+        22397
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        22397,
+        24982
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

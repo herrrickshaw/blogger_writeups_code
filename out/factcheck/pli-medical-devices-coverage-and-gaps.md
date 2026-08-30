@@ -16,19 +16,20 @@ Source: `posts/pli-medical-devices-coverage-and-gaps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 98832, Requested 2756. Please try again in 22m52.032s. Need more tokens? Upgrade to Dev Tier today at http]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "PLI-MD closes to new applicants in March 2027" — The article incorrectly states the closure date as March 2027. The Department of Pharmaceuticals' statement to Lok Sabha (16 December 2025) specifies that the scheme closes with a one-year gestation period, implying the closure is in March 2026, not 2027. [confidence: high]
+- "PLI-MD closes to new applicants in March 2027" — The article contradicts itself by stating later that the scheme closes in March 2027 with a one-year gestation period, implying no further rounds are under consideration, but the phrasing "closes to new applicants" could be misinterpreted as the scheme ending entirely in March 2027 rather than just closing to new applicants. The correct interpretation is that no new applications are being accepted after March 2027, but the scheme continues for existing applicants. [confidence: high]
 
-- "28 approved projects, ₹1,094cr invested, ₹5,753cr cumulative exports to Sep 2025" — The article cites these figures without clarifying that they are cumulative since the scheme's inception (likely 2020-21) rather than for FY2025-26 alone. The phrasing could mislead readers into thinking these are FY2025-26 figures. [confidence: high]
+- "Imports +30% with 9% coverage despite four concentrator makers" — The article cites "9% coverage" for oxygen concentrators, but the source (TradeStat fetch) does not explicitly define what "coverage" refers to (e.g., local production share vs. market share). Without clarity, this claim is unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Pacemakers — inside Segment 4's scope (“implantable electronic devices”), yet no applicant makes one: imports $64mn at 1% export coverage, every implanted unit imported." — While the claim about pacemakers being imported is correct, the article implies that PLI's failure to address pacemakers is solely due to a lack of applicants. However, it does not consider whether the PLI scheme's design (e.g., minimum investment thresholds, eligibility criteria) may have discouraged potential applicants in this niche. [confidence: medium]
+- "MRI imports fell 8.5% to $298mn; Philips MRI-coils alone: ₹2,187cr cumulative exports, the scheme's biggest exporter. But family imports still +27% — demand outruns capacity." — The article correctly notes that MRI imports fell 8.5% while imports for the broader "family" (HS 9022) grew by 27%. However, it does not establish a causal link between the PLI scheme and the decline in MRI imports. The decline could be due to other factors (e.g., global supply chain changes, demand saturation, or unrelated policy measures). The conclusion that demand outruns capacity is speculative without additional evidence. [confidence: high]
 
-- "Oxygen concentrators — four applicants, near-zero exports, imports still +30%: a procurement/demand-side problem, not a capacity problem." — The article attributes the issue to procurement/demand-side factors without providing evidence or data to support this claim. The trade deficit could also stem from quality, pricing, or regulatory hurdles, which are not addressed. [confidence: medium]
+- "Lab & analytical instruments (HS 9027) — $2.19bn imports, 10% coverage, zero PLI presence: chromatographs ($335mn, 3% coverage), gas analysers ($298mn, coverage % not available in the TradeStat fetch), mass spectrometers ($116mn, 1% coverage)." — The article lists import values and "coverage" percentages for lab instruments but does not explain how "coverage" is calculated or sourced. Without a clear definition (e.g., local production as a share of total demand), the comparison between import values and "coverage" is meaningless. The claim implies that PLI's absence is the reason for low coverage, but this is an unsupported causal inference. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

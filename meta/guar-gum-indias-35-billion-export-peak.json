@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-08-16T14:56:49.078+05:30",
+  "updated": "2026-08-25T10:19:40.386+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
-  "bytes": 27929,
-  "sha256": "295e7ce43ff9dee6f9b03ee867e8eaf0f1ddc4223e50036025a11f437ba43d6a",
+  "bytes": 31497,
+  "sha256": "9fe08af90bfe7f6d558805c87888aaf72bc96876d25100701b65b4e472a8df10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-08-19T11:40:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27929,
+        27875
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.4",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27875,
+        27897
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        27897,
+        31497
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

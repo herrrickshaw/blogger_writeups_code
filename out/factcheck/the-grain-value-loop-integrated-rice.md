@@ -16,19 +16,20 @@ Source: `posts/the-grain-value-loop-integrated-rice.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99725, Requested 10719. Please try again in 2h30m23.616s. Need more tokens? Upgrade to Dev Tier today at h]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India imports what it grows — and gifts the feedstock" — The claim implies India imports all the crops it grows, which is incorrect. India is a net exporter of several crops (e.g., basmati rice, wheat in some years) and imports others (e.g., edible oils, pulses). The statement oversimplifies trade patterns and is not universally true. [confidence: high]
+- "India imports what it grows — and gifts the feedstock" — This is a misleading generalization. While India imports edible oils (including rice bran oil, despite being the world's #1 producer), it does not import rice or wheat, which it grows in surplus. The claim conflates different commodities and their trade patterns. [confidence: high]
 
-- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — While the procurement numbers are roughly correct for recent years, the article does not specify the year or source for these figures, making it difficult to verify their accuracy for the context of 2026 projections. The lack of a specific year or citation weakens the claim. [confidence: medium]
+- "The government procures ~520 LMT of rice and ~300 LMT of wheat a year" — The wheat procurement figure is outdated. As per the latest available data (e.g., DFPD Foodgrain Bulletin 2024-25), wheat procurement is closer to ~250-260 LMT, not 300 LMT. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The margin is in the cascade, not the commodity — the sugarcane model (sugar + ethanol + power + CBG) ported to grain." — The claim suggests that the value addition in rice processing follows the same margin structure as sugarcane (where sugar, ethanol, power, and CBG are co-produced). However, rice processing does not naturally produce ethanol or CBG from the same feedstock stream as sugarcane does. The analogy is flawed because rice bran oil extraction and sugarcane processing involve fundamentally different biochemical pathways and co-product structures. The comparison is an apples-to-oranges error. [confidence: high]
+- "Rice bran oil — bran from the ~832 LMT of paddy under CMR; ₹60/kg ex-mill vs ₹105 import parity = ₹45/kg edge" — The claim assumes that the entire potential rice bran oil (RBO) production (6.4 LMT from 40 LMT bran) can be captured at ₹60/kg, but this ignores market dynamics, processing costs, and the fact that only a fraction of the bran is currently stabilized (as noted in the article itself: "this figure matches only the ~40 LMT CMR-bran base, not the full husk+bran tonnage"). The ₹45/kg edge is not fully realizable at scale. [confidence: high]
 
-- "RBO is also the better oil: γ-oryzanol, tocotrienols, phytosterols; cholesterol-lowering; high-heat stable; non-GMO (ICRBO-2016)" — While rice bran oil (RBO) does contain beneficial compounds like γ-oryzanol and tocotrienols, the claim that it is "the better oil" based solely on these attributes is an overgeneralization. The nutritional superiority of RBO over other edible oils (e.g., mustard oil, coconut oil) is not universally established, and its health benefits depend on consumption patterns and overall diet. The statement extrapolates beyond what is definitively proven by clinical evidence. [confidence: medium]
+- "The ethanol mandate has saved ₹1,97,000 cr in forex since ESY2014-15 — built mostly on sugarcane, with surplus/broken grain a smaller but fast-growing share of the feedstock mix in recent years" — While ethanol blending has saved forex, the attribution to "mostly sugarcane" is an overstatement. Sugarcane-based ethanol contributes significantly, but grain-based ethanol (including rice and maize) has grown rapidly, especially in recent years. The claim underplays the role of grains in ethanol production. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

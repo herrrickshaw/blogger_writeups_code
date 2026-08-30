@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-16T13:59:26.275+05:30",
+  "updated": "2026-08-25T10:13:50.550+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 13125,
-  "sha256": "d4518a62033f8f893ebc7378b2291be952de0634955985be2099b91348be4d33",
+  "bytes": 20249,
+  "sha256": "3bedd5c38f9ddc5f0315644e2afbcdbda99247a97abbd5344bbeed06b110dd21",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -170,6 +170,58 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        13125,
+        13123
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-21T22:18:30+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        13123,
+        18126
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18126,
+        18152
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        18152,
+        20249
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

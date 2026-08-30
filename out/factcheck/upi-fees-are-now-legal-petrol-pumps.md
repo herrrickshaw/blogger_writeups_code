@@ -16,19 +16,20 @@ Source: `posts/upi-fees-are-now-legal-petrol-pumps.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99605, Requested 5248. Please try again in 1h9m52.991999999s. Need more tokens? Upgrade to Dev Tier today ]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the Taxation and Other Laws (Amendment) Bill was introduced on 4 August 2025 (as mentioned later in the article: "The Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026"). [confidence: high]
+- "On 4 August 2026 that shield came off" — The article incorrectly states the date as 4 August 2026, but the Taxation and Other Laws (Amendment) Bill was introduced on 4 August 2025 (as mentioned later in the text: "The Taxation and Other Laws (Amendment) Bill, introduced 4 August 2026"). [confidence: high]
 
-- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure revision in May 2025 set the interchange fee at ₹19 per financial transaction and ₹7 per non-financial transaction, not ₹19 for all withdrawals. The article conflates the two figures. [confidence: high]
+- "₹19 ATM interchange per cash withdrawal since May 2025" — The RBI ATM fee structure was revised in May 2025, but the interchange fee for cash withdrawals was increased to ₹19 (including ₹7 non-financial) only for white-label ATMs (WLAs). For regular bank ATMs, the interchange remains lower. The article conflates the two categories. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that — and a card-style 1% would gross more than the central government’s annual food subsidy" — The article extrapolates the gross fee pool (₹90,000 crore for 0.25% MDR) to claim it is "two hundred times" the ₹437 crore subsidy, but this is a misleading comparison. The ₹437 crore is the government's *annual* subsidy, while the ₹90,000 crore is a *monthly* gross fee pool. Annualizing the fee pool (₹90,000 crore × 12 = ₹1,080,000 crore) would make the comparison even more extreme, but the article does not clarify this. The claim implies a direct proportionality that is not supported by the figures. [confidence: high]
+- "A 0.25% MDR on today’s flows would gross roughly ₹90,000 crore — two hundred times that [₹437 crore subsidy]" — The article extrapolates a monthly gross fee pool (₹7,470 crore) to an annualized figure (₹89,636 crore) and compares it to the annual subsidy (₹437 crore). However, the subsidy was a one-time budgetary allocation, while the MDR would be a recurring revenue stream for banks. The comparison is misleading because it treats a recurring revenue stream as equivalent to a one-time expense. [confidence: high]
 
-- "The leverage argument generalises far beyond fuel — the same fee-rate-÷-margin arithmetic prices jewellery, kirana, electronics, liquor and every other UPI-accepting counter" — The article suggests that the "leverage" (fee-rate divided by margin) for petrol pumps can be directly applied to other merchant categories like jewellery or kirana stores. However, this is an apples-to-oranges comparison because the margin structures, cost structures, and payment behaviors vary significantly across sectors. For example, jewellery stores may have much higher margins but lower transaction volumes, while kirana stores may have thin margins but high transaction volumes. The article does not provide evidence or reasoning to justify this generalization. [confidence: high]
+- "The leverage argument generalises far beyond fuel — the same fee-rate-÷-margin arithmetic prices jewellery, kirana, electronics, liquor and every other UPI-accepting counter" — The article assumes that the fee-rate-to-margin ratio (e.g., 25.9× for petrol pumps) applies uniformly across all merchant categories. However, different sectors have vastly different cost structures, margins, and digital payment adoption rates. The blanket generalization ignores these variations and overstates the impact of MDR on other sectors. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 

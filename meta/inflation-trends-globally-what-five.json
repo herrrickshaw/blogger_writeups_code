@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-08-16T15:10:37.571+05:30",
+  "updated": "2026-08-26T13:38:10.035+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 53043,
-  "sha256": "db4812356f7fb1291efd54c04aa2d1b21fbd5fad2150a7c69f40f281a78c7477",
+  "bytes": 59780,
+  "sha256": "d55a310d71471239fb9393974177cb8383b3f45c561f1aada16a44873affe80d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.13",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,45 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.14",
+      "date": "2026-08-19T11:55:26+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        53043,
+        52985
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-23T03:32:24+00:00",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        52985,
+        53738
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-0 distinct numbers)",
+      "bytes": [
+        53738,
+        59780
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

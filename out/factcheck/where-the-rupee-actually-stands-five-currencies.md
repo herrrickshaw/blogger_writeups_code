@@ -16,19 +16,20 @@ Source: `posts/where-the-rupee-actually-stands-five-currencies.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99483, Requested 6304. Please try again in 1h23m19.968s. Need more tokens? Upgrade to Dev Tier today at ht]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated 14 August 2026, but this date is in the future relative to the current date (June 2025). The article cannot have been published on a date that has not yet occurred. [confidence: high]
+- "14 August 2026" (date in the article header and multiple places) — The article is dated in the future relative to the current date (2025), which is impossible for a published piece. [confidence: high]
 
-- "CNY, RUB and SAR have no direct, officially published INR reference rate (see Section 4)" — The article later contradicts itself by stating that FBIL publishes direct rates against AED and IDR, implying that some non-USD currencies do have direct INR reference rates. The claim is overly broad and incorrect as stated. [confidence: high]
+- "CNY, RUB and SAR have no direct, officially published INR reference rate (see Section 4)" — While the article later acknowledges that FBIL does not publish direct rates for these currencies, it incorrectly states that no direct rates exist at all. The RBI's NEER/REER methodology explicitly uses derived cross-rates for these currencies, implying some form of indirect benchmarking exists. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the rouble is the outlier, and not in the direction the other four suggest: it sits at just 112, the shallowest ten-year rise of the five, but it got there by way of the sharpest single move on the chart — the vertical plunge and rebound around 2022" — While the rouble's volatility is correctly noted, the interpretation that its ten-year trend (shallow rise) is the primary takeaway ignores the fact that the volatility itself (not the trend) is the defining characteristic of the rouble's behavior. The article conflates trend and volatility in its framing. [confidence: high]
+- "The rouble is the outlier, and not in the direction the other four suggest: it sits at just 112, the shallowest ten-year rise of the five, but it got there by way of the sharpest single move on the chart — the vertical plunge and rebound around 2022, when the rouble first crashed against every currency in the wake of the Ukraine invasion sanctions, then recovered hard as Russia's central bank imposed capital controls and its energy-export earnings kept flowing in roubles." — The article correctly notes the rouble's volatility and the 2022 crash/recovery, but then uses the shallow ten-year rise (+4.1%) as evidence of "not being in the direction the other four suggest." This is misleading because the ten-year trend is dominated by the post-2022 recovery, which masks the extreme volatility and the fact that the rouble's long-term depreciation is minimal compared to the others. The shallow rise does not indicate a meaningful trend but rather a return to near-pre-war levels after a temporary disruption. [confidence: high]
 
-- "Rupee settlement moves who bears conversion risk and when; it does not touch the underlying trade imbalance" — This claim oversimplifies the relationship between currency invoicing and trade imbalances. While invoicing may not directly alter the trade balance, the choice of invoicing currency can influence trade flows by affecting relative prices and competitiveness, which in turn can indirectly impact the trade balance. The article ignores this potential feedback effect. [confidence: medium]
+- "Rupee-invoicing India's imports from deficit partners (China, Russia, the UAE, Saudi Arabia — all four in Section 7) does the opposite: it hands foreign exporters rupees they have no natural use for, since they buy far less from India than India buys from them." — The article correctly describes the structural trade imbalance, but the claim that rupee invoicing of imports "hands foreign exporters rupees they have no natural use for" is an oversimplification. While it is true that foreign exporters may not have immediate use for rupees, the RBI's Special Rupee Vostro Account (SRVA) framework and other mechanisms (e.g., treasury-bill absorption for Russia) provide ways to convert or utilize these rupees, reducing the "no natural use" problem. The claim ignores the existence of these mechanisms, which are explicitly discussed in the article's companion pieces. [confidence: medium]
 
 ## Kimi kimi-k2-0711-preview
 

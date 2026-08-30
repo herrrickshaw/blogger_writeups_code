@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-08-16T15:12:17.615+05:30",
+  "updated": "2026-08-26T13:37:46.344+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 121865,
-  "sha256": "0ffc7d862f0420ee42b5ab61bc35b1958a503c48785261e21405336daf6bfe67",
+  "bytes": 131130,
+  "sha256": "e31330a89d0e0d639cf06b3e44ef50e646a43e68be228a3d08f4e4b728d3bda6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.10",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -164,6 +164,71 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.11",
+      "date": "2026-08-19T11:46:39+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        121865,
+        121865
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.12",
+      "date": "2026-08-20T12:15:48+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        121865,
+        121988
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-08-21T23:03:41+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        121988,
+        122814
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-08-26T03:35:52+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        122814,
+        125083
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-08-27T13:04:16+00:00",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        125083,
+        131130
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

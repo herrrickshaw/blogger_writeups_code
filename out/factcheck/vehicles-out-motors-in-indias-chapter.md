@@ -16,15 +16,16 @@ Source: `posts/vehicles-out-motors-in-indias-chapter.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 429: {"error":{"message":"Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per day (TPD): Limit 100000, Used 99584, Requested 1878. Please try again in 21m3.168s. Need more tokens? Upgrade to Dev Tier today at https]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 is not yet complete as of July 2026, making the data provisional is correct, but the phrasing implies the fiscal year has ended, which is misleading. The fiscal year 2025-26 runs from April 2025 to March 2026, so the data is provisional because the year is not yet over. [confidence: high]
+- "FY2025-26 is provisional (DGCI&S TradeStat, data last updated 19 May 2026; retrieved 18 Jul 2026)" — The fiscal year 2025-26 is not yet complete as of July 2026, making the data provisional is correct, but the phrasing implies the fiscal year is already over, which is misleading. The fiscal year 2025-26 runs from April 2025 to March 2026, so data for the full year cannot be available in July 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A finer HS-8 cut isolating just motors (HS 8501), traction batteries (HS 8507) and motor controllers/power electronics would sharpen the EV-specific share further; this post works at the chapter level available here." — While the article acknowledges that Chapter 85 includes non-EV items (e.g., mobile phones, consumer electronics), it does not explicitly address the risk of attributing the entire deficit to EV-related components. The deficit is framed as primarily EV-related without sufficient evidence that the growth in the deficit is driven by EV components rather than other goods in Chapter 85. This risks overstating the EV-specific trade imbalance. [confidence: high]
+- "the same unit shift from ICE to electric that keeps Chapter 87 volumes flowing can quietly move value out of the chapter India is strong in and into the chapter India is weak in, without the vehicle trade numbers themselves showing it — because a vehicle exported with an imported motor and an imported battery pack still counts as a Chapter 87 export." — The claim suggests that the shift to EVs is causing a hidden deterioration in trade balance by moving value from Chapter 87 to Chapter 85, but the data provided does not isolate or quantify this effect. The article does not show that the increase in Chapter 85 imports is directly tied to EV components within exported vehicles, nor does it prove that the surplus in Chapter 87 is being eroded by EV-related imports. The reasoning assumes a causal link without evidence that the imported EV components are embedded in exported vehicles. [confidence: high]
 
 ## Kimi kimi-k2-0711-preview
 
