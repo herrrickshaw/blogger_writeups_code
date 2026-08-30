@@ -8080,3 +8080,18 @@ index: add fisheries article to article-index-start-here
 **Changed**
 
 - `article-index-start-here` — 292,181 → 292,792 bytes (+611)
+
+## 2026-08-30T07:53:34+05:30 — 227 posts live
+
+content: refresh dairy milk-production figure with primary Lok Sabha source; add REPM bid-count update to rare-earth magnets piece
+
+
+**Versions**
+
+- `the-milk-india-doesnt-drink-cheese-and` **2.0.0 → 2.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **3.0.0 → 3.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-milk-india-doesnt-drink-cheese-and` — 42,653 → 43,266 bytes (+613)
+- `rare-earth-magnets-and-specialty-steel` — 16,917 → 18,285 bytes (+1,368)

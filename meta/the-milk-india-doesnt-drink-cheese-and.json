@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-08-25T10:34:32.095+05:30",
+  "updated": "2026-08-30T07:51:12.301+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 42653,
-  "sha256": "3f776b2a8a585796cf3ac9f1c5b411acec5ba075eb041e245bf708aa7f112a7d",
+  "bytes": 43266,
+  "sha256": "f2ae5be40950d25a9c66052c8a34c624ace041145e4f82f9a377e1f958d57949",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-08-30T07:53:34+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        42653,
+        43266
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "content: refresh dairy milk-production figure with primary Lok Sabha source; add REPM bid-count update to rare-earth magnets piece"
     }
   ]
 }
