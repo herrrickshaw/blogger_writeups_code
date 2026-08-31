@@ -489,3 +489,99 @@ second primary that contradicts the figure the blog has already published.
   contents. Noted only because a **base-year revision** is the kind of thing that silently
   breaks a published index series, and the blog runs trade-data pieces off this portal;
   worth a proper look on a future Saturday. BACKGROUND, pending verification.
+
+---
+
+## Added 2026-08-31 (Monday theme: agricultural labour and rural incomes)
+
+**Dedup finding that reframes the theme, recorded first because it changes the brief.**
+`LITERATURE_SURVEY.md` §3 lists agricultural labour and rural incomes as a zero-coverage
+area. That is now **stale**. The published post `a-17-rural-pay-rise-that-nobody-received`
+(22 Aug 2026) was read in full today, and it does not merely touch the beat — it covers
+the Labour Bureau's CPI-AL/CPI-RL base revision from 1986-87 to 2019=100 and the
+undisclosed village-sample swap underneath the headline 17-18% wage jump; the
+break-adjusted 4.3% versus the old-sample 6.23%; the fact that CPI-AL sets wages under
+the central rural employment guarantee and anchors state minimum wages for agricultural
+and rural labour; **MGNREGA's repeal** by the VB-G RAM G Act 2025 (assent 21 Dec 2025, in
+force 1 Jul 2026), with a side-by-side of the two schemes' guaranteed days (100 -> 125)
+and work-availability windows; early VB-G RAM G person-days (30 crore approved April 2026
+-> 43 crore May); and PM-KISAN's landholding targeting as the reason it exerts no pressure
+on the agricultural wage. **MGNREGA and rural wage indexation should be treated as a
+covered subject from now on, not a gap.** Manifest dedup: snapshot 2026-08-31T07:39,
+237 posts; regex `wage|labour|labor|employ|mgnrega|rural|migrant|income|job|worker` over
+titles returns 4 hits, of which this is the only one on the beat.
+
+Two sub-angles the post explicitly declines and leaves open: (a) VB-G RAM G's own
+performance, which the post refuses on the ground that the scheme was "nine weeks old at
+the time of writing" — still true, it is nine days older today, so hold it; (b) the
+occupation-level anomalies in the Labour Bureau's own tables, for which the post notes
+"no occupation-level explanation has been offered".
+
+**Open-item check (step 1, which outranks new candidates).** The E20 feedstock item and
+the Minor Irrigation item both carry AERR citations pinned to "latest listed issue is
+Vol. 37 No. 1 (2024)". Re-checked today at `epubs.icar.org.in/index.php/AERR/issue/archive`:
+the archive still ends at **Vol. 37 No. 1 (2024)**, twelve issues back to Vol. 31 No. 2
+(2018). No newer issue, so neither item is unblocked and both caveats stand unchanged.
+
+### NSS 77th Round — Situation Assessment of Agricultural Households (NSSO / MoSPI)
+
+**Data**: PIB PRID 1753856, MoSPI, "NSS REPORT NO. 587: Situation Assessment of
+Agricultural Households and Land and Livestock Holdings of Households in Rural India,
+2019", posted 10 Sep 2021 — fetched in full 2026-08-31. 🔴 PIB 302-redirects plain
+requests to `?PRID=<id>&reg=48&lang=2`; follow redirects (`curl -L`) **and** send a
+browser user-agent, or you get a 174-byte "Object moved" stub. Reference year is the
+agricultural year **July 2018 – June 2019**; fieldwork Jan–Dec 2019 in two visits.
+Sample stated in the release: 5,950 FSUs allotted, 5,940 surveyed in visit 1, 58,035
+households, of which 45,714 agricultural households (44,770 in visit 2). Free, no login.
+Companion release for the comparison year: PIB PRID 2003180 (MoA&FW, 6 Feb 2024).
+
+**Finding**: for the household India's farm-income policy is actually measured on,
+**wages are the largest single source of income, not crops**. Table 6, paid-out-expenses
+basis, average monthly income per agricultural household: wages **₹4,063**, net receipt
+from crop production **₹3,798**, farming of animals ₹1,582, non-farm business ₹641,
+leasing out land ₹134 — total **₹10,218**. On the fuller basis that also charges imputed
+expenses, the gap roughly doubles: wages ₹4,063 (unchanged, since imputation hits farm
+costs) against crop production **₹3,058** and animals **₹441**, total **₹8,337** — wages
+are then **49%** of household income and crop production **37%**.
+
+And the survey reaches that result on a population **defined to exclude the rural workers
+most dependent on wages**. The release states in terms: "households which were entirely
+agricultural labour households and households receiving income entirely from coastal
+fishing, activity of rural artisans and agricultural services were not considered as
+agricultural households and they were kept outside the scope of the survey." Qualifying
+required more than ₹4,000 of agricultural produce value plus a member self-employed in
+agriculture. Landless share within the surveyed population: 8.2%; average area owned
+0.512 ha. Indebtedness: 50.2% of agricultural households, ₹74,121 average outstanding.
+
+**Blog fit**: extends the beat `a-17-rural-pay-rise-that-nobody-received` opened, from
+the opposite side. That post is about the index that sets what agricultural labourers are
+paid; this is the official survey that measures farm household income and leaves pure
+agricultural-labour households out of the frame entirely — while still finding that the
+wage beats the crop inside the households it does count. Nearest published post by slug:
+`a-17-rural-pay-rise-that-nobody-received`. Also adjacent to
+`annadata-to-urjadata-farmer-income-case` (4 Aug 2026), which argues a farmer-income case
+without this income decomposition. Dedup on bodies, not just titles: `grep -rliE
+'situation assessment|77th round|NSS 587|agricultural household' posts/` returns two files
+(`the-price-of-grain-msp-msv-and`, `tamil-nadus-water-infrastructure-runs`) and the phrase
+"agricultural households" appears exactly **once** across the whole corpus — incidental,
+not a treatment. The income composition is uncovered.
+
+**Caveat**: 🔴 **vintage is the whole risk here.** Reference year 2018-19, published 2021,
+and it is *still* the current official figure — PIB PRID 2003180 (MoA&FW, 6 Feb 2024) is a
+Lok Sabha reply that gives the government's own latest answer as the 77th round, tabulating
+only 2012-13 (70th round, NSS Report 576) at ₹6,426 and 2018-19 (77th round) at ₹10,218.
+So the number is seven years stale by reference year and there is no newer round to cite —
+that is a fact about the data, not a defect in the source, but every figure must be dated
+in the piece and no "farmers today earn" phrasing is defensible. Second caveat: the two
+expense bases are not interchangeable, and the ₹6,426 comparison figure's basis was not
+established today — do not compute a 2012-13 → 2018-19 growth rate until both are
+confirmed to be on the same basis. Third: "agricultural household" is a survey construct
+with a ₹4,000 threshold, not a synonym for "farmer" — the piece must define it early.
+
+### Weak / background — logged, not actioned (2026-08-31)
+
+- **ICAR e-publications, *Agricultural Economics Research Review* archive
+  (`epubs.icar.org.in/index.php/AERR/issue/archive`)** — re-fetched today only as the
+  open-item vintage check described above. Still ends at Vol. 37 No. 1 (2024). Not a
+  candidate in itself; logged so the next Monday/Friday run does not re-fetch it hoping
+  for a new issue. Re-check no sooner than a month out.

@@ -226,6 +226,50 @@ Format:
       crore of substitution" logged 2026-08-22 — that item's headline figures are the ones
       now in question, and its "verify the 6th PIL against its own release" check is done.
 
+- [ ] The wage beats the crop, in the survey that leaves the wage-earners out
+      Source: NSS 77th Round Situation Assessment of Agricultural Households, NSSO/MoSPI
+      — PIB PRID 1753856 (10 Sep 2021), fetched in full 2026-08-31. 🔴 PIB 302-redirects
+      to `?PRID=<id>&reg=48&lang=2`; you need `curl -L` **and** a browser user-agent or
+      you get a 174-byte "Object moved" stub. Vintage companion: PIB PRID 2003180
+      (MoA&FW, 6 Feb 2024), the Lok Sabha reply confirming the 77th round is still the
+      government's own latest figure. Underlying reports: NSS Report No. 587 (2018-19)
+      and No. 576 (2012-13); microdata catalogued at microdata.gov.in (NOT probed today —
+      do not promise unit-level cuts until it is).
+      Argument: India's official measure of farm household income finds that wages are
+      the largest single source — ₹4,063 a month against ₹3,798 from crop production on
+      the paid-out basis, and ₹4,063 against ₹3,058 once imputed costs are charged, where
+      wages are 49% of the ₹8,337 total and crops 37%. It reaches that result on a
+      population the survey defines to *exclude* the households most dependent on wages:
+      "households which were entirely agricultural labour households ... were kept
+      outside the scope of the survey." The measure that anchors farm-income policy is
+      therefore built on a sample tilted toward cultivation, and the wage still wins.
+      Pairs with the published wage-index piece as its mirror image: that post is about
+      the index setting what agricultural labourers are paid; this is the income survey
+      that does not count them.
+      Checks needed: (1) 🔴 VINTAGE — reference year is July 2018-June 2019 and there is
+      no newer round; date every figure and never write "farmers today earn". (2) The two
+      expense bases (paid-out only vs paid-out plus imputed) are different measures —
+      never mix them in one sentence, and do NOT compute a 2012-13 → 2018-19 growth rate
+      from ₹6,426 → ₹10,218 until the ₹6,426 figure's basis is confirmed from NSS Report
+      576 itself, which was not checked. (3) "Agricultural household" is a survey
+      construct — more than ₹4,000 of produce value plus a member self-employed in
+      agriculture — not a synonym for "farmer"; define it in the first third of the piece.
+      (4) The exclusion clause also removes coastal fishing, rural artisan and
+      agricultural-services households; quote it whole rather than presenting it as an
+      agricultural-labour exclusion alone. (5) Wages here are wage/salary income from any
+      employment, farm or not — do not read ₹4,063 as farm wages. (6) The 8.2% landless
+      figure is landlessness *within the surveyed population*, so it is not India's rural
+      landlessness rate; attach the denominator.
+      House style: cite `a-17-rural-pay-rise-that-nobody-received` as the blog's own
+      earlier reporting, never as confirmation; `annadata-to-urjadata-farmer-income-case`
+      is the other natural cross-link.
+      Logged: 2026-08-31 from the NSS 77th Round register entry
+      Opens: farm-household income *composition* — uncovered on bodies as well as titles
+      (manifest 2026-08-31, 237 posts; the phrase "agricultural households" appears once
+      in the entire corpus, incidentally). Note the survey's separate finding that 50.2%
+      of agricultural households are indebted, ₹74,121 average outstanding, which is a
+      second piece, not this one.
+
 ## Done
 
 - [x] What a farm labourer earns, and why it stopped tracking output
