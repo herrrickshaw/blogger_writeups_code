@@ -4,22 +4,23 @@
 
 ## Totals
 
-- Active users: **215**
-- Total users: **215**
-- Page views: **2172**
-- Sessions: **484**
+- Active users: **223**
+- Total users: **223**
+- Page views: **2266**
+- Sessions: **505**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 133 | 180 |
-| India | 73 | 1975 |
+| United States | 136 | 182 |
+| India | 76 | 2065 |
 | (not set) | 2 | 2 |
 | Malaysia | 2 | 9 |
+| Netherlands | 2 | 2 |
 | Oman | 2 | 2 |
+| Germany | 1 | 1 |
 | Ireland | 1 | 2 |
-| Netherlands | 1 | 1 |
 | United Arab Emirates | 1 | 1 |
 
 ## Views by city (top 30)
@@ -29,43 +30,43 @@
 | Flint Hill | 50 | 71 |
 | Des Moines | 40 | 51 |
 | (not set) | 33 | 46 |
-| Coimbatore | 31 | 1166 |
+| Coimbatore | 31 | 1205 |
 | Chennai | 21 | 312 |
 | Madurai | 8 | 230 |
 | Moses Lake | 6 | 8 |
+| Mumbai | 5 | 77 |
 | Salem | 5 | 214 |
 | Hyderabad | 4 | 5 |
-| Mumbai | 4 | 31 |
 | Bengaluru | 3 | 6 |
+|  | 2 | 1 |
+| Amsterdam | 2 | 2 |
 | Delhi | 2 | 2 |
 | Kuala Lumpur | 2 | 9 |
+| Los Angeles | 2 | 2 |
 | Muscat | 2 | 2 |
 | Noida | 2 | 2 |
 | Pune | 2 | 2 |
 | San Jose | 2 | 2 |
-| Amsterdam | 1 | 1 |
 | Ashburn | 1 | 1 |
 | Cork | 1 | 2 |
 | Dublin | 1 | 0 |
 | Faridabad | 1 | 1 |
 | Fort Worth | 1 | 1 |
+| Frankfurt am Main | 1 | 1 |
 | Hialeah Gardens | 1 | 1 |
-| Los Angeles | 1 | 1 |
+| Indore | 1 | 1 |
+| Karaikudi | 1 | 3 |
 | Matar | 1 | 1 |
-| New Delhi | 1 | 1 |
-| North Charleston | 1 | 1 |
-| Sharjah | 1 | 1 |
-| Vadodara | 1 | 1 |
 
 ## Top pages (top 20)
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 755 | 107 |
-| /search | 116 | 4 |
-| /2026/08/article-index-start-here.html | 75 | 12 |
-| /2026/08/the-masala-deutsch-shop-books-things.html | 46 | 9 |
-| /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 41 | 18 |
+| / | 814 | 111 |
+| /search | 117 | 4 |
+| /2026/08/article-index-start-here.html | 77 | 13 |
+| /2026/08/the-masala-deutsch-shop-books-things.html | 47 | 9 |
+| /2026/08/india-mineral-oil-hsn-ch27-trade.html [1] | 43 | 19 |
 | /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
 | /2026/08/the-milk-india-doesnt-drink-cheese-and.html | 28 | 25 |
 | /2026/08/blending-on-budget-energy-density-and.html | 24 | 24 |
