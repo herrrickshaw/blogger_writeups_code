@@ -7,6 +7,8 @@
 
 Source: `posts/indias-textile-import-export-strategy.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-textile-import-export-strategy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn." — The chart shows imports grew from $13.3bn (FY21) to $22.1bn (FY25), a 66% increase, but exports did not "stall" — they grew from $6.9bn to $8.2bn (a 19% increase). The claim that exports "stalled" is incorrect. [confidence: high]
+- "India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn." — The chart shows the deficit widened from -$6.4bn (FY21) to -$15.4bn (FY23), then plateaued near -$14bn (FY24–FY25). The claim that the deficit widened to $14.0bn is incorrect; the peak deficit was $15.4bn. [confidence: high]
 
-- "$20.5B Annual Feedstock Deficit" — The article does not provide a clear source or methodology for this figure, and it is not supported by the data presented in the article itself (which focuses on Chapters 29 and 39). The $20.5B figure appears to be an unsupported aggregate claim. [confidence: high]
+- "Source: DGCI&S; deficit widened from -$6.4bn (FY21) to -$15.4bn (FY23), plateauing near -$14bn" — The source citation (DGCI&S) is correct, but the text claims the deficit plateaued "near -$14bn," which is inconsistent with the chart showing -$14.0bn in FY25. The plateau is closer to -$14.4bn (FY24) and -$14.0bn (FY25), not a rounded "near -$14bn." [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The article conflates "chemical-feedstock import bill for textiles" with the overall textile trade balance. The textile sector's overall trade balance (including finished goods) is indeed a surplus, but this does not logically imply that feedstock imports are only 63% of the *textile sector's* import bill. The claim implies a causal or definitional link that is not supported by the data presented. [confidence: high]
+- "Key Finding: Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — The claim implies that the 63% figure is derived from the textile sector's import bill, but the article does not provide a breakdown of how this percentage was calculated or whether it includes only feedstock-related imports for textiles. Without explicit data on the textile sector's total chemical-feedstock import bill, this percentage cannot be verified as accurate. [confidence: medium]
 
-- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article presents a stabilization of imports at $22bn as evidence of "supplier lock-in," but stabilization alone does not necessarily indicate lock-in. It could reflect market equilibrium, supply chain adjustments, or other factors. The conclusion is an overreach based on the data. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "Cumulative Impact: $6.2B import reduction + $1.5-2.5B export growth = $7.7-8.7B gross textile sector benefit by FY30" — The calculation assumes that import substitution and export growth are directly additive and mutually exclusive, but it does not account for potential overlaps (e.g., some import reductions may enable export growth, leading to double-counting). Additionally, the source of the $6.2B and $1.5-2.5B figures is not clearly justified in the article. [confidence: medium]

@@ -7,6 +7,8 @@
 
 Source: `posts/indias-subsidised-imports-fertilisers.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-subsidised-imports-fertilisers.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The date is incorrect; the article states "approved 15 Jul 2026" but the data cutoff is mentioned as "31 Jul 2026," which is impossible if the approval was on 15 Jul 2026. The correct date should likely be 15 Jul 2025 (or another plausible date). [confidence: high]
+- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The article states NIPU-2026 was approved on July 15, 2026, but the data cutoff is mentioned as July 31, 2026. This creates a logical inconsistency where approval occurs before the data cutoff, which is impossible. [confidence: high]
 
-- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The sum of ₹1.19 lakh crore and ₹49,000 crore is ₹1.68 lakh crore, which is within the stated range. However, the article later claims the total subsidy cost for fertilisers is ₹1.5–1.7 lakh crore, which is inconsistent with the breakdown (₹1.19L + ₹49,000 = ₹1.68L). The range should either be adjusted or the breakdown clarified. [confidence: medium]
+- "₹1.5–1.7 lakh crore/year (urea ~₹1.19L cr + NBS ~₹49,000 cr, FY25-26)" — The subsidy estimate for urea (~₹1.19 lakh crore) and NBS (~₹49,000 crore) sums to ~₹1.68 lakh crore, which is within the stated range. However, the article does not clarify whether this is for FY25-26 alone or an annualized figure, and the phrasing suggests it is for FY25-26. Given the context, this appears to be an annual estimate, but the lack of explicit timeframe clarity could mislead readers into thinking it is a one-time figure. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year, more than triple the next-fastest category." — While the 76% growth is correct, the claim that it is "more than triple the next-fastest category" is misleading. The next-fastest growth is Inorganic Chemicals at +24.63%, and 76% is not triple 24.63% (which would be ~74%). The phrasing exaggerates the margin of difference. [confidence: high]
+- "Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year, more than triple the next-fastest category." — While the 76% growth rate for fertilisers is correct, the claim that it is "more than triple the next-fastest category" is misleading. The next-fastest category is Inorganic Chemicals at +24.63%, and 76% is roughly **three times** 24.63%, not "more than triple." The phrasing exaggerates the margin slightly, making it seem like fertilisers grew by an even larger multiple than they did. [confidence: high]
 
-- "Roughly $633bn of the official $775bn FY2025-26 import bill (PIB: imports $774.98bn, deficit $333.19bn) sits in these protected categories." — The article later states the 12 subsidised categories account for $632.8 billion, which aligns with the $633bn figure. However, the claim that these categories "sit in these protected categories" implies that the entire $632.8bn is due to protection, which is not necessarily true. Many of these imports (e.g., gems/jewellery, electrical machinery) may not be directly subsidised but are tracked for other policy reasons. The conclusion conflates tracking with protection. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The government's direct + indirect subsidy cost to support these imports is estimated at ₹2.2–2.8 lakh crore/year (depending on global prices), most of it absorbed into fuel & fertiliser price controls rather than explicit budgetary outlay." — The article lists subsidy costs for only six categories (fuel, fertilisers, edible oils, electrical machinery, specialty steel, and medical devices) totaling ₹2.2–2.8 lakh crore. However, the claim implies that **all** 12 subsidised categories are covered by these estimates, which is not explicitly stated. The subsidy costs for categories like Gems & Jewellery, Plastics, Inorganic Chemicals, Machinery, Aircraft & Spacecraft, and Organic Chemicals are either zero or not quantified in the total. This risks double-counting or omitting categories, leading to an inflated or incomplete subsidy estimate. [confidence: high]

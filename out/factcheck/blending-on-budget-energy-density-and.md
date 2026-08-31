@@ -7,35 +7,34 @@
 
 Source: `posts/blending-on-budget-energy-density-and.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "...nearly half of E20's 6.9% ceiling despite isobutanol displacing a deeper share of the base fuel." (and "isobutanol's proposed 15% ceiling is far deeper than E20's 20% actual blend...") — A 15% blend displaces less of the base fuel than a 20% blend (E20). Describing 15% as a "deeper share" than 20% is mathematically inverted. [confidence: high]
-- "SAF traded globally in 2026 at roughly $1,817 per tonne, on the order of five times a conventional jet-fuel benchmark in tight markets..." — Conventional jet fuel priced at $0.60–$0.80 per litre translates to roughly $750–$1,000 per metric tonne (at standard jet fuel density of ~0.80 kg/L). A price of $1,817 per tonne is roughly 1.8× to 2.4× conventional jet fuel, not 5× (which would require conventional jet fuel to trade around $360/tonne or SAF to trade around $4,000/tonne). [confidence: high]
-
-INTERPRETATION ERRORS:
-- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect..." — The article notes in Table 1 and Section 4 that CBG carries lower gravimetric energy density (47–52 MJ/kg, ~93–95%) than fossil CNG (50–56 MJ/kg). Because CNG is retailed and metered by mass (₹/kg), blending a fuel with lower MJ/kg and selling it at the same ₹/kg price means the consumer receives fewer megajoules per rupee, resulting in a mileage/range loss per kilogram purchased. Selling at the same pump price shifts the cost directly onto vehicle efficiency/range, contradicting the article's conclusion that CBG imposes no mileage penalty. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "19 August 2026" — The date is in the future relative to the current date (June 2025), making it unverifiable and likely incorrect. [confidence: high]
+- "India now has one live nationwide fuel-blending mandate (E20 petrol)" — This is incorrect as of the article's publication date (19 August 2026). India has multiple live blending mandates, including E10 petrol (not just E20) and the CBG blending obligation. The E20 mandate is not yet nationwide in practice, as compliance varies by state and vehicle compatibility. [confidence: high]
 
-- "SAF traded globally in 2026 at roughly $1,817 per tonne" — The article cites a global SAF price for 2026, but as of June 2025, this figure is speculative and unverifiable. [confidence: high]
+- "SAF traded globally in 2026 at roughly $1,817 per tonne" — While the article cites this figure, it does not provide a primary source or context for the global SAF price in 2026. SAF prices are highly volatile and region-specific, and this figure appears to be an outlier compared to other cited projections (e.g., India-specific PBtL SAF at $1.4/L). The claim lacks verifiable sourcing. [confidence: medium]
+
+---
 
 INTERPRETATION ERRORS:
-- "The pattern in one line: ethanol carries 66% of petrol's energy per litre and isobutanol carries 74% of diesel's, so both mandates cost the driver mileage." — While the energy density ratios are correct, the conclusion that *both* mandates cost the driver mileage is an oversimplification. The article later acknowledges that isobutanol's mileage loss is smaller than ethanol's (1–2% vs. 2–6%), but the initial claim implies a uniform penalty, which is misleading. [confidence: high]
+- "Ethanol and isobutanol fall well short of their host fuel's energy density, which is why those mandates cost drivers mileage; CBG and SAF sit near parity, which is why their cost shows up as price instead." — This claim conflates energy density with cost implications without accounting for market dynamics. While energy density differences explain *potential* mileage loss, the actual cost to drivers depends on pricing, subsidies, and fuel taxes, not just energy content. For example, E20 petrol may still cost the same per litre as E0 petrol despite lower energy density, but the *effective cost per kilometre* could be higher due to reduced efficiency. The article assumes the cost burden is solely tied to energy parity, ignoring how fuel pricing and policy interventions (e.g., subsidies) might offset or exacerbate the impact. [confidence: high]
 
-- "Because CBG is metered into the same pipeline network and sold at the same per-kilogram CNG price, with no separate CBG retail rate, there is no cost-per-kilometre penalty for the consumer to detect — the running-cost figures already published for CNG vehicles [...] already implicitly include whatever share of CBG is in the pipeline blend, indistinguishably." — While CBG blending does not directly cause a mileage penalty, the claim that there is *no cost-per-kilometre penalty at all* ignores potential indirect costs (e.g., infrastructure adjustments, supply chain inefficiencies, or future price adjustments to offset blending costs). The reasoning assumes perfect pass-through of costs, which may not hold. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The blend chemistry decides who pays and how; the mandate percentage is almost beside the point." — This overgeneralizes the role of blend chemistry. While energy density is a critical factor, the *mandate percentage* still matters for supply chain logistics, infrastructure readiness, and economic feasibility. For instance, a 5% SAF mandate may be easier to implement than a 20% ethanol mandate due to compatibility with existing infrastructure, even if SAF is a "true drop-in." The article dismisses the mandate percentage as irrelevant, but it directly influences transition costs, blending feasibility, and policy timelines. [confidence: high]

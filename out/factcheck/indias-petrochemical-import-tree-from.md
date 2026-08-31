@@ -7,6 +7,8 @@
 
 Source: `posts/indias-petrochemical-import-tree-from.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,20 +18,17 @@ Source: `posts/indias-petrochemical-import-tree-from.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The article cites a date range (2023–25) for data sources, but 2025 data is not yet available (as of mid-2024). This is incorrect. [confidence: high]
+- "Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)" — The article cites a date range (2023–25) for data sources, but 2025 data is not yet available (as of mid-2024). This is incorrect and unverifiable. [confidence: high]
+
+- "₹→$ at ₹86" — The exchange rate used (₹86 per USD) is outdated or arbitrary. As of mid-2024, the INR/USD rate is closer to ₹83–84, and the article does not specify a date for this conversion. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the products listed may indeed have high import dependence, the claim that they "cluster" in benzene/propylene chains is an overgeneralization. Some of these (e.g., polycarbonate, nylon) are derived from other feedstocks (e.g., phenol, caprolactam) and not directly from benzene/propylene chains. The reasoning conflates import dependence with feedstock linkage without sufficient evidence. [confidence: medium]
+- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the products listed are indeed high-value imports, the claim that they "cluster" in benzene/propylene chains is an oversimplification. Some of these (e.g., polycarbonate, ABS/ACN) rely more on benzene derivatives, while others (e.g., MDI/TDI) depend on propylene-derived intermediates. The grouping conflates distinct petrochemical pathways without clarifying the specific feedstock dependencies. [confidence: medium]
 
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The article implies a direct causal link between cracking petrol-range streams into petrochemicals and erasing imports, but this ignores infrastructure constraints (e.g., cracker capacity, feedstock availability) and market dynamics (e.g., global price fluctuations, domestic demand-supply gaps). The "petrochemical premium" does not automatically translate to import substitution without addressing these barriers. [confidence: medium]

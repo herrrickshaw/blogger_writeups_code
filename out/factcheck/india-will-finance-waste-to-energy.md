@@ -7,6 +7,8 @@
 
 Source: `posts/india-will-finance-waste-to-energy.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/india-will-finance-waste-to-energy.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India already has small commercial units running (10 tonnes-per-day plants are a common reference scale)" — The claim is vague and unverifiable as stated. While the article cites "small commercial units" and "10 tonnes-per-day plants" as a reference scale, it does not provide a specific number of such units or their locations, making it impossible to verify the claim's accuracy. [confidence: medium]
+- "India already has small commercial units running (10 tonnes-per-day plants are a common reference scale)" — The claim about 10 tonnes-per-day plants being a "common reference scale" for pyrolysis in India is unverified and likely exaggerated. The article cites no primary source confirming this scale as typical, and industry reports suggest most commercial pyrolysis units in India are smaller or pilot-scale. [confidence: medium]
 
-- "Delhi burns waste that falls short of its own legal calorific-value threshold" — The article does not provide a specific legal calorific-value threshold for Delhi or evidence that Delhi is burning waste below this threshold. The claim relies on general references to the SWM Rules 2016 (1,500 kcal/kg) and unsegregated waste averages (800–2,150 kcal/kg), but does not confirm Delhi's specific threshold or demonstrate that Delhi's waste falls below it. [confidence: medium]
+- "Delhi's three large WtE plants at Okhla, Ghazipur, and Narela-Bawana, burning a reported 7,250–8,000 tonnes of largely mixed, poorly segregated waste daily" — The figure of 7,250–8,000 tonnes/day is not directly sourced from a government or regulatory body but appears to be derived from secondary reporting (Down To Earth, The Leaflet, Dialogue Earth). The Delhi Pollution Control Committee or municipal authorities have not officially confirmed this exact daily throughput. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "China's incineration fleet and its sorting mandates are reinforcing each other, aimed at the same calorific-value problem India's own SWM Rules identify" — The claim suggests a direct causal relationship between China's sorting mandates and the success of its incineration fleet, implying that India could replicate this success by adopting similar mandates. However, the article does not provide evidence that China's sorting mandates *caused* the success of its incineration fleet, nor does it address other factors (e.g., enforcement mechanisms, infrastructure scale, or policy sequencing) that may have contributed to China's outcomes. The comparison oversimplifies the relationship between sorting and incineration in China. [confidence: high]
+- "The Solid Waste Management Rules, 2026, effective 1 April 2026 and superseding the 2016 rules, explicitly require that wet waste be composted or bio-methanated rather than landfilled or incinerated" — While the 2026 rules do mandate processing of wet waste via composting or biomethanation, the article implies this is a strict prohibition on landfilling or incineration without acknowledging exceptions or enforcement realities. The rules likely include provisions for residual waste or technical feasibility clauses, but the article presents the mandate as absolute. [confidence: high]
 
-- "robotics and computer vision are real technologies that could eventually substitute for some of that missing sorting capacity, but they are, at best, a more expensive way to buy back what a properly financed segregation shed would have delivered more cheaply at the source" — The claim assumes that AI/robotics-based sorting is inherently more expensive than manual segregation infrastructure, but the article does not provide comparative cost data or evidence to support this assertion. The claim extrapolates from the lack of current large-scale deployment to a blanket cost comparison, which is not substantiated. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "China's incineration fleet and its sorting mandates are reinforcing each other, aimed at the same calorific-value problem India's own SWM Rules identify" — The article correctly identifies that China's sorting mandates improve calorific value for incineration, but it overgeneralizes the causal relationship. China's incineration growth was driven by multiple factors (e.g., land scarcity, energy demand, policy push), and sorting mandates were layered on later. The framing risks implying sorting alone solved calorific-value issues, ignoring broader systemic drivers. [confidence: medium]

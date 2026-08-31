@@ -7,6 +7,8 @@
 
 Source: `posts/india-hit-e20-on-maize-and-rice-not.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/india-hit-e20-on-maize-and-rice-not.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Blending is at 20 per cent through ESY 2025-26, held month after month." — The article claims blending has held at 20% "month after month" through ESY 2025-26, but the cited sources (ChiniMandi, BioEnergy Times) do not provide monthly breakdowns to verify this claim. The only monthly data referenced is a half-year supply figure (515 crore litres in 6 months), which does not confirm consistent 20% blending across all months. [confidence: medium]
+- "Blending is at 20 per cent through ESY 2025-26, held month after month." — The article later contradicts this by stating that only 59% of offered capacity (1,048 crore litres) was allocated, implying blending may not have consistently reached 20% throughout the year. The claim is unverifiable as stated. [confidence: medium]
 
-- "Maize alone is 45.7 per cent, up from 6.2 per cent in ESY 2022-23 — a sevenfold shift in three years." — The article states maize's share rose from 6.2% to 45.7%, implying a sevenfold increase. However, the exact figures cited in the table for ESY 2025-26 are 45.68% (not 45.7%) and 6.2% (ESY 2022-23). While mathematically close, the phrasing "sevenfold shift" is imprecise (45.68 / 6.2 ≈ 7.37, not exactly seven). [confidence: high]
+- "Maize alone is 45.7 per cent, up from 6.2 per cent in ESY 2022-23 — a sevenfold shift in three years." — The article later cites maize's share as 45.68% in ESY 2025-26 and 6.2% in ESY 2022-23, but the "sevenfold shift" phrasing is misleading because 45.68 / 6.2 ≈ 7.37, not exactly sevenfold. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The target has been met. Blending has held at 20 per cent through the current Ethanol Supply Year. And the assumption behind the question turned out to be wrong." — The article concludes that the original feedstock assumption (that sugarcane would dominate ethanol production) was wrong because blending reached 20%. However, this conflates *achieving the blending target* with *validating the feedstock assumption*. The feedstock mix (grain-dominated) is unrelated to whether the 20% blending target was met; the target could have been achieved with any feedstock. The interpretation incorrectly implies that the feedstock outcome explains the target's achievement. [confidence: high]
+- "The target has been met. Blending has held at 20 per cent through the current Ethanol Supply Year. And the assumption behind the question turned out to be wrong." — The article conflates *allocation* (1,048 crore litres) with *actual blending* (which may be lower due to unplaced capacity). The 20% blending target is based on actual supply, not allocations, creating a false equivalence. [confidence: high]
 
-- "The water argument changed address. Much of the case against cane-based ethanol was about irrigation intensity in Maharashtra and Karnataka. Maize is a far less thirsty crop, so on that specific metric the switch is an improvement." — While maize is less water-intensive than sugarcane, the article does not provide data to support this claim (e.g., water footprint comparisons). The conclusion that the switch "is an improvement" assumes maize's lower water use without quantifying or sourcing the comparison, making it an unsupported interpretation. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The most expensive feedstock became the largest one. Cost was not the binding constraint. Availability was." — While maize is indeed the largest feedstock, the claim that cost was irrelevant ignores the economic reality that distilleries would not have switched to maize if it weren’t profitable at the given price (₹71.86/litre). The reasoning incorrectly separates cost from availability as mutually exclusive factors. [confidence: high]

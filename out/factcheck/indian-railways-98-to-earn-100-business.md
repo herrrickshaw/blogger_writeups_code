@@ -7,6 +7,8 @@
 
 Source: `posts/indian-railways-98-to-earn-100-business.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indian-railways-98-to-earn-100-business.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "₹98.43 to earn every ₹100 in FY2025-26" — The article later contradicts this with a table showing the operating ratio for FY2025-26 (BE) as 98.43, which means spending ₹98.43 to earn ₹100, not the reverse. The phrasing is inverted. [confidence: high]
+- "FY2025-26 (BE)" — The article claims the operating ratio for FY2025-26 is 98.43%, but this is labeled as a "BE" (Budget Estimate) in the table. However, the text later states that the operating ratio for FY2025-26 is "estimated at 98.43%," which is inconsistent with the "BE" label. Budget Estimates are typically projections, not estimates, and the operating ratio for FY2025-26 cannot be both a projection and an estimate simultaneously. [confidence: high]
 
-- "FY2025-26's budget estimate of ₹3,041 crore is actually a 126.7% jump over the FY2024-25 revised estimate of just ₹1,341 crore" — The calculation is incorrect. A 126.7% increase from ₹1,341 crore would be ₹3,041 crore + (1.267 × ₹1,341 crore) ≈ ₹4,730 crore, not ₹3,041 crore. The correct interpretation is that the revised estimate for FY2024-25 was ₹1,341 crore, and the budget estimate for FY2025-26 is ₹3,041 crore, which is a 126.7% increase over the revised estimate. [confidence: high]
+- "₹3,041 crore" — The article states that the net revenue for FY2025-26 is budgeted at ₹3,041 crore, a 126.7% jump over the FY2024-25 revised estimate of ₹1,341 crore. However, the table shows the operating ratio for FY2024-25 (RE) as 98.90, implying a net revenue of roughly ₹1,100 crore (assuming total expenditure of ₹5.61 lakh crore and an operating ratio of 98.90). The ₹1,341 crore figure does not align with the operating ratio data provided. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "freight overpays to cover passenger losses that are formally classified as a social obligation, not a business failure" — While the article correctly notes that passenger services are classified as social obligations, it implies that this cross-subsidy is a deliberate and efficient policy choice. However, the lack of clarity on whether Railways is meant to be run as a commercial undertaking or a subsidised public service (as noted by NITI Aayog) suggests that the cross-subsidy may not be a well-managed trade-off but rather a structural inefficiency. The article does not sufficiently address whether the current system is optimal or merely a default outcome of poor accounting and pricing. [confidence: medium]
+- "freight overpays to cover passenger losses that are formally classified as a social obligation, not a business failure" — The article implies that the cross-subsidy from freight to passenger services is a deliberate and sustainable policy choice, but it does not provide evidence that this cross-subsidy is sufficient to cover the losses or that it is a stable long-term solution. The claim assumes that the current cross-subsidy mechanism is adequate without demonstrating its sufficiency or sustainability. [confidence: medium]
 
-- "The scale of the underlying loss has been substantial in specific years: CAG reported a loss of about ₹26,388 crore for 2019-20, with the operating ratio that year at 98.36%" — The article conflates the operating ratio (a ratio of expenses to revenue) with a net loss (where expenses exceed revenue). An operating ratio of 98.36% means the Railways spent ₹98.36 to earn ₹100, which implies a small surplus, not a loss of ₹26,388 crore. The CAG-reported loss likely refers to a different accounting measure (e.g., net revenue after all expenses, including capital expenditure or adjustments). The article does not clarify this distinction. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The scale of the underlying loss has been substantial in specific years: CAG reported a loss of about ₹26,388 crore for 2019-20, with the operating ratio that year at 98.36%" — The article uses the operating ratio (98.36%) and a reported loss (₹26,388 crore) to suggest a direct relationship between the two, but the operating ratio is a ratio of expenses to revenue, not a direct measure of net loss. The operating ratio does not account for capital expenditure or other non-operating items, so it cannot be directly used to infer the net loss figure. [confidence: high]

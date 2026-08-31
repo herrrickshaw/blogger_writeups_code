@@ -7,6 +7,8 @@
 
 Source: `posts/indias-renewable-energy-certificates.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-renewable-energy-certificates.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "REC prices swung 20x once CERC removed the price floor and ceiling in May 2022 — from ₹2,300 to an all-time low of ₹115, then back to ~₹380." — The claim states a 20x swing, but the actual swing from ₹2,300 to ₹115 is approximately 20x (₹2,300 / ₹115 ≈ 20), which is correct. However, the subsequent rise to ~₹380 does not represent a return to the original level, nor does it complete a "20x swing" in the sense of a full cycle. The phrasing implies a symmetrical swing, which is misleading. [confidence: high]
+- "₹2,300 in early 2022" — The article later clarifies that the ₹2,300 price in early 2022 was specifically for **Solar RECs**, while Non-Solar RECs were at ₹1,000. The initial claim omits this distinction, implying a uniform price for all RECs, which is incorrect. [confidence: high]
 
-- "The 2022 merger of Solar and Non-Solar REC categories is confirmed directly against CERC's own regulation text" — While the merger is confirmed, the claim that it was a "2022 merger" is slightly misleading because the regulation (No. RA-14026(11)/1/2022-CERC, dated 9 May 2022) formalized the merger that had been in discussion since at least 2021. The phrasing suggests the merger happened *in* 2022, but it was more accurately codified in 2022. [confidence: medium]
+- "₹115 by August 2024" — The article later specifies that the ₹115 price was reported on **14/28 Aug 2024**, not simply "by August 2024." The broader phrasing could mislead readers into thinking the price was consistently ₹115 throughout the month. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A twenty-fold price range in three years is not what a mature, price-discovered market is supposed to look like. It is what a thin, demand-mismatched market looks like once the price floor stops holding it up." — The article conflates volatility with market immaturity. While volatility can indicate thinness or demand-supply mismatches, it does not inherently prove market immaturity. A mature market can still experience volatility due to external shocks, regulatory changes, or structural shifts (e.g., sudden policy changes like the removal of price bands). The claim assumes volatility = immaturity without sufficient evidence. [confidence: high]
+- "A twenty-fold price range in three years is not what a mature, price-discovered market is supposed to look like. It is what a thin, demand-mismatched market looks like once the price floor stops holding it up." — The article conflates **price volatility** with **market maturity**. While volatility can indicate thinness or demand mismatches, it does not inherently prove immaturity. A market can be mature yet volatile due to structural factors (e.g., supply-demand imbalances, regulatory changes). The claim assumes volatility = immaturity without evidence. [confidence: high]
 
-- "The August 2024 all-time-low price and the swing back to roughly ₹380 by mid-2026 look extreme next to the old banded prices, but on this reading they are the first genuinely unfiltered readings the REC market has produced in its history — the oversupply this article discusses below may well have existed for years before 2022, just invisible, because the floor was never allowed to fall far enough to reveal it." — The article suggests that the removal of the price floor revealed pre-existing oversupply that was "invisible" under the banded regime. However, this is an inference, not a confirmed fact. The existence of oversupply before 2022 is plausible but not proven by the price movements alone. The claim assumes causation (price floor removal → revealed oversupply) without direct evidence of the oversupply's magnitude or persistence. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The August 2024 all-time-low price and the July 2026 volume decline (down 56.3% year-on-year) are both consistent with continued oversupply or demand mismatch, but that is an inference from price and volume behaviour, not a confirmed current inventory number." — The article presents **price and volume trends as evidence of oversupply**, but this is an **unverified inference**. Without current inventory data (e.g., unsold RECs), the claim lacks direct confirmation. The reasoning treats correlation (low prices + low volume) as causation (oversupply) without sufficient evidence. [confidence: high]

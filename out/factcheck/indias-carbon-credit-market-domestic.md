@@ -7,6 +7,8 @@
 
 Source: `posts/indias-carbon-credit-market-domestic.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-carbon-credit-market-domestic.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Two-year average target, 282 obligated entities · notified G.S.R. 739(E), 8 Oct 2025" — The claim implies that the 282 obligated entities correspond to a two-year average target, but the text later clarifies that the 282 entities are part of the **first batch** notified on 8 Oct 2025, and the two-year average target applies to the **sectors** (e.g., Chlor-Alkali at 7.5%, Pulp & Paper at 7.1%, etc.). The phrasing conflates entities with targets. [confidence: high]
+- "Two-year average target, 282 obligated entities · notified G.S.R. 739(E), 8 Oct 2025" — The claim incorrectly states that the 282 obligated entities were notified under G.S.R. 739(E) on 8 Oct 2025. The notification G.S.R. 739(E) (8 Oct 2025) pertains to the *Greenhouse Gas Emission Intensity Target Rules, 2025*, not the number of obligated entities. The 282 obligated entities are mentioned in the context of the first batch of sectors under CCTS, but the notification date and legal instrument are misattributed. [confidence: high]
 
-- "Second batch (Jan 2026: Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium, 208 entities) had no targets specified in sources gathered." — The claim states that targets were "not specified," but the text later mentions that the second batch was notified on 13 Jan 2026 (per PIB release 22 Jan 2026), and the sources gathered did not specify targets. However, the **notification date** (13 Jan 2026) is incorrectly stated as "Jan 2026" without a day, while the PIB release date (22 Jan 2026) is provided. The article should clarify whether the notification was issued on 13 Jan or later. [confidence: medium]
+- "Second batch (Jan 2026: Petroleum Refineries, Petrochemicals, Textiles, Secondary Aluminium, 208 entities) had no targets specified in sources gathered." — The claim implies that the second batch's targets were unspecified *in the sources gathered for this article*, but the article itself does not provide any targets for the second batch. This is not a factual error in the claim itself (as it accurately reflects the article's limitation), but the phrasing could mislead readers into thinking the targets do not exist at all, rather than merely being unspecified in the cited sources. However, since the article explicitly states that the sources gathered did not specify targets, this is not a factual error but rather a potential misinterpretation risk. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "First-batch CCTS sectors face very different two-year emission-intensity cuts — Chlor-Alkali and Pulp & Paper nearly double Cement's target." — The claim suggests that the **magnitude** of the targets (e.g., 7.5% vs. 3.4%) implies a direct comparison of effort or burden, but the text does not establish that these percentage targets are **comparable** across sectors. For example, the baseline GEI (tCO2e per unit of product) for Chlor-Alkali may be far lower than for Cement, meaning a 7.5% reduction in Chlor-Alkali could represent a smaller absolute emission cut than a 3.4% reduction in Cement. The article does not account for baseline differences when interpreting the targets. [confidence: high]
+- "First-batch CCTS sectors face very different two-year emission-intensity cuts — Chlor-Alkali and Pulp & Paper nearly double Cement's target." — The claim suggests that the *magnitude* of the emission-intensity cuts (7.5% for Chlor-Alkali, 7.1% for Pulp & Paper, and 3.4% for Cement) implies a causal or structural difference in the burden of compliance. However, the article does not provide evidence or analysis to support the conclusion that these differences reflect a disproportionate burden or that they are comparable in a meaningful way. The targets are set based on sector-specific baselines and feasibility, not as a direct comparison of effort. The claim extrapolates from raw percentages without accounting for baseline differences or sectoral contexts. [confidence: high]
 
-- "An entity that falls short must purchase Carbon Credit Certificates from the ICM to cover the shortfall; an entity that beats its target earns certificates it can sell." — The claim implies a **direct and automatic** trading mechanism where shortfalls are covered by CCC purchases and surpluses are sold, but the text does not specify **how** the trading mechanism operates (e.g., whether there is a centralized exchange, price discovery, or liquidity constraints). The interpretation assumes seamless fungibility and market efficiency without evidence. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "An entity that falls short must purchase Carbon Credit Certificates from the ICM to cover the shortfall; an entity that beats its target earns certificates it can sell." — While this describes the mechanism of the CCTS Compliance Mechanism, the article does not provide evidence or analysis to support the interpretation that this system will effectively reduce or avoid greenhouse gas emissions across sectors. The claim assumes that the trading mechanism will lead to actual emissions reductions, but the article does not address potential issues such as market liquidity, price signals, or enforcement mechanisms that could undermine the system's effectiveness. This is an extrapolation beyond what the data shows. [confidence: high]

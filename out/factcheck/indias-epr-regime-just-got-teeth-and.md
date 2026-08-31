@@ -7,6 +7,8 @@
 
 Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this as a requirement for 2026-27, but the source (CSE policy brief, 2026) specifies that the 90% recovery rate is required by 2026-27 **up from 70% in 2024-25**, implying the 90% target is for a later year (likely 2027-28 or beyond). The phrasing suggests it is a new 2026-27 target, which is misleading. [confidence: high]
+- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states this target applies to manufacturers. The actual target applies to recyclers, not manufacturers, as per the Battery Waste Management Rules. [confidence: high]
 
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article implies the ₹1,500 crore incentive was approved in September 2025, but the CSE policy brief (2026) describes it as a "Cabinet-approved" program without specifying the exact approval date. The September 2025 date is not verified in the cited sources. [confidence: medium]
+- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a source confirming the disbursement status of this incentive. While the Cabinet approved it in September 2025, the article does not verify whether the funds have been disbursed or remain unspent. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "That closes a real loophole: an EOL certificate let a producer technically satisfy its EPR target without any material actually being recycled." — While the claim about the loophole is correct, the article does not provide evidence that the closure of this loophole has had any measurable impact on actual recycling rates or producer behavior. The statement assumes the rule change will effectively address the issue, but the article itself notes that compliance data post-dating the rule is not yet available. [confidence: high]
+- "Where the rulebook still doesn't reach. A 2026 Centre for Science and Environment policy brief on EV battery recycling... documents specific structural gaps a compliance rulebook does not by itself close: an EPR pricing mechanism industry participants dispute as poorly calibrated..." — The article implies that the poorly calibrated EPR pricing mechanism is a structural gap that the rulebook cannot address, but it does not explain how or why the rulebook *should* address pricing calibration. The rulebook may not be designed to set prices, and this could be a policy or market design issue rather than a rulebook enforcement gap. [confidence: medium]
 
-- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this fact to imply that second-use applications (e.g., stationary storage) are a critical part of the EPR framework, but it does not establish that the EPR rules explicitly require or incentivize such second-use pathways. The connection between the state-of-health threshold and EPR obligations is an extrapolation not supported by the cited rules. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The brief's own framing is instructive: EV batteries reach 'end-of-life' inside a vehicle once their state of health drops to 70–80% of original capacity — well before the cell is chemically exhausted." — The article uses this claim to suggest that second-use applications (e.g., stationary storage) are a necessary step before recycling, but it does not provide evidence that the EPR framework *requires* this assessment or that producers are failing to meet this obligation. The claim extrapolates beyond the rulebook's stated requirements. [confidence: medium]

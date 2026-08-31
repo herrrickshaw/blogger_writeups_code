@@ -7,39 +7,28 @@
 
 Source: `posts/india-grows-most-coconuts-in-world-and.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
+[Gemini API error 429: {
   "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+    "code": 429,
+    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India grows more coconuts than any other country" — This claim is incorrect. While India may lead in coconut production by nut count, Indonesia and the Philippines out-produce India by weight (tonnage), as explicitly stated later in the article. The claim conflates nut count with total production, which is misleading. [confidence: high]
+- "India grows more coconuts than any other country" — This claim is incorrect. While India may lead in coconut production by nut count, Indonesia and the Philippines out-produce India by weight (tonnage) due to larger average nut sizes in those countries. The article itself later clarifies this distinction, but the initial claim is misleading and factually inaccurate. [confidence: high]
 
-- "Kerala independently raised its own new-planting grant from ₹6,500/ha to ₹56,000/ha in 2025" — The article cites this as a fact but does not provide a primary source (e.g., a Kerala government notification) to verify the claim. It is sourced to "state-level reporting," which is insufficient for a factual assertion. [confidence: medium]
-
----
+- "Kerala independently raised its own new-planting grant from ₹6,500/ha to ₹56,000/ha in 2025" — The article cites this as a fact but does not provide a primary source (e.g., a Kerala government notification) to verify the claim. It is sourced to "state-level reporting," which is not a strong enough reference to confirm the exact figures. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The real opportunity isn't new land, it's the yield gap: Kerala has the most area under coconut of any state but the lowest productivity of the big four (~9,664 nuts/ha), while Tamil Nadu, with less land, out-yields it by roughly 40% (~13,775 nuts/ha)" — While the yield gap between Kerala and Tamil Nadu is correctly stated, the article implies that this gap alone represents the "real opportunity" without addressing whether the observed productivity differences are due to factors like soil quality, climate, or farming practices. The conclusion that the yield gap is the sole opportunity assumes that productivity can be easily improved by policy or investment, which may not account for underlying constraints. [confidence: medium]
+- "The real opportunity isn't new land, it's the yield gap: Kerala has the most area under coconut of any state but the lowest productivity of the big four (~9,664 nuts/ha), while Tamil Nadu, with less land, out-yields it by roughly 40% (~13,775 nuts/ha)" — While the yield gap between Kerala and Tamil Nadu is correctly stated, the article implies that this gap alone represents the "real opportunity" without providing evidence that addressing this gap would directly translate into economic gains or that the yield gap is the primary constraint in the coconut sector. The conclusion assumes a causal link between yield improvement and economic efficiency without sufficient data to support it. [confidence: medium]
 
-- "India's own trade data shows a net coconut-sector surplus of roughly $100 million (FY26) — but the country still imports $14.7mn of copra and $56.8mn of coconut oil-cake/meal despite being the largest producer by nut count, a real, checkable inefficiency in the domestic processing chain" — The article correctly notes the trade surplus and imports but incorrectly labels the imports as an "inefficiency." The imports of copra and oil-cake may reflect market demand for specific grades or types of products (e.g., solvent-extracted oil-cake) that are not fully produced domestically, rather than an inefficiency. The conclusion conflates trade flows with inefficiency without evidence that domestic production could meet demand. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "India's own trade data shows a net coconut-sector surplus of roughly $100 million (FY26) — but the country still imports $14.7mn of copra and $56.8mn of coconut oil-cake/meal despite being the largest producer by nut count, a real, checkable inefficiency in the domestic processing chain" — The article correctly notes the trade surplus and the imports of copra and oil-cake but incorrectly labels this as an "inefficiency" without demonstrating that the imports are unnecessary or that domestic processing could realistically capture this market. The imports could be due to quality, seasonal, or logistical factors, and the article does not provide evidence to rule out these possibilities. [confidence: medium]

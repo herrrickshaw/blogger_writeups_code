@@ -7,6 +7,8 @@
 
 Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,9 @@ Source: `posts/jai-kisan-jai-javan-fci-based-military.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The claim misrepresents the relationship between the ₹300 Cr procurement budget and the annual output. The ₹300 Cr is a multi-year cumulative figure (likely over 5 years), not an annual output. The comparison to ₹11 Cr (which appears to be a misinterpretation of the operating cost of ₹1.2–1.4 Cr/yr) is incorrect. [confidence: high]
-
-- "targeting operational status by July 2027 (an 18-month plan starting Aug 2026 lands ~Feb 2028, not July 2027)" — The timeline calculation is incorrect. An 18-month plan starting in August 2026 would end in February 2028, not July 2027. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "54,700 jobs projected (farmers + logistics)" — The claim lacks clarity on how the job numbers were derived or whether they account for potential job losses in the private vendor sector. The projection does not specify the methodology or assumptions behind the estimate, making it difficult to assess its validity. [confidence: medium]
-
-- "Claimed ROI | 150% | Claimed payback period | 12 months" — The ROI and payback period claims are not reconciled with the savings figures provided (e.g., the 5-year net savings of ₹8.51 Cr vs. the perpetual annual savings of ₹4.5 Cr/yr). The ROI calculation appears to double-count savings or omit costs, as the numbers do not align logically. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]

@@ -7,6 +7,8 @@
 
 Source: `posts/indias-coking-coal-import-problem-and.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-coking-coal-import-problem-and.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is impossible since December 2025 is in the future relative to the article's publication date (implied to be around August 2026). The correct timeframe should be December 2024. [confidence: high]
+- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is impossible since December 2025 is in the future relative to the article's publication date (the article references FY2024-25 and earlier data). The correct timeframe should be December 2024. [confidence: high]
 
-- "The SAMARTH mandate isn't the only biomass-co-firing rule in force, and the sourcing for this section turned up something worth flagging rather than smoothing over: there appear to be two related but not fully reconciled compliance tracks, run by different bodies, with different phase-in percentages for the same period." — The article does not provide a specific date for the "same period" comparison, making it impossible to verify the exact fiscal year being referenced. The claim lacks clarity on the timeframe for the 3% vs. 5% discrepancy. [confidence: medium]
+- "₹60,681.67 crore" — The article cites this foreign exchange savings figure without providing a clear source or methodology for how it was calculated. While the Ministry of Coal's Year End Review may provide import savings data, the exact calculation method and conversion rate used to arrive at ₹60,681.67 crore are not explained or verifiable in the article. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Stamp-charging is a coke-making technique that compacts the coal blend before it goes into the oven, which allows a higher proportion of India's own (lower-quality) coking coal to be blended in without compromising coke strength. The Ministry states this raises the domestic-coal share of the blend from roughly 10% to 30% — a real substitution of imported coking coal, achieved through process technology on India's own coal, not through a different material altogether." — While the claim about stamp-charging improving domestic coal blending is correct, it does not fully support the conclusion that this is a "real substitution of imported coking coal." The substitution is limited to the blend ratio within the coke-making process, not a direct reduction in total imported coking coal volume. The article conflates process-level substitution with import dependency reduction. [confidence: high]
+- "The SAMARTH mandate isn't the only biomass-co-firing rule in force, and the sourcing for this section turned up something worth flagging rather than smoothing over: there appear to be two related but not fully reconciled compliance tracks, run by different bodies, with different phase-in percentages for the same period." — While the article correctly identifies a discrepancy between the national SAMARTH mandate (5% for FY2024-25) and the CAQM Delhi-NCR rule (3% for FY2024-25), it does not adequately explain why this discrepancy exists or whether it reflects a deliberate policy divergence. The article presents both figures without resolving the inconsistency, which could mislead readers into believing the discrepancy is unexplained by policy design rather than a potential oversight or lack of coordination. [confidence: high]
 
-- "Published research (Fuel Processing Technology, 2023) tested coal-biochar blend ratios from 90:10 down to 50:50... and the best-performing blends were narrower than the full range tested: roughly 70:30 coal-to-biochar for coconut-shell and groundnut-shell biochar, and 80:20 for sawdust biochar... Coke quality for blast-furnace use is judged on two standard metrics — Coke Reactivity Index (CRI, lower is better) and Coke Strength after Reaction (CSR, higher is better) — and an 85:15 coal-to-coconut-shell-char blend achieved a CRI of 29.8 and CSR of 55.1, which the paper reports as meeting blast-furnace-usable criteria." — The research demonstrates lab-scale feasibility of bio-coke blends meeting quality standards, but the article extrapolates this to imply potential industrial-scale adoption without addressing the significant technical, economic, and logistical barriers (e.g., scaling up production, ensuring consistent feedstock supply, and meeting blast-furnace operational requirements). The interpretation overstates the practical implications of the research. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The reason this pass-through mechanism exists at all is that biomass pellets cost meaningfully more than the coal they're displacing. Reported landed-cost figures put biomass pellets in the roughly ₹9,000–13,000 per tonne range against coal at around ₹5,000 per tonne — a gap wide enough that, in at least one regulatory cost estimate this piece found, co-firing at mandated levels added on the order of ₹0.13 per unit to the generation cost." — The article conflates two different cost figures: the landed cost of biomass pellets (₹9,000–13,000/tonne) and the marginal cost impact on generation (₹0.13/unit). The ₹0.13/unit figure is derived from a specific regulatory cost estimate and may not be directly comparable to the per-tonne biomass cost without further context on energy content, blending ratios, and plant efficiency. The article does not clarify whether the ₹0.13/unit figure accounts for the energy content difference between biomass and coal, leading to a potential apples-to-oranges comparison. [confidence: high]

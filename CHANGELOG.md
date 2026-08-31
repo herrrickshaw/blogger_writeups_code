@@ -8349,3 +8349,12 @@ publish CUI/FSRU/FPSO asset-integrity post
 **Changed**
 
 - `the-1920s-rotor-thats-now-on-22-real` — 31,790 → 35,627 bytes (+3,837)
+
+## 2026-08-31T15:51:33+05:30 — 238 posts live
+
+publish government EV fleet electrification post
+
+
+**Added**
+
+- `the-easiest-ev-conversion-in-india` **v1.0.0** — The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet (28,258 bytes)

@@ -7,6 +7,8 @@
 
 Source: `posts/indias-trade-balance-hsn-wise.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indias-trade-balance-hsn-wise.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — The article contradicts itself later by stating "FY2025-26 is the most recent, not necessarily complete — the source states data last updated 19 May 2026; treat this year's figures as provisional/in-progress rather than a closed fiscal year like the others." The claim that FY2025-26 is the most recent data is correct, but the phrasing "not necessarily a complete fiscal year" is misleading because the article itself clarifies that FY2025-26 is provisional/in-progress, not necessarily incomplete. [confidence: high]
+- "FY2025-26 is the most recent data available (updated 19 May 2026 per the source), not necessarily a complete fiscal year." — The article later contradicts this by stating that FY2025-26 is the most recent data available, but the claim that it is "not necessarily a complete fiscal year" is not a factual error per se. However, the phrasing is misleading because the source explicitly states that the data is provisional/in-progress, not that it is incomplete. [confidence: medium]
 
-- "DPIIT's 2025-26 Annual Report (295 pages, dpiit.gov.in) doesn't publish a trade-balance series — consistent with what this repo found when checking DPIIT for services data" — The DPIIT Annual Report does include trade-related data (e.g., export/import figures in Appendix IV), though it may not publish a full trade-balance series. The claim is overly broad and risks misrepresenting the scope of DPIIT's published data. [confidence: medium]
+- "The single largest export chapter also matches exactly: HS27 (mineral fuels) at $55,871.2 million on both." — The claim is correct in terms of matching between sources, but the phrasing implies exactness where there is a minor discrepancy (e.g., the PIB release states exports of $441.78bn, while the bulletin reports $441.7bn). The article later acknowledges a ~2% discrepancy in export totals, which contradicts the earlier claim of exact matching. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Mineral fuels (HS27) alone accounts for a -$147.5bn deficit — India imports far more crude oil and refined fuel than it exports, by design (import-dependent energy needs)." — While the deficit figure is correct, the causal claim that India's energy import dependence is the *only* or primary driver of the deficit is an oversimplification. The deficit could also be influenced by global oil price fluctuations, domestic refining capacity, export policies, or other factors. The article does not provide evidence to isolate energy import dependence as the sole or dominant driver. [confidence: high]
+- "Imports have exceeded exports in all 8 fiscal years of merchandise data (FY2018-19 to FY2025-26), widening from -$184.0bn to -$334.3bn." — The claim is factually correct, but the interpretation that this widening deficit is solely due to structural factors (e.g., import-dependent energy needs) is an oversimplification. The article does not adequately account for cyclical factors (e.g., post-COVID recovery, global commodity price fluctuations) or policy changes (e.g., import substitution efforts) that could influence the trend. [confidence: medium]
 
-- "Even with services trade included, India ran a current-account-style deficit every year from FY2018-19 to FY2024-25 — meaning India still needed to buy more foreign currency than it earned, just by a smaller margin than the goods numbers alone suggest." — The article conflates the *current account balance* (which includes goods, services, income, and transfers) with the *trade balance* (goods only). While the trade deficit narrowed with services included, the current account balance could still be in deficit for other reasons (e.g., income outflows like remittances or investment income). The article does not clarify whether the "current-account-style deficit" refers to the trade balance or the full current account. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "That's structural downward pressure on the rupee that has nothing to do with any single shock, and it's the backdrop the RBI has been intervening against: spending down reserves (from a $728.5bn peak to a $666.9bn trough) specifically to slow a depreciation this trade picture would otherwise make worse, not to engineer a competitive devaluation." — The claim that the RBI's reserve spending is solely to counteract trade-driven depreciation is an interpretation error. The article does not provide evidence that the RBI's interventions are *only* in response to trade deficits rather than a broader mandate to stabilize the currency, manage inflation, or address capital flow volatility. The causal link between the trade deficit and reserve depletion is not uniquely supported by the data presented. [confidence: high]

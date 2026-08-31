@@ -7,34 +7,30 @@
 
 Source: `posts/574-gw-and-counting-indias-wind-fleet.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 FACTUAL ERRORS:
-- "India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time." — Gujarat officially overtook Tamil Nadu to become India's leading state in installed wind power capacity in May/June 2023 (when Gujarat surpassed ~10,400 MW compared to Tamil Nadu's ~10,125 MW), not in 2026. [confidence: high]
+- "India's wind fleet crossed 57,443 MW in June 2026, with Gujarat overtaking Tamil Nadu as the single biggest contributor for the first time." — Gujarat officially overtook Tamil Nadu in cumulative installed wind power capacity much earlier, in May/June 2023 (reaching approximately 10,416 MW against Tamil Nadu's 10,125 MW), not in 2026 for the first time. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Measured against the 120m figure, which is closer to where modern utility-scale turbines actually sit, India's entire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore resource NIWE itself has mapped." — This is an apples-to-oranges comparison. India's cumulative installed fleet (57.4 GW) consists heavily of legacy turbines installed over past decades at much lower hub heights (50m, 80m, and 100m) occupying prime, high-yield wind sites. Directly dividing total historical installed capacity by NIWE's 120m modeled potential wrongly assumes that 92% of the modeled resource/land is unutilised and available for greenfield development, rather than acknowledging that key resource areas are physically occupied by older, lower-capacity turbines requiring repowering. [confidence: high]
+- "Measured against the 120m figure, which is closer to where modern utility-scale turbines actually sit, India's entire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore resource NIWE itself has mapped." — Apples-to-oranges comparison. NIWE's 695.5 GW potential estimate assumes modern, high-capacity turbines deployed at 120-meter hub heights across 2% of available land. India's cumulative 57.4 GW installed capacity was built over decades and consists predominantly of legacy turbines installed at 50m to 100m hub heights with much lower nameplate ratings. Dividing cumulative historical capacity by a 120m potential model distorts "resource utilisation," as many prime wind sites are already occupied by older, lower-capacity turbines. [confidence: high]
+- "Part of why the FY2025-26 growth rate jumped is a 7 December 2023 MNRE circular, the National Repowering & Life Extension Policy for Wind Power Projects..." — Unsubstantiated causal claim. The article attributes the acceleration in annual wind capacity additions to the 2023 repowering policy without presenting any evidence that repowering projects contributed to the new capacity figures. Wind capacity growth in India has been driven almost entirely by greenfield utility-scale tenders (particularly in Gujarat and Karnataka), whereas repowering has historically faced commercial, PPA, and transmission hurdles with minimal commissioned capacity. [confidence: medium]
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's wind fleet crossed 57,443 MW in June 2026" — The article later states the cumulative installed wind capacity reached 57,443.39 MW by the end of June 2026, which is inconsistent with the rounded figure of 57,443 MW used earlier. The exact figure should be used consistently. [confidence: high]
+- "India's wind fleet crossed 57,443 MW in June 2026" — The article later states the installed capacity as 57,443.39 MW, which is inconsistent with the rounded figure of 57,443 MW in the opening sentence. The exact figure should be used consistently. [confidence: high]
 
-- "GWEC's Global Wind Report 2025 credits India with adding 6.3 GW of new wind capacity in calendar year 2025" — The article later notes that MNRE's data shows ~6 GW added in FY2025-26 (April-March), which is not directly comparable to GWEC's calendar-year 2025 figure. While both figures are close, they describe overlapping but distinct time periods and should not be conflated without clarification. [confidence: high]
+- "GWEC's Global Wind Report 2025 credits India with adding 6.3 GW of new wind capacity in calendar year 2025" — The article later acknowledges that MNRE's figure for FY2025-26 is ~6 GW, which covers a different period (April-March) than the calendar year 2025. The two figures are not directly comparable without adjustment. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's entire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore resource NIWE itself has mapped" — The claim implies that the 8% utilization is a direct measure of how much of the resource is being used, but the 8% is calculated against NIWE's *installable* potential (under a 2% land-availability assumption), not the total theoretical resource. The actual *technical* potential is likely much higher, making the 8% figure a conservative estimate of utilization. [confidence: high]
+- "India's entire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore resource NIWE itself has mapped" — The claim implies that the 8% utilization is a measure of progress toward exploiting the resource, but the 8% is derived from dividing the installed capacity (57.4 GW) by the NIWE potential at 120m hub height (695.5 GW). This is not a utilization rate but a ratio of installed capacity to technical potential, which does not account for practical constraints like land availability, transmission capacity, or economic viability. [confidence: high]
 
-- "The resource was never the constraint — the build-out has been" — While the article correctly identifies build-out constraints (transmission, land, repowering pace), it extrapolates from state-level findings to a national conclusion without sufficient evidence that these constraints are uniformly the primary barrier across all states. Some states may face different or additional challenges (e.g., resource quality, policy incentives). [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "The resource was never the constraint — the build-out has been" — While the article correctly identifies build-out constraints (transmission, land, repowering pace), it extrapolates from the low ratio of installed capacity to technical potential to conclude that the resource itself is not a constraint. However, the technical potential figures (e.g., 695.5 GW at 120m) are based on a conservative 2% land-availability assumption, which may not reflect actual land-use realities or economic feasibility. The conclusion oversimplifies the relationship between technical potential and actual build-out potential. [confidence: medium]

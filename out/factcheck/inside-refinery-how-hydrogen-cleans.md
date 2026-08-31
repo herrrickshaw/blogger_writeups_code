@@ -7,6 +7,8 @@
 
 Source: `posts/inside-refinery-how-hydrogen-cleans.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/inside-refinery-how-hydrogen-cleans.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "India's Bharat Stage VI standard, equivalent to Euro 6, caps diesel sulphur at 10 parts per million — down from 50 ppm under the outgoing BS-IV standard — and took effect nationwide on 1 April 2020." — The Bharat Stage VI (BS-VI) standard for diesel sulphur was indeed set at 10 ppm, but it replaced BS-IV (which had a 50 ppm limit) in two phases: April 2017 for new vehicles and April 2020 for all vehicles nationwide. The article incorrectly states that BS-IV was the outgoing standard in April 2020, implying BS-III was the prior standard. [confidence: high]
+- "India's Bharat Stage VI standard, equivalent to Euro 6, caps diesel sulphur at 10 parts per million — down from 50 ppm under the outgoing BS-IV standard — and took effect nationwide on 1 April 2020." — The Bharat Stage VI (BS-VI) standard for diesel sulphur was indeed set at 10 ppm, but it replaced BS-IV (which had a 50 ppm limit) in April 2020. However, BS-VI was introduced in two phases: BS-IV was replaced by BS-VI in April 2020 for new vehicles, but the nationwide rollout for all vehicles and fuels was completed by April 2022. The claim incorrectly states the nationwide implementation date as April 2020. [confidence: high]
 
-- "India's refining-sector grey hydrogen demand (2.5 MTPA current, ~4.5 MTPA projected by FY2030) per the Climate Finance Leadership Initiative (CFLI) India and Council on Energy, Environment and Water's 'Financing Green Hydrogen in India' (2024)" — The cited projection of 4.5 MTPA by FY2030 appears inconsistent with other industry estimates and the article's own context. The article later states that the total committed green hydrogen under SIGHT Mode-2B is 30,000 tonnes (0.03 MTPA) against a current grey hydrogen consumption of 2.5 MTPA, with no clear basis for a near-doubling of total hydrogen demand (to 4.5 MTPA) by FY2030. This suggests a potential overestimation or misinterpretation of growth projections. [confidence: medium]
+- "The green bid price sits roughly 1.7 to 3.2 times above grey hydrogen depending which grey benchmark is used — global natural-gas SMR pricing at the low end, India's own higher domestic grey-hydrogen cost estimate at the high end." — The article cites a green hydrogen bid price of ₹397/kg (≈$4.16/kg) and compares it to grey hydrogen costs of $1.3–1.5/kg (global) and ₹150–200/kg (India). However, ₹150–200/kg translates to roughly $1.8–2.4/kg (assuming ₹94.3/$), which is only about 1.2–1.6 times the global grey benchmark, not 1.7–3.2 times. The upper end of the ratio (3.2x) appears inflated. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The price discovered through that competitive bidding, previously covered on this blog, was ₹397 per kilogram including GST for supply to Indian Oil's refineries — consistent with the roughly $4.11–4.21/kg SIGHT figures this piece uses in Figure 1." — While the ₹397/kg figure is cited, the article then uses this to claim that green hydrogen costs "roughly three times" the cost of grey hydrogen in India. However, the grey hydrogen cost range provided is ₹150–200/kg (≈$1.8–2.4/kg), which would make the green hydrogen cost only about 2–2.6 times higher, not "roughly three times." The article inflates the multiplier by using a higher grey hydrogen benchmark than justified by its own cited range. [confidence: high]
+- "The transition is not simply a matter of swapping one hydrogen source for another at the plant gate. An industry technical overview of refinery hydrogen systems notes that existing refinery infrastructure is 'optimised around the predictable operating characteristics of reformers,' prioritising stability and availability, while electrolysers introduce short-term output variability — tied to when renewable power is actually available — that refinery hydrogen systems were never designed to absorb." — While the claim about variability is correct, the article does not address whether refineries could mitigate this through energy storage, grid management, or hybrid systems (e.g., blending green hydrogen with grey hydrogen). The implication that electrolysers cannot be integrated without major disruptions is an overgeneralization, as some refineries may already have flexibility in their hydrogen networks or could adapt their operations. [confidence: medium]
 
-- "CBAM's initial phase does not yet directly tax refined fuel exports the way it taxes hydrogen itself, but the mechanism's existence, and the general direction of EU carbon policy, is part of why refiners with export exposure are moving early rather than waiting for a domestic mandate to force the issue." — The article correctly notes that CBAM does not currently tax refined fuels like diesel, but it implies that the EU's carbon policy direction is a primary driver for Indian refiners' early adoption of green hydrogen. However, the article does not provide evidence that export exposure to the EU is a significant factor in these specific refinery decisions (e.g., Panipat, Bina, Vizag, Numaligarh). The claim overstates the causal link between CBAM and the green hydrogen contracts awarded under SIGHT Mode-2B. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "Part of the motivation is regulatory rather than purely domestic: hydrogen is one of the product categories explicitly covered by the European Union's Carbon Border Adjustment Mechanism (CBAM), alongside steel, aluminium, cement, fertilisers, and electricity, and India's refiners are large exporters of diesel and other gasoil products into European markets — one 2025 trade forecast put India's gasoil exports, much of it winter-heating-season diesel bound largely for Europe, at 560,000–630,000 barrels a day." — The article conflates CBAM's coverage of *hydrogen* with its potential impact on *diesel exports*. CBAM does not currently tax diesel exports; it only applies to hydrogen and a few upstream commodities. The claim that CBAM's existence is a motivation for refiners to switch to green hydrogen due to diesel export exposure is misleading, as the mechanism does not directly affect diesel. The strategic motivation may be plausible, but the causal link to CBAM's current rules is incorrect. [confidence: high]

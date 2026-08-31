@@ -7,6 +7,8 @@
 
 Source: `posts/interest-subvention-built-499-ethanol.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,26 +18,17 @@ Source: `posts/interest-subvention-built-499-ethanol.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Energy & Fuels · Ethanol & Biofuels · Industrial Policy · 25 August 2026" — The article claims a publication date of 25 August 2026, which is in the future relative to the current date (June 2025). This is factually impossible and likely a typographical error. [confidence: high]
+- "The flagship result — a ₹984 crore refinery inaugurated by the Prime Minister — now sits 'barely even functioning,' according to the government's own petroleum ministry." — The article later clarifies that the Panipat refinery cost ₹984 crore, but the claim implies the refinery was inaugurated by the Prime Minister in August 2022, which is not explicitly stated in the quoted sentence. The inauguration date is mentioned elsewhere in the text, but the quoted claim itself does not include this date, making it potentially misleading. [confidence: medium]
 
-- "The flagship 2G plant — IOCL's ₹984 crore Panipat refinery, inaugurated by the Prime Minister in August 2022" — While the Panipat refinery exists and was inaugurated in 2022, the claim that it is "barely even functioning" with "zero contribution" is attributed to an unnamed petroleum ministry official via a secondary source (Informist Media). The article does not provide primary government documentation confirming this operational status, making the claim unverifiable as stated. [confidence: medium]
-
----
+- "The government has paused further 2G rollout because of it." — The article states that the government paused further 2G rollout, but it does not explicitly confirm that the pause was *because* of the Panipat plant's failure. The reasoning is implied but not directly stated. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The difference is not the money. It's what the incentive was actually designed to fix." — This claim implies that the design of the incentives (interest subvention vs. viability gap funding) directly explains the vastly different outcomes, but it overlooks the critical role of applicant pools and underlying feasibility. The article later acknowledges that the 2G ethanol bottleneck was feedstock logistics, not capital cost, but the initial framing risks oversimplifying the causal chain by attributing outcomes solely to incentive design without fully accounting for the structural differences in the projects themselves (e.g., 1G ethanol relied on established supply chains, while 2G ethanol required unproven logistics). [confidence: high]
+- "Viability gap funding works when a project is directionally sound but structurally short of full commercial viability by a known, bounded amount — the textbook PPP-infrastructure case the scheme type was designed for." — This claim suggests that viability gap funding (VGF) is universally applicable to any project that is "directionally sound but structurally short of full commercial viability," which is an overgeneralization. VGF is specifically designed for infrastructure projects where the viability gap is a known, bounded capital cost shortfall, not for operational or logistics bottlenecks like feedstock supply chains. The article later contradicts this by acknowledging that VGF failed in 2G ethanol due to an unsolved feedstock-logistics problem, which is not a capital-cost issue. [confidence: high]
 
-- "A viability gap grant, no matter how generous, doesn't build a functioning stubble-collection supply chain; it just pays for a plant that then can't reliably get fed." — While this is likely true, the article presents this as a definitive conclusion without acknowledging that the grant *could* have been paired with complementary policies (e.g., subsidies for stubble collection) to address the logistics gap. The claim frames the grant as inherently incapable of solving the problem, which is an overgeneralization. The grant's failure may stem from its isolation, not its design alone. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "A ₹984 crore plant with an 80%-uncovered cost structure isn't a project a mid-sized private distillery can take on. A ₹150 crore grant only makes sense to an applicant who can already write the other ₹834 crore cheque — which is why the 2G scheme's real applicant pool was never 'the market,' it was four state-owned companies." — While the claim about the applicant pool is correct, the reasoning conflates the *ability to fund the uncovered cost* with the *actual bottleneck* (feedstock logistics). The article correctly identifies that the feedstock-logistics problem was the real issue, but the quoted claim implies that the applicant pool limitation was the primary reason for the scheme's failure, rather than the misalignment between the incentive design (VGF) and the actual bottleneck (logistics). The interpretation incorrectly attributes the failure to the applicant pool rather than the incentive design's mismatch with the problem. [confidence: high]

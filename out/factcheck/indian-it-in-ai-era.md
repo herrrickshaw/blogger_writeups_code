@@ -7,6 +7,8 @@
 
 Source: `posts/indian-it-in-ai-era.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,24 +18,17 @@ Source: `posts/indian-it-in-ai-era.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
 - "4 August 2026" — The article is dated in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
 
-- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year" — The RBI data in Exhibit 1 shows net services receipts rising from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), which is an increase of $27.8bn. However, the article later states that the merchandise trade deficit widened by $50 billion in FY2026 alone, which contradicts the RBI data showing a $50.4bn increase ($337.3bn - $286.9bn). The $50bn figure is not supported by the RBI data. [confidence: high]
+- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year" — The RBI data in Exhibit 1 shows net services receipts rising from $188.8bn (FY2024-25) to $216.6bn (FY2025-26), a $27.8bn increase, which is correct. However, the article later states "Net services receipts rose $27.8 billion in one year, the largest increase on record," which is unverifiable as no prior record is cited or verifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue" — While the hiring decline and executive statements about "AI deflation" are factual, the article implies a causal link between AI and the hiring collapse without sufficient evidence. The hiring slowdown could be due to other factors (e.g., post-pandemic normalization, automation unrelated to AI, or strategic shifts in hiring practices), and the "AI deflation" figures are forward-looking estimates, not measured impacts. [confidence: medium]
+- "The warning signs are elsewhere: net hiring has collapsed from ~450,000 (FY22) to 135,000 (FY26) against a growing revenue base, and chief executives now name 'AI deflation' worth 3–5% of revenue." — The claim correctly notes a decline in net hiring and mentions "AI deflation," but it implies a causal link between AI and the hiring decline without sufficient evidence. The article acknowledges that the displacement has not been measured and cites executive testimony, which is not a causal proof. The reasoning gap is assuming that the hiring slowdown is directly caused by AI without robust data. [confidence: high]
 
-- "It can produce a balance-of-payments event. If services receipts stall while the goods deficit keeps widening — and it widened by $50 billion in FY2026 alone — the adjustment happens in the exchange rate and the capital account, not in the unemployment rate." — The article conflates the goods deficit widening ($50bn) with services receipts stalling, but the data shows services receipts grew by $27.8bn in FY2025-26. The claim that the goods deficit widened by $50bn in FY2026 alone is not directly tied to services receipts stalling, and the causal link to exchange rate adjustments is speculative without evidence of an imminent stall. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "So when people ask whether AI threatens Indian IT, the question that matters for the country is narrower and sharper: does it threaten the dollar receipts that make a $337 billion goods deficit survivable at 0.6% of GDP?" — The article correctly highlights the importance of services receipts for India's balance of payments, but it extrapolates from this that the primary concern is AI's threat to dollar receipts without demonstrating that AI is currently reducing these receipts. The reasoning gap is treating the potential future risk as a present reality based on leading indicators and executive statements, rather than measured data. [confidence: high]

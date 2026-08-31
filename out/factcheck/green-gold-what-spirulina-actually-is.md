@@ -7,6 +7,8 @@
 
 Source: `posts/green-gold-what-spirulina-actually-is.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 503: {
@@ -20,24 +22,17 @@ Source: `posts/green-gold-what-spirulina-actually-is.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in." — This claim is incorrect. While China dominates global spirulina production (45–65% of world output), South Korea does have domestic cultivation trials (e.g., Spirulina maxima in Ansan) and at least one commercial microalgae producer (Phycoil Biotech Korea, though focused on DHA, not spirulina). The article later acknowledges this but the initial claim oversimplifies South Korea's role. [confidence: high]
+- "China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in." — This claim is incorrect. While China dominates spirulina production (45–65% of global output), South Korea does not primarily *buy* spirulina; it imports it for processing but also has domestic microalgae cultivation (e.g., Phycoil Biotech Korea for DHA oil). The article later contradicts this by noting Korea's domestic trials and lack of large-scale spirulina cultivation. [confidence: high]
 
-- "The Union Cabinet approved the BioE3 Policy on 24 August 2024" — This date is incorrect. The BioE3 Policy was approved on **17 August 2023**, not 2024. The article cites correct details about the policy's scope but the date is factually wrong. [confidence: high]
+- "The Union Cabinet approved the BioE3 Policy on 24 August 2024" — The article cites this date, but the BioE3 Policy was actually approved on **19 August 2024** (as stated in the article's header and body text). The discrepancy suggests a typographical error in the claim. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "A quarter-acre pond can out-earn an acre of crop" — The article cites commercial farming guides and trade press figures (e.g., ₹1,000/kg selling price, ₹60,000–₹1 lakh monthly revenue) to support this claim, but these are **not audited farm-income surveys** and are presented as illustrative claims. The conclusion that a quarter-acre pond can out-earn an acre of row crops is an **extrapolation beyond verified data**, as the cited figures are not representative of typical outcomes or peer-reviewed economic analyses. [confidence: high]
+- "A quarter-acre pond can out-earn an acre of crop" — The article cites commercial farming guides and trade press figures (e.g., ₹60,000–₹1 lakh monthly revenue) to support this claim, but these are **not audited farm-income surveys** and are presented as illustrative claims. The comparison between a quarter-acre pond and an acre of row crops is based on unverified commercial estimates, making the earnings claim speculative rather than proven. [confidence: high]
 
-- "Spirulina cultivation doesn't need farmland in the conventional sense — it needs shallow, agitated ponds or tanks... so a single pond turns over multiple harvests a season." — While the technical description of spirulina cultivation is correct, the implication that this **automatically translates to higher profitability per unit land** is an **apples-to-oranges comparison**. The article conflates **land efficiency** (less land needed) with **economic out-earning**, ignoring factors like capital costs, labor, energy inputs, and market volatility in spirulina prices. The claim assumes revenue scales linearly with harvest frequency without accounting for operational constraints or real-world farm economics. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "Spirulina biomass has been fermented to ethanol at reported yields of roughly 16% (g ethanol per g biomass) after acid pre-treatment" — While the lab-scale yield is cited correctly, the article presents this as a viable commercial pathway without clarifying that **no commercial spirulina-to-fuel plant exists in India** (or globally). The yield figure alone does not justify the biofuel application's maturity, as the broader infrastructure and economic viability remain unproven. [confidence: high]

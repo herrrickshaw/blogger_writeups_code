@@ -7,6 +7,8 @@
 
 Source: `posts/india-imports-283000-tonnes-of-almonds.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 429: {
@@ -16,26 +18,19 @@ Source: `posts/india-imports-283000-tonnes-of-almonds.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Diwali falls on Sunday, 8 November 2026" — The date is incorrect. Diwali in 2026 falls on **Friday, 6 November 2026** (based on standard Hindu calendar calculations for the Gregorian year 2026). [confidence: high]
+- "Diwali falls on Sunday, 8 November 2026" — The date is incorrect. Diwali in 2026 falls on **Friday, 6 November 2026** (based on the Hindu lunar calendar). [confidence: high]
 
-- "India imports roughly 69 times more almonds than it grows" — While the article states India imported **283,000 tonnes** and produced **4,100 tonnes**, the claim that this represents "69 times more" is mathematically incorrect. The correct ratio is **283,000 / 4,100 ≈ 69**, but the phrasing implies a direct comparison of import volume to domestic production, which is misleading because imports and domestic production are not directly substitutable in this context (imports are in-shell, while domestic production is likely shelled). The article later clarifies the import weight basis but does not correct this phrasing. [confidence: high]
+- "India bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion" — The volume figure (283,000 tonnes) is correct, but the value figure ($1.09 billion) is inconsistent with the unit price shown elsewhere in the article. The average unit price for 2024 is stated as **$3.84/kg**, which would imply a total value of **~$1.08 billion** (283,000 tonnes × 1,000 kg × $3.84 = ~$1.08 billion). However, the article later states the 2024 value as "$1.09 billion," which is a rounding discrepancy but still technically correct. Given the context, this is likely a minor inconsistency rather than a factual error. No other factual errors were found. [confidence: medium]
 
 ---
 
 INTERPRETATION ERRORS:
-- "The duty is specific, not ad valorem — rupees per kilo, not a percentage of value — and it is levied on the weight that crosses the border. Ship kernels and you pay ₹100 on every kilo of kernel. Ship in-shell and you pay ₹35 on shell-inclusive weight, of which roughly 60 per cent becomes saleable kernel using USDA’s official conversion factor. That works out to about ₹60 of duty per kilo of finished kernel against ₹100." — The reasoning gap here is that the article assumes the **entire duty advantage** is due to the tariff structure, but it ignores **freight costs**. Shipping in-shell may reduce tariff costs but increases shipping weight (and thus freight expenses). The net cost advantage depends on the trade-off between lower tariffs and higher freight, which is not addressed. [confidence: high]
+- "India imports roughly 69 times more almonds than it grows" — The claim is mathematically correct (283,000 / 4,100 ≈ 69), but it is presented as a standalone fact without clarifying that this ratio is based on **calendar-year import volumes vs. domestic production**, which are measured differently (imports are gross weight, while domestic production is net kernel weight). This could mislead readers into thinking the comparison is apples-to-apples, when in reality, the import figure includes in-shell almonds (with shells), while domestic production is already kernel weight. The article does later explain the weight conventions, but the initial claim risks oversimplification. [confidence: high]
 
-- "The festive premium is worth roughly the whole gap between a mid-twenties per cent gross margin and a low-teens one." — The article claims the Diwali price premium is the **primary determinant** of profitability, but it does not provide evidence that margins are **solely** driven by this seasonal price increase. Other factors (e.g., procurement costs, exchange rate fluctuations, handling fees, or storage costs) could also materially impact margins, and the article does not rule out or quantify these alternatives. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "Volume grew 69 per cent in five years, a compound rate of about 11 per cent a year" — The claim is numerically correct (283,000 tonnes in 2024 vs. 167,000 tonnes in 2019), but the interpretation that this represents a **demand story** is misleading. The growth is driven by **import volumes**, not necessarily domestic demand, as the article itself notes that domestic production is negligible (1.5% of consumption). The "demand story" framing could imply that Indian consumers are demanding more almonds, but the actual driver is increased imports due to tariff structures and supply-side factors (e.g., California crop expansion). The article later acknowledges this, but the initial claim risks conflating import growth with demand growth. [confidence: high]

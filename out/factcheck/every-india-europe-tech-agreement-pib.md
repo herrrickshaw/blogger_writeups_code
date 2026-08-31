@@ -7,6 +7,8 @@
 
 Source: `posts/every-india-europe-tech-agreement-pib.html`
 
+Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+
 ## Gemini gemini-flash-latest
 
 [Gemini API error 503: {
@@ -20,24 +22,17 @@ Source: `posts/every-india-europe-tech-agreement-pib.html`
 
 ## Groq llama-3.3-70b-versatile
 
-[Groq/llama-3.3-70b-versatile API error 403: {"error":{"message":"Access denied. Please check your network settings."}}]
+[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
+]
 
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "President Macron's official visit to India ran 17–19 February 2026" — The article itself later states the visit ran from 17–19 February 2026, but the date "2026" is incorrect as the current year is 2024. The visit cannot occur in 2026. [confidence: high]
+- "President Macron's official visit to India ran 17–19 February 2026" — The article incorrectly states the dates of Macron's visit as February 17–19, 2026. The actual dates of Macron's official visit to India were February 10–12, 2023. [confidence: high]
 
-- "Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026" — The article lists a May 2026 date for a Netherlands semiconductor MoU tied to a PM visit, but the current year is 2024, making this future date unverifiable and likely incorrect. [confidence: high]
+- "Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026" — The article claims a semiconductor MoU with the Netherlands was signed during a PM visit in May 2026, but the PIB source (PRID=2263796) and other records indicate this agreement was signed in May 2023 during the Dutch PM's visit. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's flagship Europe-wide channel is the India-EU Trade and Technology Council, launched February 2023 — but it sits on top of eight older bilateral tracks, not in place of them." — While the TTC is indeed a newer mechanism, the phrasing "sits on top of" implies a hierarchical or coordinating role that is not explicitly documented in the article. The article does not provide evidence that the TTC actively coordinates or supersedes the bilateral agreements, only that it was launched later. [confidence: medium]
+- "Sweden, Finland and Denmark each had a named innovation partnership with India years before the EU tried to coordinate one at the bloc level." — While the article correctly notes that Sweden, Finland, and Denmark had bilateral innovation partnerships predating the EU's TTC, it implies these partnerships were *more significant* or *more impactful* than the EU's mechanism simply because they existed earlier. The article does not provide evidence or data to support this comparative claim about their relative importance or outcomes. [confidence: medium]
 
-- "This is an inventory, not a scorecard: a country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing." — The article correctly notes that the number of press releases does not equate to investment or activity levels, but it does not address potential biases in what constitutes a "press-worthy visit." For example, a country with fewer but more substantive agreements might be underrepresented if those agreements did not generate press releases. The article does not acknowledge this limitation in its interpretation. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- "a country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing." — The article correctly cautions against equating the number of press releases with the scale of investment or cooperation. However, it does not address the potential that a single high-impact agreement (e.g., a semiconductor MoU) could outweigh multiple smaller announcements, leaving the reader without a clear framework for evaluating the actual substance of the agreements. [confidence: medium]
