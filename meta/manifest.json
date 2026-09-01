@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-01T20:30:18+05:30",
-  "count": 242,
+  "snapshot": "2026-09-01T21:05:33+05:30",
+  "count": 243,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -910,6 +910,38 @@
             ]
           },
           "note": "restore: recovered PCPIR section, disclaimer, translate widget and index link lost from the live post"
+        }
+      ]
+    },
+    "1337989766612118520": {
+      "id": "1337989766612118520",
+      "title": "TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html",
+      "slug": "tnpl-has-made-paper-from-sugarcane_01251035403",
+      "published": "2026-09-01T21:00:17.060+05:30",
+      "updated": "2026-09-01T21:00:17.060+05:30",
+      "labels": [],
+      "bytes": 31919,
+      "sha256": "94203fe57e516f56be4d49e4a42a9ef17d2abeb1f835601a48b56f7991836083",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-01T21:05:33+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish TNPL bagasse paper post"
         }
       ]
     },
@@ -21970,9 +22002,11 @@
       "title": "TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.",
       "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html",
       "slug": "tnpl-has-made-paper-from-sugarcane",
-      "published": "2026-09-01T20:24:15.062+05:30",
-      "updated": "2026-09-01T20:24:15.062+05:30",
-      "labels": [],
+      "published": "2026-09-01T20:24:15.000+05:30",
+      "updated": "2026-09-01T21:04:38.023+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 31919,
       "sha256": "94203fe57e516f56be4d49e4a42a9ef17d2abeb1f835601a48b56f7991836083",
       "markers": {
