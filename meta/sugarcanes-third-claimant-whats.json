@@ -3,15 +3,15 @@
   "title": "Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant",
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
-  "published": "2026-08-28T21:08:06.993+05:30",
-  "updated": "2026-08-29T06:02:33.901+05:30",
+  "published": "2026-08-28T21:08:06.000+05:30",
+  "updated": "2026-09-01T22:10:04.119+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34650,
-  "sha256": "573b9f5a74f76f2d0644a6e24b7359b74a7a8ab4290f5beab931fa02e1463230",
+  "bytes": 35087,
+  "sha256": "bab4b72f968bdac044fbb413e541a491701a55cc5bab03cb5615033fac1cc4ae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "MAJOR CORRECTION: FSSAI's Aug 2026 packaging ban (Gazette 10 Aug) excludes polyester/synthetic polymers from pan masala packaging — PLA is chemically a polyester, likely closing the pan-masala addressable-market thesis"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-09-01T22:10:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        34650,
+        35087
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
     }
   ]
 }
