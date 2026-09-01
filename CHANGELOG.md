@@ -8507,3 +8507,16 @@ Publish TNPL bagasse paper post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `tnpl-has-made-paper-from-sugarcane` — 2026-09-01 &rarr; 2026-09-01
+
+## 2026-09-01T21:57:47+05:30 — 244 posts live
+
+Publish TNPL bagasse paper post
+
+
+**Added**
+
+- `tnpl-has-made-paper-from-sugarcane_0974259386` **v1.0.0** — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees. (31,919 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `tnpl-has-made-paper-from-sugarcane_01251035403` — 2026-09-01 &rarr; 2026-09-01
