@@ -4,10 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-01T18:56:00.508+05:30",
-  "labels": [],
-  "bytes": 43942,
-  "sha256": "d57944f3498191ec2c2d4f13575d98f57149499452ba275336502a341cdd6018",
+  "updated": "2026-09-01T19:47:48.657+05:30",
+  "labels": [
+    "Chemicals",
+    "Trade & Tariffs"
+  ],
+  "bytes": 50546,
+  "sha256": "85fbd9c923ce5b29fe2ce25c939427f096c68f77465715938e02f19e008104b5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.0",
+  "version": "1.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add detergent pods image from Wikimedia Commons"
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-09-01T19:49:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+10/-0 distinct numbers))",
+      "bytes": [
+        43942,
+        50546
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
     }
   ]
 }

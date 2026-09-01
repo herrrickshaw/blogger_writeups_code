@@ -8441,3 +8441,32 @@ add detergent pods image from Wikimedia Commons
 **Changed**
 
 - `the-detergent-chemical-india-exports` — 43,261 → 43,942 bytes (+681)
+
+## 2026-09-01T19:49:48+05:30 — 241 posts live
+
+Publish re-verified posts, IOCL PII fix, new Brazil post
+
+
+**Added**
+
+- `brazil-pumps-e30-at-every-station` **v1.0.0** — Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips (38,339 bytes)
+
+**Versions**
+
+- `the-detergent-chemical-india-exports` **1.3.0 → 1.4.0** (MINOR) — forced via --as minor (figures changed (+10/-0 distinct numbers))
+- `the-easiest-ev-conversion-in-india` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+16/-0 distinct numbers))
+- `the-corrosion-you-cant-see-until` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+16/-2 distinct numbers))
+- `the-1920s-rotor-thats-now-on-22-real` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+- `the-barrel-really-is-shifting-indias` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-detergent-chemical-india-exports` — 43,942 → 50,546 bytes (+6,604)
+- `the-easiest-ev-conversion-in-india` — 28,258 → 33,166 bytes (+4,908)
+- `the-corrosion-you-cant-see-until` — 31,489 → 34,993 bytes (+3,504)
+- `the-1920s-rotor-thats-now-on-22-real` — 35,627 → 38,826 bytes (+3,199)
+- `the-barrel-really-is-shifting-indias` — 35,012 → 36,671 bytes (+1,659)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `the-helper-motor-trick-that-already` — 2026-08-30 &rarr; 2026-08-30

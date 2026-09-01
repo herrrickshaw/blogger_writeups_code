@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
   "slug": "the-barrel-really-is-shifting-indias",
   "published": "2026-08-12T20:24:23.000+05:30",
-  "updated": "2026-08-25T10:39:35.301+05:30",
+  "updated": "2026-09-01T19:42:24.845+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 35012,
-  "sha256": "35f0cf6e6f65b96e38047eac5ca876bbada37619257929ff41caea751f381055",
+  "bytes": 36671,
+  "sha256": "7992e145d1b5a853c7859c09e1a2c65b41ff5010d45d7f434105af5404b4a9b7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-01T19:49:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        35012,
+        36671
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
     }
   ]
 }

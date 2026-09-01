@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-01T18:56:21+05:30",
-  "count": 240,
+  "snapshot": "2026-09-01T19:49:48+05:30",
+  "count": 241,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -3701,6 +3701,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "1866284573090655336": {
+      "id": "1866284573090655336",
+      "title": "Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
+      "slug": "brazil-pumps-e30-at-every-station",
+      "published": "2026-09-01T19:42:31.155+05:30",
+      "updated": "2026-09-01T19:42:31.155+05:30",
+      "labels": [],
+      "bytes": 38339,
+      "sha256": "b2fe1ce1ac48fd542bc88d00c39764e637801df65ff2d39713cb22a1a93a54d3",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },
@@ -9081,8 +9113,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
       "slug": "india-imports-283000-tonnes-of-almonds",
       "published": "2026-08-21T23:00:40.000+05:30",
-      "updated": "2026-08-25T10:22:39.750+05:30",
-      "labels": [],
+      "updated": "2026-09-01T19:44:21.520+05:30",
+      "labels": [
+        "Trade & Tariffs"
+      ],
       "bytes": 33363,
       "sha256": "7c935a3ad7a5f34281425b814f1d88a883cda52f46c1d44bf8e485c11d1ca850",
       "markers": {
@@ -10547,13 +10581,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-barrel-really-is-shifting-indias.html",
       "slug": "the-barrel-really-is-shifting-indias",
       "published": "2026-08-12T20:24:23.000+05:30",
-      "updated": "2026-08-25T10:39:35.301+05:30",
+      "updated": "2026-09-01T19:42:24.845+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 35012,
-      "sha256": "35f0cf6e6f65b96e38047eac5ca876bbada37619257929ff41caea751f381055",
+      "bytes": 36671,
+      "sha256": "7992e145d1b5a853c7859c09e1a2c65b41ff5010d45d7f434105af5404b4a9b7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10565,7 +10599,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -10742,6 +10776,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            35012,
+            36671
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },
@@ -14108,10 +14155,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
       "slug": "the-1920s-rotor-thats-now-on-22-real",
       "published": "2026-08-30T22:16:33.000+05:30",
-      "updated": "2026-08-30T22:31:44.560+05:30",
+      "updated": "2026-09-01T19:42:00.269+05:30",
       "labels": [],
-      "bytes": 35627,
-      "sha256": "896f08dc47019a7f6cf26cc69f7e6ab74cc8601c6d325c089f32e50f7ea3fc6a",
+      "bytes": 38826,
+      "sha256": "28adadcdaf0f2c7e079a981fedf56e7092532fc04ab77c937fd10d2ad3da622c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14123,7 +14170,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14144,6 +14191,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "publish CUI/FSRU/FPSO asset-integrity post"
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            35627,
+            38826
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },
@@ -16049,11 +16109,14 @@
       "title": "The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet",
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
       "slug": "the-easiest-ev-conversion-in-india",
-      "published": "2026-08-31T15:51:11.436+05:30",
-      "updated": "2026-08-31T15:51:11.436+05:30",
-      "labels": [],
-      "bytes": 28258,
-      "sha256": "1c76c575d5a9cfeb3d9e3c3bba4e812efcdb7e69c845ecd27470e8ce88e55e3a",
+      "published": "2026-08-31T15:51:11.000+05:30",
+      "updated": "2026-09-01T19:47:56.031+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Mobility & EV"
+      ],
+      "bytes": 33166,
+      "sha256": "20692ee68f52d328e0ae5c6832c315b101f78ae094567cce36f11c92e36904fe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16065,7 +16128,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16073,6 +16136,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish government EV fleet electrification post"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+16/-0 distinct numbers))",
+          "bytes": [
+            28258,
+            33166
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },
@@ -25008,11 +25084,13 @@
       "title": "The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs",
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
       "slug": "the-corrosion-you-cant-see-until",
-      "published": "2026-08-30T22:42:06.441+05:30",
-      "updated": "2026-08-30T22:42:06.441+05:30",
-      "labels": [],
-      "bytes": 31489,
-      "sha256": "7a3e32b7c6fbb25609dab7a54c5044598cab1ca853ba50e3b47be322844d91d4",
+      "published": "2026-08-30T22:42:06.000+05:30",
+      "updated": "2026-09-01T19:47:40.299+05:30",
+      "labels": [
+        "Gas & LNG"
+      ],
+      "bytes": 34993,
+      "sha256": "b407483e3aba162de5bd3c03c954a256ae39a79d9fdda69f63eb672c6070f8dd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25024,7 +25102,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25032,6 +25110,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish CUI/FSRU/FPSO asset-integrity post"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+16/-2 distinct numbers))",
+          "bytes": [
+            31489,
+            34993
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },
@@ -28885,8 +28976,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
       "slug": "the-4-nobody-notices-and-three-other",
       "published": "2026-09-01T08:40:28.000+05:30",
-      "updated": "2026-09-01T08:53:28.007+05:30",
-      "labels": [],
+      "updated": "2026-09-01T19:47:27.522+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Industrial Policy",
+        "Markets & Finance"
+      ],
       "bytes": 35813,
       "sha256": "375f98d069913b51a557313ba0e2460149bb424174eaccffba4b2ea2d5396abd",
       "markers": {
@@ -29207,9 +29302,11 @@
       "title": "The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine",
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
       "slug": "the-helper-motor-trick-that-already",
-      "published": "2026-08-30T16:49:04.319+05:30",
-      "updated": "2026-08-30T16:49:04.319+05:30",
-      "labels": [],
+      "published": "2026-08-30T16:49:04.000+05:30",
+      "updated": "2026-09-01T19:48:25.642+05:30",
+      "labels": [
+        "Gas & LNG"
+      ],
       "bytes": 27140,
       "sha256": "7eda7d28e3a10f5d9713d740e2c6673d8d226400ea2abb701402f5019ebf3a30",
       "markers": {
@@ -29240,10 +29337,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
       "slug": "the-detergent-chemical-india-exports",
       "published": "2026-09-01T18:38:29.000+05:30",
-      "updated": "2026-09-01T18:56:00.508+05:30",
-      "labels": [],
-      "bytes": 43942,
-      "sha256": "d57944f3498191ec2c2d4f13575d98f57149499452ba275336502a341cdd6018",
+      "updated": "2026-09-01T19:47:48.657+05:30",
+      "labels": [
+        "Chemicals",
+        "Trade & Tariffs"
+      ],
+      "bytes": 50546,
+      "sha256": "85fbd9c923ce5b29fe2ce25c939427f096c68f77465715938e02f19e008104b5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29255,7 +29355,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.3.0",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29302,6 +29402,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "add detergent pods image from Wikimedia Commons"
+        },
+        {
+          "version": "1.4.0",
+          "date": "2026-09-01T19:49:48+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+10/-0 distinct numbers))",
+          "bytes": [
+            43942,
+            50546
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
         }
       ]
     },

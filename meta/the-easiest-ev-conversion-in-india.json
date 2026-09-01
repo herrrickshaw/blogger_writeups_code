@@ -3,11 +3,14 @@
   "title": "The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
-  "published": "2026-08-31T15:51:11.436+05:30",
-  "updated": "2026-08-31T15:51:11.436+05:30",
-  "labels": [],
-  "bytes": 28258,
-  "sha256": "1c76c575d5a9cfeb3d9e3c3bba4e812efcdb7e69c845ecd27470e8ce88e55e3a",
+  "published": "2026-08-31T15:51:11.000+05:30",
+  "updated": "2026-09-01T19:47:56.031+05:30",
+  "labels": [
+    "Industrial Policy",
+    "Mobility & EV"
+  ],
+  "bytes": 33166,
+  "sha256": "20692ee68f52d328e0ae5c6832c315b101f78ae094567cce36f11c92e36904fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish government EV fleet electrification post"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-01T19:49:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+16/-0 distinct numbers))",
+      "bytes": [
+        28258,
+        33166
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
     }
   ]
 }
