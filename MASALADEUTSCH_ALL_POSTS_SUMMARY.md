@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*234 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*236 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 31 August 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 1 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -1238,8 +1238,12 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (8)
+### Unlabelled (10)
 
+- **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
+  A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
+- **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
+  India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
 - **[The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power](https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html)** — 2026-08-30
   A 2012-13 University of Manchester engineering project studied spinning rotor sails on ships mainly because they might one day power autonomous vessels spraying seawater into clouds to fight climate change. That cloud-seeding fleet still doesn't exist. The rotors do: 38 of them were installed on 22 real cargo ships by mid-2025, cutting fuel burn by 5-25% on ordinary trade routes — commercial success arrived from an entirely different direction than the one the research was aimed at.
 - **[The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine](https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html)** — 2026-08-30
@@ -2430,3 +2434,13 @@ Corrosion under insulation grows where nobody can see it: under a jacket of weat
 *2026-08-30 · —*
 
 India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
+
+### [The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)
+*2026-08-31 · —*
+
+India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
+
+### [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)
+*2026-09-01 · —*
+
+A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
