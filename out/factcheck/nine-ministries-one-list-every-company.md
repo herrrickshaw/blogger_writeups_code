@@ -23,4 +23,12 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "30 August 2026" — The date is in the future relative to the current date (June 2025) and appears to be a typographical error, likely meant to be "30 August 2024" or another past date. [confidence: high]
+
+- "PRID 2277041 (56 critical mineral blocks + 11 exploration licence blocks auctioned, Jun 2026)" — The date "Jun 2026" is in the future and unverifiable as of the current date. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "The Critical Mineral Recycling Incentive Scheme — PENDING, no names published" — The article states that 58 companies were declared eligible with pledged investments but does not name them, implying a lack of transparency. However, the scheme is still pending (as of 29 April 2026), and the lack of names could be due to the scheme's status rather than an intentional omission. The interpretation that this reflects a systemic transparency issue is not necessarily supported by the facts presented. [confidence: medium]
+
+- "PLI 6 of 14: Specialty Steel (Ministry of Steel) — The one scheme in this list this piece could not verify at all — not because the data doesn't exist, but because steel.gov.in itself was unreachable" — While the ministry website was unreachable, the article treats this as evidence that the scheme's data does not exist or is unverifiable, which is an overinterpretation. The data may exist but was inaccessible due to technical issues, not because it is nonexistent or lacks transparency. [confidence: high]

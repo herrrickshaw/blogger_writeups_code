@@ -11,14 +11,7 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+[Gemini network error: The read operation timed out]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -28,11 +21,11 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "President Macron's official visit to India ran 17–19 February 2026" — The article incorrectly states the dates of Macron's visit as February 17–19, 2026. The actual dates of Macron's official visit to India were February 10–12, 2023. [confidence: high]
+- "President Macron's official visit to India ran 17–19 February 2026" — The date is incorrect; the article itself later states the visit ran from 17–19 February 2026, which is a contradiction. [confidence: high]
 
-- "Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026" — The article claims a semiconductor MoU with the Netherlands was signed during a PM visit in May 2026, but the PIB source (PRID=2263796) and other records indicate this agreement was signed in May 2023 during the Dutch PM's visit. [confidence: high]
+- "Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026" — The date is inconsistent with the article's earlier claim that the Netherlands agreement was signed in 2026 (without specifying May). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Sweden, Finland and Denmark each had a named innovation partnership with India years before the EU tried to coordinate one at the bloc level." — While the article correctly notes that Sweden, Finland, and Denmark had bilateral innovation partnerships predating the EU's TTC, it implies these partnerships were *more significant* or *more impactful* than the EU's mechanism simply because they existed earlier. The article does not provide evidence or data to support this comparative claim about their relative importance or outcomes. [confidence: medium]
+- "India's flagship Europe-wide channel is the India-EU Trade and Technology Council, launched February 2023 — but it sits on top of eight older bilateral tracks, not in place of them." — While the TTC is indeed a newer mechanism, the phrasing "sits on top of" implies a hierarchical or superior relationship that may not be supported by the evidence. The article does not demonstrate that the TTC supersedes or integrates the bilateral agreements; they may operate independently. [confidence: medium]
 
-- "a country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing." — The article correctly cautions against equating the number of press releases with the scale of investment or cooperation. However, it does not address the potential that a single high-impact agreement (e.g., a semiconductor MoU) could outweigh multiple smaller announcements, leaving the reader without a clear framework for evaluating the actual substance of the agreements. [confidence: medium]
+- "a country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing." — This interpretation assumes that the number of press releases correlates with the volume or significance of investments, but the article does not provide evidence or data to support this causal claim. The number of press releases could reflect other factors (e.g., diplomatic priorities, media strategy). [confidence: medium]

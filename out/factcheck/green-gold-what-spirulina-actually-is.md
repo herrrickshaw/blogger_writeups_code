@@ -27,12 +27,4 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "China still grows most of the world’s supply; South Korea, it turns out, mostly buys it in." — This claim is incorrect. While China dominates spirulina production (45–65% of global output), South Korea does not primarily *buy* spirulina; it imports it for processing but also has domestic microalgae cultivation (e.g., Phycoil Biotech Korea for DHA oil). The article later contradicts this by noting Korea's domestic trials and lack of large-scale spirulina cultivation. [confidence: high]
-
-- "The Union Cabinet approved the BioE3 Policy on 24 August 2024" — The article cites this date, but the BioE3 Policy was actually approved on **19 August 2024** (as stated in the article's header and body text). The discrepancy suggests a typographical error in the claim. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "A quarter-acre pond can out-earn an acre of crop" — The article cites commercial farming guides and trade press figures (e.g., ₹60,000–₹1 lakh monthly revenue) to support this claim, but these are **not audited farm-income surveys** and are presented as illustrative claims. The comparison between a quarter-acre pond and an acre of row crops is based on unverified commercial estimates, making the earnings claim speculative rather than proven. [confidence: high]
-
-- "Spirulina biomass has been fermented to ethanol at reported yields of roughly 16% (g ethanol per g biomass) after acid pre-treatment" — While the lab-scale yield is cited correctly, the article presents this as a viable commercial pathway without clarifying that **no commercial spirulina-to-fuel plant exists in India** (or globally). The yield figure alone does not justify the biofuel application's maturity, as the broader infrastructure and economic viability remain unproven. [confidence: high]
+[Mistral API error 503: upstream connect error or disconnect/reset before headers. reset reason: connection timeout]

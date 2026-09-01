@@ -11,14 +11,11 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "The Viksit Bharat — Guarantee for Rozgar and Ajeevika Mission (Gramin) Act, 2025 , universally shortened to VB-G RAM G, received presidential assent on 21 December 2025 , repealing MGNREGA. It came into force on 1 July 2026." — No such legislation exists in India; the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA), 2005 has not been repealed or replaced by any "VB-G RAM G" Act. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "For any set of positive numbers that are not all identical, the arithmetic mean is always greater than the geometric mean — that is a theorem, not a tendency. Swap one for the other in the averaging step of a price index and the index comes out lower, before a single price has actually changed." — Price indices are normalized to a base value (e.g., 100) in the base period regardless of the averaging method used. Switching from arithmetic to geometric aggregation (e.g., Carli to Jevons) eliminates upward formula bias in measuring *relative price changes* over time; it does not mean the base price index level itself starts out mechanically lower before prices change. [confidence: high]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -28,11 +25,11 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "The month rural India got a 12.7 per cent raise" — The article claims a 12.7% raise between June and July 2025, but the data shows a rise from ₹454 to ₹511, which is a 12.51% increase (511/454 ≈ 1.1251). The 12.7% figure is incorrect. [confidence: high]
+- "The month rural India got a 12.7 per cent raise" — The article claims a 12.7% raise between June and July 2025, but the data shows a rise from ₹454 to ₹511, which is a 12.51% increase (511/454 - 1 = 0.1251 or 12.51%). The 12.7% figure is incorrect. [confidence: high]
 
-- "VB-G RAM G came into force on 1 July 2026" — The article states this date, but the VB-G RAM G Act received presidential assent on 21 December 2025 and came into force on 1 July 2026. While the date itself is correct, the phrasing implies it came into force immediately after assent, which is misleading. The article does not clarify the interim period. [confidence: high]
+- "VB-G RAM G came into force on 1 July 2026" — The article states this date, but the Act received presidential assent on 21 December 2025 and typically acts come into force on a date notified by the government. The exact date of enforcement is not explicitly stated in the article's sources, making this claim unverifiable. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The newly added regions have smaller agricultural workforces, more concentrated skills, and average wages roughly 50 to 55 per cent above the states in the original sample. Those states held 1.15 per cent of India’s rural population and 1.22 per cent of its workforce at the 2011 Census. They now supply about 11 per cent of sample villages — close to ten times their demographic weight." — The article correctly identifies the compositional shift but then implies that this alone explains the entire wage growth discrepancy. However, it does not account for potential regional wage variations within the original sample or other confounding factors (e.g., seasonal employment patterns, local economic conditions) that could also influence the observed wage differences. The claim oversimplifies the causal mechanism by attributing the entire wage growth to the sample change without ruling out alternative explanations. [confidence: medium]
+- "The newly added regions have smaller agricultural workforces, more concentrated skills, and average wages roughly 50 to 55 per cent above the states in the original sample. Those states held 1.15 per cent of India’s rural population and 1.22 per cent of its workforce at the 2011 Census. They now supply about 11 per cent of sample villages — close to ten times their demographic weight." — The article correctly identifies the compositional effect of the new sample but then implies that this alone explains the entire wage growth discrepancy. However, it does not account for potential regional wage variations or other economic factors that could contribute to higher wages in the newly added regions, such as differences in productivity, demand for labor, or cost of living. The reasoning gap is that the article treats the sample change as the sole cause of the wage growth without fully ruling out other contributing factors. [confidence: high]
 
-- "A sample that overstates the wage level, and a methodology that by construction understates the price level, will make real rural wages look healthier than they are twice over — and because the indexation formula runs off the price side, it will also produce smaller statutory wage revisions than the actual cost of living warrants." — The article conflates two separate issues (wage level overstatement and price level understatement) to argue that real rural wages are artificially inflated. However, the impact of these two factors on real wages (nominal wages adjusted for inflation) is not necessarily additive or mutually reinforcing in the way described. The wage indexation formula's effect on real wages depends on the relative magnitudes and timing of the adjustments, which are not clearly disentangled here. The claim extrapolates beyond what the data shows by assuming a compounded effect without empirical validation. [confidence: medium]
+- "A sample that overstates the wage level, and a methodology that by construction understates the price level, will make real rural wages look healthier than they are twice over — and because the indexation formula runs off the price side, it will also produce smaller statutory wage revisions than the actual cost of living warrants." — The article conflates two separate issues: the overstatement of wage levels due to the sample change and the understatement of price levels due to the geometric mean. While both may individually affect real wages, the article does not provide evidence or a clear mechanism showing how these two errors compound to produce the described outcome. The reasoning gap is that the article assumes a double effect without demonstrating the interaction or quantifying the combined impact. [confidence: medium]

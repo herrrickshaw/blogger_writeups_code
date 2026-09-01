@@ -11,14 +11,14 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "WPI has since been rebased to 2022-23; on that current series the same story holds — June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP." — India's official Wholesale Price Index (WPI) has not been rebased to 2022–23; the official series remains base year 2011–12. Furthermore, monthly series and data points from 2026 are unreleased/in the future. [confidence: high]
-- "retrieved 5 Aug 2026" / "WPI item series, April 2012 to April 2026" — The dataset claims to retrieve and analyze actual historical monthly data through August 2026, which is a future date. [confidence: high]
-- "Diesel's outsized pass-through to WPI isn't a coincidence of one sub-index; it's the largest import category in the whole basket." — Diesel (HSD) is not India's largest import category; India is a major net exporter of refined petroleum products like diesel. Crude petroleum is the major import item. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "The Yogeshwaran thesis (Indian Maritime University, 2025) on India's import composition puts the two inputs analysed here in proportion: crude petroleum alone is 23.4% of India's entire import bill by value... Diesel's outsized pass-through to WPI isn't a coincidence of one sub-index; it's the largest import category in the whole basket." — The author conflates crude petroleum (the raw imported commodity) with refined High-Speed Diesel (a domestically refined and exported finished product), using crude import value share to justify the domestic WPI weight and behavior of diesel as an "import category." [confidence: high]
-- "Diesel moves almost 1:1 with WPI (r = 0.92)... Diesel passes straight through to WPI." — Using the correlation between an individual sub-component (diesel/mineral oils) and headline WPI (which directly includes diesel within the Fuel & Power basket) as proof of economic "import-price pass-through" is an accounting circularity rather than evidence of price transmission to the wider non-fuel economy. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -28,11 +28,11 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "WPI is published by DPIIT, not MoSPI" — This is incorrect. The Wholesale Price Index (WPI) is published by the Office of the Economic Adviser (OEA), DPIIT, Ministry of Commerce & Industry, while the Consumer Price Index (CPI) is published by MoSPI. The article incorrectly attributes WPI's publication to DPIIT while stating it is not published by MoSPI, which is contradictory and factually wrong. [confidence: high]
+- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers calendar years (e.g., 2012–2025), not fiscal years (2011–2025). The claim incorrectly suggests the base year and coverage period overlap in a way that implies the series starts in 2011. [confidence: high]
 
-- "CPI (base 2012) only covers 2011–2025" — The CPI base year is 2012, but the series typically covers a longer period (e.g., 2012–2025 is plausible, but the phrasing "2011–2025" is incorrect as the base year is 2012, not 2011). The article likely meant 2012–2025. [confidence: medium]
+- "HSD is one of the ~10 items inside the WPI 'Mineral oils' group" — The WPI "Mineral oils" group contains far fewer than 10 items. The actual number is closer to 3–4 items (e.g., HSD, petrol, naphtha, ATF). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Diesel moves almost 1:1 with WPI (r = 0.92); subsidy insulates urea, only partly shields DAP" — The article correctly notes that diesel's high correlation with WPI (r = 0.92) is partly mechanical because diesel (HSD) is itself a component of the WPI "Fuel & Power" basket. However, it then implies this correlation is evidence of pass-through, which conflates accounting identity with causal economic pass-through. The correlation does not demonstrate that diesel price changes *cause* WPI inflation; rather, it reflects that diesel is part of the WPI basket. [confidence: high]
+- "Diesel moves almost 1:1 with WPI (r = 0.92); subsidy insulates urea, only partly shields DAP" — The article correctly notes that HSD is a component of the WPI "Fuel & Power" group, making the high correlation (r = 0.92) mechanically expected rather than evidence of causal pass-through. However, it then uses this correlation to imply a strong relationship between diesel prices and WPI headline inflation without clarifying that this is largely an accounting artifact. The interpretation conflates mechanical inclusion with economic causation. [confidence: high]
 
-- "the actual monthly year-on-year print [for CPI oils & fats] went from -18.17% in June 2023 to +21.24% in August 2025, the sharpest reversal of any major CPI sub-group in this window" — While the monthly YoY changes are correctly quoted, the article presents this as evidence of "near one-to-one pass-through from global prices" without acknowledging that other factors (e.g., trade policy changes, domestic supply shocks, or inventory adjustments) could also drive such dramatic swings. The claim implies causation from global prices to CPI oils & fats without controlling for these confounding factors. [confidence: medium]
+- "the actual monthly year-on-year print [for CPI oils & fats] went from -18.17% in June 2023 to +21.24% in August 2025, the sharpest reversal of any major CPI sub-group in this window" — While the claim about the sharp reversal is factually correct, the article implies this is evidence of global pass-through without addressing India's specific trade policies (e.g., import duties, stock limits) that can amplify or dampen global price movements. The interpretation treats the observed volatility as solely driven by global prices, ignoring domestic policy interventions that may have contributed to the swing. [confidence: medium]

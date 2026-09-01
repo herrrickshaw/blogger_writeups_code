@@ -23,4 +23,12 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Mistral mistral-small-latest
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+FACTUAL ERRORS:
+- "₹300 Cr is roughly 27× (about one order of magnitude) larger than this plan's own annual output (~₹11 Cr)" — The article incorrectly calculates the annual output as ₹11 Cr by dividing ₹300 Cr by 27, but the correct calculation should be ₹300 Cr divided by 27, which is approximately ₹11.11 Cr per year. However, the claim that ₹300 Cr is "27×" the annual output is misleading because it implies the ₹300 Cr is a multi-year cumulative figure without explicit labeling. The article later acknowledges this ambiguity but initially presents it as a factual error. [confidence: high]
+
+- "₹300 Cr is roughly ... 230× (about two orders of magnitude) larger than opex (₹1.2–1.4 Cr/yr)" — The article incorrectly states that ₹300 Cr is 230× the opex (₹1.2–1.4 Cr/yr), as 300/1.3 ≈ 230. However, this calculation treats ₹300 Cr as an annual figure, while the proposal likely intends it as a multi-year cumulative budget. The claim is misleading without clarification. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "54,700 jobs projected (farmers + logistics)" — The article does not explain how the job projection of 54,700 is derived from the ₹251 Cr farmer income figure or the ₹300 Cr procurement budget. There is no breakdown of jobs per rupee or per channel, making it unclear whether the number is based on empirical data, assumptions, or industry averages. This is an unsupported extrapolation. [confidence: high]
+
+- "Claimed ROI | 150% | Claimed payback period | 12 months" — The article presents a claimed ROI of 150% and a 12-month payback period but does not reconcile these figures with the 5-year net savings of ₹8.51 Cr or the perpetual annual savings of ₹4.5 Cr. The ROI and payback period appear to be based on gross savings without accounting for setup costs (₹2.85 Cr) or operating costs (₹1.2–1.4 Cr/yr), leading to an overstated financial benefit. [confidence: high]

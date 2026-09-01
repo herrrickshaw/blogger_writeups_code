@@ -11,14 +11,14 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "DPIIT reports on a calendar-year basis; unrelated financial-year figures circulating in trade press (e.g. a widely cited “89% growth in FY2023-24”) cannot be reconciled against this table and are flagged here as a methodology mismatch, not a contradiction of it." — DPIIT (Department for Promotion of Industry and Internal Trade) publishes its official FDI data and quarterly fact sheets on an Indian Financial Year basis (April to March), not on a calendar-year basis. [confidence: high]
-- "Delhi / NCR | AIIMS, New Delhi | Max Healthcare, Fortis Escorts, Apollo Indraprastha | No (largely listed/promoter)" — Fortis Healthcare is not promoter-controlled; it has been controlled since 2018 by Malaysia-based foreign healthcare group IHH Healthcare Berhad, which acquired a controlling stake after the original promoters lost control. [confidence: high]
-- "West Bengal | SSKM Hospital / IPGMER, Kolkata | AMRI Hospitals, Apollo Gleneagles | No" — AMRI Hospitals was acquired in September 2023 by Manipal Hospitals, which is majority-owned by foreign sovereign and private equity funds (Temasek and Mubadala). [confidence: high]
-
-INTERPRETATION ERRORS:
-- "World Bank’s own WHO-sourced series (SH.MED.BEDS.ZS) puts India at 1.59 as of 2021, down from 2.13 in 2000... Foreign hospital investment since 2000 has not moved this ratio." — The metric measures beds per 1,000 population. Between 2000 and 2021, India's population grew by more than 350 million people. A declining or flat per-capita ratio does not imply that total hospital beds failed to increase or that investment produced no capacity; bed growth can be substantial in absolute terms while still lagging high population growth. [confidence: high]
-- "Every deal above is a change of ownership of beds that already existed. None of them, on the reporting available, is a foreign-financed hospital built where one was not standing before. None of the deals in the table above materially changes either bed-ratio figure, because none of them adds beds" — The article conflates secondary buyouts/platform acquisitions with long-term capital deployment. PE and sovereign funds acquiring hospital networks routinely inject growth capital into those platforms to finance brownfield bed additions and new hospital builds post-acquisition; asserting that buyouts contribute zero new capacity assumes static capacity based solely on the initial ownership transfer. [confidence: medium]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -28,11 +28,11 @@ INTERPRETATION ERRORS:
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "Hospitals have permitted 100 per cent FDI on the automatic route since January 2000" — The correct phrasing should be "Hospitals have been permitted 100 per cent FDI on the automatic route since January 2000." The word "permitted" is missing, which changes the meaning from passive permission to active permission. [confidence: high]
+- "India's hospital beds fall well short of world norms" — The article later clarifies that the "world norms" (e.g., "3.5 beds per 1,000") are not formal WHO minimum standards but approximations of the global average (3.29 in 2021). The initial claim implies a formal standard exists, which is incorrect. [confidence: high]
 
-- "India's hospital beds fall well short of world norms" — The article later clarifies that there is no formal WHO minimum standard for hospital beds per 1,000 population, and the "world norms" are based on the global average (3.29 in 2021). The claim implies a formal standard exists, which is incorrect. [confidence: high]
+- "Hospitals have permitted 100 per cent FDI on the automatic route since January 2000" — The article later states that hospitals have been on the 100% automatic route since January 2000, but the phrasing "permitted" could be misinterpreted as a post-2000 policy change, whereas the policy was already in place (as confirmed by DPIIT sources cited later). The claim is technically correct but risks implying a new permission was granted in 2000. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Foreign hospital investment since 2000 has not moved this ratio [hospital beds per 1,000 population]." — While the claim itself is factually correct (no new beds were added by foreign investment), the interpretation that this implies foreign investment has failed to address the bed shortage is an overgeneralization. The article does not provide evidence that foreign investment was intended to directly address the bed shortage, nor does it rule out indirect contributions (e.g., efficiency gains enabling existing beds to serve more patients). The causal link between foreign investment and bed shortage is not established. [confidence: medium]
+- "Foreign hospital investment since 2000 has not moved this ratio [beds per 1,000 population]" — The article correctly notes that FDI inflows have not increased India's bed ratio, but it extrapolates this to imply that *all* foreign capital (including domestic capex) has failed to address the shortage. However, the article later acknowledges a ~30,000-bed capex pipeline (domestic) that could address the gap, meaning the conclusion that "the money that has actually arrived buys the beds that already exist" is an overgeneralization. The FDI-specific claim is accurate, but the broader interpretation conflates FDI with total investment. [confidence: high]
 
-- "If the thesis were 'India needs more beds,' the rational foreign-capital response would be to build them." — The article assumes that the primary goal of foreign capital in hospitals is to address bed shortages, but it does not provide evidence that this was the intended or expected outcome of the investments. Private equity and sovereign funds may prioritize returns over public health goals, making this assumption an apples-to-oranges comparison between profit-driven investment and public health needs. [confidence: high]
+- "If the thesis were 'India needs more beds,' the rational foreign-capital response would be to build them" — The article assumes that foreign investors *should* prioritize greenfield projects to address the bed shortage, but it does not account for the fact that private equity's business model (buying existing assets) is inherently different from greenfield development. While the claim is logically consistent with the data, it misinterprets the *motivation* of investors: PE firms seek returns through operational efficiency, not capacity expansion. The reasoning gap is that the article judges investor behavior against a normative standard (building new beds) rather than their actual objectives. [confidence: high]
