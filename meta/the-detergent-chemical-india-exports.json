@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-01T18:39:36.159+05:30",
+  "updated": "2026-09-01T18:48:20.967+05:30",
   "labels": [],
-  "bytes": 34979,
-  "sha256": "55a2b4ff050e8809535b3702ffda89c780d962d5d755e62b89359fd87b509766",
+  "bytes": 43261,
+  "sha256": "b2a67d1ffcddc691c8fa763e9ffcbf13fb15e56f5919e18e59665d28081a328d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add lake/river foaming caveat to detergent pods section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-01T18:48:44+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+44/-0 distinct numbers))",
+      "bytes": [
+        34979,
+        43261
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add market demand, TradeStat trade data, and refinery-pivot link"
     }
   ]
 }

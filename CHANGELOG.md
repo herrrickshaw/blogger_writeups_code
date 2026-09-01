@@ -8415,3 +8415,16 @@ add lake/river foaming caveat to detergent pods section
 **Changed**
 
 - `the-detergent-chemical-india-exports` — 31,686 → 34,979 bytes (+3,293)
+
+## 2026-09-01T18:48:44+05:30 — 240 posts live
+
+add market demand, TradeStat trade data, and refinery-pivot link
+
+
+**Versions**
+
+- `the-detergent-chemical-india-exports` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+44/-0 distinct numbers))
+
+**Changed**
+
+- `the-detergent-chemical-india-exports` — 34,979 → 43,261 bytes (+8,282)
