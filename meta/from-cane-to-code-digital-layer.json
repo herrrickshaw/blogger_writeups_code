@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
   "slug": "from-cane-to-code-digital-layer",
   "published": "2026-08-08T21:20:54.000+05:30",
-  "updated": "2026-08-25T10:18:33.291+05:30",
+  "updated": "2026-09-01T20:08:16.159+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 29490,
-  "sha256": "3e1e214364ae1e675e37a69ff15c89e9f9c6ede9fa81d3b96e7292f59f2348dc",
+  "bytes": 29939,
+  "sha256": "e241e16eedfcbaae089e2f46c0963264719d6a8fc875e322aa0a02aee4bbdb2a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-01T20:08:41+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        29490,
+        29939
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add reciprocal cross-links to Brazil ethanol post"
     }
   ]
 }

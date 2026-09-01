@@ -8470,3 +8470,18 @@ Publish re-verified posts, IOCL PII fix, new Brazil post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `the-helper-motor-trick-that-already` — 2026-08-30 &rarr; 2026-08-30
+
+## 2026-09-01T20:08:41+05:30 — 241 posts live
+
+Add reciprocal cross-links to Brazil ethanol post
+
+
+**Versions**
+
+- `the-software-behind-still-whats` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `from-cane-to-code-digital-layer` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-software-behind-still-whats` — 36,920 → 37,249 bytes (+329)
+- `from-cane-to-code-digital-layer` — 29,490 → 29,939 bytes (+449)
