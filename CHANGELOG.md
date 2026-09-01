@@ -8545,3 +8545,13 @@ Add reciprocal cross-links to TNPL and OISD/API/FIPI posts
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `tnpl-has-made-paper-from-sugarcane_0974259386` — 2026-09-01 &rarr; 2026-09-01
+
+## 2026-09-01T22:13:25+05:30 — 243 posts live
+
+Delete duplicate TNPL posts
+
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `tnpl-has-made-paper-from-sugarcane_01251035403` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
+- `tnpl-has-made-paper-from-sugarcane_0974259386` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
