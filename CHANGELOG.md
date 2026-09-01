@@ -8572,3 +8572,23 @@ Publish MoPNG MSME procurement post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `oisd-writes-indias-oil-safety-rules-api` — 2026-09-01 &rarr; 2026-09-01
+
+## 2026-09-02T03:41:25+05:30 — 247 posts live
+
+Republish MoPNG MSME post cleanly; publish PNGRB hydrogen-blending post
+
+
+**Added**
+
+- `indias-oil-psus-say-they-clear-their_01269248608` **v1.0.0** — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work (35,885 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-solved-carbon-credit-banking-with` — 2026-09-01 &rarr; 2026-09-01
+- `lng-trucks-cost-about-what-diesel-does` — 2026-09-01 &rarr; 2026-09-01
+- `indias-lng-terminal-rules-changed-twice` — 2026-09-01 &rarr; 2026-09-01
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-oil-psus-say-they-clear-their_0987271771` — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work
+- `indias-oil-psus-say-they-clear-their` — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work
