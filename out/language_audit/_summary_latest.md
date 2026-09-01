@@ -1,6 +1,6 @@
-# Language audit summary — 2026-08-31
+# Language audit summary — 2026-09-01
 
-*99 of 237 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*102 of 239 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -67,7 +67,6 @@
 - [Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html) — 2 matches — see `where-rupee-actually-stands-ten-years.md`
 - [Annexure: 314 HSN Codes Mapped to Technical-Textile Segments](https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html) — 1 matches — see `annexure-314-hsn-codes-mapped-to.md`
 - [Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers](https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html) — 1 matches — see `announced-vs-delivered-three-indian.md`
-- [Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html) — 1 matches — see `blending-on-budget-energy-density-and.md`
 - [Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html) — 1 matches — see `cow-dung-already-flew-rocket-engine.md`
 - [CPI Inflation Heatmap — India, June 2026](https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html) — 1 matches — see `cpi-inflation-heatmap-india-june-2026.md`
 - [From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html) — 1 matches — see `diesel-doesnt-move-cpi-it-moves-40.md`
@@ -93,6 +92,7 @@
 - [Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html) — 1 matches — see `sugarcanes-third-claimant-whats.md`
 - [Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html) — 1 matches — see `tarpaulin-is-genuine-export-win.md`
 - [TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html) — 1 matches — see `tasmacs-retail-exit-case-for.md`
+- [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html) — 1 matches — see `the-4-nobody-notices-and-three-other.md`
 - [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html) — 1 matches — see `the-empty-shed-greenhouse-what-indias.md`
 - [The Grain Value Loop — Integrated Rice Biorefinery Pitch](https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html) — 1 matches — see `the-grain-value-loop-integrated-rice.md`
 - [The Masala Deutsch Shop — Books & Things From the Articles](https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html) — 1 matches — see `the-masala-deutsch-shop-books-things.md`
@@ -101,3 +101,6 @@
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 1 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
 - [What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html) — 1 matches — see `what-seven-model-stock-portfolios-look.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
+- [Bio-Fertiliser and Green Credits: Regrowing India's Arid Land](https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html) — 0 matches — see `bio-fertiliser-and-green-credits.md`
+- [Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html) — 0 matches — see `blending-on-budget-energy-density-and.md`
+- [UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m](https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html) — 0 matches — see `uk-retail-canopies-at-54m-real-design.md`
