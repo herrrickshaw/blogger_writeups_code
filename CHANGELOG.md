@@ -8402,3 +8402,16 @@ publish SAP/LAB diaper and detergent sourcing post
 **Added**
 
 - `the-detergent-chemical-india-exports` **v1.0.0** — The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely (31,686 bytes)
+
+## 2026-09-01T18:40:01+05:30 — 240 posts live
+
+add lake/river foaming caveat to detergent pods section
+
+
+**Versions**
+
+- `the-detergent-chemical-india-exports` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `the-detergent-chemical-india-exports` — 31,686 → 34,979 bytes (+3,293)

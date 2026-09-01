@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-01T18:38:55+05:30",
+  "snapshot": "2026-09-01T18:40:01+05:30",
   "count": 240,
   "posts": {
     "1058853159205559121": {
@@ -29239,11 +29239,11 @@
       "title": "The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely",
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
       "slug": "the-detergent-chemical-india-exports",
-      "published": "2026-09-01T18:38:29.340+05:30",
-      "updated": "2026-09-01T18:38:29.340+05:30",
+      "published": "2026-09-01T18:38:29.000+05:30",
+      "updated": "2026-09-01T18:39:36.159+05:30",
       "labels": [],
-      "bytes": 31686,
-      "sha256": "eee2272892287c70c22642fdcb78caf4eae185fa97776952e849116b96832229",
+      "bytes": 34979,
+      "sha256": "55a2b4ff050e8809535b3702ffda89c780d962d5d755e62b89359fd87b509766",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29255,7 +29255,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29263,6 +29263,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish SAP/LAB diaper and detergent sourcing post"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-01T18:40:01+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            31686,
+            34979
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "add lake/river foaming caveat to detergent pods section"
         }
       ]
     },
