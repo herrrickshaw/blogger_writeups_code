@@ -8601,3 +8601,16 @@ Publish PNGRB hydrogen-blending post
 **Added**
 
 - `pngrb-hydrogen-blending-pilots-real` **v1.0.0** — PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim (31,464 bytes)
+
+## 2026-09-02T04:04:21+05:30 — 249 posts live
+
+Publish FIPI policy advocacy post
+
+
+**Added**
+
+- `fipis-biggest-ask-is-getting-natural` **v1.0.0** — FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened (33,132 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `pngrb-hydrogen-blending-pilots-real` — 2026-09-02 &rarr; 2026-09-02
