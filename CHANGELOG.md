@@ -8380,3 +8380,16 @@ add PIB material on GIC Re, PMFBY reforms, Namo Drone Didi, ONORC
 **Changed**
 
 - `the-4-nobody-notices-and-three-other` — 29,981 → 35,813 bytes (+5,832)
+
+## 2026-09-01T07:58:09+00:00 — 239 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **8.0.1 → 9.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 56,345 → 55,168 bytes (-1,177)

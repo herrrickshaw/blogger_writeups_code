@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-01T08:53:52+05:30",
+  "snapshot": "2026-09-01T07:58:09+00:00",
   "count": 239,
   "posts": {
     "1058853159205559121": {
@@ -3710,12 +3710,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
       "slug": "the-masala-deutsch-shop-books-things",
       "published": "2026-08-08T18:11:59.000+05:30",
-      "updated": "2026-08-30T07:30:07.009+05:30",
+      "updated": "2026-09-01T12:32:34.742+05:30",
       "labels": [
         "Shop"
       ],
-      "bytes": 56345,
-      "sha256": "efb344a6fd50686409207d3b0e6ddfcbd93bb78e46339b15d62b55479c8d2fd0",
+      "bytes": 55168,
+      "sha256": "6ce8fd73c46ec4a88a86fcb02e09c2e840962c0cdd6ed8fda1974ffc42a6904e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3727,7 +3727,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "8.0.1",
+      "version": "9.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4169,6 +4169,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "shop: add Grapes of Wrath (Penguin Modern Classics) to shelf"
+        },
+        {
+          "version": "9.0.0",
+          "date": "2026-09-01T07:58:09+00:00",
+          "level": "major",
+          "reason": "figures changed (+1/-0 distinct numbers)",
+          "bytes": [
+            56345,
+            55168
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "scheduled sync"
         }
       ]
     },
