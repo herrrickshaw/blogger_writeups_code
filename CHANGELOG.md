@@ -8367,3 +8367,16 @@ publish GIC Re/PMFBY/precision ag/ONORC post
 **Added**
 
 - `the-4-nobody-notices-and-three-other` **v1.0.0** — The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System (29,981 bytes)
+
+## 2026-09-01T08:53:52+05:30 — 239 posts live
+
+add PIB material on GIC Re, PMFBY reforms, Namo Drone Didi, ONORC
+
+
+**Versions**
+
+- `the-4-nobody-notices-and-three-other` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+22/-2 distinct numbers))
+
+**Changed**
+
+- `the-4-nobody-notices-and-three-other` — 29,981 → 35,813 bytes (+5,832)
