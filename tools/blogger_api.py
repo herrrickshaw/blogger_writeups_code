@@ -329,6 +329,23 @@ def cmd_update(args):
     sys.exit(0 if ok else 2)
 
 
+def cmd_delete(args):
+    """Permanently delete a live post. Requires --yes; without it, prints what
+    would be deleted and exits without calling the API. There is no --dry-run
+    flag here on purpose — --yes IS the confirmation step, so a bare command
+    with neither is the safe default, not an oversight to fix."""
+    p = api(f"/blogs/{BLOG_ID}/posts/{args.id}") if args.id else find_post(args.slug)
+    print(f"{args.slug or args.id}  id={p['id']}")
+    print(f"  title : {p['title']}")
+    print(f"  url   : {p['url']}")
+    print(f"  status: {p.get('status', 'LIVE')}")
+    if not args.yes:
+        print("  DRY RUN (default) — pass --yes to actually delete this post")
+        return
+    api(f"/blogs/{BLOG_ID}/posts/{p['id']}", method="DELETE")
+    print("  deleted")
+
+
 def cmd_insert(args):
     """Create and publish a new post. Blogger's web editor silently stops
     responding under load; posts.insert returns a status code."""
@@ -438,6 +455,13 @@ def main():
     u.add_argument("--file", required=True); u.add_argument("--dry-run", action="store_true")
     u.add_argument("--title", help="also change the post title (the URL slug is fixed and will not change)")
     u.set_defaults(fn=cmd_update)
+
+    d = sub.add_parser("delete", help="permanently delete a live post")
+    d.add_argument("--slug")
+    d.add_argument("--id", help="post id; use when two live posts share a slug")
+    d.add_argument("--yes", action="store_true",
+                   help="actually delete (default is a dry-run preview only)")
+    d.set_defaults(fn=cmd_delete)
 
     i = sub.add_parser("insert", help="create a new post from an HTML file")
     i.add_argument("--file", required=True)
