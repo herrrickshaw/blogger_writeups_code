@@ -8592,3 +8592,12 @@ Republish MoPNG MSME post cleanly; publish PNGRB hydrogen-blending post
 
 - `indias-oil-psus-say-they-clear-their_0987271771` — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work
 - `indias-oil-psus-say-they-clear-their` — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work
+
+## 2026-09-02T03:48:16+05:30 — 248 posts live
+
+Publish PNGRB hydrogen-blending post
+
+
+**Added**
+
+- `pngrb-hydrogen-blending-pilots-real` **v1.0.0** — PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim (31,464 bytes)
