@@ -8358,3 +8358,12 @@ publish government EV fleet electrification post
 **Added**
 
 - `the-easiest-ev-conversion-in-india` **v1.0.0** — The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet (28,258 bytes)
+
+## 2026-09-01T08:40:52+05:30 — 239 posts live
+
+publish GIC Re/PMFBY/precision ag/ONORC post
+
+
+**Added**
+
+- `the-4-nobody-notices-and-three-other` **v1.0.0** — The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System (29,981 bytes)
