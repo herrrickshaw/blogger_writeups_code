@@ -4,20 +4,20 @@
 
 ## Totals
 
-- Active users: **223**
-- Total users: **223**
-- Page views: **2266**
-- Sessions: **505**
+- Active users: **226**
+- Total users: **226**
+- Page views: **2280**
+- Sessions: **512**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 136 | 182 |
-| India | 76 | 2065 |
+| United States | 137 | 183 |
+| India | 76 | 2076 |
+| Netherlands | 4 | 4 |
 | (not set) | 2 | 2 |
 | Malaysia | 2 | 9 |
-| Netherlands | 2 | 2 |
 | Oman | 2 | 2 |
 | Germany | 1 | 1 |
 | Ireland | 1 | 2 |
@@ -30,16 +30,16 @@
 | Flint Hill | 50 | 71 |
 | Des Moines | 40 | 51 |
 | (not set) | 33 | 46 |
-| Coimbatore | 31 | 1205 |
+| Coimbatore | 31 | 1206 |
 | Chennai | 21 | 312 |
-| Madurai | 8 | 230 |
+| Madurai | 9 | 238 |
 | Moses Lake | 6 | 8 |
-| Mumbai | 5 | 77 |
+| Mumbai | 5 | 79 |
 | Salem | 5 | 214 |
+| Amsterdam | 4 | 4 |
 | Hyderabad | 4 | 5 |
+|  | 3 | 2 |
 | Bengaluru | 3 | 6 |
-|  | 2 | 1 |
-| Amsterdam | 2 | 2 |
 | Delhi | 2 | 2 |
 | Kuala Lumpur | 2 | 9 |
 | Los Angeles | 2 | 2 |
@@ -62,7 +62,7 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 814 | 111 |
+| / | 825 | 115 |
 | /search | 117 | 4 |
 | /2026/08/article-index-start-here.html | 77 | 13 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 47 | 9 |
