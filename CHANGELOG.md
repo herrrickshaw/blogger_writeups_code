@@ -8428,3 +8428,16 @@ add market demand, TradeStat trade data, and refinery-pivot link
 **Changed**
 
 - `the-detergent-chemical-india-exports` — 34,979 → 43,261 bytes (+8,282)
+
+## 2026-09-01T18:56:21+05:30 — 240 posts live
+
+add detergent pods image from Wikimedia Commons
+
+
+**Versions**
+
+- `the-detergent-chemical-india-exports` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+
+**Changed**
+
+- `the-detergent-chemical-india-exports` — 43,261 → 43,942 bytes (+681)
