@@ -8485,3 +8485,12 @@ Add reciprocal cross-links to Brazil ethanol post
 
 - `the-software-behind-still-whats` — 36,920 → 37,249 bytes (+329)
 - `from-cane-to-code-digital-layer` — 29,490 → 29,939 bytes (+449)
+
+## 2026-09-01T20:30:18+05:30 — 242 posts live
+
+Publish TNPL bagasse paper post
+
+
+**Added**
+
+- `tnpl-has-made-paper-from-sugarcane` **v1.0.0** — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees. (31,919 bytes)
