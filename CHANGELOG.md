@@ -8555,3 +8555,20 @@ Delete duplicate TNPL posts
 
 - `tnpl-has-made-paper-from-sugarcane_01251035403` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
 - `tnpl-has-made-paper-from-sugarcane_0974259386` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
+
+## 2026-09-01T23:09:33+05:30 — 248 posts live
+
+Publish MoPNG MSME procurement post
+
+
+**Added**
+
+- `indias-oil-psus-say-they-clear-their_0987271771` **v1.0.0** — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work (35,885 bytes)
+- `indias-oil-psus-say-they-clear-their` **v1.0.0** — India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work (32,848 bytes)
+- `india-solved-carbon-credit-banking-with` **v1.0.0** — India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started. (33,400 bytes)
+- `lng-trucks-cost-about-what-diesel-does` **v1.0.0** — LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway. (31,772 bytes)
+- `indias-lng-terminal-rules-changed-twice` **v1.0.0** — India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch (29,227 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `oisd-writes-indias-oil-safety-rules-api` — 2026-09-01 &rarr; 2026-09-01
