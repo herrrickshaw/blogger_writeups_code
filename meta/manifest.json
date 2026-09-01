@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-01T21:57:47+05:30",
-  "count": 244,
+  "snapshot": "2026-09-01T22:13:25+05:30",
+  "count": 243,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -913,40 +913,6 @@
         }
       ]
     },
-    "1337989766612118520": {
-      "id": "1337989766612118520",
-      "title": "TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.",
-      "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html",
-      "slug": "tnpl-has-made-paper-from-sugarcane_01251035403",
-      "published": "2026-09-01T21:00:17.000+05:30",
-      "updated": "2026-09-01T21:56:50.323+05:30",
-      "labels": [
-        "Agriculture & Fertilisers"
-      ],
-      "bytes": 31919,
-      "sha256": "94203fe57e516f56be4d49e4a42a9ef17d2abeb1f835601a48b56f7991836083",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-09-01T21:05:33+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": "Publish TNPL bagasse paper post"
-        }
-      ]
-    },
     "1367106299160743452": {
       "id": "1367106299160743452",
       "title": "Petroleum Trade Pairings and the US Crude Storage Picture",
@@ -1806,15 +1772,15 @@
       "title": "Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant",
       "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
       "slug": "sugarcanes-third-claimant-whats",
-      "published": "2026-08-28T21:08:06.993+05:30",
-      "updated": "2026-08-29T06:02:33.901+05:30",
+      "published": "2026-08-28T21:08:06.000+05:30",
+      "updated": "2026-09-01T22:10:04.119+05:30",
       "labels": [
         "Chemicals",
         "Circularity & Waste-to-Value",
         "Ethanol & Biofuels"
       ],
-      "bytes": 34650,
-      "sha256": "573b9f5a74f76f2d0644a6e24b7359b74a7a8ab4290f5beab931fa02e1463230",
+      "bytes": 35087,
+      "sha256": "bab4b72f968bdac044fbb413e541a491701a55cc5bab03cb5615033fac1cc4ae",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1826,7 +1792,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "4.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1873,6 +1839,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "MAJOR CORRECTION: FSSAI's Aug 2026 packaging ban (Gazette 10 Aug) excludes polyester/synthetic polymers from pan masala packaging — PLA is chemically a polyester, likely closing the pan-masala addressable-market thesis"
+        },
+        {
+          "version": "4.1.0",
+          "date": "2026-09-01T22:10:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34650,
+            35087
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
         }
       ]
     },
@@ -12979,6 +12958,38 @@
         }
       ]
     },
+    "418059496701669760": {
+      "id": "418059496701669760",
+      "title": "OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
+      "slug": "oisd-writes-indias-oil-safety-rules-api",
+      "published": "2026-09-01T22:01:33.100+05:30",
+      "updated": "2026-09-01T22:01:33.100+05:30",
+      "labels": [],
+      "bytes": 32229,
+      "sha256": "06457fc83c4b12e8d44fc23cec49c194c41421d5c1c78dc056103de445151501",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-01T22:10:56+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
+        }
+      ]
+    },
     "4224393206963221960": {
       "id": "4224393206963221960",
       "title": "From Diesel to CNG: Where the Switch Actually Pays",
@@ -13682,13 +13693,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
       "slug": "biomass-power-at-night-dispatchable",
       "published": "2026-08-20T05:54:52.000+05:30",
-      "updated": "2026-08-26T09:51:19.674+05:30",
+      "updated": "2026-09-01T22:10:12.248+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels"
       ],
-      "bytes": 33282,
-      "sha256": "1aa126ce5baefe76cd453b598d8d7f6b72788717644cecec445896ccce4e7afb",
+      "bytes": 33591,
+      "sha256": "5d481a8092696c6a43a02937a783806f6ea9153938ec1d09bcb9d273d906f19e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13700,7 +13711,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13760,6 +13771,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-09-01T22:10:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            33282,
+            33591
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
         }
       ]
     },
@@ -25166,12 +25190,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
       "slug": "the-corrosion-you-cant-see-until",
       "published": "2026-08-30T22:42:06.000+05:30",
-      "updated": "2026-09-01T19:47:40.299+05:30",
+      "updated": "2026-09-01T22:10:21.314+05:30",
       "labels": [
         "Gas & LNG"
       ],
-      "bytes": 34993,
-      "sha256": "b407483e3aba162de5bd3c03c954a256ae39a79d9fdda69f63eb672c6070f8dd",
+      "bytes": 35317,
+      "sha256": "0b2a197d7d3120a9a57e308748338ce4b99276c536c31da5b23d26ed40c3b346",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25183,7 +25207,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25204,6 +25228,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-01T22:10:56+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            34993,
+            35317
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
         }
       ]
     },
@@ -35807,38 +35844,6 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "first published: BrandSafway / 2017 industrial-services roll-up post"
-        }
-      ]
-    },
-    "9198835168739835038": {
-      "id": "9198835168739835038",
-      "title": "TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.",
-      "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_0974259386.html",
-      "slug": "tnpl-has-made-paper-from-sugarcane_0974259386",
-      "published": "2026-09-01T21:52:07.163+05:30",
-      "updated": "2026-09-01T21:52:07.163+05:30",
-      "labels": [],
-      "bytes": 31919,
-      "sha256": "94203fe57e516f56be4d49e4a42a9ef17d2abeb1f835601a48b56f7991836083",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-09-01T21:57:47+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": "Publish TNPL bagasse paper post"
         }
       ]
     },

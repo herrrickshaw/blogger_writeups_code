@@ -8520,3 +8520,38 @@ Publish TNPL bagasse paper post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `tnpl-has-made-paper-from-sugarcane_01251035403` — 2026-09-01 &rarr; 2026-09-01
+
+## 2026-09-01T22:10:56+05:30 — 245 posts live
+
+Add reciprocal cross-links to TNPL and OISD/API/FIPI posts
+
+
+**Added**
+
+- `oisd-writes-indias-oil-safety-rules-api` **v1.0.0** — OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further. (32,229 bytes)
+
+**Versions**
+
+- `the-corrosion-you-cant-see-until` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `sugarcanes-third-claimant-whats` **4.0.0 → 4.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `biomass-power-at-night-dispatchable` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-corrosion-you-cant-see-until` — 34,993 → 35,317 bytes (+324)
+- `sugarcanes-third-claimant-whats` — 34,650 → 35,087 bytes (+437)
+- `biomass-power-at-night-dispatchable` — 33,282 → 33,591 bytes (+309)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `tnpl-has-made-paper-from-sugarcane_0974259386` — 2026-09-01 &rarr; 2026-09-01
+
+## 2026-09-01T22:13:25+05:30 — 243 posts live
+
+Delete duplicate TNPL posts
+
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `tnpl-has-made-paper-from-sugarcane_01251035403` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.
+- `tnpl-has-made-paper-from-sugarcane_0974259386` — TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.

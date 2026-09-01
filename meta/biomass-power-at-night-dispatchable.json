@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-08-26T09:51:19.674+05:30",
+  "updated": "2026-09-01T22:10:12.248+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 33282,
-  "sha256": "1aa126ce5baefe76cd453b598d8d7f6b72788717644cecec445896ccce4e7afb",
+  "bytes": 33591,
+  "sha256": "5d481a8092696c6a43a02937a783806f6ea9153938ec1d09bcb9d273d906f19e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-09-01T22:10:56+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        33282,
+        33591
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
     }
   ]
 }
