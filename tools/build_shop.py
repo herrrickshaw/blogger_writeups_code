@@ -25,7 +25,9 @@ def cover(e):
         return None   # P/ endpoint serves a 1px placeholder for non-ISBN ASINs
     return f"https://images-na.ssl-images-amazon.com/images/P/{e['asin']}.01._SX120_.jpg"
 SHOP_POST_ID = '1964166395488869750'
-SCRATCH = Path('/private/tmp/claude-501/-Users-umashankar/e50aaf59-8643-4790-a7e8-d74da5d3e4a2/scratchpad')
+ROOT = Path(__file__).resolve().parent.parent
+DEFAULT_HEAD = ROOT / 'templates' / 'shop_head.html'
+DEFAULT_TAIL = ROOT / 'templates' / 'shop_tail.html'
 
 def parse_entries(block):
     out = []
@@ -64,8 +66,22 @@ def card(e, w=150):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument('--accordion', default=str(SCRATCH / 'mdsite/accordion.js'))
+    ap.add_argument('--accordion', required=True,
+                     help="Path to accordion.js in the local checkout of the "
+                          "herrrickshaw.github.io/masaladeutsch Pages repo -- "
+                          "not part of this repo, must be passed explicitly.")
     ap.add_argument('--out', default='out/post-shop.html')
+    ap.add_argument('--head', default=str(DEFAULT_HEAD),
+                     help="Head template: CSS + the gs-head-order block (eyebrow/h1/"
+                          "standfirst/index-link, already filled in) + a11y bar + "
+                          "translate widget. Extracted verbatim from the live shop "
+                          "post on 2026-09-01 after the original scratch-path "
+                          "templates this script depended on turned out to be "
+                          "session-specific and gone. Edit templates/shop_head.html "
+                          "directly if the page's title/standfirst copy ever changes.")
+    ap.add_argument('--tail', default=str(DEFAULT_TAIL),
+                     help="Tail template: the AI-disclosure paragraph + closing div "
+                          "+ the accordion.js include. Same 2026-09-01 extraction.")
     ap.add_argument('--publish', action='store_true')
     args = ap.parse_args()
 
@@ -83,13 +99,10 @@ def main():
     pretty = today.strftime('%-d %B %Y')
 
     o = []; A = o.append
-    A('<p class="eyebrow">The shop &middot; Books &amp; things from the articles</p>')
-    A('<h1>The Masala Deutsch Shop</h1>')
-    A('<p class="standfirst">Everything this blog links to on Amazon, in one place: the books '
-      'recommended under each topic, and the off-topic things from the author&rsquo;s shelf. Every '
-      'link is an affiliate link &mdash; <b>as an Amazon Associate, this site earns from qualifying '
-      'purchases</b> &mdash; and nothing here was supplied free or sponsored; each item was chosen '
-      'by the author.</p>')
+    # The eyebrow/h1/standfirst are baked into the head template (they sit inside
+    # its gs-head-order flex block alongside the index-nav link, matching every
+    # other post's header layout) -- emitting them again here would duplicate
+    # them. body() starts at the revised-date line, same as the live post today.
     A(f'<p class="revised">Updated <time datetime="{today.isoformat()}">{pretty}</time> &middot; '
       'generated from the same list that renders the reading blocks on every article, so the two '
       'cannot disagree.</p>')
@@ -133,8 +146,8 @@ def main():
       'free, discounted, or in exchange for coverage.</div>')
 
     body = '\n'.join(o)
-    head = (SCRATCH / 'head_gas.html').read_text().replace('artx gasx', 'artx shopx').replace('.gasx', '.shopx')
-    tail = (SCRATCH / 'tail2.html').read_text()
+    head = Path(args.head).read_text(encoding='utf-8')
+    tail = Path(args.tail).read_text(encoding='utf-8')
     Path(args.out).write_text(head + body + tail, encoding='utf-8')
     print(f"wrote {args.out}: {len(shelf)} shelf items, {len(seen)} topic books")
 
