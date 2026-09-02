@@ -8671,3 +8671,18 @@ Clean up duplicate DGH post, republish with CBM section
 
 - `dgh-has-awarded-172-oalp-blocks-and-436_01077708555` — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production
 - `dgh-has-awarded-172-oalp-blocks-and-436` — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production
+
+## 2026-09-02T11:10:04+05:30 — 250 posts live
+
+Corroborate OALP outcomes with DGH site and Lok Sabha data; rebuild index
+
+
+**Versions**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+10/-0 distinct numbers))
+- `article-index-start-here` **45.0.0 → 45.1.0** (MINOR) — forced via --as minor (figures changed (+12/-4 distinct numbers))
+
+**Changed**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 45,118 → 49,046 bytes (+3,928)
+- `article-index-start-here` — 298,590 → 317,093 bytes (+18,503)

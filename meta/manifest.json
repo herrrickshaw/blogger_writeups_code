@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-02T10:47:38+05:30",
+  "snapshot": "2026-09-02T11:10:04+05:30",
   "count": 250,
   "posts": {
     "1058853159205559121": {
@@ -22430,10 +22430,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-08-30T11:25:42.703+05:30",
+      "updated": "2026-09-02T11:09:40.346+05:30",
       "labels": [],
-      "bytes": 298590,
-      "sha256": "1e5bfa99835412147dde2919c63559de612f9aec359e8cc3c2ac627926bbad73",
+      "bytes": 317093,
+      "sha256": "92d616ccd86bbebc5cb214362f15efc3149efc2c121f670eb408dd094ef104df",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22445,7 +22445,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "45.0.0",
+      "version": "45.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23878,6 +23878,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "index: add TASMAC article to article-index-start-here"
+        },
+        {
+          "version": "45.1.0",
+          "date": "2026-09-02T11:10:04+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+12/-4 distinct numbers))",
+          "bytes": [
+            298590,
+            317093
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Corroborate OALP outcomes with DGH site and Lok Sabha data; rebuild index"
         }
       ]
     },
@@ -29246,11 +29259,11 @@
       "title": "DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production",
       "url": "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
       "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
-      "published": "2026-09-02T10:40:46.954+05:30",
-      "updated": "2026-09-02T10:40:46.954+05:30",
+      "published": "2026-09-02T10:40:46.000+05:30",
+      "updated": "2026-09-02T11:09:28.765+05:30",
       "labels": [],
-      "bytes": 45118,
-      "sha256": "d2bca42963acd2d3d69f88f878c976076ca032012423db30c816cd2527a99529",
+      "bytes": 49046,
+      "sha256": "811d913edf84be7215ae46751b307e76e5a61a8f7aafae5abece468483e0cb9a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29262,7 +29275,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29270,6 +29283,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Clean up duplicate DGH post, republish with CBM section"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-02T11:10:04+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+10/-0 distinct numbers))",
+          "bytes": [
+            45118,
+            49046
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Corroborate OALP outcomes with DGH site and Lok Sabha data; rebuild index"
         }
       ]
     },
