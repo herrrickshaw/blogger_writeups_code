@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*236 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*246 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 1 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 2 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,12 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (41)
+### Agriculture & Fertilisers (43)
 
+- **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
+  A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
+- **[TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html)** — 2026-09-01
+  Since 1984, Tamil Nadu Newsprint and Papers Limited has made paper without cutting down a pulpwood plantation to do it — running its mills mostly on bagasse, the fibrous stalk left over after a sugar mill crushes cane. It is the clearest working example in India of an agro-residue substituting for wood at real industrial scale. What's less clear is whether the industry's own trade body is actually asking for more of it, or asking for something else entirely.
 - **[India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.](https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html)** — 2026-08-26
   India is the world's largest exporter of coco peat — a coconut-husk byproduct that happens to be one of the best growing substrates for vertical and hydroponic farming anywhere. Almost all of it leaves the country as a raw input for someone else's controlled-environment farm. Meanwhile, Kashmir's saffron harvest — India's own highest-value crop, worth more per kilogram than gold — has fallen 68% in two decades to climate change, and a scattered handful of private entrepreneurs, not any government programme, are the ones proving it can be grown indoors, in coco-peat-based substrate, anywhere in the country.
 - **[India's $4.45 Billion Spice Export Book Is Really Eight Different Crops in Eight Different States](https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html)** — 2026-08-24
@@ -354,8 +358,10 @@
 - **[One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems](https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html)** — 2026-08-13
   Five official government models were run on the same corn ethanol scenario in 2023 and produced land-use-change emissions estimates ranging from −0.95 to roughly 41 grams of CO₂e per megajoule — a number that, in the real world, decides whether a fuel batch clears a regulatory threshold or not. GCAM was one of the five. But GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange — none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine. This piece works out what GCAM's real job is in this space, and how the three real systems differ from each other and from it.
 
-### Chemicals (17)
+### Chemicals (18)
 
+- **[The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html)** — 2026-09-01
+  Two petrochemical intermediates sit behind the same supermarket aisle: one turns into the gel that keeps a diaper dry, the other into the surfactant that makes a detergent foam. India makes plenty of the second one and sells the surplus abroad. Until very recently, it made none of the first — every gram was imported.
 - **[Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html)** — 2026-08-28
   India is about to get its first industrial-scale polylactic acid (PLA) plant — a compostable bioplastic India currently imports almost entirely. One sugar mill is building it. But the plant's own marketing calls it a "sugarcane-based" facility, not a "bagasse-based" one, and that distinction is worth getting right before writing the import-substitution case around it.
 - **[India's Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price](https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html)** — 2026-08-27
@@ -404,8 +410,10 @@
 - **[PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable](https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html)** — 2026-08-16
   Recycled PET uses 70-79% less energy than making the same plastic from scratch, and India already recovers the large majority of what it puts into bottles — almost entirely through an informal collection network the country's Extended Producer Responsibility system doesn't formally recognise. The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026, don't fix that collection problem; they mandate what happens to the material once it's collected — recycled-content floors, food-grade certification, and QR-code tracking. This piece follows PET through both halves of that story, and places it against the same waste-to-value pattern this blog has already traced in batteries, tyres and used oil.
 
-### Climate & Carbon (11)
+### Climate & Carbon (12)
 
+- **[India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.](https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html)** — 2026-09-01
+  An earlier piece on this blog mapped India's Carbon Credit Trading Scheme and left three things explicitly unresolved: how credits get banked across compliance years, how the Offset Mechanism actually works, and where Carbon Credit Certificates actually get traded. Regulations notified in early 2026 answer all three. They don't answer the harder question sitting one level up — why banks still won't lend against a carbon credit the way they'll lend against a receivable — which turns out to have a real, specific answer of its own.
 - **[The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html)** — 2026-08-28
   India's oil ministry has its own scoreboard for how seriously the world's oil and gas majors are taking decarbonisation — and it isn't flattering. Buried in the Energy Transition Advisory Committee's 2023 report "The Green Shift" is a company-by-company table of who has pledged what, and a companion chart showing oil and gas has the weakest net-zero commitment rate of any hard-to-abate sector benchmarked. The same report is also the clearest public trail connecting that global scorecard to what ONGC, IOCL and OIL are actually building at home — carbon injection wells and biogas-fertiliser plants, not press-release pledges.
 - **[Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map](https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html)** — 2026-08-28
@@ -465,8 +473,12 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (64)
+### Energy & Fuels (66)
 
+- **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
+  PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
+- **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
+  An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
 - **[The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html)** — 2026-08-28
   India's oil ministry has its own scoreboard for how seriously the world's oil and gas majors are taking decarbonisation — and it isn't flattering. Buried in the Energy Transition Advisory Committee's 2023 report "The Green Shift" is a company-by-company table of who has pledged what, and a companion chart showing oil and gas has the weakest net-zero commitment rate of any hard-to-abate sector benchmarked. The same report is also the clearest public trail connecting that global scorecard to what ONGC, IOCL and OIL are actually building at home — carbon injection wells and biogas-fertiliser plants, not press-release pledges.
 - **[Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map](https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html)** — 2026-08-28
@@ -656,8 +668,20 @@
 - **[India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)** — 2026-08-30
   PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
 
-### Gas & LNG (9)
+### Gas & LNG (15)
 
+- **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
+  PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
+- **[OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)** — 2026-09-01
+  India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has spent the past two years signing memoranda of understanding with three of them — FIPI, OISD, and PNGRB — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
+- **[India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html)** — 2026-09-01
+  India's LNG-terminal rulebook moved twice in 2025 — a technical-standards amendment in July, and a new registration regime in May that quietly dropped a rule requiring terminals to reserve capacity for third-party shippers. At the same time, the first Indian LNG terminal built on a gravity-based structure rather than a floating vessel is moving through that same regulatory process, and two unrelated Norwegian and Swedish companies are separately selling a way to skip the jetty altogether. None of these three threads is officially connected to the others. Read together, they sketch where India's LNG import capacity is actually headed.
+- **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
+  An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
+- **[The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine](https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html)** — 2026-08-30
+  Qatar's RasGas Train 3 is described by its own turbine supplier as one of the most optimized LNG trains ever built — largely because of a helper motor bolted onto the same shaft as its gas turbine. Toshiba has documented a separate retrofit where upsizing that helper motor from 4.2 MW to 4.9 MW clawed back throughput a hot-climate turbine was losing. Neither project required replacing the turbine, and both point at the same lever: take some of the compression load off the turbine electrically, and less feed gas gets burned just to keep the plant running.
+- **[The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs](https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html)** — 2026-08-30
+  Corrosion under insulation grows where nobody can see it: under a jacket of weatherproof metal wrapped around a pipe, on the steel surface itself, invisible until the jacket comes off or the pipe fails. On a floating LNG or oil-production unit, three things that would each be manageable on land — salt spray, cryogenic temperature swings, and a hull that never stops moving — combine to make that hidden corrosion grow faster and hide longer than almost anywhere onshore.
 - **[Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html)** — 2026-08-22
   Five EU states have no coastline: Austria, Czechia, Hungary, Slovakia and Luxembourg. Between them they burn 28 billion cubic metres of gas a year — 8.3 per cent of EU demand — and not one of them can dock an LNG tanker. Every molecule they use arrives through somebody else’s pipes, at somebody else’s tariff. The EU has now set a date to cut off the Russian gas that has flowed to them since 1967. Europe has built the terminals to replace it — and they run barely half full, because the binding constraint has moved from the sea to the pipes.
 - **[Scan, Bottle, Deliver: What PPAC's Numbers Say About the LPG Cylinder in Your Kitchen](https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html)** — 2026-08-17
@@ -807,8 +831,12 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (57)
+### Industrial Policy (59)
 
+- **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
+  A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
+- **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
+  India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
 - **[India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026](https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html)** — 2026-08-30
   India runs 14 Production Linked Incentive schemes and a handful of major competitive-auction programmes, and almost every one of them names its winners in public — in Press Information Bureau releases and, less consistently, on ministry websites, but never on one aggregated portal. This piece compiles all 14 PLI schemes plus four auction categories, reading the actual release and portal text rather than trusting a headline. It also asks the harder question — how many companies actually competed, not just who won — and reports plainly, scheme by scheme, what is and isn't publicly known. No names or numbers are invented where none exist.
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
@@ -984,8 +1012,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (33)
+### Markets & Finance (34)
 
+- **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
+  A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
 - **[TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html)** — 2026-08-30
   Tamil Nadu's new government wants to hand roughly 2,500 of TASMAC's 4,048 retail liquor shops to private licensees, ending a 23-year state retail monopoly. The trigger is a ₹1,000-crore-plus corruption case, not an ideological turn — and the model the state says it's copying, used in Karnataka, Andhra Pradesh and Puducherry, keeps the state as wholesale gatekeeper while outsourcing the part of the business that kept generating scandals: the shop counter.
 - **[Oilfield Costs Rose 6–8% While Global Spending Fell. Asia's Thin Rig Fleet Is Where That Squeeze Bites Hardest.](https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html)** — 2026-08-26
@@ -1058,8 +1088,10 @@
 - **[What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html)** — 2026-08-28
   Stack eight stock-picking factors — breakout, quality, value, momentum, and a machine-learning bullish flag among them — and group what survives into co-movement model portfolios, and two separate questions come apart: does the result actually differ from an index fund, and does it actually beat one? Checked against public sector benchmarks, this factor stack's portfolios are almost uniformly differentiated from the index — but only one of seven is currently outperforming it once the broad market's own rise is stripped out.
 
-### Mobility & EV (7)
+### Mobility & EV (8)
 
+- **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
+  India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
 - **[The Battery Passport Was Built for Recycling. Now It's Also the Fix for Battery Fires.](https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html)** — 2026-08-27
   The EU's Battery Passport was built to track a battery's carbon footprint and recycled content. India is building its own version for a different reason: after a string of electric two-wheelers caught fire in 2022 and a power bank set off a mid-flight scare on an IndiGo aircraft in October 2025, the missing piece in both cases turned out to be the same thing — nobody could verify what was actually inside the battery, or whether it had been tested at all. A passport built for recycling and a registry built for safety turn out to need almost identical data, and India currently has five separate systems collecting pieces of it without any of them talking to each other.
 - **[Premium Now, Claim Later: The Float India's Car Boom Is Building](https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html)** — 2026-08-22
@@ -1123,8 +1155,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (56)
+### Trade & Tariffs (58)
 
+- **[The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html)** — 2026-09-01
+  Two petrochemical intermediates sit behind the same supermarket aisle: one turns into the gel that keeps a diaper dry, the other into the surfactant that makes a detergent foam. India makes plenty of the second one and sells the surplus abroad. Until very recently, it made none of the first — every gram was imported.
 - **[Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS](https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html)** — 2026-08-28
   It's a common assumption that the EU Emissions Trading System is what makes a container ship switch fuel before it reaches a European port. It isn't — the ETS prices carbon, it doesn't mandate a fuel switch at all. The actual fuel-switching obligations come from two other, separately numbered pieces of EU law, and a "green corridor" layer sits on top of both — except that name currently covers two unrelated initiatives, only one of which has picked its routes.
 - **[India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.](https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html)** — 2026-08-26
@@ -1149,6 +1183,8 @@
   Every 8-digit commodity code India traded above a million dollars last year, both directions, nine years, value and quantity — 7,786 lines, searchable in the page. It also shows you where the data lies: which codes were renumbered, which quantity units silently switched from tonnes to kilogrammes, and which series do not span the period. Those flags are the point.
 - **[You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill.](https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html)** — 2026-08-23
   India is reported to have drawn up a list of 1,272 products worth $189 billion of annual imports to replace with domestic manufacturing. The list itself is not public. What is public is the trade data underneath it — and it says the target is 24 per cent of the import bill, 41 per cent of the imports manufacturing could plausibly touch, and 74 per cent of the four sectors the plan actually names.
+- **[India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)** — 2026-08-21
+  India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
 - **[Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made](https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html)** — 2026-08-20
   Indian Railways is budgeted to spend ₹98.43 to earn every ₹100 in FY2025-26 — an operating ratio that has stayed above 96% every year since 2016-17. In 2015, a government-appointed committee said the root problem was that Railways doesn't actually know what it costs to run any given train, and recommended switching to modern cost accounting to find out. Nine years later, in response to an RTI request asking whether its flagship Vande Bharat trains turn a profit, the Railway Ministry's answer was almost word for word what the committee had warned about: "train-wise portability is not maintained."
 - **[Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html)** — 2026-08-19
@@ -1238,26 +1274,22 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (10)
+### Unlabelled (8)
 
-- **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
-  A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
-- **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
-  India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
+- **[India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work](https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html)** — 2026-09-02
+  India's oil PSUs report clearing their mandatory 25% MSME procurement quota by a wide margin — the aggregate, government-wide numbers run into the 40s. Only one of the five major companies actually publishes its own individual figure. A federal audit found two of them hadn't even uploaded their procurement plans as required. And a government portal built specifically to make each PSU's compliance public doesn't, on the evidence checked for this piece, actually show it.
+- **[FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)** — 2026-09-02
+  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
+- **[Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips](https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html)** — 2026-09-01
+  Brazil has sold ethanol-blended petrol at every pump in the country, without exception, since 1938. Today that blend is 30%, the highest mandatory rate anywhere, and a separate pump at the same station sells pure ethanol for the 82% of the light-vehicle fleet that can run on it. India crossed 20% nationwide in April 2026 and has already published the standards for 22-30%. Brazil's fuel policy gets most of the attention; the less-told half of the story is what had to change inside the dispenser itself — the seals, the metering, the certification — before any of those blend numbers could reach a tank safely.
 - **[The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power](https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html)** — 2026-08-30
   A 2012-13 University of Manchester engineering project studied spinning rotor sails on ships mainly because they might one day power autonomous vessels spraying seawater into clouds to fight climate change. That cloud-seeding fleet still doesn't exist. The rotors do: 38 of them were installed on 22 real cargo ships by mid-2025, cutting fuel burn by 5-25% on ordinary trade routes — commercial success arrived from an entirely different direction than the one the research was aimed at.
-- **[The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine](https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html)** — 2026-08-30
-  Qatar's RasGas Train 3 is described by its own turbine supplier as one of the most optimized LNG trains ever built — largely because of a helper motor bolted onto the same shaft as its gas turbine. Toshiba has documented a separate retrofit where upsizing that helper motor from 4.2 MW to 4.9 MW clawed back throughput a hot-climate turbine was losing. Neither project required replacing the turbine, and both point at the same lever: take some of the compression load off the turbine electrically, and less feed gas gets burned just to keep the plant running.
 - **[UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m](https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html)** — 2026-08-30
   Industry advice circulating on raising UK retail canopy heights repeats a "5.4 metre modern standard" and a menu of cost-saving statistics. Checking it against primary sources turns up a real, well-documented design benchmark — 5.03 metres, from the highway engineering code DMRB CD 127 — a real planning-permission case study, and several figures that don't hold up as stated: a mis-cited signage regulation, a wheelchair-access clearance rounded the wrong way, and a double-decker capacity claim that undersells the real number by nearly half.
 - **[BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry](https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html)** — 2026-08-30
   In 2017, three separate ownership groups reached for the same lever in the same corner of the industrial-services business: buy scale. Brand Energy & Infrastructure Services merged with Safway Group to form BrandSafway, a ~$5 billion, 32,000-employee scaffolding and access giant. Altrad bought UK-listed Cape plc for £332 million. United Rentals bought NES Rentals for $965 million. None of the three deals were coordinated with each other — but two years later, one of them was valued at $6.7 billion, and the shape of that outcome was visible in 2017 already.
-- **[The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs](https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html)** — 2026-08-30
-  Corrosion under insulation grows where nobody can see it: under a jacket of weatherproof metal wrapped around a pipe, on the steel surface itself, invisible until the jacket comes off or the pipe fails. On a floating LNG or oil-production unit, three things that would each be manageable on land — salt spray, cryogenic temperature swings, and a hull that never stops moving — combine to make that hidden corrosion grow faster and hide longer than almost anywhere onshore.
 - **[A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It](https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html)** — 2026-08-30
   India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
-- **[India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)** — 2026-08-21
-  India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
   AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written. It is a personal essay and carries no formal source citations beyond the one link below.
 
@@ -2176,7 +2208,7 @@ By June 2026, Ukrainian drones had struck Russian oil facilities more than 300 t
 India's sugarcane acreage barely moved this season, sugar prices just jumped 10 per cent in a month to record levels, and the years-long story of sugar being diverted to ethanol is quietly running in reverse. Cane acreage is flat, mills are earning more from sugar than from ethanol for the first time in years, and one industry body is warning that juice- and B-heavy-molasses-based ethanol could stop altogether if prices stay where they are.
 
 ### [India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html)
-*2026-08-21 · —*
+*2026-08-21 · Trade & Tariffs*
 
 India is the largest export market on earth for California almonds and the second-largest almond consumer after the United States. It bought roughly 283,000 tonnes in calendar 2024, worth about US$1.09 billion — and grew about 4,100 tonnes itself. Almost the entire market is an import market, 95 per cent of it arrives still inside the shell for reasons that are pure tariff arithmetic, and the single biggest demand event of the year is now weeks away.
 
@@ -2396,7 +2428,7 @@ A 2012-13 University of Manchester engineering project studied spinning rotor sa
 India runs 14 Production Linked Incentive schemes and a handful of major competitive-auction programmes, and almost every one of them names its winners in public — in Press Information Bureau releases and, less consistently, on ministry websites, but never on one aggregated portal. This piece compiles all 14 PLI schemes plus four auction categories, reading the actual release and portal text rather than trusting a headline. It also asks the harder question — how many companies actually competed, not just who won — and reports plainly, scheme by scheme, what is and isn't publicly known. No names or numbers are invented where none exist.
 
 ### [The Helper Motor Trick That Already Adds LNG Throughput Without a New Turbine](https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html)
-*2026-08-30 · —*
+*2026-08-30 · Gas & LNG*
 
 Qatar's RasGas Train 3 is described by its own turbine supplier as one of the most optimized LNG trains ever built — largely because of a helper motor bolted onto the same shaft as its gas turbine. Toshiba has documented a separate retrofit where upsizing that helper motor from 4.2 MW to 4.9 MW clawed back throughput a hot-climate turbine was losing. Neither project required replacing the turbine, and both point at the same lever: take some of the compression load off the turbine electrically, and less feed gas gets burned just to keep the plant running.
 
@@ -2426,7 +2458,7 @@ India's mobile-phone PLI scheme beat its own five-year investment target by 294%
 West Bengal has sanctioned 99.99% of its PMAY-G rural-housing target since FY2021-22 — and completed 12% of it. Nationally, the completion rate over the same window is 56.6%. The gap isn't a construction problem: Parliament's own answer says the Centre withheld West Bengal's funds over irregularity complaints starting FY2022-23, and the state's own corrective report is still "under examination" four years later.
 
 ### [The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs](https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html)
-*2026-08-30 · —*
+*2026-08-30 · Gas & LNG*
 
 Corrosion under insulation grows where nobody can see it: under a jacket of weatherproof metal wrapped around a pipe, on the steel surface itself, invisible until the jacket comes off or the pipe fails. On a floating LNG or oil-production unit, three things that would each be manageable on land — salt spray, cryogenic temperature swings, and a hull that never stops moving — combine to make that hidden corrosion grow faster and hide longer than almost anywhere onshore.
 
@@ -2436,11 +2468,61 @@ Corrosion under insulation grows where nobody can see it: under a jacket of weat
 India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
 
 ### [The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)
-*2026-08-31 · —*
+*2026-08-31 · Industrial Policy, Mobility & EV*
 
 India's own governments — central and state — own hundreds of thousands of vehicles that are driven every working day, replaced on a predictable schedule, and paid for with public money. As of the last figure available, barely half a percent of them were electric. Madhya Pradesh's new EV policy, alongside a national push through CESL, PM E-DRIVE and PM-eBus Sewa, is now testing whether that specific fleet — not private car buyers — is where India's EV transition actually has its easiest win.
 
+### [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html)
+*2026-09-01 · Chemicals, Trade & Tariffs*
+
+Two petrochemical intermediates sit behind the same supermarket aisle: one turns into the gel that keeps a diaper dry, the other into the surfactant that makes a detergent foam. India makes plenty of the second one and sells the surplus abroad. Until very recently, it made none of the first — every gram was imported.
+
+### [OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)
+*2026-09-01 · Gas & LNG*
+
+India's oil and gas industry answers to four different standards bodies, not one, and only some of what they publish is actually law. Into that already-crowded field, the American Petroleum Institute has spent the past two years signing memoranda of understanding with three of them — FIPI, OISD, and PNGRB — aimed at getting its own privately-published standards used more widely inside India. That's a real, dateable development. It is not, on the evidence available, a campaign FIPI itself started.
+
 ### [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)
-*2026-09-01 · —*
+*2026-09-01 · Agriculture & Fertilisers, Industrial Policy, Markets & Finance*
 
 A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
+
+### [India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.](https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html)
+*2026-09-01 · Climate & Carbon*
+
+An earlier piece on this blog mapped India's Carbon Credit Trading Scheme and left three things explicitly unresolved: how credits get banked across compliance years, how the Offset Mechanism actually works, and where Carbon Credit Certificates actually get traded. Regulations notified in early 2026 answer all three. They don't answer the harder question sitting one level up — why banks still won't lend against a carbon credit the way they'll lend against a receivable — which turns out to have a real, specific answer of its own.
+
+### [Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips](https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html)
+*2026-09-01 · —*
+
+Brazil has sold ethanol-blended petrol at every pump in the country, without exception, since 1938. Today that blend is 30%, the highest mandatory rate anywhere, and a separate pump at the same station sells pure ethanol for the 82% of the light-vehicle fleet that can run on it. India crossed 20% nationwide in April 2026 and has already published the standards for 22-30%. Brazil's fuel policy gets most of the attention; the less-told half of the story is what had to change inside the dispenser itself — the seals, the metering, the certification — before any of those blend numbers could reach a tank safely.
+
+### [India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html)
+*2026-09-01 · Gas & LNG*
+
+India's LNG-terminal rulebook moved twice in 2025 — a technical-standards amendment in July, and a new registration regime in May that quietly dropped a rule requiring terminals to reserve capacity for third-party shippers. At the same time, the first Indian LNG terminal built on a gravity-based structure rather than a floating vessel is moving through that same regulatory process, and two unrelated Norwegian and Swedish companies are separately selling a way to skip the jetty altogether. None of these three threads is officially connected to the others. Read together, they sketch where India's LNG import capacity is actually headed.
+
+### [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html)
+*2026-09-01 · Agriculture & Fertilisers*
+
+Since 1984, Tamil Nadu Newsprint and Papers Limited has made paper without cutting down a pulpwood plantation to do it — running its mills mostly on bagasse, the fibrous stalk left over after a sugar mill crushes cane. It is the clearest working example in India of an agro-residue substituting for wood at real industrial scale. What's less clear is whether the industry's own trade body is actually asking for more of it, or asking for something else entirely.
+
+### [LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)
+*2026-09-01 · Energy & Fuels, Gas & LNG*
+
+An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
+
+### [India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work](https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html)
+*2026-09-02 · —*
+
+India's oil PSUs report clearing their mandatory 25% MSME procurement quota by a wide margin — the aggregate, government-wide numbers run into the 40s. Only one of the five major companies actually publishes its own individual figure. A federal audit found two of them hadn't even uploaded their procurement plans as required. And a government portal built specifically to make each PSU's compliance public doesn't, on the evidence checked for this piece, actually show it.
+
+### [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)
+*2026-09-02 · —*
+
+FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
+
+### [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)
+*2026-09-02 · Energy & Fuels, Gas & LNG*
+
+PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
