@@ -8614,3 +8614,24 @@ Publish FIPI policy advocacy post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `pngrb-hydrogen-blending-pilots-real` — 2026-09-02 &rarr; 2026-09-02
+
+## 2026-09-02T10:00:03+05:30 — 250 posts live
+
+Publish DGH/OALP/HELP block-lifecycle post; push FIPI cross-link to OISD post
+
+
+**Added**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436` **v1.0.0** — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production (37,139 bytes)
+
+**Versions**
+
+- `oisd-writes-indias-oil-safety-rules-api` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `oisd-writes-indias-oil-safety-rules-api` — 32,229 → 32,532 bytes (+303)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `fipis-biggest-ask-is-getting-natural` — 2026-09-02 &rarr; 2026-09-02

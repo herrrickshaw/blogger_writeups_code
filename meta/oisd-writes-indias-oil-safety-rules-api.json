@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
   "slug": "oisd-writes-indias-oil-safety-rules-api",
   "published": "2026-09-01T22:01:33.000+05:30",
-  "updated": "2026-09-01T23:07:31.940+05:30",
+  "updated": "2026-09-02T09:53:46.756+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 32229,
-  "sha256": "06457fc83c4b12e8d44fc23cec49c194c41421d5c1c78dc056103de445151501",
+  "bytes": 32532,
+  "sha256": "5021cf101ce3b423c2eb896a90188a24d692cad7904632df9d754bf2baedb5a9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-02T10:00:03+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        32229,
+        32532
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish DGH/OALP/HELP block-lifecycle post; push FIPI cross-link to OISD post"
     }
   ]
 }
