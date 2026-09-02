@@ -8657,3 +8657,17 @@ Add PIB-sourced CBM bidding section to DGH/OALP/HELP post
 **Changed**
 
 - `dgh-has-awarded-172-oalp-blocks-and-436` — 37,139 → 45,118 bytes (+7,979)
+
+## 2026-09-02T10:47:38+05:30 — 250 posts live
+
+Clean up duplicate DGH post, republish with CBM section
+
+
+**Added**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **v1.0.0** — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production (45,118 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_01077708555` — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production
+- `dgh-has-awarded-172-oalp-blocks-and-436` — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production
