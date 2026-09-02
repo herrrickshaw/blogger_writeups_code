@@ -8644,3 +8644,16 @@ Publish DGH/OALP/HELP block-lifecycle post with PIB bidding data; push FIPI cros
 **Added**
 
 - `dgh-has-awarded-172-oalp-blocks-and-436_01077708555` **v1.0.0** — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production (39,854 bytes)
+
+## 2026-09-02T10:38:55+05:30 — 251 posts live
+
+Add PIB-sourced CBM bidding section to DGH/OALP/HELP post
+
+
+**Versions**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+29/-2 distinct numbers))
+
+**Changed**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436` — 37,139 → 45,118 bytes (+7,979)
