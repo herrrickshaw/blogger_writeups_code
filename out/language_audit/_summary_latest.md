@@ -1,6 +1,6 @@
-# Language audit summary — 2026-09-01
+# Language audit summary — 2026-09-02
 
-*102 of 239 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*110 of 253 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -29,6 +29,9 @@
 - [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 6 matches — see `the-fearless-girls-charter-indias.md`
 - [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 4 matches — see `574-gw-and-counting-indias-wind-fleet.md`
+- [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane.md`
+- [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_01251035403.md`
+- [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_0974259386.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_0974259386.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 3 matches — see `annadata-to-urjadata-farmer-income-case.md`
 - [Ethanol's Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers](https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html) — 3 matches — see `ethanols-coal-boilers-briquette-gap-and.md`
 - [Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier](https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html) — 3 matches — see `europe-bought-record-amount-of-lng-and.md`
@@ -37,7 +40,9 @@
 - [India's EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing](https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html) — 3 matches — see `indias-epr-regime-just-got-teeth-and.md`
 - [Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It](https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html) — 3 matches — see `not-drop-out-ethanols-zero-liquid.md`
 - [Petroleum Trade Pairings and the US Crude Storage Picture](https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html) — 3 matches — see `petroleum-trade-pairings-and-us-crude.md`
+- [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html) — 3 matches — see `pngrb-hydrogen-blending-pilots-real.md`
 - [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
+- [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 3 matches — see `the-detergent-chemical-india-exports.md`
 - [The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html) — 3 matches — see `the-green-shift-what-indias-oil.md`
 - [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 3 matches — see `the-margin-case-why-lpg-and.md`
 - [The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html) — 3 matches — see `the-software-behind-still-whats.md`
@@ -48,6 +53,7 @@
 - [Sixteen Years, Nine Countries: What India and Europe Actually Signed on Technology](https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html) — 2 matches — see `every-india-europe-tech-agreement-pib.md`
 - [FCI Grain Flow — Procurement · Storage · Disposal Dashboard](https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html) — 2 matches — see `fci-grain-flow-procurement-storage.md`
 - [Financing the Fuel-to-Chemicals Pivot: How Indian Oil's ₹15,000 Crore Debt Raise Fits a Much Bigger Pattern](https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html) — 2 matches — see `financing-fuel-to-chemicals-pivot-how.md`
+- [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html) — 2 matches — see `fipis-biggest-ask-is-getting-natural.md`
 - [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
 - [Indian IT in an AI Era](https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html) — 2 matches — see `indian-it-in-ai-era.md`
 - [Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made](https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html) — 2 matches — see `indian-railways-98-to-earn-100-business.md`
@@ -67,6 +73,7 @@
 - [Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html) — 2 matches — see `where-rupee-actually-stands-ten-years.md`
 - [Annexure: 314 HSN Codes Mapped to Technical-Textile Segments](https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html) — 1 matches — see `annexure-314-hsn-codes-mapped-to.md`
 - [Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers](https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html) — 1 matches — see `announced-vs-delivered-three-indian.md`
+- [Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html) — 1 matches — see `blending-on-budget-energy-density-and.md`
 - [Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html) — 1 matches — see `cow-dung-already-flew-rocket-engine.md`
 - [CPI Inflation Heatmap — India, June 2026](https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html) — 1 matches — see `cpi-inflation-heatmap-india-june-2026.md`
 - [From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html) — 1 matches — see `diesel-doesnt-move-cpi-it-moves-40.md`
@@ -76,11 +83,14 @@
 - [India Approved ₹1.5 Lakh Crore in Manufacturing Subsidies. Parliament's Own Answers Show How Little of It Has Actually Been Paid.](https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html) — 1 matches — see `india-approved-15-lakh-crore-in.md`
 - [India Exports the World's Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.](https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html) — 1 matches — see `india-exports-worlds-coco-peat-its-own.md`
 - [India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.](https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html) — 1 matches — see `india-sells-world-53-billion-of-fuel.md`
+- [India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.](https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html) — 1 matches — see `india-solved-carbon-credit-banking-with.md`
 - [India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html) — 1 matches — see `indias-6000-crore-fisheries-scheme.md`
 - [India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html) — 1 matches — see `indias-fertiliser-import-bill-hits-18.md`
+- [India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html) — 1 matches — see `indias-lng-terminal-rules-changed-twice.md`
 - [Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html) — 1 matches — see `lemon-cultivation-in-india-steady-trees.md`
 - [LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol](https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html) — 1 matches — see `lpgs-missing-number-7308-commission-and.md`
 - [Nature Versus Nurture: India's Fertiliser-Fed Food Security](https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html) — 1 matches — see `nature-versus-nurture-indias-fertiliser.md`
+- [OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html) — 1 matches — see `oisd-writes-indias-oil-safety-rules-api.md`
 - [One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World's Biofuel Carbon-Credit Systems](https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html) — 1 matches — see `one-gallon-five-numbers-how-gcam-fits.md`
 - [One Refinery Flipped Nigeria From Importer to Exporter. Africa's Oil Imports Are Still Rising.](https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html) — 1 matches — see `one-refinery-flipped-nigeria-from.md`
 - [Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target](https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html) — 1 matches — see `price-is-wire-how-gcam-actually-links.md`
@@ -101,6 +111,4 @@
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 1 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
 - [What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html) — 1 matches — see `what-seven-model-stock-portfolios-look.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [Bio-Fertiliser and Green Credits: Regrowing India's Arid Land](https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html) — 0 matches — see `bio-fertiliser-and-green-credits.md`
-- [Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html) — 0 matches — see `blending-on-budget-energy-density-and.md`
-- [UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m](https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html) — 0 matches — see `uk-retail-canopies-at-54m-real-design.md`
+- [LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html) — 0 matches — see `lng-trucks-cost-about-what-diesel-does.md`
