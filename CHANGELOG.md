@@ -8635,3 +8635,12 @@ Publish DGH/OALP/HELP block-lifecycle post; push FIPI cross-link to OISD post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `fipis-biggest-ask-is-getting-natural` — 2026-09-02 &rarr; 2026-09-02
+
+## 2026-09-02T10:07:14+05:30 — 251 posts live
+
+Publish DGH/OALP/HELP block-lifecycle post with PIB bidding data; push FIPI cross-link to OISD post
+
+
+**Added**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_01077708555` **v1.0.0** — DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production (39,854 bytes)
