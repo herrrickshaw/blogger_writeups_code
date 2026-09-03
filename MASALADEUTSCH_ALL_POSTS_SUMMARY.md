@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*246 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*249 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 2 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 3 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -668,8 +668,12 @@
 - **[India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html)** — 2026-08-30
   PM-MKSSY, the fisheries sub-scheme launched in 2023–24, has ₹6,000 crore allocated to it. As of this piece's publication, live registration data from the scheme's own digital platform show 36.88 lakh fishers, fish farmers and vendors signed up. Parliament's own answers show that of those, 127 have received the scheme's aquaculture-insurance incentive and 21 have actually been paid a performance grant. The parent scheme's infrastructure money moves at a respectable clip — it's the money meant to go straight into individual hands that hasn't.
 
-### Gas & LNG (15)
+### Gas & LNG (17)
 
+- **[Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)** — 2026-09-03
+  The pipeline connecting a factory's smokestack to an underground storage site is not where India's CO2 sequestration bill actually gets large. CEEW's own network modelling puts that piece at $0.70–4.19 a tonne. A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more. The pipeline is a rounding error next to the capture cost, and the government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.
+- **[FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)** — 2026-09-02
+  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 - **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
   PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
 - **[OISD Writes India's Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.](https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html)** — 2026-09-01
@@ -831,8 +835,10 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (59)
+### Industrial Policy (60)
 
+- **[Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)** — 2026-09-03
+  The pipeline connecting a factory's smokestack to an underground storage site is not where India's CO2 sequestration bill actually gets large. CEEW's own network modelling puts that piece at $0.70–4.19 a tonne. A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more. The pipeline is a rounding error next to the capture cost, and the government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.
 - **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
   A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
 - **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
@@ -1274,12 +1280,14 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (8)
+### Unlabelled (9)
 
+- **[What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)** — 2026-09-03
+  Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
+- **[DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html)** — 2026-09-02
+  India has awarded roughly 172 exploration blocks under OALP, backed by $4.36 billion in committed investment. Fourteen of them have produced a discovery. One has actually reached production. The bidding process itself — DGH's data rooms, year-round block nomination, work-programme scoring — is a genuinely well-designed system for handing out acreage. What happens after the award is the part worth scrutinising.
 - **[India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work](https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html)** — 2026-09-02
   India's oil PSUs report clearing their mandatory 25% MSME procurement quota by a wide margin — the aggregate, government-wide numbers run into the 40s. Only one of the five major companies actually publishes its own individual figure. A federal audit found two of them hadn't even uploaded their procurement plans as required. And a government portal built specifically to make each PSU's compliance public doesn't, on the evidence checked for this piece, actually show it.
-- **[FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)** — 2026-09-02
-  FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 - **[Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips](https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html)** — 2026-09-01
   Brazil has sold ethanol-blended petrol at every pump in the country, without exception, since 1938. Today that blend is 30%, the highest mandatory rate anywhere, and a separate pump at the same station sells pure ethanol for the 82% of the light-vehicle fleet that can run on it. India crossed 20% nationwide in April 2026 and has already published the standards for 22-30%. Brazil's fuel policy gets most of the attention; the less-told half of the story is what had to change inside the dispenser itself — the seals, the metering, the certification — before any of those blend numbers could reach a tank safely.
 - **[The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power](https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html)** — 2026-08-30
@@ -2512,13 +2520,18 @@ Since 1984, Tamil Nadu Newsprint and Papers Limited has made paper without cutti
 
 An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
 
+### [DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html)
+*2026-09-02 · —*
+
+India has awarded roughly 172 exploration blocks under OALP, backed by $4.36 billion in committed investment. Fourteen of them have produced a discovery. One has actually reached production. The bidding process itself — DGH's data rooms, year-round block nomination, work-programme scoring — is a genuinely well-designed system for handing out acreage. What happens after the award is the part worth scrutinising.
+
 ### [India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work](https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html)
 *2026-09-02 · —*
 
 India's oil PSUs report clearing their mandatory 25% MSME procurement quota by a wide margin — the aggregate, government-wide numbers run into the 40s. Only one of the five major companies actually publishes its own individual figure. A federal audit found two of them hadn't even uploaded their procurement plans as required. And a government portal built specifically to make each PSU's compliance public doesn't, on the evidence checked for this piece, actually show it.
 
 ### [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html)
-*2026-09-02 · —*
+*2026-09-02 · Gas & LNG*
 
 FIPI, the oil and gas industry's apex body, has been asking to bring natural gas under GST since at least 2021. It still isn't there — and in 2026 the GST Council moved the opposite direction, raising tax on exploration and drilling services instead. That pattern holds across FIPI's advocacy generally: real, dated, specific asks, and no independently confirmed case of one being credited with causing the reform it wanted.
 
@@ -2526,3 +2539,13 @@ FIPI, the oil and gas industry's apex body, has been asking to bring natural gas
 *2026-09-02 · Energy & Fuels, Gas & LNG*
 
 PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
+
+### [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)
+*2026-09-03 · Gas & LNG, Industrial Policy*
+
+The pipeline connecting a factory's smokestack to an underground storage site is not where India's CO2 sequestration bill actually gets large. CEEW's own network modelling puts that piece at $0.70–4.19 a tonne. A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more. The pipeline is a rounding error next to the capture cost, and the government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.
+
+### [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)
+*2026-09-03 · —*
+
+Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
