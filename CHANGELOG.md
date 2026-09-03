@@ -8791,3 +8791,12 @@ Extend FDI dashboard to 24 quarters from consolidated dataset
 **Changed**
 
 - `where-indias-fdi-actually-lands-state` — 49,297 → 44,231 bytes (-5,066)
+
+## 2026-09-03T14:05:28+05:30 — 255 posts live
+
+Delete duplicate FDI dashboard post
+
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `where-indias-fdi-actually-lands-state_0955008544` — Where India's FDI Actually Lands: A State-and-District Dashboard From DPIIT's Own Tables
