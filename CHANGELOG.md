@@ -8686,3 +8686,12 @@ Corroborate OALP outcomes with DGH site and Lok Sabha data; rebuild index
 
 - `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 45,118 → 49,046 bytes (+3,928)
 - `article-index-start-here` — 298,590 → 317,093 bytes (+18,503)
+
+## 2026-09-03T05:55:08+05:30 — 251 posts live
+
+Publish CCUS pipeline-cost post
+
+
+**Added**
+
+- `everyone-worries-about-who-pays-for` **v1.0.0** — Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part (38,983 bytes)
