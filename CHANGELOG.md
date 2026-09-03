@@ -8739,3 +8739,24 @@ Publish ICRA sector-outlooks post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `what-sewage-disposal-in-key-parts-of` — 2026-09-03 &rarr; 2026-09-03
+
+## 2026-09-03T11:14:10+05:30 — 254 posts live
+
+Rebuild index; publish IRR/cost-of-capital convergence post
+
+
+**Added**
+
+- `textbooks-say-project-returns-converge` **v1.0.0** — Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year (28,238 bytes)
+
+**Versions**
+
+- `article-index-start-here` **45.2.0 → 45.3.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 319,071 → 319,935 bytes (+864)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `icra-rates-most-of-indias-economy` — 2026-09-03 &rarr; 2026-09-03

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-03T09:29:07.278+05:30",
+  "updated": "2026-09-03T11:07:05.821+05:30",
   "labels": [],
-  "bytes": 319071,
-  "sha256": "6eeff77fcf280ab95a462ee9e9cf5079fd9adeade45bf7fb1afba45a00299467",
+  "bytes": 319935,
+  "sha256": "a601d93b62a463259fcbd93b98c99a4129a02d52b8626bed5560f42cce5626cf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "45.2.0",
+  "version": "45.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1478,6 +1478,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Delete duplicate TN sewage-disposal post; rebuild index"
+    },
+    {
+      "version": "45.3.0",
+      "date": "2026-09-03T11:14:10+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        319071,
+        319935
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild index; publish IRR/cost-of-capital convergence post"
     }
   ]
 }

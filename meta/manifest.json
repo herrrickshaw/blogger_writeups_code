@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-03T10:26:14+05:30",
-  "count": 253,
+  "snapshot": "2026-09-03T11:14:10+05:30",
+  "count": 254,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -1629,6 +1629,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        }
+      ]
+    },
+    "1470391020597369483": {
+      "id": "1470391020597369483",
+      "title": "Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
+      "slug": "textbooks-say-project-returns-converge",
+      "published": "2026-09-03T11:07:13.962+05:30",
+      "updated": "2026-09-03T11:07:13.962+05:30",
+      "labels": [],
+      "bytes": 28238,
+      "sha256": "8a9bde980a6bbb4a3617a45b7c6d2e88232df653f8560e21441cb6cbc04669d6",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-03T11:14:10+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Rebuild index; publish IRR/cost-of-capital convergence post"
         }
       ]
     },
@@ -22499,10 +22531,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-03T09:29:07.278+05:30",
+      "updated": "2026-09-03T11:07:05.821+05:30",
       "labels": [],
-      "bytes": 319071,
-      "sha256": "6eeff77fcf280ab95a462ee9e9cf5079fd9adeade45bf7fb1afba45a00299467",
+      "bytes": 319935,
+      "sha256": "a601d93b62a463259fcbd93b98c99a4129a02d52b8626bed5560f42cce5626cf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22514,7 +22546,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "45.2.0",
+      "version": "45.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23973,6 +24005,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Delete duplicate TN sewage-disposal post; rebuild index"
+        },
+        {
+          "version": "45.3.0",
+          "date": "2026-09-03T11:14:10+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            319071,
+            319935
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild index; publish IRR/cost-of-capital convergence post"
         }
       ]
     },
@@ -36479,9 +36524,12 @@
       "title": "ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock",
       "url": "https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html",
       "slug": "icra-rates-most-of-indias-economy",
-      "published": "2026-09-03T10:20:13.196+05:30",
-      "updated": "2026-09-03T10:20:13.196+05:30",
-      "labels": [],
+      "published": "2026-09-03T10:20:13.000+05:30",
+      "updated": "2026-09-03T11:08:53.042+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Industrial Policy"
+      ],
       "bytes": 38600,
       "sha256": "cbd5883b592e575e49a313a05ca2606f4eb5c6ea12cbd65cec40f019f15f902c",
       "markers": {
