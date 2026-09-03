@@ -8760,3 +8760,12 @@ Rebuild index; publish IRR/cost-of-capital convergence post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `icra-rates-most-of-indias-economy` — 2026-09-03 &rarr; 2026-09-03
+
+## 2026-09-03T13:15:24+05:30 — 255 posts live
+
+Publish DPIIT FDI dashboard; ICRA reciprocal link
+
+
+**Added**
+
+- `where-indias-fdi-actually-lands-state` **v1.0.0** — Where India's FDI Actually Lands: A State-and-District Dashboard From DPIIT's Own Tables (49,297 bytes)
