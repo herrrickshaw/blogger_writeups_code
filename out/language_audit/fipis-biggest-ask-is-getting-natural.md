@@ -10,3 +10,4 @@
 - **[CASING/FILE_EXTENSIONS_CASE]** File types are normally capitalized.
   context: ...ual event, which FIPI co-organises with dmg events under the patronage of the Minis...
   suggested: DMG
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

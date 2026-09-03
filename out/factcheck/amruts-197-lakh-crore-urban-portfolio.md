@@ -11,7 +11,14 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini network error: The read operation timed out]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq llama-3.3-70b-versatile
 
@@ -21,11 +28,16 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 ## Mistral mistral-small-latest
 
 FACTUAL ERRORS:
-- "AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally." — The article incorrectly states the date as "29 August 2026" in the header, but the Lok Sabha answer cited is dated "06.08.2026" (6 August 2026). The article's publication date appears to be misstated. [confidence: high]
+- "AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally." — The article states the date as "29 August 2026," but the Lok Sabha answer cited is dated "06.08.2026" (6 August 2026). This is a chronological inconsistency, as the article cannot be published after the Lok Sabha answer it references. [confidence: high]
 
-- "Water Supply is 41% of AMRUT's project count nationally but 60% of its total cost" — The article claims water supply accounts for 41% of projects (3,572 out of 8,777) and 60% of costs (₹1,18,952.82 crore out of ₹1,97,201.55 crore). However, the percentages do not match the quoted numbers: 3,572/8,777 ≈ 40.7%, and ₹1,18,952.82/₹1,97,201.55 ≈ 60.3%. While close, the article rounds these to 41% and 60%, which is technically correct but could be misleading if interpreted as exact figures. [confidence: medium]
+- "Water Supply is 41% of AMRUT's project count nationally but 60% of its total cost" — The article claims Water Supply accounts for 41% of projects (3,572 out of 8,777) and 60% of costs (₹1,18,952.82 crore out of ₹1,97,201.55 crore). However, the percentages do not match the raw numbers provided in the table:
+  - Project count: 3,572 / 8,777 ≈ 40.7% (not 41%)
+  - Cost: ₹1,18,952.82 crore / ₹1,97,201.55 crore ≈ 60.3% (close to 60%)
+The discrepancy in the project count percentage (40.7% vs. 41%) suggests a rounding or calculation error. [confidence: high]
+
+---
 
 INTERPRETATION ERRORS:
-- "Water supply carries the money, not the project count" — The article concludes that water supply is "by a wide margin the most capital-intensive of the four components" based on its share of total cost (60%) versus project count (41%). However, this does not establish that water supply is *more* capital-intensive per project than other categories. For example, sewerage & septage management accounts for 36% of total cost but only 7% of projects, which could imply it is even more capital-intensive per project. The article does not calculate or compare per-project costs across categories, leading to an incomplete interpretation of capital intensity. [confidence: high]
+- "Water Supply is 41% of AMRUT's project count nationally but 60% of its total cost — by a wide margin the most capital-intensive of the four components." — While the claim that Water Supply is the most capital-intensive component is factually correct (60% of costs vs. 41% of projects), the article does not provide any context or data to support the assertion that it is "by a wide margin" the most capital-intensive. The comparison to other components (e.g., Sewerage & Septage Management at 36% of costs) does not quantify the "margin" or explain why 60% vs. 36% qualifies as a "wide margin." The conclusion lacks a clear benchmark or justification. [confidence: medium]
 
-- "Uttar Pradesh, Maharashtra, Karnataka, Gujarat, and Tamil Nadu together account for over half of India's AMRUT water-supply capital — ₹62,014 crore of the ₹1,18,953 crore national total." — The article states these five states account for "over half" of the water-supply capital, but the sum provided (₹62,014 crore) is only 52.1% of the national total (₹1,18,953 crore). While technically correct, the phrasing "over half" is misleading because it suggests a majority (i.e., >50%), which is not the case. This could lead readers to overestimate the concentration of funds. [confidence: high]
+- "Sewerage & Septage Management, despite being only 7% of project count, still accounts for 36% of the total AMRUT cost — both water supply and sewerage are infrastructure-heavy, capital-intensive categories, unlike Water Body Rejuvenation and Parks & Green Space, which together are 26% of project count but just 3.6% of total spend." — The article correctly notes that Sewerage & Septage Management accounts for 36% of costs despite being only 7% of projects, and that Water Body Rejuvenation and Parks & Green Space together account for 26% of projects but only 3.6% of costs. However, it implies that the high cost share of Sewerage & Septage Management is due to its capital-intensive nature, without providing any evidence or data to support this causal claim. The reasoning assumes that capital intensity is the sole or primary reason for the cost distribution, which may not account for other factors like project scale, complexity, or regional variations. [confidence: medium]

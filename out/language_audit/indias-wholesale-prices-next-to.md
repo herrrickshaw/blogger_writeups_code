@@ -10,3 +10,4 @@
 - **[GRAMMAR/WORLDS_BEST]** It seems that a possessive apostrophe is missing.
   context: ...urn: five of six accelerating hard, the United States hardest  Year-on-year %, monthly, 2026....
   suggested: United States'
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

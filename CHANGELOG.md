@@ -8726,3 +8726,16 @@ Delete duplicate TN sewage-disposal post; rebuild index
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `what-sewage-disposal-in-key-parts-of_0568573871` — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs
+
+## 2026-09-03T10:26:14+05:30 — 253 posts live
+
+Publish ICRA sector-outlooks post
+
+
+**Added**
+
+- `icra-rates-most-of-indias-economy` **v1.0.0** — ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock (38,600 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `what-sewage-disposal-in-key-parts-of` — 2026-09-03 &rarr; 2026-09-03

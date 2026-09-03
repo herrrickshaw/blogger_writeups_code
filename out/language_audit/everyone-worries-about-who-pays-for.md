@@ -1,0 +1,24 @@
+# Language audit — Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part
+
+*https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html*
+
+**This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
+
+- **[GRAMMAR/IN_WHO]** Did you mean “whom”?
+  context: Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelin...
+  suggested: Whom
+- **[GRAMMAR/IN_WHO]** Did you mean “whom”?
+  context: ... September 2026  Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelin...
+  suggested: Whom
+- **[GRAMMAR/MASS_AGREEMENT]** Consider using third-person verb forms for singular and mass nouns.
+  context: ...9 per tonne, depending on which storage sink the network is built toward: cheapest (...
+  suggested: sinks
+- **[GRAMMAR/IN_WHO]** Did you mean “whom”?
+  context: ... fraction of either broader figure.  On who pays: the Union Budget 2026-27 allocate...
+  suggested: whom
+- **[GRAMMAR/MASS_AGREEMENT]** Consider using third-person verb forms for singular and mass nouns.
+  context: ...gure depending heavily on which storage sink the network is built toward. Routing to...
+  suggested: sinks
+- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘figure’ seems to be countable.
+  context: ...all fraction of an ₹8,000-13,000 all-in figure. The pipeline segment, in other words, ...
+  suggested: figures
