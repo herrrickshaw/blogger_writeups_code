@@ -8769,3 +8769,12 @@ Publish DPIIT FDI dashboard; ICRA reciprocal link
 **Added**
 
 - `where-indias-fdi-actually-lands-state` **v1.0.0** — Where India's FDI Actually Lands: A State-and-District Dashboard From DPIIT's Own Tables (49,297 bytes)
+
+## 2026-09-03T13:47:45+05:30 — 256 posts live
+
+Extend FDI dashboard to 24 quarters from consolidated dataset
+
+
+**Added**
+
+- `where-indias-fdi-actually-lands-state_0955008544` **v1.0.0** — Where India's FDI Actually Lands: A State-and-District Dashboard From DPIIT's Own Tables (49,297 bytes)
