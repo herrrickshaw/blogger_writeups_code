@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-03T07:24:23+05:30",
-  "count": 253,
+  "snapshot": "2026-09-03T09:14:30+05:30",
+  "count": 252,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -7147,38 +7147,6 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
-        }
-      ]
-    },
-    "2763620935975958853": {
-      "id": "2763620935975958853",
-      "title": "What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs",
-      "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html",
-      "slug": "what-sewage-disposal-in-key-parts-of_0568573871",
-      "published": "2026-09-03T07:19:06.714+05:30",
-      "updated": "2026-09-03T07:19:06.714+05:30",
-      "labels": [],
-      "bytes": 46848,
-      "sha256": "6e9a128797689ad757cb3d23d9bbb12a1cb06830ae23d0230f46eb759ce2e633",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-09-03T07:24:23+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": "Publish TN drainage/CBG/vector-disease fact-check post"
         }
       ]
     },
@@ -22529,10 +22497,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-02T11:09:40.346+05:30",
+      "updated": "2026-09-03T09:14:06.479+05:30",
       "labels": [],
-      "bytes": 317093,
-      "sha256": "92d616ccd86bbebc5cb214362f15efc3149efc2c121f670eb408dd094ef104df",
+      "bytes": 319071,
+      "sha256": "6eeff77fcf280ab95a462ee9e9cf5079fd9adeade45bf7fb1afba45a00299467",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22544,7 +22512,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "45.1.0",
+      "version": "45.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23990,6 +23958,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Corroborate OALP outcomes with DGH site and Lok Sabha data; rebuild index"
+        },
+        {
+          "version": "45.2.0",
+          "date": "2026-09-03T09:14:30+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+0/-1 distinct numbers))",
+          "bytes": [
+            317093,
+            319071
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Delete duplicate TN sewage-disposal post; rebuild index"
         }
       ]
     },

@@ -8709,3 +8709,20 @@ Publish TN drainage/CBG/vector-disease fact-check post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `everyone-worries-about-who-pays-for` — 2026-09-03 &rarr; 2026-09-03
+
+## 2026-09-03T09:14:30+05:30 — 252 posts live
+
+Delete duplicate TN sewage-disposal post; rebuild index
+
+
+**Versions**
+
+- `article-index-start-here` **45.1.0 → 45.2.0** (MINOR) — forced via --as minor (figures changed (+0/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 317,093 → 319,071 bytes (+1,978)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `what-sewage-disposal-in-key-parts-of_0568573871` — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs
