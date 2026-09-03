@@ -1,6 +1,6 @@
-# Language audit summary — 2026-09-02
+# Language audit summary — 2026-09-03
 
-*110 of 253 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*115 of 259 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -24,10 +24,10 @@
 - [Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item](https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html) — 7 matches — see `refineries-under-fire-how-two-wars.md`
 - [Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html) — 7 matches — see `ten-cubic-metres-hour-indias-first.md`
 - [$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing](https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html) — 6 matches — see `028-unit-diesel-math-behind-indias-data.md`
+- [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html) — 6 matches — see `everyone-worries-about-who-pays-for.md`
 - [Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html) — 6 matches — see `foreign-capital-found-indias-hospitals.md`
 - [Sugar at ₹55.70 a Kilo: Why Cane Acreage Isn't Growing, and Ethanol Is Losing the Diversion Race](https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html) — 6 matches — see `sugar-at-5570-kilo-why-cane-acreage.md`
 - [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 6 matches — see `the-fearless-girls-charter-indias.md`
-- [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 4 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_01251035403.md`
@@ -76,6 +76,8 @@
 - [Blending on a Budget: Energy Density and Cost Per Kilometre, Across Four Fuel Pairs](https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html) — 1 matches — see `blending-on-budget-energy-density-and.md`
 - [Cow Dung Already Flew a Rocket Engine. India's Biogas Programme Could Feed the Next One.](https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html) — 1 matches — see `cow-dung-already-flew-rocket-engine.md`
 - [CPI Inflation Heatmap — India, June 2026](https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html) — 1 matches — see `cpi-inflation-heatmap-india-june-2026.md`
+- [DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436.html) — 1 matches — see `dgh-has-awarded-172-oalp-blocks-and-436.md`
+- [DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html) — 1 matches — see `dgh-has-awarded-172-oalp-blocks-and-436_0369361351.md`
 - [From Diesel to CNG: Where the Switch Actually Pays](https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html) — 1 matches — see `diesel-doesnt-move-cpi-it-moves-40.md`
 - [Effective Buying Power & the China Comparison — Rupee Real Exchange Rate](https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html) — 1 matches — see `effective-buying-power-china-comparison.md`
 - [Fourteen Years of Indian Wholesale Prices: Diesel Up 79%, Urea Up 13.8% — and Three Corrections to Our Own Earlier Posts](https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html) — 1 matches — see `fourteen-years-of-indian-wholesale.md`
@@ -87,6 +89,7 @@
 - [India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.](https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html) — 1 matches — see `indias-6000-crore-fisheries-scheme.md`
 - [India's Fertiliser Import Bill Hits $18 Billion, and Parliament's Own Committee Explains Why](https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html) — 1 matches — see `indias-fertiliser-import-bill-hits-18.md`
 - [India's LNG Terminal Rules Changed Twice in 2025. A Concrete Platform at Kakinada Is Testing How Far They Stretch](https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html) — 1 matches — see `indias-lng-terminal-rules-changed-twice.md`
+- [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 1 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [Lemon Cultivation in India: Steady Trees, Volatile Prices](https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html) — 1 matches — see `lemon-cultivation-in-india-steady-trees.md`
 - [LPG's Missing Number: A ₹73.08 Commission, and Why Gas Is Safer From an MDR Than Petrol](https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html) — 1 matches — see `lpgs-missing-number-7308-commission-and.md`
 - [Nature Versus Nurture: India's Fertiliser-Fed Food Security](https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html) — 1 matches — see `nature-versus-nurture-indias-fertiliser.md`
@@ -110,5 +113,7 @@
 - [Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html) — 1 matches — see `tiffin-meets-thali-10-day-sip-already.md`
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 1 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
 - [What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html) — 1 matches — see `what-seven-model-stock-portfolios-look.md`
+- [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of.md`
+- [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html) — 0 matches — see `lng-trucks-cost-about-what-diesel-does.md`
+- [The Rupee Fell 10% and Exports Grew 0.9%: What the Exchange Rate Actually Does to India's Trade](https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html) — 0 matches — see `the-rupee-fell-10-and-exports-grew-09.md`
