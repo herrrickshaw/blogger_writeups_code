@@ -8695,3 +8695,17 @@ Publish CCUS pipeline-cost post
 **Added**
 
 - `everyone-worries-about-who-pays-for` **v1.0.0** — Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part (38,983 bytes)
+
+## 2026-09-03T07:24:23+05:30 — 253 posts live
+
+Publish TN drainage/CBG/vector-disease fact-check post
+
+
+**Added**
+
+- `what-sewage-disposal-in-key-parts-of_0568573871` **v1.0.0** — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs (46,848 bytes)
+- `what-sewage-disposal-in-key-parts-of` **v1.0.0** — What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs (46,848 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `everyone-worries-about-who-pays-for` — 2026-09-03 &rarr; 2026-09-03
