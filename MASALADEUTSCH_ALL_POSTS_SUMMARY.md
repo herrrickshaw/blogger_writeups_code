@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*249 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*252 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 3 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 4 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (43)
+### Agriculture & Fertilisers (44)
 
+- **[ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html)** — 2026-09-03
+  Line up ICRA's most recent outlook notes across fourteen Indian sectors and a pattern falls out that no single sector report would show on its own: eleven sectors are Stable or improving, largely on the back of one thing — government infrastructure capex. The three that got downgraded to Negative in 2026 — aviation, fertilisers, and integrated oil refining and marketing — were all cut for the same reason, within weeks of each other, and it wasn't anything sector-specific.
 - **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
   A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
 - **[TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html)** — 2026-09-01
@@ -473,8 +475,10 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and just 3 producing anything. The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (66)
+### Energy & Fuels (67)
 
+- **[What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)** — 2026-09-03
+  Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
 - **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
   PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
 - **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
@@ -835,10 +839,12 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (60)
+### Industrial Policy (61)
 
 - **[Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)** — 2026-09-03
   The pipeline connecting a factory's smokestack to an underground storage site is not where India's CO2 sequestration bill actually gets large. CEEW's own network modelling puts that piece at $0.70–4.19 a tonne. A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more. The pipeline is a rounding error next to the capture cost, and the government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.
+- **[ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html)** — 2026-09-03
+  Line up ICRA's most recent outlook notes across fourteen Indian sectors and a pattern falls out that no single sector report would show on its own: eleven sectors are Stable or improving, largely on the back of one thing — government infrastructure capex. The three that got downgraded to Negative in 2026 — aviation, fertilisers, and integrated oil refining and marketing — were all cut for the same reason, within weeks of each other, and it wasn't anything sector-specific.
 - **[The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html)** — 2026-09-01
   A bad monsoon, a pest outbreak, a family that migrates for work — none of these are new problems, and India has built four very different systems to sit between a shock like that and the people it would otherwise hit hardest. One quietly pools risk across every insurance policy in the country. One pays farmers directly when a crop fails. One tries to stop the failure from happening at all. One makes sure that even when everything else works, the food itself still reaches whoever needs it, wherever they've moved. None of the four is usually described as part of the same system. This is what they look like put next to each other.
 - **[The Easiest EV Conversion in India Hasn't Happened Yet: The Government's Own Fleet](https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html)** — 2026-08-31
@@ -1280,10 +1286,12 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (9)
+### Unlabelled (10)
 
-- **[What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)** — 2026-09-03
-  Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
+- **[Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data](https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html)** — 2026-09-03
+  Twenty-four DPIIT quarterly newsletters, parsed and cross-checked against DPIIT's own printed sub-totals, now cover almost the whole run from October 2019 to March 2026. The picture that held up in the five-quarter version of this piece holds up even more strongly at full scale: four districts — Navi Mumbai, Bengaluru Urban, Delhi, Ahmedabad — have captured 72.6% of every rupee of FDI equity DPIIT has ever attributed to a specific district.
+- **[Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html)** — 2026-09-03
+  The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of any given return-over-cost-of-capital gap survives into the following year, and across the full history of US public companies, the average company's return has actually sat slightly below its cost of capital, not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
 - **[DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html)** — 2026-09-02
   India has awarded roughly 172 exploration blocks under OALP, backed by $4.36 billion in committed investment. Fourteen of them have produced a discovery. One has actually reached production. The bidding process itself — DGH's data rooms, year-round block nomination, work-programme scoring — is a genuinely well-designed system for handing out acreage. What happens after the award is the part worth scrutinising.
 - **[India's Oil PSUs Say They Clear Their MSME Quota Easily. The Portal Built to Prove It Doesn't Show Its Work](https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html)** — 2026-09-02
@@ -2540,12 +2548,27 @@ FIPI, the oil and gas industry's apex body, has been asking to bring natural gas
 
 PNGRB has approved real hydrogen-blending pilots in city gas networks at Indore, Surat and Ahmedabad — running at 1.1% to 5%, with one scaling toward 20%. The "up to 10%" figure often attached to this story traces back to a GAIL engineering slide hosted on PNGRB's own site, not a PNGRB policy target. As of the most recent check, the regulator is still drafting the rules that would actually govern blending, and needs its own founding Act amended before it can.
 
+### [Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data](https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html)
+*2026-09-03 · —*
+
+Twenty-four DPIIT quarterly newsletters, parsed and cross-checked against DPIIT's own printed sub-totals, now cover almost the whole run from October 2019 to March 2026. The picture that held up in the five-quarter version of this piece holds up even more strongly at full scale: four districts — Navi Mumbai, Bengaluru Urban, Delhi, Ahmedabad — have captured 72.6% of every rupee of FDI equity DPIIT has ever attributed to a specific district.
+
+### [Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html)
+*2026-09-03 · —*
+
+The textbook story is that a project's return chases down toward its cost of capital as competitors pile in and margins get arbitraged away. The empirical research behind that story tells a slower, messier version: on average, roughly 79% of any given return-over-cost-of-capital gap survives into the following year, and across the full history of US public companies, the average company's return has actually sat slightly below its cost of capital, not neatly converged to meet it. India's own 2026 sector data, already covered on this blog, shows both halves of the story playing out in real time.
+
 ### [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html)
 *2026-09-03 · Gas & LNG, Industrial Policy*
 
 The pipeline connecting a factory's smokestack to an underground storage site is not where India's CO2 sequestration bill actually gets large. CEEW's own network modelling puts that piece at $0.70–4.19 a tonne. A separate India-specific study puts the all-in cost — capture included — at ₹8,000–13,000 a tonne or more. The pipeline is a rounding error next to the capture cost, and the government's own ₹19,700 crore scheme covers a small fraction of what NITI Aayog says the buildout actually needs.
 
+### [ICRA Rates Most of India's Economy Stable. Three Sectors Got Hit by the Same Shock](https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html)
+*2026-09-03 · Agriculture & Fertilisers, Industrial Policy*
+
+Line up ICRA's most recent outlook notes across fourteen Indian sectors and a pattern falls out that no single sector report would show on its own: eleven sectors are Stable or improving, largely on the back of one thing — government infrastructure capex. The three that got downgraded to Negative in 2026 — aviation, fertilisers, and integrated oil refining and marketing — were all cut for the same reason, within weeks of each other, and it wasn't anything sector-specific.
+
 ### [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html)
-*2026-09-03 · —*
+*2026-09-03 · Energy & Fuels*
 
 Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
