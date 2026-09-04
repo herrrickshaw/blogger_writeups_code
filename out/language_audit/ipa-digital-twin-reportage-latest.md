@@ -4,9 +4,7 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/CYBER_COMPOUNDS]** The word “cybersecurity” is spelled as one.
-  context: ... to the state's infrastructure, health, cyber security and social welfare.  2026-08-25 Madhya ...
-  suggested: cybersecurity
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
 - **[GRAMMAR/NEWS_COMPOUNDS]** This is normally spelled as one word.
   context: ...se contest  2026-08-24 Andhra Pradesh · News wire Rs 32,000 crore corridor for Andhra: CM...
   suggested: Newswire

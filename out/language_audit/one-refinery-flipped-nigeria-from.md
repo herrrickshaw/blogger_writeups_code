@@ -4,6 +4,4 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/NODT_DOZEN]** Use “a million”, or use a number before ‘million’.
-  context: ...refined-product demand vs. net imports, million barrels/day 0 2 4 6 ~4 ~2 2024 >6 ~3.4 ...
-  suggested: a million
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

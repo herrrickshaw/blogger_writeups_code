@@ -13,3 +13,4 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ... imports, by SIPRI's five-year windows  Per cent of Indian arms imports supplied by Russ...
   suggested: Percent
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
