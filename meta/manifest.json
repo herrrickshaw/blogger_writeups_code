@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-03T14:05:28+05:30",
+  "snapshot": "2026-09-04T06:03:08+05:30",
   "count": 255,
   "posts": {
     "1058853159205559121": {
@@ -9631,10 +9631,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
       "slug": "where-indias-fdi-actually-lands-state",
       "published": "2026-09-03T13:14:49.000+05:30",
-      "updated": "2026-09-03T14:02:23.539+05:30",
+      "updated": "2026-09-04T06:02:43.760+05:30",
       "labels": [],
-      "bytes": 44231,
-      "sha256": "1e51fde1749f010c26ec730cb806c6952b0f2afc208933be63f0be04c3fe39ce",
+      "bytes": 44917,
+      "sha256": "84808d2633ce2ef28002b8c343eb2761185c9894681a974bb0d7cc19e79dc8f0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9646,7 +9646,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.0",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9667,6 +9667,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Extend FDI dashboard to 24 quarters from consolidated dataset"
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-04T06:03:08+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+          "bytes": [
+            44231,
+            44917
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Link full FDI dataset JSON from dashboard post"
         }
       ]
     },

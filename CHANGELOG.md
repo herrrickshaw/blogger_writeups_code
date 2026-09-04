@@ -8800,3 +8800,16 @@ Delete duplicate FDI dashboard post
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `where-indias-fdi-actually-lands-state_0955008544` — Where India's FDI Actually Lands: A State-and-District Dashboard From DPIIT's Own Tables
+
+## 2026-09-04T06:03:08+05:30 — 255 posts live
+
+Link full FDI dataset JSON from dashboard post
+
+
+**Versions**
+
+- `where-indias-fdi-actually-lands-state` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `where-indias-fdi-actually-lands-state` — 44,231 → 44,917 bytes (+686)
