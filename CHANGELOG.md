@@ -8813,3 +8813,12 @@ Link full FDI dataset JSON from dashboard post
 **Changed**
 
 - `where-indias-fdi-actually-lands-state` — 44,231 → 44,917 bytes (+686)
+
+## 2026-09-04T10:13:19+05:30 — 256 posts live
+
+Publish gazette-citation post; clean up 2 duplicate inserts
+
+
+**Added**
+
+- `interpreting-gazette-notification` **v1.0.0** — Interpreting the Gazette Notification (33,437 bytes)
