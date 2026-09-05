@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*252 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*253 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 4 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 5 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -1286,8 +1286,10 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (10)
+### Unlabelled (11)
 
+- **[Interpreting the Gazette Notification](https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html)** — 2026-09-04
+  Read any single Indian gazette notification on its own and you cannot tell whether it is the first version of a rule or the seventh, whether an earlier version was quietly withdrawn as a mistake, or whether the deadline it extends has already been extended thirty-five times before. A small independent research project set out to build a citation index for these notifications — what amends what, ministry by ministry — and in doing so surfaced a tribunal whose report deadline has been pushed back 36 times since 1986, still unresolved 40 years later, tracked nowhere as a single chain until now.
 - **[Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data](https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html)** — 2026-09-03
   Twenty-four DPIIT quarterly newsletters, parsed and cross-checked against DPIIT's own printed sub-totals, now cover almost the whole run from October 2019 to March 2026. The picture that held up in the five-quarter version of this piece holds up even more strongly at full scale: four districts — Navi Mumbai, Bengaluru Urban, Delhi, Ahmedabad — have captured 72.6% of every rupee of FDI equity DPIIT has ever attributed to a specific district.
 - **[Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html)** — 2026-09-03
@@ -2572,3 +2574,8 @@ Line up ICRA's most recent outlook notes across fourteen Indian sectors and a pa
 *2026-09-03 · Energy & Fuels*
 
 Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand crore rupees. A separate claim about drainage funding for Chennai road repairs doesn't match any source found. And the mosquito that upgraded drainage actually helps against isn't the one carrying dengue — it's the one carrying malaria, and that disease is already down to a few hundred cases statewide for reasons that have little to do with sewer pipes.
+
+### [Interpreting the Gazette Notification](https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html)
+*2026-09-04 · —*
+
+Read any single Indian gazette notification on its own and you cannot tell whether it is the first version of a rule or the seventh, whether an earlier version was quietly withdrawn as a mistake, or whether the deadline it extends has already been extended thirty-five times before. A small independent research project set out to build a citation index for these notifications — what amends what, ministry by ministry — and in doing so surfaced a tribunal whose report deadline has been pushed back 36 times since 1986, still unresolved 40 years later, tracked nowhere as a single chain until now.
