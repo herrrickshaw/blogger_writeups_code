@@ -11,7 +11,7 @@ No DeepSeek key exists on this machine (checked ~/.config/market-secrets/
 credentials.env). The panel:
 
     Gemini     gemini-flash-latest (ungrounded — see note in ask_gemini)
-    Groq       llama-3.3-70b-versatile (see note by GROQ_MODELS)
+    Groq       best available model on the key, discovered at run time (see GROQ_MODELS)
     Mistral    mistral-small-latest (see note by MISTRAL_MODEL) — key added
                2026-08-09, confirmed working incl. full-post-sized prompts;
                a REQUIRED/load-bearing model like Gemini and Groq, not
@@ -76,7 +76,11 @@ MAX_CHARS = 100_000
 # gemini-2.0-flash returns a hard "limit: 0" free-tier quota on this key (not a
 # transient rate limit); gemini-flash-latest is what this key actually has quota for.
 GEMINI_MODEL = "gemini-flash-latest"
-GROQ_MODELS = ["llama-3.3-70b-versatile"]
+GROQ_MODELS = ["llama-3.3-70b-versatile"]   # FALLBACK ONLY: main() replaces this with
+# groq_pick_model(), which reads the key's /models listing. Groq retired
+# llama-3.3-70b-versatile on or before 2026-09-06 (404 model_not_found), so a
+# hardcoded name silently turned every nightly Groq check into an error.
+# GROQ_MODEL=<id> in the environment pins a model and skips discovery.
 # openai/gpt-oss-120b and qwen/qwen3.6-27b share an org-wide free-tier cap of
 # 8000 tokens/minute on this account, which a full-length post plus prompt
 # (~9-11k tokens) blows past every time (413). llama-3.3-70b-versatile is the
@@ -193,6 +197,35 @@ def ask_gemini(k, text):
         return f"[Gemini network error: {e}]"
     cand = (d.get("candidates") or [{}])[0]
     return "".join(p.get("text", "") for p in cand.get("content", {}).get("parts", [])).strip() or "[empty response]"
+
+
+def groq_pick_model(k):
+    """Pick the Groq model to use from what THIS key can actually see.
+
+    Preference order keeps the 8000-tokens/minute caveat below in mind: a 70B
+    Llama has headroom for a full post; the GPT-OSS/Qwen models on this account
+    share a per-minute cap a full post exceeds, so they come last. Skips audio,
+    guard, embedding, vision and agentic "compound" entries. On any failure to
+    list models, returns the hardcoded fallback so a run can still proceed.
+    """
+    if os.environ.get("GROQ_MODEL"):
+        return os.environ["GROQ_MODEL"]
+    req = urllib.request.Request("https://api.groq.com/openai/v1/models",
+                                 headers={"Authorization": f"Bearer {k}", "User-Agent": UA})
+    try:
+        ids = [m["id"] for m in json.loads(urllib.request.urlopen(req, timeout=60).read()).get("data", [])]
+    except Exception as e:  # noqa: BLE001
+        print(f"  ! Groq: could not list models ({e}); falling back to {GROQ_MODELS[0]}", file=sys.stderr)
+        return GROQ_MODELS[0]
+    prefs = ["llama-3.3-70b-versatile", "llama-3.1-70b-versatile", "70b", "llama-4", "kimi-k2",
+             "gpt-oss-120b", "qwen", "gpt-oss", "llama"]
+    skip = re.compile(r"whisper|tts|guard|embed|vision|orpheus|playai|compound", re.I)
+    cands = [i for i in ids if not skip.search(i)]
+    for p in prefs:
+        for i in cands:
+            if p in i:
+                return i
+    return cands[0] if cands else GROQ_MODELS[0]
 
 
 def ask_groq(k, model, text):
@@ -418,6 +451,11 @@ def main():
     mk = key("MISTRAL_API_KEY", blob)
     kk = key_optional("MOONSHOT_API_KEY", blob)
     ck = key_optional("CEREBRAS_API_KEY", blob)
+
+    # Resolve the Groq model ONCE per run from the key's own catalogue; the
+    # hardcoded name is only the fallback (see the note by GROQ_MODELS).
+    GROQ_MODELS[:] = [groq_pick_model(qk)]
+    print(f"Groq model for this run: {GROQ_MODELS[0]}")
 
     # Probe the best-effort providers ONCE per run rather than discovering the
     # same dead endpoint on every post. Required models are never probed: if

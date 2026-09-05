@@ -232,31 +232,7 @@ def _post(url, body, headers, label):
     return None, last
 
 
-def groq_pick_model(k):
-    """Ask Groq which models this key can use and pick the best fit for a
-    ~11k-token prompt. Hardcoded names rot (llama-3.3-70b-versatile 404'd on
-    2026-09-06), so discover instead. Preference: the 70B Llama line, then a
-    Llama 4 / Kimi / GPT-OSS large model, then anything that looks like a chat
-    model. Override with GROQ_MODEL=<id> in the environment."""
-    import os
-    if os.environ.get("GROQ_MODEL"):
-        return os.environ["GROQ_MODEL"]
-    req = urllib.request.Request("https://api.groq.com/openai/v1/models",
-                                 headers={"Authorization": f"Bearer {k}", "User-Agent": mm.UA})
-    try:
-        ids = [m["id"] for m in json.loads(urllib.request.urlopen(req, timeout=60).read()).get("data", [])]
-    except Exception as e:  # noqa: BLE001 -- fall back to the configured name
-        print(f"    Groq: could not list models ({e}); using {mm.GROQ_MODELS[0]}", flush=True)
-        return mm.GROQ_MODELS[0]
-    prefs = ["llama-3.3-70b-versatile", "llama-3.1-70b-versatile", "70b", "llama-4", "kimi-k2", "gpt-oss-120b",
-             "qwen", "gpt-oss", "llama"]
-    skip = re.compile(r"whisper|tts|guard|embed|vision|orpheus|playai|compound", re.I)
-    cands = [i for i in ids if not skip.search(i)]
-    for p in prefs:
-        for i in cands:
-            if p in i:
-                return i
-    return cands[0] if cands else mm.GROQ_MODELS[0]
+groq_pick_model = mm.groq_pick_model   # canonical picker lives in the fact-check tool
 
 
 def ask_openai_compat(label, url, model, k, text):
