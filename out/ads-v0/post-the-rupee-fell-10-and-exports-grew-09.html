@@ -1,0 +1,350 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+.gb-warn{background:#fff8e6;border:1px solid #f0d48a;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em;color:#5c4813}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4">The textbook is unambiguous: a weaker currency makes your exports cheaper abroad, so exports rise. India has just run that experiment at scale, and the result is awkward.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Trade &middot; Currency &middot; India Macro &middot; 4 August 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">The Rupee Fell 10% and Exports Grew 0.9%: What the Exchange Rate Actually Does to India's Trade</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#ffffff" />
+<text x="40" y="34" font-size="16" font-weight="700" fill="#212529">Which exports actually move with the rupee?</text>
+<text x="40" y="54" font-size="12" fill="#868e96">Correlation of sector exports with USD/INR, 2014&#8211;2023 (India Exim Bank)</text>
+
+<line x1="400" y1="80" x2="400" y2="330" stroke="#adb5bd" stroke-width="1" />
+<text x="400" y="345" font-size="11" fill="#868e96" text-anchor="middle">0</text>
+<text x="220" y="345" font-size="11" fill="#868e96" text-anchor="middle">rupee falls, exports fall too &#8592;</text>
+<text x="580" y="345" font-size="11" fill="#868e96" text-anchor="middle">&#8594; rupee falls, exports rise</text>
+
+<rect x="400" y="88" width="186" height="26" fill="#0b5794" />
+<text x="45" y="105" font-size="12.5" fill="#212529">Electronics</text>
+<text x="595" y="105" font-size="12.5" fill="#0b5794" font-weight="700">+0.93</text>
+
+<rect x="400" y="122" width="184" height="26" fill="#0b5794" />
+<text x="45" y="139" font-size="12.5" fill="#212529">Chemicals</text>
+<text x="593" y="139" font-size="12.5" fill="#0b5794" font-weight="700">+0.92</text>
+
+<rect x="400" y="156" width="184" height="26" fill="#0b5794" />
+<text x="45" y="173" font-size="12.5" fill="#212529">Machinery</text>
+<text x="593" y="173" font-size="12.5" fill="#0b5794" font-weight="700">+0.92</text>
+
+<rect x="400" y="190" width="62" height="26" fill="#7ba7cc" />
+<text x="45" y="207" font-size="12.5" fill="#212529">Transport equipment</text>
+<text x="471" y="207" font-size="12.5" fill="#5c8bb0" font-weight="700">+0.31</text>
+
+<rect x="352" y="224" width="48" height="26" fill="#e8a0a0" />
+<text x="45" y="241" font-size="12.5" fill="#212529">Textiles</text>
+<text x="290" y="241" font-size="12.5" fill="#c92a2a" font-weight="700">&#8722;0.24</text>
+
+<rect x="298" y="258" width="102" height="26" fill="#d97a7a" />
+<text x="45" y="275" font-size="12.5" fill="#212529">Gems &amp; jewellery</text>
+<text x="240" y="275" font-size="12.5" fill="#c92a2a" font-weight="700">&#8722;0.51</text>
+
+<rect x="266" y="292" width="134" height="26" fill="#c92a2a" />
+<text x="45" y="309" font-size="12.5" fill="#212529">Leather</text>
+<text x="208" y="309" font-size="12.5" fill="#c92a2a" font-weight="700">&#8722;0.67</text>
+
+<text x="40" y="366" font-size="11" fill="#868e96">Bivariate correlation, 10 annual observations &#8212; not a controlled elasticity estimate.</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Which exports actually move with the rupee: electronics, chemicals and machinery track it closely, but leather, gems and textiles have historically done better when the rupee was strong. Source: India Exim Bank, 2014-2023 correlations.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p>Over FY2025-26, the rupee went from about <strong>&#8377;85.5 to the dollar (period-end) to &#8377;94.4 (period-end)</strong> &mdash; a fall of roughly <strong>10.4%</strong>. Merchandise exports over the same year grew <strong>0.93%</strong>, from $437.70 billion to $441.78 billion. Strip out petroleum, and non-petroleum exports did better at +3.62%, but nothing in that range resembles the boost a 10% price advantage is supposed to buy. The rupee did the work; the exports did not follow.</p>
+
+<p>This is not a one-year fluke. Stretch the window back four years and the divergence is the whole picture:</p>
+
+
+<div style="text-align:center;margin:1.5rem 0">
+<svg role="img" aria-label="Chart contrasting the fiscal-year average rupee-per-dollar rate against merchandise exports in US dollars billion: the rupee kept falling while exports flatlined." viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:-apple-system,'Segoe UI',sans-serif">
+<rect x="0" y="0" width="720" height="380" fill="#f8f9fa" rx="12"/>
+<text x="40" y="34" font-size="15" font-weight="700" fill="#212529">The rupee kept falling. Exports flatlined.</text>
+<text x="40" y="54" font-size="12" fill="#868e96">Fiscal-year average &#8377;/$ (red, left) vs merchandise exports US$ bn (blue, right)</text>
+
+<line x1="70" y1="90" x2="70" y2="310" stroke="#adb5bd" stroke-width="1"/>
+<line x1="70" y1="310" x2="650" y2="310" stroke="#adb5bd" stroke-width="1"/>
+
+<text x="62" y="95" font-size="11" fill="#c92a2a" text-anchor="end">90</text>
+<text x="62" y="200" font-size="11" fill="#c92a2a" text-anchor="end">82</text>
+<text x="62" y="308" font-size="11" fill="#c92a2a" text-anchor="end">74</text>
+
+<text x="660" y="95" font-size="11" fill="#0b5394">460</text>
+<text x="660" y="200" font-size="11" fill="#0b5394">420</text>
+<text x="660" y="308" font-size="11" fill="#0b5394">380</text>
+
+<polyline points="120,300 252,220 384,191 516,166 648,111" fill="none" stroke="#c92a2a" stroke-width="3"/>
+<circle cx="120" cy="300" r="4" fill="#c92a2a"/><circle cx="252" cy="220" r="4" fill="#c92a2a"/><circle cx="384" cy="191" r="4" fill="#c92a2a"/><circle cx="516" cy="166" r="4" fill="#c92a2a"/><circle cx="648" cy="111" r="4" fill="#c92a2a"/>
+
+<polyline points="120,196 252,119 384,156 516,154 648,143" fill="none" stroke="#0b5394" stroke-width="3" stroke-dasharray="6,4"/>
+<circle cx="120" cy="196" r="4" fill="#0b5394"/><circle cx="252" cy="119" r="4" fill="#0b5394"/><circle cx="384" cy="156" r="4" fill="#0b5394"/><circle cx="516" cy="154" r="4" fill="#0b5394"/><circle cx="648" cy="143" r="4" fill="#0b5394"/>
+
+<text x="120" y="330" font-size="12" fill="#495057" text-anchor="middle">FY22</text>
+<text x="252" y="330" font-size="12" fill="#495057" text-anchor="middle">FY23</text>
+<text x="384" y="330" font-size="12" fill="#495057" text-anchor="middle">FY24</text>
+<text x="516" y="330" font-size="12" fill="#495057" text-anchor="middle">FY25</text>
+<text x="648" y="330" font-size="12" fill="#495057" text-anchor="middle">FY26</text>
+
+<text x="120" y="290" font-size="11" fill="#c92a2a" text-anchor="middle">74.4</text>
+<text x="648" y="103" font-size="11" fill="#c92a2a" text-anchor="middle">88.8</text>
+<text x="252" y="110" font-size="11" fill="#0b5394" text-anchor="middle">451</text>
+<text x="664" y="147" font-size="11" fill="#0b5394" text-anchor="middle">442</text>
+
+<text x="150" y="360" font-size="12" fill="#c92a2a" font-weight="700">&#9473; Rupee: 19% weaker over four years</text>
+<text x="430" y="360" font-size="12" fill="#0b5394" font-weight="700">&#9476; Exports: -2.0% over the same four years</text>
+</svg>
+<div class="gb-note">Rupee: fiscal-year average of monthly USD/INR (Yahoo Finance data). Exports: Ministry of Commerce &amp; Industry / PIB monthly trade releases; figures for earlier years are as subsequently revised.</div>
+</div>
+
+<div class="gb-h2">1. Why the textbook mechanism misfires in India</div>
+
+<p>Three things break the simple story, and all three are measurable.</p>
+
+<p><strong>First, India's exports are built out of imports.</strong> The India Exim Bank's Occasional Paper No. 228 (2025) puts the import intensity of raw material for Indian manufacturing at <strong>33.4%</strong> in FY2022-23 &mdash; a third of every rupee of raw material is bought abroad. More striking: <strong>56.2% of India's merchandise exports come from industries whose import intensity is above that 33.4% average.</strong> When the rupee falls, those firms' input bills rise in lockstep with their revenue. The depreciation gives with one hand and takes with the other. Note also that manufacturing's overall <em>export orientation</em> is just <strong>6.5%</strong> of sales &mdash; most Indian factories sell at home, so the currency is a second-order variable for them.</p>
+
+<p><strong>Second, the dollar prices the trade, not the rupee.</strong> Under what economists call the Dominant Currency Paradigm, most Indian exports are invoiced in US dollars regardless of who is buying. The Exim Bank papers cite the Gopinath&ndash;Boz&ndash;Plagborg-M&oslash;ller estimates: a 10% depreciation against the <em>dollar</em> raises a country's import prices in local currency by <strong>7.8%</strong>, while a 10% depreciation against its actual <em>trading partners</em> raises them by only <strong>1.6%</strong>. Pass-through is roughly 0.78 for the dollar and 0.16 for everything else. If the invoice is written in dollars, a falling rupee does not lower the price the foreign buyer sees. It just changes what the Indian exporter books at home. The same research finds a 1% dollar appreciation against all other currencies predicts a <strong>0.6% fall in trade volumes</strong> among the rest of the world within a year &mdash; the dollar's level matters more to world trade than any single bilateral rate.</p>
+
+<p><strong>Third, demand swamps price.</strong> This is the finding that should reorder the debate. In the Exim Bank's own model (quarterly data 2005 Q1&ndash;2021 Q3, ARDL bounds-testing), the long-run elasticity of India's real exports to <strong>world GDP is 4.15</strong> &mdash; significant at 1%. The exchange-rate elasticity is roughly a quarter of that, and only significant at 5%. In the short run, the exchange-rate terms are <strong>not statistically significant at all</strong>. What sells Indian goods abroad is foreign customers having money, not Indian goods being marked down.</p>
+
+<div class="gb-pull">A currency is a price. Exports are a demand problem. India has spent two decades debating the price.</div>
+
+<div class="gb-h2">2. The Exim Bank reversed its own conclusion &mdash; and did not say so</div>
+
+<p>Here is the part that deserves more attention than it has received. India Exim Bank has published two studies on this question using the same statistical method, and they reach <strong>opposite conclusions</strong>.</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th></th><th>Occasional Paper 188 (c. 2018)</th><th>Occasional Paper 228 (2025)</th></tr></thead>
+<tbody>
+<tr><td><strong>Data window</strong></td><td>2004 Q4 &ndash; 2017 Q4</td><td>2005 Q1 &ndash; 2021 Q3</td></tr>
+<tr><td><strong>Scope</strong></td><td>Bilateral: exports to USA and Euro Area</td><td>Multilateral: exports to the world</td></tr>
+<tr><td><strong>Direction</strong></td><td><strong>Depreciation raises exports</strong></td><td><strong>Appreciation raises exports</strong></td></tr>
+<tr><td><strong>Estimate</strong></td><td>1% depreciation &rarr; +0.3% exports to the USA</td><td>1% REER appreciation &rarr; +1.07% exports to the world</td></tr>
+<tr><td><strong>Volatility, short run</strong></td><td>&ldquo;significant and negative&rdquo;</td><td>claimed positive</td></tr>
+<tr><td><strong>Policy read</strong></td><td>RBI &ldquo;prudent in not intervening&rdquo;; letting the rupee fall was right</td><td>A stronger rupee is &ldquo;a powerful lever&rdquo; for exports</td></tr>
+</tbody></table></div>
+
+<p>This is not a sign-convention artefact. The 2018 paper quotes the rate in rupees per unit of foreign currency, so its positive coefficient genuinely means depreciation helps; the 2025 paper uses an index where a rise means appreciation, so its positive coefficient genuinely means appreciation helps. The two are opposed in economic content. The 2025 paper lists its predecessor in its own back-matter and never reconciles with it.</p>
+
+<p>The 2025 paper's explanation for its counterintuitive result is the import-intensity channel: a stronger rupee cheapens imported inputs, cuts production costs, and improves competitiveness on net. That is a plausible mechanism &mdash; but the model contains no input-cost variable, so it is a rationalisation offered after the fact rather than a tested pathway.</p>
+
+<div class="gb-warn">
+<strong>Read the numbers with care.</strong> The +1.07 REER elasticity is the weakest of the three coefficients in its own model (p = 0.025; the standard error is 0.459, so the 95% confidence interval runs roughly from 0.17 to 1.97). The same paper cites, without comment, the Economic Survey 2023-24's NEER elasticity of <strong>&minus;0.7</strong> &mdash; pointing the opposite way &mdash; and the Survey's finding that the Marshall-Lerner condition holds for India. The sample also ends in 2021 Q3, before the dollar-tightening cycle and the rupee slide the paper was published into. Treat the direction of the debate as unsettled, not the matter as decided.
+</div>
+
+<div class="gb-h2">3. Which sectors actually care about the rupee</div>
+
+<p>The aggregate hides enormous variation. Sorting India's ten largest export industries by export orientation and import intensity produces four very different currency exposures:</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Quadrant</th><th>Sectors</th><th>Import intensity</th><th>What a weaker rupee does</th></tr></thead>
+<tbody>
+<tr><td><strong>Export-intensive</strong><br>(high exports, low imports)</td><td>Textiles, leather</td><td>Low</td><td>Should benefit &mdash; the classic textbook case</td></tr>
+<tr><td><strong>Trade-intensive</strong><br>(high exports, high imports)</td><td>Gems &amp; jewellery, electronics, petroleum, chemicals</td><td>Petroleum 80%, gems 68.4%, electronics 64.0%</td><td>Mixed &mdash; export gain offset by input-cost rise</td></tr>
+<tr><td><strong>Import-intensive</strong><br>(low exports, high imports)</td><td>Machinery</td><td>Above average</td><td>Pure loss &mdash; benefits from a <em>stronger</em> rupee</td></tr>
+<tr><td><strong>Domestically oriented</strong></td><td>Transport equipment, food &amp; agro, metals</td><td>Food &amp; agro 8.7%</td><td>Muted &mdash; mostly indirect, via imported inflation</td></tr>
+</tbody></table></div>
+
+<p>The Exim Bank also correlates each sector's exports against the rupee over 2014&ndash;2023. Electronics (0.93), chemicals (0.92) and machinery (0.92) move most with the currency. But three sectors show the <em>wrong</em> sign &mdash; leather (&minus;0.67), gems &amp; jewellery (&minus;0.51) and textiles (&minus;0.24) &mdash; meaning their exports have historically done better when the rupee was stronger. For gems and jewellery the reason is structural: more than two-thirds of its raw material is imported, so cheaper gold and rough stones widen value-addition margins.</p>
+
+<p>Only one sector gets the full textbook benefit &mdash; depreciation improving both exports and the trade balance &mdash; and that is <strong>food and agro-based products</strong>, which imports just 8.7% of its raw material. It is India's genuinely home-grown export.</p>
+
+<p class="gb-note">Caveat worth stating plainly: those correlations are simple bivariate coefficients on ten annual observations, with no controls and no significance tests reported. At n=10 the 5% threshold is around |r| = 0.63, so the textiles (&minus;0.24) and transport equipment (0.31) readings are statistically indistinguishable from zero. The rupee also fell almost monotonically over 2014&ndash;2023, so much of what these correlations capture is a shared trend rather than causation. Use them for ranking, not as elasticities.</p>
+
+<div class="gb-h2">4. How the central bank actually operates on the rate</div>
+
+<p>The RBI's stated doctrine has been consistent since the rupee was floated in March 1993, and it is deliberately modest. In its own words to the BIS, the Bank intervenes &ldquo;occasionally, only for maintaining orderly conditions in the market by curbing excessive volatility,&rdquo; and does so &ldquo;without targeting any specific exchange rate.&rdquo; It describes the approach as <em>leaning against the wind</em>, and pointedly notes that India &ldquo;has never resorted to any kind of competitive depreciation to gain export advantage.&rdquo;</p>
+
+<p><strong>The mechanics are less well known than the doctrine:</strong></p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Lever</th><th>How it works</th></tr></thead>
+<tbody>
+<tr><td><strong>Spot intervention</strong></td><td>Buying or selling dollars against rupees with authorised dealer banks. Directly moves the rate, directly moves rupee liquidity.</td></tr>
+<tr><td><strong>Forward market</strong></td><td>The RBI says the effect on inter-bank spot rates is the same, but the forward leg gives it &ldquo;greater manoeuvrability for modulating domestic rupee liquidity&rdquo; &mdash; the FX effect without the immediate liquidity effect.</td></tr>
+<tr><td><strong>Indirect execution</strong></td><td>The general preference is to deal through selected banks rather than openly, because confidentiality &ldquo;enhances effectiveness.&rdquo; Intervention data is published monthly, with a long lag.</td></tr>
+<tr><td><strong>Sterilisation</strong></td><td>OMOs, CRR changes, and the Market Stabilisation Scheme &mdash; the MSS being the preferred tool during heavy inflows. It mops up the rupees created when the RBI buys dollars.</td></tr>
+<tr><td><strong>Capital-account management</strong></td><td>For durable effect, intervention is paired with rules on FII limits, ECB ceilings, NRI deposit rates, and restrictions on rebooking cancelled forward contracts.</td></tr>
+</tbody></table></div>
+
+<p>The Market Stabilisation Scheme deserves a note, because it exists to work around a legal constraint most people do not know about. The RBI Act bars the Bank from issuing securities in its own name and from borrowing beyond its paid-up capital of &#8377;5 crore. Unlike the central banks of Mexico, Malaysia, Korea or Poland, it cannot issue central-bank bills to soak up liquidity. By the early 2000s, sustained capital inflows meant the RBI was literally <em>running out of government paper</em> to sell. The MSS was the fix: the <em>Government</em> issues the securities, the proceeds go into a frozen account at the RBI that the Government may not spend, and the interest cost appears explicitly in the Union Budget. It is an unusually honest arrangement &mdash; the fiscal cost of managing the currency is on the books rather than buried in the central bank's accounts.</p>
+
+<p>Managing the rate is not free. Because reserves earn foreign interest rates while the sterilisation bonds pay Indian ones, holding reserves is a negative-carry proposition that drags the RBI's transferable surplus. By 2003-04, foreign sources already generated 63.6% of the Bank's income while foreign assets were an even larger share of its balance sheet &mdash; the gap is the carry cost. And the deeper structural point, in the RBI's own framing, is that India's reserves are not <strong>&ldquo;earned&rdquo;</strong> through a current-account surplus but <strong>&ldquo;borrowed&rdquo;</strong> from capital inflows, and &ldquo;may be required to be returned should the capital flow reverse.&rdquo;</p>
+
+<div class="gb-h2">5. Does the doctrine match the behaviour?</div>
+
+<p>Not entirely, at least historically. Patnaik and Shah tested India's <em>de facto</em> regime against the official &ldquo;market-determined&rdquo; description using a Frankel-Wei regression over April 1993 to December 2006. Their result: the dollar's coefficient is <strong>0.956 with a t-statistic of 88.2</strong>, while the yen (0.029), euro (0.052) and pound (0.021) are statistically detectable but economically trivial. Daily volatility tells the same story &mdash; the rupee against the dollar sat at 0.291, roughly half of every other currency pair in their table, while the rupee against the pound, euro and yen looked like perfectly ordinary cross-rates.</p>
+
+<p>Their conclusion was blunt: India ran a de facto dollar peg, and reserve accumulation was the mechanical residue of maintaining it rather than a deliberate insurance policy. Their measured flexibility index for India was <strong>0.03</strong> &mdash; and, awkwardly, the probability that the rupee barely moved over a month <em>rose</em> from 84.5% before the 1993 reform to 93.4% after it. The float made the currency stickier, not freer.</p>
+
+<p>That window closes in 2006, and the years since have included genuinely large two-way moves &mdash; the rupee fell 12.4% in 2011-12 and has fallen sharply again through FY2025-26 &mdash; so the peg finding should not be read forward mechanically. But it establishes the useful habit: judge a currency regime by what the data does, not by what the central bank calls it.</p>
+
+<p>The RBI's own honest admission in the same BIS paper is that the real exchange rate is a poor operational guide. In December 2012 the rupee was simultaneously <em>overvalued</em> on the 6-currency REER (104.71) and <em>undervalued</em> on the 36-currency REER (90.74). Its verdict: &ldquo;the REER is not a very effective tool in deciding on the timing of interventions.&rdquo; The measure everyone quotes is directionally useful and operationally close to useless.</p>
+
+<div class="gb-h2">6. What Exim banks actually do &mdash; and what they do not</div>
+
+<p>One correction is worth making explicitly, because the two institutions get conflated. <strong>Export-import banks do not regulate exchange rates.</strong> No Exim bank anywhere sets, defends, or intervenes in a currency. That power sits with the central bank and, in India's case, with the RBI under the Foreign Exchange Management Act, 1999, which replaced the restrictive FERA regime and moved the country from exchange <em>control</em> to exchange <em>management</em>.</p>
+
+<p>India Exim Bank, established under the Export-Import Bank of India Act, 1981, is a credit institution. It works on the other side of the same problem &mdash; not by changing the price of the currency, but by insulating exporters from it and financing the buyer. Its instruments are:</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Instrument</th><th>What it does for the exchange-rate problem</th></tr></thead>
+<tbody>
+<tr><td><strong>Lines of Credit</strong> to foreign governments, banks and institutions</td><td>The overseas buyer gets financing tied to purchasing from India. Demand is created contractually rather than through price competitiveness &mdash; the currency becomes irrelevant to the sale.</td></tr>
+<tr><td><strong>Pre- and post-shipment credit</strong>, in rupees or foreign currency</td><td>Letting an exporter borrow in the same currency it will be paid in is a natural hedge; it removes the mismatch rather than betting on the rate.</td></tr>
+<tr><td><strong>Buyer's credit and project-export finance</strong></td><td>Converts a price-sensitive spot sale into a long-dated contracted flow, which strips out short-term currency risk.</td></tr>
+<tr><td><strong>Guarantees and letters of credit</strong></td><td>Shifts payment risk off the exporter, who is usually too small to carry it.</td></tr>
+</tbody></table></div>
+
+<p>The scale is real: India Exim Bank sanctioned fresh loans of about <strong>&#8377;1.4 lakh crore in FY2024-25</strong>, with the loan portfolio growing 18%. That is the practical answer to a volatile rupee &mdash; not trying to fix the price, but making sure the exporter does not have to care what the price is on any given morning. The Exim Bank's own sectoral advice runs the same way: trade-intensive firms should hedge and diversify input suppliers; import-intensive firms should seek fixed-price arrangements with suppliers.</p>
+
+<div class="gb-h2">The takeaway</div>
+
+<div class="gb-card">
+<ul style="margin:.25rem 0 .25rem 1.1rem;padding:0">
+<li style="margin-bottom:.6rem"><strong>The FY2025-26 evidence is hard to argue with.</strong> A 10.4% depreciation produced 0.93% merchandise export growth. Whatever the exchange rate is doing for Indian exports, it is not the binding constraint.</li>
+<li style="margin-bottom:.6rem"><strong>Import intensity is the reason.</strong> With a third of manufacturing raw material imported and 56.2% of exports coming from above-average import-intensity industries, depreciation raises costs almost as fast as it raises rupee revenue.</li>
+<li style="margin-bottom:.6rem"><strong>Dollar invoicing does the rest.</strong> With pass-through of about 0.78 to the dollar and 0.16 to everything else, a falling rupee mostly does not reach the foreign buyer's price tag.</li>
+<li style="margin-bottom:.6rem"><strong>Demand is four times the lever that price is.</strong> World-GDP elasticity of 4.15 against an exchange-rate elasticity near 1 &mdash; and the latter statistically insignificant in the short run &mdash; says market access and global growth beat currency competitiveness.</li>
+<li style="margin-bottom:.6rem"><strong>The policy debate is genuinely unsettled,</strong> and India's own export credit agency has argued both sides within seven years. Anyone claiming the question is closed is not reading the footnotes.</li>
+<li><strong>The two institutions do different jobs.</strong> The RBI manages the price of the currency and pays a real carry cost to do it. The Exim Bank makes the price matter less. For an exporter, the second is more actionable than the first.</li>
+</ul>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<ul style="margin:.5rem 0 0 1.1rem;padding:0"><li><a href="https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html">If India Paid BRICS in Rupees</a> &mdash; a scenario model of settling 41% of the import bill in local currencies, and the constraint that stops it</li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central Bank</a> &mdash; how the RBI's rate corridor and liquidity windows work, and why FX intervention drains domestic liquidity</li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook</a> &mdash; the other side of the currency question: borrowing abroad and the FX leg of carry</li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India's Import Bill Is Commodities</a> &mdash; the import dependence that makes depreciation so expensive</li>
+</ul>
+</div>
+
+<div class="gb-card">
+<div style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;margin-bottom:.5rem">Sources</div>
+<div class="gb-note">India Exim Bank, Occasional Paper No. 228, <em>Impact of Exchange Rate Movements on India's Exports</em> (2025) &mdash; ARDL estimates, import-intensity and export-orientation data (CMIE, FY2022-23, 10,844 companies), sectoral correlations 2014&ndash;2023, four-quadrant classification &middot; India Exim Bank, Occasional Paper No. 188, <em>Exchange Rate Dynamics and its Impact on India's Exports to USA and EU</em> (c. 2018) &middot; Reserve Bank of India, <em>Intervention in foreign exchange markets: the approach of the Reserve Bank of India</em>, BIS Papers No. 73 (February 2013) &mdash; intervention doctrine, mechanics, sterilisation toolkit, REER divergence, reserve-adequacy framing &middot; Ila Patnaik &amp; Ajay Shah, <em>India's Currency Regime</em>, Department of Economic Affairs (4 July 2007) &mdash; Frankel-Wei estimates, cross-currency volatility, flexibility index &middot; Jadhav, Ray, Bose &amp; Sen Gupta, <em>The Reserve Bank of India's Balance Sheet: Analytics and Dynamics of Evolution</em>, RBI Occasional Papers Vol. 24 No. 3 (Winter 2003) &mdash; MSS design and legal constraints, revaluation accounts, income composition &middot; Bhagwati, Barua &amp; Khan, <em>Is the Rupee Over-valued?</em>, ICRIER Working Paper 304 (June 2015) &middot; Reserve Bank Staff College, <em>RBI Functions &amp; Working</em> (November 2017) &mdash; FEMA and the evolution of the FX market &middot; Gopinath, Boz, Casas, D&iacute;ez, Gourinchas &amp; Plagborg-M&oslash;ller, NBER Working Paper 22943 (dominant-currency pass-through) &middot; Ministry of Commerce &amp; Industry / PIB trade releases (FY2025-26 export data, released 15 April 2026) &middot; Exchange-rate series from Yahoo Finance, fiscal-year averages computed by the author &middot; India Exim Bank FY2024-25 results announcement (loan sanctions and portfolio growth).</div>
+</div>
+
+<div class="gb-note" style="margin-top:2rem;border-top:1px solid #dee2e6;padding-top:1rem">This article was researched and drafted with the assistance of AI tools, working from the primary documents cited above. Statistical caveats flagged in the text reflect limitations stated in, or evident from, the source papers themselves. Nothing here is investment or trade-finance advice; readers should consult the original papers and current RBI circulars before acting.</div>
+
+</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

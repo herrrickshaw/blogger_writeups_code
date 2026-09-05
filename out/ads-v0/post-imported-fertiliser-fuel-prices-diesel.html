@@ -1,0 +1,400 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<meta name="hz:canvas-width" content="1180">
+
+<div class="bulletin">
+  <div class="sheet">
+    <div class="masthead">
+      <div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Correlates the WPI sub-indices for diesel (HSD) and fertilisers (urea, DAP) — the domestic price points where this repo's own import-value growth for mineral fuels (HS27) and fertilisers (HS31) actually lands — against WPI and CPI headline and food inflation, 2012–2026. Cross-checked against five published studies on import-price pass-through in India.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<div style="order:2" class="eyebrow">MoSPI Dataset Analysis — Statistical Bulletin</div>
+<h1 style="order:3">Diesel passes straight through to WPI. Fertiliser mostly doesn't — because subsidy absorbs it.</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+  <text x="350" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a1a">Import-linked inputs: cumulative price change</text>
+  <text x="350" y="54" text-anchor="middle" font-size="13" fill="#555">WPI item series, April 2012 to April 2026 (2011-12=100)</text>
+
+  
+  <line x1="90" y1="300" x2="640" y2="300" stroke="#333" stroke-width="1.5" />
+
+  
+  <rect x="140" y="112" width="120" height="188" fill="#0b5794" />
+  <text x="200" y="100" text-anchor="middle" font-size="20" font-weight="700" fill="#0b5794">+79.0%</text>
+  <text x="200" y="322" text-anchor="middle" font-size="14" fill="#1a1a1a">Diesel (HSD)</text>
+
+  
+  <rect x="330" y="200" width="120" height="100" fill="#1a8f4c" />
+  <text x="390" y="188" text-anchor="middle" font-size="20" font-weight="700" fill="#1a8f4c">+41.9%</text>
+  <text x="390" y="322" text-anchor="middle" font-size="14" fill="#1a1a1a">DAP</text>
+
+  
+  <rect x="520" y="267" width="120" height="33" fill="#1a8f4c" opacity="0.55" />
+  <text x="580" y="255" text-anchor="middle" font-size="20" font-weight="700" fill="#3a7a55">+13.8%</text>
+  <text x="580" y="322" text-anchor="middle" font-size="14" fill="#1a1a1a">Urea</text>
+
+  <text x="350" y="352" text-anchor="middle" font-size="12.5" fill="#444">Diesel moves almost 1:1 with WPI (r = 0.92); subsidy insulates urea, only partly shields DAP</text>
+  <text x="350" y="370" text-anchor="middle" font-size="11" fill="#888">Source: Office of the Economic Adviser, DPIIT (eaindustry.nic.in), retrieved 5 Aug 2026</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem"></figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      
+
+
+
+      
+      <div class="source-line">SOURCE: Wholesale Price Index (item-level series for HSD/diesel, Urea and Di-ammonium Phosphate) from the Office of the Economic Adviser, DPIIT, Ministry of Commerce &amp; Industry — eaindustry.nic.in, base 2011-12 series, retrieved 5 Aug 2026; Consumer Price Index (base 2012) from MoSPI. WPI is published by DPIIT, not MoSPI. Cumulative changes quoted below run April 2012 to April 2026, the full span of the 2011-12 base series. WPI has since been rebased to 2022-23; on that current series the same story holds — June 2026 YoY was +32.57% for diesel, +1.09% for urea and +12.63% for DAP.</div>
+    </div>
+
+    <div class="stat-strip" id="statStrip"></div>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">The input-cost side: diesel, urea, DAP, and the WPI they feed</h2>
+        <p class="block-note">April-anchor annual snapshot, WPI 2011-12 = 100, FY2012 through FY2026.</p>
+      </div>
+      <div class="chart-card">
+        <svg role="img" aria-label="The input-cost side: diesel, urea, DAP, and the WPI they feed. April-anchor annual snapshot, WPI 2011-12 = 100, FY2012 through FY2026." id="inputChart" viewBox="0 0 1000 420" preserveAspectRatio="none"></svg>
+        <div class="tooltip" id="inputTooltip"></div>
+      </div>
+      <div class="legend-row">
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--line-2)"></span> HSD (diesel)</span>
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--line-3)"></span> Urea</span>
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--line-4)"></span> DAP</span>
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--data-line)"></span> WPI headline</span>
+      </div>
+      <p class="legend-note">Since April 2012: <b>diesel (HSD) is up 79.0%</b>, moving almost exactly with global crude and tracking WPI headline itself (same-year growth correlation <b>r = 0.92</b>) — diesel isn't just <i>correlated</i> with WPI, it's one of the components that <i>defines</i> WPI's fuel weight, so a nearly 1:1 relationship is closer to accounting than causation. <b>Urea is up only 13.8%</b> over the same 14 years, despite global fertiliser-price shocks in 2021&ndash;22 and 2023 (a 2008 shock also hit fertiliser prices hard, but predates this chart's 2012-2026 window) — the subsidy regime holds the retail/wholesale price down almost regardless of what happens at the border. <b>DAP, with a smaller and less consistent subsidy share, is up 41.9%</b> — roughly midway between urea's near-total insulation and diesel's full exposure.</p>
+
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">Where it's supposed to land: WPI and CPI, headline and food</h2>
+        <p class="block-note">Same April-anchor method, CPI 2012 = 100, 2013 through 2025.</p>
+      </div>
+      <div class="chart-card">
+        <svg role="img" aria-label="Where it&#x27;s supposed to land: WPI and CPI, headline and food. Same April-anchor method, CPI 2012 = 100, 2013 through 2025." id="cpiChart" viewBox="0 0 1000 420" preserveAspectRatio="none"></svg>
+        <div class="tooltip" id="cpiTooltip"></div>
+      </div>
+      <div class="legend-row">
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--data-line)"></span> CPI headline</span>
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--line-2)"></span> CPI food &amp; beverages</span>
+        <span class="legend-item"><span class="legend-swatch" style="background:var(--line-3)"></span> CPI oils &amp; fats</span>
+      </div>
+      <p class="legend-note"><b>CPI oils &amp; fats is the one series here that moves in genuinely dramatic swings</b> — not shown by the April-anchor line alone: the actual monthly year-on-year print went from <b>-18.17% in June 2023 to +21.24% in August 2025</b>, the sharpest reversal of any major CPI sub-group in this window. That matches Mishra and Roy's (2011-12) finding that edible-oil inflation is the one food category with <b>near one-to-one pass-through from global prices</b> — unlike cereals or sugar, which India insulates with trade and support-price policy — and lines up with this repo's own trade-balance bulletin showing edible-oil imports (HS15) up 97.9% over FY2018-19 to FY2025-26.</p>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">So how strong is the correlation, actually?</h2>
+        <p class="block-note">Pearson r on year-on-year growth rates, same-year unless marked.</p>
+      </div>
+      <div class="corr-grid" id="corrGrid"></div>
+      <p class="legend-note">The one strong number here — <b>diesel vs. WPI headline, r = 0.92</b> — is closer to a mechanical fact than a discovery, since HSD is itself inside the WPI fuel basket. Every other pair — fertiliser or fuel input costs against CPI headline, CPI food, or CPI oils &amp; fats — comes out <b>weak or inconsistent (r between -0.52 and +0.29)</b> at this annual, year-on-year-growth resolution. That is not evidence the pass-through described in the literature doesn't exist — it's evidence that <b>annual data is the wrong resolution to see it in</b>.</p>
+    </section>
+
+    <div class="verdict">
+      <div class="verdict-label">Why the annual correlation looks weak when the literature says pass-through is real</div>
+      <div class="verdict-answer">Because the transmission happens in months, not years — and other shocks dominate the annual average.</div>
+      <div class="verdict-sub">Bhattacharya and Gupta's SVAR of Indian food inflation finds a 10% rise in fuel inflation raises food inflation by about 1% within the same month, and a 10% rise in agricultural-wage inflation raises it by 1.6% immediately, rising to 2.4–5.5% within four months — real, fast, but also <b>transitory</b>: the effect fades within the year it hits. Collapsing twelve months of that dynamic into a single year-on-year growth figure, then correlating it against another year-on-year figure, averages the fast pass-through together with whatever else moved food prices that year — a monsoon shock, an MSP hike, a demand-side shift — which is exactly why James Hamilton's framing paper on this subject warns that "pass-through" is not a single number: it depends on what caused the price to move in the first place, and a raw historical correlation answers a different question than "what happens if diesel goes up."</div>
+    </div>
+
+    <section class="block prose">
+      <h2 class="block-title" style="border:none; padding:0;">Reading this against five studies</h2>
+      <p><b>Hamilton (International Journal of Central Banking, 2012)</b> supplies the framing caveat this whole bulletin leans on: import-price "pass-through" isn't a fixed constant, because a price rise caused by a supply shock behaves differently from the same price rise caused by currency depreciation or a demand boom. A raw correlation conflates these.</p>
+      <p><b>Bhattacharya and Gupta (NIPFP Working Paper 2015-151)</b> is the direct quantitative anchor: their Structural VAR puts numbers on fuel-to-food and wage-to-food transmission (above), and separately finds edible-oil and sugar inflation carry <b>significant global pass-through</b>, while cereals largely don't — protected by India's own trade and procurement policy.</p>
+      <p><b>Mishra and Roy (India Policy Forum, 2011-12)</b> reach the same edible-oil conclusion independently, adding that the degree of pass-through tracks how <i>tradable</i> a commodity actually is — oils, which India imports heavily, move almost one-for-one with world prices; rice and wheat, protected by export bans and procurement, barely move with them at all.</p>
+      <p><b>Elahi and Nath (JETIR, 2025)</b> give the plain-language version of the mechanism this bulletin quantifies: "a classic example of imported inflation in India is the impact of global crude oil prices on domestic fuel costs" — and note the RBI's own finding that inflation above 6% starts dragging on GDP growth &mdash; that threshold literature is about headline CPI, though India's CPI food print (a major driver of the headline number) crossed 6% repeatedly during the 2022 and 2024 spikes visible in the underlying monthly data, not in this chart's annual April-anchor series.</p>
+      <p><b>The Yogeshwaran thesis (Indian Maritime University, 2025)</b> on India's import composition puts the two inputs analysed here in proportion: crude petroleum alone is <b>23.4%</b> of India's entire import bill by value — the single largest line item — while the various fertiliser categories (mixed mineral/chemical, nitrogenous) add roughly another <b>2%</b>. Diesel's outsized pass-through to WPI isn't a coincidence of one sub-index; it's the largest import category in the whole basket.</p>
+      <p>Finally, a prior analysis in this workspace on India's Minimum Support Price vs. Cost-of-Production data (2020–26, sourced from PIB/CACP releases) found the same urea-vs-DAP divergence quantified here from the supply side: fertiliser subsidy has kept urea's <i>farmer-facing</i> cost nearly flat even through the 2021–23 global fertiliser-price shock, while CACP's own cost-of-production data is a lagged projection that <b>understated the real in-year cost spike</b> — meaning the squeeze from that shock likely hit farmers before it ever showed up in an official series, on either the input-cost or the MSP side.</p>
+    </section>
+
+    <details class="table-view">
+      <summary>View annual index values, WPI inputs and CPI/WPI outputs</summary>
+      <div class="data-table-wrap"><table class="data-table" id="dataTable"></table></div>
+    </details>
+
+    <div class="errata">
+      <div class="errata-title">Errata &amp; methodology caveats</div>
+      <ul>
+        <li><b>WPI series use the April value of each year</b> as an annual anchor (FY2012 = April 2012, etc.) rather than a full monthly series or FY average — chosen to keep this bulletin's methodology consistent with the annual/FY convention used elsewhere in this repo (GDP, trade-balance, HSN-trends charts). A monthly-frequency version would very likely show materially different, probably stronger, short-lag correlations — see the verdict box above for why.</li>
+        <li><b>CPI (base 2012) only covers 2011–2025</b>; WPI (base 2011-12) extends to April 2026. The two series are therefore compared over their 2013–2025 overlap, not the full WPI window.</li>
+        <li><b>HSD is one of the ~10 items inside the WPI "Mineral oils" group</b>, which is itself one of three groups making up the "Fuel & Power" major group (weight 13.15% of WPI). Its high correlation with WPI headline growth (r=0.92) partly reflects that HSD is mechanically inside the index being correlated against, not a fully independent external check.</li>
+        <li><b>Urea and DAP are wholesale (ex-factory/import-parity) prices</b>, not the subsidized retail price actually paid by farmers — India's fertiliser subsidy operates as a per-unit payment to manufacturers/importers, so the WPI series shown here already reflects most of that subsidy's dampening effect on the price that reaches the market, not a pre-subsidy world price.</li>
+        <li><b>Correlation is not causation, and small-n annual correlations (12–14 points) are noisy</b> — treat every r value on this page as indicative, not a rigorous econometric estimate. The published SVAR/VAR studies cited above, run on decades of monthly data with proper lag structure, are the actual rigorous evidence; this bulletin's own correlation table is a sanity check against that literature, not a replacement for it.</li>
+        <li>Underlying data: <a href="https://raw.githubusercontent.com/herrrickshaw/mospi-dataset-analysis-public/main/data/fertiliser_fuel_price_transmission_2012_to_2026.json">data/fertiliser_fuel_price_transmission_2012_to_2026.json</a>.</li>
+      </ul>
+    </div>
+
+    <footer class="colophon">herrrickshaw/mospi-dataset-analysis — derived from MoSPI WPI/CPI series, not an official MoSPI/RBI publication</footer>
+  </div>
+</div>
+
+<script>
+(function () {
+  var wpi_hsd = {"2012": 111.9, "2013": 114.6, "2014": 130.0, "2015": 83.3, "2016": 59.1, "2017": 81.5, "2018": 92.5, "2019": 95.5, "2020": 76.0, "2021": 101.0, "2022": 169.3, "2023": 171.7, "2024": 168.5, "2025": 160.0, "2026": 200.3};
+  var wpi_urea = {"2012": 101.4, "2013": 102.9, "2014": 104.4, "2015": 109.1, "2016": 113.9, "2017": 111.3, "2018": 112.0, "2019": 111.0, "2020": 110.7, "2021": 109.6, "2022": 110.5, "2023": 118.4, "2024": 116.6, "2025": 116.2, "2026": 115.4};
+  var wpi_dap = {"2012": 115.5, "2013": 136.4, "2014": 132.9, "2015": 137.7, "2016": 133.5, "2017": 122.5, "2018": 131.3, "2019": 145.2, "2020": 133.5, "2021": 144.9, "2022": 159.9, "2023": 159.4, "2024": 154.0, "2025": 152.0, "2026": 159.8};
+  var wpi_headline = {"2012": 104.7, "2013": 108.6, "2014": 114.1, "2015": 110.2, "2016": 109.0, "2017": 113.2, "2018": 117.3, "2019": 121.1, "2020": 119.2, "2021": 132.0, "2022": 152.3, "2023": 151.1, "2024": 152.9, "2025": 154.2, "2026": 167.0};
+  var cpi_headline = {"2013": 106.1, "2014": 115.1, "2015": 120.7, "2016": 127.3, "2017": 131.1, "2018": 137.1, "2019": 141.2, "2020": 151.4, "2021": 157.8, "2022": 170.1, "2023": 178.1, "2024": 186.7, "2025": 192.6};
+  var cpi_food = {"2013": 107.7, "2014": 117.6, "2015": 124.0, "2016": 131.8, "2017": 133.5, "2018": 137.5, "2019": 139.4, "2020": 154.0, "2021": 158.0, "2022": 170.8, "2023": 177.9, "2024": 191.9, "2025": 196.0};
+  var cpi_oils = {"2013": 104.4, "2014": 107.3, "2015": 109.2, "2016": 114.8, "2017": 118.4, "2018": 121.0, "2019": 121.9, "2020": 135.1, "2021": 170.1, "2022": 199.5, "2023": 174.9, "2024": 158.4, "2025": 186.0};
+  var correlations = {"hsd_vs_wpi_headline": 0.917, "urea_vs_wpi_headline": -0.418, "dap_vs_wpi_headline": 0.477, "wpi_headline_vs_cpi_headline": 0.251, "hsd_vs_cpi_headline": 0.114, "hsd_vs_cpi_food": -0.156, "dap_vs_cpi_food": -0.318, "urea_vs_cpi_food": 0.161, "dap_vs_cpi_oils": 0.287, "urea_vs_cpi_oils": -0.391, "hsd_vs_cpi_food_lag1": 0.086, "dap_vs_cpi_oils_lag1": -0.274, "urea_vs_cpi_oils_lag1": -0.52};
+
+  var svgns = "http://www.w3.org/2000/svg";
+  function el(tag, attrs) {
+    var e = document.createElementNS(svgns, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  function buildLineChart(svgId, tooltipId, series, colors, W, H, padL, padR, padT, padB) {
+    var svg = document.getElementById(svgId);
+    var tooltip = document.getElementById(tooltipId);
+    var card = svg.parentElement;
+    var years = Object.keys(series[0].data).map(Number).sort(function(a,b){return a-b;});
+    var allVals = [];
+    series.forEach(function(s){ years.forEach(function(y){ if (s.data[y] !== undefined) allVals.push(s.data[y]); }); });
+    var vMin = Math.min.apply(null, allVals), vMax = Math.max.apply(null, allVals);
+    var pad = (vMax - vMin) * 0.08;
+    vMin -= pad; vMax += pad;
+    var plotW = W - padL - padR, plotH = H - padT - padB;
+
+    function xFor(y) { return padL + ((y - years[0]) / (years[years.length-1] - years[0])) * plotW; }
+    function yFor(v) { return padT + plotH - ((v - vMin) / (vMax - vMin)) * plotH; }
+
+    // gridlines
+    var gridN = 5;
+    for (var i = 0; i <= gridN; i++) {
+      var gy = padT + (plotH / gridN) * i;
+      svg.appendChild(el("line", { x1: padL, x2: W - padR, y1: gy, y2: gy, class: "grid-line" }));
+      var val = vMax - (vMax - vMin) / gridN * i;
+      var lbl = el("text", { x: padL - 8, y: gy + 3, class: "axis-label", "text-anchor": "end" });
+      lbl.textContent = val.toFixed(0);
+      svg.appendChild(lbl);
+    }
+    svg.appendChild(el("line", { x1: padL, x2: W - padR, y1: padT + plotH, y2: padT + plotH, class: "axis-line" }));
+
+    years.forEach(function(y, i) {
+      if (i % 2 === 0 || years.length < 10) {
+        var lbl = el("text", { x: xFor(y), y: H - 6, class: "axis-label", "text-anchor": "middle" });
+        lbl.textContent = y;
+        svg.appendChild(lbl);
+      }
+    });
+
+    series.forEach(function(s, si) {
+      var pts = years.filter(function(y){ return s.data[y] !== undefined; }).map(function(y){ return [xFor(y), yFor(s.data[y]), y]; });
+      var path = pts.map(function(p, i){ return (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" ");
+      svg.appendChild(el("path", { d: path, fill: "none", stroke: colors[si], "stroke-width": 2.25, "stroke-linecap": "round", "stroke-linejoin": "round" }));
+      pts.forEach(function(p) {
+        var dot = el("circle", { cx: p[0], cy: p[1], r: 3, fill: colors[si] });
+        svg.appendChild(dot);
+        dot.addEventListener("mousemove", function() {
+          var cardRect = card.getBoundingClientRect();
+          var svgRect = svg.getBoundingClientRect();
+          var scaleX = svgRect.width / W, scaleY = svgRect.height / H;
+          var px = (svgRect.left - cardRect.left) + p[0] * scaleX;
+          var py = (svgRect.top - cardRect.top) + p[1] * scaleY;
+          tooltip.style.left = px + "px";
+          tooltip.style.top = (py - 12) + "px";
+          tooltip.style.transform = "translate(-50%, -100%)";
+          tooltip.style.opacity = 1;
+          tooltip.innerHTML = "<b>" + s.label + "</b> " + p[2] + "<br>Index: " + series[si].data[p[2]].toFixed(1);
+        });
+        dot.addEventListener("mouseleave", function(){ tooltip.style.opacity = 0; });
+      });
+    });
+  }
+
+  buildLineChart("inputChart", "inputTooltip", [
+    { label: "HSD (diesel)", data: wpi_hsd },
+    { label: "Urea", data: wpi_urea },
+    { label: "DAP", data: wpi_dap },
+    { label: "WPI headline", data: wpi_headline }
+  ], ["var(--line-2)", "var(--line-3)", "var(--line-4)", "var(--data-line)"], 1000, 420, 46, 20, 16, 30);
+
+  buildLineChart("cpiChart", "cpiTooltip", [
+    { label: "CPI headline", data: cpi_headline },
+    { label: "CPI food & beverages", data: cpi_food },
+    { label: "CPI oils & fats", data: cpi_oils }
+  ], ["var(--data-line)", "var(--line-2)", "var(--line-3)"], 1000, 420, 46, 20, 16, 30);
+
+  // ---- Stat strip ----
+  var statStrip = document.getElementById("statStrip");
+  var stats = [
+    { label: "Diesel (WPI HSD), Apr2012–Apr2026", value: "+79.0%", sub: "Moves almost 1:1 with WPI headline (<b>r=0.92</b>) — fully exposed to global crude" },
+    { label: "Urea (WPI), same window", value: "+13.8%", sub: "Subsidy holds the line — barely moved despite global shocks" },
+    { label: "DAP (WPI), same window", value: "+38.4%", sub: "Partially insulated — between urea and diesel" },
+    { label: "CPI oils & fats, peak swing", value: "−18% → +21%", sub: "Jun 2023 to Aug 2025 y-o-y — near-1:1 global pass-through per Mishra &amp; Roy" }
+  ];
+  stats.forEach(function (s) {
+    var elx = document.createElement("div");
+    elx.className = "stat-tile";
+    elx.innerHTML = '<div class="stat-label">' + s.label + '</div><div class="stat-value">' + s.value + '</div><div class="stat-sub">' + s.sub + '</div>';
+    statStrip.appendChild(elx);
+  });
+
+  // ---- Correlation grid ----
+  var corrGrid = document.getElementById("corrGrid");
+  var corrRows = [
+    { pair: "Diesel (HSD) growth vs WPI headline growth", key: "hsd_vs_wpi_headline", note: "Same-year — HSD is inside WPI itself" },
+    { pair: "Urea growth vs WPI headline growth", key: "urea_vs_wpi_headline", note: "Same-year" },
+    { pair: "DAP growth vs WPI headline growth", key: "dap_vs_wpi_headline", note: "Same-year" },
+    { pair: "WPI headline growth vs CPI headline growth", key: "wpi_headline_vs_cpi_headline", note: "Same-year, wholesale-to-retail" },
+    { pair: "Diesel (HSD) growth vs CPI headline growth", key: "hsd_vs_cpi_headline", note: "Same-year" },
+    { pair: "Diesel (HSD) growth vs CPI food growth", key: "hsd_vs_cpi_food", note: "Same-year" },
+    { pair: "Diesel (HSD) growth(t) vs CPI food growth(t+1)", key: "hsd_vs_cpi_food_lag1", note: "1-year lag" },
+    { pair: "DAP growth vs CPI food growth", key: "dap_vs_cpi_food", note: "Same-year" },
+    { pair: "Urea growth vs CPI food growth", key: "urea_vs_cpi_food", note: "Same-year" },
+    { pair: "DAP growth vs CPI oils & fats growth", key: "dap_vs_cpi_oils", note: "Same-year" },
+    { pair: "Urea growth vs CPI oils & fats growth", key: "urea_vs_cpi_oils", note: "Same-year" },
+    { pair: "DAP growth(t) vs CPI oils & fats growth(t+1)", key: "dap_vs_cpi_oils_lag1", note: "1-year lag" }
+  ];
+  corrRows.forEach(function (row) {
+    var r = correlations[row.key];
+    var strong = Math.abs(r) >= 0.6;
+    var tile = document.createElement("div");
+    tile.className = "corr-tile";
+    tile.innerHTML = '<div class="corr-pair">' + row.pair + '</div><div class="corr-r ' + (strong ? "strong" : "weak") + '">r = ' + (r >= 0 ? "+" : "") + r.toFixed(2) + '</div><div class="corr-note">' + row.note + '</div>';
+    corrGrid.appendChild(tile);
+  });
+
+  // ---- Data table ----
+  var table = document.getElementById("dataTable");
+  var years = Object.keys(wpi_headline).map(Number).sort(function(a,b){return a-b;});
+  var thead = "<thead><tr><th>Year (Apr)</th><th>WPI HSD</th><th>WPI Urea</th><th>WPI DAP</th><th>WPI Headline</th><th>CPI Headline</th><th>CPI Food</th><th>CPI Oils&amp;Fats</th></tr></thead>";
+  var trows = years.map(function(y) {
+    function fmt(d) { return d[y] !== undefined ? d[y].toFixed(1) : "—"; }
+    return "<tr><td>" + y + "</td><td>" + fmt(wpi_hsd) + "</td><td>" + fmt(wpi_urea) + "</td><td>" + fmt(wpi_dap) + "</td><td>" + fmt(wpi_headline) + "</td><td>" + fmt(cpi_headline) + "</td><td>" + fmt(cpi_food) + "</td><td>" + fmt(cpi_oils) + "</td></tr>";
+  }).join("");
+  table.innerHTML = thead + "<tbody>" + trows + "</tbody>";
+})();
+</script>
+
+<div class="note"><b>Related on this blog &mdash; fertilisers.</b> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-fertiliser-import-bill-hits-18.html">India's Fertiliser Import Bill Hits $18 Billion</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India's Fertiliser-Fed Food Security</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits: Regrowing India's Arid Land</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html">India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)</a>.<br><b>Related &mdash; gas &amp; LPG.</b> <a href="https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html">Thermal Parity Is Dead</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India's Largest Gas Consumer</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html">LPG's Missing Number</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html">The CBG Incentive Stack</a>.</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.82rem;color:#555;margin-top:14px"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<style>/*gs-chart-vars-v1 — restores CHART colour tokens removed by the 2026-08-06 normalisation. Values verbatim from 4e1d79f. Custom properties only; no element is styled here. Text/surface tokens deliberately NOT restored: they were written for a dark surface and would put light text on a light page.*/
+:root{--data-line:#2a78d6;--line-2:#a5402c;--line-3:#c98a1f;--line-4:#5c4a99;}
+</style>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

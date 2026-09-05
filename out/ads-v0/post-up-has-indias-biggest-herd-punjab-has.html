@@ -1,0 +1,304 @@
+<div class="artx mdrx">
+<style>/*gs-typo-unify-v1*/
+.mdrx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.mdrx h1,.mdrx h2,.mdrx h3{line-height:1.3}
+.mdrx p,.mdrx li{max-width:38rem}
+.mdrx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.mdrx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.mdrx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.mdrx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.mdrx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.mdrx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.mdrx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.mdrx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.mdrx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.mdrx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.mdrx .exhibit{margin:2.2rem 0}
+.mdrx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.mdrx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.mdrx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.mdrx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.mdrx .tw{overflow-x:auto}
+.mdrx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mdrx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.mdrx thead th:first-child,.mdrx tbody td:first-child{text-align:left}
+.mdrx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.mdrx th,.mdrx td{white-space:nowrap}
+.mdrx tbody tr:last-child td{border-bottom:1px solid #000}
+.mdrx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.mdrx .note,.mdrx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.mdrx .warn{border-left-color:#db2b27}
+.mdrx a{color:#12408f}
+.mdrx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.mdrx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.mdrx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.mdrx img,.mdrx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">India is the world's largest milk producer, and the government's own December 2025 answer to the Rajya Sabha proves it with a state-by-state livestock count. What it doesn't mention: that count is the 20th Livestock Census, taken in 2019. The 21st Census was launched in October 2024 with a target completion date of 31 March 2025 &mdash; and on that very date, in a separate written Lok Sabha reply, the ministry itself confirmed the enumeration was still ongoing, and fell back on 2019 numbers to answer the question in front of it. Laid against the government's own current-year production data, the stale headcount and the fresh output numbers tell two different stories about which states actually run India's dairy sector.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Agriculture &middot; Data &middot; Livestock</p>
+<h1 style="order:3">UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="400" fill="#f8f9fa" />
+<text x="30" y="34" font-size="18" fill="#1a1a1a" font-weight="bold">Yield Beats Scale: Milk Output per Animal, 2024-25</text>
+<text x="30" y="54" font-size="12.5" fill="#595959" font-style="italic">Exotic/crossbred cattle yield, kg/day &#8212; 11 major producing states</text>
+
+
+
+
+<g font-size="12.5">
+
+<text x="225" y="88" text-anchor="end" fill="#0b5794" font-weight="bold">Punjab</text>
+<rect x="230" y="76" width="311" height="16" fill="#0b5794" />
+<text x="548" y="88" fill="#0b5794" font-weight="bold">14.10</text>
+
+
+<text x="225" y="116" text-anchor="end" fill="#333">Haryana</text>
+<rect x="230" y="104" width="244" height="16" fill="#9aa5b1" />
+<text x="481" y="116" fill="#333">11.05</text>
+
+
+<text x="225" y="144" text-anchor="end" fill="#333">Karnataka</text>
+<rect x="230" y="132" width="236" height="16" fill="#9aa5b1" />
+<text x="473" y="144" fill="#333">10.71</text>
+
+
+<text x="225" y="172" text-anchor="end" fill="#333">Maharashtra</text>
+<rect x="230" y="160" width="225" height="16" fill="#9aa5b1" />
+<text x="462" y="172" fill="#333">10.21</text>
+
+
+<text x="225" y="200" text-anchor="end" fill="#333">Gujarat</text>
+<rect x="230" y="188" width="222" height="16" fill="#9aa5b1" />
+<text x="459" y="200" fill="#333">10.05</text>
+
+
+<text x="225" y="228" text-anchor="end" fill="#333">Andhra Pradesh</text>
+<rect x="230" y="216" width="206" height="16" fill="#9aa5b1" />
+<text x="443" y="228" fill="#333">9.36</text>
+
+
+<text x="225" y="256" text-anchor="end" fill="#333">Madhya Pradesh</text>
+<rect x="230" y="244" width="203" height="16" fill="#9aa5b1" />
+<text x="440" y="256" fill="#333">9.20</text>
+
+
+<text x="225" y="284" text-anchor="end" fill="#8a4b08" font-weight="bold">Uttar Pradesh</text>
+<rect x="230" y="272" width="202" height="16" fill="#8a4b08" />
+<text x="439" y="284" fill="#8a4b08" font-weight="bold">9.16</text>
+
+
+<text x="225" y="312" text-anchor="end" fill="#333">Rajasthan</text>
+<rect x="230" y="300" width="175" height="16" fill="#9aa5b1" />
+<text x="412" y="312" fill="#333">7.93</text>
+
+
+<text x="225" y="340" text-anchor="end" fill="#333">Tamil Nadu</text>
+<rect x="230" y="328" width="173" height="16" fill="#9aa5b1" />
+<text x="410" y="340" fill="#333">7.84</text>
+
+
+<text x="225" y="368" text-anchor="end" fill="#333">Bihar</text>
+<rect x="230" y="356" width="143" height="16" fill="#9aa5b1" />
+<text x="380" y="368" fill="#333">6.50</text>
+</g>
+
+<text x="230" y="392" font-size="11" fill="#595959">Source: DAHD, Basic Animal Husbandry Statistics 2025 &#8212; Punjab highest yield; Uttar Pradesh, India's top milk producer by volume, mid-pack per animal.</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Punjab's herd is a fraction of Uttar Pradesh's, but its cattle produce far more milk per animal.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Published <time datetime="2026-08-09" itemprop="datePublished">9 August 2026</time> &middot; v1.0.0 &middot; PIB/Rajya Sabha answer, 17 December 2025 &middot; DAHD Basic Animal Husbandry Statistics 2025, 18 November 2025</p>
+
+<div class="stats">
+<div class="stat"><b>53.68cr</b><span>India's total livestock population, 20th Livestock Census (2019) &mdash; still the government's cited figure in Dec 2025</span></div>
+<div class="stat"><b>247.87 MT</b><span>Milk production, 2024-25 &mdash; up 3.58% year-on-year, per BAHS 2025</span></div>
+<div class="stat"><b>1st &middot; 2nd &middot; 4th</b><span>India's world rank in milk, egg and meat production respectively</span></div>
+<div class="stat"><b>12.77%</b><span>Livestock sector's CAGR, FY2014-15 to FY2023-24 &mdash; more than double India's nominal GDP growth over the same years</span></div>
+</div>
+
+<h2>The headcount Parliament was given is a 2019 snapshot</h2>
+<p class="h2sub">A newer, fully digitised census exists. Its results just aren't out yet.</p>
+
+
+<p>On 17 December 2025, the Ministry of Fisheries, Animal Husbandry and Dairying answered a Rajya Sabha question on livestock population with a state-wise table of cattle, buffalo, sheep and goat numbers &mdash; sourced, the answer says explicitly, to the &ldquo;20th Livestock Census All India Reports.&rdquo; That census was conducted in 2019 and put India's total livestock population at 536.76 million, a 4.8% rise over the 19th Census in 2012. It is six years old at the point it was cited in Parliament.</p>
+
+<p>A newer count exists, at least in principle. The 21st Livestock Census &mdash; fully digitised, with mobile-app data collection, GPS-tagged enumeration and breed-level detail across all 219 ICAR-NBAGR-recognised indigenous breeds, covering roughly 6.6 lakh villages and 89,000 urban wards through some one lakh field officials &mdash; was launched on 25 October 2024, with the ministry stating it was &ldquo;likely to be completed by 31st March, 2025.&rdquo; On that exact date, in a written Lok Sabha reply on district-level livestock numbers for Rajasthan's Sriganganagar and Hanumangarh districts, the same ministry stated: &ldquo;the enumeration work of 21st Livestock census is ongoing&rdquo; &mdash; and answered the question using 20th Census figures instead. This article could not locate any published state-wise result set from the 21st Census as of research, eight months after its own target completion date and nine months before the December 2025 Rajya Sabha answer repeated the same fallback. Until the 21st Census numbers are released, every state-wise livestock-population figure the government cites &mdash; including the one placed on the record in December 2025 &mdash; is a 2019 measurement of a sector that has since grown at nearly 13% a year.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">State-wise cattle, buffalo, sheep and goat population, 20th Livestock Census (2019)</p>
+<p class="exsub">Top 10 states by combined cattle-plus-buffalo count &mdash; the two species that drive milk production.</p>
+<div class="tw">
+<table>
+<thead><tr><th>State</th><th>Cattle, count</th><th>Buffalo, count</th><th>Sheep, count</th><th>Goat, count</th></tr></thead>
+<tbody>
+<tr><td>Uttar Pradesh</td><td>1,90,19,641</td><td>3,30,16,785</td><td>9,84,725</td><td>1,44,80,025</td></tr>
+<tr><td>Madhya Pradesh</td><td>1,87,50,828</td><td>1,03,07,131</td><td>3,24,585</td><td>1,10,64,524</td></tr>
+<tr><td>Rajasthan</td><td>1,39,37,630</td><td>1,36,93,316</td><td>79,03,857</td><td>2,08,40,203</td></tr>
+<tr><td>Bihar</td><td>1,53,97,980</td><td>77,19,794</td><td>2,13,377</td><td>1,28,21,216</td></tr>
+<tr><td>Gujarat</td><td>96,33,637</td><td>1,05,43,250</td><td>17,87,263</td><td>48,67,744</td></tr>
+<tr><td>West Bengal</td><td>1,90,77,916</td><td>6,30,921</td><td>9,52,886</td><td>1,62,79,340</td></tr>
+<tr><td>Maharashtra</td><td>1,39,92,304</td><td>56,03,692</td><td>26,80,329</td><td>1,06,04,883</td></tr>
+<tr><td>Jharkhand</td><td>1,12,23,052</td><td>13,50,313</td><td>6,41,183</td><td>91,21,173</td></tr>
+<tr><td>Karnataka</td><td>84,69,004</td><td>29,84,560</td><td>1,10,50,728</td><td>61,69,392</td></tr>
+<tr><td>Odisha</td><td>99,03,970</td><td>4,58,324</td><td>12,79,149</td><td>63,93,452</td></tr>
+<tr class="hl"><td><b>Punjab</b></td><td><b>25,31,460</b></td><td><b>40,15,947</b></td><td><b>85,560</b></td><td><b>3,47,949</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Government of India, Rajya Sabha answer by Minister Rajeev Ranjan Singh (Lallan Singh), PIB release ID 2205263, 17 December 2025, citing the 20th Livestock Census. Punjab included as reference for Exhibit 2; it does not rank in the top 10 by cattle-plus-buffalo count.</p>
+</div>
+
+<p>Uttar Pradesh, West Bengal and Madhya Pradesh carry India's largest cattle herds; Uttar Pradesh's buffalo count &mdash; 3.3 crore &mdash; is more than double the next-largest state's. Rajasthan tops goat population outright and ranks third in sheep. This is the population base the country's dairy economy sits on, as counted in 2019.</p>
+
+<h2>What the same states actually produced in 2024-25</h2>
+<p class="h2sub">Scale and efficiency turn out to be two different rankings.</p>
+
+<p>The Basic Animal Husbandry Statistics 2025 report &mdash; DAHD's current-year survey, covering March 2024 to February 2025, published 18 November 2025 &mdash; measures milk production directly rather than inferring it from herd size. National milk production reached 247.87 million tonnes in 2024-25, up 3.58% on 2023-24, with per-capita availability rising to 485 grams/day. The sector's compound annual growth rate from 2014-15 to 2023-24 was 12.77%, and livestock now contributes more than 31% of agricultural GVA and 5.5% of India's total GVA. Globally, India ranks 1st in milk, 2nd in eggs, and 4th in meat.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">Milk production share, growth and yield &mdash; 15 major producing states, 2024-25</p>
+<p class="exsub">Share of national output tracks herd size closely. Growth rate and yield per animal do not.</p>
+<div class="tw">
+<table>
+<thead><tr><th>State</th><th>Share of national milk output, %</th><th>YoY milk growth, %</th><th>Exotic/crossbred cattle yield, kg/day</th><th>Per-capita milk availability, g/day</th></tr></thead>
+<tbody>
+<tr><td>Uttar Pradesh</td><td>15.66</td><td>0.09</td><td>9.16</td><td>447</td></tr>
+<tr><td>Rajasthan</td><td>14.82</td><td>5.78</td><td>7.93</td><td>1,229</td></tr>
+<tr><td>Madhya Pradesh</td><td>9.12</td><td>5.95</td><td>9.20</td><td>707</td></tr>
+<tr><td>Gujarat</td><td>7.78</td><td>5.36</td><td>10.05</td><td>730</td></tr>
+<tr><td>Maharashtra</td><td>6.71</td><td>3.62</td><td>10.21</td><td>358</td></tr>
+<tr class="hl"><td><b>Punjab</b></td><td><b>6.00</b></td><td><b>6.25</b></td><td><b>14.10</b></td><td><b>1,318</b></td></tr>
+<tr><td>Andhra Pradesh</td><td>5.63</td><td>&mdash;</td><td>9.36</td><td>716</td></tr>
+<tr><td>Karnataka</td><td>5.61</td><td>3.23</td><td>10.71</td><td>559</td></tr>
+<tr><td>Bihar</td><td>5.41</td><td>4.24</td><td>6.50</td><td>&mdash;</td></tr>
+<tr><td>Haryana</td><td>5.08</td><td>3.05</td><td>11.05</td><td>1,128</td></tr>
+<tr><td>Tamil Nadu</td><td>4.62</td><td>5.88</td><td>7.84</td><td>407</td></tr>
+<tr><td>All India</td><td>100.00</td><td>3.58</td><td>&mdash;</td><td>485</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">DAHD, Basic Animal Husbandry Statistics 2025, Graphs 3.5&ndash;3.9 (state-wise cattle yield rate, annual milk growth, state milk share, per-capita availability), 18 November 2025. Dashes mark states/metrics not among the report's charted subset for that indicator.</p>
+</div>
+
+<p>Uttar Pradesh's position holds on raw output: it produces 15.66% of India's milk, more than any other state, consistent with its lead in cattle-plus-buffalo population. But its 2024-25 growth rate was 0.09% &mdash; essentially flat &mdash; the slowest of any of the 15 major producing states charted in the report, and its yield rate for exotic/crossbred cattle, 9.16 kg/day, sits in the middle of the pack. Punjab is the inverse case. It does not appear among the top 10 states by cattle-plus-buffalo population in the 2019 census &mdash; its herd is a fraction of Uttar Pradesh's &mdash; yet it posts the highest cattle yield rate in the country (14.10 kg/day for exotic/crossbred cattle, against a national spread that tops out elsewhere around 11), the highest per-capita milk availability (1,318 g/day, more than two-and-a-half times the national average), and the fastest milk-production growth among the 15 major states in 2024-25.</p>
+
+<div class="warn"><b>Scale and efficiency are answering different questions.</b> Uttar Pradesh's milk lead is a herd-size story: more animals, more raw tonnes, a stable but not fast-growing share. Punjab's numbers describe something else &mdash; a smaller base producing disproportionately, through yield per animal rather than animal count. A livestock-population count, however current, only measures the first of these. The production data is what actually shows which states are getting more out of what they have.</div>
+
+<p>Rajasthan sits between the two patterns: it ranks second in both population (goat and cattle-plus-buffalo counts are both large) and milk share (14.82%), and also posts strong growth (5.78%) and the second-highest per-capita availability (1,229 g/day) after Punjab &mdash; a state that is both large and getting more efficient at the same time, which the other two single-axis stories in this article are not.</p>
+
+<div class="note"><b>What this article does not establish.</b> Whether the 21st Census's enumeration itself has since finished sometime after the 25 March 2025 &ldquo;still ongoing&rdquo; reply, with only publication pending, or whether fieldwork is still incomplete as of this article's research &mdash; no later government statement on enumeration status was located either way. Whether the population changes implied by six years of 12.77% CAGR production growth are evenly distributed across states or concentrated in a few &mdash; the 2019 census cannot answer this, and no interim state-wise population update was located. Why Andhra Pradesh's and Bihar's per-capita/growth figures are marked unavailable in Exhibit 2 &mdash; BAHS 2025's charted state subsets differ slightly across its milk-share, growth and per-capita graphs, and this article reports only what each specific chart covers rather than interpolating. Whether the 20th-Census population rankings (Exhibit 1) still hold in the same order today &mdash; plausible given the sector's growth has been broad-based per the report's own framing, but not verifiable without the 21st Census.</div>
+
+<p class="sources"><b>Sources.</b> State-wise cattle, buffalo, sheep and goat population and the 20th Livestock Census reference &mdash; Government of India, Rajya Sabha unstarred question answer by Minister Rajeev Ranjan Singh alias Lallan Singh, Ministry of Fisheries, Animal Husbandry &amp; Dairying, PIB release ID 2205263, 17 December 2025 (pib.gov.in). 20th Livestock Census methodology, 2019 conduct date and the 536.76 million national total &mdash; Department of Animal Husbandry &amp; Dairying's own published 20th Livestock Census materials and contemporaneous PIB coverage (PRID 1588304). 21st Livestock Census scope, digitisation, 25 October 2024 launch and 31 March 2025 target completion date &mdash; Ministry of Fisheries, Animal Husbandry and Dairying public launch announcements. The 25 March 2025 confirmation that enumeration was &ldquo;ongoing&rdquo; and the Rajasthan district-level figures answered with 20th Census data instead &mdash; Government of India, written Lok Sabha reply by Minister of State Prof. S.P. Singh Baghel, PIB release ID 2114720, 25 March 2025 (pib.gov.in), read directly. This article could not locate a published state-wise 21st Census result set as of research and states that gap explicitly rather than assuming one exists. National and state-wise milk production, growth rates, yield rates and per-capita availability (Exhibit 2; India's 1st/2nd/4th global rank in milk/egg/meat; the 12.77% CAGR and Agri-GVA/GVA shares) &mdash; DAHD, <i>Basic Animal Husbandry Statistics 2025</i>, dated 18 November 2025 (dahd.gov.in), read directly from the report's Chapter III graphs and accompanying text.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

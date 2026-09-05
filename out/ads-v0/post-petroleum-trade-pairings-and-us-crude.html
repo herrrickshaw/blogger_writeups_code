@@ -1,0 +1,845 @@
+<div class="artx ptx">
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="sub">Where the USA, Mexico and the GCC buy and sell crude, refined products,
+  LPG and lubricants — and why US storage levels at Cushing sit underneath the whole
+  crude-slate question.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<div style="order:2" class="eyebrow">Comtrade · EIA · DGCI&amp;S TRADESTAT</div>
+<h1 style="order:3">Petroleum trade pairings and the US crude storage picture</h1>
+</div>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1" style="font-family:-apple-system,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1rem">Revised <time datetime="2026-08-08" itemprop="dateModified">8 August 2026</time> &middot; v1.0.0</p>
+<style>
+:root{
+ --bg:#FBF8F3; --panel:#FFFFFF; --ink:#231D14; --ink-2:#5C5245; --ink-3:#8A7F70;
+ --line:#E3DACB; --accent:#B0741F; --accent-fade:rgba(176,116,31,.13);
+ --teal:#1E6B6B; --good:#4F7D4A; --warn:#C8862A; --crit:#B4442E;
+ --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+ --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+ --sans:system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+ :root{--bg:#15130F; --panel:#1E1B16; --ink:#F2EBDF; --ink-2:#B8AD9B; --ink-3:#8A7F70;
+  --line:#332D24; --accent:#D9A24E; --accent-fade:rgba(217,162,78,.15);
+  --teal:#4FA3A3; --good:#7FAE6F; --warn:#D9A24E; --crit:#D9705C;}
+}
+:root[data-theme="dark"]{--bg:#15130F; --panel:#1E1B16; --ink:#F2EBDF; --ink-2:#B8AD9B;
+ --ink-3:#8A7F70; --line:#332D24; --accent:#D9A24E; --accent-fade:rgba(217,162,78,.15);
+ --teal:#4FA3A3; --good:#7FAE6F; --warn:#D9A24E; --crit:#D9705C;}
+:root[data-theme="light"]{--bg:#FBF8F3; --panel:#FFFFFF; --ink:#231D14; --ink-2:#5C5245;
+ --ink-3:#8A7F70; --line:#E3DACB; --accent:#B0741F; --accent-fade:rgba(176,116,31,.13);
+ --teal:#1E6B6B; --good:#4F7D4A; --warn:#C8862A; --crit:#B4442E;}
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);
+ line-height:1.55;-webkit-font-smoothing:antialiased}
+.wrap{max-width:1080px;margin:0 auto;padding:38px 22px 80px}
+header.top{border-bottom:2px solid var(--accent);padding-bottom:20px;margin-bottom:34px}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.14em;text-transform:uppercase;
+ color:var(--accent);margin-bottom:10px}
+h1{font-family:var(--serif);font-size:clamp(27px,4vw,40px);line-height:1.12;margin:0 0 10px;
+ text-wrap:balance;font-weight:600}
+.sub{color:var(--ink-2);max-width:62ch;font-size:15px}
+section{margin:44px 0 0}
+h2{font-family:var(--serif);font-size:25px;margin:0 0 6px;font-weight:600;text-wrap:balance}
+h2 .num{font-family:var(--mono);font-size:12px;color:var(--accent);
+ display:block;letter-spacing:.12em;margin-bottom:5px;font-weight:400}
+h3{font-family:var(--serif);font-size:19px;margin:26px 0 10px;font-weight:600}
+h4{font-size:13.5px;margin:0 0 9px;font-weight:600}
+.lede{color:var(--ink-2);max-width:66ch;margin:0 0 18px}
+p{max-width:66ch}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:5px;
+ padding:20px 22px;margin:18px 0}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(212px,1fr));gap:13px;margin:20px 0}
+.tile{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:14px 15px}
+.tile-h{font-size:11.5px;color:var(--ink-2);display:flex;justify-content:space-between;
+ align-items:center;gap:8px;margin-bottom:7px;font-weight:500}
+.tile-v{font-family:var(--mono);font-size:26px;font-variant-numeric:tabular-nums;letter-spacing:-.02em}
+.tile-v .u{font-size:11px;color:var(--ink-3);margin-left:5px;letter-spacing:0}
+.tile-n{font-size:11px;color:var(--ink-3);margin-top:6px;font-family:var(--mono)}
+.pill{font-family:var(--mono);font-size:9.5px;padding:2px 6px;border-radius:2px;
+ letter-spacing:.04em;white-space:nowrap}
+.pill.good{background:rgba(79,125,74,.16);color:var(--good)}
+.pill.warn{background:rgba(200,134,42,.18);color:var(--warn)}
+.pill.crit{background:rgba(180,68,46,.16);color:var(--crit)}
+.chart{width:100%;height:auto;display:block;margin:8px 0 4px;overflow:visible}
+.grid{stroke:var(--line);stroke-width:1}
+.axis{stroke:var(--ink-3);stroke-width:1}
+.ytick,.xtick{font-family:var(--mono);font-size:9.5px;fill:var(--ink-3)}
+.ytick{text-anchor:end}.xtick{text-anchor:middle}
+.lgd{font-family:var(--mono);font-size:10px}
+.blab{font-family:var(--sans);font-size:11px;fill:var(--ink-2);text-anchor:end}
+.bval{font-family:var(--mono);font-size:10.5px;fill:var(--ink-2);font-variant-numeric:tabular-nums}
+.cap{font-family:var(--mono);font-size:10.5px;color:var(--ink-3);margin-top:4px}
+.tbl-wrap{overflow-x:auto;margin:16px 0}
+table{border-collapse:collapse;width:100%;font-size:13px;min-width:400px}
+caption{text-align:left;font-size:11.5px;color:var(--ink-2);padding-bottom:8px;font-weight:500}
+th,td{padding:6px 10px;border-bottom:1px solid var(--line);text-align:left}
+th{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.07em;
+ color:var(--ink-3);font-weight:500}
+td.n,th.n{text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums}
+.pairgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:13px}
+.pairbox{background:var(--panel);border:1px solid var(--line);border-radius:5px;padding:13px 15px}
+.pairbox .hs{font-family:var(--mono);font-size:9.5px;color:var(--ink-3);font-weight:400}
+.pcols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.plab{font-family:var(--mono);font-size:9.5px;letter-spacing:.08em;text-transform:uppercase;
+ padding-bottom:5px;margin-bottom:5px;border-bottom:1px solid var(--line)}
+.plab.out{color:var(--good)}.plab.in{color:var(--crit)}
+.pr{display:flex;justify-content:space-between;gap:8px;font-size:11.5px;padding:2px 0}
+.pn{color:var(--ink-2);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.pv{font-family:var(--mono);font-variant-numeric:tabular-nums;color:var(--ink)}
+.none{font-size:11px;color:var(--ink-3);font-style:italic}
+.repblock{margin:26px 0}
+.repblock h3 .yr{font-family:var(--mono);font-size:11px;color:var(--ink-3);font-weight:400}
+.flag{border-left:3px solid var(--crit);background:var(--panel);padding:13px 16px;margin:14px 0;
+ border-radius:0 4px 4px 0}
+.flag.warn{border-left-color:var(--warn)}
+.flag.ok{border-left-color:var(--good)}
+.flag h4{margin:0 0 5px;font-family:var(--mono);font-size:10.5px;letter-spacing:.06em;
+ text-transform:uppercase;color:var(--ink-2)}
+.flag p{margin:0;font-size:13px;color:var(--ink-2);max-width:70ch}
+.ctx{font-size:11.5px;color:var(--ink-3);font-style:italic}
+ul{max-width:68ch;padding-left:20px}li{margin:5px 0;color:var(--ink-2);font-size:14px}
+code{font-family:var(--mono);font-size:.9em;background:var(--accent-fade);padding:1px 4px;border-radius:2px}
+footer{margin-top:56px;padding-top:18px;border-top:1px solid var(--line);
+ font-family:var(--mono);font-size:10.5px;color:var(--ink-3)}
+@media (max-width:620px){.pcols{grid-template-columns:1fr}}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+.artx img,.artx svg{max-width:100%;height:auto}
+
+/* gs-contrast-fix-v1 — this dashboard is a DARK design. The house elements
+   below (revision line, index link, AI disclosure) are styled for the blog's
+   light theme and were published dark-on-dark at 2.4–2.7:1. The dashboard's own
+   muted tokens and pills also sat under 4.5:1. All raised against the real
+   surface, measured on the rendered page rather than guessed. */
+.artx,.artx *{--ink-3:#C2B6A2 !important}   /* was #8A7F70 = 4.37:1 on this dark surface, just under AA */
+.artx .revised,.artx .revised time{color:#b3a897 !important}
+.artx .disclaimer,.artx .disclaimer strong{color:#b3a897 !important}
+.artx .topnav-index-link a{color:#8ec5ff !important}
+.artx .u,.artx .tile-n,.artx .cap,.artx em{color:#c2b6a2 !important}
+.artx .pill{color:#f2ece2 !important}
+.artx code{color:#e8c98a !important}
+</style>
+<div class="wrap">
+<header class="top">
+  
+  
+  
+</header>
+
+<section>
+  <figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/32/Jamnagar_Refinery.jpg" alt="Distillation columns and flare stacks at the Jamnagar refinery complex" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Refined products are among India's largest single export lines. <a href="https://commons.wikimedia.org/wiki/File:Jamnagar_Refinery.jpg" rel="noopener noreferrer">Jamnagar Refinery.jpg</a>, Reliance Industries, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+<h2><span class="num">Topic 01 — new</span>US crude storage and reserves</h2>
+  <p class="lede">Every series below is EIA weekly or annual data, read straight from the
+  agency's own workbooks. The headline: the two buffers that matter most to the physical
+  crude market — Cushing and the SPR — are both far below their historical peaks.</p>
+
+  <div class="tiles"><div class="tile">
+  <div class="tile-h">Cushing, OK<span class="pill crit">30% of peak</span></div>
+  <div class="tile-v">21.0<span class="u">M bbl</span></div>
+  <div class="tile-n">WTI delivery hub · peak 69.4M (2017-04)</div>
+</div><div class="tile">
+  <div class="tile-h">Strategic Petroleum Reserve<span class="pill crit">42% of peak</span></div>
+  <div class="tile-v">304.8<span class="u">M bbl</span></div>
+  <div class="tile-n">federal buffer · peak 726.6M (2010-01)</div>
+</div><div class="tile">
+  <div class="tile-h">Commercial crude (ex-SPR)<span class="pill good">75% of peak</span></div>
+  <div class="tile-v">407.0<span class="u">M bbl</span></div>
+  <div class="tile-n">industry working stock · peak 540.7M (2020-06)</div>
+</div><div class="tile">
+  <div class="tile-h">Total crude incl. SPR<span class="pill warn">58% of peak</span></div>
+  <div class="tile-v">711.8<span class="u">M bbl</span></div>
+  <div class="tile-n">all US crude · peak 1,227.7M (2017-03)</div>
+</div></div>
+
+  <div class="panel">
+    <h3>Cushing, Oklahoma — the WTI delivery hub</h3>
+    <svg class="chart" viewBox="0 0 760 230" role="img"
+     aria-label="time series, latest 21k thousand bbl">
+  <g><line class='grid' x1='58' y1='204.0' x2='746' y2='204.0'/><text class='ytick' x='50' y='207.5'>11k</text><line class='grid' x1='58' y1='156.0' x2='746' y2='156.0'/><text class='ytick' x='50' y='159.5'>26k</text><line class='grid' x1='58' y1='108.0' x2='746' y2='108.0'/><text class='ytick' x='50' y='111.5'>41k</text><line class='grid' x1='58' y1='60.0' x2='746' y2='60.0'/><text class='ytick' x='50' y='63.5'>56k</text><line class='grid' x1='58' y1='12.0' x2='746' y2='12.0'/><text class='ytick' x='50' y='15.5'>71k</text></g>
+  <path d="M58.0,202.9 L59.6,198.9 L61.3,194.2 L62.9,187.2 L64.6,202.4 L66.2,187.7 L67.8,191.4 L69.5,193.7 L71.1,194.5 L72.7,195.1 L74.4,193.5 L76.0,188.0 L77.7,188.6 L79.3,187.0 L80.9,186.6 L82.6,185.9 L84.2,184.1 L85.8,179.1 L87.5,175.3 L89.1,169.7 L90.8,167.8 L92.4,174.2 L94.0,175.5 L95.7,178.2 L97.3,180.5 L99.0,180.4 L100.6,182.5 L102.2,188.6 L103.9,190.4 L105.5,192.1 L107.1,185.2 L108.8,184.6 L110.4,171.9 L112.1,170.7 L113.7,172.3 L115.3,168.1 L117.0,164.5 L118.6,158.8 L120.2,159.3 L121.9,159.4 L123.5,165.7 L125.2,167.8 L126.8,160.0 L128.4,158.6 L130.1,159.6 L131.7,162.0 L133.4,168.7 L135.0,167.1 L136.6,165.5 L138.3,163.9 L139.9,154.0 L141.5,159.5 L143.2,162.1 L144.8,171.1 L146.5,166.3 L148.1,168.5 L149.7,154.2 L151.4,153.8 L153.0,151.0 L154.6,154.2 L156.3,158.0 L157.9,166.9 L159.6,171.9 L161.2,181.0 L162.8,174.2 L164.5,182.0 L166.1,181.1 L167.8,192.0 L169.4,193.5 L171.0,184.6 L172.7,184.0 L174.3,187.2 L175.9,187.4 L177.6,185.9 L179.2,184.1 L180.9,184.0 L182.5,178.7 L184.1,174.6 L185.8,170.2 L187.4,173.7 L189.0,174.6 L190.7,179.8 L192.3,182.4 L194.0,183.5 L195.6,193.8 L197.2,192.4 L198.9,183.9 L200.5,174.3 L202.2,151.7 L203.8,149.6 L205.4,133.3 L207.1,127.7 L208.7,130.8 L210.3,130.9 L212.0,143.7 L213.6,144.4 L215.3,144.8 L216.9,146.9 L218.5,149.3 L220.2,141.0 L221.8,132.9 L223.4,137.8 L225.1,139.5 L226.7,154.8 L228.4,156.5 L230.0,153.4 L231.6,140.7 L233.3,130.2 L234.9,125.3 L236.6,133.8 L238.2,141.6 L239.8,143.7 L241.5,142.2 L243.1,136.3 L244.7,123.4 L246.4,117.9 L248.0,119.6 L249.7,124.2 L251.3,120.6 L252.9,118.6 L254.6,123.4 L256.2,127.6 L257.8,127.1 L259.5,131.8 L261.1,137.8 L262.8,129.0 L264.4,123.0 L266.0,119.8 L267.7,116.7 L269.3,118.9 L271.0,110.4 L272.6,105.2 L274.2,107.6 L275.9,109.7 L277.5,111.0 L279.1,118.5 L280.8,120.9 L282.4,120.7 L284.1,128.8 L285.7,133.6 L287.3,137.2 L289.0,141.6 L290.6,138.7 L292.2,137.1 L293.9,140.0 L295.5,143.9 L297.2,146.5 L298.8,143.2 L300.4,136.6 L302.1,115.5 L303.7,110.3 L305.4,107.5 L307.0,97.9 L308.6,89.1 L310.3,86.2 L311.9,86.6 L313.5,90.3 L315.2,94.5 L316.8,95.4 L318.5,99.2 L320.1,97.8 L321.7,100.3 L323.4,94.6 L325.0,89.2 L326.6,81.6 L328.3,72.9 L329.9,74.5 L331.6,77.1 L333.2,82.1 L334.8,81.6 L336.5,75.1 L338.1,79.8 L339.8,78.9 L341.4,83.5 L343.0,88.8 L344.7,104.4 L346.3,119.6 L347.9,128.2 L349.6,134.4 L351.2,134.0 L352.9,122.6 L354.5,109.3 L356.1,107.3 L357.8,112.5 L359.4,106.1 L361.0,119.0 L362.7,128.1 L364.3,144.3 L366.0,151.4 L367.6,158.4 L369.2,165.6 L370.9,171.5 L372.5,170.0 L374.2,175.1 L375.8,182.5 L377.4,175.5 L379.1,174.8 L380.7,174.3 L382.3,174.0 L384.0,173.3 L385.6,161.1 L387.3,150.6 L388.9,136.8 L390.5,114.9 L392.2,102.9 L393.8,81.5 L395.4,58.5 L397.1,41.9 L398.7,41.2 L400.4,45.2 L402.0,53.1 L403.6,58.3 L405.3,53.3 L406.9,55.8 L408.6,54.1 L410.2,64.4 L411.8,69.0 L413.5,65.6 L415.1,61.6 L416.7,49.8 L418.4,39.8 L420.0,33.6 L421.7,35.5 L423.3,31.3 L424.9,24.1 L426.6,27.3 L428.2,31.9 L429.8,26.3 L431.5,22.0 L433.1,25.7 L434.8,32.9 L436.4,33.3 L438.0,29.6 L439.7,34.1 L441.3,37.8 L443.0,38.0 L444.6,51.9 L446.2,49.3 L447.9,29.5 L449.5,26.4 L451.1,24.2 L452.8,33.3 L454.4,36.8 L456.1,25.5 L457.7,21.6 L459.3,18.7 L461.0,26.3 L462.6,31.0 L464.2,39.4 L465.9,48.2 L467.5,60.1 L469.2,56.2 L470.8,53.0 L472.4,47.4 L474.1,34.4 L475.7,34.2 L477.4,42.6 L479.0,61.0 L480.6,74.4 L482.3,103.5 L483.9,123.2 L485.5,143.6 L487.2,148.4 L488.8,127.8 L490.5,126.3 L492.1,120.3 L493.7,125.7 L495.4,135.2 L497.0,157.5 L498.6,168.2 L500.3,164.8 L501.9,160.4 L503.6,166.9 L505.2,148.1 L506.8,129.7 L508.5,126.3 L510.1,113.2 L511.8,105.0 L513.4,107.0 L515.0,102.8 L516.7,89.8 L518.3,90.6 L519.9,91.9 L521.6,95.4 L523.2,86.0 L524.9,76.2 L526.5,73.0 L528.1,76.3 L529.8,82.6 L531.4,103.7 L533.0,113.5 L534.7,108.9 L536.3,101.7 L538.0,86.2 L539.6,97.9 L541.2,110.7 L542.9,125.8 L544.5,127.8 L546.2,116.5 L547.8,120.4 L549.4,113.5 L551.1,81.4 L552.7,35.7 L554.3,56.8 L556.0,80.7 L557.6,93.2 L559.3,83.0 L560.9,72.6 L562.5,71.2 L564.2,65.1 L565.8,59.3 L567.4,45.3 L569.1,45.3 L570.7,48.0 L572.4,51.7 L574.0,49.2 L575.6,78.2 L577.3,95.1 L578.9,82.7 L580.6,91.0 L582.2,89.7 L583.8,90.8 L585.5,95.9 L587.1,92.8 L588.7,110.4 L590.4,121.9 L592.0,128.8 L593.7,129.1 L595.3,126.4 L596.9,125.8 L598.6,152.2 L600.2,154.6 L601.8,148.3 L603.5,131.7 L605.1,128.0 L606.8,141.9 L608.4,163.7 L610.0,168.8 L611.7,162.3 L613.3,156.1 L615.0,149.3 L616.6,160.5 L618.2,167.5 L619.9,171.7 L621.5,164.5 L623.1,159.2 L624.8,158.9 L626.4,159.8 L628.1,157.7 L629.7,149.6 L631.3,157.8 L633.0,163.2 L634.6,159.7 L636.2,139.0 L637.9,117.7 L639.5,109.9 L641.2,118.0 L642.8,129.9 L644.4,133.7 L646.1,130.7 L647.7,115.0 L649.4,104.7 L651.0,107.3 L652.6,125.1 L654.3,131.3 L655.9,152.0 L657.5,169.6 L659.2,170.2 L660.8,171.1 L662.5,157.0 L664.1,141.1 L665.7,128.5 L667.4,136.9 L669.0,149.9 L670.6,140.5 L672.3,139.0 L673.9,133.4 L675.6,136.0 L677.2,127.5 L678.8,126.1 L680.5,131.0 L682.1,132.2 L683.8,144.1 L685.4,149.4 L687.0,160.8 L688.7,166.8 L690.3,159.7 L691.9,156.9 L693.6,162.6 L695.2,166.2 L696.9,167.7 L698.5,173.8 L700.1,170.1 L701.8,157.5 L703.4,164.8 L705.0,157.3 L706.7,157.5 L708.3,164.8 L710.0,162.7 L711.6,168.8 L713.2,171.4 L714.9,166.2 L716.5,167.4 L718.2,163.5 L719.8,164.7 L721.4,172.0 L723.1,167.8 L724.7,170.3 L726.3,173.2 L728.0,166.8 L729.6,160.5 L731.3,163.0 L732.9,155.1 L734.5,140.6 L736.2,144.4 L737.8,146.4 L739.4,157.1 L741.1,170.6 L742.7,177.0 L744.4,178.0 L746.0,172.9 L746.0,204.0 L58.0,204.0 Z" fill="rgba(180,68,46,.12)"/>
+  <path d="M58.0,202.9 L59.6,198.9 L61.3,194.2 L62.9,187.2 L64.6,202.4 L66.2,187.7 L67.8,191.4 L69.5,193.7 L71.1,194.5 L72.7,195.1 L74.4,193.5 L76.0,188.0 L77.7,188.6 L79.3,187.0 L80.9,186.6 L82.6,185.9 L84.2,184.1 L85.8,179.1 L87.5,175.3 L89.1,169.7 L90.8,167.8 L92.4,174.2 L94.0,175.5 L95.7,178.2 L97.3,180.5 L99.0,180.4 L100.6,182.5 L102.2,188.6 L103.9,190.4 L105.5,192.1 L107.1,185.2 L108.8,184.6 L110.4,171.9 L112.1,170.7 L113.7,172.3 L115.3,168.1 L117.0,164.5 L118.6,158.8 L120.2,159.3 L121.9,159.4 L123.5,165.7 L125.2,167.8 L126.8,160.0 L128.4,158.6 L130.1,159.6 L131.7,162.0 L133.4,168.7 L135.0,167.1 L136.6,165.5 L138.3,163.9 L139.9,154.0 L141.5,159.5 L143.2,162.1 L144.8,171.1 L146.5,166.3 L148.1,168.5 L149.7,154.2 L151.4,153.8 L153.0,151.0 L154.6,154.2 L156.3,158.0 L157.9,166.9 L159.6,171.9 L161.2,181.0 L162.8,174.2 L164.5,182.0 L166.1,181.1 L167.8,192.0 L169.4,193.5 L171.0,184.6 L172.7,184.0 L174.3,187.2 L175.9,187.4 L177.6,185.9 L179.2,184.1 L180.9,184.0 L182.5,178.7 L184.1,174.6 L185.8,170.2 L187.4,173.7 L189.0,174.6 L190.7,179.8 L192.3,182.4 L194.0,183.5 L195.6,193.8 L197.2,192.4 L198.9,183.9 L200.5,174.3 L202.2,151.7 L203.8,149.6 L205.4,133.3 L207.1,127.7 L208.7,130.8 L210.3,130.9 L212.0,143.7 L213.6,144.4 L215.3,144.8 L216.9,146.9 L218.5,149.3 L220.2,141.0 L221.8,132.9 L223.4,137.8 L225.1,139.5 L226.7,154.8 L228.4,156.5 L230.0,153.4 L231.6,140.7 L233.3,130.2 L234.9,125.3 L236.6,133.8 L238.2,141.6 L239.8,143.7 L241.5,142.2 L243.1,136.3 L244.7,123.4 L246.4,117.9 L248.0,119.6 L249.7,124.2 L251.3,120.6 L252.9,118.6 L254.6,123.4 L256.2,127.6 L257.8,127.1 L259.5,131.8 L261.1,137.8 L262.8,129.0 L264.4,123.0 L266.0,119.8 L267.7,116.7 L269.3,118.9 L271.0,110.4 L272.6,105.2 L274.2,107.6 L275.9,109.7 L277.5,111.0 L279.1,118.5 L280.8,120.9 L282.4,120.7 L284.1,128.8 L285.7,133.6 L287.3,137.2 L289.0,141.6 L290.6,138.7 L292.2,137.1 L293.9,140.0 L295.5,143.9 L297.2,146.5 L298.8,143.2 L300.4,136.6 L302.1,115.5 L303.7,110.3 L305.4,107.5 L307.0,97.9 L308.6,89.1 L310.3,86.2 L311.9,86.6 L313.5,90.3 L315.2,94.5 L316.8,95.4 L318.5,99.2 L320.1,97.8 L321.7,100.3 L323.4,94.6 L325.0,89.2 L326.6,81.6 L328.3,72.9 L329.9,74.5 L331.6,77.1 L333.2,82.1 L334.8,81.6 L336.5,75.1 L338.1,79.8 L339.8,78.9 L341.4,83.5 L343.0,88.8 L344.7,104.4 L346.3,119.6 L347.9,128.2 L349.6,134.4 L351.2,134.0 L352.9,122.6 L354.5,109.3 L356.1,107.3 L357.8,112.5 L359.4,106.1 L361.0,119.0 L362.7,128.1 L364.3,144.3 L366.0,151.4 L367.6,158.4 L369.2,165.6 L370.9,171.5 L372.5,170.0 L374.2,175.1 L375.8,182.5 L377.4,175.5 L379.1,174.8 L380.7,174.3 L382.3,174.0 L384.0,173.3 L385.6,161.1 L387.3,150.6 L388.9,136.8 L390.5,114.9 L392.2,102.9 L393.8,81.5 L395.4,58.5 L397.1,41.9 L398.7,41.2 L400.4,45.2 L402.0,53.1 L403.6,58.3 L405.3,53.3 L406.9,55.8 L408.6,54.1 L410.2,64.4 L411.8,69.0 L413.5,65.6 L415.1,61.6 L416.7,49.8 L418.4,39.8 L420.0,33.6 L421.7,35.5 L423.3,31.3 L424.9,24.1 L426.6,27.3 L428.2,31.9 L429.8,26.3 L431.5,22.0 L433.1,25.7 L434.8,32.9 L436.4,33.3 L438.0,29.6 L439.7,34.1 L441.3,37.8 L443.0,38.0 L444.6,51.9 L446.2,49.3 L447.9,29.5 L449.5,26.4 L451.1,24.2 L452.8,33.3 L454.4,36.8 L456.1,25.5 L457.7,21.6 L459.3,18.7 L461.0,26.3 L462.6,31.0 L464.2,39.4 L465.9,48.2 L467.5,60.1 L469.2,56.2 L470.8,53.0 L472.4,47.4 L474.1,34.4 L475.7,34.2 L477.4,42.6 L479.0,61.0 L480.6,74.4 L482.3,103.5 L483.9,123.2 L485.5,143.6 L487.2,148.4 L488.8,127.8 L490.5,126.3 L492.1,120.3 L493.7,125.7 L495.4,135.2 L497.0,157.5 L498.6,168.2 L500.3,164.8 L501.9,160.4 L503.6,166.9 L505.2,148.1 L506.8,129.7 L508.5,126.3 L510.1,113.2 L511.8,105.0 L513.4,107.0 L515.0,102.8 L516.7,89.8 L518.3,90.6 L519.9,91.9 L521.6,95.4 L523.2,86.0 L524.9,76.2 L526.5,73.0 L528.1,76.3 L529.8,82.6 L531.4,103.7 L533.0,113.5 L534.7,108.9 L536.3,101.7 L538.0,86.2 L539.6,97.9 L541.2,110.7 L542.9,125.8 L544.5,127.8 L546.2,116.5 L547.8,120.4 L549.4,113.5 L551.1,81.4 L552.7,35.7 L554.3,56.8 L556.0,80.7 L557.6,93.2 L559.3,83.0 L560.9,72.6 L562.5,71.2 L564.2,65.1 L565.8,59.3 L567.4,45.3 L569.1,45.3 L570.7,48.0 L572.4,51.7 L574.0,49.2 L575.6,78.2 L577.3,95.1 L578.9,82.7 L580.6,91.0 L582.2,89.7 L583.8,90.8 L585.5,95.9 L587.1,92.8 L588.7,110.4 L590.4,121.9 L592.0,128.8 L593.7,129.1 L595.3,126.4 L596.9,125.8 L598.6,152.2 L600.2,154.6 L601.8,148.3 L603.5,131.7 L605.1,128.0 L606.8,141.9 L608.4,163.7 L610.0,168.8 L611.7,162.3 L613.3,156.1 L615.0,149.3 L616.6,160.5 L618.2,167.5 L619.9,171.7 L621.5,164.5 L623.1,159.2 L624.8,158.9 L626.4,159.8 L628.1,157.7 L629.7,149.6 L631.3,157.8 L633.0,163.2 L634.6,159.7 L636.2,139.0 L637.9,117.7 L639.5,109.9 L641.2,118.0 L642.8,129.9 L644.4,133.7 L646.1,130.7 L647.7,115.0 L649.4,104.7 L651.0,107.3 L652.6,125.1 L654.3,131.3 L655.9,152.0 L657.5,169.6 L659.2,170.2 L660.8,171.1 L662.5,157.0 L664.1,141.1 L665.7,128.5 L667.4,136.9 L669.0,149.9 L670.6,140.5 L672.3,139.0 L673.9,133.4 L675.6,136.0 L677.2,127.5 L678.8,126.1 L680.5,131.0 L682.1,132.2 L683.8,144.1 L685.4,149.4 L687.0,160.8 L688.7,166.8 L690.3,159.7 L691.9,156.9 L693.6,162.6 L695.2,166.2 L696.9,167.7 L698.5,173.8 L700.1,170.1 L701.8,157.5 L703.4,164.8 L705.0,157.3 L706.7,157.5 L708.3,164.8 L710.0,162.7 L711.6,168.8 L713.2,171.4 L714.9,166.2 L716.5,167.4 L718.2,163.5 L719.8,164.7 L721.4,172.0 L723.1,167.8 L724.7,170.3 L726.3,173.2 L728.0,166.8 L729.6,160.5 L731.3,163.0 L732.9,155.1 L734.5,140.6 L736.2,144.4 L737.8,146.4 L739.4,157.1 L741.1,170.6 L742.7,177.0 L744.4,178.0 L746.0,172.9" fill="none" stroke="var(--crit)" stroke-width="1.6"/>
+  <circle cx="746.0" cy="172.9" r="3.4" fill="var(--crit)"/>
+  <g><text class='xtick' x='58.0' y='222'>2004</text><text class='xtick' x='402.0' y='222'>2015</text><text class='xtick' x='746.0' y='222'>2026</text></g>
+</svg>
+    <div class="cap">Weekly stocks, thousand barrels · 2004-04-09 to 2026-07-31
+    · latest 21.0M bbl vs
+    69.4M peak (2017-04)</div>
+  </div>
+
+  <div class="panel">
+    <h3>Commercial crude versus the Strategic Petroleum Reserve</h3>
+    <svg role='img' aria-label="Commercial crude versus the Strategic Petroleum Reserve" class='chart' viewBox='0 0 760 250'><line class='grid' x1='58' y1='224.0' x2='650' y2='224.0'/><text class='ytick' x='50' y='227.5'>239k</text><line class='grid' x1='58' y1='171.0' x2='650' y2='171.0'/><text class='ytick' x='50' y='174.5'>368k</text><line class='grid' x1='58' y1='118.0' x2='650' y2='118.0'/><text class='ytick' x='50' y='121.5'>497k</text><line class='grid' x1='58' y1='65.0' x2='650' y2='65.0'/><text class='ytick' x='50' y='68.5'>626k</text><line class='grid' x1='58' y1='12.0' x2='650' y2='12.0'/><text class='ytick' x='50' y='15.5'>756k</text><path d='M58.0,183.0 L59.4,187.9 L60.8,186.1 L62.2,186.6 L63.6,185.6 L65.0,184.2 L66.5,181.4 L67.9,186.0 L69.3,188.2 L70.7,188.1 L72.1,184.9 L73.5,184.6 L74.9,187.8 L76.3,190.4 L77.7,193.8 L79.1,189.3 L80.6,182.7 L82.0,186.5 L83.4,189.4 L84.8,196.1 L86.2,190.4 L87.6,189.8 L89.0,189.0 L90.4,200.6 L91.8,193.5 L93.2,187.6 L94.6,186.1 L96.1,196.0 L97.5,199.0 L98.9,201.1 L100.3,203.7 L101.7,198.8 L103.1,197.7 L104.5,193.2 L105.9,191.9 L107.3,195.4 L108.7,199.2 L110.2,193.6 L111.6,195.9 L113.0,191.4 L114.4,190.3 L115.8,192.0 L117.2,195.7 L118.6,195.6 L120.0,195.8 L121.4,198.4 L122.8,199.5 L124.2,195.1 L125.7,193.1 L127.1,185.3 L128.5,182.2 L129.9,190.8 L131.3,188.6 L132.7,185.1 L134.1,180.3 L135.5,181.8 L136.9,186.5 L138.3,194.1 L139.8,194.6 L141.2,189.7 L142.6,193.3 L144.0,196.8 L145.4,191.4 L146.8,192.1 L148.2,188.7 L149.6,193.4 L151.0,191.1 L152.4,194.6 L153.8,190.6 L155.3,189.5 L156.7,188.2 L158.1,189.8 L159.5,178.4 L160.9,175.1 L162.3,171.2 L163.7,169.1 L165.1,174.5 L166.5,187.1 L167.9,187.7 L169.4,192.4 L170.8,194.8 L172.2,190.5 L173.6,189.6 L175.0,184.1 L176.4,184.7 L177.8,187.3 L179.2,191.0 L180.6,185.5 L182.0,187.0 L183.4,191.4 L184.9,190.9 L186.3,188.5 L187.7,184.7 L189.1,186.5 L190.5,195.5 L191.9,195.4 L193.3,195.2 L194.7,198.3 L196.1,193.7 L197.5,195.6 L199.0,189.9 L200.4,188.6 L201.8,183.3 L203.2,185.8 L204.6,184.7 L206.0,190.1 L207.4,192.0 L208.8,192.3 L210.2,192.1 L211.6,193.4 L213.0,191.3 L214.5,189.8 L215.9,195.3 L217.3,192.8 L218.7,195.8 L220.1,191.6 L221.5,187.5 L222.9,190.9 L224.3,196.1 L225.7,195.6 L227.1,191.4 L228.6,193.5 L230.0,199.2 L231.4,202.6 L232.8,202.2 L234.2,206.7 L235.6,198.0 L237.0,205.3 L238.4,204.5 L239.8,205.7 L241.2,207.4 L242.6,201.6 L244.1,200.7 L245.5,202.6 L246.9,202.3 L248.3,200.6 L249.7,206.0 L251.1,210.6 L252.5,203.6 L253.9,201.4 L255.3,195.9 L256.7,196.0 L258.2,202.3 L259.6,205.5 L261.0,203.9 L262.4,199.3 L263.8,200.5 L265.2,196.9 L266.6,196.8 L268.0,188.7 L269.4,186.5 L270.8,189.1 L272.2,187.5 L273.7,198.8 L275.1,190.7 L276.5,191.4 L277.9,195.5 L279.3,191.4 L280.7,187.2 L282.1,191.7 L283.5,191.3 L284.9,193.6 L286.3,198.3 L287.8,203.7 L289.2,202.7 L290.6,208.5 L292.0,212.6 L293.4,209.4 L294.8,204.6 L296.2,201.5 L297.6,208.1 L299.0,211.4 L300.4,210.1 L301.8,211.4 L303.3,209.5 L304.7,210.4 L306.1,210.1 L307.5,205.0 L308.9,198.2 L310.3,199.0 L311.7,199.7 L313.1,204.0 L314.5,202.7 L315.9,200.8 L317.4,201.7 L318.8,199.7 L320.2,197.4 L321.6,195.4 L323.0,197.4 L324.4,197.6 L325.8,202.8 L327.2,208.4 L328.6,214.0 L330.0,212.0 L331.4,214.5 L332.9,217.9 L334.3,217.9 L335.7,210.6 L337.1,210.0 L338.5,214.4 L339.9,214.2 L341.3,213.5 L342.7,209.2 L344.1,214.6 L345.5,219.9 L347.0,216.5 L348.4,208.7 L349.8,205.6 L351.2,203.3 L352.6,205.3 L354.0,211.3 L355.4,214.5 L356.8,208.8 L358.2,207.7 L359.6,207.3 L361.0,203.5 L362.5,197.7 L363.9,191.7 L365.3,195.3 L366.7,196.9 L368.1,202.2 L369.5,198.8 L370.9,197.2 L372.3,197.9 L373.7,194.6 L375.1,188.9 L376.6,186.4 L378.0,186.8 L379.4,191.0 L380.8,192.1 L382.2,194.0 L383.6,190.9 L385.0,193.7 L386.4,195.8 L387.8,196.1 L389.2,192.7 L390.6,187.9 L392.1,183.8 L393.5,189.4 L394.9,196.6 L396.3,199.2 L397.7,200.6 L399.1,213.1 L400.5,205.7 L401.9,201.2 L403.3,197.9 L404.7,205.2 L406.2,207.3 L407.6,203.7 L409.0,208.4 L410.4,201.2 L411.8,197.4 L413.2,193.0 L414.6,185.7 L416.0,181.6 L417.4,178.4 L418.8,184.4 L420.2,186.1 L421.7,190.9 L423.1,190.9 L424.5,190.8 L425.9,195.7 L427.3,194.6 L428.7,189.4 L430.1,183.7 L431.5,181.5 L432.9,185.6 L434.3,185.2 L435.8,183.4 L437.2,179.5 L438.6,184.8 L440.0,193.1 L441.4,188.6 L442.8,184.4 L444.2,179.2 L445.6,181.8 L447.0,185.8 L448.4,184.5 L449.8,192.5 L451.3,192.9 L452.7,196.9 L454.1,193.5 L455.5,190.0 L456.9,181.2 L458.3,174.1 L459.7,175.5 L461.1,182.5 L462.5,182.1 L463.9,179.1 L465.4,180.6 L466.8,185.3 L468.2,179.2 L469.6,175.4 L471.0,171.5 L472.4,172.2 L473.8,184.3 L475.2,185.2 L476.6,184.7 L478.0,174.9 L479.4,181.5 L480.9,188.1 L482.3,185.6 L483.7,173.4 L485.1,174.4 L486.5,177.1 L487.9,184.9 L489.3,187.7 L490.7,179.9 L492.1,178.1 L493.5,178.9 L495.0,164.6 L496.4,144.3 L497.8,134.0 L499.2,142.1 L500.6,145.9 L502.0,150.1 L503.4,147.2 L504.8,137.1 L506.2,134.0 L507.6,135.3 L509.0,122.3 L510.5,117.5 L511.9,112.9 L513.3,116.9 L514.7,120.2 L516.1,124.8 L517.5,127.6 L518.9,121.4 L520.3,122.6 L521.7,113.4 L523.1,105.3 L524.6,105.1 L526.0,112.8 L527.4,118.8 L528.8,130.6 L530.2,128.0 L531.6,135.4 L533.0,138.2 L534.4,152.7 L535.8,149.5 L537.2,147.5 L538.6,144.1 L540.1,147.0 L541.5,155.9 L542.9,155.5 L544.3,153.8 L545.7,140.7 L547.1,140.9 L548.5,139.1 L549.9,137.8 L551.3,135.3 L552.7,126.5 L554.2,129.8 L555.6,141.3 L557.0,150.9 L558.4,144.3 L559.8,138.6 L561.2,145.2 L562.6,140.3 L564.0,135.2 L565.4,103.7 L566.8,101.3 L568.2,101.9 L569.7,113.7 L571.1,120.0 L572.5,121.5 L573.9,116.8 L575.3,126.5 L576.7,123.2 L578.1,120.0 L579.5,122.6 L580.9,136.4 L582.3,141.8 L583.8,148.1 L585.2,147.0 L586.6,144.0 L588.0,150.6 L589.4,153.6 L590.8,152.4 L592.2,152.0 L593.6,151.0 L595.0,146.8 L596.4,147.7 L597.8,145.4 L599.3,142.8 L600.7,148.0 L602.1,138.2 L603.5,125.0 L604.9,129.2 L606.3,130.2 L607.7,131.9 L609.1,141.6 L610.5,151.1 L611.9,148.0 L613.4,138.2 L614.8,142.9 L616.2,146.7 L617.6,138.6 L619.0,135.9 L620.4,135.5 L621.8,139.4 L623.2,145.3 L624.6,150.7 L626.0,147.4 L627.4,148.3 L628.9,152.7 L630.3,144.6 L631.7,141.6 L633.1,142.2 L634.5,149.3 L635.9,150.1 L637.3,150.4 L638.7,149.6 L640.1,146.6 L641.5,147.7 L643.0,148.2 L644.4,140.2 L645.8,131.7 L647.2,140.8 L648.6,154.5 L650.0,155.0' fill='none' stroke='var(--teal)' stroke-width='1.6'/><circle cx='650.0' cy='155.0' r='3.2' fill='var(--teal)'/><path d='M58.0,211.0 L59.4,206.8 L60.8,204.5 L62.2,201.7 L63.6,198.6 L65.0,194.9 L66.5,191.8 L67.9,186.6 L69.3,182.5 L70.7,177.0 L72.1,172.3 L73.5,170.1 L74.9,166.8 L76.3,164.2 L77.7,162.5 L79.1,159.8 L80.6,156.7 L82.0,152.3 L83.4,146.6 L84.8,145.4 L86.2,144.0 L87.6,139.8 L89.0,137.0 L90.4,133.8 L91.8,132.8 L93.2,130.8 L94.6,127.8 L96.1,124.2 L97.5,122.3 L98.9,121.3 L100.3,120.9 L101.7,119.9 L103.1,119.2 L104.5,118.6 L105.9,117.9 L107.3,117.2 L108.7,116.2 L110.2,115.5 L111.6,114.6 L113.0,114.1 L114.4,113.1 L115.8,112.0 L117.2,110.6 L118.6,109.1 L120.0,107.9 L121.4,106.2 L122.8,105.3 L124.2,103.8 L125.7,103.0 L127.1,102.1 L128.5,100.9 L129.9,99.9 L131.3,98.8 L132.7,98.1 L134.1,97.5 L135.5,96.6 L136.9,95.7 L138.3,95.1 L139.8,94.5 L141.2,93.0 L142.6,92.5 L144.0,91.2 L145.4,90.0 L146.8,89.2 L148.2,88.0 L149.6,87.0 L151.0,86.4 L152.4,85.5 L153.8,84.8 L155.3,84.1 L156.7,84.0 L158.1,83.7 L159.5,83.1 L160.9,82.3 L162.3,81.5 L163.7,81.3 L165.1,80.1 L166.5,80.1 L167.9,80.8 L169.4,81.7 L170.8,81.7 L172.2,86.1 L173.6,88.8 L175.0,88.8 L176.4,88.8 L177.8,88.8 L179.2,88.8 L180.6,88.8 L182.0,88.8 L183.4,88.8 L184.9,88.8 L186.3,88.8 L187.7,88.8 L189.1,88.8 L190.5,88.4 L191.9,88.1 L193.3,87.6 L194.7,86.7 L196.1,86.4 L197.5,86.0 L199.0,85.8 L200.4,84.6 L201.8,83.3 L203.2,83.0 L204.6,82.7 L206.0,81.9 L207.4,81.6 L208.8,81.3 L210.2,81.2 L211.6,81.1 L213.0,80.3 L214.5,79.5 L215.9,79.5 L217.3,79.3 L218.7,79.3 L220.1,79.3 L221.5,79.3 L222.9,79.3 L224.3,79.3 L225.7,79.3 L227.1,79.3 L228.6,79.3 L230.0,79.3 L231.4,79.3 L232.8,79.3 L234.2,79.3 L235.6,79.3 L237.0,79.3 L238.4,79.3 L239.8,79.3 L241.2,81.4 L242.6,81.7 L244.1,82.4 L245.5,83.7 L246.9,85.8 L248.3,86.7 L249.7,88.1 L251.1,90.1 L252.5,90.8 L253.9,90.8 L255.3,90.9 L256.7,90.9 L258.2,90.9 L259.6,90.9 L261.0,90.9 L262.4,90.9 L263.8,90.9 L265.2,90.8 L266.6,90.9 L268.0,90.9 L269.4,90.9 L270.8,90.9 L272.2,90.9 L273.7,90.9 L275.1,90.9 L276.5,90.6 L277.9,88.8 L279.3,87.3 L280.7,87.4 L282.1,87.4 L283.5,86.7 L284.9,86.2 L286.3,85.8 L287.8,86.2 L289.2,87.0 L290.6,89.0 L292.0,88.8 L293.4,88.4 L294.8,88.4 L296.2,88.4 L297.6,88.8 L299.0,88.0 L300.4,87.6 L301.8,87.9 L303.3,94.6 L304.7,100.2 L306.1,99.8 L307.5,99.5 L308.9,99.5 L310.3,99.1 L311.7,98.9 L313.1,98.9 L314.5,98.5 L315.9,98.3 L317.4,97.1 L318.8,95.4 L320.2,92.4 L321.6,91.7 L323.0,88.9 L324.4,86.4 L325.8,84.7 L327.2,83.1 L328.6,80.9 L330.0,78.5 L331.4,76.3 L332.9,76.2 L334.3,76.2 L335.7,76.1 L337.1,74.8 L338.5,72.0 L339.9,70.7 L341.3,67.1 L342.7,63.6 L344.1,61.8 L345.5,59.6 L347.0,57.3 L348.4,54.5 L349.8,51.6 L351.2,50.7 L352.6,49.6 L354.0,47.6 L355.4,47.5 L356.8,46.6 L358.2,45.7 L359.6,43.6 L361.0,41.5 L362.5,39.0 L363.9,37.6 L365.3,36.4 L366.7,34.9 L368.1,36.3 L369.5,40.1 L370.9,40.7 L372.3,41.3 L373.7,41.3 L375.1,40.7 L376.6,39.7 L378.0,39.5 L379.4,39.8 L380.8,39.8 L382.2,39.8 L383.6,39.5 L385.0,39.5 L386.4,39.5 L387.8,39.5 L389.2,39.4 L390.6,39.1 L392.1,38.8 L393.5,38.8 L394.9,38.8 L396.3,37.4 L397.7,37.0 L399.1,36.3 L400.5,35.5 L401.9,35.0 L403.3,34.3 L404.7,33.1 L406.2,32.4 L407.6,31.9 L409.0,33.0 L410.4,34.1 L411.8,34.1 L413.2,34.0 L414.6,32.8 L416.0,29.6 L417.4,26.5 L418.8,25.5 L420.2,25.0 L421.7,25.0 L423.1,24.5 L424.5,24.6 L425.9,24.1 L427.3,23.9 L428.7,23.9 L430.1,23.9 L431.5,23.9 L432.9,23.9 L434.3,23.9 L435.8,24.1 L437.2,23.9 L438.6,23.9 L440.0,24.0 L441.4,24.0 L442.8,24.0 L444.2,24.0 L445.6,24.0 L447.0,24.9 L448.4,34.1 L449.8,36.5 L451.3,36.5 L452.7,36.5 L454.1,36.5 L455.5,36.5 L456.9,36.5 L458.3,36.5 L459.7,36.5 L461.1,36.5 L462.5,36.9 L463.9,36.9 L465.4,36.9 L466.8,36.9 L468.2,36.5 L469.6,36.5 L471.0,36.5 L472.4,36.5 L473.8,36.5 L475.2,36.5 L476.6,36.5 L478.0,36.5 L479.4,36.5 L480.9,36.5 L482.3,36.5 L483.7,36.8 L485.1,38.5 L486.5,38.5 L487.9,38.5 L489.3,38.5 L490.7,38.5 L492.1,38.5 L493.5,38.5 L495.0,38.5 L496.4,38.6 L497.8,38.6 L499.2,38.0 L500.6,37.0 L502.0,36.8 L503.4,36.8 L504.8,36.8 L506.2,36.8 L507.6,36.8 L509.0,36.8 L510.5,36.8 L511.9,36.8 L513.3,36.8 L514.7,36.9 L516.1,36.9 L517.5,36.9 L518.9,36.9 L520.3,36.9 L521.7,36.9 L523.1,37.3 L524.6,38.6 L526.0,40.3 L527.4,43.5 L528.8,43.5 L530.2,44.9 L531.6,46.9 L533.0,50.2 L534.4,49.5 L535.8,49.3 L537.2,49.0 L538.6,49.8 L540.1,51.2 L541.5,51.2 L542.9,51.2 L544.3,51.8 L545.7,54.0 L547.1,55.7 L548.5,55.7 L549.9,55.7 L551.3,55.7 L552.7,57.5 L554.2,57.5 L555.6,57.5 L557.0,57.5 L558.4,58.5 L559.8,61.4 L561.2,61.5 L562.6,61.5 L564.0,61.5 L565.4,60.3 L566.8,55.4 L568.2,52.8 L569.7,55.6 L571.1,58.2 L572.5,60.0 L573.9,60.2 L575.3,60.2 L576.7,60.4 L578.1,60.8 L579.5,63.5 L580.9,66.6 L582.3,67.1 L583.8,67.1 L585.2,69.6 L586.6,74.0 L588.0,78.5 L589.4,81.0 L590.8,87.6 L592.2,95.1 L593.6,109.0 L595.0,123.0 L596.4,132.8 L597.8,148.6 L599.3,158.0 L600.7,165.2 L602.1,169.6 L603.5,169.6 L604.9,169.7 L606.3,174.5 L607.7,178.4 L609.1,179.7 L610.5,178.3 L611.9,177.9 L613.4,177.9 L614.8,177.1 L616.2,175.1 L617.6,173.7 L619.0,172.0 L620.4,170.5 L621.8,169.0 L623.2,167.5 L624.6,165.9 L626.0,163.7 L627.4,161.3 L628.9,160.2 L630.3,159.8 L631.7,159.4 L633.1,158.3 L634.5,157.0 L635.9,156.9 L637.3,156.2 L638.7,155.0 L640.1,153.6 L641.5,152.6 L643.0,151.8 L644.4,151.6 L645.8,154.1 L647.2,172.2 L648.6,188.4 L650.0,197.0' fill='none' stroke='var(--accent)' stroke-width='1.6'/><circle cx='650.0' cy='197.0' r='3.2' fill='var(--accent)'/><text class='xtick' x='58.0' y='242'>1982</text><text class='xtick' x='354.0' y='242'>2004</text><text class='xtick' x='650.0' y='242'>2026</text><text class='lgd' x='658' y='158.5' fill='var(--teal)'>Commercial</text><text class='lgd' x='658' y='200.5' fill='var(--accent)'>SPR</text></svg>
+    <div class="cap">Weekly stocks, thousand barrels. The SPR line is the federal buffer;
+    commercial is industry working stock.</div>
+  </div>
+
+  <div class="panel">
+    <h3>US crude oil proved reserves</h3>
+    <svg class="chart" viewBox="0 0 760 230" role="img"
+     aria-label="time series, latest 41k million bbl">
+  <g><line class='grid' x1='58' y1='204.0' x2='746' y2='204.0'/><text class='ytick' x='50' y='207.5'>0</text><line class='grid' x1='58' y1='156.0' x2='746' y2='156.0'/><text class='ytick' x='50' y='159.5'>11k</text><line class='grid' x1='58' y1='108.0' x2='746' y2='108.0'/><text class='ytick' x='50' y='111.5'>23k</text><line class='grid' x1='58' y1='60.0' x2='746' y2='60.0'/><text class='ytick' x='50' y='63.5'>34k</text><line class='grid' x1='58' y1='12.0' x2='746' y2='12.0'/><text class='ytick' x='50' y='15.5'>46k</text></g>
+  <path d="M58.0,191.8 L63.7,191.3 L69.4,190.5 L75.1,189.7 L80.7,188.8 L86.4,188.0 L92.1,188.0 L97.8,187.5 L103.5,187.1 L109.2,186.3 L114.9,185.0 L120.5,182.9 L126.2,181.2 L131.9,180.8 L137.6,181.2 L143.3,180.8 L149.0,179.1 L154.7,179.1 L160.3,177.8 L166.0,175.7 L171.7,173.6 L177.4,171.1 L183.1,171.9 L188.8,171.9 L194.5,172.4 L200.1,168.1 L205.8,166.9 L211.5,159.7 L217.2,157.6 L222.9,148.3 L228.6,146.6 L234.3,149.2 L240.0,152.1 L245.6,153.4 L251.3,152.6 L257.0,151.7 L262.7,148.9 L268.4,138.6 L274.1,130.8 L279.8,126.0 L285.4,123.7 L291.1,121.5 L296.8,119.3 L302.5,119.4 L308.2,117.7 L313.9,116.1 L319.6,115.9 L325.2,113.4 L330.9,105.8 L336.6,100.0 L342.3,97.4 L348.0,88.1 L353.7,86.1 L359.4,81.9 L365.0,79.3 L370.7,77.4 L376.4,75.6 L382.1,76.2 L387.8,75.2 L393.5,70.2 L399.2,70.6 L404.8,70.0 L410.5,71.6 L416.2,73.4 L421.9,73.3 L427.6,71.8 L433.3,71.3 L439.0,71.6 L444.6,74.5 L450.3,79.0 L456.0,39.5 L461.7,43.4 L467.4,50.7 L473.1,55.1 L478.8,68.0 L484.4,66.1 L490.1,73.5 L495.8,69.9 L501.5,71.7 L507.2,78.3 L512.9,78.3 L518.6,79.9 L524.2,86.5 L529.9,87.0 L535.6,84.0 L541.3,84.1 L547.0,90.6 L552.7,89.0 L558.4,90.8 L564.0,92.2 L569.7,93.3 L575.4,99.9 L581.1,103.8 L586.8,107.2 L592.5,109.3 L598.2,109.7 L603.9,111.1 L609.5,108.9 L615.2,115.3 L620.9,112.2 L626.6,111.0 L632.3,109.3 L638.0,108.3 L643.7,111.7 L649.3,113.9 L655.0,112.2 L660.7,115.5 L666.4,114.1 L672.1,123.3 L677.8,116.8 L683.5,105.9 L689.1,92.0 L694.8,75.2 L700.5,63.2 L706.2,50.5 L711.9,67.7 L717.6,65.8 L723.3,38.8 L728.9,19.1 L734.6,17.6 L740.3,52.8 L746.0,30.4 L746.0,204.0 L58.0,204.0 Z" fill="rgba(30,107,107,.13)"/>
+  <path d="M58.0,191.8 L63.7,191.3 L69.4,190.5 L75.1,189.7 L80.7,188.8 L86.4,188.0 L92.1,188.0 L97.8,187.5 L103.5,187.1 L109.2,186.3 L114.9,185.0 L120.5,182.9 L126.2,181.2 L131.9,180.8 L137.6,181.2 L143.3,180.8 L149.0,179.1 L154.7,179.1 L160.3,177.8 L166.0,175.7 L171.7,173.6 L177.4,171.1 L183.1,171.9 L188.8,171.9 L194.5,172.4 L200.1,168.1 L205.8,166.9 L211.5,159.7 L217.2,157.6 L222.9,148.3 L228.6,146.6 L234.3,149.2 L240.0,152.1 L245.6,153.4 L251.3,152.6 L257.0,151.7 L262.7,148.9 L268.4,138.6 L274.1,130.8 L279.8,126.0 L285.4,123.7 L291.1,121.5 L296.8,119.3 L302.5,119.4 L308.2,117.7 L313.9,116.1 L319.6,115.9 L325.2,113.4 L330.9,105.8 L336.6,100.0 L342.3,97.4 L348.0,88.1 L353.7,86.1 L359.4,81.9 L365.0,79.3 L370.7,77.4 L376.4,75.6 L382.1,76.2 L387.8,75.2 L393.5,70.2 L399.2,70.6 L404.8,70.0 L410.5,71.6 L416.2,73.4 L421.9,73.3 L427.6,71.8 L433.3,71.3 L439.0,71.6 L444.6,74.5 L450.3,79.0 L456.0,39.5 L461.7,43.4 L467.4,50.7 L473.1,55.1 L478.8,68.0 L484.4,66.1 L490.1,73.5 L495.8,69.9 L501.5,71.7 L507.2,78.3 L512.9,78.3 L518.6,79.9 L524.2,86.5 L529.9,87.0 L535.6,84.0 L541.3,84.1 L547.0,90.6 L552.7,89.0 L558.4,90.8 L564.0,92.2 L569.7,93.3 L575.4,99.9 L581.1,103.8 L586.8,107.2 L592.5,109.3 L598.2,109.7 L603.9,111.1 L609.5,108.9 L615.2,115.3 L620.9,112.2 L626.6,111.0 L632.3,109.3 L638.0,108.3 L643.7,111.7 L649.3,113.9 L655.0,112.2 L660.7,115.5 L666.4,114.1 L672.1,123.3 L677.8,116.8 L683.5,105.9 L689.1,92.0 L694.8,75.2 L700.5,63.2 L706.2,50.5 L711.9,67.7 L717.6,65.8 L723.3,38.8 L728.9,19.1 L734.6,17.6 L740.3,52.8 L746.0,30.4" fill="none" stroke="var(--teal)" stroke-width="1.6"/>
+  <circle cx="746.0" cy="30.4" r="3.4" fill="var(--teal)"/>
+  <g><text class='xtick' x='58.0' y='222'>1900</text><text class='xtick' x='404.8' y='222'>1961</text><text class='xtick' x='746.0' y='222'>2021</text></g>
+</svg>
+    <div class="cap">Annual, million barrels · series runs 1900–2021.
+    Note this EIA workbook stops at 2021 — proved reserves are
+    published with a long lag and are <em>not</em> a storage measure.</div>
+  </div>
+
+  <div class="flag warn">
+    <h4>Two different things called "reserves"</h4>
+    <p>Proved reserves (41,151 million bbl, above) are oil still in the ground — a geological
+    and economic estimate revised annually. The SPR and Cushing are barrels already produced
+    and sitting in tanks and caverns. They move on entirely different clocks, and only the
+    second kind can be delivered against a futures contract next month.</p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">Topic 02</span>Why Cushing and US reserves drive the crude mix</h2>
+  <p class="lede">The US is the world's largest oil producer and still buys more crude than it
+  sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it.</p>
+
+  <div class="tiles">
+    <div class="tile"><div class="tile-h">US crude exports<span class="pill good">sells</span></div>
+      <div class="tile-v">100.3<span class="u">$bn</span></div>
+      <div class="tile-n">HS 2709 · 2025</div></div>
+    <div class="tile"><div class="tile-h">US crude imports<span class="pill crit">buys</span></div>
+      <div class="tile-v">146.8<span class="u">$bn</span></div>
+      <div class="tile-n">HS 2709 · 2025</div></div>
+    <div class="tile"><div class="tile-h">Net crude position<span class="pill crit">deficit</span></div>
+      <div class="tile-v">-46.5<span class="u">$bn</span></div>
+      <div class="tile-n">still a net crude importer</div></div>
+  </div>
+
+  <p>US shale produces light sweet crude. Much of the Gulf Coast refining base was built
+  to run heavy sour barrels, which yield more diesel and feed cokers that light crude cannot
+  fill. So the country exports its own light barrels and imports heavier ones — a two-way
+  trade in the same HS line, driven by grade rather than by shortage.
+  <span class="ctx">Refinery configuration and SPR grade composition are established industry
+  context, not conclusions from this dataset.</span></p>
+
+  <div class="tbl-wrap"><table><caption>US crude imports — implied unit value by partner (grade proxy)</caption>
+<thead><tr><th>Partner</th><th class="n">US$ bn</th><th class="n">US$/tonne</th></tr></thead>
+<tbody><tr><td>Canada</td><td class='n'>90.16</td><td class='n'>398</td></tr><tr><td>Mexico</td><td class='n'>9.00</td><td class='n'>412</td></tr><tr><td>Saudi Arabia</td><td class='n'>7.06</td><td class='n'>457</td></tr><tr><td>Brazil</td><td class='n'>5.33</td><td class='n'>469</td></tr><tr><td>Guyana</td><td class='n'>5.06</td><td class='n'>461</td></tr><tr><td>Colombia</td><td class='n'>4.89</td><td class='n'>444</td></tr><tr><td>Iraq</td><td class='n'>4.79</td><td class='n'>461</td></tr><tr><td>Nigeria</td><td class='n'>3.74</td><td class='n'>478</td></tr></tbody></table></div>
+  <figure style="margin:1.5rem 0 1.75rem;text-align:center">
+  <svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">US Crude Imports by Partner</text>
+  <text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">US$ billion</text>
+  <line x1="220" y1="70" x2="220" y2="345" stroke="#212529" stroke-width="1.5"/>
+  <text x="215" y="88" text-anchor="end" font-size="12" fill="#212529">Canada</text>
+  <rect x="225" y="76" width="410" height="22" fill="#0b5794"/><text x="640" y="92" font-size="12" font-weight="700" fill="#212529">$90.16bn</text>
+  <text x="215" y="122" text-anchor="end" font-size="12" fill="#212529">Mexico</text>
+  <rect x="225" y="110" width="41" height="22" fill="#0b5794"/><text x="271" y="126" font-size="12" font-weight="700" fill="#212529">$9.00bn</text>
+  <text x="215" y="156" text-anchor="end" font-size="12" fill="#212529">Saudi Arabia</text>
+  <rect x="225" y="144" width="32" height="22" fill="#0b5794"/><text x="262" y="160" font-size="12" font-weight="700" fill="#212529">$7.06bn</text>
+  <text x="215" y="190" text-anchor="end" font-size="12" fill="#212529">Brazil</text>
+  <rect x="225" y="178" width="24" height="22" fill="#0b5794"/><text x="254" y="194" font-size="12" font-weight="700" fill="#212529">$5.33bn</text>
+  <text x="215" y="224" text-anchor="end" font-size="12" fill="#212529">Guyana</text>
+  <rect x="225" y="212" width="23" height="22" fill="#0b5794"/><text x="253" y="228" font-size="12" font-weight="700" fill="#212529">$5.06bn</text>
+  <text x="215" y="258" text-anchor="end" font-size="12" fill="#212529">Colombia</text>
+  <rect x="225" y="246" width="22" height="22" fill="#0b5794"/><text x="252" y="262" font-size="12" font-weight="700" fill="#212529">$4.89bn</text>
+  <text x="215" y="292" text-anchor="end" font-size="12" fill="#212529">Iraq</text>
+  <rect x="225" y="280" width="22" height="22" fill="#0b5794"/><text x="252" y="296" font-size="12" font-weight="700" fill="#212529">$4.79bn</text>
+  <text x="215" y="326" text-anchor="end" font-size="12" fill="#212529">Nigeria</text>
+  <rect x="225" y="314" width="17" height="22" fill="#0b5794"/><text x="247" y="330" font-size="12" font-weight="700" fill="#212529">$3.74bn</text>
+  <text x="350" y="362" text-anchor="middle" font-size="10" fill="#868e96">Source: US Census Bureau / USITC trade data, implied unit-value grade proxy</text>
+  </svg>
+  <figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Canada alone is nearly ten times the next-largest source &mdash; pipeline-delivered heavy crude the Gulf Coast is built to run.</figcaption>
+  </figure>
+  <div class="tbl-wrap"><table><caption>US crude exports — implied unit value by partner (grade proxy)</caption>
+<thead><tr><th>Partner</th><th class="n">US$ bn</th><th class="n">US$/tonne</th></tr></thead>
+<tbody><tr><td>Netherlands</td><td class='n'>22.26</td><td class='n'>433</td></tr><tr><td>Rep. of Korea</td><td class='n'>12.53</td><td class='n'>426</td></tr><tr><td>Canada</td><td class='n'>9.47</td><td class='n'>426</td></tr><tr><td>India</td><td class='n'>7.90</td><td class='n'>433</td></tr><tr><td>Other Asia, nes</td><td class='n'>5.60</td><td class='n'>444</td></tr><tr><td>United Kingdom</td><td class='n'>4.54</td><td class='n'>422</td></tr><tr><td>Spain</td><td class='n'>4.45</td><td class='n'>427</td></tr><tr><td>Thailand</td><td class='n'>3.71</td><td class='n'>433</td></tr></tbody></table></div>
+  <figure style="margin:1.5rem 0 1.75rem;text-align:center">
+  <svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa"/>
+  <text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">US Crude Exports by Partner</text>
+  <text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">US$ billion</text>
+  <line x1="220" y1="70" x2="220" y2="345" stroke="#212529" stroke-width="1.5"/>
+  <text x="215" y="88" text-anchor="end" font-size="12" fill="#212529">Netherlands</text>
+  <rect x="225" y="76" width="248" height="22" fill="#1a8f4c"/><text x="478" y="92" font-size="12" font-weight="700" fill="#212529">$22.26bn</text>
+  <text x="215" y="122" text-anchor="end" font-size="12" fill="#212529">South Korea</text>
+  <rect x="225" y="110" width="140" height="22" fill="#1a8f4c"/><text x="370" y="126" font-size="12" font-weight="700" fill="#212529">$12.53bn</text>
+  <text x="215" y="156" text-anchor="end" font-size="12" fill="#212529">Canada</text>
+  <rect x="225" y="144" width="105" height="22" fill="#1a8f4c"/><text x="335" y="160" font-size="12" font-weight="700" fill="#212529">$9.47bn</text>
+  <text x="215" y="190" text-anchor="end" font-size="12" fill="#212529">India</text>
+  <rect x="225" y="178" width="88" height="22" fill="#c0392b"/><text x="318" y="194" font-size="12" font-weight="700" fill="#212529">$7.90bn</text>
+  <text x="215" y="224" text-anchor="end" font-size="12" fill="#212529">Other Asia</text>
+  <rect x="225" y="212" width="62" height="22" fill="#1a8f4c"/><text x="292" y="228" font-size="12" font-weight="700" fill="#212529">$5.60bn</text>
+  <text x="215" y="258" text-anchor="end" font-size="12" fill="#212529">UK</text>
+  <rect x="225" y="246" width="51" height="22" fill="#1a8f4c"/><text x="281" y="262" font-size="12" font-weight="700" fill="#212529">$4.54bn</text>
+  <text x="215" y="292" text-anchor="end" font-size="12" fill="#212529">Spain</text>
+  <rect x="225" y="280" width="49" height="22" fill="#1a8f4c"/><text x="279" y="296" font-size="12" font-weight="700" fill="#212529">$4.45bn</text>
+  <text x="215" y="326" text-anchor="end" font-size="12" fill="#212529">Thailand</text>
+  <rect x="225" y="314" width="41" height="22" fill="#1a8f4c"/><text x="271" y="330" font-size="12" font-weight="700" fill="#212529">$3.71bn</text>
+  <text x="350" y="362" text-anchor="middle" font-size="10" fill="#868e96">Source: US Census Bureau / USITC trade data, implied unit-value grade proxy</text>
+  </svg>
+  <figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">US light sweet crude flows mostly to European and Asian refiners built for it &mdash; India is the only major buyer among a mostly non-Asian list.</figcaption>
+  </figure>
+
+  <div class="flag ok">
+    <h3>Why Cushing specifically</h3>
+    <p>Cushing is the physical delivery point for the WTI contract. When its tanks run
+    toward operating minimum, the barrels available to settle that contract thin out, and WTI
+    trades more on local tank economics than on global supply. At
+    21.0M bbl — 30%
+    of its 2017 peak — the hub is a small buffer under a very large benchmark.</p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">Topic 03</span>Who is long and who is short</h2>
+  <p class="lede">Net petroleum position across the thirteen HS lines that make up crude,
+  refined products, LPG, waxes, coke and lubricants. Positive means the country sells more
+  than it buys.</p>
+  <svg role='img' aria-label="Bar chart of net petroleum trade balance by country in US dollars billion, where a positive figure means the country sells more than it buys: UAE +260.8, Saudi Arabia +203.0, United States +92.5." class='chart' viewBox='0 0 760 273'><line class='axis' x1='410.0' y1='6' x2='410.0' y2='267'/><rect x='410.0' y='6' width='260.0' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='21.8'>UAE (2023)</text><text class='bval' x='677.0' y='21.8' text-anchor='start'>+260.8</text><rect x='410.0' y='35' width='202.3' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='50.8'>Saudi Arabia (2025)</text><text class='bval' x='619.3' y='50.8' text-anchor='start'>+203.0</text><rect x='410.0' y='64' width='92.2' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='79.8'>USA (2025)</text><text class='bval' x='509.2' y='79.8' text-anchor='start'>+92.5</text><rect x='410.0' y='93' width='77.1' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='108.8'>Qatar (2024)</text><text class='bval' x='494.1' y='108.8' text-anchor='start'>+77.4</text><rect x='410.0' y='122' width='68.5' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='137.8'>Kuwait (2024)</text><text class='bval' x='485.5' y='137.8' text-anchor='start'>+68.7</text><rect x='410.0' y='151' width='44.4' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='166.8'>Oman (2024)</text><text class='bval' x='461.4' y='166.8' text-anchor='start'>+44.5</text><rect x='409.6' y='180' width='1.2' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='195.8'>Bahrain (2024)</text><text class='bval' x='402.6' y='195.8' text-anchor='end'>-0.4</text><rect x='407.6' y='209' width='2.4' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='224.8'>Mexico (2025)</text><text class='bval' x='400.6' y='224.8' text-anchor='end'>-2.4</text><rect x='262.9' y='238' width='147.1' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='253.8'>India (FY25-26, TRADESTAT)</text><text class='bval' x='255.9' y='253.8' text-anchor='end'>-147.5</text></svg>
+  <div class="cap">US$ bn, net (exports − imports), latest complete reported year per country.
+  Basis differs by country because reporting granularity does — see the table below.</div>
+
+  <div class="tbl-wrap"><table><caption>Which figure each country's bar is built from</caption>
+  <thead><tr><th>Country</th><th>Year</th><th>Basis used</th><th class="n">X / M ($bn)</th></tr></thead>
+  <tbody><tr><td>USA</td><td>2025</td><td>both levels agree</td><td class='n'>308.9 / 216.4</td></tr><tr><td>Mexico</td><td>2025</td><td>HS-6 sum (chapter aggregate unreliable)</td><td class='n'>19.7 / 22.1</td></tr><tr><td>Saudi Arabia</td><td>2025</td><td>both levels agree</td><td class='n'>214.4 / 11.4</td></tr><tr><td>UAE</td><td>2023</td><td>both levels agree</td><td class='n'>282.1 / 21.3</td></tr><tr><td>Qatar</td><td>2024</td><td>chapter total (HS-6 detail incomplete)</td><td class='n'>79.6 / 2.2</td></tr><tr><td>Kuwait</td><td>2024</td><td>both levels agree</td><td class='n'>69.0 / 0.2</td></tr><tr><td>Oman</td><td>2024</td><td>HS-6 sum (chapter aggregate unreliable)</td><td class='n'>44.8 / 0.3</td></tr><tr><td>Bahrain</td><td>2024</td><td>both levels agree</td><td class='n'>0.0 / 0.4</td></tr><tr><td>India</td><td>FY25-26</td><td>DGCI&amp;S TRADESTAT (Comtrade HS-6 imports missing)</td><td class='n'>55.9 / 203.4</td></tr></tbody></table></div>
+
+  <h3>United States, by product</h3>
+  <svg role='img' aria-label="Bar chart of United States net petroleum trade by product, US dollars billion: LNG +44.0; diesel, jet and fuel oil plus base oils +36.5; gasoline and light oils +23.1." class='chart' viewBox='0 0 760 389'><line class='axis' x1='410.0' y1='6' x2='410.0' y2='383'/><rect x='410.0' y='6' width='245.9' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='21.8'>LNG</text><text class='bval' x='662.9' y='21.8' text-anchor='start'>+44.0</text><rect x='410.0' y='35' width='203.8' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='50.8'>Diesel, jet, fuel oil + base oils</text><text class='bval' x='620.8' y='50.8' text-anchor='start'>+36.5</text><rect x='410.0' y='64' width='129.4' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='79.8'>Gasoline / light oils</text><text class='bval' x='546.4' y='79.8' text-anchor='start'>+23.1</text><rect x='410.0' y='93' width='119.5' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='108.8'>Propane</text><text class='bval' x='536.5' y='108.8' text-anchor='start'>+21.4</text><rect x='410.0' y='122' width='22.0' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='137.8'>Butanes</text><text class='bval' x='439.0' y='137.8' text-anchor='start'>+3.9</text><rect x='410.0' y='151' width='10.6' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='166.8'>Petroleum coke / bitumen</text><text class='bval' x='427.6' y='166.8' text-anchor='start'>+1.9</text><rect x='410.0' y='180' width='9.5' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='195.8'>Lubricating preparations</text><text class='bval' x='426.5' y='195.8' text-anchor='start'>+1.7</text><rect x='410.0' y='209' width='5.1' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='224.8'>Biodiesel blends</text><text class='bval' x='422.1' y='224.8' text-anchor='start'>+0.9</text><rect x='410.0' y='238' width='1.8' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='253.8'>Other LPG</text><text class='bval' x='418.8' y='253.8' text-anchor='start'>+0.3</text><rect x='410.0' y='267' width='1.2' height='22' fill='var(--good)' rx='1.5'/><text class='blab' x='140' y='282.8'>Petroleum jelly / waxes</text><text class='bval' x='417.4' y='282.8' text-anchor='start'>+0.1</text><rect x='409.8' y='296' width='1.2' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='311.8'>Bituminous mixtures</text><text class='bval' x='402.8' y='311.8' text-anchor='end'>-0.0</text><rect x='406.8' y='325' width='3.2' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='340.8'>Natural gas (gaseous)</text><text class='bval' x='399.8' y='340.8' text-anchor='end'>-0.6</text><rect x='150.0' y='354' width='260.0' height='22' fill='var(--crit)' rx='1.5'/><text class='blab' x='140' y='369.8'>Crude oil</text><text class='bval' x='143.0' y='369.8' text-anchor='end'>-46.5</text></svg>
+  <div class="cap">US$ bn net by HS line. The US is short crude and long almost every
+  refined product and gas liquid — the refining-margin business in one chart.</div>
+</section>
+
+<section>
+  <h2><span class="num">Topic 04</span>Key import–export pairings</h2>
+  <p class="lede">For each reporter and product, the largest counterparties on both sides.
+  Values are US$ bn for the year shown.</p>
+  <div class="repblock">
+  <h3>USA <span class="yr">2025</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Crude oil <span class="hs">HS 2709</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>22.26</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>12.53</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>9.47</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>7.90</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>4.54</span></div><div class='pr'><span class='pn'>Spain</span><span class='pv'>4.45</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>90.16</span></div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>9.00</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>7.06</span></div><div class='pr'><span class='pn'>Brazil</span><span class='pv'>5.33</span></div><div class='pr'><span class='pn'>Guyana</span><span class='pv'>5.06</span></div><div class='pr'><span class='pn'>Colombia</span><span class='pv'>4.89</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>15.76</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>6.86</span></div><div class='pr'><span class='pn'>Bahamas</span><span class='pv'>2.39</span></div><div class='pr'><span class='pn'>Colombia</span><span class='pv'>2.25</span></div><div class='pr'><span class='pn'>Guatemala</span><span class='pv'>2.05</span></div><div class='pr'><span class='pn'>Brazil</span><span class='pv'>1.95</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>3.80</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>3.52</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>3.24</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>1.40</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>1.23</span></div><div class='pr'><span class='pn'>Norway</span><span class='pv'>0.95</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>11.72</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>5.45</span></div><div class='pr'><span class='pn'>Chile</span><span class='pv'>5.17</span></div><div class='pr'><span class='pn'>Brazil</span><span class='pv'>4.96</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>4.64</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>3.70</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>7.49</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>3.64</span></div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>3.05</span></div><div class='pr'><span class='pn'>Algeria</span><span class='pv'>1.77</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>1.65</span></div><div class='pr'><span class='pn'>Colombia</span><span class='pv'>1.13</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Japan</span><span class='pv'>5.82</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>2.93</span></div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>2.47</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>1.54</span></div><div class='pr'><span class='pn'>Indonesia</span><span class='pv'>1.16</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>1.08</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>1.68</span></div><div class='pr'><span class='pn'>Equatorial Guinea</span><span class='pv'>0.09</span></div><div class='pr'><span class='pn'>Chile</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Argentina</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Nigeria</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Norway</span><span class='pv'>0.01</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.50</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.45</span></div><div class='pr'><span class='pn'>Morocco</span><span class='pv'>0.42</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.42</span></div><div class='pr'><span class='pn'>Indonesia</span><span class='pv'>0.36</span></div><div class='pr'><span class='pn'>Côte d&#x27;Ivoire</span><span class='pv'>0.26</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>0.70</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Equatorial Guinea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Canada</span><span class='pv'>0.57</span></div><div class='pr'><span class='pn'>Mexico</span><span class='pv'>0.33</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.18</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>China, Hong Kong SAR</span><span class='pv'>0.07</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.13</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.02</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Mexico <span class="yr">2025</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Guatemala</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Colombia</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Bolivia (Plurinational State of)</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Paraguay</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Uruguay</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Brazil</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>2.66</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>0.01</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Guatemala</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Colombia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Dominican Rep.</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Brazil</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>El Salvador</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.32</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.05</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Spain</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.01</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Saudi Arabia <span class="yr">2025</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Egypt</span><span class='pv'>3.72</span></div><div class='pr'><span class='pn'>Russian Federation</span><span class='pv'>2.02</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>1.76</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>1.39</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.38</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.22</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Yemen</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Jordan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>India</span><span class='pv'>0.22</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.11</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.06</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Malaysia</span><span class='pv'>0.03</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Egypt</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Poland</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Spain</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Albania</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Egypt</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Dem. Rep. of the Congo</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Gabon</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Algeria</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>UAE <span class="yr">2023</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Crude oil <span class="hs">HS 2709</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Kenya</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Pakistan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Mozambique</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Algeria</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>1.31</span></div><div class='pr'><span class='pn'>Libya</span><span class='pv'>1.09</span></div><div class='pr'><span class='pn'>Russian Federation</span><span class='pv'>0.25</span></div><div class='pr'><span class='pn'>Nigeria</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>3.52</span></div><div class='pr'><span class='pn'>Pakistan</span><span class='pv'>1.22</span></div><div class='pr'><span class='pn'>Kenya</span><span class='pv'>0.84</span></div><div class='pr'><span class='pn'>Djibouti</span><span class='pv'>0.50</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.39</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.38</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>3.41</span></div><div class='pr'><span class='pn'>Pakistan</span><span class='pv'>2.56</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>2.55</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>1.73</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>1.08</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>1.07</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.44</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.20</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.19</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.11</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.11</span></div><div class='pr'><span class='pn'>Yemen</span><span class='pv'>0.10</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.72</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.63</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.19</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.12</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.11</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.09</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Nigeria</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Turkmenistan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Somalia</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Pakistan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Djibouti</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Uganda</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Ukraine</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Iran</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Greece</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Poland</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Russian Federation</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.01</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Qatar <span class="yr">2024</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Crude oil <span class="hs">HS 2709</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>China</span><span class='pv'>4.96</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>2.59</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>2.31</span></div><div class='pr'><span class='pn'>Thailand</span><span class='pv'>0.94</span></div><div class='pr'><span class='pn'>Myanmar</span><span class='pv'>0.84</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.71</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.63</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.36</span></div><div class='pr'><span class='pn'>Malaysia</span><span class='pv'>0.19</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.09</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.08</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.08</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.03</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.03</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.09</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.00</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Kuwait <span class="yr">2024</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>India</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Jordan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>South Africa</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Libya</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.10</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Bahrain</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Yemen</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Oman <span class="yr">2023</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Crude oil <span class="hs">HS 2709</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>1.51</span></div><div class='pr'><span class='pn'>Russian Federation</span><span class='pv'>0.06</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>South Africa</span><span class='pv'>1.38</span></div><div class='pr'><span class='pn'>Madagascar</span><span class='pv'>0.35</span></div><div class='pr'><span class='pn'>Egypt</span><span class='pv'>0.31</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.29</span></div><div class='pr'><span class='pn'>Maldives</span><span class='pv'>0.27</span></div><div class='pr'><span class='pn'>Kenya</span><span class='pv'>0.25</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>2.99</span></div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>1.14</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.72</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.61</span></div><div class='pr'><span class='pn'>Russian Federation</span><span class='pv'>0.19</span></div><div class='pr'><span class='pn'>Greece</span><span class='pv'>0.14</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.05</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Iraq</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.16</span></div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.06</span></div><div class='pr'><span class='pn'>Denmark</span><span class='pv'>0.03</span></div><div class='pr'><span class='pn'>Portugal</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Azerbaijan</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.01</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>India</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Jordan</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Viet Nam</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>South Africa</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Sudan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Mauritius</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>India</span><span class='pv'>0.02</span></div><div class='pr'><span class='pn'>Jordan</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Mauritius</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Mozambique</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Sudan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Sri Lanka</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Iran</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China, Hong Kong SAR</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Greece</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>Iran</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Yemen</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Kuwait</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Qatar</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Belgium</span><span class='pv'>0.00</span></div></div>
+  </div></div></div></div><div class="repblock">
+  <h3>Bahrain <span class="yr">2022</span></h3>
+  <div class="pairgrid"><div class="pairbox">
+  <h4>Gasoline / light oils <span class="hs">HS 271012</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Netherlands</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Canada</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Diesel, jet, fuel oil + base oils <span class="hs">HS 271019</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>India</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Nepal</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China, Hong Kong SAR</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.04</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.01</span></div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Oman</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Propane <span class="hs">HS 271112</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Butanes <span class="hs">HS 271113</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='none'>no exports recorded</div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>Rep. of Korea</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>France</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div></div>
+  </div></div><div class="pairbox">
+  <h4>Lubricating preparations <span class="hs">HS 3403</span></h4>
+  <div class="pcols">
+    <div><div class="plab out">Sells to</div><div class='pr'><span class='pn'>China, Hong Kong SAR</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Saudi Arabia</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Arab Emirates</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Singapore</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>China</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div></div>
+    <div><div class="plab in">Buys from</div><div class='pr'><span class='pn'>USA</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Japan</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>United Kingdom</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Italy</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Germany</span><span class='pv'>0.00</span></div><div class='pr'><span class='pn'>Thailand</span><span class='pv'>0.00</span></div></div>
+  </div></div></div></div>
+
+  <div class="flag">
+    <h4>Most GCC exporters do not name their customers</h4>
+    <p>Before reading any pairing above: several reporters book the bulk of their exports to
+    residual "not elsewhere specified" buckets rather than to a country. UAE records
+    $162.8bn of crude to <em>Areas, nes</em>; Saudi Arabia records $134.7bn to
+    <em>Other Asia, nes</em>. These are not counterparties, and treating them as such would
+    invent the largest trade flows in the dataset. They are excluded from every panel above,
+    which is why the GCC panels look thin — the trade is real, the destination is withheld.</p>
+  </div>
+
+  <div class="tbl-wrap"><table><tr><th>Reporter</th><th>Year</th><th class="n">Named destinations, %</th><th class="n">Undisclosed ($bn)</th><th class="n">Total ($bn)</th></tr><tr><td>Saudi Arabia</td><td>2025</td><td class='n'>0</td><td class='n'>205.8</td><td class='n'>205.9</td></tr><tr><td>Kuwait</td><td>2024</td><td class='n'>0</td><td class='n'>68.9</td><td class='n'>69.0</td></tr><tr><td>Mexico</td><td>2025</td><td class='n'>0</td><td class='n'>14.8</td><td class='n'>14.8</td></tr><tr><td>UAE</td><td>2023</td><td class='n'>5</td><td class='n'>268.5</td><td class='n'>281.7</td></tr><tr><td>Oman</td><td>2023</td><td class='n'>14</td><td class='n'>29.1</td><td class='n'>34.1</td></tr><tr><td>Qatar</td><td>2024</td><td class='n'>92</td><td class='n'>1.1</td><td class='n'>15.0</td></tr><tr><td>India</td><td>2025</td><td class='n'>95</td><td class='n'>2.5</td><td class='n'>53.8</td></tr><tr><td>USA</td><td>2025</td><td class='n'>98</td><td class='n'>5.8</td><td class='n'>238.9</td></tr></table></div>
+  <div class="cap">Share of export value booked to a named country across HS 2709, 271012,
+  271019, 271112, 271113 and 3403. Low percentages mean the reporter's own data cannot
+  support bilateral analysis.</div>
+
+  <h3>Reading the GCC from the buyer's side instead</h3>
+  <p>Where a seller withholds destinations, the importer's own declaration recovers the
+  pairing. Below: suppliers named by the United States, India and Mexico in their own
+  import filings — the same trade, seen from the end that discloses it.</p>
+  <div class="tbl-wrap"><table><caption>Crude oil — suppliers named by importers (US$ bn)</caption>
+  <thead><tr><th>Supplier</th><th class="n">USA</th><th class="n">India</th><th class="n">Mexico</th><th class="n">Total</th></tr></thead>
+  <tbody><tr><td>Canada</td><td class='n'>90.16</td><td class='n'>0.05</td><td class='n'>0.00</td><td class='n'>90.20</td></tr><tr><td>Iraq</td><td class='n'>4.79</td><td class='n'>25.33</td><td class='n'>0.00</td><td class='n'>30.12</td></tr><tr><td>United Arab Emirates</td><td class='n'>0.75</td><td class='n'>14.97</td><td class='n'>0.00</td><td class='n'>15.72</td></tr><tr><td>Mexico</td><td class='n'>9.00</td><td class='n'>0.65</td><td class='n'>0.00</td><td class='n'>9.65</td></tr><tr><td>Saudi Arabia</td><td class='n'>7.06</td><td class='n'>0.28</td><td class='n'>0.00</td><td class='n'>7.35</td></tr><tr><td>Brazil</td><td class='n'>5.33</td><td class='n'>1.80</td><td class='n'>0.00</td><td class='n'>7.13</td></tr><tr><td>Colombia</td><td class='n'>4.89</td><td class='n'>1.54</td><td class='n'>0.00</td><td class='n'>6.43</td></tr><tr><td>Guyana</td><td class='n'>5.06</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>5.06</td></tr></tbody></table></div><div class="tbl-wrap"><table><caption>Diesel, jet, fuel oil + base oils — suppliers named by importers (US$ bn)</caption>
+  <thead><tr><th>Supplier</th><th class="n">USA</th><th class="n">India</th><th class="n">Mexico</th><th class="n">Total</th></tr></thead>
+  <tbody><tr><td>Canada</td><td class='n'>7.49</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>7.49</td></tr><tr><td>Rep. of Korea</td><td class='n'>3.64</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>3.64</td></tr><tr><td>Mexico</td><td class='n'>3.05</td><td class='n'>0.02</td><td class='n'>0.00</td><td class='n'>3.07</td></tr><tr><td>Algeria</td><td class='n'>1.77</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>1.77</td></tr><tr><td>Iraq</td><td class='n'>1.65</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>1.65</td></tr><tr><td>Saudi Arabia</td><td class='n'>1.01</td><td class='n'>0.22</td><td class='n'>0.00</td><td class='n'>1.23</td></tr><tr><td>Colombia</td><td class='n'>1.13</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>1.13</td></tr><tr><td>Qatar</td><td class='n'>0.90</td><td class='n'>0.13</td><td class='n'>0.00</td><td class='n'>1.03</td></tr></tbody></table></div><div class="tbl-wrap"><table><caption>Propane — suppliers named by importers (US$ bn)</caption>
+  <thead><tr><th>Supplier</th><th class="n">USA</th><th class="n">India</th><th class="n">Mexico</th><th class="n">Total</th></tr></thead>
+  <tbody><tr><td>USA</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>2.66</td><td class='n'>2.66</td></tr><tr><td>Canada</td><td class='n'>1.68</td><td class='n'>0.00</td><td class='n'>0.01</td><td class='n'>1.69</td></tr><tr><td>Qatar</td><td class='n'>0.00</td><td class='n'>1.46</td><td class='n'>0.00</td><td class='n'>1.46</td></tr><tr><td>Kuwait</td><td class='n'>0.00</td><td class='n'>1.02</td><td class='n'>0.00</td><td class='n'>1.02</td></tr><tr><td>Equatorial Guinea</td><td class='n'>0.09</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>0.09</td></tr><tr><td>Bahrain</td><td class='n'>0.00</td><td class='n'>0.05</td><td class='n'>0.00</td><td class='n'>0.05</td></tr><tr><td>Russian Federation</td><td class='n'>0.00</td><td class='n'>0.04</td><td class='n'>0.00</td><td class='n'>0.04</td></tr><tr><td>Chile</td><td class='n'>0.04</td><td class='n'>0.00</td><td class='n'>0.00</td><td class='n'>0.04</td></tr></tbody></table></div>
+
+  <h3>The largest pairing in the region, and why you must read it from the US side</h3>
+  <p>US refined-product exports into Mexico are the biggest petroleum pairing here. But the
+  two countries do not agree on its size: Mexico's declared gasoline imports are a fraction
+  of what the US declares shipping. The other product lines reconcile, so this is a
+  line-specific reporting gap, not a broken record.</p>
+  <div class="tbl-wrap"><table><caption>United States → Mexico: each side's own declaration</caption>
+  <thead><tr><th>Product</th><th>HS</th><th class="n">US declares (exports)</th>
+  <th class="n">Mexico declares (imports)</th><th class="n">Mex / US</th></tr></thead>
+  <tbody><tr><td>Gasoline / light oils</td><td class='n'>271012</td><td class='n'>15.76</td><td class='n'>1.23</td><td class='n'>0.08×</td></tr><tr><td>Diesel, jet, fuel oil</td><td class='n'>271019</td><td class='n'>11.72</td><td class='n'>9.57</td><td class='n'>0.82×</td></tr><tr><td>Propane</td><td class='n'>271112</td><td class='n'>2.47</td><td class='n'>2.67</td><td class='n'>1.08×</td></tr><tr><td>Lubricating preparations</td><td class='n'>3403</td><td class='n'>0.33</td><td class='n'>0.46</td><td class='n'>1.41×</td></tr><tr><td>Petroleum coke / bitumen</td><td class='n'>2713</td><td class='n'>0.29</td><td class='n'>0.35</td><td class='n'>1.23×</td></tr></tbody></table></div>
+  <div class="cap">US$ bn. Gasoline is the outlier — treat Mexico's own gasoline import line
+  as unusable and take the US export figure instead.</div>
+</section>
+
+<section>
+  <h2><span class="num">Topic 05</span>What this data can and cannot tell you</h2>
+  <p class="lede">Findings from building the pipeline. Each one changes how the numbers above
+  should be read.</p>
+
+  <div class="flag">
+    <h3>The two granularity levels fail in different countries</h3>
+    <p>Neither the chapter aggregate nor the HS-6 detail is reliable everywhere, and they
+    break in opposite directions. India's chapter-27 imports <em>reconcile closely with</em>
+    DGCI&amp;S's figure ($209.1bn against $203.4bn — a 3% reconciliation) while its HS-6 import
+    detail is almost entirely absent: crude at the six-digit level reads $0.28bn instead of
+    roughly $140bn. Mexico and Oman are the mirror image — their HS-6 detail is sound but
+    their chapter aggregates read $0.7bn and $2.5bn against HS-6 sums of $19.7bn and
+    $44.8bn. Pick one level for a cross-country table and some countries will be wrong by
+    an order of magnitude.</p>
+  </div>
+
+  <div class="flag">
+    <h4>Qatar's LNG is missing at HS-6; Bahrain reports nothing</h4>
+    <p>Qatar's chapter-27 exports total $79.6bn, but its HS-6 detail accounts for only
+    $15.0bn — all of it crude, with no LNG (HS 271111) recorded at all. Roughly $64bn of
+    the region's most important gas trade is invisible at product level. Bahrain reports
+    essentially no chapter-27 trade in either direction. Both need partner-declared
+    (mirror) data for any product-level view, which is why they carry no pairing panel.</p>
+  </div>
+
+  <div class="flag">
+    <h4>Partner names are not in the API response</h4>
+    <p>The preview endpoint returns <code>partnerDesc: null</code> on every row — only the
+    numeric partner code is populated. Matching on the name field silently yields zero for
+    every counterparty; the largest pairing in this dataset first appeared as
+    "US → Mexico, $0.00bn". Names here are resolved from Comtrade's own
+    <code>partnerAreas</code> reference file, and region aggregates are excluded so
+    counterparties are not double-counted.</p>
+  </div>
+
+  <div class="flag">
+    <h4>Diesel and base oil cannot be separated at HS-6</h4>
+    <p>HS 271019 bundles gasoil/diesel, kerosene, fuel oil <em>and</em> lubricating base oils
+    into one line. No six-digit query can split lube-oil exports from diesel exports —
+    that needs national tariff detail (India's 8-digit TRADESTAT, US HTS 10-digit).
+    The $35.7bn "India 271019 exports" figure is mostly diesel, not lubricants.</p>
+  </div>
+
+  <div class="flag warn">
+    <h4>UAE stops reporting after 2023; Qatar after 2024</h4>
+    <p>Verified with retries, not inferred from a single failed call. UAE 2024 and 2025 are
+    genuinely absent, so UAE figures here are 2023 and are not comparable year-on-year with
+    Saudi or US 2025 numbers. Kuwait's 2025 query hit the API row cap and was excluded.</p>
+  </div>
+
+  <div class="flag warn">
+    <h4>Queries that hit the row ceiling are incomplete, not empty</h4>
+    <p>The public preview returns at most 500 rows per query. Any query that comes back at
+    exactly the ceiling has had counterparties silently truncated — the response looks
+    perfectly valid. Affected here: India Diesel, jet, fuel oil + base oils, India Lubricating preparations.
+    Those partner lists are a floor, not a complete set.</p>
+  </div>
+
+  <div class="flag warn">
+    <h4>The API silently drops data when throttled</h4>
+    <p>A first pass without retries showed 2023 missing for six of nine countries. With
+    backoff and retry, every one of those years returned complete data — 4 throttled calls
+    versus 5 genuinely empty ones. An unretried collector would have reported those years
+    as zero trade.</p>
+  </div>
+
+  <div class="flag warn">
+    <h4>How the reporting year was chosen — and where that rule is weak</h4>
+    <p>For each country the latest year was accepted only if its chapter-27 exports and
+    imports both exceeded 55% of that country's own five-year peak, which correctly rejects
+    trailing partial years (UAE 2024–25, Qatar 2025). The rule is only valid for trailing
+    years: it also flagged Qatar 2021–23, but that is the 2022 gas-price spike moving the
+    ratio, not missing data. And because it reads the chapter aggregate, it is itself
+    unreliable for Mexico and Oman, whose aggregates are broken.</p>
+  </div>
+
+  <div class="flag warn">
+    <h4>Paywalled and unavailable sources</h4>
+    <p>OilPriceAPI on this account returns HTTP 403 for OPEC production, storage and
+    inventories, and requires a paid plan for any price history — it serves current spot only.
+    An EIA API key now supplies OPEC production and the full storage series directly
+    (Topic 06), so that gap is closed from a
+    different source rather than from OilPriceAPI. Still missing: no S&amp;P Global commodity
+    feed is connected to this session — the finance connector available is MSCI Private Assets
+    (private capital, real assets and index data), which carries no petroleum series, so
+    Platts-style assessments remain out of reach. And EIA proved reserves end at 2021 by
+    <em>both</em> routes.</p>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">Topic 06</span>OPEC production, and what the API key did not fix</h2>
+  <p class="lede">Now served by the EIA v2 API. The four storage series it returns match the
+  public workbooks to the barrel — Cushing 20,955, SPR 304,809, commercial 406,987 — so the
+  two routes independently corroborate each other. OPEC production is new; it also needs the
+  most careful handling on this page.</p>
+  <p><strong>Proved reserves do not extend with the key.</strong> The API reports the same 2021 endpoint as the public workbook (2021), with dataset coverage 1899–2021. The gap is the dataset, not the access route — I expected the key to close it and it does not.</p><div class="panel">
+  <h3>Crude Oil Production, OPEC Total <span class="hs">COPR_OPEC</span></h3>
+  <svg class="chart" viewBox="0 0 760 230" role="img"
+     aria-label="time series, latest 26 million barrels per day">
+  <g><line class='grid' x1='58' y1='204.0' x2='746' y2='204.0'/><text class='ytick' x='50' y='207.5'>18</text><line class='grid' x1='58' y1='156.0' x2='746' y2='156.0'/><text class='ytick' x='50' y='159.5'>21</text><line class='grid' x1='58' y1='108.0' x2='746' y2='108.0'/><text class='ytick' x='50' y='111.5'>23</text><line class='grid' x1='58' y1='60.0' x2='746' y2='60.0'/><text class='ytick' x='50' y='63.5'>26</text><line class='grid' x1='58' y1='12.0' x2='746' y2='12.0'/><text class='ytick' x='50' y='15.5'>28</text></g>
+  <path d="M58.0,151.5 L59.7,146.7 L61.5,165.6 L63.2,169.2 L64.9,168.0 L66.7,166.8 L68.4,159.7 L70.1,162.2 L71.9,154.7 L73.6,157.8 L75.3,154.7 L77.1,155.6 L78.8,143.1 L80.5,144.2 L82.3,142.5 L84.0,145.8 L85.7,143.6 L87.5,141.9 L89.2,144.8 L90.9,149.4 L92.7,140.9 L94.4,139.1 L96.1,139.0 L97.9,140.3 L99.6,144.3 L101.3,141.5 L103.1,148.6 L104.8,139.2 L106.5,129.6 L108.3,142.2 L110.0,136.2 L111.7,131.5 L113.5,135.3 L115.2,131.5 L116.9,137.7 L118.7,134.5 L120.4,137.7 L122.1,135.5 L123.9,134.0 L125.6,137.4 L127.3,136.7 L129.1,133.8 L130.8,130.8 L132.5,130.9 L134.3,130.5 L136.0,127.7 L137.7,125.7 L139.5,117.2 L141.2,118.0 L142.9,114.1 L144.6,111.1 L146.4,106.5 L148.1,108.6 L149.8,118.4 L151.6,118.3 L153.3,97.2 L155.0,97.1 L156.8,94.4 L158.5,98.4 L160.2,105.8 L162.0,88.8 L163.7,80.2 L165.4,81.4 L167.2,81.2 L168.9,80.8 L170.6,89.9 L172.4,91.9 L174.1,97.7 L175.8,96.2 L177.6,99.1 L179.3,94.1 L181.0,99.2 L182.8,95.8 L184.5,87.7 L186.2,90.8 L188.0,111.7 L189.7,111.7 L191.4,120.9 L193.2,111.0 L194.9,106.8 L196.6,106.6 L198.4,105.6 L200.1,114.9 L201.8,132.3 L203.6,130.8 L205.3,117.2 L207.0,120.0 L208.8,107.9 L210.5,94.5 L212.2,101.8 L214.0,96.2 L215.7,83.9 L217.4,85.3 L219.2,76.3 L220.9,71.8 L222.6,103.3 L224.4,92.0 L226.1,101.6 L227.8,93.0 L229.6,99.3 L231.3,102.8 L233.0,136.3 L234.8,104.6 L236.5,96.8 L238.2,111.6 L240.0,113.0 L241.7,126.1 L243.4,133.5 L245.2,140.3 L246.9,136.1 L248.6,139.8 L250.4,165.0 L252.1,149.0 L253.8,153.3 L255.6,131.4 L257.3,137.1 L259.0,130.5 L260.8,118.0 L262.5,114.5 L264.2,130.5 L266.0,110.5 L267.7,93.0 L269.4,92.9 L271.2,110.7 L272.9,110.1 L274.6,111.3 L276.4,112.4 L278.1,99.9 L279.8,100.7 L281.6,85.2 L283.3,80.4 L285.0,78.2 L286.8,86.8 L288.5,87.6 L290.2,76.1 L292.0,81.9 L293.7,74.0 L295.4,58.5 L297.2,53.5 L298.9,59.8 L300.6,51.9 L302.4,47.3 L304.1,52.7 L305.8,53.9 L307.6,62.9 L309.3,47.5 L311.0,56.4 L312.8,48.0 L314.5,43.8 L316.2,44.0 L317.9,43.2 L319.7,43.7 L321.4,55.3 L323.1,49.0 L324.9,49.3 L326.6,51.1 L328.3,51.7 L330.1,44.8 L331.8,46.1 L333.5,57.4 L335.3,58.4 L337.0,46.5 L338.7,40.9 L340.5,45.6 L342.2,49.2 L343.9,53.9 L345.7,56.9 L347.4,65.7 L349.1,67.1 L350.9,64.9 L352.6,64.0 L354.3,64.8 L356.1,68.2 L357.8,68.5 L359.5,56.8 L361.3,64.8 L363.0,53.8 L364.7,44.3 L366.5,45.2 L368.2,45.8 L369.9,56.8 L371.7,55.3 L373.4,51.5 L375.1,57.1 L376.9,50.5 L378.6,48.9 L380.3,42.1 L382.1,44.4 L383.8,48.7 L385.5,49.3 L387.3,60.8 L389.0,72.1 L390.7,87.0 L392.5,88.4 L394.2,90.4 L395.9,87.7 L397.7,87.2 L399.4,85.7 L401.1,82.0 L402.9,81.4 L404.6,81.1 L406.3,81.0 L408.1,80.3 L409.8,80.7 L411.5,83.4 L413.3,83.8 L415.0,84.9 L416.7,85.1 L418.5,86.1 L420.2,82.3 L421.9,85.0 L423.7,83.8 L425.4,82.5 L427.1,83.0 L428.9,83.3 L430.6,79.8 L432.3,66.7 L434.1,67.7 L435.8,92.1 L437.5,92.2 L439.3,88.7 L441.0,77.4 L442.7,73.0 L444.5,72.4 L446.2,72.0 L447.9,77.2 L449.7,64.0 L451.4,63.4 L453.1,59.4 L454.9,54.9 L456.6,50.0 L458.3,47.3 L460.1,53.8 L461.8,51.2 L463.5,52.6 L465.3,51.0 L467.0,53.1 L468.7,62.6 L470.5,63.8 L472.2,72.0 L473.9,77.4 L475.7,78.7 L477.4,77.5 L479.1,68.3 L480.9,69.6 L482.6,71.5 L484.3,67.8 L486.1,66.2 L487.8,82.3 L489.5,82.8 L491.2,92.7 L493.0,89.6 L494.7,76.9 L496.4,75.7 L498.2,85.8 L499.9,86.4 L501.6,83.3 L503.4,83.4 L505.1,79.6 L506.8,76.4 L508.6,70.0 L510.3,64.3 L512.0,74.6 L513.8,68.7 L515.5,79.1 L517.2,80.3 L519.0,63.9 L520.7,62.9 L522.4,58.0 L524.2,50.6 L525.9,47.3 L527.6,51.9 L529.4,48.1 L531.1,52.0 L532.8,50.4 L534.6,51.0 L536.3,44.2 L538.0,47.9 L539.8,46.7 L541.5,44.8 L543.2,48.2 L545.0,40.7 L546.7,39.6 L548.4,42.6 L550.2,41.0 L551.9,32.9 L553.6,27.6 L555.4,29.7 L557.1,44.1 L558.8,46.5 L560.6,52.1 L562.3,51.5 L564.0,41.7 L565.8,34.5 L567.5,30.0 L569.2,32.9 L571.0,29.7 L572.7,33.7 L574.4,35.8 L576.2,39.8 L577.9,34.6 L579.6,36.9 L581.4,39.2 L583.1,40.6 L584.8,42.5 L586.6,42.6 L588.3,42.3 L590.0,38.7 L591.8,36.5 L593.5,33.6 L595.2,41.6 L597.0,56.6 L598.7,68.4 L600.4,67.6 L602.2,75.9 L603.9,74.3 L605.6,80.6 L607.4,79.1 L609.1,85.7 L610.8,82.9 L612.6,111.3 L614.3,84.4 L616.0,86.8 L617.8,89.3 L619.5,93.1 L621.2,105.7 L623.0,108.7 L624.7,75.6 L626.4,160.6 L628.2,193.4 L629.9,182.2 L631.6,169.4 L633.4,166.1 L635.1,156.0 L636.8,144.0 L638.6,140.9 L640.3,140.5 L642.0,148.4 L643.8,146.4 L645.5,146.6 L647.2,137.6 L649.0,128.0 L650.7,116.2 L652.4,116.7 L654.2,110.9 L655.9,105.6 L657.6,99.4 L659.4,99.1 L661.1,99.3 L662.8,86.9 L664.5,93.8 L666.3,88.4 L668.0,97.4 L669.7,95.0 L671.5,90.9 L673.2,73.4 L674.9,70.8 L676.7,78.4 L678.4,83.9 L680.1,83.0 L681.9,94.3 L683.6,89.0 L685.3,85.0 L687.1,84.9 L688.8,93.8 L690.5,91.0 L692.3,106.8 L694.0,110.9 L695.7,98.7 L697.5,100.7 L699.2,99.7 L700.9,101.0 L702.7,104.0 L704.4,98.3 L706.1,92.1 L707.9,92.9 L709.6,95.8 L711.3,103.3 L713.1,95.0 L714.8,96.5 L716.5,110.2 L718.3,100.8 L720.0,100.5 L721.7,97.6 L723.5,97.8 L725.2,95.4 L726.9,90.7 L728.7,94.3 L730.4,87.7 L732.1,78.3 L733.9,86.7 L735.6,87.2 L737.3,65.7 L739.1,71.1 L740.8,75.6 L742.5,72.4 L744.3,74.3 L746.0,58.8 L746.0,204.0 L58.0,204.0 Z" fill="rgba(30,107,107,.13)"/>
+  <path d="M58.0,151.5 L59.7,146.7 L61.5,165.6 L63.2,169.2 L64.9,168.0 L66.7,166.8 L68.4,159.7 L70.1,162.2 L71.9,154.7 L73.6,157.8 L75.3,154.7 L77.1,155.6 L78.8,143.1 L80.5,144.2 L82.3,142.5 L84.0,145.8 L85.7,143.6 L87.5,141.9 L89.2,144.8 L90.9,149.4 L92.7,140.9 L94.4,139.1 L96.1,139.0 L97.9,140.3 L99.6,144.3 L101.3,141.5 L103.1,148.6 L104.8,139.2 L106.5,129.6 L108.3,142.2 L110.0,136.2 L111.7,131.5 L113.5,135.3 L115.2,131.5 L116.9,137.7 L118.7,134.5 L120.4,137.7 L122.1,135.5 L123.9,134.0 L125.6,137.4 L127.3,136.7 L129.1,133.8 L130.8,130.8 L132.5,130.9 L134.3,130.5 L136.0,127.7 L137.7,125.7 L139.5,117.2 L141.2,118.0 L142.9,114.1 L144.6,111.1 L146.4,106.5 L148.1,108.6 L149.8,118.4 L151.6,118.3 L153.3,97.2 L155.0,97.1 L156.8,94.4 L158.5,98.4 L160.2,105.8 L162.0,88.8 L163.7,80.2 L165.4,81.4 L167.2,81.2 L168.9,80.8 L170.6,89.9 L172.4,91.9 L174.1,97.7 L175.8,96.2 L177.6,99.1 L179.3,94.1 L181.0,99.2 L182.8,95.8 L184.5,87.7 L186.2,90.8 L188.0,111.7 L189.7,111.7 L191.4,120.9 L193.2,111.0 L194.9,106.8 L196.6,106.6 L198.4,105.6 L200.1,114.9 L201.8,132.3 L203.6,130.8 L205.3,117.2 L207.0,120.0 L208.8,107.9 L210.5,94.5 L212.2,101.8 L214.0,96.2 L215.7,83.9 L217.4,85.3 L219.2,76.3 L220.9,71.8 L222.6,103.3 L224.4,92.0 L226.1,101.6 L227.8,93.0 L229.6,99.3 L231.3,102.8 L233.0,136.3 L234.8,104.6 L236.5,96.8 L238.2,111.6 L240.0,113.0 L241.7,126.1 L243.4,133.5 L245.2,140.3 L246.9,136.1 L248.6,139.8 L250.4,165.0 L252.1,149.0 L253.8,153.3 L255.6,131.4 L257.3,137.1 L259.0,130.5 L260.8,118.0 L262.5,114.5 L264.2,130.5 L266.0,110.5 L267.7,93.0 L269.4,92.9 L271.2,110.7 L272.9,110.1 L274.6,111.3 L276.4,112.4 L278.1,99.9 L279.8,100.7 L281.6,85.2 L283.3,80.4 L285.0,78.2 L286.8,86.8 L288.5,87.6 L290.2,76.1 L292.0,81.9 L293.7,74.0 L295.4,58.5 L297.2,53.5 L298.9,59.8 L300.6,51.9 L302.4,47.3 L304.1,52.7 L305.8,53.9 L307.6,62.9 L309.3,47.5 L311.0,56.4 L312.8,48.0 L314.5,43.8 L316.2,44.0 L317.9,43.2 L319.7,43.7 L321.4,55.3 L323.1,49.0 L324.9,49.3 L326.6,51.1 L328.3,51.7 L330.1,44.8 L331.8,46.1 L333.5,57.4 L335.3,58.4 L337.0,46.5 L338.7,40.9 L340.5,45.6 L342.2,49.2 L343.9,53.9 L345.7,56.9 L347.4,65.7 L349.1,67.1 L350.9,64.9 L352.6,64.0 L354.3,64.8 L356.1,68.2 L357.8,68.5 L359.5,56.8 L361.3,64.8 L363.0,53.8 L364.7,44.3 L366.5,45.2 L368.2,45.8 L369.9,56.8 L371.7,55.3 L373.4,51.5 L375.1,57.1 L376.9,50.5 L378.6,48.9 L380.3,42.1 L382.1,44.4 L383.8,48.7 L385.5,49.3 L387.3,60.8 L389.0,72.1 L390.7,87.0 L392.5,88.4 L394.2,90.4 L395.9,87.7 L397.7,87.2 L399.4,85.7 L401.1,82.0 L402.9,81.4 L404.6,81.1 L406.3,81.0 L408.1,80.3 L409.8,80.7 L411.5,83.4 L413.3,83.8 L415.0,84.9 L416.7,85.1 L418.5,86.1 L420.2,82.3 L421.9,85.0 L423.7,83.8 L425.4,82.5 L427.1,83.0 L428.9,83.3 L430.6,79.8 L432.3,66.7 L434.1,67.7 L435.8,92.1 L437.5,92.2 L439.3,88.7 L441.0,77.4 L442.7,73.0 L444.5,72.4 L446.2,72.0 L447.9,77.2 L449.7,64.0 L451.4,63.4 L453.1,59.4 L454.9,54.9 L456.6,50.0 L458.3,47.3 L460.1,53.8 L461.8,51.2 L463.5,52.6 L465.3,51.0 L467.0,53.1 L468.7,62.6 L470.5,63.8 L472.2,72.0 L473.9,77.4 L475.7,78.7 L477.4,77.5 L479.1,68.3 L480.9,69.6 L482.6,71.5 L484.3,67.8 L486.1,66.2 L487.8,82.3 L489.5,82.8 L491.2,92.7 L493.0,89.6 L494.7,76.9 L496.4,75.7 L498.2,85.8 L499.9,86.4 L501.6,83.3 L503.4,83.4 L505.1,79.6 L506.8,76.4 L508.6,70.0 L510.3,64.3 L512.0,74.6 L513.8,68.7 L515.5,79.1 L517.2,80.3 L519.0,63.9 L520.7,62.9 L522.4,58.0 L524.2,50.6 L525.9,47.3 L527.6,51.9 L529.4,48.1 L531.1,52.0 L532.8,50.4 L534.6,51.0 L536.3,44.2 L538.0,47.9 L539.8,46.7 L541.5,44.8 L543.2,48.2 L545.0,40.7 L546.7,39.6 L548.4,42.6 L550.2,41.0 L551.9,32.9 L553.6,27.6 L555.4,29.7 L557.1,44.1 L558.8,46.5 L560.6,52.1 L562.3,51.5 L564.0,41.7 L565.8,34.5 L567.5,30.0 L569.2,32.9 L571.0,29.7 L572.7,33.7 L574.4,35.8 L576.2,39.8 L577.9,34.6 L579.6,36.9 L581.4,39.2 L583.1,40.6 L584.8,42.5 L586.6,42.6 L588.3,42.3 L590.0,38.7 L591.8,36.5 L593.5,33.6 L595.2,41.6 L597.0,56.6 L598.7,68.4 L600.4,67.6 L602.2,75.9 L603.9,74.3 L605.6,80.6 L607.4,79.1 L609.1,85.7 L610.8,82.9 L612.6,111.3 L614.3,84.4 L616.0,86.8 L617.8,89.3 L619.5,93.1 L621.2,105.7 L623.0,108.7 L624.7,75.6 L626.4,160.6 L628.2,193.4 L629.9,182.2 L631.6,169.4 L633.4,166.1 L635.1,156.0 L636.8,144.0 L638.6,140.9 L640.3,140.5 L642.0,148.4 L643.8,146.4 L645.5,146.6 L647.2,137.6 L649.0,128.0 L650.7,116.2 L652.4,116.7 L654.2,110.9 L655.9,105.6 L657.6,99.4 L659.4,99.1 L661.1,99.3 L662.8,86.9 L664.5,93.8 L666.3,88.4 L668.0,97.4 L669.7,95.0 L671.5,90.9 L673.2,73.4 L674.9,70.8 L676.7,78.4 L678.4,83.9 L680.1,83.0 L681.9,94.3 L683.6,89.0 L685.3,85.0 L687.1,84.9 L688.8,93.8 L690.5,91.0 L692.3,106.8 L694.0,110.9 L695.7,98.7 L697.5,100.7 L699.2,99.7 L700.9,101.0 L702.7,104.0 L704.4,98.3 L706.1,92.1 L707.9,92.9 L709.6,95.8 L711.3,103.3 L713.1,95.0 L714.8,96.5 L716.5,110.2 L718.3,100.8 L720.0,100.5 L721.7,97.6 L723.5,97.8 L725.2,95.4 L726.9,90.7 L728.7,94.3 L730.4,87.7 L732.1,78.3 L733.9,86.7 L735.6,87.2 L737.3,65.7 L739.1,71.1 L740.8,75.6 L742.5,72.4 L744.3,74.3 L746.0,58.8" fill="none" stroke="var(--teal)" stroke-width="1.6"/>
+  <circle cx="746.0" cy="58.8" r="3.4" fill="var(--teal)"/>
+  <g><text class='xtick' x='58.0' y='222'>1993</text><text class='xtick' x='402.9' y='222'>2009</text><text class='xtick' x='746.0' y='222'>2026</text></g>
+</svg>
+  <div class="cap">EIA STEO · million barrels per day ·
+  plotted 1993-01–2026-02 (398 months).
+  Series redefined at 2026-03 (-7.54); the 5 months after it are on a different basis and are excluded from this line.
+  17 forecast months to 2027-12 also excluded.</div>
+</div><div class="panel">
+  <h3>Total OPEC Petroleum Supply <span class="hs">PAPR_OPEC</span></h3>
+  <svg class="chart" viewBox="0 0 760 230" role="img"
+     aria-label="time series, latest 31 million barrels per day">
+  <g><line class='grid' x1='58' y1='204.0' x2='746' y2='204.0'/><text class='ytick' x='50' y='207.5'>21</text><line class='grid' x1='58' y1='156.0' x2='746' y2='156.0'/><text class='ytick' x='50' y='159.5'>24</text><line class='grid' x1='58' y1='108.0' x2='746' y2='108.0'/><text class='ytick' x='50' y='111.5'>27</text><line class='grid' x1='58' y1='60.0' x2='746' y2='60.0'/><text class='ytick' x='50' y='63.5'>30</text><line class='grid' x1='58' y1='12.0' x2='746' y2='12.0'/><text class='ytick' x='50' y='15.5'>33</text></g>
+  <path d="M58.0,178.7 L59.7,174.6 L61.5,190.7 L63.2,193.5 L64.9,192.4 L66.7,191.4 L68.4,185.4 L70.1,187.4 L71.9,181.1 L73.6,183.8 L75.3,180.1 L77.1,180.7 L78.8,170.9 L80.5,171.8 L82.3,170.4 L84.0,173.2 L85.7,171.3 L87.5,169.8 L89.2,172.3 L90.9,176.2 L92.7,168.9 L94.4,167.3 L96.1,167.2 L97.9,168.2 L99.6,167.8 L101.3,165.4 L103.1,171.4 L104.8,163.4 L106.5,155.1 L108.3,166.0 L110.0,160.5 L111.7,156.5 L113.5,159.8 L115.2,156.6 L116.9,162.4 L118.7,159.5 L120.4,161.4 L122.1,159.3 L123.9,158.0 L125.6,161.1 L127.3,160.5 L129.1,157.9 L130.8,155.2 L132.5,155.4 L134.3,155.1 L136.0,153.5 L137.7,151.7 L139.5,144.3 L141.2,143.9 L142.9,140.4 L144.6,137.6 L146.4,133.6 L148.1,135.4 L149.8,143.9 L151.6,143.7 L153.3,125.6 L155.0,125.5 L156.8,123.3 L158.5,126.7 L160.2,132.8 L162.0,116.9 L163.7,109.6 L165.4,110.6 L167.2,110.7 L168.9,110.4 L170.6,118.6 L172.4,120.3 L174.1,125.4 L175.8,124.1 L177.6,126.6 L179.3,122.4 L181.0,126.8 L182.8,121.7 L184.5,114.9 L186.2,117.3 L188.0,136.0 L189.7,136.0 L191.4,143.9 L193.2,135.5 L194.9,131.7 L196.6,131.6 L198.4,130.6 L200.1,138.5 L201.8,153.2 L203.6,152.6 L205.3,141.0 L207.0,143.4 L208.8,132.8 L210.5,121.2 L212.2,127.4 L214.0,122.6 L215.7,112.2 L217.4,113.4 L219.2,105.8 L220.9,101.9 L222.6,128.7 L224.4,118.1 L226.1,126.3 L227.8,119.0 L229.6,124.1 L231.3,126.9 L233.0,155.3 L234.8,128.3 L236.5,121.7 L238.2,134.0 L240.0,135.1 L241.7,146.3 L243.4,152.6 L245.2,157.0 L246.9,153.3 L248.6,156.3 L250.4,177.6 L252.1,164.1 L253.8,167.7 L255.6,149.1 L257.3,153.8 L259.0,148.1 L260.8,137.5 L262.5,134.3 L264.2,152.4 L266.0,128.6 L267.7,113.7 L269.4,112.8 L271.2,128.9 L272.9,128.2 L274.6,129.3 L276.4,129.4 L278.1,118.6 L279.8,119.3 L281.6,105.5 L283.3,101.4 L285.0,99.5 L286.8,106.3 L288.5,107.0 L290.2,97.2 L292.0,102.0 L293.7,95.3 L295.4,82.1 L297.2,77.6 L298.9,82.9 L300.6,76.2 L302.4,71.4 L304.1,75.9 L305.8,76.9 L307.6,81.9 L309.3,68.8 L311.0,76.2 L312.8,68.8 L314.5,65.2 L316.2,65.3 L317.9,64.1 L319.7,64.5 L321.4,74.4 L323.1,68.7 L324.9,68.9 L326.6,70.4 L328.3,71.0 L330.1,65.5 L331.8,66.9 L333.5,76.1 L335.3,76.4 L337.0,66.3 L338.7,61.1 L340.5,65.2 L342.2,68.7 L343.9,72.7 L345.7,75.2 L347.4,82.8 L349.1,84.3 L350.9,82.4 L352.6,81.7 L354.3,82.3 L356.1,85.2 L357.8,85.5 L359.5,75.2 L361.3,82.0 L363.0,72.7 L364.7,64.6 L366.5,65.4 L368.2,65.9 L369.9,63.8 L371.7,62.5 L373.4,59.2 L375.1,64.0 L376.9,59.1 L378.6,56.9 L380.3,50.7 L382.1,52.5 L383.8,56.3 L385.5,56.7 L387.3,66.3 L389.0,75.6 L390.7,88.1 L392.5,88.4 L394.2,89.1 L395.9,85.6 L397.7,84.5 L399.4,82.9 L401.1,79.4 L402.9,78.5 L404.6,79.1 L406.3,79.0 L408.1,78.3 L409.8,78.4 L411.5,89.2 L413.3,88.0 L415.0,89.4 L416.7,89.6 L418.5,90.3 L420.2,86.6 L421.9,89.1 L423.7,88.1 L425.4,86.4 L427.1,86.6 L428.9,86.8 L430.6,83.8 L432.3,72.2 L434.1,72.9 L435.8,95.8 L437.5,95.6 L439.3,91.9 L441.0,82.2 L442.7,77.7 L444.5,77.1 L446.2,77.1 L447.9,80.3 L449.7,68.8 L451.4,68.1 L453.1,63.3 L454.9,59.4 L456.6,54.8 L458.3,51.9 L460.1,57.6 L461.8,55.5 L463.5,56.3 L465.3,55.1 L467.0,57.8 L468.7,66.5 L470.5,66.5 L472.2,72.7 L473.9,78.8 L475.7,78.9 L477.4,77.8 L479.1,70.6 L480.9,72.2 L482.6,73.2 L484.3,69.8 L486.1,70.4 L487.8,83.1 L489.5,82.6 L491.2,91.1 L493.0,88.0 L494.7,76.6 L496.4,75.7 L498.2,85.3 L499.9,86.1 L501.6,83.6 L503.4,84.1 L505.1,80.5 L506.8,77.6 L508.6,70.6 L510.3,64.9 L512.0,73.4 L513.8,68.7 L515.5,77.3 L517.2,78.6 L519.0,66.1 L520.7,63.6 L522.4,59.9 L524.2,54.6 L525.9,52.4 L527.6,57.7 L529.4,52.1 L531.1,55.8 L532.8,53.4 L534.6,52.9 L536.3,46.9 L538.0,51.1 L539.8,49.2 L541.5,45.9 L543.2,50.7 L545.0,44.4 L546.7,42.1 L548.4,44.3 L550.2,43.9 L551.9,35.4 L553.6,30.1 L555.4,33.8 L557.1,38.6 L558.8,41.0 L560.6,46.1 L562.3,45.3 L564.0,37.4 L565.8,30.8 L567.5,27.5 L569.2,30.0 L571.0,28.0 L572.7,31.6 L574.4,33.5 L576.2,37.2 L577.9,33.1 L579.6,34.8 L581.4,36.7 L583.1,37.4 L584.8,39.0 L586.6,39.2 L588.3,39.1 L590.0,36.0 L591.8,34.2 L593.5,32.3 L595.2,39.1 L597.0,51.8 L598.7,63.9 L600.4,63.2 L602.2,69.8 L603.9,68.5 L605.6,73.9 L607.4,72.5 L609.1,78.3 L610.8,76.2 L612.6,100.6 L614.3,78.4 L616.0,80.3 L617.8,82.0 L619.5,88.3 L621.2,98.6 L623.0,102.1 L624.7,73.5 L626.4,148.5 L628.2,176.5 L629.9,167.0 L631.6,155.6 L633.4,153.5 L635.1,144.6 L636.8,134.3 L638.6,131.7 L640.3,130.3 L642.0,137.0 L643.8,135.3 L645.5,135.2 L647.2,127.4 L649.0,119.3 L650.7,109.3 L652.4,109.7 L654.2,104.8 L655.9,100.5 L657.6,95.0 L659.4,94.3 L661.1,93.3 L662.8,83.0 L664.5,88.7 L666.3,83.9 L668.0,91.6 L669.7,89.5 L671.5,86.0 L673.2,71.5 L674.9,69.2 L676.7,75.6 L678.4,80.5 L680.1,80.8 L681.9,89.5 L683.6,84.7 L685.3,80.8 L687.1,79.6 L688.8,88.1 L690.5,84.7 L692.3,98.2 L694.0,100.9 L695.7,90.2 L697.5,91.6 L699.2,90.6 L700.9,91.7 L702.7,95.0 L704.4,90.0 L706.1,84.8 L707.9,85.4 L709.6,87.9 L711.3,94.2 L713.1,87.3 L714.8,88.6 L716.5,100.2 L718.3,92.3 L720.0,92.0 L721.7,89.6 L723.5,89.5 L725.2,87.5 L726.9,83.5 L728.7,86.3 L730.4,80.3 L732.1,72.7 L733.9,79.3 L735.6,79.0 L737.3,60.4 L739.1,64.4 L740.8,67.9 L742.5,64.0 L744.3,65.1 L746.0,51.7 L746.0,204.0 L58.0,204.0 Z" fill="rgba(30,107,107,.13)"/>
+  <path d="M58.0,178.7 L59.7,174.6 L61.5,190.7 L63.2,193.5 L64.9,192.4 L66.7,191.4 L68.4,185.4 L70.1,187.4 L71.9,181.1 L73.6,183.8 L75.3,180.1 L77.1,180.7 L78.8,170.9 L80.5,171.8 L82.3,170.4 L84.0,173.2 L85.7,171.3 L87.5,169.8 L89.2,172.3 L90.9,176.2 L92.7,168.9 L94.4,167.3 L96.1,167.2 L97.9,168.2 L99.6,167.8 L101.3,165.4 L103.1,171.4 L104.8,163.4 L106.5,155.1 L108.3,166.0 L110.0,160.5 L111.7,156.5 L113.5,159.8 L115.2,156.6 L116.9,162.4 L118.7,159.5 L120.4,161.4 L122.1,159.3 L123.9,158.0 L125.6,161.1 L127.3,160.5 L129.1,157.9 L130.8,155.2 L132.5,155.4 L134.3,155.1 L136.0,153.5 L137.7,151.7 L139.5,144.3 L141.2,143.9 L142.9,140.4 L144.6,137.6 L146.4,133.6 L148.1,135.4 L149.8,143.9 L151.6,143.7 L153.3,125.6 L155.0,125.5 L156.8,123.3 L158.5,126.7 L160.2,132.8 L162.0,116.9 L163.7,109.6 L165.4,110.6 L167.2,110.7 L168.9,110.4 L170.6,118.6 L172.4,120.3 L174.1,125.4 L175.8,124.1 L177.6,126.6 L179.3,122.4 L181.0,126.8 L182.8,121.7 L184.5,114.9 L186.2,117.3 L188.0,136.0 L189.7,136.0 L191.4,143.9 L193.2,135.5 L194.9,131.7 L196.6,131.6 L198.4,130.6 L200.1,138.5 L201.8,153.2 L203.6,152.6 L205.3,141.0 L207.0,143.4 L208.8,132.8 L210.5,121.2 L212.2,127.4 L214.0,122.6 L215.7,112.2 L217.4,113.4 L219.2,105.8 L220.9,101.9 L222.6,128.7 L224.4,118.1 L226.1,126.3 L227.8,119.0 L229.6,124.1 L231.3,126.9 L233.0,155.3 L234.8,128.3 L236.5,121.7 L238.2,134.0 L240.0,135.1 L241.7,146.3 L243.4,152.6 L245.2,157.0 L246.9,153.3 L248.6,156.3 L250.4,177.6 L252.1,164.1 L253.8,167.7 L255.6,149.1 L257.3,153.8 L259.0,148.1 L260.8,137.5 L262.5,134.3 L264.2,152.4 L266.0,128.6 L267.7,113.7 L269.4,112.8 L271.2,128.9 L272.9,128.2 L274.6,129.3 L276.4,129.4 L278.1,118.6 L279.8,119.3 L281.6,105.5 L283.3,101.4 L285.0,99.5 L286.8,106.3 L288.5,107.0 L290.2,97.2 L292.0,102.0 L293.7,95.3 L295.4,82.1 L297.2,77.6 L298.9,82.9 L300.6,76.2 L302.4,71.4 L304.1,75.9 L305.8,76.9 L307.6,81.9 L309.3,68.8 L311.0,76.2 L312.8,68.8 L314.5,65.2 L316.2,65.3 L317.9,64.1 L319.7,64.5 L321.4,74.4 L323.1,68.7 L324.9,68.9 L326.6,70.4 L328.3,71.0 L330.1,65.5 L331.8,66.9 L333.5,76.1 L335.3,76.4 L337.0,66.3 L338.7,61.1 L340.5,65.2 L342.2,68.7 L343.9,72.7 L345.7,75.2 L347.4,82.8 L349.1,84.3 L350.9,82.4 L352.6,81.7 L354.3,82.3 L356.1,85.2 L357.8,85.5 L359.5,75.2 L361.3,82.0 L363.0,72.7 L364.7,64.6 L366.5,65.4 L368.2,65.9 L369.9,63.8 L371.7,62.5 L373.4,59.2 L375.1,64.0 L376.9,59.1 L378.6,56.9 L380.3,50.7 L382.1,52.5 L383.8,56.3 L385.5,56.7 L387.3,66.3 L389.0,75.6 L390.7,88.1 L392.5,88.4 L394.2,89.1 L395.9,85.6 L397.7,84.5 L399.4,82.9 L401.1,79.4 L402.9,78.5 L404.6,79.1 L406.3,79.0 L408.1,78.3 L409.8,78.4 L411.5,89.2 L413.3,88.0 L415.0,89.4 L416.7,89.6 L418.5,90.3 L420.2,86.6 L421.9,89.1 L423.7,88.1 L425.4,86.4 L427.1,86.6 L428.9,86.8 L430.6,83.8 L432.3,72.2 L434.1,72.9 L435.8,95.8 L437.5,95.6 L439.3,91.9 L441.0,82.2 L442.7,77.7 L444.5,77.1 L446.2,77.1 L447.9,80.3 L449.7,68.8 L451.4,68.1 L453.1,63.3 L454.9,59.4 L456.6,54.8 L458.3,51.9 L460.1,57.6 L461.8,55.5 L463.5,56.3 L465.3,55.1 L467.0,57.8 L468.7,66.5 L470.5,66.5 L472.2,72.7 L473.9,78.8 L475.7,78.9 L477.4,77.8 L479.1,70.6 L480.9,72.2 L482.6,73.2 L484.3,69.8 L486.1,70.4 L487.8,83.1 L489.5,82.6 L491.2,91.1 L493.0,88.0 L494.7,76.6 L496.4,75.7 L498.2,85.3 L499.9,86.1 L501.6,83.6 L503.4,84.1 L505.1,80.5 L506.8,77.6 L508.6,70.6 L510.3,64.9 L512.0,73.4 L513.8,68.7 L515.5,77.3 L517.2,78.6 L519.0,66.1 L520.7,63.6 L522.4,59.9 L524.2,54.6 L525.9,52.4 L527.6,57.7 L529.4,52.1 L531.1,55.8 L532.8,53.4 L534.6,52.9 L536.3,46.9 L538.0,51.1 L539.8,49.2 L541.5,45.9 L543.2,50.7 L545.0,44.4 L546.7,42.1 L548.4,44.3 L550.2,43.9 L551.9,35.4 L553.6,30.1 L555.4,33.8 L557.1,38.6 L558.8,41.0 L560.6,46.1 L562.3,45.3 L564.0,37.4 L565.8,30.8 L567.5,27.5 L569.2,30.0 L571.0,28.0 L572.7,31.6 L574.4,33.5 L576.2,37.2 L577.9,33.1 L579.6,34.8 L581.4,36.7 L583.1,37.4 L584.8,39.0 L586.6,39.2 L588.3,39.1 L590.0,36.0 L591.8,34.2 L593.5,32.3 L595.2,39.1 L597.0,51.8 L598.7,63.9 L600.4,63.2 L602.2,69.8 L603.9,68.5 L605.6,73.9 L607.4,72.5 L609.1,78.3 L610.8,76.2 L612.6,100.6 L614.3,78.4 L616.0,80.3 L617.8,82.0 L619.5,88.3 L621.2,98.6 L623.0,102.1 L624.7,73.5 L626.4,148.5 L628.2,176.5 L629.9,167.0 L631.6,155.6 L633.4,153.5 L635.1,144.6 L636.8,134.3 L638.6,131.7 L640.3,130.3 L642.0,137.0 L643.8,135.3 L645.5,135.2 L647.2,127.4 L649.0,119.3 L650.7,109.3 L652.4,109.7 L654.2,104.8 L655.9,100.5 L657.6,95.0 L659.4,94.3 L661.1,93.3 L662.8,83.0 L664.5,88.7 L666.3,83.9 L668.0,91.6 L669.7,89.5 L671.5,86.0 L673.2,71.5 L674.9,69.2 L676.7,75.6 L678.4,80.5 L680.1,80.8 L681.9,89.5 L683.6,84.7 L685.3,80.8 L687.1,79.6 L688.8,88.1 L690.5,84.7 L692.3,98.2 L694.0,100.9 L695.7,90.2 L697.5,91.6 L699.2,90.6 L700.9,91.7 L702.7,95.0 L704.4,90.0 L706.1,84.8 L707.9,85.4 L709.6,87.9 L711.3,94.2 L713.1,87.3 L714.8,88.6 L716.5,100.2 L718.3,92.3 L720.0,92.0 L721.7,89.6 L723.5,89.5 L725.2,87.5 L726.9,83.5 L728.7,86.3 L730.4,80.3 L732.1,72.7 L733.9,79.3 L735.6,79.0 L737.3,60.4 L739.1,64.4 L740.8,67.9 L742.5,64.0 L744.3,65.1 L746.0,51.7" fill="none" stroke="var(--teal)" stroke-width="1.6"/>
+  <circle cx="746.0" cy="51.7" r="3.4" fill="var(--teal)"/>
+  <g><text class='xtick' x='58.0' y='222'>1993</text><text class='xtick' x='402.9' y='222'>2009</text><text class='xtick' x='746.0' y='222'>2026</text></g>
+</svg>
+  <div class="cap">EIA STEO · million barrels per day ·
+  plotted 1993-01–2026-02 (398 months).
+  Series redefined at 2026-03 (-8.52); the 5 months after it are on a different basis and are excluded from this line.
+  17 forecast months to 2027-12 also excluded.</div>
+</div><div class="panel">
+  <h3>Saudi Arabia Spare Crude Oil Production Capacity <span class="hs">COPS_SA</span></h3>
+  <svg class="chart" viewBox="0 0 760 230" role="img"
+     aria-label="time series, latest 1 million barrels per day">
+  <g><line class='grid' x1='58' y1='204.0' x2='746' y2='204.0'/><text class='ytick' x='50' y='207.5'>0</text><line class='grid' x1='58' y1='156.0' x2='746' y2='156.0'/><text class='ytick' x='50' y='159.5'>1</text><line class='grid' x1='58' y1='108.0' x2='746' y2='108.0'/><text class='ytick' x='50' y='111.5'>2</text><line class='grid' x1='58' y1='60.0' x2='746' y2='60.0'/><text class='ytick' x='50' y='63.5'>3</text><line class='grid' x1='58' y1='12.0' x2='746' y2='12.0'/><text class='ytick' x='50' y='15.5'>4</text></g>
+  <path d="M58.0,147.1 L60.5,163.0 L63.0,184.0 L65.5,188.0 L67.9,178.3 L70.4,150.2 L72.9,153.8 L75.4,151.4 L77.9,144.3 L80.4,150.2 L82.8,145.5 L85.3,147.6 L87.8,123.7 L90.3,127.6 L92.8,121.3 L95.3,111.2 L97.7,154.7 L100.2,186.4 L102.7,192.3 L105.2,193.6 L107.7,186.6 L110.2,190.2 L112.6,197.4 L115.1,184.6 L117.6,140.6 L120.1,160.7 L122.6,155.1 L125.1,157.6 L127.5,165.9 L130.0,165.9 L132.5,169.2 L135.0,169.2 L137.5,166.5 L140.0,169.1 L142.4,168.1 L144.9,158.7 L147.4,172.0 L149.9,174.4 L152.4,170.1 L154.9,156.1 L157.4,145.5 L159.8,162.0 L162.3,159.7 L164.8,157.3 L167.3,152.3 L169.8,148.6 L172.3,140.8 L174.7,131.3 L177.2,131.3 L179.7,126.6 L182.2,124.0 L184.7,126.6 L187.2,131.3 L189.6,127.6 L192.1,133.7 L194.6,121.9 L197.1,138.4 L199.6,147.9 L202.1,148.1 L204.5,150.2 L207.0,155.0 L209.5,150.2 L212.0,150.2 L214.5,145.5 L217.0,159.7 L219.4,162.0 L221.9,173.9 L224.4,169.1 L226.9,159.7 L229.4,159.7 L231.9,138.4 L234.3,117.2 L236.8,98.3 L239.3,95.9 L241.8,95.9 L244.3,91.2 L246.8,91.2 L249.2,88.8 L251.7,84.1 L254.2,65.2 L256.7,41.6 L259.2,41.6 L261.7,41.6 L264.2,36.8 L266.6,32.6 L269.1,35.0 L271.6,34.5 L274.1,25.0 L276.6,20.8 L279.1,24.1 L281.5,24.1 L284.0,24.6 L286.5,24.1 L289.0,23.6 L291.5,26.0 L294.0,28.3 L296.4,47.7 L298.9,67.6 L301.4,58.1 L303.9,58.1 L306.4,58.1 L308.9,91.2 L311.3,100.6 L313.8,105.4 L316.3,95.9 L318.8,86.5 L321.3,100.6 L323.8,100.6 L326.2,112.4 L328.7,121.9 L331.2,121.4 L333.7,121.4 L336.2,112.0 L338.7,125.7 L341.1,125.4 L343.6,130.2 L346.1,120.0 L348.6,120.0 L351.1,107.7 L353.6,93.5 L356.1,88.8 L358.5,88.8 L361.0,88.8 L363.5,103.0 L366.0,112.4 L368.5,121.9 L371.0,131.3 L373.4,140.8 L375.9,136.1 L378.4,121.9 L380.9,121.9 L383.4,121.9 L385.9,126.6 L388.3,124.2 L390.8,114.8 L393.3,114.8 L395.8,114.8 L398.3,114.8 L400.8,121.9 L403.2,117.2 L405.7,112.4 L408.2,120.7 L410.7,119.5 L413.2,119.5 L415.7,119.5 L418.1,124.2 L420.6,143.1 L423.1,143.1 L425.6,155.0 L428.1,164.4 L430.6,160.2 L433.0,155.0 L435.5,155.0 L438.0,152.6 L440.5,147.9 L443.0,147.9 L445.5,152.6 L447.9,152.6 L450.4,152.6 L452.9,152.6 L455.4,157.3 L457.9,166.8 L460.4,172.9 L462.9,171.5 L465.3,169.6 L467.8,169.1 L470.3,171.5 L472.8,166.8 L475.3,142.2 L477.8,143.1 L480.2,140.8 L482.7,142.2 L485.2,145.5 L487.7,155.0 L490.2,152.6 L492.7,149.8 L495.1,152.1 L497.6,150.7 L500.1,148.3 L502.6,146.0 L505.1,150.7 L507.6,147.9 L510.0,145.5 L512.5,146.0 L515.0,148.8 L517.5,163.0 L520.0,165.8 L522.5,163.0 L524.9,167.7 L527.4,177.2 L529.9,190.4 L532.4,166.8 L534.9,133.7 L537.4,136.1 L539.8,124.2 L542.3,124.2 L544.8,126.6 L547.3,131.3 L549.8,119.5 L552.3,124.2 L554.8,171.5 L557.2,159.7 L559.7,150.2 L562.2,131.3 L564.7,124.2 L567.2,119.5 L569.7,120.2 L572.1,203.6 L574.6,58.7 L577.1,18.0 L579.6,53.9 L582.1,80.3 L584.6,88.3 L587.0,91.2 L589.5,94.0 L592.0,96.8 L594.5,103.0 L597.0,60.5 L599.5,58.1 L601.9,58.1 L604.4,73.8 L606.9,95.8 L609.4,119.5 L611.9,124.2 L614.4,129.0 L616.8,136.1 L619.3,140.8 L621.8,140.8 L624.3,145.5 L626.8,157.3 L629.3,145.5 L631.7,159.7 L634.2,157.3 L636.7,162.0 L639.2,171.5 L641.7,188.0 L644.2,190.4 L646.6,166.8 L649.1,166.8 L651.6,166.8 L654.1,131.3 L656.6,140.8 L659.1,152.6 L661.6,169.1 L664.0,136.1 L666.5,143.1 L669.0,101.6 L671.5,79.4 L674.0,103.0 L676.5,95.9 L678.9,93.5 L681.4,81.7 L683.9,91.2 L686.4,100.6 L688.9,105.4 L691.4,105.4 L693.8,95.9 L696.3,79.4 L698.8,93.5 L701.3,99.7 L703.8,89.8 L706.3,93.5 L708.7,91.7 L711.2,88.8 L713.7,86.5 L716.2,86.5 L718.7,98.3 L721.2,88.8 L723.6,95.9 L726.1,126.6 L728.6,103.0 L731.1,98.3 L733.6,140.8 L736.1,129.0 L738.5,126.6 L741.0,131.3 L743.5,133.7 L746.0,164.4 L746.0,204.0 L58.0,204.0 Z" fill="rgba(30,107,107,.13)"/>
+  <path d="M58.0,147.1 L60.5,163.0 L63.0,184.0 L65.5,188.0 L67.9,178.3 L70.4,150.2 L72.9,153.8 L75.4,151.4 L77.9,144.3 L80.4,150.2 L82.8,145.5 L85.3,147.6 L87.8,123.7 L90.3,127.6 L92.8,121.3 L95.3,111.2 L97.7,154.7 L100.2,186.4 L102.7,192.3 L105.2,193.6 L107.7,186.6 L110.2,190.2 L112.6,197.4 L115.1,184.6 L117.6,140.6 L120.1,160.7 L122.6,155.1 L125.1,157.6 L127.5,165.9 L130.0,165.9 L132.5,169.2 L135.0,169.2 L137.5,166.5 L140.0,169.1 L142.4,168.1 L144.9,158.7 L147.4,172.0 L149.9,174.4 L152.4,170.1 L154.9,156.1 L157.4,145.5 L159.8,162.0 L162.3,159.7 L164.8,157.3 L167.3,152.3 L169.8,148.6 L172.3,140.8 L174.7,131.3 L177.2,131.3 L179.7,126.6 L182.2,124.0 L184.7,126.6 L187.2,131.3 L189.6,127.6 L192.1,133.7 L194.6,121.9 L197.1,138.4 L199.6,147.9 L202.1,148.1 L204.5,150.2 L207.0,155.0 L209.5,150.2 L212.0,150.2 L214.5,145.5 L217.0,159.7 L219.4,162.0 L221.9,173.9 L224.4,169.1 L226.9,159.7 L229.4,159.7 L231.9,138.4 L234.3,117.2 L236.8,98.3 L239.3,95.9 L241.8,95.9 L244.3,91.2 L246.8,91.2 L249.2,88.8 L251.7,84.1 L254.2,65.2 L256.7,41.6 L259.2,41.6 L261.7,41.6 L264.2,36.8 L266.6,32.6 L269.1,35.0 L271.6,34.5 L274.1,25.0 L276.6,20.8 L279.1,24.1 L281.5,24.1 L284.0,24.6 L286.5,24.1 L289.0,23.6 L291.5,26.0 L294.0,28.3 L296.4,47.7 L298.9,67.6 L301.4,58.1 L303.9,58.1 L306.4,58.1 L308.9,91.2 L311.3,100.6 L313.8,105.4 L316.3,95.9 L318.8,86.5 L321.3,100.6 L323.8,100.6 L326.2,112.4 L328.7,121.9 L331.2,121.4 L333.7,121.4 L336.2,112.0 L338.7,125.7 L341.1,125.4 L343.6,130.2 L346.1,120.0 L348.6,120.0 L351.1,107.7 L353.6,93.5 L356.1,88.8 L358.5,88.8 L361.0,88.8 L363.5,103.0 L366.0,112.4 L368.5,121.9 L371.0,131.3 L373.4,140.8 L375.9,136.1 L378.4,121.9 L380.9,121.9 L383.4,121.9 L385.9,126.6 L388.3,124.2 L390.8,114.8 L393.3,114.8 L395.8,114.8 L398.3,114.8 L400.8,121.9 L403.2,117.2 L405.7,112.4 L408.2,120.7 L410.7,119.5 L413.2,119.5 L415.7,119.5 L418.1,124.2 L420.6,143.1 L423.1,143.1 L425.6,155.0 L428.1,164.4 L430.6,160.2 L433.0,155.0 L435.5,155.0 L438.0,152.6 L440.5,147.9 L443.0,147.9 L445.5,152.6 L447.9,152.6 L450.4,152.6 L452.9,152.6 L455.4,157.3 L457.9,166.8 L460.4,172.9 L462.9,171.5 L465.3,169.6 L467.8,169.1 L470.3,171.5 L472.8,166.8 L475.3,142.2 L477.8,143.1 L480.2,140.8 L482.7,142.2 L485.2,145.5 L487.7,155.0 L490.2,152.6 L492.7,149.8 L495.1,152.1 L497.6,150.7 L500.1,148.3 L502.6,146.0 L505.1,150.7 L507.6,147.9 L510.0,145.5 L512.5,146.0 L515.0,148.8 L517.5,163.0 L520.0,165.8 L522.5,163.0 L524.9,167.7 L527.4,177.2 L529.9,190.4 L532.4,166.8 L534.9,133.7 L537.4,136.1 L539.8,124.2 L542.3,124.2 L544.8,126.6 L547.3,131.3 L549.8,119.5 L552.3,124.2 L554.8,171.5 L557.2,159.7 L559.7,150.2 L562.2,131.3 L564.7,124.2 L567.2,119.5 L569.7,120.2 L572.1,203.6 L574.6,58.7 L577.1,18.0 L579.6,53.9 L582.1,80.3 L584.6,88.3 L587.0,91.2 L589.5,94.0 L592.0,96.8 L594.5,103.0 L597.0,60.5 L599.5,58.1 L601.9,58.1 L604.4,73.8 L606.9,95.8 L609.4,119.5 L611.9,124.2 L614.4,129.0 L616.8,136.1 L619.3,140.8 L621.8,140.8 L624.3,145.5 L626.8,157.3 L629.3,145.5 L631.7,159.7 L634.2,157.3 L636.7,162.0 L639.2,171.5 L641.7,188.0 L644.2,190.4 L646.6,166.8 L649.1,166.8 L651.6,166.8 L654.1,131.3 L656.6,140.8 L659.1,152.6 L661.6,169.1 L664.0,136.1 L666.5,143.1 L669.0,101.6 L671.5,79.4 L674.0,103.0 L676.5,95.9 L678.9,93.5 L681.4,81.7 L683.9,91.2 L686.4,100.6 L688.9,105.4 L691.4,105.4 L693.8,95.9 L696.3,79.4 L698.8,93.5 L701.3,99.7 L703.8,89.8 L706.3,93.5 L708.7,91.7 L711.2,88.8 L713.7,86.5 L716.2,86.5 L718.7,98.3 L721.2,88.8 L723.6,95.9 L726.1,126.6 L728.6,103.0 L731.1,98.3 L733.6,140.8 L736.1,129.0 L738.5,126.6 L741.0,131.3 L743.5,133.7 L746.0,164.4" fill="none" stroke="var(--teal)" stroke-width="1.6"/>
+  <circle cx="746.0" cy="164.4" r="3.4" fill="var(--teal)"/>
+  <g><text class='xtick' x='58.0' y='222'>2003</text><text class='xtick' x='403.2' y='222'>2014</text><text class='xtick' x='746.0' y='222'>2026</text></g>
+</svg>
+  <div class="cap">EIA STEO · million barrels per day ·
+  plotted 2003-01–2026-02 (278 months).
+  Series redefined at 2026-03 (-1.10); the 4 months after it are on a different basis and are excluded from this line.
+  </div>
+</div><div class="flag">
+  <h4>All three OPEC series break in the same month</h4>
+  <p>Each series takes its largest move in three years at the same date. A simultaneous
+  step across crude production, total supply and spare capacity is a change in what the
+  "OPEC" aggregate counts — members entering or leaving the grouping — not a market event.
+  Do not compute growth across it, and do not read Saudi spare capacity falling to exactly
+  0.00 as a physical collapse; it is unpublished on the new basis.</p>
+  <div class="tbl-wrap"><table><caption>Detected structural breaks</caption>
+  <thead><tr><th>Series</th><th class="n">Break month</th><th class="n">Step (mb/d)</th>
+  <th class="n">Months after</th></tr></thead><tbody><tr><td>COPR_OPEC</td><td class='n'>2026-03</td><td class='n'>-7.54</td><td class='n'>5</td></tr><tr><td>PAPR_OPEC</td><td class='n'>2026-03</td><td class='n'>-8.52</td><td class='n'>5</td></tr><tr><td>COPS_SA</td><td class='n'>2026-03</td><td class='n'>-1.10</td><td class='n'>4</td></tr></tbody></table></div>
+</div>
+  
+</section>
+
+<footer>
+  Sources — UN Comtrade public preview (HS, annual, reporter-declared); US EIA weekly
+  petroleum status and annual proved reserves workbooks; DGCI&amp;S TRADESTAT EIDB via
+  india-trade-data-analysis. Values are nominal US$, not volume-adjusted; Comtrade figures
+  are reporter-declared and differ from mirror (partner-declared) data.
+  Built 08 August 2026.
+</footer>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
