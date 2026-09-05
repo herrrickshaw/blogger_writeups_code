@@ -210,7 +210,7 @@ a:hover{color:var(--accent-ink)}
     <b:section class='site-nav' id='nav' maxwidgets='2' showaddelement='yes'>
       <b:widget id='PageList1' locked='false' title='Pages' type='PageList' version='1'>
         <b:widget-settings>
-          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"http://masaladeutsch.blogspot.com/","position":0,"title":"Home"}}]]></b:widget-setting>
+          <b:widget-setting name='pageListJson'><![CDATA[{"home":{"href":"https://masaladeutsch.blogspot.com/","position":0,"title":"Home"},"about":{"href":"https://masaladeutsch.blogspot.com/p/about.html","position":1,"title":"About"},"contact":{"href":"https://masaladeutsch.blogspot.com/p/contact.html","position":2,"title":"Contact"},"privacy":{"href":"https://masaladeutsch.blogspot.com/p/privacy-policy.html","position":3,"title":"Privacy Policy"},"disclaimer":{"href":"https://masaladeutsch.blogspot.com/p/disclaimer.html","position":4,"title":"Editorial Policy & Disclaimer"}}]]></b:widget-setting>
           <b:widget-setting name='homeTitle'>Home</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
@@ -1183,6 +1183,13 @@ material, so verify any number that matters to a decision against the linked pri
           <b:widget-setting name='copyright'/>
         </b:widget-settings>
         <b:includable id='main'>
+    <nav aria-label='Site policies' class='site-foot-links' style='text-align:center;font-family:-apple-system,BlinkMacSystemFont,&apos;Segoe UI&apos;,Helvetica,Arial,sans-serif;font-size:.82rem;margin:0 0 .8rem;'>
+      <a href='https://masaladeutsch.blogspot.com/p/about.html' style='margin:0 .6rem;'>About</a>
+      <a href='https://masaladeutsch.blogspot.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
+      <a href='https://masaladeutsch.blogspot.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
+      <a href='https://masaladeutsch.blogspot.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
+      <a href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
+    </nav>
     <div class='widget-content' style='text-align: center;'>
       <b:if cond='data:attribution != &quot;&quot;'>
        <data:attribution/>
