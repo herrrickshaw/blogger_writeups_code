@@ -136,7 +136,7 @@ def site_facts():
     card_text = _plain(card.group(1)) if card else "(card not found in theme)"
     disc = ""
     for _, _, p in rows[:1]:
-        m = re.search(r'<p class="disclaimer"[^>]*>(.*?)</p>', p.read_text(encoding="utf-8", errors="replace"), re.S)
+        m = re.search(r'<p class="disclaimer" data-gs-ai-disclosure[^>]*>(.*?)</p>', p.read_text(encoding="utf-8", errors="replace"), re.S)
         disc = _plain(m.group(1)) if m else "(none found)"
     return {
         "live_posts": len(rows), "median_words": int(statistics.median(wc)) if wc else 0,
