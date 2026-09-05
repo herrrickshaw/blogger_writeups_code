@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-09-05T21:15:39.930+05:30",
+  "updated": "2026-09-05T22:07:23.701+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 43340,
-  "sha256": "1c1eaa53ec48e008ae222b3ef8359d75476622e89b3799eeddf26e3d336fac48",
+  "bytes": 42458,
+  "sha256": "932a22eaefd8afa87734079eb790471308dd28a7ff234ad4f898cdbaafd653f3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "13.0.1",
+  "version": "13.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "13.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        43340,
+        42458
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

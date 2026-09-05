@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-09-05T21:12:20.085+05:30",
+  "updated": "2026-09-05T22:04:04.163+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 35124,
-  "sha256": "691b64fa575aca6d19b36b90e457322f51cc4e179eec0c782bca50d8c28d9a05",
+  "bytes": 34596,
+  "sha256": "50602acbf41735da8b14e41a673ec9a457a90a4366efbc8183a8a5a9abec3b9e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.1",
+  "version": "1.2.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.2.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        35124,
+        34596
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

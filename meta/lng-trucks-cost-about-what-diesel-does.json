@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-09-05T21:06:26.674+05:30",
+  "updated": "2026-09-05T21:58:27.955+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 31577,
-  "sha256": "cde06cdaf0f47864dbe6e6f2b05911fffe99260cd7cc9bb9d50e5189a3e45ebb",
+  "bytes": 31049,
+  "sha256": "21a0b730cb12a00abf6dc9922fadcfb4234fba7f97c8902432ee32307728ada0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        31577,
+        31049
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

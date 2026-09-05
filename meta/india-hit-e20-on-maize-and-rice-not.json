@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
   "slug": "india-hit-e20-on-maize-and-rice-not",
   "published": "2026-08-23T04:34:22.000+05:30",
-  "updated": "2026-09-05T21:01:13.807+05:30",
+  "updated": "2026-09-05T21:53:34.792+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 25832,
-  "sha256": "1921b091d746ba0078c7c948a08938b5f963e8437553a7bc503549cc09dc6354",
+  "bytes": 25304,
+  "sha256": "974dfdcee8c53e2ef379510e93bbf4d869140df25809baee140635157704371b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25832,
+        25304
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

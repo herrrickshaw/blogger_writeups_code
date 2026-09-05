@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-09-05T21:11:08.408+05:30",
+  "updated": "2026-09-05T22:02:50.042+05:30",
   "labels": [],
-  "bytes": 27965,
-  "sha256": "3880f955f9a22d729bac9110f54839ded6b674ad66c1020887349106dfacd737",
+  "bytes": 27437,
+  "sha256": "2c31c9c665e81af17866f30752b018404f9dd936a6b85b6a19cc4abf79e9dfb4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        27965,
+        27437
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html",
   "slug": "icra-rates-most-of-indias-economy",
   "published": "2026-09-03T10:20:13.000+05:30",
-  "updated": "2026-09-05T20:59:27.201+05:30",
+  "updated": "2026-09-05T21:52:08.010+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy"
   ],
-  "bytes": 38335,
-  "sha256": "2e156fede95f1df9668d8820d3b702c16ea9e295584f0a5a2f72928dfa1ea184",
+  "bytes": 37807,
+  "sha256": "3accbbe95f83cc03443a39fd02a7b6493347853efb9f7717ba91b6214ad5bbe5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38335,
+        37807
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

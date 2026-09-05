@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html",
   "slug": "the-currency-rupee-trends-piece-left",
   "published": "2026-08-14T18:48:54.000+05:30",
-  "updated": "2026-09-05T21:12:26.332+05:30",
+  "updated": "2026-09-05T22:04:10.745+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 37484,
-  "sha256": "81c550122777458856cc656dbbb6d3583a2e9c8c9c8cce7c0ff5188174f6bb59",
+  "bytes": 36602,
+  "sha256": "9a80909b9ea26bf9d024c197c4c315ba4a1624fc59d3c351d006914413977dce",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        37484,
+        36602
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

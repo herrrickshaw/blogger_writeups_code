@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-09-05T21:13:31.648+05:30",
+  "updated": "2026-09-05T22:05:18.366+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 56197,
-  "sha256": "23d9292da9e8b1ab0ddb99858c1f9509fbe3f87e80e4fccd4ce8ccfa1e95513b",
+  "bytes": 55249,
+  "sha256": "2234133e62afe54bc27fdd4d6dd32ef54be3d41bc99fe23e99000c067a9403e8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        56197,
+        55249
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

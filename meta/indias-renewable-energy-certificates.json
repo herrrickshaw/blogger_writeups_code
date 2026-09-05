@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
   "slug": "indias-renewable-energy-certificates",
   "published": "2026-08-23T22:23:00.000+05:30",
-  "updated": "2026-09-05T21:04:23.533+05:30",
+  "updated": "2026-09-05T21:56:33.244+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 36902,
-  "sha256": "06d0dcec42d5941b3fe1226b26fcf512d372afd9acebd601ed8a3ed987283acb",
+  "bytes": 36374,
+  "sha256": "44eccf77a0263b339075e6348cedd2b5344fac99cdca12919221b588f3254273",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        36902,
+        36374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.000+05:30",
-  "updated": "2026-09-05T20:58:30.357+05:30",
+  "updated": "2026-09-05T21:51:12.052+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 38400,
-  "sha256": "981b0290a22e143924d6489a883fdc875bb47c4cff6c3f1fe894f3eccd53bf03",
+  "bytes": 37519,
+  "sha256": "35b4b1d10aea2febbf4a4df68d407170745e4ae4c77a6e5b3273a0867bf2b03f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -222,6 +222,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38400,
+        37519
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

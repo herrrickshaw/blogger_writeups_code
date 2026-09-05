@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html",
   "slug": "thirty-one-years-of-asking-parliament",
   "published": "2026-08-23T05:17:05.000+05:30",
-  "updated": "2026-09-05T21:14:56.971+05:30",
+  "updated": "2026-09-05T22:06:39.462+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 38431,
-  "sha256": "db86893793dbbbfb9d0357dcb6cfd3f1eb3b392314f4a65f6dea2eb3f2f2422b",
+  "bytes": 37903,
+  "sha256": "2fb9d2be21b60db72e54f6d6d1394bb4143be06e2e353d0d1050f2fcfebacc11",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38431,
+        37903
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

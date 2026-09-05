@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
   "slug": "financing-fuel-to-chemicals-pivot-how",
   "published": "2026-08-14T11:33:51.000+05:30",
-  "updated": "2026-09-05T20:57:22.490+05:30",
+  "updated": "2026-09-05T21:50:08.214+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 26849,
-  "sha256": "4e68e4d18df2860cfd96ca018d0db17b27f8d52b9f21f15c6fa67910c56cb2fb",
+  "bytes": 25968,
+  "sha256": "5f38badff517184d88de3660b0188107f3725c2cab646df4ecb15f383e5dcdfd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26849,
+        25968
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

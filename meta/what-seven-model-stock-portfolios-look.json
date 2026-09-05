@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-09-05T21:16:27.655+05:30",
+  "updated": "2026-09-05T22:08:12.626+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
   ],
-  "bytes": 23713,
-  "sha256": "3cd582233cb6e6fdea031d2a0990acb37e1da1a8b8afd77d0d2dec732f22c876",
+  "bytes": 22657,
+  "sha256": "4ad9278f3817bae68855f69387c18174977a0361cbd11a9871ccd41cb98d04ca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23713,
+        22657
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

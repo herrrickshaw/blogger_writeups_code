@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
   "slug": "airbags-and-seat-belts-are-import-heavy",
   "published": "2026-08-15T11:27:49.000+05:30",
-  "updated": "2026-09-05T20:52:51.684+05:30",
+  "updated": "2026-09-05T21:46:05.362+05:30",
   "labels": [
     "Automotive & Manufacturing",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 28446,
-  "sha256": "d3ee8dd9dc6a815f0c5da2acdf26b01cd5ed7b3679a0f83aec937869096c22aa",
+  "bytes": 27564,
+  "sha256": "a4117730c50dd47be28849c4862598e89eb96587f193a4e5084d288978162d38",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        28446,
+        27564
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

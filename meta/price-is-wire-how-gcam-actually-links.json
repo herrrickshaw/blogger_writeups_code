@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-09-05T21:08:13.231+05:30",
+  "updated": "2026-09-05T22:00:09.309+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 42599,
-  "sha256": "d6cac80ac686f25e2df09784b889b41b58a4a29dd57cb9500c34e70a4658f7c7",
+  "bytes": 41717,
+  "sha256": "af475af4a41f926b29a34ac952f01283437a3560c5413979c517c72231adeabe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -137,6 +137,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        42599,
+        41717
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

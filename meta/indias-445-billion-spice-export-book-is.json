@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-09-05T21:02:12.777+05:30",
+  "updated": "2026-09-05T21:54:32.857+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 32202,
-  "sha256": "ef64353037aea01f5e53e7ed49c87327d2f3498d023d3a04011bc89aa4d7a52c",
+  "bytes": 31674,
+  "sha256": "13409a295b4892837aef206c385198d9ae54d4e96e060bf0b28376eb2c733a5d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        32202,
+        31674
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-09-05T20:58:23.252+05:30",
+  "updated": "2026-09-05T21:51:05.340+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 83794,
-  "sha256": "8316bcdc551ea71b59313da2ab1cfcdf06752cddf7a5b5ebafbd86e9dceda379",
+  "bytes": 82913,
+  "sha256": "581c1d9256fbba6e5225af70c5886b6d1c0e5f12c3242026bdbdbc7dc9bb0e05",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -246,6 +246,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        83794,
+        82913
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

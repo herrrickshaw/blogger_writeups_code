@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
   "slug": "tiffin-meets-thali-10-day-sip-already",
   "published": "2026-08-11T13:45:20.000+05:30",
-  "updated": "2026-09-05T21:15:09.247+05:30",
+  "updated": "2026-09-05T22:06:51.566+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 22541,
-  "sha256": "8ef00cb57e8d8bc50b7d9b2b779c3bcf997a33da0b2f003e7c075d0c3a8ef7ee",
+  "bytes": 21660,
+  "sha256": "015c950adf8bc5140a8a2fb1da78768ee01b3ced45598e0fb7f37cf150a40790",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22541,
+        21660
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

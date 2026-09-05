@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
   "slug": "blending-on-budget-energy-density-and",
   "published": "2026-08-19T12:07:25.000+05:30",
-  "updated": "2026-09-05T20:54:06.492+05:30",
+  "updated": "2026-09-05T21:47:09.967+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 41834,
-  "sha256": "5a2cbe69ab6875aff4dd53be4c8b0ca99f522950675bca58756c45db21ff115f",
+  "bytes": 40886,
+  "sha256": "8b6327fe240966ac8371ed61bdb564dd7673eaceb3aa065c5e34a87d22fb0b12",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        41834,
+        40886
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

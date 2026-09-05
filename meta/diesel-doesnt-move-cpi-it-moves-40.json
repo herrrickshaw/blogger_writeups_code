@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.000+05:30",
-  "updated": "2026-09-05T20:56:02.443+05:30",
+  "updated": "2026-09-05T21:48:53.517+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 40421,
-  "sha256": "347c21cfe6ba118ab95f2020b6e98c1e44c20d0b47bf06e91b0565ac8accbf30",
+  "bytes": 39539,
+  "sha256": "b72e213eb5a91e1567485475987d6c75e9e8ba812fc3be6d4792664e4ada74f6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.1",
+  "version": "6.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -263,6 +263,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "6.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        40421,
+        39539
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

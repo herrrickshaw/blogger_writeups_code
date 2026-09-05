@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-09-05T21:09:29.510+05:30",
+  "updated": "2026-09-05T22:01:07.003+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 32418,
-  "sha256": "8858041567735aa68c9679bbe972dd41f386cfd42c79c9cf69a1636e64144514",
+  "bytes": 31536,
+  "sha256": "7e2c20d498c8ed13b5a1bd7e887bb58f71f66547b02c611fb9b462eabe6f4b29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        32418,
+        31536
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

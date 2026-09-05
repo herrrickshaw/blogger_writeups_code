@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-09-05T21:07:56.054+05:30",
+  "updated": "2026-09-05T21:59:51.138+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 22864,
-  "sha256": "e3076f2e72cad805dd73d10202398bbcb070d6fec406d87a42ab9d60cffdb3c0",
+  "bytes": 21983,
+  "sha256": "1b2c85e4615fbc499efad0a75599f2e675883b1fa4b08cdfd0ae8363c6eee984",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22864,
+        21983
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

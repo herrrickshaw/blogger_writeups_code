@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-09-05T21:06:45.783+05:30",
+  "updated": "2026-09-05T21:58:40.083+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 29357,
-  "sha256": "2897ac2109af89754343267c2965c73a1811389a19d8abb719033c1baaa46b78",
+  "bytes": 28475,
+  "sha256": "35eb68923855bda925844d5c57430c1913c7258ef809a82bb735793e221b008e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        29357,
+        28475
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

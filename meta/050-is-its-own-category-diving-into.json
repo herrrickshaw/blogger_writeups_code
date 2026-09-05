@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
   "slug": "050-is-its-own-category-diving-into",
   "published": "2026-08-11T15:32:23.000+05:30",
-  "updated": "2026-09-05T20:51:33.485+05:30",
+  "updated": "2026-09-05T21:44:47.664+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 22046,
-  "sha256": "cf5d2616bf7d9809bd4231321ccd5a9d3f247e23dc5ee7ce8180cb69a8c78b30",
+  "bytes": 21165,
+  "sha256": "1b5eaa008c1e1493bdae3b0f38f5abf116d1f98b45cea6df17e4ed900a507aa3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -146,6 +146,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22046,
+        21165
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
   "slug": "how-indias-automotive-clusters-rewired",
   "published": "2026-08-15T07:16:39.000+05:30",
-  "updated": "2026-09-05T20:59:14.256+05:30",
+  "updated": "2026-09-05T21:51:55.446+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 26622,
-  "sha256": "a91af596b839c2fd1d89f93a1b8ae83df523cfe45e7f4f9deebc898f24c824de",
+  "bytes": 25740,
+  "sha256": "312fd3a6e0157d6baa1ab459ec28802dd63858f0e27c19f2c04c1e450f562e86",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26622,
+        25740
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

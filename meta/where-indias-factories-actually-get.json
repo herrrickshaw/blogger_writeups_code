@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-09-05T21:16:57.249+05:30",
+  "updated": "2026-09-05T22:08:42.433+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 46177,
-  "sha256": "9da772ee326f3fd4e77366d54cfb38e4dd4a42243fdb581fa0282124def607cc",
+  "bytes": 45296,
+  "sha256": "0038c1710ef951467eb814f2569fbc2bf6a2dea881dd9014ad6623df2650d09f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        46177,
+        45296
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

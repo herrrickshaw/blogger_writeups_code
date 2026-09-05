@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-09-05T21:07:49.879+05:30",
+  "updated": "2026-09-05T21:59:44.758+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 151270,
-  "sha256": "bc0b1b38afb6ffe89b4de52ce12d51cecc4352b107d8dd6c53b2d4bce8d3d217",
+  "bytes": 150389,
+  "sha256": "56f594c67597808b213d2632a294abb83d6d689e5fcc3e5f6cc582b673b0a476",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        151270,
+        150389
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

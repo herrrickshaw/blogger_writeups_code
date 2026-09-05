@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html",
   "slug": "basf-and-mitsubishi-are-running",
   "published": "2026-08-16T11:00:30.000+05:30",
-  "updated": "2026-09-05T20:53:33.024+05:30",
+  "updated": "2026-09-05T21:46:37.800+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "India Trade & Policy"
   ],
-  "bytes": 23651,
-  "sha256": "77c9a3802fb44844b9c8436f47b7e83fa9c987f27b73d4731ded9103ec9e5a09",
+  "bytes": 22769,
+  "sha256": "8f0d1444299c9217853e754d2d560de69f396d7918e138ea0a61c076cf5c7aa4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23651,
+        22769
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

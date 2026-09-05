@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-09-05T20:57:08.857+05:30",
+  "updated": "2026-09-05T21:49:55.080+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 22240,
-  "sha256": "6ece90724aab1110bdda9e26fd17f57c4b0fab013232cf70ac50b20dbc694f92",
+  "bytes": 21358,
+  "sha256": "ed18142523ccd1e79a17a8ccb1c4ad67f59dafc7d01d3f02abe9040c2861fb0b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22240,
+        21358
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

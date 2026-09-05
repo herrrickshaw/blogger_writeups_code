@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
   "slug": "south-africa-lost-its-gulf-fuel-supply",
   "published": "2026-08-08T12:55:40.000+05:30",
-  "updated": "2026-09-05T21:10:04.950+05:30",
+  "updated": "2026-09-05T22:01:43.870+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 30737,
-  "sha256": "fab3453d2a8e1bc4952b0b536823233df3fec08cd0e7bafe411da5d72837832f",
+  "bytes": 29855,
+  "sha256": "166e9ca9290b44cc82e2f6e6af7fea2f205a27e5d4f86039f66a94bc97499db9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        30737,
+        29855
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

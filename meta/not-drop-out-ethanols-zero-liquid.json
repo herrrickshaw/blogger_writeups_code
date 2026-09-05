@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-09-05T21:07:09.452+05:30",
+  "updated": "2026-09-05T21:59:03.488+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 47234,
-  "sha256": "43251f3d7e0401c668cc22bc7798d6f1671c18fb729b7ae3299c5541c4700685",
+  "bytes": 46287,
+  "sha256": "49a79740898d88e44b039ae5812e4a6d26d3d2c79cc481dcb428b6502f734757",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        47234,
+        46287
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html",
   "slug": "ethanols-coal-boilers-briquette-gap-and",
   "published": "2026-08-17T09:07:49.000+05:30",
-  "updated": "2026-09-05T20:56:36.980+05:30",
+  "updated": "2026-09-05T21:49:25.459+05:30",
   "labels": [
     "Carbon Markets",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 35574,
-  "sha256": "20f4d375c901289b6636c1163cf0714a3a0881b217e178ae5698c879153e6625",
+  "bytes": 34627,
+  "sha256": "a44c2e62eb6160706ca64da7949bffc45d0dbed66cc8954eed3c01b8cb89c1c0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        35574,
+        34627
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

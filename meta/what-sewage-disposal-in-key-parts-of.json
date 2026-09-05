@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-09-05T21:16:33.254+05:30",
+  "updated": "2026-09-05T22:08:18.313+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 46506,
-  "sha256": "0988c047e46a5a98a8d4b5011793ca2e21ac7f5291b965f161f0f47bf57b5285",
+  "bytes": 45978,
+  "sha256": "10b7bad51b8f48f48021315f1194adbf684dee0bfdd181ec8460cd3d1ab86522",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        46506,
+        45978
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

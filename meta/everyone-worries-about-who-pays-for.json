@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-09-05T20:57:01.902+05:30",
+  "updated": "2026-09-05T21:49:48.875+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 38734,
-  "sha256": "5faa0355c270160a7ab05c3824a3ea98c71685cdb51d9b0180314f8e7923c242",
+  "bytes": 38206,
+  "sha256": "b310a2e23c80349f5e4bd06ce2e2e6833252435154fe4b169d9a19d0c8ae6c58",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38734,
+        38206
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

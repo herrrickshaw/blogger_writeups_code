@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-09-05T20:52:45.937+05:30",
+  "updated": "2026-09-05T21:45:59.339+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 40815,
-  "sha256": "6a7d9e15c27ad9e167b0c10ab0f1ba39ed641ddd29c70791a355c77f595873b5",
+  "bytes": 39933,
+  "sha256": "e24bfdc4b9c4ed02bf8f5e0b32565d748e449d7d7cf2f0a39dcbe7e0d5b02b13",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -260,6 +260,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        40815,
+        39933
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

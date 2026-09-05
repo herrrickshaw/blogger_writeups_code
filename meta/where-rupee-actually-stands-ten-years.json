@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html",
   "slug": "where-rupee-actually-stands-ten-years",
   "published": "2026-08-14T10:47:17.000+05:30",
-  "updated": "2026-09-05T21:17:30.398+05:30",
+  "updated": "2026-09-05T22:09:13.207+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 51496,
-  "sha256": "db38e6715f5e4e6d385e9977e843f5ec14b567b10960b2c7dafb9f72bd91a896",
+  "bytes": 50615,
+  "sha256": "d0a3488ac98209be88b74960ae12bae7d168eb90de1b003ca190a57dc426c7f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        51496,
+        50615
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

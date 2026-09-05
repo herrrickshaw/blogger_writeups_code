@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
   "slug": "uk-retail-canopies-at-54m-real-design",
   "published": "2026-08-30T18:07:20.000+05:30",
-  "updated": "2026-09-05T21:15:27.512+05:30",
+  "updated": "2026-09-05T22:07:11.001+05:30",
   "labels": [],
-  "bytes": 27771,
-  "sha256": "b2c1f7f6fa5ec9b15af0438a3aec719554331b06398f792eb76e07ed81a49ff8",
+  "bytes": 27243,
+  "sha256": "0aa38ebca050e84148b7e1a4637997be9236c95a0ec8a4ce5a84baf6b42b815d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        27771,
+        27243
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

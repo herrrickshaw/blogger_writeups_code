@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
   "slug": "indias-79-lakh-crore-rural-water",
   "published": "2026-08-29T12:08:35.000+05:30",
-  "updated": "2026-09-05T21:02:24.651+05:30",
+  "updated": "2026-09-05T21:54:44.413+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 24825,
-  "sha256": "2e8843307263e98394f57674b69869ecc4e3c26141cdb3a1edb34332f10a93ac",
+  "bytes": 23769,
+  "sha256": "034a9d2614d57bfb22da782354beb356a08a6f4a7295a54bfb39c25a5ed1f5aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24825,
+        23769
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

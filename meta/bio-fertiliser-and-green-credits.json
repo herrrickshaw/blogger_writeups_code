@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-09-05T20:53:54.001+05:30",
+  "updated": "2026-09-05T21:46:57.744+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon"
   ],
-  "bytes": 49009,
-  "sha256": "ee9beee923ff39c5b1115237f6d2ea01dd4b9d2e7816c415680ac305cdff4e05",
+  "bytes": 48128,
+  "sha256": "2a09333ecf7f2f923bbbce8a2a8cb736384f371b05950cb0cefbd54d7b28deb8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        49009,
+        48128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

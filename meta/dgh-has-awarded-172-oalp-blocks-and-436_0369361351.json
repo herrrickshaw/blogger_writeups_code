@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
   "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
   "published": "2026-09-02T10:40:46.000+05:30",
-  "updated": "2026-09-05T20:55:55.674+05:30",
+  "updated": "2026-09-05T21:48:47.360+05:30",
   "labels": [],
-  "bytes": 48862,
-  "sha256": "f8c83483cd869a84366058273197a9a2faf03a48b12943ed9668fb15fce767a7",
+  "bytes": 48334,
+  "sha256": "8d80f65444983420c3fc684c9c693d29382bb9eae0f4293db5c113058502f8e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        48862,
+        48334
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

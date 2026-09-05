@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.000+05:30",
-  "updated": "2026-09-05T21:13:14.722+05:30",
+  "updated": "2026-09-05T22:05:01.112+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 23802,
-  "sha256": "5602fec9a98148d5c87ccd5be9a69d05526dfdaf1f0c874f8ab84cf5361dc52a",
+  "bytes": 22746,
+  "sha256": "76370abf07a37044f592ec45bae12cf23e0c7885a616d073cb1e3133f8ed3316",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23802,
+        22746
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

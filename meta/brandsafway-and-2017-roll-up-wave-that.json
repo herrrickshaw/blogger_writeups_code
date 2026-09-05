@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
   "slug": "brandsafway-and-2017-roll-up-wave-that",
   "published": "2026-08-30T17:58:26.000+05:30",
-  "updated": "2026-09-05T20:54:12.528+05:30",
+  "updated": "2026-09-05T21:47:15.841+05:30",
   "labels": [],
-  "bytes": 24143,
-  "sha256": "52afec5864af9179626aa24df82048f200e6c8f50986f83905c5843bcb3ca33c",
+  "bytes": 23615,
+  "sha256": "811754a9ca4f90a02737e1b4d71a76497399a1cc71d797899ce92f96c53f36d2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24143,
+        23615
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

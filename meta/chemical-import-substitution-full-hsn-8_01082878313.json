@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
   "slug": "chemical-import-substitution-full-hsn-8_01082878313",
   "published": "2026-08-05T09:00:00.000+05:30",
-  "updated": "2026-09-05T20:54:54.056+05:30",
+  "updated": "2026-09-05T21:47:56.400+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 388320,
-  "sha256": "00ed9311696e1da60a68a5537b70fdc038d127e0bd29809e7e9ab34da806dd90",
+  "bytes": 387794,
+  "sha256": "293088a815509df3633bdb40ab4007f98c4befaab8d7465291648d6fa62fe8c2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -218,6 +218,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        388320,
+        387794
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

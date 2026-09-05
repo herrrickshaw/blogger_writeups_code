@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html",
   "slug": "you-cannot-substitute-crude-oil-or-gold",
   "published": "2026-08-23T04:30:03.000+05:30",
-  "updated": "2026-09-05T21:18:17.421+05:30",
+  "updated": "2026-09-05T22:10:03.288+05:30",
   "labels": [
     "Import Substitution",
     "India Trade & Policy",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 34958,
-  "sha256": "d8d79ef5f89ecb43c653db3167ad4ab729f93021fe2b04245ce17a8913f8d427",
+  "bytes": 34430,
+  "sha256": "601c132eddbcb90b20b077599ec0c630b40e77542a1b2ca8660ae26a8183bc70",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        34958,
+        34430
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

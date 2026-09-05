@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html",
   "slug": "india-exports-worlds-coco-peat-its-own",
   "published": "2026-08-26T14:55:15.000+05:30",
-  "updated": "2026-09-05T21:00:28.009+05:30",
+  "updated": "2026-09-05T21:52:51.065+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 45837,
-  "sha256": "68fa9c7cef8b9ad2fbaa48391b57fb1e0ab7162184bfea7b2bc17199b1617c5a",
+  "bytes": 45309,
+  "sha256": "21f9e46d34e0d100d19bb4ffe7b86276b27c5248ebb3b0e526bfe487fbec7add",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        45837,
+        45309
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

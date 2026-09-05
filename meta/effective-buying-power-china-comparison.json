@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html",
   "slug": "effective-buying-power-china-comparison",
   "published": "2026-08-02T14:02:12.000+05:30",
-  "updated": "2026-09-05T20:56:24.042+05:30",
+  "updated": "2026-09-05T21:49:13.242+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 37943,
-  "sha256": "2140c2ab42c91d7983e2bb6b8c67d320ab3732d1b8ca372897627cfb00d322e3",
+  "bytes": 37062,
+  "sha256": "7cf71b40ee31e0b858ae8c34df8a202baadbb626c13edda04924e3a99c118aa8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        37943,
+        37062
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

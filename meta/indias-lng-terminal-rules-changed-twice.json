@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
   "slug": "indias-lng-terminal-rules-changed-twice",
   "published": "2026-09-01T22:21:11.000+05:30",
-  "updated": "2026-09-05T21:03:40.035+05:30",
+  "updated": "2026-09-05T21:55:57.661+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 29032,
-  "sha256": "024a3996c3c086b3f82122693139becd1fb672a399bd0ba66fdf6516cec368c9",
+  "bytes": 28504,
+  "sha256": "07f690c236f4817e0c64238c82d1655182193e4fdf6ae8f04ad52737143cfb03",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        29032,
+        28504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

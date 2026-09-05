@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-09-05T21:07:03.931+05:30",
+  "updated": "2026-09-05T21:58:57.656+05:30",
   "labels": [
     "India",
     "Industrial Policy"
   ],
-  "bytes": 65631,
-  "sha256": "63fe0a09ceb6269742152ac577ed3196e118a226b06f6ca4950a7845d00d64f5",
+  "bytes": 65103,
+  "sha256": "55cce54cedef129d09e439e3e2e3e5046f5e20c4609b52860c1079f0b9e7d6ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        65631,
+        65103
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

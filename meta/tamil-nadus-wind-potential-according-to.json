@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-09-05T21:10:39.771+05:30",
+  "updated": "2026-09-05T22:02:19.580+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 27308,
-  "sha256": "6890292197224fec4476dce989b974b6faf574bde0d5f5b785db02a59bd1df56",
+  "bytes": 26426,
+  "sha256": "3c84f3937c9c356b8094490834e35370fd5686f35d7f6f0e1dad3541b3ae6e1a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        27308,
+        26426
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

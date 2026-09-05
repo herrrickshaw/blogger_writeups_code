@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:00:42.251+05:30",
+  "updated": "2026-09-05T21:53:04.362+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 20496,
-  "sha256": "f7bcfe0d7ab08332e783af8a2b4bbf0122fdf5e5ae437528db039dc821e0d268",
+  "bytes": 19969,
+  "sha256": "e457b346153d354883c262241b0e60f8e46a75456e0637324b11608ea7a7b90d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -209,6 +209,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        20496,
+        19969
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

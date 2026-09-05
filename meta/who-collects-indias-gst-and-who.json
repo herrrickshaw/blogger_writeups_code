@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
   "slug": "who-collects-indias-gst-and-who",
   "published": "2026-08-12T19:04:21.000+05:30",
-  "updated": "2026-09-05T21:17:48.704+05:30",
+  "updated": "2026-09-05T22:09:32.441+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 35803,
-  "sha256": "43f9bb021b23d9aed1957e415b0ac64673be3be8997a63ff2f860eae153329c0",
+  "bytes": 34921,
+  "sha256": "cc00bda604ea0310a2d95464d4ab3c7e0d17b3ff7215957a7fd6b2e7482b116d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        35803,
+        34921
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

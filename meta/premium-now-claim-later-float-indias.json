@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html",
   "slug": "premium-now-claim-later-float-indias",
   "published": "2026-08-22T20:29:04.000+05:30",
-  "updated": "2026-09-05T21:08:06.999+05:30",
+  "updated": "2026-09-05T22:00:02.850+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance",
     "Mobility & EV"
   ],
-  "bytes": 64183,
-  "sha256": "c8cad6551edbb1a99973133e9a4f87137b437ceabeba5d33d2d1394691efdb2d",
+  "bytes": 63655,
+  "sha256": "e04b01b6b3fc125ea99ae2d0d7b81b6539b8ee432fedf814023195b77e1eaa10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        64183,
+        63655
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

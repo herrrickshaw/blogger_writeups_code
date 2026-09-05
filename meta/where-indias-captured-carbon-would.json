@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html",
   "slug": "where-indias-captured-carbon-would",
   "published": "2026-08-28T07:52:34.000+05:30",
-  "updated": "2026-09-05T21:16:50.709+05:30",
+  "updated": "2026-09-05T22:08:36.082+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 27792,
-  "sha256": "befa6a5d0e4e30f58b37735e6cde91ace4d94f283535518b7639612228487319",
+  "bytes": 26736,
+  "sha256": "f5a22496feda1787ecb49a186f871b7d8c2e3e761b5edcbb3f3ec9bd2cb2afe8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        27792,
+        26736
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }
