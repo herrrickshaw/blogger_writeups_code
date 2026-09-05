@@ -1,0 +1,358 @@
+<div class="artx fuelx">
+<style>/*gs-typo-unify-v1*/
+.fuelx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.fuelx h1,.fuelx h2,.fuelx h3{line-height:1.3}
+.fuelx p,.fuelx li{max-width:38rem}
+.fuelx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.fuelx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.fuelx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.fuelx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.fuelx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.fuelx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.fuelx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.fuelx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.fuelx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.fuelx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.fuelx .exhibit{margin:2.2rem 0}
+.fuelx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.fuelx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.fuelx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.fuelx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.fuelx .tw{overflow-x:auto}
+.fuelx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.fuelx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.fuelx thead th:first-child,.fuelx tbody td:first-child{text-align:left}
+.fuelx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.fuelx th,.fuelx td{white-space:nowrap}
+.fuelx tbody tr:last-child td{border-bottom:1px solid #000}
+.fuelx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.fuelx .note,.fuelx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.fuelx .warn{border-left-color:#db2b27}
+.fuelx a{color:#12408f}
+.fuelx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.fuelx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.fuelx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.fuelx img,.fuelx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">India runs a genuine refined-fuel surplus &mdash; US$53.0 billion of petroleum products out against US$9.3 billion in. But the biggest buyer is the Netherlands, not the neighbourhood, and Nepal and Bhutan are already supplied almost entirely by Indian public-sector refiners. On ethanol the premise reverses completely: India is a net importer.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Refining &middot; Petroleum trade &middot; Neighbourhood exports</p>
+<h1 style="order:3">India Sells the World $53 Billion of Fuel. Its Neighbours Buy 5% of It.</h1>
+</div>
+
+<div style="width:100%;margin:1.5rem 0;text-align:center">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5664000309261019" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5664000309261019" data-ad-slot="2886755424" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+</div>
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<text x="30" y="34" font-size="18" fill="#1a1a1a" font-weight="bold">Rotterdam, not Kathmandu</text>
+<text x="30" y="54" font-size="12.5" fill="#595959" font-family="-apple-system,Helvetica,Arial,sans-serif">Top destinations for Indian refined-petroleum exports, FY2025-26 (US$ million)</text>
+
+<g font-family="-apple-system,Helvetica,Arial,sans-serif" font-size="13">
+
+<text x="225" y="90" text-anchor="end" fill="#1a1a1a">Netherlands</text>
+<rect x="230" y="76" width="430" height="22" fill="#0b5794" />
+<text x="665" y="92" fill="#1a1a1a" font-weight="bold">8,435</text>
+
+<text x="225" y="128" text-anchor="end" fill="#1a1a1a">United Arab Emirates</text>
+<rect x="230" y="114" width="286" height="22" fill="#0b5794" />
+<text x="521" y="130" fill="#1a1a1a" font-weight="bold">5,612</text>
+
+<text x="225" y="166" text-anchor="end" fill="#1a1a1a">Singapore</text>
+<rect x="230" y="152" width="227" height="22" fill="#0b5794" />
+<text x="462" y="168" fill="#1a1a1a" font-weight="bold">4,444</text>
+
+<text x="225" y="204" text-anchor="end" fill="#1a1a1a">United States</text>
+<rect x="230" y="190" width="179" height="22" fill="#0b5794" />
+<text x="414" y="206" fill="#1a1a1a" font-weight="bold">3,502</text>
+
+<text x="225" y="242" text-anchor="end" fill="#1a1a1a">Tanzania</text>
+<rect x="230" y="228" width="154" height="22" fill="#0b5794" />
+<text x="389" y="244" fill="#1a1a1a" font-weight="bold">3,025</text>
+
+<text x="225" y="280" text-anchor="end" fill="#1a1a1a" font-weight="bold">Nepal + Sri Lanka + Bhutan</text>
+<rect x="230" y="266" width="141" height="22" fill="#1a8f4c" />
+<text x="376" y="282" fill="#1a1a1a" font-weight="bold">2,775</text>
+
+</g>
+
+<line x1="230" y1="66" x2="230" y2="298" stroke="#d9d9d9" stroke-width="1" />
+
+<text x="30" y="330" font-size="12" fill="#4a4a4a" font-family="-apple-system,Helvetica,Arial,sans-serif">
+  <tspan x="30" dy="0">India exported US$52,973 million of refined petroleum (HS 2710) in FY2025-26. The Netherlands alone took</tspan>
+  <tspan x="30" dy="16">15.9% of it &#8212; more than three times what Nepal, Sri Lanka and Bhutan bought combined (5.2%).</tspan>
+</text>
+<text x="30" y="366" font-size="10.5" fill="#8a8a8a" font-family="-apple-system,Helvetica,Arial,sans-serif">Source: DGCI&amp;S TRADESTAT, HS 2710 commodity-wise export data, FY2025-26</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">India's top five fuel-export markets each individually outbuy Nepal, Sri Lanka and Bhutan combined. Source: DGCI&amp;S TRADESTAT, HS 2710, FY2025-26.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Published <time datetime="2026-08-08" itemprop="datePublished">8 August 2026</time> &middot; v1.0.0 &middot; DGCI&amp;S TRADESTAT FY2024-25 and FY2025-26 &middot; PPAC consumption to July 2026</p>
+
+<div class="stats">
+<div class="stat"><b>US$53.0bn</b><span>Refined petroleum exports, HS 2710, FY2025-26</span></div>
+<div class="stat"><b>US$43.7bn</b><span>Net surplus after imports of the same chapter</span></div>
+<div class="stat"><b>5.2%</b><span>Share taken by Nepal, Sri Lanka and Bhutan combined</span></div>
+<div class="stat"><b>&minus;US$353m</b><span>India&rsquo;s net position on ethanol &mdash; a deficit</span></div>
+</div>
+
+<h2>The surplus is real</h2>
+<p class="h2sub">India buys crude and sells fuel, and the margin between them is one of the country&rsquo;s largest export earnings.</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5664000309261019"
+     data-ad-slot="1576854827"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+
+
+<p>Start with the claim itself, because it is the part that survives checking. Under HS Chapter heading 2710 &mdash; petroleum oils other than crude, which is where petrol, diesel, jet fuel and fuel oil sit &mdash; India exported <b>US$52,973 million</b> in FY2025-26 and imported <b>US$9,320 million</b>. That is a net surplus of <b>US$43,653 million</b>, and it is one of the largest single-chapter surpluses in Indian trade.</p>
+
+<p>Split by product, the surplus is diesel-led. Light oils, the petrol group, exported US$18,336 million. The heavier stream &mdash; diesel, jet fuel and fuel oil together &mdash; exported US$34,636 million, nearly twice as much.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">India&rsquo;s refined-petroleum trade, by product group</p>
+<p class="exsub">HS 2710 and its two main sub-headings. Export values only, except the chapter total which is shown against imports.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Product group</th><th>HS code</th><th>FY2024-25, US$ mn</th><th>FY2025-26, US$ mn</th><th>Change, %</th></tr></thead>
+<tbody>
+<tr><td>Light oils (petrol group)</td><td>271012</td><td>19,340</td><td>18,336</td><td>&minus;5.2</td></tr>
+<tr><td>Diesel, jet fuel, fuel oil</td><td>271019</td><td>43,149</td><td>34,636</td><td>&minus;19.7</td></tr>
+<tr><td><b>All refined petroleum, exports</b></td><td><b>2710</b></td><td><b>62,550</b></td><td><b>52,973</b></td><td><b>&minus;15.3</b></td></tr>
+<tr><td>All refined petroleum, imports</td><td>2710</td><td>9,671</td><td>9,320</td><td>&minus;3.6</td></tr>
+<tr><td><b>Net surplus</b></td><td><b>2710</b></td><td><b>52,879</b></td><td><b>43,653</b></td><td><b>&minus;17.4</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">DGCI&amp;S TRADESTAT, commodity-wise all-countries export and import queries, HS 2710 / 271012 / 271019, run 8 August 2026. Sub-heading totals do not sum to the chapter total because 2710 also contains lubricating oils, waste oils and other streams. Values are US$ million; TRADESTAT returned no quantity data for these queries, so everything here is value, not volume &mdash; a 15% fall in value is not a 15% fall in barrels when crude prices have moved.</p>
+</div>
+
+<div class="warn"><b>The surplus shrank by a sixth in one year.</b> Exports fell from US$62.6bn to US$53.0bn, and the diesel group alone lost US$8.5bn. Because TRADESTAT gave no tonnage for these lines, this article cannot separate price from volume, and the honest reading is that a large part of it is price. But the direction matters for any plan that assumes a growing pile of surplus fuel looking for buyers.</div>
+
+<h2>Where it actually goes</h2>
+<p class="h2sub">Rotterdam, not Kathmandu.</p>
+
+<p>The single largest destination for Indian refined petroleum is the <b>Netherlands</b>, at US$8,435 million &mdash; <b>15.9%</b> of the total, and almost all of it in the diesel-and-fuel-oil group. That is the Rotterdam trading hub, and it is the visible end of a well-documented trade: India buys discounted crude, refines it, and sells the product into a European market that stopped buying Russian refined fuel directly.</p>
+
+<p>The next four buyers are the United Arab Emirates, Singapore, the United States and Tanzania. The neighbourhood does not appear until well down the list.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">Top ten destinations for Indian refined petroleum, FY2025-26</p>
+<p class="exsub">HS 2710. &ldquo;Unspecified&rdquo; is TRADESTAT&rsquo;s own category for cargoes without a declared destination, most likely ship-to-ship or bunker sales.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Destination</th><th>Value, US$ mn</th><th>Share of exports, %</th></tr></thead>
+<tbody>
+<tr><td>Netherlands</td><td>8,435</td><td>15.9</td></tr>
+<tr><td>United Arab Emirates</td><td>5,612</td><td>10.6</td></tr>
+<tr><td>Singapore</td><td>4,444</td><td>8.4</td></tr>
+<tr><td>United States</td><td>3,502</td><td>6.6</td></tr>
+<tr><td>Tanzania</td><td>3,025</td><td>5.7</td></tr>
+<tr><td>Australia</td><td>2,673</td><td>5.0</td></tr>
+<tr><td>China</td><td>2,458</td><td>4.6</td></tr>
+<tr><td>Unspecified</td><td>2,418</td><td>4.6</td></tr>
+<tr><td>South Africa</td><td>1,882</td><td>3.6</td></tr>
+<tr><td>Togo</td><td>1,768</td><td>3.3</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">DGCI&amp;S TRADESTAT, HS 2710 commodity-wise all-countries export, FY2025-26, run 8 August 2026. Shares calculated against the summed all-partner total of US$52,973 million.</p>
+</div>
+
+<h2>The neighbourhood, measured</h2>
+<p class="h2sub">Not an opportunity to open. A market already held.</p>
+
+<p>Nepal, Sri Lanka and Bhutan together bought <b>US$2,775 million</b> of Indian refined petroleum in FY2025-26 &mdash; <b>5.2%</b> of exports. Add Bangladesh and it reaches 6.8%. These are real numbers and not trivial ones, but they describe a modest share of a very large trade, and they are not a frontier.</p>
+
+<p><b>Nepal and Bhutan are not open markets waiting to be entered; they are already supplied.</b> PPAC states the position plainly in the notes to its own import-export tables: <i>&ldquo;Nepal sales by IOCL, Nepal and Bhutan sales by BPCL are considered in total exports&rdquo;</i>. Indian public-sector refiners are not competing for these markets &mdash; they are the incumbent, effectively the sole supplier, and the trade is booked as an export of the parent company&rsquo;s own subsidiary sales. There is no share left to win. Nepal&rsquo;s purchases in fact <b>fell 5.3%</b> last year.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">Indian refined-petroleum exports to South Asian neighbours</p>
+<p class="exsub">HS 2710. Shares are of India&rsquo;s total refined-petroleum exports in the year shown.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Destination</th><th>FY2024-25, US$ mn</th><th>FY2025-26, US$ mn</th><th>Change, %</th><th>Share of exports, %</th></tr></thead>
+<tbody>
+<tr><td>Nepal</td><td>1,607</td><td>1,522</td><td>&minus;5.3</td><td>2.87</td></tr>
+<tr><td>Sri Lanka</td><td>777</td><td>1,013</td><td>+30.3</td><td>1.91</td></tr>
+<tr><td>Bangladesh</td><td>942</td><td>804</td><td>&minus;14.6</td><td>1.52</td></tr>
+<tr><td>Bhutan</td><td>201</td><td>240</td><td>+19.4</td><td>0.45</td></tr>
+<tr><td>Myanmar</td><td>6</td><td>14</td><td>+114.6*</td><td>0.03</td></tr>
+<tr><td>Maldives</td><td>10</td><td>8</td><td>&minus;18.7</td><td>0.02</td></tr>
+<tr><td><b>Nepal + Sri Lanka + Bhutan</b></td><td><b>2,585</b></td><td><b>2,775</b></td><td><b>+7.3</b></td><td><b>5.24</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">DGCI&amp;S TRADESTAT, HS 2710, FY2024-25 and FY2025-26, run 8 August 2026. TRADESTAT lists Sri Lanka as &ldquo;SRI LANKA DSR&rdquo; and Bangladesh as &ldquo;BANGLADESH PR&rdquo;. Combined-row change is computed on the two years shown, not averaged from the component percentages. *Myanmar&rsquo;s change is calculated from unrounded TRADESTAT values; the rounded figures shown (US$6mn to US$14mn) imply +133.3%.</p>
+</div>
+
+<div class="note"><b>Sri Lanka is the one genuine growth story here, and it is worth being precise about why that is not a template.</b> Purchases rose <b>30.3%</b> to just over a billion dollars, the fastest growth among the neighbours by a wide margin. Sri Lanka is also the only one of the three that buys refined petroleum from India while selling a little back &mdash; US$24.9 million of HS 2710 in the other direction. That is a trading relationship rather than a captive supply line, which is precisely what makes it capable of growing, and also what makes it competitive.</div>
+
+<h2>Ethanol: two surpluses, and only one of them is real</h2>
+<p class="h2sub">India has idle distilleries and an alcohol trade deficit at the same time. Both are true.</p>
+
+<p>The natural extension of a fuel-surplus argument is to add ethanol, and here the picture divides in a way that matters. There is a genuine and large surplus of <b>capacity</b>. There is no surplus of <b>traded product</b>. Confusing the two is what turns a real industrial problem into an export plan that the customs data cannot support.</p>
+
+<p><b>Start with what India actually ships.</b> In FY2025-26 India exported <b>US$54.3 million</b> of ethyl alcohol under HS 2207 and imported <b>US$407.2 million</b> &mdash; a net deficit of <b>US$352.9 million</b>. Imports came overwhelmingly from the <b>United States (US$381.4 million, 94%)</b>. Exports went mainly to Congo, Kenya and Tanzania. Exports to Nepal were <b>US$0.09 million</b>; Bhutan bought none and sold India marginally more than it bought. On the measure that records goods crossing a border, India is a buyer of alcohol, not a seller.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 4</p>
+<p class="extitle">India&rsquo;s ethyl alcohol trade &mdash; a net import position</p>
+<p class="exsub">HS 2207, all grades. This heading covers fuel, industrial and potable alcohol; the trade data does not separate them.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Direction</th><th>FY2024-25, US$ mn</th><th>FY2025-26, US$ mn</th><th>Largest counterpart FY2025-26</th></tr></thead>
+<tbody>
+<tr><td>Exports</td><td>60.2</td><td>54.3</td><td>Congo D.R. 10.5</td></tr>
+<tr><td>Imports</td><td>471.2</td><td>407.2</td><td>United States 381.4</td></tr>
+<tr><td><b>Net position</b></td><td><b>&minus;411.0</b></td><td><b>&minus;352.9</b></td><td>&mdash;</td></tr>
+<tr><td>Exports to Nepal</td><td>0.13</td><td>0.09</td><td>&mdash;</td></tr>
+<tr><td>Exports to Bhutan</td><td>0.00</td><td>0.00</td><td>&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">DGCI&amp;S TRADESTAT, HS 2207 commodity-wise all-countries export and import, run 8 August 2026. HS 2207 aggregates undenatured and denatured ethyl alcohol and does not distinguish fuel ethanol from industrial or potable grades, so this is the country&rsquo;s overall alcohol position rather than the blending programme specifically. The direction of the imbalance is unambiguous either way.</p>
+</div>
+
+<p><b>Now the capacity side, which points the other way.</b> CareEdge Ratings reported in May 2026 that installed ethanol capacity has passed <b>2,000 crore litres &mdash; 20 billion litres &mdash; with a further 400 crore litres (4 billion) expected</b>. Against that, the E20 blending programme absorbs roughly <b>1,100 crore litres (11 billion)</b> and non-fuel uses in chemicals, pharmaceuticals and liquor take <b>300&ndash;350 crore litres (3&ndash;3.5 billion)</b>. Distilleries are running at about <b>60%</b>, and CareEdge expects utilisation to stay capped at <b>65&ndash;75%</b> for the next three years while flex-fuel vehicle adoption remains gradual.</p>
+
+<div class="warn"><b>An arithmetic check on the widely quoted surplus.</b> The figure reported in press coverage is &ldquo;nearly 7 billion litres&rdquo; of unutilised capacity. Working from the components CareEdge itself gives &mdash; 20 billion litres of capacity against 11 billion of blending demand and 3&ndash;3.5 billion of non-fuel use &mdash; the arithmetic yields about <b>5.5 to 6 billion litres</b> today, reaching roughly <b>9.5 billion</b> once the additional 4 billion litres are commissioned. The 7 billion figure sits between those and presumably rests on a different base or a forward year. The components are the useful part; the headline number should be quoted with its source attached, not treated as a measured quantity.</div>
+
+<div class="note"><b>These are ratings-agency estimates, not official statistics</b>, and this blog does not use commercial data as a source for headline figures. The CareEdge numbers are reproduced here as attributed industry context because they describe something the customs data cannot see &mdash; installed capacity and utilisation &mdash; and the distinction they support is the point of this section. The trade figures above, which carry the argument, are DGCI&amp;S.</div>
+
+<p><b>The two findings are not in conflict, and read together they say something specific:</b> India has built distillery capacity well ahead of the demand that would run it, and the resulting idle capacity is not a stock of exportable litres. It is unused plant. Turning it into exports requires feedstock, a delivered price that competes, and buyers &mdash; none of which arrive because the capacity exists. Meanwhile PPAC&rsquo;s consumption reporting notes that <i>&ldquo;MS Consumption includes Ethanol Blending&rdquo;</i>: the ethanol India does produce is counted inside its petrol consumption, because that is where policy sends it. A blending programme is a mechanism for absorbing domestic ethanol, not for generating a surplus to sell.</p>
+
+<div class="note"><b>This is the same pattern as India&rsquo;s LNG terminals, and it is becoming a habit worth naming.</b> Regasification capacity runs at <b>47%</b> nationally while new terminals are commissioned; distilleries run at <b>60%</b> while another 4 billion litres of capacity is built. In both cases the asset was built ahead of the demand, in both cases the utilisation figure is falling as more capacity lands, and in both cases the proposed remedy is to find an export market for the shortfall. Idle capacity is a cheaper problem to create than to solve.</div>
+
+<h2>What the data supports</h2>
+<p class="h2sub">A different, smaller, more defensible claim.</p>
+
+<p>India is, on the evidence, already the refinery for its immediate neighbourhood, and has been for long enough that the arrangement is recorded in a footnote rather than announced as a strategy. That is a real position and worth defending. It is not, however, an untapped opportunity, and the numbers do not support treating it as one:</p>
+
+<ul>
+<li><b>Nepal and Bhutan are saturated.</b> Supply runs through IOCL and BPCL subsidiaries. Nepal&rsquo;s purchases fell last year. Growth here depends on Nepali and Bhutanese fuel demand, which India does not control.</li>
+<li><b>Sri Lanka is the live opportunity</b> &mdash; up 30.3%, and a competitive market rather than a captive one.</li>
+<li><b>Bangladesh went the other way</b>, down 14.6%, which is the reminder that a neighbour is not automatically a customer.</li>
+<li><b>The surplus is shrinking in value</b> and its centre of gravity is Rotterdam, a market exposed to European sanctions policy in a way the neighbourhood is not.</li>
+<li><b>Ethanol is a net import.</b> Any plan built on exporting it starts US$353 million in the wrong direction.</li>
+</ul>
+
+<p>The strongest version of the argument is not that India should start selling fuel to its neighbours. It is that India already does, that the position is quietly near-total in two of the three markets, and that the only one with room to grow is the one where India has to compete on price. That is a less rousing claim than the one usually made, and it has the advantage of matching the trade data.</p>
+
+<div class="note"><b>What this article does not establish.</b> Physical volumes: TRADESTAT returned no quantity figures for these queries, so every comparison here is in US dollars and a fall in value may be a fall in price rather than in barrels. Refining capacity and throughput are not examined. Nor is the delivered economics of any particular route &mdash; margins, freight and duty would decide whether a given cargo is worth moving, and none of that is in trade statistics. The ethanol figures cover HS 2207 in full and cannot isolate fuel-grade ethanol.</div>
+<p class="sources"><b>Sources.</b> Trade figures &mdash; <b>DGCI&amp;S TRADESTAT</b> (Directorate General of Commercial Intelligence and Statistics, Ministry of Commerce &amp; Industry), commodity-wise all-countries export and import queries for HS 2710, 271012, 271019 and 2207, FY2024-25 and FY2025-26, run 8 August 2026. All values are US$ million as returned by TRADESTAT; the quantity columns were empty for these queries, so no volume figures are used anywhere in this article. Partner totals are summed across all listed partners. Consumption and supply-side notes &mdash; <b>PPAC</b> (Petroleum Planning &amp; Analysis Cell, MoPNG): <i>Flash Report on Oil &amp; Gas, July 2026</i> for petrol and diesel consumption, and the notes to PPAC&rsquo;s import-export tables for the treatment of Nepal and Bhutan sales. Ethanol capacity and utilisation &mdash; <b>CareEdge Ratings</b>, May 2026, as reported in trade press; these are a commercial ratings agency&rsquo;s estimates, are attributed as such in the text, and are not used for any headline figure. Every other number on this page comes from official statistics.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

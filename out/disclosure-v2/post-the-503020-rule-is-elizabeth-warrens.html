@@ -1,0 +1,286 @@
+<div class="artx mdrx">
+<style>/*gs-typo-unify-v1*/
+.mdrx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.mdrx h1,.mdrx h2,.mdrx h3{line-height:1.3}
+.mdrx p,.mdrx li{max-width:38rem}
+.mdrx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.mdrx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.mdrx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.mdrx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.mdrx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.mdrx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.mdrx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.mdrx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.mdrx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.mdrx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.mdrx .exhibit{margin:2.2rem 0}
+.mdrx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.mdrx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.mdrx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.mdrx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.mdrx .tw{overflow-x:auto}
+.mdrx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.mdrx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.mdrx thead th:first-child,.mdrx tbody td:first-child{text-align:left}
+.mdrx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.mdrx th,.mdrx td{white-space:nowrap}
+.mdrx tbody tr:last-child td{border-bottom:1px solid #000}
+.mdrx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.mdrx .note,.mdrx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.mdrx .warn{border-left-color:#db2b27}
+.mdrx a{color:#12408f}
+.mdrx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.mdrx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.mdrx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.mdrx img,.mdrx svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">The 50/30/20 budgeting rule &mdash; 50% needs, 30% wants, 20% savings &mdash; is one of the most-cited rules of thumb in personal finance, built to be simple enough to use without a spreadsheet. But the rule assumes savings gets whatever is left over after needs and wants are paid. A different, more aggressive school of budgeting inverts that order entirely: save first, and let needs and wants split whatever remains. This article covers both &mdash; where the standard 50/30/20 rule comes from, and what it actually means to flip it and save 50% before anything else.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Personal Finance &middot; Budgeting</p>
+<h1 style="order:3">The 50/30/20 Rule &mdash; and the Case for Flipping It to Save First</h1>
+</div>
+
+<div style="width:100%;margin:1.5rem 0;text-align:center">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5664000309261019" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5664000309261019" data-ad-slot="2886755424" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+</div>
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+
+  <text x="40" y="40" font-size="19" fill="#1a1a1a" font-weight="bold">Two Budgeting Sequences, Same Three Categories</text>
+  <text x="40" y="61" font-size="12.5" fill="#595959" font-style="italic">Share of after-tax income funded to savings, by approach</text>
+
+  
+  <g font-family="-apple-system, Helvetica, Arial, sans-serif">
+    <line x1="140" y1="90" x2="140" y2="300" stroke="#999" stroke-width="1" />
+    <line x1="140" y1="300" x2="660" y2="300" stroke="#999" stroke-width="1" />
+    
+    <g stroke="#e2e2e2" stroke-width="1">
+      <line x1="140" y1="90" x2="140" y2="300" />
+      <line x1="244" y1="90" x2="244" y2="300" />
+      <line x1="348" y1="90" x2="348" y2="300" />
+      <line x1="452" y1="90" x2="452" y2="300" />
+      <line x1="556" y1="90" x2="556" y2="300" />
+      <line x1="660" y1="90" x2="660" y2="300" />
+    </g>
+    <g font-size="11" fill="#595959">
+      <text x="140" y="316" text-anchor="middle">0%</text>
+      <text x="244" y="316" text-anchor="middle">20%</text>
+      <text x="348" y="316" text-anchor="middle">40%</text>
+      <text x="452" y="316" text-anchor="middle">60%</text>
+      <text x="556" y="316" text-anchor="middle">80%</text>
+      <text x="660" y="316" text-anchor="middle">100%</text>
+    </g>
+  </g>
+
+  
+  <g>
+    <text x="130" y="150" text-anchor="end" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="600">Standard</text>
+    <text x="130" y="166" text-anchor="end" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="600">50/30/20</text>
+    <rect x="140" y="130" width="104" height="44" fill="#0b5794" />
+    <text x="192" y="148" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#fff" font-weight="700">Savings</text>
+    <text x="192" y="160" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#fff" font-weight="700">20%</text>
+  </g>
+
+  <g>
+    <text x="130" y="240" text-anchor="end" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="600">Save-first /</text>
+    <text x="130" y="256" text-anchor="end" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="13" fill="#1a1a1a" font-weight="600">FIRE flip</text>
+    
+    <rect x="400" y="220" width="130" height="44" fill="#0b5794" />
+    <text x="465" y="242" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#fff" font-weight="700">Savings</text>
+    <text x="465" y="254" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="11" fill="#fff" font-weight="700">50–75%</text>
+    
+    <rect x="530" y="220" width="130" height="44" fill="#eef1f3" stroke="#c7cbd1" stroke-width="1" stroke-dasharray="3,3" />
+    <text x="595" y="242" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="10" fill="#8a8f94">further</text>
+    <text x="595" y="253" text-anchor="middle" font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="10" fill="#8a8f94">compressed</text>
+  </g>
+
+  
+  <g font-family="-apple-system, Helvetica, Arial, sans-serif" font-size="10.5" fill="#595959">
+    <rect x="140" y="330" width="12" height="12" fill="#dfe3e6" />
+    <text x="158" y="340">Needs / Wants</text>
+    <rect x="290" y="330" width="12" height="12" fill="#0b5794" />
+    <text x="308" y="340">Savings &amp; investing</text>
+    <text x="470" y="340" font-style="italic">Source: Warren &amp; Warren Tyagi (2005); commonly cited FIRE-movement range</text>
+  </g>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Two sequences, same three categories — the standard rule funds savings last (20%); the FIRE-style flip funds it first (50-75%).</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Published <time datetime="2026-08-10" itemprop="datePublished">10 August 2026</time> &middot; v1.0.0</p>
+
+<div class="stats">
+<div class="stat"><b>2005</b><span>Year Elizabeth Warren and Amelia Warren Tyagi published the book introducing the 50/30/20 rule</span></div>
+<div class="stat"><b>50% &middot; 30% &middot; 20%</b><span>Needs, wants, and savings/investing as shares of after-tax income, per the original rule</span></div>
+<div class="stat"><b>50&ndash;75%</b><span>The savings-rate range commonly cited by the FIRE (Financial Independence, Retire Early) movement, which built its approach around flipping the ratio</span></div>
+<div class="stat"><b>1</b><span>The core principle behind both approaches: fix your savings rate deliberately, up front, rather than saving whatever happens to be left over at the end of the month</span></div>
+</div>
+
+<div class="warn"><b>This is an explainer, not an advisory.</b> Nothing in this article tells you what percentage of your own income to save. Whether a 20% savings rate or a 50%-first approach fits your situation depends on your income, expenses, debt and goals &mdash; a personal question this article doesn't answer. For an actual plan, a SEBI-registered investment adviser or a certified financial planner is the right resource, not a blog post.</div>
+
+<h2>The standard rule, and where it came from</h2>
+<p class="h2sub">A bankruptcy researcher's answer to why middle-class families kept going broke.</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5664000309261019"
+     data-ad-slot="1576854827"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+
+
+<p>The 50/30/20 rule was introduced by Senator Elizabeth Warren, then a Harvard bankruptcy-law professor, and her daughter Amelia Warren Tyagi in their 2005 book <i>All Your Worth: The Ultimate Lifetime Money Plan</i>. It followed years of research into why household bankruptcies kept rising even as incomes grew &mdash; their finding was that most families had no clear, simple sense of what they could actually afford, and needed a rule of thumb rather than a spreadsheet. The framework splits after-tax income into three buckets:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">The 50/30/20 rule, as originally framed</p>
+<p class="exsub">All shares are of after-tax (take-home) income, not gross salary.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Category</th><th>Share of after-tax income, %</th><th>What it covers</th></tr></thead>
+<tbody>
+<tr><td>Needs</td><td>50</td><td>Housing/rent, groceries, basic utilities, transport to work, insurance, minimum loan/EMI payments &mdash; costs with real consequences if unpaid</td></tr>
+<tr><td>Wants</td><td>30</td><td>Dining out, entertainment, shopping, hobbies, vacations &mdash; lifestyle spending that isn't essential to keep living and working</td></tr>
+<tr class="hl"><td><b>Savings &amp; investing</b></td><td><b>20</b></td><td><b>Debt repayment beyond the minimum, an emergency fund, retirement contributions, and other wealth-building investments</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Elizabeth Warren &amp; Amelia Warren Tyagi, <i>All Your Worth: The Ultimate Lifetime Money Plan</i>, Free Press, 2005; category definitions as commonly summarised in subsequent financial-literacy coverage of the book's framework.</p>
+</div>
+
+<h2>Flipping it: save 50% first, let the rest fit around it</h2>
+<p class="h2sub">The core idea behind the FIRE movement's savings benchmark &mdash; and the arithmetic reason it works.</p>
+
+<p>The most-cited version of &ldquo;flip the rule and save first&rdquo; comes from the FIRE (Financial Independence, Retire Early) movement, which traces much of its thinking to Vicki Robin and Joe Dominguez's book <i>Your Money or Your Life</i>. Where the standard 50/30/20 rule treats the 20% savings share as what's left after needs and wants are paid, the FIRE approach inverts the sequence: <b>savings comes out first &mdash; commonly cited in the 50% to 75% of income range &mdash; and needs and wants are funded from whatever remains.</b> The underlying logic is arithmetic rather than moral: since needs and wants together consume less of your income once savings has already been carved out at source, spending has to compress into a smaller share almost automatically, rather than being negotiated down bill by bill.</p>
+
+<p>The reason this is described as a &ldquo;flip&rdquo; rather than just a bigger savings number is the sequencing, not only the percentage. Under the standard rule, savings is whatever is left after needs and wants are paid &mdash; if a month runs tight, savings is usually the line item that shrinks or disappears, because it's the last thing funded. Under a save-first approach, the savings transfer happens automatically before any spending decision is made &mdash; often on payday, before the money is even visible in a spending account &mdash; so needs and wants have to be met from what's left, not the other way around. The core principle underneath both approaches is the same: <b>save more than you merely have left over, by making saving the deliberate first step rather than the accidental last one.</b></p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">Two sequences, same three categories</p>
+<p class="exsub">The percentages shown for the save-first approach are the commonly cited FIRE-movement range, not a universal figure.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Approach</th><th>What's funded first</th><th>Typical savings share, %</th></tr></thead>
+<tbody>
+<tr><td>Standard 50/30/20</td><td>Needs, then wants; savings is what's left</td><td>20</td></tr>
+<tr class="hl"><td><b>Save-first / FIRE-style flip</b></td><td><b>Savings, transferred out first; needs and wants split what's left</b></td><td><b>50&ndash;75</b></td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Standard rule &mdash; Elizabeth Warren &amp; Amelia Warren Tyagi, <i>All Your Worth</i>, 2005. Save-first range &mdash; commonly cited FIRE-movement benchmark, with roots in Vicki Robin &amp; Joe Dominguez, <i>Your Money or Your Life</i>; the 50&ndash;75% figure is a widely reported community range, not a rule set by any single source.</p>
+</div>
+
+<div class="note"><b>What this article does not establish.</b> Whether a 50%+ savings rate is achievable for a given income level and cost of living &mdash; the FIRE movement's benchmark developed largely in the context of relatively high-income earners in high-cost countries deliberately compressing discretionary spending, and this article does not claim the same percentage is realistic across all income levels or geographies. The exact origin or first use of the specific phrase &ldquo;flip the 50/30/20 rule&rdquo; &mdash; this article describes the underlying save-first sequencing concept, which is well documented, without claiming a single named originator for that exact phrasing. Tax treatment, investment vehicle choice, or emergency-fund sizing for either approach &mdash; both are described here purely as budgeting sequences (what gets funded first), not as investment or tax guidance.</div>
+
+<p class="sources"><b>Sources.</b> 50/30/20 rule origin, 2005 publication date and category definitions &mdash; Elizabeth Warren &amp; Amelia Warren Tyagi, <i>All Your Worth: The Ultimate Lifetime Money Plan</i>, Free Press, 2005, as summarised in subsequent financial-literacy coverage of the book. FIRE movement's 50&ndash;75% savings-rate benchmark and its roots in reverse/pay-yourself-first budgeting &mdash; general personal-finance coverage of the FIRE movement, and Vicki Robin &amp; Joe Dominguez, <i>Your Money or Your Life</i>, as commonly cited as a foundational influence on the movement's thinking; this article did not independently trace the exact 50&ndash;75% figure to one single primary FIRE-community source and presents it as the commonly reported range.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

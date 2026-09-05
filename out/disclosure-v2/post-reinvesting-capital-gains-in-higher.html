@@ -1,0 +1,347 @@
+<div class="artx bnd">
+<style>/*gs-typo-unify-v1*/
+.bnd{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.bnd h1,.bnd h2,.bnd h3{line-height:1.3}
+.bnd p,.bnd li{max-width:38rem}
+.bnd .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.bnd h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.bnd .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.bnd h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.bnd .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.bnd h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.bnd .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.bnd .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.bnd .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.bnd .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.bnd .exhibit{margin:2.2rem 0}
+.bnd .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.bnd .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.bnd .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.bnd .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.bnd .tw{overflow-x:auto}
+.bnd table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.bnd thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.bnd thead th:first-child,.bnd tbody td:first-child{text-align:left}
+.bnd tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.bnd th,.bnd td{white-space:nowrap}
+.bnd tbody tr:last-child td{border-bottom:1px solid #000}
+.bnd tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.bnd .note,.bnd .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.bnd .warn{border-left-color:#db2b27}
+.bnd a{color:#12408f}
+.bnd .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.bnd .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.bnd .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.bnd img,.bnd svg{max-width:100%;height:auto}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">Section 54EC lets a property seller shelter &#8377;50 lakh of long-term capital gains by parking them in PSU bonds paying 5.25%. The RBI&rsquo;s own savings bond pays 8.05%. That comparison is a category error &mdash; but running it properly does not vindicate the instrument. It shows that most of the exemption is taken back through the coupon, and that the entity capturing it is the issuer.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Taxation &middot; Bond markets &middot; Public finance</p>
+<h1 style="order:3">The &#8377;6.5 Lakh Exemption Where the Investor Keeps &#8377;2.25 Lakh</h1>
+</div>
+
+<div style="width:100%;margin:1.5rem 0;text-align:center">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5664000309261019" crossorigin="anonymous"></script>
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5664000309261019" data-ad-slot="2886755424" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+</div>
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#ffffff" />
+<text x="40" y="40" font-size="19" fill="#1a1a1a" font-weight="bold">Where the &#8377;6.5 lakh Section 54EC exemption goes</text>
+<text x="40" y="61" font-size="12.5" fill="#595959" font-style="italic">On a &#8377;50 lakh gain, five-year lock, 12.5% LTCG + 4% cess</text>
+
+
+<line x1="220" y1="90" x2="220" y2="330" stroke="#d9d9d9" stroke-width="1" />
+
+
+<text x="210" y="120" font-size="13.5" fill="#1a1a1a" text-anchor="end">Tax exemption granted</text>
+<rect x="220" y="103" width="422" height="34" fill="#0b5794" />
+<text x="652" y="126" font-size="15" fill="#0b5794" font-weight="bold">&#8377;6.50L</text>
+
+
+<text x="210" y="182" font-size="13.5" fill="#1a1a1a" text-anchor="end">Captured by issuer</text>
+<text x="210" y="198" font-size="11.5" fill="#595959" text-anchor="end">(below-market coupon)</text>
+<rect x="220" y="165" width="276" height="34" fill="#db2b27" />
+<text x="506" y="188" font-size="15" fill="#db2b27" font-weight="bold">&#8377;4.25L</text>
+
+
+<text x="210" y="253" font-size="13.5" fill="#1a1a1a" text-anchor="end">Reaches the investor</text>
+<rect x="220" y="227" width="146" height="34" fill="#1a8f4c" />
+<text x="376" y="250" font-size="15" fill="#1a8f4c" font-weight="bold">&#8377;2.25L (34.6%)</text>
+
+
+<line x1="220" y1="330" x2="642" y2="330" stroke="#1a1a1a" stroke-width="1" />
+<text x="220" y="348" font-size="11" fill="#595959" text-anchor="middle">0</text>
+<text x="349" y="348" font-size="11" fill="#595959" text-anchor="middle">&#8377;3.25L</text>
+<text x="478" y="348" font-size="11" fill="#595959" text-anchor="middle">&#8377;6.5L</text>
+
+<text x="40" y="368" font-size="11" fill="#595959">Source: author&#8217;s model, Exhibit 1 &amp; text (masaladeutsch.blogspot.com)</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Of the ₹6.5 lakh tax exemption Section 54EC grants, ₹4.25 lakh is clawed back through the below-market 5.25% coupon — the investor keeps ₹2.25 lakh, or 34.6% of the headline figure.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+<span class="gs-a11y-sep"></span>
+<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
+<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
+<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
+<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-07" itemprop="dateModified">7 August 2026</time> &middot; v1.0.0</p>
+
+<div class="stats">
+<div class="stat"><b>5.25%</b><span>Coupon on 54EC bonds, uniform across all five notified issuers, July 2026</span></div>
+<div class="stat"><b>9.92%</b><span>Pre-tax yield an alternative must earn to match 54EC over five years, 30% slab</span></div>
+<div class="stat"><b>&#8377;4.25L</b><span>Value transferred from investor to issuer via the below-market coupon</span></div>
+<div class="stat"><b>&#8377;34.0L</b><span>What the unchanged &#8377;50 lakh cap is worth in FY2014-15 wholesale prices</span></div>
+</div>
+
+<h2>The wrong comparison</h2>
+<p class="h2sub">5.25% against 8.05% is not a yield gap. It is two different questions.</p>
+<ins class="adsbygoogle"
+     style="display:block; text-align:center;"
+     data-ad-layout="in-article"
+     data-ad-format="fluid"
+     data-ad-client="ca-pub-5664000309261019"
+     data-ad-slot="1576854827"></ins>
+<script>window.addEventListener('load', function() { try { (adsbygoogle = window.adsbygoogle || []).push({}); } catch(e) {} });</script>
+
+
+<p>Sell a plot of land at a gain and there are two broad routes. Invest the gain in bonds notified under Section 54EC of the Income-tax Act and the long-term capital gains tax does not fall due; the money is locked for five years at 5.25%. Or pay the tax and put what is left anywhere, including the RBI Floating Rate Savings Bond 2020 (Taxable), which pays 8.05% for July&ndash;December 2026 and is sovereign.</p>
+
+<p>Comparing the coupons puts 54EC 280 basis points behind and ends the discussion. That is the wrong test, because 54EC&rsquo;s benefit is not a coupon at all. It is a <b>one-time increase in the capital you get to deploy</b>. At a 12.5% LTCG rate plus 4% cess &mdash; an effective 13.0% &mdash; the choice on a &#8377;50 lakh gain is between compounding &#8377;50.00 lakh at 5.25% and compounding &#8377;43.50 lakh at 8.05%. The only honest comparison is terminal wealth.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">Nothing investment-grade beats the shield over five years</p>
+<p class="exsub">&#8377;L = &#8377; lakh. &#8377;50 lakh long-term gain on land or building; 12.5% LTCG + 4% cess; interest taxed at a 30% slab + cess; coupons reinvested at 5.54% post-tax; five-year horizon.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Route</th><th>Credit</th><th>Yield, %</th><th>Deployed, &#8377;L</th><th>Terminal, &#8377;L</th><th>vs 54EC, &#8377;L</th></tr></thead>
+<tbody>
+<tr><td>[Policy] 54EC at market coupon</td><td>AAA PSU</td><td>7.46</td><td>50.00</td><td>64.33</td><td>+4.25</td></tr>
+<tr><td>BBB-rated NCD</td><td>BBB</td><td>12.25</td><td>43.50</td><td>63.98</td><td>+3.89</td></tr>
+<tr><td>A-rated NCD</td><td>A</td><td>10.50</td><td>43.50</td><td>61.05</td><td>+0.96</td></tr>
+<tr class="hl"><td>Section 54EC bonds</td><td>AAA PSU</td><td>5.25</td><td>50.00</td><td>60.09</td><td>&mdash;</td></tr>
+<tr><td>AA corporate / NBFC</td><td>AA</td><td>8.75</td><td>43.50</td><td>58.13</td><td>&minus;1.96</td></tr>
+<tr><td>RBI Floating Rate Savings Bond</td><td>Sovereign</td><td>8.05</td><td>43.50</td><td>56.96</td><td>&minus;3.13</td></tr>
+<tr><td>AAA corporate</td><td>AAA</td><td>7.65</td><td>43.50</td><td>56.29</td><td>&minus;3.80</td></tr>
+<tr><td>Tax-free PSU bonds, secondary</td><td>AAA PSU</td><td>5.15 tax-free</td><td>43.50</td><td>56.01</td><td>&minus;4.07</td></tr>
+<tr><td>AAA PSU corporate</td><td>AAA</td><td>7.46</td><td>43.50</td><td>55.97</td><td>&minus;4.12</td></tr>
+<tr><td>Debt mutual fund, accrual</td><td>AAA</td><td>7.06</td><td>43.50</td><td>55.67</td><td>&minus;4.42</td></tr>
+<tr><td>10-year G-sec</td><td>Sovereign</td><td>6.84</td><td>43.50</td><td>54.93</td><td>&minus;5.15</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s model. Coupon income only; credit risk is not priced. The policy row is hypothetical and not purchasable. Yields as at early August 2026 &mdash; see sources.</p>
+</div>
+
+<p>So the instrument survives its own bad press. On a five-year view, the tax shield is worth more than 280 basis points of coupon, and every investment-grade alternative loses to it. The 54EC route ends at &#8377;60.09 lakh; the RBI bond, the obvious &ldquo;higher-yielding&rdquo; answer, ends &#8377;3.13 lakh behind despite paying half again as much interest.</p>
+
+<h2>The breakeven</h2>
+<p class="h2sub">To beat it you have to buy credit risk, not yield.</p>
+
+<p>The number that matters is the pre-tax yield an alternative must earn to reach &#8377;60.09 lakh from a post-tax &#8377;43.50 lakh base. At a 30% slab over five years it is <b>9.92%</b>. Nothing rated AAA or AA in the Indian market clears that. A-rated paper does, at 9.5&ndash;11.5%, which is the point: the crossover sits <i>inside</i> the ratings band where default becomes a real possibility, and this model does not price default at all. An A-rated NCD beating 54EC by &#8377;0.96 lakh is not an edge; it is compensation for a risk the table refuses to quantify.</p>
+
+<p>The breakeven is also not stable. The shield is a one-time head start, so stretching the horizon dilutes it:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">The advantage decays with time and with the slab rate</p>
+<p class="exsub">Pre-tax yield an alternative must earn to match 54EC, by marginal slab rate and holding period.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Marginal slab rate, %</th><th>5 years, %</th><th>7 years, %</th><th>10 years, %</th></tr></thead>
+<tbody>
+<tr><td>5</td><td>8.74</td><td>7.82</td><td>7.14</td></tr>
+<tr><td>20</td><td>9.36</td><td>8.26</td><td>7.44</td></tr>
+<tr><td>30</td><td>9.92</td><td>8.66</td><td>7.72</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s model, same assumptions as Exhibit 1 with the slab rate and horizon varied. Cess of 4% applied to both taxes throughout.</p>
+</div>
+
+<p>At ten years the breakeven falls to 7.72% and AA paper clears it. The instrument is strongest exactly at its lock-in length and weakens after &mdash; which is the opposite of how it is usually sold.</p>
+
+<h2>Where the exemption actually goes</h2>
+<p class="h2sub">&#8377;6.5 lakh is granted. &#8377;4.25 lakh comes straight back.</p>
+
+<p>Here is the part that changes what the instrument is. Nothing in Section 54EC sets the coupon at 5.25%. The statute is silent on pricing; the rate is set by each issuer&rsquo;s board. REC and PFC raise five-year AAA paper in the market at around 7.46%. The 54EC window hands them the same money at 5.25% &mdash; roughly <b>220 basis points below market</b>.</p>
+
+<p>Price that gap. Repricing 54EC at 7.46% with everything else unchanged lifts the terminal value from &#8377;60.09 lakh to <b>&#8377;64.33 lakh</b>. The difference, <b>&#8377;4.25 lakh</b>, is what the below-market coupon costs the investor over the five-year lock &mdash; on identical credit, identical liquidity, identical tenure. Against the &#8377;6.50 lakh of tax the exemption saved, the investor keeps <b>&#8377;2.25 lakh</b>, or 34.6% of the headline number. The rest is captured by five public-sector issuers as cheap funding.</p>
+
+<p>Read against the honest alternative &mdash; pay the tax, buy AAA PSU paper at 7.46% &mdash; the investor is &#8377;4.12 lakh ahead. That is the real, decision-relevant benefit of Section 54EC: not &#8377;6.5 lakh, and not a 280-basis-point sacrifice either, but about &#8377;4 lakh on a &#8377;50 lakh gain.</p>
+
+<div class="note"><b>Two ways to say the same thing.</b> &#8377;6.50 lakh is the tax forgone by the exchequer. &#8377;2.25 lakh is what reaches the taxpayer. The gap is not waste &mdash; it is a transfer to infrastructure and renewable-energy lenders, financed by the person selling the property rather than by the Budget. Whether that is good policy is a separate question from whether it is described honestly, and it is currently not described honestly by anyone.</div>
+
+<h2>The gate is a notification, not the Act</h2>
+<p class="h2sub">It has already been opened twice in the last eighteen months.</p>
+
+<p>The obvious reform ask &mdash; let capital gains go into something that yields more &mdash; sounds like it needs Parliament. It does not. The Explanation to Section 54EC defines a &ldquo;long-term specified asset&rdquo; as a bond redeemable after five years issued by NHAI or REC, <i>or any other bond notified by the Central Government in this behalf</i>. That notification power is live and in recent use:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">The notified set has grown from two issuers to five</p>
+<p class="exsub">Bonds qualifying as a long-term specified asset under Section 54EC, and the instrument&rsquo;s scope.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Change</th><th>Effective</th><th>Instrument</th></tr></thead>
+<tbody>
+<tr><td>NHAI and REC named in the statute</td><td>&mdash;</td><td>Explanation to s.54EC</td></tr>
+<tr><td>&#8377;50 lakh per financial year cap, aggregated across years</td><td>FY2014-15</td><td>Finance (No. 2) Act 2014</td></tr>
+<tr><td>PFC added</td><td>15 Jun 2017</td><td>CBDT Notification 47/2017</td></tr>
+<tr><td>IRFC added</td><td>8 Aug 2017</td><td>CBDT Notification 79/2017</td></tr>
+<tr><td>Scope narrowed to land and building only</td><td>1 Apr 2018</td><td>Finance Act 2018</td></tr>
+<tr><td>HUDCO added</td><td>1 Apr 2025</td><td>CBDT Notification 31/2025</td></tr>
+<tr><td>IREDA added, renewable-energy end-use only</td><td>9 Jul 2025</td><td>CBDT notification; PIB release 2143668</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">NHAI stopped issuing 54EC bonds in 2022; the five currently issuing are REC, PFC, IRFC, HUDCO and IREDA.</p>
+</div>
+
+<p>The IREDA notification is the useful precedent. It came with a condition &mdash; proceeds may fund only renewable-energy projects capable of servicing debt from their own revenues, without relying on State Government support &mdash; which shows CBDT is willing to attach end-use tests rather than simply admitting a new borrower. The template for widening the set already exists and was used fifteen months ago.</p>
+
+<p>But widening the set does not, by itself, raise the coupon. All five issuers price at exactly 5.25%, and that uniformity is structural rather than coincidental: with a &#8377;50 lakh cap per PAN per year, a single issuer offering 5.50% would capture the entire flow. Competition on coupon cannot emerge from a capped, undifferentiated instrument. Only a rule can move it.</p>
+
+<h2>The cap that has not moved in twelve years</h2>
+<p class="h2sub">&#8377;50 lakh in 2014 money is &#8377;34 lakh today.</p>
+
+<p>The &#8377;50 lakh ceiling was set by the Finance (No. 2) Act 2014 and has not been revised since. Deflating it by this blog&rsquo;s own wholesale price series &mdash; all-commodities WPI on the 2011-12 base, 114.1 in April 2014 against 167.6 in April 2026 &mdash; the cap is worth <b>&#8377;34.0 lakh</b> in the prices of the year it was written, an erosion of 31.9%. Measured against urban property prices rather than wholesale goods, the erosion is far steeper, because the asset class the section exists to serve is exactly the one that has outrun the index.</p>
+
+<p>The cap is also the reason the coupon question matters at all. If it were &#8377;5 crore, a 220-basis-point discount would be a large transfer. At &#8377;50 lakh it is capped at about &#8377;4.25 lakh per taxpayer per year &mdash; small individually, and the aggregate depends on take-up that is not published.</p>
+
+<h2>What a reform ask would look like</h2>
+<p class="h2sub">Four changes, none needing an amendment to the Act.</p>
+
+<p><b>1. A coupon formula instead of a board decision.</b> Notify future issuers subject to a pricing rule &mdash; the five-year G-sec less a fixed spread, reset half-yearly, on the model the RBI already uses for the Floating Rate Savings Bond (NSC rate plus 35 basis points). This keeps the subsidy to the issuer but caps the clawback at a published number instead of leaving it to be discovered by arithmetic.</p>
+
+<p><b>2. Widen the notified set with end-use conditions.</b> NaBFID and municipal bonds are the obvious candidates. The HUDCO and IREDA notifications show the mechanism and the conditionality template both work.</p>
+
+<p><b>3. Index the &#8377;50 lakh cap.</b> Twelve years without revision is a real-terms cut of roughly a third that no one has had to vote for.</p>
+
+<p><b>4. Allow transferability after the lock-in.</b> 54EC bonds are non-transferable and cannot be pledged, so the five-year lock is absolute. Permitting transfer after year five costs the exchequer nothing &mdash; the exemption has already vested &mdash; and restores an exit.</p>
+
+<h2>What this model does not do</h2>
+<p class="h2sub">Four limits, stated before anyone quotes the table.</p>
+
+<p><b>Credit risk is not priced.</b> This is the largest limitation and it points in one direction: it flatters everything below AAA. A BBB NCD appears &#8377;3.89 lakh ahead of 54EC because the model treats a 12.25% coupon as certain. It is not.</p>
+
+<p><b>Coupon income only.</b> Price appreciation on listed bonds is excluded. Listed bonds held over twelve months attract 12.5% LTCG on gains; unlisted bonds and market-linked debentures are deemed short-term under Section 50AA and taxed at slab regardless of holding period. 54EC bonds and the RBI FRSB are non-transferable, so no capital gains event can arise on either.</p>
+
+<p><b>A floating rate is held flat.</b> The RBI bond&rsquo;s 8.05% resets every 1 January and 1 July at the NSC rate plus 35 basis points. Running it flat for five years is an assumption, not a forecast, and it is the same mistake this blog flagged in <a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">the wholesale-price series</a>: a rate that held steady through a calm stretch is not a description of the next five years. If NSC rates fall, the FRSB row weakens and 54EC&rsquo;s lead widens.</p>
+
+<p><b>One yield in the table is a resolved conflict and one is an estimate.</b> Secondary-market yields on tax-free PSU bonds were quoted by two credible sources roughly 100 basis points apart. Checking live ISIN-level quotes settles it near the lower end &mdash; a PFC 8.67% 2033 at about 5.2% and an IRFC 8.63% 2029 at about 5.11% &mdash; so 5.15% is used here, which moves tax-free PSU bonds from fourth place to eighth. State Development Loans were dropped from the table entirely because the only figure available was a spread estimate with no primary quote behind it.</p>
+
+<div class="warn"><b>This is not investment advice.</b> Nothing here is a recommendation to buy or sell any instrument, and the author is not a registered investment adviser. Section 54EC applies only to long-term gains on land or building &mdash; equity, mutual funds, gold and unlisted shares have been outside it since 1 April 2018 &mdash; and Section 54F may dominate both routes examined here for a taxpayer willing to hold residential property. Tax outcomes depend on facts this piece does not know. Verify every figure against the cited primary source and take professional advice before acting.</div>
+
+<p class="sources"><b>Sources.</b> Section 54EC text, the &#8377;50 lakh cap (Finance (No. 2) Act 2014) and the restriction to land and building (Finance Act 2018) &mdash; Income-tax Act 1961, via the Income Tax Department. IREDA notified as a long-term specified asset with effect from 9 July 2025 &mdash; Press Information Bureau, Ministry of New and Renewable Energy, release 2143668, 10 July 2025, <a href="https://www.pib.gov.in/PressReleasePage.aspx?PRID=2143668">pib.gov.in</a>; HUDCO added by CBDT Notification 31/2025 with effect from 1 April 2025. RBI Floating Rate Savings Bond 2020 (Taxable) at 8.05% for 1 July to 31 December 2026, set as the NSC rate of 7.70% plus a 35 basis point spread &mdash; Reserve Bank of India half-yearly reset. 54EC coupon of 5.25% across REC, PFC, IRFC, HUDCO and IREDA as at July 2026 &mdash; issuer boards, cross-checked across multiple bond-platform advisories; these are secondary sources and the rate is reset by each issuer on new tranches. Ten-year benchmark G-sec at 6.84&ndash;6.85%, early August 2026 &mdash; market data. Corporate rating-band yields are market ranges, not quotes, and are labelled as such. Wholesale price indices &mdash; Office of the Economic Adviser, DPIIT, base 2011-12. Terminal values, breakevens and the clawback figure are the author&rsquo;s own calculation on the assumptions stated in Exhibit 1; the model was validated by reproducing the 54EC and RBI-bond cases independently before the remaining instruments were added.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
