@@ -276,6 +276,18 @@ def verify_live(url, needle=None, absent=None):
     return True, f"{len(out):,} bytes"
 
 
+def verify_stored(content, probe):
+    """Fallback for runners that cannot reach the public blog at all (e.g. a
+    sandbox whose egress proxy blocks blogspot.com but allows the API): check
+    the probe against the content the API reports as stored. Weaker than
+    verify_live -- it proves the write landed, not that the page renders -- so
+    it is used only when the live fetch returned nothing, and says so."""
+    if _flatten_html(probe) in _flatten_html(content or ""):
+        return True, (f"via API, public fetch unavailable from this host "
+                      f"({len(content or ''):,} bytes stored)")
+    return False, "stored content does not contain the expected text"
+
+
 def do_update(post_id, url, title, body, published=None, labels=None, dry_run=False):
     if dry_run:
         print(f"    DRY RUN — would PUT {len(body):,} bytes")
@@ -302,6 +314,9 @@ def do_update(post_id, url, title, body, published=None, labels=None, dry_run=Fa
     time.sleep(3)  # give Blogger a moment to render before verifying
     probe = _flatten_html(body, limit=40)
     ok, why = verify_live(url, needle=probe)
+    if not ok and why == "empty response":
+        got = api(f"/blogs/{BLOG_ID}/posts/{post_id}")
+        ok, why = verify_stored(got.get("content"), probe)
     print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
     return ok
 
@@ -369,6 +384,8 @@ def cmd_insert(args):
     time.sleep(4)
     probe = _flatten_html(body, limit=40)
     ok, why = verify_live(res["url"], needle=probe)
+    if not ok and why == "empty response":
+        ok, why = verify_stored(res.get("content"), probe)
     print(f"    {'verified' if ok else 'PUBLISHED BUT VERIFY FAILED'}: {why}")
     sys.exit(0 if ok else 2)
 
@@ -394,6 +411,8 @@ def cmd_page(args):
         time.sleep(4)
         probe = _flatten_html(body, limit=40)
         ok, why = verify_live(res["url"], needle=probe)
+        if not ok and why == "empty response":
+            ok, why = verify_stored(res.get("content"), probe)
         print(f"    {'verified' if ok else 'WROTE BUT VERIFY FAILED'}: {why}")
 
 
