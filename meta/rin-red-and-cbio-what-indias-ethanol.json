@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-09-05T21:09:41.306+05:30",
+  "updated": "2026-09-05T22:01:19.167+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 40393,
-  "sha256": "a7d7015320e1cdca3b8dd2989d294b02e5bedb62bb5f551debe2f81bcac969b2",
+  "bytes": 39511,
+  "sha256": "cf2fa0c0ca559b53a497b3f193a79015ee08d4ed4fdc7216a5336ee1f890ddba",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        40393,
+        39511
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

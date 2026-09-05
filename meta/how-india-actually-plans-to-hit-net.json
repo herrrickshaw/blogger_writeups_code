@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html",
   "slug": "how-india-actually-plans-to-hit-net",
   "published": "2026-08-28T07:26:34.000+05:30",
-  "updated": "2026-09-05T20:59:07.596+05:30",
+  "updated": "2026-09-05T21:51:49.279+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 39087,
-  "sha256": "6d37aae53744d7a6b0d13bb947415f0d07c7d3afa73da23a8dd55039ff80b3ce",
+  "bytes": 38031,
+  "sha256": "6d5d649bb6b60fd319b08f8ce648115505e530cc22d23ee65d888afeea8dc1ee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        39087,
+        38031
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
   "published": "2026-08-30T22:16:33.000+05:30",
-  "updated": "2026-09-05T21:11:26.718+05:30",
+  "updated": "2026-09-05T22:03:09.556+05:30",
   "labels": [],
-  "bytes": 38634,
-  "sha256": "eec895860467541bc4b928ca64d88cfdaf235d4c09c283a59b40a77253af184e",
+  "bytes": 38106,
+  "sha256": "34f185ddd30cceeee46d6bb62b617ed46216ebcf07b84fe43b3bbdc8c3453f54",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38634,
+        38106
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

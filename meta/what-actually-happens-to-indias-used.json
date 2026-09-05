@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
   "slug": "what-actually-happens-to-indias-used",
   "published": "2026-08-23T22:08:12.000+05:30",
-  "updated": "2026-09-05T21:16:15.684+05:30",
+  "updated": "2026-09-05T22:08:00.501+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "India"
   ],
-  "bytes": 41466,
-  "sha256": "17f857b0eb4d93d15e4b1fd50060ca3356a851c35fc53abd0663372196351ea6",
+  "bytes": 40938,
+  "sha256": "d6a59829254ba10919da2601a62afb713fb4c2e84a7fc62a912ad0f35a63f7d4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        41466,
+        40938
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

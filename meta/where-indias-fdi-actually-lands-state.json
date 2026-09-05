@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-09-05T21:17:02.616+05:30",
+  "updated": "2026-09-05T22:08:47.858+05:30",
   "labels": [],
-  "bytes": 44504,
-  "sha256": "e5cdedc481e652b97003dad94558cc245ecb686391c605fbf262a73b62e69af7",
+  "bytes": 43976,
+  "sha256": "4f800a6afd4b3f74c32c7fa8cf4ef3b6e031fcef046bd009aac86ab5fca258b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        44504,
+        43976
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
   "slug": "india-will-finance-waste-to-energy",
   "published": "2026-08-26T20:20:49.000+05:30",
-  "updated": "2026-09-05T21:01:53.930+05:30",
+  "updated": "2026-09-05T21:54:15.152+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 38490,
-  "sha256": "9b24c3c28117d63ab10812b2d3b4e32f7c124f04628f149614098d9e16a1dc74",
+  "bytes": 37434,
+  "sha256": "1c6a50a68b46a5f4ce0277d82f9973d3e76d37203321f67052742e785b526f32",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38490,
+        37434
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

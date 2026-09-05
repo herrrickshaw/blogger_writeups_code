@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html",
   "slug": "oilfield-costs-rose-68-while-global",
   "published": "2026-08-26T09:43:59.000+05:30",
-  "updated": "2026-09-05T21:07:15.059+05:30",
+  "updated": "2026-09-05T21:59:09.353+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Markets & Finance"
   ],
-  "bytes": 34089,
-  "sha256": "9050fd05086f080b1c3651a71c3bdf4c09e8222ebf6ba2fb7160d1e2ba7c5e91",
+  "bytes": 33561,
+  "sha256": "28f9a77bc1a71ac3bb6d0bb9e939640f77d96f68cffb1f67e4423cb61cd5046a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        34089,
+        33561
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

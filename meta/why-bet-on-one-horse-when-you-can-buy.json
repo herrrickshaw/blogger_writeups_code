@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
   "slug": "why-bet-on-one-horse-when-you-can-buy",
   "published": "2026-08-11T14:23:23.000+05:30",
-  "updated": "2026-09-05T21:18:00.545+05:30",
+  "updated": "2026-09-05T22:09:45.047+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 37092,
-  "sha256": "4352473f74d1e8b05f92b6befc4c6784f8932beb0fa4c88c116665d966649c9a",
+  "bytes": 36211,
+  "sha256": "13f970fe05b6a24f0c59396140776b23e69de27559a440e89995a041158ad1ee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -237,6 +237,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        37092,
+        36211
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

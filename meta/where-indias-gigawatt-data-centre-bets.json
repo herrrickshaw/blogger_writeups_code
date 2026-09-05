@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-09-05T21:17:17.768+05:30",
+  "updated": "2026-09-05T22:09:00.494+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 27249,
-  "sha256": "df8e7c4b180b8f817e6e1391acc69f05a519e08a58c4fe7b661f0e2a46762c29",
+  "bytes": 26301,
+  "sha256": "b50160ad622bc6ea04e2f66ef9f2b8e3e6bda40da1871a48f31ed24ea2e3a18e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        27249,
+        26301
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

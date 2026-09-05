@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html",
   "slug": "every-india-europe-tech-agreement-pib",
   "published": "2026-08-23T18:35:54.000+05:30",
-  "updated": "2026-09-05T20:56:55.873+05:30",
+  "updated": "2026-09-05T21:49:43.374+05:30",
   "labels": [
     "India",
     "India Trade & Policy",
     "Industrial Policy"
   ],
-  "bytes": 31707,
-  "sha256": "023cf8db102af6677f5ef9379c2155e0253f74840d645122a0b75213f486719d",
+  "bytes": 31179,
+  "sha256": "0b1572c6b7e58f36239a2e946408e709dd3ca990be7c225d91c43a058f976870",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        31707,
+        31179
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

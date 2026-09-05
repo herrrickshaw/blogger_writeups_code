@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-05T21:12:31.921+05:30",
+  "updated": "2026-09-05T22:04:16.381+05:30",
   "labels": [
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 50354,
-  "sha256": "50365c93022ef08d730a1cc575f80cbd5b0110993483dec7ea58b2b4d1157f3c",
+  "bytes": 49826,
+  "sha256": "ca87533ff2687ea836a12bb68fb488d31dbd2bf96de0c7069e6a521bfffa8901",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.1",
+  "version": "1.4.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.4.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        50354,
+        49826
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

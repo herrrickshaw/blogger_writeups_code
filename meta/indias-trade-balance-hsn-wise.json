@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-09-05T21:04:57.482+05:30",
+  "updated": "2026-09-05T21:57:04.870+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 60593,
-  "sha256": "34e22e9cac3e164ea4471c2b570ef3091d00dffac2e58c2466c02b43cdcb98b1",
+  "bytes": 59712,
+  "sha256": "ee4ec62b946979c4eff9a529ad9d40a3df9cccaef97897eb00e908a58171a319",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -207,6 +207,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        60593,
+        59712
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

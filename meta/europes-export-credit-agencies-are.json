@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html",
   "slug": "europes-export-credit-agencies-are",
   "published": "2026-08-05T19:00:06.000+05:30",
-  "updated": "2026-09-05T20:56:50.093+05:30",
+  "updated": "2026-09-05T21:49:38.018+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 26325,
-  "sha256": "5a41895a969df4b8dea9a036a00e488b27bf801066c4199e9a78348642aef758",
+  "bytes": 25444,
+  "sha256": "195ed84d6dae8f11c2cb3777561ddf88751e1a5eda99c965008f5cfdeba4e6aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26325,
+        25444
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

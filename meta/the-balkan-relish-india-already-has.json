@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html",
   "slug": "the-balkan-relish-india-already-has",
   "published": "2026-08-20T12:14:58.000+05:30",
-  "updated": "2026-09-05T21:11:44.046+05:30",
+  "updated": "2026-09-05T22:03:27.130+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Import Substitution"
   ],
-  "bytes": 26529,
-  "sha256": "cc43e51860ed1ab7211b6758b0afc2975717c419475d4b623a3389bdae299e16",
+  "bytes": 25581,
+  "sha256": "08a51ef2fa1b5c0e44fb579ba8868dc45bd8960bc1f04a3d5b9e075ef75b61c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26529,
+        25581
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

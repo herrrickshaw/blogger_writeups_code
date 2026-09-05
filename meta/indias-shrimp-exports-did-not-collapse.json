@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html",
   "slug": "indias-shrimp-exports-did-not-collapse",
   "published": "2026-08-23T04:44:23.000+05:30",
-  "updated": "2026-09-05T21:04:29.645+05:30",
+  "updated": "2026-09-05T21:56:38.881+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 33859,
-  "sha256": "b03b1048a462429c4e002b6f00105e076a7847c02a9415d51cbc63565ce12033",
+  "bytes": 33331,
+  "sha256": "bb1704205c1f8405c64b131eb914aa1de10eff32eaa7b87f364babc814178baf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        33859,
+        33331
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

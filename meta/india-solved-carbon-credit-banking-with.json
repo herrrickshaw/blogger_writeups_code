@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html",
   "slug": "india-solved-carbon-credit-banking-with",
   "published": "2026-09-01T22:39:13.000+05:30",
-  "updated": "2026-09-05T21:01:40.341+05:30",
+  "updated": "2026-09-05T21:54:03.120+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 33195,
-  "sha256": "3f9e4113b352680c39d1a61db139064009ae63128ee75e6657fa1aaaac993df2",
+  "bytes": 32667,
+  "sha256": "954dcbf1395bc1146af9f88ed0672bc446ea7a6ce8c189c2e2b10b9ae60bc347",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        33195,
+        32667
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

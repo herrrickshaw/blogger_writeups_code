@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/do-cheap-stocks-stay-cheap-price-band.html",
   "slug": "do-cheap-stocks-stay-cheap-price-band",
   "published": "2026-08-11T15:52:01.000+05:30",
-  "updated": "2026-09-05T20:56:16.274+05:30",
+  "updated": "2026-09-05T21:49:06.658+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 95593,
-  "sha256": "24800a5809e8687207c77ea814171dcf520a7d3c778e155df3db4712bf5f9ba0",
+  "bytes": 94712,
+  "sha256": "e0261f8e584c535c3184e0368a7d2273c3d3dfd3fc99336389d33dbec4e97098",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        95593,
+        94712
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

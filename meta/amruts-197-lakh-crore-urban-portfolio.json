@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html",
   "slug": "amruts-197-lakh-crore-urban-portfolio",
   "published": "2026-08-29T12:46:45.000+05:30",
-  "updated": "2026-09-05T20:52:57.634+05:30",
+  "updated": "2026-09-05T21:46:11.019+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 23028,
-  "sha256": "8345424be3e24dd038c188e5e9fa4f6fe3ed0930632557395163397b8f47a390",
+  "bytes": 22500,
+  "sha256": "4d72f133fd205177062bcfaef50c0502aca1af81fac785c165f23317fdfec304",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23028,
+        22500
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

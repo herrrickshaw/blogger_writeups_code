@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
   "slug": "vehicles-out-motors-in-indias-chapter",
   "published": "2026-08-05T12:06:45.000+05:30",
-  "updated": "2026-09-05T21:15:58.827+05:30",
+  "updated": "2026-09-05T22:07:43.197+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 15685,
-  "sha256": "222d1a060cdd9e8adc90fa2ac2a890930d2794a3313608e6d83abccedb026654",
+  "bytes": 14804,
+  "sha256": "4e309c68e44ae3a925c11e50e04fad114762ededcde8627d2f595890aa109a74",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        15685,
+        14804
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-09-05T21:15:21.740+05:30",
+  "updated": "2026-09-05T22:07:04.616+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 100959,
-  "sha256": "076870b2880913baa53f8ac4f307369a939ed75172aa4eb4008432ec29d590fe",
+  "bytes": 100078,
+  "sha256": "a4accfd8a2ab23fd4e3d0adc499ac75c42e71de3f54a9ee4f770d6bf019625d0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -274,6 +274,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "5.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        100959,
+        100078
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

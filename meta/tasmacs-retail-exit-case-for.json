@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-09-05T21:10:51.088+05:30",
+  "updated": "2026-09-05T22:02:31.475+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 26886,
-  "sha256": "6e4cb9454e69ab4e4e1e6a508345d20ad85bfb6036bdd824f0788deff8b0d6eb",
+  "bytes": 26358,
+  "sha256": "afbfc69c8036cc96f08371c40f52d1d53a9d845c71469581838f489689e85a98",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26886,
+        26358
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
   "slug": "fipis-biggest-ask-is-getting-natural",
   "published": "2026-09-02T03:59:01.000+05:30",
-  "updated": "2026-09-05T20:57:28.297+05:30",
+  "updated": "2026-09-05T21:50:14.130+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 32960,
-  "sha256": "5f7ebab575212e14cd8365c22be2dcf1eef0d64541e775f485b12b2ca5f30dcd",
+  "bytes": 32432,
+  "sha256": "ab43903fa22acd0b3381dd195d35a0f61d93196c7dd84997ff4019701081d792",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        32960,
+        32432
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

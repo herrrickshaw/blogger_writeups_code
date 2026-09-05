@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-09-05T21:02:50.683+05:30",
+  "updated": "2026-09-05T21:55:08.608+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 63975,
-  "sha256": "39d0128a66ad038a07e7bc58313999a56b6ec1a3d791130414dec6f7c862a415",
+  "bytes": 62919,
+  "sha256": "7feb640b2c988d9a3294abbf459c6bfed7f9e31a386c7e8e115182b523dc6d00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        63975,
+        62919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

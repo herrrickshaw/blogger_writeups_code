@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html",
   "slug": "brazil-pumps-e30-at-every-station",
   "published": "2026-09-01T19:42:31.000+05:30",
-  "updated": "2026-09-05T20:54:18.790+05:30",
+  "updated": "2026-09-05T21:47:21.844+05:30",
   "labels": [],
-  "bytes": 38144,
-  "sha256": "1f81fce1f25d6ae85d82c4fea224e9d845048f6511f8bd03f41479bab3778b3f",
+  "bytes": 37616,
+  "sha256": "8b58a5f73f0d72055138f59f31e9f5195cc9d9ba570109d557c941c172b0acf8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        38144,
+        37616
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html",
   "slug": "we-fact-checked-66-investment",
   "published": "2026-08-25T06:17:26.000+05:30",
-  "updated": "2026-09-05T21:16:04.540+05:30",
+  "updated": "2026-09-05T22:07:49.023+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 67194,
-  "sha256": "4579cc96bbddd3c3d76bc4874bb2178544beb6fa2710c7845321e6d916490448",
+  "bytes": 66666,
+  "sha256": "788c754a8b675c045126c92a1cfbf2ea76ef634c16778641b3f59fc35acc3f02",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        67194,
+        66666
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

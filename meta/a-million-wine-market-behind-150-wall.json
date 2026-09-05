@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
   "slug": "a-million-wine-market-behind-150-wall",
   "published": "2026-08-30T13:25:43.000+05:30",
-  "updated": "2026-09-05T20:52:11.079+05:30",
+  "updated": "2026-09-05T21:45:25.581+05:30",
   "labels": [],
-  "bytes": 32339,
-  "sha256": "2d8ee9f1e60dbd6c6241b0f976ae271ce85989d999fb8d30061f2accfe7d1fb7",
+  "bytes": 31811,
+  "sha256": "be255679cff740e05eab3546fd99874196371c8e21ce7301496e6d3a8460a65e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        32339,
+        31811
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-09-05T20:54:00.261+05:30",
+  "updated": "2026-09-05T21:47:03.967+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 33399,
-  "sha256": "59ae97c51521b65654bab7072153a01ac78f1daaf2c5adefaf344faf049aea2c",
+  "bytes": 32451,
+  "sha256": "58fdde3421c7d5acab38297cacdca9ee1f7b8d474deca6669a9d540842428dc3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.1",
+  "version": "3.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "3.1.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        33399,
+        32451
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

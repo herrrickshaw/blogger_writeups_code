@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-09-05T21:11:55.857+05:30",
+  "updated": "2026-09-05T22:03:39.001+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 35528,
-  "sha256": "a563d19d86f5df5b71dfd7592eef02abffe97d46a3c5e030ba1249e4900e798d",
+  "bytes": 34472,
+  "sha256": "0d72c4b0e78b4d02ea09ad0661ef1e6ff17c17237ab712bf9cfedd2c61c90164",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        35528,
+        34472
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

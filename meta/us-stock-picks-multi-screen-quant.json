@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:15:46.678+05:30",
+  "updated": "2026-09-05T22:07:30.662+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 36397,
-  "sha256": "8a0eb5384898bc0999ed47e28cfe72d30aa9377976db237e6c751f37643fe20f",
+  "bytes": 35870,
+  "sha256": "cda08ddf6cc9864e429669820f28c020b716b22acee13cca711b081b2500eafc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        36397,
+        35870
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

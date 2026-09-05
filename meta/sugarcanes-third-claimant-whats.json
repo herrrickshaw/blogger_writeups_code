@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
   "published": "2026-08-28T21:08:06.000+05:30",
-  "updated": "2026-09-05T21:10:22.289+05:30",
+  "updated": "2026-09-05T22:02:01.023+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 34713,
-  "sha256": "77f0841100ce880acc5f2b537223c88fd3bc75506a0058c8cc55b71414a1ce21",
+  "bytes": 33657,
+  "sha256": "8efd9b6fdf9cfaa4588fe72abaeb0ee605a387811bd2a8d46d3961750ad00e53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "4.1.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        34713,
+        33657
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }

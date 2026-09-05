@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
   "slug": "pet-recycling-already-cuts-emissions-60",
   "published": "2026-08-16T07:25:04.000+05:30",
-  "updated": "2026-09-05T21:07:43.943+05:30",
+  "updated": "2026-09-05T21:59:38.360+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Environment & Clearances",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26027,
-  "sha256": "8528f2eac651b921b6fa4ade184cd15784900f28dfa8a7c323a8477c277c4b5e",
+  "bytes": 25145,
+  "sha256": "640d01a1ae7a4f39f8fa63cd36f11ade39eb3693327f1f1664ec7da829ecb7dc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T22:16:32+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26027,
+        25145
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Manual ad units removed from all posts; Auto ads only"
     }
   ]
 }
