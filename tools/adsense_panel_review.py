@@ -193,14 +193,70 @@ def build_dossier():
     return "\n\n".join(parts), f
 
 
+TERMINAL = re.compile(r"insufficient balance|payment[_ ]required|exceeded_current_quota|API error (401|402|403)\b", re.I)
+RETRY_WAITS = (5, 15, 30, 60)   # seconds; 429 (rate limit) and 5xx (overload) clear on their own
+
+
 def _post(url, body, headers, label):
-    req = urllib.request.Request(url, data=json.dumps(body).encode(), headers=headers)
+    """POST JSON with retry/backoff on rate limits and overload.
+
+    Returns (parsed_json, None) or (None, "[label ... error ...]"). A 429 or
+    5xx is retried (honouring Retry-After when the server sends one); a
+    billing/auth failure (401/402/403, or a quota-exhausted body) is terminal
+    and returned at once -- the fact-check tool measured hundreds of wasted
+    calls on providers that could not answer, so we do not repeat that."""
+    data = json.dumps(body).encode()
+    last = None
+    for attempt, wait in enumerate(RETRY_WAITS + (None,)):
+        req = urllib.request.Request(url, data=data, headers=headers)
+        try:
+            return json.loads(urllib.request.urlopen(req, timeout=180).read()), None
+        except urllib.error.HTTPError as e:
+            detail = e.read().decode(errors="replace")[:300]
+            last = f"[{label} API error {e.code}: {detail}]"
+            if TERMINAL.search(last) or e.code == 402:
+                return None, last
+            if e.code in (429, 500, 502, 503, 504) and wait is not None:
+                ra = e.headers.get("Retry-After") if e.headers else None
+                pause = min(120, int(ra)) if ra and ra.isdigit() else wait
+                print(f"    {label}: HTTP {e.code}, retrying in {pause}s (attempt {attempt + 1}/{len(RETRY_WAITS)})", flush=True)
+                time.sleep(pause)
+                continue
+            return None, last
+        except (urllib.error.URLError, OSError) as e:
+            last = f"[{label} network error: {e}]"
+            if wait is not None:
+                time.sleep(wait)
+                continue
+            return None, last
+    return None, last
+
+
+def groq_pick_model(k):
+    """Ask Groq which models this key can use and pick the best fit for a
+    ~11k-token prompt. Hardcoded names rot (llama-3.3-70b-versatile 404'd on
+    2026-09-06), so discover instead. Preference: the 70B Llama line, then a
+    Llama 4 / Kimi / GPT-OSS large model, then anything that looks like a chat
+    model. Override with GROQ_MODEL=<id> in the environment."""
+    import os
+    if os.environ.get("GROQ_MODEL"):
+        return os.environ["GROQ_MODEL"]
+    req = urllib.request.Request("https://api.groq.com/openai/v1/models",
+                                 headers={"Authorization": f"Bearer {k}", "User-Agent": mm.UA})
     try:
-        return json.loads(urllib.request.urlopen(req, timeout=180).read()), None
-    except urllib.error.HTTPError as e:
-        return None, f"[{label} API error {e.code}: {e.read().decode()[:300]}]"
-    except (urllib.error.URLError, OSError) as e:
-        return None, f"[{label} network error: {e}]"
+        ids = [m["id"] for m in json.loads(urllib.request.urlopen(req, timeout=60).read()).get("data", [])]
+    except Exception as e:  # noqa: BLE001 -- fall back to the configured name
+        print(f"    Groq: could not list models ({e}); using {mm.GROQ_MODELS[0]}", flush=True)
+        return mm.GROQ_MODELS[0]
+    prefs = ["llama-3.3-70b-versatile", "llama-3.1-70b-versatile", "70b", "llama-4", "kimi-k2", "gpt-oss-120b",
+             "qwen", "gpt-oss", "llama"]
+    skip = re.compile(r"whisper|tts|guard|embed|vision|orpheus|playai|compound", re.I)
+    cands = [i for i in ids if not skip.search(i)]
+    for p in prefs:
+        for i in cands:
+            if p in i:
+                return i
+    return cands[0] if cands else mm.GROQ_MODELS[0]
 
 
 def ask_openai_compat(label, url, model, k, text):
@@ -215,8 +271,9 @@ def ask_openai_compat(label, url, model, k, text):
         return f"[{label} unexpected response: {json.dumps(d)[:300]}]"
 
 
-def ask_gemini(k, text):
-    d, err = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{mm.GEMINI_MODEL}:generateContent?key={k}",
+def ask_gemini(k, text, model=None):
+    model = model or mm.GEMINI_MODEL
+    d, err = _post(f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={k}",
                    {"contents": [{"parts": [{"text": PROMPT.format(text=text)}]}],
                     "generationConfig": {"temperature": 0.1}},
                    {"Content-Type": "application/json", "User-Agent": mm.UA}, "Gemini")
@@ -241,33 +298,53 @@ def main():
     if args.dry_run or args.dossier_only:
         return
 
+    import os
     blob = mm.creds()
+    mistral_model = os.environ.get("MISTRAL_MODEL", mm.MISTRAL_MODEL)
+    gemini_model = os.environ.get("GEMINI_MODEL", mm.GEMINI_MODEL)
+    gk = mm.key("GEMINI_API_KEY", blob)
+    qk = mm.key("GROQ_API_KEY", blob)
+    mk = mm.key("MISTRAL_API_KEY", blob)
+    groq_model = groq_pick_model(qk)
     panel = [
-        ("Mistral " + mm.MISTRAL_MODEL, lambda t, k=mm.key("MISTRAL_API_KEY", blob):
-            ask_openai_compat("Mistral", mm.MISTRAL_URL, mm.MISTRAL_MODEL, k, t)),
-        ("Groq " + mm.GROQ_MODELS[0], lambda t, k=mm.key("GROQ_API_KEY", blob):
-            ask_openai_compat("Groq", "https://api.groq.com/openai/v1/chat/completions", mm.GROQ_MODELS[0], k, t)),
-        ("Gemini " + mm.GEMINI_MODEL, lambda t, k=mm.key("GEMINI_API_KEY", blob): ask_gemini(k, t)),
+        ("Mistral " + mistral_model, lambda t: ask_openai_compat("Mistral", mm.MISTRAL_URL, mistral_model, mk, t)),
+        ("Groq " + groq_model, lambda t: ask_openai_compat("Groq", "https://api.groq.com/openai/v1/chat/completions", groq_model, qk, t)),
+        ("Gemini " + gemini_model, lambda t: ask_gemini(gk, t, gemini_model)),
     ]
     kk = mm.key_optional("MOONSHOT_API_KEY", blob)
     if kk:
-        panel.append(("Kimi " + mm.KIMI_MODEL, lambda t, k=kk: ask_openai_compat("Kimi", mm.KIMI_URL, mm.KIMI_MODEL, k, t)))
+        panel.append(("Kimi " + mm.KIMI_MODEL, lambda t: ask_openai_compat("Kimi", mm.KIMI_URL, mm.KIMI_MODEL, kk, t)))
     ck = mm.key_optional("CEREBRAS_API_KEY", blob)
     if ck:
-        panel.append(("Cerebras " + mm.CEREBRAS_MODEL, lambda t, k=ck: ask_openai_compat("Cerebras", mm.CEREBRAS_URL, mm.CEREBRAS_MODEL, k, t)))
+        panel.append(("Cerebras " + mm.CEREBRAS_MODEL, lambda t: ask_openai_compat("Cerebras", mm.CEREBRAS_URL, mm.CEREBRAS_MODEL, ck, t)))
 
     stamp = time.strftime("%Y-%m-%d %H:%M %Z")
     out = [f"# AdSense panel review -- {stamp}\n",
            f"Dossier: {len(dossier):,} chars; {facts['live_posts']} live posts, median {facts['median_words']} words, "
            f"{len(facts['under_700'])} under 700 words. Full dossier: `out/adsense_panel_dossier.txt`.\n",
            "Model output is opinion, not verified fact. Read the BLOCKERS across models for agreement first.\n"]
+    answered = 0
     for label, fn in panel:
         print(f"asking {label} ...", flush=True)
         ans = fn(dossier)
+        if "API error 413" in ans or "too large" in ans.lower() or "tokens per minute" in ans.lower():
+            # provider cap smaller than the dossier: retry once with the two sample
+            # articles cut to a third, which is still enough to judge writing quality
+            compact = re.sub(r"(=== SAMPLE ARTICLE [AB][^\n]*\n)([\s\S]*?)(?=\n\n=== |\Z)",
+                             lambda m: m.group(1) + m.group(2)[:SAMPLE_CHARS // 3], dossier)
+            print(f"    {label}: prompt too large, retrying with a compact dossier ({len(compact):,} chars)", flush=True)
+            ans = fn(compact)
+        if TERMINAL.search(ans):
+            ans = f"skipped -- provider cannot answer on this account (billing/auth): {ans}"
+        elif not ans.startswith("["):
+            answered += 1
         out.append(f"\n## {label}\n\n{ans}\n")
-        time.sleep(2)
+        time.sleep(3)
+    out.insert(3, f"\nProviders that answered: {answered} of {len(panel)}.\n")
     OUT_MD.write_text("\n".join(out), encoding="utf-8")
-    print(f"wrote {OUT_MD}")
+    print(f"wrote {OUT_MD}  ({answered} of {len(panel)} providers answered)")
+    if answered == 0:
+        sys.exit(2)
 
 
 if __name__ == "__main__":
