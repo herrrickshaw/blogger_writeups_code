@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-01T19:47:48.657+05:30",
+  "updated": "2026-09-05T21:12:31.921+05:30",
   "labels": [
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 50546,
-  "sha256": "85fbd9c923ce5b29fe2ce25c939427f096c68f77465715938e02f19e008104b5",
+  "bytes": 50354,
+  "sha256": "50365c93022ef08d730a1cc575f80cbd5b0110993483dec7ea58b2b4d1157f3c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.4.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
+    },
+    {
+      "version": "1.4.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        50546,
+        50354
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

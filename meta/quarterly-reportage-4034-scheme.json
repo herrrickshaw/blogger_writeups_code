@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-09-05T20:31:13.620+05:30",
+  "updated": "2026-09-05T21:08:39.136+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 542618,
-  "sha256": "d580116d5f740ee3e3b5d277aa138842b0879a1cfce589e2c6ce6fe3fa24cb4e",
+  "bytes": 542426,
+  "sha256": "a4daa279f871a5b29f98d3e500da569dc9f2d2290c20a22bf1a0546610fdd9c6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -246,6 +246,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        542618,
+        542426
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

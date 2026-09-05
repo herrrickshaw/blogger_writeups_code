@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-08-25T10:13:38.849+05:30",
+  "updated": "2026-09-05T20:54:25.859+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 31771,
-  "sha256": "f1dadfcd311926887690000ddc23e1d4e71de3af709ccac56619ae307c515458",
+  "bytes": 31594,
+  "sha256": "9eda36aa01035c9040699f3be3a036e785fe681fbfdcdba58848e1ae075e2b1a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31771,
+        31594
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

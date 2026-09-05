@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/interest-subvention-built-499-ethanol.html",
   "slug": "interest-subvention-built-499-ethanol",
   "published": "2026-08-26T07:16:13.000+05:30",
-  "updated": "2026-08-28T08:10:29.083+05:30",
+  "updated": "2026-09-05T21:05:49.103+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Industrial Policy"
   ],
-  "bytes": 35281,
-  "sha256": "92e8e79d23196f67bdd4cf96b814cdbff656ad052131ec228ca0e260cd5a717e",
+  "bytes": 35118,
+  "sha256": "8b6375ab41e0b6dbef5631bb026f1ef3ce11e46a9581f3d98174c3f898ae571c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35281,
+        35118
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

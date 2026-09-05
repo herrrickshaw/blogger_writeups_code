@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-08-25T10:38:57.723+05:30",
+  "updated": "2026-09-05T21:17:54.549+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 14037,
-  "sha256": "eefeb66e07e18c575158ae355d791521606d24a84baafa81941cf50eb1c2f16f",
+  "bytes": 13845,
+  "sha256": "bae8904094d4dd67a190c012b62636ba321f2dcd1b99f236dc8fcf7ee8d8b829",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -129,6 +129,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        14037,
+        13845
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

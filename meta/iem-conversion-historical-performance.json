@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-08-25T10:20:20.012+05:30",
+  "updated": "2026-09-05T20:59:34.498+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 24728,
-  "sha256": "1e5bb9b12b2bb6851eb2d62025a7e6e5436623847fbf0e8343e75e0eab57c9d9",
+  "bytes": 24547,
+  "sha256": "5a42482a2e643c6799ff78587e9af853699e3244b3b34170f3727dae8e6496cd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24728,
+        24547
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

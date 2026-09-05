@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-08-25T10:34:40.075+05:30",
+  "updated": "2026-09-05T21:14:01.048+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 30604,
-  "sha256": "100cb62603163f61eea3b65e897c3a2c0958aa9489af1440d81e405ade695ad3",
+  "bytes": 30412,
+  "sha256": "b6ce9f0f56b6c05cc4e4b5fe8bd09f67bfbc2fb15740c66e60669e69f8f77334",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        30604,
+        30412
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

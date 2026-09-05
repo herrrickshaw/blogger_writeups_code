@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html",
   "slug": "biomass-power-at-night-dispatchable",
   "published": "2026-08-20T05:54:52.000+05:30",
-  "updated": "2026-09-01T22:10:12.248+05:30",
+  "updated": "2026-09-05T20:54:00.261+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 33591,
-  "sha256": "5d481a8092696c6a43a02937a783806f6ea9153938ec1d09bcb9d273d906f19e",
+  "bytes": 33399,
+  "sha256": "59ae97c51521b65654bab7072153a01ac78f1daaf2c5adefaf344faf049aea2c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
+    },
+    {
+      "version": "3.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33591,
+        33399
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

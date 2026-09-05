@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-08-25T10:38:19.536+05:30",
+  "updated": "2026-09-05T21:17:17.768+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 27441,
-  "sha256": "4efc8155c09bf88cf99d9c44b3aa0280bbdba587b7c9660c7dc2b0d8ffba51c2",
+  "bytes": 27249,
+  "sha256": "df8e7c4b180b8f817e6e1391acc69f05a519e08a58c4fe7b661f0e2a46762c29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27441,
+        27249
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

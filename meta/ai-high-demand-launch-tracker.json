@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-08-25T10:12:39.010+05:30",
+  "updated": "2026-09-05T20:52:45.937+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 41007,
-  "sha256": "c04c2ae02f9ba4191309d220142c9c45b2749ed6c27ced06e5488e729be31ec4",
+  "bytes": 40815,
+  "sha256": "6a7d9e15c27ad9e167b0c10ab0f1ba39ed641ddd29c70791a355c77f595873b5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -247,6 +247,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        41007,
+        40815
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

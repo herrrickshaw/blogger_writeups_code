@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-08-25T10:30:09.233+05:30",
+  "updated": "2026-09-05T21:09:04.811+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 53286,
-  "sha256": "36bff03660598ea4afa5d8d06283deae7397476b1ba907535e352f37ff5f6ba7",
+  "bytes": 53105,
+  "sha256": "afb38d826dbb5a8e37c3aebf45f93f4688a9ac7a73055d5719a8876ae59213a6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -207,6 +207,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        53286,
+        53105
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

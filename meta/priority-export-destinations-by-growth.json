@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-08-23T06:34:08.964+05:30",
+  "updated": "2026-09-05T21:08:19.898+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 41669,
-  "sha256": "cdd2212cc01654252bde569d5d8b09d8aa9000056892dd987460b3f6e085959e",
+  "bytes": 41488,
+  "sha256": "2bcd47d92c1f96f6592829e2d8e3b97215eaf9050fe420b1db81ff83e94a0e5c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        41669,
+        41488
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

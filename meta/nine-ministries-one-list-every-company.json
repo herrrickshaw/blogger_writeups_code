@@ -3,14 +3,14 @@
   "title": "India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026",
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
-  "published": "2026-08-30T08:48:36.292+05:30",
-  "updated": "2026-08-30T09:11:55.569+05:30",
+  "published": "2026-08-30T08:48:36.000+05:30",
+  "updated": "2026-09-05T21:07:03.931+05:30",
   "labels": [
     "India",
     "Industrial Policy"
   ],
-  "bytes": 65821,
-  "sha256": "56b658f22c4574aa84a46de3474e40c521f3c0a99d63c12665db897f0fd27a06",
+  "bytes": 65631,
+  "sha256": "63fe0a09ceb6269742152ac577ed3196e118a226b06f6ca4950a7845d00d64f5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "feat(pli): expand bidder-list article to cover all 14 PLI schemes via PIB + ministry-portal research"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        65821,
+        65631
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

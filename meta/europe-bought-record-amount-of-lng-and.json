@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-08-26T12:07:39.505+05:30",
+  "updated": "2026-09-05T20:56:43.553+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 44247,
-  "sha256": "c950750e967eded1b15f7b2f1bc8e95a3152c71d4b603e445804b9fee10d8dfc",
+  "bytes": 44055,
+  "sha256": "91ac42f9b7a3efdaa540eb51a9bb05e6daba1ccc4ab6e4ca3ea550fa47945c10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.0",
+  "version": "7.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -226,6 +226,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "7.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        44247,
+        44055
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

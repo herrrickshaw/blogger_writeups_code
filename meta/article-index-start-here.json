@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-03T11:07:05.821+05:30",
+  "updated": "2026-09-05T21:18:39.651+05:30",
   "labels": [],
-  "bytes": 319935,
-  "sha256": "a601d93b62a463259fcbd93b98c99a4129a02d52b8626bed5560f42cce5626cf",
+  "bytes": 322124,
+  "sha256": "1adf9520271ff2d96681549f689bd9f500bac1c7c5e01f468edd2df86dcde872",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
-    "typo_unify": true,
+    "typo_unify": false,
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "45.3.0",
+  "version": "45.3.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1491,6 +1491,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild index; publish IRR/cost-of-capital convergence post"
+    },
+    {
+      "version": "45.3.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+2/-1 distinct numbers))",
+      "bytes": [
+        319935,
+        322124
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          true,
+          false
+        ]
+      },
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

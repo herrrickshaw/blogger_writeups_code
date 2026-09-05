@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-09-05T20:31:43.072+05:30",
+  "updated": "2026-09-05T21:09:18.002+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 35194,
-  "sha256": "fef24e033185329d403c6a885ac5f689c9ef2853efb7100b4d965311fd58e26b",
+  "bytes": 35007,
+  "sha256": "02e2432cd2b789255c06ffdc7c7fc9311f7b5e71a4edfa0b497c03c923804e9e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35194,
+        35007
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

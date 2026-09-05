@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-08-25T10:17:06.074+05:30",
+  "updated": "2026-09-05T20:57:08.857+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 22429,
-  "sha256": "9183e49b81eb4cd29359276a2a19988e38b984e02dc937e37aeffceea59804c7",
+  "bytes": 22240,
+  "sha256": "6ece90724aab1110bdda9e26fd17f57c4b0fab013232cf70ac50b20dbc694f92",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22429,
+        22240
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -3,14 +3,14 @@
   "title": "India Allocated ₹6,000 Crore for Fisheries Under PM-MKSSY. It Has Paid Out ₹4.73 Crore So Far.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
   "slug": "indias-6000-crore-fisheries-scheme",
-  "published": "2026-08-30T07:43:52.363+05:30",
-  "updated": "2026-08-30T08:43:26.327+05:30",
+  "published": "2026-08-30T07:43:52.000+05:30",
+  "updated": "2026-09-05T21:02:18.788+05:30",
   "labels": [
     "Fisheries & Aquaculture",
     "India"
   ],
-  "bytes": 24525,
-  "sha256": "635aae188885aad9dcdb962fe8cdcc7129dce3dc62856664887fbc1c390ea43c",
+  "bytes": 24313,
+  "sha256": "a7eb0707e3ca9c4da24f812a7f832ba378098e6a8eb963367190b8e001b236f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "fix(fisheries): retitle around allocation framing; resolve enterprises-table mismatch via NFDP live data; flag PMMSY dashboard as stale"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24525,
+        24313
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

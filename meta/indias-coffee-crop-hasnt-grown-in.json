@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-08-25T10:24:11.487+05:30",
+  "updated": "2026-09-05T21:02:56.702+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 29175,
-  "sha256": "b46d4f388a903745615604d781f584600617573b6eb857235ef9e89c2a6c1643",
+  "bytes": 28910,
+  "sha256": "2bc7f659f6588af6323ef45c3c3b714dc99062f1fef2e68564fb6058735695ff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        29175,
+        28910
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

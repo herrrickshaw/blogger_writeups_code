@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-08-26T13:37:46.344+05:30",
+  "updated": "2026-09-05T21:09:58.969+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 131130,
-  "sha256": "e31330a89d0e0d639cf06b3e44ef50e646a43e68be228a3d08f4e4b728d3bda6",
+  "bytes": 130938,
+  "sha256": "111a01fa72da65b76a2f3ab2fd30f23527fdf9ad436616ba0de3391a072b76d9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        131130,
+        130938
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

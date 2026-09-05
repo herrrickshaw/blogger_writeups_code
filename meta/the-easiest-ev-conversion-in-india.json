@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-09-01T19:47:56.031+05:30",
+  "updated": "2026-09-05T21:12:37.546+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 33166,
-  "sha256": "20692ee68f52d328e0ae5c6832c315b101f78ae094567cce36f11c92e36904fe",
+  "bytes": 32977,
+  "sha256": "bec04fbf38b8b4def32a59b72608fe3ca58ea91728f8963a901752e2938809e2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33166,
+        32977
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

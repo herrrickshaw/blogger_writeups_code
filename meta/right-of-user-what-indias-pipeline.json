@@ -3,11 +3,11 @@
   "title": "Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State",
   "url": "https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html",
   "slug": "right-of-user-what-indias-pipeline",
-  "published": "2026-09-05T15:59:46.049+05:30",
-  "updated": "2026-09-05T15:59:46.049+05:30",
+  "published": "2026-09-05T15:59:46.000+05:30",
+  "updated": "2026-09-05T21:09:35.129+05:30",
   "labels": [],
-  "bytes": 40054,
-  "sha256": "6147367b7be4a0d70382249383543f533e69d6465dcae2edc8fb4a34fd597801",
+  "bytes": 39489,
+  "sha256": "3656d5bb903bff794b31ff38620d912dcd0a3f127ff66e35164e0ba55872ff84",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40054,
+        39489
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

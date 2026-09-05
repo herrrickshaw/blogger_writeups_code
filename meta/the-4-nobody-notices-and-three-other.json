@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-09-01T19:47:27.522+05:30",
+  "updated": "2026-09-05T21:11:32.305+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 35813,
-  "sha256": "375f98d069913b51a557313ba0e2460149bb424174eaccffba4b2ea2d5396abd",
+  "bytes": 35624,
+  "sha256": "aa6876a4dd1aeeb830156ea870e348a238b42d862e432ee00cdc04d9aad22723",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add PIB material on GIC Re, PMFBY reforms, Namo Drone Didi, ONORC"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35813,
+        35624
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

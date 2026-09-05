@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-08-26T09:51:45.547+05:30",
+  "updated": "2026-09-05T21:03:02.845+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 48839,
-  "sha256": "3192f744bcf8b8686edd111939bb23a19dd96913249af2d9db952035060735a0",
+  "bytes": 48627,
+  "sha256": "63f83ed644dc6c17ef91a61a4e9ddf0885273c98af34ec3f5a27a9f50a37fc65",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        48839,
+        48627
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

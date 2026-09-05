@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-08-26T10:58:32.648+05:30",
+  "updated": "2026-09-05T21:10:11.406+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 58414,
-  "sha256": "3eba1a4a02889e05cc10d9b65fd0705b6157b3a7449d6dcd121a20c42c168f0a",
+  "bytes": 58233,
+  "sha256": "8b3b57be8ff94db717a8c0cadab974682f3954d1b284ea4f8e818b368fb8b2ae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        58414,
+        58233
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

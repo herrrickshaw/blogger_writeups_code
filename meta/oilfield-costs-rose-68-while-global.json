@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html",
   "slug": "oilfield-costs-rose-68-while-global",
   "published": "2026-08-26T09:43:59.000+05:30",
-  "updated": "2026-08-26T09:45:27.763+05:30",
+  "updated": "2026-09-05T21:07:15.059+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Markets & Finance"
   ],
-  "bytes": 34478,
-  "sha256": "b94189f38bbc755ad505c668f42f1d81546f417db111d49d96bfa68c309e234d",
+  "bytes": 34089,
+  "sha256": "9050fd05086f080b1c3651a71c3bdf4c09e8222ebf6ba2fb7160d1e2ba7c5e91",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34478,
+        34089
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

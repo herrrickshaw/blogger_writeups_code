@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
   "slug": "india-hit-e20-on-maize-and-rice-not",
   "published": "2026-08-23T04:34:22.000+05:30",
-  "updated": "2026-08-26T10:02:08.895+05:30",
+  "updated": "2026-09-05T21:01:13.807+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 26024,
-  "sha256": "7ced9cd45b635b08f5b444821cbd83e1b16940330426fba254b37344eb81efde",
+  "bytes": 25832,
+  "sha256": "1921b091d746ba0078c7c948a08938b5f963e8437553a7bc503549cc09dc6354",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26024,
+        25832
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

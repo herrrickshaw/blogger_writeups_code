@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
   "slug": "pngrb-hydrogen-blending-pilots-real",
   "published": "2026-09-02T03:43:03.000+05:30",
-  "updated": "2026-09-02T04:02:12.604+05:30",
+  "updated": "2026-09-05T21:08:01.528+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 31464,
-  "sha256": "16c9d326aa489ce3eb53cdf5521555473fc987223514a9bec491025d7eecac33",
+  "bytes": 31270,
+  "sha256": "c798d99f3b5be8053f5eee11b720564dffb6a2c0e6d9dc0d6926fbe02d7dc8c4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish PNGRB hydrogen-blending post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31464,
+        31270
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

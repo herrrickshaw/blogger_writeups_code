@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-08-25T10:23:10.381+05:30",
+  "updated": "2026-09-05T21:01:47.860+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 21550,
-  "sha256": "91db1a8967aa1fe4d78c0dc752784cfa3d0f17ed32ede4292c0164b0f9141d29",
+  "bytes": 21369,
+  "sha256": "d20ce12572fdcba2b69493e1e879f3d0b3b7c588321bc88d39ba20c143621cb8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        21550,
+        21369
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

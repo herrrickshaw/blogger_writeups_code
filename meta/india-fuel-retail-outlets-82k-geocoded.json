@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-25T10:21:55.983+05:30",
+  "updated": "2026-09-05T21:00:42.251+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 20677,
-  "sha256": "6499c438f9d9599f77fa28f0fe9507407170c51fe7be35ecc34448344847fc7e",
+  "bytes": 20496,
+  "sha256": "f7bcfe0d7ab08332e783af8a2b4bbf0122fdf5e5ae437528db039dc821e0d268",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -196,6 +196,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        20677,
+        20496
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

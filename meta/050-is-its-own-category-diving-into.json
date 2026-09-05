@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/050-is-its-own-category-diving-into.html",
   "slug": "050-is-its-own-category-diving-into",
   "published": "2026-08-11T15:32:23.000+05:30",
-  "updated": "2026-08-25T10:11:37.823+05:30",
+  "updated": "2026-09-05T20:51:33.485+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 22220,
-  "sha256": "398919ec550633dacc1cd76fda8289d66f0cadb7734fb5ecb7ff90a38e29feee",
+  "bytes": 22046,
+  "sha256": "cf5d2616bf7d9809bd4231321ccd5a9d3f247e23dc5ee7ce8180cb69a8c78b30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22220,
+        22046
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-08-23T06:33:04.835+05:30",
+  "updated": "2026-09-05T20:51:39.897+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 68640,
-  "sha256": "03a824230e25e32c65cf47b526161197edb08983378821a4664c61be9d1b7319",
+  "bytes": 68448,
+  "sha256": "70a3953d3f6343eeab13adf5e125532e050367d35cb4c29073e78a4444ba2c32",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        68640,
+        68448
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

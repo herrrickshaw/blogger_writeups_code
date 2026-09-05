@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html",
   "slug": "nano-urea-works-as-supplement-and-fails",
   "published": "2026-08-23T04:38:11.000+05:30",
-  "updated": "2026-08-26T10:23:10.446+05:30",
+  "updated": "2026-09-05T21:06:51.377+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 27773,
-  "sha256": "19fe1da6a794f31b49d451e33b30615719f0764fc7ebf9c46e2af3bcbc2f1e81",
+  "bytes": 27581,
+  "sha256": "1ada0d62ec66754fc513026536df2c9cbde681f760d0b1bc8d9070b8f4db4111",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27773,
+        27581
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

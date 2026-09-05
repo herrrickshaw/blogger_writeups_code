@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html",
   "slug": "the-software-behind-still-whats",
   "published": "2026-08-20T09:51:31.000+05:30",
-  "updated": "2026-09-01T20:14:13.229+05:30",
+  "updated": "2026-09-05T21:14:38.711+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 37249,
-  "sha256": "00d1b7073a9f69ee721bc28fc0dff384563a32ee3585a55c2cd845b6207472a0",
+  "bytes": 37057,
+  "sha256": "121a6816ae4366bee8a9ad267db3d7524d8eda03447f163b5aac69069dca54a3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add reciprocal cross-links to Brazil ethanol post"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        37249,
+        37057
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

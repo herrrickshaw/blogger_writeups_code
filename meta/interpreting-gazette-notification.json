@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html",
   "slug": "interpreting-gazette-notification",
   "published": "2026-09-04T10:06:40.000+05:30",
-  "updated": "2026-09-05T11:47:57.018+05:30",
+  "updated": "2026-09-05T21:05:54.993+05:30",
   "labels": [],
-  "bytes": 38404,
-  "sha256": "bb8d4cba45ade82567ecf88cf2fda4016f9e6da770e51f0991fb92ca872b2326",
+  "bytes": 37927,
+  "sha256": "7286c855649f3e0a0159f07336819e12ac10df55ee2fb1dc14d7eacbbd54f155",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Amend gazette post for project's depth-pass expansion (2,591 notifications, 53 ministries)"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        38404,
+        37927
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

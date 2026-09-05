@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-08-26T09:27:03.219+05:30",
+  "updated": "2026-09-05T21:10:16.827+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 28523,
-  "sha256": "53223429056a1ac607c60e58a30e740afb17cc76e1a77e50fff59981506b2679",
+  "bytes": 28331,
+  "sha256": "d37ec6dad8809905fe779f42a15b77e5e9f730b472388753c0e8ae04acfe5f39",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28523,
+        28331
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-tepa-actually-opens-efta-goods.html",
   "slug": "what-tepa-actually-opens-efta-goods",
   "published": "2026-08-14T12:27:50.000+05:30",
-  "updated": "2026-08-25T10:37:41.848+05:30",
+  "updated": "2026-09-05T21:16:39.340+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 30295,
-  "sha256": "31db084c58a2ca7a80b0c9430a6188967b7e5e7aed3c58c2ec637abe2e3b3187",
+  "bytes": 30112,
+  "sha256": "5c7e0bb1f033af07b7be96561f2658d138d4e27cf8947a2d7491f70cec847f4a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        30295,
+        30112
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "title": "UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m",
   "url": "https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html",
   "slug": "uk-retail-canopies-at-54m-real-design",
-  "published": "2026-08-30T18:07:20.344+05:30",
-  "updated": "2026-08-30T18:07:20.344+05:30",
+  "published": "2026-08-30T18:07:20.000+05:30",
+  "updated": "2026-09-05T21:15:27.512+05:30",
   "labels": [],
-  "bytes": 27963,
-  "sha256": "3f1640e570d8b4ef298fae8e7926defac5b75a0f697aac65560fb49d3542b355",
+  "bytes": 27771,
+  "sha256": "b2c1f7f6fa5ec9b15af0438a3aec719554331b06398f792eb76e07ed81a49ff8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "first published: UK retail canopy height standards post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27963,
+        27771
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

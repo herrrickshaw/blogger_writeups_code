@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
   "slug": "indian-it-in-ai-era",
   "published": "2026-08-04T12:48:16.000+05:30",
-  "updated": "2026-08-25T10:23:20.122+05:30",
+  "updated": "2026-09-05T21:02:00.655+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 40528,
-  "sha256": "7c6c119b120ed8165519f4406fd8942ad5077b561ba4bb8f3c985a9410db0613",
+  "bytes": 40336,
+  "sha256": "8639fbc6045e4392bdf9ee554f1b729e8fb055e67fd0ddf267ecf8a8cefc59ce",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -220,6 +220,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40528,
+        40336
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

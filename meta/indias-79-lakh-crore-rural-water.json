@@ -3,14 +3,14 @@
   "title": "India's ₹7.9 Lakh Crore Rural Water Pipeline: What 'Upcoming' Actually Means, State by State",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
   "slug": "indias-79-lakh-crore-rural-water",
-  "published": "2026-08-29T12:08:35.775+05:30",
-  "updated": "2026-08-29T13:08:13.390+05:30",
+  "published": "2026-08-29T12:08:35.000+05:30",
+  "updated": "2026-09-05T21:02:24.651+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 25194,
-  "sha256": "7811b69275b01db40bf71b7455cd80ec1111130b28bde5cf83010f7a629af857",
+  "bytes": 24825,
+  "sha256": "2e8843307263e98394f57674b69869ecc4e3c26141cdb3a1edb34332f10a93ac",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Clarity fixes from Mistral content review: informal phrasing, vague 'planning queue' wording, PM3/B15 divergence context"
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25194,
+        24825
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

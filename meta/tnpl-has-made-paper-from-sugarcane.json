@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html",
   "slug": "tnpl-has-made-paper-from-sugarcane",
   "published": "2026-09-01T20:24:15.000+05:30",
-  "updated": "2026-09-01T21:04:38.023+05:30",
+  "updated": "2026-09-05T21:15:14.973+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 31919,
-  "sha256": "94203fe57e516f56be4d49e4a42a9ef17d2abeb1f835601a48b56f7991836083",
+  "bytes": 31715,
+  "sha256": "a95332a9cc36e93b52a068471d19a09d148663d544823e6fd24c920b67e8ffb1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish TNPL bagasse paper post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31919,
+        31715
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

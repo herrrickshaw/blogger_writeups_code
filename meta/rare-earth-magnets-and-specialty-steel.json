@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-08-30T11:18:20.265+05:30",
+  "updated": "2026-09-05T21:08:58.146+05:30",
   "labels": [
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 20855,
-  "sha256": "c2cc3e0d8963ca81d802a8a0e570b738d7b9b68f0dfa45c821a36c70834847a2",
+  "bytes": 20663,
+  "sha256": "f07634fbbf202ee5bfe3f0afc8e936771a28256c4eb6c6026824eed7c4a3b7d1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -182,6 +182,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "content: add HS-code magnet import-bill data (DGCIS) to rare-earth magnets article"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        20855,
+        20663
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

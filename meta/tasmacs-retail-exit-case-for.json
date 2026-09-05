@@ -3,14 +3,14 @@
   "title": "TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops",
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
-  "published": "2026-08-30T11:24:44.148+05:30",
-  "updated": "2026-08-30T11:27:38.515+05:30",
+  "published": "2026-08-30T11:24:44.000+05:30",
+  "updated": "2026-09-05T21:10:51.088+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 27340,
-  "sha256": "9c77314ba804b4672bc06a931c1dd6ea29f0f6d0133c7bbd5db97fa711889e83",
+  "bytes": 26886,
+  "sha256": "6e4cb9454e69ab4e4e1e6a508345d20ad85bfb6036bdd824f0788deff8b0d6eb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "content: add Aabkari Times model-policy examples (UP e-lottery, Karnataka AIB tax) to TASMAC piece"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27340,
+        26886
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

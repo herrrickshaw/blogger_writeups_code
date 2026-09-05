@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-08-25T10:11:47.209+05:30",
+  "updated": "2026-09-05T20:51:52.763+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy"
   ],
-  "bytes": 23719,
-  "sha256": "d2698678a438dbb06f573d7e74227dc71d627ffee8ef2ee79e5c329398b52b6f",
+  "bytes": 23527,
+  "sha256": "7fb4a39f2926147fd30c94f690d2aa568fc2f5fb72e999611a0bc9b34ef8e8b0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23719,
+        23527
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

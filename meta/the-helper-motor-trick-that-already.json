@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
   "slug": "the-helper-motor-trick-that-already",
   "published": "2026-08-30T16:49:04.000+05:30",
-  "updated": "2026-09-01T19:48:25.642+05:30",
+  "updated": "2026-09-05T21:13:20.648+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 27140,
-  "sha256": "7eda7d28e3a10f5d9713d740e2c6673d8d226400ea2abb701402f5019ebf3a30",
+  "bytes": 26948,
+  "sha256": "35f46f11d8f48d54ea54e46b2484d7dc4a98e8d933c247d02399d399c7ec36f2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "first published: LNG starter-helper motor / E-drive retrofit post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27140,
+        26948
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-08-25T10:27:08.803+05:30",
+  "updated": "2026-09-05T21:05:17.255+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 18095,
-  "sha256": "c01c4bfd30bdf629218f082d5f518e538ca75e4ad6cb4b48a8bf43d488da6500",
+  "bytes": 17903,
+  "sha256": "1d24309684943116b5f2259238924bc3e54323ff4437c4cc8320951be9fadf89",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        18095,
+        17903
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

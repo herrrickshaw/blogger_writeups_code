@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
   "published": "2026-08-30T22:16:33.000+05:30",
-  "updated": "2026-09-01T19:42:00.269+05:30",
+  "updated": "2026-09-05T21:11:26.718+05:30",
   "labels": [],
-  "bytes": 38826,
-  "sha256": "28adadcdaf0f2c7e079a981fedf56e7092532fc04ab77c937fd10d2ad3da622c",
+  "bytes": 38634,
+  "sha256": "eec895860467541bc4b928ca64d88cfdaf235d4c09c283a59b40a77253af184e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish re-verified posts, IOCL PII fix, new Brazil post"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38826,
+        38634
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

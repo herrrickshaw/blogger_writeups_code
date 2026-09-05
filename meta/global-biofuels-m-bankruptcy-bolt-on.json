@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/global-biofuels-m-bankruptcy-bolt-on.html",
   "slug": "global-biofuels-m-bankruptcy-bolt-on",
   "published": "2026-08-19T10:01:55.000+05:30",
-  "updated": "2026-08-25T10:19:12.846+05:30",
+  "updated": "2026-09-05T20:58:36.388+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Markets & Finance"
   ],
-  "bytes": 26637,
-  "sha256": "0792a157418e1d2f6a2dcd9bfa442aa5d1eafb8600859287b96182b09a4d8fcd",
+  "bytes": 26445,
+  "sha256": "ade1e76bbe80e19a2eb24c393063cfaec71b2f984b107319cf67a4f0779d9e74",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26637,
+        26445
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

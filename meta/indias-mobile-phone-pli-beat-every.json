@@ -3,15 +3,15 @@
   "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
-  "published": "2026-08-30T08:15:44.389+05:30",
-  "updated": "2026-08-30T08:15:57.195+05:30",
+  "published": "2026-08-30T08:15:44.000+05:30",
+  "updated": "2026-09-05T21:03:58.356+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 21271,
-  "sha256": "001522cffa7dbda029178652044b857de1350154a09ce7062a62654814b58ddc",
+  "bytes": 21006,
+  "sha256": "7f7000ffb2549d21fc37b4e9dc7ca4441c030c5b4cab7a4313ba1f6b2e36ea4d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "feat(electronics): PLI-LSEM vs Semicon India execution comparison, first Electronics & Semiconductors piece"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        21271,
+        21006
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

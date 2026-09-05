@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-08-25T10:34:05.996+05:30",
+  "updated": "2026-09-05T21:12:49.587+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 13937,
-  "sha256": "4bc1d5ab270ab8d4fe421be7925f4aafa2b582cd188e639f93be6e4bbca1ab67",
+  "bytes": 13745,
+  "sha256": "541a17f4033e42fc1ca7ba8b29bcbe5b2e010bbd0e4c5353a57fe8f5d420c134",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -155,6 +155,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        13937,
+        13745
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html",
   "slug": "winter-is-coming-for-europes-landlocked",
   "published": "2026-08-22T08:38:34.000+05:30",
-  "updated": "2026-08-22T12:05:46.895+05:30",
+  "updated": "2026-09-05T21:18:06.052+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Norway"
   ],
-  "bytes": 70653,
-  "sha256": "9808e88e2df187a4302b4b50a923ed01cf6d7ceb4e06a59942faa3b6418d8ee8",
+  "bytes": 70461,
+  "sha256": "1a2466c2322b957acb84b3412a1eb3a5d07e9cbf98cff1c0c514d963eb0ceee7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        70653,
+        70461
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

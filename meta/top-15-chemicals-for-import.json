@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-08-30T17:46:49.739+05:30",
+  "updated": "2026-09-05T21:15:21.740+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 101140,
-  "sha256": "988faf16669eeb409226d6682c68c49ed93741327031144a003a99cf8e57b707",
+  "bytes": 100959,
+  "sha256": "076870b2880913baa53f8ac4f307369a939ed75172aa4eb4008432ec29d590fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -261,6 +261,19 @@
         ]
       },
       "note": "restore: recovered PCPIR section, disclaimer, translate widget and index link lost from the live post"
+    },
+    {
+      "version": "5.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        101140,
+        100959
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

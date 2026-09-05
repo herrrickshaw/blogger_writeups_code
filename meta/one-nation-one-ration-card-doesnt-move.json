@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
   "slug": "one-nation-one-ration-card-doesnt-move",
   "published": "2026-09-05T12:36:54.000+05:30",
-  "updated": "2026-09-05T14:37:12.494+05:30",
+  "updated": "2026-09-05T21:07:32.373+05:30",
   "labels": [],
-  "bytes": 49666,
-  "sha256": "82521a4bb919113a35a14030ae713141a67742ac486cab994bf62cba7e831671",
+  "bytes": 57959,
+  "sha256": "e028d36ad5773845e3e6ae6e4cceeed9abdff9bf62cb4f7e55680ce1b94ddf65",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+20/-0 distinct numbers))",
+      "bytes": [
+        49666,
+        57959
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

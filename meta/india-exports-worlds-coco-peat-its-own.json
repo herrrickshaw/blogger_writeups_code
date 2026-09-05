@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html",
   "slug": "india-exports-worlds-coco-peat-its-own",
   "published": "2026-08-26T14:55:15.000+05:30",
-  "updated": "2026-08-26T18:07:12.009+05:30",
+  "updated": "2026-09-05T21:00:28.009+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 46194,
-  "sha256": "b1ef11164a3c815804b4b3a4745b320e31edb36478be1afa6d9956c18d0d4ba7",
+  "bytes": 45837,
+  "sha256": "68fa9c7cef8b9ad2fbaa48391b57fb1e0ab7162184bfea7b2bc17199b1617c5a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        46194,
+        45837
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

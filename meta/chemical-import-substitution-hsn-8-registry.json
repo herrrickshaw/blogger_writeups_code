@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-08-25T10:14:32.621+05:30",
+  "updated": "2026-09-05T20:55:00.746+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 23962,
-  "sha256": "adc85a89e75f4040ddebb191f71f03b33a19e54b1e77f66d25982b59d12c9378",
+  "bytes": 23775,
+  "sha256": "a20e04e5c2a8a9a193430102f5d1462b8fb5d7c30ce0e3a6759bbb99a2f9714b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -226,6 +226,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23962,
+        23775
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
   "published": "2026-08-28T21:08:06.000+05:30",
-  "updated": "2026-09-01T22:10:04.119+05:30",
+  "updated": "2026-09-05T21:10:22.289+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 35087,
-  "sha256": "bab4b72f968bdac044fbb413e541a491701a55cc5bab03cb5615033fac1cc4ae",
+  "bytes": 34713,
+  "sha256": "77f0841100ce880acc5f2b537223c88fd3bc75506a0058c8cc55b71414a1ce21",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
+    },
+    {
+      "version": "4.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35087,
+        34713
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

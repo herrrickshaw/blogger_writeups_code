@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-09-03T10:25:34.295+05:30",
+  "updated": "2026-09-05T21:16:33.254+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 46848,
-  "sha256": "6e9a128797689ad757cb3d23d9bbb12a1cb06830ae23d0230f46eb759ce2e633",
+  "bytes": 46506,
+  "sha256": "0988c047e46a5a98a8d4b5011793ca2e21ac7f5291b965f161f0f47bf57b5285",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish TN drainage/CBG/vector-disease fact-check post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        46848,
+        46506
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

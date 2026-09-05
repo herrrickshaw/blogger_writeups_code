@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-08-30T07:51:12.301+05:30",
+  "updated": "2026-09-05T21:13:49.973+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 43266,
-  "sha256": "f2ae5be40950d25a9c66052c8a34c624ace041145e4f82f9a377e1f958d57949",
+  "bytes": 43074,
+  "sha256": "75db792cadfb5ee368f5750615bf1b8fa90fce1c731ae919351998c8fa97fe17",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "content: refresh dairy milk-production figure with primary Lok Sabha source; add REPM bid-count update to rare-earth magnets piece"
+    },
+    {
+      "version": "2.0.2",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        43266,
+        43074
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

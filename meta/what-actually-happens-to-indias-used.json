@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
   "slug": "what-actually-happens-to-indias-used",
   "published": "2026-08-23T22:08:12.000+05:30",
-  "updated": "2026-08-25T10:37:27.041+05:30",
+  "updated": "2026-09-05T21:16:15.684+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "India"
   ],
-  "bytes": 41743,
-  "sha256": "77ddb8104e47b82dffed2c32533d0a2f7a6f830380e8b76edd360a64ee551a80",
+  "bytes": 41466,
+  "sha256": "17f857b0eb4d93d15e4b1fd50060ca3356a851c35fc53abd0663372196351ea6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        41743,
+        41466
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

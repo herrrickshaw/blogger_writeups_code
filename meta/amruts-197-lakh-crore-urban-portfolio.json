@@ -3,14 +3,14 @@
   "title": "AMRUT's ₹1.97 Lakh Crore Urban Portfolio: Water Supply Is 41% of Projects, 60% of the Money",
   "url": "https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html",
   "slug": "amruts-197-lakh-crore-urban-portfolio",
-  "published": "2026-08-29T12:46:45.440+05:30",
-  "updated": "2026-08-29T15:15:24.596+05:30",
+  "published": "2026-08-29T12:46:45.000+05:30",
+  "updated": "2026-09-05T20:52:57.634+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 23330,
-  "sha256": "7d46eb76986ae7c2544297bba6b53c6152cb6b8b16be5e6b3234e467e83972ba",
+  "bytes": 23028,
+  "sha256": "8345424be3e24dd038c188e5e9fa4f6fe3ed0930632557395163397b8f47a390",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Gemini clarity fix: corrected Feb->Aug 2026 date discrepancy, fixed ambiguous 36%-of-what phrasing"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23330,
+        23028
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-09-01T22:10:21.314+05:30",
+  "updated": "2026-09-05T21:12:20.085+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 35317,
-  "sha256": "0b2a197d7d3120a9a57e308748338ce4b99276c536c31da5b23d26ed40c3b346",
+  "bytes": 35124,
+  "sha256": "691b64fa575aca6d19b36b90e457322f51cc4e179eec0c782bca50d8c28d9a05",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add reciprocal cross-links to TNPL and OISD/API/FIPI posts"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35317,
+        35124
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

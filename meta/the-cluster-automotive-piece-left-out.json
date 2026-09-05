@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
   "published": "2026-08-15T07:20:21.000+05:30",
-  "updated": "2026-08-25T10:33:38.397+05:30",
+  "updated": "2026-09-05T21:12:14.570+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 23701,
-  "sha256": "ddd922ecb62b61a3bf8a6f7de80f149acbe404a8ddeb33980026a46f33df09ff",
+  "bytes": 23520,
+  "sha256": "01f8b1f50aa62ecf92a14c8f97c57551ec1b73899a8c82d74ad78a56ad846d02",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23701,
+        23520
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

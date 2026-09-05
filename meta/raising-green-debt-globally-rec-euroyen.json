@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-08-25T10:29:36.350+05:30",
+  "updated": "2026-09-05T21:08:45.382+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 68918,
-  "sha256": "4ed174bc6f2b6534be394a79bbc592c884cdedbee7063578f452f8a9625d0b2a",
+  "bytes": 68726,
+  "sha256": "30870264508234a6fb45b7d2e5428ac4bb0bee701a5f9c47c079cf754a1b31b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        68918,
+        68726
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

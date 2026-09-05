@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-09-04T06:02:43.760+05:30",
+  "updated": "2026-09-05T21:17:02.616+05:30",
   "labels": [],
-  "bytes": 44917,
-  "sha256": "84808d2633ce2ef28002b8c343eb2761185c9894681a974bb0d7cc19e79dc8f0",
+  "bytes": 44504,
+  "sha256": "e5cdedc481e652b97003dad94558cc245ecb686391c605fbf262a73b62e69af7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Link full FDI dataset JSON from dashboard post"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        44917,
+        44504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

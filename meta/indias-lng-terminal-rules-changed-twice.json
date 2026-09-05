@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
   "slug": "indias-lng-terminal-rules-changed-twice",
   "published": "2026-09-01T22:21:11.000+05:30",
-  "updated": "2026-09-02T03:38:26.652+05:30",
+  "updated": "2026-09-05T21:03:40.035+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 29227,
-  "sha256": "e3c8872fb434ed286161819c254ae95183384d9cec07f264628e1d6992a19340",
+  "bytes": 29032,
+  "sha256": "024a3996c3c086b3f82122693139becd1fb672a399bd0ba66fdf6516cec368c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish MoPNG MSME procurement post"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        29227,
+        29032
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -3,14 +3,14 @@
   "title": "West Bengal Sanctioned 12.6 Lakh PMAY-G Houses. It Has Finished 1.5 Lakh. The Reason Is a Four-Year Funds Freeze.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
   "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
-  "published": "2026-08-30T08:03:08.167+05:30",
-  "updated": "2026-08-30T08:03:19.442+05:30",
+  "published": "2026-08-30T08:03:08.000+05:30",
+  "updated": "2026-09-05T21:16:10.232+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 22547,
-  "sha256": "4e3e92927d5456a364bbdbc5615ebe5806c75a9e68439c904346308a19cf5d6e",
+  "bytes": 22298,
+  "sha256": "9c54bf1e8939215b8bc9c775914b3d32af1f8415eee6b7402191dcd0a56a7dd1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "feat(pmay-g): West Bengal PMAY-G funds-freeze piece — 5yr completion 12.1% vs national 56.6%"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22547,
+        22298
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

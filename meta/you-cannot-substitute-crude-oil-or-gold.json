@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html",
   "slug": "you-cannot-substitute-crude-oil-or-gold",
   "published": "2026-08-23T04:30:03.000+05:30",
-  "updated": "2026-08-26T10:58:52.690+05:30",
+  "updated": "2026-09-05T21:18:17.421+05:30",
   "labels": [
     "Import Substitution",
     "India Trade & Policy",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 35150,
-  "sha256": "717ff69e5b20a8fa619e20f65611cadadf188e9c8fc85e367ca8f998e483d9cf",
+  "bytes": 34958,
+  "sha256": "d8d79ef5f89ecb43c653db3167ad4ab729f93021fe2b04245ce17a8913f8d427",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        35150,
+        34958
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-08-25T10:37:34.511+05:30",
+  "updated": "2026-09-05T21:16:21.940+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 38505,
-  "sha256": "b1389107d65a0c7d5aa9134e82f77066b70d179f9cb5920e4c1daf837e2752f8",
+  "bytes": 38310,
+  "sha256": "e745387b7dee109fb2a488867d1cb44fa9913a04eeb6913fd3a10f8a212bf3bc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38505,
+        38310
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

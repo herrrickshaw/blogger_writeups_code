@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
   "slug": "india-ec-approval-funnel-parivesh-20",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T20:30:46.157+05:30",
+  "updated": "2026-09-05T21:00:14.816+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 18911,
-  "sha256": "974885db07cf9d2667b505b32044d248aa56f952ceec9b50e8602a9db5d54d5d",
+  "bytes": 18730,
+  "sha256": "55a9cc627808d98442985bc15794eee8f689705b2ceae05f6fb2d748e80fa737",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        18911,
+        18730
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

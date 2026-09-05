@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html",
   "slug": "india-cannot-sell-china-free-medicine",
   "published": "2026-08-23T10:16:58.000+05:30",
-  "updated": "2026-08-25T10:21:07.472+05:30",
+  "updated": "2026-09-05T21:00:07.574+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 36658,
-  "sha256": "ad450180b79e11b89280aa119718d49848c9f228936fc42d0c7ab5a849ff1b99",
+  "bytes": 36386,
+  "sha256": "2f766770a6847e21e8dd55b17ad0cff0ddd55ef9e925f5307f3ac2d13023238a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        36658,
+        36386
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

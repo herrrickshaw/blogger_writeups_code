@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-09-01T12:32:34.742+05:30",
+  "updated": "2026-09-05T21:13:44.294+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 55168,
-  "sha256": "6ce8fd73c46ec4a88a86fcb02e09c2e840962c0cdd6ed8fda1974ffc42a6904e",
+  "bytes": 55141,
+  "sha256": "c81073f9773d5e0ef0f43fad936a1d1d91b72c21886063bec38afbb7fea77e36",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.0.0",
+  "version": "9.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -476,6 +476,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "9.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        55168,
+        55141
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

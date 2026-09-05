@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
   "slug": "cheap-yen-rupee-roads-where-carry-trade",
   "published": "2026-08-08T19:13:15.000+05:30",
-  "updated": "2026-08-25T10:14:00.872+05:30",
+  "updated": "2026-09-05T20:54:39.810+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 27995,
-  "sha256": "48cae53a0b2729e215846e488ce39bab5f7ab19f5bd10bb521e3dfb87145cef9",
+  "bytes": 27803,
+  "sha256": "fdae657c72295c07c224381c95ed4c854d7dee1a7a2be8f9346b2107be09f54a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27995,
+        27803
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

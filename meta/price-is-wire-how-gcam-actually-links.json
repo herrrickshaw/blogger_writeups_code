@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-08-25T10:29:07.996+05:30",
+  "updated": "2026-09-05T21:08:13.231+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 42798,
-  "sha256": "e5fc771fdff00436f20fcfe5825d396b9d44d68463a225dc6d17ee43d3488715",
+  "bytes": 42599,
+  "sha256": "d6cac80ac686f25e2df09784b889b41b58a4a29dd57cb9500c34e70a4658f7c7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -124,6 +124,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        42798,
+        42599
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }

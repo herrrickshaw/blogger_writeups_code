@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html",
   "slug": "oisd-writes-indias-oil-safety-rules-api",
   "published": "2026-09-01T22:01:33.000+05:30",
-  "updated": "2026-09-02T10:00:30.456+05:30",
+  "updated": "2026-09-05T21:07:20.638+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 32532,
-  "sha256": "5021cf101ce3b423c2eb896a90188a24d692cad7904632df9d754bf2baedb5a9",
+  "bytes": 32332,
+  "sha256": "dad7dc489d9c83bd4f99cebe1163306da46c85dbf1cedff2654948bd9c39311a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish DGH/OALP/HELP block-lifecycle post; push FIPI cross-link to OISD post"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-05T21:41:22+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        32532,
+        32332
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
     }
   ]
 }
