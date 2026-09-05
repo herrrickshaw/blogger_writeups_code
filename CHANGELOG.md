@@ -8822,3 +8822,16 @@ Publish gazette-citation post; clean up 2 duplicate inserts
 **Added**
 
 - `interpreting-gazette-notification` **v1.0.0** — Interpreting the Gazette Notification (33,437 bytes)
+
+## 2026-09-05T11:48:20+05:30 — 256 posts live
+
+Amend gazette post for project's depth-pass expansion (2,591 notifications, 53 ministries)
+
+
+**Versions**
+
+- `interpreting-gazette-notification` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+55/-7 distinct numbers))
+
+**Changed**
+
+- `interpreting-gazette-notification` — 33,437 → 38,404 bytes (+4,967)

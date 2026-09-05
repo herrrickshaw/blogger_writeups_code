@@ -27,12 +27,4 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." — The article cites these figures from the Takshashila Institution, but the dollar and rupee figures are quoted as sourced and not converted to a common currency, which could lead to confusion or misinterpretation. The methodology differences between national grid-tariff averages and state-specific backup-power models mean these figures should not be directly compared without adjustment. [confidence: high]
-
-- "The Ministry of Power formally built a projection of 13.56 GW of data-centre electricity demand by FY2031–32 into national transmission planning, published via the Press Information Bureau in March 2026." — The article cites this figure as an official government anchor, but the source is a PIB release from March 2026, which may not represent a formal projection embedded in national transmission planning. The phrasing implies a higher level of official endorsement than is supported by the cited source. [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "Diesel backup power costs roughly 3x the Indian grid average and 3.5x round-the-clock renewable PPAs — figures the post cites from the Takshashila Institution." — The article uses the cost comparison to argue that diesel is economically unviable for backup power, but it does not account for the operational differences between diesel generators and renewable PPAs. Diesel generators are typically used for short-duration backup during grid outages, while renewable PPAs provide continuous power. The comparison conflates different use cases and does not justify the conclusion that diesel is always more expensive in practice. [confidence: high]
-
-- "Telecom towercos have spent a decade proving that alternative [to diesel] works at scale; the data-centre industry is still writing that playbook from scratch, on a much bigger build-out, on a much tighter timeline." — The article assumes that the telecom sector's success with diesel alternatives directly applies to data centres, but it does not consider the differences in power requirements, uptime needs, and infrastructure constraints between the two sectors. Data centres require near-100% uptime and much higher power densities, which may limit the direct applicability of telecom tower solutions. [confidence: high]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
