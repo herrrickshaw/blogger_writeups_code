@@ -7,4 +7,3 @@
 - **[CASING/CAPITALIZATION]** If you’re referring to a specific and known geographical location, the name should be capitalized.
   context: ... connectivity gaps (particularly on the east coast) are closed alongside the terminal capa...
   suggested: East Coast
-- ERROR checking chunk: HTTP Error 500: Internal Server Error

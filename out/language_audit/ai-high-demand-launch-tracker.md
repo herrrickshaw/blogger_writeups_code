@@ -4,4 +4,9 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: The read operation timed out
+- **[CASING/LC_AFTER_PERIOD]** If a new sentence starts here, add a space and start with an uppercase letter.
+  context: ...er) and Cloudflare Wallets / cloudflare.pay (agent identity + stablecoin payments),...
+  suggested:  Pay,  pay
+- **[CASING/AI]** For abbreviations such as ‘artificial intelligence’, use all capital letters. The rare word ‘ai’ is a synonym for ‘three-toed sloth’.
+  context: ...xists (safishamsi/graphify → collabsoft/ai_graphify, 0 stars), and several SEO blo...
+  suggested: AI

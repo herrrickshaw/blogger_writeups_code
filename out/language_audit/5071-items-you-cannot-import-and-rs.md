@@ -4,7 +4,36 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: The read operation timed out
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...items lists is ₹2,570 crore — about 1.4 per cent of one year’s production, and roughly ₹...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...about ₹94 lakh an item, and roughly 1.4 per cent of the ₹1.78 lakh crore India produced ...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...s, carries a corpus of ₹750 crore — 0.4 per cent of annual production.  The lists are a ...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...e year of production — the ratio is 1.4 per cent. On a like-for-like annual basis it wou...
+  suggested: percent
+- **[GRAMMAR/AFFORD_VBG]** If ‘deserves’ is used as a verb, it usually requires the infinitive.
+  context: ...lf is genuinely impressive and deserves saying without hedging: ₹1.78 lakh crore in FY...
+  suggested: to say
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... ₹1.78 lakh crore in FY2025-26, up 15.6 per cent on ₹1.54 lakh crore, and 110 per cent a...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...6 per cent on ₹1.54 lakh crore, and 110 per cent above the ₹84,643 crore of FY2020-21. I...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...el of ₹43,746 crore. Exports rose 62.66 per cent in one year to ₹38,424 crore. Something...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... crore of annual production that is 0.4 per cent — and against the ₹6.81 lakh crore Mini...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...nce budget for FY2025-26, closer to 0.1 per cent. ADITI is a seed programme, and its num...
+  suggested: percent
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...r answered. Defence production grew 110 per cent between FY2020-21 and FY2025-26. The li...
   suggested: percent
