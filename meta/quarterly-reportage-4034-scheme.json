@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-08-26T11:53:00.385+05:30",
+  "updated": "2026-09-05T20:31:13.620+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 543498,
-  "sha256": "7ed394f7dcd8d13816e15d317a5e96418977109f1fe8250c7eb13b99eefc8395",
+  "bytes": 542618,
+  "sha256": "d580116d5f740ee3e3b5d277aa138842b0879a1cfce589e2c6ce6fe3fa24cb4e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -233,6 +233,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-05T20:35:37+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        543498,
+        542618
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
     }
   ]
 }

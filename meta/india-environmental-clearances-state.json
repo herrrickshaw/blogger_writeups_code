@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-08-25T10:21:32.398+05:30",
+  "updated": "2026-09-05T20:30:34.025+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 17694,
-  "sha256": "636b173973a4648d87a7d1e0d2bb4fc5023642d1c2783268610650b22f5bf01e",
+  "bytes": 16814,
+  "sha256": "65975fb30291d95483ba0a99e9ea6a57399072d731c3acfb240f156eb2b628be",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -208,6 +208,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-05T20:35:37+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        17694,
+        16814
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
     }
   ]
 }

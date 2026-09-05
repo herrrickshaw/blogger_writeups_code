@@ -8835,3 +8835,41 @@ Amend gazette post for project's depth-pass expansion (2,591 notifications, 53 m
 **Changed**
 
 - `interpreting-gazette-notification` — 33,437 → 38,404 bytes (+4,967)
+
+## 2026-09-05T20:35:37+05:30 — 257 posts live
+
+AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired
+
+
+**Added**
+
+- `right-of-user-what-indias-pipeline` **v1.0.0** — Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State (40,054 bytes)
+- `one-nation-one-ration-card-doesnt-move` **v1.0.0** — One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It (49,666 bytes)
+
+**Versions**
+
+- `lok-sabha-question-registry-1843-scheme` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `rajya-sabha-question-registry-scheme` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `quarterly-reportage-4034-scheme` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `cpi-inflation-heatmap-india-june-2026` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `real-gdp-growth-india-fy2012-13-to` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `fci-storage-scenario-capacity-stock-and` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-petrochemical-import-tree-from` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-ec-approval-funnel-parivesh-20` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-environmental-clearances-state` **2.0.0 → 2.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `lok-sabha-question-registry-1843-scheme` — 394,232 → 393,352 bytes (-880)
+- `rajya-sabha-question-registry-scheme` — 338,585 → 337,705 bytes (-880)
+- `quarterly-reportage-4034-scheme` — 543,498 → 542,618 bytes (-880)
+- `cpi-inflation-heatmap-india-june-2026` — 80,589 → 79,709 bytes (-880)
+- `real-gdp-growth-india-fy2012-13-to` — 36,074 → 35,194 bytes (-880)
+- `fci-storage-scenario-capacity-stock-and` — 19,647 → 19,120 bytes (-527)
+- `indias-petrochemical-import-tree-from` — 26,679 → 26,152 bytes (-527)
+- `india-ec-approval-funnel-parivesh-20` — 19,791 → 18,911 bytes (-880)
+- `india-environmental-clearances-state` — 17,694 → 16,814 bytes (-880)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `about-author` — About the Author

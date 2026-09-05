@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-08-25T10:17:34.142+05:30",
+  "updated": "2026-09-05T20:30:12.865+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 19647,
-  "sha256": "a9bb20aed2b2c0c3024bd4a6e0aa30f49a10821ffcd9a3967c1245f737e7ef06",
+  "bytes": 19120,
+  "sha256": "4e38f2434c76f5b508521d8b0ee72bd0065333c1505e3fbca5f843081e4deb4a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-05T20:35:37+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        19647,
+        19120
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
     }
   ]
 }

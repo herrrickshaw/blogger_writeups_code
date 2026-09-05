@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
   "slug": "lok-sabha-question-registry-1843-scheme",
   "published": "2026-08-04T16:00:00.000+05:30",
-  "updated": "2026-08-25T10:28:06.476+05:30",
+  "updated": "2026-09-05T20:31:30.669+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 394232,
-  "sha256": "1e8b376d3ef94730f191ea74c3762aaeff71ce583dc782583b7593b95c509d38",
+  "bytes": 393352,
+  "sha256": "ebd851022e0bbfc88af87752d366e3c2fc62919ddb076cd39be07d9d266cf2a3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -234,6 +234,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-05T20:35:37+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        394232,
+        393352
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
     }
   ]
 }

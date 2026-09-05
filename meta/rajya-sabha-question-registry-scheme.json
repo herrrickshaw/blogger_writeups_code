@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
   "slug": "rajya-sabha-question-registry-scheme",
   "published": "2026-08-04T15:55:00.000+05:30",
-  "updated": "2026-08-25T10:29:48.322+05:30",
+  "updated": "2026-09-05T20:30:57.957+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 338585,
-  "sha256": "acdcd9de1ac6ad839238e5b5b2940162e5f70854216f23c4400807d391750269",
+  "bytes": 337705,
+  "sha256": "1db4d1d4b63e81f49437ed6a253401159afa2e8d95ac7b553d87c968b96678f5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "scheduled sync"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-05T20:35:37+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        338585,
+        337705
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
     }
   ]
 }
