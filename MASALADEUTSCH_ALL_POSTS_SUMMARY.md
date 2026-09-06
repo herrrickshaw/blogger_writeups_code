@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*253 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*255 published posts, 40 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 5 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 6 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -1286,8 +1286,12 @@
 - **[India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)](https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html)** — 2026-07-24
   The polymers and chemicals India imports are made from the same petrol-range refinery streams it burns or exports as fuel: naphtha (→ olefins) and reformate aromatics (→ BTX). Each product below is tagged with its 8-digit ITC-HS code and import dependence — the map for crude-to-chemicals import substitution.
 
-### Unlabelled (11)
+### Unlabelled (13)
 
+- **[Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State](https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html)** — 2026-09-05
+  Roughly two-thirds of everything the Ministry of Petroleum & Natural Gas gazettes isn't fuel-pricing policy — it's land. Every kilometre of pipeline crossing private land needs a specific, dated notification acquiring the "right of user" under a 1962 law, and those notifications, not the more visible tender and pricing orders, are the bulk of this ministry's paper trail. This piece maps what that actually looks like: the two separate laws doing two separate jobs, the national pipeline build-out those notifications are quietly enabling, and a state-by-state accounting of the specific projects this piece could verify — with an explicit, prominent flag on where that accounting is solid and where it isn't.
+- **[One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)** — 2026-09-05
+  One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
 - **[Interpreting the Gazette Notification](https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html)** — 2026-09-04
   Read any single Indian gazette notification on its own and you cannot tell whether it is the first version of a rule or the seventh, whether an earlier version was quietly withdrawn as a mistake, or whether the deadline it extends has already been extended thirty-five times before. A small independent research project set out to build a citation index for these notifications — what amends what, ministry by ministry — and in doing so surfaced a tribunal whose report deadline has been pushed back 36 times since 1986, still unresolved 40 years later, tracked nowhere as a single chain until now.
 - **[Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data](https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html)** — 2026-09-03
@@ -1309,7 +1313,7 @@
 - **[A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It](https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html)** — 2026-08-30
   India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour. The 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal signed in January 2026. That deal is not yet in force, and may not be until 2027 or 2028.
 - **[Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)** — 2020-10-04
-  AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written. It is a personal essay and carries no formal source citations beyond the one link below.
+  About this article: Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the Editorial Policy for how sourcing, AI use and corrections work.
 
 
 ## Chronological (All Posts)
@@ -1318,7 +1322,7 @@
 ### [Tech for Business so 2019, Tech As Business is for 2020! ](https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html)
 *2020-10-04 · —*
 
-AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written. It is a personal essay and carries no formal source citations beyond the one link below.
+About this article: Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the Editorial Policy for how sourcing, AI use and corrections work.
 
 ### [India Trade — Sector & Policy Recommendations (Chart Library)](https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html)
 *2026-07-21 · Industrial Policy*
@@ -2579,3 +2583,13 @@ Tamil Nadu's Madurai sewerage figure making the rounds is off by a thousand cror
 *2026-09-04 · —*
 
 Read any single Indian gazette notification on its own and you cannot tell whether it is the first version of a rule or the seventh, whether an earlier version was quietly withdrawn as a mistake, or whether the deadline it extends has already been extended thirty-five times before. A small independent research project set out to build a citation index for these notifications — what amends what, ministry by ministry — and in doing so surfaced a tribunal whose report deadline has been pushed back 36 times since 1986, still unresolved 40 years later, tracked nowhere as a single chain until now.
+
+### [Right of User: What India's Pipeline Gazette Notifications Actually Show, State by State](https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html)
+*2026-09-05 · —*
+
+Roughly two-thirds of everything the Ministry of Petroleum & Natural Gas gazettes isn't fuel-pricing policy — it's land. Every kilometre of pipeline crossing private land needs a specific, dated notification acquiring the "right of user" under a 1962 law, and those notifications, not the more visible tender and pricing orders, are the bulk of this ministry's paper trail. This piece maps what that actually looks like: the two separate laws doing two separate jobs, the national pipeline build-out those notifications are quietly enabling, and a state-by-state accounting of the specific projects this piece could verify — with an explicit, prominent flag on where that accounting is solid and where it isn't.
+
+### [One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html)
+*2026-09-05 · —*
+
+One Nation One Ration Card sounds like it should strain the machinery that moves grain around India — a family that migrates from Bihar to Kerala still has to eat, after all. It doesn't, and the reason why is itself the more interesting story: interstate portability is under 1% of all transactions on the system. The genuine food-versus-fuel tension in Indian grain policy is real, well-documented, and running through a completely different pipe — FCI's surplus rice being sold to ethanol distillers at roughly 40% below what it cost to buy, under a tender clause that specifically requires distillers to use it.
