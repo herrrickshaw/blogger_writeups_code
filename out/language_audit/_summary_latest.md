@@ -1,6 +1,6 @@
-# Language audit summary — 2026-09-05
+# Language audit summary — 2026-09-06
 
-*116 of 264 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*126 of 266 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -30,6 +30,7 @@
 - [The Fearless Girl's Charter — India's Market Asks 2026](https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html) — 6 matches — see `the-fearless-girls-charter-indias.md`
 - [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 4 matches — see `574-gw-and-counting-indias-wind-fleet.md`
+- [One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html) — 4 matches — see `one-nation-one-ration-card-doesnt-move.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_01251035403.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_0974259386.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_0974259386.md`
@@ -118,3 +119,12 @@
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of.md`
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
+- [Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html) — 0 matches — see `basf-and-mitsubishi-are-running.md`
+- [Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind](https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html) — 0 matches — see `biomass-power-at-night-dispatchable.md`
+- [BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry](https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html) — 0 matches — see `brandsafway-and-2017-roll-up-wave-that.md`
+- [Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips](https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html) — 0 matches — see `brazil-pumps-e30-at-every-station.md`
+- [Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html) — 0 matches — see `cold-chain-fuel-outlet-integrated-map.md`
+- [CPI & WPI Trends — India (CPI from MoSPI, WPI from DPIIT)](https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html) — 0 matches — see `cpi-wpi-trends-mospi-bulletin.md`
+- [DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_01077708555.html) — 0 matches — see `dgh-has-awarded-172-oalp-blocks-and-436_01077708555.md`
+- [The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs](https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html) — 0 matches — see `the-corrosion-you-cant-see-until.md`
+- [The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like](https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html) — 0 matches — see `the-currency-rupee-trends-piece-left.md`
