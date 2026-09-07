@@ -1,6 +1,6 @@
-# Language audit summary — 2026-09-06
+# Language audit summary — 2026-09-07
 
-*126 of 266 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*120 of 266 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
 - [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
@@ -16,13 +16,12 @@
 - [Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html) — 18 matches — see `japan-ran-out-of-matcha-assam-just-sold.md`
 - [Thirty-One Years of Asking Parliament the Same Question About Fertiliser](https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html) — 14 matches — see `thirty-one-years-of-asking-parliament.md`
 - [₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html) — 13 matches — see `7186-litre-why-maize-is-indias-priciest.md`
-- [The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html) — 10 matches — see `the-balkan-relish-india-already-has.md`
 - [The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target](https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html) — 9 matches — see `the-levelised-cost-of-hydrogen.md`
 - [CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html) — 8 matches — see `cgd-geographical-areas-district.md`
 - [India's 8-Digit Trade Book, Searchable](https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html) — 8 matches — see `indias-8-digit-trade-book-searchable.md`
+- [The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html) — 8 matches — see `the-balkan-relish-india-already-has.md`
 - [IPA Digital Twin — Reportage: Latest Updates (28 Jul – 26 Aug 2026)](https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html) — 7 matches — see `ipa-digital-twin-reportage-latest.md`
 - [Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item](https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html) — 7 matches — see `refineries-under-fire-how-two-wars.md`
-- [Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html) — 7 matches — see `ten-cubic-metres-hour-indias-first.md`
 - [$0.28 a Unit: The Diesel Math Behind India's Data Centres and Telecom Towers, and Why It's Already Losing](https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html) — 6 matches — see `028-unit-diesel-math-behind-indias-data.md`
 - [Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part](https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html) — 6 matches — see `everyone-worries-about-who-pays-for.md`
 - [Foreign Capital Found India's Hospitals — It Is Buying Them, Not Building New Ones](https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html) — 6 matches — see `foreign-capital-found-indias-hospitals.md`
@@ -44,6 +43,7 @@
 - [Petroleum Trade Pairings and the US Crude Storage Picture](https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html) — 3 matches — see `petroleum-trade-pairings-and-us-crude.md`
 - [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html) — 3 matches — see `pngrb-hydrogen-blending-pilots-real.md`
 - [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
+- [Ten Cubic Metres an Hour: India's First Green Fuel Bunkering Rulebook, and the Pilots Behind It](https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html) — 3 matches — see `ten-cubic-metres-hour-indias-first.md`
 - [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 3 matches — see `the-detergent-chemical-india-exports.md`
 - [The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html) — 3 matches — see `the-green-shift-what-indias-oil.md`
 - [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 3 matches — see `the-margin-case-why-lpg-and.md`
@@ -105,7 +105,6 @@
 - [Re-Spinning the Charkha](https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html) — 1 matches — see `re-spinning-charkha.md`
 - [RIN, RED and CBIO: What India's Ethanol Programme Could Borrow From Three Different Carbon-Credit Machines](https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html) — 1 matches — see `rin-red-and-cbio-what-indias-ethanol.md`
 - [State by State: Who Actually Earns from Ethanol Blending? SGST Scenarios, E10-E30](https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html) — 1 matches — see `state-by-state-who-actually-earns-from.md`
-- [Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html) — 1 matches — see `sugarcanes-third-claimant-whats.md`
 - [Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html) — 1 matches — see `tarpaulin-is-genuine-export-win.md`
 - [TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html) — 1 matches — see `tasmacs-retail-exit-case-for.md`
 - [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html) — 1 matches — see `the-4-nobody-notices-and-three-other.md`
@@ -119,12 +118,7 @@
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of.md`
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html) — 0 matches — see `basf-and-mitsubishi-are-running.md`
-- [Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind](https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html) — 0 matches — see `biomass-power-at-night-dispatchable.md`
-- [BrandSafway and the 2017 Roll-Up Wave That Turned Scaffolding Into a $6.7 Billion Industry](https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html) — 0 matches — see `brandsafway-and-2017-roll-up-wave-that.md`
-- [Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips](https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html) — 0 matches — see `brazil-pumps-e30-at-every-station.md`
-- [Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html) — 0 matches — see `cold-chain-fuel-outlet-integrated-map.md`
-- [CPI & WPI Trends — India (CPI from MoSPI, WPI from DPIIT)](https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html) — 0 matches — see `cpi-wpi-trends-mospi-bulletin.md`
-- [DGH Has Awarded 172 OALP Blocks and 4.36 Billion Dollars in Pledges. One Has Reached Production](https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_01077708555.html) — 0 matches — see `dgh-has-awarded-172-oalp-blocks-and-436_01077708555.md`
-- [The Corrosion You Can't See Until the Insulation Comes Off: CUI on FSRUs and FPSOs](https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html) — 0 matches — see `the-corrosion-you-cant-see-until.md`
-- [The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like](https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html) — 0 matches — see `the-currency-rupee-trends-piece-left.md`
+- [India's State Incentive War: Gujarat's Execution Edge, Karnataka's FDI Inversion, and Why Nobody Can Tell You Who Actually Got Paid](https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html) — 0 matches — see `indias-state-incentive-war-gujarats.md`
+- [Sugarcane's Third Claimant: What's Actually Being Fermented Into India's First PLA Plant](https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html) — 0 matches — see `sugarcanes-third-claimant-whats.md`
+- [Textbooks Say Project Returns Converge to Cost of Capital. About 79% of the Gap Survives Each Year](https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html) — 0 matches — see `textbooks-say-project-returns-converge.md`
+- [The CBG Incentive Stack — Every Leg of a Biogas Plant De-risked](https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html) — 0 matches — see `the-cbg-incentive-stack-every-leg-of.md`
