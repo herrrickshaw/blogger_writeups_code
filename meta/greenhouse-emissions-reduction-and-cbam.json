@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-09-05T21:51:30.025+05:30",
+  "updated": "2026-09-07T19:24:07.519+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 28704,
-  "sha256": "aab01e838303634f97b0a903ca131260a19e8c890167e54765fb17a064a6f18e",
+  "bytes": 27785,
+  "sha256": "5540b23d8fc5332ef1668c1bc87a58a0a98721f4a151781db1fb2406ad791e0e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28704,
+        27785
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

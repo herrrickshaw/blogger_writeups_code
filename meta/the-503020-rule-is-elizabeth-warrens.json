@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-09-05T22:03:21.541+05:30",
+  "updated": "2026-09-07T19:37:05.533+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 24510,
-  "sha256": "4e5bf8f67c6f6d28e5b468be10652a8b67d9517eb0667d43cd7d50172cb76541",
+  "bytes": 23591,
+  "sha256": "b68e07ecc9723b908c042117cd64a64c394ba4faa1e4440bfd41f8d480698840",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24510,
+        23591
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

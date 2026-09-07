@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html",
   "slug": "tarpaulin-is-genuine-export-win",
   "published": "2026-08-15T11:49:15.000+05:30",
-  "updated": "2026-09-05T22:02:25.495+05:30",
+  "updated": "2026-09-07T19:36:09.333+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 19891,
-  "sha256": "1631c14fa7dd854206b8dc33b473ce18eca219f96358d0f7834e909000891427",
+  "bytes": 18972,
+  "sha256": "d5600fb20519d64dbdc9136ab82505d758f4c795d927c9cc2ac5313c91bac779",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        19891,
+        18972
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

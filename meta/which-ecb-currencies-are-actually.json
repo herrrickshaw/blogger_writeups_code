@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-09-05T22:09:26.059+05:30",
+  "updated": "2026-09-07T19:43:07.376+05:30",
   "labels": [
     "Markets & Finance",
     "Sustainable Finance"
   ],
-  "bytes": 24113,
-  "sha256": "75a88943f12b93a42b0d460adf2398f636233779e83a71d12fbb947840a6cc5e",
+  "bytes": 23194,
+  "sha256": "13195e717b87e2b681f5ee19fd829994a108f7936af84897e8975028a2359cc2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24113,
+        23194
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

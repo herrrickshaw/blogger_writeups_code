@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-milk-india-doesnt-drink-cheese-and.html",
   "slug": "the-milk-india-doesnt-drink-cheese-and",
   "published": "2026-08-19T06:37:02.000+05:30",
-  "updated": "2026-09-05T22:05:30.501+05:30",
+  "updated": "2026-09-07T19:39:13.042+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 42126,
-  "sha256": "265080b777f6c242c28fb36c6e9a541283b0bc1f994682341ab015b5b0fc5a9d",
+  "bytes": 41207,
+  "sha256": "94378c38738be80a8bca5112069d1637bf1fd0761571265da33387d3e98afb7d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        42126,
+        41207
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

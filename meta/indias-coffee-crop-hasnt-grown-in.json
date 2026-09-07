@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-09-05T21:55:13.983+05:30",
+  "updated": "2026-09-07T19:28:07.827+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 28382,
-  "sha256": "8d1eb3b8c7d26b5ef7d4e5250e2c0ed938efae4313ed4ce0f8eac6d7fbddd981",
+  "bytes": 27461,
+  "sha256": "b987ab39c68047ef5d86368e48250e23caa3703a7de6905513c6645e9c8f1bf3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28382,
+        27461
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

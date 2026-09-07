@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html",
   "slug": "indias-trade-story-has-three-big-wins",
   "published": "2026-08-08T21:53:13.000+05:30",
-  "updated": "2026-09-05T21:57:11.100+05:30",
+  "updated": "2026-09-07T19:30:24.215+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 24060,
-  "sha256": "4bd016a3fff12d04be7cc1fb925e20ba09a252a8252bb70f3ae0e69a39ac0e4a",
+  "bytes": 23141,
+  "sha256": "4446d14422e7f3c40e4bc0a3c14193fd9e37c9648a46a0cc0fa65d7ff62b3b6b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24060,
+        23141
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

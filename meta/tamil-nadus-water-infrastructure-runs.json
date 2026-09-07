@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
   "slug": "tamil-nadus-water-infrastructure-runs",
   "published": "2026-08-25T10:48:07.000+05:30",
-  "updated": "2026-09-05T22:02:13.378+05:30",
+  "updated": "2026-09-07T19:35:56.733+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 25074,
-  "sha256": "55234285a62431479851807c5e03244900002b614fbfadcf04db959dc7525656",
+  "bytes": 24153,
+  "sha256": "e161dfef04ce19f74115062214583755b95cf1f6061a82ab42b14b0f2fb72d02",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25074,
+        24153
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

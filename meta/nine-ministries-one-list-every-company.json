@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-09-05T21:58:57.656+05:30",
+  "updated": "2026-09-07T19:32:21.042+05:30",
   "labels": [
     "India",
     "Industrial Policy"
   ],
-  "bytes": 65103,
-  "sha256": "55cce54cedef129d09e439e3e2e3e5046f5e20c4609b52860c1079f0b9e7d6ac",
+  "bytes": 64182,
+  "sha256": "be92f3b56e0a26bbc417f6e7f60792aaca90267df1f08510d5b6904b289e188a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        65103,
+        64182
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html",
   "slug": "indias-trade-balance-hsn-wise",
   "published": "2026-08-02T14:00:15.000+05:30",
-  "updated": "2026-09-05T21:57:04.870+05:30",
+  "updated": "2026-09-07T19:30:17.396+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 59712,
-  "sha256": "ee4ec62b946979c4eff9a529ad9d40a3df9cccaef97897eb00e908a58171a319",
+  "bytes": 60647,
+  "sha256": "5718e909c3347ae4a2f98a6e73b5022f44ef58bcd7f111aa05911349cd3ab60c",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -220,6 +220,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        59712,
+        60647
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

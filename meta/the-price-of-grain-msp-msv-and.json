@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
   "slug": "the-price-of-grain-msp-msv-and",
   "published": "2026-07-23T05:30:00.000+05:30",
-  "updated": "2026-09-05T22:05:55.951+05:30",
+  "updated": "2026-09-07T19:39:38.296+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 40158,
-  "sha256": "caad0f025cac4f603bb0c79e015269749df581adaa2ec029efbcb9dd6dabc134",
+  "bytes": 39239,
+  "sha256": "2abd272475594205d858f79bea28fbb30b3bcb0f9116f3a1ad9c3ca3385f2c1e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -247,6 +247,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40158,
+        39239
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

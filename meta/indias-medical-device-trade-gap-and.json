@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
   "slug": "indias-medical-device-trade-gap-and",
   "published": "2026-08-05T05:24:27.000+05:30",
-  "updated": "2026-09-05T21:56:10.273+05:30",
+  "updated": "2026-09-07T19:29:08.968+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26603,
-  "sha256": "9d5b64573af0b15e53b62b1d810ab13821f59420be1b8ae313dded2278a01803",
+  "bytes": 25684,
+  "sha256": "870f3486ce7172ebc96be595d64221cff1eebe14a27dcd0eeec6d34dd56473c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -208,6 +208,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26603,
+        25684
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

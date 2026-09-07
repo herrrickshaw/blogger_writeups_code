@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-09-05T22:00:36.086+05:30",
+  "updated": "2026-09-07T19:34:08.280+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 67845,
-  "sha256": "507ae5b7b0ae380b0ba8a39112da4d1d5169a4531edf4823f03779ad60166307",
+  "bytes": 66926,
+  "sha256": "1238b225c581cb3bb303f9230dfa2ed90da9fa4dc1294c891f76ca4959f9fae3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        67845,
+        66926
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

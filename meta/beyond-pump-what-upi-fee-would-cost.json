@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
   "slug": "beyond-pump-what-upi-fee-would-cost",
   "published": "2026-08-08T20:01:53.000+05:30",
-  "updated": "2026-09-05T21:46:50.679+05:30",
+  "updated": "2026-09-07T19:19:07.247+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 38256,
-  "sha256": "960d4ddd3816d3390a73fa89d3429b6d3c9c926c1a2331b5a64f95f36427516c",
+  "bytes": 37337,
+  "sha256": "4287535f1b4631d52147cd4e4b09e552a04668d45c8246be3dd2d19aa2285864",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38256,
+        37337
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

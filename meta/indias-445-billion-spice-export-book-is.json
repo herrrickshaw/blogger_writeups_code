@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-09-05T21:54:32.857+05:30",
+  "updated": "2026-09-07T19:27:29.354+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 31674,
-  "sha256": "13409a295b4892837aef206c385198d9ae54d4e96e060bf0b28376eb2c733a5d",
+  "bytes": 30753,
+  "sha256": "2fb276540aa9a66c9cb3e640f3248b43f49aa9d6f186100193721749514f5311",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31674,
+        30753
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

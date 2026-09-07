@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html",
   "slug": "indias-epr-regime-just-got-teeth-and",
   "published": "2026-08-08T21:56:27.000+05:30",
-  "updated": "2026-09-05T21:55:26.740+05:30",
+  "updated": "2026-09-07T19:28:21.887+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 24344,
-  "sha256": "f1b347d7a24af3a8fa9a4329791c5dbfbaaeee7801096f3fa3ce05f26f26df1b",
+  "bytes": 23425,
+  "sha256": "d486876a6df157b1d544a61a60328f857b200361761592bf8f87771bcded7b46",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24344,
+        23425
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

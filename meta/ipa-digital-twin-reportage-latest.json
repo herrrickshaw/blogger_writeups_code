@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html",
   "slug": "ipa-digital-twin-reportage-latest",
   "published": "2026-08-02T09:54:34.000+05:30",
-  "updated": "2026-09-05T21:58:05.250+05:30",
+  "updated": "2026-09-07T19:31:18.910+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 287405,
-  "sha256": "9c4dbed0ec23aad12f682f35051e4eb1d66c3d647a076c517dbd6a8ed965debf",
+  "bytes": 286486,
+  "sha256": "72af9f1c7285ee73eeae585a7f92557c2f91b358a3ffbf364f3f29f9a57ffb74",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        287405,
+        286486
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

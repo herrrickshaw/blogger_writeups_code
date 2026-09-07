@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
   "slug": "thali-investing-whats-actually-on-plate",
   "published": "2026-08-10T06:32:54.000+05:30",
-  "updated": "2026-09-05T22:03:03.937+05:30",
+  "updated": "2026-09-07T19:36:47.339+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 31372,
-  "sha256": "86358a4a6047d76dbd6703a31c496aa3840cc29e59f3c08d4ab133f8f2020cac",
+  "bytes": 30453,
+  "sha256": "bf24383c9476985e6a8c8997bd14a9ee4ee27ebb449ca3ae2e88a22ee4992c48",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31372,
+        30453
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

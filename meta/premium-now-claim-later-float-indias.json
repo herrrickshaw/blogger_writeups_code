@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html",
   "slug": "premium-now-claim-later-float-indias",
   "published": "2026-08-22T20:29:04.000+05:30",
-  "updated": "2026-09-05T22:00:02.850+05:30",
+  "updated": "2026-09-07T19:33:27.575+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance",
     "Mobility & EV"
   ],
-  "bytes": 63655,
-  "sha256": "e04b01b6b3fc125ea99ae2d0d7b81b6539b8ee432fedf814023195b77e1eaa10",
+  "bytes": 62734,
+  "sha256": "f720a450901b10b562318e68eeae0c04fcdfe0e6325dfd647bcb36e8a8e0e39a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        63655,
+        62734
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

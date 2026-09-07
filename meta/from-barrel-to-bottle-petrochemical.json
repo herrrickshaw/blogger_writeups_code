@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-barrel-to-bottle-petrochemical.html",
   "slug": "from-barrel-to-bottle-petrochemical",
   "published": "2026-08-13T08:48:38.000+05:30",
-  "updated": "2026-09-05T21:50:39.671+05:30",
+  "updated": "2026-09-07T19:23:14.857+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 30577,
-  "sha256": "00506364d181f918c9d90216f04da1a8f64ffe096aa6722151018b32e31e5faf",
+  "bytes": 29658,
+  "sha256": "6022534438dad29f15f7f05d6d4937b57c7f5bb7277a3705ea25bd00c31a379f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        30577,
+        29658
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

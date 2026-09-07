@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-09-05T21:55:39.251+05:30",
+  "updated": "2026-09-07T19:28:36.316+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 40293,
-  "sha256": "4d4ed81adc01ea0cb6d935f04b049df8df36bca46205d8b572066a979420967e",
+  "bytes": 39374,
+  "sha256": "281e328eb1a58c3c928d7c8b95dd0afaa4b6d7110c3b54925e129eeb0fc693e2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40293,
+        39374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-09-05T22:03:39.001+05:30",
+  "updated": "2026-09-07T19:37:24.393+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 34472,
-  "sha256": "0d72c4b0e78b4d02ea09ad0661ef1e6ff17c17237ab712bf9cfedd2c61c90164",
+  "bytes": 33551,
+  "sha256": "88341a0e649da90d5ab91ce9b6e657008b5ffed5918e2c745ca9aa69e2ba96d1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34472,
+        33551
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

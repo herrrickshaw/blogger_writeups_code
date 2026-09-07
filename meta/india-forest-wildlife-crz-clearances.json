@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:52:57.973+05:30",
+  "updated": "2026-09-07T19:25:51.231+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 24793,
-  "sha256": "c19020e5557978bfe05d2c5b6f884a0bcccb1dad5eccddaa1829a385f249eed8",
+  "bytes": 23874,
+  "sha256": "de6368f530d6d7d546c6dd5465ac2975dc90495567396383b016cc463094ef2a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24793,
+        23874
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

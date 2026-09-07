@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-09-05T22:08:12.626+05:30",
+  "updated": "2026-09-07T19:41:50.716+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
   ],
-  "bytes": 22657,
-  "sha256": "4ad9278f3817bae68855f69387c18174977a0361cbd11a9871ccd41cb98d04ca",
+  "bytes": 21736,
+  "sha256": "15034c2a1371d617cb355f2313ec162e86824235afc97297a114533d4a7686de",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22657,
+        21736
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

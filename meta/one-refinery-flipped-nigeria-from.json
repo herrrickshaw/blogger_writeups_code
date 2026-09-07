@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
   "slug": "one-refinery-flipped-nigeria-from",
   "published": "2026-08-09T03:00:24.000+05:30",
-  "updated": "2026-09-05T21:59:32.894+05:30",
+  "updated": "2026-09-07T19:32:57.180+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 34154,
-  "sha256": "f48afe80ee2762180ea952d20e5a3c457e5427024bc745818f26ab4fcba210a9",
+  "bytes": 33235,
+  "sha256": "d0b518415633783ba21b76abfe6d5e86e858e9555b553816328d12214c9272a5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34154,
+        33235
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

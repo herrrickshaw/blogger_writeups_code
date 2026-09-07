@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
   "slug": "half-of-indias-import-bill-is",
   "published": "2026-08-03T17:03:34.000+05:30",
-  "updated": "2026-09-05T21:51:41.712+05:30",
+  "updated": "2026-09-07T19:44:14.175+05:30",
   "labels": [
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 26848,
-  "sha256": "3a6e1e12540ba7d08af9193ce54648d21fb8ae0b45362b35cf7b11c00122a58e",
+  "bytes": 26234,
+  "sha256": "396b0d96a1b7ce905954ca2a2e40449f8d10f9641b39b8a7d7b96d9bf0ca50a4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -230,6 +230,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        26848,
+        26234
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html",
   "slug": "re-spinning-charkha",
   "published": "2026-08-03T10:32:15.000+05:30",
-  "updated": "2026-09-05T22:00:55.826+05:30",
+  "updated": "2026-09-07T19:34:29.168+05:30",
   "labels": [
     "Energy & Fuels",
     "Textiles"
   ],
-  "bytes": 28653,
-  "sha256": "6846d2a9100086c0375eb6adba63602f5de85fc83b88a63f00c93dcac1aa4671",
+  "bytes": 27734,
+  "sha256": "68080c0f498e05576b2915350bf8928609f378b63e68f895d06dcd2c09de4058",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28653,
+        27734
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

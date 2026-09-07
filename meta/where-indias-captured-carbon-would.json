@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html",
   "slug": "where-indias-captured-carbon-would",
   "published": "2026-08-28T07:52:34.000+05:30",
-  "updated": "2026-09-05T22:08:36.082+05:30",
+  "updated": "2026-09-07T19:42:16.157+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 26736,
-  "sha256": "f5a22496feda1787ecb49a186f871b7d8c2e3e761b5edcbb3f3ec9bd2cb2afe8",
+  "bytes": 25815,
+  "sha256": "ef62fcb86cd7c7f87708c3f722c718afdae15aa042823e6ffdf46f7ee6bba133",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26736,
+        25815
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
   "slug": "the-cbg-incentive-stack-every-leg-of",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-05T22:03:51.758+05:30",
+  "updated": "2026-09-07T19:37:38.641+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 20033,
-  "sha256": "d6e67e7530ebf57b6e27ac1d924b85f2d4999acbfbe040e6ea524097f69b970d",
+  "bytes": 19114,
+  "sha256": "46719cd65f524d256215b33163450b0369942e642f328466d317ebaec31f1aab",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -222,6 +222,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        20033,
+        19114
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
   "slug": "7186-litre-why-maize-is-indias-priciest",
   "published": "2026-08-21T21:11:49.000+05:30",
-  "updated": "2026-09-05T21:45:12.603+05:30",
+  "updated": "2026-09-07T19:17:29.324+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 40021,
-  "sha256": "d595afd8bba3462d2dc8415a76bcde45b19927de8728f1af85eedbc5519702ad",
+  "bytes": 39100,
+  "sha256": "86c26e98ae08b3cab9557001a44c37e881cde880982922313376ae6452a13097",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40021,
+        39100
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

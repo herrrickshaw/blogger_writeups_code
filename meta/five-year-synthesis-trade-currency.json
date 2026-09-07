@@ -4,16 +4,16 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-09-05T21:50:20.940+05:30",
+  "updated": "2026-09-07T19:22:55.373+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 45061,
-  "sha256": "35501d7d98f09770f07a13f3cf25386e756c21fb99faa2927e5bd1af0d8430e0",
+  "bytes": 45979,
+  "sha256": "08557b23e3e1de2e3a9f491f897b3d56e47ecf39aac2dcd9a3dce1510ad99680",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -230,6 +230,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        45061,
+        45979
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

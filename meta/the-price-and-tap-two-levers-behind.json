@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-09-05T22:05:48.828+05:30",
+  "updated": "2026-09-07T19:39:31.184+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 23909,
-  "sha256": "96d641b195b8f04f65e9d9aa77648a308c7fcae32778ccd2ab4060a079cc1027",
+  "bytes": 22990,
+  "sha256": "23cb253f10a1416eb7976609980ff6d506ea36eb8ce7ad742784df4a2678f933",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23909,
+        22990
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

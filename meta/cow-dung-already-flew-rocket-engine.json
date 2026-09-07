@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-09-05T21:48:34.645+05:30",
+  "updated": "2026-09-07T19:20:50.898+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 38217,
-  "sha256": "8ccbb302795e98e210d4301f56d6a148201669375bf4a1e83937121db07f7084",
+  "bytes": 37298,
+  "sha256": "f3ba76a6c5539b66ce08540361a7864336835e05a912fb3d3595503498c6c4f7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.13",
+  "version": "4.0.14",
   "version_history": [
     {
       "version": "1.0.0",
@@ -237,6 +237,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.14",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38217,
+        37298
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
   "slug": "the-recycling-lottery-playbook-norways",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-09-05T22:06:02.891+05:30",
+  "updated": "2026-09-07T19:39:45.364+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 28064,
-  "sha256": "c2fd8ae0c2560ae07f2b28a57575815ccbfecb0699d268e365cbd19b536b1234",
+  "bytes": 27145,
+  "sha256": "b524cfaf794caf23c653d30c19bef9b41bb751ec65dc334b2adb25ef5fcea557",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28064,
+        27145
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

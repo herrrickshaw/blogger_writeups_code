@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html",
   "slug": "nano-urea-works-as-supplement-and-fails",
   "published": "2026-08-23T04:38:11.000+05:30",
-  "updated": "2026-09-05T21:58:45.728+05:30",
+  "updated": "2026-09-07T19:32:08.137+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 27053,
-  "sha256": "45df475acddc036d1dc38d7766c94cbd8cf88967729000f7090a80e96388069a",
+  "bytes": 26132,
+  "sha256": "ccdbd982e420d697cd33502fd156274d14e160e64640062fe795a5d6503bd73e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27053,
+        26132
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

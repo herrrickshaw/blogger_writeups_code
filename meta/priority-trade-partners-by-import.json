@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html",
   "slug": "priority-trade-partners-by-import",
   "published": "2026-08-02T14:01:14.000+05:30",
-  "updated": "2026-09-05T22:00:23.110+05:30",
+  "updated": "2026-09-07T19:33:48.059+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 45034,
-  "sha256": "f4a64060d669650b611809b6f53d4237b04673e6144f7c3b585ef5b4f5b9e9ed",
+  "bytes": 44115,
+  "sha256": "170f1cbbf738ff06841760b7f4cb3be734d44ff38aff4fe847fedf0b1133256e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -260,6 +260,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        45034,
+        44115
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

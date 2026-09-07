@@ -20,10 +20,9 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 }
 ]
 
-## Groq llama-3.3-70b-versatile
+## Groq openai/gpt-oss-120b
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 6916, Requested 3895. Please try again in 21.0825s. Need more tokens? Upgrade to Dev Tier today at https://co]
 
 ## Mistral mistral-small-latest
 

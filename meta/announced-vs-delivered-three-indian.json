@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-09-05T21:46:31.702+05:30",
+  "updated": "2026-09-07T19:18:46.377+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 49228,
-  "sha256": "fb78fc49fe99d89778da7a766ecfc031320f1d7016486b60e3154b17cf8b948f",
+  "bytes": 48309,
+  "sha256": "abead0947d2d2062d77dd141274f290e7c7b2acaa857ba96d13361f97ec05f97",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        49228,
+        48309
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

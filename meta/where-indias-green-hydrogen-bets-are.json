@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-09-05T22:09:06.943+05:30",
+  "updated": "2026-09-07T19:42:47.548+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 22529,
-  "sha256": "c6336bd86a625042c8fdce44684a48bd4ae433c5af15aa2355657f99a327fb4a",
+  "bytes": 21610,
+  "sha256": "1c0e65541021a95277dc82e5646908c7f7b884ce61d2aeb8448e47dcd6df929d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22529,
+        21610
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

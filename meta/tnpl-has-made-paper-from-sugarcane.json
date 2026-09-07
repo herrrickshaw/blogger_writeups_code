@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html",
   "slug": "tnpl-has-made-paper-from-sugarcane",
   "published": "2026-09-01T20:24:15.000+05:30",
-  "updated": "2026-09-05T22:06:57.343+05:30",
+  "updated": "2026-09-07T19:40:40.774+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 31187,
-  "sha256": "e9b59b8e1c4468292fe69674b896a36a88369eff5f2e2781d68af761f19b8a22",
+  "bytes": 30266,
+  "sha256": "fb6bc695bd83f49cc7470d3c1923f68f2c27339c63c4c3bf78ed0e7ef902728f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31187,
+        30266
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

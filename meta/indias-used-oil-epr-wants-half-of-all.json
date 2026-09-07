@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-used-oil-epr-wants-half-of-all.html",
   "slug": "indias-used-oil-epr-wants-half-of-all",
   "published": "2026-08-10T11:46:04.000+05:30",
-  "updated": "2026-09-05T21:57:30.095+05:30",
+  "updated": "2026-09-07T19:30:37.831+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 28996,
-  "sha256": "3b9af318c0109d40e95ef7babffcf9532e7a8296568357cabe7ba59be2b50e6c",
+  "bytes": 28077,
+  "sha256": "3645fe1873f8241c6b92168c788314bbbd7c239b9bebb3689cded7fb0a783eef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28996,
+        28077
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

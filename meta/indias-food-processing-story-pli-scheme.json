@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
   "slug": "indias-food-processing-story-pli-scheme",
   "published": "2026-08-08T21:33:25.000+05:30",
-  "updated": "2026-09-05T21:55:52.176+05:30",
+  "updated": "2026-09-07T19:28:49.663+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 25881,
-  "sha256": "abda6320b913f6f887ecdcb6d1e4d3cb487e281952916fde6e8a732f9a77c155",
+  "bytes": 24962,
+  "sha256": "672403b8344077b1d70fe288c0abcdffd4a72d3a0429fbe1afd0b6901bae6c69",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25881,
+        24962
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

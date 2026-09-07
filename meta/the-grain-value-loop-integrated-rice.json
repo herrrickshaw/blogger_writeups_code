@@ -4,17 +4,17 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-09-05T22:04:55.270+05:30",
+  "updated": "2026-09-07T19:38:30.246+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 85215,
-  "sha256": "939df1c97c60f4ee149ce49685a0d3f9261d28984e5669efeb2e531018770f8e",
+  "bytes": 85747,
+  "sha256": "740e0140ded97943f3dbf19fe9481f9be8b516142eaeb1ce49d73c49035cd9cc",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -257,6 +257,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        85215,
+        85747
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

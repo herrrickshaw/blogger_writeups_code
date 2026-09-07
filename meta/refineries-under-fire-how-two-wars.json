@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html",
   "slug": "refineries-under-fire-how-two-wars",
   "published": "2026-08-20T10:22:11.000+05:30",
-  "updated": "2026-09-05T22:01:01.230+05:30",
+  "updated": "2026-09-07T19:34:41.975+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37669,
-  "sha256": "04adc04a2e40a26e1896f105ba923c1b030a88b55e102813166597c31ff8b0e2",
+  "bytes": 36748,
+  "sha256": "36f908a8a3d1825ff3bd2cf66bff404cfcc81977e05d834a6eaff394863185e2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        37669,
+        36748
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

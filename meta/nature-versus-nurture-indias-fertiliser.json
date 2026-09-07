@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html",
   "slug": "nature-versus-nurture-indias-fertiliser",
   "published": "2026-08-02T21:05:10.000+05:30",
-  "updated": "2026-09-05T21:58:52.046+05:30",
+  "updated": "2026-09-07T19:32:15.065+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 86541,
-  "sha256": "7bafa8591ecf068a412806bc10cfcd2593438fb888fd0745dc7a7dd5cbcb7fd5",
+  "bytes": 85622,
+  "sha256": "5e247e96643fb380080babd7ad78f8f8fa3a884596ac0fd9ee6b6e77b25f9993",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.2",
+  "version": "5.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "5.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        86541,
+        85622
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

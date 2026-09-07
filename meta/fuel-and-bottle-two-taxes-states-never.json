@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
   "slug": "fuel-and-bottle-two-taxes-states-never",
   "published": "2026-08-12T21:27:32.000+05:30",
-  "updated": "2026-09-05T21:50:59.208+05:30",
+  "updated": "2026-09-07T19:23:34.965+05:30",
   "labels": [
     "Ethanol & Biofuels",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 31567,
-  "sha256": "df0e5263bae6f33f7c834bf1e2ed53beb5c0834e3d9178cc07818f3e423a92dd",
+  "bytes": 30648,
+  "sha256": "1ca51acad85fa8323093089ae3fc410ed9e7bec98c4fe5c0da097fd647e041ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31567,
+        30648
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

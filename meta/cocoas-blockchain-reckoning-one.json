@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
   "slug": "cocoas-blockchain-reckoning-one",
   "published": "2026-08-08T21:27:49.000+05:30",
-  "updated": "2026-09-05T21:48:21.505+05:30",
+  "updated": "2026-09-07T19:20:37.338+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 25610,
-  "sha256": "8527d8688a203f8ae5f1a5f0ef994d6669a1e1384646bd1acc6426631d2a16eb",
+  "bytes": 24691,
+  "sha256": "185a0925e2f9682d64934c1d0635931957175425a6fa4b5cbc23e6a5661abc1b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25610,
+        24691
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

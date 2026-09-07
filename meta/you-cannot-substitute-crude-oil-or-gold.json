@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html",
   "slug": "you-cannot-substitute-crude-oil-or-gold",
   "published": "2026-08-23T04:30:03.000+05:30",
-  "updated": "2026-09-05T22:10:03.288+05:30",
+  "updated": "2026-09-07T19:43:37.915+05:30",
   "labels": [
     "Import Substitution",
     "India Trade & Policy",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 34430,
-  "sha256": "601c132eddbcb90b20b077599ec0c630b40e77542a1b2ca8660ae26a8183bc70",
+  "bytes": 33509,
+  "sha256": "f122ecd651caab6c346c530ccfa598835cbb9cf470c900f819b696c9143f1708",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34430,
+        33509
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

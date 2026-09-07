@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
   "slug": "the-helper-motor-trick-that-already",
   "published": "2026-08-30T16:49:04.000+05:30",
-  "updated": "2026-09-05T22:05:06.827+05:30",
+  "updated": "2026-09-07T19:38:42.470+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 26420,
-  "sha256": "38f8a95da8bbb2d704656f0bf0172962da8a311e7b446d9e6f4731ebc2d23d28",
+  "bytes": 25499,
+  "sha256": "5ea4e8469c2d6cffa137e0170f31d9c009b4b8087ac8093f765a9fd0ec156c62",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26420,
+        25499
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

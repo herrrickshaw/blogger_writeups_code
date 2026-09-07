@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
   "slug": "brandsafway-and-2017-roll-up-wave-that",
   "published": "2026-08-30T17:58:26.000+05:30",
-  "updated": "2026-09-05T21:47:15.841+05:30",
+  "updated": "2026-09-07T19:19:31.728+05:30",
   "labels": [],
-  "bytes": 23615,
-  "sha256": "811754a9ca4f90a02737e1b4d71a76497399a1cc71d797899ce92f96c53f36d2",
+  "bytes": 22694,
+  "sha256": "c5f8a3f1d2e79bf8d5ef27e28505a062b2123f8c1a024fb1163b6cd8fb0beaff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23615,
+        22694
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

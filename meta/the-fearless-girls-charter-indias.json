@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T22:04:48.318+05:30",
+  "updated": "2026-09-07T19:38:23.210+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 27918,
-  "sha256": "afe1304c90d75f988b42441de6bf2dc6b178c9195c9190103d7cfb84a2574d4d",
+  "bytes": 26999,
+  "sha256": "0fe8a809bc0047df39373cec1f66dd3e012caa1f50b7dc51a051b10825fe87da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.15",
+  "version": "1.0.16",
   "version_history": [
     {
       "version": "1.0.0",
@@ -234,6 +234,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.16",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27918,
+        26999
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

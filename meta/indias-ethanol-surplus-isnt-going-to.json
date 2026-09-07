@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
   "slug": "indias-ethanol-surplus-isnt-going-to",
   "published": "2026-08-05T16:50:47.000+05:30",
-  "updated": "2026-09-05T21:55:32.773+05:30",
+  "updated": "2026-09-07T19:28:28.818+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 23710,
-  "sha256": "61b2a6e8447c7b695eb929fe8da734c60f94104b1cdcef2ad7c670b96915c344",
+  "bytes": 22791,
+  "sha256": "4bc062817c2055e913c93a34f3059bed220a71ca4071e61e80e085a76f9fd1b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -195,6 +195,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23710,
+        22791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

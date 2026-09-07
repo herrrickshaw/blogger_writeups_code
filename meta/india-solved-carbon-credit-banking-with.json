@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-solved-carbon-credit-banking-with.html",
   "slug": "india-solved-carbon-credit-banking-with",
   "published": "2026-09-01T22:39:13.000+05:30",
-  "updated": "2026-09-05T21:54:03.120+05:30",
+  "updated": "2026-09-07T19:26:57.105+05:30",
   "labels": [
     "Climate & Carbon"
   ],
-  "bytes": 32667,
-  "sha256": "954dcbf1395bc1146af9f88ed0672bc446ea7a6ce8c189c2e2b10b9ae60bc347",
+  "bytes": 31746,
+  "sha256": "65c359ad48054e963a2449151e6ea36440697ed5478a0baf64724cf83e40eff8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        32667,
+        31746
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

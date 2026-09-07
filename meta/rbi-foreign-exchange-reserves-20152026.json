@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-09-05T22:00:49.337+05:30",
+  "updated": "2026-09-07T19:34:22.269+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 52224,
-  "sha256": "05c013b0197b78ea555425317b733d7df66ced433f6f1c344e22e06f0fa25ee7",
+  "bytes": 53032,
+  "sha256": "a798f5d0de2ddb228370ae642adb8e5e2ae30ac283ee9f5385797308476853ba",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -233,6 +233,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        52224,
+        53032
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

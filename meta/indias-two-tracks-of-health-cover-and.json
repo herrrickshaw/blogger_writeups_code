@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html",
   "slug": "indias-two-tracks-of-health-cover-and",
   "published": "2026-08-12T10:54:13.000+05:30",
-  "updated": "2026-09-05T21:57:17.746+05:30",
+  "updated": "2026-09-07T19:30:31.046+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 26440,
-  "sha256": "4206b6b5ed27e1a3d342d97da83d28c29cf8c484eb75b079f62f60d2cad0d340",
+  "bytes": 25521,
+  "sha256": "773478ba59c8b7167d75f76765d8b74790220bce4840ea1133474d8feb5edf41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26440,
+        25521
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

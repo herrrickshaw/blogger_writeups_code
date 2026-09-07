@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/annexure-314-hsn-codes-mapped-to.html",
   "slug": "annexure-314-hsn-codes-mapped-to",
   "published": "2026-08-03T09:53:02.000+05:30",
-  "updated": "2026-09-05T21:46:24.506+05:30",
+  "updated": "2026-09-07T19:18:39.643+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 45790,
-  "sha256": "abd4ccb4a832e74620a1386d5731db613eacc16473e3f85815ae77b8f1dd8a48",
+  "bytes": 44871,
+  "sha256": "064e6a9ff469b42a8418a7ff1dcd3dc9bb13dcbdc29d039643c12da8b3424fc4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        45790,
+        44871
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }
