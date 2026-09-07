@@ -7,7 +7,7 @@ Playwright, prints scrollWidth vs viewport plus any element whose right edge
 crosses the viewport, and writes <file>.<width>.png beside the input.
 Requires: pip install playwright (browser at PLAYWRIGHT_BROWSERS_PATH).
 """
-import asyncio, sys, json
+import asyncio, sys, json, glob
 from playwright.async_api import async_playwright
 src=sys.argv[1]; w=int(sys.argv[2]) if len(sys.argv)>2 else 375
 import os
@@ -20,7 +20,12 @@ JS="""() => {const out=[]; const vw=document.documentElement.clientWidth;
  return {sw:document.documentElement.scrollWidth, vw, over:out.slice(0,25)};}"""
 async def main():
     async with async_playwright() as p:
-        b=await p.chromium.launch()
+        exe=(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome") or [None])[0]
+        try:
+            b=await p.chromium.launch()
+        except Exception:
+            if not exe: raise
+            b=await p.chromium.launch(executable_path=exe)   # pip playwright revision != bundled one
         pg=await b.new_page(viewport={'width':w,'height':800})
         await pg.goto('file://'+path, wait_until='load')
         r=await pg.evaluate(JS)
