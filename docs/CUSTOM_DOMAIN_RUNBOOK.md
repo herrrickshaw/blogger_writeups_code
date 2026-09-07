@@ -15,6 +15,18 @@ root domain, so the blog on `blog.` is reviewed under the same property.
 Add ads.txt on BOTH hosts (Blogger: Settings → Monetisation → Custom
 ads.txt; Lovable: `public/ads.txt`).
 
+### The other two blogs (7 Sep 2026 audit, read via the public API)
+
+| Blog | Posts | State | Plan |
+|---|---|---|---|
+| `usiponavadaaariponacoffee.blogspot.com` ("Markups and wireframes") | 4 | Quarterly Reportage dashboard (20k words, 820 PIB links); HerrickShaw stock-screener page; a "Research Library" link page to masaladeutsch; a 7-word post that is only a link | Becomes the **tools & dashboards** site. Linked from the front door as "From the same desk" (`TOOLS_BASE` in the Lovable config). Later: map to `tools.masaladeutsch.com`. Delete the 7-word link-only post; point the Research Library page at `masaladeutsch.com`. Do NOT add it to AdSense on its own. |
+| `mocbaba.blogspot.com` ("Cos if you ain't got nothing…") | 4 | Personal essays/verse, 2012–2013, ~1,300 words total, dormant | Linked as "Earlier writing" (`ARCHIVE_BASE`). Leave as is; never submit to AdSense (thin, dormant). |
+
+Neither blog is owned by the Google account behind `tools/blogger_api.py`
+(`/users/self/blogs` lists only masaladeutsch), so edits there are manual.
+No duplicate content between usipona's Quarterly Reportage and the
+masaladeutsch quarterly-reportage post (0% 8-gram overlap).
+
 ## Steps
 
 1. **Register** `masaladeutsch.com` (GoDaddy or any registrar). Turn on
