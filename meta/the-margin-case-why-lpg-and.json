@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-09-05T22:05:24.529+05:30",
+  "updated": "2026-09-07T19:39:00.261+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 38821,
-  "sha256": "ee6e937e58efb7d9ba9b91ace7605be3d3075b07fe6b29257281e14d15e9e1f4",
+  "bytes": 37902,
+  "sha256": "ff3181060eff687bfe3e1a404e7ce5b24f854ce720286952dec9bc22df393ebd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38821,
+        37902
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

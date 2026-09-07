@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
   "slug": "thermal-parity-is-dead-what-85-oil-and",
   "published": "2026-08-08T21:04:59.000+05:30",
-  "updated": "2026-09-05T22:06:33.678+05:30",
+  "updated": "2026-09-07T19:40:16.920+05:30",
   "labels": [
     "Energy & Fuels",
     "Markets & Finance"
   ],
-  "bytes": 31402,
-  "sha256": "d1c6b58aaf1232775c9edaa0ab4665c1f24352fe85bd24a8d645ef91f913b316",
+  "bytes": 30483,
+  "sha256": "c63cb7c7a42081263b73b29747ddeb1030cb54dd4b2ef7ef5ee73f844769f676",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31402,
+        30483
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

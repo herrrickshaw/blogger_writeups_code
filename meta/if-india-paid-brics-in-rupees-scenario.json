@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html",
   "slug": "if-india-paid-brics-in-rupees-scenario",
   "published": "2026-08-04T16:05:00.000+05:30",
-  "updated": "2026-09-05T21:52:20.970+05:30",
+  "updated": "2026-09-07T19:24:58.702+05:30",
   "labels": [
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 36167,
-  "sha256": "05c0b76c977a16199d942b2136d6c944d4dce4476f870b8812165f52f9789363",
+  "bytes": 35248,
+  "sha256": "c4036149ca1adba8acaf7802cb844f3705a32dcf360beddfbc3dc442508e05a4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -230,6 +230,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        36167,
+        35248
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

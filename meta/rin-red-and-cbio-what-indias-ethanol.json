@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-09-05T22:01:19.167+05:30",
+  "updated": "2026-09-07T19:35:00.847+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 39511,
-  "sha256": "cf2fa0c0ca559b53a497b3f193a79015ee08d4ed4fdc7216a5336ee1f890ddba",
+  "bytes": 38592,
+  "sha256": "623d3f7992ea0c065bf6ef0e86bea8a0d518ef979c7b29b9e85f3e6277152f20",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        39511,
+        38592
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
   "slug": "india-grain-cultivation-fci-storage",
   "published": "2026-07-31T10:10:00.000+05:30",
-  "updated": "2026-09-05T21:53:11.077+05:30",
+  "updated": "2026-09-07T19:26:05.561+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 87326,
-  "sha256": "a169b89c37a0bf9355453d30f83c1a3b20ba8f725e0192db77fa9a99b5bb9ed9",
+  "bytes": 86407,
+  "sha256": "2fe8ecc4f3227821ee07d03914f3a6925e646919745e3c9c4de3be576ec41865",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        87326,
+        86407
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

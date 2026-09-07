@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html",
   "slug": "the-rule-of-72-rule-of-114-and-how-to",
   "published": "2026-08-10T06:21:23.000+05:30",
-  "updated": "2026-09-05T22:06:09.459+05:30",
+  "updated": "2026-09-07T19:39:51.926+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 28353,
-  "sha256": "525660f3e1c3ab9a400b612542bc21e3e9b325d78499b64b2c2def3d429cd5a0",
+  "bytes": 27434,
+  "sha256": "53d5708e4a2ba85cab0b5f6973f7e93484f386677968145c913c13913025afff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28353,
+        27434
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

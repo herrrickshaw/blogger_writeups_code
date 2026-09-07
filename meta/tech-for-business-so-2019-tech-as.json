@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
   "published": "2020-10-04T17:27:00.000+05:30",
-  "updated": "2026-09-05T22:02:38.503+05:30",
+  "updated": "2026-09-07T19:44:21.177+05:30",
   "labels": [],
-  "bytes": 32173,
-  "sha256": "4f56f9a4cf2958bb18f96b797b252f645dc92e2aa44d1ee08523aef3f9e5b67d",
+  "bytes": 32079,
+  "sha256": "8c5ac6f13633ec0ab22bd65197f258ab9aca67a94b995bd6740dab1cf00fd6cd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.12",
+  "version": "1.0.13",
   "version_history": [
     {
       "version": "1.0.0",
@@ -188,6 +188,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.13",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (section(s) added: Investors and the CEO: what each side is looking for, Product Potato: a case study, Voice of the consumer (VOC))",
+      "bytes": [
+        32173,
+        32079
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

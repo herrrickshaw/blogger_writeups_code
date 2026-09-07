@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
   "slug": "india-environmental-clearances-state",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:00:22.100+05:30",
+  "updated": "2026-09-07T19:25:37.996+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 16633,
-  "sha256": "d5bba0066d5799c63a440f2b3a5dc2630363587b92a28fdd30eda471d5e10efa",
+  "bytes": 15714,
+  "sha256": "8dea3d6f5bcad205bec4d2046bf8567cd3c1be2d1fcb04afa229fafcd1c687ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -234,6 +234,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        16633,
+        15714
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

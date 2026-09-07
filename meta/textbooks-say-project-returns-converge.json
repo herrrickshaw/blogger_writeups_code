@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-09-05T22:02:50.042+05:30",
+  "updated": "2026-09-07T19:36:34.220+05:30",
   "labels": [],
-  "bytes": 27437,
-  "sha256": "2c31c9c665e81af17866f30752b018404f9dd936a6b85b6a19cc4abf79e9dfb4",
+  "bytes": 26516,
+  "sha256": "03c9c4c8a842155f5a7e01ca6ec3b751f03a69a683f39be1d04a21eb45e03c77",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27437,
+        26516
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

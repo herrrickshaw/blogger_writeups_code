@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-inflation-heatmap-india-june-2026.html",
   "slug": "cpi-inflation-heatmap-india-june-2026",
   "published": "2026-08-02T14:05:22.000+05:30",
-  "updated": "2026-09-05T20:55:42.377+05:30",
+  "updated": "2026-09-07T19:20:57.963+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 79528,
-  "sha256": "622e58a74ae0d7f88f07a9392c07d4ea47242daa2ed37594c3a82fe8bc9c50bf",
+  "bytes": 78609,
+  "sha256": "5483dff078c4af3915bcd13966ca7fa0ca283ba2fa0d9a1d8963b5e5b59c230f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        79528,
+        78609
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

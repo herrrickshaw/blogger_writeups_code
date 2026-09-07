@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/jai-kisan-jai-javan-fci-based-military.html",
   "slug": "jai-kisan-jai-javan-fci-based-military",
   "published": "2026-08-04T16:15:00.000+05:30",
-  "updated": "2026-09-05T21:58:11.775+05:30",
+  "updated": "2026-09-07T19:31:26.029+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 21514,
-  "sha256": "f27146a32e447ebb6b75395300ca9acf26bd9296b7abe01831615ebb5fbc8274",
+  "bytes": 20595,
+  "sha256": "d840071c7e607f46bfc8d91deb8bf31e7940fe68cdf7892bf12457565b34aa66",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        21514,
+        20595
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

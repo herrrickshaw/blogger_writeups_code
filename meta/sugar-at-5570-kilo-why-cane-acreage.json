@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-09-05T22:01:55.677+05:30",
+  "updated": "2026-09-07T19:35:38.629+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 27383,
-  "sha256": "23bfb2d57912a0c94d57a9ebd631d96cdc2ad2e49435ed6f85b9817052c3eb1a",
+  "bytes": 26462,
+  "sha256": "320bb0861d934c21997876f19f24a10dcdf10416c5fa98bc5fed2332f92d034e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        27383,
+        26462
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

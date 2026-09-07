@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-09-05T21:52:14.856+05:30",
+  "updated": "2026-09-07T19:24:52.327+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 23666,
-  "sha256": "27dc01924173bf9b16422157cc5046ded9e3b3a6a1ce9abe02a546516b2095a4",
+  "bytes": 22747,
+  "sha256": "7764c27c339408ec43c37f3098b316b8bdce2572f79b9fb5c93c6b56064dc02f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -216,6 +216,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23666,
+        22747
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

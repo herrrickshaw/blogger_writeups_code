@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-09-05T22:01:31.386+05:30",
+  "updated": "2026-09-07T19:35:12.822+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "India Trade & Policy"
   ],
-  "bytes": 24924,
-  "sha256": "b8d080630a6d2429de53f192fbd7aaa3a9c0faba5de6b44077809218562f4baa",
+  "bytes": 24005,
+  "sha256": "65c65a8ec2a9b4889100193b37285a01b6728109f47671f90e2a4985d1d33159",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24924,
+        24005
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

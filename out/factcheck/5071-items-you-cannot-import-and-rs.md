@@ -20,22 +20,20 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 }
 ]
 
-## Groq llama-3.3-70b-versatile
+## Groq openai/gpt-oss-120b
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+**FACTUAL ERRORS**  
+- **“India has banned the import of 5,071 defence items across six lists”** – The article itself notes that the 5,071 figure comes from adding the four original PILs (4,666 items) plus the sixth PIL (405 items). A fifth list exists but its item count is not known and is deliberately omitted, meaning the 5,071 total is a *floor* and does **not** represent the full count across all six lists. Stating it as the total across six lists is therefore inaccurate. [confidence: high]  
+
+- **“Project ADITI … offers grant‑in‑aid of up to ₹25 crore per start‑up”** – Official Ministry of Defence releases describe the maximum grant as **₹2.5 crore** per project, not ₹25 crore. The ₹25 crore figure appears to be a typographical error or a mis‑reading of the source. [confidence: medium]  
+
+
+
+**INTERPRETATION ERRORS**  
+- **“The substitution actually booked against the banned‑items lists is ₹2,570 crore — about 1.4 per cent of one year’s production”** – The ₹2,570 crore figure is a *cumulative* import‑substitution value accrued over several years, whereas the ₹1.78 lakh crore production figure is for a single fiscal year (FY 2025‑26). Comparing a multi‑year total to a single‑year output creates an apples‑to‑oranges ratio that understates the impact of the substitution programme. The claim therefore draws a causal conclusion (the lists have a negligible effect) from a mismatched comparison. [confidence: high]  
+
+- **“The sixth PIL … its stated business potential is ₹3,070 crore”** – The article treats the “business potential” number as if it were an actual realised value of indigenisation, but the source only indicates the *estimated market size* of the items on the list, not the amount that will be substituted or produced domestically. Using this estimate as evidence of the list’s economic contribution conflates potential market size with actual substitution value. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "23 August 2026" — The date is incorrect as the article references events and data up to August 2026 but also includes historical data (e.g., FY2025-26 production figures) that would not be available in August 2026. The publication date is likely a typo or placeholder. [confidence: high]
-
-- "The sixth PIL — 405 items, 389 DPSU and 16 Indian Coast Guard, stated business potential ₹3,070 crore, notified 18 August 2026" — The article cites this figure as reported from trade/news sources but explicitly states that the primary notification document was not retrieved for verification ("the notification itself was not retrieved for this piece and the figures should be treated as reported rather than verified against the primary document"). This introduces uncertainty about the accuracy of the claim. [confidence: medium]
-
-INTERPRETATION ERRORS:
-- "The lists are a procurement instrument, not a spending one. Counting items tells you almost nothing about money, and the two are reported as though they were the same achievement." — While the article correctly notes that item counts do not reflect monetary value, it later uses the ₹2,570 crore substitution value (a monetary figure) to argue that the lists' impact is minimal. This is not a reasoning gap but rather a correct interpretation. No distinct interpretation error found in this category.
-
-- "The growth is real. The claim that the banned-items lists produced it is the part that does not survive the arithmetic." — The article argues that the ₹2,570 crore substitution value is too small to explain the ₹93,000 crore increase in defence production between FY2020-21 and FY2025-26. While this is a valid critique, it does not constitute an interpretation error because the reasoning gap (attribution of growth) is acknowledged and explained. No distinct interpretation error found in this category.
-
-INTERPRETATION ERRORS:
-none found
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]

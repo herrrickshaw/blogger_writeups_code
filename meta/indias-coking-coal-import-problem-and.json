@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html",
   "slug": "indias-coking-coal-import-problem-and",
   "published": "2026-08-14T07:34:14.000+05:30",
-  "updated": "2026-09-05T21:55:20.105+05:30",
+  "updated": "2026-09-07T19:28:14.912+05:30",
   "labels": [
     "Import Substitution"
   ],
-  "bytes": 47745,
-  "sha256": "6c959d6722981c32ed18cfeba0eb5766d8c3f87c03040d03ca647b1746d47086",
+  "bytes": 46826,
+  "sha256": "390ae787405c96d002f24c16c7f01612b54eda96c680fb11ec916a4f7245b3c8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        47745,
+        46826
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

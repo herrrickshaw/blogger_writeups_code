@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-09-05T21:45:46.003+05:30",
+  "updated": "2026-09-07T19:18:01.540+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 25915,
-  "sha256": "10b5c9def47af5375492887f3fa5d8c148b9657b0f854194a8f8dcb745355001",
+  "bytes": 24996,
+  "sha256": "914d556a755e8e3a8f0ef86aebe74c067d58b7f155a55ffa7198b64c3e3209c3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -185,6 +185,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25915,
+        24996
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

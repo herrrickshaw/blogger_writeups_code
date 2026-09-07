@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-09-05T22:07:36.839+05:30",
+  "updated": "2026-09-07T19:41:21.109+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29741,
-  "sha256": "f0fb56ec2508f883fad63d907e707b1dbcb5386b7d1e0b3ce6eaa519b1bdba06",
+  "bytes": 28822,
+  "sha256": "9bd75f6e2bd5c8d6b2e649d8e2a9c44804759ebd8e45e71852ccd96ddf2c834d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        29741,
+        28822
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

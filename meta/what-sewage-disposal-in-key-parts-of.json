@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-09-05T22:08:18.313+05:30",
+  "updated": "2026-09-07T19:41:56.930+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 45978,
-  "sha256": "10b7bad51b8f48f48021315f1194adbf684dee0bfdd181ec8460cd3d1ab86522",
+  "bytes": 45057,
+  "sha256": "29db84de25c47935358b2797da071383e6f5bbcf13aae56e8c012d85a143b431",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        45978,
+        45057
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

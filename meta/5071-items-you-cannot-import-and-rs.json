@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-09-05T21:45:00.036+05:30",
+  "updated": "2026-09-07T19:17:17.430+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 33430,
-  "sha256": "6341d7d5fe86071d2f142496d4730e5d9a47913c85d9fda956ae8a7690daad5c",
+  "bytes": 32509,
+  "sha256": "c5fb6568f0587ef0589d36ae838015f8e766762b5985477bffb5391f1acbc48b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33430,
+        32509
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

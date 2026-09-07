@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html",
   "slug": "indias-shrimp-exports-did-not-collapse",
   "published": "2026-08-23T04:44:23.000+05:30",
-  "updated": "2026-09-05T21:56:38.881+05:30",
+  "updated": "2026-09-07T19:29:48.219+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 33331,
-  "sha256": "bb1704205c1f8405c64b131eb914aa1de10eff32eaa7b87f364babc814178baf",
+  "bytes": 32410,
+  "sha256": "d848d7f525fec92e44c7e4230b243da25b40baea510c88bd016d0a969c63e0fe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33331,
+        32410
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

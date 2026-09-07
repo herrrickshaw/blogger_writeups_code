@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-09-05T22:08:54.772+05:30",
+  "updated": "2026-09-07T19:42:35.590+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 48191,
-  "sha256": "d47a7e0eca7c81d4842d7a276e1cdd4f63c63f8e3cbb002654a901be01f3cf13",
+  "bytes": 47272,
+  "sha256": "3114c87f239bbd517b5c016d0452887ed43892c023c846adfb04a3d7b0f3be03",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -246,6 +246,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        48191,
+        47272
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

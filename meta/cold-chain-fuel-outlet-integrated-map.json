@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:48:28.150+05:30",
+  "updated": "2026-09-07T19:20:44.040+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Gas & LNG"
   ],
-  "bytes": 20897,
-  "sha256": "bd57e3771bf2214dbe7d75e0b5c5cde720eedb51d92f635dc6ef2a909270f568",
+  "bytes": 19978,
+  "sha256": "b6d68c384aed9827f9a0958b281782577f5d24526c680f665496ae90bf3413cd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -248,6 +248,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        20897,
+        19978
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

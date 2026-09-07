@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-09-05T21:51:35.559+05:30",
+  "updated": "2026-09-07T19:24:13.517+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
-  "bytes": 30423,
-  "sha256": "e5296cba9704e2e7e5838516e173ac3a8bd07719ead9e70effa1427a062ca0e7",
+  "bytes": 29504,
+  "sha256": "7cd897a14e296f1169116894bc6a2b5095e706fb40726d0a8cb7e33f45363cb6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.2",
+  "version": "5.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "5.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        30423,
+        29504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

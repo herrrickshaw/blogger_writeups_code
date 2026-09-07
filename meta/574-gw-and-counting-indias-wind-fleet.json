@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-09-05T21:45:06.191+05:30",
+  "updated": "2026-09-07T19:17:23.330+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy"
   ],
-  "bytes": 22579,
-  "sha256": "e659c4c68827aff76ee7556ba10b955d875cbf03908e16413eaffd813ec90e87",
+  "bytes": 21658,
+  "sha256": "0b22c0d5072da65b246bdc01814a90d6431a389a3b051a6b2d242785f0b4cd22",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22579,
+        21658
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

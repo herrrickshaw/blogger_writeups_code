@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-09-05T21:58:27.955+05:30",
+  "updated": "2026-09-07T19:31:43.200+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 31049,
-  "sha256": "21a0b730cb12a00abf6dc9922fadcfb4234fba7f97c8902432ee32307728ada0",
+  "bytes": 30128,
+  "sha256": "62edb318b09da32912a80abe04cee575d4378775270746bf2c9e4459c1238252",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        31049,
+        30128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-09-05T21:53:40.218+05:30",
+  "updated": "2026-09-07T19:26:36.524+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 32313,
-  "sha256": "8fa16968236ca3ebdc9815beb0fc8e687d606a53c5c28aefaf88dc4837fb80e4",
+  "bytes": 31392,
+  "sha256": "97c6cf1d58f88b35492b7997490e4d3c1c3b806f5362038c37709d6681d6a183",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        32313,
+        31392
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

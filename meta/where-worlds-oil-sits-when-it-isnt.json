@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
   "slug": "where-worlds-oil-sits-when-it-isnt",
   "published": "2026-08-14T07:00:46.000+05:30",
-  "updated": "2026-09-05T22:09:19.735+05:30",
+  "updated": "2026-09-07T19:43:00.553+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 43614,
-  "sha256": "10bd0f786918dbc163e2a51328b8faa81ac2749281dad071f8fad212d099cf47",
+  "bytes": 42695,
+  "sha256": "3a8a962f332ce153138785e91f8fb1ebab84838f28e97a3ca817219f3d7c44d5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        43614,
+        42695
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

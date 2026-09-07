@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-09-05T22:04:04.163+05:30",
+  "updated": "2026-09-07T19:37:51.047+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 34596,
-  "sha256": "50602acbf41735da8b14e41a673ec9a457a90a4366efbc8183a8a5a9abec3b9e",
+  "bytes": 33675,
+  "sha256": "32748c654f3a0ff45b4f23abade439623de6e8da1da7c62394ffd941f57a099e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.2.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.2.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34596,
+        33675
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

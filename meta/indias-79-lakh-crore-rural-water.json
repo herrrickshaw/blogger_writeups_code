@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
   "slug": "indias-79-lakh-crore-rural-water",
   "published": "2026-08-29T12:08:35.000+05:30",
-  "updated": "2026-09-05T21:54:44.413+05:30",
+  "updated": "2026-09-07T19:27:41.862+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 23769,
-  "sha256": "034a9d2614d57bfb22da782354beb356a08a6f4a7295a54bfb39c25a5ed1f5aa",
+  "bytes": 22848,
+  "sha256": "40cd5b43c55af1f7f70607e14311b22b9116467dad0ebe52126e057855652883",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        23769,
+        22848
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

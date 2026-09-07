@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-09-05T22:06:45.141+05:30",
+  "updated": "2026-09-07T19:40:28.683+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 26052,
-  "sha256": "1a9284cab2b75d71bcf6cd79220b0ce5e6ce0ddc66a0e2fa6d68a79cb62b3484",
+  "bytes": 25131,
+  "sha256": "7ece2e69036a680922a3050d215b857640d6207ed10c51c0cd1daad6edbcef67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26052,
+        25131
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

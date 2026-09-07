@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
   "slug": "ahidf-has-sanctioned-19751-crore-in",
   "published": "2026-08-10T08:41:50.000+05:30",
-  "updated": "2026-09-05T21:45:52.480+05:30",
+  "updated": "2026-09-07T19:18:08.226+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 25853,
-  "sha256": "550aab4ef6c4d4a42d6d060ecb43b226e1f6e27459a0ba7f67aad75fe7ce0633",
+  "bytes": 24934,
+  "sha256": "beb2a9bed0d9418fe28df45a7754eb9e5f203484fee45035059583ba6d874287",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25853,
+        24934
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

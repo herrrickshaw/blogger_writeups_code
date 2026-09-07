@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-05T22:02:57.223+05:30",
+  "updated": "2026-09-07T19:36:41.022+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 19671,
-  "sha256": "02a1e0474e54c1ebd85c0bf59f82251c9a69c73f6cd8f1215472b5a2484cc3a8",
+  "bytes": 18752,
+  "sha256": "5143ac1d707eaf73927056aaedf2eea2ae13d8e41a91fc1f5e9ef7692342eea4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -190,6 +190,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        19671,
+        18752
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

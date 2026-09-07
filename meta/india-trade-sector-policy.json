@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-trade-sector-policy.html",
   "slug": "india-trade-sector-policy",
   "published": "2026-07-21T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:54:09.570+05:30",
+  "updated": "2026-09-07T19:27:04.652+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 20842,
-  "sha256": "943e47abdd3652dd9631f17d8aa5ff4bb16b530bf139b8f773618d0f5d3d1f5a",
+  "bytes": 19923,
+  "sha256": "f093cc2bc46e4db05586c23f8f34b79e6a1d467eb1fae54e4a9633657145aaf7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -221,6 +221,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        20842,
+        19923
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

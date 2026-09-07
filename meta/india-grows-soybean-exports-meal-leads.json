@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-09-05T21:53:23.235+05:30",
+  "updated": "2026-09-07T19:26:17.760+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 33847,
-  "sha256": "c87a26306744b47553e2fe6209c319c3c5da79e72284e7879e629104b72322a9",
+  "bytes": 32928,
+  "sha256": "706387cfcee7468907fcc19a6be9b8c7b71fff3d6221b0fc519fc27e1c6e9952",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33847,
+        32928
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-09-05T22:02:44.261+05:30",
+  "updated": "2026-09-07T19:36:28.221+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 34437,
-  "sha256": "335525819cab1d86578791db6da6ff9da56faa18c44f7a158b6ef3b98044f0d0",
+  "bytes": 33516,
+  "sha256": "b220e6cb1cdcfda51480c9cdeeeae86cad8eec3c3880962077605b0b139d497f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34437,
+        33516
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

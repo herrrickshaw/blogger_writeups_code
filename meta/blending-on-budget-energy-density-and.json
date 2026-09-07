@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html",
   "slug": "blending-on-budget-energy-density-and",
   "published": "2026-08-19T12:07:25.000+05:30",
-  "updated": "2026-09-05T21:47:09.967+05:30",
+  "updated": "2026-09-07T19:19:25.859+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 40886,
-  "sha256": "8b6327fe240966ac8371ed61bdb564dd7673eaceb3aa065c5e34a87d22fb0b12",
+  "bytes": 39965,
+  "sha256": "c5fbb3afdcdbc3d799c2b7fce99ceb0c5b7f97b0814d0570ed205098ffdf1b3f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40886,
+        39965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

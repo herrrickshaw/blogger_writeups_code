@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-09-05T21:48:02.799+05:30",
+  "updated": "2026-09-07T19:20:17.553+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 22894,
-  "sha256": "51faa71ad32201a20a4c3124feff2fe3574ee846f5776e08eb614097d8b788f4",
+  "bytes": 21975,
+  "sha256": "d6bbe2198efd98a9683fa55e22efb279bff02bda7a8225beedb5bfcb1e57e20c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        22894,
+        21975
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
   "published": "2026-08-28T21:08:06.000+05:30",
-  "updated": "2026-09-05T22:02:01.023+05:30",
+  "updated": "2026-09-07T19:35:44.598+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 33657,
-  "sha256": "8efd9b6fdf9cfaa4588fe72abaeb0ee605a387811bd2a8d46d3961750ad00e53",
+  "bytes": 32736,
+  "sha256": "ac2c5bfe09c7d5700882c29e088bf3edd99654c8f07e139aea1fb08d8a6c3256",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "4.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "4.1.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33657,
+        32736
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

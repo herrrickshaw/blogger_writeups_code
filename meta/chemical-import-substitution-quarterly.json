@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-09-05T21:48:09.348+05:30",
+  "updated": "2026-09-07T19:20:24.537+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 56014,
-  "sha256": "bd094f732a67e3d51578e1b33ad2ff71963a0373cdf6d0c323c9f142d500aaec",
+  "bytes": 55095,
+  "sha256": "1fa2c41b666284fb4c059d57fabc14c501b0be0b8746646cae3f4c494503630c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -257,6 +257,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        56014,
+        55095
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html",
   "slug": "indias-8-digit-trade-book-searchable",
   "published": "2026-08-23T07:09:47.000+05:30",
-  "updated": "2026-09-05T21:54:50.075+05:30",
+  "updated": "2026-09-07T19:27:47.944+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 32066,
-  "sha256": "19f58ef42571e07801b021c57d8805f2250ef5f59e3c9c11297fb9c3bcff95a2",
+  "bytes": 31145,
+  "sha256": "cb09c6d527a06000841f3a1246158f482373fac2ffdb4d624ff6bd4d9ad8fc50",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        32066,
+        31145
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

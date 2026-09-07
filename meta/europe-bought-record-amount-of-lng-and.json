@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-09-05T21:49:31.972+05:30",
+  "updated": "2026-09-07T19:21:57.414+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 43173,
-  "sha256": "c46a3a5ee7f76ca521ff62ecbc4b6eb50c59cd048e151a141c2e4b2dc2fd204a",
+  "bytes": 42254,
+  "sha256": "b7ebecfce81d0c4250c31752312ea8d6e06c44d44e33ce2e3893459857b3d1de",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.2",
+  "version": "7.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -252,6 +252,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "7.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        43173,
+        42254
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

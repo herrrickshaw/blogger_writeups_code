@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html",
   "slug": "indian-railways-98-to-earn-100-business",
   "published": "2026-08-20T06:09:42.000+05:30",
-  "updated": "2026-09-05T21:54:27.180+05:30",
+  "updated": "2026-09-07T19:27:23.206+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26188,
-  "sha256": "a097bcc434371354c47b850281043686ab30469c2577ac3f19b9b96ab4497d79",
+  "bytes": 25267,
+  "sha256": "7d4508722dd4713537a8e2cb88716f3a1378e58e1e3c74d7f19bc3802ce5e570",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        26188,
+        25267
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

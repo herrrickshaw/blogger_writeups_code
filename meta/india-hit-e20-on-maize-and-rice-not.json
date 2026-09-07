@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
   "slug": "india-hit-e20-on-maize-and-rice-not",
   "published": "2026-08-23T04:34:22.000+05:30",
-  "updated": "2026-09-05T21:53:34.792+05:30",
+  "updated": "2026-09-07T19:26:30.321+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 25304,
-  "sha256": "974dfdcee8c53e2ef379510e93bbf4d869140df25809baee140635157704371b",
+  "bytes": 24383,
+  "sha256": "62e7e01449c182782ae7c8b4a80f4e998d4cdf75d2e3daa2828e42b0afa872cf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25304,
+        24383
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

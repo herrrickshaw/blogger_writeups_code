@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-09-05T21:48:41.472+05:30",
+  "updated": "2026-09-07T19:21:05.752+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 46899,
-  "sha256": "03991bd1b0a69000a0898aa78dda85cc26a330c117219681d69d96a65c4a7c9e",
+  "bytes": 47677,
+  "sha256": "9c4f618f8d733298a8636063a0244ae0f662a3f91571cba05b4931eeeec05537",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -246,6 +246,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        46899,
+        47677
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

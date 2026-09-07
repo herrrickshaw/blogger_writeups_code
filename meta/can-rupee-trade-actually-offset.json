@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-09-05T21:47:28.533+05:30",
+  "updated": "2026-09-07T19:19:43.807+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 30712,
-  "sha256": "54663fd7ecc7fe81643d73ff1dae5810fac3e6e891f0b152da08c035dae8e505",
+  "bytes": 29793,
+  "sha256": "abfb7a6aff22e619ff1e95dc267d05b7552cbe2a9f09b097c81a001b7737f67f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        30712,
+        29793
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

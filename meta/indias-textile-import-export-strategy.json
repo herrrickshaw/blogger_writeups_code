@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-09-05T21:56:58.422+05:30",
+  "updated": "2026-09-07T19:30:09.983+05:30",
   "labels": [
     "Chemicals",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 51365,
-  "sha256": "58a8b143f8b05de431793f27dbb07b15cae5a1c8de766a7bea168e794dc74e24",
+  "bytes": 50446,
+  "sha256": "58d77b8a1fd9c9ff24466a8b9bed35d78a13846afb6ce95ad96082ff55caafa3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -275,6 +275,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        51365,
+        50446
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

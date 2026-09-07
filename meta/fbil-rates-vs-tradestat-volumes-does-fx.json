@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-09-05T21:49:55.080+05:30",
+  "updated": "2026-09-07T19:22:21.615+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 21358,
-  "sha256": "ed18142523ccd1e79a17a8ccb1c4ad67f59dafc7d01d3f02abe9040c2861fb0b",
+  "bytes": 20439,
+  "sha256": "a167167e7b7101bdff1889ec084f907b33b7efffa361883ebd264359d3ebc6c1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        21358,
+        20439
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

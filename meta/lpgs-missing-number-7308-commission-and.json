@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-09-05T21:58:33.959+05:30",
+  "updated": "2026-09-07T19:31:56.357+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 28066,
-  "sha256": "a6612be5516aadf5f5dc0d748996eeeead2449a54bd2cbb8c8f272eb3a68cb66",
+  "bytes": 27147,
+  "sha256": "3c7fe34cb84cca34b153e6036de40429ceb57d3b788f767185158b723fdbaf07",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        28066,
+        27147
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

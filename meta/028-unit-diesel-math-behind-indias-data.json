@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-09-05T21:44:41.096+05:30",
+  "updated": "2026-09-07T19:16:58.919+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels"
   ],
-  "bytes": 34683,
-  "sha256": "77a095fa74b39292cb3ede51588ae15dd0a0bf3d5e323e846a53adf8bbd9d01e",
+  "bytes": 33762,
+  "sha256": "48e0a64d36b771e6743c67258df2ae5e2d495c63b2f6a513ccb93b38aed50ebf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34683,
+        33762
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

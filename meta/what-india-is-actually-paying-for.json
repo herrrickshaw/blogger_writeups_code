@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-09-05T22:08:07.060+05:30",
+  "updated": "2026-09-07T19:41:44.993+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 37428,
-  "sha256": "ab1e5a292118cbd3c742758c09c3e92aa3e00c2d2c934c3faa8115448111cfd1",
+  "bytes": 36509,
+  "sha256": "1555e12265267251cd2030ab020f1cf5677d6d333cc7eaaeac2a7e29211a67d2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -107,6 +107,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        37428,
+        36509
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

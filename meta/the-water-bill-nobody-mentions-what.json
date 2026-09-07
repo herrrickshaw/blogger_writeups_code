@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
   "slug": "the-water-bill-nobody-mentions-what",
   "published": "2026-08-18T04:39:02.000+05:30",
-  "updated": "2026-09-05T22:06:27.186+05:30",
+  "updated": "2026-09-07T19:40:10.406+05:30",
   "labels": [
     "Environment & Clearances",
     "Import Substitution",
     "Manufacturing"
   ],
-  "bytes": 24204,
-  "sha256": "b219047c1bc2f9e7d8b69f8e96b9198ed8af57183a417474c50a035536eb1e4a",
+  "bytes": 23285,
+  "sha256": "b370cb3108f8ff87bb4d5935f7f98ac7af6889f113f49706cbfd51e355173515",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        24204,
+        23285
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

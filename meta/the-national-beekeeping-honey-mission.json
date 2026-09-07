@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
   "slug": "the-national-beekeeping-honey-mission",
   "published": "2026-08-20T05:42:27.000+05:30",
-  "updated": "2026-09-05T22:05:42.406+05:30",
+  "updated": "2026-09-07T19:39:24.854+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing"
   ],
-  "bytes": 29464,
-  "sha256": "4ff5a2ea0f022896c572c77b65bd470cadbf149653c352129c5405a786c58827",
+  "bytes": 28543,
+  "sha256": "14599c897e70d4da9df8e7aec7f19f64b79afdc4bec12455ca5dede68a076dff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        29464,
+        28543
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

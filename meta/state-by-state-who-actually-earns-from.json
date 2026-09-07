@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-09-05T22:01:50.230+05:30",
+  "updated": "2026-09-07T19:35:32.677+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 57352,
-  "sha256": "449e7ba8ebe9ef891d42da4d134513683ec40d562609ac47e39352661a1e891d",
+  "bytes": 56433,
+  "sha256": "489317a15fa39f3fbbbfa1d56fbaef365234c4003afd19498dad4233c375518b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -211,6 +211,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        57352,
+        56433
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

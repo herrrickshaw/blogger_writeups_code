@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-09-05T21:44:53.449+05:30",
+  "updated": "2026-09-07T19:17:11.484+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 67590,
-  "sha256": "58532cc574ce3bc877f3d69daf6d5efba8a359ece9bd7fb5156870e242cff57b",
+  "bytes": 66669,
+  "sha256": "bb27d2b258d0911f2e480ffd7a03480d039bb66c3d8352a844cb1c656ffd658b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        67590,
+        66669
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

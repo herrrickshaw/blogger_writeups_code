@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-09-05T21:55:08.608+05:30",
+  "updated": "2026-09-07T19:28:01.427+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 62919,
-  "sha256": "7feb640b2c988d9a3294abbf459c6bfed7f9e31a386c7e8e115182b523dc6d00",
+  "bytes": 61998,
+  "sha256": "8fb8a2a9f65f8bf6675de3612349b0d9b47b2c0ab8622a3a59e4e844c0bc018d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        62919,
+        61998
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

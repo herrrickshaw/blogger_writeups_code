@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
   "slug": "japan-ran-out-of-matcha-assam-just-sold",
   "published": "2026-08-23T05:48:49.000+05:30",
-  "updated": "2026-09-05T21:58:17.153+05:30",
+  "updated": "2026-09-07T19:31:31.819+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 33800,
-  "sha256": "adb5bbd8db304218ad2202450635808ed86fd932016d22657f0e5f2023d48864",
+  "bytes": 32879,
+  "sha256": "6d3b35dc78ad04d834f0bee2c2ff64c4a857ccec03255d8377ec319d362706c0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        33800,
+        32879
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

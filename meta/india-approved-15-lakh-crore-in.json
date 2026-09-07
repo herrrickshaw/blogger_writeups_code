@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
   "slug": "india-approved-15-lakh-crore-in",
   "published": "2026-08-25T06:30:48.000+05:30",
-  "updated": "2026-09-05T21:52:39.925+05:30",
+  "updated": "2026-09-07T19:25:18.422+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 37555,
-  "sha256": "451446eae226c61076a4c048a92ecb1fd8ecd20ab89afcbf772e57ff757d4789",
+  "bytes": 36634,
+  "sha256": "7489487f9ee28408e93a8bdc80db0dc5d20dbe3befdc1562e747d5941ef64756",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "3.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        37555,
+        36634
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

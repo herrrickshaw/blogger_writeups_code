@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
   "slug": "what-actually-happens-to-indias-used",
   "published": "2026-08-23T22:08:12.000+05:30",
-  "updated": "2026-09-05T22:08:00.501+05:30",
+  "updated": "2026-09-07T19:41:38.668+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "India"
   ],
-  "bytes": 40938,
-  "sha256": "d6a59829254ba10919da2601a62afb713fb4c2e84a7fc62a912ad0f35a63f7d4",
+  "bytes": 40017,
+  "sha256": "22012f200c2d0c86e268a471de465c86a704b6f80657469a6c000a0f2c1ca936",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        40938,
+        40017
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

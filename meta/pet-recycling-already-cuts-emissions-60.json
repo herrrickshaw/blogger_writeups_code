@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html",
   "slug": "pet-recycling-already-cuts-emissions-60",
   "published": "2026-08-16T07:25:04.000+05:30",
-  "updated": "2026-09-05T21:59:38.360+05:30",
+  "updated": "2026-09-07T19:33:02.780+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Environment & Clearances",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 25145,
-  "sha256": "640d01a1ae7a4f39f8fa63cd36f11ade39eb3693327f1f1664ec7da829ecb7dc",
+  "bytes": 24226,
+  "sha256": "8f517c27f2d01ea82e9a93c4546d8f044aef4691687cbe5077fceeb1f18d8cdd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        25145,
+        24226
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

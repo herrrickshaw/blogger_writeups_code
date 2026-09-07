@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html",
   "slug": "green-gold-what-spirulina-actually-is",
   "published": "2026-08-19T05:42:27.000+05:30",
-  "updated": "2026-09-05T21:51:23.346+05:30",
+  "updated": "2026-09-07T19:23:59.963+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Biofuels",
     "Healthcare"
   ],
-  "bytes": 34245,
-  "sha256": "062628b929b4a9b888f71c078cc939d2aa2352e427f161b2aebf44d670bfd2d8",
+  "bytes": 33326,
+  "sha256": "ebb8e9319049a0387b2fce88ef4522a04778a52c9f258e58043775c6de791e92",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        34245,
+        33326
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }

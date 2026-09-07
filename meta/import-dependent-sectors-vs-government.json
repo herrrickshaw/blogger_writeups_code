@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/import-dependent-sectors-vs-government.html",
   "slug": "import-dependent-sectors-vs-government",
   "published": "2026-08-02T14:03:17.000+05:30",
-  "updated": "2026-09-05T21:52:27.523+05:30",
+  "updated": "2026-09-07T19:25:05.433+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29818,
-  "sha256": "e4226f0bf078dedea312a953e1158abcdc2e45e0672e48f9fe7b332996099aa8",
+  "bytes": 28899,
+  "sha256": "8d7712fbce7abd97e8431a3afff4b0579139e5e2f40a6605ffe2193c4b8192cc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -204,6 +204,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.0.3",
+      "date": "2026-09-07T19:53:24+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        29818,
+        28899
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
     }
   ]
 }
