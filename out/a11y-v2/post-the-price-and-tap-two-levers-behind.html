@@ -1,0 +1,242 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4">Every central bank runs monetary policy through the same two levers: <strong>the rate</strong> (what money costs) and <strong>the window</strong> (how much money gets through, and against what collateral). Commentary obsesses over the first and mostly ignores the second. That is exactly backwards for understanding India in 2025-26 &mdash; because in the current cycle, the Reserve Bank of India's <em>quantity</em> lever did more work than its <em>rate</em> lever. And the world's other big central banks now pull these two levers in almost opposite proportions to the RBI.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Monetary Policy &middot; India Macro &middot; 3 August 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">The Price and the Tap: The Two Levers Behind Every Central Bank, and Why RBI Pulls Them Differently</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="400" fill="#ffffff" />
+<text x="350" y="38" text-anchor="middle" font-size="20" font-weight="700" fill="#212529">The Window Lever: ~₹6 Lakh Crore, Not the Repo Rate</text>
+<text x="350" y="60" text-anchor="middle" font-size="13" fill="#495057" font-style="italic">Scale of RBI liquidity operations, Sep 2025 &#8211; Jan 2026</text>
+
+
+<line x1="200" y1="330" x2="640" y2="330" stroke="#adb5bd" stroke-width="1" />
+
+
+<text x="190" y="118" text-anchor="end" font-size="14" fill="#212529" font-weight="700">OMO purchases</text>
+<text x="190" y="136" text-anchor="end" font-size="11" fill="#868e96">Dec 2025&#8211;Jan 2026</text>
+<rect x="200" y="100" width="440" height="46" fill="#0b5794" rx="3" />
+<text x="650" y="130" font-size="15" font-weight="700" fill="#0b5794">&#8377;3.5 lakh cr</text>
+
+
+<text x="190" y="188" text-anchor="end" font-size="14" fill="#212529" font-weight="700">CRR cut</text>
+<text x="190" y="206" text-anchor="end" font-size="11" fill="#868e96">4% &#8594; 3%, four tranches</text>
+<rect x="200" y="170" width="314" height="46" fill="#0b5794" rx="3" opacity="0.82" />
+<text x="524" y="200" font-size="15" font-weight="700" fill="#0b5794">&#8377;2.5 lakh cr</text>
+
+
+<text x="190" y="258" text-anchor="end" font-size="14" fill="#212529" font-weight="700">FX buy/sell swaps</text>
+<text x="190" y="276" text-anchor="end" font-size="11" fill="#868e96">Long-term forex ops</text>
+<rect x="200" y="240" width="163" height="46" fill="#0b5794" rx="3" opacity="0.6" />
+<text x="373" y="270" font-size="15" font-weight="700" fill="#0b5794">&#8377;1.3 lakh cr</text>
+
+<line x1="200" y1="330" x2="200" y2="94" stroke="#dee2e6" stroke-width="1" />
+
+<text x="350" y="360" text-anchor="middle" font-size="13" fill="#495057">Meanwhile the rate lever moved just once: repo cut 125bp cumulative (6.50% &#8594; 5.25%)</text>
+<text x="350" y="382" text-anchor="middle" font-size="12" fill="#868e96">Fresh-loan lending rates (WALR) fell 105bp against that 125bp cut &#8212; the window, not the rate, drove transmission</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">The RBI's three liquidity-window operations, ranked by scale, sourced from figures stated in the post.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="gb-h2">1. Lever one &mdash; the rate: India's 50-basis-point staircase</div>
+
+<p>The RBI's rate lever is not one number but a deliberately narrow corridor around the policy repo rate, with the <strong>weighted average call rate (WACR)</strong> as the operating target it steers inside that corridor:</p>
+
+<div style="text-align:center;margin:1.5rem 0">
+<svg role="img" aria-label="Diagram of the RBI&#x27;s liquidity adjustment facility corridor: the MSF and Bank Rate ceiling at 5.50 per cent, the policy repo signal rate at 5.25 per cent, and the SDF floor at 5.00 per cent, with the weighted average call rate moving inside that band." viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;height:auto;font-family:-apple-system,'Segoe UI',sans-serif">
+<rect x="0" y="0" width="680" height="240" fill="#f8f9fa" rx="12"/>
+<rect x="60" y="60" width="560" height="120" fill="#eef6ff" stroke="#b6d4f0"/>
+<line x1="60" y1="60" x2="620" y2="60" stroke="#c92a2a" stroke-width="3"/>
+<line x1="60" y1="120" x2="620" y2="120" stroke="#212529" stroke-width="3"/>
+<line x1="60" y1="180" x2="620" y2="180" stroke="#2b8a3e" stroke-width="3"/>
+<text x="70" y="50" font-size="14" fill="#c92a2a" font-weight="700">MSF / Bank Rate — 5.50% (ceiling: emergency borrowing vs SLR)</text>
+<text x="70" y="112" font-size="14" fill="#212529" font-weight="700">Policy Repo — 5.25% (the signal rate; LAF lending)</text>
+<text x="70" y="200" font-size="14" fill="#2b8a3e" font-weight="700">SDF — 5.00% (floor: uncollateralised parking of surplus)</text>
+<text x="440" y="148" font-size="13" fill="#495057" font-style="italic">WACR bounces inside this band</text>
+<text x="630" y="65" font-size="11" fill="#868e96">+25bp</text>
+<text x="630" y="185" font-size="11" fill="#868e96">−25bp</text>
+</svg>
+<div class="gb-note">The LAF corridor after the February 2026 policy: repo held at 5.25%, stance neutral, for the second consecutive meeting.</div>
+</div>
+
+<p>Three design points matter. First, the corridor is only <strong>50 basis points wide</strong> (&plusmn;25bp) &mdash; tighter than the Fed's or ECB's historical corridors &mdash; so the overnight rate signal is precise. Second, the <strong>Bank Rate is deliberately welded to the MSF rate</strong>: the old bill-rediscounting function is a legacy, and today the Bank Rate mostly prices penalties (CRR/SLR shortfalls). It moves automatically with the repo; it is not an independent lever. Third, the floor &mdash; the Standing Deposit Facility, introduced in 2022 &mdash; requires <em>no collateral from the RBI</em>, which means the central bank can absorb unlimited surplus liquidity. The absorption side is no longer constrained by the RBI's own bond holdings the way the old reverse repo was.</p>
+
+
+<div class="gb-h2">2. Lever two &mdash; the window: where the real action was in 2025-26</div>
+
+<p>The Monetary Policy Committee cut the repo rate by a cumulative <strong>125bp</strong> in this cycle (6.50% &rarr; 5.25%), then went on hold. But look at what the liquidity windows did in roughly the same period:</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Window / tool</th><th>What it did</th><th>Scale</th></tr></thead>
+<tbody>
+<tr><td><strong>CRR cut</strong> (4% &rarr; 3%)</td><td>Four 25bp tranches, Sep&ndash;Nov 2025; durable, zero-cost primary liquidity</td><td>~&#8377;2.5 lakh crore</td></tr>
+<tr><td><strong>OMO purchases</strong></td><td>Outright bond buying, Dec 2025&ndash;Jan 2026 alone</td><td>&#8377;3.5 lakh crore</td></tr>
+<tr><td><strong>Long-term forex buy/sell swaps</strong></td><td>Liquidity injection dressed as an FX operation</td><td>~&#8377;1.3 lakh crore</td></tr>
+<tr><td><strong>VRR / VRRR auctions</strong> (1&ndash;14 day)</td><td>Daily fine-tuning of the resulting surplus</td><td>~&#8377;70,000 crore/day avg surplus</td></tr>
+</tbody></table></div>
+
+<p>That combination is why transmission worked. Fresh-loan lending rates (WALR) fell <strong>105bp against 125bp of cuts</strong> &mdash; unusually high pass-through by Indian standards. The rate cut was the announcement; the CRR-OMO-swap barrage was the delivery mechanism. A repo cut into tight liquidity transmits poorly, because banks hoard; the same cut into an engineered surplus transmits almost fully.</p>
+
+<div class="gb-pull">The rate sets the direction. The window decides how much of it arrives.</div>
+
+<p>There is also a distinctly Indian complication: <strong>the FX lever fights the liquidity lever</strong>. Every dollar the RBI sells to defend the rupee drains roughly &#8377;88-worth of banking-system liquidity &mdash; which is exactly why the OMO and swap operations had to be so large. Analysts flagged through late 2025 that FX intervention was quietly undoing the CRR release. The RBI was, in effect, running the tap and the drain at the same time.</p>
+
+<div class="gb-h2">3. How the others split the two levers</div>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Central bank</th><th>Rate lever (Jul 2026)</th><th>Quantity lever (current mode)</th><th>Injection windows</th><th>Regime</th></tr></thead>
+<tbody>
+<tr><td>&#127470;&#127475; <strong>RBI</strong></td><td>Repo 5.25% (corridor 5.00&ndash;5.50)</td><td>Active, discretionary, daily</td><td>LAF repo, VRR 1&ndash;14d, MSF, OMO, FX swaps, CRR</td><td><strong>Corridor + managed liquidity</strong></td></tr>
+<tr><td>&#127482;&#127480; <strong>Fed</strong></td><td>3.50&ndash;3.75% target (mid 3.625%)</td><td>Passive: QT ended Dec 2025; buying T-bills to hold reserves &ldquo;ample&rdquo; (~$3.1tn)</td><td>Discount window, Standing Repo Facility (ceiling)</td><td><strong>Ample-reserves floor</strong></td></tr>
+<tr><td>&#127466;&#127482; <strong>ECB</strong></td><td>MRO 2.25%; deposit facility 15bp below; marginal lending above</td><td>Passive runoff of APP/PEPP portfolios</td><td>Weekly MRO + 3-month LTRO, full allotment on demand</td><td><strong>Demand-driven floor</strong> (2024 framework)</td></tr>
+<tr><td>&#127471;&#127477; <strong>BoJ</strong></td><td>1.00%</td><td>Actively <em>withdrawing</em>: JGB purchase taper</td><td>JGB operations, funds-supplying operations</td><td>Exiting quantity-dominance</td></tr>
+</tbody></table></div>
+
+<p>The structural contrast: <strong>the Fed and the ECB have retired the quantity lever as an active tool.</strong> They pre-position so much liquidity (a &ldquo;floor system&rdquo;) that day-to-day policy is purely administered rates. The Fed's December 2025 pivot to buying short-term Treasuries was not stimulus &mdash; it was plumbing maintenance to keep reserves ample. Their windows (discount window, Standing Repo Facility, marginal lending facility) are <em>insurance ceilings</em>, designed to be quiet. <strong>The RBI does the opposite:</strong> it keeps liquidity deliberately close to neutral and moves it around daily &mdash; the windows are a primary instrument, calibrated auction by auction. The Bank of Japan is the odd one out, running its quantity lever in reverse (tapering bond purchases) while its rate lever idles at 1.00%.</p>
+
+<div class="gb-h2">The takeaway</div>
+
+<div class="gb-card">
+<ul style="margin:.25rem 0 .25rem 1.1rem;padding:0">
+<li style="margin-bottom:.6rem"><strong>Rate = direction, window = magnitude.</strong> In India's 2025-26 easing, the repo cut set the direction, but roughly &#8377;6 lakh crore of window operations (CRR + OMO + swaps) determined how much of it reached borrowers.</li>
+<li style="margin-bottom:.6rem">Watching only the repo rate misreads RBI policy. The February 2026 &ldquo;hold&rdquo; was not neutral in effect &mdash; with a &#8377;70,000 crore daily surplus maintained, it was an <em>easing hold</em>.</li>
+<li style="margin-bottom:.6rem">India cannot move to a Fed-style floor system while it actively manages the rupee: FX intervention makes domestic liquidity volatile, which forces the daily-calibration model.</li>
+<li>For cross-border borrowers (see the green-bond carry analysis below): the <em>level</em> gap between policy rates is the rate lever's story, but the <em>stability</em> of each system's window regime decides how long that carry stays borrowable. The BoJ's taper is a quantity-lever tightening that never shows up in its policy rate.</li>
+</ul>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<ul style="margin:.5rem 0 0 1.1rem;padding:0"><li><a href="https://masaladeutsch.blogspot.com/2026/08/the-rupee-fell-10-and-exports-grew-09.html">The Rupee Fell 10% and Exports Grew 0.9%</a> &mdash; what FX intervention is actually defending, and why a cheaper rupee did not buy more exports</li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html">Raising Green Debt Globally: The REC EuroYen Playbook</a> &mdash; the central-bank rate chart, the &#127471;&#127477;&rarr;&#127470;&#127475; carry card, and the FX leg of borrowing abroad</li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India's Import Bill Is Commodities</a> &mdash; why the rupee-defence drain exists in the first place</li>
+</ul>
+</div>
+
+<div class="gb-card">
+<div style="font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;margin-bottom:.5rem">Sources</div>
+<div class="gb-note">RBI Monetary Policy Statement, 6 February 2026 (repo 5.25%, SDF 5.00%, MSF/Bank Rate 5.50%, neutral stance; &#8377;3.5 lakh crore OMO purchases and $15.1bn (~&#8377;1.3 lakh crore) forex swaps Dec 2025&ndash;Jan 2026; ~&#8377;70,000 crore/day average surplus; WALR &minus;105bp on fresh loans) via IndiaBonds and JM Financial policy notes &middot; RBI MPC, 6 June 2025 (CRR 100bp cut in four tranches Sep&ndash;Nov 2025, ~&#8377;2.5 lakh crore) via Business Standard &middot; Business Standard, Oct 2025 (FX intervention offsetting liquidity infusion) &middot; US Federal Reserve, Monetary Policy Report July 2026 (QT ended Dec 2025; reserves ~$3.1tn, ample; T-bill purchases) &middot; Brookings on the Fed's floor system &middot; ECB operational framework statement, March 2024 (MRO&ndash;deposit spread 15bp, demand-driven floor) &middot; BIS policy-rate statistics WS_CBPOL, retrieved 29 July 2026 (US 3.625 mid-target, EA 2.25, JP 1.00, IN 5.25, UK 3.75).</div>
+</div>
+
+<div class="gb-note" style="margin-top:2rem;border-top:1px solid #dee2e6;padding-top:1rem">This article was researched and drafted with the assistance of AI tools. Figures are sourced from official central-bank publications and reputable financial press as cited; readers should verify current rates before making financial decisions. This is not investment advice.</div>
+
+</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

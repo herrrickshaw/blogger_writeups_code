@@ -1,0 +1,248 @@
+<div class="artx ogfx">
+<style>
+.ogfx{font-family:Georgia,'Times New Roman',serif;line-height:1.6;color:#111}
+.ogfx h1,.ogfx h2,.ogfx h3{line-height:1.3}
+.ogfx{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec}
+.ogfx,.ogfx p,.ogfx li,.ogfx td,.ogfx th{color:var(--ink)!important}
+.ogfx{background:#fff!important}
+.ogfx .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
+.ogfx h1{margin:0 0 10px;font-size:1.5rem}
+.ogfx .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
+.ogfx .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
+.ogfx .stat{background:var(--panel);border:1px solid var(--rule);border-radius:10px;padding:12px 14px}
+.ogfx .stat b{display:block;font-size:1.2rem;color:var(--accent)}
+.ogfx .stat span{font-size:.8rem}
+.ogfx h2{color:var(--accent);border-bottom:2px solid var(--rule);padding-bottom:6px;margin-top:30px;font-size:1.15rem}
+.ogfx .tw{overflow-x:auto}
+.ogfx table{width:100%;border-collapse:collapse;margin:14px 0;font-size:.88rem}
+.ogfx th,.ogfx td{border:1px solid var(--rule);padding:7px 9px;text-align:right;word-wrap:break-word;overflow-wrap:break-word}
+.ogfx th:first-child,.ogfx td:first-child{text-align:left}
+.ogfx th{background:var(--accent);color:#fff!important;font-weight:600}
+.ogfx tr:nth-child(even){background:var(--panel)}
+.ogfx .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.ogfx .warn{background:#fff4f0;border-left:4px solid #a5402c;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+.ogfx .src{font-size:.84rem;border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.ogfx .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
+.ogfx .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
+.ogfx .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p class="standfirst" style="order:4">Five official government models were run on the same corn ethanol scenario in 2023 and produced land-use-change emissions estimates ranging from &minus;0.95 to roughly 41 grams of CO&#8322;e per megajoule &mdash; a number that, in the real world, decides whether a fuel batch clears a regulatory threshold or not. GCAM was one of the five. But GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange &mdash; none of the world's three big biofuel carbon-credit systems run GCAM as their compliance engine. This piece works out what GCAM's real job is in this space, and how the three real systems differ from each other and from it.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p class="eyebrow" style="order:2">Climate Modeling &middot; Biofuels &middot; Carbon Markets</p>
+<h1 style="order:3">One Gallon, Five Numbers: How GCAM Fits Into &mdash; and Stays Out of &mdash; the World's Biofuel Carbon-Credit Systems</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#ffffff" />
+<text x="350" y="34" text-anchor="middle" font-size="19" font-weight="700" fill="#1a1a1a">One Scenario, Five Models, One Contested Number</text>
+<text x="350" y="55" text-anchor="middle" font-size="12.5" fill="#555">Land-use-change emissions for the same corn-ethanol scenario &#8212; EPA Model Comparison Exercise, 2023</text>
+
+
+<line x1="90" y1="294" x2="650" y2="294" stroke="#8a4b08" stroke-width="1.5" />
+<text x="80" y="298" text-anchor="end" font-size="12" fill="#666">0</text>
+
+
+<line x1="90" y1="242" x2="650" y2="242" stroke="#e8dcc4" stroke-width="1" />
+<text x="80" y="246" text-anchor="end" font-size="11" fill="#999">10</text>
+<line x1="90" y1="190" x2="650" y2="190" stroke="#e8dcc4" stroke-width="1" />
+<text x="80" y="194" text-anchor="end" font-size="11" fill="#999">20</text>
+<line x1="90" y1="138" x2="650" y2="138" stroke="#e8dcc4" stroke-width="1" />
+<text x="80" y="142" text-anchor="end" font-size="11" fill="#999">30</text>
+<line x1="90" y1="86" x2="650" y2="86" stroke="#e8dcc4" stroke-width="1" />
+<text x="80" y="90" text-anchor="end" font-size="11" fill="#999">40</text>
+
+
+<rect x="145" y="294" width="120" height="5" fill="#8a4b08" />
+<text x="205" y="315" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">ADAGE</text>
+<text x="205" y="331" text-anchor="middle" font-size="12" fill="#555">&#8722;0.95 gCO&#8322;e/MJ</text>
+<text x="205" y="347" text-anchor="middle" font-size="10.5" fill="#8a4b08" font-style="italic">net carbon sink in this run</text>
+
+
+<rect x="330" y="255.5" width="120" height="38.5" fill="#8a4b08" />
+<text x="390" y="243" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">GREET</text>
+<text x="390" y="315" text-anchor="middle" font-size="12" fill="#555">7.4 gCO&#8322;e/MJ</text>
+<text x="390" y="331" text-anchor="middle" font-size="10.5" fill="#8a4b08" font-style="italic">EPA's own 2020 estimate</text>
+
+
+<rect x="515" y="81" width="120" height="213" fill="#8a4b08" />
+<text x="575" y="69" text-anchor="middle" font-size="13" font-weight="700" fill="#1a1a1a">Highest of the 5 models</text>
+<text x="575" y="315" text-anchor="middle" font-size="12" fill="#555">~41 gCO&#8322;e/MJ</text>
+
+
+<line x1="90" y1="294" x2="650" y2="294" stroke="#8a4b08" stroke-width="1.5" />
+
+<text x="350" y="368" text-anchor="middle" font-size="11.5" fill="#777">Same scenario, same fuel &#8212; the spread alone can decide whether a batch clears a regulatory GHG threshold</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Same corn-ethanol scenario, five government models, one number regulators need: EPA's 2023 Model Comparison Exercise put land-use-change emissions anywhere from -0.95 to ~41 gCO2e/MJ.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style>
+<div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<p class="revised" data-gs-revision-v1="1">Revised
+<time datetime="2026-08-13" itemprop="dateModified">13 August 2026</time>
+&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+
+<div class="stats">
+<div class="stat"><b>5</b><span>models EPA ran on the same corn-ethanol scenario in 2023</span></div>
+<div class="stat"><b>&minus;0.95 &rarr; ~41</b><span>gCO&#8322;e/MJ spread in their land-use-change results</span></div>
+<div class="stat"><b>1</b><span>tonne CO&#8322;e avoided = 1 CBIO, Brazil's tradable credit</span></div>
+<div class="stat"><b>70&ndash;80%</b><span>GHG savings a biofuel must clear under EU RED III</span></div>
+</div>
+
+<p>An earlier piece on this site worked through how GCAM's price-mediated, no-foresight architecture actually links energy, land, water and the economy. This one asks a narrower, more practical question: when a government has to decide how many carbon credits a batch of ethanol earns, does it actually run GCAM to find out &mdash; and if not, what is GCAM's real job in that decision?</p>
+
+
+<h2>1. GCAM's own biofuel accounting is already a credit system, just not a market</h2>
+
+<p>GCAM treats raw biofuel &mdash; corn for ethanol, wood pellets, whatever the feedstock &mdash; as removing carbon from the atmosphere at the point of cultivation, and pays an implicit subsidy for that removal, equal to the model's own carbon price. If that biofuel is later burned without carbon capture, the carbon is re-emitted and the subsidy is repaid in full: a wash, net-zero over the full cycle. Only bioenergy paired with carbon capture and storage (BECCS) gets to keep the original subsidy, because that carbon never comes back out. The GCAM-CDR documentation is explicit that this "can seem like a natural consequence of pricing GHG emissions rather than a specific policy" &mdash; it's not a bolt-on carbon-credit module, it falls straight out of putting one consistent price on every carbon flow in the model, the same "price is the wire" mechanism described in the earlier piece.</p>
+
+<p>That structure is a genuine analogue to how real biogenic-carbon credit accounting works: growing biomass gets provisional credit, and only permanent sequestration (capture and storage, in GCAM's case) converts that provisional credit into something that sticks. But it's an internally consistent accounting identity inside one model's own carbon market &mdash; not a certification a real ethanol producer can present to a real regulator. For that, three separate, genuinely different real-world systems exist, and none of them are GCAM.</p>
+
+<h2>2. Where GCAM actually shows up: an EPA exercise that exposed a real, unresolved disagreement</h2>
+
+<p>In February&ndash;March 2022 the US EPA ran a public workshop specifically on biofuel greenhouse-gas modeling, in consultation with USDA and DOE, because the agency is legally required under the Renewable Fuel Standard (via the Clean Air Act) to determine whether a given biofuel pathway clears a lifecycle GHG-reduction threshold before it can generate compliance credits. Off the back of that workshop, EPA ran a formal Model Comparison Exercise across five frameworks &mdash; ADAGE, GTAP-BIO, GCAM-T, GLOBIOM and GREET (with its separate induced-land-use-change module, CCLUB) &mdash; putting the identical corn-ethanol and soybean-biodiesel scenarios through each one.</p>
+
+<div class="tw">
+<table>
+<tr><th>Model</th><th>Developer</th><th>Structure</th><th>Modelled period</th></tr>
+<tr><td>ADAGE</td><td>RTI International</td><td>Computable general equilibrium</td><td>2020&ndash;2050</td></tr>
+<tr><td>GTAP-BIO</td><td>Purdue University</td><td>Computable general equilibrium</td><td>2014</td></tr>
+<tr><td>GCAM-T</td><td>PNNL</td><td>Partial equilibrium</td><td>2020&ndash;2050</td></tr>
+<tr><td>GLOBIOM</td><td>IIASA</td><td>Partial equilibrium</td><td>2020&ndash;2050</td></tr>
+<tr><td>GREET + CCLUB</td><td>Argonne National Laboratory</td><td>Supply-chain LCA + separate induced-land-use module</td><td>2030</td></tr>
+</table>
+</div>
+
+<p>The results, published in June 2023 as EPA-420-R-23-017, showed exactly the kind of spread that makes this more than an academic exercise: reported land-use-change GHG estimates for corn ethanol ranged from ADAGE's &minus;0.95 gCO&#8322;e/MJ (implying land-use change was a net carbon <em>sink</em> in that model's run) up to roughly 41 gCO&#8322;e/MJ at the high end across the five frameworks, with GREET's own 2020 estimate landing at 7.4 gCO&#8322;e/MJ. EPA's own framing of the exercise's goal was blunt: "identify differences across the models and understand how these differences affect biofuel GHG estimates." The five models don't just disagree on structure (three are documented as partial-equilibrium, two as general-equilibrium) and disagree on which historical year they're calibrated to &mdash; 2014 for GTAP-BIO's baseline versus 2020&ndash;2050 for GCAM-T and GLOBIOM versus 2030 for GREET &mdash; they disagree on the number that, in the real RFS program, is the difference between a fuel batch clearing its GHG threshold or not.</p>
+
+<div class="warn"><b>Caveat.</b> This spread is specifically the land-use-change component of lifecycle emissions, not the full lifecycle carbon intensity number regulators ultimately use (which also includes farming, processing, and transport emissions that the models agree on far more closely). Land-use change is the single most contested piece precisely because it depends on how each model represents land availability, competition between food/feed/fuel/forestry, and how far the ripple effects of one country's biofuel mandate are traced through global trade &mdash; which is exactly the kind of cross-system question GCAM's architecture (described in the earlier piece) is built to trace, and exactly why its answer differs from a narrower supply-chain tool like GREET.</div>
+
+<h2>3. Even inside one model family, how you draw "available land" swings the number by a third</h2>
+
+<p>A separate, more targeted study makes the same point without needing five different models at all: it ran three variants of the same GCAM v5.1.2 base (labelled GCAM-T) that differ only in how much non-commercial land is protected from conversion. The baseline variant protects 36% of non-commercial land, empirically calibrated; a stricter "90% Protection" variant assumes the default GCAM v5.1 approach of protecting 90% of it; a third variant mimics GTAP-BIO's structure by eliminating the non-commercial land category altogether, forcing every land conversion onto already-commercial cropland, pasture and forestry.</p>
+
+<p>Switching land-protection assumptions alone &mdash; nothing else in the model &mdash; moved the resulting land-use-change carbon-intensity estimate by 7 gCO&#8322;e/MJ (19%) between the baseline and the GTAP-style variant, and by 11 gCO&#8322;e/MJ (32%) between the baseline and the 90%-protection variant. The study ranks land representation as the third most influential parameter on the final number, behind only the assumed competition dynamics between forest, grassland and cropland, and the assumed soil carbon density. None of this is a modelling error being caught and fixed &mdash; it's a real, documented sensitivity: the same model, same code, same scenario, produces a meaningfully different carbon-credit-relevant number purely from a defensible methodological choice about what counts as "available" land.</p>
+
+<h2>4. Three real systems, three different architectures &mdash; and none of them run GCAM as the compliance engine</h2>
+
+<p>With that spread as the backdrop, here is what each of the world's three major biofuel carbon-credit systems actually does, mechanically:</p>
+
+<div class="tw">
+<table>
+<tr><th>System</th><th>Jurisdiction</th><th>Unit</th><th>Mechanism</th><th>Underlying LCA tool</th></tr>
+<tr><td>RIN (RFS)</td><td>United States</td><td>1 gallon ethanol = 1 RIN; 1 gallon biodiesel = 1.5 RINs</td><td>Tradable volumetric credit, tiered by GHG-reduction category (conventional &ge;20%, advanced/BBD &ge;50%, cellulosic &ge;60% vs 2005 petroleum baseline)</td><td>EPA-approved pathway-specific LCA (GREET-based determinations); GCAM used only in the separate, non-binding model comparison exercise above</td></tr>
+<tr><td>RED II / RED III</td><td>European Union</td><td>Pass/fail GHG-savings threshold, not a traded quantity</td><td>A fuel either clears the threshold and counts toward national renewable targets, or it doesn't &mdash; thresholds tightened from 35% (pre-2017) to 70% (existing plants) / 80% (new plants) under RED III</td><td>European Commission default emission values, Annex IV/Article 31 methodology &mdash; a centrally prescribed formula, not an open multi-model competition</td></tr>
+<tr><td>CBIO (RenovaBio)</td><td>Brazil</td><td>1 CBIO = 1 tonne CO&#8322;e avoided vs. fossil baseline</td><td>Tradable decarbonisation credit, traded on the B3 stock exchange, issued per certified production unit</td><td>RenovaCalc, Brazil's own lifecycle tool, third-party-verified per mill</td></tr>
+</table>
+</div>
+
+<p>The three designs solve the same underlying problem &mdash; how much less carbon does this fuel really cost, and how should that be rewarded &mdash; with three structurally different answers. The US treats it as a tiered, tradable commodity market where the tier a fuel qualifies for depends on a contested lifecycle number. The EU treats it as a regulatory gate with no market in the credit itself, calculated off a centrally fixed formula rather than each producer's own submitted data. Brazil treats it as a directly tradable, tonne-denominated credit, verified mill-by-mill against the country's own calculator. Independent life-cycle work on Brazilian sugarcane ethanol, run through the GREET model using data actually submitted under RenovaBio, put its carbon intensity at 35.2 gCO&#8322;e/MJ &mdash; a 62% reduction against US gasoline blendstock, before land-use change is even added &mdash; giving a real, checkable cross-system comparison point against the corn-ethanol land-use-change spread from Section 2.</p>
+
+<p>GCAM is the compliance engine for none of the three. Its actual, demonstrated role &mdash; the EPA exercise, the land-representation sensitivity study &mdash; is as an independent, economy-wide check on narrower supply-chain LCA tools like GREET and RenovaCalc, precisely because its architecture (five systems solved jointly through prices, described in the earlier piece) can trace indirect land-use change through global agricultural trade in a way a single-pathway LCA tool structurally cannot. That breadth is also exactly why GCAM's numbers disagree with the narrower tools as much as they do &mdash; it isn't answering a subtly different version of the same question, it's tracing a longer causal chain to get there.</p>
+
+<h2>5. Where India actually stands in this picture</h2>
+
+<p>The GCAM-CEEW build discussed on this site is a real, published, India-specific version of GCAM. But it is not, at the time of the sources checked for this piece, the tool being used for India's own ethanol land-use and sustainability tradeoff work. A PLOS ONE study modelling India's 20% ethanol-blending mandate's trade-offs against land, nitrogen emissions and food security used MAgPIE, a different global land-use partial-equilibrium model, not GCAM &mdash; finding that molasses-heavy blending pathways increase land-use-change and fertiliser emissions, while sugarcane-juice-heavy pathways can turn into a net carbon removal of 8&ndash;9 Mt CO&#8322;e/year by 2050, with an all-sugarcane-juice scenario swinging from +46 Mt CO&#8322;e/year of land-use emissions by 2030 to &minus;11 Mt CO&#8322;e/year by 2050 as afforestation catches up. Separately, CSTEP's own 2024 work on India's transport decarbonisation and biofuel trade-offs used SAFARI, a system-dynamics model built in-house, again not GCAM.</p>
+
+<div class="note"><b>Context.</b> This isn't a criticism of either study &mdash; MAgPIE and SAFARI are each purpose-built for exactly this question. It's a genuine gap worth naming plainly: India already has an India-specific GCAM build with detailed energy and macroeconomic representation (covered in the earlier piece), but its own ethanol land-use and carbon-credit-relevant work is currently being done with other tools. Whether that changes is a live question, not something this piece can resolve.</div>
+
+<h2>What this actually settles</h2>
+
+<p>GCAM's biofuel carbon accounting is real, internally consistent, and philosophically close to how a biogenic-carbon credit ought to work &mdash; provisional credit at growth, repaid at combustion, kept only with permanent sequestration. But that accounting lives inside GCAM's own model economy. In the actual world, three different governments have built three structurally different real systems to answer the same question, and GCAM's demonstrated, checkable role in that world is as an independent, wider-lens cross-check on the narrower tools those systems actually run &mdash; a role that produced a genuinely useful finding (the models disagree by tens of grams of CO&#8322;e per megajoule) precisely because it disagrees with them, not despite it.</p>
+
+<p class="src">Sources: Zhang, X. et al., "GCAM-CDR v1.0: enhancing the representation of carbon dioxide removal technologies and policies in an integrated assessment model," Geoscientific Model Development, 16, 1105&ndash;1129 (2023), on GCAM's biofuel/BECCS carbon subsidy-and-repayment mechanism; US EPA, "Workshop on Biofuel Greenhouse Gas Modeling" (epa.gov/renewable-fuel-standard) and the resulting Model Comparison Exercise Technical Document, EPA-420-R-23-017 (June 2023), covering ADAGE, GTAP-BIO, GCAM-T, GLOBIOM and GREET+CCLUB; EPA presentation slides on the Model Comparison Exercise (Ramig, foragforum.org, March 2024), for model-structure and calibration-year detail; a peer-reviewed study on land-representation sensitivity in modified GCAM v5.1.2 (GCAM-T variants), PMC9132210, for the 19%/32% carbon-intensity swings from land-protection assumptions; US EPA and Growth Energy materials on Renewable Identification Numbers (RINs) under the Renewable Fuel Standard; IEA and ICCT summaries of the EU Renewable Energy Directive (RED II/RED III) GHG-savings thresholds and Annex IV/Article 31 methodology; UNICA and peer-reviewed sources on Brazil's RenovaBio programme, CBIOs and the RenovaCalc lifecycle tool; a peer-reviewed GREET-model evaluation of Brazilian sugarcane ethanol carbon intensity using RenovaBio-submitted data, PMC10433513; a PLOS ONE study on India's biofuel-blending land-use, nitrogen and food-security trade-offs using the MAgPIE model; CSTEP's 2024 work on India's transport decarbonisation trade-offs using the SAFARI system-dynamics model. An earlier piece on this site, "Price Is the Wire," covers GCAM's own five-system architecture and the India-specific GCAM-CEEW/GCAM-IIM build in more depth.</p>
+
+<div id="changelog" class="note">
+<b>Revision history.</b>
+<ul>
+<li><b>v1.0.0</b> &mdash; 13 August 2026 &mdash; first published.</li>
+</ul>
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

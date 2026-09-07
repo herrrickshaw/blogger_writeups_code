@@ -1,0 +1,249 @@
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Two earlier pieces on this blog treated price as a barrier (fractional investing) and diversification as a virtue (the thali). This one puts them together properly, using actual portfolio theory: if price is the only filter applied, does buying every stock in a price band — the "stable" — actually produce a better risk-adjusted outcome than the alternative, or does portfolio theory's own central result say the whole exercise is asking the wrong question?</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<h1 style="order:3">Why Bet on One Horse, When You Can Buy the Stable?</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="400" fill="#ffffff" />
+<text x="350" y="32" text-anchor="middle" font-size="18" font-weight="bold" fill="#111">Sharpe Ratio by Price-Band Portfolio</text>
+<text x="350" y="52" text-anchor="middle" font-size="12.5" fill="#444">Equal-weighted NSE portfolios, weekly returns, Jan 2023 &amp;ndash; Aug 2026</text>
+
+
+
+<line x1="190" y1="80" x2="190" y2="345" stroke="#000" stroke-width="1.5" />
+
+
+<line x1="374" y1="75" x2="374" y2="350" stroke="#0b5794" stroke-width="1.3" stroke-dasharray="5,4" />
+<text x="374" y="68" text-anchor="middle" font-size="11" fill="#0b5794">Sharpe = 1.0 (acceptable)</text>
+
+
+
+<rect x="190" y="90" width="418" height="38" fill="#0b5794" />
+<text x="184" y="114" text-anchor="end" font-size="13" fill="#111">Above ₹10,000</text>
+<text x="184" y="128" text-anchor="end" font-size="10.5" fill="#666">30 stocks</text>
+<text x="618" y="114" font-size="14" font-weight="bold" fill="#111">2.27</text>
+
+
+<rect x="190" y="140" width="305" height="38" fill="#1a8f4c" />
+<text x="184" y="164" text-anchor="end" font-size="13" fill="#111">₹3,000&amp;ndash;5,000</text>
+<text x="184" y="178" text-anchor="end" font-size="10.5" fill="#666">68 stocks</text>
+<text x="505" y="164" font-size="14" font-weight="bold" fill="#111">1.66</text>
+
+
+<rect x="190" y="190" width="289" height="38" fill="#1a8f4c" />
+<text x="184" y="214" text-anchor="end" font-size="13" fill="#111">₹5,000&amp;ndash;10,000</text>
+<text x="184" y="228" text-anchor="end" font-size="10.5" fill="#666">45 stocks</text>
+<text x="489" y="214" font-size="14" font-weight="bold" fill="#111">1.57</text>
+
+
+<rect x="190" y="240" width="285" height="38" fill="#1a8f4c" />
+<text x="184" y="264" text-anchor="end" font-size="13" fill="#111">₹1,000&amp;ndash;3,000</text>
+<text x="184" y="278" text-anchor="end" font-size="10.5" fill="#666">314 stocks</text>
+<text x="485" y="264" font-size="14" font-weight="bold" fill="#111">1.55</text>
+
+
+<rect x="190" y="290" width="103" height="38" fill="#b23b2e" />
+<text x="184" y="314" text-anchor="end" font-size="13" fill="#111">Under ₹1,000</text>
+<text x="184" y="328" text-anchor="end" font-size="10.5" fill="#666">1,987 stocks</text>
+<text x="303" y="314" font-size="14" font-weight="bold" fill="#111">0.56</text>
+
+<line x1="190" y1="345" x2="608" y2="345" stroke="#000" stroke-width="1.5" />
+<text x="190" y="365" font-size="10.5" fill="#666">0</text>
+<text x="374" y="365" text-anchor="middle" font-size="10.5" fill="#666">1.0</text>
+<text x="560" y="365" text-anchor="middle" font-size="10.5" fill="#666">2.0</text>
+
+<text x="350" y="390" text-anchor="middle" font-size="11" fill="#666" font-style="italic">Source: local NSE price warehouse, equal-weighted portfolios per price band, 6.5% risk-free proxy</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Sharpe ratios for five price-band portfolios, Jan 2023–Aug 2026: the priciest stocks come out on top, the cheapest — despite being the most diversified — comes in worst.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="artx">
+<style scoped>
+.artx{background:#ffffff;color:#000000;font-family:Georgia,'Times New Roman',serif;line-height:1.6;max-width:760px;margin:0 auto;padding:0 4px;}
+.artx h1{font-size:1.9em;line-height:1.25;margin:0 0 8px;color:#000;}
+.artx h2{font-size:1.35em;line-height:1.3;margin:36px 0 10px;color:#000;border-bottom:2px solid #000;padding-bottom:4px;}
+.artx h3{font-size:1.1em;margin:22px 0 6px;color:#000;}
+.artx p{margin:0 0 14px;color:#000;}
+.artx .dek{font-size:1.1em;font-style:italic;margin:0 0 20px;color:#000;}
+.artx .byline{font-size:0.9em;margin:0 0 24px;color:#000;}
+.artx a{color:#000;text-decoration:underline;}
+.artx a:hover{text-decoration:none;}
+.artx table{width:100%;border-collapse:collapse;margin:14px 0 20px;font-size:0.95em;}
+.artx th,.artx td{border:1px solid #000;padding:7px 9px;text-align:left;vertical-align:top;color:#000;}
+.artx th{background:#000;color:#fff;}
+.artx .verdict{border:2px solid #000;padding:12px 16px;margin:16px 0 22px;font-weight:bold;}
+.artx .callout{border-left:4px solid #000;padding:8px 14px;margin:14px 0 20px;background:#f2f2f2;}
+.artx blockquote{border-left:4px solid #000;margin:14px 0 20px;padding:4px 14px;font-style:italic;background:#f2f2f2;}
+.artx .sources{font-size:0.9em;}
+.artx .sources li{margin-bottom:6px;color:#000;}
+.artx hr{border:none;border-top:1px solid #000;margin:30px 0;}
+.artx .disclaimer{font-size:0.85em;font-style:italic;border-top:1px solid #000;padding-top:12px;margin-top:34px;}
+.artx ul,.artx ol{margin:0 0 14px;padding-left:22px;color:#000;}
+.artx li{margin-bottom:4px;}
+.artx strong{color:#000;}
+.artx th,.artx td{word-wrap:break-word;overflow-wrap:break-word;word-break:break-word;}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+
+
+
+
+<h2>1. The Mutual Fund Theorem, plainly</h2>
+<p>Financial economist James Tobin's separation theorem — widely taught today as the Mutual Fund Theorem — makes a specific, narrower claim than "diversify." It says that every rational investor, regardless of how much risk they personally want to take, should hold a combination of exactly <strong>two things</strong>: the risk-free asset (cash, T-bills, a government-backed instrument), and <strong>one single optimal risky portfolio</strong> — the specific combination of risky assets that sits at the best possible risk-adjusted point on the entire investable universe, measured by the Sharpe ratio (return earned per unit of volatility taken on). An investor who wants more risk doesn't switch to a <em>different</em> risky portfolio; they simply put more of their money into that one optimal portfolio and less into the risk-free asset. An investor who wants less risk does the reverse. Under the theorem's assumptions, there is theoretically only one "right" risky portfolio to hold — everyone's personal risk dial is a mixing ratio, not a different recipe.</p>
+<p>That framing turns "which price band should I buy?" into a testable question rather than a matter of taste: if price segmentation produced a genuinely superior risky portfolio, one of the five price bands from this blog's earlier price-segmentation work should show a distinctly better Sharpe ratio than the others, and ideally better than the market as a whole. If it doesn't, the theorem's own logic says the price filter isn't doing useful work.</p>
+
+
+<h2>2. The Markowitz method behind Sharpe ratios</h2>
+<p>Harry Markowitz's 1952 mean-variance framework — the basis both for the Mutual Fund Theorem and for how Indian mutual-fund researchers evaluate real portfolios — defines an <strong>efficient portfolio</strong> as one that gives the maximum return for a given level of risk, or the minimum risk for a given level of return. A 2018 Indian study, <em>"To Build Portfolios Using Markowitz Model with Evaluation of Performance of Mutual Fund in India"</em> (Desai &amp; Vaidya, <em>IJCRT</em>), applies exactly this logic to real Indian mutual funds: it builds Aggressive, Moderate and Conservative equity/debt portfolios, then reports each one's <strong>Return, Variance, Standard Deviation and Sharpe ratio</strong> as the basis for comparing them — the same four numbers this piece computes for price-band portfolios below, adapted from mutual-fund schemes to price bands as the selection filter.</p>
+
+<h2>3. Building five price-band portfolios</h2>
+<p>Using this blog's existing Screener.in price-band lists (the same five bands from the fractional-shares piece: under ₹1,000, ₹1,000&ndash;3,000, ₹3,000&ndash;5,000, ₹5,000&ndash;10,000, and above ₹10,000), this article built an <strong>equal-weighted portfolio</strong> for each band — the same rupee amount invested in every stock in the band, not one share of each (buying one share of each stock would weight the portfolio by price, not equally, giving MRF's ₹1,32,700 share 1,000&times; the weight of a ₹130 stock) — and computed each portfolio's own weekly return series over 3.5 years (January 2023 to August 2026), sourced from a local NSE historical-price warehouse rather than a live API, to get complete coverage without the rate-limiting gaps a live data pull would hit on a universe this size. From each portfolio's own return series: annualised return, annualised volatility (the portfolio's actual standard deviation of returns, not just beta), and the <strong>Sharpe ratio</strong> &mdash; (portfolio return &minus; risk-free rate) &divide; portfolio volatility, using a 6.5% risk-free proxy &mdash; the single number this piece uses to rank the five portfolios, because it's the same "return earned per unit of risk taken" measure both the Mutual Fund Theorem and the IJCRT paper above use to compare portfolios rather than comparing raw return alone:</p>
+<div class="callout"><strong>Reading a Sharpe ratio.</strong> <strong>Under 1.0</strong> is poor or sub-optimal &mdash; the returns don't adequately compensate for the risk taken. <strong>1.0&ndash;1.99</strong> is good and acceptable, the standard range for a healthy long-term equity portfolio. <strong>2.0&ndash;2.99</strong> is very good, indicating high efficiency, though an extremely high ratio can sometimes signal leverage rather than genuine skill. <strong>3.0 or higher</strong> is excellent or outstanding, but rare for standard multi-year asset classes outside high-frequency strategies or a distorted, unusually short measurement window.</div>
+<div class="callout"><strong>Which window this piece's own figures use.</strong> Given how much a Sharpe ratio can move depending on the period measured (see the mutual-fund comparison later in this piece, where the same fund's published ratio ranges from &minus;0.31 to 1.68 depending on the source), the exact window matters more than the number itself. Every Sharpe ratio, return and volatility figure in this article uses <strong>one single, fixed 3.5-year window of weekly closing prices, 2 January 2023 to 7 August 2026</strong> &mdash; not a rolling 1-year, 3-year or 5-year figure, and not an average across several windows. Each price-band portfolio's return series covers that entire span as one continuous calculation; there is no "trailing" period being updated or re-based partway through. The risk-free rate used throughout is a flat <strong>6.5%</strong> annualised proxy, not a time-varying G-sec yield, applied identically to every portfolio and to the mutual-fund comparison figures for consistency. Changing the window &mdash; a shorter recent slice, a longer one reaching back further than 2023, or a different risk-free assumption &mdash; would change every number in this piece, likely by a similar order of magnitude to the spread already documented for real mutual funds below.</div>
+<table>
+<thead><tr><th>Price band, ₹</th><th>Stocks in portfolio</th><th>Annualised return, %</th><th>Annualised volatility, %</th><th>Sharpe ratio</th></tr></thead>
+<tbody>
+<tr><td>Above 10,000</td><td>30</td><td>44.4</td><td>16.7</td><td>2.27</td></tr>
+<tr><td>3,000&ndash;5,000</td><td>68</td><td>35.2</td><td>17.3</td><td>1.66</td></tr>
+<tr><td>5,000&ndash;10,000</td><td>45</td><td>31.8</td><td>16.1</td><td>1.57</td></tr>
+<tr><td>1,000&ndash;3,000</td><td>314</td><td>32.8</td><td>17.0</td><td>1.55</td></tr>
+<tr><td>Under 1,000</td><td>1,987</td><td>19.0</td><td>22.4</td><td>0.56</td></tr>
+</tbody>
+</table>
+<p>Sorted by Sharpe ratio — best risk-adjusted return first — a clear ranking falls out, and it isn't the one either "buy what's cheap and diversify hard" or "avoid volatile penny stocks" would predict on its own. The <strong>above-₹10,000 portfolio has the best Sharpe ratio (2.27)</strong> of the five — "very good" on the ranges above — driven mainly by the highest return of any band (44.4%); its volatility (16.7%) is in the same narrow 16&ndash;17% range as three of the four other bands, not the lowest of the five (the ₹5,000&ndash;10,000 band's 16.1% is marginally lower) — the standout here is return, not exceptionally low risk. The three middle bands all land in the "good and acceptable" 1.0&ndash;1.99 range typical of a healthy long-term equity portfolio. The <strong>under-₹1,000 portfolio has by far the worst Sharpe ratio (0.56)</strong> — squarely in "poor or sub-optimal" territory, the only one of the five that doesn't clear 1.0 — not because it lacks diversification (at 1,987 constituent stocks it is, by a wide margin, the most internally diversified portfolio in this table) but because it combines the <em>lowest</em> return with the <em>highest</em> volatility of any band. Buying nearly two thousand different cheap stocks did not fix a fundamentally weaker risk-return profile; a big stable of weak horses is still a weak stable.</p>
+
+<h3>How does that compare to real, professionally run funds?</h3>
+<p>To put those numbers in perspective: real, professionally managed Indian equity mutual funds with strong recent track records report Sharpe ratios mostly in the <strong>0.88&ndash;1.18</strong> range as of 2026 &mdash; JM Flexicap Fund at 1.18 (the highest among its flexi-cap peers), Parag Parikh Flexi Cap Fund at 0.99 (5-year CAGR ~19.2%), HDFC Flexi Cap Fund at 0.94 (5-year CAGR ~21.4%), and Mirae Asset Large Cap Fund at 0.88 (5-year CAGR ~14.8%, noted for downside protection). By that yardstick, every price-band portfolio in the table above except the under-₹1,000 one posted a Sharpe ratio <em>higher</em> than these well-regarded, actively managed funds' published figures &mdash; the above-₹10,000 portfolio's 2.27 is roughly double JM Flexicap's category-leading 1.18.</p>
+<p>That gap is a caveat about this piece's own method, not a claim that a simple price filter beats professional fund managers. Real funds' Sharpe ratios are typically computed over rolling 3&ndash;5-year windows, net of actual expense ratios (0.3&ndash;1%+ a year), transaction costs, and the real-world friction of managing investor inflows and redemptions — none of which this piece's equal-weighted, no-cost, backward-looking simulation accounts for. A real fund also cannot see three years into the future when choosing what to hold at the start of the period the way a backward-constructed academic exercise implicitly can. The honest reading is that this piece's Sharpe ratios are an upper-bound illustration of what a frictionless, cost-free version of each price band would have returned over this specific window — useful for comparing the five bands <em>against each other</em>, which is what this piece set out to do, but not a like-for-like benchmark against what a real investor paying real costs would have captured from a real fund.</p>
+<p class="disclaimer">A second, separate caveat on the fund figures themselves: checking against <a href="https://www.valueresearchonline.com/">Value Research Online</a>, India's oldest independent mutual fund rating service and the closest thing this space has to a standard public reference, found that even a single well-known fund's own Sharpe ratio isn't one settled number across public sources. For Parag Parikh Flexi Cap Fund alone, this article found figures ranging from 0.99 to 1.68 to as low as &minus;0.31, and HDFC Flexi Cap Fund reported anywhere from 0.01 to 0.94 to 1.44 &mdash; depending on which rolling window (1-year, 3-year, 5-year) and which risk-free-rate assumption the source used, none of which is stated consistently across the aggregator sites that publish these numbers. Value Research's own fund pages carry Sharpe ratio under a "Risk" tab that requires a paid Fund Advisor subscription to see in full; the 0.88&ndash;1.18 range cited above should be read as one snapshot from secondary sources rather than a single authoritative figure, and the wide spread across sources is itself a real finding: "the Sharpe ratio" of a specific fund is a less stable, less agreed-upon number in practice than the ratio's clean textbook formula suggests.</p>
+
+<h2>4. So should you just buy the expensive-stock portfolio?</h2>
+<p>No — and this is exactly where the Mutual Fund Theorem's actual claim matters, not just the general idea of diversifying. The theorem doesn't say "find the best-performing filtered subset of the market and buy that." It says the one optimal risky portfolio is derived from mean-variance optimisation across the <em>entire</em> investable universe, weighted by each asset's actual contribution to risk and return — which in practice is closely approximated by a broad, market-cap-weighted index (a Nifty 50 or Nifty 500 fund), not by grouping stocks along an arbitrary axis like their current share price. Price was already shown, in this blog's companion piece, to carry no consistent relationship to a stock's beta (systematic risk) — the same absence of structure shows up here: the above-₹10,000 band's better Sharpe ratio in this specific 3.5-year window is a backward-looking description of what happened to a handful of large, well-known companies (MRF, Bosch, Maruti and the rest of that band) that happen to be expensive, not a forward-looking reason that being expensive causes better risk-adjusted returns. Slicing the market by price and picking the best-looking slice after the fact is a subtly different mistake from picking one stock, but it's still not the one-portfolio answer the theorem describes.</p>
+<p>The practical takeaway is closer to the original stable metaphor than either extreme: one horse (a single stock) is a bet on a single, undiversified outcome. One price-filtered stable, of any band, is a bet still shaped by an arbitrary characteristic that has nothing to do with risk. The portfolio the Mutual Fund Theorem actually points to is the <em>whole track</em> — the full, market-cap-weighted universe, which is what a broad index fund already is, and which is the reason "buy a total-market index fund" persistently outperforms most attempts to out-think it by filtering on some observable trait, price included.</p>
+
+<h2>5. "Mutual Funds Sahi Hai" — so should you just build your own?</h2>
+<p>AMFI, the industry body for Indian mutual funds, has run its investor-education campaign under the tagline <strong>"Mutual Funds Sahi Hai"</strong> — roughly, "mutual funds are the right choice" — since 2017, via <a href="https://www.mutualfundssahihai.com/hi">mutualfundssahihai.com</a>. The campaign's own stated pitch to first-time investors leans heavily on exactly the mechanism this piece has been testing: that pooling many investors' money into one professionally managed, diversified portfolio reduces the risk any single investor carries, compared with picking stocks alone. If diversification is the actual reason mutual funds are "sahi," the natural follow-up question is the one implicit in this piece's title: could an investor get the same benefit by building their own diversified basket — a homemade, "khud banao" ("do it yourself") version — using a filter as simple as price?</p>
+<p>The five portfolios built above are a direct empirical answer, and it's a qualified no. A DIY basket assembled purely by price band <em>does</em> capture some of the real benefit mutual funds are built on — every price-band portfolio in this piece, including the worst one, is less exposed to any single company's bad news than one stock would be, and the Sharpe ratios above are genuine, computed risk-adjusted returns, not a theoretical claim. But "diversified" and "well-constructed" are not the same thing: the under-₹1,000 portfolio proved that diversifying across nearly 2,000 stocks inside a poorly chosen filter still produced the worst risk-adjusted outcome of the five, worse than several portfolios holding a tenth as many names. A professionally run mutual fund scheme is doing something a price filter cannot — actively weighing sector exposure, company quality, valuation and correlation between holdings, the same variables Markowitz's mean-variance framework calls for and which a simple "buy everything under ₹X" or "buy everything over ₹X" rule ignores entirely. AMFI's underlying pitch survives this piece's own test: the pooling and professional-selection parts of "mutual funds are sahi" are doing real work that a homemade, single-characteristic filter does not reliably replicate — even when that filter produces a genuinely diversified basket by sheer count of holdings.</p>
+
+<h2>6. Does this match what finance professors actually teach?</h2>
+<p>The framework used throughout this piece — Markowitz mean-variance optimisation, the Sharpe ratio as the reward-per-unit-of-risk yardstick, and Tobin's Mutual Fund Theorem for what a single "optimal" portfolio implies — is standard graduate-level corporate finance and valuation curriculum, not a bespoke method invented for this piece. <a href="https://pages.stern.nyu.edu/~adamodar/">Aswath Damodaran</a>, the NYU Stern finance professor whose free public data sets on cost of capital, equity risk premiums and betas by industry are widely used as a teaching and practitioner reference, publishes exactly the kind of risk-free-rate and equity-risk-premium inputs this piece's Sharpe and alpha calculations depend on. His most recent country risk data (updated January 2026) puts India's total equity risk premium at <strong>7.08%</strong> (Baa3 sovereign rating, a 2.85% country risk premium layered on a 4.23% mature-market premium) &mdash; a premium <em>on top of</em> the risk-free rate, not the risk-free rate itself, so it isn't directly comparable to the flat 6.5% risk-free proxy used in this piece's own calculations, but it confirms the risk-free rate this piece assumed is in the right neighbourhood: India's 10-year government bond yield, the usual risk-free proxy, has recently sat close to that same 6.5&ndash;7% range.</p>
+<p>More directly relevant to this piece's actual conclusion: Damodaran has repeatedly and publicly pushed back on "characteristic-based" investing strategies that sort stocks by some observable trait and assume the sorting itself explains a return difference, unless that trait is tied to an actual, priced risk factor. Established asset-pricing models add factors like company size, valuation (value vs. growth) and momentum to the market-risk term CAPM already captures — but a stock's raw per-share price is not one of them, precisely because it's a mechanical artifact of how many times a company has split its shares, unrelated to the size or risk of the underlying business. That is exactly this piece's own finding, arrived at independently: sorting the market by price produced real, measurable Sharpe-ratio differences in this specific window, but with no structural reason to expect that pattern to persist, because price was never a legitimate risk factor to sort by in the first place. The analysis and the standard teaching agree; they just agree from two different directions.</p>
+
+<div class="verdict">Verdict: <strong>Buying the stable beats betting on one horse, but the stable still has to be the right one.</strong> Equal-weighted portfolios built purely from price bands show real, measurable differences in Sharpe ratio — the above-₹10,000 band (2.27) looks genuinely better than the under-₹1,000 band (0.56) over this period, and diversifying within a price band (up to 1,987 stocks, in the cheapest band's case) did not by itself fix a weak risk-return profile. But price is not a risk factor the Mutual Fund Theorem recognises, and the theorem's actual prescription &mdash; one optimal risky portfolio, built from the whole market by mean-variance weighting, not by any single characteristic like price &mdash; points toward a broad index fund over any price-filtered subset, however diversified that subset happens to be.</div>
+
+<hr>
+<h3>Related on this blog</h3>
+<p><span>See also:</span> <a href="https://masaladeutsch.blogspot.com/2026/08/a-slice-of-apple-costs-about-1700-slice.html">A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal.</a> — the price-segmentation and per-stock beta data this piece builds its five portfolios from. · <a href="https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html">Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.</a> — the small-ticket, diversified mutual-fund products (PhonePe Daily SIP, Jar) that already deliver something close to the Mutual Fund Theorem's actual prescription, at ₹10 a day.</p>
+
+<h3>Sources</h3>
+<ul class="sources">
+<li><a href="https://www.investopedia.com/terms/m/mutualfundtheorem.asp">"Mutual Fund Theorem: What it Means, How it Works," Investopedia</a></li>
+<li><a href="https://www.mutualfundssahihai.com/hi">"Mutual Funds Sahi Hai" investor-education campaign, Association of Mutual Funds in India (AMFI)</a></li>
+<li>Sharpe ratio figures for JM Flexicap, Parag Parikh Flexi Cap, HDFC Flexi Cap and Mirae Asset Large Cap funds &mdash; <a href="https://sampadasarathi.com/insights/top-mutual-funds-2026">"7 Best Mutual Funds in India for 2026 (Ranked by Risk-Adjusted Returns)"</a> and <a href="https://www.gripinvest.in/blog/best-flexi-cap-mutual-funds">"Best Flexi Cap Mutual Funds in India 2026"</a>, cross-referenced across both</li>
+<li><a href="https://www.valueresearchonline.com/">Value Research Online</a> &mdash; checked directly for the same funds' Sharpe ratios; found meaningfully different figures than the secondary sources above depending on measurement window, and full risk-stats detail gated behind a paid subscription, both noted in the text above</li>
+<li><a href="https://www.ijcrt.org/papers/IJCRTDRBC046.pdf">Desai, Pranjal &amp; Vaidya, Mansi. "To Build Portfolios Using Markowitz Model with Evaluation of Performance of Mutual Fund in India." <em>International Journal of Creative Research Thoughts (IJCRT)</em>, Vol. 6, Issue 1, March 2018.</a></li>
+<li>Five equal-weighted price-band portfolios (return, volatility, Sharpe ratio, 3.5 years weekly, Jan 2023&ndash;Aug 2026) computed from a local historical NSE OHLCV warehouse (adjusted close, year-partitioned parquet), cross-referenced against the live-data per-stock beta figures in this blog's companion price-segmentation piece</li>
+<li>Nifty 50 benchmark series and risk-free proxy sourced via Yahoo Finance; cross-checked against <a href="https://www.screener.in/company/NIFTY/">Screener.in's Nifty 50 index page</a> (tracks NSE Indices' own published values directly), which showed the index at ₹24,443 on 11 Aug 2026, consistent with the Yahoo Finance series used for this piece's calculations</li>
+<li><a href="https://pages.stern.nyu.edu/~adamodar/">Aswath Damodaran (NYU Stern)</a>, country risk premium data set (India: Baa3, 7.08% total equity risk premium, updated January 2026), used to cross-check this piece's risk-free-rate assumption</li>
+<li>Constituent price-band lists sourced from Screener.in company data, 11 Aug 2026</li>
+</ul>
+
+<p class="disclaimer">This analysis is based on historical price data and does not constitute investment advice. Past risk-adjusted returns (Sharpe ratios) are backward-looking and specific to the 3.5-year window measured; they are not a prediction that any price band will continue to outperform or underperform. Equal-weighted portfolios (an equal rupee amount invested in every stock in a band) do not reflect how any real investor would actually construct a portfolio and are used here purely to isolate price as the sole selection filter, consistent with this blog's earlier price-segmentation work. Local warehouse price coverage was incomplete for the largest band (1,987 of 4,862 stocks under ₹1,000 had usable price history), a limitation shared with the live-data beta figures in the companion piece and noted there in more detail.</p>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

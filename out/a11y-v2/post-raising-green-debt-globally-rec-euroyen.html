@@ -1,0 +1,455 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4;font-size:1.1em;color:#495057"><em>On 28 November 2025 the Climate Bonds Standard Board approved post-issuance certification of REC Limited's EuroYen Green Bonds &mdash; the letter, signed by CBI chief Sean Kidney, sits in front of us. That one page is the end of a chain that starts with a &#165;61.1&nbsp;billion bond, runs through a verifier's audit of where every yen went &mdash; solar, wind, biogas, pumped storage, electric buses &mdash; and ends with access to a class of global investors that plain-vanilla debt never reaches. This piece uses the REC deal, the CBI standard, SBI's framework and India's own sovereign programme to map every avenue an Indian issuer has for raising sustainable debt globally, and what the green label is actually worth.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Sustainable Finance &middot; India Trade &amp; Policy &middot; 3 August 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">Raising Green Debt Globally: The REC EuroYen Playbook, the CBI Stamp, and Every Avenue an Indian Issuer Actually Has</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" aria-label="REC EuroYen green bond, three tranches, January 2024" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#ffffff" />
+<text x="350" y="34" font-size="19" font-weight="700" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">REC's &#165;61.1bn EuroYen Green Bond &amp;mdash; Three Tranches</text>
+<text x="350" y="54" font-size="13" fill="#868e96" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">Priced January 2024 &amp;middot; India's first yen green bond from a govt-owned entity</text>
+
+
+<line x1="90" y1="300" x2="610" y2="300" stroke="#adb5bd" stroke-width="1.2" />
+
+
+<line x1="90" y1="229" x2="610" y2="229" stroke="#e9ecef" stroke-width="1" />
+<text x="82" y="233" font-size="11" fill="#868e96" text-anchor="end" font-family="-apple-system,'Segoe UI',sans-serif">10</text>
+<line x1="90" y1="158" x2="610" y2="158" stroke="#e9ecef" stroke-width="1" />
+<text x="82" y="162" font-size="11" fill="#868e96" text-anchor="end" font-family="-apple-system,'Segoe UI',sans-serif">20</text>
+<line x1="90" y1="87" x2="610" y2="87" stroke="#e9ecef" stroke-width="1" />
+<text x="82" y="91" font-size="11" fill="#868e96" text-anchor="end" font-family="-apple-system,'Segoe UI',sans-serif">30</text>
+<text x="52" y="180" font-size="11" fill="#868e96" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif" transform="rotate(-90 52 180)">&#165; billion</text>
+
+
+<rect x="140" y="80" width="110" height="220" fill="#0b5794" />
+<text x="195" y="70" font-size="15" font-weight="700" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">&#165;31.0bn</text>
+<text x="195" y="195" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">1.76%</text>
+<text x="195" y="320" font-size="13" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">5-year</text>
+
+
+<rect x="290" y="105" width="110" height="195" fill="#0b5794" />
+<text x="345" y="95" font-size="15" font-weight="700" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">&#165;27.4bn</text>
+<text x="345" y="207" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">1.79%</text>
+<text x="345" y="320" font-size="13" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">5.25-year</text>
+
+
+<rect x="440" y="281" width="110" height="19" fill="#1a8f4c" />
+<text x="495" y="271" font-size="15" font-weight="700" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">&#165;2.7bn</text>
+<text x="495" y="345" font-size="13" font-weight="600" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">2.20%</text>
+<text x="495" y="320" font-size="13" fill="#212529" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">10-year</text>
+
+<text x="350" y="368" font-size="11" fill="#868e96" text-anchor="middle" font-family="-apple-system,'Segoe UI',sans-serif">Total &#165;61.1bn (~$421mn), off REC's $10bn GMTN programme &amp;middot; listed only at GIFT City &amp;middot; coupon labelled per tranche</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">REC's ¥61.1bn (~$421mn) EuroYen green bond, priced January 2024 — three tranches, coupons of 1.76–2.20%.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="gb-h2">1. The anchor document: what a CBI certification actually certifies</div>
+<p>The Climate Bonds Standard (now v4.3) is the strictest of the mainstream labels because it is the only one with <strong>mandatory, two-stage, third-party verification</strong>. Pre-issuance, an approved verifier (DNV, KPMG, Bureau Veritas and peers) confirms the nominated assets meet science-based sector criteria and that proceeds-tracking is in place. Post-issuance &mdash; required within 12 months &mdash; the verifier confirms the money actually went where promised. The 28 Nov 2025 letter for REC's EuroYen bonds is that second stage: the Climate Bonds Standard Board (CalSTRS, IIGCC, ICMIF, IGCC, Ceres, NRDC) approving certification after reviewing the verification report. REC's own public framing, via its Green Bond Impact Report (Dec 2025, with GGGI reaffirming the second-party opinion), describes completed post-issuance assurance under the ICMA Green Bond Principles for both the yen bonds and its USD&nbsp;500&nbsp;mn Sept-2024 green bond &mdash; the CBI board approval documented in the letter is the harder, criteria-tested layer on top of that.</p>
+
+<p>The bond itself: <strong>&#165;61.1&nbsp;bn (~$421&nbsp;mn), priced January 2024</strong> in three tranches &mdash; &#165;31.0&nbsp;bn 5-year at 1.76%, &#165;27.4&nbsp;bn 5.25-year at 1.79%, &#165;2.7&nbsp;bn 10-year at 2.20% &mdash; India's first yen green bond from a government-owned entity and its largest yen deal, issued off REC's $10&nbsp;bn GMTN programme and listed <strong>only at GIFT City</strong> (India INX and NSE IX), not Tokyo. Roughly half the order book was Japanese money &mdash; among the highest international allocations any Indian yen deal has drawn.</p>
+
+
+<div class="gb-h2">2. The standards stack: from ICMA baseline to the CBI stamp</div>
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Layer</th><th>What it requires</th><th>Who enforces</th></tr></thead>
+<tbody>
+<tr><td>ICMA Green Bond Principles (2021/22)</td><td>Four pillars: use of proceeds, project selection, proceeds management, reporting. Voluntary; the de-facto baseline for REC's and SBI's frameworks</td><td>Self + second-party opinion</td></tr>
+<tr><td>Climate Bonds Standard v4.3 (CBI)</td><td>Paris-aligned sector criteria + mandatory pre- and post-issuance verification by approved verifiers</td><td>Climate Bonds Standard Board</td></tr>
+<tr><td>EU Green Bond Standard (EuGB, from 21 Dec 2024)</td><td>&ge;85% of proceeds to EU-Taxonomy-aligned activities; ESMA-registered reviewers; binding once the label is used</td><td>ESMA / EU NCAs</td></tr>
+<tr><td>SEBI green debt framework (Feb 2023, from 1 Apr 2023)</td><td>Expanded labels (incl. blue, yellow, transition bonds), anti-greenwashing dos-and-don'ts, BRSR-aligned disclosure for <em>every</em> green issuer, third-party reviewer for proceeds &amp; impact</td><td>SEBI</td></tr>
+<tr><td>IFSCA (GIFT City) Listing Regs 2024, Ch. X</td><td>Framework mapping in offer docs, annual allocation reports, independently verified impact, transition-bond framework; ~$14&nbsp;bn green issuance under IFSC rules so far</td><td>IFSCA</td></tr>
+</tbody>
+</table></div>
+
+<p><strong>SBI is the bank template.</strong> Its ESG Financing Framework (2022; updated 2023 and March 2025) is aligned to ICMA's green, social and sustainability principles and the LMA loan principles, with second-party opinions from Sustainalytics (2022, 2023) and CareEdge (2025). On it hang: the maiden <strong>$650&nbsp;mn 5-yr public green bond (Nov 2021</strong>, London branch, UST+165bp, dual-listed India INX + Luxembourg), a $250&nbsp;mn green FRN (Dec 2023), earlier CBI-certified issuance aggregating ~$700&nbsp;mn, a EUR&nbsp;100&nbsp;mn bilateral green loan &mdash; and, domestically, the <strong>SBI Green Rupee Term Deposit</strong> (Jan 2024; 1,111/1,777/2,222-day tenors) under RBI's green deposit framework (effective June 2023, INR-only, third-party verified). Axis Bank holds the historical first: India's first CBI-certified green bond, $500&nbsp;mn at LSE, June 2016. IREDA's 2017 masala green bond (&#8377;19.5&nbsp;bn, LSE/SGX) was the first CBI-certified investment-grade financial-institution masala bond.</p>
+
+<div class="gb-h2">3. What the money funds: solar, wind, biogas and the rest of the eligible universe</div>
+<p>A green label is only as good as its eligible-projects list. Across the frameworks the article touches, the funded universe looks like this:</p>
+<ul>
+<li><strong>Solar</strong> &mdash; automatically eligible under CBI's renewables criteria; India's SEBI regime even created a dedicated <strong>"yellow bond"</strong> sub-label for solar and its upstream/downstream chain. Solar dominates REC's verified FY25 deployment: of the <strong>2,032&nbsp;MW across 11 operational projects</strong> financed by the certified bonds, 70.9% sits in Rajasthan's solar belt, generating ~1&nbsp;bn kWh in the year.</li>
+<li><strong>Wind</strong> &mdash; likewise automatically eligible (onshore and offshore) under the Climate Bonds sector criteria and every ICMA-aligned Indian framework, including SBI's and the sovereign's.</li>
+<li><strong>Biogas / biomethane</strong> &mdash; the most technically policed category. CBI's Bioenergy Criteria (Aug 2022) demand a full lifecycle assessment showing <strong>&le;18.8&nbsp;gCO&#8322;e/MJ for transport biofuel facilities and &le;16.0&nbsp;gCO&#8322;e/MJ plus 80% conversion efficiency for heating/co-generation</strong>, with explicit mitigation of indirect land-use-change risk &mdash; feedstock-neutral, so crop-residue, dung-based and municipal-waste plants all qualify if the LCA clears. This is live money, not theory: Sojitz Corporation invested (April 2025) in IOC GPS Renewables Pvt Ltd, the IndianOil&ndash;GPS Renewables JV building biomethane plants across India &mdash; Japanese capital entering the exact asset class the yen bonds fund. The scale-up signal is now sovereign-level: the <strong>Japan–India CBG Initiative</strong>, announced at prime-ministerial level in July 2026, targets <strong>1,000 biogas/CBG plants in India by 2030</strong> with a letter of intent covering 2.5 million CNG vehicles running on the output — Suzuki, whose second dairy-linked Banas plant opened in December 2025, anchors the private side. It also connects directly to this blog's bioenergy thread: the CBG plants in <a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits</a> and the ethanol economy in <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata</a> are the borrower-side of these same criteria.</li>
+<li><strong>Pumped storage &amp; grid</strong> &mdash; named in REC's Green Finance Framework; the enabling layer that makes high-solar grids bankable.</li>
+<li><strong>Low-carbon mobility</strong> &mdash; e-buses and Metro Rail under REC's framework; the demand side of the EV story in <a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India's EV Market</a>.</li>
+<li><strong>The sovereign's list</strong> &mdash; India's Sovereign Green Bond Framework (Nov 2022; CICERO "Medium Green") funds government expenditure across renewables, clean transport, water and afforestation, and is as notable for its exclusions: all fossil-fuel projects, nuclear, direct waste incineration and protected-area biomass are out; CNG qualifies only for public transport.</li>
+</ul>
+<p>REC's verified FY25 impact across this universe: <strong>0.87&nbsp;Mt CO&#8322; of financed emission reductions plus 1.34&nbsp;Mt enabled</strong> &mdash; the distinction between what the bond paid for and what it unlocked being exactly the kind of disclosure the certification regime forces.</p>
+
+<div class="gb-h2">4. The avenue matrix: every route to global sustainable debt</div>
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Avenue</th><th>Benchmark deal / terms</th><th>What it's good for</th></tr></thead>
+<tbody>
+<tr><td>USD Reg S/144A green or sustainability bond</td><td>EXIM $1&nbsp;bn 10-yr (Jan 2025) at UST10+100bp with a <em>negative</em> 5bp new-issue concession; REC $500&nbsp;mn (Sep 2024); SBI $250&nbsp;mn FRN (Dec 2023)</td><td>Depth and size; tightest spreads on record for Indian credit</td></tr>
+<tr><td>JPY EuroYen bond</td><td>REC &#165;61.1&nbsp;bn (Jan 2024): 1.76&ndash;2.20% coupons; ~50% Japanese book; GMTN-based so no Samurai-style Japanese registration</td><td>Japanese insurers/regional banks; low nominal coupons; diversification</td></tr>
+<tr><td>JPY green ECB loans</td><td>IREDA &#165;26&nbsp;bn 5-yr from SBI Tokyo (Mar 2025) &mdash; hedged landed cost under 7%, cheaper than domestic; PFC&ndash;JBIC &#165;120&nbsp;bn facility (Jan 2025); NLC &#165;15.46&nbsp;bn (Dec 2025)</td><td>Beats domestic cost after hedging; JBIC anchoring</td></tr>
+<tr><td>EUR green bond</td><td>PFC &euro;300&nbsp;mn (2021) remains the lone benchmark &mdash; the thinnest avenue</td><td>EU investor base; now carries EuGB/SFDR documentation gravity</td></tr>
+<tr><td>Masala (offshore INR)</td><td>NTPC &#8377;20&nbsp;bn green masala @7.48% (2016, world's first corporate); IREDA 2017 CBI-certified &mdash; dormant since</td><td>No FX risk to issuer; revives only when rupee sentiment allows</td></tr>
+<tr><td>GIFT City IFSC listing</td><td>REC's yen and $750&nbsp;mn bonds; IRFC $500&nbsp;mn; ~$14&nbsp;bn green under IFSC rules</td><td>Indian venue with international law/settlement; IFSCA green framework</td></tr>
+<tr><td>Sustainability-linked bonds/loans</td><td>UltraTech $400&nbsp;mn SLB &mdash; coupon steps 2.80%&rarr;3.55% if the 2030 GHG-intensity target is missed; label globally out of favour since</td><td>For issuers without a green asset pool; penalty-rate credibility</td></tr>
+<tr><td>Green deposits (domestic complement)</td><td>SBI SGRTD under RBI's Jun-2023 framework; INR-only</td><td>Retail/institutional INR funding for the same eligible book</td></tr>
+<tr><td>Sovereign green G-secs</td><td>&#8377;16,000&nbsp;cr (FY23) + &#8377;20,000&nbsp;cr (FY24); then auctions devolved/cancelled as the greenium vanished (Nov 2024: &#8377;1,502&nbsp;cr accepted of &#8377;5,000&nbsp;cr)</td><td>Sets the sovereign curve; also a cautionary tale (below)</td></tr>
+<tr><td>RBI ECB route (Feb 2026 revision)</td><td>Automatic-route ceiling recast to the higher of $1&nbsp;bn outstanding or 300% of net worth; all-in-cost ceiling removed</td><td>Materially widens the offshore green-loan pipe for NBFCs/corporates</td></tr>
+</tbody>
+</table></div>
+
+
+
+<div class="gb-h2">5a. The rate backdrop: where the money is coming from</div>
+<p>None of the avenue choices above make sense without the global rate map behind them. Four policy-rate paths tell the whole story:</p>
+<div class="gb-card" style="padding:1rem">
+<svg viewBox="0 0 720 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Central bank policy rates 2020-2026" style="max-width:100%;height:auto;background:#fff;font-family:-apple-system,Segoe UI,sans-serif">
+<text x="46" y="16" font-size="13" font-weight="700" fill="#212529">Policy rates, Jan 2020 &#8211; Jul 2026 (%)</text>
+<line x1="46" y1="318.9" x2="570" y2="318.9" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="322.9" font-size="11" fill="#868e96" text-anchor="end">0</text>
+<line x1="46" y1="276.8" x2="570" y2="276.8" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="280.8" font-size="11" fill="#868e96" text-anchor="end">1</text>
+<line x1="46" y1="234.7" x2="570" y2="234.7" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="238.7" font-size="11" fill="#868e96" text-anchor="end">2</text>
+<line x1="46" y1="192.5" x2="570" y2="192.5" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="196.5" font-size="11" fill="#868e96" text-anchor="end">3</text>
+<line x1="46" y1="150.4" x2="570" y2="150.4" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="154.4" font-size="11" fill="#868e96" text-anchor="end">4</text>
+<line x1="46" y1="108.3" x2="570" y2="108.3" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="112.3" font-size="11" fill="#868e96" text-anchor="end">5</text>
+<line x1="46" y1="66.1" x2="570" y2="66.1" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="70.1" font-size="11" fill="#868e96" text-anchor="end">6</text>
+<line x1="46" y1="24.0" x2="570" y2="24.0" stroke="#e9ecef" stroke-width="1"/>
+<text x="38" y="28.0" font-size="11" fill="#868e96" text-anchor="end">7</text>
+<line x1="46" y1="318.9" x2="570" y2="318.9" stroke="#adb5bd" stroke-width="1.2"/>
+<text x="46.0" y="366" font-size="11" fill="#868e96" text-anchor="middle">2020</text>
+<text x="126.6" y="366" font-size="11" fill="#868e96" text-anchor="middle">2021</text>
+<text x="207.2" y="366" font-size="11" fill="#868e96" text-anchor="middle">2022</text>
+<text x="287.8" y="366" font-size="11" fill="#868e96" text-anchor="middle">2023</text>
+<text x="368.5" y="366" font-size="11" fill="#868e96" text-anchor="middle">2024</text>
+<text x="449.1" y="366" font-size="11" fill="#868e96" text-anchor="middle">2025</text>
+<text x="529.7" y="366" font-size="11" fill="#868e96" text-anchor="middle">2026</text>
+<polyline points="46.0,101.9 52.7,101.9 59.4,133.5 66.2,133.5 72.9,133.5 79.6,150.4 86.3,150.4 93.0,150.4 99.7,150.4 106.5,150.4 113.2,150.4 119.9,150.4 126.6,150.4 133.3,150.4 140.1,150.4 146.8,150.4 153.5,150.4 160.2,150.4 166.9,150.4 173.6,150.4 180.4,150.4 187.1,150.4 193.8,150.4 200.5,150.4 207.2,150.4 213.9,150.4 220.7,150.4 227.4,150.4 234.1,133.5 240.8,112.5 247.5,112.5 254.3,112.5 261.0,70.3 267.7,70.3 274.4,70.3 281.1,55.6 287.8,55.6 294.6,45.1 301.3,45.1 308.0,45.1 314.7,45.1 321.4,45.1 328.2,45.1 334.9,45.1 341.6,45.1 348.3,45.1 355.0,45.1 361.7,45.1 368.5,45.1 375.2,45.1 381.9,45.1 388.6,45.1 395.3,45.1 402.1,45.1 408.8,45.1 415.5,45.1 422.2,45.1 428.9,45.1 435.6,45.1 442.4,45.1 449.1,45.1 455.8,55.6 462.5,55.6 469.2,66.1 475.9,66.1 482.7,87.2 489.4,87.2 496.1,87.2 502.8,87.2 509.5,87.2 516.3,87.2 523.0,97.7 529.7,97.7 536.4,97.7 543.1,97.7 549.8,97.7 556.6,97.7 563.3,97.7 570.0,97.7" fill="none" stroke="#2b8a3e" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="46.0,250.5 52.7,250.5 59.4,313.7 66.2,313.7 72.9,313.7 79.6,313.7 86.3,313.7 93.0,313.7 99.7,313.7 106.5,313.7 113.2,313.7 119.9,313.7 126.6,313.7 133.3,313.7 140.1,313.7 146.8,313.7 153.5,313.7 160.2,313.7 166.9,313.7 173.6,313.7 180.4,313.7 187.1,313.7 193.8,313.7 200.5,313.7 207.2,313.7 213.9,313.7 220.7,303.1 227.4,303.1 234.1,282.1 240.8,250.5 247.5,218.9 254.3,218.9 261.0,187.3 267.7,187.3 274.4,155.7 281.1,134.6 287.8,134.6 294.6,124.1 301.3,113.5 308.0,113.5 314.7,103.0 321.4,103.0 328.2,92.5 334.9,92.5 341.6,92.5 348.3,92.5 355.0,92.5 361.7,92.5 368.5,92.5 375.2,92.5 381.9,92.5 388.6,92.5 395.3,92.5 402.1,92.5 408.8,92.5 415.5,92.5 422.2,113.5 428.9,113.5 435.6,124.1 442.4,134.6 449.1,134.6 455.8,134.6 462.5,134.6 469.2,134.6 475.9,134.6 482.7,134.6 489.4,134.6 496.1,134.6 502.8,145.1 509.5,155.7 516.3,155.7 523.0,166.2 529.7,166.2 536.4,166.2 543.1,166.2 549.8,166.2 556.6,166.2 563.3,166.2 570.0,166.2" fill="none" stroke="#0b5394" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="46.0,318.9 52.7,318.9 59.4,318.9 66.2,318.9 72.9,318.9 79.6,318.9 86.3,318.9 93.0,318.9 99.7,318.9 106.5,318.9 113.2,318.9 119.9,318.9 126.6,318.9 133.3,318.9 140.1,318.9 146.8,318.9 153.5,318.9 160.2,318.9 166.9,318.9 173.6,318.9 180.4,318.9 187.1,318.9 193.8,318.9 200.5,318.9 207.2,318.9 213.9,318.9 220.7,318.9 227.4,318.9 234.1,318.9 240.8,318.9 247.5,297.9 254.3,297.9 261.0,266.3 267.7,266.3 274.4,234.7 281.1,213.6 287.8,213.6 294.6,192.5 301.3,171.5 308.0,171.5 314.7,160.9 321.4,150.4 328.2,150.4 334.9,139.9 341.6,129.3 348.3,129.3 355.0,129.3 361.7,129.3 368.5,129.3 375.2,129.3 381.9,129.3 388.6,129.3 395.3,129.3 402.1,139.9 408.8,139.9 415.5,139.9 422.2,171.5 428.9,182.0 435.6,182.0 442.4,192.5 449.1,192.5 455.8,203.1 462.5,213.6 469.2,224.1 475.9,224.1 482.7,234.7 489.4,234.7 496.1,234.7 502.8,234.7 509.5,234.7 516.3,234.7 523.0,234.7 529.7,234.7 536.4,234.7 543.1,234.7 549.8,234.7 556.6,234.7 563.3,224.1 570.0,224.1" fill="none" stroke="#b45309" stroke-width="2.4" stroke-linejoin="round"/>
+<polyline points="46.0,323.1 52.7,323.1 59.4,323.1 66.2,323.1 72.9,323.1 79.6,323.1 86.3,323.1 93.0,323.1 99.7,323.1 106.5,323.1 113.2,323.1 119.9,323.1 126.6,323.1 133.3,323.1 140.1,323.1 146.8,323.1 153.5,323.1 160.2,323.1 166.9,323.1 173.6,323.1 180.4,323.1 187.1,323.1 193.8,323.1 200.5,323.1 207.2,323.1 213.9,323.1 220.7,323.1 227.4,323.1 234.1,323.1 240.8,323.1 247.5,323.1 254.3,323.1 261.0,323.1 267.7,323.1 274.4,323.1 281.1,323.1 287.8,323.1 294.6,323.1 301.3,323.1 308.0,323.1 314.7,323.1 321.4,323.1 328.2,323.1 334.9,323.1 341.6,323.1 348.3,323.1 355.0,323.1 361.7,323.1 368.5,323.1 375.2,323.1 381.9,316.8 388.6,316.8 395.3,316.8 402.1,316.8 408.8,316.8 415.5,308.4 422.2,308.4 428.9,308.4 435.6,308.4 442.4,308.4 449.1,297.9 455.8,297.9 462.5,297.9 469.2,297.9 475.9,297.9 482.7,297.9 489.4,297.9 496.1,297.9 502.8,297.9 509.5,297.9 516.3,297.9 523.0,287.3 529.7,287.3 536.4,287.3 543.1,287.3 549.8,287.3 556.6,287.3 563.3,276.8 570.0,276.8" fill="none" stroke="#c92a2a" stroke-width="2.4" stroke-linejoin="round"/>
+<circle cx="570.0" cy="97.7" r="3" fill="#2b8a3e"/>
+<text x="578" y="101.7" font-size="11.5" font-weight="600" fill="#2b8a3e">🇮🇳 RBI (repo) 5.25%</text>
+<circle cx="570.0" cy="166.2" r="3" fill="#0b5394"/>
+<text x="578" y="170.2" font-size="11.5" font-weight="600" fill="#0b5394">🇺🇸 US Fed 3.62%</text>
+<circle cx="570.0" cy="224.1" r="3" fill="#b45309"/>
+<text x="578" y="228.1" font-size="11.5" font-weight="600" fill="#b45309">🇪🇺 ECB 2.25%</text>
+<circle cx="570.0" cy="276.8" r="3" fill="#c92a2a"/>
+<text x="578" y="280.8" font-size="11.5" font-weight="600" fill="#c92a2a">🇯🇵 Bank of Japan 1.00%</text>
+<line x1="368.5" y1="24" x2="368.5" y2="340" stroke="#868e96" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="373.5" y="38" font-size="10.5" fill="#495057">REC &#165;61.1bn</text>
+<text x="373.5" y="51" font-size="10.5" fill="#495057">EuroYen (Jan 2024)</text>
+<line x1="530.0" y1="270.8" x2="530.0" y2="105.7" stroke="#495057" stroke-width="1.4" marker-end="url(#arr)"/>
+<defs><marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#495057"/></marker></defs>
+<text x="524.0" y="187.3" font-size="10.5" fill="#495057" text-anchor="end">the carry: ~4.25pp</text>
+</svg>
+<p class="gb-note" style="margin:.5rem 0 0">Source: BIS central bank policy rate statistics (WS_CBPOL, daily series, monthly last observation, retrieved 3 Aug 2026; US series is the Fed's mid-target &mdash; upper bound is 12.5bp higher), cross-checked against Fed/ECB/BoJ/RBI releases, FRED (DFEDTARU) and the live comparison tracker at centralbank.watch. Dashed line marks REC's &#165;61.1&nbsp;bn EuroYen issue.</p>
+</div>
+
+<div class="gb-card" style="background:#eef6ff;border-color:#b6d4f0">
+<p style="margin:0 0 .6rem"><strong>&#x1F1EF;&#x1F1F5;&rarr;&#x1F1EE;&#x1F1F3; The core idea: borrow where money is cheap, build where returns are high.</strong> Strip away the labels and a cross-border green bond is a carry structure. A Japanese life insurer holds yen that earns ~1% at home. An Indian power-sector NBFC funds solar farms whose rupee cash flows support lending at 9&ndash;10%. The green bond is the bridge: REC borrows in Tokyo's currency at 1.76&ndash;2.20%, converts the proceeds, and deploys them into Rajasthan solar, wind, biogas and metro projects &mdash; the ~4.25-point policy-rate gap (arrow in the chart) is the raw material both sides split.</p>
+<p style="margin:0 0 .6rem">The split has three claimants. The <strong>investor</strong> earns more than domestic JGBs pay, from an asset that satisfies the green mandates Japanese institutions increasingly run. The <strong>issuer</strong> locks funding below its domestic cost &mdash; but only after paying the toll: hedging. Covered interest parity means the currency hedge eats most of the naked rate gap; what survives is a residual saving plus diversification, which is why IREDA's hedged yen landed "below 7%" rather than at 3%. The <strong>project</strong> gets long-tenor debt matched to 25-year solar and wind assets that Indian bank balance sheets struggle to hold.</p>
+<p style="margin:0">The green label is what makes the bridge insurable at scale: certification (CBI), verification and impact reporting give the yen investor confidence that the rupee assets exist and perform as claimed &mdash; the certification letter this article opened with is, functionally, the carry trade's title deed. The same logic runs every avenue in the matrix above: EXIM in dollars against a falling-Fed backdrop, PFC against JBIC's policy mandate, the sovereign in rupees against domestic insurers. When the rate gap narrows &mdash; BoJ hiking, RBI cutting &mdash; the bridge toll rises, and issuance migrates to whichever currency pair still pays.</p>
+</div>
+
+<p>Three readings matter for sustainable-debt issuance. <strong>First, the yen advantage is structural but narrowing.</strong> When REC priced its EuroYen bonds in January 2024, the BoJ was still at &minus;0.10% &mdash; the last major economy below zero &mdash; which is how an Indian BBB&minus; credit borrowed 5-year money at 1.76%. The BoJ has since hiked five times, to <strong>1.00% (June 2026, the highest since 1995)</strong>; the yen window is still the cheapest nominal funding on the board, but each hike shaves the arbitrage, which is precisely why IREDA, PFC and NLC rushed yen loans through 2025.</p>
+<p><strong>Second, the easing cycle that fuelled 2024&ndash;25's record ESG order books has stalled.</strong> The Fed cut six times (5.50% peak to a 3.50&ndash;3.75% band) and the ECB eight times (4.00% to 2.00%) &mdash; the falling-yield environment behind EXIM's negative new-issue concession and REC's heavily oversubscribed books. But 2026 has flipped the direction: the <strong>ECB hiked in June 2026 (to 2.25%)</strong> and the BoJ in the same month, with dissents at the July FOMC arguing for a hike. Duration-hungry green demand is no longer a one-way tide.</p>
+<p><strong>Third, the RBI's position explains the offshore pull.</strong> At a 5.25% repo (after 125bp of cuts through 2025), domestic AAA green paper still prices well above hedged yen or dollar levels for top PSU credits &mdash; IREDA's sub-7% hedged yen cost versus domestic alternatives is the arbitrage in one number. If the RBI resumes cutting while the BoJ keeps hiking, that gap closes from both ends &mdash; the avenue matrix above is a snapshot, not a permanent ranking.</p>
+
+
+
+<div class="gb-h2" style="font-size:1.08em;margin:2rem 0 .7rem">5a&#8209;i. Cheaper than India, on paper &mdash; and why most of it is unreachable</div>
+<p>The four lines above are the trade this article is about, but they are a sample, not the
+field. On the BIS policy-rate panel, <strong>25 of the 38 live economies sit below India's
+5.25% repo</strong> &mdash; a menu of funding currencies far longer than the yen-dollar-euro
+story the deals actually use. It is worth seeing the whole menu, because the reason most of
+it is unusable is the same reason the yen trade works.</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Economy</th><th style="text-align:right">Policy rate (%)</th><th style="text-align:right">Gap vs India (pp)</th><th>Issuance currency for an Indian PSU/NBFC?</th></tr></thead>
+<tbody>
+<tr><td>Switzerland</td><td style="text-align:right;font-variant-numeric:tabular-nums">0.00</td><td style="text-align:right;font-variant-numeric:tabular-nums">5.25</td><td>Yes</td></tr>
+<tr><td>Japan</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td>Yes</td></tr>
+<tr><td>Thailand</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td>&mdash;</td></tr>
+<tr><td>Sweden</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.50</td><td>Yes</td></tr>
+<tr><td>Denmark</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.85</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.40</td><td>Yes</td></tr>
+<tr><td>Canada</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.00</td><td>Yes</td></tr>
+<tr><td>Morocco</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.00</td><td>&mdash;</td></tr>
+<tr><td>Euro area</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.00</td><td>Yes</td></tr>
+<tr><td>Korea</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.50</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.75</td><td>Yes</td></tr>
+<tr><td>New Zealand</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.50</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.75</td><td>&mdash;</td></tr>
+<tr><td>Malaysia</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.50</td><td>&mdash;</td></tr>
+<tr><td>China</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.00</td><td style="text-align:right;font-variant-numeric:tabular-nums">2.25</td><td>Yes</td></tr>
+<tr><td>Kuwait</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.50</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.75</td><td>&mdash;</td></tr>
+<tr><td>United States</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.62</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.63</td><td>Yes</td></tr>
+<tr><td>Czechia</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.50</td><td>&mdash;</td></tr>
+<tr><td>United Kingdom</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.50</td><td>Yes</td></tr>
+<tr><td>Israel</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.50</td><td>&mdash;</td></tr>
+<tr><td>Poland</td><td style="text-align:right;font-variant-numeric:tabular-nums">3.75</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.50</td><td>&mdash;</td></tr>
+<tr><td>Hong Kong SAR</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.00</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.25</td><td>Yes</td></tr>
+<tr><td>North Macedonia</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td>&mdash;</td></tr>
+<tr><td>Norway</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td>Yes</td></tr>
+<tr><td>Peru</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td>&mdash;</td></tr>
+<tr><td>Saudi Arabia</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.25</td><td style="text-align:right;font-variant-numeric:tabular-nums">1.00</td><td>&mdash;</td></tr>
+<tr><td>Australia</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.35</td><td style="text-align:right;font-variant-numeric:tabular-nums">0.90</td><td>Yes</td></tr>
+<tr><td>Chile</td><td style="text-align:right;font-variant-numeric:tabular-nums">4.50</td><td style="text-align:right;font-variant-numeric:tabular-nums">0.75</td><td>&mdash;</td></tr>
+</tbody>
+</table></div>
+<p class="gb-note">Source: BIS central bank policy rate statistics (WS_CBPOL, daily series,
+last observation per economy, retrieved 3&nbsp;Aug&nbsp;2026) &mdash; the same series behind
+the chart above. India is the RBI repo rate; the US figure is the Fed's mid-target, so the
+upper bound is 12.5bp higher. Eleven defunct pre-euro national series (Germany, France, Italy
+and others, last observed 1998&ndash;2000) are excluded &mdash; they would otherwise pad the
+list with phantom entries. The final column is a judgement about market depth, not a legal
+restriction. Secondary rate aggregators were not used: several still carry Japan at 0.75%,
+missing the June&nbsp;2026 BoJ hike discussed above.</p>
+
+<p><strong>Now the deflating part.</strong> Of those 25, only about 13 have an offshore market
+deep enough for an Indian PSU or NBFC to price a benchmark in &mdash; roughly the Swiss franc,
+yen, Swedish and Danish krona, Canadian dollar, euro, won, renminbi, US dollar, sterling, Hong
+Kong dollar, Norwegian krone and Australian dollar. The other twelve are real rates in real
+economies, but Thailand, Morocco, Kuwait, Peru or North Macedonia will not absorb a
+&#8377;5,000&nbsp;crore-equivalent green benchmark from an Indian issuer at any price.</p>
+
+<p>And the rate gap is <em>not</em> the funding-cost gap. Covered interest parity means the
+currency with the lower policy rate carries the more expensive hedge, and the two very nearly
+cancel: the forward points on USD/INR or JPY/INR price in almost exactly the interest
+differential the borrower is trying to harvest. That is the whole reason IREDA's hedged yen
+landed <strong>below 7%</strong> rather than near 3%, as section 5a already notes. Read the
+table with that in mind and the ranking inverts: <strong>Switzerland shows the widest headline
+gap in the entire panel at 5.25pp and is close to the least useful of the deep markets</strong>,
+because a CHF/INR hedge costs about what the cheap coupon saves. The gap is only worth
+harvesting where an issuer can leave part of it unhedged against matching foreign-currency
+cash flows, or where hedging is subsidised or partly waived &mdash; which is a structuring
+question, not a rate-map question.</p>
+
+<div class="gb-pull">Twenty-five countries are cheaper than India. Roughly thirteen are
+reachable. After hedging, the ranking of the thirteen barely resembles the ranking of the
+twenty-five.</div>
+
+<div class="gb-h2">5b. The exchange-rate leg: why the rupee's path picks the currency</div>
+<p>The coupon is only half the borrowing cost. The other half is what the rupee does against the borrowed currency over the bond's life &mdash; and here the three candidate currencies have behaved completely differently. RBI's own reference-rate archive (which runs to the FBIL handover on 24 July 2018) sets the anchor: <strong>&#8377;69.05/USD, &#8377;80.54/EUR and &#8377;61.98 per &#165;100</strong> on its final print. Extend the series to today with market data and the divergence is stark:</p>
+
+<div class="gb-tblwrap"><table class="gb-table"><tr><th>Rupee depreciation vs borrowed currency</th><th class="gb-num" style="text-align:right">🇺🇸 USD, %</th><th class="gb-num" style="text-align:right">🇪🇺 EUR, %</th><th class="gb-num" style="text-align:right">🇯🇵 JPY, %</th></tr><tr><td>Since REC's yen issue (Jan 2024 &rarr; Aug 2026)</td><td style="text-align:right">&minus;14.7</td><td style="text-align:right">&minus;22.1</td><td style="text-align:right">−8.1</td></tr><tr><td>5 years (Jul 2021 &rarr; Aug 2026)</td><td style="text-align:right">&minus;28.4</td><td style="text-align:right">&minus;24.7</td><td style="text-align:right">+10.2</td></tr><tr><td>10 years (Jul 2016 &rarr; Aug 2026)</td><td style="text-align:right">&minus;43.0</td><td style="text-align:right">&minus;49.7</td><td style="text-align:right">+6.5</td></tr><tr><td>vs RBI's last reference rate (24 Jul 2018)</td><td style="text-align:right">&#8377;69.05 &rarr; &#8377;95.33 (&minus;38%)</td><td style="text-align:right">&#8377;80.54 &rarr; &#8377;109.91 (&minus;36%)</td><td style="text-align:right">&#8377;0.6198 &rarr; &#8377;0.6091/&#165; (<strong>&asymp; flat</strong>)</td></tr></table></div>
+<p class="gb-note">Negative = rupee weakened (repayment costs more in INR). Sources: RBI Reference Rate Archive (daily official rates to 24 Jul 2018; yen quoted per &#165;100, as in RBI's historical FEDAI tables back to 1993) and yfinance monthly closes (USDINR=X, EURINR=X, JPYINR=X) for the FBIL era, retrieved 3 Aug 2026.</p>
+
+<p>The reading: <strong>an unhedged dollar or euro borrower repaid 3&ndash;5% more rupees every year on the principal alone</strong>, wiping out most coupon savings &mdash; while a yen borrower over the past decade repaid <em>roughly the same or fewer</em> rupees, because the yen itself weakened as the BoJ held negative rates while everyone else hiked. Yen debt was cheap twice over: the lowest coupon on the board <em>and</em> the only major funding currency the rupee didn't depreciate against. That is the FX arithmetic behind the EuroYen rush of 2024&ndash;25.</p>
+<p>Two caveats make this discipline rather than free money. First, realized FX paths are not entitlements: the same BoJ hikes that are closing the coupon gap (Section 5a) also make future yen <em>appreciation</em> &mdash; and thus costlier repayment &mdash; the live risk for new unhedged yen debt; the 2021&ndash;24 yen weakness that flattered every yen borrower is exactly the kind of regime that ends. Second, RBI's ECB framework in practice requires financial-sector borrowers to hedge, and covered interest parity prices the hedge at roughly the rate differential &mdash; so the <em>hedged</em> choice of currency turns less on the coupon than on hedge-market depth, tenor availability and basis: which is how IREDA's yen loan still landed below 7% all-in while an unhedged reading of the same deal would have suggested ~3%. Choose the currency for the investor base and the hedge economics; treat any unhedged FX gain as luck, not strategy.</p>
+
+<p><strong>And every coupon above hangs off a treasury curve.</strong> Corporate bond yields — green or otherwise — are priced as a spread over the government benchmark of their currency: EXIM’s $1 bn printed at UST10+100bp, REC’s 1.76% five-year yen carried a positive spread over the 5-year JGB at issuance, and India’s sovereign green G-secs <em>are</em> the rupee benchmark the domestic greenium is measured against. The August 2026 curve makes the hierarchy visible: <strong>10-year yields run ≈ 6.84% (India G-sec), 4.69% (US Treasury), 3.21% (German Bund), 2.80% (JGB)</strong> — the same ordering as the policy-rate chart, transmitted out the curve. It also shows how fast benchmarks move: the 5-year JGB now yields ~2.09%, <em>above</em> REC’s 2024 coupon — a bond that priced at a spread over its treasury curve now trades in a world where the curve itself has passed it. Issuers time the treasury curve first and the label second.</p>
+<div class="gb-h2">5c. What the label is actually worth</div>
+<p><strong>The greenium is small and shrinking.</strong> India's sovereign debut (Jan 2023) priced 5&ndash;6bp inside conventional G-secs; by FY25 the domestic greenium had collapsed to the point that the RBI let auctions devolve rather than pay up. Globally, IFC&ndash;Amundi's 2024 report has the emerging-market greenium halving to ~1.2bp and "effectively disappearing"; academic matched-pair estimates run ~2bp in advanced markets and ~13bp in EM secondaries, with one contested study putting ~25bp for <em>certified</em> bonds specifically.</p>
+<div class="gb-pull">The pricing case for the green label is weak. The access case is strong &mdash; and access is what REC bought in yen.</div>
+<p>The durable payoff is the investor base: REC's 50/50 Japanese/international book, EXIM's negative new-issue concession on the back of ESG-fund demand, IREDA borrowing below domestic cost in hedged yen. The flip side is the compliance gravity now attached: SEBI's anti-greenwashing dos-and-don'ts and transition-bond disclosure add-ons, IFSCA's greenwashing principles at GIFT, EuGB's 85% taxonomy bar for anyone courting EU money &mdash; and the standing lesson of the sovereign programme, that when the label stops paying, issuance discipline (not label inflation) is the correct response.</p>
+
+
+<div class="gb-h2">6. The supranational bench: who built this market, and where the money goes globally</div>
+<p>Before any Indian NBFC could price a EuroYen green bond, the multilateral lenders built the template. The EIB issued the world's first green bond (the Climate Awareness Bond) in July 2007; the World Bank's November 2008 bond with SEB created the earmarking-plus-impact-reporting model that ICMA later codified as the Green Bond Principles (2014). The same institutions still anchor the market's plumbing &mdash; and its emerging-market order books:</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Institution</th><th>First green bond</th><th>Cumulative labelled issuance</th><th>India angle</th></tr></thead>
+<tbody>
+<tr><td><strong>EIB</strong></td><td>Jul 2007 (world's first)</td><td>&gt;&euro;100&nbsp;bn (CAB+SAB, 23 currencies); #2 green issuer globally in 2024 ($16.6&nbsp;bn)</td><td>First supranational EuGB-aligned bond (&euro;3&nbsp;bn, Apr 2025) &mdash; the EU-standard benchmark Indian EUR issuers would price against</td></tr>
+<tr><td><strong>World Bank (IBRD)</strong></td><td>Nov 2008 (first labelled "green bond")</td><td>~$20&nbsp;bn via 230+ bonds in 28 currencies; now folded into ~$50&nbsp;bn/yr Sustainable Development Bond programme</td><td>Co-authored the Harmonized Framework for Impact Reporting every Indian framework leans on</td></tr>
+<tr><td><strong>IFC</strong></td><td>2010; first $1&nbsp;bn green benchmarks 2013</td><td>$14.9&nbsp;bn green across 214 transactions, 21 currencies (FY25)</td><td><strong>First green masala bond</strong> (&#8377;3.15&nbsp;bn, Aug 2015, LSE) under its $3&nbsp;bn offshore-rupee programme; anchor investor via the IFC&ndash;Amundi EM green fund</td></tr>
+<tr><td><strong>ADB</strong></td><td>Mar 2015 (theme bonds since 2010)</td><td>~$16&nbsp;bn theme bonds, of which ~$10.1&nbsp;bn green</td><td>Green rupee-linked masalas: maiden &#8377;3&nbsp;bn (2017); largest INR green bond &#8377;12.5&nbsp;bn @6.72% (Jan 2024) &mdash; a direct offshore-INR green benchmark</td></tr>
+<tr><td><strong>KfW</strong></td><td>2014</td><td>~&euro;97&nbsp;bn, 154 transactions (Nov 2025); #3 green issuer globally in 2024</td><td>Also one of the largest green-bond <em>investors</em> (&euro;2&nbsp;bn+ own-portfolio mandate)</td></tr>
+<tr><td><strong>AIIB</strong></td><td>All issuance under a Sustainable Development Bond framework (2019)</td><td>~$10&nbsp;bn/yr programme; no separate green total by design</td><td>First Climate Adaptation Bond (A$500&nbsp;mn, May 2023, &ge;20% adaptation share)</td></tr>
+</tbody>
+</table></div>
+
+<p>Their double role matters for the avenue matrix: as <strong>issuers</strong> they set the AAA green curve every corporate prices off, and as <strong>anchors</strong> they de-risk EM deals &mdash; IFC seeding the Amundi Planet fund that buys EM green paper, JBIC anchoring PFC's yen facility, ADB/AIIB backing first-time sovereign green issues.</p>
+
+<div class="gb-card">
+<p style="margin:0 0 .6rem"><strong>The global scoreboard (CBI, Sustainable Debt State of the Market 2024; World Bank Q4-2025 update):</strong></p>
+<ul style="margin:0 0 .6rem">
+<li>2024 was the record year: <strong>$1.05&nbsp;trillion</strong> of aligned GSS+ issuance (+11%), of which <strong>green $671.7&nbsp;bn (64%)</strong> across 3,242 bonds; 2025 cooled to ~$904&nbsp;bn (&minus;17%).</li>
+<li>Cumulative aligned GSS+ since inception: <strong>$5.7&nbsp;trillion</strong> &mdash; green $3.5&nbsp;tn, social $1.1&nbsp;tn, sustainability $998&nbsp;bn, SLBs just $47.2&nbsp;bn (2024 SLB issuance collapsed 65% to $7.9&nbsp;bn &mdash; the label India's UltraTech pioneered is globally out of favour).</li>
+<li>Europe supplied 58% of 2024 green volume; the top non-sovereign issuers are the EU ($20.9&nbsp;bn), EIB ($16.6&nbsp;bn) and KfW ($13.4&nbsp;bn) &mdash; the supranational bench again. India's cumulative GSS+ stock ($55.9&nbsp;bn) is roughly 1% of the aligned global total.</li>
+<li><strong>By industry/use of proceeds</strong>: CBI's last published sector chart (SotM 2021) put <strong>Energy, Buildings and Transport at 81% of green use-of-proceeds combined</strong>, with Water, Waste, Land use, Industry and ICT sharing the tail &mdash; recent World Bank material citing CBI data puts the big-three share at ~75%. CBI's 2024 edition moved granular sector splits to its interactive data hub, so treat finer per-sector percentages quoted elsewhere with caution. The composition maps almost exactly onto REC's eligible list in Section 3: energy first, transport and storage next, everything else the tail.</li>
+</ul>
+<p class="gb-note" style="margin:0">Sources: Climate Bonds Initiative, Sustainable Debt Global State of the Market 2024 (14th ed., Sep 2025); CBI SotM 2021 (sector chart); World Bank Treasury, Labeled Sustainable Bonds Market Update Q4-2025; IFC Green &amp; Social Bond Impact Report FY25; issuer treasury pages (EIB, ADB, KfW, AIIB).</p>
+</div>
+
+<div class="gb-h2">7. The rating ceiling: why REC's domestic AAA becomes BBB- the moment it borrows abroad</div>
+<p>Everything in Sections 5a&ndash;5c is about the price of borrowed money once an issuer has access to a currency's investor base. This section is about what decides <em>whether</em> that access exists at all &mdash; and the answer runs through India's own sovereign rating, which sets a ceiling almost none of India's borrowers, however strong individually, are allowed to rise above.</p>
+
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Agency</th><th>India's sovereign rating</th><th>Status</th></tr></thead>
+<tbody>
+<tr><td>S&amp;P Global</td><td>BBB, stable</td><td>Upgraded from BBB&minus; in August 2025 &mdash; India's first S&amp;P upgrade in 18 years</td></tr>
+<tr><td>Fitch Ratings</td><td>BBB&minus;, stable</td><td>Held at this level since 2006; cites elevated government debt (~81% of GDP) against a ~60% BBB-median peer group</td></tr>
+<tr><td>Moody's Ratings</td><td>Baa3, stable</td><td>Held since June 2020; Baa3 is the lowest rung of investment grade &mdash; one downgrade from junk</td></tr>
+</tbody>
+</table></div>
+<p class="gb-note">Sources: Fitch Ratings sovereign rating action (2025); S&amp;P Global Ratings India upgrade release (Aug 2025); Moody's Ratings India sovereign rating page. All three ratings are foreign-currency long-term issuer ratings, the ones that govern the avenue matrix in Section 4.</p>
+
+<p>That sovereign rating is not just India's own borrowing cost &mdash; it is, by convention, the ceiling for almost every Indian entity that borrows abroad. REC, PFC and EXIM Bank &mdash; the three issuers whose deals anchor this article &mdash; are each rated by Fitch at exactly <strong>BBB&minus;, equalised with the Indian sovereign</strong>, on the explicit reasoning that their public-sector ownership and policy role make extraordinary state support likely if they ever needed it. That is the generous version of the sovereign ceiling: these issuers are pulled <em>up</em> to India's rating because of state backing, not held down by a cap on an otherwise-stronger standalone credit. But the ceiling cuts both ways &mdash; under the conventional sovereign-ceiling doctrine that has governed most agency methodology for decades, almost no private Indian corporate, however strong its own balance sheet, has historically been rated above the sovereign in foreign currency, full stop.</p>
+
+<div class="gb-card">
+<p style="margin:0 0 .6rem"><strong>Two rating scales, easy to conflate.</strong> REC, PFC and comparable PSU issuers routinely carry <strong>CRISIL AAA, ICRA [AAA] or IND AAA</strong> ratings at home &mdash; the top of the <em>national</em> scale, which ranks Indian borrowers only against each other. CRISIL is majority-owned by S&amp;P Global, ICRA is Moody's-affiliated, India Ratings is Fitch-owned, and CARE Ratings is the one major agency without a global parent &mdash; but all four operate on this India-only ladder. The moment the same issuer prices a dollar or yen bond, the relevant rating switches to the <em>foreign-currency</em> scale, which compares it against every other sovereign and corporate borrower globally &mdash; and on that ladder, the domestic AAA name is a BBB&minus; credit. A CRISIL AAA rating is real and useful for pricing rupee debt; it says nothing about where the same issuer sits on the scale a Japanese insurer or a Swiss pension fund actually uses.</p>
+<p style="margin:0"><strong>The rule is not immovable.</strong> In 2025 Moody's revised its long-standing sovereign-ceiling policy to permit selected corporate and quasi-sovereign issuers to be rated <em>above</em> their home sovereign where the agency judges default risk genuinely decoupled from the state's &mdash; the first visible beneficiaries have been US corporates (Apple was lifted to Aaa, above the US's own Aa1). Nothing in the sourcing checked for this piece indicates that change has been applied to REC, PFC, EXIM or any other Indian issuer as of August 2026; all three remain priced exactly at the sovereign level, for the opposite reason (state support pulling them up, not a cap holding them down).</p>
+</div>
+
+<p>What this buys, and doesn't buy, an Indian issuer: the ceiling doesn't set the coupon &mdash; Section 5a&ndash;5c's rate-gap and hedge arithmetic still does that &mdash; but it sets <strong>which investors are structurally permitted to buy the bond at all</strong>. Large pools of institutional capital &mdash; Japanese life insurers, European pension funds, US investment-grade bond mandates &mdash; run minimum-rating floors written into their own investment policy, commonly somewhere in the BBB&minus;/Baa3 to A&minus; band. India's BBB/BBB&minus;/Baa3 sits close enough to that floor that a single-notch downgrade at Fitch or Moody's would push REC, PFC and EXIM out of many such mandates entirely &mdash; which is precisely why Fitch flags India's debt trajectory (Section above) as the metric to watch, and why the 2025 S&amp;P upgrade, however modest in absolute terms, widened the eligible investor pool rather than just shaving the spread.</p>
+
+<div class="gb-h2" style="font-size:1.08em;margin:2rem 0 .7rem">7a. Who is actually rated well enough to lend to India cheaper</div>
+<p>The countries supplying the low policy rates in Section 5a's table are, almost without exception, rated well above India by all three agencies &mdash; which is not a coincidence. A country's own sovereign rating shapes the risk appetite and mandate structure of its domestic institutional investors, and the AAA/AA-rated economies are exactly the ones whose insurers and pension funds have the balance-sheet headroom and regulatory latitude to hold a slice of BBB&minus;-rated foreign paper without breaching their own risk limits.</p>
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Country</th><th>S&amp;P</th><th>Moody's</th><th>Fitch</th><th>Notches above India (Fitch scale)</th></tr></thead>
+<tbody>
+<tr><td>Switzerland</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>Germany</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>Singapore</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>Australia</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>Canada</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>Netherlands</td><td>AAA</td><td>Aaa</td><td>AAA</td><td>7</td></tr>
+<tr><td>United States</td><td>AA+</td><td>Aa1</td><td>AA+</td><td>6</td></tr>
+<tr><td>United Kingdom</td><td>AA</td><td>Aa3</td><td>AA&minus;</td><td>5</td></tr>
+<tr><td>Japan</td><td>A+</td><td>A1</td><td>A</td><td>3</td></tr>
+<tr><td>China</td><td>A+</td><td>A1</td><td>A+</td><td>3</td></tr>
+<tr><td>India</td><td>BBB</td><td>Baa3</td><td>BBB&minus;</td><td>&mdash;</td></tr>
+</tbody>
+</table></div>
+<p class="gb-note">Sources: S&amp;P Global, Moody's Ratings and Fitch Ratings sovereign rating pages, retrieved August 2026. The US lost its last AAA in May 2025 when Moody's downgraded it to Aa1, following earlier S&amp;P (2011) and Fitch (2023) downgrades &mdash; leaving zero G7 economies at AAA on all three scales simultaneously except Germany. Notch count is illustrative (Fitch's 21-notch long-term scale), not a precise cross-agency average.</p>
+
+<p>Reading this table against Section 5a's rate table makes the mechanism explicit: Switzerland, Japan, Germany and Australia are simultaneously the cheapest funding currencies <em>and</em> the highest-rated economies &mdash; their central banks can run low policy rates without frightening off their own AAA/AA-anchored institutional base, and that same high-rated base is what's structurally free to hold India's BBB&minus; paper as a diversifying, higher-yielding allocation. The rating gap is the reason a spread exists over the JGB or Treasury curve at all (Section 5b); the policy-rate gap and the hedge cost are what decide how large that spread ends up being in practice. A country being "cheap" to borrow from and a country being "rated high enough to lend to India" are, for the seven economies at the top of both tables, the same fact seen from two sides.</p>
+
+<div class="gb-h2">The takeaway</div>
+<p>For an Indian issuer in 2026 the play is legible: <strong>build one ICMA-aligned framework with a credible SPO (the SBI pattern), certify the flagship deals to the Climate Bonds Standard for the verification premium (the REC pattern), issue where the investor base is deepest for your tenor &mdash; today that is USD for size and yen for cost &mdash; list at GIFT City, and let the verified project book (solar, wind, biogas, storage, e-mobility) do the marketing.</strong> The certification letter is one page; the machinery behind it is the point.</p>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html"><li><a href="https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html">The Price and the Tap: The Two Levers Behind Every Central Bank</a> &mdash; how the policy rate and the liquidity window deliver the cheap money this article borrows</li>India's Carbon Credit Market (CCTS + Article 6.2)</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">CBAM Compliance — Real or Ideal Gases?</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html">Bio-Fertiliser and Green Credits</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata (Ethanol)</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India's EV Market</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html">Half of India's Import Bill Is Commodities</a>
+</div>
+
+<div class="gb-card gb-note">
+<strong style="color:#212529">Documents &amp; sources</strong> &middot; Primary: CBI Climate Bonds Standard Board post-issuance certification letter for REC EuroYen Green Bonds, 28 Nov 2025 (in hand); Climate Bonds Standard v4.3 and Bioenergy Sector Criteria (Aug 2022, thresholds quoted); Sojitz Corporation release on IOC GPS Renewables investment (30 Apr 2025); REC Green Bond Impact Report FY2025 / GGGI post-issuance assurance note (Dec 2025); SBI ESG Financing Framework + Sustainalytics (2022/23) and CareEdge (2025) SPOs and $250&nbsp;mn green bond impact report (sbi.co.in); DEA Sovereign Green Bond Framework (Nov 2022) and allocation reports; SEBI Feb/May 2023 circulars; IFSCA Listing Regulations 2024 Ch. X and greenwashing consultation (Oct 2024); RBI green deposit framework (Apr 2023) and ECB regulation revision (Feb 2026); pricing/deal data from PIB (PRID 1996580), Mercom, CEEW-CEF, Business Standard, EXIM Bank, IFC&ndash;Amundi EM Green Bonds 2024, IEEFA greenium analyses, CBI India Sustainable Debt State of the Market 2024 (cumulative GSS+ $55.9&nbsp;bn, +186% since 2021); Section 7's sovereign-ceiling analysis draws on Fitch Ratings, S&amp;P Global Ratings and Moody's Ratings sovereign rating pages/press releases for India, the US, Japan, China, the UK and the AAA-tier economies (Aug 2025&ndash;2026), Fitch's REC/PFC/EXIM Bank rating rationale reports, and reporting on Moody's 2025 sovereign-ceiling policy revision. One flag: public sources describe REC's post-issuance step as ICMA-GBP assurance completed ~Dec 2025; the CBI Standard Board approval of 28 Nov 2025 is documented by the certification letter itself. Nothing here is investment advice.
+</div>
+
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
