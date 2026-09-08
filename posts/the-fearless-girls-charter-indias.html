@@ -141,6 +141,8 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 
   .poster {
     width:1080px;
+    max-width:100%;
+    box-sizing:border-box;
     background:
       radial-gradient(1200px 600px at 78% 20%, rgba(255,153,51,0.14), transparent 60%),
       radial-gradient(900px 500px at 15% 70%, rgba(19,136,8,0.13), transparent 60%),
@@ -198,6 +200,27 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
   .tag.retail { background:rgba(255,153,51,0.16); color:#ffb45a; }
   .tag.industry { background:rgba(74,163,255,0.16); color:#8cc4ff; }
   .tag.gov { background:rgba(127,224,162,0.16); color:#93e7b3; }
+  /* Mobile: the poster was designed at 1080px; below tablet width it stacks. */
+  @media (max-width:760px) {
+    .poster .head, .poster .asks { padding-left:22px; padding-right:22px; }
+    .poster .head { padding-top:32px; }
+    .poster h1 { font-size:38px; line-height:1.05; }
+    .poster .sub { font-size:16px; }
+    .poster .scene { height:auto; min-height:0; padding:12px 22px 0; display:flex; flex-wrap:wrap; justify-content:space-between; align-items:flex-end; gap:8px; }
+    .poster .ground, .poster .spark { display:none; }
+    .poster .bull, .poster .girl { position:static; }
+    .poster .bull svg { width:58%; max-width:220px; height:auto; }
+    .poster .girl svg { width:32%; max-width:120px; height:auto; }
+    .poster .bull, .poster .girl { flex:0 1 auto; }
+    .poster .bull svg, .poster .girl svg { width:100%; }
+    .poster .bull { flex-basis:58%; } .poster .girl { flex-basis:32%; }
+    .poster .manifesto { position:static; flex-basis:100%; font-size:17px; margin:14px 0 0; text-align:left; }
+    .poster .grid { grid-template-columns:1fr; }
+    .poster .demand { font-size:18px; }
+    h1 { font-size:46px; }
+    .poster .num { font-size:30px; min-width:40px; }
+  }
+
 
   .foot { padding:0 64px 44px; display:flex; justify-content:space-between; align-items:flex-end;
     position:relative; z-index:2; }
