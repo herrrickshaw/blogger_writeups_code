@@ -10433,3 +10433,14 @@ scheduled sync
 - `mapping-indias-other-pipelines-every` — 2026-09-08 &rarr; 2026-09-08
 - `india-is-piping-jet-fuel-to-five-new` — 2026-09-08 &rarr; 2026-09-08
 - `indias-gas-pipelines-run-at-half` — 2026-09-08 &rarr; 2026-09-08
+
+## 2026-09-09T07:33:09+00:00 — 265 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `fourteen-states-reimburse-investors` — 2026-09-09 &rarr; 2026-09-09
+- `pngrbs-own-2025-committee-now-expects` — 2026-09-09 &rarr; 2026-09-09
+- `a-2013-vision-saw-india-needing-746` — 2026-09-09 &rarr; 2026-09-09
