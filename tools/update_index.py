@@ -143,9 +143,12 @@ def main():
     # every href in the result must be a live post (or the index itself)
     urls = set(re.findall(r'href="(https://masaladeutsch\.blogspot\.com/[^"]+)"', body))
     live_urls = {r["url"] for r in live.values()}
-    # /search/label/* are Blogger label-archive pages, not posts — not in the
-    # manifest by design, so exclude them from the live-post dead-link check.
-    dead = [u for u in urls if u not in live_urls and "/search/label/" not in u]
+    # /search/label/* are Blogger label-archive pages, and /p/* are static
+    # pages (e.g. the editorial-policy disclaimer every post links to) — both
+    # are not posts and not in the manifest by design, so exclude them from
+    # the live-post dead-link check.
+    dead = [u for u in urls if u not in live_urls
+            and "/search/label/" not in u and "/p/" not in u]
     if dead:
         sys.exit("still-dead links:\n  " + "\n  ".join(dead))
 
