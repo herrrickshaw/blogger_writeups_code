@@ -6,15 +6,15 @@
 
 - Active users: **173**
 - Total users: **173**
-- Page views: **1586**
-- Sessions: **414**
+- Page views: **1509**
+- Sessions: **410**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
 | United States | 115 | 157 |
-| India | 45 | 1415 |
+| India | 45 | 1338 |
 | (not set) | 4 | 4 |
 | Netherlands | 4 | 4 |
 | Germany | 1 | 1 |
@@ -30,12 +30,13 @@
 | Flint Hill | 43 | 60 |
 | Des Moines | 39 | 50 |
 | (not set) | 31 | 44 |
-| Coimbatore | 26 | 856 |
+| Coimbatore | 26 | 862 |
 | Moses Lake | 6 | 8 |
-| Salem | 5 | 214 |
+| Salem | 5 | 211 |
 | Amsterdam | 4 | 4 |
-| Madurai | 4 | 167 |
 | Mumbai | 4 | 78 |
+| Madurai | 3 | 86 |
+| Muzaffarnagar | 2 | 2 |
 | Noida | 2 | 2 |
 | Bengaluru | 1 | 1 |
 | Chennai | 1 | 1 |
@@ -51,7 +52,6 @@
 | Los Angeles | 1 | 1 |
 | Miraflores | 1 | 1 |
 | Mirzapur | 1 | 1 |
-| Muzaffarnagar | 1 | 1 |
 | North Charleston | 1 | 1 |
 | Patna | 1 | 1 |
 | Sharjah | 1 | 1 |
@@ -62,23 +62,23 @@
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 651 | 72 |
-| /search | 82 | 2 |
-| /2026/08/article-index-start-here.html | 48 | 11 |
+| / | 619 | 72 |
+| /search | 81 | 2 |
+| /2026/08/article-index-start-here.html | 39 | 11 |
 | /2026/08/guar-gum-indias-35-billion-export-peak.html | 28 | 7 |
 | /2026/08/the-masala-deutsch-shop-books-things.html | 28 | 7 |
 | /2026/08/the-milk-india-doesnt-drink-cheese-and.html | 28 | 25 |
 | /2026/08/blending-on-budget-energy-density-and.html | 24 | 24 |
 | /2026/08/global-biofuels-m-bankruptcy-bolt-on.html | 23 | 27 |
 | /2026/08/indias-coal-to-chemicals-menu-ranked-by.html | 14 | 3 |
-| /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 13 | 4 |
 | /2026/08/quarterly-reportage-4034-scheme.html | 13 | 6 |
-| /2026/08/a-slice-of-apple-costs-about-1700-slice.html | 12 | 1 |
 | /2026/08/ethanols-coal-boilers-briquette-gap-and.html | 12 | 9 |
 | /2026/08/every-india-europe-tech-agreement-pib.html | 11 | 5 |
+| /2026/08/japan-ran-out-of-matcha-assam-just-sold.html | 11 | 8 |
 | /2026/08/premium-now-claim-later-float-indias.html | 11 | 2 |
 | /2026/08/sugar-at-5570-kilo-why-cane-acreage.html | 11 | 3 |
 | /2026/08/what-seven-model-stock-portfolios-look.html | 11 | 4 |
 | /2026/08/fuel-and-bottle-two-taxes-states-never.html | 10 | 3 |
 | /2026/08/indias-renewable-energy-certificates.html | 10 | 8 |
-| /2026/08/japan-ran-out-of-matcha-assam-just-sold.html | 10 | 7 |
+| /2026/08/the-levelised-cost-of-hydrogen.html | 10 | 2 |
+| /2026/08/india-approved-15-lakh-crore-in.html | 9 | 3 |
