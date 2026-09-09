@@ -13,4 +13,3 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ssion and distribution losses, at 16.64 per cent, run more than double the global averag...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
