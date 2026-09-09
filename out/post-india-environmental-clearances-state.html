@@ -66,11 +66,6 @@
 <span class="gs-a11y-sep"></span>
 <button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
 <button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
-<span class="gs-a11y-sep"></span>
-<span class="gs-a11y-label" style="margin-right:.3rem">More tools:</span>
-<a href="https://jyoti-ai.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Jyoti AI, assistive reading for the visually impaired, opens in a new tab">Jyoti AI &#8599;</a>
-<a href="https://trestlelabs.com/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Trestle Labs Kibo, multilingual document reading for the visually impaired, opens in a new tab">Trestle Labs &#8599;</a>
-<a href="https://letstalksign.org/" target="_blank" rel="noopener" style="font-size:.76rem;color:#12408f;text-decoration:none;white-space:nowrap" aria-label="Let's Talk Sign, sign-language communication for the deaf and hard of hearing, opens in a new tab">Let'sTalkSign &#8599;</a>
 </div>
 <script>(function(){
 var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
@@ -211,9 +206,9 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 <h2>What the dashboard shows</h2>
 <ul>
 <li><b>State × sub-sector matrix</b> — which states clear what: mining-heavy registers (MP, Chhattisgarh, Rajasthan minor minerals) vs industrial ECs (Gujarat, Maharashtra) vs infrastructure corridors.</li>
-<li><b>The approval funnel</b> — the real attrition is auto-delisting (22%) and pipeline backlog, not rejection; see the companion post <a href="https://masaladeutsch.blogspot.com/search?q=EC+Approval+Funnel">EC Approval Funnel</a>.</li>
+<li><b>The approval funnel</b> — the real attrition is auto-delisting (22%) and pipeline backlog, not rejection; see the companion post <a href="https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html">EC Approval Funnel</a>.</li>
 <li><b>Fresh vs reuse</b> — only 49% are new projects; 22% are mostly re-appraisals of expiring minor-mineral leases on the same plots, plus transfers, expansions and amendments.</li>
-<li><b>Beyond EC</b> — the Forest / Wildlife / CRZ registers are covered in the companion post <a href="https://masaladeutsch.blogspot.com/search?q=Forest+Wildlife+CRZ">Forest, Wildlife &amp; CRZ Clearances</a>: Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted).</li>
+<li><b>Beyond EC</b> — the Forest / Wildlife / CRZ registers are covered in the companion post <a href="https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html">Forest, Wildlife &amp; CRZ Clearances</a>: Wildlife is the true bottleneck (only 10.7% of decided wildlife proposals are granted).</li>
 </ul>
 
 <h2>Why it matters</h2>
@@ -222,6 +217,10 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
 
 <p style="color:#82867a;font-size:.85em">Source: PARIVESH 2.0 open API, full EC register, fetched 22 Jul 2026. Data, methodology and refresh scripts: <a href="https://github.com/herrrickshaw/india-ec-subsector-analysis">github.com/herrrickshaw/india-ec-subsector-analysis</a>. The dashboard is served from GitHub Pages, so it always reflects the repo's latest data.</p>
 
+<h2>Why the state pattern isn't random</h2>
+<p>The state &times; sub-sector split matters because it separates two very different kinds of clearance activity that a national grant-rate number blends together. States like Madhya Pradesh, Chhattisgarh and Rajasthan carry disproportionately large EC registers because of minor-mineral mining &mdash; and mining clearances have a structural reason to recur on the same plots: a mining lease has a fixed term, and its renewal or re-appraisal shows up in the register as a new proposal even though no new land is being disturbed. That's a large share of what sits behind this piece's 49% fresh-vs-reuse split. Gujarat and Maharashtra's registers, by contrast, skew toward industrial and infrastructure ECs &mdash; plants, corridors, ports &mdash; which are more likely to represent genuinely new capacity landing rather than an existing lease renewing itself on paper.</p>
+<p>That distinction is the reason this piece treats the 88.7% grant rate as a starting point rather than a conclusion. A state with a high grant rate built mostly from mining re-appraisals is not attracting more new investment than a state with a lower rate built mostly from first-time industrial ECs &mdash; the two numbers describe different things wearing the same label. Anyone using EC counts as a leading indicator of where capital is actually going (the way this piece's own opening line frames it, ahead of IEM implementation data and commissioning) needs the fresh-vs-reuse split and the sub-sector mix, not just the state total, or the read is backwards.</p>
+<p style="color:#82867a;font-size:.85em"><b>Caveats.</b> The state and sub-sector breakdowns described above are drawn from the same PARIVESH 2.0 register this piece's headline figures use, via the linked GitHub-hosted dashboard; the exact per-state grant-rate figures are not reproduced in this article's own text because they update continuously on the dashboard itself (it re-pulls from the repo's latest data on every load) &mdash; treat this piece's qualitative pattern (mining-heavy states skew toward reuse, industrial states skew toward fresh capacity) as the takeaway, and the dashboard as the place to pull today's exact number for any one state.</p>
 
 <p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
 </div>
