@@ -27662,12 +27662,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
       "slug": "fci-storage-scenario-capacity-stock-and",
       "published": "2026-07-31T10:15:00.000+05:30",
-      "updated": "2026-09-09T13:25:40.555+05:30",
+      "updated": "2026-09-10T18:04:06+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 21180,
-      "sha256": "085910b5a0161581f97bb417e8c74b0ee1add07a0f12d46a6ead7ec937bb4093",
+      "bytes": 21216,
+      "sha256": "ea4a4d190d9e08cfbfa476ae144b9a60f071ae9fa09a215d03368b1a08eaa224",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27679,7 +27679,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.2",
+      "version": "2.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27913,6 +27913,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-09-10T18:04:06+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            21180,
+            21216
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the grain-storage bar chart: the '2,150 LMT target' and 'record stock ~907 LMT (2021)' dashed-reference-line labels, placed to the right of their lines, overflowed the canvas's right edge by 44px and 101px respectively (the plot area's own right margin, 650-700, was too narrow for either label). Widened the SVG viewBox 700->820 to give the reference-line labels enough right-margin room without compressing the four bars or their column spacing, and recentred the title/subtitle/source-caption x from 350->360 to stay centred over the (unchanged) plot area."
         }
       ]
     },
