@@ -4022,12 +4022,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
       "slug": "the-recycling-lottery-playbook-norways",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-09-09T09:15:03.782+05:30",
+      "updated": "2026-09-10T18:41:25+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 28111,
-      "sha256": "951dfe59ac4d31500eb065b6f1a1276357ed92a1ad5f55fbc69096ede20f4abb",
+      "bytes": 28469,
+      "sha256": "e80f6b13153111a15b21186889f07404fba284032bfbe1a34cdab05c1190a812",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4039,7 +4039,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4234,6 +4234,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:41:25+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28111,
+            28469
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Two chart-layout fixes on the lottery-revenue-vs-social-budgets bar chart. (1) The tallest bar ($12.0bn) exceeded the chart's own domain (gridlines only went to 10), so its top sat at y=54, colliding with the title (46.9px) and its opaque rect clipped 57.2px of the subtitle (found by the new TEXT_HIDDEN_BY_RECT check). Rescaled the y-axis domain from 0-10 to 0-12 (max bar top lowered from y=54 to y=90) so the tallest bar and its label clear both the title and subtitle; recomputed all five bars' heights/tops and value-label positions proportionally. (2) The narrower-pitch 'National Health'/'National Education' columns (90px pitch vs 125px elsewhere) had their category labels overlap by 2.9px; wrapped 'National Education Mission' into three lines instead of two so it no longer crowds its neighbour."
         }
       ]
     },
