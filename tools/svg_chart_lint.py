@@ -11,6 +11,11 @@ bounding box with a per-character width table, and flag:
   - OVERFLOW: a text element's estimated x-range extends outside the SVG's
     own viewBox (or width attribute when there's no viewBox), i.e. it will be
     clipped by the SVG viewport.
+  - TEXT_HIDDEN_BY_RECT: a <text> whose box overlaps a same-area, opaque
+    <rect> that appears LATER in the SVG source -- SVG paints in document
+    order, so that rect silently clips whatever part of the label falls
+    underneath it. Common bug: a category label written first, then the bar
+    rect drawn over the start of it.
 
 This is a heuristic, not a renderer: character-width estimates are close
 enough (calibrated against Playwright screenshots of real posts) to be a
@@ -39,6 +44,7 @@ SVG_RE = re.compile(
     r'<svg\b([^>]*)>(.*?)</svg>', re.S
 )
 TAG_RE = re.compile(r'<[^>]+>')
+RECT_RE = re.compile(r'<rect\b([^>]*?)/?>', re.S)
 
 # Per-character width as a fraction of font-size, roughly calibrated for the
 # Georgia/system-sans mixes this blog uses. Digits and most lowercase letters
@@ -188,6 +194,53 @@ def text_lines(attrs, content, css_classes=None, font_size_default=11):
     return out
 
 
+def _opacity_of(attrs):
+    """Combined opacity from opacity/fill-opacity, as attrs or inline style."""
+    style = {}
+    if 'style' in attrs:
+        style.update({k: v.strip() for k, v in STYLE_PROP_RE.findall(attrs['style'])})
+    vals = []
+    for key in ('opacity', 'fill-opacity'):
+        v = style.get(key, attrs.get(key))
+        if v is None:
+            continue
+        try:
+            vals.append(float(v))
+        except ValueError:
+            pass
+    result = 1.0
+    for v in vals:
+        result *= v
+    return result
+
+
+def find_rects(inner):
+    """Plain axis-aligned <rect x y width height>, skipping any with a
+    transform (rotated/skewed bars aren't worth the geometry) or a fill of
+    none/transparent (can't hide anything underneath)."""
+    rects = []
+    for rm in RECT_RE.finditer(inner):
+        attrs = parse_attrs(rm.group(1))
+        if not all(k in attrs for k in ('x', 'y', 'width', 'height')):
+            continue
+        if 'transform' in attrs:
+            continue
+        fill = attrs.get('fill', '')
+        if fill in ('none', 'transparent', ''):
+            continue
+        try:
+            rx = float(attrs['x'])
+            ry = float(attrs['y'])
+            rw = float(attrs['width'])
+            rh = float(attrs['height'])
+        except ValueError:
+            continue
+        if rw <= 0 or rh <= 0:
+            continue
+        rects.append((rx, ry, rw, rh, _opacity_of(attrs), rm.start()))
+    return rects
+
+
 def find_charts(html):
     for m in SVG_RE.finditer(html):
         svg_attrs = parse_attrs(m.group(1))
@@ -247,6 +300,28 @@ def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes=None):
                         'text_a': pa, 'text_b': pb,
                         'overlap_px': round(overlap, 1),
                         'y': round(ya, 1),
+                    })
+
+    # text hidden by rect: an opaque <rect> that appears LATER in the SVG
+    # source than a <text> paints on top of it in SVG's document-order
+    # painting model -- if their boxes overlap, the rect silently clips
+    # whatever part of the label falls underneath (a real, common bug in
+    # hand-authored bar charts: category label written first, then the bar
+    # rect drawn over the start of it). A translucent rect (opacity < 0.85)
+    # lets the text show through and isn't flagged.
+    rects = find_rects(inner)
+    for x0, x1, y, fs, plain, pos in texts:
+        ty0, ty1 = y - fs * 0.85, y + fs * 0.25  # rough baseline-relative text bbox
+        for rx, ry, rw, rh, opacity, rpos in rects:
+            if rpos <= pos or opacity < 0.85:
+                continue
+            rx0, rx1, ry0, ry1 = rx, rx + rw, ry, ry + rh
+            if x0 < rx1 and rx0 < x1 and ty0 < ry1 and ry0 < ty1:
+                x_overlap = min(x1, rx1) - max(x0, rx0)
+                if x_overlap > 3:
+                    issues.append({
+                        'type': 'TEXT_HIDDEN_BY_RECT', 'text': plain,
+                        'overlap_px': round(x_overlap, 1), 'y': round(y, 1),
                     })
     return issues
 
@@ -330,6 +405,8 @@ def main():
                     print(f'  COLLISION  "{i["text_a"]}"  overlaps  "{i["text_b"]}"  ({i["overlap_px"]}px, y={i["y"]})')
                 elif i['type'] == 'DOUBLE_ESCAPED_ENTITY':
                     print(f'  DOUBLE-ESCAPED-ENTITY  "{i["text"]}"  renders as literal text, x{i["count"]}')
+                elif i['type'] == 'TEXT_HIDDEN_BY_RECT':
+                    print(f'  TEXT-HIDDEN-BY-RECT  "{i["text"]}"  clipped by a later opaque <rect> ({i["overlap_px"]}px, y={i["y"]})')
                 else:
                     side = 'right' if i['type'] == 'OVERFLOW_RIGHT' else 'left'
                     print(f'  OVERFLOW-{side.upper():<5} "{i["text"]}"  by {i.get("overflow_px", "?")}px past canvas edge')
