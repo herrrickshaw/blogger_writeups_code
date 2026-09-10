@@ -39984,14 +39984,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
       "slug": "japan-ran-out-of-matcha-assam-just-sold",
       "published": "2026-08-23T05:48:49.000+05:30",
-      "updated": "2026-09-09T08:13:03.022+05:30",
+      "updated": "2026-09-10T18:43:19+05:30",
       "labels": [
         "Agriculture & Food Processing",
         "India",
         "Trade & Tariffs"
       ],
-      "bytes": 34105,
-      "sha256": "8e4633413f880c2d8968833f8981408f91a5167b8d3329be97891e6ef9aac0d8",
+      "bytes": 34171,
+      "sha256": "2fbd17b10a7ae89de7cdd2b830c282aab0d30c7bb4a5e91a043a877b5f2fe8c8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40003,7 +40003,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40063,6 +40063,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:43:19+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            34105,
+            34171
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the matcha-price-shock bar chart: the bottom footnote (the tencha-price-estimate caveat) was a single centred line at font-size 10, 730px wide against a 700px canvas -- overflowing both edges. Wrapped it into two balanced lines and grew canvas height 380->388 to fit."
         }
       ]
     },
