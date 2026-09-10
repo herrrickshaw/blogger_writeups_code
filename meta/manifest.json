@@ -24917,14 +24917,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
       "slug": "chemical-import-substitution-quarterly",
       "published": "2026-08-01T09:33:00.000+05:30",
-      "updated": "2026-09-09T08:43:58.496+05:30",
+      "updated": "2026-09-10T18:20:34+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 55777,
-      "sha256": "32bc4441b52b511e86abb8358c7cf1cdd8e870346dcf7f8a4ca828b5518d99a4",
+      "bytes": 55979,
+      "sha256": "b30cdab11fb97c01154b04af41e6dae92c8db0462e36c12274018421bc1ba806",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24936,7 +24936,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25183,6 +25183,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:20:34+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            55777,
+            55979
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix (found by the new TEXT_HIDDEN_BY_RECT linter check) on the capex-execution-progress bar chart: the last row's bar (BHAVYA Dye Parks, 25%) was drawn AFTER the x-axis's '0%'/'25%' tick labels in the SVG source, and its opaque rect's bottom edge sat close enough to those labels' baseline to clip them. Moved that bar's <rect> to render before the axis-tick-label group instead, so the labels always paint on top; its row/value labels were already positioned after it and needed no change."
         }
       ]
     },
