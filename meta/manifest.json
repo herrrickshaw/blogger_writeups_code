@@ -9608,14 +9608,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html",
       "slug": "chemical-import-substitution-analysis",
       "published": "2026-08-01T09:22:00.000+05:30",
-      "updated": "2026-09-09T08:43:31.591+05:30",
+      "updated": "2026-09-10T17:59:28+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 37542,
-      "sha256": "7ac5fa5ce58786a6e0d80932f4c144bcfc83793bcd8c9d4c86e827ddf1b5c266",
+      "bytes": 38249,
+      "sha256": "37f4b435c6fdf7f90551038d7b00cdeee5cbcf84554d28bf0569e58f6d720f3f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9627,7 +9627,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9874,6 +9874,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-10T17:59:28+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-1 distinct numbers); chart layout fixed",
+          "bytes": [
+            37542,
+            38249
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix: rescaled the HS-chapter import-bill bar chart's y-axis (0-20bn -> 0-30bn domain) so the tallest bar (Ch.29, $25.41bn) no longer exceeds the chart top with an invisible same-color-as-bar value label, and no longer collides with the title/subtitle; wrapped the 'Textile Auxiliaries (corrected)' category label to two lines to stop it overlapping 'Dyes, Pigments, Pharma'; grew canvas height 380->395 to fit. Also fixed a data-accuracy bug found while verifying the chart: the 'Chemical Import Breakdown' table still carried Chapter 38's old, already-retracted $620mn figure (the post's own 4 Aug 2026 correction notice gives the true DGCI&S figure as $8,857M), so the post's headline total ($66.13bn) and figcaption disagreed with the chart's own subtitle (already corrected to $74.37bn). Updated the table row, headline sentence, figcaption and footer stat to the reconciled $74.37bn total consistently."
         }
       ]
     },
