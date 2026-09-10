@@ -18035,13 +18035,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
       "slug": "574-gw-and-counting-indias-wind-fleet",
       "published": "2026-08-21T04:04:01.000+05:30",
-      "updated": "2026-09-07T19:17:23.330+05:30",
+      "updated": "2026-09-10T18:16:43+05:30",
       "labels": [
         "Energy & Fuels",
         "India Trade & Policy"
       ],
       "bytes": 21658,
-      "sha256": "0b22c0d5072da65b246bdc01814a90d6431a389a3b051a6b2d242785f0b4cd22",
+      "sha256": "8ace662ae0c529f5639cce3d30623724471990af8ee07326d04b5a71a3b0d35a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18053,7 +18053,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18113,6 +18113,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:16:43+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            21658,
+            21658
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix (found by the new TEXT_HIDDEN_BY_RECT linter check) on the wind-fleet-vs-NIWE-potential bar chart: the tallest bar (150m hub height, 1,163.9 GW) was drawn AFTER the chart's title/subtitle in the SVG source, so its opaque green rect (starting at y=52, essentially at the subtitle's own baseline) silently clipped the tail of the subtitle wherever their boxes overlapped (~14px on the right). Moved that bar's <rect> to render before the title/subtitle text instead, so the text always paints on top; its value label was already positioned after it in source order and needed no change."
         }
       ]
     },
