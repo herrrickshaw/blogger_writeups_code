@@ -35090,13 +35090,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
       "slug": "indias-ev-market-single-digit",
       "published": "2026-08-02T16:16:00.000+05:30",
-      "updated": "2026-09-07T19:28:36.316+05:30",
+      "updated": "2026-09-10T18:12:38+05:30",
       "labels": [
         "Mobility & EV",
         "Trade & Tariffs"
       ],
-      "bytes": 39374,
-      "sha256": "281e328eb1a58c3c928d7c8b95dd0afaa4b6d7110c3b54925e129eeb0fc693e2",
+      "bytes": 39592,
+      "sha256": "850a47568159e88c4be4fdde249a580f09cb7c8e5ecdd151b147806b38d45be3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35108,7 +35108,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35285,6 +35285,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:12:38+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            39374,
+            39592
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the EV-penetration-by-segment bar chart, two distinct bugs. (1) The E-2W and E-goods rows' long category labels ('E-2W (two-wheelers, 58% of EV volume)', 'E-goods (trucks/LGV, first year in scheme)') ran past their short bars' end and collided with the value label ('6.5%'/'1.4%') placed just past the bar -- moved each value label to clear the category label's actual text extent instead of just the bar's end. (2) A real, unflagged rendering bug found while verifying visually: the E-3W and National-average rows' category labels were painted BEFORE their opaque bars in the SVG source, so the bars silently clipped the part of the label text that fell under them (confirmed in a Playwright render: 'E-3W (three-wheele[rs)]' and 'National average (al[l EVs)]' were cut off mid-word). Reordered all four rows so the category-label <text> paints after (on top of) its <rect> bar; verified dark #111 text keeps good contrast against both bar colours (~6.9:1 and ~9.9:1)."
         }
       ]
     },
