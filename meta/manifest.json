@@ -27203,12 +27203,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
       "slug": "inflation-trends-globally-what-five",
       "published": "2026-08-08T08:31:31.000+05:30",
-      "updated": "2026-09-07T19:30:52.242+05:30",
+      "updated": "2026-09-10T18:31:13+05:30",
       "labels": [
         "Prices & Inflation"
       ],
-      "bytes": 57787,
-      "sha256": "a463070a40182621b34d8ebbbec6a43de48383c906387d61812a08e6db049eda",
+      "bytes": 57794,
+      "sha256": "ec6948f41b27fdec9fb26aa301d35af1cbd3925136a9c2e9db77045651f5e5a6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27220,7 +27220,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.3",
+      "version": "4.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27488,6 +27488,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "4.0.4",
+          "date": "2026-09-10T18:31:13+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            57787,
+            57794
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the EU-27 inflation-spread diverging bar chart: the last row (Info & comms, the only falling category, -1.7%) had a short leftward-growing bar starting at x=234, well inside the category-label column (which ends at x=275) -- the opaque green bar, drawn after the label in source, clipped 41px of it (found by the new TEXT_HIDDEN_BY_RECT check), and the value label positioned just outside/left of the bar collided with the same category label 30px away. Moved the bar's <rect> before the label so it paints under it, and moved the value label to the open space right of the zero line instead of the cramped space to its left."
         }
       ]
     },
