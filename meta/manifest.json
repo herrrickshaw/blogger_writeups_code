@@ -15349,12 +15349,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html",
       "slug": "indian-it-in-ai-era",
       "published": "2026-08-04T12:48:16.000+05:30",
-      "updated": "2026-09-07T19:27:17.483+05:30",
+      "updated": "2026-09-10T18:26:46+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 38536,
-      "sha256": "4e665707215c4cb590f6a5c896230da3fe6d8d838e405e250218b5e83eee051e",
+      "bytes": 38560,
+      "sha256": "e3318fcd83ec6777d6a57ad71694b116f0cf635141ad9b1bb109676d038e4bd1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15366,7 +15366,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15604,6 +15604,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:26:46+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            38536,
+            38560
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Two chart-layout fixes on the big-five-IT-firms headcount-change diverging bar chart. (1) TCS's large negative bar (-23,460) spans the full width from x=100 to the zero line at x=350, completely swallowing the category-label column (where 'TCS' sits, ending at x=325) -- and was drawn AFTER the label, so the opaque red bar clipped it entirely (found by the new TEXT_HIDDEN_BY_RECT check). Moved that bar's <rect> to render before its row's text. (2) Tech Mahindra's small negative bar's value label ('-1,108'), placed just outside/left of the bar per the usual convention, collided with the 'Tech Mahindra' category label 32.8px away -- there wasn't enough room between the short bar and the category-label column. Moved the label to the open space right of the zero line instead."
         }
       ]
     },
