@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html",
   "slug": "oilfield-costs-rose-68-while-global",
   "published": "2026-08-26T09:43:59.000+05:30",
-  "updated": "2026-09-07T19:32:32.967+05:30",
+  "updated": "2026-09-11T00:04:32.556+05:30",
   "labels": [
     "Energy & Fuels",
     "India",
     "Markets & Finance"
   ],
-  "bytes": 32640,
-  "sha256": "a6fd9ca6fb07b395440be7c44c24c67b37ff388f0278c54d007cc9f447a43a13",
+  "bytes": 33540,
+  "sha256": "e89ec2e4a3b7952de879398bdff5f3e7bb914b1f30bba9d28a8474e552a002fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        32640,
+        33540
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

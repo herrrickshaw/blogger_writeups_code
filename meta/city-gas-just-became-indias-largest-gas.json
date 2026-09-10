@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html",
   "slug": "city-gas-just-became-indias-largest-gas",
   "published": "2026-08-08T16:38:51.000+05:30",
-  "updated": "2026-09-07T19:20:30.938+05:30",
+  "updated": "2026-09-10T23:14:59.072+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 28227,
-  "sha256": "9fc3641c6cd533d40385227656ab6f604bb6e2842ecda65a52a236a98e35046b",
+  "bytes": 29041,
+  "sha256": "e7da75abfe9fe385ffc244c01ba00dc41dd3053cecca683409b0dc77c1d27355",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -213,6 +213,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28227,
+        29041
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

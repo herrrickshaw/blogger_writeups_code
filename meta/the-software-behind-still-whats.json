@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html",
   "slug": "the-software-behind-still-whats",
   "published": "2026-08-20T09:51:31.000+05:30",
-  "updated": "2026-09-07T19:40:04.244+05:30",
+  "updated": "2026-09-11T00:22:34.500+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 35256,
-  "sha256": "d59cbeef78115358a972820bd0d1a16c7af58ed169c35c62ccf23a6508ecf554",
+  "bytes": 36129,
+  "sha256": "a505c4dd1063805072acbbce3ee216a2facb2b6d2b17b472dc3d0e45fb561de6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.3",
+  "version": "2.1.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        35256,
+        36129
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

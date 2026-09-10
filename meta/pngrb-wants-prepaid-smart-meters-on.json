@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
   "slug": "pngrb-wants-prepaid-smart-meters-on",
   "published": "2026-09-08T09:22:34.000+05:30",
-  "updated": "2026-09-08T09:22:55.157+05:30",
+  "updated": "2026-09-10T23:24:32.378+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 22404,
-  "sha256": "4783adb5a42ce58317cde322f77fb313b7940917328512e941e5622a0745abbb",
+  "bytes": 24859,
+  "sha256": "afbbbff0a58461af55539733c20609f9bce85f795fbf324bdc7164e48f43c3f8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,13 +22,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-09-10T22:54:22+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22404,
+        24859
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

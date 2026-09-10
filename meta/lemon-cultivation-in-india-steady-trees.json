@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
   "slug": "lemon-cultivation-in-india-steady-trees",
   "published": "2026-08-19T06:09:17.000+05:30",
-  "updated": "2026-09-07T19:31:37.630+05:30",
+  "updated": "2026-09-11T00:21:57.236+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 26036,
-  "sha256": "dc83ffc846c4a9edaaf21ee9a48eebdd0afbb3d8ce61477d874f866dab742233",
+  "bytes": 26740,
+  "sha256": "6a8c86cddd070c15580f30eeeef93b973202022a61f366c5fd075b8c50a5e627",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        26036,
+        26740
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

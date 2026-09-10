@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
   "slug": "tamil-nadus-water-infrastructure-runs",
   "published": "2026-08-25T10:48:07.000+05:30",
-  "updated": "2026-09-09T08:16:17.267+05:30",
+  "updated": "2026-09-11T00:00:07.697+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 25188,
-  "sha256": "e7c1926c3d08f3c7833f9d4796e1e3c4b6d8a8dbb01e499036ed1f1d2365d6e1",
+  "bytes": 26087,
+  "sha256": "3a06ea78f5925339d7610e4887c7589df7862907341753c0cef0c3f47cbebe36",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -78,6 +78,19 @@
       "bytes": [
         24153,
         25188
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25188,
+        26087
       ],
       "url_changed": null,
       "markers_changed": null,

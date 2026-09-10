@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
   "slug": "fci-grain-flow-procurement-storage",
   "published": "2026-07-31T10:04:00.000+05:30",
-  "updated": "2026-09-07T19:22:28.667+05:30",
+  "updated": "2026-09-10T23:18:37.184+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 39180,
-  "sha256": "ef144bb328c9559e6c4e0bbf92e462eed23b3a6e8d8d53ae4290197e442b4c1c",
+  "bytes": 40221,
+  "sha256": "6f9721b2ecfba2fd520bd28dccc183e7e75a1b9ed22972cff7d4cba1b6a0dde5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -255,6 +255,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39180,
+        40221
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

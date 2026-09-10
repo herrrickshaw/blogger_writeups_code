@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
   "slug": "india-approved-15-lakh-crore-in",
   "published": "2026-08-25T06:30:48.000+05:30",
-  "updated": "2026-09-10T15:21:33.856+05:30",
+  "updated": "2026-09-11T00:11:49.817+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 37365,
-  "sha256": "e81accb4dbd7afee3d09dc59454cf5eba4ef7b53ce53acb32a7e5f824bd4f5b3",
+  "bytes": 38247,
+  "sha256": "3107767dce2cd56cd6052f0cb9d82263ba04675c71a86461a058fb58e0864b8f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -104,6 +104,19 @@
       "bytes": [
         36634,
         37365
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37365,
+        38247
       ],
       "url_changed": null,
       "markers_changed": null,

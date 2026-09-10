@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-09-09T08:47:33.835+05:30",
+  "updated": "2026-09-11T00:16:43.950+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 28560,
-  "sha256": "dd6aab3a500b52e7184893e32d15dba9d09ba9800a0026a92bd19b89b250ee14",
+  "bytes": 29438,
+  "sha256": "979f8d340715a08f647e54e60da8da5a7a7c7c6a2b20b302b2818bc512c49e14",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "bytes": [
         27461,
         28560
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28560,
+        29438
       ],
       "url_changed": null,
       "markers_changed": null,

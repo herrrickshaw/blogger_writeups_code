@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-09-09T08:52:35.870+05:30",
+  "updated": "2026-09-11T00:12:32.997+05:30",
   "labels": [
     "Chemicals",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 51325,
-  "sha256": "3e00ea24baf6a62181c5d4aa1ad5139a705f5a63d7174085cbba6ebbb9f94260",
+  "bytes": 52197,
+  "sha256": "7b231f3db81488254aac0a4c5c8b7b6a750dec4b2a2a827d6bc1e9a176ec8b41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -297,6 +297,19 @@
       "bytes": [
         50446,
         51325
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        51325,
+        52197
       ],
       "url_changed": null,
       "markers_changed": null,

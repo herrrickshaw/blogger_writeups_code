@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html",
   "slug": "we-fact-checked-66-investment",
   "published": "2026-08-25T06:17:26.000+05:30",
-  "updated": "2026-09-09T08:59:55.392+05:30",
+  "updated": "2026-09-11T00:09:10.521+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 66755,
-  "sha256": "237598081506475ea46ae7b3ddbae11438f9d2157dc0f703534fcd82e5f7302d",
+  "bytes": 67625,
+  "sha256": "c26d359de01889a189204fee48a4f1f976c56eda1ed2df6ea23e519df0b3987b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -91,6 +91,19 @@
       "bytes": [
         65745,
         66755
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        66755,
+        67625
       ],
       "url_changed": null,
       "markers_changed": null,

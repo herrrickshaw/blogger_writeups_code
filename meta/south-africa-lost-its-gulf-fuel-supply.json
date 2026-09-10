@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
   "slug": "south-africa-lost-its-gulf-fuel-supply",
   "published": "2026-08-08T12:55:40.000+05:30",
-  "updated": "2026-09-10T15:21:58.246+05:30",
+  "updated": "2026-09-11T00:21:20.602+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 28920,
-  "sha256": "b3434dd9a9a25d3174ca68015594ef405b3f39a4ec6a91612f0ac7164b8b51ef",
+  "bytes": 29812,
+  "sha256": "713db20d548d235f8933cf06a33df33367b386ffff13709609117892d156ea87",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -208,6 +208,19 @@
       "bytes": [
         28936,
         28920
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28920,
+        29812
       ],
       "url_changed": null,
       "markers_changed": null,

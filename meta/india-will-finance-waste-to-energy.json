@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
   "slug": "india-will-finance-waste-to-energy",
   "published": "2026-08-26T20:20:49.000+05:30",
-  "updated": "2026-09-10T15:04:05.589+05:30",
+  "updated": "2026-09-11T00:14:45.825+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37919,
-  "sha256": "c7156e3ff307ed6f71d7b1518ca0789b6eea705467a1ec1e0e7a360137910037",
+  "bytes": 38679,
+  "sha256": "f5f912e2aff23986e82efacc2414adee704b8cdedf29c558943587adbd20a468",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,19 @@
       "bytes": [
         36513,
         37919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37919,
+        38679
       ],
       "url_changed": null,
       "markers_changed": null,

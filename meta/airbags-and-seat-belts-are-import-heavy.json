@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
   "slug": "airbags-and-seat-belts-are-import-heavy",
   "published": "2026-08-15T11:27:49.000+05:30",
-  "updated": "2026-09-10T15:25:50.920+05:30",
+  "updated": "2026-09-10T23:11:50.505+05:30",
   "labels": [
     "Automotive & Manufacturing",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 26641,
-  "sha256": "ee112511c1670b3af745c53a1e1724f11aca141fe87233da47e0d7ec9c696536",
+  "bytes": 27426,
+  "sha256": "407965cf32dee56912c99a0f42b2b8e1c9171d4b3df1756cb9f7128966a5e3b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.4",
+  "version": "3.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -144,6 +144,19 @@
       "bytes": [
         26645,
         26641
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.5",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        26641,
+        27426
       ],
       "url_changed": null,
       "markers_changed": null,

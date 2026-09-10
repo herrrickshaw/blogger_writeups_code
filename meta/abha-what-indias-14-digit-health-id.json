@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
   "slug": "abha-what-indias-14-digit-health-id",
   "published": "2026-08-12T04:31:28.000+05:30",
-  "updated": "2026-09-09T08:07:00.674+05:30",
+  "updated": "2026-09-10T23:11:04.914+05:30",
   "labels": [
     "Healthcare"
   ],
-  "bytes": 25548,
-  "sha256": "a74cdbd430c6f2adc45b17eb2341d32d4b94681144d228387cace70a119cbbd0",
+  "bytes": 26512,
+  "sha256": "694de58fad08f53028e293399116324e0b34ed0b3b1f810d87e72f27c94dfd98",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -207,6 +207,19 @@
       "bytes": [
         24996,
         25548
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25548,
+        26512
       ],
       "url_changed": null,
       "markers_changed": null,

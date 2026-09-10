@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html",
   "slug": "indias-ev-market-single-digit",
   "published": "2026-08-02T16:16:00.000+05:30",
-  "updated": "2026-09-10T18:12:38.020+05:30",
+  "updated": "2026-09-11T00:17:28.100+05:30",
   "labels": [
     "Mobility & EV",
     "Trade & Tariffs"
   ],
-  "bytes": 39374,
-  "sha256": "850a47568159e88c4be4fdde249a580f09cb7c8e5ecdd151b147806b38d45be3",
+  "bytes": 40234,
+  "sha256": "38d75dfabb42ded8401b10a0696d58bfca2529b7cb1a5391697abf6fe0ccd96f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -208,6 +208,19 @@
       "bytes": [
         39374,
         39374
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39374,
+        40234
       ],
       "url_changed": null,
       "markers_changed": null,

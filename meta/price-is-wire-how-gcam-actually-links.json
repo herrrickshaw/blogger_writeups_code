@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-09-09T08:54:20.604+05:30",
+  "updated": "2026-09-11T00:11:07.125+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 41823,
-  "sha256": "3171e65f63d2759e3d98e3a809389b10f672f400b6186689c0e7c123354c0588",
+  "bytes": 42776,
+  "sha256": "a7d75667c551dfc24185cb7c2d570786eb212ed2505cb4fcd991bd8a4ca0317a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -172,6 +172,19 @@
       "bytes": [
         40798,
         41823
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        41823,
+        42776
       ],
       "url_changed": null,
       "markers_changed": null,

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-09-09T08:07:10.429+05:30",
+  "updated": "2026-09-10T23:19:36.635+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 30966,
-  "sha256": "1ffb81a32de1b1430f47e23d8b7e879979748473fc3e5985f463164f436b8d1d",
+  "bytes": 31792,
+  "sha256": "0653600c3194f033585fb2dfd142da27955a68e789eb5e327eaa5563a681fd1e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -105,6 +105,19 @@
       "bytes": [
         30250,
         30966
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30966,
+        31792
       ],
       "url_changed": null,
       "markers_changed": null,

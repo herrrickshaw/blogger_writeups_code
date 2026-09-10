@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-09-09T12:44:39.536+05:30",
+  "updated": "2026-09-11T00:19:35.390+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 28282,
-  "sha256": "bff3affc905c6983c8daf0a649ce8fd0855d4858fab20194d1e6245a3f0ea3aa",
+  "bytes": 29406,
+  "sha256": "659465d1bda617ec6aa9cf1d2c084c796134a0ff5eca433e404cc606081b43ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -207,6 +207,19 @@
       "bytes": [
         27321,
         28282
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28282,
+        29406
       ],
       "url_changed": null,
       "markers_changed": null,

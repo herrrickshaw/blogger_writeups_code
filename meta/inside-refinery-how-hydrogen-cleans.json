@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html",
   "slug": "inside-refinery-how-hydrogen-cleans",
   "published": "2026-08-20T09:33:21.000+05:30",
-  "updated": "2026-09-10T16:26:14.156+05:30",
+  "updated": "2026-09-11T00:08:16.415+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37404,
-  "sha256": "1b63588f6190233fa0fccdac54c8e481283e84068e9d55884d9c91630a512a6c",
+  "bytes": 38155,
+  "sha256": "736c1559cd31b6751775703621fe9044f89a6d02bdbc94177ebcfe4085b24176",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -104,6 +104,19 @@
       "bytes": [
         37410,
         37404
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37404,
+        38155
       ],
       "url_changed": null,
       "markers_changed": null,

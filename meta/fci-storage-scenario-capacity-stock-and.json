@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-09-10T18:04:06.474+05:30",
+  "updated": "2026-09-10T23:18:53.939+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 21180,
-  "sha256": "ea4a4d190d9e08cfbfa476ae144b9a60f071ae9fa09a215d03368b1a08eaa224",
+  "bytes": 22076,
+  "sha256": "edadb9204c2ac416de8a30398a18dfd4c356ee91a56d87574b7def436c0ae8bd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "bytes": [
         18020,
         21180
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21180,
+        22076
       ],
       "url_changed": null,
       "markers_changed": null,

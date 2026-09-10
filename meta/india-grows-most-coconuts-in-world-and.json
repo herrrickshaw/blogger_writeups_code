@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-most-coconuts-in-world-and.html",
   "slug": "india-grows-most-coconuts-in-world-and",
   "published": "2026-08-24T14:29:35.000+05:30",
-  "updated": "2026-09-09T08:46:53.048+05:30",
+  "updated": "2026-09-10T23:58:57.046+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 28885,
-  "sha256": "fe663f7861fad370044fc95f778f9b18c43656a802a44f01b7a34460cbc0785d",
+  "bytes": 29659,
+  "sha256": "4c1d638f5cd16418db2014be33392f8eac136cd968eaa922cc9efb8287941e33",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +92,19 @@
       "bytes": [
         27966,
         28885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28885,
+        29659
       ],
       "url_changed": null,
       "markers_changed": null,
