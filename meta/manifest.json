@@ -11557,12 +11557,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
       "slug": "india-imports-283000-tonnes-of-almonds",
       "published": "2026-08-21T23:00:40.000+05:30",
-      "updated": "2026-09-07T19:26:36.524+05:30",
+      "updated": "2026-09-10T16:21:19+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 31392,
-      "sha256": "97c6cf1d58f88b35492b7997490e4d3c1c3b806f5362038c37709d6681d6a183",
+      "bytes": 31474,
+      "sha256": "2577911cb421c2e222ee93fec7ef64e3c8f2e641756c45efaa41d16d4382e91a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11574,7 +11574,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11647,6 +11647,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T16:21:19+05:30",
+          "level": "patch",
+          "reason": "fixed chart: value/category label collisions on both bars, wrapped overflowing source caption on second chart",
+          "bytes": [
+            31392,
+            31474
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -14168,14 +14181,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-renewable-energy-certificates.html",
       "slug": "indias-renewable-energy-certificates",
       "published": "2026-08-23T22:23:00.000+05:30",
-      "updated": "2026-09-09T09:09:43.538+05:30",
+      "updated": "2026-09-10T16:22:53+05:30",
       "labels": [
         "Energy & Fuels",
         "India",
         "Industrial Policy"
       ],
-      "bytes": 36422,
-      "sha256": "d1857f132a4869a680f7bd92aa068af9656f90593f1c0cb6f03afe05d3bb0a6a",
+      "bytes": 36508,
+      "sha256": "0dae091b95f261655724bad1e1623c318c422f45e0c63ce5f97c2dec8c7a6d24",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -14187,7 +14200,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -14260,6 +14273,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T16:22:53+05:30",
+          "level": "patch",
+          "reason": "fixed chart: peak-point label colliding with subtitle, source caption overflow, double-escaped mdash",
+          "bytes": [
+            36422,
+            36508
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
