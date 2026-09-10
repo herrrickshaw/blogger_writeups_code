@@ -10444,3 +10444,12 @@ scheduled sync
 - `fourteen-states-reimburse-investors` — 2026-09-09 &rarr; 2026-09-09
 - `pngrbs-own-2025-committee-now-expects` — 2026-09-09 &rarr; 2026-09-09
 - `a-2013-vision-saw-india-needing-746` — 2026-09-09 &rarr; 2026-09-09
+
+## 2026-09-10T07:29:28+00:00 — 267 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-draft-seeds-bill-cuts-states` — 2026-09-10 &rarr; 2026-09-10
