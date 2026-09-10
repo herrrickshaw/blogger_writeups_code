@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
   "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
   "published": "2026-08-30T08:03:08.000+05:30",
-  "updated": "2026-09-07T19:41:32.924+05:30",
+  "updated": "2026-09-10T22:48:28.916+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 20849,
-  "sha256": "d776b3a6188349c0a770bf7bc0daf748f0bcc883d6fb98a886deacf6cabe8bb6",
+  "bytes": 23444,
+  "sha256": "b5d4030404afe4ce46281c764491064342dd41bc710811469aef11070e658178",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20849,
+        23444
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

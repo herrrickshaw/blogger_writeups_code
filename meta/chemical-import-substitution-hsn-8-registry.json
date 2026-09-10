@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-09-07T19:20:17.553+05:30",
+  "updated": "2026-09-09T08:43:45.407+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 21975,
-  "sha256": "d6bbe2198efd98a9683fa55e22efb279bff02bda7a8225beedb5bfcb1e57e20c",
+  "bytes": 22664,
+  "sha256": "ba7856af14f810caf7d21d510b09da40b8add33f26e79cebb97d4d1d57ce1c30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.3",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "minor",
+      "reason": "prose grew 5,855→6,115 chars with no new figures",
+      "bytes": [
+        21975,
+        22664
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

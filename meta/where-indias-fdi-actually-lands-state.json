@@ -4,10 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state.html",
   "slug": "where-indias-fdi-actually-lands-state",
   "published": "2026-09-03T13:14:49.000+05:30",
-  "updated": "2026-09-07T19:42:28.876+05:30",
-  "labels": [],
-  "bytes": 43055,
-  "sha256": "be7d6243ea021016f0fd54dc08f6a75bc89567201541f8b41bb436193ed808c9",
+  "updated": "2026-09-10T22:49:11.013+05:30",
+  "labels": [
+    "Industrial Policy",
+    "Markets & Finance"
+  ],
+  "bytes": 45673,
+  "sha256": "200cb4a85619f9d8d23b3553d31af4586b6ede2d529b8e545d74a19bae755fbc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.3",
+  "version": "2.1.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -92,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        43055,
+        45673
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

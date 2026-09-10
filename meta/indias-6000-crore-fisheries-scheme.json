@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
   "slug": "indias-6000-crore-fisheries-scheme",
   "published": "2026-08-30T07:43:52.000+05:30",
-  "updated": "2026-09-07T19:27:35.637+05:30",
+  "updated": "2026-09-10T22:43:10.595+05:30",
   "labels": [
     "Fisheries & Aquaculture",
     "India"
   ],
-  "bytes": 22864,
-  "sha256": "130ff8fc5111e5076e4a1e643ea7fb912047778a95e3d127bc2dfebc8e0c0b2d",
+  "bytes": 25643,
+  "sha256": "f5ee466520bac32ee52fd4428ca161648a72395866134dd2d23a7f3002a85d07",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22864,
+        25643
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

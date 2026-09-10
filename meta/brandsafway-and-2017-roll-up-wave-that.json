@@ -4,10 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
   "slug": "brandsafway-and-2017-roll-up-wave-that",
   "published": "2026-08-30T17:58:26.000+05:30",
-  "updated": "2026-09-07T19:19:31.728+05:30",
-  "labels": [],
-  "bytes": 22694,
-  "sha256": "c5f8a3f1d2e79bf8d5ef27e28505a062b2123f8c1a024fb1163b6cd8fb0beaff",
+  "updated": "2026-09-10T22:41:36.318+05:30",
+  "labels": [
+    "Industrial Policy",
+    "Markets & Finance"
+  ],
+  "bytes": 24938,
+  "sha256": "2d9d2a5f560077ff71dd91c44f1d04c2ff01cddbcb3339bd30833197733e51c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22694,
+        24938
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

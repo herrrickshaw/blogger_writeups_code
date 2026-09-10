@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.000+05:30",
-  "updated": "2026-09-07T19:38:36.462+05:30",
+  "updated": "2026-09-10T22:47:12.709+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 21825,
-  "sha256": "9b5358189a0a181307f7242cf768845480c64b61ee157b07062a04df23e33d06",
+  "bytes": 24119,
+  "sha256": "c967b0e8cb1720b4b5b04b69366b2b9a013fce317fc6b180e3fea8f6be23963a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21825,
+        24119
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

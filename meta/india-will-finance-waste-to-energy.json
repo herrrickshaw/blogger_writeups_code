@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
   "slug": "india-will-finance-waste-to-energy",
   "published": "2026-08-26T20:20:49.000+05:30",
-  "updated": "2026-09-07T19:27:10.666+05:30",
+  "updated": "2026-09-10T15:04:05.589+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 36513,
-  "sha256": "a5d52bb5329fb206d9992daad9b6d316c6ad913818fe4efec8a515266b22ab24",
+  "bytes": 37919,
+  "sha256": "c7156e3ff307ed6f71d7b1518ca0789b6eea705467a1ec1e0e7a360137910037",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        36513,
+        37919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

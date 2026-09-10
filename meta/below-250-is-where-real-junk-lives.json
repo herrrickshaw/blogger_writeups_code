@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/below-250-is-where-real-junk-lives.html",
   "slug": "below-250-is-where-real-junk-lives",
   "published": "2026-08-11T15:22:00.000+05:30",
-  "updated": "2026-09-07T19:18:59.816+05:30",
+  "updated": "2026-09-10T18:18:50.733+05:30",
   "labels": [
     "Markets & Finance"
   ],
   "bytes": 20191,
-  "sha256": "ac34740ae367c11f2d81e6fecff46a8ed1a555dfad24b2733d94936afa409d85",
+  "sha256": "435818369a03979a67424509d3d986a86d2dccc27577ec5c574d81e5c8aa1f83",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20191,
+        20191
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,10 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html",
   "slug": "one-nation-one-ration-card-doesnt-move",
   "published": "2026-09-05T12:36:54.000+05:30",
-  "updated": "2026-09-07T19:32:50.889+05:30",
-  "labels": [],
-  "bytes": 56510,
-  "sha256": "fd785e9e42da26ea766855098bc6feda5e682e045b3fa3125c84bc41e75ef796",
+  "updated": "2026-09-10T22:45:12.021+05:30",
+  "labels": [
+    "Agriculture & Fertilisers",
+    "Energy & Fuels"
+  ],
+  "bytes": 58696,
+  "sha256": "6422e26650b3c2fdd0dfc72ab04653c2d61bb41dbe60e0b2bb10bd8e21c36b7c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        56510,
+        58696
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-most-coconuts-in-world-and.html",
   "slug": "india-grows-most-coconuts-in-world-and",
   "published": "2026-08-24T14:29:35.000+05:30",
-  "updated": "2026-09-07T19:26:11.315+05:30",
+  "updated": "2026-09-09T08:46:53.048+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 27966,
-  "sha256": "3dec196b993f45247cc797c88cfda0969eb41d5815398474c7a1ac955184f8bc",
+  "bytes": 28885,
+  "sha256": "fe663f7861fad370044fc95f778f9b18c43656a802a44f01b7a34460cbc0785d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        27966,
+        28885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

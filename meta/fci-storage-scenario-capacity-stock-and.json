@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-09-07T19:22:35.653+05:30",
+  "updated": "2026-09-10T18:04:06.474+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 18020,
-  "sha256": "00d177b80953cd0a7603799523b65f41a86f49358e85dace1eba64a6a4e9f969",
+  "bytes": 21180,
+  "sha256": "ea4a4d190d9e08cfbfa476ae144b9a60f071ae9fa09a215d03368b1a08eaa224",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -255,6 +255,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+0/-0 distinct numbers)",
+      "bytes": [
+        18020,
+        21180
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
   "slug": "the-hydrogen-bill-hiding-inside-indias",
   "published": "2026-08-26T19:10:24.000+05:30",
-  "updated": "2026-09-07T19:38:48.230+05:30",
+  "updated": "2026-09-10T15:03:59.134+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Industrial Policy"
   ],
-  "bytes": 42283,
-  "sha256": "6b36410758092b0536ef8a52b966fe724bc76858622079e4b3425664ab479537",
+  "bytes": 42469,
+  "sha256": "56e8aef009590f9e2197f2469a6a337cc7731478edeceb92f5ed22a52c1a4c08",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42283,
+        42469
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

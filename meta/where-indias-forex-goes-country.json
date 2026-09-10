@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html",
   "slug": "where-indias-forex-goes-country",
   "published": "2026-08-02T13:46:53.000+05:30",
-  "updated": "2026-09-07T19:42:35.590+05:30",
+  "updated": "2026-09-09T08:40:12.631+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 47272,
-  "sha256": "3114c87f239bbd517b5c016d0452887ed43892c023c846adfb04a3d7b0f3be03",
+  "bytes": 48006,
+  "sha256": "1f7f55eee8200972e04f75c92e0e0ea7f5caff44c40009180cfa91f707e32732",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -259,6 +259,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        47272,
+        48006
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

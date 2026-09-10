@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-09-07T19:27:29.354+05:30",
+  "updated": "2026-09-09T08:47:06.346+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 30753,
-  "sha256": "2fb276540aa9a66c9cb3e640f3248b43f49aa9d6f186100193721749514f5311",
+  "bytes": 31812,
+  "sha256": "c204eaff662a319d7e1094fdebe698aa2f168030c05593d0932e4729ca1b84f8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "minor",
+      "reason": "prose grew 17,389→17,814 chars with no new figures",
+      "bytes": [
+        30753,
+        31812
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

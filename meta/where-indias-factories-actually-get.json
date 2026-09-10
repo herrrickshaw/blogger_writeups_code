@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html",
   "slug": "where-indias-factories-actually-get",
   "published": "2026-08-02T12:14:17.000+05:30",
-  "updated": "2026-09-07T19:42:23.058+05:30",
+  "updated": "2026-09-09T08:59:41.716+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 44377,
-  "sha256": "2d76c54cc171430920ec4eaf344baef5cb73f01852469ab4a07f6591994c37d4",
+  "bytes": 45376,
+  "sha256": "42168f4d8e94cbe0fc901a90153e9c7b9c9bfd5b7772d4acd9f17e2fcdc89ff0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -198,6 +198,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        44377,
+        45376
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

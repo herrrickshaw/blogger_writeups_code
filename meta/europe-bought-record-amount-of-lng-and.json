@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-09-07T19:21:57.414+05:30",
+  "updated": "2026-09-10T18:01:39.774+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 42254,
-  "sha256": "b7ebecfce81d0c4250c31752312ea8d6e06c44d44e33ce2e3893459857b3d1de",
+  "bytes": 42117,
+  "sha256": "544c57448563b6406f2117934c1984447ae32c0aea9db70410dabe10d171afcd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.3",
+  "version": "7.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -265,6 +265,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "7.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        42254,
+        42117
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

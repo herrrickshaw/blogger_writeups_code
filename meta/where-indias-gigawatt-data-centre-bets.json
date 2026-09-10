@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
   "slug": "where-indias-gigawatt-data-centre-bets",
   "published": "2026-08-20T21:16:29.000+05:30",
-  "updated": "2026-09-07T19:42:41.351+05:30",
+  "updated": "2026-09-10T15:23:48.849+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Infrastructure & Investment"
   ],
-  "bytes": 25380,
-  "sha256": "164a16688d94d2348fce9d60aa261c62fda80a233db6aa2c26f84eb965e3ba55",
+  "bytes": 25476,
+  "sha256": "5f058e8325950bb656065ef6d04b8b5c3b794a9c9c8e092b6581614f21f4af53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        25380,
+        25476
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

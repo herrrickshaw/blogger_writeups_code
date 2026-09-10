@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-09-07T19:29:15.173+05:30",
+  "updated": "2026-09-10T22:43:46.342+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 19557,
-  "sha256": "794d24197c587df9e78b4809e21c648b2e1e4a652f2a17d605a27cf74a7a6221",
+  "bytes": 21792,
+  "sha256": "b0701a12367f7057c8fc3f4766affbfb08717022f3fd640cc5dd4cd195cafe9c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19557,
+        21792
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,10 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
   "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
   "published": "2026-09-02T10:40:46.000+05:30",
-  "updated": "2026-09-07T19:21:11.494+05:30",
-  "labels": [],
-  "bytes": 47413,
-  "sha256": "95362c2034c827770c9e8dc3b5efbca88a15190596c23c4666165eb9de878f76",
+  "updated": "2026-09-10T22:42:10.756+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Industrial Policy"
+  ],
+  "bytes": 49709,
+  "sha256": "982d79a466b72bafd014add59df01e655343ad9f3a54447a8e51afb71d7a3901",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.3",
+  "version": "1.1.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.1.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        47413,
+        49709
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

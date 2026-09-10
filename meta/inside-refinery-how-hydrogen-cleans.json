@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html",
   "slug": "inside-refinery-how-hydrogen-cleans",
   "published": "2026-08-20T09:33:21.000+05:30",
-  "updated": "2026-09-07T19:30:58.835+05:30",
+  "updated": "2026-09-10T16:26:14.156+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37410,
-  "sha256": "06fc473079eb9793d0f7766d81afe9f95d7e3c2f336e05cf33832a00c1c7e508",
+  "bytes": 37404,
+  "sha256": "1b63588f6190233fa0fccdac54c8e481283e84068e9d55884d9c91630a512a6c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        37410,
+        37404
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
   "slug": "fipis-biggest-ask-is-getting-natural",
   "published": "2026-09-02T03:59:01.000+05:30",
-  "updated": "2026-09-07T19:22:48.383+05:30",
+  "updated": "2026-09-10T22:42:35.483+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 31511,
-  "sha256": "83b82e6976615352440d2090c48490d64093ae554b4face5399aecc92d345301",
+  "bytes": 34307,
+  "sha256": "74efe8686c9e6f3f16f5f48d66270a719a2702e3c6402982ee5ee7977a92d7a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        31511,
+        34307
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
