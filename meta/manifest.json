@@ -12230,13 +12230,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
       "slug": "the-cluster-automotive-piece-left-out",
       "published": "2026-08-15T07:20:21.000+05:30",
-      "updated": "2026-09-07T19:37:45.163+05:30",
+      "updated": "2026-09-10T18:36:41+05:30",
       "labels": [
         "Industrial Policy",
         "Manufacturing"
       ],
       "bytes": 21719,
-      "sha256": "bd48959a374dc0dfbd1002c36fda58d7395e16852367b02cdbe7c679f9637709",
+      "sha256": "1db2901070b7694104672145f917c0fb5c3e5cc0da4d124e4190a4b51d9943bb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -12248,7 +12248,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -12347,6 +12347,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:36:41+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            21719,
+            21719
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the Pithampur-cluster-vs-MP-statewide comparison chart: the legend ('Pithampur cluster'/'Madhya Pradesh (statewide)') was placed in the top-right corner at x=440, well inside the horizontal extent of both the title (ends x=503) and subtitle (ends x=470). The legend's swatches/text, drawn after the title/subtitle, clipped both (found by the new TEXT_HIDDEN_BY_RECT check), and the legend text itself collided with the title/subtitle text. Moved the legend into its own row below the subtitle, laid out left-to-right, clear of both."
         }
       ]
     },
