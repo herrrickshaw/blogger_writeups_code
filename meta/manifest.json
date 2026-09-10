@@ -21280,15 +21280,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
       "slug": "rin-red-and-cbio-what-indias-ethanol",
       "published": "2026-08-13T11:40:24.000+05:30",
-      "updated": "2026-09-09T08:06:11.390+05:30",
+      "updated": "2026-09-10T15:21:27+05:30",
       "labels": [
         "Biofuels",
         "Carbon Markets",
         "Ethanol & Biofuels",
         "India"
       ],
-      "bytes": 39432,
-      "sha256": "2a0187116be65339e4c164d1f8f3bf674dd135d99d7718f4114989e3e6662095",
+      "bytes": 39430,
+      "sha256": "7abbe37d14aa9dfe71a2006e7127180b3819a782bd273a8567814fdd0786e5f5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21300,7 +21300,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21412,6 +21412,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:21:27+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            39432,
+            39430
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -23210,13 +23223,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
       "slug": "india-approved-15-lakh-crore-in",
       "published": "2026-08-25T06:30:48.000+05:30",
-      "updated": "2026-09-09T08:58:58.817+05:30",
+      "updated": "2026-09-10T15:21:33+05:30",
       "labels": [
         "India",
         "Trade & Tariffs"
       ],
-      "bytes": 37389,
-      "sha256": "d003f86130055b787d063117a1201c34191e5dae13175b0b88af8287e0718256",
+      "bytes": 37371,
+      "sha256": "e81accb4dbd7afee3d09dc59454cf5eba4ef7b53ce53acb32a7e5f824bd4f5b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23228,7 +23241,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23301,6 +23314,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T15:21:33+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            37389,
+            37371
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -33408,12 +33434,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
       "slug": "vehicles-out-motors-in-indias-chapter",
       "published": "2026-08-05T12:06:45.000+05:30",
-      "updated": "2026-09-09T09:12:45.493+05:30",
+      "updated": "2026-09-10T15:21:39+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 15490,
-      "sha256": "f9e36f48ac02c81961a3ca02daede89818407241b0e1446baa9bd8ab02832b94",
+      "bytes": 15460,
+      "sha256": "a2ac43e770ea871805e07750a0596d597809a4bfd7e9a125e6905ada066ff1ce",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -33425,7 +33451,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.2",
+      "version": "2.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -33572,6 +33598,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Manual ad units removed from all posts; Auto ads only"
+        },
+        {
+          "version": "2.0.3",
+          "date": "2026-09-10T15:21:39+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            15490,
+            15460
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -35928,12 +35967,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
       "slug": "raising-green-debt-globally-rec-euroyen",
       "published": "2026-08-03T19:10:19.000+05:30",
-      "updated": "2026-09-07T19:34:08.280+05:30",
+      "updated": "2026-09-10T15:21:46+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 66926,
-      "sha256": "1238b225c581cb3bb303f9230dfa2ed90da9fa4dc1294c891f76ca4959f9fae3",
+      "bytes": 67000,
+      "sha256": "99c16e1b645d18a494af3c128506da9755018c0318eb526d501984bf28ed418d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35945,7 +35984,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36166,6 +36205,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:21:46+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            66926,
+            67000
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -40858,12 +40910,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/why-bet-on-one-horse-when-you-can-buy.html",
       "slug": "why-bet-on-one-horse-when-you-can-buy",
       "published": "2026-08-11T14:23:23.000+05:30",
-      "updated": "2026-09-07T19:43:19.552+05:30",
+      "updated": "2026-09-10T15:21:52+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 35292,
-      "sha256": "e374feec2015643ec68fb4e0766f2183b57b160b7f0e6c2cd16e05f2e666ea45",
+      "bytes": 35419,
+      "sha256": "656c53253feeff74a9b23b5b0e38edb582a0f40a860d70f781a47c9859d5a263",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40875,7 +40927,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -41117,6 +41169,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:21:52+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            35292,
+            35419
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -41126,13 +41191,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/south-africa-lost-its-gulf-fuel-supply.html",
       "slug": "south-africa-lost-its-gulf-fuel-supply",
       "published": "2026-08-08T12:55:40.000+05:30",
-      "updated": "2026-09-07T19:35:25.649+05:30",
+      "updated": "2026-09-10T15:21:58+05:30",
       "labels": [
         "Energy & Fuels",
         "Trade & Tariffs"
       ],
-      "bytes": 28936,
-      "sha256": "3694dc681a0dcfdc4cbe2a53c0d4482b5fda6f3338b425aab53f22a69cd59120",
+      "bytes": 28924,
+      "sha256": "b3434dd9a9a25d3174ca68015594ef405b3f39a4ec6a91612f0ac7164b8b51ef",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41144,7 +41209,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -41321,6 +41386,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:21:58+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped dash/entity rendering as literal text",
+          "bytes": [
+            28936,
+            28924
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
