@@ -39637,13 +39637,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html",
       "slug": "cocoas-blockchain-reckoning-one",
       "published": "2026-08-08T21:27:49.000+05:30",
-      "updated": "2026-09-09T08:48:01.107+05:30",
+      "updated": "2026-09-10T18:22:57+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 25567,
-      "sha256": "38f7bdab12a89511a148dad8eb23063353cd2a2c02a1b9a1e00f81e9a463321b",
+      "bytes": 25509,
+      "sha256": "ff60f1de47dbab1437fd38ea96b7abfcaaab480697e69553bcd84ceea940d040",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -39655,7 +39655,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39871,6 +39871,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:22:57+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            25567,
+            25509
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the MiCacao farmer-figures grouped-bar chart: the tallest bar's top (male, 'Trained in tool', 3,360) sat at y=69, almost exactly where the legend row ('Male farmers'/'Female farmers', y=70-84) sits, so the legend's opaque bar (drawn after it in source) clipped 'Male farmers' by 31px, and the bar's own value label collided with the subtitle 32px away. Rescaled the whole y-axis (max bar top raised from y=69 to y=115) so the tallest bar and its label clear both the legend and the subtitle with comfortable margin; recomputed all six bars' heights/tops and value-label positions proportionally to preserve the same visual scale relationships. Also removed a dead, invalid <rect> (negative height, a leftover duplicate of the correctly-drawn bar immediately below it) that had no rendering effect but was confusing cruft."
         }
       ]
     },
