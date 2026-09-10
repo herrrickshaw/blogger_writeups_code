@@ -4243,12 +4243,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-09-07T19:18:15.218+05:30",
+      "updated": "2026-09-10T16:28:29+05:30",
       "labels": [
         "AI Tracker"
       ],
-      "bytes": 39014,
-      "sha256": "bd761c29e3bd0f55cab993f278cbfa6c4cec5e35b8b7a0b05f693735d2867ae8",
+      "bytes": 39004,
+      "sha256": "47c519a4c84cd4733294e4f643c8f81c856037af6fab3f6df21a2cac348e17cf",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -4260,7 +4260,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.3",
+      "version": "4.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4525,6 +4525,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "4.0.4",
+          "date": "2026-09-10T16:28:29+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped middot entities, which resolved a subtitle overflow as a side effect",
+          "bytes": [
+            39014,
+            39004
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -6875,13 +6888,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
       "slug": "announced-vs-delivered-three-indian",
       "published": "2026-08-02T18:31:16.000+05:30",
-      "updated": "2026-09-09T12:37:51.333+05:30",
+      "updated": "2026-09-10T16:29:28+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 50075,
-      "sha256": "082eda24f6c7e9c424ad5a08d9826cafff714dd32d8568c708b30a0782b3cd51",
+      "bytes": 50427,
+      "sha256": "878a8874a94b00a73684e6c6e5f99d6529a0fad4d4845cb777bb8494b63603eb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6893,7 +6906,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7135,6 +7148,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T16:29:28+05:30",
+          "level": "patch",
+          "reason": "fixed chart: source caption overflowing both canvas edges, wrapped to two lines",
+          "bytes": [
+            50075,
+            50427
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
