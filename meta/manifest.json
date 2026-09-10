@@ -47010,13 +47010,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html",
       "slug": "endoscopes-never-made-indias-pli-list",
       "published": "2026-09-10T10:10:12.000+05:30",
-      "updated": "2026-09-10T10:10:12.000+05:30",
+      "updated": "2026-09-10T10:37:24+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 20730,
-      "sha256": "09ceb2db60c2f41d20bb35ef358bab710329bd7347495941cd3c583a02edeb0c",
+      "bytes": 22778,
+      "sha256": "f9c56843ce4c5adf27a9f4357891e2efe98749dd63a3b89f8a5a5fc8458e9314",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -47028,7 +47028,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -47036,6 +47036,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "new post"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-10T10:37:24+05:30",
+          "level": "major",
+          "reason": "added new-technology section: capsule endoscopy, disposable scopes, AI-CADe systems (+3 distinct claims)",
+          "bytes": [
+            20730,
+            22778
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     }
