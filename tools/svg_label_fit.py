@@ -24,7 +24,7 @@ MIN_FONT_SIZE = 8.0
 
 
 def text_width(s, font_size, bold=True):
-    s = re.sub(r'&\w+;', 'X', s)
+    s = re.sub(r'&#\d+;|&#x[0-9a-fA-F]+;|&\w+;', 'X', s)
     w = sum(CHAR_W.get(ch, DEFAULT_W) for ch in s) * font_size
     return w * BOLD_BUMP if bold else w
 

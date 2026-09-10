@@ -55,7 +55,7 @@ BOLD_BUMP = 1.08  # font-weight >= 600 renders a touch wider
 
 
 def text_width(s, font_size, weight_bold):
-    s = re.sub(r'&\w+;', 'X', s)  # entities ~1 glyph each
+    s = re.sub(r'&#\d+;|&#x[0-9a-fA-F]+;|&\w+;', 'X', s)  # entities ~1 glyph each
     w = sum(CHAR_W.get(ch, DEFAULT_W) for ch in s) * font_size
     return w * BOLD_BUMP if weight_bold else w
 
@@ -128,18 +128,63 @@ def text_lines(attrs, content, css_classes=None, font_size_default=11):
             return []
         return [_one_line_bbox(x, y, anchor, fs, bold, plain)]
 
-    out = []
-    cur_y = y
+    # A tspan with an explicit x is a genuine new line (the line-wrap pattern
+    # this codebase's own wrap_svg_text produces). A tspan with no x is
+    # inline run-styling -- bold/colored words inside one running line -- and
+    # must be measured as part of that line's total width, not its own line,
+    # or two run-styled words on the same sentence look like a "collision."
+    segments = []  # list of (start, end, is_tspan, attrs_or_None)
+    prev_end = 0
     for tm in tspans:
-        t_attrs = parse_attrs(tm.group(1))
-        t_x = float(t_attrs['x']) if 'x' in t_attrs else x
-        if 'dy' in t_attrs:
-            cur_y += float(t_attrs['dy'])
-        elif 'y' in t_attrs:
-            cur_y = float(t_attrs['y'])
-        plain = TAG_RE.sub('', tm.group(2)).strip()
-        if plain:
-            out.append(_one_line_bbox(t_x, cur_y, anchor, fs, bold, plain))
+        if tm.start() > prev_end:
+            segments.append((prev_end, tm.start(), False, None))
+        segments.append((tm.start(), tm.end(), True, tm))
+        prev_end = tm.end()
+    if prev_end < len(content):
+        segments.append((prev_end, len(content), False, None))
+
+    lines = []  # each: {'x': , 'y': , 'parts': [(text, bold)]}
+    cur = None
+    cur_y = y
+    for seg_start, seg_end, is_tspan, tm in segments:
+        if is_tspan:
+            t_attrs = parse_attrs(tm.group(1))
+            t_bold = bold
+            if 'font-weight' in t_attrs:
+                t_bold = t_attrs['font-weight'] in ('600', '700', 'bold', '800', '900')
+            if 'dy' in t_attrs:
+                cur_y += float(t_attrs['dy'])
+            elif 'y' in t_attrs:
+                cur_y = float(t_attrs['y'])
+            if 'x' in t_attrs or cur is None:
+                t_x = float(t_attrs['x']) if 'x' in t_attrs else x
+                cur = {'x': t_x, 'y': cur_y, 'parts': []}
+                lines.append(cur)
+            text = TAG_RE.sub('', tm.group(2))
+            cur['parts'].append((text, t_bold))
+        else:
+            text = content[seg_start:seg_end]
+            if not text.strip():
+                continue
+            if cur is None:
+                cur = {'x': x, 'y': cur_y, 'parts': []}
+                lines.append(cur)
+            cur['parts'].append((text, bold))
+
+    out = []
+    for line in lines:
+        full_text = ''.join(t for t, _ in line['parts']).strip()
+        if not full_text:
+            continue
+        w = sum(text_width(t, fs, b) for t, b in line['parts'])
+        lx = line['x']
+        if anchor == 'end':
+            x0, x1 = lx - w, lx
+        elif anchor == 'middle':
+            x0, x1 = lx - w / 2, lx + w / 2
+        else:
+            x0, x1 = lx, lx + w
+        out.append((x0, x1, line['y'], fs, full_text))
     return out
 
 
