@@ -29,6 +29,41 @@ def text_width(s, font_size, bold=True):
     return w * BOLD_BUMP if bold else w
 
 
+def wrap_text_lines(text, max_width, font_size, bold=False):
+    """Greedy word-wrap into lines that each fit max_width at font_size.
+    Returns a list of line strings (never splits a single word, so a word
+    wider than max_width on its own still gets its own line rather than
+    being dropped or overflowing silently -- caller should still watch for
+    that degenerate case with very small max_width)."""
+    words = text.split(' ')
+    lines, cur = [], ''
+    for w in words:
+        trial = (cur + ' ' + w).strip()
+        if cur and text_width(trial, font_size, bold) > max_width:
+            lines.append(cur)
+            cur = w
+        else:
+            cur = trial
+    if cur:
+        lines.append(cur)
+    return lines
+
+
+def wrap_svg_text(x, y, text, max_width, font_size, anchor='middle',
+                   line_height=None, bold=False):
+    """Build a multi-line SVG <text> (with <tspan> per line) that fits
+    max_width, replacing a single too-long line. y is the baseline of the
+    FIRST line; subsequent lines step down by line_height (default 1.25em)."""
+    if line_height is None:
+        line_height = font_size * 1.25
+    lines = wrap_text_lines(text, max_width, font_size, bold)
+    tspans = ''.join(
+        f'<tspan x="{x}" dy="{0 if i == 0 else line_height}">{line}</tspan>'
+        for i, line in enumerate(lines)
+    )
+    return f'<text x="{x}" y="{y}" text-anchor="{anchor}" font-size="{font_size}">{tspans}</text>', len(lines)
+
+
 def fit_value_label(label, bar_x0, bar_x1, canvas_x0, canvas_x1, direction,
                      font_size=11.0, pad_outside=6.0, pad_inside=4.0):
     """Decide where a bar's value label goes and at what size.

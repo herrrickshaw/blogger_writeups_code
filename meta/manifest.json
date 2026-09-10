@@ -23297,13 +23297,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html",
       "slug": "the-currency-rupee-trends-piece-left",
       "published": "2026-08-14T18:48:54.000+05:30",
-      "updated": "2026-09-07T19:37:57.745+05:30",
+      "updated": "2026-09-10T15:08:03+05:30",
       "labels": [
         "Currency Markets",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 35683,
-      "sha256": "1d1c1869fb3a8bf636ee2e6ad6c4cfa35fbe11c1819d81bf0d49897b805ef7d2",
+      "bytes": 35742,
+      "sha256": "5169a6feba62057856dc206fd86eed4ae56d60431d77e69b6290cf580efc29b2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23315,7 +23315,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23401,6 +23401,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:08:03+05:30",
+          "level": "patch",
+          "reason": "fixed chart: value-label/subtitle collision, caption overflow, double-escaped minus sign",
+          "bytes": [
+            35683,
+            35742
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -23793,14 +23806,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
       "slug": "indias-coal-to-chemicals-menu-ranked-by",
       "published": "2026-08-27T03:43:38.000+05:30",
-      "updated": "2026-09-07T19:28:01.427+05:30",
+      "updated": "2026-09-10T15:04:12+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 61998,
-      "sha256": "8fb8a2a9f65f8bf6675de3612349b0d9b47b2c0ab8622a3a59e4e844c0bc018d",
+      "bytes": 62130,
+      "sha256": "2fe9801adfe3c245cccc75dc632e16b1d78fb7d776eb5b00e68e613fe5e9a20d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23812,7 +23825,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23872,6 +23885,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:04:12+05:30",
+          "level": "patch",
+          "reason": "fixed chart: 2 caption lines overflowing canvas edges, wrapped to fit",
+          "bytes": [
+            61998,
+            62130
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -29105,14 +29131,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
       "slug": "india-will-finance-waste-to-energy",
       "published": "2026-08-26T20:20:49.000+05:30",
-      "updated": "2026-09-09T08:07:20.109+05:30",
+      "updated": "2026-09-10T15:04:05+05:30",
       "labels": [
         "Circularity & Waste-to-Value",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 37763,
-      "sha256": "a7440214d889a1fbb821725223ba7c24414dc9b7fe9c4341447fab28a3d2cb3d",
+      "bytes": 37919,
+      "sha256": "c7156e3ff307ed6f71d7b1518ca0789b6eea705467a1ec1e0e7a360137910037",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29124,7 +29150,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29171,6 +29197,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-09-10T15:04:05+05:30",
+          "level": "patch",
+          "reason": "fixed chart: 2 caption lines overflowing canvas edges, wrapped to fit",
+          "bytes": [
+            37763,
+            37919
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -34653,12 +34692,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/financing-fuel-to-chemicals-pivot-how.html",
       "slug": "financing-fuel-to-chemicals-pivot-how",
       "published": "2026-08-14T11:33:51.000+05:30",
-      "updated": "2026-09-07T19:22:42.283+05:30",
+      "updated": "2026-09-10T15:08:09+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 25049,
-      "sha256": "093162cc141797ce9c73aac08dc4bb81aa098d04821e727b191ef69ec624df3d",
+      "bytes": 25095,
+      "sha256": "05e0164245ece4f1e446ba608ba6311ffe9fd57f4f815d48a744476f8f269915",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34670,7 +34709,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34769,6 +34808,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:08:09+05:30",
+          "level": "patch",
+          "reason": "fixed chart: 3 bar-label overflows past canvas edge, double-escaped dash entities",
+          "bytes": [
+            25049,
+            25095
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -42616,14 +42668,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-hydrogen-bill-hiding-inside-indias.html",
       "slug": "the-hydrogen-bill-hiding-inside-indias",
       "published": "2026-08-26T19:10:24.000+05:30",
-      "updated": "2026-09-07T19:38:48.230+05:30",
+      "updated": "2026-09-10T15:03:59+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "Industrial Policy"
       ],
-      "bytes": 42283,
-      "sha256": "6b36410758092b0536ef8a52b966fe724bc76858622079e4b3425664ab479537",
+      "bytes": 42469,
+      "sha256": "56e8aef009590f9e2197f2469a6a337cc7731478edeceb92f5ed22a52c1a4c08",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -42635,7 +42687,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -42682,6 +42734,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-09-10T15:03:59+05:30",
+          "level": "patch",
+          "reason": "fixed chart: 3 caption lines overflowing canvas edges, wrapped to fit",
+          "bytes": [
+            42283,
+            42469
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -43887,14 +43952,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html",
       "slug": "chemical-import-substitution-full-hsn-8_01082878313",
       "published": "2026-08-05T09:00:00.000+05:30",
-      "updated": "2026-09-07T19:20:10.552+05:30",
+      "updated": "2026-09-10T15:08:15+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution",
         "Trade & Tariffs"
       ],
-      "bytes": 386875,
-      "sha256": "81eaa9fad1e3dff2c65ff64605d29871e9580294db08e1d69097eafeb186631f",
+      "bytes": 387065,
+      "sha256": "8757b9258e8a80e4075e710c068ea118531619ce02b7b6b73b0ac8d94ddf9975",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -43906,7 +43971,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44127,6 +44192,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T15:08:15+05:30",
+          "level": "patch",
+          "reason": "fixed chart: 3 bar-label overflows past canvas edge",
+          "bytes": [
+            386875,
+            387065
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },

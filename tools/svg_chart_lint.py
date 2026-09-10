@@ -31,6 +31,9 @@ import sys
 TEXT_RE = re.compile(
     r'<text\b([^>]*)>(.*?)</text>', re.S
 )
+TSPAN_RE = re.compile(
+    r'<tspan\b([^>]*)>(.*?)</tspan>', re.S
+)
 ATTR_RE = re.compile(r'([\w:-]+)\s*=\s*"([^"]*)"')
 SVG_RE = re.compile(
     r'<svg\b([^>]*)>(.*?)</svg>', re.S
@@ -61,13 +64,40 @@ def parse_attrs(attr_str):
     return dict(ATTR_RE.findall(attr_str))
 
 
-def text_bbox(attrs, content, font_size_default=11):
-    x = float(attrs.get('x', 0))
-    fs = float(attrs.get('font-size', font_size_default))
-    weight = attrs.get('font-weight', '400')
-    bold = weight in ('600', '700', 'bold', '800', '900')
-    anchor = attrs.get('text-anchor', 'start')
-    plain = TAG_RE.sub('', content).strip()
+CSS_RULE_RE = re.compile(r'\.([\w-]+)\s*\{([^}]*)\}')
+STYLE_BLOCK_RE = re.compile(r'<style\b[^>]*>(.*?)</style>', re.S)
+STYLE_PROP_RE = re.compile(r'([\w-]+)\s*:\s*([^;]+)')
+
+
+def parse_css_classes(html):
+    """Collect .classname{prop:value;...} rules from every <style> block in
+    the file -- charts commonly set font-size/text-anchor/font-weight this
+    way via class="sb-s" etc. rather than as XML attributes, which a linter
+    that only reads tag attributes would otherwise miss entirely."""
+    classes = {}
+    for sm in STYLE_BLOCK_RE.finditer(html):
+        for cm in CSS_RULE_RE.finditer(sm.group(1)):
+            name, body = cm.group(1), cm.group(2)
+            props = dict(STYLE_PROP_RE.findall(body))
+            classes.setdefault(name, {}).update({k: v.strip() for k, v in props.items()})
+    return classes
+
+
+def resolve_style(attrs, css_classes):
+    """Merge (lowest to highest priority): SVG <style> .class rules, inline
+    style="...", then direct XML attributes -- into one flat style dict."""
+    resolved = {}
+    for cls in attrs.get('class', '').split():
+        resolved.update(css_classes.get(cls, {}))
+    if 'style' in attrs:
+        resolved.update({k: v.strip() for k, v in STYLE_PROP_RE.findall(attrs['style'])})
+    for key in ('font-size', 'text-anchor', 'font-weight', 'fill'):
+        if key in attrs:
+            resolved[key] = attrs[key]
+    return resolved
+
+
+def _one_line_bbox(x, y, anchor, fs, bold, plain):
     w = text_width(plain, fs, bold)
     if anchor == 'end':
         x0, x1 = x - w, x
@@ -75,8 +105,42 @@ def text_bbox(attrs, content, font_size_default=11):
         x0, x1 = x - w / 2, x + w / 2
     else:
         x0, x1 = x, x + w
-    y = float(attrs.get('y', 0))
     return x0, x1, y, fs, plain
+
+
+def text_lines(attrs, content, css_classes=None, font_size_default=11):
+    """Return a list of (x0, x1, y, font_size, plain_text) -- one per line.
+    A <text> with <tspan> children (the multi-line-wrap pattern) yields one
+    entry per tspan, using each tspan's own x/dy if given, else the parent's;
+    a plain <text> yields a single entry."""
+    style = resolve_style(attrs, css_classes or {})
+    x = float(attrs.get('x', 0))
+    y = float(attrs.get('y', 0))
+    fs = float(style.get('font-size', f'{font_size_default}px').rstrip('px'))
+    weight = style.get('font-weight', '400')
+    bold = weight in ('600', '700', 'bold', '800', '900')
+    anchor = style.get('text-anchor', 'start')
+
+    tspans = list(TSPAN_RE.finditer(content))
+    if not tspans:
+        plain = TAG_RE.sub('', content).strip()
+        if not plain:
+            return []
+        return [_one_line_bbox(x, y, anchor, fs, bold, plain)]
+
+    out = []
+    cur_y = y
+    for tm in tspans:
+        t_attrs = parse_attrs(tm.group(1))
+        t_x = float(t_attrs['x']) if 'x' in t_attrs else x
+        if 'dy' in t_attrs:
+            cur_y += float(t_attrs['dy'])
+        elif 'y' in t_attrs:
+            cur_y = float(t_attrs['y'])
+        plain = TAG_RE.sub('', tm.group(2)).strip()
+        if plain:
+            out.append(_one_line_bbox(t_x, cur_y, anchor, fs, bold, plain))
+    return out
 
 
 def find_charts(html):
@@ -93,17 +157,20 @@ def find_charts(html):
         yield m.start(), vb_x0, vb_x0 + vb_w, vb_y0, vb_y0 + vb_h, m.group(2)
 
 
-def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner):
+def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes=None):
     issues = []
     texts = []
     for tm in TEXT_RE.finditer(inner):
         attrs = parse_attrs(tm.group(1))
         if 'x' not in attrs or 'y' not in attrs:
             continue
-        x0, x1, y, fs, plain = text_bbox(attrs, tm.group(2))
-        if not plain:
+        if 'rotate' in attrs.get('transform', ''):
+            # Rotated text (angled tick labels, vertical axis titles) doesn't
+            # occupy a horizontal bbox the way this linter assumes -- skip
+            # it rather than produce a false collision/overflow report.
             continue
-        texts.append((x0, x1, y, fs, plain, tm.start()))
+        for x0, x1, y, fs, plain in text_lines(attrs, tm.group(2), css_classes):
+            texts.append((x0, x1, y, fs, plain, tm.start()))
 
     # overflow: bbox outside the declared canvas (with a tiny 1px tolerance)
     for x0, x1, y, fs, plain, pos in texts:
@@ -141,9 +208,10 @@ def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner):
 
 def lint_file(path):
     html = open(path, encoding='utf-8').read()
+    css_classes = parse_css_classes(html)
     results = []
     for _, vb_x0, vb_x1, vb_y0, vb_y1, inner in find_charts(html):
-        issues = lint_svg(0, vb_x0, vb_x1, vb_y0, vb_y1, inner)
+        issues = lint_svg(0, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes)
         if issues:
             results.append({'viewBox': [vb_x0, vb_y0, vb_x1 - vb_x0, vb_y1 - vb_y0], 'issues': issues})
     return results

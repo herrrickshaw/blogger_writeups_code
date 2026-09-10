@@ -16,6 +16,22 @@ import re
 from playwright.sync_api import sync_playwright
 
 FIGURE_RE = re.compile(r'<figure\b[^>]*>.*?</figure>', re.S)
+SVG_RE = re.compile(r'<svg\b[^>]*>.*?</svg>', re.S)
+
+
+def find_blocks(html):
+    """Every <figure> block, plus any bare <svg> not already inside one of
+    those figures (some posts drop a chart straight into a <div> instead)."""
+    figures = FIGURE_RE.findall(html)
+    covered_spans = [m.span() for m in FIGURE_RE.finditer(html)]
+
+    def inside_a_figure(pos):
+        return any(a <= pos < b for a, b in covered_spans)
+
+    extra_svgs = [m.group(0) for m in SVG_RE.finditer(html) if not inside_a_figure(m.start())]
+    return figures + extra_svgs
+
+
 CHROMIUM_CANDIDATES = [
     '/opt/pw-browsers/chromium-1194/chrome-linux/chrome',
 ]
@@ -68,9 +84,9 @@ def main():
         print(f'wrote {args.out or (args.post + ".png")}')
         return
 
-    figures = FIGURE_RE.findall(html)
+    figures = find_blocks(html)
     if not figures:
-        raise SystemExit(f'no <figure> blocks found in {args.post}')
+        raise SystemExit(f'no <figure> or bare <svg> blocks found in {args.post}')
 
     if args.all:
         outdir = args.outdir or '.'
