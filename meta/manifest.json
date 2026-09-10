@@ -1,6 +1,6 @@
 {
   "snapshot": "2026-09-09T07:33:09+00:00",
-  "count": 266,
+  "count": 267,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -2939,13 +2939,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
       "slug": "pli-medical-devices-coverage-and-gaps",
       "published": "2026-08-05T05:27:53.000+05:30",
-      "updated": "2026-09-07T19:33:15.816+05:30",
+      "updated": "2026-09-10T10:15:00.000+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 21064,
-      "sha256": "a0cbca6ee5e082184519ae5d3bec961d230b68130fd17eaa3ed7bfa821e319fa",
+      "bytes": 21374,
+      "sha256": "fdc2be9de73fb98d4f39a83fefb8446a2159fbc3879e9a2122ef0275ac2cc3a6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -2957,7 +2957,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3156,6 +3156,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T10:15:00+05:30",
+          "level": "patch",
+          "reason": "cross-link added to new endoscopes-PLI-gap companion post",
+          "bytes": [
+            21064,
+            21374
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -10996,13 +11009,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-medical-device-trade-gap-and.html",
       "slug": "indias-medical-device-trade-gap-and",
       "published": "2026-08-05T05:24:27.000+05:30",
-      "updated": "2026-09-07T19:29:08.968+05:30",
+      "updated": "2026-09-10T10:15:00.000+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 25684,
-      "sha256": "870f3486ce7172ebc96be595d64221cff1eebe14a27dcd0eeec6d34dd56473c1",
+      "bytes": 25813,
+      "sha256": "45f1e794de4eaa119f5e89b6783c2688648191401cfc136e5751e62a13e17abc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -11014,7 +11027,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11213,6 +11226,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T10:15:00+05:30",
+          "level": "patch",
+          "reason": "cross-link added to new endoscopes-PLI-gap companion post",
+          "bytes": [
+            25684,
+            25813
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -29079,10 +29105,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-10T08:35:00+05:30",
+      "updated": "2026-09-10T10:13:17+05:30",
       "labels": [],
-      "bytes": 334244,
-      "sha256": "0c7ff4134150b3b92c4b3a108bf12aee95481ca451fb2421d7d3c6f6dca688b4",
+      "bytes": 335111,
+      "sha256": "2dc8d635052d670af8c7195388a8cdd7727f046c792b05968039217042a08ac1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29094,7 +29120,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "46.0.0",
+      "version": "46.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -30597,6 +30623,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "46.0.1",
+          "date": "2026-09-10T10:13:17+05:30",
+          "level": "minor",
+          "reason": "rebuilt index for +1 new post",
+          "bytes": [
+            334244,
+            335111
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -46959,6 +46998,41 @@
         {
           "version": "1.0.0",
           "date": "2026-09-10T08:27:41+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "new post"
+        }
+      ]
+    },
+    "8076594745342473233": {
+      "id": "8076594745342473233",
+      "title": "Endoscopes Never Made India's PLI List. At 57% Export Coverage, They Didn't Need To.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html",
+      "slug": "endoscopes-never-made-indias-pli-list",
+      "published": "2026-09-10T10:10:12.000+05:30",
+      "updated": "2026-09-10T10:10:12.000+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
+      "bytes": 20730,
+      "sha256": "09ceb2db60c2f41d20bb35ef358bab710329bd7347495941cd3c583a02edeb0c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-10T10:10:12+05:30",
           "level": "initial",
           "reason": "first snapshot",
           "note": "new post"
