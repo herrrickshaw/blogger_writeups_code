@@ -123,6 +123,23 @@ OVERRIDE = {
     # kicker + inline-styled div), self-declares "Protected Cultivation .
     # Adaptive Reuse" -- polyhouse/greenhouse economics.
     "the-empty-shed-greenhouse-what-indias": ["Agriculture & Fertilisers"],
+    # Live posts the heading scorer left unlabelled (AdSense/navigation pass,
+    # Sept 2026): hand-assigned from the article subject so every post sits in
+    # at least one topic hub. Suffixed slugs are the surviving copies after the
+    # duplicate clean-up.
+    "a-million-wine-market-behind-150-wall": ["Trade & Tariffs", "Agriculture & Fertilisers"],
+    "brandsafway-and-2017-roll-up-wave-that": ["Markets & Finance", "Industrial Policy"],
+    "brazil-pumps-e30-at-every-station": ["Energy & Fuels", "Mobility & EV"],
+    "dgh-has-awarded-172-oalp-blocks-and-436_0369361351": ["Energy & Fuels", "Industrial Policy"],
+    "indias-oil-psus-say-they-clear-their_01269248608": ["Energy & Fuels", "Industrial Policy"],
+    "interpreting-gazette-notification": ["Industrial Policy", "Trade & Tariffs"],
+    "one-nation-one-ration-card-doesnt-move": ["Agriculture & Fertilisers", "Energy & Fuels"],
+    "right-of-user-what-indias-pipeline": ["Gas & LNG", "Energy & Fuels"],
+    "tech-for-business-so-2019-tech-as": ["Markets & Finance"],
+    "textbooks-say-project-returns-converge": ["Markets & Finance"],
+    "the-1920s-rotor-thats-now-on-22-real": ["Climate & Carbon", "Energy & Fuels"],
+    "uk-retail-canopies-at-54m-real-design": ["Energy & Fuels"],
+    "where-indias-fdi-actually-lands-state": ["Markets & Finance", "Industrial Policy"],
 }
 
 

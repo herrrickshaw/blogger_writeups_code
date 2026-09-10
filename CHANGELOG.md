@@ -10411,6 +10411,48 @@ Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts
 - `india-trade-sector-policy` — 20,842 → 19,923 bytes (-919)
 - `tech-for-business-so-2019-tech-as` — 32,173 → 32,079 bytes (-94)
 
+## 2026-09-08T07:24:41+00:00 — 262 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `article-index-start-here` **45.3.1 → 46.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+- `the-fearless-girls-charter-indias` **1.0.16 → 1.0.17** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `article-index-start-here` — 322,124 → 326,897 bytes (+4,773)
+- `the-fearless-girls-charter-indias` — 26,999 → 28,233 bytes (+1,234)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `pngrb-wants-prepaid-smart-meters-on` — 2026-09-08 &rarr; 2026-09-08
+- `pngrbs-own-committee-found-pipelines` — 2026-09-08 &rarr; 2026-09-08
+- `mapping-indias-other-pipelines-every` — 2026-09-08 &rarr; 2026-09-08
+- `india-is-piping-jet-fuel-to-five-new` — 2026-09-08 &rarr; 2026-09-08
+- `indias-gas-pipelines-run-at-half` — 2026-09-08 &rarr; 2026-09-08
+
+## 2026-09-09T07:33:09+00:00 — 265 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `fourteen-states-reimburse-investors` — 2026-09-09 &rarr; 2026-09-09
+- `pngrbs-own-2025-committee-now-expects` — 2026-09-09 &rarr; 2026-09-09
+- `a-2013-vision-saw-india-needing-746` — 2026-09-09 &rarr; 2026-09-09
+
+## 2026-09-10T07:29:28+00:00 — 267 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-draft-seeds-bill-cuts-states` — 2026-09-10 &rarr; 2026-09-10
 ## 2026-09-10T22:54:22+05:30 — 267 posts live
 
 **Added**

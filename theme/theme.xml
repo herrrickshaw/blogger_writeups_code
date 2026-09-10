@@ -16,6 +16,12 @@
 
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <meta content='#0B1F2D' name='theme-color'/>
+<!-- Archive, search and label listings are auto-generated snippet pages: keep
+     them out of the index (they stay fully usable) so crawlers and reviewers
+     judge the site on its articles and pages, not on hundreds of thin lists. -->
+<b:if cond='data:view.isArchive or data:view.isSearch or data:view.isLabelSearch or data:view.isError'>
+  <meta content='noindex,follow' name='robots'/>
+</b:if>
 <b:include data='blog' name='all-head-content'/>
 <!-- data:blog.pageTitle is "<blog name>: <post title>". Google shows ~55-60
      characters, and the blog name eats 31 of them on every single post. On a
@@ -1132,10 +1138,9 @@ SEBI, NSE/BSE and SEC filings for company data.</p>
 <p style="margin:0;font-size:.85rem;color:var(--ink-soft);max-width:80ch">
 <strong style="color:var(--ink)">Interpretation.</strong> Figures carry their vintage and retrieval
 date; estimates and press-reported numbers are labelled as such; where sources disagree, both are
-shown. Corrections are made visibly, never silently. Articles are researched, written and edited by
-the author with AI research assistance; how sourcing, AI use and corrections work is set out in the
-<a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a>. Verify any number
-that matters to a decision against the linked primary source.</p>
+shown. Corrections are made visibly, never silently. Articles are written with AI assistance from
+the cited sources &#8212; AI-generated text can misstate figures even when working from real material,
+so verify any number that matters to a decision against the linked primary source.</p>
 </div>]]></b:widget-setting>
       </b:widget-settings>
       <b:includable id='main'>
@@ -1181,7 +1186,7 @@ that matters to a decision against the linked primary source.</p>
     <b:section id='footer' showaddelement='yes'>
       <b:widget id='Attribution1' locked='false' title='' type='Attribution'>
         <b:widget-settings>
-          <b:widget-setting name='copyright'/>
+          <b:widget-setting name='copyright'>&#169; 2019&#8211;2026 Masala Deutsch &#183; Umashankar Triplicane Dwarakanathan. Text and original charts may be quoted with attribution and a link.</b:widget-setting>
         </b:widget-settings>
         <b:includable id='main'>
     <nav aria-label='Site policies' class='site-foot-links' style='text-align:center;font-family:-apple-system,BlinkMacSystemFont,&apos;Segoe UI&apos;,Helvetica,Arial,sans-serif;font-size:.82rem;margin:0 0 .8rem;'>
@@ -1189,6 +1194,7 @@ that matters to a decision against the linked primary source.</p>
       <a href='https://masaladeutsch.blogspot.com/p/contact.html' style='margin:0 .6rem;'>Contact</a>
       <a href='https://masaladeutsch.blogspot.com/p/privacy-policy.html' style='margin:0 .6rem;'>Privacy Policy</a>
       <a href='https://masaladeutsch.blogspot.com/p/disclaimer.html' style='margin:0 .6rem;'>Editorial Policy &amp; Disclaimer</a>
+      <a href='https://masaladeutsch.blogspot.com/p/terms.html' style='margin:0 .6rem;'>Terms of Use</a>
       <a href='https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html' style='margin:0 .6rem;'>Article Index</a>
     </nav>
     <div class='widget-content' style='text-align: center;'>
