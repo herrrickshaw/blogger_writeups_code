@@ -28535,14 +28535,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
       "slug": "fy2025-26-sample-report-india-trade",
       "published": "2026-08-02T13:59:21.000+05:30",
-      "updated": "2026-09-09T08:39:45.954+05:30",
+      "updated": "2026-09-10T18:24:50+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "Trade & Tariffs"
       ],
-      "bytes": 39098,
-      "sha256": "eec0b12118d8ee69525678eb919a0a3f1c8a91fc0306d1609ab62c48d0254c05",
+      "bytes": 39152,
+      "sha256": "0b114e882b596b3a792fd0b0e5818fec41728b5b0765b4b5518afbd5f41d3ad1",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -28554,7 +28554,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -28788,6 +28788,19 @@
             ]
           },
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:24:50+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            39098,
+            39152
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the exports/imports/deficit summary bar chart: the Imports bar (the tallest, $776,013.7M) had its top at y=55, right through the subtitle (y=58, clipped 120px by the opaque bar drawn after it) and its value label collided with the title 65.8px away. Rescaled the y-axis (max bar top raised from y=55 to y=98) so the tallest bar and its label clear both the title and subtitle; recomputed all three bars' heights/tops and value-label positions proportionally. Also removed a dead, zero-height duplicate <rect> under the Exports bar (no rendering effect, leftover cruft)."
         }
       ]
     },
