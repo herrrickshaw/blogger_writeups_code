@@ -40450,13 +40450,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html",
       "slug": "the-national-beekeeping-honey-mission",
       "published": "2026-08-20T05:42:27.000+05:30",
-      "updated": "2026-09-09T08:13:32.396+05:30",
+      "updated": "2026-09-10T18:38:53+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Agriculture & Food Processing"
       ],
-      "bytes": 28717,
-      "sha256": "2d7340e3b3561bc209772028178005a7e9999ece8b923bf6b29b889c30cb88bd",
+      "bytes": 28796,
+      "sha256": "fc303397b5e9376d14f6871fcc21665ea427e29aaa4a86afe5fe97284cc2f98c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -40468,7 +40468,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40554,6 +40554,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:38:53+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            28717,
+            28796
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Multiple chart-layout fixes on the honey-exports two-panel stat chart. The FY2023-24 volume bar's top was at y=45, above both its own panel header ('EXPORT VOLUME', y=90, clipped 40px by the opaque bar drawn after it) and the chart's title/subtitle (colliding 58.8px with the title); the FY2023-24 value bar similarly clipped its own 'EXPORT VALUE' header by 9.4px. Found by the new TEXT_HIDDEN_BY_RECT check plus the existing collision check. Rescaled both panels' bars into the space below their headers (new max bar top y=110, was y=45/65) so neither panel's tallest bar reaches its own header or the title/subtitle; recomputed all four bars' heights/tops and value-label positions proportionally. Also wrapped the bottom source line, which overflowed the canvas by 3.9px, into two lines and grew canvas height 380->392 to fit."
         }
       ]
     },
