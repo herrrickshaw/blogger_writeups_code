@@ -1,4 +1,4 @@
-# Language audit summary — 2026-09-09
+# Language audit summary — 2026-09-10
 
 *119 of 266 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
@@ -31,6 +31,7 @@
 - [Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price](https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html) — 5 matches — see `inside-refinery-how-hydrogen-cleans.md`
 - [57.4 GW and Counting: India's Wind Fleet, State by State, Against What NIWE Says Is Actually There](https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html) — 4 matches — see `574-gw-and-counting-indias-wind-fleet.md`
 - [One Nation One Ration Card Doesn't Move Grain. FCI's Ethanol Tenders Move a Lot of It](https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html) — 4 matches — see `one-nation-one-ration-card-doesnt-move.md`
+- [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_01251035403.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_01251035403.md`
 - [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane_0974259386.html) — 4 matches — see `tnpl-has-made-paper-from-sugarcane_0974259386.md`
 - [Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending](https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html) — 3 matches — see `annadata-to-urjadata-farmer-income-case.md`
@@ -43,6 +44,7 @@
 - [Petroleum Trade Pairings and the US Crude Storage Picture](https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html) — 3 matches — see `petroleum-trade-pairings-and-us-crude.md`
 - [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html) — 3 matches — see `pngrb-hydrogen-blending-pilots-real.md`
 - [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
+- [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 3 matches — see `the-detergent-chemical-india-exports.md`
 - [The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html) — 3 matches — see `the-green-shift-what-indias-oil.md`
 - [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 3 matches — see `the-margin-case-why-lpg-and.md`
 - [The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html) — 3 matches — see `the-software-behind-still-whats.md`
@@ -65,7 +67,6 @@
 - [The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference](https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html) — 2 matches — see `the-fcc-lever-trading-petrol-yield-for.md`
 - [The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html) — 2 matches — see `the-rule-of-72-rule-of-114-and-how-to.md`
 - [The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html) — 2 matches — see `the-water-bill-nobody-mentions-what.md`
-- [TNPL Has Made Paper From Sugarcane Waste Since 1984. Its Own Industry Lobby Is Asking For Trees.](https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html) — 2 matches — see `tnpl-has-made-paper-from-sugarcane.md`
 - [India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector](https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html) — 2 matches — see `we-fact-checked-66-investment.md`
 - [India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.](https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html) — 2 matches — see `what-actually-happens-to-indias-used.md`
 - [What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html) — 2 matches — see `what-india-is-actually-paying-for.md`
@@ -108,7 +109,6 @@
 - [Tarpaulin Is a Genuine Export Win. Geotextiles for India's Highways Are the Opposite Story](https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html) — 1 matches — see `tarpaulin-is-genuine-export-win.md`
 - [TASMAC's Retail Exit: The Case for Privatizing 2,500 of Tamil Nadu's 4,048 Liquor Shops](https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html) — 1 matches — see `tasmacs-retail-exit-case-for.md`
 - [The 4% Nobody Notices, and Three Other Ways India Backstops Its Own Food System](https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html) — 1 matches — see `the-4-nobody-notices-and-three-other.md`
-- [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 1 matches — see `the-detergent-chemical-india-exports.md`
 - [The Empty-Shed Greenhouse: What India's Polyhouse Economics Say About Retrofitting Warehouses and Farmhouses](https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html) — 1 matches — see `the-empty-shed-greenhouse-what-indias.md`
 - [The Grain Value Loop — Integrated Rice Biorefinery Pitch](https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html) — 1 matches — see `the-grain-value-loop-integrated-rice.md`
 - [The Masala Deutsch Shop — Books & Things From the Articles](https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html) — 1 matches — see `the-masala-deutsch-shop-books-things.md`
@@ -119,5 +119,5 @@
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of.md`
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [India's Coking Coal Import Problem, and Why "Biomass Pellets" Isn't the Fix — Biochar Is a SAIL Pilot, Not a Programme](https://masaladeutsch.blogspot.com/2026/08/indias-coking-coal-import-problem-and.html) — 0 matches — see `indias-coking-coal-import-problem-and.md`
-- [The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html) — 0 matches — see `the-price-of-grain-msp-msv-and.md`
+- [Rice Cultivation and Innovation](https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html) — 0 matches — see `basf-and-mitsubishi-are-running.md`
+- [Thermal Parity Is Dead: What $85 Oil and a $7 Gas Ceiling Actually Say About Decoupling](https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html) — 0 matches — see `thermal-parity-is-dead-what-85-oil-and.md`

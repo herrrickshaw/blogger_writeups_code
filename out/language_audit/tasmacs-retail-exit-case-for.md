@@ -7,3 +7,4 @@
 - **[GRAMMAR/AGREEMENT_SENT_START]** You should probably use “depend”.
   context: ...ability. Whether that holds in practice depends entirely on how strictly TN's excise de...
   suggested: depend
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
