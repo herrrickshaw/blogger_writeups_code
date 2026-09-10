@@ -45615,14 +45615,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
       "slug": "indias-subsidised-imports-fertilisers",
       "published": "2026-07-31T05:30:00.000+05:30",
-      "updated": "2026-09-07T19:30:02.165+05:30",
+      "updated": "2026-09-10T18:29:34+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals",
         "Trade & Tariffs"
       ],
-      "bytes": 37223,
-      "sha256": "27c65009ff25031ff177e1b2dbceb20ddb397cb0b6dfd0544704e39b084b9947",
+      "bytes": 37609,
+      "sha256": "5c0fe46ad90a868f7a5d50761bb0a4435df2ea4548a6fc80943f7ab0573a2b4e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -45634,7 +45634,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45873,6 +45873,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T18:29:34+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            37223,
+            37609
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Two chart-layout fixes on the import-bill-growth-by-category diverging bar chart. (1) The '0%' zero-line label sat at the same height as the last row's bar (Iron & Steel), which was drawn after it and clipped it (found by the new TEXT_HIDDEN_BY_RECT check); moved the bar's <rect> before the label, then repositioned '0%' to sit clear of the bar entirely (just past its right edge) once rendering confirmed the on-top placement still looked visually cramped. (2) The bottom source footnote ('Source: TradeStat EIDB...') was a single line at font-size 11, 768px wide against a 700px canvas -- wrapped it into two lines and grew canvas height 470->488 to fit."
         }
       ]
     },
