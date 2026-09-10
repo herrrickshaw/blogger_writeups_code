@@ -11141,3 +11141,13 @@ Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts
 - `cold-chain-fuel-outlet-integrated-map` — 19,978 → 20,823 bytes (+845)
 - `india-environmental-clearances-state` — 18,006 → 18,818 bytes (+812)
 - `india-trade-sector-policy` — 19,923 → 20,611 bytes (+688)
+
+## 2026-09-11T00:28:17+05:30 — 267 posts live
+
+**Versions**
+
+- `indias-used-oil-epr-wants-half-of-all` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-used-oil-epr-wants-half-of-all` — 28,077 → 29,098 bytes (+1,021)
