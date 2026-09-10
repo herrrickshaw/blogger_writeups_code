@@ -251,6 +251,28 @@ def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes=None):
     return issues
 
 
+# Named-entity part is restricted to a whitelist, not any \w+; -- a real
+# ampersand can legitimately be followed by a word and then an unrelated
+# semicolon (e.g. "DGCI&amp;S; chapter mapping..."), which is not a
+# double-escaping bug and must not be flagged as one.
+_KNOWN_ENTITY_NAMES = (
+    'mdash|ndash|minus|nbsp|hellip|rsquo|lsquo|ldquo|rdquo|amp|copy|reg|trade|times'
+)
+DOUBLE_ESCAPE_RE = re.compile(r'&amp;(#\d+|#x[0-9a-fA-F]+|(?:' + _KNOWN_ENTITY_NAMES + r'));')
+
+
+def find_double_escaped_entities(html):
+    """A named/numeric entity that itself got HTML-escaped renders as the
+    literal text "&amp;mdash;" etc. instead of the intended character --
+    seen repeatedly across hand-authored chart captions (&amp;mdash;,
+    &amp;ndash;, &amp;minus;). Not a layout bug, but a real on-page
+    correctness/readability defect the geometry checks above can't see."""
+    seen = []
+    for m in DOUBLE_ESCAPE_RE.finditer(html):
+        seen.append(m.group(0))
+    return seen
+
+
 def lint_file(path):
     html = open(path, encoding='utf-8').read()
     css_classes = parse_css_classes(html)
@@ -259,6 +281,14 @@ def lint_file(path):
         issues = lint_svg(0, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes)
         if issues:
             results.append({'viewBox': [vb_x0, vb_y0, vb_x1 - vb_x0, vb_y1 - vb_y0], 'issues': issues})
+    bad_entities = find_double_escaped_entities(html)
+    if bad_entities:
+        from collections import Counter
+        counts = Counter(bad_entities)
+        results.append({'viewBox': None, 'issues': [
+            {'type': 'DOUBLE_ESCAPED_ENTITY', 'text': ent, 'count': n}
+            for ent, n in counts.items()
+        ]})
     return results
 
 
@@ -298,6 +328,8 @@ def main():
             for i in c['issues']:
                 if i['type'] == 'COLLISION':
                     print(f'  COLLISION  "{i["text_a"]}"  overlaps  "{i["text_b"]}"  ({i["overlap_px"]}px, y={i["y"]})')
+                elif i['type'] == 'DOUBLE_ESCAPED_ENTITY':
+                    print(f'  DOUBLE-ESCAPED-ENTITY  "{i["text"]}"  renders as literal text, x{i["count"]}')
                 else:
                     side = 'right' if i['type'] == 'OVERFLOW_RIGHT' else 'left'
                     print(f'  OVERFLOW-{side.upper():<5} "{i["text"]}"  by {i.get("overflow_px", "?")}px past canvas edge')
