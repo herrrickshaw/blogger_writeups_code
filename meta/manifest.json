@@ -10902,12 +10902,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-grain-cultivation-fci-storage.html",
       "slug": "india-grain-cultivation-fci-storage",
       "published": "2026-07-31T10:10:00.000+05:30",
-      "updated": "2026-09-07T19:26:05.561+05:30",
+      "updated": "2026-09-10T18:07:46+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 86407,
-      "sha256": "2fe8ecc4f3227821ee07d03914f3a6925e646919745e3c9c4de3be576ec41865",
+      "bytes": 86426,
+      "sha256": "2f809ae28c82da9f16d3b74d9c660797aead8006086a500494c34f8a7f35a938",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -10919,7 +10919,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -11140,6 +11140,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T18:07:46+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            86407,
+            86426
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the FCI-storage-vs-FPO-count bar chart: the Chhattisgarh and Andhra Pradesh rows had their short bars' value label ('36 LMT'/'25 LMT') and FPO-count label ('68 FPOs'/'247 FPOs') placed at nearly the same x, overlapping by ~33px, instead of following the same-line, after-the-value-label placement already used for the chart's other short-bar row (Uttar Pradesh). Repositioned both FPO labels to sit right after their value label with the same ~4px gap UP already uses."
         }
       ]
     },
