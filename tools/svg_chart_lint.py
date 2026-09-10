@@ -256,7 +256,7 @@ def lint_svg(body_offset, vb_x0, vb_x1, vb_y0, vb_y1, inner, css_classes=None):
 # semicolon (e.g. "DGCI&amp;S; chapter mapping..."), which is not a
 # double-escaping bug and must not be flagged as one.
 _KNOWN_ENTITY_NAMES = (
-    'mdash|ndash|minus|nbsp|hellip|rsquo|lsquo|ldquo|rdquo|amp|copy|reg|trade|times'
+    'mdash|ndash|minus|nbsp|hellip|rsquo|lsquo|ldquo|rdquo|amp|copy|reg|trade|times|middot|bull|deg'
 )
 DOUBLE_ESCAPE_RE = re.compile(r'&amp;(#\d+|#x[0-9a-fA-F]+|(?:' + _KNOWN_ENTITY_NAMES + r'));')
 

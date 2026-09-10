@@ -3793,12 +3793,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/cheap-yen-rupee-roads-where-carry-trade.html",
       "slug": "cheap-yen-rupee-roads-where-carry-trade",
       "published": "2026-08-08T19:13:15.000+05:30",
-      "updated": "2026-09-07T19:19:56.731+05:30",
+      "updated": "2026-09-10T15:25:38+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 26002,
-      "sha256": "206331b4b9f4e06063ed52a1eadc2ff261299ec4b12b0177bda44353c5f7dd56",
+      "bytes": 26026,
+      "sha256": "3ab8c7dde3430a758d606901f18098bed1395596010b2cbb3bdf270861682818",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3810,7 +3810,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4000,6 +4000,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:25:38+05:30",
+          "level": "patch",
+          "reason": "fixed chart: caption overflow, double-escaped dash entity",
+          "bytes": [
+            26002,
+            26026
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -16262,13 +16275,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
       "slug": "rajya-sabha-question-registry-scheme",
       "published": "2026-08-04T15:55:00.000+05:30",
-      "updated": "2026-09-09T13:20:40.250+05:30",
+      "updated": "2026-09-10T15:25:44+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy"
       ],
-      "bytes": 338481,
-      "sha256": "3b802b2a0614772ff20e2b77c41208854de2f73757ab6e915a1aada2beac5411",
+      "bytes": 338479,
+      "sha256": "8445eb38126cbb6165d665a7ba371b5bc05a5e0effbe924c2f491f129e99af2a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16280,7 +16293,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.2",
+      "version": "2.1.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16492,6 +16505,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.1.3",
+          "date": "2026-09-10T15:25:44+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped entity",
+          "bytes": [
+            338481,
+            338479
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -23705,14 +23731,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
       "slug": "airbags-and-seat-belts-are-import-heavy",
       "published": "2026-08-15T11:27:49.000+05:30",
-      "updated": "2026-09-07T19:18:20.984+05:30",
+      "updated": "2026-09-10T15:25:50+05:30",
       "labels": [
         "Automotive & Manufacturing",
         "India Trade & Policy",
         "Textiles"
       ],
-      "bytes": 26645,
-      "sha256": "35d7354d96d1ba3c2817dedf1a95e8f8711b1dd07d45e8735c6a04d474c1a576",
+      "bytes": 26643,
+      "sha256": "ee112511c1670b3af745c53a1e1724f11aca141fe87233da47e0d7ec9c696536",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23724,7 +23750,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23836,6 +23862,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-10T15:25:50+05:30",
+          "level": "patch",
+          "reason": "fixed double-escaped entity",
+          "bytes": [
+            26645,
+            26643
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -26007,13 +26046,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-gigawatt-data-centre-bets.html",
       "slug": "where-indias-gigawatt-data-centre-bets",
       "published": "2026-08-20T21:16:29.000+05:30",
-      "updated": "2026-09-07T19:42:41.351+05:30",
+      "updated": "2026-09-10T15:23:48+05:30",
       "labels": [
         "Data Centres & AI Infra",
         "Infrastructure & Investment"
       ],
-      "bytes": 25380,
-      "sha256": "164a16688d94d2348fce9d60aa261c62fda80a233db6aa2c26f84eb965e3ba55",
+      "bytes": 25476,
+      "sha256": "5f058e8325950bb656065ef6d04b8b5c3b794a9c9c8e092b6581614f21f4af53",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26025,7 +26064,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26085,6 +26124,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-10T15:23:48+05:30",
+          "level": "patch",
+          "reason": "fixed chart: bar-label overflow, caption overflow, double-escaped entities",
+          "bytes": [
+            25380,
+            25476
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -35967,12 +36019,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
       "slug": "raising-green-debt-globally-rec-euroyen",
       "published": "2026-08-03T19:10:19.000+05:30",
-      "updated": "2026-09-10T15:21:46+05:30",
+      "updated": "2026-09-10T15:25:56+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 67000,
-      "sha256": "99c16e1b645d18a494af3c128506da9755018c0318eb526d501984bf28ed418d",
+      "bytes": 66988,
+      "sha256": "4271fef0463720d82f322401f9dd11dbaf8943025529ad64357a1662f4f5bcbe",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35984,7 +36036,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36214,6 +36266,19 @@
           "bytes": [
             66926,
             67000
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-10T15:25:56+05:30",
+          "level": "patch",
+          "reason": "fixed additional double-escaped &amp;middot; entities missed by first pass",
+          "bytes": [
+            67000,
+            66988
           ],
           "url_changed": null,
           "markers_changed": null,
