@@ -42780,12 +42780,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html",
       "slug": "tiffin-meets-thali-10-day-sip-already",
       "published": "2026-08-11T13:45:20.000+05:30",
-      "updated": "2026-09-11T00:19:49.891+05:30",
+      "updated": "2026-09-11T21:49:45+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 21590,
-      "sha256": "7bdd19d5f1ec010c7fdbde9ccd9f665d450daa0ff2011d841312c54f55da3d3c",
+      "bytes": 21701,
+      "sha256": "5ccaa583296fb0ce8c2b33de915c5c87f01af3e45bd7689f7ddb4281737b89ff",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -42797,7 +42797,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -42961,6 +42961,32 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-11T21:49:45+05:30",
+          "level": "major",
+          "reason": "figures/sections changed: BSE building image and figcaption added",
+          "bytes": [
+            21590,
+            21701
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reconciling manifest with repo state: this image block was already committed to the repo but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+        },
+        {
+          "version": "2.1.1",
+          "date": "2026-09-11T21:49:45+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: value-label collision with a two-line caveat note on the stock-value-concentration chart",
+          "bytes": [
+            21701,
+            21701
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed COLLISION (\"~60%\" value label overlapping the caveat note above it) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text). Byte-neutral edit."
         }
       ]
     },
