@@ -45609,13 +45609,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
       "slug": "lemon-cultivation-in-india-steady-trees",
       "published": "2026-08-19T06:09:17.000+05:30",
-      "updated": "2026-09-11T00:21:57.236+05:30",
+      "updated": "2026-09-11T11:14:02+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 26740,
-      "sha256": "6a8c86cddd070c15580f30eeeef93b973202022a61f366c5fd075b8c50a5e627",
+      "bytes": 26744,
+      "sha256": "2e7332ad298f9abc61f73dd83161299f2cf2f0a70bf4e933cb8d3ce928ff353e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -45627,7 +45627,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -45713,6 +45713,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-11T11:14:02+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: label collision on the Agmarknet-vs-eNAM lemon price bar chart",
+          "bytes": [
+            26740,
+            26744
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed COLLISION (\"National avg\" overlapping \"Andhra Pr. (high)\") flagged by tools/svg_chart_lint.py by widening the gap between the second and third Agmarknet bars."
         }
       ]
     },
