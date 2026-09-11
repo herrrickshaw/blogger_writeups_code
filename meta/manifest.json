@@ -970,13 +970,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html",
       "slug": "amruts-197-lakh-crore-urban-portfolio",
       "published": "2026-08-29T12:46:45.000+05:30",
-      "updated": "2026-09-10T22:41:24.134+05:30",
+      "updated": "2026-09-11T10:15:38+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment"
       ],
-      "bytes": 24135,
-      "sha256": "fb86fbefb2350debd94a15a796470b5fe5357bf84c73d3b4eabbfd97637a6023",
+      "bytes": 25233,
+      "sha256": "23775df8ada875c353dcc703114ed6bf5e96042b3f3d48c0540d3cecb1667935",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -988,7 +988,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.5",
+      "version": "1.1.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1074,6 +1074,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.1.6",
+          "date": "2026-09-11T10:15:38+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24135,
+            25233
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Chart-layout fix on the AMRUT 2.0 cost-by-component bar chart: the Water Supply bar's value label ('₹1,18,953 cr (60%)') overflowed the canvas's right edge by 50.8px. Rescaled all four bars to a smaller max width so the tallest bar's value label fits inside the canvas with margin; recomputed all four bars' widths and label positions to preserve the same proportions."
         }
       ]
     },
