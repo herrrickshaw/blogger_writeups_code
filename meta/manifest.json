@@ -50960,12 +50960,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
       "slug": "the-price-of-grain-msp-msv-and",
       "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-09-11T00:24:28.988+05:30",
+      "updated": "2026-09-11T21:47:34+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 41262,
-      "sha256": "438b990b122ce333bd1d6dbc9adfe20561aed232dc11fc4ca7831d889dabed80",
+      "bytes": 41646,
+      "sha256": "4a8e6a4019f31a0db2e69fb53aba4d3868be3c18765d447591ad56c295e635d0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -50977,7 +50977,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.1",
+      "version": "5.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -51242,6 +51242,32 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.1.0",
+          "date": "2026-09-11T21:47:34+05:30",
+          "level": "major",
+          "reason": "figures/sections changed: Punjab wheat-farming image and figcaption added",
+          "bytes": [
+            41262,
+            41586
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reconciling manifest with repo state: this image block was already committed to the repo but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+        },
+        {
+          "version": "5.1.1",
+          "date": "2026-09-11T21:47:34+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the MSP-coverage bar chart source line",
+          "bytes": [
+            41586,
+            41646
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 33.6px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
