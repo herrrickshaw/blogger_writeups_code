@@ -1144,13 +1144,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
       "slug": "top-15-chemicals-for-import",
       "published": "2026-08-01T09:36:00.000+05:30",
-      "updated": "2026-09-10T23:57:43.245+05:30",
+      "updated": "2026-09-11T21:51:39+05:30",
       "labels": [
         "Chemicals",
         "Import Substitution"
       ],
-      "bytes": 99953,
-      "sha256": "3ae3fe773cbf854db8cc059c4616559c6cbac9e1b631ce1dec808ac108f9bfbc",
+      "bytes": 100399,
+      "sha256": "2ef312f6ff7d27c88ffde90f46edf7f7c5712aad11459622ed8519f8ad6125b1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1162,7 +1162,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.0.4",
+      "version": "5.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1453,6 +1453,32 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.1.0",
+          "date": "2026-09-11T21:51:39+05:30",
+          "level": "major",
+          "reason": "figures/sections changed: Jamnagar refinery/petrochemical complex image and figcaption added",
+          "bytes": [
+            99953,
+            100343
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Reconciling manifest with repo state: this image block was already committed to the repo but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+        },
+        {
+          "version": "5.1.1",
+          "date": "2026-09-11T21:51:39+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the top-10-chemicals bar chart source line",
+          "bytes": [
+            100343,
+            100399
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 75.0px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
