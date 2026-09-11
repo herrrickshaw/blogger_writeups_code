@@ -51755,14 +51755,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html",
       "slug": "pngrbs-own-2025-committee-now-expects",
       "published": "2026-09-09T07:35:00.000+05:30",
-      "updated": "2026-09-10T23:25:33.307+05:30",
+      "updated": "2026-09-11T21:24:41+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 30361,
-      "sha256": "5827d226072314ebea0de231bd5539f2d1048599541f76ddb8794d661f69543e",
+      "bytes": 30453,
+      "sha256": "be2aa141f2d93af4c9f9be41d887131676a78ce69b600f4ca5f88a437d374c45",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -51774,7 +51774,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -51795,6 +51795,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-09-11T21:24:41+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: left-edge and right-edge overflow on the gas-demand-target comparison bar chart",
+          "bytes": [
+            30361,
+            30453
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-LEFT (\"2025 committee, 2040 accelerated case\" row label) by wrapping into two lines, and OVERFLOW-RIGHT (\"746 MMSCMD\" label) flagged by tools/svg_chart_lint.py by moving it inside the bar (white text, right-aligned)."
         }
       ]
     },
