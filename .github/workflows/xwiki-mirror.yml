@@ -1,0 +1,103 @@
+name: Docs mirror
+
+# Push the governing docs to the openDesk XWiki after they land on main.
+#
+# Runs post-merge, not on pull requests: the wiki is a window onto what the
+# repo actually says, and mirroring a branch would show readers something that
+# was never agreed. Nothing here writes to the blog.
+#
+# The job is a clean no-op until the four repository secrets exist. That is
+# deliberate: a workflow that goes red on every docs push because it is not
+# configured yet trains everyone to ignore it, which is how archive-sync's
+# real failures went unread for three days.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+      - "CLAUDE.md"
+      - "MAINTENANCE.md"
+      - "DESIGN_LOG.md"
+      - "SEO_KEYWORDS.md"
+      - "docs/**"
+      - "tools/xwiki_mirror.py"
+      - ".github/workflows/xwiki-mirror.yml"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Report what would change without writing"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  # Two mirrors writing the same pages would race. Let a running one finish
+  # rather than cancelling it half-applied.
+  group: xwiki-mirror
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      # xwiki_mirror.py is standard library only, so there is no install step.
+
+      - name: Self-test the mirror
+        # Proves push, read-back verification and config handling before we
+        # point the tool at the real wiki. Runs against a local stub; no
+        # network, no secrets.
+        run: python3 tools/xwiki_mirror.py --self-test
+
+      - name: Is the mirror configured?
+        id: cfg
+        env:
+          XWIKI_BASE_URL: ${{ secrets.XWIKI_BASE_URL }}
+          XWIKI_USER: ${{ secrets.XWIKI_USER }}
+          XWIKI_TOKEN: ${{ secrets.XWIKI_TOKEN }}
+        run: |
+          set +e
+          python3 tools/xwiki_mirror.py --check-config
+          code=$?
+          set -e
+          # 0 = configured, 3 = not configured at all, anything else = a
+          # half-configuration, which the tool refuses and we let fail.
+          if [ "$code" = "3" ]; then
+            echo "configured=no" >> "$GITHUB_OUTPUT"
+            echo "XWiki mirror not configured — skipping." >> "$GITHUB_STEP_SUMMARY"
+            echo "Set XWIKI_BASE_URL, XWIKI_USER and XWIKI_TOKEN as repository secrets to enable it." >> "$GITHUB_STEP_SUMMARY"
+          elif [ "$code" = "0" ]; then
+            echo "configured=yes" >> "$GITHUB_OUTPUT"
+          else
+            exit $code
+          fi
+
+      - name: Mirror the docs
+        if: steps.cfg.outputs.configured == 'yes'
+        env:
+          XWIKI_BASE_URL: ${{ secrets.XWIKI_BASE_URL }}
+          XWIKI_USER: ${{ secrets.XWIKI_USER }}
+          XWIKI_TOKEN: ${{ secrets.XWIKI_TOKEN }}
+          XWIKI_SPACE: ${{ secrets.XWIKI_SPACE }}
+        run: |
+          set -o pipefail
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python3 tools/xwiki_mirror.py 2>&1 | tee mirror.out
+          else
+            python3 tools/xwiki_mirror.py --apply 2>&1 | tee mirror.out
+          fi
+
+      - name: Summary
+        if: always() && steps.cfg.outputs.configured == 'yes'
+        run: |
+          echo "### Docs mirror" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"
+          cat mirror.out >> "$GITHUB_STEP_SUMMARY" 2>/dev/null || echo "(no output)" >> "$GITHUB_STEP_SUMMARY"
+          echo '```' >> "$GITHUB_STEP_SUMMARY"

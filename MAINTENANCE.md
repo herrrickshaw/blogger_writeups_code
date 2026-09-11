@@ -84,7 +84,79 @@ flagging meaningful geography/traffic shifts or a stale-data signal if the
 local cron stopped pushing. Output lands on the routine's own claude.ai
 page, not delivered here — check it manually, or ask "check the GA report."
 
-## 8. Review cycle
+## 8. openDesk / XWiki documentation mirror
+
+`tools/xwiki_mirror.py` pushes this repo's governing documentation into the
+openDesk XWiki so it can be read by people who do not have the repo.
+
+**One-directional, on purpose.** Git stays the source of truth; the wiki is a
+read-only shop window. Nothing reads a wiki page back into the repo. The moment
+a document can be edited in two places the two drift and neither is
+authoritative — which this archive has already lived through once, with
+`DESIGN_LOG.md` pointing at `~/blog-consistency-check/` for rules that were
+actually in-repo. Do not add a write-back path without deciding first which
+side wins.
+
+Mirrored: `README.md`, `CLAUDE.md`, `MAINTENANCE.md`, `DESIGN_LOG.md`,
+`SEO_KEYWORDS.md` and the six files in `docs/`. The list is explicit in
+`MIRRORED`, not a glob, because this tool publishes to somewhere other people
+read and a glob would sweep in whatever lands in `docs/` next.
+
+Deliberately excluded: `CHANGELOG.md` and `MASALADEUTSCH_ALL_POSTS_SUMMARY.md`.
+Both are generated, both change daily, and mirroring them would bury the
+hand-written docs in churn.
+
+```bash
+python3 tools/xwiki_mirror.py                 # report-only: what would change
+python3 tools/xwiki_mirror.py --apply         # push the changed pages
+python3 tools/xwiki_mirror.py --self-test     # prove push+verify without the live wiki
+```
+
+Report-only is the default — `--apply` is required to write anything.
+
+**It verifies rather than trusting the HTTP status.** Every page it writes is
+read back and compared byte-for-byte against what was sent, and a mismatch is
+reported as a problem instead of a success. This is the §6 lesson applied
+ahead of time: the daily chain still echoes "committed + pushed" whether or not
+the push worked, and that cost two days of unnoticed backlog on 8-9 Sep 2026.
+
+It also checks the syntax the wiki actually stored. If XWiki does not have
+`markdown/1.2` enabled it will silently keep the page in its own syntax and the
+Markdown will render as literal text; the tool reports that rather than
+leaving you to find it in the browser. Override with `--syntax` if the
+instance uses something else.
+
+Configuration lives in `~/.config/market-secrets/credentials.env`, never in the
+repo — `XWIKI_BASE_URL`, `XWIKI_USER`, `XWIKI_TOKEN`, and optionally
+`XWIKI_SPACE` (defaults to `masaladeutsch`).
+
+Configuration is read from the environment first, so CI can pass repository
+secrets, and otherwise from that file. A *partial* configuration is a hard
+error rather than a default — three values out of four silently pointing at
+the wrong wiki is worse than stopping.
+
+**CI:** `.github/workflows/xwiki-mirror.yml` runs the mirror after docs land
+on `main` (and on manual dispatch, with a dry-run option). It runs post-merge
+rather than on pull requests, because the wiki is a window onto what the repo
+actually says and mirroring a branch would show readers something never
+agreed.
+
+The job is a clean no-op until `XWIKI_BASE_URL`, `XWIKI_USER` and
+`XWIKI_TOKEN` exist as repository secrets (`XWIKI_SPACE` optional). That is
+deliberate: a workflow that goes red on every docs push because it is not
+configured yet trains everyone to ignore it, which is exactly how
+archive-sync's real failures went unread for three days in Aug–Sep 2026.
+
+The workflow also runs `--self-test` before touching the live wiki, so a
+broken tool fails against a local stub rather than against the instance.
+
+One drift trap is guarded: the workflow's `paths:` filter and the tool's
+`MIRRORED` list must agree, or a newly mirrored doc silently stops triggering
+the job — and a workflow that never fires looks identical to one with nothing
+to do. The self-test compares the two and fails if any mirrored doc is
+uncovered.
+
+## 9. Review cycle
 
 No fixed cadence yet. Revisit this document whenever a new daily/weekly job
 is added to `crontab`, or when one of the sharp edges in §6 recurs somewhere
