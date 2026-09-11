@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-07T19:38:03.616+05:30",
+  "updated": "2026-09-10T22:50:47.864+05:30",
   "labels": [
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 48905,
-  "sha256": "84c2be2a6c53b393321f485e7452d6a909eee3f787404f2f92725fdeaeb7efba",
+  "bytes": 50956,
+  "sha256": "79acbd07733bde2cfafffae1a16aca85db50f95be6079a82a69bb9d91df074ef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.3",
+  "version": "1.4.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.4.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        48905,
+        50956
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

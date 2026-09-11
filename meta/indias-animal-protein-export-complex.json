@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-09-09T08:47:19.723+05:30",
+  "updated": "2026-09-10T23:59:41.608+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 13519,
-  "sha256": "c09213e2f1a875220f9b666dedfc5886cdbca8ff29052cf208457b7f98b01791",
+  "bytes": 14414,
+  "sha256": "9b059f805e70348ef8074adf9b1b6f2bcf364005dbba8fbc053d8391714bc7ea",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.2",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -183,6 +183,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Manual ad units removed from all posts; Auto ads only"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "minor",
+      "reason": "prose grew 6,784→6,967 chars with no new figures",
+      "bytes": [
+        13014,
+        13519
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        13519,
+        14414
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

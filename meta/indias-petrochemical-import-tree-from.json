@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-09-09T13:18:25.086+05:30",
+  "updated": "2026-09-11T00:06:45.107+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 30946,
-  "sha256": "b29eb5163d4cebd38d890a5373121af69de0af1187e7baca72310a7de9252ada",
+  "bytes": 31860,
+  "sha256": "82cbf36cd3c9db1e683de03c5c82d76308595ebb45a85a430c5a3c00b63af29f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -219,6 +219,32 @@
         ]
       },
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        26929,
+        30946
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30946,
+        31860
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -11,25 +11,23 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." — The $0.076–0.08/kWh (or $0.076–0.112/kWh) figure is the cost of round-the-clock (RTC) renewable PPAs, not solar-charged battery storage. As the article's own chart and Section 2 table note, that range applies to RTC renewable PPAs; levelised cost of solar-charged BESS is given in Section 2 as ₹39.71–61.72/kWh (roughly $0.48–0.74/kWh), which is several times higher. [confidence: high]
+- "a five-fold expansion of telecom tower sites for 5G" — The article's own cited numbers state that India's telecom tower base needs to grow from roughly 750,000 to around 1.2 million (an addition of ~450,000 towers). That represents an increase of 60% (a 1.6-fold total), not a five-fold (5x) expansion. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "The economics inside that design standard are already shifting, though. A straight comparison of two backup architectures — Diesel Rotary UPS (DRUPS, which uses flywheel kinetic energy) against Static UPS with a battery bank (SUPS) — found DRUPS has a 9-month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 million versus $5.46 million OpEx), even before counting emissions." — DRUPS stands for Diesel Rotary UPS; it relies on an integrated diesel engine. Citing a study where DRUPS outperforms battery-based Static UPS (SUPS) on OpEx and payback does not show that the economics are shifting away from diesel; it demonstrates that a diesel-driven system was found to be more economical than a battery-backed alternative. [confidence: high]
+- "Diesel backup power costs roughly 3x the Indian grid average and 3.5x round-the-clock renewable PPAs — figures the post cites from the Takshashila Institution." — This is an apples-to-oranges comparison used to argue that the economics of backup power are tipping against diesel. Grid tariffs and RTC renewable PPAs represent baseload, continuous utility power. Diesel generators are installed for emergency backup during outages, where low utilization inherently drives up the levelised cost per unit generated. A lower grid or PPA per-unit rate does not demonstrate that diesel backup is economically unviable, because grid power cannot supply a facility when the grid fails. [confidence: high]
 
 ## Groq openai/gpt-oss-120b
 
 **FACTUAL ERRORS**  
-- *“a five‑fold expansion of telecom tower sites for 5G”* — The article says India’s tower base must grow from ~750,000 to ~1.2 million sites, which is roughly a 1.6‑times increase, not a five‑fold (5×) increase. [confidence: high]  
-- *“Indus Towers … converted its 50,000th cell site to run diesel‑free (back in March 2016)”* – Indus Towers was incorporated in 2017; it could not have marked a 50 k‑site diesel‑free milestone in 2016. The date and milestone are therefore inaccurate. [confidence: high]  
+- “India’s telecom tower base needs to grow from roughly **750,000 towers** already in place to around 1.2 million…” — Industry data (TRAI, TowerXchange) place the current tower count at **≈ 600 k** (2023‑24), not 750 k. The figure appears overstated. [confidence: medium]  
+- “PNGRB had authorised **307 geographical areas by 2026**, reaching close to 100 % of India’s landmass outside the islands…” — The 307‑area count was **recorded in March 2023**; the article projects it to 2026 without a source, making the statement unverifiable and likely inaccurate. [confidence: medium]  
 
 **INTERPRETATION ERRORS**  
-- *“Solar‑charged BESS is the cheaper backup option across most hours‑of‑autonomy scenarios tested”* – The cost figures cited (₹39.71–61.72 /kWh) come from a Tamil Nadu‑specific commercial/industrial study. Extrapolating this to all Indian data‑centres and telecom towers ignores regional grid‑tariff differences, load‑profile variations, and the higher capital intensity of large‑scale data‑centre backup. The conclusion that BESS is universally cheaper is therefore an unsupported generalisation. [confidence: high]  
-
-- *“DRUPS has a 9‑month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 M vs $5.46 M OpEx)”* – The comparison is between a diesel‑rotary UPS (which still uses diesel fuel) and a static battery UPS, yet the article uses it to argue that diesel‑based backup is becoming uneconomical. The metric (payback period) does not capture the full lifecycle cost or emissions of diesel generators, so the claim mis‑interprets the data to support a broader conclusion about diesel’s declining economics. [confidence: medium]
+- “Diesel generation runs about **$0.28 per kWh**, against an Indian grid average of **$0.085/kWh** and round‑the‑clock renewable PPAs of **$0.076–0.112/kWh**…” — This compares the **per‑kWh cost of a rarely‑used backup generator** with the **per‑kWh cost of continuous grid or renewable supply**. Because diesel generators operate at a very low capacity factor, the cost per kWh of *energy actually delivered* is not directly comparable to base‑load tariffs; the claim overstates the economic disadvantage of diesel as a backup. [confidence: high]  
+- “Telecom tower diesel‑elimination figures … are a **precedent** for data‑centre backup‑power decisions.” — The article infers that data‑centres will follow the telecom sector’s diesel‑phase‑out, but provides no evidence that data‑centre operators face the same cost‑or‑reliability incentives, nor that their load profiles and regulatory constraints are comparable. The causal link is therefore speculative. [confidence: medium]
 
 ## Mistral mistral-small-latest
 

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-committee-found-pipelines.html",
   "slug": "pngrbs-own-committee-found-pipelines",
   "published": "2026-09-08T09:19:53.000+05:30",
-  "updated": "2026-09-08T09:22:53.462+05:30",
+  "updated": "2026-09-10T23:24:19.819+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Infrastructure & Investment"
   ],
-  "bytes": 25940,
-  "sha256": "e27c8bb23ceef416922d086c8b746f2ac88ae432bd42b5c08e4d618da658460e",
+  "bytes": 28643,
+  "sha256": "2a5f89c6afaca3ead60e0bc2b85dbb3ad10c0ee3adf93ced650f7afb481821a1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,14 +23,27 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-09-08T04:00:00+05:30",
+      "date": "2026-09-10T22:54:22+05:30",
       "level": "initial",
       "reason": "first snapshot",
-      "note": "new post"
+      "note": ""
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25940,
+        28643
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

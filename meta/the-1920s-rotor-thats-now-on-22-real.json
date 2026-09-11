@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
   "published": "2026-08-30T22:16:33.000+05:30",
-  "updated": "2026-09-07T20:03:26.826+05:30",
+  "updated": "2026-09-10T22:46:23.681+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels"
   ],
-  "bytes": 37185,
-  "sha256": "34e2416064585f3426057cad65df92a44818b34f3c0bb4f0ea01d941ff678759",
+  "bytes": 39655,
+  "sha256": "405582d8739b9103e16265bda4dddc9946f29aead47db9f03f0a425129448a2e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.3",
+  "version": "2.1.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37185,
+        39655
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

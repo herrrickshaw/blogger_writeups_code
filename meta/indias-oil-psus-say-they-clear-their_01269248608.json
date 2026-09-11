@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-oil-psus-say-they-clear-their_01269248608.html",
   "slug": "indias-oil-psus-say-they-clear-their_01269248608",
   "published": "2026-09-02T03:35:50.000+05:30",
-  "updated": "2026-09-09T12:44:13.031+05:30",
+  "updated": "2026-09-10T22:44:04.726+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 35043,
-  "sha256": "39303968c44ecf3fb8326b3feec9557216abd7766841e2f4482ada783d84bacc",
+  "bytes": 36461,
+  "sha256": "98bbdc70297aea606e53cec12869ff5c71bf88006034e68dc4ab798878ad5220",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34094,
+        36461
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

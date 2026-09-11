@@ -306,6 +306,96 @@ Format:
       never as confirmation.
 
 
+- [ ] India built an offshore insurance hub. It writes USD 12 million of direct cover a year.
+      Source: IFSCA Bulletin, Jan-Mar 2025 (International Financial Services Centres
+      Authority, Division of Economic Policy and Analysis) — free PDF on the regulator's
+      own domain, no login, explicit reproduction permission with acknowledgement:
+      ifsca.gov.in/Document/ReportandPublication/ifsca-bulletin-jan-mar-202509052025055132.pdf
+      (fetched 2026-09-08, HTTP 200, 4.6 MB; text extracts cleanly with `pdftotext
+      -layout`). Tables used: Table 25 (line-of-business direct insurance) and Table 26
+      (line-of-business reinsurance), both quarterly across FY 2024-25; Table 24 (offices
+      and premium by IIO/IIIO). Quarterly series, so a current-vintage edition exists — a
+      Jul-Sep 2025 bulletin is known to be out.
+      Argument: GIFT IFSC is sold as an offshore insurance and reinsurance hub, and by its
+      own quarterly tables it is only the second of those. Across the four quarters of
+      FY 2024-25 it wrote USD 12.42 Mn of gross direct premium against USD 195.45 Mn of
+      reinsurance — 94% of the book is cession business. Direct life for the entire year
+      was USD 2.54 Mn, under Rs 25 crore, from a jurisdiction hosting 18 registered
+      insurance offices; the whole insurance leg is about a five-hundredth of the USD
+      88.51 Bn of banking assets on the same dashboard page. The centre did not fail to
+      attract insurance. It attracted the wholesale end and almost none of the retail end
+      it is marketed on — which is the same shape as the domestic story in the queued
+      4%-cession piece, seen from the offshore side: India compels 4% of every general
+      policy into a state reinsurer at home while the centre built to import international
+      reinsurance capacity writes USD 195 Mn a year.
+      Checks needed: (1) Table 24's Jan-Mar 2025 IIO figure carries a printed footnote —
+      "Reinsurance data of one IIO is under examination and hence not included" — so that
+      quarter is understated by an unknown amount; quote the share as ~94% and recompute
+      when the audited figure lands; (2) every FY 2024-25 figure on both tables is marked
+      unaudited — say so in the piece; (3) 🔴 Table 26 shows "Health + PA" falling 26.48 ->
+      2.21 between Oct-Dec and Jan-Mar while a separate "Health Insurance" line appears at
+      5.77 the same quarter — resolve this against the next bulletin before narrating
+      either number, it looks like a reclassification and not a collapse; (4) Table 24
+      counts offices, Tables 25/26 count lines of business — do not add or divide across
+      them; (5) pull the following quarter's bulletin before publishing so the piece is not
+      a year stale.
+      Logged: 2026-09-08 from the IFSCA Bulletin register entry
+      Opens: the IFSCA / GIFT City zero-coverage area, and the offshore half of the
+      near-empty *Insurance & Reinsurance* label. Pairs with the queued 4%-cession item as
+      two ends of one pipe; if both are written, write the domestic one first.
+      Manifest dedup run 2026-09-08 (257 posts, snapshot 2026-09-07): a regex for
+      `ifsca|gift.?city|reinsur|insur|bullion|fintech|offshore|banking.?unit` returns
+      exactly one post, `premium-now-claim-later-float-indias` (motor float, domestic
+      retail), matching on `insur` alone. `ifsca`, `gift city`, `bullion`, `offshore` and
+      `banking unit` return zero.
+
+
+- [ ] The Ministry of Power published two different AT&C loss figures for the same year
+      Source: two PIB releases, both fetched directly 2026-09-09 (pib.gov.in returns 403 to
+      a plain fetch; a browser User-Agent over curl returns 200). PRID 2200450, "Key
+      Initiatives to Bring Down AT&C Losses of Power Distribution Utilities", 08 DEC 2025
+      5:02PM, a written reply by the Minister of State for Power in the Rajya Sabha:
+      AT&C losses "reduced from 21.91% in FY 21 to 16.16% in FY25". PRID 2215761, "Power
+      Distribution Utilities Record Positive PAT After Years of Losses", 18 JAN 2026
+      10:34AM, quoting the Union Minister of Power: AT&C losses "reduced from 22.62% in FY
+      2013-14 to 15.04% in FY 2024-25". Same year, same ministry, 1.12 points apart, six
+      weeks apart. Supporting figures from the January release: PAT +Rs 2,701 crore in FY
+      2024-25 against -Rs 25,553 crore in FY 2023-24 and -Rs 67,962 crore in FY 2013-14;
+      ACS-ARR gap Rs 0.78/kWh (FY 2013-14) to Rs 0.06/kWh (FY 2024-25). Underlying annual
+      series is PFC's Report on Performance of Power Utilities, which neither release
+      names and which is CURRENTLY UNREACHABLE — see the register's WEAK note; getting it
+      is the first job.
+      Argument: RDSS, the flagship distribution scheme with Rs 2.83 lakh crore sanctioned,
+      targets a pan-India AT&C band of 12-15%. Whether it hit that target depends on which
+      of its own ministry's two numbers you read: 15.04% lands just outside the band,
+      16.16% misses by more than a point. The lower figure is the one in the celebratory
+      press release; the higher one was given to Parliament six weeks earlier. The piece is
+      not "the government is lying" — it is that a scheme graded on a ratio published two
+      ways cannot be graded, and the blog can show exactly where the two series part.
+      Checks needed: (1) THE PIECE DIES IF THE DENOMINATORS DIFFER — neither release states
+      which utilities it counts (the January PAT line says "DISCOMs and power departments",
+      the December AT&C line says only "distribution utilities at the national level"). If
+      the coverage differs, this is a scope difference and not a contradiction; resolve it
+      against the PFC report's utility count BEFORE writing a word, and if it resolves that
+      way, write the scope-difference piece instead, which is still a piece. (2) FY25
+      figures are provisional — PFC's FY 2023-24 edition covered 63 of 72 utilities with 52
+      of 59 audited, so an FY25 number published in Dec 2025 cannot be firmer; say so.
+      (3) AT&C is a ratio and the same January release credits the Electricity Distribution
+      (Accounts and Additional Disclosure) Rules, 2025 and new subsidy-accounting rules —
+      changes to how subsidy is booked move the ratio without recovering a stolen unit.
+      (4) Do not narrate Rs 0.06/kWh as cost recovery achieved: it is a national average and
+      suspiciously round. (5) The two releases use different baselines (FY21 vs FY 2013-14),
+      so only the FY25 endpoint is a like-for-like clash — do not compare the trends.
+      Cross-link to discom-debt-relief-token-charge in house style (cite the earlier post as
+      reporting, never as confirmation): that calculator's standing premise is Rs 64,000
+      crore of new discom debt every year, and a sector-wide positive PAT dates it — worth
+      saying plainly, since it is the blog's own number.
+      Logged: 2026-09-09 from the PIB AT&C register entry
+      Opens: the electricity-distribution / grid area — 93 of 257 posts are energy, but a
+      precise regex (discom|at&c|electricity|power utilit|rdss|smart meter|kwh) returns
+      exactly ONE, and that one is a calculator. The blog covers the molecule side of
+      energy exhaustively and the electron side almost not at all.
+
 ## Done
 
 - [x] What a farm labourer earns, and why it stopped tracking output

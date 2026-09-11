@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-09T08:52:21.937+05:30",
+  "updated": "2026-09-11T00:05:43.320+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 19743,
-  "sha256": "93c4f3ff4111b1c2b18b649d6749317d38566280cbd60407326fb5427be5c66d",
+  "bytes": 20656,
+  "sha256": "e8ae10e3cbe0e1d2cb299884688162be7e7be508d930c7f9c124b38697aa7425",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "minor",
+      "reason": "prose grew 5,945→6,409 chars with no new figures",
+      "bytes": [
+        18752,
+        19743
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19743,
+        20656
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

@@ -22,17 +22,11 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS**  
-- **“India has banned the import of 5,071 defence items across six lists”** – The article itself notes that the 5,071 figure comes from adding the four original PILs (4,666 items) plus the sixth PIL (405 items). A fifth list exists but its item count is not known and is deliberately omitted, meaning the 5,071 total is a *floor* and does **not** represent the full count across all six lists. Stating it as the total across six lists is therefore inaccurate. [confidence: high]  
+**FACTUAL ERRORS**
+- “India has banned the import of **5,071 defence items across six lists**” — the article itself notes that a fifth list exists whose item count is not established, so the 5,071 figure is only a *floor* and does not represent the total number of items barred across the six (actually seven) lists. The statement that the ban covers exactly 5,071 items is therefore inaccurate. [confidence: medium]
 
-- **“Project ADITI … offers grant‑in‑aid of up to ₹25 crore per start‑up”** – Official Ministry of Defence releases describe the maximum grant as **₹2.5 crore** per project, not ₹25 crore. The ₹25 crore figure appears to be a typographical error or a mis‑reading of the source. [confidence: medium]  
-
-
-
-**INTERPRETATION ERRORS**  
-- **“The substitution actually booked against the banned‑items lists is ₹2,570 crore — about 1.4 per cent of one year’s production”** – The ₹2,570 crore figure is a *cumulative* import‑substitution value accrued over several years, whereas the ₹1.78 lakh crore production figure is for a single fiscal year (FY 2025‑26). Comparing a multi‑year total to a single‑year output creates an apples‑to‑oranges ratio that understates the impact of the substitution programme. The claim therefore draws a causal conclusion (the lists have a negligible effect) from a mismatched comparison. [confidence: high]  
-
-- **“The sixth PIL … its stated business potential is ₹3,070 crore”** – The article treats the “business potential” number as if it were an actual realised value of indigenisation, but the source only indicates the *estimated market size* of the items on the list, not the amount that will be substituted or produced domestically. Using this estimate as evidence of the list’s economic contribution conflates potential market size with actual substitution value. [confidence: medium]
+**INTERPRETATION ERRORS**
+- “The substitution actually booked against the banned‑items lists is **₹2,570 crore — about 1.4 per cent of one year’s production**” — the ₹2,570 crore figure is a **cumulative** value accrued over several years, while the ₹1.78 lakh crore production figure is for a single fiscal year (FY 2025‑26). Comparing a multi‑year total to a one‑year output inflates the apparent share and creates a misleading impression that the lists account for 1.4 % of annual production. The reasoning conflates different time‑bases, so the percentage does not accurately reflect the lists’ contribution. [confidence: high]
 
 ## Mistral mistral-small-latest
 

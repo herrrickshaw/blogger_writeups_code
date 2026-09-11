@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
   "slug": "the-battery-passport-was-built-for",
   "published": "2026-08-27T09:16:18.000+05:30",
-  "updated": "2026-09-09T08:13:42.577+05:30",
+  "updated": "2026-09-11T00:17:40.803+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 34701,
-  "sha256": "5d9a76fc7845df9473f99c466b193a1215ec4ce89689efebf08e454d87cb1853",
+  "bytes": 35515,
+  "sha256": "edc076e7ebbb306f6a8a8d954135698cea69b6f398beca7d399b83419793529e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        33551,
+        34701
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34701,
+        35515
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

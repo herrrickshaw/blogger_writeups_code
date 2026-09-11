@@ -895,3 +895,199 @@ rather than plan to fetch at publication time.
 - **AERR issue archive** — not re-checked today. It was confirmed on 2026-08-31 as still
   ending at Vol. 37 No. 1 (2024), and one week is not a plausible interval for a new issue
   of a journal whose archive has been static since 2024.
+
+## Added 2026-09-08 (Tuesday theme: insurance, reinsurance and financial plumbing)
+
+Second Tuesday pass on this theme (2026-09-01 took the domestic wholesale end — the IRDAI
+obligatory cession and the GI Council statistics), so it was re-aimed at the leg 09-01
+explicitly left untouched: **IFSCA / GIFT City**, which that entry's own dedup run
+recorded as returning zero manifest hits. Dedup re-run today against
+`meta/manifest.json` (snapshot 2026-09-07T19:53+05:30, **257 posts**): a regex for
+`ifsca|gift.?city|reinsur|insur|bullion|fintech|offshore|banking.?unit` over the full
+manifest returns **exactly one post**, `premium-now-claim-later-float-indias` ("Premium
+Now, Claim Later: The Float India's Car Boom Is Building", 2026-08-22), matching only on
+`insur`. `ifsca`, `gift city`, `bullion`, `offshore` and `banking unit` return **zero**,
+unchanged from a week ago and now against 19 more posts.
+
+### IFSCA Bulletin, Jan–Mar 2025 — GIFT IFSC's insurance leg is 94% reinsurance
+
+`ifsca.gov.in/Document/ReportandPublication/ifsca-bulletin-jan-mar-202509052025055132.pdf`,
+fetched 2026-09-08 (HTTP 200, 4.6 MB, text extracted with `pdftotext -layout`). Issued by
+the Division of Economic Policy and Analysis, IFSCA; the front matter states the source is
+"the periodic reports submitted by the regulated entities to IFSCA" and grants explicit
+reproduction permission subject to acknowledgement.
+
+- **Data**: a quarterly statistical bulletin with **26 numbered tables**, free, no login,
+  no paywall, published on the regulator's own domain, and issued each quarter (Apr–Jun,
+  Jul–Sep, Oct–Dec, Jan–Mar editions for 2024 and 2025 all resolve on `ifsca.gov.in`), so
+  it is a genuine time series rather than a one-off report. The tables the blog would
+  actually use: **Table 3** number of IBUs, **Table 4/5** assets and liabilities of IBUs,
+  **Table 10** industry-wise credit exposure of IBUs, **Table 11** *country-wise* exposure
+  of IBUs, **Table 12** IFSC exchange turnover, **Table 24** premium written by IFSC
+  Insurance Offices (IIOs) and Intermediary Offices (IIIOs), **Table 25** line-of-business
+  direct insurance, **Table 26** line-of-business reinsurance. Headline dashboard figures
+  (as on/during Mar 2025): 865 total IFSCA registrations (including in-principle/
+  provisional), banking assets USD 88.51 Bn, average monthly IFSC-exchange turnover USD
+  92.15 Bn, 162 fund management entities with USD 15.74 Bn of commitments raised, 33
+  aircraft lessors and 24 ship lessors, 31.99 tonnes of gold traded on IIBX worth USD 2.9
+  Bn in the quarter, and 18 insurance offices plus 27 intermediary offices.
+- **Finding**: GIFT IFSC is described everywhere as an offshore insurance hub. Its own
+  quarterly tables say the direct-insurance business barely exists. Summing Table 25 across
+  the four quarters of FY 2024-25 gives **USD 12.42 Mn of gross direct written premium**
+  (2.43 + 2.42 + 3.96 + 3.61); summing Table 26 over the same four quarters gives **USD
+  195.45 Mn of reinsurance premium** (44.54 + 48.00 + 44.76 + 58.15). Reinsurance is
+  therefore **94.0% of the centre's insurance book**. The direct **life** line is USD
+  **2.54 Mn for the entire year** (0.46 + 0.82 + 0.90 + 0.36) — under ₹25 crore, from a
+  jurisdiction hosting 18 registered insurance offices. Set against USD 88.51 Bn of banking
+  assets on the same dashboard page, the whole insurance leg is roughly a five-hundredth of
+  the banking leg. The centre did not fail to attract insurance; it attracted one *kind* of
+  insurance, the wholesale cession end, and almost none of the retail end it is marketed on.
+- **Blog fit**: opens the **IFSCA / GIFT City** zero-coverage area and gives the near-empty
+  *Insurance & Reinsurance* label its offshore half. Nearest published post is
+  `premium-now-claim-later-float-indias` (motor float — domestic, retail, the opposite end
+  of the same balance sheet). It also completes the pipe the 2026-09-01 entry opened: India
+  *compels* 4% of every general policy into a domestic state reinsurer (GIC Re) while the
+  offshore centre built to attract international reinsurance capacity writes USD 195 Mn a
+  year. Structural sibling on the blog is `who-collects-indias-gst-and-who` — the same
+  who-writes-vs-who-receives framing.
+- **Caveat**: four things must be checked before publication. (1) Table 24's Jan–Mar 2025
+  IIO figure of USD 61.70 Mn carries a printed footnote — "Reinsurance data of one IIO is
+  under examination and hence not included" — so that one quarter is understated by an
+  unknown amount; the 94% share should be recomputed once the audited figure lands, and
+  quoted as *approximately* 94% until then. (2) All FY 2024-25 figures are marked
+  **unaudited** on both tables. (3) Table 26 shows "Health + PA" collapsing from 26.48 to
+  2.21 between Oct–Dec and Jan–Mar while a separate "Health Insurance" line appears at
+  5.77 in the same quarter — that looks like a reclassification, not a collapse in
+  business, and must be resolved against the following bulletin before either number is
+  narrated. (4) Table 24 (offices) and Tables 25/26 (lines of business) are differently
+  scoped — do not add or divide across them.
+- Grade: **COMMISSIONABLE**. Logged 2026-09-08.
+
+### Weak/off-scope, one line each (triaged, not deep-read)
+
+- **IFSCA Annual Report 2024-25** (issued 2025-08-18; TeamLease RegTech and Cyril Amarchand
+  Mangaldas both carry summaries) — almost certainly the right *annual* primary, but three
+  searches failed to surface a direct PDF URL on `ifsca.gov.in`, and every accessible
+  account of its contents was a law-firm or compliance-vendor summary rather than the
+  document. Not registered on secondhand summaries. Worth one attempt at
+  `ifsca.gov.in/ReportPublication/index/zcGvy-Iqfcg=` (the Annual Reports index, which does
+  resolve) on a future Tuesday; the quarterly bulletins already carry the tables, so this is
+  a completeness errand, not a blocker.
+- **PwC India, "Banking in GIFT IFSC" (April 2024)** — a consultancy explainer, not a data
+  source; its figures are restatements of IFSCA's own. Standing rule on vendor material
+  applies. WEAK, and unnecessary now that the primary is in hand.
+- **`giftcityadvisor.com` mirror of the Jul–Sep 2025 IFSCA bulletin** — a third-party copy of
+  a document the regulator publishes itself. Never cite the mirror; note only that a
+  **Jul–Sep 2025** edition exists, which means the series runs at least two quarters past
+  the edition read today and a piece built on it can be brought to a current vintage.
+- **`gicouncil.in` industry statistics** — surfaced again alongside today's query; **already
+  registered 2026-09-01** with its own caveats. Listed only so the day's candidate count is
+  honest, not re-triaged.
+
+## Added 2026-09-09 (daily task, Wednesday: energy and gas)
+
+The weekday brief warns that energy is heavily covered and to bias hard toward something
+unrun. Dedup measured how heavily: a broad energy regex over the **257-post manifest**
+(snapshot 2026-09-07) returns **93 hits** — more than a third of the blog. But the same
+sweep found the coverage is almost entirely on the **molecule** side. Narrow regexes
+returned: nuclear **0**, energy-efficiency/PAT/appliance-labelling **0**, domestic coal
+supply (Coal India / e-auction / washery / linkage) **0**, transmission-and-grid **0** real
+hits (one false positive on "SIP"), power-market/exchange **0** real (all forex false
+positives). A precise electricity-distribution regex
+(`discom|at&c|electricity|power utilit|rdss|distribution util|smart meter|kwh`) returns
+exactly **one** post. So the blog has 93 energy pieces and essentially nothing on the
+**electron** side: the grid, the discoms, the power market, nuclear. That asymmetry is the
+day's real finding and it should shape future Wednesdays.
+
+The one electricity post is `discom-debt-relief-token-charge` — an interactive *calculator*
+(read directly, 4,673 chars), not a reported piece. It models a per-connection token charge
+against discom debt, with defaults sourced to ICRA May 2025 (debt ₹7.4 lakh crore), IISD
+2025 (subsidies ₹2.1 lakh crore), CEA/Manorama (8.7% CAGR) and PFC (~70% rural billing
+efficiency), and its standing premise is **"₹64,000 cr added to debt every year"**. Today's
+source bears directly on that premise, which makes this a materially-updating candidate
+against a named slug rather than a new-beat land grab.
+
+### PIB / Ministry of Power — two releases, six weeks apart, two different FY25 AT&C loss figures
+
+Both fetched directly (`pib.gov.in` returns HTTP 403 to a plain fetch; a browser
+User-Agent over curl returns HTTP 200 — the standing PIB access note holds).
+
+- **Data**: two Press Information Bureau releases from the **same ministry**, free, no login.
+  (1) **PRID 2200450**, *"Key Initiatives to Bring Down AT&C Losses of Power Distribution
+  Utilities"*, **08 DEC 2025 5:02PM by PIB Delhi** — a written reply by the Minister of
+  State for Power, Shri Shripad Yesso Naik, in the **Rajya Sabha**. (2) **PRID 2215761**,
+  *"Power Distribution Utilities Record Positive PAT After Years of Losses; This Marks a New
+  Chapter, Says Power Minister"*, **18 JAN 2026 10:34AM by PIB Delhi** — a press release
+  quoting the Union Minister of Power, Shri Manohar Lal. The underlying annual series is
+  PFC's *Report on Performance of Power Utilities*; neither release names its source.
+- **Finding**: the two releases give **different AT&C loss figures for the same financial
+  year**. The December parliamentary answer: AT&C losses "reduced from 21.91% in FY 21 to
+  **16.16% in FY25**". The January press release: AT&C losses "reduced from 22.62% in FY
+  2013-14 to **15.04% in FY 2024-25**". FY25 and FY 2024-25 are the same year, and the gap
+  is **1.12 percentage points**. This is not cosmetic. RDSS — the flagship distribution
+  scheme, ₹2.83 lakh crore sanctioned per the December release — targets a pan-India AT&C
+  band of **12–15%**. At 15.04% the scheme lands just outside its own target; at 16.16% it
+  misses by more than a point. The lower number appears in the celebratory press release;
+  the higher one was given under parliamentary answer six weeks earlier. Alongside it, the
+  January release reports the sector's first positive bottom line in years: **PAT of
+  +₹2,701 crore in FY 2024-25**, against **−₹25,553 crore in FY 2023-24** and **−₹67,962
+  crore in FY 2013-14** — a ₹28,254 crore swing in a single year — and an ACS–ARR gap
+  narrowing from ₹0.78/kWh (FY 2013-14) to **₹0.06/kWh (FY 2024-25)**.
+- **Blog fit**: opens the confirmed zero-coverage **electricity distribution** area, and
+  materially updates `discom-debt-relief-token-charge`, whose entire model rests on discoms
+  *adding* ₹64,000 crore of debt a year — a premise a sector-wide positive PAT puts in
+  question, or at least dates. Nearest published neighbours are
+  `thermal-parity-is-dead-what-85-oil-and` (power economics reached through fuel prices) and
+  `rooftop-solar-is-working-household` (the consumer end of distribution). Structurally it
+  is the same move as `fourteen-years-of-indian-wholesale` and the WPI-rebasing work: take
+  an official number everyone repeats and ask which official number.
+- **Caveat**: five, and the first is the one that could kill the piece. (1) **The two
+  releases may not have the same denominator.** Neither states which utilities it counts —
+  all distribution utilities, only RDSS participants, discoms-plus-power-departments, or
+  state-only. The January PAT sentence says "DISCOMs and power departments" explicitly; the
+  December AT&C sentence says only "distribution utilities at the national level". If the
+  coverage differs, the 1.12-point gap is a scope difference, not a contradiction, and the
+  piece must say so — resolve this against the PFC report's utility count before writing
+  anything. (2) **FY25 figures are almost certainly provisional.** PFC's own FY 2023-24
+  edition covered 63 of 72 distribution utilities with 52 of 59 submitting audited accounts
+  (trade-press figure, see WEAK below); an FY25 number published in Dec 2025 / Jan 2026
+  cannot be more audited than that, and provisional numbers get revised. (3) **AT&C loss is
+  a ratio, and ratios move for accounting reasons.** The same January release lists the
+  *Electricity Distribution (Accounts and Additional Disclosure) Rules, 2025* and new
+  subsidy-accounting rules among its achievements — changes to how subsidy is booked move
+  ACS–ARR and AT&C without a single unit of stolen power being recovered. (4) **₹0.06/kWh
+  is suspiciously round and is a national average** that hides state dispersion; do not
+  narrate it as "cost recovery achieved". (5) The FY21 and FY 2013-14 baselines are
+  different in the two releases, so the *trends* are not directly comparable either — only
+  the FY25 endpoint is a like-for-like clash.
+- Grade: **COMMISSIONABLE**. Logged 2026-09-09.
+
+### Weak/off-scope, one line each (triaged, not deep-read)
+
+- **PFC, *Report on Performance of Power Utilities* (2023-24 and 2024-25 editions)** — the
+  underlying annual series for every figure above, and the primary this piece really wants.
+  **Currently unreachable.** `pfcindia.com` now fails TLS (its certificate covers only
+  `*.pfcindia.co.in`), and `pfcindia.co.in` has migrated to a React SPA that returns the
+  same 2,322-byte JavaScript shell — HTTP 200, `text/html` — for *every* legacy
+  `ensite/DocumentRepository/...` PDF path indexed by search engines, including the
+  2024-25 edition, with a browser User-Agent and Referer set. The Wagtail CMS at
+  `cms.pfcindia.co.in` serves documents from `/media/documents/`, but the site's own API
+  routes (`/api/v2/data_listing/`, `/api/v2/search-page/`) 404 from outside the app. Not
+  registered on trade-press figures alone. **Next attempt should drive the SPA in a browser
+  to capture the real `cms.pfcindia.co.in/media/documents/` URL**, which is the one durable
+  path — this is a retrieval problem, not a source problem, and the document is free.
+- **Power Line Magazine, "PFC releases latest report... for 2023-24" (02 June 2025)** —
+  fetched, and the only accessible account of the FY24 edition: AT&C **rose** 15.11% →
+  16.12% between FY23 and FY24, billing efficiency 86.98% → 86.91%, collection efficiency
+  97.6% → 96.51%, 63 of 72 utilities covered. Useful as corroboration that the series was
+  *worsening* the year before both PIB releases claim improvement — but it is trade press
+  summarising a document, so **cite the PFC report or nothing**. WEAK as a citation,
+  valuable as a pointer.
+- **PFC/MoP, *13th Annual Integrated Rating & Ranking of Power Distribution Utilities***
+  (indexed at two `pfcindia.co.in` paths, one dated 18 06 2025) — the per-discom grading
+  companion to the report above and the natural source for a state-by-state map in the
+  blog's usual style. Same broken repository, so unverified; note it for the same browser
+  attempt.
+- **Dataful / FACTLY structured discom tables** — a third-party re-publication of PFC's
+  numbers in clean form. Convenient, but it is a mirror of a government series; the standing
+  rule applies. Never cite in place of PFC.

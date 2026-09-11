@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-09-07T19:38:53.987+05:30",
+  "updated": "2026-09-11T00:12:45.444+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 54328,
-  "sha256": "64a2a35b73070d51889006571173a6fd86a70613f088768edd6db239b6b5daf9",
+  "bytes": 55298,
+  "sha256": "d510514dbf215879040560f21ee43157ea016d241808ffc9345749d9a5e95bbc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        54328,
+        55298
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

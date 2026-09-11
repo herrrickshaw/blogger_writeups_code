@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-09-07T19:36:15.421+05:30",
+  "updated": "2026-09-10T22:46:00.631+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 25437,
-  "sha256": "44b7679231eeaf583b354cd35c3d2c32f6df5bb35b5b7083782f21fadc9a889c",
+  "bytes": 27749,
+  "sha256": "f826aee8bb587594b0237e56261a3b433f8ab75c97bdcfd5040431c1bb3b4854",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25437,
+        27749
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

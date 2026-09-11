@@ -28,4 +28,9 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...category is growing at a reported 10.68 per cent compound annual rate, meaning retail in...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...sults returned conflicting GST rates (5 per cent cited in one source, 12 per cent in sev...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...tes (5 per cent cited in one source, 12 per cent in several others) likely reflecting su...
+  suggested: percent

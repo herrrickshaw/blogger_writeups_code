@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
   "slug": "india-will-finance-waste-to-energy",
   "published": "2026-08-26T20:20:49.000+05:30",
-  "updated": "2026-09-09T08:07:20.109+05:30",
+  "updated": "2026-09-11T00:14:45.825+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37763,
-  "sha256": "a7440214d889a1fbb821725223ba7c24414dc9b7fe9c4341447fab28a3d2cb3d",
+  "bytes": 38679,
+  "sha256": "f5f912e2aff23986e82efacc2414adee704b8cdedf29c558943587adbd20a468",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        36513,
+        37919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37919,
+        38679
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

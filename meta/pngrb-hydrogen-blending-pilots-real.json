@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
   "slug": "pngrb-hydrogen-blending-pilots-real",
   "published": "2026-09-02T03:43:03.000+05:30",
-  "updated": "2026-09-07T19:33:21.414+05:30",
+  "updated": "2026-09-10T22:45:24.006+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 29821,
-  "sha256": "b49d3c79dbec6f83843f3ea68683838d1e898f2604be42fd3bc419567230010a",
+  "bytes": 32602,
+  "sha256": "a44107e9aacec244269ac1d82d8ff07f85cb42a1cbbfc57db586737e331c8d42",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        29821,
+        32602
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

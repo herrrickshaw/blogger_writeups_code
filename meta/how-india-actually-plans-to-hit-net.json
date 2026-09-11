@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-india-actually-plans-to-hit-net.html",
   "slug": "how-india-actually-plans-to-hit-net",
   "published": "2026-08-28T07:26:34.000+05:30",
-  "updated": "2026-09-09T08:54:34.362+05:30",
+  "updated": "2026-09-10T23:22:27.396+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 38128,
-  "sha256": "bbd3f6e0afef95170575e9daec298fa0fb484930a4cd232d62991f94b45d0dea",
+  "bytes": 39107,
+  "sha256": "16d1d276233b6fb744f3ce014f27e7ec7d9383ea51a86b693b21382f060aeaae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.4",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        37110,
+        38128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        38128,
+        39107
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

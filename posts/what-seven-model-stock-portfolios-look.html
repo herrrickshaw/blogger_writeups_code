@@ -115,6 +115,10 @@ if(skip){
 
 <h2 class="gb-h2" id="s1">The factors doing the actual stock-picking</h2>
 <p>This piece is a follow-up to <a href="https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html" style="color:#12408f">the multi-screen quant shortlist published on this blog on 24 July 2026</a>. That shortlist, and the model portfolios built from it, come out of a rules-based screening approach that stacks eight distinct factor methodologies rather than relying on any single one: <strong>Darvas-box breakouts</strong> (price clearing a defined consolidation range on rising volume), <strong>Piotroski quality scoring extended with a debt-reduction check</strong> (profitability, leverage, and efficiency trends, not just a snapshot), <strong>Coffee Can investing</strong> (long-holding-period quality compounders, named for the old habit of putting valuables in a tin and forgetting about them), the <strong>Magic Formula</strong> (ranking on the combination of earnings yield and return on capital), a <strong>momentum/golden-cross overlay</strong> (moving-average crossovers confirming an established trend rather than a one-day spike), <strong>breakout-quality grading</strong> (an A-through-F score on how clean a technical setup is), a <strong>machine-learning bullish-flag classifier</strong> clipped to reduce false positives, and a hard <strong>liquidity gate</strong> that excludes anything too thin to trade at size. Positions that clear enough of these filters simultaneously get grouped by sector and market into co-movement "model portfolios," sized by inverse volatility and capped at 25% per name so no single holding can dominate a bundle. The question this piece asks of that stack, across the India and US markets: does combining eight factors this way actually produce a portfolio you couldn't get from a plain index fund, and if so, is it actually winning?</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/BSE_-_Bombay_Stock_Exchange_Building.jpg/960px-BSE_-_Bombay_Stock_Exchange_Building.jpg" alt="The Bombay Stock Exchange building in Mumbai, India" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">The Bombay Stock Exchange in Mumbai — one of the two markets (India and US) the eight-factor stock-picking system behind these seven model portfolios screens. <a href="https://commons.wikimedia.org/wiki/File:BSE_-_Bombay_Stock_Exchange_Building.jpg" rel="noopener noreferrer">BSE - Bombay Stock Exchange Building</a>, Niyantha Shekhar, CC BY 2.0, via Wikimedia Commons.</figcaption>
+</figure>
 
 
 <h2 class="gb-h2" id="s2">The headline track record</h2>
@@ -134,7 +138,34 @@ if(skip){
 <tr><td>IN &middot; Financial Services + Consumer Cyclical</td><td>10</td><td>-0.4%</td><td>-8.7%</td></tr>
 <tr><td>US &middot; Financial Services</td><td>5</td><td>-0.5%</td><td>-9.1%</td></tr>
 </tbody>
-</table></div>
+</table>
+<figure style="margin:1.6rem 0"><svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 400" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="400" fill="#f8f9fa"/>
+<text x="350" y="30" text-anchor="middle" font-size="17" font-weight="700" fill="#212529">Seven Model Portfolios: Alpha vs. Market</text>
+<text x="350" y="49" text-anchor="middle" font-size="12" fill="#495057">% return in excess of the broad market, since formation (23 Jul–28 Aug 2026)</text>
+<line x1="450" y1="65" x2="450" y2="365" stroke="#212529" stroke-width="1.5"/>
+<text x="442" y="98" text-anchor="end" font-size="10.5" fill="#212529">US Healthcare</text>
+<rect x="450" y="85" width="173" height="18" fill="#1a8f4c"/>
+<text x="629" y="98" text-anchor="start" font-size="10" fill="#212529">+21.6%</text>
+<text x="442" y="138" text-anchor="end" font-size="10.5" fill="#212529">US Energy</text>
+<rect x="444" y="125" width="6" height="18" fill="#c0392b"/>
+<text x="438" y="138" text-anchor="end" font-size="10" fill="#212529">-0.7%</text>
+<text x="442" y="178" text-anchor="end" font-size="10.5" fill="#212529">US Tech+Industrials</text>
+<rect x="426" y="165" width="24" height="18" fill="#c0392b"/>
+<text x="420" y="178" text-anchor="end" font-size="10" fill="#212529">-3.0%</text>
+<text x="442" y="218" text-anchor="end" font-size="10.5" fill="#212529">US Fin.Svcs+RE</text>
+<rect x="401" y="205" width="49" height="18" fill="#c0392b"/>
+<text x="395" y="218" text-anchor="end" font-size="10" fill="#212529">-6.1%</text>
+<text x="442" y="258" text-anchor="end" font-size="10.5" fill="#212529">US Healthcare+Ind.</text>
+<rect x="391" y="245" width="59" height="18" fill="#c0392b"/>
+<text x="385" y="258" text-anchor="end" font-size="10" fill="#212529">-7.4%</text>
+<text x="442" y="298" text-anchor="end" font-size="10.5" fill="#212529">IN Fin.Svcs+Cons.Cyc.</text>
+<rect x="380" y="285" width="70" height="18" fill="#c0392b"/>
+<text x="374" y="298" text-anchor="end" font-size="10" fill="#212529">-8.7%</text>
+<text x="442" y="338" text-anchor="end" font-size="10.5" fill="#212529">US Financial Services</text>
+<rect x="377" y="325" width="73" height="18" fill="#c0392b"/>
+<text x="371" y="338" text-anchor="end" font-size="10" fill="#212529">-9.1%</text>
+</svg><figcaption class="gb-note" style="margin-top:.4rem">Source: figures as stated in this article.</figcaption></figure></div>
 
 <p>Six of seven bundles are producing a <em>positive alpha sign only when you don't adjust for the market's own move</em> &mdash; four of the six are still up in absolute terms, but a rising broad market has been carrying them faster than they've been carrying themselves. Only the five-name US Healthcare bundle (BAX plus four others) is compounding faster than the market it's implicitly being measured against. That's one clean success out of seven bets on a construction methodology, which is a smaller number than the 75% headline hit rate on individual picks would suggest, and it's the kind of gap that only becomes visible once return and alpha are pulled apart.</p>
 

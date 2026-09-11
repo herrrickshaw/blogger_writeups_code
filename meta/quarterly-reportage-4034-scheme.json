@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
   "slug": "quarterly-reportage-4034-scheme",
   "published": "2026-08-04T13:58:09.000+05:30",
-  "updated": "2026-09-09T13:23:20.068+05:30",
+  "updated": "2026-09-10T22:50:21.997+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 543611,
-  "sha256": "8459e6aa4a4f71a2705e17e0c6d48605dc9c2d4387d1753b4b3cefada0195568",
+  "bytes": 543015,
+  "sha256": "dd7e34d9a382047be0769ef12a100712705cd0425cee9e402325819b35a5c09d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "2.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -272,6 +272,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.3",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        541507,
+        543015
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

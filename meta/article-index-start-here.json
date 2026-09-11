@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "46.0.1",
+  "version": "46.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1512,25 +1512,12 @@
     },
     {
       "version": "46.0.0",
-      "date": "2026-09-08T07:24:41+00:00",
+      "date": "2026-09-10T22:54:22+05:30",
       "level": "major",
-      "reason": "figures changed (+4/-2 distinct numbers)",
+      "reason": "figures changed (+10/-2 distinct numbers)",
       "bytes": [
         322124,
-        326897
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "scheduled sync"
-    },
-    {
-      "version": "46.0.1",
-      "date": "2026-09-10T10:13:17+05:30",
-      "level": "minor",
-      "reason": "rebuilt index for +1 new post",
-      "bytes": [
-        334244,
-        335111
+        334442
       ],
       "url_changed": null,
       "markers_changed": null,

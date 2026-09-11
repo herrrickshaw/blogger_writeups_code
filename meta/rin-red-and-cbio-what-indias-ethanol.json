@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-09-09T08:06:11.390+05:30",
+  "updated": "2026-09-11T00:10:06.322+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 39432,
-  "sha256": "2a0187116be65339e4c164d1f8f3bf674dd135d99d7718f4114989e3e6662095",
+  "bytes": 40165,
+  "sha256": "0efb7df95756901f32fc85337525fb846e9d21465e2fcc2879fce2a1ebc0b902",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "minor",
+      "reason": "prose grew 18,316→18,714 chars with no new figures",
+      "bytes": [
+        38592,
+        39424
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39424,
+        40165
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

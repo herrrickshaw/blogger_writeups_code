@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html",
   "slug": "india-cannot-sell-china-free-medicine",
   "published": "2026-08-23T10:16:58.000+05:30",
-  "updated": "2026-09-09T08:06:50.694+05:30",
+  "updated": "2026-09-11T00:01:50.888+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 35741,
-  "sha256": "0ff7a1e87cfd485390a0716e95aeae1166fc62be38594e3abd58d61e97807350",
+  "bytes": 36575,
+  "sha256": "75dd36815d4db6714de51bf39dc6e1167f63caf6630d15b3a2c399559669a5fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "3.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-10T22:54:22+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        34937,
+        35741
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
+    },
+    {
+      "version": "3.0.1",
+      "date": "2026-09-11T00:25:49+05:30",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        35741,
+        36575
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }
