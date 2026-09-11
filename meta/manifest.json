@@ -24168,12 +24168,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
       "slug": "india-ec-approval-funnel-parivesh-20",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-11T00:10:53.029+05:30",
+      "updated": "2026-09-11T11:37:47+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 21393,
-      "sha256": "48fb013f13dedfab921bab40e214f8c1d2bb23a433125398cc46e54fd3e55579",
+      "bytes": 21433,
+      "sha256": "d4a38f2ac4bec80828783435e1c48098b70005df2edb9dc6a113907fd592ca55",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24185,7 +24185,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -24437,6 +24437,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-11T11:37:47+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the EC-approval-funnel bar chart",
+          "bytes": [
+            21393,
+            21433
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"113,970\" Filed-bar label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
     },
