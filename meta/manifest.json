@@ -1,6 +1,6 @@
 {
   "snapshot": "2026-09-11T07:27:48+00:00",
-  "count": 269,
+  "count": 270,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -52020,6 +52020,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed OVERFLOW-RIGHT (\"₹36,000–38,000 cr\" FY2027 label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+        }
+      ]
+    },
+    "8533332712441846913": {
+      "id": "8533332712441846913",
+      "title": "India's Battery Storage Boom Is Outrunning Both Its Tariffs and Its Factories",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
+      "slug": "indias-battery-storage-boom-is",
+      "published": "2026-09-11T21:20:11+05:30",
+      "updated": "2026-09-11T21:20:11+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Industrial Policy"
+      ],
+      "bytes": 44514,
+      "sha256": "25469d5be6ab031bf3ea740b15d1c60e7cdb1d2b9e08e96924f31c2fc4b93391",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-11T21:20:11+05:30",
+          "level": "initial",
+          "reason": "first publish",
+          "note": "New post: India's BESS/grid-storage market — installed capacity growth (1,082 MWh end-2025 to ~9.3 GWh mid-2026), the two VGF tranches, and the piece's central finding that discovered BESS tariffs fell roughly twice as fast (71-86%) as battery pack costs (36.5%) since 2022, per IEEFA/JMK Research, alongside the ACC PLI manufacturing scheme's 2.8%-of-target commissioning shortfall. Explicitly narrates three unreconciled data discrepancies (tendered-capacity units, PSP pipeline stage-counts, tariff-decline percentages) as a market-immaturity finding rather than resolving them. Every PIB/MNRE/CEA/IESA-attributed figure flagged as primary-by-attribution, secondary-by-access since pib.gov.in, mnre.gov.in, cea.nic.in and indiaesa.info were all blocked to direct fetch in this session. Includes one SVG chart (BESS tariff decline vs. battery-pack-cost benchmark) and two comparison tables. Published directly per explicit user instruction."
         }
       ]
     }
