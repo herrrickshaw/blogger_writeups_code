@@ -51716,13 +51716,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/icra-rates-most-of-indias-economy.html",
       "slug": "icra-rates-most-of-indias-economy",
       "published": "2026-09-03T10:20:13.000+05:30",
-      "updated": "2026-09-10T22:42:47.528+05:30",
+      "updated": "2026-09-11T11:36:16+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Industrial Policy"
       ],
-      "bytes": 38907,
-      "sha256": "b1a3f30c67fb4b7e710ddeff7ed3ac55b0645a0b1decf63877b1c64fd6970536",
+      "bytes": 38932,
+      "sha256": "f4603d04e8709c0861686d6e7048cdc979d92cf19840b7738327cd95af455970",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -51734,7 +51734,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.4",
+      "version": "1.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -51794,6 +51794,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.5",
+          "date": "2026-09-11T11:36:16+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the aviation-losses bar chart",
+          "bytes": [
+            38907,
+            38932
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"₹36,000–38,000 cr\" FY2027 label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
     },
