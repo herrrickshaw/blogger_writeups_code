@@ -30592,13 +30592,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
       "slug": "ten-cubic-metres-hour-indias-first",
       "published": "2026-08-20T10:01:38.000+05:30",
-      "updated": "2026-09-11T00:13:53.758+05:30",
+      "updated": "2026-09-11T21:29:23+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 34395,
-      "sha256": "54342fb3293d9c4814632cb37cf20ca6b1ed156851167bb881d083c07265057a",
+      "bytes": 34654,
+      "sha256": "5d8fe0023accb71b6bb7f90019e040dc9bc149a70916688bce2e3ce34aa0e652",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -30610,7 +30610,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -30696,6 +30696,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-11T21:29:23+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: left-edge and right-edge overflow on the port green-fuel-scale bar chart",
+          "bytes": [
+            34395,
+            34654
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-LEFT (\"VOC Port hydrogen pilot,\" row label) by wrapping into two lines, and OVERFLOW-RIGHT (a 1288px-wide single-line caveat note) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
