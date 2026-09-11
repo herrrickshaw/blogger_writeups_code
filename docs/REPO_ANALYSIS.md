@@ -178,17 +178,23 @@ is in `posts/`. Either the sidecar should be retained when a post leaves the
 feed, or §5 should name the exception.
 
 > **Status, re-read 30 August 2026 — this gap has closed, but not in the way
-> either option above proposes.** Every slug in `posts/` now has a `meta/`
-> sidecar — the `comm(1)` check reports nothing uncovered. (Deliberately no
-> count here: the archive gains posts most days, so a number would be wrong
-> within a day while the coverage claim stays true.) The 19 uncovered posts
-> were not given
+> either option above proposes.** The 19 uncovered posts were not given
 > sidecars; the post files themselves were dropped from `posts/`, taking the
 > question with them. So `MAINTENANCE.md` §5's recovery guarantee is currently
 > accurate as written, and the choice this section asked for was never made —
 > it stopped applying. That is worth knowing before §5 is edited: the next post
 > to leave the public feed will re-open the same question, and nothing in the
 > tooling records which of the two behaviours is intended.
+>
+> **Reading the `comm(1)` check, re-read 11 September 2026.** It is normally
+> non-empty, and that is not this finding. `blogger_api.py` writes the post and
+> `snapshot.py` writes the sidecar, so every post published since the last
+> snapshot run shows as uncovered until the next one — on the day of this
+> re-read, two slugs were in exactly that state, both published hours earlier.
+> An uncovered slug only means what §2.4 says it means once it has survived
+> several snapshot runs. (Deliberately no counts anywhere in this note: the
+> archive gains posts most days, so a number would be wrong within a day while
+> the claims around it stay true.)
 
 ### 2.5 Semver is being applied to generated pages, where it means nothing
 
