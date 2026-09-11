@@ -38575,14 +38575,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html",
       "slug": "the-battery-passport-was-built-for",
       "published": "2026-08-27T09:16:18.000+05:30",
-      "updated": "2026-09-11T00:17:40.803+05:30",
+      "updated": "2026-09-11T21:33:46+05:30",
       "labels": [
         "Circularity & Waste-to-Value",
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 35515,
-      "sha256": "edc076e7ebbb306f6a8a8d954135698cea69b6f398beca7d399b83419793529e",
+      "bytes": 35597,
+      "sha256": "287b88c0d4207c3c8858513108f79df19a7895e179ac9718cd510afeec067350",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38594,7 +38594,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38680,6 +38680,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-11T21:33:46+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: left- and right-edge overflow on the battery-registries diagram caption",
+          "bytes": [
+            35515,
+            35597
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-LEFT and OVERFLOW-RIGHT (a single centered caption line running past both canvas edges) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
