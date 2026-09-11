@@ -47566,12 +47566,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
       "slug": "the-price-and-tap-two-levers-behind",
       "published": "2026-08-04T06:09:47.000+05:30",
-      "updated": "2026-09-11T00:23:01.175+05:30",
+      "updated": "2026-09-11T21:45:44+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 23927,
-      "sha256": "458a5227269344f8158ea6f070cb8bd98fa7dfc1f595d33a494ec2be5ee58608",
+      "bytes": 23959,
+      "sha256": "ee292ce662bcc01123306027009acafe1bb68abddfcb9cd1488e764f5ad8b38a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -47583,7 +47583,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -47817,6 +47817,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-11T21:45:44+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the RBI-liquidity-window bar chart",
+          "bytes": [
+            23927,
+            23959
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"₹3.5 lakh cr\" OMO-purchases label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
     },
