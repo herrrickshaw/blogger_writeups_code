@@ -176,10 +176,15 @@ early commits, so it does not shrink as the archive grows. Every snapshot
 commit is reachable from `HEAD` anyway, so no date filter is needed — compare
 the two counts yourself if you want to see the gap.
 
-Sidecar coverage is currently **complete** — every slug in `posts/` has a
-`meta/` sidecar, so MAINTENANCE §5's per-post `version_history` recovery covers
-the whole archive. It was not always so: 19 posts were uncovered as of
-2026-08-18. If that gap reopens, this finds it:
+Sidecar coverage is **complete apart from posts published since the last
+snapshot run**, which is the normal steady state: `blogger_api.py` writes the
+post, `snapshot.py` writes the sidecar, and between those two the slug shows up
+as uncovered. Those clear themselves on the next snapshot. What is *not* normal
+is an uncovered slug that survives several snapshot runs — that is a post which
+left the public feed and took its sidecar question with it (19 were in that
+state as of 2026-08-18), and MAINTENANCE §5's per-post `version_history`
+recovery does not cover it. Run this, then re-run it after the next snapshot to
+tell the two apart:
 
 ```bash
 comm -23 <(ls posts/ | sed 's/\.[^.]*$//' | sort -u) \
