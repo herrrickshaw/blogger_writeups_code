@@ -36782,13 +36782,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
       "slug": "a-million-wine-market-behind-150-wall",
       "published": "2026-08-30T13:25:43.000+05:30",
-      "updated": "2026-09-07T20:01:26.165+05:30",
+      "updated": "2026-09-11T06:13:49+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 30890,
-      "sha256": "f2a656dd7e00af43aae9a2c1158cef43f195c6717a2de529b14f11f82dfae0c9",
+      "bytes": 30899,
+      "sha256": "9fc782cc45aeb7b3e8a852572c28b13544124b892a084bec0afa61ec60d8e407",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36800,7 +36800,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.3",
+      "version": "1.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36847,6 +36847,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "1.0.4",
+          "date": "2026-09-11T06:13:49+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            30890,
+            30899
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Two fixes on the India-wine-market forecast bar chart. (1) The 2032 bar's top (y=68) collided with the subtitle (55.4px). (2) While rescaling, found the two bars weren't drawn to a consistent scale: at the original heights, $802.9M (4.11x $195.3M) was drawn only 3.26x as tall as the $195.3M bar, visually understating the forecast growth. Rescaled both bars to a single consistent linear scale (new 2032 bar top y=95, comfortably below the subtitle) so bar height now accurately reflects the value ratio; recomputed value-label positions to match."
         }
       ]
     },
