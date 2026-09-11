@@ -17970,12 +17970,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
       "slug": "india-forest-wildlife-crz-clearances",
       "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-11T00:07:34.398+05:30",
+      "updated": "2026-09-11T11:39:12+05:30",
       "labels": [
         "Environment & Clearances"
       ],
-      "bytes": 25516,
-      "sha256": "fe2bfaabca3e54fdce43b9552cf2f53e9215a7e5d7f598838f817fcbd8279cce",
+      "bytes": 25620,
+      "sha256": "bec6b445e4eb5043e29ce59a5b7c03ae2feb5ab85b56ac04e5ffff2b74dc01f1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17987,7 +17987,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18226,6 +18226,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-11T11:39:12+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the green-clearances-grant-rate source line",
+          "bytes": [
+            25516,
+            25620
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 120.6px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
