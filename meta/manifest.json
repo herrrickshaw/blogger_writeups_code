@@ -48794,14 +48794,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html",
       "slug": "mapping-indias-other-pipelines-every",
       "published": "2026-09-08T09:01:53.000+05:30",
-      "updated": "2026-09-10T23:25:21.425+05:30",
+      "updated": "2026-09-11T11:16:27+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Infrastructure & Investment"
       ],
-      "bytes": 23891,
-      "sha256": "d4e7cede409886d09740d99edaa3ce64d48844eaa4ee2be229b3c1287a677c35",
+      "bytes": 23910,
+      "sha256": "789e5506e81285d49bd420e1b6a746462106a155a76ac5a016faa58c188049d3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -48813,7 +48813,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48834,6 +48834,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-09-11T11:16:27+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the product-pipeline-by-company bar chart",
+          "bytes": [
+            23891,
+            23910
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"11,593 km\" value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the Indian Oil bar (white text, right-aligned) instead of after it."
         }
       ]
     },
