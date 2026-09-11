@@ -1656,14 +1656,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html",
       "slug": "indias-draft-seeds-bill-cuts-states",
       "published": "2026-09-10T08:27:41.000+05:30",
-      "updated": "2026-09-10T23:24:07.357+05:30",
+      "updated": "2026-09-11T11:45:05+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "India",
         "Industrial Policy"
       ],
-      "bytes": 22466,
-      "sha256": "fc588b88987bccdf1ef3f3fa3e791bb1b541046964f7b281f36682c11b8925d4",
+      "bytes": 22481,
+      "sha256": "6976b38c289a178edc72c94099631ccda73e74f5bf62daabefbbc511ff77a839",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1675,7 +1675,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1696,6 +1696,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-09-11T11:45:05+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the seed-committee-seats bar chart",
+          "bytes": [
+            22466,
+            22481
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"27 members\" total-committee label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
     },
