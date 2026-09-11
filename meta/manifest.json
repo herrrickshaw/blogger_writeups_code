@@ -6100,14 +6100,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html",
       "slug": "what-actually-happens-to-indias-used",
       "published": "2026-08-23T22:08:12.000+05:30",
-      "updated": "2026-09-10T23:59:54.469+05:30",
+      "updated": "2026-09-11T22:11:53+05:30",
       "labels": [
         "Chemicals",
         "Circularity & Waste-to-Value",
         "India"
       ],
-      "bytes": 41847,
-      "sha256": "466c5d3c807cbf9e513cb1638cb2b96f8898f1908ddcc527487bbedcb0c6f3d3",
+      "bytes": 41863,
+      "sha256": "dc34e9ee8e0e7b8d674ddd226abadd5d2dd5a6187cb43f85e8644f244a6865b6",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6119,7 +6119,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -6205,6 +6205,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-11T22:11:53+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: title/value-label collision and double-escaped entity",
+          "bytes": [
+            41847,
+            41863
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed COLLISION (chart title overlapping the \"196.5\" value label on the tallest bar) by moving that label inside the bar body in white; fixed DOUBLE-ESCAPED-ENTITY (\"&amp;mdash;\" rendering as literal text instead of an em dash) in the subtitle."
         }
       ]
     },
