@@ -34832,13 +34832,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
       "slug": "the-fcc-lever-trading-petrol-yield-for",
       "published": "2026-08-13T04:07:57.000+05:30",
-      "updated": "2026-09-11T00:15:15.241+05:30",
+      "updated": "2026-09-11T21:40:50+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 37349,
-      "sha256": "771a769b9dd07ecb59d46cb6c282179b34cc69b6dca79b034ea533f01c6178a9",
+      "bytes": 37496,
+      "sha256": "99197ffab5f6bc3d791ee2cdf1b9633f503ffa7cbbf118d7a853977e4131dfb2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34850,7 +34850,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35040,6 +35040,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-11T21:40:50+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the crude-storage-by-site chart caveat note",
+          "bytes": [
+            37349,
+            37496
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (single-line capacity caveat running 89.1px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
