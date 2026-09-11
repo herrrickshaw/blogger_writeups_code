@@ -130,8 +130,31 @@ Configuration lives in `~/.config/market-secrets/credentials.env`, never in the
 repo — `XWIKI_BASE_URL`, `XWIKI_USER`, `XWIKI_TOKEN`, and optionally
 `XWIKI_SPACE` (defaults to `masaladeutsch`).
 
-Not yet wired to a schedule. Running it from CI needs the same four values as
-GitHub repository secrets; until then it is a manual step after a docs change.
+Configuration is read from the environment first, so CI can pass repository
+secrets, and otherwise from that file. A *partial* configuration is a hard
+error rather than a default — three values out of four silently pointing at
+the wrong wiki is worse than stopping.
+
+**CI:** `.github/workflows/xwiki-mirror.yml` runs the mirror after docs land
+on `main` (and on manual dispatch, with a dry-run option). It runs post-merge
+rather than on pull requests, because the wiki is a window onto what the repo
+actually says and mirroring a branch would show readers something never
+agreed.
+
+The job is a clean no-op until `XWIKI_BASE_URL`, `XWIKI_USER` and
+`XWIKI_TOKEN` exist as repository secrets (`XWIKI_SPACE` optional). That is
+deliberate: a workflow that goes red on every docs push because it is not
+configured yet trains everyone to ignore it, which is exactly how
+archive-sync's real failures went unread for three days in Aug–Sep 2026.
+
+The workflow also runs `--self-test` before touching the live wiki, so a
+broken tool fails against a local stub rather than against the instance.
+
+One drift trap is guarded: the workflow's `paths:` filter and the tool's
+`MIRRORED` list must agree, or a newly mirrored doc silently stops triggering
+the job — and a workflow that never fires looks identical to one with nothing
+to do. The self-test compares the two and fails if any mirrored doc is
+uncovered.
 
 ## 9. Review cycle
 

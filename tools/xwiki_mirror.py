@@ -13,17 +13,22 @@ trusting the HTTP status: this archive has been bitten before by a step that
 reported success without checking (the daily chain's `git push` still echoes
 "committed + pushed" whether or not the push worked).
 
-Configuration comes from ~/.config/market-secrets/credentials.env, never from
-the repo:
+Configuration comes from the environment first (so CI can pass repository
+secrets) and otherwise from ~/.config/market-secrets/credentials.env. Never
+from the repo:
 
     XWIKI_BASE_URL=https://wiki.example.org        # openDesk XWiki root
     XWIKI_USER=some.user
     XWIKI_TOKEN=...                                # password or API token
     XWIKI_SPACE=masaladeutsch                      # optional, see --space
 
+Partial configuration is a hard error rather than a default, because three
+values out of four silently pointing at the wrong wiki is worse than stopping.
+
 Usage:
     python3 tools/xwiki_mirror.py                  # dry run: show what would change
     python3 tools/xwiki_mirror.py --apply          # push the changed pages
+    python3 tools/xwiki_mirror.py --check-config   # exit 0 configured, 3 not configured
     python3 tools/xwiki_mirror.py --self-test      # exercise push+verify against a local stub
 """
 import argparse, base64, hashlib, http.server, json, os, pathlib, re, sys, threading
@@ -60,22 +65,40 @@ EXCLUDED = {
 XWIKI_SYNTAX = "markdown/1.2"
 
 
-def creds():
-    """Read config. Returns (base_url, user, token, space)."""
-    if not CREDS.exists():
-        sys.exit(f"missing {CREDS} -- see the module docstring for the four keys")
-    text = CREDS.read_text()
+REQUIRED = ("XWIKI_BASE_URL", "XWIKI_USER", "XWIKI_TOKEN")
 
-    def get(name, required=True, default=None):
+
+def creds(strict=True):
+    """Read config from the environment, falling back to the secrets file.
+
+    Returns (base, user, token, space), or None when nothing at all is
+    configured and strict is False -- that case is "the mirror is not set up
+    here yet", which CI treats as a clean skip rather than a failure. A
+    PARTIAL configuration always exits non-zero: a missing token that silently
+    became a default would push the docs at the wrong place.
+    """
+    text = CREDS.read_text() if CREDS.exists() else ""
+
+    def get(name):
+        if os.environ.get(name, "").strip():
+            return os.environ[name].strip()
         m = re.search(rf"^{name}=(.*)$", text, re.M)
-        if m and m.group(1).strip():
-            return m.group(1).strip()
-        if required:
-            sys.exit(f"{name} not in {CREDS}")
-        return default
+        return m.group(1).strip() if m and m.group(1).strip() else None
 
-    base = get("XWIKI_BASE_URL").rstrip("/")
-    return base, get("XWIKI_USER"), get("XWIKI_TOKEN"), get("XWIKI_SPACE", False, "masaladeutsch")
+    found = {n: get(n) for n in REQUIRED}
+    missing = [n for n, v in found.items() if not v]
+
+    if len(missing) == len(REQUIRED):          # nothing configured at all
+        if strict:
+            sys.exit(f"XWiki mirror not configured: set {', '.join(REQUIRED)} in the "
+                     f"environment or in {CREDS}")
+        return None
+    if missing:                                 # some but not all
+        sys.exit(f"XWiki mirror is half-configured -- missing {', '.join(missing)}. "
+                 f"Refusing to run rather than guess.")
+
+    return (found["XWIKI_BASE_URL"].rstrip("/"), found["XWIKI_USER"],
+            found["XWIKI_TOKEN"], get("XWIKI_SPACE") or "masaladeutsch")
 
 
 def page_name(rel):
@@ -276,6 +299,47 @@ def self_test():
           len(pr) == len(MIRRORED) and all("render as literal text" in x for x in pr))
 
     srv.shutdown()
+
+    # 6-8. config resolution: env wins, nothing is a clean "not configured",
+    # and a half-configuration must refuse rather than guess.
+    import subprocess
+    tool = [sys.executable, __file__, "--check-config"]
+    blank = {k: v for k, v in os.environ.items() if not k.startswith("XWIKI_")}
+    blank["HOME"] = "/nonexistent-so-the-secrets-file-is-absent"
+
+    r = subprocess.run(tool, env=blank, capture_output=True, text=True)
+    check("no config anywhere -> exit 3, 'not configured'",
+          r.returncode == 3 and "not configured" in r.stdout)
+
+    full = dict(blank, XWIKI_BASE_URL="https://w", XWIKI_USER="u", XWIKI_TOKEN="t")
+    r = subprocess.run(tool, env=full, capture_output=True, text=True)
+    check("env vars alone are enough -> exit 0", r.returncode == 0)
+
+    half = dict(blank, XWIKI_BASE_URL="https://w", XWIKI_USER="u")   # no token
+    r = subprocess.run(tool, env=half, capture_output=True, text=True)
+    check("half-configured -> refuses, names the missing key",
+          r.returncode not in (0, 3) and "XWIKI_TOKEN" in (r.stderr + r.stdout))
+
+    # 9. the workflow's path filter must cover every mirrored doc. Without
+    # this, adding a file to MIRRORED and forgetting the filter means the
+    # mirror silently stops firing for it -- the failure would be invisible,
+    # because a workflow that never runs looks exactly like one with nothing
+    # to do.
+    wf = pathlib.Path(ROOT) / ".github/workflows/xwiki-mirror.yml"
+    if not wf.exists():
+        check("workflow path filter covers MIRRORED", False)
+    else:
+        text = wf.read_text(encoding="utf-8")
+        patterns = re.findall(r'^\s{6}- "([^"]+)"', text, re.M)
+        def covered(rel):
+            for pat in patterns:
+                if pat == rel or (pat.endswith("/**") and rel.startswith(pat[:-2])):
+                    return True
+            return False
+        gaps = [r for r in MIRRORED if not covered(r)]
+        check(f"workflow path filter covers all {len(MIRRORED)} mirrored docs"
+              + (f" (uncovered: {gaps})" if gaps else ""), not gaps)
+
     print("\nself-test:", "all checks passed" if ok else "FAILURES ABOVE")
     return 0 if ok else 1
 
@@ -290,10 +354,18 @@ def main():
                     help=f"page syntax to request (default: {XWIKI_SYNTAX})")
     ap.add_argument("--self-test", action="store_true",
                     help="exercise push and verification against a local stub wiki")
+    ap.add_argument("--check-config", action="store_true",
+                    help="exit 0 if configured, 3 if not configured at all "
+                         "(non-zero on a half-configuration, as always)")
     args = ap.parse_args()
 
     if args.self_test:
         return self_test()
+
+    if args.check_config:
+        c = creds(strict=False)
+        print("configured" if c else "not configured")
+        return 0 if c else 3
 
     base, user, token, space = creds()
     _, _, problems = mirror(base, user, token, args.space or space,
