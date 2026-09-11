@@ -13650,12 +13650,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
       "slug": "indias-food-processing-story-pli-scheme",
       "published": "2026-08-08T21:33:25.000+05:30",
-      "updated": "2026-09-11T00:04:47.115+05:30",
+      "updated": "2026-09-11T10:55:59+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 26670,
-      "sha256": "1775fb086bfe2cf8f45ef7562f4402c45e3bb2918dd274a4dfd5f7dd1a8939a3",
+      "bytes": 26683,
+      "sha256": "d6f7c8ddb9f64f737fa37c46bf4bedc5b87d2f6e9919c803423e9545d0701a3c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13667,7 +13667,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13883,6 +13883,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-11T10:55:59+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: label/annotation collision on the PLISFPI jobs-vs-target bar chart, plus a double-escaped &middot; entity in the source line",
+          "bytes": [
+            26670,
+            26683
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed COLLISION (3.39L value label overlapping subtitle) and COLLISION (+36% over target annotation overlapping the tall bar) flagged by tools/svg_chart_lint.py; also fixed a literal &amp;middot; rendering as text in the source-line caption."
         }
       ]
     },
