@@ -26169,13 +26169,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-and-bottle-two-taxes-states-never.html",
       "slug": "fuel-and-bottle-two-taxes-states-never",
       "published": "2026-08-12T21:27:32.000+05:30",
-      "updated": "2026-09-10T23:20:35.113+05:30",
+      "updated": "2026-09-11T11:26:00+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 31425,
-      "sha256": "426cd5089ffb01620b19a8049dbb7e89d98d7bd754ce883a9119f637908e5d87",
+      "bytes": 31543,
+      "sha256": "919d34a6762fb8a538c3bc56db79c5a7e565bdff28cb840c2f30cfad52108305",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26187,7 +26187,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26429,6 +26429,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-11T11:26:00+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the states-own-tax-revenue-composition bar chart source line",
+          "bytes": [
+            31425,
+            31543
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 198px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
         }
       ]
     },
