@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
   "slug": "a-2013-vision-saw-india-needing-746",
   "published": "2026-09-09T07:20:06.000+05:30",
-  "updated": "2026-09-10T23:24:44.461+05:30",
+  "updated": "2026-09-11T10:13:18.707+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25556,
-  "sha256": "3861e3add0b05f3535ea0867808264b30ec6c6a82446879807929c7837f0578e",
+  "bytes": 25564,
+  "sha256": "f87e8870e01db5cb81c714f6f16d6d6c09fe422a31ca731297f207b54543e856",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-11T10:13:18+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25556,
+        25564
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Chart-layout fix on the projected-vs-actual gas demand chart: the 'PNGRB 2025 outlook for 2030 (high)' row label overflowed the canvas's left edge by ~6px, and the tallest bar's value label ('746 MMSCMD') overflowed the right edge by 21.2px. Shifted the whole bar-chart block right by 8px (axis line, bars, row-label anchors) to clear the left overflow, and rescaled the bars to a slightly smaller max width so the tallest bar's value label fits inside the canvas with margin; recomputed all three bars' widths and label positions to preserve the same proportions."
     }
   ]
 }

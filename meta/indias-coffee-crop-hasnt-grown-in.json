@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-09-11T00:16:43.950+05:30",
+  "updated": "2026-09-11T11:43:32.469+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 29438,
-  "sha256": "979f8d340715a08f647e54e60da8da5a7a7c7c6a2b20b302b2818bc512c49e14",
+  "bytes": 29453,
+  "sha256": "42965a05cf481c01186abe2c5d72b5f6f2fbf4a368e925426f527d5f1070d987",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-11T11:43:42+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the coffee-crop-by-state bar chart",
+      "bytes": [
+        29438,
+        29461
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (\"256,695 t (~69%)\" Karnataka label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
     }
   ]
 }

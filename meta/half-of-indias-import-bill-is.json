@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/half-of-indias-import-bill-is.html",
   "slug": "half-of-indias-import-bill-is",
   "published": "2026-08-03T17:03:34.000+05:30",
-  "updated": "2026-09-10T23:22:16.717+05:30",
+  "updated": "2026-09-11T11:32:46.664+05:30",
   "labels": [
     "Import Substitution",
     "Trade & Tariffs"
   ],
-  "bytes": 27077,
-  "sha256": "ede1f73cec35a08b75a04e6c8666e5cd372a8bc6d0be5a827da12be53f180457",
+  "bytes": 27204,
+  "sha256": "b72543513f85ac07b6dbd341ab7dd47db5fde9b2c0e4fa333fcd94e2537e8c9b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -256,6 +256,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T11:32:56+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: left-edge overflow on the commodity-import-bill bar chart row label",
+      "bytes": [
+        27077,
+        27212
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-LEFT (\"Base metals (Fe/Cu/Al/Pb/Zn/Ni/Sn+ores)\" row label running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

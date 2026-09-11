@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-09-10T23:22:00.233+05:30",
+  "updated": "2026-09-11T11:30:52.025+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
   "bytes": 30353,
-  "sha256": "608b217663e93816f2310e6dbfc9c0c60e8f5d4c6170dd7c43941670717c4d2c",
+  "sha256": "6aebc9df2ad25f8d4c27113db8a8d9ab5ebb81a622e410c60f65a8b149413d6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.4",
+  "version": "5.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -186,6 +186,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.5",
+      "date": "2026-09-11T11:31:02+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: peak-value label collision with subtitle on the guar gum exports chart",
+      "bytes": [
+        30353,
+        30367
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (\".5B\" 2012-13 peak-bar label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by moving the label down slightly, still clear of the bar top."
     }
   ]
 }

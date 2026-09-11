@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-09-10T22:42:22.895+05:30",
+  "updated": "2026-09-11T11:24:06.594+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 39695,
-  "sha256": "644f101d1e61a2bd3006f91cb1b0d595e50330dcaf7578a6d74b8137363c8445",
+  "bytes": 39710,
+  "sha256": "4432dbdd04d34102b40a4e45bc8a846c957beffa3362f563d34834fa674fd44b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-11T11:24:16+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the pipelines-are-the-cheap-part cost bar chart",
+      "bytes": [
+        39695,
+        39722
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (\"₹8,000–13,000+/t\" value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the all-in-cost bar (white text, right-aligned)."
     }
   ]
 }
