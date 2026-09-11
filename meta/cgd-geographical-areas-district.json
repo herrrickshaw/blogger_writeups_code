@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-10T23:13:31.344+05:30",
+  "updated": "2026-09-11T10:17:49.002+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 20124,
-  "sha256": "83c79bcc5c84bc959debfc91f85cae06fbbb7d023abd6cc65b56ec89f088c380",
+  "bytes": 20128,
+  "sha256": "8fea4279cbf135a8a0667fca57b28dd92a608b2e3dc2df25d2bd2efa0e2aeb50",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -287,6 +287,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-11T10:17:49+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20124,
+        20147
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Chart-layout fix on the natural-gas-energy-mix-target bar chart: the 2030 target bar (15%, tallest) had its top at y=90, colliding with the subtitle 49.2px away (a large 30px-font value label made the collision worse than the bar geometry alone). Rescaled the y-axis (max bar top lowered from y=90 to y=120) so the tallest bar and its large value label clear the subtitle with comfortable margin; recomputed both bars' heights/tops and value-label positions, and repositioned the connecting arrow annotation to match the new bar geometry."
     }
   ]
 }

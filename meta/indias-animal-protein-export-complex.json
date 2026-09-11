@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-09-10T23:59:41.608+05:30",
+  "updated": "2026-09-11T11:42:18.423+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 14414,
-  "sha256": "9b059f805e70348ef8074adf9b1b6f2bcf364005dbba8fbc053d8391714bc7ea",
+  "bytes": 14470,
+  "sha256": "9e2ea0927c1ef72dbea9b82e3ebe761b74a5c95f6d2e463677cab79a86c52784",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -209,6 +209,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-11T11:42:27+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the shrimp-exports-by-destination chart note",
+      "bytes": [
+        14414,
+        14480
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (frozen-shrimp share note running 48.2px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

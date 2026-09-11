@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html",
   "slug": "endoscopes-never-made-indias-pli-list",
   "published": "2026-09-10T10:10:12.000+05:30",
-  "updated": "2026-09-11T00:20:02.289+05:30",
+  "updated": "2026-09-11T10:25:21.001+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 23570,
-  "sha256": "5d67195e937d6900a06c96f53f0b8070e5760ba91f5bab151288d73d1f14fd4e",
+  "bytes": 23628,
+  "sha256": "f7f1da4a52e3193e740eee57fdb8bcc95e38bfce2fe310dc7f38129db5995f63",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-11T10:25:21+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23570,
+        23632
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Chart-layout fix on the PLI-vs-endoscope export-coverage bar chart: the bottom source line was a single line at font-size 10.5, 687px wide against a 700px canvas -- overflowing the right edge by 17.3px. Wrapped it into two balanced lines; canvas already had enough bottom margin so no height change was needed."
     }
   ]
 }

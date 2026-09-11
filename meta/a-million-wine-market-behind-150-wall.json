@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
   "slug": "a-million-wine-market-behind-150-wall",
   "published": "2026-08-30T13:25:43.000+05:30",
-  "updated": "2026-09-10T23:10:19.430+05:30",
+  "updated": "2026-09-11T06:16:23.732+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 31941,
-  "sha256": "06443c2d95372ff99873911f7e5435ddd9d3b056b713e7e1016708f99421d216",
+  "bytes": 31950,
+  "sha256": "9f251e0819348ffdeb9065374264a6c0e767b974f0aee39416877a4c9035de29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-11T06:16:23+05:30",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        31941,
+        31952
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Two fixes on the India-wine-market forecast bar chart, applied on top of the concurrent sitewide markup sync (v1.0.4, +1051 bytes). (1) The 2032 bar's top (y=68) collided with the subtitle (55.4px). (2) While rescaling, found the two bars weren't drawn to a consistent scale: at the original heights, $802.9M (4.11x $195.3M) was drawn only 3.26x as tall as the $195.3M bar, visually understating the forecast growth. Rescaled both bars to a single consistent linear scale (new 2032 bar top y=95, comfortably below the subtitle) so bar height now accurately reflects the value ratio; recomputed value-label positions to match. A git merge of this session's edit against the concurrent sitewide sync combined both changes cleanly (they touched different lines); republished the merged content since the first publish had been built off a stale pre-sync local copy."
     }
   ]
 }

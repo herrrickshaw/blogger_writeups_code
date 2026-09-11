@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-09-10T23:25:08.689+05:30",
+  "updated": "2026-09-11T11:46:56.583+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 31064,
-  "sha256": "4b0847d39831590c45c7ace3501acb18168884a476f9c83c85e0875eeb90117d",
+  "bytes": 31233,
+  "sha256": "4828d2f7c09a22d5c2f3f1b6a16d1b3dfcbe8d8c6878b5760e555353eef84aa3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-11T11:47:06+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: left-edge overflow on two row labels in the gas-vs-oil pipeline utilisation chart",
+      "bytes": [
+        31064,
+        31241
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed two OVERFLOW-LEFT issues (\"Multi-product pipelines, Apr–Nov 2025\" and \"Numaligarh–Siliguri crude line, FY24-25\" row labels running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping each into two lines."
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-09-10T22:44:46.581+05:30",
+  "updated": "2026-09-11T11:20:39.929+05:30",
   "labels": [
     "India",
     "Industrial Policy"
   ],
-  "bytes": 67456,
-  "sha256": "814f0918734cbfa266dbf7d8e2916bc733e52b58103d0ddb0af084861aa398a0",
+  "bytes": 69112,
+  "sha256": "e90df48e28fdb19e230d1b4116bbd615d4c940e9c171cc8e0f8f16d78c863fa9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.0.8",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.7",
+      "date": "2026-09-11T11:22:08+05:30",
+      "level": "major",
+      "reason": "figures/sections changed: two Related-on-this-blog cross-link boxes added",
+      "bytes": [
+        67456,
+        69128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reconciling manifest with repo state: this content (two cross-link boxes to the PLI/SGST cluster posts) was already committed to the repo (commits 2afa6f7, 1669791) but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+    },
+    {
+      "version": "1.0.8",
+      "date": "2026-09-11T11:22:08+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: legend text hidden by a later bar rect on the PLI White Goods applications-vs-selected chart",
+      "bytes": [
+        69128,
+        69128
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed TEXT-HIDDEN-BY-RECT (\"Selected\" legend label clipped by the Round 1 bar rect painted after it) flagged by tools/svg_chart_lint.py by moving the legend to a single row fully above the chart bars. Byte-neutral edit (same-length coordinate values)."
     }
   ]
 }

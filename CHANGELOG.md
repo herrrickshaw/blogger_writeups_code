@@ -11193,3 +11193,13 @@ scheduled sync
 **Changed**
 
 - `indias-used-oil-epr-wants-half-of-all` — 28,077 → 29,098 bytes (+1,021)
+
+## 2026-09-11T07:27:48+00:00 — 269 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `the-solar-panel-recycling-opportunity` — 2026-09-11 &rarr; 2026-09-11
+- `alimco-jaipur-foot-and-bionic-gap-in` — 2026-09-11 &rarr; 2026-09-11

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html",
   "slug": "india-is-piping-jet-fuel-to-five-new",
   "published": "2026-09-08T05:37:18.000+05:30",
-  "updated": "2026-09-10T23:23:54.765+05:30",
+  "updated": "2026-09-11T11:40:31.986+05:30",
   "labels": [
     "Energy & Fuels",
     "Infrastructure & Investment",
     "Mobility & EV"
   ],
-  "bytes": 35417,
-  "sha256": "cfedec3ac509ebbd02db1b7e501d92f19945018e195e56254818f9dbe454dc8e",
+  "bytes": 35432,
+  "sha256": "6259ebd93e920a4263abaaa55e9538559320fc459fd51ecad46b6d30160b481c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-11T11:40:41+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the ATF-pipelines-by-capacity bar chart",
+      "bytes": [
+        35417,
+        35432
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (\"4.99 MMTPA\" Hyderabad label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
     }
   ]
 }

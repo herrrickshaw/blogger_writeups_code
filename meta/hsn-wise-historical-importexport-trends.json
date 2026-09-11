@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.000+05:30",
-  "updated": "2026-09-10T23:22:56.802+05:30",
+  "updated": "2026-09-11T11:34:34.185+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 34990,
-  "sha256": "2fd1de953610acbfd72832b5e6c30e1e7f7b76b5c2893caf4e3ca42a473dc5e5",
+  "bytes": 35005,
+  "sha256": "069051be57532120241a972037eeb4c1c050ed587e0f168c23488958a90c8b15",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -299,6 +299,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-09-11T11:34:43+05:30",
+      "level": "major",
+      "reason": "figures/sections changed: fertiliser-field image and figcaption added",
+      "bytes": [
+        34990,
+        35056
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reconciling manifest with repo state: this image block was already committed to the repo but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+    },
+    {
+      "version": "4.1.1",
+      "date": "2026-09-11T11:34:43+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the fastest-growing-imports bar chart",
+      "bytes": [
+        35056,
+        35071
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (\"+118.9%\" Fertilisers value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
     }
   ]
 }

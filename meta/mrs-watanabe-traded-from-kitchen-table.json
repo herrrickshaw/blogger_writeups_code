@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-09-11T00:08:45.177+05:30",
+  "updated": "2026-09-11T11:18:28.435+05:30",
   "labels": [
     "Markets & Finance"
   ],
   "bytes": 28387,
-  "sha256": "c0fa97017ec72481ea49000ef78e4d315cdd4135c3cdd733d2c372a8c426f434",
+  "sha256": "6c993d96ce0fbe2aee578b8cfbd1940ae8617c45e92448eda5919286bdb500a7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T11:18:44+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: source-line collision with the 0% axis label on the women-investors bar chart",
+      "bytes": [
+        28387,
+        28387
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (source-line text overlapping the \"0%\" axis tick label) flagged by tools/svg_chart_lint.py by moving the 0% label closer to its tick and the source line further down."
     }
   ]
 }
