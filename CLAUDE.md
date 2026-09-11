@@ -146,9 +146,50 @@ yet fixed.
 
 ## Scale, so you know what a full run costs
 
-169 sidecars, 188 files in `posts/` (19 are posts that left the public feed and
-have no sidecar), 271 snapshot commits since 2026-08-06, and a fact-check corpus
-of 186 reports. `--all` runs are long; they resume, so let them.
+Order of magnitude, not a figure to quote: a couple of hundred posts, a
+matching sidecar for each, several hundred snapshot commits since 2026-08-06,
+and a fact-check corpus in the low hundreds. `--all` runs are long; they
+resume, so let them.
+
+**This section deliberately carries no exact counts.** They were pinned twice
+and went stale twice inside a single day — the archive gained five posts and
+seven snapshot commits in one three-hour stretch — and a stale number in a
+document a newcomer is told to trust is worse than no number at all. Read the
+current values instead:
+
+```bash
+ls posts/ | wc -l
+ls meta/*.json | grep -v manifest.json | wc -l
+git log --oneline --grep='^snapshot ' | wc -l
+```
+
+Expect the snapshot count to differ by one or two between a branch and `main`:
+merge commits change what is reachable. That is normal and is another reason
+not to treat any single reading as authoritative.
+
+Do **not** add `--since=2026-08-06` to that last command. It looks like the
+obvious way to scope the count, and it silently undercounts by around fifteen:
+`--since` prunes on commit timestamps, and the archive's opening commits carry
+a `+05:30` offset that puts them on the far side of the UTC boundary, so the
+filter excludes part of the very day it names. The shortfall is a fixed set of
+early commits, so it does not shrink as the archive grows. Every snapshot
+commit is reachable from `HEAD` anyway, so no date filter is needed — compare
+the two counts yourself if you want to see the gap.
+
+Sidecar coverage is **complete apart from posts published since the last
+snapshot run**, which is the normal steady state: `blogger_api.py` writes the
+post, `snapshot.py` writes the sidecar, and between those two the slug shows up
+as uncovered. Those clear themselves on the next snapshot. What is *not* normal
+is an uncovered slug that survives several snapshot runs — that is a post which
+left the public feed and took its sidecar question with it (19 were in that
+state as of 2026-08-18), and MAINTENANCE §5's per-post `version_history`
+recovery does not cover it. Run this, then re-run it after the next snapshot to
+tell the two apart:
+
+```bash
+comm -23 <(ls posts/ | sed 's/\.[^.]*$//' | sort -u) \
+         <(ls meta/ | sed 's/\.json$//' | sort -u)
+```
 
 Cloud sessions often get a **shallow** clone. Check with
 `git rev-parse --is-shallow-repository` before drawing any conclusion from
