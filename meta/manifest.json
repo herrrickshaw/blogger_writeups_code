@@ -20607,13 +20607,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
       "slug": "pngrb-wants-prepaid-smart-meters-on",
       "published": "2026-09-08T09:22:34.000+05:30",
-      "updated": "2026-09-10T23:24:32.378+05:30",
+      "updated": "2026-09-11T21:05:22+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 24859,
-      "sha256": "afbbbff0a58461af55539733c20609f9bce85f795fbf324bdc7164e48f43c3f8",
+      "bytes": 24875,
+      "sha256": "c7e37f0fdcd76c6cb51533737d05d483b137f1d67a26a3350306731ea4a7ab0e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -20625,7 +20625,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -20646,6 +20646,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-09-11T21:05:22+05:30",
+          "level": "patch",
+          "reason": "chart bugfix: right-edge overflow on the smart-meter-rollout-schedule bar chart",
+          "bytes": [
+            24859,
+            24875
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fixed OVERFLOW-RIGHT (\"Remaining total connections\" Phase IV label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
     },
