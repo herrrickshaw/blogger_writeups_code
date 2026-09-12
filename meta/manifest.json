@@ -52437,17 +52437,17 @@
     },
     "1955301576624189231": {
       "id": "1955301576624189231",
-      "title": "The 50% Tariff and the 234% One: Untangling What's Actually Hitting India's US-Bound Exports",
+      "title": "From 50% to 10%: How Three Tariff Regimes and a Supreme Court Ruling Reshaped What Hits India's Exports",
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
       "slug": "the-50-tariff-and-234-one-untangling",
       "published": "2026-09-12T22:12:05+05:30",
-      "updated": "2026-09-12T22:14:18+05:30",
+      "updated": "2026-09-12T22:52:37+05:30",
       "labels": [
         "India Trade & Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 38632,
-      "sha256": "725c5fc8f38ee9177d6aab21b57d71a835ea66e85c898b868f0abd950bd42a15",
+      "bytes": 46207,
+      "sha256": "77e5921a94eeef0d08e14b1d0eacaa96f6c525a942b72b9c21f504ad85cfd38c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -52459,7 +52459,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -52467,6 +52467,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: AD/CVD vs the 50% blanket tariff on India, Walmart's sourcing response, and a US-Canada comparison"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-12T22:52:37+05:30",
+          "level": "major",
+          "reason": "figures and conclusions corrected: the article's core premise (a currently-active 50% blanket tariff on India) had gone stale since publication",
+          "bytes": [
+            38632,
+            46207
+          ],
+          "url_changed": false,
+          "markers_changed": null,
+          "note": "Research into the WTO's Tariff Analysis Online framework surfaced that the 50% IEEPA tariff described as India's current state was actually struck down by the Supreme Court (Learning Resources v. Trump, 20 Feb 2026), briefly replaced by a global 10-15% Section 122 tariff that expired by statute on 24 Jul 2026, and is now superseded by a 10% Section 301 forced-labor tariff -- meaning India's current blanket-tariff rate (10%) ties Bangladesh for the lowest in the peer group compared in this piece, not the highest as originally published. Retitled, rewrote the chart to show current rates instead of the stale Aug 2025 snapshot, rewrote Sections 1, 3, 4, 5 and 6's framing accordingly, added a WTO/GATT Article VI explanation of why AD/CVD survived unaffected while three different blanket-tariff statutes were tried and two were struck down, added Walmart's $2.9bn IEEPA-tariff refund, and updated the caveats/sources cards."
         }
       ]
     }
