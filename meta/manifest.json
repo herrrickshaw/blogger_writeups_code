@@ -52421,6 +52421,41 @@
           "note": "Fixed OVERFLOW-RIGHT (\"₹36,000–38,000 cr\" FY2027 label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
         }
       ]
+    },
+    "1955301576624189231": {
+      "id": "1955301576624189231",
+      "title": "The 50% Tariff and the 234% One: Untangling What's Actually Hitting India's US-Bound Exports",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
+      "slug": "the-50-tariff-and-234-one-untangling",
+      "published": "2026-09-12T22:12:05+05:30",
+      "updated": "2026-09-12T22:14:18+05:30",
+      "labels": [
+        "India Trade & Policy",
+        "Trade & Tariffs"
+      ],
+      "bytes": 38632,
+      "sha256": "725c5fc8f38ee9177d6aab21b57d71a835ea66e85c898b868f0abd950bd42a15",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-12T22:14:18+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New article: AD/CVD vs the 50% blanket tariff on India, Walmart's sourcing response, and a US-Canada comparison"
+        }
+      ]
     }
   }
 }
