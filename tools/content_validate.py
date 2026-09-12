@@ -267,11 +267,12 @@ SYSTEM = ("You are a meticulous data-validation reviewer for a data journalism b
           "You cannot browse. Respond with a single JSON object and nothing else.")
 
 
-def evidence(ex):
+def evidence(ex, prose_cap=None):
+    cap = PROSE_CAP if prose_cap is None else prose_cap
     parts = [f"POST TITLE: {ex['title']}", f"POST DATE (as printed): {ex['date']}",
-             "PROSE:", ex["prose"][:PROSE_CAP]]
-    if len(ex["prose"]) > PROSE_CAP:
-        parts.append(f"[prose truncated at {PROSE_CAP} chars]")
+             "PROSE:", ex["prose"][:cap]]
+    if len(ex["prose"]) > cap:
+        parts.append(f"[prose truncated at {cap} chars]")
     for i, t in enumerate(ex["tables"], 1):
         parts += [f"TABLE {i}:", t]
     for i, c in enumerate(ex["charts"], 1):
@@ -281,8 +282,8 @@ def evidence(ex):
     return "\n".join(parts)
 
 
-def test_consistency(llm, ex):
-    user = evidence(ex) + """
+def test_consistency(llm, ex, prose_cap=None):
+    user = evidence(ex, prose_cap) + """
 
 TASK: Internal consistency audit. Find every place where the same quantity is
 stated with different values in different parts of the post (prose vs table vs
@@ -299,8 +300,8 @@ restatements that are equivalent. Return:
     return llm.json_chat(SYSTEM, user, max_tokens=8000)
 
 
-def test_claims(llm, ex):
-    user = evidence(ex) + """
+def test_claims(llm, ex, prose_cap=None):
+    user = evidence(ex, prose_cap) + """
 
 TASK: Claims ledger. Extract up to 40 of the most load-bearing quantitative or
 dated factual claims (figures, percentages, dates, rankings, legal/regulatory
@@ -404,6 +405,9 @@ def main():
     ap.add_argument("--api-key", default=os.environ.get("LLM_API_KEY"), help="bearer key (or env LLM_API_KEY)")
     ap.add_argument("--model", default=os.environ.get("LLM_MODEL"), help="model id; default: first from /models")
     ap.add_argument("--skip-llm", action="store_true", help="run only the deterministic house rules")
+    ap.add_argument("--max-chars", type=int, default=None,
+                    help=f"cap prose sent to the LLM (default {PROSE_CAP}); lower this for a "
+                         f"provider with a small prompt-length limit, e.g. --max-chars 3000")
     ap.add_argument("--timeout", type=int, default=180)
     args = ap.parse_args()
 
@@ -439,7 +443,7 @@ def main():
         if llm:
             for label, fn in (("consistency", test_consistency), ("claims", test_claims)):
                 try:
-                    res = fn(llm, ex)
+                    res = fn(llm, ex, prose_cap=args.max_chars)
                     if label == "consistency":
                         cons = res
                     else:
