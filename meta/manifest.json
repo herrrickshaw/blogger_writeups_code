@@ -52441,13 +52441,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
       "slug": "the-50-tariff-and-234-one-untangling",
       "published": "2026-09-12T22:12:05+05:30",
-      "updated": "2026-09-13T04:11:16+05:30",
+      "updated": "2026-09-13T04:24:37+05:30",
       "labels": [
         "India Trade & Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 50919,
-      "sha256": "d1c24dc5444dac04bacce0f8b56cc5b95e3767aa36eeba5ceb7807dbed32f638",
+      "bytes": 52670,
+      "sha256": "8417ce2582a49b16796f93b34cd6aee397bc665d1dd9bbb4559e15fe05ae9ff7",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -52459,7 +52459,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -52493,6 +52493,19 @@
           "url_changed": false,
           "markers_changed": null,
           "note": "The user supplied the KPMG PDF ('U.S. Tariff Shifts', Sep 2025) directly, which this piece had previously only been able to summarize via search (kpmg.com/in was blocked). Added a sector-exposure table (exports to US, share of US in each sector's exports, share of India in US import demand -- FY25, per KPMG citing India's Commerce Ministry and ITC Trade Map), the 40% transshipment-surcharge detail from the reciprocal-tariff order (distinct from CBP's EAPA enforcement in Section 2), India's own April 2025 steel safeguard duty and July 2025 WTO Article 12.5 retaliatory notification against US auto-component tariffs, and a GDP-proportionality caveat (India's tariff-driven export loss estimated at 0.3-0.4% of GDP). Updated the solar AD/CVD row with the exact $793m 2024 export figure and investigation-initiation date. Updated the caveats and sources cards to reflect that KPMG's report, unlike the other process explainers, was now read directly rather than reconstructed from search summaries."
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-09-13T04:24:37+05:30",
+          "level": "patch",
+          "reason": "chart redesigned for clarity; no figures or conclusions changed",
+          "bytes": [
+            50919,
+            52670
+          ],
+          "url_changed": false,
+          "markers_changed": null,
+          "note": "The lead chart only showed the current (Sep 2026) Section 301 rates, so the 'tariff wall came down' story was carried by the caption rather than the picture -- five similar-height bars did not visibly show a reversal. Redrawn as a grouped before/after bar chart: for each of India, Bangladesh, Vietnam, Thailand and Turkey, an Aug 2025 IEEPA-peak bar (India 50%, Vietnam/Bangladesh 20%, Thailand 19%, Turkey 15%) beside a Sep 2026 Section 301 bar (India/Bangladesh 10%, others 12.5%), with a legend. India's 50%-to-10% collapse against rivals' small moves is now visible directly. Aug 2025 rates sourced to KPMG's 26 Aug 2025 snapshot (read directly) plus contemporaneous press for Turkey. Lint-clean and render-verified."
         }
       ]
     }
