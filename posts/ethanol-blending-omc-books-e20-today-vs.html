@@ -473,7 +473,7 @@ body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;
         svg+='<line x1="'+(x-gap).toFixed(1)+'" x2="'+x.toFixed(1)+'" y1="'+cy.toFixed(1)+'" y2="'+cy.toFixed(1)+'" stroke="'+c('--muted')+'" stroke-width="1" stroke-dasharray="2 3" opacity=".55"/>';
       }
       svg+='<rect x="'+x.toFixed(1)+'" y="'+yt.toFixed(1)+'" width="'+bw.toFixed(1)+'" height="'+h.toFixed(1)+'" rx="3" fill="'+fill+'" '+(bb.kind==='total'?'':'opacity=".92"')+'/>';
-      var lblY = bb.val>=0 ? yt-8 : yb+15;
+      var lblY = bb.val>=0 ? yt-8 : Math.min(yb+15, H-padB+8);
       svg+='<text x="'+(x+bw/2).toFixed(1)+'" y="'+lblY.toFixed(1)+'" text-anchor="middle" font-family="'+ff('--font-mono')+'" font-size="12.5" font-weight="600" fill="'+(bb.kind==='total'?c('--ink'):fill)+'">'+vfmt(bb.val,bb.kind)+'</text>';
       var parts=bb.label.split('\n');
       parts.forEach(function(p,j){
