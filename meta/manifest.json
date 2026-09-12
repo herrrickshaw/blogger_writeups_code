@@ -52441,13 +52441,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html",
       "slug": "the-50-tariff-and-234-one-untangling",
       "published": "2026-09-12T22:12:05+05:30",
-      "updated": "2026-09-12T22:52:37+05:30",
+      "updated": "2026-09-13T04:11:16+05:30",
       "labels": [
         "India Trade & Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 46207,
-      "sha256": "77e5921a94eeef0d08e14b1d0eacaa96f6c525a942b72b9c21f504ad85cfd38c",
+      "bytes": 50919,
+      "sha256": "d1c24dc5444dac04bacce0f8b56cc5b95e3767aa36eeba5ceb7807dbed32f638",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -52459,7 +52459,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -52480,6 +52480,19 @@
           "url_changed": false,
           "markers_changed": null,
           "note": "Research into the WTO's Tariff Analysis Online framework surfaced that the 50% IEEPA tariff described as India's current state was actually struck down by the Supreme Court (Learning Resources v. Trump, 20 Feb 2026), briefly replaced by a global 10-15% Section 122 tariff that expired by statute on 24 Jul 2026, and is now superseded by a 10% Section 301 forced-labor tariff -- meaning India's current blanket-tariff rate (10%) ties Bangladesh for the lowest in the peer group compared in this piece, not the highest as originally published. Retitled, rewrote the chart to show current rates instead of the stale Aug 2025 snapshot, rewrote Sections 1, 3, 4, 5 and 6's framing accordingly, added a WTO/GATT Article VI explanation of why AD/CVD survived unaffected while three different blanket-tariff statutes were tried and two were struck down, added Walmart's $2.9bn IEEPA-tariff refund, and updated the caveats/sources cards."
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-13T04:11:16+05:30",
+          "level": "minor",
+          "reason": "section added: KPMG's actual report content, supplied directly by the user, replacing search-reconstructed summary",
+          "bytes": [
+            46207,
+            50919
+          ],
+          "url_changed": false,
+          "markers_changed": null,
+          "note": "The user supplied the KPMG PDF ('U.S. Tariff Shifts', Sep 2025) directly, which this piece had previously only been able to summarize via search (kpmg.com/in was blocked). Added a sector-exposure table (exports to US, share of US in each sector's exports, share of India in US import demand -- FY25, per KPMG citing India's Commerce Ministry and ITC Trade Map), the 40% transshipment-surcharge detail from the reciprocal-tariff order (distinct from CBP's EAPA enforcement in Section 2), India's own April 2025 steel safeguard duty and July 2025 WTO Article 12.5 retaliatory notification against US auto-component tariffs, and a GDP-proportionality caveat (India's tariff-driven export loss estimated at 0.3-0.4% of GDP). Updated the solar AD/CVD row with the exact $793m 2024 export figure and investigation-initiation date. Updated the caveats and sources cards to reflect that KPMG's report, unlike the other process explainers, was now read directly rather than reconstructed from search summaries."
         }
       ]
     }
