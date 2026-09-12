@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html",
   "slug": "the-503020-rule-is-elizabeth-warrens",
   "published": "2026-08-10T06:47:21.000+05:30",
-  "updated": "2026-09-11T00:08:31.102+05:30",
+  "updated": "2026-09-11T21:30:49.200+05:30",
   "labels": [
     "Markets & Finance"
   ],
   "bytes": 24830,
-  "sha256": "0bc96a6961999377e28fd28392cdac94bf5fc60b194723901b2625c44f607868",
+  "sha256": "46a32a451355453428821b49aa0560bc066e9df87236ca3d89c6aee3f5db67ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-09-11T21:30:58+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the budgeting-sequences chart source line",
+      "bytes": [
+        24830,
+        24834
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source citation sharing the legend row, running past the canvas edge) flagged by tools/svg_chart_lint.py by moving it to its own row below the legend."
     }
   ]
 }

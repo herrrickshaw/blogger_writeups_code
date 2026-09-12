@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html",
   "slug": "what-sewage-disposal-in-key-parts-of",
   "published": "2026-09-03T06:14:39.000+05:30",
-  "updated": "2026-09-10T22:48:52.526+05:30",
+  "updated": "2026-09-11T22:17:30.879+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 48188,
-  "sha256": "e27eb767bb866907d6bb3c97141585c14f23d85b70cd91be36eedf307e85d678",
+  "bytes": 48422,
+  "sha256": "4b52ef0e8beba25fbc2ed21b827bb867507c797eb3dfdf8e91d18423188c29ae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-11T22:17:35+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: 4 left-edge overflowing row labels",
+      "bytes": [
+        48203,
+        48437
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed 4 OVERFLOW-LEFT issues on the drainage-figures bar chart: three long slash-joined place-name labels (Nagercoil/Kundrathur/Nandivaram-Guduvancheri; Tambaram/Pallavaram/Chromepet/Thiruneermalai; Chennai (Perambur/Kolathur/Villivakkam/Egmore)) were wrapped into two lines each, and the fourth (Western Chennai stormwater (KfW)), which only barely overflowed, was fixed by shrinking its font size from 11 to 10."
     }
   ]
 }

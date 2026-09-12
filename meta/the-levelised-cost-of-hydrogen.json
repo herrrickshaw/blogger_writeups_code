@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-09-11T00:12:45.444+05:30",
+  "updated": "2026-09-11T21:44:08.448+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 55298,
-  "sha256": "d510514dbf215879040560f21ee43157ea016d241808ffc9345749d9a5e95bbc",
+  "bytes": 55354,
+  "sha256": "665a50804f2d3596dfb22d465b6ab35768147001a9fcf2cb87db8206d0d9ccde",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T21:44:19+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow and double-escaped entity on the hydrogen-cost-ladder chart source line",
+      "bytes": [
+        55298,
+        55368
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source line running 72.7px past the canvas edge) by wrapping into two lines, and DOUBLE-ESCAPED-ENTITY (literal \"&amp;mdash;\" rendering as text) flagged by tools/svg_chart_lint.py."
     }
   ]
 }

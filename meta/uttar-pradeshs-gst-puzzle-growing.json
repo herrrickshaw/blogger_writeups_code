@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-09-10T23:58:14.854+05:30",
+  "updated": "2026-09-11T22:09:38.075+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29663,
-  "sha256": "3b3f20183db093adc1d35bffdfcd20db8555f2d15f3640c35505a2aab97fb5c5",
+  "bytes": 29778,
+  "sha256": "06d1f769cff1ef4a47b5cd579d09ecd34e32c61a1fa57926fe550f93499d348e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T22:09:47+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the note line under the bar chart",
+      "bytes": [
+        29663,
+        29816
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source note \"Gujarat collects more SGST directly...\" running 42.9px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

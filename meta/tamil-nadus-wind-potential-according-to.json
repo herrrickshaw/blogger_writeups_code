@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
   "slug": "tamil-nadus-wind-potential-according-to",
   "published": "2026-08-14T15:04:38.000+05:30",
-  "updated": "2026-09-11T00:10:21.165+05:30",
+  "updated": "2026-09-11T21:26:27.108+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 26198,
-  "sha256": "9d6bb5df6e52c90a375d68ff0cf93481f60531ca94a21dbc448d6e498924d448",
+  "bytes": 26056,
+  "sha256": "be2613558f6314c87d0219c2b30c37d2d091e19d1dbabbbba3f3ffacc851f788",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T21:26:38+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: label collision on the Tamil Nadu wind potential-vs-installed chart",
+      "bytes": [
+        26198,
+        26058
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (\"Potential\" overlapping the \"33,799 MW\" value label) flagged by tools/svg_chart_lint.py by removing a redundant duplicate \"Potential\" annotation above the onshore bar (the offshore bar had no such duplicate)."
     }
   ]
 }

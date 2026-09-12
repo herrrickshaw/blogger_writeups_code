@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html",
   "slug": "where-india-actually-burns-its-fuel",
   "published": "2026-08-08T16:55:16.000+05:30",
-  "updated": "2026-09-11T00:17:55.439+05:30",
+  "updated": "2026-09-11T22:13:35.147+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV",
     "Prices & Inflation"
   ],
-  "bytes": 28323,
-  "sha256": "89363fc7775066887a8be7b059ceba32924af01b205654591fe6dc4f45c22d33",
+  "bytes": 28319,
+  "sha256": "cc1d0f95b5f2c9241af9b31e0ec28beb086e17fcb1eef069f448c4207297615c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -213,6 +213,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-11T22:13:39+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: value-label collision and double-escaped entity",
+      "bytes": [
+        28327,
+        28323
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (the \"396\" value label on the UP bar, which reaches the top of the plot area, overlapping the subtitle) by moving it inside the bar in white; fixed DOUBLE-ESCAPED-ENTITY (\"&amp;middot;\" rendering as literal text) in the same subtitle."
     }
   ]
 }

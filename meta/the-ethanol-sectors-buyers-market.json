@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-09-11T00:09:25.290+05:30",
+  "updated": "2026-09-11T21:38:46.574+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
   "bytes": 14617,
-  "sha256": "116f32dde5fe8aeafa484fc6ef4991381ae7c356ee06a46969a93f0e7f657d6c",
+  "sha256": "0e7ece94fcfa93a7f9a59c62c0fb7ee31c89129844092f7704be7d7e83a259d7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -207,6 +207,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-11T21:38:56+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: value-label collision with title on the ethanol-capacity-overhang chart",
+      "bytes": [
+        14617,
+        14629
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (\"~2,400\" FY27-capacity label overlapping the chart title) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text); a first attempt that only shifted it down still visually overlapped the subtitle on manual render check, so moved it further down into the bar body instead."
     }
   ]
 }

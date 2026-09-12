@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html",
   "slug": "the-detergent-chemical-india-exports",
   "published": "2026-09-01T18:38:29.000+05:30",
-  "updated": "2026-09-10T22:50:47.864+05:30",
+  "updated": "2026-09-11T21:35:10.459+05:30",
   "labels": [
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 50956,
-  "sha256": "79acbd07733bde2cfafffae1a16aca85db50f95be6079a82a69bb9d91df074ef",
+  "bytes": 50944,
+  "sha256": "586235076ea3b8185d0b1528b0e98f0174fdba56da6669fcfa39e0e1abe118fa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.4",
+  "version": "1.4.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.4.5",
+      "date": "2026-09-11T21:35:21+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: double-escaped minus-sign entities on the trade-balance bar chart",
+      "bytes": [
+        50956,
+        50952
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed three DOUBLE-ESCAPED-ENTITY issues (literal \"&amp;minus;\" rendering as text instead of a minus sign) flagged by tools/svg_chart_lint.py."
     }
   ]
 }

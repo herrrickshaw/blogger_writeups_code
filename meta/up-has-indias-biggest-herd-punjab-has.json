@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
   "slug": "up-has-indias-biggest-herd-punjab-has",
   "published": "2026-08-09T09:57:06.000+05:30",
-  "updated": "2026-09-11T00:19:35.390+05:30",
+  "updated": "2026-09-11T21:53:34.245+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 29406,
-  "sha256": "659465d1bda617ec6aa9cf1d2c084c796134a0ff5eca433e404cc606081b43ef",
+  "bytes": 29465,
+  "sha256": "5dcc8157ef5728052d7b48eb5269de241a0578a111c02248a18c6af4a55d6c41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.2",
+      "date": "2026-09-11T21:53:44+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the milk-yield-by-state bar chart source line",
+      "bytes": [
+        29406,
+        29467
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source line running 295.8px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

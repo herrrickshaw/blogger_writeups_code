@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html",
   "slug": "us-stock-picks-multi-screen-quant",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-09-11T00:24:55.925+05:30",
+  "updated": "2026-09-11T21:58:06.168+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 35811,
-  "sha256": "16323a3340b4de8ed4038dca2859836211b9fd67550cc4fae21eab6df8391ea1",
+  "bytes": 35870,
+  "sha256": "e515b3df4e58c56bad38cc35278d2eeb93d07518785098512c77ac23bab3e407",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -229,6 +229,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-09-11T21:58:16+05:30",
+      "level": "major",
+      "reason": "figures/sections changed: NYSE facade image and figcaption added",
+      "bytes": [
+        35811,
+        35890
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Reconciling manifest with repo state: this image block was already committed to the repo but had not yet been published to Blogger or recorded in the manifest; published together with the chart fix below in the same API call."
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-11T21:58:16+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow and source-line/bar overlap on the top-picks bar chart",
+      "bytes": [
+        35890,
+        35949
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source-note line running 55.6px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines and expanding the canvas bottom margin to clear the last bar row (a first attempt with a smaller margin still visually overlapped the ILMN bar on manual render check)."
     }
   ]
 }

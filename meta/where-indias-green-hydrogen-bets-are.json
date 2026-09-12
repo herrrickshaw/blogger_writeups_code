@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-09-11T00:15:00.506+05:30",
+  "updated": "2026-09-11T22:15:04.524+05:30",
   "labels": [
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 23361,
-  "sha256": "086700bc20394e26b0111f8284435b04dce1961d53b1e87a0e7d6ab12814c178",
+  "bytes": 23439,
+  "sha256": "26d2ff4e803ea5c1671ec78dea3ef40a113e441ba33e8a458aa73da5fc7d6479",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -260,6 +260,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-11T22:15:09+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the source note",
+      "bytes": [
+        23373,
+        23451
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (source note \"Project counts, not capacity...\" running 165.8px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines and expanding the canvas height from 400 to 415 to fit them."
     }
   ]
 }

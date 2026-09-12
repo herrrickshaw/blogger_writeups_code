@@ -11203,3 +11203,12 @@ scheduled sync
 
 - `the-solar-panel-recycling-opportunity` — 2026-09-11 &rarr; 2026-09-11
 - `alimco-jaipur-foot-and-bionic-gap-in` — 2026-09-11 &rarr; 2026-09-11
+
+## 2026-09-12T07:20:03+00:00 — 270 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-battery-storage-boom-is` — 2026-09-11 &rarr; 2026-09-11

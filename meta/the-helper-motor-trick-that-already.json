@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
   "slug": "the-helper-motor-trick-that-already",
   "published": "2026-08-30T16:49:04.000+05:30",
-  "updated": "2026-09-10T22:47:24.401+05:30",
+  "updated": "2026-09-11T21:42:13.381+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 27729,
-  "sha256": "0c7c846aad4c895c7c1cc2b0b437f0734ef56790759f9e2ddb21a488c818cc60",
+  "bytes": 27804,
+  "sha256": "aa4f41d557946f5537558f5131565de17033ff4f300cf693523007e9a10b87e0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-11T21:42:25+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: left-edge overflow on the drivetrain-efficiency bar chart row label",
+      "bytes": [
+        27729,
+        27804
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-LEFT (\"Single-shaft industrial gas turbine\" row label running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

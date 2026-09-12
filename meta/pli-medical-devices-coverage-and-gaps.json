@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-09-10T23:58:44.527+05:30",
+  "updated": "2026-09-11T21:03:50.174+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 22129,
-  "sha256": "8b6e25f6c9ab3a1bf043cb419fadce38d7a365e102bfc83e5062db822dadc07d",
+  "bytes": 22189,
+  "sha256": "9fe88490dabeebab2adbd189a8cb922e60e0b1d345294b97c621a20c290d40ca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -247,6 +247,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-11T21:03:59+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the PLI-medical-devices-gaps chart source line",
+      "bytes": [
+        22129,
+        22199
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (single-line source citation running past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

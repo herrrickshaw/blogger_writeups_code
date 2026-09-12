@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html",
   "slug": "indias-wholesale-prices-next-to",
   "published": "2026-08-08T07:55:38.000+05:30",
-  "updated": "2026-09-11T00:04:06.754+05:30",
+  "updated": "2026-09-11T20:58:23.974+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 42032,
-  "sha256": "fd902084986b6622e5915eb6d4202706f0551d5f709cc7cc300b35ba3678d4be",
+  "bytes": 42090,
+  "sha256": "db6c4f0294fdd3d4c266b8f17401a5d94c3f167fe3d69a3bcac224f3d5d5c9af",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.4",
+  "version": "7.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "7.0.5",
+      "date": "2026-09-11T20:58:35+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: right-edge overflow on the producer-price-turn chart source line",
+      "bytes": [
+        42032,
+        42096
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 60.6px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
     }
   ]
 }

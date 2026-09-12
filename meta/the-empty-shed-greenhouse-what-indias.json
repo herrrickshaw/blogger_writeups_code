@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.000+05:30",
-  "updated": "2026-09-11T00:23:28.370+05:30",
+  "updated": "2026-09-11T21:36:43.675+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 13757,
-  "sha256": "64acaf1fdf4b27d503cb23d21e9276056eabe178aab1844ceacb8bb1e74b9bc6",
+  "bytes": 13755,
+  "sha256": "98a0d530cc03c06810a24739e6faf4108d8168395c58fe09418d12703ff814e3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-11T21:36:53+05:30",
+      "level": "patch",
+      "reason": "chart bugfix: value-label collision with subtitle on the polyhouse-vs-open-field chart",
+      "bytes": [
+        13757,
+        13761
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fixed COLLISION (\"3.73\" polyhouse value label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text) instead of above it."
     }
   ]
 }
