@@ -11212,3 +11212,13 @@ scheduled sync
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-battery-storage-boom-is` — 2026-09-11 &rarr; 2026-09-11
+
+## 2026-09-13T07:38:31+00:00 — 272 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `delhis-smog-towers-failed-test-44-year` — 2026-09-13 &rarr; 2026-09-13
+- `the-50-tariff-and-234-one-untangling` — 2026-09-12 &rarr; 2026-09-12
