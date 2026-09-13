@@ -52515,13 +52515,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/delhis-smog-towers-failed-test-44-year.html",
       "slug": "delhis-smog-towers-failed-test-44-year",
       "published": "2026-09-13T10:11:45+05:30",
-      "updated": "2026-09-13T10:11:45+05:30",
+      "updated": "2026-09-13T10:24:11+05:30",
       "labels": [
         "Climate & Carbon",
         "Environment & Clearances"
       ],
-      "bytes": 33932,
-      "sha256": "5214f10017bcd0eb42db02190bcc642d20fd631232865911dfbd884b7dd98882",
+      "bytes": 37718,
+      "sha256": "5782ba355ebbaca3bc65dfb459076bafbe0241972a474b4686ac3366b6a55707",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -52533,7 +52533,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -52541,6 +52541,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "New article: what independent assessment actually found for Delhi's anti-pollution toolkit (Connaught Place + Jaipur smog towers, Metro vertical gardens, Army-linked afforestation, the Central Ridge/Nyaya Vatika controversy, and Zaara Biotech's untested Obelia algae bioreactor). Distinguishes ceremonial Army plantation drives from the Territorial Army's 1982 Ecological Task Force, the one intervention in the piece with a decades-long tracked survival rate. Chart: CPCB/CREA winter 2025-26 AQI-category day counts, lint-clean and render-verified."
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-13T10:24:11+05:30",
+          "level": "minor",
+          "reason": "section expanded: two more algae-based air-purification ventures added, at the user's request",
+          "bytes": [
+            33932,
+            37718
+          ],
+          "url_changed": false,
+          "markers_changed": null,
+          "note": "Section 6 originally covered only Zaara Biotech's Obelia (COP28-recognised, no independent performance data or named deployment). Added two more Indian algae ventures found via further research: Carbelim (Kochi-registered, IIT Madras-incubated, founded 2023, PureAir Tower and Biomimetic Facade products, no named public deployment found) and AlgaeTree/Mushroom World Group (founded 2024, the only one of the three with an actual named public deployment -- inaugurated 1 May 2026 at Bhopal's Swami Vivekananda Park under the Smart City programme, expanded July 2026 to IOCL's Vadodara refinery and Amanora Park Town, Maharashtra). Added a three-way comparison table and kept the same skepticism applied throughout the piece: all three companies' CO2-capture figures are company claims with no independent third-party measurement located, and AlgaeTree's real deployment confirms the units exist, not that the claimed capture rate holds. Updated the intro card, the Section 7 toolkit table, the caveats card and the sources card to match. Lint-clean, JS-parse-clean, 10/10 house rules."
         }
       ]
     }
