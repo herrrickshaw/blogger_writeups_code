@@ -108,6 +108,60 @@ turn up as one-off citations across the scripts and docs (grep for URLs in
 tabulating here). These are gathered per-article during research, not collected on a
 schedule, and don't belong in the same reachability/freshness tracking as §2a-2d.
 
+### 2g. Diplomatic sources — embassies, high commissions, bilateral MoUs (new, 2026-09-14)
+
+Not previously tracked anywhere in this ecosystem. Government-to-government MoUs and
+diplomatic events are announced through two channels that rarely overlap fully: the
+Indian side (MEA, sometimes PIB) and the foreign mission's own site. Neither alone is
+complete — a bilateral MoU signing is often covered by both, with different framing
+and sometimes different dates (signing date vs. announcement date).
+
+**Indian side (central, one source covers all countries):**
+
+| Source | What it has | URL |
+|---|---|---|
+| MEA press releases | All MEA press releases, not just bilateral | mea.gov.in/press-releases |
+| MEA Bilateral/Multilateral Documents | The actual MoU/agreement text repository — the closest thing to a structured MoU registry | mea.gov.in/bilateral-documents |
+| MEA Bilateral Briefs | Country-by-country relationship summaries (context, not a feed) | mea.gov.in/bilateral-briefs |
+
+No public API found for any of the three — same pattern as PIB before `pib_index.py`
+existed: HTML pages meant for browsing, would need the same kind of scraper built.
+
+**Foreign missions in India — press/news sections found for 12 major partners**
+(all unverified against this sandbox's egress, same caveat as everything in §4):
+
+| Country | Mission | News/press URL |
+|---|---|---|
+| United States | Embassy, New Delhi | in.usembassy.gov/news/ |
+| United Kingdom | High Commission | gov.uk/world/organisations/british-high-commission-new-delhi |
+| Japan | Embassy | in.emb-japan.go.jp/itpr_en/index.html |
+| Australia | High Commission | india.highcommission.gov.au/ndli/news.html |
+| European Union | Delegation (covers all 27 member states jointly) | eeas.europa.eu/delegations/india_en |
+| Germany | Embassy | india.diplo.de/in-en |
+| France | Embassy | in.ambafrance.org |
+| Russia | Embassy | india.mid.ru/en/news/ |
+| South Korea | Embassy | overseas.mofa.go.kr/in-en/brd/m_22090/list.do |
+| UAE | Embassy | mofa.gov.ae/en/missions/new-delhi |
+| Singapore | High Commission | new-delhi.mfa.gov.sg |
+| Israel | Embassy | embassies.gov.il/india/en/the-embassy |
+
+Each of these is a different CMS/platform (WordPress, Drupal, a shared MFA template
+per country, bespoke .gov sites) — there's no single scraping pattern that covers
+all 12 the way `pib_index.py` covers every central ministry in one place. Realistic
+build order: MEA's bilateral-documents page first (one source, structured,
+covers every country), then add individual missions only for the handful of
+countries this ecosystem actually tracks closely (the DART/Oslo/SIX filing-feed
+countries in §2d are a reasonable starting shortlist: Korea, Norway/EU-adjacent,
+Switzerland — plus the US, Japan and UAE given their weight in the trade-policy
+analysis elsewhere in this ecosystem).
+
+**Adjacent, not strictly diplomatic**: the Foreign Investment Facilitation Portal
+(fifp.gov.in, DPIIT's FDI single-window) and data.gov.in's own "FDI Equity Inflows"
+catalog entry are both closer to §2a (central government, systematic) than to this
+section, but surfaced during the same search — worth folding into whichever gets
+built first, since both bear on the same "which country is doing what with India"
+question an MoU tracker would answer.
+
 ## 3. Standard practices (synthesized from CLAUDE.md, AI_GOVT_AFFAIRS_ANALYSIS.md, and this session's fixes)
 
 **Publishing discipline**
@@ -207,27 +261,71 @@ access, not from a session like this one.** The same day, from the operator's Ma
 
 ## 5. Sweep for new sources — findings this pass
 
-Nothing net-new discovered from scratch this pass beyond what §2's existing
-docs already flag as open gaps — but three things are worth calling out explicitly:
+### Round 1 (initial pass)
 
 1. **Two already-known gaps got a fresh (negative) data point**: Bihar's
    documented lead is confirmed still the correct URL, still broken (302 loop) —
    no regression, no fix, just confirmed current.
 2. **One new lead surfaced for Tamil Nadu**, not yet in `STATE_SOURCES.md`:
-   `tn.gov.in/department/31` looks like a real DIPR department page. Untried against
-   the actual scraper — next step is a live fetch, not a WebSearch guess.
+   `tn.gov.in/department/31` looks like a real DIPR department page.
 3. **The Lok Sabha question API break (§4) is itself the most actionable finding
-   here** — it's not a new source, but an existing one silently going stale, which
-   is exactly the kind of gap a periodic reachability sweep like this one exists to
-   catch. A reminder is already scheduled (2026-11-20) to re-check this once
-   Parliament's Winter Session opens, since there's no new PQ data to lose in the
-   meantime anyway.
+   here** — it's not a new source, but an existing one silently going stale. A
+   reminder is scheduled (2026-11-20) to re-check once Parliament's Winter Session
+   opens.
 
-Candidates worth a dedicated future sweep, not attempted this pass (all `.gov.in`
-domains this sandbox can't reach, so each needs Mac-side verification): `data.gov.in`
-(OGD platform — general open datasets, not yet connected to any script in these
-repos), `rbi.org.in` (macro/financial time series, same status), PARIVESH (mentioned
-in `AI_GOVT_AFFAIRS_ANALYSIS.md` as an existing connector but not located in this
-sweep), and the NIRYAT trade-visualization portal (previously found to be blocked at
-the TLS level, per `india-trade-sector-policy-recommendations`'s own README — worth
-one retry from a fresh IP before writing it off permanently).
+### Round 2 — fresh leads for 13 of the 15 unreachable states/UTs
+
+A second WebSearch pass (not yet verified against live reachability — that needs
+Mac-side `curl`, see the checklist below) found a *different* domain or path than
+whatever `STATE_SOURCES.md` had already tried and failed on, for every state except
+the two (Bihar, Tamil Nadu) already covered in Round 1:
+
+| State/UT | Old (dead) lead | New lead found |
+|---|---|---|
+| Arunachal Pradesh | arunachalipr.gov.in (conn. error) | diprarunachal.org/press-releases/ — different domain (`.org`, not `.gov.in`) |
+| Haryana | prharyana.gov.in root (404) | prharyana.gov.in/en/news-press-releases — same domain, real sub-path |
+| Himachal Pradesh | himachalpr.gov.in (conn. error) | himachalpr.gov.in/PressRelease.aspx?Language=1 — same domain, specific page; worth a retry in case the earlier failure was transient |
+| Jharkhand | prdjharkhand.in (302 loop) | prdjharkhand.in/iprd/index.php — same domain, specific path |
+| Manipur | dipr.mn.gov.in (404) | dipr.mn.gov.in/pageInfo.aspx?contType=press_release — same domain, specific path |
+| Meghalaya | meghalaya.gov.in/press-releases (404) | meghalaya.gov.in/press — different path, reportedly current through Jul 2026 |
+| Tamil Nadu | dipr.tn.gov.in (conn. error) | tn.gov.in/department/31 (Round 1) |
+| Tripura | icatripura.nic.in (conn. error) | ica.tripura.gov.in/press-release — different domain entirely |
+| Delhi | dip.delhi.gov.in (conn. error) | publicity.delhi.gov.in/press-releases — different subdomain |
+| J&K | dipr.jk.gov.in (conn. error) | dipr.jk.gov.in/ — same domain; retry, may have been transient |
+| Ladakh | ladakh.gov.in/press-releases (404) | ladakh.gov.in/category/press-release/ — different path (WordPress-style taxonomy) |
+| Puducherry | information.py.gov.in (conn. error) | info.py.gov.in/press-section — different subdomain |
+| Andaman & Nicobar | dt.andaman.gov.in (conn. error) | andssw1.and.nic.in/doip/index.php/home/index — different domain |
+| Lakshadweep | lakshadweep.gov.in/press-releases (404) | lakshadweep.gov.in/category/press-release/ — different path, same WordPress-style pattern as Ladakh (worth checking if other NE/UT sites share this template) |
+
+None of these are confirmed live yet — WebSearch surfaces a page's existence and
+title, not a working fetch. A `curl` reachability pass was handed to the operator to
+run from a machine with real network access; results pending as of this writing.
+
+### Round 2 — national platforms not yet used anywhere in this ecosystem
+
+- **NDAP** (`ndap.niti.gov.in`) — NITI Aayog's National Data & Analytics Platform.
+  Standardized-schema datasets across many sectors, explicitly designed to be
+  merged/cross-referenced, with API access (mechanism unconfirmed — needs a direct
+  look at the platform's own docs).
+- **NITI for States** (`nitiforstates.gov.in`) — a separate NITI Aayog property: a
+  Data Catalogue + Data Explorer across 10 sectors and 8 cross-cutting themes
+  (SDGs, innovation, gender & social inclusion, etc.).
+- **FIFP** (`fifp.gov.in`) — DPIIT's Foreign Investment Facilitation Portal, the
+  actual single-window FDI application system. More operationally useful than
+  descriptive, but worth knowing about alongside the diplomatic/MoU sources in §2g.
+- `data.gov.in`'s general API endpoint (`data.gov.in/apis`) exists and is separate
+  from the NITI-specific catalog page already known — not yet connected to
+  anything in these repos.
+
+### Round 3 — diplomatic/MoU sources
+
+See §2g (new section) — MEA's bilateral-documents page plus 12 major embassies,
+none of it previously tracked anywhere in this ecosystem.
+
+### Still not attempted
+
+`rbi.org.in` (macro/financial time series), PARIVESH (mentioned in
+`AI_GOVT_AFFAIRS_ANALYSIS.md` as an existing connector but not located in this
+sweep), and the NIRYAT trade-visualization portal (previously found blocked at the
+TLS level per `india-trade-sector-policy-recommendations`'s own README — worth one
+retry from a fresh IP before writing it off permanently).
