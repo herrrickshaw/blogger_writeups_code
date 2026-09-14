@@ -195,3 +195,16 @@ Cloud sessions often get a **shallow** clone. Check with
 `git rev-parse --is-shallow-repository` before drawing any conclusion from
 `git log` — a "this never existed" answer from a truncated history is worthless.
 Run `git fetch --unshallow` first.
+
+## Cross-session project memory
+
+A session rooted here has no memory of its own. Decisions and hazards for the
+broader personal-projects portfolio (of which this archive is one) live under
+the `~` (home) session, indexed by `~/.claude/projects/-Users-umashankar/memory/MEMORY.md`
+— reach it with `qmd search "<topic>"` rather than assuming this session
+remembers anything. A point-in-time snapshot of 128 incident-sourced rules
+distilled from that memory is browsable at
+https://claude.ai/code/artifact/e29ceaeb-099e-4de7-ab43-dcd97a2d8f57
+("Ways of Working"), good for fast orientation but not authoritative over
+anything specific to this repo — the rules above override it where they
+conflict.
