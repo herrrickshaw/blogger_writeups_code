@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-10T10:13:17.475+05:30",
+  "updated": "2026-09-14T14:33:37.478+05:30",
   "labels": [],
-  "bytes": 334442,
-  "sha256": "2dc8d635052d670af8c7195388a8cdd7727f046c792b05968039217042a08ac1",
+  "bytes": 346542,
+  "sha256": "a6b2563678857adc54ea78dfb1cc6991fea5b69b07a3211cd5f92e789ec71625",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
-    "typo_unify": false,
+    "typo_unify": true,
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "46.0.0",
+  "version": "46.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1522,6 +1522,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "46.1.0",
+      "date": "2026-09-14T14:34:11+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-3 distinct numbers))",
+      "bytes": [
+        334442,
+        346542
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          false,
+          true
+        ]
+      },
+      "note": "Rebuilt index after publishing LNG decarbonization post"
     }
   ]
 }
