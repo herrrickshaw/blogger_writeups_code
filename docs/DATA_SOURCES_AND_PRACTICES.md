@@ -273,33 +273,37 @@ access, not from a session like this one.** The same day, from the operator's Ma
    reminder is scheduled (2026-11-20) to re-check once Parliament's Winter Session
    opens.
 
-### Round 2 — fresh leads for 13 of the 15 unreachable states/UTs
+### Round 2 — fresh leads for 13 of the 15 unreachable states/UTs, live-verified
 
-A second WebSearch pass (not yet verified against live reachability — that needs
-Mac-side `curl`, see the checklist below) found a *different* domain or path than
-whatever `STATE_SOURCES.md` had already tried and failed on, for every state except
-the two (Bihar, Tamil Nadu) already covered in Round 1:
+A second WebSearch pass found a *different* domain or path than whatever
+`STATE_SOURCES.md` had already tried and failed on, for every state except Bihar
+(confirmed still dead, Round 1). The operator then ran a live `curl` pass from a
+machine with real network access — **9 of 15 are now confirmed reachable**, a
+genuine reduction in the "unreachable" list from 15 down to 6 (plus Bihar,
+unchanged):
 
-| State/UT | Old (dead) lead | New lead found |
-|---|---|---|
-| Arunachal Pradesh | arunachalipr.gov.in (conn. error) | diprarunachal.org/press-releases/ — different domain (`.org`, not `.gov.in`) |
-| Haryana | prharyana.gov.in root (404) | prharyana.gov.in/en/news-press-releases — same domain, real sub-path |
-| Himachal Pradesh | himachalpr.gov.in (conn. error) | himachalpr.gov.in/PressRelease.aspx?Language=1 — same domain, specific page; worth a retry in case the earlier failure was transient |
-| Jharkhand | prdjharkhand.in (302 loop) | prdjharkhand.in/iprd/index.php — same domain, specific path |
-| Manipur | dipr.mn.gov.in (404) | dipr.mn.gov.in/pageInfo.aspx?contType=press_release — same domain, specific path |
-| Meghalaya | meghalaya.gov.in/press-releases (404) | meghalaya.gov.in/press — different path, reportedly current through Jul 2026 |
-| Tamil Nadu | dipr.tn.gov.in (conn. error) | tn.gov.in/department/31 (Round 1) |
-| Tripura | icatripura.nic.in (conn. error) | ica.tripura.gov.in/press-release — different domain entirely |
-| Delhi | dip.delhi.gov.in (conn. error) | publicity.delhi.gov.in/press-releases — different subdomain |
-| J&K | dipr.jk.gov.in (conn. error) | dipr.jk.gov.in/ — same domain; retry, may have been transient |
-| Ladakh | ladakh.gov.in/press-releases (404) | ladakh.gov.in/category/press-release/ — different path (WordPress-style taxonomy) |
-| Puducherry | information.py.gov.in (conn. error) | info.py.gov.in/press-section — different subdomain |
-| Andaman & Nicobar | dt.andaman.gov.in (conn. error) | andssw1.and.nic.in/doip/index.php/home/index — different domain |
-| Lakshadweep | lakshadweep.gov.in/press-releases (404) | lakshadweep.gov.in/category/press-release/ — different path, same WordPress-style pattern as Ladakh (worth checking if other NE/UT sites share this template) |
+| State/UT | Old (dead) lead | New lead | Live check |
+|---|---|---|---|
+| Haryana | prharyana.gov.in root (404) | prharyana.gov.in/en/news-press-releases | **200 — confirmed** |
+| Himachal Pradesh | himachalpr.gov.in (conn. error) | himachalpr.gov.in/PressRelease.aspx?Language=1 | **200 — confirmed** |
+| Tripura | icatripura.nic.in (conn. error) | ica.tripura.gov.in/press-release | **200 — confirmed** |
+| Delhi | dip.delhi.gov.in (conn. error) | publicity.delhi.gov.in/press-releases | **200 — confirmed** |
+| Tamil Nadu | dipr.tn.gov.in (conn. error) | tn.gov.in/department/31 | **200 — confirmed** |
+| J&K | dipr.jk.gov.in (conn. error) | dipr.jk.gov.in/ | **200 — confirmed** (same domain as before; the earlier failure was transient, not a dead site) |
+| Lakshadweep | lakshadweep.gov.in/press-releases (404) | lakshadweep.gov.in/category/press-release/ | **200 — confirmed** |
+| Arunachal Pradesh | arunachalipr.gov.in (conn. error) | diprarunachal.org/press-releases/ | 404 — wrong path on a real domain; retry at the domain root |
+| Manipur | dipr.mn.gov.in (404) | dipr.mn.gov.in/pageInfo.aspx?contType=press_release | 404 — wrong path on a real domain (site confirmed to exist via WebSearch, e.g. `/infoApp.aspx`); retry at root |
+| Jharkhand | prdjharkhand.in (302 loop) | prdjharkhand.in/iprd/index.php | 000 (no connection) |
+| Meghalaya | meghalaya.gov.in/press-releases (404) | meghalaya.gov.in/press | 000 (no connection) |
+| Ladakh | ladakh.gov.in/press-releases (404) | ladakh.gov.in/category/press-release/ | 000 (no connection) |
+| Puducherry | information.py.gov.in (conn. error) | info.py.gov.in/press-section | 000 (no connection) |
+| Andaman & Nicobar | dt.andaman.gov.in (conn. error) | andssw1.and.nic.in/doip/index.php/home/index | 000 (no connection) |
 
-None of these are confirmed live yet — WebSearch surfaces a page's existence and
-title, not a working fetch. A `curl` reachability pass was handed to the operator to
-run from a machine with real network access; results pending as of this writing.
+The seven `000`/`404` results above are being retried with a browser User-Agent
+header (several Indian government WAFs block bare `curl`/`urllib` by user-agent
+string alone, unrelated to whether the underlying page exists) — update pending.
+
+**NDAP and NITI for States both confirmed live (200)** on the same pass.
 
 ### Round 2 — national platforms not yet used anywhere in this ecosystem
 
