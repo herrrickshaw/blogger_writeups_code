@@ -1,4 +1,4 @@
-# Language audit — IPA Digital Twin — Reportage: Latest Updates (28 Jul – 26 Aug 2026)
+# Language audit — IPA Digital Twin — Reportage: Latest Updates (28 Jul – 14 Sep 2026)
 
 *https://masaladeutsch.blogspot.com/2026/08/ipa-digital-twin-reportage-latest.html*
 
@@ -14,7 +14,7 @@
   context: ...ring units  2026-08-14 Andhra Pradesh · News wire Andhra eases industrial approvals, allo...
   suggested: Newswire
 - **[GRAMMAR/NEWS_COMPOUNDS]** This is normally spelled as one word.
-  context: 2026-08-05 Andhra Pradesh · News wire Jal Jeevan MissionSpeed up Jal Jeevan M...
+  context: ...epartment.  2026-08-05 Andhra Pradesh · News wire Jal Jeevan MissionSpeed up Jal Jeevan M...
   suggested: Newswire
 - **[GRAMMAR/NEWS_COMPOUNDS]** This is normally spelled as one word.
   context: ...in 2025–26  2026-08-04 Andhra Pradesh · News wire Vizag, Moscow sign MoU on urban transpo...
