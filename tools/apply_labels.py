@@ -110,6 +110,12 @@ OVERRIDE = {
     # the eyebrow's plain text and the body. Self-declares "Industrial
     # policy - PIB register" in its own eyebrow line.
     "quarterly-reportage-4034-scheme": ["Industrial Policy"],
+    # No Railways/Infrastructure bucket exists in TAXONOMY; the itemised
+    # land-acquisition schedule's "farm"/"village"/"landholder" language
+    # scored highest under Agriculture & Fertilisers, mislabelling a
+    # freight-rail-capacity post. Industrial Policy is the closest fit
+    # among existing labels.
+    "a-2223-crore-coal-freight-railway-line": ["Industrial Policy"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,
