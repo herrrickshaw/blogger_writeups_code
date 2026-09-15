@@ -1,0 +1,32 @@
+{
+  "id": "4093846361849774289",
+  "title": "What a Failed Bankruptcy Auction Actually Costs, in India's Own Numbers",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/what-failed-bankruptcy-auction-actually.html",
+  "slug": "what-failed-bankruptcy-auction-actually",
+  "published": "2026-09-15T09:41:43.000+05:30",
+  "updated": "2026-09-15T09:41:43.000+05:30",
+  "labels": [],
+  "bytes": 16446,
+  "sha256": "75d3a70323fe1ac0767e039e31a678a173ffbd490eec74b91414ed2e7d73a942",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.0.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-15T04:50:42+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+    }
+  ]
+}

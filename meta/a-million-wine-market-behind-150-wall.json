@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html",
   "slug": "a-million-wine-market-behind-150-wall",
   "published": "2026-08-30T13:25:43.000+05:30",
-  "updated": "2026-09-11T06:16:23.732+05:30",
+  "updated": "2026-09-15T08:07:18.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 31950,
-  "sha256": "9f251e0819348ffdeb9065374264a6c0e767b974f0aee39416877a4c9035de29",
+  "bytes": 33773,
+  "sha256": "f821d314a10330d9f0d7f991fb1c4619fb8a034b7e856946c9c6ab8c02d474bf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Two fixes on the India-wine-market forecast bar chart, applied on top of the concurrent sitewide markup sync (v1.0.4, +1051 bytes). (1) The 2032 bar's top (y=68) collided with the subtitle (55.4px). (2) While rescaling, found the two bars weren't drawn to a consistent scale: at the original heights, $802.9M (4.11x $195.3M) was drawn only 3.26x as tall as the $195.3M bar, visually understating the forecast growth. Rescaled both bars to a single consistent linear scale (new 2032 bar top y=95, comfortably below the subtitle) so bar height now accurately reflects the value ratio; recomputed value-label positions to match. A git merge of this session's edit against the concurrent sitewide sync combined both changes cleanly (they touched different lines); republished the merged content since the first publish had been built off a stale pre-sync local copy."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-15T04:50:42+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        31950,
+        33773
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
     }
   ]
 }

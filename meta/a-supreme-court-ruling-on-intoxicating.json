@@ -1,0 +1,34 @@
+{
+  "id": "1677613831094616118",
+  "title": "A Supreme Court Ruling on \"Intoxicating Liquor\" Just Became a Cost Risk for India's Ethanol Programme",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/a-supreme-court-ruling-on-intoxicating.html",
+  "slug": "a-supreme-court-ruling-on-intoxicating",
+  "published": "2026-09-15T07:55:31.000+05:30",
+  "updated": "2026-09-15T09:05:27.000+05:30",
+  "labels": [
+    "Energy & Fuels"
+  ],
+  "bytes": 19219,
+  "sha256": "92055d18b77d85afab5b66f9a9475a805ec5a6ada3966f84fd746a1f7847b9cc",
+  "markers": {
+    "light_lock": true,
+    "dark_panel_guard": false,
+    "typo_unify": true,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.0.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-15T04:50:42+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+    }
+  ]
+}

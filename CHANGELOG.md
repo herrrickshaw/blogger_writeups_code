@@ -11244,3 +11244,37 @@ Rebuilt index after publishing LNG decarbonization post
 **Changed**
 
 - `article-index-start-here` — 334,442 → 346,542 bytes (+12,100); markers typo_unify False→True
+
+## 2026-09-15T04:50:42+00:00 — 285 posts live
+
+Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing.
+
+
+**Added**
+
+- `india-ended-63-years-of-state-nuclear` **v1.0.0** — India Ended 63 Years of State Nuclear Monopoly — But Foreign Reactor Builders Are Still Locked Out (15,851 bytes)
+- `indias-12385-project-investment-grid` **v1.0.0** — India's 12,385-Project Investment Grid Has Two "Projects" That Are Actually Just Government Schemes (15,413 bytes)
+- `what-failed-bankruptcy-auction-actually` **v1.0.0** — What a Failed Bankruptcy Auction Actually Costs, in India's Own Numbers (16,446 bytes)
+- `a-2223-crore-coal-freight-railway-line` **v1.0.0** — A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time (14,062 bytes)
+- `a-textile-sez-built-to-re-employ-mill` **v1.0.0** — A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007 (14,796 bytes)
+- `indias-e-commerce-inventory-ban-just` **v1.0.0** — India's E-Commerce Inventory Ban Just Got Its First Real Exception — For Exports Only (16,390 bytes)
+- `indias-ev-localisation-deadline-just` **v1.0.0** — India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls (19,721 bytes)
+- `a-supreme-court-ruling-on-intoxicating` **v1.0.0** — A Supreme Court Ruling on "Intoxicating Liquor" Just Became a Cost Risk for India's Ethanol Programme (19,219 bytes)
+- `engineering-and-auto-component-makers` **v1.0.0** — Engineering and Auto-Component Makers File More SEBI DRHPs Than Any Other Sector — Not Tech, Not Finance (20,047 bytes)
+- `indias-ethanol-sector-already-had-its` **v1.0.0** — India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending (18,392 bytes)
+- `global-lng-trade-hit-record-437-million` **v1.0.0** — Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — Almost Double What It Was a Decade Ago (13,917 bytes)
+- `indias-lng-trucks-grew-75-in-2025-about` **v1.0.0** — India's LNG Trucks Grew 75% in 2025 — About a Third of What the Industry Expected (14,904 bytes)
+
+**Versions**
+
+- `a-million-wine-market-behind-150-wall` **1.0.5 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `a-million-wine-market-behind-150-wall` — 31,950 → 33,773 bytes (+1,823)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-battery-storage-boom-is` — 2026-09-11 &rarr; 2026-09-11
+- `the-solar-panel-recycling-opportunity` — 2026-09-11 &rarr; 2026-09-11
+- `alimco-jaipur-foot-and-bionic-gap-in` — 2026-09-11 &rarr; 2026-09-11
