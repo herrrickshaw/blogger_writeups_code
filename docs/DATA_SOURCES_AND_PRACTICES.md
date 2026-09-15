@@ -363,6 +363,112 @@ the "method" column as what the catalog says, not something re-probed here.
 | `india-govt-yellow-pages` | igod.gov.in organization index | — | already attached this session |
 | `global-market-research-platform` | **SEBI DRHP filings** (`SEBI_web_scraper.ipynb`, Selenium — the tool behind this session's SEBI post) | Selenium/Colab | manual re-run, no cron found |
 
+## 7. Verified inventory: what's actually sitting in the data (2026-09-15, deeper pass)
+
+§6 above listed repos by their own self-description. This section is
+different: four repos were actually cloned and their databases queried
+directly, to see what's real vs. documented-but-stale. All four have
+proper `collectors/`/`scripts/` directories with committed data, not just
+notebooks — a materially different (better) starting point than the SEBI
+scraper's Colab notebook.
+
+### `agri-commodity-tracker` — real, but stale
+
+- `mandi_prices`: **227,534 rows**, Agmarknet mandi-level daily prices
+  (state/district/market/commodity/variety/min-max-modal price), confirmed
+  via direct DuckDB query. Date range **21 Jul 2026 → 21 Aug 2026** only —
+  the collector has a documented pagination bug fixed 2026-07-23 (before
+  that, days are ~10-row stubs, not the full ~16k-row daily feed; the
+  source API can't backfill, so those days are permanently thin).
+- **Stale**: last pull matches the committed snapshot exactly (21 Aug) —
+  ~3.5 weeks old as of today despite a documented 14:30 IST daily cron.
+  Either the cron stopped running or its output stopped being pushed.
+- `worldbank_agri` (3,158 rows) and `fci_locations` (478 depots, all of
+  India's FCI warehouse network with zone/region codes) both present and
+  presumably still valid (annual/near-static sources).
+- **Blog angle**: a full month of real mandi-level price data (July-August
+  2026) is sitting here unused — worth a "what actually moved at the mandi
+  level" piece, once someone re-runs the cron to close the freshness gap.
+
+### `india-trade-tracker` — real, one-time pull, not the documented monthly cadence
+
+- `eidb_chapter_trade`: **291 rows**, HS-2-digit chapter exports/imports
+  for FY2024-25 (current + previous year, growth %), confirmed reconciling
+  with official aggregate figures (exports ≈$437.7bn). But only 3
+  flow/year combinations exist (2024 imports, 2024 exports, 2025
+  exports) — 2025 imports was never pulled, and there is exactly one
+  `pulled_on` date (2026-07-21) across the whole table. The documented
+  "monthly, DoC updates with ~2-month lag" cadence has not actually
+  recurred since the first pull.
+- Confirms the Selenium-without-webdriver-manager pattern (Selenium ≥4's
+  built-in manager) already works in production here — the same fix
+  applied to `sebi_index.py` this session, independently validated.
+- `worldbank_trade`: 4,114 rows, 10 indicators × 8 countries, likely still
+  valid.
+
+### `gazette-translated-indexed` — the deepest, freshest, most directly usable of the four
+
+- Six `.db` files exist at different build stages; **`gazette_final.db`
+  and `gazette_v3.db` are identical and canonical** (matches the README's
+  headline numbers exactly: 2,591 notifications, 2,113 cross-references,
+  53 ministries). `gazette.db`/`gazette_full.db`/`gazette_v2.db` are
+  earlier intermediate builds; `t.db`/`t2.db` are empty scratch files.
+  Use `gazette_final.db` (or `gazette_v3.db`), not the bare `gazette.db`
+  the README's own quickstart command writes to.
+- Date range **1937 → 8 September 2026** — a week old as of this pass,
+  genuinely current, built against real quoted primary-source PDF text
+  ("no synthetic fixtures" per its own README, and this pass confirms the
+  claim: sample rows carry real S.O./G.S.R. numbers and instrument
+  titles, not placeholders).
+- One data-quality gap: the `gazette_notification.subject` column is
+  NULL on every recent row checked; the actual human-readable subject
+  lives in a joined `subject_thread.subject_summary` field instead (join
+  on `thread_id`), which the raw column alone doesn't surface.
+- **Concrete blog leads already sitting in the most recent rows**:
+  Phased Manufacturing Programme notifications for e-Trucks (N2/N3) and
+  e-Buses (M2/M3), both 2025-vintage, gazetted 3 Sep 2026; a FEMA
+  Non-debt Instruments Rules amendment (3 Sep); a GIDC Apparel Park SEZ
+  de-notification in Ahmedabad (31 Aug); Railways Act land-acquisition
+  notifications with a corrigenda chain. None of this has been used in
+  any post yet.
+
+### `digital-twin-for-ipa` — the largest asset by far, not fully audited this pass
+
+49 layer files (`layers/*.json`), each independently sourced and dated,
+plus a SQLite company database (`data/companies.db`, 1,785 companies) and
+an auto-generated national dashboard combining all of them
+(`docs/national_dashboard.html`). Repo last pushed 31 Aug 2026 (~2 weeks
+stale via a shallow-clone check, not full history). This is too large to
+audit layer-by-layer in one pass — flagging the ones most obviously
+relevant to open blog threads rather than claiming full coverage:
+
+- **Layer 32** (`company_db.json` + `sebi_filings` table) — already used
+  this session to extend the SEBI DRHP post; see that post's v2.0.0
+  changelog.
+- **Layer 28** (`policy_watchlist.json`) — 33 active investment-relevant
+  bills (2024+) mapped to twin sectors: Income Tax Bill 2025, Securities
+  Markets Code, IBC & Banking amendments, Draft Electricity Amendment
+  2025, Nuclear Energy Bill, labour codes. Forward-looking counterpart to
+  what's already in force — a natural "what's coming" companion piece to
+  any of this blog's existing scheme-tracking posts.
+- **Layer 33** (`policy_finance_extensions.json`) — four dense analysis
+  blocks: fisheries (PMMSY/PM-MKSSY/FIDF/MPEDA), state excise bottling
+  fees (directly relevant to this blog's ethanol/ENA coverage — flags a
+  structural fee-creep risk for the E20 ethanol cohort via the *Lalta
+  Prasad Vaish* Supreme Court ruling), customs duties by sector, India
+  Exim Bank Lines of Credit ($25.5bn, 298 LOCs), and CBG/GOBARdhan
+  fertiliser-route economics.
+- **Layer 34** (`stressed_assets.json`) — consolidates rating-distress
+  flags, IBC liquidations (1,436 ongoing), closed-PSU/NLMC land, and a
+  named case study (Dunlop India).
+- **Layer 26** (`project_pipeline.json`) — 12,385 live NIP/PM Gati Shakti
+  project opportunities across 42 sectors from the India Investment Grid.
+
+None of layers 1-27, 29-31, 35-44 were individually re-verified for
+freshness or accuracy in this pass — treat the README's own per-layer
+table as the source of truth on what each one claims, and re-check
+before citing a specific figure from an unaudited layer in a post.
+
 The catalog notes `FCI-warehouse-MSPvsMSV`, `cng-cgd-retail-outlet-mapping`,
 `toll-plaza-highways` and `india-omc-fuel-fleet-model` as one cluster — "same
 govt-data-extraction pattern reused across 5 repos; candidate for a shared
