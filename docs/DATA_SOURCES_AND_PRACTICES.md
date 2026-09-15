@@ -333,3 +333,83 @@ none of it previously tracked anywhere in this ecosystem.
 sweep), and the NIRYAT trade-visualization portal (previously found blocked at the
 TLS level per `india-trade-sector-policy-recommendations`'s own README — worth one
 retry from a fresh IP before writing it off permanently).
+
+## 6. Cross-account scraper inventory (2026-09-15 sweep)
+
+Prompted by a direct ask ("find all such scrapers on the local machine and
+cloud, compile all the sources for the blog"). The account has ~100 repos
+total; most are an unrelated quant-trading/stock-screener research platform
+(BazaarTalks, global-stock-screener, stock-screener-platform and ~15 more —
+personal market research, not blog input). This section lists only the
+government/public-data scrapers actually relevant to masaladeutsch's beat
+(trade, energy, industrial policy), found via `repo-traffic-analytics/repos.yaml`
+(the existing portfolio catalog, generated 2026-07-22 + appended 2026-09-12)
+cross-checked against each repo's own purpose/notes field. Not independently
+re-verified line-by-line against each repo's actual code in this pass — treat
+the "method" column as what the catalog says, not something re-probed here.
+
+### On-topic and apparently active
+
+| Repo | Scrapes | Method | Freshness |
+|---|---|---|---|
+| `agri-commodity-tracker` | India APMC mandi commodity prices (Agmarknet/data.gov.in) + World Bank agriculture panel | data.gov.in API (public sample key) | cron 14:30 daily |
+| `india-trade-tracker` | DGFT EIDB chapter-wise exports/imports + World Bank trade | Selenium | cron 15th of month |
+| `digital-twin-for-ipa` | 312-instrument incentive twin (this ecosystem's own PIB/scheme tracker) | — | cron daily 07:17 + Mon 08:23 |
+| `fuel-retail-outlets` | India fuel/petrol retail outlets — SSRI/BPCL/CashAtPOS extractors | direct extractors | canonical data: `ssri_pumps_raw_20260722.jsonl.gz`, 105,035 pumps |
+| `cng-cgd-retail-outlet-mapping` | CGD geographical-area map + the same 82k fuel outlets, as a live map artifact | consumes fuel-retail-outlets' data | artifact live |
+| `india-omc-fuel-fleet-model` | India OMC retail fuel profitability, E20/E25/E30 blend scenarios | PPAC + live Vahan data | — |
+| `FCI-warehouse-MSPvsMSV` | FCI foodgrain warehouse stock vs. MSP-implied procurement value | — | — |
+| `gazette-translated-indexed` | Indian gazette notifications, cross-referenced across 17 ministries | citation-index pipeline | active, 52 commits |
+| `india-govt-yellow-pages` | igod.gov.in organization index | — | already attached this session |
+| `global-market-research-platform` | **SEBI DRHP filings** (`SEBI_web_scraper.ipynb`, Selenium — the tool behind this session's SEBI post) | Selenium/Colab | manual re-run, no cron found |
+
+The catalog notes `FCI-warehouse-MSPvsMSV`, `cng-cgd-retail-outlet-mapping`,
+`toll-plaza-highways` and `india-omc-fuel-fleet-model` as one cluster — "same
+govt-data-extraction pattern reused across 5 repos; candidate for a shared
+extractor library" — i.e. this fragmentation is already a known, named issue,
+not a new observation from this pass.
+
+### On-topic but archived/superseded (tier 3 in the catalog)
+
+`toll-plaza-highways`, `india-ec-subsector-analysis` (full PARIVESH 2.0
+register, 113,970 records — archived despite being exactly the kind of source
+this doc's §2 wants), `india-trade-data-analysis`, `india-commodity-trade-deficit`,
+`india-forex-analysis`, `india-trade-export-analysis`, `mospi-dataset-analysis(-public)`
+— the India-trade-analysis cluster, mostly one-off or superseded by the
+`india-trade-sector-policy-recommendations` split already in active use.
+
+### Named but undocumented (empty `purpose` field in the catalog)
+
+`data-source-mining` — checked directly this pass: `mine_underused_sources.py`
+pulls the World Bank indicators API (12 India+peer macro/agri/energy/trade
+series) and data.gov.in's Agmarknet mandi-price resource via the same public
+sample key `agri-commodity-tracker` uses — likely a second, possibly
+redundant, collector for the same Agmarknet resource. `jal_jeevan_lottery`,
+`jai_kisan_jai_javan`, `kalki_flooding`, `memory-map-optimizer`,
+`claude-provenance` were not checked this pass; names suggest the first two
+may be scheme-tracking (Jal Jeevan Mission, PM-Kisan) worth a look before the
+next sweep.
+
+### Local machine — not checked, needs the operator
+
+This sandbox has no access to the Mac's filesystem outside git checkouts.
+Anything scraper-shaped living only in `~/Downloads`, a local Jupyter
+checkpoint, or a not-yet-pushed branch is invisible here. Suggested check to
+run locally and share back:
+```
+find ~ -maxdepth 4 \( -iname "*scraper*" -o -iname "*sebi*" -o -iname "*drhp*" \
+  -o -iname "*_index.py" -o -iname "*mine_*" \) -not -path "*/node_modules/*" \
+  -not -path "*/.git/*" 2>/dev/null
+```
+
+### A finding outside blog scope, worth flagging anyway
+
+`repos.yaml` documents two live/recent credential-and-PII exposures on public
+repos, unrelated to the blog but real: `global-stock-screener` had
+screener.in-authenticated data (including promoter/FII/DII holdings) on
+`main`, "NOT YET REMEDIATED" as of the catalog's last update (history purge
+deferred); `global-market-research-platform` had the same screener.in data
+plus a live personal watchlist/portfolio pushed the same day it was flipped
+private (2026-09-01). Both repos are now private per the catalog, but neither
+note says the git *history* was purged — worth confirming directly if these
+were ever public with that content in a reachable commit.
