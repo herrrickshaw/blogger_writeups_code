@@ -572,3 +572,42 @@ plus a live personal watchlist/portfolio pushed the same day it was flipped
 private (2026-09-01). Both repos are now private per the catalog, but neither
 note says the git *history* was purged — worth confirming directly if these
 were ever public with that content in a reachable commit.
+
+## 9. snapshot.py fixed, update_index.py found obsolete (2026-09-15)
+
+`tools/snapshot.py` pulled the Blogger *public feed*
+(`masaladeutsch.blogspot.com/feeds/posts/default`), which this sandbox's
+network policy blocks (403 at the agent-proxy CONNECT layer — an org
+decision, confirmed via the proxy's own status endpoint, not a bug to route
+around). Fixed by switching its read path to the Blogger API v3
+(`blogger.googleapis.com`), which `tools/blogger_api.py` already uses
+end-to-end for every publish this account makes — same underlying data (all
+live posts, full bodies), a different, already-authenticated channel, not a
+policy workaround. The new `all_entries()` reshapes each REST post object
+into the old Atom-feed-JSON shape so nothing downstream (`parse()`,
+versioning, the manifest/changelog writers) needed to change.
+
+One real gotcha surfaced and fixed: the REST list endpoint doesn't return
+sub-second timestamp precision, so a naive switch made every one of 285 live
+posts look "re-dated" (identical published/updated *instant*, different
+string). Fixed by normalizing to the old feed's trailing `.000` when the API
+omits it. A handful of posts whose original timestamp happened to carry
+non-zero milliseconds still show a one-time, harmless re-dated diff on the
+first run after this switch — that precision is genuinely gone from the API
+and cannot be recovered, so it's called out in the migration commit rather
+than hidden.
+
+Running the fixed `snapshot.py` also surfaced that **`tools/update_index.py`
+is obsolete**: it edits a static `<details class="ix-sec" id="t0".."t9">` /
+`class="ix-item"` list in `posts/article-index-start-here.html` that no
+longer exists on the live index. Some earlier sitewide markup sync replaced
+it with a per-Blogger-label accordion (`class="gs-acc" data-label="...">`)
+that `accordion.js` (served from GitHub Pages, `herrrickshaw/masaladeutsch`
+repo — clone it to inspect, since `*.github.io` itself is not reachable from
+this sandbox even though `github.com`/`raw.githubusercontent.com` are) fills
+client-side via JSONP against the blog's own public feed, live, in the
+reader's browser — unaffected by this sandbox's network policy since it
+never runs here. Practical upshot: **a new post shows up in the index
+automatically once it has the right Blogger label — no static-file step, no
+`update_index.py` run, needed at all.** Don't spend time re-running it;
+see its own docstring for the detail.
