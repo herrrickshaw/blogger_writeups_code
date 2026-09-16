@@ -1,4 +1,4 @@
-# Language audit — Quarterly Reportage — 4,081 Scheme Announcements, 2017 to August 2026
+# Language audit — Quarterly Reportage — 4,099 Scheme Announcements, 2017 to August 2026
 
 *https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html*
 
