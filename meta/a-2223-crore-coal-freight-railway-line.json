@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html",
   "slug": "a-2223-crore-coal-freight-railway-line",
   "published": "2026-09-15T09:32:11.000+05:30",
-  "updated": "2026-09-15T09:33:11.000+05:30",
+  "updated": "2026-09-16T09:05:42.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 14062,
-  "sha256": "466d67315c6c017f45972010dc9388d23bd60b748bbfb09d156f7a79b9bbfbc8",
+  "bytes": 14181,
+  "sha256": "b0413b65ebd37499f8476c1dea2d35d4494bee74e3de854fec3081ca682b6d2d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-16T08:03:03+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        14062,
+        14181
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
     }
   ]
 }

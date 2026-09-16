@@ -11278,3 +11278,35 @@ Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce expo
 - `indias-battery-storage-boom-is` — 2026-09-11 &rarr; 2026-09-11
 - `the-solar-panel-recycling-opportunity` — 2026-09-11 &rarr; 2026-09-11
 - `alimco-jaipur-foot-and-bionic-gap-in` — 2026-09-11 &rarr; 2026-09-11
+
+## 2026-09-16T08:03:03+00:00 — 289 posts live
+
+Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement
+
+
+**Added**
+
+- `ethanol-freed-up-refinery-capacity-for` **v1.0.0** — Ethanol Freed Up Refinery Capacity for Petrochemicals. The Pharma Chain Hasn't Seen Much of It Yet. (21,750 bytes)
+- `indias-labour-codes-took-six-years-to` **v1.0.0** — India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State (16,084 bytes)
+- `five-years-and-25000-crore-later-china` **v1.0.0** — Five Years and ₹25,000 Crore Later, China Still Supplies Three-Quarters of India's Drug-Making Ingredients (31,687 bytes)
+- `india-rewrote-its-entire-maritime-legal` **v1.0.0** — India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade. (15,068 bytes)
+
+**Versions**
+
+- `india-ended-63-years-of-state-nuclear` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-12385-project-investment-grid` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `what-failed-bankruptcy-auction-actually` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `a-2223-crore-coal-freight-railway-line` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `a-textile-sez-built-to-re-employ-mill` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-e-commerce-inventory-ban-just` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ev-localisation-deadline-just` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-ended-63-years-of-state-nuclear` — 15,851 → 15,970 bytes (+119)
+- `indias-12385-project-investment-grid` — 15,413 → 15,532 bytes (+119)
+- `what-failed-bankruptcy-auction-actually` — 16,446 → 16,565 bytes (+119)
+- `a-2223-crore-coal-freight-railway-line` — 14,062 → 14,181 bytes (+119)
+- `a-textile-sez-built-to-re-employ-mill` — 14,796 → 14,915 bytes (+119)
+- `indias-e-commerce-inventory-ban-just` — 16,390 → 16,509 bytes (+119)
+- `indias-ev-localisation-deadline-just` — 19,721 → 19,840 bytes (+119)

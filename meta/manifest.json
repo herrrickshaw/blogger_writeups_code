@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-15T04:50:42+00:00",
-  "count": 285,
+  "snapshot": "2026-09-16T08:03:03+00:00",
+  "count": 289,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -7779,6 +7779,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "2428462414715391757": {
+      "id": "2428462414715391757",
+      "title": "Ethanol Freed Up Refinery Capacity for Petrochemicals. The Pharma Chain Hasn't Seen Much of It Yet.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
+      "slug": "ethanol-freed-up-refinery-capacity-for",
+      "published": "2026-09-16T13:32:18.000+05:30",
+      "updated": "2026-09-16T13:32:56.000+05:30",
+      "labels": [
+        "Chemicals",
+        "Energy & Fuels"
+      ],
+      "bytes": 21750,
+      "sha256": "1c337a5ab498d2cf3d86b19d817f94a7e5761939906ebf6c3c08cbc3ac0b875c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -18441,10 +18476,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/what-failed-bankruptcy-auction-actually.html",
       "slug": "what-failed-bankruptcy-auction-actually",
       "published": "2026-09-15T09:41:43.000+05:30",
-      "updated": "2026-09-15T09:41:43.000+05:30",
+      "updated": "2026-09-16T09:05:34.000+05:30",
       "labels": [],
-      "bytes": 16446,
-      "sha256": "75d3a70323fe1ac0767e039e31a678a173ffbd490eec74b91414ed2e7d73a942",
+      "bytes": 16565,
+      "sha256": "adb18477e5f094f4b5fa622d81070d01eec4ee617e4c674c3d5015203fe7dda1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -18456,7 +18491,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -18464,6 +18499,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            16446,
+            16565
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -20124,6 +20172,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "4348490830035863858": {
+      "id": "4348490830035863858",
+      "title": "India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
+      "slug": "india-rewrote-its-entire-maritime-legal",
+      "published": "2026-09-15T10:51:58.000+05:30",
+      "updated": "2026-09-16T09:05:10.000+05:30",
+      "labels": [],
+      "bytes": 15068,
+      "sha256": "5d76853f09a3c2ec7054db997376070517ebd438c116487dd93db7ba995178ea",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -22933,12 +23013,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
       "slug": "india-ended-63-years-of-state-nuclear",
       "published": "2026-09-15T10:11:42.000+05:30",
-      "updated": "2026-09-15T10:11:54.000+05:30",
+      "updated": "2026-09-16T09:05:18.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 15851,
-      "sha256": "c6c7f8f344563dc6611a91399da011e3f632723def292e17a7d2e0c501ea90e6",
+      "bytes": 15970,
+      "sha256": "4df58c1a2d669165e410d8df308f43d6531d27364c385e09b6fd2f6268d43f94",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22950,7 +23030,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22958,6 +23038,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15851,
+            15970
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -24522,6 +24615,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        }
+      ]
+    },
+    "50906247045039347": {
+      "id": "50906247045039347",
+      "title": "Five Years and ₹25,000 Crore Later, China Still Supplies Three-Quarters of India's Drug-Making Ingredients",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/five-years-and-25000-crore-later-china.html",
+      "slug": "five-years-and-25000-crore-later-china",
+      "published": "2026-09-16T12:03:59.000+05:30",
+      "updated": "2026-09-16T12:14:59.000+05:30",
+      "labels": [
+        "Import Substitution",
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
+      "bytes": 31687,
+      "sha256": "f87b66f8b028c1d7131b9db1f4e9d72a228df19025ac2238100a84034e09bde7",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -29118,12 +29247,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-12385-project-investment-grid.html",
       "slug": "indias-12385-project-investment-grid",
       "published": "2026-09-15T09:44:39.000+05:30",
-      "updated": "2026-09-15T09:44:51.000+05:30",
+      "updated": "2026-09-16T09:05:25.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 15413,
-      "sha256": "6d3b69a16d490ed60c99397bda4e653401218d556d9c753ff3e329d92776f9f2",
+      "bytes": 15532,
+      "sha256": "f749498fe459a045977520a74b01450bd8c2c7dd240bed8afc6a43fb5ebd171c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29135,7 +29264,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29143,6 +29272,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            15413,
+            15532
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -34845,14 +34987,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html",
       "slug": "indias-ev-localisation-deadline-just",
       "published": "2026-09-15T09:00:40.000+05:30",
-      "updated": "2026-09-15T09:17:14.000+05:30",
+      "updated": "2026-09-16T09:06:05.000+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 19721,
-      "sha256": "6681aafaff3362d2041679178aa833550a1d890b1b7ce45666aa308654483dfb",
+      "bytes": 19840,
+      "sha256": "e89e3865ad8184f4c937c86cae676a6890547d10f77ae55ce6babcdf92dd52eb",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34864,7 +35006,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34872,6 +35014,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            19721,
+            19840
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -35020,12 +35175,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-e-commerce-inventory-ban-just.html",
       "slug": "indias-e-commerce-inventory-ban-just",
       "published": "2026-09-15T09:26:58.000+05:30",
-      "updated": "2026-09-15T09:27:10.000+05:30",
+      "updated": "2026-09-16T09:05:57.000+05:30",
       "labels": [
         "Trade & Tariffs"
       ],
-      "bytes": 16390,
-      "sha256": "ee6f541d7e87126163e74730418a0b06568b7d65a1fd5dd3894a7ca206244c18",
+      "bytes": 16509,
+      "sha256": "0a68d4063589863efdd6dfb1462f637c69cd31d76b9f87a4c3dc4b74de579ea1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35037,7 +35192,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35045,6 +35200,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            16390,
+            16509
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -39924,12 +40092,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html",
       "slug": "a-2223-crore-coal-freight-railway-line",
       "published": "2026-09-15T09:32:11.000+05:30",
-      "updated": "2026-09-15T09:33:11.000+05:30",
+      "updated": "2026-09-16T09:05:42.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 14062,
-      "sha256": "466d67315c6c017f45972010dc9388d23bd60b748bbfb09d156f7a79b9bbfbc8",
+      "bytes": 14181,
+      "sha256": "b0413b65ebd37499f8476c1dea2d35d4494bee74e3de854fec3081ca682b6d2d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -39941,7 +40109,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39949,6 +40117,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            14062,
+            14181
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -48012,12 +48193,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/a-textile-sez-built-to-re-employ-mill.html",
       "slug": "a-textile-sez-built-to-re-employ-mill",
       "published": "2026-09-15T09:29:36.000+05:30",
-      "updated": "2026-09-15T09:29:48.000+05:30",
+      "updated": "2026-09-16T09:05:50.000+05:30",
       "labels": [
         "Textiles"
       ],
-      "bytes": 14796,
-      "sha256": "2db3c9cbc2cfd4d10de5c96b343ad58bc77a136039955d588152d863b9dd050c",
+      "bytes": 14915,
+      "sha256": "6a764027d28bc3ad196311aac3d76ac31c9c0a56f0a323f1b314fcbb9fa2de2a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -48029,7 +48210,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48037,6 +48218,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            14796,
+            14915
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
@@ -51248,6 +51442,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        }
+      ]
+    },
+    "8994260697014545618": {
+      "id": "8994260697014545618",
+      "title": "India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
+      "slug": "indias-labour-codes-took-six-years-to",
+      "published": "2026-09-16T13:11:13.000+05:30",
+      "updated": "2026-09-16T13:11:13.000+05:30",
+      "labels": [],
+      "bytes": 16084,
+      "sha256": "b524c79932433fd6af370ef8b452d1c8575863b24d4a5588a52395705ed16bf5",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T08:03:03+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
         }
       ]
     },
