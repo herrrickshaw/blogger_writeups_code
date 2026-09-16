@@ -11323,3 +11323,16 @@ Expand petrochemical build-out table (Gujarat/Koyali, Kochi PDPP+PP, OPaL Dahej,
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 21,750 → 24,950 bytes (+3,200)
+
+## 2026-09-16T08:10:53+00:00 — 289 posts live
+
+Confirm Barauni refinery expansion (cross-checked OGJ/PSU Connect/Indian Infrastructure/psuwatch) and add to Section 7 with its polypropylene unit and IOCL group capacity context -- v1.2.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+7/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 24,950 → 26,504 bytes (+1,554)
