@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/sun-pharmas-1175bn-organon-bet-is.html",
   "slug": "sun-pharmas-1175bn-organon-bet-is",
   "published": "2026-09-16T14:14:23.000+05:30",
-  "updated": "2026-09-16T14:14:47.000+05:30",
+  "updated": "2026-09-16T20:50:36.000+05:30",
   "labels": [
     "Healthcare",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 17261,
-  "sha256": "66be952b926219f1e7638dce212c36f399e7fe510170d3ee3dbfd64986292ae7",
+  "bytes": 18102,
+  "sha256": "b5cc9b3f3cc083a2abf5dc5f93c65ca3441bf3cfee12bcdc108ef5384a016ccc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide patent-cliff market dynamics, the ₹60,000cr API push traced to its 6 schemes, and Sun Pharma's Organon deal/RBI financing angle"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-16T15:20:48+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        17261,
+        18102
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update Sun Pharma/Organon piece: the RBI-dependent financing syndication closed 30 June 2026 (11 banks, 0bn+) and Organon shareholders approved the merger in July 2026, resolving what the piece flagged as pending at first publish -- v1.1.0"
     }
   ]
 }

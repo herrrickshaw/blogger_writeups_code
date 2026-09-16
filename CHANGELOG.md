@@ -11396,3 +11396,16 @@ Publish new post: Jan Aushadhi's 2,439-product catalogue cross-referenced agains
 **Added**
 
 - `jan-aushadhi-sells-2439-products-heres` **v1.0.0** — Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From. (19,726 bytes)
+
+## 2026-09-16T15:20:48+00:00 — 294 posts live
+
+Update Sun Pharma/Organon piece: the RBI-dependent financing syndication closed 30 June 2026 (11 banks, 0bn+) and Organon shareholders approved the merger in July 2026, resolving what the piece flagged as pending at first publish -- v1.1.0
+
+
+**Versions**
+
+- `sun-pharmas-1175bn-organon-bet-is` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `sun-pharmas-1175bn-organon-bet-is` — 17,261 → 18,102 bytes (+841)
