@@ -11424,3 +11424,16 @@ Cross-check the pharma-molecule cross-reference tables against this blog's own 9
 
 - `jan-aushadhi-sells-2439-products-heres` — 19,726 → 21,419 bytes (+1,693)
 - `ethanol-freed-up-refinery-capacity-for` — 36,243 → 38,227 bytes (+1,984)
+
+## 2026-09-16T15:36:02+00:00 — 294 posts live
+
+Add Bulk Drug Parks operational-status gap (0/3 in commercial production) found via research_crosscheck.py against the PIB Annexure piece; republished the API-push post.
+
+
+**Versions**
+
+- `indias-60000-crore-api-push-traced-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `indias-60000-crore-api-push-traced-to` — 17,965 → 19,415 bytes (+1,450)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-16T15:31:06+00:00",
+  "snapshot": "2026-09-16T15:36:02+00:00",
   "count": 294,
   "posts": {
     "1058853159205559121": {
@@ -43066,12 +43066,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
       "slug": "indias-60000-crore-api-push-traced-to",
       "published": "2026-09-16T14:11:49.000+05:30",
-      "updated": "2026-09-16T14:12:07.000+05:30",
+      "updated": "2026-09-16T21:05:29.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 17965,
-      "sha256": "7521db6e764c50759cb0538083795b8557eb9adbc7e25e21d900f6c1facf7252",
+      "bytes": 19415,
+      "sha256": "dbb08436fe7526a464ed36b4b8a2e3cd64ae56a022bb07353ff30e1dcc2cc0d0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -43083,7 +43083,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43091,6 +43091,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide patent-cliff market dynamics, the ₹60,000cr API push traced to its 6 schemes, and Sun Pharma's Organon deal/RBI financing angle"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-16T15:36:02+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            17965,
+            19415
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add Bulk Drug Parks operational-status gap (0/3 in commercial production) found via research_crosscheck.py against the PIB Annexure piece; republished the API-push post."
         }
       ]
     },
