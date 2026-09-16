@@ -11375,3 +11375,15 @@ Add Reliance Industries, BPCL+Oil India JV, ONGC Uttar Pradesh proposal and Naya
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 33,953 → 36,243 bytes (+2,290)
+
+## 2026-09-16T08:44:55+00:00 — 293 posts live
+
+Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide patent-cliff market dynamics, the ₹60,000cr API push traced to its 6 schemes, and Sun Pharma's Organon deal/RBI financing angle
+
+
+**Added**
+
+- `sun-pharmas-1175bn-organon-bet-is` **v1.0.0** — Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It (17,261 bytes)
+- `indias-60000-crore-api-push-traced-to` **v1.0.0** — India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes (17,965 bytes)
+- `indias-semaglutide-patent-cliff-26` **v1.0.0** — India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Price War, and a Government Crackdown (16,497 bytes)
+- `dr-reddys-cut-its-semaglutide-guidance` **v1.0.0** — Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself (17,199 bytes)
