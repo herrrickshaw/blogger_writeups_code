@@ -11336,3 +11336,16 @@ Confirm Barauni refinery expansion (cross-checked OGJ/PSU Connect/Indian Infrast
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 24,950 → 26,504 bytes (+1,554)
+
+## 2026-09-16T08:20:44+00:00 — 289 posts live
+
+Add BPCL Bina (BORL) petrochemical/refinery expansion, HRRL Barmer's petrochemical-specific capacity figure, and a caveat on the stalled Ratnagiri (RRPCL) mega-refinery -- v1.3.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 26,504 → 28,085 bytes (+1,581)
