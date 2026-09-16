@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-16T13:32:56.000+05:30",
+  "updated": "2026-09-16T13:38:42.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 21750,
-  "sha256": "1c337a5ab498d2cf3d86b19d817f94a7e5761939906ebf6c3c08cbc3ac0b875c",
+  "bytes": 24950,
+  "sha256": "d84f5ab6f1e968f0e4d1cc6bbfe0cade75219ab0f796672c6b307e89ec03be06",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-16T08:08:52+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+32/-0 distinct numbers))",
+      "bytes": [
+        21750,
+        24950
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Expand petrochemical build-out table (Gujarat/Koyali, Kochi PDPP+PP, OPaL Dahej, MRPL PACE) and add Section 7 on upcoming plain refining capacity (Numaligarh, Panipat, national 2030 range) -- v1.1.0"
     }
   ]
 }

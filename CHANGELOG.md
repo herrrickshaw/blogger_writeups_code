@@ -11310,3 +11310,16 @@ Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol 
 - `a-textile-sez-built-to-re-employ-mill` — 14,796 → 14,915 bytes (+119)
 - `indias-e-commerce-inventory-ban-just` — 16,390 → 16,509 bytes (+119)
 - `indias-ev-localisation-deadline-just` — 19,721 → 19,840 bytes (+119)
+
+## 2026-09-16T08:08:52+00:00 — 289 posts live
+
+Expand petrochemical build-out table (Gujarat/Koyali, Kochi PDPP+PP, OPaL Dahej, MRPL PACE) and add Section 7 on upcoming plain refining capacity (Numaligarh, Panipat, national 2030 range) -- v1.1.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+32/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 21,750 → 24,950 bytes (+3,200)
