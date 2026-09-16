@@ -11362,3 +11362,16 @@ Add Panipat PBR and Styrene Monomer projects; expand Section 3 with real China i
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 28,085 → 33,953 bytes (+5,868)
+
+## 2026-09-16T08:31:57+00:00 — 289 posts live
+
+Add Reliance Industries, BPCL+Oil India JV, ONGC Uttar Pradesh proposal and Nayara Vadinar (all found missing via cross-check against this blog's own 'Financing the Fuel-to-Chemicals Pivot'); correct Panipat expansion figures against that same, more precisely sourced piece -- v1.5.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.4.0 → 1.5.0** (MINOR) — forced via --as minor (figures changed (+10/-3 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 33,953 → 36,243 bytes (+2,290)

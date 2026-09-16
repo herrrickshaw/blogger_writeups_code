@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-16T13:56:15.000+05:30",
+  "updated": "2026-09-16T14:01:45.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 33953,
-  "sha256": "4d1990aca57dccc5df6dbec90c91fc78406175e9168b84aa0793228015facfd8",
+  "bytes": 36243,
+  "sha256": "4fe39fe85476d76d084597ad7ef3a1e72e52321cb77d3a0af8567ff0af0d275b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.4.0",
+  "version": "1.5.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add Panipat PBR and Styrene Monomer projects; expand Section 3 with real China import-dependency figures for paracetamol/diclofenac, add diclofenac and aspirin as candidates, and a target-priority table answering which synthetic-route molecules a petchem-linked KSM push should target -- v1.4.0"
+    },
+    {
+      "version": "1.5.0",
+      "date": "2026-09-16T08:31:57+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+10/-3 distinct numbers))",
+      "bytes": [
+        33953,
+        36243
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add Reliance Industries, BPCL+Oil India JV, ONGC Uttar Pradesh proposal and Nayara Vadinar (all found missing via cross-check against this blog's own 'Financing the Fuel-to-Chemicals Pivot'); correct Panipat expansion figures against that same, more precisely sourced piece -- v1.5.0"
     }
   ]
 }
