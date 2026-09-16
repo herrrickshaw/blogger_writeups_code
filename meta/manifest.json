@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-16T16:09:35+00:00",
+  "snapshot": "2026-09-16T23:45:41+00:00",
   "count": 294,
   "posts": {
     "1058853159205559121": {
@@ -33247,14 +33247,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-14T14:33:37.000+05:30",
+      "updated": "2026-09-17T05:15:29.000+05:30",
       "labels": [],
-      "bytes": 346542,
-      "sha256": "a6b2563678857adc54ea78dfb1cc6991fea5b69b07a3211cd5f92e789ec71625",
+      "bytes": 359250,
+      "sha256": "bae3c8b8fd6f30d26c0dacdea2cef8a638ef243c5e9c1298b29b1c8ba36c125f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
-        "typo_unify": true,
+        "typo_unify": false,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
@@ -33262,7 +33262,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "46.1.0",
+      "version": "46.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34783,6 +34783,24 @@
             ]
           },
           "note": "Rebuilt index after publishing LNG decarbonization post"
+        },
+        {
+          "version": "46.2.0",
+          "date": "2026-09-16T23:45:41+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+14/-4 distinct numbers))",
+          "bytes": [
+            346542,
+            359250
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "typo_unify": [
+              true,
+              false
+            ]
+          },
+          "note": "Rebuild and republish the article index (293 articles, up from 294-2 stray files removed; picks up all posts added/edited this session) via the documented index_graph.py + build_index_page.py pipeline, then consistency-check/fix.py's repair() for translate widget + AI disclosure, plus the self-referencing topnav-index-link."
         }
       ]
     },

@@ -11460,3 +11460,16 @@ Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP st
 - `imported-fertiliser-fuel-prices-diesel` — 36,174 → 36,174 bytes (+0)
 - `priority-export-destinations-by-growth` — 40,394 → 40,575 bytes (+181)
 - `indias-subsidised-imports-fertilisers` — 38,043 → 38,180 bytes (+137)
+
+## 2026-09-16T23:45:41+00:00 — 294 posts live
+
+Rebuild and republish the article index (293 articles, up from 294-2 stray files removed; picks up all posts added/edited this session) via the documented index_graph.py + build_index_page.py pipeline, then consistency-check/fix.py's repair() for translate widget + AI disclosure, plus the self-referencing topnav-index-link.
+
+
+**Versions**
+
+- `article-index-start-here` **46.1.0 → 46.2.0** (MINOR) — forced via --as minor (figures changed (+14/-4 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 346,542 → 359,250 bytes (+12,708); markers typo_unify True→False
