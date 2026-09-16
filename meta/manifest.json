@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-16T08:20:44+00:00",
+  "snapshot": "2026-09-16T08:26:26+00:00",
   "count": 289,
   "posts": {
     "1058853159205559121": {
@@ -7788,13 +7788,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
       "slug": "ethanol-freed-up-refinery-capacity-for",
       "published": "2026-09-16T13:32:18.000+05:30",
-      "updated": "2026-09-16T13:50:32.000+05:30",
+      "updated": "2026-09-16T13:56:15.000+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 28085,
-      "sha256": "e4e4aa9c12996ea335b0f1449b49b41a86b81289bdbfe3a8e5b7313c5233e01b",
+      "bytes": 33953,
+      "sha256": "4d1990aca57dccc5df6dbec90c91fc78406175e9168b84aa0793228015facfd8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7806,7 +7806,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.3.0",
+      "version": "1.4.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7853,6 +7853,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add BPCL Bina (BORL) petrochemical/refinery expansion, HRRL Barmer's petrochemical-specific capacity figure, and a caveat on the stalled Ratnagiri (RRPCL) mega-refinery -- v1.3.0"
+        },
+        {
+          "version": "1.4.0",
+          "date": "2026-09-16T08:26:26+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+          "bytes": [
+            28085,
+            33953
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Add Panipat PBR and Styrene Monomer projects; expand Section 3 with real China import-dependency figures for paracetamol/diclofenac, add diclofenac and aspirin as candidates, and a target-priority table answering which synthetic-route molecules a petchem-linked KSM push should target -- v1.4.0"
         }
       ]
     },

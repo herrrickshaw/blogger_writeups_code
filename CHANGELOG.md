@@ -11349,3 +11349,16 @@ Add BPCL Bina (BORL) petrochemical/refinery expansion, HRRL Barmer's petrochemic
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 26,504 → 28,085 bytes (+1,581)
+
+## 2026-09-16T08:26:26+00:00 — 289 posts live
+
+Add Panipat PBR and Styrene Monomer projects; expand Section 3 with real China import-dependency figures for paracetamol/diclofenac, add diclofenac and aspirin as candidates, and a target-priority table answering which synthetic-route molecules a petchem-linked KSM push should target -- v1.4.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.3.0 → 1.4.0** (MINOR) — forced via --as minor (figures changed (+15/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 28,085 → 33,953 bytes (+5,868)
