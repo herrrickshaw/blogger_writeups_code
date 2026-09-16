@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-16T08:44:55+00:00",
-  "count": 293,
+  "snapshot": "2026-09-16T15:09:33+00:00",
+  "count": 294,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -22796,6 +22796,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "4707409148657902439": {
+      "id": "4707409148657902439",
+      "title": "Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
+      "slug": "jan-aushadhi-sells-2439-products-heres",
+      "published": "2026-09-16T20:39:10.000+05:30",
+      "updated": "2026-09-16T20:39:25.000+05:30",
+      "labels": [
+        "Chemicals",
+        "Healthcare",
+        "Industrial Policy"
+      ],
+      "bytes": 19726,
+      "sha256": "3ada28f4569dc49b561655d0efd377dd4bd7cbc4827a9b2260ae58d9b0adab2f",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-16T15:09:33+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post: Jan Aushadhi's 2,439-product catalogue cross-referenced against China-API-dependency figures for 15 common molecules, sourced from the user's own official PMBI CSV export"
         }
       ]
     },

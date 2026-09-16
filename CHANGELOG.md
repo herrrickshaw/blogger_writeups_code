@@ -11387,3 +11387,12 @@ Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide paten
 - `indias-60000-crore-api-push-traced-to` **v1.0.0** — India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes (17,965 bytes)
 - `indias-semaglutide-patent-cliff-26` **v1.0.0** — India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Price War, and a Government Crackdown (16,497 bytes)
 - `dr-reddys-cut-its-semaglutide-guidance` **v1.0.0** — Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself (17,199 bytes)
+
+## 2026-09-16T15:09:33+00:00 — 294 posts live
+
+Publish new post: Jan Aushadhi's 2,439-product catalogue cross-referenced against China-API-dependency figures for 15 common molecules, sourced from the user's own official PMBI CSV export
+
+
+**Added**
+
+- `jan-aushadhi-sells-2439-products-heres` **v1.0.0** — Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From. (19,726 bytes)
