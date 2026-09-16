@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-09-11T00:02:07.000+05:30",
+  "updated": "2026-09-16T21:39:01.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Prices & Inflation"
   ],
   "bytes": 36174,
-  "sha256": "16a90d780c8b0b22f9084ce7535b7959c0559aa6dd8510840e2fcbb8bb768c3a",
+  "sha256": "96acae1abc5c6fa51c7923635a0feae5b6a72dbf6fbc7cb4b315f87b8d8a6f7a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -270,6 +270,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-09-16T16:09:35+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        36174,
+        36174
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch."
     }
   ]
 }

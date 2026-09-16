@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fy2025-26-sample-report-india-trade.html",
   "slug": "fy2025-26-sample-report-india-trade",
   "published": "2026-08-02T13:59:21.000+05:30",
-  "updated": "2026-09-10T23:21:04.000+05:30",
+  "updated": "2026-09-16T21:38:49.000+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 39774,
-  "sha256": "359de7aba5c5ad1a6a2f1a1ffc4da48b8dd180d06a9168b090dec82a3f284a7e",
+  "bytes": 40359,
+  "sha256": "4fe4b87c5e40496b6ceb1ced596d4d72cb42f1b8a4c0568025f7bc3677daa0c9",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -283,6 +283,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-09-16T16:09:35+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        39774,
+        40359
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch."
     }
   ]
 }

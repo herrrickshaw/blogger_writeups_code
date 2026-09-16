@@ -11437,3 +11437,26 @@ Add Bulk Drug Parks operational-status gap (0/3 in commercial production) found 
 **Changed**
 
 - `indias-60000-crore-api-push-traced-to` — 17,965 → 19,415 bytes (+1,450)
+
+## 2026-09-16T16:09:35+00:00 — 294 posts live
+
+Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch.
+
+
+**Versions**
+
+- `scan-bottle-deliver-what-ppacs-numbers` **2.0.4 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `half-of-indias-import-bill-is` **2.0.5 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `fy2025-26-sample-report-india-trade` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `imported-fertiliser-fuel-prices-diesel` **4.0.1 → 4.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `priority-export-destinations-by-growth` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-subsidised-imports-fertilisers` **3.0.5 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `scan-bottle-deliver-what-ppacs-numbers` — 24,693 → 24,691 bytes (-2)
+- `half-of-indias-import-bill-is` — 27,204 → 27,202 bytes (-2)
+- `fy2025-26-sample-report-india-trade` — 39,774 → 40,359 bytes (+585)
+- `imported-fertiliser-fuel-prices-diesel` — 36,174 → 36,174 bytes (+0)
+- `priority-export-destinations-by-growth` — 40,394 → 40,575 bytes (+181)
+- `indias-subsidised-imports-fertilisers` — 38,043 → 38,180 bytes (+137)
