@@ -11409,3 +11409,18 @@ Update Sun Pharma/Organon piece: the RBI-dependent financing syndication closed 
 **Changed**
 
 - `sun-pharmas-1175bn-organon-bet-is` — 17,261 → 18,102 bytes (+841)
+
+## 2026-09-16T15:31:06+00:00 — 294 posts live
+
+Cross-check the pharma-molecule cross-reference tables against this blog's own 90-line PIB China-import Annexure (five-years-and-25000-crore-later-china): corrected Ciprofloxacin and Ibuprofen figures in both the refinery-petrochem and Jan Aushadhi posts, added Rifampicin's trend, and revised the refinery post's molecule-targeting conclusion since Ibuprofen is already improving without PLI support. Found via the new tools/research_crosscheck.py, run against the last few published posts as requested.
+
+
+**Versions**
+
+- `jan-aushadhi-sells-2439-products-heres` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+13/-1 distinct numbers))
+- `ethanol-freed-up-refinery-capacity-for` **1.5.0 → 1.6.0** (MINOR) — forced via --as minor (figures changed (+14/-1 distinct numbers))
+
+**Changed**
+
+- `jan-aushadhi-sells-2439-products-heres` — 19,726 → 21,419 bytes (+1,693)
+- `ethanol-freed-up-refinery-capacity-for` — 36,243 → 38,227 bytes (+1,984)

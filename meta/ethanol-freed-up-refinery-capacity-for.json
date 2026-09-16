@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-16T14:01:45.000+05:30",
+  "updated": "2026-09-16T20:59:47.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 36243,
-  "sha256": "4fe39fe85476d76d084597ad7ef3a1e72e52321cb77d3a0af8567ff0af0d275b",
+  "bytes": 38227,
+  "sha256": "17285d2b4eb735acd036e99137bacd926ace8e81e39cb848686e3015f561a8b3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.5.0",
+  "version": "1.6.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add Reliance Industries, BPCL+Oil India JV, ONGC Uttar Pradesh proposal and Nayara Vadinar (all found missing via cross-check against this blog's own 'Financing the Fuel-to-Chemicals Pivot'); correct Panipat expansion figures against that same, more precisely sourced piece -- v1.5.0"
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-09-16T15:31:06+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+14/-1 distinct numbers))",
+      "bytes": [
+        36243,
+        38227
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Cross-check the pharma-molecule cross-reference tables against this blog's own 90-line PIB China-import Annexure (five-years-and-25000-crore-later-china): corrected Ciprofloxacin and Ibuprofen figures in both the refinery-petrochem and Jan Aushadhi posts, added Rifampicin's trend, and revised the refinery post's molecule-targeting conclusion since Ibuprofen is already improving without PLI support. Found via the new tools/research_crosscheck.py, run against the last few published posts as requested."
     }
   ]
 }
