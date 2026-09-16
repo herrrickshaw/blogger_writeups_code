@@ -127,7 +127,7 @@ if(skip){
 
 <p class="revised" data-gs-revision-v1="1">Revised
 <time datetime="2026-09-16" itemprop="dateModified">16 September 2026</time>
-&middot; <code>v1.0.0</code> &middot; <a href="#changelog">what changed</a></p>
+&middot; <code>v1.0.1</code> &middot; <a href="#changelog">what changed</a></p>
 
 <div class="stats">
 <div class="stat"><b>73.71%</b><span>of India's API/bulk-drug/intermediate imports (US$4.35bn, FY24-25) come from China</span></div>
@@ -191,19 +191,20 @@ if(skip){
 <table>
 <caption>India's FY2024-25 API/bulk-drug/intermediate imports by origin (US$4,347.75mn total, 200 HSN categories)</caption>
 <tr><th>Origin</th><th>Share</th><th>Value (US$mn)</th></tr>
-<tr><td>China</td><td>73.71%</td><td>3,204.7</td></tr>
-<tr><td>EU (bloc)</td><td>13.64%</td><td>&mdash;</td></tr>
-<tr><td>Singapore</td><td>2.49%</td><td>&mdash;</td></tr>
-<tr><td>United States</td><td>1.96%</td><td>&mdash;</td></tr>
-<tr><td>Japan</td><td>1.82%</td><td>&mdash;</td></tr>
-<tr><td>Switzerland</td><td>1.03%</td><td>&mdash;</td></tr>
-<tr><td>Mexico</td><td>0.80%</td><td>&mdash;</td></tr>
-<tr><td>UK</td><td>0.76%</td><td>&mdash;</td></tr>
-<tr><td>Hong Kong</td><td>0.53%</td><td>&mdash;</td></tr>
-<tr><td>Remainder</td><td>2.75%</td><td>&mdash;</td></tr>
+<tr><td>China</td><td>73.71%</td><td>3,204.70</td></tr>
+<tr><td>EU (bloc)</td><td>13.64%</td><td>593.03</td></tr>
+<tr><td>Singapore</td><td>2.49%</td><td>108.26</td></tr>
+<tr><td>United States</td><td>1.96%</td><td>85.22</td></tr>
+<tr><td>Japan</td><td>1.82%</td><td>79.13</td></tr>
+<tr><td>Switzerland</td><td>1.03%</td><td>44.78</td></tr>
+<tr><td>Mexico</td><td>0.80%</td><td>34.78</td></tr>
+<tr><td>UK</td><td>0.76%</td><td>33.04</td></tr>
+<tr><td>Hong Kong</td><td>0.53%</td><td>23.04</td></tr>
+<tr><td>Malaysia</td><td>0.51%</td><td>22.17</td></tr>
+<tr><td>Remainder</td><td>2.75%</td><td>119.56</td></tr>
 </table>
 </div>
-<p class="src">Source: DGCIS via PIB. No government breakdown of the EU's figure by member state was found; trade literature names Italy and Germany as likely leaders, but that attribution is not government-sourced.</p>
+<p class="src">Source: DGCIS via PIB (same release as the China/total figures above). Only China's dollar value was published directly; every other origin's value here is calculated as share &times; the US$4,347.75mn total, since PIB's release gave shares for these origins but not individual dollar amounts. "Remainder" is PIB's own catch-all for origins below Malaysia's 0.51%; the eleven rows sum to 100.00% of the published total. No government breakdown of the EU's figure by member state was found; trade literature names Italy and Germany as likely leaders, but that attribution is not government-sourced.</p>
 
 <h3>By therapeutic category</h3>
 <p>The government's own framing: "Therapeutic segments with high import dependence include antibiotics, anti-fungal, anti-amoebic, gastrointestinal disorders, antidiabetic, endocrine and hormonal disorders, cardiovascular, oncology, female infertility, contraception, neurology/substance use disorders and essential amino acid deficiency." Grouping the 90-line Chinese-dependence Annexure by value (the grouping is this post's own; the underlying figures are government-published):</p>
@@ -280,6 +281,7 @@ if(skip){
 <div id="changelog" class="note">
 <b>Revision history.</b>
 <ul>
+<li><b>v1.0.1</b> &mdash; 16 September 2026 &mdash; filled in the country-origin import table's dollar values (calculated as share &times; the published US$4,347.75mn total, since PIB gave shares but not per-origin dollar amounts beyond China's) and restored Malaysia (0.51%) as its own row after finding the published shares summed to 99.49% without it. Attempted to source real per-origin values directly from TRADESTAT/DGCIS instead of calculating them; found only chapter-broad HS29/HS30 data (a 6&times;-larger, differently-scoped series covering all organic chemicals or all pharmaceuticals, not the specific ~200-line API/bulk-drug/intermediate basket this table uses) accessible through this sandbox's network, so calculation from the already-correctly-scoped percentages was used instead.</li>
 <li><b>v1.0.0</b> &mdash; 16 September 2026 &mdash; first published.</li>
 </ul>
 </div>
