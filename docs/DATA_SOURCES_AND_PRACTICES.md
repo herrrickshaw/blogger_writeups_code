@@ -611,3 +611,100 @@ never runs here. Practical upshot: **a new post shows up in the index
 automatically once it has the right Blogger label — no static-file step, no
 `update_index.py` run, needed at all.** Don't spend time re-running it;
 see its own docstring for the detail.
+
+## 10. Research completion gates (2026-09-16 self-audit)
+
+Prompted by a user pointing at [Leonxlnx/unlazy](https://github.com/Leonxlnx/unlazy)
+— a completion-discipline skill that writes acceptance gates *before* work and
+re-verifies evidence before reporting, rather than trusting a confident "done."
+It wasn't installed in this session, so this section applies its discipline by
+hand: a named self-audit of this session's own research practice, plus a
+checklist and a new script that make part of it checkable instead of just
+promised.
+
+### The audit: five concrete lazy patterns, with evidence
+
+1. **Sibling-post cross-checking only happened when asked, not by default.**
+   The petrochemical/pharma-feedstock post first shipped with IOCL's PII
+   quoted at a slightly different figure than this blog's own earlier,
+   already-corrected "the-barrel-really-is-shifting-indias" post had it —
+   and it took an explicit "check other posts for gaps" prompt, twice, to
+   surface that this blog's own archive was a better source than a fresh
+   search. The same prompt later found Reliance Industries, a BPCL+Oil India
+   JV, and an ONGC Uttar Pradesh proposal missing entirely from the same
+   post's petrochemical-project table — all three sitting, already sourced,
+   in "Financing the Fuel-to-Chemicals Pivot."
+2. **A found-but-unconfirmed fact got dropped instead of chased.** An early
+   search pass surfaced a "60 kb/d Barauni expansion" figure bundled into an
+   unrelated summary sentence; it was flagged as uncorroborated and left out
+   rather than searched further. The user had to separately ask "check
+   Barauni" before a proper, well-corroborated set of figures (cost,
+   capacity, scope) turned up in the second pass.
+3. **A zero-match result was reported as a finding, not checked for a
+   spelling gap first.** The first China-API cross-reference against the
+   Jan Aushadhi catalogue searched for "Amoxicillin" and got zero matches —
+   reported as-is initially, when the actual issue was that the official
+   catalogue uses the IP/British spelling "Amoxycillin." Caught only by
+   manually spot-checking the zero before publishing, not by a standing rule
+   to check first.
+4. **A time-sensitive "as of this writing, unconfirmed" claim never got a
+   pre-publish freshness check.** The Sun Pharma/Organon piece shipped
+   describing RBI approval for the deal's financing as pending — true when
+   first researched, but the financing syndication had actually closed
+   months earlier (30 June 2026). Found only via an unrelated later prompt
+   to check for updates, not a built-in final-pass check.
+5. **Load-bearing figures sometimes rested on one search's synthesis, not a
+   second corroborating query.** Not every headline statistic in this
+   session got an independent second source before being treated as settled
+   — WebSearch's own summarization was occasionally taken as the finding
+   rather than as a pointer to go verify.
+
+### The checklist this implies
+
+- **Before first publish of any post touching a company, scheme, or molecule
+  this blog has covered before**, run the archive cross-check below. Not
+  after a prompt — before the draft is considered done.
+- **A found-but-uncorroborated fact is a to-do, not a thing to quietly drop.**
+  Either get a second source or say explicitly in the draft that it's
+  uncorroborated and why it's included anyway (see `financing-fuel-to-
+  chemicals-pivot-how`'s IOCL PII footnote for what that looks like done
+  right).
+- **A zero-match cross-reference result gets one spelling/terminology check
+  before being reported as a gap.** IP/British spelling variants (Amoxycillin
+  vs. Amoxicillin, Sulphate vs. Sulfate) are the recurring failure mode on
+  this blog specifically, because Indian regulatory documents use IP
+  spelling and most secondary English-language sources don't.
+- **Any "pending" / "unconfirmed" / "as of this writing" status claim about
+  something time-sensitive (a deal, an approval, a regulatory action) gets
+  one dedicated freshness re-check immediately before publish**, not just at
+  first-draft research time — this session ran long enough for real news to
+  break between researching and publishing more than once.
+- **A headline, load-bearing figure gets a second, independently-worded
+  search query before being treated as settled**, not just accepted from
+  whichever query happened to surface it first.
+
+### `tools/research_crosscheck.py`
+
+Turns the first and third checks above into something runnable instead of
+remembered:
+
+```bash
+python3 tools/research_crosscheck.py --terms "Reliance Industries,Amoxicillin" out/post-draft.html
+python3 tools/research_crosscheck.py --auto out/post-draft.html          # crude term extraction
+python3 tools/research_crosscheck.py --numbers --terms "..." out/post-draft.html
+```
+
+It greps `posts/*.html` for each term, reports which are already covered
+elsewhere (check for consistency, not just novelty) and which have zero
+matches (flagged with known variant spellings where this blog has a
+documented history of that exact miss). `--numbers` additionally checks
+whether a draft's own %/₹ figures show up attached to a *different* claim
+elsewhere — a cheap contradiction smell test, not a fact-checker.
+
+It does not verify anything against a primary source, and it will not catch
+a contradiction phrased in different words or numbers. It catches exactly
+the three failure patterns above: an entity this blog already covers, a
+term with a spelling gap, and a number that's already in use for something
+else. That is a real but bounded piece of the audit above — the other two
+gates (chasing uncorroborated facts, freshness-checking pending claims)
+stay judgment calls, same as before.
