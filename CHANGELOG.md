@@ -11540,3 +11540,16 @@ Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that 
 - `the-solar-panel-recycling-opportunity` — 38,492 → 39,368 bytes (+876)
 - `alimco-jaipur-foot-and-bionic-gap-in` — 32,963 → 33,805 bytes (+842)
 - `article-index-start-here` — 359,250 → 359,781 bytes (+531)
+
+## 2026-09-17T00:41:02+00:00 — 294 posts live
+
+Add naphtha-exports-to-China finding (DGCI&S TradeStat bilateral data, user-supplied): exports doubled +101% in FY2025-26, the same fiscal year E20 blending took hold nationwide, after two flat-to-declining years -- freed refinery capacity is measurably reaching China's crackers as a raw feedstock export, not only failing to reach India's own pharma-precursor chain. New 4th constraint in Section 5, new chart, new stat tile, revised standfirst.
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.7.0 → 1.8.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 41,199 → 46,411 bytes (+5,212)
