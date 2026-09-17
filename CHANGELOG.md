@@ -11553,3 +11553,16 @@ Add naphtha-exports-to-China finding (DGCI&S TradeStat bilateral data, user-supp
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 41,199 → 46,411 bytes (+5,212)
+
+## 2026-09-17T00:42:00+00:00 — 294 posts live
+
+Fix version-label drift: article's own revision line/changelog said v1.7.0 while manifest already tracked v1.8.0 (a v1.5.0 sync earlier in this file's history had no matching in-article changelog entry). Relabelled to v1.8.0 to match; no content change.
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.8.0 → 1.8.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,411 bytes (+0)

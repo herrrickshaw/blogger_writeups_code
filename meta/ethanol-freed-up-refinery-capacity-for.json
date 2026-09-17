@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-17T06:10:49.000+05:30",
+  "updated": "2026-09-17T06:11:48.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
   "bytes": 46411,
-  "sha256": "333112f72dec8b3d36bc9f98752f4ba31e701208b8f279011c564c790a6d66c3",
+  "sha256": "3d018343b7028ceb8405fe99d6726afddef6f4d49f8bc24fe0e78b38d194d49d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.8.0",
+  "version": "1.8.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add naphtha-exports-to-China finding (DGCI&S TradeStat bilateral data, user-supplied): exports doubled +101% in FY2025-26, the same fiscal year E20 blending took hold nationwide, after two flat-to-declining years -- freed refinery capacity is measurably reaching China's crackers as a raw feedstock export, not only failing to reach India's own pharma-precursor chain. New 4th constraint in Section 5, new chart, new stat tile, revised standfirst."
+    },
+    {
+      "version": "1.8.1",
+      "date": "2026-09-17T00:42:00+00:00",
+      "level": "patch",
+      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        46411,
+        46411
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix version-label drift: article's own revision line/changelog said v1.7.0 while manifest already tracked v1.8.0 (a v1.5.0 sync earlier in this file's history had no matching in-article changelog entry). Relabelled to v1.8.0 to match; no content change."
     }
   ]
 }
