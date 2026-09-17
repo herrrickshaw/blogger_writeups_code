@@ -11693,3 +11693,12 @@ Rebuild article index for the Minor Irrigation Census post; add apply_labels.py 
 **Changed**
 
 - `article-index-start-here` — 362,442 → 362,757 bytes (+315)
+
+## 2026-09-17T02:55:13+00:00 — 301 posts live
+
+Publish NSS 77th Round agricultural-household wage-vs-crop-income piece - next lit_review commission-queue item
+
+
+**Added**
+
+- `the-wage-beats-crop-in-survey-that` **v1.0.0** — The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out (16,627 bytes)
