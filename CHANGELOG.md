@@ -11583,3 +11583,16 @@ New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs --
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,726 bytes (+315)
+
+## 2026-09-17T01:12:51+00:00 — 295 posts live
+
+Rebuild article index for the new naphtha/benzene/China post (295 posts); fix stale 'Three earlier drafts' count in the By-date table's note.
+
+
+**Versions**
+
+- `article-index-start-here` **46.3.0 → 46.4.0** (MINOR) — forced via --as minor (figures changed (+3/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 359,781 → 360,927 bytes (+1,146)
