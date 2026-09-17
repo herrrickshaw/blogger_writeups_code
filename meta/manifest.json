@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T01:27:46+00:00",
+  "snapshot": "2026-09-17T01:29:33+00:00",
   "count": 296,
   "posts": {
     "1058853159205559121": {
@@ -33555,13 +33555,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-17T06:42:32.000+05:30",
+      "updated": "2026-09-17T06:59:16.000+05:30",
       "labels": [],
-      "bytes": 360927,
-      "sha256": "71a99b13713ae31856c77e21d3cefdbd5117e5c65bbdf9237888cf6f89445e1b",
+      "bytes": 361480,
+      "sha256": "f5c883df98567ba217eae882eabcc27df3c4320abe5cc56109900417ed2155ba",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
         "translate_widget": true,
         "index_link": true,
@@ -33570,7 +33570,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "46.4.0",
+      "version": "46.5.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35135,6 +35135,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index for the new naphtha/benzene/China post (295 posts); fix stale 'Three earlier drafts' count in the By-date table's note."
+        },
+        {
+          "version": "46.5.0",
+          "date": "2026-09-17T01:29:33+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+4/-2 distinct numbers))",
+          "bytes": [
+            360927,
+            361480
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ]
+          },
+          "note": "Rebuild article index for the new ABHA-vs-developed-countries post (296 posts). Generator now bakes in the topnav-index-link and gb-table border style itself, no manual patch needed."
         }
       ]
     },

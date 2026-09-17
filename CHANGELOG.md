@@ -11613,3 +11613,16 @@ New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Ins
 **Changed**
 
 - `abha-what-indias-14-digit-health-id` — 26,512 → 26,836 bytes (+324)
+
+## 2026-09-17T01:29:33+00:00 — 296 posts live
+
+Rebuild article index for the new ABHA-vs-developed-countries post (296 posts). Generator now bakes in the topnav-index-link and gb-table border style itself, no manual patch needed.
+
+
+**Versions**
+
+- `article-index-start-here` **46.4.0 → 46.5.0** (MINOR) — forced via --as minor (figures changed (+4/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 360,927 → 361,480 bytes (+553); markers dark_panel_guard False→True
