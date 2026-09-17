@@ -11728,3 +11728,16 @@ Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using C
 **Changed**
 
 - `do-cbse-past-papers-actually-help` — 19,916 → 23,990 bytes (+4,074)
+
+## 2026-09-17T03:21:02+00:00 — 301 posts live
+
+Fix PLFS rural-employment post: headline and takeaway had treated 'fast, not seasonal' as resolved when the piece's own caveat admits it isn't -- named the Oct-Dec/Apr-Jun agricultural calendar as the specific rival explanation
+
+
+**Versions**
+
+- `rural-indias-farm-employment-share` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `rural-indias-farm-employment-share` — 14,807 → 16,295 bytes (+1,488)

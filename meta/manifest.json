@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T03:14:46+00:00",
+  "snapshot": "2026-09-17T03:21:02+00:00",
   "count": 301,
   "posts": {
     "1058853159205559121": {
@@ -16181,16 +16181,16 @@
     },
     "3625769708355333591": {
       "id": "3625769708355333591",
-      "title": "Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Call That Fast, Not Decades-Long.",
+      "title": "Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Structural Shift or Just the Season? The Data Can't Yet Say.",
       "url": "https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html",
       "slug": "rural-indias-farm-employment-share",
       "published": "2026-09-17T08:10:45.000+05:30",
-      "updated": "2026-09-17T08:11:17.000+05:30",
+      "updated": "2026-09-17T08:50:47.000+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 14807,
-      "sha256": "caa5c591db2e6a00d8077185b0a4e6f6b3ffc9bb7f2bc8cd9ab5ce8937fb30ac",
+      "bytes": 16295,
+      "sha256": "bd0d9d10a09fda9fb2009293c532a84127022877747e6d4408e5a3edf1a11884",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16202,7 +16202,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16210,6 +16210,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish PLFS rural farm-employment-share piece (next lit_review commission-queue item)"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-17T03:21:02+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            14807,
+            16295
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix PLFS rural-employment post: headline and takeaway had treated 'fast, not seasonal' as resolved when the piece's own caveat admits it isn't -- named the Oct-Dec/Apr-Jun agricultural calendar as the specific rival explanation"
         }
       ]
     },
