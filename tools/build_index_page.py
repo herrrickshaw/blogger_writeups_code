@@ -261,8 +261,9 @@ def main():
         A(f'<tr><td>{_pretty_month(m)}</td><td>{months[m]}</td><td>{run}</td></tr>')
     A('</tbody></table></div>')
     A('<p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the '
-      'archive manifest. Three earlier drafts and duplicate variants were withdrawn before this '
-      'index was built and are not listed; they have no live URL to link to.</p>')
+      'archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, '
+      'superseded draft versions -- were withdrawn from Blogger over time and are not listed; they have '
+      'no live URL to link to.</p>')
 
     # ---- topics -----------------------------------------------------------
     A('<h2>By topic</h2>')
