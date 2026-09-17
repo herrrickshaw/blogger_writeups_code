@@ -11671,3 +11671,12 @@ Rebuild article index for the PLFS rural farm-employment post; apply label
 **Changed**
 
 - `article-index-start-here` — 362,100 → 362,442 bytes (+342)
+
+## 2026-09-17T02:47:44+00:00 — 300 posts live
+
+Publish Minor Irrigation Census piece (96.6% private, 94.8% groundwater) - next lit_review commission-queue item
+
+
+**Added**
+
+- `india-irrigates-itself-966-of-its` **v1.0.0** — India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned. (16,021 bytes)
