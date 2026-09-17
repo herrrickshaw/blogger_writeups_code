@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T02:40:56+00:00",
+  "snapshot": "2026-09-17T02:41:59+00:00",
   "count": 299,
   "posts": {
     "1058853159205559121": {
@@ -16165,8 +16165,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html",
       "slug": "rural-indias-farm-employment-share",
       "published": "2026-09-17T08:10:45.000+05:30",
-      "updated": "2026-09-17T08:10:45.000+05:30",
-      "labels": [],
+      "updated": "2026-09-17T08:11:17.000+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 14807,
       "sha256": "caa5c591db2e6a00d8077185b0a4e6f6b3ffc9bb7f2bc8cd9ab5ce8937fb30ac",
       "markers": {
@@ -33621,10 +33623,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-17T07:23:59.000+05:30",
+      "updated": "2026-09-17T08:11:40.000+05:30",
       "labels": [],
-      "bytes": 362100,
-      "sha256": "e40395749fde946bebf402215cd775fdd31201b427ac5896bac59b9a744c4767",
+      "bytes": 362442,
+      "sha256": "122252ad1bf9cb6964d3d500986a1750d2ab81366c3f6902ec43a2d290cfe373",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -33636,7 +33638,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "47.0.0",
+      "version": "48.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35232,6 +35234,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index for the two new posts (plant-variety-rights registry, CBSE past-paper repetition); add apply_labels.py OVERRIDE entries for both new slugs"
+        },
+        {
+          "version": "48.0.0",
+          "date": "2026-09-17T02:41:59+00:00",
+          "level": "major",
+          "reason": "figures changed (+3/-2 distinct numbers)",
+          "bytes": [
+            362100,
+            362442
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild article index for the PLFS rural farm-employment post; apply label"
         }
       ]
     },
