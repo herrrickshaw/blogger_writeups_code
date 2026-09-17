@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/jan-aushadhi-sells-2439-products-heres.html",
   "slug": "jan-aushadhi-sells-2439-products-heres",
   "published": "2026-09-16T20:39:10.000+05:30",
-  "updated": "2026-09-16T21:00:52.000+05:30",
+  "updated": "2026-09-17T05:39:53.000+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 21419,
-  "sha256": "0fd81f5fa54409c39de4321cb7a2fdd4ee7f7bfc9505026f0e425fd1762d03e5",
+  "bytes": 26777,
+  "sha256": "6daaa477319bd77c1daf1cc94e2aaf26aba09cd5b473e6219fb9f238b995d2aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cross-check the pharma-molecule cross-reference tables against this blog's own 90-line PIB China-import Annexure (five-years-and-25000-crore-later-china): corrected Ciprofloxacin and Ibuprofen figures in both the refinery-petrochem and Jan Aushadhi posts, added Rifampicin's trend, and revised the refinery post's molecule-targeting conclusion since Ibuprofen is already improving without PLI support. Found via the new tools/research_crosscheck.py, run against the last few published posts as requested."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        21419,
+        26777
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

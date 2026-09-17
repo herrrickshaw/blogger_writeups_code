@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/delhis-smog-towers-failed-test-44-year.html",
   "slug": "delhis-smog-towers-failed-test-44-year",
   "published": "2026-09-13T10:10:56.000+05:30",
-  "updated": "2026-09-13T10:24:03.000+05:30",
+  "updated": "2026-09-17T05:38:12.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Environment & Clearances"
   ],
-  "bytes": 37718,
-  "sha256": "5782ba355ebbaca3bc65dfb459076bafbe0241972a474b4686ac3366b6a55707",
+  "bytes": 38505,
+  "sha256": "7aa1ab93f37ab726e23b48a15a1e8708aae246c6bb643161fcfb79935e3dbd81",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": false,
       "markers_changed": null,
       "note": "Section 6 originally covered only Zaara Biotech's Obelia (COP28-recognised, no independent performance data or named deployment). Added two more Indian algae ventures found via further research: Carbelim (Kochi-registered, IIT Madras-incubated, founded 2023, PureAir Tower and Biomimetic Facade products, no named public deployment found) and AlgaeTree/Mushroom World Group (founded 2024, the only one of the three with an actual named public deployment -- inaugurated 1 May 2026 at Bhopal's Swami Vivekananda Park under the Smart City programme, expanded July 2026 to IOCL's Vadodara refinery and Amanora Park Town, Maharashtra). Added a three-way comparison table and kept the same skepticism applied throughout the piece: all three companies' CO2-capture figures are company claims with no independent third-party measurement located, and AlgaeTree's real deployment confirms the units exist, not that the claimed capture rate holds. Updated the intro card, the Section 7 toolkit table, the caveats card and the sources card to match. Lint-clean, JS-parse-clean, 10/10 house rules."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        37718,
+        38505
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

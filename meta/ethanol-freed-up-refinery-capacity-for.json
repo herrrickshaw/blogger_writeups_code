@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-16T20:59:47.000+05:30",
+  "updated": "2026-09-17T05:39:35.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 38227,
-  "sha256": "17285d2b4eb735acd036e99137bacd926ace8e81e39cb848686e3015f561a8b3",
+  "bytes": 41199,
+  "sha256": "ad226cf0eb422b06ee71c897b05d4d90cd707645422d25754d812096d853ab54",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.6.0",
+  "version": "1.7.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cross-check the pharma-molecule cross-reference tables against this blog's own 90-line PIB China-import Annexure (five-years-and-25000-crore-later-china): corrected Ciprofloxacin and Ibuprofen figures in both the refinery-petrochem and Jan Aushadhi posts, added Rifampicin's trend, and revised the refinery post's molecule-targeting conclusion since Ibuprofen is already improving without PLI support. Found via the new tools/research_crosscheck.py, run against the last few published posts as requested."
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        38227,
+        41199
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

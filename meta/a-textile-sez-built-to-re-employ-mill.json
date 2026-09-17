@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-textile-sez-built-to-re-employ-mill.html",
   "slug": "a-textile-sez-built-to-re-employ-mill",
   "published": "2026-09-15T09:29:36.000+05:30",
-  "updated": "2026-09-16T09:05:50.000+05:30",
+  "updated": "2026-09-17T05:37:54.000+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 14915,
-  "sha256": "6a764027d28bc3ad196311aac3d76ac31c9c0a56f0a323f1b314fcbb9fa2de2a",
+  "bytes": 17865,
+  "sha256": "749d40d686de957356b8885c07503b0a7c350b03a22babf961a9b2beca9fffe3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        14915,
+        17865
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

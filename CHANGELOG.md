@@ -11473,3 +11473,70 @@ Rebuild and republish the article index (293 articles, up from 294-2 stray files
 **Changed**
 
 - `article-index-start-here` — 346,542 → 359,250 bytes (+12,708); markers typo_unify True→False
+
+## 2026-09-17T00:15:56+00:00 — 294 posts live
+
+Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/.
+
+
+**Versions**
+
+- `jan-aushadhi-sells-2439-products-heres` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `sun-pharmas-1175bn-organon-bet-is` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-60000-crore-api-push-traced-to` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-semaglutide-patent-cliff-26` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `dr-reddys-cut-its-semaglutide-guidance` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `ethanol-freed-up-refinery-capacity-for` **1.6.0 → 1.7.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-labour-codes-took-six-years-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `five-years-and-25000-crore-later-china` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-rewrote-its-entire-maritime-legal` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-ended-63-years-of-state-nuclear` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-12385-project-investment-grid` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `what-failed-bankruptcy-auction-actually` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-2223-crore-coal-freight-railway-line` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-textile-sez-built-to-re-employ-mill` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-e-commerce-inventory-ban-just` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-ev-localisation-deadline-just` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-supreme-court-ruling-on-intoxicating` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `engineering-and-auto-component-makers` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-ethanol-sector-already-had-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `global-lng-trade-hit-record-437-million` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-lng-trucks-grew-75-in-2025-about` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `electrification-is-lngs-biggest` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `delhis-smog-towers-failed-test-44-year` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `the-50-tariff-and-234-one-untangling` **1.2.1 → 1.3.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `indias-battery-storage-boom-is` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `the-solar-panel-recycling-opportunity` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `alimco-jaipur-foot-and-bionic-gap-in` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `article-index-start-here` **46.2.0 → 46.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `jan-aushadhi-sells-2439-products-heres` — 21,419 → 26,777 bytes (+5,358)
+- `sun-pharmas-1175bn-organon-bet-is` — 18,102 → 21,799 bytes (+3,697)
+- `indias-60000-crore-api-push-traced-to` — 19,415 → 24,192 bytes (+4,777)
+- `indias-semaglutide-patent-cliff-26` — 16,497 → 20,288 bytes (+3,791)
+- `dr-reddys-cut-its-semaglutide-guidance` — 17,199 → 20,235 bytes (+3,036)
+- `ethanol-freed-up-refinery-capacity-for` — 38,227 → 41,199 bytes (+2,972)
+- `indias-labour-codes-took-six-years-to` — 16,084 → 19,657 bytes (+3,573)
+- `five-years-and-25000-crore-later-china` — 31,687 → 34,661 bytes (+2,974)
+- `india-rewrote-its-entire-maritime-legal` — 15,068 → 18,534 bytes (+3,466)
+- `india-ended-63-years-of-state-nuclear` — 15,970 → 20,004 bytes (+4,034)
+- `indias-12385-project-investment-grid` — 15,532 → 19,050 bytes (+3,518)
+- `what-failed-bankruptcy-auction-actually` — 16,565 → 19,918 bytes (+3,353)
+- `a-2223-crore-coal-freight-railway-line` — 14,181 → 17,366 bytes (+3,185)
+- `a-textile-sez-built-to-re-employ-mill` — 14,915 → 17,865 bytes (+2,950)
+- `indias-e-commerce-inventory-ban-just` — 16,509 → 20,688 bytes (+4,179)
+- `indias-ev-localisation-deadline-just` — 19,840 → 23,704 bytes (+3,864)
+- `a-supreme-court-ruling-on-intoxicating` — 19,219 → 22,498 bytes (+3,279)
+- `engineering-and-auto-component-makers` — 20,047 → 23,964 bytes (+3,917)
+- `indias-ethanol-sector-already-had-its` — 18,392 → 21,717 bytes (+3,325)
+- `global-lng-trade-hit-record-437-million` — 13,917 → 17,256 bytes (+3,339)
+- `indias-lng-trucks-grew-75-in-2025-about` — 14,904 → 18,403 bytes (+3,499)
+- `electrification-is-lngs-biggest` — 25,006 → 28,449 bytes (+3,443)
+- `delhis-smog-towers-failed-test-44-year` — 37,718 → 38,505 bytes (+787)
+- `the-50-tariff-and-234-one-untangling` — 52,670 → 53,507 bytes (+837)
+- `indias-battery-storage-boom-is` — 44,514 → 45,506 bytes (+992)
+- `the-solar-panel-recycling-opportunity` — 38,492 → 39,368 bytes (+876)
+- `alimco-jaipur-foot-and-bionic-gap-in` — 32,963 → 33,805 bytes (+842)
+- `article-index-start-here` — 359,250 → 359,781 bytes (+531)

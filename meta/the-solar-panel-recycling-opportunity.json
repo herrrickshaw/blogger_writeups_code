@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-solar-panel-recycling-opportunity.html",
   "slug": "the-solar-panel-recycling-opportunity",
   "published": "2026-09-11T10:57:25.000+05:30",
-  "updated": "2026-09-11T10:58:12.000+05:30",
+  "updated": "2026-09-17T05:40:24.000+05:30",
   "labels": [
     "Circularity & Waste-to-Value",
     "Energy & Fuels"
   ],
-  "bytes": 38492,
-  "sha256": "3ac89bd4907cd09acf93d134e06115043713f4994fc2f884e9af0fae10ed3bda",
+  "bytes": 39368,
+  "sha256": "9b35f8b39bce091117667ba66c264e3462f852594194c76604db6fbb749749db",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first publish",
       "note": "New post: the economics of solar-module recycling in India, based on two reports (CEEW, Nov 2025, and the EU-India Technical Cooperation Project/SolarPower Europe/PV CYCLE/NSEFI PV Waste Management report) uploaded by the user, plus independent research verifying the current E-Waste (Management) Rules 2022 Chapter V status for solar PV (registration/storage-to-2034-35 mandate, exempt from numeric EPR recycling targets), current MNRE installed-capacity figures, and on-the-ground solar-recycling activity (Poseidon Solar, Attero/NISE). Includes one SVG chart (P1 Mechanical vs P2 Chemical per-tonne cost/revenue/net-loss) and two comparison tables. Published directly per explicit user instruction."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        38492,
+        39368
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

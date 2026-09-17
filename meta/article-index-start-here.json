@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-17T05:15:29.000+05:30",
+  "updated": "2026-09-17T05:27:45.000+05:30",
   "labels": [],
-  "bytes": 359250,
-  "sha256": "bae3c8b8fd6f30d26c0dacdea2cef8a638ef243c5e9c1298b29b1c8ba36c125f",
+  "bytes": 359781,
+  "sha256": "8f7a1981fb6b76805af2fc362165a3f3446ad3b19b9981a81773d87f178d0c53",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "46.2.0",
+  "version": "46.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1558,6 +1558,19 @@
         ]
       },
       "note": "Rebuild and republish the article index (293 articles, up from 294-2 stray files removed; picks up all posts added/edited this session) via the documented index_graph.py + build_index_page.py pipeline, then consistency-check/fix.py's repair() for translate widget + AI disclosure, plus the self-referencing topnav-index-link."
+    },
+    {
+      "version": "46.3.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        359250,
+        359781
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

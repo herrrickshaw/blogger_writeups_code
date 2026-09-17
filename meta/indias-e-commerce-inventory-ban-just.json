@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-e-commerce-inventory-ban-just.html",
   "slug": "indias-e-commerce-inventory-ban-just",
   "published": "2026-09-15T09:26:58.000+05:30",
-  "updated": "2026-09-16T09:05:57.000+05:30",
+  "updated": "2026-09-17T05:38:29.000+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 16509,
-  "sha256": "0a68d4063589863efdd6dfb1462f637c69cd31d76b9f87a4c3dc4b74de579ea1",
+  "bytes": 20688,
+  "sha256": "2cf08ad8015621f57f9c782a66f1d83c228f698a8a340923a348ba245a5bdff2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        16509,
+        20688
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }
