@@ -11649,3 +11649,12 @@ Rebuild article index for the two new posts (plant-variety-rights registry, CBSE
 **Changed**
 
 - `article-index-start-here` — 361,480 → 362,100 bytes (+620)
+
+## 2026-09-17T02:40:56+00:00 — 299 posts live
+
+Publish PLFS rural farm-employment-share piece (next lit_review commission-queue item)
+
+
+**Added**
+
+- `rural-indias-farm-employment-share` **v1.0.0** — Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Call That Fast, Not Decades-Long. (14,807 bytes)

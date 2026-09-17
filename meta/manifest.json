@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-17T01:54:13+00:00",
-  "count": 298,
+  "snapshot": "2026-09-17T02:40:56+00:00",
+  "count": 299,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -16156,6 +16156,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        }
+      ]
+    },
+    "3625769708355333591": {
+      "id": "3625769708355333591",
+      "title": "Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Call That Fast, Not Decades-Long.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html",
+      "slug": "rural-indias-farm-employment-share",
+      "published": "2026-09-17T08:10:45.000+05:30",
+      "updated": "2026-09-17T08:10:45.000+05:30",
+      "labels": [],
+      "bytes": 14807,
+      "sha256": "caa5c591db2e6a00d8077185b0a4e6f6b3ffc9bb7f2bc8cd9ab5ce8937fb30ac",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-17T02:40:56+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish PLFS rural farm-employment-share piece (next lit_review commission-queue item)"
         }
       ]
     },
