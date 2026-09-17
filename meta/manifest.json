@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T02:55:57+00:00",
+  "snapshot": "2026-09-17T03:14:46+00:00",
   "count": 301,
   "posts": {
     "1058853159205559121": {
@@ -13666,12 +13666,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
       "slug": "do-cbse-past-papers-actually-help",
       "published": "2026-09-17T07:21:20.000+05:30",
-      "updated": "2026-09-17T07:22:39.000+05:30",
+      "updated": "2026-09-17T08:44:34.000+05:30",
       "labels": [
         "Education"
       ],
-      "bytes": 19916,
-      "sha256": "94ebc9eeb6d5c4646235b740b5d2ec34ec00f30e4ef48b8c3a35c61ebb38b57c",
+      "bytes": 23990,
+      "sha256": "a7db64005420b376f4455178a31c45a1500a63d4f13c1e7041c4913d2eb7201e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -13683,7 +13683,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -13691,6 +13691,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish two new posts: PPV&FR plant-variety cereals-vs-spices registry analysis, and CBSE past-paper repetition-index analysis"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-17T03:14:46+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            19916,
+            23990
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using CBSE's official Sample Question Paper archive"
         }
       ]
     },

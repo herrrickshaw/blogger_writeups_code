@@ -11715,3 +11715,16 @@ Rebuild article index for the NSS agricultural-household wage-vs-crop piece
 **Changed**
 
 - `article-index-start-here` — 362,757 → 363,069 bytes (+312)
+
+## 2026-09-17T03:14:46+00:00 — 301 posts live
+
+Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using CBSE's official Sample Question Paper archive
+
+
+**Versions**
+
+- `do-cbse-past-papers-actually-help` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `do-cbse-past-papers-actually-help` — 19,916 → 23,990 bytes (+4,074)
