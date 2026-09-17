@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,13 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using CBSE's official Sample Question Paper archive"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T03:14:46+00:00",
+      "level": "correction",
+      "reason": "label correction: the previous 1.0.1/patch entry was auto-classified because posts/ already held the edited body (no diff to classify) -- the in-article revision line already read v1.1.0 (a new section was added, which this repo's convention classifies MINOR), so the manifest is corrected to match rather than left drifted.",
+      "note": "Manual version correction, no content change"
     }
   ]
 }
