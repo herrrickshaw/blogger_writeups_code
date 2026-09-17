@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T02:55:13+00:00",
+  "snapshot": "2026-09-17T02:55:57+00:00",
   "count": 301,
   "posts": {
     "1058853159205559121": {
@@ -33623,10 +33623,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-17T08:18:29.000+05:30",
+      "updated": "2026-09-17T08:25:49.000+05:30",
       "labels": [],
-      "bytes": 362757,
-      "sha256": "e2e3284779037153dcc739e29fffff74a6c5597da49559c7cd34630c7ad36646",
+      "bytes": 363069,
+      "sha256": "46564f6f7104ed59999ba4f85203de783b824576deec914b7847c7d763cfa5b2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -33638,7 +33638,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "49.0.0",
+      "version": "50.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35260,6 +35260,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index for the Minor Irrigation Census post; add apply_labels.py OVERRIDE for the Industrial-Policy false positive"
+        },
+        {
+          "version": "50.0.0",
+          "date": "2026-09-17T02:55:57+00:00",
+          "level": "major",
+          "reason": "figures changed (+2/-1 distinct numbers)",
+          "bytes": [
+            362757,
+            363069
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild article index for the NSS agricultural-household wage-vs-crop piece"
         }
       ]
     },
@@ -44831,8 +44844,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-wage-beats-crop-in-survey-that.html",
       "slug": "the-wage-beats-crop-in-survey-that",
       "published": "2026-09-17T08:25:01.000+05:30",
-      "updated": "2026-09-17T08:25:01.000+05:30",
-      "labels": [],
+      "updated": "2026-09-17T08:25:24.000+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 16627,
       "sha256": "e09a85f23f28535095d60663cab366c5dcfca6e036e7b55688badee562a1ff4e",
       "markers": {

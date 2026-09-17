@@ -11702,3 +11702,16 @@ Publish NSS 77th Round agricultural-household wage-vs-crop-income piece - next l
 **Added**
 
 - `the-wage-beats-crop-in-survey-that` **v1.0.0** — The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out (16,627 bytes)
+
+## 2026-09-17T02:55:57+00:00 — 301 posts live
+
+Rebuild article index for the NSS agricultural-household wage-vs-crop piece
+
+
+**Versions**
+
+- `article-index-start-here` **49.0.0 → 50.0.0** (MAJOR) — figures changed (+2/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 362,757 → 363,069 bytes (+312)
