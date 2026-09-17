@@ -221,6 +221,14 @@ def main():
 
     o = []
     A = o.append
+    # Self-referencing topnav link every other post carries (consistency-check's
+    # index-link rule) and the house gb-table border style (table-units-in-header
+    # and the site-wide table-borders standard) -- both were being hand-patched
+    # into out/post-index.html after every rebuild until 2026-09-17. Baked in
+    # here so a plain rebuild no longer regresses either check.
+    A('<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px">'
+      '<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" '
+      'style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>')
     A('<p class="eyebrow">Masala Deutsch &middot; Article index</p>')
     A('<h1>Every piece on this blog, three ways in</h1>')
     dates = sorted(p["published"] for p in posts.values() if p["published"])
@@ -253,7 +261,14 @@ def main():
                         'rather than smoothed away: the counts below are what was actually '
                         'published, not a reconstruction.</p>')
     A(gap_note)
-    A('<div class="tw"><table>')
+    A('<style>/*gs-tw-table-v1*/\n'
+      '.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,\'Segoe UI\',sans-serif;margin:1.25rem 0}\n'
+      '.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}\n'
+      '.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}\n'
+      '.gb-table tbody tr:nth-child(even){background:#f8f9fa}\n'
+      '.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}\n'
+      '</style>')
+    A('<div class="tw gb-tblwrap"><table class="gb-table">')
     A('<thead><tr><th>Month</th><th>Articles</th><th>Running total</th></tr></thead><tbody>')
     run = 0
     for m in sorted(months):
