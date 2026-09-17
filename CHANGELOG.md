@@ -11754,3 +11754,44 @@ Rebuild article index: PLFS post title corrected
 **Changed**
 
 - `article-index-start-here` — 363,069 → 363,115 bytes (+46)
+
+## 2026-09-17T04:23:00+00:00 — 301 posts live
+
+Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading
+
+
+**Versions**
+
+- `the-wage-beats-crop-in-survey-that` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-irrigates-itself-966-of-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `rural-indias-farm-employment-share` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `do-cbse-past-papers-actually-help` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `577-of-indias-plant-variety` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `abha-covers-93-crore-patients-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-exports-naphtha-and-benzene-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `jan-aushadhi-sells-2439-products-heres` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `sun-pharmas-1175bn-organon-bet-is` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-60000-crore-api-push-traced-to` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-semaglutide-patent-cliff-26` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `dr-reddys-cut-its-semaglutide-guidance` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `ethanol-freed-up-refinery-capacity-for` **1.9.0 → 1.10.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-labour-codes-took-six-years-to` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `five-years-and-25000-crore-later-china` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `the-wage-beats-crop-in-survey-that` — 16,627 → 16,746 bytes (+119)
+- `india-irrigates-itself-966-of-its` — 16,021 → 16,140 bytes (+119)
+- `rural-indias-farm-employment-share` — 16,295 → 19,008 bytes (+2,713)
+- `do-cbse-past-papers-actually-help` — 23,990 → 24,109 bytes (+119)
+- `577-of-indias-plant-variety` — 20,056 → 20,175 bytes (+119)
+- `abha-covers-93-crore-patients-its` — 25,485 → 25,604 bytes (+119)
+- `india-exports-naphtha-and-benzene-its` — 24,204 → 24,323 bytes (+119)
+- `jan-aushadhi-sells-2439-products-heres` — 26,777 → 26,896 bytes (+119)
+- `sun-pharmas-1175bn-organon-bet-is` — 21,799 → 21,918 bytes (+119)
+- `indias-60000-crore-api-push-traced-to` — 24,192 → 24,311 bytes (+119)
+- `indias-semaglutide-patent-cliff-26` — 20,288 → 20,407 bytes (+119)
+- `dr-reddys-cut-its-semaglutide-guidance` — 20,235 → 20,354 bytes (+119)
+- `ethanol-freed-up-refinery-capacity-for` — 46,726 → 46,845 bytes (+119)
+- `indias-labour-codes-took-six-years-to` — 19,657 → 19,776 bytes (+119)
+- `five-years-and-25000-crore-later-china` — 34,661 → 34,780 bytes (+119)

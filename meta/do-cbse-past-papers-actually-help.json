@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
   "slug": "do-cbse-past-papers-actually-help",
   "published": "2026-09-17T07:21:20.000+05:30",
-  "updated": "2026-09-17T08:44:34.000+05:30",
+  "updated": "2026-09-17T09:05:34.000+05:30",
   "labels": [
     "Education"
   ],
-  "bytes": 23990,
-  "sha256": "a7db64005420b376f4455178a31c45a1500a63d4f13c1e7041c4913d2eb7201e",
+  "bytes": 24109,
+  "sha256": "1c3c5dc3d7c0217ca9677934a324ebb7619e58cd732152cb62975883d2c9edaf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -49,6 +49,19 @@
       "level": "correction",
       "reason": "label correction: the previous 1.0.1/patch entry was auto-classified because posts/ already held the edited body (no diff to classify) -- the in-article revision line already read v1.1.0 (a new section was added, which this repo's convention classifies MINOR), so the manifest is corrected to match rather than left drifted.",
       "note": "Manual version correction, no content change"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23990,
+        24109
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-17T06:40:57.000+05:30",
+  "updated": "2026-09-17T09:06:43.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 46726,
-  "sha256": "76dc359ee0f5779230e9d15f37ee65963f0f37e0389d219899547184f09288a8",
+  "bytes": 46845,
+  "sha256": "054d3dabc93205e286056b757f722dc61ab4bda27c12203d3c910da34bd242c2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.9.0",
+  "version": "1.10.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -160,6 +160,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post."
+    },
+    {
+      "version": "1.10.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        46726,
+        46845
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
     }
   ]
 }
