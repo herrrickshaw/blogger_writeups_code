@@ -11566,3 +11566,20 @@ Fix version-label drift: article's own revision line/changelog said v1.7.0 while
 **Changed**
 
 - `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,411 bytes (+0)
+
+## 2026-09-17T01:11:11+00:00 — 295 posts live
+
+New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post.
+
+
+**Added**
+
+- `india-exports-naphtha-and-benzene-its` **v1.0.0** — India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China (24,204 bytes)
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.8.1 → 1.9.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,726 bytes (+315)

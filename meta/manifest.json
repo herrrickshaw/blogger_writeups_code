@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-17T00:42:00+00:00",
-  "count": 294,
+  "snapshot": "2026-09-17T01:11:11+00:00",
+  "count": 295,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -7915,13 +7915,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
       "slug": "ethanol-freed-up-refinery-capacity-for",
       "published": "2026-09-16T13:32:18.000+05:30",
-      "updated": "2026-09-17T06:11:48.000+05:30",
+      "updated": "2026-09-17T06:40:57.000+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels"
       ],
-      "bytes": 46411,
-      "sha256": "3d018343b7028ceb8405fe99d6726afddef6f4d49f8bc24fe0e78b38d194d49d",
+      "bytes": 46726,
+      "sha256": "76dc359ee0f5779230e9d15f37ee65963f0f37e0389d219899547184f09288a8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7933,7 +7933,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.8.1",
+      "version": "1.9.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -8058,6 +8058,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fix version-label drift: article's own revision line/changelog said v1.7.0 while manifest already tracked v1.8.0 (a v1.5.0 sync earlier in this file's history had no matching in-article changelog entry). Relabelled to v1.8.0 to match; no content change."
+        },
+        {
+          "version": "1.9.0",
+          "date": "2026-09-17T01:11:11+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            46411,
+            46726
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post."
         }
       ]
     },
@@ -36739,6 +36752,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "6616496259362778316": {
+      "id": "6616496259362778316",
+      "title": "India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html",
+      "slug": "india-exports-naphtha-and-benzene-its",
+      "published": "2026-09-17T06:39:50.000+05:30",
+      "updated": "2026-09-17T06:40:40.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Trade & Tariffs"
+      ],
+      "bytes": 24204,
+      "sha256": "28ed29f035351575064e9f37612db3f2c261b313603625e9fd2a2274d9dd69bf",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-17T01:11:11+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post."
         }
       ]
     },
