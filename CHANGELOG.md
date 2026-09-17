@@ -11596,3 +11596,20 @@ Rebuild article index for the new naphtha/benzene/China post (295 posts); fix st
 **Changed**
 
 - `article-index-start-here` — 359,781 → 360,927 bytes (+1,146)
+
+## 2026-09-17T01:27:46+00:00 — 296 posts live
+
+New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet -- compares ABHA's patient/doctor/insurer coverage against Estonia (95%+ doctor EHR use since 2008), Denmark (CPR since 1968, Shared Medication Record), UK (Summary Care Record 96%+ coverage but not a unified record until 2028) and Australia (opt-out consent model). Adds a reverse cross-link from the original ABHA post, and an apply_labels.py OVERRIDE entry fixing a false-positive 'Import Substitution' label triggered by the word 'registry'.
+
+
+**Added**
+
+- `abha-covers-93-crore-patients-its` **v1.0.0** — ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet (25,485 bytes)
+
+**Versions**
+
+- `abha-what-indias-14-digit-health-id` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `abha-what-indias-14-digit-health-id` — 26,512 → 26,836 bytes (+324)

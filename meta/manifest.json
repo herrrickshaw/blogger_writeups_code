@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-17T01:12:51+00:00",
-  "count": 295,
+  "snapshot": "2026-09-17T01:27:46+00:00",
+  "count": 296,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -27774,6 +27774,41 @@
         }
       ]
     },
+    "5621785209926858364": {
+      "id": "5621785209926858364",
+      "title": "ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
+      "slug": "abha-covers-93-crore-patients-its",
+      "published": "2026-09-17T06:56:16.000+05:30",
+      "updated": "2026-09-17T06:56:41.000+05:30",
+      "labels": [
+        "Healthcare",
+        "Industrial Policy"
+      ],
+      "bytes": 25485,
+      "sha256": "37200caa197b56f36a9260e95d5097761aecf2e93c4a2348e3985e6bf06a6e24",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-17T01:27:46+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet -- compares ABHA's patient/doctor/insurer coverage against Estonia (95%+ doctor EHR use since 2008), Denmark (CPR since 1968, Shared Medication Record), UK (Summary Care Record 96%+ coverage but not a unified record until 2028) and Australia (opt-out consent model). Adds a reverse cross-link from the original ABHA post, and an apply_labels.py OVERRIDE entry fixing a false-positive 'Import Substitution' label triggered by the word 'registry'."
+        }
+      ]
+    },
     "5630013194430301747": {
       "id": "5630013194430301747",
       "title": "How India Actually Plans to Hit Net Zero: Eleven Scenarios, a Rising Coal Curve, and a ₹20,000 Crore Bet on Carbon Capture",
@@ -35109,12 +35144,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
       "slug": "abha-what-indias-14-digit-health-id",
       "published": "2026-08-12T04:31:28.000+05:30",
-      "updated": "2026-09-10T23:11:04.000+05:30",
+      "updated": "2026-09-17T06:57:32.000+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 26512,
-      "sha256": "694de58fad08f53028e293399116324e0b34ed0b3b1f810d87e72f27c94dfd98",
+      "bytes": 26836,
+      "sha256": "dfdd4ade3654ec5bb27639b2e3ef6a6d8d2fda3c36a109a3676eaaa624e7bff9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -35126,7 +35161,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35329,6 +35364,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.1.0",
+          "date": "2026-09-17T01:27:46+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            26512,
+            26836
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet -- compares ABHA's patient/doctor/insurer coverage against Estonia (95%+ doctor EHR use since 2008), Denmark (CPR since 1968, Shared Medication Record), UK (Summary Care Record 96%+ coverage but not a unified record until 2028) and Australia (opt-out consent model). Adds a reverse cross-link from the original ABHA post, and an apply_labels.py OVERRIDE entry fixing a false-positive 'Import Substitution' label triggered by the word 'registry'."
         }
       ]
     },

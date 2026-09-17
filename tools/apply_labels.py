@@ -146,6 +146,12 @@ OVERRIDE = {
     "the-1920s-rotor-thats-now-on-22-real": ["Climate & Carbon", "Energy & Fuels"],
     "uk-retail-canopies-at-54m-real-design": ["Energy & Fuels"],
     "where-indias-fdi-actually-lands-state": ["Markets & Finance", "Industrial Policy"],
+    # Repeated use of "registry" (Healthcare Professionals Registry, "the
+    # national digital registry") matches Import Substitution's bare
+    # "registry" keyword, mislabelling a healthcare-interoperability piece
+    # as trade policy. Healthcare is the obvious fit; Industrial Policy
+    # matches the piece's own eyebrow line.
+    "abha-covers-93-crore-patients-its": ["Healthcare", "Industrial Policy"],
 }
 
 
