@@ -157,6 +157,10 @@ OVERRIDE = {
     # plant-variety-IP piece as trade policy. Agriculture & Fertilisers is the
     # closest existing fit -- no Intellectual Property / Seeds bucket exists.
     "577-of-indias-plant-variety": ["Agriculture & Fertilisers"],
+    # Repeated bare "policy" ("irrigation policy", the AERR paper's own title)
+    # matches Industrial Policy's bare "policy" keyword, mislabelling an
+    # irrigation-ownership/finance piece as industrial scheme coverage.
+    "india-irrigates-itself-966-of-its": ["Agriculture & Fertilisers"],
     # No Education bucket exists in TAXONOMY -- this and any future
     # exam/curriculum-data piece are the first posts in that beat.
     "do-cbse-past-papers-actually-help": ["Education"],

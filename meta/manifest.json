@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-17T02:47:44+00:00",
+  "snapshot": "2026-09-17T02:48:36+00:00",
   "count": 300,
   "posts": {
     "1058853159205559121": {
@@ -33623,10 +33623,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-17T08:11:40.000+05:30",
+      "updated": "2026-09-17T08:18:29.000+05:30",
       "labels": [],
-      "bytes": 362442,
-      "sha256": "122252ad1bf9cb6964d3d500986a1750d2ab81366c3f6902ec43a2d290cfe373",
+      "bytes": 362757,
+      "sha256": "e2e3284779037153dcc739e29fffff74a6c5597da49559c7cd34630c7ad36646",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -33638,7 +33638,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "48.0.0",
+      "version": "49.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35247,6 +35247,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index for the PLFS rural farm-employment post; apply label"
+        },
+        {
+          "version": "49.0.0",
+          "date": "2026-09-17T02:48:36+00:00",
+          "level": "major",
+          "reason": "figures changed (+2/-2 distinct numbers)",
+          "bytes": [
+            362442,
+            362757
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild article index for the Minor Irrigation Census post; add apply_labels.py OVERRIDE for the Industrial-Policy false positive"
         }
       ]
     },
@@ -54311,8 +54324,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-irrigates-itself-966-of-its.html",
       "slug": "india-irrigates-itself-966-of-its",
       "published": "2026-09-17T08:17:32.000+05:30",
-      "updated": "2026-09-17T08:17:32.000+05:30",
-      "labels": [],
+      "updated": "2026-09-17T08:17:59.000+05:30",
+      "labels": [
+        "Agriculture & Fertilisers"
+      ],
       "bytes": 16021,
       "sha256": "df25dd138b8514e80ed86c9772651463544ab97db76848a898e1e572c72f6af4",
       "markers": {

@@ -11680,3 +11680,16 @@ Publish Minor Irrigation Census piece (96.6% private, 94.8% groundwater) - next 
 **Added**
 
 - `india-irrigates-itself-966-of-its` **v1.0.0** — India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned. (16,021 bytes)
+
+## 2026-09-17T02:48:36+00:00 — 300 posts live
+
+Rebuild article index for the Minor Irrigation Census post; add apply_labels.py OVERRIDE for the Industrial-Policy false positive
+
+
+**Versions**
+
+- `article-index-start-here` **48.0.0 → 49.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 362,442 → 362,757 bytes (+315)
