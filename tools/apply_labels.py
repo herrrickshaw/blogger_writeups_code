@@ -152,6 +152,14 @@ OVERRIDE = {
     # as trade policy. Healthcare is the obvious fit; Industrial Policy
     # matches the piece's own eyebrow line.
     "abha-covers-93-crore-patients-its": ["Healthcare", "Industrial Policy"],
+    # Repeated use of "registry" (PPV&FR Authority "registry", "the register")
+    # matches Import Substitution's bare "registry" keyword, mislabelling a
+    # plant-variety-IP piece as trade policy. Agriculture & Fertilisers is the
+    # closest existing fit -- no Intellectual Property / Seeds bucket exists.
+    "577-of-indias-plant-variety": ["Agriculture & Fertilisers"],
+    # No Education bucket exists in TAXONOMY -- this and any future
+    # exam/curriculum-data piece are the first posts in that beat.
+    "do-cbse-past-papers-actually-help": ["Education"],
 }
 
 

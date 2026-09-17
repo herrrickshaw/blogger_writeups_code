@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-17T06:59:16.000+05:30",
+  "updated": "2026-09-17T07:23:59.000+05:30",
   "labels": [],
-  "bytes": 361480,
-  "sha256": "f5c883df98567ba217eae882eabcc27df3c4320abe5cc56109900417ed2155ba",
+  "bytes": 362100,
+  "sha256": "e40395749fde946bebf402215cd775fdd31201b427ac5896bac59b9a744c4767",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "46.5.0",
+  "version": "47.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1602,6 +1602,19 @@
         ]
       },
       "note": "Rebuild article index for the new ABHA-vs-developed-countries post (296 posts). Generator now bakes in the topnav-index-link and gb-table border style itself, no manual patch needed."
+    },
+    {
+      "version": "47.0.0",
+      "date": "2026-09-17T01:54:13+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-2 distinct numbers)",
+      "bytes": [
+        361480,
+        362100
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the two new posts (plant-variety-rights registry, CBSE past-paper repetition); add apply_labels.py OVERRIDE entries for both new slugs"
     }
   ]
 }

@@ -11636,3 +11636,16 @@ Publish two new posts: PPV&FR plant-variety cereals-vs-spices registry analysis,
 
 - `do-cbse-past-papers-actually-help` **v1.0.0** — Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask. (19,916 bytes)
 - `577-of-indias-plant-variety` **v1.0.0** — 57.7% of India's Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151. (20,056 bytes)
+
+## 2026-09-17T01:54:13+00:00 — 298 posts live
+
+Rebuild article index for the two new posts (plant-variety-rights registry, CBSE past-paper repetition); add apply_labels.py OVERRIDE entries for both new slugs
+
+
+**Versions**
+
+- `article-index-start-here` **46.5.0 → 47.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 361,480 → 362,100 bytes (+620)
