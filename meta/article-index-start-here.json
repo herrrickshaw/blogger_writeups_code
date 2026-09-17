@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-17T08:25:49.000+05:30",
+  "updated": "2026-09-17T08:51:23.000+05:30",
   "labels": [],
-  "bytes": 363069,
-  "sha256": "46564f6f7104ed59999ba4f85203de783b824576deec914b7847c7d763cfa5b2",
+  "bytes": 363115,
+  "sha256": "0933da4379ca1031ac6bf25d439d03e4571264d416095751076743c4eb554147",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "50.0.0",
+  "version": "50.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1654,6 +1654,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild article index for the NSS agricultural-household wage-vs-crop piece"
+    },
+    {
+      "version": "50.0.1",
+      "date": "2026-09-17T03:21:30+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        363069,
+        363115
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index: PLFS post title corrected"
     }
   ]
 }

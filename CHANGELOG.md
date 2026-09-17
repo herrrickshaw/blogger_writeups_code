@@ -11741,3 +11741,16 @@ Fix PLFS rural-employment post: headline and takeaway had treated 'fast, not sea
 **Changed**
 
 - `rural-indias-farm-employment-share` — 14,807 → 16,295 bytes (+1,488)
+
+## 2026-09-17T03:21:30+00:00 — 301 posts live
+
+Rebuild article index: PLFS post title corrected
+
+
+**Versions**
+
+- `article-index-start-here` **50.0.0 → 50.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `article-index-start-here` — 363,069 → 363,115 bytes (+46)
