@@ -38602,7 +38602,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38677,10 +38677,10 @@
           "note": ""
         },
         {
-          "version": "2.1.1",
+          "version": "2.2.0",
           "date": "2026-09-18T13:19:48+00:00",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "level": "correction",
+          "reason": "snapshot.py auto-classified this as an unclassified patch bump (2.1.1) because posts/ was edited in place from out/ with no diff to size against; manually corrected to minor (2.2.0) to match the in-article changelog, since this is a factual correction (added the previously-missing 5th PIL, added a second contradicting ministry figure for PIL 1-4 substitution value, quantified the DMA and SRIJAN totals), not a patch-level wording change",
           "bytes": [
             33517,
             40860
@@ -38692,7 +38692,7 @@
               true
             ]
           },
-          "note": "Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry figures for PIL 1-4 substitution value (2023 vs 2024 release) shown instead of one, DMA and SRIJAN totals quantified; update cross-link anchor text elsewhere"
+          "note": "Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry figures for PIL 1-4 substitution value (2023 vs 2024 release) shown instead of one, DMA and SRIJAN totals quantified; title changed; update cross-link anchor text elsewhere"
         }
       ]
     },
