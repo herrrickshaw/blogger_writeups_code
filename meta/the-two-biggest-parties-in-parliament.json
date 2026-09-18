@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
   "slug": "the-two-biggest-parties-in-parliament",
   "published": "2026-09-18T20:24:04.000+05:30",
-  "updated": "2026-09-18T20:30:14.000+05:30",
+  "updated": "2026-09-18T20:34:58.000+05:30",
   "labels": [
     "Governance & Institutions"
   ],
-  "bytes": 30780,
-  "sha256": "b8b1f952c15edead9aabe30005060b378b841a8e582f444eadebdba86d7a4dc9",
+  "bytes": 121581,
+  "sha256": "7dc0be8c7134e60cc1d9f6c40c854044cf1928be713370da59901d9b0d655a88",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add embedded sortable data explorer (all 51 parties, all 36 signature-ministry lift rows) to the-two-biggest-parties-in-parliament; link to the companion interactive dashboard artifact"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-18T15:05:11+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        30780,
+        121581
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-parties-in-parliament, for context alongside question-volume data"
     }
   ]
 }

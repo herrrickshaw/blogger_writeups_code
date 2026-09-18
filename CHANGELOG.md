@@ -12100,3 +12100,16 @@ add embedded sortable data explorer (all 51 parties, all 36 signature-ministry l
 **Changed**
 
 - `the-two-biggest-parties-in-parliament` — 16,853 → 30,780 bytes (+13,927)
+
+## 2026-09-18T15:05:11+00:00 — 302 posts live
+
+add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-parties-in-parliament, for context alongside question-volume data
+
+
+**Versions**
+
+- `the-two-biggest-parties-in-parliament` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-two-biggest-parties-in-parliament` — 30,780 → 121,581 bytes (+90,801)
