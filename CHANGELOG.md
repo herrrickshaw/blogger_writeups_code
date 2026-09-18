@@ -11812,3 +11812,16 @@ Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct 
 **Changed**
 
 - `rural-indias-farm-employment-share` — 19,008 → 19,127 bytes (+119)
+
+## 2026-09-18T12:30:58+00:00 — 302 posts live
+
+Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks the common '30% CO2 cut' claim via self-derived stoichiometric calculation)
+
+
+**Added**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **v1.0.0** — E20 Doesn't Cut Tailpipe CO2 by 30%. Run the Chemistry and the Real Number Is Close to Zero — Unless Your Engine Is Built for It. (22,787 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)

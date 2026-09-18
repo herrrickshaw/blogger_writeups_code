@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T12:26:45+00:00",
+  "snapshot": "2026-09-18T12:30:58+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -42958,6 +42958,38 @@
         }
       ]
     },
+    "7588932896465300130": {
+      "id": "7588932896465300130",
+      "title": "E20 Doesn't Cut Tailpipe CO2 by 30%. Run the Chemistry and the Real Number Is Close to Zero — Unless Your Engine Is Built for It.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
+      "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
+      "published": "2026-09-18T18:00:41.000+05:30",
+      "updated": "2026-09-18T18:00:41.000+05:30",
+      "labels": [],
+      "bytes": 22787,
+      "sha256": "e054aeb22b5c7ad0f6d9e2028374dd25e2b373dcafb503cc075214be23e5a190",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-18T12:30:58+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks the common '30% CO2 cut' claim via self-derived stoichiometric calculation)"
+        }
+      ]
+    },
     "7601363762801353983": {
       "id": "7601363762801353983",
       "title": "Europe's Export Credit Agencies Are Quietly Bankrolling India's Infrastructure — Not Its Factories",
@@ -48401,259 +48433,6 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed COLLISION (\"National avg\" overlapping \"Andhra Pr. (high)\") flagged by tools/svg_chart_lint.py by widening the gap between the second and third Agmarknet bars."
-        }
-      ]
-    },
-    "8473540333846382541": {
-      "id": "8473540333846382541",
-      "title": "India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
-      "slug": "india-fuel-retail-outlets-82k-geocoded",
-      "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-10T13:26:54.000+05:30",
-      "labels": [
-        "Energy & Fuels",
-        "Gas & LNG"
-      ],
-      "bytes": 20748,
-      "sha256": "edb985eb529e18acc14ea17ead40ae659171afd2e3f796f39faa755a0917dc16",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "3.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T11:31:49+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            6134,
-            5268
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "inverted_media_query": [
-              true,
-              false
-            ]
-          },
-          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-        },
-        {
-          "version": "1.0.2",
-          "date": "2026-08-08T03:54:45+00:00",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            5268,
-            6541
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2026-08-08T14:26:40+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            6541,
-            6660
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "site-index stub in all 98 posts"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2026-08-11T11:44:28+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            6660,
-            6897
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "index_link": [
-              false,
-              true
-            ]
-          },
-          "note": ""
-        },
-        {
-          "version": "1.0.5",
-          "date": "2026-08-12T22:24:04+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            6897,
-            7056
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-08-13T03:50:57+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            7056,
-            11590
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.7",
-          "date": "2026-08-13T08:42:55+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            11590,
-            12509
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.8",
-          "date": "2026-08-13T11:02:49+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            12509,
-            12614
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-        },
-        {
-          "version": "1.0.9",
-          "date": "2026-08-16T14:49:00+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            12614,
-            13142
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.10",
-          "date": "2026-08-21T21:45:26+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            13142,
-            18744
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.11",
-          "date": "2026-08-21T23:03:41+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            18744,
-            18770
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-08-26T03:35:52+00:00",
-          "level": "major",
-          "reason": "figures changed (+0/-0 distinct numbers)",
-          "bytes": [
-            18770,
-            20677
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "2.0.1",
-          "date": "2026-09-05T21:41:22+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            20677,
-            20496
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-09-05T22:16:32+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-          "bytes": [
-            20496,
-            19969
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Manual ad units removed from all posts; Auto ads only"
-        },
-        {
-          "version": "2.0.3",
-          "date": "2026-09-07T19:53:24+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            19969,
-            19050
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-        },
-        {
-          "version": "3.0.0",
-          "date": "2026-09-10T22:54:22+05:30",
-          "level": "major",
-          "reason": "figures changed (+1/-0 distinct numbers)",
-          "bytes": [
-            19050,
-            20748
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
         }
       ]
     },
