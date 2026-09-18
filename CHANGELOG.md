@@ -12087,3 +12087,16 @@ publish: The Two Biggest Parties in Parliament Ask About Everything. Everyone El
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `india-environmental-clearances-state` — India Environmental Clearances — State × Sub-sector Dashboard
+
+## 2026-09-18T15:00:26+00:00 — 302 posts live
+
+add embedded sortable data explorer (all 51 parties, all 36 signature-ministry lift rows) to the-two-biggest-parties-in-parliament; link to the companion interactive dashboard artifact
+
+
+**Versions**
+
+- `the-two-biggest-parties-in-parliament` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-two-biggest-parties-in-parliament` — 16,853 → 30,780 bytes (+13,927)

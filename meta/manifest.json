@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T14:55:29+00:00",
+  "snapshot": "2026-09-18T15:00:26+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -43487,12 +43487,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
       "slug": "the-two-biggest-parties-in-parliament",
       "published": "2026-09-18T20:24:04.000+05:30",
-      "updated": "2026-09-18T20:25:11.000+05:30",
+      "updated": "2026-09-18T20:30:14.000+05:30",
       "labels": [
         "Governance & Institutions"
       ],
-      "bytes": 16853,
-      "sha256": "71f3fe12f0c57239c496ca65d14b2ceaefc675ce8a959d1c1d33db6cffd3b842",
+      "bytes": 30780,
+      "sha256": "b8b1f952c15edead9aabe30005060b378b841a8e582f444eadebdba86d7a4dc9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -43504,7 +43504,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43512,6 +43512,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish: The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (party-lift analysis via lok-rajya-sabha-qa dataset)"
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-18T15:00:26+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            16853,
+            30780
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "add embedded sortable data explorer (all 51 parties, all 36 signature-ministry lift rows) to the-two-biggest-parties-in-parliament; link to the companion interactive dashboard artifact"
         }
       ]
     },

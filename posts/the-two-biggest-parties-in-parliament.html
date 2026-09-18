@@ -21,6 +21,12 @@
 .pqlx .warn{background:#fff7e6;border:1px solid #f0c869;border-radius:6px;padding:.85rem 1rem;margin:1.1rem 0;font-size:.9em}
 .pqlx .note{color:#5a666e;font-size:.82em;border-top:1px dashed #d9e2e8;margin-top:2rem;padding-top:12px;max-width:82ch}
 .pqlx a{color:#0a4c6a}
+.pqlx .explore .controls{display:flex;gap:.6rem;flex-wrap:wrap;align-items:center;margin:.6rem 0 .8rem}
+.pqlx .explore input[type="search"]{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.86em;padding:6px 9px;border:1px solid #c7d2d9;border-radius:5px;min-width:200px}
+.pqlx .explore th[data-key]{cursor:pointer;user-select:none}
+.pqlx .explore th[data-key] .arrow{opacity:.5;font-size:.75em;margin-left:3px}
+.pqlx .explore th[aria-sort] .arrow{opacity:1}
+.pqlx .explore h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.92em;font-weight:700;margin:1.3rem 0 .5rem}
 </style>
 
 <div class="eyebrow">Governance &amp; Institutions &middot; Parliament &middot; India</div>
@@ -76,6 +82,92 @@
 <h2>Grouping by what parties emphasise, not by size</h2>
 <p>Clustering all 51 parties by their relative ministry emphasis (not raw volume, which is dominated by every party's shared interest in Health, Railways and Education) sorts them into four groups: a 24-party mainstream bloc spanning both the ruling party and the principal national opposition, whose ministry profiles are broad and unremarkable by construction; a 13-party bloc with a shared lean toward minority-affairs- and left-coded ministries; an 8-party bloc of smaller regional and first-time parties with less-defined profiles; and BRS standing alone, its lone standout being a 200&times; lift on Prime Minister's Office questions &mdash; a single-question artefact of the size filter above, included here only to show why that filter exists.</p>
 
+
+<h2>Explore the full data</h2>
+<p>The tables above show the highlights; every party and every qualifying party&ndash;ministry pair is here, sortable. Click a column heading to sort; click again to reverse.</p>
+<div class="explore">
+<h3>All 51 parties, by questions asked</h3>
+<div class="controls"><input type="search" id="pqlx-party-search" placeholder="Search party&hellip;"></div>
+<div class="twrap"><table id="pqlx-party-table">
+<thead><tr>
+<th data-key="party" data-type="str">Party<span class="arrow">&#9662;</span></th>
+<th data-key="lok_sabha_questions" data-type="num" class="num">Lok Sabha<span class="arrow">&#9662;</span></th>
+<th data-key="rajya_sabha_questions" data-type="num" class="num">Rajya Sabha<span class="arrow">&#9662;</span></th>
+<th data-key="total_questions" data-type="num" class="num" aria-sort="descending">Total<span class="arrow">&#9662;</span></th>
+</tr></thead>
+<tbody></tbody>
+</table></div>
+
+<h3>Every party's single most disproportionate ministry (&ge;100 party questions, &ge;10 on that ministry)</h3>
+<div class="twrap"><table id="pqlx-lift-table">
+<thead><tr>
+<th data-key="party" data-type="str">Party<span class="arrow">&#9662;</span></th>
+<th data-key="ministry" data-type="str">Signature ministry<span class="arrow">&#9662;</span></th>
+<th data-key="questions" data-type="num" class="num">Questions there<span class="arrow">&#9662;</span></th>
+<th data-key="party_total" data-type="num" class="num">Party total<span class="arrow">&#9662;</span></th>
+<th data-key="lift" data-type="num" class="num" aria-sort="descending">Lift<span class="arrow">&#9662;</span></th>
+</tr></thead>
+<tbody></tbody>
+</table></div>
+<p class="note-inline" style="font-size:.82em;color:#5a666e;margin-top:.5rem">Lift = that party's share of questions on this ministry, divided by its share of all questions. 1.0&times; is exactly proportional; higher means the party asks about this ministry more than its overall size would predict.</p>
+</div>
+
+<script id="pqlx-data" type="application/json">{"parties": [{"party":"BJP","lok_sabha_questions":11755,"rajya_sabha_questions":11126,"total_questions":22881},{"party":"INC","lok_sabha_questions":7921,"rajya_sabha_questions":3263,"total_questions":11184},{"party":"DMK","lok_sabha_questions":2299,"rajya_sabha_questions":1238,"total_questions":3537},{"party":"AITC","lok_sabha_questions":1503,"rajya_sabha_questions":1041,"total_questions":2544},{"party":"SP","lok_sabha_questions":1959,"rajya_sabha_questions":372,"total_questions":2331},{"party":"TDP","lok_sabha_questions":1830,"rajya_sabha_questions":348,"total_questions":2178},{"party":"YSRCP","lok_sabha_questions":494,"rajya_sabha_questions":777,"total_questions":1271},{"party":"SS","lok_sabha_questions":1007,"rajya_sabha_questions":125,"total_questions":1132},{"party":"CPI(M)","lok_sabha_questions":455,"rajya_sabha_questions":647,"total_questions":1102},{"party":"BJD","lok_sabha_questions":0,"rajya_sabha_questions":1019,"total_questions":1019},{"party":"JD(U)","lok_sabha_questions":851,"rajya_sabha_questions":167,"total_questions":1018},{"party":"IND.","lok_sabha_questions":448,"rajya_sabha_questions":523,"total_questions":971},{"party":"AAP","lok_sabha_questions":210,"rajya_sabha_questions":580,"total_questions":790},{"party":"NCP(SP)","lok_sabha_questions":525,"rajya_sabha_questions":179,"total_questions":704},{"party":"AIADMK","lok_sabha_questions":0,"rajya_sabha_questions":697,"total_questions":697},{"party":"SHS(UBT)","lok_sabha_questions":317,"rajya_sabha_questions":369,"total_questions":686},{"party":"IUML","lok_sabha_questions":391,"rajya_sabha_questions":291,"total_questions":682},{"party":"RJD","lok_sabha_questions":154,"rajya_sabha_questions":383,"total_questions":537},{"party":"CPI","lok_sabha_questions":133,"rajya_sabha_questions":279,"total_questions":412},{"party":"BRS","lok_sabha_questions":0,"rajya_sabha_questions":296,"total_questions":296},{"party":"NOM.","lok_sabha_questions":0,"rajya_sabha_questions":285,"total_questions":285},{"party":"LJSP(RV)","lok_sabha_questions":276,"rajya_sabha_questions":0,"total_questions":276},{"party":"JSP","lok_sabha_questions":222,"rajya_sabha_questions":0,"total_questions":222},{"party":"VCK","lok_sabha_questions":215,"rajya_sabha_questions":0,"total_questions":215},{"party":"NCP","lok_sabha_questions":74,"rajya_sabha_questions":131,"total_questions":205},{"party":"CPI(ML)(L)","lok_sabha_questions":200,"rajya_sabha_questions":0,"total_questions":200},{"party":"JMM","lok_sabha_questions":120,"rajya_sabha_questions":72,"total_questions":192},{"party":"MDMK","lok_sabha_questions":100,"rajya_sabha_questions":50,"total_questions":150},{"party":"RLP","lok_sabha_questions":145,"rajya_sabha_questions":0,"total_questions":145},{"party":"Unknown","lok_sabha_questions":142,"rajya_sabha_questions":0,"total_questions":142},{"party":"BAP","lok_sabha_questions":138,"rajya_sabha_questions":0,"total_questions":138},{"party":"KC(M)","lok_sabha_questions":0,"rajya_sabha_questions":135,"total_questions":135},{"party":"UPPL","lok_sabha_questions":70,"rajya_sabha_questions":49,"total_questions":119},{"party":"RLD","lok_sabha_questions":117,"rajya_sabha_questions":0,"total_questions":117},{"party":"AIMIM","lok_sabha_questions":114,"rajya_sabha_questions":0,"total_questions":114},{"party":"RSP","lok_sabha_questions":108,"rajya_sabha_questions":0,"total_questions":108},{"party":"J&KNC","lok_sabha_questions":28,"rajya_sabha_questions":61,"total_questions":89},{"party":"SAD","lok_sabha_questions":87,"rajya_sabha_questions":0,"total_questions":87},{"party":"ASP (KR)","lok_sabha_questions":85,"rajya_sabha_questions":0,"total_questions":85},{"party":"AJSU","lok_sabha_questions":63,"rajya_sabha_questions":0,"total_questions":63},{"party":"AGP","lok_sabha_questions":21,"rajya_sabha_questions":40,"total_questions":61},{"party":"KEC","lok_sabha_questions":53,"rajya_sabha_questions":0,"total_questions":53},{"party":"SKM","lok_sabha_questions":44,"rajya_sabha_questions":0,"total_questions":44},{"party":"RLM","lok_sabha_questions":0,"rajya_sabha_questions":35,"total_questions":35},{"party":"PMK","lok_sabha_questions":0,"rajya_sabha_questions":33,"total_questions":33},{"party":"JD(S)","lok_sabha_questions":30,"rajya_sabha_questions":0,"total_questions":30},{"party":"DMDK","lok_sabha_questions":0,"rajya_sabha_questions":26,"total_questions":26},{"party":"ZPM","lok_sabha_questions":16,"rajya_sabha_questions":0,"total_questions":16},{"party":"MNM","lok_sabha_questions":0,"rajya_sabha_questions":12,"total_questions":12},{"party":"MNF","lok_sabha_questions":0,"rajya_sabha_questions":8,"total_questions":8},{"party":"TMC(M)","lok_sabha_questions":0,"rajya_sabha_questions":4,"total_questions":4}], "sig": [{"party":"BAP","ministry":"TRIBAL AFFAIRS","questions":14,"party_total":138,"lift":7.568},{"party":"NOM.","ministry":"CULTURE","questions":29,"party_total":285,"lift":5.652},{"party":"BJD","ministry":"LAW & JUSTICE","questions":37,"party_total":1019,"lift":5.061},{"party":"JMM","ministry":"TRIBAL AFFAIRS","questions":12,"party_total":192,"lift":4.662},{"party":"KC(M)","ministry":"EXTERNAL AFFAIRS","questions":10,"party_total":135,"lift":4.287},{"party":"RSP","ministry":"ROAD TRANSPORT AND HIGHWAYS","questions":10,"party_total":108,"lift":4.275},{"party":"BRS","ministry":"ROAD TRANSPORT & HIGH WAYS","questions":16,"party_total":296,"lift":4.142},{"party":"RJD","ministry":"LAW & JUSTICE","questions":14,"party_total":537,"lift":3.634},{"party":"IUML","ministry":"MINORITY AFFAIRS","questions":21,"party_total":682,"lift":3.418},{"party":"YSRCP","ministry":"ATOMIC ENERGY","questions":26,"party_total":1271,"lift":2.78},{"party":"MDMK","ministry":"RAILWAYS","questions":20,"party_total":150,"lift":2.73},{"party":"CPI(M)","ministry":"MINORITY AFFAIRS","questions":27,"party_total":1102,"lift":2.719},{"party":"TDP","ministry":"PORTS, SHIPPING AND WATERWAYS","questions":73,"party_total":2178,"lift":2.588},{"party":"CPI","ministry":"LABOUR AND EMPLOYMENT","questions":27,"party_total":412,"lift":2.479},{"party":"VCK","ministry":"PETROLEUM AND NATURAL GAS","questions":10,"party_total":215,"lift":2.427},{"party":"RLP","ministry":"FINANCE","questions":13,"party_total":145,"lift":2.363},{"party":"AIADMK","ministry":"COMMUNICATIONS","questions":22,"party_total":697,"lift":2.358},{"party":"IND.","ministry":"ELECTRONICS AND INFORMATION TECHNOLOGY","questions":37,"party_total":971,"lift":2.33},{"party":"SP","ministry":"PERSONNEL,PUBLIC GRIEVANCES AND PENSIONS","questions":15,"party_total":2331,"lift":2.222},{"party":"AITC","ministry":"INFORMATION AND BROADCASTING","questions":42,"party_total":2544,"lift":2.108},{"party":"CPI(ML)(L)","ministry":"LABOUR AND EMPLOYMENT","questions":11,"party_total":200,"lift":2.08},{"party":"NCP","ministry":"LABOUR AND EMPLOYMENT","questions":11,"party_total":205,"lift":2.029},{"party":"SHS(UBT)","ministry":"EXTERNAL AFFAIRS","questions":24,"party_total":686,"lift":2.025},{"party":"NCP(SP)","ministry":"AYUSH","questions":27,"party_total":704,"lift":2.001},{"party":"BJP","ministry":"PARLIAMENTARY AFFAIRS","questions":49,"party_total":22881,"lift":1.898},{"party":"SS","ministry":"ROAD TRANSPORT AND HIGHWAYS","questions":46,"party_total":1132,"lift":1.876},{"party":"JD(U)","ministry":"ROAD TRANSPORT AND HIGHWAYS","questions":41,"party_total":1018,"lift":1.86},{"party":"AAP","ministry":"EXTERNAL AFFAIRS","questions":25,"party_total":790,"lift":1.832},{"party":"JSP","ministry":"AGRICULTURE AND FARMERS WELFARE","questions":18,"party_total":222,"lift":1.748},{"party":"LJSP(RV)","ministry":"CONSUMER AFFAIRS, FOOD AND PUBLIC DISTRIBUTION","questions":10,"party_total":276,"lift":1.615},{"party":"RLD","ministry":"HEALTH AND FAMILY WELFARE","questions":11,"party_total":117,"lift":1.573},{"party":"DMK","ministry":"COMMUNICATION","questions":29,"party_total":3537,"lift":1.498},{"party":"AIMIM","ministry":"HEALTH AND FAMILY WELFARE","questions":10,"party_total":114,"lift":1.467},{"party":"INC","ministry":"ROAD TRANSPORT AND HIGHWAYS","questions":347,"party_total":11184,"lift":1.433},{"party":"Unknown","ministry":"HEALTH AND FAMILY WELFARE","questions":12,"party_total":142,"lift":1.414},{"party":"UPPL","ministry":"HEALTH AND FAMILY WELFARE","questions":10,"party_total":119,"lift":1.406}]}</script>
+<script>
+(function(){
+  "use strict";
+  var DATA = JSON.parse(document.getElementById('pqlx-data').textContent);
+  var fmt = function(n){ return Number(n).toLocaleString('en-IN'); };
+  function esc(s){ return String(s==null?'':s).replace(/[&<>"']/g, function(c){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]; }); }
+
+  function sortable(tableEl, rows, renderRow, defaultKey, defaultDir){
+    var state = {key: defaultKey, dir: defaultDir || 'desc'};
+    function render(){
+      var ths = tableEl.querySelectorAll('th[data-key]');
+      var type = 'str';
+      ths.forEach(function(th){ if (th.dataset.key === state.key) type = th.dataset.type; });
+      var sorted = rows.slice().sort(function(a,b){
+        var av = a[state.key], bv = b[state.key];
+        if (type === 'num'){ av = +av||0; bv = +bv||0; return state.dir==='asc' ? av-bv : bv-av; }
+        av = String(av||''); bv = String(bv||'');
+        return state.dir==='asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+      });
+      tableEl.querySelector('tbody').innerHTML = sorted.map(renderRow).join('');
+      ths.forEach(function(th){
+        th.removeAttribute('aria-sort');
+        if (th.dataset.key === state.key) th.setAttribute('aria-sort', state.dir==='asc'?'ascending':'descending');
+      });
+    }
+    tableEl.querySelectorAll('th[data-key]').forEach(function(th){
+      th.addEventListener('click', function(){
+        if (state.key === th.dataset.key){ state.dir = state.dir==='asc'?'desc':'asc'; }
+        else { state.key = th.dataset.key; state.dir = th.dataset.type==='num' ? 'desc':'asc'; }
+        render();
+      });
+    });
+    render();
+    return render;
+  }
+
+  var partyTable = document.getElementById('pqlx-party-table');
+  sortable(partyTable, DATA.parties, function(r){
+    return '<tr><td>'+esc(r.party)+'</td><td class="num">'+fmt(r.lok_sabha_questions)+'</td>' +
+      '<td class="num">'+fmt(r.rajya_sabha_questions)+'</td><td class="num"><b>'+fmt(r.total_questions)+'</b></td></tr>';
+  }, 'total_questions', 'desc');
+  document.getElementById('pqlx-party-search').addEventListener('input', function(e){
+    var q = e.target.value.toLowerCase();
+    Array.prototype.forEach.call(partyTable.querySelector('tbody').children, function(tr){
+      tr.style.display = tr.children[0].textContent.toLowerCase().indexOf(q) === -1 ? 'none' : '';
+    });
+  });
+
+  sortable(document.getElementById('pqlx-lift-table'), DATA.sig, function(r){
+    return '<tr><td>'+esc(r.party)+'</td><td>'+esc(r.ministry)+'</td><td class="num">'+fmt(r.questions)+'</td>' +
+      '<td class="num">'+fmt(r.party_total)+'</td><td class="num"><b>'+r.lift.toFixed(2)+'&times;</b></td></tr>';
+  }, 'lift', 'desc');
+})();
+</script>
+
 <h2>What this dataset does and doesn't cover</h2>
 <ul>
 <li><b>One term, not history.</b> This covers the 18th Lok Sabha (since June 2024) and Rajya Sabha sessions 265&ndash;271 over the same calendar window, through August 2026. It says nothing about whether these specialisation patterns hold in earlier Lok Sabhas.</li>
@@ -89,7 +181,7 @@
 <p>Per Rules 32&ndash;54 of the Lok Sabha's Rules of Procedure (Rules 47&ndash;50 in the Rajya Sabha), an MP files a notice &mdash; capped at 150 words, barring policy-level or sub-judice matters, at most five notices a day &mdash; at least 15 days ahead of the sitting (10 for a short-notice question). A <b>starred</b> question gets an oral answer and floor follow-up, capped at one per MP per sitting day; an <b>unstarred</b> question gets only a written reply on the record. Across this dataset, unstarred questions dominate heavily &mdash; 31,944 of 34,720 in the Lok Sabha (92%), 22,552 of 24,661 in the Rajya Sabha (91%) &mdash; which matches the procedural cap on oral questions, not a lack of MP interest.</p>
 
 <p class="note">
-<strong>Sources.</strong> Lok Sabha question metadata (subject, ministry, asking member(s), type, date, session &mdash; 34,720 questions, 22 July 2024 to 12 August 2026) from `sansad.in`'s undocumented `api_ls` JSON API. Rajya Sabha question data, including full question text (24,661 questions, 22 July 2024 to 13 August 2026, sessions 265&ndash;271) from `rsdoc.nic.in`'s `Question/Search_Questions` endpoint. Both chambers' current and former member rosters (party, state, constituency), used to match each question to its asker's party, from the same two undocumented APIs' member endpoints. Party and ministry naming was reconciled across the two chambers' independently-maintained conventions (e.g. Lok Sabha's "SHSUBT" and Rajya Sabha's "SS-UBT" both resolve to "SHS(UBT)") before any cross-chamber total was computed. Procedural definitions (starred vs. unstarred, notice rules) cross-checked against Drishti IAS's "Questioning in Parliament," a standard UPSC-preparation civics reference, used here only to confirm procedure against a reliable secondary source, not as a data source. Lift and party-clustering figures computed from this data using a graph-based method: full methodology, code and the underlying DuckDB database are in this account's own <code>lok-rajya-sabha-qa</code> research repository. None of this is an endorsement or criticism of any party; the finding is about how legislative attention structurally concentrates as a function of a party's size, not about any party's merit.
+<strong>Sources.</strong> Lok Sabha question metadata (subject, ministry, asking member(s), type, date, session &mdash; 34,720 questions, 22 July 2024 to 12 August 2026) from `sansad.in`'s undocumented `api_ls` JSON API. Rajya Sabha question data, including full question text (24,661 questions, 22 July 2024 to 13 August 2026, sessions 265&ndash;271) from `rsdoc.nic.in`'s `Question/Search_Questions` endpoint. Both chambers' current and former member rosters (party, state, constituency), used to match each question to its asker's party, from the same two undocumented APIs' member endpoints. Party and ministry naming was reconciled across the two chambers' independently-maintained conventions (e.g. Lok Sabha's "SHSUBT" and Rajya Sabha's "SS-UBT" both resolve to "SHS(UBT)") before any cross-chamber total was computed. Procedural definitions (starred vs. unstarred, notice rules) cross-checked against Drishti IAS's "Questioning in Parliament," a standard UPSC-preparation civics reference, used here only to confirm procedure against a reliable secondary source, not as a data source. Lift and party-clustering figures computed from this data using a graph-based method: full methodology, code and the underlying DuckDB database are in this account's own <code>lok-rajya-sabha-qa</code> research repository. An interactive version of this dataset &mdash; sortable party and ministry tables, the same signature-ministry lift graph, and the party-community clustering &mdash; is available <a href="https://claude.ai/artifact/P81z1Qnfur4XS2uvgMakEr" target="_blank" rel="noopener">here</a>. None of this is an endorsement or criticism of any party; the finding is about how legislative attention structurally concentrates as a function of a party's size, not about any party's merit.
 </p>
 
 <div style="background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em;color:#212529"><strong>Related on this blog:</strong> <a href="https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html">Lok Sabha Question Registry &mdash; Scheme &amp; Incentive Questions, 2019 to Today</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html">Rajya Sabha Question Registry &mdash; Scheme &amp; Incentive Questions, 2019 to Today</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html">The Most Discussed Schemes in Parliament</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html">Thirty-One Years of Asking Parliament the Same Question About Fertiliser</a> &mdash; four more pieces built on Parliament's own question record. Note the scope difference: those four cover only questions about specific policy schemes and incentives (or, for the fertiliser piece, one subject over three decades), pulled by a separate, keyword-filtered harvest; this piece covers every subject in the current Lok Sabha term and matching Rajya Sabha sessions. The much larger totals here are not a correction of those smaller counts &mdash; they are different denominators entirely.</div>
