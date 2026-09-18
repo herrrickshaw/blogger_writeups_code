@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T14:21:31+00:00",
+  "snapshot": "2026-09-18T14:32:31+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -2144,15 +2144,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/quarterly-reportage-4034-scheme.html",
       "slug": "quarterly-reportage-4034-scheme",
       "published": "2026-08-04T13:58:09.000+05:30",
-      "updated": "2026-09-10T22:50:21.000+05:30",
+      "updated": "2026-09-18T20:00:11.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 543015,
-      "sha256": "dd7e34d9a382047be0769ef12a100712705cd0425cee9e402325819b35a5c09d",
+      "bytes": 543799,
+      "sha256": "d3f243c96acd41f02cd9ad4c7767497f279f90e0be8bac31f14a2f1586fed08b",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
@@ -2161,7 +2161,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.3",
+      "version": "2.1.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -2425,6 +2425,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.4",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            543015,
+            543799
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -7741,25 +7759,25 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
       "slug": "rare-earth-magnets-and-specialty-steel",
       "published": "2026-08-05T12:10:49.000+05:30",
-      "updated": "2026-09-11T00:01:25.000+05:30",
+      "updated": "2026-09-18T20:00:35.000+05:30",
       "labels": [
         "Chemicals",
         "Industrial Policy"
       ],
-      "bytes": 20608,
-      "sha256": "7beec85d0fa48ea91e00a466cda12956be82eb4291054de9f17a29e97f14ca48",
+      "bytes": 21745,
+      "sha256": "d450b6422e66a6fc63c3c49a32ca0a597bf8b545d8d014491f12bee11bddc456",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
-        "translate_widget": false,
+        "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.5",
+      "version": "3.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7958,6 +7976,28 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.6",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            20608,
+            21745
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ],
+            "translate_widget": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -22481,24 +22521,24 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
       "slug": "the-ethanol-sectors-buyers-market",
       "published": "2026-08-05T12:13:26.000+05:30",
-      "updated": "2026-09-11T21:38:46.000+05:30",
+      "updated": "2026-09-18T20:00:42.000+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 14617,
-      "sha256": "0e7ece94fcfa93a7f9a59c62c0fb7ee31c89129844092f7704be7d7e83a259d7",
+      "bytes": 15754,
+      "sha256": "746ab092a9d369a842cc603fc4e18f82c4bdb349814fae1f049d7926111556d9",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
-        "translate_widget": false,
+        "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.2",
+      "version": "3.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22697,6 +22737,28 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed COLLISION (\"~2,400\" FY27-capacity label overlapping the chart title) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text); a first attempt that only shifted it down still visually overlapped the subtitle on manual render check, so moved it further down into the bar body instead."
+        },
+        {
+          "version": "3.0.3",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            14617,
+            15754
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ],
+            "translate_widget": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -38825,24 +38887,24 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
       "slug": "whos-actually-building-mri-and-ct",
       "published": "2026-08-05T12:30:13.000+05:30",
-      "updated": "2026-09-11T00:16:00.000+05:30",
+      "updated": "2026-09-18T20:00:57.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 13800,
-      "sha256": "2dd40a275242128da8483669b0bb7d1bcdecc1ad3bb645d58f065a0b5ba084be",
+      "bytes": 14937,
+      "sha256": "2fe74b9a4646abeaafa0702997f623ebdd80e7bfabb7dd092ed41d67e7d5c87a",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
-        "translate_widget": false,
+        "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.3",
+      "version": "2.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38989,6 +39051,28 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.4",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            13800,
+            14937
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ],
+            "translate_widget": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -39131,24 +39215,24 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html",
       "slug": "vehicles-out-motors-in-indias-chapter",
       "published": "2026-08-05T12:06:45.000+05:30",
-      "updated": "2026-09-11T00:16:14.000+05:30",
+      "updated": "2026-09-18T20:00:49.000+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 16314,
-      "sha256": "a1a25498c58cb30a2f01deb5506c2e2fadd7f93ae236e6acac426bf8c1def9ce",
+      "bytes": 17456,
+      "sha256": "b9cd4497a65b88968b0dba272ade6803a329bb6f1ad21a778cf191ab692d006c",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
-        "translate_widget": false,
+        "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
         "revision_line": false,
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "3.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39321,6 +39405,28 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.2",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            16314,
+            17456
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ],
+            "translate_widget": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -48746,17 +48852,17 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/interest-subvention-built-499-ethanol.html",
       "slug": "interest-subvention-built-499-ethanol",
       "published": "2026-08-26T07:16:13.000+05:30",
-      "updated": "2026-09-11T00:21:45.000+05:30",
+      "updated": "2026-09-18T20:00:27.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "Industrial Policy"
       ],
-      "bytes": 35585,
-      "sha256": "04b50c7c90b2337fa64715cdea974b77e40d6d45cca06ecb2da8be5cdaca9c6d",
+      "bytes": 36546,
+      "sha256": "f9041639fd67e356c5f5c93377df3046a376c68909254cb4d9965f197342dc4f",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
         "translate_widget": true,
         "index_link": true,
@@ -48765,7 +48871,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.1",
+      "version": "2.1.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48851,6 +48957,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.2",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            35585,
+            36546
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },
@@ -49481,16 +49605,16 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
       "slug": "indias-battery-storage-boom-is",
       "published": "2026-09-11T21:19:57.000+05:30",
-      "updated": "2026-09-17T05:38:20.000+05:30",
+      "updated": "2026-09-18T20:00:21.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 45506,
-      "sha256": "9fed93e69edc18df76d72532becd5b21939c3ee30e7d8c2a3175220401120354",
+      "bytes": 46467,
+      "sha256": "8bc2fe855ed6eb53a4d7c3938ea2f3edd54d40f7ff6fb97ddee0965b32750831",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": false,
+        "dark_panel_guard": true,
         "typo_unify": false,
         "translate_widget": true,
         "index_link": true,
@@ -49499,7 +49623,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -49520,6 +49644,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-09-18T14:32:31+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            45506,
+            46467
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              false,
+              true
+            ]
+          },
+          "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
         }
       ]
     },

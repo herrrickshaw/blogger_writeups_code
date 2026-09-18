@@ -4,24 +4,24 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html",
   "slug": "whos-actually-building-mri-and-ct",
   "published": "2026-08-05T12:30:13.000+05:30",
-  "updated": "2026-09-11T00:16:00.000+05:30",
+  "updated": "2026-09-18T20:00:57.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 13800,
-  "sha256": "2dd40a275242128da8483669b0bb7d1bcdecc1ad3bb645d58f065a0b5ba084be",
+  "bytes": 14937,
+  "sha256": "2fe74b9a4646abeaafa0702997f623ebdd80e7bfabb7dd092ed41d67e7d5c87a",
   "markers": {
     "light_lock": false,
-    "dark_panel_guard": false,
+    "dark_panel_guard": true,
     "typo_unify": false,
-    "translate_widget": false,
+    "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -168,6 +168,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.4",
+      "date": "2026-09-18T14:32:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        13800,
+        14937
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "dark_panel_guard": [
+          false,
+          true
+        ],
+        "translate_widget": [
+          false,
+          true
+        ]
+      },
+      "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
     }
   ]
 }

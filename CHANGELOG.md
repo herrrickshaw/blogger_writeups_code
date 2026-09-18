@@ -11995,3 +11995,45 @@ Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link po
 - `ai-high-demand-launch-tracker` — 39,829 → 40,398 bytes (+569)
 - `the-fearless-girls-charter-indias` — 28,233 → 28,721 bytes (+488)
 - `tech-for-business-so-2019-tech-as` — 32,079 → 32,674 bytes (+595)
+
+## Correction — 2026-09-18 (second)
+
+While repairing an `index-link` MINOR finding on `about-author.html` ("About the Author",
+published 2026-08-05, id `4275379366227973889` per its own `meta/about-author.json`), direct
+`GET /posts/{id}?view=AUTHOR` returned **HTTP 404 "Requested entity was not found"** — not the
+"record intact, missing from list endpoint" pattern found for `india-fuel-retail-outlets-82k-
+geocoded` above. A plain slug lookup (`blogger_api.py get --slug about-author`) also fails,
+searching all 302 currently-live posts. This post is not a listing anomaly: it is genuinely gone
+from Blogger, by ID and by slug alike. `posts/about-author.html` and `meta/about-author.json` in
+this repo are now stale local artifacts with no corresponding live post to publish to; the
+consistency-check fix already applied to the local file (added the missing `topnav-index-link`
+back-link) has nothing to be pushed to. Note the site already has a separate, distinct "About"
+**Page** (not Post) at `/p/about.html`, which may make a standalone "About the Author" post
+redundant rather than something to restore — worth a human decision on whether to recreate it
+as a new post or simply drop the stale local file. Not fixed here; flagged rather than silently
+dropped.
+
+## 2026-09-18T14:32:31+00:00 — 302 posts live
+
+Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left
+
+
+**Versions**
+
+- `indias-battery-storage-boom-is` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `interest-subvention-built-499-ethanol` **2.1.1 → 2.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `whos-actually-building-mri-and-ct` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-ethanol-sectors-buyers-market` **3.0.2 → 3.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `vehicles-out-motors-in-indias-chapter` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `quarterly-reportage-4034-scheme` **2.1.3 → 2.1.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-battery-storage-boom-is` — 45,506 → 46,467 bytes (+961); markers dark_panel_guard False→True
+- `interest-subvention-built-499-ethanol` — 35,585 → 36,546 bytes (+961); markers dark_panel_guard False→True
+- `whos-actually-building-mri-and-ct` — 13,800 → 14,937 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `the-ethanol-sectors-buyers-market` — 14,617 → 15,754 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `rare-earth-magnets-and-specialty-steel` — 20,608 → 21,745 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `vehicles-out-motors-in-indias-chapter` — 16,314 → 17,456 bytes (+1,142); markers dark_panel_guard False→True, translate_widget False→True
+- `quarterly-reportage-4034-scheme` — 543,015 → 543,799 bytes (+784); markers dark_panel_guard False→True

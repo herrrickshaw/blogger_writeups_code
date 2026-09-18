@@ -4,17 +4,17 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/interest-subvention-built-499-ethanol.html",
   "slug": "interest-subvention-built-499-ethanol",
   "published": "2026-08-26T07:16:13.000+05:30",
-  "updated": "2026-09-11T00:21:45.000+05:30",
+  "updated": "2026-09-18T20:00:27.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels",
     "Industrial Policy"
   ],
-  "bytes": 35585,
-  "sha256": "04b50c7c90b2337fa64715cdea974b77e40d6d45cca06ecb2da8be5cdaca9c6d",
+  "bytes": 36546,
+  "sha256": "f9041639fd67e356c5f5c93377df3046a376c68909254cb4d9965f197342dc4f",
   "markers": {
     "light_lock": false,
-    "dark_panel_guard": false,
+    "dark_panel_guard": true,
     "typo_unify": false,
     "translate_widget": true,
     "index_link": true,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.2",
+      "date": "2026-09-18T14:32:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        35585,
+        36546
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
     }
   ]
 }

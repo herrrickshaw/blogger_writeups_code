@@ -5,7 +5,7 @@
 > on its own. Test 1 is deterministic.
 
 Source: `posts/indias-battery-storage-boom-is.html` · title: India's Battery Storage Boom Is Outrunning Both Its Tariffs and Its Factories · printed date: 11 September 2026
-Run: 2026-09-12T23:33:29+00:00 · endpoint: http://localhost:20128 · model: gemini/gemini-3.6-flash
+Run: 2026-09-18T14:25:37+00:00 · endpoint: http://localhost:20128 · model: -
 
 ## 1. House rules (static, deterministic)
 
@@ -26,7 +26,7 @@ Run: 2026-09-12T23:33:29+00:00 · endpoint: http://localhost:20128 · model: gem
 
 ## 2. Internal consistency (LLM)
 
-_skipped: claims: HTTP 429: {"error":{"message":"[429]: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ","type":"rate_limit_error","cod_
+_skipped: LLM disabled_
 ## 3. Claims ledger (LLM)
 
-_skipped: claims: HTTP 429: {"error":{"message":"[429]: You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. ","type":"rate_limit_error","cod_
+_skipped: LLM disabled_
