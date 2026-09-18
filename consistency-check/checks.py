@@ -106,12 +106,22 @@ def r_bw_override(body, **kw):
 
 def r_table_units_in_header(body, **kw):
     """Units belong in <th>, not repeated in every <td>. Was polluting 30-91% of
-    cells across 7 flagship posts."""
+    cells across 7 flagship posts.
+
+    A cell only counts as a violation if it IS a bare number+unit (what a
+    header could absorb) -- not merely a cell that mentions a unit inside a
+    longer explanatory phrase, e.g. "~25.96% of all technical-textile
+    imports" or "FY2025-26, 10.35% CAGR". The original substring-search
+    version flagged both alike, which misfired on 18 of 19 posts checked
+    during a 2026-09-18 audit: their tables were fine, just descriptive."""
     tds = re.findall(r'<td[^>]*>([\s\S]{0,120}?)</td>', body)
     if len(tds) < 12:
         return True, "n/a (few cells)"
-    unit = re.compile(r'(₹|&#8377;|US\$|\bcr\b|crore|lakh|%|MT\b|LMT\b|MW\b|kg\b|bn\b|mn\b)', re.I)
-    hits = sum(1 for t in tds if unit.search(re.sub(r'<[^>]+>', '', t)))
+    bare_unit = re.compile(
+        r'^\s*(₹|&#8377;|US\$|\$)?\s*[\d,.−-]+\s*'
+        r'(cr|crore|lakh|%|MT|LMT|MW|kg|bn|mn)\.?\s*'
+        r'(\([^)]{0,40}\))?\s*$', re.I)
+    hits = sum(1 for t in tds if bare_unit.match(re.sub(r'<[^>]+>', '', t).strip()))
     pct = hits / len(tds) * 100
     ok = pct <= 30
     return ok, (f"{pct:.0f}% of {len(tds)} cells carry units" if not ok else f"{pct:.0f}%")

@@ -4,26 +4,26 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-animal-protein-export-complex.html",
   "slug": "indias-animal-protein-export-complex",
   "published": "2026-08-05T14:53:50.000+05:30",
-  "updated": "2026-09-11T11:42:18.000+05:30",
+  "updated": "2026-09-18T20:11:08.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 14470,
-  "sha256": "9e2ea0927c1ef72dbea9b82e3ebe761b74a5c95f6d2e463677cab79a86c52784",
+  "bytes": 15607,
+  "sha256": "b2d26df159591e16403c5ac93cbcf93740c98076aea8bd9362b98ade5d48e091",
   "markers": {
     "light_lock": false,
-    "dark_panel_guard": false,
+    "dark_panel_guard": true,
     "typo_unify": false,
-    "translate_widget": false,
+    "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.2",
+  "version": "2.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -222,6 +222,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (frozen-shrimp share note running 48.2px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "2.1.3",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        14470,
+        15607
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "dark_panel_guard": [
+          false,
+          true
+        ],
+        "translate_widget": [
+          false,
+          true
+        ]
+      },
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }

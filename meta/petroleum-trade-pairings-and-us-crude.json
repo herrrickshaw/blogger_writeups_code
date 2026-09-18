@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-09-09T09:06:31.000+05:30",
+  "updated": "2026-09-18T20:11:29.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 150252,
-  "sha256": "215e60276bf3825cb5d4285b1644cbae431d93b0e1d7c0cad8a2891be9ffd2ca",
+  "bytes": 151630,
+  "sha256": "2c687f1dbad6e05961ca8422a61d2754a993d4a999f6d53309a200661231aa70",
   "markers": {
-    "light_lock": false,
-    "dark_panel_guard": false,
+    "light_lock": true,
+    "dark_panel_guard": true,
     "typo_unify": false,
     "translate_widget": true,
     "index_link": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,28 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.1",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        150252,
+        151630
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "light_lock": [
+          false,
+          true
+        ],
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }

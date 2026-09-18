@@ -12037,3 +12037,40 @@ Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/b
 - `rare-earth-magnets-and-specialty-steel` — 20,608 → 21,745 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
 - `vehicles-out-motors-in-indias-chapter` — 16,314 → 17,456 bytes (+1,142); markers dark_panel_guard False→True, translate_widget False→True
 - `quarterly-reportage-4034-scheme` — 543,015 → 543,799 bytes (+784); markers dark_panel_guard False→True
+
+## 2026-09-18T14:42:19+00:00 — 302 posts live
+
+Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts.
+
+
+**Versions**
+
+- `the-50-tariff-and-234-one-untangling` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-seven-model-stock-portfolios-look` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-cannot-sell-china-free-medicine` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `574-gw-and-counting-indias-wind-fleet` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `biomass-power-at-night-dispatchable` **3.1.3 → 3.1.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `pet-recycling-already-cuts-emissions-60` **2.1.1 → 2.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `airbags-and-seat-belts-are-import-heavy` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `which-ecb-currencies-are-actually` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-currency-rupee-trends-piece-left` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-india-is-actually-paying-for` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `petroleum-trade-pairings-and-us-crude` **4.0.0 → 4.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-animal-protein-export-complex` **2.1.2 → 2.1.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-tyre-waste-problem-and-crumb` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-50-tariff-and-234-one-untangling` — 53,507 → 53,495 bytes (-12)
+- `what-seven-model-stock-portfolios-look` — 24,984 → 24,981 bytes (-3)
+- `india-cannot-sell-china-free-medicine` — 36,575 → 36,574 bytes (-1)
+- `574-gw-and-counting-indias-wind-fleet` — 22,605 → 22,594 bytes (-11)
+- `biomass-power-at-night-dispatchable` — 31,530 → 31,526 bytes (-4)
+- `pet-recycling-already-cuts-emissions-60` — 25,648 → 25,646 bytes (-2)
+- `airbags-and-seat-belts-are-import-heavy` — 27,426 → 27,383 bytes (-43)
+- `which-ecb-currencies-are-actually` — 23,971 → 23,967 bytes (-4)
+- `the-currency-rupee-trends-piece-left` — 36,654 → 36,634 bytes (-20)
+- `what-india-is-actually-paying-for` — 37,278 → 37,272 bytes (-6)
+- `petroleum-trade-pairings-and-us-crude` — 150,252 → 151,630 bytes (+1,378); markers dark_panel_guard False→True, light_lock False→True
+- `indias-animal-protein-export-complex` — 14,470 → 15,607 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `indias-tyre-waste-problem-and-crumb` — 17,856 → 18,993 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True

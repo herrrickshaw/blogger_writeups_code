@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html",
   "slug": "what-seven-model-stock-portfolios-look",
   "published": "2026-08-28T10:25:17.000+05:30",
-  "updated": "2026-09-11T22:20:55.000+05:30",
+  "updated": "2026-09-18T20:11:55.000+05:30",
   "labels": [
     "Data & Analytics",
     "Markets & Investing"
   ],
-  "bytes": 24984,
-  "sha256": "01fcfabf8471f5243a4e22a1fdca12265071dc5b3a680965bf4522f7d8853001",
+  "bytes": 24981,
+  "sha256": "f5ec702fa3a405a035394c865302d3e47739a47363d044414b3ad04f2e443950",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed the alpha-vs-market diverging bar chart: all 6 row labels for the negative-alpha bundles sat at a fixed x just left of the central axis, which both collided with each row's own value label and, for the 5 longer bars, got clipped by that row's own bar (drawn later in source order, painting over part of the label). Moved the whole row-label column further left (x=442 to x=340), clear of every bar's left edge and every value label, with no change to the bars or value labels themselves."
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24984,
+        24981
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }

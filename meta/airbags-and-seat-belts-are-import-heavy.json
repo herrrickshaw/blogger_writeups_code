@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html",
   "slug": "airbags-and-seat-belts-are-import-heavy",
   "published": "2026-08-15T11:27:49.000+05:30",
-  "updated": "2026-09-10T23:11:50.000+05:30",
+  "updated": "2026-09-18T20:10:39.000+05:30",
   "labels": [
     "Automotive & Manufacturing",
     "India Trade & Policy",
     "Textiles"
   ],
-  "bytes": 27426,
-  "sha256": "407965cf32dee56912c99a0f42b2b8e1c9171d4b3df1756cb9f7128966a5e3b9",
+  "bytes": 27383,
+  "sha256": "d3a7b93274aca0a46de161c6e688056ee3c5c53f2db8f52bfd8e19d59a372160",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.5",
+  "version": "3.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -161,6 +161,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.6",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27426,
+        27383
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }
