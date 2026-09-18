@@ -11831,6 +11831,25 @@ Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks
 Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels
 
 
+## Correction — 2026-09-18
+
+The previous entry's "No longer published" line for `india-fuel-retail-outlets-82k-geocoded`
+was investigated and is **wrong as worded**. Direct `GET /posts/{id}?view=AUTHOR` confirms
+`status: LIVE`, with title, content (20,748 bytes), labels, url, published/updated dates all
+intact — nothing was deleted or unpublished. The post is, however, reproducibly absent from
+the `status=LIVE` paginated list endpoint (`GET /posts?status=LIVE`, checked across all pages,
+302 items, not present) that `tools/snapshot.py all_entries()` relies on to build this archive.
+A "touch" update (re-saving identical content, confirmed via the `updated` timestamp changing)
+did not restore it to that listing. Net effect: the post's own record is intact and its URL
+should still resolve, but it is likely missing from the blog's homepage recent-posts list, RSS/
+Atom feed, and possibly sitemap.xml, since those most likely draw from the same list index —
+a real (if narrow) discoverability risk this account should watch, even though no content was
+lost. Not something `snapshot.py` or this session could fix from the API; may need a manual
+open-and-resave from the Blogger dashboard, or time for Blogger's own index to catch up.
+`meta/india-fuel-retail-outlets-82k-geocoded.json` is left as last synced; re-add it to the
+manifest on the next snapshot run where it reappears in the live listing.
+
+
 **Versions**
 
 - `article-index-start-here` **50.0.1 → 51.0.0** (MAJOR) — figures changed (+5/-5 distinct numbers)
