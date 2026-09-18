@@ -11795,3 +11795,20 @@ Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI'
 - `ethanol-freed-up-refinery-capacity-for` — 46,726 → 46,845 bytes (+119)
 - `indias-labour-codes-took-six-years-to` — 19,657 → 19,776 bytes (+119)
 - `five-years-and-25000-crore-later-china` — 34,661 → 34,780 bytes (+119)
+
+## 2026-09-18T12:26:45+00:00 — 302 posts live
+
+Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct insurance) - next lit_review commission-queue item, pairs with the published 4%-cession piece
+
+
+**Added**
+
+- `india-built-offshore-insurance-hub-it` **v1.0.0** — India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year. (16,501 bytes)
+
+**Versions**
+
+- `rural-indias-farm-employment-share` **1.2.0 → 1.2.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `rural-indias-farm-employment-share` — 19,008 → 19,127 bytes (+119)

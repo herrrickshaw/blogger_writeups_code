@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-17T04:23:00+00:00",
-  "count": 301,
+  "snapshot": "2026-09-18T12:26:45+00:00",
+  "count": 302,
   "posts": {
     "1058853159205559121": {
       "id": "1058853159205559121",
@@ -16224,12 +16224,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/rural-indias-farm-employment-share.html",
       "slug": "rural-indias-farm-employment-share",
       "published": "2026-09-17T08:10:45.000+05:30",
-      "updated": "2026-09-17T09:52:47.000+05:30",
+      "updated": "2026-09-18T09:05:14.000+05:30",
       "labels": [
         "Agriculture & Fertilisers"
       ],
-      "bytes": 19008,
-      "sha256": "b8f58b8bb2a6cc134b63a1f86a52b20d0ca94f240a5ff7b53614743a5c01655a",
+      "bytes": 19127,
+      "sha256": "f881deb5025542b3888bab808ae24874fb6007b5ad83ea28b89f10320675b8f4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -16241,7 +16241,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16275,6 +16275,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-09-18T12:26:45+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            19008,
+            19127
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct insurance) - next lit_review commission-queue item, pairs with the published 4%-cession piece"
         }
       ]
     },
@@ -46300,6 +46313,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "8163087717389562434": {
+      "id": "8163087717389562434",
+      "title": "India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html",
+      "slug": "india-built-offshore-insurance-hub-it",
+      "published": "2026-09-18T17:56:33.000+05:30",
+      "updated": "2026-09-18T17:56:33.000+05:30",
+      "labels": [],
+      "bytes": 16501,
+      "sha256": "bb174ec51a536e99edfca252d6bbf4d7dec6a865ac433efdd113784f601e944c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-18T12:26:45+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct insurance) - next lit_review commission-queue item, pairs with the published 4%-cession piece"
         }
       ]
     },
