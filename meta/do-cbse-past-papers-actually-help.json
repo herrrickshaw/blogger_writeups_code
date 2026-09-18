@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
   "slug": "do-cbse-past-papers-actually-help",
   "published": "2026-09-17T07:21:20.000+05:30",
-  "updated": "2026-09-17T09:05:34.000+05:30",
+  "updated": "2026-09-18T19:48:17.000+05:30",
   "labels": [
     "Education"
   ],
-  "bytes": 24109,
-  "sha256": "1c3c5dc3d7c0217ca9677934a324ebb7619e58cd732152cb62975883d2c9edaf",
+  "bytes": 24667,
+  "sha256": "7afb38839e22387524fae8a6b8b669ffb9cc804f40a123b4800cb6b6452ae236",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -62,6 +62,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24109,
+        24667
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

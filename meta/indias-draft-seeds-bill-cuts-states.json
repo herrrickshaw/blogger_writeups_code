@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html",
   "slug": "indias-draft-seeds-bill-cuts-states",
   "published": "2026-09-10T08:27:41.000+05:30",
-  "updated": "2026-09-11T11:44:55.000+05:30",
+  "updated": "2026-09-18T19:49:23.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 22481,
-  "sha256": "6976b38c289a178edc72c94099631ccda73e74f5bf62daabefbbc511ff77a839",
+  "bytes": 23051,
+  "sha256": "f88262c5ded62569077dcf719b7b69284e65423235f21f8cbc0923eceef6e513",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"27 members\" total-committee label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22481,
+        23051
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

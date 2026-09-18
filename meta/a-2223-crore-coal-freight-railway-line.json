@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html",
   "slug": "a-2223-crore-coal-freight-railway-line",
   "published": "2026-09-15T09:32:11.000+05:30",
-  "updated": "2026-09-18T19:17:29.000+05:30",
+  "updated": "2026-09-18T19:47:42.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 17364,
-  "sha256": "3398688e8f20c3724da0970d8dae77d7fb67532efce843cc2a87fb322243fdf1",
+  "bytes": 18253,
+  "sha256": "c971cb7bac89b6ffe47bd1aa9e41429ed944bbab683faf813b9ac52ff5867ca1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        17364,
+        18253
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

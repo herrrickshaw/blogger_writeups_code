@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-09-10T22:46:00.000+05:30",
+  "updated": "2026-09-18T19:50:09.000+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 27749,
-  "sha256": "f826aee8bb587594b0237e56261a3b433f8ab75c97bdcfd5040431c1bb3b4854",
+  "bytes": 28164,
+  "sha256": "37624d05aadf1b7a3d3f8302e1c8906207535d42cce98e08887870d1a4b3c898",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27749,
+        28164
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

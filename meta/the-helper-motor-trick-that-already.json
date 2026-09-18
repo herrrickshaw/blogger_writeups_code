@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-helper-motor-trick-that-already.html",
   "slug": "the-helper-motor-trick-that-already",
   "published": "2026-08-30T16:49:04.000+05:30",
-  "updated": "2026-09-11T21:42:13.000+05:30",
+  "updated": "2026-09-18T19:50:43.000+05:30",
   "labels": [
     "Gas & LNG"
   ],
-  "bytes": 27804,
-  "sha256": "aa4f41d557946f5537558f5131565de17033ff4f300cf693523007e9a10b87e0",
+  "bytes": 28606,
+  "sha256": "9599610e02c92e0d0dc2bdf674a0c3fd06563aaf6741df49db6a2d33cb229cb7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-LEFT (\"Single-shaft industrial gas turbine\" row label running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27804,
+        28606
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
   "slug": "india-rewrote-its-entire-maritime-legal",
   "published": "2026-09-15T10:51:58.000+05:30",
-  "updated": "2026-09-18T19:18:08.000+05:30",
+  "updated": "2026-09-18T19:48:45.000+05:30",
   "labels": [],
-  "bytes": 18533,
-  "sha256": "b10d171e91db264c4f5313326f0163417593d0757fb71c556526ae494f52bb1f",
+  "bytes": 19255,
+  "sha256": "aba12effdc67fc907fb63810b3c75f33a5506dc8299e103910099d3093127c08",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18533,
+        19255
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

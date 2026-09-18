@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html",
   "slug": "indias-ev-localisation-deadline-just",
   "published": "2026-09-15T09:00:40.000+05:30",
-  "updated": "2026-09-18T19:18:33.000+05:30",
+  "updated": "2026-09-18T19:49:35.000+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 23796,
-  "sha256": "6b1a0305ee6af9f43e265aa6c11c9a32b12e67224884652de471e8edb9bdaf58",
+  "bytes": 24395,
+  "sha256": "ff8cbee18eeae036c0de00efe9fed53db1dc1e064f05c18246ca9b51ac09f6b0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23796,
+        24395
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

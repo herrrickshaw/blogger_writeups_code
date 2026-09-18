@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-09-10T22:47:35.000+05:30",
+  "updated": "2026-09-18T19:50:49.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 28174,
-  "sha256": "1f4cb23b90394a87ccdbf6524e33e81a5b41015862dedbfcd957f7a6fb73394f",
+  "bytes": 28876,
+  "sha256": "3e302af91f2026d87ba479e4d03ce34d3fc9e28f0994b843da776dd4cfd355f0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28174,
+        28876
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

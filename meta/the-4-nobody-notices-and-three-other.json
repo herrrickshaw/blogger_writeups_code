@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-09-10T22:46:35.000+05:30",
+  "updated": "2026-09-18T19:50:22.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 36879,
-  "sha256": "ef20464c083e0a067d66fe1eeeedc1066b2dc11c7a971161f4db3d471fddcc2e",
+  "bytes": 37651,
+  "sha256": "a54a052e48fb5a600207dbfa6404ce882f6226ceb63b1b473cc9bc57c87b80ab",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "1.1.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36879,
+        37651
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

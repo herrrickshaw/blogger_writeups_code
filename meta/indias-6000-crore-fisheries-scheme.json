@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-6000-crore-fisheries-scheme.html",
   "slug": "indias-6000-crore-fisheries-scheme",
   "published": "2026-08-30T07:43:52.000+05:30",
-  "updated": "2026-09-10T22:43:10.000+05:30",
+  "updated": "2026-09-18T19:49:09.000+05:30",
   "labels": [
     "Fisheries & Aquaculture",
     "India"
   ],
-  "bytes": 25643,
-  "sha256": "f5ee466520bac32ee52fd4428ca161648a72395866134dd2d23a7f3002a85d07",
+  "bytes": 26411,
+  "sha256": "d6c3ee1ee4c888cfc922a7d0c53d2a7c86c9265dbf36b1dd38449e969d53d722",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.6",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        25643,
+        26411
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

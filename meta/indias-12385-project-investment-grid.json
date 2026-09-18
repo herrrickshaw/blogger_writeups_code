@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-12385-project-investment-grid.html",
   "slug": "indias-12385-project-investment-grid",
   "published": "2026-09-15T09:44:39.000+05:30",
-  "updated": "2026-09-18T19:18:14.000+05:30",
+  "updated": "2026-09-18T19:49:03.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 19050,
-  "sha256": "37c5dd2fb0af8460045f85728081def72b37defb50cc84ede5f12d553089ce2a",
+  "bytes": 19785,
+  "sha256": "c5c054b9c9cc1cb908ae007fe32649595b24bb058ff62dd98d73706dfdf96ba1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19050,
+        19785
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

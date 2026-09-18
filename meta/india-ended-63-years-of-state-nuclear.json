@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
   "slug": "india-ended-63-years-of-state-nuclear",
   "published": "2026-09-15T10:11:42.000+05:30",
-  "updated": "2026-09-18T19:17:56.000+05:30",
+  "updated": "2026-09-18T19:48:39.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 20003,
-  "sha256": "40048639e9c49b479575016a7d2298c4f862f6eeee8c28df63543bc04e41b630",
+  "bytes": 20776,
+  "sha256": "c54a25e4396c0fb43496e5fd4cc9b796cb89c8c54c8eb9c6ca59d06889427efe",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.1.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.1.2",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20003,
+        20776
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

@@ -11928,3 +11928,70 @@ Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-r
 - `five-years-and-25000-crore-later-china` — 34,780 → 35,563 bytes (+783)
 - `interpreting-gazette-notification` — 39,282 → 40,060 bytes (+778)
 - `thali-investing-whats-actually-on-plate` — 30,453 → 31,227 bytes (+774)
+
+## 2026-09-18T14:21:31+00:00 — 302 posts live
+
+Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)
+
+
+**Versions**
+
+- `do-cbse-past-papers-actually-help` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-labour-codes-took-six-years-to` **1.2.1 → 1.2.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-rewrote-its-entire-maritime-legal` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-ended-63-years-of-state-nuclear` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-12385-project-investment-grid` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-failed-bankruptcy-auction-actually` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-2223-crore-coal-freight-railway-line` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-textile-sez-built-to-re-employ-mill` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-e-commerce-inventory-ban-just` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ev-localisation-deadline-just` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-draft-seeds-bill-cuts-states` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-oil-psus-say-they-clear-their_01269248608` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-4-nobody-notices-and-three-other` **1.1.4 → 1.1.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `uk-retail-canopies-at-54m-real-design` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `brandsafway-and-2017-roll-up-wave-that` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-helper-motor-trick-that-already` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tasmacs-retail-exit-case-for` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-mobile-phone-pli-beat-every` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `west-bengal-sanctioned-126-lakh-pmay-g` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-6000-crore-fisheries-scheme` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `three-different-eu-rules-are-making` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `every-india-europe-tech-agreement-pib` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-coking-coal-import-problem-and` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-empty-shed-greenhouse-what-indias` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indian-it-in-ai-era` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ai-high-demand-launch-tracker` **4.0.5 → 4.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-fearless-girls-charter-indias` **1.0.17 → 1.0.18** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tech-for-business-so-2019-tech-as` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `do-cbse-past-papers-actually-help` — 24,109 → 24,667 bytes (+558)
+- `indias-labour-codes-took-six-years-to` — 19,774 → 20,322 bytes (+548)
+- `india-rewrote-its-entire-maritime-legal` — 18,533 → 19,255 bytes (+722)
+- `india-ended-63-years-of-state-nuclear` — 20,003 → 20,776 bytes (+773)
+- `indias-12385-project-investment-grid` — 19,050 → 19,785 bytes (+735)
+- `what-failed-bankruptcy-auction-actually` — 19,918 → 20,460 bytes (+542)
+- `a-2223-crore-coal-freight-railway-line` — 17,364 → 18,253 bytes (+889)
+- `a-textile-sez-built-to-re-employ-mill` — 17,865 → 18,654 bytes (+789)
+- `indias-e-commerce-inventory-ban-just` — 20,688 → 21,495 bytes (+807)
+- `indias-ev-localisation-deadline-just` — 23,796 → 24,395 bytes (+599)
+- `indias-draft-seeds-bill-cuts-states` — 22,481 → 23,051 bytes (+570)
+- `indias-oil-psus-say-they-clear-their_01269248608` — 36,461 → 37,186 bytes (+725)
+- `the-4-nobody-notices-and-three-other` — 36,879 → 37,651 bytes (+772)
+- `uk-retail-canopies-at-54m-real-design` — 28,752 → 29,521 bytes (+769)
+- `brandsafway-and-2017-roll-up-wave-that` — 24,938 → 25,504 bytes (+566)
+- `the-helper-motor-trick-that-already` — 27,804 → 28,606 bytes (+802)
+- `tasmacs-retail-exit-case-for` — 27,749 → 28,164 bytes (+415)
+- `indias-mobile-phone-pli-beat-every` — 21,792 → 22,523 bytes (+731)
+- `west-bengal-sanctioned-126-lakh-pmay-g` — 23,444 → 24,187 bytes (+743)
+- `indias-6000-crore-fisheries-scheme` — 25,643 → 26,411 bytes (+768)
+- `three-different-eu-rules-are-making` — 28,174 → 28,876 bytes (+702)
+- `every-india-europe-tech-agreement-pib` — 31,392 → 31,925 bytes (+533)
+- `indias-coking-coal-import-problem-and` — 46,826 → 47,382 bytes (+556)
+- `the-empty-shed-greenhouse-what-indias` — 13,755 → 15,143 bytes (+1,388); markers translate_widget False→True
+- `indian-it-in-ai-era` — 39,268 → 39,905 bytes (+637)
+- `ai-high-demand-launch-tracker` — 39,829 → 40,398 bytes (+569)
+- `the-fearless-girls-charter-indias` — 28,233 → 28,721 bytes (+488)
+- `tech-for-business-so-2019-tech-as` — 32,079 → 32,674 bytes (+595)
