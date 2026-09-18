@@ -11911,3 +11911,20 @@ SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export ch
 - `indias-ethanol-sector-already-had-its` — 21,717 → 21,717 bytes (+0)
 - `electrification-is-lngs-biggest` — 28,449 → 28,448 bytes (-1)
 - `5071-items-you-cannot-import-and-rs` — 40,860 → 40,840 bytes (-20)
+
+## 2026-09-18T13:55:09+00:00 — 302 posts live
+
+Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool
+
+
+**Versions**
+
+- `five-years-and-25000-crore-later-china` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `interpreting-gazette-notification` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `thali-investing-whats-actually-on-plate` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `five-years-and-25000-crore-later-china` — 34,780 → 35,563 bytes (+783)
+- `interpreting-gazette-notification` — 39,282 → 40,060 bytes (+778)
+- `thali-investing-whats-actually-on-plate` — 30,453 → 31,227 bytes (+774)

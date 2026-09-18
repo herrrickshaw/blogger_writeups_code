@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
   "slug": "thali-investing-whats-actually-on-plate",
   "published": "2026-08-10T06:32:54.000+05:30",
-  "updated": "2026-09-07T19:36:47.000+05:30",
+  "updated": "2026-09-18T19:24:49.000+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 30453,
-  "sha256": "bf24383c9476985e6a8c8997bd14a9ee4ee27ebb449ca3ae2e88a22ee4992c48",
+  "bytes": 31227,
+  "sha256": "63719c6957dacdab90fa42cd24059324b661ea166466d56939185f585ec6aa30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -237,6 +237,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.4",
+      "date": "2026-09-18T13:55:09+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        30453,
+        31227
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool"
     }
   ]
 }

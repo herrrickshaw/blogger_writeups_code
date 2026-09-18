@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T13:49:04+00:00",
+  "snapshot": "2026-09-18T13:55:09+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -16988,13 +16988,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html",
       "slug": "interpreting-gazette-notification",
       "published": "2026-09-04T10:06:40.000+05:30",
-      "updated": "2026-09-10T22:44:21.000+05:30",
+      "updated": "2026-09-18T19:24:42.000+05:30",
       "labels": [
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 39282,
-      "sha256": "c3761f39419ff8057941e2154ae0e8cc39f7e9ce801939b84fd25ed696c33052",
+      "bytes": 40060,
+      "sha256": "87ccf4ee9357d9d571a7dce366b5c3c4c020d5dfc48dc98cec2b4f7ab697847c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -17006,7 +17006,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.0.5",
       "version_history": [
         {
           "version": "1.0.0",
@@ -17079,6 +17079,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.5",
+          "date": "2026-09-18T13:55:09+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            39282,
+            40060
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool"
         }
       ]
     },
@@ -25479,14 +25492,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/five-years-and-25000-crore-later-china.html",
       "slug": "five-years-and-25000-crore-later-china",
       "published": "2026-09-16T12:03:59.000+05:30",
-      "updated": "2026-09-17T09:06:58.000+05:30",
+      "updated": "2026-09-18T19:24:55.000+05:30",
       "labels": [
         "Import Substitution",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 34780,
-      "sha256": "1555e7dc62787a8b52fb7588cd4df379a0a36d015679494de0a87807ac39b96d",
+      "bytes": 35563,
+      "sha256": "5ca09a3e02134b9d7f0988e256e128a69feb7f75e5c19a8514b4f5b8a0b6ae4c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25498,7 +25511,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25532,6 +25545,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+        },
+        {
+          "version": "1.2.1",
+          "date": "2026-09-18T13:55:09+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            34780,
+            35563
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool"
         }
       ]
     },
@@ -26278,12 +26304,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/thali-investing-whats-actually-on-plate.html",
       "slug": "thali-investing-whats-actually-on-plate",
       "published": "2026-08-10T06:32:54.000+05:30",
-      "updated": "2026-09-07T19:36:47.000+05:30",
+      "updated": "2026-09-18T19:24:49.000+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 30453,
-      "sha256": "bf24383c9476985e6a8c8997bd14a9ee4ee27ebb449ca3ae2e88a22ee4992c48",
+      "bytes": 31227,
+      "sha256": "63719c6957dacdab90fa42cd24059324b661ea166466d56939185f585ec6aa30",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -26295,7 +26321,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.3",
+      "version": "3.0.4",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26511,6 +26537,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "3.0.4",
+          "date": "2026-09-18T13:55:09+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            30453,
+            31227
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool"
         }
       ]
     },
