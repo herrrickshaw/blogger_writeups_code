@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-17T08:51:23.000+05:30",
+  "updated": "2026-09-18T18:01:45.000+05:30",
   "labels": [],
-  "bytes": 363115,
-  "sha256": "0933da4379ca1031ac6bf25d439d03e4571264d416095751076743c4eb554147",
+  "bytes": 363508,
+  "sha256": "2abe2b2f1991fa37d3e44d2ce2eb3f31144fcbf95a73e7fa3ef715264109514a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "50.0.1",
+  "version": "51.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1667,6 +1667,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild article index: PLFS post title corrected"
+    },
+    {
+      "version": "51.0.0",
+      "date": "2026-09-18T12:31:54+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-5 distinct numbers)",
+      "bytes": [
+        363115,
+        363508
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels"
     }
   ]
 }

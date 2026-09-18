@@ -11825,3 +11825,16 @@ Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)
+
+## 2026-09-18T12:31:54+00:00 — 302 posts live
+
+Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels
+
+
+**Versions**
+
+- `article-index-start-here` **50.0.1 → 51.0.0** (MAJOR) — figures changed (+5/-5 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 363,115 → 363,508 bytes (+393)

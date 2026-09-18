@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T12:30:58+00:00",
+  "snapshot": "2026-09-18T12:31:54+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -33786,10 +33786,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-17T08:51:23.000+05:30",
+      "updated": "2026-09-18T18:01:45.000+05:30",
       "labels": [],
-      "bytes": 363115,
-      "sha256": "0933da4379ca1031ac6bf25d439d03e4571264d416095751076743c4eb554147",
+      "bytes": 363508,
+      "sha256": "2abe2b2f1991fa37d3e44d2ce2eb3f31144fcbf95a73e7fa3ef715264109514a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -33801,7 +33801,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "50.0.1",
+      "version": "51.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35449,6 +35449,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rebuild article index: PLFS post title corrected"
+        },
+        {
+          "version": "51.0.0",
+          "date": "2026-09-18T12:31:54+00:00",
+          "level": "major",
+          "reason": "figures changed (+5/-5 distinct numbers)",
+          "bytes": [
+            363115,
+            363508
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels"
         }
       ]
     },
@@ -42964,8 +42977,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
       "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
       "published": "2026-09-18T18:00:41.000+05:30",
-      "updated": "2026-09-18T18:00:41.000+05:30",
-      "labels": [],
+      "updated": "2026-09-18T18:01:20.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Mobility & EV"
+      ],
       "bytes": 22787,
       "sha256": "e054aeb22b5c7ad0f6d9e2028374dd25e2b373dcafb503cc075214be23e5a190",
       "markers": {
@@ -46354,8 +46370,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html",
       "slug": "india-built-offshore-insurance-hub-it",
       "published": "2026-09-18T17:56:33.000+05:30",
-      "updated": "2026-09-18T17:56:33.000+05:30",
-      "labels": [],
+      "updated": "2026-09-18T18:01:26.000+05:30",
+      "labels": [
+        "Insurance & Reinsurance",
+        "Markets & Finance"
+      ],
       "bytes": 16501,
       "sha256": "bb174ec51a536e99edfca252d6bbf4d7dec6a865ac433efdd113784f601e944c",
       "markers": {
