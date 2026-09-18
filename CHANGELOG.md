@@ -11857,3 +11857,16 @@ manifest on the next snapshot run where it reappears in the live listing.
 **Changed**
 
 - `article-index-start-here` — 363,115 → 363,508 bytes (+393)
+
+## 2026-09-18T13:19:48+00:00 — 302 posts live
+
+Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry figures for PIL 1-4 substitution value (2023 vs 2024 release) shown instead of one, DMA and SRIJAN totals quantified; update cross-link anchor text elsewhere
+
+
+**Versions**
+
+- `5071-items-you-cannot-import-and-rs` **2.1.0 → 2.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `5071-items-you-cannot-import-and-rs` — 33,517 → 40,860 bytes (+7,343); markers revision_line False→True
