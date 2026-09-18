@@ -11870,3 +11870,44 @@ Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry fi
 **Changed**
 
 - `5071-items-you-cannot-import-and-rs` — 33,517 → 40,860 bytes (+7,343); markers revision_line False→True
+
+## 2026-09-18T13:49:04+00:00 — 302 posts live
+
+SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan
+
+
+**Versions**
+
+- `india-exports-naphtha-and-benzene-its` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `jan-aushadhi-sells-2439-products-heres` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `sun-pharmas-1175bn-organon-bet-is` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-60000-crore-api-push-traced-to` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `dr-reddys-cut-its-semaglutide-guidance` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ethanol-freed-up-refinery-capacity-for` **1.10.0 → 1.10.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-labour-codes-took-six-years-to` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-rewrote-its-entire-maritime-legal` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-ended-63-years-of-state-nuclear` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-12385-project-investment-grid` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-2223-crore-coal-freight-railway-line` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ev-localisation-deadline-just` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ethanol-sector-already-had-its` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `electrification-is-lngs-biggest` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `5071-items-you-cannot-import-and-rs` **2.2.0 → 2.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-exports-naphtha-and-benzene-its` — 24,323 → 24,323 bytes (+0)
+- `jan-aushadhi-sells-2439-products-heres` — 26,896 → 26,895 bytes (-1)
+- `sun-pharmas-1175bn-organon-bet-is` — 21,918 → 21,894 bytes (-24)
+- `indias-60000-crore-api-push-traced-to` — 24,311 → 24,304 bytes (-7)
+- `dr-reddys-cut-its-semaglutide-guidance` — 20,354 → 20,352 bytes (-2)
+- `ethanol-freed-up-refinery-capacity-for` — 46,845 → 46,845 bytes (+0)
+- `indias-labour-codes-took-six-years-to` — 19,776 → 19,774 bytes (-2)
+- `india-rewrote-its-entire-maritime-legal` — 18,534 → 18,533 bytes (-1)
+- `india-ended-63-years-of-state-nuclear` — 20,004 → 20,003 bytes (-1)
+- `indias-12385-project-investment-grid` — 19,050 → 19,050 bytes (+0)
+- `a-2223-crore-coal-freight-railway-line` — 17,366 → 17,364 bytes (-2)
+- `indias-ev-localisation-deadline-just` — 23,704 → 23,796 bytes (+92)
+- `indias-ethanol-sector-already-had-its` — 21,717 → 21,717 bytes (+0)
+- `electrification-is-lngs-biggest` — 28,449 → 28,448 bytes (-1)
+- `5071-items-you-cannot-import-and-rs` — 40,860 → 40,840 bytes (-20)

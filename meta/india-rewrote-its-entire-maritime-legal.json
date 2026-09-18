@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
   "slug": "india-rewrote-its-entire-maritime-legal",
   "published": "2026-09-15T10:51:58.000+05:30",
-  "updated": "2026-09-17T05:39:14.000+05:30",
+  "updated": "2026-09-18T19:18:08.000+05:30",
   "labels": [],
-  "bytes": 18534,
-  "sha256": "8e67263ea0ff0361aaf16cc31bc86b6167db9f6af853c18e3bfcd4e785de466c",
+  "bytes": 18533,
+  "sha256": "b10d171e91db264c4f5313326f0163417593d0757fb71c556526ae494f52bb1f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -40,6 +40,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18534,
+        18533
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

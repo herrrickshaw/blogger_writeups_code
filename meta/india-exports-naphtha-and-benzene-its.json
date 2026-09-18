@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html",
   "slug": "india-exports-naphtha-and-benzene-its",
   "published": "2026-09-17T06:39:50.000+05:30",
-  "updated": "2026-09-17T09:05:57.000+05:30",
+  "updated": "2026-09-18T19:18:02.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
   "bytes": 24323,
-  "sha256": "d938a2751cb84ea7f874b395f3970f4cebe622727960c05446c84210e81d6e70",
+  "sha256": "be9ab6229c29786416dad52d14dd8f0c25cd7abce963ae55a2e8204bb5cbb990",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24323,
+        24323
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

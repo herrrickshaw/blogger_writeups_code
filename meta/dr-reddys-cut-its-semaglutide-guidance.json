@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/dr-reddys-cut-its-semaglutide-guidance.html",
   "slug": "dr-reddys-cut-its-semaglutide-guidance",
   "published": "2026-09-16T14:06:55.000+05:30",
-  "updated": "2026-09-17T09:06:35.000+05:30",
+  "updated": "2026-09-18T19:17:35.000+05:30",
   "labels": [
     "Chemicals",
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 20354,
-  "sha256": "7ef24184d0b7d806fa11a1971b34bd0e0825e5a052a14a2b10a1c42558fa6729",
+  "bytes": 20352,
+  "sha256": "a5e61fa184fbdd14a2b573aab28b0601392164a12ffe95048033e10480d3b920",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20354,
+        20352
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

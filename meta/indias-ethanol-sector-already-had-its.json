@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-09-17T05:38:38.000+05:30",
+  "updated": "2026-09-18T19:18:26.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
   "bytes": 21717,
-  "sha256": "d0d4852f6dbc70b279799ed9fd658ac0112f589b65c78326aa516e5bce7ee8a1",
+  "sha256": "bd05b83f5788971922d93db6ef1a47c95c27ce0f1eb2d5e32ea0b272b99b82b2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21717,
+        21717
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

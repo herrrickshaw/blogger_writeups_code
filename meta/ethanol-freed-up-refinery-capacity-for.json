@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-17T09:06:43.000+05:30",
+  "updated": "2026-09-18T19:17:50.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
   "bytes": 46845,
-  "sha256": "054d3dabc93205e286056b757f722dc61ab4bda27c12203d3c910da34bd242c2",
+  "sha256": "fc37e51861d732718fc42eb3090fef276e908de73a29a01d3615c59afba6fa08",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.10.0",
+  "version": "1.10.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -173,6 +173,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.10.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        46845,
+        46845
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

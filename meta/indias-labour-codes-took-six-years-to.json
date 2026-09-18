@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "slug": "indias-labour-codes-took-six-years-to",
   "published": "2026-09-16T13:11:13.000+05:30",
-  "updated": "2026-09-17T09:06:50.000+05:30",
+  "updated": "2026-09-18T19:18:39.000+05:30",
   "labels": [],
-  "bytes": 19776,
-  "sha256": "016f846af9af9f53e31c983b99c35797de03e00f23e4618b74e46505ec8b86ed",
+  "bytes": 19774,
+  "sha256": "42a78e5dc4bbfb351bc26e413e255e5424c3302ebd7d1c28788511e7b65c8c38",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -53,6 +53,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19776,
+        19774
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

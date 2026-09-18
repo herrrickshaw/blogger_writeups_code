@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
   "slug": "india-ended-63-years-of-state-nuclear",
   "published": "2026-09-15T10:11:42.000+05:30",
-  "updated": "2026-09-17T05:39:05.000+05:30",
+  "updated": "2026-09-18T19:17:56.000+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 20004,
-  "sha256": "e9e449d6f5f8b1643769577868418c290b185c60ecea060d24d0effb129bc32b",
+  "bytes": 20003,
+  "sha256": "40048639e9c49b479575016a7d2298c4f862f6eeee8c28df63543bc04e41b630",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        20004,
+        20003
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

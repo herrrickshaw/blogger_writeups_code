@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-09-18T18:49:19.000+05:30",
+  "updated": "2026-09-18T19:17:22.000+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 40860,
-  "sha256": "655ae14769756310d578487555c4d8ea5c7b506fb25070f1f0114494e8966b25",
+  "bytes": 40840,
+  "sha256": "0ad19b65eedfe4f7319dd0bf99578e3cd3997001600d96b2acaef0bf1c85f661",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -115,6 +115,19 @@
         ]
       },
       "note": "Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry figures for PIL 1-4 substitution value (2023 vs 2024 release) shown instead of one, DMA and SRIJAN totals quantified; title changed; update cross-link anchor text elsewhere"
+    },
+    {
+      "version": "2.2.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        40860,
+        40840
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }
