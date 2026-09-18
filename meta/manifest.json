@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T14:42:19+00:00",
+  "snapshot": "2026-09-18T14:55:29+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -41669,284 +41669,6 @@
         }
       ]
     },
-    "7181512681958714120": {
-      "id": "7181512681958714120",
-      "title": "India Environmental Clearances — State × Sub-sector Dashboard",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/india-environmental-clearances-state.html",
-      "slug": "india-environmental-clearances-state",
-      "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-11T00:18:11.000+05:30",
-      "labels": [
-        "Environment & Clearances"
-      ],
-      "bytes": 18818,
-      "sha256": "afab42a5a83277803adf5039ebc49050ccb8a94c8e751b1a206b57b64e6f0c9a",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "3.0.1",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T11:31:49+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            7415,
-            6521
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "inverted_media_query": [
-              true,
-              false
-            ]
-          },
-          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-        },
-        {
-          "version": "1.0.2",
-          "date": "2026-08-08T03:54:45+00:00",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            6521,
-            7794
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2026-08-08T14:26:40+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            7794,
-            7913
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "site-index stub in all 98 posts"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2026-08-11T11:44:28+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            7913,
-            8150
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "index_link": [
-              false,
-              true
-            ]
-          },
-          "note": ""
-        },
-        {
-          "version": "1.0.5",
-          "date": "2026-08-12T22:24:04+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            8150,
-            8309
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-08-13T03:50:57+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            8309,
-            12843
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.7",
-          "date": "2026-08-13T08:42:55+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            12843,
-            13762
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.8",
-          "date": "2026-08-13T11:02:49+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            13762,
-            13867
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-        },
-        {
-          "version": "1.0.9",
-          "date": "2026-08-14T04:25:49+00:00",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            13867,
-            14573
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.10",
-          "date": "2026-08-16T14:49:00+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            14573,
-            15101
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.11",
-          "date": "2026-08-16T15:22:21+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            15101,
-            15456
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.12",
-          "date": "2026-08-21T23:03:41+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            15456,
-            15324
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-08-26T03:35:52+00:00",
-          "level": "major",
-          "reason": "figures changed (+5/-0 distinct numbers)",
-          "bytes": [
-            15324,
-            17694
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "2.1.0",
-          "date": "2026-09-05T20:35:37+05:30",
-          "level": "minor",
-          "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
-          "bytes": [
-            17694,
-            16814
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
-        },
-        {
-          "version": "2.1.1",
-          "date": "2026-09-05T21:41:22+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            16814,
-            16633
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-        },
-        {
-          "version": "2.1.2",
-          "date": "2026-09-07T19:53:24+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            16633,
-            15714
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-        },
-        {
-          "version": "3.0.0",
-          "date": "2026-09-10T22:54:22+05:30",
-          "level": "major",
-          "reason": "figures changed (+0/-0 distinct numbers)",
-          "bytes": [
-            15714,
-            18006
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "3.0.1",
-          "date": "2026-09-11T00:25:49+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            18006,
-            18818
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        }
-      ]
-    },
     "7205528775886743086": {
       "id": "7205528775886743086",
       "title": "A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time",
@@ -43756,6 +43478,40 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "753583821656685996": {
+      "id": "753583821656685996",
+      "title": "The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
+      "slug": "the-two-biggest-parties-in-parliament",
+      "published": "2026-09-18T20:24:04.000+05:30",
+      "updated": "2026-09-18T20:25:11.000+05:30",
+      "labels": [
+        "Governance & Institutions"
+      ],
+      "bytes": 16853,
+      "sha256": "71f3fe12f0c57239c496ca65d14b2ceaefc675ce8a959d1c1d33db6cffd3b842",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": true,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-18T14:55:29+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "publish: The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (party-lift analysis via lok-rajya-sabha-qa dataset)"
         }
       ]
     },

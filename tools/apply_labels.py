@@ -164,6 +164,11 @@ OVERRIDE = {
     # No Education bucket exists in TAXONOMY -- this and any future
     # exam/curriculum-data piece are the first posts in that beat.
     "do-cbse-past-papers-actually-help": ["Education"],
+    # No Governance/Parliament bucket exists in TAXONOMY. The bare " sabha "
+    # keyword under Industrial Policy would otherwise mislabel this as a
+    # scheme piece, but it's about party-wise question-asking patterns, not
+    # a scheme or incentive -- the first post in a Governance beat.
+    "the-two-biggest-parties-in-parliament": ["Governance & Institutions"],
 }
 
 

@@ -12074,3 +12074,16 @@ Full-archive consistency sweep: fixed 2 real checker false-positives in consiste
 - `petroleum-trade-pairings-and-us-crude` — 150,252 → 151,630 bytes (+1,378); markers dark_panel_guard False→True, light_lock False→True
 - `indias-animal-protein-export-complex` — 14,470 → 15,607 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
 - `indias-tyre-waste-problem-and-crumb` — 17,856 → 18,993 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+
+## 2026-09-18T14:55:29+00:00 — 302 posts live
+
+publish: The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (party-lift analysis via lok-rajya-sabha-qa dataset)
+
+
+**Added**
+
+- `the-two-biggest-parties-in-parliament` **v1.0.0** — The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (16,853 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-environmental-clearances-state` — India Environmental Clearances — State × Sub-sector Dashboard
