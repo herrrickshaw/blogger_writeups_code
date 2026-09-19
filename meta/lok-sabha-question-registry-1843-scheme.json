@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lok-sabha-question-registry-1843-scheme.html",
   "slug": "lok-sabha-question-registry-1843-scheme",
   "published": "2026-08-04T16:00:00.000+05:30",
-  "updated": "2026-09-10T13:26:47.000+05:30",
+  "updated": "2026-09-19T07:34:59.000+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy"
   ],
-  "bytes": 395364,
-  "sha256": "ba969de3949433d4eb06e57cfbde66749da6faddb9d9d3e9eb4fbe002a0aaa60",
+  "bytes": 395990,
+  "sha256": "fff4aa3838d51c7909cf2add0e7b6714215c1e2e531027fe047122bd3de25c6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -286,6 +286,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-09-19T02:05:16+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        395364,
+        395990
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-09-19T07:26:07.000+05:30",
+  "updated": "2026-09-19T07:34:52.000+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 102212,
-  "sha256": "7d3ef391e902bdc13707e7f066d1c7a88c902166bb30546cafdad2d78617aa69",
+  "bytes": 102782,
+  "sha256": "077e218b47c4683853f9f104d212df6259211ca2e907de7d3b47e0613ffe62db",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.2",
+  "version": "5.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -352,6 +352,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added"
+    },
+    {
+      "version": "5.2.0",
+      "date": "2026-09-19T02:05:16+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        102212,
+        102782
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged"
     }
   ]
 }

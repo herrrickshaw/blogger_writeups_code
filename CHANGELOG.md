@@ -12158,3 +12158,22 @@ add section on Chinese-manufactured gasification equipment already sold into Ind
 **Changed**
 
 - `the-reactor-nobody-names-how-coal` — 14,842 → 18,704 bytes (+3,862)
+
+## 2026-09-19T02:05:16+00:00 — 302 posts live
+
+add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged
+
+
+**Versions**
+
+- `indias-coal-to-chemicals-menu-ranked-by` **2.0.5 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `lok-sabha-question-registry-1843-scheme` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `rajya-sabha-question-registry-scheme` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `top-15-chemicals-for-import` **5.1.2 → 5.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `indias-coal-to-chemicals-menu-ranked-by` — 63,027 → 63,597 bytes (+570)
+- `lok-sabha-question-registry-1843-scheme` — 395,364 → 395,990 bytes (+626)
+- `rajya-sabha-question-registry-scheme` — 339,150 → 339,776 bytes (+626)
+- `top-15-chemicals-for-import` — 102,212 → 102,782 bytes (+570)
