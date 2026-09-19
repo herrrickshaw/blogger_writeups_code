@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-18T18:01:45.000+05:30",
+  "updated": "2026-09-19T08:19:57.000+05:30",
   "labels": [],
-  "bytes": 363508,
-  "sha256": "2abe2b2f1991fa37d3e44d2ce2eb3f31144fcbf95a73e7fa3ef715264109514a",
+  "bytes": 364430,
+  "sha256": "6a5c8b7ced4021bb0b6b9d4906732d76759f69faed3ae49b6265e9ffbf16e0ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "51.0.0",
+  "version": "51.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1680,6 +1680,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels"
+    },
+    {
+      "version": "51.1.0",
+      "date": "2026-09-19T02:50:08+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        363508,
+        364430
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: group 'All articles' newest-first list by month with a sticky count header, for date-wise scannability"
     }
   ]
 }

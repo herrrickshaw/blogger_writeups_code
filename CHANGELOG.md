@@ -12228,3 +12228,16 @@ publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Healt
 
 - `the-ministry-of-power-published-two` — 15,836 → 17,407 bytes (+1,571)
 - `indias-coal-to-chemicals-menu-ranked-by` — 63,597 → 63,619 bytes (+22)
+
+## 2026-09-19T02:50:08+00:00 — 309 posts live
+
+Article index: group 'All articles' newest-first list by month with a sticky count header, for date-wise scannability
+
+
+**Versions**
+
+- `article-index-start-here` **51.0.0 → 51.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 363,508 → 364,430 bytes (+922)

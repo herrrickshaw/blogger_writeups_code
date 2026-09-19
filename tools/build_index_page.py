@@ -364,10 +364,27 @@ def main():
     # by jungle.vc/resources), not cards: the scan is date and headline first,
     # everything else -- geography, related pieces -- demoted to a quieter
     # line underneath rather than competing on the same visual level.
+    #
+    # gs-chrono-group-v1 (2026-09-19): the flat list was 300+ rows of a tiny
+    # grey date next to every headline -- scannable post by post, but with no
+    # way to tell "what came out in a given month" without reading every row.
+    # A sticky month/year header, inserted whenever the month changes, gives
+    # the list the same date anchors the "By date" table above already has,
+    # while leaving each row's own date untouched.
     A('<h2>All articles</h2>')
-    A('<p class="h2sub">Newest first.</p>')
+    A('<p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance.</p>')
     A('<div class="chrono">')
-    for slug, p in sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True):
+    ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
+    month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
+    cur_ym = None
+    for slug, p in ordered:
+        ym = p["published"][:7] if p["published"] else None
+        if ym != cur_ym:
+            cur_ym = ym
+            label = _pretty_month(ym) if ym else "Undated"
+            n = month_counts[ym] if ym else sum(1 for _, pp in ordered if not pp["published"])
+            A(f'<div class="cgroup"><span>{E(label)}</span>'
+              f'<span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></div>')
         labels = labels_by_slug.get(slug) or []
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
@@ -409,13 +426,20 @@ def main():
 .artx .geoh span{color:#8a8a8a;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
+.artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
+ justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;
+ padding:.5rem .7rem;margin-top:.6rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
+ Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+.artx .cgroup:first-of-type{margin-top:0}
+.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#b9c2cc;white-space:nowrap}
 .artx .crow{display:grid;grid-template-columns:6.4rem 11rem 1fr;align-items:baseline;
  column-gap:1.1rem;row-gap:.2rem;padding:.85rem .2rem;border-bottom:1px solid #e2e2e2;
  transition:background-color .12s ease}
 .artx .crow:hover{background:#F4F7FB}
 .artx .crow:hover .ctitle{color:#2251FF}
 .artx .cdate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:.15rem}
+ font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;
+ padding-top:.15rem}
 .artx .ctag{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
  font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2251FF;
  padding-top:.15rem}
