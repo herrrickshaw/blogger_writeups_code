@@ -12177,3 +12177,16 @@ add reciprocal cross-links for the two new posts published this session (the-rea
 - `lok-sabha-question-registry-1843-scheme` — 395,364 → 395,990 bytes (+626)
 - `rajya-sabha-question-registry-scheme` — 339,150 → 339,776 bytes (+626)
 - `top-15-chemicals-for-import` — 102,212 → 102,782 bytes (+570)
+
+## 2026-09-19T02:14:18+00:00 — 302 posts live
+
+publish: The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year (RDSS target-grading piece; first proper electricity-distribution post, from the commission queue)
+
+
+**Added**
+
+- `the-ministry-of-power-published-two` **v1.0.0** — The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year. Its Flagship Scheme's Target Sits Between Them. (15,836 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-ec-approval-funnel-parivesh-20` — India EC Approval Funnel — PARIVESH 2.0

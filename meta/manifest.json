@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-19T02:05:16+00:00",
+  "snapshot": "2026-09-19T02:14:18+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -26253,297 +26253,6 @@
         }
       ]
     },
-    "5182635025304732949": {
-      "id": "5182635025304732949",
-      "title": "India EC Approval Funnel — PARIVESH 2.0",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/india-ec-approval-funnel-parivesh-20.html",
-      "slug": "india-ec-approval-funnel-parivesh-20",
-      "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-11T11:37:38.000+05:30",
-      "labels": [
-        "Environment & Clearances"
-      ],
-      "bytes": 21408,
-      "sha256": "d4a38f2ac4bec80828783435e1c48098b70005df2edb9dc6a113907fd592ca55",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "3.0.2",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T11:31:49+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            9634,
-            8536
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "inverted_media_query": [
-              true,
-              false
-            ]
-          },
-          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-        },
-        {
-          "version": "1.0.2",
-          "date": "2026-08-08T03:54:45+00:00",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            8536,
-            9809
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2026-08-08T14:26:40+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            9809,
-            9928
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "site-index stub in all 98 posts"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2026-08-11T11:44:28+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            9928,
-            10165
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "index_link": [
-              false,
-              true
-            ]
-          },
-          "note": ""
-        },
-        {
-          "version": "1.0.5",
-          "date": "2026-08-12T22:24:04+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            10165,
-            10324
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-08-13T03:50:57+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            10324,
-            14858
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.7",
-          "date": "2026-08-13T08:42:55+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            14858,
-            15777
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.8",
-          "date": "2026-08-13T11:02:49+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            15777,
-            15899
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-        },
-        {
-          "version": "1.0.9",
-          "date": "2026-08-14T04:25:49+00:00",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            15899,
-            15899
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.10",
-          "date": "2026-08-16T14:49:00+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            15899,
-            16427
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.11",
-          "date": "2026-08-16T15:22:21+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            16427,
-            16782
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.12",
-          "date": "2026-08-19T11:55:26+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            16782,
-            17128
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-08-26T03:35:52+00:00",
-          "level": "major",
-          "reason": "figures changed (+2/-0 distinct numbers)",
-          "bytes": [
-            17128,
-            19791
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "2.1.0",
-          "date": "2026-09-05T20:35:37+05:30",
-          "level": "minor",
-          "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
-          "bytes": [
-            19791,
-            18911
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AdSense remediation: policy pages, nav/footer links, ads removed from 9 thin posts, about-author retired"
-        },
-        {
-          "version": "2.1.1",
-          "date": "2026-09-05T21:41:22+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            18911,
-            18730
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-        },
-        {
-          "version": "2.1.2",
-          "date": "2026-09-07T19:53:24+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            18730,
-            17811
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-        },
-        {
-          "version": "3.0.0",
-          "date": "2026-09-10T22:54:22+05:30",
-          "level": "major",
-          "reason": "figures changed (+2/-0 distinct numbers)",
-          "bytes": [
-            17811,
-            20662
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "3.0.1",
-          "date": "2026-09-11T00:25:49+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            20662,
-            21393
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "3.0.2",
-          "date": "2026-09-11T11:37:47+05:30",
-          "level": "patch",
-          "reason": "chart bugfix: right-edge overflow on the EC-approval-funnel bar chart",
-          "bytes": [
-            21393,
-            21433
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fixed OVERFLOW-RIGHT (\"113,970\" Filed-bar label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
-        }
-      ]
-    },
     "5280038841806806913": {
       "id": "5280038841806806913",
       "title": "Price Is the Wire: How GCAM Actually Links India's Energy, Land, Water and Economy to a Net-Zero Target",
@@ -44943,6 +44652,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed three DOUBLE-ESCAPED-ENTITY issues (literal \"&amp;minus;\" rendering as text instead of a minus sign) flagged by tools/svg_chart_lint.py."
+        }
+      ]
+    },
+    "7801757411175454220": {
+      "id": "7801757411175454220",
+      "title": "The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year. Its Flagship Scheme's Target Sits Between Them.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
+      "slug": "the-ministry-of-power-published-two",
+      "published": "2026-09-19T07:43:38.000+05:30",
+      "updated": "2026-09-19T07:43:57.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Industrial Policy"
+      ],
+      "bytes": 15836,
+      "sha256": "551ba5c7ded215864810b9d49139a8018f31b23d8c25e76e3b658949fe202a65",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-19T02:14:18+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "publish: The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year (RDSS target-grading piece; first proper electricity-distribution post, from the commission queue)"
         }
       ]
     },

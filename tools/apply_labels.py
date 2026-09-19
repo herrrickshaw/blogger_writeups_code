@@ -176,6 +176,13 @@ OVERRIDE = {
     # post indias-coal-to-chemicals-menu-ranked-by, which it's explicitly
     # cross-linked against.
     "the-reactor-nobody-names-how-coal": ["Chemicals", "Energy & Fuels", "Industrial Policy"],
+    # No Electricity/Power-distribution bucket exists in TAXONOMY, and the
+    # Energy & Fuels keywords are all molecule-side (crude, petrol, LNG...),
+    # so an AT&C-loss / DISCOM piece scores nothing there. Energy & Fuels is
+    # still the right hub for readers; Industrial Policy for the RDSS scheme
+    # angle -- matching discom-debt-relief-token-charge, the beat's only
+    # other post.
+    "the-ministry-of-power-published-two": ["Energy & Fuels", "Industrial Policy"],
 }
 
 
