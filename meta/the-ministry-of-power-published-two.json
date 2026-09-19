@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
   "slug": "the-ministry-of-power-published-two",
   "published": "2026-09-19T07:43:38.000+05:30",
-  "updated": "2026-09-19T07:43:57.000+05:30",
+  "updated": "2026-09-19T07:57:18.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 15836,
-  "sha256": "551ba5c7ded215864810b9d49139a8018f31b23d8c25e76e3b658949fe202a65",
+  "bytes": 17407,
+  "sha256": "aee50fef90e3978f3ad29b81a66f807166e6496e70a34b197014fb1c7a191bd9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish: The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year (RDSS target-grading piece; first proper electricity-distribution post, from the commission queue)"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-19T02:28:33+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        15836,
+        17407
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
     }
   ]
 }

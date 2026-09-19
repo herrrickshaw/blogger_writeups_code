@@ -12203,3 +12203,28 @@ correction to the-reactor-nobody-names-how-coal (v1.2.0): the industrial-gasifie
 **Changed**
 
 - `the-reactor-nobody-names-how-coal` — 18,704 → 22,857 bytes (+4,153)
+
+## 2026-09-19T02:28:33+00:00 — 309 posts live
+
+publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md).
+
+
+**Added**
+
+- `india-has-tested-its-soil-twice-second` **v1.0.0** — India Has Tested Its Soil Twice. The Second Time, a Machine Chose the Spot. (14,766 bytes)
+- `pmfby-advertises-51-return-to-farmers` **v1.0.0** — PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest. (15,411 bytes)
+- `indias-oil-fields-are-running-down` **v1.0.0** — India's Oil Fields Are Running Down. The Policy to Squeeze More Out of Them Is Eight Years Old, and Its Best Techniques Are Still Pilots. (20,512 bytes)
+- `india-ec-approval-funnel-parivesh-20` **v1.0.0** — India EC Approval Funnel — PARIVESH 2.0 (21,408 bytes)
+- `cold-chain-fuel-outlet-integrated-map` **v1.0.0** — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3) (20,823 bytes)
+- `india-environmental-clearances-state` **v1.0.0** — India Environmental Clearances — State × Sub-sector Dashboard (18,818 bytes)
+- `india-fuel-retail-outlets-82k-geocoded` **v1.0.0** — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3) (20,748 bytes)
+
+**Versions**
+
+- `the-ministry-of-power-published-two` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-coal-to-chemicals-menu-ranked-by` **2.1.0 → 2.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-ministry-of-power-published-two` — 15,836 → 17,407 bytes (+1,571)
+- `indias-coal-to-chemicals-menu-ranked-by` — 63,597 → 63,619 bytes (+22)

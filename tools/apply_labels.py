@@ -183,6 +183,10 @@ OVERRIDE = {
     # angle -- matching discom-debt-relief-token-charge, the beat's only
     # other post.
     "the-ministry-of-power-published-two": ["Energy & Fuels", "Industrial Policy"],
+    # Same stylistic-heading problem as the reactor post above.
+    "indias-oil-fields-are-running-down": ["Energy & Fuels", "Industrial Policy"],
+    "pmfby-advertises-51-return-to-farmers": ["Agriculture & Fertilisers", "Industrial Policy"],
+    "india-has-tested-its-soil-twice-second": ["Agriculture & Fertilisers"],
 }
 
 

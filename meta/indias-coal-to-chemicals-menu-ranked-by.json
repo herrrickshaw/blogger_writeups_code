@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html",
   "slug": "indias-coal-to-chemicals-menu-ranked-by",
   "published": "2026-08-27T03:43:38.000+05:30",
-  "updated": "2026-09-19T07:34:45.000+05:30",
+  "updated": "2026-09-19T07:57:23.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 63597,
-  "sha256": "fab1fcf11260dcc9a1620f3c8a4106dff24c7fac07e7dd9c0fc136fc00ca0316",
+  "bytes": 63619,
+  "sha256": "63e115a91ddacdf648687dd3ee9ea1b518c845eb0797915d3cfcaba2de6e531c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged"
+    },
+    {
+      "version": "2.1.1",
+      "date": "2026-09-19T02:28:33+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        63597,
+        63619
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
     }
   ]
 }

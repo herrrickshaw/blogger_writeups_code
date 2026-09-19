@@ -73,6 +73,18 @@ re-encodes as a numeric entity (interpunct, em/en dash). Use `_flatten_html()` i
 The membership test is `fn.lower() in TRACKED`. A capitalised entry silently
 never matches, and the repo resurfaces in weekly discovery forever.
 
+### 8. Every problem piece proposes fixes (rule added 2026-09-19)
+
+If a post's finding is a problem — a number the government publishes two ways,
+a scheme graded on an ungradeable ratio, a technology gap, a survey with a
+seam through it — the post carries a `What would fix this` section before its
+"What this piece does and doesn't cover" caveats: three to five concrete,
+checkable proposals, each something a named agency could actually do, closed
+with the line "These are proposals from this blog, not recommendations any
+agency has adopted." Highlighting a problem without saying what would fix it
+is a draft, not a post. Applied to every post published from 2026-09-19;
+retrofitting earlier posts is a separate, tracked job.
+
 ---
 
 ## Where things actually live
