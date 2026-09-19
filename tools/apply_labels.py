@@ -169,6 +169,13 @@ OVERRIDE = {
     # scheme piece, but it's about party-wise question-asking patterns, not
     # a scheme or incentive -- the first post in a Governance beat.
     "the-two-biggest-parties-in-parliament": ["Governance & Institutions"],
+    # Headings are stylistic ("The Reactor Nobody Names", "Talcher: the
+    # mission's largest project...") and never hit a bare TAXONOMY keyword,
+    # so the scorer would return "-- none --" despite this being squarely a
+    # coal-gasification/chemicals piece. Same three labels as its sibling
+    # post indias-coal-to-chemicals-menu-ranked-by, which it's explicitly
+    # cross-linked against.
+    "the-reactor-nobody-names-how-coal": ["Chemicals", "Energy & Fuels", "Industrial Policy"],
 }
 
 

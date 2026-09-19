@@ -12113,3 +12113,16 @@ add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-pa
 **Changed**
 
 - `the-two-biggest-parties-in-parliament` — 30,780 → 121,581 bytes (+90,801)
+
+## 2026-09-19T01:33:35+00:00 — 302 posts live
+
+publish: The Reactor Nobody Names — How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (gasifier reactor technology, ash-content constraint, Talcher/BHEL contrast; companion to indias-coal-to-chemicals-menu-ranked-by)
+
+
+**Added**
+
+- `the-reactor-nobody-names-how-coal` **v1.0.0** — The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (14,842 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `cold-chain-fuel-outlet-integrated-map` — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-18T15:05:11+00:00",
+  "snapshot": "2026-09-19T01:33:35+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -36868,285 +36868,6 @@
         }
       ]
     },
-    "6387819269251154916": {
-      "id": "6387819269251154916",
-      "title": "Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
-      "slug": "cold-chain-fuel-outlet-integrated-map",
-      "published": "2026-07-22T05:30:00.000+05:30",
-      "updated": "2026-09-10T23:15:28.000+05:30",
-      "labels": [
-        "Agriculture & Fertilisers",
-        "Gas & LNG"
-      ],
-      "bytes": 20823,
-      "sha256": "750f7da5aa0597b54a623fd70c2aee07c90537148a61b6ca6aed17598da74877",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "2.0.4",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T11:31:49+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            6093,
-            5227
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "inverted_media_query": [
-              true,
-              false
-            ]
-          },
-          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-        },
-        {
-          "version": "1.0.2",
-          "date": "2026-08-08T03:54:45+00:00",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            5227,
-            6500
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2026-08-08T14:26:40+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            6500,
-            6619
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "site-index stub in all 98 posts"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2026-08-11T11:44:28+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            6619,
-            6856
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "index_link": [
-              false,
-              true
-            ]
-          },
-          "note": ""
-        },
-        {
-          "version": "1.0.5",
-          "date": "2026-08-12T22:24:04+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            6856,
-            7015
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-08-13T03:50:57+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-          "bytes": [
-            7015,
-            11484
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.7",
-          "date": "2026-08-13T04:33:52+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            11484,
-            11549
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.8",
-          "date": "2026-08-13T08:42:55+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            11549,
-            12468
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.9",
-          "date": "2026-08-13T11:02:49+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            12468,
-            12573
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-        },
-        {
-          "version": "1.0.10",
-          "date": "2026-08-16T14:49:00+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            12573,
-            13101
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.11",
-          "date": "2026-08-19T11:55:26+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            13101,
-            13138
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.12",
-          "date": "2026-08-21T21:45:26+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            13138,
-            19385
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.13",
-          "date": "2026-08-21T23:03:41+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            19385,
-            19411
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-08-26T03:35:52+00:00",
-          "level": "major",
-          "reason": "figures changed (+0/-0 distinct numbers)",
-          "bytes": [
-            19411,
-            21642
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "2.0.1",
-          "date": "2026-09-05T21:41:22+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            21642,
-            21424
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-09-05T22:16:32+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-          "bytes": [
-            21424,
-            20897
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Manual ad units removed from all posts; Auto ads only"
-        },
-        {
-          "version": "2.0.3",
-          "date": "2026-09-07T19:53:24+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            20897,
-            19978
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-        },
-        {
-          "version": "2.0.4",
-          "date": "2026-09-11T00:25:49+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            19978,
-            20823
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        }
-      ]
-    },
     "639691074426959200": {
       "id": "639691074426959200",
       "title": "57.7% of India's Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151.",
@@ -44930,6 +44651,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        }
+      ]
+    },
+    "7749209805525713341": {
+      "id": "7749209805525713341",
+      "title": "The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html",
+      "slug": "the-reactor-nobody-names-how-coal",
+      "published": "2026-09-19T07:03:06.000+05:30",
+      "updated": "2026-09-19T07:03:16.000+05:30",
+      "labels": [
+        "Chemicals",
+        "Energy & Fuels",
+        "Industrial Policy"
+      ],
+      "bytes": 14842,
+      "sha256": "5fe0358e71b0aa0b316ba8a17990363c65875bad0a854b0af90d819849f45246",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-19T01:33:35+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "publish: The Reactor Nobody Names — How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (gasifier reactor technology, ash-content constraint, Talcher/BHEL contrast; companion to indias-coal-to-chemicals-menu-ranked-by)"
         }
       ]
     },
