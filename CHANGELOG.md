@@ -12190,3 +12190,16 @@ publish: The Ministry of Power Published Two Different AT&C Loss Figures for the
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `india-ec-approval-funnel-parivesh-20` — India EC Approval Funnel — PARIVESH 2.0
+
+## 2026-09-19T02:26:52+00:00 — 302 posts live
+
+correction to the-reactor-nobody-names-how-coal (v1.2.0): the industrial-gasifier section overstated the Chinese share of India's small-gasifier market — Ankur Scientific, Chanderpur/TERI, Vidhyut and peers are indigenous producer-gas makers; gap restated as chemicals-grade oxygen-blown gasification. Also adds the first 'What would fix this' section under the new house rule.
+
+
+**Versions**
+
+- `the-reactor-nobody-names-how-coal` **1.1.0 → 2.0.0** (MAJOR) — forced via --as major (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-reactor-nobody-names-how-coal` — 18,704 → 22,857 bytes (+4,153)

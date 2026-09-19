@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html",
   "slug": "the-reactor-nobody-names-how-coal",
   "published": "2026-09-19T07:03:06.000+05:30",
-  "updated": "2026-09-19T07:30:32.000+05:30",
+  "updated": "2026-09-19T07:56:30.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 18704,
-  "sha256": "8ca3f1f491fdba173959a609c6143d195ee9cdcf2fd5236e031ec1875f09c17e",
+  "bytes": 22857,
+  "sha256": "67bf69e69a81b15c89fa4b62736625ff3752e0805bcc82a6efb598fc19028890",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add section on Chinese-manufactured gasification equipment already sold into India (Dev Energy/Yisheng, small-industrial segment) and a China-India scale comparison to the-reactor-nobody-names-how-coal; title unchanged (Talcher itself still runs on Shell's tech, confirmed accurate)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-19T02:26:52+00:00",
+      "level": "major",
+      "reason": "forced via --as major (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        18704,
+        22857
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "correction to the-reactor-nobody-names-how-coal (v1.2.0): the industrial-gasifier section overstated the Chinese share of India's small-gasifier market — Ankur Scientific, Chanderpur/TERI, Vidhyut and peers are indigenous producer-gas makers; gap restated as chemicals-grade oxygen-blown gasification. Also adds the first 'What would fix this' section under the new house rule."
     }
   ]
 }
