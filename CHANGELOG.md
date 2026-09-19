@@ -12145,3 +12145,16 @@ refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh compl
 - `chemical-import-substitution-full-hsn-8_01082878313` — 387,895 → 388,394 bytes (+499)
 - `top-15-chemicals-for-import` — 100,009 → 102,212 bytes (+2,203)
 - `chemical-import-substitution-quarterly` — 56,515 → 58,013 bytes (+1,498)
+
+## 2026-09-19T02:00:50+00:00 — 302 posts live
+
+add section on Chinese-manufactured gasification equipment already sold into India (Dev Energy/Yisheng, small-industrial segment) and a China-India scale comparison to the-reactor-nobody-names-how-coal; title unchanged (Talcher itself still runs on Shell's tech, confirmed accurate)
+
+
+**Versions**
+
+- `the-reactor-nobody-names-how-coal` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-reactor-nobody-names-how-coal` — 14,842 → 18,704 bytes (+3,862)

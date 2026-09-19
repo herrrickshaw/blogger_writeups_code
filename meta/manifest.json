@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-19T01:56:42+00:00",
+  "snapshot": "2026-09-19T02:00:50+00:00",
   "count": 302,
   "posts": {
     "1058853159205559121": {
@@ -44699,14 +44699,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html",
       "slug": "the-reactor-nobody-names-how-coal",
       "published": "2026-09-19T07:03:06.000+05:30",
-      "updated": "2026-09-19T07:03:16.000+05:30",
+      "updated": "2026-09-19T07:30:32.000+05:30",
       "labels": [
         "Chemicals",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 14842,
-      "sha256": "5fe0358e71b0aa0b316ba8a17990363c65875bad0a854b0af90d819849f45246",
+      "bytes": 18704,
+      "sha256": "8ca3f1f491fdba173959a609c6143d195ee9cdcf2fd5236e031ec1875f09c17e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44718,7 +44718,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44726,6 +44726,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish: The Reactor Nobody Names — How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (gasifier reactor technology, ash-content constraint, Talcher/BHEL contrast; companion to indias-coal-to-chemicals-menu-ranked-by)"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-09-19T02:00:50+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            14842,
+            18704
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "add section on Chinese-manufactured gasification equipment already sold into India (Dev Energy/Yisheng, small-industrial segment) and a China-India scale comparison to the-reactor-nobody-names-how-coal; title unchanged (Talcher itself still runs on Shell's tech, confirmed accurate)"
         }
       ]
     },
