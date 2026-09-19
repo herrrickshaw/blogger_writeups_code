@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-19T08:19:57.000+05:30",
+  "updated": "2026-09-19T09:15:03.000+05:30",
   "labels": [],
-  "bytes": 364430,
-  "sha256": "6a5c8b7ced4021bb0b6b9d4906732d76759f69faed3ae49b6265e9ffbf16e0ec",
+  "bytes": 391828,
+  "sha256": "ebf8c48fc52007b06066b41c286aa6cc6ff174a79d638acea2f50ef2beeecbb4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "51.1.0",
+  "version": "51.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1693,6 +1693,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Article index: group 'All articles' newest-first list by month with a sticky count header, for date-wise scannability"
+    },
+    {
+      "version": "51.2.0",
+      "date": "2026-09-19T03:45:15+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        364430,
+        391828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes"
     }
   ]
 }

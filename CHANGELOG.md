@@ -12241,3 +12241,20 @@ Article index: group 'All articles' newest-first list by month with a sticky cou
 **Changed**
 
 - `article-index-start-here` — 363,508 → 364,430 bytes (+922)
+
+## 2026-09-19T03:45:15+00:00 — 309 posts live
+
+Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes
+
+
+**Versions**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-built-offshore-insurance-hub-it` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `article-index-start-here` **51.1.0 → 51.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` — 22,787 → 22,906 bytes (+119)
+- `india-built-offshore-insurance-hub-it` — 16,501 → 16,620 bytes (+119)
+- `article-index-start-here` — 364,430 → 391,828 bytes (+27,398)

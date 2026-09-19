@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html",
   "slug": "e20-doesnt-cut-tailpipe-co2-by-30-run",
   "published": "2026-09-18T18:00:41.000+05:30",
-  "updated": "2026-09-18T18:01:20.000+05:30",
+  "updated": "2026-09-19T09:05:22.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 22787,
-  "sha256": "e054aeb22b5c7ad0f6d9e2028374dd25e2b373dcafb503cc075214be23e5a190",
+  "bytes": 22906,
+  "sha256": "3b44960135b814a34da533730819be6ea7734dba952de3dafe08308bde127a6b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks the common '30% CO2 cut' claim via self-derived stoichiometric calculation)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-19T03:45:15+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        22787,
+        22906
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes"
     }
   ]
 }

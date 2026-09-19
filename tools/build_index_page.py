@@ -99,6 +99,78 @@ PITCH_THEMES = [
     "Agriculture & Fertilisers", "Markets & Finance", "Climate & Carbon",
 ]
 
+# gs-chrono-filter-v1 (2026-09-19): month/date/topic filters over the "All
+# articles" list. Options are built in JS from the rows' own data-ym/
+# data-date/data-topic attributes rather than hand-listed here, so the
+# filter never goes stale as posts are added -- the same self-maintaining
+# pattern as the topic accordion above, just without the network round trip
+# (this data is already on the page, unlike live label counts).
+FILTER_BAR = (
+    '<div class="gs-filter-bar" role="group" aria-label="Filter articles">'
+    '<label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select>'
+    '<label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select>'
+    '<label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select>'
+    '<button type="button" class="gs-filter-reset" id="gs-f-reset">Reset</button>'
+    '<span class="gs-filter-count" id="gs-f-count"></span>'
+    '</div>'
+)
+
+FILTER_JS = "<script>//<![CDATA[\n(function(){\n" \
+"  var chrono = document.querySelector('.chrono'); if(!chrono) return;\n" \
+"  var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));\n" \
+"  var groups = Array.prototype.slice.call(chrono.querySelectorAll('.cgroup'));\n" \
+"  var groupOf = new Map(), cur = null;\n" \
+"  Array.prototype.slice.call(chrono.children).forEach(function(el){\n" \
+"    if(el.classList && el.classList.contains('cgroup')) cur = el;\n" \
+"    else if(el.classList && el.classList.contains('crow')) groupOf.set(el, cur);\n" \
+"  });\n" \
+"  var MONTHS=['January','February','March','April','May','June','July','August',\n" \
+"    'September','October','November','December'];\n" \
+"  function uniqSorted(key, cmp){\n" \
+"    var seen={}, out=[];\n" \
+"    rows.forEach(function(r){ var v=r.getAttribute(key);\n" \
+"      if(v && !seen[v]){ seen[v]=1; out.push(v); } });\n" \
+"    out.sort(cmp); return out;\n" \
+"  }\n" \
+"  function countBy(key,val){ return rows.filter(function(r){return r.getAttribute(key)===val;}).length; }\n" \
+"  function fill(sel, values, labelFn){\n" \
+"    values.forEach(function(v){ var o=document.createElement('option');\n" \
+"      o.value=v; o.textContent=labelFn(v); sel.appendChild(o); });\n" \
+"  }\n" \
+"  var months = uniqSorted('data-ym', function(a,b){return b.localeCompare(a);});\n" \
+"  var dates = uniqSorted('data-date', function(a,b){return b.localeCompare(a);});\n" \
+"  var topics = uniqSorted('data-topic', function(a,b){return a.localeCompare(b);});\n" \
+"  var selM=document.getElementById('gs-f-month'), selD=document.getElementById('gs-f-date'),\n" \
+"      selT=document.getElementById('gs-f-topic'), countEl=document.getElementById('gs-f-count'),\n" \
+"      emptyEl=document.getElementById('gs-f-empty');\n" \
+"  fill(selM, months, function(ym){ var y=ym.slice(0,4), m=+ym.slice(5,7)-1;\n" \
+"    return MONTHS[m]+' '+y+' ('+countBy('data-ym',ym)+')'; });\n" \
+"  fill(selD, dates, function(d){ var y=d.slice(0,4), m=+d.slice(5,7)-1, day=+d.slice(8,10);\n" \
+"    return day+' '+MONTHS[m]+' '+y+' ('+countBy('data-date',d)+')'; });\n" \
+"  fill(selT, topics, function(t){ return t+' ('+countBy('data-topic',t)+')'; });\n" \
+"  function apply(){\n" \
+"    var m=selM.value, d=selD.value, t=selT.value, shown=0;\n" \
+"    rows.forEach(function(r){\n" \
+"      var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)\n" \
+"           && (!t || r.getAttribute('data-topic')===t);\n" \
+"      r.style.display = ok ? '' : 'none'; if(ok) shown++;\n" \
+"    });\n" \
+"    groups.forEach(function(g){\n" \
+"      var any=rows.some(function(r){ return groupOf.get(r)===g && r.style.display!=='none'; });\n" \
+"      g.style.display = any ? '' : 'none';\n" \
+"    });\n" \
+"    countEl.textContent = (m||d||t) ? ('Showing '+shown+' of '+rows.length+' articles') : '';\n" \
+"    if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';\n" \
+"  }\n" \
+"  selM.addEventListener('change', apply); selD.addEventListener('change', apply);\n" \
+"  selT.addEventListener('change', apply);\n" \
+"  var resetBtn=document.getElementById('gs-f-reset');\n" \
+"  if(resetBtn) resetBtn.addEventListener('click', function(){\n" \
+"    selM.value=''; selD.value=''; selT.value=''; apply();\n" \
+"  });\n" \
+"})();\n" \
+"//]]></script>"
+
 
 def emit_pitch(A):
     """Elevator-pitch + theme cards, in-page (not a Blogger Layout gadget --
@@ -372,23 +444,26 @@ def main():
     # the list the same date anchors the "By date" table above already has,
     # while leaving each row's own date untouched.
     A('<h2>All articles</h2>')
-    A('<p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance.</p>')
+    A('<p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance. '
+      'Filter by month, day or topic below.</p>')
+    A(FILTER_BAR)
     A('<div class="chrono">')
     ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
     month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
     cur_ym = None
     for slug, p in ordered:
         ym = p["published"][:7] if p["published"] else None
+        day = p["published"][:10] if p["published"] else None
         if ym != cur_ym:
             cur_ym = ym
             label = _pretty_month(ym) if ym else "Undated"
             n = month_counts[ym] if ym else sum(1 for _, pp in ordered if not pp["published"])
-            A(f'<div class="cgroup"><span>{E(label)}</span>'
+            A(f'<div class="cgroup" data-ym="{E(ym or "")}"><span>{E(label)}</span>'
               f'<span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></div>')
         labels = labels_by_slug.get(slug) or []
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
-        A('<div class="crow">')
+        A(f'<div class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}">')
         A(f'<span class="cdate">{E(date_str)}</span>')
         A(f'<span class="{tag_cls}">{E(tag)}</span>')
         A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
@@ -406,7 +481,9 @@ def main():
                 A(f'{sep}<span class="crel-lbl">Related</span> {links}')
             A('</span>')
         A('</div>')
+    A('<p class="gs-filter-empty" id="gs-f-empty">No articles match this filter combination.</p>')
     A('</div>')
+    A(FILTER_JS)
 
     body = "\n".join(o)
     head = Path(args.shell_head).read_text(encoding="utf-8") if args.shell_head else ""
@@ -425,6 +502,19 @@ def main():
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
 .artx .geoh span{color:#8a8a8a;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
+.artx .gs-filter-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:#F4F7FB;
+ border:1px solid #e2e6ee;border-radius:8px;padding:.65rem .8rem;margin:14px 0 0;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx .gs-filter-bar label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ color:#595959;margin-right:-.3rem}
+.artx .gs-filter-bar select{font-family:inherit;font-size:.85rem;color:#0B1F2D;background:#fff;
+ border:1px solid #c7cbd1;border-radius:5px;padding:.3rem .5rem;max-width:15rem}
+.artx .gs-filter-bar select:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.artx .gs-filter-reset{font-family:inherit;font-size:.78rem;font-weight:600;color:#2251FF;
+ background:none;border:none;cursor:pointer;padding:.3rem .2rem;margin-left:auto}
+.artx .gs-filter-reset:hover{text-decoration:underline}
+.artx .gs-filter-count{font-size:.78rem;color:#8a8a8a;width:100%}
+.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#8a8a8a;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
 .artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
  justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;
@@ -455,6 +545,9 @@ def main():
 @media (max-width:640px){
  .artx .crow{grid-template-columns:1fr;row-gap:.25rem;padding:1rem .2rem}
  .artx .ctitle,.artx .csub{grid-column:1}
+ .artx .gs-filter-bar select{max-width:100%;flex:1 1 auto}
+ .artx .gs-filter-reset{margin-left:0}
+ .artx .gs-filter-count{order:99}
 }
 </style>
 """
