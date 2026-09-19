@@ -12126,3 +12126,22 @@ publish: The Reactor Nobody Names — How Coal Becomes Syngas, and Why India's F
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `cold-chain-fuel-outlet-integrated-map` — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)
+
+## 2026-09-19T01:56:42+00:00 — 302 posts live
+
+refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added
+
+
+**Versions**
+
+- `chemical-import-substitution-hsn-8-registry` **4.1.1 → 4.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-full-hsn-8_01082878313` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **5.1.1 → 5.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-quarterly` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `chemical-import-substitution-hsn-8-registry` — 23,372 → 23,770 bytes (+398)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 387,895 → 388,394 bytes (+499)
+- `top-15-chemicals-for-import` — 100,009 → 102,212 bytes (+2,203)
+- `chemical-import-substitution-quarterly` — 56,515 → 58,013 bytes (+1,498)
