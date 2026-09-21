@@ -14,17 +14,24 @@ deleted one from here. Anything drafted or deleted on purpose should be
 captured into posts/ by hand first (see tools/capture_draft.md), otherwise the
 snapshot records it as "removed".
 
-WHY THE API, NOT THE PUBLIC FEED: this used to pull
-masaladeutsch.blogspot.com/feeds/posts/default directly. That endpoint (and
-most other direct blogspot.com/gov.in/general-web fetches) is blocked by this
-environment's network egress policy in at least some sandboxes this repo runs
-in -- confirmed via the agent-proxy status endpoint returning a 403 policy
-denial, not a transient error. blogger.googleapis.com is a different,
-already-authenticated destination this repo's own blogger_api.py has used all
-along for every insert/update -- switching the read path to the same API
-is not a policy workaround, it is using the channel this codebase already
-depends on for an equivalent read (list every live post with full content),
-and it works from an unrestricted environment too.
+PUBLIC FEED FIRST, API AS FALLBACK (2026-09-21): this pulled
+masaladeutsch.blogspot.com/feeds/posts/default directly until 2026-09-15, when
+it was switched outright to the authenticated Blogger API v3 -- that endpoint
+(and most other direct blogspot.com/gov.in/general-web fetches) is blocked by
+this environment's network egress policy in at least some sandboxes this repo
+runs in, confirmed via the agent-proxy status endpoint returning a 403 policy
+denial, not a transient error. That switch fixed interactive sandbox sessions
+but broke the scheduled, credential-less "Archive sync" GitHub Action, which
+has no OAuth token and failed silently on every run from 2026-09-15 through
+at least 2026-09-20 ("not authorised -- run: blogger_api.py auth") -- the
+archive went five days without an automated sync and nothing surfaced it,
+because the job died before reaching its own health-check step. The unrestricted
+CI runner was never the problem; only the sandboxed interactive case was. So:
+try the public feed first (matches the CI runner's actual network, needs no
+credentials, restores the original zero-auth path) and fall back to the
+authenticated API only if that fetch fails -- covering the blocked-sandbox case
+this switch was made for, without re-breaking the one credential-less consumer
+that depended on the public feed working.
 """
 import argparse
 import datetime as dt
@@ -34,9 +41,13 @@ import json
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.parse
+import urllib.request
 from pathlib import Path
 
+BLOG = "https://masaladeutsch.blogspot.com"
+UA = "Mozilla/5.0 (masaladeutsch-archive snapshot)"
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "posts"
 META = ROOT / "meta"
@@ -62,11 +73,43 @@ def _with_ms(ts):
     return f"{m.group(1)}.000{m.group(2)}" if m else ts
 
 
-def all_entries():
-    """Every live post, full body included, reshaped into the same
-    id/link/content/title/published/updated/category shape the old Atom-feed
-    JSON used -- so parse() and main()'s duplicate-id check below don't need
-    to change at all."""
+def _fetch(url):
+    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    with urllib.request.urlopen(req, timeout=90) as r:
+        return r.read().decode("utf-8")
+
+
+def _public_feed_page(start):
+    q = urllib.parse.urlencode(
+        {"alt": "json", "max-results": PAGE, "start-index": start}
+    )
+    return json.loads(_fetch(f"{BLOG}/feeds/posts/default?{q}"))["feed"]
+
+
+def _entries_from_public_feed():
+    """Zero-credential path, and the one the scheduled CI job actually needs --
+    its runner has no OAuth token. Entries come back already in the shape
+    parse() expects, no reshaping needed. Raises on any fetch failure (network
+    block, timeout, non-2xx) so the caller can fall back to the API."""
+    out, start = [], 1
+    while True:
+        feed = _public_feed_page(start)
+        entries = feed.get("entry", [])
+        if not entries:
+            break
+        out.extend(entries)
+        total = int(feed["openSearch$totalResults"]["$t"])
+        start += len(entries)
+        if start > total:
+            break
+    return out
+
+
+def _entries_from_api():
+    """Fallback for sandboxes where the public feed is network-blocked.
+    Reshaped into the same id/link/content/title/published/updated/category
+    shape the public feed's JSON used, so parse() and main()'s duplicate-id
+    check below don't need to know which path served them."""
     out, token = [], None
     while True:
         q = {"maxResults": PAGE, "fetchBodies": "true", "status": "LIVE"}
@@ -90,6 +133,18 @@ def all_entries():
         if not token:
             break
     return out
+
+
+def all_entries():
+    """Every live post, full body included. Tries the public feed first (what
+    the credential-less scheduled sync needs); falls back to the authenticated
+    API only if that fetch fails (what a network-restricted sandbox needs)."""
+    try:
+        return _entries_from_public_feed()
+    except (urllib.error.URLError, TimeoutError, ValueError, KeyError) as e:
+        print(f"public feed unavailable ({type(e).__name__}: {e}) -- "
+              f"falling back to the authenticated Blogger API", file=sys.stderr)
+        return _entries_from_api()
 
 
 def slug_of(url):
