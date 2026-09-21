@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-21T03:12:32+00:00",
-  "count": 309,
+  "snapshot": "2026-09-21T05:30:40+00:00",
+  "count": 310,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -9404,13 +9404,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/global-biofuels-m-bankruptcy-bolt-on.html",
       "slug": "global-biofuels-m-bankruptcy-bolt-on",
       "published": "2026-08-19T10:01:55.000+05:30",
-      "updated": "2026-09-10T23:21:17.000+05:30",
+      "updated": "2026-09-21T10:59:46.000+05:30",
       "labels": [
         "Ethanol & Biofuels",
         "Markets & Finance"
       ],
-      "bytes": 25444,
-      "sha256": "4a28cdfc9894e0480972dc655ccfbfa42f5bc2abe1cafbdfa41b5bbe49d1a98e",
+      "bytes": 25812,
+      "sha256": "64e764260562a5ee8369a51f8df5a463bb3ac590fd8fb4afb58f6210143bada5",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9422,7 +9422,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "2.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9495,6 +9495,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.1.0",
+          "date": "2026-09-21T05:30:40+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+          "bytes": [
+            25444,
+            25812
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025."
         }
       ]
     },
@@ -15317,6 +15330,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "3386564593549277642": {
+      "id": "3386564593549277642",
+      "title": "India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-wants-isobutanol-in-both-diesel.html",
+      "slug": "india-wants-isobutanol-in-both-diesel",
+      "published": "2026-09-21T11:00:00.000+05:30",
+      "updated": "2026-09-21T11:00:14.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Ethanol & Biofuels"
+      ],
+      "bytes": 23834,
+      "sha256": "95c4c6a7a16da582cd81cdda1c25640197c07063958a748cf36a946619b03063",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-21T05:30:40+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025."
         }
       ]
     },

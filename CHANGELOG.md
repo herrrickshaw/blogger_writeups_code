@@ -12258,3 +12258,20 @@ Article index: add month/date/topic filters over the 'All articles' list, option
 - `e20-doesnt-cut-tailpipe-co2-by-30-run` — 22,787 → 22,906 bytes (+119)
 - `india-built-offshore-insurance-hub-it` — 16,501 → 16,620 bytes (+119)
 - `article-index-start-here` — 364,430 → 391,828 bytes (+27,398)
+
+## 2026-09-21T05:30:40+00:00 — 310 posts live
+
+Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025.
+
+
+**Added**
+
+- `india-wants-isobutanol-in-both-diesel` **v1.0.0** — India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither. (23,834 bytes)
+
+**Versions**
+
+- `global-biofuels-m-bankruptcy-bolt-on` **2.0.4 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `global-biofuels-m-bankruptcy-bolt-on` — 25,444 → 25,812 bytes (+368)

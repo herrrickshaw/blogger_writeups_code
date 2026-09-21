@@ -116,6 +116,10 @@ OVERRIDE = {
     # freight-rail-capacity post. Industrial Policy is the closest fit
     # among existing labels.
     "a-2223-crore-coal-freight-railway-line": ["Industrial Policy"],
+    # Manually labelled at publish time (2026-09-21) rather than run through
+    # the full --apply sweep, to avoid touching unrelated posts in the same
+    # pass; recorded here so a future sweep doesn't second-guess it.
+    "india-wants-isobutanol-in-both-diesel": ["Energy & Fuels", "Ethanol & Biofuels"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,
