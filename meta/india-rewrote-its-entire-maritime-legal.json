@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html",
   "slug": "india-rewrote-its-entire-maritime-legal",
   "published": "2026-09-15T10:51:58.000+05:30",
-  "updated": "2026-09-18T19:48:45.000+05:30",
+  "updated": "2026-09-21T13:59:02.000+05:30",
   "labels": [],
-  "bytes": 19255,
-  "sha256": "aba12effdc67fc907fb63810b3c75f33a5506dc8299e103910099d3093127c08",
+  "bytes": 19919,
+  "sha256": "25a48b19f7cad6a6b2b22d13b79067b2ce73be1ef3eb4419d42c624df090acae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.1.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -66,6 +66,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.3",
+      "date": "2026-09-21T08:29:14+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19255,
+        19919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish new post: MDF Guidelines / MoPSW blended-finance breakdown of the ₹25,000 crore Maritime Development Fund (₹20,000cr MIF + ₹5,000cr IIF), sourced from the Ministry's own Guidelines PDF and cross-checked against Cabinet package coverage. Cross-linked from and back to the earlier India-rewrote-its-maritime-legal-code post, which previously described the MDF only vaguely as a '0 billion roadmap'."
     }
   ]
 }

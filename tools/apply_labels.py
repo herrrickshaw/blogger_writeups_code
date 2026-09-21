@@ -120,6 +120,13 @@ OVERRIDE = {
     # the full --apply sweep, to avoid touching unrelated posts in the same
     # pass; recorded here so a future sweep doesn't second-guess it.
     "india-wants-isobutanol-in-both-diesel": ["Energy & Fuels", "Ethanol & Biofuels"],
+    # No Maritime/Shipping bucket exists in TAXONOMY. MDF is a blended-finance
+    # scheme (AIF, equity, hurdle rates, carry) administered as a government
+    # scheme -- closest fit is Industrial Policy (scheme/subsidy/investment
+    # promotion) plus Markets & Finance (fund structure, AIF). Manually
+    # labelled at publish time (2026-09-21) rather than run through --apply,
+    # to avoid touching unrelated still-unlabelled posts in the same pass.
+    "mopsws-25000-crore-maritime-development": ["Industrial Policy", "Markets & Finance"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,

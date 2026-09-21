@@ -12275,3 +12275,24 @@ Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and
 **Changed**
 
 - `global-biofuels-m-bankruptcy-bolt-on` — 25,444 → 25,812 bytes (+368)
+
+## 2026-09-21T08:29:14+00:00 — 310 posts live
+
+Publish new post: MDF Guidelines / MoPSW blended-finance breakdown of the ₹25,000 crore Maritime Development Fund (₹20,000cr MIF + ₹5,000cr IIF), sourced from the Ministry's own Guidelines PDF and cross-checked against Cabinet package coverage. Cross-linked from and back to the earlier India-rewrote-its-maritime-legal-code post, which previously described the MDF only vaguely as a '0 billion roadmap'.
+
+
+**Added**
+
+- `mopsws-25000-crore-maritime-development` **v1.0.0** — MoPSW's ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To. (26,970 bytes)
+
+**Versions**
+
+- `india-rewrote-its-entire-maritime-legal` **1.1.2 → 1.1.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-rewrote-its-entire-maritime-legal` — 19,255 → 19,919 bytes (+664)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `us-stock-picks-multi-screen-quant` — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)
