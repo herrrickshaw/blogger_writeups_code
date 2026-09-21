@@ -7,3 +7,4 @@
 - **[CASING/LC_AFTER_PERIOD]** If a new sentence starts here, add a space and start with an uppercase letter.
   context: ...osite alternative. LPG cylinder.jpg, Ks.mini, CC BY-SA 3.0, via Wikimedia Commons.  ...
   suggested:  Mini,  mini
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

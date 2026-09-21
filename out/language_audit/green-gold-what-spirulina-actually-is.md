@@ -7,3 +7,4 @@
 - **[GRAMMAR/ALL_MOST_SOME_OF_NOUN]** Consider using “most why” or “most of the why”.
   context: ...y cutting or digging anything, which is most of why its land and water footprint per kilogr...
   suggested: most why, most of the why
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

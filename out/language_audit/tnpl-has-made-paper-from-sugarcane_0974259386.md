@@ -10,4 +10,9 @@
 - **[GRAMMAR/MAKER_COMPOUNDS]** This noun is normally spelled as one word.
   context: ...own self-description as a bagasse-based paper maker is from the company's own site (tnpl.co...
   suggested: papermaker
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[GRAMMAR/EXCEPTION_PREPOSITION_THE_RULE]** Did you mean “exception to”?
+  context: ...is offered here.  TNPL is closer to the exception than the rule  Even within India's paper ind...
+  suggested: exception to
+- **[GRAMMAR/DOUBLE_NEGATIVE]** This phrase contains a double negative, or a comma may be missing.
+  context: ...a finding of this piece's research, not proof no such statement exists anywhere — a more...
+  suggested: proof any, proof, no
