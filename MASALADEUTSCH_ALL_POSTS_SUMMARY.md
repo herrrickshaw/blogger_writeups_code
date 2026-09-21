@@ -2,7 +2,7 @@
 
 *271 published posts, 39 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 19 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 21 September 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
