@@ -12296,3 +12296,16 @@ Publish new post: MDF Guidelines / MoPSW blended-finance breakdown of the ₹25,
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `us-stock-picks-multi-screen-quant` — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)
+
+## 2026-09-22T02:35:35+00:00 — 310 posts live
+
+Publish new post: Hormuz blockade / IMEC / India-EU FTA piece. Corrects the premise that the 2026 US naval blockade of Iran was a reaction to India-Asia-Europe trade integration (the India-EU FTA was concluded a month before the war began; analyst literature treats IMEC as something the war exposed, not something it targeted). Documents real freight-cost impact on Gulf-adjacent India-Europe trade, draws a historical parallel to VOC/EIC ship seizures and blockades (Amboyna 1623, Battle of Masulipatnam 1673) and Operation Earnest Will (1987-88), and traces the longer Pax Britannica-to-Pax Americana 'freedom of the seas' throughline including the postcolonial critique of that doctrine. Closes with a factual, clearly-labelled-as-editorial aside on 2026's prize-law tanker seizures and the Trump commemorative coin.
+
+
+**Added**
+
+- `nobody-blockaded-hormuz-to-slow-india` **v1.0.0** — Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway. (31,848 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-petrochemical-import-tree-from` — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)

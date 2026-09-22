@@ -127,6 +127,12 @@ OVERRIDE = {
     # labelled at publish time (2026-09-21) rather than run through --apply,
     # to avoid touching unrelated still-unlabelled posts in the same pass.
     "mopsws-25000-crore-maritime-development": ["Industrial Policy", "Markets & Finance"],
+    # Geopolitics/trade-corridor piece (Hormuz blockade, IMEC, India-EU FTA
+    # freight costs) with a heavy Hormuz/energy-chokepoint throughline --
+    # matches the label pair already used on sibling Hormuz posts
+    # (south-africa-lost-its-gulf-fuel-supply). Manually labelled at publish
+    # time (2026-09-22) rather than run through --apply.
+    "nobody-blockaded-hormuz-to-slow-india": ["Trade & Tariffs", "Energy & Fuels"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,
