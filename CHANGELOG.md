@@ -12309,3 +12309,25 @@ Publish new post: Hormuz blockade / IMEC / India-EU FTA piece. Corrects the prem
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `indias-petrochemical-import-tree-from` — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)
+
+## 2026-09-22T07:56:03+00:00 — 312 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `indias-petrochemical-import-tree-from` **v1.0.0** — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded) (31,860 bytes)
+- `us-stock-picks-multi-screen-quant` **v1.0.0** — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026) (35,870 bytes)
+
+**Versions**
+
+- `nobody-blockaded-hormuz-to-slow-india` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `mopsws-25000-crore-maritime-development` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-wants-isobutanol-in-both-diesel` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `nobody-blockaded-hormuz-to-slow-india` — 31,848 → 31,967 bytes (+119)
+- `mopsws-25000-crore-maritime-development` — 26,970 → 27,089 bytes (+119)
+- `india-wants-isobutanol-in-both-diesel` — 23,834 → 23,953 bytes (+119)
