@@ -12388,3 +12388,13 @@ Amend the CBG-CGD connectivity post with a new section sizing the connectivity g
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
+
+## 2026-09-23T11:02:29+00:00 — 316 posts live
+
+Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts.
+
+
+**Added**
+
+- `under-corsias-own-numbers-corn-ethanol` **v1.0.0** — Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace (22,216 bytes)
+- `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)

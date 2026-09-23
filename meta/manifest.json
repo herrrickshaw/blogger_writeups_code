@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-23T10:16:48+00:00",
-  "count": 314,
+  "snapshot": "2026-09-23T11:02:29+00:00",
+  "count": 316,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -15755,6 +15755,40 @@
         }
       ]
     },
+    "3402930958562553181": {
+      "id": "3402930958562553181",
+      "title": "Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios",
+      "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
+      "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
+      "published": "2026-07-28T05:30:00.000+05:30",
+      "updated": "2026-09-11T00:05:43.000+05:30",
+      "labels": [
+        "Textiles"
+      ],
+      "bytes": 20656,
+      "sha256": "e8ae10e3cbe0e1d2cb299884688162be7e7be508d930c7f9c124b38697aa7425",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-23T11:02:29+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts."
+        }
+      ]
+    },
     "3467462935277445173": {
       "id": "3467462935277445173",
       "title": "Can Rupee Trade Actually Offset the Inflation India Is Importing?",
@@ -21718,6 +21752,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed OVERFLOW-RIGHT (source citation sharing the legend row, running past the canvas edge) flagged by tools/svg_chart_lint.py by moving it to its own row below the legend."
+        }
+      ]
+    },
+    "4490239412864077844": {
+      "id": "4490239412864077844",
+      "title": "Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
+      "slug": "under-corsias-own-numbers-corn-ethanol",
+      "published": "2026-09-23T16:31:55.000+05:30",
+      "updated": "2026-09-23T16:32:05.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Ethanol & Biofuels"
+      ],
+      "bytes": 22216,
+      "sha256": "d3fc009462424182157a6f175ca18a31f40a2fbeb48474d28010ad7e2edf35af",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-23T11:02:29+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts."
         }
       ]
     },
