@@ -12424,3 +12424,16 @@ Amend the CORSIA/corn-ethanol post using a user-supplied SAF emissions calculato
 **Changed**
 
 - `under-corsias-own-numbers-corn-ethanol` — 27,027 → 32,792 bytes (+5,765)
+
+## 2026-09-23T15:43:15+00:00 — 316 posts live
+
+Correct Gevo Net-Zero 1 (dead, replaced by North Dakota Project Northstar) and add Brazil/UK/Japan ATJ projects to isobutanol/ATJ post
+
+
+**Versions**
+
+- `india-wants-isobutanol-in-both-diesel` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-wants-isobutanol-in-both-diesel` — 23,953 → 28,011 bytes (+4,058)
