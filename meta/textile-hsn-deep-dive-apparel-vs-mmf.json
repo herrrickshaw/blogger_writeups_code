@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-11T00:05:43.000+05:30",
+  "updated": "2026-09-11T00:05:43.320+05:30",
   "labels": [
     "Textiles"
   ],
@@ -21,214 +21,14 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "1.0.0",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-08-06T09:46:05+05:30",
-      "level": "baseline",
-      "reason": "version tracking introduced",
-      "note": ""
-    },
-    {
-      "version": "1.0.1",
-      "date": "2026-08-06T11:31:49+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        12999,
-        9985
-      ],
-      "url_changed": null,
-      "markers_changed": {
-        "inverted_media_query": [
-          true,
-          false
-        ]
-      },
-      "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-    },
-    {
-      "version": "1.0.2",
-      "date": "2026-08-08T09:32:14+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        9985,
-        11258
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "gs-table-v1 rollout; AI Tracker index section"
-    },
-    {
-      "version": "1.0.3",
-      "date": "2026-08-08T14:26:40+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        11258,
-        11377
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "site-index stub in all 98 posts"
-    },
-    {
-      "version": "1.0.4",
-      "date": "2026-08-12T22:24:04+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        11377,
-        11536
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "1.0.5",
-      "date": "2026-08-13T03:50:57+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        11536,
-        16070
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "1.0.6",
-      "date": "2026-08-13T08:42:55+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        16070,
-        16989
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "1.0.7",
-      "date": "2026-08-13T11:02:49+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        16989,
-        17084
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-    },
-    {
-      "version": "1.0.8",
-      "date": "2026-08-16T14:49:00+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        17084,
-        17612
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "1.0.9",
-      "date": "2026-08-16T15:22:21+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        17612,
-        17967
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-26T03:35:52+00:00",
-      "level": "major",
-      "reason": "figures changed (+1/-0 distinct numbers)",
-      "bytes": [
-        17967,
-        20733
-      ],
-      "url_changed": null,
-      "markers_changed": null,
+      "date": "2026-09-23T07:56:48+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
       "note": "scheduled sync"
-    },
-    {
-      "version": "2.0.1",
-      "date": "2026-09-05T21:41:22+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-      "bytes": [
-        20733,
-        20552
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-    },
-    {
-      "version": "2.0.2",
-      "date": "2026-09-05T22:16:32+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-      "bytes": [
-        20552,
-        19671
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Manual ad units removed from all posts; Auto ads only"
-    },
-    {
-      "version": "2.0.3",
-      "date": "2026-09-07T19:53:24+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-      "bytes": [
-        19671,
-        18752
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-    },
-    {
-      "version": "2.1.0",
-      "date": "2026-09-10T22:54:22+05:30",
-      "level": "minor",
-      "reason": "prose grew 5,945→6,409 chars with no new figures",
-      "bytes": [
-        18752,
-        19743
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.1.1",
-      "date": "2026-09-11T00:25:49+05:30",
-      "level": "patch",
-      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-      "bytes": [
-        19743,
-        20656
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
     }
   ]
 }

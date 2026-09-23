@@ -12362,3 +12362,12 @@ Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the 
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
+
+## 2026-09-23T07:56:48+00:00 — 315 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)
