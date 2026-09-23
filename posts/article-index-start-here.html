@@ -13,14 +13,34 @@
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
 .artx .geoh span{color:#8a8a8a;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
+.artx .gs-filter-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:#F4F7FB;
+ border:1px solid #e2e6ee;border-radius:8px;padding:.65rem .8rem;margin:14px 0 0;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx .gs-filter-bar label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ color:#595959;margin-right:-.3rem}
+.artx .gs-filter-bar select{font-family:inherit;font-size:.85rem;color:#0B1F2D;background:#fff;
+ border:1px solid #c7cbd1;border-radius:5px;padding:.3rem .5rem;max-width:15rem}
+.artx .gs-filter-bar select:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.artx .gs-filter-reset{font-family:inherit;font-size:.78rem;font-weight:600;color:#2251FF;
+ background:none;border:none;cursor:pointer;padding:.3rem .2rem;margin-left:auto}
+.artx .gs-filter-reset:hover{text-decoration:underline}
+.artx .gs-filter-count{font-size:.78rem;color:#8a8a8a;width:100%}
+.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#8a8a8a;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
+.artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
+ justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;
+ padding:.5rem .7rem;margin-top:.6rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
+ Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+.artx .cgroup:first-of-type{margin-top:0}
+.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#b9c2cc;white-space:nowrap}
 .artx .crow{display:grid;grid-template-columns:6.4rem 11rem 1fr;align-items:baseline;
  column-gap:1.1rem;row-gap:.2rem;padding:.85rem .2rem;border-bottom:1px solid #e2e2e2;
  transition:background-color .12s ease}
 .artx .crow:hover{background:#F4F7FB}
 .artx .crow:hover .ctitle{color:#2251FF}
 .artx .cdate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:.15rem}
+ font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;
+ padding-top:.15rem}
 .artx .ctag{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
  font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2251FF;
  padding-top:.15rem}
@@ -36,13 +56,16 @@
 @media (max-width:640px){
  .artx .crow{grid-template-columns:1fr;row-gap:.25rem;padding:1rem .2rem}
  .artx .ctitle,.artx .csub{grid-column:1}
+ .artx .gs-filter-bar select{max-width:100%;flex:1 1 auto}
+ .artx .gs-filter-reset{margin-left:0}
+ .artx .gs-filter-count{order:99}
 }
 </style>
 <div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
 <p class="eyebrow">Masala Deutsch &middot; Article index</p>
 <h1>Every piece on this blog, three ways in</h1>
-<p class="standfirst">Every piece published on this blog since it opened on 4 October 2020 &mdash; 301 articles on India&rsquo;s trade, energy and industrial policy, each checked against official statistics. Browse by date, by topic, by the country or state a piece is about, or by how the subjects connect to each other.</p>
-<div class="stats"><div class="stat"><b>301</b><span>Articles</span></div><div class="stat"><b>17</b><span>Topic hubs</span></div><div class="stat"><b>35</b><span>Countries covered</span></div><div class="stat"><b>4 October 2020</b><span>First post &mdash; the blog opens</span></div></div>
+<p class="standfirst">Every piece published on this blog since it opened on 4 October 2020 &mdash; 315 articles on India&rsquo;s trade, energy and industrial policy, each checked against official statistics. Browse by date, by topic, by the country or state a piece is about, or by how the subjects connect to each other.</p>
+<div class="stats"><div class="stat"><b>315</b><span>Articles</span></div><div class="stat"><b>17</b><span>Topic hubs</span></div><div class="stat"><b>35</b><span>Countries covered</span></div><div class="stat"><b>4 October 2020</b><span>First post &mdash; the blog opens</span></div></div>
 <style>/*gs-pitch-v1*/
 .gs-pitch{padding:0 0 1.2rem;border-bottom:1px solid #e2e2e2;margin:0 0 1.6rem}
 .gs-pitch p{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;color:#595959;line-height:1.55;max-width:42rem;margin:0}
@@ -105,9 +128,9 @@
 <div class="tw gb-tblwrap"><table class="gb-table">
 <thead><tr><th>Month</th><th>Articles</th><th>Running total</th></tr></thead><tbody>
 <tr><td>October 2020</td><td>1</td><td>1</td></tr>
-<tr><td>July 2026</td><td>22</td><td>23</td></tr>
-<tr><td>August 2026</td><td>212</td><td>235</td></tr>
-<tr><td>September 2026</td><td>66</td><td>301</td></tr>
+<tr><td>July 2026</td><td>23</td><td>24</td></tr>
+<tr><td>August 2026</td><td>212</td><td>236</td></tr>
+<tr><td>September 2026</td><td>79</td><td>315</td></tr>
 </tbody></table></div>
 <p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, superseded draft versions -- were withdrawn from Blogger over time and are not listed; they have no live URL to link to.</p>
 <h2>By topic</h2>
@@ -207,7 +230,7 @@
 <p>Almost everything here is about India, so India is not a category &mdash; it would hold every article and tell you nothing. What follows is the <i>second</i> geography: the counterpart economy a trade piece measures against, or the Indian state whose policy is under examination.</p>
 <h3>Counterpart economies</h3>
 <div class="geo">
-<div class="geoblock"><p class="geoh">China <span>40</span></p><ul>
+<div class="geoblock"><p class="geoh">China <span>42</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/airbags-and-seat-belts-are-import-heavy.html">Airbags and Seat Belts Are Import-Heavy. Tyre Cord Isn&#x27;t. India&#x27;s Automotive Textiles Aren&#x27;t One Story</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html">Can Rupee Trade Actually Offset the Inflation India Is Importing?</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Summary</a></li>
@@ -234,6 +257,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/09/jan-aushadhi-sells-2439-products-heres.html">Jan Aushadhi Sells 2,439 Products. Here&#x27;s What We Actually Know About Where Their APIs Come From.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/mopsws-25000-crore-maritime-development.html">MoPSW&#x27;s ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html">Priority Export Destinations by Growth Sector, &amp; Real PLI Coverage</a></li>
@@ -242,6 +266,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html">Tarpaulin Is a Genuine Export Win. Geotextiles for India&#x27;s Highways Are the Opposite Story</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/the-national-beekeeping-honey-mission.html">The National Beekeeping &amp; Honey Mission: A Sweet Revolution, and the Adulteration Problem Sitting Next to It</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, and Why India&#x27;s Flagship Plant Runs on Someone Else&#x27;s Technology</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digitising India&#x27;s Ethanol and Biofuel Supply Chain</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Code</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a></li>
@@ -249,7 +274,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html">Where the World&#x27;s Oil Sits When It Isn&#x27;t Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026</a></li>
 </ul></div>
-<div class="geoblock"><p class="geoh">European Union <span>18</span></p><ul>
+<div class="geoblock"><p class="geoh">European Union <span>19</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/a-million-wine-market-behind-150-wall.html">A $195 Million Wine Market Behind a 150% Wall, and the Deal That Cracks It</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/cocoas-blockchain-reckoning-one.html">Cocoa&#x27;s Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
@@ -260,6 +285,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html">India&#x27;s Trade Story Has Three Big Wins and One Gap the Headlines Skip</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html">Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html">Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html">Not a Drop Out: Ethanol&#x27;s Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html">One Gallon, Five Numbers: How GCAM Fits Into — and Stays Out of — the World&#x27;s Biofuel Carbon-Credit Systems</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html">One Refinery Flipped Nigeria From Importer to Exporter. Africa&#x27;s Oil Imports Are Still Rising.</a></li>
@@ -269,7 +295,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html">The Battery Passport Was Built for Recycling. Now It&#x27;s Also the Fix for Battery Fires.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html">Three Different EU Rules Are Making Ships Change Fuel Near Europe — and Only One of Them Is the ETS</a></li>
 </ul></div>
-<div class="geoblock"><p class="geoh">United States <span>16</span></p><ul>
+<div class="geoblock"><p class="geoh">United States <span>17</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/effective-buying-power-china-comparison.html">Effective Buying Power &amp; the China Comparison — Rupee Real Exchange Rate</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself Dependent on One Supplier</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html">Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe&#x27;s Landlocked Five</a></li>
@@ -278,6 +304,7 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html">Indian Medicine Depends Heavily on Chinese Imports</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html">Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/09/oisd-writes-indias-oil-safety-rules-api.html">OISD Writes India&#x27;s Oil-Safety Rules. API Just Signed FIPI Up to Help Its Own Standards Reach Further.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/oilfield-costs-rose-68-while-global.html">Oilfield Costs Rose 6–8% While Global Spending Fell. Asia&#x27;s Thin Rig Fleet Is Where That Squeeze Bites Hardest.</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
@@ -334,6 +361,18 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html">The Currency the Rupee-Trends Piece Left Out: What INR/JPY Actually Looks Like</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
 </ul></div>
+<div class="geoblock"><p class="geoh">South Korea <span>10</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html">Green Gold: What Spirulina Actually Is, and Isn&#x27;t, Good For</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html">India Exports the World&#x27;s Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html">India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html">India&#x27;s Lock Imports Hit $197.84 Million. Dindigul&#x27;s 150-Year-Old Cluster Isn&#x27;t Who&#x27;s Losing Sleep Over It.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/mopsws-25000-crore-maritime-development.html">MoPSW&#x27;s ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html">Tarpaulin Is a Genuine Export Win. Geotextiles for India&#x27;s Highways Are the Opposite Story</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
+</ul></div>
 <div class="geoblock"><p class="geoh">Brazil <span>9</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html">Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html">India&#x27;s Coffee Crop Hasn&#x27;t Grown in a Decade. Its Export Earnings Have.</a></li>
@@ -355,17 +394,6 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone Else&#x27;s Inflation Through the Import Bill</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham</a></li>
-</ul></div>
-<div class="geoblock"><p class="geoh">South Korea <span>9</span></p><ul>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/green-gold-what-spirulina-actually-is.html">Green Gold: What Spirulina Actually Is, and Isn&#x27;t, Good For</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-exports-worlds-coco-peat-its-own.html">India Exports the World&#x27;s Coco Peat. Its Own Highest-Value Crop Barely Uses Any of It.</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html">India Has Tax Treaties With 97 Countries and Trade Treaties With a Fraction of Them</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-lock-imports-hit-19784-million.html">India&#x27;s Lock Imports Hit $197.84 Million. Dindigul&#x27;s 150-Year-Old Cluster Isn&#x27;t Who&#x27;s Losing Sleep Over It.</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: What Survives the Methodology Check</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/tarpaulin-is-genuine-export-win.html">Tarpaulin Is a Genuine Export Win. Geotextiles for India&#x27;s Highways Are the Opposite Story</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
 </ul></div>
 <div class="geoblock"><p class="geoh">UAE <span>8</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html">Can Rupee Trade Actually Offset the Inflation India Is Importing?</a></li>
@@ -398,6 +426,12 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Decade of Policy History</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html">Which ECB Currencies Are Actually Investable, Once Real Volatility Replaces the Theory</a></li>
 </ul></div>
+<div class="geoblock"><p class="geoh">Iran <span>4</span></p><ul>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html">Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html">Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item</a></li>
+<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html">Where the World&#x27;s Oil Sits When It Isn&#x27;t Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026</a></li>
+</ul></div>
 <div class="geoblock"><p class="geoh">Italy <span>4</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html">Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe&#x27;s Landlocked Five</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a></li>
@@ -414,11 +448,6 @@
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/europes-export-credit-agencies-are.html">Europe&#x27;s Export Credit Agencies Are Quietly Bankrolling India&#x27;s Infrastructure — Not Its Factories</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html">Sixteen Years, Nine Countries: What India and Europe Actually Signed on Technology</a></li>
-</ul></div>
-<div class="geoblock"><p class="geoh">Iran <span>3</span></p><ul>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html">Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html">Refineries Under Fire: How Two Wars Turned Oil and Gas Infrastructure Into a Drone Target, and Made Counter-UAS a Global Energy-Security Line Item</a></li>
-<li><a href="https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html">Where the World&#x27;s Oil Sits When It Isn&#x27;t Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026</a></li>
 </ul></div>
 <div class="geoblock"><p class="geoh">Iraq <span>3</span></p><ul>
 <li><a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Picture</a></li>
@@ -848,167 +877,244 @@
 <p class="exsub">Subjects appearing in at least five articles. Lines drawn where two subjects share two or more articles.</p>
 <svg viewBox="0 0 920 780" width="100%" role="img" aria-label="Entity co-occurrence graph across the blog's articles" style="max-width:920px;display:block;margin:0 auto">
 <title>How the subjects connect</title>
-<line x1="380.7" y1="608.0" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="608.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="608.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="259.1" y1="506.0" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="609.1" y1="567.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="608.0" x2="688.5" y2="349.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="608.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="539.3" y1="172.0" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="460.0" y1="158.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="608.0" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="608.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="608.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="460.0" y1="622.0" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="609.1" y1="567.7" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="608.0" x2="688.5" y2="349.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="608.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="460.0" y1="158.0" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="539.3" y1="172.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="380.7" y1="172.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="539.3" y1="172.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="172.0" x2="660.9" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="380.7" y1="172.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="380.7" y1="172.0" x2="688.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="688.5" y1="430.3" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="609.1" y1="567.7" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="609.1" y1="567.7" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="539.3" y1="608.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="660.9" y1="274.0" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="310.9" y1="567.7" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="460.0" y1="622.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="688.5" y1="349.7" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="380.7" y1="608.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="660.9" y1="274.0" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="259.1" y1="506.0" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="310.9" y1="567.7" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="688.5" y1="349.7" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="688.5" y1="349.7" x2="231.5" y2="349.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="660.9" y1="274.0" x2="231.5" y2="349.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="609.1" y1="567.7" x2="688.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="231.5" y1="349.7" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
+<line x1="231.5" y1="349.7" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
 <line x1="380.7" y1="172.0" x2="688.5" y2="349.7" stroke="#0a4c6a" stroke-opacity="0.15" stroke-width="0.8"/>
-<line x1="660.9" y1="274.0" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="231.5" y1="349.7" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="660.9" y1="274.0" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="231.5" y1="349.7" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="660.9" y1="274.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="539.3" y1="172.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="231.5" y1="349.7" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="310.9" y1="567.7" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="460.0" y1="158.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="380.7" y1="172.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="460.0" y1="158.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="231.5" y1="349.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="259.1" y1="506.0" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="380.7" y1="172.0" x2="660.9" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="380.7" y1="172.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="380.7" y1="172.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="688.5" y1="430.3" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="609.1" y1="567.7" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="660.9" y1="274.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="539.3" y1="172.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="310.9" y1="567.7" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="688.5" y1="349.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="688.5" y1="349.7" x2="688.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="688.5" y1="430.3" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="609.1" y1="567.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="660.9" y1="274.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="460.0" y1="158.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="539.3" y1="608.0" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="259.1" y1="506.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="688.5" y1="349.7" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="688.5" y1="349.7" x2="688.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="688.5" y1="349.7" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="660.9" y1="506.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="460.0" y1="158.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="539.3" y1="172.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
 <line x1="688.5" y1="430.3" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="660.9" y1="274.0" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="460.0" y1="622.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
-<line x1="380.7" y1="172.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
+<line x1="660.9" y1="274.0" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="310.9" y1="567.7" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.17" stroke-width="1.0"/>
+<line x1="380.7" y1="172.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
 <line x1="688.5" y1="349.7" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
-<line x1="460.0" y1="158.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
+<line x1="539.3" y1="172.0" x2="660.9" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
 <line x1="660.9" y1="274.0" x2="609.1" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.19" stroke-width="1.1"/>
-<line x1="688.5" y1="349.7" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
-<line x1="460.0" y1="158.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
+<line x1="688.5" y1="349.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
+<line x1="539.3" y1="172.0" x2="231.5" y2="430.3" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
 <line x1="231.5" y1="430.3" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
-<line x1="688.5" y1="349.7" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
-<line x1="609.1" y1="567.7" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
-<line x1="688.5" y1="430.3" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
-<line x1="380.7" y1="608.0" x2="660.9" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
-<line x1="380.7" y1="608.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
-<line x1="380.7" y1="608.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
+<line x1="688.5" y1="349.7" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
+<line x1="609.1" y1="567.7" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
+<line x1="688.5" y1="430.3" x2="310.9" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.21" stroke-width="1.2"/>
+<line x1="539.3" y1="608.0" x2="660.9" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
+<line x1="539.3" y1="608.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
+<line x1="539.3" y1="608.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
 <line x1="688.5" y1="349.7" x2="609.1" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
-<line x1="539.3" y1="172.0" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
-<line x1="460.0" y1="622.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
-<line x1="231.5" y1="349.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.26" stroke-width="1.5"/>
-<line x1="310.9" y1="567.7" x2="259.1" y2="506.0" stroke="#0a4c6a" stroke-opacity="0.26" stroke-width="1.5"/>
+<line x1="460.0" y1="158.0" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
+<line x1="310.9" y1="567.7" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.24" stroke-width="1.4"/>
+<line x1="231.5" y1="349.7" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.26" stroke-width="1.5"/>
+<line x1="259.1" y1="506.0" x2="460.0" y2="622.0" stroke="#0a4c6a" stroke-opacity="0.26" stroke-width="1.5"/>
 <line x1="660.9" y1="274.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.26" stroke-width="1.5"/>
-<line x1="259.1" y1="506.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
-<line x1="660.9" y1="274.0" x2="539.3" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
-<line x1="539.3" y1="172.0" x2="609.1" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
+<line x1="460.0" y1="622.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="660.9" y1="274.0" x2="380.7" y2="608.0" stroke="#0a4c6a" stroke-opacity="0.28" stroke-width="1.6"/>
+<line x1="460.0" y1="158.0" x2="609.1" y2="567.7" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
 <line x1="688.5" y1="349.7" x2="660.9" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
-<line x1="688.5" y1="349.7" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
-<line x1="310.9" y1="567.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
+<line x1="688.5" y1="349.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
+<line x1="259.1" y1="506.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
 <line x1="660.9" y1="506.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
-<line x1="539.3" y1="172.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
-<line x1="539.3" y1="172.0" x2="259.1" y2="274.0" stroke="#0a4c6a" stroke-opacity="0.33" stroke-width="1.9"/>
-<line x1="460.0" y1="158.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.33" stroke-width="1.9"/>
-<line x1="660.9" y1="274.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
-<line x1="609.1" y1="567.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
-<line x1="539.3" y1="608.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
+<line x1="460.0" y1="158.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.31" stroke-width="1.7"/>
+<line x1="460.0" y1="158.0" x2="310.9" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.33" stroke-width="1.9"/>
+<line x1="539.3" y1="172.0" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.33" stroke-width="1.9"/>
+<line x1="609.1" y1="567.7" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
+<line x1="380.7" y1="608.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
 <line x1="688.5" y1="349.7" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
 <line x1="688.5" y1="430.3" x2="609.1" y2="212.3" stroke="#0a4c6a" stroke-opacity="0.38" stroke-width="2.1"/>
-<line x1="688.5" y1="349.7" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.49" stroke-width="2.7"/>
-<line x1="660.9" y1="274.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.51" stroke-width="2.9"/>
-<line x1="539.3" y1="172.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.65" stroke-width="3.6"/>
+<line x1="660.9" y1="274.0" x2="460.0" y2="158.0" stroke="#0a4c6a" stroke-opacity="0.42" stroke-width="2.4"/>
+<line x1="688.5" y1="349.7" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.49" stroke-width="2.7"/>
+<line x1="660.9" y1="274.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.51" stroke-width="2.9"/>
+<line x1="460.0" y1="158.0" x2="539.3" y2="172.0" stroke="#0a4c6a" stroke-opacity="0.65" stroke-width="3.6"/>
 <circle cx="460.0" cy="158.0" r="18.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="460.0" y="132.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Petrol <tspan fill="#595959">49</tspan></text>
-<circle cx="539.3" cy="172.0" r="17.2" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="548.0" y="148.3" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Ethanol <tspan fill="#595959">46</tspan></text>
-<circle cx="609.1" cy="212.3" r="16.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="625.2" y="193.2" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">TradeStat <tspan fill="#595959">45</tspan></text>
-<circle cx="660.9" cy="274.0" r="13.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="679.5" y="263.3" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Diesel <tspan fill="#595959">32</tspan></text>
-<circle cx="688.5" cy="349.7" r="13.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="709.6" y="346.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Crude oil <tspan fill="#595959">32</tspan></text>
-<circle cx="688.5" cy="430.3" r="12.2" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="708.3" y="433.8" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PLI scheme <tspan fill="#595959">27</tspan></text>
-<circle cx="660.9" cy="506.0" r="11.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="677.7" y="515.7" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Rupee <tspan fill="#595959">24</tspan></text>
-<circle cx="609.1" cy="567.7" r="10.8" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="621.2" y="582.2" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">GST <tspan fill="#595959">22</tspan></text>
-<circle cx="539.3" cy="608.0" r="10.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="545.5" y="625.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PPAC <tspan fill="#595959">19</tspan></text>
-<circle cx="460.0" cy="622.0" r="10.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="460.0" y="640.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Steel <tspan fill="#595959">19</tspan></text>
-<circle cx="380.7" cy="608.0" r="9.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="374.7" y="624.5" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Compressed biogas <tspan fill="#595959">17</tspan></text>
-<circle cx="310.9" cy="567.7" r="9.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="299.6" y="581.1" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Natural gas <tspan fill="#595959">17</tspan></text>
-<circle cx="259.1" cy="506.0" r="9.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="243.9" y="514.8" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PNGRB <tspan fill="#595959">17</tspan></text>
-<circle cx="231.5" cy="430.3" r="9.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="214.3" y="433.3" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Textiles <tspan fill="#595959">17</tspan></text>
-<circle cx="231.5" cy="349.7" r="9.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="214.8" y="346.8" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">LNG <tspan fill="#595959">15</tspan></text>
-<circle cx="259.1" cy="274.0" r="8.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="244.6" y="265.6" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Sugar <tspan fill="#595959">14</tspan></text>
-<circle cx="310.9" cy="212.3" r="8.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="300.3" y="199.7" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Urea <tspan fill="#595959">13</tspan></text>
-<circle cx="380.7" cy="172.0" r="8.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
-<text x="375.0" y="156.5" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">CPI <tspan fill="#595959">13</tspan></text>
+<text x="460.0" y="132.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Ethanol <tspan fill="#595959">50</tspan></text>
+<circle cx="539.3" cy="172.0" r="17.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="548.2" y="147.8" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Petrol <tspan fill="#595959">49</tspan></text>
+<circle cx="609.1" cy="212.3" r="16.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="625.0" y="193.4" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">TradeStat <tspan fill="#595959">45</tspan></text>
+<circle cx="660.9" cy="274.0" r="13.8" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="679.8" y="263.1" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Diesel <tspan fill="#595959">34</tspan></text>
+<circle cx="688.5" cy="349.7" r="13.6" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="709.7" y="346.0" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Crude oil <tspan fill="#595959">33</tspan></text>
+<circle cx="688.5" cy="430.3" r="12.0" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="708.2" y="433.8" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PLI scheme <tspan fill="#595959">27</tspan></text>
+<circle cx="660.9" cy="506.0" r="11.5" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="677.8" y="515.7" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Rupee <tspan fill="#595959">25</tspan></text>
+<circle cx="609.1" cy="567.7" r="10.7" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="621.2" y="582.1" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">GST <tspan fill="#595959">22</tspan></text>
+<circle cx="539.3" cy="608.0" r="10.2" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="545.6" y="625.1" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Compressed biogas <tspan fill="#595959">20</tspan></text>
+<circle cx="460.0" cy="622.0" r="10.2" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="460.0" y="640.2" text-anchor="start" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PNGRB <tspan fill="#595959">20</tspan></text>
+<circle cx="380.7" cy="608.0" r="9.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="374.5" y="624.9" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">PPAC <tspan fill="#595959">19</tspan></text>
+<circle cx="310.9" cy="567.7" r="9.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="299.3" y="581.5" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Steel <tspan fill="#595959">19</tspan></text>
+<circle cx="259.1" cy="506.0" r="9.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="244.0" y="514.7" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Natural gas <tspan fill="#595959">17</tspan></text>
+<circle cx="231.5" cy="430.3" r="9.4" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="214.4" y="433.3" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Textiles <tspan fill="#595959">17</tspan></text>
+<circle cx="231.5" cy="349.7" r="8.9" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="214.9" y="346.8" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">LNG <tspan fill="#595959">15</tspan></text>
+<circle cx="259.1" cy="274.0" r="8.6" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="244.7" y="265.7" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Urea <tspan fill="#595959">14</tspan></text>
+<circle cx="310.9" cy="212.3" r="8.6" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="300.2" y="199.5" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">Sugar <tspan fill="#595959">14</tspan></text>
+<circle cx="380.7" cy="172.0" r="8.6" fill="#8a4b08" stroke="#fff" stroke-width="2"/>
+<text x="375.0" y="156.4" text-anchor="end" dominant-baseline="middle" font-size="13" font-family="Georgia,serif" fill="#1a1a1a">CPI <tspan fill="#595959">14</tspan></text>
 </svg>
 <p class="exsrc">Built from the headings and body text of every archived post by <code>tools/index_graph.py</code>. Headings are weighted four times body text, and each subject counts once per article rather than once per mention &mdash; several posts contain long tables whose repeated cell text would otherwise dominate any count. Layout is fixed and deterministic, so a change in the diagram means a change in the writing, not a reshuffle.</p>
 </div>
 <h2>All articles</h2>
 <p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance. Filter by month, day or topic below.</p>
-<style>/*gs-chrono-group-v1*/
-.artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;padding:.5rem .7rem;margin-top:.6rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.04em}
-.artx .cgroup:first-of-type{margin-top:0}
-.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#b9c2cc;white-space:nowrap}
-</style>
-<style>/*gs-chrono-filter-v1*/
-.artx .gs-filter-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:#F4F7FB;border:1px solid #e2e6ee;border-radius:8px;padding:.65rem .8rem;margin:14px 0 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
-.artx .gs-filter-bar label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#595959;margin-right:-.3rem}
-.artx .gs-filter-bar select{font-family:inherit;font-size:.85rem;color:#0B1F2D;background:#fff;border:1px solid #c7cbd1;border-radius:5px;padding:.3rem .5rem;max-width:15rem}
-.artx .gs-filter-bar select:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
-.artx .gs-filter-reset{font-family:inherit;font-size:.78rem;font-weight:600;color:#2251FF;background:none;border:none;cursor:pointer;padding:.3rem .2rem;margin-left:auto}
-.artx .gs-filter-reset:hover{text-decoration:underline}
-.artx .gs-filter-count{font-size:.78rem;color:#8a8a8a;width:100%}
-.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#8a8a8a;font-size:.9rem;font-style:italic}
-@media (max-width:640px){
-.artx .gs-filter-bar select{max-width:100%;flex:1 1 auto}
-.artx .gs-filter-reset{margin-left:0}
-.artx .gs-filter-count{order:99}
-}
-</style>
 <div class="gs-filter-bar" role="group" aria-label="Filter articles"><label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select><label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select><label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select><button type="button" class="gs-filter-reset" id="gs-f-reset">Reset</button><span class="gs-filter-count" id="gs-f-count"></span></div>
 <div class="chrono">
-<div class="cgroup" data-ym="2026-09"><span>September 2026</span><span class="cgroup-n">66 articles</span></div>
-<div class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Unlabelled">
+<div class="cgroup" data-ym="2026-09"><span>September 2026</span><span class="cgroup-n">79 articles</span></div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-23" data-topic="Energy &amp; Fuels">
+<span class="cdate">23 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html">India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html">PNGRB Graded Its Own Homework on the 2025-26 Plan. I</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">India Fuel Retail Outlets — 82k Geocoded Map (Part 2</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-23" data-topic="Gas &amp; LNG">
+<span class="cdate">23 September 2026</span>
+<span class="ctag">Gas &amp; LNG</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html">PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html">India Has 132 Compressed Biogas Plants Running. The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">India Fuel Retail Outlets — 82k Geocoded Map (Part 2</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-23" data-topic="Agriculture &amp; Fertilisers">
+<span class="cdate">23 September 2026</span>
+<span class="ctag">Agriculture &amp; Fertilisers</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html">The Diesel Truck Isn&#x27;t Why Your Eggs Cost More. The Ethanol Tank Is.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html">Imported Fertiliser &amp; Fuel Prices → Diesel → CPI/WPI</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html">From Diesel to CNG: Where the Switch Actually Pays</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html">Ethanol Freed Up Refinery Capacity for Petrochemical</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-23" data-topic="Energy &amp; Fuels">
+<span class="cdate">23 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html">Under CORSIA&#x27;s Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethan</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-22" data-topic="Energy &amp; Fuels">
+<span class="cdate">22 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html">Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.</a>
+<span class="csub">
+<span class="cgeo">European Union, United States</span>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-21" data-topic="Energy &amp; Fuels">
+<span class="cdate">21 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/india-wants-isobutanol-in-both-diesel.html">India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html">The Diesel Truck Isn&#x27;t Why Your Eggs Cost More. The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-21" data-topic="Industrial Policy">
+<span class="cdate">21 September 2026</span>
+<span class="ctag">Industrial Policy</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/mopsws-25000-crore-maritime-development.html">MoPSW&#x27;s ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To.</a>
+<span class="csub">
+<span class="cgeo">South Korea, China</span>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Agriculture &amp; Fertilisers">
+<span class="cdate">19 September 2026</span>
+<span class="ctag">Agriculture &amp; Fertilisers</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/india-has-tested-its-soil-twice-second.html">India Has Tested Its Soil Twice. The Second Time, a Machine Chose the Spot.</a>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Energy &amp; Fuels">
+<span class="cdate">19 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-oil-fields-are-running-down.html">India&#x27;s Oil Fields Are Running Down. The Policy to Squeeze More Out of Them Is Eight Years Old, and Its Best Techniques Are Still Pilots.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html">You Cannot Substitute Crude Oil or Gold. That Is 40%</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html">Where the World&#x27;s Oil Sits When It Isn&#x27;t Moving: Sto</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-forex-goes-country.html">Where India&#x27;s Forex Goes — Country Deficits &amp; a Deca</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Agriculture &amp; Fertilisers">
+<span class="cdate">19 September 2026</span>
+<span class="ctag">Agriculture &amp; Fertilisers</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/pmfby-advertises-51-return-to-farmers.html">PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html">Which ECB Currencies Are Actually Investable, Once R</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands: Ten Years Against t</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Energy &amp; Fuels">
+<span class="cdate">19 September 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html">The Ministry of Power Published Two Different AT&amp;C Loss Figures for the Same Year. Its Flagship Scheme&#x27;s Target Sits Between Them.</a>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-19" data-topic="Chemicals">
+<span class="cdate">19 September 2026</span>
+<span class="ctag">Chemicals</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, and Why India&#x27;s Flagship Plant Runs on Someone Else&#x27;s Technology</a>
+<span class="csub">
+<span class="cgeo">China</span>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data</a>
+</span>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Energy &amp; Fuels">
 <span class="cdate">18 September 2026</span>
-<span class="ctag none">Unlabelled</span>
+<span class="ctag">Energy &amp; Fuels</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html">E20 Doesn&#x27;t Cut Tailpipe CO2 by 30%. Run the Chemistry and the Real Number Is Close to Zero — Unless Your Engine Is Built for It.</a>
 <span class="csub">
 <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethan</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html">The FCC Lever: Trading Petrol Yield for LPG, and Whe</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html">The Detergent Chemical India Exports, and the Diaper</a>
 </span>
 </div>
-<div class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Unlabelled">
+<div class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Insurance &amp; Reinsurance">
 <span class="cdate">18 September 2026</span>
-<span class="ctag none">Unlabelled</span>
+<span class="ctag">Insurance &amp; Reinsurance</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html">India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.</a>
+</div>
+<div class="crow" data-ym="2026-09" data-date="2026-09-18" data-topic="Governance &amp; Institutions">
+<span class="cdate">18 September 2026</span>
+<span class="ctag">Governance &amp; Institutions</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html">The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn&#x27;t.</a>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-17" data-topic="Agriculture &amp; Fertilisers">
 <span class="cdate">17 September 2026</span>
@@ -1113,7 +1219,7 @@
 <span class="ctag">Industrial Policy</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html">A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s E</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly N</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s E</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-15" data-topic="Energy &amp; Fuels">
@@ -1168,7 +1274,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html">India&#x27;s Ethanol Sector Already Had Its IPOs. Here&#x27;s Who&#x27;s Listed, Who Just Joined, and What&#x27;s Still Pending</a>
 <span class="csub">
 <span class="cgeo">Punjab</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethan</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digit</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of </a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/would-more-sgst-fix-donor-state-problem.html">Would More SGST Fix the &quot;Donor State&quot; Problem? Ethan</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html">Under CORSIA&#x27;s Own Numbers, Corn Ethanol Fails as Je</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digit</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-15" data-topic="Import Substitution">
@@ -1177,7 +1283,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html">India&#x27;s EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls</a>
 <span class="csub">
 <span class="cgeo">China</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Stor</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Stor</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-15" data-topic="Unlabelled">
@@ -1270,7 +1376,7 @@
 <span class="ctag">Energy &amp; Fuels</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html">A 2013 Vision Saw India Needing 746 MMSCMD of Gas by 2030. Actual Demand Is About a Quarter of That</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India&#x27;s Largest Gas Consumer</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-09" data-topic="India">
@@ -1287,7 +1393,7 @@
 <span class="ctag">Energy &amp; Fuels</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Demand by 2040 Than a 2013 Report Predicted for 2030</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html">LNG Trucks Cost About What Diesel Does. GreenLine, D</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India&#x27;s Largest Gas Consumer</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/city-gas-just-became-indias-largest-gas.html">City Gas Just Became India&#x27;s Largest Gas Consumer</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html">LNG Trucks Cost About What Diesel Does. GreenLine, D</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-08" data-topic="Energy &amp; Fuels">
@@ -1311,7 +1417,7 @@
 <span class="ctag">Energy &amp; Fuels</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html">Mapping India&#x27;s Other Pipelines: Every Major Crude, Petrol-Diesel and LPG Line, By Company</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html">Right of User: What India&#x27;s Pipeline Gazette Notific</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-committee-found-pipelines.html">PNGRB&#x27;s Own Committee Found Pipelines Running at 2% </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html">LNG Trucks Cost About What Diesel Does. GreenLine, D</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html">Right of User: What India&#x27;s Pipeline Gazette Notific</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-committee-found-pipelines.html">PNGRB&#x27;s Own Committee Found Pipelines Running at 2% </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html">India&#x27;s Gas Pipelines Run at Half Capacity. Its Oil </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-08" data-topic="Gas &amp; LNG">
@@ -1319,7 +1425,7 @@
 <span class="ctag">Gas &amp; LNG</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html">PNGRB Wants Prepaid Smart Meters on Every New Gas Connection From 2027, All of Them by 2030</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html">PNGRB Hydrogen-Blending Pilots: The Real Numbers Beh</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html">PNGRB Hydrogen-Blending Pilots: The Real Numbers Beh</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html">PNGRB Graded Its Own Homework on the 2025-26 Plan. I</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-08" data-topic="Energy &amp; Fuels">
@@ -1424,7 +1530,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html">PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim</a>
 <span class="csub">
 <span class="cgeo">Gujarat, Rajasthan</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html">CGD Geographical Areas — District Allotment Map (Par</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html">CGD Geographical Areas — District Allotment Map (Par</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-01" data-topic="Energy &amp; Fuels">
@@ -1433,7 +1539,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/09/brazil-pumps-e30-at-every-station.html">Brazil Pumps E30 at Every Station. The Equipment Behind It Is the Part Indias E20 Story Skips</a>
 <span class="csub">
 <span class="cgeo">Brazil</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html">RIN, RED and CBIO: What India&#x27;s Ethanol Programme Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html">One Gallon, Five Numbers: How GCAM Fits Into — and S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html">India&#x27;s Ethanol Surplus Isn&#x27;t Going to Brazil or the</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Pi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html">RIN, RED and CBIO: What India&#x27;s Ethanol Programme Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/one-gallon-five-numbers-how-gcam-fits.html">One Gallon, Five Numbers: How GCAM Fits Into — and S</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-09" data-date="2026-09-01" data-topic="Climate &amp; Carbon">
@@ -1642,7 +1748,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map</a>
 <span class="csub">
 <span class="cgeo">Assam</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s E</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly N</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s E</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly N</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-27" data-topic="Chemicals">
@@ -1651,7 +1757,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actually Clears the Import Price</a>
 <span class="csub">
 <span class="cgeo">China, Odisha, Maharashtra</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: Wh</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-full-hsn-8_01082878313.html">Chemical Import Substitution: the Full 827-Code Data</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-27" data-topic="Circularity &amp; Waste-to-Value">
@@ -1660,7 +1766,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/the-battery-passport-was-built-for.html">The Battery Passport Was Built for Recycling. Now It&#x27;s Also the Fix for Battery Fires.</a>
 <span class="csub">
 <span class="cgeo">European Union</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html">The Easiest EV Conversion in India Hasn&#x27;t Happened Y</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-26" data-topic="Agriculture &amp; Fertilisers">
@@ -1759,7 +1865,7 @@
 <div class="crow" data-ym="2026-08" data-date="2026-08-23" data-topic="Defence">
 <span class="cdate">23 August 2026</span>
 <span class="ctag">Defence</span>
-<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html">5,071 Items You Cannot Import, and the Rs 2,570 Crore That Replaced Them</a>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html">5,417 Items You Cannot Import — and the Ministry&#x27;s Own Two Numbers for What Replaced Them</a>
 <span class="csub">
 <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html">India&#x27;s Textile Import-Export Strategy: From Depende</a>
 </span>
@@ -1835,7 +1941,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html">Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees.</a>
 <span class="csub">
 <span class="cgeo">Punjab</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html">Thirty-One Years of Asking Parliament the Same Quest</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: Wh</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html">Thirty-One Years of Asking Parliament the Same Quest</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-23" data-topic="Agriculture &amp; Fertilisers">
@@ -1843,7 +1949,7 @@
 <span class="ctag">Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html">Thirty-One Years of Asking Parliament the Same Question About Fertiliser</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html">Nano Urea Works as a Supplement and Fails as a Subst</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html">India&#x27;s Wholesale Prices Next to Everyone Else&#x27;s: Wh</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html">Nano Urea Works as a Supplement and Fails as a Subst</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-23" data-topic="Chemicals">
@@ -1938,7 +2044,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html">$0.28 a Unit: The Diesel Math Behind India&#x27;s Data Centres and Telecom Towers, and Why It&#x27;s Already Losing</a>
 <span class="csub">
 <span class="cgeo">Tamil Nadu</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Eth</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Eth</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-20" data-topic="Climate &amp; Carbon">
@@ -1960,7 +2066,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/inside-refinery-how-hydrogen-cleans.html">Inside the Refinery: How Hydrogen Cleans Your Diesel — and Why Going Green Could Raise Its Price</a>
 <span class="csub">
 <span class="cgeo">European Union</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html">RIN, RED and CBIO: What India&#x27;s Ethanol Programme Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance —</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html">India Finally Has a Rule for Used Motor Oil. Nobody </a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html">RIN, RED and CBIO: What India&#x27;s Ethanol Programme Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html">Greenhouse Emissions Reduction and CBAM Compliance —</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html">One Refinery Flipped Nigeria From Importer to Export</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-20" data-topic="Energy &amp; Fuels">
@@ -2013,7 +2119,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html">The Software Behind the Still: What&#x27;s Actually Digitising India&#x27;s Ethanol and Biofuel Supply Chain</a>
 <span class="csub">
 <span class="cgeo">China</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html">India Exports the Naphtha and Benzene Its Own Pharma</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/re-spinning-charkha.html">Re-Spinning the Charkha</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-20" data-topic="Data Centres &amp; AI Infra">
@@ -2037,7 +2143,7 @@
 <span class="ctag">Ethanol &amp; Biofuels</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/global-biofuels-m-bankruptcy-bolt-on.html">Global Biofuels M&amp;A: A Bankruptcy, a Bolt-On, and Where the Capital Is Actually Going</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html">Ten Cubic Metres an Hour: India&#x27;s First Green Fuel B</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html">The Diesel Truck Isn&#x27;t Why Your Eggs Cost More. The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-19" data-topic="Agriculture &amp; Fertilisers">
@@ -2084,7 +2190,7 @@
 <span class="ctag">Carbon Markets</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/ethanols-coal-boilers-briquette-gap-and.html">Ethanol&#x27;s Coal Boilers, the Briquette Gap, and What US Carbon Capture Actually Delivers</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s E</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-17" data-topic="Energy &amp; Fuels">
@@ -2286,7 +2392,7 @@
 <span class="ctag">Climate &amp; Carbon</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html">Price Is the Wire: How GCAM Actually Links India&#x27;s Energy, Land, Water and Economy to a Net-Zero Target</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly N</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food S</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html">Where India&#x27;s Captured Carbon Would Actually Go: Two</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html">India&#x27;s 14 PLI Schemes, and Every Company Publicly N</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-13" data-topic="Biofuels">
@@ -2369,7 +2475,7 @@
 <span class="ctag">Chemicals</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s SGST, Cut CNG&#x27;s VAT, Free the Barrel for Petrochemicals</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Eth</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/blending-on-budget-energy-density-and.html">Blending on a Budget: Energy Density and Cost Per Ki</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Eth</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html">Fuel Pricing to Crude Cost</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html">India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashbo</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-12" data-topic="Macroeconomics &amp; Monetary Policy">
@@ -2578,7 +2684,7 @@
 <span class="ctag">Industrial Policy</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/indias-epr-regime-just-got-teeth-and.html">India&#x27;s EPR Regime Just Got Teeth — and a Battery Recycling Policy Brief Explains Where It Still Bites Nothing</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html">The Easiest EV Conversion in India Hasn&#x27;t Happened Y</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-08" data-topic="Agriculture &amp; Fertilisers">
@@ -2829,7 +2935,7 @@
 <span class="ctag">Industrial Policy</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus and Its Chapter 85 Problem</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html">India’s Petrochemical Import Tree — From Petrol to P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html">The Easiest EV Conversion in India Hasn&#x27;t Happened Y</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html">India’s Petrochemical Import Tree — From Petrol to P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-05" data-topic="Gas &amp; LNG">
@@ -2854,7 +2960,7 @@
 <span class="ctag">Agriculture &amp; Fertilisers</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Ethanol Blending</a>
 <span class="csub">
-<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html">One Nation One Ration Card Doesn&#x27;t Move Grain. FCI&#x27;s</a>
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery P</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/one-nation-one-ration-card-doesnt-move.html">One Nation One Ration Card Doesn&#x27;t Move Grain. FCI&#x27;s</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-case-for-biofuels-over-imports.html">The Case for Biofuels Over Imports: Raise Ethanol&#x27;s </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-04" data-topic="Markets &amp; Finance">
@@ -2976,7 +3082,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html">Announced vs. Delivered: Five Indian State Industrial Policies, Checked Against the Numbers</a>
 <span class="csub">
 <span class="cgeo">Uttar Pradesh, Karnataka</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html">The Easiest EV Conversion in India Hasn&#x27;t Happened Y</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-02" data-topic="Agriculture &amp; Fertilisers">
@@ -3091,7 +3197,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/indias-ev-market-single-digit.html">India&#x27;s EV Market: The Single-Digit Penetration Story Behind the Doubling Headline</a>
 <span class="csub">
 <span class="cgeo">China</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html">India&#x27;s EV Localisation Deadline Just Split in Two, </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html">The Masala Deutsch Shop — Books &amp; Things From the Ar</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html">India&#x27;s EV Localisation Deadline Just Split in Two, </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/vehicles-out-motors-in-indias-chapter.html">Vehicles Out, Motors In: India&#x27;s Chapter 87 Surplus </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-02" data-topic="Trade &amp; Tariffs">
@@ -3117,7 +3223,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/08/nature-versus-nurture-indias-fertiliser.html">Nature Versus Nurture: India&#x27;s Fertiliser-Fed Food Security</a>
 <span class="csub">
 <span class="cgeo">China, Saudi Arabia, Gujarat, Uttar Pradesh</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Pi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html">Europe Bought a Record Amount of LNG and Made Itself</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Pi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/indias-coal-to-chemicals-menu-ranked-by.html">India&#x27;s Coal-to-Chemicals Menu, Ranked by What Actua</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html">The Reactor Nobody Names: How Coal Becomes Syngas, a</a>
 </span>
 </div>
 <div class="crow" data-ym="2026-08" data-date="2026-08-02" data-topic="Trade &amp; Tariffs">
@@ -3205,7 +3311,7 @@
  <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html">Petroleum Trade Pairings and the US Crude Storage Pi</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html">Chemical Import Substitution Analysis: Executive Sum</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html">What India Is Actually Paying For: Absorbing Someone</a>
 </span>
 </div>
-<div class="cgroup" data-ym="2026-07"><span>July 2026</span><span class="cgroup-n">22 articles</span></div>
+<div class="cgroup" data-ym="2026-07"><span>July 2026</span><span class="cgroup-n">23 articles</span></div>
 <div class="crow" data-ym="2026-07" data-date="2026-07-31" data-topic="AI Tracker">
 <span class="cdate">31 July 2026</span>
 <span class="ctag">AI Tracker</span>
@@ -3250,7 +3356,7 @@
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html">The Grain Value Loop — Integrated Rice Biorefinery Pitch</a>
 <span class="csub">
 <span class="cgeo">Karnataka, Rajasthan</span>
- <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/annadata-to-urjadata-farmer-income-case.html">Annadata to Urjadata: The Farmer-Income Case for Eth</a>
+ <span class="cdot">&middot;</span> <span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html">The Price of Grain: MSP, MSV, and the Arithmetic of </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html">The Top 15 Import-Substitution Chemicals, Code by Co</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html">India Grows the Soybean, Exports the Meal, Leads in </a>
 </span>
 </div>
 <div class="crow" data-ym="2026-07" data-date="2026-07-31" data-topic="Industrial Policy">
@@ -3356,6 +3462,14 @@
 <span class="ctag">Environment &amp; Clearances</span>
 <a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html">India Forest, Wildlife &amp; CRZ Clearances — PARIVESH</a>
 </div>
+<div class="crow" data-ym="2026-07" data-date="2026-07-22" data-topic="Energy &amp; Fuels">
+<span class="cdate">22 July 2026</span>
+<span class="ctag">Energy &amp; Fuels</span>
+<a class="ctitle" href="https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html">India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)</a>
+<span class="csub">
+<span class="crel-lbl">Related</span> <a href="https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html">PNGRB Graded Its Own Homework on the 2025-26 Plan. I</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html">India Has 132 Compressed Biogas Plants Running. The </a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-2025-committee-now-expects.html">PNGRB&#x27;s Own 2025 Committee Now Expects Less Gas Dema</a>
+</span>
+</div>
 <div class="crow" data-ym="2026-07" data-date="2026-07-22" data-topic="Markets &amp; Finance">
 <span class="cdate">22 July 2026</span>
 <span class="ctag">Markets &amp; Finance</span>
@@ -3432,6 +3546,4 @@
     selM.value=''; selD.value=''; selT.value=''; apply();
   });
 })();
-//]]></script>
-<style>/*gs-dark-panel-guard*/.gb-table thead th{background:#212529!important}.gb-table thead th,.gb-table thead th *{color:#fff!important}.gb-table thead th a,.gb-table thead th a *{color:#cfe3ff!important}</style>
-<p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.82rem;color:#555;margin-top:14px"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+//]]></script><p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.82rem;color:#555;margin-top:14px"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>

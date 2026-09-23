@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-23T16:10:11+00:00",
+  "snapshot": "2026-09-23T17:47:21+00:00",
   "count": 316,
   "posts": {
     "1048441984418088016": {
@@ -34220,13 +34220,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-19T09:15:03.000+05:30",
+      "updated": "2026-09-23T23:16:55.000+05:30",
       "labels": [],
-      "bytes": 391828,
-      "sha256": "ebf8c48fc52007b06066b41c286aa6cc6ff174a79d638acea2f50ef2beeecbb4",
+      "bytes": 403864,
+      "sha256": "b0d74a2dec1fb1a856d787f0ce2c4de2d8b79517681b97447a26eadc17d48ea5",
       "markers": {
         "light_lock": false,
-        "dark_panel_guard": true,
+        "dark_panel_guard": false,
         "typo_unify": false,
         "translate_widget": true,
         "index_link": true,
@@ -34235,7 +34235,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "51.2.0",
+      "version": "51.2.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -35922,6 +35922,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes"
+        },
+        {
+          "version": "51.2.1",
+          "date": "2026-09-23T17:47:21+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            391828,
+            403864
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "dark_panel_guard": [
+              true,
+              false
+            ]
+          },
+          "note": "Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild"
         }
       ]
     },

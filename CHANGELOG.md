@@ -12450,3 +12450,16 @@ Correct Delhi Ridge tree-felling contempt case in smog-towers post: matter was a
 **Changed**
 
 - `delhis-smog-towers-failed-test-44-year` — 38,505 → 40,316 bytes (+1,811)
+
+## 2026-09-23T17:47:21+00:00 — 316 posts live
+
+Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild
+
+
+**Versions**
+
+- `article-index-start-here` **51.2.0 → 51.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 391,828 → 403,864 bytes (+12,036); markers dark_panel_guard True→False
