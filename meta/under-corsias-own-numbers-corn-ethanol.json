@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
   "slug": "under-corsias-own-numbers-corn-ethanol",
   "published": "2026-09-23T16:31:55.000+05:30",
-  "updated": "2026-09-23T16:32:05.000+05:30",
+  "updated": "2026-09-23T16:51:33.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 22216,
-  "sha256": "d3fc009462424182157a6f175ca18a31f40a2fbeb48474d28010ad7e2edf35af",
+  "bytes": 27027,
+  "sha256": "74a5a2cc30db21346bb70c224d27f5869da88654036c238a1a8f2ca3285c36b1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-23T11:21:59+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22216,
+        27027
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Amend the CORSIA/corn-ethanol post with recent ICAO/CORSIA data: confirmed ICAO's 8th edition default life-cycle emissions table was approved 19 November 2025 (methodology changes: IPCC 2019 factors, soil-carbon-accumulation credit removed, ATJ-ethanol energy yields refined, new POME HEFA default, broader feedstock coverage); updated Sustainability Certification Scheme approval dates (ISCC/RSB June 2023, ClassNK October 2024, Fourth Edition SCS list June 2026); and added a clarification distinguishing the fuel-eligibility baseline (89 gCO2e/MJ, this piece's subject) from CORSIA's separate sector-wide offsetting baseline (85% of 2019 emissions, 2027-2029 offsetting phase). Confirmed icao.int and a third-party mirror both remain blocked from this research environment on repeated attempts, so the exact revised corn-ethanol/molasses numeric values in the 8th edition could not be pulled directly -- flagged that gap explicitly rather than guessing at the numbers."
     }
   ]
 }

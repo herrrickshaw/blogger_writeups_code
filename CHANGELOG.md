@@ -12398,3 +12398,16 @@ Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathwa
 
 - `under-corsias-own-numbers-corn-ethanol` **v1.0.0** — Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace (22,216 bytes)
 - `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)
+
+## 2026-09-23T11:21:59+00:00 — 316 posts live
+
+Amend the CORSIA/corn-ethanol post with recent ICAO/CORSIA data: confirmed ICAO's 8th edition default life-cycle emissions table was approved 19 November 2025 (methodology changes: IPCC 2019 factors, soil-carbon-accumulation credit removed, ATJ-ethanol energy yields refined, new POME HEFA default, broader feedstock coverage); updated Sustainability Certification Scheme approval dates (ISCC/RSB June 2023, ClassNK October 2024, Fourth Edition SCS list June 2026); and added a clarification distinguishing the fuel-eligibility baseline (89 gCO2e/MJ, this piece's subject) from CORSIA's separate sector-wide offsetting baseline (85% of 2019 emissions, 2027-2029 offsetting phase). Confirmed icao.int and a third-party mirror both remain blocked from this research environment on repeated attempts, so the exact revised corn-ethanol/molasses numeric values in the 8th edition could not be pulled directly -- flagged that gap explicitly rather than guessing at the numbers.
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 22,216 → 27,027 bytes (+4,811)
