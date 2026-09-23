@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-09-23T13:16:17.467+05:30",
+  "updated": "2026-09-23T15:45:57.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 18340,
-  "sha256": "bca145cca6386e508bf1b692e389a3d61cfb9f0573bf577376dde434c381797b",
+  "bytes": 23663,
+  "sha256": "c9932db81ff0318d67d08e9c60d49f3e718f9b26163edf40d3bbdc391d0e61b9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-23T10:16:48+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        18340,
+        23663
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Amend the CBG-CGD connectivity post with a new section sizing the connectivity gap against India's own legislature and district count: 543 Lok Sabha MPs, 245 Rajya Sabha MPs, 4,123 state Assembly (MLA) seats, and ~800 districts, framed as an ODOP-style 'one plant per constituency' opportunity for political accountability -- explicitly labelled as this blog's own framing/proposal, not a claimed government allocation target. Verified all legislature/district figures independently, including that the Delimitation Bill 2026 (which would have raised Lok Sabha to 850 seats) failed and was withdrawn, so 543 remains current."
     }
   ]
 }

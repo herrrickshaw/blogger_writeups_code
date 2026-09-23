@@ -12371,3 +12371,20 @@ scheduled sync
 **Added**
 
 - `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)
+
+## 2026-09-23T10:16:48+00:00 — 314 posts live
+
+Amend the CBG-CGD connectivity post with a new section sizing the connectivity gap against India's own legislature and district count: 543 Lok Sabha MPs, 245 Rajya Sabha MPs, 4,123 state Assembly (MLA) seats, and ~800 districts, framed as an ODOP-style 'one plant per constituency' opportunity for political accountability -- explicitly labelled as this blog's own framing/proposal, not a claimed government allocation target. Verified all legislature/district figures independently, including that the Delimitation Bill 2026 (which would have raised Lok Sabha to 850 seats) failed and was withdrawn, so 543 remains current.
+
+
+**Versions**
+
+- `india-has-132-compressed-biogas-plants` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-has-132-compressed-biogas-plants` — 18,340 → 23,663 bytes (+5,323)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
