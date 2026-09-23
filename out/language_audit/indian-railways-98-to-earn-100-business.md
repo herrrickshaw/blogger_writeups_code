@@ -4,4 +4,9 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[GRAMMAR/AGREEMENT_SENT_START]** Possible agreement error. You should probably use: “are”.
+  context: ...d a lack of clarity on whether Railways is meant to be run as a commercial underta...
+  suggested: are
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...r The Hindu Centre: "on average only 57 per cent of travel cost is recovered" from passe...
+  suggested: percent

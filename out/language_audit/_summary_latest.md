@@ -1,14 +1,14 @@
-# Language audit summary — 2026-09-22
+# Language audit summary — 2026-09-23
 
-*136 of 284 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
+*137 of 284 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
-- [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 74 matches — see `winter-is-coming-for-europes-landlocked.md`
+- [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
 - [Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees.](https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html) — 49 matches — see `nano-urea-works-as-supplement-and-fails.md`
+- [Half-Empty Terminals, Costlier Pipes: Winter Comes for Europe's Landlocked Five](https://masaladeutsch.blogspot.com/2026/08/winter-is-coming-for-europes-landlocked.html) — 48 matches — see `winter-is-coming-for-europes-landlocked.md`
 - [Indian Medicine Depends Heavily on Chinese Imports](https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html) — 43 matches — see `india-cannot-sell-china-free-medicine.md`
-- [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 42 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
 - [Premium Now, Claim Later: The Float India's Car Boom Is Building](https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html) — 42 matches — see `premium-now-claim-later-float-indias.md`
+- [379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html) — 39 matches — see `379-kilos-hectare-in-punjab-44-in.md`
 - [India Hit E20 on Maize and Rice, Not Sugarcane](https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html) — 36 matches — see `india-hit-e20-on-maize-and-rice-not.md`
-- [379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html) — 30 matches — see `379-kilos-hectare-in-punjab-44-in.md`
 - [You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill.](https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html) — 29 matches — see `you-cannot-substitute-crude-oil-or-gold.md`
 - [India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html) — 25 matches — see `india-imports-283000-tonnes-of-almonds.md`
 - [India's Shrimp Exports Did Not Collapse. The Code Did.](https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html) — 24 matches — see `indias-shrimp-exports-did-not-collapse.md`
@@ -62,6 +62,7 @@
 - [FIPI's Biggest Ask Is Getting Natural Gas Under GST. It Still Hasn't Happened](https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html) — 2 matches — see `fipis-biggest-ask-is-getting-natural.md`
 - [India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html) — 2 matches — see `india-fuel-retail-outlets-82k-geocoded.md`
 - [Indian IT in an AI Era](https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html) — 2 matches — see `indian-it-in-ai-era.md`
+- [Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made](https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html) — 2 matches — see `indian-railways-98-to-earn-100-business.md`
 - [India's Trade Balance — HSN-wise Export/Import Analysis](https://masaladeutsch.blogspot.com/2026/08/indias-trade-balance-hsn-wise.html) — 2 matches — see `indias-trade-balance-hsn-wise.md`
 - [India's Wholesale Prices Next to Everyone Else's: What Survives the Methodology Check](https://masaladeutsch.blogspot.com/2026/08/indias-wholesale-prices-next-to.html) — 2 matches — see `indias-wholesale-prices-next-to.md`
 - [One Refinery Flipped Nigeria From Importer to Exporter. Africa's Oil Imports Are Still Rising.](https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html) — 2 matches — see `one-refinery-flipped-nigeria-from.md`
@@ -134,7 +135,7 @@
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.](https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html) — 0 matches — see `ahidf-has-sanctioned-19751-crore-in.md`
-- [Indian Railways: A ₹98-to-Earn-₹100 Business, and the Decade-Old Accounting Fix It Still Hasn't Made](https://masaladeutsch.blogspot.com/2026/08/indian-railways-98-to-earn-100-business.html) — 0 matches — see `indian-railways-98-to-earn-100-business.md`
-- [India's 14 PLI Schemes, and Every Company Publicly Named as a Winner, 2019–2026](https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html) — 0 matches — see `nine-ministries-one-list-every-company.md`
-- [From 50% to 10%: How Three Tariff Regimes and a Supreme Court Ruling Reshaped What Hits India's Exports](https://masaladeutsch.blogspot.com/2026/09/the-50-tariff-and-234-one-untangling.html) — 0 matches — see `the-50-tariff-and-234-one-untangling.md`
+- [Bio-Fertiliser and Green Credits: Regrowing India's Arid Land](https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html) — 0 matches — see `bio-fertiliser-and-green-credits.md`
+- [Biomass Power at Night: The Dispatchable Renewable India's Growth Numbers Left Behind](https://masaladeutsch.blogspot.com/2026/08/biomass-power-at-night-dispatchable.html) — 0 matches — see `biomass-power-at-night-dispatchable.md`
+- [If India Paid BRICS in Rupees: A Scenario Model of De-Dollarising 41% of the Import Bill](https://masaladeutsch.blogspot.com/2026/08/if-india-paid-brics-in-rupees-scenario.html) — 0 matches — see `if-india-paid-brics-in-rupees-scenario.md`
+- [Rare-Earth Magnets and Specialty Steel: India's ₹7,280 Crore Bet on the EV Supply Chain's Missing Middle](https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html) — 0 matches — see `rare-earth-magnets-and-specialty-steel.md`
