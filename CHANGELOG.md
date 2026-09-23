@@ -12437,3 +12437,16 @@ Correct Gevo Net-Zero 1 (dead, replaced by North Dakota Project Northstar) and a
 **Changed**
 
 - `india-wants-isobutanol-in-both-diesel` — 23,953 → 28,011 bytes (+4,058)
+
+## 2026-09-23T16:10:11+00:00 — 316 posts live
+
+Correct Delhi Ridge tree-felling contempt case in smog-towers post: matter was already resolved (May 2025 SC contempt finding + fine + afforestation order, 2026 conditional-felling order), not an open inquiry
+
+
+**Versions**
+
+- `delhis-smog-towers-failed-test-44-year` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `delhis-smog-towers-failed-test-44-year` — 38,505 → 40,316 bytes (+1,811)
