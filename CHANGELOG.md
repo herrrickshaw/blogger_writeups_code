@@ -12340,3 +12340,25 @@ Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-m
 **Added**
 
 - `the-diesel-truck-isnt-why-your-eggs` **v1.0.0** — The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is. (21,052 bytes)
+
+## 2026-09-23T07:47:45+00:00 — 314 posts live
+
+Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets.
+
+
+**Added**
+
+- `india-has-132-compressed-biogas-plants` **v1.0.0** — India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them. (18,340 bytes)
+- `pngrb-graded-its-own-homework-on-2025` **v1.0.0** — PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter. (19,875 bytes)
+
+**Versions**
+
+- `indias-gas-pipelines-run-at-half` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-gas-pipelines-run-at-half` — 31,233 → 32,098 bytes (+865)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios

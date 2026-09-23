@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-23T03:55:52+00:00",
-  "count": 313,
+  "snapshot": "2026-09-23T07:47:45+00:00",
+  "count": 314,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -15755,240 +15755,6 @@
         }
       ]
     },
-    "3402930958562553181": {
-      "id": "3402930958562553181",
-      "title": "Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios",
-      "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
-      "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
-      "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-09-11T00:05:43.000+05:30",
-      "labels": [
-        "Textiles"
-      ],
-      "bytes": 20656,
-      "sha256": "e8ae10e3cbe0e1d2cb299884688162be7e7be508d930c7f9c124b38697aa7425",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": true,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "2.1.1",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-08-06T09:46:05+05:30",
-          "level": "baseline",
-          "reason": "version tracking introduced",
-          "note": ""
-        },
-        {
-          "version": "1.0.1",
-          "date": "2026-08-06T11:31:49+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            12999,
-            9985
-          ],
-          "url_changed": null,
-          "markers_changed": {
-            "inverted_media_query": [
-              true,
-              false
-            ]
-          },
-          "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-        },
-        {
-          "version": "1.0.2",
-          "date": "2026-08-08T09:32:14+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            9985,
-            11258
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "gs-table-v1 rollout; AI Tracker index section"
-        },
-        {
-          "version": "1.0.3",
-          "date": "2026-08-08T14:26:40+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            11258,
-            11377
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "site-index stub in all 98 posts"
-        },
-        {
-          "version": "1.0.4",
-          "date": "2026-08-12T22:24:04+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            11377,
-            11536
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.5",
-          "date": "2026-08-13T03:50:57+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            11536,
-            16070
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.6",
-          "date": "2026-08-13T08:42:55+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            16070,
-            16989
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.7",
-          "date": "2026-08-13T11:02:49+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-          "bytes": [
-            16989,
-            17084
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-        },
-        {
-          "version": "1.0.8",
-          "date": "2026-08-16T14:49:00+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            17084,
-            17612
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "1.0.9",
-          "date": "2026-08-16T15:22:21+05:30",
-          "level": "patch",
-          "reason": "visible text identical; only markup/styling changed",
-          "bytes": [
-            17612,
-            17967
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.0.0",
-          "date": "2026-08-26T03:35:52+00:00",
-          "level": "major",
-          "reason": "figures changed (+1/-0 distinct numbers)",
-          "bytes": [
-            17967,
-            20733
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "scheduled sync"
-        },
-        {
-          "version": "2.0.1",
-          "date": "2026-09-05T21:41:22+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            20733,
-            20552
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-        },
-        {
-          "version": "2.0.2",
-          "date": "2026-09-05T22:16:32+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-          "bytes": [
-            20552,
-            19671
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Manual ad units removed from all posts; Auto ads only"
-        },
-        {
-          "version": "2.0.3",
-          "date": "2026-09-07T19:53:24+05:30",
-          "level": "patch",
-          "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-          "bytes": [
-            19671,
-            18752
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-        },
-        {
-          "version": "2.1.0",
-          "date": "2026-09-10T22:54:22+05:30",
-          "level": "minor",
-          "reason": "prose grew 5,945→6,409 chars with no new figures",
-          "bytes": [
-            18752,
-            19743
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        },
-        {
-          "version": "2.1.1",
-          "date": "2026-09-11T00:25:49+05:30",
-          "level": "patch",
-          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-          "bytes": [
-            19743,
-            20656
-          ],
-          "url_changed": null,
-          "markers_changed": null,
-          "note": ""
-        }
-      ]
-    },
     "3467462935277445173": {
       "id": "3467462935277445173",
       "title": "Can Rupee Trade Actually Offset the Inflation India Is Importing?",
@@ -22155,6 +21921,41 @@
         }
       ]
     },
+    "4507390373071790777": {
+      "id": "4507390373071790777",
+      "title": "India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
+      "slug": "india-has-132-compressed-biogas-plants",
+      "published": "2026-09-23T13:15:31.000+05:30",
+      "updated": "2026-09-23T13:16:17.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Gas & LNG"
+      ],
+      "bytes": 18340,
+      "sha256": "bca145cca6386e508bf1b692e389a3d61cfb9f0573bf577376dde434c381797b",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-23T07:47:45+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
+        }
+      ]
+    },
     "4512849373867560750": {
       "id": "4512849373867560750",
       "title": "Mrs Watanabe Traded From the Kitchen Table. India's Next Wave of Traders Could Too",
@@ -27074,6 +26875,41 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        }
+      ]
+    },
+    "5478922278761132430": {
+      "id": "5478922278761132430",
+      "title": "PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html",
+      "slug": "pngrb-graded-its-own-homework-on-2025",
+      "published": "2026-09-23T13:15:09.000+05:30",
+      "updated": "2026-09-23T13:16:11.000+05:30",
+      "labels": [
+        "Gas & LNG",
+        "Industrial Policy"
+      ],
+      "bytes": 19875,
+      "sha256": "784a0ded0d08e25bc1ad408d9d94bc48102b1f5fcf11734ed10397df5dac83eb",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": true,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-23T07:47:45+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
         }
       ]
     },
@@ -36876,14 +36712,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
       "slug": "indias-gas-pipelines-run-at-half",
       "published": "2026-09-08T05:37:01.000+05:30",
-      "updated": "2026-09-11T11:46:56.000+05:30",
+      "updated": "2026-09-23T13:17:13.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 31233,
-      "sha256": "4828d2f7c09a22d5c2f3f1b6a16d1b3dfcbe8d8c6878b5760e555353eef84aa3",
+      "bytes": 32098,
+      "sha256": "2ce1167650cea4533b3db3be7f1944fd7ae2f19a8749023d51e54cd05a547936",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36895,7 +36731,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36929,6 +36765,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed two OVERFLOW-LEFT issues (\"Multi-product pipelines, Apr–Nov 2025\" and \"Numaligarh–Siliguri crude line, FY24-25\" row labels running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping each into two lines."
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-09-23T07:47:45+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            31233,
+            32098
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
         }
       ]
     },
