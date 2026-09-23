@@ -133,6 +133,11 @@ OVERRIDE = {
     # (south-africa-lost-its-gulf-fuel-supply). Manually labelled at publish
     # time (2026-09-22) rather than run through --apply.
     "nobody-blockaded-hormuz-to-slow-india": ["Trade & Tariffs", "Energy & Fuels"],
+    # Ethanol-feedstock/food-price piece (egg/poultry angle) -- matches the
+    # label pair already used on the sibling maize/ethanol-food posts
+    # (annadata-to-urjadata-farmer-income-case). Manually labelled at
+    # publish time (2026-09-23) rather than run through --apply.
+    "the-diesel-truck-isnt-why-your-eggs": ["Agriculture & Fertilisers", "Energy & Fuels"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,

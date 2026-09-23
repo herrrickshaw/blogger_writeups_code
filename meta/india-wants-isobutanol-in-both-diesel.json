@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-wants-isobutanol-in-both-diesel.html",
   "slug": "india-wants-isobutanol-in-both-diesel",
   "published": "2026-09-21T11:00:00.000+05:30",
-  "updated": "2026-09-21T11:00:14.000+05:30",
+  "updated": "2026-09-22T09:05:27.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 23834,
-  "sha256": "95c4c6a7a16da582cd81cdda1c25640197c07063958a748cf36a946619b03063",
+  "bytes": 23953,
+  "sha256": "581c2c6e32b094ffbec70132273672270973bda512c08eff0b940942030d40ec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-23T03:47:47+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23834,
+        23953
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-mandate feedstock competition reaching retail egg prices. Rules out the diesel/freight-cost channel using this blog's own prior diesel-vs-CPI-food correlation finding (-0.16, wrong sign), then traces the actual channel: ~37% of India's maize crop now diverted to ethanol, competing with poultry feed (55% maize by weight), tracked into a reported 35-40% YoY rise in egg prices (NECC data, Sept 2026 trade coverage). Cross-links this blog's own maize/ethanol/sugar posts and the recent E20 tailpipe-CO2 well-to-wheel piece for the borrowed full-lifecycle-accounting framing."
     }
   ]
 }
