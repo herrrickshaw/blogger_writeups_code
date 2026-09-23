@@ -12310,14 +12310,13 @@ Publish new post: Hormuz blockade / IMEC / India-EU FTA piece. Corrects the prem
 
 - `indias-petrochemical-import-tree-from` — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)
 
-## 2026-09-23T03:47:47+00:00 — 313 posts live
+## 2026-09-22T07:56:03+00:00 — 312 posts live
 
-Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-mandate feedstock competition reaching retail egg prices. Rules out the diesel/freight-cost channel using this blog's own prior diesel-vs-CPI-food correlation finding (-0.16, wrong sign), then traces the actual channel: ~37% of India's maize crop now diverted to ethanol, competing with poultry feed (55% maize by weight), tracked into a reported 35-40% YoY rise in egg prices (NECC data, Sept 2026 trade coverage). Cross-links this blog's own maize/ethanol/sugar posts and the recent E20 tailpipe-CO2 well-to-wheel piece for the borrowed full-lifecycle-accounting framing.
+scheduled sync
 
 
 **Added**
 
-- `the-diesel-truck-isnt-why-your-eggs` **v1.0.0** — The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is. (21,052 bytes)
 - `indias-petrochemical-import-tree-from` **v1.0.0** — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded) (31,860 bytes)
 - `us-stock-picks-multi-screen-quant` **v1.0.0** — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026) (35,870 bytes)
 
