@@ -12411,3 +12411,16 @@ Amend the CORSIA/corn-ethanol post with recent ICAO/CORSIA data: confirmed ICAO'
 **Changed**
 
 - `under-corsias-own-numbers-corn-ethanol` — 22,216 → 27,027 bytes (+4,811)
+
+## 2026-09-23T11:26:33+00:00 — 316 posts live
+
+Amend the CORSIA/corn-ethanol post using a user-supplied SAF emissions calculator spreadsheet (built around IATA's SAF Accounting and Reporting Methodology, released 31 Jan 2025) and its cited sources. The spreadsheet gives maize a much lower, passing LCA default (43 gCO2e/MJ) than this piece's CORSIA/ISCC figure (90.8-100.6, failing) -- added a section reconciling this rather than silently overwriting either number: explained the IATA formula is a downstream accounting tool for airlines claiming credit on already-purchased SAF, not a CORSIA-eligibility gate, so a calculator populated with an optimistic literature LCA value can compute a real number that still overstates what CORSIA would actually certify. Cited the real academic literature range for corn-ethanol-ATJ (roughly 35-70 gCO2e/MJ across studies) to show the disagreement is real and methodological (ILUC treatment), not an error on either side. Added rice-straw and MSW feedstock data from the same spreadsheet with an independently-verified Punjab paddy-straw generation figure (~19-20 MMT/year). Flagged that the spreadsheet's own primary sources (IATA methodology PDF, WRI India SAF report) were confirmed to exist via search but could not be fetched directly, same as icao.int.
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 27,027 → 32,792 bytes (+5,765)
