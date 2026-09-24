@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html",
   "slug": "india-is-piping-jet-fuel-to-five-new",
   "published": "2026-09-08T05:37:18.000+05:30",
-  "updated": "2026-09-11T11:40:31.000+05:30",
+  "updated": "2026-09-24T05:39:42.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Infrastructure & Investment",
     "Mobility & EV"
   ],
-  "bytes": 35432,
-  "sha256": "6259ebd93e920a4263abaaa55e9538559320fc459fd51ecad46b6d30160b481c",
+  "bytes": 35928,
+  "sha256": "828c4d307c10ecbecf12b0a3f6282e45eaa13d3a3800d68cfbd21a0522fd84f3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"4.99 MMTPA\" Hyderabad label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-24T00:10:01+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        35432,
+        35928
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix internal contradiction in ATF pipeline post: section 2 wrongly said Mopa airport has a pipeline in the works, contradicting the post's own section 3 and section 5 which correctly show no pipeline proposal found for Mopa"
     }
   ]
 }

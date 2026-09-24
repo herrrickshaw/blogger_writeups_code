@@ -12463,3 +12463,16 @@ Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 
 **Changed**
 
 - `article-index-start-here` — 391,828 → 403,864 bytes (+12,036); markers dark_panel_guard True→False
+
+## 2026-09-24T00:10:01+00:00 — 316 posts live
+
+Fix internal contradiction in ATF pipeline post: section 2 wrongly said Mopa airport has a pipeline in the works, contradicting the post's own section 3 and section 5 which correctly show no pipeline proposal found for Mopa
+
+
+**Versions**
+
+- `india-is-piping-jet-fuel-to-five-new` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-is-piping-jet-fuel-to-five-new` — 35,432 → 35,928 bytes (+496)
