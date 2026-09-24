@@ -12532,3 +12532,16 @@ Add tanker freight market and shadow-fleet section to Kpler/Vortexa post: record
 **Changed**
 
 - `kpler-and-vortexa-track-every-barrel` — 33,939 → 38,015 bytes (+4,076)
+
+## 2026-09-24T03:58:32+00:00 — 317 posts live
+
+New post: IMO's stalled Net-Zero Framework adoption vote (delayed to 4 Dec 2026), LNG's dominant share of alternative-fuel newbuild orders (Clarksons), marine biodiesel blending under FuelEU Maritime incl. MASH Makes' cashew-shell biofuel trial, and India's methanol-bunkering bet at Kandla
+
+
+**Added**
+
+- `shippings-net-zero-vote-keeps-getting` **v1.0.0** — Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It. (24,633 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-subsidised-imports-fertilisers` — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)

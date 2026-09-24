@@ -154,6 +154,11 @@ OVERRIDE = {
     # UCO/ULO commodity streams. Manually labelled at publish time
     # (2026-09-24) rather than run through --apply.
     "kpler-and-vortexa-track-every-barrel": ["Energy & Fuels", "Trade & Tariffs"],
+    # New post on IMO's stalled Net-Zero Framework, LNG bunkering growth,
+    # marine biodiesel/MASH Makes blending, and India's methanol-bunkering
+    # bet. Manually labelled at publish time (2026-09-24) rather than run
+    # through --apply.
+    "shippings-net-zero-vote-keeps-getting": ["Energy & Fuels", "Ethanol & Biofuels"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,
