@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
   "slug": "kpler-and-vortexa-track-every-barrel",
   "published": "2026-09-24T08:43:14.000+05:30",
-  "updated": "2026-09-24T08:49:00.000+05:30",
+  "updated": "2026-09-24T09:17:49.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 33939,
-  "sha256": "67c2f38c7fd5b140a31fdc626d329489c40e6f01127e6b866266559a80de0c07",
+  "bytes": 38015,
+  "sha256": "dd0537ab285f69cc6df966c02d790242ebfdb0b7e322fbc28b485923d5edee10",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add HSN-code trade data to Kpler/Vortexa post: India's own UCO exports under HSN 15180039 (growing, mostly via Malaysia), India's 2026 biodiesel export forecast, RBI's palm-oil-diversion inflation note, and exact IOCL-Re Sustainability ULO MoU date/capacity detail"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-24T03:48:06+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        33939,
+        38015
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add tanker freight market and shadow-fleet section to Kpler/Vortexa post: record VLCC rates (Hellenic Shipping News/Affinity), the 1,300+-vessel sanctions-evading shadow fleet (Lloyd's List), and VLCC/LNG orderbook and rate contrast (Clarksons Research)"
     }
   ]
 }
