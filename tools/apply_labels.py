@@ -150,6 +150,10 @@ OVERRIDE = {
     # already used on the sibling ATJ/isobutanol post. Manually labelled at
     # publish time (2026-09-23) rather than run through --apply.
     "under-corsias-own-numbers-corn-ethanol": ["Energy & Fuels", "Ethanol & Biofuels"],
+    # New post on Kpler/Vortexa-tracked oil and gas flows plus the untracked
+    # UCO/ULO commodity streams. Manually labelled at publish time
+    # (2026-09-24) rather than run through --apply.
+    "kpler-and-vortexa-track-every-barrel": ["Energy & Fuels", "Trade & Tariffs"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,

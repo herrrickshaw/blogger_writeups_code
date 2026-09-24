@@ -12476,3 +12476,12 @@ Fix internal contradiction in ATF pipeline post: section 2 wrongly said Mopa air
 **Changed**
 
 - `india-is-piping-jet-fuel-to-five-new` — 35,432 → 35,928 bytes (+496)
+
+## 2026-09-24T03:14:09+00:00 — 317 posts live
+
+New post: Kpler and Vortexa-tracked global oil/gas commodity flows (India's Russian crude surge, LNG oversupply), plus untracked UCO/ULO sections (global UCO fraud/tariff fight, India's RUCO collection shortfall, India's new ULO re-refining MoUs)
+
+
+**Added**
+
+- `kpler-and-vortexa-track-every-barrel` **v1.0.0** — Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way. (29,512 bytes)
