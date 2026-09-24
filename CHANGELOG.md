@@ -12485,3 +12485,16 @@ New post: Kpler and Vortexa-tracked global oil/gas commodity flows (India's Russ
 **Added**
 
 - `kpler-and-vortexa-track-every-barrel` **v1.0.0** — Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way. (29,512 bytes)
+
+## 2026-09-24T03:19:18+00:00 — 317 posts live
+
+Add HSN-code trade data to Kpler/Vortexa post: India's own UCO exports under HSN 15180039 (growing, mostly via Malaysia), India's 2026 biodiesel export forecast, RBI's palm-oil-diversion inflation note, and exact IOCL-Re Sustainability ULO MoU date/capacity detail
+
+
+**Versions**
+
+- `kpler-and-vortexa-track-every-barrel` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `kpler-and-vortexa-track-every-barrel` — 29,512 → 33,939 bytes (+4,427)

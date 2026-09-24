@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
   "slug": "kpler-and-vortexa-track-every-barrel",
   "published": "2026-09-24T08:43:14.000+05:30",
-  "updated": "2026-09-24T08:43:50.000+05:30",
+  "updated": "2026-09-24T08:49:00.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 29512,
-  "sha256": "3cc58c75b681f0e020583182fe61908d06787febcf1788f12e131039d404fa75",
+  "bytes": 33939,
+  "sha256": "67c2f38c7fd5b140a31fdc626d329489c40e6f01127e6b866266559a80de0c07",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: Kpler and Vortexa-tracked global oil/gas commodity flows (India's Russian crude surge, LNG oversupply), plus untracked UCO/ULO sections (global UCO fraud/tariff fight, India's RUCO collection shortfall, India's new ULO re-refining MoUs)"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-24T03:19:18+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        29512,
+        33939
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add HSN-code trade data to Kpler/Vortexa post: India's own UCO exports under HSN 15180039 (growing, mostly via Malaysia), India's 2026 biodiesel export forecast, RBI's palm-oil-diversion inflation note, and exact IOCL-Re Sustainability ULO MoU date/capacity detail"
     }
   ]
 }
