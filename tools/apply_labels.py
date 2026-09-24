@@ -159,6 +159,13 @@ OVERRIDE = {
     # bet. Manually labelled at publish time (2026-09-24) rather than run
     # through --apply.
     "shippings-net-zero-vote-keeps-getting": ["Energy & Fuels", "Ethanol & Biofuels"],
+    # New post based on the herrrickshaw/india-quality-regulation GitHub
+    # repo, mapping India's ~37 quality-certification bodies across four
+    # regulatory layers, plus an independent correction (Scheme-X was
+    # repealed 14 Jan 2026, not "due September 2026" as the source repo's
+    # fetch still shows). Manually labelled at publish time (2026-09-24)
+    # rather than run through --apply.
+    "india-doesnt-have-one-quality-regulator": ["Industrial Policy", "Trade & Tariffs"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,

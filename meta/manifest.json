@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-24T03:58:32+00:00",
-  "count": 317,
+  "snapshot": "2026-09-24T06:01:59+00:00",
+  "count": 319,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -37676,6 +37676,41 @@
         }
       ]
     },
+    "6579645631096942481": {
+      "id": "6579645631096942481",
+      "title": "India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html",
+      "slug": "india-doesnt-have-one-quality-regulator",
+      "published": "2026-09-24T11:31:15.000+05:30",
+      "updated": "2026-09-24T11:31:31.000+05:30",
+      "labels": [
+        "Industrial Policy",
+        "Trade & Tariffs"
+      ],
+      "bytes": 24188,
+      "sha256": "f9dba917a5fd8e006e96ab0820e04e7107def726d41dc4661a0b3a447472f434",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-24T06:01:59+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states"
+        }
+      ]
+    },
     "6616496259362778316": {
       "id": "6616496259362778316",
       "title": "India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China",
@@ -52793,6 +52828,42 @@
             ]
           },
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        }
+      ]
+    },
+    "8984990991409633254": {
+      "id": "8984990991409633254",
+      "title": "India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)",
+      "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
+      "slug": "indias-subsidised-imports-fertilisers",
+      "published": "2026-07-31T05:30:00.000+05:30",
+      "updated": "2026-09-16T21:39:07.000+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Chemicals",
+        "Trade & Tariffs"
+      ],
+      "bytes": 38180,
+      "sha256": "9579b218c7268ca523a6ef67182f3bbc1b6fb7f8f9f146769a421185534a1b21",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": true,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-24T06:01:59+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states"
         }
       ]
     },

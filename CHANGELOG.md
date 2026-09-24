@@ -12545,3 +12545,13 @@ New post: IMO's stalled Net-Zero Framework adoption vote (delayed to 4 Dec 2026)
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `indias-subsidised-imports-fertilisers` — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)
+
+## 2026-09-24T06:01:59+00:00 — 319 posts live
+
+New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states
+
+
+**Added**
+
+- `india-doesnt-have-one-quality-regulator` **v1.0.0** — India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started. (24,188 bytes)
+- `indias-subsidised-imports-fertilisers` **v1.0.0** — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26) (38,180 bytes)
