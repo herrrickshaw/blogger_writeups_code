@@ -12555,3 +12555,13 @@ New post based on herrrickshaw/india-quality-regulation: India's four-layer qual
 
 - `india-doesnt-have-one-quality-regulator` **v1.0.0** — India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started. (24,188 bytes)
 - `indias-subsidised-imports-fertilisers` **v1.0.0** — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26) (38,180 bytes)
+
+## 2026-09-24T07:47:33+00:00 — 319 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
+- `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24
