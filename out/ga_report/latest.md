@@ -4,18 +4,18 @@
 
 ## Totals
 
-- Active users: **351**
-- Total users: **353**
-- Page views: **1067**
-- Sessions: **511**
+- Active users: **338**
+- Total users: **341**
+- Page views: **1016**
+- Sessions: **492**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
 | Singapore | 83 | 77 |
-| United States | 48 | 44 |
-| India | 38 | 755 |
+| United States | 37 | 32 |
+| India | 33 | 711 |
 | Hong Kong | 32 | 29 |
 | Brazil | 17 | 14 |
 | Indonesia | 15 | 13 |
@@ -23,7 +23,7 @@
 | Bangladesh | 14 | 12 |
 | Japan | 14 | 13 |
 | Germany | 12 | 12 |
-| France | 10 | 9 |
+| France | 11 | 10 |
 | Spain | 7 | 5 |
 | (not set) | 5 | 5 |
 | Argentina | 5 | 2 |
@@ -51,9 +51,8 @@
 | Singapore | 83 | 77 |
 | (not set) | 50 | 38 |
 | Hong Kong | 32 | 29 |
-| Coimbatore | 12 | 271 |
-| Des Moines | 11 | 12 |
 | Frankfurt am Main | 10 | 10 |
+| Coimbatore | 7 | 227 |
 | Banguntapan | 6 | 6 |
 | Shinjuku City | 6 | 6 |
 | Dindigul | 5 | 164 |
@@ -70,36 +69,37 @@
 | Madurai | 3 | 86 |
 | Algiers | 2 | 2 |
 | Damascus | 2 | 2 |
+| Dubai | 2 | 4 |
 | Lome | 2 | 1 |
 | Los Angeles | 2 | 2 |
 | Muscat | 2 | 1 |
 | Muzaffarnagar | 2 | 2 |
 | New Delhi | 2 | 3 |
 | New York | 2 | 2 |
+| Paris | 2 | 2 |
 | Shibuya | 2 | 1 |
-| Addis Ababa | 1 | 1 |
 
 ## Top pages (top 20)
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 430 | 36 |
+| / | 434 | 34 |
 | /2026/08/article-index-start-here.html | 40 | 5 |
-| /search | 17 | 3 |
 | /2026/08/indias-coal-to-chemicals-menu-ranked-by.html | 15 | 4 |
+| /search | 15 | 3 |
 | /2026/08/what-seven-model-stock-portfolios-look.html | 11 | 5 |
-| /2026/08/japan-ran-out-of-matcha-assam-just-sold.html | 10 | 9 |
+| /2026/08/japan-ran-out-of-matcha-assam-just-sold.html | 9 | 8 |
 | /2026/09/where-indias-fdi-actually-lands-state.html | 9 | 2 |
-| /2026/08/india-exports-worlds-coco-peat-its-own.html | 8 | 2 |
-| /2026/08/interest-subvention-built-499-ethanol.html | 8 | 8 |
 | /2026/08/nine-ministries-one-list-every-company.html | 8 | 2 |
 | /2026/08/a-million-wine-market-behind-150-wall.html | 7 | 3 |
 | /2026/09/the-50-tariff-and-234-one-untangling.html | 7 | 3 |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 7 | 2 |
 | /2026/07/us-stock-picks-multi-screen-quant.html | 6 | 3 |
 | /2026/08/how-india-actually-plans-to-hit-net.html | 6 | 3 |
-| /2026/08/india-will-finance-waste-to-energy.html | 6 | 3 |
-| /2026/08/oilfield-costs-rose-68-while-global.html | 6 | 6 |
 | /2026/09/interpreting-gazette-notification.html | 6 | 2 |
 | /2026/08/ethanols-coal-boilers-briquette-gap-and.html | 5 | 5 |
 | /2026/08/the-battery-passport-was-built-for.html | 5 | 4 |
+| /2026/09/the-detergent-chemical-india-exports.html | 5 | 2 |
+| /2026/09/under-corsias-own-numbers-corn-ethanol.html | 5 | 1 |
+| /2026/07/the-fearless-girls-charter-indias.html | 4 | 2 |
+| /2026/08/tasmacs-retail-exit-case-for.html | 4 | 2 |
