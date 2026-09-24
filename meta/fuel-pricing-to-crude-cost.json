@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
   "slug": "fuel-pricing-to-crude-cost",
   "published": "2026-08-05T08:39:37.000+05:30",
-  "updated": "2026-09-11T11:29:19.000+05:30",
+  "updated": "2026-09-24T09:09:59.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 82791,
-  "sha256": "e6feac4a36f859a0c357c61828a650a2c8e9b12ff69a3228dd6718740c8165b9",
+  "bytes": 84043,
+  "sha256": "28f75e3b1cec558fed991ae02e990831f0027990bd62fa3dd7e1716f47bdf72d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -298,6 +298,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (petrol's \"RSP ₹94.77/l\" label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by slightly compressing the petrol stack's vertical scale (same proportions, ~4% shorter) to open headroom at the top; diesel's stack and label were already clear and untouched."
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-09-24T03:40:16+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        82791,
+        84043
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
     }
   ]
 }

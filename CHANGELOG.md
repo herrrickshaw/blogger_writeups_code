@@ -12498,3 +12498,24 @@ Add HSN-code trade data to Kpler/Vortexa post: India's own UCO exports under HSN
 **Changed**
 
 - `kpler-and-vortexa-track-every-barrel` — 29,512 → 33,939 bytes (+4,427)
+
+## 2026-09-24T03:40:16+00:00 — 317 posts live
+
+Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.2 → 1.0.3** (PATCH) — visible text identical; only markup/styling changed
+- `india-has-132-compressed-biogas-plants` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `pngrb-graded-its-own-homework-on-2025` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-diesel-truck-isnt-why-your-eggs` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `fuel-pricing-to-crude-cost` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 32,792 → 32,911 bytes (+119)
+- `india-has-132-compressed-biogas-plants` — 23,663 → 23,782 bytes (+119)
+- `pngrb-graded-its-own-homework-on-2025` — 19,875 → 19,994 bytes (+119)
+- `the-diesel-truck-isnt-why-your-eggs` — 21,052 → 21,171 bytes (+119)
+- `fuel-pricing-to-crude-cost` — 82,791 → 84,043 bytes (+1,252)

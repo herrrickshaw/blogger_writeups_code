@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
   "slug": "the-diesel-truck-isnt-why-your-eggs",
   "published": "2026-09-23T09:17:07.000+05:30",
-  "updated": "2026-09-23T09:17:25.000+05:30",
+  "updated": "2026-09-24T09:05:34.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 21052,
-  "sha256": "d6d2c834108d95ce694aa6fcdca85f38e90d7d27eb110a8881dea71dd72a2558",
+  "bytes": 21171,
+  "sha256": "6e4644d5a7a99d10cfd9ad7484eaf0d5d601ee8583c904e0003ce1dc2d9d696a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-mandate feedstock competition reaching retail egg prices. Rules out the diesel/freight-cost channel using this blog's own prior diesel-vs-CPI-food correlation finding (-0.16, wrong sign), then traces the actual channel: ~37% of India's maize crop now diverted to ethanol, competing with poultry feed (55% maize by weight), tracked into a reported 35-40% YoY rise in egg prices (NECC data, Sept 2026 trade coverage). Cross-links this blog's own maize/ethanol/sugar posts and the recent E20 tailpipe-CO2 well-to-wheel piece for the borrowed full-lifecycle-accounting framing."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-24T03:40:16+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        21052,
+        21171
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
     }
   ]
 }

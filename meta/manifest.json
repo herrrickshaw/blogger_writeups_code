@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-24T03:19:18+00:00",
+  "snapshot": "2026-09-24T03:40:16+00:00",
   "count": 317,
   "posts": {
     "1048441984418088016": {
@@ -7247,13 +7247,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
       "slug": "the-diesel-truck-isnt-why-your-eggs",
       "published": "2026-09-23T09:17:07.000+05:30",
-      "updated": "2026-09-23T09:17:25.000+05:30",
+      "updated": "2026-09-24T09:05:34.000+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels"
       ],
-      "bytes": 21052,
-      "sha256": "d6d2c834108d95ce694aa6fcdca85f38e90d7d27eb110a8881dea71dd72a2558",
+      "bytes": 21171,
+      "sha256": "6e4644d5a7a99d10cfd9ad7484eaf0d5d601ee8583c904e0003ce1dc2d9d696a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7265,7 +7265,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7273,6 +7273,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-mandate feedstock competition reaching retail egg prices. Rules out the diesel/freight-cost channel using this blog's own prior diesel-vs-CPI-food correlation finding (-0.16, wrong sign), then traces the actual channel: ~37% of India's maize crop now diverted to ethanol, competing with poultry feed (55% maize by weight), tracked into a reported 35-40% YoY rise in egg prices (NECC data, Sept 2026 trade coverage). Cross-links this blog's own maize/ethanol/sugar posts and the recent E20 tailpipe-CO2 well-to-wheel piece for the borrowed full-lifecycle-accounting framing."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-24T03:40:16+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            21052,
+            21171
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
         }
       ]
     },
@@ -21787,13 +21800,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
       "slug": "under-corsias-own-numbers-corn-ethanol",
       "published": "2026-09-23T16:31:55.000+05:30",
-      "updated": "2026-09-23T16:56:08.000+05:30",
+      "updated": "2026-09-24T09:05:11.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 32792,
-      "sha256": "7732ac4a58adf409a9ddabf3c58309b2a5a84f2b4f72425af8a95106887e2e87",
+      "bytes": 32911,
+      "sha256": "05242cdc3f3d70c369767d643719a149bf4f190ae6263a083b0b600daca2a16e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21805,7 +21818,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.2",
+      "version": "1.0.3",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21839,6 +21852,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Amend the CORSIA/corn-ethanol post using a user-supplied SAF emissions calculator spreadsheet (built around IATA's SAF Accounting and Reporting Methodology, released 31 Jan 2025) and its cited sources. The spreadsheet gives maize a much lower, passing LCA default (43 gCO2e/MJ) than this piece's CORSIA/ISCC figure (90.8-100.6, failing) -- added a section reconciling this rather than silently overwriting either number: explained the IATA formula is a downstream accounting tool for airlines claiming credit on already-purchased SAF, not a CORSIA-eligibility gate, so a calculator populated with an optimistic literature LCA value can compute a real number that still overstates what CORSIA would actually certify. Cited the real academic literature range for corn-ethanol-ATJ (roughly 35-70 gCO2e/MJ across studies) to show the disagreement is real and methodological (ILUC treatment), not an error on either side. Added rice-straw and MSW feedstock data from the same spreadsheet with an independently-verified Punjab paddy-straw generation figure (~19-20 MMT/year). Flagged that the spreadsheet's own primary sources (IATA methodology PDF, WRI India SAF report) were confirmed to exist via search but could not be fetched directly, same as icao.int."
+        },
+        {
+          "version": "1.0.3",
+          "date": "2026-09-24T03:40:16+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            32792,
+            32911
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
         }
       ]
     },
@@ -22048,13 +22074,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
       "slug": "india-has-132-compressed-biogas-plants",
       "published": "2026-09-23T13:15:31.000+05:30",
-      "updated": "2026-09-23T15:45:57.000+05:30",
+      "updated": "2026-09-24T09:05:19.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG"
       ],
-      "bytes": 23663,
-      "sha256": "c9932db81ff0318d67d08e9c60d49f3e718f9b26163edf40d3bbdc391d0e61b9",
+      "bytes": 23782,
+      "sha256": "6ca067565409b6c1f7f26170decfedde03f91c894af4cdae86f530d567d39e17",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -22066,7 +22092,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "1.0.2",
       "version_history": [
         {
           "version": "1.0.0",
@@ -22087,6 +22113,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Amend the CBG-CGD connectivity post with a new section sizing the connectivity gap against India's own legislature and district count: 543 Lok Sabha MPs, 245 Rajya Sabha MPs, 4,123 state Assembly (MLA) seats, and ~800 districts, framed as an ODOP-style 'one plant per constituency' opportunity for political accountability -- explicitly labelled as this blog's own framing/proposal, not a claimed government allocation target. Verified all legislature/district figures independently, including that the Delimitation Bill 2026 (which would have raised Lok Sabha to 850 seats) failed and was withdrawn, so 543 remains current."
+        },
+        {
+          "version": "1.0.2",
+          "date": "2026-09-24T03:40:16+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            23663,
+            23782
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
         }
       ]
     },
@@ -27066,13 +27105,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html",
       "slug": "pngrb-graded-its-own-homework-on-2025",
       "published": "2026-09-23T13:15:09.000+05:30",
-      "updated": "2026-09-23T13:16:11.000+05:30",
+      "updated": "2026-09-24T09:05:27.000+05:30",
       "labels": [
         "Gas & LNG",
         "Industrial Policy"
       ],
-      "bytes": 19875,
-      "sha256": "784a0ded0d08e25bc1ad408d9d94bc48102b1f5fcf11734ed10397df5dac83eb",
+      "bytes": 19994,
+      "sha256": "eac07f8ce4a1f5ba86f0202cb78fd7076258cf9aa1358efbd1500977a9234822",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27084,7 +27123,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27092,6 +27131,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-09-24T03:40:16+00:00",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            19875,
+            19994
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
         }
       ]
     },
@@ -29618,12 +29670,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/fuel-pricing-to-crude-cost.html",
       "slug": "fuel-pricing-to-crude-cost",
       "published": "2026-08-05T08:39:37.000+05:30",
-      "updated": "2026-09-11T11:29:19.000+05:30",
+      "updated": "2026-09-24T09:09:59.000+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 82791,
-      "sha256": "e6feac4a36f859a0c357c61828a650a2c8e9b12ff69a3228dd6718740c8165b9",
+      "bytes": 84043,
+      "sha256": "28f75e3b1cec558fed991ae02e990831f0027990bd62fa3dd7e1716f47bdf72d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -29635,7 +29687,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "2.0.6",
       "version_history": [
         {
           "version": "1.0.0",
@@ -29912,6 +29964,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed COLLISION (petrol's \"RSP ₹94.77/l\" label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by slightly compressing the petrol stack's vertical scale (same proportions, ~4% shorter) to open headroom at the top; diesel's stack and label were already clear and untouched."
+        },
+        {
+          "version": "2.0.6",
+          "date": "2026-09-24T03:40:16+00:00",
+          "level": "patch",
+          "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+          "bytes": [
+            82791,
+            84043
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
         }
       ]
     },

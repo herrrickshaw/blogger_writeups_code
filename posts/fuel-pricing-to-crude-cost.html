@@ -192,6 +192,8 @@ if(skip){
 .fpx .src{color:var(--mut);font-size:.8em;margin:.2rem 0 1.2rem}
 .fpx .note{color:var(--mut);font-size:.82em;border-top:1px dashed var(--line);
  margin-top:2rem;padding-top:12px;max-width:82ch}
+.fpx .warn{background:#FFF8F0;border:1px solid #F0D9B5;border-radius:10px;
+ padding:.9rem 1.1rem;margin:1rem 0;font-size:.9em;color:var(--ink)}
 .fpx .grid2{display:grid;grid-template-columns:1fr;gap:16px;margin:1rem 0}
 .fpx .card{background:var(--chip);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
 .fpx .card h3{font-family:-apple-system,'Segoe UI',sans-serif!important;font-size:.95em;margin:0 0 6px}
@@ -252,18 +254,19 @@ the "full pass-through" scenarios below likely overstate how much of a crude ral
 actually reach the pump.</p>
 
 
-<h2>2. Where crude actually is today <span class="n">&middot; Rigzone + OilPriceAPI, cross-checked against PPAC's own weighting</span></h2>
+<h2>2. Where crude stood on 5 August 2026 <span class="n">&middot; Rigzone + OilPriceAPI, cross-checked against PPAC's own weighting</span></h2>
+<div class="warn"><b>Update, 24 September 2026: these were never a live feed, and they are now seven weeks stale.</b> This section originally labelled the quotes below "live" and "today." A static page cannot carry a live price, so that framing was always going to age badly; it has now aged badly enough to be actively misleading. Brent was trading around $101&ndash;113/bbl in the week of 22&ndash;23 September 2026 &mdash; roughly 30&ndash;45% above the $78.87/bbl this section quotes &mdash; driven by Middle East supply disruption. That is now much closer to this piece's own "Past-year high analogue" scenario row in Section 3 ($116.54/bbl) than to the "5 Aug 2026, implied" row the quotes below actually support. The labels below have been corrected to say what date they describe; the underlying pump-price cascade in Sections 3&ndash;5 has <em>not</em> been recalculated against current crude, and should not be read as reflecting pump prices today.</div>
 <div class="kpis">
-<div class="kpi"><b>$78.87/bbl</b><span>Brent Crude, live (OilPriceAPI &amp; Rigzone agree to 2&cent;)</span></div>
-<div class="kpi"><b>$74.84/bbl</b><span>WTI Crude, live</span></div>
-<div class="kpi"><b>$78.30/bbl</b><span>Implied Indian basket, today</span></div>
-<div class="kpi"><b>+12.0%</b><span>vs PPAC's last published Jul&ndash;Sep 2025 average</span></div>
+<div class="kpi"><b>$78.87/bbl</b><span>Brent Crude, as of 5 Aug 2026 (OilPriceAPI &amp; Rigzone agreed to 2&cent; that day)</span></div>
+<div class="kpi"><b>$74.84/bbl</b><span>WTI Crude, as of 5 Aug 2026</span></div>
+<div class="kpi"><b>$78.30/bbl</b><span>Implied Indian basket, 5 Aug 2026</span></div>
+<div class="kpi"><b>+12.0%</b><span>vs PPAC's last published Jul&ndash;Sep 2025 average, as of 5 Aug 2026</span></div>
 </div>
-<p class="dek">Rigzone's public quote widget puts Brent at $78.85/bbl and WTI at $75.02/bbl.
-OilPriceAPI's real-time feed agrees closely &mdash; $78.87 and $74.84 &mdash; and additionally
-carries live Dubai ($78.04) and Oman ($78.26) benchmarks, the two sour-crude grades PPAC
+<p class="dek">Rigzone's public quote widget put Brent at $78.85/bbl and WTI at $75.02/bbl on 5 August 2026.
+OilPriceAPI's feed for that day agreed closely &mdash; $78.87 and $74.84 &mdash; and additionally
+carried Dubai ($78.04) and Oman ($78.26) benchmarks, the two sour-crude grades PPAC
 uses to build the Indian basket. Applying PPAC's own published weighting formula (78.71%
-average of Oman/Dubai, 21.29% Brent Dated) to today's live quotes gives an <strong>implied
+average of Oman/Dubai, 21.29% Brent Dated) to that day's quotes gives an <strong>implied
 Indian basket of $78.30/bbl</strong> &mdash; up 12.0% on the $69.89/bbl PPAC actually published
 as the Jul&ndash;Sep 2025 quarterly average (Table 8.1).</p>
 <p class="dek"><strong>Data-quality note:</strong> OilPriceAPI's market-overview endpoint
@@ -274,8 +277,8 @@ $84.25). This piece uses the $78.87/$74.84 figures, corroborated by two independ
 the higher pair looks like a stale or differently-scoped cache and is flagged here rather
 than silently reconciled.</p>
 <p class="dek">PPAC's own monthly Indian-basket series (Table 8.1) runs only to September 2025
-in this Ready Reckoner edition, so the "today" figure above is not a PPAC-published number
-&mdash; it is PPAC's published <em>formula</em> applied to live OilPriceAPI inputs, an
+in this Ready Reckoner edition, so the "5 Aug 2026" figure above is not a PPAC-published number
+&mdash; it is PPAC's published <em>formula</em> applied to that day's OilPriceAPI inputs, an
 &#8776;11-month gap from the last officially published monthly print.</p>
 
 <h2>3. Crude scenarios, held-duty basis <span class="n">&middot; Delhi RSP under five crude levels</span></h2>
@@ -285,18 +288,18 @@ in this Ready Reckoner edition, so the "today" figure above is not a PPAC-publis
 <th class="num">Diesel RSP (&#8377;/l)</th><th class="num">Change, %</th></tr></thead><tbody>
 <tr><td>Past-year low</td><td class="num">59.16</td><td class="num">87.65</td><td class="num">-7.5</td><td class="num">80.69</td><td class="num">-8.0</td></tr>
 <tr><td>PPAC Jul&ndash;Sep 2025 baseline</td><td class="num">69.89</td><td class="num">94.77</td><td class="num">&mdash;</td><td class="num">87.67</td><td class="num">&mdash;</td></tr>
-<tr><td>Today, implied</td><td class="num">78.30</td><td class="num">100.35</td><td class="num">+5.9</td><td class="num">93.14</td><td class="num">+6.2</td></tr>
-<tr><td>Today +10%</td><td class="num">86.13</td><td class="num">105.54</td><td class="num">+11.4</td><td class="num">98.24</td><td class="num">+12.1</td></tr>
+<tr><td>5 Aug 2026, implied</td><td class="num">78.30</td><td class="num">100.35</td><td class="num">+5.9</td><td class="num">93.14</td><td class="num">+6.2</td></tr>
+<tr><td>5 Aug 2026 +10%</td><td class="num">86.13</td><td class="num">105.54</td><td class="num">+11.4</td><td class="num">98.24</td><td class="num">+12.1</td></tr>
 <tr><td>Past-year high analogue</td><td class="num">116.54</td><td class="num">125.71</td><td class="num">+32.7</td><td class="num">118.03</td><td class="num">+34.6</td></tr>
 </tbody></table></div>
 <p class="src">Method: dealer price = crude-equivalent (Indian basket $/bbl &times; &#8377;88.32/$
 &divide; 158.987 litres/bbl) + a fixed refining-and-marketing wedge (&#8377;14.24/l petrol,
 &#8377;15.18/l diesel, backed out of the PPAC Jul&ndash;Sep 2025 baseline). Excise duty, dealer
 commission and the effective VAT rate are held at their 01.10.2025 PPAC levels &mdash; i.e.
-no policy offset. Past-year Brent high/low ($117.38 / $59.59, OilPriceAPI 365-day history)
-converted to an Indian-basket analogue by scaling proportionally to today's Brent-to-basket
-ratio, since a historical Oman/Dubai series was not available to apply PPAC's exact formula
-at those dates.</p>
+no policy offset. Past-year Brent high/low ($117.38 / $59.59, OilPriceAPI 365-day history
+as of 5 August 2026) converted to an Indian-basket analogue by scaling proportionally to
+5 August 2026's Brent-to-basket ratio, since a historical Oman/Dubai series was not
+available to apply PPAC's exact formula at those dates.</p>
 <p class="dek">The scenario range makes the excise lever visible: a 97% swing in crude (past-year
 low to high) would, on a naive full pass-through, move Delhi petrol by &#8776;43% (&#8377;87.65
 to &#8377;125.71) &mdash; a smaller swing than crude's own, because the flat-rate excise and
@@ -320,8 +323,8 @@ differential baked into that city's dealer price, not the bare statutory VAT rat
 <select id="fp_scen">
 <option value="59.16">Past-year low ($59/bbl)</option>
 <option value="69.89">PPAC Jul-Sep 2025 baseline ($70/bbl)</option>
-<option value="78.30" selected>Today, implied ($78/bbl)</option>
-<option value="86.13">Today +10% ($86/bbl)</option>
+<option value="78.30" selected>5 Aug 2026, implied ($78/bbl)</option>
+<option value="86.13">5 Aug 2026 +10% ($86/bbl)</option>
 <option value="116.54">Past-year high analogue ($117/bbl)</option>
 </select></div>
 </div>
@@ -451,7 +454,7 @@ new Chart(document.getElementById('c_buildup'), {
 new Chart(document.getElementById('c_scenarios'), {
   type: 'bar',
   data: {
-    labels: ['Past-yr low\n$59', 'PPAC Jul-Sep25\n$70', 'Today\n$78', 'Today +10%\n$86', 'Past-yr high\n$117'],
+    labels: ['Past-yr low\n$59', 'PPAC Jul-Sep25\n$70', '5 Aug 2026\n$78', '5 Aug 2026 +10%\n$86', 'Past-yr high\n$117'],
     datasets: [
       { label:'Petrol', data:[87.65,94.77,100.35,105.54,125.71], backgroundColor:'#2251FF' },
       { label:'Diesel', data:[80.69,87.67,93.14,98.24,118.03], backgroundColor:'#D8452B' }

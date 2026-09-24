@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-09-23T15:45:57.000+05:30",
+  "updated": "2026-09-24T09:05:19.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 23663,
-  "sha256": "c9932db81ff0318d67d08e9c60d49f3e718f9b26163edf40d3bbdc391d0e61b9",
+  "bytes": 23782,
+  "sha256": "6ca067565409b6c1f7f26170decfedde03f91c894af4cdae86f530d567d39e17",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Amend the CBG-CGD connectivity post with a new section sizing the connectivity gap against India's own legislature and district count: 543 Lok Sabha MPs, 245 Rajya Sabha MPs, 4,123 state Assembly (MLA) seats, and ~800 districts, framed as an ODOP-style 'one plant per constituency' opportunity for political accountability -- explicitly labelled as this blog's own framing/proposal, not a claimed government allocation target. Verified all legislature/district figures independently, including that the Delimitation Bill 2026 (which would have raised Lok Sabha to 850 seats) failed and was withdrawn, so 543 remains current."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-24T03:40:16+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23663,
+        23782
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
     }
   ]
 }
