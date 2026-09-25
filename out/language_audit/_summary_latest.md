@@ -1,4 +1,4 @@
-# Language audit summary — 2026-09-24
+# Language audit summary — 2026-09-25
 
 *135 of 284 posts flagged. Report-only — nothing was published. Per-post detail in out/language_audit/<slug>.md.*
 
@@ -6,16 +6,16 @@
 - [A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html) — 50 matches — see `a-17-rural-pay-rise-that-nobody-received.md`
 - [Nano Urea Works as a Supplement and Fails as a Substitute. The Rulebook Now Agrees.](https://masaladeutsch.blogspot.com/2026/08/nano-urea-works-as-supplement-and-fails.html) — 49 matches — see `nano-urea-works-as-supplement-and-fails.md`
 - [Indian Medicine Depends Heavily on Chinese Imports](https://masaladeutsch.blogspot.com/2026/08/india-cannot-sell-china-free-medicine.html) — 43 matches — see `india-cannot-sell-china-free-medicine.md`
-- [Premium Now, Claim Later: The Float India's Car Boom Is Building](https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html) — 42 matches — see `premium-now-claim-later-float-indias.md`
 - [379 Kilos a Hectare in Punjab, 44 in Kerala: India's Urea Map Is a Crop Map](https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html) — 39 matches — see `379-kilos-hectare-in-punjab-44-in.md`
 - [India Hit E20 on Maize and Rice, Not Sugarcane](https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html) — 36 matches — see `india-hit-e20-on-maize-and-rice-not.md`
+- [Premium Now, Claim Later: The Float India's Car Boom Is Building](https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html) — 31 matches — see `premium-now-claim-later-float-indias.md`
 - [You Cannot Substitute Crude Oil or Gold. That Is 40% of India's Import Bill.](https://masaladeutsch.blogspot.com/2026/08/you-cannot-substitute-crude-oil-or-gold.html) — 29 matches — see `you-cannot-substitute-crude-oil-or-gold.md`
 - [India Imports 283,000 Tonnes of Almonds and Grows 4,100: Inside the Diwali Nut Trade](https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html) — 25 matches — see `india-imports-283000-tonnes-of-almonds.md`
 - [India's Shrimp Exports Did Not Collapse. The Code Did.](https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html) — 24 matches — see `indias-shrimp-exports-did-not-collapse.md`
 - [5,071 Items You Cannot Import, and the Rs 2,570 Crore That Replaced Them](https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html) — 19 matches — see `5071-items-you-cannot-import-and-rs.md`
 - [Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html) — 18 matches — see `japan-ran-out-of-matcha-assam-just-sold.md`
-- [Thirty-One Years of Asking Parliament the Same Question About Fertiliser](https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html) — 14 matches — see `thirty-one-years-of-asking-parliament.md`
 - [₹71.86 a Litre: Why Maize Is India's Priciest Ethanol Feedstock, Even as This Season's Acreage Falls](https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html) — 13 matches — see `7186-litre-why-maize-is-indias-priciest.md`
+- [Thirty-One Years of Asking Parliament the Same Question About Fertiliser](https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html) — 12 matches — see `thirty-one-years-of-asking-parliament.md`
 - [The Balkan Relish India Already Has the Ingredients For: Making the Case for Ajvar](https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html) — 10 matches — see `the-balkan-relish-india-already-has.md`
 - [The Levelised Cost of Hydrogen, Explained: What It Would Actually Take to Hit India's $1.50/kg Target](https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html) — 9 matches — see `the-levelised-cost-of-hydrogen.md`
 - [CGD Geographical Areas — District Allotment Map (Part 1 of 3)](https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html) — 8 matches — see `cgd-geographical-areas-district.md`
@@ -47,7 +47,6 @@
 - [Petroleum Trade Pairings and the US Crude Storage Picture](https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html) — 3 matches — see `petroleum-trade-pairings-and-us-crude.md`
 - [PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html) — 3 matches — see `pngrb-hydrogen-blending-pilots-real.md`
 - [Is India a Dollar Salesman? China Sold the Yuan to BRICS as a Payment Rail — and Russia Still Put Its Savings in Gold](https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html) — 3 matches — see `securitising-deficit-what-it-would.md`
-- [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 3 matches — see `the-detergent-chemical-india-exports.md`
 - [The Green Shift: What India's Oil Ministry Thinks Global Majors Owe the Climate](https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html) — 3 matches — see `the-green-shift-what-indias-oil.md`
 - [The Margin Case: Why LPG and Petrochemicals Beat Petrol, From the Same Barrel](https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html) — 3 matches — see `the-margin-case-why-lpg-and.md`
 - [The Software Behind the Still: What's Actually Digitising India's Ethanol and Biofuel Supply Chain](https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html) — 3 matches — see `the-software-behind-still-whats.md`
@@ -69,12 +68,11 @@
 - [Push the Ethanol SGST Rate From 2.5% to 5% and Beyond: What Each State Would Actually Earn](https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html) — 2 matches — see `push-ethanol-sgst-rate-from-25-to-5-and.md`
 - [The 1920s Rotor That's Now on 22 Real Ships, Not the Fleet It Was Studied to Power](https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html) — 2 matches — see `the-1920s-rotor-thats-now-on-22-real.md`
 - [The 50/30/20 Rule — and the Case for Flipping It to Save First](https://masaladeutsch.blogspot.com/2026/08/the-503020-rule-is-elizabeth-warrens.html) — 2 matches — see `the-503020-rule-is-elizabeth-warrens.md`
+- [The Detergent Chemical India Exports, and the Diaper Chemical It Imports Completely](https://masaladeutsch.blogspot.com/2026/09/the-detergent-chemical-india-exports.html) — 2 matches — see `the-detergent-chemical-india-exports.md`
 - [The FCC Lever: Trading Petrol Yield for LPG, and Where India Is Building Room to Store the Difference](https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html) — 2 matches — see `the-fcc-lever-trading-petrol-yield-for.md`
 - [The Rule of 72, the Rule of 114, and How to Actually Check an Interest-Rate Claim](https://masaladeutsch.blogspot.com/2026/08/the-rule-of-72-rule-of-114-and-how-to.html) — 2 matches — see `the-rule-of-72-rule-of-114-and-how-to.md`
 - [The Water Bill Nobody Mentions: What Taiwan's Chip Crisis Says About India's Fab Plans](https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html) — 2 matches — see `the-water-bill-nobody-mentions-what.md`
 - [India's State-by-State Investment Directory: 66 Confirmed Deals, Sector by Sector](https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html) — 2 matches — see `we-fact-checked-66-investment.md`
-- [India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.](https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html) — 2 matches — see `what-actually-happens-to-indias-used.md`
-- [What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html) — 2 matches — see `what-india-is-actually-paying-for.md`
 - [Where India Actually Burns Its Fuel: Sixteen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html) — 2 matches — see `where-india-actually-burns-its-fuel.md`
 - [Where India’s Factories Actually Get Built — IEM State & Sector Analysis](https://masaladeutsch.blogspot.com/2026/08/where-indias-factories-actually-get.html) — 2 matches — see `where-indias-factories-actually-get.md`
 - [Where the Rupee Actually Stands: Ten Years Against the Dollar, Yuan, Rouble, Riyal and Dirham](https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html) — 2 matches — see `where-rupee-actually-stands-ten-years.md`
@@ -130,10 +128,12 @@
 - [The Recycling Lottery Playbook — Norway's Pantelotteriet, and a Jal Jeevan Application](https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html) — 1 matches — see `the-recycling-lottery-playbook-norways.md`
 - [Tiffin Meets Thali: The ₹10-a-Day SIP Already Exists. Fractional Stock Investing Still Doesn't.](https://masaladeutsch.blogspot.com/2026/08/tiffin-meets-thali-10-day-sip-already.html) — 1 matches — see `tiffin-meets-thali-10-day-sip-already.md`
 - [Uttar Pradesh's GST Puzzle: A Growing Economy That Had a Terrible Year, and Then Didn't](https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html) — 1 matches — see `uttar-pradeshs-gst-puzzle-growing.md`
+- [India Finally Has a Rule for Used Motor Oil. Nobody Can Price What It Costs Yet.](https://masaladeutsch.blogspot.com/2026/08/what-actually-happens-to-indias-used.html) — 1 matches — see `what-actually-happens-to-indias-used.md`
 - [What Seven Model Stock Portfolios Look Like Once You Check Them Against the Index](https://masaladeutsch.blogspot.com/2026/08/what-seven-model-stock-portfolios-look.html) — 1 matches — see `what-seven-model-stock-portfolios-look.md`
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of.md`
 - [What Sewage Disposal in Key Parts of Tamil Nadu Actually Costs](https://masaladeutsch.blogspot.com/2026/09/what-sewage-disposal-in-key-parts-of_0568573871.html) — 1 matches — see `what-sewage-disposal-in-key-parts-of_0568573871.md`
 - [Where the World's Oil Sits When It Isn't Moving: Storage, Floating Barrels, and the Hormuz Shock of 2026](https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html) — 1 matches — see `where-worlds-oil-sits-when-it-isnt.md`
 - [Who's Actually Building MRI and CT Scanners in India: The PLI Applicant List and the Market They're Chasing](https://masaladeutsch.blogspot.com/2026/08/whos-actually-building-mri-and-ct.html) — 1 matches — see `whos-actually-building-mri-and-ct.md`
-- [Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)](https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html) — 0 matches — see `cold-chain-fuel-outlet-integrated-map.md`
-- [PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable](https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html) — 0 matches — see `pet-recycling-already-cuts-emissions-60.md`
+- [DISCOM Debt Relief — Token Charge Calculator](https://masaladeutsch.blogspot.com/2026/08/discom-debt-relief-token-charge.html) — 0 matches — see `discom-debt-relief-token-charge.md`
+- [What India Is Actually Paying For: Absorbing Someone Else's Inflation Through the Import Bill](https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html) — 0 matches — see `what-india-is-actually-paying-for.md`
+- [Where India's Captured Carbon Would Actually Go: Two Named Wells, and a Lot of Basins on a Map](https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html) — 0 matches — see `where-indias-captured-carbon-would.md`

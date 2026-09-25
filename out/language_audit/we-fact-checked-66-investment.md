@@ -10,3 +10,4 @@
 - **[CASING/LC_AFTER_PERIOD]** If a new sentence starts here, add a space and start with an uppercase letter.
   context: ...06-20  Telangana  Align Technology, Inc.MEDIUM 2026-05-21  Pharma & Bulk Drugs 3  Karn...
   suggested:  MEDIUM
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

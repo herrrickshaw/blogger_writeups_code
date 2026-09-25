@@ -4,39 +4,7 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...e of motor premium in FY2024-25, and 59 per cent of it was third-party — the long-tail h...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...A general insurer must hold at least 20 per cent central government securities and 30 pe...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...nt central government securities and 30 per cent approved securities; for a life insurer...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...a life insurer the floors are 25 and 50 per cent. Berkshire’s insurance arm holds $294 b...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...AI has set that obligatory cession at 4 per cent for 2026-27, down from 5 per cent a few...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ... at 4 per cent for 2026-27, down from 5 per cent a few years earlier, and has retained G...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ... both increasing exposure by roughly 13 per cent when an asset’s price fell 1 per cent —...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...3 per cent when an asset’s price fell 1 per cent — textbook stabilising behaviour, buyin...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...ent on buying, raising exposure about 8 per cent. Less-capitalised ones went the other w...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...the other way, cutting exposure about 4 per cent. The same shock, the same asset, opposi...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...folio was worth about $77 billion, a 40 per cent recovery driven by both price appreciat...
-  suggested: percent
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...2024-25 against ₹2,89,673 crore, or 8.6 per cent growth rather than the 6.2 per cent the...
   suggested: percent

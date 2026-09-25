@@ -40,9 +40,4 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ubstitute on the product behind that 16 per cent, and 379 Kilos a Hectare in Punjab, 44 ...
   suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...for 1,959 of the 2,606 questions, or 75 per cent. The coverage is essentially complete f...
-  suggested: percent
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...e from 1999 to 2019 — every year at 100 per cent — partial at the 1995–1998 start, and t...
-  suggested: percent
+- ERROR checking chunk: HTTP Error 500: Internal Server Error

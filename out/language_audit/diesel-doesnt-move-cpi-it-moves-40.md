@@ -7,3 +7,4 @@
 - **[GRAMMAR/THERE_MISSING_VERB]** A verb may be missing.
   context: ....  Which leaves the price question, and here the evidence cuts against the obvious a...
   suggested: here are
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
