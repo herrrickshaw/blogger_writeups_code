@@ -12579,3 +12579,16 @@ New post from the lit_review/masaladeutsch commission queue: India's public irri
 
 - `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
 - `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24
+
+## 2026-09-25T23:36:38+00:00 — 320 posts live
+
+Add current PMKSY/AIBP spending-vs-outcome data to irrigation post: 2021-26 outlay Rs 93,068.56 cr, Rs 64,407 cr released, and AIBP's 57.72% project completion / 64.90% potential-created achievement as of 8 May 2026 -- a live illustration of the same public-investment-outcome gap the paper describes historically
+
+
+**Versions**
+
+- `indias-irrigation-system-recovered-96` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-irrigation-system-recovered-96` — 22,243 → 24,677 bytes (+2,434)

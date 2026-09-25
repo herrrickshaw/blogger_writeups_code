@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-irrigation-system-recovered-96.html",
   "slug": "indias-irrigation-system-recovered-96",
   "published": "2026-09-26T04:57:49.000+05:30",
-  "updated": "2026-09-26T04:58:05.000+05:30",
+  "updated": "2026-09-26T05:06:21.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy"
   ],
-  "bytes": 22243,
-  "sha256": "f7fa7088e158c7dd67989d55516c8a32979050cfb1d993f7a37d1fb83188a414",
+  "bytes": 24677,
+  "sha256": "a19eaf428d12ace2b67df588cfab6385cafab2a2390d3a14662a072427e945a4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post from the lit_review/masaladeutsch commission queue: India's public irrigation cost-recovery collapse (96% in 1975-76 to ~7% average 2000-01/2016-17, CWC methodology), cross-linked to the existing Minor Irrigation Census post and Bathla/Kannan/Das (2024, abstract only)"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-25T23:36:38+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22243,
+        24677
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add current PMKSY/AIBP spending-vs-outcome data to irrigation post: 2021-26 outlay Rs 93,068.56 cr, Rs 64,407 cr released, and AIBP's 57.72% project completion / 64.90% potential-created achievement as of 8 May 2026 -- a live illustration of the same public-investment-outcome gap the paper describes historically"
     }
   ]
 }
