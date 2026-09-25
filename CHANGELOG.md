@@ -12565,3 +12565,17 @@ scheduled sync
 
 - `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
 - `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24
+
+## 2026-09-25T23:28:42+00:00 — 320 posts live
+
+New post from the lit_review/masaladeutsch commission queue: India's public irrigation cost-recovery collapse (96% in 1975-76 to ~7% average 2000-01/2016-17, CWC methodology), cross-linked to the existing Minor Irrigation Census post and Bathla/Kannan/Das (2024, abstract only)
+
+
+**Added**
+
+- `indias-irrigation-system-recovered-96` **v1.0.0** — India's Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now. (22,243 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
+- `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24

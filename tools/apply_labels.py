@@ -166,6 +166,12 @@ OVERRIDE = {
     # fetch still shows). Manually labelled at publish time (2026-09-24)
     # rather than run through --apply.
     "india-doesnt-have-one-quality-regulator": ["Industrial Policy", "Trade & Tariffs"],
+    # New post from the lit_review/masaladeutsch commission queue: public
+    # irrigation's CWC-sourced cost-recovery collapse (96% in 1975-76 to
+    # ~7% average 2000-01/2016-17), cross-linked to Bathla/Kannan/Das (2024,
+    # abstract only) and the existing private-irrigation post. Manually
+    # labelled at publish time (2026-09-25) rather than run through --apply.
+    "indias-irrigation-system-recovered-96": ["Agriculture & Fertilisers", "Industrial Policy"],
     # These two are interactive-map/dashboard embeds, not prose articles --
     # the title lives in an inline-styled div inside class="hero", a
     # structure headings() doesn't parse (and shouldn't be widened to catch,
