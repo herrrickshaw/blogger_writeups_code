@@ -423,6 +423,79 @@ OVERRIDE = {
 #   indias-medical-device-trade-gap-and -- one India-EU FTA bullet in a
 #     policy list, too thin for Free Trade Agreements.
 
+# SUB-TOPIC REFINEMENT PASS 4: INDUSTRIAL POLICY (2026-09-26)
+#
+# Same method again, applied to "Industrial Policy" (92 posts) -- the blog's
+# second-biggest bucket, and its most generic one (the auto-labelling
+# taxonomy scores it on bare words like "scheme", "incentive", "subsidy",
+# "policy", so it catches almost anything government-programme-related).
+# Five new labels ADDED on top of existing labels; "Industrial Policy" itself
+# untouched on all 92. Checked against the full live label set (59 topics
+# after the first three passes) before proposing anything.
+#
+#   PLI Schemes -- posts substantively about a NAMED Production-Linked
+#     Incentive scheme's targets, disbursement, or applicant list, not the
+#     generic "scheme" framing the umbrella label already catches.
+#   State Investment Incentives -- the state-vs-state industrial-policy
+#     competition angle: SGST reimbursement, capital-subsidy menus, which
+#     state's incentives actually get paid out vs. announced.
+#   Parliamentary Scheme Tracking -- reference/dashboard posts whose actual
+#     subject is a dataset of Lok Sabha/Rajya Sabha questions or PIB scheme
+#     announcements, not narrative analysis of one scheme.
+#   Public Sector & Infrastructure Finance -- the PSU-finance/fund-accounting
+#     side (railways economics, DISCOM debt, credit-guarantee/viability-gap
+#     fund structure), distinct from the existing Infrastructure & Investment
+#     label, which covers the physical-project side.
+#   Ease of Doing Business & Regulatory Reform -- the regulatory-machinery/
+#     compliance-burden side: multi-regulator certification stacks, gazette-
+#     notification chaos, licensing-monopoly reform.
+#
+# Defence & Strategic Manufacturing was considered and NOT created: only one
+# post in the 92 (5071-items-you-cannot-import-and-rs) is genuinely a
+# defence-procurement/import-substitution piece, and it already carries both
+# "Defence" and "Import Substitution" for that exact reason -- a third label
+# would be pure duplication, and there was no second/third post to form a
+# real cluster. (india-ended-63-years-of-state-nuclear looks defence-adjacent
+# but is civil nuclear power, not defence, and reads better as regulatory
+# reform -- the SHANTI Act ending the 63-year state nuclear-construction
+# monopoly and the still-unfixed supplier-liability law blocking foreign
+# entrants is a licensing/regulatory-barrier story.)
+#
+# 25 of the 92 posts got at least one addition. The other 67 were left alone.
+#
+# Borderline calls, included but flagged as thinner than their cluster-mates:
+#   where-indias-factories-actually-get (State Investment Incentives) -- the
+#     state-by-state IEM implementation dataset that indias-state-incentive-
+#     war-gujarats visibly draws on, but the post itself only mentions
+#     "incentive" 4 times and reads more as investment-implementation
+#     tracking than incentive-menu comparison.
+#   indias-60000-crore-api-push-traced-to (PLI Schemes) -- PLI-Bulk-Drugs is
+#     a full, data-rich section (one of four), but the piece's real subject
+#     is six schemes added together, not PLI alone.
+#
+# Considered and excluded, worth a second look if the taxonomy is revisited:
+#   everyone-worries-about-who-pays-for / india-will-finance-waste-to-energy
+#     -- both discuss a scheme's financing gap, but their core subject is
+#     CCUS/circularity technology economics, not PSU fund-accounting
+#     mechanics -- kept out of Public Sector & Infrastructure Finance.
+#   a-2223-crore-coal-freight-railway-line -- pure land-acquisition-
+#     notification story; belongs to the physical-infrastructure side the
+#     new label explicitly excludes.
+#   thirty-one-years-of-asking-parliament / import-dependent-sectors-vs-government
+#     -- both thematically close to Parliamentary Scheme Tracking, but each
+#     is narrative analysis of one subject's question/scheme history, not a
+#     reference dashboard -- left out per the "dashboard, not narrative"
+#     distinction the label is meant to draw.
+#   rare-earth-magnets-and-specialty-steel -- mentions PLI only
+#     comparatively ("unlike most PLI schemes..."); the scheme it's actually
+#     about (REPM) isn't itself a PLI scheme.
+#   fy2025-26-sample-report-india-trade / five-year-synthesis-trade-currency
+#     -- both mention PLI in just one chart/section out of seven or eight;
+#     too thin, per the same bar the Energy & Fuels pass used.
+#   where-indias-fdi-actually-lands-state -- state/district FDI
+#     concentration data, but no incentive-policy content at all; not the
+#     same story as the State Investment Incentives cluster.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
