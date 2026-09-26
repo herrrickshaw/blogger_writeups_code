@@ -12620,3 +12620,16 @@ Update two more crude-price snapshots flagged in the stale-fact audit
 
 - `where-worlds-oil-sits-when-it-isnt` — 44,401 → 48,579 bytes (+4,178)
 - `the-margin-case-why-lpg-and` — 37,902 → 39,320 bytes (+1,418)
+
+## 2026-09-26T00:40:22+00:00 — 320 posts live
+
+Correct Dangote IPO terms: $1.6bn raise not $5bn, Nov listing not Oct
+
+
+**Versions**
+
+- `one-refinery-flipped-nigeria-from` **4.0.2 → 4.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `one-refinery-flipped-nigeria-from` — 34,772 → 37,108 bytes (+2,336)
