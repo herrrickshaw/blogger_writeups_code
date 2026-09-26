@@ -296,6 +296,69 @@ OVERRIDE = {
 # mirrors the blog's labels into a static dataset it was fed directly -- it
 # needs its own re-sync after a pass like this, not just a snapshot.py run.
 
+# SUB-TOPIC REFINEMENT PASS 2: ENERGY & FUELS (2026-09-26)
+#
+# Same method as the Agriculture pass above, applied to the blog's single
+# biggest bucket: "Energy & Fuels" had grown to 96 posts. Seven new labels
+# were ADDED on top of existing labels for posts that cluster into a finer
+# sub-topic; "Energy & Fuels" itself was never removed from any post. Checked
+# against the full live label set first so none of these duplicate an
+# existing topic (Gas & LNG, Ethanol & Biofuels, Climate & Carbon, Mobility &
+# EV and Chemicals in particular each already cover an adjacent but distinct
+# angle -- see the per-label notes below for exactly where the line was drawn).
+#
+#   Refining & Petrochemicals -- GRM/crack-spread compression, the refinery-
+#     to-petrochemical pivot (FCC lever, naphtha-cracker investment), capex
+#     financing for that pivot. The refinery-YIELD side, distinct from
+#     Chemicals' import-substitution/HSN-code side of the same industry.
+#   Oil & Gas Exploration -- upstream E&P: OALP/HELP rounds, DGH, declining/
+#     aging oilfield output, oilfield-services cost indexes and rig-fleet
+#     economics. Distinct from downstream refining.
+#   Renewable Power & Storage -- solar, wind, grid-scale battery storage,
+#     biomass power generation. Power-GENERATION economics, distinct from
+#     Climate & Carbon's emissions-accounting focus.
+#   Fuel Retail & Pricing -- crude-to-pump price build-up, retail outlet
+#     networks (incl. forecourt/canopy design standards), OMC dealer/
+#     distributor commission mechanics.
+#   Coal & Coal Gasification -- coal-to-syngas reactor technology and the
+#     coal-to-chemicals product menu. Distinct from Chemicals' import-
+#     substitution framing of the same feedstock.
+#   Hydrogen -- green/blue hydrogen production cost (LCOH), refinery
+#     hydrogen use, city-gas hydrogen blending pilots, hydrogen inside the
+#     SAF mandate.
+#   Shipping & Maritime Fuels -- marine fuel-switching: the IMO Net-Zero
+#     Framework's repeated delays, wind-assist rotor sails, the EU's ETS/
+#     FuelEU/MRV rules forcing ships off conventional bunker fuel, and
+#     green-fuel ship-bunkering rules. Not in the original candidate list --
+#     proposed because it was a genuine 4-post cluster with no existing home.
+#
+# 32 of the 96 posts got at least one addition (one, ten-cubic-metres-hour-
+# indias-first, got two: Hydrogen and Shipping & Maritime Fuels, since it's
+# a hydrogen-bunkering-rulebook piece). The other 64 were left alone.
+#
+# Borderline calls, left as judgment rather than forced into a bucket:
+#   indias-renewable-energy-certificates -- tightly coupled to renewable-
+#     capacity growth, but the actual subject is a tradable compliance-
+#     certificate market, not generation/storage economics -- left out of
+#     Renewable Power & Storage.
+#   indias-petrochemical-import-tree-from -- touches refinery-stream origin,
+#     but its actual payload (8-digit ITC-HS codes, import-dependence
+#     figures) is squarely the import-substitution framing its existing
+#     Chemicals label already covers -- left out of Refining &
+#     Petrochemicals to avoid functionally duplicating Chemicals.
+#   ethanol-blending-omc-books-e20-today-vs -- one section out of seven
+#     gestures at the refinery-petrochemical pivot, but the piece as a whole
+#     is about ethanol's effect on OMC books/exchequer/export volumes --
+#     too thin a match for Refining & Petrochemicals.
+#   one-refinery-flipped-nigeria-from -- reads like Refining &
+#     Petrochemicals (Dangote refinery), but the actual content is trade-
+#     balance/geopolitical with no GRM/crack-spread/petrochemical-yield
+#     content -- left under its existing Trade & Tariffs coverage.
+#   ethanols-coal-boilers-briquette-gap-and / how-india-actually-plans-to-hit-net
+#     -- both mention coal repeatedly (distillery coal boilers / net-zero
+#     scenarios' coal curve) but neither is about coal gasification or the
+#     coal-to-chemicals menu -- kept out of Coal & Coal Gasification.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
