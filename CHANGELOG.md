@@ -12646,3 +12646,16 @@ Correct E25 blending status: not a GST Council decision, BIS/excise already clea
 **Changed**
 
 - `the-fcc-lever-trading-petrol-yield-for` — 37,494 → 38,309 bytes (+815)
+
+## 2026-09-26T02:16:40+00:00 — 320 posts live
+
+Update India-EU FTA ratification timeline to early 2027
+
+
+**Versions**
+
+- `a-million-wine-market-behind-150-wall` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-million-wine-market-behind-150-wall` — 33,773 → 35,112 bytes (+1,339)
