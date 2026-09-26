@@ -496,6 +496,75 @@ OVERRIDE = {
 #     concentration data, but no incentive-policy content at all; not the
 #     same story as the State Investment Incentives cluster.
 
+# SUB-TOPIC REFINEMENT PASS 5: MARKETS & FINANCE (2026-09-26)
+#
+# Same method again, applied to "Markets & Finance" (42 posts). Four new
+# labels ADDED on top of existing labels; "Markets & Finance" itself
+# untouched on all 42. Checked against the full live label set (64 topics
+# after the first four passes -- including Currency Markets, Macroeconomics
+# & Monetary Policy, Insurance & Reinsurance and Sustainable Finance, which
+# already exist as separate labels and were treated as off-limits duplicates)
+# before proposing anything.
+#
+#   Equity Markets & Stock Screening -- quant/factor stock-screening,
+#     price-band cluster analysis, model portfolios, cheap-stock/microcap
+#     segmentation using Sharpe ratios and NSE price-warehouse data. The
+#     professional/methodology-driven equity-analysis side.
+#   Bonds & Fixed Income -- bond issuance mechanics, tax/capital-gains bond
+#     exemption math, infrastructure project-bond financing.
+#   Personal Finance & Retail Investing Access -- fractional investing,
+#     SIPs, the 50/30/20 rule, retail market-access framing. Distinct from
+#     the Equity Markets cluster above even where the narrative hook looks
+#     similar: why-bet-on-one-horse-when-you-can-buy uses the same
+#     fractional/thali framing device but its actual method is Sharpe-ratio
+#     price-band portfolio construction, so it was filed under Equity
+#     Markets & Stock Screening, not here.
+#   Corporate Finance & M&A -- roll-up consolidation, bankruptcy
+#     restructuring, bolt-on acquisitions. Only 2 posts, thinner than every
+#     other cluster in all five passes so far, but both matches are
+#     unambiguous and self-labelled by the post itself ("Mergers &
+#     Acquisitions" / "Global M&A" appear on-page) -- judged real rather
+#     than forced, on the same "2+ genuine beats 3+ thin" standard the
+#     Industrial Policy pass used when it rejected a 1-post cluster
+#     (Defence & Strategic Manufacturing) but this one clears the bar.
+#
+# A false-positive trap caught along the way, same shape as the Trade &
+# Tariffs pass's BIS/BIS-standards mix-up: "quant" keyword hits in five
+# posts (indias-shrimp-exports-did-not-collapse, indias-8-digit-trade-book-
+# searchable, beyond-pump-what-upi-fee-would-cost, lpgs-missing-number-7308-
+# commission-and, upi-fees-are-now-legal-petrol-pumps) were all "quantity"/
+# "quantified", nothing to do with quantitative finance -- excluded.
+#
+# 16 of the 42 posts got at least one addition. The other 26 were left alone
+# (general-purpose finance/trade/currency/policy pieces, or already covered
+# by an existing label like Insurance & Reinsurance or Sustainable Finance).
+#
+# Considered and NOT created:
+#   IPOs & Public Listings -- only one genuine match
+#     (engineering-and-auto-component-makers, 488 SEBI DRHP filings); four
+#     other posts mention "IPO" only in passing (one asset class among
+#     several, or a single cited data point) -- the same "one-off" trap the
+#     brief warned about, left uncreated below the 2-3+ post bar.
+#   Credit Ratings & Corporate Risk -- no genuine cluster. ICRA/CRISIL
+#     mentions in raising-green-debt-globally (a bond-issuer rating scale,
+#     already covered by Bonds & Fixed Income) and textbooks-say-project-
+#     returns-converge (one citation of this blog's own separate ICRA piece
+#     as supporting evidence) are both passing references, not rating-
+#     agency analysis in their own right.
+#
+# Flagged as genuinely unsure rather than guessed:
+#   premium-now-claim-later-float-indias -- heavy bond/equity-allocation
+#     content (insurer float invested in government securities/bonds), but
+#     judged as belonging to the existing Insurance & Reinsurance angle
+#     (insurance-float asset allocation) rather than Bonds & Fixed Income
+#     (bond-instrument mechanics) -- could reasonably go either way.
+#   securitising-deficit-what-it-would / if-india-paid-brics-in-rupees-scenario
+#     -- both cite sovereign bond yields/G-secs inside a de-dollarisation/
+#     currency scenario model; left unlabelled since they read as Currency
+#     Markets material (an existing separate label), and retroactively
+#     assigning that label to posts outside the current bucket is outside
+#     this pass's scope.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
