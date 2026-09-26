@@ -255,7 +255,14 @@ actually reach the pump.</p>
 
 
 <h2>2. Where crude stood on 5 August 2026 <span class="n">&middot; Rigzone + OilPriceAPI, cross-checked against PPAC's own weighting</span></h2>
-<div class="warn"><b>Update, 24 September 2026: these were never a live feed, and they are now seven weeks stale.</b> This section originally labelled the quotes below "live" and "today." A static page cannot carry a live price, so that framing was always going to age badly; it has now aged badly enough to be actively misleading. Brent was trading around $101&ndash;113/bbl in the week of 22&ndash;23 September 2026 &mdash; roughly 30&ndash;45% above the $78.87/bbl this section quotes &mdash; driven by Middle East supply disruption. That is now much closer to this piece's own "Past-year high analogue" scenario row in Section 3 ($116.54/bbl) than to the "5 Aug 2026, implied" row the quotes below actually support. The labels below have been corrected to say what date they describe; the underlying pump-price cascade in Sections 3&ndash;5 has <em>not</em> been recalculated against current crude, and should not be read as reflecting pump prices today.</div>
+<div class="warn"><b>Update, 25 September 2026: this section has now been re-priced against current crude.</b> This section originally labelled the quotes below "live" and "today." A static page cannot carry a live price, so that framing was always going to age badly; on 24 September 2026 it was relabelled to show the dates it actually describes. As of 25 September 2026, crude has moved well past the 5 August levels below: Brent was trading around $104&ndash;105/bbl and WTI around $93/bbl (Tradingeconomics, ConvexTrade, OneValor), and PPAC's own Indian Basket &mdash; per Business Standard and Yahoo Finance coverage of PPAC's published series &mdash; topped $100/bbl for the first time since May 2026, reported at $101.07/bbl, up from a $99.38/bbl September-to-date average earlier in the month. The KPI row directly below is that 25 September re-price; the original 5 August snapshot is kept underneath for the method trail. A new "25 Sep 2026" row has been added to the Section 3 scenario table, the Section 4 state-by-state selector, and Section 5's calculator default using the same held-duty methodology as every other row &mdash; no figure here is independently re-derived from a primary PPAC fetch, since ppac.gov.in itself returns a blocked-egress error in this piece's research environment; the $101.07/bbl figure is PPAC-attributed via secondary reporting, not read directly from PPAC's own page.</div>
+<div class="kpis">
+<div class="kpi"><b>$104&ndash;105/bbl</b><span>Brent Crude, as of 25 Sep 2026</span></div>
+<div class="kpi"><b>~$93/bbl</b><span>WTI Crude, as of 25 Sep 2026</span></div>
+<div class="kpi"><b>$101.07/bbl</b><span>Indian basket, 25 Sep 2026 (PPAC, via secondary reporting) &mdash; first time over $100/bbl since May 2026</span></div>
+<div class="kpi"><b>+44.6%</b><span>vs PPAC's last published Jul&ndash;Sep 2025 average ($69.89/bbl)</span></div>
+</div>
+<p class="dek"><strong>5 August 2026 snapshot, kept for the method trail:</strong></p>
 <div class="kpis">
 <div class="kpi"><b>$78.87/bbl</b><span>Brent Crude, as of 5 Aug 2026 (OilPriceAPI &amp; Rigzone agreed to 2&cent; that day)</span></div>
 <div class="kpi"><b>$74.84/bbl</b><span>WTI Crude, as of 5 Aug 2026</span></div>
@@ -290,6 +297,7 @@ in this Ready Reckoner edition, so the "5 Aug 2026" figure above is not a PPAC-p
 <tr><td>PPAC Jul&ndash;Sep 2025 baseline</td><td class="num">69.89</td><td class="num">94.77</td><td class="num">&mdash;</td><td class="num">87.67</td><td class="num">&mdash;</td></tr>
 <tr><td>5 Aug 2026, implied</td><td class="num">78.30</td><td class="num">100.35</td><td class="num">+5.9</td><td class="num">93.14</td><td class="num">+6.2</td></tr>
 <tr><td>5 Aug 2026 +10%</td><td class="num">86.13</td><td class="num">105.54</td><td class="num">+11.4</td><td class="num">98.24</td><td class="num">+12.1</td></tr>
+<tr><td><strong>25 Sep 2026 (current)</strong></td><td class="num"><strong>101.07</strong></td><td class="num"><strong>115.42</strong></td><td class="num"><strong>+21.8</strong></td><td class="num"><strong>107.96</strong></td><td class="num"><strong>+23.1</strong></td></tr>
 <tr><td>Past-year high analogue</td><td class="num">116.54</td><td class="num">125.71</td><td class="num">+32.7</td><td class="num">118.03</td><td class="num">+34.6</td></tr>
 </tbody></table></div>
 <p class="src">Method: dealer price = crude-equivalent (Indian basket $/bbl &times; &#8377;88.32/$
@@ -299,7 +307,13 @@ commission and the effective VAT rate are held at their 01.10.2025 PPAC levels &
 no policy offset. Past-year Brent high/low ($117.38 / $59.59, OilPriceAPI 365-day history
 as of 5 August 2026) converted to an Indian-basket analogue by scaling proportionally to
 5 August 2026's Brent-to-basket ratio, since a historical Oman/Dubai series was not
-available to apply PPAC's exact formula at those dates.</p>
+available to apply PPAC's exact formula at those dates. The 25 Sep 2026 row uses the same
+formula and the same held FX rate (&#8377;88.32/$) applied to $101.07/bbl, PPAC's own Indian
+Basket figure for that date as reported by Business Standard and Yahoo Finance &mdash; not an
+OilPriceAPI/Rigzone pull like the other rows, since this piece's research environment could
+not reach either live-quote provider or ppac.gov.in directly at the time of this update; a
+real 25 September rupee rate would also differ from the held &#8377;88.32/$, which this row
+does not model, consistent with every other row in this table.</p>
 <p class="dek">The scenario range makes the excise lever visible: a 97% swing in crude (past-year
 low to high) would, on a naive full pass-through, move Delhi petrol by &#8776;43% (&#8377;87.65
 to &#8377;125.71) &mdash; a smaller swing than crude's own, because the flat-rate excise and
@@ -323,8 +337,9 @@ differential baked into that city's dealer price, not the bare statutory VAT rat
 <select id="fp_scen">
 <option value="59.16">Past-year low ($59/bbl)</option>
 <option value="69.89">PPAC Jul-Sep 2025 baseline ($70/bbl)</option>
-<option value="78.30" selected>5 Aug 2026, implied ($78/bbl)</option>
+<option value="78.30">5 Aug 2026, implied ($78/bbl)</option>
 <option value="86.13">5 Aug 2026 +10% ($86/bbl)</option>
+<option value="101.07" selected>25 Sep 2026, current ($101/bbl)</option>
 <option value="116.54">Past-year high analogue ($117/bbl)</option>
 </select></div>
 </div>
@@ -349,7 +364,7 @@ map</a>, re-priced state by state.</p>
 <div style="display:flex;flex-wrap:wrap;gap:12px;margin:1rem 0;">
   <div style="flex:1;min-width:160px;">
     <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_crude">Indian basket crude ($/bbl)</label>
-    <input type="number" id="em_crude" value="78.30" min="20" max="200" step="0.5" style="width:100%;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:8px;" />
+    <input type="number" id="em_crude" value="101.07" min="20" max="200" step="0.5" style="width:100%;height:34px;padding:0 10px;border:1px solid var(--line);border-radius:8px;" />
   </div>
   <div style="flex:1;min-width:160px;">
     <label style="font-size:.8em;color:var(--mut);display:block;margin-bottom:4px;" for="em_blend">Ethanol blend</label>
@@ -426,9 +441,15 @@ exchange rate of &#8377;88.32/$ (PPAC's own September 2025 average, Table 8.13B 
 all scenarios &mdash; a real crude move would also move the rupee, which this piece does not
 model. Refining-and-marketing wedge and state effective-incidence figures are both backed out
 of PPAC's own published prices, not independently sourced cost data; PPAC does not publish a
-crude-vs-margin split. Live crude prices: Rigzone (rigzone.com/news/oil_gas_price) and
-OilPriceAPI (oilpriceapi.com), both queried 5 August 2026, 02:00 UTC. State price baseline and
-duty schedule: PPAC Ready Reckoner FY2025-26 H1 edition, Tables 8.1&ndash;8.17.
+crude-vs-margin split. Crude prices, original 5 August 2026 build: Rigzone
+(rigzone.com/news/oil_gas_price) and OilPriceAPI (oilpriceapi.com), both queried 5 August 2026,
+02:00 UTC. Crude price for the 25 September 2026 row added in this update: PPAC's own Indian
+Basket figure ($101.07/bbl), attributed via Business Standard and Yahoo Finance's contemporaneous
+coverage of PPAC's published series rather than a direct fetch of ppac.gov.in, Rigzone or
+OilPriceAPI, all of which returned blocked-egress errors in this piece's research environment
+at the time of this update; Brent ($104&ndash;105/bbl) and WTI (~$93/bbl) for the same date via
+Tradingeconomics, ConvexTrade and OneValor. State price baseline and duty schedule: PPAC Ready
+Reckoner FY2025-26 H1 edition, Tables 8.1&ndash;8.17.
 </p>
 </div>
 
@@ -454,10 +475,10 @@ new Chart(document.getElementById('c_buildup'), {
 new Chart(document.getElementById('c_scenarios'), {
   type: 'bar',
   data: {
-    labels: ['Past-yr low\n$59', 'PPAC Jul-Sep25\n$70', '5 Aug 2026\n$78', '5 Aug 2026 +10%\n$86', 'Past-yr high\n$117'],
+    labels: ['Past-yr low\n$59', 'PPAC Jul-Sep25\n$70', '5 Aug 2026\n$78', '5 Aug 2026 +10%\n$86', '25 Sep 2026\n$101', 'Past-yr high\n$117'],
     datasets: [
-      { label:'Petrol', data:[87.65,94.77,100.35,105.54,125.71], backgroundColor:'#2251FF' },
-      { label:'Diesel', data:[80.69,87.67,93.14,98.24,118.03], backgroundColor:'#D8452B' }
+      { label:'Petrol', data:[87.65,94.77,100.35,105.54,115.42,125.71], backgroundColor:'#2251FF' },
+      { label:'Diesel', data:[80.69,87.67,93.14,98.24,107.96,118.03], backgroundColor:'#D8452B' }
     ]
   },
   options: { responsive:true, maintainAspectRatio:false,
@@ -540,7 +561,7 @@ function emColor(v, lo, hi){
   return 'rgb('+Math.round(c0[0]+(c1[0]-c0[0])*f)+','+Math.round(c0[1]+(c1[1]-c0[1])*f)+','+Math.round(c0[2]+(c1[2]-c0[2])*f)+')';
 }
 function emRender(){
-  var crude = parseFloat(document.getElementById('em_crude').value) || 78.30;
+  var crude = parseFloat(document.getElementById('em_crude').value) || 101.07;
   var blend = parseFloat(document.getElementById('em_blend').value);
   var results = EM_MAP.map(function(row){ return emPriceFor(row, crude, blend); });
   var vals = []; results.forEach(function(r){ if (r) vals.push(r.rspP); });
