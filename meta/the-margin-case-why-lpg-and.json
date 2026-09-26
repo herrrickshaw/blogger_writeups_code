@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-margin-case-why-lpg-and.html",
   "slug": "the-margin-case-why-lpg-and",
   "published": "2026-08-13T08:58:40.000+05:30",
-  "updated": "2026-09-07T19:39:00.000+05:30",
+  "updated": "2026-09-26T05:55:12.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels"
   ],
-  "bytes": 37902,
-  "sha256": "ff3181060eff687bfe3e1a404e7ce5b24f854ce720286952dec9bc22df393ebd",
+  "bytes": 39320,
+  "sha256": "d827d12fde969e918d3becd5327caf85e9f097fb0fedc054fafb22339c593e82",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.0.4",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.0.4",
+      "date": "2026-09-26T00:25:45+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37902,
+        39320
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update two more crude-price snapshots flagged in the stale-fact audit"
     }
   ]
 }

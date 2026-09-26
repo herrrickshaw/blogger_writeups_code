@@ -12605,3 +12605,18 @@ Reprice fuel-pricing-to-crude-cost against 25 Sept 2026 crude
 **Changed**
 
 - `fuel-pricing-to-crude-cost` — 84,043 → 86,522 bytes (+2,479)
+
+## 2026-09-26T00:25:45+00:00 — 320 posts live
+
+Update two more crude-price snapshots flagged in the stale-fact audit
+
+
+**Versions**
+
+- `where-worlds-oil-sits-when-it-isnt` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-margin-case-why-lpg-and` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `where-worlds-oil-sits-when-it-isnt` — 44,401 → 48,579 bytes (+4,178)
+- `the-margin-case-why-lpg-and` — 37,902 → 39,320 bytes (+1,418)
