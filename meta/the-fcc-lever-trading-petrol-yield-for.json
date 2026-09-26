@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-fcc-lever-trading-petrol-yield-for.html",
   "slug": "the-fcc-lever-trading-petrol-yield-for",
   "published": "2026-08-13T04:07:57.000+05:30",
-  "updated": "2026-09-11T21:40:39.000+05:30",
+  "updated": "2026-09-26T07:22:01.000+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 37494,
-  "sha256": "99197ffab5f6bc3d791ee2cdf1b9633f503ffa7cbbf118d7a853977e4131dfb2",
+  "bytes": 38309,
+  "sha256": "12583ab414530d122d4be475c929c08f608bb146ba563028631d4f91bf9c624d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (single-line capacity caveat running 89.1px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-09-26T01:52:27+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37494,
+        38309
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Correct E25 blending status: not a GST Council decision, BIS/excise already cleared"
     }
   ]
 }

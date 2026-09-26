@@ -12633,3 +12633,16 @@ Correct Dangote IPO terms: $1.6bn raise not $5bn, Nov listing not Oct
 **Changed**
 
 - `one-refinery-flipped-nigeria-from` — 34,772 → 37,108 bytes (+2,336)
+
+## 2026-09-26T01:52:27+00:00 — 320 posts live
+
+Correct E25 blending status: not a GST Council decision, BIS/excise already cleared
+
+
+**Versions**
+
+- `the-fcc-lever-trading-petrol-yield-for` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-fcc-lever-trading-petrol-yield-for` — 37,494 → 38,309 bytes (+815)
