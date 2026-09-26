@@ -245,6 +245,57 @@ OVERRIDE = {
     "india-has-tested-its-soil-twice-second": ["Agriculture & Fertilisers"],
 }
 
+# SUB-TOPIC REFINEMENT PASS (2026-09-26)
+#
+# "Agriculture & Fertilisers" had grown to 55 posts -- too broad a bucket for
+# a reader looking for one specific thread. Rather than widen TAXONOMY (which
+# would re-score every already-labelled post and risk churning labels that
+# were fine), six new sub-topic labels were ADDED on top of existing labels
+# for the posts that genuinely belong to a finer cluster, via direct
+# do_update() calls with each post's current live labels plus the new one(s)
+# -- not through --apply, which skips any post that already has labels.
+# "Agriculture & Fertilisers" itself was never removed from any post.
+#
+# The six labels and what each covers:
+#   Seeds & Plant Genetics       -- seed-bill legislation, plant-variety/IP registration
+#   Irrigation & Water Management -- irrigation ownership, finance, cost-recovery
+#                                    (not farm-drinking-water infra, which stays
+#                                    under Infrastructure & Investment)
+#   Fertilisers & Soil Health    -- urea/DAP dosage, subsidy/import economics,
+#                                    bio-fertiliser, Soil Health Card methodology
+#   Crop Insurance & Risk        -- PMFBY and the reinsurance/risk-backstop system
+#   Livestock & Dairy            -- cattle/dairy/poultry/meat (not fisheries,
+#                                    which keeps its own Fisheries & Aquaculture)
+#   Grain Procurement & Storage  -- FCI procurement/storage, MSP/MSV mechanics,
+#                                    PDS/ONORC grain movement
+#
+# 25 of the 55 posts got at least one addition (see the slug list this comment
+# accompanies in the repo's history for the exact mapping); the remaining 30
+# (wine, guar gum, coffee, coco peat, lemon cultivation, HSN trade dashboards,
+# PLFS employment-share pieces, etc.) are genuinely general-purpose agriculture/
+# trade/price pieces with no finer bucket that fits, and were left alone.
+#
+# Four borderline calls, left as judgment rather than forced into a bucket:
+#   nano-urea-works-as-supplement-and-fails -- nano urea is regulated as a
+#     fertiliser (Fertiliser Control Order), not a seed product, despite the
+#     "nano" framing inviting a Seeds association -- filed under Fertilisers.
+#   indias-animal-protein-export-complex -- roughly a third of the piece is
+#     shrimp/fisheries, so it got BOTH Livestock & Dairy AND Fisheries &
+#     Aquaculture rather than picking one.
+#   the-national-beekeeping-honey-mission -- apiculture isn't cattle/poultry/
+#     dairy in the conventional sense, and the post's real content (honey
+#     production + adulteration) is already covered by its existing
+#     Agriculture & Food Processing label -- left out of Livestock & Dairy.
+#   annadata-to-urjadata-farmer-income-case / fourteen-years-of-indian-wholesale
+#     -- both touch fertiliser costs in passing (one subsection each) but are
+#     fundamentally an ethanol/farmer-income piece and a general WPI roundup
+#     respectively -- too thin a match for Fertilisers & Soil Health.
+#
+# This taxonomy applies only to Blogger's own labels (and therefore this
+# repo's meta/*.json). The separately-hosted Lovable "Masala Deutsch Archive"
+# mirrors the blog's labels into a static dataset it was fed directly -- it
+# needs its own re-sync after a pass like this, not just a snapshot.py run.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
