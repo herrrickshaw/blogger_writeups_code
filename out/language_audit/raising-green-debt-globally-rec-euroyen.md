@@ -4,6 +4,7 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/IS_AND_ARE]** Possible subject-verb agreement error.
-  context: ...ign rating shapes the risk appetite and mandate structure of its domestic institutional...
-  suggested: mandates
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>

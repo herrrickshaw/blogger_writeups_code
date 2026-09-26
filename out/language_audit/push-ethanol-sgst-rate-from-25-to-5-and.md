@@ -4,9 +4,5 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘shortfall’ seems to be countable.
-  context: ...er than the ₹17,863 crore net state VAT shortfall a companion piece calculated at the sam...
-  suggested: shortfalls
-- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘shortfall’ seems to be countable.
-  context: ... next to UP's own ~₹1,776 crore net VAT shortfall from ethanol blending (VAT foregone net...
-  suggested: shortfalls
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>

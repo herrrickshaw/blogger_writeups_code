@@ -4,12 +4,11 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/RELATIVE_CLAUSE_AGREEMENT]** Did you mean “hold”? Alternatively, check whether the singular of ‘changes’ should be used.
-  context: ...of trade. Settlement reform changes who holds which claim; these measures change how ...
-  suggested: hold
-- **[GRAMMAR/ADVERB_OR_HYPHENATED_ADJECTIVE]** Make sure that the adjective ‘whole’ is correct. Possibly, it should be an adverb (typically ~ly) that modifies ‘recorded’. Possibly, it should be the first word in a compound adjective (hyphenated adjective). Possibly, it is correct.
-  context: ...rupee-settlement apparatus, that is the whole recorded stock of direct investment.  Exhibit 18...
-  suggested: whole-recorded
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ... imports, by SIPRI's five-year windows  Per cent of Indian arms imports supplied by Russ...
-  suggested: Percent
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>

@@ -4,10 +4,8 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
-- **[GRAMMAR/WIDE_COMPOUNDS]** The adjective “widespread” is spelled as one word.
-  context: ...ring India diaper-market reports, whose wide spread reflects genuinely different market def...
-  suggested: widespread
-- **[GRAMMAR/RELATIVE_CLAUSE_AGREEMENT]** Did you mean “manufacture”? Alternatively, check whether the singular of ‘changes’ should be used.
-  context: ...omestic production capacity changes who manufactures the chemical, not whether its price sti...
-  suggested: manufacture
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
