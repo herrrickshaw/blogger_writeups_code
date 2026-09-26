@@ -359,6 +359,70 @@ OVERRIDE = {
 #     scenarios' coal curve) but neither is about coal gasification or the
 #     coal-to-chemicals menu -- kept out of Coal & Coal Gasification.
 
+# SUB-TOPIC REFINEMENT PASS 3: TRADE & TARIFFS (2026-09-26)
+#
+# Same method again, applied to "Trade & Tariffs" (69 posts). Four new labels
+# ADDED on top of existing labels; "Trade & Tariffs" itself untouched on all
+# 69. Checked against the full live label set (by then 55 topics, including
+# every sub-topic from the two prior passes) before proposing anything.
+#
+#   Trade Remedies & Antidumping -- AD/CVD orders, safeguard duties, Section
+#     301/232-style tariff actions, WTO dispute mechanisms. The trade-LAW-
+#     enforcement side, distinct from blanket geopolitical tariff sagas.
+#   Free Trade Agreements -- FTA negotiation/ratification/terms (India-EU,
+#     TEPA/EFTA, the post-2021 "new generation" FTA wave). The negotiated-
+#     treaty side, distinct from unilateral tariff actions.
+#   Customs & HSN Trade Data -- reserved specifically for HSN-code-level
+#     dashboard/data-tool posts (8-digit tariff-line tables, searchable trade-
+#     code tools), NOT narrative trade stories that merely cite an HS chapter
+#     in passing -- six posts that work at 2-digit chapter level with a
+#     narrative frame were deliberately excluded from this label for that
+#     reason (hsn-wise-historical-importexport-trends, indias-trade-balance-
+#     hsn-wise, fy2025-26-sample-report-india-trade, import-dependent-sectors-
+#     vs-government, priority-export-destinations-by-growth, priority-trade-
+#     partners-by-import).
+#   Quality Standards & Certification -- BIS/QCO-type quality regulation that
+#     gates market access, distinct from tariffs themselves. Two posts
+#     (the-rupee-fell-10-and-exports-grew-09, if-india-paid-brics-in-rupees-
+#     scenario) matched "BIS" in keyword search but that's the Bank for
+#     International Settlements, not the Bureau of Indian Standards -- a
+#     false positive caught and excluded, not a borderline call.
+#
+# Export Promotion Schemes was considered and NOT created: only one post had
+# genuine substantive coverage (indias-trade-story-has-three-big-wins, via its
+# Export Promotion Mission section), below the 2-3+ post bar for a new label --
+# folded into that post's Free Trade Agreements tag instead of forcing a thin
+# cluster into existence.
+#
+# 19 of the 69 posts got at least one addition (two got two: the two
+# chemical-import-substitution posts that carry both a genuine DGTR AD-duty
+# tracking section and an 8-digit HSN dashboard). The other 50 were left alone.
+#
+# Borderline calls, included but flagged as thinner than their cluster-mates:
+#   nobody-blockaded-hormuz-to-slow-india (FTA) -- the FTA content is a
+#     supporting section within a shipping/geopolitics narrative, not the
+#     piece's main subject.
+#   indias-textile-import-export-strategy (Quality Standards) -- one named
+#     "Quality Control Initiative (2024-25): BIS Mandatory Standards"
+#     subsection, thinner than the other four in that cluster.
+#   india-imports-283000-tonnes-of-almonds (Trade Remedies) -- a full
+#     dedicated section, but the "remedy" is a historical 2019-2023
+#     retaliatory duty tied to a US Section 232 dispute, not a live AD/CVD case.
+#
+# Considered and rejected (not guessed into a bucket):
+#   one-refinery-flipped-nigeria-from -- Dangote's stated need for "anti-
+#     dumping protection" for a hypothetical Kenya refinery is one fact
+#     restated three times, not India-specific trade-remedy content; already
+#     a deliberate exclusion in the Energy & Fuels pass too.
+#   indias-lock-imports-hit-19784-million -- explicitly states no confirmed
+#     AD duty or DGTR safeguard investigation was found on locks, only
+#     advocacy calling for one.
+#   indias-subsidised-imports-fertilisers -- a 12% safeguard duty and a QCO
+#     quota each appear as a single line item inside a 12-category commodity
+#     table, not substantive treatment of either mechanism.
+#   indias-medical-device-trade-gap-and -- one India-EU FTA bullet in a
+#     policy list, too thin for Free Trade Agreements.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
