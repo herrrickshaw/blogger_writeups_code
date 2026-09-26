@@ -12592,3 +12592,16 @@ Add current PMKSY/AIBP spending-vs-outcome data to irrigation post: 2021-26 outl
 **Changed**
 
 - `indias-irrigation-system-recovered-96` — 22,243 → 24,677 bytes (+2,434)
+
+## 2026-09-26T00:00:38+00:00 — 320 posts live
+
+Reprice fuel-pricing-to-crude-cost against 25 Sept 2026 crude
+
+
+**Versions**
+
+- `fuel-pricing-to-crude-cost` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `fuel-pricing-to-crude-cost` — 84,043 → 86,522 bytes (+2,479)
