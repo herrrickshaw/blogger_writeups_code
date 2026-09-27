@@ -12738,3 +12738,40 @@ UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/
 
 - `beyond-pump-what-upi-fee-would-cost` — 38,298 → 40,559 bytes (+2,261)
 - `upi-fees-are-now-legal-petrol-pumps` — 42,502 → 45,110 bytes (+2,608)
+
+## 2026-09-27T05:57:37+00:00 — 321 posts live
+
+Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets
+
+
+**Versions**
+
+- `mopsws-25000-crore-maritime-development` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+- `the-easiest-ev-conversion-in-india` **1.1.4 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `the-green-shift-what-indias-oil` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `india-will-finance-waste-to-energy` **2.0.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `tamil-nadus-wind-potential-according-to` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `indias-two-tracks-of-health-cover-and` **3.0.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `india-has-tax-treaties-with-97` **3.0.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `indias-state-incentive-war-gujarats` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `securitising-deficit-what-it-would` **3.0.5 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `raising-green-debt-globally-rec-euroyen` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `indias-carbon-credit-market-domestic` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `rbi-foreign-exchange-reserves-20152026` **3.0.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+8/-0 distinct numbers))
+- `fci-grain-flow-procurement-storage` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+9/-0 distinct numbers))
+
+**Changed**
+
+- `mopsws-25000-crore-maritime-development` — 27,089 → 27,603 bytes (+514)
+- `the-easiest-ev-conversion-in-india` — 33,744 → 34,598 bytes (+854)
+- `the-green-shift-what-indias-oil` — 24,119 → 24,916 bytes (+797)
+- `india-will-finance-waste-to-energy` — 38,679 → 39,120 bytes (+441)
+- `tamil-nadus-wind-potential-according-to` — 26,056 → 26,797 bytes (+741)
+- `indias-two-tracks-of-health-cover-and` — 26,879 → 27,450 bytes (+571)
+- `india-has-tax-treaties-with-97` — 28,118 → 28,486 bytes (+368)
+- `indias-state-incentive-war-gujarats` — 40,094 → 40,558 bytes (+464)
+- `securitising-deficit-what-it-would` — 129,947 → 131,070 bytes (+1,123)
+- `raising-green-debt-globally-rec-euroyen` — 67,620 → 68,707 bytes (+1,087)
+- `indias-carbon-credit-market-domestic` — 32,564 → 33,338 bytes (+774)
+- `rbi-foreign-exchange-reserves-20152026` — 54,796 → 55,382 bytes (+586)
+- `fci-grain-flow-procurement-storage` — 40,221 → 41,093 bytes (+872)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-27T05:49:04+00:00",
+  "snapshot": "2026-09-27T05:57:37+00:00",
   "count": 321,
   "posts": {
     "1048441984418088016": {
@@ -1206,14 +1206,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/mopsws-25000-crore-maritime-development.html",
       "slug": "mopsws-25000-crore-maritime-development",
       "published": "2026-09-21T13:57:37.000+05:30",
-      "updated": "2026-09-26T10:59:43.000+05:30",
+      "updated": "2026-09-27T11:26:47.000+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "Public Sector & Infrastructure Finance"
       ],
-      "bytes": 27089,
-      "sha256": "756ab89a8993da7ad18a9b08c5ca40b79d8ddd8185015fe73e19010323c6d39b",
+      "bytes": 27603,
+      "sha256": "c9a18b3e288d98114b7d4156173b3d0e993002425281cefcc1fe2044fd94b09a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -1225,7 +1225,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.1",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -1246,6 +1246,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "scheduled sync"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+4/-0 distinct numbers))",
+          "bytes": [
+            27089,
+            27603
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -3256,12 +3269,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html",
       "slug": "indias-two-tracks-of-health-cover-and",
       "published": "2026-08-12T10:54:13.000+05:30",
-      "updated": "2026-09-10T23:58:29.000+05:30",
+      "updated": "2026-09-27T11:26:42.000+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 26879,
-      "sha256": "ff26d5fe5fe21bb9149400d99d292a1f4e45c5621b0ec13922c13117f84d935b",
+      "bytes": 27450,
+      "sha256": "40dcb65ffc4677e60a334ae8069759d2eb68bc25b67302ce562ad64fa203551d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -3273,7 +3286,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -3463,6 +3476,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            26879,
+            27450
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -6961,12 +6987,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
       "slug": "securitising-deficit-what-it-would",
       "published": "2026-08-04T07:45:51.000+05:30",
-      "updated": "2026-09-11T00:00:24.000+05:30",
+      "updated": "2026-09-27T11:27:06.000+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 129947,
-      "sha256": "7cb0618c718a2c6f7bd56e7620aa606bfefa8f28a4117125db964649894021c7",
+      "bytes": 131070,
+      "sha256": "75b7f1ae45eaedbeee3bce54c27467021c8eeceabc7fee121c874b286191240a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -6978,7 +7004,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.5",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7251,6 +7277,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            129947,
+            131070
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -21295,13 +21334,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/fci-grain-flow-procurement-storage.html",
       "slug": "fci-grain-flow-procurement-storage",
       "published": "2026-07-31T10:04:00.000+05:30",
-      "updated": "2026-09-26T07:51:12.000+05:30",
+      "updated": "2026-09-27T11:26:11.000+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Grain Procurement & Storage"
       ],
-      "bytes": 40221,
-      "sha256": "6f9721b2ecfba2fd520bd28dccc183e7e75a1b9ed22972cff7d4cba1b6a0dde5",
+      "bytes": 41093,
+      "sha256": "1027ed6fbab926789a982f70cf9fa73598c2e34488a502262d39c671eb05e8b9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21313,7 +21352,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21560,6 +21599,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            40221,
+            41093
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -25261,13 +25313,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
       "slug": "the-easiest-ev-conversion-in-india",
       "published": "2026-08-31T15:51:11.000+05:30",
-      "updated": "2026-09-10T22:46:59.000+05:30",
+      "updated": "2026-09-27T11:27:17.000+05:30",
       "labels": [
         "Industrial Policy",
         "Mobility & EV"
       ],
-      "bytes": 33744,
-      "sha256": "b79133a6e535defd35272e8c5525f27053e9ac7268cf07d4da4442da0e6f8ae1",
+      "bytes": 34598,
+      "sha256": "18e95b35eec2919dc34af86e00c357e9aa1f4d9043deeb0fd874cb385b305439",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25279,7 +25331,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.4",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -25352,6 +25404,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            33744,
+            34598
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -25884,13 +25949,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-wind-potential-according-to.html",
       "slug": "tamil-nadus-wind-potential-according-to",
       "published": "2026-08-14T15:04:38.000+05:30",
-      "updated": "2026-09-26T09:49:29.000+05:30",
+      "updated": "2026-09-27T11:27:12.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Renewable Power & Storage"
       ],
-      "bytes": 26056,
-      "sha256": "be2613558f6314c87d0219c2b30c37d2d091e19d1dbabbbba3f3ffacc851f788",
+      "bytes": 26797,
+      "sha256": "3dd452fa34e3ba691a548f0846609383571baa3e3264f3bc95977ac8e909107c",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -25902,7 +25967,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -26014,6 +26079,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed COLLISION (\"Potential\" overlapping the \"33,799 MW\" value label) flagged by tools/svg_chart_lint.py by removing a redundant duplicate \"Potential\" annotation above the onshore bar (the offshore bar had no such duplicate)."
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            26056,
+            26797
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -31368,13 +31446,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
       "slug": "india-has-tax-treaties-with-97",
       "published": "2026-08-09T10:54:39.000+05:30",
-      "updated": "2026-09-26T10:51:35.000+05:30",
+      "updated": "2026-09-27T11:26:17.000+05:30",
       "labels": [
         "Free Trade Agreements",
         "Trade & Tariffs"
       ],
-      "bytes": 28118,
-      "sha256": "b948d397b38df80a5de1295bcdf436678b8ba9d39de6209c752090f3220e0ac7",
+      "bytes": 28486,
+      "sha256": "d3f4834743aeca55ebbd952a8fd66349be18b87321b5cba01eb5145f10d35f43",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31386,7 +31464,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.1",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31589,6 +31667,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            28118,
+            28486
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -34094,14 +34185,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
       "slug": "the-green-shift-what-indias-oil",
       "published": "2026-08-28T13:30:58.000+05:30",
-      "updated": "2026-09-10T22:47:12.000+05:30",
+      "updated": "2026-09-27T11:27:22.000+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels",
         "India"
       ],
-      "bytes": 24119,
-      "sha256": "c967b0e8cb1720b4b5b04b69366b2b9a013fce317fc6b180e3fea8f6be23963a",
+      "bytes": 24916,
+      "sha256": "d1ce2c0ccca9a6f97bd95c7b22c31725e8a6a9e4dcbf709ea08bc87b39a368b3",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34113,7 +34204,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34186,6 +34277,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            24119,
+            24916
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -34550,14 +34654,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-will-finance-waste-to-energy.html",
       "slug": "india-will-finance-waste-to-energy",
       "published": "2026-08-26T20:20:49.000+05:30",
-      "updated": "2026-09-11T00:14:45.000+05:30",
+      "updated": "2026-09-27T11:26:23.000+05:30",
       "labels": [
         "Circularity & Waste-to-Value",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 38679,
-      "sha256": "f5f912e2aff23986e82efacc2414adee704b8cdedf29c558943587adbd20a468",
+      "bytes": 39120,
+      "sha256": "8cce3199d4505794b771189ddd7684dcd9da8b31ea59e7ec8ec723986d74e353",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34569,7 +34673,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.1",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34642,6 +34746,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            38679,
+            39120
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -38080,12 +38197,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-carbon-credit-market-domestic.html",
       "slug": "indias-carbon-credit-market-domestic",
       "published": "2026-08-02T21:37:31.000+05:30",
-      "updated": "2026-09-11T00:15:31.000+05:30",
+      "updated": "2026-09-27T11:26:30.000+05:30",
       "labels": [
         "Climate & Carbon"
       ],
-      "bytes": 32564,
-      "sha256": "58488085ccc40956776b3bf08c9f257830c803c57c2b11b684040fa6d7fdc563",
+      "bytes": 33338,
+      "sha256": "3532ee1efcdecdb9d70f635ba31a47b479717c3fa3edec11af6aaf4227973e00",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38097,7 +38214,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -38326,6 +38443,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            32564,
+            33338
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -40561,12 +40691,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
       "slug": "rbi-foreign-exchange-reserves-20152026",
       "published": "2026-08-02T13:43:33.000+05:30",
-      "updated": "2026-09-10T13:26:41.000+05:30",
+      "updated": "2026-09-27T11:27:00.000+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 54796,
-      "sha256": "cf81306d70271ac97c8e1dcbc5e112807d63470f13102dd1a35fb7839f3b3ded",
+      "bytes": 55382,
+      "sha256": "aa374850aba22bb3a1bfa8b3b291e331aa243ce62e4097ce72ce8f46ce5bb86f",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -40578,7 +40708,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40825,6 +40955,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+8/-0 distinct numbers))",
+          "bytes": [
+            54796,
+            55382
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -42287,13 +42430,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
       "slug": "raising-green-debt-globally-rec-euroyen",
       "published": "2026-08-03T19:10:19.000+05:30",
-      "updated": "2026-09-26T17:01:28.000+05:30",
+      "updated": "2026-09-27T11:26:54.000+05:30",
       "labels": [
         "Bonds & Fixed Income",
         "Markets & Finance"
       ],
-      "bytes": 67620,
-      "sha256": "015eed86a201caecd4e93dabf816b2f6c17ce3f7e908a9d77d3f412f1ea0caf1",
+      "bytes": 68707,
+      "sha256": "6296a2cdb40787bee52958f9444c0b0f62df582e729605534ceaf6ea47f9efbc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -42305,7 +42448,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.5",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -42552,6 +42695,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+          "bytes": [
+            67620,
+            68707
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
@@ -43045,14 +43201,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
       "slug": "indias-state-incentive-war-gujarats",
       "published": "2026-08-05T17:18:03.000+05:30",
-      "updated": "2026-09-26T10:58:32.000+05:30",
+      "updated": "2026-09-27T11:26:36.000+05:30",
       "labels": [
         "Industrial Policy",
         "Markets & Finance",
         "State Investment Incentives"
       ],
-      "bytes": 40094,
-      "sha256": "18045f1bedf7935f3f99e088d670d4e16a75cc62890531dd5747848ee04aa2fa",
+      "bytes": 40558,
+      "sha256": "509ff9e3a2f78400d079b5e84d53da28e777ade75911ae570e12adc51454efa0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -43064,7 +43220,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.1",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -43328,6 +43484,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-09-27T05:57:37+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            40094,
+            40558
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
         }
       ]
     },
