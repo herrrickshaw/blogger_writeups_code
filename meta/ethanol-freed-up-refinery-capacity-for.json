@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/ethanol-freed-up-refinery-capacity-for.html",
   "slug": "ethanol-freed-up-refinery-capacity-for",
   "published": "2026-09-16T13:32:18.000+05:30",
-  "updated": "2026-09-26T09:47:35.000+05:30",
+  "updated": "2026-09-27T12:45:15.000+05:30",
   "labels": [
     "Chemicals",
     "Energy & Fuels",
     "Refining & Petrochemicals"
   ],
-  "bytes": 46845,
-  "sha256": "fc37e51861d732718fc42eb3090fef276e908de73a29a01d3615c59afba6fa08",
+  "bytes": 47286,
+  "sha256": "b2e40f213625f0317c65b4694b81cf8a0a5b5cfbd26dcb89b33d61a49d8430a0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.10.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -187,6 +187,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T07:15:45+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        46845,
+        47286
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
     }
   ]
 }

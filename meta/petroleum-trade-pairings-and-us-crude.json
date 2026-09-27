@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-09-18T20:11:29.000+05:30",
+  "updated": "2026-09-27T12:45:33.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 151630,
-  "sha256": "2c687f1dbad6e05961ca8422a61d2754a993d4a999f6d53309a200661231aa70",
+  "bytes": 152221,
+  "sha256": "79b757728445c1d3acb280ceb2b5a83ae55d531f7f937c5cae5b71fb1efd162b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -246,6 +246,19 @@
         ]
       },
       "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-09-27T07:15:45+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        151630,
+        152221
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
     }
   ]
 }

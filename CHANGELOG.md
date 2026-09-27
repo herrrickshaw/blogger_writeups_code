@@ -12775,3 +12775,22 @@ Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS 
 - `indias-carbon-credit-market-domestic` — 32,564 → 33,338 bytes (+774)
 - `rbi-foreign-exchange-reserves-20152026` — 54,796 → 55,382 bytes (+586)
 - `fci-grain-flow-procurement-storage` — 40,221 → 41,093 bytes (+872)
+
+## 2026-09-27T07:15:45+00:00 — 321 posts live
+
+Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.10.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `indias-ethanol-sector-already-had-its` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `europe-bought-record-amount-of-lng-and` **7.0.5 → 8.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `petroleum-trade-pairings-and-us-crude` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,845 → 47,286 bytes (+441)
+- `indias-ethanol-sector-already-had-its` — 21,717 → 22,068 bytes (+351)
+- `europe-bought-record-amount-of-lng-and` — 42,983 → 44,190 bytes (+1,207)
+- `petroleum-trade-pairings-and-us-crude` — 151,630 → 152,221 bytes (+591)

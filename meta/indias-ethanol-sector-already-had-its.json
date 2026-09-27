@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-09-18T19:18:26.000+05:30",
+  "updated": "2026-09-27T12:45:26.000+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 21717,
-  "sha256": "bd05b83f5788971922d93db6ef1a47c95c27ce0f1eb2d5e32ea0b272b99b82b2",
+  "bytes": 22068,
+  "sha256": "7d3f8ef4bdb1e4a52f8e3a6317bb719f81e118abd773b93aadd7386c55847e7b",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T07:15:45+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        21717,
+        22068
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
     }
   ]
 }
