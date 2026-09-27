@@ -12723,3 +12723,18 @@ Cotton article: added section on British colonial-era cotton (Berar) and sugarca
 **Changed**
 
 - `indias-cotton-yield-fell-from-566-kg-to` — 32,000 → 38,188 bytes (+6,188)
+
+## 2026-09-27T05:49:04+00:00 — 321 posts live
+
+UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/insurance, effective 15 Oct 2026) - updated both UPI-fee pieces from hypothetical-scenario framing to the real notified schedule
+
+
+**Versions**
+
+- `beyond-pump-what-upi-fee-would-cost` **4.0.4 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `upi-fees-are-now-legal-petrol-pumps` **13.0.5 → 14.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+
+**Changed**
+
+- `beyond-pump-what-upi-fee-would-cost` — 38,298 → 40,559 bytes (+2,261)
+- `upi-fees-are-now-legal-petrol-pumps` — 42,502 → 45,110 bytes (+2,608)
