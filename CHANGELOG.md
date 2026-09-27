@@ -12710,3 +12710,16 @@ Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 cr
 - `india-approved-15-lakh-crore-in` — 38,247 → 39,578 bytes (+1,331)
 - `indias-food-processing-story-pli-scheme` — 26,679 → 26,679 bytes (+0)
 - `greenhouse-emissions-reduction-and-cbam` — 28,626 → 30,332 bytes (+1,706)
+
+## 2026-09-27T05:30:07+00:00 — 321 posts live
+
+Cotton article: added section on British colonial-era cotton (Berar) and sugarcane (Deccan canal) cultivation's soil-fertility/salinity legacy
+
+
+**Versions**
+
+- `indias-cotton-yield-fell-from-566-kg-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+16/-0 distinct numbers))
+
+**Changed**
+
+- `indias-cotton-yield-fell-from-566-kg-to` — 32,000 → 38,188 bytes (+6,188)
