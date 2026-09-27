@@ -12794,3 +12794,12 @@ Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Ba
 - `indias-ethanol-sector-already-had-its` — 21,717 → 22,068 bytes (+351)
 - `europe-bought-record-amount-of-lng-and` — 42,983 → 44,190 bytes (+1,207)
 - `petroleum-trade-pairings-and-us-crude` — 151,630 → 152,221 bytes (+591)
+
+## 2026-09-27T07:21:34+00:00 — 322 posts live
+
+New post: stove redevelopment landscape - LERC's DME-blending research and the IS 18698 20%->8% BIS revision, hydrogen (PNG blending vs LPG-cylinder research vs Greenvize electrolysis stoves), ethanol/methanol gel stoves (SIMI), Surya Nutan solar and improved biomass cookstoves
+
+
+**Added**
+
+- `india-imports-60-of-its-cooking-gas` **v1.0.0** — India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale. (28,296 bytes)
