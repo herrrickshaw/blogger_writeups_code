@@ -565,6 +565,145 @@ OVERRIDE = {
 #     assigning that label to posts outside the current bucket is outside
 #     this pass's scope.
 
+# SUB-TOPIC REFINEMENT PASS 6: INDIA (2026-09-27)
+#
+# Same method, applied to "India" -- the blog's residual/catch-all label (30
+# posts) rather than a sector label like the previous five. Expected, and
+# found, thinner and more heterogeneous clusters than any prior pass: over
+# half the bucket (17 of 30) is genuinely miscellaneous and was left alone.
+# Four new labels ADDED on top of existing labels; "India" itself untouched.
+#
+#   Water Infrastructure Financing -- AMRUT urban water/sewerage capital,
+#     Jal Jeevan Mission rural piped-water, Tamil Nadu's multi-stream water
+#     funding. Distinct from Irrigation & Water Management (that label is
+#     explicitly scoped to farm irrigation ownership/cost-recovery, not
+#     drinking-water/municipal infra) and from Infrastructure & Investment
+#     (the broad umbrella all three already carry). All three posts already
+#     cross-link each other as a series in their own "Related" footers.
+#   Cash Crop Export Economics -- coco-peat, coconut/copra, spices, coffee,
+#     Assam matcha: single-named-commodity profiles sharing one recurring
+#     shape (production map, this blog's own HS-code trade data, a
+#     value-chain gap, a review of the relevant commodity board). NOTE: Pass
+#     1 already looked at coffee and coco-peat specifically and declined to
+#     give them a narrower label -- but that test was against Pass 1's six
+#     farming-*mechanism* labels (seeds, irrigation, fertiliser, insurance,
+#     livestock, grain procurement); this cluster is a different axis (a
+#     recognisable single-commodity export-deep-dive *format*, which four of
+#     the five posts explicitly self-describe as one series in their own
+#     footers). Recorded here rather than silently overriding Pass 1's
+#     verdict on the other axis.
+#   Scheme Delivery Gap -- PM-MKSSY fisheries (₹6,000cr allocated, ₹4.73cr
+#     paid), PMAY-G West Bengal (12.6 lakh sanctioned, 1.5 lakh finished),
+#     PLI (₹1.5 lakh cr approved, ~18% disbursed): the announced-vs-actually-
+#     paid gap as the literal headline subject, not a supporting detail.
+#     GENERICITY RISK, flagged deliberately: nearly every scheme post on this
+#     blog touches this gap to some degree. Scope stayed tight to only the
+#     3 posts where it is the headline; do not expand this label loosely in
+#     a future pass without re-checking that bar. fourteen-states-reimburse-
+#     investors is a strong thematic match but already the core exemplar of
+#     the existing State Investment Incentives label -- left off to avoid
+#     redundancy, though adding both wouldn't be unreasonable.
+#   Carbon Capture & Storage -- ONGC/IOCL's Koyali-Gandhar CO2 capture-and-
+#     injection pilot plus the CCUS storage-site geology piece. Only 2 posts,
+#     same "2 genuine beats 3+ thin" standard Pass 5 used for Corporate
+#     Finance & M&A -- both matches are substantial, not passing mentions.
+#     Distinct from Carbon Markets (credit-trading instruments, not physical
+#     capture/storage) and from Climate & Carbon (the broad umbrella both
+#     already carry).
+#
+# Considered and NOT created: a broader "Net-Zero Modelling" label merging
+# the CCUS pair with price-is-wire-how-gcam-actually-links and rin-red-and-
+# cbio-what-indias-ethanol -- rejected because each of those two already has
+# a precise existing label (Climate Modeling, and a biofuel-carbon-credit
+# angle distinct from physical capture) that a combined label would blur
+# rather than sharpen. A "Government Directories & Fact-Checking" pairing
+# (nine-ministries-one-list-every-company + we-fact-checked-66-investment)
+# was rejected as a shared writing *format* (source-by-source verification),
+# not a subject a reader would browse for.
+#
+# Anomalies noticed but NOT corrected in this pass (out of scope -- this
+# project only adds sub-topic labels, it does not audit or remove existing
+# ones): none found in the India bucket itself; see the Gas & LNG pass below
+# for two flagged there.
+
+# SUB-TOPIC REFINEMENT PASS 7: GAS & LNG (2026-09-27)
+#
+# Same method, applied to "Gas & LNG" (28 posts). Six new labels ADDED on
+# top of existing labels; "Gas & LNG" itself untouched on all 28. Coverage
+# ratio this pass (23 of 28, 82%) is much higher than prior passes (27-38%)
+# -- not from forced splitting, but because this bucket happens to contain
+# several posts that already explicitly self-describe as a multi-part series
+# ("Part 1/2/3", "companion piece", "sequel") rather than one-off pieces.
+#
+#   City Gas Distribution -- the CGD retail business end-to-end: GA district
+#     licensing map, the 82k-outlet geocoded retail network, a cold-chain
+#     overlay on that network, CGD overtaking fertiliser as India's largest
+#     gas-consuming sector, the CBG-to-CGD pipeline-connectivity gap, and
+#     PNGRB's prepaid-smart-meter mandate for domestic PNG connections.
+#     Checked against Circularity & Waste-to-Value (used only for material
+#     recycling/waste-to-energy, not gas-pipeline connectivity, so the CBG
+#     post is not a duplicate there).
+#   Gas Pipeline Infrastructure & Demand Planning -- the national trunk-
+#     pipeline network: a 2013 demand forecast read against actual (~1/4 of
+#     predicted) demand, pipeline utilisation, the full non-gas pipeline map,
+#     the 1962 land-acquisition law behind pipeline gazette notices, and
+#     PNGRB's 2025 Vision-2040 committee report (an explicit sequel to the
+#     2013-vision piece, reusing its own utilisation tables). All five
+#     cross-reference each other as a series in their own text.
+#   Global LNG Markets -- international LNG trade/pricing/geopolitics, not
+#     India-specific: the 2025 437 Mt global record, the EU's record LNG
+#     imports and US dependence, Europe's landlocked states and the Hormuz-
+#     driven supply crunch.
+#   LNG Plant & Terminal Engineering -- liquefaction/regasification plant
+#     technology and asset integrity, not the trade/market side: electric-
+#     motor-drive decarbonisation, the Starter-Helper Motor throughput trick,
+#     corrosion-under-insulation on FSRUs/FPSOs, and the Kakinada gravity-
+#     based-structure terminal (included here rather than under CGD/
+#     regulation because roughly 60% of that piece is terminal technology,
+#     the PNGRB rule-change is the hook, not the subject).
+#   LNG Trucking & Fleet Conversion -- LNG-truck total-cost-of-ownership
+#     versus diesel, and fleet-growth-versus-forecast. Only 2 posts, same
+#     thin-but-unambiguous standard as Corporate Finance & M&A in Pass 5.
+#   Regulatory & Industry-Body Accountability -- a recurring investigative
+#     thread distinct from the sector clusters above: checking an oil-and-
+#     gas institution's own claims against its own disclosed numbers. FIPI's
+#     oldest ask (gas under GST) still unmet with no reform traceable to it;
+#     API's MOUs with FIPI/OISD/PNGRB real but not shown to be FIPI-caused
+#     (explicitly cross-references the FIPI post as "the same pattern");
+#     PNGRB's own Action Taken Report claiming "achieved" against its own
+#     undercutting numbers (2/43 pipelines converted, 0 Ombudsmen appointed)
+#     -- this third post is the weakest link, a regulator's report card
+#     rather than an industry-body advocacy piece like the other two, kept
+#     in on a MEDIUM rather than HIGH confidence call.
+#
+# Considered and NOT created: splitting City Gas Distribution into a mapping
+# sub-cluster versus a demand/regulation sub-cluster (would produce two
+# thinner labels with less distinct identity than one unified CGD label,
+# rejected); merging Global LNG Markets with LNG Plant & Terminal Engineering
+# into one "Global LNG" label (rejected -- one is a policy-analyst's market/
+# pricing interest, the other a technical reader's asset-engineering
+# interest, genuinely different browsing intents); a single "PNGRB Reports &
+# Committees" label grouping every PNGRB-committee-sourced piece regardless
+# of subject (rejected as grouping by document type rather than topic --
+# the smart-meters piece is squarely a CGD story and the Vision-2040 piece
+# squarely a pipeline story, each routed to its subject-matched cluster
+# instead). scan-bottle-deliver-what-ppacs-numbers (LPG cylinder/bottling)
+# is a genuine singleton in this batch, left alone below the 2-post bar.
+#
+# Two anomalies flagged, NOT corrected here (out of scope for an additive
+# sub-topic pass -- noted for a future labelling-accuracy pass instead):
+#   everyone-worries-about-who-pays-for -- actually a CCUS/CO2-pipeline-
+#     economics piece (already carries Climate & Carbon + Industrial
+#     Policy, which cover it); its "Gas & LNG" label looks like a keyword
+#     false-positive on pipeline/PNGRB-common-carrier mentions rather than a
+#     genuine gas/LNG subject match.
+#   where-indias-green-hydrogen-bets-are -- squarely a green-hydrogen
+#     production-mapping piece that the existing "Hydrogen" label is built
+#     for, but did not carry that label. Unlike the item above, this is a
+#     pure omission (adding a correct existing label, not removing an
+#     incorrect one), so it was corrected in this pass's apply run rather
+#     than only flagged.
+
 
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
