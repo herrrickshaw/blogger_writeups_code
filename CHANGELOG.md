@@ -12668,3 +12668,18 @@ New post: cotton yield decline, Kaala vs Bt cotton, soil fertility in MH/TN/MP, 
 **Added**
 
 - `indias-cotton-yield-fell-from-566-kg-to` **v1.0.0** — India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most. (32,000 bytes)
+
+## 2026-09-27T05:20:34+00:00 — 321 posts live
+
+Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB 17 Sep 2026); OALP Round X/XI deepwater deadline extended to 15 Nov 2026, not simply passed
+
+
+**Versions**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **1.1.4 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `abha-what-indias-14-digit-health-id` **3.1.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+
+**Changed**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 49,709 → 50,733 bytes (+1,024)
+- `abha-what-indias-14-digit-health-id` — 26,836 → 28,239 bytes (+1,403)

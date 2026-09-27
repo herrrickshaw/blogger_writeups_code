@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-27T05:06:14+00:00",
+  "snapshot": "2026-09-27T05:20:34+00:00",
   "count": 321,
   "posts": {
     "1048441984418088016": {
@@ -36289,12 +36289,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/abha-what-indias-14-digit-health-id.html",
       "slug": "abha-what-indias-14-digit-health-id",
       "published": "2026-08-12T04:31:28.000+05:30",
-      "updated": "2026-09-17T06:57:32.000+05:30",
+      "updated": "2026-09-27T10:50:06.000+05:30",
       "labels": [
         "Healthcare"
       ],
-      "bytes": 26836,
-      "sha256": "dfdd4ade3654ec5bb27639b2e3ef6a6d8d2fda3c36a109a3676eaaa624e7bff9",
+      "bytes": 28239,
+      "sha256": "e009e0252ed40e77685bc091801b9e4cb6c86658098b521efe7726fb2e336c3e",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36306,7 +36306,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36522,6 +36522,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet -- compares ABHA's patient/doctor/insurer coverage against Estonia (95%+ doctor EHR use since 2008), Denmark (CPR since 1968, Shared Medication Record), UK (Summary Care Record 96%+ coverage but not a unified record until 2028) and Australia (opt-out consent model). Adds a reverse cross-link from the original ABHA post, and an apply_labels.py OVERRIDE entry fixing a false-positive 'Import Substitution' label triggered by the word 'registry'."
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:20:34+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+          "bytes": [
+            26836,
+            28239
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB 17 Sep 2026); OALP Round X/XI deepwater deadline extended to 15 Nov 2026, not simply passed"
         }
       ]
     },
@@ -44299,14 +44312,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
       "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
       "published": "2026-09-02T10:40:46.000+05:30",
-      "updated": "2026-09-26T09:48:32.000+05:30",
+      "updated": "2026-09-27T10:50:12.000+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Oil & Gas Exploration"
       ],
-      "bytes": 49709,
-      "sha256": "982d79a466b72bafd014add59df01e655343ad9f3a54447a8e51afb71d7a3901",
+      "bytes": 50733,
+      "sha256": "06a99f5f5bd359b15b7263c1f649e9350607cb632d6e7535a81ced00ead6e2e2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44318,7 +44331,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.4",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44391,6 +44404,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:20:34+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+          "bytes": [
+            49709,
+            50733
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB 17 Sep 2026); OALP Round X/XI deepwater deadline extended to 15 Nov 2026, not simply passed"
         }
       ]
     },
