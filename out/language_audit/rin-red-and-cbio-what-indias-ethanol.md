@@ -4,6 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- **[GRAMMAR/A_INFINITIVE]** The verb ‘generate’ does not usually follow articles like ‘the’. Check that ‘generate’ is spelled correctly; using ‘generate’ as a noun may be non-standard.
+  context: ...cycle diagrams; redrawn here to isolate the generate→separate→trade→retire sequence and the ...
+  suggested: to generate, the generated, they generate

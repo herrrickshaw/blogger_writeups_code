@@ -4,6 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- **[GRAMMAR/BUNCH_OF]** An article may be missing.
+  context: ...he growth: "From the year 2030 to 2040, majority of the growth (more than 50%) in natural g...
+  suggested: the majority of
