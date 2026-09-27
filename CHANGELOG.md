@@ -12659,3 +12659,12 @@ Update India-EU FTA ratification timeline to early 2027
 **Changed**
 
 - `a-million-wine-market-behind-150-wall` — 33,773 → 35,112 bytes (+1,339)
+
+## 2026-09-27T05:05:41+00:00 — 321 posts live
+
+New post: cotton yield decline, Kaala vs Bt cotton, soil fertility in MH/TN/MP, byproduct income (cottonseed oil/cake, stalk biogas)
+
+
+**Added**
+
+- `indias-cotton-yield-fell-from-566-kg-to` **v1.0.0** — India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most. (32,000 bytes)
