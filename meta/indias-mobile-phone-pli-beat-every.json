@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-09-26T10:57:25.000+05:30",
+  "updated": "2026-09-27T10:57:02.000+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 22523,
-  "sha256": "392f7c1c51274c26ae4da9336130529a306b140852201a48ec6fe21a348bb0f4",
+  "bytes": 23284,
+  "sha256": "2fe80a3d0dce1156f819ccadddae59c6c3e12b25eaec258b6c37a54c90e93c79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        22523,
+        23284
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

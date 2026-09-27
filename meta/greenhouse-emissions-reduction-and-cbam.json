@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
   "slug": "greenhouse-emissions-reduction-and-cbam",
   "published": "2026-08-02T22:18:00.000+05:30",
-  "updated": "2026-09-10T23:21:46.000+05:30",
+  "updated": "2026-09-27T10:56:51.000+05:30",
   "labels": [
     "Climate & Carbon",
     "Industrial Policy"
   ],
-  "bytes": 28626,
-  "sha256": "2fbc11fe26bc5617a7ed81f337f35c135ce137afa161da191857c32084d7f8a1",
+  "bytes": 30332,
+  "sha256": "d2b5428589c5fc779b86ac9820d373fb132911f9412f2bee0b6b4196bbafdde9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -212,6 +212,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        28626,
+        30332
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

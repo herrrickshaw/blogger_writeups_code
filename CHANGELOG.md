@@ -12683,3 +12683,30 @@ Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB
 
 - `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 49,709 → 50,733 bytes (+1,024)
 - `abha-what-indias-14-digit-health-id` — 26,836 → 28,239 bytes (+1,403)
+
+## 2026-09-27T05:27:47+00:00 — 321 posts live
+
+Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27
+
+
+**Versions**
+
+- `pmfby-advertises-51-return-to-farmers` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `india-ended-63-years-of-state-nuclear` **1.1.2 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+0/-1 distinct numbers))
+- `the-4-nobody-notices-and-three-other` **1.1.5 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `nine-ministries-one-list-every-company` **1.0.8 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `indias-mobile-phone-pli-beat-every` **1.0.5 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `india-approved-15-lakh-crore-in` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+3/-1 distinct numbers))
+- `indias-food-processing-story-pli-scheme` **3.0.2 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+1/-1 distinct numbers))
+- `greenhouse-emissions-reduction-and-cbam` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `pmfby-advertises-51-return-to-farmers` — 15,411 → 16,201 bytes (+790)
+- `india-ended-63-years-of-state-nuclear` — 20,776 → 20,776 bytes (+0)
+- `the-4-nobody-notices-and-three-other` — 37,651 → 39,254 bytes (+1,603)
+- `nine-ministries-one-list-every-company` — 69,112 → 69,964 bytes (+852)
+- `indias-mobile-phone-pli-beat-every` — 22,523 → 23,284 bytes (+761)
+- `india-approved-15-lakh-crore-in` — 38,247 → 39,578 bytes (+1,331)
+- `indias-food-processing-story-pli-scheme` — 26,679 → 26,679 bytes (+0)
+- `greenhouse-emissions-reduction-and-cbam` — 28,626 → 30,332 bytes (+1,706)

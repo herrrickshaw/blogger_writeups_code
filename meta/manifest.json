@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-27T05:20:34+00:00",
+  "snapshot": "2026-09-27T05:27:47+00:00",
   "count": 321,
   "posts": {
     "1048441984418088016": {
@@ -15008,13 +15008,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
       "slug": "indias-food-processing-story-pli-scheme",
       "published": "2026-08-08T21:33:25.000+05:30",
-      "updated": "2026-09-26T10:57:19.000+05:30",
+      "updated": "2026-09-27T10:57:25.000+05:30",
       "labels": [
         "Industrial Policy",
         "PLI Schemes"
       ],
       "bytes": 26679,
-      "sha256": "d6f7c8ddb9f64f737fa37c46bf4bedc5b87d2f6e9919c803423e9545d0701a3c",
+      "sha256": "01c7aa35ed26c618b33b64663e9c470402422b89961ebfd43c2a16f02cca2642",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -15026,7 +15026,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.0.2",
+      "version": "4.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -15255,6 +15255,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed COLLISION (3.39L value label overlapping subtitle) and COLLISION (+36% over target annotation overlapping the tall bar) flagged by tools/svg_chart_lint.py; also fixed a literal &amp;middot; rendering as text in the source-line caption."
+        },
+        {
+          "version": "4.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+1/-1 distinct numbers))",
+          "bytes": [
+            26679,
+            26679
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -21154,15 +21167,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
       "slug": "indias-mobile-phone-pli-beat-every",
       "published": "2026-08-30T08:15:44.000+05:30",
-      "updated": "2026-09-26T10:57:25.000+05:30",
+      "updated": "2026-09-27T10:57:02.000+05:30",
       "labels": [
         "Electronics & Semiconductors",
         "India",
         "Industrial Policy",
         "PLI Schemes"
       ],
-      "bytes": 22523,
-      "sha256": "392f7c1c51274c26ae4da9336130529a306b140852201a48ec6fe21a348bb0f4",
+      "bytes": 23284,
+      "sha256": "2fe80a3d0dce1156f819ccadddae59c6c3e12b25eaec258b6c37a54c90e93c79",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -21174,7 +21187,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.5",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -21247,6 +21260,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            22523,
+            23284
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -24343,13 +24369,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/india-ended-63-years-of-state-nuclear.html",
       "slug": "india-ended-63-years-of-state-nuclear",
       "published": "2026-09-15T10:11:42.000+05:30",
-      "updated": "2026-09-26T11:00:11.000+05:30",
+      "updated": "2026-09-27T10:57:30.000+05:30",
       "labels": [
         "Ease of Doing Business & Regulatory Reform",
         "Industrial Policy"
       ],
       "bytes": 20776,
-      "sha256": "c54a25e4396c0fb43496e5fd4cc9b796cb89c8c54c8eb9c6ca59d06889427efe",
+      "sha256": "a53bc510740f043c87c22647f6e2aa531346782f8c6af6ce86fab1367a151e45",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -24361,7 +24387,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.2",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -24421,6 +24447,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+0/-1 distinct numbers))",
+          "bytes": [
+            20776,
+            20776
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -27544,13 +27583,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
       "slug": "india-approved-15-lakh-crore-in",
       "published": "2026-08-25T06:30:48.000+05:30",
-      "updated": "2026-09-11T00:11:49.000+05:30",
+      "updated": "2026-09-27T10:56:57.000+05:30",
       "labels": [
         "India",
         "Trade & Tariffs"
       ],
-      "bytes": 38247,
-      "sha256": "3107767dce2cd56cd6052f0cb9d82263ba04675c71a86461a058fb58e0864b8f",
+      "bytes": 39578,
+      "sha256": "e3c4fd6dcabce93266142442297eaa510798949acd39f6ed405eca6495d3453a",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27562,7 +27601,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.1",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27661,6 +27700,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+3/-1 distinct numbers))",
+          "bytes": [
+            38247,
+            39578
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -31762,13 +31814,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/greenhouse-emissions-reduction-and-cbam.html",
       "slug": "greenhouse-emissions-reduction-and-cbam",
       "published": "2026-08-02T22:18:00.000+05:30",
-      "updated": "2026-09-10T23:21:46.000+05:30",
+      "updated": "2026-09-27T10:56:51.000+05:30",
       "labels": [
         "Climate & Carbon",
         "Industrial Policy"
       ],
-      "bytes": 28626,
-      "sha256": "2fbc11fe26bc5617a7ed81f337f35c135ce137afa161da191857c32084d7f8a1",
+      "bytes": 30332,
+      "sha256": "d2b5428589c5fc779b86ac9820d373fb132911f9412f2bee0b6b4196bbafdde9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -31780,7 +31832,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.0.4",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -31970,6 +32022,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": ""
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            28626,
+            30332
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -36910,14 +36975,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
       "slug": "nine-ministries-one-list-every-company",
       "published": "2026-08-30T08:48:36.000+05:30",
-      "updated": "2026-09-26T10:57:32.000+05:30",
+      "updated": "2026-09-27T10:57:07.000+05:30",
       "labels": [
         "India",
         "Industrial Policy",
         "PLI Schemes"
       ],
-      "bytes": 69112,
-      "sha256": "e90df48e28fdb19e230d1b4116bbd615d4c940e9c171cc8e0f8f16d78c863fa9",
+      "bytes": 69964,
+      "sha256": "6b84e3bc4881cd4a237967466f5f21780d5bafe0a56449986c2b3f8036067830",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -36929,7 +36994,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.8",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -37041,6 +37106,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed TEXT-HIDDEN-BY-RECT (\"Selected\" legend label clipped by the Round 1 bar rect painted after it) flagged by tools/svg_chart_lint.py by moving the legend to a single row fully above the chart bars. Byte-neutral edit (same-length coordinate values)."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            69112,
+            69964
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -44426,15 +44504,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
       "slug": "the-4-nobody-notices-and-three-other",
       "published": "2026-09-01T08:40:28.000+05:30",
-      "updated": "2026-09-26T07:50:34.000+05:30",
+      "updated": "2026-09-27T10:57:18.000+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Crop Insurance & Risk",
         "Industrial Policy",
         "Markets & Finance"
       ],
-      "bytes": 37651,
-      "sha256": "a54a052e48fb5a600207dbfa6404ce882f6226ceb63b1b473cc9bc57c87b80ab",
+      "bytes": 39254,
+      "sha256": "49f91a18b765cedf71e0cb9fd4e06ad4691ffafb081ca34b7e7fb96768afafe8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44446,7 +44524,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.5",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44532,6 +44610,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            37651,
+            39254
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },
@@ -53176,14 +53267,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/pmfby-advertises-51-return-to-farmers.html",
       "slug": "pmfby-advertises-51-return-to-farmers",
       "published": "2026-09-19T07:57:35.000+05:30",
-      "updated": "2026-09-26T07:50:27.000+05:30",
+      "updated": "2026-09-27T10:57:13.000+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Crop Insurance & Risk",
         "Industrial Policy"
       ],
-      "bytes": 15411,
-      "sha256": "0f73337432d4b659be1b2aca3b75552aea30652ed90238fde74fd7b67ad30291",
+      "bytes": 16201,
+      "sha256": "e49c5760084e63654c6a10f370ae726b9274746a5e4295bd0b503415c0dfb18d",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -53195,7 +53286,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -53203,6 +53294,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-09-27T05:27:47+00:00",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            15411,
+            16201
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
         }
       ]
     },

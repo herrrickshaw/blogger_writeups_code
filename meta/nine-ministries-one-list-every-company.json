@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-09-26T10:57:32.000+05:30",
+  "updated": "2026-09-27T10:57:07.000+05:30",
   "labels": [
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 69112,
-  "sha256": "e90df48e28fdb19e230d1b4116bbd615d4c940e9c171cc8e0f8f16d78c863fa9",
+  "bytes": 69964,
+  "sha256": "6b84e3bc4881cd4a237967466f5f21780d5bafe0a56449986c2b3f8036067830",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.8",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed TEXT-HIDDEN-BY-RECT (\"Selected\" legend label clipped by the Round 1 bar rect painted after it) flagged by tools/svg_chart_lint.py by moving the legend to a single row fully above the chart bars. Byte-neutral edit (same-length coordinate values)."
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        69112,
+        69964
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

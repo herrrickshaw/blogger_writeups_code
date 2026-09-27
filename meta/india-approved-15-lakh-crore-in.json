@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-approved-15-lakh-crore-in.html",
   "slug": "india-approved-15-lakh-crore-in",
   "published": "2026-08-25T06:30:48.000+05:30",
-  "updated": "2026-09-11T00:11:49.000+05:30",
+  "updated": "2026-09-27T10:56:57.000+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 38247,
-  "sha256": "3107767dce2cd56cd6052f0cb9d82263ba04675c71a86461a058fb58e0864b8f",
+  "bytes": 39578,
+  "sha256": "e3c4fd6dcabce93266142442297eaa510798949acd39f6ed405eca6495d3453a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+3/-1 distinct numbers))",
+      "bytes": [
+        38247,
+        39578
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }
