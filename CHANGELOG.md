@@ -12803,3 +12803,12 @@ New post: stove redevelopment landscape - LERC's DME-blending research and the I
 **Added**
 
 - `india-imports-60-of-its-cooking-gas` **v1.0.0** — India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale. (28,296 bytes)
+
+## 2026-09-27T13:08:10+00:00 — 323 posts live
+
+New post: jute (world's top producer, captive JPM-Act market vs Bangladesh's export lead), silk (bivoltine/multivoltine grade gap despite rising output), wool (declining production, inbreeding quality gap despite large flock), and other natural fibres (banana, pineapple leaf, hemp - R&D stage)
+
+
+**Added**
+
+- `india-leads-world-in-jute-and-ranks` **v1.0.0** — India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like. (26,455 bytes)

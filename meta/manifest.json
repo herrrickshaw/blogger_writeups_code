@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-27T07:22:05+00:00",
-  "count": 322,
+  "snapshot": "2026-09-27T13:08:10+00:00",
+  "count": 323,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -54841,6 +54841,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        }
+      ]
+    },
+    "9097914174045855577": {
+      "id": "9097914174045855577",
+      "title": "India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html",
+      "slug": "india-leads-world-in-jute-and-ranks",
+      "published": "2026-09-27T18:37:56.000+05:30",
+      "updated": "2026-09-27T18:37:56.000+05:30",
+      "labels": [],
+      "bytes": 26455,
+      "sha256": "ad517ec299262913e13a9d30c6f4626c78c8a48b9d94a82b5939216a23b5384c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-27T13:08:10+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post: jute (world's top producer, captive JPM-Act market vs Bangladesh's export lead), silk (bivoltine/multivoltine grade gap despite rising output), wool (declining production, inbreeding quality gap despite large flock), and other natural fibres (banana, pineapple leaf, hemp - R&D stage)"
         }
       ]
     },
