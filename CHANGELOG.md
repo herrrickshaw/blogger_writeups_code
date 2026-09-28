@@ -12865,3 +12865,21 @@ Two new posts: DPIIT HSN-ministry mapping residual list; Display Fab Scheme's ze
 
 - `indias-display-fab-scheme-got-two` **v1.0.0** — India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway. (25,600 bytes)
 - `india-mapped-12174-tariff-codes-to-31` **v1.0.0** — India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them. (23,843 bytes)
+
+## 2026-09-28T11:18:30+00:00 — 328 posts live
+
+Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead.
+
+
+**Added**
+
+- `indias-ethanol-plants-are-sitting-on` **v1.0.0** — India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal. (24,029 bytes)
+- `gail-and-sumitomo-both-turned-their` **v1.0.0** — GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet. (20,369 bytes)
+
+**Versions**
+
+- `bio-fertiliser-and-green-credits` **4.0.3 → 5.0.0** (MAJOR) — forced via --as major (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `bio-fertiliser-and-green-credits` — 47,209 → 47,494 bytes (+285)

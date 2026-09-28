@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-09-26T07:49:35.000+05:30",
+  "updated": "2026-09-28T16:39:55.000+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 47209,
-  "sha256": "0e09283fa15a8d63573a22273bda6b250255d307278899a34d406997932c2646",
+  "bytes": 47494,
+  "sha256": "00c97f4cae60a18e8998d2fbc0d544852f0522163b3c9ca647bbbde407fcb5a1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.3",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -278,6 +278,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-09-28T11:18:30+00:00",
+      "level": "major",
+      "reason": "forced via --as major (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        47209,
+        47494
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
     }
   ]
 }

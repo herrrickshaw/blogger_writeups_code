@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-28T10:49:03+00:00",
-  "count": 326,
+  "snapshot": "2026-09-28T11:18:30+00:00",
+  "count": 328,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -14475,6 +14475,42 @@
         }
       ]
     },
+    "3057616826969314587": {
+      "id": "3057616826969314587",
+      "title": "GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html",
+      "slug": "gail-and-sumitomo-both-turned-their",
+      "published": "2026-09-28T16:45:41.000+05:30",
+      "updated": "2026-09-28T16:45:55.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Ethanol & Biofuels",
+        "Industrial Policy"
+      ],
+      "bytes": 20369,
+      "sha256": "54f91ffd1bce26133d4d31b96af76c561b4c87dd19ef06c19f6e71c054d42d0d",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-28T11:18:30+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
+        }
+      ]
+    },
     "3101128453072388526": {
       "id": "3101128453072388526",
       "title": "Where India's FDI Actually Lands: 24 Quarters of DPIIT's Own State-and-District Data",
@@ -23555,14 +23591,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
       "slug": "bio-fertiliser-and-green-credits",
       "published": "2026-08-02T21:16:59.000+05:30",
-      "updated": "2026-09-26T07:49:35.000+05:30",
+      "updated": "2026-09-28T16:39:55.000+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Climate & Carbon",
         "Fertilisers & Soil Health"
       ],
-      "bytes": 47209,
-      "sha256": "0e09283fa15a8d63573a22273bda6b250255d307278899a34d406997932c2646",
+      "bytes": 47494,
+      "sha256": "00c97f4cae60a18e8998d2fbc0d544852f0522163b3c9ca647bbbde407fcb5a1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23574,7 +23610,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.3",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23829,6 +23865,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-09-28T11:18:30+00:00",
+          "level": "major",
+          "reason": "forced via --as major (wording changed; no figures, sections or claims moved)",
+          "bytes": [
+            47209,
+            47494
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
         }
       ]
     },
@@ -44151,6 +44200,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-parties-in-parliament, for context alongside question-volume data"
+        }
+      ]
+    },
+    "7570311248945099893": {
+      "id": "7570311248945099893",
+      "title": "India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html",
+      "slug": "indias-ethanol-plants-are-sitting-on",
+      "published": "2026-09-28T16:47:52.000+05:30",
+      "updated": "2026-09-28T16:48:08.000+05:30",
+      "labels": [
+        "Agriculture & Food Processing",
+        "Circularity & Waste-to-Value",
+        "Ethanol & Biofuels"
+      ],
+      "bytes": 24029,
+      "sha256": "f101cdf9a2f869a69a8eb5a6250e777fa440e44ad3d29f63dc8aa75e8d72c164",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-28T11:18:30+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
         }
       ]
     },
