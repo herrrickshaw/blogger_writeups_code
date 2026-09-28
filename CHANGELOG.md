@@ -12812,3 +12812,20 @@ New post: jute (world's top producer, captive JPM-Act market vs Bangladesh's exp
 **Added**
 
 - `india-leads-world-in-jute-and-ranks` **v1.0.0** — India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like. (26,455 bytes)
+
+## 2026-09-28T03:21:53+00:00 — 323 posts live
+
+Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure
+
+
+**Versions**
+
+- `abha-covers-93-crore-patients-its` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+5/-0 distinct numbers))
+- `a-supreme-court-ruling-on-intoxicating` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `article-index-start-here` **51.2.1 → 51.3.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `abha-covers-93-crore-patients-its` — 25,604 → 26,289 bytes (+685)
+- `a-supreme-court-ruling-on-intoxicating` — 22,498 → 22,740 bytes (+242)
+- `article-index-start-here` — 403,864 → 403,864 bytes (+0)

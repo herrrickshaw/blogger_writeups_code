@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-23T23:16:55.000+05:30",
+  "updated": "2026-09-28T08:51:31.000+05:30",
   "labels": [],
   "bytes": 403864,
-  "sha256": "b0d74a2dec1fb1a856d787f0ce2c4de2d8b79517681b97447a26eadc17d48ea5",
+  "sha256": "8cb111ddb5e92f970132ef2cda661d1016ba3968b288884c01209f26d447dbd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "51.2.1",
+  "version": "51.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1724,6 +1724,19 @@
         ]
       },
       "note": "Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild"
+    },
+    {
+      "version": "51.3.0",
+      "date": "2026-09-28T03:21:53+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        403864,
+        403864
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
     }
   ]
 }

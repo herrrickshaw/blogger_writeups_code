@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-28T03:08:25+00:00",
+  "snapshot": "2026-09-28T03:21:53+00:00",
   "count": 323,
   "posts": {
     "1048441984418088016": {
@@ -4352,12 +4352,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/a-supreme-court-ruling-on-intoxicating.html",
       "slug": "a-supreme-court-ruling-on-intoxicating",
       "published": "2026-09-15T07:55:31.000+05:30",
-      "updated": "2026-09-17T05:37:45.000+05:30",
+      "updated": "2026-09-28T08:51:37.000+05:30",
       "labels": [
         "Energy & Fuels"
       ],
-      "bytes": 22498,
-      "sha256": "383d7ecfb7485d425fd70ebec394b35755bd0d1e81b4e1752c4af73c91c2cb01",
+      "bytes": 22740,
+      "sha256": "64d9d7b2ad4914e3eb71aa8812404d4b5f9f0ef26beb47758878180111f8769f",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -4369,7 +4369,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -4390,6 +4390,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-28T03:21:53+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            22498,
+            22740
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
         }
       ]
     },
@@ -28889,13 +28902,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
       "slug": "abha-covers-93-crore-patients-its",
       "published": "2026-09-17T06:56:16.000+05:30",
-      "updated": "2026-09-17T09:05:49.000+05:30",
+      "updated": "2026-09-28T08:51:25.000+05:30",
       "labels": [
         "Healthcare",
         "Industrial Policy"
       ],
-      "bytes": 25604,
-      "sha256": "41137a911fe19ce54fe0888a62319af572018f4cfce8cf7f248a5e89b943a1ff",
+      "bytes": 26289,
+      "sha256": "01cede27b96c95f5e3f1baf3ccc647031128388a24e5459217983a0b92cc75b1",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -28907,7 +28920,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -28928,6 +28941,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-09-28T03:21:53+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+          "bytes": [
+            25604,
+            26289
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
         }
       ]
     },
@@ -34825,10 +34851,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-23T23:16:55.000+05:30",
+      "updated": "2026-09-28T08:51:31.000+05:30",
       "labels": [],
       "bytes": 403864,
-      "sha256": "b0d74a2dec1fb1a856d787f0ce2c4de2d8b79517681b97447a26eadc17d48ea5",
+      "sha256": "8cb111ddb5e92f970132ef2cda661d1016ba3968b288884c01209f26d447dbd8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34840,7 +34866,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "51.2.1",
+      "version": "51.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -36545,6 +36571,19 @@
             ]
           },
           "note": "Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild"
+        },
+        {
+          "version": "51.3.0",
+          "date": "2026-09-28T03:21:53+00:00",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+          "bytes": [
+            403864,
+            403864
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
         }
       ]
     },

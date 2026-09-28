@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
   "slug": "abha-covers-93-crore-patients-its",
   "published": "2026-09-17T06:56:16.000+05:30",
-  "updated": "2026-09-17T09:05:49.000+05:30",
+  "updated": "2026-09-28T08:51:25.000+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 25604,
-  "sha256": "41137a911fe19ce54fe0888a62319af572018f4cfce8cf7f248a5e89b943a1ff",
+  "bytes": 26289,
+  "sha256": "01cede27b96c95f5e3f1baf3ccc647031128388a24e5459217983a0b92cc75b1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-28T03:21:53+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        25604,
+        26289
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
     }
   ]
 }
