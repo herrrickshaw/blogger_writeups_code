@@ -12855,3 +12855,13 @@ New post: ORDA 2025 / ONGC oilfield-solar piece — what the amendment actually 
 **Added**
 
 - `india-let-oil-companies-put-solar-on` **v1.0.0** — India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead. (28,427 bytes)
+
+## 2026-09-28T10:49:03+00:00 — 326 posts live
+
+Two new posts: DPIIT HSN-ministry mapping residual list; Display Fab Scheme's zero-winner record. Also fixes a stale post-title metadata mismatch found on indias-mobile-phone-pli-beat-every (title said 3 of 12, body already said 5 of 12 since the 27 Sept sweep).
+
+
+**Added**
+
+- `indias-display-fab-scheme-got-two` **v1.0.0** — India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway. (25,600 bytes)
+- `india-mapped-12174-tariff-codes-to-31` **v1.0.0** — India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them. (23,843 bytes)
