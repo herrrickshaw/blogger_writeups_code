@@ -12846,3 +12846,12 @@ scheduled sync
 - `india-leads-world-in-jute-and-ranks` — 26,455 → 26,574 bytes (+119)
 - `india-imports-60-of-its-cooking-gas` — 28,296 → 28,415 bytes (+119)
 - `indias-cotton-yield-fell-from-566-kg-to` — 38,188 → 38,307 bytes (+119)
+
+## 2026-09-28T10:29:29+00:00 — 324 posts live
+
+New post: ORDA 2025 / ONGC oilfield-solar piece — what the amendment actually changed, and how little of ONGC's own land has been converted since
+
+
+**Added**
+
+- `india-let-oil-companies-put-solar-on` **v1.0.0** — India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead. (28,427 bytes)
