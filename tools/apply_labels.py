@@ -690,13 +690,15 @@ OVERRIDE = {
 # instead). scan-bottle-deliver-what-ppacs-numbers (LPG cylinder/bottling)
 # is a genuine singleton in this batch, left alone below the 2-post bar.
 #
-# Two anomalies flagged, NOT corrected here (out of scope for an additive
-# sub-topic pass -- noted for a future labelling-accuracy pass instead):
+# Two anomalies flagged. One is a pure omission, corrected in this pass's
+# apply run; the other required removing an existing label, out of scope
+# for an additive sub-topic pass, so it was flagged for the user's call
+# and corrected separately once approved (2026-09-28):
 #   everyone-worries-about-who-pays-for -- actually a CCUS/CO2-pipeline-
 #     economics piece (already carries Climate & Carbon + Industrial
-#     Policy, which cover it); its "Gas & LNG" label looks like a keyword
+#     Policy, which cover it); its "Gas & LNG" label was a keyword
 #     false-positive on pipeline/PNGRB-common-carrier mentions rather than a
-#     genuine gas/LNG subject match.
+#     genuine gas/LNG subject match. Removed on user request.
 #   where-indias-green-hydrogen-bets-are -- squarely a green-hydrogen
 #     production-mapping piece that the existing "Hydrogen" label is built
 #     for, but did not carry that label. Unlike the item above, this is a
