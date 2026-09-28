@@ -12829,3 +12829,20 @@ Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab 
 - `abha-covers-93-crore-patients-its` — 25,604 → 26,289 bytes (+685)
 - `a-supreme-court-ruling-on-intoxicating` — 22,498 → 22,740 bytes (+242)
 - `article-index-start-here` — 403,864 → 403,864 bytes (+0)
+
+## 2026-09-28T08:56:10+00:00 — 323 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `india-leads-world-in-jute-and-ranks` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-imports-60-of-its-cooking-gas` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-cotton-yield-fell-from-566-kg-to` **1.1.0 → 1.1.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-leads-world-in-jute-and-ranks` — 26,455 → 26,574 bytes (+119)
+- `india-imports-60-of-its-cooking-gas` — 28,296 → 28,415 bytes (+119)
+- `indias-cotton-yield-fell-from-566-kg-to` — 38,188 → 38,307 bytes (+119)

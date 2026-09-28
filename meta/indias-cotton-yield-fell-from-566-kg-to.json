@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html",
   "slug": "indias-cotton-yield-fell-from-566-kg-to",
   "published": "2026-09-27T10:35:29.000+05:30",
-  "updated": "2026-09-27T10:59:55.000+05:30",
+  "updated": "2026-09-28T09:05:24.226+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Circularity & Waste-to-Value",
     "Fertilisers & Soil Health",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 38188,
-  "sha256": "09f7d6a6aeb769395585c9678d300008827b3724b62c16e4db4ca12635dce22a",
+  "bytes": 38307,
+  "sha256": "0c42193383c95adfa019b4674ae0edfeca7d89178ed492b589d2f08781f917fb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Cotton article: added section on British colonial-era cotton (Berar) and sugarcane (Deccan canal) cultivation's soil-fertility/salinity legacy"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-28T08:56:10+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38188,
+        38307
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
