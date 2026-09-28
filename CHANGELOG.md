@@ -12883,3 +12883,13 @@ Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-o
 **Changed**
 
 - `bio-fertiliser-and-green-credits` — 47,209 → 47,494 bytes (+285)
+
+## 2026-09-28T11:30:49+00:00 — 330 posts live
+
+Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 release); SEBI mainboard IPO pipeline sectoral comparison (Power & Renewables vs Oil & Gas).
+
+
+**Added**
+
+- `india-pays-5-8-billion-year-to-ship-its` **v1.0.0** — India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel. (18,942 bytes)
+- `indias-live-ipo-queue-has-232-companies` **v1.0.0** — India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1. (20,402 bytes)

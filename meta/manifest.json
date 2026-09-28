@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-09-28T11:18:30+00:00",
-  "count": 328,
+  "snapshot": "2026-09-28T11:30:49+00:00",
+  "count": 330,
   "posts": {
     "1048441984418088016": {
       "id": "1048441984418088016",
@@ -14508,6 +14508,42 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
+        }
+      ]
+    },
+    "3065904871784062044": {
+      "id": "3065904871784062044",
+      "title": "India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
+      "slug": "india-pays-5-8-billion-year-to-ship-its",
+      "published": "2026-09-28T17:00:17.000+05:30",
+      "updated": "2026-09-28T17:00:29.000+05:30",
+      "labels": [
+        "Energy & Fuels",
+        "Industrial Policy",
+        "Shipping & Maritime Fuels"
+      ],
+      "bytes": 18942,
+      "sha256": "1abb33bcc506d472f3dde013365068c29c456fdc24469e882f54775b1e738c76",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-28T11:30:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 release); SEBI mainboard IPO pipeline sectoral comparison (Power & Renewables vs Oil & Gas)."
         }
       ]
     },
@@ -30195,6 +30231,42 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed OVERFLOW-RIGHT (source line running 72.7px past the canvas edge) by wrapping into two lines, and DOUBLE-ESCAPED-ENTITY (literal \"&amp;mdash;\" rendering as text) flagged by tools/svg_chart_lint.py."
+        }
+      ]
+    },
+    "5769041465501125594": {
+      "id": "5769041465501125594",
+      "title": "India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
+      "slug": "indias-live-ipo-queue-has-232-companies",
+      "published": "2026-09-28T16:58:26.000+05:30",
+      "updated": "2026-09-28T16:58:39.000+05:30",
+      "labels": [
+        "Equity Markets & Stock Screening",
+        "Markets & Finance",
+        "Renewable Power & Storage"
+      ],
+      "bytes": 20402,
+      "sha256": "73687383a00cbb6ca2aa940f18f351e9822e1ee1ec234173f71c52417071b385",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-28T11:30:49+00:00",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 release); SEBI mainboard IPO pipeline sectoral comparison (Power & Renewables vs Oil & Gas)."
         }
       ]
     },
