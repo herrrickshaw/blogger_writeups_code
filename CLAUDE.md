@@ -73,6 +73,18 @@ re-encodes as a numeric entity (interpunct, em/en dash). Use `_flatten_html()` i
 The membership test is `fn.lower() in TRACKED`. A capitalised entry silently
 never matches, and the repo resurfaces in weekly discovery forever.
 
+### 8. Every problem piece proposes fixes (rule added 2026-09-19)
+
+If a post's finding is a problem — a number the government publishes two ways,
+a scheme graded on an ungradeable ratio, a technology gap, a survey with a
+seam through it — the post carries a `What would fix this` section before its
+"What this piece does and doesn't cover" caveats: three to five concrete,
+checkable proposals, each something a named agency could actually do, closed
+with the line "These are proposals from this blog, not recommendations any
+agency has adopted." Highlighting a problem without saying what would fix it
+is a draft, not a post. Applied to every post published from 2026-09-19;
+retrofitting earlier posts is a separate, tracked job.
+
 ---
 
 ## Where things actually live
@@ -195,3 +207,16 @@ Cloud sessions often get a **shallow** clone. Check with
 `git rev-parse --is-shallow-repository` before drawing any conclusion from
 `git log` — a "this never existed" answer from a truncated history is worthless.
 Run `git fetch --unshallow` first.
+
+## Cross-session project memory
+
+A session rooted here has no memory of its own. Decisions and hazards for the
+broader personal-projects portfolio (of which this archive is one) live under
+the `~` (home) session, indexed by `~/.claude/projects/-Users-umashankar/memory/MEMORY.md`
+— reach it with `qmd search "<topic>"` rather than assuming this session
+remembers anything. A point-in-time snapshot of 128 incident-sourced rules
+distilled from that memory is browsable at
+https://claude.ai/code/artifact/e29ceaeb-099e-4de7-ab43-dcd97a2d8f57
+("Ways of Working"), good for fast orientation but not authoritative over
+anything specific to this repo — the rules above override it where they
+conflict.

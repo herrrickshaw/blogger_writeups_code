@@ -1,0 +1,62 @@
+{
+  "id": "6616496259362778316",
+  "title": "India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-exports-naphtha-and-benzene-its.html",
+  "slug": "india-exports-naphtha-and-benzene-its",
+  "published": "2026-09-17T06:39:50.000+05:30",
+  "updated": "2026-09-26T09:47:57.120+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Refining & Petrochemicals",
+    "Trade & Tariffs"
+  ],
+  "bytes": 24323,
+  "sha256": "be9ab6229c29786416dad52d14dd8f0c25cd7abce963ae55a2e8204bb5cbb990",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.1.1",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-17T01:11:11+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24204,
+        24323
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24323,
+        24323
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    }
+  ]
+}

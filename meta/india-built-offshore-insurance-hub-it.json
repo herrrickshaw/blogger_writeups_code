@@ -1,0 +1,48 @@
+{
+  "id": "8163087717389562434",
+  "title": "India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-built-offshore-insurance-hub-it.html",
+  "slug": "india-built-offshore-insurance-hub-it",
+  "published": "2026-09-18T17:56:33.000+05:30",
+  "updated": "2026-09-19T09:05:30.268+05:30",
+  "labels": [
+    "Insurance & Reinsurance",
+    "Markets & Finance"
+  ],
+  "bytes": 16620,
+  "sha256": "aec9125c23101374445250d438791cf330ac474006df0ec3f17132a09a6d321d",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.1.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-18T12:26:45+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct insurance) - next lit_review commission-queue item, pairs with the published 4%-cession piece"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-19T03:45:15+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        16501,
+        16620
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes"
+    }
+  ]
+}

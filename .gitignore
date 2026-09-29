@@ -2,6 +2,10 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# tools/mobile_check.py writes these next to the post it renders
+posts/*.render.html
+posts/*.render.html.*.png
+
 # never commit OAuth material
 *client_secret*.json
 *blogger_client*.json

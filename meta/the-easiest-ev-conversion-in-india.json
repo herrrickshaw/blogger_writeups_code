@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-easiest-ev-conversion-in-india.html",
   "slug": "the-easiest-ev-conversion-in-india",
   "published": "2026-08-31T15:51:11.000+05:30",
-  "updated": "2026-09-10T22:46:59.475+05:30",
+  "updated": "2026-09-27T11:27:17.339+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 33744,
-  "sha256": "b79133a6e535defd35272e8c5525f27053e9ac7268cf07d4da4442da0e6f8ae1",
+  "bytes": 34598,
+  "sha256": "18e95b35eec2919dc34af86e00c357e9aa1f4d9043deeb0fd874cb385b305439",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +95,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T05:57:37+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        33744,
+        34598
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
     }
   ]
 }

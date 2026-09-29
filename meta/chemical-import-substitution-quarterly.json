@@ -4,14 +4,16 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-quarterly.html",
   "slug": "chemical-import-substitution-quarterly",
   "published": "2026-08-01T09:33:00.000+05:30",
-  "updated": "2026-09-10T23:14:45.296+05:30",
+  "updated": "2026-09-26T10:50:33.883+05:30",
   "labels": [
     "Chemicals",
+    "Customs & HSN Trade Data",
     "Import Substitution",
-    "Trade & Tariffs"
+    "Trade & Tariffs",
+    "Trade Remedies & Antidumping"
   ],
-  "bytes": 56515,
-  "sha256": "f373f24f9faf7d24cf4baee09fda10d3fbf977ce354d54d97d6b3662bd10a202",
+  "bytes": 58013,
+  "sha256": "d471aa9582d849316dbecd2597330d5c3789d64681fcb902074b5c95b279e686",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.0.2",
   "version_history": [
     {
       "version": "1.0.0",
@@ -296,6 +298,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.0.2",
+      "date": "2026-09-19T01:56:42+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        56515,
+        58013
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added"
     }
   ]
 }

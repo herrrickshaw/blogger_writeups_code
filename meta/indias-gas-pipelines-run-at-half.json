@@ -4,14 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-09-11T11:46:56.583+05:30",
+  "updated": "2026-09-27T18:44:14.139+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
+    "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 31233,
-  "sha256": "4828d2f7c09a22d5c2f3f1b6a16d1b3dfcbe8d8c6878b5760e555353eef84aa3",
+  "bytes": 32098,
+  "sha256": "2ce1167650cea4533b3db3be7f1944fd7ae2f19a8749023d51e54cd05a547936",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed two OVERFLOW-LEFT issues (\"Multi-product pipelines, Apr–Nov 2025\" and \"Numaligarh–Siliguri crude line, FY24-25\" row labels running past the canvas left edge) flagged by tools/svg_chart_lint.py by wrapping each into two lines."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-23T07:47:45+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        31233,
+        32098
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
     }
   ]
 }

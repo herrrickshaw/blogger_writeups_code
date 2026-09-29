@@ -4,14 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-09-11T21:55:09.694+05:30",
+  "updated": "2026-09-27T11:18:38.647+05:30",
   "labels": [
     "Energy & Fuels",
+    "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 42502,
-  "sha256": "1be43b4b707d462377b43c2e9f3dbc6c31e1de2b337dd6513e602b66d2436aa9",
+  "bytes": 45110,
+  "sha256": "bd4112a178da84ebf56610d6f55d2fc070447491d8bbd0403d2a9563e9d5b401",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "13.0.5",
+  "version": "14.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -356,6 +357,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 175.2px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "14.0.0",
+      "date": "2026-09-27T05:49:04+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        42502,
+        45110
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/insurance, effective 15 Oct 2026) - updated both UPI-fee pieces from hypothetical-scenario framing to the real notified schedule"
     }
   ]
 }

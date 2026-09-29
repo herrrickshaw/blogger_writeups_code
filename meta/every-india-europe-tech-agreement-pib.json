@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html",
   "slug": "every-india-europe-tech-agreement-pib",
   "published": "2026-08-23T18:35:54.000+05:30",
-  "updated": "2026-09-10T23:18:07.450+05:30",
+  "updated": "2026-09-18T19:48:33.247+05:30",
   "labels": [
     "India",
     "India Trade & Policy",
     "Industrial Policy"
   ],
-  "bytes": 31392,
-  "sha256": "33563c9e88fba048226b1c14441ad55298f89f5bbdec4689e86c911266158cce",
+  "bytes": 31925,
+  "sha256": "2eb3da9d4c7b3faa6f2d9a334fe6fb516e56a8bd0b27293d0b8caa6447191f09",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        31392,
+        31925
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

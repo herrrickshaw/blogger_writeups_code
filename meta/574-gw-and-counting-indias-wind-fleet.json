@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-09-10T23:09:54.727+05:30",
+  "updated": "2026-09-26T09:49:08.879+05:30",
   "labels": [
     "Energy & Fuels",
-    "India Trade & Policy"
+    "India Trade & Policy",
+    "Renewable Power & Storage"
   ],
-  "bytes": 22605,
-  "sha256": "41c3739f47ae9bf779b9b2e122a3b04f67a769d55e2d494bb228c134193d9328",
+  "bytes": 22594,
+  "sha256": "0c74cc764219286badac7ea920737524a0b78cb9f41796c3851569664b594b6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.6",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22605,
+        22594
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }

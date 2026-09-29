@@ -1,0 +1,80 @@
+{
+  "id": "3007209494230714825",
+  "title": "Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/do-cbse-past-papers-actually-help.html",
+  "slug": "do-cbse-past-papers-actually-help",
+  "published": "2026-09-17T07:21:20.000+05:30",
+  "updated": "2026-09-18T19:48:17.497+05:30",
+  "labels": [
+    "Education"
+  ],
+  "bytes": 24667,
+  "sha256": "7afb38839e22387524fae8a6b8b669ffb9cc804f40a123b4800cb6b6452ae236",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.2.1",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-17T01:51:56+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish two new posts: PPV&FR plant-variety cereals-vs-spices registry analysis, and CBSE past-paper repetition-index analysis"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-17T03:14:46+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        19916,
+        23990
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using CBSE's official Sample Question Paper archive"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T03:14:46+00:00",
+      "level": "correction",
+      "reason": "label correction: the previous 1.0.1/patch entry was auto-classified because posts/ already held the edited body (no diff to classify) -- the in-article revision line already read v1.1.0 (a new section was added, which this repo's convention classifies MINOR), so the manifest is corrected to match rather than left drifted.",
+      "note": "Manual version correction, no content change"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        23990,
+        24109
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24109,
+        24667
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    }
+  ]
+}

@@ -1,18 +1,37 @@
 #!/usr/bin/env python3
 """Snapshot every published masaladeutsch post into the archive and commit the diff.
 
-Pulls the Blogger public feed (which carries full post bodies), writes one HTML
-file plus one JSON sidecar per post, regenerates the manifest, appends a
-human-readable entry to CHANGELOG.md, and commits.
+Pulls every live post via the Blogger API v3 (which carries full post bodies),
+writes one HTML file plus one JSON sidecar per post, regenerates the manifest,
+appends a human-readable entry to CHANGELOG.md, and commits.
 
     python3 tools/snapshot.py                 # snapshot + commit
     python3 tools/snapshot.py --note "..."    # add a reason to the commit/changelog
     python3 tools/snapshot.py --no-commit     # write files only
 
-Drafts are NOT in the public feed. Blogger has no unauthenticated draft access,
-so a drafted post looks identical to a deleted one from here. Anything drafted or
-deleted on purpose should be captured into posts/ by hand first (see
-tools/capture_draft.md), otherwise the snapshot records it as "removed".
+Drafts are excluded (status=LIVE only). A drafted post looks identical to a
+deleted one from here. Anything drafted or deleted on purpose should be
+captured into posts/ by hand first (see tools/capture_draft.md), otherwise the
+snapshot records it as "removed".
+
+PUBLIC FEED FIRST, API AS FALLBACK (2026-09-21): this pulled
+masaladeutsch.blogspot.com/feeds/posts/default directly until 2026-09-15, when
+it was switched outright to the authenticated Blogger API v3 -- that endpoint
+(and most other direct blogspot.com/gov.in/general-web fetches) is blocked by
+this environment's network egress policy in at least some sandboxes this repo
+runs in, confirmed via the agent-proxy status endpoint returning a 403 policy
+denial, not a transient error. That switch fixed interactive sandbox sessions
+but broke the scheduled, credential-less "Archive sync" GitHub Action, which
+has no OAuth token and failed silently on every run from 2026-09-15 through
+at least 2026-09-20 ("not authorised -- run: blogger_api.py auth") -- the
+archive went five days without an automated sync and nothing surfaced it,
+because the job died before reaching its own health-check step. The unrestricted
+CI runner was never the problem; only the sandboxed interactive case was. So:
+try the public feed first (matches the CI runner's actual network, needs no
+credentials, restores the original zero-auth path) and fall back to the
+authenticated API only if that fetch fails -- covering the blocked-sandbox case
+this switch was made for, without re-breaking the one credential-less consumer
+that depended on the public feed working.
 """
 import argparse
 import datetime as dt
@@ -22,37 +41,59 @@ import json
 import re
 import subprocess
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 from pathlib import Path
 
 BLOG = "https://masaladeutsch.blogspot.com"
+UA = "Mozilla/5.0 (masaladeutsch-archive snapshot)"
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "posts"
 META = ROOT / "meta"
 MANIFEST = META / "manifest.json"
 CHANGELOG = ROOT / "CHANGELOG.md"
-UA = "Mozilla/5.0 (masaladeutsch-archive snapshot)"
 PAGE = 100
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import blogger_api as B  # noqa: E402
 
-def fetch(url):
+_TS_NO_MS = re.compile(r"^(\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2})([+-]\d{2}:\d{2})$")
+
+
+def _with_ms(ts):
+    """The old Atom feed always printed milliseconds ("...T16:00:00.000+05:30");
+    the REST API's list endpoint omits them ("...T16:00:00+05:30") for the same
+    instant. classify()/main() compare these strings verbatim to detect a real
+    date change, so a bare format difference must not survive to that
+    comparison -- every post would otherwise show up as spuriously re-dated,
+    which is exactly what happened on the first run of this adapter (285 of
+    285 live posts flagged, none for a real reason)."""
+    m = _TS_NO_MS.match(ts)
+    return f"{m.group(1)}.000{m.group(2)}" if m else ts
+
+
+def _fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA})
     with urllib.request.urlopen(req, timeout=90) as r:
         return r.read().decode("utf-8")
 
 
-def feed_page(start):
+def _public_feed_page(start):
     q = urllib.parse.urlencode(
         {"alt": "json", "max-results": PAGE, "start-index": start}
     )
-    return json.loads(fetch(f"{BLOG}/feeds/posts/default?{q}"))["feed"]
+    return json.loads(_fetch(f"{BLOG}/feeds/posts/default?{q}"))["feed"]
 
 
-def all_entries():
+def _entries_from_public_feed():
+    """Zero-credential path, and the one the scheduled CI job actually needs --
+    its runner has no OAuth token. Entries come back already in the shape
+    parse() expects, no reshaping needed. Raises on any fetch failure (network
+    block, timeout, non-2xx) so the caller can fall back to the API."""
     out, start = [], 1
     while True:
-        feed = feed_page(start)
+        feed = _public_feed_page(start)
         entries = feed.get("entry", [])
         if not entries:
             break
@@ -62,6 +103,48 @@ def all_entries():
         if start > total:
             break
     return out
+
+
+def _entries_from_api():
+    """Fallback for sandboxes where the public feed is network-blocked.
+    Reshaped into the same id/link/content/title/published/updated/category
+    shape the public feed's JSON used, so parse() and main()'s duplicate-id
+    check below don't need to know which path served them."""
+    out, token = [], None
+    while True:
+        q = {"maxResults": PAGE, "fetchBodies": "true", "status": "LIVE"}
+        if token:
+            q["pageToken"] = token
+        page = B.api(f"/blogs/{B.BLOG_ID}/posts?{urllib.parse.urlencode(q)}")
+        items = page.get("items", [])
+        if not items:
+            break
+        for it in items:
+            out.append({
+                "id": {"$t": f"tag:blogger.com,1999:blog.{B.BLOG_ID}.post-{it['id']}"},
+                "link": [{"rel": "alternate", "href": it["url"]}],
+                "content": {"$t": it.get("content", "")},
+                "title": {"$t": it.get("title", "")},
+                "published": {"$t": _with_ms(it["published"])},
+                "updated": {"$t": _with_ms(it["updated"])},
+                "category": [{"term": lbl} for lbl in it.get("labels", [])],
+            })
+        token = page.get("nextPageToken")
+        if not token:
+            break
+    return out
+
+
+def all_entries():
+    """Every live post, full body included. Tries the public feed first (what
+    the credential-less scheduled sync needs); falls back to the authenticated
+    API only if that fetch fails (what a network-restricted sandbox needs)."""
+    try:
+        return _entries_from_public_feed()
+    except (urllib.error.URLError, TimeoutError, ValueError, KeyError) as e:
+        print(f"public feed unavailable ({type(e).__name__}: {e}) -- "
+              f"falling back to the authenticated Blogger API", file=sys.stderr)
+        return _entries_from_api()
 
 
 def slug_of(url):

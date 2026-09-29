@@ -4,12 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-food-processing-story-pli-scheme.html",
   "slug": "indias-food-processing-story-pli-scheme",
   "published": "2026-08-08T21:33:25.000+05:30",
-  "updated": "2026-09-11T10:55:41.208+05:30",
+  "updated": "2026-09-27T10:57:25.414+05:30",
   "labels": [
-    "Industrial Policy"
+    "Industrial Policy",
+    "PLI Schemes"
   ],
   "bytes": 26679,
-  "sha256": "d6f7c8ddb9f64f737fa37c46bf4bedc5b87d2f6e9919c803423e9545d0701a3c",
+  "sha256": "01c7aa35ed26c618b33b64663e9c470402422b89961ebfd43c2a16f02cca2642",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -250,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (3.39L value label overlapping subtitle) and COLLISION (+36% over target annotation overlapping the tall bar) flagged by tools/svg_chart_lint.py; also fixed a literal &amp;middot; rendering as text in the source-line caption."
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-1 distinct numbers))",
+      "bytes": [
+        26679,
+        26679
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

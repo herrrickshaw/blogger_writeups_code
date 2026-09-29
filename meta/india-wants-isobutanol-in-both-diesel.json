@@ -1,0 +1,61 @@
+{
+  "id": "3386564593549277642",
+  "title": "India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-wants-isobutanol-in-both-diesel.html",
+  "slug": "india-wants-isobutanol-in-both-diesel",
+  "published": "2026-09-21T11:00:00.000+05:30",
+  "updated": "2026-09-23T21:12:15.194+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Ethanol & Biofuels"
+  ],
+  "bytes": 28011,
+  "sha256": "90be1f0966e3334298ce65de3948de56eb6cbd550f5b488a3db29c0ec40d28f0",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.0.2",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-21T05:30:40+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-22T07:56:03+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        23834,
+        23953
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-23T15:43:15+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        23953,
+        28011
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Correct Gevo Net-Zero 1 (dead, replaced by North Dakota Project Northstar) and add Brazil/UK/Japan ATJ projects to isobutanol/ATJ post"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 <!--
   masaladeutsch post skeleton — frozen 2026-08-06, mobile/colour reference added
-  2026-08-14. See DESIGN_LOG.md for why. Replace the XX prefix with a short
+  2026-08-14, mono-label/.good/.chip additions 2026-09-17. See DESIGN_LOG.md
+  for why. Replace the XX prefix with a short
   per-post class (rsx, ecx, fertx, mapx …) so the styles stay scoped to this
   post. Keep the element order below. Run
   ~/blog-consistency-check/audit.py --url <live url> --rendered before calling
@@ -41,7 +42,16 @@
    --rule    #e8dcc4  hairline borders, h2 underline, table cell borders
    --panel   #fdf7ec  stat-card bg, even table rows — the palette's one tint
 */
-.XX{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec}
+.XX{--ink:#111;--accent:#8a4b08;--rule:#e8dcc4;--panel:#fdf7ec;--good:#1a7a4c;--good-soft:#eaf6ef;--bad:#a5402c;--bad-soft:#fff4f0}
+
+/* ---- mono-label convention (added 2026-09-17, borrowed from the
+       india-trade-sector-policy-recommendations design system): the eyebrow
+       kicker and the source line read as data-journalism metadata, not
+       article prose, so they get a monospace face — a system stack, not a
+       hosted webfont, so no post gains an extra network request or a
+       flash-of-unstyled-text risk. Body text (h1/p/li/table) keeps the
+       serif — this is a two-place accent, not a font-pairing overhaul. ---- */
+.XX{--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
 
 /* ---- light lock (gs-light-lock): a dark Blogger theme (and a browser/OS
        set to prefers-color-scheme:dark) must not repaint text. Re-assert
@@ -66,7 +76,7 @@
                  write it as a real, complete sentence a reader could act on,
                  not a fragment.
 */
-.XX .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px}
+.XX .eyebrow{font-size:.8rem;font-weight:700;letter-spacing:.04em;color:var(--accent);text-transform:uppercase;margin:0 0 6px;font-family:var(--mono)}
 .XX h1{margin:0 0 10px;font-size:1.5rem}
 .XX .standfirst{font-size:1.05rem;color:#333!important;margin:0 0 18px}
 .XX .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:18px 0}
@@ -85,8 +95,22 @@
 .XX tr:nth-child(even){background:var(--panel)}
 
 .XX .note{background:#eef4ff;border-left:4px solid #2a78d6;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
-.XX .warn{background:#fff4f0;border-left:4px solid #a5402c;padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
-.XX .src{font-size:.84rem;border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
+.XX .warn{background:var(--bad-soft);border-left:4px solid var(--bad);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .good (added 2026-09-17): third semantic tier alongside .note (neutral
+       framing) and .warn (a caveat/scope limit) — for the case a caveat block
+       would otherwise get stretched to cover: confirming a figure checked out,
+       a correction that resolved cleanly, a claim that survived cross-check.
+       Same shape as .note/.warn on purpose, so all three read as one family. */
+.XX .good{background:var(--good-soft);border-left:4px solid var(--good);padding:12px 16px;margin:18px 0;border-radius:0 8px 8px 0;font-size:.93rem}
+/* ---- .chip (added 2026-09-17): formalises a labelling pattern several posts
+       already built ad hoc in JS (e.g. "PLI coverage: strong/partial/gap")
+       into one reusable inline component, so a new post doesn't reinvent it.
+       Use inline: <span class="chip chip-good">Strong</span>. ---- */
+.XX .chip{display:inline-block;font-family:var(--mono);font-size:.72rem;font-weight:700;letter-spacing:.02em;padding:.15rem .5rem;border-radius:99px;line-height:1.5}
+.XX .chip-good{background:var(--good-soft);color:var(--good)}
+.XX .chip-warn{background:var(--panel);color:var(--accent)}
+.XX .chip-bad{background:var(--bad-soft);color:var(--bad)}
+.XX .src{font-size:.84rem;font-family:var(--mono);border-top:1px solid var(--rule);padding-top:12px;margin-top:24px}
 .XX .disclaimer{font-size:.82rem;color:#555;margin-top:10px}
 .XX .revised{font-size:.8rem;color:#555!important;margin:0 0 14px}
 .XX .revised code{font-family:inherit;background:var(--panel);padding:1px 5px;border-radius:4px}
@@ -230,6 +254,9 @@ if(skip){
 
 <div class="note"><b>Context.</b> Use for framing a number.</div>
 <div class="warn"><b>Caveat.</b> Use for a unit trap, a scope limit, or a figure that is an estimate.</div>
+<div class="good"><b>Checked.</b> Use to confirm a figure survived cross-check or a prior correction resolved cleanly — the positive counterpart to .warn, not a replacement for it.</div>
+
+<p>Coverage example: PLI Widgets <span class="chip chip-good">Strong</span>, PLI Gadgets <span class="chip chip-warn">Partial</span>, PLI Gizmos <span class="chip chip-bad">Gap</span> — inline status labels for a scheme, a molecule, a claim; keep the label itself in the chip text, not just the colour.</p>
 
 <p class="src">Sources: name the primary source and the exact table or release. Mark
 anything modelled or indicative as such.</p>

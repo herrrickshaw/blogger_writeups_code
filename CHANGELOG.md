@@ -11244,3 +11244,1677 @@ Rebuilt index after publishing LNG decarbonization post
 **Changed**
 
 - `article-index-start-here` — 334,442 → 346,542 bytes (+12,100); markers typo_unify False→True
+
+## 2026-09-15T04:50:42+00:00 — 285 posts live
+
+Sync 7 new/updated posts (EV localisation split+correction, FEMA e-commerce export carve-out, GIDC Apparel Park SEZ, Dongargarh-Gondia railway line, IBBI liquidation markdowns, India Investment Grid pipeline, SHANTI Act nuclear monopoly), plus 5 older published posts never previously snapshotted. Also switched snapshot.py's read path from the blocked public Blogger feed (unreachable from this sandbox's network policy) to the Blogger API v3, which this repo's own blogger_api.py already uses for every publish -- same data, different already-authenticated channel. One side effect: the API doesn't expose sub-second timestamp precision, so the 3 posts below whose original published/updated times happened to carry non-zero milliseconds show as re-dated even though nothing about them actually moved -- a one-time precision-rounding artifact from this migration, not a real date change. Forced --as minor for the wine post's bump: it only added a new section (the carrot-and-stick comparison), auto-classified as major by a numbers-list-count quirk rather than any figure or conclusion actually changing.
+
+
+**Added**
+
+- `india-ended-63-years-of-state-nuclear` **v1.0.0** — India Ended 63 Years of State Nuclear Monopoly — But Foreign Reactor Builders Are Still Locked Out (15,851 bytes)
+- `indias-12385-project-investment-grid` **v1.0.0** — India's 12,385-Project Investment Grid Has Two "Projects" That Are Actually Just Government Schemes (15,413 bytes)
+- `what-failed-bankruptcy-auction-actually` **v1.0.0** — What a Failed Bankruptcy Auction Actually Costs, in India's Own Numbers (16,446 bytes)
+- `a-2223-crore-coal-freight-railway-line` **v1.0.0** — A ₹2,223 Crore Coal-Freight Railway Line Is Being Acquired One Farm Plot at a Time (14,062 bytes)
+- `a-textile-sez-built-to-re-employ-mill` **v1.0.0** — A Textile SEZ Built to Re-Employ Mill Workers Has Shrunk 87% Since 2007 (14,796 bytes)
+- `indias-e-commerce-inventory-ban-just` **v1.0.0** — India's E-Commerce Inventory Ban Just Got Its First Real Exception — For Exports Only (16,390 bytes)
+- `indias-ev-localisation-deadline-just` **v1.0.0** — India's EV Localisation Deadline Just Split in Two, Because of the One Part China Still Controls (19,721 bytes)
+- `a-supreme-court-ruling-on-intoxicating` **v1.0.0** — A Supreme Court Ruling on "Intoxicating Liquor" Just Became a Cost Risk for India's Ethanol Programme (19,219 bytes)
+- `engineering-and-auto-component-makers` **v1.0.0** — Engineering and Auto-Component Makers File More SEBI DRHPs Than Any Other Sector — Not Tech, Not Finance (20,047 bytes)
+- `indias-ethanol-sector-already-had-its` **v1.0.0** — India's Ethanol Sector Already Had Its IPOs. Here's Who's Listed, Who Just Joined, and What's Still Pending (18,392 bytes)
+- `global-lng-trade-hit-record-437-million` **v1.0.0** — Global LNG Trade Hit a Record 437 Million Tonnes in 2025 — Almost Double What It Was a Decade Ago (13,917 bytes)
+- `indias-lng-trucks-grew-75-in-2025-about` **v1.0.0** — India's LNG Trucks Grew 75% in 2025 — About a Third of What the Industry Expected (14,904 bytes)
+
+**Versions**
+
+- `a-million-wine-market-behind-150-wall` **1.0.5 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `a-million-wine-market-behind-150-wall` — 31,950 → 33,773 bytes (+1,823)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-battery-storage-boom-is` — 2026-09-11 &rarr; 2026-09-11
+- `the-solar-panel-recycling-opportunity` — 2026-09-11 &rarr; 2026-09-11
+- `alimco-jaipur-foot-and-bionic-gap-in` — 2026-09-11 &rarr; 2026-09-11
+
+## 2026-09-16T08:03:03+00:00 — 289 posts live
+
+Publish new post: petrochemical/refinery-pharma feedstock linkage under ethanol displacement
+
+
+**Added**
+
+- `ethanol-freed-up-refinery-capacity-for` **v1.0.0** — Ethanol Freed Up Refinery Capacity for Petrochemicals. The Pharma Chain Hasn't Seen Much of It Yet. (21,750 bytes)
+- `indias-labour-codes-took-six-years-to` **v1.0.0** — India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State (16,084 bytes)
+- `five-years-and-25000-crore-later-china` **v1.0.0** — Five Years and ₹25,000 Crore Later, China Still Supplies Three-Quarters of India's Drug-Making Ingredients (31,687 bytes)
+- `india-rewrote-its-entire-maritime-legal` **v1.0.0** — India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade. (15,068 bytes)
+
+**Versions**
+
+- `india-ended-63-years-of-state-nuclear` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-12385-project-investment-grid` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `what-failed-bankruptcy-auction-actually` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `a-2223-crore-coal-freight-railway-line` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `a-textile-sez-built-to-re-employ-mill` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-e-commerce-inventory-ban-just` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ev-localisation-deadline-just` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-ended-63-years-of-state-nuclear` — 15,851 → 15,970 bytes (+119)
+- `indias-12385-project-investment-grid` — 15,413 → 15,532 bytes (+119)
+- `what-failed-bankruptcy-auction-actually` — 16,446 → 16,565 bytes (+119)
+- `a-2223-crore-coal-freight-railway-line` — 14,062 → 14,181 bytes (+119)
+- `a-textile-sez-built-to-re-employ-mill` — 14,796 → 14,915 bytes (+119)
+- `indias-e-commerce-inventory-ban-just` — 16,390 → 16,509 bytes (+119)
+- `indias-ev-localisation-deadline-just` — 19,721 → 19,840 bytes (+119)
+
+## 2026-09-16T08:08:52+00:00 — 289 posts live
+
+Expand petrochemical build-out table (Gujarat/Koyali, Kochi PDPP+PP, OPaL Dahej, MRPL PACE) and add Section 7 on upcoming plain refining capacity (Numaligarh, Panipat, national 2030 range) -- v1.1.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+32/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 21,750 → 24,950 bytes (+3,200)
+
+## 2026-09-16T08:10:53+00:00 — 289 posts live
+
+Confirm Barauni refinery expansion (cross-checked OGJ/PSU Connect/Indian Infrastructure/psuwatch) and add to Section 7 with its polypropylene unit and IOCL group capacity context -- v1.2.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+7/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 24,950 → 26,504 bytes (+1,554)
+
+## 2026-09-16T08:20:44+00:00 — 289 posts live
+
+Add BPCL Bina (BORL) petrochemical/refinery expansion, HRRL Barmer's petrochemical-specific capacity figure, and a caveat on the stalled Ratnagiri (RRPCL) mega-refinery -- v1.3.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 26,504 → 28,085 bytes (+1,581)
+
+## 2026-09-16T08:26:26+00:00 — 289 posts live
+
+Add Panipat PBR and Styrene Monomer projects; expand Section 3 with real China import-dependency figures for paracetamol/diclofenac, add diclofenac and aspirin as candidates, and a target-priority table answering which synthetic-route molecules a petchem-linked KSM push should target -- v1.4.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.3.0 → 1.4.0** (MINOR) — forced via --as minor (figures changed (+15/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 28,085 → 33,953 bytes (+5,868)
+
+## 2026-09-16T08:31:57+00:00 — 289 posts live
+
+Add Reliance Industries, BPCL+Oil India JV, ONGC Uttar Pradesh proposal and Nayara Vadinar (all found missing via cross-check against this blog's own 'Financing the Fuel-to-Chemicals Pivot'); correct Panipat expansion figures against that same, more precisely sourced piece -- v1.5.0
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.4.0 → 1.5.0** (MINOR) — forced via --as minor (figures changed (+10/-3 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 33,953 → 36,243 bytes (+2,290)
+
+## 2026-09-16T08:44:55+00:00 — 293 posts live
+
+Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide patent-cliff market dynamics, the ₹60,000cr API push traced to its 6 schemes, and Sun Pharma's Organon deal/RBI financing angle
+
+
+**Added**
+
+- `sun-pharmas-1175bn-organon-bet-is` **v1.0.0** — Sun Pharma's $11.75bn Organon Bet Is Bigger Than the RBI Rule Written to Fund It (17,261 bytes)
+- `indias-60000-crore-api-push-traced-to` **v1.0.0** — India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes (17,965 bytes)
+- `indias-semaglutide-patent-cliff-26` **v1.0.0** — India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Price War, and a Government Crackdown (16,497 bytes)
+- `dr-reddys-cut-its-semaglutide-guidance` **v1.0.0** — Dr. Reddy's Cut Its Semaglutide Guidance in Half After an API Impurity It Caught Itself (17,199 bytes)
+
+## 2026-09-16T15:09:33+00:00 — 294 posts live
+
+Publish new post: Jan Aushadhi's 2,439-product catalogue cross-referenced against China-API-dependency figures for 15 common molecules, sourced from the user's own official PMBI CSV export
+
+
+**Added**
+
+- `jan-aushadhi-sells-2439-products-heres` **v1.0.0** — Jan Aushadhi Sells 2,439 Products. Here's What We Actually Know About Where Their APIs Come From. (19,726 bytes)
+
+## 2026-09-16T15:20:48+00:00 — 294 posts live
+
+Update Sun Pharma/Organon piece: the RBI-dependent financing syndication closed 30 June 2026 (11 banks, 0bn+) and Organon shareholders approved the merger in July 2026, resolving what the piece flagged as pending at first publish -- v1.1.0
+
+
+**Versions**
+
+- `sun-pharmas-1175bn-organon-bet-is` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `sun-pharmas-1175bn-organon-bet-is` — 17,261 → 18,102 bytes (+841)
+
+## 2026-09-16T15:31:06+00:00 — 294 posts live
+
+Cross-check the pharma-molecule cross-reference tables against this blog's own 90-line PIB China-import Annexure (five-years-and-25000-crore-later-china): corrected Ciprofloxacin and Ibuprofen figures in both the refinery-petrochem and Jan Aushadhi posts, added Rifampicin's trend, and revised the refinery post's molecule-targeting conclusion since Ibuprofen is already improving without PLI support. Found via the new tools/research_crosscheck.py, run against the last few published posts as requested.
+
+
+**Versions**
+
+- `jan-aushadhi-sells-2439-products-heres` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+13/-1 distinct numbers))
+- `ethanol-freed-up-refinery-capacity-for` **1.5.0 → 1.6.0** (MINOR) — forced via --as minor (figures changed (+14/-1 distinct numbers))
+
+**Changed**
+
+- `jan-aushadhi-sells-2439-products-heres` — 19,726 → 21,419 bytes (+1,693)
+- `ethanol-freed-up-refinery-capacity-for` — 36,243 → 38,227 bytes (+1,984)
+
+## 2026-09-16T15:36:02+00:00 — 294 posts live
+
+Add Bulk Drug Parks operational-status gap (0/3 in commercial production) found via research_crosscheck.py against the PIB Annexure piece; republished the API-push post.
+
+
+**Versions**
+
+- `indias-60000-crore-api-push-traced-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `indias-60000-crore-api-push-traced-to` — 17,965 → 19,415 bytes (+1,450)
+
+## 2026-09-16T16:09:35+00:00 — 294 posts live
+
+Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch.
+
+
+**Versions**
+
+- `scan-bottle-deliver-what-ppacs-numbers` **2.0.4 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `half-of-indias-import-bill-is` **2.0.5 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `fy2025-26-sample-report-india-trade` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `imported-fertiliser-fuel-prices-diesel` **4.0.1 → 4.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `priority-export-destinations-by-growth` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-subsidised-imports-fertilisers` **3.0.5 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `scan-bottle-deliver-what-ppacs-numbers` — 24,693 → 24,691 bytes (-2)
+- `half-of-indias-import-bill-is` — 27,204 → 27,202 bytes (-2)
+- `fy2025-26-sample-report-india-trade` — 39,774 → 40,359 bytes (+585)
+- `imported-fertiliser-fuel-prices-diesel` — 36,174 → 36,174 bytes (+0)
+- `priority-export-destinations-by-growth` — 40,394 → 40,575 bytes (+181)
+- `indias-subsidised-imports-fertilisers` — 38,043 → 38,180 bytes (+137)
+
+## 2026-09-16T23:45:41+00:00 — 294 posts live
+
+Rebuild and republish the article index (293 articles, up from 294-2 stray files removed; picks up all posts added/edited this session) via the documented index_graph.py + build_index_page.py pipeline, then consistency-check/fix.py's repair() for translate widget + AI disclosure, plus the self-referencing topnav-index-link.
+
+
+**Versions**
+
+- `article-index-start-here` **46.1.0 → 46.2.0** (MINOR) — forced via --as minor (figures changed (+14/-4 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 346,542 → 359,250 bytes (+12,708); markers typo_unify True→False
+
+## 2026-09-17T00:15:56+00:00 — 294 posts live
+
+Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/.
+
+
+**Versions**
+
+- `jan-aushadhi-sells-2439-products-heres` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `sun-pharmas-1175bn-organon-bet-is` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-60000-crore-api-push-traced-to` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-semaglutide-patent-cliff-26` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `dr-reddys-cut-its-semaglutide-guidance` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `ethanol-freed-up-refinery-capacity-for` **1.6.0 → 1.7.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-labour-codes-took-six-years-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `five-years-and-25000-crore-later-china` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-rewrote-its-entire-maritime-legal` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `india-ended-63-years-of-state-nuclear` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-12385-project-investment-grid` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `what-failed-bankruptcy-auction-actually` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-2223-crore-coal-freight-railway-line` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-textile-sez-built-to-re-employ-mill` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-e-commerce-inventory-ban-just` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-ev-localisation-deadline-just` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `a-supreme-court-ruling-on-intoxicating` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `engineering-and-auto-component-makers` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-ethanol-sector-already-had-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `global-lng-trade-hit-record-437-million` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `indias-lng-trucks-grew-75-in-2025-about` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `electrification-is-lngs-biggest` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `delhis-smog-towers-failed-test-44-year` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `the-50-tariff-and-234-one-untangling` **1.2.1 → 1.3.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `indias-battery-storage-boom-is` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `the-solar-panel-recycling-opportunity` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+- `alimco-jaipur-foot-and-bionic-gap-in` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `article-index-start-here` **46.2.0 → 46.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `jan-aushadhi-sells-2439-products-heres` — 21,419 → 26,777 bytes (+5,358)
+- `sun-pharmas-1175bn-organon-bet-is` — 18,102 → 21,799 bytes (+3,697)
+- `indias-60000-crore-api-push-traced-to` — 19,415 → 24,192 bytes (+4,777)
+- `indias-semaglutide-patent-cliff-26` — 16,497 → 20,288 bytes (+3,791)
+- `dr-reddys-cut-its-semaglutide-guidance` — 17,199 → 20,235 bytes (+3,036)
+- `ethanol-freed-up-refinery-capacity-for` — 38,227 → 41,199 bytes (+2,972)
+- `indias-labour-codes-took-six-years-to` — 16,084 → 19,657 bytes (+3,573)
+- `five-years-and-25000-crore-later-china` — 31,687 → 34,661 bytes (+2,974)
+- `india-rewrote-its-entire-maritime-legal` — 15,068 → 18,534 bytes (+3,466)
+- `india-ended-63-years-of-state-nuclear` — 15,970 → 20,004 bytes (+4,034)
+- `indias-12385-project-investment-grid` — 15,532 → 19,050 bytes (+3,518)
+- `what-failed-bankruptcy-auction-actually` — 16,565 → 19,918 bytes (+3,353)
+- `a-2223-crore-coal-freight-railway-line` — 14,181 → 17,366 bytes (+3,185)
+- `a-textile-sez-built-to-re-employ-mill` — 14,915 → 17,865 bytes (+2,950)
+- `indias-e-commerce-inventory-ban-just` — 16,509 → 20,688 bytes (+4,179)
+- `indias-ev-localisation-deadline-just` — 19,840 → 23,704 bytes (+3,864)
+- `a-supreme-court-ruling-on-intoxicating` — 19,219 → 22,498 bytes (+3,279)
+- `engineering-and-auto-component-makers` — 20,047 → 23,964 bytes (+3,917)
+- `indias-ethanol-sector-already-had-its` — 18,392 → 21,717 bytes (+3,325)
+- `global-lng-trade-hit-record-437-million` — 13,917 → 17,256 bytes (+3,339)
+- `indias-lng-trucks-grew-75-in-2025-about` — 14,904 → 18,403 bytes (+3,499)
+- `electrification-is-lngs-biggest` — 25,006 → 28,449 bytes (+3,443)
+- `delhis-smog-towers-failed-test-44-year` — 37,718 → 38,505 bytes (+787)
+- `the-50-tariff-and-234-one-untangling` — 52,670 → 53,507 bytes (+837)
+- `indias-battery-storage-boom-is` — 44,514 → 45,506 bytes (+992)
+- `the-solar-panel-recycling-opportunity` — 38,492 → 39,368 bytes (+876)
+- `alimco-jaipur-foot-and-bionic-gap-in` — 32,963 → 33,805 bytes (+842)
+- `article-index-start-here` — 359,250 → 359,781 bytes (+531)
+
+## 2026-09-17T00:41:02+00:00 — 294 posts live
+
+Add naphtha-exports-to-China finding (DGCI&S TradeStat bilateral data, user-supplied): exports doubled +101% in FY2025-26, the same fiscal year E20 blending took hold nationwide, after two flat-to-declining years -- freed refinery capacity is measurably reaching China's crackers as a raw feedstock export, not only failing to reach India's own pharma-precursor chain. New 4th constraint in Section 5, new chart, new stat tile, revised standfirst.
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.7.0 → 1.8.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 41,199 → 46,411 bytes (+5,212)
+
+## 2026-09-17T00:42:00+00:00 — 294 posts live
+
+Fix version-label drift: article's own revision line/changelog said v1.7.0 while manifest already tracked v1.8.0 (a v1.5.0 sync earlier in this file's history had no matching in-article changelog entry). Relabelled to v1.8.0 to match; no content change.
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.8.0 → 1.8.1** (PATCH) — forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,411 bytes (+0)
+
+## 2026-09-17T01:11:11+00:00 — 295 posts live
+
+New post: India Exports the Naphtha and Benzene Its Own Pharma Industry Needs -- Mostly to China. Standalone treatment of the naphtha-export finding, extended to benzene (risen 4.5x since FY2022-23) and isobutylbenzene (ibuprofen's own KSM, which is actually declining as exported -- an honest complicating nuance, not force-fit into the same narrative). Built from user-supplied DGCI&S TradeStat bilateral trade data. Also adds a reverse cross-link from the sibling ethanol-freed-up-refinery-capacity-for post.
+
+
+**Added**
+
+- `india-exports-naphtha-and-benzene-its` **v1.0.0** — India Exports the Naphtha and Benzene Its Own Pharma Industry Needs — Mostly to China (24,204 bytes)
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.8.1 → 1.9.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,411 → 46,726 bytes (+315)
+
+## 2026-09-17T01:12:51+00:00 — 295 posts live
+
+Rebuild article index for the new naphtha/benzene/China post (295 posts); fix stale 'Three earlier drafts' count in the By-date table's note.
+
+
+**Versions**
+
+- `article-index-start-here` **46.3.0 → 46.4.0** (MINOR) — forced via --as minor (figures changed (+3/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 359,781 → 360,927 bytes (+1,146)
+
+## 2026-09-17T01:27:46+00:00 — 296 posts live
+
+New post: ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet -- compares ABHA's patient/doctor/insurer coverage against Estonia (95%+ doctor EHR use since 2008), Denmark (CPR since 1968, Shared Medication Record), UK (Summary Care Record 96%+ coverage but not a unified record until 2028) and Australia (opt-out consent model). Adds a reverse cross-link from the original ABHA post, and an apply_labels.py OVERRIDE entry fixing a false-positive 'Import Substitution' label triggered by the word 'registry'.
+
+
+**Added**
+
+- `abha-covers-93-crore-patients-its` **v1.0.0** — ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet (25,485 bytes)
+
+**Versions**
+
+- `abha-what-indias-14-digit-health-id` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `abha-what-indias-14-digit-health-id` — 26,512 → 26,836 bytes (+324)
+
+## 2026-09-17T01:29:33+00:00 — 296 posts live
+
+Rebuild article index for the new ABHA-vs-developed-countries post (296 posts). Generator now bakes in the topnav-index-link and gb-table border style itself, no manual patch needed.
+
+
+**Versions**
+
+- `article-index-start-here` **46.4.0 → 46.5.0** (MINOR) — forced via --as minor (figures changed (+4/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 360,927 → 361,480 bytes (+553); markers dark_panel_guard False→True
+
+## 2026-09-17T01:51:56+00:00 — 298 posts live
+
+Publish two new posts: PPV&FR plant-variety cereals-vs-spices registry analysis, and CBSE past-paper repetition-index analysis
+
+
+**Added**
+
+- `do-cbse-past-papers-actually-help` **v1.0.0** — Do CBSE Past Papers Actually Help? Depends Which of the 11 Subjects You Ask. (19,916 bytes)
+- `577-of-indias-plant-variety` **v1.0.0** — 57.7% of India's Plant-Variety Certificates Are Cereals. Its $4.45 Billion Spice Trade Has 151. (20,056 bytes)
+
+## 2026-09-17T01:54:13+00:00 — 298 posts live
+
+Rebuild article index for the two new posts (plant-variety-rights registry, CBSE past-paper repetition); add apply_labels.py OVERRIDE entries for both new slugs
+
+
+**Versions**
+
+- `article-index-start-here` **46.5.0 → 47.0.0** (MAJOR) — figures changed (+4/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 361,480 → 362,100 bytes (+620)
+
+## 2026-09-17T02:40:56+00:00 — 299 posts live
+
+Publish PLFS rural farm-employment-share piece (next lit_review commission-queue item)
+
+
+**Added**
+
+- `rural-indias-farm-employment-share` **v1.0.0** — Rural India's Farm-Employment Share Dropped 5.6 Points in Six Months. Call That Fast, Not Decades-Long. (14,807 bytes)
+
+## 2026-09-17T02:41:59+00:00 — 299 posts live
+
+Rebuild article index for the PLFS rural farm-employment post; apply label
+
+
+**Versions**
+
+- `article-index-start-here` **47.0.0 → 48.0.0** (MAJOR) — figures changed (+3/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 362,100 → 362,442 bytes (+342)
+
+## 2026-09-17T02:47:44+00:00 — 300 posts live
+
+Publish Minor Irrigation Census piece (96.6% private, 94.8% groundwater) - next lit_review commission-queue item
+
+
+**Added**
+
+- `india-irrigates-itself-966-of-its` **v1.0.0** — India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned. (16,021 bytes)
+
+## 2026-09-17T02:48:36+00:00 — 300 posts live
+
+Rebuild article index for the Minor Irrigation Census post; add apply_labels.py OVERRIDE for the Industrial-Policy false positive
+
+
+**Versions**
+
+- `article-index-start-here` **48.0.0 → 49.0.0** (MAJOR) — figures changed (+2/-2 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 362,442 → 362,757 bytes (+315)
+
+## 2026-09-17T02:55:13+00:00 — 301 posts live
+
+Publish NSS 77th Round agricultural-household wage-vs-crop-income piece - next lit_review commission-queue item
+
+
+**Added**
+
+- `the-wage-beats-crop-in-survey-that` **v1.0.0** — The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out (16,627 bytes)
+
+## 2026-09-17T02:55:57+00:00 — 301 posts live
+
+Rebuild article index for the NSS agricultural-household wage-vs-crop piece
+
+
+**Versions**
+
+- `article-index-start-here` **49.0.0 → 50.0.0** (MAJOR) — figures changed (+2/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 362,757 → 363,069 bytes (+312)
+
+## 2026-09-17T03:14:46+00:00 — 301 posts live
+
+Extend CBSE past-papers piece with a ten-year (2015-16 to 2024-25) check using CBSE's official Sample Question Paper archive
+
+
+**Versions**
+
+- `do-cbse-past-papers-actually-help` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `do-cbse-past-papers-actually-help` — 19,916 → 23,990 bytes (+4,074)
+
+## 2026-09-17T03:21:02+00:00 — 301 posts live
+
+Fix PLFS rural-employment post: headline and takeaway had treated 'fast, not seasonal' as resolved when the piece's own caveat admits it isn't -- named the Oct-Dec/Apr-Jun agricultural calendar as the specific rival explanation
+
+
+**Versions**
+
+- `rural-indias-farm-employment-share` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `rural-indias-farm-employment-share` — 14,807 → 16,295 bytes (+1,488)
+
+## 2026-09-17T03:21:30+00:00 — 301 posts live
+
+Rebuild article index: PLFS post title corrected
+
+
+**Versions**
+
+- `article-index-start-here` **50.0.0 → 50.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+
+**Changed**
+
+- `article-index-start-here` — 363,069 → 363,115 bytes (+46)
+
+## 2026-09-17T04:23:00+00:00 — 301 posts live
+
+Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading
+
+
+**Versions**
+
+- `the-wage-beats-crop-in-survey-that` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-irrigates-itself-966-of-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `rural-indias-farm-employment-share` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `do-cbse-past-papers-actually-help` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `577-of-indias-plant-variety` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `abha-covers-93-crore-patients-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-exports-naphtha-and-benzene-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `jan-aushadhi-sells-2439-products-heres` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `sun-pharmas-1175bn-organon-bet-is` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-60000-crore-api-push-traced-to` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-semaglutide-patent-cliff-26` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `dr-reddys-cut-its-semaglutide-guidance` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `ethanol-freed-up-refinery-capacity-for` **1.9.0 → 1.10.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-labour-codes-took-six-years-to` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `five-years-and-25000-crore-later-china` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `the-wage-beats-crop-in-survey-that` — 16,627 → 16,746 bytes (+119)
+- `india-irrigates-itself-966-of-its` — 16,021 → 16,140 bytes (+119)
+- `rural-indias-farm-employment-share` — 16,295 → 19,008 bytes (+2,713)
+- `do-cbse-past-papers-actually-help` — 23,990 → 24,109 bytes (+119)
+- `577-of-indias-plant-variety` — 20,056 → 20,175 bytes (+119)
+- `abha-covers-93-crore-patients-its` — 25,485 → 25,604 bytes (+119)
+- `india-exports-naphtha-and-benzene-its` — 24,204 → 24,323 bytes (+119)
+- `jan-aushadhi-sells-2439-products-heres` — 26,777 → 26,896 bytes (+119)
+- `sun-pharmas-1175bn-organon-bet-is` — 21,799 → 21,918 bytes (+119)
+- `indias-60000-crore-api-push-traced-to` — 24,192 → 24,311 bytes (+119)
+- `indias-semaglutide-patent-cliff-26` — 20,288 → 20,407 bytes (+119)
+- `dr-reddys-cut-its-semaglutide-guidance` — 20,235 → 20,354 bytes (+119)
+- `ethanol-freed-up-refinery-capacity-for` — 46,726 → 46,845 bytes (+119)
+- `indias-labour-codes-took-six-years-to` — 19,657 → 19,776 bytes (+119)
+- `five-years-and-25000-crore-later-china` — 34,661 → 34,780 bytes (+119)
+
+## 2026-09-18T12:26:45+00:00 — 302 posts live
+
+Publish GIFT IFSC/IFSCA offshore-insurance-hub piece (94% reinsurance vs direct insurance) - next lit_review commission-queue item, pairs with the published 4%-cession piece
+
+
+**Added**
+
+- `india-built-offshore-insurance-hub-it` **v1.0.0** — India Built an Offshore Insurance Hub. It Writes $12 Million of Direct Cover a Year. (16,501 bytes)
+
+**Versions**
+
+- `rural-indias-farm-employment-share` **1.2.0 → 1.2.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `rural-indias-farm-employment-share` — 19,008 → 19,127 bytes (+119)
+
+## 2026-09-18T12:30:58+00:00 — 302 posts live
+
+Publish ethanol mileage-vs-emissions piece (E0-E30 combustion chemistry, debunks the common '30% CO2 cut' claim via self-derived stoichiometric calculation)
+
+
+**Added**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **v1.0.0** — E20 Doesn't Cut Tailpipe CO2 by 30%. Run the Chemistry and the Real Number Is Close to Zero — Unless Your Engine Is Built for It. (22,787 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-fuel-retail-outlets-82k-geocoded` — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)
+
+## 2026-09-18T12:31:54+00:00 — 302 posts live
+
+Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels
+
+
+## Correction — 2026-09-18
+
+The previous entry's "No longer published" line for `india-fuel-retail-outlets-82k-geocoded`
+was investigated and is **wrong as worded**. Direct `GET /posts/{id}?view=AUTHOR` confirms
+`status: LIVE`, with title, content (20,748 bytes), labels, url, published/updated dates all
+intact — nothing was deleted or unpublished. The post is, however, reproducibly absent from
+the `status=LIVE` paginated list endpoint (`GET /posts?status=LIVE`, checked across all pages,
+302 items, not present) that `tools/snapshot.py all_entries()` relies on to build this archive.
+A "touch" update (re-saving identical content, confirmed via the `updated` timestamp changing)
+did not restore it to that listing. Net effect: the post's own record is intact and its URL
+should still resolve, but it is likely missing from the blog's homepage recent-posts list, RSS/
+Atom feed, and possibly sitemap.xml, since those most likely draw from the same list index —
+a real (if narrow) discoverability risk this account should watch, even though no content was
+lost. Not something `snapshot.py` or this session could fix from the API; may need a manual
+open-and-resave from the Blogger dashboard, or time for Blogger's own index to catch up.
+`meta/india-fuel-retail-outlets-82k-geocoded.json` is left as last synced; re-add it to the
+manifest on the next snapshot run where it reappears in the live listing.
+
+
+**Versions**
+
+- `article-index-start-here` **50.0.1 → 51.0.0** (MAJOR) — figures changed (+5/-5 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 363,115 → 363,508 bytes (+393)
+
+## 2026-09-18T13:19:48+00:00 — 302 posts live
+
+Correct defence indigenisation post: 5th PIL (346 items) added, dual ministry figures for PIL 1-4 substitution value (2023 vs 2024 release) shown instead of one, DMA and SRIJAN totals quantified; update cross-link anchor text elsewhere
+
+
+**Versions**
+
+- `5071-items-you-cannot-import-and-rs` **2.1.0 → 2.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `5071-items-you-cannot-import-and-rs` — 33,517 → 40,860 bytes (+7,343); markers revision_line False→True
+
+## 2026-09-18T13:49:04+00:00 — 302 posts live
+
+SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan
+
+
+**Versions**
+
+- `india-exports-naphtha-and-benzene-its` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `jan-aushadhi-sells-2439-products-heres` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `sun-pharmas-1175bn-organon-bet-is` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-60000-crore-api-push-traced-to` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `dr-reddys-cut-its-semaglutide-guidance` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ethanol-freed-up-refinery-capacity-for` **1.10.0 → 1.10.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-labour-codes-took-six-years-to` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-rewrote-its-entire-maritime-legal` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-ended-63-years-of-state-nuclear` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-12385-project-investment-grid` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-2223-crore-coal-freight-railway-line` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ev-localisation-deadline-just` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ethanol-sector-already-had-its` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `electrification-is-lngs-biggest` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `5071-items-you-cannot-import-and-rs` **2.2.0 → 2.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-exports-naphtha-and-benzene-its` — 24,323 → 24,323 bytes (+0)
+- `jan-aushadhi-sells-2439-products-heres` — 26,896 → 26,895 bytes (-1)
+- `sun-pharmas-1175bn-organon-bet-is` — 21,918 → 21,894 bytes (-24)
+- `indias-60000-crore-api-push-traced-to` — 24,311 → 24,304 bytes (-7)
+- `dr-reddys-cut-its-semaglutide-guidance` — 20,354 → 20,352 bytes (-2)
+- `ethanol-freed-up-refinery-capacity-for` — 46,845 → 46,845 bytes (+0)
+- `indias-labour-codes-took-six-years-to` — 19,776 → 19,774 bytes (-2)
+- `india-rewrote-its-entire-maritime-legal` — 18,534 → 18,533 bytes (-1)
+- `india-ended-63-years-of-state-nuclear` — 20,004 → 20,003 bytes (-1)
+- `indias-12385-project-investment-grid` — 19,050 → 19,050 bytes (+0)
+- `a-2223-crore-coal-freight-railway-line` — 17,366 → 17,364 bytes (-2)
+- `indias-ev-localisation-deadline-just` — 23,704 → 23,796 bytes (+92)
+- `indias-ethanol-sector-already-had-its` — 21,717 → 21,717 bytes (+0)
+- `electrification-is-lngs-biggest` — 28,449 → 28,448 bytes (-1)
+- `5071-items-you-cannot-import-and-rs` — 40,860 → 40,840 bytes (-20)
+
+## 2026-09-18T13:55:09+00:00 — 302 posts live
+
+Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool
+
+
+**Versions**
+
+- `five-years-and-25000-crore-later-china` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `interpreting-gazette-notification` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `thali-investing-whats-actually-on-plate` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `five-years-and-25000-crore-later-china` — 34,780 → 35,563 bytes (+783)
+- `interpreting-gazette-notification` — 39,282 → 40,060 bytes (+778)
+- `thali-investing-whats-actually-on-plate` — 30,453 → 31,227 bytes (+774)
+
+## 2026-09-18T14:21:31+00:00 — 302 posts live
+
+Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)
+
+
+**Versions**
+
+- `do-cbse-past-papers-actually-help` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-labour-codes-took-six-years-to` **1.2.1 → 1.2.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-rewrote-its-entire-maritime-legal` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-ended-63-years-of-state-nuclear` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-12385-project-investment-grid` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-failed-bankruptcy-auction-actually` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-2223-crore-coal-freight-railway-line` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `a-textile-sez-built-to-re-employ-mill` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-e-commerce-inventory-ban-just` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-ev-localisation-deadline-just` **1.1.1 → 1.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-draft-seeds-bill-cuts-states` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-oil-psus-say-they-clear-their_01269248608` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-4-nobody-notices-and-three-other` **1.1.4 → 1.1.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `uk-retail-canopies-at-54m-real-design` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `brandsafway-and-2017-roll-up-wave-that` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-helper-motor-trick-that-already` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tasmacs-retail-exit-case-for` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-mobile-phone-pli-beat-every` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `west-bengal-sanctioned-126-lakh-pmay-g` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-6000-crore-fisheries-scheme` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `three-different-eu-rules-are-making` **1.0.4 → 1.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `every-india-europe-tech-agreement-pib` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-coking-coal-import-problem-and` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-empty-shed-greenhouse-what-indias` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indian-it-in-ai-era` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `ai-high-demand-launch-tracker` **4.0.5 → 4.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-fearless-girls-charter-indias` **1.0.17 → 1.0.18** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `tech-for-business-so-2019-tech-as` **1.0.13 → 1.0.14** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `do-cbse-past-papers-actually-help` — 24,109 → 24,667 bytes (+558)
+- `indias-labour-codes-took-six-years-to` — 19,774 → 20,322 bytes (+548)
+- `india-rewrote-its-entire-maritime-legal` — 18,533 → 19,255 bytes (+722)
+- `india-ended-63-years-of-state-nuclear` — 20,003 → 20,776 bytes (+773)
+- `indias-12385-project-investment-grid` — 19,050 → 19,785 bytes (+735)
+- `what-failed-bankruptcy-auction-actually` — 19,918 → 20,460 bytes (+542)
+- `a-2223-crore-coal-freight-railway-line` — 17,364 → 18,253 bytes (+889)
+- `a-textile-sez-built-to-re-employ-mill` — 17,865 → 18,654 bytes (+789)
+- `indias-e-commerce-inventory-ban-just` — 20,688 → 21,495 bytes (+807)
+- `indias-ev-localisation-deadline-just` — 23,796 → 24,395 bytes (+599)
+- `indias-draft-seeds-bill-cuts-states` — 22,481 → 23,051 bytes (+570)
+- `indias-oil-psus-say-they-clear-their_01269248608` — 36,461 → 37,186 bytes (+725)
+- `the-4-nobody-notices-and-three-other` — 36,879 → 37,651 bytes (+772)
+- `uk-retail-canopies-at-54m-real-design` — 28,752 → 29,521 bytes (+769)
+- `brandsafway-and-2017-roll-up-wave-that` — 24,938 → 25,504 bytes (+566)
+- `the-helper-motor-trick-that-already` — 27,804 → 28,606 bytes (+802)
+- `tasmacs-retail-exit-case-for` — 27,749 → 28,164 bytes (+415)
+- `indias-mobile-phone-pli-beat-every` — 21,792 → 22,523 bytes (+731)
+- `west-bengal-sanctioned-126-lakh-pmay-g` — 23,444 → 24,187 bytes (+743)
+- `indias-6000-crore-fisheries-scheme` — 25,643 → 26,411 bytes (+768)
+- `three-different-eu-rules-are-making` — 28,174 → 28,876 bytes (+702)
+- `every-india-europe-tech-agreement-pib` — 31,392 → 31,925 bytes (+533)
+- `indias-coking-coal-import-problem-and` — 46,826 → 47,382 bytes (+556)
+- `the-empty-shed-greenhouse-what-indias` — 13,755 → 15,143 bytes (+1,388); markers translate_widget False→True
+- `indian-it-in-ai-era` — 39,268 → 39,905 bytes (+637)
+- `ai-high-demand-launch-tracker` — 39,829 → 40,398 bytes (+569)
+- `the-fearless-girls-charter-indias` — 28,233 → 28,721 bytes (+488)
+- `tech-for-business-so-2019-tech-as` — 32,079 → 32,674 bytes (+595)
+
+## Correction — 2026-09-18 (second)
+
+While repairing an `index-link` MINOR finding on `about-author.html` ("About the Author",
+published 2026-08-05, id `4275379366227973889` per its own `meta/about-author.json`), direct
+`GET /posts/{id}?view=AUTHOR` returned **HTTP 404 "Requested entity was not found"** — not the
+"record intact, missing from list endpoint" pattern found for `india-fuel-retail-outlets-82k-
+geocoded` above. A plain slug lookup (`blogger_api.py get --slug about-author`) also fails,
+searching all 302 currently-live posts. This post is not a listing anomaly: it is genuinely gone
+from Blogger, by ID and by slug alike. `posts/about-author.html` and `meta/about-author.json` in
+this repo are now stale local artifacts with no corresponding live post to publish to; the
+consistency-check fix already applied to the local file (added the missing `topnav-index-link`
+back-link) has nothing to be pushed to. Note the site already has a separate, distinct "About"
+**Page** (not Post) at `/p/about.html`, which may make a standalone "About the Author" post
+redundant rather than something to restore — worth a human decision on whether to recreate it
+as a new post or simply drop the stale local file. Not fixed here; flagged rather than silently
+dropped.
+
+## 2026-09-18T14:32:31+00:00 — 302 posts live
+
+Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left
+
+
+**Versions**
+
+- `indias-battery-storage-boom-is` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `interest-subvention-built-499-ethanol` **2.1.1 → 2.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `whos-actually-building-mri-and-ct` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-ethanol-sectors-buyers-market` **3.0.2 → 3.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `rare-earth-magnets-and-specialty-steel` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `vehicles-out-motors-in-indias-chapter` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `quarterly-reportage-4034-scheme` **2.1.3 → 2.1.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-battery-storage-boom-is` — 45,506 → 46,467 bytes (+961); markers dark_panel_guard False→True
+- `interest-subvention-built-499-ethanol` — 35,585 → 36,546 bytes (+961); markers dark_panel_guard False→True
+- `whos-actually-building-mri-and-ct` — 13,800 → 14,937 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `the-ethanol-sectors-buyers-market` — 14,617 → 15,754 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `rare-earth-magnets-and-specialty-steel` — 20,608 → 21,745 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `vehicles-out-motors-in-indias-chapter` — 16,314 → 17,456 bytes (+1,142); markers dark_panel_guard False→True, translate_widget False→True
+- `quarterly-reportage-4034-scheme` — 543,015 → 543,799 bytes (+784); markers dark_panel_guard False→True
+
+## 2026-09-18T14:42:19+00:00 — 302 posts live
+
+Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts.
+
+
+**Versions**
+
+- `the-50-tariff-and-234-one-untangling` **1.3.0 → 1.3.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-seven-model-stock-portfolios-look` **1.0.5 → 1.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `india-cannot-sell-china-free-medicine` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `574-gw-and-counting-indias-wind-fleet` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `biomass-power-at-night-dispatchable` **3.1.3 → 3.1.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `pet-recycling-already-cuts-emissions-60` **2.1.1 → 2.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `airbags-and-seat-belts-are-import-heavy` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `which-ecb-currencies-are-actually` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-currency-rupee-trends-piece-left` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `what-india-is-actually-paying-for` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `petroleum-trade-pairings-and-us-crude` **4.0.0 → 4.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-animal-protein-export-complex` **2.1.2 → 2.1.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-tyre-waste-problem-and-crumb` **2.0.3 → 2.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-50-tariff-and-234-one-untangling` — 53,507 → 53,495 bytes (-12)
+- `what-seven-model-stock-portfolios-look` — 24,984 → 24,981 bytes (-3)
+- `india-cannot-sell-china-free-medicine` — 36,575 → 36,574 bytes (-1)
+- `574-gw-and-counting-indias-wind-fleet` — 22,605 → 22,594 bytes (-11)
+- `biomass-power-at-night-dispatchable` — 31,530 → 31,526 bytes (-4)
+- `pet-recycling-already-cuts-emissions-60` — 25,648 → 25,646 bytes (-2)
+- `airbags-and-seat-belts-are-import-heavy` — 27,426 → 27,383 bytes (-43)
+- `which-ecb-currencies-are-actually` — 23,971 → 23,967 bytes (-4)
+- `the-currency-rupee-trends-piece-left` — 36,654 → 36,634 bytes (-20)
+- `what-india-is-actually-paying-for` — 37,278 → 37,272 bytes (-6)
+- `petroleum-trade-pairings-and-us-crude` — 150,252 → 151,630 bytes (+1,378); markers dark_panel_guard False→True, light_lock False→True
+- `indias-animal-protein-export-complex` — 14,470 → 15,607 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+- `indias-tyre-waste-problem-and-crumb` — 17,856 → 18,993 bytes (+1,137); markers dark_panel_guard False→True, translate_widget False→True
+
+## 2026-09-18T14:55:29+00:00 — 302 posts live
+
+publish: The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (party-lift analysis via lok-rajya-sabha-qa dataset)
+
+
+**Added**
+
+- `the-two-biggest-parties-in-parliament` **v1.0.0** — The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't. (16,853 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-environmental-clearances-state` — India Environmental Clearances — State × Sub-sector Dashboard
+
+## 2026-09-18T15:00:26+00:00 — 302 posts live
+
+add embedded sortable data explorer (all 51 parties, all 36 signature-ministry lift rows) to the-two-biggest-parties-in-parliament; link to the companion interactive dashboard artifact
+
+
+**Versions**
+
+- `the-two-biggest-parties-in-parliament` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-two-biggest-parties-in-parliament` — 16,853 → 30,780 bytes (+13,927)
+
+## 2026-09-18T15:05:11+00:00 — 302 posts live
+
+add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-parties-in-parliament, for context alongside question-volume data
+
+
+**Versions**
+
+- `the-two-biggest-parties-in-parliament` **1.0.1 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-two-biggest-parties-in-parliament` — 30,780 → 121,581 bytes (+90,801)
+
+## 2026-09-19T01:33:35+00:00 — 302 posts live
+
+publish: The Reactor Nobody Names — How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (gasifier reactor technology, ash-content constraint, Talcher/BHEL contrast; companion to indias-coal-to-chemicals-menu-ranked-by)
+
+
+**Added**
+
+- `the-reactor-nobody-names-how-coal` **v1.0.0** — The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology (14,842 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `cold-chain-fuel-outlet-integrated-map` — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3)
+
+## 2026-09-19T01:56:42+00:00 — 302 posts live
+
+refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added
+
+
+**Versions**
+
+- `chemical-import-substitution-hsn-8-registry` **4.1.1 → 4.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-full-hsn-8_01082878313` **3.0.5 → 3.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `top-15-chemicals-for-import` **5.1.1 → 5.1.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `chemical-import-substitution-quarterly` **3.0.1 → 3.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `chemical-import-substitution-hsn-8-registry` — 23,372 → 23,770 bytes (+398)
+- `chemical-import-substitution-full-hsn-8_01082878313` — 387,895 → 388,394 bytes (+499)
+- `top-15-chemicals-for-import` — 100,009 → 102,212 bytes (+2,203)
+- `chemical-import-substitution-quarterly` — 56,515 → 58,013 bytes (+1,498)
+
+## 2026-09-19T02:00:50+00:00 — 302 posts live
+
+add section on Chinese-manufactured gasification equipment already sold into India (Dev Energy/Yisheng, small-industrial segment) and a China-India scale comparison to the-reactor-nobody-names-how-coal; title unchanged (Talcher itself still runs on Shell's tech, confirmed accurate)
+
+
+**Versions**
+
+- `the-reactor-nobody-names-how-coal` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-reactor-nobody-names-how-coal` — 14,842 → 18,704 bytes (+3,862)
+
+## 2026-09-19T02:05:16+00:00 — 302 posts live
+
+add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged
+
+
+**Versions**
+
+- `indias-coal-to-chemicals-menu-ranked-by` **2.0.5 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `lok-sabha-question-registry-1843-scheme` **3.0.0 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `rajya-sabha-question-registry-scheme` **3.0.1 → 3.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+- `top-15-chemicals-for-import` **5.1.2 → 5.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `indias-coal-to-chemicals-menu-ranked-by` — 63,027 → 63,597 bytes (+570)
+- `lok-sabha-question-registry-1843-scheme` — 395,364 → 395,990 bytes (+626)
+- `rajya-sabha-question-registry-scheme` — 339,150 → 339,776 bytes (+626)
+- `top-15-chemicals-for-import` — 102,212 → 102,782 bytes (+570)
+
+## 2026-09-19T02:14:18+00:00 — 302 posts live
+
+publish: The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year (RDSS target-grading piece; first proper electricity-distribution post, from the commission queue)
+
+
+**Added**
+
+- `the-ministry-of-power-published-two` **v1.0.0** — The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year. Its Flagship Scheme's Target Sits Between Them. (15,836 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-ec-approval-funnel-parivesh-20` — India EC Approval Funnel — PARIVESH 2.0
+
+## 2026-09-19T02:26:52+00:00 — 302 posts live
+
+correction to the-reactor-nobody-names-how-coal (v1.2.0): the industrial-gasifier section overstated the Chinese share of India's small-gasifier market — Ankur Scientific, Chanderpur/TERI, Vidhyut and peers are indigenous producer-gas makers; gap restated as chemicals-grade oxygen-blown gasification. Also adds the first 'What would fix this' section under the new house rule.
+
+
+**Versions**
+
+- `the-reactor-nobody-names-how-coal` **1.1.0 → 2.0.0** (MAJOR) — forced via --as major (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `the-reactor-nobody-names-how-coal` — 18,704 → 22,857 bytes (+4,153)
+
+## 2026-09-19T02:28:33+00:00 — 309 posts live
+
+publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md).
+
+
+**Added**
+
+- `india-has-tested-its-soil-twice-second` **v1.0.0** — India Has Tested Its Soil Twice. The Second Time, a Machine Chose the Spot. (14,766 bytes)
+- `pmfby-advertises-51-return-to-farmers` **v1.0.0** — PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest. (15,411 bytes)
+- `indias-oil-fields-are-running-down` **v1.0.0** — India's Oil Fields Are Running Down. The Policy to Squeeze More Out of Them Is Eight Years Old, and Its Best Techniques Are Still Pilots. (20,512 bytes)
+- `india-ec-approval-funnel-parivesh-20` **v1.0.0** — India EC Approval Funnel — PARIVESH 2.0 (21,408 bytes)
+- `cold-chain-fuel-outlet-integrated-map` **v1.0.0** — Cold-Chain × Fuel-Outlet Integrated Map (Part 3 of 3) (20,823 bytes)
+- `india-environmental-clearances-state` **v1.0.0** — India Environmental Clearances — State × Sub-sector Dashboard (18,818 bytes)
+- `india-fuel-retail-outlets-82k-geocoded` **v1.0.0** — India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3) (20,748 bytes)
+
+**Versions**
+
+- `the-ministry-of-power-published-two` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `indias-coal-to-chemicals-menu-ranked-by` **2.1.0 → 2.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-ministry-of-power-published-two` — 15,836 → 17,407 bytes (+1,571)
+- `indias-coal-to-chemicals-menu-ranked-by` — 63,597 → 63,619 bytes (+22)
+
+## 2026-09-19T02:50:08+00:00 — 309 posts live
+
+Article index: group 'All articles' newest-first list by month with a sticky count header, for date-wise scannability
+
+
+**Versions**
+
+- `article-index-start-here` **51.0.0 → 51.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `article-index-start-here` — 363,508 → 364,430 bytes (+922)
+
+## 2026-09-19T03:45:15+00:00 — 309 posts live
+
+Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes
+
+
+**Versions**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-built-offshore-insurance-hub-it` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `article-index-start-here` **51.1.0 → 51.2.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `e20-doesnt-cut-tailpipe-co2-by-30-run` — 22,787 → 22,906 bytes (+119)
+- `india-built-offshore-insurance-hub-it` — 16,501 → 16,620 bytes (+119)
+- `article-index-start-here` — 364,430 → 391,828 bytes (+27,398)
+
+## 2026-09-21T05:30:40+00:00 — 310 posts live
+
+Publish: isobutanol as both a diesel-blend and Alcohol-to-Jet SAF feedstock, and correcting an unsubstantiated 'MC2 design challenge at IIT Madras' claim against the real MC2 Foundation programmes. Also updates the earlier Gevo/A.E. Innovation ethanol-plant-sale post: the deal (reported in August as pending) closed around November 2025.
+
+
+**Added**
+
+- `india-wants-isobutanol-in-both-diesel` **v1.0.0** — India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither. (23,834 bytes)
+
+**Versions**
+
+- `global-biofuels-m-bankruptcy-bolt-on` **2.0.4 → 2.1.0** (MINOR) — forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)
+
+**Changed**
+
+- `global-biofuels-m-bankruptcy-bolt-on` — 25,444 → 25,812 bytes (+368)
+
+## 2026-09-21T08:29:14+00:00 — 310 posts live
+
+Publish new post: MDF Guidelines / MoPSW blended-finance breakdown of the ₹25,000 crore Maritime Development Fund (₹20,000cr MIF + ₹5,000cr IIF), sourced from the Ministry's own Guidelines PDF and cross-checked against Cabinet package coverage. Cross-linked from and back to the earlier India-rewrote-its-maritime-legal-code post, which previously described the MDF only vaguely as a '0 billion roadmap'.
+
+
+**Added**
+
+- `mopsws-25000-crore-maritime-development` **v1.0.0** — MoPSW's ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To. (26,970 bytes)
+
+**Versions**
+
+- `india-rewrote-its-entire-maritime-legal` **1.1.2 → 1.1.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-rewrote-its-entire-maritime-legal` — 19,255 → 19,919 bytes (+664)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `us-stock-picks-multi-screen-quant` — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)
+
+## 2026-09-22T02:35:35+00:00 — 310 posts live
+
+Publish new post: Hormuz blockade / IMEC / India-EU FTA piece. Corrects the premise that the 2026 US naval blockade of Iran was a reaction to India-Asia-Europe trade integration (the India-EU FTA was concluded a month before the war began; analyst literature treats IMEC as something the war exposed, not something it targeted). Documents real freight-cost impact on Gulf-adjacent India-Europe trade, draws a historical parallel to VOC/EIC ship seizures and blockades (Amboyna 1623, Battle of Masulipatnam 1673) and Operation Earnest Will (1987-88), and traces the longer Pax Britannica-to-Pax Americana 'freedom of the seas' throughline including the postcolonial critique of that doctrine. Closes with a factual, clearly-labelled-as-editorial aside on 2026's prize-law tanker seizures and the Trump commemorative coin.
+
+
+**Added**
+
+- `nobody-blockaded-hormuz-to-slow-india` **v1.0.0** — Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway. (31,848 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-petrochemical-import-tree-from` — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded)
+
+## 2026-09-22T07:56:03+00:00 — 312 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `indias-petrochemical-import-tree-from` **v1.0.0** — India’s Petrochemical Import Tree — From Petrol to Product (HSN-coded) (31,860 bytes)
+- `us-stock-picks-multi-screen-quant` **v1.0.0** — US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026) (35,870 bytes)
+
+**Versions**
+
+- `nobody-blockaded-hormuz-to-slow-india` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `mopsws-25000-crore-maritime-development` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-wants-isobutanol-in-both-diesel` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `nobody-blockaded-hormuz-to-slow-india` — 31,848 → 31,967 bytes (+119)
+- `mopsws-25000-crore-maritime-development` — 26,970 → 27,089 bytes (+119)
+- `india-wants-isobutanol-in-both-diesel` — 23,834 → 23,953 bytes (+119)
+
+## 2026-09-23T03:55:52+00:00 — 313 posts live
+
+Publish new post: 'well-to-wheel meets farm-to-table' piece on India's ethanol-mandate feedstock competition reaching retail egg prices. Rules out the diesel/freight-cost channel using this blog's own prior diesel-vs-CPI-food correlation finding (-0.16, wrong sign), then traces the actual channel: ~37% of India's maize crop now diverted to ethanol, competing with poultry feed (55% maize by weight), tracked into a reported 35-40% YoY rise in egg prices (NECC data, Sept 2026 trade coverage). Cross-links this blog's own maize/ethanol/sugar posts and the recent E20 tailpipe-CO2 well-to-wheel piece for the borrowed full-lifecycle-accounting framing.
+
+
+**Added**
+
+- `the-diesel-truck-isnt-why-your-eggs` **v1.0.0** — The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is. (21,052 bytes)
+
+## 2026-09-23T07:47:45+00:00 — 314 posts live
+
+Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets.
+
+
+**Added**
+
+- `india-has-132-compressed-biogas-plants` **v1.0.0** — India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them. (18,340 bytes)
+- `pngrb-graded-its-own-homework-on-2025` **v1.0.0** — PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter. (19,875 bytes)
+
+**Versions**
+
+- `indias-gas-pipelines-run-at-half` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-gas-pipelines-run-at-half` — 31,233 → 32,098 bytes (+865)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
+
+## 2026-09-23T07:56:48+00:00 — 315 posts live
+
+scheduled sync
+
+
+**Added**
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)
+
+## 2026-09-23T10:16:48+00:00 — 314 posts live
+
+Amend the CBG-CGD connectivity post with a new section sizing the connectivity gap against India's own legislature and district count: 543 Lok Sabha MPs, 245 Rajya Sabha MPs, 4,123 state Assembly (MLA) seats, and ~800 districts, framed as an ODOP-style 'one plant per constituency' opportunity for political accountability -- explicitly labelled as this blog's own framing/proposal, not a claimed government allocation target. Verified all legislature/district figures independently, including that the Delimitation Bill 2026 (which would have raised Lok Sabha to 850 seats) failed and was withdrawn, so 543 remains current.
+
+
+**Versions**
+
+- `india-has-132-compressed-biogas-plants` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-has-132-compressed-biogas-plants` — 18,340 → 23,663 bytes (+5,323)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `textile-hsn-deep-dive-apparel-vs-mmf` — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios
+
+## 2026-09-23T11:02:29+00:00 — 316 posts live
+
+Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts.
+
+
+**Added**
+
+- `under-corsias-own-numbers-corn-ethanol` **v1.0.0** — Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace (22,216 bytes)
+- `textile-hsn-deep-dive-apparel-vs-mmf` **v1.0.0** — Textile HSN Deep-Dive — Apparel vs MMF Fibre Trade Scenarios (20,656 bytes)
+
+## 2026-09-23T11:21:59+00:00 — 316 posts live
+
+Amend the CORSIA/corn-ethanol post with recent ICAO/CORSIA data: confirmed ICAO's 8th edition default life-cycle emissions table was approved 19 November 2025 (methodology changes: IPCC 2019 factors, soil-carbon-accumulation credit removed, ATJ-ethanol energy yields refined, new POME HEFA default, broader feedstock coverage); updated Sustainability Certification Scheme approval dates (ISCC/RSB June 2023, ClassNK October 2024, Fourth Edition SCS list June 2026); and added a clarification distinguishing the fuel-eligibility baseline (89 gCO2e/MJ, this piece's subject) from CORSIA's separate sector-wide offsetting baseline (85% of 2019 emissions, 2027-2029 offsetting phase). Confirmed icao.int and a third-party mirror both remain blocked from this research environment on repeated attempts, so the exact revised corn-ethanol/molasses numeric values in the 8th edition could not be pulled directly -- flagged that gap explicitly rather than guessing at the numbers.
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 22,216 → 27,027 bytes (+4,811)
+
+## 2026-09-23T11:26:33+00:00 — 316 posts live
+
+Amend the CORSIA/corn-ethanol post using a user-supplied SAF emissions calculator spreadsheet (built around IATA's SAF Accounting and Reporting Methodology, released 31 Jan 2025) and its cited sources. The spreadsheet gives maize a much lower, passing LCA default (43 gCO2e/MJ) than this piece's CORSIA/ISCC figure (90.8-100.6, failing) -- added a section reconciling this rather than silently overwriting either number: explained the IATA formula is a downstream accounting tool for airlines claiming credit on already-purchased SAF, not a CORSIA-eligibility gate, so a calculator populated with an optimistic literature LCA value can compute a real number that still overstates what CORSIA would actually certify. Cited the real academic literature range for corn-ethanol-ATJ (roughly 35-70 gCO2e/MJ across studies) to show the disagreement is real and methodological (ILUC treatment), not an error on either side. Added rice-straw and MSW feedstock data from the same spreadsheet with an independently-verified Punjab paddy-straw generation figure (~19-20 MMT/year). Flagged that the spreadsheet's own primary sources (IATA methodology PDF, WRI India SAF report) were confirmed to exist via search but could not be fetched directly, same as icao.int.
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 27,027 → 32,792 bytes (+5,765)
+
+## 2026-09-23T15:43:15+00:00 — 316 posts live
+
+Correct Gevo Net-Zero 1 (dead, replaced by North Dakota Project Northstar) and add Brazil/UK/Japan ATJ projects to isobutanol/ATJ post
+
+
+**Versions**
+
+- `india-wants-isobutanol-in-both-diesel` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-wants-isobutanol-in-both-diesel` — 23,953 → 28,011 bytes (+4,058)
+
+## 2026-09-23T16:10:11+00:00 — 316 posts live
+
+Correct Delhi Ridge tree-felling contempt case in smog-towers post: matter was already resolved (May 2025 SC contempt finding + fine + afforestation order, 2026 conditional-felling order), not an open inquiry
+
+
+**Versions**
+
+- `delhis-smog-towers-failed-test-44-year` **1.2.0 → 1.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `delhis-smog-towers-failed-test-44-year` — 38,505 → 40,316 bytes (+1,811)
+
+## 2026-09-23T17:47:21+00:00 — 316 posts live
+
+Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild
+
+
+**Versions**
+
+- `article-index-start-here` **51.2.0 → 51.2.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `article-index-start-here` — 391,828 → 403,864 bytes (+12,036); markers dark_panel_guard True→False
+
+## 2026-09-24T00:10:01+00:00 — 316 posts live
+
+Fix internal contradiction in ATF pipeline post: section 2 wrongly said Mopa airport has a pipeline in the works, contradicting the post's own section 3 and section 5 which correctly show no pipeline proposal found for Mopa
+
+
+**Versions**
+
+- `india-is-piping-jet-fuel-to-five-new` **1.0.2 → 1.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `india-is-piping-jet-fuel-to-five-new` — 35,432 → 35,928 bytes (+496)
+
+## 2026-09-24T03:14:09+00:00 — 317 posts live
+
+New post: Kpler and Vortexa-tracked global oil/gas commodity flows (India's Russian crude surge, LNG oversupply), plus untracked UCO/ULO sections (global UCO fraud/tariff fight, India's RUCO collection shortfall, India's new ULO re-refining MoUs)
+
+
+**Added**
+
+- `kpler-and-vortexa-track-every-barrel` **v1.0.0** — Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way. (29,512 bytes)
+
+## 2026-09-24T03:19:18+00:00 — 317 posts live
+
+Add HSN-code trade data to Kpler/Vortexa post: India's own UCO exports under HSN 15180039 (growing, mostly via Malaysia), India's 2026 biodiesel export forecast, RBI's palm-oil-diversion inflation note, and exact IOCL-Re Sustainability ULO MoU date/capacity detail
+
+
+**Versions**
+
+- `kpler-and-vortexa-track-every-barrel` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `kpler-and-vortexa-track-every-barrel` — 29,512 → 33,939 bytes (+4,427)
+
+## 2026-09-24T03:40:16+00:00 — 317 posts live
+
+Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.2 → 1.0.3** (PATCH) — visible text identical; only markup/styling changed
+- `india-has-132-compressed-biogas-plants` **1.0.1 → 1.0.2** (PATCH) — visible text identical; only markup/styling changed
+- `pngrb-graded-its-own-homework-on-2025` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `the-diesel-truck-isnt-why-your-eggs` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `fuel-pricing-to-crude-cost` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 32,792 → 32,911 bytes (+119)
+- `india-has-132-compressed-biogas-plants` — 23,663 → 23,782 bytes (+119)
+- `pngrb-graded-its-own-homework-on-2025` — 19,875 → 19,994 bytes (+119)
+- `the-diesel-truck-isnt-why-your-eggs` — 21,052 → 21,171 bytes (+119)
+- `fuel-pricing-to-crude-cost` — 82,791 → 84,043 bytes (+1,252)
+
+## 2026-09-24T03:48:06+00:00 — 317 posts live
+
+Add tanker freight market and shadow-fleet section to Kpler/Vortexa post: record VLCC rates (Hellenic Shipping News/Affinity), the 1,300+-vessel sanctions-evading shadow fleet (Lloyd's List), and VLCC/LNG orderbook and rate contrast (Clarksons Research)
+
+
+**Versions**
+
+- `kpler-and-vortexa-track-every-barrel` **1.0.1 → 1.0.2** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `kpler-and-vortexa-track-every-barrel` — 33,939 → 38,015 bytes (+4,076)
+
+## 2026-09-24T03:58:32+00:00 — 317 posts live
+
+New post: IMO's stalled Net-Zero Framework adoption vote (delayed to 4 Dec 2026), LNG's dominant share of alternative-fuel newbuild orders (Clarksons), marine biodiesel blending under FuelEU Maritime incl. MASH Makes' cashew-shell biofuel trial, and India's methanol-bunkering bet at Kandla
+
+
+**Added**
+
+- `shippings-net-zero-vote-keeps-getting` **v1.0.0** — Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It. (24,633 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `indias-subsidised-imports-fertilisers` — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26)
+
+## 2026-09-24T06:01:59+00:00 — 319 posts live
+
+New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states
+
+
+**Added**
+
+- `india-doesnt-have-one-quality-regulator` **v1.0.0** — India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started. (24,188 bytes)
+- `indias-subsidised-imports-fertilisers` **v1.0.0** — India's Subsidised Imports — Fertilisers Explode +76% (FY25 vs FY26) (38,180 bytes)
+
+## 2026-09-24T07:47:33+00:00 — 319 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
+- `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24
+
+## 2026-09-25T23:28:42+00:00 — 320 posts live
+
+New post from the lit_review/masaladeutsch commission queue: India's public irrigation cost-recovery collapse (96% in 1975-76 to ~7% average 2000-01/2016-17, CWC methodology), cross-linked to the existing Minor Irrigation Census post and Bathla/Kannan/Das (2024, abstract only)
+
+
+**Added**
+
+- `indias-irrigation-system-recovered-96` **v1.0.0** — India's Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now. (22,243 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-doesnt-have-one-quality-regulator` — 2026-09-24 &rarr; 2026-09-24
+- `shippings-net-zero-vote-keeps-getting` — 2026-09-24 &rarr; 2026-09-24
+
+## 2026-09-25T23:36:38+00:00 — 320 posts live
+
+Add current PMKSY/AIBP spending-vs-outcome data to irrigation post: 2021-26 outlay Rs 93,068.56 cr, Rs 64,407 cr released, and AIBP's 57.72% project completion / 64.90% potential-created achievement as of 8 May 2026 -- a live illustration of the same public-investment-outcome gap the paper describes historically
+
+
+**Versions**
+
+- `indias-irrigation-system-recovered-96` **1.0.0 → 1.0.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `indias-irrigation-system-recovered-96` — 22,243 → 24,677 bytes (+2,434)
+
+## 2026-09-26T00:00:38+00:00 — 320 posts live
+
+Reprice fuel-pricing-to-crude-cost against 25 Sept 2026 crude
+
+
+**Versions**
+
+- `fuel-pricing-to-crude-cost` **2.0.6 → 2.0.7** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `fuel-pricing-to-crude-cost` — 84,043 → 86,522 bytes (+2,479)
+
+## 2026-09-26T00:25:45+00:00 — 320 posts live
+
+Update two more crude-price snapshots flagged in the stale-fact audit
+
+
+**Versions**
+
+- `where-worlds-oil-sits-when-it-isnt` **2.0.4 → 2.0.5** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+- `the-margin-case-why-lpg-and` **3.0.3 → 3.0.4** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `where-worlds-oil-sits-when-it-isnt` — 44,401 → 48,579 bytes (+4,178)
+- `the-margin-case-why-lpg-and` — 37,902 → 39,320 bytes (+1,418)
+
+## 2026-09-26T00:40:22+00:00 — 320 posts live
+
+Correct Dangote IPO terms: $1.6bn raise not $5bn, Nov listing not Oct
+
+
+**Versions**
+
+- `one-refinery-flipped-nigeria-from` **4.0.2 → 4.0.3** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `one-refinery-flipped-nigeria-from` — 34,772 → 37,108 bytes (+2,336)
+
+## 2026-09-26T01:52:27+00:00 — 320 posts live
+
+Correct E25 blending status: not a GST Council decision, BIS/excise already cleared
+
+
+**Versions**
+
+- `the-fcc-lever-trading-petrol-yield-for` **2.0.5 → 2.0.6** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `the-fcc-lever-trading-petrol-yield-for` — 37,494 → 38,309 bytes (+815)
+
+## 2026-09-26T02:16:40+00:00 — 320 posts live
+
+Update India-EU FTA ratification timeline to early 2027
+
+
+**Versions**
+
+- `a-million-wine-market-behind-150-wall` **1.1.0 → 1.1.1** (PATCH) — UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as
+
+**Changed**
+
+- `a-million-wine-market-behind-150-wall` — 33,773 → 35,112 bytes (+1,339)
+
+## 2026-09-27T05:05:41+00:00 — 321 posts live
+
+New post: cotton yield decline, Kaala vs Bt cotton, soil fertility in MH/TN/MP, byproduct income (cottonseed oil/cake, stalk biogas)
+
+
+**Added**
+
+- `indias-cotton-yield-fell-from-566-kg-to` **v1.0.0** — India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most. (32,000 bytes)
+
+## 2026-09-27T05:20:34+00:00 — 321 posts live
+
+Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB 17 Sep 2026); OALP Round X/XI deepwater deadline extended to 15 Nov 2026, not simply passed
+
+
+**Versions**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` **1.1.4 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `abha-what-indias-14-digit-health-id` **3.1.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+
+**Changed**
+
+- `dgh-has-awarded-172-oalp-blocks-and-436_0369361351` — 49,709 → 50,733 bytes (+1,024)
+- `abha-what-indias-14-digit-health-id` — 26,836 → 28,239 bytes (+1,403)
+
+## 2026-09-27T05:27:47+00:00 — 321 posts live
+
+Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27
+
+
+**Versions**
+
+- `pmfby-advertises-51-return-to-farmers` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `india-ended-63-years-of-state-nuclear` **1.1.2 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+0/-1 distinct numbers))
+- `the-4-nobody-notices-and-three-other` **1.1.5 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `nine-ministries-one-list-every-company` **1.0.8 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `indias-mobile-phone-pli-beat-every` **1.0.5 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `india-approved-15-lakh-crore-in` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+3/-1 distinct numbers))
+- `indias-food-processing-story-pli-scheme` **3.0.2 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+1/-1 distinct numbers))
+- `greenhouse-emissions-reduction-and-cbam` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `pmfby-advertises-51-return-to-farmers` — 15,411 → 16,201 bytes (+790)
+- `india-ended-63-years-of-state-nuclear` — 20,776 → 20,776 bytes (+0)
+- `the-4-nobody-notices-and-three-other` — 37,651 → 39,254 bytes (+1,603)
+- `nine-ministries-one-list-every-company` — 69,112 → 69,964 bytes (+852)
+- `indias-mobile-phone-pli-beat-every` — 22,523 → 23,284 bytes (+761)
+- `india-approved-15-lakh-crore-in` — 38,247 → 39,578 bytes (+1,331)
+- `indias-food-processing-story-pli-scheme` — 26,679 → 26,679 bytes (+0)
+- `greenhouse-emissions-reduction-and-cbam` — 28,626 → 30,332 bytes (+1,706)
+
+## 2026-09-27T05:30:07+00:00 — 321 posts live
+
+Cotton article: added section on British colonial-era cotton (Berar) and sugarcane (Deccan canal) cultivation's soil-fertility/salinity legacy
+
+
+**Versions**
+
+- `indias-cotton-yield-fell-from-566-kg-to` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+16/-0 distinct numbers))
+
+**Changed**
+
+- `indias-cotton-yield-fell-from-566-kg-to` — 32,000 → 38,188 bytes (+6,188)
+
+## 2026-09-27T05:49:04+00:00 — 321 posts live
+
+UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/insurance, effective 15 Oct 2026) - updated both UPI-fee pieces from hypothetical-scenario framing to the real notified schedule
+
+
+**Versions**
+
+- `beyond-pump-what-upi-fee-would-cost` **4.0.4 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `upi-fees-are-now-legal-petrol-pumps` **13.0.5 → 14.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+
+**Changed**
+
+- `beyond-pump-what-upi-fee-would-cost` — 38,298 → 40,559 bytes (+2,261)
+- `upi-fees-are-now-legal-petrol-pumps` — 42,502 → 45,110 bytes (+2,608)
+
+## 2026-09-27T05:57:37+00:00 — 321 posts live
+
+Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets
+
+
+**Versions**
+
+- `mopsws-25000-crore-maritime-development` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+4/-0 distinct numbers))
+- `the-easiest-ev-conversion-in-india` **1.1.4 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `the-green-shift-what-indias-oil` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `india-will-finance-waste-to-energy` **2.0.1 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `tamil-nadus-wind-potential-according-to` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `indias-two-tracks-of-health-cover-and` **3.0.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+- `india-has-tax-treaties-with-97` **3.0.1 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `indias-state-incentive-war-gujarats` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `securitising-deficit-what-it-would` **3.0.5 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `raising-green-debt-globally-rec-euroyen` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+- `indias-carbon-credit-market-domestic` **2.0.5 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `rbi-foreign-exchange-reserves-20152026` **3.0.0 → 4.0.0** (MAJOR) — forced via --as major (figures changed (+8/-0 distinct numbers))
+- `fci-grain-flow-procurement-storage` **2.0.4 → 3.0.0** (MAJOR) — forced via --as major (figures changed (+9/-0 distinct numbers))
+
+**Changed**
+
+- `mopsws-25000-crore-maritime-development` — 27,089 → 27,603 bytes (+514)
+- `the-easiest-ev-conversion-in-india` — 33,744 → 34,598 bytes (+854)
+- `the-green-shift-what-indias-oil` — 24,119 → 24,916 bytes (+797)
+- `india-will-finance-waste-to-energy` — 38,679 → 39,120 bytes (+441)
+- `tamil-nadus-wind-potential-according-to` — 26,056 → 26,797 bytes (+741)
+- `indias-two-tracks-of-health-cover-and` — 26,879 → 27,450 bytes (+571)
+- `india-has-tax-treaties-with-97` — 28,118 → 28,486 bytes (+368)
+- `indias-state-incentive-war-gujarats` — 40,094 → 40,558 bytes (+464)
+- `securitising-deficit-what-it-would` — 129,947 → 131,070 bytes (+1,123)
+- `raising-green-debt-globally-rec-euroyen` — 67,620 → 68,707 bytes (+1,087)
+- `indias-carbon-credit-market-domestic` — 32,564 → 33,338 bytes (+774)
+- `rbi-foreign-exchange-reserves-20152026` — 54,796 → 55,382 bytes (+586)
+- `fci-grain-flow-procurement-storage` — 40,221 → 41,093 bytes (+872)
+
+## 2026-09-27T07:15:45+00:00 — 321 posts live
+
+Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios
+
+
+**Versions**
+
+- `ethanol-freed-up-refinery-capacity-for` **1.10.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+2/-0 distinct numbers))
+- `indias-ethanol-sector-already-had-its` **1.1.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+6/-0 distinct numbers))
+- `europe-bought-record-amount-of-lng-and` **7.0.5 → 8.0.0** (MAJOR) — forced via --as major (figures changed (+1/-0 distinct numbers))
+- `petroleum-trade-pairings-and-us-crude` **4.0.1 → 5.0.0** (MAJOR) — forced via --as major (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `ethanol-freed-up-refinery-capacity-for` — 46,845 → 47,286 bytes (+441)
+- `indias-ethanol-sector-already-had-its` — 21,717 → 22,068 bytes (+351)
+- `europe-bought-record-amount-of-lng-and` — 42,983 → 44,190 bytes (+1,207)
+- `petroleum-trade-pairings-and-us-crude` — 151,630 → 152,221 bytes (+591)
+
+## 2026-09-27T07:21:34+00:00 — 322 posts live
+
+New post: stove redevelopment landscape - LERC's DME-blending research and the IS 18698 20%->8% BIS revision, hydrogen (PNG blending vs LPG-cylinder research vs Greenvize electrolysis stoves), ethanol/methanol gel stoves (SIMI), Surya Nutan solar and improved biomass cookstoves
+
+
+**Added**
+
+- `india-imports-60-of-its-cooking-gas` **v1.0.0** — India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale. (28,296 bytes)
+
+## 2026-09-27T13:08:10+00:00 — 323 posts live
+
+New post: jute (world's top producer, captive JPM-Act market vs Bangladesh's export lead), silk (bivoltine/multivoltine grade gap despite rising output), wool (declining production, inbreeding quality gap despite large flock), and other natural fibres (banana, pineapple leaf, hemp - R&D stage)
+
+
+**Added**
+
+- `india-leads-world-in-jute-and-ranks` **v1.0.0** — India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like. (26,455 bytes)
+
+## 2026-09-28T03:21:53+00:00 — 323 posts live
+
+Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure
+
+
+**Versions**
+
+- `abha-covers-93-crore-patients-its` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+5/-0 distinct numbers))
+- `a-supreme-court-ruling-on-intoxicating` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `article-index-start-here` **51.2.1 → 51.3.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `abha-covers-93-crore-patients-its` — 25,604 → 26,289 bytes (+685)
+- `a-supreme-court-ruling-on-intoxicating` — 22,498 → 22,740 bytes (+242)
+- `article-index-start-here` — 403,864 → 403,864 bytes (+0)
+
+## 2026-09-28T08:56:10+00:00 — 323 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `india-leads-world-in-jute-and-ranks` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-imports-60-of-its-cooking-gas` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-cotton-yield-fell-from-566-kg-to` **1.1.0 → 1.1.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-leads-world-in-jute-and-ranks` — 26,455 → 26,574 bytes (+119)
+- `india-imports-60-of-its-cooking-gas` — 28,296 → 28,415 bytes (+119)
+- `indias-cotton-yield-fell-from-566-kg-to` — 38,188 → 38,307 bytes (+119)
+
+## 2026-09-28T10:29:29+00:00 — 324 posts live
+
+New post: ORDA 2025 / ONGC oilfield-solar piece — what the amendment actually changed, and how little of ONGC's own land has been converted since
+
+
+**Added**
+
+- `india-let-oil-companies-put-solar-on` **v1.0.0** — India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead. (28,427 bytes)
+
+## 2026-09-28T10:49:03+00:00 — 326 posts live
+
+Two new posts: DPIIT HSN-ministry mapping residual list; Display Fab Scheme's zero-winner record. Also fixes a stale post-title metadata mismatch found on indias-mobile-phone-pli-beat-every (title said 3 of 12, body already said 5 of 12 since the 27 Sept sweep).
+
+
+**Added**
+
+- `indias-display-fab-scheme-got-two` **v1.0.0** — India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined "Display Fab" Small Enough to Claim One Anyway. (25,600 bytes)
+- `india-mapped-12174-tariff-codes-to-31` **v1.0.0** — India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them. (23,843 bytes)
+
+## 2026-09-28T11:18:30+00:00 — 328 posts live
+
+Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead.
+
+
+**Added**
+
+- `indias-ethanol-plants-are-sitting-on` **v1.0.0** — India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal. (24,029 bytes)
+- `gail-and-sumitomo-both-turned-their` **v1.0.0** — GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet. (20,369 bytes)
+
+**Versions**
+
+- `bio-fertiliser-and-green-credits` **4.0.3 → 5.0.0** (MAJOR) — forced via --as major (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `bio-fertiliser-and-green-credits` — 47,209 → 47,494 bytes (+285)
+
+## 2026-09-28T11:30:49+00:00 — 330 posts live
+
+Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 release); SEBI mainboard IPO pipeline sectoral comparison (Power & Renewables vs Oil & Gas).
+
+
+**Added**
+
+- `india-pays-5-8-billion-year-to-ship-its` **v1.0.0** — India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel. (18,942 bytes)
+- `indias-live-ipo-queue-has-232-companies` **v1.0.0** — India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1. (20,402 bytes)
+
+## 2026-09-29T08:59:35+00:00 — 330 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `india-pays-5-8-billion-year-to-ship-its` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-live-ipo-queue-has-232-companies` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ethanol-plants-are-sitting-on` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `gail-and-sumitomo-both-turned-their` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-display-fab-scheme-got-two` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-mapped-12174-tariff-codes-to-31` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-let-oil-companies-put-solar-on` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-pays-5-8-billion-year-to-ship-its` — 18,942 → 19,061 bytes (+119)
+- `indias-live-ipo-queue-has-232-companies` — 20,402 → 20,521 bytes (+119)
+- `indias-ethanol-plants-are-sitting-on` — 24,029 → 24,148 bytes (+119)
+- `gail-and-sumitomo-both-turned-their` — 20,369 → 20,488 bytes (+119)
+- `indias-display-fab-scheme-got-two` — 25,600 → 25,719 bytes (+119)
+- `india-mapped-12174-tariff-codes-to-31` — 23,843 → 23,962 bytes (+119)
+- `india-let-oil-companies-put-solar-on` — 28,427 → 28,546 bytes (+119)

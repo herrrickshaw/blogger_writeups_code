@@ -99,6 +99,78 @@ PITCH_THEMES = [
     "Agriculture & Fertilisers", "Markets & Finance", "Climate & Carbon",
 ]
 
+# gs-chrono-filter-v1 (2026-09-19): month/date/topic filters over the "All
+# articles" list. Options are built in JS from the rows' own data-ym/
+# data-date/data-topic attributes rather than hand-listed here, so the
+# filter never goes stale as posts are added -- the same self-maintaining
+# pattern as the topic accordion above, just without the network round trip
+# (this data is already on the page, unlike live label counts).
+FILTER_BAR = (
+    '<div class="gs-filter-bar" role="group" aria-label="Filter articles">'
+    '<label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select>'
+    '<label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select>'
+    '<label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select>'
+    '<button type="button" class="gs-filter-reset" id="gs-f-reset">Reset</button>'
+    '<span class="gs-filter-count" id="gs-f-count"></span>'
+    '</div>'
+)
+
+FILTER_JS = "<script>//<![CDATA[\n(function(){\n" \
+"  var chrono = document.querySelector('.chrono'); if(!chrono) return;\n" \
+"  var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));\n" \
+"  var groups = Array.prototype.slice.call(chrono.querySelectorAll('.cgroup'));\n" \
+"  var groupOf = new Map(), cur = null;\n" \
+"  Array.prototype.slice.call(chrono.children).forEach(function(el){\n" \
+"    if(el.classList && el.classList.contains('cgroup')) cur = el;\n" \
+"    else if(el.classList && el.classList.contains('crow')) groupOf.set(el, cur);\n" \
+"  });\n" \
+"  var MONTHS=['January','February','March','April','May','June','July','August',\n" \
+"    'September','October','November','December'];\n" \
+"  function uniqSorted(key, cmp){\n" \
+"    var seen={}, out=[];\n" \
+"    rows.forEach(function(r){ var v=r.getAttribute(key);\n" \
+"      if(v && !seen[v]){ seen[v]=1; out.push(v); } });\n" \
+"    out.sort(cmp); return out;\n" \
+"  }\n" \
+"  function countBy(key,val){ return rows.filter(function(r){return r.getAttribute(key)===val;}).length; }\n" \
+"  function fill(sel, values, labelFn){\n" \
+"    values.forEach(function(v){ var o=document.createElement('option');\n" \
+"      o.value=v; o.textContent=labelFn(v); sel.appendChild(o); });\n" \
+"  }\n" \
+"  var months = uniqSorted('data-ym', function(a,b){return b.localeCompare(a);});\n" \
+"  var dates = uniqSorted('data-date', function(a,b){return b.localeCompare(a);});\n" \
+"  var topics = uniqSorted('data-topic', function(a,b){return a.localeCompare(b);});\n" \
+"  var selM=document.getElementById('gs-f-month'), selD=document.getElementById('gs-f-date'),\n" \
+"      selT=document.getElementById('gs-f-topic'), countEl=document.getElementById('gs-f-count'),\n" \
+"      emptyEl=document.getElementById('gs-f-empty');\n" \
+"  fill(selM, months, function(ym){ var y=ym.slice(0,4), m=+ym.slice(5,7)-1;\n" \
+"    return MONTHS[m]+' '+y+' ('+countBy('data-ym',ym)+')'; });\n" \
+"  fill(selD, dates, function(d){ var y=d.slice(0,4), m=+d.slice(5,7)-1, day=+d.slice(8,10);\n" \
+"    return day+' '+MONTHS[m]+' '+y+' ('+countBy('data-date',d)+')'; });\n" \
+"  fill(selT, topics, function(t){ return t+' ('+countBy('data-topic',t)+')'; });\n" \
+"  function apply(){\n" \
+"    var m=selM.value, d=selD.value, t=selT.value, shown=0;\n" \
+"    rows.forEach(function(r){\n" \
+"      var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)\n" \
+"           && (!t || r.getAttribute('data-topic')===t);\n" \
+"      r.style.display = ok ? '' : 'none'; if(ok) shown++;\n" \
+"    });\n" \
+"    groups.forEach(function(g){\n" \
+"      var any=rows.some(function(r){ return groupOf.get(r)===g && r.style.display!=='none'; });\n" \
+"      g.style.display = any ? '' : 'none';\n" \
+"    });\n" \
+"    countEl.textContent = (m||d||t) ? ('Showing '+shown+' of '+rows.length+' articles') : '';\n" \
+"    if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';\n" \
+"  }\n" \
+"  selM.addEventListener('change', apply); selD.addEventListener('change', apply);\n" \
+"  selT.addEventListener('change', apply);\n" \
+"  var resetBtn=document.getElementById('gs-f-reset');\n" \
+"  if(resetBtn) resetBtn.addEventListener('click', function(){\n" \
+"    selM.value=''; selD.value=''; selT.value=''; apply();\n" \
+"  });\n" \
+"})();\n" \
+"//]]></script>"
+
 
 def emit_pitch(A):
     """Elevator-pitch + theme cards, in-page (not a Blogger Layout gadget --
@@ -221,6 +293,14 @@ def main():
 
     o = []
     A = o.append
+    # Self-referencing topnav link every other post carries (consistency-check's
+    # index-link rule) and the house gb-table border style (table-units-in-header
+    # and the site-wide table-borders standard) -- both were being hand-patched
+    # into out/post-index.html after every rebuild until 2026-09-17. Baked in
+    # here so a plain rebuild no longer regresses either check.
+    A('<div class="topnav-index-link" style="font-size:.82em;margin:6px 0 14px">'
+      '<a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" '
+      'style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>')
     A('<p class="eyebrow">Masala Deutsch &middot; Article index</p>')
     A('<h1>Every piece on this blog, three ways in</h1>')
     dates = sorted(p["published"] for p in posts.values() if p["published"])
@@ -253,7 +333,14 @@ def main():
                         'rather than smoothed away: the counts below are what was actually '
                         'published, not a reconstruction.</p>')
     A(gap_note)
-    A('<div class="tw"><table>')
+    A('<style>/*gs-tw-table-v1*/\n'
+      '.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,\'Segoe UI\',sans-serif;margin:1.25rem 0}\n'
+      '.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}\n'
+      '.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}\n'
+      '.gb-table tbody tr:nth-child(even){background:#f8f9fa}\n'
+      '.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}\n'
+      '</style>')
+    A('<div class="tw gb-tblwrap"><table class="gb-table">')
     A('<thead><tr><th>Month</th><th>Articles</th><th>Running total</th></tr></thead><tbody>')
     run = 0
     for m in sorted(months):
@@ -261,8 +348,9 @@ def main():
         A(f'<tr><td>{_pretty_month(m)}</td><td>{months[m]}</td><td>{run}</td></tr>')
     A('</tbody></table></div>')
     A('<p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the '
-      'archive manifest. Three earlier drafts and duplicate variants were withdrawn before this '
-      'index was built and are not listed; they have no live URL to link to.</p>')
+      'archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, '
+      'superseded draft versions -- were withdrawn from Blogger over time and are not listed; they have '
+      'no live URL to link to.</p>')
 
     # ---- topics -----------------------------------------------------------
     A('<h2>By topic</h2>')
@@ -348,14 +436,34 @@ def main():
     # by jungle.vc/resources), not cards: the scan is date and headline first,
     # everything else -- geography, related pieces -- demoted to a quieter
     # line underneath rather than competing on the same visual level.
+    #
+    # gs-chrono-group-v1 (2026-09-19): the flat list was 300+ rows of a tiny
+    # grey date next to every headline -- scannable post by post, but with no
+    # way to tell "what came out in a given month" without reading every row.
+    # A sticky month/year header, inserted whenever the month changes, gives
+    # the list the same date anchors the "By date" table above already has,
+    # while leaving each row's own date untouched.
     A('<h2>All articles</h2>')
-    A('<p class="h2sub">Newest first.</p>')
+    A('<p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance. '
+      'Filter by month, day or topic below.</p>')
+    A(FILTER_BAR)
     A('<div class="chrono">')
-    for slug, p in sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True):
+    ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
+    month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
+    cur_ym = None
+    for slug, p in ordered:
+        ym = p["published"][:7] if p["published"] else None
+        day = p["published"][:10] if p["published"] else None
+        if ym != cur_ym:
+            cur_ym = ym
+            label = _pretty_month(ym) if ym else "Undated"
+            n = month_counts[ym] if ym else sum(1 for _, pp in ordered if not pp["published"])
+            A(f'<div class="cgroup" data-ym="{E(ym or "")}"><span>{E(label)}</span>'
+              f'<span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></div>')
         labels = labels_by_slug.get(slug) or []
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
-        A('<div class="crow">')
+        A(f'<div class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}">')
         A(f'<span class="cdate">{E(date_str)}</span>')
         A(f'<span class="{tag_cls}">{E(tag)}</span>')
         A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
@@ -373,7 +481,9 @@ def main():
                 A(f'{sep}<span class="crel-lbl">Related</span> {links}')
             A('</span>')
         A('</div>')
+    A('<p class="gs-filter-empty" id="gs-f-empty">No articles match this filter combination.</p>')
     A('</div>')
+    A(FILTER_JS)
 
     body = "\n".join(o)
     head = Path(args.shell_head).read_text(encoding="utf-8") if args.shell_head else ""
@@ -392,14 +502,34 @@ def main():
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
 .artx .geoh span{color:#8a8a8a;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
+.artx .gs-filter-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:#F4F7FB;
+ border:1px solid #e2e6ee;border-radius:8px;padding:.65rem .8rem;margin:14px 0 0;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx .gs-filter-bar label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+ color:#595959;margin-right:-.3rem}
+.artx .gs-filter-bar select{font-family:inherit;font-size:.85rem;color:#0B1F2D;background:#fff;
+ border:1px solid #c7cbd1;border-radius:5px;padding:.3rem .5rem;max-width:15rem}
+.artx .gs-filter-bar select:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.artx .gs-filter-reset{font-family:inherit;font-size:.78rem;font-weight:600;color:#2251FF;
+ background:none;border:none;cursor:pointer;padding:.3rem .2rem;margin-left:auto}
+.artx .gs-filter-reset:hover{text-decoration:underline}
+.artx .gs-filter-count{font-size:.78rem;color:#8a8a8a;width:100%}
+.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#8a8a8a;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
+.artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
+ justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;
+ padding:.5rem .7rem;margin-top:.6rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
+ Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.04em}
+.artx .cgroup:first-of-type{margin-top:0}
+.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#b9c2cc;white-space:nowrap}
 .artx .crow{display:grid;grid-template-columns:6.4rem 11rem 1fr;align-items:baseline;
  column-gap:1.1rem;row-gap:.2rem;padding:.85rem .2rem;border-bottom:1px solid #e2e2e2;
  transition:background-color .12s ease}
 .artx .crow:hover{background:#F4F7FB}
 .artx .crow:hover .ctitle{color:#2251FF}
 .artx .cdate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;padding-top:.15rem}
+ font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;
+ padding-top:.15rem}
 .artx .ctag{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
  font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2251FF;
  padding-top:.15rem}
@@ -415,6 +545,9 @@ def main():
 @media (max-width:640px){
  .artx .crow{grid-template-columns:1fr;row-gap:.25rem;padding:1rem .2rem}
  .artx .ctitle,.artx .csub{grid-column:1}
+ .artx .gs-filter-bar select{max-width:100%;flex:1 1 auto}
+ .artx .gs-filter-reset{margin-left:0}
+ .artx .gs-filter-count{order:99}
 }
 </style>
 """

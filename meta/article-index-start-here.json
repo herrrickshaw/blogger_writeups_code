@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-09-14T14:33:37.478+05:30",
+  "updated": "2026-09-28T08:51:31.913+05:30",
   "labels": [],
-  "bytes": 346542,
-  "sha256": "a6b2563678857adc54ea78dfb1cc6991fea5b69b07a3211cd5f92e789ec71625",
+  "bytes": 403864,
+  "sha256": "8cb111ddb5e92f970132ef2cda661d1016ba3968b288884c01209f26d447dbd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
-    "typo_unify": true,
+    "typo_unify": false,
     "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "46.1.0",
+  "version": "51.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1540,6 +1540,203 @@
         ]
       },
       "note": "Rebuilt index after publishing LNG decarbonization post"
+    },
+    {
+      "version": "46.2.0",
+      "date": "2026-09-16T23:45:41+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+14/-4 distinct numbers))",
+      "bytes": [
+        346542,
+        359250
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "typo_unify": [
+          true,
+          false
+        ]
+      },
+      "note": "Rebuild and republish the article index (293 articles, up from 294-2 stray files removed; picks up all posts added/edited this session) via the documented index_graph.py + build_index_page.py pipeline, then consistency-check/fix.py's repair() for translate widget + AI disclosure, plus the self-referencing topnav-index-link."
+    },
+    {
+      "version": "46.3.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        359250,
+        359781
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "46.4.0",
+      "date": "2026-09-17T01:12:51+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-2 distinct numbers))",
+      "bytes": [
+        359781,
+        360927
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the new naphtha/benzene/China post (295 posts); fix stale 'Three earlier drafts' count in the By-date table's note."
+    },
+    {
+      "version": "46.5.0",
+      "date": "2026-09-17T01:29:33+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-2 distinct numbers))",
+      "bytes": [
+        360927,
+        361480
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "dark_panel_guard": [
+          false,
+          true
+        ]
+      },
+      "note": "Rebuild article index for the new ABHA-vs-developed-countries post (296 posts). Generator now bakes in the topnav-index-link and gb-table border style itself, no manual patch needed."
+    },
+    {
+      "version": "47.0.0",
+      "date": "2026-09-17T01:54:13+00:00",
+      "level": "major",
+      "reason": "figures changed (+4/-2 distinct numbers)",
+      "bytes": [
+        361480,
+        362100
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the two new posts (plant-variety-rights registry, CBSE past-paper repetition); add apply_labels.py OVERRIDE entries for both new slugs"
+    },
+    {
+      "version": "48.0.0",
+      "date": "2026-09-17T02:41:59+00:00",
+      "level": "major",
+      "reason": "figures changed (+3/-2 distinct numbers)",
+      "bytes": [
+        362100,
+        362442
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the PLFS rural farm-employment post; apply label"
+    },
+    {
+      "version": "49.0.0",
+      "date": "2026-09-17T02:48:36+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-2 distinct numbers)",
+      "bytes": [
+        362442,
+        362757
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the Minor Irrigation Census post; add apply_labels.py OVERRIDE for the Industrial-Policy false positive"
+    },
+    {
+      "version": "50.0.0",
+      "date": "2026-09-17T02:55:57+00:00",
+      "level": "major",
+      "reason": "figures changed (+2/-1 distinct numbers)",
+      "bytes": [
+        362757,
+        363069
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for the NSS agricultural-household wage-vs-crop piece"
+    },
+    {
+      "version": "50.0.1",
+      "date": "2026-09-17T03:21:30+00:00",
+      "level": "patch",
+      "reason": "wording changed; no figures, sections or claims moved",
+      "bytes": [
+        363069,
+        363115
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index: PLFS post title corrected"
+    },
+    {
+      "version": "51.0.0",
+      "date": "2026-09-18T12:31:54+00:00",
+      "level": "major",
+      "reason": "figures changed (+5/-5 distinct numbers)",
+      "bytes": [
+        363115,
+        363508
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rebuild article index for GIFT IFSC and ethanol mileage-vs-emissions posts; apply labels"
+    },
+    {
+      "version": "51.1.0",
+      "date": "2026-09-19T02:50:08+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        363508,
+        364430
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: group 'All articles' newest-first list by month with a sticky count header, for date-wise scannability"
+    },
+    {
+      "version": "51.2.0",
+      "date": "2026-09-19T03:45:15+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        364430,
+        391828
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index: add month/date/topic filters over the 'All articles' list, options built self-maintaining from the rows' own data attributes"
+    },
+    {
+      "version": "51.2.1",
+      "date": "2026-09-23T17:47:21+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        391828,
+        403864
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "dark_panel_guard": [
+          true,
+          false
+        ]
+      },
+      "note": "Rebuild article index: 301 -> 315 articles, adding 14 posts published since the 19 September rebuild"
+    },
+    {
+      "version": "51.3.0",
+      "date": "2026-09-28T03:21:53+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        403864,
+        403864
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
     }
   ]
 }

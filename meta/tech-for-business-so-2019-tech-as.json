@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html",
   "slug": "tech-for-business-so-2019-tech-as",
   "published": "2020-10-04T17:27:00.000+05:30",
-  "updated": "2026-09-07T20:03:14.806+05:30",
+  "updated": "2026-09-18T19:50:16.910+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 32079,
-  "sha256": "8c5ac6f13633ec0ab22bd65197f258ab9aca67a94b995bd6740dab1cf00fd6cd",
+  "bytes": 32674,
+  "sha256": "de8b506016de330f58305c6593a6831de91aaba290ccb11a03129f9608fd4cc6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.13",
+  "version": "1.0.14",
   "version_history": [
     {
       "version": "1.0.0",
@@ -203,6 +203,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.0.14",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        32079,
+        32674
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

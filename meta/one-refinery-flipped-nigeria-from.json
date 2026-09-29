@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/one-refinery-flipped-nigeria-from.html",
   "slug": "one-refinery-flipped-nigeria-from",
   "published": "2026-08-09T03:00:24.000+05:30",
-  "updated": "2026-09-11T21:02:03.222+05:30",
+  "updated": "2026-09-26T06:09:58.495+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 34772,
-  "sha256": "10055d71a694422dc6ed9d8670d07fa9579736136cb47657bc1abe920eb83725",
+  "bytes": 37108,
+  "sha256": "bebc8a16aa684a65379676106446c1a29ae848380d8e139ca83d40f54d6af4f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.2",
+  "version": "4.0.3",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (source line overlapping the \"2050 (forecast)\" x-axis label) flagged by tools/svg_chart_lint.py by moving the source line below the legend row."
+    },
+    {
+      "version": "4.0.3",
+      "date": "2026-09-26T00:40:22+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        34772,
+        37108
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Correct Dangote IPO terms: $1.6bn raise not $5bn, Nov listing not Oct"
     }
   ]
 }

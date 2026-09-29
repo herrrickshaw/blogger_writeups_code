@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rajya-sabha-question-registry-scheme.html",
   "slug": "rajya-sabha-question-registry-scheme",
   "published": "2026-08-04T15:55:00.000+05:30",
-  "updated": "2026-09-11T00:07:17.135+05:30",
+  "updated": "2026-09-26T10:58:56.873+05:30",
   "labels": [
     "Import Substitution",
-    "Industrial Policy"
+    "Industrial Policy",
+    "Parliamentary Scheme Tracking"
   ],
-  "bytes": 339150,
-  "sha256": "750740d4ee8920a83b019c9042d6a6201e0f2737ca954d0015babfab865d5407",
+  "bytes": 339776,
+  "sha256": "532374cd9263fe154372e3467c2a21977764b40c810032df4b255a20b071ef72",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -260,6 +261,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-09-19T02:05:16+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        339150,
+        339776
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged"
     }
   ]
 }

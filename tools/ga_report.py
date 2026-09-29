@@ -2,6 +2,15 @@
 """GA4 Data API report for masaladeutsch (property 548678807): pageviews and
 active-user counts, broken down by country/city, over a date range.
 
+Also a per-city traffic-quality drill-down (2026-09-21): a raw views/user
+ratio flagged Coimbatore/Irugur/Salem as outliers in the 2026-09-10 report
+(some 25-35 views per user, vs ~1.3 everywhere else), but that ratio alone
+can't tell a handful of very engaged readers apart from a script -- so the
+top-by-views cities also get a device/browser mix and average engagement
+time per session. A script tends to show one device/browser combo and
+near-zero engagement time; real readers don't, whatever their views/user
+ratio. See city_quality_to_table().
+
 Auth: service-account JWT bearer flow (RS256), signed with `cryptography` --
 no google-api-python-client / google-analytics-data dependency, consistent
 with this repo's minimal-dependency style (see tools/blogger_api.py).
@@ -11,6 +20,7 @@ Report-only: reads GA4 data, prints/writes a summary. Never touches the blog.
     python3 tools/ga_report.py                    # last 28 days, prints to stdout
     python3 tools/ga_report.py --days 7
     python3 tools/ga_report.py --days 90 --out out/ga_report.md
+    python3 tools/ga_report.py --city-quality-n 0  # skip the drill-down (2 fewer API calls)
 """
 import argparse, base64, glob, json, re, time, urllib.request, urllib.parse, pathlib
 
@@ -132,6 +142,109 @@ def rows_to_table(report, dim_label, metric_labels):
     return "\n".join(lines)
 
 
+def in_list_filter(field, values):
+    return {"filter": {"fieldName": field, "inListFilter": {"values": values}}}
+
+
+def top_cities_by_views(by_city, n=12):
+    """Cities worth a device/engagement drill-down: the highest page-view
+    cities, not just highest-user cities -- an outsized views/user ratio
+    (the actual bot-suspicion signal) can hide behind a modest user count,
+    the way Coimbatore/Irugur/Salem did in the 2026-09-10 report."""
+    rows = [
+        (row["dimensionValues"][0]["value"], int(row["metricValues"][1]["value"]))
+        for row in by_city.get("rows", [])
+    ]
+    rows.sort(key=lambda r: -r[1])
+    return [name for name, _ in rows[:n] if name and name != "(not set)"]
+
+
+def device_mix_by_city(token, date_range, cities):
+    """city -> ["device/browser: views", ...], sorted by views, so a real
+    distributed readership (several device/browser combos) is visually
+    distinct from one combo accounting for nearly all of a city's views."""
+    if not cities:
+        return {}
+    report = run_report(token, {
+        "dateRanges": date_range,
+        "dimensions": [{"name": "city"}, {"name": "deviceCategory"}, {"name": "browser"}],
+        "metrics": [{"name": "activeUsers"}, {"name": "screenPageViews"}],
+        "dimensionFilter": in_list_filter("city", cities),
+        "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+        "limit": 300,
+    })
+    mix = {}
+    for row in report.get("rows", []):
+        city, device, browser = (d["value"] for d in row["dimensionValues"])
+        users, views = (int(m["value"]) for m in row["metricValues"])
+        mix.setdefault(city, []).append((f"{device}/{browser}", views, users))
+    for city in mix:
+        mix[city].sort(key=lambda t: -t[1])
+    return mix
+
+
+def engagement_by_city(token, date_range, cities):
+    """city -> sessions/engagedSessions/avg-engagement-seconds/bounceRate.
+    A city with many page views but near-zero average engagement time is a
+    much stronger bot signal than the raw views/user ratio alone -- a script
+    can rack up pageviews in milliseconds; a real reader cannot."""
+    if not cities:
+        return {}
+    report = run_report(token, {
+        "dateRanges": date_range,
+        "dimensions": [{"name": "city"}],
+        "metrics": [{"name": "sessions"}, {"name": "engagedSessions"},
+                    {"name": "userEngagementDuration"}, {"name": "bounceRate"}],
+        "dimensionFilter": in_list_filter("city", cities),
+        "limit": 100,
+    })
+    eng = {}
+    for row in report.get("rows", []):
+        city = row["dimensionValues"][0]["value"]
+        sessions, engaged, duration, bounce = (m["value"] for m in row["metricValues"])
+        sessions, engaged, duration, bounce = int(sessions), int(engaged), float(duration), float(bounce)
+        eng[city] = {
+            "sessions": sessions,
+            "engaged": engaged,
+            "avg_engagement_s": (duration / sessions) if sessions else 0.0,
+            "bounce_pct": bounce * 100,
+        }
+    return eng
+
+
+def city_quality_to_table(cities, by_city_rows, mix, eng, top_combos=3):
+    """One row per drill-down city: views, users, sessions, avg engagement
+    time, bounce rate, and the top device/browser combos -- everything
+    needed to eyeball 'real distributed readership' vs 'one script, one
+    device, near-zero engagement time' without leaving this report."""
+    views_users = {
+        row["dimensionValues"][0]["value"]: (
+            int(row["metricValues"][1]["value"]), int(row["metricValues"][0]["value"])
+        )
+        for row in by_city_rows
+    }
+    header = ("| City | Page views | Active users | Views/user | Sessions | "
+              "Avg engagement | Bounce rate | Top device/browser combos |")
+    sep = "|" + "---|" * 8
+    lines = [header, sep]
+    for city in cities:
+        views, users = views_users.get(city, (0, 0))
+        vpu = f"{views / users:.1f}" if users else "n/a"
+        e = eng.get(city)
+        sessions = e["sessions"] if e else "?"
+        avg_eng = f"{e['avg_engagement_s']:.0f}s" if e else "?"
+        bounce = f"{e['bounce_pct']:.0f}%" if e else "?"
+        combos = mix.get(city, [])[:top_combos]
+        combo_str = "; ".join(f"{c} ({v})" for c, v, _ in combos) or "n/a"
+        if len(mix.get(city, [])) > top_combos:
+            combo_str += f"; +{len(mix[city]) - top_combos} more"
+        lines.append(f"| {city} | {views} | {users} | {vpu} | {sessions} | "
+                      f"{avg_eng} | {bounce} | {combo_str} |")
+    if not cities:
+        lines.append("| *(no cities with recorded page views in this range)* |" + " |" * 7)
+    return "\n".join(lines)
+
+
 def merged_pages_to_table(order, merged):
     lines = ["| Page path | Page views | Active users |", "|---|---|---|"]
     footnotes = []
@@ -159,6 +272,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--days", type=int, default=28)
     ap.add_argument("--out", help="write markdown report to this path instead of stdout")
+    ap.add_argument("--city-quality-n", type=int, default=12,
+                     help="how many top-by-views cities get the device/engagement "
+                          "drill-down (0 disables the section)")
     args = ap.parse_args()
 
     token = get_access_token()
@@ -191,6 +307,10 @@ def main():
         "limit": 20,
     })
 
+    drill_cities = top_cities_by_views(by_city, n=args.city_quality_n) if args.city_quality_n else []
+    device_mix = device_mix_by_city(token, date_range, drill_cities)
+    engagement = engagement_by_city(token, date_range, drill_cities)
+
     t = totals.get("rows", [{}])[0].get("metricValues", [])
     t_vals = [v["value"] for v in t] if t else ["0", "0", "0", "0"]
 
@@ -205,6 +325,13 @@ def main():
           rows_to_table(by_country, "Country", ["Active users", "Page views"]),
           "\n## Views by city (top 30)\n",
           rows_to_table(by_city, "City", ["Active users", "Page views"]),
+          f"\n## City traffic-quality check (top {len(drill_cities)} by page views)\n",
+          "Device/browser variety and engagement time are stronger bot signals than "
+          "views/user alone: a script racks up pageviews in milliseconds on one "
+          "device/browser combo, a real reader does not. `n/a` for views/user means "
+          "the API returned page views with no matching active-user row for that city "
+          "(sampling/rounding at low volume, not necessarily bot traffic by itself).\n",
+          city_quality_to_table(drill_cities, by_city.get("rows", []), device_mix, engagement),
           "\n## Top pages (top 20)\n",
           merged_pages_to_table(*merge_page_aliases(by_page)),
           ]

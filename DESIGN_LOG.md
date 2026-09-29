@@ -2778,3 +2778,55 @@ missing** (OmniRoute was already there), so weekly discovery stops resurfacing
 things the board already carries. Entries must be lowercase — the membership
 test is `fn.lower() in TRACKED`, so a capitalised entry silently never matches;
 that is now a comment in the file rather than a fact to rediscover.
+
+## 2026-09-17 — Three additive refinements to post-skeleton.html, borrowed from an in-house design system in a sibling repo
+
+Asked to check other repos for a reusable post template before reaching for an
+external design tool. Found no drop-in article layout anywhere — every other
+repo on this machine is a dashboard, a data-pipeline output, or a generated
+report, none with a header/byline/body/footer shape close to a Blogger post.
+`india-trade-sector-policy-recommendations/templates/*.html` came closest: not
+a swappable template, but a small, coherent design system (palette tokens, a
+three-font pairing, a mono-label eyebrow/source-line convention, graded status
+chips, a three-tier semantic colour system) worth borrowing pieces of.
+
+**What was borrowed, and what wasn't.** post-skeleton.html already had CSS
+custom-property palette tokens (`--ink`/`--accent`/`--rule`/`--panel`) before
+this — that idea was already in place, just not named as such. Three genuinely
+new pieces were added:
+
+1. **A mono-label convention** for `.eyebrow` and `.src` — a system monospace
+   stack (`--mono`), not a hosted webfont, so no post takes on an extra
+   network request or a flash-of-unstyled-text risk. This is a two-place
+   accent (the kicker line and the source line), not a font-pairing overhaul
+   — body text, h1, and table cells all keep the existing Georgia serif.
+2. **A third semantic callout tier, `.good`**, alongside the existing `.note`
+   (neutral framing) and `.warn` (a caveat/scope limit). Several posts this
+   session ended up stretching `.warn` to also mean "this figure was checked
+   and confirmed correct," which reads backwards to anyone skimming for
+   caveats. `.good` gives that case its own colour (`--good`/`--good-soft`)
+   instead of overloading warn's.
+3. **A `.chip`/`.chip-good`/`.chip-warn`/`.chip-bad` component**, formalising
+   a labelling pattern several posts had already built ad hoc in inline JS
+   (e.g. `priority-export-destinations-by-growth.html`'s `"pli": "strong" /
+   "partial" / "gap"` tags rendered per-row). A new post can now write
+   `<span class="chip chip-good">Strong</span>` instead of reinventing the
+   markup and colours each time.
+
+**What was deliberately left alone.** The design system in the sibling repo
+also uses an explicit `data-theme="dark"` toggle for dark mode. post-skeleton
+does the opposite on purpose — `gs-light-lock` exists because a dark Blogger
+theme repainting post text caused a real, documented incident (see the
+2026-08-14 entries above); adding a dark-mode toggle would directly contradict
+that fix. The header block (`gs-head-order`), the accessibility bar, the
+translate-widget placement, and the AI-disclosure position were all left
+untouched for the same reason: each carries its own hard-won comment
+explaining a bug it was written to prevent, and none of those bugs are what
+this refresh was asked to fix. This was an additive styling pass, not a
+structural rewrite.
+
+Lovable (an AI app builder) was considered and set aside for this task: its
+output is a React/Tailwind app with a build step, not portable static HTML —
+converting that back into something a Blogger post body can render would very
+likely cost more effort than it saved, for a template that only needs to be a
+self-contained HTML/CSS fragment.

@@ -4,14 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/europe-bought-record-amount-of-lng-and.html",
   "slug": "europe-bought-record-amount-of-lng-and",
   "published": "2026-08-08T10:31:50.000+05:30",
-  "updated": "2026-09-10T23:17:40.161+05:30",
+  "updated": "2026-09-27T18:44:46.050+05:30",
   "labels": [
     "Gas & LNG",
+    "Global LNG Markets",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 42983,
-  "sha256": "5597eca7e88c6fd0f5a375047128c70014b72a7c3ef155147915e1e99f71671d",
+  "bytes": 44190,
+  "sha256": "44982202151fa53c884d24edb47b798379ed17380bc2ba80c0bc000ff5ad3cec",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.5",
+  "version": "8.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +292,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "8.0.0",
+      "date": "2026-09-27T07:15:45+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        42983,
+        44190
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
     }
   ]
 }

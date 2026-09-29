@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html",
   "slug": "interpreting-gazette-notification",
   "published": "2026-09-04T10:06:40.000+05:30",
-  "updated": "2026-09-10T22:44:21.793+05:30",
+  "updated": "2026-09-26T11:00:04.715+05:30",
   "labels": [
+    "Ease of Doing Business & Regulatory Reform",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 39282,
-  "sha256": "c3761f39419ff8057941e2154ae0e8cc39f7e9ce801939b84fd25ed696c33052",
+  "bytes": 40060,
+  "sha256": "87ccf4ee9357d9d571a7dce366b5c3c4c020d5dfc48dc98cec2b4f7ab697847c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -95,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-18T13:55:09+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39282,
+        40060
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Fix crosslink_analysis.py's slug regex to accept underscores (was silently mis-reporting 3 underscore-slugged posts as orphaned/never-linked when they had real inbound links); add 'Related on this blog' cross-links to 3 posts with 5 inbound links each but zero outbound, found by the corrected tool"
     }
   ]
 }

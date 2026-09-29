@@ -1,7 +1,23 @@
 #!/usr/bin/env python3
 """Rebuild the article-index post body so it matches what is actually live.
 
-Two jobs:
+SUPERSEDED as of 2026-09-15: the live index page (article-index-start-here)
+no longer uses the static `<details class="ix-sec" id="t0".."t9">` /
+`class="ix-item"` markup this script edits -- confirmed by running it and
+finding zero matches for either selector anywhere in the current index body.
+It now uses a per-label accordion (`<details class="gs-acc"
+data-label="...">`) filled client-side by accordion.js (served from GitHub
+Pages, herrrickshaw/masaladeutsch repo), which discovers each label's posts
+via JSONP against the blog's own public feed at view time -- "so it can
+never go stale and never needs a post edit to update," per that script's own
+header comment. A new post with the correct Blogger label already appears in
+the index with no static file edit required; this script cannot write
+anything useful against the new markup and will sys.exit on the first
+PLACEMENT entry it tries to add. Kept for reference / in case a future
+redesign reverts to a static index; do not add new PLACEMENT entries here
+without first re-checking article-index-start-here's actual current markup.
+
+Two jobs, when the markup below still matched the live index:
   1. Repoint entries whose post has moved (Blogger never releases a slug, so a
      republished post leaves a dead link behind in the index).
   2. Add live posts that were never listed, into the right topic section.

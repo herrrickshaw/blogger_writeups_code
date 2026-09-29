@@ -1,0 +1,87 @@
+{
+  "id": "7697539646438965679",
+  "title": "India's ₹60,000 Crore API Push, Traced to Its Six Actual Schemes",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
+  "slug": "indias-60000-crore-api-push-traced-to",
+  "published": "2026-09-16T14:11:49.000+05:30",
+  "updated": "2026-09-26T10:58:01.952+05:30",
+  "labels": [
+    "Industrial Policy",
+    "PLI Schemes"
+  ],
+  "bytes": 24304,
+  "sha256": "09c6f6c16f540b4172e478418104cf751717803e6d70a32eda6b2f17bb777b0a",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.3.1",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-16T08:44:55+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish 4 new posts: Dr. Reddy's semaglutide API halt, India's semaglutide patent-cliff market dynamics, the ₹60,000cr API push traced to its 6 schemes, and Sun Pharma's Organon deal/RBI financing angle"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-16T15:36:02+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        17965,
+        19415
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add Bulk Drug Parks operational-status gap (0/3 in commercial production) found via research_crosscheck.py against the PIB Annexure piece; republished the API-push post."
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        19415,
+        24192
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        24192,
+        24311
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.3.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24311,
+        24304
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    }
+  ]
+}

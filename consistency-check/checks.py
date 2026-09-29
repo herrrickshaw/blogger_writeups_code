@@ -13,6 +13,18 @@ import re
 
 BLOCKER, MAJOR, MINOR = "BLOCKER", "MAJOR", "MINOR"
 
+_COMMENT_RE = re.compile(r'<!--.*?-->|/\*.*?\*/', re.S)
+
+
+def _declares_dark(body):
+    """Whether the post actually declares a dark palette -- ignoring the
+    strings inside HTML/CSS comments, so a comment that only *discusses*
+    prefers-color-scheme (e.g. to explain why it was deliberately left out)
+    doesn't trip a false BLOCKER. Caught on quarterly-reportage-4034-scheme,
+    whose own explanatory comment contains the literal phrase."""
+    stripped = _COMMENT_RE.sub('', body)
+    return ('prefers-color-scheme' in stripped) or ('data-theme="dark"' in stripped)
+
 # --------------------------------------------------------------------------
 # Static rules: run against the post's rendered HTML (no browser needed).
 # Each returns (ok, detail).
@@ -57,7 +69,7 @@ def r_no_inverted_media_query(body, **kw):
 def r_dark_vars_locked(body, **kw):
     """A post that declares its own dark palette must also pin the light values
     with !important, or the BW-override blackens text while the surface goes dark."""
-    declares_dark = ('prefers-color-scheme' in body) or ('data-theme="dark"' in body)
+    declares_dark = _declares_dark(body)
     if not declares_dark:
         return True, "n/a (no dark palette)"
     # only a hazard if something actually consumes the vars
@@ -85,7 +97,7 @@ def r_bw_override(body, **kw):
     """The black-on-white override safety net. Only required where the post
     ships its own colour system that could go dark; a plain post that never
     declares a dark palette does not need it."""
-    risky = ('prefers-color-scheme' in body) or ('data-theme="dark"' in body)
+    risky = _declares_dark(body)
     if not risky:
         return True, "n/a (no dark palette)"
     ok = 'BW-OVERRIDE' in body or 'gs-light-lock-v1' in body
@@ -94,12 +106,22 @@ def r_bw_override(body, **kw):
 
 def r_table_units_in_header(body, **kw):
     """Units belong in <th>, not repeated in every <td>. Was polluting 30-91% of
-    cells across 7 flagship posts."""
+    cells across 7 flagship posts.
+
+    A cell only counts as a violation if it IS a bare number+unit (what a
+    header could absorb) -- not merely a cell that mentions a unit inside a
+    longer explanatory phrase, e.g. "~25.96% of all technical-textile
+    imports" or "FY2025-26, 10.35% CAGR". The original substring-search
+    version flagged both alike, which misfired on 18 of 19 posts checked
+    during a 2026-09-18 audit: their tables were fine, just descriptive."""
     tds = re.findall(r'<td[^>]*>([\s\S]{0,120}?)</td>', body)
     if len(tds) < 12:
         return True, "n/a (few cells)"
-    unit = re.compile(r'(₹|&#8377;|US\$|\bcr\b|crore|lakh|%|MT\b|LMT\b|MW\b|kg\b|bn\b|mn\b)', re.I)
-    hits = sum(1 for t in tds if unit.search(re.sub(r'<[^>]+>', '', t)))
+    bare_unit = re.compile(
+        r'^\s*(₹|&#8377;|US\$|\$)?\s*[\d,.−-]+\s*'
+        r'(cr|crore|lakh|%|MT|LMT|MW|kg|bn|mn)\.?\s*'
+        r'(\([^)]{0,40}\))?\s*$', re.I)
+    hits = sum(1 for t in tds if bare_unit.match(re.sub(r'<[^>]+>', '', t).strip()))
     pct = hits / len(tds) * 100
     ok = pct <= 30
     return ok, (f"{pct:.0f}% of {len(tds)} cells carry units" if not ok else f"{pct:.0f}%")

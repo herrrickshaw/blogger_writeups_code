@@ -4,24 +4,24 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-empty-shed-greenhouse-what-indias.html",
   "slug": "the-empty-shed-greenhouse-what-indias",
   "published": "2026-08-05T14:59:21.000+05:30",
-  "updated": "2026-09-11T21:36:43.675+05:30",
+  "updated": "2026-09-18T19:50:30.529+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 13755,
-  "sha256": "98a0d530cc03c06810a24739e6faf4108d8168395c58fe09418d12703ff814e3",
+  "bytes": 15143,
+  "sha256": "ef7b4cb744d20e6e0841c33b6c799737e7cf11e4328e302d48ca7ff9f4f2a90a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
     "typo_unify": false,
-    "translate_widget": false,
+    "translate_widget": true,
     "index_link": true,
     "ai_disclosure": true,
     "revision_line": false,
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -181,6 +181,24 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (\"3.73\" polyhouse value label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text) instead of above it."
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        13755,
+        15143
+      ],
+      "url_changed": null,
+      "markers_changed": {
+        "translate_widget": [
+          false,
+          true
+        ]
+      },
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

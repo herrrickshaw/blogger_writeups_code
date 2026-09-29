@@ -4,14 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-09-10T22:46:35.376+05:30",
+  "updated": "2026-09-27T10:57:18.933+05:30",
   "labels": [
     "Agriculture & Fertilisers",
+    "Crop Insurance & Risk",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 36879,
-  "sha256": "ef20464c083e0a067d66fe1eeeedc1066b2dc11c7a971161f4db3d471fddcc2e",
+  "bytes": 39254,
+  "sha256": "49f91a18b765cedf71e0cb9fd4e06ad4691ffafb081ca34b7e7fb96768afafe8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +97,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        36879,
+        37651
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        37651,
+        39254
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

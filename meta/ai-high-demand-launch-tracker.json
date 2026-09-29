@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
   "slug": "ai-high-demand-launch-tracker",
   "published": "2026-07-31T09:37:00.000+05:30",
-  "updated": "2026-09-10T23:11:36.106+05:30",
+  "updated": "2026-09-18T19:48:05.153+05:30",
   "labels": [
     "AI Tracker"
   ],
-  "bytes": 39829,
-  "sha256": "c4b1da95fc1fa741d3301904c4303009476fac288a408114b3639bc7708192f8",
+  "bytes": 40398,
+  "sha256": "a2a4cb9378e22b7a7788a5194777af83ae9e6761169c372b5b16e62fa4131e82",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.5",
+  "version": "4.0.6",
   "version_history": [
     {
       "version": "1.0.0",
@@ -312,6 +312,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.0.6",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        39829,
+        40398
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

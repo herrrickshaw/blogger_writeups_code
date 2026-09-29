@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-subsidised-imports-fertilisers.html",
   "slug": "indias-subsidised-imports-fertilisers",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-09-11T00:23:42.810+05:30",
+  "updated": "2026-09-16T21:39:07.326+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Trade & Tariffs"
   ],
-  "bytes": 38043,
-  "sha256": "b88c4b5f1d70543847016bd2cbeda4670d967ab0b1c848ce512587bb9c8c16ea",
+  "bytes": 38180,
+  "sha256": "9579b218c7268ca523a6ef67182f3bbc1b6fb7f8f9f146769a421185534a1b21",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,271 +23,14 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.5",
+  "version": "1.0.0",
   "version_history": [
     {
       "version": "1.0.0",
-      "date": "2026-08-06T09:46:05+05:30",
-      "level": "baseline",
-      "reason": "version tracking introduced",
-      "note": ""
-    },
-    {
-      "version": "1.0.1",
-      "date": "2026-08-06T11:31:49+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        27657,
-        24973
-      ],
-      "url_changed": null,
-      "markers_changed": {
-        "inverted_media_query": [
-          true,
-          false
-        ]
-      },
-      "note": "Normalisation applied to all 45 affected posts via the Blogger API. Removed the BW-override, light-lock and dark-panel-guard layers plus every inverted media query; each post's own CSS restored. Measured on the worst post: 795/1403 low-contrast nodes -> 0/1403."
-    },
-    {
-      "version": "1.0.2",
-      "date": "2026-08-08T03:54:45+00:00",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        24973,
-        26246
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "scheduled sync"
-    },
-    {
-      "version": "1.0.3",
-      "date": "2026-08-08T14:26:40+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        26246,
-        26365
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "site-index stub in all 98 posts"
-    },
-    {
-      "version": "2.0.0",
-      "date": "2026-08-08T22:32:38+05:30",
-      "level": "major",
-      "reason": "figures changed (+1/-0 distinct numbers)",
-      "bytes": [
-        26365,
-        27830
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Cross-linked all 10 gas + fertiliser articles with reciprocal 'Related on this blog' blocks (fertiliser cluster: import bill, Nature vs Nurture, Bio-Fertiliser, Subsidised Imports, Imported Fertiliser CPI/WPI; gas cluster: Thermal Parity, City Gas, LPG commission, Europe LNG, CBG Incentive Stack)"
-    },
-    {
-      "version": "2.0.1",
-      "date": "2026-08-11T11:44:28+05:30",
-      "level": "patch",
-      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-      "bytes": [
-        27830,
-        28067
-      ],
-      "url_changed": null,
-      "markers_changed": {
-        "index_link": [
-          false,
-          true
-        ]
-      },
-      "note": ""
-    },
-    {
-      "version": "2.0.2",
-      "date": "2026-08-11T21:45:23+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        28067,
-        28307
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.3",
-      "date": "2026-08-12T22:24:04+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        28307,
-        28466
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.4",
-      "date": "2026-08-13T03:50:57+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        28466,
-        33000
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.5",
-      "date": "2026-08-13T08:42:55+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        33000,
-        33919
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.6",
-      "date": "2026-08-13T11:02:49+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
-      "bytes": [
-        33919,
-        34024
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Fix third+fourth template-variant snippet bug (dek/kick/sub/note patterns, 44+22 posts); remove orphaned empty .hero wrapper divs left behind after header reorder"
-    },
-    {
-      "version": "2.0.7",
-      "date": "2026-08-16T14:49:00+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        34024,
-        34552
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.8",
-      "date": "2026-08-16T15:22:21+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        34552,
-        34907
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "2.0.9",
-      "date": "2026-08-19T11:46:39+05:30",
-      "level": "patch",
-      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-      "bytes": [
-        34907,
-        34913
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "3.0.0",
-      "date": "2026-08-26T03:35:52+00:00",
-      "level": "major",
-      "reason": "figures changed (+10/-0 distinct numbers)",
-      "bytes": [
-        34913,
-        39204
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "scheduled sync"
-    },
-    {
-      "version": "3.0.1",
-      "date": "2026-09-05T21:41:22+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-      "bytes": [
-        39204,
-        39023
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "AI disclosure reworded sitewide; article index rebuilt (+5 posts)"
-    },
-    {
-      "version": "3.0.2",
-      "date": "2026-09-05T22:16:32+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
-      "bytes": [
-        39023,
-        38142
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Manual ad units removed from all posts; Auto ads only"
-    },
-    {
-      "version": "3.0.3",
-      "date": "2026-09-07T19:53:24+05:30",
-      "level": "patch",
-      "reason": "forced via --as patch (wording changed; no figures, sections or claims moved)",
-      "bytes": [
-        38142,
-        37223
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
-    },
-    {
-      "version": "3.0.4",
-      "date": "2026-09-10T22:54:22+05:30",
-      "level": "patch",
-      "reason": "visible text identical; only markup/styling changed",
-      "bytes": [
-        37223,
-        37281
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
-    },
-    {
-      "version": "3.0.5",
-      "date": "2026-09-11T00:25:49+05:30",
-      "level": "patch",
-      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
-      "bytes": [
-        37281,
-        38043
-      ],
-      "url_changed": null,
-      "markers_changed": null,
-      "note": ""
+      "date": "2026-09-24T06:01:59+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "New post based on herrrickshaw/india-quality-regulation: India's four-layer quality-regulation architecture (37 bodies), with an independent correction -- BIS Scheme-X was repealed 14 Jan 2026, not 'due September 2026' as the source repo's own fetch still states"
     }
   ]
 }

@@ -30,8 +30,12 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 # A dated post URL: /2026/09/some-slug.html -- what a genuine cross-link looks like.
+# Slug charset includes underscores: Blogger appends "_<digits>" to disambiguate a
+# duplicate slug (e.g. chemical-import-substitution-full-hsn-8_01082878313), and a
+# [a-z0-9-]-only class silently misses every link to or from such a post -- they'd
+# misreport as orphaned when they are not. Confirmed against 3 posts in this archive.
 POST_LINK_RE = re.compile(
-    r'href="https://masaladeutsch\.blogspot\.com/(\d{4})/(\d{2})/([a-z0-9-]+)\.html(?:#[^"]*)?"',
+    r'href="https://masaladeutsch\.blogspot\.com/(\d{4})/(\d{2})/([a-z0-9_-]+)\.html(?:#[^"]*)?"',
     re.I,
 )
 # Boilerplate destinations that don't count as editorial cross-links.

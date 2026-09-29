@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/what-india-is-actually-paying-for.html",
   "slug": "what-india-is-actually-paying-for",
   "published": "2026-08-14T08:10:54.000+05:30",
-  "updated": "2026-09-11T00:05:01.853+05:30",
+  "updated": "2026-09-18T20:11:49.429+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 37278,
-  "sha256": "6055977d2045dca5f576fdcdd3ccaa58aaa081fa8038d09abdeddb346f6152a9",
+  "bytes": 37272,
+  "sha256": "b1c0687cf5d783dc40a66461c5b6944666abb250645fcb45fb464b979ac6d202",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -133,6 +133,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.0.5",
+      "date": "2026-09-18T14:42:19+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        37278,
+        37272
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
     }
   ]
 }

@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
   "slug": "brandsafway-and-2017-roll-up-wave-that",
   "published": "2026-08-30T17:58:26.000+05:30",
-  "updated": "2026-09-10T22:41:36.318+05:30",
+  "updated": "2026-09-26T17:02:31.378+05:30",
   "labels": [
+    "Corporate Finance & M&A",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 24938,
-  "sha256": "2d9d2a5f560077ff71dd91c44f1d04c2ff01cddbcb3339bd30833197733e51c9",
+  "bytes": 25504,
+  "sha256": "5c31230eb5c5f9df12de38e3a4c623823181e92a7e4256796fd103a38d2bf51d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.0.5",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        24938,
+        25504
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "id": "8688286946981926359",
+  "title": "India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html",
+  "slug": "indias-cotton-yield-fell-from-566-kg-to",
+  "published": "2026-09-27T10:35:29.000+05:30",
+  "updated": "2026-09-28T09:05:24.226+05:30",
+  "labels": [
+    "Agriculture & Fertilisers",
+    "Circularity & Waste-to-Value",
+    "Fertilisers & Soil Health",
+    "Seeds & Plant Genetics"
+  ],
+  "bytes": 38307,
+  "sha256": "0c42193383c95adfa019b4674ae0edfeca7d89178ed492b589d2f08781f917fb",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": false,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.1.1",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-27T05:05:41+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "New post: cotton yield decline, Kaala vs Bt cotton, soil fertility in MH/TN/MP, byproduct income (cottonseed oil/cake, stalk biogas)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-27T05:30:07+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+16/-0 distinct numbers))",
+      "bytes": [
+        32000,
+        38188
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Cotton article: added section on British colonial-era cotton (Berar) and sugarcane (Deccan canal) cultivation's soil-fertility/salinity legacy"
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-28T08:56:10+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        38188,
+        38307
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
+    }
+  ]
+}

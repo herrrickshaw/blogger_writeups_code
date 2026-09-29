@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html",
   "slug": "electrification-is-lngs-biggest",
   "published": "2026-09-14T14:29:55.000+05:30",
-  "updated": "2026-09-14T14:30:14.150+05:30",
+  "updated": "2026-09-27T18:44:59.001+05:30",
   "labels": [
     "Climate & Carbon",
-    "Gas & LNG"
+    "Gas & LNG",
+    "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 25006,
-  "sha256": "ea4b15cd609496ac871b7398a122e2276c780fcfd9a19bab9b7d4de571be0020",
+  "bytes": 28448,
+  "sha256": "aa6840b328df99dfa892695c6106876e285bb54d117ddd706ac303934eb0550b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +31,32 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: Electrification Is LNG's Biggest Decarbonization Lever. The Grid Is What Actually Limits It"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        25006,
+        28449
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
+    },
+    {
+      "version": "1.1.1",
+      "date": "2026-09-18T13:49:04+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28449,
+        28448
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
     }
   ]
 }

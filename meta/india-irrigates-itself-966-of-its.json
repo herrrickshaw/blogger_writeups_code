@@ -1,0 +1,48 @@
+{
+  "id": "997792963109853932",
+  "title": "India Irrigates Itself. 96.6% of Its Irrigation Schemes Are Privately Owned.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-irrigates-itself-966-of-its.html",
+  "slug": "india-irrigates-itself-966-of-its",
+  "published": "2026-09-17T08:17:32.000+05:30",
+  "updated": "2026-09-26T07:49:12.489+05:30",
+  "labels": [
+    "Agriculture & Fertilisers",
+    "Irrigation & Water Management"
+  ],
+  "bytes": 16140,
+  "sha256": "01691f174453d2f8fb20fd368507fde1dcca9fcb0532e8215a56d5f0ecaae4f5",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.1.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-17T02:47:44+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish Minor Irrigation Census piece (96.6% private, 94.8% groundwater) - next lit_review commission-queue item"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        16021,
+        16140
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    }
+  ]
+}

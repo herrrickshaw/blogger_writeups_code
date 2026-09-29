@@ -1,0 +1,74 @@
+{
+  "id": "4490239412864077844",
+  "title": "Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
+  "slug": "under-corsias-own-numbers-corn-ethanol",
+  "published": "2026-09-23T16:31:55.000+05:30",
+  "updated": "2026-09-24T09:05:11.950+05:30",
+  "labels": [
+    "Energy & Fuels",
+    "Ethanol & Biofuels"
+  ],
+  "bytes": 32911,
+  "sha256": "05242cdc3f3d70c369767d643719a149bf4f190ae6263a083b0b600daca2a16e",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.0.3",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-23T11:02:29+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-23T11:21:59+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        22216,
+        27027
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Amend the CORSIA/corn-ethanol post with recent ICAO/CORSIA data: confirmed ICAO's 8th edition default life-cycle emissions table was approved 19 November 2025 (methodology changes: IPCC 2019 factors, soil-carbon-accumulation credit removed, ATJ-ethanol energy yields refined, new POME HEFA default, broader feedstock coverage); updated Sustainability Certification Scheme approval dates (ISCC/RSB June 2023, ClassNK October 2024, Fourth Edition SCS list June 2026); and added a clarification distinguishing the fuel-eligibility baseline (89 gCO2e/MJ, this piece's subject) from CORSIA's separate sector-wide offsetting baseline (85% of 2019 emissions, 2027-2029 offsetting phase). Confirmed icao.int and a third-party mirror both remain blocked from this research environment on repeated attempts, so the exact revised corn-ethanol/molasses numeric values in the 8th edition could not be pulled directly -- flagged that gap explicitly rather than guessing at the numbers."
+    },
+    {
+      "version": "1.0.2",
+      "date": "2026-09-23T11:26:33+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        27027,
+        32792
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Amend the CORSIA/corn-ethanol post using a user-supplied SAF emissions calculator spreadsheet (built around IATA's SAF Accounting and Reporting Methodology, released 31 Jan 2025) and its cited sources. The spreadsheet gives maize a much lower, passing LCA default (43 gCO2e/MJ) than this piece's CORSIA/ISCC figure (90.8-100.6, failing) -- added a section reconciling this rather than silently overwriting either number: explained the IATA formula is a downstream accounting tool for airlines claiming credit on already-purchased SAF, not a CORSIA-eligibility gate, so a calculator populated with an optimistic literature LCA value can compute a real number that still overstates what CORSIA would actually certify. Cited the real academic literature range for corn-ethanol-ATJ (roughly 35-70 gCO2e/MJ across studies) to show the disagreement is real and methodological (ILUC treatment), not an error on either side. Added rice-straw and MSW feedstock data from the same spreadsheet with an independently-verified Punjab paddy-straw generation figure (~19-20 MMT/year). Flagged that the spreadsheet's own primary sources (IATA methodology PDF, WRI India SAF report) were confirmed to exist via search but could not be fetched directly, same as icao.int."
+    },
+    {
+      "version": "1.0.3",
+      "date": "2026-09-24T03:40:16+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        32792,
+        32911
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
+    }
+  ]
+}

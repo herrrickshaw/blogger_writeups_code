@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-fearless-girls-charter-indias.html",
   "slug": "the-fearless-girls-charter-indias",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-07T20:07:17.488+05:30",
+  "updated": "2026-09-18T19:50:37.604+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 28233,
-  "sha256": "98d6266c8863d86643deca821fb09fe16971c31be925fdaee5675f53f3d306e7",
+  "bytes": 28721,
+  "sha256": "f5f819ec53d6b8e4110d557a130f59ead5df1e74101969262bb588484e02d33b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.17",
+  "version": "1.0.18",
   "version_history": [
     {
       "version": "1.0.0",
@@ -260,6 +260,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.18",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        28233,
+        28721
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
     }
   ]
 }

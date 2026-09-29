@@ -1,17 +1,18 @@
 {
   "id": "4348565879124749641",
-  "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.",
+  "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-09-10T22:43:46.342+05:30",
+  "updated": "2026-09-28T16:18:46.160+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
-    "Industrial Policy"
+    "Industrial Policy",
+    "PLI Schemes"
   ],
-  "bytes": 21792,
-  "sha256": "b0701a12367f7057c8fc3f4766affbfb08717022f3fd640cc5dd4cd195cafe9c",
+  "bytes": 23284,
+  "sha256": "2fe80a3d0dce1156f819ccadddae59c6c3e12b25eaec258b6c37a54c90e93c79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +84,32 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.0.5",
+      "date": "2026-09-18T14:21:31+00:00",
+      "level": "patch",
+      "reason": "UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as",
+      "bytes": [
+        21792,
+        22523
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-09-27T05:27:47+00:00",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        22523,
+        23284
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
     }
   ]
 }

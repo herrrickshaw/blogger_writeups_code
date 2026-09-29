@@ -3,14 +3,14 @@
   "title": "ALIMCO, Jaipur Foot, and the Bionic Gap in India's Artificial-Limb System",
   "url": "https://masaladeutsch.blogspot.com/2026/09/alimco-jaipur-foot-and-bionic-gap-in.html",
   "slug": "alimco-jaipur-foot-and-bionic-gap-in",
-  "published": "2026-09-11T06:42:14.178+05:30",
-  "updated": "2026-09-11T06:42:14.178+05:30",
+  "published": "2026-09-11T06:42:14.000+05:30",
+  "updated": "2026-09-17T05:38:04.133+05:30",
   "labels": [
     "Defence",
     "Healthcare"
   ],
-  "bytes": 32963,
-  "sha256": "7b46709521bd60d8f6415eff9fb287e30d2695816be4804d152a1e173a28e584",
+  "bytes": 33805,
+  "sha256": "83dcf705fcd67c5c57b95267081d372cb82370217c1b98ba3fcc659ce3e6ebd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first publish",
       "note": "New post: India's artificial-limb system (ALIMCO, ADIP, BMVSS/Jaipur Foot, Artificial Limb Centre Pune) benchmarked against the verified global bionics/prosthetics company roster. Written per user request with an India-focused angle and independent re-verification of all facts (the initial request material cited only generic market-research aggregators). Includes one SVG chart (ADIP's Sept 2024 income-eligibility revision, +50% on both thresholds) and two comparison tables. Published as a Blogger draft first for review, then published live per explicit user instruction."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T00:15:56+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        32963,
+        33805
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add one inline SVG diagram and one Wikimedia Commons photo to the 27 posts that lacked one or both (mostly this session's recent pharma/petrochem/policy posts); every chart visualizes a figure already stated in that post's own text/tables, every image sourced via WebSearch-confirmed Commons filename+license. Also fixed 3 posts (indias-battery-storage-boom-is, the-50-tariff-and-234-one-untangling, the-solar-panel-recycling-opportunity) that failed the table-units-in-header standard by hoisting the repeated unit into the header row. Also syncs article-index-start-here's table-border fix, published earlier but not yet synced to posts/."
     }
   ]
 }

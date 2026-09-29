@@ -1,0 +1,47 @@
+{
+  "id": "7923442656260984117",
+  "title": "The Wage Beats the Crop — In the Survey That Leaves the Wage-Earners Out",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/the-wage-beats-crop-in-survey-that.html",
+  "slug": "the-wage-beats-crop-in-survey-that",
+  "published": "2026-09-17T08:25:01.000+05:30",
+  "updated": "2026-09-17T09:05:12.234+05:30",
+  "labels": [
+    "Agriculture & Fertilisers"
+  ],
+  "bytes": 16746,
+  "sha256": "df1779af288dc3f7aaa391f0846d3b2d1847ae4f89998d2c68691b0a4f6b1159",
+  "markers": {
+    "light_lock": false,
+    "dark_panel_guard": false,
+    "typo_unify": false,
+    "translate_widget": true,
+    "index_link": true,
+    "ai_disclosure": true,
+    "revision_line": true,
+    "inverted_media_query": false,
+    "disclaimer_in_script": false
+  },
+  "version": "1.1.0",
+  "version_history": [
+    {
+      "version": "1.0.0",
+      "date": "2026-09-17T02:55:13+00:00",
+      "level": "initial",
+      "reason": "first snapshot",
+      "note": "Publish NSS 77th Round agricultural-household wage-vs-crop-income piece - next lit_review commission-queue item"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-09-17T04:23:00+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        16627,
+        16746
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    }
+  ]
+}

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "slug": "priority-export-destinations-by-growth",
   "published": "2026-08-02T13:49:40.000+05:30",
-  "updated": "2026-09-09T08:39:19.081+05:30",
+  "updated": "2026-09-16T21:39:14.741+05:30",
   "labels": [
     "Trade & Tariffs"
   ],
-  "bytes": 40394,
-  "sha256": "215f0b53359952c7ae7ec4ba267f01d598b9d40a5feb78945907dea4fdbf9d5a",
+  "bytes": 40575,
+  "sha256": "0549f326a3c009c81bf688ee9464d427d570ce7305a317192b151393a3a941e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -242,6 +242,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-09-16T16:09:35+00:00",
+      "level": "minor",
+      "reason": "forced via --as minor (UNCLASSIFIED, defaulted to patch: posts/ already held the published body — edited in place, so no diff was possible; set the level with --as)",
+      "bytes": [
+        40394,
+        40575
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch."
     }
   ]
 }
