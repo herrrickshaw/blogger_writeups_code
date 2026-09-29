@@ -243,6 +243,10 @@ OVERRIDE = {
     "indias-oil-fields-are-running-down": ["Energy & Fuels", "Industrial Policy"],
     "pmfby-advertises-51-return-to-farmers": ["Agriculture & Fertilisers", "Industrial Policy"],
     "india-has-tested-its-soil-twice-second": ["Agriculture & Fertilisers"],
+    # Stylistic headings score nothing. Same pair as the sibling GST posts
+    # (who-collects-indias-gst-and-who, tamil-nadus-gst-gap-108-economy-growing).
+    # Manually labelled at publish time (2026-09-29) rather than run through --apply.
+    "one-nation-one-gst-rate-what-true-flat": ["Macroeconomics & Monetary Policy", "Trade & Tariffs"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
