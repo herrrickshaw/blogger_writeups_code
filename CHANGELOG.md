@@ -12927,3 +12927,16 @@ New post: One Nation, One GST Rate
 **Added**
 
 - `one-nation-one-gst-rate-what-true-flat` **v1.0.0** — One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One (26,723 bytes)
+
+## 2026-09-30T03:34:32+05:30 — 332 posts live
+
+New post: cocoa, vanilla and climate-driven prices
+
+
+**Added**
+
+- `cocoa-quintupled-then-gave-most-of-it` **v1.0.0** — Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90%. Only One of Those Is a Weather Story. (33,319 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `one-nation-one-gst-rate-what-true-flat` — 2026-09-29 &rarr; 2026-09-29
