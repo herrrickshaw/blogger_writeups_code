@@ -12918,3 +12918,12 @@ scheduled sync
 - `indias-display-fab-scheme-got-two` — 25,600 → 25,719 bytes (+119)
 - `india-mapped-12174-tariff-codes-to-31` — 23,843 → 23,962 bytes (+119)
 - `india-let-oil-companies-put-solar-on` — 28,427 → 28,546 bytes (+119)
+
+## 2026-09-29T17:37:37+05:30 — 331 posts live
+
+New post: One Nation, One GST Rate
+
+
+**Added**
+
+- `one-nation-one-gst-rate-what-true-flat` **v1.0.0** — One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One (26,723 bytes)
