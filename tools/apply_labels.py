@@ -247,6 +247,10 @@ OVERRIDE = {
     # (who-collects-indias-gst-and-who, tamil-nadus-gst-gap-108-economy-growing).
     # Manually labelled at publish time (2026-09-29) rather than run through --apply.
     "one-nation-one-gst-rate-what-true-flat": ["Macroeconomics & Monetary Policy", "Trade & Tariffs"],
+    # Rules score only Agriculture & Fertilisers, which drops the post's actual
+    # subject (climate-driven prices). Uses the three labels in its own eyebrow.
+    # Manually labelled at publish time (2026-09-30) rather than run through --apply.
+    "cocoa-quintupled-then-gave-most-of-it": ["Agriculture & Fertilisers", "Climate & Carbon", "Trade & Tariffs"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
