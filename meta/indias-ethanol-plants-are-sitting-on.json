@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html",
   "slug": "indias-ethanol-plants-are-sitting-on",
   "published": "2026-09-28T16:47:52.000+05:30",
-  "updated": "2026-09-28T16:48:08.000+05:30",
+  "updated": "2026-09-29T09:05:35.438+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 24029,
-  "sha256": "f101cdf9a2f869a69a8eb5a6250e777fa440e44ad3d29f63dc8aa75e8d72c164",
+  "bytes": 24148,
+  "sha256": "3e9fcc3a563ceb75eebd533b6ddee80dd0d23174413cd4647961f2b61a804ed4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Two new posts: GAIL/Sumitomo/BPCL CBG deal-progress comparison; ethanol-CO2-to-oleoresin-extraction synergy piece. Also skipped the originally-planned 'CBG gazette-trail' topic as substantially duplicative of the existing bio-fertiliser-and-green-credits piece, folding its one new finding (Adani/Reliance named in the Dec 2025 batch) into that post instead."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-29T08:59:35+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        24029,
+        24148
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

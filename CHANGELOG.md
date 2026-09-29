@@ -12893,3 +12893,28 @@ Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 releas
 
 - `india-pays-5-8-billion-year-to-ship-its` **v1.0.0** — India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel. (18,942 bytes)
 - `indias-live-ipo-queue-has-232-companies` **v1.0.0** — India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1. (20,402 bytes)
+
+## 2026-09-29T08:59:35+00:00 — 330 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `india-pays-5-8-billion-year-to-ship-its` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-live-ipo-queue-has-232-companies` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-ethanol-plants-are-sitting-on` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `gail-and-sumitomo-both-turned-their` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `indias-display-fab-scheme-got-two` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-mapped-12174-tariff-codes-to-31` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `india-let-oil-companies-put-solar-on` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `india-pays-5-8-billion-year-to-ship-its` — 18,942 → 19,061 bytes (+119)
+- `indias-live-ipo-queue-has-232-companies` — 20,402 → 20,521 bytes (+119)
+- `indias-ethanol-plants-are-sitting-on` — 24,029 → 24,148 bytes (+119)
+- `gail-and-sumitomo-both-turned-their` — 20,369 → 20,488 bytes (+119)
+- `indias-display-fab-scheme-got-two` — 25,600 → 25,719 bytes (+119)
+- `india-mapped-12174-tariff-codes-to-31` — 23,843 → 23,962 bytes (+119)
+- `india-let-oil-companies-put-solar-on` — 28,427 → 28,546 bytes (+119)

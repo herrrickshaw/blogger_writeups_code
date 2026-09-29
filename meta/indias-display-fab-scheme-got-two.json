@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html",
   "slug": "indias-display-fab-scheme-got-two",
   "published": "2026-09-28T16:18:19.000+05:30",
-  "updated": "2026-09-28T16:18:33.000+05:30",
+  "updated": "2026-09-29T09:05:50.205+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 25600,
-  "sha256": "c71e74e8813eabe970ec3b0c50740681b85e30e1ddde8b55aca9139162577632",
+  "bytes": 25719,
+  "sha256": "d14763bd9f84b1947a03d1c6d4c23ea79ae30cbebef760720dfd75fa7dad2198",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Two new posts: DPIIT HSN-ministry mapping residual list; Display Fab Scheme's zero-winner record. Also fixes a stale post-title metadata mismatch found on indias-mobile-phone-pli-beat-every (title said 3 of 12, body already said 5 of 12 since the 27 Sept sweep)."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-29T08:59:35+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        25600,
+        25719
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
   "slug": "india-let-oil-companies-put-solar-on",
   "published": "2026-09-28T15:57:52.000+05:30",
-  "updated": "2026-09-28T15:58:07.000+05:30",
+  "updated": "2026-09-29T09:06:05.431+05:30",
   "labels": [
     "Energy & Fuels",
     "Oil & Gas Exploration",
     "Renewable Power & Storage"
   ],
-  "bytes": 28427,
-  "sha256": "5dfa48e778e7c1ea4286e2db391f06ebfaed1f0b9d731205f8bbcabd83c51285",
+  "bytes": 28546,
+  "sha256": "7610f094e910c65ad6fe8304ed15ccd4f5dd1e30cb0b677cbf5d420c65402426",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: ORDA 2025 / ONGC oilfield-solar piece — what the amendment actually changed, and how little of ONGC's own land has been converted since"
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-29T08:59:35+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        28427,
+        28546
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }

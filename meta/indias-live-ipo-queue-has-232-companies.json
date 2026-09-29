@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
   "slug": "indias-live-ipo-queue-has-232-companies",
   "published": "2026-09-28T16:58:26.000+05:30",
-  "updated": "2026-09-28T16:58:39.000+05:30",
+  "updated": "2026-09-29T09:05:27.665+05:30",
   "labels": [
     "Equity Markets & Stock Screening",
     "Markets & Finance",
     "Renewable Power & Storage"
   ],
-  "bytes": 20402,
-  "sha256": "73687383a00cbb6ca2aa940f18f351e9822e1ee1ec234173f71c52417071b385",
+  "bytes": 20521,
+  "sha256": "cb8d076db11d1e10b3cafcec1f956a1daf355202d609a3e93d221658b95996da",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Two new posts: India's oil-freight/Korea shipbuilding piece (PIB Nov 2025 release); SEBI mainboard IPO pipeline sectoral comparison (Power & Renewables vs Oil & Gas)."
+    },
+    {
+      "version": "1.0.1",
+      "date": "2026-09-29T08:59:35+00:00",
+      "level": "patch",
+      "reason": "visible text identical; only markup/styling changed",
+      "bytes": [
+        20402,
+        20521
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "scheduled sync"
     }
   ]
 }
