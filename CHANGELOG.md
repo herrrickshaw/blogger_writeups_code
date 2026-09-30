@@ -12953,3 +12953,12 @@ New post: diamond polishing powder and lab-grown diamonds
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `cocoa-quintupled-then-gave-most-of-it` — 2026-09-30 &rarr; 2026-09-30
+
+## 2026-09-30T06:05:54+05:30 — 334 posts live
+
+New post: diamond polishing powder and lab-grown diamonds
+
+
+**Added**
+
+- `india-polishes-worlds-diamonds-with_01635124664` **v1.0.0** — India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That. (26,429 bytes)
