@@ -251,6 +251,13 @@ OVERRIDE = {
     # subject (climate-driven prices). Uses the three labels in its own eyebrow.
     # Manually labelled at publish time (2026-09-30) rather than run through --apply.
     "cocoa-quintupled-then-gave-most-of-it": ["Agriculture & Fertilisers", "Climate & Carbon", "Trade & Tariffs"],
+    # Both score only Trade & Tariffs from their headings; each uses the three
+    # labels in its own eyebrow. Manually labelled at publish time (2026-09-30).
+    "india-polishes-worlds-diamonds-with": ["Import Substitution", "Trade & Tariffs", "Industrial Policy"],
+    "india-sells-world-about-third-of-its": ["Trade & Tariffs", "Agriculture & Fertilisers", "Industrial Policy"],
+    # Accidental duplicate of the diamond post from a second insert run; being
+    # deleted. Never label it, whatever order delete and --apply run in.
+    "india-polishes-worlds-diamonds-with_01635124664": [],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
