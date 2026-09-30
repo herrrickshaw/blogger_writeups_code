@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-09-30T06:05:54+05:30",
+  "snapshot": "2026-09-30T06:13:15+05:30",
   "count": 334,
   "posts": {
     "1023631151138981087": {
@@ -25363,38 +25363,6 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
-        }
-      ]
-    },
-    "484900990666090881": {
-      "id": "484900990666090881",
-      "title": "India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.",
-      "url": "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with_01635124664.html",
-      "slug": "india-polishes-worlds-diamonds-with_01635124664",
-      "published": "2026-09-30T06:05:36.099+05:30",
-      "updated": "2026-09-30T06:05:36.099+05:30",
-      "labels": [],
-      "bytes": 26429,
-      "sha256": "fbddabd3eb15e94f4f443bd433b152ea693711d26f7507b974e9bca710727899",
-      "markers": {
-        "light_lock": false,
-        "dark_panel_guard": false,
-        "typo_unify": false,
-        "translate_widget": true,
-        "index_link": true,
-        "ai_disclosure": true,
-        "revision_line": false,
-        "inverted_media_query": false,
-        "disclaimer_in_script": false
-      },
-      "version": "1.0.0",
-      "version_history": [
-        {
-          "version": "1.0.0",
-          "date": "2026-09-30T06:05:54+05:30",
-          "level": "initial",
-          "reason": "first snapshot",
-          "note": "New post: diamond polishing powder and lab-grown diamonds"
         }
       ]
     },
@@ -51826,6 +51794,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Fixed OVERFLOW-RIGHT (\"₹3.5 lakh cr\" OMO-purchases label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+        }
+      ]
+    },
+    "8608503945202807238": {
+      "id": "8608503945202807238",
+      "title": "India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.",
+      "url": "https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html",
+      "slug": "india-sells-world-about-third-of-its",
+      "published": "2026-09-30T06:12:49.622+05:30",
+      "updated": "2026-09-30T06:12:49.622+05:30",
+      "labels": [],
+      "bytes": 25238,
+      "sha256": "32bfb613e10f08719b7cfba8be4ebb483e13f11b9d50eefad701fd86bce9d802",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-09-30T06:13:15+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Delete duplicate diamond post; new post: oleoresin market"
         }
       ]
     },

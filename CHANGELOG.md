@@ -12962,3 +12962,16 @@ New post: diamond polishing powder and lab-grown diamonds
 **Added**
 
 - `india-polishes-worlds-diamonds-with_01635124664` **v1.0.0** — India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That. (26,429 bytes)
+
+## 2026-09-30T06:13:15+05:30 — 334 posts live
+
+Delete duplicate diamond post; new post: oleoresin market
+
+
+**Added**
+
+- `india-sells-world-about-third-of-its` **v1.0.0** — India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One. (25,238 bytes)
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `india-polishes-worlds-diamonds-with_01635124664` — India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.
