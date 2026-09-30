@@ -12975,3 +12975,13 @@ Delete duplicate diamond post; new post: oleoresin market
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `india-polishes-worlds-diamonds-with_01635124664` — India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.
+
+## 2026-09-30T08:58:29+00:00 — 334 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-sells-world-about-third-of-its` — 2026-09-30 &rarr; 2026-09-30
+- `india-polishes-worlds-diamonds-with` — 2026-09-30 &rarr; 2026-09-30
