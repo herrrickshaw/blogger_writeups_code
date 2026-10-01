@@ -263,6 +263,9 @@ OVERRIDE = {
     # Cotton-stalk / crop-residue biogas post (2026-10-01):
     # slug as published (v1.0.0, 2026-10-01).
     "cotton-stalk-is-one-of-hardest-crop": ["Agriculture & Fertilisers", "Energy & Fuels", "Climate & Carbon"],
+    # Pyrolysis thermodynamics / staged catalysis post (2026-10-01):
+    # expected slug; confirm against the insert output.
+    "making-plastic-releases-heat-unmaking": ["Energy & Fuels", "Industrial Policy", "Climate & Carbon"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
