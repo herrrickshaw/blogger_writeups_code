@@ -13666,3 +13666,16 @@ Crop-residue biogas: sugarcane trash and maize stover
 **Changed**
 
 - `cotton-stalk-is-one-of-hardest-crop` — 38,693 → 45,596 bytes (+6,903)
+
+## 2026-10-01T23:36:25+05:30 — 336 posts live
+
+Crop-residue biogas: pulse and soybean residues
+
+
+**Versions**
+
+- `cotton-stalk-is-one-of-hardest-crop` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+10/-0 distinct numbers))
+
+**Changed**
+
+- `cotton-stalk-is-one-of-hardest-crop` — 45,596 → 50,100 bytes (+4,504)
