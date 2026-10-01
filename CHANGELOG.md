@@ -13653,3 +13653,16 @@ Crop-residue biogas: per-crop yields, pretreatments, paddy and wheat straw
 **Changed**
 
 - `cotton-stalk-is-one-of-hardest-crop` — 27,818 → 38,693 bytes (+10,875)
+
+## 2026-10-01T23:30:12+05:30 — 336 posts live
+
+Crop-residue biogas: sugarcane trash and maize stover
+
+
+**Versions**
+
+- `cotton-stalk-is-one-of-hardest-crop` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+31/-1 distinct numbers))
+
+**Changed**
+
+- `cotton-stalk-is-one-of-hardest-crop` — 38,693 → 45,596 bytes (+6,903)

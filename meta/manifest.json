@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-01T23:26:06+05:30",
+  "snapshot": "2026-10-01T23:30:12+05:30",
   "count": 336,
   "posts": {
     "1023631151138981087": {
@@ -34647,10 +34647,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
       "slug": "cotton-stalk-is-one-of-hardest-crop",
       "published": "2026-10-01T23:13:12.000+05:30",
-      "updated": "2026-10-01T23:25:45.070+05:30",
-      "labels": [],
-      "bytes": 38693,
-      "sha256": "c5326338bcd88e50383dba74966239f2bc76c8162f4829014e9886783a3744ef",
+      "updated": "2026-10-01T23:29:56.058+05:30",
+      "labels": [
+        "Agriculture & Fertilisers",
+        "Climate & Carbon",
+        "Energy & Fuels"
+      ],
+      "bytes": 45596,
+      "sha256": "1b050829b81f2b2f3a5d4916eff3f507d0213b6c826329711f24f7c95f5230e0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -34662,7 +34666,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -34683,6 +34687,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Crop-residue biogas: per-crop yields, pretreatments, paddy and wheat straw"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-01T23:30:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+31/-1 distinct numbers))",
+          "bytes": [
+            38693,
+            45596
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Crop-residue biogas: sugarcane trash and maize stover"
         }
       ]
     },
