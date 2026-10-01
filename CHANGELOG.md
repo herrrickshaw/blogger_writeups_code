@@ -13640,3 +13640,16 @@ New post: cotton stalk and crop-residue biogas for depleted soils
 **Added**
 
 - `cotton-stalk-is-one-of-hardest-crop` **v1.0.0** — Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need. (27,818 bytes)
+
+## 2026-10-01T23:26:06+05:30 — 336 posts live
+
+Crop-residue biogas: per-crop yields, pretreatments, paddy and wheat straw
+
+
+**Versions**
+
+- `cotton-stalk-is-one-of-hardest-crop` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+43/-0 distinct numbers))
+
+**Changed**
+
+- `cotton-stalk-is-one-of-hardest-crop` — 27,818 → 38,693 bytes (+10,875)
