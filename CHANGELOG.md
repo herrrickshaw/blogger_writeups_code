@@ -13631,3 +13631,12 @@ Road cess post: highway-cost yardsticks and per-km EV cess equivalent
 **Changed**
 
 - `every-litre-of-petrol-pays-5-for-roads` — 32,824 → 39,685 bytes (+6,861)
+
+## 2026-10-01T23:13:35+05:30 — 336 posts live
+
+New post: cotton stalk and crop-residue biogas for depleted soils
+
+
+**Added**
+
+- `cotton-stalk-is-one-of-hardest-crop` **v1.0.0** — Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need. (27,818 bytes)
