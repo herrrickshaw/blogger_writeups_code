@@ -1,0 +1,245 @@
+<div style="max-width:760px;margin:0 auto;font-family:Georgia,'Times New Roman',serif;color:#212529;background:#fff;line-height:1.7;font-size:17px">
+
+<style>
+.gb-card{background:#f8f9fa;border:1px solid #dee2e6;border-radius:12px;padding:1.25rem 1.5rem;margin:1.5rem 0;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+.gb-table{border-collapse:collapse;width:100%;font-size:.85em;font-family:-apple-system,'Segoe UI',sans-serif;margin:1.25rem 0}
+.gb-table thead th{background:#212529;color:#fff;padding:.5rem .75rem;text-align:left;white-space:nowrap}
+.gb-table td{padding:.5rem .75rem;border-bottom:1px solid #dee2e6;color:#212529;word-wrap:break-word}
+.gb-table tbody tr:nth-child(even){background:#f8f9fa}
+.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}
+.gb-kicker{font-family:-apple-system,'Segoe UI',sans-serif;text-transform:uppercase;letter-spacing:.12em;font-size:.72em;color:#868e96;margin-bottom:.5rem}
+.gb-h2{font-family:-apple-system,'Segoe UI',sans-serif;font-weight:700;font-size:1.35em;margin:2.2rem 0 .8rem;color:#212529;letter-spacing:-.01em}
+.gb-note{font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;line-height:1.5}
+.gb-pull{border-left:4px solid #212529;padding:.25rem 0 .25rem 1.25rem;margin:1.75rem 0;font-size:1.15em;font-style:italic;color:#495057}
+.gb-related{background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em}
+.gb-related a{color:#0b5394}
+
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4;font-size:1.1em;color:#495057"><em>Two data sources have anchored most of this site's recent research: FBIL's reference rates behind every currency-volatility figure, and DGCI&amp;S TradeStat behind every import/export number. They've never been combined directly. This piece asks the obvious question sitting between them &mdash; does a trading partner's currency volatility actually predict anything about the shape of India's trade with that partner &mdash; using the five-country dataset already built for the rupee-trade series.</em></p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&larr; All Articles (Index)</a></div>
+<div class="gb-kicker" style="order:2">Currency Markets &middot; India Trade &amp; Policy &middot; 14 August 2026</div>
+<h1 style="order:3;font-family:-apple-system,'Segoe UI',sans-serif;font-weight:800;font-size:2em;line-height:1.2;letter-spacing:-.02em;margin:.25rem 0 1rem">FBIL Rates vs. TradeStat Volumes: Does FX Volatility Actually Predict Trade Imbalance?</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<text x="350" y="28" text-anchor="middle" font-size="17" font-weight="700" fill="#212529" font-family="-apple-system,'Segoe UI',sans-serif">FX Volatility vs. Import/Export Ratio, Five Partners</text>
+<text x="350" y="46" text-anchor="middle" font-size="11" fill="#868e96" font-family="-apple-system,'Segoe UI',sans-serif">n=5, correlation +0.88 (drops to ~0 excluding Russia)</text>
+
+
+<line x1="80" y1="320" x2="660" y2="320" stroke="#212529" stroke-width="1.2" />
+<line x1="80" y1="40" x2="80" y2="320" stroke="#212529" stroke-width="1.2" />
+
+
+<g font-size="10" fill="#868e96" font-family="-apple-system,'Segoe UI',sans-serif">
+<line x1="80" y1="320" x2="80" y2="325" /><text x="80" y="336" text-anchor="middle">0%</text>
+<line x1="185.5" y1="320" x2="185.5" y2="325" /><text x="185.5" y="336" text-anchor="middle">10%</text>
+<line x1="291" y1="320" x2="291" y2="325" /><text x="291" y="336" text-anchor="middle">20%</text>
+<line x1="396.4" y1="320" x2="396.4" y2="325" /><text x="396.4" y="336" text-anchor="middle">30%</text>
+<line x1="501.8" y1="320" x2="501.8" y2="325" /><text x="501.8" y="336" text-anchor="middle">40%</text>
+<line x1="607.3" y1="320" x2="607.3" y2="325" /><text x="607.3" y="336" text-anchor="middle">50%</text>
+</g>
+<text x="370" y="360" text-anchor="middle" font-size="12" fill="#495057" font-family="-apple-system,'Segoe UI',sans-serif">FX annualised volatility (10-year)</text>
+
+
+<g font-size="10" fill="#868e96" font-family="-apple-system,'Segoe UI',sans-serif" text-anchor="end">
+<line x1="75" y1="320" x2="80" y2="320" /><text x="72" y="323">0&#215;</text>
+<line x1="75" y1="255" x2="80" y2="255" /><text x="72" y="258">3&#215;</text>
+<line x1="75" y1="190" x2="80" y2="190" /><text x="72" y="193">6&#215;</text>
+<line x1="75" y1="125" x2="80" y2="125" /><text x="72" y="128">9&#215;</text>
+<line x1="75" y1="60" x2="80" y2="60" /><text x="72" y="63">12&#215;</text>
+</g>
+<text x="26" y="180" text-anchor="middle" font-size="12" fill="#495057" font-family="-apple-system,'Segoe UI',sans-serif" transform="rotate(-90 26 180)">Import/export ratio</text>
+
+
+
+<circle cx="154.1" cy="174.4" r="6" fill="#0b5794" />
+<text x="154.1" y="160" text-anchor="middle" font-size="11" fill="#212529">China</text>
+
+<circle cx="143.3" cy="283.2" r="6" fill="#0b5794" />
+<text x="143.3" y="269" text-anchor="middle" font-size="11" fill="#212529">UAE</text>
+
+<circle cx="143.3" cy="306.9" r="6" fill="#0b5794" />
+<text x="120" y="308" text-anchor="middle" font-size="11" fill="#212529">USA</text>
+
+<circle cx="181.4" cy="255.6" r="6" fill="#0b5794" />
+<text x="181.4" y="241" text-anchor="middle" font-size="11" fill="#212529">Saudi Arabia</text>
+
+<circle cx="630.7" cy="54.6" r="8" fill="#1a8f4c" />
+<text x="608" y="42" text-anchor="middle" font-size="12" font-weight="700" fill="#1a8f4c">Russia</text>
+
+<text x="660" y="350" text-anchor="end" font-size="9.5" fill="#868e96" font-family="-apple-system,'Segoe UI',sans-serif">Source: FBIL reference rates &amp; DGCI&amp;S TradeStat, FY2025-26</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">FX volatility vs. import/export ratio across India's five studied trading partners — the +0.88 correlation is almost entirely Russia.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="gb-h2">1. The dataset: five countries, both sides already sourced</div>
+<p>Two prior pieces on this site independently built the two halves of this dataset without ever putting them in the same table. "Where the Rupee Actually Stands" computed 10-year annualised FX volatility for INR against China, UAE, Russia, USA and Saudi Arabia. "Can Rupee Trade Actually Offset..." pulled full import and export values for the same five countries from DGCI&amp;S TradeStat. Combined:</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_01.jpg/960px-Tower_and_building_of_Reserve_Bank_of_India%2C_Mumbai_01.jpg" alt="The Reserve Bank of India's tower in Mumbai, the institution behind the FBIL reference rates this piece tests against trade volumes" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">The Reserve Bank of India in Mumbai; RBI-promoted FBIL publishes the reference rates this piece checks against DGCI&amp;S trade-imbalance data. <a href="https://commons.wikimedia.org/wiki/File:Tower_and_building_of_Reserve_Bank_of_India,_Mumbai_01.jpg" rel="noopener noreferrer">Tower and building of Reserve Bank of India, Mumbai</a>, Pinakpani, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>Partner</th><th>Imports (FY25-26, $M)</th><th>Exports (FY25-26, $M)</th><th>Trade balance</th><th>Import/export ratio</th><th>FX ann. volatility</th></tr></thead>
+<tbody>
+<tr><td>China</td><td>131,620.29</td><td>19,471.08</td><td>&#8722;$112.1bn</td><td>6.76&times;</td><td>7.03%</td></tr>
+<tr><td>UAE</td><td>63,888.81</td><td>37,359.11</td><td>&#8722;$26.5bn</td><td>1.71&times;</td><td>6.01%</td></tr>
+<tr><td>Russia</td><td>55,363.11</td><td>4,493.51</td><td>&#8722;$50.9bn</td><td>12.32&times;</td><td>52.25%</td></tr>
+<tr><td>USA</td><td>53,453.22</td><td>87,312.75</td><td>+$33.9bn</td><td>0.61&times;</td><td>6.00%</td></tr>
+<tr><td>Saudi Arabia</td><td>30,790.22</td><td>10,281.13</td><td>&#8722;$20.5bn</td><td>2.99&times;</td><td>9.62%</td></tr>
+</tbody>
+</table></div>
+<p class="gb-note">Trade figures from DGCI&amp;S TradeStat as reported in "Can Rupee Trade Actually Offset the Inflation India Is Importing?". FX volatility as derived in "Where the Rupee Actually Stands." Import/export ratio = imports &divide; exports; higher means more lopsided in India's deficit direction.</p>
+
+
+<div class="gb-h2">2. What correlates with what, honestly</div>
+<p>With five data points, nothing here rises to statistical significance &mdash; this section reports simple correlation coefficients across the five countries as a descriptive exercise, not a validated model, and says so at every step rather than dressing up n=5 as more than it is.</p>
+<div class="gb-tblwrap"><table class="gb-table">
+<thead><tr><th>FX volatility vs...</th><th>Correlation (n=5)</th><th>Correlation, ex-Russia (n=4)</th></tr></thead>
+<tbody>
+<tr><td>Import value</td><td>&minus;0.20</td><td>&minus;0.35</td></tr>
+<tr><td>Absolute trade imbalance ($)</td><td>+0.02</td><td>&minus;0.16</td></tr>
+<tr><td>Total trade volume (imports+exports)</td><td>&minus;0.50</td><td>&mdash;</td></tr>
+<tr><td>Import/export ratio</td><td><strong>+0.88</strong></td><td>weak/unstable</td></tr>
+</tbody>
+</table></div>
+<div class="gb-card">
+<p style="margin:0"><strong>The one strong number here is almost entirely one country.</strong> Volatility correlates strongly (+0.88) with how lopsided the trade relationship is &mdash; but that correlation is carried overwhelmingly by Russia, which sits at both extremes simultaneously: the most volatile currency in the set (52.25%, sanctions-driven) and the most import-heavy relationship (12.3&times; more imports than exports, the "rupee trap" documented in the rupee-trade companion piece). Drop Russia and the remaining four-country correlation becomes unstable and not meaningfully different from zero. This is not a case of "the relationship holds even after removing the outlier" &mdash; it's closer to the opposite: one genuinely extreme case is generating what looks like a pattern across five points.</p>
+</div>
+
+<div class="gb-h2">3. What actually doesn't correlate, and why that's the more interesting finding</div>
+<p>Raw trade size &mdash; import value, total volume, absolute imbalance &mdash; shows weak-to-negative correlation with currency volatility across this set. China is the clearest case: the single largest, most lopsided import relationship in dollar terms (&minus;$112.1bn, 6.76&times; ratio) sits against a currency (CNY) with volatility barely above the dollar's own (7.03% vs 6.00%) &mdash; nowhere near Russia's regime. The size of a trade imbalance and the volatility of the currency behind it are, in this dataset, largely independent facts. That matters for how "currency risk" gets talked about in trade-policy commentary: a country can be by far India's largest and most lopsided trading partner without that relationship carrying meaningful FX volatility at all, and a much smaller relationship (Russia, 5th by import value) can carry by far the largest currency risk.</p>
+<div class="gb-pull">The countries India owes the most money to are not the countries whose currencies actually swing the most. Those are two separate risks, and this dataset shows them barely touching.</div>
+
+<div class="gb-h2">4. Why this decouples "trade exposure" from "currency exposure" as separate risk categories</div>
+<p>Put together, Sections 2 and 3 argue for treating trade-balance risk and FX-volatility risk as genuinely separate axes when assessing any single partner, rather than assuming a country India buys heavily from is automatically a country whose currency is dangerous to be exposed to (or vice versa). On that reading:</p>
+<ul>
+<li><strong>China</strong>: high trade-exposure risk (scale, concentration, the steepening-yuan-slide trend already documented in the TEPA and rupee-trends pieces), low currency-volatility risk in the narrow FX sense.</li>
+<li><strong>Russia</strong>: moderate trade-exposure risk by dollar value, but the single highest currency-volatility risk in the set by a wide margin &mdash; exactly why the rupee-settlement infrastructure exists there first.</li>
+<li><strong>UAE, Saudi Arabia</strong>: moderate trade exposure, low currency risk (both hard- or near-hard-pegged to the dollar, per the rupee-trends piece).</li>
+<li><strong>USA</strong>: the one relationship in the set with a trade surplus for India, and low currency risk &mdash; the "safe" quadrant on both axes.</li>
+</ul>
+
+
+<h2 class="gb-h2">What would fix this</h2>
+<ul>
+<li><b>FBIL should publish a free, downloadable daily history of every reference rate it computes, and add rates for the currencies of India's largest trading partners where it does not yet cover them</b>, so currency volatility can be measured from an official Indian source rather than Yahoo Finance closes.</li>
+<li><b>DGCI&amp;S should add an invoicing-currency breakdown to TradeStat's country-wise trade tables</b>, so the currency exposure behind each partner's imports and exports can be measured directly instead of being proxied by the volatility of that partner's home currency.</li>
+<li><b>The RBI should publish quarterly, by partner country, the value of trade settled in rupees under its rupee-settlement arrangements</b>, so the Russia &ldquo;rupee trap&rdquo; &mdash; 12.3 times more imports than exports &mdash; can be followed over time rather than inferred from a single year's totals.</li>
+<li><b>DGCI&amp;S should offer a bulk download of monthly country-wise import and export values for all partners across all years in TradeStat</b>, so analyses like this one can move beyond five countries and one year, the sample limit this post concedes cannot support a reliable correlation.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<div class="gb-card">
+<p style="margin:0"><strong>What this piece does not establish.</strong> Five data points cannot support a causal or even a statistically reliable correlational claim; every coefficient reported here should be read as descriptive pattern-spotting within this specific dataset, not as evidence FX volatility drives (or is driven by) trade-imbalance size in general. Extending this to more of India's trading partners, or to a longer time series, would be needed before treating the +0.88 correlation as more than an artefact of Russia's dual extremity.</p>
+</div>
+
+<div class="gb-related">
+<strong>Related on this blog:</strong>
+<a href="https://masaladeutsch.blogspot.com/2026/08/where-rupee-actually-stands-ten-years.html">Where the Rupee Actually Stands</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html">Can Rupee Trade Actually Offset the Inflation India Is Importing?</a> &middot;
+<a href="https://masaladeutsch.blogspot.com/2026/08/the-currency-rupee-trends-piece-left.html">The Currency the Rupee-Trends Piece Left Out (INR/JPY)</a>
+</div>
+
+<div class="gb-card gb-note">
+<strong style="color:#212529">Documents &amp; sources</strong> &middot; FX volatility figures as derived in "Where the Rupee Actually Stands" (Yahoo Finance daily closes, 10-year annualised standard deviation of returns). Trade values as sourced in "Can Rupee Trade Actually Offset the Inflation India Is Importing?" from DGCI&amp;S TradeStat, Country-wise all Commodities report, FY2025-26. Correlation coefficients computed directly from this combined five-row dataset for this piece; treat as descriptive only given the small sample. Nothing here is investment advice.
+</div>
+
+</div>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

@@ -1,0 +1,390 @@
+<div class="artx gpx">
+<style>/*gs-typo-unify-v1*/
+.gpx{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.gpx h1,.gpx h2,.gpx h3{line-height:1.3}
+.gpx p,.gpx li{max-width:38rem}
+.gpx .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.gpx h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.gpx .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.gpx h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.gpx .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.gpx h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.gpx .stats{display:grid;gap:0 2rem;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));margin:1.8rem 0}
+.gpx .stat{padding:.85rem 0;border-top:1px solid #e2e2e2}
+.gpx .stat b{display:block;font-size:1.9rem;line-height:1;color:#8a4b08;margin-bottom:.3rem;font-weight:400}
+.gpx .stat span{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;display:block;line-height:1.35}
+.gpx .exhibit{margin:2.2rem 0}
+.gpx .exno{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.69rem;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:#0a4c6a;margin:0 0 .25rem}
+.gpx .extitle{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1.12rem;font-weight:700;line-height:1.3;margin:0 0 .15rem;max-width:46ch}
+.gpx .exsub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.94rem;font-style:italic;color:#595959;margin:0 0 .8rem;max-width:52ch}
+.gpx .exsrc{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#595959;line-height:1.45;margin:.6rem 0 0}
+.gpx .tw{overflow-x:auto}
+.gpx table{width:auto;min-width:100%;border-collapse:collapse;font-size:.85rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gpx thead th{text-align:right;font-weight:600;font-size:.7rem;letter-spacing:.05em;text-transform:uppercase;color:#595959;border-bottom:1px solid #000;padding:.45rem .65rem;vertical-align:bottom}
+.gpx thead th:first-child,.gpx tbody td:first-child{text-align:left}
+.gpx tbody td{text-align:right;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9;font-variant-numeric:tabular-nums}
+/* The .tw scroller only engages if the table is allowed to exceed it. With
+   width:100% the table shrank to fit and rows grew to 8 lines on a phone. */
+.gpx th,.gpx td{white-space:nowrap}
+.gpx tbody tr:last-child td{border-bottom:1px solid #000}
+.gpx tbody tr.hl td{background:#f6f4ef;font-weight:600}
+.gpx .note,.gpx .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.gpx .warn{border-left-color:#db2b27}
+.gpx a{color:#12408f}
+.gpx .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.gpx .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.gpx .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.gpx img,.gpx svg{max-width:100%;height:auto}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">Extending this blog&rsquo;s WPI and CPI work across borders runs into a problem before it reaches a finding: almost no other country publishes a wholesale price index, and the one harmonised international series that allowed the comparison was discontinued in 2022. What survives the methodology check is still worth having &mdash; the producer-side boom and bust of 2021&ndash;24 was universal in shape, the 2026 turn is universal too &mdash; with the United States turning hardest, not India &mdash; and India&rsquo;s consumer inflation has quietly become one of the lowest in the G20.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">Prices &middot; International comparison &middot; Statistical method</p>
+<h1 style="order:3">India&rsquo;s Wholesale Prices Next to Everyone Else&rsquo;s</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<text x="35" y="38" font-size="19" fill="#1a1a1a" font-weight="bold">The 2026 producer-price turn: US hardest, not India</text>
+<text x="35" y="59" font-size="12.5" fill="#595959" font-style="italic">Year-on-year producer-price inflation, April 2026, by national statistical office</text>
+
+
+<line x1="180" y1="90" x2="180" y2="330" stroke="#c7cbd1" stroke-width="1" />
+
+
+
+<rect x="180" y="98" width="432" height="34" fill="#0b5794" />
+<text x="622" y="121" font-size="15" fill="#1a1a1a" font-weight="bold">+9.4%</text>
+<text x="170" y="121" font-size="13.5" fill="#1a1a1a" text-anchor="end">United States</text>
+
+
+<rect x="180" y="140" width="381" height="34" fill="#8a4b08" />
+<text x="571" y="163" font-size="15" fill="#1a1a1a" font-weight="bold">+8.3%</text>
+<text x="170" y="163" font-size="13.5" fill="#1a1a1a" text-anchor="end" font-weight="bold">India</text>
+
+
+<rect x="180" y="182" width="331" height="34" fill="#0b5794" />
+<text x="521" y="205" font-size="15" fill="#1a1a1a" font-weight="bold">+7.2%</text>
+<text x="170" y="205" font-size="13.5" fill="#1a1a1a" text-anchor="end">Korea</text>
+
+
+<rect x="180" y="224" width="248" height="34" fill="#0b5794" />
+<text x="438" y="247" font-size="15" fill="#1a1a1a" font-weight="bold">+5.4%</text>
+<text x="170" y="247" font-size="13.5" fill="#1a1a1a" text-anchor="end">Japan</text>
+
+
+<rect x="180" y="266" width="188" height="34" fill="#0b5794" />
+<text x="378" y="289" font-size="15" fill="#1a1a1a" font-weight="bold">+4.1%</text>
+<text x="170" y="289" font-size="13.5" fill="#1a1a1a" text-anchor="end">Euro area</text>
+
+
+<rect x="180" y="308" width="51" height="34" fill="#0b5794" />
+<text x="241" y="331" font-size="15" fill="#1a1a1a" font-weight="bold">+1.1%</text>
+<text x="170" y="331" font-size="13.5" fill="#1a1a1a" text-anchor="end">Brazil</text>
+
+<text x="35" y="356" font-size="11" fill="#595959">Source: national statistical offices/central banks; India WPI (MoSPI API), others PPI, April 2026. Same table appears in the</text>
+<text x="35" y="371" font-size="11" fill="#595959">article, Exhibit 4.</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">The 2026 producer-price turn, April year-on-year: the United States moved hardest, not India.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-08-08" itemprop="dateModified">8 August 2026</time> &middot; v6.0.0 &middot; consumer figures rebuilt on World Bank data, India 2019 corrected from 7.7% to 3.7% &middot; Irish and German instrument comparison added &middot; five-year cumulative summary added &middot; Japan, Korea, Brazil and China added from national sources; the claim that India&rsquo;s 2026 producer-side move was uniquely domestic was wrong and has been corrected; Brazil and China shown to have run separate cycles</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/India_-_Koyambedu_Market_-_Market_06_%283986891340%29.jpg/960px-India_-_Koyambedu_Market_-_Market_06_%283986891340%29.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="The wholesale trading floor at Koyambedu Market, Chennai, one of Asia's largest wholesale produce markets" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">A wholesale produce market in Chennai — the kind of producer-side transaction India's Wholesale Price Index measures, and this piece compares against other countries' producer-price series. <a href="https://commons.wikimedia.org/wiki/File:India_-_Koyambedu_Market_-_Market_06_(3986891340).jpg" rel="noopener noreferrer">India - Koyambedu Market - Market 06</a>, McKay Savage, CC BY 2.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<div class="stats">
+<div class="stat"><b>2.4%</b><span>India consumer inflation, 2025 &mdash; below the United States, Brazil, Japan and South Africa</span></div>
+<div class="stat"><b>+27.4%</b><span>Total rise in Indian consumer prices over the five years to 2025</span></div>
+<div class="stat"><b>+31.6%</b><span>Brazil&rsquo;s producer inflation in 2021 &mdash; the highest peak of the six, tied with the US for earliest</span></div>
+<div class="stat"><b>+12.3%</b><span>US producer inflation, May 2026 &mdash; the steepest of the four economies compared</span></div>
+</div>
+
+<h2>The instrument problem</h2>
+<p class="h2sub">A WPI and a PPI are not the same measurement, and only one of them is common.</p>
+
+
+<p>India is unusual. Its headline producer-side inflation number is a <b>Wholesale Price Index</b> &mdash; the price of goods changing hands at the wholesale stage, imports included, services excluded entirely. Most comparable economies retired that instrument decades ago in favour of a <b>Producer Price Index</b>, which measures the prices producers receive for their own output, excludes imports, and in several countries now includes services.</p>
+
+<p>The two answer different questions. A WPI moves when the price of an imported barrel moves; a domestic-output PPI does not, at least not directly. For an economy importing over 85% of its crude, that distinction is not a footnote &mdash; it is most of the difference between the two series in any year when energy moves.</p>
+
+<div class="note"><b>The name survives where the instrument does not.</b> Two of the few places still publishing under a &ldquo;wholesale price index&rdquo; title illustrate the point rather than contradicting it. Ireland&rsquo;s Central Statistics Office issues a monthly <i>Wholesale Price Index</i>, but the release is mostly Manufacturing Output Price Indices, Industrial Producer Price Indices and Capital Goods Price Indices; the genuinely wholesale component is confined to building and construction materials. Germany&rsquo;s statistical office leads with a <i>Producer price index for industrial products</i> and a separate one for services. Neither publishes an economy-wide wholesale basket of the kind India uses as its headline.</div>
+
+<p>Japan makes the point neatly: what it now calls the Corporate Goods Price Index was called a wholesale price index until it was renamed and reworked in 2002. The instrument India still leads with is the one most of its peers replaced.</p>
+
+<div class="warn"><b>So the honest comparison is bounded.</b> What follows sets India&rsquo;s WPI beside the United States&rsquo; PPI for All Commodities &mdash; chosen because, of the widely published producer indices, it is the closest in construction to a wholesale basket &mdash; and beside the euro area&rsquo;s industrial producer price index. These are related instruments, not identical ones. Differences of two or three percentage points between them are not necessarily differences in the economies.</div>
+
+<h2>The wedge</h2>
+<p class="h2sub">Producer prices overshoot, then undershoot. Everywhere.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 1</p>
+<p class="extitle">Producer-side inflation in seven economies: one shared cycle, and two that are not</p>
+<p class="exsub">Annual %, each from its own national statistical office or central bank. India is April-on-April on the WPI; the rest are annual averages of monthly year-on-year rates. Related instruments, not identical ones &mdash; see the caveat above.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Year</th><th>India WPI</th><th>US PPI</th><th>Japan PPI</th><th>Korea PPI</th><th>China PPI</th><th>Brazil IPP</th><th>Euro area PPI</th></tr></thead>
+<tbody>
+<tr><td>2019</td><td>3.2</td><td>&minus;1.0</td><td>0.2</td><td>0.0</td><td>&minus;0.3</td><td>4.6</td><td>0.4</td></tr>
+<tr><td>2020</td><td>&minus;1.6</td><td>&minus;2.7</td><td>&minus;1.2</td><td>&minus;0.5</td><td>&minus;1.8</td><td>11.1</td><td>&minus;2.6</td></tr>
+<tr><td>2021</td><td>10.7</td><td>17.0</td><td>4.6</td><td>6.4</td><td>8.1</td><td>31.6</td><td>9.4</td></tr>
+<tr><td>2022</td><td>15.4</td><td>16.3</td><td>9.8</td><td>8.4</td><td>4.1</td><td>14.5</td><td>26.0</td></tr>
+<tr><td>2023</td><td>&minus;0.8</td><td>&minus;3.3</td><td>4.4</td><td>1.6</td><td>&minus;3.0</td><td>&minus;6.2</td><td>&minus;1.3</td></tr>
+<tr><td>2024</td><td>1.2</td><td>&minus;0.5</td><td>2.5</td><td>1.7</td><td>&minus;2.2</td><td>2.4</td><td>&minus;2.7</td></tr>
+<tr><td>2025</td><td>0.9</td><td>2.2</td><td>3.2</td><td>1.2</td><td>&mdash;</td><td>3.0</td><td>0.1</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">China: National Bureau of Statistics, <i>Statistical Communiqu&eacute; on National Economic and Social Development</i> for each year, producer prices for industrial products, retrieved from the Internet Archive (see the note below); the 2025 communiqu&eacute; is not yet archived. India: Office of the Economic Adviser WPI via the MoSPI statistical API, base 2011-12, April index. United States: BLS Producer Price Index by Commodity, All Commodities, annual average, FRED series PPIACO. Japan: Bank of Japan, Corporate Goods Price Index &mdash; Producer Price Index, all commodities. Korea: Bank of Korea ECOS, Producer Price Index total index (404Y014), 2020=100, annual. Brazil: IBGE, &Iacute;ndice de Pre&ccedil;os ao Produtor, ind&uacute;stria geral, variation on the same month a year earlier (aggregate 6903). Euro area: Eurostat industrial producer prices, domestic market, NACE B-E36, EA20. All retrieved 8 August 2026.</p>
+</div>
+
+<p>Read across and the same story appears five times out of seven. Producer-side prices were <i>below</i> consumer inflation before the pandemic, overshot it hugely in 2021&ndash;22, and fell below again from 2023. The turn is not an Indian phenomenon, an American one or a European one. It is what a global commodity and freight shock does to the two ends of a price chain, and it happened on roughly the same schedule in India, the United States, Japan, Korea and the euro area. Japan is a partial exception in timing: it peaked lower, at 9.8%, and stayed positive through 2023 rather than turning negative.</p>
+
+<p><b>Brazil is not a partial exception. It ran a different cycle.</b> Its producer prices rose <b>11.1% in 2020</b>, the year every other economy here was flat or falling, and peaked at <b>+31.6% in 2021</b> &mdash; earlier and roughly twice as high as anyone else. That is not the commodity shock, which had not arrived; it is the real, which lost about a quarter of its value against the dollar during 2020. A producer price index in a country with a collapsing currency and a heavy imported-input bill measures the exchange rate as much as it measures prices. Brazil then fell hardest too, to &minus;6.2% in 2023.</p>
+
+<p><b>China is the other exception, in the opposite direction.</b> It is the only economy here with producer prices falling in <i>two consecutive years</i> &mdash; &minus;3.0% in 2023 and &minus;2.2% in 2024 &mdash; and its 2021 peak of +8.1% was among the mildest. Set that against its consumer inflation of 0.2%, 0.2% and 0.0% over 2023&ndash;25 and the picture is consistent at both ends of the chain: China is the one large economy in this comparison that did not have an inflation problem to solve, and now has the opposite one. Where Brazil&rsquo;s deviation is a currency story, China&rsquo;s is a demand story.</p>
+
+<p>So the synchronised turn is real but it is not universal, and the exception is instructive: it appears exactly where a large currency move sits on top of the commodity cycle. Any account of 2021&ndash;22 producer inflation that does not separate the two will misread Brazil completely and will slightly misread everyone else.</p>
+
+<p>What differs is amplitude. India&rsquo;s wholesale inflation swung <b>16.2 percentage points</b> between 2022 and 2023, from +15.4% to &minus;0.8%. The euro area swung <b>27.3 points</b>, from +26.0% to &minus;1.3% &mdash; the violence of a gas shock passing through an industrial base. The United States peaked earliest, in 2021 rather than 2022. <b>Japan and Korea barely swung at all</b> &mdash; Japan from +9.8% to +4.4% and Korea from +8.4% to +1.6%, neither going below zero. Both are heavy importers of energy that hedge and contract forward; neither had much domestic inflation to begin with.</p>
+
+<p>The lesson this blog drew from the Indian series holds across all seven and gets stronger: <b>a producer-side index is not a slower version of the consumer index.</b> It is a different variable with its own amplitude, and averaging across the turn destroys the information in both.</p>
+
+<div class="warn"><b>Correction, 8 August 2026.</b> An earlier version gave India&rsquo;s 2019 consumer inflation as 7.7% and called India the highest in this table that year. On calendar-year averages it was <b>3.7%</b> &mdash; middling for the group. The 7.7% came from an OECD G20 series that is not a calendar-year average for India; it is close to India&rsquo;s December 2019 print, a food-price spike. All consumer figures here now come from one World Bank indicator on one convention. India&rsquo;s five-year cumulative consumer total rises from 25.2% to <b>27.4%</b>, and the story changes from &ldquo;fell from the top&rdquo; to &ldquo;stayed elevated longest&rdquo;.</div>
+
+<h2>Where India sits on consumer prices</h2>
+<p class="h2sub">Near the bottom of the G20, which is new.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 2</p>
+<p class="extitle">India&rsquo;s consumer inflation is now below the United States, Brazil, Japan and South Africa</p>
+<p class="exsub">Annual national consumer price inflation, %. Argentina is shown because omitting it would misrepresent the spread; it is not comparable to the rest.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Economy</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th><th>2023</th><th>2024</th><th>2025</th></tr></thead>
+<tbody>
+<tr><td>India</td><td>3.7</td><td>6.6</td><td>5.1</td><td>6.7</td><td>5.7</td><td>5.0</td><td>2.4</td></tr>
+<tr><td>China</td><td>2.9</td><td>2.4</td><td>1.0</td><td>2.0</td><td>0.2</td><td>0.2</td><td>0.1</td></tr>
+<tr><td>Indonesia</td><td>3.0</td><td>1.9</td><td>1.6</td><td>4.2</td><td>3.7</td><td>2.2</td><td>1.9</td></tr>
+<tr><td>Korea</td><td>0.4</td><td>0.5</td><td>2.5</td><td>5.1</td><td>3.6</td><td>2.3</td><td>2.1</td></tr>
+<tr><td>United States</td><td>1.8</td><td>1.2</td><td>4.7</td><td>8.0</td><td>4.1</td><td>3.0</td><td>&mdash;</td></tr>
+<tr><td>Japan</td><td>0.5</td><td>0.0</td><td>&minus;0.2</td><td>2.5</td><td>3.3</td><td>2.7</td><td>3.2</td></tr>
+<tr><td>South Africa</td><td>4.1</td><td>3.2</td><td>4.6</td><td>7.0</td><td>6.1</td><td>4.4</td><td>3.2</td></tr>
+<tr><td>Mexico</td><td>3.6</td><td>3.4</td><td>5.7</td><td>7.9</td><td>5.5</td><td>4.7</td><td>3.8</td></tr>
+<tr><td>Brazil</td><td>3.7</td><td>3.2</td><td>8.3</td><td>9.3</td><td>4.6</td><td>4.4</td><td>5.0</td></tr>
+<tr><td>Argentina</td><td>53.5</td><td>42.0</td><td>48.4</td><td>72.4</td><td>133.5</td><td>219.9</td><td>&mdash;</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">World Bank, <i>Inflation, consumer prices (annual %)</i>, FP.CPI.TOTL.ZG, calendar-year averages, retrieved 8 August 2026. An earlier version used an OECD G20 series whose India figures were not calendar-year averages &mdash; see the correction above. Russia and T&uuml;rkiye are in the source dataset but their recent series are incomplete and are omitted rather than shown partially.</p>
+</div>
+
+<p>In 2019 India had the highest consumer inflation of any major economy in this table outside Argentina. By 2025 it is at <b>2.4%</b> &mdash; below Brazil, Mexico, South Africa, Japan and Korea, and below the last published American figure. That is a genuine and underdiscussed reversal, and it happened while the wholesale series was doing something completely different.</p>
+
+<p>Two economies are worth naming for the opposite reason. <b>China</b> printed <b>0.0%</b> in 2025 after 0.2% in each of the two preceding years &mdash; consumer prices flat for three years running. <b>Japan</b> is the only advanced economy in the table whose inflation is <i>higher</i> now than during the 2022 shock, at 3.2% against 2.5%: the exit from deflation arrived late and has not reversed.</p>
+
+<h2>The comparison that no longer exists</h2>
+<p class="h2sub">The harmonised producer series was retired, and nothing replaced it.</p>
+
+<p>This piece was supposed to cover more countries. It does not, and the reason is a finding in itself.</p>
+
+<p>Until 2022 the OECD published a harmonised family of wholesale and producer price series covering its members and major partners, India included &mdash; the series that made a genuine like-for-like international comparison possible. It was discontinued. On the public data mirrors, every one of those series stops in 2022: India&rsquo;s wholesale aggregate at December 2022, Japan&rsquo;s producer indices at April 2022, China&rsquo;s and the euro area&rsquo;s at December 2022. The OECD&rsquo;s current price database is extensive and live, and contains <b>no producer price data at all</b> &mdash; consumer indices, harmonised consumer indices, house prices and purchasing power parities, and nothing on the producer side.</p>
+
+<p><b>China had to be reached the long way round.</b> The National Bureau of Statistics data portal returns <code>403 Forbidden</code> to requests from an Indian IP and its main site does not respond at all from here; the OECD mirror stops in December 2022 with the rest. The figures in Exhibit 1 therefore come from the NBS&rsquo;s own <i>Statistical Communiqu&eacute; on National Economic and Social Development</i>, one per year, retrieved from the Internet Archive. That is the Bureau&rsquo;s own published text, archived &mdash; not a redistributor&rsquo;s reconstruction &mdash; and each figure is the sentence &ldquo;the producer prices for industrial products went down/up by X percent&rdquo; read directly out of the release. Four of the six were cross-checked against the OECD mirror where the years overlap and agree exactly.</p>
+
+<p>Two limits follow from the route. China&rsquo;s <b>2025</b> figure is missing because the communiqu&eacute; covering it would have been published in February 2026 and the Archive has no capture of it &mdash; the site went dark to crawlers at roughly the point it went dark to us. And China is absent from the monthly 2026 panel entirely, because monthly releases are not archived at all. An annual series recovered from archived press releases is a weaker instrument than a live API, and it is labelled as such here rather than quietly mixed in.</p>
+
+<p>So the seven-economy panel in Exhibit 1 is not a choice of scope. It is what can still be assembled, one national statistical office at a time, with the differences in instrument stated rather than smoothed over. Anyone presenting a tidy ten-country wholesale-price chart for the last three years is either using a vendor&rsquo;s reconstruction or has not checked where the numbers stop.</p>
+
+<p class="note">A companion piece, <a href="https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html">Inflation Trends Globally: What Five Years Actually Cost</a>, takes the same data from the other direction &mdash; global first, with the full G20 consumer panel and Argentina included for scale. This article is the India-anchored reading and the methodology argument.</p>
+
+<h2>The whole episode in one number</h2>
+<p class="h2sub">Five years of inflation, compounded.</p>
+
+<p>Year-on-year rates are how prices are reported and a poor way to feel their weight. Compounding 2021 through 2025 gives the question most people actually mean when they ask what has happened to prices.</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 3</p>
+<p class="extitle">Cumulative price rise over five years, 2020 to 2025</p>
+<p class="exsub">Total %, compounding each economy&rsquo;s annual rates from Exhibits 1 and 2. Where an index level was available the endpoints were used directly instead. Per-year is the compound annual equivalent.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Economy</th><th>Producer side, total %</th><th>Per year, %</th><th>Consumer side, total %</th><th>Per year, %</th></tr></thead>
+<tbody>
+<tr><td>Brazil</td><td>48.9</td><td>8.3</td><td>35.7</td><td>6.3</td></tr>
+<tr><td>United States</td><td>33.9</td><td>6.0</td><td>21.1</td><td>4.9</td></tr>
+<tr><td>Euro area</td><td>32.5</td><td>5.8</td><td>&mdash;</td><td>&mdash;</td></tr>
+<tr><td>India</td><td>29.4</td><td>5.3</td><td>27.4</td><td>5.0</td></tr>
+<tr><td>Japan</td><td>26.9</td><td>4.9</td><td>11.9</td><td>2.3</td></tr>
+<tr><td>Korea</td><td>20.5</td><td>3.8</td><td>16.6</td><td>3.1</td></tr>
+<tr><td>China</td><td>6.8</td><td>1.6</td><td>3.3</td><td>0.7</td></tr>
+<tr><td>Mexico</td><td>&mdash;</td><td>&mdash;</td><td>30.8</td><td>5.5</td></tr>
+<tr><td>South Africa</td><td>&mdash;</td><td>&mdash;</td><td>27.9</td><td>5.1</td></tr>
+<tr><td>Indonesia</td><td>&mdash;</td><td>&mdash;</td><td>14.4</td><td>2.7</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Author&rsquo;s calculation on the series in Exhibits 1 and 2. India producer side uses the WPI index directly, April 2020 (119.2) to April 2025 (154.2); Korea uses the BoK index, 2020=100.00 to 2025=120.45; the United States uses PPI annual averages, 194.4 to 260.3; the euro area uses the Eurostat index, 91.4 to 121.1. Japan and Brazil compound their annual rates. <b>Two entries cover four years, not five</b>, and are not like-for-like with the rest: China&rsquo;s producer figure runs 2020&ndash;24 because the 2025 communiqu&eacute; is unavailable, and the US consumer figure runs 2020&ndash;24 because the OECD series has no 2025 print yet. The euro-area consumer series was not collected for this piece.</p>
+</div>
+
+<p>The spread is the point. Over five years <b>Brazil&rsquo;s producer prices rose almost half</b> and <b>China&rsquo;s rose under 7%</b> &mdash; and China&rsquo;s figure covers four years, so the true five-year gap is wider still. Two large emerging economies, the same window, a sevenfold difference in outcome.</p>
+
+<p><b>India sits in the middle of both columns.</b> Wholesale prices up <b>29.4%</b>, consumer prices up <b>27.4%</b> &mdash; over a quarter added to the price level in five years, or 5.0% a year at the till. Applying the rule of 72 used in <a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">the earlier wholesale piece</a>, 72 &divide; 5.0 puts an Indian consumer doubling at about <b>14 years</b> on the pace of the last five &mdash; faster than the fourteen-year record implies, and worth holding against the low 2.4% print for 2025.</p>
+
+<p>The <b>2.0-point gap</b> between India&rsquo;s producer and consumer totals is the narrowest of the four economies where both sides can be measured over a matched window &mdash; Japan&rsquo;s is 15.0 points, Brazil&rsquo;s 13.2, and the United States&rsquo; 9.8 when producer and consumer are both cut to 2020&ndash;24. Whatever the 2021&ndash;22 wholesale spike did in India, it did not durably open a wedge between what producers paid and what households paid. It arrived, and it was absorbed.</p>
+
+<h2>Reading the Indian prints against this</h2>
+<p class="h2sub">Three things the international view changes.</p>
+
+<p><b>The 2022 wholesale spike was not an Indian policy failure.</b> It was smaller than the euro area&rsquo;s and arrived at roughly the same time as everyone else&rsquo;s. Explanations reaching for domestic causes have to explain why the same shape appears in economies with entirely different domestic policy.</p>
+
+<p><b>The current divergence is the unusual part.</b> India&rsquo;s wholesale inflation has run near zero for three years &mdash; &minus;0.8%, +1.2%, +0.9% &mdash; while consumer inflation fell steadily from 5.6% to 2.4%. Both falling is normal; both being this low simultaneously, in an economy growing at 6&ndash;7%, is not the configuration of the 2010s.</p>
+
+<p><b>And 2026 is another synchronised turn, not an Indian one.</b> India&rsquo;s April 2026 wholesale inflation came in at <b>+8.3%</b>, the sharpest since 2022. So did everyone else&rsquo;s:</p>
+
+<div class="exhibit">
+<p class="exno">Exhibit 4</p>
+<p class="extitle">The 2026 turn: five of six accelerating hard, the United States hardest</p>
+<p class="exsub">Year-on-year %, monthly, 2026. India is the April WPI print; the rest run to June 2026.</p>
+<div class="tw">
+<table>
+<thead><tr><th>Month</th><th>US PPI</th><th>Korea PPI</th><th>India WPI</th><th>Japan PPI</th><th>Euro area PPI</th><th>Brazil IPP</th></tr></thead>
+<tbody>
+<tr><td>January</td><td>+2.4</td><td>+1.9</td><td>&mdash;</td><td>+2.4</td><td>&minus;1.9</td><td>&minus;4.4</td></tr>
+<tr><td>February</td><td>+3.9</td><td>+2.5</td><td>&mdash;</td><td>+2.1</td><td>&minus;2.7</td><td>&minus;4.4</td></tr>
+<tr><td>March</td><td>+6.8</td><td>+4.2</td><td>&mdash;</td><td>+2.9</td><td>+1.6</td><td>&minus;1.6</td></tr>
+<tr><td>April</td><td>+9.4</td><td>+7.2</td><td>+8.3</td><td>+5.4</td><td>+4.1</td><td>+1.1</td></tr>
+<tr><td>May</td><td>+12.3</td><td>+8.6</td><td>&mdash;</td><td>+6.6</td><td>+4.9</td><td>+2.0</td></tr>
+<tr><td>June</td><td>+10.1</td><td>+8.6</td><td>&mdash;</td><td>+7.1</td><td>+4.2</td><td>+2.5</td></tr>
+</tbody>
+</table>
+</div>
+<p class="exsrc">Sources as Exhibit 1. India&rsquo;s WPI figures in this piece are April-anchored, so only April is shown. Brazil is the IPP for general industry.</p>
+</div>
+
+<p>The United States went from <b>+2.4% in January to +12.3% in May</b> &mdash; a ten-point acceleration in four months, larger and faster than India&rsquo;s. <b>Korea moved almost identically</b>, +1.9% to +8.6%. Japan more than doubled, from +2.9% in March to +7.1% in June, after two years of easing. The euro area crossed from &minus;2.7% to +4.9% inside three months. India&rsquo;s April print of +8.3% sits between Korea and the United States.</p>
+
+<p>Brazil is the laggard this time, and by the same logic as before: it entered 2026 at <b>&minus;4.4%</b>, still working off the 2021 spike, and has only just crossed into positive territory at +2.5%. The country that led the last cycle is trailing this one.</p>
+
+<p>Whatever is driving the 2026 producer-side turn &mdash; crude moving from roughly $77 to $92 over the period (Brent spot price, EIA, January to June 2026) is the obvious candidate &mdash; it is not something happening only to India. An explanation reaching for Indian fuel taxation has to account for the American number being larger and the Korean one being the same.</p>
+
+<div class="note"><b>A discrepancy worth stating.</b> The MoSPI statistical API returns <b>167.0</b> for the April 2026 all-commodities WPI. The Office of the Economic Adviser index file used in this blog&rsquo;s earlier wholesale-price piece gives <b>167.6</b> for the same month &mdash; a difference of 0.36%, enough to move the year-on-year rate by about a third of a point. Both are official; they are different vintages of a provisional figure. The 8.3% above uses the MoSPI API value, so it is not identical to the number in <a href="https://masaladeutsch.blogspot.com/2026/08/fourteen-years-of-indian-wholesale.html">Fourteen Years of Indian Wholesale Prices</a>, which used the OEA file throughout. Neither has been adjusted to match the other.</div>
+
+<p class="sources"><b>Sources.</b> Instrument comparison &mdash; Central Statistics Office (Ireland), <i>Wholesale Price Index</i> monthly release, table list; Statistisches Bundesamt (Destatis), Prices theme pages. China producer prices &mdash; National Bureau of Statistics of China, <i>Statistical Communiqu&eacute; of the People&rsquo;s Republic of China on National Economic and Social Development</i>, annual editions for 2019 to 2024, &ldquo;producer prices for industrial products&rdquo;; the NBS site is not reachable from the network this was compiled on, so each release was retrieved from the Internet Archive capture of the NBS English press-release pages. Korea producer prices &mdash; Bank of Korea, ECOS statistical service, <i>Producer Price Index</i> total index, series 404Y014, base 2020=100. Brazil producer prices &mdash; Instituto Brasileiro de Geografia e Estat&iacute;stica, <i>&Iacute;ndice de Pre&ccedil;os ao Produtor</i>, general industry, aggregate 6903, variation against the same month a year earlier. Japan producer prices &mdash; Bank of Japan, <i>Corporate Goods Price Index (CGPI)</i>, Producer Price Index, all commodities, year-on-year change, monthly series from the BoJ Main Time-series Statistics, retrieved 8 August 2026. India wholesale price index &mdash; Office of the Economic Adviser, DPIIT, base 2011-12, all-commodities April index, retrieved via the Ministry of Statistics and Programme Implementation statistical API on 8 August 2026; year-on-year rates are the author&rsquo;s calculation on those index levels. Consumer price inflation, all economies &mdash; OECD, <i>G20 consumer price indices, all items</i>, national methodology, annual growth rate, retrieved from the OECD SDMX API on 8 August 2026. United States producer prices &mdash; US Bureau of Labor Statistics, <i>Producer Price Index by Commodity: All Commodities</i>, annual averages, via FRED series PPIACO. Euro-area producer prices &mdash; Eurostat, <i>Industrial producer prices, domestic market</i>, NACE Rev. 2 B-E36, euro area 20, annual, series sts_inpp_a. The discontinuation of the OECD harmonised wholesale and producer price series was established by direct query: every such series terminates in 2022, and the OECD&rsquo;s current price dataflows contain no producer price index. No figure on this page has been estimated, interpolated or extrapolated, and no figure is taken from a commercial data vendor.</p>
+
+
+<h2>What would fix this</h2>
+<ul>
+<li><b>The Office of the Economic Adviser in DPIIT should publish a domestic-output Producer Price Index alongside the WPI</b>, so India has a producer-side series built like the ones most peers use and comparisons with the US, euro area, Japan or Korea do not have to be hedged as related but different instruments.</li>
+<li><b>MoSPI should tag every WPI value served through its statistical API with its vintage and provisional or final status, and update it when the Office of the Economic Adviser revises</b>, so April 2026 does not read 167.0 in one official source and 167.6 in the other.</li>
+<li><b>The Office of the Economic Adviser should publish official calendar-year average WPI inflation rates</b>, so international comparisons can use the same annual-average convention as other economies rather than an April-on-April anchor that does not match peers' series.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

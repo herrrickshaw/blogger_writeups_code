@@ -1,0 +1,9 @@
+{
+ "mode": "add",
+ "proposals": [
+  "<b>MoSPI should update the RBI reserves and exchange-rate datasets in its statistical API on a stated schedule and show a last-updated date</b>, since the reserves series was still frozen at June 2025 when re-checked in July 2026 and users could not tell without testing it.",
+  "<b>The RBI should publish weekly foreign exchange reserves as a downloadable time series in which the 'as on' date is a separate field from the release date</b>, so users do not have to scrape Weekly Statistical Supplement pages one by one or risk the one-week mislabelling this bulletin had to correct.",
+  "<b>The RBI should publish its full Reference Rate history as a single downloadable file</b>, so a continuous rupee&ndash;dollar series does not have to be stitched from a monthly-average indicator and a daily lookup archive, as this bulletin had to do.",
+  "<b>The RBI should publish, each month, a breakdown of the change in reserves into net foreign-currency sales or purchases, valuation effects, and movements in gold, SDRs and the IMF reserve tranche</b>, so a fall like the $61.6 billion slide in 2026 can be attributed between rupee defence and valuation."
+ ]
+}

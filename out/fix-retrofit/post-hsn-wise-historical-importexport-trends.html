@@ -1,0 +1,407 @@
+<style>/*gs-typo-unify-v1*/
+.artx,.fertx,.ecx,.mapx,.idx,.wrap,.slide,.stat{font-family:Georgia,'Times New Roman',serif!important;}
+.artx p,.fertx p,.ecx p,.mapx p,.idx p,.wrap p,.slide p,.stat p,
+.artx li,.fertx li,.ecx li,.mapx li,.idx li,.wrap li,.slide li,.stat li,
+.artx td,.fertx td,.ecx td,.mapx td,.idx td,.wrap td,.slide td,.stat td,
+.artx th,.fertx th,.ecx th,.mapx th,.idx th,.wrap th,.slide th,.stat th,
+.artx blockquote,.fertx blockquote,.ecx blockquote,.mapx blockquote,.idx blockquote,.wrap blockquote,.slide blockquote,.stat blockquote
+{font-family:Georgia,'Times New Roman',serif!important;}
+.artx h1,.fertx h1,.ecx h1,.mapx h1,.idx h1,.wrap h1,.slide h1,.stat h1,
+.artx h2,.fertx h2,.ecx h2,.mapx h2,.idx h2,.wrap h2,.slide h2,.stat h2,
+.artx h3,.fertx h3,.ecx h3,.mapx h3,.idx h3,.wrap h3,.slide h3,.stat h3
+{font-family:Georgia,'Times New Roman',serif!important;line-height:1.3!important;}
+body,p,li,td,th,blockquote,h1,h2,h3{font-family:Georgia,'Times New Roman',serif;}
+.was-link{color:inherit;text-decoration:none}
+
+/*gs-table-v1 — scoped to .post-body, not .artx: several posts use other
+  wrapper classes (.tblwrap among them) and an .artx-scoped rule silently did
+  nothing on them. Verified on a canary post before the batch. */
+.post-body .tw{overflow-x:auto;margin:1.1rem 0}
+/* display:block makes the table its OWN scroller, so it works whether or not
+   the post wrapped it in .tw — several posts use .tblwrap or nothing, and a
+   width:auto table with no scroller pushes the whole page sideways. */
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ white-space:normal;overflow-wrap:normal;word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+</style>
+<meta name="hz:canvas-width" content="1180">
+
+<div class="bulletin">
+  <div class="sheet">
+    <div class="masthead">
+      <div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="dek">Full 8-year history (FY2018-19 – FY2025-26) for every 2-digit HS chapter, from the same TRADESTAT pull as the trade-balance bulletin — this time tracking each chapter's own trajectory, not just its latest-year snapshot, to separate "large" from "fast-growing."</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">← All Articles (Index)</a></div>
+<div style="order:2" class="eyebrow">Commerce Ministry Dataset Analysis — Statistical Bulletin</div>
+<h1 style="order:3">Fertilisers and electronics are India's fastest-growing big-ticket imports</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+  <text x="30" y="32" font-size="18" font-weight="bold" fill="#1a1a1a">India's fastest-growing big imports, FY2018-19 to FY2025-26</text>
+  <text x="30" y="52" font-size="12.5" fill="#555">8-year change in import value, top HS chapters (US$ Million basis)</text>
+
+  
+  
+  
+
+  
+  <text x="245" y="98" font-size="13.5" fill="#1a1a1a" text-anchor="end">Fertilisers (HS31)</text>
+  <rect x="250" y="82" width="426" height="28" fill="#0b5794" />
+  <text x="666" y="102" text-anchor="end" font-size="13.5" font-weight="bold" fill="#fff">+118.9%</text>
+
+  
+  <text x="245" y="148" font-size="13.5" fill="#1a1a1a" text-anchor="end">Electrical machinery (HS85)</text>
+  <rect x="250" y="132" width="363" height="28" fill="#0b5794" />
+  <text x="623" y="152" font-size="13.5" font-weight="bold" fill="#0b5794">+101.5%</text>
+
+  
+  <text x="245" y="198" font-size="13.5" fill="#1a1a1a" text-anchor="end">Edible oils (HS15)</text>
+  <rect x="250" y="182" width="350" height="28" fill="#0b5794" />
+  <text x="610" y="202" font-size="13.5" font-weight="bold" fill="#0b5794">+97.9%</text>
+
+  
+  <text x="245" y="248" font-size="13.5" fill="#1a1a1a" text-anchor="end">Pearls, gems &amp; jewellery</text>
+  <rect x="250" y="232" width="247" height="28" fill="#7fa8c9" />
+  <text x="507" y="252" font-size="13.5" font-weight="bold" fill="#3d6e91">+69.1%</text>
+
+  
+  <text x="245" y="298" font-size="13.5" fill="#1a1a1a" text-anchor="end">Mineral fuels &amp; oils</text>
+  <rect x="250" y="282" width="76" height="28" fill="#7fa8c9" />
+  <text x="336" y="302" font-size="13.5" font-weight="bold" fill="#3d6e91">+21.2%</text>
+
+  
+  <line x1="250" y1="78" x2="250" y2="318" stroke="#999" stroke-width="1" />
+
+  <text x="30" y="345" font-size="11.5" fill="#666">Mineral fuels is India's single largest import chapter by value, but grew slowest of the five.</text>
+  <text x="30" y="362" font-size="10.5" fill="#888">Source: DGCI&amp;S TRADESTAT (tradestat.commerce.gov.in/eidb), 2-digit HS chapter level, retrieved 18 Jul 2026.</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">India's fastest-growing big imports by 8-year change in value, FY2018-19 to FY2025-26 (DGCI&S TRADESTAT).</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+      
+
+
+
+      
+      <div class="source-line">SOURCE: Directorate General of Commercial Intelligence and Statistics (DGCI&amp;S), via tradestat.commerce.gov.in/eidb — Commodity-wise Export and Commodity-wise Import reports, 2-digit HS chapter level, US$ Million, retrieved 18 Jul 2026</div>
+    </div>
+
+    <div class="stat-strip" id="statStrip"></div>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">Top 12 import chapters, by FY2025-26 value</h2>
+        <p class="block-note">Sparklines are independently scaled per chapter, to show shape of trend, not relative size.</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Fields_TR_Bazar_NH-181_Nilgiris_Aug25_A7CR_07388-HDR.jpg/960px-Fields_TR_Bazar_NH-181_Nilgiris_Aug25_A7CR_07388-HDR.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="Bags of fertiliser in a newly planted Indian field, the import chapter this piece finds growing fastest" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Fertilisers (HS31) posted the highest eight-year growth rate among India's dozen largest imports, +118.9% since FY2018-19 — the bags pictured here, on a field in the Nilgiris, are the end point of that import chain. <a href="https://commons.wikimedia.org/wiki/File:Fields_TR_Bazar_NH-181_Nilgiris_Aug25_A7CR_07388-HDR.jpg" rel="noopener noreferrer">Fields, TR Bazar, NH-181, Nilgiris</a>, Timothy A. Gonsalves, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+      </div>
+      <div class="panel-grid" id="importGrid"></div>
+      <details class="table-view">
+        <summary>View full 8-year table, top 12 import chapters</summary>
+        <div class="data-table-wrap"><table class="data-table" id="importTable"></table></div>
+      </details>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">Which big imports are growing fastest?</h2>
+        <p class="block-note">Same 12 chapters as above, re-ranked by growth rate (CAGR), not size.</p>
+
+      </div>
+      <div class="chart-card">
+        <svg role="img" aria-label="Which big imports are growing fastest?. Same 12 chapters as above, re-ranked by growth rate (CAGR), not size." id="cagrChart" viewBox="0 0 1000 460" preserveAspectRatio="none"></svg>
+        <div class="tooltip" id="cagrTooltip"></div>
+      </div>
+      <p class="legend-note"><b>Fertilisers (HS31)</b> posts the highest eight-year CAGR among India's dozen largest imports &mdash; <b>+118.9%</b> since FY2018-19 (11.8% a year) &mdash; but that number describes an endpoint, not a trend. The chapter sat flat near $6.7bn for three years, jumped to $12.8bn in FY2021-22 and peaked at $15.3bn in FY2022-23, collapsed back to $8.3bn by FY2024-25, then spiked again to $14.6bn. It is the most <i>volatile</i> chapter here, not the fastest-growing one; see the shape note below. <b>Electrical machinery (HS85)</b> — semiconductors, components, consumer electronics — has <b>doubled</b> (+101.5%, 10.5% CAGR), and <b>edible oils (HS15)</b> are close behind (+97.9%). By contrast, <b>mineral fuels</b>, the single largest import by far, has grown only <b>21.2%</b> over the same eight years — it's big, but not the fastest-moving part of the story.</p>
+    </section>
+
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">Before using any CAGR on this page: check the shape</h2>
+        <p class="block-note">A compound annual rate is two numbers, eight years apart. It is only a growth rate if the six years in between sit on the line.</p>
+      </div>
+      <p class="legend-note">Ranking chapters by CAGR quietly assumes each one grew. Splitting the window at FY2021-22 &mdash; the pandemic-and-commodity-shock hinge &mdash; shows that for a third of these chapters the two halves point different ways, and the eight-year rate describes neither:</p>
+      <div class="data-table-wrap">
+      <table class="data-table">
+        <tr><th>Chapter</th><th>Side</th><th>FY2019&ndash;22, % a year</th><th>FY2022&ndash;26, % a year</th><th>8-year CAGR, %</th><th>Shape</th></tr>
+        <tr><td>Iron &amp; steel</td><td>Export</td><td>+33.0</td><td>&minus;18.1</td><td>0.8</td><td>Round trip: $9.7bn &rarr; $22.9bn &rarr; $10.3bn</td></tr>
+        <tr><td>Mineral fuels &amp; oils</td><td>Export</td><td>+13.2</td><td>&minus;5.3</td><td>2.2</td><td>Peaked FY2022-23, now 45% off peak</td></tr>
+        <tr><td>Aircraft &amp; spacecraft</td><td>Import</td><td>&minus;13.1</td><td>+28.9</td><td>8.8</td><td>Collapse then recovery</td></tr>
+        <tr><td>Fertilisers</td><td>Import</td><td>+24.2</td><td>+3.4</td><td>11.8</td><td>Two spikes, one collapse</td></tr>
+        <tr><td>Animal/veg fats &amp; oils</td><td>Import</td><td>+24.6</td><td>+0.5</td><td>10.2</td><td>Front-loaded; flat since</td></tr>
+        <tr><td>Organic chemicals</td><td>Import</td><td>+8.4</td><td>&minus;2.8</td><td>1.8</td><td>Sign flip</td></tr>
+        <tr><td>Cereals</td><td>Export</td><td>+16.4</td><td>&minus;1.7</td><td>5.7</td><td>Sign flip</td></tr>
+        <tr><td>Electrical machinery</td><td>Export</td><td>+16.6</td><td>+27.9</td><td>22.9</td><td>Real trend, accelerating</td></tr>
+        <tr><td>Electrical machinery</td><td>Import</td><td>+6.3</td><td>+13.8</td><td>10.5</td><td>Real trend, accelerating</td></tr>
+      </table>
+      </div>
+      <p class="legend-note">Across all 24 chapters on this page, <b>10 finished at their eight-year peak</b> &mdash; those are genuine trends and their CAGRs mean what they appear to mean. <b>Four are round trips</b>, ending 20% or more below a peak they hit mid-window. The remaining ten sit somewhere between. <b>Iron &amp; steel exports</b> are the extreme case: 0.8% a year over eight years is arithmetically correct and tells you nothing, because the series more than doubled to $22.9bn in FY2021-22 and gave all of it back.</p>
+      <p class="legend-note">The two chapters worth trusting the rate on are the electrical-machinery lines, imports and exports, which grew in both halves and finished at their peaks. Exports went $12.7bn &rarr; $54.0bn without a reversal &mdash; that is what a 22.9% CAGR should look like. Everything else on this page needs the sparkline read alongside the number.</p>
+    </section>
+
+    <section class="block">
+      <div class="block-head">
+        <h2 class="block-title">Top 12 export chapters, by FY2025-26 value</h2>
+        <p class="block-note">Same treatment, export side.</p>
+      </div>
+      <div class="panel-grid" id="exportGrid"></div>
+      <p class="legend-note"><b>Electrical machinery (HS85)</b> is the standout export story: from $12.7bn to $54.0bn, <b>+324%</b> (22.9% CAGR) — by far the fastest-growing chapter on either side of the ledger, consistent with India's electronics-assembly export push. <b>Pearls, gems &amp; jewellery (HS71)</b> is the one major chapter moving the wrong way for exports: <b>-29.9%</b> since FY2018-19, by far the steepest decliner among either top-12 list (HS61 knitted apparel and HS62 non-knitted apparel also dipped slightly, -2.3% and -2.0%).</p>
+      <details class="table-view">
+        <summary>View full 8-year table, top 12 export chapters</summary>
+        <div class="data-table-wrap"><table class="data-table" id="exportTable"></table></div>
+      </details>
+    </section>
+
+    <section class="block prose">
+      <h2 class="block-title" style="border:none; padding:0;">Reading this against the deficit</h2>
+      <p>The trade-balance bulletin elsewhere in this repo shows mineral fuels and gems/jewellery as the two largest deficit-driving chapters — but this history shows neither is where the deficit's <b>momentum</b> is coming from. Mineral fuels imports have grown a modest 21.2% over eight years (largely price-driven, not a structural shift), and gems/jewellery imports (+69.1%) are growing roughly in line with the broader deficit chapters.</p>
+      <p>The chapters actually <b>accelerating</b> — fertilisers, electrical machinery, edible oils — point to where new import dependency is building: energy-intensive fertiliser production, electronics components not yet made domestically at scale, and edible oil consumption outpacing domestic oilseed output. Electrical machinery is unusual in that it's growing fast on <b>both</b> sides of the ledger (imports of components, exports of assembled goods) — consistent with India importing parts for final assembly and re-export, rather than either pure import substitution or pure domestic manufacturing.</p>
+      <p><b>Independently corroborated by DPIIT's own 2025-26 Annual Report</b> (not a trade-data source — it doesn't publish a balance-of-trade series — but its Industrial Entrepreneur Memorandum investment-intention data, Appendix IV): proposed domestic investment in <b>Electricals Equipment</b> jumped from <b>₹65,979 crore (2021) to ₹233,829 crore (2024)</b>, and in <b>Fertilizers</b> from <b>₹1,112 crore (2021) to ₹41,127 crore (2024)</b> — the same two sectors flagged here as the fastest-growing high-value imports are also where India's domestic capacity-building investment is scaling up fastest, an independent confirmation from a completely different data system (industrial licensing filings, not customs data). DPIIT's "24 champion sub-sectors" programme separately names <b>electronics</b> and <b>aluminium</b> among sectors selected partly for "need for import substitution" — the same conclusion this chart reaches from the trade numbers alone.</p>
+    </section>
+
+    <div class="errata">
+      <div class="errata-title">Errata &amp; methodology caveats</div>
+      <ul>
+        <li><b>Growth and CAGR are computed FY2018-19 → FY2025-26</b> (7 growth periods over 8 fiscal years). FY2025-26 is the most recent data available (updated 19 May 2026 per source), not necessarily a complete fiscal year — treat the endpoint as provisional.</li>
+        <li><b>Sparklines use an independent y-scale per chapter</b> — they show the shape of each chapter's trajectory, not relative size between chapters. Use the labeled FY18-19 → FY25-26 values (or the ranked list order) to compare magnitude; use the CAGR chart to compare growth rate.</li>
+        <li><b>"Top 12" is by absolute latest-year value</b>, not by growth rate or by trade balance — a chapter can be simultaneously one of the largest imports and a shrinking one (see gems &amp; jewellery, export side).</li>
+        <li>Top 12 import chapters account for <b>81.5%</b> of all FY2025-26 imports; the remaining 86 chapters share the other 18.5%.</li>
+        <li>Same TRADESTAT pull and scraping method as the trade-balance bulletin: the government query form requires visiting the search page first to establish a session before the underlying data request will succeed (each query returns 2 fiscal years).</li>
+        <li>Totals cross-validated against the Commerce Ministry's TIA Portal, DGFT, and PIB; DPIIT investment-intention data used as independent corroboration, not a trade-data source. See <span class="was-link">data/trade_data_cross_validation_2026-07-18.json</span>.</li>
+      </ul>
+    </div>
+
+    <footer class="colophon">herrrickshaw/mospi-dataset-analysis — derived from Ministry of Commerce (DGCI&amp;S) TRADESTAT data, not an official Commerce Ministry publication</footer>
+  </div>
+</div>
+
+<script>
+(function () {
+  var years = ["2018-19","2019-20","2020-21","2021-22","2022-23","2023-24","2024-25","2025-26"];
+
+  var topImports = [{"hs": "27", "name": "Mineral fuels & oils", "series": [167871.9, 153646.5, 99703.5, 194857.1, 260921.0, 219053.6, 218456.0, 203415.4], "first": 167871.9, "latest": 203415.4, "growth_pct": 21.2, "cagr_pct": 2.8}, {"hs": "71", "name": "Pearls, gems & jewellery", "series": [64720.2, 54493.8, 55198.9, 81663.7, 73930.3, 78473.6, 88975.7, 109430.2], "first": 64720.2, "latest": 109430.2, "growth_pct": 69.1, "cagr_pct": 7.8}, {"hs": "85", "name": "Electrical machinery", "series": [52048.9, 49188.3, 46691.6, 62489.6, 67637.3, 79300.7, 88596.4, 104852.7], "first": 52048.9, "latest": 104852.7, "growth_pct": 101.5, "cagr_pct": 10.5}, {"hs": "84", "name": "Machinery, mechanical appliances", "series": [43840.4, 43367.9, 37032.0, 50586.8, 54377.0, 57408.9, 64302.1, 74019.5], "first": 43840.4, "latest": 74019.5, "growth_pct": 68.8, "cagr_pct": 7.8}, {"hs": "29", "name": "Organic chemicals", "series": [22389.8, 19815.8, 19690.3, 28522.5, 28975.8, 26745.1, 26590.5, 25410.7], "first": 22389.8, "latest": 25410.7, "growth_pct": 13.5, "cagr_pct": 1.8}, {"hs": "39", "name": "Plastics", "series": [15246.9, 14212.1, 13308.5, 19994.2, 23122.9, 21830.6, 22116.0, 22234.5], "first": 15246.9, "latest": 22234.5, "growth_pct": 45.8, "cagr_pct": 5.5}, {"hs": "15", "name": "Animal/veg fats & oils", "series": [9994.4, 9867.1, 11308.1, 19354.9, 21122.3, 15059.5, 17591.6, 19777.0], "first": 9994.4, "latest": 19777.0, "growth_pct": 97.9, "cagr_pct": 10.2}, {"hs": "72", "name": "Iron & steel", "series": [12582.3, 10734.1, 8278.9, 12612.8, 17718.3, 18645.7, 17400.3, 15753.4], "first": 12582.3, "latest": 15753.4, "growth_pct": 25.2, "cagr_pct": 3.3}, {"hs": "90", "name": "Optical/medical instruments", "series": [9631.4, 9251.1, 8572.3, 11331.2, 11671.8, 12922.2, 13842.1, 15375.3], "first": 9631.4, "latest": 15375.3, "growth_pct": 59.6, "cagr_pct": 6.9}, {"hs": "31", "name": "Fertilisers", "series": [6661.9, 6704.5, 6872.8, 12765.7, 15322.5, 8923.7, 8285.1, 14580.2], "first": 6661.9, "latest": 14580.2, "growth_pct": 118.9, "cagr_pct": 11.8}, {"hs": "28", "name": "Inorganic chemicals", "series": [7624.6, 6366.4, 6884.6, 10242.9, 12841.5, 9142.4, 11377.1, 14179.7], "first": 7624.6, "latest": 14179.7, "growth_pct": 86.0, "cagr_pct": 9.3}, {"hs": "88", "name": "Aircraft & spacecraft", "series": [7615.4, 9971.3, 5744.1, 4995.8, 11169.7, 12697.5, 13911.6, 13774.8], "first": 7615.4, "latest": 13774.8, "growth_pct": 80.9, "cagr_pct": 8.8}];
+  var topExports = [{"hs": "27", "name": "Mineral fuels & oils", "series": [47920.3, 42708.8, 26907.7, 69570.1, 101241.9, 87602.4, 67046.0, 55871.2], "first": 47920.3, "latest": 55871.2, "growth_pct": 16.6, "cagr_pct": 2.2}, {"hs": "85", "name": "Electrical machinery", "series": [12727.8, 15187.8, 14213.9, 20178.7, 28608.6, 34412.5, 44049.6, 53976.3], "first": 12727.8, "latest": 53976.3, "growth_pct": 324.1, "cagr_pct": 22.9}, {"hs": "84", "name": "Machinery, mechanical appliances", "series": [20965.5, 20835.0, 18954.0, 25410.1, 27476.8, 30057.1, 33475.2, 36629.6], "first": 20965.5, "latest": 36629.6, "growth_pct": 74.7, "cagr_pct": 8.3}, {"hs": "71", "name": "Pearls, gems & jewellery", "series": [40449.2, 36085.9, 26163.9, 39268.6, 38112.5, 32853.1, 29958.4, 28343.8], "first": 40449.2, "latest": 28343.8, "growth_pct": -29.9, "cagr_pct": -5.0}, {"hs": "87", "name": "Vehicles", "series": [18096.3, 16711.8, 13640.3, 19762.5, 21219.9, 20889.3, 22648.4, 25973.4], "first": 18096.3, "latest": 25973.4, "growth_pct": 43.5, "cagr_pct": 5.3}, {"hs": "30", "name": "Pharmaceuticals", "series": [14754.1, 16289.3, 19384.0, 19396.2, 19861.9, 22105.8, 24577.8, 25073.4], "first": 14754.1, "latest": 25073.4, "growth_pct": 69.9, "cagr_pct": 7.9}, {"hs": "29", "name": "Organic chemicals", "series": [18239.6, 17487.3, 17949.7, 22048.8, 21377.4, 20311.5, 20120.7, 20408.8], "first": 18239.6, "latest": 20408.8, "growth_pct": 11.9, "cagr_pct": 1.6}, {"hs": "10", "name": "Cereals", "series": [8160.2, 6672.4, 10103.5, 12882.0, 13860.6, 10994.0, 12752.4, 12007.5], "first": 8160.2, "latest": 12007.5, "growth_pct": 47.1, "cagr_pct": 5.7}, {"hs": "73", "name": "Iron/steel articles", "series": [7290.2, 7034.7, 6596.8, 8838.5, 9812.0, 9939.1, 10179.4, 10409.0], "first": 7290.2, "latest": 10409.0, "growth_pct": 42.8, "cagr_pct": 5.2}, {"hs": "72", "name": "Iron & steel", "series": [9742.0, 9277.5, 12123.9, 22906.2, 13397.5, 11859.4, 9251.1, 10316.6], "first": 9742.0, "latest": 10316.6, "growth_pct": 5.9, "cagr_pct": 0.8}, {"hs": "62", "name": "Apparel, not knitted", "series": [8336.0, 7994.8, 5941.9, 7845.6, 8494.0, 7804.4, 8303.1, 8172.5], "first": 8336.0, "latest": 8172.5, "growth_pct": -2.0, "cagr_pct": -0.3}, {"hs": "61", "name": "Apparel, knitted", "series": [7820.4, 7514.8, 6348.0, 8175.1, 7710.1, 6740.6, 7703.9, 7642.1], "first": 7820.4, "latest": 7642.1, "growth_pct": -2.3, "cagr_pct": -0.3}];
+
+  function fmtBn(n) { return "$" + (n/1000).toFixed(1) + "bn"; }
+  function fmtPct(n) { return (n >= 0 ? "+" : "") + n.toFixed(1) + "%"; }
+
+  var svgns = "http://www.w3.org/2000/svg";
+  function el(tag, attrs) {
+    var e = document.createElementNS(svgns, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    return e;
+  }
+
+  function sparkPath(values, w, h) {
+    var vMin = Math.min.apply(null, values), vMax = Math.max.apply(null, values);
+    var pad = (vMax - vMin) * 0.12 || vMax * 0.1 || 1;
+    vMin -= pad; vMax += pad;
+    var pts = values.map(function (v, i) {
+      var x = (i / (values.length - 1)) * w;
+      var y = h - ((v - vMin) / (vMax - vMin)) * h;
+      return [x, y];
+    });
+    return pts.map(function (p, i) { return (i === 0 ? "M" : "L") + p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" ");
+  }
+
+  function buildPanelGrid(containerId, rows) {
+    var grid = document.getElementById(containerId);
+    rows.forEach(function (r, idx) {
+      var w = 200, h = 46;
+      var path = sparkPath(r.series, w, h);
+      var panel = document.createElement("div");
+      panel.className = "panel";
+      var growthColor = r.growth_pct >= 0 ? "var(--pos-bar)" : "var(--neg-bar)";
+      panel.innerHTML =
+        '<div class="panel-top"><div><div class="panel-rank">#' + (idx + 1) + ' &middot; HS' + r.hs + '</div><div class="panel-name">' + r.name + '</div></div>' +
+        '<div class="panel-growth" style="color:' + growthColor + '">' + fmtPct(r.growth_pct) + '</div></div>' +
+        '<svg class="panel-svg" viewBox="0 0 ' + w + ' ' + h + '" preserveAspectRatio="none">' +
+        '<path d="' + path + '" fill="none" stroke="var(--data-line)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />' +
+        '</svg>' +
+        '<div class="panel-foot"><span>FY18-19: ' + fmtBn(r.first) + '</span><span class="panel-latest">' + fmtBn(r.latest) + '</span></div>';
+      grid.appendChild(panel);
+    });
+  }
+  buildPanelGrid("importGrid", topImports);
+  buildPanelGrid("exportGrid", topExports);
+
+  // ---- Stat strip ----
+  var statStrip = document.getElementById("statStrip");
+  var stats = [
+    { label: "Fastest-growing big import", value: "Fertilisers", sub: "<b>+118.9%</b> since FY2018-19 (11.8% CAGR)" },
+    { label: "Import concentration", value: "81.5%", sub: "of all FY2025-26 imports sit in just <b>12 of 98</b> chapters" },
+    { label: "Largest single import", value: "$203.4bn", sub: "HS27 mineral fuels &amp; oils — but only <b>+21.2%</b> growth" },
+    { label: "Notable export decliner", value: "-29.9%", sub: "HS71 pearls, gems &amp; jewellery — the steepest-shrinking top-12 chapter" }
+  ];
+  stats.forEach(function (s) {
+    var elx = document.createElement("div");
+    elx.className = "stat-tile";
+    elx.innerHTML = '<div class="stat-label">' + s.label + '</div><div class="stat-value">' + s.value + '</div><div class="stat-sub">' + s.sub + '</div>';
+    statStrip.appendChild(elx);
+  });
+
+  // ---- CAGR-ranked bar chart (import chapters, sorted by CAGR) ----
+  var cagrSorted = topImports.slice().sort(function (a, b) { return b.cagr_pct - a.cagr_pct; });
+  var csvg = document.getElementById("cagrChart");
+  var CW = 1000, CH = 460, CpadL = 220, CpadR = 90, CpadT = 16, CpadB = 16;
+  var CplotW = CW - CpadL - CpadR;
+  var rowH = (CH - CpadT - CpadB) / cagrSorted.length;
+  var maxCagr = Math.max.apply(null, cagrSorted.map(function (r) { return r.cagr_pct; }));
+  var scale = CplotW / maxCagr;
+
+  var cagrTooltip = document.getElementById("cagrTooltip");
+  var cchartCard = csvg.parentElement;
+
+  cagrSorted.forEach(function (r, i) {
+    var y0 = CpadT + i * rowH;
+    var barH = rowH * 0.6;
+    var barW = r.cagr_pct * scale;
+    var rect = el("rect", { x: CpadL, y: y0 + (rowH - barH) / 2, width: Math.max(barW,1), height: barH, fill: "var(--data-line)" });
+    csvg.appendChild(rect);
+
+    var catLbl = el("text", { x: CpadL - 12, y: y0 + rowH / 2 + 4, class: "cat-label", "text-anchor": "end" });
+    catLbl.textContent = "HS" + r.hs + " " + r.name;
+    csvg.appendChild(catLbl);
+
+    var valLbl = el("text", { x: CpadL + barW + 8, y: y0 + rowH / 2 + 4, class: "bar-label", "text-anchor": "start" });
+    valLbl.textContent = r.cagr_pct.toFixed(1) + "%/yr";
+    csvg.appendChild(valLbl);
+
+    rect.addEventListener("mousemove", function (evt) {
+      var cardRect = cchartCard.getBoundingClientRect();
+      var svgRect = csvg.getBoundingClientRect();
+      var scaleX = svgRect.width / CW, scaleY = svgRect.height / CH;
+      var px = (svgRect.left - cardRect.left) + (CpadL + barW) * scaleX;
+      var py = (svgRect.top - cardRect.top) + (y0 + rowH/2) * scaleY;
+      cagrTooltip.style.left = px + "px";
+      cagrTooltip.style.top = (py - 10) + "px";
+      cagrTooltip.style.transform = "translate(0, -100%)";
+      cagrTooltip.style.opacity = 1;
+      cagrTooltip.innerHTML = "<b>HS" + r.hs + " " + r.name + "</b><br>CAGR: " + r.cagr_pct.toFixed(1) + "%/yr &nbsp; Total growth: " + fmtPct(r.growth_pct) + "<br>" + fmtBn(r.first) + " &rarr; " + fmtBn(r.latest);
+    });
+    rect.addEventListener("mouseleave", function () { cagrTooltip.style.opacity = 0; });
+  });
+
+  // ---- tables ----
+  function buildTable(tableId, rows) {
+    var table = document.getElementById(tableId);
+    var thead = "<thead><tr><th>HS</th><th>Commodity</th>" + years.map(function (y) { return "<th>FY" + y + "</th>"; }).join("") + "<th>Growth</th><th>CAGR</th></tr></thead>";
+    var trows = rows.map(function (r) {
+      return "<tr><td>" + r.hs + "</td><td>" + r.name + "</td>" + r.series.map(function (v) { return "<td>" + v.toLocaleString() + "</td>"; }).join("") + "<td>" + fmtPct(r.growth_pct) + "</td><td>" + r.cagr_pct.toFixed(1) + "%</td></tr>";
+    }).join("");
+    table.innerHTML = thead + "<tbody>" + trows + "</tbody>";
+  }
+  buildTable("importTable", topImports);
+  buildTable("exportTable", topExports);
+})();
+</script>
+
+
+<div style="background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em;color:#212529"><strong>Related on this blog:</strong> <a href="https://masaladeutsch.blogspot.com/2026/08/indias-8-digit-trade-book-searchable.html">India's 8-Digit Trade Book, Searchable</a> &middot; <a href="https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html">China Supplies 8 of India's 12 Fastest-Growing High-Value Imports</a> &mdash; the underlying HSN-8 register this chapter-growth read is drawn from, and the China-specific cut of the same fastest-growing-imports question.</div>
+
+<h2 class="block-title">What would fix this</h2>
+<ul>
+<li><b>DGCI&amp;S should offer a bulk download of the full chapter-level export and import series for every fiscal year on TRADESTAT</b>, so analysts are not forced to open a session and pull two fiscal years per query to build an eight-year history.</li>
+<li><b>DGCI&amp;S should mark each fiscal year&rsquo;s figures in TRADESTAT as provisional or final, with the date of the last revision</b>, so an endpoint such as FY2025-26 is not mistaken for a complete, settled year when growth rates are computed.</li>
+<li><b>DGCI&amp;S should publish quantity alongside value at chapter level for volatile chapters such as fertilisers and mineral fuels</b>, so it is possible to tell how much of a spike or collapse is price and how much is volume.</li>
+<li><b>The Department of Commerce should show the annual series or the peak year beside any multi-year growth rate it cites for a trade chapter in official releases</b>, so round trips like iron and steel exports are not presented as steady growth.</li>
+</ul>
+<p>These are proposals from this blog, not recommendations any agency has adopted.</p>
+
+<p class="disclaimer" data-gs-ai-disclosure-v1="1" style="font-size:.82rem;color:#555;margin-top:14px"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+<style>/*gs-chart-vars-v1 — restores CHART colour tokens removed by the 2026-08-06 normalisation. Values verbatim from 4e1d79f. Custom properties only; no element is styled here. Text/surface tokens deliberately NOT restored: they were written for a dark surface and would put light text on a light page.*/
+:root{--data-line:#2a78d6;--neg-bar:#a5402c;--pos-bar:#2a78d6;}
+</style>
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>

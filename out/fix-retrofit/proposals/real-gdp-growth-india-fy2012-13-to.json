@@ -1,0 +1,9 @@
+{
+ "mode": "add",
+ "proposals": [
+  "<b>MoSPI should publish a single revision-history table giving every estimate of each year's real GDP growth, from First Advance to the latest revision, with release dates</b>, so users can see how far the first figure moved &mdash; by as much as 2 percentage points in recent years &mdash; without assembling it themselves.",
+  "<b>MoSPI should add the missing early-stage estimates for FY2012&ndash;13 and FY2013&ndash;14 to its NAS data on api.mospi.gov.in, or state in the metadata that they do not exist</b>, so a gap in the series is not mistaken for a year with no revision.",
+  "<b>MoSPI should restore the NAS indicator-list endpoint on its data API and publish a status and changelog page for API faults and fixes</b>, so users of the official machine-readable series know when an endpoint is broken and when it is repaired.",
+  "<b>MoSPI should print, beside each new First Advance Estimate, the average and largest absolute revision seen at that stage over the previous ten years</b>, so a headline growth figure is read together with how much such figures have typically changed."
+ ]
+}

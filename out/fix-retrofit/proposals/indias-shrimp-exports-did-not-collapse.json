@@ -1,0 +1,10 @@
+{
+ "mode": "add",
+ "proposals": [
+  "<b>DGCI&amp;S should publish an official 8-digit concordance table with every ITC-HS revision, mapping each retired code to its successor codes and the year of handover</b>, so pairings such as 03061790 to 03061720 for shrimp are official mappings rather than an analyst's inference.",
+  "<b>DGCI&amp;S should record the quantity unit for each code by year in its TradeStat files, not once per code</b>, so a switch from tonnes to kilogrammes &mdash; found here on codes carrying 14.1% of import value &mdash; is visible in the data rather than silently corrupting unit values.",
+  "<b>DGCI&amp;S should mark every retired code with its effective retirement date, not just an asterisk on the description</b>, since the asterisk catches only about a quarter of codes that actually stop trading and 46 asterisked codes still carry FY2025-26 value.",
+  "<b>DGCI&amp;S should make FY2021-22 commodity-wise 8-digit export values available in the same TradeStat format as other years</b>, so the eight-year series used here does not have to show a gap for a year that is present in the quantity files.",
+  "<b>The Ministry of Commerce should publish, with each annual export release, the share of export value booked on codes created or retired since the previous HS revision</b>, so readers know when a headline collapse, like the 95% fall on the old shrimp code, may be recoding rather than trade."
+ ]
+}

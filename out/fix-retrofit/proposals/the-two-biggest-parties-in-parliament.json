@@ -1,0 +1,9 @@
+{
+ "mode": "add",
+ "proposals": [
+  "<b>The Lok Sabha Secretariat should publish a documented, open data service for parliamentary questions that includes full question and answer text in machine-readable form</b>, so analysis like this does not rely on an undocumented API that exposes only subject lines and leaves answers in PDFs.",
+  "<b>The Rajya Sabha Secretariat should add answer text in machine-readable form to its question data</b>, since it already provides full question text but, like the Lok Sabha, publishes answers only as PDF documents.",
+  "<b>The Lok Sabha and Rajya Sabha Secretariats should adopt common party codes and ministry names across both Houses</b>, so 'SHSUBT' and 'SS-UBT', or 'Road Transport &amp; Highways' and 'Road Transport and Highways', do not need to be reconciled by hand before any cross-chamber total is possible.",
+  "<b>Both Secretariats should attach a stable unique member identifier to every question in their published data</b>, so questions can be matched to MPs and parties without name-spelling reconciliation, which left 138 Lok Sabha questions unattributed in this dataset."
+ ]
+}
