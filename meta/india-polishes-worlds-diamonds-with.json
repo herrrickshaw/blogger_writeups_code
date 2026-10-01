@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
   "slug": "india-polishes-worlds-diamonds-with",
   "published": "2026-09-30T06:03:05.000+05:30",
-  "updated": "2026-09-30T06:15:57.840+05:30",
+  "updated": "2026-10-01T09:05:27.045+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26429,
-  "sha256": "fbddabd3eb15e94f4f443bd433b152ea693711d26f7507b974e9bca710727899",
+  "bytes": 26548,
+  "sha256": "fd3e474aac0d559071d3bd9746de44319aea0acf29e9fe23ba25fa4b1f4ff207",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: diamond polishing powder and lab-grown diamonds"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26429,
+        26548
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }

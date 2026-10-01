@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "slug": "indias-labour-codes-took-six-years-to",
   "published": "2026-09-16T13:11:13.000+05:30",
-  "updated": "2026-09-18T19:49:42.355+05:30",
+  "updated": "2026-10-01T09:17:49.670+05:30",
   "labels": [],
-  "bytes": 20322,
-  "sha256": "3fa6a95bdbacc77e209d293e38db9734c884ad11e2acd0e916618fd52b57267a",
+  "bytes": 21645,
+  "sha256": "e7bb7196a4d017e374f063120f4b48345e2b7890993c2b32ae4f541df78f28b5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.2",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -79,6 +79,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        20322,
+        21645
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }

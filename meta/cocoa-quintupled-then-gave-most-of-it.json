@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html",
   "slug": "cocoa-quintupled-then-gave-most-of-it",
   "published": "2026-09-30T03:34:12.000+05:30",
-  "updated": "2026-09-30T03:53:11.176+05:30",
+  "updated": "2026-10-01T09:05:46.768+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Trade & Tariffs"
   ],
-  "bytes": 33319,
-  "sha256": "336666e31f02b762bef381bab24384418dc10ff39db53255f0e95c4f0b183e7f",
+  "bytes": 33438,
+  "sha256": "72cb8fc4edd19e14817b648f876b0e5c530c1e08b2f1af5ca21a27bb70ad0e4b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: cocoa, vanilla and climate-driven prices"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        33319,
+        33438
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }

@@ -13595,3 +13595,26 @@ Rule 8 retrofit: added What would fix this section
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `every-litre-of-petrol-pays-5-for-roads` — 2026-10-01 &rarr; 2026-10-01
+
+## 2026-10-01T09:18:17+05:30 — 335 posts live
+
+Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections
+
+
+**Versions**
+
+- `every-litre-of-petrol-pays-5-for-roads` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+24/-0 distinct numbers))
+- `india-sells-world-about-third-of-its` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `india-polishes-worlds-diamonds-with` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `cocoa-quintupled-then-gave-most-of-it` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `one-nation-one-gst-rate-what-true-flat` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+- `indias-labour-codes-took-six-years-to` **1.2.2 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+0/-0 distinct numbers))
+
+**Changed**
+
+- `every-litre-of-petrol-pays-5-for-roads` — 24,803 → 32,824 bytes (+8,021)
+- `india-sells-world-about-third-of-its` — 25,238 → 25,357 bytes (+119)
+- `india-polishes-worlds-diamonds-with` — 26,429 → 26,548 bytes (+119)
+- `cocoa-quintupled-then-gave-most-of-it` — 33,319 → 33,438 bytes (+119)
+- `one-nation-one-gst-rate-what-true-flat` — 26,723 → 26,842 bytes (+119)
+- `indias-labour-codes-took-six-years-to` — 20,322 → 21,645 bytes (+1,323)

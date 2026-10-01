@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
   "slug": "one-nation-one-gst-rate-what-true-flat",
   "published": "2026-09-29T17:37:19.000+05:30",
-  "updated": "2026-09-29T17:47:32.631+05:30",
+  "updated": "2026-10-01T09:05:53.509+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26723,
-  "sha256": "e9874845d4a593ab31dd970b41e8fa0d159834ec34478dea3c6ad52bc00bef1d",
+  "bytes": 26842,
+  "sha256": "b901ed589d30e17cc5b7c9cdcab9a3c9869233b3c5e92116e0e9e457d2c08b59",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: One Nation, One GST Rate"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        26723,
+        26842
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }

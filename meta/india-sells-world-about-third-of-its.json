@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html",
   "slug": "india-sells-world-about-third-of-its",
   "published": "2026-09-30T06:12:49.000+05:30",
-  "updated": "2026-09-30T06:16:05.726+05:30",
+  "updated": "2026-10-01T09:05:19.202+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 25238,
-  "sha256": "32bfb613e10f08719b7cfba8be4ebb483e13f11b9d50eefad701fd86bce9d802",
+  "bytes": 25357,
+  "sha256": "9a2e008774e8b8fc1d7f45aff52b74329c54c15dccdbfb2c42581af6b07418a0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Delete duplicate diamond post; new post: oleoresin market"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (visible text identical; only markup/styling changed)",
+      "bytes": [
+        25238,
+        25357
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }

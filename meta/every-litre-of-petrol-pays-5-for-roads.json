@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html",
   "slug": "every-litre-of-petrol-pays-5-for-roads",
   "published": "2026-10-01T05:41:33.000+05:30",
-  "updated": "2026-10-01T05:43:22.124+05:30",
+  "updated": "2026-10-01T09:17:58.461+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 24803,
-  "sha256": "1889976a82f0acc1e5cf0b53c04511535aa786817a18dbe08301ac0d9f5ce4ab",
+  "bytes": 32824,
+  "sha256": "488cec8c5ade417ec722c5bc7960205374fe1de73e1664f7a3b87225d35f7eca",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "New post: road cess in fuel prices and the EV gap"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:18:17+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+24/-0 distinct numbers))",
+      "bytes": [
+        24803,
+        32824
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
     }
   ]
 }
