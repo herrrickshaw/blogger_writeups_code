@@ -262,7 +262,7 @@ OVERRIDE = {
     "every-litre-of-petrol-pays-5-for-roads": ["Energy & Fuels", "Mobility & EV", "Macroeconomics & Monetary Policy"],
     # Cotton-stalk / crop-residue biogas post (2026-10-01); slug is Blogger's
     # expected one for the title -- check against --plan after insert.
-    "cotton-stalk-is-one-of-hardest-crop": ["Agriculture & Fertilisers", "Energy & Fuels", "Climate & Carbon"],
+    "paddy-straw-wheat-straw-cotton-stalk-how": ["Agriculture & Fertilisers", "Energy & Fuels", "Climate & Carbon"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
