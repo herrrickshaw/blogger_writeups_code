@@ -4,5 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ts are directed to accept, so the 36.54 per cent of surveyed Mansa beekeepers stopped at...
+  suggested: percent

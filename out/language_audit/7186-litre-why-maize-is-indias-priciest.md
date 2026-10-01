@@ -43,3 +43,9 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...etrol sold in India carries the E20 (20 per cent ethanol) blend as the mandated standard...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... so state falls like Uttar Pradesh's 37 per cent in maize can be checked against a prima...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...omplete season is not mistaken for a 95 per cent collapse in area.  The Ministry of Petr...
+  suggested: percent

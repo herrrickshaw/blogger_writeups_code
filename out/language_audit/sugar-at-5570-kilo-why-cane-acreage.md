@@ -22,3 +22,6 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...e sugarcane costs have risen roughly 16 per cent since 2022-23, and that at current suga...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...m of static ethanol prices against a 16 per cent rise in cane costs can be checked.  The...
+  suggested: percent

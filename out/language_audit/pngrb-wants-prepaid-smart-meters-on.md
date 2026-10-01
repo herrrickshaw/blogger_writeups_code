@@ -7,3 +7,6 @@
 - **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘deposit’ seems to be countable.
   context: ...9,000 interest-free refundable security deposit currently charged for a smart-meter dom...
   suggested: deposits
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...hical area, so that the self-reported 9 per cent default rate and ₹8,500 average outstan...
+  suggested: percent

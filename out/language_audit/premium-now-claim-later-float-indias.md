@@ -103,6 +103,9 @@
 - **[GRAMMAR/THIS_NNS]** The singular determiner ‘this’ may not agree with the plural noun ‘changes’. Did you mean “these”?
   context: What none of this changes yet is the asset side. A privat...
   suggested: these
+- **[GRAMMAR/COLLECTIVE_NOUN_VERB_AGREEMENT_VBP]** Possible verb agreement error. Did you mean “buckets”? (Some collective nouns can be treated as both singular and plural, so ‘bucket’ is not always incorrect.)
+  context: ...rs' holdings by Category of Investments bucket, A to E, so the share of insurance floa...
+  suggested: buckets
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...lised insurers raising exposure about 8 per cent to assets whose prices had fallen while...
   suggested: percent

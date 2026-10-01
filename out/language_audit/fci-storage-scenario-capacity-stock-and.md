@@ -7,3 +7,6 @@
 - **[GRAMMAR/REPEATED_VERBS]** You’ve repeated a verb. Did you mean to only write one of them?
   context: ... actually constrains this system  FCI's own owned covered-storage capacity is only about ...
   suggested: own, owned
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...r type, so the cost of renting about 70 per cent of its capacity can be compared with th...
+  suggested: percent

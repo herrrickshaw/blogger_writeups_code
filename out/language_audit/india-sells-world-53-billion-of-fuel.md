@@ -7,3 +7,9 @@
 - **[GRAMMAR/THERE_MISSING_VERB]** A verb may be missing.
   context: ...surplus argument is to add ethanol, and here the picture divides in a way that matte...
   suggested: here are
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...b-headings 271012 and 271019, so a 15.3 per cent fall in refined-fuel export value can b...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... estimates of 2,000 crore litres and 60 per cent utilisation.  These are proposals from ...
+  suggested: percent

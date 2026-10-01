@@ -9,3 +9,6 @@
   suggested: rejected, rejecting
 - **[GRAMMAR/PROGRESSIVE_VERBS]** The verb ‘depend’ can be stative. If ‘depending’ describes a state, change the sentence structure and use the base form of the verb.
   context: ...automakers in the US, Germany and Japan were already depending on Taiwan to resolve.  Taiwan didn't so...
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ment comparable to TSMC's reported 90.3 per cent rather than a framework mention of recy...
+  suggested: percent

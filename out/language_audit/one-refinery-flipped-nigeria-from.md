@@ -10,3 +10,6 @@
 - **[GRAMMAR/WORLDS_BEST]** The possessive apostrophe may be missing.
   context: ...ia from a fuel importer to an exporter. Worlds largest crude destillation column Dango...
   suggested: World's
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ct imports and exports, so Dangote’s 57 per cent share of fuel supply and Nigeria’s repo...
+  suggested: percent

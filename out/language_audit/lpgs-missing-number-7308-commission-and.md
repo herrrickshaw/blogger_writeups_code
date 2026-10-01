@@ -7,3 +7,6 @@
 - **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘figure’ seems to be countable.
   context: ...rgins, and the ₹437 crore UPI incentive figure — as verified in this blog’s fuel-retai...
   suggested: figures
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ed, so distributors know whether a 7.76 per cent margin is exposed before the fee takes ...
+  suggested: percent

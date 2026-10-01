@@ -4,9 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/ADMIT_ENJOY_VB]** The verb ‘reported’ is used with the gerund form.
-  context: ...a's Mopa airport, by contrast, are both reported to run on tanker-fed fuel farms today, which i...
-  suggested: reported running
 - **[GRAMMAR/NODT_DOZEN]** Use “a million”, or use a number before ‘million’.
   context: ...By Capacity Authorised or bid capacity, million tonnes a year (MMTPA) Bengaluru, 2nd li...
   suggested: a million

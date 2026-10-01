@@ -4,8 +4,12 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
-- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...tatement that the duty applies to 60–65 per cent of exports while 45 per cent are exempt...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...s to 60–65 per cent of exports while 45 per cent are exempt can be reconciled.  The Depa...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...o that the analyst estimates of a 40–50 per cent fall in order volume can be tested agai...
+  suggested: percent

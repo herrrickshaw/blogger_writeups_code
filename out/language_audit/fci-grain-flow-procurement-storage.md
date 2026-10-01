@@ -10,3 +10,6 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...r against ₹498 an hour on diesel — a 24 per cent saving, or about ₹120 an hour, before c...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...f the pool, such as Punjab's roughly 47 per cent of wheat, is not available only for a s...
+  suggested: percent

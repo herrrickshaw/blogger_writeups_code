@@ -13,3 +13,9 @@
 - **[GRAMMAR/NODT_DOZEN]** Use “a million”, or use a number before ‘million’.
   context: ...percentage of population connected, not million litres per day. On that metric, 80.7% o...
   suggested: a million
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...fixed publication cycle, so that the 44 per cent installed and roughly 28 per cent utili...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...he 44 per cent installed and roughly 28 per cent utilised figures are not still the late...
+  suggested: percent

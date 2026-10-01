@@ -7,3 +7,6 @@
 - **[GRAMMAR/HE_VERB_AGR]** The singular proper name ‘Forest’ must be used with a third-person or a past tense verb.
   context: ...final diversion orders granted:  Forest land inside a wildlife sanctuary like Mhadei...
   suggested: lands, landed
+- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘figure’ seems to be countable.
+  context: ...stort the 1.05 million hectare pipeline figure that users of the register will quote. ...
+  suggested: figures

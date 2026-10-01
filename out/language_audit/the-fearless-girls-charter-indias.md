@@ -22,3 +22,6 @@
 - **[GRAMMAR/THE_SUPERLATIVE]** A determiner may be missing.
   context: ...ome as investor protection, but landing hardest on the same small, patient saver the ma...
   suggested: the hardest
+- **[GRAMMAR/THE_SUPERLATIVE]** A determiner may be missing.
+  context: ...rgument that the 2024 rate changes land hardest on small, patient savers can be tested ...
+  suggested: the hardest

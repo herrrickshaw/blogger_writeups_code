@@ -13,3 +13,6 @@
 - **[GRAMMAR/GOING_TO_VBD]** The verb after ‘going to’ requires the base form.
   context: ...ry, with the strongest ratings going to integrated sugar mills with forward-linked ethanol...
   suggested: integrate
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...producing state, so that the roughly 60 per cent absorption rate and the Maharashtra sur...
+  suggested: percent

@@ -22,3 +22,9 @@
 - **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘figure’ seems to be countable.
   context: ...all fraction of an ₹8,000-13,000 all-in figure. The pipeline segment, in other words, ...
   suggested: figures
+- **[GRAMMAR/PHRASE_REPETITION]** This phrase is duplicated. You should probably use “side by” only once.
+  context: ...Gt, 359 Gt and 1.2 Gt storage estimates side by side by storage medium and scope, stating which...
+  suggested: side by
+- **[GRAMMAR/CD_NN]** Possible agreement error. The noun ‘estimate’ seems to be countable.
+  context: ...ap between India's ₹8,000–13,000 all-in estimate and the global $40–60 figure is settled...
+  suggested: estimates

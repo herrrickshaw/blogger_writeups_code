@@ -16,3 +16,6 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ntire 57.4 GW fleet represents barely 8 per cent utilisation of the national onshore res...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ntial, state by state, so the roughly 8 per cent national utilisation figure — and which...
+  suggested: percent

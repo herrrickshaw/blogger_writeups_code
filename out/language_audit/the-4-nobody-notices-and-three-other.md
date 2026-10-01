@@ -4,6 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[CONFUSED_WORDS/BY_BUY]** Did you maybe mean “buy” or “be”?
-  context: ...r, health, fire, crop, all of it — must by regulation cede a fixed share of its pr...
-  suggested: buy, be
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>
+- ERROR checking chunk: <urlopen error [Errno 8] nodename nor servname provided, or not known>

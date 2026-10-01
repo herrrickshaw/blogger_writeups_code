@@ -28,3 +28,9 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ng: PNGRB's "98 per cent population, 88 per cent geography" coverage figure describes li...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...al PNG connection available, so the '98 per cent population, 88 per cent geography' figu...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...ble, so the '98 per cent population, 88 per cent geography' figure is never the only cov...
+  suggested: percent

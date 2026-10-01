@@ -6,3 +6,6 @@
 
 - **[GRAMMAR/A_INFINITIVE]** The verb ‘overcount’ does not usually follow articles like ‘an’. Check that ‘overcount’ is spelled correctly; using ‘overcount’ as a noun may be non-standard.
   context: ...scopic-diagnostics import exposure, not an overcount, once capsule devices, disposable scope...
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...so it can be established whether the 57 per cent export coverage reflects Indian manufac...
+  suggested: percent
