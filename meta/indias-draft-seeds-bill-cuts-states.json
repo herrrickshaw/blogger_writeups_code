@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-draft-seeds-bill-cuts-states.html",
   "slug": "indias-draft-seeds-bill-cuts-states",
   "published": "2026-09-10T08:27:41.000+05:30",
-  "updated": "2026-09-26T07:49:05.390+05:30",
+  "updated": "2026-10-01T08:33:24.684+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India",
     "Industrial Policy",
     "Seeds & Plant Genetics"
   ],
-  "bytes": 23051,
-  "sha256": "f88262c5ded62569077dcf719b7b69284e65423235f21f8cbc0923eceef6e513",
+  "bytes": 24660,
+  "sha256": "a1f819e500c6fadd9bf660b7c57b09306b0c31e23201c1c347d5691ad481e18f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23051,
+        24660
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

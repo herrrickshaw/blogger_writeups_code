@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rare-earth-magnets-and-specialty-steel.html",
   "slug": "rare-earth-magnets-and-specialty-steel",
   "published": "2026-08-05T12:10:49.000+05:30",
-  "updated": "2026-09-18T20:00:35.256+05:30",
+  "updated": "2026-10-01T08:45:56.775+05:30",
   "labels": [
     "Chemicals",
     "Industrial Policy"
   ],
-  "bytes": 21745,
-  "sha256": "d450b6422e66a6fc63c3c49a32ca0a597bf8b545d8d014491f12bee11bddc456",
+  "bytes": 23150,
+  "sha256": "1ce30db06ee033582fad596d8885c75085ef41293206737422d682caa0296d3c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.6",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -243,6 +243,19 @@
         ]
       },
       "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        21745,
+        23150
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

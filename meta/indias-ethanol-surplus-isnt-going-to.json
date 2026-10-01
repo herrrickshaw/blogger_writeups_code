@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-ethanol-surplus-isnt-going-to.html",
   "slug": "indias-ethanol-surplus-isnt-going-to",
   "published": "2026-08-05T16:50:47.000+05:30",
-  "updated": "2026-09-11T00:14:07.679+05:30",
+  "updated": "2026-10-01T08:34:04.491+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 24746,
-  "sha256": "8ed774f2bf860537d0d49d29315b5af474fe7fa2a8756a1b9dbf60cc6844a804",
+  "bytes": 25966,
+  "sha256": "c36ea8b52bcb8f6a0bb66d30e1f699ca570490e06733691bd325aec7f7f2c887",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -234,6 +234,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24746,
+        25966
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

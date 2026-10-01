@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-09-18T20:12:02.148+05:30",
+  "updated": "2026-10-01T09:01:56.958+05:30",
   "labels": [
     "Markets & Finance",
     "Sustainable Finance"
   ],
-  "bytes": 23967,
-  "sha256": "e6957fc4ed04c8bf8b042ae6ca46e78a8b2e68f969a3e51158b72ee8fbf55080",
+  "bytes": 25254,
+  "sha256": "9bf7fca17daa5de1e69b24a7685326c0dffbd6cc73c0cb1a1231c69cbe120297",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23967,
+        25254
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

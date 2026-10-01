@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-09-26T07:51:20.528+05:30",
+  "updated": "2026-10-01T08:21:53.002+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 22076,
-  "sha256": "edadb9204c2ac416de8a30398a18dfd4c356ee91a56d87574b7def436c0ae8bd",
+  "bytes": 23393,
+  "sha256": "e493e2175c5331aca51e112d435154f1db727d541ed779fc033e34afb17d8a20",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -282,6 +282,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        22076,
+        23393
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

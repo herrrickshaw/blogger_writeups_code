@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-79-lakh-crore-rural-water.html",
   "slug": "indias-79-lakh-crore-rural-water",
   "published": "2026-08-29T12:08:35.000+05:30",
-  "updated": "2026-09-27T18:42:05.468+05:30",
+  "updated": "2026-10-01T08:32:01.549+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Water Infrastructure Financing"
   ],
-  "bytes": 25110,
-  "sha256": "505ec007772dfaa9da44b368ff683e4079876cd3d4ebbcf6112e31de4b4aa56a",
+  "bytes": 26788,
+  "sha256": "056938a677d4c0f867f7c35262d7ab78d4d6b2a1bfab9872dd2d97b7dc273a49",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.4",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        25110,
+        26788
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/three-different-eu-rules-are-making.html",
   "slug": "three-different-eu-rules-are-making",
   "published": "2026-08-28T14:33:49.000+05:30",
-  "updated": "2026-09-26T09:51:16.615+05:30",
+  "updated": "2026-10-01T08:57:12.947+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Shipping & Maritime Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 28876,
-  "sha256": "3e302af91f2026d87ba479e4d03ce34d3fc9e28f0994b843da776dd4cfd355f0",
+  "bytes": 30228,
+  "sha256": "2694a800b5b9cbb74b02c5f0fe0f32008669fb495b0e40aa0e4ab05cd077ec68",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        28876,
+        30228
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

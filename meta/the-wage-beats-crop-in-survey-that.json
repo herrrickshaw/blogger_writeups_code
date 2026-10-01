@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-wage-beats-crop-in-survey-that.html",
   "slug": "the-wage-beats-crop-in-survey-that",
   "published": "2026-09-17T08:25:01.000+05:30",
-  "updated": "2026-09-17T09:05:12.234+05:30",
+  "updated": "2026-10-01T08:56:30.402+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 16746,
-  "sha256": "df1779af288dc3f7aaa391f0846d3b2d1847ae4f89998d2c68691b0a4f6b1159",
+  "bytes": 17996,
+  "sha256": "16f466c4604cbc54dc46ae33d138d1517093d64aa0062b73407ab9b2e04d82a5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -42,6 +42,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add rural unemployment-rate data (4.0%->4.3%->4.8%, verified directly via MoSPI's PLFS data API) to the rural farm-employment piece, complicating the moving-to-better-jobs reading"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        16746,
+        17996
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

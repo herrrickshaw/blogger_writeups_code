@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-1920s-rotor-thats-now-on-22-real.html",
   "slug": "the-1920s-rotor-thats-now-on-22-real",
   "published": "2026-08-30T22:16:33.000+05:30",
-  "updated": "2026-09-26T09:51:10.178+05:30",
+  "updated": "2026-10-01T08:50:27.271+05:30",
   "labels": [
     "Climate & Carbon",
     "Energy & Fuels",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 39655,
-  "sha256": "405582d8739b9103e16265bda4dddc9946f29aead47db9f03f0a425129448a2e",
+  "bytes": 41072,
+  "sha256": "31c36bf941457bfaf0f1b40140ff6a47e0579a98fd943177af2e238fe3d7fb79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.4",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39655,
+        41072
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/fipis-biggest-ask-is-getting-natural.html",
   "slug": "fipis-biggest-ask-is-getting-natural",
   "published": "2026-09-02T03:59:01.000+05:30",
-  "updated": "2026-09-27T18:45:36.134+05:30",
+  "updated": "2026-10-01T08:22:13.848+05:30",
   "labels": [
     "Gas & LNG",
     "Regulatory & Industry-Body Accountability"
   ],
-  "bytes": 34307,
-  "sha256": "74efe8686c9e6f3f16f5f48d66270a719a2702e3c6402982ee5ee7977a92d7a7",
+  "bytes": 35869,
+  "sha256": "c561e53d0cf790b1ec64e3cf8df82a4a3472a36828fcffd630489d3696b768f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        34307,
+        35869
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

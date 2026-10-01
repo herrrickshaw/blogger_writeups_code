@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "slug": "5071-items-you-cannot-import-and-rs",
   "published": "2026-08-23T04:16:49.000+05:30",
-  "updated": "2026-09-18T19:17:22.626+05:30",
+  "updated": "2026-10-01T08:11:16.302+05:30",
   "labels": [
     "Defence",
     "Import Substitution",
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 40840,
-  "sha256": "0ad19b65eedfe4f7319dd0bf99578e3cd3997001600d96b2acaef0bf1c85f661",
+  "bytes": 42310,
+  "sha256": "76724b75e0ad46454b5f783430960f730ed7103d5e7b74db337650deebd86cdc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.1",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -128,6 +128,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        40840,
+        42310
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

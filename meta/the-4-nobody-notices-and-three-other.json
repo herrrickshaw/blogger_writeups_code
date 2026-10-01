@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-4-nobody-notices-and-three-other.html",
   "slug": "the-4-nobody-notices-and-three-other",
   "published": "2026-09-01T08:40:28.000+05:30",
-  "updated": "2026-09-27T10:57:18.933+05:30",
+  "updated": "2026-10-01T08:50:35.338+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Crop Insurance & Risk",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 39254,
-  "sha256": "49f91a18b765cedf71e0cb9fd4e06ad4691ffafb081ca34b7e7fb96768afafe8",
+  "bytes": 40835,
+  "sha256": "58bd81fad1e0d343ebcce121b3f01fb70e0fb0bd299b30991719ed81c3596e7a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39254,
+        40835
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

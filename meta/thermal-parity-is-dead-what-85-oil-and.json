@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thermal-parity-is-dead-what-85-oil-and.html",
   "slug": "thermal-parity-is-dead-what-85-oil-and",
   "published": "2026-08-08T21:04:59.000+05:30",
-  "updated": "2026-09-11T00:09:38.984+05:30",
+  "updated": "2026-10-01T08:56:52.764+05:30",
   "labels": [
     "Energy & Fuels",
     "Markets & Finance"
   ],
-  "bytes": 31368,
-  "sha256": "b91e194cb1a5b063227f891716a536327d02dd7c56269028b16f481ce4291ceb",
+  "bytes": 32620,
+  "sha256": "4ba3a949565023ab4be1737d1484277139bc3cde57c0b51d6904498db43f567b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.4",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -225,6 +225,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        31368,
+        32620
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

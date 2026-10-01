@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/fourteen-states-reimburse-investors.html",
   "slug": "fourteen-states-reimburse-investors",
   "published": "2026-09-09T12:36:16.000+05:30",
-  "updated": "2026-09-26T10:58:24.240+05:30",
+  "updated": "2026-10-01T08:22:52.596+05:30",
   "labels": [
     "India",
     "Industrial Policy",
     "State Investment Incentives"
   ],
-  "bytes": 30868,
-  "sha256": "85142e802be90bc9451d2d00ddfaffa18564c4e849ab0e9962944857f8fb881c",
+  "bytes": 32538,
+  "sha256": "0b026370861f9def2f709c002a7bf269f3a73847a0806228cb78b36bff6a2d5b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.1",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        30868,
+        32538
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

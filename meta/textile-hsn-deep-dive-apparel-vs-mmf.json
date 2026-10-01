@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/textile-hsn-deep-dive-apparel-vs-mmf.html",
   "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-11T00:05:43.320+05:30",
+  "updated": "2026-10-01T08:50:06.942+05:30",
   "labels": [
     "Textiles"
   ],
-  "bytes": 20656,
-  "sha256": "e8ae10e3cbe0e1d2cb299884688162be7e7be508d930c7f9c124b38697aa7425",
+  "bytes": 21948,
+  "sha256": "84a20313c94f494e92632c8a64df89c6dd38aeba542e6b7b217564646149ca20",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -29,6 +29,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Publish new post distilling a user-supplied technical brief on SAF/CORSIA pathway certification: corn/maize ethanol-to-jet fails CORSIA's own default carbon-intensity test (90.8-100.6 gCO2e/MJ vs the 89 baseline), worse than the fossil jet fuel it would replace, while MoPNG has been actively promoting maize as an ethanol feedstock since Nov 2023. Also covers molasses having no default value on the ethanol-to-jet route India actually uses (only on the isobutanol route), India's SAF regulatory stack and targets, and the UCO feedstock collection gap. Independently re-verified the core CORSIA CI figures, India SAF target dates, and the IOCL Panipat/Cotecna certification claim via web search rather than taking the source brief on faith. Cross-links the existing isobutanol/ATJ post and the egg-price/maize-ethanol posts."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        20656,
+        21948
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

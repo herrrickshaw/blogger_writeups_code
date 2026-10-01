@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
   "slug": "everyone-worries-about-who-pays-for",
   "published": "2026-09-03T05:50:09.000+05:30",
-  "updated": "2026-09-28T08:38:13.471+05:30",
+  "updated": "2026-10-01T08:21:12.573+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 39710,
-  "sha256": "4432dbdd04d34102b40a4e45bc8a846c957beffa3362f563d34834fa674fd44b",
+  "bytes": 41390,
+  "sha256": "0be31c9c211effb609c3e32f6ee7ee4b8d77d659dd0334a007ccd1592e755157",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"₹8,000–13,000+/t\" value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the all-in-cost bar (white text, right-aligned)."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39710,
+        41390
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

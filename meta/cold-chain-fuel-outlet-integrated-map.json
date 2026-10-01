@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cold-chain-fuel-outlet-integrated-map.html",
   "slug": "cold-chain-fuel-outlet-integrated-map",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-27T18:43:42.139+05:30",
+  "updated": "2026-10-01T08:17:32.840+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "City Gas Distribution",
     "Gas & LNG"
   ],
-  "bytes": 20823,
-  "sha256": "750f7da5aa0597b54a623fd70c2aee07c90537148a61b6ca6aed17598da74877",
+  "bytes": 22187,
+  "sha256": "93a106057ae7cdeeb2c3688cd0af8a396113d521259729790fde825a6a193f43",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        20823,
+        22187
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

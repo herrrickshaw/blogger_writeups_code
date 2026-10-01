@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-60000-crore-api-push-traced-to.html",
   "slug": "indias-60000-crore-api-push-traced-to",
   "published": "2026-09-16T14:11:49.000+05:30",
-  "updated": "2026-09-26T10:58:01.952+05:30",
+  "updated": "2026-10-01T08:31:51.590+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 24304,
-  "sha256": "09c6f6c16f540b4172e478418104cf751717803e6d70a32eda6b2f17bb777b0a",
+  "bytes": 25791,
+  "sha256": "68c4ebc4fced50eaf98e81e9f513592d590b8a5cfc0a4aaec0c2e9258f8d0c4d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.3.1",
+  "version": "1.4.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.4.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24304,
+        25791
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

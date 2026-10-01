@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-coffee-crop-hasnt-grown-in.html",
   "slug": "indias-coffee-crop-hasnt-grown-in",
   "published": "2026-08-24T14:55:25.000+05:30",
-  "updated": "2026-09-27T18:42:40.049+05:30",
+  "updated": "2026-10-01T08:33:08.298+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 29453,
-  "sha256": "42965a05cf481c01186abe2c5d72b5f6f2fbf4a368e925426f527d5f1070d987",
+  "bytes": 30753,
+  "sha256": "05e17bc9bd2665c5556a589ba6a7f0c9227afd3d3fcfa38cda4854f9b9814777",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"256,695 t (~69%)\" Karnataka label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        29453,
+        30753
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

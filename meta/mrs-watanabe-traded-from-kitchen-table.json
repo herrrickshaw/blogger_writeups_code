@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/mrs-watanabe-traded-from-kitchen-table.html",
   "slug": "mrs-watanabe-traded-from-kitchen-table",
   "published": "2026-08-11T21:32:38.000+05:30",
-  "updated": "2026-09-26T17:02:17.701+05:30",
+  "updated": "2026-10-01T08:41:34.728+05:30",
   "labels": [
     "Markets & Finance",
     "Personal Finance & Retail Investing Access"
   ],
-  "bytes": 28387,
-  "sha256": "6c993d96ce0fbe2aee578b8cfbd1940ae8617c45e92448eda5919286bdb500a7",
+  "bytes": 29677,
+  "sha256": "23739f1c21aac0926ed051f096811bf6e3ea4def211b6799038fac1550753c7b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (source-line text overlapping the \"0%\" axis tick label) flagged by tools/svg_chart_lint.py by moving the 0% label closer to its tick and the source line further down."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        28387,
+        29677
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

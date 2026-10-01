@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/electrification-is-lngs-biggest.html",
   "slug": "electrification-is-lngs-biggest",
   "published": "2026-09-14T14:29:55.000+05:30",
-  "updated": "2026-09-27T18:44:59.001+05:30",
+  "updated": "2026-10-01T08:19:47.223+05:30",
   "labels": [
     "Climate & Carbon",
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 28448,
-  "sha256": "aa6840b328df99dfa892695c6106876e285bb54d117ddd706ac303934eb0550b",
+  "bytes": 29780,
+  "sha256": "2f07e7686ec2bc2f24e83da41e1cd1d5bd29bf306966ea76c7ef1de931a4977a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.1",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "SVG chart maintenance: fix 2 TEXT-HIDDEN-BY-RECT bugs (ethanol naphtha-export charts) and 16 OVERFLOW-RIGHT bugs (value labels/source captions running past canvas edge) across 15 posts, found via a full-archive svg_chart_lint.py scan"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        28448,
+        29780
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

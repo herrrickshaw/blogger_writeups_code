@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/379-kilos-hectare-in-punjab-44-in.html",
   "slug": "379-kilos-hectare-in-punjab-44-in",
   "published": "2026-08-22T07:25:22.000+05:30",
-  "updated": "2026-09-26T07:49:26.981+05:30",
+  "updated": "2026-10-01T08:11:04.994+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 66669,
-  "sha256": "bb27d2b258d0911f2e480ffd7a03480d039bb66c3d8352a844cb1c656ffd658b",
+  "bytes": 68609,
+  "sha256": "742c46683a156752535f441f0e0a123672fe3eb9a27b0115d6fe7d602e52de68",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        66669,
+        68609
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

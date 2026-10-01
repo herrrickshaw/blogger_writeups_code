@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/iem-conversion-historical-performance.html",
   "slug": "iem-conversion-historical-performance",
   "published": "2026-08-02T13:07:57.000+05:30",
-  "updated": "2026-09-10T23:23:12.194+05:30",
+  "updated": "2026-10-01T08:26:02.813+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 23618,
-  "sha256": "00d07e7a37e9d79407ac8ca4bb09a1d3bb6d29dcde78c7bc453ea3faca92d5b0",
+  "bytes": 25106,
+  "sha256": "0534a1aa0b1946a4f6c27a571f3adaeadc5aad2b6b1b9d2ad16433c0e484afe3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -242,6 +242,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        23618,
+        25106
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

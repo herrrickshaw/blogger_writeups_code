@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/574-gw-and-counting-indias-wind-fleet.html",
   "slug": "574-gw-and-counting-indias-wind-fleet",
   "published": "2026-08-21T04:04:01.000+05:30",
-  "updated": "2026-09-26T09:49:08.879+05:30",
+  "updated": "2026-10-01T08:11:26.412+05:30",
   "labels": [
     "Energy & Fuels",
     "India Trade & Policy",
     "Renewable Power & Storage"
   ],
-  "bytes": 22594,
-  "sha256": "0c74cc764219286badac7ea920737524a0b78cb9f41796c3851569664b594b6a",
+  "bytes": 24212,
+  "sha256": "1425d5370093142c49e23256699be888116a76dafb37cd0c026bbc87dd77dfee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.6",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        22594,
+        24212
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html",
   "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
   "published": "2026-09-02T10:40:46.000+05:30",
-  "updated": "2026-09-27T10:50:12.607+05:30",
+  "updated": "2026-10-01T08:18:24.498+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Oil & Gas Exploration"
   ],
-  "bytes": 50733,
-  "sha256": "06a99f5f5bd359b15b7263c1f649e9350607cb632d6e7535a81ced00ead6e2e2",
+  "bytes": 52431,
+  "sha256": "bb668f01801e6016551874f92f9e4b4e9e02421daffea06606e017f3de6473a2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep: ABHA account/record counts (93cr/104cr -> 97.6cr/119.95cr, PIB 17 Sep 2026); OALP Round X/XI deepwater deadline extended to 15 Nov 2026, not simply passed"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        50733,
+        52431
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

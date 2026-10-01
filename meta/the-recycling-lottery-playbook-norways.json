@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-recycling-lottery-playbook-norways.html",
   "slug": "the-recycling-lottery-playbook-norways",
   "published": "2026-07-31T05:30:00.000+05:30",
-  "updated": "2026-09-10T23:59:13.273+05:30",
+  "updated": "2026-10-01T08:55:33.020+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 29324,
-  "sha256": "da788b58dac97394f439c3653a05a329124a7b8251f33ae5e33a31299a2e4f41",
+  "bytes": 30633,
+  "sha256": "5fe5269f92286333db89d05db145d448f57d687d9989e04ed670c8e572455ddf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -242,6 +242,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        29324,
+        30633
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

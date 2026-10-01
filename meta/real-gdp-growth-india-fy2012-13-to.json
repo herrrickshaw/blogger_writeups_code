@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-09-11T00:23:58.112+05:30",
+  "updated": "2026-10-01T08:46:35.452+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 39612,
-  "sha256": "f9399b951647888152dc52d786c3671af7222ce9ee82075a55ca08fec1705e3d",
+  "bytes": 40875,
+  "sha256": "07fa8c3e58b593f34602917bc4f7bb434c00e1376181003227c69c4521531692",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39612,
+        40875
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

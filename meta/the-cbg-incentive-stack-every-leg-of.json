@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
   "slug": "the-cbg-incentive-stack-every-leg-of",
   "published": "2026-07-28T05:30:00.000+05:30",
-  "updated": "2026-09-10T23:57:26.219+05:30",
+  "updated": "2026-10-01T08:51:50.358+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 20123,
-  "sha256": "c9c5718469e1a3933b491059adbee6e6aad18442c23b54575db76915f6a4e876",
+  "bytes": 21370,
+  "sha256": "054c8e35e4391366d08e212904ff4e046d88fe126f57c0a025a21604b55e4983",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.4",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -248,6 +248,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        20123,
+        21370
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

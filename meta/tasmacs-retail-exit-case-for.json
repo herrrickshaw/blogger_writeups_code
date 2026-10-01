@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tasmacs-retail-exit-case-for.html",
   "slug": "tasmacs-retail-exit-case-for",
   "published": "2026-08-30T11:24:44.000+05:30",
-  "updated": "2026-09-18T19:50:09.171+05:30",
+  "updated": "2026-10-01T08:49:35.387+05:30",
   "labels": [
     "India",
     "Markets & Finance"
   ],
-  "bytes": 28164,
-  "sha256": "37624d05aadf1b7a3d3f8302e1c8906207535d42cce98e08887870d1a4b3c898",
+  "bytes": 29789,
+  "sha256": "fd719687b778a59b3d011b53de3f9c0d4d6743d459f24c4fb9ed6e9cdef04fff",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.6",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        28164,
+        29789
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-tyre-waste-problem-and-crumb.html",
   "slug": "indias-tyre-waste-problem-and-crumb",
   "published": "2026-08-05T14:30:35.000+05:30",
-  "updated": "2026-09-26T10:52:25.277+05:30",
+  "updated": "2026-10-01T08:38:59.401+05:30",
   "labels": [
     "Quality Standards & Certification",
     "Trade & Tariffs"
   ],
-  "bytes": 18993,
-  "sha256": "e7a416721caa316ad1370acc5288e5c08b0faf74c96e96de0ec8a35ef1d002d1",
+  "bytes": 20292,
+  "sha256": "0a9965d95d99e53bcbbd3a6e4cc7fed48a22ddef5eeae900254edd1dd24a3264",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -217,6 +217,19 @@
         ]
       },
       "note": "Full-archive consistency sweep: fixed 2 real checker false-positives in consistency-check/checks.py (dark-vars-locked/bw-override tripped by a comment merely discussing prefers-color-scheme; table-units-in-header flagged any cell mentioning a unit in prose, not just redundant bare number+unit cells -- refined to match only the latter, confirmed the tightening can only lower counts, never hide a real violation). Fixed the resulting real findings: table-units-in-header on 10 posts (9 via a new semi-automated fixer for uniform-per-column units, 1 by hand), missing Google Translate widget on 2 posts, and a genuine missing dark-mode light-lock on petroleum-trade-pairings-and-us-crude (via consistency-check/fix.py's repair(), run against local files since its live-page fetch path is blocked here). Full archive now at 0 consistency-check failures across all 302 posts."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        18993,
+        20292
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

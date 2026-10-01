@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/chemical-import-substitution-hsn-8-registry.html",
   "slug": "chemical-import-substitution-hsn-8-registry",
   "published": "2026-08-06T09:07:16.000+05:30",
-  "updated": "2026-09-19T07:26:21.275+05:30",
+  "updated": "2026-10-01T08:16:43.019+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 23770,
-  "sha256": "ce756685790b473041cb552ec4b05cc1438f34f084e50fdefa095f641bd2d158",
+  "bytes": 25014,
+  "sha256": "0b15558be4ac3b0ebe88827271e4797d22192141adc4c6e0c9e4861877563bdc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.2",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "refresh chemical import-substitution family (4 posts): BPCL Andhra Pradesh complex cost revised to ₹1.45L cr and EC status updated (filed, grant expected end-Sep 2026) in top-15-chemicals-for-import and chemical-import-substitution-quarterly, per BPCL CMD's 16 Sep 2026 statement; hsn-8-registry and full-hsn-8 data tables checked and confirmed still FY2025-26-current (no newer TradeStat annual release exists), vintage note added"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        23770,
+        25014
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/brandsafway-and-2017-roll-up-wave-that.html",
   "slug": "brandsafway-and-2017-roll-up-wave-that",
   "published": "2026-08-30T17:58:26.000+05:30",
-  "updated": "2026-09-26T17:02:31.378+05:30",
+  "updated": "2026-10-01T08:15:37.248+05:30",
   "labels": [
     "Corporate Finance & M&A",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 25504,
-  "sha256": "5c31230eb5c5f9df12de38e3a4c623823181e92a7e4256796fd103a38d2bf51d",
+  "bytes": 26647,
+  "sha256": "a96ec46662070d7bd0fe4ff3963b577415d6831ecccad9f4a4735f3bbb8392ed",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        25504,
+        26647
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

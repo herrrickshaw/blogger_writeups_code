@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-corrosion-you-cant-see-until.html",
   "slug": "the-corrosion-you-cant-see-until",
   "published": "2026-08-30T22:42:06.000+05:30",
-  "updated": "2026-09-27T18:45:11.254+05:30",
+  "updated": "2026-10-01T08:52:08.036+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 35856,
-  "sha256": "1dcc696c839af94119350538e9c66f54861f3e8df6425cb08a121b9873f27e63",
+  "bytes": 37005,
+  "sha256": "cd91bab18da5080f57d377b4cbf6a451b4ef3ba89b3e5f61f648bbcd73193911",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.4",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        35856,
+        37005
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

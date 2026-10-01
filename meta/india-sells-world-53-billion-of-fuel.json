@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-sells-world-53-billion-of-fuel.html",
   "slug": "india-sells-world-53-billion-of-fuel",
   "published": "2026-08-08T12:26:53.000+05:30",
-  "updated": "2026-09-11T00:17:12.501+05:30",
+  "updated": "2026-10-01T08:30:27.730+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 33587,
-  "sha256": "339c23765997dd29234cfca5686d0f3afabd7fb097f91195b5c79906f8a8ebd2",
+  "bytes": 35160,
+  "sha256": "4d592cf98236664cd5b8b0fd4b3184e84c21b4def96d696ac0ba7de546d4aa30",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -226,6 +226,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        33587,
+        35160
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

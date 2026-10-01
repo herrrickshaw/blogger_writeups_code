@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/west-bengal-sanctioned-126-lakh-pmay-g.html",
   "slug": "west-bengal-sanctioned-126-lakh-pmay-g",
   "published": "2026-08-30T08:03:08.000+05:30",
-  "updated": "2026-09-27T18:42:59.376+05:30",
+  "updated": "2026-10-01T08:59:02.884+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Scheme Delivery Gap"
   ],
-  "bytes": 24187,
-  "sha256": "2620713e5758c70d3eb3010fba45b44189be65f21a649917f3db00bd553da52d",
+  "bytes": 25873,
+  "sha256": "fe311e95fb1a798c94e282bbe20d0e2d38b78cdfce11bfc4738e696ba0e14347",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24187,
+        25873
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

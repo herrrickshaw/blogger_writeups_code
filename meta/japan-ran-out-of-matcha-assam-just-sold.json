@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html",
   "slug": "japan-ran-out-of-matcha-assam-just-sold",
   "published": "2026-08-23T05:48:49.000+05:30",
-  "updated": "2026-09-27T18:42:46.823+05:30",
+  "updated": "2026-10-01T08:40:31.928+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 34165,
-  "sha256": "2fbd17b10a7ae89de7cdd2b830c282aab0d30c7bb4a5e91a043a877b5f2fe8c8",
+  "bytes": 35773,
+  "sha256": "18f141e0688a3b522a0be830e2e4513bfc3210f3f1712a8a983e8e60ca6f467a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -97,6 +97,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        34165,
+        35773
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

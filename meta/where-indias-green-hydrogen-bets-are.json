@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-green-hydrogen-bets-are.html",
   "slug": "where-indias-green-hydrogen-bets-are",
   "published": "2026-08-05T17:14:26.000+05:30",
-  "updated": "2026-09-27T18:45:55.589+05:30",
+  "updated": "2026-10-01T09:01:26.488+05:30",
   "labels": [
     "Gas & LNG",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 23439,
-  "sha256": "26d2ff4e803ea5c1671ec78dea3ef40a113e441ba33e8a458aa73da5fc7d6479",
+  "bytes": 24579,
+  "sha256": "7f0d7988f027875b92461c99f7af186215de079b695f2cd5cd5cdcbf50dd808f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -274,6 +274,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (source note \"Project counts, not capacity...\" running 165.8px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines and expanding the canvas height from 400 to 415 to fit them."
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23439,
+        24579
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

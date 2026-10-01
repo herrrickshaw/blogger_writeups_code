@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ahidf-has-sanctioned-19751-crore-in.html",
   "slug": "ahidf-has-sanctioned-19751-crore-in",
   "published": "2026-08-10T08:41:50.000+05:30",
-  "updated": "2026-09-26T10:59:51.462+05:30",
+  "updated": "2026-10-01T08:13:30.025+05:30",
   "labels": [
     "Industrial Policy",
     "Public Sector & Infrastructure Finance"
   ],
-  "bytes": 25813,
-  "sha256": "b1756586f0cfbfdb69e888b37145f3b49004733b02ab2b86f029c08a94b579d0",
+  "bytes": 27381,
+  "sha256": "d8942799d32ae896a69978848f9d899b5b72e254963cbd2948acbdc62ece960b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.4",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        25813,
+        27381
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

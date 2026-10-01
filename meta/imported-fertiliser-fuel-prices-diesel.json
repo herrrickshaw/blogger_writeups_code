@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/imported-fertiliser-fuel-prices-diesel.html",
   "slug": "imported-fertiliser-fuel-prices-diesel",
   "published": "2026-08-02T13:50:50.000+05:30",
-  "updated": "2026-09-26T07:49:43.403+05:30",
+  "updated": "2026-10-01T08:26:40.373+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Fertilisers & Soil Health",
     "Prices & Inflation"
   ],
-  "bytes": 36174,
-  "sha256": "96acae1abc5c6fa51c7923635a0feae5b6a72dbf6fbc7cb4b315f87b8d8a6f7a",
+  "bytes": 37275,
+  "sha256": "657cac3e534d72329cfb5cc0e4957e341ee3d0d178d6bd225a8ec2ccc5883f36",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -284,6 +284,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch."
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        36174,
+        37275
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-most-coconuts-in-world-and.html",
   "slug": "india-grows-most-coconuts-in-world-and",
   "published": "2026-08-24T14:29:35.000+05:30",
-  "updated": "2026-09-27T18:42:26.332+05:30",
+  "updated": "2026-10-01T08:28:53.829+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 29659,
-  "sha256": "4c1d638f5cd16418db2014be33392f8eac136cd968eaa922cc9efb8287941e33",
+  "bytes": 31086,
+  "sha256": "8621d5e72c3f294a50736c391d3536d7e4e467ce22fe727d71a07b7a7172ec7d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        29659,
+        31086
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

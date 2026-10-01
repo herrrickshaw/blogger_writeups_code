@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-09-26T09:50:43.059+05:30",
+  "updated": "2026-10-01T08:49:45.611+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 34652,
-  "sha256": "5d8fe0023accb71b6bb7f90019e040dc9bc149a70916688bce2e3ce34aa0e652",
+  "bytes": 36234,
+  "sha256": "4f01df434d2e6f4593bb9f3ca6dd8b1e1e10e5502a77ca7da5f8f952d29bd07c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -123,6 +123,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-LEFT (\"VOC Port hydrogen pilot,\" row label) by wrapping into two lines, and OVERFLOW-RIGHT (a 1288px-wide single-line caveat note) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        34652,
+        36234
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

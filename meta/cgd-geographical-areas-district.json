@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/cgd-geographical-areas-district.html",
   "slug": "cgd-geographical-areas-district",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-27T18:43:27.193+05:30",
+  "updated": "2026-10-01T08:16:06.184+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 20128,
-  "sha256": "8fea4279cbf135a8a0667fca57b28dd92a608b2e3dc2df25d2bd2efa0e2aeb50",
+  "bytes": 21727,
+  "sha256": "937e7ff1156748e11285616df2655cbe79614cbda05c8aa8c8fb75745ff35a1c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -301,6 +301,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Chart-layout fix on the natural-gas-energy-mix-target bar chart: the 2030 target bar (15%, tallest) had its top at y=90, colliding with the subtitle 49.2px away (a large 30px-font value label made the collision worse than the bar geometry alone). Rescaled the y-axis (max bar top lowered from y=90 to y=120) so the tallest bar and its large value label clear the subtitle with comfortable margin; recomputed both bars' heights/tops and value-label positions, and repositioned the connecting arrow annotation to match the new bar geometry."
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        20128,
+        21727
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/refineries-under-fire-how-two-wars.html",
   "slug": "refineries-under-fire-how-two-wars",
   "published": "2026-08-20T10:22:11.000+05:30",
-  "updated": "2026-09-11T00:24:40.668+05:30",
+  "updated": "2026-10-01T08:46:45.670+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy"
   ],
-  "bytes": 37720,
-  "sha256": "c70bbfb016edc9a81d19d31b5b13f354f48d7743012ace99c7a4f1e5e38402eb",
+  "bytes": 39014,
+  "sha256": "0af7f7835d7234ec5f0b192df76663f778f022c707443673f2eef2cb1c8b657a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        37720,
+        39014
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-state-incentive-war-gujarats.html",
   "slug": "indias-state-incentive-war-gujarats",
   "published": "2026-08-05T17:18:03.000+05:30",
-  "updated": "2026-09-27T11:26:36.537+05:30",
+  "updated": "2026-10-01T08:37:47.578+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance",
     "State Investment Incentives"
   ],
-  "bytes": 40558,
-  "sha256": "509ff9e3a2f78400d079b5e84d53da28e777ade75911ae570e12adc51454efa0",
+  "bytes": 42225,
+  "sha256": "6b97ca5867dca28c6ce9bf02c0d3b68b82570ccd3832ee78d61f4d11f3cd29aa",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -300,6 +300,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        40558,
+        42225
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
   "slug": "the-two-biggest-parties-in-parliament",
   "published": "2026-09-18T20:24:04.000+05:30",
-  "updated": "2026-09-18T20:34:58.639+05:30",
+  "updated": "2026-10-01T08:56:22.389+05:30",
   "labels": [
     "Governance & Institutions"
   ],
-  "bytes": 121581,
-  "sha256": "7dc0be8c7134e60cc1d9f6c40c854044cf1928be713370da59901d9b0d655a88",
+  "bytes": 122823,
+  "sha256": "ad1cb9d5d62189f7e05fbf24ef3a3f0a59bf755556fd829cba4803c12d58a000",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -55,6 +55,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add party-membership roster (783 sitting MPs, both Houses) to the-two-biggest-parties-in-parliament, for context alongside question-volume data"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        121581,
+        122823
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

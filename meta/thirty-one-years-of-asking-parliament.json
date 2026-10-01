@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/thirty-one-years-of-asking-parliament.html",
   "slug": "thirty-one-years-of-asking-parliament",
   "published": "2026-08-23T05:17:05.000+05:30",
-  "updated": "2026-09-26T07:50:21.108+05:30",
+  "updated": "2026-10-01T08:57:02.505+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Fertilisers & Soil Health",
     "India",
     "Industrial Policy"
   ],
-  "bytes": 36982,
-  "sha256": "ea555a47af80359f2b8772bee015c510e2fad9ab49b0f53cf5bd5b3ab2518ed0",
+  "bytes": 38244,
+  "sha256": "497b20860331d8be0473d04736085a692548d1181e099979edb4d28ed9675acd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.3",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        36982,
+        38244
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

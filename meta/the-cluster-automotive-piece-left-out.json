@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-cluster-automotive-piece-left-out.html",
   "slug": "the-cluster-automotive-piece-left-out",
   "published": "2026-08-15T07:20:21.000+05:30",
-  "updated": "2026-09-11T00:04:20.737+05:30",
+  "updated": "2026-10-01T08:52:00.486+05:30",
   "labels": [
     "Industrial Policy",
     "Manufacturing"
   ],
-  "bytes": 22575,
-  "sha256": "7161333caa0a397d42a1eca2b21c4123e06cb39fb2ad5d6a323a84c35936dcae",
+  "bytes": 23885,
+  "sha256": "389d6dea791a108d23917f3c879b6da5c495bf8de965801715c3334f1b2d2969",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        22575,
+        23885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

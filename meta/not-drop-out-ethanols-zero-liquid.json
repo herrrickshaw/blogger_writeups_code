@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/not-drop-out-ethanols-zero-liquid.html",
   "slug": "not-drop-out-ethanols-zero-liquid",
   "published": "2026-08-17T21:43:00.000+05:30",
-  "updated": "2026-09-07T19:32:27.148+05:30",
+  "updated": "2026-10-01T08:42:14.338+05:30",
   "labels": [
     "Energy & Fuels",
     "Environment & Clearances",
     "Ethanol & Biofuels"
   ],
-  "bytes": 45368,
-  "sha256": "e9a6020e5bd2c4869f28bc34b920c511db6c1bbce33f14c86a613dce6f2db950",
+  "bytes": 47032,
+  "sha256": "be920066f2dfb93ab86ba1479519492874c57bbb3682e8ae3854d90e59ba0aee",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        45368,
+        47032
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

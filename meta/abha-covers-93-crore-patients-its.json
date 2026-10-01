@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html",
   "slug": "abha-covers-93-crore-patients-its",
   "published": "2026-09-17T06:56:16.000+05:30",
-  "updated": "2026-09-28T08:51:25.146+05:30",
+  "updated": "2026-10-01T08:13:07.699+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy"
   ],
-  "bytes": 26289,
-  "sha256": "01cede27b96c95f5e3f1baf3ccc647031128388a24e5459217983a0b92cc75b1",
+  "bytes": 26314,
+  "sha256": "df76ccb42ea63864c7bc87bd3fc84d92d9f4c47f28d418b62f19087a2ed23e6a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
+    },
+    {
+      "version": "1.3.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        26289,
+        26314
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

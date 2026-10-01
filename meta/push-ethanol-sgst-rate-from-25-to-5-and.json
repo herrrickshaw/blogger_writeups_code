@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/push-ethanol-sgst-rate-from-25-to-5-and.html",
   "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
   "published": "2026-08-12T20:02:46.000+05:30",
-  "updated": "2026-09-11T00:02:52.832+05:30",
+  "updated": "2026-10-01T08:45:33.585+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels"
   ],
-  "bytes": 33012,
-  "sha256": "c2bade31dc3f3da5402a2f03bd68568ffa857019096198a6630a0d54f2a11b60",
+  "bytes": 34153,
+  "sha256": "ea3487e89c3862fa9b7c811e0ec9006396967ebe35e2beaaf1495bf27954bbe9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        33012,
+        34153
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

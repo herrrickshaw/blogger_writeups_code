@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugarcanes-third-claimant-whats.html",
   "slug": "sugarcanes-third-claimant-whats",
   "published": "2026-08-28T21:08:06.000+05:30",
-  "updated": "2026-09-10T22:45:48.911+05:30",
+  "updated": "2026-10-01T08:48:37.058+05:30",
   "labels": [
     "Chemicals",
     "Circularity & Waste-to-Value",
     "Ethanol & Biofuels"
   ],
-  "bytes": 35005,
-  "sha256": "c042753465686b216ded5edb4308b6d456c2152f30d78b1f00203cd62fd0dc1a",
+  "bytes": 36596,
+  "sha256": "f32bd987e78578a379ae7a80ed8abea50e748dd42cdb88a615e709354dbe3bf8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.4",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        35005,
+        36596
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

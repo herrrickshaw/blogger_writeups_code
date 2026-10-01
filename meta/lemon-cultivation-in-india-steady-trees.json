@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
   "slug": "lemon-cultivation-in-india-steady-trees",
   "published": "2026-08-19T06:09:17.000+05:30",
-  "updated": "2026-09-11T11:13:46.703+05:30",
+  "updated": "2026-10-01T08:40:42.164+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 26740,
-  "sha256": "2e7332ad298f9abc61f73dd83161299f2cf2f0a70bf4e933cb8d3ce928ff353e",
+  "bytes": 28228,
+  "sha256": "171fb4c605b860b2db96a4ff900ec06542810baf413fede13bd7b38d6a996c29",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (\"National avg\" overlapping \"Andhra Pr. (high)\") flagged by tools/svg_chart_lint.py by widening the gap between the second and third Agmarknet bars."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        26740,
+        28228
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/scan-bottle-deliver-what-ppacs-numbers.html",
   "slug": "scan-bottle-deliver-what-ppacs-numbers",
   "published": "2026-08-17T07:05:11.000+05:30",
-  "updated": "2026-09-16T21:39:22.583+05:30",
+  "updated": "2026-10-01T08:47:42.896+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "India Trade & Policy"
   ],
-  "bytes": 24691,
-  "sha256": "a62532cf8d3dfc74eab613e41c590448f4599089d422e846b0b7937ce521d6f0",
+  "bytes": 25991,
+  "sha256": "7e93c56ad7d319b2795af0fec0f98e768fc3694e431b11568f965f68c07cef5b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Full-archive research-gap sweep via research_crosscheck.py: fixed a stale DAP stat-tile (38.4%->41.9%), a 03.9bn/03.4bn mineral-fuels outlier, a Specialty Steel PLI outlay/investment-drawn mislabelling (44,106cr->6,322cr) across two posts, a stale PLI disbursement figure, and a Sixteen/Seventeen-years title mismatch."
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24691,
+        25991
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

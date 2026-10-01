@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-shrimp-exports-did-not-collapse.html",
   "slug": "indias-shrimp-exports-did-not-collapse",
   "published": "2026-08-23T04:44:23.000+05:30",
-  "updated": "2026-09-09T08:47:47.447+05:30",
+  "updated": "2026-10-01T08:37:34.938+05:30",
   "labels": [
     "India Trade & Policy",
     "Markets & Finance",
     "Trade & Tariffs"
   ],
-  "bytes": 32972,
-  "sha256": "14d6382fd58733f734809eca1d2f10794320f755819c2fe4a31b52adbf7c8f42",
+  "bytes": 34542,
+  "sha256": "399a5d0133fd6f23db42c4509218f20f7d9fd4c9503537468e5d85a7f52f134f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32972,
+        34542
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

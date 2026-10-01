@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rin-red-and-cbio-what-indias-ethanol.html",
   "slug": "rin-red-and-cbio-what-indias-ethanol",
   "published": "2026-08-13T11:40:24.000+05:30",
-  "updated": "2026-09-11T00:10:06.322+05:30",
+  "updated": "2026-10-01T08:47:12.770+05:30",
   "labels": [
     "Biofuels",
     "Carbon Markets",
     "Ethanol & Biofuels",
     "India"
   ],
-  "bytes": 40165,
-  "sha256": "0efb7df95756901f32fc85337525fb846e9d21465e2fcc2879fce2a1ebc0b902",
+  "bytes": 41885,
+  "sha256": "baa6dbf3c2eda0e6b97f22dec24d29aac3e2efb622fc63a094fd5737ad57bc00",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -162,6 +162,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        40165,
+        41885
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

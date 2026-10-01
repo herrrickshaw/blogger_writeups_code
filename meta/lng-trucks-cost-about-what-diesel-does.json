@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html",
   "slug": "lng-trucks-cost-about-what-diesel-does",
   "published": "2026-09-01T22:28:14.000+05:30",
-  "updated": "2026-09-27T18:45:23.913+05:30",
+  "updated": "2026-10-01T08:40:49.875+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "LNG Trucking & Fleet Conversion"
   ],
-  "bytes": 32520,
-  "sha256": "6270d358c3caf79dfbd5fa3a997e1eef642fbcaf11b4e63f3b8c88d6c507cf9f",
+  "bytes": 34081,
+  "sha256": "c9a6c738b90f66a216ad78aab9e78218fb3851498bfd0e10f7fed98e366844ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32520,
+        34081
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

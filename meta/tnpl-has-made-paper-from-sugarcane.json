@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html",
   "slug": "tnpl-has-made-paper-from-sugarcane",
   "published": "2026-09-01T20:24:15.000+05:30",
-  "updated": "2026-09-10T22:47:48.505+05:30",
+  "updated": "2026-10-01T08:57:32.763+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 32362,
-  "sha256": "862bfd9d80c123f3b07bb8dc251da66e58ed7cea8495deaa7318b0f4b4cff66f",
+  "bytes": 33694,
+  "sha256": "f099afc8b7fc1ce9741cb169f9eb7d97e0c220e534a813d4a20abac389748d31",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32362,
+        33694
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/beyond-pump-what-upi-fee-would-cost.html",
   "slug": "beyond-pump-what-upi-fee-would-cost",
   "published": "2026-08-08T20:01:53.000+05:30",
-  "updated": "2026-09-27T11:18:32.007+05:30",
+  "updated": "2026-10-01T08:14:55.921+05:30",
   "labels": [
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 40559,
-  "sha256": "fa49db1340416d68972facdbf9936d613e3db8f496810d2cae97fdec8524c9f5",
+  "bytes": 42167,
+  "sha256": "f200a1adff14312c38a80a5ba55411248aab92c2ba5329909b002085570d9a67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/insurance, effective 15 Oct 2026) - updated both UPI-fee pieces from hypothetical-scenario framing to the real notified schedule"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        40559,
+        42167
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

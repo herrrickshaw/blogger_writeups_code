@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ev-localisation-deadline-just.html",
   "slug": "indias-ev-localisation-deadline-just",
   "published": "2026-09-15T09:00:40.000+05:30",
-  "updated": "2026-09-18T19:49:35.361+05:30",
+  "updated": "2026-10-01T08:34:11.736+05:30",
   "labels": [
     "Import Substitution",
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 24395,
-  "sha256": "ff8cbee18eeae036c0de00efe9fed53db1dc1e064f05c18246ca9b51ac09f6b0",
+  "bytes": 25699,
+  "sha256": "624467e6d2363c46f9327ab160f304b3c0ee8529d304f4d7a29b245a1429c090",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -83,6 +83,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24395,
+        25699
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

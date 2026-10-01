@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "slug": "indias-445-billion-spice-export-book-is",
   "published": "2026-08-24T15:02:33.000+05:30",
-  "updated": "2026-09-27T18:42:33.250+05:30",
+  "updated": "2026-10-01T08:31:25.121+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Cash Crop Export Economics",
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 32511,
-  "sha256": "30ee5dfa35e30a2b483001f04142758629a28703ce4e5f732a9d66de3e9cec4d",
+  "bytes": 34186,
+  "sha256": "9f3c55794332cc8a5beb34e347b7edd8702f6be3903918566033e4c56081599d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32511,
+        34186
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

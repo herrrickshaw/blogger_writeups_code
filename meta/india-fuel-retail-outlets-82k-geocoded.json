@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
   "slug": "india-fuel-retail-outlets-82k-geocoded",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-27T18:43:34.752+05:30",
+  "updated": "2026-10-01T08:28:29.646+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Gas & LNG"
   ],
-  "bytes": 20748,
-  "sha256": "edb985eb529e18acc14ea17ead40ae659171afd2e3f796f39faa755a0917dc16",
+  "bytes": 21969,
+  "sha256": "f79a974994c38b9597c9f12e183fbda40e9b644347f2c5864e25916e1256e7f1",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "publish 3: IOR/EOR recovery-factor piece, PMFBY who-pays-the-premium, Soil Health Card April-2023 seam. Republish 2: AT&C figures piece and coal-to-chemicals menu (fixed a stale cross-link phrase). All five carry the new 'What would fix this' section (house rule added to CLAUDE.md)."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        20748,
+        21969
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

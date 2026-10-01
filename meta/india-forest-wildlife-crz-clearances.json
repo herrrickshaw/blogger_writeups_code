@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/india-forest-wildlife-crz-clearances.html",
   "slug": "india-forest-wildlife-crz-clearances",
   "published": "2026-07-22T05:30:00.000+05:30",
-  "updated": "2026-09-11T11:39:03.736+05:30",
+  "updated": "2026-10-01T08:28:16.346+05:30",
   "labels": [
     "Environment & Clearances"
   ],
-  "bytes": 25573,
-  "sha256": "bec6b445e4eb5043e29ce59a5b7c03ae2feb5ab85b56ac04e5ffff2b74dc01f1",
+  "bytes": 27087,
+  "sha256": "cc2dd5837651dd7950fde0b938076652c975cc77fa2205b2f9717f78945a0428",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.2",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -273,6 +273,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (single-line source citation running 120.6px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        25573,
+        27087
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

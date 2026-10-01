@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-09-07T19:35:32.677+05:30",
+  "updated": "2026-10-01T08:48:17.698+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 56433,
-  "sha256": "489317a15fa39f3fbbbfa1d56fbaef365234c4003afd19498dad4233c375518b",
+  "bytes": 57787,
+  "sha256": "c5bef1010f02f1d2a33e73325398ddcd9ec22c4970a53e8cd318de5a1317aabf",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -224,6 +224,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        56433,
+        57787
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

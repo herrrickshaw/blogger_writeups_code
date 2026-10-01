@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/upi-fees-are-now-legal-petrol-pumps.html",
   "slug": "upi-fees-are-now-legal-petrol-pumps",
   "published": "2026-08-08T16:24:01.000+05:30",
-  "updated": "2026-09-27T11:18:38.647+05:30",
+  "updated": "2026-10-01T08:58:22.211+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 45110,
-  "sha256": "bd4112a178da84ebf56610d6f55d2fc070447491d8bbd0403d2a9563e9d5b401",
+  "bytes": 46669,
+  "sha256": "c57a606ce3875afdf5424a329f4b9b1100e78511ddba2829cad0a296d66ff72d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "14.0.0",
+  "version": "14.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -370,6 +370,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "UPI MDR fee actually notified (0.4% general, flat Rs5 for fuel/railways/telecom/insurance, effective 15 Oct 2026) - updated both UPI-fee pieces from hypothetical-scenario framing to the real notified schedule"
+    },
+    {
+      "version": "14.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        45110,
+        46669
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

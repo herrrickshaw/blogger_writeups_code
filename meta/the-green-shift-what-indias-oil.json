@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-green-shift-what-indias-oil.html",
   "slug": "the-green-shift-what-indias-oil",
   "published": "2026-08-28T13:30:58.000+05:30",
-  "updated": "2026-09-27T18:43:12.870+05:30",
+  "updated": "2026-10-01T08:53:43.872+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 24916,
-  "sha256": "d1ce2c0ccca9a6f97bd95c7b22c31725e8a6a9e4dcbf709ea08bc87b39a368b3",
+  "bytes": 26475,
+  "sha256": "27c8efe61087489446761f16f6a5714632b3647bd8ac1bcaff0a1f05fec4b383",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.0",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep (non-PIB posts): PM E-DRIVE extended to 2028, ONGC Gandhar CCS pilot launched, TN offshore wind tender delayed to H2 2026, FCNR(B) swap window closed early ($143.5bn inflows), Maritime Investment Fund manager named (SBI Ventures), Ayushman cards updated (43.5cr->48.5cr), UK CETA + Oman CEPA now in force, CBG plant count corrected, wheat procurement record (RMS 2026-27), Fed/ECB/BoJ rate hikes, RBI forex reserves record, PLI disbursement updated, CCTS iron & steel draft targets"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24916,
+        26475
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

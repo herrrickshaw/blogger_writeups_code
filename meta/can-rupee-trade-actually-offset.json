@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/can-rupee-trade-actually-offset.html",
   "slug": "can-rupee-trade-actually-offset",
   "published": "2026-08-14T08:31:13.000+05:30",
-  "updated": "2026-09-10T23:13:15.875+05:30",
+  "updated": "2026-10-01T08:15:54.477+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 30734,
-  "sha256": "c5d775c3aacba6175a0674d11de8f2cb1b2e4088c457c72606176621bea85b6f",
+  "bytes": 32094,
+  "sha256": "d595775b5e12cfb041e915d54df705fd694b50e9d42b44e146e5310aae2daa27",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -120,6 +120,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        30734,
+        32094
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

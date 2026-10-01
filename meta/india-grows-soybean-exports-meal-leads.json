@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
   "slug": "india-grows-soybean-exports-meal-leads",
   "published": "2026-08-15T08:01:21.000+05:30",
-  "updated": "2026-09-11T00:16:58.593+05:30",
+  "updated": "2026-10-01T08:29:04.035+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Agriculture & Food Processing",
     "India Trade & Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 39309,
-  "sha256": "479d85c0c7d0bb3291061e930686677f89e460bb8efb4eab089ee257a98d2233",
+  "bytes": 40656,
+  "sha256": "fc28ec2d7ede98d16ef4e2d1f4994773417457ad82145c2ed4934db3cfe2e93f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.1",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -175,6 +175,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39309,
+        40656
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

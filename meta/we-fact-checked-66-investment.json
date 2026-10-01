@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/we-fact-checked-66-investment.html",
   "slug": "we-fact-checked-66-investment",
   "published": "2026-08-25T06:17:26.000+05:30",
-  "updated": "2026-09-11T00:09:10.521+05:30",
+  "updated": "2026-10-01T08:58:52.204+05:30",
   "labels": [
     "India",
     "Trade & Tariffs"
   ],
-  "bytes": 67625,
-  "sha256": "c26d359de01889a189204fee48a4f1f976c56eda1ed2df6ea23e519df0b3987b",
+  "bytes": 68832,
+  "sha256": "3d1543a62aec91473974a57e82ce3c0aeeccda1fa45d7a019f53cdda650afc0d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.1",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) added: What would fix this)",
+      "bytes": [
+        67625,
+        68832
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

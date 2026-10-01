@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
   "slug": "tamil-nadus-water-infrastructure-runs",
   "published": "2026-08-25T10:48:07.000+05:30",
-  "updated": "2026-09-27T18:42:12.190+05:30",
+  "updated": "2026-10-01T08:49:08.821+05:30",
   "labels": [
     "India",
     "Infrastructure & Investment",
     "Water Infrastructure Financing"
   ],
-  "bytes": 26087,
-  "sha256": "3a06ea78f5925339d7610e4887c7589df7862907341753c0cef0c3f47cbebe36",
+  "bytes": 27505,
+  "sha256": "80273315e12f7dec2c634a7ac6fa22d87b3fee757dafb08e804a12ae0a2835e4",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.1",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        26087,
+        27505
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

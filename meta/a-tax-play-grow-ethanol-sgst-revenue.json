@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/a-tax-play-grow-ethanol-sgst-revenue.html",
   "slug": "a-tax-play-grow-ethanol-sgst-revenue",
   "published": "2026-08-02T17:57:40.000+05:30",
-  "updated": "2026-09-10T23:10:51.104+05:30",
+  "updated": "2026-10-01T08:12:51.625+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 42196,
-  "sha256": "f9add6ed389e77854c6961ec73c47e681a701f9d2d559a6279b90be196871f8c",
+  "bytes": 43843,
+  "sha256": "a53ac542f1e01d37e64af86195e330eaa272762baba3fd19aa655b50d42e48f9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -263,6 +263,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        42196,
+        43843
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

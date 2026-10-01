@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-indias-captured-carbon-would.html",
   "slug": "where-indias-captured-carbon-would",
   "published": "2026-08-28T07:52:34.000+05:30",
-  "updated": "2026-09-27T18:43:19.588+05:30",
+  "updated": "2026-10-01T09:00:25.604+05:30",
   "labels": [
     "Carbon Capture & Storage",
     "Climate & Carbon",
     "Energy & Fuels",
     "India"
   ],
-  "bytes": 26639,
-  "sha256": "189eeef3a390aa883991f915872638c755930093feff1815608a478e1413395a",
+  "bytes": 28151,
+  "sha256": "77e7a8e30ab9ea29632d6d00f4df771bc7ba135bae4d9376717b402a69f057d9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        26639,
+        28151
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

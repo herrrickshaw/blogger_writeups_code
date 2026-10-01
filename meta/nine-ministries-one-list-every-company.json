@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/nine-ministries-one-list-every-company.html",
   "slug": "nine-ministries-one-list-every-company",
   "published": "2026-08-30T08:48:36.000+05:30",
-  "updated": "2026-09-27T10:57:07.831+05:30",
+  "updated": "2026-10-01T08:42:04.668+05:30",
   "labels": [
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 69964,
-  "sha256": "6b84e3bc4881cd4a237967466f5f21780d5bafe0a56449986c2b3f8036067830",
+  "bytes": 71613,
+  "sha256": "18adc9f01fb935002e788c5947f6532c682ed5a8fde71ad11dbdd6656cd78bef",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        69964,
+        71613
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

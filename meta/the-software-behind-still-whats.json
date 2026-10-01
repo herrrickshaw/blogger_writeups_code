@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-software-behind-still-whats.html",
   "slug": "the-software-behind-still-whats",
   "published": "2026-08-20T09:51:31.000+05:30",
-  "updated": "2026-09-11T00:22:34.500+05:30",
+  "updated": "2026-10-01T08:56:04.945+05:30",
   "labels": [
     "AI Tools",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 36129,
-  "sha256": "a505c4dd1063805072acbbce3ee216a2facb2b6d2b17b472dc3d0e45fb561de6",
+  "bytes": 37393,
+  "sha256": "b987d39d2705c2d7eb11f5def277d9079fd2e89a3b5dd98350de1a76d0eaa765",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.4",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -109,6 +109,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        36129,
+        37393
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

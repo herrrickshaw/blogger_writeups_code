@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/top-15-chemicals-for-import.html",
   "slug": "top-15-chemicals-for-import",
   "published": "2026-08-01T09:36:00.000+05:30",
-  "updated": "2026-09-19T07:34:52.141+05:30",
+  "updated": "2026-10-01T08:57:47.047+05:30",
   "labels": [
     "Chemicals",
     "Import Substitution"
   ],
-  "bytes": 102782,
-  "sha256": "077e218b47c4683853f9f104d212df6259211ca2e907de7d3b47e0613ffe62db",
+  "bytes": 104325,
+  "sha256": "5cd4080d070606171bd0002db84b1f56655176cdbe3d0c59652e9a504d6d5061",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.2.0",
+  "version": "5.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -365,6 +365,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "add reciprocal cross-links for the two new posts published this session (the-reactor-nobody-names-how-coal, the-two-biggest-parties-in-parliament), closing the never-linked-from gap crosslink_analysis.py flagged"
+    },
+    {
+      "version": "5.3.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        102782,
+        104325
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

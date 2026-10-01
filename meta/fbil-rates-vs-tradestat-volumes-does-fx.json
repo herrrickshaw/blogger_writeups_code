@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/fbil-rates-vs-tradestat-volumes-does-fx.html",
   "slug": "fbil-rates-vs-tradestat-volumes-does-fx",
   "published": "2026-08-14T18:51:11.000+05:30",
-  "updated": "2026-09-10T23:18:22.084+05:30",
+  "updated": "2026-10-01T08:21:21.461+05:30",
   "labels": [
     "Currency Markets",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 21347,
-  "sha256": "edf97859620f700505c7b7dc159bc068bab685771bdc9ea4922c4eeb0d9eaa81",
+  "bytes": 22700,
+  "sha256": "fd0589bd2c3ed613163af836f0ad3d6e54f4473e17236e6f624c7caf7ec9c8bb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        21347,
+        22700
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

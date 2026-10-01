@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rooftop-solar-is-working-household.html",
   "slug": "rooftop-solar-is-working-household",
   "published": "2026-08-06T08:11:47.000+05:30",
-  "updated": "2026-09-09T09:09:57.365+05:30",
+  "updated": "2026-10-01T08:47:25.337+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV"
   ],
-  "bytes": 20727,
-  "sha256": "4ef9766dcf5a50baed3fa36a877deafd6775ced301b71fd5506a4d3a07956621",
+  "bytes": 20788,
+  "sha256": "e18a63887c5ed1477ee079e474b8e2ea41b3f9fff59bd11aca493740fc381e7e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.0",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) removed: What would actually change household economics)",
+      "bytes": [
+        20727,
+        20788
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

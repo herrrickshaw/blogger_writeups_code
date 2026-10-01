@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-09-27T18:44:14.139+05:30",
+  "updated": "2026-10-01T08:34:55.329+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 32098,
-  "sha256": "2ce1167650cea4533b3db3be7f1944fd7ae2f19a8749023d51e54cd05a547936",
+  "bytes": 33720,
+  "sha256": "9be9b00c2017b33081784444f971dcf9876c27b410e1aaf8372c584651e2bc15",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Publish two new posts sourced from PNGRB's Sept 2026 Action Taken Report on the Annual Plan 2025-26: (1) a scorecard piece checking the ATR's own 'achieved'/'operationalised' language against the numbers it discloses two sentences later (Common Carrier 2/43, billing compliance 49%, CBG-CGD hookup 17/~130, Ombudsman still unstaffed 5 months after the Consumer Protection Regulations took effect); (2) a focused CBG-CGD connectivity piece (SATAT's original 5,000-plant target vs 132 commissioned vs 17 pipeline-connected). Also updated the earlier 'India's Gas Pipelines Run at Half Capacity' post with primary-source confirmation of the 75%-long-term-contracting/Pipeline Development Reserve mechanism it had previously only sourced via search snippets."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        32098,
+        33720
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/petroleum-trade-pairings-and-us-crude.html",
   "slug": "petroleum-trade-pairings-and-us-crude",
   "published": "2026-08-08T10:22:11.000+05:30",
-  "updated": "2026-09-27T12:45:33.266+05:30",
+  "updated": "2026-10-01T08:43:25.831+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 152221,
-  "sha256": "79b757728445c1d3acb280ceb2b5a83ae55d531f7f937c5cae5b71fb1efd162b",
+  "bytes": 153163,
+  "sha256": "b2748c7e244c7d09cb97e8c736a51b2cda1c5e82f2b7a765cc444911a03010ad",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.0",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -259,6 +259,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        152221,
+        153163
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

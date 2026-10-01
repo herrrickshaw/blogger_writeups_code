@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-sector-already-had-its.html",
   "slug": "indias-ethanol-sector-already-had-its",
   "published": "2026-09-15T06:49:17.000+05:30",
-  "updated": "2026-09-27T12:45:26.973+05:30",
+  "updated": "2026-10-01T08:33:51.418+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 22068,
-  "sha256": "7d3f8ef4bdb1e4a52f8e3a6317bb719f81e118abd773b93aadd7386c55847e7b",
+  "bytes": 23121,
+  "sha256": "65c8377c311ca12fafd6a648bb4781e979b8e57d209b26ec061e6fb24e1da19f",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -68,6 +68,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact backlog: Punjab Carbonic IPO opened, Cushing crude stocks updated, Barauni refinery timeline firmed (Nov-Dec 2026), Qatar LNG/Hormuz reopening reality messier than modeled scenarios"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        22068,
+        23121
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

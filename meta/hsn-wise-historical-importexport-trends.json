@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/hsn-wise-historical-importexport-trends.html",
   "slug": "hsn-wise-historical-importexport-trends",
   "published": "2026-08-02T14:04:15.000+05:30",
-  "updated": "2026-09-11T11:34:34.185+05:30",
+  "updated": "2026-10-01T08:25:41.773+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Trade & Tariffs"
   ],
-  "bytes": 35005,
-  "sha256": "069051be57532120241a972037eeb4c1c050ed587e0f168c23488958a90c8b15",
+  "bytes": 36156,
+  "sha256": "f57c8cd1b844c571ad39ab9740876b7fb93c4021e2b735039b6b83674ff46a79",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.1",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -325,6 +325,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"+118.9%\" Fertilisers value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        35005,
+        36156
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/guar-gum-indias-35-billion-export-peak.html",
   "slug": "guar-gum-indias-35-billion-export-peak",
   "published": "2026-08-16T11:44:39.000+05:30",
-  "updated": "2026-09-11T11:30:52.025+05:30",
+  "updated": "2026-10-01T08:25:02.948+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "India Trade & Policy"
   ],
-  "bytes": 30353,
-  "sha256": "6aebc9df2ad25f8d4c27113db8a8d9ab5ebb81a622e410c60f65a8b149413d6a",
+  "bytes": 31669,
+  "sha256": "1e22df070883cdb18ce020a64656c7d361b5a65dc028ce33029dddcfa1a4e2b2",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.0.5",
+  "version": "5.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -199,6 +199,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed COLLISION (\".5B\" 2012-13 peak-bar label overlapping the chart subtitle) flagged by tools/svg_chart_lint.py by moving the label down slightly, still clear of the bar top."
+    },
+    {
+      "version": "5.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        30353,
+        31669
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

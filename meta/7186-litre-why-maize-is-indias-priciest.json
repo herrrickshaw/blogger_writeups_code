@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/7186-litre-why-maize-is-indias-priciest.html",
   "slug": "7186-litre-why-maize-is-indias-priciest",
   "published": "2026-08-21T21:11:49.000+05:30",
-  "updated": "2026-09-09T08:13:12.830+05:30",
+  "updated": "2026-10-01T08:11:44.380+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 39274,
-  "sha256": "dab4c74947124c542872d478a9481912034dba324dd44a92d3dbebeb5d5ac14c",
+  "bytes": 41017,
+  "sha256": "a6a40d0af13528b2f1bd14ed1bb3c2d833a39ba113b419c1a9e9ffc2d9fdb786",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -108,6 +108,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39274,
+        41017
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

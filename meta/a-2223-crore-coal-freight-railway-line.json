@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2223-crore-coal-freight-railway-line.html",
   "slug": "a-2223-crore-coal-freight-railway-line",
   "published": "2026-09-15T09:32:11.000+05:30",
-  "updated": "2026-09-18T19:47:42.844+05:30",
+  "updated": "2026-10-01T08:12:07.954+05:30",
   "labels": [
     "Industrial Policy"
   ],
-  "bytes": 18253,
-  "sha256": "c971cb7bac89b6ffe47bd1aa9e41429ed944bbab683faf813b9ac52ff5867ca1",
+  "bytes": 19655,
+  "sha256": "8b425e9c5954f9f98d03ad672e86d6e69acf51a38a0f4bdf9c53cdf57f3a6339",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.2",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        18253,
+        19655
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
   "slug": "the-most-discussed-schemes-in",
   "published": "2026-08-19T15:50:00.000+05:30",
-  "updated": "2026-09-26T10:59:04.363+05:30",
+  "updated": "2026-10-01T08:54:46.175+05:30",
   "labels": [
     "Industrial Policy",
     "Parliamentary Scheme Tracking"
   ],
-  "bytes": 35217,
-  "sha256": "0fce11fcc9f885e49752971d591693fdb8beca55eefa07ec8faa4f0a4ff5251b",
+  "bytes": 36479,
+  "sha256": "7c08d6e5473e83131cfe983c9f6b220f9951296759cd5d8a90bc0aa94e4ff647",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.4",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -273,6 +273,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        35217,
+        36479
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

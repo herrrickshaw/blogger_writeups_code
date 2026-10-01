@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-09-12T22:43:27.434+05:30",
+  "updated": "2026-10-01T08:20:16.664+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 46299,
-  "sha256": "9c7e4983446fd3db6376f442fd03a51d23ebb0ba5b2e81669e48ad43509fa6a1",
+  "bytes": 47588,
+  "sha256": "9d5c0b07e069082220105c924c87e6e32cb0033cb6982150601755c789324144",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -269,6 +269,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "This post's charts are built at runtime by inline JS (string-concatenated SVG injected via innerHTML), which tools/svg_chart_lint.py cannot parse (it flags a parse error on the literal '+W+' JS-templating text) -- so this fix was found by rendering the full page in a headless browser (letting the JS execute) and visually inspecting each chart, not by the linter. The shared waterfall() function placed each bar's value label at a fixed offset below the bar's bottom edge; when a bar's bottom coincided with the chart's overall minimum (the exc-cur and exc-fut excise/VAT/exchequer charts, where the VAT and Net-exchequer bars both bottom out at the series minimum), that label collided with the category-name row underneath. Fixed by capping the label's y-position so it can never go below a safe margin above the category-label row, regardless of how close the bar's bottom sits to the plot's edge. Verified by re-rendering all 9 of this post's waterfall/bar charts; the previously-unaffected ones (all-positive bars, which use the top-of-bar label branch) are unchanged."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        46299,
+        47588
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

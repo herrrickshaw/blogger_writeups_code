@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/reinvesting-capital-gains-in-higher.html",
   "slug": "reinvesting-capital-gains-in-higher",
   "published": "2026-08-07T13:46:48.000+05:30",
-  "updated": "2026-09-26T17:01:35.480+05:30",
+  "updated": "2026-10-01T08:46:57.035+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 31506,
-  "sha256": "33bc94c98903a5cc2f9c836eb9a7dcafea750dbe4199ac2751f315186601a866",
+  "bytes": 31580,
+  "sha256": "fec537e03b7cab86b3d9fb81e91e7e5be71e944f2d9de1f57d3eb5565eb8bdd8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -238,6 +238,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (section(s) removed: What a reform ask would look like)",
+      "bytes": [
+        31506,
+        31580
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

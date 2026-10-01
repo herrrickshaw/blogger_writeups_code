@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cpi-wpi-trends-mospi-bulletin.html",
   "slug": "cpi-wpi-trends-mospi-bulletin",
   "published": "2026-08-02T13:48:25.000+05:30",
-  "updated": "2026-09-10T23:16:00.061+05:30",
+  "updated": "2026-10-01T08:18:08.503+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 48595,
-  "sha256": "a21ec6b1358509a5828988eaa66c4b64ce55cfc18d66c954921386eff1595370",
+  "bytes": 49832,
+  "sha256": "aaa9c2cdcf9e979555fe6cc6e9bb4634ba252fd438f882e406b857421f941af2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -281,6 +281,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        48595,
+        49832
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

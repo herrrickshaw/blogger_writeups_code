@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "slug": "indias-mobile-phone-pli-beat-every",
   "published": "2026-08-30T08:15:44.000+05:30",
-  "updated": "2026-09-28T16:18:46.160+05:30",
+  "updated": "2026-10-01T08:36:30.970+05:30",
   "labels": [
     "Electronics & Semiconductors",
     "India",
     "Industrial Policy",
     "PLI Schemes"
   ],
-  "bytes": 23284,
-  "sha256": "2fe80a3d0dce1156f819ccadddae59c6c3e12b25eaec258b6c37a54c90e93c79",
+  "bytes": 24832,
+  "sha256": "4ea6269fd5c5cbcd02c44bc66eac9d63b44064f18233f87538b62fe72e756150",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.0",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -110,6 +110,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stale-fact sweep: semiconductor commercial-production count 3->5 (2 posts + 2 crosslinks), PLI-Auto FY27 disbursement trajectory, Haier-Bharti-Warburg deal status, PLI Specialty Steel 55-company figure confirmed via PIB, CCTS iron&steel draft GEI targets (fertiliser status re-verified unchanged), PMFBY cumulative figures re-based to 92.46cr apps/₹2.06 lakh cr, GIC Re obligatory cession confirmed (not just proposed) for FY2026-27"
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23284,
+        24832
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

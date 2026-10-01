@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-lng-terminal-rules-changed-twice.html",
   "slug": "indias-lng-terminal-rules-changed-twice",
   "published": "2026-09-01T22:21:11.000+05:30",
-  "updated": "2026-09-27T18:45:17.644+05:30",
+  "updated": "2026-10-01T08:35:48.101+05:30",
   "labels": [
     "Gas & LNG",
     "LNG Plant & Terminal Engineering"
   ],
-  "bytes": 30440,
-  "sha256": "6a9ab4b3734bf38aacbf3c8a6cf18974d5e69d262691e10cc9a36b42869a57d0",
+  "bytes": 31755,
+  "sha256": "a9031051693e108efea2c2fcba6dbe65f8934e2e5e1f2ea3f326af08d37c21e6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -82,6 +82,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        30440,
+        31755
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

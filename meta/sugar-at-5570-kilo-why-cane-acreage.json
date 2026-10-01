@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/sugar-at-5570-kilo-why-cane-acreage.html",
   "slug": "sugar-at-5570-kilo-why-cane-acreage",
   "published": "2026-08-21T21:04:54.000+05:30",
-  "updated": "2026-09-11T00:12:58.255+05:30",
+  "updated": "2026-10-01T08:48:26.852+05:30",
   "labels": [
     "Agriculture & Food Processing",
     "Ethanol & Biofuels"
   ],
-  "bytes": 27948,
-  "sha256": "f89c317bc1338f944133dc1b6ce0fe3defd1651fdf4d964a2b5d82fd2e71c7c6",
+  "bytes": 29351,
+  "sha256": "68b741e5358d28814603b5410f2892ceb1fc11dfd85c4c7c92d375076fdb1fb7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.1",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -121,6 +121,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        27948,
+        29351
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

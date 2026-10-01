@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/cow-dung-already-flew-rocket-engine.html",
   "slug": "cow-dung-already-flew-rocket-engine",
   "published": "2026-08-09T04:20:09.000+05:30",
-  "updated": "2026-09-10T22:49:47.232+05:30",
+  "updated": "2026-10-01T08:17:45.607+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 38541,
-  "sha256": "cc2ae18af149a11284510be7e407034229eb83eb7c8080a43e6cbf52b1cfd059",
+  "bytes": 39958,
+  "sha256": "e348a88f41d41d6d1d45bb399f18fcc4892c5414a94c5185ea805553eff29600",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.0.15",
+  "version": "4.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -263,6 +263,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "4.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        38541,
+        39958
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

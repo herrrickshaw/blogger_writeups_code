@@ -4,7 +4,7 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/price-is-wire-how-gcam-actually-links.html",
   "slug": "price-is-wire-how-gcam-actually-links",
   "published": "2026-08-13T10:21:55.000+05:30",
-  "updated": "2026-09-11T00:11:07.125+05:30",
+  "updated": "2026-10-01T08:44:57.527+05:30",
   "labels": [
     "Climate & Carbon",
     "Climate Modeling",
@@ -12,8 +12,8 @@
     "Energy Systems",
     "India"
   ],
-  "bytes": 42776,
-  "sha256": "a7d75667c551dfc24185cb7c2d570786eb212ed2505cb4fcd991bd8a4ca0317a",
+  "bytes": 44156,
+  "sha256": "0530a83376db08d676d1b3d5a20d49f2dfc6237621f2558ce2645d00abb3ec16",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -25,7 +25,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.1",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -189,6 +189,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        42776,
+        44156
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

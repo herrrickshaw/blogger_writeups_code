@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/uttar-pradeshs-gst-puzzle-growing.html",
   "slug": "uttar-pradeshs-gst-puzzle-growing",
   "published": "2026-08-12T19:19:19.000+05:30",
-  "updated": "2026-09-11T22:09:38.075+05:30",
+  "updated": "2026-10-01T08:58:32.205+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 29778,
-  "sha256": "06d1f769cff1ef4a47b5cd579d09ecd34e32c61a1fa57926fe550f93499d348e",
+  "bytes": 31080,
+  "sha256": "3075cd0b2500cc8eb8a1f44630135cf2c050c6053516832994eb1db32a6eba81",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -264,6 +264,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (source note \"Gujarat collects more SGST directly...\" running 42.9px past the canvas edge) flagged by tools/svg_chart_lint.py by wrapping it into two lines."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        29778,
+        31080
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

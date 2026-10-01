@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-ethanol-sectors-buyers-market.html",
   "slug": "the-ethanol-sectors-buyers-market",
   "published": "2026-08-05T12:13:26.000+05:30",
-  "updated": "2026-09-18T20:00:42.596+05:30",
+  "updated": "2026-10-01T08:52:57.993+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 15754,
-  "sha256": "746ab092a9d369a842cc603fc4e18f82c4bdb349814fae1f049d7926111556d9",
+  "bytes": 17299,
+  "sha256": "a20b8c6608271631bb7d4d57e35e9106e9b0b1f2e5c42cff0be65a5577d151b8",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.0.3",
+  "version": "3.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -242,6 +242,19 @@
         ]
       },
       "note": "Fix a real false-positive in consistency-check/checks.py: the dark-vars-locked/bw-override rules did naive substring matching for 'prefers-color-scheme', which falsely triggered a BLOCKER on quarterly-reportage-4034-scheme's own comment explaining why it deliberately has no dark palette; now strips comments first. Also repaired 6 posts missing the Google Translate widget (using consistency-check/fix.py's repair() against local files, since the tool's own fetch-from-live-page path is blocked here). Flagged about-author.html as genuinely deleted from Blogger (404 by ID and slug), not a listing anomaly -- documented in CHANGELOG rather than silently left"
+    },
+    {
+      "version": "3.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        15754,
+        17299
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

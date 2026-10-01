@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/diesel-doesnt-move-cpi-it-moves-40.html",
   "slug": "diesel-doesnt-move-cpi-it-moves-40",
   "published": "2026-08-06T12:38:39.000+05:30",
-  "updated": "2026-09-10T23:16:13.286+05:30",
+  "updated": "2026-10-01T08:18:36.355+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 39677,
-  "sha256": "97859739ada69bf6761912e6268162faeab24b00f9963cf23e91c18f11efa9bc",
+  "bytes": 40965,
+  "sha256": "02a04f51206947e6398800e90886e3afc7566e510aa0e2ce7ba14dd82a8c4a1c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "6.0.5",
+  "version": "6.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -315,6 +315,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "6.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        39677,
+        40965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

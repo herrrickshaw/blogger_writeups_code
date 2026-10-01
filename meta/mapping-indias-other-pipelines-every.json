@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/mapping-indias-other-pipelines-every.html",
   "slug": "mapping-indias-other-pipelines-every",
   "published": "2026-09-08T09:01:53.000+05:30",
-  "updated": "2026-09-27T18:44:20.121+05:30",
+  "updated": "2026-10-01T08:41:23.705+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Infrastructure & Investment"
   ],
-  "bytes": 23906,
-  "sha256": "789e5506e81285d49bd420e1b6a746462106a155a76ac5a016faa58c188049d3",
+  "bytes": 25271,
+  "sha256": "52022bc9e876544155feb68b2de8f1bc7b331da02a5ceb3a9bee21edc41cdf48",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"11,593 km\" value label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the Indian Oil bar (white text, right-aligned) instead of after it."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23906,
+        25271
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

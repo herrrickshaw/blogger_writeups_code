@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-price-and-tap-two-levers-behind.html",
   "slug": "the-price-and-tap-two-levers-behind",
   "published": "2026-08-04T06:09:47.000+05:30",
-  "updated": "2026-09-11T21:45:34.697+05:30",
+  "updated": "2026-10-01T08:55:05.968+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 23945,
-  "sha256": "ee292ce662bcc01123306027009acafe1bb68abddfcb9cd1488e764f5ad8b38a",
+  "bytes": 25048,
+  "sha256": "b7ced8b7818106deb0069c41ea08e18afaddfb7f176faa7e9bed05ffa2d14282",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -268,6 +268,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"₹3.5 lakh cr\" OMO-purchases label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        23945,
+        25048
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

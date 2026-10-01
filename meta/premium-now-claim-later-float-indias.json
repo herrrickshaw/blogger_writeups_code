@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/premium-now-claim-later-float-indias.html",
   "slug": "premium-now-claim-later-float-indias",
   "published": "2026-08-22T20:29:04.000+05:30",
-  "updated": "2026-09-07T19:33:27.575+05:30",
+  "updated": "2026-10-01T08:44:47.670+05:30",
   "labels": [
     "Insurance & Reinsurance",
     "Macroeconomics & Monetary Policy",
     "Markets & Finance",
     "Mobility & EV"
   ],
-  "bytes": 62734,
-  "sha256": "f720a450901b10b562318e68eeae0c04fcdfe0e6325dfd647bcb36e8a8e0e39a",
+  "bytes": 64348,
+  "sha256": "a5e188f5fc9a0b0565f9aa85c70dce01e389c8d4c9e1842db0d30f247c58de4f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -71,6 +71,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        62734,
+        64348
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

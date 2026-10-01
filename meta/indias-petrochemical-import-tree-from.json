@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-petrochemical-import-tree-from.html",
   "slug": "indias-petrochemical-import-tree-from",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-09-26T10:50:58.546+05:30",
+  "updated": "2026-10-01T08:37:06.203+05:30",
   "labels": [
     "Chemicals",
     "Customs & HSN Trade Data",
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 31860,
-  "sha256": "82cbf36cd3c9db1e683de03c5c82d76308595ebb45a85a430c5a3c00b63af29f",
+  "bytes": 32989,
+  "sha256": "c6809031b690610ffc70506564dcd627177827c0168a4b3a8a96d1b5eda5ef33",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -32,6 +32,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "scheduled sync"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        31860,
+        32989
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

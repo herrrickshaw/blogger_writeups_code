@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/textbooks-say-project-returns-converge.html",
   "slug": "textbooks-say-project-returns-converge",
   "published": "2026-09-03T11:07:13.000+05:30",
-  "updated": "2026-09-10T22:46:11.694+05:30",
+  "updated": "2026-10-01T08:49:52.949+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 28980,
-  "sha256": "047e98b9861fe9bb7117080e37fd71f934fbf4841b62d7e044252ebfff1ac022",
+  "bytes": 30316,
+  "sha256": "648d21aa4e5ca6ab031262aaea930b852291f65ef9173ab7e0d4823dc14ab20f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.4",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -81,6 +81,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        28980,
+        30316
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

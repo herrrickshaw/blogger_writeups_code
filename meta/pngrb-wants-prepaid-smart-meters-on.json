@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html",
   "slug": "pngrb-wants-prepaid-smart-meters-on",
   "published": "2026-09-08T09:22:34.000+05:30",
-  "updated": "2026-09-27T18:44:01.807+05:30",
+  "updated": "2026-10-01T08:43:58.377+05:30",
   "labels": [
     "City Gas Distribution",
     "Gas & LNG",
     "Industrial Policy"
   ],
-  "bytes": 24874,
-  "sha256": "c7e37f0fdcd76c6cb51533737d05d483b137f1d67a26a3350306731ea4a7ab0e",
+  "bytes": 26288,
+  "sha256": "228a191cd55c56305aea86a6b2ad49a763113632e83481c706ab5a1a5d08ffb0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (\"Remaining total connections\" Phase IV label past the canvas edge) flagged by tools/svg_chart_lint.py by moving the label inside the bar (white text, right-aligned)."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24874,
+        26288
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

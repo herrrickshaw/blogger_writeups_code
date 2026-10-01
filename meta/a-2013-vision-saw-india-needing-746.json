@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/a-2013-vision-saw-india-needing-746.html",
   "slug": "a-2013-vision-saw-india-needing-746",
   "published": "2026-09-09T07:20:06.000+05:30",
-  "updated": "2026-09-27T18:44:08.010+05:30",
+  "updated": "2026-10-01T08:12:01.060+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 25564,
-  "sha256": "f87e8870e01db5cb81c714f6f16d6d6c09fe422a31ca731297f207b54543e856",
+  "bytes": 26939,
+  "sha256": "b5c53c6b0504dab0b0a0e6bcad302e2d60cbd7cf4e4d541bf111a6bd301778b6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -58,6 +58,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Chart-layout fix on the projected-vs-actual gas demand chart: the 'PNGRB 2025 outlook for 2030 (high)' row label overflowed the canvas's left edge by ~6px, and the tallest bar's value label ('746 MMSCMD') overflowed the right edge by 21.2px. Shifted the whole bar-chart block right by 8px (axis line, bars, row-label anchors) to clear the left overflow, and rescaled the bars to a slightly smaller max width so the tallest bar's value label fits inside the canvas with margin; recomputed all three bars' widths and label positions to preserve the same proportions."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        25564,
+        26939
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

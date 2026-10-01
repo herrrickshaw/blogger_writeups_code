@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-water-bill-nobody-mentions-what.html",
   "slug": "the-water-bill-nobody-mentions-what",
   "published": "2026-08-18T04:39:02.000+05:30",
-  "updated": "2026-09-11T00:20:41.400+05:30",
+  "updated": "2026-10-01T08:56:40.611+05:30",
   "labels": [
     "Environment & Clearances",
     "Import Substitution",
     "Manufacturing"
   ],
-  "bytes": 24088,
-  "sha256": "ddde9b4aa083d2720a87fdf5106b48ccb7706f2943c9d7fae27ac7d1b2c3ca5f",
+  "bytes": 25665,
+  "sha256": "cbdd2fcd8410db1c1bdfaee5a3b5695c0adf6a4a4fd155ff65c71e012cc1f654",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.4",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        24088,
+        25665
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

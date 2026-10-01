@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-levelised-cost-of-hydrogen.html",
   "slug": "the-levelised-cost-of-hydrogen",
   "published": "2026-08-20T06:13:26.000+05:30",
-  "updated": "2026-09-26T09:50:57.191+05:30",
+  "updated": "2026-10-01T08:54:15.010+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy"
   ],
-  "bytes": 55354,
-  "sha256": "665a50804f2d3596dfb22d465b6ab35768147001a9fcf2cb87db8206d0d9ccde",
+  "bytes": 56844,
+  "sha256": "b98ba0cd271f93282be6eb12c4693f4e8a7fcc1b367ca1a70fff34521cb1aece",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -174,6 +174,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Fixed OVERFLOW-RIGHT (source line running 72.7px past the canvas edge) by wrapping into two lines, and DOUBLE-ESCAPED-ENTITY (literal \"&amp;mdash;\" rendering as text) flagged by tools/svg_chart_lint.py."
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        55354,
+        56844
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/basf-and-mitsubishi-are-running.html",
   "slug": "basf-and-mitsubishi-are-running",
   "published": "2026-08-16T11:00:30.000+05:30",
-  "updated": "2026-09-10T23:12:20.259+05:30",
+  "updated": "2026-10-01T08:14:34.163+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "India Trade & Policy"
   ],
-  "bytes": 22894,
-  "sha256": "270b3213e5238f1fb83d55e0a9b5d893973e1ed0eaeda0c738dee29eaac91826",
+  "bytes": 24245,
+  "sha256": "dd5b905c5fb2eb4f15117c34a7a1a9d7922cc99b1bced09f6cb7ac5b87b2bb74",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.0.5",
+  "version": "2.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "2.1.0",
+      "date": "2026-10-01T09:03:45+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-0 distinct numbers))",
+      "bytes": [
+        22894,
+        24245
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Rule 8 retrofit: added What would fix this section"
     }
   ]
 }
