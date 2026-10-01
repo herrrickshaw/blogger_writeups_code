@@ -12985,3 +12985,12 @@ scheduled sync
 
 - `india-sells-world-about-third-of-its` — 2026-09-30 &rarr; 2026-09-30
 - `india-polishes-worlds-diamonds-with` — 2026-09-30 &rarr; 2026-09-30
+
+## 2026-10-01T05:41:52+05:30 — 335 posts live
+
+New post: road cess in fuel prices and the EV gap
+
+
+**Added**
+
+- `every-litre-of-petrol-pays-5-for-roads` **v1.0.0** — Every Litre of Petrol Pays ₹5 for Roads. Electric Vehicles Pay Nothing — and the Gap Is Still Small Enough to Fix. (24,803 bytes)
