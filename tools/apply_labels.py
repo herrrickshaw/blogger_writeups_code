@@ -258,6 +258,8 @@ OVERRIDE = {
     # Accidental duplicate of the diamond post from a second insert run; being
     # deleted. Never label it, whatever order delete and --apply run in.
     "india-polishes-worlds-diamonds-with_01635124664": [],
+    # Road cess / EV fuel-tax post (2026-10-01): matches its eyebrow.
+    "every-litre-of-petrol-pays-5-for-roads": ["Energy & Fuels", "Mobility & EV", "Macroeconomics & Monetary Policy"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
