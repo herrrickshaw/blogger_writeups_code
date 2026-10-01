@@ -22,11 +22,7 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS**
-- “India has banned the import of **5,071 defence items across six lists**” — the article itself notes that a fifth list exists whose item count is not established, so the 5,071 figure is only a *floor* and does not represent the total number of items barred across the six (actually seven) lists. The statement that the ban covers exactly 5,071 items is therefore inaccurate. [confidence: medium]
-
-**INTERPRETATION ERRORS**
-- “The substitution actually booked against the banned‑items lists is **₹2,570 crore — about 1.4 per cent of one year’s production**” — the ₹2,570 crore figure is a **cumulative** value accrued over several years, while the ₹1.78 lakh crore production figure is for a single fiscal year (FY 2025‑26). Comparing a multi‑year total to a one‑year output inflates the apparent share and creates a misleading impression that the lists account for 1.4 % of annual production. The reasoning conflates different time‑bases, so the percentage does not accurately reflect the lists’ contribution. [confidence: high]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4491, Requested 6737. Please try again in 24.21s. Need more tokens? Upgrade to Dev Tier today at https://cons]
 
 ## Mistral mistral-small-latest
 

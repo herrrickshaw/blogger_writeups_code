@@ -1091,3 +1091,24 @@ User-Agent over curl returns HTTP 200 — the standing PIB access note holds).
 - **Dataful / FACTLY structured discom tables** — a third-party re-publication of PFC's
   numbers in clean form. Convenient, but it is a mirror of a government series; the standing
   rule applies. Never cite in place of PFC.
+
+## Added 2026-10-01 (daily task, Thursday: seeds, plant variety rights and agricultural IP)
+
+An empty day: nothing commissionable.
+- **seednet.gov.in, retried.** It returned HTTP 503 again on `/`,
+  `/Material/Seed_Production.htm` and `/PDFFILES/SRR.pdf` (curl with a browser UA). It
+  stays NOT assessed; see the 2026-09-03 entry. Retry on a future Thursday.
+- **PPV&FR homepage, re-fetched** (HTTP 200, 171,505 bytes). It still reads "10885
+  Certificates issued as on 31.08.2026". No newer vintage, so nothing updates the
+  published `577-of-indias-plant-variety` (2026-09-17).
+- WEAK, one line each:
+  - **IBEF blog, "India's Seed Reforms and Agricultural Productivity Growth in 2025-26".**
+    Promotional summary; the SRR claims carry no dated table.
+  - **IMPRI, "National Mission on High-Yielding Seeds (2025)".** Policy explainer with no
+    primary dataset.
+  - **Draft Seeds Bill 2025 explainers** (universalinstitutions.com, countercurrents.org,
+    Deccan Herald). Already covered by `indias-draft-seeds-bill-cuts-states`
+    (2026-09-10), and none is primary.
+  - **EDV search.** It returned only FAQs and coaching pages restating the Act. The
+    "General Guidelines Regarding the Registration of EDV" notice (2026-09-07 entry) is
+    still the only primary EDV source.

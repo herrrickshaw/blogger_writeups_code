@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html",
   "slug": "every-litre-of-petrol-pays-5-for-roads",
   "published": "2026-10-01T05:41:33.000+05:30",
-  "updated": "2026-10-01T09:17:58.461+05:30",
+  "updated": "2026-10-01T13:59:28.941+05:30",
   "labels": [
     "Energy & Fuels",
     "Mobility & EV"
   ],
-  "bytes": 32824,
-  "sha256": "488cec8c5ade417ec722c5bc7960205374fe1de73e1664f7a3b87225d35f7eca",
+  "bytes": 39685,
+  "sha256": "4a209014ef369f0a97a9eff81a0bffe87634be27c1e2f3637c7f06d27365872b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-01T13:59:46+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+46/-0 distinct numbers))",
+      "bytes": [
+        32824,
+        39685
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Road cess post: highway-cost yardsticks and per-km EV cess equivalent"
     }
   ]
 }

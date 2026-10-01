@@ -13618,3 +13618,16 @@ Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sect
 - `cocoa-quintupled-then-gave-most-of-it` — 33,319 → 33,438 bytes (+119)
 - `one-nation-one-gst-rate-what-true-flat` — 26,723 → 26,842 bytes (+119)
 - `indias-labour-codes-took-six-years-to` — 20,322 → 21,645 bytes (+1,323)
+
+## 2026-10-01T13:59:46+05:30 — 335 posts live
+
+Road cess post: highway-cost yardsticks and per-km EV cess equivalent
+
+
+**Versions**
+
+- `every-litre-of-petrol-pays-5-for-roads` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+46/-0 distinct numbers))
+
+**Changed**
+
+- `every-litre-of-petrol-pays-5-for-roads` — 32,824 → 39,685 bytes (+6,861)

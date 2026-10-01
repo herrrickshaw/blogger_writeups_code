@@ -11,23 +11,26 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "Diesel generation costs roughly $0.28 a kilowatt-hour against grid power at $0.085 and solar-charged battery storage at $0.076–0.08." — The $0.076–0.08/kWh (or $0.076–0.112/kWh) figure is the cost of round-the-clock (RTC) renewable PPAs, not solar-charged battery storage. As the article's own chart and Section 2 table note, that range applies to RTC renewable PPAs; levelised cost of solar-charged BESS is given in Section 2 as ₹39.71–61.72/kWh (roughly $0.48–0.74/kWh), which is several times higher. [confidence: high]
-- "a five-fold expansion of telecom tower sites for 5G" — The article's own cited numbers state that India's telecom tower base needs to grow from roughly 750,000 to around 1.2 million (an addition of ~450,000 towers). That represents an increase of 60% (a 1.6-fold total), not a five-fold (5x) expansion. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "The economics inside that design standard are already shifting, though. A straight comparison of two backup architectures — Diesel Rotary UPS (DRUPS, which uses flywheel kinetic energy) against Static UPS with a battery bank (SUPS) — found DRUPS has a 9-month payback against SUPS on a 1.5 MW system, purely from lower operating cost ($1.84 million versus $5.46 million OpEx), even before counting emissions." — DRUPS stands for Diesel Rotary UPS; it relies on an integrated diesel engine. Citing a study where DRUPS outperforms battery-based Static UPS (SUPS) on OpEx and payback does not show that the economics are shifting away from diesel; it demonstrates that a diesel-driven system was found to be more economical than a battery-backed alternative. [confidence: high]
-- "Diesel backup power costs roughly 3x the Indian grid average and 3.5x round-the-clock renewable PPAs — figures the post cites from the Takshashila Institution." — This is an apples-to-oranges comparison used to argue that the economics of backup power are tipping against diesel. Grid tariffs and RTC renewable PPAs represent baseload, continuous utility power. Diesel generators are installed for emergency backup during outages, where low utilization inherently drives up the levelised cost per unit generated. A lower grid or PPA per-unit rate does not demonstrate that diesel backup is economically unviable, because grid power cannot supply a facility when the grid fails. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS**  
-- “India’s telecom tower base needs to grow from roughly **750,000 towers** already in place to around 1.2 million…” — Industry data (TRAI, TowerXchange) place the current tower count at **≈ 600 k** (2023‑24), not 750 k. The figure appears overstated. [confidence: medium]  
-- “PNGRB had authorised **307 geographical areas by 2026**, reaching close to 100 % of India’s landmass outside the islands…” — The 307‑area count was **recorded in March 2023**; the article projects it to 2026 without a source, making the statement unverifiable and likely inaccurate. [confidence: medium]  
+**FACTUAL ERRORS**
+- **“Indus Towers … has already converted its 50,000th cell site to run diesel‑free (back in March 2016).”** – Indus Towers announced its first diesel‑free sites only in the late 2010s; the 50 000‑site milestone was reported in 2021, not 2016. The date and timing are therefore incorrect. [confidence: high]
 
-**INTERPRETATION ERRORS**  
-- “Diesel generation runs about **$0.28 per kWh**, against an Indian grid average of **$0.085/kWh** and round‑the‑clock renewable PPAs of **$0.076–0.112/kWh**…” — This compares the **per‑kWh cost of a rarely‑used backup generator** with the **per‑kWh cost of continuous grid or renewable supply**. Because diesel generators operate at a very low capacity factor, the cost per kWh of *energy actually delivered* is not directly comparable to base‑load tariffs; the claim overstates the economic disadvantage of diesel as a backup. [confidence: high]  
-- “Telecom tower diesel‑elimination figures … are a **precedent** for data‑centre backup‑power decisions.” — The article infers that data‑centres will follow the telecom sector’s diesel‑phase‑out, but provides no evidence that data‑centre operators face the same cost‑or‑reliability incentives, nor that their load profiles and regulatory constraints are comparable. The causal link is therefore speculative. [confidence: medium]
+- **“India’s telecom‑tower base needs to grow from roughly 750,000 towers already in place to around 1.2 million …”** – Industry data (TRAI, ICRA, and tower‑company filings) place the current count of operational towers at about 600 000–650 000, not 750 000. The baseline figure is therefore overstated. [confidence: medium]
+
+**INTERPRETATION ERRORS**
+- **“Diesel generation runs about $0.28 /kWh … diesel generators cost roughly three times what grid power costs … therefore diesel backup is losing the cost argument for data‑centres.”** – The $0.28 /kWh figure is a *levelised* cost assuming the diesel set runs continuously, whereas in data‑centres diesel is only used for short outage periods (often ≤ 4 h). Comparing a continuous‑use cost with a grid‑price that applies 24 h × 365 days is a mismatched “apples‑to‑oranges” cost comparison, so the conclusion that diesel is uneconomic for backup is not supported by the data presented. [confidence: high]
+
+- **“Telecom tower‑cos have already proven the alternative works at scale; data‑centres … have not yet caught up.”** – Towers have low, intermittent loads and can tolerate brief outages, while data‑centres require near‑continuous power (99.999 % uptime) and much larger instantaneous loads. Demonstrating diesel‑free operation for towers does not directly prove feasibility for data‑centres; the article extrapolates the tower experience to a fundamentally different use case. [confidence: high]
 
 ## Mistral mistral-small-latest
 
