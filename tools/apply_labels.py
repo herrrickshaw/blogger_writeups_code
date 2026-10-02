@@ -268,6 +268,8 @@ OVERRIDE = {
     "making-plastic-releases-heat-unmaking": ["Energy & Fuels", "Industrial Policy", "Climate & Carbon"],
     # CAFE-III global comparison post (2026-10-02): expected slug; confirm against insert output.
     "indias-new-car-rules-count-every-ev-as": ["Mobility & EV", "Energy & Fuels", "Climate & Carbon"],
+    # RBI Unified Markets Interface post (2026-10-02): expected slug; confirm against insert output.
+    "rbi-has-put-bonds-and-rupees-on-one": ["Markets & Finance", "Macroeconomics & Monetary Policy"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
