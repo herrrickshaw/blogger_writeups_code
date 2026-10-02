@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-02T09:04:59+05:30",
-  "count": 338,
+  "snapshot": "2026-10-02T09:12:19+05:30",
+  "count": 339,
   "posts": {
     "1023631151138981087": {
       "id": "1023631151138981087",
@@ -30653,9 +30653,13 @@
       "title": "India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
       "slug": "indias-new-car-rules-count-every-ev-as",
-      "published": "2026-10-02T09:04:39.348+05:30",
-      "updated": "2026-10-02T09:04:39.348+05:30",
-      "labels": [],
+      "published": "2026-10-02T09:04:39.000+05:30",
+      "updated": "2026-10-02T09:05:09.399+05:30",
+      "labels": [
+        "Climate & Carbon",
+        "Energy & Fuels",
+        "Mobility & EV"
+      ],
       "bytes": 34948,
       "sha256": "7cacb312226a6ed5df076dd1cbf0d99b634a6ca00d560d2e16ad751de3544cf4",
       "markers": {
@@ -50222,6 +50226,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        }
+      ]
+    },
+    "7914654740088009580": {
+      "id": "7914654740088009580",
+      "title": "The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html",
+      "slug": "the-rbi-has-put-bonds-and-rupees-on-one",
+      "published": "2026-10-02T09:11:59.062+05:30",
+      "updated": "2026-10-02T09:11:59.062+05:30",
+      "labels": [],
+      "bytes": 24913,
+      "sha256": "ce09a66005cb4308f0b8c8b3dab0227cd5a79a0e8cdff8a8c03905e588e03309",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-02T09:12:19+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "New post: RBI Unified Markets Interface and tokenisation"
         }
       ]
     },

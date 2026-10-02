@@ -13729,3 +13729,16 @@ New post: CAFE-III compared with global fuel-efficiency rules
 **Added**
 
 - `indias-new-car-rules-count-every-ev-as` **v1.0.0** — India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out. (34,948 bytes)
+
+## 2026-10-02T09:12:19+05:30 — 339 posts live
+
+New post: RBI Unified Markets Interface and tokenisation
+
+
+**Added**
+
+- `the-rbi-has-put-bonds-and-rupees-on-one` **v1.0.0** — The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It. (24,913 bytes)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-new-car-rules-count-every-ev-as` — 2026-10-02 &rarr; 2026-10-02
