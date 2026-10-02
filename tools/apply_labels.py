@@ -266,6 +266,8 @@ OVERRIDE = {
     # Pyrolysis thermodynamics / staged catalysis post (2026-10-01):
     # expected slug; confirm against the insert output.
     "making-plastic-releases-heat-unmaking": ["Energy & Fuels", "Industrial Policy", "Climate & Carbon"],
+    # CAFE-III global comparison post (2026-10-02): expected slug; confirm against insert output.
+    "indias-new-car-rules-count-every-ev-as": ["Mobility & EV", "Energy & Fuels", "Climate & Carbon"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
