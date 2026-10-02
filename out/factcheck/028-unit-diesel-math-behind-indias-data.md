@@ -22,15 +22,11 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS**
-- **“Indus Towers … has already converted its 50,000th cell site to run diesel‑free (back in March 2016).”** – Indus Towers announced its first diesel‑free sites only in the late 2010s; the 50 000‑site milestone was reported in 2021, not 2016. The date and timing are therefore incorrect. [confidence: high]
+**FACTUAL ERRORS:**  
+- **“India's 606,300 telecom towers — 83 per cent of them owned by neutral, non‑discriminatory tower companies … the second‑highest tower‑co‑penetration rate in the world after China's 100 per cent.”** – The 83 % figure is not supported by publicly available TRAI/industry data, which places tower‑co ownership closer to 70 % (≈ 420 k of ~ 600 k towers) as of 2023‑24. The claim of a world‑ranking second only to China is therefore inaccurate. [confidence: high]
 
-- **“India’s telecom‑tower base needs to grow from roughly 750,000 towers already in place to around 1.2 million …”** – Industry data (TRAI, ICRA, and tower‑company filings) place the current count of operational towers at about 600 000–650 000, not 750 000. The baseline figure is therefore overstated. [confidence: medium]
-
-**INTERPRETATION ERRORS**
-- **“Diesel generation runs about $0.28 /kWh … diesel generators cost roughly three times what grid power costs … therefore diesel backup is losing the cost argument for data‑centres.”** – The $0.28 /kWh figure is a *levelised* cost assuming the diesel set runs continuously, whereas in data‑centres diesel is only used for short outage periods (often ≤ 4 h). Comparing a continuous‑use cost with a grid‑price that applies 24 h × 365 days is a mismatched “apples‑to‑oranges” cost comparison, so the conclusion that diesel is uneconomic for backup is not supported by the data presented. [confidence: high]
-
-- **“Telecom tower‑cos have already proven the alternative works at scale; data‑centres … have not yet caught up.”** – Towers have low, intermittent loads and can tolerate brief outages, while data‑centres require near‑continuous power (99.999 % uptime) and much larger instantaneous loads. Demonstrating diesel‑free operation for towers does not directly prove feasibility for data‑centres; the article extrapolates the tower experience to a fundamentally different use case. [confidence: high]
+**INTERPRETATION ERRORS:**  
+- **“Diesel backup is already losing the cost argument to solar‑charged battery storage … the Auroville Consulting study shows diesel LCOE ₹49.58–57.63/kWh vs. solar‑charged BESS ₹39.71–61.72/kWh, making solar‑charged BESS the cheaper backup option across most hours‑of‑autonomy scenarios tested.”** – The study is a Tamil Nadu‑specific commercial/industrial backup analysis, not a data‑centre‑level assessment. Data‑centres have far larger, near‑continuous loads and stricter uptime requirements than the industrial customers modeled. Extrapolating the Tamil Nadu cost ratios to all Indian data‑centres therefore overstates the economic advantage of BESS and creates a false causal link between the study’s results and nationwide data‑centre backup economics. [confidence: high]
 
 ## Mistral mistral-small-latest
 

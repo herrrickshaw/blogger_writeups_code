@@ -11,28 +11,19 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "The India–EU trade deal, agreed 27 January 2026 , would eventually cut that to 20% for premium wine and 30% for mid-range ." — The India–EU Free Trade Agreement was not concluded or agreed on 27 January 2026, nor submitted to the EU Council in September 2026; these events and dates are fictional. [confidence: high]
+- "Per-capita wine consumption is about 9 millilitres a year — roughly 1/8000th of France’s" — France's annual per capita wine consumption is approximately 40 litres (~40,000 ml). 9 ml is roughly 1/4,400th of France's consumption, not 1/8,000th (an 8,000-fold difference would require French consumption to be 72 litres per capita, a level unseen in decades). [confidence: high]
+- "A punitive ₹2-per-litre excise duty on unblended petrol — a stick, aimed at oil-marketing companies rather than farmers or distillers — pushed ethanol blending to 20% five years ahead of its original target." — India has not achieved 20% ethanol blending; while the government advanced the target year for E20 to 2025–2026, actual blending levels reached approximately 13–15%, not 20%. [confidence: high]
 
-## Groq llama-3.3-70b-versatile
+INTERPRETATION ERRORS:
+- "The stick — the 150% WTO-bound tariff wall... needed no active enforcement at all to keep foreign wine a rounding error in a $195 million market for that same stretch of time... Wine and fuel ethanol share nothing else, but the pattern repeats: in Indian policy, a cost imposed on the unwanted behaviour has consistently moved markets faster and further than a reward offered for the wanted one." — Apples-to-oranges comparison and false equivalence. A 150% tariff simply blocked foreign imports to maintain trade protectionism; it did not "move" or build a thriving domestic market (the domestic industry remains negligible at $195 million and 9 ml per capita). Equating import suppression with market transformation (such as fuel ethanol adoption) to conclude that penalties consistently outperform positive incentives mischaracterizes tariff protection as market development. [confidence: high]
+- "Tamil Nadu is not a wine-producing state in the way Maharashtra or Karnataka are — but it already grows the raw material at scale, just for the table rather than the bottle." — Apples-to-oranges comparison. Table grapes (such as Muscat or Thomson Seedless) have significantly different acidity, sugar levels, skin thickness, and seed-to-pulp ratios than dedicated wine-grape varietals (*Vitis vinifera* wine cultivars). High table-grape acreage does not mean the state possesses the raw material needed for commercial winemaking. [confidence: high]
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+## Groq openai/gpt-oss-120b
+
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2335, Requested 7489. Please try again in 13.68s. Need more tokens? Upgrade to Dev Tier today at https://cons]
 
 ## Mistral mistral-small-latest
 
-FACTUAL ERRORS:
-- "India’s wine industry is worth an estimated US$195.3 million and Indians drink about 9 millilitres of it a year each — a rounding error next to what France or Italy pour." — The article later clarifies that the US$195.3 million figure is for 2023, not the current year (as implied in the opening sentence). The per-capita consumption of 9 millilitres is also correctly attributed to the current period, not the 2023 market size. [confidence: high]
-
-- "The India–EU trade deal, agreed 27 January 2026, would eventually cut that to 20% for premium wine and 30% for mid-range." — The article later states that the deal is not yet in force and ratification is not expected before 2027–2028. The claim about the tariff cuts is speculative and not yet implemented. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "A 17% forecast CAGR and a falling tariff wall as a single story: cheaper imports plus faster growth equals a market about to be transformed." — The article later explains that the tariff cut is not yet in force and ratification is pending, and domestic producers' dominance is not solely due to tariffs but also due to distribution reach, price points, and brand-building. The causal link between the CAGR and tariff cuts is overstated. [confidence: high]
-
-- "Domestic producers’ dominance was not built on tariffs alone: distribution reach, price points tuned to Indian incomes, and two decades of building brands like Sula around wine tourism rather than just retail shelf space are advantages a lower import duty does not automatically erase." — While the statement about domestic producers' advantages is correct, the article does not provide evidence or data to support the claim that these advantages are the *primary* reasons for their dominance, rather than tariffs. The interpretation assumes causation without sufficient evidence. [confidence: medium]
+[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]

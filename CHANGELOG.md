@@ -13742,3 +13742,12 @@ New post: RBI Unified Markets Interface and tokenisation
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-new-car-rules-count-every-ev-as` — 2026-10-02 &rarr; 2026-10-02
+
+## 2026-10-02T09:26:32+05:30 — 340 posts live
+
+New post: crypto-settled FDI and the UAE's stablecoin pilots
+
+
+**Added**
+
+- `abu-dhabi-paid-2-billion-for-binance` **v1.0.0** — Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That. (30,146 bytes)
