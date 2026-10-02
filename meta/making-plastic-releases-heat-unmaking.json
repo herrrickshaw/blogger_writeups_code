@@ -3,11 +3,15 @@
   "title": "Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away.",
   "url": "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
   "slug": "making-plastic-releases-heat-unmaking",
-  "published": "2026-10-02T05:36:49.270+05:30",
-  "updated": "2026-10-02T05:36:49.270+05:30",
-  "labels": [],
-  "bytes": 45685,
-  "sha256": "3f59c9d6d927a834f6e952def3d323e9bf66d78d0b16fa6995cffdd1491000a7",
+  "published": "2026-10-02T05:36:49.000+05:30",
+  "updated": "2026-10-02T05:42:03.118+05:30",
+  "labels": [
+    "Climate & Carbon",
+    "Energy & Fuels",
+    "Industrial Policy"
+  ],
+  "bytes": 56593,
+  "sha256": "4aaf1a30f8cf9f4d2d3b90f9d8509defd8f57a818b7e04443dddefe890312cfb",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,13 +23,26 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
       "date": "2026-10-02T05:37:09+05:30",
       "level": "initial",
       "reason": "first snapshot",
+      "note": ""
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-02T05:42:22+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+39/-0 distinct numbers))",
+      "bytes": [
+        45685,
+        56593
+      ],
+      "url_changed": null,
+      "markers_changed": null,
       "note": ""
     }
   ]

@@ -13685,3 +13685,13 @@ Crop-residue biogas: pulse and soybean residues
 **Added**
 
 - `making-plastic-releases-heat-unmaking` **v1.0.0** — Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away. (45,685 bytes)
+
+## 2026-10-02T05:42:22+05:30 — 337 posts live
+
+**Versions**
+
+- `making-plastic-releases-heat-unmaking` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+39/-0 distinct numbers))
+
+**Changed**
+
+- `making-plastic-releases-heat-unmaking` — 45,685 → 56,593 bytes (+10,908)
