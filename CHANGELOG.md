@@ -13679,3 +13679,9 @@ Crop-residue biogas: pulse and soybean residues
 **Changed**
 
 - `cotton-stalk-is-one-of-hardest-crop` — 45,596 → 50,100 bytes (+4,504)
+
+## 2026-10-02T05:37:09+05:30 — 337 posts live
+
+**Added**
+
+- `making-plastic-releases-heat-unmaking` **v1.0.0** — Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away. (45,685 bytes)
