@@ -270,6 +270,8 @@ OVERRIDE = {
     "indias-new-car-rules-count-every-ev-as": ["Mobility & EV", "Energy & Fuels", "Climate & Carbon"],
     # RBI Unified Markets Interface post (2026-10-02): expected slug; confirm against insert output.
     "rbi-has-put-bonds-and-rupees-on-one": ["Markets & Finance", "Macroeconomics & Monetary Policy"],
+    # Crypto-settled FDI / UAE pilots post (2026-10-02): expected slug; confirm against insert output.
+    "abu-dhabi-paid-2-billion-for-binance": ["Markets & Finance", "Macroeconomics & Monetary Policy", "Industrial Policy"],
 }
 
 # SUB-TOPIC REFINEMENT PASS (2026-09-26)
