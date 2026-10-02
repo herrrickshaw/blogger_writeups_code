@@ -760,6 +760,11 @@ def main():
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--slug", action="append", default=[],
+                    help="limit the run to this post (repeatable)")
+    ap.add_argument("--add-missing", action="store_true",
+                    help="with --slug: also update posts that already have labels, "
+                         "adding any planned label they lack; never removes a label")
     ap.add_argument("--recheck", action="store_true",
                     help="GET every post from the API instead of trusting the "
                          "labels recorded in meta/manifest.json by the last snapshot")
@@ -778,6 +783,13 @@ def main():
             continue                      # archived file with no live post
         labs = OVERRIDE[slug] if slug in OVERRIDE else labels_for(headings(f))
         plan.append((slug, rec["id"], labs))
+    if args.add_missing and not args.slug:
+        ap.error("--add-missing needs at least one --slug")
+    if args.slug:
+        unknown = set(args.slug) - {s for s, _, _ in plan}
+        if unknown:
+            ap.error(f"no live post with slug: {', '.join(sorted(unknown))}")
+        plan = [row for row in plan if row[0] in args.slug]
 
     tally = collections.Counter(l for _, _, ls in plan for l in ls)
     print(f"posts: {len(plan)}   unlabelled by the rules: "
@@ -796,6 +808,26 @@ def main():
             print(f"\nstopping at --limit {args.limit}")
             break
         if not labs:
+            continue
+        if args.add_missing:
+            p = B.api(f"/blogs/{B.BLOG_ID}/posts/{pid}")
+            have = p.get("labels") or []
+            want = have + [l for l in labs if l not in have]
+            if want == have:
+                skipped += 1
+                print(f"  {slug[:48]:50} already has {', '.join(have)}")
+                continue
+            try:
+                B.api(f"/blogs/{B.BLOG_ID}/posts/{pid}",
+                      data={"id": pid, "title": p["title"], "content": p["content"],
+                            "published": p["published"], "labels": want},
+                      method="PUT")
+            except B.Ceiling as e:
+                print(f"\ndaily write ceiling reached after {done} writes: {e}")
+                return 3
+            done += 1
+            print(f"  {done:3} {slug[:48]:50} {', '.join(have) or '—'}  ->  {', '.join(want)}")
+            time.sleep(B.WRITE_GAP_SECONDS)
             continue
         if not args.recheck and by_slug[slug].get("labels"):
             skipped += 1                  # snapshot says it is labelled — no API call
