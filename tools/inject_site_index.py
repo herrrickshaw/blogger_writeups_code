@@ -31,6 +31,7 @@ import time
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+ROOT = Path(__file__).resolve().parent.parent
 import blogger_api as B  # noqa: E402
 
 STUB = ('\n<div id="gs-idx"></div>'
@@ -55,6 +56,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--apply", action="store_true")
+    ap.add_argument("--recheck", action="store_true",
+                    help="GET every live post instead of trusting the archived "
+                         "copies in posts/ from the last snapshot")
     args = ap.parse_args()
     if not (args.plan or args.apply):
         ap.error("pass --plan or --apply")
@@ -62,6 +66,13 @@ def main():
     posts = live_posts()
     todo = [p for p in posts
             if p["url"].rsplit("/", 1)[-1].removesuffix(".html") not in SKIP_SLUGS]
+    if not args.recheck:
+        # One GET per post for ~340 posts is slow and times out; the archived
+        # copy from the last snapshot already says which posts carry the stub.
+        def archived_has_stub(p):
+            f = ROOT / "posts" / (p["url"].rsplit("/", 1)[-1].removesuffix(".html") + ".html")
+            return f.exists() and 'id="gs-idx"' in f.read_text(encoding="utf-8")
+        todo = [p for p in todo if not archived_has_stub(p)]
     print(f"live posts {len(posts)} | eligible {len(todo)}")
     if args.plan:
         for p in todo[:10]:

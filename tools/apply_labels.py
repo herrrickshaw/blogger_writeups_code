@@ -760,6 +760,9 @@ def main():
     ap.add_argument("--plan", action="store_true")
     ap.add_argument("--apply", action="store_true")
     ap.add_argument("--limit", type=int, default=0)
+    ap.add_argument("--recheck", action="store_true",
+                    help="GET every post from the API instead of trusting the "
+                         "labels recorded in meta/manifest.json by the last snapshot")
     args = ap.parse_args()
     if not (args.plan or args.apply):
         ap.error("pass --plan or --apply")
@@ -793,6 +796,9 @@ def main():
             print(f"\nstopping at --limit {args.limit}")
             break
         if not labs:
+            continue
+        if not args.recheck and by_slug[slug].get("labels"):
+            skipped += 1                  # snapshot says it is labelled — no API call
             continue
         try:
             p = B.api(f"/blogs/{B.BLOG_ID}/posts/{pid}")
