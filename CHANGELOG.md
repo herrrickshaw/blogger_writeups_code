@@ -13758,3 +13758,13 @@ New post: crypto-settled FDI and the UAE's stablecoin pilots
 
 - `abu-dhabi-paid-2-billion-for-binance` — 2026-10-02 &rarr; 2026-10-02
 - `the-rbi-has-put-bonds-and-rupees-on-one` — 2026-10-02 &rarr; 2026-10-02
+
+## 2026-10-02T16:22:14+05:30 — 340 posts live
+
+**Versions**
+
+- `tamil-nadus-water-infrastructure-runs` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+
+**Changed**
+
+- `tamil-nadus-water-infrastructure-runs` — 27,505 → 27,938 bytes (+433)
