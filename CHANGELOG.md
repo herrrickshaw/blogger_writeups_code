@@ -13768,3 +13768,13 @@ New post: crypto-settled FDI and the UAE's stablecoin pilots
 **Changed**
 
 - `tamil-nadus-water-infrastructure-runs` — 27,505 → 27,938 bytes (+433)
+
+## 2026-10-02T16:22:58+05:30 — 340 posts live
+
+**Versions**
+
+- `article-index-start-here` **51.3.0 → 52.0.0** (MAJOR) — figures changed (+14/-5 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 403,864 → 441,462 bytes (+37,598); markers typo_unify False→True
