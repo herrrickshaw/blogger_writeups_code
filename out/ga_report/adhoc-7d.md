@@ -80,3 +80,28 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/07/indias-textile-import-export-strategy.html | 1 | 1 |
 | /2026/07/the-grain-value-loop-integrated-rice.html | 1 | 1 |
 | /2026/07/the-price-of-grain-msp-msv-and.html | 1 | 1 |
+
+## Likely human readership
+
+Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what gets through here is headless browsers from datacentre cities (one desktop/Chrome view, 0s engagement, 100% bounce -- see the drill-down above). Their signature is that they never produce an *engaged session* (GA4's definition: lasts over 10s, or has 2+ page views, or a key event). So: a city with zero engaged sessions in the range is counted as bot-like in full; any city with at least one engaged session is counted as human-like, and the engaged-session count -- not users or views -- is the best single number for real readers. Cities passed via --owner-cities (your own browsing, until GA4's internal-traffic filter is active) are reported separately and left out of the page table.
+
+| Class | Cities | Active users | Page views | Sessions | Engaged sessions |
+|---|---|---|---|---|---|
+| Owner cities (Madurai, Mumbai, Hyderabad, Coimbatore) | 4 | 8 | 98 | 26 | 13 |
+| Human-like | 2 | 3 | 5 | 5 | 3 |
+| Bot-like (no engaged session) | 6 | 110 | 110 | 110 | 0 |
+
+### Human-like cities (top 20 by engaged sessions)
+
+| City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
+|---|---|---|---|---|---|
+| Dubai | 2 | 3 | 1 | 3 | 39s |
+| Hong Kong | 1 | 2 | 2 | 2 | 0s |
+
+### Pages read by likely humans (top 20 by engaged sessions, owner cities excluded)
+
+| Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
+|---|---|---|---|---|
+| /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 1 | 2 | 1 | 56s |
+| / | 1 | 3 | 3 | 2s |
+| /2026/09/indias-oil-psus-say-they-clear-their_01269248608.html | 1 | 2 | 2 | 0s |
