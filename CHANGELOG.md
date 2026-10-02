@@ -13720,3 +13720,12 @@ Road-cess post: add Macroeconomics & Monetary Policy label; site-index stubs
 
 - `cotton-stalk-is-one-of-hardest-crop` — 50,100 → 50,219 bytes (+119)
 - `every-litre-of-petrol-pays-5-for-roads` — 39,685 → 39,804 bytes (+119)
+
+## 2026-10-02T09:04:59+05:30 — 338 posts live
+
+New post: CAFE-III compared with global fuel-efficiency rules
+
+
+**Added**
+
+- `indias-new-car-rules-count-every-ev-as` **v1.0.0** — India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out. (34,948 bytes)
