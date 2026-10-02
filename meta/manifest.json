@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-02T05:42:22+05:30",
+  "snapshot": "2026-10-02T05:54:33+05:30",
   "count": 337,
   "posts": {
     "1023631151138981087": {
@@ -41963,14 +41963,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
       "slug": "making-plastic-releases-heat-unmaking",
       "published": "2026-10-02T05:36:49.000+05:30",
-      "updated": "2026-10-02T05:42:03.118+05:30",
+      "updated": "2026-10-02T05:54:13.666+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 56593,
-      "sha256": "4aaf1a30f8cf9f4d2d3b90f9d8509defd8f57a818b7e04443dddefe890312cfb",
+      "bytes": 56898,
+      "sha256": "bb5c6927dabac06616fe7490d0a94bc15d9d3ccfbb687e90cf406dc728e7db29",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -41982,7 +41982,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.1.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -41999,6 +41999,19 @@
           "bytes": [
             45685,
             56593
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "1.1.1",
+          "date": "2026-10-02T05:54:33+05:30",
+          "level": "patch",
+          "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+          "bytes": [
+            56593,
+            56898
           ],
           "url_changed": null,
           "markers_changed": null,

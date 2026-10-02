@@ -13695,3 +13695,13 @@ Crop-residue biogas: pulse and soybean residues
 **Changed**
 
 - `making-plastic-releases-heat-unmaking` — 45,685 → 56,593 bytes (+10,908)
+
+## 2026-10-02T05:54:33+05:30 — 337 posts live
+
+**Versions**
+
+- `making-plastic-releases-heat-unmaking` **1.1.0 → 1.1.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `making-plastic-releases-heat-unmaking` — 56,593 → 56,898 bytes (+305)
