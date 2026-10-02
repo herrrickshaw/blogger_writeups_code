@@ -13705,3 +13705,18 @@ Crop-residue biogas: pulse and soybean residues
 **Changed**
 
 - `making-plastic-releases-heat-unmaking` — 56,593 → 56,898 bytes (+305)
+
+## 2026-10-02T07:27:43+05:30 — 337 posts live
+
+Road-cess post: add Macroeconomics & Monetary Policy label; site-index stubs
+
+
+**Versions**
+
+- `cotton-stalk-is-one-of-hardest-crop` **1.3.0 → 1.3.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+- `every-litre-of-petrol-pays-5-for-roads` **1.2.0 → 1.2.1** (PATCH) — forced via --as patch (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `cotton-stalk-is-one-of-hardest-crop` — 50,100 → 50,219 bytes (+119)
+- `every-litre-of-petrol-pays-5-for-roads` — 39,685 → 39,804 bytes (+119)

@@ -4,13 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html",
   "slug": "every-litre-of-petrol-pays-5-for-roads",
   "published": "2026-10-01T05:41:33.000+05:30",
-  "updated": "2026-10-01T13:59:28.941+05:30",
+  "updated": "2026-10-02T07:27:26.000+05:30",
   "labels": [
     "Energy & Fuels",
+    "Macroeconomics & Monetary Policy",
     "Mobility & EV"
   ],
-  "bytes": 39685,
-  "sha256": "4a209014ef369f0a97a9eff81a0bffe87634be27c1e2f3637c7f06d27365872b",
+  "bytes": 39804,
+  "sha256": "fcba7daad8dbcae0f86274539761271e9231cf736c47fc411d99fb59d3e7c937",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.2.0",
+  "version": "1.2.1",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Road cess post: highway-cost yardsticks and per-km EV cess equivalent"
+    },
+    {
+      "version": "1.2.1",
+      "date": "2026-10-02T07:27:43+05:30",
+      "level": "patch",
+      "reason": "forced via --as patch (visible text identical; only markup/styling changed)",
+      "bytes": [
+        39685,
+        39804
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Road-cess post: add Macroeconomics & Monetary Policy label; site-index stubs"
     }
   ]
 }
