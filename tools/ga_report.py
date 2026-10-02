@@ -21,6 +21,11 @@ Report-only: reads GA4 data, prints/writes a summary. Never touches the blog.
     python3 tools/ga_report.py --days 7
     python3 tools/ga_report.py --days 90 --out out/ga_report.md
     python3 tools/ga_report.py --city-quality-n 0  # skip the drill-down (2 fewer API calls)
+    python3 tools/ga_report.py --days 7 --owner-cities "Madurai,Mumbai,Hyderabad"
+
+Likely-human section (2026-10-02): splits cities into bot-like (no engaged
+session in the range) and human-like, and ranks pages by engaged sessions,
+optionally leaving out your own cities. See HUMAN_NOTE.
 """
 import argparse, base64, glob, json, re, time, urllib.request, urllib.parse, pathlib
 
@@ -245,6 +250,131 @@ def city_quality_to_table(cities, by_city_rows, mix, eng, top_combos=3):
     return "\n".join(lines)
 
 
+HUMAN_NOTE = (
+    "Heuristic, not a bot filter. GA4 already drops crawlers on the IAB "
+    "list; what gets through here is headless browsers from datacentre "
+    "cities (one desktop/Chrome view, 0s engagement, 100% bounce -- see the "
+    "drill-down above). Their signature is that they never produce an "
+    "*engaged session* (GA4's definition: lasts over 10s, or has 2+ page "
+    "views, or a key event). So: a city with zero engaged sessions in the "
+    "range is counted as bot-like in full; any city with at least one "
+    "engaged session is counted as human-like, and the engaged-session "
+    "count -- not users or views -- is the best single number for real "
+    "readers. Cities passed via --owner-cities (your own browsing, until "
+    "GA4's internal-traffic filter is active) are reported separately and "
+    "left out of the page table.")
+
+
+def _metric_values(row):
+    return [float(m["value"]) for m in row.get("metricValues", [])]
+
+
+def city_engagement_rows(token, date_range):
+    """Every city in the range with users, views, sessions, engaged sessions
+    and total engagement seconds -- the raw material for the bot-like vs
+    human-like split."""
+    report = run_report(token, {
+        "dateRanges": date_range,
+        "dimensions": [{"name": "city"}],
+        "metrics": [{"name": "activeUsers"}, {"name": "screenPageViews"},
+                    {"name": "sessions"}, {"name": "engagedSessions"},
+                    {"name": "userEngagementDuration"}],
+        "limit": 1000,
+    })
+    rows = []
+    for row in report.get("rows", []):
+        users, views, sessions, engaged, duration = _metric_values(row)
+        rows.append({"city": row["dimensionValues"][0]["value"],
+                     "users": int(users), "views": int(views),
+                     "sessions": int(sessions), "engaged": int(engaged),
+                     "duration": duration})
+    return rows
+
+
+def classify_cities(rows, owner_cities=()):
+    """Split city rows into owner / human-like / bot-like (see HUMAN_NOTE)."""
+    owner = {c.casefold() for c in owner_cities}
+    classes = {"owner": [], "human": [], "bot": []}
+    for r in rows:
+        if r["city"].casefold() in owner:
+            classes["owner"].append(r)
+        elif r["engaged"] > 0:
+            classes["human"].append(r)
+        else:
+            classes["bot"].append(r)
+    return classes
+
+
+def human_pages(token, date_range, owner_cities=(), n=20):
+    """Pages ranked by engaged sessions, owner cities excluded. Same-post URL
+    aliases are folded together by slug, as in the top-pages table."""
+    body = {
+        "dateRanges": date_range,
+        "dimensions": [{"name": "pagePath"}],
+        "metrics": [{"name": "screenPageViews"}, {"name": "activeUsers"},
+                    {"name": "engagedSessions"}, {"name": "userEngagementDuration"}],
+        "orderBys": [{"metric": {"metricName": "engagedSessions"}, "desc": True}],
+        "limit": 200,
+    }
+    if owner_cities:
+        body["dimensionFilter"] = {"notExpression": in_list_filter("city", list(owner_cities))}
+    report = run_report(token, body)
+    canon = canonical_path_map()
+    merged, order = {}, []
+    for row in report.get("rows", []):
+        path = row["dimensionValues"][0]["value"]
+        views, users, engaged, duration = _metric_values(row)
+        m = PAGE_PATH_RE.match(path)
+        key = canon.get(m.group(1), path) if m else path
+        if key not in merged:
+            merged[key] = {"views": 0, "users": 0, "engaged": 0, "duration": 0.0}
+            order.append(key)
+        agg = merged[key]
+        agg["views"] += int(views); agg["users"] += int(users)
+        agg["engaged"] += int(engaged); agg["duration"] += duration
+    order = [k for k in order if merged[k]["engaged"] > 0]
+    order.sort(key=lambda k: (-merged[k]["engaged"], -merged[k]["duration"]))
+    return [(k, merged[k]) for k in order[:n]]
+
+
+def human_breakdown_md(classes, pages, owner_cities=()):
+    def tot(rs, key):
+        return sum(r[key] for r in rs)
+
+    lines = [HUMAN_NOTE, "",
+             "| Class | Cities | Active users | Page views | Sessions | Engaged sessions |",
+             "|---|---|---|---|---|---|"]
+    labels = [("human", "Human-like"), ("bot", "Bot-like (no engaged session)")]
+    if owner_cities:
+        labels.insert(0, ("owner", f"Owner cities ({', '.join(owner_cities)})"))
+    for key, label in labels:
+        rs = classes[key]
+        lines.append(f"| {label} | {len(rs)} | {tot(rs, 'users')} | {tot(rs, 'views')} | "
+                     f"{tot(rs, 'sessions')} | {tot(rs, 'engaged')} |")
+
+    human = sorted(classes["human"], key=lambda r: (-r["engaged"], -r["duration"]))
+    lines += ["", "### Human-like cities (top 20 by engaged sessions)", "",
+              "| City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |",
+              "|---|---|---|---|---|---|"]
+    for r in human[:20]:
+        avg = r["duration"] / r["sessions"] if r["sessions"] else 0
+        lines.append(f"| {r['city']} | {r['engaged']} | {r['sessions']} | {r['users']} | "
+                     f"{r['views']} | {avg:.0f}s |")
+    if not human:
+        lines.append("| *(no city had an engaged session in this range)* | | | | | |")
+
+    lines += ["", "### Pages read by likely humans (top 20 by engaged sessions"
+              + (", owner cities excluded" if owner_cities else "") + ")", "",
+              "| Page path | Engaged sessions | Page views | Active users | Avg engagement / view |",
+              "|---|---|---|---|---|"]
+    for path, a in pages:
+        avg = a["duration"] / a["views"] if a["views"] else 0
+        lines.append(f"| {path} | {a['engaged']} | {a['views']} | {a['users']} | {avg:.0f}s |")
+    if not pages:
+        lines.append("| *(no page had an engaged session in this range)* | | | | |")
+    return "\n".join(lines)
+
+
 def merged_pages_to_table(order, merged):
     lines = ["| Page path | Page views | Active users |", "|---|---|---|"]
     footnotes = []
@@ -275,7 +405,14 @@ def main():
     ap.add_argument("--city-quality-n", type=int, default=12,
                      help="how many top-by-views cities get the device/engagement "
                           "drill-down (0 disables the section)")
+    ap.add_argument("--owner-cities", default="",
+                     help="comma-separated cities to treat as your own browsing in the "
+                          "likely-human section, e.g. 'Madurai,Mumbai,Hyderabad' -- a "
+                          "stopgap until GA4's internal-traffic filter is active")
+    ap.add_argument("--no-human", action="store_true",
+                     help="skip the likely-human section (2 fewer API calls)")
     args = ap.parse_args()
+    owner_cities = [c.strip() for c in args.owner_cities.split(",") if c.strip()]
 
     token = get_access_token()
     date_range = [{"startDate": f"{args.days}daysAgo", "endDate": "today"}]
@@ -335,6 +472,13 @@ def main():
           "\n## Top pages (top 20)\n",
           merged_pages_to_table(*merge_page_aliases(by_page)),
           ]
+    if not args.no_human:
+        try:
+            classes = classify_cities(city_engagement_rows(token, date_range), owner_cities)
+            pages = human_pages(token, date_range, owner_cities)
+            md += ["\n## Likely human readership\n", human_breakdown_md(classes, pages, owner_cities)]
+        except RuntimeError as e:   # never lose the rest of the report to this section
+            md += ["\n## Likely human readership\n", f"*Skipped: {e}*"]
     if t_vals[0] == "0" and not by_country.get("rows"):
         md.append("\n**No data returned for this range.** Either the GA4 "
                    "measurement ID isn't actually installed on the blog's "
