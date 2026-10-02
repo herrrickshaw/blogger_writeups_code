@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-02T08:58:07+00:00",
+  "snapshot": "2026-10-02T16:23:44+05:30",
   "count": 340,
   "posts": {
     "1023631151138981087": {
@@ -7440,18 +7440,18 @@
     },
     "210390392393784539": {
       "id": "210390392393784539",
-      "title": "Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and None of Them Match the Number You've Heard",
+      "title": "Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and Only One of Them Explains the Number You've Heard",
       "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
       "slug": "tamil-nadus-water-infrastructure-runs",
       "published": "2026-08-25T10:48:07.000+05:30",
-      "updated": "2026-10-01T08:49:08.821+05:30",
+      "updated": "2026-10-02T16:21:20.425+05:30",
       "labels": [
         "India",
         "Infrastructure & Investment",
         "Water Infrastructure Financing"
       ],
-      "bytes": 27505,
-      "sha256": "80273315e12f7dec2c634a7ac6fa22d87b3fee757dafb08e804a12ae0a2835e4",
+      "bytes": 27938,
+      "sha256": "ea004321be33a8991969e008e7f4a7f7770f6d10f1b0f4555e3c8f8deeea45b4",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -7463,7 +7463,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -7549,6 +7549,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-02T16:23:44+05:30",
+          "level": "major",
+          "reason": "figures changed (+3/-0 distinct numbers)",
+          "bytes": [
+            27505,
+            27938
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -37856,14 +37869,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-09-28T08:51:31.913+05:30",
+      "updated": "2026-10-02T16:22:35.305+05:30",
       "labels": [],
-      "bytes": 403864,
-      "sha256": "8cb111ddb5e92f970132ef2cda661d1016ba3968b288884c01209f26d447dbd8",
+      "bytes": 441462,
+      "sha256": "637367c0fa1169ad2c9eed96195ec5204a3881168c2b8e2710df985a6f495cb2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
-        "typo_unify": false,
+        "typo_unify": true,
         "translate_widget": true,
         "index_link": true,
         "ai_disclosure": true,
@@ -37871,7 +37884,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "51.3.0",
+      "version": "52.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -39589,6 +39602,24 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Research-gap crosscheck sweep: fix stale ABHA figure cross-cite, stale chip-fab index citation, add year context to biodiesel-blend-rate figure"
+        },
+        {
+          "version": "52.0.0",
+          "date": "2026-10-02T16:23:44+05:30",
+          "level": "major",
+          "reason": "figures changed (+14/-5 distinct numbers)",
+          "bytes": [
+            403864,
+            441462
+          ],
+          "url_changed": null,
+          "markers_changed": {
+            "typo_unify": [
+              false,
+              true
+            ]
+          },
+          "note": ""
         }
       ]
     },

@@ -13761,3 +13761,15 @@ scheduled sync
 
 - `abu-dhabi-paid-2-billion-for-binance` — 2026-10-02 &rarr; 2026-10-02
 - `the-rbi-has-put-bonds-and-rupees-on-one` — 2026-10-02 &rarr; 2026-10-02
+
+## 2026-10-02T16:23:44+05:30 — 340 posts live
+
+**Versions**
+
+- `tamil-nadus-water-infrastructure-runs` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+3/-0 distinct numbers)
+- `article-index-start-here` **51.3.0 → 52.0.0** (MAJOR) — figures changed (+14/-5 distinct numbers)
+
+**Changed**
+
+- `tamil-nadus-water-infrastructure-runs` — 27,505 → 27,938 bytes (+433)
+- `article-index-start-here` — 403,864 → 441,462 bytes (+37,598); markers typo_unify False→True
