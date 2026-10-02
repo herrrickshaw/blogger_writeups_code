@@ -13751,3 +13751,13 @@ New post: crypto-settled FDI and the UAE's stablecoin pilots
 **Added**
 
 - `abu-dhabi-paid-2-billion-for-binance` **v1.0.0** — Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That. (30,146 bytes)
+
+## 2026-10-02T08:58:07+00:00 — 340 posts live
+
+scheduled sync
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `abu-dhabi-paid-2-billion-for-binance` — 2026-10-02 &rarr; 2026-10-02
+- `the-rbi-has-put-bonds-and-rupees-on-one` — 2026-10-02 &rarr; 2026-10-02
