@@ -10,4 +10,3 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...t costs the road fund about half of one per cent a year. Each year's sales add another s...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
