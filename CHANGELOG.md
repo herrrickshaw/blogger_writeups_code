@@ -13853,3 +13853,13 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 444,287 → 445,551 bytes (+1,264)
+
+## 2026-10-03T17:57:01+05:30 — 343 posts live
+
+**Versions**
+
+- `indias-ethanol-surplus-buys-about-five` **2.0.1 → 3.0.0** (MAJOR) — figures changed (+15/-0 distinct numbers)
+
+**Changed**
+
+- `indias-ethanol-surplus-buys-about-five` — 41,493 → 43,428 bytes (+1,935)
