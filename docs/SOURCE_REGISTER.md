@@ -1112,3 +1112,27 @@ An empty day: nothing commissionable.
   - **EDV search.** It returned only FAQs and coaching pages restating the Act. The
     "General Guidelines Regarding the Registration of EDV" notice (2026-09-07 entry) is
     still the only primary EDV source.
+
+## Added 2026-10-03 (daily task, Saturday: trade, tariffs and industrial policy)
+
+An empty day: nothing commissionable. Dedup was run against the fuller mirror copy of this
+register, because the source copy is truncated (see the Track C note in the 10-03 log).
+- **DGCI&S, *Report of the committee on Base year Revision for Merchandise Trade Indices*
+  (Feb 2026; `dgciskol.gov.in/writereaddata/Downloads/20260217171604Final Base Year Report
+  2026.pdf`, HTTP 200, 3.6 MB, free).** This follows up the 2026-08-29 pending lead. The
+  committee recommends **2022-23** as the new base for the Laspeyres unit-value indices,
+  matching the NAD/MoSPI national-accounts base. 2020-21 and 2021-22 were excluded as COVID
+  years. The common commodity basket used for base selection was 7,676 of 11,695 export
+  HS-8 lines and 6,506 of 10,978 import lines. About 2% of unit values were imputed. The new
+  series starts in April 2023 and is published alongside the 2012-13 series (both now run to
+  Apr–Jun 2026), and it includes a separate Terms of Trade table
+  (`TermsofTrade_202223.aspx`). **BACKGROUND.** This is a methodology report with no finding
+  for readers in it. The one possible story, terms of trade re-stated on the new base, sits
+  behind an ASP.NET postback link (a 15 KB "Apr26_Jun26" file) that curl could not reach. A
+  title grep of the manifest (342 posts) finds no post on terms of trade or unit-value indices,
+  so a browser pull of the two-base ToT files could open a small new angle. Retry on a future
+  Saturday with a browser.
+- **August 2026 merchandise trade headline** (exports +26.12% YoY to USD 43.81 bn, imports
+  USD 70.76 bn, merchandise deficit USD 26.86 bn). All of these came from press only
+  (ThePrint, UNI, Asianet) and the PIB primary was not fetched. It is a routine monthly
+  print, so WEAK.
