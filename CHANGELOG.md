@@ -13779,3 +13779,13 @@ scheduled sync
 **Added**
 
 - `refiners-won-exemption-fight-biofuels` **v1.0.0** — Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits (24,928 bytes)
+
+## 2026-10-03T06:28:53+05:30 — 341 posts live
+
+**Versions**
+
+- `article-index-start-here` **52.0.0 → 53.0.0** (MAJOR) — figures changed (+2/-1 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 441,462 → 443,002 bytes (+1,540)

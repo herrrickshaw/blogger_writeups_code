@@ -10,9 +10,19 @@
   "entities": [
    "Diesel",
    "Compressed biogas",
-   "Natural gas"
+   "Natural gas",
+   "PNGRB"
   ],
   "related": [
+   {
+    "slug": "blending-on-budget-energy-density-and",
+    "shared": [
+     "Compressed biogas",
+     "Diesel",
+     "Natural gas"
+    ],
+    "w": 0.112
+   },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
     "shared": [
@@ -20,31 +30,23 @@
      "Diesel",
      "Natural gas"
     ],
-    "w": 0.148
+    "w": 0.112
    },
    {
-    "slug": "the-grain-value-loop-integrated-rice",
+    "slug": "right-of-user-what-indias-pipeline",
     "shared": [
-     "Compressed biogas",
-     "Diesel"
+     "Natural gas",
+     "PNGRB"
     ],
-    "w": 0.089
+    "w": 0.093
    },
    {
-    "slug": "the-case-for-biofuels-over-imports",
+    "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
-     "Compressed biogas",
-     "Diesel"
+     "Natural gas",
+     "PNGRB"
     ],
-    "w": 0.089
-   },
-   {
-    "slug": "indias-coal-to-chemicals-menu-ranked-by",
-    "shared": [
-     "Diesel",
-     "Natural gas"
-    ],
-    "w": 0.089
+    "w": 0.093
    }
   ]
  },
@@ -86,34 +88,36 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.13
+    "w": 0.097
    },
    {
-    "slug": "bio-fertiliser-and-green-credits",
+    "slug": "indias-cotton-yield-fell-from-566-kg-to",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "cotton-stalk-is-one-of-hardest-crop",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "cow-dung-already-flew-rocket-engine",
     "shared": [
      "Compressed biogas",
      "Urea"
     ],
-    "w": 0.13
-   },
-   {
-    "slug": "tnpl-has-made-paper-from-sugarcane",
-    "shared": [
-     "Sugar"
-    ],
-    "w": 0.071
-   },
-   {
-    "slug": "thirty-one-years-of-asking-parliament",
-    "shared": [
-     "Urea"
-    ],
-    "w": 0.071
+    "w": 0.094
    }
   ]
  },
  "5071-items-you-cannot-import-and-rs": {
-  "title": "5,071 Items You Cannot Import, and the Rs 2,570 Crore That Replaced Them",
+  "title": "5,417 Items You Cannot Import — and the Ministry's Own Two Numbers for What Replaced Them",
   "url": "https://masaladeutsch.blogspot.com/2026/08/5071-items-you-cannot-import-and-rs.html",
   "published": "2026-08-23",
   "countries": [],
@@ -159,7 +163,8 @@
   "countries": [],
   "states": [
    "Gujarat",
-   "Tamil Nadu"
+   "Tamil Nadu",
+   "Maharashtra"
   ],
   "entities": [],
   "related": []
@@ -190,7 +195,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
@@ -198,7 +203,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -206,7 +211,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -214,7 +219,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    }
   ]
  },
@@ -235,7 +240,7 @@
      "CPI",
      "Urea"
     ],
-    "w": 0.148
+    "w": 0.124
    },
    {
     "slug": "imported-fertiliser-fuel-prices-diesel",
@@ -243,7 +248,7 @@
      "CPI",
      "Urea"
     ],
-    "w": 0.148
+    "w": 0.124
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -251,14 +256,14 @@
      "CPI",
      "Urea"
     ],
-    "w": 0.148
+    "w": 0.124
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "CPI"
     ],
-    "w": 0.077
+    "w": 0.071
    }
   ]
  },
@@ -271,41 +276,49 @@
   "entities": [
    "LNG",
    "PNGRB",
-   "PPAC"
+   "PPAC",
+   "Natural gas",
+   "City gas distribution"
   ],
   "related": [
    {
-    "slug": "europe-bought-record-amount-of-lng-and",
-    "shared": [
-     "LNG",
-     "PNGRB",
-     "PPAC"
-    ],
-    "w": 0.174
-   },
-   {
     "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
+     "City gas distribution",
      "LNG",
+     "Natural gas",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.232
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
+     "City gas distribution",
      "LNG",
+     "Natural gas",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.232
+   },
+   {
+    "slug": "city-gas-just-became-indias-largest-gas",
+    "shared": [
+     "City gas distribution",
+     "LNG",
+     "Natural gas",
+     "PPAC"
+    ],
+    "w": 0.23
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
     "shared": [
+     "City gas distribution",
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.187
    }
   ]
  },
@@ -324,28 +337,28 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.091
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
-   },
-   {
-    "slug": "nature-versus-nurture-indias-fertiliser",
-    "shared": [
-     "Coal"
-    ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -397,7 +410,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.1
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -407,7 +420,17 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.1
+   },
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Compressed biogas",
+     "Diesel",
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 0.1
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -417,16 +440,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.13
-   },
-   {
-    "slug": "the-grain-value-loop-integrated-rice",
-    "shared": [
-     "Compressed biogas",
-     "Diesel",
-     "Ethanol"
-    ],
-    "w": 0.11
+    "w": 0.1
    }
   ]
  },
@@ -438,18 +452,20 @@
   "states": [
    "Maharashtra",
    "Gujarat",
+   "Uttar Pradesh",
+   "Madhya Pradesh",
    "Punjab",
    "Bihar",
    "Telangana",
    "Uttarakhand",
    "Himachal Pradesh",
-   "Uttar Pradesh",
-   "Madhya Pradesh",
    "Tamil Nadu",
    "Karnataka",
-   "Haryana",
    "Odisha",
-   "Kerala"
+   "Haryana",
+   "Kerala",
+   "Chhattisgarh",
+   "Jharkhand"
   ],
   "entities": [
    "Ethanol",
@@ -466,7 +482,7 @@
      "GST",
      "PNGRB"
     ],
-    "w": 0.229
+    "w": 0.173
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -475,7 +491,16 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.204
+    "w": 0.148
+   },
+   {
+    "slug": "india-fuel-retail-outlets-82k-geocoded",
+    "shared": [
+     "City gas distribution",
+     "PNGRB",
+     "Petrol"
+    ],
+    "w": 0.148
    },
    {
     "slug": "cgd-geographical-areas-district",
@@ -484,15 +509,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.204
-   },
-   {
-    "slug": "pngrb-wants-prepaid-smart-meters-on",
-    "shared": [
-     "City gas distribution",
-     "PNGRB"
-    ],
-    "w": 0.184
+    "w": 0.148
    }
   ]
  },
@@ -513,28 +530,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    }
   ]
  },
@@ -555,6 +572,48 @@
   "states": [],
   "entities": [],
   "related": []
+ },
+ "abu-dhabi-paid-2-billion-for-binance": {
+  "title": "Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html",
+  "published": "2026-10-02",
+  "countries": [
+   "UAE"
+  ],
+  "states": [],
+  "entities": [
+   "FDI"
+  ],
+  "related": [
+   {
+    "slug": "securitising-deficit-what-it-would",
+    "shared": [
+     "FDI"
+    ],
+    "w": 0.361
+   },
+   {
+    "slug": "where-indias-fdi-actually-lands-state",
+    "shared": [
+     "FDI"
+    ],
+    "w": 0.111
+   },
+   {
+    "slug": "where-indias-factories-actually-get",
+    "shared": [
+     "FDI"
+    ],
+    "w": 0.111
+   },
+   {
+    "slug": "indias-state-incentive-war-gujarats",
+    "shared": [
+     "FDI"
+    ],
+    "w": 0.111
+   }
+  ]
  },
  "ahidf-has-sanctioned-19751-crore-in": {
   "title": "AHIDF Has Sanctioned ₹19,751 Crore in Animal-Husbandry Loans. Only 39% of It Has Reached a Bank Account.",
@@ -608,14 +667,14 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.309
+    "w": 0.3
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Textiles"
     ],
-    "w": 0.309
+    "w": 0.3
    }
   ]
  },
@@ -635,7 +694,9 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/amruts-197-lakh-crore-urban-portfolio.html",
   "published": "2026-08-29",
   "countries": [],
-  "states": [],
+  "states": [
+   "Tamil Nadu"
+  ],
   "entities": [],
   "related": []
  },
@@ -647,8 +708,8 @@
   "states": [],
   "entities": [
    "Ethanol",
-   "FCI",
    "Diesel",
+   "FCI",
    "Rupee",
    "Compressed biogas",
    "Natural gas",
@@ -665,36 +726,37 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.263
-   },
-   {
-    "slug": "the-case-for-biofuels-over-imports",
-    "shared": [
-     "Compressed biogas",
-     "Crude oil",
-     "Diesel",
-     "Ethanol",
-     "Petrol"
-    ],
-    "w": 0.161
+    "w": 0.231
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "Ethanol",
      "FCI",
+     "Natural gas",
      "Petrol"
     ],
-    "w": 0.152
+    "w": 0.19
    },
    {
-    "slug": "028-unit-diesel-math-behind-indias-data",
+    "slug": "blending-on-budget-energy-density-and",
     "shared": [
      "Compressed biogas",
      "Diesel",
-     "Natural gas"
+     "Ethanol",
+     "Natural gas",
+     "Petrol"
     ],
-    "w": 0.148
+    "w": 0.145
+   },
+   {
+    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol"
+    ],
+    "w": 0.145
    }
   ]
  },
@@ -713,28 +775,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    }
   ]
  },
@@ -751,36 +813,44 @@
   ],
   "entities": [
    "Electric vehicles",
-   "Compressed biogas"
+   "Compressed biogas",
+   "Ethanol",
+   "Diesel"
   ],
   "related": [
    {
-    "slug": "vehicles-out-motors-in-indias-chapter",
+    "slug": "state-by-state-who-actually-earns-from",
     "shared": [
-     "Electric vehicles"
+     "Diesel",
+     "Electric vehicles",
+     "Ethanol"
     ],
-    "w": 0.083
+    "w": 0.108
    },
    {
-    "slug": "the-masala-deutsch-shop-books-things",
+    "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
-     "Electric vehicles"
+     "Diesel",
+     "Electric vehicles",
+     "Ethanol"
     ],
-    "w": 0.083
+    "w": 0.108
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
     "shared": [
+     "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.091
    },
    {
-    "slug": "the-battery-passport-was-built-for",
+    "slug": "lng-trucks-cost-about-what-diesel-does",
     "shared": [
+     "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.091
    }
   ]
  },
@@ -796,6 +866,7 @@
    "Japan",
    "South Korea",
    "Brazil",
+   "Singapore",
    "Norway",
    "Nigeria",
    "South Africa",
@@ -812,21 +883,21 @@
    "Punjab",
    "West Bengal",
    "Odisha",
+   "Andhra Pradesh",
    "Kerala",
    "Assam",
    "Goa",
-   "Telangana",
-   "Andhra Pradesh"
+   "Telangana"
   ],
   "entities": [
    "Ethanol",
+   "Compressed biogas",
    "LNG",
    "Crude oil",
    "Diesel",
    "Petrol",
    "Urea",
-   "Green hydrogen",
-   "PLI scheme"
+   "Green hydrogen"
   ],
   "related": [
    {
@@ -836,28 +907,30 @@
      "Diesel",
      "Petrol"
     ],
-    "w": 2.081
-   },
-   {
-    "slug": "indias-wholesale-prices-next-to",
-    "shared": [
-     "Urea"
-    ],
-    "w": 1.571
+    "w": 2.319
    },
    {
     "slug": "europe-bought-record-amount-of-lng-and",
     "shared": [
      "LNG"
     ],
-    "w": 1.562
+    "w": 1.556
    },
    {
-    "slug": "winter-is-coming-for-europes-landlocked",
+    "slug": "indias-wholesale-prices-next-to",
     "shared": [
-     "LNG"
+     "Urea"
     ],
-    "w": 1.312
+    "w": 1.553
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Diesel",
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 1.308
    }
   ]
  },
@@ -930,7 +1003,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.079
+    "w": 0.067
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -938,7 +1011,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.079
+    "w": 0.067
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -946,7 +1019,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.079
+    "w": 0.067
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -954,7 +1027,7 @@
      "Petrol",
      "Textiles"
     ],
-    "w": 0.079
+    "w": 0.067
    }
   ]
  },
@@ -967,6 +1040,7 @@
    "Gujarat",
    "Uttar Pradesh",
    "Haryana",
+   "Maharashtra",
    "Punjab"
   ],
   "entities": [
@@ -977,20 +1051,20 @@
   ],
   "related": [
    {
+    "slug": "indias-renewable-energy-certificates",
+    "shared": [
+     "Carbon credits",
+     "Urea"
+    ],
+    "w": 0.164
+   },
+   {
     "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Carbon credits",
      "Compressed biogas"
     ],
-    "w": 0.17
-   },
-   {
-    "slug": "379-kilos-hectare-in-punjab-44-in",
-    "shared": [
-     "Compressed biogas",
-     "Urea"
-    ],
-    "w": 0.13
+    "w": 0.153
    },
    {
     "slug": "what-actually-happens-to-indias-used",
@@ -1023,28 +1097,28 @@
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "the-ethanol-sectors-buyers-market",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    }
   ]
  },
@@ -1058,18 +1132,21 @@
    "Ethanol",
    "Compressed biogas",
    "Diesel",
-   "Petrol"
+   "Petrol",
+   "Natural gas",
+   "Urea"
   ],
   "related": [
    {
-    "slug": "the-case-for-biofuels-over-imports",
+    "slug": "article-index-start-here",
     "shared": [
      "Compressed biogas",
      "Diesel",
      "Ethanol",
-     "Petrol"
+     "Petrol",
+     "Urea"
     ],
-    "w": 0.13
+    "w": 0.152
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -1077,28 +1154,30 @@
      "Compressed biogas",
      "Diesel",
      "Ethanol",
+     "Natural gas",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.145
    },
    {
-    "slug": "a-supreme-court-ruling-on-intoxicating",
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
-     "Compressed biogas",
      "Diesel",
      "Ethanol",
-     "Petrol"
+     "Natural gas",
+     "Urea"
     ],
-    "w": 0.13
+    "w": 0.139
    },
    {
-    "slug": "the-grain-value-loop-integrated-rice",
+    "slug": "interest-subvention-built-499-ethanol",
     "shared": [
      "Compressed biogas",
-     "Diesel",
-     "Ethanol"
+     "Ethanol",
+     "Natural gas",
+     "Petrol"
     ],
-    "w": 0.11
+    "w": 0.121
    }
   ]
  },
@@ -1125,33 +1204,34 @@
   ],
   "related": [
    {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 0.284
+   },
+   {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.291
+    "w": 0.284
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
+    "w": 0.267
    },
    {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
-   },
-   {
-    "slug": "indias-ethanol-surplus-isnt-going-to",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
+    "w": 0.267
    }
   ]
  },
@@ -1179,7 +1259,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -1188,7 +1268,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -1196,7 +1276,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.053
+    "w": 1.05
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -1204,7 +1284,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.053
+    "w": 1.05
    }
   ]
  },
@@ -1218,9 +1298,9 @@
   ],
   "entities": [
    "Natural gas",
+   "Petrol",
    "City gas distribution",
-   "PNGRB",
-   "Petrol"
+   "PNGRB"
   ],
   "related": [
    {
@@ -1231,7 +1311,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.263
+    "w": 0.193
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -1240,7 +1320,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.243
+    "w": 0.176
    },
    {
     "slug": "pngrb-hydrogen-blending-pilots-real",
@@ -1249,16 +1329,16 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.243
+    "w": 0.176
    },
    {
-    "slug": "a-tax-play-grow-ethanol-sgst-revenue",
+    "slug": "a-2013-vision-saw-india-needing-746",
     "shared": [
      "City gas distribution",
-     "PNGRB",
-     "Petrol"
+     "Natural gas",
+     "PNGRB"
     ],
-    "w": 0.204
+    "w": 0.176
    }
   ]
  },
@@ -1279,28 +1359,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "raising-green-debt-globally-rec-euroyen",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "which-ecb-currencies-are-actually",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -1311,7 +1391,9 @@
   "countries": [
    "China"
   ],
-  "states": [],
+  "states": [
+   "Andhra Pradesh"
+  ],
   "entities": [
    "Import substitution",
    "TradeStat",
@@ -1372,7 +1454,7 @@
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -1380,7 +1462,7 @@
      "Anti-dumping",
      "CPI"
     ],
-    "w": 0.527
+    "w": 0.521
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
@@ -1444,7 +1526,8 @@
   "published": "2026-08-01",
   "countries": [],
   "states": [
-   "Jharkhand"
+   "Jharkhand",
+   "Andhra Pradesh"
   ],
   "entities": [
    "Anti-dumping",
@@ -1498,13 +1581,23 @@
   ],
   "related": [
    {
+    "slug": "a-2013-vision-saw-india-needing-746",
+    "shared": [
+     "City gas distribution",
+     "LNG",
+     "Natural gas",
+     "PPAC"
+    ],
+    "w": 0.23
+   },
+   {
     "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
      "City gas distribution",
      "LNG",
      "Natural gas"
     ],
-    "w": 0.246
+    "w": 0.184
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -1513,7 +1606,7 @@
      "LNG",
      "Natural gas"
     ],
-    "w": 0.246
+    "w": 0.184
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -1521,17 +1614,22 @@
      "City gas distribution",
      "LNG"
     ],
-    "w": 0.188
-   },
-   {
-    "slug": "pngrb-hydrogen-blending-pilots-real",
-    "shared": [
-     "City gas distribution",
-     "Natural gas"
-    ],
-    "w": 0.184
+    "w": 0.139
    }
   ]
+ },
+ "cocoa-quintupled-then-gave-most-of-it": {
+  "title": "Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90%. Only One of Those Is a Weather Story.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html",
+  "published": "2026-09-30",
+  "countries": [],
+  "states": [
+   "Andhra Pradesh",
+   "Kerala",
+   "Karnataka"
+  ],
+  "entities": [],
+  "related": []
  },
  "cocoas-blockchain-reckoning-one": {
   "title": "Cocoa's Blockchain Reckoning: One Platform Failed, One Pilot Just Ended, and a Real Deadline Is Four Months Out",
@@ -1559,28 +1657,79 @@
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-green-shift-what-indias-oil",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-cbg-incentive-stack-every-leg-of",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
+   }
+  ]
+ },
+ "cotton-stalk-is-one-of-hardest-crop": {
+  "title": "Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html",
+  "published": "2026-10-01",
+  "countries": [],
+  "states": [
+   "Punjab",
+   "Madhya Pradesh",
+   "Haryana"
+  ],
+  "entities": [
+   "Compressed biogas",
+   "Sugar",
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol",
+     "Sugar"
+    ],
+    "w": 0.114
+   },
+   {
+    "slug": "indias-cotton-yield-fell-from-566-kg-to",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "379-kilos-hectare-in-punjab-44-in",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "the-ethanol-sectors-buyers-market",
+    "shared": [
+     "Ethanol",
+     "Sugar"
+    ],
+    "w": 0.073
    }
   ]
  },
@@ -1596,36 +1745,40 @@
   ],
   "entities": [
    "Compressed biogas",
-   "LNG"
+   "LNG",
+   "Urea"
   ],
   "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Compressed biogas",
+     "LNG",
+     "Urea"
+    ],
+    "w": 0.4
+   },
    {
     "slug": "europe-bought-record-amount-of-lng-and",
     "shared": [
      "LNG"
     ],
-    "w": 0.312
+    "w": 0.306
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "indias-wholesale-prices-next-to",
     "shared": [
-     "LNG"
+     "Urea"
     ],
-    "w": 0.312
+    "w": 0.303
    },
    {
-    "slug": "winter-is-coming-for-europes-landlocked",
+    "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
-     "LNG"
+     "LNG",
+     "Urea"
     ],
-    "w": 0.062
-   },
-   {
-    "slug": "the-helper-motor-trick-that-already",
-    "shared": [
-     "LNG"
-    ],
-    "w": 0.062
+    "w": 0.108
    }
   ]
  },
@@ -1636,8 +1789,8 @@
   "countries": [],
   "states": [
    "Telangana",
-   "Tamil Nadu",
    "Andhra Pradesh",
+   "Tamil Nadu",
    "Maharashtra",
    "Gujarat",
    "Karnataka",
@@ -1659,7 +1812,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "indias-wholesale-prices-next-to",
@@ -1667,7 +1820,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "imported-fertiliser-fuel-prices-diesel",
@@ -1675,7 +1828,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "diesel-doesnt-move-cpi-it-moves-40",
@@ -1683,7 +1836,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    }
   ]
  },
@@ -1704,7 +1857,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "indias-wholesale-prices-next-to",
@@ -1712,7 +1865,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "imported-fertiliser-fuel-prices-diesel",
@@ -1720,7 +1873,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "diesel-doesnt-move-cpi-it-moves-40",
@@ -1728,7 +1881,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    }
   ]
  },
@@ -1764,7 +1917,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.153
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -1773,7 +1926,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.153
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -1781,14 +1934,14 @@
      "Coal",
      "Natural gas"
     ],
-    "w": 0.159
+    "w": 0.136
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -1814,7 +1967,7 @@
      "Diesel",
      "WPI"
     ],
-    "w": 0.25
+    "w": 0.239
    },
    {
     "slug": "inflation-trends-globally-what-five",
@@ -1822,7 +1975,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "indias-wholesale-prices-next-to",
@@ -1830,7 +1983,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    },
    {
     "slug": "cpi-wpi-trends-mospi-bulletin",
@@ -1838,7 +1991,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    }
   ]
  },
@@ -1888,40 +2041,45 @@
   "states": [],
   "entities": [
    "Ethanol",
-   "Petrol"
+   "Petrol",
+   "Sugar"
   ],
   "related": [
    {
-    "slug": "would-more-sgst-fix-donor-state-problem",
+    "slug": "state-by-state-who-actually-earns-from",
     "shared": [
      "Ethanol",
-     "Petrol"
+     "Petrol",
+     "Sugar"
     ],
-    "w": 0.041
+    "w": 0.089
    },
    {
-    "slug": "the-fcc-lever-trading-petrol-yield-for",
+    "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "Ethanol",
-     "Petrol"
+     "Petrol",
+     "Sugar"
     ],
-    "w": 0.041
+    "w": 0.089
    },
    {
-    "slug": "the-detergent-chemical-india-exports",
+    "slug": "interest-subvention-built-499-ethanol",
     "shared": [
      "Ethanol",
-     "Petrol"
+     "Petrol",
+     "Sugar"
     ],
-    "w": 0.041
+    "w": 0.089
    },
    {
-    "slug": "the-case-for-biofuels-over-imports",
+    "slug": "india-hit-e20-on-maize-and-rice-not",
     "shared": [
      "Ethanol",
-     "Petrol"
+     "Petrol",
+     "Sugar"
     ],
-    "w": 0.041
+    "w": 0.089
    }
   ]
  },
@@ -1945,28 +2103,28 @@
      "CPI",
      "Rupee"
     ],
-    "w": 0.619
+    "w": 0.608
    },
    {
     "slug": "inflation-trends-globally-what-five",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "indias-wholesale-prices-next-to",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "CPI"
     ],
-    "w": 0.327
+    "w": 0.321
    }
   ]
  },
@@ -1987,28 +2145,28 @@
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
     "slug": "the-helper-motor-trick-that-already",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
-    "slug": "pngrbs-own-2025-committee-now-expects",
+    "slug": "shippings-net-zero-vote-keeps-getting",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    }
   ]
  },
@@ -2087,7 +2245,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.117
+    "w": 0.103
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -2097,7 +2255,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.117
+    "w": 0.103
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -2107,7 +2265,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.117
+    "w": 0.103
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -2116,7 +2274,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.096
+    "w": 0.086
    }
   ]
  },
@@ -2146,7 +2304,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.385
+    "w": 0.379
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -2154,7 +2312,7 @@
      "CPI",
      "TradeStat"
     ],
-    "w": 0.349
+    "w": 0.344
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -2162,16 +2320,14 @@
      "CPI",
      "Ethanol"
     ],
-    "w": 0.348
+    "w": 0.338
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "inflation-trends-globally-what-five",
     "shared": [
-     "Ethanol",
-     "PLI scheme",
-     "Petrol"
+     "CPI"
     ],
-    "w": 0.327
+    "w": 0.321
    }
   ]
  },
@@ -2187,33 +2343,34 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal",
+     "Ethanol"
+    ],
+    "w": 0.108
+   },
+   {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
      "Coal",
      "Ethanol"
     ],
-    "w": 0.121
+    "w": 0.108
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    },
    {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
-   },
-   {
-    "slug": "nine-ministries-one-list-every-company",
-    "shared": [
-     "Coal"
-    ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -2227,7 +2384,8 @@
    "United States",
    "Russia",
    "Japan",
-   "Germany"
+   "Germany",
+   "Qatar"
   ],
   "states": [],
   "entities": [
@@ -2241,14 +2399,21 @@
     "shared": [
      "LNG"
     ],
-    "w": 1.562
+    "w": 1.556
    },
    {
     "slug": "winter-is-coming-for-europes-landlocked",
     "shared": [
      "LNG"
     ],
-    "w": 1.062
+    "w": 1.306
+   },
+   {
+    "slug": "kpler-and-vortexa-track-every-barrel",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.806
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -2256,14 +2421,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.371
-   },
-   {
-    "slug": "indias-lng-trucks-grew-75-in-2025-about",
-    "shared": [
-     "LNG"
-    ],
-    "w": 0.312
+    "w": 0.353
    }
   ]
  },
@@ -2296,6 +2454,64 @@
   "entities": [],
   "related": []
  },
+ "every-litre-of-petrol-pays-5-for-roads": {
+  "title": "Every Litre of Petrol Pays ₹5 for Roads. Electric Vehicles Pay Nothing — and the Gap Is Still Small Enough to Fix.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/every-litre-of-petrol-pays-5-for-roads.html",
+  "published": "2026-10-01",
+  "countries": [],
+  "states": [
+   "Karnataka"
+  ],
+  "entities": [
+   "Electric vehicles",
+   "Petrol",
+   "Diesel",
+   "PPAC",
+   "GST"
+  ],
+  "related": [
+   {
+    "slug": "state-by-state-who-actually-earns-from",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "GST",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.195
+   },
+   {
+    "slug": "india-mineral-oil-hsn-ch27-trade",
+    "shared": [
+     "Diesel",
+     "GST",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.128
+   },
+   {
+    "slug": "fuel-pricing-to-crude-cost",
+    "shared": [
+     "Diesel",
+     "GST",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.128
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "Petrol"
+    ],
+    "w": 0.108
+   }
+  ]
+ },
  "everyone-worries-about-who-pays-for": {
   "title": "Everyone Worries About Who Pays for India's CO2 Pipelines. Pipelines Are the Cheap Part",
   "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
@@ -2313,7 +2529,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.118
+    "w": 0.093
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -2321,7 +2537,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.118
+    "w": 0.093
    },
    {
     "slug": "pngrb-hydrogen-blending-pilots-real",
@@ -2329,7 +2545,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.118
+    "w": 0.093
    },
    {
     "slug": "oisd-writes-indias-oil-safety-rules-api",
@@ -2337,7 +2553,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.118
+    "w": 0.093
    }
   ]
  },
@@ -2360,7 +2576,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.314
+    "w": 0.309
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -2368,7 +2584,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.314
+    "w": 0.309
    },
    {
     "slug": "if-india-paid-brics-in-rupees-scenario",
@@ -2376,7 +2592,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.314
+    "w": 0.309
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -2384,7 +2600,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.314
+    "w": 0.309
    }
   ]
  },
@@ -2405,7 +2621,7 @@
      "Diesel",
      "FCI"
     ],
-    "w": 0.141
+    "w": 0.136
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -2413,7 +2629,7 @@
      "Diesel",
      "FCI"
     ],
-    "w": 0.141
+    "w": 0.136
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
@@ -2477,8 +2693,8 @@
   "published": "2026-08-14",
   "countries": [],
   "states": [
-   "Gujarat",
-   "Uttar Pradesh"
+   "Uttar Pradesh",
+   "Gujarat"
   ],
   "entities": [],
   "related": []
@@ -2505,7 +2721,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.124
+    "w": 0.104
    },
    {
     "slug": "right-of-user-what-indias-pipeline",
@@ -2514,7 +2730,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.109
+    "w": 0.09
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -2523,7 +2739,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.109
+    "w": 0.09
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -2531,7 +2747,7 @@
      "GST",
      "Natural gas"
     ],
-    "w": 0.104
+    "w": 0.087
    }
   ]
  },
@@ -2542,8 +2758,8 @@
   "countries": [],
   "states": [],
   "entities": [
-   "Rupee",
    "PLI scheme",
+   "Rupee",
    "TradeStat"
   ],
   "related": [
@@ -2553,7 +2769,7 @@
      "PLI scheme",
      "Rupee"
     ],
-    "w": 0.077
+    "w": 0.073
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -2561,7 +2777,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.064
+    "w": 0.059
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
@@ -2569,7 +2785,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.064
+    "w": 0.059
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -2577,7 +2793,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.064
+    "w": 0.059
    }
   ]
  },
@@ -2643,28 +2859,28 @@
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-state-incentive-war-gujarats",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    }
   ]
  },
@@ -2685,8 +2901,8 @@
    "Punjab",
    "Odisha",
    "Assam",
-   "West Bengal",
-   "Himachal Pradesh"
+   "Himachal Pradesh",
+   "West Bengal"
   ],
   "entities": [
    "GST"
@@ -2697,28 +2913,28 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
@@ -2741,7 +2957,7 @@
      "Urea",
      "WPI"
     ],
-    "w": 0.245
+    "w": 0.22
    },
    {
     "slug": "indias-wholesale-prices-next-to",
@@ -2749,7 +2965,7 @@
      "Urea",
      "WPI"
     ],
-    "w": 0.214
+    "w": 0.195
    },
    {
     "slug": "diesel-doesnt-move-cpi-it-moves-40",
@@ -2757,7 +2973,7 @@
      "Diesel",
      "WPI"
     ],
-    "w": 0.173
+    "w": 0.167
    },
    {
     "slug": "inflation-trends-globally-what-five",
@@ -2776,36 +2992,44 @@
   "states": [],
   "entities": [
    "Steel",
-   "PPAC"
+   "Petrol",
+   "PPAC",
+   "Natural gas"
   ],
   "related": [
    {
-    "slug": "you-cannot-substitute-crude-oil-or-gold",
+    "slug": "nine-ministries-one-list-every-company",
     "shared": [
+     "Natural gas",
+     "Petrol",
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.11
    },
    {
-    "slug": "where-indias-factories-actually-get",
+    "slug": "scan-bottle-deliver-what-ppacs-numbers",
     "shared": [
+     "Natural gas",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.108
+   },
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Natural gas",
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.093
    },
    {
-    "slug": "where-india-actually-burns-its-fuel",
+    "slug": "thermal-parity-is-dead-what-85-oil-and",
     "shared": [
+     "Natural gas",
      "PPAC"
     ],
-    "w": 0.053
-   },
-   {
-    "slug": "we-fact-checked-66-investment",
-    "shared": [
-     "Steel"
-    ],
-    "w": 0.053
+    "w": 0.091
    }
   ]
  },
@@ -2814,43 +3038,50 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/from-cane-to-code-digital-layer.html",
   "published": "2026-08-08",
   "countries": [],
-  "states": [],
+  "states": [
+   "Maharashtra"
+  ],
   "entities": [
    "Ethanol",
-   "Sugar"
+   "Sugar",
+   "Petrol"
   ],
   "related": [
-   {
-    "slug": "the-ethanol-sectors-buyers-market",
-    "shared": [
-     "Ethanol",
-     "Sugar"
-    ],
-    "w": 0.093
-   },
-   {
-    "slug": "sugarcanes-third-claimant-whats",
-    "shared": [
-     "Ethanol",
-     "Sugar"
-    ],
-    "w": 0.093
-   },
-   {
-    "slug": "sugar-at-5570-kilo-why-cane-acreage",
-    "shared": [
-     "Ethanol",
-     "Sugar"
-    ],
-    "w": 0.093
-   },
    {
     "slug": "state-by-state-who-actually-earns-from",
     "shared": [
      "Ethanol",
+     "Petrol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.089
+   },
+   {
+    "slug": "one-nation-one-ration-card-doesnt-move",
+    "shared": [
+     "Ethanol",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.089
+   },
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Ethanol",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.089
+   },
+   {
+    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "shared": [
+     "Ethanol",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.089
    }
   ]
  },
@@ -2875,7 +3106,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.122
+    "w": 0.106
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -2883,7 +3114,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -2891,7 +3122,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -2899,7 +3130,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    }
   ]
  },
@@ -2925,7 +3156,7 @@
      "GST",
      "Rupee"
     ],
-    "w": 0.087
+    "w": 0.079
    },
    {
     "slug": "would-more-sgst-fix-donor-state-problem",
@@ -2934,7 +3165,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -2943,7 +3174,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -2952,7 +3183,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    }
   ]
  },
@@ -2980,7 +3211,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.156
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -2991,7 +3222,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.17
+    "w": 0.149
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -3002,7 +3233,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.17
+    "w": 0.145
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -3013,7 +3244,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.155
+    "w": 0.131
    }
   ]
  },
@@ -3036,7 +3267,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.111
+    "w": 0.106
    },
    {
     "slug": "indias-subsidised-imports-fertilisers",
@@ -3045,7 +3276,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.111
+    "w": 0.106
    },
    {
     "slug": "rare-earth-magnets-and-specialty-steel",
@@ -3053,7 +3284,7 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.088
+    "w": 0.083
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -3061,7 +3292,54 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.088
+    "w": 0.083
+   }
+  ]
+ },
+ "gail-and-sumitomo-both-turned-their": {
+  "title": "GAIL and Sumitomo Both Turned Their TruAlt MOUs Into Binding CBG Deals Within a Year. BPCL's Has Gone Quiet.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/gail-and-sumitomo-both-turned-their.html",
+  "published": "2026-09-28",
+  "countries": [],
+  "states": [
+   "Karnataka"
+  ],
+  "entities": [
+   "Compressed biogas",
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "the-grain-value-loop-integrated-rice",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol"
+    ],
+    "w": 0.059
+   },
+   {
+    "slug": "the-case-for-biofuels-over-imports",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol"
+    ],
+    "w": 0.059
+   },
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol"
+    ],
+    "w": 0.059
+   },
+   {
+    "slug": "cotton-stalk-is-one-of-hardest-crop",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol"
+    ],
+    "w": 0.059
    }
   ]
  },
@@ -3082,7 +3360,15 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.052
+    "w": 0.041
+   },
+   {
+    "slug": "the-diesel-truck-isnt-why-your-eggs",
+    "shared": [
+     "Diesel",
+     "Ethanol"
+    ],
+    "w": 0.041
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -3090,7 +3376,7 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.052
+    "w": 0.041
    },
    {
     "slug": "ten-cubic-metres-hour-indias-first",
@@ -3098,15 +3384,7 @@
      "Diesel",
      "Ethanol"
     ],
-    "w": 0.052
-   },
-   {
-    "slug": "state-by-state-who-actually-earns-from",
-    "shared": [
-     "Diesel",
-     "Ethanol"
-    ],
-    "w": 0.052
+    "w": 0.041
    }
   ]
  },
@@ -3125,28 +3403,28 @@
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
     "slug": "the-helper-motor-trick-that-already",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
-    "slug": "pngrbs-own-2025-committee-now-expects",
+    "slug": "shippings-net-zero-vote-keeps-getting",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    }
   ]
  },
@@ -3161,6 +3439,7 @@
   "states": [
    "Tamil Nadu",
    "Karnataka",
+   "Haryana",
    "Kerala"
   ],
   "entities": [
@@ -3173,14 +3452,21 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.559
+    "w": 0.55
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.517
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
    },
    {
     "slug": "re-spinning-charkha",
@@ -3188,14 +3474,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.33
-   },
-   {
-    "slug": "priority-export-destinations-by-growth",
-    "shared": [
-     "Textiles"
-    ],
-    "w": 0.309
+    "w": 0.317
    }
   ]
  },
@@ -3210,7 +3489,8 @@
   "entities": [
    "CBAM",
    "Carbon credits",
-   "Steel"
+   "Steel",
+   "Textiles"
   ],
   "related": [
    {
@@ -3236,11 +3516,12 @@
     "w": 0.361
    },
    {
-    "slug": "the-software-behind-still-whats",
+    "slug": "indias-carbon-credit-market-domestic",
     "shared": [
-     "Carbon credits"
+     "Carbon credits",
+     "Steel"
     ],
-    "w": 0.111
+    "w": 0.159
    }
   ]
  },
@@ -3307,7 +3588,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.155
+    "w": 0.15
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -3354,7 +3635,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -3362,7 +3643,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -3370,14 +3651,14 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "where-indias-captured-carbon-would",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -3386,7 +3667,9 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html",
   "published": "2026-08-15",
   "countries": [],
-  "states": [],
+  "states": [
+   "Gujarat"
+  ],
   "entities": [],
   "related": []
  },
@@ -3445,28 +3728,28 @@
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    }
   ]
  },
@@ -3501,7 +3784,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.564
+    "w": 0.559
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -3509,7 +3792,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.564
+    "w": 0.559
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -3517,14 +3800,14 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 0.564
+    "w": 0.559
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
     "shared": [
      "Rupee"
     ],
-    "w": 0.542
+    "w": 0.537
    }
   ]
  },
@@ -3536,16 +3819,34 @@
   "states": [],
   "entities": [
    "TradeStat",
+   "Urea",
    "Steel"
   ],
   "related": [
+   {
+    "slug": "indias-subsidised-imports-fertilisers",
+    "shared": [
+     "Steel",
+     "TradeStat",
+     "Urea"
+    ],
+    "w": 0.122
+   },
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Steel",
+     "Urea"
+    ],
+    "w": 0.1
+   },
    {
     "slug": "you-cannot-substitute-crude-oil-or-gold",
     "shared": [
      "Steel",
      "TradeStat"
     ],
-    "w": 0.075
+    "w": 0.07
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -3553,23 +3854,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.075
-   },
-   {
-    "slug": "indias-subsidised-imports-fertilisers",
-    "shared": [
-     "Steel",
-     "TradeStat"
-    ],
-    "w": 0.075
-   },
-   {
-    "slug": "indias-coking-coal-import-problem-and",
-    "shared": [
-     "Steel",
-     "TradeStat"
-    ],
-    "w": 0.075
+    "w": 0.07
    }
   ]
  },
@@ -3593,7 +3878,7 @@
      "Urea",
      "WPI"
     ],
-    "w": 0.291
+    "w": 0.267
    },
    {
     "slug": "diesel-doesnt-move-cpi-it-moves-40",
@@ -3602,7 +3887,7 @@
      "Diesel",
      "WPI"
     ],
-    "w": 0.25
+    "w": 0.239
    },
    {
     "slug": "fourteen-years-of-indian-wholesale",
@@ -3611,7 +3896,7 @@
      "Urea",
      "WPI"
     ],
-    "w": 0.245
+    "w": 0.22
    },
    {
     "slug": "inflation-trends-globally-what-five",
@@ -3619,7 +3904,7 @@
      "CPI",
      "WPI"
     ],
-    "w": 0.22
+    "w": 0.214
    }
   ]
  },
@@ -3643,7 +3928,7 @@
     "shared": [
      "FDI"
     ],
-    "w": 0.375
+    "w": 0.361
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -3708,20 +3993,29 @@
     "w": 0.558
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "what-india-is-actually-paying-for",
     "shared": [
-     "PLI scheme"
+     "TradeStat"
     ],
-    "w": 0.536
+    "w": 0.522
    },
    {
-    "slug": "what-india-is-actually-paying-for",
+    "slug": "petroleum-trade-pairings-and-us-crude",
     "shared": [
      "TradeStat"
     ],
     "w": 0.522
    }
   ]
+ },
+ "india-doesnt-have-one-quality-regulator": {
+  "title": "India Doesn't Have One Quality Regulator. It Has 37 — and One Just Repealed Itself Before It Started.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-doesnt-have-one-quality-regulator.html",
+  "published": "2026-09-24",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "india-ec-approval-funnel-parivesh-20": {
   "title": "India EC Approval Funnel — PARIVESH 2.0",
@@ -3769,7 +4063,7 @@
      "Ethanol",
      "TradeStat"
     ],
-    "w": 0.293
+    "w": 0.289
    },
    {
     "slug": "ethanol-freed-up-refinery-capacity-for",
@@ -3777,7 +4071,7 @@
      "Ethanol",
      "TradeStat"
     ],
-    "w": 0.293
+    "w": 0.289
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -3817,6 +4111,57 @@
   "states": [],
   "entities": [],
   "related": []
+ },
+ "india-fuel-retail-outlets-82k-geocoded": {
+  "title": "India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)",
+  "url": "https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html",
+  "published": "2026-07-22",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Compressed biogas",
+   "City gas distribution",
+   "PNGRB",
+   "Petrol"
+  ],
+  "related": [
+   {
+    "slug": "pngrb-graded-its-own-homework-on-2025",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "india-has-132-compressed-biogas-plants",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "nature-versus-nurture-indias-fertiliser",
+    "shared": [
+     "City gas distribution",
+     "PNGRB",
+     "Petrol"
+    ],
+    "w": 0.148
+   },
+   {
+    "slug": "cgd-geographical-areas-district",
+    "shared": [
+     "City gas distribution",
+     "PNGRB",
+     "Petrol"
+    ],
+    "w": 0.148
+   }
+  ]
  },
  "india-grain-cultivation-fci-storage": {
   "title": "India — Grain Cultivation · FCI Storage · FPOs (State Map)",
@@ -3870,8 +4215,8 @@
   "countries": [],
   "states": [
    "Kerala",
-   "Karnataka",
-   "Tamil Nadu"
+   "Tamil Nadu",
+   "Karnataka"
   ],
   "entities": [],
   "related": []
@@ -3898,7 +4243,7 @@
      "Crude oil",
      "MSP"
     ],
-    "w": 0.28
+    "w": 0.278
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
@@ -3919,7 +4264,55 @@
     "shared": [
      "Crude oil"
     ],
-    "w": 0.03
+    "w": 0.028
+   }
+  ]
+ },
+ "india-has-132-compressed-biogas-plants": {
+  "title": "India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
+  "published": "2026-09-23",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Compressed biogas",
+   "City gas distribution",
+   "PNGRB"
+  ],
+  "related": [
+   {
+    "slug": "pngrb-graded-its-own-homework-on-2025",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "india-fuel-retail-outlets-82k-geocoded",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "pngrbs-own-2025-committee-now-expects",
+    "shared": [
+     "City gas distribution",
+     "PNGRB"
+    ],
+    "w": 0.131
+   },
+   {
+    "slug": "pngrb-wants-prepaid-smart-meters-on",
+    "shared": [
+     "City gas distribution",
+     "PNGRB"
+    ],
+    "w": 0.131
    }
   ]
  },
@@ -3934,6 +4327,15 @@
   "entities": [],
   "related": []
  },
+ "india-has-tested-its-soil-twice-second": {
+  "title": "India Has Tested Its Soil Twice. The Second Time, a Machine Chose the Spot.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-tested-its-soil-twice-second.html",
+  "published": "2026-09-19",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
+ },
  "india-hit-e20-on-maize-and-rice-not": {
   "title": "India Hit E20 on Maize and Rice, Not Sugarcane",
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-hit-e20-on-maize-and-rice-not.html",
@@ -3943,7 +4345,8 @@
   "entities": [
    "Sugar",
    "Ethanol",
-   "FCI"
+   "FCI",
+   "Petrol"
   ],
   "related": [
    {
@@ -3951,9 +4354,19 @@
     "shared": [
      "Ethanol",
      "FCI",
+     "Petrol",
      "Sugar"
     ],
-    "w": 0.204
+    "w": 0.2
+   },
+   {
+    "slug": "annadata-to-urjadata-farmer-income-case",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol"
+    ],
+    "w": 0.145
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
@@ -3961,7 +4374,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.132
+    "w": 0.128
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
@@ -3969,15 +4382,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.132
-   },
-   {
-    "slug": "annadata-to-urjadata-farmer-income-case",
-    "shared": [
-     "Ethanol",
-     "FCI"
-    ],
-    "w": 0.132
+    "w": 0.128
    }
   ]
  },
@@ -4000,28 +4405,68 @@
      "GST",
      "Rupee"
     ],
-    "w": 0.087
+    "w": 0.079
    },
    {
     "slug": "would-more-sgst-fix-donor-state-problem",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
+   }
+  ]
+ },
+ "india-imports-60-of-its-cooking-gas": {
+  "title": "India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html",
+  "published": "2026-09-27",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "under-corsias-own-numbers-corn-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-software-behind-still-whats",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
    }
   ]
  },
@@ -4039,7 +4484,9 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-is-piping-jet-fuel-to-five-new.html",
   "published": "2026-09-08",
   "countries": [],
-  "states": [],
+  "states": [
+   "Goa"
+  ],
   "entities": [
    "Petrol",
    "PNGRB"
@@ -4051,7 +4498,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.079
+    "w": 0.064
    },
    {
     "slug": "pngrbs-own-committee-found-pipelines",
@@ -4059,7 +4506,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.079
+    "w": 0.064
    },
    {
     "slug": "oisd-writes-indias-oil-safety-rules-api",
@@ -4067,7 +4514,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.079
+    "w": 0.064
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -4075,9 +4522,102 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.079
+    "w": 0.064
    }
   ]
+ },
+ "india-leads-world-in-jute-and-ranks": {
+  "title": "India Leads the World in Jute and Ranks Second in Silk. Neither Fact Means What It Sounds Like.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-leads-world-in-jute-and-ranks.html",
+  "published": "2026-09-27",
+  "countries": [
+   "Bangladesh"
+  ],
+  "states": [],
+  "entities": [
+   "Textiles"
+  ],
+  "related": [
+   {
+    "slug": "the-50-tariff-and-234-one-untangling",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.3
+   },
+   {
+    "slug": "we-fact-checked-66-investment",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.05
+   },
+   {
+    "slug": "the-rupee-fell-10-and-exports-grew-09",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.05
+   },
+   {
+    "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.05
+   }
+  ]
+ },
+ "india-let-oil-companies-put-solar-on": {
+  "title": "India Let Oil Companies Put Solar on Their Own Leases. A Year On, ONGC's Own Build Is Under 1 Megawatt — It Bought 4 Gigawatts Instead.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-let-oil-companies-put-solar-on.html",
+  "published": "2026-09-28",
+  "countries": [],
+  "states": [
+   "Gujarat"
+  ],
+  "entities": [
+   "Petrol"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Petrol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "where-worlds-oil-sits-when-it-isnt",
+    "shared": [
+     "Petrol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "where-india-actually-burns-its-fuel",
+    "shared": [
+     "Petrol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "upi-fees-are-now-legal-petrol-pumps",
+    "shared": [
+     "Petrol"
+    ],
+    "w": 0.017
+   }
+  ]
+ },
+ "india-mapped-12174-tariff-codes-to-31": {
+  "title": "India Mapped 12,174 Tariff Codes to 31 Ministries. 495 Products Still Have No One Willing to Own Them.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-mapped-12174-tariff-codes-to-31.html",
+  "published": "2026-09-28",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "india-mineral-oil-hsn-ch27-trade": {
   "title": "India Mineral-Oil (HSN Ch.27) Trade × Pricing Dashboard",
@@ -4104,7 +4644,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.353
+    "w": 0.341
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4115,7 +4655,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.156
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -4126,7 +4666,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.155
+    "w": 0.137
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -4136,9 +4676,64 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.148
+    "w": 0.132
    }
   ]
+ },
+ "india-pays-5-8-billion-year-to-ship-its": {
+  "title": "India Pays $5-8 Billion a Year to Ship Its Own Oil. Only 20% of That Cargo Travels on an Indian Vessel.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-pays-5-8-billion-year-to-ship-its.html",
+  "published": "2026-09-28",
+  "countries": [
+   "South Korea"
+  ],
+  "states": [],
+  "entities": [
+   "Crude oil"
+  ],
+  "related": [
+   {
+    "slug": "where-indias-forex-goes-country",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.278
+   },
+   {
+    "slug": "petroleum-trade-pairings-and-us-crude",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.278
+   },
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.278
+   },
+   {
+    "slug": "you-cannot-substitute-crude-oil-or-gold",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.028
+   }
+  ]
+ },
+ "india-polishes-worlds-diamonds-with": {
+  "title": "India Polishes the World's Diamonds With Chinese Powder. Grinding Up Its Lab-Grown Stones Won't Fix That.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with.html",
+  "published": "2026-09-30",
+  "countries": [
+   "China"
+  ],
+  "states": [
+   "Odisha"
+  ],
+  "entities": [],
+  "related": []
  },
  "india-rewrote-its-entire-maritime-legal": {
   "title": "India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade.",
@@ -4165,8 +4760,8 @@
    "Ethanol",
    "Crude oil",
    "Diesel",
-   "TradeStat",
-   "PPAC"
+   "PPAC",
+   "TradeStat"
   ],
   "related": [
    {
@@ -4177,7 +4772,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.353
+    "w": 0.341
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -4188,7 +4783,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.155
+    "w": 0.137
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4199,19 +4794,31 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.155
+    "w": 0.131
    },
    {
-    "slug": "state-by-state-who-actually-earns-from",
+    "slug": "the-margin-case-why-lpg-and",
     "shared": [
+     "Crude oil",
      "Diesel",
-     "Ethanol",
      "PPAC",
      "Petrol"
     ],
-    "w": 0.124
+    "w": 0.114
    }
   ]
+ },
+ "india-sells-world-about-third-of-its": {
+  "title": "India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html",
+  "published": "2026-09-30",
+  "countries": [
+   "European Union",
+   "United States"
+  ],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "india-solved-carbon-credit-banking-with": {
   "title": "India Solved Carbon-Credit Banking With No Limit At All. Trading Still Hasn't Started.",
@@ -4270,7 +4877,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.161
+    "w": 0.147
    },
    {
     "slug": "india-approved-15-lakh-crore-in",
@@ -4278,21 +4885,66 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.161
+    "w": 0.147
    },
    {
     "slug": "where-indias-fdi-actually-lands-state",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
+   }
+  ]
+ },
+ "india-wants-isobutanol-in-both-diesel": {
+  "title": "India Wants Isobutanol in Both Diesel and Jet Fuel. It Has Built a Domestic Supply Chain for Neither.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/india-wants-isobutanol-in-both-diesel.html",
+  "published": "2026-09-21",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Ethanol",
+   "Diesel"
+  ],
+  "related": [
+   {
+    "slug": "the-grain-value-loop-integrated-rice",
+    "shared": [
+     "Diesel",
+     "Ethanol"
+    ],
+    "w": 0.041
+   },
+   {
+    "slug": "the-diesel-truck-isnt-why-your-eggs",
+    "shared": [
+     "Diesel",
+     "Ethanol"
+    ],
+    "w": 0.041
+   },
+   {
+    "slug": "the-case-for-biofuels-over-imports",
+    "shared": [
+     "Diesel",
+     "Ethanol"
+    ],
+    "w": 0.041
+   },
+   {
+    "slug": "ten-cubic-metres-hour-indias-first",
+    "shared": [
+     "Diesel",
+     "Ethanol"
+    ],
+    "w": 0.041
    }
   ]
  },
@@ -4309,32 +4961,32 @@
   ],
   "related": [
    {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Compressed biogas"
+    ],
+    "w": 0.292
+   },
+   {
     "slug": "what-sewage-disposal-in-key-parts-of",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-green-shift-what-indias-oil",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
-   },
-   {
-    "slug": "the-cbg-incentive-stack-every-leg-of",
-    "shared": [
-     "Compressed biogas"
-    ],
-    "w": 0.059
+    "w": 0.042
    }
   ]
  },
@@ -4369,7 +5021,9 @@
   "title": "India's $4.45 Billion Spice Export Book Is Really Eight Different Crops in Eight Different States",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-445-billion-spice-export-book-is.html",
   "published": "2026-08-24",
-  "countries": [],
+  "countries": [
+   "Singapore"
+  ],
   "states": [
    "Madhya Pradesh",
    "Karnataka",
@@ -4383,6 +5037,13 @@
    "TradeStat"
   ],
   "related": [
+   {
+    "slug": "petroleum-trade-pairings-and-us-crude",
+    "shared": [
+     "TradeStat"
+    ],
+    "w": 0.272
+   },
    {
     "slug": "you-cannot-substitute-crude-oil-or-gold",
     "shared": [
@@ -4399,13 +5060,6 @@
    },
    {
     "slug": "what-tepa-actually-opens-efta-goods",
-    "shared": [
-     "TradeStat"
-    ],
-    "w": 0.022
-   },
-   {
-    "slug": "what-india-is-actually-paying-for",
     "shared": [
      "TradeStat"
     ],
@@ -4533,28 +5187,28 @@
     "shared": [
      "Diesel"
     ],
-    "w": 0.03
+    "w": 0.024
    },
    {
     "slug": "what-actually-happens-to-indias-used",
     "shared": [
      "Diesel"
     ],
-    "w": 0.03
+    "w": 0.024
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
     "shared": [
      "Diesel"
     ],
-    "w": 0.03
+    "w": 0.024
    },
    {
     "slug": "the-margin-case-why-lpg-and",
     "shared": [
      "Diesel"
     ],
-    "w": 0.03
+    "w": 0.024
    }
   ]
  },
@@ -4579,16 +5233,25 @@
   ],
   "entities": [
    "Carbon credits",
-   "Compressed biogas"
+   "Compressed biogas",
+   "Steel"
   ],
   "related": [
+   {
+    "slug": "greenhouse-emissions-reduction-and-cbam",
+    "shared": [
+     "Carbon credits",
+     "Steel"
+    ],
+    "w": 0.159
+   },
    {
     "slug": "bio-fertiliser-and-green-credits",
     "shared": [
      "Carbon credits",
      "Compressed biogas"
     ],
-    "w": 0.17
+    "w": 0.153
    },
    {
     "slug": "what-actually-happens-to-indias-used",
@@ -4599,13 +5262,6 @@
    },
    {
     "slug": "the-software-behind-still-whats",
-    "shared": [
-     "Carbon credits"
-    ],
-    "w": 0.111
-   },
-   {
-    "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Carbon credits"
     ],
@@ -4640,7 +5296,16 @@
      "Natural gas",
      "Urea"
     ],
-    "w": 0.48
+    "w": 0.439
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal",
+     "Ethanol",
+     "Urea"
+    ],
+    "w": 0.41
    },
    {
     "slug": "article-index-start-here",
@@ -4649,7 +5314,7 @@
      "Ethanol",
      "Urea"
     ],
-    "w": 0.373
+    "w": 0.344
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -4657,14 +5322,7 @@
      "Ethanol",
      "Urea"
     ],
-    "w": 0.343
-   },
-   {
-    "slug": "indias-wholesale-prices-next-to",
-    "shared": [
-     "Urea"
-    ],
-    "w": 0.321
+    "w": 0.32
    }
   ]
  },
@@ -4706,7 +5364,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -4714,7 +5372,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "how-india-actually-plans-to-hit-net",
@@ -4722,7 +5380,7 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
@@ -4733,6 +5391,65 @@
     "w": 0.113
    }
   ]
+ },
+ "indias-cotton-yield-fell-from-566-kg-to": {
+  "title": "India's Cotton Yield Fell From 566 kg to Under 450 Since 2013. Kaala Cotton Isn't Grown Where That Drop Hurts Most.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-cotton-yield-fell-from-566-kg-to.html",
+  "published": "2026-09-27",
+  "countries": [],
+  "states": [
+   "Maharashtra",
+   "Madhya Pradesh",
+   "Tamil Nadu",
+   "Gujarat"
+  ],
+  "entities": [
+   "Sugar",
+   "Compressed biogas",
+   "Textiles"
+  ],
+  "related": [
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "cotton-stalk-is-one-of-hardest-crop",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "379-kilos-hectare-in-punjab-44-in",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
+    ],
+    "w": 0.097
+   },
+   {
+    "slug": "tnpl-has-made-paper-from-sugarcane",
+    "shared": [
+     "Sugar"
+    ],
+    "w": 0.056
+   }
+  ]
+ },
+ "indias-display-fab-scheme-got-two": {
+  "title": "India's Display Fab Scheme Got Two Billion-Dollar Bids and Approved Neither. Then It Redefined \"Display Fab\" Small Enough to Claim One Anyway.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-display-fab-scheme-got-two.html",
+  "published": "2026-09-28",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "indias-draft-seeds-bill-cuts-states": {
   "title": "India's Draft Seeds Bill Cuts States' Committee Seats From 22 to 5. That's the Provision Farmer Groups Are Actually Fighting.",
@@ -4758,28 +5475,28 @@
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-state-incentive-war-gujarats",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    }
   ]
  },
@@ -4798,28 +5515,68 @@
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.067
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.067
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.067
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.067
+   }
+  ]
+ },
+ "indias-ethanol-plants-are-sitting-on": {
+  "title": "India's Ethanol Plants Are Sitting on Food-Grade CO2. Its Spice-Extract Industry Needs Exactly That. Nobody's Named the Deal.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-ethanol-plants-are-sitting-on.html",
+  "published": "2026-09-28",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
    },
    {
-    "slug": "the-battery-passport-was-built-for",
+    "slug": "under-corsias-own-numbers-corn-ethanol",
     "shared": [
-     "Electric vehicles"
+     "Ethanol"
     ],
-    "w": 0.083
+    "w": 0.017
+   },
+   {
+    "slug": "the-software-behind-still-whats",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
    }
   ]
  },
@@ -4840,28 +5597,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.021
+    "w": 0.017
+   },
+   {
+    "slug": "under-corsias-own-numbers-corn-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
    },
    {
     "slug": "the-software-behind-still-whats",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.021
+    "w": 0.017
    },
    {
-    "slug": "the-price-of-grain-msp-msv-and",
+    "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.021
-   },
-   {
-    "slug": "the-hydrogen-bill-hiding-inside-indias",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.021
+    "w": 0.017
    }
   ]
  },
@@ -4883,28 +5640,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
+    "w": 0.267
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
+    "w": 0.267
    },
    {
-    "slug": "one-gallon-five-numbers-how-gcam-fits",
+    "slug": "refiners-won-exemption-fight-biofuels",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
+    "w": 0.267
    }
   ]
  },
@@ -4921,32 +5678,32 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.317
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.317
+   },
+   {
     "slug": "indias-ev-market-single-digit",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.333
+    "w": 0.317
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-masala-deutsch-shop-books-things",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-easiest-ev-conversion-in-india",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
+    "w": 0.067
    }
   ]
  },
@@ -4963,32 +5720,32 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.317
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.317
+   },
+   {
     "slug": "indias-ev-localisation-deadline-just",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.333
+    "w": 0.317
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-masala-deutsch-shop-books-things",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-easiest-ev-conversion-in-india",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
+    "w": 0.067
    }
   ]
  },
@@ -5012,28 +5769,28 @@
      "Crude oil",
      "Urea"
     ],
-    "w": 0.352
+    "w": 0.33
    },
    {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.28
+    "w": 0.278
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.28
+    "w": 0.278
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.28
+    "w": 0.278
    }
   ]
  },
@@ -5086,24 +5843,26 @@
   "entities": [
    "Crude oil",
    "PNGRB",
-   "LNG"
+   "LNG",
+   "Petrol"
   ],
   "related": [
+   {
+    "slug": "nature-versus-nurture-indias-fertiliser",
+    "shared": [
+     "LNG",
+     "PNGRB",
+     "Petrol"
+    ],
+    "w": 0.12
+   },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
-   },
-   {
-    "slug": "nature-versus-nurture-indias-fertiliser",
-    "shared": [
-     "LNG",
-     "PNGRB"
-    ],
-    "w": 0.121
+    "w": 0.103
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -5111,7 +5870,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    },
    {
     "slug": "indias-lng-terminal-rules-changed-twice",
@@ -5119,14 +5878,32 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    }
   ]
+ },
+ "indias-irrigation-system-recovered-96": {
+  "title": "India's Irrigation System Recovered 96% of Its Running Costs in 1975. It Recovers About 7% Now.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-irrigation-system-recovered-96.html",
+  "published": "2026-09-26",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "indias-labour-codes-took-six-years-to": {
   "title": "India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State",
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html",
   "published": "2026-09-16",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
+ },
+ "indias-live-ipo-queue-has-232-companies": {
+  "title": "India's Live IPO Queue Has 232 Companies in It. Power and Renewables Outnumbers Oil and Gas Nearly 5 to 1.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-live-ipo-queue-has-232-companies.html",
+  "published": "2026-09-28",
   "countries": [],
   "states": [],
   "entities": [],
@@ -5149,7 +5926,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -5157,7 +5934,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -5165,7 +5942,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    },
    {
     "slug": "indias-gas-pipelines-run-at-half",
@@ -5173,7 +5950,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.121
+    "w": 0.103
    }
   ]
  },
@@ -5191,33 +5968,34 @@
   ],
   "related": [
    {
+    "slug": "kpler-and-vortexa-track-every-barrel",
+    "shared": [
+     "Diesel",
+     "LNG"
+    ],
+    "w": 0.33
+   },
+   {
     "slug": "article-index-start-here",
     "shared": [
      "Diesel",
      "LNG"
     ],
-    "w": 0.343
+    "w": 0.33
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "LNG"
     ],
-    "w": 0.312
+    "w": 0.306
    },
    {
     "slug": "europe-bought-record-amount-of-lng-and",
     "shared": [
      "LNG"
     ],
-    "w": 0.312
-   },
-   {
-    "slug": "petroleum-trade-pairings-and-us-crude",
-    "shared": [
-     "Diesel"
-    ],
-    "w": 0.28
+    "w": 0.306
    }
   ]
  },
@@ -5316,7 +6094,7 @@
   ]
  },
  "indias-mobile-phone-pli-beat-every": {
-  "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 3 of 12 Plants Actually Producing.",
+  "title": "India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html",
   "published": "2026-08-30",
   "countries": [],
@@ -5355,6 +6133,58 @@
    }
   ]
  },
+ "indias-new-car-rules-count-every-ev-as": {
+  "title": "India's New Car Rules Count Every EV as Three Cars. Europe, the US and China Used Smaller Multipliers, Then Phased Them Out.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-new-car-rules-count-every-ev-as.html",
+  "published": "2026-10-02",
+  "countries": [
+   "European Union",
+   "China",
+   "Japan",
+   "Brazil",
+   "South Korea"
+  ],
+  "states": [],
+  "entities": [
+   "Electric vehicles",
+   "Ethanol",
+   "Petrol",
+   "Diesel"
+  ],
+  "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Diesel",
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 1.308
+   },
+   {
+    "slug": "petroleum-trade-pairings-and-us-crude",
+    "shared": [
+     "Diesel",
+     "Petrol"
+    ],
+    "w": 1.041
+   },
+   {
+    "slug": "kpler-and-vortexa-track-every-barrel",
+    "shared": [
+     "Diesel"
+    ],
+    "w": 0.524
+   },
+   {
+    "slug": "rin-red-and-cbio-what-indias-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.517
+   }
+  ]
+ },
  "indias-oil-fields-are-running-down-3696": {
   "title": "India's Oil Fields Are Running Down: 36.96 to 28.70 MMT in a Decade, and the Targets Have Stopped Meaning Anything",
   "url": "https://masaladeutsch.blogspot.com/2026/08/indias-oil-fields-are-running-down-3696.html",
@@ -5370,28 +6200,68 @@
     "shared": [
      "Crude oil"
     ],
-    "w": 0.03
+    "w": 0.028
    },
    {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.03
+    "w": 0.028
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.03
+    "w": 0.028
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.03
+    "w": 0.028
+   }
+  ]
+ },
+ "indias-oil-fields-are-running-down": {
+  "title": "India's Oil Fields Are Running Down. The Policy to Squeeze More Out of Them Is Eight Years Old, and Its Best Techniques Are Still Pilots.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/indias-oil-fields-are-running-down.html",
+  "published": "2026-09-19",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Crude oil"
+  ],
+  "related": [
+   {
+    "slug": "you-cannot-substitute-crude-oil-or-gold",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.028
+   },
+   {
+    "slug": "where-worlds-oil-sits-when-it-isnt",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.028
+   },
+   {
+    "slug": "where-indias-forex-goes-country",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.028
+   },
+   {
+    "slug": "what-india-is-actually-paying-for",
+    "shared": [
+     "Crude oil"
+    ],
+    "w": 0.028
    }
   ]
  },
@@ -5425,7 +6295,16 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.125
+    "w": 0.1
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Electric vehicles",
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 0.1
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
@@ -5433,25 +6312,15 @@
      "Electric vehicles",
      "TradeStat"
     ],
-    "w": 0.106
+    "w": 0.089
    },
    {
-    "slug": "ipa-digital-twin-reportage-latest",
+    "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Electric vehicles",
-     "Petrol"
+     "Ethanol"
     ],
-    "w": 0.103
-   },
-   {
-    "slug": "re-spinning-charkha",
-    "shared": [
-     "Crude oil",
-     "Ethanol",
-     "Petrol",
-     "TradeStat"
-    ],
-    "w": 0.094
+    "w": 0.084
    }
   ]
  },
@@ -5462,9 +6331,18 @@
   "countries": [],
   "states": [],
   "entities": [
-   "Carbon credits"
+   "Carbon credits",
+   "Urea"
   ],
   "related": [
+   {
+    "slug": "bio-fertiliser-and-green-credits",
+    "shared": [
+     "Carbon credits",
+     "Urea"
+    ],
+    "w": 0.164
+   },
    {
     "slug": "what-actually-happens-to-indias-used",
     "shared": [
@@ -5481,13 +6359,6 @@
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
-    "shared": [
-     "Carbon credits"
-    ],
-    "w": 0.111
-   },
-   {
-    "slug": "indias-carbon-credit-market-domestic",
     "shared": [
      "Carbon credits"
     ],
@@ -5523,7 +6394,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.073
+    "w": 0.063
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -5532,7 +6403,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.073
+    "w": 0.063
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -5541,7 +6412,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.073
+    "w": 0.063
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -5550,7 +6421,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.073
+    "w": 0.063
    }
   ]
  },
@@ -5581,7 +6452,7 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.161
+    "w": 0.147
    },
    {
     "slug": "india-approved-15-lakh-crore-in",
@@ -5589,21 +6460,21 @@
      "FDI",
      "PLI scheme"
     ],
-    "w": 0.161
+    "w": 0.147
    },
    {
     "slug": "where-indias-fdi-actually-lands-state",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    }
   ]
  },
@@ -5622,21 +6493,13 @@
   ],
   "related": [
    {
-    "slug": "article-index-start-here",
-    "shared": [
-     "Crude oil",
-     "PLI scheme",
-     "Urea"
-    ],
-    "w": 0.137
-   },
-   {
-    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "slug": "import-dependent-sectors-vs-government",
     "shared": [
      "Steel",
+     "TradeStat",
      "Urea"
     ],
-    "w": 0.124
+    "w": 0.122
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -5645,7 +6508,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.111
+    "w": 0.106
    },
    {
     "slug": "fy2025-26-sample-report-india-trade",
@@ -5654,7 +6517,15 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.111
+    "w": 0.106
+   },
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Steel",
+     "Urea"
+    ],
+    "w": 0.1
    }
   ]
  },
@@ -5678,7 +6549,7 @@
      "CPI",
      "Import substitution"
     ],
-    "w": 0.168
+    "w": 0.162
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
@@ -5721,7 +6592,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.1
+    "w": 0.087
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
@@ -5729,7 +6600,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.1
+    "w": 0.087
    },
    {
     "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
@@ -5737,7 +6608,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "re-spinning-charkha",
@@ -5745,7 +6616,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    }
   ]
  },
@@ -5762,13 +6633,6 @@
   ],
   "related": [
    {
-    "slug": "article-index-start-here",
-    "shared": [
-     "PLI scheme"
-    ],
-    "w": 0.286
-   },
-   {
     "slug": "whos-actually-building-mri-and-ct",
     "shared": [
      "PLI scheme"
@@ -5784,6 +6648,13 @@
    },
    {
     "slug": "top-15-chemicals-for-import",
+    "shared": [
+     "PLI scheme"
+    ],
+    "w": 0.036
+   },
+   {
+    "slug": "the-most-discussed-schemes-in",
     "shared": [
      "PLI scheme"
     ],
@@ -5808,28 +6679,28 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
@@ -5848,28 +6719,28 @@
     "shared": [
      "Petrol"
     ],
-    "w": 0.02
+    "w": 0.017
    },
    {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Petrol"
     ],
-    "w": 0.02
+    "w": 0.017
    },
    {
     "slug": "where-india-actually-burns-its-fuel",
     "shared": [
      "Petrol"
     ],
-    "w": 0.02
+    "w": 0.017
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
     "shared": [
      "Petrol"
     ],
-    "w": 0.02
+    "w": 0.017
    }
   ]
  },
@@ -5896,21 +6767,21 @@
     "shared": [
      "PPAC"
     ],
-    "w": 0.053
+    "w": 0.045
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
     "shared": [
      "PPAC"
     ],
-    "w": 0.053
+    "w": 0.045
    },
    {
     "slug": "thermal-parity-is-dead-what-85-oil-and",
     "shared": [
      "PPAC"
     ],
-    "w": 0.053
+    "w": 0.045
    }
   ]
  },
@@ -5939,28 +6810,28 @@
      "CPI",
      "WPI"
     ],
-    "w": 1.72
+    "w": 1.714
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Urea"
     ],
-    "w": 1.571
+    "w": 1.553
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "effective-buying-power-china-comparison",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    }
   ]
  },
@@ -5993,28 +6864,28 @@
      "CPI",
      "WPI"
     ],
-    "w": 1.72
+    "w": 1.714
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "top-15-chemicals-for-import",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    },
    {
     "slug": "effective-buying-power-china-comparison",
     "shared": [
      "CPI"
     ],
-    "w": 0.577
+    "w": 0.571
    }
   ]
  },
@@ -6054,14 +6925,15 @@
      "Diesel",
      "Green hydrogen"
     ],
-    "w": 0.453
+    "w": 0.445
    },
    {
-    "slug": "what-actually-happens-to-indias-used",
+    "slug": "kpler-and-vortexa-track-every-barrel",
     "shared": [
+     "Crude oil",
      "Diesel"
     ],
-    "w": 0.28
+    "w": 0.302
    }
   ]
  },
@@ -6077,43 +6949,48 @@
    "Ethanol",
    "Compressed biogas",
    "Petrol",
-   "Sugar"
+   "Sugar",
+   "Natural gas"
   ],
   "related": [
-   {
-    "slug": "379-kilos-hectare-in-punjab-44-in",
-    "shared": [
-     "Compressed biogas",
-     "Sugar"
-    ],
-    "w": 0.13
-   },
-   {
-    "slug": "state-by-state-who-actually-earns-from",
-    "shared": [
-     "Ethanol",
-     "Petrol",
-     "Sugar"
-    ],
-    "w": 0.113
-   },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "Ethanol",
+     "Natural gas",
      "Petrol",
      "Sugar"
     ],
-    "w": 0.113
+    "w": 0.135
    },
    {
-    "slug": "the-case-for-biofuels-over-imports",
+    "slug": "blending-on-budget-energy-density-and",
     "shared": [
      "Compressed biogas",
      "Ethanol",
+     "Natural gas",
      "Petrol"
     ],
-    "w": 0.1
+    "w": 0.121
+   },
+   {
+    "slug": "annadata-to-urjadata-farmer-income-case",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol",
+     "Natural gas",
+     "Petrol"
+    ],
+    "w": 0.121
+   },
+   {
+    "slug": "cotton-stalk-is-one-of-hardest-crop",
+    "shared": [
+     "Compressed biogas",
+     "Ethanol",
+     "Sugar"
+    ],
+    "w": 0.114
    }
   ]
  },
@@ -6156,33 +7033,33 @@
   ],
   "related": [
    {
-    "slug": "article-index-start-here",
+    "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
-     "PLI scheme",
+     "Electric vehicles",
      "Petrol"
     ],
-    "w": 0.306
+    "w": 0.333
    },
    {
     "slug": "the-currency-rupee-trends-piece-left",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "raising-green-debt-globally-rec-euroyen",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "cheap-yen-rupee-roads-where-carry-trade",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    }
   ]
  },
@@ -6281,6 +7158,55 @@
   "entities": [],
   "related": []
  },
+ "kpler-and-vortexa-track-every-barrel": {
+  "title": "Kpler and Vortexa Track Every Barrel India Imports. Nobody Tracks Its Cooking-Oil Waste the Same Way.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
+  "published": "2026-09-24",
+  "countries": [
+   "China",
+   "Russia",
+   "European Union"
+  ],
+  "states": [],
+  "entities": [
+   "LNG",
+   "Crude oil",
+   "Diesel"
+  ],
+  "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "LNG"
+    ],
+    "w": 0.858
+   },
+   {
+    "slug": "europe-bought-record-amount-of-lng-and",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.806
+   },
+   {
+    "slug": "winter-is-coming-for-europes-landlocked",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.556
+   },
+   {
+    "slug": "petroleum-trade-pairings-and-us-crude",
+    "shared": [
+     "Crude oil",
+     "Diesel"
+    ],
+    "w": 0.552
+   }
+  ]
+ },
  "lemon-cultivation-in-india-steady-trees": {
   "title": "Lemon Cultivation in India: Steady Trees, Volatile Prices",
   "url": "https://masaladeutsch.blogspot.com/2026/08/lemon-cultivation-in-india-steady-trees.html",
@@ -6289,8 +7215,8 @@
   "states": [
    "Tamil Nadu",
    "Karnataka",
-   "Assam",
-   "Andhra Pradesh"
+   "Andhra Pradesh",
+   "Assam"
   ],
   "entities": [],
   "related": []
@@ -6317,7 +7243,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.246
+    "w": 0.187
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -6326,7 +7252,16 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.246
+    "w": 0.187
+   },
+   {
+    "slug": "a-2013-vision-saw-india-needing-746",
+    "shared": [
+     "City gas distribution",
+     "LNG",
+     "PNGRB"
+    ],
+    "w": 0.187
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -6334,15 +7269,7 @@
      "City gas distribution",
      "LNG"
     ],
-    "w": 0.188
-   },
-   {
-    "slug": "pngrb-wants-prepaid-smart-meters-on",
-    "shared": [
-     "City gas distribution",
-     "PNGRB"
-    ],
-    "w": 0.184
+    "w": 0.139
    }
   ]
  },
@@ -6374,7 +7301,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
@@ -6383,7 +7310,16 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
+   },
+   {
+    "slug": "the-margin-case-why-lpg-and",
+    "shared": [
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.087
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -6392,16 +7328,53 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
-   },
+    "w": 0.087
+   }
+  ]
+ },
+ "making-plastic-releases-heat-unmaking": {
+  "title": "Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html",
+  "published": "2026-10-02",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Diesel",
+   "Petrol",
+   "Steel"
+  ],
+  "related": [
    {
-    "slug": "india-sells-world-53-billion-of-fuel",
+    "slug": "lng-trucks-cost-about-what-diesel-does",
     "shared": [
      "Diesel",
-     "PPAC",
-     "Petrol"
+     "Steel"
     ],
-    "w": 0.103
+    "w": 0.072
+   },
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Diesel",
+     "Steel"
+    ],
+    "w": 0.072
+   },
+   {
+    "slug": "nine-ministries-one-list-every-company",
+    "shared": [
+     "Petrol",
+     "Steel"
+    ],
+    "w": 0.064
+   },
+   {
+    "slug": "from-barrel-to-bottle-petrochemical",
+    "shared": [
+     "Petrol",
+     "Steel"
+    ],
+    "w": 0.064
    }
   ]
  },
@@ -6415,44 +7388,63 @@
    "Crude oil",
    "Petrol",
    "Diesel",
-   "PNGRB"
+   "PNGRB",
+   "PPAC"
   ],
   "related": [
    {
-    "slug": "right-of-user-what-indias-pipeline",
+    "slug": "the-margin-case-why-lpg-and",
     "shared": [
      "Crude oil",
-     "PNGRB",
+     "Diesel",
+     "PPAC",
      "Petrol"
     ],
-    "w": 0.109
+    "w": 0.114
    },
    {
-    "slug": "pngrbs-own-committee-found-pipelines",
-    "shared": [
-     "Diesel",
-     "PNGRB",
-     "Petrol"
-    ],
-    "w": 0.109
-   },
-   {
-    "slug": "lng-trucks-cost-about-what-diesel-does",
-    "shared": [
-     "Diesel",
-     "PNGRB"
-    ],
-    "w": 0.089
-   },
-   {
-    "slug": "indias-gas-pipelines-run-at-half",
+    "slug": "india-sells-world-53-billion-of-fuel",
     "shared": [
      "Crude oil",
-     "PNGRB"
+     "Diesel",
+     "PPAC",
+     "Petrol"
     ],
-    "w": 0.089
+    "w": 0.114
+   },
+   {
+    "slug": "india-mineral-oil-hsn-ch27-trade",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.114
+   },
+   {
+    "slug": "fuel-pricing-to-crude-cost",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.114
    }
   ]
+ },
+ "mopsws-25000-crore-maritime-development": {
+  "title": "MoPSW's ₹25,000 Crore Maritime Development Fund Has Guidelines Now. Here Is What It Actually Commits To.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/mopsws-25000-crore-maritime-development.html",
+  "published": "2026-09-21",
+  "countries": [
+   "South Korea",
+   "China"
+  ],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "mrs-watanabe-traded-from-kitchen-table": {
   "title": "Mrs Watanabe Traded From the Kitchen Table. India's Next Wave of Traders Could Too",
@@ -6463,7 +7455,8 @@
   ],
   "states": [
    "Maharashtra",
-   "Bihar"
+   "Bihar",
+   "Uttar Pradesh"
   ],
   "entities": [],
   "related": []
@@ -6485,28 +7478,28 @@
     "shared": [
      "Urea"
     ],
-    "w": 0.071
+    "w": 0.053
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Urea"
+    ],
+    "w": 0.053
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Urea"
     ],
-    "w": 0.071
+    "w": 0.053
    },
    {
     "slug": "indias-wholesale-prices-next-to",
     "shared": [
      "Urea"
     ],
-    "w": 0.071
-   },
-   {
-    "slug": "indias-subsidised-imports-fertilisers",
-    "shared": [
-     "Urea"
-    ],
-    "w": 0.071
+    "w": 0.053
    }
   ]
  },
@@ -6521,9 +7514,9 @@
   "states": [
    "Gujarat",
    "Uttar Pradesh",
-   "Jharkhand",
    "Bihar",
    "West Bengal",
+   "Jharkhand",
    "Madhya Pradesh",
    "Tamil Nadu",
    "Karnataka",
@@ -6548,7 +7541,7 @@
     "shared": [
      "Petrol"
     ],
-    "w": 0.52
+    "w": 0.517
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -6557,7 +7550,15 @@
      "Natural gas",
      "Urea"
     ],
-    "w": 0.48
+    "w": 0.439
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal",
+     "Urea"
+    ],
+    "w": 0.394
    },
    {
     "slug": "article-index-start-here",
@@ -6566,15 +7567,7 @@
      "Petrol",
      "Urea"
     ],
-    "w": 0.404
-   },
-   {
-    "slug": "europe-bought-record-amount-of-lng-and",
-    "shared": [
-     "LNG",
-     "PNGRB"
-    ],
-    "w": 0.371
+    "w": 0.375
    }
   ]
  },
@@ -6608,7 +7601,7 @@
      "Natural gas",
      "Steel"
     ],
-    "w": 0.211
+    "w": 0.184
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -6617,7 +7610,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.153
    },
    {
     "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
@@ -6626,7 +7619,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.179
+    "w": 0.153
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -6634,9 +7627,22 @@
      "Coal",
      "Steel"
     ],
-    "w": 0.153
+    "w": 0.139
    }
   ]
+ },
+ "nobody-blockaded-hormuz-to-slow-india": {
+  "title": "Nobody Blockaded Hormuz to Slow India-Europe Trade. The Corridor Meant to Bypass It Is Getting Built Faster Anyway.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/nobody-blockaded-hormuz-to-slow-india.html",
+  "published": "2026-09-22",
+  "countries": [
+   "European Union",
+   "United States",
+   "Iran"
+  ],
+  "states": [],
+  "entities": [],
+  "related": []
  },
  "not-drop-out-ethanols-zero-liquid": {
   "title": "Not a Drop Out: Ethanol's Zero-Liquid-Discharge Rule, and the Treatment-Capacity Gap Behind It",
@@ -6652,33 +7658,33 @@
   ],
   "related": [
    {
-    "slug": "rin-red-and-cbio-what-indias-ethanol",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
-   },
-   {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
-   },
-   {
-    "slug": "article-index-start-here",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
-   },
-   {
-    "slug": "the-ethanol-sectors-buyers-market",
     "shared": [
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.323
+   },
+   {
+    "slug": "shippings-net-zero-vote-keeps-getting",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
+   },
+   {
+    "slug": "rin-red-and-cbio-what-indias-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
+   },
+   {
+    "slug": "refiners-won-exemption-fight-biofuels",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
    }
   ]
  },
@@ -6714,28 +7720,28 @@
     "shared": [
      "PNGRB"
     ],
-    "w": 0.309
+    "w": 0.298
    },
    {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Petrol"
     ],
-    "w": 0.27
+    "w": 0.267
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
     "shared": [
      "Petrol"
     ],
-    "w": 0.27
+    "w": 0.267
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
     "shared": [
      "Petrol"
     ],
-    "w": 0.27
+    "w": 0.267
    }
   ]
  },
@@ -6749,7 +7755,8 @@
   ],
   "states": [],
   "entities": [
-   "Ethanol"
+   "Ethanol",
+   "Sugar"
   ],
   "related": [
    {
@@ -6757,28 +7764,72 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.517
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
    },
    {
     "slug": "not-drop-out-ethanols-zero-liquid",
     "shared": [
-     "Ethanol"
+     "Ethanol",
+     "Sugar"
     ],
-    "w": 0.271
+    "w": 0.323
+   }
+  ]
+ },
+ "one-nation-one-gst-rate-what-true-flat": {
+  "title": "One Nation, One GST Rate: What a True Flat Tax Would Take, and Why Not Even Singapore Has One",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
+  "published": "2026-09-29",
+  "countries": [
+   "Singapore",
+   "UAE"
+  ],
+  "states": [],
+  "entities": [
+   "GST"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "GST"
+    ],
+    "w": 0.042
    },
    {
-    "slug": "indias-ethanol-surplus-isnt-going-to",
+    "slug": "who-collects-indias-gst-and-who",
     "shared": [
-     "Ethanol"
+     "GST"
     ],
-    "w": 0.271
+    "w": 0.042
+   },
+   {
+    "slug": "uttar-pradeshs-gst-puzzle-growing",
+    "shared": [
+     "GST"
+    ],
+    "w": 0.042
+   },
+   {
+    "slug": "the-case-for-biofuels-over-imports",
+    "shared": [
+     "GST"
+    ],
+    "w": 0.042
    }
   ]
  },
@@ -6795,7 +7846,8 @@
    "Ethanol",
    "FCI",
    "Sugar",
-   "Petrol"
+   "Petrol",
+   "Natural gas"
   ],
   "related": [
    {
@@ -6803,18 +7855,30 @@
     "shared": [
      "Ethanol",
      "FCI",
+     "Petrol",
      "Sugar"
     ],
-    "w": 0.204
+    "w": 0.2
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
     "shared": [
      "Ethanol",
      "FCI",
+     "Natural gas",
      "Petrol"
     ],
-    "w": 0.152
+    "w": 0.19
+   },
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Ethanol",
+     "Natural gas",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.135
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
@@ -6822,15 +7886,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.132
-   },
-   {
-    "slug": "the-grain-value-loop-integrated-rice",
-    "shared": [
-     "Ethanol",
-     "FCI"
-    ],
-    "w": 0.132
+    "w": 0.128
    }
   ]
  },
@@ -6856,7 +7912,7 @@
      "Crude oil",
      "Petrol"
     ],
-    "w": 0.8
+    "w": 0.794
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -6864,21 +7920,21 @@
      "Crude oil",
      "Petrol"
     ],
-    "w": 0.3
+    "w": 0.294
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.28
+    "w": 0.278
    },
    {
-    "slug": "inside-refinery-how-hydrogen-cleans",
+    "slug": "kpler-and-vortexa-track-every-barrel",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.28
+    "w": 0.278
    }
   ]
  },
@@ -6931,7 +7987,7 @@
      "Diesel",
      "Petrol"
     ],
-    "w": 2.081
+    "w": 2.319
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -6939,7 +7995,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.803
+    "w": 1.8
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -6947,7 +8003,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
+    "w": 1.3
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -6955,7 +8011,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
+    "w": 1.3
    }
   ]
  },
@@ -6999,6 +8055,94 @@
    }
   ]
  },
+ "pmfby-advertises-51-return-to-farmers": {
+  "title": "PMFBY Advertises a 5:1 Return to Farmers. Farmers Put In About a Fifth of the Premium. Governments Put In the Rest.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/pmfby-advertises-51-return-to-farmers.html",
+  "published": "2026-09-19",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Rupee"
+  ],
+  "related": [
+   {
+    "slug": "which-ecb-currencies-are-actually",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "where-rupee-actually-stands-ten-years",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "what-india-is-actually-paying-for",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "the-rupee-fell-10-and-exports-grew-09",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   }
+  ]
+ },
+ "pngrb-graded-its-own-homework-on-2025": {
+  "title": "PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html",
+  "published": "2026-09-23",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "PNGRB",
+   "Compressed biogas",
+   "City gas distribution"
+  ],
+  "related": [
+   {
+    "slug": "india-has-132-compressed-biogas-plants",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "india-fuel-retail-outlets-82k-geocoded",
+    "shared": [
+     "City gas distribution",
+     "Compressed biogas",
+     "PNGRB"
+    ],
+    "w": 0.173
+   },
+   {
+    "slug": "pngrbs-own-2025-committee-now-expects",
+    "shared": [
+     "City gas distribution",
+     "PNGRB"
+    ],
+    "w": 0.131
+   },
+   {
+    "slug": "pngrb-wants-prepaid-smart-meters-on",
+    "shared": [
+     "City gas distribution",
+     "PNGRB"
+    ],
+    "w": 0.131
+   }
+  ]
+ },
  "pngrb-hydrogen-blending-pilots-real": {
   "title": "PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim",
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html",
@@ -7016,22 +8160,13 @@
   ],
   "related": [
    {
-    "slug": "cgd-geographical-areas-district",
-    "shared": [
-     "City gas distribution",
-     "Natural gas",
-     "PNGRB"
-    ],
-    "w": 0.243
-   },
-   {
     "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
      "City gas distribution",
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.243
+    "w": 0.176
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -7040,15 +8175,25 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.243
+    "w": 0.176
    },
    {
-    "slug": "pngrb-wants-prepaid-smart-meters-on",
+    "slug": "cgd-geographical-areas-district",
     "shared": [
      "City gas distribution",
+     "Natural gas",
      "PNGRB"
     ],
-    "w": 0.184
+    "w": 0.176
+   },
+   {
+    "slug": "a-2013-vision-saw-india-needing-746",
+    "shared": [
+     "City gas distribution",
+     "Natural gas",
+     "PNGRB"
+    ],
+    "w": 0.176
    }
   ]
  },
@@ -7069,7 +8214,7 @@
      "City gas distribution",
      "PNGRB"
     ],
-    "w": 0.184
+    "w": 0.131
    },
    {
     "slug": "pngrb-hydrogen-blending-pilots-real",
@@ -7077,7 +8222,15 @@
      "City gas distribution",
      "PNGRB"
     ],
-    "w": 0.184
+    "w": 0.131
+   },
+   {
+    "slug": "pngrb-graded-its-own-homework-on-2025",
+    "shared": [
+     "City gas distribution",
+     "PNGRB"
+    ],
+    "w": 0.131
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -7085,15 +8238,7 @@
      "City gas distribution",
      "PNGRB"
     ],
-    "w": 0.184
-   },
-   {
-    "slug": "lng-trucks-cost-about-what-diesel-does",
-    "shared": [
-     "City gas distribution",
-     "PNGRB"
-    ],
-    "w": 0.184
+    "w": 0.131
    }
   ]
  },
@@ -7119,7 +8264,17 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.305
+    "w": 0.232
+   },
+   {
+    "slug": "a-2013-vision-saw-india-needing-746",
+    "shared": [
+     "City gas distribution",
+     "LNG",
+     "Natural gas",
+     "PNGRB"
+    ],
+    "w": 0.232
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -7128,7 +8283,7 @@
      "LNG",
      "PNGRB"
     ],
-    "w": 0.246
+    "w": 0.187
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -7137,16 +8292,7 @@
      "LNG",
      "Natural gas"
     ],
-    "w": 0.246
-   },
-   {
-    "slug": "cgd-geographical-areas-district",
-    "shared": [
-     "City gas distribution",
-     "Natural gas",
-     "PNGRB"
-    ],
-    "w": 0.243
+    "w": 0.184
    }
   ]
  },
@@ -7169,7 +8315,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.109
+    "w": 0.089
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -7177,7 +8323,15 @@
      "Diesel",
      "PNGRB"
     ],
-    "w": 0.089
+    "w": 0.072
+   },
+   {
+    "slug": "028-unit-diesel-math-behind-indias-data",
+    "shared": [
+     "Diesel",
+     "PNGRB"
+    ],
+    "w": 0.072
    },
    {
     "slug": "right-of-user-what-indias-pipeline",
@@ -7185,15 +8339,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.079
-   },
-   {
-    "slug": "oisd-writes-indias-oil-safety-rules-api",
-    "shared": [
-     "PNGRB",
-     "Petrol"
-    ],
-    "w": 0.079
+    "w": 0.064
    }
   ]
  },
@@ -7214,28 +8360,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -7254,28 +8400,28 @@
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.091
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
-   },
-   {
-    "slug": "indias-coking-coal-import-problem-and",
-    "shared": [
-     "Coal"
-    ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -7284,8 +8430,8 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/priority-export-destinations-by-growth.html",
   "published": "2026-08-02",
   "countries": [
-   "China",
-   "United States"
+   "United States",
+   "China"
   ],
   "states": [],
   "entities": [
@@ -7311,14 +8457,14 @@
     "w": 0.558
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "what-india-is-actually-paying-for",
     "shared": [
-     "PLI scheme"
+     "TradeStat"
     ],
-    "w": 0.536
+    "w": 0.522
    },
    {
-    "slug": "what-india-is-actually-paying-for",
+    "slug": "petroleum-trade-pairings-and-us-crude",
     "shared": [
      "TradeStat"
     ],
@@ -7366,11 +8512,11 @@
     "w": 0.808
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "securitising-deficit-what-it-would",
     "shared": [
-     "PLI scheme"
+     "TradeStat"
     ],
-    "w": 0.786
+    "w": 0.772
    }
   ]
  },
@@ -7381,8 +8527,8 @@
   "countries": [],
   "states": [
    "Karnataka",
-   "Tamil Nadu",
-   "Maharashtra"
+   "Maharashtra",
+   "Tamil Nadu"
   ],
   "entities": [
    "Ethanol",
@@ -7399,7 +8545,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.139
+    "w": 0.121
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -7409,7 +8555,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.139
+    "w": 0.121
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -7419,7 +8565,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.139
+    "w": 0.121
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -7428,7 +8574,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.118
+    "w": 0.104
    }
   ]
  },
@@ -7461,28 +8607,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "the-currency-rupee-trends-piece-left",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
+   },
+   {
+    "slug": "tamil-nadus-water-infrastructure-runs",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.287
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
-   },
-   {
-    "slug": "cheap-yen-rupee-roads-where-carry-trade",
-    "shared": [
-     "Rupee"
-    ],
-    "w": 0.292
+    "w": 0.287
    }
   ]
  },
@@ -7514,14 +8660,14 @@
      "PLI scheme",
      "Steel"
     ],
-    "w": 0.338
+    "w": 0.333
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
      "Steel"
     ],
-    "w": 0.303
+    "w": 0.298
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -7554,28 +8700,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -7592,9 +8738,9 @@
   "entities": [
    "Crude oil",
    "Ethanol",
+   "Petrol",
    "TradeStat",
-   "Textiles",
-   "Petrol"
+   "Textiles"
   ],
   "related": [
    {
@@ -7603,7 +8749,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.331
+    "w": 0.322
    },
    {
     "slug": "green-gold-what-spirulina-actually-is",
@@ -7611,7 +8757,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.33
+    "w": 0.317
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -7620,7 +8766,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.323
+    "w": 0.317
    },
    {
     "slug": "article-index-start-here",
@@ -7629,7 +8775,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.322
+    "w": 0.311
    }
   ]
  },
@@ -7661,28 +8807,71 @@
     "shared": [
      "Crude oil"
     ],
-    "w": 0.78
+    "w": 0.778
    },
    {
     "slug": "where-worlds-oil-sits-when-it-isnt",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.53
+    "w": 0.528
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.53
+    "w": 0.528
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.53
+    "w": 0.528
+   }
+  ]
+ },
+ "refiners-won-exemption-fight-biofuels": {
+  "title": "Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html",
+  "published": "2026-10-03",
+  "countries": [
+   "United States",
+   "European Union"
+  ],
+  "states": [],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.517
+   },
+   {
+    "slug": "south-africa-lost-its-gulf-fuel-supply",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
+   },
+   {
+    "slug": "shippings-net-zero-vote-keeps-getting",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
+   },
+   {
+    "slug": "rin-red-and-cbio-what-indias-ethanol",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
    }
   ]
  },
@@ -7726,7 +8915,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.138
+    "w": 0.11
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -7735,7 +8924,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.138
+    "w": 0.11
    },
    {
     "slug": "cgd-geographical-areas-district",
@@ -7744,7 +8933,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.138
+    "w": 0.11
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -7752,7 +8941,7 @@
      "Natural gas",
      "PNGRB"
     ],
-    "w": 0.118
+    "w": 0.093
    }
   ]
  },
@@ -7791,14 +8980,14 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
    },
    {
-    "slug": "article-index-start-here",
+    "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.521
+    "w": 0.517
    }
   ]
  },
@@ -7833,12 +9022,21 @@
   ],
   "related": [
    {
+    "slug": "from-barrel-to-bottle-petrochemical",
+    "shared": [
+     "Natural gas",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.108
+   },
+   {
     "slug": "thermal-parity-is-dead-what-85-oil-and",
     "shared": [
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.111
+    "w": 0.091
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -7846,23 +9044,15 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.111
+    "w": 0.091
    },
    {
-    "slug": "right-of-user-what-indias-pipeline",
+    "slug": "a-2013-vision-saw-india-needing-746",
     "shared": [
      "Natural gas",
-     "Petrol"
+     "PPAC"
     ],
-    "w": 0.079
-   },
-   {
-    "slug": "oisd-writes-indias-oil-safety-rules-api",
-    "shared": [
-     "Natural gas",
-     "Petrol"
-    ],
-    "w": 0.079
+    "w": 0.091
    }
   ]
  },
@@ -7895,7 +9085,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
+    "w": 1.3
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -7903,7 +9093,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
+    "w": 1.3
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -7912,7 +9102,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -7921,7 +9111,54 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
+   }
+  ]
+ },
+ "shippings-net-zero-vote-keeps-getting": {
+  "title": "Shipping's Net-Zero Vote Keeps Getting Delayed. The Fuel Switch Is Happening Without It.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/shippings-net-zero-vote-keeps-getting.html",
+  "published": "2026-09-24",
+  "countries": [
+   "European Union"
+  ],
+  "states": [],
+  "entities": [
+   "LNG",
+   "Diesel",
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "article-index-start-here",
+    "shared": [
+     "Diesel",
+     "Ethanol",
+     "LNG"
+    ],
+    "w": 0.347
+   },
+   {
+    "slug": "kpler-and-vortexa-track-every-barrel",
+    "shared": [
+     "Diesel",
+     "LNG"
+    ],
+    "w": 0.33
+   },
+   {
+    "slug": "winter-is-coming-for-europes-landlocked",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.306
+   },
+   {
+    "slug": "europe-bought-record-amount-of-lng-and",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.306
    }
   ]
  },
@@ -7948,7 +9185,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.572
+    "w": 0.558
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -7957,7 +9194,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.323
+    "w": 0.313
    },
    {
     "slug": "what-actually-happens-to-indias-used",
@@ -7965,7 +9202,7 @@
      "Diesel",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.297
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -8003,6 +9240,17 @@
   ],
   "related": [
    {
+    "slug": "every-litre-of-petrol-pays-5-for-roads",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "GST",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.195
+   },
+   {
     "slug": "fuel-pricing-to-crude-cost",
     "shared": [
      "Diesel",
@@ -8011,7 +9259,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.17
+    "w": 0.145
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -8021,27 +9269,17 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.148
+    "w": 0.128
    },
    {
-    "slug": "the-barrel-really-is-shifting-indias",
+    "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
+     "Diesel",
+     "Electric vehicles",
      "Ethanol",
-     "GST",
-     "PPAC",
      "Petrol"
     ],
-    "w": 0.139
-   },
-   {
-    "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
-    "shared": [
-     "Ethanol",
-     "GST",
-     "PPAC",
-     "Petrol"
-    ],
-    "w": 0.139
+    "w": 0.125
    }
   ]
  },
@@ -8066,7 +9304,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
@@ -8074,7 +9312,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -8082,7 +9320,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -8090,7 +9328,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    }
   ]
  },
@@ -8102,7 +9340,8 @@
   "states": [],
   "entities": [
    "Sugar",
-   "Ethanol"
+   "Ethanol",
+   "PLI scheme"
   ],
   "related": [
    {
@@ -8111,7 +9350,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -8119,7 +9358,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -8127,7 +9366,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -8135,7 +9374,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    }
   ]
  },
@@ -8165,33 +9404,33 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
  "tamil-nadus-water-infrastructure-runs": {
-  "title": "Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and None of Them Match the Number You've Heard",
+  "title": "Tamil Nadu's Water Infrastructure Runs on Three Separate Money Streams, and Only One of Them Explains the Number You've Heard",
   "url": "https://masaladeutsch.blogspot.com/2026/08/tamil-nadus-water-infrastructure-runs.html",
   "published": "2026-08-25",
   "countries": [
@@ -8200,8 +9439,39 @@
   "states": [
    "Tamil Nadu"
   ],
-  "entities": [],
-  "related": []
+  "entities": [
+   "Rupee"
+  ],
+  "related": [
+   {
+    "slug": "raising-green-debt-globally-rec-euroyen",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.287
+   },
+   {
+    "slug": "which-ecb-currencies-are-actually",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "where-rupee-actually-stands-ten-years",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "what-india-is-actually-paying-for",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   }
+  ]
  },
  "tamil-nadus-wind-potential-according-to": {
   "title": "Tamil Nadu's Wind Potential, According to NIWE: A Third Built, Two-Thirds Still on the Table",
@@ -8209,7 +9479,8 @@
   "published": "2026-08-14",
   "countries": [],
   "states": [
-   "Tamil Nadu"
+   "Tamil Nadu",
+   "Gujarat"
   ],
   "entities": [],
   "related": []
@@ -8233,28 +9504,28 @@
     "shared": [
      "Textiles"
     ],
-    "w": 0.559
+    "w": 0.55
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Textiles"
     ],
-    "w": 0.309
+    "w": 0.3
    },
    {
     "slug": "priority-export-destinations-by-growth",
     "shared": [
      "Textiles"
     ],
-    "w": 0.309
+    "w": 0.3
    },
    {
     "slug": "airbags-and-seat-belts-are-import-heavy",
     "shared": [
      "Textiles"
     ],
-    "w": 0.309
+    "w": 0.3
    }
   ]
  },
@@ -8296,20 +9567,20 @@
   ],
   "related": [
    {
-    "slug": "petroleum-trade-pairings-and-us-crude",
-    "shared": [
-     "Diesel"
-    ],
-    "w": 0.28
-   },
-   {
     "slug": "article-index-start-here",
     "shared": [
      "Diesel",
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.194
+    "w": 0.434
+   },
+   {
+    "slug": "petroleum-trade-pairings-and-us-crude",
+    "shared": [
+     "Diesel"
+    ],
+    "w": 0.274
    },
    {
     "slug": "inside-refinery-how-hydrogen-cleans",
@@ -8317,7 +9588,7 @@
      "Diesel",
      "Green hydrogen"
     ],
-    "w": 0.173
+    "w": 0.167
    },
    {
     "slug": "the-hydrogen-bill-hiding-inside-indias",
@@ -8325,7 +9596,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.164
+    "w": 0.16
    }
   ]
  },
@@ -8344,28 +9615,28 @@
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "where-indias-factories-actually-get",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
     "shared": [
      "Steel"
     ],
-    "w": 0.053
+    "w": 0.048
    }
   ]
  },
@@ -8386,7 +9657,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "priority-export-destinations-by-growth",
@@ -8394,7 +9665,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -8402,7 +9673,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    },
    {
     "slug": "from-fuel-to-fibre-indias-textile",
@@ -8410,7 +9681,7 @@
      "Textiles",
      "TradeStat"
     ],
-    "w": 0.081
+    "w": 0.072
    }
   ]
  },
@@ -8469,22 +9740,22 @@
     "w": 0.45
    },
    {
+    "slug": "india-leads-world-in-jute-and-ranks",
+    "shared": [
+     "Textiles"
+    ],
+    "w": 0.3
+   },
+   {
     "slug": "airbags-and-seat-belts-are-import-heavy",
     "shared": [
      "Anti-dumping",
      "Textiles"
     ],
-    "w": 0.259
+    "w": 0.25
    },
    {
     "slug": "top-15-chemicals-for-import",
-    "shared": [
-     "Anti-dumping"
-    ],
-    "w": 0.2
-   },
-   {
-    "slug": "chemical-import-substitution-quarterly",
     "shared": [
      "Anti-dumping"
     ],
@@ -8521,28 +9792,28 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
@@ -8572,7 +9843,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.17
+    "w": 0.149
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -8582,7 +9853,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.148
+    "w": 0.132
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -8592,7 +9863,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.139
+    "w": 0.121
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -8602,7 +9873,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.139
+    "w": 0.121
    }
   ]
  },
@@ -8619,32 +9890,32 @@
   ],
   "related": [
    {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.317
+   },
+   {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.067
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.067
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-easiest-ev-conversion-in-india",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
-   },
-   {
-    "slug": "state-by-state-who-actually-earns-from",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
+    "w": 0.067
    }
   ]
  },
@@ -8664,17 +9935,6 @@
   ],
   "related": [
    {
-    "slug": "annadata-to-urjadata-farmer-income-case",
-    "shared": [
-     "Compressed biogas",
-     "Crude oil",
-     "Diesel",
-     "Ethanol",
-     "Petrol"
-    ],
-    "w": 0.161
-   },
-   {
     "slug": "fuel-pricing-to-crude-cost",
     "shared": [
      "Crude oil",
@@ -8683,27 +9943,39 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.147
+    "w": 0.127
    },
    {
-    "slug": "blending-on-budget-energy-density-and",
+    "slug": "article-index-start-here",
     "shared": [
      "Compressed biogas",
+     "Crude oil",
      "Diesel",
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.127
    },
    {
-    "slug": "a-supreme-court-ruling-on-intoxicating",
+    "slug": "annadata-to-urjadata-farmer-income-case",
     "shared": [
      "Compressed biogas",
+     "Crude oil",
      "Diesel",
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.127
+   },
+   {
+    "slug": "india-mineral-oil-hsn-ch27-trade",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "GST",
+     "Petrol"
+    ],
+    "w": 0.111
    }
   ]
  },
@@ -8722,28 +9994,28 @@
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-green-shift-what-indias-oil",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    }
   ]
  },
@@ -8776,7 +10048,15 @@
      "LNG",
      "Steel"
     ],
-    "w": 0.115
+    "w": 0.103
+   },
+   {
+    "slug": "kpler-and-vortexa-track-every-barrel",
+    "shared": [
+     "Crude oil",
+     "LNG"
+    ],
+    "w": 0.083
    },
    {
     "slug": "indias-gas-pipelines-run-at-half",
@@ -8784,21 +10064,13 @@
      "Crude oil",
      "LNG"
     ],
-    "w": 0.093
+    "w": 0.083
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Crude oil",
      "LNG"
-    ],
-    "w": 0.093
-   },
-   {
-    "slug": "you-cannot-substitute-crude-oil-or-gold",
-    "shared": [
-     "Crude oil",
-     "Steel"
     ],
     "w": 0.083
    }
@@ -8821,28 +10093,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "ipa-digital-twin-reportage-latest",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "cheap-yen-rupee-roads-where-carry-trade",
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "which-ecb-currencies-are-actually",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -8867,7 +10139,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.063
+    "w": 0.056
    },
    {
     "slug": "re-spinning-charkha",
@@ -8876,7 +10148,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.063
+    "w": 0.056
    },
    {
     "slug": "indias-petrochemical-import-tree-from",
@@ -8885,7 +10157,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.063
+    "w": 0.056
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -8894,7 +10166,53 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.063
+    "w": 0.056
+   }
+  ]
+ },
+ "the-diesel-truck-isnt-why-your-eggs": {
+  "title": "The Diesel Truck Isn't Why Your Eggs Cost More. The Ethanol Tank Is.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/the-diesel-truck-isnt-why-your-eggs.html",
+  "published": "2026-09-23",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Diesel",
+   "Ethanol",
+   "CPI"
+  ],
+  "related": [
+   {
+    "slug": "imported-fertiliser-fuel-prices-diesel",
+    "shared": [
+     "CPI",
+     "Diesel"
+    ],
+    "w": 0.096
+   },
+   {
+    "slug": "diesel-doesnt-move-cpi-it-moves-40",
+    "shared": [
+     "CPI",
+     "Diesel"
+    ],
+    "w": 0.096
+   },
+   {
+    "slug": "ethanol-freed-up-refinery-capacity-for",
+    "shared": [
+     "CPI",
+     "Ethanol"
+    ],
+    "w": 0.088
+   },
+   {
+    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+    "shared": [
+     "CPI",
+     "Ethanol"
+    ],
+    "w": 0.088
    }
   ]
  },
@@ -8917,7 +10235,7 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.114
+    "w": 0.091
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -8925,21 +10243,23 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.114
+    "w": 0.091
    },
    {
-    "slug": "vehicles-out-motors-in-indias-chapter",
+    "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
+     "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.091
    },
    {
-    "slug": "the-masala-deutsch-shop-books-things",
+    "slug": "every-litre-of-petrol-pays-5-for-roads",
     "shared": [
+     "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.091
    }
   ]
  },
@@ -8969,7 +10289,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -8977,7 +10297,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -8985,7 +10305,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -8993,7 +10313,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.093
+    "w": 0.073
    }
   ]
  },
@@ -9016,7 +10336,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.072
+    "w": 0.061
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -9025,7 +10345,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.072
+    "w": 0.061
    },
    {
     "slug": "re-spinning-charkha",
@@ -9034,7 +10354,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.072
+    "w": 0.061
    },
    {
     "slug": "indias-petrochemical-import-tree-from",
@@ -9043,7 +10363,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.072
+    "w": 0.061
    }
   ]
  },
@@ -9063,8 +10383,8 @@
   "countries": [],
   "states": [
    "Karnataka",
-   "Rajasthan",
    "Maharashtra",
+   "Rajasthan",
    "Gujarat",
    "Tamil Nadu",
    "Andhra Pradesh",
@@ -9072,9 +10392,9 @@
    "Punjab",
    "Haryana",
    "Bihar",
+   "Telangana",
    "Uttar Pradesh",
    "Madhya Pradesh",
-   "Telangana",
    "Goa"
   ],
   "entities": [
@@ -9095,7 +10415,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.382
+    "w": 0.378
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -9106,6 +10426,13 @@
     "w": 0.272
    },
    {
+    "slug": "india-grows-soybean-exports-meal-leads",
+    "shared": [
+     "MSP"
+    ],
+    "w": 0.25
+   },
+   {
     "slug": "annadata-to-urjadata-farmer-income-case",
     "shared": [
      "Compressed biogas",
@@ -9114,14 +10441,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.263
-   },
-   {
-    "slug": "india-grows-soybean-exports-meal-leads",
-    "shared": [
-     "MSP"
-    ],
-    "w": 0.25
+    "w": 0.231
    }
   ]
  },
@@ -9132,36 +10452,41 @@
   "countries": [],
   "states": [],
   "entities": [
+   "Petrol",
    "Compressed biogas"
   ],
   "related": [
    {
-    "slug": "what-sewage-disposal-in-key-parts-of",
-    "shared": [
-     "Compressed biogas"
-    ],
-    "w": 0.059
-   },
-   {
-    "slug": "the-grain-value-loop-integrated-rice",
-    "shared": [
-     "Compressed biogas"
-    ],
-    "w": 0.059
-   },
-   {
-    "slug": "the-cbg-incentive-stack-every-leg-of",
-    "shared": [
-     "Compressed biogas"
-    ],
-    "w": 0.059
-   },
-   {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
-     "Compressed biogas"
+     "Compressed biogas",
+     "Petrol"
     ],
-    "w": 0.059
+    "w": 0.058
+   },
+   {
+    "slug": "interest-subvention-built-499-ethanol",
+    "shared": [
+     "Compressed biogas",
+     "Petrol"
+    ],
+    "w": 0.058
+   },
+   {
+    "slug": "india-fuel-retail-outlets-82k-geocoded",
+    "shared": [
+     "Compressed biogas",
+     "Petrol"
+    ],
+    "w": 0.058
+   },
+   {
+    "slug": "blending-on-budget-energy-density-and",
+    "shared": [
+     "Compressed biogas",
+     "Petrol"
+    ],
+    "w": 0.058
    }
   ]
  },
@@ -9180,28 +10505,28 @@
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.056
+   },
+   {
+    "slug": "shippings-net-zero-vote-keeps-getting",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.056
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
-   },
-   {
-    "slug": "nature-versus-nurture-indias-fertiliser",
-    "shared": [
-     "LNG"
-    ],
-    "w": 0.062
+    "w": 0.056
    }
   ]
  },
@@ -9223,7 +10548,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.164
+    "w": 0.16
    },
    {
     "slug": "article-index-start-here",
@@ -9231,7 +10556,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.164
+    "w": 0.16
    },
    {
     "slug": "where-indias-green-hydrogen-bets-are",
@@ -9300,44 +10625,49 @@
   "entities": [
    "Petrol",
    "Crude oil",
+   "PPAC",
    "Diesel"
   ],
   "related": [
-   {
-    "slug": "the-case-for-biofuels-over-imports",
-    "shared": [
-     "Crude oil",
-     "Diesel",
-     "Petrol"
-    ],
-    "w": 0.081
-   },
-   {
-    "slug": "petroleum-trade-pairings-and-us-crude",
-    "shared": [
-     "Crude oil",
-     "Diesel",
-     "Petrol"
-    ],
-    "w": 0.081
-   },
    {
     "slug": "mapping-indias-other-pipelines-every",
     "shared": [
      "Crude oil",
      "Diesel",
+     "PPAC",
      "Petrol"
     ],
-    "w": 0.081
+    "w": 0.114
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
     "shared": [
      "Crude oil",
      "Diesel",
+     "PPAC",
      "Petrol"
     ],
-    "w": 0.081
+    "w": 0.114
+   },
+   {
+    "slug": "india-mineral-oil-hsn-ch27-trade",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.114
+   },
+   {
+    "slug": "fuel-pricing-to-crude-cost",
+    "shared": [
+     "Crude oil",
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.114
    }
   ]
  },
@@ -9426,6 +10756,15 @@
    }
   ]
  },
+ "the-ministry-of-power-published-two": {
+  "title": "The Ministry of Power Published Two Different AT&C Loss Figures for the Same Year. Its Flagship Scheme's Target Sits Between Them.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/the-ministry-of-power-published-two.html",
+  "published": "2026-09-19",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
+ },
  "the-most-discussed-schemes-in": {
   "title": "The Most Discussed Schemes in Parliament — Lok Sabha & Rajya Sabha",
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-most-discussed-schemes-in.html",
@@ -9458,7 +10797,7 @@
     "w": 0.036
    },
    {
-    "slug": "rare-earth-magnets-and-specialty-steel",
+    "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "PLI scheme"
     ],
@@ -9494,28 +10833,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -9538,7 +10877,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.382
+    "w": 0.378
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -9560,7 +10899,97 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.132
+    "w": 0.128
+   }
+  ]
+ },
+ "the-rbi-has-put-bonds-and-rupees-on-one": {
+  "title": "The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html",
+  "published": "2026-10-02",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Rupee"
+  ],
+  "related": [
+   {
+    "slug": "which-ecb-currencies-are-actually",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "where-rupee-actually-stands-ten-years",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "what-india-is-actually-paying-for",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   },
+   {
+    "slug": "the-rupee-fell-10-and-exports-grew-09",
+    "shared": [
+     "Rupee"
+    ],
+    "w": 0.037
+   }
+  ]
+ },
+ "the-reactor-nobody-names-how-coal": {
+  "title": "The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html",
+  "published": "2026-09-19",
+  "countries": [
+   "China"
+  ],
+  "states": [],
+  "entities": [
+   "Coal",
+   "Ethanol",
+   "Urea",
+   "Electric vehicles"
+  ],
+  "related": [
+   {
+    "slug": "indias-coal-to-chemicals-menu-ranked-by",
+    "shared": [
+     "Coal",
+     "Ethanol",
+     "Urea"
+    ],
+    "w": 0.41
+   },
+   {
+    "slug": "nature-versus-nurture-indias-fertiliser",
+    "shared": [
+     "Coal",
+     "Urea"
+    ],
+    "w": 0.394
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Electric vehicles",
+     "Ethanol"
+    ],
+    "w": 0.334
+   },
+   {
+    "slug": "chemical-import-substitution-full-hsn-8_01082878313",
+    "shared": [
+     "Ethanol",
+     "Urea"
+    ],
+    "w": 0.32
    }
   ]
  },
@@ -9602,7 +11031,7 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.1
+    "w": 0.087
    },
    {
     "slug": "indias-trade-balance-hsn-wise",
@@ -9610,21 +11039,21 @@
      "Rupee",
      "Textiles"
     ],
-    "w": 0.1
+    "w": 0.087
    },
    {
     "slug": "we-fact-checked-66-investment",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    },
    {
     "slug": "the-50-tariff-and-234-one-untangling",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
+    "w": 0.05
    }
   ]
  },
@@ -9642,32 +11071,32 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
+   },
+   {
     "slug": "re-spinning-charkha",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
+    "w": 0.267
+   },
+   {
+    "slug": "indias-new-car-rules-count-every-ev-as",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.267
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.271
-   },
-   {
-    "slug": "india-exports-naphtha-and-benzene-its",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
-   },
-   {
-    "slug": "green-gold-what-spirulina-actually-is",
-    "shared": [
-     "Ethanol"
-    ],
-    "w": 0.271
+    "w": 0.267
    }
   ]
  },
@@ -9675,6 +11104,15 @@
   "title": "The Solar Panel Recycling Opportunity, and the Storage Mandate Sitting in Front of It",
   "url": "https://masaladeutsch.blogspot.com/2026/09/the-solar-panel-recycling-opportunity.html",
   "published": "2026-09-11",
+  "countries": [],
+  "states": [],
+  "entities": [],
+  "related": []
+ },
+ "the-two-biggest-parties-in-parliament": {
+  "title": "The Two Biggest Parties in Parliament Ask About Everything. Everyone Else Doesn't.",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/the-two-biggest-parties-in-parliament.html",
+  "published": "2026-09-18",
   "countries": [],
   "states": [],
   "entities": [],
@@ -9716,7 +11154,15 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.111
+    "w": 0.091
+   },
+   {
+    "slug": "from-barrel-to-bottle-petrochemical",
+    "shared": [
+     "Natural gas",
+     "PPAC"
+    ],
+    "w": 0.091
    },
    {
     "slug": "city-gas-just-became-indias-largest-gas",
@@ -9724,23 +11170,15 @@
      "Natural gas",
      "PPAC"
     ],
-    "w": 0.111
+    "w": 0.091
    },
    {
-    "slug": "right-of-user-what-indias-pipeline",
+    "slug": "a-2013-vision-saw-india-needing-746",
     "shared": [
-     "Crude oil",
-     "Natural gas"
+     "Natural gas",
+     "PPAC"
     ],
-    "w": 0.089
-   },
-   {
-    "slug": "indias-fertiliser-import-bill-hits-18",
-    "shared": [
-     "Crude oil",
-     "Natural gas"
-    ],
-    "w": 0.089
+    "w": 0.091
    }
   ]
  },
@@ -9755,32 +11193,32 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Urea"
+    ],
+    "w": 0.053
+   },
+   {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Urea"
     ],
-    "w": 0.071
+    "w": 0.053
    },
    {
     "slug": "nano-urea-works-as-supplement-and-fails",
     "shared": [
      "Urea"
     ],
-    "w": 0.071
+    "w": 0.053
    },
    {
     "slug": "indias-wholesale-prices-next-to",
     "shared": [
      "Urea"
     ],
-    "w": 0.071
-   },
-   {
-    "slug": "indias-subsidised-imports-fertilisers",
-    "shared": [
-     "Urea"
-    ],
-    "w": 0.071
+    "w": 0.053
    }
   ]
  },
@@ -9821,28 +11259,28 @@
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
     "shared": [
      "Sugar"
     ],
-    "w": 0.071
+    "w": 0.056
    }
   ]
  },
@@ -9858,8 +11296,8 @@
   "states": [
    "Gujarat",
    "Tamil Nadu",
-   "Andhra Pradesh",
    "Odisha",
+   "Andhra Pradesh",
    "Himachal Pradesh"
   ],
   "entities": [
@@ -9879,7 +11317,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 0.803
+    "w": 0.8
    },
    {
     "slug": "chemical-import-substitution-analysis",
@@ -9896,7 +11334,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 0.629
+    "w": 0.621
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -9905,7 +11343,7 @@
      "PLI scheme",
      "TradeStat"
     ],
-    "w": 0.588
+    "w": 0.586
    }
   ]
  },
@@ -9920,6 +11358,46 @@
   "entities": [],
   "related": []
  },
+ "under-corsias-own-numbers-corn-ethanol": {
+  "title": "Under CORSIA's Own Numbers, Corn Ethanol Fails as Jet Fuel — Worse Than the Fossil Fuel It Would Replace",
+  "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
+  "published": "2026-09-23",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Ethanol"
+  ],
+  "related": [
+   {
+    "slug": "would-more-sgst-fix-donor-state-problem",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-software-behind-still-whats",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   },
+   {
+    "slug": "the-price-of-grain-msp-msv-and",
+    "shared": [
+     "Ethanol"
+    ],
+    "w": 0.017
+   }
+  ]
+ },
  "up-has-indias-biggest-herd-punjab-has": {
   "title": "UP Has India's Biggest Herd. Punjab Has India's Best Yield. The Census Behind Both Numbers Is Six Years Old.",
   "url": "https://masaladeutsch.blogspot.com/2026/08/up-has-indias-biggest-herd-punjab-has.html",
@@ -9930,8 +11408,9 @@
    "Goa",
    "Uttar Pradesh",
    "Rajasthan",
+   "Bihar",
    "Madhya Pradesh",
-   "Bihar"
+   "Andhra Pradesh"
   ],
   "entities": [],
   "related": []
@@ -9955,7 +11434,16 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
+   },
+   {
+    "slug": "the-margin-case-why-lpg-and",
+    "shared": [
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.087
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -9964,25 +11452,16 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
    },
    {
-    "slug": "lpgs-missing-number-7308-commission-and",
+    "slug": "mapping-indias-other-pipelines-every",
     "shared": [
      "Diesel",
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
-   },
-   {
-    "slug": "india-sells-world-53-billion-of-fuel",
-    "shared": [
-     "Diesel",
-     "PPAC",
-     "Petrol"
-    ],
-    "w": 0.103
+    "w": 0.087
    }
   ]
  },
@@ -10013,28 +11492,28 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "who-collects-indias-gst-and-who",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
@@ -10055,28 +11534,28 @@
      "Electric vehicles",
      "TradeStat"
     ],
-    "w": 0.106
+    "w": 0.089
+   },
+   {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Electric vehicles"
+    ],
+    "w": 0.067
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
+    "w": 0.067
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.083
-   },
-   {
-    "slug": "the-battery-passport-was-built-for",
-    "shared": [
-     "Electric vehicles"
-    ],
-    "w": 0.083
+    "w": 0.067
    }
   ]
  },
@@ -10107,7 +11586,7 @@
      "Steel",
      "Textiles"
     ],
-    "w": 0.111
+    "w": 0.098
    },
    {
     "slug": "nine-ministries-one-list-every-company",
@@ -10115,21 +11594,22 @@
      "Steel",
      "Textiles"
     ],
-    "w": 0.111
+    "w": 0.098
+   },
+   {
+    "slug": "greenhouse-emissions-reduction-and-cbam",
+    "shared": [
+     "Steel",
+     "Textiles"
+    ],
+    "w": 0.098
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Textiles"
     ],
-    "w": 0.059
-   },
-   {
-    "slug": "textile-hsn-deep-dive-apparel-vs-mmf",
-    "shared": [
-     "Textiles"
-    ],
-    "w": 0.059
+    "w": 0.05
    }
   ]
  },
@@ -10166,7 +11646,7 @@
     "shared": [
      "Diesel"
     ],
-    "w": 0.53
+    "w": 0.524
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
@@ -10188,7 +11668,7 @@
      "Diesel",
      "TradeStat"
     ],
-    "w": 0.303
+    "w": 0.297
    }
   ]
  },
@@ -10228,7 +11708,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
+    "w": 1.3
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -10237,7 +11717,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
    },
    {
     "slug": "can-rupee-trade-actually-offset",
@@ -10246,7 +11726,7 @@
      "Rupee",
      "TradeStat"
     ],
-    "w": 1.094
+    "w": 1.087
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -10254,7 +11734,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.053
+    "w": 1.05
    }
   ]
  },
@@ -10284,28 +11764,28 @@
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-cbg-incentive-stack-every-leg-of",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "Compressed biogas"
     ],
-    "w": 0.059
+    "w": 0.042
    }
   ]
  },
@@ -10364,11 +11844,11 @@
    "Chhattisgarh",
    "Maharashtra",
    "Tamil Nadu",
-   "Karnataka",
-   "Rajasthan",
    "Haryana",
    "Telangana",
-   "Andhra Pradesh"
+   "Andhra Pradesh",
+   "Karnataka",
+   "Rajasthan"
   ],
   "entities": [
    "Petrol",
@@ -10383,7 +11863,16 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
+   },
+   {
+    "slug": "the-margin-case-why-lpg-and",
+    "shared": [
+     "Diesel",
+     "PPAC",
+     "Petrol"
+    ],
+    "w": 0.087
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -10392,25 +11881,16 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.087
    },
    {
-    "slug": "lpgs-missing-number-7308-commission-and",
+    "slug": "mapping-indias-other-pipelines-every",
     "shared": [
      "Diesel",
      "PPAC",
      "Petrol"
     ],
-    "w": 0.103
-   },
-   {
-    "slug": "india-sells-world-53-billion-of-fuel",
-    "shared": [
-     "Diesel",
-     "PPAC",
-     "Petrol"
-    ],
-    "w": 0.103
+    "w": 0.087
    }
   ]
  },
@@ -10427,32 +11907,32 @@
   ],
   "related": [
    {
+    "slug": "the-reactor-nobody-names-how-coal",
+    "shared": [
+     "Coal"
+    ],
+    "w": 0.091
+   },
+   {
     "slug": "price-is-wire-how-gcam-actually-links",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    },
    {
     "slug": "nine-ministries-one-list-every-company",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
+    "w": 0.091
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
     "shared": [
      "Coal"
     ],
-    "w": 0.1
-   },
-   {
-    "slug": "indias-coking-coal-import-problem-and",
-    "shared": [
-     "Coal"
-    ],
-    "w": 0.1
+    "w": 0.091
    }
   ]
  },
@@ -10463,9 +11943,10 @@
   "countries": [],
   "states": [
    "Gujarat",
+   "Karnataka",
    "Odisha",
    "Maharashtra",
-   "Karnataka"
+   "Punjab"
   ],
   "entities": [
    "FDI",
@@ -10477,28 +11958,28 @@
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-state-incentive-war-gujarats",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-e-commerce-inventory-ban-just",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    }
   ]
  },
@@ -10522,28 +12003,28 @@
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-state-incentive-war-gujarats",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    },
    {
     "slug": "indias-e-commerce-inventory-ban-just",
     "shared": [
      "FDI"
     ],
-    "w": 0.125
+    "w": 0.111
    }
   ]
  },
@@ -10575,7 +12056,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.803
+    "w": 1.8
    },
    {
     "slug": "securitising-deficit-what-it-would",
@@ -10583,15 +12064,7 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.303
-   },
-   {
-    "slug": "article-index-start-here",
-    "shared": [
-     "Crude oil",
-     "PLI scheme"
-    ],
-    "w": 1.066
+    "w": 1.3
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -10599,7 +12072,15 @@
      "Crude oil",
      "TradeStat"
     ],
-    "w": 1.053
+    "w": 1.05
+   },
+   {
+    "slug": "can-rupee-trade-actually-offset",
+    "shared": [
+     "Crude oil",
+     "TradeStat"
+    ],
+    "w": 1.05
    }
   ]
  },
@@ -10686,28 +12167,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 1.042
+    "w": 1.037
    },
    {
     "slug": "securitising-deficit-what-it-would",
     "shared": [
      "Rupee"
     ],
-    "w": 1.042
+    "w": 1.037
    },
    {
     "slug": "can-rupee-trade-actually-offset",
     "shared": [
      "Rupee"
     ],
-    "w": 1.042
+    "w": 1.037
    },
    {
     "slug": "if-india-paid-brics-in-rupees-scenario",
     "shared": [
      "Rupee"
     ],
-    "w": 0.542
+    "w": 0.537
    }
   ]
  },
@@ -10735,7 +12216,7 @@
      "Crude oil",
      "Petrol"
     ],
-    "w": 1.05
+    "w": 1.044
    },
    {
     "slug": "article-index-start-here",
@@ -10743,21 +12224,21 @@
      "Crude oil",
      "Petrol"
     ],
-    "w": 0.8
+    "w": 0.794
    },
    {
     "slug": "where-indias-forex-goes-country",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.78
+    "w": 0.778
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Crude oil"
     ],
-    "w": 0.78
+    "w": 0.778
    }
   ]
  },
@@ -10778,28 +12259,28 @@
     "shared": [
      "Rupee"
     ],
-    "w": 0.292
+    "w": 0.287
    },
    {
     "slug": "where-rupee-actually-stands-ten-years",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "what-india-is-actually-paying-for",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    },
    {
     "slug": "the-rupee-fell-10-and-exports-grew-09",
     "shared": [
      "Rupee"
     ],
-    "w": 0.042
+    "w": 0.037
    }
   ]
  },
@@ -10826,28 +12307,28 @@
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "uttar-pradeshs-gst-puzzle-growing",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
     "shared": [
      "GST"
     ],
-    "w": 0.045
+    "w": 0.042
    }
   ]
  },
@@ -10883,7 +12364,7 @@
     "w": 0.036
    },
    {
-    "slug": "rare-earth-magnets-and-specialty-steel",
+    "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "PLI scheme"
     ],
@@ -10920,32 +12401,32 @@
   ],
   "related": [
    {
-    "slug": "article-index-start-here",
-    "shared": [
-     "LNG"
-    ],
-    "w": 1.312
-   },
-   {
     "slug": "europe-bought-record-amount-of-lng-and",
     "shared": [
      "LNG"
     ],
-    "w": 1.062
+    "w": 1.306
    },
    {
-    "slug": "the-helper-motor-trick-that-already",
+    "slug": "article-index-start-here",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 1.306
    },
    {
-    "slug": "the-corrosion-you-cant-see-until",
+    "slug": "kpler-and-vortexa-track-every-barrel",
     "shared": [
      "LNG"
     ],
-    "w": 0.062
+    "w": 0.556
+   },
+   {
+    "slug": "shippings-net-zero-vote-keeps-getting",
+    "shared": [
+     "LNG"
+    ],
+    "w": 0.306
    }
   ]
  },
@@ -10975,7 +12456,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -10984,7 +12465,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -10993,7 +12474,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -11002,7 +12483,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.087
+    "w": 0.075
    }
   ]
  },
@@ -11025,7 +12506,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.105
+    "w": 0.098
    },
    {
     "slug": "the-corrosion-you-cant-see-until",
@@ -11033,7 +12514,7 @@
      "Crude oil",
      "Steel"
     ],
-    "w": 0.083
+    "w": 0.075
    },
    {
     "slug": "priority-trade-partners-by-import",
@@ -11041,7 +12522,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.075
+    "w": 0.07
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -11049,7 +12530,7 @@
      "Steel",
      "TradeStat"
     ],
-    "w": 0.075
+    "w": 0.07
    }
   ]
  }
