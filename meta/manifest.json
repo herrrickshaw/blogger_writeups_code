@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-03T21:55:39+05:30",
+  "snapshot": "2026-10-03T22:12:18+05:30",
   "count": 343,
   "posts": {
     "1023631151138981087": {
@@ -16135,14 +16135,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html",
       "slug": "indias-ethanol-surplus-buys-about-five",
       "published": "2026-10-03T14:45:56.000+05:30",
-      "updated": "2026-10-03T21:54:58.749+05:30",
+      "updated": "2026-10-03T22:11:24.072+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Energy & Fuels",
         "Ethanol & Biofuels"
       ],
-      "bytes": 45260,
-      "sha256": "da1b483a82b569f401a9a87504f43b50ff4c11b2b2255c1bb1424831cfb43dca",
+      "bytes": 52606,
+      "sha256": "45f3b2cb38a81bbdfcfe1462db4cc3ba6b7d9b69135fd9d2a4f8481f24617e9d",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -16154,7 +16154,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.0",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -16210,6 +16210,19 @@
           "bytes": [
             43428,
             45260
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-10-03T22:12:18+05:30",
+          "level": "major",
+          "reason": "figures changed (+42/-0 distinct numbers)",
+          "bytes": [
+            45260,
+            52606
           ],
           "url_changed": null,
           "markers_changed": null,
