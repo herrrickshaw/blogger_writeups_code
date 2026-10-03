@@ -21,7 +21,7 @@
      "Diesel",
      "Natural gas"
     ],
-    "w": 0.111
+    "w": 0.11
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -30,7 +30,7 @@
      "Diesel",
      "Natural gas"
     ],
-    "w": 0.111
+    "w": 0.11
    },
    {
     "slug": "right-of-user-what-indias-pipeline",
@@ -88,7 +88,7 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "indias-cotton-yield-fell-from-566-kg-to",
@@ -96,21 +96,21 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
-   },
-   {
-    "slug": "cotton-stalk-is-one-of-hardest-crop",
-    "shared": [
-     "Compressed biogas",
-     "Sugar"
-    ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "cow-dung-already-flew-rocket-engine",
     "shared": [
      "Compressed biogas",
      "Urea"
+    ],
+    "w": 0.094
+   },
+   {
+    "slug": "cotton-stalk-is-one-of-hardest-crop",
+    "shared": [
+     "Compressed biogas",
+     "Sugar"
     ],
     "w": 0.094
    }
@@ -195,7 +195,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
@@ -203,7 +203,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -211,7 +211,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -219,7 +219,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    }
   ]
  },
@@ -410,7 +410,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.099
+    "w": 0.097
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -420,7 +420,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.099
+    "w": 0.097
    },
    {
     "slug": "article-index-start-here",
@@ -430,7 +430,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.099
+    "w": 0.097
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -440,7 +440,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.099
+    "w": 0.097
    }
   ]
  },
@@ -726,7 +726,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.23
+    "w": 0.218
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -736,16 +736,17 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.178
    },
    {
-    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "slug": "indias-ethanol-surplus-buys-about-five",
     "shared": [
+     "Diesel",
      "Ethanol",
      "FCI",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.156
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -756,7 +757,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.143
    }
   ]
  },
@@ -825,7 +826,7 @@
      "Electric vehicles",
      "Ethanol"
     ],
-    "w": 0.107
+    "w": 0.102
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -834,7 +835,16 @@
      "Electric vehicles",
      "Ethanol"
     ],
-    "w": 0.107
+    "w": 0.102
+   },
+   {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "Ethanol"
+    ],
+    "w": 0.102
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
@@ -842,15 +852,7 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.09
-   },
-   {
-    "slug": "lng-trucks-cost-about-what-diesel-does",
-    "shared": [
-     "Diesel",
-     "Electric vehicles"
-    ],
-    "w": 0.09
+    "w": 0.086
    }
   ]
  },
@@ -907,7 +909,7 @@
      "Diesel",
      "Petrol"
     ],
-    "w": 2.318
+    "w": 2.317
    },
    {
     "slug": "europe-bought-record-amount-of-lng-and",
@@ -930,7 +932,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 1.307
+    "w": 1.306
    }
   ]
  },
@@ -1097,28 +1099,28 @@
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "the-ethanol-sectors-buyers-market",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    }
   ]
  },
@@ -1146,7 +1148,7 @@
      "Petrol",
      "Urea"
     ],
-    "w": 0.151
+    "w": 0.15
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -1157,7 +1159,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.143
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -1167,7 +1169,7 @@
      "Natural gas",
      "Urea"
     ],
-    "w": 0.139
+    "w": 0.138
    },
    {
     "slug": "interest-subvention-built-499-ethanol",
@@ -1224,14 +1226,14 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "one-gallon-five-numbers-how-gcam-fits",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    }
   ]
  },
@@ -1705,7 +1707,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.114
+    "w": 0.111
    },
    {
     "slug": "indias-cotton-yield-fell-from-566-kg-to",
@@ -1713,7 +1715,7 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "379-kilos-hectare-in-punjab-44-in",
@@ -1721,7 +1723,7 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "the-ethanol-sectors-buyers-market",
@@ -1729,7 +1731,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    }
   ]
  },
@@ -1917,7 +1919,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.153
+    "w": 0.152
    },
    {
     "slug": "nature-versus-nurture-indias-fertiliser",
@@ -1926,7 +1928,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.153
+    "w": 0.152
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -2052,7 +2054,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -2061,7 +2063,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
     "slug": "interest-subvention-built-499-ethanol",
@@ -2070,16 +2072,16 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
-    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "slug": "indias-ethanol-surplus-buys-about-five",
     "shared": [
      "Ethanol",
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    }
   ]
  },
@@ -2245,7 +2247,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.102
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -2255,7 +2257,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.102
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -2265,7 +2267,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.103
+    "w": 0.102
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -2348,7 +2350,7 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.108
+    "w": 0.107
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
@@ -2356,7 +2358,7 @@
      "Coal",
      "Ethanol"
     ],
-    "w": 0.108
+    "w": 0.107
    },
    {
     "slug": "where-indias-captured-carbon-would",
@@ -2479,7 +2481,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.194
+    "w": 0.189
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -2502,13 +2504,13 @@
     "w": 0.127
    },
    {
-    "slug": "indias-new-car-rules-count-every-ev-as",
+    "slug": "the-barrel-really-is-shifting-indias",
     "shared": [
-     "Diesel",
-     "Electric vehicles",
+     "GST",
+     "PPAC",
      "Petrol"
     ],
-    "w": 0.107
+    "w": 0.103
    }
   ]
  },
@@ -2621,7 +2623,15 @@
      "Diesel",
      "FCI"
     ],
-    "w": 0.135
+    "w": 0.123
+   },
+   {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Diesel",
+     "FCI"
+    ],
+    "w": 0.123
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -2629,21 +2639,14 @@
      "Diesel",
      "FCI"
     ],
-    "w": 0.135
+    "w": 0.123
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
-   },
-   {
-    "slug": "one-nation-one-ration-card-doesnt-move",
-    "shared": [
-     "FCI"
-    ],
-    "w": 0.111
+    "w": 0.1
    }
   ]
  },
@@ -2662,28 +2665,28 @@
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "jai-kisan-jai-javan-fci-based-military",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    }
   ]
  },
@@ -2721,7 +2724,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.104
+    "w": 0.103
    },
    {
     "slug": "right-of-user-what-indias-pipeline",
@@ -2730,7 +2733,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -2739,7 +2742,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.09
+    "w": 0.089
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -2973,7 +2976,7 @@
      "Diesel",
      "WPI"
     ],
-    "w": 0.167
+    "w": 0.166
    },
    {
     "slug": "inflation-trends-globally-what-five",
@@ -3054,7 +3057,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -3063,7 +3066,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
     "slug": "interest-subvention-built-499-ethanol",
@@ -3072,16 +3075,16 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
-    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "slug": "indias-ethanol-surplus-buys-about-five",
     "shared": [
      "Ethanol",
      "Petrol",
      "Sugar"
     ],
-    "w": 0.089
+    "w": 0.085
    }
   ]
  },
@@ -3165,7 +3168,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    },
    {
     "slug": "the-case-for-biofuels-over-imports",
@@ -3174,7 +3177,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -3183,7 +3186,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    }
   ]
  },
@@ -3211,7 +3214,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.155
+    "w": 0.154
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -3222,7 +3225,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.148
+    "w": 0.147
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -3233,7 +3236,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.143
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -3244,7 +3247,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.129
    }
   ]
  },
@@ -3459,14 +3462,14 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "re-spinning-charkha",
@@ -3474,7 +3477,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.316
    }
   ]
  },
@@ -4183,28 +4186,28 @@
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "jai-kisan-jai-javan-fci-based-military",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    }
   ]
  },
@@ -4357,7 +4360,17 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.2
+    "w": 0.185
+   },
+   {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.185
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -4366,7 +4379,7 @@
      "FCI",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.133
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
@@ -4374,15 +4387,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.128
-   },
-   {
-    "slug": "the-grain-value-loop-integrated-rice",
-    "shared": [
-     "Ethanol",
-     "FCI"
-    ],
-    "w": 0.128
+    "w": 0.116
    }
   ]
  },
@@ -4445,28 +4450,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "under-corsias-own-numbers-corn-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-software-behind-still-whats",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    }
   ]
  },
@@ -4644,7 +4649,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.34
+    "w": 0.339
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4655,7 +4660,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.155
+    "w": 0.154
    },
    {
     "slug": "india-sells-world-53-billion-of-fuel",
@@ -4666,7 +4671,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.136
+    "w": 0.135
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -4772,7 +4777,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.34
+    "w": 0.339
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -4783,7 +4788,7 @@
      "Petrol",
      "TradeStat"
     ],
-    "w": 0.136
+    "w": 0.135
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -4794,7 +4799,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.13
+    "w": 0.129
    },
    {
     "slug": "the-margin-case-why-lpg-and",
@@ -5187,28 +5192,28 @@
     "shared": [
      "Diesel"
     ],
-    "w": 0.024
+    "w": 0.023
    },
    {
     "slug": "what-actually-happens-to-indias-used",
     "shared": [
      "Diesel"
     ],
-    "w": 0.024
+    "w": 0.023
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
     "shared": [
      "Diesel"
     ],
-    "w": 0.024
+    "w": 0.023
    },
    {
     "slug": "the-margin-case-why-lpg-and",
     "shared": [
      "Diesel"
     ],
-    "w": 0.024
+    "w": 0.023
    }
   ]
  },
@@ -5244,7 +5249,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.057
+    "w": 0.056
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -5253,7 +5258,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.057
+    "w": 0.056
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
@@ -5262,7 +5267,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.057
+    "w": 0.056
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -5271,7 +5276,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.057
+    "w": 0.056
    }
   ]
  },
@@ -5366,7 +5371,7 @@
      "Ethanol",
      "Urea"
     ],
-    "w": 0.343
+    "w": 0.342
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -5467,7 +5472,7 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "cotton-stalk-is-one-of-hardest-crop",
@@ -5475,7 +5480,7 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "379-kilos-hectare-in-punjab-44-in",
@@ -5483,14 +5488,14 @@
      "Compressed biogas",
      "Sugar"
     ],
-    "w": 0.097
+    "w": 0.094
    },
    {
     "slug": "tnpl-has-made-paper-from-sugarcane",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    }
   ]
  },
@@ -5567,28 +5572,28 @@
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -5607,28 +5612,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "under-corsias-own-numbers-corn-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-software-behind-still-whats",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    }
   ]
  },
@@ -5649,28 +5654,86 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "under-corsias-own-numbers-corn-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-software-behind-still-whats",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
+   }
+  ]
+ },
+ "indias-ethanol-surplus-buys-about-five": {
+  "title": "India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html",
+  "published": "2026-10-03",
+  "countries": [],
+  "states": [],
+  "entities": [
+   "Ethanol",
+   "Diesel",
+   "Sugar",
+   "Petrol",
+   "Electric vehicles",
+   "FCI"
+  ],
+  "related": [
+   {
+    "slug": "one-nation-one-ration-card-doesnt-move",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.185
+   },
+   {
+    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.185
+   },
+   {
+    "slug": "state-by-state-who-actually-earns-from",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "Ethanol",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.171
+   },
+   {
+    "slug": "annadata-to-urjadata-farmer-income-case",
+    "shared": [
+     "Diesel",
+     "Ethanol",
+     "FCI",
+     "Petrol"
+    ],
+    "w": 0.156
    }
   ]
  },
@@ -5692,28 +5755,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "refiners-won-exemption-fight-biofuels",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    }
   ]
  },
@@ -5734,28 +5797,28 @@
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "indias-ev-market-single-digit",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -5776,28 +5839,28 @@
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "indias-ev-localisation-deadline-just",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -5906,7 +5969,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.12
+    "w": 0.119
    },
    {
     "slug": "pngrbs-own-2025-committee-now-expects",
@@ -6211,7 +6274,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 1.307
+    "w": 1.306
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -6219,21 +6282,21 @@
      "Diesel",
      "Petrol"
     ],
-    "w": 1.04
+    "w": 1.039
    },
    {
     "slug": "kpler-and-vortexa-track-every-barrel",
     "shared": [
      "Diesel"
     ],
-    "w": 0.524
+    "w": 0.523
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    }
   ]
  },
@@ -6347,7 +6410,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.1
+    "w": 0.095
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -6356,7 +6419,16 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.1
+    "w": 0.095
+   },
+   {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Electric vehicles",
+     "Ethanol",
+     "Petrol"
+    ],
+    "w": 0.095
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
@@ -6364,15 +6436,7 @@
      "Electric vehicles",
      "TradeStat"
     ],
-    "w": 0.089
-   },
-   {
-    "slug": "the-reactor-nobody-names-how-coal",
-    "shared": [
-     "Electric vehicles",
-     "Ethanol"
-    ],
-    "w": 0.083
+    "w": 0.085
    }
   ]
  },
@@ -6985,7 +7049,7 @@
      "Crude oil",
      "Diesel"
     ],
-    "w": 0.302
+    "w": 0.301
    }
   ]
  },
@@ -7013,7 +7077,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.134
+    "w": 0.131
    },
    {
     "slug": "blending-on-budget-energy-density-and",
@@ -7042,7 +7106,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.114
+    "w": 0.111
    }
   ]
  },
@@ -7090,7 +7154,7 @@
      "Electric vehicles",
      "Petrol"
     ],
-    "w": 0.333
+    "w": 0.329
    },
    {
     "slug": "the-currency-rupee-trends-piece-left",
@@ -7130,28 +7194,28 @@
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "the-grain-value-loop-integrated-rice",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    },
    {
-    "slug": "india-hit-e20-on-maize-and-rice-not",
+    "slug": "indias-ethanol-surplus-buys-about-five",
     "shared": [
      "FCI"
     ],
-    "w": 0.111
+    "w": 0.1
    }
   ]
  },
@@ -7255,7 +7319,7 @@
      "Crude oil",
      "Diesel"
     ],
-    "w": 0.552
+    "w": 0.551
    }
   ]
  },
@@ -7353,7 +7417,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "upi-fees-are-now-legal-petrol-pumps",
@@ -7362,7 +7426,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "the-margin-case-why-lpg-and",
@@ -7371,7 +7435,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -7380,7 +7444,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    }
   ]
  },
@@ -7619,7 +7683,7 @@
      "Petrol",
      "Urea"
     ],
-    "w": 0.375
+    "w": 0.374
    }
   ]
  },
@@ -7662,7 +7726,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.153
+    "w": 0.152
    },
    {
     "slug": "dgh-has-awarded-172-oalp-blocks-and-436_0369361351",
@@ -7671,7 +7735,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.153
+    "w": 0.152
    },
    {
     "slug": "indias-coking-coal-import-problem-and",
@@ -7715,28 +7779,28 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.322
+    "w": 0.319
    },
    {
     "slug": "shippings-net-zero-vote-keeps-getting",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "refiners-won-exemption-fight-biofuels",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    }
   ]
  },
@@ -7816,21 +7880,21 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "article-index-start-here",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "not-drop-out-ethanols-zero-liquid",
@@ -7838,7 +7902,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.322
+    "w": 0.319
    }
   ]
  },
@@ -7903,6 +7967,16 @@
   ],
   "related": [
    {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Ethanol",
+     "FCI",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.185
+   },
+   {
     "slug": "india-hit-e20-on-maize-and-rice-not",
     "shared": [
      "Ethanol",
@@ -7910,7 +7984,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.2
+    "w": 0.185
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -7920,7 +7994,7 @@
      "Natural gas",
      "Petrol"
     ],
-    "w": 0.19
+    "w": 0.178
    },
    {
     "slug": "interest-subvention-built-499-ethanol",
@@ -7930,15 +8004,7 @@
      "Petrol",
      "Sugar"
     ],
-    "w": 0.134
-   },
-   {
-    "slug": "the-price-of-grain-msp-msv-and",
-    "shared": [
-     "Ethanol",
-     "FCI"
-    ],
-    "w": 0.128
+    "w": 0.131
    }
   ]
  },
@@ -8039,7 +8105,7 @@
      "Diesel",
      "Petrol"
     ],
-    "w": 2.318
+    "w": 2.317
    },
    {
     "slug": "where-indias-forex-goes-country",
@@ -8367,7 +8433,7 @@
      "PNGRB",
      "Petrol"
     ],
-    "w": 0.088
+    "w": 0.087
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -8626,7 +8692,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.104
+    "w": 0.103
    }
   ]
  },
@@ -8809,7 +8875,7 @@
      "Ethanol",
      "Textiles"
     ],
-    "w": 0.317
+    "w": 0.316
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -8827,7 +8893,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.311
+    "w": 0.31
    }
   ]
  },
@@ -8902,28 +8968,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "south-africa-lost-its-gulf-fuel-supply",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "shippings-net-zero-vote-keeps-getting",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    }
   ]
  },
@@ -9032,14 +9098,14 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.517
+    "w": 0.516
    }
   ]
  },
@@ -9188,7 +9254,7 @@
      "Ethanol",
      "LNG"
     ],
-    "w": 0.346
+    "w": 0.345
    },
    {
     "slug": "kpler-and-vortexa-track-every-barrel",
@@ -9237,7 +9303,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.557
+    "w": 0.556
    },
    {
     "slug": "petroleum-trade-pairings-and-us-crude",
@@ -9254,7 +9320,7 @@
      "Diesel",
      "TradeStat"
     ],
-    "w": 0.296
+    "w": 0.295
    },
    {
     "slug": "what-india-is-actually-paying-for",
@@ -9300,7 +9366,18 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.194
+    "w": 0.189
+   },
+   {
+    "slug": "indias-ethanol-surplus-buys-about-five",
+    "shared": [
+     "Diesel",
+     "Electric vehicles",
+     "Ethanol",
+     "Petrol",
+     "Sugar"
+    ],
+    "w": 0.171
    },
    {
     "slug": "fuel-pricing-to-crude-cost",
@@ -9311,7 +9388,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.144
+    "w": 0.143
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -9322,16 +9399,6 @@
      "Petrol"
     ],
     "w": 0.127
-   },
-   {
-    "slug": "indias-new-car-rules-count-every-ev-as",
-    "shared": [
-     "Diesel",
-     "Electric vehicles",
-     "Ethanol",
-     "Petrol"
-    ],
-    "w": 0.124
    }
   ]
  },
@@ -9356,7 +9423,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
@@ -9364,7 +9431,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -9372,7 +9439,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -9380,7 +9447,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    }
   ]
  },
@@ -9402,7 +9469,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -9410,7 +9477,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -9418,7 +9485,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -9426,7 +9493,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    }
   ]
  },
@@ -9632,7 +9699,7 @@
     "shared": [
      "Diesel"
     ],
-    "w": 0.274
+    "w": 0.273
    },
    {
     "slug": "inside-refinery-how-hydrogen-cleans",
@@ -9640,7 +9707,7 @@
      "Diesel",
      "Green hydrogen"
     ],
-    "w": 0.167
+    "w": 0.166
    },
    {
     "slug": "the-hydrogen-bill-hiding-inside-indias",
@@ -9648,7 +9715,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.16
+    "w": 0.159
    }
   ]
  },
@@ -9895,7 +9962,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.148
+    "w": 0.147
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -9946,28 +10013,28 @@
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.317
+    "w": 0.312
    },
    {
     "slug": "vehicles-out-motors-in-indias-chapter",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -9995,7 +10062,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.125
    },
    {
     "slug": "article-index-start-here",
@@ -10006,7 +10073,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.125
    },
    {
     "slug": "annadata-to-urjadata-farmer-income-case",
@@ -10017,7 +10084,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.126
+    "w": 0.125
    },
    {
     "slug": "india-mineral-oil-hsn-ch27-trade",
@@ -10027,7 +10094,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.11
+    "w": 0.109
    }
   ]
  },
@@ -10287,7 +10354,7 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.09
+    "w": 0.086
    },
    {
     "slug": "lng-trucks-cost-about-what-diesel-does",
@@ -10295,7 +10362,7 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.09
+    "w": 0.086
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
@@ -10303,15 +10370,15 @@
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.09
+    "w": 0.086
    },
    {
-    "slug": "every-litre-of-petrol-pays-5-for-roads",
+    "slug": "indias-ethanol-surplus-buys-about-five",
     "shared": [
      "Diesel",
      "Electric vehicles"
     ],
-    "w": 0.09
+    "w": 0.086
    }
   ]
  },
@@ -10341,7 +10408,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
@@ -10349,7 +10416,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -10357,7 +10424,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    },
    {
     "slug": "one-nation-one-ration-card-doesnt-move",
@@ -10365,7 +10432,7 @@
      "Ethanol",
      "Sugar"
     ],
-    "w": 0.072
+    "w": 0.069
    }
   ]
  },
@@ -10388,7 +10455,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.061
+    "w": 0.06
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -10397,7 +10464,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.061
+    "w": 0.06
    },
    {
     "slug": "re-spinning-charkha",
@@ -10406,7 +10473,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.061
+    "w": 0.06
    },
    {
     "slug": "indias-petrochemical-import-tree-from",
@@ -10415,7 +10482,7 @@
      "Ethanol",
      "Petrol"
     ],
-    "w": 0.061
+    "w": 0.06
    }
   ]
  },
@@ -10467,7 +10534,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.378
+    "w": 0.366
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -10493,7 +10560,7 @@
      "FCI",
      "Rupee"
     ],
-    "w": 0.23
+    "w": 0.218
    }
   ]
  },
@@ -10600,7 +10667,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.16
+    "w": 0.159
    },
    {
     "slug": "article-index-start-here",
@@ -10608,7 +10675,7 @@
      "Ethanol",
      "Green hydrogen"
     ],
-    "w": 0.16
+    "w": 0.159
    },
    {
     "slug": "where-indias-green-hydrogen-bets-are",
@@ -10929,7 +10996,7 @@
      "FCI",
      "MSP"
     ],
-    "w": 0.378
+    "w": 0.366
    },
    {
     "slug": "top-15-chemicals-for-import",
@@ -10951,7 +11018,7 @@
      "Ethanol",
      "FCI"
     ],
-    "w": 0.128
+    "w": 0.116
    }
   ]
  },
@@ -11033,7 +11100,7 @@
      "Electric vehicles",
      "Ethanol"
     ],
-    "w": 0.333
+    "w": 0.329
    },
    {
     "slug": "chemical-import-substitution-full-hsn-8_01082878313",
@@ -11127,28 +11194,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "re-spinning-charkha",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "indias-new-car-rules-count-every-ev-as",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    },
    {
     "slug": "indias-coal-to-chemicals-menu-ranked-by",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.267
+    "w": 0.266
    }
   ]
  },
@@ -11311,28 +11378,28 @@
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "sugarcanes-third-claimant-whats",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "sugar-at-5570-kilo-why-cane-acreage",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
     "shared": [
      "Sugar"
     ],
-    "w": 0.056
+    "w": 0.053
    }
   ]
  },
@@ -11425,28 +11492,28 @@
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-software-behind-still-whats",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    },
    {
     "slug": "the-price-of-grain-msp-msv-and",
     "shared": [
      "Ethanol"
     ],
-    "w": 0.017
+    "w": 0.016
    }
   ]
  },
@@ -11486,7 +11553,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "the-margin-case-why-lpg-and",
@@ -11495,7 +11562,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -11504,7 +11571,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "mapping-indias-other-pipelines-every",
@@ -11513,7 +11580,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    }
   ]
  },
@@ -11586,28 +11653,28 @@
      "Electric vehicles",
      "TradeStat"
     ],
-    "w": 0.089
+    "w": 0.085
    },
    {
     "slug": "the-reactor-nobody-names-how-coal",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-masala-deutsch-shop-books-things",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    },
    {
     "slug": "the-easiest-ev-conversion-in-india",
     "shared": [
      "Electric vehicles"
     ],
-    "w": 0.067
+    "w": 0.062
    }
   ]
  },
@@ -11698,7 +11765,7 @@
     "shared": [
      "Diesel"
     ],
-    "w": 0.524
+    "w": 0.523
    },
    {
     "slug": "rin-red-and-cbio-what-indias-ethanol",
@@ -11720,7 +11787,7 @@
      "Diesel",
      "TradeStat"
     ],
-    "w": 0.296
+    "w": 0.295
    }
   ]
  },
@@ -11915,7 +11982,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "the-margin-case-why-lpg-and",
@@ -11924,7 +11991,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -11933,7 +12000,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    },
    {
     "slug": "mapping-indias-other-pipelines-every",
@@ -11942,7 +12009,7 @@
      "PPAC",
      "Petrol"
     ],
-    "w": 0.086
+    "w": 0.085
    }
   ]
  },
@@ -12508,7 +12575,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    },
    {
     "slug": "the-barrel-really-is-shifting-indias",
@@ -12517,7 +12584,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    },
    {
     "slug": "state-by-state-who-actually-earns-from",
@@ -12526,7 +12593,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    },
    {
     "slug": "push-ethanol-sgst-rate-from-25-to-5-and",
@@ -12535,7 +12602,7 @@
      "GST",
      "Petrol"
     ],
-    "w": 0.075
+    "w": 0.074
    }
   ]
  },
