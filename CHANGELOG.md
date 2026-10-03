@@ -13823,3 +13823,13 @@ scheduled sync
 **Added**
 
 - `indias-ethanol-surplus-buys-about-five` **v1.0.0** — India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply. (39,010 bytes)
+
+## 2026-10-03T14:49:29+05:30 — 343 posts live
+
+**Versions**
+
+- `indias-ethanol-surplus-buys-about-five` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+10/-0 distinct numbers)
+
+**Changed**
+
+- `indias-ethanol-surplus-buys-about-five` — 39,010 → 41,374 bytes (+2,364)
