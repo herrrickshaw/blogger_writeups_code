@@ -13805,3 +13805,18 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 443,002 → 444,287 bytes (+1,285)
+
+## 2026-10-03T08:32:15+00:00 — 342 posts live
+
+scheduled sync
+
+
+**Versions**
+
+- `indias-biofuel-rules-are-being-written` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+- `refiners-won-exemption-fight-biofuels` **1.0.0 → 1.0.1** (PATCH) — visible text identical; only markup/styling changed
+
+**Changed**
+
+- `indias-biofuel-rules-are-being-written` — 23,275 → 23,394 bytes (+119)
+- `refiners-won-exemption-fight-biofuels` — 24,928 → 25,047 bytes (+119)
