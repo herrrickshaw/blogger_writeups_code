@@ -13863,3 +13863,13 @@ scheduled sync
 **Changed**
 
 - `indias-ethanol-surplus-buys-about-five` — 41,493 → 43,428 bytes (+1,935)
+
+## 2026-10-03T21:55:39+05:30 — 343 posts live
+
+**Versions**
+
+- `indias-ethanol-surplus-buys-about-five` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+17/-0 distinct numbers)
+
+**Changed**
+
+- `indias-ethanol-surplus-buys-about-five` — 43,428 → 45,260 bytes (+1,832)
