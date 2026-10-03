@@ -13817,3 +13817,9 @@ scheduled sync
 
 - `indias-biofuel-rules-are-being-written` — 23,275 → 23,394 bytes (+119)
 - `refiners-won-exemption-fight-biofuels` — 24,928 → 25,047 bytes (+119)
+
+## 2026-10-03T14:47:30+05:30 — 343 posts live
+
+**Added**
+
+- `indias-ethanol-surplus-buys-about-five` **v1.0.0** — India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply. (39,010 bytes)
