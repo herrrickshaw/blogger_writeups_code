@@ -13789,3 +13789,9 @@ scheduled sync
 **Changed**
 
 - `article-index-start-here` — 441,462 → 443,002 bytes (+1,540)
+
+## 2026-10-03T06:41:11+05:30 — 342 posts live
+
+**Added**
+
+- `indias-biofuel-rules-are-being-written` **v1.0.0** — India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial (23,275 bytes)
