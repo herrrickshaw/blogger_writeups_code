@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-03T06:41:42+05:30",
+  "snapshot": "2026-10-03T14:38:01+05:30",
   "count": 342,
   "posts": {
     "1023631151138981087": {
@@ -43767,15 +43767,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html",
       "slug": "indias-biofuel-rules-are-being-written",
       "published": "2026-10-03T06:40:19.000+05:30",
-      "updated": "2026-10-03T06:40:36.004+05:30",
+      "updated": "2026-10-03T09:05:10.614+05:30",
       "labels": [
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "India",
         "Industrial Policy"
       ],
-      "bytes": 23275,
-      "sha256": "c018aab5054d04142be71e1bba51b4e4ecdd1e2c20855925aad7a7c128138f5a",
+      "bytes": 23394,
+      "sha256": "a9630b67b6a3cbd24f4321644cf4ce40cc827c8a03ebcc8332b8321403f5d64a",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -43787,13 +43787,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-10-03T06:41:11+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-03T14:38:01+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            23275,
+            23394
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
@@ -57964,15 +57977,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html",
       "slug": "refiners-won-exemption-fight-biofuels",
       "published": "2026-10-03T06:26:57.000+05:30",
-      "updated": "2026-10-03T06:27:37.906+05:30",
+      "updated": "2026-10-03T09:05:18.641+05:30",
       "labels": [
         "Climate & Carbon",
         "Energy & Fuels",
         "Ethanol & Biofuels",
         "Refining & Petrochemicals"
       ],
-      "bytes": 24928,
-      "sha256": "397285979d5362fdf2f1026e06a203e68e217c20b8be549d02063ef350623249",
+      "bytes": 25047,
+      "sha256": "05f393cce84380f746446bf1398f855771b70c56638621b54bfb4655d83f2c95",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": false,
@@ -57984,13 +57997,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.0.1",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-10-03T06:28:18+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "1.0.1",
+          "date": "2026-10-03T14:38:01+05:30",
+          "level": "patch",
+          "reason": "visible text identical; only markup/styling changed",
+          "bytes": [
+            24928,
+            25047
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]

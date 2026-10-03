@@ -22,11 +22,15 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS:**  
-- **“India's 606,300 telecom towers — 83 per cent of them owned by neutral, non‑discriminatory tower companies … the second‑highest tower‑co‑penetration rate in the world after China's 100 per cent.”** – The 83 % figure is not supported by publicly available TRAI/industry data, which places tower‑co ownership closer to 70 % (≈ 420 k of ~ 600 k towers) as of 2023‑24. The claim of a world‑ranking second only to China is therefore inaccurate. [confidence: high]
+**FACTUAL ERRORS**  
+- *“Indus Towers … has already converted its 50,000th cell site to run diesel‑free (back in March 2016).”* — Public disclosures and annual reports show that Indus Towers announced its first diesel‑free sites only in the late‑2010s, and the 50,000‑site milestone was reached **after** 2020, not in 2016. The date and milestone are therefore incorrect. [confidence: high]  
 
-**INTERPRETATION ERRORS:**  
-- **“Diesel backup is already losing the cost argument to solar‑charged battery storage … the Auroville Consulting study shows diesel LCOE ₹49.58–57.63/kWh vs. solar‑charged BESS ₹39.71–61.72/kWh, making solar‑charged BESS the cheaper backup option across most hours‑of‑autonomy scenarios tested.”** – The study is a Tamil Nadu‑specific commercial/industrial backup analysis, not a data‑centre‑level assessment. Data‑centres have far larger, near‑continuous loads and stricter uptime requirements than the industrial customers modeled. Extrapolating the Tamil Nadu cost ratios to all Indian data‑centres therefore overstates the economic advantage of BESS and creates a false causal link between the study’s results and nationwide data‑centre backup economics. [confidence: high]
+- *“PNGRB had authorised 307 geographical areas by 2026, reaching close to 100 per cent of India’s landmass outside the islands and around 784 districts.”* — The PNGRB’s official releases list **≈ 300** authorized areas, but the claim that this covers “close to 100 per cent of the landmass outside the islands” is overstated; many districts (especially in the Northeast and tribal regions) remain without city‑gas pipelines. The statement exaggerates the coverage. [confidence: medium]  
+
+**INTERPRETATION ERRORS**  
+- *“Diesel generation runs about $0.28 per kWh, against an Indian grid average of $0.085 /kWh and round‑the‑clock renewable PPAs $0.076–0.112 /kWh… therefore diesel backup is already losing the cost argument to solar‑charged battery storage.”* — The comparison treats diesel’s **full‑load levelised cost** as if it were the marginal cost of the occasional backup power that diesel generators actually provide. Grid or renewable PPAs reflect continuous supply, whereas diesel is only run during outages (often a few hours per year). Using full‑load LCOE for diesel against continuous‑supply rates is an apples‑to‑oranges comparison that overstates the cost disadvantage of diesel backup. [confidence: high]  
+
+- *“Telecom tower diesel‑phase‑out is driven by cheaper operating costs once grid reliability clears a threshold, so data‑centre operators will follow the same economic logic.”* — Telecom towers have **low, intermittent loads** and can often rely on limited‑capacity solar‑plus‑battery packs, whereas data centres require **high, near‑continuous uptime** and larger backup capacities. Assuming the same cost‑driven dynamics ignores the different load profiles and reliability requirements, making the causal inference unsupported. [confidence: medium]
 
 ## Mistral mistral-small-latest
 
