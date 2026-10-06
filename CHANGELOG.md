@@ -13930,3 +13930,12 @@ Labels for infant drug delivery post; removed duplicate insert
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `cough-syrup-in-lollipop-for-babies_0399087402` — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead
+
+## 2026-10-06T19:59:30+05:30 — 344 posts live
+
+Labels: Healthcare, Industrial Policy on infant drug delivery post
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `cough-syrup-in-lollipop-for-babies` — 2026-10-06 &rarr; 2026-10-06
