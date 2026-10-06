@@ -4,5 +4,4 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[GRAMMAR/PRP_JJ]** A verb or adverb may be missing or misspelled.
-  context: ...t progress from 30% to 60% for Category I rigid packaging can be checked rather than as...
+- ERROR checking chunk: HTTP Error 500: Internal Server Error
