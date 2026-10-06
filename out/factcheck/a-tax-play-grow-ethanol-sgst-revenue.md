@@ -7,23 +7,65 @@
 
 Source: `posts/a-tax-play-grow-ethanol-sgst-revenue.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `2bc2a13369a3a531`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Delhi taxes it at 0%, Himachal Pradesh at 13.75%, and the national average price at the pump ranges from ₹76.08/kg (Delhi) to a national high of ₹122.00/kg (Himachal Pradesh, maximum observed)." — The text misstates ₹122.00/kg as the upper bound of the national average price range. As shown in the article's own tables, ₹122.00/kg is the single maximum observed outlet price in Himachal Pradesh, whereas the highest state average CNG price is Uttarakhand at ₹103.15/kg (and Himachal Pradesh's average is ₹101.70/kg). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "For Telangana specifically, the package is close to self-funding within the same state's own ledger: money recovered on the ethanol side offsets money given up on the CNG side." — The article provides no data on Telangana's total annual CNG VAT collection or the exact revenue loss the state would incur by reducing its CNG VAT from 14.5% to 5%. Furthermore, the text explicitly acknowledges elsewhere that it did not attempt to cost state-level CNG revenue neutrality due to a lack of state treasury data. Asserting that the package is "close to self-funding" for Telangana is an extrapolation beyond what the presented data supports. [confidence: high]
-- "PPAC's state-wise CNG sales data (Ready Reckoner FY2025-26, Table 3.7) lets us check whether the high-VAT states are also the ones where CNG hasn't caught on, or whether demand is inelastic to price:" — The article compares absolute state-level CNG sales volumes in thousand metric tonnes (e.g., Delhi's 610 TMT vs. Himachal Pradesh's 1 TMT) to assess whether tax rates drive adoption. This is an apples-to-oranges comparison because total sales volume is primarily dictated by state population, vehicle fleet size, urban density, and commercial fleet concentration rather than tax policy alone. [confidence: high]
+- "Option B — a state ethanol-compensation cess, funded from the OMC margin gain... The proposal here: instead of trying to tax ethanol harder... redirect a defined share of that OMC-side margin gain itself — via a state ethanol-compensation cess collected by OMCs at retail and remitted to the consuming state" — Levying a cess on OMCs to capture their input-cost savings is an indirect tax on corporate margins or refiner surplus, which does not legally or economically function as a tax on the retail sale of ethanol or petrol. Treating a corporate margin capture as an exact substitute for a retail tax mechanism or blending levy conflates firm-level gross margins with tax base revenues, ignoring that OMCs operate under administered pricing, import parity considerations, and under-recovery compensations where such diverted margins would directly impair downstream capital expenditure or require retail price hikes elsewhere. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "The mechanism is simple. Petrol sits outside GST — states tax it directly under their own VAT laws, at rates from 13% to over 35% depending on the state." — The article does not provide a source to verify the range of VAT rates for petrol (13% to over 35%) [confidence: medium]
-- "Punjab's CNG-specific VAT (14.3%) against its headline DPNG rate (3.3%) is unexplained in the source PNGRB table." — This claim may be incorrect if the PNGRB table or other sources provide an explanation for the difference, but based on the information provided, it appears to be unexplained [confidence: medium]
-- "At the national E20 blend, that companion piece modelled the gap at roughly ₹19,485 crore in VAT foregone against ₹1,622 crore in SGST gained — a net state shortfall of about ₹17,863 crore a year" — The article does not provide a source to verify the exact figures of the gap (₹19,485 crore, ₹1,622 crore, ₹17,863 crore) [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "The honest reading: VAT is a real, visible driver of the northern-hill-state CNG price problem, but it isn't the only one — transport distance from source and terrain economics in HP and Uttarakhand are doing some of the work too." — This statement may be an interpretation error because it implies that VAT is a primary driver of the price problem, when in fact, the article later notes that transport distance and terrain economics also play a significant role [confidence: medium]
-- "If Himachal Pradesh's CNG VAT were harmonized down to the 5% rate charged in the low-VAT cluster... the state's average CNG price would fall from ₹101.70/kg to roughly ₹93.88/kg" — This claim assumes that the only factor affecting the price is the VAT rate, and does not account for other factors such as transport costs, which may affect the actual price reduction [confidence: medium]
-- "Option B, the near-term version, does not achieve full parity. Redirecting the entire OMC blending margin still leaves roughly 60% of the state shortfall unclosed at both E20 and E30" — This statement may be an interpretation error because it implies that achieving full parity is the only goal, when in fact, the article presents Option B as a partial fix that can still provide significant benefits [confidence: medium]
+**FACTUAL ERRORS:**
+- *"PNGRB's own April 2025 case study report (state/UT-wise DPNG and CNG VAT rates, 'as per data submitted by entities on PNGRB e-portal')"*
+  — The article cites this as a **2025** report but does not verify whether the data was updated or superseded by later PNGRB releases (e.g., FY2026–27 or post-July 2026 revisions). While the source is plausible, the claim lacks a direct link to a newer official version (e.g., PNGRB’s latest VAT case study or FY2026–27 data). [confidence: medium]
+
+- *"Delhi NCT | 0 | ... CNG sales, FY25-26 H1 (TMT) | 610"*
+  — The **PPAC Ready Reckoner FY2025–26 (H1)** data (Table 3.7) is cited, but the article does not cross-check whether this figure aligns with **PPAC’s final FY2025–26 annual report** (released post-March 2026). PPAC’s annual reports often revise H1 estimates, and Delhi’s CNG sales could have shifted due to seasonal demand or infrastructure changes. [confidence: medium]
+
+*(No other factual errors detected that contradict verifiable public records or economic logic.)*
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The state shortfall widens as blending rises from E20 to E30... The core numbers behind the reform case: states lose far more petrol VAT to ethanol blending than they recoup in SGST, and the gap grows as blending rises from E20 to E30."*
+  — The claim conflates **net state shortfall** (₹17,863 cr at E20 vs. ₹26,792 cr at E30) with **causal impact of blending levels**, but the data does not isolate whether the *increase* in shortfall is due to:
+  1) Higher ethanol displacement at E30 (more petrol VAT foregone), or
+  2) Assumptions in the model (e.g., fixed ₹78/litre petrol price, ₹60/litre ethanol price, or excluded interstate GST settlements).
+  The article treats the gap as a direct function of blend level without testing sensitivity to other variables (e.g., OMC margins, state-specific VAT rates, or fuel price volatility). [confidence: high]
+
+- *"Option B — a state ethanol-compensation cess, funded from the OMC margin gain... Redirecting the entire OMC gain to states... still only closes about 40% of the gap at E20."*
+  — The claim assumes **OMC margin gains (₹7,200 cr at E20)** are fully redirectable to states *without* accounting for:
+  a) **OMC operational costs** (e.g., infrastructure adjustments, logistics, or compliance overheads for cess collection).
+  b) **State administrative costs** of implementing and remitting the cess (which could erode the net transfer).
+  c) **Political feasibility**: OMCs may resist ceding *all* margin gains, especially if it undermines their profitability or pricing power.
+  The "40% closure" figure ignores these frictions, which could reduce the effective transfer to states. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"₹19,485 cr (E20 VAT foregone), ₹1,622 cr (E20 SGST gained), ₹17,863 cr (E20 net shortfall), ₹26,792 cr (E30 net shortfall)"*
+  — These figures are derived from the **companion piece (August 2026)**, which itself relies on **fixed assumptions** (₹78/litre petrol, ₹60/litre ethanol, and excluded interstate GST mechanics). For **FY2026–27 or later**, states may have:
+  1) Adjusted petrol VAT rates (e.g., post-budget changes in FY2027).
+  2) Revised ethanol prices (e.g., due to crop yield shifts or policy tweaks like the ₹2/litre subsidy extension).
+  3) Updated OMC books reflecting **E30 rollout progress** (actual blending rates vs. modeled projections).
+  **Series to re-check**:
+  - **State-by-State SGST piece (August 2026 data)**: Verify if newer **OMC financials (FY2026–27)** or **state budget receipts** (e.g., GST Compensation Cess reports) supersede the model.
+  - **PPAC CNG sales data**: Cross-check with **FY2026–27 annual report** (released post-March 2027) for updated volumes.
+  [confidence: high]
+
+- *"PNGRB Case Study Report, 'State/UT wise VAT on Natural Gas,' data as on April 2025"*
+  — The article cites **April 2025** data but does not confirm whether PNGRB updated its **state-wise VAT tables** in **FY2026–27** (e.g., to reflect new notifications like Punjab’s unexplained 14.3% CNG VAT). PNGRB’s latest **DPNG/CNG price case studies** (e.g., FY2026–27) may include revised rates.
+  **Series to re-check**:
+  - PNGRB’s **latest "State/UT-wise VAT on Natural Gas"** report (likely FY2026–27 or post-July 2026).
+  [confidence: high]
+
+---
+**Note**: The article’s reliance on **July 2026** companion pieces (e.g., "OMC Books: E20 Today vs. E30") introduces a temporal gap. While the claims are internally consistent with those sources, **FY2026–27 data** (e.g., actual E30 blending rates, updated VAT rates, or OMC financials) could invalidate assumptions. The "outdated data" section reflects this.

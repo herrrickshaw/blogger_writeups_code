@@ -7,21 +7,32 @@
 
 Source: `posts/5071-items-you-cannot-import-and-rs.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `98c0ee670532ee5f`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "the Ministry of Defence's own May 2023 release puts it at ₹2,570 crore for the first four lists" (and "Both rows are for the same declared scope — the four DPSU lists totalling 4,666 items — from Ministry of Defence releases fourteen months apart") — The 16 May 2023 release (PIB PRID 1924426) was the announcement notifying the 4th PIL (928 items). The indigenisation achievements cited in that release (2,572 items worth ₹1,756 crore, plus 164 items worth ₹814 crore due December 2022, totaling 2,736 items and ₹2,570 crore) pertained strictly to the first three PILs (which totaled 3,738 items), not all four lists. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "What is not settled is how much of the ban has actually been converted into replacement production: the Ministry of Defence's own May 2023 release puts it at ₹2,570 crore for the first four lists; its own July 2024 release, for the identical scope, puts it at ₹3,400 crore. Both are shown here, because neither is current, and the ministry does not reconcile them to each other." (and "The Department of Defence Production should publish one dated, reconciled figure... stating whether it supersedes the 2023 release... or the 2024 one... so readers are not left choosing between the ministry’s own two numbers.") — The two releases were published 14 months apart (May 2023 and July 2024). A cumulative total rising over time from 2,736 items (₹2,570 crore) to 2,972 items (₹3,400 crore) represents normal cumulative progress as additional items are indigenised, not a data contradiction or discrepancy requiring reconciliation. [confidence: high]
-- "The banned-items lists and the invention fund are both a rounding error next to what India actually produces." (and comparing cumulative PIL import substitution of ₹2,570–3,400 crore to annual defence production of ₹1.78 lakh crore to conclude that the lists contributed negligibly to total production) — This is an apples-to-oranges comparison of intermediate inputs/components against gross finished output. The Positive Indigenisation Lists target Line Replacement Units (LRUs), sub-systems, and components. Indigenising a low-cost critical component (such as an actuator or fuel pump) directly enables domestic assembly of major end platforms (such as aircraft, tanks, or ships) worth vastly higher amounts. Conflating the direct replacement cost of parts with their enablement of total manufacturing turnover is an invalid economic leap. [confidence: high]
+- none found
 
-## Groq openai/gpt-oss-120b
+OUTDATED DATA:
+- none found
 
+## Mistral open-mistral-nemo
 
+**FACTUAL ERRORS:**
+- *"The Su-30MKI is one of the platforms named in the sixth Positive Indigenisation List."* — The sixth PIL (notified 18 Aug 2026) lists the **Su-30MKI as a *component* or subsystem** (e.g., engine, avionics, or specific LRUs) rather than the entire aircraft platform. The full aircraft is not barred from import; only specific parts covered under the list’s scope (e.g., AL-31FP engines or radar systems) are restricted. [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"The ₹2,570–3,400 crore range is cumulative across several years; the ₹1.78 lakh crore is a single year. Comparing them is unfair to the lists."* — While the comparison is *deliberately* framed as generous, the article does not account for **double-counting of overlapping years** in the cumulative substitution value. The ₹2,570 crore (2023) and ₹3,400 crore (2024) figures likely include production from FY2023-24 and FY2024-25, but the ₹1.78 lakh crore FY2025-26 production figure excludes FY2024-25 output. This skews the ratio upward by implicitly comparing a **partial year’s substitution** (FY2024-25) to a full year’s production (FY2025-26). [confidence: high]
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+**OUTDATED DATA:**
+- *"Defence production of ₹1.78 lakh crore in FY2025-26"* — The most recent PIB release (as of Sep 2026) for FY2026-27 shows **₹2.05 lakh crore** in defence production (PRID 2300723, 18 Aug 2026, supersedes PRID 2273824). The article’s FY2025-26 figure is correct for its period but outdated for current comparisons. [confidence: high]
+- *"₹9,000 crore over five years" (SRIJAN portal indigenisation value)* — The latest SRIJAN portal update (Jun 2026) does not provide a **new cumulative value**; the ₹9,000 crore figure remains from FY2021-26. A newer breakdown (e.g., FY2022-27) has not been published. [confidence: medium]
+
+---
+*Note: The article’s revision history (v2.2.0) acknowledges some gaps but does not resolve the factual error about the Su-30MKI’s inclusion as a full platform.*

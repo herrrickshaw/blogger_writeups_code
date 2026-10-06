@@ -7,27 +7,28 @@
 
 Source: `posts/a-textile-sez-built-to-re-employ-mill.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `06c224b632c242a5`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "4.82 ha resultant area after this de-notification, 2026" (and related claims: "De-notified 5.59989 ha | ~4.82 ha", "an 87% shrinkage", and "left the zone at 13% of its founding footprint") — This is a mathematical error, likely caused by dropping the leading digit "1" from 14.82 ha. Subtracting the first de-notification of 17.6264 ha from the original 38.043 ha leaves 20.4166 ha; subtracting the second de-notification of 5.59989 ha leaves 14.8167 ha (~14.82 ha), not 4.82 ha. The total shrinkage is therefore ~61% (leaving ~39% of the area), not 87% (leaving 13%). [confidence: high]
-- "developer benefits under Section 10AA lapsed from April 2017" — Section 10AA of the Income-tax Act governs deductions for SEZ *units*, not developers. Deductions for SEZ developers were provided under Section 80-IAB (which had a sunset clause date of 1 April 2017). [confidence: high]
-- "Two quiet de-notifications, three years apart" — The two notifications cited are dated 28 August 2024 and 31 August 2026. That is an interval of two years, not three years (and directly contradicts the article's own earlier line stating "both in the last two years (2024, 2026)"). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "An older Comptroller and Auditor General review of a sample of 50 approved SEZs, published in 2014 and describing that period rather than today, found only 15 operational, 29 yet to start any commercial activity, and 6 already de-notified — a snapshot from over a decade ago, but the direction of travel it describes has not obviously reversed." — Extrapolation beyond what the data shows. In a 2014 review, zones "yet to start commercial activity" primarily reflected normal project gestation and implementation delays in the early years following the SEZ Act of 2005. Presenting that gestation snapshot as proof of an ongoing "direction of travel" toward contraction and post-sunset-clause de-notifications conflates early-stage project setup with later-stage abandonment. [confidence: high]
-- "A zone conceived to replace one failed textile enterprise with another, on the same ground, is now itself down to a fraction of its founding footprint — and the mechanism doing the shrinking is not a dramatic closure but two quiet, procedurally unremarkable notifications" — False equivalence / unverified causal inference. The author equates a reduction in notified SEZ land area with the contraction or failure of the underlying industrial/employment project. De-notification frequently releases vacant, unutilized land or carves out plots for non-SEZ domestic infrastructure (as the cited notification itself states) without reducing the operating units, output, or workforce of the existing park—metrics the article explicitly admits it did not verify. [confidence: high]
+- none found
 
-## Groq openai/gpt-oss-120b
+OUTDATED DATA:
+- none found
 
-**FACTUAL ERRORS**  
-- “The income‑tax exemption that made SEZ status valuable to developers and unit‑holders carried a sunset clause: developer benefits under Section 10AA lapsed from April 2017, and unit‑holder benefits from April 2020 (extended to September 2020 because of the pandemic).” — Section 10AA benefits for SEZ units were **extended beyond September 2020** (the Finance Act 2020 prolonged the tax holiday to March 2022, and subsequent amendments have further extended it). The article’s dates therefore misstate the actual legislative timeline. [confidence: high]  
+## Mistral open-mistral-nemo
 
-**INTERPRETATION ERRORS**  
-- “A zone conceived to replace one failed textile enterprise with another, on the same ground, is now itself down to a fraction of its founding footprint … the mechanism doing the shrinking is not a dramatic closure but two quiet, procedurally unremarkable notifications.” — The article equates the **reduction in notified land area** with the **failure of the SEZ’s original purpose of re‑employing displaced mill workers**, despite providing no data on employment, unit occupancy, or output. Shrinking land does not necessarily imply loss of jobs or economic activity; the inference that the SEZ has failed its re‑employment goal is therefore unsupported. [confidence: high]
+**FACTUAL ERRORS:**
+- *"The zone did not become operational until 2013 — six years after its 2007 notification."* — The article does not provide independent verification of the 2013 operational start date (sourced only to *Fibre2Fashion* trade coverage). The Ministry of Commerce’s notifications (S.O. 543(E), 2007) and subsequent de-notifications (2024, 2026) do not explicitly confirm operational activity in 2013, nor does the article cross-check with GIDC or SEZ Board records. [confidence: medium]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"A wave of de-notifications has followed in the years since [2017/2020], across sectors and states — a single recent batch of notifications... de-notified 22.767 hectares combined..."* — The claim conflates unrelated de-notifications (Ansal IT City, Carborundum Universal, Phoenix Living Spaces) with the Apparel Park’s shrinkage, implying a causal link between the 2017/2020 tax-sunset clauses and this specific case. The article acknowledges these are "unrelated" but suggests a broader pattern without proving direct causation for the Apparel Park. [confidence: high]
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+**OUTDATED DATA:**
+- *"A 2014 Comptroller and Auditor General review of a sample of 50 approved SEZs... found only 15 operational, 29 yet to start any commercial activity, and 6 already de-notified."* — The CAG’s latest SEZ audit (as of 2026) has not been cited. The 2014 data is outdated and may not reflect current operational statuses post-2020 tax reforms. [confidence: high] *(Series to re-check: CAG’s latest SEZ performance audit reports.)*

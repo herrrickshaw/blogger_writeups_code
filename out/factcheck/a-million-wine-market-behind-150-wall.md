@@ -7,23 +7,47 @@
 
 Source: `posts/a-million-wine-market-behind-150-wall.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `738724896d6e4bba`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The India–EU trade deal, agreed 27 January 2026 , would eventually cut that to 20% for premium wine and 30% for mid-range ." — The India–EU Free Trade Agreement was not concluded or agreed on 27 January 2026, nor submitted to the EU Council in September 2026; these events and dates are fictional. [confidence: high]
-- "Per-capita wine consumption is about 9 millilitres a year — roughly 1/8000th of France’s" — France's annual per capita wine consumption is approximately 40 litres (~40,000 ml). 9 ml is roughly 1/4,400th of France's consumption, not 1/8,000th (an 8,000-fold difference would require French consumption to be 72 litres per capita, a level unseen in decades). [confidence: high]
-- "A punitive ₹2-per-litre excise duty on unblended petrol — a stick, aimed at oil-marketing companies rather than farmers or distillers — pushed ethanol blending to 20% five years ahead of its original target." — India has not achieved 20% ethanol blending; while the government advanced the target year for E20 to 2025–2026, actual blending levels reached approximately 13–15%, not 20%. [confidence: high]
+- "India ratifies by executive decision rather than a parliamentary vote." — India's Constitution (Article 73 and Entry 14 of List I of the Seventh Schedule) places the treaty-making power within the executive domain of the Union Government, but international treaties do not automatically become domestic law in India; implementation requires enabling domestic legislation passed by Parliament if the treaty alters domestic laws (such as tariff rates and statutory duties), meaning executive action alone is insufficient to bring a trade agreement into full legal effect. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The stick — the 150% WTO-bound tariff wall... needed no active enforcement at all to keep foreign wine a rounding error in a $195 million market for that same stretch of time... Wine and fuel ethanol share nothing else, but the pattern repeats: in Indian policy, a cost imposed on the unwanted behaviour has consistently moved markets faster and further than a reward offered for the wanted one." — Apples-to-oranges comparison and false equivalence. A 150% tariff simply blocked foreign imports to maintain trade protectionism; it did not "move" or build a thriving domestic market (the domestic industry remains negligible at $195 million and 9 ml per capita). Equating import suppression with market transformation (such as fuel ethanol adoption) to conclude that penalties consistently outperform positive incentives mischaracterizes tariff protection as market development. [confidence: high]
-- "Tamil Nadu is not a wine-producing state in the way Maharashtra or Karnataka are — but it already grows the raw material at scale, just for the table rather than the bottle." — Apples-to-oranges comparison. Table grapes (such as Muscat or Thomson Seedless) have significantly different acidity, sugar levels, skin thickness, and seed-to-pulp ratios than dedicated wine-grape varietals (*Vitis vinifera* wine cultivars). High table-grape acreage does not mean the state possesses the raw material needed for commercial winemaking. [confidence: high]
+- "Under its WTO commitments, India’s bound tariff ceiling on wine and spirits imports is 150%, and in practice additional duties and state-level levies have at times pushed the effective burden higher still" — The reasoning conflates the WTO-bound tariff ceiling (which applies to the basic customs duty) with total effective tax incidence. While India's bound rate for alcoholic beverages was historically negotiated at high levels (often 150%), the effective tax burden in India is driven heavily by Additional Duties of Customs (Countervailing Duty/GST), Special Additional Duty, and crucially, state-level excise duties, luxury taxes, and varying retail margins, meaning attributing the 3-to-5 times landed cost discrepancy solely to the WTO-bound tariff ceiling oversimplifies the multi-layered Indian alcohol taxation and distribution regime. [confidence: medium]
 
-## Groq openai/gpt-oss-120b
+OUTDATED DATA:
+- none found
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2335, Requested 7489. Please try again in 13.68s. Need more tokens? Upgrade to Dev Tier today at https://cons]
+## Mistral open-mistral-nemo
 
-## Mistral mistral-small-latest
+**FACTUAL ERRORS:**
+- *"India’s wine market was worth US$195.3 million in 2023 and is forecast to reach US$802.9 million by 2032"* — The **IMARC Group’s 2024–2032 forecast** (cited as the source) does not explicitly state a 2023 baseline of **$195.3M** in the article’s context. The figure appears to be a **secondary trade estimate** (e.g., from IMARC’s report as reported by other sources), but the article does not confirm whether this is the **official 2023 market size** or a rounded projection. The **2022 PIB count** (PRID 1832846) only references **35+ wineries** and **1,500 acres**, not a market value. [confidence: medium]
+- *"Tamil Nadu’s grape area is roughly 2,800 hectares, of which Theni district alone accounts for 2,184 hectares (78%)"* — While the **state horticulture data** cited is plausible, the **2025 reporting** (Sommelier India) on Tamil Nadu’s wine exploration does not confirm whether **2,800 ha** is the **current total grape area** (including table grapes/raisins) or just **wine-grape potential**. The article does not clarify if this is a **recent update** or a static figure from older data. [confidence: medium]
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"A 150% import wall that has kept that small market almost entirely domestic is, on paper, headed down to 20–30% under the India–EU trade deal"* — The claim conflates **immediate impact** with **long-term potential**. The **phased tariff reduction** (150% → 75% → 20%/30%) is **not yet binding law** (as of Sept 2026), and even if enacted, the **effective impact depends on**:
+  1. **Ratification timeline** (now accelerated to early 2027, but still uncertain).
+  2. **Domestic producers’ pricing power** (Sula/Fratelli/Grover Zampa dominate premium segments; mid-range imports may struggle to compete).
+  3. **Consumer behavior shifts** (wine tourism revenue vs. bottle sales).
+  The article later acknowledges this gap but does not **disqualify the headline claim** as misleading. [confidence: high]
+- *"India’s entire wine industry, at its 2032 target, would still be smaller than a single mid-sized FMCG brand’s annual India revenue"* — While the **absolute size comparison** is correct, the **CAGR (17.01%) is extrapolated from a tiny base ($195M)**. This implies **doubling every ~4 years**, which may not hold due to:
+  - **Market saturation risks** (per-capita consumption at ~9ml/year is near the global minimum).
+  - **Dependence on tourism/revenue diversification** (not just volume growth).
+  The article notes this is a **"market too small to argue about"** but does not **flag the extrapolation’s fragility**. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Maharashtra alone at more than 35 wineries on about 1,500 acres of wine grapes"* — Source: **PIB release PRID 1832846 (10 June 2022)**. For **up-to-date figures**, check:
+  - **APEDA’s annual wine industry reports** (e.g., 2023–24 or 2024–25 fiscal years).
+  - **Maharashtra State Excise Department’s wine production data** (if published).
+  [confidence: high]
+- *"India’s WTO-bound tariff ceiling on wine is 150%"* — While correct as of **2026**, the **India–EU FTA’s phased tariff schedule** (75% → 20%/30%) is **not yet official**. For the **latest tariff orders**, verify:
+  - **Customs Act notifications** (e.g., 2026–27 financial year).
+  - **Department of Revenue’s trade policy updates**.
+  [confidence: high]

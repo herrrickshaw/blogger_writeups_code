@@ -7,23 +7,28 @@
 
 Source: `posts/a-17-rural-pay-rise-that-nobody-received.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `f12a98d0d05cff7e`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+## Gemini gemini-flash-lite-latest
 
-## Groq openai/gpt-oss-120b
+FACTUAL ERRORS:
+- none found [confidence: high]
 
-[Groq/openai/gpt-oss-120b API error 413: {"error":{"message":"Request too large for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Requested 8498, please reduce your message size and try again. Need more tokens? Upgrade to Dev Tier today at https]
+INTERPRETATION ERRORS:
+- none found [confidence: high]
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found [confidence: high]
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Coastal and deep-sea fishing wages rose 62 per cent in a single month"* — The article does not provide evidence (e.g., occupation-specific wage data or methodology) to substantiate this claim as a factual observation. The 62% figure is derived from the revised sample’s composition (higher-weighted regions with elevated wages) rather than actual wage increases in fishing. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The 17% rural pay rise that nobody received"* — The claim conflates the **sample change** (expansion to 787 villages, including higher-wage regions) with **actual wage growth**. The "rise" is an artifact of reweighting, not a real increase in earnings. The article’s own break-adjusted estimate (4.3%) shows no meaningful acceleration in underlying wage trends. [confidence: high]
+
+**OUTDATED DATA:**
+- *"MGNREGA national average wage: ₹298.8/day (VB-G RAM G)"* — The Ministry of Rural Development’s **March 2025 notification** stated the average was ₹370/day (up from ₹349). The article cites the new act’s figure (₹298.8) but does not clarify whether it’s a **weighted average** or a **simple average** (or another methodology). Re-check: [MGNREGA wage notifications](https://rural.nic.in); newer period: FY27 (post-VB-G RAM G rollout). [confidence: high]
