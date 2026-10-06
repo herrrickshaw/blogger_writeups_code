@@ -11,18 +11,16 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+FACTUAL ERRORS:
+- "the Ministry of Defence's own May 2023 release puts it at ₹2,570 crore for the first four lists" (and "Both rows are for the same declared scope — the four DPSU lists totalling 4,666 items — from Ministry of Defence releases fourteen months apart") — The 16 May 2023 release (PIB PRID 1924426) was the announcement notifying the 4th PIL (928 items). The indigenisation achievements cited in that release (2,572 items worth ₹1,756 crore, plus 164 items worth ₹814 crore due December 2022, totaling 2,736 items and ₹2,570 crore) pertained strictly to the first three PILs (which totaled 3,738 items), not all four lists. [confidence: high]
+
+INTERPRETATION ERRORS:
+- "What is not settled is how much of the ban has actually been converted into replacement production: the Ministry of Defence's own May 2023 release puts it at ₹2,570 crore for the first four lists; its own July 2024 release, for the identical scope, puts it at ₹3,400 crore. Both are shown here, because neither is current, and the ministry does not reconcile them to each other." (and "The Department of Defence Production should publish one dated, reconciled figure... stating whether it supersedes the 2023 release... or the 2024 one... so readers are not left choosing between the ministry’s own two numbers.") — The two releases were published 14 months apart (May 2023 and July 2024). A cumulative total rising over time from 2,736 items (₹2,570 crore) to 2,972 items (₹3,400 crore) represents normal cumulative progress as additional items are indigenised, not a data contradiction or discrepancy requiring reconciliation. [confidence: high]
+- "The banned-items lists and the invention fund are both a rounding error next to what India actually produces." (and comparing cumulative PIL import substitution of ₹2,570–3,400 crore to annual defence production of ₹1.78 lakh crore to conclude that the lists contributed negligibly to total production) — This is an apples-to-oranges comparison of intermediate inputs/components against gross finished output. The Positive Indigenisation Lists target Line Replacement Units (LRUs), sub-systems, and components. Indigenising a low-cost critical component (such as an actuator or fuel pump) directly enables domestic assembly of major end platforms (such as aircraft, tanks, or ships) worth vastly higher amounts. Conflating the direct replacement cost of parts with their enablement of total manufacturing turnover is an invalid economic leap. [confidence: high]
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 2622, Requested 7459. Please try again in 15.6075s. Need more tokens? Upgrade to Dev Tier today at https://co]
+
 
 ## Mistral mistral-small-latest
 

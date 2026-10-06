@@ -13903,3 +13903,12 @@ scheduled sync
 **Changed**
 
 - `indias-ethanol-surplus-buys-about-five` — 55,861 → 59,250 bytes (+3,389)
+
+## 2026-10-06T19:55:14+05:30 — 344 posts live
+
+New post: infant drug delivery, lollipops vs mini-tablets, Indian makers
+
+
+**Added**
+
+- `cough-syrup-in-lollipop-for-babies` **v1.0.0** — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead (29,605 bytes)

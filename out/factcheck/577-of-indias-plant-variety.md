@@ -11,17 +11,26 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Gemini gemini-flash-latest
 
-FACTUAL ERRORS:
-- "Extant VCK (village/farming community knowledge)" — In the terminology of the Protection of Plant Varieties and Farmers' Rights (PPV&FR) Act, 2001 and the Authority's registry, "VCK" stands for "Variety of Common Knowledge" (a statutory category of extant variety), not "village/farming community knowledge". [confidence: high]
-- "India's Plant Variety Authority has issued 10,885 certificates as of 31 August 2026" (along with citations dated July, August, and September 2026 throughout the text) — The dates in 2026 are set in the future and cannot be verified against official records. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "This blog's own $4.45 billion spice-export book, covering eight distinct crops, rests on 151 registered varieties." / "As of a month earlier, that entire export book rested on 151 registered varieties." — False causal connection/extrapolation. Registration under the PPV&FR Act grants intellectual property rights (breeders' and farmers' rights); it is not a prerequisite for cultivation, domestic commercialisation, or export. India's spice production and exports predominantly rely on traditional landraces, uncertified cultivars, and public-domain varieties that are not registered with the Authority. Stating that the multi-billion-dollar export trade "rests on" the 151 registered varieties conflates IP registration with commercial production and trade. [confidence: high]
-- "Legal protection has followed the crops the public breeding system already worked on for decades — not the crops India actually earns from." — Apples-to-oranges comparison and false premise. The author uses spice export revenue ($4.45 billion) to dismiss cereals as crops India does not "actually earn from." In reality, cereals account for a massive share of India's gross agricultural output by value, and cereal exports alone (notably basmati and non-basmati rice, which routinely generate over $10 billion annually) significantly exceed total spice exports. Comparing certificate distribution to export earnings in this manner draws an unsupportable conclusion about the economic value of cereals. [confidence: high]
+[Gemini API error 503: {
+  "error": {
+    "code": 503,
+    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
+    "status": "UNAVAILABLE"
+  }
+}
+]
 
 ## Groq openai/gpt-oss-120b
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 4717, Requested 3814. Please try again in 3.9825s. Need more tokens? Upgrade to Dev Tier today at https://con]
+**FACTUAL ERRORS:**  
+- none found  
+
+**INTERPRETATION ERRORS:**  
+- **Claim:** “Put the two blog's‑own numbers side by side: the spice trade earns $4.45 billion a year across eight crops. The intellectual‑property system meant to protect and incentivise breeding in those crops has issued 151 certificates for the whole category, versus 6,280 for cereals …”  
+  **Reasoning gap:** The article treats the low count of spice‑related plant‑variety certificates as evidence that the IP system is a *constraint* on the $4.45 bn spice export sector. No causal link is demonstrated; spices can be (and are) exported without PPV&FR registration, and export performance depends on many factors (market demand, processing capacity, trade policies, etc.). The comparison therefore conflates correlation (few certificates) with causation (limited export). [confidence: high]  
+
+- **Claim:** “Cereals dominate certification because cereals dominated decades of ICAR‑era breeding investment; spices under‑register because the certification system was built around that legacy, not around retrofitting protection for crops that later proved profitable.”  
+  **Reasoning gap:** This statement attributes the disparity in certificate counts to the design bias of the PPV&FR system, implying that the system *fails* to protect profitable spice crops. However, the data only show the number of certificates; they do not reveal why fewer spice varieties are registered (e.g., lower breeding activity in spices, lower commercial incentive for registration, or breeder choice). The article extrapolates a policy‑design explanation without supporting evidence, making an unsupported causal inference. [confidence: high]
 
 ## Mistral mistral-small-latest
 

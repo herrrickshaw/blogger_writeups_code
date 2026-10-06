@@ -22,13 +22,7 @@ Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API
 
 ## Groq openai/gpt-oss-120b
 
-**FACTUAL ERRORS**  
-- “From April 2026 all petrol sold in India carries the E20 (20 % ethanol) blend as the mandated standard.” — The mandatory E20 blending requirement was announced to take effect from **April 2025**, not 2026. The government’s ethanol‑blending policy timeline makes the 2026 date incorrect. [confidence: high]  
-
-- “Maize accounted for **42.74 %** of total ethanol feedstock volume in 2023‑24, ahead of both sugarcane and rice.” — Official Ministry of Petroleum and Natural Gas data for the 2023‑24 ethanol year show **sugarcane (including juice and molasses) contributed roughly 45‑48 %** of feedstock volume, with maize at about **30‑35 %**. The 42.74 % figure therefore overstates maize’s share. [confidence: medium]  
-
-**INTERPRETATION ERRORS**  
-- “Maize’s price premium over every other feedstock is the **direct policy lever behind the demand‑side story** … the volume response was immediate and large. That’s a real, working demand signal.” — The article treats the higher ex‑mill price for maize as the primary cause of the near‑500 cr L ethanol volume surge. However, the surge coincides with the **overall increase in the national ethanol blending mandate (E20), expansion of OMC procurement capacity, and the introduction of a new maize‑feedstock category**, all of which independently drive demand. The price premium alone cannot be shown to have caused the volume jump; the claim conflates correlation with causation. [confidence: high]
+[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 7421, Requested 7934. Please try again in 55.1625s. Need more tokens? Upgrade to Dev Tier today at https://co]
 
 ## Mistral mistral-small-latest
 

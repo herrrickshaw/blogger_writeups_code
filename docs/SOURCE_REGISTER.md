@@ -1136,3 +1136,18 @@ register, because the source copy is truncated (see the Track C note in the 10-0
   USD 70.76 bn, merchandise deficit USD 26.86 bn). All of these came from press only
   (ThePrint, UNI, Asianet) and the PIB primary was not fetched. It is a routine monthly
   print, so WEAK.
+
+## Added 2026-10-05 (daily task, Monday: agricultural labour and rural incomes)
+
+An empty day. Nothing commissionable and nothing queued.
+- **PLFS Monthly Bulletin, August 2026** (NSO/MoSPI, released 15 Sep 2026). BACKGROUND.
+  Rural LFPR was 58.2% (+1.2pp YoY), rural WPR 55.8% (+1.3pp YoY) and rural UR 4.1%, down
+  from 4.5% in July and the lowest since Jan 2026. These figures come from the PolicyEdge
+  summary; the MoSPI press-note PDF returned 502 to WebFetch and HTML to curl. Checked as
+  a possible update to the open queue item "Rural India's fastest quarter off the farm":
+  it does **not** update it. The monthly bulletin gives no industry or employment-status
+  split, so agriculture's share stays a quarterly-only number. The Jul–Sep 2026 Quarterly
+  Bulletin (due about mid-Nov) is the update to watch for.
+- **AERR, "Agricultural wages in India: trends and determinants"**
+  (`epubs.icar.org.in/index.php/AERR/article/view/140527`). WEAK by dedup: already logged
+  at SOURCE_REGISTER.md:877.
