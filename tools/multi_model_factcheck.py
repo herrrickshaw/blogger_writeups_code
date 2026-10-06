@@ -86,7 +86,9 @@ GEMINI_MODEL = "gemini-flash-latest"
 # demand"), rate-limited (429) or missing (404) -- 2026-10-06 runs got a 503 on
 # gemini-flash-latest for every post. Each Gemini model has its own free-tier
 # quota, so a fallback is not just a retry of the same bucket.
-GEMINI_FALLBACKS = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
+# gemini-2.5-flash and gemini-2.5-flash-lite were dropped after --probe-models
+# on 2026-10-06 returned 404 "no longer available" for both on this key.
+GEMINI_FALLBACKS = ["gemini-flash-lite-latest"]
 GROQ_MODELS = ["llama-3.3-70b-versatile"]   # FALLBACK ONLY: main() replaces this with
 # groq_pick_model(), which reads the key's /models listing. Groq retired
 # llama-3.3-70b-versatile on or before 2026-09-06 (404 model_not_found), so a
