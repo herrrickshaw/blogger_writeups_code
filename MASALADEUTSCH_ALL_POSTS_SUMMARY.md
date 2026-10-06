@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*340 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*341 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 3 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 6 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (60)
+### Agriculture & Fertilisers (61)
 
+- **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
+  India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.](https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html)** — 2026-10-01
   India's cotton yield has fallen for a decade and its rice–wheat belt has stagnated for longer, in both cases on soils short of organic matter. The same fields throw off tens of millions of tonnes of stalk and straw a year, much of it burnt. Turning that residue into compressed biogas would pay farmers for it and send a manure back to the soil. How much gas it yields depends on the crop and on how the residue is pretreated: paddy straw is what Punjab is building plants for, wheat straw digests well but is worth as much as cattle fodder, sugarcane trash does more for the soil left on it than taken off, maize stover is growing fastest because of ethanol, pulse and soybean residues are worth more as fodder or as a digester's partner than on their own, and cotton stalk is one of the hardest residues to digest. And the new GOBARdhan price pays for gas, not for whether the manure reaches the fields that need it.
 - **[India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.](https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html)** — 2026-09-30
@@ -641,8 +643,10 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (106)
+### Energy & Fuels (107)
 
+- **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
+  India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
   Indian courts have backed E20, handed States power over denatured alcohol, kept biodiesel outside petroleum-control law, and opened the oil companies' ethanol contracts to judicial review. This is how five rulings are reshaping the ethanol blending programme.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
@@ -893,8 +897,10 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (23)
+### Ethanol & Biofuels (24)
 
+- **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
+  India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
   Indian courts have backed E20, handed States power over denatured alcohol, kept biodiesel outside petroleum-control law, and opened the oil companies' ethanol contracts to judicial review. This is how five rulings are reshaping the ethanol blending programme.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
@@ -3828,6 +3834,11 @@ India’s third-phase fuel-efficiency rules for cars, notified on 30 September 2
 *2026-10-02 · Macroeconomics & Monetary Policy, Markets & Finance*
 
 The RBI’s Unified Markets Interface puts a financial asset and the central-bank money that pays for it on one ledger, so a trade settles in a single step. Pilots have settled about ₹17,000 crore of tokenised certificates of deposit and ₹1,025 crore of tokenised corporate bonds, and gold is next on the list. The ledger can make money and bonds move together; it cannot know on its own whether an issuer has defaulted or the gold is in the vault. Public blockchains answer that with token-holder votes, as the UMA oracle behind Polymarket does, and one large holder has shown how that can fail. India’s answer is regulated institutions with legal liability, which works for bonds and will be tested by gold.
+
+### [India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)
+*2026-10-03 · Agriculture & Fertilisers, Energy & Fuels, Ethanol & Biofuels*
+
+India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 
 ### [India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)
 *2026-10-03 · Energy & Fuels, Ethanol & Biofuels, India, Industrial Policy*
