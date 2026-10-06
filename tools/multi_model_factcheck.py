@@ -82,6 +82,11 @@ MAX_CHARS = 100_000
 # gemini-2.0-flash returns a hard "limit: 0" free-tier quota on this key (not a
 # transient rate limit); gemini-flash-latest is what this key actually has quota for.
 GEMINI_MODEL = "gemini-flash-latest"
+# Fallbacks, tried in order when the model above is overloaded (503 "high
+# demand"), rate-limited (429) or missing (404) -- 2026-10-06 runs got a 503 on
+# gemini-flash-latest for every post. Each Gemini model has its own free-tier
+# quota, so a fallback is not just a retry of the same bucket.
+GEMINI_FALLBACKS = ["gemini-2.5-flash", "gemini-flash-lite-latest", "gemini-2.5-flash-lite"]
 GROQ_MODELS = ["llama-3.3-70b-versatile"]   # FALLBACK ONLY: main() replaces this with
 # groq_pick_model(), which reads the key's /models listing. Groq retired
 # llama-3.3-70b-versatile on or before 2026-09-06 (404 model_not_found), so a
@@ -113,6 +118,9 @@ CEREBRAS_URL = "https://api.cerebras.ai/v1/chat/completions"
 # Mistral, OpenAI-compatible endpoint. Confirmed working on both a one-word
 # prompt and a ~8000-word one.
 MISTRAL_MODEL = "mistral-small-latest"
+# Fallbacks for a 429 that outlasts the retry (2026-10-06: mistral-small-latest
+# 429'd "Rate limit exceeded", code 1300, on every post).
+MISTRAL_FALLBACKS = ["mistral-medium-latest", "open-mistral-nemo", "ministral-8b-latest"]
 MISTRAL_URL = "https://api.mistral.ai/v1/chat/completions"
 
 PROMPT = """You are fact-checking a published article for an India-focused economics
@@ -193,7 +201,8 @@ def extract_text(path):
     return s.strip()
 
 
-def ask_gemini(k, text):
+def ask_gemini(k, text, model=None):
+    model = model or GEMINI_MODEL
     body = {
         "contents": [{"parts": [{"text": PROMPT.format(text=text)}]}],
         "generationConfig": {"temperature": 0.1},
@@ -203,7 +212,7 @@ def ask_gemini(k, text):
         # checks the article against its training knowledge, not live search.
     }
     req = urllib.request.Request(
-        f"https://generativelanguage.googleapis.com/v1beta/models/{GEMINI_MODEL}:generateContent?key={k}",
+        f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={k}",
         data=json.dumps(body).encode(),
         headers={"Content-Type": "application/json", "User-Agent": UA})
     try:
@@ -288,9 +297,9 @@ def ask_kimi(k, text):
         return f"[Kimi unexpected response: {json.dumps(d)[:300]}]"
 
 
-def ask_mistral(k, text):
+def ask_mistral(k, text, model=None):
     body = {
-        "model": MISTRAL_MODEL,
+        "model": model or MISTRAL_MODEL,
         "messages": [{"role": "user", "content": PROMPT.format(text=text)}],
         "temperature": 0.1,
     }
@@ -396,15 +405,20 @@ def report_sha(slug):
 TRANSIENT = re.compile(r"API error (429|500|502|503|504)\b|network error", re.I)
 
 
-def ask_with_retry(fn, *a, wait=45):
-    """One retry after a pause on a rate-limit / overload / network failure.
-    The 2026-09 cron runs stopped after two posts because Gemini 503'd and
-    Mistral 429'd within a second of each other; both clear within a minute."""
-    out = fn(*a)
-    if failed(out) and TRANSIENT.search(out) and not TERMINAL.search(out):
-        time.sleep(wait)
-        out = fn(*a)
-    return out
+def ask_with_fallback(fn, k, text, models):
+    """Try each model in turn on a transient or not-found error; one paced retry
+    of the whole list at the end. Returns (model that answered or last tried, output)."""
+    out, m = "", models[0]
+    for attempt in range(2):
+        for m in models:
+            out = fn(k, text, m)
+            if not failed(out):
+                return m, out
+            if TERMINAL.search(out) and "404" not in out:
+                return m, out  # bad key or billing: another model won't help
+        if attempt == 0:
+            time.sleep(45)
+    return m, out
 
 
 def already_done(slug):
@@ -439,13 +453,15 @@ def run_one(path, gk, qk, mk, kk, ck, skipped=(), panel=("gemini", "groq", "mist
 
     results = []
     if "gemini" in panel:
-        results.append(("Gemini " + GEMINI_MODEL, ask_with_retry(ask_gemini, gk, text)))
+        m, out = ask_with_fallback(ask_gemini, gk, text, [GEMINI_MODEL] + GEMINI_FALLBACKS)
+        results.append(("Gemini " + m, out))
     if "groq" in panel:
         for m in GROQ_MODELS:
             results.append((f"Groq {m}", ask_groq(qk, m, text)))
             time.sleep(1)  # be polite to the free tier
     if "mistral" in panel:
-        results.append((f"Mistral {MISTRAL_MODEL}", ask_with_retry(ask_mistral, mk, text)))
+        m, out = ask_with_fallback(ask_mistral, mk, text, [MISTRAL_MODEL] + MISTRAL_FALLBACKS)
+        results.append((f"Mistral {m}", out))
         time.sleep(1)
     if kk:
         results.append((f"Kimi {KIMI_MODEL}", ask_kimi(kk, text)))
@@ -487,7 +503,7 @@ def run_one(path, gk, qk, mk, kk, ck, skipped=(), panel=("gemini", "groq", "mist
 
 def main():
     ap = argparse.ArgumentParser()
-    g = ap.add_mutually_exclusive_group(required=True)
+    g = ap.add_mutually_exclusive_group()
     g.add_argument("--file", help="path to a post HTML file")
     g.add_argument("--slug", help="post slug under posts/")
     g.add_argument("--all", action="store_true", help="run every post in posts/ not already cleanly done")
@@ -502,7 +518,22 @@ def main():
     ap.add_argument("--sleep", type=float, default=0,
                     help="seconds to wait between posts (free tiers: ~20 keeps Gemini under its per-minute cap)")
     ap.add_argument("--limit", type=int, default=0, help="with --all, stop after N posts")
+    ap.add_argument("--probe-models", action="store_true",
+                    help="send a one-word prompt to every Gemini and Mistral model this tool can use "
+                         "and print which answer; no posts are checked")
     args = ap.parse_args()
+
+    if args.probe_models:
+        blob = creds()
+        for label, fn, k, models in (
+                ("Gemini", ask_gemini, key("GEMINI_API_KEY", blob), [GEMINI_MODEL] + GEMINI_FALLBACKS),
+                ("Mistral", ask_mistral, key("MISTRAL_API_KEY", blob), [MISTRAL_MODEL] + MISTRAL_FALLBACKS)):
+            for m in models:
+                out = fn(k, "Reply with the single word OK.", m)
+                status = "FAIL " + re.sub(r"\s+", " ", out)[:110] if failed(out) else "ok   " + out[:20]
+                print(f"{label:8} {m:28} {status}")
+                time.sleep(2)
+        return
 
     global REQUIRED_MODELS
     panel = tuple(p.strip().lower() for p in args.panel.split(",") if p.strip())
@@ -546,6 +577,8 @@ def main():
         print("panel reduced for this run — "
               + "; ".join(f"{n} skipped: {r}" for n, r in skipped))
 
+    if not (args.all or args.slug or args.file):
+        ap.error("one of --file, --slug, --all or --probe-models is required")
     if args.all:
         files = sorted(glob.glob(str(ROOT / "posts" / "*.html")))
         files = [f for f in files if pathlib.Path(f).stem not in SKIP_SLUGS]
