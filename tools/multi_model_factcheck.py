@@ -32,9 +32,15 @@ tools/adoption_check.py.
     python3 tools/multi_model_factcheck.py --file posts/<slug>.html
     python3 tools/multi_model_factcheck.py --slug <slug>              # same
     python3 tools/multi_model_factcheck.py --all                      # loop, one report per post
+    python3 tools/multi_model_factcheck.py --all --panel gemini,mistral --stale --sleep 20
+        # Gemini + Mistral only (Groq's 8k-token/minute cap fails most full posts);
+        # --stale also re-checks posts edited since their last report; --sleep paces
+        # calls under the free-tier per-minute limits. Summarise afterwards with
+        # tools/factcheck_summary.py.
 """
 import argparse
 import glob
+import hashlib
 import html
 import json
 import os
@@ -114,12 +120,19 @@ blog. Read the article text below and report two DISTINCT kinds of problems only
 Do not summarize the article and do not comment on style.
 
 1. FACTUAL ERRORS — a specific number, date, name, or event stated in the
-   article that is wrong, outdated, or that you cannot verify against what you
-   know. Quote the exact claim.
+   article that is wrong, or that contradicts what you know. Quote the exact
+   claim. The article may describe events after your training cutoff: do not
+   flag a claim merely because it is newer than your knowledge; flag it only if
+   it looks implausible or contradicts something you do know.
 2. INTERPRETATION ERRORS — a fact that is probably correct but is used to
    support a conclusion it does not actually support: a false causal claim, an
    apples-to-oranges comparison, an extrapolation beyond what the data shows,
    or double-counting. Quote the claim and explain the gap in reasoning.
+3. OUTDATED DATA — a figure that may have been right for the period it names
+   but for which a newer official release probably exists (a later fiscal
+   year, survey round, census, tariff order or price revision), or a "latest"
+   / "current" figure that is likely superseded. Quote the claim, name the
+   source series to re-check and, if you know it, the newer period.
 
 If you find nothing in a category, write "none found" — do not invent a
 problem to fill the section. Do not flag stylistic or formatting issues.
@@ -132,6 +145,10 @@ FACTUAL ERRORS:
 
 INTERPRETATION ERRORS:
 - <claim> — <the reasoning gap> [confidence: high/medium/low]
+(repeat, or "none found")
+
+OUTDATED DATA:
+- <claim> — <series to re-check; newer period if known> [confidence: high/medium/low]
 (repeat, or "none found")
 
 ARTICLE TEXT:
@@ -366,6 +383,30 @@ def probe(label, fn, k):
     return True, ""
 
 
+def text_sha(text):
+    return hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
+
+
+def report_sha(slug):
+    p = OUT_DIR / f"{slug}.md"
+    m = re.search(r"^Text-SHA1: `([0-9a-f]+)`", p.read_text(encoding="utf-8"), re.M) if p.exists() else None
+    return m.group(1) if m else None
+
+
+TRANSIENT = re.compile(r"API error (429|500|502|503|504)\b|network error", re.I)
+
+
+def ask_with_retry(fn, *a, wait=45):
+    """One retry after a pause on a rate-limit / overload / network failure.
+    The 2026-09 cron runs stopped after two posts because Gemini 503'd and
+    Mistral 429'd within a second of each other; both clear within a minute."""
+    out = fn(*a)
+    if failed(out) and TRANSIENT.search(out) and not TERMINAL.search(out):
+        time.sleep(wait)
+        out = fn(*a)
+    return out
+
+
 def already_done(slug):
     """A clean prior report from the required models, or a deliberate too-large
     skip (terminal — retrying won't make the post smaller) — skip on resumed runs."""
@@ -380,7 +421,7 @@ def already_done(slug):
     return bool(required) and not any(failed(s) for s in required)
 
 
-def run_one(path, gk, qk, mk, kk, ck, skipped=()):
+def run_one(path, gk, qk, mk, kk, ck, skipped=(), panel=("gemini", "groq", "mistral")):
     text = extract_text(path)
     slug = pathlib.Path(path).stem
     print(f"… {slug}  ({len(text)} chars)")
@@ -396,12 +437,16 @@ def run_one(path, gk, qk, mk, kk, ck, skipped=()):
         print(f"  -> {out_path.relative_to(ROOT)}  [SKIPPED, too large]")
         return out_path, False
 
-    results = [("Gemini " + GEMINI_MODEL, ask_gemini(gk, text))]
-    for m in GROQ_MODELS:
-        results.append((f"Groq {m}", ask_groq(qk, m, text)))
-        time.sleep(1)  # be polite to the free tier
-    results.append((f"Mistral {MISTRAL_MODEL}", ask_mistral(mk, text)))
-    time.sleep(1)
+    results = []
+    if "gemini" in panel:
+        results.append(("Gemini " + GEMINI_MODEL, ask_with_retry(ask_gemini, gk, text)))
+    if "groq" in panel:
+        for m in GROQ_MODELS:
+            results.append((f"Groq {m}", ask_groq(qk, m, text)))
+            time.sleep(1)  # be polite to the free tier
+    if "mistral" in panel:
+        results.append((f"Mistral {MISTRAL_MODEL}", ask_with_retry(ask_mistral, mk, text)))
+        time.sleep(1)
     if kk:
         results.append((f"Kimi {KIMI_MODEL}", ask_kimi(kk, text)))
         time.sleep(1)
@@ -414,7 +459,11 @@ def run_one(path, gk, qk, mk, kk, ck, skipped=()):
           "> confirmation (PIB / DGCI&S / MoSPI / DFPD / NCDC, per this blog's usual house rule)",
           "> before it changes anything in the post. Models disagreeing with each other or with",
           "> the post is a prompt to check, not a verdict.",
-          "", f"Source: `posts/{slug}.html`", ""]
+          "", f"Source: `posts/{slug}.html`", "",
+          # Hash of the exact text sent, so --stale can tell a post that changed
+          # since this report from one that snapshot.py merely rewrote unchanged
+          # (it rewrites every post file each run, so file times are useless).
+          f"Text-SHA1: `{text_sha(text)}`", ""]
     # State the panel actually used. Without this the report renders a heading
     # per configured provider and a reader counts five cross-vendor opinions
     # when two of them are error blocks -- the check looks broader than it was.
@@ -443,19 +492,39 @@ def main():
     g.add_argument("--slug", help="post slug under posts/")
     g.add_argument("--all", action="store_true", help="run every post in posts/ not already cleanly done")
     ap.add_argument("--force", action="store_true", help="with --all, re-run posts that already have a clean report")
+    ap.add_argument("--panel", default="gemini,groq,mistral",
+                    help="comma list of required models: gemini, groq, mistral (default all three, "
+                         "plus best-effort Kimi/Cerebras). A narrower panel also narrows what counts "
+                         "as 'done', and skips Kimi/Cerebras.")
+    ap.add_argument("--stale", action="store_true",
+                    help="with --all, also re-run posts whose text changed since their report "
+                         "(or whose report predates the Text-SHA1 line)")
+    ap.add_argument("--sleep", type=float, default=0,
+                    help="seconds to wait between posts (free tiers: ~20 keeps Gemini under its per-minute cap)")
+    ap.add_argument("--limit", type=int, default=0, help="with --all, stop after N posts")
     args = ap.parse_args()
 
+    global REQUIRED_MODELS
+    panel = tuple(p.strip().lower() for p in args.panel.split(",") if p.strip())
+    bad = set(panel) - {"gemini", "groq", "mistral"}
+    if bad or not panel:
+        sys.exit(f"--panel: unknown model(s) {sorted(bad)}; choose from gemini, groq, mistral")
+    REQUIRED_MODELS = tuple(p.capitalize() for p in panel)
+    full_panel = set(panel) == {"gemini", "groq", "mistral"}
+
     blob = creds()
-    gk = key("GEMINI_API_KEY", blob)
-    qk = key("GROQ_API_KEY", blob)
-    mk = key("MISTRAL_API_KEY", blob)
-    kk = key_optional("MOONSHOT_API_KEY", blob)
-    ck = key_optional("CEREBRAS_API_KEY", blob)
+    gk = key("GEMINI_API_KEY", blob) if "gemini" in panel else None
+    qk = key("GROQ_API_KEY", blob) if "groq" in panel else None
+    mk = key("MISTRAL_API_KEY", blob) if "mistral" in panel else None
+    kk = key_optional("MOONSHOT_API_KEY", blob) if full_panel else None
+    ck = key_optional("CEREBRAS_API_KEY", blob) if full_panel else None
+    print(f"panel: {', '.join(REQUIRED_MODELS)}")
 
     # Resolve the Groq model ONCE per run from the key's own catalogue; the
     # hardcoded name is only the fallback (see the note by GROQ_MODELS).
-    GROQ_MODELS[:] = [groq_pick_model(qk)]
-    print(f"Groq model for this run: {GROQ_MODELS[0]}")
+    if qk:
+        GROQ_MODELS[:] = [groq_pick_model(qk)]
+        print(f"Groq model for this run: {GROQ_MODELS[0]}")
 
     # Probe the best-effort providers ONCE per run rather than discovering the
     # same dead endpoint on every post. Required models are never probed: if
@@ -482,8 +551,17 @@ def main():
         files = [f for f in files if pathlib.Path(f).stem not in SKIP_SLUGS]
         if not args.force:
             before = len(files)
-            files = [f for f in files if not already_done(pathlib.Path(f).stem)]
+
+            def todo(f):
+                slug = pathlib.Path(f).stem
+                if not already_done(slug):
+                    return True
+                # Reports written before the hash line existed count as stale.
+                return args.stale and report_sha(slug) != text_sha(extract_text(f))
+            files = [f for f in files if todo(f)]
             print(f"resuming: {before - len(files)} already done, {len(files)} remaining")
+        if args.limit:
+            files = files[:args.limit]
     elif args.slug:
         files = [str(ROOT / "posts" / f"{args.slug}.html")]
     else:
@@ -494,7 +572,9 @@ def main():
         if not pathlib.Path(f).exists():
             print(f"skip (not found): {f}", file=sys.stderr)
             continue
-        _, all_failed = run_one(f, gk, qk, mk, kk, ck, skipped)
+        _, all_failed = run_one(f, gk, qk, mk, kk, ck, skipped, panel)
+        if args.sleep and i < len(files) - 1:
+            time.sleep(args.sleep)
         if args.all and all_failed:
             consecutive_failures += 1
             if consecutive_failures >= 2:
