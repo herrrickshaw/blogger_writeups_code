@@ -13921,3 +13921,12 @@ New post: infant drug delivery, lollipops vs mini-tablets, Indian makers
 **Added**
 
 - `cough-syrup-in-lollipop-for-babies_0399087402` **v1.0.0** — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead (29,605 bytes)
+
+## 2026-10-06T19:58:23+05:30 — 344 posts live
+
+Labels for infant drug delivery post; removed duplicate insert
+
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `cough-syrup-in-lollipop-for-babies_0399087402` — Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead
