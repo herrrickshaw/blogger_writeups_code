@@ -7,39 +7,37 @@
 
 Source: `posts/fci-storage-scenario-capacity-stock-and.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `2ed944d764044a63`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "2025: PIB PRID 2172351 (FCI+State 917.83 LMT covered+CAP, 01-07-2025)" — The date July 1, 2025 (01-07-2025) is in the future, making it impossible for a official historical government PIB release to report actual realized storage figures for that date. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The cooperative plan fixes this at the village level (PACS godowns, 1,000 MT each; 2,000 MT hubs) — turning rented, centralised, over-stretched storage into owned, distributed capacity..." — This is a false equivalence and an extrapolation beyond what the data shows. The central pool stock overflow managed by the Food Corporation of India (FCI) requires large, centralized, railhead-connected bulk storage for interstate PDS distribution. Expanding decentralized village-level PACS (Primary Agricultural Credit Societies) godowns increases national agri-storage capacity, but these local cooperative assets are not owned by FCI and cannot directly replace or "turn" FCI’s rented central bulk godowns into owned central storage capacity. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "The World's Largest Grain Storage Plan (2023, ₹1 lakh cr)" — The claim that the plan is the "World's Largest Grain Storage Plan" cannot be verified against available information, and the article does not provide a source to support this specific description. [confidence: medium]
-- None found for other specific factual errors regarding numbers, dates, names, or events.
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "The cooperative plan fixes this at the village level (PACS godowns, 1,000 MT each; 2,000 MT hubs) — turning rented, centralised, over-stretched storage into owned, distributed capacity that doubles as procurement centres, Fair Price Shops and processing units — the feedstock node for the biorefinery." — The conclusion that the cooperative plan will successfully turn rented storage into owned, distributed capacity and serve multiple purposes without issues assumes a seamless integration and functionality of these new storage facilities without considering potential logistical, operational, or financial challenges. [confidence: high]
+**FACTUAL ERRORS:**
+- *"FCI storage scenario rose from 851.54 LMT (2018) to 917.83 LMT (2025)"* — The 2018 figure (851.54 LMT) includes **FCI+State covered+CAP capacity**, but the 2025 figure (917.83 LMT) is explicitly labeled as **FCI+State covered+CAP capacity**, which is a narrower subset than the 2018 baseline (which also included *total agri-storage* components like CAP). The claim conflates two different capacity definitions, making the 66 LMT increase misleading as a direct comparison. [confidence: high]
 
-## Mistral mistral-small-latest
+- *"FCI's own owned covered-storage capacity is only about 147 LMT of its roughly 482 LMT total"* — The 482 LMT figure cited in the article (from PIB PRID 2080612) is the **total FCI capacity (covered+CAP)**, not just *owned* capacity. The 147 LMT is the *owned covered* portion, but the 482 LMT includes **hired CAP and other rented storage**, which skews the "70% hired" claim. The article’s phrasing implies 482 LMT is purely owned capacity, which is incorrect. [confidence: high]
 
-FACTUAL ERRORS:
-- "FCI is 70% hired, only ~147 LMT owned of FCI's own ~482 LMT capacity" — The claim is inconsistent. If FCI's total capacity is ~482 LMT and only ~147 LMT is owned, then the hired capacity would be ~335 LMT (482 - 147), which is ~69.5% of total capacity. However, the article states FCI is "70% hired," implying hired capacity is 70% of *total* storage (including state and cooperative), not just FCI's own capacity. The phrasing is ambiguous and potentially misleading. [confidence: high]
+---
 
-- "The World's Largest Grain Storage Plan (2023, ₹1 lakh cr) now adds +700 LMT of cooperative (PACS) capacity to lift total agri-storage from 1,450 to 2,150 LMT" — The claim that the plan "lifts total agri-storage from 1,450 to 2,150 LMT" is incorrect. The 1,450 LMT figure likely refers to FCI + State covered+CAP capacity (as per the 2025 PIB source), while the 2,150 LMT target includes the additional 700 LMT from cooperatives. However, the phrasing suggests the plan *instantly* lifts total storage to 2,150 LMT, which is not accurate—it is a *planned* addition over time. The 1,450 LMT base is not a pre-plan total but a snapshot of FCI+State capacity. [confidence: high]
+**INTERPRETATION ERRORS:**
+- *"The ₹1-lakh-crore cooperative plan targets 2,150 LMT total agri-storage"* — While the **700 LMT cooperative addition** is correctly framed as a structural shift (owned vs. hired), the **2,150 LMT target** is presented as a direct replacement for the existing system’s constraints. However, the **907 LMT 2021 peak** was a **temporary stockpile**, not a capacity ceiling—India’s procurement and buffer norms (e.g., 25–30% of production) inherently require **cyclical surpluses** far exceeding 907 LMT. The plan’s 2,150 LMT target is **not a fix for structural rental costs** but rather an **arbitrary expansion target** that may still face procurement-driven stockpiling pressures. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "turning rented, centralised, over-stretched storage into owned, distributed capacity that doubles as procurement centres, Fair Price Shops and processing units — the feedstock node for the biorefinery" — The claim implies that the cooperative storage plan will *automatically* transform rented/centralized storage into owned/distributed capacity with multi-functional roles (procurement, FPS, processing). However, the article does not provide evidence that PACS godowns will *actually* fulfill all these roles simultaneously or that the transition will be seamless. The claim overstates the immediate impact of the plan without addressing implementation challenges (e.g., funding, logistics, or policy coordination). [confidence: medium]
+- *"The 900+ LMT chart figure above is FCI+State combined, a different, larger base"* — This claim is **partially correct** but misleading in context. The **907 LMT (2021) peak** was **central-pool stock** (FCI+State), but the **851.54 LMT (2018) baseline** was **total FCI+State covered+CAP capacity**, not a direct comparison. The article treats these as interchangeable bases for growth (851→918→2,150), but the **2021 spike was a usage spike, not a capacity expansion**—the 907 LMT exceeded the **effective covered capacity** (not the theoretical 917.83 LMT in 2025), forcing spillover into CAP. The logic conflates **capacity** and **stock levels**. [confidence: high]
 
-- "Each figure is PIB-sourced (below)" — The claim that *each* figure is PIB-sourced is an overgeneralization. While the article cites specific PIB PRIDs for certain figures (e.g., 2018, 2023, 2025), it does not explicitly confirm that *every* numerical claim (e.g., "~907 LMT record," "70% hired," or "1,450 to 2,150 LMT") is directly sourced from PIB releases. The phrase "Each figure is PIB-sourced" suggests a blanket attribution that may not hold for all claims. [confidence: medium]
+---
+**OUTDATED DATA:**
+- *"FCI storage capacity rose from 851.54 LMT (2018) to 917.83 LMT (2025)"* — The **2025 figure (917.83 LMT)** is from PIB PRID 2172351 (July 2025), but **no official Year-End Review for 2024–25** has been published yet (as of mid-2024). The article cites "Year-End Reviews 2024/2025" as pending, implying the 917.83 LMT may not yet be realized. Re-check: **DFPD’s latest Foodgrain Bulletin (2024–25)** or **FCI’s annual report** for actual 2024–25 capacity. [confidence: high]
 
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"FCI 1,923 warehouses / 371.93 LMT (01-07-2023)"* — The **371.93 LMT** figure (from PIB PRID 1945170) is **covered storage only**, but the article later uses it to imply **total FCI capacity** (including CAP). For consistency, re-check: **FCI’s latest "Warehouse Inventory Report"** (e.g., 2023–24) for **total covered+CAP capacity** as of March 2024. [confidence: medium]

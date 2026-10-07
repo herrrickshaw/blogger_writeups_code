@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-10-01T08:10:43.116+05:30",
+  "updated": "2026-10-07T05:43:33.905+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 36524,
-  "sha256": "0fee66417e55d9e103940cc52f0ff4dfb6f862bbdaa0aef23470e110d68ae388",
+  "bytes": 36919,
+  "sha256": "6cf0ef1125b20fdcc8b5ca15d7ecc4094866c4acf4f7dd963cf0995feba66c11",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-07T05:44:03+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        36524,
+        36919
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Telecom tower count updated to DoT Oct 2025"
     }
   ]
 }

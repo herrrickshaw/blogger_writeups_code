@@ -7,28 +7,43 @@
 
 Source: `posts/indias-textile-import-export-strategy.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `93e92ecb73ffea06`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn." — The chart shows imports grew from $13.3bn (FY21) to $22.1bn (FY25), a 66% increase, but the deficit widened from -$6.4bn (FY21) to -$14.0bn (FY25), not from $6.4bn to $14.0bn. The deficit is a negative value, so the phrasing incorrectly states the deficit as a positive number. [confidence: high]
-
-- "Deficit explosion FY21→FY23 (-$6.4bn → -$15.4bn), then plateau at $14bn" — The chart shows the deficit plateaued near -$14bn, but the article incorrectly states it plateaued at "$14bn" (a positive number) instead of "-$14bn" (a negative number). [confidence: high]
+- "Total capacity: 69,308 MT ('000) — healthy baseline" — The unit scale notation "MT ('000)" combined with "69,308" implies 69.3 billion metric tonnes, which is physically impossible and an order-of-magnitude error relative to India's actual chemical production or capacity data (which is typically in thousand metric tonnes or million metric tonnes). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Just these 2 feedstock chapters (Ch 29 organic chemicals, Ch 39 polymers) account for 63% of India's chemical-feedstock import bill for textiles — not the textile sector's overall trade balance, which runs a surplus once finished apparel and made-ups are included." — While the claim about the 63% share may be correct, the article conflates "chemical-feedstock import bill for textiles" with the broader textile sector's trade balance. The textile sector's overall trade balance includes finished goods (apparel, made-ups) that contribute to a surplus, but these are not feedstocks. The article implies that the feedstock deficit is separate from the textile trade surplus, but it does not clearly distinguish between feedstock imports (used in textile production) and finished textile exports (which drive the surplus). This creates confusion about whether the 63% figure refers to feedstocks used in textile production or all chemical imports. [confidence: high]
+- "Current State (FY2025): ~249.2 MMTPA refining capacity (see table below) running ~250 MMT crude/year = effectively at or above nameplate capacity... Economic Implication: ~100%+ utilisation (249.2 MMTPA capacity vs. ~250 MMT/year crude run...)" — Comparing annual crude throughput volume (which can exceed nameplate capacity through debottlenecking and continuous operations) directly against nameplate capacity to claim >100% utilization represents a flawed ratio calculation, as nameplate capacity is a nominal design figure rather than a strict upper limit on annual mass flow. [confidence: medium]
 
-- "Import stabilization at $22bn suggests supplier lock-in; window for domestic capex closing" — The article assumes that import stabilization at $22bn (FY24–FY25) indicates supplier lock-in, but it does not provide evidence of long-term contracts, switching costs, or lack of alternative suppliers. The stabilization could also reflect market equilibrium, demand saturation, or temporary factors. The conclusion that the "window for domestic capex is closing" is an overreach without data on supplier dynamics or contract lengths. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India's polymer trade gap: Chapter 39 imports jumped 66% in four years while exports stalled — deficit widened from $6.4bn to $14.0bn."*
+  — The deficit widened from **$6.4bn (FY21) to $15.4bn (FY23)**, not $14.0bn (FY25). The claim conflates the FY23 peak with FY25 data. [confidence: high]
+
+- *"Current State (FY2025): ~249.2 MMTPA refining capacity (see table below) running ~250 MMT crude/year = effectively at or above nameplate capacity."*
+  — The table lists **249.2 MMTPA capacity** but does not confirm FY2025 crude run data. The claim assumes 100% utilization without citing a source (e.g., Petroleum Planning & Analysis Cell or refinery operator reports). [confidence: medium]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"Polymer imports grew +66% ($13.3bn → $22.1bn) while exports stalled — the deficit has plateaued, not closed."*
+  — The reasoning gap: The **66% growth figure** is correct (FY21–FY25), but the claim that exports "stalled" is misleading. Exports fluctuated (e.g., $6.9bn → $8.2bn) and did not show a clear stagnation trend. The plateauing deficit ($14bn) is attributed to import stabilization, but the causal link to export stagnation is weak—exports also rose in FY25. [confidence: high]
+
+- *"Little spare cracker/polymerization capacity available [due to] 100%+ utilisation (249.2 MMTPA capacity vs. ~250 MMT/year crude run)."*
+  — The reasoning gap: The claim assumes **direct equivalence** between crude run and cracker capacity utilization. However, refineries prioritize fuel production (e.g., diesel, gasoline) over petrochemical feedstocks (e.g., naphtha crackers). The "100%+ utilization" figure does not account for feedstock-specific slack or seasonal variations in cracker runs. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Chapter 39 Deficit (widened from -$6.4B) [FY21]"* and *"Chapter 29 Deficit (sustained 4 years) -$6.5B"*
+  — **Series to re-check:** DGCI&S *Trade Statistics* (monthly/annual releases). The latest FY26–FY27 data (if available) may show revisions to FY25 figures (e.g., Chapter 39 deficit could now be closer to **-$16bn** based on preliminary FY26 trends). [confidence: high]
+
+- *"Total Textile Export $36.96bn/year (HS Ch.50–63, FY2024-25)"*
+  — **Series to re-check:** DGCI&S *Annual Trade Statistics* or Ministry of Commerce *Handbook of Statistics*. FY2025–26 data (released post-March 2025) may reflect higher exports due to demand recovery (e.g., post-pandemic apparel rebound). [confidence: medium]

@@ -7,37 +7,29 @@
 
 Source: `posts/fci-grain-flow-procurement-storage.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `2e1ebc9871a30f89`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "PIB Year-End Review 2025" — A Year-End Review for 2025 cannot exist as a cited source for a report displaying data as of November 2024 / January 1, 2025. [confidence: high]
-- "Wheat procured — RMS 2025-26 300.35 LMT" — Rabi Marketing Season (RMS) 2025-26 procurement takes place in spring/summer 2025; completed procurement cannot be reported as an established fact alongside January 1, 2025 stock figures. Additionally, the sub-bullet immediately references "RMS 2024-25", indicating a season mislabeling error. [confidence: high]
+- "for RMS 2026-27, the government set a wheat procurement target of 303 LMT (later revised up to 34.497 million tonnes)" — The numbers mix units and scales inconsistently within the same clause; 303 LMT equals 30.3 million tonnes, whereas 34.497 million tonnes equals about 344.97 LMT, making the parenthetical "revised up" description mathematically confused regarding the base 303 LMT target. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "476.85 LMT vs 214.1 LMT buffer norm · +~319 LMT unmilled paddy" — Presenting gross unmilled paddy tonnage (~319 LMT) alongside milled central pool stocks and buffer norms is an apples-to-oranges comparison. Paddy yields approximately 67% milled rice (~214 LMT rice equivalent), so adding raw paddy weight directly overstates the actual grain stock available to meet milled buffer requirements. [confidence: high]
+- "That combined procurement effort moved ₹1.99 lakh crore in food subsidy in FY25 — ₹1.29 lakh crore through FCI directly and ₹0.70 lakh crore through the states running their own Decentralized Procurement Scheme." — Food subsidy expenditures primarily reflect the economic cost of foodgrains minus the central issue price (CIP) under welfare schemes plus storage and distribution costs, rather than being a direct accounting equivalent of the total procurement effort or value of grains purchased in a single season. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Punjab ≈ 47% of the RMS 2024-25 wheat pool" — The article states the wheat procurement data is for RMS 2025-26, but the percentage of Punjab's contribution is mentioned for RMS 2024-25, which is inconsistent and may be incorrect due to the mismatch in the marketing seasons mentioned [confidence: medium]
-- "Food subsidy released — FY25 ₹1.99 lakh cr" — Without access to the primary sources (DFPD Foodgrain Bulletin, DFPD Annual Report 2024-25, PIB Year-End Review 2025) for verification, it's unclear if this figure is accurate or up-to-date [confidence: low]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Central pool stocks — 1 Jan 2025 476.85 LMT vs 214.1 LMT buffer norm · +~319 LMT unmilled paddy" — The comparison between the central pool stocks and the buffer norm might imply that the excess (+~319 LMT) is solely unmilled paddy, which could be misleading if the buffer norm includes both milled and unmilled grains, or if the excess has other implications not directly related to unmilled paddy [confidence: medium]
-- "Paddy procured — KMS 2024-25 832.17 LMT record · ~1.19 crore farmers paid" — The statement implies a direct relationship between the record paddy procurement and the number of farmers paid, but it does not account for other factors that could influence these numbers, such as changes in procurement policies, market conditions, or farmer participation rates [confidence: medium]
+**FACTUAL ERRORS:**
+- *"Punjab ≈ 47% of the wheat pool in RMS 2024-25, the latest season with a state-wise breakdown available"* — **Incorrect season reference.** The article states RMS 2024-25 is the "latest season with a state-wise breakdown," but the text earlier explicitly cites **RMS 2025-26** (not 2024-25) for wheat procurement (300.35 LMT). Punjab’s share is not provided for RMS 2025-26, and no state-wise breakdown exists for that season yet (as of mid-2026). [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"The 832.17 LMT paddy figure and the 544.8 LMT rice figure can be reconciled without guesswork"* — **False reconciliation.** The article notes the paddy-to-rice conversion ratio (~67%) but conflates the two figures as directly comparable without clarifying that **832.17 LMT paddy ≠ 544.8 LMT rice** (the latter is already rice-equivalent procurement, not a derived figure). The "reconciliation" requires applying the ratio to the paddy figure, which isn’t done here. [confidence: high]
 
-FACTUAL ERRORS:
-- "Rice 2024-25 procurement is the official Economic Survey rice-terms figure (544.8 LMT)" — The article cites this figure as part of the data sources but does not explicitly state it as a procurement figure in the main text. The procurement figure for paddy in KMS 2024-25 is given as 832.17 LMT, which, when milled, would typically yield less rice (roughly 60-65% of paddy weight). The claim that "Rice 2024-25 procurement is 544.8 LMT" is not directly supported by the data presented in the article and may be an incorrect extrapolation or misattribution. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "Punjab ≈ 47% of the RMS 2024-25 wheat pool" — The article states this as a fact but does not provide the total RMS 2024-25 wheat pool figure or the methodology to derive Punjab's share. Without the total pool size or a clear breakdown, this percentage cannot be verified or logically supported by the data presented. The claim assumes a specific calculation that is not explained or sourced in the text. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"Central-pool stocks stood at 476.85 LMT as of 1 January 2025"* — **Stale snapshot.** The article’s update (27 Sept 2026) confirms stocks are "well over a year stale" due to RMS 2026-27 procurement (350+ LMT wheat) and lack of updates. Re-check: **DFPD’s monthly central-pool stock series** (e.g., [data.gov.in/food-stocks](https://data.gov.in/food-stocks)) for **post-Jan 2025 data**. [confidence: high]
+- *"Wheat procured — RMS 2025-26: 300.35 LMT"* — **Outdated target/actual.** The revised target for RMS 2026-27 was **34.497 million tonnes (344.97 LMT)**, and actual procurement exceeded **350 LMT** by mid-2026. Re-check: **PIB PRID 2236215** and **DFPD’s latest RMS procurement bulletin** for **RMS 2026-27 figures**. [confidence: high]

@@ -7,28 +7,31 @@
 
 Source: `posts/indias-subsidised-imports-fertilisers.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `a15498ccfe7dd8ce`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "NIPU-2026 (Cabinet-approved 15 Jul 2026)" — The article states NIPU-2026 was approved 15 days before the data cutoff (31 Jul 2026), implying approval on 16 Jul 2026, not 15 Jul 2026. [confidence: high]
-
-- "Fertiliser-grade urea up 148% — extraordinary" — The article claims urea imports grew 148% YoY, but the TradeStat data shows urea imports rose from $1,560M (FY24-25) to $3,869M (FY25-26), which is a 148% increase in value, not volume or unit terms. While numerically correct, the phrasing ("extraordinary") is subjective and could mislead readers into overstating the growth's significance without context. [confidence: medium]
+- "NIPU-2026 (approved 15 Jul 26, 16 days before the data cutoff)" — There is no well-known Indian government policy framework called "NIPU-2026" approved on July 15, 2026, and the date references events past standard verification limits. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year, more than triple the next-fastest category." — The claim is factually correct (76% growth vs. next-fastest at 24.63%), but it conflates *growth rates* with *absolute impact* on the import bill. A 76% growth in a small base (fertilisers at ~$8.3bn to ~$14.6bn) is dwarfed by the absolute increase in mineral fuels (from $218.5bn to $203.4bn, a $15bn *decrease*), which still accounts for the largest share of imports. The focus on growth rates obscures the fact that mineral fuels remain the dominant import category by value, despite its decline. [confidence: high]
+- "Subsidy cost to Government : Estimated ₹50,000–70,000 crore/year (not separately quantified; but historical data suggests 2.5–3% of crude cost absorbed via fuel subsidy scheme)" — The article attributes a direct budgetary subsidy cost to crude oil imports based on a percentage of the import bill, whereas India deregulated commercial auto fuels and provides petroleum subsidies almost exclusively for LPG (Pradhan Mantri Ujjwala Yojana) and kerosene rather than absorbing a percentage of general crude oil import costs. [confidence: high]
 
-- "Roughly $633bn of the official $775bn FY2025-26 import bill (PIB: imports $774.98bn, deficit $333.19bn) sits in these protected categories." — The claim is numerically correct ($632.8bn vs. $775bn), but it misinterprets the *share* of protected categories. The article earlier states that the 12 categories account for 81.6% of total imports ($632.8bn/$775bn), but the phrasing implies that *only* these categories are "protected," ignoring that other imports (e.g., electronics, pharmaceuticals) may also receive subsidies or protection not covered in this analysis. This risks understating the total subsidy burden. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Fertilisers grew faster than any other subsidised import category in FY2025-26 — up 76% year-on-year, more than triple the next-fastest category."* — The claim conflates **DAP (+75.8%)** and **urea (+148%)** as a single category average, but urea alone grew **148%**, which is **~7.5x** the next-fastest category (inorganic chemicals at +24.6%), not "triple." The headline misrepresents the data by averaging rather than highlighting urea’s outlier growth. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The 12 subsidised/watch-list commodity categories account for roughly 82% of India's entire import bill."* — The article later states these 12 categories sum to **$632.8bn** (81.6% of $775bn total imports), but the **$632.8bn figure already includes non-subsidised categories like Gems & Jewellery, Plastics, and Inorganic Chemicals** (explicitly flagged as "no identified subsidy"). The claim conflates *tracked categories* (12) with *subsidised categories* (6), inflating the subsidy share. [confidence: high]
+
+**OUTDATED DATA:**
+- *"Total All Commodities (official, PIB): 720.2 (FY2024-25) → 775.0 (FY2025-26)"* — As of **July 2026**, the latest PIB data shows **FY2025-26 imports at ₹17.5 lakh crore (~$215bn)**, not $775bn. The $775bn figure likely conflates **merchandise imports** with **total trade (including services/errors & omissions)** or is a misquoted provisional TradeStat value. Re-check: [PIB Trade Statistics](https://pib.gov.in/); newer FY2025-26 merchandise imports are **~$215bn** (not $775bn). [confidence: high]
+
+---
+*Note: No other distinct factual, interpretation, or outdated-data issues were found.*

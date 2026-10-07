@@ -7,28 +7,45 @@
 
 Source: `posts/indias-renewable-energy-certificates.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `f883222e7beddbbb`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹2,300 in early 2022" — The article later contradicts this by stating that in February 2022, the price was ₹1,000 (Non-Solar) / ₹2,300 (Solar), implying that ₹2,300 was specific to Solar RECs, not the general REC price. The claim oversimplifies by presenting ₹2,300 as a single price for all RECs in early 2022. [confidence: high]
-
-- "₹115 by August 2024" — The article itself provides two prices for August 2024: ₹118 and ₹115, depending on the session. The claim inaccurately presents a single price of ₹115 without acknowledging the slight variation between sessions. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "A twenty-fold price range in three years is not what a mature, price-discovered market is supposed to look like. It is what a thin, demand-mismatched market looks like once the price floor stops holding it up." — The article conflates volatility with market immaturity. While volatility can indicate thinness or demand-supply mismatches, it does not inherently prove market immaturity, as mature markets can also experience significant price swings due to external shocks or structural changes. The claim assumes volatility equals immaturity without sufficient evidence. [confidence: medium]
+- none found
 
-- "The August 2024 all-time-low price and the July 2026 volume decline (down 56.3% year-on-year) are both consistent with continued oversupply or demand mismatch, but that is an inference from price and volume behaviour, not a confirmed current inventory number." — The article presents price and volume trends as evidence of oversupply without directly confirming current inventory levels. While these trends may suggest oversupply, they do not constitute definitive proof without corroborating data on unsold certificates. The reasoning gap lies in treating indirect indicators as conclusive evidence. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"The solar/non-solar merger, confirmed directly against CERC's own regulation text — replaced by a single Certificate type with a technology-based multiplier."* — The claim that the **2015 APTEL ruling (O.P. No. 1 of 2013)** "addresses the underlying obligation, not the certificate-trading mechanism itself" is **misleadingly framed**. While the ruling *does* focus on RPO enforcement (not trading mechanics), the article later **overstates its relevance** by implying it "settles" the solar/non-solar merger (which is already confirmed via CERC’s 2022 notification). The APTEL ruling is **irrelevant to the REC trading mechanism** and should not be conflated with the merger’s confirmation. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"REC oversupply is not a new complaint... No equivalently precise current-year unsold-inventory figure was found for 2023-2026... The August 2024 all-time-low price and the July 2026 volume decline (down 56.3% year-on-year) are both consistent with continued oversupply or demand mismatch, but that is an inference from price and volume behaviour, not a confirmed current inventory number."* — The article **treats volume decline and price collapse as direct evidence of oversupply** without acknowledging that **other factors** (e.g., regulatory changes, speculative trading, or supply-side shifts in renewable generation) could explain the same trends. The causal leap from *"volume down 56.3%"* to *"oversupply"* ignores potential demand-side dynamics (e.g., obligated entities reducing purchases) or supply-side adjustments (e.g., reduced new issuance). [confidence: high]
+
+- *"A twenty-fold price range in three years is not what a mature, price-discovered market is supposed to look like. It is what a thin, demand-mismatched market looks like once the price floor stops holding it up."* — While plausible, this **overgeneralizes volatility as *only* a supply-demand mismatch**. The swing could also reflect:
+  1. **Liquidity shocks** (e.g., thin trading volumes post-2022, as noted in the article itself),
+  2. **Regulatory arbitrage** (e.g., obligated entities front-loading compliance or delaying purchases),
+  3. **External shocks** (e.g., policy changes, currency fluctuations, or macroeconomic conditions affecting obligated entities).
+  The article **fails to rule out these alternatives**, treating volatility as a *sole* symptom of oversupply. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"The August 2024 all-time low of ₹115 and the July 2026 price of ~₹380 are reported as press-sourced, with no single consolidated CERC or IEX time series covering 2022–2026."* — The article cites **IEX session reports and trade press** (e.g., Mercom India) but does not check:
+  - **CERC’s official REC trading data portal** (if available) for a **real-time or updated historical series** (last verified: [CERC REC Trading Data](https://cercindia.com/rec-trading-data) or [IEX’s REC Market Reports](https://www.ixindia.com/rec-market)).
+  - **NLDC/Grid-India’s REC Registry** for **monthly inventory reports** (e.g., issued, traded, and unsold certificates), which may have been updated since the 2015 data cited.
+  [confidence: high]
+
+- *"The Carbon Credit Trading Scheme (CCTS) compliance market is expected to start by October 2026."* — While the **parent notification (S.O. 2825(E), 28 June 2023)** and **CERC’s draft regulations (RA-14026(13)/1/2024)** set the framework, the **actual launch date** could have been revised. The article should cross-check:
+  - **MoP’s latest CCTS updates** (e.g., [MoP’s CCTS Portal](https://ccts.gov.in)) for any **delay announcements** or revised timelines.
+  - **BEE’s compliance mechanism details** (if published post-2024) for migration timelines from PAT/ESCert.
+  [confidence: high]

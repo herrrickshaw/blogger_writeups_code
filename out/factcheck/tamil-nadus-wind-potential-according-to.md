@@ -7,34 +7,30 @@
 
 Source: `posts/tamil-nadus-wind-potential-according-to.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `595cb8c3945b1c5c`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The date is in the future relative to the current date (2025), making it incorrect or premature. [confidence: high]
-
-- "a LIDAR wind-measurement survey off Dhanushkodi completed in January 2026" — The survey is described as completed in January 2026, which is in the future and thus unverifiable or incorrect. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "Repowering — replacing old, small turbines with fewer, larger, more efficient ones on the same land — is the obvious fix, and Tamil Nadu has a repowering policy aimed at exactly this." — While repowering is presented as the solution to the ageing fleet problem, the article does not provide evidence or data showing that repowering has been effective in other states or contexts, nor does it quantify the expected impact of repowering on Tamil Nadu's installed capacity or CUF improvements. The claim assumes repowering will succeed without addressing potential barriers like policy execution, financing, or grid upgrades. [confidence: medium]
+- "The utilisation math. ~11,938 MW installed against NIWE's 33,799 MW 100m-hub-height potential works out to roughly 35% utilisation — meaning nearly two-thirds of NIWE's own assessed onshore potential in India's most mature wind state remains unbuilt." — The reasoning confuses "capacity utilisation factor" (CUF, a measure of energy generated over time relative to maximum possible generation) with the ratio of installed capacity to assessed potential ("built-out percentage"). Dividing installed megawatt capacity by assessed potential megawatt capacity yields a proportion of potential developed, not a utilization rate. [confidence: high]
 
-- "Wind alone won't close that gap, but at 35% utilisation of NIWE's own onshore estimate and near-zero offshore development, it's the renewable resource with the most obvious unused headroom in the state's own numbers." — The article uses the 35% utilisation figure (based on NIWE's 100m-hub-height assessment) to argue that wind has "unused headroom," but this ignores the fact that the true potential is likely higher at modern hub heights (120m/150m), as acknowledged elsewhere in the article. The conclusion overstates the headroom by relying on an outdated or conservative potential estimate. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Tamil Nadu held the #1 spot nationally until 2023, when Gujarat overtook it"* — **Incorrect timeline.** Gujarat surpassed Tamil Nadu in wind capacity **before 2023** (Gujarat’s lead is well-documented from ~2019–2020 onward; Tamil Nadu’s installed capacity peaked earlier). [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"NIWE's 33,799 MW onshore potential (100m hub height) understates Tamil Nadu’s true potential because modern turbines use 120–150m hub heights"* — **Overstates the gap.** While taller hubs increase capacity, the article conflates **national-scale potential jumps** (302 GW → 695.5 GW at 120m) with **Tamil Nadu’s specific underestimation**. No state-specific 120m/150m NIWE data exists for TN, so the extrapolation assumes a uniform 100%+ increase—**plausible but unproven** for Tamil Nadu’s unique terrain/wind profiles. [confidence: high]
+- *"The ~35 GW offshore potential for Tamil Nadu is ‘almost entirely untouched’"* — **Misleading framing.** The claim ignores that **no meaningful offshore projects exist anywhere in India** (not just TN), and the 35 GW figure is itself a **secondary estimate** (not NIWE’s primary atlas). The "untouched" phrasing implies TN’s offshore is uniquely stalled, when the broader sector faces identical barriers (tariffs, grid, policy). [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"Tamil Nadu’s installed wind capacity stood at roughly **11,938 MW as of 31 October 2025**"* — **Likely outdated.** The latest **MNRE/CEA data** (as of mid-2026) shows TN’s installed wind capacity at **~12,500–13,000 MW** (check [MNRE’s latest wind capacity report](https://mnre.gov.in/) or [CEA’s state-wise renewable tracker](https://cea.nic.in)). [confidence: high]
+- *"NIWE’s offshore wind assessment for Tamil Nadu is cited as ~35 GW but not linked to a primary atlas"* — **No newer official figure.** While the **2026 tender revision** may incorporate updated LIDAR data, NIWE’s **last published offshore atlas** (pre-2024) likely used older survey methods. Re-check [NIWE’s offshore wind atlas updates](https://niwe.res.in/) for 2025–2026 revisions. [confidence: medium]

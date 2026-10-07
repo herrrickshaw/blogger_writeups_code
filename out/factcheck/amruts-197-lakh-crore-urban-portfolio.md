@@ -7,37 +7,34 @@
 
 Source: `posts/amruts-197-lakh-crore-urban-portfolio.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `6002c8570164c770`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "AMRUT 2.0, the urban counterpart to Jal Jeevan Mission's rural water push, has approved ₹1.97 lakh crore across 8,777 projects nationally." — The article states the date as "29 August 2026," but the Lok Sabha answer cited is dated "06.08.2026" (6 August 2026). This is a chronological inconsistency, as the article cannot be published after the Lok Sabha answer it references. [confidence: high]
+- none found
 
-- "Water Supply is 41% of AMRUT's project count nationally but 60% of its total cost" — The article claims Water Supply accounts for 41% of projects (3,572 out of 8,777) and 60% of costs (₹1,18,952.82 crore out of ₹1,97,201.55 crore). However, the percentages do not match the raw numbers provided in the table:
-  - Project count: 3,572 / 8,777 ≈ 40.7% (not 41%)
-  - Cost: ₹1,18,952.82 crore / ₹1,97,201.55 crore ≈ 60.3% (close to 60%)
-The discrepancy in the project count percentage (40.7% vs. 41%) suggests a rounding or calculation error. [confidence: high]
+INTERPRETATION ERRORS:
+- none found
+
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"AMRUT 2.0 has approved ₹1.97 lakh crore across 8,777 projects nationally"* — The exact figure in the linked **MoHUA State Wise List** is **₹1,97,201.55 crore** (not ₹1.97 lakh crore, which would be ₹19,700 crore). The article’s opening claim rounds this to ₹1.97 lakh crore, which is **incorrect** (confidence: **high**).
+- *"Water supply is 41% of projects but 60% of the money"* — The **all-India totals** in the table confirm this (3,572/8,777 projects = ~40.7%; ₹1,18,953/₹1,97,201 ≈ 60%), but the **Lok Sabha answer (06.08.2026)** cites **₹1,18,968.38 crore** for water supply—**₹15.56 crore higher** than the article’s table (₹1,18,952.82 crore). While the discrepancy is minor (0.01%), the article **does not reconcile this** (confidence: **medium**).
 
 ---
 
-INTERPRETATION ERRORS:
-- "Water Supply is 41% of AMRUT's project count nationally but 60% of its total cost — by a wide margin the most capital-intensive of the four components." — While the claim that Water Supply is the most capital-intensive component is factually correct (60% of costs vs. 41% of projects), the article does not provide any context or data to support the assertion that it is "by a wide margin" the most capital-intensive. The comparison to other components (e.g., Sewerage & Septage Management at 36% of costs) does not quantify the "margin" or explain why 60% vs. 36% qualifies as a "wide margin." The conclusion lacks a clear benchmark or justification. [confidence: medium]
+**INTERPRETATION ERRORS:**
+- *"Water supply and sewerage are infrastructure-heavy, capital-intensive categories, unlike Water Body Rejuvenation and Parks & Green Space"* — **True as a general statement**, but the article **overstates the causal link** between project type and capital intensity. The **₹1,97,201.55 crore total** includes **sanctioned costs**, not actual expenditure. Without **funds released/expenditure data** (which MoHUA does not publish), we cannot confirm whether these categories are *actually* more capital-intensive in execution—or if higher sanctioned costs reflect **easier approval thresholds** for water/sewerage projects (e.g., larger per-project budgets). The claim conflates **sanctioned cost** with **real-world capital intensity** (confidence: **high**).
+- *"Uttar Pradesh, Maharashtra, Karnataka, Gujarat, and Tamil Nadu together account for over half of India’s AMRUT water-supply capital"* — **Arithmetically correct** (₹62,014/₹1,18,953 ≈ 52%), but the article **does not account for population/urban area disparities**. These states are **highly urbanized** (e.g., Maharashtra’s Mumbai, UP’s Kanpur), while smaller states (e.g., Meghalaya, Sikkim) have far fewer projects. The claim **implies equal "contribution" per capita**, which is misleading without normalization (confidence: **high**).
 
-- "Sewerage & Septage Management, despite being only 7% of project count, still accounts for 36% of the total AMRUT cost — both water supply and sewerage are infrastructure-heavy, capital-intensive categories, unlike Water Body Rejuvenation and Parks & Green Space, which together are 26% of project count but just 3.6% of total spend." — The article correctly notes that Sewerage & Septage Management accounts for 36% of costs despite being only 7% of projects, and that Water Body Rejuvenation and Parks & Green Space together account for 26% of projects but only 3.6% of costs. However, it implies that the high cost share of Sewerage & Septage Management is due to its capital-intensive nature, without providing any evidence or data to support this causal claim. The reasoning assumes that capital intensity is the sole or primary reason for the cost distribution, which may not account for other factors like project scale, complexity, or regional variations. [confidence: medium]
+---
+**OUTDATED DATA:**
+- *"The national figure cross-checks cleanly against an August 2026 Lok Sabha answer on AMRUT 2.0"* — The **Lok Sabha answer (06.08.2026)** is **not outdated**, but the article’s **MoHUA "State Wise List"** (used as primary source) lacks a **date-stamp or version history**. While the **₹1,97,201.55 crore** figure aligns with the Lok Sabha answer, readers cannot verify if this is the **latest snapshot** or if later revisions exist. The article **should note that MoHUA’s portal lacks archival snapshots** for cross-checking (confidence: **high**).
+- *"The 'Status of Water Supply Projects with Water Treatment Plants' PDF (910 rows, dated as on 02.03.2026)"* — The PDF is **not outdated**, but the article **does not check for newer versions**. Since MoHUA does not publish a **real-time status rollup**, this PDF may now be **superseded by updated data** in the portal’s encrypted project views. The article **should clarify that this is a static snapshot** and encourage readers to verify against the **live portal** (confidence: **medium**).

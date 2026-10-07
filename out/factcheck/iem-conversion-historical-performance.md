@@ -7,42 +7,28 @@
 
 Source: `posts/iem-conversion-historical-performance.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `ea0950e9112bd35f`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The eligibility threshold changed (Rs 50cr → Rs 125cr from Apr 2025) mid-series" — There is no official DPIIT or MSME policy change altering the IEM threshold from Rs 50 crore to Rs 125 crore in April 2025. The MSME investment ceiling for medium enterprises was set at Rs 50 crore in the July 2020 notification, above which undertakings file an IEM. [confidence: high]
-- "the partial-year 'Up to Dec 2025' row runs higher" / "2025's own Part A count is undercounted mid-year" — In a calendar-year dataset (January–December), data reported "Up to Dec" covers the entire 12-month period, making it a full calendar year rather than a "partial-year" or "mid-year" count. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "the raw implemented value (Rs 4.94L cr) is the highest single year on record, and it happened while the Part A base (Rs 6.02L cr) sat well below 2021's outlier peak (Rs 7.71L cr), meaning most of 2024's Part A filings weren't just filed but built." — This is a false cohort inference that contradicts the author's own caveat. Because IEM Part B implementation is a flow measure with a multi-year gestation lag (typically 2–3 years), Part B implemented in 2024 reflects projects filed in prior years (such as 2021–2023), not the cohort realization of proposals filed in 2024 itself. [confidence: high]
-- "This is the year IEM implementation (Rs 4,93,765cr, CY2024 as reconciled in the Dec-2025 Annual Report vintage) overtook FY2024-25 FDI equity inflow (Rs 4,21,929cr) for the first time — domestic industrial capex outpacing foreign investment as a growth engine" — This is an apples-to-oranges comparison. IEM implementation tracks total investment in large-scale manufacturing/industrial units (which can be financed by domestic or foreign capital, leading to double-counting with FDI), whereas FDI equity inflows cover foreign cross-border capital across all sectors (including services, IT, and financial services). Thus, comparing the two figures cannot show that "domestic capex" outpaced foreign investment. [confidence: high]
+- "Conversion (Part B implemented ÷ same-year Part A filed) is a same-period flow ratio, not a cohort match: this year's Part B often implements filings from 2-3 years earlier, so a high ratio can mean either "government executing faster" or "an old backlog finally landing." ... Conversion % | Note | ... 2024 | 602,082 | 986 | 493,765 | 1,165 | 82.0 |" — The article computes a conversion rate by dividing Part B implemented in year $t$ by Part A filed in year $t$. Because factory construction and implementation take multiple years, the numerator (Part B in year $t$) does not correspond to the denominator (Part A in year $t$). Dividing contemporaneous flows produces mathematically volatile and misleading ratios that can exceed 100% simply due to denominator drops or backlog clearing, making a "conversion rate" calculated this way structurally flawed for measuring actual project conversion. [confidence: high]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Rs 4,21,929cr" (FDI equity inflow for FY2024-25) — This figure cannot be verified against publicly available data and may require cross-checking with official sources [confidence: medium]
-- "Rs 15,18,861cr" (Gujarat 2019 investment) — This figure seems unusually high and may be an error in the source data, but without further information, it's difficult to confirm [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "2024 first year IEM implementation > FDI equity inflow" — This comparison may not be entirely accurate since IEM implementation and FDI equity inflow are reported on different calendars (calendar-year vs. fiscal-year), which could lead to an apples-to-oranges comparison [confidence: high]
-- "The national conversion-rate story is thus not evenly distributed — it is disproportionately a story about a handful of large industrial states executing faster" — This conclusion may be based on incomplete data, as the article mentions that the eligibility threshold changed in April 2025, which could affect the comparability of year-over-year IEM counts [confidence: medium]
+**FACTUAL ERRORS:**
+- *"Rs 4.94L cr CY2024 implemented — the best year on record"* — The claim conflates **calendar-year (CY) 2024 IEM Part B (Rs 493,765 cr)** with the earlier **2017 Part B value (Rs 71,396 cr)** for comparison. The highest *recorded* Part B value is actually **Rs 583,096 cr (up to Dec 2025, partial-year)**, not CY2024. [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"2024 first year IEM implementation > FDI equity inflow"* — The comparison mixes **calendar-year (CY) IEM Part B (Rs 493,765 cr, 2024)** with **fiscal-year (FY) FDI equity inflow (Rs 421,929 cr, 2024-25)**. The periods overlap but are not identical (CY2024 IEM vs. FY2024-25 FDI), and the FDI figure is for a *fiscal year* (April–March), not a calendar year. [confidence: high]
 
-FACTUAL ERRORS:
-- "Rs 4.94L cr CY2024 implemented — the best year on record" — The article later contradicts this by stating that the "Up to Dec 2025" figure (Rs 5.83L cr) is provisional and likely to be revised upward, implying CY2024 may not be the final "best year on record." Additionally, the Rs 4.94L cr figure is cited as CY2024, but the source material (DPIIT Annual Reports) typically reports fiscal years (e.g., FY2024-25), not calendar years. [confidence: high]
-
-- "2019 Part B EXCLUDED — source defect: AR2022-23 prints Gujarat 2019 at Rs 15,18,861cr (~6x all-India)" — The claim that Gujarat's 2019 Part B investment was printed at Rs 15,18,861 crore (15.19 lakh crore) is implausibly high (e.g., India's total GDP in 2019 was ~Rs 147 lakh crore). This suggests a typographical error in the article (likely a misplaced comma or incorrect unit), as the DPIIT Annual Reports do not report such extreme values. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "2024 first year IEM implementation > FDI equity inflow" — The article claims that CY2024 IEM implementation (Rs 4.94L cr) overtook FY2024-25 FDI equity inflow (Rs 4.22L cr), implying domestic industrial capex outpaced foreign investment. However, this compares a **calendar-year** figure (IEM) to a **fiscal-year** figure (FDI), which are not directly comparable due to differing timeframes and reporting conventions. The overlap is not identical, and the comparison conflates two different accounting periods. [confidence: high]
-
-- "The national conversion-rate story is thus not evenly distributed — it is disproportionately a story about a handful of large industrial states executing faster, not a uniform national acceleration." — While the state-level data shows concentration in Gujarat, Odisha, and Maharashtra, the article does not provide evidence that this disproportionality is *not* reflective of a broader national trend. The claim assumes that the remaining states' performance is irrelevant or stagnant without supporting data or analysis. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"Source: DPIIT Annual Reports 2018-19 through 2025-26 (reconciled across vintages)"* — The **2025 data is provisional ("Up to Dec 2025")** and likely to revise further in the **2026-27 Annual Report** (released post-publication). The **2019 exclusion** is noted but lacks a formal erratum; the **2025 partial-year figure (109.9%)** is explicitly flagged as upward-revising. [confidence: high]

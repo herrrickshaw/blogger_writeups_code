@@ -7,36 +7,34 @@
 
 Source: `posts/india-ec-approval-funnel-parivesh-20.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `e4dda9b923e1a6b6`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
 - none found
 
 INTERPRETATION ERRORS:
-- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection." — Conflating active pipeline backlog with "attrition." Applications currently pending review across ToR, screening, and appraisal are ongoing work-in-progress, not lost or terminated proposals (attrition). [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "113,970 EC proposals" — The article does not provide a source to verify this specific number, but it does mention that the data comes from the PARIVESH 2.0 open API, which may be a reliable source. However, without direct access to the API or more information about the data collection, the accuracy of this number cannot be confirmed. [confidence: medium]
-- None other found.
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "The real attrition is auto-delisting (22%) and pipeline backlog (31% of live still pending) - not rejection." — This statement implies that auto-delisting and pipeline backlog are the primary causes of proposal failure, while rejection is not a significant factor. However, the article also states that 6,954 proposals were not approved, which includes 2,553 rejections. This number, although smaller than auto-delisted and pending proposals, still represents a significant portion of proposals that did not move forward. The statement may downplay the importance of rejection as a factor in proposal failure. [confidence: medium]
-- None other found.
+**FACTUAL ERRORS:**
+- *"Only 49% of these EC proposals are fresh new projects"* — The claim conflates **proposal types** (49% fresh projects) with **grant counts** (54,406 total grants, including re-appraisals/amendments). The 54,406 figure **overstates distinct new projects** by including 51% non-fresh proposals (re-appraisals, transfers, expansions). The article later clarifies this but the initial framing risks misleading readers into interpreting 54,406 as new-project grants.
+  [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"The real attrition is auto-delisting (22% of filed) and pipeline backlog — not rejection"* — While true in terms of **proposal volume lost**, this ignores that **rejection rates vary by sector/project type**. The 2.2% rejection rate (2,553/113,970) may mask **higher rejection rates for high-risk projects** (e.g., coal mines, industrial plants) that are statistically drowned out by low-risk re-appraisals. The claim treats rejection as uniformly negligible, which may obscure **selective environmental scrutiny** for certain categories.
+  [confidence: high]
 
-FACTUAL ERRORS:
-- "Only 49% of these EC proposals are fresh new projects" — The article does not provide a source or methodology to verify this claim. The percentage appears to be an unsupported assertion rather than a verified fact. [confidence: low]
+**OUTDATED DATA:**
+- *"PARIVESH 2.0 open API, advanceSearchData EC register (2022–2026)"* — The dataset is **not explicitly dated to a fiscal year or quarter**; however, PARIVESH’s API typically reflects **real-time but non-official snapshots**. For official figures, readers should cross-check with the **MoEFCC’s latest annual report** (e.g., *Environmental Status Report 2023–24*) or the **Ministry’s latest EC clearance statistics** (published annually).
+  [confidence: medium]
 
-INTERPRETATION ERRORS:
-- "Grant rate of DECIDED proposals: 88.7%" — The claim that "once a proposal reaches a decision, it is overwhelmingly approved" is an overgeneralization. The grant rate is calculated as granted ÷ decided, but the article does not account for the fact that "decided" proposals may include withdrawn or returned applications, which are not rejections but also not approvals. This inflates the perceived approval rate. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+*Note: No other categories triggered errors based on the provided text.*

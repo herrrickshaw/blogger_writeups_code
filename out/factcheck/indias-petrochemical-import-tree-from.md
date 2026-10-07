@@ -7,28 +7,35 @@
 
 Source: `posts/indias-petrochemical-import-tree-from.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `7374365571b4de9c`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹→$ at ₹86" — The exchange rate used (₹86 per USD) is outdated. As of mid-2024, the INR/USD exchange rate is closer to ₹83–84 per USD, not ₹86. [confidence: high]
-
-- "Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC" — The term "COTC" (Cost of Total Conversion) is not a standard or verifiable metric in publicly available refining literature. The claim lacks clarity and verifiability. [confidence: medium]
+- "₹→$ at ₹86" — The USD/INR exchange rate of roughly ₹86 is premature or factually incorrect for the 2023–25 historical period cited in the article (during which the exchange rate traded mostly in the ₹82–₹84 range). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "As ethanol/EV free petrol-range volume, cracking it into these products captures the petrochemical premium (Digital Refining: +$1.5–2/bbl marginal, $60–80/bbl full COTC) and erases an import." — The claim implies a direct causal link between cracking petrol-range streams (like naphtha) into petrochemicals and the elimination of imports, but it does not account for India's existing refining capacity, feedstock availability, or the economic feasibility of such a shift. The "petrochemical premium" figures are also not clearly tied to India-specific data or verifiable sources. [confidence: high]
+- "The ethylene and propylene chains — the highest-volume, most commodity-like products (polyethylene, PVC, polypropylene) — carry the lowest import dependence on this list, roughly 20–40%... The dependence problem sits almost entirely one layer downstream, in the specialty and engineering products... styrene monomer and acrylonitrile at essentially 100% import dependence, bisphenol-A/polycarbonate at 90–100%, and the two isocyanates... MDI and TDI — both at 85–90%." — Comparing import dependence percentages across different stages of a value chain (petrochemical monomers/polymers versus engineering plastics/polyurethanes) as if they measure the same vulnerability is an apples-to-oranges comparison. Import dependence on raw or intermediate precursors (like styrene or MDI) does not automatically mean the downstream end-market has a lower absolute tonnage deficit than bulk polymers, since a 30% import dependence on massive-volume polyethylene can represent a much larger absolute import bill and domestic supply gap than a 100% dependence on a low-volume specialty chemical. [confidence: medium]
 
-- "The deepest, highest-value gaps — polycarbonate, MDI/TDI, nylon, ABS/ACN, styrene — cluster in the benzene/propylene chains: engineering plastics & polyurethanes, ~85–100% imported." — While the products listed are indeed heavily imported, the claim conflates "high import dependence" with "gaps" without demonstrating that these gaps are due to a lack of domestic production capacity or inefficiencies in the benzene/propylene chains. The reasoning assumes that import dependence equals an unmet domestic need, without addressing substitution potential or policy constraints. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"₹1.25 lakh cr high-petrol-link substitutable imports / yr (~$15 bn)"* — The conversion from ₹1.25 lakh crore to ~$15 bn assumes an exchange rate of **₹86 per USD**, but the article’s disclaimer later notes the conversion uses *"repo india-omc-fuel-fleet-model"* (likely a proprietary or outdated model). As of mid-2024, the effective exchange rate for trade settlements (OMC) is closer to **₹83–84 per USD**, making the $15 bn figure **overstated by ~2–3%** [confidence: high].
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The ethylene and propylene chains... carry the lowest import dependence... because India already runs large-scale crackers for them at Reliance, ONGC Petro-additions and others."* — While true for **basic polymers** (e.g., polyethylene, polypropylene), this ignores that **domestic crackers often export intermediates** (e.g., ethylene/propylene) to avoid tariffs, then re-import finished goods (e.g., PVC, styrene) at higher costs. The "low dependence" claim conflates **intermediate production capacity** with **final product self-sufficiency** [confidence: high].
+
+- *"Methanol... is the one entry on this list with a weak link to petrol-range refining"* — While methanol’s feedstock (natural gas) differs from naphtha/reformate, the article later states it competes with **petrol-derived products for downstream demand** (formaldehyde, acetic acid). This creates a **circular dependency**: methanol imports displace some petrol-derived chemicals, but petrol-derived chemicals also displace methanol-derived ones, making the "weak link" framing misleading for substitution policy [confidence: medium].
+
+---
+**OUTDATED DATA:**
+- *"Values approximate (MoC Statistics-at-a-Glance · DGCI&S/TradeStat · industry, 2023–25)"* — The **2022 ITC-HS classification** referenced is outdated; India’s **2023 ITC-HS revision** (aligned with WCO 2022) was published in **April 2023** and applies to FY24+ data. Readers should cross-check codes on the **DGFT’s updated ITC-HS portal** [confidence: high].
+
+- *"Import-dependence bands... drawn from... industry commentary"* — No official **annual import-dependence ratios** exist for these chemicals, but the **Department for Promotion of Industry and Internal Trade (DPIIT)** publishes **quarterly trade data** (e.g., [DPIIT Trade Statistics](https://dpiit.gov.in/)) and the **Ministry of Commerce’s latest "Statistics-at-a-Glance"** (FY25, released **July 2024**) could provide updated bands. The article’s 2023–25 window is now **obsolete for FY24–25** [confidence: high].

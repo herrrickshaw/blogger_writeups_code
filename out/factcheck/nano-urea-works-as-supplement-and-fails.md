@@ -7,28 +7,37 @@
 
 Source: `posts/nano-urea-works-as-supplement-and-fails.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `739a480d78a13093`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "In March 2026 the government cut the permitted nano dose from 50 per cent to 25." — The article later clarifies that the amendment was made on **9 March 2026**, not just "March 2026." While the month is correct, the lack of a specific date in the initial claim could mislead readers about the exact timing of the policy change. [confidence: high]
-
-- "A 2026 study funded by IFFCO found 50 per cent nitrogen reduction caused 16–19 per cent yield penalties — while 25–34 per cent reduction plus two sprays held yield." — The article later specifies that the study was published on **29 April 2026**, not just "2026." The year is correct, but the lack of a specific date in the claim could obscure the timing of the research. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The claim was that nano urea achieves 85 to 90 per cent nutrient use efficiency against roughly 25 per cent for granular urea — a plausible-sounding number, since most granular nitrogen genuinely is lost to volatilisation and leaching." — While the nutrient use efficiency figures may be technically correct, the article does not provide evidence that the **85–90 per cent efficiency** claim was ever officially substantiated or peer-reviewed in the context of the marketed protocol (50% substitution). The comparison is misleading because it implies that nano urea's efficiency directly translates to field-level yield outcomes under the marketed substitution rate, which the trials show it does not. [confidence: high]
+- none found
 
-- "The product was not fraudulent. The dose was wrong, and the dose was the part that was marketed." — This conclusion conflates **marketing claims** with **regulatory compliance**. While the trials show that 50% substitution reduces yields, the article does not establish that the marketing of nano urea as a "substitute" was inherently fraudulent. The Fertiliser Control Order amendments regulate the permitted dose, but they do not retroactively invalidate the original marketing claims unless proven false at the time. The claim assumes intent without evidence of misrepresentation. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"The independent trial that prompted it [the March 2026 dose reduction] found 50 per cent substitution cut rice yield 13 per cent and wheat 17.2 per cent"* — The article itself later clarifies that the **Punjab Agricultural University trial (December 2024)**—the only independent study cited—was published *before* the March 2026 amendment. The claim conflates causality: the amendment was not *prompted* by this trial (which was already public) but rather aligned with it after broader regulatory scrutiny (e.g., the February 2026 ICAR trials mandate). [confidence: high]
+
+- *"Nano urea at 4% N in 2022-23 and 20% N in 2024"* — The IFFCO-funded *Frontiers in Sustainable Food Systems* study (April 2026) does not specify these exact nitrogen concentrations for *all* trials. The article later notes the study tested "nano-urea at 4% N in 2022-23 and 20% N in 2024" **only for the Varanasi location**, while Guwahati’s concentration is unspecified. The claim generalizes without distinguishing between sites. [confidence: medium]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The product was not fraudulent. The dose was wrong, and the dose was the part that was marketed."* — While accurate in describing the *marketing* misalignment, this oversimplifies the **systemic agronomic and policy context**. The article later acknowledges that nano urea’s efficacy at 25% substitution is modest (15–40 kg N/ha saved) and does not address the **root cause of urea overuse** (subsidy-driven misapplication). Framing it solely as a "dose error" ignores whether even the corrected 25% rate could meaningfully disrupt the **structural over-application** enabled by cheap, subsidized urea. [confidence: high]
+
+- *"Nano urea was marketed as a replacement at double that rate [50%] because the higher number was what made the business case and the policy case work."* — This implies the 50% claim was a **strategic lie**, but the evidence suggests it was a **miscalculated extrapolation**. IFFCO’s own 2021 data (11,000+ farm trials) claimed efficacy at 50% substitution *without* yield penalties—yet later trials (including IFFCO-funded ones) showed failures at that rate. The error was **overconfidence in unvalidated scale-up**, not deliberate deception. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"The Agriculture Minister’s July 2025 letter to chief ministers"* — The article cites this as reported by *Business Today* (April 2026) but does not verify if a **gazetted notification** or official record exists for July 2025. Readers should cross-check with the **Department of Fertilizers’ public correspondence archives** for the exact date and content. [confidence: high]
+
+- *"The February 2026 ICAR bio-efficacy trials"* — The article highlights these as pending but does not note whether **interim results** (e.g., yield/protein data) have been published by mid-2026. ICAR’s latest updates should be checked via their [official portal](https://icar.org.in) for any released findings. [confidence: medium]

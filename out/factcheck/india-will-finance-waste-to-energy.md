@@ -7,28 +7,38 @@
 
 Source: `posts/india-will-finance-waste-to-energy.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `09d416480cfbb2df`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India already has small commercial units running (10 tonnes-per-day plants are a common reference scale)" — The claim implies that 10 tonnes-per-day (TPD) pyrolysis plants are a *common* scale in India, but the article later cites a single example (Nepra) and does not provide broader evidence of widespread 10 TPD commercial operations. The claim lacks sufficient sourcing to verify its generality. [confidence: medium]
-
-- "Delhi burns waste that falls short of its own legal calorific-value threshold" — The article cites the SWM Rules 2016 threshold (1,500 kcal/kg) and notes Delhi's unsegregated waste averages 800–2,150 kcal/kg, but it does not provide *specific* evidence that Delhi's waste *actually* falls below the threshold in practice. The claim assumes the general range applies to Delhi without direct verification. [confidence: medium]
+- "The Solid Waste Management Rules, 2026, effective 1 April 2026 and superseding the 2016 rules, explicitly require that wet waste be composted or bio-methanated..." — The article cites future or fictitious waste management rules (Solid Waste Management Rules, 2026) as already having taken effect, whereas India's governing regulations are currently the Solid Waste Management Rules, 2016. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "China's incineration fleet and its sorting mandates are reinforcing each other, aimed at the same calorific-value problem India's own SWM Rules identify. Delhi's incineration fleet, without a comparably enforced sorting mandate feeding it, is absorbing that problem instead of solving it — burning waste at a calorific value the law already says shouldn't qualify." — The claim suggests that China's sorting mandates *directly* enabled its incineration fleet's success, but the article does not establish a causal link between the two. While sorting improves calorific value, the article does not prove that this was the *primary* reason for China's incineration fleet's scale or efficiency. The comparison is correlational, not causal. [confidence: high]
+- "India already has small commercial units running (10 tonnes-per-day plants are a common reference scale), selling pyrolysis oil at roughly $500 a tonne into cement kilns, brick kilns, and industrial boilers..." — Quoting a global or generalized dollar price per tonne for pyrolysis oil alongside small-scale Indian throughput creates an apples-to-oranges comparison regarding local feedstock costs, tax structures, and regional fuel substitution economics in India. [confidence: medium]
 
-- "robotics and computer vision are real technologies that could eventually substitute for some of that missing sorting capacity, but they are, at best, a more expensive way to buy back what a properly financed segregation shed would have delivered more cheaply at the source" — The claim assumes that AI/robotics sorting is inherently *more expensive* than source segregation without providing comparative cost data. The article acknowledges that AI sorting is still lab-stage and does not cite any operational cost benchmarks for AI sorting at municipal scale, making the cost comparison speculative. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India already has small commercial units running (10 tonnes-per-day plants are a common reference scale), selling pyrolysis oil at roughly $500 a tonne into cement kilns, brick kilns, and industrial boilers"* — The claim of **$500/tonne** for pyrolysis oil in India is unsupported by multiple independent sources (e.g., peer-reviewed studies and industry reports cited in the article’s own sources). The article grades this figure as **"weak"** due to reliance on a single trade source (*plastictooilmachine.com*), while peer-reviewed literature (RSC Sustainability, PMC-indexed studies) does not reference this exact price point. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"AI and robotics are increasingly being asked to do, after the fact and at a premium, what a coordinated bank loan for segregation infrastructure could have done far more cheaply at the source"* — The claim conflates **potential** (lab/pilot-stage robotic sorting) with **current reality** (no deployed AI-based sorting at municipal scale). The article later clarifies that IIIT Hyderabad’s work focuses on **dumping-site detection (GVP monitoring)**, not source segregation, and that broader robotic-sorting research remains **pilot-stage**—not operational at India’s waste volumes. The framing overstates the **imminent scalability** of AI as a substitute for underfunded segregation. [confidence: high]
+
+- *"China’s waste-to-energy fleet is now the world’s largest by a wide margin... because it's paired with sorting, not substituting for it"* — While the comparison highlights China’s **mandated sorting** (Shanghai’s 2019 law) as a **complement** to incineration, it **does not establish** that China’s system is **free of problems**. The article explicitly notes Shanghai’s enforcement costs and provincial variation as **unaddressed gaps**, weakening the claim that China’s approach is a **flawless model**. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"GOBARdhan scheme (Cabinet-approved with a ₹23,731 crore outlay) aims to grow India's compressed-biogas output roughly tenfold"* — The **₹23,731 crore outlay** is correct (primary source: PMO press release), but the **commissioned-plant count** cited (initially 200, later corrected to 132 as of January 2026) is **outdated**. The article’s update (27 September 2026) acknowledges the **132-plant figure** but does not provide a **live dashboard or newer count**. Readers should check the **PNGRB’s official SATAT/GOBARdhan portal** for updates beyond January 2026. [confidence: high]
+
+- *"Solid Waste Management Rules, 2026... set 1,500 kcal/kg as the minimum calorific value"* — The article **cannot confirm** whether the **1,500 kcal/kg threshold** was retained, revised, or dropped in the 2026 rules, as the two consulted summaries (Drishti IAS/PMF IAS) **do not restate it**. The claim assumes continuity, but the **primary gazette text** was not reviewed. [confidence: high]
+
+---
+**none found** (for remaining categories)

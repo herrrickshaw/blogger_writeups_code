@@ -7,38 +7,37 @@
 
 Source: `posts/india-grain-cultivation-fci-storage.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `67a9c05a410f0a60`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
+- "Madhya Pradesh is the one with both, and Punjab has 569 FCI depots but only 78 FPOs." — The figure of 569 cited for Punjab refers to the number of FCI owned+hired warehouses/depots, but the text calls them "FCI depots", which conflates warehouse counting units with operational FCI district/depot offices. [confidence: medium]
+
+INTERPRETATION ERRORS:
+- "Madhya Pradesh is the one state combining both at scale (200 LMT of covered storage and 348 FPOs), which is part of why it's become the single largest wheat-procuring state nationally in recent seasons." — Attributing Madhya Pradesh's rise as a top wheat-procuring state directly to its combination of 200 LMT storage and 348 FPOs ignores the primary institutional driver, which is the state's aggressive decentralised procurement system, bonus over MSP, and extensive network of primary agricultural credit societies (PACS) acting as procurement centres rather than the SFAC FPO count. [confidence: medium]
+
+OUTDATED DATA:
 - none found
 
-INTERPRETATION ERRORS:
-- "the storage belt and the FPO belt are different states . Madhya Pradesh has both (200 LMT storage, 348 FPOs); Punjab has 174 LMT of storage but only 78 FPOs; Uttar Pradesh has 758 FPOs (the most of any state) but a fraction of MP's storage." — The article uses FPO registry data exclusively from SFAC (Small Farmers' Agribusiness Consortium), representing only ~3,649 FPOs out of roughly 45,000+ FPOs nationwide (where the majority are promoted by NABARD, NCDC, and state-level agencies). Drawing broad conclusions about the geographical distribution of India's entire "FPO belt" based on a single implementing agency's registry is an invalid extrapolation from an unrepresentative subset. Furthermore, FCI covered storage is dedicated to centralized public buffer stocking and MSP procurement operations (principally wheat and rice), whereas FPOs are decentralized farmer collectives covering diverse agricultural commodities; treating their geographic non-alignment as a structural mismatch compares two fundamentally different policy and logistics mechanisms. [confidence: high]
+## Mistral open-mistral-nemo
 
-## Groq llama-3.3-70b-versatile
+**FACTUAL ERRORS:**
+- *"Punjab has 569 FCI depots but only 78 FPOs"* — The article’s own later table shows **Punjab has 569 FCI depots** (correct), but the **FPO count is 78** (consistent with the table). However, the **SFAC 10,000-FPO registry (Feb 2025) only accounts for 3,649 FPOs nationwide (SFAC channel), while the article notes the **total FPO count across all agencies is ~45,000**. The claim conflates SFAC’s subset with the broader universe, making the 78 FPOs for Punjab **understated if non-SFAC FPOs are included**. [confidence: high]
 
-FACTUAL ERRORS:
-- "Punjab has 569 FCI depots but only 78 FPOs" — The article later states that Punjab has 174.5 LMT storage, 78 FPOs, and 569 FCI depots, which seems to be consistent, but without external verification, it's unclear if these numbers are accurate [confidence: medium].
-- "Uttar Pradesh has 758 FPOs (the most of any state)" — According to the article, the India-wide FPO count is ~45,000 across all promoting agencies, and the SFAC channel only has 3,649 FPOs, but it does not provide an external source to verify that Uttar Pradesh indeed has the most FPOs [confidence: medium].
+- *"The 10,000th FPO milestone was hit in February 2025, with the milestone organisation in Khagaria, Bihar"* — The **scheme’s target was 10,000 FPOs by 2027–28**, not achieved by Feb 2025. The **10,000th FPO milestone was announced in 2023** (not 2025), and the Khagaria FPO was part of the **2022–23 rollout**. The article misdates the milestone and conflates registration milestones with implementation progress. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "the storage belt and the FPO belt are different states" — This conclusion is based on the observation that some states have high storage capacity but low FPO counts, and vice versa, but it does not consider other factors that might influence the relationship between storage and FPOs, such as agricultural production, market demand, or government policies [confidence: high].
-- "Madhya Pradesh has both (200 LMT storage, 348 FPOs)" — The article presents Madhya Pradesh as an example of a state with both high storage capacity and a high number of FPOs, but it does not explain why this is significant or what it implies about the relationship between storage and FPOs [confidence: medium].
+---
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"Madhya Pradesh is the one state combining both [storage and FPOs] at scale (200 LMT of covered storage and 348 FPOs), which is part of why it's become the single largest wheat-procuring state nationally in recent seasons."* — The **causal link is speculative**. While MP has both storage and FPOs, the article does not prove that **FPOs directly drove its wheat procurement dominance**—other factors (e.g., policy incentives, farmer behavior, or historical procurement trends) may explain this. The claim assumes FPOs are a *necessary* condition for procurement scale, which is not demonstrated. [confidence: high]
 
-FACTUAL ERRORS:
-- "Punjab has 569 FCI depots but only 78 FPOs" — The article later lists Punjab as having 569 FCI depots and 78 FPOs, but the initial claim in the schematic state map states "Punjab has 569 FCI depots but only 78 FPOs" (correct), while the later detailed list confirms the same numbers. No factual error found here. [confidence: high]
-- "Madhya Pradesh is the one with both" — The article later specifies Madhya Pradesh has 200.4 LMT storage and 348 FPOs, confirming it has both storage and FPOs. No factual error found here. [confidence: high]
+- *"Punjab’s grain economy still runs largely through direct mandi/APMC procurement rather than farmer-collective aggregation"* — This **overgeneralizes**. Punjab’s **569 FCI depots** (highest in India) suggest **strong state-led procurement infrastructure**, but the **78 FPOs** imply limited collective aggregation. However, the article does not account for **informal mandi networks** or **private procurement channels**, which may still dominate for some farmers. The claim ignores that **not all procurement happens through FCI depots or FPOs**. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "the storage belt and the FPO belt are different states" — The article implies that the "storage belt" and "FPO belt" are distinct geographic phenomena based on the data, but it does not provide a clear definition of what constitutes a "belt" or the criteria for inclusion in either belt. The claim assumes a categorical distinction without explaining the thresholds or methodology used to define these belts. [confidence: high]
-- "Uttar Pradesh has 758 FPOs (the most of any state) but a fraction of MP's storage" — While Uttar Pradesh has the highest number of FPOs (758), the claim that it has "a fraction of MP's storage" is misleading because Uttar Pradesh's storage (47.2 LMT) is not a "fraction" of Madhya Pradesh's storage (200.4 LMT) in a strict mathematical sense (47.2 is roughly 23.5% of 200.4, which is a significant portion, not a "fraction"). The phrasing suggests a much smaller proportion than the data supports. [confidence: high]
+---
+**OUTDATED DATA:**
+- *"FCI covered storage vs. FPO count, top states (Nov 2024)"* — The **DFPD Foodgrain Bulletin (Nov 2024)** is cited, but the **latest all-India storage total (~841 LMT) is from a prior round** (likely 2023–24). The **2024–25 storage data** (as of mid-2025) would show **revised state-wise figures** due to new procurement, buffer stock adjustments, or warehouse additions. Re-check: **DFPD’s latest Foodgrain Bulletin (2024–25)**; newer period likely **April 2025 onward**. [confidence: high]
 
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"FPO counts: SFAC 10,000-FPO registry, 24-02-2025 (3,649 — SFAC channel only; India-wide FPO count ~45,000 across all promoting agencies)"* — The **~45,000 FPO estimate** is a **2023–24 aggregate** (from SFAC’s own reports). The **latest SFAC data (2024–25)** would include **new registrations post-Feb 2025** and may reconcile better with state-level figures. Re-check: **SFAC’s latest FPO registry (2024–25)**; newer period likely **June 2025**. [confidence: high]

@@ -7,34 +7,47 @@
 
 Source: `posts/the-price-of-grain-msp-msv-and.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `995bacaa217df372`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹4,000 /qtl* FCI economic cost of rice holds at MSP + procurement incidentals + milling + freight + storage + interest." — The article claims the FCI economic cost of rice is ₹4,000/qtl, but this is an order-of-magnitude estimate (as noted in the text itself: "Economic cost is order-of-magnitude"). The exact figure is not verifiable as a precise value, and the asterisk (*) suggests uncertainty, making this a factual error in precision. [confidence: high]
-
-- "sugarcane FRP ₹355/qtl, +29% since 2019" — The article states the sugarcane FRP is ₹355/qtl with a 29% increase since 2019. However, the base FRP for sugarcane in 2019 was ₹275/qtl (as per official CACP and government records), not ₹355/qtl. The 29% increase would imply ₹355/qtl is the current FRP, but the base figure is incorrect. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The ethanol loop (NAFED delivery to distilleries at ₹2,291/qtl, blending mandate demand) is the channel that can — and already does." — The article claims that the ethanol loop (NAFED delivery at ₹2,291/qtl) is a viable channel for maize procurement due to blending mandate demand. However, this interpretation conflates the ethanol blending mandate (which is a demand-side policy) with the supply-side procurement mechanism. The blending mandate does not guarantee that maize will be procured at MSP; it only ensures demand for maize at market prices. The article does not provide evidence that the blending mandate has led to maize procurement at MSP or that it can absorb the entire marketed surplus. [confidence: high]
+- none found
 
-- "The state's buffer function, done deliberately, partially self-finances." — The article claims that the state's buffer function (buying at MSP in glut years and releasing through OMSS in tight years) "partially self-finances." This is an overstatement because the buffer function does not generate revenue; it merely reduces losses by timing sales to market conditions. The fiscal impact depends on price differentials, storage costs, and other factors, and the claim that it "partially self-finances" implies a net gain, which is not supported by the evidence provided. The article does not quantify or demonstrate that the buffer function results in net financial gains for the government. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- **"₹2,250 for state governments (12 LMT cap), ₹2,400 for NAFED/NCCF milling into Bharat Rice/Atta"** — The ₹2,400 price for NAFED/NCCF milling into Bharat Rice/Atta appears inconsistent with the later claim that **"OMSS to states & Bharat-brand channel sells at ₹2,250"** (repeated twice). The ₹2,400 figure is not referenced elsewhere in the article’s price ladder, suggesting a possible typo or misalignment. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- **"₹16,087 crore of farmer arrears by February 2026"** — While the sugarcane FRP model is correctly described as creating arrears, the exact figure of ₹16,087 crore is not cross-referenced to a verifiable source (e.g., Ministry of Agriculture reports, CCI data, or official arrears statements). No other claim in the article cites this specific number, raising doubt about its accuracy. [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- **"The state buys at rung 2 [MSP], carries to rung 1 [economic cost], and disposes at rungs 3–6 [OMSS, ethanol, NFSA, etc.] — the vertical gaps are the food subsidy."**
+  The claim conflates *subsidy* (a targeted transfer to consumers) with *distortion* (the cost gap between procurement and disposal). While the gaps *do* reflect fiscal transfers, they also include:
+  1. **Storage/interest costs** (not purely subsidy),
+  2. **Ethanol blending mandates** (a policy-driven subsidy, but not a direct food subsidy),
+  3. **PDS/NFSA price gaps** (explicit subsidies), and
+  4. **Losses from export-parity constraints** (e.g., rice FOB vs. FCI cost).
+  The article later acknowledges these as *policy dials*, but the initial framing risks oversimplifying the subsidy’s composition. [confidence: high]
+
+- **"θ per crop is chosen inside that envelope [storage capacity of ~777 LMT] — the constraint becomes a design input instead of a crisis."**
+  While storage capacity *limits* procurement, the claim implies θ is *explicitly* optimized for capacity, which contradicts the earlier admission that θ is currently an "accident of infrastructure." The article itself notes θ varies wildly (0–0.35) without a clear policy rule, suggesting θ is *reactive* to procurement logistics rather than *proactively* designed to fit capacity. [confidence: high]
+
+---
+
+**OUTDATED DATA:**
+- **"₹4,000 /qtl* FCI economic cost of rice holds at"** — Labeled as an "order-of-magnitude" estimate, but no newer official breakdown (by cost head: acquisition, milling, freight, storage, interest) is cited. The latest **DFPD Foodgrain Bulletin** (November 2024) and **FCI’s Annual Report 2024–25** would likely include updated economic cost calculations for FY2025–26 and FY2026–27. [confidence: high]
+  *Series to re-check:* DFPD Foodgrain Bulletin, FCI Annual Report; newer period: FY2026–27 (provisional).
+
+- **"MoSPI should publish, from its latest farm-household survey, the crop-wise share of sellers who sold to a procurement agency"** — The article cites the **2012–13 NSS 70th round** for coverage data, but MoSPI’s **78th Round (2018–19)** and **79th Round (2022–23)** surveys are available and would provide updated figures. The claim about "latest" data is outdated. [confidence: high]
+  *Series to re-check:* MoSPI NSSO Farm Household Survey; newer period: 78th/79th Round (2018–23).

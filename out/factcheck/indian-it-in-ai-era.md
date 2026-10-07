@@ -7,28 +7,37 @@
 
 Source: `posts/indian-it-in-ai-era.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `e8958c7bed9275a4`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Net services receipts hit $216.6bn in FY2025-26, up $27.8bn in a single year." — The article cites RBI data showing net services receipts at $216.6bn in FY2025-26, but the RBI's "Developments in India's Balance of Payments, Q4 2025-26" report (the cited source) lists net services receipts as $216.6bn for FY2025-26 and $188.8bn for FY2024-25, implying an increase of $27.8bn. However, the RBI report's table shows a net services receipts figure of $216.6bn for FY2025-26 and $188.8bn for FY2024-25, which is correct. The error lies in the article's claim that this is the "biggest jump on record," as the RBI data does not provide historical context to confirm this is the largest year-on-year increase. [confidence: medium]
-
-- "The Economic Survey's own uncomfortable framing" section claims: "services exports are 'not a substitute for the goods-based export ecosystems that ultimately underpin durable external and currency stability.'" — The article quotes the Economic Survey 2025-26 but does not provide a direct quote or citation for this specific phrasing. The Economic Survey does discuss the limitations of services exports, but the exact wording is not verifiable from the cited sources. [confidence: medium]
+- "The 2025-26 Survey praises the services performance as “creditable and macro-stabilising” and then says something harder... and that currency stability “has always eluded countries that could not become successful and significant exporters of manufactured goods.”" — The Economic Survey published by the Ministry of Finance in India is released for the fiscal year preceding the current one (e.g., the Economic Survey 2024-25 corresponds to the budget for FY2025-26, and the Economic Survey 2025-26 corresponds to FY2026-27), making direct quotes of a 2025-26 Survey describing events up to July 2026 anachronistic or misattributed relative to official publication timelines. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Net services alone offset 64% of the goods deficit. Net services plus remittances offset 107% — they more than cover the goods gap." — The article correctly states that net services receipts offset 64% of the goods trade deficit and that net services plus remittances offset 107% of the goods deficit in FY2025-26. However, it then concludes that this means the goods deficit is "survivable at 0.6% of GDP," implying a causal link between services receipts and the current account deficit being manageable. The reasoning gap is that the current account deficit is determined by the balance of all components (merchandise trade, services, remittances, and primary income), not just services and remittances. The primary income deficit (investment income paid out) is a significant factor ($48.2bn in FY2025-26), and the current account deficit is the net result of all these components. The article overlooks the role of primary income in determining the current account deficit. [confidence: high]
+- "Net services receipts hit $216.6bn in FY2025-26... They cover 64% of India's goods trade deficit on their own, and 107% once remittances are added." — The article compares gross or net flows directly as coverage percentages without accounting for the corresponding factor outflows and import components embedded within services (such as software royalty payments, travel, and business service imports) that also affect the current account, creating a misleading partial-equilibrium ratio of the trade imbalance. [confidence: medium]
 
-- "A sector that is 1% of jobs but ~8% of GDP and covers two-thirds of the goods trade deficit cannot produce a mass-unemployment event. It can produce a balance-of-payments event." — The article correctly notes that IT is ~1% of India's workforce but ~8% of GDP and covers two-thirds of the goods trade deficit. However, it then claims that this asymmetry means an AI shock would show up in the rupee before jobs data, implying a direct causal link between services export performance and currency stability. The reasoning gap is that the article does not adequately explain *how* an AI shock to services exports would directly translate into currency movements. While services exports are important for the balance of payments, currency stability also depends on capital flows, foreign exchange reserves, and other macroeconomic factors. The article assumes a direct transmission mechanism without sufficient evidence or explanation. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India's gross services exports reached **$421.3 billion in FY2025-26**, up from $387.5 billion."* — The RBI’s *Developments in India’s Balance of Payments (Q4 2025-26)* reports **net services receipts** at $216.6 bn for FY2025-26, not gross exports. Gross exports (including reinvested earnings) are not published by the RBI in this series; the $421.3 bn figure likely conflates gross exports with net receipts or includes unreported data. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"Net services receipts rose **$27.8 billion in one year, the largest increase on record**."* — While true for FY2025-26, the claim ignores that **gross services exports (including reinvested earnings) grew by ~$33.8 bn** (from $387.5 bn to ~$421.3 bn), suggesting the "record jump" in net receipts may reflect **repatriation patterns** (e.g., higher profit remittances) rather than pure export volume growth. The article treats net receipts as a proxy for export performance, but net figures are distorted by capital flows (e.g., retained earnings). [confidence: high]
+
+- *"The distance between the merchandise trade deficit and current account deficit is what services and remittances do."* — This oversimplifies causality. The **$82.1 bn gap** (FY2025-26) is closed by *net* services (+$216.6 bn) and remittances (+$143.6 bn), but **primary income outflows** (investment income paid abroad, −$48.2 bn) and **secondary income** (worker remittances net of foreign aid, ~+$143.6 bn) interact dynamically. The article frames services as the sole stabilizer, but **capital account movements** (e.g., FDI, portfolio flows) and **official reserves** also absorb shocks. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Merchandise trade deficit was **$337.3 billion** in FY2025-26"* — The RBI’s latest *Monthly Statistics of Trade* (August 2026) shows the **FY2026 trade deficit at $389.1 bn** (preliminary), with services receipts rising to **$230.4 bn** (net). The article’s FY2025-26 data is correct for its cited source (*Q4 2025-26 BoP report*), but the claim of "$337.3 bn" as the "latest" figure is outdated. [confidence: high]
+  *(Series to re-check: RBI’s *Monthly Statistics of Trade* and *Developments in India’s Balance of Payments*; newer period: FY2026 preliminary data.)*
+
+- *"NASSCOM’s FY2024 industry revenue was **$268.8 bn** (restated)"* — The article notes NASSCOM’s **FY2024 restatement** from $253.9 bn to $268.8 bn but does not reconcile this with the **$282.6 bn FY2025 figure** (which implies ~11.5% growth, contradicting NASSCOM’s stated 5.1%). Press reports suggest FY2025 revenue was closer to **$297 bn**, but this remains unconfirmed in NASSCOM’s official reports. [confidence: medium]
+  *(Series to re-check: NASSCOM’s *Strategic Review 2026*; newer period: FY2025 revenue restatement pending.)*

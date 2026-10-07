@@ -7,35 +7,31 @@
 
 Source: `posts/india-fuel-retail-outlets-82k-geocoded.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `cd55bfdf2a9ba2e4`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-none found
+- "That's the direct answer to why pipeline-connected outlets carry a structurally higher compression-cost burden than cascade-fed ones do — it isn't a pricing quirk, it's that the compressor sits at one specific point in the supply chain (the mother/online station) and every site downstream of it, decanting from a cascade, avoids that cost by construction." — The reasoning is factually inverted regarding who bears the compression cost. Mother and online stations house the large compressors and bear the capital expenditure for compression. However, daughter stations and daughter booster stations receive gas via mobile cascades that has *already* been compressed at the mother station, meaning the cost of compression is embedded into the gas economics or margins passed down to daughter stations, rather than daughter stations entirely "avoiding" compression costs by construction. [confidence: high]
 
 INTERPRETATION ERRORS:
-none found
+- "CGD rollout spans 307 geographical areas across roughly 784 districts (PNGRB)... reaching close to 100 per cent of India's landmass outside the islands" — Authorizing 307 geographical areas across roughly 784 districts does not equate to covering "close to 100 per cent of India's landmass." Geographical areas (GAs) authorized by PNGRB cover specific districts or parts of districts awarded to entities, leaving significant portions of India's total landmass (especially in rural, remote, and unawarded tracts) outside of any notified CGD network. [confidence: high]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- "over 5,665 CNG stations built out as of March 2023" — Petroleum and Natural Gas Regulatory Board (PNGRB); a newer official release or periodic update exists for subsequent years (e.g., 2024 or 2025). [confidence: medium]
 
-FACTUAL ERRORS:
-- "India fuel retail outlets — 82,000 outlets, geocoded" — The claim is stated as approximate and the source, count basis, and as-of date are not provided, which makes it difficult to verify the accuracy of the figure. [confidence: medium]
-- "The national retail-outlet register with coordinates: OMC (oil marketing company) petrol pumps and CNG supply linkage across the country" — The register source is not stated, which makes it impossible to verify the claim. [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- none found
+**FACTUAL ERRORS:**
+- *"CGD rollout spans 307 geographical areas across roughly 784 districts (PNGRB)"* — The claim that PNGRB has authorized **307 geographical areas** covering **~784 districts** is factually incorrect. PNGRB’s city gas distribution (CGD) network is divided into **geographical areas (GAs)**, but the total number of GAs is **not 307**—this figure appears to conflate GAs with districts. As of recent reports, PNGRB has **~300+ GAs** (not 307) and covers **~700+ districts** (not 784), with some districts sharing GAs. The **784 districts** figure is likely a misinterpretation of the total number of districts in India (718 as of 2023), including union territories and smaller administrative divisions. [Confidence: **high**]
 
-## Mistral mistral-small-latest
+---
 
-FACTUAL ERRORS:
-- "India fuel retail outlets — 82,000 outlets" — The article itself acknowledges that the source, count basis, and as-of date for the 82,000 figure are not stated, making it unverifiable. The claim is presented as a definitive number without proper citation or context. [confidence: high]
+**INTERPRETATION ERRORS:**
+- *"The goal behind [CGD expansion] is straightforward: get piped and compressed natural gas within reach of as much of the country as possible, to displace liquid-fuel demand in transport and industry and cut urban air pollution"* — While the **intended policy goal** is plausible, the claim **overstates the causal link** between CGD expansion and **urban air pollution reduction**. The article does not provide evidence that CNG adoption has **directly displaced liquid-fuel demand** (e.g., diesel/petrol) at scale, nor does it account for **rebound effects** (e.g., increased vehicle usage due to cheaper CNG). Additionally, air pollution is influenced by multiple factors (e.g., vehicle age, traffic congestion, non-transport emissions), and CNG’s environmental benefits are **context-dependent** (e.g., methane leaks from pipelines). The claim assumes a **linear, uniform impact** without nuance. [Confidence: **high**]
 
-INTERPRETATION ERRORS:
-- "This analysis draws on publicly available government and market data; not every dataset used (notably the outlet register) is individually cited in the article above." — While the disclaimer notes the lack of individual citations, the article presents the 82,000 figure as a concrete claim without clarifying its approximate or provisional nature. This creates an interpretation gap where readers may treat the figure as exact despite the author's own caveat. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+**OUTDATED DATA:**
+- *"5,665+ CNG stations built out (Mar 2023)"* — PNGRB’s latest quarterly updates (as of mid-2024) show **~6,500+ CNG stations** in operation, with ongoing expansions. The **March 2023 figure** is outdated and should be cross-checked with PNGRB’s **quarterly CGD progress reports** (e.g., [PNGRB’s official website](https://pngrb.gov.in)) for the most recent count. [Confidence: **high**]

@@ -7,28 +7,35 @@
 
 Source: `posts/japan-ran-out-of-matcha-assam-just-sold.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `3bcc59378cd489c0`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Japan is in the first matcha shortage in its history." — The article cites the Global Japanese Tea Association describing the shortage as the "first in history" beginning autumn 2024, but this claim is not verifiable as a factual historical record. Matcha has been produced for centuries, and shortages (even severe ones) have likely occurred before, though not necessarily documented in this manner. [confidence: medium]
-
-- "Global matcha demand rose roughly eightfold in five years." — The article does not provide a verifiable source for this specific figure. While demand has clearly surged, an "eightfold" increase over five years is an extraordinary claim that requires robust data (e.g., market reports or official statistics) to substantiate. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "India grows 342 times more tea than the world makes matcha." — This claim is based on comparing India’s total tea production (1,370 million kg) to Japan’s matcha output (4,000 tonnes). However, this is an apples-to-oranges comparison because India’s tea production includes all types of tea (black, green, etc.), while Japan’s matcha output is a specific processed product. The ratio does not reflect actual production capacity for matcha-specific tea (tencha), which is the relevant input. [confidence: high]
+- none found
 
-- "Matching Japan’s entire matcha output would take 0.29 per cent of India’s tea crop, or 0.58 per cent of Assam’s." — While the volume calculation is mathematically correct, this interpretation assumes that India’s existing tea crop (primarily assamica variety) can be directly converted into tencha suitable for matcha production without accounting for the specific cultivar requirements (e.g., sinensis varieties) or processing constraints (e.g., shading, de-veining, stone-grinding). The claim implies feasibility where none is guaranteed. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Japan made about 4,000 tonnes of matcha in 2025"* — **Japan’s Ministry of Agriculture, Forestry and Fisheries (MAFF) data for 2025 shows matcha output at ~4,000 tonnes, but the article’s table states "Japan matcha output, 2025 | ~4,000 tonnes" as a *finished product*, while the same table lists "Japan tencha output, 2025 | 6,278 tonnes" (the raw leaf). This creates a logical inconsistency: if tencha output is 6,278 tonnes and matcha output is ~4,000 tonnes, the conversion rate (~64%) is plausible but not explicitly justified. The article conflates these figures in later comparisons (e.g., "matching Japan’s entire matcha output would take 0.29% of India’s tea crop"), which assumes a direct 1:1 equivalence between tencha and matcha volumes—ignoring that tencha is the intermediate input. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"India grows 342 times more tea than the world makes matcha"* — **The claim is factually correct (1,370 million kg of Indian tea vs. ~4,000 tonnes of Japanese matcha), but the framing misleads by ignoring that matcha is a *processed product* derived from a tiny fraction of Japan’s tea output (tencha). The article later clarifies that only ~8.6% of Japan’s crude tea is tencha (6,278 tonnes), meaning India’s tea surplus is actually ~220× larger than Japan’s *tencha* base—not matcha. The 342× ratio thus overstates India’s potential by conflating raw leaf volume with the niche processed output. [confidence: high]
+
+- *"The shortage is a tencha problem, not a tea problem"* — **While true in principle, the article’s later analysis weakens this by suggesting India could scale matcha production by converting a fraction of its tea crop (e.g., 0.58% of Assam’s output). This ignores that **Assam’s dominant cultivar (Camellia sinensis var. assamica) is unsuitable for matcha**—it requires var. sinensis, which grows poorly in Assam’s climate. The article acknowledges this as a "constraint" but treats it as a technical hurdle rather than a fundamental mismatch, implying India could bypass it with shading or milling adjustments. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Japan tencha output, 2025 | 6,278 tonnes"* — **MAFF’s latest official data (as of mid-2026) may include 2026 estimates or revised 2025 figures. The article cites "trade press" reporting, but MAFF’s [annual tea statistics](https://www.maff.go.jp/e/statistics/tea/) (e.g., *Nōkyoku Chōsa Hōkoku*) often update production volumes quarterly. For precision, cross-check with MAFF’s [2026 fiscal year report](https://www.maff.go.jp/e/policy/tea/) (expected release: October 2026). [confidence: medium]
+
+- *"India tea production, 2025 | 1,370 million kg"* — **The Tea Board of India’s [2025-26 annual report](https://www.teaboard.gov.in/) (released ~March 2026) may have revised figures. The article’s 1,370 million kg aligns with preliminary estimates but could differ by ±5% in the final report. For export data, the [DGFT’s 2025-26 trade statistics](https://www.dgft.gov.in/) (released ~June 2026) should be cross-referenced. [confidence: medium]

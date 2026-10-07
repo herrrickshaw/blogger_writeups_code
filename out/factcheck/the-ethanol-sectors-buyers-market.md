@@ -7,34 +7,47 @@
 
 Source: `posts/the-ethanol-sectors-buyers-market.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `c74f346f1930bdfe`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "~2,000 Cr L Current installed ethanol capacity" — The article cites this figure multiple times, but it is not sourced from a primary government document (e.g., DFPD or OMC) and appears to be an estimate from a 2025 sector analysis. Without verification against the latest DFPD/OMC data, this claim is unverifiable. [confidence: medium]
-
-- "~60% Current absorption rate of offered ethanol" — The article states this as a current figure, but it is not attributed to a specific, recent source (e.g., a government report or industry survey). The claim lacks a clear, verifiable reference point. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "The resulting overcapacity is forcing consolidation across standalone distilleries and, more interestingly, across the 229 cooperative sugar mills that were never built as pure ethanol plants in the first place." — The claim implies a direct causal link between overcapacity and consolidation in cooperative sugar mills, but the article does not provide evidence that these mills are consolidating due to overcapacity. The funding structure (90:10 NCDC financing) and subsidies may be driving consolidation more than overcapacity. [confidence: high]
+- "India built roughly 2,000 crore litres of ethanol distillation capacity to chase the EBP blending mandate — and demand has not caught up." — 2,000 crore litres (20 billion litres) is implausibly large for India's total annual ethanol distillation capacity, which is typically measured in hundreds of crores (or a few billion litres). This appears to be a massive overstatement or a unit confusion (e.g., confusing millions or litres with total annual production vs. cumulative capacity over a multi-year period). [confidence: high]
 
-- "EV displacement of two-wheeler petrol demand. A medium-term threat to blending-volume growth as two-wheeler electrification accelerates — ethanol’s non-fuel uses (industrial, pharma, potable) are the partial offset." — The claim assumes that EV displacement of petrol demand will directly reduce ethanol blending demand, but it does not account for potential policy adjustments (e.g., higher blending mandates) or the fact that ethanol has non-fuel uses that may offset declines in fuel blending. The reasoning gap is the lack of evidence that non-fuel demand will fully compensate for reduced fuel blending. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India built roughly 2,000 crore litres of ethanol distillation capacity"* — The article later states **"~2,000 Cr L Current installed ethanol capacity"** and **"Capacity by FY27 (+400)"**, implying the current capacity is closer to **~2,400 crore litres** (including FY27 additions). The initial claim of "roughly 2,000" is inconsistent with the later chart/data. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"229 Cooperative sugar mills with ethanol mandates"* — While the number **229** is plausible (as a subset of ~30% of national sugar production), the article does not cite a **primary source** (e.g., NCDC, Ministry of Co-operation, or OMC data) to confirm this exact count. The claim relies on secondary sector commentary rather than official enumeration. [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"The resulting overcapacity is forcing consolidation across standalone distilleries and... 229 cooperative sugar mills that were never built as pure ethanol plants"* — The implication is that **all 229 mills are equally distressed or facing consolidation pressure**, but the article later notes:
+  > *"standalone dry-milling distilleries in surplus states face genuine utilisation risk, while the 229 cooperative sugar mills... represent a less-examined, better-subsidised route"*
+  The mills’ financial viability depends on **subsidy access (NCDC/DFPD loans, Priority-1 OMC offtake)**, which standalone distilleries lack. Thus, the consolidation narrative conflates two distinct groups with **different risk profiles and policy support levels**. [confidence: high]
+
+- *"EV displacement of two-wheeler petrol demand... is a medium-term threat to blending-volume growth"* — The claim assumes **direct substitution** of ethanol-blended fuel for EV adoption, but:
+  1. **Ethanol’s non-fuel uses** (industrial, pharma, potable) are noted as a partial offset, yet their volume growth is **not quantified** relative to fuel demand.
+  2. **Two-wheeler electrification** primarily targets **petrol demand**, not necessarily **ethanol-blended fuel** (E20/E30). The causal link ignores the **blending mandate’s stickiness** (OMC procurement obligations) and potential **switching to higher-ethanol blends** if EVs reduce petrol use.
+  The extrapolation ignores **policy inertia** and **alternative demand channels**. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Current absorption rate of offered ethanol: ~60%"* — The article cites **2025 sector analysis** as the source but does not verify against **latest DFPD/OMC data** (e.g., **FY24 or FY25 actual offtake reports**). The **OMC’s annual "Ethanol Supply Year" reports** (e.g., [OMC’s ethanol procurement portal](https://www.omcindia.com/)) likely contain **up-to-date absorption rates** (e.g., FY25 may show ~55–65% depending on seasonality). [confidence: high]
+  **Series to re-check:** OMC’s *annual ethanol procurement/blending reports*; newer period: **FY25 or FY26 data**.
+
+- *"E20 fuel-blending demand: ~1,100 crore litres"* — While plausible for **FY24**, the article does not cross-check against:
+  - **OMC’s latest blending targets** (e.g., [Petroleum Ministry’s EBP updates](https://pmo.gov.in/)), which may have **revised FY25/FY26 targets** (e.g., **1,200+ crore litres** if E25/E30 discussions materialize).
+  - **Actual blending achieved** (OMC publishes **monthly/quarterly blending data** separately from capacity projections).
+  The claim risks **stale benchmarking**. [confidence: high]
+  **Series to re-check:** OMC’s *monthly ethanol blending reports*; newer period: **FY25 actuals**.

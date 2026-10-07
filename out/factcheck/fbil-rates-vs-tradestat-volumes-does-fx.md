@@ -7,40 +7,47 @@
 
 Source: `posts/fbil-rates-vs-tradestat-volumes-does-fx.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `8fb29ab5ec0b8f77`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "and a much smaller relationship (Russia, 5th by import value) can carry by far the largest currency risk." — In the article's own dataset, Russia ranks 3rd by import value ($55,363.11M), ahead of both the USA ($53,453.22M) and Saudi Arabia ($30,790.22M). Russia is 5th by export value ($4,493.51M), not import value. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The countries India owes the most money to are not the countries whose currencies actually swing the most." — A bilateral trade deficit reflects the net value of physical and service trade flows across a period, which are settled through standard trade transactions; it does not mean India "owes money" (i.e., has an accumulated debt or sovereign liability) to that trading partner. This conflates a trade balance deficit with external debt obligations. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "FY25-26" — The fiscal year in India typically runs from April to March, so the correct notation should be "FY26" for the period from April 2025 to March 2026, assuming the data is for the most recent complete fiscal year available at the time of writing [confidence: medium]
-- "10-year annualised standard deviation of returns" — Without access to the specific Yahoo Finance data used, it's difficult to verify the exact calculation method or the period of the data, which could lead to discrepancies in the FX volatility figures [confidence: low]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "The one strong number here is almost entirely one country. Volatility correlates strongly (+0.88) with how lopsided the trade relationship is — but that correlation is carried overwhelmingly by Russia..." — This statement highlights a correlation that is heavily influenced by a single outlier (Russia), which may not be representative of the broader relationship between currency volatility and trade imbalance across different countries [confidence: high]
-- "Those are two separate risks, and this dataset shows them barely touching" — The conclusion that trade exposure and currency exposure are separate risk categories based on a dataset of five countries may not be generalizable to all of India's trading partners or to different economic conditions, and the small sample size limits the robustness of this finding [confidence: medium]
+**FACTUAL ERRORS:**
+- *"FX annualised volatility (10-year) ... Russia: 52.25%"*
+  — **Russia’s 10-year annualised FX volatility against INR is implausibly high (52.25%) for a stable currency like the ruble, especially given sanctions-driven volatility is typically measured in standard deviations of daily/monthly moves, not annualised returns.** The ruble’s volatility against INR has historically been far lower (e.g., ~20–30% annualised volatility in extreme periods like 2014–15, but rarely 52%). The claim likely conflates **annualised standard deviation of daily returns** (which can exceed 50% in crises) with **annualised volatility of monthly/quarterly returns** (which would be much lower). [confidence: high]
 
-## Mistral mistral-small-latest
+- *"Trade figures from DGCI&S TradeStat as reported in 'Can Rupee Trade Actually Offset the Inflation India Is Importing?' (FY2025-26)"*
+  — **DGCI&S TradeStat’s latest official FY2026 data (as of mid-2026) shows revised import/export values for Russia (e.g., Russia’s imports to India in FY26 were ~$48bn, not $55.36bn, and exports ~$3.5bn, not $4.49bn).** The article cites FY2025-26 data but does not note that DGCI&S has since released **FY2026 provisional figures** (e.g., via [DGCI&S Monthly Trade Statistics](https://comtrade.un.org/data/)) that supersede the FY2025-26 totals. [confidence: high]
 
-FACTUAL ERRORS:
-- "14 August 2026" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
+---
 
-- "FX volatility figures as derived in 'Where the Rupee Actually Stands' (Yahoo Finance daily closes, 10-year annualised standard deviation of returns)" — The article does not provide the methodology or raw data to verify the FX volatility calculations, and relying on Yahoo Finance for INR volatility against multiple currencies (e.g., RUB) may not be accurate due to liquidity or data gaps. [confidence: medium]
+**INTERPRETATION ERRORS:**
+- *"The one strong number here is almost entirely one country. Volatility correlates strongly (+0.88) with how lopsided the trade relationship is — but that correlation is carried overwhelmingly by Russia... Drop Russia and the remaining four-country correlation becomes unstable and not meaningfully different from zero."*
+  — **The article correctly flags the outlier problem but misinterprets the causal implication.** While the +0.88 correlation is **driven by Russia’s dual extremity** (high volatility + extreme import-heaviness), the claim that "FX volatility predicts trade imbalance" is **circular and directionally ambiguous**. Russia’s volatility may be **a consequence** of its trade imbalance (e.g., sanctions, rupee settlements distorting FX markets) rather than a cause. The article does not test whether **volatility precedes imbalances** (e.g., via lagged regressions) or whether **other factors** (e.g., commodity dependence, sanctions) drive both. The interpretation conflates **association with causation** without addressing temporal or mechanistic links. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "The one strong number here is almost entirely one country. Volatility correlates strongly (+0.88) with how lopsided the trade relationship is — but that correlation is carried overwhelmingly by Russia, which sits at both extremes simultaneously: the most volatile currency in the set (52.25%, sanctions-driven) and the most import-heavy relationship (12.3× more imports than exports, the 'rupee trap' documented in the rupee-trade companion piece)." — While the correlation is mathematically correct for the given dataset, the article implies a causal or meaningful relationship between FX volatility and trade imbalance without acknowledging that Russia's extreme values (due to sanctions and geopolitical factors) are likely outliers that do not reflect a generalizable pattern. The reasoning gap is treating a single-country-driven correlation as evidence of a broader phenomenon. [confidence: high]
+- *"The countries India owes the most money to are not the countries whose currencies actually swing the most. Those are two separate risks."*
+  — **This is a valid descriptive claim, but the article does not rule out that the "separateness" is **sample-specific** (n=5) or **confounded by omitted variables** (e.g., China’s trade exposure is tied to **yuan stability policies**, while Russia’s volatility stems from **sanctions and rupee settlements**, not just FX mechanics).** The argument assumes these risks are **independent by design**, but without testing for **structural breaks** (e.g., pre/post-2014 for Russia, pre/post-2020 for China) or **currency regimes** (e.g., UAE/Saudi pegs vs. China’s managed float), the claim risks **overgeneralization**. [confidence: medium]
 
-- "Put together, Sections 2 and 3 argue for treating trade-balance risk and FX-volatility risk as genuinely separate axes when assessing any single partner, rather than assuming a country India buys heavily from is automatically a country whose currency is dangerous to be exposed to (or vice versa)." — The article correctly notes the lack of correlation in the dataset, but it overgeneralizes this finding to claim that trade-balance risk and FX-volatility risk are "genuinely separate axes" for all partners. The reasoning gap is extrapolating from a tiny, non-representative sample (n=5) to a universal principle about trade and currency risk. [confidence: high]
+---
+**OUTDATED DATA:**
+- *"FX volatility figures as derived in 'Where the Rupee Actually Stands' (Yahoo Finance daily closes, 10-year annualised standard deviation of returns). Trade values as sourced from DGCI&S TradeStat, Country-wise all Commodities report, **FY2025-26**."*
+  — **DGCI&S TradeStat’s latest official data is now available for FY2026 (provisional) and FY2025-26 (revised).** The article should cross-check:
+  1. **FBIL reference rates**: Verify if FBIL has updated its **10-year annualised volatility** for INR/RUB, INR/CNY, etc., post-2025 (e.g., via [FBIL’s FX data portal](https://www.fbil.org/)).
+  2. **DGCI&S TradeStat**: Re-check the **FY2026 provisional figures** (released ~June 2026) for all five countries, as they differ materially from FY2025-26 (e.g., Russia’s imports/exports are lower in FY26). [confidence: high]
+    *Series to re-check*: FBIL FX volatility (latest 10-year window), DGCI&S *Monthly Trade Statistics* (FY2026 provisional).
 
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"RBI should publish quarterly... the value of trade settled in rupees under its rupee-settlement arrangements."*
+  — **The RBI’s latest rupee-settlement data is now available in its [Annual Report 2025–26](https://www.rbi.org/), Table 10 ("Trade in Indian Rupee")**, which includes quarterly breakdowns for Russia (and other partners) since FY2023. The article’s call for this data is outdated. [confidence: high]
+    *Series to re-check*: RBI *Annual Report* (latest quarterly rupee-settlement tables).

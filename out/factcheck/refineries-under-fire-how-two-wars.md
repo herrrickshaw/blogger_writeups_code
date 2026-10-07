@@ -7,34 +7,37 @@
 
 Source: `posts/refineries-under-fire-how-two-wars.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `8c5120652806ee36`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "By June 2026, Ukrainian drones had struck Russian oil facilities more than 300 times since the war began" — The article later contradicts this by stating that by 25 June 2026, Ukraine had struck Russian oil facilities more than 300 times *since the full-scale invasion began on 24 February 2022*, which would imply a longer timeframe than "since the war began" (if "the war" refers to the full-scale invasion). The phrasing is ambiguous and could mislead readers into thinking the 300+ strikes occurred within a shorter period. [confidence: high]
-
-- "Finland's president separately put Russia's production and export capacity reduction at around 40 per cent in early July [2026]" — The article cites this as a separate assessment but does not provide a direct quote or source for the Finnish president's statement, making it unverifiable. The claim lacks attribution beyond the general reference to "Finland's president." [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "Two unconnected wars have converged on the same conclusion: refineries, storage tanks, and export terminals are now genuinely vulnerable to cheap, long-range drones, and the global energy industry's counter-drone spending is scaling up accordingly — with a direct, measurable knock-on for how Indian refiners now route their crude." — The article conflates the *independent* vulnerability of refineries to drone strikes (a factual observation) with the *direct causal link* to Indian refiners' crude routing decisions. While the global energy industry's counter-drone spending may be scaling up, the article does not provide evidence that this spending (or the drone vulnerability itself) is the *primary* or *measurable* driver of Indian refiners' routing changes. The routing decisions could be influenced by multiple factors (e.g., insurance costs, geopolitical risk assessments, or operational constraints), and the article does not isolate the impact of drone vulnerability. [confidence: high]
+- none found
 
-- "The Ras Tanura shutdown's own price spike is a direct illustration of the transmission mechanism: any Indian refiner buying spot Middle Eastern crude pays the global price, and that price now visibly jumps every time a Gulf refinery takes a hit." — The article assumes a direct causal link between Gulf refinery disruptions (e.g., Ras Tanura) and global oil price spikes that Indian refiners must pay. However, global oil prices are determined by broader market dynamics (e.g., OPEC+ decisions, global demand, or other geopolitical events), and the article does not provide evidence that Gulf refinery disruptions are a *measurable* or *consistent* driver of price spikes for Indian refiners. The claim extrapolates from a single event without demonstrating a broader pattern or quantifying the impact. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"By June 2026, Ukrainian drones had struck Russian oil facilities more than 300 times since the war began — disabling, at peak, over 40 per cent of the country's refining capacity"* — The claim of **300+ strikes by June 2026** contradicts the later breakdown in the article, which states **only 59 strikes in the 4 months to June 2026** (after 138 strikes in the full 2025–26 period). The cumulative total would therefore be **~200 strikes max** (3 + 13 + 92 + 138 + 59), not 300+. The 40% refining capacity figure is plausible but unsupported by the cited sources (e.g., Wikipedia’s "2025–2026 Russian fuel crisis" entry does not state this exact percentage). [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"Russia's crude processing fell to roughly 4.1 million barrels a day in June 2026 — about 35% below design capacity and 28% below the five-year average"* — The **35% below design capacity** claim is inconsistent with the **40% refining capacity disabled** figure mentioned earlier (which would imply a far steeper production drop). The **28% below five-year average** is plausible but lacks direct citation to a primary source (e.g., IEA or Russian state statistics). [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"Two unconnected wars have converged on the same conclusion: refineries... are now genuinely vulnerable to cheap, long-range drones"* — The **causal leap** from drone strikes in **Russia (Ukraine-backed)** and **Saudi Arabia (Houthi/Iran-linked)** to a broader "convergence" is misleading. The wars are **not unconnected**: Iran’s support for the Houthis and Russia’s ties to Iran create a **proxy nexus**, not independent parallel trends. The article conflates **separate conflict dynamics** (Ukraine’s strategic strikes vs. Houthi’s opportunistic attacks) into a false equivalence of "two wars proving the same point." [confidence: high]
+
+- *"India’s oil security today carries a layered risk from two separate conflict zones simultaneously, one of which (Russia) is proportionally the larger supplier"* — While **true in theory**, the claim **overstates the direct risk** from Russia’s Black Sea infrastructure. The article does not prove that **Indian refiners are actively rerouting Russian crude** to avoid Black Sea routes (only MRPL’s Middle East routing is documented). The **layered risk** is speculative without data on **actual cargo diversions** or **insurance/freight cost shifts** for Russian shipments. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"Global counter-drone (C-UAS) market size, USD billion: $9.17B (MarketsandMarkets, 2026) / $2.47B (Mordor Intelligence, 2026)"* — Both estimates are **likely outdated** by the time of publication (August 2026). For **MarketsandMarkets**, re-check their **2027–2031 forecast updates** (their reports are typically revised annually). For **Mordor Intelligence**, verify their **2026–2032 market sizing** (their "anti-drone" segment may have been recalibrated post-2026 strikes). [confidence: high]
+
+- *"Russia's crude processing fell to roughly 4.1 million barrels a day in June 2026"* — No newer **IEA or Russian Ministry of Energy** data is cited. Re-check the **July–August 2026 refinery runs** from the **IEA’s *Monthly Oil Market Report*** or **Rosstat’s industrial production statistics** for 2026 H2. [confidence: medium]

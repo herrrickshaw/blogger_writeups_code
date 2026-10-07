@@ -7,21 +7,34 @@
 
 Source: `posts/annexure-314-hsn-codes-mapped-to.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `3e3ff7752bece7bb`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-none found
+- none found
 
 INTERPRETATION ERRORS:
-- "The remaining 53 sit under other ministries — chiefly Health/Pharmaceuticals (Chapter 30 medical dressings) and Chemicals & Petrochemicals (Chapter 39 plastics items) — a reminder that "technical textile" as an economic category cuts across administrative boundaries." — The article's own tables do not support the claim that the 53 non-confirmed codes sit "chiefly" under Health/Pharmaceuticals (Chapter 30) and Chemicals & Petrochemicals (Chapter 39). Chapter 30 contains only 4 non-confirmed codes (30051090, 30059060, 30061010, 30061020) and Chapter 39 contains only 1 non-confirmed code (39219027)—together making up just 5 out of 53 non-confirmed codes (under 10%). Describing these two chapters as the primary non-Ministry categories is an extrapolation beyond the data provided, which shows substantially larger non-confirmed code groupings in Chapter 70 (glass fibre articles, 9 codes), Chapter 62 (apparel/garments, 8 codes), and Chapter 56 (felts, waddings, and twines, 8 codes). [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "December 2025 Guidebook on Mapping of HSN Codes to Ministries" — the article does not provide sufficient information to verify the existence or details of this guidebook, but it is cited as a key source, so without further context or access to the guidebook, it's hard to confirm its accuracy [confidence: medium]
-- "OM No. 12015/10/2024-TTP, 30 August 2024" — similar to the above, without access to the actual document or further details, it's challenging to verify the specifics of this order [confidence: medium]
-- "DGCI&S TradeStat Eidb Commodity-wise export/import reports, report generated 30 July 2026, covering FY2024-25 and FY2025-26" — the existence and specifics of these reports cannot be verified without access to them or more information [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Of 314 codes across 13 segment labels... 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record." — This statement might imply a causal relationship between the percentage of codes under the Ministry of Textiles and the significance or control of the ministry over the technical-textile sector, which may not necessarily be the case, as administrative ownership does not directly equate to economic or industrial influence [confidence: high]
-- "The 314-code, 13-label technical-textile segment mapping... listed here in full." — The presentation of this comprehensive list might suggest that it is exhaustive or definitive for the technical-textile sector in India, which could be an overstatement given the complexities and potential for overlap or omission in sector classifications [confidence: medium]
+**FACTUAL ERRORS:**
+- *"Of 314 codes across 13 segment labels (the 12 official NTTM segments, plus Defence Textile), 261 (83%) are confirmed under Ministry of Textiles ownership in the DPIIT's official record."* — The DPIIT’s December 2025 Guidebook lists **2,176 HSN codes** under the Ministry of Textiles, but the article’s 314-code list is a **custom segment mapping** (not a trade basket or official inventory). The 83% figure conflates this subset with the broader MoT ownership list, which includes codes outside the 314. The correct comparison should reference the **261/314 (83%) within this specific mapping**, not the broader DPIIT dataset. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The two [314-code list and MoT’s 207-HSN trade basket] were compiled for different purposes and diverge in coverage per segment, most visibly for Specialty Fibres & Composites, where this list's 31-code basket is considerably broader than the Ministry's narrower trade-reporting definition."* — While true, this **implies the 314-code list is more comprehensive**, which is misleading. The 314 codes are a **local segment classification** (not a trade basket) and may include non-traded or hybrid products (e.g., HSN 54021100: Aramids, which are often under Chemicals/Defence). The "broader" claim ignores that the MoT’s trade basket is **explicitly designed for export/import tracking**, while the 314 codes are **policy-administrative** (e.g., including codes like 95069110: Boxing Equipment, which has no textile trade relevance). [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"DPIIT's official record [from] December 2025"* — The DPIIT’s latest **HSN-to-ministry mapping** was updated on **16 December 2025** (per the article’s own source citation). No newer official revision is cited, but the **FY2025-26 trade data** (DGCI&S) is from **30 July 2026**, suggesting the DPIIT’s mapping may have been updated post-December 2025. Re-check the **DPIIT’s latest OM or circular** for 2026 revisions. [confidence: medium]
+
+---
+**none found** (for other categories)

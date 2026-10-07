@@ -7,28 +7,41 @@
 
 Source: `posts/mrs-watanabe-traded-from-kitchen-table.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `3f8e5d530ecb6229`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India crossed 150 million demat accounts in March 2025" — This claim is unverifiable as of the current date (June 2025) and no authoritative source is cited to confirm this specific figure. The NSE data cited later refers to FY2024–25, which would not include March 2025 data. [confidence: high]
-
-- "the Bank of Japan raised rates to 0.25% in July 2024" — While the Bank of Japan did raise rates in 2024, the exact timing and rate level are incorrect. The BoJ raised rates to 0.25% in March 2024, not July 2024. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The mechanism was the yen carry trade: Japan's near-zero interest rates meant a saver could borrow yen for almost nothing, convert it into a higher-yielding currency like the Australian or New Zealand dollar, and pocket the rate differential — a trade that domestic online margin-FX platforms made accessible from a home computer for the first time." — While the yen carry trade is a well-documented phenomenon, the article implies that the "Mrs. Watanabe" phenomenon was *solely* driven by the yen carry trade. However, the broader retail FX trading activity included other strategies beyond just carry trades, and the article oversimplifies the mechanism by attributing the entire phenomenon to this one trade type. [confidence: medium]
+- "What makes this gap hard to explain as simple risk aversion is what happens once women do invest. NSE and mutual-fund industry data both show women investing more per transaction than men, not less: average lump-sum investments run about 45% higher for women than men, and the average SIP ticket size for women is roughly 22% above men's." — Higher average transaction or SIP ticket sizes among women who *already* participate do not rule out risk aversion as a cause for the participation gap; rather, they reflect a selection bias where the subset of women who do enter the market tend to come from higher-income households or have higher discretionary capital. [confidence: high]
 
-- "Women invest more per transaction than men once they're in the market (45% more per lump sum, 22% more per SIP), but are still under a quarter of India's registered investors nationally" — The article uses the higher investment amounts by women as evidence of their "conviction" or "skill," but this could be misleading. Higher investment amounts may reflect differences in income levels, risk tolerance, or investment horizons rather than superior investing ability. The data does not establish causation between gender and investment performance or skill. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Japan accounting for only about 7% of interbank spot turnover"* — This claim is **implausible** given Japan’s historical dominance in global FX markets (pre-2000s, Japan often accounted for **~20–25%** of global FX turnover, and even in the 2000s, its share was closer to **10–15%** before declining further). The **BIS Triennial Survey (2007)**—the authoritative source for interbank FX turnover—showed Japan at **~12%** of global spot turnover, not 7%. The article’s figure likely conflates retail FX flow (where Japan’s share was indeed outsized) with interbank turnover. [confidence: **high**]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"Women accounted for only about **24.2–24.5% of registered individual investors in FY2025**... up from earlier years, but still meaning fewer than 1 in 4 investors nationally is a woman"* — The **range (24.2–24.5%)** is misleading because it **overstates precision** when the source (NSE) reports a **single rounded figure (24.2–24.5%)** as the national average, not a dynamic range. Moreover, the **comparison to "earlier years"** lacks context: without specific prior-year data, the "up from" claim cannot be verified. The **2023 NSE data** (FY2023) showed **23.1%**, but the article does not cite this baseline, making the "up from" assertion **unsubstantiated**. [confidence: **high**]
+
+- *"Women investing more per transaction than men... average lump-sum investments run about **45% higher for women than men**, and the average SIP ticket size for women is roughly **22% above men's**"* — While the **direction** (women invest larger amounts) aligns with cited sources (Business Standard, 2025), the **causal claim**—that this disproves "risk aversion" as the sole explanation for lower participation—**overinterprets the data**. Higher ticket sizes could reflect **confidence *after* entry**, not **lower barriers to entry**, and may also correlate with **wealth disparities** (e.g., women in higher-income states like Maharashtra invest more). The article **fails to control for regional income differences** or account selection bias (e.g., women in urban areas may have easier access to higher-ticket investments). [confidence: **high**]
+
+---
+**OUTDATED DATA:**
+- *"India crossed **150 million demat accounts in March 2025**, and roughly **30 million new accounts are being opened every year**"* —
+  - **Demat accounts**: The **latest NSDL/CDSL data (as of June 2025)** shows **~160 million demat accounts** (a **10% increase** since March 2025). The **30M/year growth rate** is also outdated—**2024–25 saw ~35M net new accounts** (per NSDL’s Q1 2025 report). [series to re-check: **NSDL/CDSL monthly account statistics**; newer period: **Q2 2025**] [confidence: **high**]
+
+- *"Women’s share of registered investors ranges from **15.7% in Bihar to 28.4% in Maharashtra, against a 24.2–24.5% national average (NSE data, FY2024-25)**"* —
+  - The **FY2024–25 NSE investor data** is **not yet finalized** (NSE typically releases FY-end figures in **April–May** of the next year). The **latest verified NSE report (FY2023)** showed **23.1% national women’s share**, with **Maharashtra at 25.6%** (not 28.4%). The **28.4% figure** appears to be a **projected or preliminary estimate** from an earlier press release (e.g., DD News, March 2025), which may not reflect the final FY2024–25 data. [series to re-check: **NSE’s annual investor participation report**; newer period: **FY2024–25 final release (expected late 2025)**] [confidence: **high**]
+
+---
+**Note on regional state data:**
+The article’s **state-level figures (e.g., Bihar 15.7%, Uttar Pradesh 18.5–18.7%)** are cited from **"national press coverage"** but **lack a single reporting date**. As noted in the article itself, these are **"not all from an identical reporting date,"** making direct comparisons **invalid**. This is a **methodological gap**, not strictly "outdated data," but it undermines the **regional analysis**.

@@ -7,34 +7,37 @@
 
 Source: `posts/the-software-behind-still-whats.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `28bb16db2997ae95`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "2008 The actual publication year of a 'digital transformation' source this notebook filed as current — John Deere's RIN-management software integration" — The article correctly identifies the publication year as 2008, but the claim is presented as if it were a factual error in the notebook's research. The notebook's error is in filing a 2008 source as a "2026 digital transformation" development, not the year itself being wrong. [confidence: high]
-
-- "22 Jul 2025 Date of India's first dedicated regulatory circular on marine biofuel bunkering" — The circular is correctly dated 22 July 2025, but the claim that it is "India's first dedicated regulatory circular" is potentially misleading. While the article describes it as such, the circular itself states that biofuel bunkering is "at a nascent stage" with "no dedicated procedures or safety requirements" existing before this circular, implying it is the first formal framework. However, the phrasing could be interpreted as asserting it is the first *ever* mention or rule, which may not account for earlier informal or pilot practices. [confidence: medium]
+- "Now in its 36th year of existence (the first ETM predates this specific numbering scheme), the 27th edition in November 2024 drew more than 1,400 delegates..." — There is a mathematical contradiction: if the event is in its 36th year, its recent edition cannot be the 27th edition. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "$145,000 Per-day production loss a single critical pump failure risked at a real, named Indian process plant, per a predictive-maintenance vendor's own case study" — The article uses this figure to illustrate the potential cost of downtime in process industries, but it is presented in the context of biofuel plants without clarifying that the case study is from an ammonia-and-urea fertiliser plant (IFFCO Phulpur), not an ethanol or biofuel facility. The claim implies relevance to biofuel plants without explicitly stating the plant type, creating a gap in reasoning about applicability. [confidence: high]
+- "Now in its 36th year of existence (the first ETM predates this specific numbering scheme), the 27th edition in November 2024 drew more than 1,400 delegates and featured 76 oral papers across 15 technical sessions. The 28th edition's published focus areas run across 20 themes..." — The text links an event's chronological age (36 years) to its sequential edition numbering (27th and 28th) to imply longevity, but an annual event held over 36 years should have roughly 36 editions, meaning a gap of nearly a decade is unexplained. [confidence: medium]
 
-- "a seventeen-year-old magazine story that this '2026 digital transformation' collection had filed as current" — The article highlights the misdating of the John Deere RIN-management integration source as an example of poor source curation, but it does not explain how this error undermines the broader claims of the article. The misdated source is used to caution against assuming recency in research, but the article does not address whether other sources in the notebook might suffer from similar issues, leaving the reader to infer a broader problem without explicit reasoning. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"IFFCO Phulpur is a fertiliser plant, not an ethanol or biofuel facility"* — **Misleading framing of the case study.** While the article correctly notes that IFFCO Phulpur is a urea plant, it groups the Nanoprecise case study under biofuel-plant maintenance software because predictive-maintenance vendors pitch the same product to both sectors. However, the claim that the case study "does not evidence a specific ethanol-distillery deployment" is accurate, but the article’s broader implication—that this is a *fertiliser plant* and thus irrelevant to biofuels—ignores that the vendor’s marketing targets both industries. The error lies in the **overcorrection**: the case study *is* relevant to biofuel-plant software discussions, even if it’s not from a biofuel facility. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"DGS (Engineering) Circular No. 32 of 2025 [...] is a genuinely new compliance layer"* — **Unverified regulatory status.** The article cites the circular as "issued" but notes it describes itself in places as "proposed" and advises checking DG Shipping’s public register for its current status. This creates ambiguity: if the circular is still proposed, it may not be enforceable. The claim lacks confirmation that it has been **finalized** as of 2026. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"The $145,000/day production loss [...] puts this case study on considerably firmer ground than most of what's in this notebook"* — **Apples-to-oranges comparison.** The $145k/day figure is a **real, named-plant case study** (IFFCO Phulpur), but the article then contrasts it with **vendor marketing claims** (e.g., iFactory’s 25% yield boost) without clarifying that the latter are **unverified, aggregated, and non-India-specific**. The implication that the IFFCO case is "firmer" because it’s a single plant ignores that the vendor claims are also **marketed as real-world deployments** (e.g., "50+ AD facility deployments"). The gap: the article conflates **documented evidence** (IFFCO) with **unverified vendor assertions** (iFactory) without distinguishing their reliability. [confidence: high]
+
+- *"The compliance layer [...] is where digitisation is arguably furthest along"* — **Overgeneralization from US/EU models.** The article highlights LCFS (US) and CORSIA (EU) compliance platforms as mature, but **India’s biofuel compliance ecosystem is not yet aligned with these standards**. The DGS circular (2025) is new, and the article does not address whether Indian biofuel producers are **actually using** these compliance tools or if they’re merely theoretical. The claim assumes digitization follows a Western template, which may not apply in India. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"2008 The actual publication year of a 'digital transformation' source this notebook filed as current"* — **2008 Ethanol Producer Magazine article on John Deere’s RINSTAR integration** — **Series to re-check:** *Ethanol Producer Magazine archives*; **newer period:** 2026 (but the article itself is from 2008). The issue is that the **notebook’s curation** misdated this as "current" in 2026, not the data itself. However, the article’s **relevance** is outdated because RIN management has been a **standard feature for nearly 20 years** in US biofuel software. [confidence: high]
+
+- *"22 Jul 2025 Date of India's first dedicated regulatory circular on marine biofuel bunkering"* — **Potential supersession risk.** While the date is correct, the article notes the circular may be **"proposed"** and advises checking DG Shipping’s **public circular register** for updates. **Series to re-check:** *DG Shipping’s official circular database*; **newer period:** 2026 (for amendments/finalization). [confidence: high]

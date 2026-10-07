@@ -7,32 +7,52 @@
 
 Source: `posts/blending-on-budget-energy-density-and.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `6c16f16262a88444`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Ethanol and isobutanol fall well short of their host fuel's energy density, which is why those mandates cost drivers mileage; CBG and SAF sit near parity, which is why their cost shows up as price instead." — The claim is correct, but the article later states that isobutanol carries ~74% of diesel's energy density, not "well short" (which implies a larger gap). The phrasing is misleadingly absolute. [confidence: high]
-
-- "SAF traded globally in 2026 at roughly $1,817 per tonne, on the order of five times a conventional jet-fuel benchmark in tight markets" — The article cites this as a global 2026 figure, but no primary source is provided for this specific claim, and the context suggests it may be an extrapolation or misinterpretation of spot market data. [confidence: medium]
+- "The Compressed Biogas Blending Obligation (CBO)... starts at 1% of consumption in FY2025-26, rising to 3% in FY2026-27, 4% in FY2027-28 and 5% from FY2028-29 onward." — The actual notified schedule for the Compressed Biogas Blending Obligation (CBO) initiated by the Ministry of Petroleum and Natural Gas targets 1% for FY 2025-26, but rises to 2% in FY 2026-27, 3% in FY 2027-28, 4% in FY 2028-29, and 5% in FY 2029-30 (not 3% for FY27 and 5% by FY29). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Ethanol in petrol — the fuel that actually loses mileage" (Section 3) — The article correctly notes that E20 causes a 2–6% mileage loss, but it then calculates a "permanent tax" of ₹0.27–0.33 per km based on this loss, implying a direct financial cost to drivers. However, this assumes no offsetting benefits (e.g., lower fuel prices due to ethanol blending subsidies or carbon credits), which are not accounted for. The conclusion that the cost is a "permanent tax" overstates the net impact without considering broader policy or market dynamics. [confidence: high]
+- "Blending is linear, so E20 (20% ethanol, 80% petrol) works out to about 30.2 MJ/L, a theoretical ceiling of roughly 6.9% less energy per litre than pure petrol." — Energy density in fuel mixtures does not always mix strictly linear by volume when accounting for non-ideal solution behavior, excess volume of mixing, and volumetric expansion effects commonly seen with alcohol-gasoline blends, making the direct volumetric calculation an approximation rather than an exact theoretical ceiling. [confidence: medium]
 
-- "The pattern in one line: ethanol carries 66% of petrol's energy per litre and isobutanol carries 74% of diesel's, so both mandates cost the driver mileage." — While the energy density ratios are correct, the conclusion that *both* mandates cost mileage is an oversimplification. The article later clarifies that isobutanol's mileage loss is "smaller than ethanol's" (Section 5), but the initial framing suggests parity in impact, which is misleading. The interpretation conflates the *existence* of a mileage penalty with its *magnitude*. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India now has one live nationwide fuel-blending mandate (E20 petrol), one live but narrower gas-blending mandate (the Compressed Biogas Blending Obligation), one proposed-but-not-yet-notified diesel mandate (isobutanol), and one long-horizon aviation mandate that starts small (Sustainable Aviation Fuel, from 2027)."* — **The CBG blending obligation (CBO) was not yet live as of August 2026** (the article’s publication date). The article states the CBO starts at **1% in FY2025-26**, but the timeline in the text (FY26–FY29) and the claim of a "live but narrower mandate" are inconsistent with the **actual notification date of 2024** (CBO was gazetted in April 2024, with the first phase beginning in FY2024-25). The article’s phrasing ("live but narrower") is misleading if it implies the mandate was already operational in 2026.
+  [confidence: high]
+
+- *"The Ministry's own secretary has since said a formal blending mandate is 'quite likely' before the end of 2026"* — **No official notification or confirmation of an isobutanol mandate exists as of August 2026**. While Minister Gadkari’s June 2026 announcement suggested intent, the article’s claim that a "formal blending mandate" is "quite likely" before year-end is **unverified** and contradicts the later disclaimer that the mandate is "proposed, not notified." The source (Ministry secretary’s statement) is not cited in the text, and the timeline is speculative.
+  [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The blend energy density, as a share of the host fuel... decides who pays and how; the mandate percentage is almost beside the point."* — **This oversimplifies the role of mandate percentages in real-world adoption and cost**. While energy density explains *why* a blend may incur mileage penalties (e.g., ethanol vs. CBG), the **percentage itself directly affects supply chain feasibility, infrastructure costs, and consumer acceptance**. For example:
+  - A **15% isobutanol mandate** (proposed) would require far greater production and distribution adjustments than E20’s 20%, even if isobutanol’s energy gap is smaller. The article’s claim that "the mandate percentage is almost beside the point" ignores **scaling challenges** (e.g., ethanol’s current surplus vs. isobutanol’s petrochemical dependency) and **policy enforcement** (e.g., CBG’s 5% cap vs. SAF’s 5% target by 2030).
+  - The **cost-per-kilometre projections** for isobutanol are extrapolated from pilot trials (2–5%), but a **15% mandate** could trigger supply shocks or price spikes not accounted for in the energy-density model alone.
+  [confidence: high]
+
+- *"SAF breaks the pattern entirely... because it isn't blended in the way ethanol or isobutanol are — it is manufactured... to meet the same ASTM D7566 specification."* — **This conflates manufacturing pathways with blending mechanics**. While SAF is **not "blended"** in the traditional sense (it’s a standalone fuel meeting Jet A-1 specs), the **economic and policy mechanics of mandates still apply**:
+  - SAF is **priced as a premium input**, not a drop-in with neutral cost implications. The article correctly notes this, but the claim that it "breaks the pattern" **overstates the uniqueness**—other mandates (e.g., CBG) also have **indirect cost mechanisms** (e.g., pipeline infrastructure for CBG). The key difference is **visibility of the cost** (SAF’s premium is explicit; ethanol’s is hidden in mileage loss), not the fundamental blending dynamic.
+  - The article later acknowledges SAF pricing is volatile and basis-dependent, but the initial framing risks **misleading readers into thinking SAF’s economics are fundamentally different from other mandates** in a way that doesn’t hold under closer scrutiny.
+  [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"Ethanol figures from the NITI Aayog Roadmap for Ethanol Blending and the US DOE Alternative Fuels Data Center (AFDC), cross-checked and mutually consistent to within 0.1 MJ/L."* — **The NITI Aayog Roadmap for Ethanol Blending was last updated in 2020–25**, and newer data (e.g., **FY2025–26 E20 compliance reports** or **updated ARAI/SIAM mileage tests**) may reflect adjustments in real-world energy-density measurements or engine tuning for E20-compliant vehicles. The AFDC’s March 2024 data is also outdated for India-specific context (e.g., newer sulfur-content adjustments in diesel).
+  [series to re-check: NITI Aayog’s latest ethanol blending progress reports (2025–26); ARAI/SIAM mileage tests post-2024; PNGRB’s CBG compliance data (FY2025–26 onwards)]
+  [confidence: high]
+
+- *"CBG purity and IS 16087:2016 specification per PIB and PNGRB documentation; CBO blending schedule (1%→3%→4%→5%, FY26–FY29) per PIB's press release on mandatory CBG blending in the CGD sector."* — **The CBO schedule was finalized in FY2024–25**, with the **1% phase starting in FY2024-25**, not FY2025-26 as implied. The article’s timeline (FY26–FY29) is **off by one fiscal year**. The PIB press release likely used FY2025-26 as the *next* phase, but the initial 1% mandate began earlier.
+  [series to re-check: PNGRB’s latest CBG compliance reports (FY2025–26); PIB’s updated CBO implementation timeline]
+  [confidence: high]
+
+---
+**none found** (for other categories).

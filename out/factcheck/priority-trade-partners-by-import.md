@@ -7,34 +7,32 @@
 
 Source: `posts/priority-trade-partners-by-import.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9f8900fc43ac8620`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "China supplies 8 of India's 12 fastest-growing high-value imports." — This claim is unverifiable as stated because the article does not provide the specific list of 12 fastest-growing import chapters or their corresponding import values. Without this data, the claim cannot be fact-checked against TRADESTAT or other sources. [confidence: medium]
-
-- "PLI schemes cover the import value of only 2 of the 12 with a strong scheme match (3 more have partial coverage; 7 have none)." — The article does not provide the exact methodology or calculations used to determine "strong scheme match," "partial coverage," or the "7 have none" categorization. The claim lacks transparency in how these categories were derived from the underlying data. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "China leads by dollar value ($102.4bn combined) and ranks #1 or #2 in five of the 12 chapters (electrical machinery, machinery, organic chemicals, plastics, and optical/medical instruments) — more than double any other country." — While the claim about China's leading dollar value and sectoral dominance may be factually correct, the statement implies a causal or strategic significance (e.g., higher risk exposure) without explicitly defining or justifying what constitutes "more than double any other country" in terms of risk or policy relevance. The comparison is not clearly tied to a measurable policy or economic outcome. [confidence: high]
+- none found
 
-- "The USA is the most diversified major partner — present in 9 of 12 sectors but never dominant in any single one, which is a structurally different (and lower-risk) kind of relationship than China's." — The claim that the USA's diversified presence is "lower-risk" is an interpretation that assumes diversification inherently reduces risk without defining what kind of risk is being mitigated (e.g., supply chain disruption, geopolitical exposure) or providing evidence that diversification correlates with lower risk in this context. The reasoning gap lies in the unsupported causal link between diversification and risk reduction. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"China supplies 8 of India's 12 fastest-growing high-value imports"* — The article later states China ranks **#1 or #2 in 5 of 12 chapters** (electrical machinery, machinery, organic chemicals, plastics, and optical/medical instruments), not 8. The initial claim overstates China’s dominance. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The USA is the most diversified major partner (9 of 12 sectors) but never dominant in any single one"* — While true, this framing conflates **diversification** (broad presence) with **structural risk**. The claim ignores that the USA’s dominance in *any* single sector (e.g., pharmaceuticals, aerospace) could still pose geopolitical or supply-chain risks, not just China’s concentrated exposure. The "lower-risk" framing is oversimplified. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"FY2025-26 import value"* — TRADESTAT’s latest official data as of mid-2026 is likely **FY2026-27** (released by MoSPI/PIB). The article’s figures may predate the latest fiscal year. [confidence: high]
+  *(Series to re-check: MoSPI’s *Commodity-wise Import Data* by country; newer period: FY2026-27)*
+
+---
+*Note: No other factual or interpretation gaps were flagged beyond these.*

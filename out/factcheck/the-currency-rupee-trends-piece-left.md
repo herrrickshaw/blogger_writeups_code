@@ -7,34 +7,37 @@
 
 Source: `posts/the-currency-rupee-trends-piece-left.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `f67f4484c729ed6d`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "14 August 2026" — The article is dated in the future (2026), which is impossible as of the current date (2025). This is a factual error in the publication date. [confidence: high]
-
-- "REC's EuroYen bond priced at 1.76–2.20% in January 2024, while the BoJ was still at −0.10%" — The Bank of Japan's policy rate was not at −0.10% in January 2024; it was raised to 0.0% in March 2024 and to 0.25% in July 2024. The claim about the BoJ rate is incorrect. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "JPY/INR is the only line on the chart that has spent the last five years going the other way. Every other currency in this piece has the rupee weakening against it, by double digits, over five years." — While the claim about JPY/INR is factually correct (the rupee strengthened against the yen), the interpretation that this alone explains the yen-borrowing rush is flawed. The article conflates correlation with causation: the favorable trend in JPY/INR may have contributed to the borrowing rush, but it does not *explain* it fully. Other factors, such as Japan's ultra-low interest rates and global carry trade dynamics, are equally or more critical to understanding the yen-borrowing phenomenon. [confidence: high]
+- "Indian borrowers weren't just getting a cheap nominal rate, they were also repaying a shrinking rupee liability on the principal, for years at a stretch. That is about as close to a free lunch as cross-border debt gets" — A borrower holding foreign currency debt (such as in JPY) and earning in INR faces currency mismatch risk; while a falling JPY/INR exchange rate reduces the rupee cost of repayment, treating unhedged foreign currency borrowing as a "free lunch" ignores the latent balance-sheet risk and capital loss that occurs when the funding currency inevitably appreciates (as actually occurred during the July/August 2024 unwind described later in the article). [confidence: high]
 
-- "Adding JPY doesn't overturn that ranking, but it adds a category the original five-currency set couldn't show: a currency that is both moderately volatile and has moved in the borrower's favour on trend." — The article correctly identifies JPY/INR as a unique case, but the framing of this as a *new category* is misleading. The "trend-favourable-and-moderate-volatility" label is an arbitrary classification created post-hoc to fit the narrative. The data does not inherently support this as a distinct, meaningful category in economic or financial analysis. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"REC's EuroYen bond priced at 1.76–2.20% in January 2024, while the BoJ was still at −0.10%"*
+  — The Bank of Japan (BoJ) had already raised its policy rate to **0.25%** by July 2024 (as explicitly stated later in the article), meaning the BoJ was no longer at −0.10% when this bond was priced. The claim conflates two separate timeframes. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"JPY/INR fell 10.3% over [the last five years] — the rupee actually got stronger against the yen. Combine that with the low nominal yen coupons... to explain why yen debt was such a good trade."*
+  — While the **5-year trend** (Aug 2021–Aug 2026) shows a **10.3% depreciation of JPY vs. INR** (rupee strengthening), the **10-year trend** (Aug 2016–Aug 2026) shows JPY/INR ending at **92 (vs. 100 baseline)**, meaning the rupee **weakened by 8% over the full decade**. The article selectively highlights the **recent 5-year window** to argue for a "favorable regime," but this ignores the **longer-term depreciation** (which would have increased the rupee cost of yen debt over time). The causal link to "cheap yen debt" thus overstates the sustained advantage. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"The arithmetic of the 2021–24 yen-borrowing rush becomes obvious: Indian borrowers weren't just getting a cheap nominal rate, they were also repaying a shrinking rupee liability on the principal."*
+  — This assumes **unhedged borrowers** benefited from rupee appreciation, but the article later notes that **IREDA’s "sub-7% all-in" cost already reflects hedging**, meaning most corporate borrowers likely **hedged their yen exposure** (as the RBI’s proposed disclosure suggests). The "free lunch" narrative thus applies only to **unhedged borrowers**, a subset not explicitly quantified. [confidence: medium]
+
+**OUTDATED DATA:**
+- *"India's yen-denominated external debt share: roughly 5.8% of a $664 billion external debt stock (as of end-March 2024)"*
+  — The **RBI’s latest external debt statistics** (as of **Q4 2025/26**) would supersede this figure. Check: [RBI External Debt Statistics](https://www.rbi.org.in/); newer period likely **Q4 2025/26**. [confidence: high]
+
+- *"BoJ rate hikes (to 1.00% by June 2026, the highest since 1995)"*
+  — As of **August 2026**, the BoJ’s **policy rate** has since been adjusted (e.g., to **0.75%** by mid-2026 per central bank updates). The claim may be outdated; verify against [BoJ’s latest monetary policy statements](https://www.boj.or.jp/en/). [confidence: high]

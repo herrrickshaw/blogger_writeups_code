@@ -7,34 +7,34 @@
 
 Source: `posts/the-water-bill-nobody-mentions-what.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `bfc3d4217c7ae8c7`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "TSMC's original Hsinchu Science Park facility uses about 57,000 m³/day" — The article cites this figure as "TSMC's original Hsinchu Science Park facility," but later clarifies that TSMC's consumption at this site grew to 85% of the science park's total water claim. The 57,000 m³/day is likely the current consumption, not the original usage. [confidence: high]
-
-- "Taiwan's total semiconductor industry water usage exceeds 250,000 tonnes a day (250 MLD)" — The article cites this figure as current, but the sourcing notes it is based on 2019 data, which is now several years dated given reported consumption growth since. [confidence: high]
+- "TSMC kept its fabs running by trucking water in: 8,000 tanker trucks a day, each carrying 20 tonnes, adding up to roughly 160,000 tonnes of trucked water daily." — While TSMC did use water tankers during the 2021 drought, the figure of 8,000 trucks per day is a massive exaggeration; industry and media reports from the time noted that companies in Hsinchu and Taichung utilized various fleets, but TSMC specifically clarified that trucking played a minor supplemental role and 8,000 trucks a day across the island exceeds the entire logistical capacity deployed. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "comparing Dholera's capacity against TSMC's most advanced fabs would overstate the mismatch" — While the article correctly notes that Dholera's fab is a mature-node process (28nm) and not cutting-edge, it later compares Dholera's 50 MLD treatment capacity to TSMC's Hsinchu site (57 MLD) and TSMC's total Taiwan consumption (150 MLD). This is an apples-to-oranges comparison because Dholera's 50 MLD is installed treatment capacity, while TSMC's figures are consumption/usage. The article acknowledges this but still uses the comparison to imply adequacy, which is misleading. [confidence: high]
+- "Dholera's dedicated infrastructure for the Tata Electronics fab is a 50 MLD water treatment plant plus desalination capacity... Set against the mature-node fab actually being built there — the 10–15 MLD figure from Section 1 — that 50 MLD plant has real headroom, roughly three to five times the single fab's estimated need." — This compares "installed/treatment capacity" (50 MLD) directly against "consumption/requirement" (10–15 MLD) without accounting for the fact that ultrapure water production incurs significant reject water loss (the text itself notes that producing ultrapure water consumes 1,400–1,600 gallons of input for every 1,000 gallons produced). A treatment plant outputting raw or partially treated water must be larger than the net consumption volume to account for internal plant losses and the high ratio of municipal/raw input required to yield final ultrapure water. [confidence: high]
 
-- "India's Semiconductor Mission (ISM 2.0) already builds in the right instinct on paper — infrastructure readiness requirements and water-recycling plants are part of the framework" — The article suggests that ISM 2.0's inclusion of water-recycling plants is a strong policy commitment, but it does not quantify any specific recycling percentage target (unlike TSMC's 90.3% figure). This is a false equivalence: the presence of a framework is not the same as a measurable commitment, and the article does not establish whether ISM 2.0's requirements are sufficient to prevent future water crises like Taiwan's. [confidence: high]
+OUTDATED DATA:
+- "TSMC reported a 90.3% process-water recycling rate in 2023." — TSMC's subsequent annual sustainability and ESG reports (for 2024 and later) provide updated recycling rate figures that supersede the 2023 metric. [confidence: medium]
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Taiwan's worst drought since 1964"* — The article does not provide evidence that the 2021 drought was the worst since 1964; it only states it was the worst since that year without citing a comparative drought severity metric (e.g., reservoir depletion duration, rainfall deficit, or economic impact). [confidence: medium]
+- *"TSMC's consumption represented 3.4% of Taiwan's total industrial water use"* — The 2019 figure likely understates TSMC’s current share due to reported consumption growth since then, but the article does not adjust for this or clarify whether the 3.4% figure is still accurate. [confidence: high]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"Dholera's 50 MLD plant looks roomy today — but Taiwan's own Hsinchu site once had that kind of headroom too, before the industry scaled up."* — This implies that Taiwan’s water infrastructure was *only* absorbed by growth, ignoring that TSMC also implemented **dedicated reclaimed-water plants (e.g., Hsinchu’s 10,000–36,000 m³/day capacity by 2026)** to decouple demand from reservoir reliance. The article conflates infrastructure expansion with recycling innovation, which is critical for scaling. [confidence: high]
+- *"The India Semiconductor Mission (ISM 2.0) already builds in the right instinct on paper — infrastructure readiness requirements and water-recycling plants are part of the framework."* — The article acknowledges ISM 2.0 mentions recycling plants but **does not quantify a recycling-rate target** (e.g., 90% like TSMC), so the "instinct" is unmeasurable. The claim overstates policy rigor without a concrete commitment. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"TSMC's consumption represented 3.4% of Taiwan's total industrial water use [as of 2019]"* — The article cites this as the most precise sourced figure but does not check for newer official releases (e.g., Taiwan’s **Water Resources Agency annual reports** or **TSMC’s latest ESG filings**, which likely reflect post-2019 growth). [confidence: high]
+- *"TSMC reported a 90.3% process-water recycling rate in 2023"* — While correct for 2023, the article does not verify if TSMC has updated this rate in **2024–2026** (e.g., via its [ESG portal](https://esg.tsmc.com)). [confidence: medium]

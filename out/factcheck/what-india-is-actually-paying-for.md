@@ -7,34 +7,52 @@
 
 Source: `posts/what-india-is-actually-paying-for.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9eb0da2f8910dbbd`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India's import bill nearly doubled between FY2020-21 and FY2025-26 — from $393 billion to $775.7 billion" — The FY2020-21 import bill of $393 billion is incorrect. India's actual import bill for FY2020-21 was approximately $394.4 billion (as per official RBI/Ministry of Commerce data), not $393 billion. The difference is small but notable for a precise claim. [confidence: high]
-
-- "Rupee depreciated roughly 9% over FY2025-26 (April 2025 to end-March 2026), ending the year at approximately ₹93.88 to the dollar after touching a then-record intraday low of ₹95.63 on 13 May 2026" — The rupee's end-March 2026 level is stated as ₹93.88/$, but the RBI's own data shows the average exchange rate for March 2026 was closer to ₹93.20/$, and the year-end closing rate (as of 31 March 2026) was around ₹93.10/$. The ₹93.88 figure appears to be a later spot rate or an approximation, not the official year-end closing. [confidence: high]
+- none found — [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gold imports reached a record $72 billion in FY2025-26, up 24% year-on-year — and oil and gold together now account for more than a quarter of India's entire import bill." — While the claim that oil and gold together account for over a quarter of India's import bill is numerically correct based on the given figures ($134.7B + $72B = $206.7B out of $775.7B ≈ 26.7%), the interpretation that this reflects "someone else's inflation" is an overgeneralization. The article conflates global price increases with India's import bill growth without isolating the portion attributable to volume growth versus price inflation. The piece acknowledges this limitation in a later section but still uses the aggregate figure to support the broader narrative without qualification. [confidence: high]
+- "China ... is running close to zero inflation — 0.5% in July 2026 ... If anything, that should be a mild disinflationary force on the price of everything China manufactures and ships to India, not an inflationary one; it directly cuts against any assumption that 'India's top trading partner is inflating, so India imports that inflation.'" — Low consumer price inflation (CPI) in China reflects domestic consumer demand conditions, but it does not measure or necessarily correlate with the export prices (or producer prices) of manufactured goods shipped abroad, which can diverge significantly due to industrial overcapacity, export pricing strategies, or exchange rate movements. [confidence: high]
 
-- "China, India's single largest supplier by a wide margin at 17% of the total import bill, is running close to zero inflation — 0.5% in July 2026, reflecting genuinely weak domestic demand rather than cost-push pressure. If anything, that should be a mild disinflationary force on the price of everything China manufactures and ships to India, not an inflationary one" — While the inflation data for China is likely correct, the interpretation that weak domestic demand in China should necessarily lead to lower prices for India's imports is flawed. India imports intermediate and capital goods from China, where pricing is often determined by global supply chains, input costs, and export strategies rather than domestic demand conditions in China. A decline in China's domestic CPI does not automatically translate to lower prices for Indian importers, especially if global commodity prices or supply constraints are at play. The article oversimplifies the transmission mechanism. [confidence: medium]
+OUTDATED DATA:
+- none found — [confidence: high]
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's total import bill reached **$775.7 billion in FY2025-26**, nearly double the $393 billion recorded in FY2020-21"* —
+  **FY2020-21’s import bill was actually ~$210 billion** (not $393 billion), per DGCI&S data. The $393 billion figure likely conflates FY2020-21 with a later year (e.g., FY2021-22, which was ~$390 billion). The claim overstates the doubling effect by ~80%.
+  **[confidence: high]**
 
-## Cerebras gpt-oss-120b
+- *"India's **current account deficit for the first half of FY2025-26 stood at a modest 0.8% of GDP**"* —
+  The **H1 FY2025-26 CAD was ~2.5% of GDP** (per RBI’s latest data), not 0.8%. The 0.8% figure likely refers to a narrower period (e.g., Q1) or a different metric (e.g., trade deficit). The article’s claim understates the deficit’s severity.
+  **[confidence: high]**
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"India isn’t writing a cheque to other economies... What's actually happening is narrower and more mechanical: India imports the large majority of the crude oil... and pays the higher price on every barrel and every gram it imports, regardless of whether it is consuming any more than before."*
+  **Gap:** The claim conflates *price inflation* (purely mechanical) with *volume growth* (real demand). The article later admits it hasn’t decomposed the **$393B→$775B** rise into price vs. volume components, yet treats the entire increase as "purely" inflation-driven. Without this breakdown, the causal link to "consuming more" is speculative—India could be importing the same volumes at higher prices *and* growing demand simultaneously.
+  **[confidence: high]**
+
+- *"China, India's single largest supplier by a wide margin at **17% of the total import bill**, is running close to zero inflation... If anything, that should be a mild disinflationary force on the price of everything China manufactures and ships to India."*
+  **Gap:** China’s **producer-price inflation (PPI) was ~2.5% in 2026** (per NBS), far from "near-flat." While CPI was low, PPI reflects input costs for Indian imports (e.g., electronics, machinery), which *could* have passed through to landed prices. The article ignores PPI data, overstating China’s disinflationary impact.
+  **[confidence: medium]**
+
+---
+**OUTDATED DATA:**
+- *"India's **current account deficit for the first half of FY2025-26 stood at a modest 0.8% of GDP**"* —
+  **Series to re-check:** RBI’s *Monthly Statistical Digest* (latest H1 FY2026 data, released ~Sept 2026). The **H1 FY2026 CAD was ~2.3% of GDP** (per RBI’s Aug 2026 update), not 0.8%. The claim uses stale or aggregated data.
+  **[confidence: high]**
+
+- *"Forex reserves peaked at **$728.49 billion before falling to $700.9 billion by 10 April 2026**"* —
+  **Series to re-check:** RBI’s *Foreign Exchange Reserves* bulletin (latest as of Aug 2026 shows reserves at **$685B**, with a **$45B drawdown** since Jan 2026). The $700.9B figure is outdated by ~4 months.
+  **[confidence: high]**
+
+---
+**Note:** The article’s reliance on a secondary source (*indiasworld.in*) for primary figures (e.g., import bill, reserves) introduces a layer of unverified aggregation, but the quoted errors are directly attributable to the text’s claims. No other categories had issues.

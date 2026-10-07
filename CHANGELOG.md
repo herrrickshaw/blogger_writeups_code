@@ -13939,3 +13939,16 @@ Labels: Healthcare, Industrial Policy on infant drug delivery post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `cough-syrup-in-lollipop-for-babies` — 2026-10-06 &rarr; 2026-10-06
+
+## 2026-10-07T05:44:03+05:30 — 344 posts live
+
+Telecom tower count updated to DoT Oct 2025
+
+
+**Versions**
+
+- `028-unit-diesel-math-behind-indias-data` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+
+**Changed**
+
+- `028-unit-diesel-math-behind-indias-data` — 36,524 → 36,919 bytes (+395)

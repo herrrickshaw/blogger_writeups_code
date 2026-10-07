@@ -7,34 +7,37 @@
 
 Source: `posts/pli-medical-devices-coverage-and-gaps.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `639d536a617bcac3`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "PLI-MD closes to new applicants in March 2027" — The article contradicts itself by stating later that the scheme closes in March 2027 with a one-year gestation period, implying no further rounds are under consideration, but the phrasing "closes to new applicants" could be misinterpreted as the scheme ending entirely in March 2027 rather than just closing to new applicants. The correct interpretation is that no new applications are being accepted after March 2027, but the scheme continues for existing applicants. [confidence: high]
-
-- "Imports +30% with 9% coverage despite four concentrator makers" — The article cites "9% coverage" for oxygen concentrators, but the source (TradeStat fetch) does not explicitly define what "coverage" refers to (e.g., local production share vs. market share). Without clarity, this claim is unverifiable. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "MRI imports fell 8.5% to $298mn; Philips MRI-coils alone: ₹2,187cr cumulative exports, the scheme's biggest exporter. But family imports still +27% — demand outruns capacity." — The article correctly notes that MRI imports fell 8.5% while imports for the broader "family" (HS 9022) grew by 27%. However, it does not establish a causal link between the PLI scheme and the decline in MRI imports. The decline could be due to other factors (e.g., global supply chain changes, demand saturation, or unrelated policy measures). The conclusion that demand outruns capacity is speculative without additional evidence. [confidence: high]
+- none found
 
-- "Lab & analytical instruments (HS 9027) — $2.19bn imports, 10% coverage, zero PLI presence: chromatographs ($335mn, 3% coverage), gas analysers ($298mn, coverage % not available in the TradeStat fetch), mass spectrometers ($116mn, 1% coverage)." — The article lists import values and "coverage" percentages for lab instruments but does not explain how "coverage" is calculated or sourced. Without a clear definition (e.g., local production as a share of total demand), the comparison between import values and "coverage" is meaningless. The claim implies that PLI's absence is the reason for low coverage, but this is an unsupported causal inference. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"PLI-MD closes to new applicants in March 2027 — the scheme is done taking entrants"* — The claim that no further rounds are under consideration is **misleading**. The Department of Pharmaceuticals’ own statement (Lok Sabha, 16 Dec 2025) explicitly states the scheme closes in **March 2027 with a one-year gestation period**, but it does not rule out future rounds entirely. The article conflates "no new applications" with "no future rounds," which is not supported by the text. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"MRI imports fell 8.5% to $298mn"* — The claim of an **8.5% decline** in MRI imports (FY2025-26) is **contradicted by the article’s own data**. The table shows MRI imports under **HS 9022** (radiology/imaging) at **$298mn**, but the prior year’s provisional data (FY2024-25) is not provided for comparison. Without baseline data, the 8.5% figure cannot be verified as accurate. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"PLI-MD has genuinely moved the needle in imaging and implants, but never touched the two largest deficit families: lab instruments and IVD reagents"* — The reasoning **overgeneralizes causality**. While PLI-MD’s impact is measurable in **covered segments** (e.g., MRI coils, implants), the **lack of applicants in lab instruments (HS 9027) and IVD reagents (HS 3822)** does not prove PLI-MD *couldn’t* have addressed them—only that it wasn’t designed to. The scheme’s **eligibility criteria** (e.g., minimum investment thresholds, device list exclusions) likely excluded these categories by design, not due to ineffectiveness. [confidence: high]
+
+- *"The two biggest import gaps — lab/analytical instruments and the component layer — sit entirely outside PLI-MD's scope"* — This **double-counts the component layer** as both a "gap" and a "family" separately from lab instruments. The **$1.7bn "component layer"** is already included in the **$2.19bn lab instruments (HS 9027)** residual (e.g., X-ray tube housings, anode/cathode assemblies). Treating them as distinct gaps inflates the perceived unaddressed deficit. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"FY2025-26 (provisional) trade data"* — The **provisional FY2025-26 figures** (5 Aug 2026) are likely superseded by the **final TradeStat release** for FY2025-26 (expected by **March 2027**). For **FY2026-27**, the **Department for Promotion of Industry and Internal Trade (DPIIT)** and **Commerce Ministry’s Trade Statistics Division** publish final data annually—check their latest **Trade Statistics Database** for updated figures. [confidence: high]
+
+- *"DoP PLI-MD approved-applicant list, revised 25 Apr 2023"* — The list is **over 3 years outdated**. The **latest approved projects** should reflect updates from **FY2025-26** (e.g., new Category B applicants, mid-term progress). Verify against the **DoP’s official PLI-MD scheme page** or **PIB press releases** (e.g., PRID 2227618 from 13 Feb 2026). [confidence: high]

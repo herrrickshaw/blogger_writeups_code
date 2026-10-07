@@ -7,34 +7,36 @@
 
 Source: `posts/the-cluster-automotive-piece-left-out.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9c295d99a336a009`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "roughly $11.3 billion in combined investment" — The claim is repeated later as "$11.3 billion" for Pithampur alone, but the article also states MP state-wide has "more than 10 OEMs, 2,770 engineering manufacturers and 200 dedicated auto-component manufacturers." The $11.3 billion figure cannot logically apply to both the Pithampur cluster and the entire state simultaneously without clarification. [confidence: high]
-
-- "Six OEMs operate there (Force Motors, Eicher Motors, Avtec Motors, Kinetic Motors, Man Force, and L&T Case among the named operators)" — "Man Force" is not a recognized OEM in India; it appears to be a typo or misattribution. The correct name is likely "Man Trucks India" (a subsidiary of Volvo Group), but the article does not correct this. [confidence: high]
+- "State-wide, Madhya Pradesh hosts more than 10 OEMs, 2,770 engineering manufacturers and 200 dedicated auto-component manufacturers, employing around 200,000 technical workers." — The table earlier in the same article states that Madhya Pradesh statewide hosts "200" auto-component/ancillary firms, but the text later claims it hosts "2,770 engineering manufacturers and 200 dedicated auto-component manufacturers". However, the table and subsequent paragraph elsewhere conflate or contradict the components count (the table says 200 statewide, while the text lists 200 dedicated auto-component manufacturers alongside a separate 2,770 engineering manufacturers, making the ancillary data internally inconsistent). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "MP's position on the DMIC, plus its rail reach, puts it within a single logistics spine of nearly all of them [the other five clusters]." — While Pithampur is on the DMIC and has extensive rail connectivity, the article does not provide evidence or modeling to support the claim that this positioning enables suppliers in Pithampur to "plausibly feed NCR and Pune/Sanand without the multi-day transit times a more peripheral state would carry." The claim assumes a causal link between geographic position and logistics efficiency without quantifying transit times or freight costs. [confidence: high]
+- "MP's position on the DMIC, plus its rail reach, puts it within a single logistics spine of nearly all of them... a supplier or Tier-1 facility based in Pithampur isn't just serving MP's own OEMs, it sits on a corridor that can plausibly feed NCR and Pune/Sanand without the multi-day transit times a more peripheral state would carry." — This ignores standard just-in-time (JIT) and just-in-sequence (JIS) manufacturing parameters, which typically require physical proximities under 100km (as cited regarding Maruti's 76%-within-100km model elsewhere in the text). Claiming that Pithampur can serve NCR and Pune (hundreds of kilometers away) on a true JIT basis via a corridor spine glosses over the fundamental distance and time constraints that make JIT viable. [confidence: high]
 
-- "The policy's specific bets (multimodal logistics parks, dry ports, 24×7 permissions) are aimed at exactly the kind of high-frequency, low-latency freight movement JIT and JIS depend on." — The article does not demonstrate that the Madhya Pradesh Logistics Policy 2025 includes measures that would directly reduce transit times or improve coordination for just-in-time (JIT) supply chains. The policy's provisions (e.g., subsidies, fast-track approvals) are structural and may improve logistics efficiency, but there is no evidence they achieve the specific operational outcomes required for JIT/JIS systems. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Madhya Pradesh approved its Logistics Policy 2025 in February 2025"* — The article states the policy was approved in **February 2025**, but the **2025 Logistics Policy** itself is likely a **2024–25 fiscal-year document** (Madhya Pradesh typically releases major policies in the first quarter of the fiscal year, which begins April 1). The **2025** designation may imply a newer iteration, but no official confirmation exists that a **2025 version** (post-February 2025) was published. The cited sources (Logistics Insider, TaxTMI, Invest MP) reference the **February 2025 approval**, not a distinct "2025" policy. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"MP's position on the DMIC, plus its rail reach, puts it within a single logistics spine of nearly all of [other] clusters"* — While Pithampur’s **geographic centrality** (DMIC + rail links) is plausible, the claim **overstates the direct logistical advantage** without empirical data. The article does not provide:
+  1. **Actual freight transit times** between Pithampur and NCR/Pune/Sanand (e.g., whether NH-52 rail/road speeds match or exceed intra-cluster supply chains).
+  2. **Cost comparisons** (e.g., whether Pithampur’s logistics costs are lower than locating near a primary cluster like Pune).
+  The **just-in-time (JIT) claim** assumes seamless integration, but **logistics efficiency** depends on **modal reliability, customs clearance, and last-mile connectivity**—none of which are quantified. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"Madhya Pradesh hosts more than 10 OEMs, 2,770 engineering manufacturers and 200 dedicated auto-component manufacturers"* — The **2,770 engineering manufacturers** figure is **not sourced directly from ACMA (Automotive Component Manufacturers Association of India)** or the latest **DIPP/DPIIT industrial census** (2023–24). ACMA’s **most recent state-wise breakdown** (pre-2023) likely underrepresents MP’s growth post-2022. The article cites **Outlook Business (2023 coverage)**, but **no official 2024–25 data** confirms these numbers. Re-check:
+  - **ACMA’s latest "State-wise Industry Profile"** (2024–25, if published).
+  - **DPIIT’s "Invest India" dashboard** for MP’s industrial licensing trends.
+  [confidence: high]
+
+*(No other distinct errors found in the remaining categories.)*

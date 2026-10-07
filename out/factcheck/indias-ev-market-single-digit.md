@@ -7,28 +7,41 @@
 
 Source: `posts/indias-ev-market-single-digit.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `92b8bcc6f24694c4`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India registered roughly 2.5 million electric vehicles in FY2025-26 — up 24% year-on-year, and about double the volume of three years earlier." — The article later contradicts this by stating "India registered ~28.2 million vehicles across all fuel types in CY2025; EVs crossed 2.3 million of that, or ~8%." The 2.5 million figure is inconsistent with the 2.3 million figure, and the 24% YoY growth claim is not supported by the later data. [confidence: high]
-
-- "IEA counts ~88,000 [public charging stations] for India on a different methodology" — The IEA's actual count for India in 2025 is 88,000 (55k slow, 31k fast, 2k ultra-fast), but the article presents this as a separate methodology rather than the official IEA figure, implying it is an alternative estimate. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "Three-wheelers have already crossed the tipping point on unsubsidised commercial TCO" — While the cost-per-km data shows EVs are cheaper to run than ICE vehicles, the claim that this alone explains the 60%+ electrification of three-wheelers ignores other factors like regulatory push (e.g., Delhi's ban on ICE three-wheelers), high urban congestion favoring EVs, and the fact that many three-wheelers are e-rickshaws (which are often exempt from registration and permit requirements). The reasoning gap is that the article attributes the tipping point solely to economics without accounting for these non-economic drivers. [confidence: high]
+- none found
 
-- "The structural reason penetration plateaus in personal mobility... comes down to four constraints operating together: personal-segment sales still spike and slump around incentive deadlines rather than growing on independent economics; there's a cell- and component-localisation gap that keeps unit costs tied to imported inputs; charging remains concentrated in five states with range anxiety persisting outside metros; and EV financing costs more than equivalent ICE financing for the end user." — While these constraints are plausible, the article does not provide quantitative evidence linking them directly to the plateau in penetration. For example, it does not show that financing costs are materially higher for EVs than ICE vehicles in India, nor does it quantify how much the localisation gap contributes to higher prices. The reasoning gap is that the constraints are listed without empirical validation of their causal impact on penetration. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India registered roughly 2.5 million electric vehicles in FY2025-26"* — The article later clarifies that **2.3 million EVs** were registered in CY2025 (not FY2025-26), and the **2.5 million** figure is likely a rounded approximation of FY26 registrations (which the article itself states as **~2.3M of 28.2M total vehicles**). The **2.5M claim** is inconsistent with the later corrected data. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The cost-per-km comparison shows EVs beat CNG for personal cars (₹1.41/km vs ₹2.97/km), yet EV penetration (8.5%) lags CNG (22%). This suggests the gap is due to upfront price/financing/charging access—not running costs."* — **Gap:** The comparison conflates **segment-specific penetration rates**. CNG’s 22% share is **only for passenger vehicles (cars)**, while the 8.5% EV figure includes **two- and three-wheelers**, where EV penetration is far higher (e.g., 6.5% for e-2Ws). Directly comparing these **non-overlapping segments** (CNG cars vs. all EVs) distorts the causal narrative. The article later acknowledges this but doesn’t fully disentangle the apples-to-oranges comparison. [confidence: high]
+
+- *"The ACMA/YES BANK report (2021) states China produces 'nearly two-thirds of all Li-ion batteries globally,' implying India’s import dependency is high."* — **Gap:** The report’s claim is **global**, not **India-specific**. While China’s dominance is widely accepted, the article **assumes** this directly translates to India’s local supply chain without accounting for:
+  1. **Post-2021 developments**: India’s cell manufacturing (e.g., Exide-Leclanché, Amara Raja) has ramped up, though capacity remains limited.
+  2. **Alternative supply chains**: Some Indian EV makers (e.g., Tata, Ola) source cells from **non-Chinese suppliers** (e.g., CATL, LG Energy) or **localized packs** (e.g., Exicom assembling imported cells).
+  The article **treats the 2021 data as static**, ignoring newer trends like **Reliance’s paused cell plans** (cited later) or **government push for PLI-linked localization**. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"29,000+ public charging stations (CEEW-GFC/Vahan basis), 55% in 5 states"* — **Series to re-check**: **CEEW-GFC Electric Mobility Dashboard** (Vahan registrations) and **IEA’s Global EV Outlook 2026** (which reports **~88,000 charging points** for India as of CY2025). The **29k figure** is likely a **subset** (e.g., only slow/fast chargers or Vahan-reported points), but the **IEA’s 88k** is the **most comprehensive official estimate** for CY2025. The article notes the discrepancy but doesn’t clarify which figure is **current** or **methodologically comparable**. [confidence: high]
+
+- *"India registered ~28.2 million vehicles across all fuel types in CY2025"* — **Series to re-check**: **Vahan registrations** (used elsewhere in the article). The **latest official data** (as of mid-2024) from **SOC** (Society of Manufacturers of Electric Vehicles) or **FADA** (Automobile Industry Association) shows **CY2025 total vehicle sales closer to ~27–28 million**, but **FY2025-26 (April 2024–March 2025) registrations** (the article’s primary period) are **not yet published** by Vahan. The **28.2M figure** may be a **CY2025 estimate**, but the article’s **FY26 focus** suggests a **newer FY2025-26 total** (e.g., **~29–30 million**) would be more accurate. [confidence: medium]
+
+---
+**none found** (for remaining categories).

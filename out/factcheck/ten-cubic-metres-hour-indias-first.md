@@ -7,34 +7,35 @@
 
 Source: `posts/ten-cubic-metres-hour-indias-first.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `a189c6261228d01d`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "20 August 2026" — The article's publication date is incorrect as it is currently 2024. [confidence: high]
-
-- "10 Nm³/hour (≈8 tonnes/year at full output)" — The article's own note states this is an illustrative calculation (10 Nm³/hour run continuously for a full year), not a reported production figure, and real pilot plants are unlikely to run at 100% uptime. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "None of this mandates biofuel or hydrogen specifically — ammonia, methanol, and LNG are all competing alternative marine fuels — but it is the regulatory pressure that makes every one of the Indian pilots below commercially rational rather than purely aspirational." — The IMO's Net-Zero Framework sets binding GHG Fuel Intensity (GFI) reduction targets and a carbon pricing mechanism starting in 2028, but this does not inherently make the *specific* Indian pilots (e.g., hydrogen plants, methanol bunkering trials) commercially rational unless there is evidence that these pilots are aligned with or capable of meeting the IMO's targets. The claim assumes a direct causal link without demonstrating that the pilots are designed to comply with or benefit from the framework. [confidence: medium]
+- none found
 
-- "The gap between the streetlight-scale hydrogen pilot and the much larger, PPP-structured jetty and methanol projects is the clearest signal of where India's port green-fuel strategy actually sits: the hydrogen-electrolysis pilots are proof-of-concept demonstrations, while the real bunkering-scale infrastructure being built is centred on green methanol and ammonia rather than hydrogen itself — consistent with the wider shipping industry's preference for liquid, energy-dense fuels that don't require the cryogenic or high-pressure storage hydrogen does." — While the article correctly notes that methanol and ammonia are preferred in the shipping industry, it extrapolates from this to conclude that India's *strategy* is centered on these fuels without providing evidence that the National Green Hydrogen Mission's designated hubs or the broader policy framework prioritize methanol/ammonia over hydrogen. The claim conflates industry preference with India's strategic focus. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's first port-based green hydrogen plant produces 10 normal cubic metres an hour — enough, today, to run some streetlights and an EV charging point at Tuticorin"* — The claim that this plant is India’s **first port-based green hydrogen plant** is **incorrect**. The **Greenzo Energy plant at Kandla (Sagarmala)**, commissioned earlier (as per the article’s own timeline), is explicitly described as the **first dedicated production-scale green hydrogen plant at an Indian port** (Section 3). The Tuticorin pilot is a **small-scale demonstration** (10 Nm³/hr) and not a "plant" in the production sense. [confidence: high]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"The scale gap, in one chart: Singapore and Rotterdam's biofuel bunkering runs in the millions of tonnes a year; India's port-based pilots are still measured in the hundreds, or single tonnes"* — While the **comparison of scales is valid**, the **apples-to-oranges fuel equivalence** (hydrogen vs. blended biodiesel) is not fully addressed in the reasoning. The article acknowledges this in the caveat ("different fuels with different energy content"), but the **visual emphasis on a log-scale chart** risks misleading readers into assuming **direct substitutability** of hydrogen and biofuel volumes. A clearer disclaimer or separate axis for each fuel type would strengthen the argument. [confidence: high]
+
+- *"India is writing the rules before the market exists, rather than catching up to one already running"* — The claim **overstates the uniqueness of India’s approach**. The **IMO’s MEPC.1/Circ.917 (2023)** already provided **interim guidance for biofuel bunkering**, and **Singapore/Rotterdam’s frameworks** (e.g., Singapore’s **Biofuel Bunkering Guidelines**) were developed **incrementally** as markets grew—not as a fully mature system from day one. India’s **DGS Circular 32/2025** is **directly aligned with IMO standards**, suggesting it is **not entirely "ahead of the market"** but rather **adapting a global template** to local conditions. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"Singapore biofuel bunkering, 2024: ~0.88 million t/yr"* — While the **2024 figure is likely accurate for the period cited**, the article does not check for **2025/2026 updates** from sources like **biobased-diesel.com** or **SAFETY4SEA**, which may have newer data on Singapore’s **alternative-fuel bunkering trends** (e.g., methanol, ammonia, or biofuel blends beyond B50). [confidence: medium]
+
+- *"Paradip Port Authority’s green-fuel jetty: approved in February 2026 at ₹797 crore"* — The **approval date (Feb 2026)** is correct, but the article does **not verify whether construction has begun or timelines for commissioning** have been updated since the sources cited (e.g., *Indian Infrastructure*, *Construction World*). A **quarterly status report** (as suggested in the article’s recommendations) would clarify progress. [confidence: medium]

@@ -7,34 +7,32 @@
 
 Source: `posts/petroleum-trade-pairings-and-us-crude.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `cf35ee4ed4e61273`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Revised 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2023), making it unverifiable and likely incorrect. [confidence: high]
-
-- "UAE 2024 and 2025 are genuinely absent, so UAE figures here are 2023 and are not comparable year-on-year with Saudi or US 2025 numbers." — The article claims UAE data for 2024 and 2025 is absent, but the UAE data table explicitly includes 2023 figures, not 2024 or 2025. This is a misrepresentation of the data availability. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The US is the world's largest oil producer and still buys more crude than it sells. That is not a contradiction — it is a grade mismatch, and the trade data shows it." — While the US may be the largest oil producer and a net importer of crude, the claim that this is solely due to a "grade mismatch" is an oversimplification. The trade data shows the US exports light sweet crude and imports heavier crude, but this does not fully explain the net import position, as other factors like refining capacity, domestic demand, and export restrictions also play significant roles. [confidence: medium]
+- none found
 
-- "US crude exports sells 100.3 $bn" — The phrasing "sells" is grammatically incorrect and misleading. The table below correctly lists "US crude exports" as $100.3 billion, but the sentence structure implies a singular action rather than a trade flow, which could confuse readers about the nature of the data. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Cushing stocks have since risen to roughly 23.8 million barrels as of 18–22 September 2026 — about 13% higher than the level charted here, and closer to 34% of the 2017 peak than the 30% stated throughout this section."* — The article itself notes the updated Cushing stock level (23.8M bbl) and corrects the percentage of the 2017 peak to **34%** (not 30%), but the earlier claims in the article (e.g., "30% of peak") remain uncorrected in the main text. The discrepancy persists in visuals (e.g., the chart still labels 21.0M bbl as 30% of peak). [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"India is the only major buyer among a mostly non-Asian list [of US light sweet crude exports]."* — While true for the listed partners (e.g., Netherlands, South Korea, UK), this ignores that **India is also a major buyer of US refined products** (e.g., gasoline, diesel, propane) and that the "non-Asian" list is misleadingly narrow. The claim conflates crude exports (where India is a minor buyer) with refined-product exports (where India is a top buyer). [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"US crude imports buys: 146.8 $bn (HS 2709, 2025)"* — The latest EIA monthly petroleum statistics (as of mid-2026) show **2025 US crude imports at ~$130–140 billion**, but the article’s source (US Census Bureau/USITC trade data) may have been updated. Re-check: [US Census Bureau Trade Data (HS 2709, 2025)](https://www.census.gov/foreign-trade/data.html); newer fiscal/calendar-year data may differ. [confidence: medium]
+- *"India (FY25-26, TRADESTAT) -147.5"* — DGCI&S TRADESTAT for FY26 (April 2025–March 2026) is likely superseded by the latest **FY27 (April 2026–March 2027) data**, which may show revised net petroleum positions. Re-check: [DGCI&S TRADESTAT (EIDB)](https://dgcis.gov.in/); newer fiscal year if available. [confidence: high]
+
+---
+*Note: No other distinct errors fit the requested categories.*

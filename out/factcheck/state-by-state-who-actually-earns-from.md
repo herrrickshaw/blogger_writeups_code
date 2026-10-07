@@ -7,34 +7,34 @@
 
 Source: `posts/state-by-state-who-actually-earns-from.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `c7cd8775e8e42bfc`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "CareEdge Ratings report cited above (“E85 Impact: Ethanol Overcapacity to Persist,” May 14, 2026)" — The report title and date are incorrect. The article mentions "CareEdge, May 2026" and "CareEdge Ratings report cited above (“E85 Impact: Ethanol Overcapacity to Persist,” May 14, 2026)" but the actual report title and date are not verifiable as stated. [confidence: high]
-
-- "Installed national capacity stood at roughly 2,000 crore litres/year for ethanol supply year 2025–26 (CareEdge, May 2026)" — The article later contradicts this by stating that CareEdge's actual thesis is that India has roughly 700 crore litres/year of structural ethanol overcapacity, implying installed capacity is higher than 2,000 crore litres/year. The claim of "2,000 crore litres/year" is inconsistent with the overcapacity figure. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The capacity and state surplus/deficit figures above are accurately drawn from that report, but citing them without this context understates the real supply picture: India is not short of ethanol capacity nationally — it has a utilization problem, which is a different (and in some ways more solvable) constraint than the feedstock-scarcity framing in Section 2 above." — While the article correctly identifies a utilization problem, it does not adequately explain how this interpretation affects the state-wise surplus/deficit figures. The surplus/deficit numbers are based on capacity, not utilization, and the article does not clarify whether the surplus/deficit figures account for actual production or just installed capacity. This creates a gap in reasoning about the real-world applicability of the surplus/deficit figures. [confidence: medium]
+- "The E20/E30 mileage penalty exists because ethanol carries less energy per litre than petrol — ethanol's lower heating value is roughly 21 MJ/L against petrol's roughly 32–33 MJ/L, so a blended litre is around two-thirds petrol's energy content by the ethanol fraction alone. A 20%-ethanol litre therefore delivers measurably less usable energy than a 100%-petrol litre... which is the physical mechanism behind the 2–6% ARAI/SIAM-observed drop" — The energy content of E20 fuel is a weighted average of its components, meaning a 20% ethanol blend possesses roughly 93–94% of pure petrol's energy density (not a drop scaled directly as a two-thirds fraction of the blend), creating a mathematical mismatch between the stated lower heating value logic and the actual 2–6% mileage drop cited. [confidence: high]
 
-- "Even a full 5% dedicated SGST recovers only 3–18% of the VAT states forgo, depending on rate and blend — it offsets part of the shortfall in Section 3.1, it does not close it." — The article does not provide a clear explanation of why a 5% dedicated SGST is insufficient to close the shortfall. The claim assumes that the shortfall is linear and proportional to the blend rate, but it does not justify why a higher SGST rate (e.g., 27%) would be required or whether other policy levers (e.g., price pass-through) could address the shortfall more effectively. This leaves a gap in reasoning about the feasibility and implications of alternative solutions. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Installed national capacity stood at roughly **2,000 crore litres/year for ethanol supply year 2025–26** (CareEdge, May 2026)"*
+  — The CareEdge report cited in the article (May 2026) explicitly states India has **~700 crore litres/year of structural overcapacity**, implying actual *utilized* capacity is lower than 2,000 crore litres. The claim conflates *installed* (potential) capacity with *operational* capacity, which is misleading without clarifying utilization rates. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The **Union also forgoes roughly ₹10,760–₹32,270 crore/year of central excise** across the same E10→E30 range on the same displaced volume — a bigger number than the state VAT loss at every blend level, but one the Centre absorbs, not the states."*
+  — While true that central excise foregone exceeds state VAT loss, the claim **misrepresents the fiscal transfer dynamic**. The Centre’s excise loss is a *national* cost borne by the Union, whereas the state VAT loss is a *state-specific* revenue shortfall. The comparison ignores that the Centre’s excise revenue is pooled nationally (e.g., for GST compensation), while states lack such redistribution mechanisms. The framing implies the Centre’s loss offsets states’ losses, which is incorrect—it’s a separate fiscal burden. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"PPAC Ready Reckoner FY2025–26 H1 state-wise petrol sales volumes and headline state VAT rates"*
+  — The article uses **H1 FY2025–26** data (July–Dec 2025) for modelling, but no newer official PPAC release (e.g., FY2026–27 or H2 FY2025–26) is cited. Given ethanol blending mandates and VAT revisions (e.g., Telangana’s 35.2% rate may have changed post-July 2026), rechecking the latest PPAC *Table 6.4(B)* (petrol sales) and *Table 8.17* (VAT rates) is warranted. [confidence: high]
+
+---
+**Note:** No other distinct factual, interpretive, or outdated-data issues were identified in the provided text. The disclaimers (Section 6) correctly acknowledge data gaps, but the article’s core claims stand as modelled projections, not verified treasury figures.

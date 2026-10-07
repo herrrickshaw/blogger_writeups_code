@@ -7,34 +7,31 @@
 
 Source: `posts/thermal-parity-is-dead-what-85-oil-and.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `fd0f249f38196323`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
-
-- "5.55 MMBtu of energy in one barrel of crude — the thermal-parity anchor" — While the article cites Mittal (2016) for this conversion, the standard conversion is approximately 5.8 MMBtu per barrel of crude oil (based on API gravity and energy content). The 5.55 figure may be an outdated or region-specific estimate. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "India’s notified APM gas ceiling, $7.86 India’s notified APM gas ceiling, $/MMBtu, against $85 crude" — The claim that the $7.86 gas price is "against $85 crude" implies a direct causal link where the gas price is derived from the crude price via the 10% formula. However, the article later notes that the notified price is below the raw formula output ($8.4–8.5/MMBtu), indicating a policy choice (ceiling) is constraining the pass-through. The framing oversimplifies the relationship by ignoring the ceiling's role in decoupling the price from crude. [confidence: high]
+- "The floor was set at $4/MMBtu, and the ceiling has stepped up in stages since the formula's introduction. PPAC's own August 2026 notification puts the actual domestic natural gas price at $7.86/MMBtu... At the Indian crude basket’s recent average of roughly $84–85/bbl, 10% works out to a raw formula output of $8.4–8.5/MMBtu. The notified price of $7.86/MMBtu sits below that, which is consistent with the ceiling still constraining the raw 10% output" — The Kirit Parikh committee recommendation (and subsequent Union Cabinet approval in April 2023) set the gas price ceiling for legacy/APM (nomination) fields at a fixed $6.50/MMBtu for the first year (FY 2023-24), with a $0.50 annual escalation up to $8.50/MMBtu by FY 2025-26. By August 2026, the ceiling itself would have reached its final scheduled cap of $8.50/MMBtu (or $8.5), not a lower figure like $7.86 or $7. Therefore, a notified price of $7.86/MMBtu actually sits *below* the maximum statutory ceiling of $8.50/MMBtu, meaning the price is being suppressed below the cap (or the raw 10% formula output of ~$8.45 is yielding $7.86 due to the exact monthly average calculation mechanics of the Indian crude basket from the preceding month, rather than a binding ceiling). Concluding that the $7.86 price proves a ceiling is currently binding involves a false deduction about how the formula and cap interact. [confidence: high]
 
-- "The 2015 cointegration study’s empirical finding is the after-the-fact confirmation of what the 2006 review predicted was possible." — The article conflates correlation with causation. The 2006 review predicted a *mechanism* (fuel-switching) that could weaken the oil-gas link, but the 2015 study only confirmed a *statistical break* in cointegration. The claim implies the review's mechanism *caused* the decoupling, which is not supported by the evidence presented. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"10.8×1 India’s actual oil-to-gas price ratio today, at the notified APM price"* — The claim conflates two distinct ratios: the **India crude basket vs. India’s notified APM gas price** (10.8:1) and the **India crude basket vs. US Henry Hub spot gas** (32.3:1). The article later clarifies these are separate benchmarks, but the standalone claim risks implying a single "actual" ratio for India’s domestic gas, which is misleading. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The notified price of $7.86/MMBtu sits below that [raw 10% formula output], which is consistent with the ceiling still constraining the raw 10% output"* — The reasoning assumes the **$7.86 ceiling is binding** because it’s below the raw 10% calculation ($8.4–8.5/MMBtu), but the article itself notes it *"could not locate PPAC's precise nomination-field ceiling figure for August 2026"* and reads $7.86 as the *notified, binding price* without direct evidence of the ceiling’s exact mechanics. The causal link between the ceiling and the $7.86 figure is speculative. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"India’s notified domestic natural gas (APM) price, $7.86/MMBtu (Gross GCV basis) for the period 1st August 2026 to 31st August 2026"* — The article cites this as a **PPAC notification from August 2026** but does not verify if a newer notification (e.g., for September 2026 or later) exists. The **PPAC’s "Domestic Natural Gas Price"** series is monthly and subject to updates; the claim assumes no subsequent revision. [confidence: medium]
+- *"Henry Hub spot, $2.64/MMBtu, 6 August 2026 — US EIA/FRED series DHHNGSP"* — While the EIA’s **DHHNGSP** series is current, the article does not check if a **later August 2026 or September 2026** data point (e.g., 7 August or beyond) exists, which could reflect post-publication market moves. [confidence: medium]
+
+*(Note: The 5.55 MMBtu/barrel conversion from Mittal (2016) is not flagged as outdated, as it remains a widely cited peer-reviewed standard, though newer studies may have refined it.)*

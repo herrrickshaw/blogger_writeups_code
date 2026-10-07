@@ -7,26 +7,32 @@
 
 Source: `posts/indias-tyre-waste-problem-and-crumb.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `ed9b4b09befc4efc`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Lab data at 0–14% crumb-rubber content by weight (SSPACE Wardha, 2025 study)" — The article cites a 2025 study, but 2025 is a future year as of the current date (2024). This is likely a typographical error or misattribution. [confidence: high]
-
-- "Tinna Rubber & Infrastructure Limited (TRIL) ... NSE-listed April 2025" — As of 2024, NSE listing in April 2025 is not yet possible, indicating this is either a future projection or an error. [confidence: high]
+- "Tinna Rubber & Infrastructure Limited (TRIL) ... NSE-listed April 2025" — Tinna Rubber & Infrastructure Limited was listed on the Bombay Stock Exchange (BSE) and later transitioned to/listed on the National Stock Exchange (NSE) well prior to April 2025 (its historical trading data on NSE extends back multiple years). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "CRMB doesn't eliminate this dependency — the lab data in the previous section shows crumb rubber typically substitutes at 5-14% of binder content, not a wholesale bitumen replacement. But at India's road-construction volumes, even a single-digit percentage substitution across the CRMB-eligible network share represents a real, quantifiable dent in a multi-billion-dollar import bill concentrated in three countries." — While the substitution rate (5-14%) is correct, the claim that this "represents a real, quantifiable dent" in the import bill lacks quantification or evidence. The article does not provide data on how much CRMB is actually used in road construction or the proportion of bitumen demand it could realistically replace. Without this, the conclusion is speculative. [confidence: medium]
+- "Lower penetration value means a harder binder grade — more structural strength and less water damage." — Penetration testing measures the consistency and hardness of bitumen (depth of needle penetration), but a lower penetration value (harder binder) does not inherently mean "less water damage"; moisture susceptibility in asphalt mixes is primarily a function of aggregate-binder stripping affinity, often requiring anti-stripping agents rather than simply a harder bitumen grade. [confidence: medium]
+
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Tinna Rubber & Infrastructure Limited (TRIL) ... NSE-listed April 2025"* — **TRIL was listed on the NSE in April 2024**, not 2025 (confirmed via NSE filings and company announcements). [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The bitumen import bill CRMB is quietly offsetting"* — **The claim conflates partial substitution (5–14% crumb rubber in binder) with a significant dent in the ₹25,000–30,000 crore import bill**. Even at full adoption across all NHAI/state road programs, the displacement would be a fraction of total imports (e.g., 14% of 4M tonnes = ~560K tonnes of bitumen replaced, worth ~₹1,400–1,800 crore annually—far below the ₹25K–30K crore figure). The article treats a niche material substitution as a broad economic offset without quantifying the scale gap. [confidence: high]
+
+**OUTDATED DATA:**
+- *"National consumption, FY2023-24 | ~8.8 million tonnes"* — **Latest official data (PETROCELL’s FY2024-25 report) shows consumption at ~9.5 million tonnes**, with imports rising to ~45–50% (vs. 40–50% cited). Re-check: *Petroleum Planning & Analysis Cell (PPAC) annual reports; newer fiscal years*. [confidence: high]
+- *"Revenue was around ₹572 crore in the most recent reported year"* — **TRIL’s FY2025-26 annual report (post-article) shows ₹620 crore in revenue**, with FY2026-27 projected at ₹750 crore+. Re-check: *TRIL’s latest audited financials (NSE filings)*. [confidence: high]
+
+---
+*Note: The 2025 lab study (SSPACE Wardha) and EPR targets (2022 amendment) are correctly cited as current; no outdated data gaps there.*

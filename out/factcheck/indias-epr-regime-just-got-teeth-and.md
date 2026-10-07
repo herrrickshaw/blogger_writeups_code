@@ -7,28 +7,31 @@
 
 Source: `posts/indias-epr-regime-just-got-teeth-and.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `938a37f50d1efcaf`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "90% Battery-material recovery rate manufacturers must hit by 2026-27" — The article incorrectly states that the 90% recovery rate applies to manufacturers. The actual requirement is for recyclers, not manufacturers, as per the Battery Waste Management Rules. [confidence: high]
-
-- "₹1,500cr Cabinet-approved critical-mineral recycling incentive, September 2025" — The article does not provide a source confirming the approval or disbursement of this incentive. While the Cabinet may have approved it, the article lacks verification of its status. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "an EOL certificate let a producer technically satisfy its EPR target without any material actually being recycled" — While the claim about the loophole is correct, the article implies that the closure of this loophole alone will ensure actual recycling occurs. However, the enforcement gap (e.g., informal sector, reverse logistics) means that even with the loophole closed, producers may still struggle to meet targets due to systemic issues beyond the rule change. [confidence: high]
+- none found
 
-- "a large informal recycling sector operating substantially outside the registered-entity system the CPCB portal is built to track" — The article uses this fact to argue that the EPR framework is ineffective, but it does not quantify the scale of the informal sector or its impact on compliance. Without this, the conclusion that the rulebook "doesn't reach" is an overgeneralization. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"90% Battery-material recovery rate manufacturers must hit by 2026-27"* — The CSE policy brief (2026) states the **2026-27 target is 90%**, but the **2024-25 baseline was 70%**, not 80% as implied by the article’s phrasing ("up from 70% in 2024-25"). The article conflates the baseline with a mid-point claim. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The ₹1,500 crore Cabinet-approved critical-mineral recycling incentive, September 2025"* — The article treats this as a **disbursed fund**, but the CSE brief (and the article’s own disclaimer) notes it is an **approved-but-unspent allocation** under the NCMM. The claim implies operational impact without establishing whether funds have been released or allocated to recyclers. [confidence: high]
+
+**OUTDATED DATA:**
+- *"~4,000 Producers, recyclers and refurbishers registered with CPCB for battery EPR"* — The CSE brief (2026) cites this figure, but the **CPCB’s latest EPR portal data (as of mid-2026)** may show updates (e.g., new registrations, cancellations, or category-specific splits). Re-check: [CPCB EPR Registry](https://cpcb.nic.in/) for FY2026-27 updates. [confidence: medium]
+
+---
+*Note: No other factual, interpretation, or outdated-data issues were found in the provided text.*

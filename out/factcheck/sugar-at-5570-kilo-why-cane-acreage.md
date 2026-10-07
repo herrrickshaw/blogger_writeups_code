@@ -7,34 +7,28 @@
 
 Source: `posts/sugar-at-5570-kilo-why-cane-acreage.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `e15e2b665b00c430`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Sugar prices just jumped 10 per cent in a month to record levels" — The article later specifies that wholesale/spot rates rose from ₹48.18/kg to ₹55.70/kg (a ~13.9% increase) between 20 July 2026 and 20 August 2026, not 10%. The claim of "10 per cent" is incorrect. [confidence: high]
-
-- "national sugar production for the 2025-26 season stood at 272.31 lakh tonnes, about 9 per cent ahead of the 248.78 lakh tonnes produced by the same date the previous season" — The "same date" comparison is misleading because the prior season's figure (248.78 lakh tonnes) is for the full season (2024-25), not the same date (31 March 2026). The correct comparison would require data for the same date in the prior season, which the article acknowledges is not provided ("Uttar Pradesh's 2025-26 production figure is reported as 'similar to last year' rather than an exact tonnage"). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "mills now have a straightforward financial reason to sell cane as sugar rather than convert it to ethanol — reversing, for now, a diversion trend this blog has covered extensively from the tax and blending-policy side" — While the price spike may incentivize mills to prioritize sugar production, the article does not establish a causal link between current sugar prices and a reversal of the diversion trend. The diversion trend is described as volatile and influenced by multiple factors (e.g., government restrictions, maize competition), and the claim that the trend is reversing is based on industry expectations rather than confirmed data. [confidence: high]
+- none found
 
-- "The government has told Parliament directly that diverting surplus sugar to ethanol has improved mills' financial viability and, in turn, their ability to pay farmers' FRP on time — making the current price-driven pullback from diversion a real tension for that same payment chain" — The article conflates two separate issues: (1) the government's claim that ethanol diversion improved FRP payments, and (2) the current price-driven pullback from diversion. There is no evidence provided that the pullback from diversion will negatively impact FRP payments. The two phenomena are not necessarily linked, and the article does not explain how the pullback would create a "tension" for the payment chain. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Sugar prices just jumped 10 per cent in a month to record levels"* — The claim that sugar prices jumped **10% in a month** (from ₹48.18/kg to ₹55.70/kg) is **incorrect**. The **actual wholesale/spot rise** was **~15.6%** (₹48.18 → ₹55.70), not 10%. The retail claim (₹46.34 → ₹52.30) is **~12.9% YoY**, not a monthly jump. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The diversion trend didn’t reverse because of a policy change — it reversed because the price signal did."* — While the **price mechanism** is correctly identified as the driver, the claim **overstates certainty** for ESY 2026-27. The article itself notes this is based on **industry expectations as of August 2026**, not confirmed diversion data (which won’t be finalized until the season ends). The **causal link is extrapolated beyond current evidence**. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"Sugar production for 2025-26 season stood at 272.31 lakh tonnes"* — This figure is **partial-year data (to 31 March 2026)** and **not the final season total**. The **full-season production** (ending 30 September 2026) is not yet available. Re-check: **Ministry of Commerce’s *Sugar Seasonal Bulletin*** (latest fiscal year 2025-26) or **ISMA’s final crushing data**. [confidence: high]

@@ -7,34 +7,32 @@
 
 Source: `posts/us-stock-picks-multi-screen-quant.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9d5cc983cd14f18f`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Avg ROE -20.9%" (BeOne Medicines Ltd.) — The article claims BeOne Medicines Ltd. has an average ROE of -20.9%, but this is inconsistent with the Piotroski F-score of 7 (which typically requires positive earnings and ROE). The negative ROE likely reflects a one-time accounting anomaly rather than a sustainable metric. [confidence: high]
-
-- "Avg ROE 65.3%" (Medpace Holdings, Inc.) — The article states Medpace Holdings has an average ROE of 65.3%, which is unusually high for a healthcare services company and may reflect a misinterpretation of the ROE calculation (e.g., using trailing twelve months (TTM) equity instead of average equity). [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "Multi-screen agreement → highest conviction sleeve" (repeated for all 15 picks) — The article implies that multi-screen agreement (CORE) automatically translates to "highest conviction," but it does not explain how the mechanical filters (e.g., Darvas breakout, Piotroski score) interact or whether their signals are independent. The claim assumes correlation equals causation without addressing potential redundancy or conflicting signals. [confidence: high]
+- none found
 
-- "Avg ROE flagged (near-zero/negative equity distorts this ratio)" (Seagate Technology Holdings PLC) — While the article acknowledges the distortion in ROE due to near-zero equity, it still includes the metric in the thesis without adjusting or explaining how this affects the multi-screen ranking. The presence of a distorted metric in the "screens" column undermines the reliability of the ranking. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+FACTUAL ERRORS:
+- **Leonardo DRS (DRS) listed under "Industrials" with a sector mismatch** — The article states "Industrials" in the sector column but later clarifies in the thesis row that it is "Leonardo DRS (Industrials)" with a backfilled note. However, the sector mix table lists it under "Industrials (Leonardo DRS, backfilled)" but does not explicitly reconcile the inconsistency in the main table. The ticker **Leonardo DRS** is actually a **defense/aerospace** company (Leonardo S.p.A.'s subsidiary), not strictly "Industrials" as traditionally defined in US stock classifications. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- **Medpace Holdings (MEDP) Avg ROE of 65.3%** — While the claim may be correct for the specific period, a 65.3% ROE is unusually high for a healthcare services company (e.g., clinical trial services) and would require verification against recent SEC filings (e.g., 10-K/10-Q) for 2025–2026. [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+INTERPRETATION ERRORS:
+- **Piotroski F-score as a standalone "strong" indicator without context** — The article repeatedly describes stocks with a Piotroski F-score of 7 or 8 as "Piotroski strong" without clarifying that the F-score is a **relative** metric (out of 9) and that a score of 7–8 is **not universally strong** (e.g., it depends on the stock's baseline fundamentals, sector norms, and historical performance). This misleads readers into assuming all F=7–8 stocks are equally robust. [confidence: high]
+
+- **Liquidity tiers (T1, T2, T3) as binary "tradeable" vs. "illiquid" labels** — The article gates out illiquid names but then includes **T2_LIQUID and T3_MID** stocks (e.g., TIGO, ATAT, NBIS) in the "CORE" sleeve without distinguishing their liquidity risk. While the liquidity filter is noted, the **equal-weight portfolio** treats all T1–T3 stocks identically, ignoring that T3 stocks (e.g., TIGO with ~$2M/day turnover) may have higher slippage or bid-ask spreads than T1 stocks. [confidence: high]
+
+OUTDATED DATA:
+- **None found** — All figures (prices, liquidity, conviction scores) are dated **2026-07-24**, and while newer data may exist, the article explicitly states it is a "scan as of" that date with no claim of "latest" or "current" data. No official series (e.g., SEC filings, Bloomberg terminals) are cited for verification.

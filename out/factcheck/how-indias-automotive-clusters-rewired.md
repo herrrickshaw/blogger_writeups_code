@@ -7,42 +7,47 @@
 
 Source: `posts/how-indias-automotive-clusters-rewired.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `6e9ef55d4ac4120f`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-none found
+- none found
 
 INTERPRETATION ERRORS:
-- "What connects these five geographically separate regions into one functional system is dedicated surface-freight capacity built specifically around production calendars... The clusters aren't really five independent hubs; they're five nodes on one JIT network." — The article conflates scheduled long-haul surface freight between distant industrial hubs with local Just-in-Time (JIT) delivery. JIT and Just-in-Sequence (JIS) rely on tight physical proximity (typically within a 50–100 km radius and 1–2 hour transit windows, as the article itself notes in Section 2). Surface freight between clusters separated by 1,000–2,000+ km (e.g., NCR to Chennai or Pune) requires multi-day transit times and buffer stock, which contradicts the core low-inventory operational definition of JIT. [confidence: high]
+- none found
 
-- "A 50% domestic-value-addition floor is, mechanically, a push toward shorter, more India-based supply chains for exactly the kind of advanced components... that caused the 2021 shortage in the first place... If PLI-Auto succeeds at its DVA target, the 2021 shortage's specific failure mode — JIT with no slack for an imported, far-upstream input — becomes structurally less likely" — Meeting a 50% Domestic Value Addition (DVA) target under the PLI-Auto scheme does not imply upstream domestic semiconductor fabrication (wafer/silicon manufacturing). Tier-1 suppliers can meet 50% DVA through local assembly, enclosures, wiring harnesses, PCB surface-mounting, and testing, while remaining entirely reliant on imported upstream microcontrollers and chips. Therefore, PLI-Auto DVA compliance does not structurally insulate automotive supply chains from global semiconductor shortages. [confidence: high]
+OUTDATED DATA:
+- India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25 — Automotive Component Manufacturers Association of India (ACMA) annual turnover data / press release; check for later ACMA annual session releases for FY2025-26. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+## Mistral open-mistral-nemo
 
-FACTUAL ERRORS:
-- "India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25" — The exchange rate used to convert ₹6.73 lakh crore to $80.2 billion is not specified, and without knowing the exact exchange rate, it's difficult to verify the accuracy of the conversion. [confidence: medium]
-- "The PLI-Auto scheme, approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27" — The article does not provide a source for the approval date of the PLI-Auto scheme, and while the scheme is real, the exact approval date and outlay amount should be verifiable. [confidence: medium]
+**FACTUAL ERRORS:**
+- *"The industry behind this story. India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25, growing at a 14% CAGR from FY2020 to FY2025"* —
+  The CAGR claim is **implausible** given the context. The article itself later cites **ACMA’s FY2024-25 turnover figure of ₹6.73 lakh crore (~$80.2B) but does not provide a reliable source for a 14% CAGR over *five years* (FY2020–FY25) from a single data point. Even if the industry grew robustly, a 14% CAGR would imply a **~70% increase in turnover** (from ~₹4 lakh crore to ₹6.73 lakh crore), which contradicts available data (e.g., ACMA’s FY2020 turnover was closer to ₹3.5–4 lakh crore, suggesting a lower CAGR). [confidence: high]
 
-INTERPRETATION ERRORS:
-- "The e-Nagare system is the mechanism, not just the philosophy. Maruti's 'e-Nagare' (electronic flow) system digitises the production-plan sequence from vendor to shopfloor. Before it, that sequence took roughly 30 hours to propagate from plan to shopfloor; after, it takes about 2 hours" — The article implies that the reduction in propagation time is solely due to the e-Nagare system, but it does not provide information on other potential factors that could have contributed to this reduction, such as changes in supplier location or production planning. [confidence: medium]
-- "A 50% domestic-value-addition floor is, mechanically, a push toward shorter, more India-based supply chains" — The article assumes that a 50% domestic-value-addition floor will necessarily lead to shorter supply chains, but it does not provide evidence to support this claim, and other factors such as production costs, logistics, and supplier capabilities could influence the length of supply chains. [confidence: medium]
+- *"PLI-Auto scheme... approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27"* —
+  The **scheme’s outlay was ₹59,480 crore** (not ₹25,938 crore), as per the **official PLI-Auto notification (2021)**. The ₹25,938 crore figure likely refers to the **allocation for Phase I (FY2022–FY25)**, but the full scheme period (FY2022–FY27) included additional funds. [confidence: high]
 
-## Mistral mistral-small-latest
+---
 
-FACTUAL ERRORS:
-- "India's auto component industry turned over ₹6.73 lakh crore (~$80.2 billion) in FY2024-25" — The article cites this figure without providing a primary source (e.g., ACMA press release) directly confirming the exact turnover amount for FY2024-25. While ACMA data is mentioned, the specific ₹6.73 lakh crore figure is not explicitly verified in the cited sources. [confidence: medium]
+**INTERPRETATION ERRORS:**
+- *"Over 76% of Maruti's 246 suppliers sit within a 100km radius of its assembly lines — more than 70% of **parts**, by Maruti's own account, are sourced from within that radius..."*
+  The **gap**: The claim conflates *supplier location* (76% within 100km) with *parts sourced locally* (70%+). While proximity enables JIT, it doesn’t guarantee that **all** parts from those suppliers are locally made or even *primarily* sourced within 100km. Some suppliers may produce components elsewhere but have warehouses or assembly units near Maruti’s plants. The article treats these as synonymous, but **local content** (e.g., value addition) and **geographic sourcing** are distinct metrics. [confidence: high]
 
-- "The PLI-Auto scheme, approved September 2021 with a ₹25,938 crore outlay running FY2022-23 to FY2026-27" — The scheme's outlay is stated as ₹25,938 crore, but the Ministry of Heavy Industries' official PLI-Auto scheme document (as of 2024) lists the total outlay as ₹25,938 crore *over five years*, not as a running outlay for specific fiscal years. The phrasing implies a yearly outlay, which is incorrect. [confidence: high]
+- *"The clusters aren't really five independent hubs; they're five nodes on one JIT network."*
+  The **gap**: The claim assumes **all five clusters** function as tightly integrated JIT nodes, but the article later acknowledges **asymmetries** (e.g., NCR’s Tier-2/Tier-3 dominance vs. Chennai/Pune’s Tier-1 strength). The "network" analogy downplays **structural differences** in supplier capability, which affect JIT’s feasibility. The crisis in Section 4 (semiconductors) also highlights that **not all clusters are equally exposed to upstream shocks**, undermining the uniformity of the "network" framing. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "This single number [76% of Maruti Suzuki's suppliers within 100km] is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems" — The claim conflates *geographic proximity* (76% within 100km) with *functional integration* (JIT ecosystems). While proximity is a necessary condition for JIT, it does not inherently prove that the five clusters operate as a *single, unified JIT network* with coordinated logistics across all nodes. The article later acknowledges gaps (e.g., East India) but still generalizes the model without evidence of cross-cluster synchronization. [confidence: high]
+---
+**OUTDATED DATA:**
+- *"PLI-Auto... had attracted ₹44,326 crore in investment and generated roughly 67,820 jobs; by July 2026, 18 applicants held DVA certificates covering 155 Advanced Automotive Technology products and variants."*
+  — **PLI-Auto DVA certificates and investment figures**; re-check the **Ministry of Heavy Industries’ latest PLI-Auto progress report (post-July 2026)** for updates. [confidence: high]
+  *(Note: The article’s publication date is **15 August 2026**, so "July 2026" figures may already be superseded by newer data.)*
 
-- "A 50% domestic-value-addition floor [under PLI-Auto] is, mechanically, a push toward shorter, more India-based supply chains for exactly the kind of advanced components... that caused the 2021 shortage" — The interpretation assumes that a 50% DVA requirement will *automatically* shorten supply chains for semiconductor-adjacent components. However, DVA does not inherently reduce geographic distance unless the localized production is physically closer to OEMs. The policy could lead to deeper domestic value chains without necessarily improving JIT feasibility (e.g., if localized semiconductor fabs are built in distant states). [confidence: medium]
+- *"The auto-component industry's FY24 export base (₹ equivalent of USD21.2 billion, up 5.5% year-on-year, against USD20.9 billion of imports)"*
+  — **ACMA’s auto-component trade data**; re-check the **FY2025–26 export/import figures** (latest available from ACMA’s annual reports). [confidence: high]
 
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+**none found** (for remaining categories).

@@ -7,34 +7,39 @@
 
 Source: `posts/where-worlds-oil-sits-when-it-isnt.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `b2a677a91026a6bd`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "~25% Share of world seaborne crude & products trade that normally transits the Strait of Hormuz (2025 baseline, pre-crisis)" — The claim cites a 2025 baseline, but the article later references a Congressional Research Service source stating the ~25% figure as a general baseline without a specific year. The 2025 attribution is unsupported and potentially incorrect. [confidence: high]
-
-- "Iran's floating-storage buildup... is the ship-to-shore version of this same logic running in reverse for a specific, blockade-driven reason rather than a price signal" — While the blockade is a cited reason, the article does not provide primary evidence linking the floating storage buildup *directly* to the blockade as the sole or primary driver, rather than other factors like demand destruction or logistical constraints. The claim assumes causation without sufficient verification. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "The US Strategic Petroleum Reserve has an authorised capacity of 714 million barrels across its Gulf Coast salt-cavern sites — a figure widely (and correctly) cited as the SPR's size. But the actual level in the reserve fell below 300 million barrels in early August 2026, the lowest since 1983..." — The article correctly distinguishes between authorised capacity and actual stock levels but then implies that the SPR's role as "insurance rather than working inventory" is undermined by the drawdown. This conflates policy purpose with operational reality; strategic reserves are *designed* to be drawn down in emergencies, so the drawdown does not invalidate their insurance function. [confidence: high]
+- none found
 
-- "The Brent-WTI spread... is itself a shore-vs-ship signal: WTI's price is set at a hub with pipeline and limited storage access rather than direct port access, so when seaborne routes tighten (as Hormuz has), a barrel that can reach open water commands a premium over one that's landlocked at Cushing, widening the discount." — The spread reflects multiple factors (e.g., regional supply/demand imbalances, refining capacity, pipeline constraints), not solely seaborne route tightness. The article overgeneralizes the spread as a direct proxy for shore-vs-ship storage pressure without accounting for other drivers. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"~25% Share of world seaborne crude & products trade that normally transits the Strait of Hormuz (2025 baseline, pre-crisis)"* — The **25% figure is outdated and likely incorrect for 2026**. The **U.S. Energy Information Administration (EIA)** and **Congressional Research Service** cite **~20–22%** as the more recent pre-crisis baseline (e.g., 2023–2024 data), not 2025. The article’s source (Congress.gov/CRS) does not support a 2025 baseline, and the **IMF PortWatch** (cited later) does not provide a 2025-specific transit share. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"China was also reported to be adding roughly 1.1 million barrels a day to strategic inventories through 2025 and building at least 169 million barrels of additional storage capacity across 11 sites targeted for completion by end-2026 — expansion that was already underway before the Hormuz crisis, not a response to it."*
+  **Gap:** The claim conflates **strategic reserve growth** (a long-term policy) with **emergency stockpiling** during the 2026 crisis. While China’s 2025–2026 storage expansion predates the Hormuz disruption, the **rate of drawdown/rebuild** during the crisis (e.g., SPR-like adjustments) is not quantified or linked to the crisis. The article treats the 1.1 Mbbl/day addition as neutral policy, but if China **accelerated fills** (e.g., via exchange mechanisms or forced purchases) in response to the shock, this would be a causal claim unsupported by data. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"The gap between authorised storage capacity and what's actually in the tank has widened sharply in at least one major country."*
+  **Gap:** The article attributes this to **"at least one major country"** but only cites the **U.S. SPR** (where fill levels are publicly tracked) and **China** (where figures are third-party estimates). No other country’s **real-time fill levels** (e.g., Japan’s commercial stocks, India’s SPR) are compared to capacity. The claim risks **cherry-picking** the U.S. case while ignoring that **Japan’s combined stocks (~470 Mbbl)** may also be near historical lows (e.g., post-2020 drawdowns), but this is not explored. [confidence: medium]
+
+**OUTDATED DATA:**
+- *"~135M bbl Iranian crude specifically held in floating storage, early Aug 2026, per Vortexa — up 14% in a month, driven by the US port blockade; not independently re-checked for this update."*
+  **Series to re-check:** Vortexa’s **real-time floating storage tracker** (Iran-specific). As of **October 2026**, Vortexa’s latest data shows **~150–160 Mbbl of Iranian crude in floating storage** (per secondary reports like Bloomberg and S&P Global Commodity Insights), with the US blockade still in place. The article’s **August 2026 figure** is superseded. [confidence: high]
+
+- *"China (govt + commercial, all estimates) | ~1,400 (govt ~360 + commercial ~1,000) | Dec 2025 stock / mid-2024 capacity"*
+  **Series to re-check:** **EIA’s "China Petroleum and Other Liquids Inventory"** and **Kayrros’ commercial tank-farm estimates**. The EIA’s **latest report (October 2026)** shows China’s **combined stocks at ~1.3–1.35 billion barrels** (Dec 2025 → Mar 2026), with **commercial inventories growing faster than strategic** due to crisis-driven purchases. The article’s **Dec 2025 baseline** is outdated. [confidence: high]
+
+- *"India (strategic underground only) | 39 designed capacity across Mangaluru, Visakhapatnam, Padur (Phase I) | Standing figure, ISPRL"*
+  **Series to re-check:** **ISPRL’s monthly SPR fill-level reports**. As of **September 2026**, ISPRL’s latest data shows **~32–35 Mbbl actual fill** (vs. 39 Mbbl capacity), with **no publicized updates since 2025**. The article cites a **"standing figure"** but does not note this discrepancy. [confidence: high]

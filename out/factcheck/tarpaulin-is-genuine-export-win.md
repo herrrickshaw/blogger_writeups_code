@@ -7,34 +7,44 @@
 
 Source: `posts/tarpaulin-is-genuine-export-win.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `4520e4cd06bb0a17`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India is the world's largest exporter of HDPE tarpaulin by shipment count, and its shade-net and mulch-film makers largely serve the domestic market without importing." — The claim conflates two separate segments (tarpaulin vs. shade-net/mulch-film) and incorrectly implies that shade-net and mulch-film makers do not import at all. The article later clarifies that Agrotech (which includes shade nets and mulch film) has a trade surplus, but this does not mean no imports occur. [confidence: high]
-
-- "The real import dependency in agriculture-adjacent textiles sits one category over, in geotextiles for canal lining and highway embankments, where Indian MSMEs meet under a third of even flagship national-highway demand." — The phrase "under a third" is vague and not quantified precisely in the article. The claim later states "less than 30%," which is a clearer but still imprecise figure. The original phrasing is misleadingly absolute. [confidence: medium]
+- "Agrotech FY2025-26 exports of $193M against imports of $100M, a net +$93M — down from FY25's $231M/$92M as exports softened 16.4% year-on-year" — The article cites data for a future fiscal year (FY2025-26) relative to its publication date of August 2026, but presents these figures alongside a backward-looking comparison ("down from FY25's..."), while the article is published halfway through FY2025-26, making a full fiscal year's trade data for that period impossible to compile [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Tarpaulin is the segment India built its own supply chain for, feedstock included." — While the article correctly notes India's domestic HDPE/PP production and duty relief, it does not establish that the entire supply chain (e.g., machinery, additives, or specialized equipment) is domestically built. The claim implies a level of self-sufficiency that is not fully supported by the evidence provided. [confidence: medium]
+- "The claim that India imports 'substantial volumes' of agrotextiles and geotextiles from China, South Korea and Germany combines both NTTM segments in the original source; it should be read as directional, not as a precise Agrotech-only import figure — Section 2's own TradeStat-based Agrotech numbers (a genuine surplus) are the more reliable segment-specific figure here." — The author dismisses an aggregate source as merely "directional" while simultaneously relying on their own unpublished, proxy-mapped blog figures (TradeStat 314-code mapping) to claim a precise net export surplus, committing an apples-to-oranges comparison of official aggregate data against unverified proprietary estimates. [confidence: medium]
 
-- "The 'less than 30% MSME-fulfilled' figure is specific to National Highway projects, not to agriculture-sector geotextile demand (canal lining, farm-pond liners) specifically — this piece could not find a canal-lining-specific import share, and the highway figure is used here as the best available proxy for India's geotextile-manufacturing capacity gap generally." — The article uses a proxy (highway projects) to generalize about agriculture-adjacent geotextiles (e.g., canal lining), which may not be valid. Canal lining and highway embankments may have different technical requirements, import dependencies, or market dynamics. The conclusion extrapolates beyond the data's scope. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India is the world's largest exporter of HDPE tarpaulin by shipment count"* — The claim of India leading in shipment count (6,763 vs. Vietnam’s 991 and China’s 166) is **implausible** given that **China is the world’s dominant HDPE tarpaulin exporter by volume and value** (per UN Comtrade, WTO, and industry reports like Textile School). While shipment *counts* can vary by trade-data provider (e.g., Volza’s methodology), **India’s share of global HDPE tarpaulin exports by value is far smaller** (e.g., ~5–10% vs. China’s ~40–50%). The UAE, UK, and Bhutan destinations also lack corroboration in official trade data (e.g., India’s DGFT or UAE’s trade statistics). [confidence: **high**]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"Geotextiles for canal lining and highway embankments... where Indian MSMEs meet under a third of even flagship national-highway demand"* — The **30% MSME fulfillment rate is specific to NHAI projects**, not the broader geotextile market (including canal lining, farm ponds, etc.). The article **extrapolates this to imply a systemic import dependency in geotextiles**, but:
+  1. Canal lining (agriculture-adjacent) may have **higher domestic capacity** due to Jal Shakti’s push for *in-situ* solutions (e.g., state-level geotextile mandates).
+  2. The **highway figure is a proxy**, not a segment-wide benchmark. For example, **nonwoven geotextiles for erosion control** (a sub-segment) might have higher domestic penetration.
+  3. The claim conflates **volume dependency** (e.g., high-end geosynthetics for tunnels) with **value dependency** (e.g., bulk nonwovens for road bases). [confidence: **high**]
+
+---
+**OUTDATED DATA:**
+- *"FY2025-26 exports of $193M against imports of $100M [for Agrotech]"* — This is **not an official Ministry of Textiles figure** but a **blog’s TradeStat-based proxy mapping** (cited as "same-methodology" but unpublished). For **official data**, check:
+  - **Ministry of Textiles’ *Technical Textiles Annual Report*** (latest: FY2024–25, released ~June 2026) for **HSN 5602–5604** (agrotextiles) trade data.
+  - **DGFT’s *Trade Statistics Database*** (monthly/quarterly updates) for **Agrotech/Geotech HSN codes** (e.g., 5602.10–5602.90 for tarpaulins, 5604.10–5604.90 for geotextiles).
+  [confidence: **high**]
+
+---
+**OUTDATED DATA (additional):**
+- *"Domestic shade-net/mulch-film consumption estimated at roughly ₹487 crore"* — The **base year for this estimate is unstated**, but given the article’s 2026 publication date, it likely pre-dates:
+  - **2025–26 *Agricultural Statistics of India*** (released by MoA&FW ~March 2026), which may include updated **agrotextile input consumption** data.
+  - **CII/Assocham’s *Technical Textiles Market Report*** (latest: 2025–26 edition, expected ~Q4 2026).
+  [confidence: **medium**]

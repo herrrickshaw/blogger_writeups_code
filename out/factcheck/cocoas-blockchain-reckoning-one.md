@@ -7,40 +7,30 @@
 
 Source: `posts/cocoas-blockchain-reckoning-one.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `4d61d2ef075a835b`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "10% Price premium MiCacao’s own logframe targets for a quarter of trained farmers" / "get roughly 3,360 of them actively using the tool, and have a quarter of those achieve a 10% price premium" — The logframe target is 1,260 farmers (1,008 male + 252 female) achieving a price premium. This represents 30% of the 4,200 total trained farmers (or 37.5% of the 3,360 active users), not 25% ("a quarter"). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "A five-year, multinational blockchain logistics venture, backed by the world's largest shipping line and one of the world's largest technology companies, could not make the economics work... which is precisely the gap TradeLens's shutdown exposed: the technology worked, the business case did not." — This is an apples-to-oranges comparison. TradeLens was a global ocean-freight shipping and container logistics platform designed for shipping carriers, port terminals, and customs authorities. Its commercial failure was due to shipping-industry competition and corporate governance issues, which does not prove or support conclusions regarding the economic viability of agricultural origin tracking and cocoa supply-chain traceability. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "30 Dec 2026 The EU Deforestation Regulation’s new deadline for large and medium operators — twice delayed already" — The article does not provide a primary source to verify the original deadline before the two delays, only the current deadline and the fact that it was delayed twice [confidence: medium]
-- None found for other specific factual errors, but the article itself notes that some information, like the outcome of MiCacao's targets, could not be verified due to lack of post-completion reports [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "A regulatory deadline forces traceability infrastructure to exist whether or not any individual blockchain pilot succeeds commercially — which is precisely the gap TradeLens's shutdown exposed: the technology worked, the business case did not." — This statement implies a causal relationship between the regulatory deadline and the existence of traceability infrastructure, but it does not account for other factors that might influence the development of such infrastructure, such as market demand or technological advancements [confidence: medium]
-- "MiCacao and similar donor-funded pilots are, in effect, testing whether traceability tooling can be built and handed to small farmers before that deadline lands, not whether blockchain is the right technology for it." — This interpretation assumes that the primary goal of these pilots is to meet the regulatory deadline rather than to assess the effectiveness of blockchain technology in traceability, which might be an oversimplification of the pilots' objectives [confidence: medium]
+**FACTUAL ERRORS:**
+- *"Maersk and IBM's TradeLens went fully offline, after failing commercially 2023"* — The platform was announced discontinued on **29 November 2022** (with full shutdown by **Q1 2023**), not 2023 as a year. [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"MiCacao’s numbers are targets, not results: of 4,200 farmers trained, roughly 3,360 were targeted to apply the tool and 1,260 to reach a 10% price premium"* — The claim conflates **logframe targets** (planned outcomes) with **achieved results**, which remain unverified due to the absence of a post-completion report. The article itself notes this gap but treats the targets as if they were outcomes. [confidence: high]
 
-FACTUAL ERRORS:
-- "Published 8 August 2026" — The article claims a publication date of 8 August 2026, but this is likely a typo or misstatement, as the EUDR postponement decision is cited as December 2025, and the article references events as recent as August 2026. The publication date is inconsistent with the timeline of cited events. [confidence: high]
+**OUTDATED DATA:**
+- *"EU Deforestation Regulation’s new deadline for large and medium operators — 30 Dec 2026"* — The regulation was **twice delayed** (originally 30 Dec 2024 → 30 Dec 2025 → now 30 Dec 2026 for large/medium operators; small/micro: 30 Jun 2027). The article cites the **December 2025 postponement** but does not clarify that the latest official deadline (as of Aug 2026) is **30 Dec 2026** (per EU Council press release). No newer source contradicts this, but the phrasing risks implying the 2026 date is "new" rather than the latest confirmed one. [confidence: medium]
 
-- "30 Dec 2026 The EU Deforestation Regulation’s new deadline for large and medium operators" — The article states the EUDR deadline is 30 December 2026, but the cited sources indicate this is a postponement from the original date, and the regulation's actual deadline (as per the December 2025 postponement) is 30 December 2026 for large/medium operators. However, the phrasing "new deadline" implies this is the final deadline, which may confuse readers into thinking it is the original deadline. The correct interpretation is that it is the latest delayed deadline. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "The honest test of all four projects above is not whether they proved a concept in 2019 or 2023, but whether traceable cocoa supply chains actually exist at scale when the EUDR clock runs out in December 2026." — While the EUDR creates a regulatory requirement for traceability, the article does not establish that the existence of traceable supply chains at scale is solely dependent on the success of these four projects. The EUDR's enforcement does not guarantee that all supply chains will be compliant, and the article does not provide evidence that these projects are the only or primary means by which compliance will be achieved. The claim conflates the existence of traceability infrastructure with the specific projects mentioned. [confidence: high]
-
-- "MiCacao and similar donor-funded pilots are, in effect, testing whether traceability tooling can be built and handed to small farmers before that deadline lands, not whether blockchain is the right technology for it." — The article correctly notes that MiCacao's goals are about building and handing over traceability tooling, but it does not address whether blockchain is the *only* or *best* technology for this purpose. The claim implies that the pilot's focus on blockchain is incidental, but the article does not provide evidence to support this interpretation. The reasoning gap is that the article assumes the pilot's blockchain focus is irrelevant to its goals, without evaluating whether blockchain is necessary or superior for achieving traceability. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+*(Note: The article’s publication date is 8 Aug 2026, so the 30 Dec 2026 deadline is current as of then—but the phrasing could be clearer about it being the *latest* deadline.)*

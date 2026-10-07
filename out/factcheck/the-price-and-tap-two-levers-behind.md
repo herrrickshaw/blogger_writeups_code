@@ -7,34 +7,32 @@
 
 Source: `posts/the-price-and-tap-two-levers-behind.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `08f5ef8af7e2b365`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The RBI's rate lever is not one number but a deliberately narrow corridor around the policy repo rate, with the weighted average call rate (WACR) as the operating target it steers inside that corridor" — The WACR is not the operating target; the RBI steers the policy repo rate (5.25% in February 2026) as the operating target, with the WACR moving within the LAF corridor (±25bp around the repo rate). The WACR is the market rate that reflects the corridor's influence, not the target itself. [confidence: high]
-
-- "The Monetary Policy Committee cut the repo rate by a cumulative 125bp in this cycle (6.50% → 5.25%)" — The article cites the February 2026 policy repo rate as 5.25%, but the initial rate in the cycle is not explicitly stated as 6.50%. While 6.50% is plausible (e.g., pre-2024 levels), the article does not provide a source or context for this starting point, making it unverifiable. [confidence: medium]
+- "RBI MPC, 6 June 2025 (CRR 100bp cut in four tranches Sep–Nov 2025, ~₹2.5 lakh crore)" — A monetary policy committee meeting occurring in June 2025 cannot announce or pre-schedule a cash reserve ratio (CRR) cut to be implemented in four tranches over September to November 2025 as a retrospective or already-executed empirical fact in the manner described, given normal central bank announcement windows. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The combination [of CRR cut, OMO purchases, and forex swaps] is why transmission worked. Fresh-loan lending rates (WALR) fell 105bp against 125bp of cuts — unusually high pass-through by Indian standards" — The claim implies a causal link between the quantity lever operations and the high transmission of rate cuts, but it does not account for other potential factors (e.g., competitive banking conditions, lower risk premiums, or structural shifts in credit demand). The data shows correlation but not causation. [confidence: high]
+- "Fresh-loan lending rates (WALR) fell 105bp against that 125bp cut — the window, not the rate, drove transmission... The rate cut was the announcement; the CRR-OMO-swap barrage was the delivery mechanism." — Attributing the high pass-through entirely or primarily to liquidity window operations while ignoring standard monetary policy transmission lags (where policy rate cuts naturally take several months to fully reflect in Weighted Average Lending Rates on fresh loans) creates a false causal attribution between concurrent liquidity injections and lending rate adjustments. [confidence: medium]
 
-- "The February 2026 'hold' was not neutral in effect — with a ₹70,000 crore daily surplus maintained, it was an easing hold" — While the liquidity surplus may have eased financial conditions, the "hold" refers to the policy repo rate remaining unchanged, which is a rate lever decision. The article conflates liquidity conditions (quantity lever) with the stance of the rate lever, implying the hold was not neutral when the rate lever itself was neutral. The conclusion overreaches by attributing the easing effect solely to the quantity lever without acknowledging the rate lever's neutral stance. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"The Bank of Japan is the odd one out, running its quantity lever in reverse (tapering bond purchases) while its rate lever idles at 1.00%"* — The BoJ’s policy rate is **0.10%** (not 1.00%) as of mid-2026, with the short-term rate (effective overnight rate) effectively at **0%** due to yield curve control (YCC). The claim conflates the BoJ’s **long-term JGB yield target** (around 0.5–1.0%) with its operational policy rate. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The Fed's December 2025 pivot to buying short-term Treasuries was not stimulus — it was plumbing maintenance to keep reserves ample"* — While the Fed’s T-bill purchases in late 2025 were **not expansionary** (reserves were already ample), the claim misrepresents the **motivation**. The purchases were primarily to **prevent a liquidity crunch** from QT-induced reserve drains (e.g., Treasury cash management operations) and to **smooth repo market functioning**, not just "plumbing." The distinction between "stimulus" and "liquidity management" is blurred here. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"The Fed's December 2025 pivot to buying short-term Treasuries"* — The Fed’s **latest monetary policy report** (as of July 2026) would confirm whether this was a **one-off operation** or part of a **new standing repo facility (SRF) expansion** (e.g., $30bn/month T-bill purchases resumed in early 2026). The article cites the **July 2026 Monetary Policy Report**, which should reflect post-December 2025 adjustments. [confidence: high]
+  *(Series to re-check: Fed’s *Monetary Policy Report to Congress*, latest release; newer period: Q2 2026.)*
+
+- *"The Reserve Bank of India’s Monetary Policy Committee statements should state the range of average daily liquidity surplus the Bank is operating towards"* — While this is a **proposed reform**, the claim assumes the RBI **has not already begun publishing** such data in its **Weekly Statistical Supplement** or **Liquidity Management Report** (e.g., "Average Daily Liquidity Position" metrics). The article’s sources (e.g., RBI’s February 2026 MPS) already disclose **~₹70,000 crore/day surplus**, but the suggestion implies this is **not standard practice**, which may be outdated. [confidence: medium]
+  *(Series to re-check: RBI’s *Weekly Statistical Supplement* or *Liquidity Management Report*; newer period: post-February 2026 updates.)*

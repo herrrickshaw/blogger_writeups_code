@@ -7,34 +7,29 @@
 
 Source: `posts/the-most-discussed-schemes-in.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `176e7e24d1e72f17`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "19 August 2026" — The date is in the future relative to the current date (2023) and the article's publication context, making it unverifiable and likely incorrect. [confidence: high]
-
-- "PM Dhan-Dhaanya Krishi Yojana" — The scheme name appears to be a misspelling or misattribution. The correct scheme is likely "PM Kisan Samman Nidhi" or another similar agricultural scheme, as "Dhan-Dhaanya" is not a recognized government scheme name. [confidence: high]
+- "Mission for Aatmanirbharta in Pulses | 2025-10-01 | 8 | | | | —" — The article lists a launch date of October 1, 2025, which falls after the article's publication date of August 19, 2026 (an impossible future date for a "first announced" past event given the timeline of the post, or a formatting/temporal error). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Read this list honestly: most entries are 2025–26 launches — zero questions mostly means not yet, since Parliament has not had a full session cycle." — The claim assumes that zero questions for 2025–26 schemes are due to lack of parliamentary sessions, but it does not account for the possibility that these schemes may not have been implemented or publicized enough to warrant parliamentary attention. The reasoning gap is that the absence of questions does not necessarily imply lack of sessions but could also imply lack of awareness or urgency. [confidence: medium]
+- none found
 
-- "Questions are captured by subject line only (a limitation of both houses' indexes), so zero captured questions is an upper bound on neglect, not proof of it." — While the claim is factually correct about the limitation, it is used to justify the interpretation that zero questions imply neglect, which is an overgeneralization. The reasoning gap is that zero questions could also mean the scheme is running smoothly without issues, not necessarily that it is being neglected. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- **"PLI — White Goods" (2021-04-07) announced but never questioned in either house** — The article states this scheme was announced in **2021**, but the PIB register shows the **PLI for White Goods (ACs, LEDs, etc.) was officially launched in 2022** (via a revised PLI notification in April 2022). The 2021 date likely refers to an earlier draft or conceptual announcement, not the final scheme rollout. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- **"PM-KUSUM draws about five times more parliamentary attention than government publicity"** — The claim conflates **PIB announcements (34)** with **parliamentary questions (183)** without accounting for the fact that PIB announcements include **progress updates, not just launches**. Many schemes (e.g., Jal Jeevan Mission with 374 PIB anns vs. 269 questions) have far more publicity than questions, suggesting the comparison is misleading without normalizing for announcement frequency or type. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- **"UDAN / RCS (VGF) — Last question: 2026-08-10"** — The article’s data cutoff is **August 2026**, but the **latest official Lok Sabha/Rajya Sabha question registries** (as of mid-2024) would need verification for newer entries. The PIB register may have updated counts post-August 2026. [confidence: medium]
+- **"PLI — Solar Modules (2021-04-07) — Last question: 2026-02-11"** — The **latest fiscal year (2024–25) question data** from sansad.in or PIB should be cross-checked, as the article’s "current" figures may predate recent sessions. [confidence: medium]

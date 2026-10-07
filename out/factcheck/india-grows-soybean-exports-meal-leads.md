@@ -7,30 +7,29 @@
 
 Source: `posts/india-grows-soybean-exports-meal-leads.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `73b7a8598e5739ea`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India is one of the world's largest soybean growers by area" — This claim is incorrect. India is one of the world's largest soybean growers by **area**, but it is not among the largest by **production** due to low yields. The article later contradicts this by stating India's low yields (e.g., MP's 1,065 kg/ha and Maharashtra's 1,115 kg/ha), which are far below global averages (e.g., Brazil's ~3,000 kg/ha). [confidence: high]
-
-- "National output for the 2025-26 oil year is estimated by SOPA at around 105.36 lakh tonnes, down roughly 16% from the prior season's 125.82 lakh tonnes." — The article cites these figures without providing a direct source or context for the "2025-26 oil year" definition. SOPA typically reports crop years (e.g., Kharif 2025), and the 16% decline is not clearly verifiable against standard reporting periods. [confidence: medium]
-
----
+- none found
 
 INTERPRETATION ERRORS:
-- "Madhya Pradesh's soybean output fell and Maharashtra's rose between the two most recent seasons — a reversal tied to a Yellow Mosaic Virus outbreak in MP's Mandsaur belt." — While the virus outbreak is a plausible explanation for MP's yield decline, the article does not provide quantitative evidence linking the virus to the specific yield drop (e.g., comparative yield data from unaffected MP districts or historical trends). The causal claim is asserted without sufficient proof. [confidence: high]
+- none found
 
-- "India's oilmeal exports fell 51% year-on-year to just 1.62 lakh tonnes in November 2025, because Indian soymeal is currently priced out of the global market against Brazil and Argentina." — The article attributes the export decline solely to price competitiveness but does not account for other potential factors, such as domestic demand shifts, policy changes (e.g., export duties), or global supply fluctuations (e.g., Brazil/Argentina's own export volumes). The causal claim is oversimplified. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India exported around 21 lakh tonnes of soybean meal in 2023-24, up 16% on the year, with soymeal exports for October 2023–June 2024 running at 19.5 lakh tonnes"* — The claim conflates two distinct periods (full FY 2023-24 vs. partial H1 2023-24) without clarifying that the 19.5 lakh tonnes figure is only for the first half, not the full year. The 16% YoY growth is also likely misstated if the 21 lakh tonnes figure is for the full year (no source confirms this). [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"India still imports roughly two-thirds of its total vegetable-oil demand"* — This is misleading because the claim conflates *total vegetable-oil demand* (which includes palm, mustard, groundnut, etc.) with *soybean oil demand*. India’s soybean oil imports are a small fraction of total vegetable-oil imports (~15-20%), and the "two-thirds" figure likely refers to palm oil dominance, not soybean oil. The article’s focus on soybean oil economics distorts the broader import picture. [confidence: high]
+
+**OUTDATED DATA:**
+- *"Soybean MSP for the season was set at ₹5,328 per quintal"* — The latest official MSP for Kharif 2025-26 (as per the Union Budget 2026 or post-Budget updates) may differ; verify against the **Department of Agriculture & Farmers Welfare’s latest MSP notification** (likely updated after October 2025). [confidence: medium]
+- *"India’s edible-oil import dependence, palm/soy/sunflower import shares"* — The May 2025 crude-oil import-duty cut (20% → 10%) may have been revised or superseded by later tariff orders (e.g., Budget 2026 or post-crisis adjustments). Re-check **USDA FAS Oilseeds & Products reports** or **Ministry of Commerce trade data** for 2025-26. [confidence: medium]

@@ -7,42 +7,32 @@
 
 Source: `posts/india-forest-wildlife-crz-clearances.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `1955d764176ffb8c`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Grant rate of decided: 10.7%" (under Wildlife Clearance) and "Grant rate of decided: 31.3%" (under CRZ Clearance) — These calculations are factually incorrect based on the definition of "decided" cases (`granted ÷ (granted + dead)`). For Wildlife Clearance, 517 granted out of 600 decided (517 granted + 83 dead) is **86.2%**, not 10.7%. For CRZ Clearance, 468 granted out of 550 decided (468 granted + 82 dead) is **85.1%**, not 31.3%. The figures 10.7% and 31.3% were calculated using `granted ÷ (granted + in process)`, contradicting the stated metric. [confidence: high]
-- "Grant rate of decided (granted ÷ granted+dead): 69.7%" vs. "Grant rate = granted ÷ (granted + in-process); 'dead' (rejected/withdrawn/returned) and 'delisted' (PARIVESH auto-cleanup) are excluded from the denominator" (in methodology note) — The article provides two mutually contradictory mathematical formulas for "Grant rate." The Forest Clearance section defines it as excluding in-process applications, whereas the methodology note explicitly defines the denominator as `granted + in-process` while excluding dead cases. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "For scale: the entire national industrial land bank shows ~253,720 developed-and-vacant acres... Forest diversion adds ~122,666 more acres of granted land-use change" — Apples-to-oranges comparison. The industrial land bank figure represents a static stock of currently available, vacant industrial land, whereas the forest diversion figure represents a cumulative historical flow of land diverted across projects (linear infrastructure, hydro, mining) that is already occupied or utilized, not available land supply. [confidence: high]
-- "Wildlife (10.7% granted) is the real bottleneck: 4,319 of 4,919 sit in process, most 'Pending at Proponent' (the ball is with the project applicant, not the regulator) — projects near protected areas stall here for the National/State Board for Wildlife recommendation." — False causal attribution. The author characterizes the clearance process and the Wildlife Board as the bottleneck, while simultaneously noting that the vast majority of files are stalled with the project applicants ("Pending at Proponent"), meaning the delay at this stage is driven by proponent inaction rather than regulatory review. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Grant rate = granted ÷ (granted + in-process)" — This claim is incorrect because the article later states that the grant rate is calculated as "granted ÷ (granted + dead)", excluding 'in-process' and including 'dead' (rejected/withdrawn/returned) applications, but then also mentions that 'dead' and 'delisted' are excluded from the denominator, which is consistent with the initial statement but contradicts the inclusion of 'dead' [confidence: medium]
-- None found for other factual errors
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Forest Clearance is a second land-creation channel" — This claim may be misleading because it implies that Forest Clearance directly creates new land, whereas it actually involves the diversion of existing forest land for other uses, which is a different concept [confidence: high]
-- "Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock" — This comparison may be problematic because it juxtaposes the area of forest land diverted with the national industrial land bank without considering that these are different types of land use and may not be directly comparable in terms of economic or environmental impact [confidence: medium]
+**FACTUAL ERRORS:**
+- *"MAHESH NAIR (likely a data-entry artifact — an individual's name, not an agency) | 1,697"* — The claim that this is a "likely data-entry artifact" is speculative and unsupported by the article’s own data or external verification. The article does not provide evidence (e.g., cross-checking with official agency lists or MoEFCC records) to confirm this is an error, nor does it explain why the name appears as an agency. [confidence: medium]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"Forest Clearance is a second land-creation channel... Forest diversion adds ~122,666 more acres of granted land-use change — a different channel (mining, linear infra, hydro), on a different clock."* — The comparison conflates **granted forest diversion orders** (a subset of land-use changes for specific projects) with the **national industrial land bank** (~253,720 acres), which includes developed-and-vacant land across sectors (industrial, commercial, residential, etc.). The two are not directly comparable in scale, purpose, or timing (diversion orders are project-specific; the land bank is a static inventory). [confidence: high]
 
-FACTUAL ERRORS:
-- "generated 2026-07-22" — The date is in the future (2026) relative to the current year (2023), making it unverifiable and likely incorrect. [confidence: high]
+- *"Wildlife Clearance is the real bottleneck: only 10.7% of decided cases are granted, versus 42.0% for Forest and 31.3% for CRZ."* — While the grant rates are correctly stated, the causal claim that Wildlife Clearance is *the* bottleneck ignores that **4,319 of 4,919 Wildlife Clearance cases are "in process"** (per the next paragraph), meaning most are not yet "decided." The bottleneck may lie in the **pending stage**, not the grant rate of decided cases. [confidence: high]
 
-- "the entire national industrial land bank shows ~253,720 developed-and-vacant acres (Industrial Information & Land Bank, retrieved 2026)" — The cited source (Industrial Information & Land Bank) is a real Indian government database, but the retrieval date of 2026 is impossible, and the figure itself is unverifiable as stated. [confidence: high]
+**OUTDATED DATA:**
+- *"Industrial Information & Land Bank, retrieved 2026"* — The **Industrial Information System (IIS)** and **Land Bank** data are periodically updated by the Ministry of Commerce and Industry. The latest official figures (as of mid-2024) for developed-and-vacant industrial land are available in the **Annual Report of the Department for Promotion of Industry and Internal Trade (DPIIT)** or the **IIS portal**. The article should cross-check with the most recent DPIIT publication (e.g., FY2024–25 or FY2025–26). [confidence: high]
 
-INTERPRETATION ERRORS:
-- "Forest Clearance is a second land-creation channel" — The claim implies that Forest Clearance *creates* land (e.g., by converting non-forest to forest), but the context suggests it measures land *diversion* (conversion of forest land to non-forest uses like mining or infrastructure). The wording conflates "land creation" with "land-use change," which is a misinterpretation of the process. [confidence: high]
-
-- "Grant rate = granted ÷ (granted + in-process); 'dead' (rejected/withdrawn/returned) and 'delisted' (PARIVESH auto-cleanup) are excluded from the denominator, as in the EC analysis." — The article claims the grant rate calculation method is consistent with Environmental Clearance (EC) analysis, but it does not provide evidence or citation that EC uses the same exclusion criteria (e.g., whether EC also excludes "dead" and "delisted" cases from the denominator). This is an unsupported methodological equivalence. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"1.05 million ha in the pipeline (inflated by delisted applications and one ~74,000-ha outlier)"* — The **PARIVESH 2.0 API** data (fetched 2026-07-22) may have been updated since the article’s publication. Users should verify the current pipeline figure against the latest **MoEFCC’s Forest Clearance dashboard** or the **PARIVESH API** (e.g., via [github.com/herrrickshaw/india-ec-subsector-analysis](https://github.com/herrrickshaw/india-ec-subsector-analysis)) for 2026 Q3/Q4. [confidence: high]

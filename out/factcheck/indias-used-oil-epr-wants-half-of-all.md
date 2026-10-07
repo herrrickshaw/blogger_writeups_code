@@ -7,41 +7,31 @@
 
 Source: `posts/indias-used-oil-epr-wants-half-of-all.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `89f7539ead505c05`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "an importer's target is simpler — 100% of what it imported the previous year, every year." — This contradicts the article's own target table and CPCB rules. Importers of base oil or lubricating oil are subject to the same phased percentage targets (5% in 2024–25, ramping to 50% by 2030–31) applied against imports from two financial years prior. The 100% obligation applies specifically to importers of waste/used oil, not base oil/lubricant importers. [confidence: high]
-- "fewer than half of everyone who's applied has actually cleared registration, more than two years after the rules were notified and over a year into the obligation period itself." — The text establishes that the EPR obligation period commenced on 1 April 2024 and the portal was accessed on 10 August 2026. That timeframe represents 2 years and 4 months (over two years) into the obligation period, making "over a year" / "one year into a mandatory scheme" an inaccurate timeline calculation. [confidence: high]
+- "A separate claim that CNG carries a 14% GST rate, compared with 18% on used oil and a preferential 5% on ethanol for blending, is also imprecise: CNG sits outside the GST regime entirely, taxed instead through central excise duty (around 14%) plus state VAT, which is why it isn't directly comparable to the GST rates quoted for used oil and ethanol." — CNG is not outside the GST regime entirely; compressed natural gas (CNG) attracts GST at 18%, while natural gas itself (along with crude oil, petrol, diesel, and ATF) was temporarily kept outside GST under Article 279A, but CNG as a processed/manufactured product is explicitly under GST. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "re-refined base oil, in the panel's account, currently costs more to produce than virgin base oil, not less, which undercuts the entire logic of a collection network built on people bringing in used oil for a return. One recycler on the panel, who set up India's first CPCB-authorised collection centre in Karnataka, argued the fix has to be a price floor — a mechanism to guarantee RRBO trades at a 10-15% discount to virgin base oil" — If re-refined base oil (RRBO) costs more to produce than virgin base oil, enforcing a mandatory 10–15% discount relative to virgin oil caps the selling price of RRBO even further below its production costs. Forcing a lower selling price reduces margins for recyclers and worsens financial viability rather than solving high production costs or making the collection network self-sustaining. [confidence: high]
+- "A producer's target each year is a percentage of what it sold two financial years earlier; an importer's target follows the same escalating schedule, applied to what it imported two financial years earlier." — Rule 27 of the Hazardous and Other Wastes Rules specifies that the EPR target for a given year is calculated based on the quantity of base oil or lubrication oil sold or imported in the *preceding* financial year (or base-year provisions as defined), not strictly a two-year lag throughout the entire schedule, leading to a misinterpretation of the base-quantity time horizon. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "CNG sits outside the GST regime entirely, taxed instead through central excise duty (around 14%) plus state VAT" — This claim may not be entirely accurate as GST rates and taxation rules can change, and the exact taxation mechanism for CNG might be more complex or subject to updates [confidence: medium]
-- "India imports roughly 4 million tonnes of base oil a year" — This claim is contradicted by PPAC's own LOBS/Lube oil trade line, which shows imports ranging from 2.4 to 3.2 million tonnes a year across 2023-24 to 2025-26 [confidence: high]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "recycling used oil domestically is the only lever in this picture that doesn't run through a port" — This statement implies that domestic recycling is a direct solution to the import-export gap, but it doesn't account for the complexity of the lubricant market, the role of international trade, and the potential for exported recycled products [confidence: medium]
-- "A recycled base oil that costs more than virgin oil is a standard nobody can afford to meet" — This statement assumes that the cost of recycled base oil is the primary barrier to adoption, but it doesn't consider other factors, such as government incentives, technological advancements, or changes in market demand, that could influence the affordability and viability of recycled base oil [confidence: medium]
+**FACTUAL ERRORS:**
+- *"India imports roughly 4 million tonnes of base oil a year against only 2.8 million tonnes of consumption"* — The claim is incorrect. PPAC’s LOBS/Lube oil data shows imports ranged between **2.4–3.2 million tonnes** (2023–24 to 2025–26 provisional), not a flat 4 million. Consumption data (if available) would need verification, but the import figure is directly contradicted by the cited PPAC source. [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"Recycling used oil domestically is the only lever that touches [the import-export gap] without a customs duty"* — While true that recycling avoids import duties, the claim conflates **substitution effects** (RRBO replacing imported base oil) with **direct trade balance impact**. The EPR targets are a small fraction of total imports (e.g., 68,946 tonnes in 2024–25 vs. ~3.2M tonnes imported in 2025–26), so their effect on the trade deficit is negligible. The article later acknowledges this but the phrasing risks overstating the policy’s economic leverage. [confidence: high]
 
-FACTUAL ERRORS:
-- "Published 10 August 2026 · v1.0.0" — The article claims to be published on 10 August 2026, but the content references data and events (e.g., PPAC's 2025-26 provisional data, CPCB portal data accessed on the same date) that would not be available until after that date. This is a clear factual error regarding the publication date. [confidence: high]
+**OUTDATED DATA:**
+- *"2025-26 (provisional) imports/exports: 3,177/11 thousand tonnes"* — PPAC’s latest official data (as of mid-2026) may have been updated or superseded by newer fiscal year releases (e.g., 2026–27 actuals or 2027–28 provisional). Check PPAC’s [Import/Export of Crude Oil and Petroleum Products](https://ppac.gov.in/import-export) for the most recent LOBS/Lube oil line. [confidence: medium]
 
-- "A claim that India imports roughly 4 million tonnes of base oil a year against only 2.8 million tonnes of consumption doesn't match PPAC's own LOBS/Lube oil trade line above — imports ran 2.4 to 3.2 million tonnes a year across 2023-24 to 2025-26" — The article correctly identifies this claim as incorrect but does not provide the primary source for the 4 million tonnes figure, leaving the origin of this erroneous claim unverified. The correction itself implies the existence of an unverified claim, which is a factual error in the article's presentation. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "The instrument is Chapter VII of the Hazardous and Other Wastes (Management and Transboundary Movement) Second Amendment Rules, 2023 — notified by the Ministry of Environment, Forest and Climate Change via G.S.R. 677(E) on 18 September 2023, with Extended Producer Responsibility (EPR) obligations commencing 1 April 2024." — The article states that the EPR obligations commenced on 1 April 2024, but it does not clarify whether this is the date the rules came into force or the date by which obligated entities must comply. This ambiguity could lead to misinterpretation about the actual start of legal obligations. [confidence: medium]
-
-- "Recycling used oil domestically is the only lever in this picture that doesn't run through a port." — While the article correctly notes that recycling used oil domestically does not involve imports/exports, it implies that this is the *only* lever that avoids customs duties, ignoring other domestic alternatives (e.g., domestic production of base oil from crude oil). This is an overgeneralization that misrepresents the policy landscape. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+*Note: The article’s core factual framework (e.g., EPR rules, CPCB portal data, BIS standard timing) aligns with cited sources and is not flagged as erroneous.*

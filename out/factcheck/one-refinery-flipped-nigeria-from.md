@@ -7,36 +7,37 @@
 
 Source: `posts/one-refinery-flipped-nigeria-from.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `ce65f6491c1ea397`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Published 9 August 2026" — The article text includes a publication date of 9 August 2026, but the article itself references data and events up to January 2026 (e.g., "OilPrice.com, “Dangote Drives Nigeria's Domestic Fuel Supply Above 57% as Imports Retreat,” citing production and trade data through January 2026"). This is a factual inconsistency in the publication date versus the data timeline. [confidence: high]
+- none found
 
-- "Dangote refinery is now operating at, ~99% utilisation" — The article states the refinery is operating at ~99% utilization, but the cited figure of 650,000 barrels/day is the *nameplate capacity*, not the actual operating rate. Utilization is typically calculated as actual output divided by nameplate capacity, and the article does not provide the actual output figure to verify the 99% claim. [confidence: medium]
+INTERPRETATION ERRORS:
+- none found
+
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Nigeria has since been reported as a net petrol exporter for the first time"* — No official customs or regulatory data confirms Nigeria’s net petrol exporter status; the claim relies solely on trade-press reporting (e.g., Dangote’s exports to Europe and West Africa), which the article itself notes as unconfirmed against primary sources like EU customs or Nigerian shipping records. [confidence: high]
 
 ---
 
-INTERPRETATION ERRORS:
-- "Africa's projected refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity, not despite it." — The claim implies that the rise in imports is *caused* by demand outpacing refining capacity additions. However, the article later notes that the African Energy Chamber's 2050 forecast may not account for Nigeria's newly reported 24-project refining pipeline (expected to add 2.64 million bpd by 2031) or Dangote's expansion to 1.4 million bpd. Without confirming whether these projects are included in the forecast, the causal claim that imports are rising *because* of insufficient capacity additions is unsupported. The forecast may already assume some of these projects, making the causal link speculative. [confidence: high]
+**INTERPRETATION ERRORS:**
+- *"Dangote alone, at 650,000 bpd, is under a third of the continent-wide increase in demand the Chamber projects"* — The claim conflates **current capacity (650,000 bpd)** with **future expansion (1.4 million bpd by 2029)** and ignores the **24 Nigerian projects (2.64 million bpd by 2031)** and **other regional projects (e.g., Kenya’s Lamu, Angola’s Cabinda)**. Even at 650,000 bpd, Dangote’s contribution is **far larger than "under a third"** of the ~2 million bpd demand growth (2024–2050) when accounting for baseline imports (~2 mbpd) and new supply. The reasoning fails to adjust for the **dynamic pipeline** not reflected in the 2026 Chamber forecast. [confidence: high]
 
-- "Nigeria has since been reported as a net petrol exporter for the first time, supplying both West African neighbours and, per some reporting, contributing to European jet-fuel supply — this article treats the export-flow claims as reported, not independently traced through customs data." — While the article acknowledges the lack of independent verification for export claims, it still presents Nigeria's net petrol exporter status as a factual development. The interpretation error lies in treating unverified claims as a basis for broader conclusions (e.g., "Nigeria now makes most of its own petrol") without caveats or disclaimers about the reliability of the underlying data. This risks misinforming readers by conflating reported claims with established facts. [confidence: high]
+- *"Africa's refined-product imports are forecast to rise from 2 million to 3.4 million barrels a day by 2050 — because demand is growing faster than the refining boom is adding capacity"* — The causal link is **circular and oversimplified**. The forecast assumes **existing projects** (e.g., Dangote at 650,000 bpd) but **excludes later announcements** (e.g., Nigeria’s 24-project pipeline, Dangote’s 1.4 mbpd expansion). Without confirming whether the Chamber’s 3.4 mbpd figure **already incorporates these new projects**, the claim misrepresents the relationship: **demand growth *and* supply expansion are both unaccounted for in the same model**. [confidence: high]
 
-## Kimi kimi-k2-0711-preview
+---
+**OUTDATED DATA:**
+- *"Nigeria's petrol imports fell by 54% year-over-year in Q1 2025"* — No source confirms this figure as **official regulatory data** (e.g., from Nigeria’s Midstream and Downstream Petroleum Regulatory Authority). The claim cites **OilPrice.com (Jan–Feb 2026)**, but the article’s update section (26 Sept 2026) notes **no direct access to primary customs or trade data** for verification. [confidence: high]
+  *Series to re-check:* Nigerian customs/regulatory monthly import-export reports (e.g., [NDPRMA](https://www.ndprma.gov.ng/) or [NBS](https://www.nbs.gov.ng/)); newer period: **Q2 2026+ data** (if available).
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"Africa's total refined-product demand stood at roughly 4 million barrels a day in 2024"* — The African Energy Chamber’s 2026 forecast lacks a **2024 product-level import breakdown** (e.g., gasoline vs. diesel vs. jet fuel), only providing **2050 forecasts**. This omits critical context for interpreting the **~2 million bpd import baseline** cited. [confidence: medium]
+  *Series to re-check:* African Energy Chamber’s **2024 refined-product import matrix** (if updated post-2026); newer period: **2025+ data** (if released).

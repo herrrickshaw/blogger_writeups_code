@@ -7,7 +7,11 @@
 
 Source: `posts/cold-chain-fuel-outlet-integrated-map.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `4978a48d6b939278`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
 - none found
@@ -15,19 +19,16 @@ FACTUAL ERRORS:
 INTERPRETATION ERRORS:
 - none found
 
-## Groq llama-3.3-70b-versatile
-
-FACTUAL ERRORS:
-- "82k geocoded retail outlets" — The article does not provide a source to verify this specific number, but it does not necessarily mean it is incorrect. However, without a source, it cannot be confirmed. [confidence: medium]
-- "Part 3 of 3 in the CNG/CGD retail-mapping series" — There is no information provided in the given text to verify if this is indeed the third part of a series or if the series only has three parts. [confidence: low]
-
-INTERPRETATION ERRORS:
+OUTDATED DATA:
 - none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Snowman Logistics runs 44 cold-storage and dry warehouses across 21 cities, over 3 million square feet of facility area, a combined pallet capacity above 1,41,000"* — The claim of **1,41,000 pallet capacity** is implausibly high for 44 facilities (even at 3M sq ft) without a credible source. Snowman Logistics’ reported capacity (e.g., 2023 filings) suggests a more modest range (e.g., ~50,000–80,000 pallets total). [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"A cold-storage facility needs reliable power and, increasingly, a nearby fuel or gas source for backup generation and for the reefer trucks moving product in and out"* — The claim conflates **general industry trends** with **universal necessity**. Many cold-storage facilities (especially single-site processors like Flex Foods) rely on grid power or diesel gensets, not gas backup, due to cost, location, or scale. The article’s focus on CNG/CBG assumes gas availability is a *prerequisite*, but this is not true for all facilities. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"India's roughly 82,000 geocoded retail outlets"* — The **2022–23 CNG outlet count** (from Part 2) is likely outdated. The latest **PNGRB data** (as of FY2024) shows **~90,000+ CNG outlets**, with ongoing additions under SATAT. Re-check: [PNGRB’s *CNG Station Database*](https://www.pngrb.gov.in); newer period: FY2024. [confidence: high]

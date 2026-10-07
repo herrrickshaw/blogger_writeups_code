@@ -7,28 +7,28 @@
 
 Source: `posts/indias-shrimp-exports-did-not-collapse.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `208ca28c5f3fa086`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Smartphones are now India’s single largest export line at $29.4 billion" — The article later states the correct figure as $29,363 million ($29.36 billion), not $29.4 billion. [confidence: high]
-
-- "Total exports rise from $303,526 million to $441,452 million, a gain of 45.4 per cent" — The correct calculation is ($441,452 - $303,526) / $303,526 ≈ 45.44%, which rounds to 45.4%, so this is technically correct but misleadingly precise given the context. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "Five of the six largest apparent export collapses are not collapses at all" — The article implies that the "apparent collapses" are due to recoding, but it does not provide evidence that all five cases are solely recoding-related. For example, the shrimp case shows a 95% drop in the old code but a near-flat total when the new code is included, which is a valid interpretation. However, the phrasing suggests a blanket conclusion without acknowledging that some declines might be partially real even if recoding plays a role. [confidence: medium]
+- none found
 
-- "Of lines that genuinely grew, 84 per cent grew on volume, not price" — This claim is based on a subset of 4,958 comparable lines, excluding large new lines like smartphones and refined petroleum products. The article does not clarify that this 84% figure does not represent the entire export book, which could lead readers to overgeneralize the finding. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India’s exports grew from $304 billion to $441 billion between 2017-18 and 2025-26"* — The article’s own data shows the correct totals as **$303,526 million (≈$303.5 billion)** and **$441,452 million (≈$441.5 billion)**. The rounded figures ($304B and $441B) are plausible but not exact as stated. [confidence: medium]
+
+**INTERPRETATION ERRORS:**
+- *"Five of the six largest apparent export collapses are not collapses at all"* — While the claim is factually correct (due to recoding), the reasoning conflates **apparent declines** (from code changes) with **actual trade trends**. The article later clarifies that **only cut diamonds** (71023910) represent a genuine structural decline, while the others reflect **nomenclature shifts**, not lost exports. The phrasing risks implying the other five were "false alarms" rather than artifacts of data structure. [confidence: high]
+
+**OUTDATED DATA:**
+- *"FY2021-22 is absent from the value files used here"* — The article notes this gap but does not state whether a **newer official release** (e.g., DGCI&S’s latest TradeStat update) has since filled this void. The **TradeStat EIDB portal** (source) may now include FY2021-22 data. [confidence: medium]

@@ -7,23 +7,29 @@
 
 Source: `posts/abha-covers-93-crore-patients-its.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `adb5442200601338`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+## Gemini gemini-flash-lite-latest
 
-## Groq openai/gpt-oss-120b
+FACTUAL ERRORS:
+- none found
 
-[Groq/openai/gpt-oss-120b API error 429: {"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01kx5hhftzetdtqn6xnj536ykb` service tier `on_demand` on tokens per minute (TPM): Limit 8000, Used 3167, Requested 5083. Please try again in 1.875s. Need more tokens? Upgrade to Dev Tier today at https://cons]
+INTERPRETATION ERRORS:
+- none found
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"93+ crore patient accounts"* — The article acknowledges in the update (28 September 2026) that this figure is superseded by PIB’s latest release (17 September 2026), which states **97.6 crore ABHA IDs** and **119.95 crore linked health records**. The original claim (93+ crore) is now outdated. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"ABHA's 93+ crore accounts dwarf the population of any single comparison country"* — While true in absolute numbers, this comparison is misleading because it conflates **account creation** (voluntary opt-in) with **active usage** (e.g., Estonia’s 2.5M monthly doctor queries or Denmark’s 2.3M monthly portal visits). The article later clarifies that **23.21 crore Scan-and-Share tokens** (actual clinical use) are the meaningful metric, not raw account counts. [confidence: high]
+
+**OUTDATED DATA:**
+- *"67% of India's ~1.42 crore registered doctors have a matching Healthcare Professional ID"* — The **National Medical Commission’s April 2026 doctor count** (1,421,853) is cited, but no newer official update is referenced. The **HPR enrollment figure (950,000+)** may also need verification against the latest NMC/HPR reports (e.g., 2026–2027 fiscal year). [confidence: medium]
+- *"NHCX went live in June 2024"* — While correct for launch, the **IRDAI panel’s August 2026 recommendation for mandatory insurer adoption** suggests the system’s operational status (voluntary vs. mandatory) may have evolved. A **2026–2027 IRDAI/NHCX compliance report** would clarify current participation rates. [confidence: medium]

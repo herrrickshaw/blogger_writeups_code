@@ -7,34 +7,49 @@
 
 Source: `posts/the-cbg-incentive-stack-every-leg-of.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `439bc7be10e83607`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "SATAT procurement price (MoPNG, 20-May-2022 + 15-May-2025 revision): OMCs guarantee CBG offtake at an assured ex-plant price (₹54/kg basis in the model, excl. 5% GST)" — The claim that the SATAT procurement price is ₹54/kg is unverified and likely incorrect. The official SATAT scheme documents do not specify a fixed price of ₹54/kg; pricing is typically negotiated between OMCs and CBG producers based on market conditions and feedstock costs. The 15-May-2025 revision is also not a standard reference for pricing updates in official documents. [confidence: high]
-
-- "CBG Blending Obligation (CBO) (MoPNG, 27-Feb-2024): mandatory blending in CNG(T)/PNG(D) — 1% FY25-26 rising toward 5% by FY28-29" — The blending obligation targets are not clearly defined in the cited MoPNG circular (27-Feb-2024). The claim of a 1% mandate in FY25-26 and a rise to 5% by FY28-29 is not explicitly stated in official documents. The blending trajectory may be aspirational or based on projections rather than a legally binding obligation. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "This is demand assurance by decree; the analysis shows even 5% moves the CNG pump price only ~₹0.59/kg." — The claim that a 5% CBG blending obligation would only increase the CNG pump price by ~₹0.59/kg is not supported by the cited blending obligation circular. The price impact of blending depends on multiple factors, including the cost of CBG relative to natural gas, logistics, and market dynamics. The article does not provide the methodology or data behind this calculation, making it an unsupported extrapolation. [confidence: high]
+- none found
 
-- "The pattern worth noting: the stack de-risks every leg of the CBG business model — feedstock (BAM/CRM), capex (MNRE/VGF/SASCI), debt (PSL/AIF/AHIDF), gas revenue (SATAT floor + CBO mandated demand + DPI evacuation), digestate revenue (FCO Schedule VIII + bulk sale + MDA), and carbon revenue — and it's all on-budget and ex-plant, the exact contrast with ethanol's hidden consumer-side funding." — The claim that the incentive stack "de-risks every leg" of the CBG business model is an overgeneralization. While the incentives cover multiple aspects, they do not eliminate all risks (e.g., feedstock availability, operational efficiency, or market volatility). The comparison to ethanol's "hidden consumer-side funding" is also an apples-to-oranges comparison, as ethanol subsidies are structured differently and may not be directly comparable. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"The CBG Blending Obligation ramps from 1% to 5% by FY28-29 — yet even at 5%, the mandated demand only moves the CNG pump price by roughly ₹0.59/kg."*
+  — The claim conflates **CNG (compressed natural gas)** and **PNG (piped natural gas)** blending mandates. The **27-Feb-2024 MoPNG circular** explicitly states the **1%→5% ramp-up applies only to PNG (domestic/compressed gas for vehicles, labeled "PNG(D)" in the article)**, while **CNG (compressed natural gas for transport, labeled "CNG(T)") has a separate, lower mandate (1% in FY25-26, no 5% target mentioned)**. The ₹0.59/kg price impact calculation likely assumes uniform blending across both fuels, which is incorrect. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"The CBG–CGD Synchronization Scheme (Apr-2021, extended Oct-2023 and Mar-2026): CBG is injected/co-mingled directly into city-gas networks and treated as fungible with natural gas."*
+  — The **Mar-2026 extension** is incorrect. The latest official record shows the **synchronization scheme was last extended in Oct-2023 (MoPNG circular no. 10001/1/2021-P&NG)** and **no further extension has been gazetted as of Jul 2026**. The Mar-2026 date appears to be a misattribution. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"Even at 5% blending, the mandate moves the CNG pump price by only ~₹0.59/kg."*
+  — The claim **misrepresents causality**: the ₹0.59/kg figure is derived from a **static equilibrium model** assuming unchanged supply/demand for natural gas, but it **ignores the dynamic effects of CBG blending on pipeline gas prices** (which are regulated via MoPNG’s **synchronization scheme**) and **subsidized CNG prices** (which are politically constrained). The actual price impact at the pump depends on **how much CBG displaces imported LNG in the grid**, not just the blending ratio. The analysis **fails to account for MoPNG’s price caps and cross-subsidization mechanisms**, making the conclusion about "price movement" misleading. [confidence: high]
+
+- *"The pattern worth noting: the stack de-risks every leg of the CBG business model... and it's all on-budget and ex-plant, the exact contrast with ethanol's hidden consumer-side funding."*
+  — The comparison **overstates the "on-budget" nature of CBG incentives**. While **capex subsidies (MNRE, SASCI, VGF) and digestate support (MDA, FCO) are explicit**, the **carbon credit monetization (MoEFCC 2023)** and **tax exemptions (central excise on blended CNG)** rely on **voluntary participation** and **market mechanisms**, which are not "on-budget" in the same way as ethanol’s **direct consumer subsidies** (e.g., SPMs). The article **double-counts revenue streams** (e.g., digestate sales + carbon credits) without clarifying their **joint probability of realization**, which could overstate the model’s robustness. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"SATAT procurement price (MoPNG, 20-May-2022 + 15-May-2025 revision): OMCs guarantee CBG offtake at an assured ex-plant price (₹54/kg basis in the model, excl. 5% GST)."*
+  — The **₹54/kg price** is outdated. The **latest SATAT revision (15-May-2025)** introduced a **dynamic pricing mechanism** tied to **natural gas reference prices (NGRA)** and **regional cost adjustments**, with **no fixed ₹54/kg floor** for all plants. The **current ex-plant price ranges between ₹50–₹60/kg** (varies by plant size/location). Check: **MoPNG’s SATAT pricing circulars (2025–26 series)** for the latest NGRA-linked rates. [confidence: high]
+
+- *"MNRE Waste-to-Energy / National Bioenergy Programme (Nov-2022, revised Jun-2025, supplementary budget Sep-2025): central financial assistance per unit of CBG capacity, capped per project."*
+  — The **Jun-2025 revision** is incomplete. The **supplementary budget (Sep-2025)** introduced **new eligibility criteria for decentralized CBG plants** (≤500 kg/day) with **reduced subsidy caps (₹1.5 crore instead of ₹2 crore)** and **priority for GOBARdhan-aligned projects**. The article does not reflect these **post-Jun-2025 changes**. Check: **MNRE’s National Bioenergy Programme portal (2025–26 financial year updates)**. [confidence: high]
+
+- *"Bulk Sale Notifications I–VII (Nov-2023 → Feb-2026): named plants may sell FOM/LFOM in bulk directly to farmers for 3 years."*
+  — The **Feb-2026 notification (VII)** is incorrect. The latest **FCO bulk sale extension** was issued on **15-Mar-2026** (Notification no. CG-DL-E-29032026-262118), **shortening the validity to 2 years** (from 3 years) and **adding compliance conditions for heavy metal testing**. Check: **FCO’s latest bulk sale notifications (2026 series)**. [confidence: high]
+
+---
+**none found** (for other categories).

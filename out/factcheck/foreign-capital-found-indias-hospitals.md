@@ -7,32 +7,45 @@
 
 Source: `posts/foreign-capital-found-indias-hospitals.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `f6468033ce385385`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India's hospital beds fall well short of world norms" — The article later clarifies that the "world norms" (e.g., "3.5 beds per 1,000") are not formal WHO minimum standards but approximations of the global average (3.29 in 2021). The initial claim implies a formal standard exists, which is incorrect. [confidence: high]
-
-- "Hospitals have permitted 100 per cent FDI on the automatic route since January 2000" — The article later states that hospitals have been on the 100% automatic route since January 2000, but the phrasing "permitted" could be misinterpreted as a post-2000 policy change, whereas the policy was already in place (as confirmed by DPIIT sources cited later). The claim is technically correct but risks implying a new permission was granted in 2000. [confidence: medium]
+- "Hospitals have been open to 100 per cent automatic-route FDI since January 2000 — longer than almost any other sensitive sector." — India did not permit 100% FDI under the automatic route for hospitals in January 2000; hospital FDI up to 100% was initially permitted under the *government approval* route and was shifted to the automatic route much later (specifically via Press Note 4 of 2001 / subsequent liberalizations). [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Foreign hospital investment since 2000 has not moved this ratio [beds per 1,000 population]" — The article correctly notes that FDI inflows have not increased India's bed ratio, but it extrapolates this to imply that *all* foreign capital (including domestic capex) has failed to address the shortage. However, the article later acknowledges a ~30,000-bed capex pipeline (domestic) that could address the gap, meaning the conclusion that "the money that has actually arrived buys the beds that already exist" is an overgeneralization. The FDI-specific claim is accurate, but the broader interpretation conflates FDI with total investment. [confidence: high]
+- none found
 
-- "If the thesis were 'India needs more beds,' the rational foreign-capital response would be to build them" — The article assumes that foreign investors *should* prioritize greenfield projects to address the bed shortage, but it does not account for the fact that private equity's business model (buying existing assets) is inherently different from greenfield development. While the claim is logically consistent with the data, it misinterprets the *motivation* of investors: PE firms seek returns through operational efficiency, not capacity expansion. The reasoning gap is that the article judges investor behavior against a normative standard (building new beds) rather than their actual objectives. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India's hospital beds fall well short of world norms"* — The article later clarifies that the **1.59 beds per 1,000 population (2021)** is the latest *published* figure, but the **2025–26 estimate** (implied by the decline from 2.13 in 2000) is not a confirmed official update. The **3.29 world average (2021)** is correct, but the article conflates this with a **misattributed "3.5" reference figure** (often cited as a WHO norm, which it is not). The **0.79 government-only beds per 1,000** is a narrower trade-press figure not validated by the World Bank’s **SH.MED.BEDS.ZS** series, which does not separately break out government beds. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The bed shortage the money is supposedly solving is still there"* — While the **bed-per-1,000 ratio (1.59 in 2021)** has declined from 2.13 in 2000, the article does not prove that **foreign FDI has failed to address the shortage**. The **30,000-bed capex pipeline** (₹35,000 crore) cited in trade press is **domestic-led**, not foreign-financed, and the **roll-up deals** (e.g., Blackstone/Aster, KKR/Medicover) **do not add beds**—they consolidate existing capacity. The causal claim that FDI *should* build new beds ignores that **PE/SWF buyers prioritize efficiency over greenfield risk**, a rational strategy even if it doesn’t directly expand supply. [confidence: high]
+
+- *"India has roughly 1.4–1.6 hospital beds per 1,000 people against a global average around 3.3"* — The **1.4 figure** is an **industry-repeated approximation** (not the World Bank’s 1.59 for 2021) and conflates **total beds** with **government beds (0.79)**. The **3.3 global average** is correct for 2021 but **not a WHO minimum standard**—the article later clarifies this, but the initial framing risks implying a **false policy benchmark**. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"Hospital beds per 1,000 population, latest published year: 1.59 (India, 2021)"* — The **World Bank’s SH.MED.BEDS.ZS** series (last updated 2021) lacks a **2022–2026** data point. For **India-specific updates**, check:
+  - **Central Bureau of Health Intelligence (CBHI)** for **annual state-wise bed counts** (proposed in the article).
+  - **National Health Accounts (NHA) 2023–24** (if published) for **health expenditure-linked capacity data**.
+  - **NITI Aayog’s Health Index** (latest round: 2022–23) for **subnational bed metrics**.
+  [confidence: high]
+
+- *"Cumulative FDI into ‘Hospital & Diagnostic Centres’: $8.89 billion (Apr 2000–Jun 2023)"* — The **DPIIT’s latest consolidated FDI tables** (as of Aug 2026) may include **H1 2025–H1 2026** updates. For **real-time FDI trends**, cross-check:
+  - **DPIIT’s "FDI Performance" dashboard** ([fdi.gov.in](https://fdi.gov.in)) for **calendar-year 2025–26** data.
+  - **RBI’s "FDI Statistics" (Quarterly Bulletin)** for **financial-year 2025–26** allocations.
+  [confidence: high]
+
+---
+**Note:** The article’s **deal sizes** (e.g., ₹40,000 crore for Manipal) are **order-of-magnitude estimates** (not audited) and sourced from press reports, so no factual error there. The **PE ownership claim** ("nearly half of leading chains now PE-owned") is **trade-press reported** (DealFlowIQ 2025) but lacks a **primary source**—readers should verify via **SEBI filings** or **company annual reports**.

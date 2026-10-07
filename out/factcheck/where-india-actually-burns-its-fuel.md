@@ -7,34 +7,31 @@
 
 Source: `posts/where-india-actually-burns-its-fuel.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `7a870d53a4ffa31a`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Published 8 August 2026 · v1.0.0" — The article claims a publication date of 8 August 2026, but the PPAC workbook data cited (FY2024-25) would not be available until after the fiscal year ends (March 2025), making a 2026 publication date implausible. The PPAC website itself typically lags in publishing such data by several months. [confidence: high]
-
-- "Delhi’s gas-infrastructure counts (CNG stations and domestic PNG connections, as on 31.05.2026, source PNGRB)" — The PNGRB (Petroleum and Natural Gas Regulatory Board) does not publish data with dates in the future (e.g., 31.05.2026). The latest available data would be from May 2025 or earlier. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "Delhi is the finding hiding in the slow column. The capital’s fuel sales grew 22% in sixteen years — a period in which its vehicle stock multiplied. The explanation is substitution, not stagnation: Delhi runs India’s densest gas transport network — 458 CNG station clusters and 19.6 lakh piped-gas connections on PNGRB’s May 2026 count — a metro carrying millions of trips, and the country’s most aggressive vehicle-age rules." — While the substitution effect (CNG, metro, vehicle rules) is plausible, the article does not provide quantitative evidence to decompose the 22% growth in fuel sales. Without controlling for population growth, vehicle stock changes, or cross-border fuel purchases (e.g., Haryana-Delhi VAT leakage), the causal claim that these policies *alone* explain the slow growth is unsupported. The article acknowledges VAT leakage but does not adjust for it. [confidence: high]
+- "Petrol demand grew more than three times faster than diesel, the diesel-to-petrol ratio collapsed from 4.6 to 2.3... the increment is two-wheelers and cars, not trucks and tractors — which is why the ethanol-blending programme (petrol-side) keeps gaining policy leverage while diesel-side interventions fade" — The author attributes the shifting diesel-to-petrol ratio directly to vehicle fleet composition (two-wheelers and cars vs. trucks and tractors) without controlling for or discussing structural fuel-switching within commercial vehicles (such as the massive adoption of CNG and LNG in commercial transport, light commercial vehicles, and public buses), creating an incomplete causal narrative that treats all diesel decline exclusively as passengerisation rather than substitution in commercial transport. [confidence: medium]
 
-- "The frontier moved east; the plateau is scattered across the rest of the map" — The article attributes rapid growth in eastern states (Odisha, Chhattisgarh) to "late motorisation compounding on top of mining and industrial freight," but the data only shows growth rates, not causality. The interpretation assumes that mining/industrial activity *caused* the growth without controlling for other factors (e.g., policy incentives, infrastructure development, or demographic shifts). The claim conflates correlation with causation. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Delhi’s gas transport network — 458 CNG station clusters and 19.6 lakh piped-gas connections on PNGRB’s May 2026 count"* — **No official PNGRB data for May 2026 exists yet** (PNGRB’s latest public report is from **July 2026**, which may not include May 2026 figures). The claim conflates two separate sources (CNG stations and PNG connections) without verifying their simultaneous validity for May 2026. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"Delhi is the slowest-growing fuel market in India... exactly what its gas and metro build-out was meant to achieve"* — **Correlation ≠ causation**: The article attributes Delhi’s slow growth to deliberate policy (CNG/metro), but the data only shows *substitution* (e.g., CNG adoption) without quantifying its impact on petrol/diesel demand. The claim ignores unmeasured factors like VAT leakage (Delhi residents buying fuel in Haryana) or unaccounted vehicle stock changes. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"FY2024-25 figures are provisional"* — **No newer official PPAC release superseding these exists** (as of August 2026). The article’s source (PPAC workbook) is the latest available, but the claim itself is redundant since provisional data is inherently non-final. [confidence: medium]
+
+---
+*Note: No other distinct factual, interpretive, or outdated-data issues were found.*

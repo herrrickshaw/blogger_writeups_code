@@ -7,42 +7,31 @@
 
 Source: `posts/fuel-pricing-to-crude-cost.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `ef133d7760d594b0`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Punjab | Jalandhar" and "Haryana | Ambala" in Section 4's table of state capitals — The capital of both Punjab and Haryana is Chandigarh, not Jalandhar or Ambala. [confidence: high]
-- "All 35 state capitals" / "across all 35 state capitals" — India consists of 28 states and 8 Union Territories (36 entities total). The list conflates states and UTs while omitting the Union Territory of Lakshadweep. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "That spare capacity means blending can be pushed harder during a crude shock without waiting on new plants; the real limit is feedstock supply... competing with food-security demand for the same grain, not distillery capacity itself." — The reasoning overlooks vehicle fleet compatibility and regulatory standards. Most legacy vehicles on Indian roads are engineered for E10 or E20; pushing blend rates higher (such as E25 or E35) causes engine degradation, fuel system corrosion, and warranty invalidation unless the automotive fleet itself is adapted, making vehicle tolerance and fuel specifications a binding constraint alongside feedstock supply. [confidence: high]
-- "That is the structural reason India's petrochemical import bill is far more exposed to a crude/rupee swing than the pump price is: fuel pricing has a flat-rate excise shock absorber built in; ad-valorem GST-rated chemical imports do not." — This makes an apples-to-oranges comparison between final retail consumer pricing and intermediate industrial imports. Integrated GST (IGST) paid on petrochemical feedstock imports is an Input Tax Credit (ITC) available for offset downstream, meaning it does not act as an unbuffered cumulative cost in the same manner as non-creditable retail fuel taxes. [confidence: medium]
+- "Ethanol is excise-exempt, so the more of the litre it makes up, the less central excise the government collects on that litre — and, as the map below shows, that foregone excise outweighs ethanol's own cost premium over crude-linked petrol, so a cost-reflective blended price actually falls slightly as the blend rises." — The author assumes that because central excise is applied on a per-litre basis, substituting a portion of gasoline with excise-exempt ethanol mechanically reduces the total absolute excise collected per litre. However, standard Indian fiscal mechanics dictate that fixed-rate central excise is levied on the total volume of *petrol* (or blended fuel) cleared, or alternatively, if excise applies strictly to the petroleum component, the consumer retail price reflects the blended product where tax incidence per volume unit of final fuel depends on whether the excise is statutory per litre of total fuel or per litre of petroleum component. Furthermore, the claim that a higher ethanol blend (priced at ₹71.16/l procurement cost) results in a net *drop* in the final cost-reflective retail price compared to crude-linked petrol (where the underlying dealer price ex-refinery is around ₹53.07/l) ignores the fact that ethanol is more expensive than the raw dealer-price component of unblended petrol, creating an internal cost increase that is not necessarily offset by a proportional tax reduction unless the excise exemption is structured to pass the full tax savings directly to the blend volume. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "The Indian basket crude ($/bbl) ... +12.0% vs PPAC's last published Jul–Sep 2025 average" — The article does not provide a clear source for the "+12.0% vs PPAC's last published Jul–Sep 2025 average" claim, but according to the text, the calculation is based on the implied Indian basket of $78.30/bbl and the PPAC's published Jul–Sep 2025 quarterly average of $69.89/bbl. The percentage increase is calculated correctly as ((78.30-69.89)/69.89)*100 = 12.06%, which rounds to 12.0%. However, without access to the original PPAC data, it's difficult to verify the accuracy of the $69.89/bbl figure. [confidence: medium]
-- "Naphtha and other petrochemical feedstocks ... are priced and taxed under GST" — This claim may not be entirely accurate, as some petrochemical feedstocks might be exempt from GST or have different tax treatments. However, without more specific information, it's challenging to verify the accuracy of this statement. [confidence: low]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "A 97% swing in crude (past-year low to high) would, on a naive full pass-through, move Delhi petrol by ≈43% (₹87.65 to ₹125.71) — a smaller swing than crude's own, because the flat-rate excise and commission layers don't move at all, and only the dealer-price and VAT layers scale" — The article correctly notes that the flat-rate excise and commission layers do not move with crude prices. However, it implies that the VAT layer scales directly with crude prices, which might not be the case. The VAT rate is a percentage of the retail selling price, which includes the dealer price, excise duty, and commission. The article does not provide a clear explanation of how the VAT layer scales with crude prices, which could lead to an incorrect interpretation of the relationship between crude price swings and retail price movements. [confidence: medium]
-- "The scenario range makes the excise lever visible: ... government has repeatedly cut excise duty when crude spiked (and raised it when crude fell) specifically to smooth this pass-through — a policy choice this build-up deliberately does not model, so as to isolate what the tax structure alone would do" — The article acknowledges that the government has used excise duty as a policy tool to smooth the pass-through of crude price changes. However, by not modeling this policy choice, the article may be overestimating the impact of crude price swings on retail prices. This could lead to an incorrect interpretation of the effectiveness of the tax structure in isolating the impact of crude price changes. [confidence: medium]
+**FACTUAL ERRORS:**
+- *"India's installed ethanol distillery capacity is roughly 2,000 crore litres for ESY2025-26 (CareEdge estimate)"* — **2,000 crore litres is 20 billion litres**, which is implausibly high for India’s total ethanol capacity (latest official data from 2024–25 shows ~10.5 billion litres installed capacity, per PPAC/Ministry of Food Processing Industries). [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"The scenario range makes the excise lever visible: a 97% swing in crude (past-year low to high) would, on a naive full pass-through, move Delhi petrol by ≈43% (₹87.65 to ₹125.71)"* — **The claim conflates "naive full pass-through" with the actual tax structure.** The 43% swing assumes *only* the dealer price (crude-linked) moves, ignoring that VAT/GST also compounds on the higher dealer price, amplifying the pass-through beyond the "naive" baseline. The article later clarifies this is a deliberate simplification to isolate tax effects, but the phrasing risks misleading readers into thinking the 43% figure represents the *total* pass-through effect. [confidence: high]
 
-FACTUAL ERRORS:
-- "Energy pricing · Crude oil · 5 August 2026" — The article is dated 5 August 2026, but the PPAC Ready Reckoner cited (FY2025-26 H1 edition) is based on data as of 01.10.2025, which is in the past relative to the publication date. This creates a temporal inconsistency where the article claims to use "live" data but relies on outdated PPAC tables. [confidence: high]
+**OUTDATED DATA:**
+- *"PPAC's last published monthly Indian basket crude price runs only to September 2025"* — **PPAC’s Indian Basket series is now published monthly (e.g., October 2025 onward), but the article uses a static 01.10.2025 baseline for all scenarios. Re-check: PPAC’s [official monthly series](https://www.ppac.gov.in) (or [Business Standard’s archive](https://www.business-standard.com)) for October 2025–September 2026 updates. [confidence: high]
 
-- "$78.87/bbl Brent Crude, live (OilPriceAPI & Rigzone agree to 2¢)" — The article later notes a data-quality issue where OilPriceAPI's "BRENT_SPOT_USD" field shows $91.82, conflicting with the $78.87 figure. While the article acknowledges this discrepancy, it does not correct the initial claim of agreement to 2¢, which is misleading. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "Because none of these four components [of excise duty] move with crude, they are the lever government has historically pulled to cushion pump prices when crude spikes, and the reason the 'full pass-through' scenarios below likely overstate how much of a crude rally would actually reach the pump." — The article correctly notes that excise duties are fixed and do not move with crude, but it then implies that this alone explains why "full pass-through" scenarios overstate pump price increases. This ignores other policy tools (e.g., state VAT adjustments, dealer commission changes, or direct subsidies) that governments may use to cushion prices, as well as the fact that the scenarios explicitly hold excise, commission, and VAT constant. The conclusion conflates the tax structure's mechanical effect with actual policy responses. [confidence: high]
-
-- "Capacity is not the constraint. India's installed ethanol distillery capacity is roughly 2,000 crore litres for ESY2025-26 (CareEdge estimate), against 904.8 crore litres actually drawn by PSU OMCs in ESY2024-25 (PPAC Table 6.10) — about 1,095 crore litres of spare, already-built capacity sitting unused." — While the capacity figures may be correct, the claim that "capacity is not the constraint" is an overgeneralization. The article later acknowledges that feedstock supply (e.g., maize) is the real limiting factor, but the initial statement ignores logistical, regulatory, and seasonal constraints on ethanol production and blending. The claim conflates installed capacity with operational feasibility. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+*Note: No other distinct factual, interpretation, or outdated-data issues were found in the provided text.*

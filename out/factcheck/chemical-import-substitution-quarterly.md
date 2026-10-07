@@ -7,23 +7,34 @@
 
 Source: `posts/chemical-import-substitution-quarterly.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `825462836b3320c8`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "DGFT TPA/Dyes anti-dumping duty decisions expected Q2-FY27" — Anti-dumping investigations and recommendations in India are conducted by the Directorate General of Trade Remedies (DGTR), and duties are notified by the Department of Revenue (Ministry of Finance). The Directorate General of Foreign Trade (DGFT) does not investigate or issue anti-dumping duty decisions. [confidence: high]
-- "QCO (29071100?)" listed under "DGFT ANTI-DUMPING DUTY TRACKING" — A Quality Control Order (QCO) is a mandatory technical standard issued by line ministries (such as the Department of Chemicals and Petrochemicals) via the Bureau of Indian Standards (BIS); it is not an anti-dumping duty measure administered under trade remedy mechanisms. [confidence: high]
-- "L&T Bina LLDPE" — The Bina petrochemical facility and refinery are owned and operated by Bharat Petroleum Corporation Limited (BPCL), not Larsen & Toubro (L&T). L&T is an engineering, procurement, and construction contractor, not the project owner or plant operator. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "GST Exemption (18% capex) ~$3bn (capex phase)" — GST paid on capital expenditure is credited back through standard Input Tax Credit (ITC) mechanisms for operational businesses. Categorizing domestic indirect tax accounting credits on facility construction as a $3 billion trade import substitution saving is an apples-to-oranges comparison between internal tax mechanics and national import reduction. [confidence: high]
-- "Capex-Driven Savings (Base Case) Tier 1 (Ethylene, PP, HDPE, TPA) $5.0bn" combined with "Anti-Dumping Duty Upside TPA Duty (15-20%) +$220-290mn" — This constitutes double-counting. If new domestic plant capacity replaces imported TPA, the foreign exchange savings are already captured in the capex substitution model; tariff duties on those same displaced imports cannot be added as independent, additive import savings. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Dyes/Azo (32030010)" — The HSN code 32030010 is stated to be for dyes/azo, but according to the correction notice, it is actually for Cutch/Catechu Extracts, indicating an error in the HSN code usage or description [confidence: high]
-- "QCO (29071100?)" — The HSN code for QCO is uncertain, indicated by a question mark, suggesting that the code might not be accurate or is unverified [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Final determinations will increase FY30 savings by $430-640mn" — This statement implies a direct causal relationship between the final determinations of the DGFT TPA/Dyes anti-dumping duty decisions and the increase in FY30 savings, without considering potential factors that could affect the actual savings, such as the timing of the decisions, the actual duty rates applied, and the response of domestic producers [confidence: medium]
-- "Delay risk: 6-12 months = FY28-29 commissioning vs. target FY28" for BPCL AP Environmental Clearance — This statement assumes a direct and linear relationship between the delay in environmental clearance and the commissioning timeline, without accounting for potential mitigating actions or the complexity of project timelines [confidence: medium]
+**FACTUAL ERRORS:**
+- **"HSN 32030010 (Cutch/Catechu Extracts) with a +$210–350mn anti-dumping upside"** — The claim conflates HSN 32030010 (actual imports: ~$2M) with broader azo-dye imports (~$8–25M) and misrepresents the duty impact potential. The entire HSN 3204 dyes/pigments chapter totals $298M, making a 15–25% duty on this base impossible to yield $210–350mn. [confidence: high]
+- **"QCO (HSN 29071100) with a +$150–250mn impact"** — The QCO is not an anti-dumping case and is not handled by DGTR; it is a BIS quality-standard order. The HSN code is guessed, and the dollar impact is unconfirmed. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- **"FY30 savings trajectory of $5.0bn (Tier 1) + $0.9bn (Tier 3) = $5.9bn total"** — The Tier 2/2.5 figures (ethylene, propylene, polyethylene, lecithin) were retracted due to incorrect HSN code bases, but the article still aggregates the remaining tiers without clarifying the exclusion of retracted data. This creates a misleading "base case" total. [confidence: high]
+- **"BPCL AP EC delay → 6-12 month delay → FY29 commissioning → $200-300mn FY30 savings deferred to FY31"** — While the timeline is plausible, the $200-300mn figure is extrapolated from the ₹1.45L cr capex without linking it to specific cost overruns or lost savings. The causal link between delay and dollar impact lacks granularity (e.g., financing costs, opportunity costs). [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- **"FY30 target of $8.3–9.8bn"** — Retracted in the correction notice (4 Aug 2026) due to incorrect import substitution bases. No newer official release superseding this is cited, but the article directs readers to "from-scratch exercise" against corrected data. [confidence: high]
+- **"BPCL AP capex budget revised up to ₹1,45,000 cr (from ₹1L cr, Sep 2026)"** — While the revision is noted, the source is a press statement (BPCL CMD to AP CM, 16 Sep 2026) rather than a formal government or company disclosure. For official verification, cross-check with **BPCL’s SEBI filings** or **MoC&F’s project tracking portal**. [confidence: medium]

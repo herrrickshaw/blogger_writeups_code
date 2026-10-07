@@ -7,25 +7,30 @@
 
 Source: `posts/every-india-europe-tech-agreement-pib.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `13437ac236f95c4b`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini network error: The read operation timed out]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "President Macron's official visit to India ran 17–19 February 2026" — The date is incorrect; the article itself later states the visit ran from 17–19 February 2026, which is a contradiction. [confidence: high]
-
-- "Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026" — The date is inconsistent with the article's earlier claim that the Netherlands agreement was signed in 2026 (without specifying May). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "India's flagship Europe-wide channel is the India-EU Trade and Technology Council, launched February 2023 — but it sits on top of eight older bilateral tracks, not in place of them." — While the TTC is indeed a newer mechanism, the phrasing "sits on top of" implies a hierarchical or superior relationship that may not be supported by the evidence. The article does not demonstrate that the TTC supersedes or integrates the bilateral agreements; they may operate independently. [confidence: medium]
+- none found
 
-- "a country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing." — This interpretation assumes that the number of press releases correlates with the volume or significance of investments, but the article does not provide evidence or data to support this causal claim. The number of press releases could reflect other factors (e.g., diplomatic priorities, media strategy). [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Germany got there first. The Indo-German Science & Technology Centre has funded joint projects since 2010"* — The claim that the **Indo-German Science & Technology Centre (IGSTC) was established in 2010** is **incorrect**. The PIB release cited (relid=138007) states the **IGSTC was established in 2011**, not 2010. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"Every country with five press releases has not necessarily invested more than a country with one — it has simply had more visits worth announcing."* — This **misrepresents the relationship between press releases and actual investment**. While volume of announcements may reflect diplomatic activity, it **does not account for the substance, funding, or implementation** of agreements. A single high-value MoU (e.g., a semiconductor supply-chain pact) could dwarf multiple low-impact statements, yet the article treats them as comparable. [confidence: high]
+
+**OUTDATED DATA:**
+- *"Netherlands | Semiconductor MoU (part of multi-country set) | PM visit, May 2026"* — The claim is **likely outdated**. As of August 2026, the PIB release (PRID=2263796) is dated **May 2026**, but the article was published on **23 August 2026**. While the event itself is recent, the **latest official updates** (e.g., follow-up implementation reports or revised MoU details) may exist in newer PIB releases or Ministry of External Affairs communications. Re-check: **PIB.gov.in press releases (post-May 2026)**. [confidence: medium]
+
+*(Note: The France visit claims about the AI Working Group and ISRO-CNES pact are correctly flagged as "unconfirmed," not factual errors.)*

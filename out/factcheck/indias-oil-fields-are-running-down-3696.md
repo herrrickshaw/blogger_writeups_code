@@ -7,28 +7,40 @@
 
 Source: `posts/indias-oil-fields-are-running-down-3696.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `c4f4e08e7dc74d0f`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "36.96 to 28.70 MMT in a Decade" — The article claims a decline from 36.96 MMT in 2015-16 to 28.70 MMT in 2024-25, but the table shows 37.45 MMT in 2014-15 and 36.96 MMT in 2015-16. The decade-long decline is incorrectly framed as starting from 2015-16 rather than 2014-15. [confidence: high]
-
-- "43.4% Of all crude now comes from one basin — Mumbai Offshore" — The table shows Mumbai Offshore production at 12.471 MMT out of 28.70 MMT total crude in 2024-25, which is 43.45%. However, the article rounds this to 43.4%, which is technically correct but misleadingly precise given the source data's granularity. [confidence: medium]
+- none found [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Gas has held up — but only because private deepwater replaced the state fields that were shrinking underneath it." — While the article correctly notes that PSC gas production increased due to deepwater KG basin fields, it implies this replacement was a net positive for overall gas output. However, the article later states that gas production "turned down this year" (2024-25), falling 0.9% against 2023-24. The framing suggests the deepwater contribution fully offset declines elsewhere, but the recent decline contradicts this interpretation. [confidence: high]
+- "Domestic fields supplied 28.70 MMT — about 11% of throughput... India makes roughly one litre in eight of what it burns." — The text confuses two different denominators when describing self-sufficiency and refinery reliance. Refinery throughput (267.5 MMT) includes crude processed for export products (64.7 MMT of product exports), meaning comparing domestic crude production (28.70 MMT) directly to total refinery throughput to calculate "what India makes of what it burns" creates an apples-to-oranges comparison that distorts domestic product self-sufficiency. [confidence: high]
 
-- "The usual framing — tired public-sector fields versus dynamic private operators — does not survive the table. Both are depleting. The difference is that PSC oil started smaller and fell harder." — The article correctly notes that both ONGC/OIL nomination fields and PSC fields declined, but it misinterprets the implication. The framing "tired public-sector vs dynamic private" is not invalidated by both declining; rather, it highlights that private operators' fields declined *faster*, which is consistent with the framing. The article incorrectly suggests the framing is disproven. [confidence: high]
+OUTDATED DATA:
+- none found [confidence: high]
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India's crude oil production is running down 36.96 to 28.70 MMT in a decade, and the targets have stopped meaning anything"* — The claim conflates **total crude production (28.70 MMT in 2024-25)** with **refined petroleum product self-sufficiency (11.8%)**, which are distinct metrics. The article later clarifies that only **~11% of domestic consumption** is met from indigenous crude, not the production figure itself. The "targets" critique is valid, but the headline framing misrepresents the scale of dependency. [confidence: high]
+
+- *"Gas production fell 0.9% against 2023-24 and achieved only 91.0% of the 39.67 BCM target"* — The **91.0% achievement rate** is correct, but the **0.9% decline** is misleading because it omits the **baseline effect**: 2023-24 gas production was **36.44 BCM** (not 39.67 BCM, which is the *target*). The actual year-on-year change is a **~5.7% drop** (36.11 vs. 36.44 BCM). [confidence: high]
+
+---
+**INTERPRETATION ERRORS:**
+- *"The private deepwater blocks in the Krishna Godavari basin replaced the state fields that were shrinking"* — While **PSC gas production rose from 7.84 BCM (2015-16) to 13.38 BCM (2024-25)**, this does **not** offset the **total oil decline** (which fell from 36.96 MMT to 28.70 MMT). The article later admits PSC oil **declined faster (42%) than ONGC’s nomination oil (17%)**, so the "replacement" claim applies only to **gas**, not oil. Extending it to total production is an **apples-to-oranges comparison**. [confidence: high]
+
+- *"The targets have stopped being a forecast and become an aspiration"* — While the **systematic undershooting (6–13% shortfall)** suggests targets are unrealistic, the article does not prove they were ever **intended as forecasts**. Targets could be **political benchmarks** (e.g., to justify policy action) rather than data-driven projections. The claim assumes malfeasance without evidence. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"India's crude oil production: 36.96 MMT (2015-16) to 28.70 MMT (2024-25)"* — **DGH’s *India’s Hydrocarbon Outlook 2024-25*** is the source, but **PPAC’s *Snapshot of India’s Oil & Gas Data (March 2025)*** likely contains **revised 2024-25 figures** (marked provisional). For **2025-26**, check:
+  - **PPAC’s *Flash Report on Oil & Gas (July 2026)*** for finalized 2024-25 data and 2025-26 projections.
+  - **DGH’s *2025-26 Outlook*** (if published) for updated trends. [confidence: high]
+
+- *"Petroleum products self-sufficiency: 11.8% (FY2024-25)"* — PPAC’s **March 2025 Snapshot** is cited, but **PPAC’s *Flash Report (July 2026)*** may include **quarterly 2025-26 data** (e.g., March 2025’s 10.9% figure suggests volatility). For **real-time dependency**, cross-check with:
+  - **PPAC’s *Monthly Oil & Gas Statistics*** (latest release).
+  - **Ministry of Petroleum’s *Annual Reports*** for fiscal year closures. [confidence: high]

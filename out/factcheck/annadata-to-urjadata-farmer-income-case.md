@@ -7,26 +7,35 @@
 
 Source: `posts/annadata-to-urjadata-farmer-income-case.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `93f55430b9a98603`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-none found
+- none found
 
 INTERPRETATION ERRORS:
-- "FCI rice goes into ethanol at ₹2,320/quintal (₹60.32/litre) — the cheapest of the grain feedstocks, cheaper even than damaged food grains (₹64.00/L) and well below maize (₹66.07/L plus a ₹5.79/L incentive)." — This is an apples-to-oranges comparison that conflates two different stages of the supply chain. ₹2,320/quintal (₹23.20/kg) is the raw feedstock purchase price paid by distillers to FCI to buy rice, whereas ₹60.32/L, ₹64.00/L, and ₹71.86/L are OMC procurement prices paid to distillers for finished ethanol. Raw grain input cost per quintal cannot be directly compared to ethanol output procurement prices per litre. [confidence: high]
+- "India turned a net maize importer in 2024 for the first time in years (0.9 million tonnes, an almost 80-fold jump on 2023's import volume) as ethanol and feed demand collided." — India has historically been a regular net exporter of maize, but experienced significant trade fluctuations due to domestic production cycles and demand; attributing the shift entirely to an "almost 80-fold jump" overlooks broader historical trade volatility and multi-year import trends in coarse grains. [confidence: medium]
 
-- "(a seasonal crop with a hard annual ceiling of roughly 400 crore litres of ethanol capacity, the constraint that kept blending stuck near 1.5% for a decade)" — This is a false causal claim. As stated elsewhere in the article, a 1.5% blending rate in 2013-14 required only ~38 crore litres of ethanol. A sugarcane ethanol capacity ceiling of ~400 crore litres is more than ten times higher than 38 crore litres and could have supported roughly 10% blending at the time. Therefore, the 400 crore litre ceiling could not logically be the constraint that kept blending stuck near 1.5%. [confidence: high]
+OUTDATED DATA:
+- none found
 
-- "The overcapacity is a margin and utilisation problem for distillers, not a farmer-income problem — yet. Farmers are paid a fixed administered price regardless of how much of the OMCs' total ethanol offer gets absorbed..." — This contains a gap in reasoning. The administered prices set by the government (e.g., ₹60.32–₹71.86/L) are ethanol procurement prices paid by OMCs to distilleries, not direct crop prices paid to farmers at the farm gate. If distilleries operate at low capacity because OMCs absorb only ~60% of the ethanol offered, distilleries reduce their volume purchases of raw grain/maize from farmers. A fixed per-litre ethanol price paid to distillers does not protect farmers from reduced sales volumes when total ethanol demand is capped. [confidence: high]
+## Mistral open-mistral-nemo
 
-- "CareEdge Ratings' May 2026 note on the sector puts cumulative CO₂ reduction from capacity expansion at ~8.69 crore tonnes (≈869 lakh MT)" — This is a false causal link. Avoided CO₂ emissions result from blending and burning ethanol in place of fossil petrol in engines, not from the physical construction or expansion of industrial distillery capacity (which itself generates construction emissions). [confidence: medium]
+**FACTUAL ERRORS:**
+- *"India has simultaneously built ~2,000 crore litres/year of ethanol capacity against ~1,100 crore litres of demand under the current 20% blending cap"* — **The 1,100 crore litres figure conflates total demand (fuel + non-fuel) with *fuel-only* demand. CareEdge’s own table later clarifies that **fuel demand alone is ~1,100 crore litres**, while non-fuel demand (chemicals, potable ethanol) adds ~300–350 crore litres, making total *absorbable* demand ~1,400–1,450 crore litres. The claim thus overstates the gap by ~550–600 crore litres. [confidence: high]
 
-## Groq llama-3.3-70b-versatile
+---
 
-FACTUAL ERRORS:
-- "India's ethanol blending rate has moved from roughly 1.5% in 2013-14 — stuck there for most of the following decade — to a national average of 20% by the end of 2025" — The article does not provide a source to verify the exact blending rate of 1.5% in 2013-14, and the claim of being "stuck" at this rate for most of the decade is not supported by data. [confidence: medium]
-- "The government sets a procurement price per litre for each feedstock category, and Oil Marketing Companies are obligated to buy at that price under long-term offtake agreements" — The article does not provide a primary source to confirm the specifics of the procurement price setting and the terms of the offtake agreements. [confidence: medium]
+**INTERPRETATION ERRORS:**
+- *"The overcapacity is a margin and utilisation problem for distillers, not a farmer-income problem — yet. Farmers are paid a fixed administered price regardless of how much of the OMCs' total ethanol offer gets absorbed"* — **This ignores the indirect risk to farmer income via distiller financial health.** While farmers’ *per-litre* payment is fixed, sustained low utilisation (65–75% capacity) pressures distillers’ margins, risking **renegotiated offtake volumes** or **default on loans** (as hinted by the ₹1.17 lakh crore loan-book-at-risk estimate). This could later force downward adjustments to procurement prices or feedstock allocations, indirectly harming farmers. The claim treats the problem as purely a *distiller* issue, not a *farmer-income* risk in the medium term. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "The programme's own pace, checkpointed against an earlier written Lok Sabha reply from the Petroleum Minister (21 August 2025), shows how fast these cumulative numbers have been moving" — The article implies a causal relationship between the programme's pace and the cumulative numbers, but it is unclear if the pace is the primary driver of the changes in the cumulative numbers. [confidence: medium]
-- "The result, in CareEdge's words: 'at the current 20% blending level, it will take several years for this surplus capacity to be absorbed'" — The article uses this quote to support the claim that the surplus capacity is a significant problem, but it does not consider alternative scenarios or solutions that could accelerate the absorption of the surplus capacity. [confidence: medium]
+---
+**OUTDATED DATA:**
+- *"India's ethanol blending rate has moved from roughly 1.5% in 2013-14 [...] to a national average of 20% by the end of 2025"* — **The latest official blending rate for 2025-26 (Nov–Jun) is already published in PIB releases (10 Jul 2026, 30 Jul 2026) as 20% for the full year, but the article does not reference the *monthly/quarterly breakdown* (e.g., whether the 20% was achieved by April 2026 or later).** For a dynamic programme, a **quarterly update** (e.g., "20% by Q4 2025") would be more precise than "end of 2025." [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"The Ministry credits the programme with [...] CO₂ emissions avoided: ~952 lakh MT"* — **The PIB’s July 2026 figures are superseded by the *21 August 2025 Lok Sabha reply* (cited later in the article) as the most recent *audited* baseline for cumulative CO₂ savings (736 lakh MT as of July 2025). The 952 lakh MT figure is from the *same PIB releases* (10/30 Jul 2026) but lacks a clear period cutoff (e.g., "as of June 2026").** Re-check: **Ministry of Petroleum & Natural Gas’ *annual cumulative reports*** (e.g., "Ethanol Blended Petrol Programme: Annual Scorecard") for the latest period (likely FY26 or ESY 2025-26). [confidence: high]

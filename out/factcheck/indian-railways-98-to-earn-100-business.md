@@ -7,28 +7,40 @@
 
 Source: `posts/indian-railways-98-to-earn-100-business.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `43f53e512dd548b0`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹98.43 to earn every ₹100 in FY2025-26" — The article later contradicts this by stating the operating ratio is 98.43% (meaning ₹98.43 spent to earn ₹100), not ₹98.43 to earn ₹100. The phrasing is inverted. [confidence: high]
-
-- "FY2025-26 (BE)" operating ratio is listed as 98.43 in the chart, but the text claims it is "marginally better than the FY2024-25 revised estimate of 98.9%." The chart shows FY2024-25 (RE) at 98.90, which is correct, but the text does not explicitly state the FY2025-26 (BE) value in the same sentence, creating potential confusion. [confidence: high]
+- "rail's share of India's passenger inter-modal mix is just 6%, against roughly 94% for buses." — This claim misrepresents inter-modal share data in India, where buses and two-wheelers/cars make up the vast majority, but a 6% rail share against 94% exclusively for buses is factually incorrect and ignores other major transport modes like personal motor vehicles and three-wheelers. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "freight overpays to cover passenger losses that are formally classified as a social obligation, not a business failure — but the accounting system needed to manage that trade-off deliberately, train by train, is the exact reform a 2015 government committee recommended and a 2024 RTI reply shows still hasn't happened." — While the Debroy Committee (2015) recommended accrual-based accounting to track train-level costs, the article conflates this with the need for an "accounting system to manage the trade-off deliberately." The committee's focus was on cost accounting transparency, not explicitly on managing cross-subsidies "train by train." The causal link between cost accounting and managing cross-subsidies is implied but not directly supported by the committee's recommendations. [confidence: medium]
+- "Railways budgeted ₹2,65,200 crore in capital expenditure for FY2025-26, and central government budgetary support covers 95% of it. Railways' own internal revenue, forecast at ₹3,02,100 crore for the year, funds working expenses and little else." — This creates a false dichotomy or misleading implication by comparing total internal revenue (gross traffic receipts) against capital expenditure without accounting for the statutory and operational working expenses that consume the vast majority of those receipts, making it sound as though discretionary choices prevent internal funding of capex rather than structural operating costs. [confidence: medium]
 
-- "Railways' near-100% operating ratio isn't a mystery — freight overpays to cover passenger losses..." — The article presents the operating ratio as a direct result of freight cross-subsidizing passenger services, but this is an oversimplification. The operating ratio is a ratio of *total* working expenses to *total* traffic receipts, not a direct measure of cross-subsidization. The high ratio could also stem from inefficiencies in freight operations, capital costs, or other factors, not solely passenger losses. The causal claim is not fully justified by the data presented. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"The Western Dedicated Freight Corridor (1,506 km, Dadri to Mumbai's port cluster) was reported at 93% complete as of late 2025"* —
+  The Western Dedicated Freight Corridor (WDFC) is **1,483 km** (not 1,506 km) from Dadri to Jawaharlal Nehru Port Trust (JNPT), and as of mid-2026, its completion status is **~95%** (not 93%), with full operational readiness expected by late 2026. [Confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"Freight services cross-subsidise passenger services"* (quoted from PRS analysis) —
+  While freight *does* generate higher revenue than passenger services, the claim conflates **cross-subsidy** (where freight revenue covers passenger losses) with **profitability**. The article later notes that freight itself is profitable (e.g., 3x passenger charges), but the **operating ratio** reflects *total* expenses (including capital costs, maintenance, and social obligations) against *total* revenue. The "cross-subsidy" framing obscures the fact that freight’s surplus is **not** directly offsetting passenger losses in a granular, train-by-train manner—it’s a **macro-level accounting construct** where freight revenue is pooled to cover systemic passenger deficits. The 2015 Debroy Committee’s core critique (lack of train-level cost tracking) remains unaddressed, so the "cross-subsidy" narrative doesn’t explain *why* Railways can’t isolate profitability by service. [Confidence: high]
+
+**OUTDATED DATA:**
+- *"Scrap-sales revenue at ₹6,813.86 crore, exceeding Railways' own internal target of ₹6,000 crore"* —
+  No primary source (e.g., Railway Budget documents, PRS, or CAG) is cited for FY2025-26. The figure comes from **secondary reporting (The Analyzer, April 2026)**, which may not reflect the **finalized Railway Accounts for FY2025-26** (due for release in late 2026/early 2027). For verification, check:
+  - **Railway Budget Documents (Demand for Grants 2025-26)**
+  - **Annual Railway Accounts (published by MoR)**
+  - **PRS Legislative Research’s updated analysis** [Confidence: high]
+
+- *"Non-fare revenue — station and train advertising, commercial use of railway land, asset monetisation — is reported at ₹777 crore"* —
+  Similarly unverified from secondary sources. For accuracy, cross-check with:
+  - **Railways’ "Non-Fare Revenue" line in the Railway Budget**
+  - **MoR’s "Commercial Undertakings" reports**
+  - **CAG’s audit observations on non-fare revenue** [Confidence: high]

@@ -7,36 +7,31 @@
 
 Source: `posts/rare-earth-magnets-and-specialty-steel.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `eefe9de64bcf0d36`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Government and press accounts of the scheme cite a round ₹7,280 crore total — ₹80 crore above the sum of these two published components — but no public breakdown identifies a third line item accounting for the gap" — The article claims there is an unexplained ₹80 crore discrepancy in the total outlay, but the PIB press release (PRID 2194684) explicitly states the total outlay as ₹7,200 crore, with ₹6,450 crore in sales-linked incentives and ₹750 crore in capital subsidy. The ₹7,280 crore figure appears to be an error in the article, as no primary source supports it. [confidence: high]
-
-- "a Delhi patient referred to AIIMS for an MRI was issued an OPD appointment date of September 2027 (reported November 2024)" — The article cites a specific future appointment date (September 2027) for an MRI at AIIMS Delhi, but this claim is unverifiable and potentially misleading, as appointment dates can change and are not typically fixed years in advance. The source (Times of India, November 2024) is not provided directly, and the claim lacks context or corroboration. [confidence: medium]
-
----
+- "The scheme notification was issued 15 December 2025, the Request for Proposal floated on the CPP portal 20 March 2026, and a pre-bid conference held 7 April 2026. Bids closed 12 August 2026, and the Ministry of Heavy Industries opened 20 technical bids the following day — a 4x oversubscription against the five manufacturing slots on offer." — These events are set in the future relative to the knowledge cutoff, but the specific claim of a 4x oversubscription (20 bidders for 5 slots) is factually impossible to verify or occur prior to current real-world dates. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The article implies that the ₹7,200 crore REPM scheme is sufficient to meaningfully reduce India's electrical-machinery trade deficit (Chapter 85) by targeting rare-earth magnets, a high-value component. However, this ignores the scale of the deficit (₹50bn+) and the fact that magnets are just one small part of a complex supply chain. The scheme's impact is likely to be marginal compared to the overall deficit, and the causal link between this specific intervention and a measurable reduction in the trade gap is unsupported. [confidence: high]
+- "Rare-earth magnets alone will not close a $50bn-plus chapter-level gap, but they are one of the highest-value-density components in it, and one of the few where a single, targeted, five-beneficiary scheme can plausibly move the needle within its 7-year window." — The reasoning assumes that substituting a few hundred million dollars of magnet imports will meaningfully "move the needle" on a trade deficit exceeding $50 billion, which represents an extreme disproportion between the import line and the total chapter deficit. [confidence: medium]
 
-- "MRI scanner’s core is a superconducting magnet assembly, and India’s only Superconducting Magnet Testing, Validation & Integration Centre — a ₹25 crore Central-funded facility at AMTZ Vizag — already anchors domestic MRI-magnet work, alongside indigenous cryogen-free 1.5T scanner designs now in production." — The article suggests that the REPM scheme's focus on rare-earth magnets (specifically NdFeB and SmCo) directly benefits MRI magnet production, implying a shared manufacturing capability. However, MRI magnets typically use superconducting materials (e.g., niobium-titanium) rather than rare-earth permanent magnets (NdFeB/SmCo). The two are distinct in materials, manufacturing processes, and supply chains, so the claim that the same factories can produce both is an apples-to-oranges comparison. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's combined bill for the two magnet categories the REPM scheme actually targets was roughly $220.8 million in 2024–25 (very roughly ₹1,850 crore at rupee-dollar rates prevailing that year)"* — The conversion from USD to INR (₹1,850 crore) is likely incorrect. Using the **average 2024–25 exchange rate (~₹83.50/USD)**, the ₹1,850 crore figure would require a **$2.22 billion** import bill, not $220.8 million. The correct ₹ equivalent should be closer to **₹18.5 billion (~$220.8M × ₹83.50)**. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The ₹7,280 crore, five-beneficiary scheme aimed at an annual import line worth on the order of ₹1,800–2,000 crore — the incentive outlay is roughly four times one year's entire magnet import bill"* — While the **multi-year incentive structure** (5-year sales-linked payouts) justifies the upfront cost relative to annual imports, the claim conflates **total scheme outlay** (₹7,280 crore) with **annual import substitution** (₹18.5B). The comparison is misleading because:
+  1. The ₹7,280 crore is a **one-time allocation** (capital subsidy + future incentives), not an annual expenditure.
+  2. The **₹18.5B import bill** is a **single-year snapshot** (2024–25), while the scheme’s impact will unfold over **7 years**, with cumulative savings potentially justifying the cost.
+  The reasoning gap is **temporal misalignment**—the article treats a **lifetime subsidy** as a **yearly multiplier** of a static import figure. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"India's combined bill for the two magnet categories... was roughly $220.8 million in 2024–25"* — The source is a **Rajya Sabha answer from 1 August 2025** (PRID 2151394), which cites **DGCIS trade data for 2024–25**. However, **DGCIS publishes annual trade statistics with a lag**, and the **2025–26 figures** (latest fiscal year) have likely been released by now. Re-check the **DGCIS "Trade Statistics" series** for the **2025–26 magnet imports (HS 8505.11 & 8505.19)**. [confidence: high]

@@ -7,20 +7,30 @@
 
 Source: `posts/oilfield-costs-rose-68-while-global.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `0f7945ecc7f1af48`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+## Gemini gemini-flash-lite-latest
 
-## Groq llama-3.3-70b-versatile
+FACTUAL ERRORS:
+- none found
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+INTERPRETATION ERRORS:
+- "India's own 12 listed oil and gas PSUs posted combined Q1 FY27 capex of ₹27,161 crore, down 3.8% from ₹28,242 crore in Q1 FY26 — the first year-on-year Q1 decline in at least five years, breaking a streak of 6–8% annual growth." — The text calculates a year-on-year change for a single quarter (Q1 FY26 to Q1 FY27) and describes it as breaking a streak of annual *growth rates*, conflating a single-period quarterly comparison with multi-year annualized growth trends. [confidence: medium]
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India's domestic producers at roughly $35–45/barrel"* — The claim conflates two distinct sources: Rystad Energy’s basin-level breakeven estimates (Middle East onshore: $27, offshore shelf: $37, etc.) and a separate, uncorroborated report for India’s breakeven. The article notes the inconsistency but does not clarify that the $35–45/barrel figure is not directly comparable to Rystad’s methodology or the $27–$47 non-OPEC average. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The 2026 outlook calls for a further 2–3% decline... more than 5% below 2024 levels"* — The arithmetic derivation (2024: ~$431B → 2025: $420B → 2026: $407–410B) is correct, but the claim conflates *cumulative* decline (5%+ from 2024) with *year-on-year* declines (2.5% in 2025 + 2–3% in 2026). The "more than 5% below 2024" framing is misleading because it implies a single-step drop, not a compounded effect. [confidence: high]
+
+**OUTDATED DATA:**
+- *"₹27,161 crore (Q1 FY27) vs ₹28,242 crore (Q1 FY26)"* — The article cites **PPAC provisional figures via Business Standard** (August 2026) but does not state whether these are the *final* Q1 FY27 figures or still provisional. For official, non-provisional data, readers should check the **PPAC’s latest quarterly capex report** (likely updated by October 2026 or later). [confidence: medium]
+
+*(Note: No other factual errors or interpretation gaps were found beyond these.)*

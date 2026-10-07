@@ -7,34 +7,33 @@
 
 Source: `posts/the-balkan-relish-india-already-has.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `66a5249cd9e2a04c`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "A 20 August 2026" — The date is in the future relative to the current date (2025), making it unverifiable and likely incorrect. [confidence: high]
-
-- "India's eggplant/brinjal production figures (national volume, global rank, and state-wise shares) per Statista's India eggplant production data" — While the article cites Statista, the claim that India is the "world's second-largest producer after China" is not explicitly verified in the provided text or sources. The global rank should be confirmed with FAO or another authoritative source. [confidence: medium]
+- "India-Serbia trade in 2025 was €425.2 million, of which only €21.9 million was Serbia's exports to India (the remaining €403.3 million ran the other way, India exporting to Serbia)" — Bilateral trade figures for 2025 and presidential visits referenced in the article are chronologically impossible as they describe events in 2025 and July 2026, which occur after the training data cutoff. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "The gap between what Byadagi's cluster already does and what an ajvar line would need is technique-adjacent, not a leap into unfamiliar territory: roasting whole fresh peppers instead of soaking dried ones, adding eggplant to the blend, and packaging for a different flavour category." — While the processing techniques are similar, the article assumes that the existing Byadagi chilli industry's capabilities directly translate to ajvar production without addressing potential differences in quality control, flavor consistency, or market acceptance for a new product category. The claim conflates technical feasibility with commercial viability. [confidence: high]
+- "India already produces both in industrially relevant volumes. Capsicum cultivation in India covered roughly 39,710 hectares in 2023-24 and yielded around 626.65 kilotonnes... Eggplant is an even bigger story: India is the world's second-largest producer... at roughly 12.6–12.8 million tonnes" — The author equates total national production of all bell peppers/capsicum and eggplants with availability for an industrial ajvar process, ignoring that the vast majority of these crops are consumed fresh, sold through traditional wet markets, or utilized for other culinary purposes, making total production an invalid proxy for industrial processing supply without accounting for existing commercial diversion rates. [confidence: high]
 
-- "The honest framing, then, is not 'there's a large ajvar import market to substitute' — there isn't, because the specialty-import channel by its nature stays small." — The article correctly notes that the import market is small, but it extrapolates this to mean there is no opportunity for domestic production. However, the growth of the chutney-and-relish category (10.68% CAGR) suggests a potential market for a domestically produced, price-competitive alternative, even if import substitution is limited. The conclusion dismisses a plausible domestic market opportunity based on import data alone. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India already grows the two vegetables ajvar is made from at industrial scale"* — The article does not provide evidence that India’s capsicum or eggplant production is *ajvar-specific* (i.e., cultivated for ajvar’s exact requirements, such as sweet red bell peppers of a particular variety or size). The figures cited (e.g., 626.65 kt of capsicum) are for *total* production, not ajvar-grade inputs. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The missing piece isn’t agronomy, technique, or classification — it’s that nobody has actually built the plant yet"* — While true, this oversimplifies the barriers. The claim conflates *technical feasibility* (which the article acknowledges exists via Byadagi chilli processing) with *commercial viability*. Key gaps include:
+  1. **No evidence of demand**: The article admits the import market is tiny (under €22M/year for Serbia alone) and niche (specialty grocers), with no data on Indian retail price sensitivity or mass-market adoption.
+  2. **Unresolved regulatory ambiguity**: The HSN/GST classification for ajvar-style products is explicitly called "genuinely ambiguous" in the text, yet the article treats it as a minor hurdle rather than a potential dealbreaker for manufacturers.
+  3. **Supply chain misalignment**: The article assumes local sourcing is straightforward, but no data is provided on post-harvest losses, storage infrastructure for fresh peppers/eggplant, or logistical bottlenecks in pepper-growing states (e.g., Karnataka’s greenhouse capsicum vs. ajvar’s need for fresh, sweet varieties).
+  The reasoning gap is treating *capability* (existing infrastructure/tech) as equivalent to *market readiness* without addressing these critical gaps. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"India-Serbia trade in 2025 was €425.2 million"* — The article cites 2025 data but was published in **August 2026**. For precision, the reader should cross-check with the **latest India-Serbia trade figures** (e.g., from [DGFT](https://dgft.gov.in/) or [Serbian MoFA](https://www.mfa.gov.rs/)) for 2026 or Q1 2027. [confidence: high]
+- *"India’s eggplant production: ~12.6–12.8 million tonnes a year"* — The article cites **Statista/DesiKheti** but does not specify the year. The **latest official source** (e.g., [FAOSTAT](http://www.fao.org/faostat/) or [MoA’s Horticulture Statistics](https://horticulture.gov.in/)) should be checked for FY2025–26 or 2026–27 data. [confidence: high]

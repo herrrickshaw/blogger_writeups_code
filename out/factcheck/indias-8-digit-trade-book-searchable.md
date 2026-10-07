@@ -7,28 +7,34 @@
 
 Source: `posts/indias-8-digit-trade-book-searchable.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `95cdf97b70f1bd66`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Trade value on codes absent nine years earlier" — The article claims that 31.8% of FY2025-26 export value sits on codes that did not exist in FY2017-18, and about 39% on the import side. However, the article later states these figures are from an "independent audit of this dataset carried out for this blog," not directly from the DGCI&S TradeStat EIDB source. Without verification from the primary source, these percentages cannot be confirmed as factual. [confidence: medium]
-
-- "The export series has no FY2021-22" — The article states that the export series lacks data for FY2021-22, but it does not provide a citation or confirmation from the DGCI&S TradeStat EIDB portal. This claim is unverified and could be incorrect. [confidence: low]
+- none found
 
 INTERPRETATION ERRORS:
-- "Renumbering, not trade collapse: HS8 codes churn by a third; HS4 headings barely move." — The article uses the high percentage of trade value on new HS8 codes (31.8% exports, 39% imports) to argue that the churn is due to renumbering rather than trade collapse. However, this interpretation assumes that all new codes are solely due to renumbering and not also due to new products entering trade or shifts in classification. The claim does not account for the possibility that some of the "new" codes could represent genuine new trade flows or reclassifications unrelated to renumbering. [confidence: high]
+- none found
 
-- "Aggregating 8-digit codes up to the 4-digit HS heading removes almost all the churn" — The article suggests that aggregating to HS4 headings reduces churn to under 1%, implying that HS8-level churn is primarily due to classification changes rather than actual trade dynamics. However, this interpretation may overlook the fact that HS4 headings can also undergo revisions or reclassifications, albeit less frequently. The claim assumes that HS4 headings are static and unaffected by changes, which may not be entirely accurate. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India’s biggest import line and the least usable series in the file: crude petroleum (27090010), flagged both RECODED and UNIT"* — The claim that crude petroleum is "the least usable series" is misleading because the **unit switch flag (UNIT)** is applied only to codes with >300× implied unit-value jumps (e.g., tonnes→kg). Crude petroleum’s unit-value change (316.1 → 0.5 $/kg) is explicitly cited as a **tonnes-to-kilogrammes switch**, which the article itself acknowledges as a **known nomenclature issue** (not a data error). The "least usable" label conflates a **documented data-quality flag** with a factual claim about usability. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"31.8 per cent of 2025-26 export value sits on codes that did not exist in 2017-18"* — This **overstates churn** because it ignores that **some "new" codes** are simply **renumbered versions of existing products** (e.g., smartphones under 71023910). The article later clarifies that **aggregating to HS4 headings reduces churn to <1%**, implying the 31.8% figure **double-counts structural changes** (retirements + renumberings) without distinguishing between them. [confidence: high]
+
+- *"The export series has no FY2021-22; that gap is drawn as a break, not interpolated"* — While true, this **misleads readers** into assuming the gap is due to **missing data**, when the article later notes it’s likely a **publication delay** (not a data omission). The phrasing risks implying **FY2021-22 trade data is unavailable**, which contradicts the later caveat about **provisional FY2025-26 data**. [confidence: medium]
+
+**OUTDATED DATA:**
+- *"Source: DGCI&S TradeStat EIDB, FY2017-18–FY2025-26"* — The article cites **provisional FY2025-26 data** but does not clarify whether **FY2024-25 has been finalized** (as of August 2026). The **latest official TradeStat release** may include revised FY2024-25 figures. [confidence: medium]
+  *(Series to re-check: DGCI&S TradeStat EIDB; newer period: FY2024-25 finalized data if available.)*
+
+---
+**Note:** The article’s **data-quality flags** (RECODED, UNIT, RETIRED) are **correctly applied** and not flagged as errors. The issues above stem from **claims that stretch beyond the data’s limitations** or **ambiguous phrasing**.

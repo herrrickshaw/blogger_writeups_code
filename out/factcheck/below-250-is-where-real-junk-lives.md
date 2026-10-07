@@ -7,36 +7,34 @@
 
 Source: `posts/below-250-is-where-real-junk-lives.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `8d2d10d7df5bc1e5`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "3.5 years of weekly local NSE price data (2 January 2023 to 7 August 2026)" (and "Screener.in company data, 11 Aug 2026") — The end date of August 2026 is in the future and cannot represent real, historical market trading data. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "Screener.in's own reported return and profit-growth fields, for the full population in each sub-band rather than a sample, tell the same story independently of the beta/Sharpe calculation above... This isn't a quirk of one calculation method — the equal-weighted portfolio series, the per-stock median beta, and Screener's own raw return field all point the same direction." — The author claims that the full-population return data and the portfolio calculations "point the same direction," but they yield opposing results for the bottom band: the ₹0–250 equal-weighted portfolio in Section 2 generated a positive return (+14.6% p.a.), whereas the median stock in Section 3 lost money (-17.7%). Section 2 evaluates a survivorship-biased sample of only 1,086 continuous-history stocks out of 3,850, making it improper to claim both datasets demonstrate the same trend. [confidence: high]
+- "The median stock priced under ₹250 lost 17.7% over the trailing year; every sub-band above it posted a positive median return. This isn't a quirk of one calculation method — the equal-weighted portfolio series, the per-stock median beta, and Screener's own raw return field all point the same direction." — The author equates a per-stock median 1-year return (which measures the cross-sectional median of individual stock price changes) with an equal-weighted portfolio return. These are mathematically distinct metrics; a collection of stocks can have a negative median individual return while an equal-weighted portfolio of the same stocks can yield a positive return due to asymmetric upside outliers. [confidence: high]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "A Slice of Apple Costs About ₹1,700. A Slice of MRF Still Isn't Legal." is mentioned as a related article, but without more context, it's unclear if the title is accurate or up-to-date regarding the price of a slice of Apple or the legal status of an MRF slice — [confidence: medium]
-- "Nifty 50 benchmark series and risk-free proxy sourced via Yahoo Finance, cross-checked against Screener.in's Nifty 50 index page" implies that the data sources are current and accurate as of the article's writing, but without access to the specific data or versions used, it's hard to verify the claim of cross-checking — [confidence: low]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- The article concludes that "price under roughly ₹250 in the Indian market is doing something a ₹1,000-wide bucket further up isn't: it's acting as a rough, imperfect proxy for genuinely tiny, illiquid, largely unproven companies" based on the collapse in median market cap, but this interpretation assumes that market capitalization and liquidity are the primary drivers of risk in this context without considering other potential factors — [confidence: medium]
-- The statement "A saver drawn to 'cheap' stocks specifically because they're cheap, without checking whether ₹250 is doing a lot of quiet work in that selection, was buying into the worst-performing, highest-risk corner of the entire market covered across both pieces" extrapolates the findings to individual investor behavior without direct evidence that investors are making decisions based solely on stock price — [confidence: medium]
+**FACTUAL ERRORS:**
+- *"Median 1-year return by price sub-band, stocks under ₹1,000 (NSE/BSE) ... ₹0–250: −17.7%"*
+  — The claim that **3,850 of the 4,862 stocks under ₹1,000 (79%)** are in the ₹0–250 band is **plausible but contradicts the earlier sentence** ("4,900 stocks with wildly different profiles inside one label"), which suggests the total under ₹1,000 was **4,900**, not 4,862. The discrepancy (4,900 vs. 4,862) is minor but inconsistent. [confidence: medium]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- *"Beta falls from 1.28 to roughly 1.08–1.12 as price rises through the sub-bands; annualised volatility falls from 24.4% to about 19–20%; and the Sharpe ratio climbs steadily from 0.33 to 1.32."*
+  — The **causal claim that "price itself still isn’t the risk factor—market capitalisation and liquidity are"** is **correct**, but the **monotonic gradient in beta/volatility across price bands** (e.g., ₹0–250 having the highest beta) **implies price *does* proxy for risk in this subset**, which contradicts the earlier assertion. The article conflates **price as a *correlate*** (not a *cause*) of risk in this specific sub-₹1,000 segment, where tiny market caps dominate. [confidence: high]
 
-FACTUAL ERRORS:
-- "3.5 years of weekly local NSE price data (2 January 2023 to 7 August 2026)" — The date range is incorrect as it spans 3 years and 7 months, not 3.5 years. [confidence: high]
+**OUTDATED DATA:**
+- *"Median trailing 1-year return by price sub-band ... (Screener.in data, cited 11 Aug 2026)"*
+  — The **11 Aug 2026 cutoff** is likely outdated for **real-time risk-adjusted metrics** (beta, Sharpe, volatility). For **NSE/BSE data**, check the **latest weekly OHLCV parquet files** (e.g., NSE’s [historical data portal](https://www.nseindia.com/)) or **Screener.in’s latest snapshot** (as of mid-2024, their data may have updated). [confidence: high]
 
-INTERPRETATION ERRORS:
-- "Price itself still isn't the risk factor — market capitalisation and liquidity are, and they happen to correlate tightly with price only at the very bottom of the market" — While the article correctly identifies market cap and liquidity as the underlying risk factors, it does not provide evidence or reasoning to support the claim that these factors "correlate tightly with price only at the very bottom of the market." The correlation between price and market cap is not demonstrated beyond the specific sub-₹250 band, and the article does not rule out similar correlations in higher price bands. [confidence: medium]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+*Note: No other factual or interpretation gaps were found beyond these.*

@@ -7,34 +7,32 @@
 
 Source: `posts/rin-red-and-cbio-what-indias-ethanol.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `e5245dc920fcd7bc`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹75.36 per tCO₂e, EU CBAM's first quarterly certificate price, April 2026" — The EU CBAM's first quarterly certificate price was actually €75.36 per tCO₂e, not ₹75.36. The article incorrectly converts the price to Indian Rupees without justification or source. [confidence: high]
-
-- "13 August 2026" (revision date) — The revision date is given as 13 August 2026, but the article references future events (e.g., "Kharif 2026-27 MSP is ₹2,410/quintal") that would not yet be known or verifiable as of that date. This suggests a typographical or logical error in the date. [confidence: high]
+- "The EU's Carbon Border Adjustment Mechanism entered its definitive, paying phase on 1 January 2026, with the first quarterly certificate price set on 7 April 2026 at €75.36 per tonne of CO₂e." — The definitive, financial (paying) phase of the EU CBAM is scheduled to begin on January 1, 2026, but the actual certificate pricing and surrender obligations do not commence until 2026; furthermore, the specific quarterly certificate pricing mechanism and the cited €75.36 figure do not correspond to verified historical data as of early 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "ethanol isn't one [of the 13 activities on India's Article 6.2 eligible list]" — The article claims ethanol is excluded from India's Article 6.2 list, but this is used to argue that India lacks a carbon-credit system for ethanol. However, the exclusion of ethanol from the list does not inherently prevent India from creating a domestic ethanol carbon-credit system outside the Article 6.2 framework. The reasoning conflates the absence of ethanol on the international list with a lack of domestic policy space or infrastructure. [confidence: high]
+- "Maize's Kharif 2026-27 MSP is ₹2,410/quintal, so the mandi average was trading below its own support price for most of this window — the open-market price a molasses-alternative, grain-based ethanol distiller actually pays is not guaranteed to sit above the floor CACP calculated with a 56% margin built in." — Comparing a national average modal mandi price (which fluctuates across hundreds of local markets during a specific three-week window) directly against the official Minimum Support Price to conclude that the market is trading below the support price creates a false equivalence; mandi modal prices often dip below MSP in specific localized post-harvest arrivals or across mixed quality grades without implying that overall procurement is failing or that the CACP floor is breached nationwide. [confidence: medium]
 
-- "A CBIO-style, exchange-traded, per-tonne instrument is a carbon price in the way CCTS credits currently are not" — The article asserts that a CBIO-style instrument would qualify as a carbon price under CBAM's Article 9, but this is not necessarily true. CBAM recognizes a "carbon price" as a tax, levy, or emissions trading system, not a tradable credit issued under a voluntary or compliance scheme. The claim extrapolates from the nature of CBIOs to their recognition under CBAM without verifying the specific criteria in CBAM's rules. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India has none of the three [carbon-credit systems], an ethanol-blending programme that already runs into how fast pump prices can politically move"* — The claim that India has "none of the three" systems is misleading. India does have a domestic **Carbon Credit Trading Scheme (CCTS)** and participates in **Article 6.2** mechanisms under the Paris Agreement, even if ethanol blending is not currently eligible under Article 6.2. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The volatility a CBIO-style credit would need to absorb"* (referring to mandi price swings for maize/rice vs. paddy) — The article conflates **price volatility** with **underlying supply-demand dynamics** without establishing causality. The 7–12% price jumps for maize/rice could reflect harvest timing, regional concentration (e.g., AP vs. UP maize spreads), or reporting artifacts (missing arrival quantities). Without longer-term data or quantity trends, the claim that this volatility "shows up" as a systemic issue for ethanol producers is an extrapolation. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"India's Article 6.2 eligible list was first notified on 17 February 2023 with fourteen categories"* — The original list was valid for **three years** (until 2026), and the article notes a **2025 revision** reducing it to 13 categories. However, the **three-year window has technically elapsed**, and no updated notification is cited. The status of ethanol eligibility remains **unconfirmed** post-2026. [confidence: high]
+  *(Series to re-check: MoEFCC’s **Article 6.2 eligible activities notification**; newer period: post-2026 revision if published.)*
+
+---
+**Note:** The mandi price data (Agmarknet, 23 Jul–11 Aug 2026) is **not outdated** but lacks contextual depth (e.g., quantity data), which the article itself flags as a caveat. No other outdated figures were found.

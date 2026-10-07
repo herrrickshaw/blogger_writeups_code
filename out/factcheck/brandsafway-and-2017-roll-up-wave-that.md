@@ -7,24 +7,28 @@
 
 Source: `posts/brandsafway-and-2017-roll-up-wave-that.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `355edb7dbb5a33db`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+## Gemini gemini-flash-lite-latest
 
-## Groq llama-3.3-70b-versatile
+FACTUAL ERRORS:
+- none found
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+INTERPRETATION ERRORS:
+- none found
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"Brand Energy & Infrastructure Services entered the deal as a portfolio company of Clayton, Dubilier & Rice, which had originally built the Brand platform starting with an acquisition around 2013 valued at roughly **$1.9 billion**"* — The claim that CD&R’s original 2013 acquisition of Brand was valued at **$1.9 billion** is unsupported by primary deal filings and relies solely on TKO Miller’s published account, which lacks independent verification. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The clearest evidence the BrandSafway thesis worked: on 30 September 2019, Brookfield Business Partners agreed to buy half of CD&R's stake in BrandSafway for about $1.3 billion in equity, valuing the company at roughly **$6.7 billion** (including about $3.8 billion of debt) — leaving Brookfield and CD&R each holding about 45%. **That is two years of growth and further bolt-on acquisitions on top of the 2017 merger, not a clean before/after of the merger alone, and is reported here as such.**"* — While the article acknowledges the $6.7B valuation includes post-2017 growth, it still **misleads by framing it as direct evidence of the 2017 merger’s value creation**, ignoring the intervening acquisitions and organic growth. The $6.7B figure alone cannot isolate the 2017 deal’s contribution. [confidence: high]
+
+**OUTDATED DATA:**
+- *"BrandSafway's current ownership by Brookfield Asset Management, referenced in passing, is from general market-player descriptions in trade sources and was **not independently re-verified for this piece's current-date accuracy**."* — The article cites Brookfield’s 2019 stake but does not confirm whether ownership has changed post-2026 (e.g., via further sales, secondary buyouts, or corporate restructuring). [confidence: medium]

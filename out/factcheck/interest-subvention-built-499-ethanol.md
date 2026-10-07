@@ -7,30 +7,28 @@
 
 Source: `posts/interest-subvention-built-499-ethanol.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `7798aed761196f5c`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "August 2026" in the article title and metadata — The article is dated 25 August 2026, but the content discusses events and schemes that are either historical or projected beyond this date (e.g., GOBARdhan's implementation window from FY2026-27 to FY2035-36, and the October 2026 target for HPCL's Bathinda plant). This creates a temporal inconsistency where the publication date precedes the implementation of key discussed policies. [confidence: high]
-
-- "₹5cr per 10 lakh litres of capacity" in the PM JI-VAN Yojana terms — The correct figure is "₹5 crore per 10 lakh litres of capacity" (as stated in the table), but the article later quotes "₹5cr per 10 lakh litres" without the "ore" suffix, which may imply a typographical or transcription error. However, the inconsistency is minor and does not affect the substantive claim about the grant cap. [confidence: medium]
-
----
+- none found
 
 INTERPRETATION ERRORS:
-- "The flagship result — a ₹984 crore refinery inaugurated by the Prime Minister — now sits 'barely even functioning,' according to the government's own petroleum ministry." — The article attributes the plant's failure to the incentive design (viability gap funding) without sufficient evidence that the incentive itself caused the operational failure. The cited reasons (hammer mill installation issues, dust buildup, and feedstock logistics) are operational and supply-chain problems, not directly tied to the capital grant mechanism. While the incentive may have enabled the project, it does not logically follow that the incentive design is the reason for the plant's underperformance. [confidence: high]
+- none found
 
-- "A ₹984 crore plant with an 80%-uncovered cost structure isn't a project a mid-sized private distillery can take on. A ₹150 crore grant only makes sense to an applicant who can already write the other ₹834 crore cheque — which is why the 2G scheme's real applicant pool was never 'the market,' it was four state-owned companies." — The article conflates the *applicant pool* with the *incentive's effectiveness*. While the grant structure limited applicants to well-capitalized firms, this does not inherently prove that the incentive was misaligned with the actual bottleneck (feedstock logistics). The narrow applicant pool could reflect the capital intensity of 2G plants, but the article does not demonstrate that a broader applicant pool would have solved the feedstock problem. The reasoning assumes that the incentive design caused the operational failure, rather than merely enabling it. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India ran two ethanol incentive experiments side by side, on similar timelines and comparable total outlays"* — The total outlays are **not comparable** (₹4,687 crore for 1G vs. ₹1,969.5 crore for 2G), and the schemes ran in overlapping but not identical periods (1G: 2018–2025; 2G: 2018–2024, later extended to 2028). The claim conflates timing and scale. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"The difference is not the money. It's what the incentive was actually designed to fix."* — This oversimplifies the causal link. While the schemes targeted different bottlenecks (capital cost vs. viability gaps), the **applicant pool** (private mills vs. state-owned firms) was also a structural determinant of outcomes, not just the incentive design. The article later acknowledges this but frames the distinction too narrowly. [confidence: high]
+
+**OUTDATED DATA:**
+- *"₹2,075 crore of the total outlay has actually been released to NABARD... with the government describing the amount as 'almost entirely utilised' (FY23–FY27)"* — No newer fiscal-year data is cited for FY27–FY28 or beyond. Re-check **NABARD’s annual reports** or **MoPNG’s latest budgetary disclosures** for updated release figures. [confidence: medium]

@@ -7,34 +7,30 @@
 
 Source: `posts/quarterly-reportage-4034-scheme.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `bd33c577c1501705`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
+## Gemini gemini-flash-lite-latest
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
-
-FACTUAL ERRORS:
-- "4,082 incentive-scheme announcements across 39 quarters (2017-01-02 → 2026-08-18)" — The date range is incorrect because 39 quarters from 2017-01-02 would end in 2026-06-30, not 2026-08-18. The article likely miscounted the quarters or misstated the end date. [confidence: high]
-
-- "151 of these rows are Cabinet or CCEA items" — The claim is unverifiable as no source or methodology is provided to confirm this count. The article does not explain how "Cabinet or CCEA items" were identified beyond the keyword mapping, which is acknowledged to be imperfect. [confidence: medium]
+FACTUAL ERROR:
+- "New Rajya Sabha chamber in the New Parliament building.jpg" — The image file name references the "New Parliament building," but the new parliament complex inaugurated in 2023 houses the Lok Sabha and Rajya Sabha in different themed chambers (Lok Sabha is peacock-themed, Rajya Sabha is lotus-themed), and standard Wikimedia naming for the new complex uses specific nomenclature; however, more notably, the text mentions dates extending to 2026-08-26 while describing events and building features that fall outside verified retrospective timelines for the author's stated publication construct. [confidence: low]
 
 INTERPRETATION ERRORS:
-- "A release qualifies as an announcement here if its title matches the scheme-keyword map, or if it is a Cabinet/CCEA approval carrying incentive language." — The claim conflates two different types of announcements (scheme-keyword matches and Cabinet/CCEA approvals) without clarifying whether these are mutually exclusive or overlapping. This could lead to double-counting of announcements that appear in both categories, inflating the total number. [confidence: high]
+- "Every line links to the original release by PRID (the PIB press-release ID)... Mapping is by keyword against release titles, so it will miss a scheme referred to obliquely and it cannot tell an approval from a progress report — a Parliament answer about PM E-DRIVE and the Cabinet decision creating it look alike here." — The author uses keyword-mapped PIB release titles to track "incentive-scheme announcements" while openly admitting the methodology cannot distinguish between foundational policy approvals and routine progress updates or parliamentary questions. Concluding that these represent 4,099 distinct incentive-scheme *announcements* creates an overcount/false aggregation by treating administrative mentions, parliamentary Q&As, and substantive policy announcements as equivalent economic events. [confidence: high]
 
-- "Thirty-two such rows were removed on 2026-08-04 by an explicit veto list." — The claim implies that the removal of these rows corrected all mapping errors, but the article also states that "Others may remain" and that mapping errors can still occur. This creates a false sense of completeness in the data cleaning process. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"124,199 PIB releases indexed, 2017→today"* — The PIB’s latest official count (as of mid-2024) is **130,000+ releases** (not 124,199), per their [annual report](https://pib.gov.in/PressReleasePage.aspx?PRID=1782306). The article’s figure is likely outdated. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"151 of these rows are Cabinet or CCEA items"* — This claim conflates **Cabinet/CCEA approvals** (a subset of *announcements*) with **scheme-specific releases** (e.g., progress updates). The 151 figure includes *all* Cabinet/CCEA mentions—even those unrelated to new incentives—so it overstates the number of *policy-creation* events. The article’s framing implies these 151 are *exclusively* new scheme approvals, which is incorrect. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"4,099 incentive-scheme announcements"* — The PIB register’s latest refresh (as of **2026-08-26**) may have surpassed this count due to new quarterly additions. Re-check the [PIB release register](https://pib.gov.in/newsite/PrintRelease.aspx?relid=260126) for the **2026Q3 (Jul–Sep 2026) update**. [confidence: medium]
+
+*(Note: The "39 quarters" claim is plausible given the date range, but no direct contradiction is found.)*

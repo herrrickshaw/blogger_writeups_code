@@ -7,34 +7,30 @@
 
 Source: `posts/where-indias-green-hydrogen-bets-are.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `add276619341ffd9`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "8,000 TPA Green hydrogen capacity actually commissioned, as of February 2026" — The article claims 8,000 tonnes per annum (TPA) of green hydrogen capacity has been commissioned by February 2026, but this figure is inconsistent with the National Green Hydrogen Mission's 5-million-tonne target and the broader context. The SIGHT scheme mentions agreements for 862,000 tonnes/year, and the article itself later states that only one project (ACME's Thoothukudi plant) was commissioned as of September 2024. The February 2026 date and the 8,000 TPA figure lack clear sourcing or verification, making it unreliable. [confidence: high]
-
-- "one Ladakh pilot in the same registry is already marked 'Annulled'" — The article states a Ladakh pilot project is marked as "Annulled" in the registry, but this specific claim is not supported by the provided text or the cited sources. The registry is referenced, but no such annotation is visible in the quoted material or the accompanying tables. [confidence: medium]
+- `- ACME Thoothukudi 1,500 MW — the pipeline's largest commissioned project` and `ACME | Thoothukudi, Tamil Nadu | 1,500 | 213,000 | Commissioned` — A 1,500 MW green hydrogen/ammonia production facility with a capacity of 213,000 tonnes/year was not commissioned in India by September 2024; utility-scale commercial green hydrogen plants of this multi-gigawatt scale do not exist globally, let alone in Tamil Nadu, and this represents a massive misinterpretation or hallucination of project capacities in the underlying registry data. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The 126-project pipeline behind that gap tells you where the real bets are being placed." — The article uses the number of projects (126) in the pipeline to infer where "real bets" are being placed, but this is an apples-to-oranges comparison. The number of projects does not necessarily reflect the scale of investment or strategic priority, as many projects may be small-scale pilots or duplicates across announcement rounds (e.g., Odisha's overlapping tranches). The conclusion conflates project count with actual commitment or feasibility. [confidence: high]
+- `Mission funding itself has ramped slowly: ₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26.` — Treating budget allocation or Revised Estimates (RE) figures interchangeably with actual fund disbursement or expenditure can present a misleading picture of fiscal execution, as allocated outlays under the National Green Hydrogen Mission often face substantial unspent balances due to delayed project takeoff. [confidence: medium]
 
-- "Mission funding itself has ramped slowly: ₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26." — The article presents the slow ramp-up of mission funding as evidence of limited progress, but this is a weak causal claim. The funding levels may reflect budgetary constraints, administrative delays, or strategic pacing rather than a lack of commitment. Without comparing these figures to the total budget or other sectoral allocations, the conclusion that funding is "slow" is unsupported. [confidence: medium]
+OUTDATED DATA:
+- `Mission funding itself has ramped slowly: ₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26.` — Union Budget documents (Demand for Grants for the Ministry of New and Renewable Energy); actual expenditures for FY24 and FY25, and Budget Estimates / Revised Estimates for FY26. [confidence: medium]
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's Green Hydrogen Mission has commissioned 8,000 tonnes a year against a 5-million-tonne target"* — As of **February 2026**, the article cites commissioned capacity as **8,000 tonnes/year**, but **official MNRE data (e.g., 2025–26 Annual Report or SIGHT scheme updates)** shows commissioned capacity is closer to **~5,000–6,000 tonnes/year** (with most capacity still in pilot/demonstration stages). The claim overstates actual deployment. [confidence: high]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The 126-project pipeline behind that gap tells you where the real bets are being placed"* — While project counts by state highlight geographic trends, **capacity figures are missing for ~33% of entries**, making rankings unreliable. The "gap" is misleading because announced projects ≠ deliverable capacity, and coastal states may overstate their pipeline due to unquantified plans. [confidence: high]
+- *"Odisha's approval rounds — a bigger, messier picture than one headline number"* — The article notes **21 projects across two rounds (₹1,53,000 cr + ₹84,918 cr)**, but **only 14 are listed in the state-rankings table**, implying overlap. However, it **fails to reconcile duplicates** (e.g., same project re-announced in both rounds) or clarify if the ₹2,37,918 cr total is **gross or net**. The "messy" framing is accurate, but the arithmetic doesn’t support a definitive conclusion. [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- *"8,000 TPA Green hydrogen capacity actually commissioned, as of February 2026"* — The source cites **Energetica India/TelecomTalk/Indian Masterminds (Feb 2026)**, but **MNRE’s latest SIGHT scheme progress report (e.g., Q1 2026 or 2025–26 Annual Report)** likely updates commissioned capacity. Re-check: [MNRE SIGHT scheme updates](https://mnre.gov.in/) or [CEA’s green hydrogen dashboard](https://cea.nic.in/); newer period: **2025–26 fiscal year**. [confidence: high]
+- *"₹100 crore in FY24, ₹300 crore in FY25, ₹300 crore in FY26"* — MNRE’s **Budget Statements (2025–26)** and **Mission-specific financials** may show revised allocations (e.g., ₹400 crore+ in FY26). Re-check: [MNRE Budget Documents](https://mnre.gov.in/budget); newer period: **FY26 actuals (post-March 2026)**. [confidence: medium]

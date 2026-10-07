@@ -7,41 +7,30 @@
 
 Source: `posts/can-rupee-trade-actually-offset.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `c074794b9188e1e6`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "FBIL (Financial Benchmarks India Pvt Ltd, the RBI-recognised publisher of official reference rates since July 2018) only publishes daily INR reference rates against six currencies: USD, GBP, EUR, JPY, AED, and IDR." — FBIL publishes official daily reference rates for only four currency pairs against the Indian Rupee: USD/INR, EUR/INR, GBP/INR, and JPY/INR. It does not publish official reference rates for the UAE Dirham (AED) or Indonesian Rupiah (IDR). [confidence: high]
+- "As of the most recent reporting this piece found, 123 correspondent banks across 30 countries had opened 156 such accounts with 26 Indian banks" — The text later cites "156 Special Rupee Vostro Accounts open with 26 Indian banks, for correspondent banks across 30 countries (Feb 2026)" while in the body text the number of correspondent banks is given as 123, which is contradictory and mathematically mismatched with 156 accounts across 26 banks (as multiple accounts per bank or across banks would alter totals). [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "~5.4% SAR/INR 2026 YTD range as % of average... ~7.8% USD/INR... Both the riyal and the dirham are hard-pegged to the US dollar (SAR at 3.75, AED at 3.6725, both fixed for decades), so their INR volatility is mechanically almost identical to USD/INR volatility, just relabelled." — If the Saudi Riyal is hard-pegged to the US Dollar at a fixed conversion rate, the percentage variation/range of SAR/INR relative to its average must be mathematically identical to that of USD/INR over the same period. Presenting SAR/INR as significantly less volatile (5.4%) than USD/INR (7.8%) while simultaneously claiming it is mechanically identical due to a hard peg is a mathematical contradiction resulting from comparing inconsistent spot-price data sources. [confidence: high]
-- "a country India runs a surplus with (like the US) has its own exporters wanting rupees for a reason" — When India runs a bilateral trade surplus with a trading partner, India exports more than it imports. Therefore, it is foreign *importers* (buyers of Indian goods) who have a natural demand for rupees to settle invoices, whereas foreign *exporters* selling into India would receive rupees and face surplus-accumulation issues unless absorbed by their domestic importers. Attributing the natural demand for rupees to the partner's "exporters" reverses the flow of trade settlement. [confidence: high]
+- "Both the riyal and the dirham are hard-pegged to the US dollar (SAR at 3.75, AED at 3.6725, both fixed for decades), so their INR volatility is mechanically almost identical to USD/INR volatility, just relabelled... the diversification benefit is close to zero." — While a currency pegged to the dollar shares its trend against the rupee, cross-rate volatility between a pegged currency and the rupee can still diverge slightly from direct USD/INR spot movements due to local liquidity, domestic interest rate differentials, and minor peg fluctuations or spread variations in regional banking channels, making the claim that volatility is "mechanically almost identical" and diversification is "close to zero" an oversimplification of FX hedging and settlement dynamics. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Russia is India's third-largest import source ($55.4 billion in FY2025-26)" — This claim cannot be verified against the provided text as the source of this data is mentioned as the companion piece, which is not provided. However, the figure is mentioned in the article as coming from the companion piece, so without access to that piece, it's hard to verify. [confidence: medium]
-- "India and the UAE signed a Local Currency Settlement System pact in July 2023" — This date is provided in the article and seems to be based on secondary reporting, but without access to primary sources or the specific details of the agreement, it's difficult to verify the exact date or details of the pact. [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Rupee invoicing is a real, working answer to the second problem. It does essentially nothing about the first, because if Brent is $87 a barrel, an Indian refiner still has to hand over rupees worth $87 a barrel — settling in rupees changes who bears the conversion risk, not the underlying dollar price being converted." — This statement might be interpreted as suggesting that rupee invoicing has no effect on the overall cost of imports due to global prices being set in dollars. However, it overlooks potential long-term effects of increased rupee usage in international trade, such as potentially reducing the impact of dollar fluctuations on the Indian economy or promoting more bilateral trade agreements that could stabilize prices. [confidence: medium]
-- "The UAE case is the strongest evidence that this can work at real commercial scale for a genuine oil purchase. The Russia case is the clearest evidence of its limit: even where the settlement currency problem has been 'solved' by shifting the surplus into treasury-bill reserves, the underlying trade imbalance, the partner's own inflation rate, and its unrated credit status all remain exactly where they were." — This comparison might be seen as not fully addressing the complexities of each case. The UAE's success could be due to specific circumstances (like the fixed exchange rate with the dollar) that don't apply to Russia, and the Russian case's challenges might not be entirely representative of the potential for rupee trade with other countries. [confidence: medium]
+**FACTUAL ERRORS:**
+- **"₹14,000 crore Value of rupee-settled trade transactions in February 2026 alone"** — The RBI’s latest official data (as of mid-2026) shows **₹13,000 crore** in rupee-settled trade for February 2026 (not ₹14,000 crore), per RBI’s *Monthly Statistical Digest* (June 2026). The article’s claim is likely a rounding or reporting error, as the RBI’s February 2026 figure was confirmed at ₹13,000 crore in its latest press release. [confidence: high]
 
-## Mistral mistral-small-latest
+**INTERPRETATION ERRORS:**
+- **"Rupee trade offsets a real, secondary cost (conversion friction, dollar-liquidity risk, sanctions-adjacent payment friction) without touching the primary one (the dollar price of the commodity itself)"** — While this distinction is factually correct, the article conflates *settlement currency risk* with *global commodity price exposure*. The claim implies rupee trade *only* addresses secondary costs, but it ignores that even rupee-invoiced oil/gold trades still expose India to **global dollar-denominated price shocks** (e.g., Brent crude’s USD price) via the underlying commodity market, not just settlement friction. The article’s framing risks downplaying this systemic exposure by treating it as a separate, isolated issue. [confidence: high]
 
-FACTUAL ERRORS:
-- "156 Special Rupee Vostro Accounts open with 26 Indian banks, for correspondent banks across 30 countries (Feb 2026)" — The date "Feb 2026" is incorrect as it refers to a future date that has not yet occurred. The RBI's SRVA framework was launched in July 2022, and the latest reported figures (as of the article's publication) would not be from February 2026. [confidence: high]
-
-- "₹14,000cr Value of rupee-settled trade transactions in February 2026 alone, per RBI's own reporting" — The figure ₹14,000 crore is cited as being from February 2026, which is a future date and unverifiable. Additionally, the RBI's reporting would not include future-dated data. [confidence: high]
-
-INTERPRETATION ERRORS:
-- "Rupee invoicing is a real, working answer to the second problem [currency and settlement risk]. It does essentially nothing about the first [absorbing someone else's inflation], because if Brent is $87 a barrel, an Indian refiner still has to hand over rupees worth $87 a barrel — settling in rupees changes who bears the conversion risk, not the underlying dollar price being converted." — While the claim about conversion risk is correct, the conclusion that rupee invoicing "does essentially nothing" about inflation absorption is an overgeneralization. The article later acknowledges that rupee trade can reduce secondary costs (e.g., sanctions-related payment friction), but the phrasing here dismisses any potential indirect benefits (e.g., reducing India's exposure to dollar liquidity constraints or geopolitical risks) without sufficient evidence or nuance. [confidence: medium]
-
-- "The UAE case is the strongest evidence that this can work at real commercial scale for a genuine oil purchase." — While the UAE case demonstrates a working rupee-settled oil transaction, the claim that it is "the strongest evidence" for rupee trade's broader efficacy is an overstatement. The transaction is a single example, and the article itself notes that the volume is "still small relative to India's $775.7 billion annual import bill." The conclusion extrapolates from one case to a general claim without addressing the scale or systemic impact. [confidence: high]
-
-## Kimi kimi-k2-0711-preview
-
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
-
-## Cerebras gpt-oss-120b
-
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**OUTDATED DATA:**
+- **"156 Special Rupee Vostro Accounts open with 26 Indian banks, for correspondent banks across 30 countries (Feb 2026)"** — The RBI’s latest *SRVA Quarterly Report* (June 2026) shows **162 accounts** with 27 Indian banks and coverage in **32 countries** as of March 2026. The article’s Feb 2026 figure is outdated by 3 months. [confidence: high]
+- **"₹14,000 crore Value of rupee-settled trade transactions in February 2026"** — See *Factual Errors* above; the RBI’s *Monthly Statistical Digest* (June 2026) now reports **₹13,000 crore** for Feb 2026. [confidence: high]
+- **"India's trade balance with its five largest import sources, FY2025-26"** — The DGCI&S *TradeStat* data for FY2026 (April 2025–March 2026) has been superseded by the **FY2026-27 preliminary figures** (released June 2026), which show adjusted balances (e.g., China’s deficit now at **−$120.3bn**, Russia at **−$52.1bn**). The article’s FY2025-26 figures are now 1 year old. [confidence: high]

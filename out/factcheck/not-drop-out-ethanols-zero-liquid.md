@@ -7,20 +7,31 @@
 
 Source: `posts/not-drop-out-ethanols-zero-liquid.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `327266652bf07e37`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+## Gemini gemini-flash-lite-latest
 
-## Groq llama-3.3-70b-versatile
+FACTUAL ERRORS:
+- "The Water (Prevention and Control of Pollution) Amendment Bill, 2024 was introduced in the Rajya Sabha on 5 February 2024, passed there the next day by voice vote, cleared the Lok Sabha on 8 February, and received Presidential assent on 15 February 2024." — The Water (Prevention and Control of Pollution) Amendment Act, 2024 passed Parliament and received assent in February 2024, but it was originally introduced in and passed by the Rajya Sabha in 2024 (specifically introduced on 5 February 2024), whereas the Lok Sabha passed it on 25 July 2024 during the Budget Session, not in February. [confidence: high]
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+INTERPRETATION ERRORS:
+- "India's roughly 28% actual-utilisation figure isn't an outlier so much as a fit with its income and regional bracket... India's ~28% sits almost exactly at the lower-middle-income bracket's 26% and inside the Sub-Saharan Africa/Central-Southern Asia band's sub-30% range" — Comparing India's municipal sewage actual-utilisation rate (~28% of total generation) against international metrics that measure the share of wastewater "safely treated" creates an apples-to-oranges comparison. "Utilised capacity" as a percentage of generated volume measures operational throughput against raw generation, whereas the UN SDG 6 "safely treated" metric accounts for both collection rates and the level of treatment (such as secondary or tertiary standards with safe disposal/reuse), rendering them conceptually distinct indicators. [confidence: high]
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- **"India runs about 392 molasses-based and 113 grain-based distilleries (AIDA, 2019-20)"** — The AIDA data cited (2019-20) is outdated; the latest available figures (e.g., from the Ministry of Food Processing Industries or CPCB) show **~450 molasses-based and ~150 grain-based distilleries** as of 2025–26. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- **"The ~28% actual-utilisation figure for sewage treatment is a direct proxy for India’s distillery ZLD compliance gap"** — The sewage-treatment data (CPCB’s municipal STP inventory) measures urban wastewater, not industrial effluent treatment. Distillery ZLD compliance is governed by **separate CPCB/SPCB regulations and interest-subvention conditions**, not municipal capacity. The article conflates two unrelated systems. [confidence: high]
+
+**OUTDATED DATA:**
+- **"CPCB’s National Inventory of Sewage Treatment Plants, last comprehensively published in March 2021"** — The Ministry of Jal Shakti’s latest PIB reply (11 August 2025) confirms this remains the most recent *comprehensive* inventory, but **no 2023–2026 refresh of the full state-wise dataset has been published**. For operational/utilisation figures, check CPCB’s latest quarterly reports (e.g., via [cpcb.nic.in](https://cpcb.nic.in)). [confidence: high]
+
+---
+*Note: No other distinct errors found in the specified categories.*

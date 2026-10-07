@@ -7,24 +7,40 @@
 
 Source: `posts/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `b628fd17130a7347`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+## Gemini gemini-flash-lite-latest
 
-## Groq llama-3.3-70b-versatile
+FACTUAL ERRORS:
+- none found
 
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
+INTERPRETATION ERRORS:
+- none found
 
-## Mistral mistral-small-latest
+OUTDATED DATA:
+- none found
 
-[Mistral API error 429: {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}]
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- **"One has actually reached production"** — The claim that only *one* OALP block has reached production is factually correct (the Gujarat gas field at **0.44 MMSCMD**), but the phrasing risks overgeneralizing. The Lok Sabha answer (March 2025) and Whalesbook both confirm **13–14 discoveries** with **only one in production**, yet the article later notes this as a "marginal" field. The error lies in the **implied implication** that the single production case is representative of broader success, which contradicts the article’s own data on low conversion rates. [confidence: **high**]
+
+---
+
+**INTERPRETATION ERRORS:**
+- **"The bidding process itself — DGH’s data rooms, year-round block nomination, work-programme scoring — is a genuinely well-designed system for handing out acreage."**
+  The claim conflates **process design** (which is indeed an improvement over NELP) with **outcomes**. While OALP’s mechanics (e.g., year-round nominations, work-programme weighting) are structurally sound, the article later admits that **only 14 discoveries** have emerged from **172 blocks**—a conversion rate of ~8%. The well-designed system does not equate to effective execution. The reasoning gap is treating **process innovation** as evidence of **sector health**, ignoring the post-award bottlenecks (clearances, investment execution, etc.) that the article itself highlights. [confidence: **high**]
+
+- **"The 144-block/242,056 sq km combined total for Rounds I–VIII... with a committed-investment figure of $3.137 billion"** (Lok Sabha data) **vs.** **"roughly 172 OALP blocks... backed by an estimated $4.36 billion"** (Whalesbook).
+  The article presents these as **two independent figures** but fails to reconcile their scopes. The Lok Sabha answer covers **Rounds I–VIII (144 blocks, $3.137B)**, while the $4.36B figure includes **Round IX (172 blocks total)**. The article does not clarify whether the $4.36B is cumulative or incremental, nor does it explain why the two sources diverge. This creates **double-counting risk** or **scope ambiguity**, undermining the claim that "only one field has reached production" across the broader dataset. [confidence: **high**]
+
+---
+**OUTDATED DATA:**
+- **"The 144-block/242,056 sq km combined total for Rounds I–VIII"** — The article cites this from a **March 2025 Lok Sabha answer** but does not check for **later updates** (e.g., Round IX’s inclusion or revised investment figures post-May 2026 royalty reforms). While the scope is technically correct for the period named, the **$3.137B figure** (Lok Sabha) and **$4.36B figure** (Whalesbook) suggest newer data may reconcile these discrepancies. Re-check: **DGH’s latest OALP dashboard** (dghindia.gov.in) or **MoPNG’s annual reports** for 2025–26. [confidence: **medium**]
+
+- **"Round X’s bid deadline was extended five separate times... no award has been announced"** — The article updates this to **six extensions** (including two post-September 2026) but does not verify whether **Round X/XI’s deepwater portions** have since been awarded or if the **Samudra Manthan Scheme** (linked to the extensions) has altered the timeline. Re-check: **DGH’s latest notices** (dghindia.gov.in) or **MoPNG’s press releases** for 2026–27. [confidence: **medium**]
+
+---
+**none found** (for other categories)

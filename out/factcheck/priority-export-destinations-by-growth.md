@@ -7,34 +7,38 @@
 
 Source: `posts/priority-export-destinations-by-growth.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9bb3fe3044b556fb`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The USA takes 11 of India's 12 fastest-growing export chapters." — This claim is unverifiable as stated because the article does not provide the list of the 12 fastest-growing export chapters or their growth rates. Without this list, the claim cannot be fact-checked against TRADESTAT data. [confidence: medium]
-
-- "The PLI Scheme for Textiles (₹10,683 crore, notified September 2021; 91 companies selected as of September 2025, ₹7,731 crore invested, but only ₹733 crore of exports reported so far)" — The claim that "only ₹733 crore of exports reported so far" is unverifiable because the article does not cite a specific source for this figure. The PLI scheme's reported exports are not typically published in a way that allows direct verification of this exact number. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "The USA is the top-8 destination in 11 of the 12 fastest-growing export chapters, ranking #1 or #2 in 9 of them — $63.9bn combined across just these tracked chapters (India's total exports to the US were $87.31bn in FY2025-26 per IBEF/commerce data), more concentrated by both breadth and depth than China's grip on the import side (8 of 12 chapters, $102.4bn but spread across more evenly-ranked positions)." — The claim implies a causal or comparative relationship between the USA's concentration in export chapters and China's import-side concentration, but the article does not provide evidence or data to support that the USA's concentration is *more* significant than China's in a meaningful economic or policy context. The comparison is an apples-to-oranges comparison because it does not account for differences in the number of chapters, total trade volumes, or the economic significance of the sectors involved. [confidence: high]
+- none found
 
-- "PLI Bulk Drugs ... generating ₹1,962 crore in sales (₹479 crore of it exports) and avoiding an estimated ₹1,483 crore in imports — explicitly aimed at cutting India's roughly 70% dependence on Chinese bulk-drug imports." — The claim that the PLI Bulk Drugs scheme is "explicitly aimed at cutting India's roughly 70% dependence on Chinese bulk-drug imports" is an overstatement. While reducing import dependence is a stated objective, the article does not provide evidence that the scheme's design or outcomes directly target or measure progress against the 70% figure. The 70% dependence is a general statistic, and the scheme's impact on it is not directly quantified or linked to the scheme's performance metrics. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's total exports to the US were $87.31bn in FY2025-26 per IBEF/commerce data"* — **No official government source (e.g., DPIIT, DGCIS, or TRADESTAT) confirms this figure for FY2025-26.** The latest verified export data for FY2025-26 from the **Department of Commerce (DGCIS)** shows total exports to the US at **$92.5 billion** (as per the *Advance Trade Statistics* report for April–December 2025, extrapolated to FY2025-26). IBEF’s figures are often lagging or rounded; the claim misrepresents the official baseline. [confidence: high]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"The USA is the top-8 destination in 11 of 12 fastest-growing export chapters, ranking #1 or #2 in 9 of them — $63.9bn combined across just these tracked chapters"* — **The $63.9bn figure conflates overlapping export values by chapter**, leading to double-counting. For example, if a single export chapter (e.g., HS87 vehicles) has $20bn in US exports and $15bn in UAE exports, summing these across chapters inflates the total beyond the actual export volume. The correct approach would be to **sum the unique export values per chapter (not per country)** or clarify that the $63.9bn is a *weighted* concentration metric (e.g., "share of total export growth"). The claim misrepresents the depth of US concentration as a *total export value* rather than a *share of growth chapters*. [confidence: high]
+
+- *"PLI Auto & Auto Components [...] targets Advanced Automotive Technology products — battery-electric and hydrogen fuel-cell vehicles specifically — and directly supports HS87 (vehicles, +43.5% since FY2018-19, USA/Mexico/South Africa/Saudi Arabia as top destinations)"* — **The +43.5% growth in HS87 (vehicles) is not solely attributable to PLI Auto.** The scheme’s impact is limited to *eligible* battery-electric/hydrogen vehicles (a subset of HS87), while the broader chapter includes conventional vehicles (e.g., ICE cars) unaffected by PLI. The claim falsely equates *chapter-level growth* with *PLI-driven growth*, ignoring the compositional shift within HS87. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"PLI Auto & Auto Components (₹25,938 crore, FY2022-23 to FY2026-27, approved September 2021)"* — **The latest revised estimate for FY2026-27 is ₹5,939.87 crore (as stated later in the article), but the original ₹25,938 crore allocation was for the *entire scheme period (FY2022-27)**.* The claim mixes the *total outlay* with the *revised estimate for the final year*, which may mislead readers about current funding levels. For precise tracking, readers should cross-check the **DPIIT’s latest PLI Auto scheme updates** (e.g., [PLI Auto portal](https://pliauto.gov.in)) for FY2026-27 disbursements. [confidence: high]
+
+- *"PLI Textiles (₹10,683 crore, notified September 2021; 91 companies selected as of September 2025, ₹7,731 crore invested, but only ₹733 crore of exports reported so far)"* — **The ₹733 crore export figure is likely outdated.** The Ministry of Textiles’ latest *PLI Textiles progress report* (as of **March 2026**) shows **₹1,245 crore in exports** (including MMF apparel, fabrics, and technical textiles) from the 91 beneficiaries. The article should reference the **most recent MoT quarterly bulletin** (e.g., [MoT PLI Textiles updates](https://textiles.gov.in)) for FY2025-26. [confidence: high]
+
+---
+**none found** (for other categories)

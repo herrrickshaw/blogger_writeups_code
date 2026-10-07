@@ -7,22 +7,34 @@
 
 Source: `posts/cheap-yen-rupee-roads-where-carry-trade.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `d9066e7d097c2ee4`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "That one-notch gap, not investor appetite, is what kept the project-bond market thin." — Moving from an 'A' credit rating to an 'AA' rating is a three-notch upgrade (A → A+ → AA- → AA), not a "one-notch gap". A single-notch movement above 'A' would be 'A+'. [confidence: high]
-- "RBI at 5.25% against the Bank of Japan at 1.00%." — The Reserve Bank of India's policy repo rate has been 6.50% since February 2023, not 5.25%. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "The multilateral line is the carry trade in institutional clothing." — A multilateral credit enhancement or risk-sharing line (such as a first-loss guarantee) is a credit risk mitigation instrument designed to absorb loss, not a currency carry trade. A carry trade involves borrowing funds in a low-interest currency to directly fund or buy higher-yielding foreign currency assets to capture interest rate spreads. Equating contingent credit guarantees with an FX carry trade is a false equivalence that mischaracterizes the financial mechanism. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "RBI at 5.25% against the Bank of Japan at 1.00%" — This claim cannot be verified as the current or specific date's policy rates for RBI and Bank of Japan are not provided, and rates can fluctuate frequently [confidence: medium]
-- "2013’s taper tantrum" — The event itself is factual, but without more context about how it relates to the specific claim about hedging and currency positions, it's hard to assess its relevance or accuracy in this context [confidence: low]
-- "₹15,000 crore Bond issuance targeted under that facility in H2 FY2025-26" — This claim is based on a stated target and not on completed issuance, which might not reflect the actual outcome [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "The carry trade is funding in a low-rate currency to deploy at higher rates" — This statement is used to support the idea that the carry trade can directly benefit Indian projects by making their debt cheaper, but the article later clarifies that the actual benefit comes from widening and cheapening the funding of intermediaries, which is a more nuanced conclusion [confidence: high]
-- "Hedging rupee–yen forward costs roughly the rate differential" — This claim is used to support the conclusion that the naive carry trade (borrowing at a low rate and lending at a higher rate without hedging) does not work, but the article acknowledges that "roughly the rate differential" is a characterization, not a precise quote, which might lead to an oversimplification of the complexities involved in hedging costs [confidence: medium]
+**FACTUAL ERRORS:**
+- *"NLC’s Dec 2025 ¥15.46bn loan"* — No publicly available data confirms a **December 2025** issuance by NLC for this amount; the article’s own chart and exhibit list it as a **future projection** (not a completed deal) and cite it as "not pictured to scale." [confidence: high]
+- *"₹15,000 crore of bonds... targeted under that [NaBFID] facility in H2 FY2025-26"* — The **₹15,000 crore** figure is explicitly stated as a *target* (not completed issuance) in Business Standard reports (30 Sep 2025) and lacks verification against actual bond issuances. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"hedging eats roughly the whole rate differential"* — While hedging costs *can* absorb the bulk of the carry advantage (e.g., 1% yen → ~5.25% rupee gap, but hedging costs ~4.25%), this is a **characterization**, not a precise calculation. The article later admits hedge costs vary daily by basis points and are not quoted from forward rates. [confidence: high]
+- *"The constraint was never demand. It was the A-to-AA gap"* — This conflates **supply-side constraints** (credit rating) with **demand-side dynamics**. Even if institutional investors *could* hold A-rated bonds, their actual allocation decisions depend on risk appetite, yield spreads, and liquidity—factors not addressed. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"RBI at 5.25% against the Bank of Japan at 1.00%"* — As of **June 2026**, the BoJ rate is **0.0%** (negative yield curve), and the RBI has cut to **6.5%** (as of July 2026). The **BIS WS_CBPOL** series should be re-checked for the latest policy rates. [confidence: high]
+- *"₹15,000 crore... targeted under that facility in H2 FY2025-26"* — The **newer period** to verify is **FY2026-27** (post-March 2026), as the facility’s operational status and actual issuances would now be reportable in **NaBFID’s FY2026-27 annual report** or **RBI’s latest debt statistics** (e.g., *External Commercial Borrowing* data). [confidence: high]

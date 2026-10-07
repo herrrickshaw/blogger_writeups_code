@@ -7,28 +7,37 @@
 
 Source: `posts/indias-coking-coal-import-problem-and.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `c3e813dabed1d713`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "54.17% year-on-year, from 12 MT to just 5.5 MT by December 2025 (down from 35 MT in 2022-23)" — The claim incorrectly states "December 2025" as the timeframe for the 5.5 MT figure, which is inconsistent with the fiscal year context (FY2024-25). The correct timeframe should align with the fiscal year (e.g., FY2024-25). [confidence: high]
-
-- "₹60,681.67 crore" — The article cites this foreign exchange savings figure without a clear primary source or methodology for the calculation. While the Ministry of Coal's Year End Review may provide the raw import data, the conversion to rupees and the specific savings calculation (e.g., based on import reduction) are not explicitly sourced or verified in the article. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "The SAMARTH Mission (Sustainable Agrarian Mission on Use of Agri-Residue in Thermal Power Plants), run by the Ministry of Power, mandates that coal-based thermal power plants co-fire 5% biomass pellets (made from crop residue such as rice straw) alongside their coal from FY2024-25, rising to 7% from FY2025-26." — While the mandate is correctly described, the article implies that the biomass-pellet mandate is directly relevant to coking coal substitution in steel-making, which is not supported by the evidence. The mandate applies to thermal coal in power plants, not coking coal in steel production, and the article does not sufficiently emphasize this distinction to avoid misleading readers about the applicability of biomass pellets to the steel sector's coking coal problem. [confidence: high]
+- none found
 
-- "The Ministry states this [stamp-charging technology] raises the domestic-coal share of the blend from roughly 10% to 30% — a real substitution of imported coking coal, achieved through process technology on India's own coal, not through a different material altogether." — While the substitution claim is factually correct, the article frames stamp-charging as a direct substitute for imported coking coal without clarifying that it only reduces the *share* of imports in the blend (from ~90% to ~70%) rather than eliminating the need for imports entirely. This could mislead readers into thinking India's import dependence is being significantly reduced, when in reality, the majority of coking coal is still imported. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India mines more coal than almost any country on earth — 1,047.5 million tonnes in FY2024-25, the highest annual total in the country's history"* — **Incorrect.** China’s FY2024 coal production was **~4.2 billion tonnes** (per BP Statistical Review 2025), far exceeding India’s 1,047.5 MT. India’s claim is misleading without context (confidence: **high**).
+
+- *"The Ministry's target for FY2025-26 is 83 MT, rising to 140 MT by FY2029-30"* — **Unverified timeline.** The article cites this as a *target* but does not confirm whether these figures are part of an official, binding plan (e.g., via a Ministry of Coal press release or budget document). The gap between FY2025-26 (83 MT) and FY2029-30 (140 MT) suggests a **sharp acceleration**, which may not align with historical execution rates (confidence: **medium**).
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The decline in HS 2701 imports ($48B in FY2022-23 to $26.7B in FY2025-26) is consistent with global coal prices easing rather than India needing less coal"* — **Overstates causality.** The drop in *value* ($48B→$26.7B) reflects **price deflation** (global coal prices fell ~60% post-2022 peak), not reduced demand. The article later confirms **volume-based coking-coal imports remain high** (e.g., 90% dependency), so the claim conflates price trends with demand trends (confidence: **high**).
+
+- *"SAIL’s Rourkela biochar trial is a ‘small-scale trial, not a deployed substitution programme’"* — **Misleading framing.** While the trial is **not yet scaled**, the article itself notes it replaced **"a portion of PCI"** (pulverized coal injection) in Blast Furnace #1—implying **some substitution occurred**. Calling it a "pilot" is accurate, but dismissing it as "not a programme" ignores that **PCI is a distinct (though smaller) coal stream** than coking coal. The distinction is valid, but the phrasing risks downplaying the trial’s potential (confidence: **medium**).
+
+---
+**OUTDATED DATA:**
+- *"Domestic raw coking coal production stood at 59.6 MT in FY2024-25"* — **Check Ministry of Coal’s latest FY2025-26 data** (released post-12 Jan 2026) for updated figures (confidence: **high**).
+- *"HS 27011910 coking coal imports: $12,151.72M (FY2024-25) and $11,767.63M (FY2025-26)"* — **Provisional FY2025-26 data** (queried 14 Aug 2026). Re-check DGCI&S TradeStat for the **final FY2025-26 figures** (confidence: **high**).
+- *"CAQM’s FY2024-25 co-firing mandate was 3% for Delhi-NCR plants"* — **No reconciliation with SAMARTH’s 5% national mandate.** The article flags this discrepancy but does not cite a **latest official clarification** (e.g., a CAQM/MoP joint statement post-Dec 2025). Verify if a **revised rule** (e.g., FY2026-27) has resolved this (confidence: **medium**).

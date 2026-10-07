@@ -7,34 +7,39 @@
 
 Source: `posts/one-gallon-five-numbers-how-gcam-fits.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `8aea8048268297dd`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Revised 13 August 2026 · v1.0.0" — The publication date is implausible as it is in the future relative to the article's content and sources (e.g., references to 2023 EPA reports and 2024 CSTEP work). [confidence: high]
-
-- "1 tonne CO₂e avoided = 1 CBIO, Brazil's tradable credit" — While this is a common simplification, the claim is technically incorrect because CBIOs are issued based on the *difference* in emissions between biofuels and fossil fuels, not absolute avoided emissions. The correct relationship is that 1 CBIO represents 1 tonne of CO₂e *avoided relative to a fossil fuel baseline*, not 1 tonne of absolute avoided emissions. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "GCAM treats raw biofuel — corn for ethanol, wood pellets, whatever the feedstock — as removing carbon from the atmosphere at the point of cultivation, and pays an implicit subsidy for that removal, equal to the model's own carbon price." — While GCAM's accounting mechanism is described correctly, the implication that this "removal" is equivalent to a real-world carbon credit is misleading. The model's internal accounting does not equate to a certification or compliance credit, as the article later acknowledges. The claim conflates GCAM's internal accounting identity with real-world credit issuance. [confidence: high]
+- none found
 
-- "Independent life-cycle work on Brazilian sugarcane ethanol, run through the GREET model using data actually submitted under RenovaBio, put its carbon intensity at 35.2 gCO₂e/MJ — a 62% reduction against US gasoline blendstock, before land-use change is even added — giving a real, checkable cross-system comparison point against the corn-ethanol land-use-change spread from Section 2." — The comparison is apples-to-oranges because the sugarcane ethanol estimate (35.2 gCO₂e/MJ) includes *all* lifecycle emissions (including land-use change, as implied by the context), while the corn-ethanol land-use-change spread (from −0.95 to 41 gCO₂e/MJ) refers *only* to the land-use-change component. The claim incorrectly suggests these numbers are directly comparable. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"GCAM is not the model that actually issues a RIN, clears a RED III threshold, or prices a CBIO on Brazil's B3 exchange"* — **Incorrect framing of RED III compliance.** While GCAM is not the *operational* compliance engine for RED III (the EU uses centrally prescribed Annex IV/Article 31 methodology), the claim conflates *operational* compliance (which is formula-based) with *modeling* used to inform policy debates. The EU does not "run GCAM" for compliance, but the article’s phrasing ("none of the world’s three big biofuel carbon-credit systems run GCAM as their compliance engine") is technically accurate. However, the *subsequent* claim that RED III uses a "centrally prescribed formula" is correct, but the earlier sentence risks implying GCAM is *directly* involved in any of these systems, which it is not. [confidence: **high**]
 
-## Cerebras gpt-oss-120b
+- *"A PLOS ONE study modelling India's 20% ethanol-blending mandate's trade-offs... used MAgPIE"* — **Outdated citation context.** The article states this as a fact for 2026 but does not verify whether the study was published *after* the 2024 CSTEP work (also cited) or if it aligns with the latest policy context. While the claim may be correct, the lack of a direct link to the PLOS ONE study’s publication date or India’s current regulatory stance (e.g., whether MAgPIE is still the *de facto* tool) makes this a potential factual gap. [confidence: **medium**]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+**INTERPRETATION ERRORS:**
+- *"The five models don’t just disagree on structure... they disagree on the number that, in the real RFS program, is the difference between a fuel batch clearing its GHG threshold or not."* — **Overstating causal impact.** The spread in land-use-change emissions (–0.95 to ~41 gCO₂e/MJ) is *one component* of the full lifecycle carbon intensity (LCI) calculation under the RFS. The article correctly notes that LCI includes farming, processing, and transport emissions (which models agree on more closely), but the phrasing implies the land-use-change spread *alone* decides compliance—a false causal claim. In reality, the *total* LCI (including agreed-upon emissions) determines RIN eligibility, and the spread in land-use change is just one variable among many. [confidence: **high**]
+
+- *"GCAM's real job is... an independent, economy-wide check on narrower supply-chain LCA tools like GREET and RenovaCalc"* — **Misleading analogy.** While GCAM’s global trade and land-use dynamics *can* serve as a "wider-lens cross-check," the article frames this as GCAM’s *primary role* in the compliance ecosystem. However, GCAM’s architecture is fundamentally different from operational systems (RINs, RED III, CBIO), which are designed for *policy enforcement*, not *research validation*. The implication that GCAM’s disagreement with GREET/RenovaCalc is a *useful finding* for compliance is an extrapolation—GCAM’s outputs are not actionable in any of the three systems. [confidence: **high**]
+
+---
+**OUTDATED DATA:**
+- *"EPA's own 2020 estimate [for GREET] landing at 7.4 gCO₂e/MJ"* — **Series to re-check: EPA’s latest GREET model updates (e.g., GREET 2.20 or later).** The EPA regularly updates GREET with new data (e.g., land-use modules, feedstock yields). As of 2026, the latest GREET version may have revised land-use-change estimates for corn ethanol, particularly if new USDA/NASS data or peer-reviewed studies (e.g., on soil carbon or feedstock expansion) have been incorporated. [confidence: **high**]
+
+- *"CSTEP's own 2024 work on India's transport decarbonisation and biofuel trade-offs used SAFARI"* — **Potential newer updates.** While the article cites CSTEP’s 2024 report, India’s biofuel policy landscape (e.g., ethanol blending mandates, land-use regulations) evolves rapidly. CSTEP or other institutions may have published follow-up work in 2025–2026 incorporating newer data (e.g., 2024–25 crop reports, revised feedstock mixes). The claim assumes CSTEP’s 2024 findings remain current, which may not hold. [confidence: **medium**]
+
+---
+**Note:** The article’s core framing (e.g., GCAM’s role, RED III’s methodology, or the RFS’s LCI components) is factually sound but risks overgeneralizing GCAM’s relevance to compliance systems. The "outdated data" section focuses on *specific figures* (GREET 2020, CSTEP 2024) that could be superseded by newer official releases.

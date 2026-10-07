@@ -7,24 +7,28 @@
 
 Source: `posts/lok-sabha-question-registry-1843-scheme.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `ce21b03f0fcaa760`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "17th–18th Lok Sabha (2019–2026)" — The 17th Lok Sabha was from 2019 to 2024, and the 18th Lok Sabha began in 2024 (as of the article's date in 2026). The claim incorrectly extends the 17th Lok Sabha to 2026. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "UDAN/RCS alone accounts for 273 of the 1,890 Lok Sabha questions in this registry — nearly one in seven, more than any other scheme tracked." — While the number of questions (273) is factually correct, the claim that this "dominates" parliamentary scrutiny implies a causal or comparative significance that isn't justified by the data alone. The registry only tracks scheme-related questions, not all parliamentary scrutiny, so the conclusion overreaches the scope of the data. [confidence: high]
+- none found
+
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"The 17th Lok Sabha (2019–2024; 18th LS: 2024–today)"* — The 18th Lok Sabha officially began on **June 17, 2024**, not "2024–today" (which implies an ongoing period without a defined end date). The article’s date range for the 18th LS is misleadingly open-ended. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"UDAN/RCS dominates Lok Sabha scrutiny... because its viability-gap funding subsidises specific, named air routes between specific, named airports, and each route sits inside one or more Lok Sabha constituencies by construction"* — While this explains *why* UDAN attracts constituency-specific questions, it conflates **cause** (constituency relevance) with **scope** (all schemes could theoretically be constituency-specific if structured similarly). The claim implies UDAN’s structure is unique in this regard, but other schemes (e.g., rural road projects, local infrastructure) also trigger constituency-level scrutiny. The reasoning overstates UDAN’s exclusivity. [confidence: high]
+
+**OUTDATED DATA:**
+- *"1,890 Lok Sabha questions captured here"* — The registry’s cutoff is **August 12, 2026**, but the article was published on **August 19, 2026**, with data generated on **August 19, 2026**. No newer official Lok Sabha Q&A data is referenced, but the claim of "all questions up to 2026-08-12" may now be superseded by subsequent parliamentary activity. Re-check: **Lok Sabha Q&A index (sansad.in)**; newer period: **post-August 2026**. [confidence: medium]

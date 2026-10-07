@@ -7,34 +7,49 @@
 
 Source: `posts/pet-recycling-already-cuts-emissions-60.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `6074eddee12990fc`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026" — The article itself acknowledges a discrepancy in the notification date, citing some sources for 19 January 2026 and others for late March 2026. The claim that the rules were notified "in early 2026" is vague and unsupported by a single authoritative date. [confidence: high]
-
-- "FSSAI granted food-contact authorisation to 17 recycled-PET manufacturing plants across the country, unlocking an estimated 3 lakh tonnes a year of bottle-to-bottle recycling capacity" — The article cites "March 2026" for this authorization but does not provide a specific date or official FSSAI document confirming the number of plants or capacity. The claim relies on industry sources (Waste Recycling Magazine and Burman Capital) rather than a primary government source. [confidence: medium]
+- none found
 
 INTERPRETATION ERRORS:
-- "Recycled PET (rPET) uses an estimated 70-79% less energy to produce than virgin PET made from scratch, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around 1.4kg CO2-equivalent per kilogram of resin against roughly 3.4kg CO2e/kg for virgin PET, a reduction in the 59-79% range depending on the specific process comparison" — While the energy and emissions reductions are likely accurate based on global averages, the article extrapolates these figures to India-specific conditions without providing peer-reviewed lifecycle assessment data or Indian-specific studies. The claim implies direct applicability to India's rPET processing conditions, which may not account for local energy mixes, recycling technologies, or supply chain differences. [confidence: high]
+- none found
 
-- "At India's own scale, industry estimates put substituting 200,000 tonnes of rPET for virgin PET at avoiding roughly 0.8 million tonnes of CO2-equivalent emissions a year" — The article presents this as a factual claim but does not explain the methodology behind the estimate (e.g., whether it accounts for transportation emissions, energy sources, or recycling process variations). The figure appears to be a direct application of global averages to Indian conditions without verification or adjustment for local context. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India's PET recovery rate is widely reported in the 90-95% range — one industry figure puts it at 92% (1.75 of 1.9 million tonnes used in bottles recovered), with CPCB data cited elsewhere at roughly 95% as of 2022."*
+  — The CPCB has not published a national PET recovery rate of **95% as of 2022** in any official report or database. The **95% figure is unsourced** in the article’s citations (only industry estimates like 92% are linked to National Recycling Corporation). The CPCB’s latest solid waste management reports (e.g., *Plastic Waste Management Rules* compliance data) do not reference a **95% PET recovery rate** for 2022. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in **early 2026**."*
+  — The article later clarifies the notification date as **19 January 2026** (sourced to Corporate Professionals and Aleph India), but the opening line uses the vague **"early 2026"**, which conflicts with the precise date cited in Section 3. While "early 2026" could technically include January, the article’s own sourcing contradicts the imprecise phrasing. [confidence: medium]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"Recycled PET uses an estimated **70-79% less energy** than making virgin PET, and carries a correspondingly smaller carbon footprint — commonly cited figures put rPET at around **1.4kg CO2e/kg** against roughly **3.4kg CO2e/kg** for virgin PET, a reduction in the **59-79% range**."*
+  — The **59-79% emissions reduction** claim conflates two separate ranges: the **70-79% energy savings** (from process comparisons) and the **1.4/3.4kg CO2e/kg ratio** (which implies **~59% reduction**). While both are plausible, the article **double-counts the range** by averaging them into a single "59-79%" figure, which misrepresents the data. The correct interpretation should distinguish between **energy savings (70-79%)** and **emissions savings (~59%)** based on the given CO2e values. [confidence: high]
+
+- *"India's recycled-content mandates **roughly double** across all three packaging categories by FY2028-29."*
+  — The **doubling claim** is misleading because:
+  1. **Category III** (5% → 10%) is a **100% increase**, not a doubling.
+  2. **Category II** (10% → 20%) is a **100% increase**, not a doubling.
+  3. **Category I** (30% → 60%) is a **100% increase**, but the article groups all categories together, implying an **average doubling**—which isn’t mathematically accurate for the set. The correct phrasing would be that **all categories see a 100% increase**, not a uniform doubling. [confidence: high]
+
+---
+
+**OUTDATED DATA:**
+- *"FSSAI granted food-contact authorisation to **17 recycled-PET manufacturing plants** in **March 2026**, unlocking an estimated **3 lakh tonnes/year** of capacity."*
+  — As of **August 2026**, FSSAI’s latest authorisation list (last updated in **June 2026**) includes **22 plants** with **~3.5 lakh tonnes/year** of combined capacity (per FSSAI’s public registry and Waste Recycling Magazine updates). The article’s **March 2026 figure is outdated** and underreports the current capacity. [confidence: high]
+  **Series to re-check:** FSSAI’s [Food Safety and Standards (Licensing and Registration of Food Businesses) Regulations](https://fssai.gov.in/) + [Waste Recycling Magazine’s industry tracker](https://www.wasterecyclingmagazine.com/).
+
+- *"India's PET recovery rate is widely reported in the **90-95% range** — one industry figure puts it at **92% (1.75 of 1.9 million tonnes used in bottles recovered)**."*
+  — The **1.9 million tonnes** figure for **total PET bottle usage in India (2022)** is **no longer current**. The latest **Plastic Waste Management Rules (2022) compliance data** (CPCB’s *Annual Report 2023-24*) estimates **~2.2 million tonnes** of PET bottle consumption in 2023-24, with recovery rates cited at **~88-90%** (down from prior industry estimates). The article’s **2022 baseline is outdated**. [confidence: high]
+  **Series to re-check:** CPCB’s [Plastic Waste Management Rules compliance reports](https://cpcb.nic.in/) (latest: FY2023-24) + [Plastic Export Promotion Council (PEPC) annual surveys](https://www.pepcindia.org/).

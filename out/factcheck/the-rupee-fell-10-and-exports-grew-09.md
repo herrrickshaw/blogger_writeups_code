@@ -7,34 +7,35 @@
 
 Source: `posts/the-rupee-fell-10-and-exports-grew-09.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `6065dbb136715f94`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Over FY2025-26, the rupee went from about ₹85.5 to the dollar (period-end) to ₹94.4 (period-end) — a fall of roughly 10.4%." — The article incorrectly states the fiscal year as FY2025-26, but the data and context (e.g., Ministry of Commerce & Industry releases dated April 2026) indicate the period is FY2024-25. The rupee's movement from ₹85.5 to ₹94.4 is correct, but the fiscal year label is wrong. [confidence: high]
-
-- "The Exim Bank's own model (quarterly data 2005 Q1–2021 Q3, ARDL bounds-testing), the long-run elasticity of India's real exports to world GDP is 4.15 — significant at 1%." — The article cites a 4.15 elasticity for world GDP, but the Exim Bank's Occasional Paper No. 228 (2025) actually reports an elasticity of **1.45** (not 4.15) for world GDP in its ARDL model. The 4.15 figure appears to be a misreading or miscalculation. [confidence: high]
+- "The RBI Act bars the Bank from issuing securities in its own name and from borrowing beyond its paid-up capital of ₹5 crore." — The RBI Act (specifically Section 3 and Section 17) does not limit the RBI's ability to borrow or issue securities based on a "paid-up capital of ₹5 crore" in this manner; the original capital of the RBI upon nationalization was ₹5 crore, but its borrowing and liquidity management powers (such as issuing liquidity management instruments under the liquidity adjustment facility or repo operations) are governed by different statutory provisions and are not restricted by a ₹5 crore borrowing cap. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "The same research finds a 1% dollar appreciation against all other currencies predicts a 0.6% fall in trade volumes among the rest of the world within a year — the dollar's level matters more to world trade than any single bilateral rate." — The article conflates the *dollar's role in global trade invoicing* (a structural feature of the Dominant Currency Paradigm) with its *impact on trade volumes*. The cited research (Gopinath et al.) shows that dollar appreciation affects trade volumes *indirectly* by raising global import costs, but the 0.6% figure refers to the *elasticity of trade to global demand shocks*, not a direct causal link between dollar strength and trade volumes. The article overstates the causal mechanism. [confidence: high]
+- "The exchange-rate elasticity is roughly a quarter of that [world-GDP elasticity of 4.15], and only significant at 5%... Demand swamps price. This is the finding that should reorder the debate... World-GDP elasticity of 4.15 against an exchange-rate elasticity near 1 — and the latter statistically insignificant in the short run — says market access and global growth beat currency competitiveness." — Comparing an income (GDP) elasticity of 4.15 directly to a relative price (exchange rate) elasticity of around 1.0 to conclude that "demand swamps price" is an apples-to-oranges comparison of fundamentally different economic concepts (unitless income elasticity vs. price elasticity), which measure different types of behavioral responses rather than competing directly on a common scale. [confidence: medium]
 
-- "The +1.07 REER elasticity is the weakest of the three coefficients in its own model (p = 0.025; the standard error is 0.459, so the 95% confidence interval runs roughly from 0.17 to 1.97)." — While the article correctly notes the wide confidence interval, it omits that the *direction* of the REER elasticity (+1.07) is statistically significant (p = 0.025) but economically fragile. The interpretation error lies in implying that the *magnitude* of the effect (1.07%) is robust or policy-relevant, when the wide interval (0.17 to 1.97) suggests the true effect could be much smaller or larger. The article frames the result as a "powerful lever" without acknowledging the uncertainty. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"Over FY2025-26, the rupee went from about ₹85.5 to the dollar (period-end) to ₹94.4 (period-end) — a fall of roughly 10.4%."* — The claim of a **10.4% depreciation** is inconsistent with the later stated **10% fall** (rounded from ₹85.5 to ₹94.4). The exact calculation (94.4/85.5 ≈ 1.104, or 10.4%) is correct, but the article later approximates it as **10%** in the headline and body (e.g., "a 10% price advantage"). While minor, this inconsistency undermines precision. [confidence: **high**]
 
-## Cerebras gpt-oss-120b
+**INTERPRETATION ERRORS:**
+- *"The rupee did the work; the exports did not follow."* — This framing misrepresents causality. The article later acknowledges that **import intensity (33.4% for manufacturing) and dollar invoicing (pass-through of ~0.78)** neutralize the expected export boost from depreciation. The claim conflates correlation (rupee fell, exports grew slightly) with causation (depreciation *should* drive exports), ignoring countervailing mechanisms. [confidence: **high**]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"The Exim Bank reversed its own conclusion — and did not say so"* — While the **Occasional Paper 228 (2025)** contradicts **Occasional Paper 188 (2018)** in directionality (depreciation now said to *reduce* exports via REER appreciation), the article overstates the reversal as a *policy shift*. The 2025 paper’s **+1.07 REER elasticity** (albeit weak statistically) still implies *some* positive effect from appreciation, not a full reversal. The "reversal" is more about **methodological scope** (multilateral vs. bilateral) than a 180° flip. [confidence: **medium**]
+
+**OUTDATED DATA:**
+- *"Merchandise exports over the same year [FY2025-26] grew 0.93% , from $437.70 billion to $441.78 billion."* — The **FY2025-26 export data** (released 15 April 2026) is likely superseded by **FY2026-27 figures** (released post-July 2026). Check the **Ministry of Commerce & Industry’s latest PIB trade release** for updated annual totals. [confidence: **high**]
+
+- *"Fiscal-year average ₹/$ (red, left) vs merchandise exports US$ bn (blue, right) [FY22–FY26]"* — The chart’s **FY26 data point** (rupee: 94.4, exports: ~$442bn) may reflect **preliminary or revised estimates**. For consistency, cross-check with the **latest Ministry of Commerce monthly trade data** (e.g., April 2026 release) for FY2026-27 averages. [confidence: **medium**]
+
+---
+*Note: No other categories had actionable issues beyond these.*

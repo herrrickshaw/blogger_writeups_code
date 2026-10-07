@@ -7,34 +7,67 @@
 
 Source: `posts/tech-for-business-so-2019-tech-as.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `2243717a69e1991d`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "AI Disclosure: This article was originally published in October 2020, predating this site's current AI-assisted research practice; this standard disclosure block was added in a later site-wide pass rather than reflecting how this specific piece was written." — The claim that the article was originally published in October 2020 is unverifiable and lacks a primary source citation. The disclosure itself states it was added later, but no evidence is provided to confirm the original publication date. [confidence: low]
-
-- "Product Potato - a case study" — The case study is a hypothetical example and not a factual claim, but it contains a factual error: the claim that "the French fry business is booming" is presented as a fact without any supporting data or verifiable source. [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "An Angel investor is effectively a fairy godmother who believes in the CEO's vision and enables them to succeed." — This metaphor implies a causal relationship between an angel investor's belief and the CEO's success, which is an oversimplification. Angel investors provide capital and guidance, but success depends on multiple factors beyond their belief, including market conditions, execution, and competition. [confidence: high]
+- none found
 
-- "The customer is always hungry for more... And they are right; however, should we give the person fish or teach them to fish?" — This rhetorical question suggests a false dichotomy between providing immediate solutions ("give the person fish") and long-term education ("teach them to fish"). In practice, businesses often do both simultaneously (e.g., offering convenience while educating users), and the claim ignores this nuance. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+Here’s the structured feedback based on the provided article:
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**FACTUAL ERRORS:**
+- *"The startup financing cycle — from seed capital, through the valley of death, to an IPO. Source: Kmuehmel, Wikimedia Commons, CC BY-SA 3.0."*
+  — The diagram referenced (likely a generic "startup financing cycle" illustration) is not a unique or original source for this specific claim. The article does not verify whether the *textual description* (e.g., "valley of death," sequential rounds) aligns with empirical data on Indian startups (e.g., IPO timelines, failure rates by stage). While the stages are plausible, the claim lacks attribution to a specific study or dataset on India’s startup ecosystem.
+  **[confidence: medium]** *(Could be correct in principle but unsupported by cited evidence.)*
+
+- *"A trader may urge the farmer who is having some success."*
+  — The article conflates a *trader’s role* (e.g., a wholesale distributor) with *investor behavior* (e.g., venture capital or angel funding). Traders typically don’t "urge" farmers to scale; they negotiate contracts, set prices, and mitigate risks like spoilage or supply chain gaps. The analogy misrepresents how wholesale markets operate, especially in commodity sectors like potatoes.
+  **[confidence: high]**
+
+---
+
+**INTERPRETATION ERRORS:**
+- *"The customer is always hungry for more... And they are right; however, should we give the person fish or teach them to fish?"*
+  — The claim conflates **customer demand** (which is indeed insatiable in a competitive market) with **business responsibility**. While teaching customers to "fish" (e.g., through education or self-service tools) can reduce churn, the article doesn’t address the *trade-offs*: customer education often requires upfront investment (e.g., training, UI complexity) that may not align with short-term revenue goals. The analogy oversimplifies the cost-benefit calculus of VOC-driven strategies.
+  **[confidence: high]**
+
+- *"Product managers are the astronomers (Kepler) trying to predict when the User comets could come..."*
+  — The metaphor equates **product managers** with astronomers predicting celestial events, but this ignores:
+    1. **Uncertainty in VOC**: User behavior is probabilistic, not deterministic (unlike Kepler’s laws).
+    2. **Agile constraints**: Product managers rarely have the data or time to "predict" user needs months in advance; they iterate based on real-time feedback.
+    3. **Double-counting**: The claim implies product managers *only* respond to VOC, ignoring internal constraints (e.g., tech debt, regulatory hurdles) or market forces (e.g., competitor moves).
+  **[confidence: high]**
+
+---
+
+**OUTDATED DATA:**
+- *"The Markowitz efficient frontier: expected return against risk, with individual assets sitting inside the curve. Source: User:G2010a, Wikimedia Commons, public domain."*
+  — While the *concept* of the efficient frontier (Markowitz, 1952) is timeless, the article doesn’t note that modern portfolio theory has evolved to incorporate:
+    - Behavioral finance (e.g., Kahneman-Tversky biases).
+    - ESG (Environmental, Social, Governance) criteria in asset allocation.
+    - The newer **Black-Litterman model** or **factor investing** approaches, which are more relevant for contemporary investors (especially in India’s growing AUM market).
+  **Re-check**: Academic papers on modern portfolio theory (e.g., *Journal of Portfolio Management*) or SEBI’s latest guidelines on investor risk profiling (e.g., [SEBI’s "Investor Education and Protection Fund" reports](https://www.sebi.gov.in)).
+  **[confidence: medium]** *(Concept is correct but outdated in application.)*
+
+- *"NO - is more pronounced in the product manager's vocabulary, rather than Yes, but why?"*
+  — The claim lacks empirical support. While product managers *do* prioritize risk aversion (e.g., avoiding scope creep), the article doesn’t cite studies on:
+    - The **cultural differences** in "NO" vs. "Yes" responses across Indian vs. global tech teams.
+    - The **stage-specific** role of product managers (e.g., early-stage startups may say "Yes" to risky bets for growth, while mature firms default to "NO").
+  **Re-check**: Surveys like [McKinsey’s "State of the Product Manager" reports](https://www.mckinsey.com) or [Pragmatic Institute’s VOC studies](https://www.pragmaticinstitute.com) for regional data.
+  **[confidence: high]**
+
+---
+**none found** for other categories.

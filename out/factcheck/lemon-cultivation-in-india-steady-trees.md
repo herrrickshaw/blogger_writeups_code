@@ -7,28 +7,29 @@
 
 Source: `posts/lemon-cultivation-in-india-steady-trees.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `84d915d9a6b647dc`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India is the world's largest lime and lemon producer — roughly 3-3.5 million tonnes a year off about 3.05 lakh hectares, per market-data aggregators (not a single government census figure, so treat the precise total as directional)." — The claim about India being the world's largest producer is not supported by verifiable data in the article. While the article cites market-data aggregators for production volume, it does not provide any authoritative source (e.g., FAO) confirming India's top global ranking. [confidence: high]
-
-- "The broader pattern, as reported by growers and trade associations rather than derived here: wholesale rates in normal conditions run roughly ₹30-90/kg depending on market, size and grade; scarred or lower-grade fruit destined for juice or pickle factories sells for less than fresh-market grade; and prices spike toward ₹130-250/kg specifically in drought or peak-summer conditions when supply falls fastest — heat stress and irrigation shortfalls hit lemon yields before they hit demand, which is largely inelastic (households, restaurants and food processors don't stop buying lemons because they're expensive, they just pay more)." — The claim that demand for lemons is "largely inelastic" is not substantiated with data or evidence. While the article correctly notes that lemons are used across multiple sectors, it does not demonstrate that demand remains unchanged despite price increases. [confidence: medium]
+- "India is the world's largest lime and lemon producer — roughly 3-3.5 million tonnes a year off about 3.05 lakh hectares" — India is indeed a top producer, but Mexico and India frequently alternate as the world's largest producer of limes and lemons according to FAOSTAT data, making the absolute claim of being the world's largest uncertain. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "A fallen lemon survives three days on the ground, a fallen guava starts rotting immediately. Both stories are true, and they're the same crop." — The article conflates two different crops (lemons and guavas) as if they were the same, despite the text earlier distinguishing them. This creates confusion about whether the claim applies to lemons alone or both fruits. [confidence: high]
+- "Two government mandi-price systems, same commodity, same month — nearly ₹55/kg apart on the national average... The two official platforms disagreeing by nearly ₹5,500/quintal for what should be the same underlying commodity is itself informative: mandi-level price reporting varies by which markets each system samples and how modal price is calculated" — The reasoning compares two non-identical samples (Agmarknet averaging 267 markets across 21 states versus eNAM covering a different set of 247 markets across 17 states) and treats the mathematical difference between their aggregate national averages as a direct disagreement on the "same" thing, without accounting for the strong likelihood that the two networks cover entirely different geographic markets with disparate local price realities. [confidence: high]
 
-- "The two independently sourced, dated snapshots of the same phenomenon: in April 2025, Dindigul-district lemons were fetching a steady ₹90/kg from processors under normal conditions. A year later, in April 2026, drought-hit Tenkasi-district lemons hit ₹250/kg in the open market — nearly triple — because Puliyangudi's daily market influx had collapsed from 150-200 tonnes to 75." — The article implies a direct causal link between reduced supply in Tenkasi (Puliyangudi) and the price spike in Dindigul, despite these being geographically distinct markets. The price movement in Dindigul is not necessarily explained by supply changes in Tenkasi, as local supply-demand dynamics in each district should be considered separately. [confidence: high]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India is the world's largest lime and lemon producer — roughly 3-3.5 million tonnes a year off about 3.05 lakh hectares"* — **India is not the world’s largest producer of lemons/limes**; Brazil, China, and Mexico produce significantly more (FAO data). The claim conflates lime and lemon production with broader citrus data, which overstates India’s share. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"Andhra Pradesh leads by volume; Gujarat, Karnataka, Madhya Pradesh, Maharashtra, Bihar and the northeastern states round out the rest"* — **This ranking is inconsistent with cited sources**: The article later notes Andhra Pradesh’s output varies between **7.31 lakh tonnes (2025 source)** and **9.06 lakh tonnes (another source)**, while Karnataka (with its GI-tagged Indi Lime) is only **4th nationally**—yet the list omits Rajasthan (a major producer) and includes Bihar (a minor player). The claim misrepresents the hierarchy without reconciling conflicting data. [confidence: high]
+
+**OUTDATED DATA:**
+- *"National average lemon price at ₹8,071/quintal (₹80.7/kg) per Agmarknet (18 Aug 2026, 267 markets/21 states)"* — **Agmarknet’s latest official data (as of mid-2024) shows prices fluctuating widely by season**; the article’s figure may be outdated. Re-check: [Agmarknet’s real-time dashboard](https://agmarknet.nic.in/) for **August 2026 updates** (or latest fiscal year 2025–26 release). [confidence: high]
+- *"Bangladesh and Nepal together absorb roughly 99.45% of India's citrus exports by volume"* — **APEDA’s latest export data (FY 2025–26) likely includes updated splits for lime/lemon vs. other citrus**. Re-check: [APEDA’s export statistics](https://apeda.gov.in/) for **FY 2026–27** (if released) or the most recent annual report. [confidence: high]

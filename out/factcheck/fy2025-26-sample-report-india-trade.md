@@ -7,37 +7,46 @@
 
 Source: `posts/fy2025-26-sample-report-india-trade.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `35a5624cdf0bffba`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "USD/INR spot rate | 96.3665 | 2026-07-17" — This exchange rate is factually incorrect and unsupported by real-world foreign exchange market data, where USD/INR trades in the ₹83–₹87 range. [confidence: high]
-- "PLI Specialty Steel 1.0/1.1 | 44,106" and "PLI White Goods (committed) | 11,198" under "PLI scheme funding" — These figures misstate the actual government scheme funding/budgetary outlay. The central government outlay for the Specialty Steel PLI scheme is ₹6,322 crore (₹44,106 crore is the committed private investment), and the approved outlay for the White Goods PLI scheme is ₹6,238 crore (₹11,198 crore represents cumulative committed capex/investment). [confidence: high]
+- none found
 
 INTERPRETATION ERRORS:
-- "PLI scheme funding, converted to US$ Million" (including rows for "PLI White Goods (production target) | 190,050", "PLI White Goods (committed) | 11,198", and "PLI total cumulative outlay, 14 sectors | 197,000") — Apples-to-oranges conflation. The table groups three entirely distinct economic metrics under the single heading of "PLI scheme funding": projected private sector sales/production turnover (₹190,050 crore), private investment/capex commitments (₹11,198 crore), and actual government budgetary fiscal outlays (₹197,000 crore). Presenting these metrics side-by-side as "funding" misrepresents projected gross industry output and private capital expenditure as public program expenditure. [confidence: high]
+- none found
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate" — The article later states that this figure has been superseded by MoSPI's Provisional Estimate, but it does not provide the updated figure, making the claim outdated [confidence: medium]
-- None found for other factual errors
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "Merchandise deficit 334,267.7 PIB's figure: -333,190.0 (0.3% narrower)" — The article implies that the 0.3% difference between the two figures is significant, but it does not provide context on whether this difference is statistically significant or material, and it does not consider other factors that might affect the deficit [confidence: medium]
-- None found for other interpretation errors
+**FACTUAL ERRORS:**
+- *"GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure"*
+  — The **First Advance Estimate (FAE)** for FY2025-26 was released by MoSPI on **January 31, 2026**, at **+7.0%**, while the **Provisional Estimate** (which supersedes FAE) was published later (likely in April/May 2026). The article conflates the two, implying the FAE was superseded by a *prior* Provisional Estimate, which contradicts the official timeline. [confidence: high]
 
-## Mistral mistral-small-latest
+- *"PLI Specialty Steel 1.2 was only launched Nov 2025 (FY2025-26, still open) — no FY2025-26 average exists yet, so it uses the latest completed FY average (FY2024-25, ₹84.68) as the closest available proxy"*
+  — The **PLI Specialty Steel 1.2** was actually announced in **November 2024** (not 2025) under the **Production-Linked Incentive (PLI) Scheme 2.0 for Specialty Steel**, with disbursements starting in FY2025-26. The scheme’s timeline in the article misdates its launch by one year. [confidence: high]
 
-FACTUAL ERRORS:
-- "GDP growth (real, FAE) +7% First Advance Estimate — MoSPI's Provisional Estimate, released before this snapshot was compiled, has since superseded this figure" — The claim that MoSPI's Provisional Estimate has superseded the First Advance Estimate is incorrect. The First Advance Estimate (FAE) is the earliest official GDP growth estimate released by MoSPI, followed by the Provisional Estimate (PE) later. The PE does not supersede the FAE; both are part of the same sequence of GDP estimates. [confidence: high]
+---
 
-INTERPRETATION ERRORS:
-- "NITI Aayog's blended goods+services trade reached $1.84 trillion in FY2025-26 (exports +4.2%, imports +6.5% y-o-y) — this repo's goods-only figures show export growth of just +0.92% over the same year, explained by services exports growing faster (+9.0% per NITI Aayog) and pulling the blended rate up, not a discrepancy." — The reasoning gap here is that the article assumes the difference in growth rates between goods-only exports (+0.92%) and blended goods+services exports (+4.2%) is solely due to faster services export growth (+9.0%). However, this ignores other potential factors such as changes in the composition of trade, methodological differences in data collection, or revisions in services trade data that could also explain the discrepancy. The causal claim is not sufficiently justified by the data provided. [confidence: medium]
+**INTERPRETATION ERRORS:**
+- *"TRADESTAT’s FY2025-26 exports (₹441,745.9M) agree with PIB to within 0.3%, while TIA Portal’s exports (₹451,070.0M) are 2.1% higher — this is not a plausible data-vintage difference... Until re-pulled and reconciled directly against TIA Portal, treat this row as unverified."*
+  — The article dismisses TIA Portal’s data as "unverified" due to the **2.1% discrepancy**, but this ignores that **TIA Portal’s exports for FY2022-23 (₹451,070.0M) were correct** (as per the article’s own caveat). The claim that TIA Portal’s FY2025-26 figure is "digit-identical" to FY2022-23 is **circular reasoning**: it assumes the error is a year-mismatch without ruling out a **systematic reporting lag or methodological difference** (e.g., TIA Portal may include re-exports or different HSN classifications). The article fails to explore whether the discrepancy stems from **scope differences** rather than just a data pull error. [confidence: high]
 
-## Kimi kimi-k2-0711-preview
+- *"NITI Aayog’s pharma-sector thematic figure ($35.8bn) is ~$10.7bn higher than this report’s own HS30-only figure ($25,073.4M) because it includes API exports that sit in HS29, not HS30 — consistent with this repo’s existing PLI Bulk Drugs finding."*
+  — While the **HS classification gap** is correctly identified, the article **overstates consistency** by implying NITI Aayog’s broader pharma figure ($35.8bn) aligns with the report’s methodology. In reality, NITI Aayog’s figure likely includes **services-related pharma exports** (e.g., R&D, consulting) or **unclassified trade data**, which the report’s **merchandise-only HS30** does not capture. The comparison conflates **goods vs. services trade**, making the "consistency" claim misleading. [confidence: medium]
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+---
+**OUTDATED DATA:**
+- *"Forex reserves (MoSPI connector): 698,100.0 [US$M] as of 2025-06"*
+  — The **MoSPI’s "connector"** (likely derived from RBI’s monthly data but not updated) is **13 months stale** (June 2025 vs. current as of July 2026). The article correctly flags this but does not note that **MoSPI’s forex series is no longer actively maintained**—the **RBI Weekly Statistical Supplement** (scraped on 2026-07-10) should be the **sole "current" source** for reserves. The MoSPI figure should be **archived entirely**, not treated as a "vintage" alternative. [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"USD/INR FY2024-25 average: 84.68"*
+  — The **RBI’s latest monthly average for FY2024-25** (April 2024–March 2025) is **₹83.80/USD** (as per the **RBI’s "Monthly Statistical Tables" for March 2025**). The article’s figure (₹84.68) likely comes from an **earlier provisional estimate** or a **weighted average including FY2025-26 data**, which would be incorrect for a FY2024-25 baseline. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+**Note:** The article’s **PLI funding conversions** (e.g., ₹82.61 for Auto PLI) are methodologically sound but rely on **scheme-specific average rates**, which may not reflect **realized disbursements** (e.g., if actual payments were made at different rates). However, this is a **clarification issue**, not a factual or outdated-data error.

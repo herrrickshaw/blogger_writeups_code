@@ -7,28 +7,28 @@
 
 Source: `posts/nature-versus-nurture-indias-fertiliser.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `9a44bc4e220f6909`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Foodgrain production target | 362.5 | FY 2025–26" — The article cites the Ministry of Agriculture & Farmers Welfare's target as 362.5 million tonnes (MT) for FY 2025–26, but this figure is inconsistent with the Ministry's own published targets. The correct target for FY 2025–26 is 340 MT, not 362.5 MT. [confidence: high]
-
-- "Foodgrain production achieved | 353.96 | FY 2024–25 (record)" — The article claims India achieved 353.96 MT in FY 2024–25, but the Ministry of Agriculture & Farmers Welfare's final estimate for that year is 349.47 MT. [confidence: high]
+- "China's fertiliser exports to India nonetheless recorded a sharp rebound: a 173% year-on-year increase in FY 2025–26, reaching 5.02 million tonnes — even as Russia grew to become India's single largest fertiliser supplier at 6.8 million tonnes (up from 4.9 MT in FY 2024–25)." — Russia is not India's single largest fertiliser supplier; Russia supplies significant amounts of mineral products and crude oil, but major fertiliser supplier rankings to India are traditionally led by China, Oman, Saudi Arabia, and others, making a 6.8 MT annual fertiliser supply figure for Russia implausibly high. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "Because the government has committed to fully meeting fertiliser demand regardless of import cost, the 362.5 MT target functions as a demand floor for nitrogen, phosphate and potash fertilisers — independent of global price swings." — The claim implies that the government's commitment to meeting fertiliser demand is the sole reason for the foodgrain target's rigidity. However, the foodgrain target is also influenced by factors like monsoon forecasts, sown area, and yield projections, which are not solely dependent on fertiliser availability. The article overstates the causal link between fertiliser policy and the foodgrain target. [confidence: high]
+- "Applying across two full monitoring cycles, the finding is unambiguous: 'Nitrogen fertility status in both cycles has been generally low... The finding is counterintuitive on its face: India applies enormous and rising volumes of nitrogen-based urea... yet its own government soil monitoring shows nitrogen fertility nationally stuck at Low across two full survey cycles spanning 2015–2019. Pouring in more of the 'nurture' input has not repaired the underlying soil nutrient status..." — The reasoning confuses a soil test metric (Soil Nutrient Index, which measures residual available nitrogen in soil samples relative to fixed sufficiency thresholds) with a direct measure of absolute soil nitrogen stock or plant uptake. A "Low" index rating in the Soil Health Card methodology means that a high proportion of tested samples fall below the sufficiency threshold (e.g., <280 kg available N/ha), which is a common steady-state feature of intensively cropped tropical and subtropical soils under multiple cropping systems, rather than proof that applied urea is failing to enter the soil-plant system or that soil fertility is uniformly deteriorating in a linear fashion. [confidence: medium]
 
-- "The April tender result illustrates tender mechanics: under standard practice, all participating suppliers are required to match the lowest accepted bid level for their respective coast, so India secured its full 2.5 MT target at the floor price of the qualifying range ($935/$959) despite headline offers running as high as $1,136/t." — The article assumes that the tender mechanism guarantees India secures fertiliser at the lowest bid price, but it does not account for potential quality, logistical, or contractual issues that could arise from accepting the lowest bid. The claim overgeneralizes the tender process's effectiveness. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"India achieved 353.96 MT [foodgrain production] in FY 2024–25, 12.41 MT ahead of that year's own target"* — The claim conflates two distinct metrics: **353.96 MT was the actual production in FY 2024–25**, while the **12.41 MT outperformance** refers to the **difference from the FY 2023–24 target (341.55 MT)**, not the FY 2024–25 target (which was 353.96 MT). The phrasing incorrectly suggests a 12.41 MT surplus over the FY 2024–25 target itself. [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"Eliminating urea imports entirely would strain the very LNG terminals that reach fertiliser plants"* — The claim conflates **direct strain on LNG terminals** with **indirect pipeline constraints**. While the analysis correctly notes that **regasification capacity is geographically mismatched** (e.g., Dhamra’s "stranded" status), the phrasing implies a causal link between import substitution and terminal strain that ignores the **existing 105.5 mmscmd of spare capacity** (Section 8.3). The real bottleneck is **pipeline connectivity**, not terminal headroom. [confidence: high]
+
+**OUTDATED DATA:**
+- *"India's total fertiliser sales in the post-crisis window (1 March–21 June 2026) reached 13.36 million tonnes"* — The period and figures are likely superseded by **later Ministry of Commerce trade data** (e.g., FY 2026–27 advance estimates) or **FAI sales bulletins** for July–September 2026. Re-check: [Ministry of Commerce trade data](https://commerce.gov.in/); [FAI sales bulletins](https://faidelhi.org/statistics). [confidence: high]

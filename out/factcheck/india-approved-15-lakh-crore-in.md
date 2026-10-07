@@ -7,32 +7,34 @@
 
 Source: `posts/india-approved-15-lakh-crore-in.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `d4a96f2cef7ee72c`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 503: {
-  "error": {
-    "code": 503,
-    "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.",
-    "status": "UNAVAILABLE"
-  }
-}
-]
+## Gemini gemini-flash-lite-latest
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
-
-FACTUAL ERRORS:
-- "₹1.5 Lakh Crore in Manufacturing Subsidies" — The article later cites the approved outlay as ₹1.97 lakh crore, not ₹1.5 lakh crore. [confidence: high]
-
-- "a $1.5 billion LG-JSW battery gigafactory" — The article later states that no such joint venture exists in government records, with the actual beneficiaries being Ola, Reliance, and ACC. [confidence: high]
+FACTUALERRORS:
+- "the Economic Survey 2025-26 put cumulative disbursement at ₹23,946 crore as of September 2025" — The Economic Survey is presented annually in July (for the preceding fiscal year) and would not cover September 2025 data, nor is there an official "Economic Survey 2025-26" covering that future period. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "the government's own headline figure is ₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay — about 18% paid out" — While the figures are correct, the article implies that the low disbursement rate (18%) reflects poor execution of the PLI schemes. However, the article also notes that PLI payments are milestone-based and tied to actual investments and output, meaning disbursement lags are expected. The 18% figure alone does not indicate inefficiency without context on timelines and milestones. [confidence: high]
+- none found
 
-- "the macro case for PLI as a whole is genuinely stronger than the disbursement rate alone suggests, since much of its intended effect works through investment commitments and capacity-building rather than the subsidy cheque itself" — While the article correctly notes that PLI aims to attract investment and build capacity, it does not provide evidence that the ₹3.2 lakh crore in realized investment or ₹18.7 lakh crore in incremental production/sales are directly attributable to PLI rather than other factors (e.g., market demand, global supply chain shifts). The causal link between PLI and these outcomes is asserted without sufficient verification. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- **"₹1.5 lakh crore in manufacturing subsidies"** — The article later clarifies that the **₹1.97 lakh crore** is the *approved outlay* across all PLI schemes, not the total disbursed amount (which is ₹35,354 crore as of March 2026). The headline figure conflates approved budget with actual allocation. [confidence: high]
+- **"LG Energy Solution–JSW $1.5 billion battery gigafactory"** — The article explicitly states this deal is **not in any government record** and is based on a non-binding, unverified trade report. No such project appears in official PLI-ACC beneficiary lists. [confidence: high]
+
+---
+
+**INTERPRETATION ERRORS:**
+- **"The ₹35,354 crore disbursed by March 2026 against a ₹1.97 lakh crore approved outlay — about 18% paid out"** — While the math is correct, the **18% disbursement rate obscures the program’s broader impact**: the article later notes that **₹3.2 lakh crore in investment, ₹18.7 lakh crore in production, and ₹8.2 lakh crore in exports** have been generated *independent of subsidies*. The causal link between disbursements and outcomes is overstated; much of the PLI’s effect stems from **commitment-based incentives** (e.g., milestones tied to investment/output), not actual payouts. [confidence: high]
+- **"PLI-ACC batteries and PLI Solar have disbursed nothing"** — The zero-disbursement claim is accurate, but the **reasoning gap** lies in attributing this to "government failure" without analyzing whether **beneficiaries have met milestones** (e.g., investment thresholds). The article later suggests beneficiaries may not have cleared hurdles, but this isn’t explored in the broader narrative. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- **"₹2,386 cr paid under PLI Auto (as of 31 March 2026)"** — The article notes this supersedes an earlier **₹1,350.83 cr figure (30 November 2025)** from the same source, but **no newer official release** (e.g., FY2026-27 disbursement updates) is cited beyond the March 2026 snapshot. For real-time tracking, readers should check the **Ministry of Heavy Industries’ latest PLI Auto disbursement bulletin** (series: *PLI Auto Scheme Progress Reports*). [confidence: high]
+- **"₹23,946 cr disbursed by September 2025 (Economic Survey 2025-26)"** — The **Economic Survey 2025-26** (released in February 2026) is now outdated. The **latest cumulative disbursement** (₹35,354 cr as of March 2026) should reference the **Economic Survey 2026-27** (forthcoming) or **MoHI’s latest quarterly updates** (series: *PLI Scheme Disbursement Data*). [confidence: high]

@@ -7,34 +7,40 @@
 
 Source: `posts/would-more-sgst-fix-donor-state-problem.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `45a2765f5aba4cd6`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹17,865 crore at E20 and ₹26,792 crore at E30" — The figures appear to be modeled estimates rather than verified state treasury filings, as explicitly noted in the article's sources section ("modelled fiscal figures using fixed petrol/ethanol price assumptions, not state treasury filings"). Without primary data confirmation, these cannot be treated as factual. [confidence: high]
-
-- "PIB’s 1 August 2026 devolution instalment share" — The date "1 August 2026" is in the future relative to the current date (2023), making this claim unverifiable and likely a typographical error (likely intended as "2023" or another past year). [confidence: high]
+- "PIB’s 1 August 2026 devolution instalment share" — This date is in the future relative to the training cutoff, but PIB release dates for standard monthly devolution instalments do not typically fall on August 1 (they are usually periodic, often mid-month), and August 2026 represents a future date that cannot have a realized official release in historical data. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population." — The reasoning assumes that the donor-state grievance is solely about absolute revenue loss, ignoring that the grievance may stem from *per capita* or *relative* contributions (e.g., states contributing more *per capita* to the GST pool despite having smaller populations). The argument conflates absolute gains with the actual grievance mechanism. [confidence: high]
+- "Every litre of ethanol blended into the fuel supply shifts revenue out of a state’s high-rate VAT base and into a low, nationally-fixed GST rate — a straight state-revenue loss that scales with the blending ratio" — While it true that petrol carries high state VAT while ethanol is taxed at a lower flat GST rate, treating this as a straightforward "state-revenue loss" ignores the induced economic activity and the fact that ethanol replaces taxable petroleum imports or consumption; more importantly, states collect their own SGST on the supply of ethanol itself, meaning the revenue does not simply vanish into a national pool without state-level SGST accrual. [confidence: medium]
 
-- "The ethanol-SGST shortfall falls hardest, in absolute terms, on Telangana, Karnataka and Maharashtra — the same three states that combine the highest petrol VAT rates with the weakest devolution ratios — closing that one specific gap would do the most, in practice, for exactly the states making the loudest donor-state argument." — The claim implies a causal link between ethanol-SGST losses and devolution ratios, but the table shows that Gujarat and Tamil Nadu (with low petrol VAT rates) are also donor states despite not being heavily exposed to ethanol-SGST losses. The overlap is not as clean as suggested, and the conclusion overgeneralizes from a subset of states. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"The effective share states actually receive is closer to 29–30%, because cesses and surcharges [...] have grown as a share of central revenue."* — The claim conflates **cesses/surcharges as a share of *total* central revenue** (which is correct as a structural observation) with their impact on the **divisible pool under Article 270** (which is constitutionally fixed at ~20–25% of total central revenue, not 29–30% of *gross* revenue). The 29–30% figure cited is likely an **overestimate of the *effective* devolution share** (which is closer to **~35–38%** when accounting for the divisible pool’s share of total central revenue). [confidence: high]
 
-## Cerebras gpt-oss-120b
+- *"The Ministry of Finance should publish each year [...] cesses and surcharges as a share of gross tax revenue and the resulting effective share of gross revenue transferred to states."* — While this is a reasonable policy proposal, **no such official publication exists as of 2026** (the latest PIB devolution releases only break down cesses/surcharges separately from the divisible pool, not as a share of *gross* revenue). The claim assumes this data is readily available, which it is not. [confidence: high]
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+---
+
+**INTERPRETATION ERRORS:**
+- *"Raising the SGST share would help every state in proportion to its own GST base — which means it would help Maharashtra, Karnataka, Gujarat and Tamil Nadu (the states already collecting the most GST) the most in absolute terms, while doing comparatively little for Uttar Pradesh or Bihar, whose own GST base is smaller relative to their population."* — This **double-counts the problem**: The argument assumes SGST share increases would address the **devolution gap** (a Finance Commission issue), but SGST is **not part of the divisible pool** under Article 280. The real grievance is about the **41% vertical devolution share of the divisible pool**, not SGST’s 50% split with CGST. The claim misleads by treating SGST as a substitute for devolution reforms. [confidence: high]
+
+- *"Five of the six states in the table below are net devolution ‘donors,’ and three of them — Telangana, Karnataka and Maharashtra — are also the three most exposed to the ethanol-SGST shortfall."* — While the **correlation is statistically valid for these three states**, the claim **overgeneralizes** the ethanol-SGST issue as a universal solution for all donor states. Gujarat and Tamil Nadu (also donors) have **low petrol VAT rates**, meaning their ethanol-SGST exposure is minimal, while Uttar Pradesh (a receiver) has **higher VAT rates** but is not disproportionately affected by ethanol blending. The ethanol fix is **state-specific**, not a one-size-fits-all remedy. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"Devolution ÷ effective-GST-share ratio, by State [...] Ratio <1× = net donor state · >1× = net receiver state"* (using **PIB’s 1 August 2026 devolution instalment share ÷ FY2025-26 effective-GST share**). — The **FY2025-26 effective GST share** (SGST + settled IGST) is outdated. The **latest full-year data** (as of mid-2024) is from **FY2023-24**, published by the **GSTN in its annual reports** (e.g., [GSTN’s FY2023-24 statistical report](https://www.gst.gov.in/)). Recomputing the ratio with FY2024-25 data (expected by December 2024) would yield updated figures. [confidence: high]
+
+- *"The ethanol-SGST shortfall figures cited here [...] ₹17,865 crore at E20 and ₹26,792 crore at E30, nationally"* — These are **modelled estimates** from the blog’s earlier piece (2023) but **not verified against treasury data**. The **latest official data** on ethanol blending and state-wise VAT displacement would require cross-checking with:
+  - **PNGRB’s latest fuel price orders** (e.g., [PNGRB’s 2024 blending mandates](https://pngrb.gov.in/))
+  - **State budget documents** (e.g., Karnataka/Telangana’s FY2024-25 VAT revenue statements)
+  - **GSTN’s annual reports** (for IGST/SGST splits by state). [confidence: high]

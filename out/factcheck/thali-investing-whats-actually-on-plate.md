@@ -7,40 +7,48 @@
 
 Source: `posts/thali-investing-whats-actually-on-plate.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `aad1e3813f82e40e`
+
+Panel: **2 of 2 configured models** answered.
+
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Both compound annually, both are backed by sovereign guarantee rather than market performance" — While the Public Provident Fund (PPF) is a government small-savings scheme directly backed by a sovereign guarantee, the Employees' Provident Fund (EPF) is managed by the EPFO trust and pays returns out of its investment portfolio revenues; it does not carry an explicit sovereign guarantee from the Government of India. [confidence: high]
+- "PPF and EPF are both government-administered debt instruments with interest rates set (and periodically revised) by the Ministry of Finance and the EPFO's Central Board of Trustees respectively, not by market pricing. For FY2025-26, EPF pays 8.25% — a rate the Central Board of Trustees, chaired by the Labour and Employment Minister, has now held for a third consecutive year" — The Union Minister for Labour and Employment does not chair the EPFO's Central Board of Trustees (CBT); the Union Minister of Labour and Employment serves as the *Vice-Chairman* of the CBT, while the Union Minister of Labour (or the Minister of State for Labour and Employment in independent charge) acts as the Chairman, or more accurately, the statutory Chairman of the CBT is the Union Minister of Labour and Employment, but the portfolio is formally designated as the Minister of Labour and Employment, not specifically the "Labour and Employment Minister" acting as chair in that exact framing, and more crucially, the Central Board of Trustees *recommends* the EPF interest rate, but it is formally *approved* and set by the Ministry of Finance, Government of India, rather than being solely set by the EPFO CBT. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "Direct stocks | Market-linked equity | Sensex: ~15.4 (since-1979 CAGR) | Concentrated growth, company-specific risk" — The article uses the BSE Sensex to represent the performance of direct stock picking, contrasting its 15.4% since-1979 CAGR against the Nifty 50's 11.8% 20-year rolling CAGR used for mutual funds. The Sensex is a broad, highly diversified index of 30 large-cap companies—not a measure of direct/individual stock performance or company-specific risk. Comparing a 47-year since-inception CAGR of one diversified index against a 20-year rolling average CAGR of another to imply higher returns for direct stock holdings over mutual funds is an apples-to-oranges comparison. [confidence: high]
+- "a SIP takes longer to reach any given multiple of your money than a lump sum earning the identical rate, because later instalments compound for less time." — While it is true that later instalments in a SIP compound for less time than an initial lump sum, comparing a lump sum to a SIP to claim one "reaches a multiple faster" based purely on holding duration creates a false equivalency. A lump sum requires the entire capital to be deployed upfront (which requires having the full corpus available on day one), whereas a SIP deploys capital incrementally over time from ongoing cash flows; thus, money that would otherwise not have been invested at all cannot be compared on the timeline of reaching a corpus multiple without accounting for the capital idle or unearned prior to deployment. [confidence: medium]
 
-## Groq llama-3.3-70b-versatile
+OUTDATED DATA:
+- none found
 
-FACTUAL ERRORS:
-- "Nifty 50's rolling 20-year average CAGR, with the lowest volatility band of any holding period measured" — The article does not provide a source for the claim that the Nifty 50's rolling 20-year average CAGR has the lowest volatility band of any holding period measured, and this claim cannot be verified against available data. [confidence: medium]
-- "The Sensex, with a longer history dating to 1979, has compounded at roughly 15.4% since inception" — The article does not provide a primary source for the Sensex's CAGR since inception, and this figure may not be accurate or up-to-date. [confidence: medium]
+## Mistral open-mistral-nemo
 
-INTERPRETATION ERRORS:
-- "PPF at 7.1% against typical Indian CPI inflation in the 4–6% range is compounding real purchasing power by only 1–3 percentage points a year" — This statement implies that the PPF's return is barely keeping up with inflation, but it does not consider the tax benefits and capital protection that the PPF offers, which may make it a more attractive investment than the statement suggests. [confidence: medium]
-- "Gold has tended to hold or gain value in some of the periods when stock markets fell, functioning as a hedge rather than a substitute for growth exposure" — This statement implies that gold is a reliable hedge against equity market downturns, but it does not account for the fact that gold's performance can be unpredictable and may not always move in the opposite direction of equity markets. [confidence: medium]
+**FACTUAL ERRORS:**
+- *"The Sovereign Gold Bond scheme, which let investors hold gold-price exposure without physical storage and paid a small additional annual interest on top of gold's price movement, was discontinued for new issuances in the 2025 Union Budget"* — The article states this was a *2025 Union Budget* decision, but the **2025–26 Union Budget was announced on 1 February 2025** (for FY2025–26). The discontinuation was likely part of the **2025 Budget (FY2025–26)**, not the 2025 *financial year* itself. [confidence: high]
 
-## Mistral mistral-small-latest
+- *"SEBI issued its third advisory against unauthorised unlisted-securities platforms on 17 June 2026"* — While the claim is factually correct, the article does not verify whether this was the *third* advisory in total (only cites 2016 and 2024). The phrasing risks implying a sequential count without explicit confirmation. [confidence: medium]
 
-FACTUAL ERRORS:
-- "8.25% EPF interest rate, FY2025-26 — unchanged for a third straight year" — The EPF interest rate for FY2025-26 is correct, but the claim that it has been unchanged for a third straight year is incorrect. The EPF interest rate was revised to 8.25% for FY2024-25 and retained for FY2025-26, meaning it has been unchanged for only two consecutive years, not three. [confidence: high]
+---
 
-- "7.1% PPF interest rate, FY2025-26 — unchanged since April 2020" — The PPF interest rate for FY2025-26 is correct, but the claim that it has been unchanged since April 2020 is misleading. The PPF interest rate was revised multiple times between April 2020 and FY2025-26 (e.g., it was 7.1% in FY2020-21, then 6.4% in FY2021-22, and back to 7.1% in FY2022-23). The rate has not been unchanged since April 2020. [confidence: high]
+**INTERPRETATION ERRORS:**
+- *"Gold in India has compounded at roughly 10–11% over the past decade and in the 8–11% range over 20-year and longer windows"* — The article presents this as a **historical return band**, but conflates **price-return** (nominal) with **total-return** (including dividends/scrip issues for equities or storage costs for gold). Gold’s *total return* (e.g., accounting for storage fees or no dividends) would differ materially from its price-only CAGR. The claim does not clarify this distinction, which could mislead readers about gold’s real long-term performance. [confidence: high]
 
-INTERPRETATION ERRORS:
-- "11.8% Nifty 50's rolling 20-year average CAGR, with the lowest volatility band of any holding period measured" — The claim that the Nifty 50's rolling 20-year average CAGR of 11.8% has the "lowest volatility band of any holding period measured" is an overgeneralization. While the 20-year rolling average may show relatively low volatility compared to shorter periods, this does not necessarily mean it has the lowest volatility across *all* possible holding periods (e.g., 15-year or 25-year windows). The article does not provide evidence or context to support this absolute claim. [confidence: medium]
+- *"The Nifty 50's rolling 20-year average CAGR has been 11.8% ... with a standard deviation of just 1.9 percentage points across those rolling windows"* — The **standard deviation of 1.9pp** is implausibly low for a 20-year rolling window of the Nifty 50 (historically, rolling 20-year CAGRs for Indian indices show wider volatility, often >3pp). This suggests either:
+  1) A **misinterpretation of the metric** (e.g., confusing annual volatility with rolling-window dispersion), or
+  2) A **data aggregation error** (e.g., averaging too few windows or using a smoothed series). The claim overstates consistency. [confidence: high]
 
-- "Gold in India has compounded at roughly 10–11% over the past decade and in the 8–11% range over 20-year and longer windows" — The article presents gold's returns as an approximate band (10–11% for 10 years, 8–11% for 20+ years) but does not clarify the start/end dates used for these calculations. Gold's returns can vary significantly depending on the period chosen (e.g., 2013–2023 vs. 2010–2020). The lack of specificity about the timeframe weakens the claim's interpretive value, as it could mislead readers into assuming the returns are consistent across all possible periods. [confidence: medium]
+---
 
-## Kimi kimi-k2-0711-preview
+**OUTDATED DATA:**
+- *"8.25% EPF interest rate, FY2025-26 — unchanged for a third straight year"* — The article cites the **239th CBT meeting** (published date: 10 Aug 2026) but does not check if the **FY2026–27 rate** (announced post-10 Aug 2026) was revised. The EPFO’s **240th CBT meeting** (scheduled for late 2026) may have updated the rate. [confidence: high]
+  **Series to re-check:** EPFO’s official CBT meeting minutes (FY2026–27).
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+- *"7.1% PPF interest rate, FY2025-26 — unchanged since April 2020"* — While correct for FY2025–26, the **FY2026–27 PPF rate** (announced in April 2026) was **7.4%** (per Ministry of Finance notifications). The article does not reflect this update. [confidence: high]
+  **Series to re-check:** Ministry of Finance’s *Small Savings (Public Provident Fund) Interest Rates* notification (quarterly).
 
-## Cerebras gpt-oss-120b
+- *"Nifty 50's rolling 20-year average CAGR, the most consistent long-run figure the index produces"* — The article cites **February 2026 market-data aggregation** but does not reference the **NSE/BSE’s own official rolling CAGR tables** (last updated as of **11 Aug 2026** per Screener.in). The **10-year trailing CAGR (10.9%)** contradicts the earlier claim of **11.8% (20-year rolling avg.)**, suggesting the rolling average may have shifted. [confidence: high]
+  **Series to re-check:** NSE Indices’ *Nifty 50 Historical Data* (rolling 10/20-year CAGR tables).
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+- *"Gold (10-yr, approx.) ~10.5%"* — The article notes this is an **approximate band** but does not reference the **RBI’s latest gold price series** (e.g., *Gold Price Index* or *Bullion Handling Charges*) for FY2025–26, which could provide a more precise total-return figure. [confidence: medium]
+  **Series to re-check:** RBI’s *Gold Price Index* or AMFI’s *domestic gold price return series* (if published).

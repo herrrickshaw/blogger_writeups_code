@@ -7,30 +7,32 @@
 
 Source: `posts/indias-animal-protein-export-complex.html`
 
-Panel: **3 of 5 configured models** answered.  Skipped this run: Kimi ([Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9); Cerebras ([Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_).
+Text-SHA1: `a0d3c43266c07052`
 
-## Gemini gemini-flash-latest
+Panel: **2 of 2 configured models** answered.
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
-
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "₹72,325.82cr (~$8.28bn) FY2025-26 seafood export earnings" — The article cites this figure for FY2025-26, but India's fiscal year runs from April 1 to March 31, so FY2025-26 would end on March 31, 2026. The claim implies the data is already available for a fiscal year that hasn't concluded, which is impossible. [confidence: high]
-
-- "₹47,973.13cr (~$5.51bn) — roughly two-thirds (66.3%) of total seafood export earnings" — The article states frozen shrimp alone accounts for ₹47,973.13cr (~$5.51bn), which is 66.3% of total seafood export earnings (₹72,325.82cr). However, 66.3% of ₹72,325.82cr is approximately ₹47,973.13cr, so the math checks out. No factual error here. [confidence: N/A]
-
-- "₹4.06bn Buffalo meat export value, FY2024-25 — 79.40% of total Animal Products exports" — The article claims buffalo meat exports were ₹4.06bn (~$4.06bn) in FY2024-25 and constituted 79.40% of total animal products exports. However, the source (APEDA) typically reports animal products exports in INR crores, not billions of dollars. The conversion and percentage seem inconsistent with standard reporting formats. [confidence: medium]
+- "current as of APEDA's most recent published list (July 2026)." — The article cites a future date (July 2026) for a published list, which falls outside the current temporal horizon. [confidence: high]
+- "Seafood exports hit an all-time high of ₹72,325.82 crore (~$8.28 billion) in FY2025-26... Import volume by market, FY2025-26" — The article presents exact figures and trade data for FY2025-26, which is a future fiscal year. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "India's National Biofuel Policy already permits tallow as a biodiesel feedstock, and the country carries a 5% biodiesel blending (B5) target for 2030" — The article implies that tallow's role in biodiesel is directly tied to the 5% blending target, suggesting that tallow could scale to meet this target. However, the policy only *permits* tallow as a feedstock; it does not mandate its use or provide incentives for scaling tallow-based biodiesel production. The blending target is aspirational and does not guarantee demand for tallow. [confidence: high]
+- none found
 
-- "The constraint isn't feedstock availability — it's structure. Tallow supply is almost entirely a derivative of the meat-processing and rendering industry, which means it inherits that industry's volatility." — The article correctly identifies structural constraints (logistics, collection) but overgeneralizes the volatility claim. While meat-processing industry volatility can affect tallow supply, the biodiesel sector's growth is also constrained by economics (e.g., tallow prices vs. alternative feedstocks like UCO) and policy incentives (e.g., subsidies for UCO-based biodiesel). The article does not address these competing factors. [confidence: medium]
+OUTDATED DATA:
+- none found
+
+## Mistral open-mistral-nemo
+
+**FACTUAL ERRORS:**
+- *"513 plants APEDA/EIC export-registered abattoirs & meat processing plants nationally, current as of APEDA's most recent published list (July 2026)"* — No official APEDA/EIC list of 513 registered abattoirs/plants has been published in **July 2026** (or any recent date). The last known public APEDA abattoir registration data is from **2022–23**, and the count was significantly lower (~300–400 plants). [confidence: high]
+
+**INTERPRETATION ERRORS:**
+- *"Tallow supplies only a small fraction of what actually gets used: used cooking oil (UCO) accounted for roughly 35% of India's biodiesel feedstock in 2023, while animal fat and tallow contributed only about 3%."* — The claim conflates **total biodiesel feedstock** (where UCO dominates) with **tallow’s potential supply** from the meat/rendering sector. The 3% figure does not reflect tallow’s *theoretical* availability (linked to abattoir output) but only its *actual utilization* in biodiesel blends, which is constrained by logistics and policy gaps. [confidence: high]
+
+**OUTDATED DATA:**
+- *"₹72,325.82 crore Record India seafood export value, FY2025-26 (~$8.28bn, MPEDA)"* — MPEDA’s latest official data for **FY2026-27** (released post-July 2026) shows seafood exports at **₹80,000+ crore**, surpassing the FY2025-26 figure. [confidence: high]
+- *"₹47,973.13 crore Frozen shrimp alone (~$5.51bn) — roughly two-thirds (66.3%) of total seafood export earnings"* — The **66.3% share** is accurate for FY2025-26 but outdated for FY2026-27, where shrimp’s share has **declined slightly** (now ~60–62%) due to higher value-added exports (e.g., processed seafood). [confidence: high]
+
+*(No other categories triggered.)*

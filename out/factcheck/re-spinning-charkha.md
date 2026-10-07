@@ -7,34 +7,44 @@
 
 Source: `posts/re-spinning-charkha.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `9e8598a06ebc4483`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "Year | Facility | What it added | 1966 | Naroda, Gujarat | First manufacturing plant — woven & knitted fabric (Vimal brand)" — The claim that Reliance's first manufacturing facility in 1966 produced both woven and knitted fabric is incorrect. Reliance's first plant at Naroda (1966) was a textile mill focused on woven fabric under the Vimal brand, not knitted fabric. Knitting was introduced later. [confidence: high]
-
-- "The pivot from trading to making began in 1966, when Reliance set up its first manufacturing facility — a textile mill at Naroda, near Ahmedabad — weaving polyester and polyester-blend fabric under what would become the Vimal brand." — The claim that the Naroda plant was weaving polyester and polyester-blend fabric in 1966 is misleading. Reliance initially focused on cotton and cotton-blend fabrics before gradually introducing polyester blends in the late 1960s and early 1970s. The Vimal brand became associated with polyester blends later, not at its inception. [confidence: high]
+- "FY2025-26 imports, USD million... China supplies 45% of Ch29 organic-chemical imports and 30% of Ch39 plastics imports... Source: Ministry of Commerce & Industry, TRADESTAT country-wise commodity data, FY2025-26" — The article attributes full fiscal year 2025-26 trade data to the Ministry of Commerce, but as of the author's writing timeframe (August 2026 or earlier), complete official data for the full fiscal year 2025-26 would not yet be finalized and published by official sources like DGCI&S, given typical government data lag. [confidence: medium]
 
 INTERPRETATION ERRORS:
-- "What makes today's version of this story worth telling is that the mechanism has changed even though the destination hasn't. Ambani's backward integration was capital-driven and single-firm: Reliance financed and built each cracker, each refinery, each polyester line itself, licence by licence, over three decades. The version underway now — detailed in From Fuel to Fibre and its HSN annexure — is policy-driven and distributed across dozens of companies, and its feedstock unlock comes from a different source entirely: ethanol blending." — The claim that ethanol blending is the *only* or *primary* source of feedstock unlock for the new integration is an overstatement. While ethanol blending frees up petrol-range naphtha/reformate, the broader feedstock deficit ($20bn) also depends on other factors like import substitution policies, PM MITRA parks, and global supply chain dynamics. Ethanol blending alone does not account for the entire feedstock unlock mechanism. [confidence: high]
+- "As E20 (and a prospective E30) ethanol blending displaces petrol at the pump... refiners are left with petrol-range naphtha and reformate that no longer needs to becomes petrol. That freed volume feeds the same two conversion paths..." — The reasoning assumes a direct, 1:1 chemical and volumetric equivalence where displaced petrol volumes (which are oxygenated fuel blends containing anhydrous ethanol) cleanly convert into surplus refinery streams (naphtha and reformate) of identical quality and quantity suitable for steam crackers without accounting for complex refinery yield optimization, octane balancing, or the fact that ethanol itself is produced largely from food grains/molasses rather than directly freeing up an equivalent stream of petrochemical-grade naphtha within the same refining slate. [confidence: medium]
 
-- "A fabric company that also makes its own fibre captures that margin. A fibre company that also makes its own monomers captures that margin too. Push the logic all the way to crude oil, and a company that starts as a cloth trader ends up owning the refinery — not because refining and retailing shirts are naturally the same business, but because each link backward removes one more point of foreign dependency and one more slice of imported cost." — The reasoning gap here is that the argument conflates *vertical integration* (owning multiple stages of production) with *owning crude oil refining*. While backward integration can reduce import dependency, it does not inherently require owning a refinery. Many companies integrate backward without owning upstream crude oil assets (e.g., Reliance's integration was from fabric to yarn to petrochemicals, not necessarily crude oil refining). The claim implies a direct causal link between integration and crude ownership, which is not universally true. [confidence: high]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"China supplies 45% of Ch29 organic-chemical imports and 30% of Ch39 plastics imports"* — The article’s own TRADESTAT table shows China’s share for **Ch29 (organic chemicals)** is **11,521.5/25,600 ≈ 45%** (correct), but for **Ch39 (plastics)**, the share is **6,711.5/22,500 ≈ 30%** (also correct). However, the **$20bn deficit claim** conflates Ch29 and Ch39 totals (11,521.5 + 6,711.5 = **$18.2bn**, not $20bn). The article later cites **$20.4bn** (FY2025-26 TRADESTAT running total) but does not reconcile this with the table’s subchapter sums. [confidence: high]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"India's $20bn petrochemical-feedstock deficit... is dominated by one country far more than any other single supplier"* — While China’s **45% share in Ch29** (organic chemicals) is correct, the **Ch39 (plastics) data shows a more diversified supplier base** (e.g., UAE’s 1,195.8M USD share is larger than Russia’s 38.5M USD). The article later notes that **specific monomers (e.g., PTA, PE) have different supplier maps** (e.g., PTA: 60% South Korea, 2.5% China). Claiming China is the "single largest source" of the **entire $20bn deficit** overstates its role in **monomer-specific imports**, which are critical for the ethanol-backed substitution strategy. [confidence: high]
+
+- *"The freed volume [from ethanol blending] feeds the same two conversion paths Reliance built... into olefins (ethylene, propylene → MEG, polypropylene, acrylonitrile)"* — The article assumes **all freed naphtha/reformate** will automatically flow into petrochemicals, but this ignores:
+  1. **Export arbitrage**: Freed naphtha/reformate may be **exported** (e.g., to Gulf refiners) rather than used domestically.
+  2. **Competing uses**: Naphtha could also feed **petrochemicals for non-fibre uses** (e.g., solvents, adhesives) or **petrol blending** if ethanol mandates ease.
+  3. **Infrastructure gaps**: Without dedicated cracker capacity (e.g., in PM MITRA parks), even freed feedstock may not convert efficiently. The claim **overstates causal certainty** between ethanol blending and feedstock substitution. [confidence: high]
+
+---
+**OUTDATED DATA:**
+- *"FY2025-26 imports, USD million (Ch29 organic chemicals + Ch39 plastics)"* — TRADESTAT’s **FY2025-26 data is preliminary** and subject to revisions. For **real-time figures**, check:
+  - **DGCI&S Trade Data Portal** ([https://dgcis.gov.in](https://dgcis.gov.in)) for **FY2026-27** (latest fiscal year).
+  - **Niryat.gov.in** (if accessible) for **monthly/quarterly updates** post-FY2026-27.
+  The article’s **$20.4bn deficit** (TRADESTAT running total) may differ from the **finalized FY2025-26 figures** (e.g., post-audit adjustments). [confidence: high]
+
+- *"PPAC should publish each year the volume of petrol-range naphtha and reformate freed by ethanol blending"* — No **official PPAC data** on this exists yet. For **real-time tracking**, rely on:
+  - **OIL/BPCL/RIL quarterly reports** (e.g., "Ethanol Blending Progress" in their sustainability reports).
+  - **CII/PIB press releases** on ethanol mandates (e.g., E20/E30 rollout updates).
+  The article’s **10.8 billion litres displaced under E20** (PPAC/CareEdge estimate) lacks a **primary source citation** for FY2025-26. [confidence: high]

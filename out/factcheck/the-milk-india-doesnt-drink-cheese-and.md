@@ -7,34 +7,38 @@
 
 Source: `posts/the-milk-india-doesnt-drink-cheese-and.html`
 
-## Gemini gemini-flash-latest
+Text-SHA1: `f2c893221cb071ba`
 
-[Gemini API error 429: {
-  "error": {
-    "code": 429,
-    "message": "You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota ex]
+Panel: **2 of 2 configured models** answered.
 
-## Groq llama-3.3-70b-versatile
-
-[Groq/llama-3.3-70b-versatile API error 404: {"error":{"message":"The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.","type":"invalid_request_error","code":"model_not_found"}}
-]
-
-## Mistral mistral-small-latest
+## Gemini gemini-flash-lite-latest
 
 FACTUAL ERRORS:
-- "India produced an estimated 216.5 million tonnes (MT) of milk in 2025" — The article cites multiple conflicting figures for India's milk production (216.5 MT, 228 MT, and 239.2 MT for 2025/2023-24), and the 216.5 MT figure is not the most recent or authoritative one. [confidence: high]
-
-- "India's mozzarella exports reached USD 3.29 million in April-September 2025, a year-on-year increase of more than 1,200%" — The 1,200% figure refers to export growth, not Amul's production capacity expansion, which was incorrectly conflated in the claim. [confidence: high]
+- "Milky Mist | Private challenger, South-India-heavy | Listed on the stock exchange in August 2026; [...] South India supplied 69.23% of FY26 revenue" — Milky Mist (Milky Mist Dairy Food Private Limited) is a private unlisted company and did not list on the stock exchange in August 2026. [confidence: high]
 
 INTERPRETATION ERRORS:
-- "cheese isn't competing with milk, it's competing for a share of milk that's already leaving the liquid channel, against ghee, paneer and powder that got there first" — While cheese competes for non-liquid milk, the article does not provide evidence that cheese is *actually* displacing other products (e.g., ghee or paneer) in the non-liquid milk pool. The claim assumes competition without demonstrating substitution or market dynamics. [confidence: medium]
+- "India made 247.87 million tonnes of milk in 2024-25 — more than any other country — and sells roughly two-thirds of it exactly the way it left the buffalo: liquid, in a pouch, same day." — The article uses total national milk production (which includes milk from cows, goats, and sheep) to claim that two-thirds of it is sold "exactly the way it left the buffalo," ignoring that cows contribute the majority of India's total milk production. [confidence: medium]
 
-- "The growth story is mozzarella, and mozzarella's growth story is pizza and QSR chains, not the breakfast table" — The article correctly identifies mozzarella's dominance and QSR-driven demand but does not quantify the relative decline of breakfast cheese (e.g., processed cheese cubes) or prove that QSR growth is the *sole* driver of mozzarella's expansion. The causal claim is overstated. [confidence: medium]
+OUTDATED DATA:
+- none found
 
-## Kimi kimi-k2-0711-preview
+## Mistral open-mistral-nemo
 
-[Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g91\u003e is suspended due to insufficient balance, please recharge your account or check your plan and billing details","type":"exceeded_current_quota_error"}}]
+**FACTUAL ERRORS:**
+- *"India produced 247.87 million tonnes of milk in 2024-25"* — The article cites a **Lok Sabha answer from 12 August 2026** as the primary source, but the **2024-25 fiscal year has not yet ended** (as of August 2026). While Lok Sabha answers can reference estimates or projections, the figure is effectively **premature for a finalized government report** unless explicitly marked as an estimate. [confidence: high]
 
-## Cerebras gpt-oss-120b
+---
 
-[Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_required_error","param":"quota","code":"payment_required"}]
+**INTERPRETATION ERRORS:**
+- *"Cheese is currently a rounding error inside [the third of milk not sold as liquid]"* — The claim conflates **volume share** (cheese is a tiny fraction of processed milk) with **economic value share**. While cheese’s volume is negligible (~1-2% of processed milk), its **market value (₹128.9 bn in 2025)** is disproportionately high relative to other processed dairy products (e.g., paneer, powder), making it a **significant niche opportunity**—not just a "rounding error." The framing misrepresents cheese’s **strategic importance** in value-added dairy. [confidence: high]
+
+- *"India's cheese trade surplus... reached ₹403 crore in FY2024-25"* — While the **surplus figure is correct**, the article **overstates its significance** by implying it reflects a broader export-led growth story. The same section later notes that **cheese is a minor segment of India’s dairy exports** (6% of total value, behind ghee, butter, and paneer). The causal link between surplus growth and domestic policy (e.g., PLI) is **weakened** by this inconsistency. [confidence: medium]
+
+---
+**OUTDATED DATA:**
+- *"India's cheese market was valued at roughly ₹128.9 billion (~USD 1.5 billion) in 2025"* — The **IMARC Group report** cited is likely from **2025**, but a **newer edition (e.g., 2026 or 2027)** may exist, given the article’s August 2026 publication date. Check IMARC’s latest dairy market report for updated figures. [confidence: medium]
+
+- *"Milky Mist holds an estimated ~19% share of India's organised packaged paneer market nationally"* — The **August 2026 IPO disclosures** referenced are current, but **market-share figures for paneer/cheese are volatile** due to informal sector dominance. A **2026-27 industry survey** (e.g., from CRISIL or AHDB) could provide a more granular, post-PLI-investment snapshot. [confidence: low]
+
+---
+**none found** (for other categories)
