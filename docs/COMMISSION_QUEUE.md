@@ -516,3 +516,18 @@ moved above. Read this section before picking anything from Open.)*
   two series and two dates, but pull and keep a local copy — the host is intermittent
   (200 today, 503 four days ago).
   Logged: 2026-09-07 from the PPV&FR registry register entry.
+
+- **2026-10-07: "India built an offshore insurance hub…" is PUBLISHED. Stop treating it as
+  Open.** It went out 2026-09-18 as `india-built-offshore-insurance-hub-it`, but the
+  `- [ ]` entry above was never ticked (append-only file).
+  **New update item, not a new article:** refresh that post against the IFSCA Bulletin, Q1
+  FY 2026–27 (see SOURCE_REGISTER, 2026-10-07).
+  - FY26 direct GWP is USD 40.72 Mn, not 12.42, so the headline number is stale.
+  - Reinsurance share is 93.7% (was 94.0%), so the argument survives.
+  - Direct life is 19.43 Mn for FY26 and 13.25 Mn in Q1 FY27 alone.
+  - Suggested form: a dated update box under the headline. Do not rewrite the post.
+  - Checks: (1) unaudited, so say so; (2) do not annualise Q1 FY27's USD 400.30 Mn
+    reinsurance, which is driven by Life and Trade Credit treaties; (3) never add IIIO
+    transacted premium (481.36) to IIO written premium; (4) re-read the post's own checks
+    1 and 3. The Jan–Mar 2025 "one IIO under examination" understatement is now superseded
+    by FY26 data.

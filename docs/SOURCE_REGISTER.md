@@ -1151,3 +1151,56 @@ An empty day. Nothing commissionable and nothing queued.
 - **AERR, "Agricultural wages in India: trends and determinants"**
   (`epubs.icar.org.in/index.php/AERR/article/view/140527`). WEAK by dedup: already logged
   at SOURCE_REGISTER.md:877.
+
+## Added 2026-10-07 (daily task, Tuesday: insurance, reinsurance and financial plumbing)
+
+### IFSCA Bulletin, Q1 FY 2026–27 (Apr–Jun 2026) — materially updates a published post
+
+- **Source:** *IFSCA Bulletin, Q1 FY 2026–27 (Apr–Jun 2026)*, International Financial
+  Services Centres Authority, Division of Economic Policy and Analysis.
+  `ifsca.gov.in/Document/IFSCA_Bulletin.pdf` (a rolling URL that serves the latest edition).
+  Fetched 2026-10-07: HTTP 200, 14.6 MB, 72 pp; `pdftotext -layout` extracts cleanly. Free,
+  no login.
+- **Data:** the insurance tables have been renumbered since the Jan–Mar 2025 edition.
+  - **Table 43:** IIO/IIIO counts.
+  - **Table 44:** written/transacted premium by IIOs and IIIOs.
+  - **Table 45:** direct insurance by class.
+  - **Table 46:** reinsurance by class.
+  - **Table 47:** claims.
+  - All are quarterly for Q1–Q4 FY 2025–26 plus Q1 FY 2026–27, with an FY 2025–26 total.
+    Footnoted "Unaudited data".
+- **Finding (my sums tie to the printed FY totals):**
+  - **FY 2025–26:** direct GWP **USD 40.72 Mn** against reinsurance **USD 607.96 Mn**, so
+    reinsurance is **93.7%** of the IIO book (FY 2024–25: 94.0%). The *share* thesis holds.
+  - The *levels* do not:
+    - Direct cover is 3.3× the USD 12.42 Mn the post headlines.
+    - Direct **life** went from USD 2.54 Mn to **19.43 Mn** in FY26, and **13.25 Mn in Q1
+      FY27 alone**.
+    - Reinsurance went from 195.45 to 607.96 (3.1×).
+    - Q1 FY27 reinsurance was **USD 400.30 Mn**, two-thirds of all of FY26 in one quarter.
+      The jump comes mostly from reinsurance Life (0.8 → 96.66) and Trade Credit
+      (0.2 → 42.55), which look like single large treaties.
+  - IIOs: 36 → 37 (23 of them reinsurers). Outstanding claims rose from USD 173.94 Mn to
+    195.67 Mn.
+- **Blog fit:** a correction/update to `india-built-offshore-insurance-hub-it` (published
+  2026-09-18). That post uses FY 2024–25 figures only (grep: "12.42" ×5, "195.45" ×4,
+  "2024-25" ×8, no FY26 figure). Its headline "$12 Million of Direct Cover a Year" is now a
+  year stale. Labels: Insurance & Reinsurance; Markets & Finance.
+- **Caveats:**
+  1. Unaudited, and the disclaimer warns that figures may be revised for reclassification.
+  2. Q1 FY27 lumpiness. Do not annualise 400.30.
+  3. Crop reinsurance prints −11.5 in Q4 FY26 and Marine Cargo direct −0.01 in Q3:
+     reversals, not business written.
+  4. The old "Health + PA vs separate Health line" puzzle (the post's check 3) does not
+     appear here. FY26 has one Health + PA row in both tables, so it was a reclassification.
+  5. 🔴 The trade-press figure "USD 102 Mn (2020) → >USD 1.2 Bn (2025)" (Reinsurance News,
+     via search snippet; the page returned 403) is probably IIO written premium plus IIIO
+     *transacted* premium (FY26: 648.68 + 481.36 = 1,130.04). Intermediated premium is not
+     underwritten in the IFSC. Never add the two.
+
+### Weak/off-scope, one line each (triaged, not deep-read)
+
+- **Reinsurance News, "GIFT IFSC continues rapid growth as registrations and (re)insurance
+  activity rise"** (Q4 FY26 bulletin write-up). Returned 403 to WebFetch and a Cloudflare
+  stub to curl, so it was not read. Secondary anyway; the primary bulletin above supersedes
+  it.

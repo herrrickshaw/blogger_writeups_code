@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/which-ecb-currencies-are-actually.html",
   "slug": "which-ecb-currencies-are-actually",
   "published": "2026-08-14T18:53:36.000+05:30",
-  "updated": "2026-10-01T09:01:56.958+05:30",
+  "updated": "2026-10-07T11:06:36.580+05:30",
   "labels": [
     "Markets & Finance",
     "Sustainable Finance"
   ],
-  "bytes": 25254,
-  "sha256": "9bf7fca17daa5de1e69b24a7685326c0dffbd6cc73c0cb1a1231c69cbe120297",
+  "bytes": 26295,
+  "sha256": "690f93382af9121880166adc5e706dd8122691695b6f2311c4efdbdb33b59c72",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "3.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -147,6 +147,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.0.0",
+      "date": "2026-10-07T11:08:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+14/-3 distinct numbers)",
+      "bytes": [
+        25254,
+        26295
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "RBI repo 5.50% on 7 Oct: rate drafts"
     }
   ]
 }

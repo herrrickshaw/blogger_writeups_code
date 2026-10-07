@@ -4,7 +4,6 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- ERROR checking chunk: HTTP Error 503: Service Unavailable
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ck reserve requirement for rice from 25 per cent to 10 per cent" — this piece's own rese...
   suggested: percent

@@ -2188,3 +2188,7 @@ resuming: 73 already done, 270 remaining
 … a-17-rural-pay-rise-that-nobody-received  (21808 chars)
   -> out/factcheck/a-17-rural-pay-rise-that-nobody-received.md  [ALL REQUIRED CALLS FAILED]
 stopping early: 2 posts in a row failed on every model — likely a quota wall, not a transient error. 263 posts left; re-run --all once quotas reset (this run already skips done posts).
+panel: Gemini, Groq, Mistral
+Groq model for this run: openai/gpt-oss-120b
+panel reduced for this run — Kimi skipped: [Kimi API error 429: {"error":{"message":"Your account org-2b9fbc9a2a764383a98521792f5b34bd \u003cak-fbuxnsson7u111gx4g9; Cerebras skipped: [Cerebras API error 402: {"message":"Payment required to access this resource. Visit your billing tab.","type":"payment_
+resuming: 345 already done, 0 remaining

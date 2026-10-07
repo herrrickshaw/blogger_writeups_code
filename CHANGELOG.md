@@ -13967,3 +13967,24 @@ Maize used for ethanol corrected to 29% of crop (12.6 MT, govt Lok Sabha reply)
 
 - `under-corsias-own-numbers-corn-ethanol` — 32,911 → 32,986 bytes (+75)
 - `the-diesel-truck-isnt-why-your-eggs` — 21,171 → 22,296 bytes (+1,125)
+
+## 2026-10-07T11:08:30+05:30 — 344 posts live
+
+RBI repo 5.50% on 7 Oct: rate drafts
+
+
+**Versions**
+
+- `which-ecb-currencies-are-actually` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+14/-3 distinct numbers)
+- `cheap-yen-rupee-roads-where-carry-trade` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+5/-0 distinct numbers)
+- `securitising-deficit-what-it-would` **4.1.0 → 5.0.0** (MAJOR) — figures changed (+7/-2 distinct numbers)
+- `the-price-and-tap-two-levers-behind` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+11/-1 distinct numbers)
+- `raising-green-debt-globally-rec-euroyen` **3.1.0 → 4.0.0** (MAJOR) — figures changed (+1/-0 distinct numbers)
+
+**Changed**
+
+- `which-ecb-currencies-are-actually` — 25,254 → 26,295 bytes (+1,041)
+- `cheap-yen-rupee-roads-where-carry-trade` — 28,405 → 28,896 bytes (+491)
+- `securitising-deficit-what-it-would` — 132,593 → 133,752 bytes (+1,159)
+- `the-price-and-tap-two-levers-behind` — 25,048 → 26,639 bytes (+1,591)
+- `raising-green-debt-globally-rec-euroyen` — 70,141 → 70,390 bytes (+249)

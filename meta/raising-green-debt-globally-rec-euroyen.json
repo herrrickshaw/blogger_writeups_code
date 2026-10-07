@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/raising-green-debt-globally-rec-euroyen.html",
   "slug": "raising-green-debt-globally-rec-euroyen",
   "published": "2026-08-03T19:10:19.000+05:30",
-  "updated": "2026-10-01T08:45:44.155+05:30",
+  "updated": "2026-10-07T11:07:53.150+05:30",
   "labels": [
     "Bonds & Fixed Income",
     "Markets & Finance"
   ],
-  "bytes": 70141,
-  "sha256": "5836b20b351822533a41be37125fd4fc12bae6d2a97df27edfd62cfecf52d1f9",
+  "bytes": 70390,
+  "sha256": "4feceb70629e2087503a2dde30ee53cffccc381dc354153731387d5d6f393297",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "4.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -295,6 +295,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.0.0",
+      "date": "2026-10-07T11:08:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+1/-0 distinct numbers)",
+      "bytes": [
+        70141,
+        70390
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "RBI repo 5.50% on 7 Oct: rate drafts"
     }
   ]
 }

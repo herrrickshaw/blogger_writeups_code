@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/securitising-deficit-what-it-would.html",
   "slug": "securitising-deficit-what-it-would",
   "published": "2026-08-04T07:45:51.000+05:30",
-  "updated": "2026-10-01T08:47:55.061+05:30",
+  "updated": "2026-10-07T11:06:52.137+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 132593,
-  "sha256": "e4fef47ff7a998239ecb57b3e7f7f474464bebd67e476ca750add02eac6688f6",
+  "bytes": 133752,
+  "sha256": "8a90c1bc1f9833063aaa5837d10b52c920d9652fe3b9cd3b7d4e969736e5c69a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -320,6 +320,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-07T11:08:30+05:30",
+      "level": "major",
+      "reason": "figures changed (+7/-2 distinct numbers)",
+      "bytes": [
+        132593,
+        133752
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "RBI repo 5.50% on 7 Oct: rate drafts"
     }
   ]
 }
