@@ -26,6 +26,7 @@ import csv
 import json
 import pathlib
 import random
+import re
 import sys
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -163,7 +164,10 @@ def ingest(args):
                     i = int(o["id"])
                 except (TypeError, ValueError):
                     return
-                if i in valid and i not in have and o["classification"] in CLASSES:
+                ev = str(o.get("evidence", ""))
+                unchecked = ev.upper().startswith("UNCHECKED") or re.search(
+                    r"(?i)budget|exhaust|prior knowledge|not verified this session", ev)
+                if i in valid and i not in have and o["classification"] in CLASSES and not unchecked:
                     new[i] = o
                 return
             for v in o.values():
