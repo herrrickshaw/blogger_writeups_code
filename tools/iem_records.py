@@ -750,7 +750,7 @@ COLMAP = [("serial", r"^(s\.?\s*no|sr\.?|sl\.?)"), ("company", r"company|underta
           ("location", r"^location"), ("district", r"district"), ("item", r"item"),
           ("investment_cr", r"invest"), ("employment", r"employ"),
           ("capacity", r"capaci"), ("iem", r"iem ?n|ack ?n|part-b ?n"),
-          ("memo_no", r"mem no|part-a no"), ("memo_date", r"mem date|part-a date"),
+          ("memo_no", r"mem no|part-a ?n(o|umber)"), ("memo_date", r"mem date|part-a ?date"),
           ("production_date", r"production|commenced")]
 # second and third lines of a heading that runs over several table rows
 HDR_CONT = re.compile(r"(?i)^((and |of )?(address|unit|date|manufacture|no\.?|state|district|capacity|item|"
@@ -1018,6 +1018,8 @@ def parse_pdf_tables(pdf_path, part):
         for k in ("memo_no", "memo_date", "production_date", "investment_cr", "employment"):
             if c.get(k):
                 r[k] = c[k]
+        for k in ("memo_date", "production_date"):  # '15-12-/2016' wrapped in its cell
+            r[k] = re.sub(r"\s*([/-])\s*", r"\1", r.get(k, ""))
     return out
 
 
@@ -1141,7 +1143,7 @@ def match_parts(recs):
         k = num_year(r["memo_no"], r["memo_date"])
         if k:
             b_by.setdefault(k, r)
-    a_keys = {num_year(r["iem_no"], r["iem_date"]) for r in recs if r["part"] == "A"}
+    a_keys = {num_year(r["iem_no"], r["iem_date"]) for r in recs if r["part"] == "A"} - {None}
     for r in recs:
         # name-only matching uses just the Part B lines whose cited memorandum is
         # not in the Part A lists; the rest already belong to a numbered filing
