@@ -14006,3 +14006,13 @@ IEM register article published
 **Added**
 
 - `indias-factory-intentions-20012024-how_0101046393` **v1.0.0** — India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants (28,292 bytes)
+
+## 2026-10-07T12:50:28+05:30 — 346 posts live
+
+**Versions**
+
+- `indias-factory-intentions-20012024-how` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+4/-0 distinct numbers)
+
+**Changed**
+
+- `indias-factory-intentions-20012024-how` — 24,860 → 28,292 bytes (+3,432)
