@@ -848,7 +848,7 @@ def parse_pdf_tables(pdf_path, part):
     import fitz  # PyMuPDF, already a data-library-toolkit dependency
     fitz.TOOLS.mupdf_display_errors(False)
     doc = fitz.open(str(pdf_path))
-    out, cmap, cur, blocks, cmap_x = [], None, None, False, {}
+    out, cmap, cur, blocks, cmap_x, ncols = [], None, None, False, {}, 0
 
     def col_centres(tab):
         """x centre of each column, from the row with the most separate cells
@@ -867,7 +867,7 @@ def parse_pdf_tables(pdf_path, part):
     for page in doc:
         for tab in page.find_tables().tables:
             rows = tab.extract()
-            if cmap_x and not any(header_map(r) for r in rows[:8]):
+            if cmap_x and tab.col_count != ncols and not any(header_map(r) for r in rows[:8]):
                 cmap = remap(tab)
             # Some 2018 Part B tables give one row per printed line: the header runs over
             # several rows and the serial sits mid-record, with blank rows between records.
@@ -884,7 +884,7 @@ def parse_pdf_tables(pdf_path, part):
                 if hm and len(hm) > single:
                     cmap, blocks = hm, True
                     xs = col_centres(tab)
-                    cmap_x = {k: xs[i] for k, i in hm.items() if i in xs}
+                    cmap_x, ncols = {k: xs[i] for k, i in hm.items() if i in xs}, tab.col_count
                     rows = rows[len(lead):]
             if blocks and cmap:
                 group = []
@@ -895,7 +895,7 @@ def parse_pdf_tables(pdf_path, part):
                     if group:
                         cells = {key: "\n".join((g[i] or "") for g in group if i < len(g)).strip("\n")
                                  for key, i in cmap.items()}
-                        ser = re.sub(r"\D", "", cells.get("serial", ""))
+                        ser = (re.findall(r"\d+", cells.get("serial", "")) or [""])[0]
                         if ser:
                             out.append({"serial": ser, "layout": "pdf-table", "_raw": cells})
                         elif out:  # a record split by a page break
@@ -909,11 +909,22 @@ def parse_pdf_tables(pdf_path, part):
                 if hm:
                     cmap, blocks = hm, False
                     xs = col_centres(tab)
-                    cmap_x = {k: xs[i] for k, i in hm.items() if i in xs}
+                    cmap_x, ncols = {k: xs[i] for k, i in hm.items() if i in xs}, tab.col_count
                     continue
                 if not cmap:
                     continue
-                raw = lambda k: (row[cmap[k]] or "") if k in cmap and cmap[k] < len(row) else ""
+                used = set(cmap.values())
+
+                def raw(k):
+                    """The cell under heading k; when merged header cells sit one column off
+                    the data (2022 Part A), take the unclaimed neighbouring cell instead."""
+                    if k not in cmap:
+                        return ""
+                    i = cmap[k]
+                    for j in (i, i + 1, i - 1):
+                        if 0 <= j < len(row) and (j == i or j not in used) and (row[j] or "").strip():
+                            return row[j]
+                    return ""
                 ser = re.sub(r"\s+", "", raw("serial"))  # '1\n0' is serial 10 in a narrow column
                 if re.fullmatch(r"\d{1,5}", ser):
                     cur = {"serial": ser, "layout": "pdf-table", "_raw": {k: raw(k) for k in cmap}}
@@ -987,7 +998,12 @@ def parse_file(path, pdf_index=None):
             if recs:
                 layout = recs[0]["layout"]
         md_layout = detect(text)
-        md_recs = PARSERS[md_layout](text, part) if md_layout in PARSERS else []
+        try:
+            md_recs = PARSERS[md_layout](text, part) if md_layout in PARSERS else []
+        except Exception:  # the .md reading is only a cross-check here
+            md_recs = [] if recs else None
+            if md_recs is None:
+                raise
         # a table whose rows find_tables() merged (Dec 2021) yields far fewer records
         # than the text does; keep whichever reading found the list's records
         if len(recs) < 0.5 * len(md_recs):
