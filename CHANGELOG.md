@@ -13988,3 +13988,12 @@ RBI repo 5.50% on 7 Oct: rate drafts
 - `securitising-deficit-what-it-would` — 132,593 → 133,752 bytes (+1,159)
 - `the-price-and-tap-two-levers-behind` — 25,048 → 26,639 bytes (+1,591)
 - `raising-green-debt-globally-rec-euroyen` — 70,141 → 70,390 bytes (+249)
+
+## 2026-10-07T11:42:28+05:30 — 345 posts live
+
+IEM register article published
+
+
+**Added**
+
+- `indias-factory-intentions-20012024-how` **v1.0.0** — India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants (24,860 bytes)
