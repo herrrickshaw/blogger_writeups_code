@@ -752,6 +752,9 @@ COLMAP = [("serial", r"^(s\.?\s*no|sr\.?|sl\.?)"), ("company", r"company|underta
           ("capacity", r"capaci"), ("iem", r"iem ?n|ack ?n|part-b ?n"),
           ("memo_no", r"mem no|part-a no"), ("memo_date", r"mem date|part-a date"),
           ("production_date", r"production|commenced")]
+# second and third lines of a heading that runs over several table rows
+HDR_CONT = re.compile(r"(?i)^((and |of )?(address|unit|date|manufacture|no\.?|state|district|capacity|item|"
+                      r"\(?investment in rs crore\)?|on|commenced on)\s*)+$")
 MONTHS = "january february march april may june july august september october november december".split()
 
 
@@ -848,7 +851,7 @@ def parse_pdf_tables(pdf_path, part):
     import fitz  # PyMuPDF, already a data-library-toolkit dependency
     fitz.TOOLS.mupdf_display_errors(False)
     doc = fitz.open(str(pdf_path))
-    out, cmap, cur, blocks, cmap_x, ncols = [], None, None, False, {}, 0
+    out, cmap, cur, blocks, cmap_x, ncols, mid = [], None, None, False, {}, 0, None
 
     def col_centres(tab):
         """x centre of each column, from the row with the most separate cells
@@ -904,34 +907,88 @@ def parse_pdf_tables(pdf_path, part):
                                     out[-1]["_raw"][key] = (out[-1]["_raw"].get(key, "") + "\n" + v).strip("\n")
                     group = []
                 continue
+            body = []
             for row in rows:
                 hm = header_map(row)
                 if hm:
                     cmap, blocks = hm, False
                     xs = col_centres(tab)
                     cmap_x, ncols = {k: xs[i] for k, i in hm.items() if i in xs}, tab.col_count
+                    body = []  # rows above the heading are titles, not data
                     continue
                 if not cmap:
                     continue
-                used = set(cmap.values())
+                if HDR_CONT.match(" ".join(c.strip() for c in row if c and c.strip())):
+                    # a heading's second line can name a column the first did not ('District State')
+                    for i, c in enumerate(row):
+                        c = re.sub(r"\s+", " ", (c or "")).strip().lower()
+                        for key, pat in COLMAP:
+                            if c and key not in cmap and i not in cmap.values() and re.search(pat, c):
+                                cmap[key] = i
+                                xs = col_centres(tab)
+                                if i in xs:
+                                    cmap_x[key] = xs[i]
+                    continue
+                body.append(row)
+            if not cmap or not body:
+                continue
+            used = set(cmap.values())
 
-                def raw(k):
-                    """The cell under heading k; when merged header cells sit one column off
-                    the data (2022 Part A), take the unclaimed neighbouring cell instead."""
-                    if k not in cmap:
-                        return ""
-                    i = cmap[k]
-                    for j in (i, i + 1, i - 1):
-                        if 0 <= j < len(row) and (j == i or j not in used) and (row[j] or "").strip():
-                            return row[j]
+            def raw(row, k):
+                """The cell under heading k; when merged header cells sit one column off
+                the data (2022 Part A), take the unclaimed neighbouring cell instead."""
+                if k not in cmap:
                     return ""
-                ser = re.sub(r"\s+", "", raw("serial"))  # '1\n0' is serial 10 in a narrow column
-                if re.fullmatch(r"\d{1,5}", ser):
-                    cur = {"serial": ser, "layout": "pdf-table", "_raw": {k: raw(k) for k in cmap}}
+                i = cmap[k]
+                for j in (i, i + 1, i - 1):
+                    if 0 <= j < len(row) and (j == i or j not in used) and (row[j] or "").strip():
+                        return row[j]
+                return ""
+
+            def serial_of(row):
+                s = re.sub(r"\s+", "", raw(row, "serial"))  # '1\n0' is serial 10 in a narrow column
+                return s if re.fullmatch(r"\d{1,5}", s) else None
+
+            sidx = [n for n, row in enumerate(body) if serial_of(row)]
+            if mid is None and sidx:
+                # Jul-Nov 2021: one table row per printed line and the serial number printed
+                # half-way down its record, so some of a record's lines come before its serial
+                mid = any(raw(r, k).strip() for r in body[:sidx[0]] for k in cmap if k != "serial")
+            if mid and sidx:
+                recs = {n: {"serial": serial_of(body[n]), "layout": "pdf-table", "_raw": {k: [] for k in cmap}}
+                        for n in sidx}
+                for k in cmap:
+                    if k == "serial":
+                        continue
+                    n = 0
+                    while n < len(body):
+                        if not raw(body[n], k).strip():
+                            n += 1
+                            continue
+                        m2 = n
+                        while m2 < len(body) and raw(body[m2], k).strip():
+                            m2 += 1
+                        # a run of filled cells belongs to the serial inside it; a run spanning
+                        # two records is split row by row at the nearest serial
+                        inside = [x for x in sidx if n <= x < m2]
+                        for r in range(n, m2):
+                            owner = inside[0] if len(inside) == 1 else min(sidx, key=lambda x: abs(x - r))
+                            recs[owner]["_raw"][k].append(raw(body[r], k))
+                        n = m2
+                for n in sidx:
+                    rec = recs[n]
+                    rec["_raw"] = {k: "\n".join(v) for k, v in rec["_raw"].items()}
+                    out.append(rec)
+                cur = out[-1]
+                continue
+            for row in body:
+                ser = serial_of(row)
+                if ser:
+                    cur = {"serial": ser, "layout": "pdf-table", "_raw": {k: raw(row, k) for k in cmap}}
                     out.append(cur)
                 elif cur is not None:
                     for k in cmap:  # continuation row: a cell carried over a page, or the Place(Tehsil) line
-                        v = raw(k)
+                        v = raw(row, k)
                         if v.strip() and k != "serial":
                             cur["_raw"][k] = (cur["_raw"].get(k, "") + "\n" + v).strip("\n")
     for r in out:
