@@ -3,12 +3,15 @@
 
 PARIVESH 2.0 (MoEFCC's clearance portal) serves its whole EC register, central
 (MoEFCC) and state (SEIAA) proposals alike, from one open JSON endpoint:
-    https://parivesh.nic.in/parivesh_api/trackYourProposal/advanceSearchData?majorClearanceType=1
+    https://parivesh.nic.in/parivesh_api/trackYourProposal/advanceSearchData
+        ?majorClearanceType=1&state=&proposalStatus=&pageNo=0&pageSize=200000
+(the call herrrickshaw/india-ec-subsector-analysis/scripts/refresh_ec.py uses).
 It covers proposals submitted on PARIVESH 2.0, i.e. from 2022. ECs granted
 before that sit on the legacy environmentclearance.nic.in site and are NOT
 checked here, so an IEM filed in 2005 with no EC match may well have had one.
 
     python3 tools/iem_parivesh.py fetch     # one GET (~130 MB), saved to cache/
+    python3 tools/iem_parivesh.py fetch --from DUMP.json   # or reuse a saved dump
     python3 tools/iem_parivesh.py inspect   # record count, field names, sample values
     python3 tools/iem_parivesh.py match     # writes data/iem/iem_parivesh_ec.csv + summary
 
@@ -46,7 +49,7 @@ OUT = ROOT / "data" / "iem"
 # Field names are not documented; these are guesses tried in order, and any key
 # containing the hint word is used if none match. Override with --field.
 FIELDS = {
-    "name": (["proponentName", "nameOfProponent", "userAgencyName", "companyName", "proponent",
+    "name": (["proponentName", "nameOfProponent", "nameOfUserAgency", "userAgencyName", "companyName", "proponent",
               "organisationName", "organizationName", "applicantName"], ("proponent", "company", "agency", "organi", "applicant")),
     "state": (["stateName", "state", "projectState"], ("state",)),
     "status": (["proposalStatus", "status", "currentStatus"], ("status",)),
@@ -66,6 +69,14 @@ def latest_cache():
 
 def fetch(args):
     CACHE.mkdir(exist_ok=True)
+    if args.src:
+        raw = pathlib.Path(args.src).expanduser().read_bytes()
+        body = gzip.decompress(raw) if raw[:2] == b"\x1f\x8b" else raw
+        out = CACHE / f"parivesh_ec_{datetime.date.today():%Y-%m-%d}.json.gz"
+        out.write_bytes(gzip.compress(body))
+        print(f"{len(body):,} bytes from {args.src} -> {out}")
+        print(f"{len(records(json.loads(body))):,} proposals")
+        return
     url = URL + "?" + args.query
     req = urllib.request.Request(url, headers={"Accept": "application/json",
                                                "User-Agent": "Mozilla/5.0 (masaladeutsch-archive iem_parivesh.py)"})
@@ -95,7 +106,16 @@ def records(obj):
 
 
 def flat(d, pre=""):
+    """Nested dicts become a.b keys; other_property, a JSON string of
+    [{"label": ..., "value": ...}] pairs (Activity, Category, ...), becomes op.<label>."""
     out = {}
+    if isinstance(d.get("other_property"), str):
+        try:
+            for p in json.loads(d["other_property"] or "[]"):
+                if isinstance(p, dict) and "label" in p:
+                    out["op." + str(p["label"])] = p.get("value")
+        except ValueError:
+            pass
     for k, v in d.items():
         if isinstance(v, dict):
             out.update(flat(v, pre + k + "."))
@@ -248,7 +268,9 @@ def match(args):
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("cmd", choices=["fetch", "inspect", "match"])
-    ap.add_argument("--query", default="majorClearanceType=1", help="query string for advanceSearchData")
+    ap.add_argument("--query", default="majorClearanceType=1&state=&proposalStatus=&pageNo=0&pageSize=200000",
+                    help="query string for advanceSearchData")
+    ap.add_argument("--from", dest="src", help="fetch: use a saved advanceSearchData JSON dump (.json or .json.gz) instead")
     ap.add_argument("--field", action="append", default=[], metavar="ROLE=KEY",
                     help="override a field, e.g. --field name=proponentName (roles: " + ", ".join(FIELDS) + ")")
     args = ap.parse_args()
