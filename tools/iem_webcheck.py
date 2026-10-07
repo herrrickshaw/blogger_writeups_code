@@ -114,10 +114,16 @@ def ingest(args):
     records hold {"rows": [...]} somewhere) and append new ids to results.jsonl."""
     valid = {int(r["id"]) for r in load_queue()}
     have = done_ids()
-    new = {}
+    new, verdicts = {}, {}
 
     def walk(o):
         if isinstance(o, dict):
+            if "id" in o and "verdict" in o:
+                try:
+                    verdicts[int(o["id"])] = o
+                except (TypeError, ValueError):
+                    pass
+                return
             if "id" in o and "classification" in o:
                 try:
                     i = int(o["id"])
@@ -145,8 +151,14 @@ def ingest(args):
                 continue
     with open(RESULTS, "a", encoding="utf-8") as fh:
         for i in sorted(new):
-            fh.write(json.dumps({"id": i, **{k: v for k, v in new[i].items() if k != "id"}}, ensure_ascii=False) + "\n")
-    print(f"{len(new):,} new results; {len(have) + len(new):,} of {len(valid):,} pairs done")
+            row = {"id": i, **{k: v for k, v in new[i].items() if k != "id"}}
+            v = verdicts.get(i)
+            if v:
+                row.update({"verdict": v["verdict"], "verify_note": v.get("verify_note", ""),
+                            "verify_sources": v.get("verify_sources", [])})
+            fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+    print(f"{len(new):,} new results ({sum(1 for i in new if i in verdicts):,} with a second-agent verdict); "
+          f"{len(have) + len(new):,} of {len(valid):,} pairs done")
 
 
 def summary(args):
