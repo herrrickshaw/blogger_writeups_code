@@ -58,7 +58,7 @@ def clean_name(s):
     if m:
         s = s[:m.end()]                                                # cut address after the suffix
     else:
-        s = re.split(r"(?i)\s(?:FLAT|PLOT|SURVEY|SY\.? ?NO|S\.? ?NO|VILLAGE|DOOR|H\.? ?NO|GAT NO|KHASRA)\b", s)[0]
+        s = re.split(r"(?i)\s(?:FLAT|PLOT|SURVEY|SY\.? ?NOS?|S\.? ?NOS?|VILLAGE|DOOR|H\.? ?NO|GAT NO|KHASRA)\b", s)[0]
     return s.strip(" ,.")
 
 
