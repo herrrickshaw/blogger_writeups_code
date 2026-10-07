@@ -775,7 +775,8 @@ def clean(c):
 
 def split_iem_cell(s):
     """'49/N/SIA/IMO/2024, 23/01/2024' | '42 18/01/2019' | '26 08 Januar y 2019' -> (no, date)."""
-    s = clean(s)
+    s = re.sub(r"\s*/\s*", "/", clean(s))
+    s = re.sub(r"(?<=[A-Z])\s+(?=[A-Z]*/)", "", s)  # '910/N/SIA/IM O/2022' wrapped inside the cell
     m = re.search(r"(\d+\s*/\s*[A-Z]+\s*/\s*SIA\s*/\s*IMO\s*/\s*\d{4}|\d+\s*/\s*IIM\s*/\s*P\s*R\s*O\s*D\s*/\s*\d{4}"
                   r"|\d+\s*/\s*\d{4}|\d+)\s*,?\s*("
                   + DATE + r"|\d{1,2}-\d{1,2}-\d{4})", s)
@@ -847,10 +848,27 @@ def parse_pdf_tables(pdf_path, part):
     import fitz  # PyMuPDF, already a data-library-toolkit dependency
     fitz.TOOLS.mupdf_display_errors(False)
     doc = fitz.open(str(pdf_path))
-    out, cmap, cur, blocks = [], None, None, False
+    out, cmap, cur, blocks, cmap_x = [], None, None, False, {}
+
+    def col_centres(tab):
+        """x centre of each column, from the row with the most separate cells
+        (title and header rows often span several columns)."""
+        if not tab.rows:
+            return {}
+        best = max(tab.rows, key=lambda r: sum(1 for c in r.cells if c))
+        return {i: (c[0] + c[2]) / 2 for i, c in enumerate(best.cells) if c}
+
+    def remap(tab):
+        """Column positions shift between pages (a 14-column table on page 1, 10 on
+        page 2), so map each field to the column nearest to where its heading was."""
+        xs = col_centres(tab)
+        return {k: min(xs, key=lambda i: abs(xs[i] - x)) for k, x in cmap_x.items()} if xs else cmap
+
     for page in doc:
         for tab in page.find_tables().tables:
             rows = tab.extract()
+            if cmap_x and not any(header_map(r) for r in rows[:8]):
+                cmap = remap(tab)
             # Some 2018 Part B tables give one row per printed line: the header runs over
             # several rows and the serial sits mid-record, with blank rows between records.
             # Merge the header rows, then read each blank-separated block as one record.
@@ -865,6 +883,8 @@ def parse_pdf_tables(pdf_path, part):
                 single = max((len(header_map(r) or {}) for r in lead), default=0)
                 if hm and len(hm) > single:
                     cmap, blocks = hm, True
+                    xs = col_centres(tab)
+                    cmap_x = {k: xs[i] for k, i in hm.items() if i in xs}
                     rows = rows[len(lead):]
             if blocks and cmap:
                 group = []
@@ -888,6 +908,8 @@ def parse_pdf_tables(pdf_path, part):
                 hm = header_map(row)
                 if hm:
                     cmap, blocks = hm, False
+                    xs = col_centres(tab)
+                    cmap_x = {k: xs[i] for k, i in hm.items() if i in xs}
                     continue
                 if not cmap:
                     continue
@@ -964,8 +986,12 @@ def parse_file(path, pdf_index=None):
             recs = first(pdf, part) or second(pdf, part)
             if recs:
                 layout = recs[0]["layout"]
-        if not recs:
-            recs = PARSERS[layout](text, part) if layout in PARSERS else []
+        md_layout = detect(text)
+        md_recs = PARSERS[md_layout](text, part) if md_layout in PARSERS else []
+        # a table whose rows find_tables() merged (Dec 2021) yields far fewer records
+        # than the text does; keep whichever reading found the list's records
+        if len(recs) < 0.5 * len(md_recs):
+            recs, layout = md_recs, md_layout
     except Exception as e:  # one bad file must not stop the run; it shows up in parse_report.md
         print(f"  ! {path.name}: {type(e).__name__}: {e}", file=sys.stderr)
         recs, layout = [], layout + " (error)"
