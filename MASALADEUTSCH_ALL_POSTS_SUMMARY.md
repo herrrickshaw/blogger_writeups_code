@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*341 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*342 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 6 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 7 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -1105,8 +1105,10 @@
 - **[The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html)** — 2026-07-23
   How India prices its harvest — for farmers, for ration shops, for distilleries, for the world market — and why pairing the Minimum Support Price with a Minimum Support Volume is the design that creates value on both sides of the ledger.
 
-### Healthcare (11)
+### Healthcare (12)
 
+- **[Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)** — 2026-10-06
+  Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
 - **[ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet](https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html)** — 2026-09-17
   India's ABHA has 93+ crore patient accounts — a bigger number than Estonia's entire population, several times over. But the two registries that would actually let a doctor or an insurer use those records the way Estonia's, Denmark's or the UK's systems do are much further behind: only 67% of India's registered doctors have a matching Healthcare Professional ID, and the national insurance-claims exchange still isn't mandatory for insurers to use. This piece compares what "tracking patient history like a developed country" actually means, system by system.
 - **[India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Price War, and a Government Crackdown](https://masaladeutsch.blogspot.com/2026/09/indias-semaglutide-patent-cliff-26.html)** — 2026-09-16
@@ -1280,8 +1282,10 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (101)
+### Industrial Policy (102)
 
+- **[Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)** — 2026-10-06
+  Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
   Indian courts have backed E20, handed States power over denatured alcohol, kept biodiesel outside petroleum-control law, and opened the oil companies' ethanol contracts to judicial review. This is how five rulings are reshaping the ethanol blending programme.
 - **[Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That.](https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html)** — 2026-10-02
@@ -3849,3 +3853,8 @@ Indian courts have backed E20, handed States power over denatured alcohol, kept 
 *2026-10-03 · Climate & Carbon, Energy & Fuels, Ethanol & Biofuels, Refining & Petrochemicals*
 
 Eight US court rulings from 2023 to 2026 show refiners winning the small-refinery-exemption fight while biofuel producers keep record-high Renewable Fuel Standard volumes. What decides RIN prices now is EPA's discretion to reallocate exempted gallons.
+
+### [Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)
+*2026-10-06 · Healthcare, Industrial Policy*
+
+Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
