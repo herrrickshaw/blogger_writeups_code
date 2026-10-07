@@ -4,10 +4,10 @@
 
 ## Totals
 
-- Active users: **443**
-- Total users: **444**
-- Page views: **911**
-- Sessions: **583**
+- Active users: **444**
+- Total users: **445**
+- Page views: **909**
+- Sessions: **585**
 
 ## Views by country (top 30)
 
@@ -16,14 +16,14 @@
 | United States | 142 | 137 |
 | Singapore | 87 | 81 |
 | Hong Kong | 34 | 31 |
-| India | 33 | 498 |
+| India | 33 | 495 |
 | Brazil | 17 | 14 |
+| Vietnam | 16 | 9 |
 | Indonesia | 15 | 13 |
-| Vietnam | 15 | 9 |
 | Bangladesh | 14 | 12 |
 | Japan | 14 | 13 |
+| Germany | 12 | 12 |
 | France | 11 | 10 |
-| Germany | 11 | 11 |
 | Spain | 7 | 5 |
 | Argentina | 5 | 2 |
 | Malaysia | 5 | 1 |
@@ -54,7 +54,7 @@
 | (not set) | 43 | 29 |
 | Hong Kong | 34 | 31 |
 | Frankfurt am Main | 9 | 9 |
-| Coimbatore | 7 | 130 |
+| Coimbatore | 7 | 115 |
 | Banguntapan | 6 | 6 |
 | Shinjuku City | 6 | 6 |
 | Bengaluru | 5 | 6 |
@@ -63,7 +63,7 @@
 | New Delhi | 5 | 6 |
 | Ashburn | 4 | 4 |
 | Hyderabad | 4 | 29 |
-| Mumbai | 4 | 115 |
+| Mumbai | 4 | 125 |
 | Suginami City | 4 | 4 |
 | Wonosari | 4 | 3 |
 | Ho Chi Minh City | 3 | 2 |
@@ -75,7 +75,7 @@
 | Dubai | 2 | 7 |
 | Lome | 2 | 1 |
 | Muscat | 2 | 1 |
-| Muzaffarnagar | 2 | 2 |
+| Noida | 2 | 2 |
 | Paris | 2 | 2 |
 | Shibuya | 2 | 1 |
 
@@ -86,8 +86,8 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
 | Dindigul | 164 | 5 | 32.8 | 39 | 58s | 36% | desktop/Chrome (134); desktop/Firefox (18); desktop/Safari (11); +1 more |
-| Coimbatore | 130 | 7 | 18.6 | 46 | 48s | 41% | desktop/Chrome (106); desktop/Safari (16); mobile/Chrome (6); +1 more |
-| Mumbai | 115 | 4 | 28.8 | 39 | 50s | 21% | desktop/Chrome (93); desktop/Safari (22) |
+| Mumbai | 125 | 4 | 31.2 | 42 | 47s | 26% | desktop/Chrome (103); desktop/Safari (22) |
+| Coimbatore | 115 | 7 | 16.4 | 42 | 48s | 40% | desktop/Chrome (94); desktop/Safari (13); mobile/Chrome (6); +1 more |
 | Singapore | 81 | 87 | 0.9 | 87 | 1s | 91% | desktop/Chrome (81) |
 | New York | 58 | 58 | 1.0 | 58 | 0s | 100% | desktop/Chrome (58) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
@@ -101,9 +101,9 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 313 | 34 |
+| / | 315 | 36 |
 | /2026/08/article-index-start-here.html | 29 | 5 |
-| /2026/10/indias-ethanol-surplus-buys-about-five.html | 11 | 7 |
+| /2026/10/indias-ethanol-surplus-buys-about-five.html | 12 | 8 |
 | /search | 9 | 5 |
 | /2026/09/the-50-tariff-and-234-one-untangling.html | 7 | 3 |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 7 | 2 |
@@ -113,7 +113,6 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/09/the-reactor-nobody-names-how-coal.html | 5 | 4 |
 | /2026/09/under-corsias-own-numbers-corn-ethanol.html | 5 | 1 |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 5 | 2 |
-| /2026/08/japan-ran-out-of-matcha-assam-just-sold.html | 4 | 4 |
 | /2026/09/fourteen-states-reimburse-investors.html | 4 | 3 |
 | /2026/09/sun-pharmas-1175bn-organon-bet-is.html | 4 | 4 |
 | /2026/09/the-wage-beats-crop-in-survey-that.html | 4 | 4 |
@@ -121,6 +120,7 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/08/india-cannot-sell-china-free-medicine.html | 3 | 3 |
 | /2026/08/indias-coking-coal-import-problem-and.html | 3 | 3 |
 | /2026/08/indias-trade-balance-hsn-wise.html | 3 | 3 |
+| /2026/08/lok-sabha-question-registry-1843-scheme.html | 3 | 3 |
 
 ## Likely human readership
 
@@ -128,41 +128,41 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 41 | 248 | 667 | 375 | 151 |
-| Bot-like (no engaged session) | 148 | 277 | 244 | 277 | 0 |
+| Human-like | 41 | 249 | 663 | 377 | 149 |
+| Bot-like (no engaged session) | 150 | 278 | 246 | 278 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
 
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
-| Mumbai | 31 | 39 | 4 | 115 | 50s |
-| Coimbatore | 27 | 46 | 7 | 130 | 48s |
+| Mumbai | 31 | 42 | 4 | 125 | 47s |
 | Dindigul | 25 | 39 | 5 | 164 | 58s |
+| Coimbatore | 25 | 42 | 7 | 115 | 48s |
 | Singapore | 8 | 87 | 87 | 81 | 1s |
 | (not set) | 7 | 44 | 43 | 29 | 1s |
 | Madurai | 5 | 10 | 3 | 24 | 69s |
 | Hyderabad | 5 | 5 | 4 | 29 | 24s |
 | Hong Kong | 5 | 34 | 34 | 31 | 1s |
 | Dubai | 3 | 7 | 2 | 7 | 60s |
-| New Delhi | 2 | 5 | 5 | 6 | 9s |
+| New Delhi | 2 | 7 | 5 | 6 | 9s |
 | Frankfurt am Main | 2 | 9 | 9 | 9 | 1s |
 | Bengaluru | 2 | 5 | 5 | 6 | 2s |
 | Houston | 1 | 1 | 1 | 1 | 110s |
 | Chennai | 1 | 6 | 2 | 6 | 6s |
 | Subang Jaya | 1 | 1 | 1 | 0 | 9s |
 | Wonosari | 1 | 4 | 4 | 3 | 2s |
+| Noida | 1 | 2 | 2 | 2 | 2s |
 | Flint Hill | 1 | 1 | 1 | 1 | 5s |
 | Sargodha | 1 | 1 | 1 | 0 | 5s |
 | Vlore | 1 | 1 | 1 | 0 | 5s |
-| Suginami City | 1 | 4 | 4 | 4 | 1s |
 
 ### Pages read by likely humans (top 20 by engaged sessions)
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 100 | 313 | 34 | 11s |
+| / | 98 | 315 | 36 | 11s |
 | /2026/08/article-index-start-here.html | 22 | 29 | 5 | 18s |
-| /2026/10/indias-ethanol-surplus-buys-about-five.html | 6 | 11 | 7 | 45s |
+| /2026/10/indias-ethanol-surplus-buys-about-five.html | 6 | 12 | 8 | 43s |
 | /search | 6 | 9 | 5 | 4s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 4 | 7 | 2 | 34s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 5 | 2 | 30s |
@@ -176,7 +176,7 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | /2026/09/the-two-biggest-parties-in-parliament.html | 2 | 7 | 2 | 30s |
 | /2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html | 2 | 2 | 2 | 67s |
 | /2026/09/under-corsias-own-numbers-corn-ethanol.html | 2 | 5 | 1 | 19s |
-| /2026/09/pngrbs-own-committee-found-pipelines.html | 2 | 3 | 3 | 32s |
 | /2026/09/fourteen-states-reimburse-investors.html | 2 | 4 | 3 | 23s |
 | /2026/09/delhis-smog-towers-failed-test-44-year.html | 2 | 2 | 2 | 28s |
-| /2026/09/indias-gas-pipelines-run-at-half.html | 2 | 3 | 3 | 9s |
+| /2026/09/engineering-and-auto-component-makers.html | 2 | 3 | 3 | 7s |
+| /2026/09/pngrb-graded-its-own-homework-on-2025.html | 2 | 2 | 2 | 11s |
