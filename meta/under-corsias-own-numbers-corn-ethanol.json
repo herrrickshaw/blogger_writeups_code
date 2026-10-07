@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/under-corsias-own-numbers-corn-ethanol.html",
   "slug": "under-corsias-own-numbers-corn-ethanol",
   "published": "2026-09-23T16:31:55.000+05:30",
-  "updated": "2026-09-24T09:05:11.950+05:30",
+  "updated": "2026-10-07T06:17:39.028+05:30",
   "labels": [
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 32911,
-  "sha256": "05242cdc3f3d70c369767d643719a149bf4f190ae6263a083b0b600daca2a16e",
+  "bytes": 32986,
+  "sha256": "2ff312778cddfe9829e157250935f4b39847675c1c8d0c91b199e48912d6ea8d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.3",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -69,6 +69,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-07T06:18:06+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-1 distinct numbers))",
+      "bytes": [
+        32911,
+        32986
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Maize used for ethanol corrected to 29% of crop (12.6 MT, govt Lok Sabha reply)"
     }
   ]
 }

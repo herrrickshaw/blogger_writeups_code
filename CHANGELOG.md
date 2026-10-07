@@ -13952,3 +13952,18 @@ Telecom tower count updated to DoT Oct 2025
 **Changed**
 
 - `028-unit-diesel-math-behind-indias-data` — 36,524 → 36,919 bytes (+395)
+
+## 2026-10-07T06:18:06+05:30 — 344 posts live
+
+Maize used for ethanol corrected to 29% of crop (12.6 MT, govt Lok Sabha reply)
+
+
+**Versions**
+
+- `under-corsias-own-numbers-corn-ethanol` **1.0.3 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+1/-1 distinct numbers))
+- `the-diesel-truck-isnt-why-your-eggs` **1.0.1 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+8/-0 distinct numbers))
+
+**Changed**
+
+- `under-corsias-own-numbers-corn-ethanol` — 32,911 → 32,986 bytes (+75)
+- `the-diesel-truck-isnt-why-your-eggs` — 21,171 → 22,296 bytes (+1,125)
