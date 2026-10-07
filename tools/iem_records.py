@@ -1300,9 +1300,10 @@ def main():
     if args.pdf_dir:
         pdf_index = {p.stem: p for p in pathlib.Path(args.pdf_dir).expanduser().rglob("*.pdf")}
     all_recs, infos = [], []
-    for p in files:
+    for n, p in enumerate(files, 1):
         recs, info = parse_file(p, pdf_index)
         all_recs += recs; infos.append(info)
+        print(f"[{n}/{len(files)}] {p.name}: {info['layout']}, {info['records']} records", file=sys.stderr, flush=True)
     n_raw = len(all_recs)
     all_recs = match_parts(dedupe(all_recs))
     for r in all_recs:
