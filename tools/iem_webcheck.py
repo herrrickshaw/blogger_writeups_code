@@ -7,6 +7,7 @@ keeps the queue and the results, so the work can stop and resume across sessions
 
     python3 tools/iem_webcheck.py queue                 # data/iem/webcheck/queue.csv
     python3 tools/iem_webcheck.py batches --period 2022-24 --size 25 > batches.json
+    python3 tools/iem_webcheck.py snipbatches --period 2022-24 --out DIR   # from saved search results
     python3 tools/iem_webcheck.py ingest JOURNAL.jsonl  # agent results -> results.jsonl
     python3 tools/iem_webcheck.py summary               # data/iem/webcheck/summary.md
 
@@ -109,6 +110,39 @@ def batches(args):
     print(f"\n{len(q):,} pairs in {len(out)} batches", file=sys.stderr)
 
 
+def snipbatches(args):
+    """Turn collected search results (tools/iem_snippets.py) into batch files for classifier agents."""
+    import gzip
+    q = {int(r["id"]): r for r in load_queue()}
+    done = done_ids()
+    recs = []
+    for f in sorted((DIR / "snippets" / args.period).glob("*.jsonl.gz")):
+        with gzip.open(f, "rt", encoding="utf-8") as fh:
+            recs += [json.loads(line) for line in fh]
+    recs = sorted((r for r in recs if r["id"] not in done), key=lambda r: r["id"])
+    out = pathlib.Path(args.out).expanduser()
+    out.mkdir(parents=True, exist_ok=True)
+    names = []
+    for i in range(0, len(recs), args.size):
+        chunk = recs[i:i + args.size]
+        name = f"s{args.period}-{chunk[0]['id']:05d}"
+        lines = []
+        for rec in chunk:
+            r = q[rec["id"]]
+            lines.append(f"=== {r['id']} | {r['company']} | {r['state']} | {r['districts']} | "
+                         f"IEM {r['iem_no']} of {r['iem_date']} | {r['items']}")
+            for qq in rec["q"]:
+                lines.append(f"  search: {qq['q']}")
+                for x in qq["r"] or []:
+                    lines.append(f"   - {x['t']} | {x['u']} | {x['s']}")
+                if not qq["r"]:
+                    lines.append("   (no results)")
+        (out / f"{name}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
+        names.append(name)
+    json.dump(names, sys.stdout)
+    print(f"\n{len(recs):,} pairs with search results in {len(names)} batches -> {out}", file=sys.stderr)
+
+
 def ingest(args):
     """Pull the validated rows out of a workflow journal (or any JSONL whose
     records hold {"rows": [...]} somewhere) and append new ids to results.jsonl."""
@@ -193,6 +227,11 @@ def main():
     b.add_argument("--size", type=int, default=25)
     b.add_argument("--limit", type=int, default=0)
     b.set_defaults(fn=batches)
+    sb = sub.add_parser("snipbatches")
+    sb.add_argument("--period", required=True, choices=["2022-24", "2017-21", "2009-16", "2001-08"])
+    sb.add_argument("--size", type=int, default=25)
+    sb.add_argument("--out", required=True)
+    sb.set_defaults(fn=snipbatches)
     i = sub.add_parser("ingest")
     i.add_argument("journal", nargs="+")
     i.set_defaults(fn=ingest)
