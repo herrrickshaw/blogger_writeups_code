@@ -39,3 +39,6 @@ out/a11y-v2/.done/
 out/a11y-v2/.failed.log
 out/headings/.done/
 out/headings/.failed.log
+
+# raw downloads (PARIVESH EC register ~130 MB): regenerate with tools/iem_parivesh.py fetch
+cache/
