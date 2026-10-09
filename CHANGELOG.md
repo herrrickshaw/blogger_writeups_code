@@ -14212,3 +14212,13 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Changed**
 
 - `foreign-capital-found-indias-hospitals` — 33,159 → 35,291 bytes (+2,132)
+
+## 2026-10-10T03:01:57+05:30 — 363 posts live
+
+**Versions**
+
+- `indias-factory-intentions-20012024-how_0101046393` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+19/-15 distinct numbers)
+
+**Changed**
+
+- `indias-factory-intentions-20012024-how_0101046393` — 33,502 → 34,294 bytes (+792)
