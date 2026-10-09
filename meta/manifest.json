@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-09T11:20:44+05:30",
+  "snapshot": "2026-10-09T11:42:17+05:30",
   "count": 352,
   "posts": {
     "1023631151138981087": {
@@ -5637,12 +5637,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/ai-high-demand-launch-tracker.html",
       "slug": "ai-high-demand-launch-tracker",
       "published": "2026-07-31T09:37:00.000+05:30",
-      "updated": "2026-09-18T19:48:05.153+05:30",
+      "updated": "2026-10-09T11:41:32.330+05:30",
       "labels": [
         "AI Tracker"
       ],
-      "bytes": 40398,
-      "sha256": "a2a4cb9378e22b7a7788a5194777af83ae9e6761169c372b5b16e62fa4131e82",
+      "bytes": 42215,
+      "sha256": "420019e1509c3c3972caee5fced6c7f304bd503ed9aa7691f6a4dc09813c6188",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -5654,7 +5654,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.0.6",
+      "version": "5.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -5958,6 +5958,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Add 'Related on this blog' cross-links to the 28 remaining zero-outbound-link posts surfaced by the corrected crosslink_analysis.py, so every post that others link into also links back out; opportunistically fixed 2 pre-existing MINOR issues found along the way (missing translate widget on one post, unit-in-cell instead of unit-in-header on two tables)"
+        },
+        {
+          "version": "5.0.0",
+          "date": "2026-10-09T11:42:17+05:30",
+          "level": "major",
+          "reason": "figures changed (+24/-7 distinct numbers)",
+          "bytes": [
+            40398,
+            42215
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -19260,14 +19273,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/interpreting-gazette-notification.html",
       "slug": "interpreting-gazette-notification",
       "published": "2026-09-04T10:06:40.000+05:30",
-      "updated": "2026-10-01T08:40:02.780+05:30",
+      "updated": "2026-10-09T11:41:16.723+05:30",
       "labels": [
         "Ease of Doing Business & Regulatory Reform",
         "Industrial Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 41378,
-      "sha256": "1202d3b43d7144cf1d5e38504241aa4d4f6e8c05a9f84f37051d12de5cea5b8d",
+      "bytes": 44572,
+      "sha256": "7e0d29e1138f0e4eb886d732f4af99078f557c6db061fb26a41afb6a2e49abd8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19279,7 +19292,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "3.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19378,6 +19391,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.0.0",
+          "date": "2026-10-09T11:42:17+05:30",
+          "level": "major",
+          "reason": "figures changed (+26/-10 distinct numbers)",
+          "bytes": [
+            41378,
+            44572
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -38340,10 +38366,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-03T14:50:27.219+05:30",
+      "updated": "2026-10-09T11:41:03.595+05:30",
       "labels": [],
-      "bytes": 445551,
-      "sha256": "23c7f6ec898849a40b697c7b61b27725c394c8e87ca17e3bb6877438b91ae6cf",
+      "bytes": 445312,
+      "sha256": "2b8ef4fd5dce0deec28fedbe4b077a338d3df0e5c1209dd2d82cd7dfd6d78c2f",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38355,7 +38381,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "55.0.0",
+      "version": "55.0.1",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40126,6 +40152,19 @@
           "bytes": [
             444287,
             445551
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "55.0.1",
+          "date": "2026-10-09T11:42:17+05:30",
+          "level": "patch",
+          "reason": "wording changed; no figures, sections or claims moved",
+          "bytes": [
+            445551,
+            445312
           ],
           "url_changed": null,
           "markers_changed": null,

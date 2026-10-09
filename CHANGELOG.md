@@ -14099,3 +14099,17 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 
 - `indias-military-quantum-plan-has-four` — 23,917 → 25,815 bytes (+1,898)
 - `right-of-user-what-indias-pipeline` — 42,041 → 45,041 bytes (+3,000)
+
+## 2026-10-09T11:42:17+05:30 — 352 posts live
+
+**Versions**
+
+- `interpreting-gazette-notification` **2.1.0 → 3.0.0** (MAJOR) — figures changed (+26/-10 distinct numbers)
+- `article-index-start-here` **55.0.0 → 55.0.1** (PATCH) — wording changed; no figures, sections or claims moved
+- `ai-high-demand-launch-tracker` **4.0.6 → 5.0.0** (MAJOR) — figures changed (+24/-7 distinct numbers)
+
+**Changed**
+
+- `interpreting-gazette-notification` — 41,378 → 44,572 bytes (+3,194)
+- `article-index-start-here` — 445,551 → 445,312 bytes (-239)
+- `ai-high-demand-launch-tracker` — 40,398 → 42,215 bytes (+1,817)
