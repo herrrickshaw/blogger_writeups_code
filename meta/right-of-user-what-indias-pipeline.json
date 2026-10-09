@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html",
   "slug": "right-of-user-what-indias-pipeline",
   "published": "2026-09-05T15:59:46.000+05:30",
-  "updated": "2026-10-01T08:47:03.876+05:30",
+  "updated": "2026-10-09T11:20:13.152+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning"
   ],
-  "bytes": 42041,
-  "sha256": "b380a924d5b28bc13741f1da38e9977fa768f5ae02e3229852c1b2151f14d8ee",
+  "bytes": 45041,
+  "sha256": "69b169b976fe7ccf8cee40260e4e19fe4ed219c86ef442178581e214a8f230dd",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -96,6 +96,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-09T11:20:44+05:30",
+      "level": "major",
+      "reason": "figures changed (+20/-8 distinct numbers)",
+      "bytes": [
+        42041,
+        45041
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

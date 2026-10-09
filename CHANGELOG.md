@@ -14087,3 +14087,15 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `india-raised-cooking-oil-duties-to-help` **v1.0.0** — India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising (23,850 bytes)
+
+## 2026-10-09T11:20:44+05:30 — 352 posts live
+
+**Versions**
+
+- `indias-military-quantum-plan-has-four` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+17/-5 distinct numbers)
+- `right-of-user-what-indias-pipeline` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+20/-8 distinct numbers)
+
+**Changed**
+
+- `indias-military-quantum-plan-has-four` — 23,917 → 25,815 bytes (+1,898)
+- `right-of-user-what-indias-pipeline` — 42,041 → 45,041 bytes (+3,000)

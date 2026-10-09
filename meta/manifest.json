@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-09T11:16:21+05:30",
+  "snapshot": "2026-10-09T11:20:44+05:30",
   "count": 352,
   "posts": {
     "1023631151138981087": {
@@ -19146,14 +19146,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/right-of-user-what-indias-pipeline.html",
       "slug": "right-of-user-what-indias-pipeline",
       "published": "2026-09-05T15:59:46.000+05:30",
-      "updated": "2026-10-01T08:47:03.876+05:30",
+      "updated": "2026-10-09T11:20:13.152+05:30",
       "labels": [
         "Energy & Fuels",
         "Gas & LNG",
         "Gas Pipeline Infrastructure & Demand Planning"
       ],
-      "bytes": 42041,
-      "sha256": "b380a924d5b28bc13741f1da38e9977fa768f5ae02e3229852c1b2151f14d8ee",
+      "bytes": 45041,
+      "sha256": "69b169b976fe7ccf8cee40260e4e19fe4ed219c86ef442178581e214a8f230dd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -19165,7 +19165,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -19238,6 +19238,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-09T11:20:44+05:30",
+          "level": "major",
+          "reason": "figures changed (+20/-8 distinct numbers)",
+          "bytes": [
+            42041,
+            45041
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -28377,11 +28390,11 @@
       "title": "India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One",
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html",
       "slug": "indias-military-quantum-plan-has-four",
-      "published": "2026-10-09T10:25:56.006+05:30",
-      "updated": "2026-10-09T10:25:56.006+05:30",
+      "published": "2026-10-09T10:25:56.000+05:30",
+      "updated": "2026-10-09T11:16:34.458+05:30",
       "labels": [],
-      "bytes": 23917,
-      "sha256": "f4eb07ae8522d00688e0f9a0286207198a30e89521104fc07e99d58fcac2b601",
+      "bytes": 25815,
+      "sha256": "3d73af5d4a954cf4ec1792e8c20f1b255d7196ebbc31a5c919b8dc9cd6568b94",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -28393,13 +28406,26 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
           "date": "2026-10-09T10:26:35+05:30",
           "level": "initial",
           "reason": "first snapshot",
+          "note": ""
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-09T11:20:44+05:30",
+          "level": "major",
+          "reason": "figures changed (+17/-5 distinct numbers)",
+          "bytes": [
+            23917,
+            25815
+          ],
+          "url_changed": null,
+          "markers_changed": null,
           "note": ""
         }
       ]
