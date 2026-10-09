@@ -14147,3 +14147,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `india-has-auctioned-141-commercial-coal` **v1.0.0** — India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal (22,557 bytes)
+
+## 2026-10-09T19:00:20+05:30 — 357 posts live
+
+**Added**
+
+- `india-imported-295-more-steel-this-year` **v1.0.0** — India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else (24,685 bytes)
