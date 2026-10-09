@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
   "slug": "rbi-foreign-exchange-reserves-20152026",
   "published": "2026-08-02T13:43:33.000+05:30",
-  "updated": "2026-10-01T08:46:10.522+05:30",
+  "updated": "2026-10-09T09:49:18.581+05:30",
   "labels": [
     "Markets & Finance"
   ],
-  "bytes": 56704,
-  "sha256": "77647ee8ffeb1326f1c3f89e8d134b1aa470fe7b24cad2f20ab051e5faf26b05",
+  "bytes": 57075,
+  "sha256": "35b01ce4c51d34e00250e5e20091ddbdfe31073f7a6d9586fbb2e50b76a6ed2e",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -294,6 +294,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-09T09:51:20+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+      "bytes": [
+        56704,
+        57075
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
     }
   ]
 }

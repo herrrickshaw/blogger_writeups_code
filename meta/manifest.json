@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-07T09:12:13+00:00",
+  "snapshot": "2026-10-09T09:51:20+05:30",
   "count": 345,
   "posts": {
     "1023631151138981087": {
@@ -92,13 +92,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-10-01T09:02:09.444+05:30",
+      "updated": "2026-10-09T09:49:02.821+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 36151,
-      "sha256": "ea8f71ee79e2b2a6b3fca8f15d396ba9dba4bb8eac18de748e738776551a7ad3",
+      "bytes": 36903,
+      "sha256": "ed667ed8f0b7531e499d104ccdede52caa57e7f1d522776616ec6c96528ef057",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -110,7 +110,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.1.0",
+      "version": "2.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -352,6 +352,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.2.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            36151,
+            36903
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },
@@ -548,13 +561,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-10-01T08:51:50.358+05:30",
+      "updated": "2026-10-09T09:48:45.497+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 21370,
-      "sha256": "054c8e35e4391366d08e212904ff4e046d88fe126f57c0a025a21604b55e4983",
+      "bytes": 22535,
+      "sha256": "2f20308335fefcc8386515052617923f24fcc913e07db5d7704411038429f3c8",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -566,7 +579,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "3.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -805,6 +818,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.2.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+8/-0 distinct numbers))",
+          "bytes": [
+            21370,
+            22535
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },
@@ -44338,15 +44364,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html",
       "slug": "india-grows-soybean-exports-meal-leads",
       "published": "2026-08-15T08:01:21.000+05:30",
-      "updated": "2026-10-01T08:29:04.035+05:30",
+      "updated": "2026-10-09T09:48:30.428+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Agriculture & Food Processing",
         "India Trade & Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 40656,
-      "sha256": "fc28ec2d7ede98d16ef4e2d1f4994773417457ad82145c2ed4934db3cfe2e93f",
+      "bytes": 41412,
+      "sha256": "1f2292e08e0d3bc7538412b42cfde1fc5938c4056df138fc4965d56282e6ad77",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -44358,7 +44384,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.1.0",
+      "version": "5.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44522,6 +44548,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "5.2.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+8/-0 distinct numbers))",
+          "bytes": [
+            40656,
+            41412
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },
@@ -44531,12 +44570,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/rbi-foreign-exchange-reserves-20152026.html",
       "slug": "rbi-foreign-exchange-reserves-20152026",
       "published": "2026-08-02T13:43:33.000+05:30",
-      "updated": "2026-10-01T08:46:10.522+05:30",
+      "updated": "2026-10-09T09:49:18.581+05:30",
       "labels": [
         "Markets & Finance"
       ],
-      "bytes": 56704,
-      "sha256": "77647ee8ffeb1326f1c3f89e8d134b1aa470fe7b24cad2f20ab051e5faf26b05",
+      "bytes": 57075,
+      "sha256": "35b01ce4c51d34e00250e5e20091ddbdfe31073f7a6d9586fbb2e50b76a6ed2e",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -44548,7 +44587,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "4.1.0",
+      "version": "4.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -44821,6 +44860,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "4.2.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+          "bytes": [
+            56704,
+            57075
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },
@@ -54931,14 +54983,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/indias-battery-storage-boom-is.html",
       "slug": "indias-battery-storage-boom-is",
       "published": "2026-09-11T21:19:57.000+05:30",
-      "updated": "2026-10-01T08:32:37.033+05:30",
+      "updated": "2026-10-09T09:48:01.034+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy",
         "Renewable Power & Storage"
       ],
-      "bytes": 48074,
-      "sha256": "c2a44c088a1dc99bd80d8b6a5e8c1f6294afc5fdd94b9de70c05639302c993b1",
+      "bytes": 48984,
+      "sha256": "2f3208c83609565ad5b4c1e04eb1470fb182981cac192650163d4c4b79d12346",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": true,
@@ -54950,7 +55002,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.2.0",
+      "version": "1.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -55002,6 +55054,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.3.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+7/-0 distinct numbers))",
+          "bytes": [
+            48074,
+            48984
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },
@@ -59574,13 +59639,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html",
       "slug": "the-price-of-grain-msp-msv-and",
       "published": "2026-07-23T05:30:00.000+05:30",
-      "updated": "2026-10-01T08:55:19.193+05:30",
+      "updated": "2026-10-09T09:48:17.100+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Grain Procurement & Storage"
       ],
-      "bytes": 42585,
-      "sha256": "2aff3a245b7175690212ffd373d9740fe6995f01428e4cf844763b652dc76c7b",
+      "bytes": 43454,
+      "sha256": "02cfb3305955dde6e2b4a2a5c1ba95c3a9ab8fc8aa071c2422de5f4e3aad66fd",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -59592,7 +59657,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "5.2.0",
+      "version": "5.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -59896,6 +59961,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "5.3.0",
+          "date": "2026-10-09T09:51:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+          "bytes": [
+            42585,
+            43454
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
         }
       ]
     },

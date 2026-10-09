@@ -14024,3 +14024,26 @@ scheduled sync
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `indias-factory-intentions-20012024-how` — India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants
+
+## 2026-10-09T09:51:20+05:30 — 345 posts live
+
+October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex
+
+
+**Versions**
+
+- `indias-battery-storage-boom-is` **1.2.0 → 1.3.0** (MINOR) — forced via --as minor (figures changed (+7/-0 distinct numbers))
+- `india-grows-soybean-exports-meal-leads` **5.1.0 → 5.2.0** (MINOR) — forced via --as minor (figures changed (+8/-0 distinct numbers))
+- `who-collects-indias-gst-and-who` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+- `rbi-foreign-exchange-reserves-20152026` **4.1.0 → 4.2.0** (MINOR) — forced via --as minor (figures changed (+7/-0 distinct numbers))
+- `the-cbg-incentive-stack-every-leg-of` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+8/-0 distinct numbers))
+- `the-price-of-grain-msp-msv-and` **5.2.0 → 5.3.0** (MINOR) — forced via --as minor (figures changed (+15/-0 distinct numbers))
+
+**Changed**
+
+- `indias-battery-storage-boom-is` — 48,074 → 48,984 bytes (+910)
+- `india-grows-soybean-exports-meal-leads` — 40,656 → 41,412 bytes (+756)
+- `who-collects-indias-gst-and-who` — 36,151 → 36,903 bytes (+752)
+- `rbi-foreign-exchange-reserves-20152026` — 56,704 → 57,075 bytes (+371)
+- `the-cbg-incentive-stack-every-leg-of` — 21,370 → 22,535 bytes (+1,165)
+- `the-price-of-grain-msp-msv-and` — 42,585 → 43,454 bytes (+869)
