@@ -14057,3 +14057,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 
 - `indias-old-factory-index-said` **v1.0.0** — India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20% (26,636 bytes)
 - `indias-petroleum-act-still-fines` **v1.0.0** — India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore (19,473 bytes)
+
+## 2026-10-09T10:26:35+05:30 — 348 posts live
+
+**Added**
+
+- `indias-military-quantum-plan-has-four` **v1.0.0** — India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One (23,917 bytes)
