@@ -94,7 +94,12 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...e approved-securities floor, against 50 per cent for a life insurer. That is still nothi...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...pproved-securities floor of at least 30 per cent for a general insurer and cannot hold o...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... promoter-group exposure is capped at 5 per cent of investment assets. The schedule is b...
+  suggested: percent
 - **[GRAMMAR/THIS_NNS]** The singular determiner ‘this’ may not agree with the plural noun ‘changes’. Did you mean “these”?
   context: What none of this changes yet is the asset side. A privat...
   suggested: these
