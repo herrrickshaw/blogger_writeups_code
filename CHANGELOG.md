@@ -14192,3 +14192,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Changed**
 
 - `indias-factory-intentions-20012024-how_0101046393` — 28,292 → 33,502 bytes (+5,210)
+
+## 2026-10-10T02:31:33+05:30 — 362 posts live
+
+**Added**
+
+- `the-rbis-fcnrb-window-drew-133-billion` **v1.0.0** — The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion (29,258 bytes)
