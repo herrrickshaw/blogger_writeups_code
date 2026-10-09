@@ -14159,3 +14159,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `the-sme-growth-fund-is-indias-fourth` **v1.0.0** — The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things (24,502 bytes)
+
+## 2026-10-09T20:02:03+05:30 — 359 posts live
+
+**Added**
+
+- `indias-reported-central-project-overrun` **v1.0.0** — India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published (22,664 bytes)
