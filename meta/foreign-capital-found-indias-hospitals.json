@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/foreign-capital-found-indias-hospitals.html",
   "slug": "foreign-capital-found-indias-hospitals",
   "published": "2026-08-23T14:22:31.000+05:30",
-  "updated": "2026-10-01T08:22:44.351+05:30",
+  "updated": "2026-10-10T02:54:41.568+05:30",
   "labels": [
     "Healthcare",
     "India",
     "Infrastructure & Investment"
   ],
-  "bytes": 33159,
-  "sha256": "17e44ae980ea571f7ec2b2f0c5bb7fe79a257f2be5f52306f213890e5ec10ba4",
+  "bytes": 35291,
+  "sha256": "4ab5c5b6fa661e4c1a148249429d691b453f4a122bd330c792ce9f5b54380a41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "5.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.0.0",
+      "date": "2026-10-10T02:55:13+05:30",
+      "level": "major",
+      "reason": "figures changed (+15/-0 distinct numbers)",
+      "bytes": [
+        33159,
+        35291
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

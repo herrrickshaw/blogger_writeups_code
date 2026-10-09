@@ -14198,3 +14198,17 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `the-rbis-fcnrb-window-drew-133-billion` **v1.0.0** — The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion (29,258 bytes)
+
+## 2026-10-10T02:55:13+05:30 — 363 posts live
+
+**Added**
+
+- `indias-fdi-moved-to-software-and` **v1.0.0** — India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7% (29,685 bytes)
+
+**Versions**
+
+- `foreign-capital-found-indias-hospitals` **4.1.0 → 5.0.0** (MAJOR) — figures changed (+15/-0 distinct numbers)
+
+**Changed**
+
+- `foreign-capital-found-indias-hospitals` — 33,159 → 35,291 bytes (+2,132)
