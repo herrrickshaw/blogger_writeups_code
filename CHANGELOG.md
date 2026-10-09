@@ -14047,3 +14047,13 @@ October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, for
 - `rbi-foreign-exchange-reserves-20152026` — 56,704 → 57,075 bytes (+371)
 - `the-cbg-incentive-stack-every-leg-of` — 21,370 → 22,535 bytes (+1,165)
 - `the-price-of-grain-msp-msv-and` — 42,585 → 43,454 bytes (+869)
+
+## 2026-10-09T10:12:40+05:30 — 347 posts live
+
+New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
+
+
+**Added**
+
+- `indias-old-factory-index-said` **v1.0.0** — India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20% (26,636 bytes)
+- `indias-petroleum-act-still-fines` **v1.0.0** — India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore (19,473 bytes)
