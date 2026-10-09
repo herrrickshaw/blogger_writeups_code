@@ -14153,3 +14153,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `india-imported-295-more-steel-this-year` **v1.0.0** — India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else (24,685 bytes)
+
+## 2026-10-09T19:28:20+05:30 — 358 posts live
+
+**Added**
+
+- `the-sme-growth-fund-is-indias-fourth` **v1.0.0** — The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things (24,502 bytes)
