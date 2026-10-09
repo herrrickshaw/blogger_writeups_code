@@ -2830,3 +2830,23 @@ output is a React/Tailwind app with a build step, not portable static HTML —
 converting that back into something a Blogger post body can render would very
 likely cost more effort than it saved, for a template that only needs to be a
 self-contained HTML/CSS fragment.
+
+## 2026-10-09 — Affiliate layer retired; theme tuned for reading with Auto ads
+
+- **Amazon Associates removed site-wide** at the owner's request. The BOOKS and
+  SHELF arrays and both renderers (topic "Further reading" and "From the
+  author's shelf") were deleted from `accordion.js` on the Pages repo
+  (masaladeutsch d9fcec6). The topic list now filters out the retired "Shop"
+  label, so it disappears even before the Shop post is deleted. The Shop post
+  itself (id 1964166395488869750) is deleted by hand from the Mac. The Shop
+  row and related links were removed from the index page, and the one
+  non-affiliate Amazon product photo was removed from the ajvar post.
+- **Theme `gs-readable-ads-v1`** (CSS only, in `theme/theme.xml`):
+  - The post header (date and rule) now sits in the 760px article column.
+  - Auto-placed ads are centred in that column, with clear space and a small
+    "Advertisement" label. Nothing creates, moves or hides an ad; AdSense
+    still decides placement.
+  - Tables inside `.gb-tblwrap`/`.tw` lay out normally, so long cells wrap on
+    desktop. On phones they get a 600px minimum and scroll inside their box.
+  - Checked on a mock page with stand-in ad blocks at 1280px and 375px; no
+    horizontal page scroll at either width.
