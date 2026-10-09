@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*342 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*343 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 7 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 9 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -2127,8 +2127,10 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### Unlabelled (3)
+### Unlabelled (4)
 
+- **[India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)** — 2026-10-07
+  For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
 - **[India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State](https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html)** — 2026-09-16
   Parliament passed India's four labour codes in 2019 and 2020, consolidating 29 laws into four. They came into force on 21 November 2025 — with no rules yet written to operate them. The Central Rules that make them enforceable took another five and a half months; as of the most recent count, barely a third of India's states had notified their own.
 - **[India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade.](https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html)** — 2026-09-15
@@ -3858,3 +3860,8 @@ Eight US court rulings from 2023 to 2026 show refiners winning the small-refiner
 *2026-10-06 · Healthcare, Industrial Policy*
 
 Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
+
+### [India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)
+*2026-10-07 · —*
+
+For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
