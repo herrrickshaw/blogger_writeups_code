@@ -3,11 +3,11 @@
   "title": "India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants",
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html",
   "slug": "indias-factory-intentions-20012024-how_0101046393",
-  "published": "2026-10-07T11:49:56.277+05:30",
-  "updated": "2026-10-07T11:49:56.277+05:30",
+  "published": "2026-10-07T11:49:56.000+05:30",
+  "updated": "2026-10-09T22:14:48.942+05:30",
   "labels": [],
-  "bytes": 28292,
-  "sha256": "c7f6c90a959ff2ed85d88273f9ea1093ea536e48c177bbf093d69c9793daa66b",
+  "bytes": 33502,
+  "sha256": "32302811bccfc8998de7c2a43c15d9cdd8062c5821769d94fc2c7c8be391b9e9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -27,6 +27,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "IEM register article published"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-09T22:15:31+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+41/-0 distinct numbers))",
+      "bytes": [
+        28292,
+        33502
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

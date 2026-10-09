@@ -14182,3 +14182,13 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 
 - `indias-first-tourism-survey-since-2014` **v1.0.0** — India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It (21,707 bytes)
 - `india-and-mercosur-are-expanding-450` **v1.0.0** — India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina (25,136 bytes)
+
+## 2026-10-09T22:15:31+05:30 — 361 posts live
+
+**Versions**
+
+- `indias-factory-intentions-20012024-how_0101046393` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+41/-0 distinct numbers))
+
+**Changed**
+
+- `indias-factory-intentions-20012024-how_0101046393` — 28,292 → 33,502 bytes (+5,210)
