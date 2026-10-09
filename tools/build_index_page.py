@@ -18,6 +18,7 @@ THE GRAPH IS DRAWN, NOT EMBEDDED
     organic and would land differently on every rebuild, which makes it
     impossible to tell a data change from a jitter.
 """
+import re
 import argparse
 import collections
 import glob
@@ -487,6 +488,9 @@ def main():
 
     body = "\n".join(o)
     head = Path(args.shell_head).read_text(encoding="utf-8") if args.shell_head else ""
+    # The body already carries the topnav index link (above); drop any copy the
+    # shell head brings so the live page does not show it twice.
+    head = re.sub(r'<div class="topnav-index-link"[^>]*>.*?</div>\s*', "", head, flags=re.S)
     tail = Path(args.shell_tail).read_text(encoding="utf-8") if args.shell_tail else ""
     extra = """<style>/*gs-index-v1*/
 .artx .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}
