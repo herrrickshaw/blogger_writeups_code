@@ -14165,3 +14165,13 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `indias-reported-central-project-overrun` **v1.0.0** — India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published (22,664 bytes)
+
+## 2026-10-09T21:09:39+05:30 — 359 posts live
+
+**Versions**
+
+- `green-energy-corridor-iii-is-15-times` **1.0.0 → 2.0.0** (MAJOR) — figures changed (+5/-2 distinct numbers)
+
+**Changed**
+
+- `green-energy-corridor-iii-is-15-times` — 22,824 → 23,089 bytes (+265)
