@@ -1,0 +1,375 @@
+<div class="artx trk">
+<style>/*gs-typo-unify-v1*/
+.trk{font-family:Georgia,'Times New Roman',serif;line-height:1.62;color:#1a1a1a;max-width:54rem;margin:0 auto}
+.trk h1,.trk h2,.trk h3{line-height:1.3}
+.trk p,.trk li{max-width:38rem}
+.trk .eyebrow{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#8a4b08;margin:0 0 .8rem}
+.trk h1{font-weight:400;font-size:2.15rem;letter-spacing:-.01em;margin:0 0 .9rem;max-width:24ch;color:#1a1a1a}
+.trk .standfirst{font-size:1.2rem;line-height:1.5;color:#4a4a4a;max-width:38rem;margin:0 0 1.4rem}
+.trk h2{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#595959;border-top:1px solid #e2e2e2;padding-top:.8rem;margin:2.8rem 0 .35rem;max-width:38rem}
+.trk .h2sub{font-size:1.55rem;font-weight:400;line-height:1.26;margin:0 0 1rem;max-width:26ch;color:#1a1a1a}
+.trk h3{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;font-weight:600;margin:1.7rem 0 .4rem}
+.trk .note,.trk .warn{border-left:2px solid #e2e2e2;padding:.1rem 0 .1rem 1rem;margin:1.6rem 0;font-size:.95rem;color:#4a4a4a}
+.trk .warn{border-left-color:#db2b27}
+.trk a{color:#12408f}
+.trk .sources{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;max-width:46rem;margin:2.6rem 0 0;padding-top:.9rem;border-top:1px solid #e2e2e2}
+.trk .revised{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.76rem;color:#595959;margin:0 0 1.2rem}
+.trk .disclaimer{font-size:.8rem;color:#555;margin-top:1.4rem;max-width:46rem}
+.trk img,.trk svg{max-width:100%;height:auto}
+
+/*gs-table-v1*/
+.post-body table{display:block;overflow-x:auto;max-width:100%;width:max-content;
+ min-width:100%;border-collapse:collapse;font-size:.86rem}
+.post-body thead th,.post-body tr:first-child th{background:#111;color:#fff;font-weight:700;
+ text-align:right;vertical-align:bottom;padding:.6rem .7rem;border:1px solid #111;
+ word-break:keep-all;min-width:5.5rem}
+.post-body thead th:first-child,.post-body tr:first-child th:first-child{text-align:left}
+.post-body td{border:1px solid #d9d9d9;padding:.5rem .7rem;text-align:right;
+ font-variant-numeric:tabular-nums;white-space:nowrap;color:#111;background:#fff}
+.post-body td:first-child{text-align:left;white-space:normal;min-width:8rem}
+.post-body tbody tr:nth-child(even) td{background:#fafafa}
+
+/* ---- Edition 03 refresh: interactive dashboard, scoped under #aiDashRoot so
+   its --custom-properties, its dark/light toggle and its generic class names
+   (card/grid/tag/badge...) can never leak onto the rest of the page or collide
+   with .trk's own styles. Everything below is qualified by #aiDashRoot. ---- */
+#aiDashRoot{
+  --bg:#0c1018; --panel:#141b26; --panel-2:#1b2432; --border:#26303f;
+  --text:#e7edf5; --muted:#93a1b5; --accent:#5b9dff; --accent-2:#7c5cff;
+  --good:#38d39f; --warn:#ffb454; --hot:#ff5c7a; --chip:#1f2a3a;
+  --shadow:0 6px 24px rgba(0,0,0,.35);
+  background:var(--bg);color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  line-height:1.5;-webkit-font-smoothing:antialiased;border-radius:14px;padding:1px;margin:1.6rem 0;
+}
+#aiDashRoot[data-theme="light"]{
+  --bg:#f5f7fb; --panel:#ffffff; --panel-2:#f0f3f9; --border:#dbe2ec;
+  --text:#141b26; --muted:#5a6a80; --accent:#2f6bff; --accent-2:#6a3cff;
+  --good:#0f9d6f; --warn:#c47a12; --hot:#e0355a; --chip:#eef2f8;
+  --shadow:0 6px 24px rgba(30,50,90,.10);
+}
+#aiDashRoot, #aiDashRoot *{box-sizing:border-box}
+#aiDashRoot .wrap{max-width:1180px;margin:0 auto;padding:26px 20px 40px}
+#aiDashRoot header.top{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px;
+  border-bottom:1px solid var(--border);padding-bottom:20px;margin-bottom:22px}
+#aiDashRoot .brand{display:flex;flex-direction:column;gap:4px}
+#aiDashRoot .brand h1{margin:0;font-size:26px;letter-spacing:-.4px;font-weight:750;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;max-width:none;color:var(--text)}
+#aiDashRoot .brand .eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:1.6px;color:var(--accent);font-weight:700;font-family:inherit;margin:0}
+#aiDashRoot .brand .sub{color:var(--muted);font-size:14px}
+#aiDashRoot .top-right{display:flex;align-items:center;gap:12px}
+#aiDashRoot .edition{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#fff;
+  padding:8px 14px;border-radius:10px;font-weight:650;font-size:13px;white-space:nowrap}
+#aiDashRoot .themebtn{background:var(--panel-2);color:var(--text);border:1px solid var(--border);
+  border-radius:9px;padding:8px 12px;cursor:pointer;font-size:13px;font-weight:600}
+#aiDashRoot .themebtn:hover{border-color:var(--accent)}
+#aiDashRoot .kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px;margin-bottom:22px}
+#aiDashRoot .kpi{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px;box-shadow:var(--shadow)}
+#aiDashRoot .kpi .n{font-size:26px;font-weight:780;letter-spacing:-.5px}
+#aiDashRoot .kpi .l{font-size:12.5px;color:var(--muted);margin-top:2px}
+#aiDashRoot .kpi .d{font-size:11.5px;margin-top:6px;font-weight:600}
+#aiDashRoot .up{color:var(--good)} #aiDashRoot .flat{color:var(--muted)}
+#aiDashRoot .filters{display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}
+#aiDashRoot .fbtn{background:var(--panel);border:1px solid var(--border);color:var(--text);
+  padding:8px 14px;border-radius:999px;cursor:pointer;font-size:13px;font-weight:600;transition:.15s}
+#aiDashRoot .fbtn:hover{border-color:var(--accent)}
+#aiDashRoot .fbtn.active{background:var(--accent);border-color:var(--accent);color:#fff}
+#aiDashRoot .fbtn .c{opacity:.7;font-weight:500;margin-left:4px}
+#aiDashRoot .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+#aiDashRoot .card{background:var(--panel);border:1px solid var(--border);border-radius:14px;padding:16px 16px 14px;
+  box-shadow:var(--shadow);display:flex;flex-direction:column;gap:10px;position:relative;overflow:hidden}
+#aiDashRoot .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--accent)}
+#aiDashRoot .card[data-cat="coding"]::before{background:#5b9dff}
+#aiDashRoot .card[data-cat="agentic"]::before{background:#7c5cff}
+#aiDashRoot .card[data-cat="foundation"]::before{background:#38d39f}
+#aiDashRoot .card[data-cat="consumer"]::before{background:#ff8f4d}
+#aiDashRoot .card[data-cat="automation"]::before{background:#ffb454}
+#aiDashRoot .card .head{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+#aiDashRoot .card h3{margin:0;font-size:16.5px;font-weight:720;letter-spacing:-.2px;color:var(--text);font-family:inherit}
+#aiDashRoot .card .by{font-size:12.5px;color:var(--muted);margin-top:1px}
+#aiDashRoot .tag{font-size:10.5px;text-transform:uppercase;letter-spacing:.6px;font-weight:750;
+  padding:4px 8px;border-radius:6px;white-space:nowrap;color:#fff}
+#aiDashRoot .tag.coding{background:#3f7fe0} #aiDashRoot .tag.agentic{background:#6a4fe0}
+#aiDashRoot .tag.foundation{background:#1f9d75} #aiDashRoot .tag.consumer{background:#e07a3f} #aiDashRoot .tag.automation{background:#c88a1e}
+#aiDashRoot .why{font-size:13.5px;color:var(--text);max-width:none}
+#aiDashRoot .badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+#aiDashRoot .badge{font-size:11.5px;font-weight:650;padding:3px 8px;border-radius:6px;
+  background:var(--chip);color:var(--muted);border:1px solid var(--border)}
+#aiDashRoot .badge.star{color:var(--warn)} #aiDashRoot .badge.hot{color:var(--hot)} #aiDashRoot .badge.fund{color:var(--good)}
+#aiDashRoot .badge.rep{color:var(--muted);font-style:italic}
+#aiDashRoot .ribbon{position:absolute;top:10px;right:-30px;transform:rotate(45deg);background:var(--hot);color:#fff;
+  font-size:10px;font-weight:800;letter-spacing:.8px;padding:3px 34px;box-shadow:0 2px 6px rgba(0,0,0,.3)}
+#aiDashRoot .card.newcard{border-color:var(--hot)}
+#aiDashRoot .card .foot{display:flex;justify-content:space-between;align-items:center;margin-top:auto;padding-top:8px;
+  border-top:1px solid var(--border);font-size:12px}
+#aiDashRoot .date{color:var(--muted)}
+#aiDashRoot .src{color:var(--accent);text-decoration:none;font-weight:650}
+#aiDashRoot .src:hover{text-decoration:underline}
+#aiDashRoot .notes{margin-top:30px;background:var(--panel-2);border:1px solid var(--border);border-radius:14px;padding:20px 22px}
+#aiDashRoot .notes h2{margin:0 0 6px;font-size:17px;font-weight:730;font-family:inherit;text-transform:none;letter-spacing:normal;border-top:none;padding-top:0;color:var(--text);max-width:none}
+#aiDashRoot .notes p{font-size:13px;color:var(--muted);margin:9px 0;max-width:none}
+#aiDashRoot .notes strong{color:var(--text)}
+#aiDashRoot .notes ul{margin:8px 0 0;padding-left:18px}
+#aiDashRoot .notes li{font-size:13px;color:var(--muted);margin:6px 0;max-width:none}
+#aiDashRoot footer{margin-top:26px;text-align:center;color:var(--muted);font-size:12px}
+#aiDashRoot .legend{display:flex;flex-wrap:wrap;gap:14px;margin-top:6px;font-size:12px;color:var(--muted)}
+#aiDashRoot .legend span{display:inline-flex;align-items:center;gap:5px}
+#aiDashRoot .dot{width:10px;height:10px;border-radius:3px;display:inline-block}
+</style>
+
+<div class="gs-head-order" style="display:flex;flex-direction:column">
+<p style="order:4" class="standfirst">This refresh widens the tracker's lens. Edition 03's original discovery method &mdash; GitHub-API-only, no roundups or aggregators &mdash; still works for measuring open-source star velocity, but it structurally cannot see funding rounds, foundation-model drops, or product launches from companies that don't live on GitHub. Covering those means drawing on secondary sources, so this refresh does that openly: every item below is tagged <b>Verified</b> (confirmed via GitHub, a company's own press/changelog, or comparable first-party record) or <b>reported</b> (resting on a single aggregator or secondary source no lab or company has directly confirmed) rather than presented as uniformly solid.</p>
+<div class="topnav-index-link" style="order:1;font-size:.82em;margin:6px 0 14px"><a href="https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html" style="color:#0b5394;text-decoration:none">&#8592; All Articles (Index)</a></div>
+<p style="order:2" class="eyebrow">AI Tracker &middot; Edition 03 &middot; Refresh &middot; 9 October 2026</p>
+<h1 style="order:3">OpenAI Shipped GPT-6 and Agents That Keep Working After You Log Off. Google Kept Its Best Model for Cyber Defenders.</h1>
+</div>
+
+<figure class="gb-figure" style="margin:1.5rem 0 1.75rem;text-align:center">
+<svg role="img" style="width:100%;height:auto;max-width:700px;display:block;margin:0 auto" viewBox="0 0 700 380" xmlns="http://www.w3.org/2000/svg" font-family="Georgia,'Times New Roman',serif">
+<rect x="0" y="0" width="700" height="380" fill="#f8f9fa" />
+<text x="40" y="42" font-size="20" fill="#1a1a1a" font-weight="bold">Fresh AI-Agent Infrastructure Funding</text>
+<text x="40" y="64" font-size="13.5" fill="#4a4a4a">Three rounds announced 1 Sep &#8211; 7 Oct 2026 &middot; $690M combined &middot; Temporal confirmed; Nous and AIR per TechCrunch</text>
+<line x1="120" y1="300" x2="640" y2="300" stroke="#c9c9c9" stroke-width="1" />
+<rect x="160" y="110" width="110" height="190" fill="#0b5794" />
+<text x="215" y="98" font-size="20" fill="#0b5794" font-weight="bold" text-anchor="middle">$550M</text>
+<text x="215" y="322" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Temporal</text>
+<text x="215" y="340" font-size="12" fill="#595959" text-anchor="middle">Series E</text>
+<rect x="340" y="269" width="110" height="31" fill="#0b5794" />
+<text x="395" y="257" font-size="20" fill="#0b5794" font-weight="bold" text-anchor="middle">$90M</text>
+<text x="395" y="322" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">Nous Research</text>
+<text x="395" y="340" font-size="12" fill="#595959" text-anchor="middle">Series B</text>
+<rect x="520" y="283" width="110" height="17" fill="#0b5794" />
+<text x="575" y="271" font-size="20" fill="#0b5794" font-weight="bold" text-anchor="middle">$50M</text>
+<text x="575" y="322" font-size="14" fill="#1a1a1a" text-anchor="middle" font-weight="bold">AIR</text>
+<text x="575" y="340" font-size="12" fill="#595959" text-anchor="middle">Two seed rounds</text>
+<text x="40" y="365" font-size="11.5" fill="#8a8a8a">Sources: Temporal blog, 14 Sep 2026; TechCrunch, 1 Sep and 7 Oct 2026 &middot; masaladeutsch AI Tracker Edition 03</text>
+</svg>
+<figcaption style="font-size:.8em;color:#868e96;font-family:-apple-system,'Segoe UI',sans-serif;margin-top:.5rem">Three AI-agent infrastructure rounds between 1 September and 7 October 2026 came to $690M: durable execution for long-running agents (Temporal), an open-model lab with its own agent framework (Nous Research), and security vetting for agent add-ons (AIR). A reported ~$750M round for Modal Labs is left out because only one anonymous-source report exists and no close has been announced. The August rounds (HappyRobot, Convex, Sapiom, $242M) were logged in the previous refresh.</figcaption>
+</figure>
+
+<a href="#" id="gs-skip-link" class="gs-skip-link" style="position:absolute;left:-9999px;top:auto;background:#1a1a1a;color:#fff;padding:.6rem 1rem;z-index:1000;border-radius:4px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.85rem">Skip to article content</a>
+<style>.gs-skip-link:focus{left:8px!important;top:8px!important}
+.gs-a11y-bar{display:flex;align-items:center;gap:.55rem;flex-wrap:wrap;background:#f4f5f7;border:1px solid #dfe3e8;border-radius:8px;padding:.55rem .8rem;margin:10px 0 16px;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.gs-a11y-bar .gs-a11y-label{font-size:.68rem;font-weight:700;letter-spacing:.08em;color:#666;text-transform:uppercase;margin-right:.15rem}
+.gs-a11y-bar button{cursor:pointer;border:1px solid #c7cbd1;background:#fff;color:#1a1a1a;border-radius:5px;padding:.32rem .65rem;font-family:inherit;line-height:1}
+.gs-a11y-bar button.gs-a11y-fs{font-weight:700;min-width:2rem;text-align:center}
+.gs-a11y-bar button.gs-a11y-fs[data-size="sm"]{font-size:.8rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="md"]{font-size:1rem}
+.gs-a11y-bar button.gs-a11y-fs[data-size="lg"]{font-size:1.2rem}
+.gs-a11y-bar button.gs-a11y-fs[aria-pressed="true"]{background:#1a1a1a;color:#fff;border-color:#1a1a1a}
+.gs-a11y-bar button:hover{border-color:#8a4b08}
+.gs-a11y-bar button:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
+.gs-a11y-bar .gs-a11y-sep{width:1px;align-self:stretch;background:#dfe3e8;margin:0 .1rem}</style>
+<div class="gs-a11y-bar" role="group" aria-label="Accessibility controls">
+<span class="gs-a11y-label">Text Size</span>
+<button type="button" class="gs-a11y-fs" data-size="sm" aria-pressed="false" aria-label="Small text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="md" aria-pressed="true" aria-label="Medium text">A</button>
+<button type="button" class="gs-a11y-fs" data-size="lg" aria-pressed="false" aria-label="Large text">A</button>
+<span class="gs-a11y-sep"></span>
+<button type="button" id="gs-a11y-listen" aria-label="Read this article aloud">&#128266; Listen</button>
+<button type="button" id="gs-a11y-stop" aria-label="Stop reading aloud">&#9632; Stop</button>
+</div>
+<script>(function(){
+var KEY='gs-a11y-fontsize', SIZES={sm:'0.92',md:'1',lg:'1.15'};
+function pb(){return document.querySelector('.post-body')||document.querySelector('.artx,.mdrx');}
+function apply(sz){
+  var el=pb(); if(!el||!SIZES[sz]) return;
+  el.style.fontSize=SIZES[sz]+'em';
+  var btns=document.querySelectorAll('.gs-a11y-fs');
+  for(var i=0;i<btns.length;i++){
+    var on=btns[i].getAttribute('data-size')===sz;
+    btns[i].setAttribute('aria-pressed', on?'true':'false');
+  }
+  try{localStorage.setItem(KEY,sz);}catch(e){}
+}
+var fsBtns=document.querySelectorAll('.gs-a11y-fs');
+for(var j=0;j<fsBtns.length;j++){
+  fsBtns[j].addEventListener('click',(function(b){return function(){apply(b.getAttribute('data-size'));};})(fsBtns[j]));
+}
+var saved; try{saved=localStorage.getItem(KEY);}catch(e){}
+apply(saved&&SIZES[saved]?saved:'md');
+
+var listenBtn=document.getElementById('gs-a11y-listen'), stopBtn=document.getElementById('gs-a11y-stop');
+if(listenBtn){
+  listenBtn.addEventListener('click', function(){
+    if(!('speechSynthesis' in window)){ alert('Text-to-speech is not supported in this browser.'); return; }
+    window.speechSynthesis.cancel();
+    var src=pb(); if(!src) return;
+    var clone=src.cloneNode(true);
+    var strip=clone.querySelectorAll('script,style,svg');
+    for(var k=0;k<strip.length;k++){ strip[k].parentNode.removeChild(strip[k]); }
+    var text=clone.textContent.replace(/\s+/g,' ').trim();
+    if(!text) return;
+    var chunks=text.match(/[\s\S]{1,180}(?:[.!?]|$)/g)||[text];
+    var idx=0;
+    function speakNext(){
+      if(idx>=chunks.length) return;
+      var u=new SpeechSynthesisUtterance(chunks[idx]);
+      u.onend=function(){ idx++; speakNext(); };
+      window.speechSynthesis.speak(u);
+    }
+    speakNext();
+  });
+}
+if(stopBtn){
+  stopBtn.addEventListener('click', function(){
+    if('speechSynthesis' in window) window.speechSynthesis.cancel();
+  });
+}
+var skip=document.getElementById('gs-skip-link');
+if(skip){
+  skip.addEventListener('click', function(ev){
+    ev.preventDefault();
+    var h=document.querySelector('.post-body h1')||document.querySelector('.artx h1,.mdrx h1,h1');
+    if(h){ h.setAttribute('tabindex','-1'); h.focus(); h.scrollIntoView(); }
+  });
+}
+})();</script>
+<style>.goog-te-menu-frame{max-width:340px!important;max-height:70vh!important;overflow:auto!important;box-shadow:0 6px 24px rgba(0,0,0,.25)!important}</style><div id="google_translate_element" style="margin:8px 0 16px;"></div><script type="text/javascript">function googleTranslateElementInit(){new google.translate.TranslateElement({pageLanguage:"en",includedLanguages:"hi,bn,ta,te,mr,gu,kn,ml,pa,or,as,ur,sa,ne,sd",layout:google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay:false},"google_translate_element");}</script><script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+<p class="revised" data-gs-revision-v1="1">Revised <time datetime="2026-10-09" itemprop="dateModified">9 October 2026</time> &middot; v5.0.0 &middot; Edition 03 refresh &middot; 17 new movers this window</p>
+<figure style="margin:1.6rem 0">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Cloudflare_office_entrance_area.jpg/960px-Cloudflare_office_entrance_area.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=imageinfo&amp;utm_content=thumbnail" alt="The entrance area of a Cloudflare office" loading="lazy" style="width:100%;height:auto;border-radius:6px;display:block"/>
+<figcaption class="gb-note" style="margin-top:.4rem">Cloudflare's offices — the company behind the August refresh's headline mover, Agents Week; its Kitesurf agent browser gained WebMCP support on 28 September. <a href="https://commons.wikimedia.org/wiki/File:Cloudflare_office_entrance_area.jpg" rel="noopener noreferrer">Cloudflare office entrance area</a>, HaeB, CC BY-SA 4.0, via Wikimedia Commons.</figcaption>
+</figure>
+
+<div id="aiDashRoot">
+<div class="wrap">
+  <section class="kpis" id="kpis"></section>
+  <div class="filters" id="filters"></div>
+  <div class="grid" id="grid"></div>
+
+  <section class="notes">
+    <h2>Consistency &amp; methodology notes</h2>
+    <p>A small verified sample was checked first (Ruflo, Graphify, Kolibri, HappyRobot), each fact checked against its primary source, then scaled to the full board across all five categories. Items are labelled <strong>Verified</strong> where a figure came from GitHub itself or reputable first-party press, and <strong>reported</strong> where it rests on a single aggregator or secondary source a lab or company has not directly confirmed.</p>
+
+    <p><strong>What changed this refresh (as of 9 October):</strong> 17 new movers added. The window was dominated by OpenAI&rsquo;s <strong>GPT-6</strong> rollout and its 29 September DevDay (<strong>Agents API</strong>, <strong>Dots</strong>, <strong>Codex Cloud</strong>), Google&rsquo;s <strong>Gemini agent</strong> for work and its restricted <strong>Gemini 4 Argon</strong>, and Meta&rsquo;s consumer <strong>Muse</strong> agent. Six existing items were updated, four carried over unchanged, and thirteen were retired: Konecta Kolibri, Sapiom, Convex, HappyRobot, Drata, the July Codex price cut, a July Anthropic model release, DeepSeek-V4-Flash, Kimi K3, FLUX 3 Video, Muse Glimmer, Google Calling Agents and open-connector are off the board because they predate the window, were superseded, or had no new development.</p>
+    <ul>
+      <li><strong>GitHub star counts were not refreshed.</strong> Ruflo (67.6k stars / 8.1k forks) and Graphify (16 stars / 4 forks) are still the 11 August 2026 snapshot, because GitHub&rsquo;s API could not be read from this refresh&rsquo;s tools.</li>
+      <li><strong>Name-collision watch &mdash; &ldquo;Graphify&rdquo;:</strong> the reference example is a small repo (rhanka/graphify). Several SEO blogs claim &ldquo;85,000+ stars&rdquo; for &ldquo;Graphify&rdquo; &mdash; that figure is <em>unverified and does not match any live repo</em>.</li>
+      <li><strong>Name-collision watch &mdash; &ldquo;Kolibri&rdquo;:</strong> Aleph Alpha released an open-weight model called <em>Kolibri-1</em> on 3 October 2026. It is unrelated to Konecta&rsquo;s enterprise agent platform &ldquo;Kolibri&rdquo; (June 2026) or to GitHub repos spelled &ldquo;colibri&rdquo;.</li>
+      <li><strong>Dates that differ between sources are shown as ranges,</strong> not resolved: Cursor Origin (changelog 17 Aug, an older listing 13 Aug, TechCrunch 18 Aug), Qwen3.8-Flash-Next (repo 24 Aug, press 26&ndash;28 Aug), UiPath voice agents (14 or 17 Sep), and Qwen3.8-Max open weights (repo 8&ndash;12 Aug, CNBC 17 Aug).</li>
+      <li><strong>Verified</strong> on this refresh means a first-party page, a first-party repository, or reputable press (TechCrunch, CNBC, Bloomberg) was found by its own URL; most pages could not be opened directly, so benchmark and pricing figures are vendor-reported. Gemini Spark&rsquo;s $99.99/mo price is still single-source.</li>
+      <li><strong>Funding:</strong> Temporal&rsquo;s round is confirmed on its own blog (Bloomberg had reported talks at about $500M); Nous Research and AIR rest on TechCrunch reports and are marked &ldquo;reported&rdquo; until a company announcement is linked. Larger rounds outside agent infrastructure (Instinct, $1B; Manus, over $500M) are not on the board. One aggregator&rsquo;s &ldquo;Composio $25M Series A, 14 Sep 2026&rdquo; is a recycled 2025 round and was ignored.</li>
+      <li><strong>Freshness bias:</strong> the board prioritises roughly the last eight weeks. Carryovers say what, if anything, changed this window.</li>
+    </ul>
+    <div class="legend">
+      <span><i class="dot" style="background:#3f7fe0"></i>Coding / Dev Tools</span>
+      <span><i class="dot" style="background:#6a4fe0"></i>Agentic &amp; Orchestration</span>
+      <span><i class="dot" style="background:#1f9d75"></i>Foundation Models</span>
+      <span><i class="dot" style="background:#e07a3f"></i>Consumer AI</span>
+      <span><i class="dot" style="background:#c88a1e"></i>Automation / Repetitive-task</span>
+    </div>
+  </section>
+  <footer>Figures are point-in-time and source-linked; verify before acting on any number. Theme: <button class="themebtn" id="aiDashThemeToggle" type="button">&#9728; / &#9789;</button></footer>
+</div>
+</div>
+
+<div class="note"><b>How this refresh relates to Edition 03's own rule.</b> Edition 03 was built specifically to prove a GitHub-API-only, no-roundup discovery method for star velocity &mdash; and that method, and its data, are unchanged here. This refresh adds a second, separate board for launches, funding and model releases that GitHub's API cannot see at all, sourced more broadly but labelled honestly per item. The two aren't merged into one number; treat the star-velocity table from the original edition and this launch board as two different instruments measuring two different things.</div>
+
+<p class="sources"><b>Sources.</b> Star/fork counts are read directly from the <b>GitHub API</b>. Launch, funding and model-release items are sourced per-item as linked in each card above and in the notes; see each card's &ldquo;Source&rdquo; link for the specific citation. Prior editions are linked from <a href="https://masaladeutsch.blogspot.com/search/label/AI%20Tracker">the AI Tracker hub</a>.</p>
+<div style="background:#eef6ff;border:1px solid #b6d4f0;border-radius:12px;padding:1.1rem 1.4rem;margin:1.5rem 0;font-family:-apple-system,'Segoe UI',sans-serif;font-size:.9em;color:#212529"><strong>Related on this blog:</strong> <a href="https://masaladeutsch.blogspot.com/2026/08/indian-it-in-ai-era.html">Indian IT in an AI Era</a> &middot; <a href="https://masaladeutsch.blogspot.com/2020/10/tech-for-business-so-2019-tech-as.html">Tech for Business so 2019, Tech As Business is for 2020!</a> &mdash; two more pieces on this blog's tech and IT-services beat.</div>
+<p class="disclaimer" data-gs-ai-disclosure-v1="1"><strong>About this article:</strong> Researched, written and edited by Umashankar Triplicane Dwarakanathan, with AI research assistance; every figure is meant to trace to the primary source cited. See the <a href="https://masaladeutsch.blogspot.com/p/disclaimer.html">Editorial Policy</a> for how sourcing, AI use and corrections work.</p>
+
+</div>
+
+<script>
+(function(){
+  var CATS = {
+    coding:"Coding / Dev Tools",
+    agentic:"Agentic &amp; Orchestration",
+    foundation:"Foundation Models",
+    consumer:"Consumer AI",
+    automation:"Automation / Repetitive-task"
+  };
+
+  var DATA = [
+    {"name": "Gemini agent", "by": "Google Cloud", "cat": "agentic", "isNew": true, "why": "NEW: one work agent that plans a job, spins up sub-agents with their own Workspace identities, and connects to Microsoft 365, Slack, Jira and Snowflake; it routes work across more than one model family. Businesses first, consumers later.", "badges": [{"t": "Multi-agent", "c": "hot"}, {"t": "Enterprise first", "c": ""}, {"t": "Verified", "c": ""}], "date": "8 Oct 2026", "src": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026"},
+    {"name": "Agents API (public beta)", "by": "OpenAI", "cat": "agentic", "isNew": true, "why": "NEW: hosted agent execution with memory, tools and multi-agent support, announced at DevDay. Moves agent runtimes from developers&rsquo; own servers onto OpenAI&rsquo;s platform.", "badges": [{"t": "DevDay", "c": "hot"}, {"t": "Public beta", "c": ""}, {"t": "Verified", "c": ""}], "date": "29 Sep 2026", "src": "https://openai.com/index/devday-2026-recap/"},
+    {"name": "Agentforce long-horizon runtime", "by": "Salesforce", "cat": "agentic", "isNew": true, "why": "NEW at Dreamforce: agents that pursue a goal over days or weeks, an orchestrating &lsquo;Superagent&rsquo;, and risk scores for MCP servers. Several parts are pilot or beta only.", "badges": [{"t": "Long-horizon", "c": "hot"}, {"t": "Pilot/beta", "c": ""}, {"t": "Verified", "c": ""}], "date": "15&ndash;17 Sep 2026", "src": "https://www.salesforce.com/blog/dreamforce-2026-announcements/"},
+    {"name": "Temporal", "by": "Temporal (Lightspeed)", "cat": "agentic", "isNew": true, "why": "NEW raise: durable-execution platform that keeps long-running agent workflows alive through failures and restarts &mdash; the plumbing under many production agents. Bloomberg had reported talks at about $500M in August; the closed round was larger.", "badges": [{"t": "$550M Series E", "c": "fund"}, {"t": "$12.55B valuation", "c": "fund"}, {"t": "Verified", "c": ""}], "date": "14 Sep 2026", "src": "https://temporal.io/blog/temporal-raises-usd550m-series-e-at-usd12-55b-valuation-ai"},
+    {"name": "Nous Research (Hermes Agent)", "by": "Nous Research (Robot Ventures)", "cat": "agentic", "isNew": true, "why": "NEW raise: open-model lab behind the Hermes Agent framework.", "badges": [{"t": "$90M Series B", "c": "fund"}, {"t": "$1.5B valuation", "c": "fund"}, {"t": "TechCrunch", "c": ""}, {"t": "reported", "c": "rep"}], "date": "7 Oct 2026", "src": "https://techcrunch.com/"},
+    {"name": "AIR", "by": "AIR (Sequoia, Greenoaks)", "cat": "agentic", "isNew": true, "why": "NEW raise: vets the skills and add-ons that agents install, a security layer for the agent supply chain.", "badges": [{"t": "$50M (two seed rounds)", "c": "fund"}, {"t": "Agent security", "c": "hot"}, {"t": "TechCrunch", "c": ""}, {"t": "reported", "c": "rep"}], "date": "1 Sep 2026", "src": "https://techcrunch.com/"},
+    {"name": "OpenAI Agent Plugins", "by": "OpenAI (w/ AWS, GitHub, Vercel)", "cat": "agentic", "why": "UPDATED: the interoperability standard for agent tool-calling gained a Plugin Creator and a revised submission process at DevDay (29 Sep). First announced early August.", "badges": [{"t": "Interop standard", "c": "hot"}, {"t": "Plugin Creator", "c": ""}, {"t": "Verified", "c": ""}], "date": "Aug 2026 &middot; updated 29 Sep", "src": "https://openai.com/index/devday-2026-recap/"},
+    {"name": "Ruflo (Claude Flow)", "by": "ruvnet (Reuven Cohen)", "cat": "agentic", "why": "Meta-harness that turns coding agents into self-learning multi-agent swarms with vector memory and 100+ specialist agents. Star count is the 11 August snapshot; it was not re-read this refresh.", "badges": [{"t": "67.6k stars (11 Aug)", "c": "star"}, {"t": "8.1k forks", "c": "star"}, {"t": "Verified", "c": ""}], "date": "Active &middot; snapshot 11 Aug 2026", "src": "https://github.com/ruvnet/ruflo"},
+    {"name": "Cursor Origin", "by": "Cursor", "cat": "coding", "isNew": true, "why": "NEW: git hosting built into the Cursor editor, with pull requests, GitHub mirroring and CI through Vercel, Depot and Buildkite &mdash; the first direct challenge to GitHub from an AI-editor company.", "badges": [{"t": "Code hosting", "c": "hot"}, {"t": "date conflict", "c": "rep"}, {"t": "Verified", "c": ""}], "date": "13&ndash;18 Aug 2026 (sources differ)", "src": "https://cursor.com/changelog/origin-code-hosting"},
+    {"name": "Codex Cloud &amp; Codex Security Cloud", "by": "OpenAI", "cat": "coding", "isNew": true, "why": "NEW at DevDay: Codex Cloud keeps coding tasks running after the laptop closes; Security Cloud runs scheduled vulnerability scans; an &lsquo;Ultrafast&rsquo; paid tier claims up to 8x faster generation. Replaces the July price-cut item on this board.", "badges": [{"t": "Background agents", "c": "hot"}, {"t": "Ultrafast tier", "c": ""}, {"t": "Verified", "c": ""}], "date": "29 Sep 2026", "src": "https://openai.com/index/devday-2026-recap/"},
+    {"name": "Google Antigravity", "by": "Google", "cat": "coding", "why": "UPDATED: the agentic IDE&rsquo;s SDK added support for local models (Gemma 4 and OpenAI-compatible servers) on 23 September, so teams can run it without sending code to a hosted model.", "badges": [{"t": "Local models", "c": "hot"}, {"t": "reported", "c": "rep"}], "date": "Updated 23 Sep 2026", "src": "https://developers.googleblog.com/"},
+    {"name": "Muse Code", "by": "Meta", "cat": "coding", "why": "Terminal coding agent for large repositories (beta since August), now alongside Meta&rsquo;s consumer Muse agent. No new developer release found this window.", "badges": [{"t": "Repo-scale agent", "c": ""}, {"t": "Beta", "c": ""}, {"t": "reported", "c": "rep"}], "date": "6 Aug 2026", "src": "https://aiagentstore.ai/ai-agent-news/this-week"},
+    {"name": "Graphify", "by": "rhanka (open source)", "cat": "coding", "why": "Turns a folder of code, docs, papers or images into a queryable knowledge graph for coding assistants. Still nascent; star count is the 11 August snapshot.", "badges": [{"t": "16 stars (11 Aug)", "c": "star"}, {"t": "MIT", "c": ""}, {"t": "Verified", "c": ""}], "date": "Active &middot; snapshot 11 Aug 2026", "src": "https://github.com/rhanka/graphify"},
+    {"name": "GPT-6 Astra", "by": "OpenAI", "cat": "foundation", "isNew": true, "why": "NEW flagship, priced at $10/$50 per million input/output tokens, and the first OpenAI model rated &lsquo;Critical&rsquo; for cyber capability, so rollout was staged. GPT-6 Sol and Luna followed on 22 Sep and GPT-6 reached all ChatGPT users on 7 Oct.", "badges": [{"t": "New flagship", "c": "hot"}, {"t": "Staged rollout", "c": ""}, {"t": "Verified", "c": ""}], "date": "3 Sep 2026", "src": "https://openai.com/index/gpt-6-astra/"},
+    {"name": "Gemini 4 Argon", "by": "Google DeepMind", "cat": "foundation", "isNew": true, "why": "NEW: Google&rsquo;s most capable model, released first only to the 650+ partners in its Fairwind cyber-defence programme; no public release date yet.", "badges": [{"t": "Restricted release", "c": "hot"}, {"t": "Cyber defence", "c": ""}, {"t": "Verified", "c": ""}], "date": "30 Sep 2026", "src": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"},
+    {"name": "Grok 4.7", "by": "xAI with Cursor", "cat": "foundation", "isNew": true, "why": "NEW: a model aimed at long-running agentic coding, built jointly with Cursor and launched inside Cursor the same day.", "badges": [{"t": "Agentic coding", "c": "hot"}, {"t": "Verified", "c": ""}], "date": "21 Sep 2026", "src": "https://x.ai/news/grok-4-7"},
+    {"name": "DeepSeek-V4.1-Flash", "by": "DeepSeek", "cat": "foundation", "isNew": true, "why": "NEW open weights (MIT): 552B total parameters, a small active set, 1M context, and a much smaller KV cache that cuts serving cost. Supersedes V4-Flash on this board.", "badges": [{"t": "Open weights (MIT)", "c": ""}, {"t": "1M context", "c": ""}, {"t": "Verified", "c": ""}], "date": "10 Sep 2026", "src": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash"},
+    {"name": "Qwen3.8-Flash-Next", "by": "Alibaba (Qwen)", "cat": "foundation", "isNew": true, "why": "NEW open-weight preview of the Qwen4 architecture, under a community licence rather than Apache.", "badges": [{"t": "Open weights", "c": ""}, {"t": "date conflict", "c": "rep"}, {"t": "Verified", "c": ""}], "date": "24&ndash;28 Aug 2026 (sources differ)", "src": "https://huggingface.co/Qwen/Qwen3.8-Flash-Next"},
+    {"name": "Qwen3.8-Max (open weights)", "by": "Alibaba (Qwen)", "cat": "foundation", "why": "UPDATED: the promised open weights shipped as Qwen3.8-2.4T-A95B (2.4T parameters, 95B active) under a custom licence. The open version is text-only with 262K context; 1M context and vision stay API-only, and firms with over $50M revenue need a separate licence.", "badges": [{"t": "Open weights shipped", "c": "hot"}, {"t": "Custom licence", "c": ""}, {"t": "Verified", "c": ""}], "date": "Aug 2026 (repo 8&ndash;12 Aug; CNBC 17 Aug)", "src": "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B"},
+    {"name": "Muse personal agent", "by": "Meta", "cat": "consumer", "isNew": true, "why": "NEW consumer agent for iOS, Android and the web at $20 and $100 a month; reached No. 2 on the US App Store, with Mac, iPad and a small-business version following.", "badges": [{"t": "App Store #2", "c": "hot"}, {"t": "$20&ndash;100/mo", "c": ""}, {"t": "Verified", "c": ""}], "date": "8 Sep 2026", "src": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/"},
+    {"name": "Dots", "by": "OpenAI", "cat": "consumer", "isNew": true, "why": "NEW always-on personal agents, each with its own cloud computer, running on GPT-6 Astra. Who gets it first differs by source (Pro and Business Premium per CNBC; Pro outside the EEA, Switzerland and the UK per OpenAI&rsquo;s forum).", "badges": [{"t": "Always-on agent", "c": "hot"}, {"t": "access differs", "c": "rep"}, {"t": "Verified", "c": ""}], "date": "29 Sep 2026", "src": "https://openai.com/index/devday-2026-recap/"},
+    {"name": "Gemini Spark", "by": "Google", "cat": "consumer", "why": "UPDATED: the persistent cloud agent can now act in Google Photos (4 Sep) and take delegated tasks from the Gemini app for Windows. The $99.99/mo AI Ultra price is still reported, not first-party.", "badges": [{"t": "Always-on agent", "c": ""}, {"t": "Photos control", "c": "hot"}, {"t": "reported", "c": "rep"}], "date": "Aug 2026 &middot; updated Sep", "src": "https://www.aiapps.com/blog/august-2026-ai-mega-update-major-breakthroughs-launches/"},
+    {"name": "GitHub Copilot (unified)", "by": "Microsoft / GitHub", "cat": "consumer", "why": "UPDATED: GitHub is merging Copilot Chat on github.com, Copilot in GitHub Mobile and the Copilot cloud agent into one Copilot experience from late September, per its changelog of 28 August.", "badges": [{"t": "Consolidation", "c": ""}, {"t": "Mass adoption", "c": "hot"}, {"t": "reported", "c": "rep"}], "date": "Changelog 28 Aug 2026", "src": "https://github.blog/changelog/"},
+    {"name": "Copilot Autopilot", "by": "Microsoft", "cat": "automation", "isNew": true, "why": "NEW in the &lsquo;new Copilot&rsquo;: a proactive agent (formerly Scout) that runs recurring work and follows up on threads without being prompted; private preview from the end of September.", "badges": [{"t": "Proactive agent", "c": "hot"}, {"t": "Private preview", "c": ""}, {"t": "Verified", "c": ""}], "date": "25 Sep 2026", "src": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/"},
+    {"name": "UiPath Maestro Flow + voice agents", "by": "UiPath", "cat": "automation", "isNew": true, "why": "NEW: Maestro Flow is generally available, with chat and real-time phone agents in preview that take inbound calls and place outbound ones inside automation flows.", "badges": [{"t": "GA + preview", "c": ""}, {"t": "Voice agents", "c": "hot"}, {"t": "date conflict", "c": "rep"}, {"t": "Verified", "c": ""}], "date": "14&ndash;17 Sep 2026 (release notes differ)", "src": "https://docs.uipath.com/maestro/automation-cloud/latest/release-notes/september-2026"},
+    {"name": "Cloudflare Kitesurf", "by": "Cloudflare", "cat": "automation", "why": "UPDATED: the agent-first cloud browser added WebMCP and terminal rendering on 28 September; open-sourcing is still &lsquo;coming soon&rsquo;.", "badges": [{"t": "Agent browser", "c": "hot"}, {"t": "WebMCP", "c": ""}, {"t": "Verified", "c": ""}], "date": "Aug 2026 &middot; updated 28 Sep", "src": "https://blog.cloudflare.com/kitesurf-update"},
+    {"name": "Cloudflare Wallets &amp; cloudflare.pay", "by": "Cloudflare", "cat": "automation", "why": "Gives AI agents an identity plus controlled spending via stablecoins, with per-agent caps on transaction size and approved merchants. No new development found this window.", "badges": [{"t": "Agent payments", "c": ""}, {"t": "Stablecoin", "c": ""}, {"t": "Verified", "c": ""}], "date": "5&ndash;6 Aug 2026", "src": "https://www.cloudflare.com/press/press-releases/2026/cloudflare-gives-ai-agents-an-identity-and-a-wallet/"}
+  ];
+
+  var root = document.getElementById('aiDashRoot');
+  if (!root) return;
+
+  var counts = DATA.reduce(function(a,d){a[d.cat]=(a[d.cat]||0)+1;return a;},{});
+  var kpis = [
+    {n:DATA.length, l:"Tracked launches", d:"across 5 categories", c:"flat"},
+    {n:"17", l:"New this refresh", d:"added since 11 Aug", c:"up"},
+    {n:"$690M", l:"Fresh funding logged", d:"Temporal &middot; Nous &middot; AIR", c:"up"},
+    {n:"67.6k", l:"Top repo stars (Ruflo)", d:"snapshot 11 Aug (not re-read)", c:"flat"},
+    {n:"6", l:"Foundation-model moves", d:"Aug&ndash;Oct 2026 window", c:"up"}
+  ];
+  root.querySelector('#kpis').innerHTML = kpis.map(function(k){
+    return '<div class="kpi"><div class="n">'+k.n+'</div><div class="l">'+k.l+'</div><div class="d '+k.c+'">'+k.d+'</div></div>';
+  }).join('');
+
+  var filterEl = root.querySelector('#filters');
+  var gridEl = root.querySelector('#grid');
+  var active = "all";
+
+  function renderFilters(){
+    var btns = ['<button class="fbtn '+(active==='all'?'active':'')+'" data-f="all">All <span class="c">'+DATA.length+'</span></button>'];
+    for (var key in CATS){
+      btns.push('<button class="fbtn '+(active===key?'active':'')+'" data-f="'+key+'">'+CATS[key]+' <span class="c">'+(counts[key]||0)+'</span></button>');
+    }
+    filterEl.innerHTML = btns.join('');
+    var els = filterEl.querySelectorAll('.fbtn');
+    for (var i=0;i<els.length;i++){
+      els[i].onclick = (function(b){ return function(){ active=b.getAttribute('data-f'); renderFilters(); renderGrid(); }; })(els[i]);
+    }
+  }
+
+  function renderGrid(){
+    var items = DATA.filter(function(d){ return active==='all'||d.cat===active; });
+    gridEl.innerHTML = items.map(function(d){
+      var badges = d.badges.map(function(b){ return '<span class="badge '+b.c+'">'+b.t+'</span>'; }).join('');
+      var catLabel = CATS[d.cat].replace(' &amp; ',' / ').split(' / ')[0];
+      return '<article class="card '+(d.isNew?'newcard':'')+'" data-cat="'+d.cat+'">'
+        + (d.isNew?'<div class="ribbon">NEW</div>':'')
+        + '<div class="head"><div><h3>'+d.name+'</h3><div class="by">'+d.by+'</div></div>'
+        + '<span class="tag '+d.cat+'">'+catLabel+'</span></div>'
+        + '<div class="why">'+d.why+'</div>'
+        + '<div class="badges">'+badges+'</div>'
+        + '<div class="foot"><span class="date">'+d.date+'</span><a class="src" href="'+d.src+'" target="_blank" rel="noopener">Source &#8599;</a></div>'
+        + '</article>';
+    }).join('');
+  }
+
+  renderFilters();
+  renderGrid();
+
+  var themeBtn = root.querySelector('#aiDashThemeToggle');
+  if (themeBtn){
+    themeBtn.onclick = function(){
+      root.setAttribute('data-theme', root.getAttribute('data-theme')==='light'?'dark':'light');
+    };
+  }
+})();
+</script>
+
+<div id="gs-idx"></div><script defer="defer" src="https://herrrickshaw.github.io/masaladeutsch/accordion.js"></script>
