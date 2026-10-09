@@ -203,6 +203,40 @@ a:hover{color:var(--accent-ink)}
    condition exactly; browsers without it fall back to showing both, which is
    today's behaviour. */
 .widget.Blog:has(.post-body h1) .post-head h1 { display: none !important; }
+
+/* gs-readable-ads-v1 (2026-10-09) — keep the post readable with Auto ads on.
+   1. The post header (date + rule) lines up with the article column instead of
+      running the full 1080px width above a 760px article.
+   2. Auto-placed ads sit inside that same column, centred, with clear space and
+      a small "Advertisement" label above them, so an ad never reads as part of
+      a table, chart or stat box.
+   3. Anchor (bottom-of-screen) ads cannot cover the last lines of a post.
+   Nothing here creates, moves or hides an ad; AdSense still decides placement. */
+.post-head{max-width:760px;margin-inline:auto;padding:28px 0 12px;
+  border-bottom:1px solid var(--line);margin-bottom:22px}
+.widget.Blog:has(.post-body h1) .post-head{padding-top:18px;margin-bottom:8px}
+.gs-topics{max-width:760px;margin-inline:auto}
+.post-body .google-auto-placed{display:block;clear:both;max-width:760px;
+  margin:2.4rem auto !important;padding-top:1.5rem !important;
+  border-top:1px solid var(--line);position:relative;text-align:center}
+.post-body .google-auto-placed::before{content:"Advertisement";position:absolute;
+  top:.35rem;left:0;font:700 .6rem/1 var(--sans);letter-spacing:.16em;
+  text-transform:uppercase;color:#8a8a8a}
+.post-body ins.adsbygoogle{margin-inline:auto}
+body{padding-bottom:env(safe-area-inset-bottom)}
+body:has(ins.adsbygoogle[data-anchor-status]) .site-foot{padding-bottom:110px}
+@media (max-width:640px){
+  .post-head{padding-top:16px}
+  .post-body .google-auto-placed{margin:1.8rem 0 !important}
+}
+/* Tables that already sit in their own scrolling wrapper (.gb-tblwrap, .tw)
+   lay out as normal tables, so long text cells wrap instead of being cut off
+   at the right edge; the wrapper still scrolls when a table is truly wide. */
+.post-body .gb-tblwrap>table,.post-body .tw>table{display:table;width:100%;min-width:0}
+.post-body .gb-tblwrap td,.post-body .gb-tblwrap th{white-space:normal}
+@media (max-width:640px){
+  .post-body .gb-tblwrap>table,.post-body .tw>table{min-width:600px}
+}
 ]]></b:skin>
 </head>
 
