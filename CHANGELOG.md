@@ -14113,3 +14113,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 - `interpreting-gazette-notification` — 41,378 → 44,572 bytes (+3,194)
 - `article-index-start-here` — 445,551 → 445,312 bytes (-239)
 - `ai-high-demand-launch-tracker` — 40,398 → 42,215 bytes (+1,817)
+
+## 2026-10-09T11:47:50+05:30 — 353 posts live
+
+**Added**
+
+- `wheats-support-price-rose-by-25` **v1.0.0** — Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why (23,666 bytes)
