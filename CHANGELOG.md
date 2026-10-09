@@ -14175,3 +14175,10 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Changed**
 
 - `green-energy-corridor-iii-is-15-times` — 22,824 → 23,089 bytes (+265)
+
+## 2026-10-09T21:29:36+05:30 — 361 posts live
+
+**Added**
+
+- `indias-first-tourism-survey-since-2014` **v1.0.0** — India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It (21,707 bytes)
+- `india-and-mercosur-are-expanding-450` **v1.0.0** — India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina (25,136 bytes)
