@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-09T11:47:50+05:30",
-  "count": 353,
+  "snapshot": "2026-10-09T11:56:42+05:30",
+  "count": 354,
   "posts": {
     "1023631151138981087": {
       "id": "1023631151138981087",
@@ -27377,13 +27377,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/the-balkan-relish-india-already-has.html",
       "slug": "the-balkan-relish-india-already-has",
       "published": "2026-08-20T12:14:58.000+05:30",
-      "updated": "2026-10-01T08:51:04.908+05:30",
+      "updated": "2026-10-09T11:56:00.998+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Import Substitution"
       ],
-      "bytes": 27852,
-      "sha256": "dc9a73a668c172d73de8e900a8b2f12bbe409fdedb7402d45b4c68df319b1d48",
+      "bytes": 27161,
+      "sha256": "55b4029c9c62a2af776a14e935aadc357ef78126f09d754baa65e0fdd322ff68",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -27395,7 +27395,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "2.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -27481,6 +27481,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "2.0.0",
+          "date": "2026-10-09T11:56:42+05:30",
+          "level": "major",
+          "reason": "figures changed (+0/-1 distinct numbers)",
+          "bytes": [
+            27852,
+            27161
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
         }
       ]
     },
@@ -38366,10 +38379,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-09T11:41:03.595+05:30",
+      "updated": "2026-10-09T11:55:45.196+05:30",
       "labels": [],
-      "bytes": 445312,
-      "sha256": "2b8ef4fd5dce0deec28fedbe4b077a338d3df0e5c1209dd2d82cd7dfd6d78c2f",
+      "bytes": 443761,
+      "sha256": "9a446a83363379d5de984885d9e1083ffddb5ea682534e47671787acfd7ab1ff",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38381,7 +38394,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "55.0.1",
+      "version": "56.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40165,6 +40178,19 @@
           "bytes": [
             445551,
             445312
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": ""
+        },
+        {
+          "version": "56.0.0",
+          "date": "2026-10-09T11:56:42+05:30",
+          "level": "major",
+          "reason": "figures changed (+2/-0 distinct numbers)",
+          "bytes": [
+            445312,
+            443761
           ],
           "url_changed": null,
           "markers_changed": null,
@@ -48079,6 +48105,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        }
+      ]
+    },
+    "7454858950504341431": {
+      "id": "7454858950504341431",
+      "title": "New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html",
+      "slug": "new-zealand-opens-every-tariff-line-to",
+      "published": "2026-10-09T11:56:09.511+05:30",
+      "updated": "2026-10-09T11:56:09.511+05:30",
+      "labels": [],
+      "bytes": 21411,
+      "sha256": "78cb946d451a3ad0d3b70c138b72025cb53a436e1814d5670d15244bb81c419c",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-09T11:56:42+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": ""
         }
       ]
     },

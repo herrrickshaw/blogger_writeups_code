@@ -14119,3 +14119,19 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `wheats-support-price-rose-by-25` **v1.0.0** — Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why (23,666 bytes)
+
+## 2026-10-09T11:56:42+05:30 — 354 posts live
+
+**Added**
+
+- `new-zealand-opens-every-tariff-line-to` **v1.0.0** — New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine (21,411 bytes)
+
+**Versions**
+
+- `the-balkan-relish-india-already-has` **1.1.0 → 2.0.0** (MAJOR) — figures changed (+0/-1 distinct numbers)
+- `article-index-start-here` **55.0.1 → 56.0.0** (MAJOR) — figures changed (+2/-0 distinct numbers)
+
+**Changed**
+
+- `the-balkan-relish-india-already-has` — 27,852 → 27,161 bytes (-691)
+- `article-index-start-here` — 445,312 → 443,761 bytes (-1,551)
