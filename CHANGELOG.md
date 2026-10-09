@@ -14081,3 +14081,9 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Added**
 
 - `indias-first-seabed-mineral-auction` **v1.0.0** — India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar (22,165 bytes)
+
+## 2026-10-09T11:16:21+05:30 — 352 posts live
+
+**Added**
+
+- `india-raised-cooking-oil-duties-to-help` **v1.0.0** — India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising (23,850 bytes)
