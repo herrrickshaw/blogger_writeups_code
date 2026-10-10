@@ -110,6 +110,10 @@ OVERRIDE = {
     # the eyebrow's plain text and the body. Self-declares "Industrial
     # policy - PIB register" in its own eyebrow line.
     "quarterly-reportage-4034-scheme": ["Industrial Policy"],
+    # Headings name the solvent and the plastic, not a taxonomy term, so the
+    # scorer returns nothing for the first and only Agriculture for the second.
+    "thermocol-dissolves-in-orange-peel-oil": ["Chemicals", "Climate & Carbon"],
+    "bagasse-is-one-crop-residue-already":    ["Chemicals", "Agriculture & Fertilisers"],
     # No Railways/Infrastructure bucket exists in TAXONOMY; the itemised
     # land-acquisition schedule's "farm"/"village"/"landholder" language
     # scored highest under Agriculture & Fertilisers, mislabelling a
