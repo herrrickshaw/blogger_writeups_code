@@ -14353,3 +14353,16 @@ Article index rebuilt: thermocol, bagasse, sucralose
 **Changed**
 
 - `article-index-start-here` — 524,642 → 528,246 bytes (+3,604)
+
+## 2026-10-10T21:49:55+05:30 — 367 posts live
+
+Article index rebuilt: now includes lysine
+
+
+**Versions**
+
+- `article-index-start-here` **58.0.0 → 59.0.0** (MAJOR) — forced via --as major (figures changed (+3/-3 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 528,246 → 529,770 bytes (+1,524)

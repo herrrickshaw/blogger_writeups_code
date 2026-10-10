@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-10T21:39:21+05:30",
+  "snapshot": "2026-10-10T21:49:55+05:30",
   "count": 367,
   "posts": {
     "1023631151138981087": {
@@ -38679,10 +38679,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-10T21:38:47.559+05:30",
+      "updated": "2026-10-10T21:49:22.023+05:30",
       "labels": [],
-      "bytes": 528246,
-      "sha256": "0101b9f538a658be74f30b8a3027fe5f20bddb9b3e59f372855d706d816147fc",
+      "bytes": 529770,
+      "sha256": "50c2441dc37d30e0dbacca7692ba23917deabdd3e6ad5d94b85ebac60959accc",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -38694,7 +38694,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "58.0.0",
+      "version": "59.0.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -40521,6 +40521,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Article index rebuilt: thermocol, bagasse, sucralose"
+        },
+        {
+          "version": "59.0.0",
+          "date": "2026-10-10T21:49:55+05:30",
+          "level": "major",
+          "reason": "forced via --as major (figures changed (+3/-3 distinct numbers))",
+          "bytes": [
+            528246,
+            529770
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Article index rebuilt: now includes lysine"
         }
       ]
     },
