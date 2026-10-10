@@ -14331,3 +14331,12 @@ Insert lysine and amino acids article
 **Added**
 
 - `indias-lysine-deficit-is-102-million` **v1.0.0** — India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part (27,139 bytes)
+
+## 2026-10-10T21:37:39+05:30 — 367 posts live
+
+Label lysine article
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-lysine-deficit-is-102-million` — 2026-10-10 &rarr; 2026-10-10
