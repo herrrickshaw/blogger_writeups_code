@@ -14309,3 +14309,16 @@ Label sucralose article
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-imported-28-million-of-sucralose` — 2026-10-10 &rarr; 2026-10-10
+
+## 2026-10-10T21:26:13+05:30 — 366 posts live
+
+Sucralose: add HSN tariff-line table. Insert lysine and amino acids article
+
+
+**Versions**
+
+- `india-imported-28-million-of-sucralose` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+22/-0 distinct numbers))
+
+**Changed**
+
+- `india-imported-28-million-of-sucralose` — 28,455 → 31,500 bytes (+3,045)

@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-10T19:42:54+05:30",
+  "snapshot": "2026-10-10T21:26:13+05:30",
   "count": 366,
   "posts": {
     "1023631151138981087": {
@@ -9232,13 +9232,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html",
       "slug": "india-imported-28-million-of-sucralose",
       "published": "2026-10-10T19:38:39.000+05:30",
-      "updated": "2026-10-10T19:42:24.502+05:30",
+      "updated": "2026-10-10T21:25:35.462+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Trade & Tariffs"
       ],
-      "bytes": 28455,
-      "sha256": "1c4bf31128cd8c36413e1b48596a2de76f659d39aad05f2e425a0cc0bb1078cf",
+      "bytes": 31500,
+      "sha256": "474804c9e9c17e4f580bc8c5a45b840716668772c13ae70d3f43b2e618356b9b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9250,7 +9250,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9258,6 +9258,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Insert sucralose and sweeteners article"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-10T21:26:13+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+22/-0 distinct numbers))",
+          "bytes": [
+            28455,
+            31500
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Sucralose: add HSN tariff-line table. Insert lysine and amino acids article"
         }
       ]
     },
