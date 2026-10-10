@@ -741,6 +741,15 @@ OVERRIDE = {
 #     than only flagged.
 
 
+# Used when a slug is not in OVERRIDE: the first key found inside the slug wins.
+# Added for posts whose headings name a product, not a taxonomy term, so the
+# heading scorer returns nothing or the wrong cluster.
+SLUG_CONTAINS = {
+    "sucralose": ["Healthcare", "Agriculture & Fertilisers", "Chemicals"],
+    "lysine":    ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
+}
+
+
 def headings(path):
     s = Path(path).read_text(encoding="utf-8", errors="replace")
     s = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", s, flags=re.S | re.I)
@@ -792,7 +801,12 @@ def main():
         rec = by_slug.get(slug)
         if not rec:
             continue                      # archived file with no live post
-        labs = OVERRIDE[slug] if slug in OVERRIDE else labels_for(headings(f))
+        if slug in OVERRIDE:
+            labs = OVERRIDE[slug]
+        else:
+            labs = next((v for k, v in SLUG_CONTAINS.items() if k in slug), None)
+            if labs is None:
+                labs = labels_for(headings(f))
         plan.append((slug, rec["id"], labs))
     if args.add_missing and not args.slug:
         ap.error("--add-missing needs at least one --slug")
