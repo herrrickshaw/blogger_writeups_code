@@ -4,19 +4,19 @@
 
 ## Totals
 
-- Active users: **450**
-- Total users: **451**
-- Page views: **906**
-- Sessions: **585**
+- Active users: **456**
+- Total users: **457**
+- Page views: **945**
+- Sessions: **592**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
-| United States | 143 | 138 |
+| United States | 152 | 147 |
 | Singapore | 89 | 83 |
-| India | 35 | 487 |
 | Hong Kong | 34 | 31 |
+| India | 32 | 517 |
 | Brazil | 17 | 14 |
 | Vietnam | 16 | 9 |
 | Indonesia | 15 | 13 |
@@ -49,25 +49,25 @@
 | City | Active users | Page views |
 |---|---|---|
 | Singapore | 89 | 83 |
-| New York | 59 | 59 |
+| New York | 67 | 67 |
 | Chicago | 50 | 50 |
-| (not set) | 42 | 28 |
+| (not set) | 41 | 25 |
 | Hong Kong | 34 | 31 |
 | Frankfurt am Main | 9 | 9 |
 | Banguntapan | 6 | 6 |
 | Coimbatore | 6 | 87 |
 | Shinjuku City | 6 | 6 |
-| Bengaluru | 5 | 6 |
 | Dindigul | 5 | 164 |
 | Hanoi | 5 | 4 |
-| Mumbai | 5 | 145 |
+| Mumbai | 5 | 167 |
 | New Delhi | 5 | 6 |
 | Ashburn | 4 | 4 |
 | Hyderabad | 4 | 29 |
 | Suginami City | 4 | 4 |
 | Wonosari | 4 | 3 |
+| Bengaluru | 3 | 4 |
 | Ho Chi Minh City | 3 | 2 |
-| Madurai | 3 | 24 |
+| Madurai | 3 | 36 |
 | Abuja | 2 | 2 |
 | Algiers | 2 | 2 |
 | Chennai | 2 | 6 |
@@ -85,15 +85,15 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
+| Mumbai | 167 | 5 | 33.4 | 49 | 56s | 35% | desktop/Chrome (154); desktop/Safari (10); desktop/Edge (3) |
 | Dindigul | 164 | 5 | 32.8 | 39 | 58s | 36% | desktop/Chrome (134); desktop/Firefox (18); desktop/Safari (11); +1 more |
-| Mumbai | 145 | 5 | 29.0 | 50 | 45s | 28% | desktop/Chrome (120); desktop/Safari (22); desktop/Edge (3) |
 | Coimbatore | 87 | 6 | 14.5 | 29 | 54s | 38% | desktop/Chrome (79); mobile/Chrome (6); desktop/Firefox (2) |
 | Singapore | 83 | 89 | 0.9 | 89 | 1s | 91% | desktop/Chrome (83) |
-| New York | 59 | 59 | 1.0 | 59 | 0s | 100% | desktop/Chrome (59) |
+| New York | 67 | 67 | 1.0 | 67 | 0s | 100% | desktop/Chrome (67) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
+| Madurai | 36 | 3 | 12.0 | 14 | 65s | 64% | desktop/Chrome (33); desktop/Safari (3) |
 | Hong Kong | 31 | 34 | 0.9 | 34 | 1s | 85% | desktop/Chrome (31) |
 | Hyderabad | 29 | 4 | 7.2 | 5 | 25s | 0% | desktop/Chrome (24); desktop/Firefox (4); mobile/Chrome (1) |
-| Madurai | 24 | 3 | 8.0 | 10 | 69s | 50% | desktop/Chrome (21); desktop/Safari (3) |
 | Frankfurt am Main | 9 | 9 | 1.0 | 9 | 1s | 78% | desktop/Chrome (9) |
 | Dubai | 7 | 2 | 3.5 | 7 | 60s | 57% | desktop/Chrome (6); mobile/Safari (in-app) (1) |
 
@@ -101,10 +101,10 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 306 | 37 |
-| /2026/08/article-index-start-here.html | 29 | 5 |
-| /2026/10/indias-ethanol-surplus-buys-about-five.html | 12 | 9 |
-| /search | 9 | 5 |
+| / | 314 | 36 |
+| /2026/08/article-index-start-here.html | 39 | 6 |
+| /search | 16 | 6 |
+| /2026/10/indias-ethanol-surplus-buys-about-five.html | 14 | 9 |
 | /2026/09/the-50-tariff-and-234-one-untangling.html | 7 | 3 |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 7 | 2 |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 7 | 2 |
@@ -114,13 +114,13 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/09/the-reactor-nobody-names-how-coal.html | 5 | 4 |
 | /2026/09/under-corsias-own-numbers-corn-ethanol.html | 5 | 1 |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 5 | 2 |
+| /2026/07/ai-high-demand-launch-tracker.html | 4 | 3 |
 | /2026/09/sun-pharmas-1175bn-organon-bet-is.html | 4 | 4 |
 | /2026/09/the-wage-beats-crop-in-survey-that.html | 4 | 4 |
 | /2026/10/indias-factory-intentions-20012024-how.html | 4 | 1 |
-| /2026/08/amruts-197-lakh-crore-urban-portfolio.html | 3 | 3 |
+| /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 4 | 3 |
+| /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 3 | 3 |
 | /2026/08/india-cannot-sell-china-free-medicine.html | 3 | 3 |
-| /2026/08/lok-sabha-question-registry-1843-scheme.html | 3 | 3 |
-| /2026/08/raising-green-debt-globally-rec-euroyen.html | 3 | 3 |
 
 ## Likely human readership
 
@@ -128,28 +128,28 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 45 | 255 | 664 | 378 | 153 |
-| Bot-like (no engaged session) | 148 | 277 | 242 | 277 | 0 |
+| Human-like | 46 | 253 | 695 | 379 | 148 |
+| Bot-like (no engaged session) | 147 | 284 | 250 | 284 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
 
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
-| Mumbai | 36 | 50 | 5 | 145 | 45s |
+| Mumbai | 32 | 49 | 5 | 167 | 56s |
 | Dindigul | 25 | 39 | 5 | 164 | 58s |
 | Coimbatore | 18 | 29 | 6 | 87 | 54s |
 | Singapore | 8 | 89 | 89 | 83 | 1s |
-| (not set) | 7 | 43 | 42 | 28 | 1s |
-| Madurai | 5 | 10 | 3 | 24 | 69s |
+| (not set) | 6 | 42 | 41 | 25 | 1s |
+| Madurai | 5 | 14 | 3 | 36 | 65s |
 | Hyderabad | 5 | 5 | 4 | 29 | 25s |
 | Hong Kong | 5 | 34 | 34 | 31 | 1s |
 | Dubai | 3 | 7 | 2 | 7 | 60s |
 | New Delhi | 3 | 7 | 5 | 6 | 9s |
 | Frankfurt am Main | 2 | 9 | 9 | 9 | 1s |
-| Bengaluru | 2 | 5 | 5 | 6 | 2s |
 | Noida | 2 | 2 | 2 | 2 | 2s |
+| Jaipur | 1 | 1 | 1 | 2 | 199s |
 | Houston | 1 | 1 | 1 | 1 | 110s |
-| Delhi | 1 | 2 | 2 | 4 | 36s |
+| Delhi | 1 | 2 | 2 | 4 | 50s |
 | Budaun | 1 | 1 | 1 | 1 | 59s |
 | Chennai | 1 | 6 | 2 | 6 | 6s |
 | Dublin | 1 | 1 | 1 | 1 | 24s |
@@ -160,10 +160,10 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 99 | 306 | 37 | 11s |
-| /2026/08/article-index-start-here.html | 22 | 29 | 5 | 18s |
-| /2026/10/indias-ethanol-surplus-buys-about-five.html | 8 | 12 | 9 | 60s |
-| /search | 6 | 9 | 5 | 4s |
+| / | 95 | 314 | 36 | 11s |
+| /2026/08/article-index-start-here.html | 22 | 39 | 6 | 20s |
+| /2026/10/indias-ethanol-surplus-buys-about-five.html | 9 | 14 | 9 | 51s |
+| /search | 6 | 16 | 6 | 7s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 4 | 7 | 2 | 34s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 5 | 2 | 30s |
 | /2026/09/the-50-tariff-and-234-one-untangling.html | 3 | 7 | 3 | 27s |
@@ -177,6 +177,6 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | /2026/10/indias-factory-intentions-20012024-how.html | 2 | 4 | 1 | 37s |
 | /2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html | 2 | 2 | 2 | 67s |
 | /2026/09/under-corsias-own-numbers-corn-ethanol.html | 2 | 5 | 1 | 19s |
-| /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 2 | 3 | 2 | 27s |
+| /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 2 | 4 | 3 | 20s |
 | /2026/09/delhis-smog-towers-failed-test-44-year.html | 2 | 2 | 2 | 28s |
 | /2026/08/where-indias-green-hydrogen-bets-are.html | 2 | 5 | 3 | 5s |
