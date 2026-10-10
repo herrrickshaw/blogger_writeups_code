@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*343 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*361 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 9 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 10 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -2127,8 +2127,44 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### Unlabelled (4)
+### Unlabelled (22)
 
+- **[India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)** — 2026-10-10
+  The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
+- **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
+  The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
+- **[India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%](https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html)** — 2026-10-09
+  MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
+- **[EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html)** — 2026-10-09
+  The Cabinet raised the pay limit for compulsory provident fund and pension cover on 16 September 2026, bringing about 51 lakh more workers in. Adjusted for prices it restores the 2014 ceiling rather than extending it, and nothing stops it eroding again: there is no rule for raising it, and minimum wages in several states had already passed the old limit.
+- **[India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina](https://masaladeutsch.blogspot.com/2026/10/india-and-mercosur-are-expanding-450.html)** — 2026-10-09
+  Talks launched on 14 September to widen the 2009 pact, with no product list yet. India’s trade with the four members reached about $21.8 billion in 2025-26 and its deficit about $4.9 billion, four-fifths of it with Argentina, whose sales to India are led by edible oils.
+- **[India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published](https://masaladeutsch.blogspot.com/2026/10/indias-reported-central-project-overrun.html)** — 2026-10-09
+  MoSPI’s flash report put the cost overrun at ₹2.88 lakh crore in August against ₹5.65 lakh crore in April, but the set fell from 1,981 to 1,731 projects, mostly roads and Railways, and the reports no longer say how many are behind schedule.
+- **[India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One](https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html)** — 2026-10-09
+  The armed forces’ quantum framework, released in January 2026, covers communication, computing, sensing and materials. The Army has bought quantum key distribution and is rolling out post-quantum encryption, but computing is a 6-qubit lab processor, sensing is prototype contracts, and the first Indian ultra-cold refrigerator for quantum computers is due only in late 2027.
+- **[India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else](https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html)** — 2026-10-09
+  Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
+- **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times_01338283908.html)** — 2026-10-09
+  The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
+- **[New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)** — 2026-10-09
+  From 20 October 2026 all Indian goods enter New Zealand duty-free, but its average tariff was 2.3% and more than half its lines were already free. India cuts duties on about 70% of lines, opens quotas for apples and kiwifruit, keeps dairy out, and gets 5,000 work visas and a $20 billion investment aim in return.
+- **[The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things](https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html)** — 2026-10-09
+  The Cabinet approved a ₹10,000 crore SME Growth Fund on 6 October, with no published manager, term, private-capital share or eligibility test. The first startup fund of funds had disbursed ₹3,400 crore of its ₹10,000 crore by end-2022 while reporting ₹14,077 crore invested, and the SRI Fund reports its progress in more than one way.
+- **[India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)** — 2026-10-09
+  Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
+- **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
+  The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
+- **[India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal](https://masaladeutsch.blogspot.com/2026/10/india-has-auctioned-141-commercial-coal.html)** — 2026-10-09
+  As the 16th round of commercial coal auctions opens with 25 blocks, the ministry’s own figures show 132 of the first 141 mines allocated, 23 cleared to open and 15 producing, about 26 million tonnes against a rated 366. The schedules are being shortened; the penalties for missing them are not published.
+- **[India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)** — 2026-10-09
+  MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
+- **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
+  The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
+- **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html)** — 2026-10-09
+  The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
+- **[India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar](https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html)** — 2026-10-09
+  Thirteen offshore blocks went unsold before the auction was annulled in December 2025. The Ministry of Mines is trying again with two nodule blocks off Great Nicobar, bids due 28 December, and now needs only two qualified bidders. The resource data and the deep-sea technology that kept bidders away are still missing.
 - **[India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)** — 2026-10-07
   For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
 - **[India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State](https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html)** — 2026-09-16
@@ -3865,3 +3901,93 @@ Putting children’s cough syrup in a lollipop sounds like a kindness. For infan
 *2026-10-07 · —*
 
 For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
+
+### [India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%](https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html)
+*2026-10-09 · —*
+
+MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
+
+### [EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html)
+*2026-10-09 · —*
+
+The Cabinet raised the pay limit for compulsory provident fund and pension cover on 16 September 2026, bringing about 51 lakh more workers in. Adjusted for prices it restores the 2014 ceiling rather than extending it, and nothing stops it eroding again: there is no rule for raising it, and minimum wages in several states had already passed the old limit.
+
+### [India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina](https://masaladeutsch.blogspot.com/2026/10/india-and-mercosur-are-expanding-450.html)
+*2026-10-09 · —*
+
+Talks launched on 14 September to widen the 2009 pact, with no product list yet. India’s trade with the four members reached about $21.8 billion in 2025-26 and its deficit about $4.9 billion, four-fifths of it with Argentina, whose sales to India are led by edible oils.
+
+### [India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published](https://masaladeutsch.blogspot.com/2026/10/indias-reported-central-project-overrun.html)
+*2026-10-09 · —*
+
+MoSPI’s flash report put the cost overrun at ₹2.88 lakh crore in August against ₹5.65 lakh crore in April, but the set fell from 1,981 to 1,731 projects, mostly roads and Railways, and the reports no longer say how many are behind schedule.
+
+### [India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One](https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html)
+*2026-10-09 · —*
+
+The armed forces’ quantum framework, released in January 2026, covers communication, computing, sensing and materials. The Army has bought quantum key distribution and is rolling out post-quantum encryption, but computing is a 6-qubit lab processor, sensing is prototype contracts, and the first Indian ultra-cold refrigerator for quantum computers is due only in late 2027.
+
+### [India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else](https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html)
+*2026-10-09 · —*
+
+Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
+
+### [Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times_01338283908.html)
+*2026-10-09 · —*
+
+The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
+
+### [New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)
+*2026-10-09 · —*
+
+From 20 October 2026 all Indian goods enter New Zealand duty-free, but its average tariff was 2.3% and more than half its lines were already free. India cuts duties on about 70% of lines, opens quotas for apples and kiwifruit, keeps dairy out, and gets 5,000 work visas and a $20 billion investment aim in return.
+
+### [The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things](https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html)
+*2026-10-09 · —*
+
+The Cabinet approved a ₹10,000 crore SME Growth Fund on 6 October, with no published manager, term, private-capital share or eligibility test. The first startup fund of funds had disbursed ₹3,400 crore of its ₹10,000 crore by end-2022 while reporting ₹14,077 crore invested, and the SRI Fund reports its progress in more than one way.
+
+### [India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)
+*2026-10-09 · —*
+
+Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
+
+### [India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)
+*2026-10-09 · —*
+
+The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
+
+### [India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal](https://masaladeutsch.blogspot.com/2026/10/india-has-auctioned-141-commercial-coal.html)
+*2026-10-09 · —*
+
+As the 16th round of commercial coal auctions opens with 25 blocks, the ministry’s own figures show 132 of the first 141 mines allocated, 23 cleared to open and 15 producing, about 26 million tonnes against a rated 366. The schedules are being shortened; the penalties for missing them are not published.
+
+### [India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)
+*2026-10-09 · —*
+
+MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
+
+### [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)
+*2026-10-09 · —*
+
+The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
+
+### [Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html)
+*2026-10-09 · —*
+
+The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
+
+### [India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar](https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html)
+*2026-10-09 · —*
+
+Thirteen offshore blocks went unsold before the auction was annulled in December 2025. The Ministry of Mines is trying again with two nodule blocks off Great Nicobar, bids due 28 December, and now needs only two qualified bidders. The resource data and the deep-sea technology that kept bidders away are still missing.
+
+### [India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)
+*2026-10-10 · —*
+
+The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
+
+### [The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)
+*2026-10-10 · —*
+
+The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
