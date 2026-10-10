@@ -2850,3 +2850,31 @@ self-contained HTML/CSS fragment.
     desktop. On phones they get a 600px minimum and scroll inside their box.
   - Checked on a mock page with stand-in ad blocks at 1280px and 375px; no
     horizontal page scroll at either width.
+
+## 2026-10-10 — Article index rebuilt: current, searchable and accessible
+
+- **Current.** The index is built from the live manifest only (`meta/manifest.json`),
+  so files kept for withdrawn posts are not listed, and a title that is live twice
+  (an accidental double publish) shows once, the earlier post. The stale pitch
+  ("New this month: personal finance") is replaced, and a "Latest articles" list
+  of the eight newest pieces sits above the date table. 361 articles.
+- **Accessibility**, measured with a script run in a browser on the old and the new
+  page at 375px (the axe-core engine is on a blocked CDN, so these are this repo's
+  own checks, not a certified audit):
+  - Text below 4.5:1 contrast: 1,346 -> 0 (grey `#8a8a8a` -> `#595959`).
+  - Text below 12px: 1,071 -> 0.
+  - Links nested inside `<summary>` (topic accordion): 17 -> 0; the topic-page link
+    now sits inside the opened panel.
+  - Month headers are real `<h3>`s (5 fake headings -> 0), article rows are `<li>`s in
+    a `<ul>` labelled by their month (341 `<div>` rows -> 0), no skipped heading levels.
+  - Added: skip link, "Jump to" navigation, `lang="en"`, visible focus rings, 44px
+    minimum targets for controls, `prefers-reduced-motion`, table captions and
+    `scope`, a `<desc>` and a "read this figure as a table" alternative for the
+    connection diagram, and `<time>` for dates.
+  - Theme cards are no longer one large link around a list; the heading is the link
+    (the whole card stays clickable) and the headlines inside are links too.
+  - A title search box joins the month, day and topic filters; the count is announced
+    through a status region. Search text is read from each row in the script, not
+    duplicated in attributes, which kept the page at 525 KB (it was 444 KB).
+- **Not done:** Blogger's own theme header, search gadget and sidebar are outside this
+  post and were not changed. New posts show "Unlabelled" until `apply_labels.py` runs.

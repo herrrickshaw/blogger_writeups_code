@@ -86,14 +86,14 @@ def _pretty_month(ym):
     return f"{_MON[m-1]} {y}"
 
 
-ACCORDION_JS = "<script>//<![CDATA[\n// Populates each topic from Blogger's own label feed at view time, so this\n// list can never fall behind the blog the way the hand-kept accordion did\n// (it was 18 articles stale when retired). JSONP rather than fetch() so the\n// same block works on the blog, from a saved file, or hosted anywhere else --\n// Blogger's feeds predate CORS but have always supported callback=.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsAcc = window.gsAcc || {};\n  function jsonp(url, cb){\n    var name='cb'+(n++); window.gsAcc[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsAcc.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  function feed(lbl, extra, cb){\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(lbl)\n      +'?alt=json-in-script'+extra, cb);\n  }\n  function fill(d){\n    var ul=d.querySelector('ul'); if(ul.getAttribute('data-done')) return;\n    ul.setAttribute('data-done','1');\n    feed(d.getAttribute('data-label'),'&orderby=published&max-results=150',function(res){\n      if(!res){ ul.innerHTML='<li>Could not load - open the topic page instead.</li>'; return; }\n      var es=res.feed.entry||[]; ul.innerHTML='';\n      for(var i=0;i<es.length;i++){\n        var e=es[i], href='';\n        for(var j=0;j<(e.link||[]).length;j++)\n          if(e.link[j].rel==='alternate') href=e.link[j].href;\n        var li=document.createElement('li'), a=document.createElement('a');\n        a.href=href; a.textContent=e.title.$t; li.appendChild(a);\n        var t=document.createElement('span'); t.className='gs-acc-d';\n        t.textContent=' · '+(e.published.$t||'').slice(0,10);\n        li.appendChild(t); ul.appendChild(li);\n      }\n      if(!es.length) ul.innerHTML='<li>No posts carry this label yet.</li>';\n    });\n  }\n  var ds=document.querySelectorAll('details.gs-acc');\n  for(var k=0;k<ds.length;k++)(function(d){\n    feed(d.getAttribute('data-label'),'&max-results=0',function(res){\n      if(res) d.querySelector('.gs-acc-n').textContent =\n        res.feed.openSearch$totalResults.$t;\n    });\n    d.addEventListener('toggle',function(){ if(d.open) fill(d); });\n  })(ds[k]);\n})();\n//]]></script>"
+ACCORDION_JS = "<script>//<![CDATA[\n// Populates each topic from Blogger's own label feed at view time, so this\n// list can never fall behind the blog the way the hand-kept accordion did\n// (it was 18 articles stale when retired). JSONP rather than fetch() so the\n// same block works on the blog, from a saved file, or hosted anywhere else --\n// Blogger's feeds predate CORS but have always supported callback=.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsAcc = window.gsAcc || {};\n  function jsonp(url, cb){\n    var name='cb'+(n++); window.gsAcc[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsAcc.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  function feed(lbl, extra, cb){\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(lbl)\n      +'?alt=json-in-script'+extra, cb);\n  }\n  function fill(d){\n    var ul=d.querySelector('ul'); if(ul.getAttribute('data-done')) return; ul.setAttribute('aria-busy','true');\n    ul.setAttribute('data-done','1');\n    feed(d.getAttribute('data-label'),'&orderby=published&max-results=150',function(res){\n      if(!res){ ul.innerHTML='<li>Could not load - open the topic page instead.</li>'; return; }\n      var es=res.feed.entry||[]; ul.innerHTML='';\n      for(var i=0;i<es.length;i++){\n        var e=es[i], href='';\n        for(var j=0;j<(e.link||[]).length;j++)\n          if(e.link[j].rel==='alternate') href=e.link[j].href;\n        var li=document.createElement('li'), a=document.createElement('a');\n        a.href=href; a.textContent=e.title.$t; li.appendChild(a);\n        var t=document.createElement('span'); t.className='gs-acc-d';\n        t.textContent=' · '+(e.published.$t||'').slice(0,10);\n        li.appendChild(t); ul.appendChild(li);\n      }\n      if(!es.length) ul.innerHTML='<li>No posts carry this label yet.</li>';\n      ul.removeAttribute('aria-busy');\n    });\n  }\n  var ds=document.querySelectorAll('details.gs-acc');\n  for(var k=0;k<ds.length;k++)(function(d){\n    feed(d.getAttribute('data-label'),'&max-results=0',function(res){\n      if(res) d.querySelector('.gs-acc-n').textContent =\n        res.feed.openSearch$totalResults.$t + ' articles';\n    });\n    d.addEventListener('toggle',function(){ if(d.open) fill(d); });\n  })(ds[k]);\n})();\n//]]></script>"
 
-ACCORDION_CSS = "<style>/*gs-acc-v1*/\n.gs-accwrap{margin:1rem 0 2rem}\n.gs-acc{border-top:1px solid #e2e2e2}\n.gs-acc:last-of-type{border-bottom:1px solid #e2e2e2}\n.gs-acc summary{cursor:pointer;padding:.85rem .2rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;font-size:1rem;color:#0B1F2D;list-style:none;display:flex;align-items:baseline;gap:.55rem}\n.gs-acc summary::-webkit-details-marker{display:none}\n.gs-acc summary::after{content:'+';margin-left:auto;color:#2251FF;font-weight:600}\n.gs-acc[open] summary::after{content:'\\2212'}\n.gs-acc-n{font-weight:600;font-size:.78rem;color:#8a8a8a}\n.gs-acc-hub{font-size:.72rem;font-weight:600;color:#2251FF;text-decoration:none}\n.gs-acc ul{margin:.2rem 0 1rem;padding-left:1.2rem}\n.gs-acc li{font-size:.92rem;line-height:1.5;margin-bottom:.3rem}\n.gs-acc-d{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;color:#8a8a8a;white-space:nowrap}\n</style>"
+ACCORDION_CSS = "<style>/*gs-acc-v1*/\n.gs-accwrap{margin:1rem 0 2rem}\n.gs-acc{border-top:1px solid #e2e2e2}\n.gs-acc:last-of-type{border-bottom:1px solid #e2e2e2}\n.gs-acc summary{cursor:pointer;min-height:44px;box-sizing:border-box;padding:.85rem .2rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-weight:700;font-size:1rem;color:#0B1F2D;list-style:none;display:flex;align-items:baseline;gap:.55rem}\n.gs-acc summary::-webkit-details-marker{display:none}\n.gs-acc summary::after{content:'+';margin-left:auto;color:#2251FF;font-weight:600}\n.gs-acc[open] summary::after{content:'\\2212'}\n.gs-acc-n{font-weight:600;font-size:.85rem;color:#595959}\n.gs-acc-hubp{margin:.1rem 0 .5rem;max-width:none}\n.gs-acc-hub{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.88rem;font-weight:600;color:#12408f;text-decoration:underline;text-underline-offset:2px}\n.gs-acc ul{margin:.2rem 0 1rem;padding-left:1.2rem}\n.gs-acc li{font-size:.92rem;line-height:1.5;margin-bottom:.3rem}\n.gs-acc-d{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.82rem;color:#595959;white-space:nowrap}\n</style>"
 
 
-PITCH_CSS = "<style>/*gs-pitch-v1*/\n.gs-pitch{padding:0 0 1.2rem;border-bottom:1px solid #e2e2e2;margin:0 0 1.6rem}\n.gs-pitch p{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;color:#595959;line-height:1.55;max-width:42rem;margin:0}\n.gs-theme-lbl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#595959;margin:0 0 .7rem}\n.gs-theme-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin:0 0 2rem}\n.gs-tcard{display:block;background:#F4F7FB;border-radius:4px;padding:.9rem 1rem 1rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color .15s}\n.gs-tcard:hover{border-color:#0a4c6a}\n.gs-tcard h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:1rem;color:#0B1F2D;margin:0 0 .55rem;line-height:1.3}\n.gs-tcard ul{list-style:none;margin:0;padding:0}\n.gs-tcard li{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;color:#595959;line-height:1.5;padding:.15rem 0;border-top:1px solid #e2e2e2}\n.gs-tcard li:first-child{border-top:none}\n.gs-tcard .more{display:block;margin-top:.5rem;font-size:.72rem;font-weight:600;color:#2251FF}\n</style>"
+PITCH_CSS = "<style>/*gs-pitch-v1*/\n.gs-pitch{padding:0 0 1.2rem;border-bottom:1px solid #e2e2e2;margin:0 0 1.6rem}\n.gs-pitch p{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.95rem;color:#595959;line-height:1.55;max-width:42rem;margin:0}\n.gs-theme-lbl{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#595959;margin:0 0 .7rem}\n.gs-theme-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(15rem,1fr));gap:1rem;margin:0 0 2rem}\n.gs-tcard{display:block;background:#F4F7FB;border-radius:4px;padding:.9rem 1rem 1rem;text-decoration:none;color:inherit;border:1px solid transparent;transition:border-color .15s}\n.gs-tcard:hover{border-color:#0a4c6a}\n.gs-tcard h3{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:1rem;color:#0B1F2D;margin:0 0 .55rem;line-height:1.3}\n.gs-tcard ul{list-style:none;margin:0;padding:0}\n.gs-tcard li{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.86rem;color:#595959;line-height:1.5;padding:.15rem 0;border-top:1px solid #e2e2e2}\n.gs-tcard li:first-child{border-top:none}\n.gs-tcard{position:relative}\n.gs-tcard h3 a{color:#0B1F2D;text-decoration:none}\n.gs-tcard h3 a::after{content:'';position:absolute;inset:0}\n.gs-tcard li a{position:relative;z-index:1;color:#12408f;text-decoration:underline;text-underline-offset:2px}\n.gs-tcard:focus-within{border-color:#8a4b08;outline:3px solid #8a4b08;outline-offset:2px}\n.gs-tcard .more{display:block;margin-top:.5rem;font-size:.82rem;font-weight:600;color:#12408f}\n</style>"
 
-PITCH_JS = "<script>//<![CDATA[\n// Same JSONP label-feed pattern as the topic accordion below: each theme\n// card pulls its own 2 latest live headlines at view time, so this section\n// can never go stale the way a hand-kept summary would.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsPitchCb = window.gsPitchCb || {};\n  function jsonp(url, cb){\n    var name='p'+(n++); window.gsPitchCb[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsPitchCb.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  var cards=document.querySelectorAll('.gs-tcard[data-label]');\n  for(var i=0;i<cards.length;i++)(function(card){\n    var label=card.getAttribute('data-label'), ul=card.querySelector('ul');\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(label)+'?alt=json-in-script&orderby=published&max-results=2',function(res){\n      var es=res&&res.feed.entry;\n      if(!es||!es.length){ ul.innerHTML='<li>New articles coming soon.</li>'; return; }\n      ul.innerHTML='';\n      for(var j=0;j<es.length;j++){ var li=document.createElement('li'); li.textContent=es[j].title.$t; ul.appendChild(li); }\n    });\n  })(cards[i]);\n})();\n//]]></script>"
+PITCH_JS = "<script>//<![CDATA[\n// Same JSONP label-feed pattern as the topic accordion below: each theme\n// card pulls its own 2 latest live headlines at view time, so this section\n// can never go stale the way a hand-kept summary would.\n(function(){\n  var BASE='https://masaladeutsch.blogspot.com', n=0;\n  window.gsPitchCb = window.gsPitchCb || {};\n  function jsonp(url, cb){\n    var name='p'+(n++); window.gsPitchCb[name]=cb;\n    var s=document.createElement('script');\n    s.src=url+'&callback=gsPitchCb.'+name;\n    s.onerror=function(){ cb(null); };\n    document.head.appendChild(s);\n  }\n  var cards=document.querySelectorAll('.gs-tcard[data-label]');\n  for(var i=0;i<cards.length;i++)(function(card){\n    var label=card.getAttribute('data-label'), ul=card.querySelector('ul');\n    jsonp(BASE+'/feeds/posts/summary/-/'+encodeURIComponent(label)+'?alt=json-in-script&orderby=published&max-results=2',function(res){\n      var es=res&&res.feed.entry;\n      if(!es||!es.length){ ul.innerHTML='<li>New articles coming soon.</li>'; return; }\n      ul.innerHTML='';\n      for(var j=0;j<es.length;j++){ var li=document.createElement('li'), a=document.createElement('a'), href='';\n        for(var q=0;q<(es[j].link||[]).length;q++) if(es[j].link[q].rel==='alternate') href=es[j].link[q].href;\n        a.href=href; a.textContent=es[j].title.$t; li.appendChild(a); ul.appendChild(li); }\n    });\n  })(cards[i]);\n})();\n//]]></script>"
 
 PITCH_THEMES = [
     "Energy & Fuels", "Trade & Tariffs", "Industrial Policy",
@@ -107,70 +107,71 @@ PITCH_THEMES = [
 # pattern as the topic accordion above, just without the network round trip
 # (this data is already on the page, unlike live label counts).
 FILTER_BAR = (
-    '<div class="gs-filter-bar" role="group" aria-label="Filter articles">'
-    '<label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select>'
-    '<label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select>'
-    '<label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select>'
-    '<button type="button" class="gs-filter-reset" id="gs-f-reset">Reset</button>'
-    '<span class="gs-filter-count" id="gs-f-count"></span>'
+    '<div class="gs-filter-bar" role="search" aria-label="Search and filter articles">'
+    '<div class="gs-f-field gs-f-q"><label for="gs-f-q">Search titles</label>'
+    '<input type="search" id="gs-f-q" autocomplete="off" placeholder="e.g. steel, FDI, ethanol"></div>'
+    '<div class="gs-f-field"><label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select></div>'
+    '<div class="gs-f-field"><label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select></div>'
+    '<div class="gs-f-field"><label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select></div>'
+    '<button type="button" class="gs-filter-reset" id="gs-f-reset">Clear search and filters</button>'
+    '<p class="gs-filter-count" id="gs-f-count" role="status" aria-live="polite"></p>'
     '</div>'
 )
 
-FILTER_JS = "<script>//<![CDATA[\n(function(){\n" \
-"  var chrono = document.querySelector('.chrono'); if(!chrono) return;\n" \
-"  var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));\n" \
-"  var groups = Array.prototype.slice.call(chrono.querySelectorAll('.cgroup'));\n" \
-"  var groupOf = new Map(), cur = null;\n" \
-"  Array.prototype.slice.call(chrono.children).forEach(function(el){\n" \
-"    if(el.classList && el.classList.contains('cgroup')) cur = el;\n" \
-"    else if(el.classList && el.classList.contains('crow')) groupOf.set(el, cur);\n" \
-"  });\n" \
-"  var MONTHS=['January','February','March','April','May','June','July','August',\n" \
-"    'September','October','November','December'];\n" \
-"  function uniqSorted(key, cmp){\n" \
-"    var seen={}, out=[];\n" \
-"    rows.forEach(function(r){ var v=r.getAttribute(key);\n" \
-"      if(v && !seen[v]){ seen[v]=1; out.push(v); } });\n" \
-"    out.sort(cmp); return out;\n" \
-"  }\n" \
-"  function countBy(key,val){ return rows.filter(function(r){return r.getAttribute(key)===val;}).length; }\n" \
-"  function fill(sel, values, labelFn){\n" \
-"    values.forEach(function(v){ var o=document.createElement('option');\n" \
-"      o.value=v; o.textContent=labelFn(v); sel.appendChild(o); });\n" \
-"  }\n" \
-"  var months = uniqSorted('data-ym', function(a,b){return b.localeCompare(a);});\n" \
-"  var dates = uniqSorted('data-date', function(a,b){return b.localeCompare(a);});\n" \
-"  var topics = uniqSorted('data-topic', function(a,b){return a.localeCompare(b);});\n" \
-"  var selM=document.getElementById('gs-f-month'), selD=document.getElementById('gs-f-date'),\n" \
-"      selT=document.getElementById('gs-f-topic'), countEl=document.getElementById('gs-f-count'),\n" \
-"      emptyEl=document.getElementById('gs-f-empty');\n" \
-"  fill(selM, months, function(ym){ var y=ym.slice(0,4), m=+ym.slice(5,7)-1;\n" \
-"    return MONTHS[m]+' '+y+' ('+countBy('data-ym',ym)+')'; });\n" \
-"  fill(selD, dates, function(d){ var y=d.slice(0,4), m=+d.slice(5,7)-1, day=+d.slice(8,10);\n" \
-"    return day+' '+MONTHS[m]+' '+y+' ('+countBy('data-date',d)+')'; });\n" \
-"  fill(selT, topics, function(t){ return t+' ('+countBy('data-topic',t)+')'; });\n" \
-"  function apply(){\n" \
-"    var m=selM.value, d=selD.value, t=selT.value, shown=0;\n" \
-"    rows.forEach(function(r){\n" \
-"      var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)\n" \
-"           && (!t || r.getAttribute('data-topic')===t);\n" \
-"      r.style.display = ok ? '' : 'none'; if(ok) shown++;\n" \
-"    });\n" \
-"    groups.forEach(function(g){\n" \
-"      var any=rows.some(function(r){ return groupOf.get(r)===g && r.style.display!=='none'; });\n" \
-"      g.style.display = any ? '' : 'none';\n" \
-"    });\n" \
-"    countEl.textContent = (m||d||t) ? ('Showing '+shown+' of '+rows.length+' articles') : '';\n" \
-"    if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';\n" \
-"  }\n" \
-"  selM.addEventListener('change', apply); selD.addEventListener('change', apply);\n" \
-"  selT.addEventListener('change', apply);\n" \
-"  var resetBtn=document.getElementById('gs-f-reset');\n" \
-"  if(resetBtn) resetBtn.addEventListener('click', function(){\n" \
-"    selM.value=''; selD.value=''; selT.value=''; apply();\n" \
-"  });\n" \
-"})();\n" \
-"//]]></script>"
+FILTER_JS = """<script>//<![CDATA[
+(function(){
+  var chrono = document.querySelector('.chrono'); if(!chrono) return;
+  var rows = Array.prototype.slice.call(chrono.querySelectorAll('.crow'));
+  var months = Array.prototype.slice.call(chrono.querySelectorAll('.cmonth'));
+  var MONTHS=['January','February','March','April','May','June','July','August',
+    'September','October','November','December'];
+  function uniqSorted(key, cmp){
+    var seen={}, out=[];
+    rows.forEach(function(r){ var v=r.getAttribute(key);
+      if(v && !seen[v]){ seen[v]=1; out.push(v); } });
+    out.sort(cmp); return out;
+  }
+  function countBy(key,val){ return rows.filter(function(r){return r.getAttribute(key)===val;}).length; }
+  function fill(sel, values, labelFn){
+    values.forEach(function(v){ var o=document.createElement('option');
+      o.value=v; o.textContent=labelFn(v); sel.appendChild(o); });
+  }
+  var yms = uniqSorted('data-ym', function(a,b){return b.localeCompare(a);});
+  var dates = uniqSorted('data-date', function(a,b){return b.localeCompare(a);});
+  var topics = uniqSorted('data-topic', function(a,b){return a.localeCompare(b);});
+  var selM=document.getElementById('gs-f-month'), selD=document.getElementById('gs-f-date'),
+      selT=document.getElementById('gs-f-topic'), q=document.getElementById('gs-f-q'),
+      countEl=document.getElementById('gs-f-count'), emptyEl=document.getElementById('gs-f-empty');
+  fill(selM, yms, function(ym){ var y=ym.slice(0,4), m=+ym.slice(5,7)-1;
+    return MONTHS[m]+' '+y+' ('+countBy('data-ym',ym)+')'; });
+  fill(selD, dates, function(d){ var y=d.slice(0,4), m=+d.slice(5,7)-1, day=+d.slice(8,10);
+    return day+' '+MONTHS[m]+' '+y+' ('+countBy('data-date',d)+')'; });
+  fill(selT, topics, function(t){ return t+' ('+countBy('data-topic',t)+')'; });
+  function apply(){
+    var m=selM.value, d=selD.value, t=selT.value, terms=(q.value||'').toLowerCase().split(/\s+/).filter(Boolean), shown=0;
+    rows.forEach(function(r){
+      var hay=r._hay||(r._hay=(r.textContent||'').toLowerCase());
+      var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)
+           && (!t || r.getAttribute('data-topic')===t)
+           && terms.every(function(w){ return hay.indexOf(w)!==-1; });
+      r.style.display = ok ? '' : 'none'; if(ok) shown++;
+    });
+    months.forEach(function(g){
+      var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
+      g.style.display = any ? '' : 'none';
+    });
+    var active = m||d||t||terms.length;
+    countEl.textContent = active ? ('Showing '+shown+' of '+rows.length+' articles') : '';
+    if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';
+  }
+  [selM,selD,selT].forEach(function(el){ el.addEventListener('change', apply); });
+  q.addEventListener('input', apply);
+  var resetBtn=document.getElementById('gs-f-reset');
+  if(resetBtn) resetBtn.addEventListener('click', function(){
+    selM.value=''; selD.value=''; selT.value=''; q.value=''; apply(); q.focus();
+  });
+})();
+//]]></script>"""
 
 
 def emit_pitch(A):
@@ -181,18 +182,18 @@ def emit_pitch(A):
     stays trivially editable.
     """
     A(PITCH_CSS)
-    A('<div class="gs-pitch"><p>Six years of trade, energy, industrial-policy and fertiliser data, '
+    A('<div class="gs-pitch"><p>Trade, energy, industrial-policy, fertiliser and macro data, '
       'read from primary sources (PIB, Parliament replies, RBI, government dashboards) rather than '
-      'press releases. New this month: plain-language explainers on personal finance, alongside the '
-      'usual HSN-coded deep dives.</p></div>')
-    A('<p class="gs-theme-lbl">Browse by theme</p>')
-    A('<div class="gs-theme-grid">')
+      'press releases. Most pieces end with a section of concrete proposals, labelled as this blog\'s '
+      'own and not as anything an agency has adopted.</p></div>')
+    A('<h2 class="gs-theme-lbl" id="gs-themes-lbl">Browse by theme</h2>')
+    A('<div class="gs-theme-grid" role="group" aria-labelledby="gs-themes-lbl">')
     for name in PITCH_THEMES:
         slugpart = next((s for n, s in LABEL_HUBS if n == name), name.replace(" & ", " %26 ").replace(" ", "%20"))
-        A(f'<a class="gs-tcard" data-label="{E(name)}" '
-          f'href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">'
-          f'<h3>{E(name)}</h3><ul><li>Loading&#8230;</li></ul>'
-          f'<span class="more">All {E(name)} articles &#8594;</span></a>')
+        A(f'<div class="gs-tcard" data-label="{E(name)}">'
+          f'<h3><a href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">'
+          f'{E(name)}<span class="sr-only"> &mdash; all articles on this topic</span></a></h3>'
+          f'<ul aria-live="polite"><li>Loading latest headlines&#8230;</li></ul></div>')
     A('</div>')
     A(PITCH_JS)
 
@@ -205,13 +206,13 @@ def emit_accordion(A, hubs):
     to the label hub, so the worst case is navigation, never a dead section.
     """
     A(ACCORDION_CSS)
-    A('<div class="gs-accwrap">')
+    A('<div class="gs-accwrap" role="group" aria-label="Topics, each opening a list of its articles">')
     for name, slugpart in sorted(hubs, key=lambda t: t[0].lower()):
         A(f'<details class="gs-acc" data-label="{E(name)}">'
-          f'<summary>{E(name)} <span class="gs-acc-n"></span>'
-          f'<a class="gs-acc-hub" '
+          f'<summary>{E(name)} <span class="gs-acc-n"></span></summary>'
+          f'<p class="gs-acc-hubp"><a class="gs-acc-hub" '
           f'href="https://masaladeutsch.blogspot.com/search/label/{slugpart}">'
-          f'open topic page &#8594;</a></summary>'
+          f'Open the {E(name)} topic page</a></p>'
           '<ul><li>Loading&#8230;</li></ul></details>')
     A('</div>')
     A(ACCORDION_JS)
@@ -244,6 +245,8 @@ def svg_graph(posts, min_posts=5, max_nodes=18):
              f'aria-label="Entity co-occurrence graph across the blog\'s articles" '
              f'style="max-width:920px;display:block;margin:0 auto">']
     parts.append('<title>How the subjects connect</title>')
+    parts.append('<desc>A ring of the most frequent subjects, sized by the number of articles, with lines '
+                 'joining subjects that share articles. The same information is in the table below the figure.</desc>')
     for (a, b), n in sorted(co.items(), key=lambda x: x[1]):
         if n < 2:
             continue
@@ -267,6 +270,17 @@ def svg_graph(posts, min_posts=5, max_nodes=18):
                      f'dominant-baseline="middle" font-size="13" font-family="Georgia,serif" '
                      f'fill="#1a1a1a">{E(e)} <tspan fill="#595959">{cnt[e]}</tspan></text>')
     parts.append("</svg>")
+    # text alternative: every node with its article count and its strongest partners
+    rows_ = []
+    for e in nodes:
+        partners = sorted(((n, (b if a == e else a)) for (a, b), n in co.items() if e in (a, b) and n >= 2), reverse=True)[:3]
+        ptxt = "; ".join(f"{E(o)} ({n})" for n, o in partners) or "&ndash;"
+        rows_.append(f"<tr><th scope=\"row\">{E(e)}</th><td>{cnt[e]}</td><td>{ptxt}</td></tr>")
+    parts.append('<details class="gs-gtable"><summary>Read this figure as a table</summary>'
+                 '<div class="tw" role="region" aria-label="Subjects and their strongest connections" tabindex="0"><table>'
+                 '<caption class="sr-only">Subjects, the number of articles each appears in, and the subjects it most often appears with</caption>'
+                 '<thead><tr><th scope="col">Subject</th><th scope="col">Articles</th><th scope="col">Most often with (shared articles)</th></tr></thead>'
+                 '<tbody>' + "".join(rows_) + '</tbody></table></div></details>')
     return "\n".join(parts)
 
 
@@ -282,6 +296,19 @@ def main():
     # utility pages are navigation, not articles
     for s in ("article-index-start-here", "about-author"):
         posts.pop(s, None)
+    # The archive keeps files for posts later withdrawn from Blogger; list only
+    # what the manifest says is live, and where the same title is live twice
+    # (an accidental double publish) show the earlier post once.
+    mf = ROOT / "meta" / "manifest.json"
+    if mf.exists():
+        live = {m["slug"] for m in json.loads(mf.read_text(encoding="utf-8"))["posts"].values()}
+        posts = {k: v for k, v in posts.items() if k in live}
+    seen_title = {}
+    for slug, p_ in sorted(posts.items(), key=lambda kv: kv[1]["published"] or ""):
+        key = re.sub(r"\s+", " ", p_["title"].strip().lower())
+        seen_title.setdefault(key, slug)
+    keep = set(seen_title.values())
+    posts = {k: v for k, v in posts.items() if k in keep}
     labels_by_slug = load_labels_by_slug()
 
     by_country = collections.defaultdict(list)
@@ -294,6 +321,7 @@ def main():
 
     o = []
     A = o.append
+    A('<a class="gs-skip" href="#gs-all">Skip to the article list and search</a>')
     # Self-referencing topnav link every other post carries (consistency-check's
     # index-link rule) and the house gb-table border style (table-units-in-header
     # and the site-wide table-borders standard) -- both were being hand-patched
@@ -318,10 +346,30 @@ def main():
       f'<div class="stat"><b>{_pretty_date(first)}</b><span>First post &mdash; the blog opens</span></div>'
       '</div>')
 
+    has_tracker = any("ai-high-demand-launch-tracker" in s_ for s_ in posts)
+    A('<nav class="gs-jump" aria-label="On this page"><p class="gs-jump-lbl">Jump to</p><ul>'
+      '<li><a href="#gs-latest">Latest articles</a></li>'
+      '<li><a href="#gs-all">Search all articles</a></li>'
+      '<li><a href="#gs-topic">By topic</a></li>'
+      '<li><a href="#gs-date">By date</a></li>'
+      + ('<li><a href="#gs-tracker">AI Tracker</a></li>' if has_tracker else '') +
+      '<li><a href="#gs-geo">By geography</a></li>'
+      '<li><a href="#gs-graph">By connection</a></li></ul></nav>')
+
     emit_pitch(A)
 
+    # ---- latest -------------------------------------------------------------
+    A('<h2 id="gs-latest">Latest articles</h2>')
+    A('<p class="h2sub">The eight most recent pieces.</p>')
+    A('<ul class="gs-latest">')
+    for slug, p_ in sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)[:8]:
+        iso = p_["published"][:10]
+        A(f'<li><time datetime="{E(iso)}">{E(_pretty_date(p_["published"]))}</time> '
+          f'<a href="{E(p_["url"])}">{E(p_["title"])}</a></li>')
+    A('</ul>')
+
     # ---- by date ----------------------------------------------------------
-    A('<h2>By date</h2>')
+    A('<h2 id="gs-date">By date</h2>')
     A('<p class="h2sub">The whole publishing history, including the part where nothing happened.</p>')
     gap_note = ""
     if len(dates) > 1:
@@ -341,12 +389,13 @@ def main():
       '.gb-table tbody tr:nth-child(even){background:#f8f9fa}\n'
       '.gb-tblwrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:0 0 1em}\n'
       '</style>')
-    A('<div class="tw gb-tblwrap"><table class="gb-table">')
-    A('<thead><tr><th>Month</th><th>Articles</th><th>Running total</th></tr></thead><tbody>')
+    A('<div class="tw gb-tblwrap" role="region" aria-label="Articles per month" tabindex="0"><table class="gb-table">')
+    A('<caption class="sr-only">Articles published per month, with a running total</caption>')
+    A('<thead><tr><th scope="col">Month</th><th scope="col">Articles</th><th scope="col">Running total</th></tr></thead><tbody>')
     run = 0
     for m in sorted(months):
         run += months[m]
-        A(f'<tr><td>{_pretty_month(m)}</td><td>{months[m]}</td><td>{run}</td></tr>')
+        A(f'<tr><th scope="row">{_pretty_month(m)}</th><td>{months[m]}</td><td>{run}</td></tr>')
     A('</tbody></table></div>')
     A('<p class="exsrc">Counted from each post&rsquo;s Blogger publication date as recorded in the '
       'archive manifest. A number of earlier drafts and duplicate variants -- accidental multi-publishes, '
@@ -354,7 +403,7 @@ def main():
       'no live URL to link to.</p>')
 
     # ---- topics -----------------------------------------------------------
-    A('<h2>By topic</h2>')
+    A('<h2 id="gs-topic">By topic</h2>')
     A('<p class="h2sub">Live hub pages. Each updates itself as new pieces are labelled.</p>')
     # The accordion replaces the chip row. It reads Blogger's label feeds at
     # view time, so its counts and its post lists are always current -- the
@@ -368,7 +417,7 @@ def main():
     # at the same URL rather than adding a row to the list.
     trk = next((p for s_, p in posts.items() if "ai-high-demand-launch-tracker" in s_), None)
     if trk:
-        A('<h2>AI Tracker</h2>')
+        A('<h2 id="gs-tracker">AI Tracker</h2>')
         A('<p class="h2sub">The weekly AI tools update. Newest edition at a fixed address.</p>')
         A('<div class="serial">')
         A(f'<p class="ptitle"><a href="{E(trk["url"])}">{E(trk["title"])}</a></p>')
@@ -384,7 +433,7 @@ def main():
         A('</div>')
 
     # ---- geography --------------------------------------------------------
-    A('<h2>By geography</h2>')
+    A('<h2 id="gs-geo">By geography</h2>')
     A('<p class="h2sub">The country or state a piece is actually about, not every place it mentions.</p>')
     A('<p>Almost everything here is about India, so India is not a category &mdash; it would '
       'hold every article and tell you nothing. What follows is the <i>second</i> geography: '
@@ -412,7 +461,7 @@ def main():
     A('</div>')
 
     # ---- graph ------------------------------------------------------------
-    A('<h2>By connection</h2>')
+    A('<h2 id="gs-graph">By connection</h2>')
     A('<p class="h2sub">Which subjects keep turning up together.</p>')
     A('<p>Each dot is a subject that appears across several articles; its size is the number '
       'of articles. A line means two subjects share articles, and the heavier the line the '
@@ -422,7 +471,7 @@ def main():
     A('<p class="exno">Figure</p>')
     A('<p class="extitle">Subject co-occurrence across the archive</p>')
     A('<p class="exsub">Subjects appearing in at least five articles. Lines drawn where two '
-      'subjects share two or more articles.</p>')
+      'subjects share two or more articles. The diagram is small on a phone; the table under it has the same information.</p>')
     A(svg_graph(posts))
     A('<p class="exsrc">Built from the headings and body text of every archived post by '
       '<code>tools/index_graph.py</code>. Headings are weighted four times body text, and each '
@@ -444,45 +493,53 @@ def main():
     # A sticky month/year header, inserted whenever the month changes, gives
     # the list the same date anchors the "By date" table above already has,
     # while leaving each row's own date untouched.
-    A('<h2>All articles</h2>')
-    A('<p class="h2sub">Newest first, grouped by month so the publishing pace is visible at a glance. '
-      'Filter by month, day or topic below.</p>')
+    A('<h2 id="gs-all">All articles</h2>')
+    A('<p class="h2sub">Newest first, grouped by month. Search the titles, or filter by month, day or topic.</p>')
     A(FILTER_BAR)
     A('<div class="chrono">')
     ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
     month_counts = collections.Counter(p["published"][:7] for _, p in ordered if p["published"])
-    cur_ym = None
+    cur_ym = object()
+    open_month = False
     for slug, p in ordered:
         ym = p["published"][:7] if p["published"] else None
         day = p["published"][:10] if p["published"] else None
         if ym != cur_ym:
+            if open_month:
+                A('</ul></div>')
             cur_ym = ym
             label = _pretty_month(ym) if ym else "Undated"
             n = month_counts[ym] if ym else sum(1 for _, pp in ordered if not pp["published"])
-            A(f'<div class="cgroup" data-ym="{E(ym or "")}"><span>{E(label)}</span>'
-              f'<span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></div>')
+            hid = f'gs-m-{ym or "undated"}'
+            A(f'<div class="cmonth" data-ym="{E(ym or "")}"><h3 class="cgroup" id="{E(hid)}">'
+              f'<span>{E(label)}</span><span class="cgroup-n">{n} article{"s" if n != 1 else ""}</span></h3>'
+              f'<ul class="crows" aria-labelledby="{E(hid)}">')
+            open_month = True
         labels = labels_by_slug.get(slug) or []
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
-        A(f'<div class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}">')
-        A(f'<span class="cdate">{E(date_str)}</span>')
-        A(f'<span class="{tag_cls}">{E(tag)}</span>')
+        A(f'<li class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}"'
+          f'>')
+        A(f'<time class="cdate" datetime="{E(day or "")}">{E(date_str)}</time>')
+        A(f'<span class="{tag_cls}"><span class="sr-only">Topic: </span>{E(tag)}</span>')
         A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
         geo = (p["countries"][:2] + p["states"][:2])
         rel = [r for r in p["related"] if r["slug"] in posts][:3]
         if geo or rel:
             A('<span class="csub">')
             if geo:
-                A(f'<span class="cgeo">{E(", ".join(geo))}</span>')
+                A(f'<span class="cgeo"><span class="sr-only">About: </span>{E(", ".join(geo))}</span>')
             if rel:
-                links = " &middot; ".join(
-                    f'<a href="{E(posts[r["slug"]]["url"])}">{E(posts[r["slug"]]["title"][:52])}</a>'
-                    for r in rel)
-                sep = ' <span class="cdot">&middot;</span> ' if geo else ''
-                A(f'{sep}<span class="crel-lbl">Related</span> {links}')
+                def _rl(r):
+                    t_ = posts[r["slug"]]["title"]
+                    return f'<a class="crel-a" href="{E(posts[r["slug"]]["url"])}">{E(t_)}</a>'
+                links = " ".join(_rl(r) for r in rel)
+                A(f'<span class="crel-lbl">Related</span> {links}')
             A('</span>')
-        A('</div>')
-    A('<p class="gs-filter-empty" id="gs-f-empty">No articles match this filter combination.</p>')
+        A('</li>')
+    if open_month:
+        A('</ul></div>')
+    A('<p class="gs-filter-empty" id="gs-f-empty" role="status">No articles match this search and filter combination.</p>')
     A('</div>')
     A(FILTER_JS)
 
@@ -491,6 +548,7 @@ def main():
     # The body already carries the topnav index link (above); drop any copy the
     # shell head brings so the live page does not show it twice.
     head = re.sub(r'<div class="topnav-index-link"[^>]*>.*?</div>\s*', "", head, flags=re.S)
+    head = head.replace('<div class="artx idx">', '<div class="artx idx" lang="en">', 1)
     tail = Path(args.shell_tail).read_text(encoding="utf-8") if args.shell_tail else ""
     extra = """<style>/*gs-index-v1*/
 .artx .chips{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0 2rem}
@@ -502,57 +560,100 @@ def main():
 .artx .geoblock ul{margin:.35rem 0 0;padding-left:1.05rem}
 .artx .geoblock li{font-size:.9rem;line-height:1.45;margin-bottom:.28rem;max-width:none}
 .artx .geoh{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:#0a4c6a;
+ font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#0a4c6a;
  margin:0;border-bottom:1px solid #e2e2e2;padding-bottom:.3rem}
-.artx .geoh span{color:#8a8a8a;font-weight:600}
+.artx .geoh span{color:#595959;font-weight:600}
 .artx .serial{border-left:3px solid #8a4b08;padding:.2rem 0 .2rem 1.1rem;margin:1.1rem 0 2rem}
-.artx .gs-filter-bar{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;background:#F4F7FB;
+.artx .gs-filter-bar{display:grid;grid-template-columns:repeat(auto-fit,minmax(11.5rem,1fr));align-items:end;gap:.8rem;background:#F4F7FB;
  border:1px solid #e2e6ee;border-radius:8px;padding:.65rem .8rem;margin:14px 0 0;
  font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
-.artx .gs-filter-bar label{font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
- color:#595959;margin-right:-.3rem}
-.artx .gs-filter-bar select{font-family:inherit;font-size:.85rem;color:#0B1F2D;background:#fff;
- border:1px solid #c7cbd1;border-radius:5px;padding:.3rem .5rem;max-width:15rem}
-.artx .gs-filter-bar select:focus-visible{outline:2px solid #8a4b08;outline-offset:1px}
-.artx .gs-filter-reset{font-family:inherit;font-size:.78rem;font-weight:600;color:#2251FF;
- background:none;border:none;cursor:pointer;padding:.3rem .2rem;margin-left:auto}
-.artx .gs-filter-reset:hover{text-decoration:underline}
-.artx .gs-filter-count{font-size:.78rem;color:#8a8a8a;width:100%}
-.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#8a8a8a;font-size:.9rem;font-style:italic}
+.artx .gs-filter-bar label{font-size:.78rem;font-weight:700;letter-spacing:.05em;text-transform:uppercase;
+ color:#3d3d3d;margin:0}
+.artx .gs-filter-bar select,.artx .gs-filter-bar input[type=search]{font-family:inherit;font-size:.95rem;color:#0B1F2D;background:#fff;
+ border:1px solid #767676;border-radius:5px;padding:.4rem .6rem;min-height:44px;box-sizing:border-box;width:100%;max-width:none}
+.artx .gs-filter-reset{font-family:inherit;font-size:.88rem;font-weight:600;color:#12408f;
+ background:#fff;border:1px solid #12408f;border-radius:5px;cursor:pointer;padding:.4rem .8rem;min-height:44px;width:100%}
+.artx .gs-filter-reset:hover{background:#e6ecf5}
+.artx .gs-filter-count{font-size:.9rem;color:#3d3d3d;grid-column:1/-1;margin:0;min-height:1.2em}
+.artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#595959;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
 .artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
  justify-content:space-between;gap:.6rem;background:#0B1F2D;color:#fff;
- padding:.5rem .7rem;margin-top:.6rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
- Helvetica,Arial,sans-serif;font-size:.78rem;font-weight:700;letter-spacing:.04em}
-.artx .cgroup:first-of-type{margin-top:0}
-.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#b9c2cc;white-space:nowrap}
+ padding:.55rem .7rem;margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',
+ Helvetica,Arial,sans-serif;font-size:.9rem;font-weight:700;letter-spacing:.03em}
+.artx .cgroup-n{font-weight:600;letter-spacing:0;color:#d5dbe2;white-space:nowrap}
 .artx .crow{display:grid;grid-template-columns:6.4rem 11rem 1fr;align-items:baseline;
  column-gap:1.1rem;row-gap:.2rem;padding:.85rem .2rem;border-bottom:1px solid #e2e2e2;
  transition:background-color .12s ease}
 .artx .crow:hover{background:#F4F7FB}
-.artx .crow:hover .ctitle{color:#2251FF}
+.artx .crow:hover .ctitle{color:#12408f;text-decoration:underline}
 .artx .cdate{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.74rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;
+ font-size:.84rem;color:#595959;font-variant-numeric:tabular-nums;white-space:nowrap;
  padding-top:.15rem}
 .artx .ctag{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
- font-size:.68rem;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#2251FF;
+ font-size:.78rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:#12408f;
  padding-top:.15rem}
-.artx .ctag.none{color:#8a8a8a;font-weight:600;letter-spacing:.03em;text-transform:none}
+.artx .ctag.none{color:#595959;font-weight:600;letter-spacing:.03em;text-transform:none}
 .artx .ctitle{grid-column:3;font-family:Georgia,'Times New Roman',serif;font-size:1.02rem;
  line-height:1.4;color:#0B1F2D;text-decoration:none;transition:color .12s ease}
 .artx .csub{grid-column:3;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,
- sans-serif;font-size:.76rem;color:#8a8a8a;line-height:1.5}
-.artx .csub a{color:#8a8a8a}
-.artx .csub .crel-lbl{font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:.64rem;
+ sans-serif;font-size:.86rem;color:#595959;line-height:1.55}
+.artx .csub a{color:#3d3d3d;text-decoration:underline;text-underline-offset:2px}
+.artx .csub .crel-lbl{font-weight:700;text-transform:uppercase;letter-spacing:.07em;font-size:.8rem;
  color:#8a4b08}
 .artx .csub .cdot{margin:0 .1rem}
 @media (max-width:640px){
  .artx .crow{grid-template-columns:1fr;row-gap:.25rem;padding:1rem .2rem}
  .artx .ctitle,.artx .csub{grid-column:1}
- .artx .gs-filter-bar select{max-width:100%;flex:1 1 auto}
- .artx .gs-filter-reset{margin-left:0}
+ .artx .gs-filter-bar{grid-template-columns:1fr}
  .artx .gs-filter-count{order:99}
 }
+
+/*gs-a11y-index-v1*/
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.artx .gs-skip{position:absolute;left:-9999px;top:0;z-index:1000;background:#0B1F2D;color:#fff;
+ font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:1rem;
+ padding:.7rem 1rem;border-radius:0 0 6px 0}
+.artx .gs-skip:focus{left:0}
+.artx a:focus-visible,.artx button:focus-visible,.artx summary:focus-visible,.artx select:focus-visible,
+.artx input:focus-visible,.artx [tabindex]:focus-visible{outline:3px solid #8a4b08;outline-offset:2px;border-radius:2px}
+.artx .gs-jump{margin:1.2rem 0 .4rem;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx .gs-jump-lbl{font-size:.8rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#3d3d3d;margin:0 0 .4rem}
+.artx .gs-jump ul{display:flex;flex-wrap:wrap;gap:.5rem;list-style:none;margin:0;padding:0;max-width:none}
+.artx .gs-jump li{max-width:none;margin:0}
+.artx .gs-jump a{display:inline-block;min-height:44px;box-sizing:border-box;padding:.65rem .9rem;border:1px solid #12408f;
+ border-radius:5px;font-size:.92rem;font-weight:600;color:#12408f;text-decoration:none;background:#fff}
+.artx .gs-jump a:hover{background:#e6ecf5}
+.artx .gs-latest{list-style:none;margin:0 0 1rem;padding:0;max-width:none}
+.artx .gs-latest li{max-width:none;padding:.7rem 0;border-bottom:1px solid #e2e2e2;font-size:1.02rem;line-height:1.4}
+.artx .gs-latest time{display:block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;
+ font-size:.84rem;color:#595959;margin-bottom:.1rem}
+.artx .gs-f-field{display:flex;flex-direction:column;gap:.25rem}
+.artx .cmonth{margin-top:.6rem}
+.artx .cgroup{margin:0}
+.artx .crows{list-style:none;margin:0;padding:0;max-width:none}
+.artx .crow{max-width:none}
+.artx .ctitle{text-decoration:underline;text-decoration-color:#c7cbd1;text-underline-offset:3px}
+.artx .ctitle:hover,.artx .ctitle:focus-visible{text-decoration-color:currentColor}
+.artx .gs-gtable{margin:1rem 0 0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif}
+.artx .gs-gtable summary{cursor:pointer;min-height:44px;box-sizing:border-box;padding:.6rem 0;font-weight:700;font-size:.95rem;color:#12408f}
+.artx .gs-gtable th[scope=row]{text-align:left;font-weight:600;white-space:normal}
+.artx .gs-gtable td:last-child{text-align:left;white-space:normal}
+.artx tbody th[scope=row]{text-align:left;font-weight:600;padding:.46rem .65rem;border-bottom:1px dotted #d9d9d9}
+.artx .tw[tabindex]{outline-offset:2px}
+.artx .csub .cgeo{display:block;margin-bottom:.15rem}
+.artx .csub .crel-a{display:inline-block;margin-right:1rem;max-width:30ch;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:bottom}
+.artx .csub .crel-a:focus,.artx .csub .crel-a:hover{max-width:none;white-space:normal}
+.artx .eyebrow{font-size:.8rem}
+.artx h2{font-size:.88rem}
+.artx .stat span{font-size:.88rem}
+.artx .exno{font-size:.78rem}
+.artx .exsrc{font-size:.82rem}
+.artx thead th{font-size:.78rem}
+.artx .revised,.artx .sources{font-size:.84rem}
+.artx .gs-filter-empty{font-size:1rem}
+@media (prefers-reduced-motion:reduce){.artx *{transition:none!important;scroll-behavior:auto!important}}
+@media (forced-colors:active){.artx .cgroup,.artx .gs-skip{border:1px solid CanvasText}}
 </style>
 """
     Path(args.out).write_text(head + extra + body + tail, encoding="utf-8")
