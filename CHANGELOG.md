@@ -14281,3 +14281,13 @@ Insert bagasse liquefaction and hydrolysis article
 **Added**
 
 - `bagasse-is-one-crop-residue-already` **v1.0.0** — Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler (27,214 bytes)
+
+## 2026-10-10T10:44:28+05:30 — 365 posts live
+
+Label thermocol and bagasse articles
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `bagasse-is-one-crop-residue-already` — 2026-10-10 &rarr; 2026-10-10
+- `thermocol-dissolves-in-orange-peel-oil` — 2026-10-10 &rarr; 2026-10-10
