@@ -14242,3 +14242,33 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Changed**
 
 - `indias-factory-intentions-20012024-how_0101046393` — 34,720 → 37,180 bytes (+2,460)
+
+## 2026-10-10T09:53:17+05:30 — 364 posts live
+
+Insert limonene thermocol recycling article
+
+
+**Added**
+
+- `thermocol-dissolves-in-orange-peel-oil` **v1.0.0** — Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins (30,660 bytes)
+
+**Versions**
+
+- `article-index-start-here` **56.0.0 → 57.0.0** (MAJOR) — figures changed (+22/-6 distinct numbers)
+
+**Changed**
+
+- `article-index-start-here` — 443,761 → 524,642 bytes (+80,881)
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `indias-fdi-moved-to-software-and` — 2026-10-10 &rarr; 2026-10-10
+- `the-rbis-fcnrb-window-drew-133-billion` — 2026-10-10 &rarr; 2026-10-10
+- `indias-first-tourism-survey-since-2014` — 2026-10-09 &rarr; 2026-10-09
+- `the-sme-growth-fund-is-indias-fourth` — 2026-10-09 &rarr; 2026-10-09
+- `india-imported-295-more-steel-this-year` — 2026-10-09 &rarr; 2026-10-09
+- `epfos-pay-ceiling-rose-to-25000-after` — 2026-10-09 &rarr; 2026-10-09
+- `new-zealand-opens-every-tariff-line-to` — 2026-10-09 &rarr; 2026-10-09
+- `wheats-support-price-rose-by-25` — 2026-10-09 &rarr; 2026-10-09
+- `india-raised-cooking-oil-duties-to-help` — 2026-10-09 &rarr; 2026-10-09
+- `indias-petroleum-act-still-fines` — 2026-10-09 &rarr; 2026-10-09

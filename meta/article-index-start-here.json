@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-09T11:55:45.196+05:30",
+  "updated": "2026-10-10T08:41:07.974+05:30",
   "labels": [],
-  "bytes": 443761,
-  "sha256": "9a446a83363379d5de984885d9e1083ffddb5ea682534e47671787acfd7ab1ff",
+  "bytes": 524642,
+  "sha256": "3ece3eb12c5e4c1eb404ebcaee1bdfe9779acc80f55d80b2c769deca0b0b03e7",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "56.0.0",
+  "version": "57.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1820,6 +1820,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "57.0.0",
+      "date": "2026-10-10T09:53:17+05:30",
+      "level": "major",
+      "reason": "figures changed (+22/-6 distinct numbers)",
+      "bytes": [
+        443761,
+        524642
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Insert limonene thermocol recycling article"
     }
   ]
 }
