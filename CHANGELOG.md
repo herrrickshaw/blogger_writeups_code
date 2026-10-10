@@ -14340,3 +14340,16 @@ Label lysine article
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `indias-lysine-deficit-is-102-million` — 2026-10-10 &rarr; 2026-10-10
+
+## 2026-10-10T21:39:21+05:30 — 367 posts live
+
+Article index rebuilt: thermocol, bagasse, sucralose
+
+
+**Versions**
+
+- `article-index-start-here` **57.0.0 → 58.0.0** (MAJOR) — forced via --as major (figures changed (+6/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 524,642 → 528,246 bytes (+3,604)

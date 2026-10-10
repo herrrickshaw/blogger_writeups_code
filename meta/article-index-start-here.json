@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-10T08:41:07.974+05:30",
+  "updated": "2026-10-10T21:38:47.559+05:30",
   "labels": [],
-  "bytes": 524642,
-  "sha256": "3ece3eb12c5e4c1eb404ebcaee1bdfe9779acc80f55d80b2c769deca0b0b03e7",
+  "bytes": 528246,
+  "sha256": "0101b9f538a658be74f30b8a3027fe5f20bddb9b3e59f372855d706d816147fc",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "57.0.0",
+  "version": "58.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1833,6 +1833,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Insert limonene thermocol recycling article"
+    },
+    {
+      "version": "58.0.0",
+      "date": "2026-10-10T21:39:21+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+6/-2 distinct numbers))",
+      "bytes": [
+        524642,
+        528246
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Article index rebuilt: thermocol, bagasse, sucralose"
     }
   ]
 }
