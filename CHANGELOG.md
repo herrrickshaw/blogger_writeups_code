@@ -14322,3 +14322,12 @@ Sucralose: add HSN tariff-line table. Insert lysine and amino acids article
 **Changed**
 
 - `india-imported-28-million-of-sucralose` — 28,455 → 31,500 bytes (+3,045)
+
+## 2026-10-10T21:36:49+05:30 — 367 posts live
+
+Insert lysine and amino acids article
+
+
+**Added**
+
+- `indias-lysine-deficit-is-102-million` **v1.0.0** — India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part (27,139 bytes)
