@@ -14232,3 +14232,13 @@ New posts: draft Petroleum (Amendment) Bill 2026; IIP 2022-23 base
 **Changed**
 
 - `indias-factory-intentions-20012024-how_0101046393` — 34,294 → 34,720 bytes (+426)
+
+## 2026-10-10T08:37:18+05:30 — 363 posts live
+
+**Versions**
+
+- `indias-factory-intentions-20012024-how_0101046393` **3.0.0 → 4.0.0** (MAJOR) — figures changed (+16/-0 distinct numbers)
+
+**Changed**
+
+- `indias-factory-intentions-20012024-how_0101046393` — 34,720 → 37,180 bytes (+2,460)
