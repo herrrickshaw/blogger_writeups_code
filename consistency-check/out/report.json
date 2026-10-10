@@ -1,8 +1,8 @@
 [
  {
-  "id": "5b259eee",
-  "title": "top-15-chemicals-for-import.html",
-  "url": "https://masaladeutsch.blogspot.com/2026/08/top-15-chemicals-for-import.html",
+  "id": "99e366b2",
+  "title": "bagasse-is-one-crop-residue-already.html",
+  "url": "https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html",
   "checks": [
    {
     "rule": "js-parses",
@@ -37,20 +37,20 @@
    {
     "rule": "disclaimer-present",
     "severity": "MAJOR",
-    "ok": false,
-    "detail": "no AI-disclosure outside a <script>"
+    "ok": true,
+    "detail": ""
    },
    {
     "rule": "translate-widget",
     "severity": "MINOR",
-    "ok": false,
-    "detail": "missing Google Translate widget"
+    "ok": true,
+    "detail": ""
    },
    {
     "rule": "index-link",
     "severity": "MINOR",
-    "ok": false,
-    "detail": "missing All-Articles index link"
+    "ok": true,
+    "detail": ""
    },
    {
     "rule": "bw-override",
@@ -62,9 +62,9 @@
     "rule": "table-units-in-header",
     "severity": "MINOR",
     "ok": true,
-    "detail": "n/a (few cells)"
+    "detail": "0%"
    }
   ],
-  "bytes": 42471
+  "bytes": 75405
  }
 ]
