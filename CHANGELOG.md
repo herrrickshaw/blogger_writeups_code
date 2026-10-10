@@ -14272,3 +14272,12 @@ Insert limonene thermocol recycling article
 - `wheats-support-price-rose-by-25` — 2026-10-09 &rarr; 2026-10-09
 - `india-raised-cooking-oil-duties-to-help` — 2026-10-09 &rarr; 2026-10-09
 - `indias-petroleum-act-still-fines` — 2026-10-09 &rarr; 2026-10-09
+
+## 2026-10-10T10:01:42+05:30 — 365 posts live
+
+Insert bagasse liquefaction and hydrolysis article
+
+
+**Added**
+
+- `bagasse-is-one-crop-residue-already` **v1.0.0** — Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler (27,214 bytes)

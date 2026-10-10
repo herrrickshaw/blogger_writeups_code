@@ -10,6 +10,9 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ... Commons.  Hospitals have permitted 100 per cent FDI on the automatic route since Januar...
   suggested: percent
+- **[COMPOUNDING/VERB_NOUN_CONFUSION]** When ‘fall back’ is used as a noun or modifier, it’s written as one word.
+  context: ...re a peak, and the 2.0% of H1 2025 is a fall back toward them, not the end of a long decl...
+  suggested: fallback
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...eld pharmaceutical manufacturing is 100 per cent automatic but brownfield pharma (buying...
   suggested: percent
