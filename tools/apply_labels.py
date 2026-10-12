@@ -747,6 +747,7 @@ OVERRIDE = {
 SLUG_CONTAINS = {
     "sucralose": ["Healthcare", "Agriculture & Fertilisers", "Chemicals"],
     "lysine":    ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
+    "methionine": ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
 }
 
 
