@@ -14425,3 +14425,16 @@ Amino-acids article labels; GEC-III update after duplicate removal
 **No longer published** (drafted or deleted; file kept in `posts/`)
 
 - `green-energy-corridor-iii-is-15-times_01338283908` — Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished
+
+## 2026-10-12T14:51:19+05:30 — 367 posts live
+
+Index rebuilt with amino-acids article labelled
+
+
+**Versions**
+
+- `article-index-start-here` **60.0.0 → 60.1.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `article-index-start-here` — 531,358 → 531,391 bytes (+33)
