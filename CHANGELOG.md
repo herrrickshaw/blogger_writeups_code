@@ -14412,3 +14412,16 @@ Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, ly
 **Changed**
 
 - `article-index-start-here` — 529,770 → 531,358 bytes (+1,588)
+
+## 2026-10-12T14:50:27+05:30 — 367 posts live
+
+Amino-acids article labels; GEC-III update after duplicate removal
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `methionine-not-lysine-is-indias-biggest` — 2026-10-12 &rarr; 2026-10-12
+
+**No longer published** (drafted or deleted; file kept in `posts/`)
+
+- `green-energy-corridor-iii-is-15-times_01338283908` — Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished
