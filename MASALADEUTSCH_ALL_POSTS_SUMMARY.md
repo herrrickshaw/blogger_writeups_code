@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*361 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*365 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 10 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 12 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,18 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (61)
+### Agriculture & Fertilisers (66)
 
+- **[Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)** — 2026-10-10
+  Bagasse can be turned into foam polyol or sugars in the lab, with about 75% liquefied in nine minutes in one study. No cost or life-cycle study was found, and the competitor is the mill boiler that already burns it.
+- **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
+  India imports $106 million of lysine a year and its unit price fell 18.7% in FY26. Mills and distilleries have the sugar, but a lysine fermenter is aerobic and sterile, and the world price is set by very large Chinese plants.
+- **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
+  Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
+- **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
+  The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
+- **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
+  The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
 - **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
   India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[Cotton Stalk Is One of the Hardest Crop Wastes to Turn Into Gas. The Manure Left Over Is What India's Tired Fields Need.](https://masaladeutsch.blogspot.com/2026/10/cotton-stalk-is-one-of-hardest-crop.html)** — 2026-10-01
@@ -425,8 +435,16 @@
 - **[Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html)** — 2026-08-23
   Japan is in the first matcha shortage in its history. Tencha auction prices doubled in a year to ¥10,843 a kilo, and a 40-gram retail tin went from ¥1,500 to ¥6,500. On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo. India grows 342 times more tea than the world makes matcha. The gap between those two facts is the story.
 
-### Chemicals (23)
+### Chemicals (27)
 
+- **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
+  Limonene shrinks foam to about a twentieth of its volume and a first plant was built in the 1990s. No study found measures what the recovered polystyrene smells of, how the solvent ages, or what the process costs, and the industrial solvent routes use other solvents.
+- **[Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)** — 2026-10-10
+  Bagasse can be turned into foam polyol or sugars in the lab, with about 75% liquefied in nine minutes in one study. No cost or life-cycle study was found, and the competitor is the mill boiler that already burns it.
+- **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
+  India imports $106 million of lysine a year and its unit price fell 18.7% in FY26. Mills and distilleries have the sugar, but a lysine fermenter is aerobic and sterile, and the world price is set by very large Chinese plants.
+- **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
+  Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
 - **[The Reactor Nobody Names: How Coal Becomes Syngas, and Why India's Flagship Plant Runs on Someone Else's Technology](https://masaladeutsch.blogspot.com/2026/09/the-reactor-nobody-names-how-coal.html)** — 2026-09-19
   Every account of India's coal-gasification push — including this blog's own — talks about what syngas can be turned into and what the government is spending to make that happen. Almost none of them name the actual machine coal has to pass through first, or notice that the mission's single largest, most-cited project doesn't run on the gasification technology India has spent two decades developing for its own coal.
 - **[India's Semaglutide Patent Cliff: 26 Brands in Weeks, a Price War, and a Government Crackdown](https://masaladeutsch.blogspot.com/2026/09/indias-semaglutide-patent-cliff-26.html)** — 2026-09-16
@@ -508,8 +526,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Climate & Carbon (20)
+### Climate & Carbon (21)
 
+- **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
+  Limonene shrinks foam to about a twentieth of its volume and a first plant was built in the 1990s. No study found measures what the recovered polystyrene smells of, how the solvent ages, or what the process costs, and the industrial solvent routes use other solvents.
 - **[Refiners Won the Exemption Fight, Biofuels Kept the Volumes: What Eight Court Rulings Did to America's Biofuel Credits](https://masaladeutsch.blogspot.com/2026/10/refiners-won-exemption-fight-biofuels.html)** — 2026-10-03
   Eight US court rulings from 2023 to 2026 show refiners winning the small-refinery-exemption fight while biofuel producers keep record-high Renewable Fuel Standard volumes. What decides RIN prices now is EPA's discretion to reallocate exempted gallons.
 - **[Making Plastic Releases Heat. Unmaking It Takes Heat, Entropy and a Catalyst India's Refineries Already Throw Away.](https://masaladeutsch.blogspot.com/2026/10/making-plastic-releases-heat-unmaking.html)** — 2026-10-02
@@ -643,8 +663,12 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (107)
+### Energy & Fuels (109)
 
+- **[India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)** — 2026-10-09
+  Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
+- **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
+  The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
 - **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
   India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
@@ -1105,8 +1129,10 @@
 - **[The Price of Grain: MSP, MSV, and the Arithmetic of the Indian Grain State](https://masaladeutsch.blogspot.com/2026/07/the-price-of-grain-msp-msv-and.html)** — 2026-07-23
   How India prices its harvest — for farmers, for ration shops, for distilleries, for the world market — and why pairing the Minimum Support Price with a Minimum Support Volume is the design that creates value on both sides of the ledger.
 
-### Healthcare (12)
+### Healthcare (13)
 
+- **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
+  Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
 - **[Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)** — 2026-10-06
   Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
 - **[ABHA Covers 93 Crore Patients. Its Doctor Registry Covers 67%, and Insurers Aren't Required to Use the Claims Exchange Yet](https://masaladeutsch.blogspot.com/2026/09/abha-covers-93-crore-patients-its.html)** — 2026-09-17
@@ -1282,8 +1308,14 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (102)
+### Industrial Policy (105)
 
+- **[India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)** — 2026-10-09
+  MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
+- **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
+  The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
+- **[India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)** — 2026-10-07
+  For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
 - **[Cough Syrup in a Lollipop? For Babies, the Evidence Points to a 2 mm Tablet Instead](https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies.html)** — 2026-10-06
   Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
@@ -1553,8 +1585,10 @@
 - **[LNG Trucks Cost About What Diesel Does. GreenLine, Delhivery and UltraTech Are Scaling Them Anyway.](https://masaladeutsch.blogspot.com/2026/09/lng-trucks-cost-about-what-diesel-does.html)** — 2026-09-01
   An independent think-tank ran the numbers on LNG trucks in India this year and found their total cost of ownership lands roughly where diesel's does, not meaningfully below it — and that LNG combustion actually produces more nitrogen oxide than diesel, not less. None of that has stopped a real, fast-growing fleet of LNG trucks from showing up on Indian highways anyway, running for GreenLine, Delhivery, UltraTech Cement and Tata Steel. The reasons companies are betting on it turn out to have less to do with the fuel-cost math than the marketing suggests.
 
-### Macroeconomics & Monetary Policy (19)
+### Macroeconomics & Monetary Policy (20)
 
+- **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
+  The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
 - **[Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That.](https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html)** — 2026-10-02
   In 2025 an Abu Dhabi fund paid US$2 billion for a stake in Binance in a stablecoin, the largest investment ever settled that way. The UAE is building the rails for more: dirham stablecoins, licensed dollar tokens, tokenised property and a programme to attract crypto firms as foreign investors. The research is less flattering: crypto has so far eased cross-border money mostly where governments were trying to stop it. India, the UAE’s partner in a central-bank digital currency pilot, allows no FDI to be paid in crypto at all, and is betting on central-bank money instead.
 - **[The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.](https://masaladeutsch.blogspot.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html)** — 2026-10-02
@@ -1605,8 +1639,16 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (45)
+### Markets & Finance (49)
 
+- **[India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)** — 2026-10-10
+  The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
+- **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
+  The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
+- **[EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html)** — 2026-10-09
+  The Cabinet raised the pay limit for compulsory provident fund and pension cover on 16 September 2026, bringing about 51 lakh more workers in. Adjusted for prices it restores the 2014 ceiling rather than extending it, and nothing stops it eroding again: there is no rule for raising it, and minimum wages in several states had already passed the old limit.
+- **[The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things](https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html)** — 2026-10-09
+  The Cabinet approved a ₹10,000 crore SME Growth Fund on 6 October, with no published manager, term, private-capital share or eligibility test. The first startup fund of funds had disbursed ₹3,400 crore of its ₹10,000 crore by end-2022 while reporting ₹14,077 crore invested, and the SRI Fund reports its progress in more than one way.
 - **[Abu Dhabi Paid $2 Billion for a Binance Stake in Stablecoins. India's FDI Rules Have No Box for That.](https://masaladeutsch.blogspot.com/2026/10/abu-dhabi-paid-2-billion-for-binance.html)** — 2026-10-02
   In 2025 an Abu Dhabi fund paid US$2 billion for a stake in Binance in a stablecoin, the largest investment ever settled that way. The UAE is building the rails for more: dirham stablecoins, licensed dollar tokens, tokenised property and a programme to attract crypto firms as foreign investors. The research is less flattering: crypto has so far eased cross-border money mostly where governments were trying to stop it. India, the UAE’s partner in a central-bank digital currency pilot, allows no FDI to be paid in crypto at all, and is betting on central-bank money instead.
 - **[The RBI Has Put Bonds and Rupees on One Ledger. The Hard Part Is Telling It What Happens Off It.](https://masaladeutsch.blogspot.com/2026/10/the-rbi-has-put-bonds-and-rupees-on-one.html)** — 2026-10-02
@@ -1961,8 +2003,20 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (75)
+### Trade & Tariffs (81)
 
+- **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
+  India imports $106 million of lysine a year and its unit price fell 18.7% in FY26. Mills and distilleries have the sugar, but a lysine fermenter is aerobic and sterile, and the world price is set by very large Chinese plants.
+- **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
+  Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
+- **[India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else](https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html)** — 2026-10-09
+  Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
+- **[New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)** — 2026-10-09
+  From 20 October 2026 all Indian goods enter New Zealand duty-free, but its average tariff was 2.3% and more than half its lines were already free. India cuts duties on about 70% of lines, opens quotas for apples and kiwifruit, keeps dairy out, and gets 5,000 work visas and a $20 billion investment aim in return.
+- **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
+  The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
+- **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
+  The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
 - **[India Sells the World About a Third of Its Oleoresins. The US Just Put Duties of Up to 31% on the Biggest One.](https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html)** — 2026-09-30
   An oleoresin is a spice with the fibre taken out — the colour, heat and aroma of paprika, pepper or turmeric concentrated into a thick extract that food makers can dose by the gram. India exported US$535.9 million of spice oils and oleoresins in 2024–25, about a third of a global market put at US$1.6 billion, at roughly ten times the value per kilo of its spice exports as a whole. In August the United States found that India's paprika oleoresin was both dumped and subsidised, and on 18 September its trade commission cleared the way for duties of about 23% to 31% on the single biggest product in the market.
 - **[Cocoa Quintupled, Then Gave Most of It Back. Vanilla Lost 90%. Only One of Those Is a Weather Story.](https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html)** — 2026-09-30
@@ -2127,46 +2181,24 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### Unlabelled (22)
+### Unlabelled (11)
 
-- **[India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)** — 2026-10-10
-  The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
-- **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
-  The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
 - **[India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%](https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html)** — 2026-10-09
   MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
-- **[EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html)** — 2026-10-09
-  The Cabinet raised the pay limit for compulsory provident fund and pension cover on 16 September 2026, bringing about 51 lakh more workers in. Adjusted for prices it restores the 2014 ceiling rather than extending it, and nothing stops it eroding again: there is no rule for raising it, and minimum wages in several states had already passed the old limit.
 - **[India and MERCOSUR Are Expanding a 450-Line Trade Pact. India's Deficit With the Bloc Has Nearly Quadrupled in a Year, and 81% of It Is Argentina](https://masaladeutsch.blogspot.com/2026/10/india-and-mercosur-are-expanding-450.html)** — 2026-10-09
   Talks launched on 14 September to widen the 2009 pact, with no product list yet. India’s trade with the four members reached about $21.8 billion in 2025-26 and its deficit about $4.9 billion, four-fifths of it with Argentina, whose sales to India are led by edible oils.
 - **[India's Reported Central Project Overrun Halved in Four Months. The Monitored List Shrank, and the Count of Late Projects Is No Longer Published](https://masaladeutsch.blogspot.com/2026/10/indias-reported-central-project-overrun.html)** — 2026-10-09
   MoSPI’s flash report put the cost overrun at ₹2.88 lakh crore in August against ₹5.65 lakh crore in April, but the set fell from 1,981 to 1,731 projects, mostly roads and Railways, and the reports no longer say how many are behind schedule.
 - **[India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One](https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html)** — 2026-10-09
   The armed forces’ quantum framework, released in January 2026, covers communication, computing, sensing and materials. The Army has bought quantum key distribution and is rolling out post-quantum encryption, but computing is a 6-qubit lab processor, sensing is prototype contracts, and the first Indian ultra-cold refrigerator for quantum computers is due only in late 2027.
-- **[India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else](https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html)** — 2026-10-09
-  Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
 - **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times_01338283908.html)** — 2026-10-09
   The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
-- **[New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)** — 2026-10-09
-  From 20 October 2026 all Indian goods enter New Zealand duty-free, but its average tariff was 2.3% and more than half its lines were already free. India cuts duties on about 70% of lines, opens quotas for apples and kiwifruit, keeps dairy out, and gets 5,000 work visas and a $20 billion investment aim in return.
-- **[The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things](https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html)** — 2026-10-09
-  The Cabinet approved a ₹10,000 crore SME Growth Fund on 6 October, with no published manager, term, private-capital share or eligibility test. The first startup fund of funds had disbursed ₹3,400 crore of its ₹10,000 crore by end-2022 while reporting ₹14,077 crore invested, and the SRI Fund reports its progress in more than one way.
-- **[India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)** — 2026-10-09
-  Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
-- **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
-  The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
 - **[India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal](https://masaladeutsch.blogspot.com/2026/10/india-has-auctioned-141-commercial-coal.html)** — 2026-10-09
   As the 16th round of commercial coal auctions opens with 25 blocks, the ministry’s own figures show 132 of the first 141 mines allocated, 23 cleared to open and 15 producing, about 26 million tonnes against a rated 366. The schedules are being shortened; the penalties for missing them are not published.
-- **[India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)** — 2026-10-09
-  MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
-- **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
-  The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
 - **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html)** — 2026-10-09
   The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
 - **[India's First Seabed Mineral Auction Drew No Winner. The Second Offers Two Blocks and a Lower Bar](https://masaladeutsch.blogspot.com/2026/10/indias-first-seabed-mineral-auction.html)** — 2026-10-09
   Thirteen offshore blocks went unsold before the auction was annulled in December 2025. The Ministry of Mines is trying again with two nodule blocks off Great Nicobar, bids due 28 December, and now needs only two qualified bidders. The resource data and the deep-sea technology that kept bidders away are still missing.
-- **[India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)** — 2026-10-07
-  For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
 - **[India's Labour Codes Took Six Years to Become Law. The Rules That Enforce Them Are Still Rolling Out State by State](https://masaladeutsch.blogspot.com/2026/09/indias-labour-codes-took-six-years-to.html)** — 2026-09-16
   Parliament passed India's four labour codes in 2019 and 2020, consolidating 29 laws into four. They came into force on 21 November 2025 — with no rules yet written to operate them. The Central Rules that make them enforceable took another five and a half months; as of the most recent count, barely a third of India's states had notified their own.
 - **[India Rewrote Its Entire Maritime Legal Code in Five Months. Its Ships Still Carry 5% of Its Own Trade.](https://masaladeutsch.blogspot.com/2026/09/india-rewrote-its-entire-maritime-legal.html)** — 2026-09-15
@@ -3898,7 +3930,7 @@ Eight US court rulings from 2023 to 2026 show refiners winning the small-refiner
 Putting children’s cough syrup in a lollipop sounds like a kindness. For infants it is the wrong answer three times over: cough medicines are not meant for under-twos, hard sweets are a choking hazard, and medicine that tastes like candy invites overdoses. The research points instead to tablets 2 mm across, films that melt on the tongue and medicine given during breastfeeding. Indian companies already make several of these — but mostly for export, not for Indian children.
 
 ### [India's Factory Intentions, 2001–2024: How Many IEM Filings Became Plants](https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how_0101046393.html)
-*2026-10-07 · —*
+*2026-10-07 · Industrial Policy*
 
 For 23 years DPIIT published, every month, the name of every large company that told the government it planned a new factory, and of every one that said production had started. Read together, the two lists show that only 15% of the filings made from 2001 to 2018 are cited by a later production report, and 23% if reports from the same company are counted too. Since October 2025 the filings sit on the National Single Window System, and the monthly company lists, last posted for August 2024, have not come back.
 
@@ -3908,7 +3940,7 @@ For 23 years DPIIT published, every month, the name of every large company that 
 MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
 
 ### [EPFO's Pay Ceiling Rose to ₹25,000 After 12 Years. In 2014 Rupees, That Is Slightly Less Than the Old ₹15,000](https://masaladeutsch.blogspot.com/2026/10/epfos-pay-ceiling-rose-to-25000-after.html)
-*2026-10-09 · —*
+*2026-10-09 · Markets & Finance*
 
 The Cabinet raised the pay limit for compulsory provident fund and pension cover on 16 September 2026, bringing about 51 lakh more workers in. Adjusted for prices it restores the 2014 ceiling rather than extending it, and nothing stops it eroding again: there is no rule for raising it, and minimum wages in several states had already passed the old limit.
 
@@ -3928,7 +3960,7 @@ MoSPI’s flash report put the cost overrun at ₹2.88 lakh crore in August agai
 The armed forces’ quantum framework, released in January 2026, covers communication, computing, sensing and materials. The Army has bought quantum key distribution and is rolling out post-quantum encryption, but computing is a 6-qubit lab processor, sensing is prototype contracts, and the first Indian ultra-cold refrigerator for quantum computers is due only in late 2027.
 
 ### [India Imported 29.5% More Steel This Year Despite a Safeguard Duty. The Open Houses Are About Something Else](https://masaladeutsch.blogspot.com/2026/10/india-imported-295-more-steel-this-year.html)
-*2026-10-09 · —*
+*2026-10-09 · Trade & Tariffs*
 
 Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
 
@@ -3938,22 +3970,22 @@ Steel imports rose to 3.49 million tonnes in April to August 2026 while demand g
 The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
 
 ### [New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)
-*2026-10-09 · —*
+*2026-10-09 · Trade & Tariffs*
 
 From 20 October 2026 all Indian goods enter New Zealand duty-free, but its average tariff was 2.3% and more than half its lines were already free. India cuts duties on about 70% of lines, opens quotas for apples and kiwifruit, keeps dairy out, and gets 5,000 work visas and a $20 billion investment aim in return.
 
 ### [The SME Growth Fund Is India's Fourth ₹10,000 Crore Government Equity Programme. Their Scorecards Count Different Things](https://masaladeutsch.blogspot.com/2026/10/the-sme-growth-fund-is-indias-fourth.html)
-*2026-10-09 · —*
+*2026-10-09 · Markets & Finance*
 
 The Cabinet approved a ₹10,000 crore SME Growth Fund on 6 October, with no published manager, term, private-capital share or eligibility test. The first startup fund of funds had disbursed ₹3,400 crore of its ₹10,000 crore by end-2022 while reporting ₹14,077 crore invested, and the SRI Fund reports its progress in more than one way.
 
 ### [India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)
-*2026-10-09 · —*
+*2026-10-09 · Energy & Fuels*
 
 Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
 
 ### [India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)
-*2026-10-09 · —*
+*2026-10-09 · Agriculture & Fertilisers, Energy & Fuels, Trade & Tariffs*
 
 The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in two steps, the latest on 24 September 2026. Retail vegetable oil prices rose 14% after the first cut anyway, imports are up 5%, and the oilseed mission needs output to grow 10% a year.
 
@@ -3963,12 +3995,12 @@ The effective duty on crude palm and soybean oil has gone from 27.5% to 11% in t
 As the 16th round of commercial coal auctions opens with 25 blocks, the ministry’s own figures show 132 of the first 141 mines allocated, 23 cleared to open and 15 producing, about 26 million tonnes against a rated 366. The schedules are being shortened; the penalties for missing them are not published.
 
 ### [India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)
-*2026-10-09 · —*
+*2026-10-09 · Industrial Policy*
 
 MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
 
 ### [Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)
-*2026-10-09 · —*
+*2026-10-09 · Agriculture & Fertilisers, Industrial Policy, Trade & Tariffs*
 
 The 2027-28 wheat MSP is up 1.0%, against 5.6% to 10.3% for oilseeds and lentils. With 480 lakh tonnes of wheat in the central pool, more than twice the buffer norm, the government has spent the past year lifting stock limits, reopening exports and failing to sell surplus wheat at auction.
 
@@ -3982,12 +4014,32 @@ The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh o
 
 Thirteen offshore blocks went unsold before the auction was annulled in December 2025. The Ministry of Mines is trying again with two nodule blocks off Great Nicobar, bids due 28 December, and now needs only two qualified bidders. The resource data and the deep-sea technology that kept bidders away are still missing.
 
+### [Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)
+*2026-10-10 · Chemicals, Climate & Carbon*
+
+Limonene shrinks foam to about a twentieth of its volume and a first plant was built in the 1990s. No study found measures what the recovered polystyrene smells of, how the solvent ages, or what the process costs, and the industrial solvent routes use other solvents.
+
 ### [India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)
-*2026-10-10 · —*
+*2026-10-10 · Markets & Finance*
 
 The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
 
 ### [The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)
-*2026-10-10 · —*
+*2026-10-10 · Macroeconomics & Monetary Policy, Markets & Finance*
 
 The swap window held the rupee and lifted reserves to a record $785.7 billion, but the dollars are owed back from 2029, nearly half in 2031. Reserves are down $51 billion in four weeks, the forward book is at $200 billion, and the maturity ladder is not published.
+
+### [Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)
+*2026-10-10 · Agriculture & Fertilisers, Chemicals*
+
+Bagasse can be turned into foam polyol or sugars in the lab, with about 75% liquefied in nine minutes in one study. No cost or life-cycle study was found, and the competitor is the mill boiler that already burns it.
+
+### [India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)
+*2026-10-10 · Agriculture & Fertilisers, Chemicals, Trade & Tariffs*
+
+India imports $106 million of lysine a year and its unit price fell 18.7% in FY26. Mills and distilleries have the sugar, but a lysine fermenter is aerobic and sterile, and the world price is set by very large Chinese plants.
+
+### [India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)
+*2026-10-10 · Agriculture & Fertilisers, Chemicals, Healthcare, Trade & Tariffs*
+
+Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
