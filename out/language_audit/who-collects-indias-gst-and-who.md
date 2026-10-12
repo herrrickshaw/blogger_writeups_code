@@ -4,6 +4,4 @@
 
 **This is a report, not an applied fix.** LanguageTool has a high false-positive rate on this blog's prose (chart captions, code identifiers, valid constructions it misparses) — review each item before touching the post.
 
-- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
-  context: ...r 2025 rate rationalisation, so the 2.6 per cent fall in domestic collections in FY2025-...
-  suggested: percent
+- ERROR checking chunk: HTTP Error 503: Service Unavailable
