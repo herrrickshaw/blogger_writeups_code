@@ -14396,3 +14396,9 @@ Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, ly
 - `indias-lysine-deficit-is-102-million` — 27,139 → 29,353 bytes (+2,214)
 - `india-imported-28-million-of-sucralose` — 31,500 → 33,355 bytes (+1,855)
 - `bagasse-is-one-crop-residue-already` — 27,214 → 29,137 bytes (+1,923)
+
+## 2026-10-12T14:33:19+05:30 — 368 posts live
+
+**Added**
+
+- `methionine-not-lysine-is-indias-biggest` **v1.0.0** — Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case (29,747 bytes)
