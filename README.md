@@ -1,5 +1,9 @@
 # masaladeutsch archive
 
+<!-- how-to-use-with-ai -->
+> **New here?** See [How to use this repo with AI (Claude, Gemini, ChatGPT)](HOW_TO_USE_WITH_AI.md) — clone it, paste it into an AI tool, and ask in plain English.
+
+
 Version history for [masaladeutsch.blogspot.com](https://masaladeutsch.blogspot.com).
 Blogger keeps no usable revision history, so this repo is the only way to see what
 a post used to say — or to put it back.
