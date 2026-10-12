@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-12T14:51:19+05:30",
+  "snapshot": "2026-10-12T20:44:20+05:30",
   "count": 367,
   "posts": {
     "1023631151138981087": {
@@ -23386,12 +23386,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/09/everyone-worries-about-who-pays-for.html",
       "slug": "everyone-worries-about-who-pays-for",
       "published": "2026-09-03T05:50:09.000+05:30",
-      "updated": "2026-10-01T08:21:12.573+05:30",
+      "updated": "2026-10-12T20:43:42.990+05:30",
       "labels": [
         "Industrial Policy"
       ],
-      "bytes": 41390,
-      "sha256": "0be31c9c211effb609c3e32f6ee7ee4b8d77d659dd0334a007ccd1592e755157",
+      "bytes": 44934,
+      "sha256": "fcd00c372c1ca2e56ba4468ec41a94319b263538311adeecac3ce07181a18a35",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -23403,7 +23403,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -23489,6 +23489,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-12T20:44:20+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+17/-0 distinct numbers))",
+          "bytes": [
+            41390,
+            44934
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "CCUS pipelines: CEEW 18,000 vs 32,000 km reconciled, PNGRB and PPAC lengths added"
         }
       ]
     },

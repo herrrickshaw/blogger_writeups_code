@@ -14438,3 +14438,16 @@ Index rebuilt with amino-acids article labelled
 **Changed**
 
 - `article-index-start-here` — 531,358 → 531,391 bytes (+33)
+
+## 2026-10-12T20:44:20+05:30 — 367 posts live
+
+CCUS pipelines: CEEW 18,000 vs 32,000 km reconciled, PNGRB and PPAC lengths added
+
+
+**Versions**
+
+- `everyone-worries-about-who-pays-for` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+17/-0 distinct numbers))
+
+**Changed**
+
+- `everyone-worries-about-who-pays-for` — 41,390 → 44,934 bytes (+3,544)
