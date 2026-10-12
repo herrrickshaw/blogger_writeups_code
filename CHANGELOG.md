@@ -14379,3 +14379,20 @@ Thermocol: correct the CreaSolv claim (insolvency, GEC takeover, 2023 operation)
 **Changed**
 
 - `thermocol-dissolves-in-orange-peel-oil` — 30,660 → 31,926 bytes (+1,266)
+
+## 2026-10-12T13:00:12+05:30 — 367 posts live
+
+Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry
+
+
+**Versions**
+
+- `indias-lysine-deficit-is-102-million` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+15/-0 distinct numbers))
+- `india-imported-28-million-of-sucralose` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+15/-0 distinct numbers))
+- `bagasse-is-one-crop-residue-already` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+16/-0 distinct numbers))
+
+**Changed**
+
+- `indias-lysine-deficit-is-102-million` — 27,139 → 29,353 bytes (+2,214)
+- `india-imported-28-million-of-sucralose` — 31,500 → 33,355 bytes (+1,855)
+- `bagasse-is-one-crop-residue-already` — 27,214 → 29,137 bytes (+1,923)

@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html",
   "slug": "india-imported-28-million-of-sucralose",
   "published": "2026-10-10T19:38:39.000+05:30",
-  "updated": "2026-10-10T21:38:14.160+05:30",
+  "updated": "2026-10-12T12:59:12.886+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Chemicals",
     "Healthcare",
     "Trade & Tariffs"
   ],
-  "bytes": 31500,
-  "sha256": "474804c9e9c17e4f580bc8c5a45b840716668772c13ae70d3f43b2e618356b9b",
+  "bytes": 33355,
+  "sha256": "018c59993555ba94200459bc5d3ee0d6172ef3f0dad790b2246c034409011bf0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -45,6 +45,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Sucralose: add HSN tariff-line table. Insert lysine and amino acids article"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-12T13:00:12+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+      "bytes": [
+        31500,
+        33355
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
     }
   ]
 }

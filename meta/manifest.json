@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-12T12:57:38+05:30",
+  "snapshot": "2026-10-12T13:00:12+05:30",
   "count": 367,
   "posts": {
     "1023631151138981087": {
@@ -9232,15 +9232,15 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html",
       "slug": "india-imported-28-million-of-sucralose",
       "published": "2026-10-10T19:38:39.000+05:30",
-      "updated": "2026-10-10T21:38:14.160+05:30",
+      "updated": "2026-10-12T12:59:12.886+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals",
         "Healthcare",
         "Trade & Tariffs"
       ],
-      "bytes": 31500,
-      "sha256": "474804c9e9c17e4f580bc8c5a45b840716668772c13ae70d3f43b2e618356b9b",
+      "bytes": 33355,
+      "sha256": "018c59993555ba94200459bc5d3ee0d6172ef3f0dad790b2246c034409011bf0",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -9252,7 +9252,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.1.0",
+      "version": "1.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -9273,6 +9273,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Sucralose: add HSN tariff-line table. Insert lysine and amino acids article"
+        },
+        {
+          "version": "1.2.0",
+          "date": "2026-10-12T13:00:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+          "bytes": [
+            31500,
+            33355
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
         }
       ]
     },
@@ -48618,14 +48631,14 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html",
       "slug": "indias-lysine-deficit-is-102-million",
       "published": "2026-10-10T21:36:17.000+05:30",
-      "updated": "2026-10-10T21:37:09.769+05:30",
+      "updated": "2026-10-12T12:59:32.113+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals",
         "Trade & Tariffs"
       ],
-      "bytes": 27139,
-      "sha256": "77df76047420d22729497aa7257cce5a42592405e4248824f07d3842e2355090",
+      "bytes": 29353,
+      "sha256": "39349d615e3c161739fedb4f9ef91d16081486931afaf2e1bb2ed04fa9c0d9c2",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -48637,7 +48650,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -48645,6 +48658,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Insert lysine and amino acids article"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-12T13:00:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+15/-0 distinct numbers))",
+          "bytes": [
+            27139,
+            29353
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
         }
       ]
     },
@@ -59529,13 +59555,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html",
       "slug": "bagasse-is-one-crop-residue-already",
       "published": "2026-10-10T10:00:57.000+05:30",
-      "updated": "2026-10-10T10:43:49.941+05:30",
+      "updated": "2026-10-12T12:57:55.916+05:30",
       "labels": [
         "Agriculture & Fertilisers",
         "Chemicals"
       ],
-      "bytes": 27214,
-      "sha256": "2cb06bdc8d810b17ba43a1e5571f94283d16a907ec9747dff32770a335e83875",
+      "bytes": 29137,
+      "sha256": "08612f9f54c9e7625840bc1b74a9b8307b4448da0d19a682918620939189c527",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -59547,7 +59573,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "1.0.0",
+      "version": "1.1.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -59555,6 +59581,19 @@
           "level": "initial",
           "reason": "first snapshot",
           "note": "Insert bagasse liquefaction and hydrolysis article"
+        },
+        {
+          "version": "1.1.0",
+          "date": "2026-10-12T13:00:12+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+16/-0 distinct numbers))",
+          "bytes": [
+            27214,
+            29137
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, lysine price and EU inquiry"
         }
       ]
     },
