@@ -7231,3 +7231,426 @@ wrote out/ga_report/2026-10-10.md
 To https://github.com/herrrickshaw/blogger_writeups_code.git
    8d2119af..3362fd0c  main -> main
 2026-10-10 11:14:41 GA4 report committed + pushed
+=== 2026-10-12 09:35:00 summary regeneration ===
+skipping dead link: cough-syrup-in-lollipop-for-babies_0399087402 -> https://masaladeutsch.blogspot.com/2026/10/cough-syrup-in-lollipop-for-babies_0399087402.html
+skipping dead link: india-polishes-worlds-diamonds-with_01635124664 -> https://masaladeutsch.blogspot.com/2026/09/india-polishes-worlds-diamonds-with_01635124664.html
+skipping dead link: indias-factory-intentions-20012024-how -> https://masaladeutsch.blogspot.com/2026/10/indias-factory-intentions-20012024-how.html
+skipping dead link: where-indias-fdi-actually-lands-state_0955008544 -> https://masaladeutsch.blogspot.com/2026/09/where-indias-fdi-actually-lands-state_0955008544.html
+wrote 365 posts, 28 units, 171 glossary terms, 880424 bytes -> /Users/umashankar/masaladeutsch-archive/MASALADEUTSCH_ALL_POSTS_SUMMARY.md
+[main aca1df15] Update all-posts summary 2026-10-12
+ 1 file changed, 98 insertions(+), 46 deletions(-)
+To https://github.com/herrrickshaw/blogger_writeups_code.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/herrrickshaw/blogger_writeups_code.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+=== 2026-10-12 09:39:06 language audit (report-only, no publish) ===
+[1 flagged / 1/371] 028-unit-diesel-math-behind-indias-data: 6 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/028-unit-diesel-math-behind-indias-data.md
+[1 flagged / 2/371] 050-is-its-own-category-diving-into: clean
+[2 flagged / 3/371] 379-kilos-hectare-in-punjab-44-in: 42 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/379-kilos-hectare-in-punjab-44-in.md
+[3 flagged / 4/371] 5071-items-you-cannot-import-and-rs: 18 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/5071-items-you-cannot-import-and-rs.md
+[4 flagged / 5/371] 574-gw-and-counting-indias-wind-fleet: 5 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/574-gw-and-counting-indias-wind-fleet.md
+[4 flagged / 6/371] 577-of-indias-plant-variety: clean
+[5 flagged / 7/371] 7186-litre-why-maize-is-indias-priciest: 15 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/7186-litre-why-maize-is-indias-priciest.md
+[6 flagged / 8/371] a-17-rural-pay-rise-that-nobody-received: 55 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/a-17-rural-pay-rise-that-nobody-received.md
+[6 flagged / 9/371] a-2013-vision-saw-india-needing-746: clean
+[7 flagged / 10/371] a-2223-crore-coal-freight-railway-line: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/a-2223-crore-coal-freight-railway-line.md
+[7 flagged / 11/371] a-million-wine-market-behind-150-wall: clean
+[7 flagged / 12/371] a-slice-of-apple-costs-about-1700-slice: clean
+[7 flagged / 13/371] a-supreme-court-ruling-on-intoxicating: clean
+[7 flagged / 14/371] a-tax-play-grow-ethanol-sgst-revenue: clean
+[7 flagged / 15/371] a-textile-sez-built-to-re-employ-mill: clean
+[7 flagged / 16/371] abha-covers-93-crore-patients-its: clean
+[7 flagged / 17/371] abha-what-indias-14-digit-health-id: clean
+[7 flagged / 19/371] abu-dhabi-paid-2-billion-for-binance: clean
+[8 flagged / 20/371] ahidf-has-sanctioned-19751-crore-in: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/ahidf-has-sanctioned-19751-crore-in.md
+[8 flagged / 21/371] ai-high-demand-launch-tracker: clean
+[8 flagged / 22/371] airbags-and-seat-belts-are-import-heavy: clean
+[9 flagged / 23/371] alimco-jaipur-foot-and-bionic-gap-in: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/alimco-jaipur-foot-and-bionic-gap-in.md
+[9 flagged / 24/371] amruts-197-lakh-crore-urban-portfolio: clean
+[10 flagged / 25/371] annadata-to-urjadata-farmer-income-case: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/annadata-to-urjadata-farmer-income-case.md
+[11 flagged / 26/371] annexure-314-hsn-codes-mapped-to: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/annexure-314-hsn-codes-mapped-to.md
+[12 flagged / 27/371] announced-vs-delivered-three-indian: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/announced-vs-delivered-three-indian.md
+[13 flagged / 29/371] bagasse-is-one-crop-residue-already: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/bagasse-is-one-crop-residue-already.md
+[13 flagged / 30/371] basf-and-mitsubishi-are-running: clean
+[13 flagged / 31/371] below-250-is-where-real-junk-lives: clean
+[14 flagged / 32/371] beyond-pump-what-upi-fee-would-cost: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/beyond-pump-what-upi-fee-would-cost.md
+[15 flagged / 33/371] bio-fertiliser-and-green-credits: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/bio-fertiliser-and-green-credits.md
+[15 flagged / 34/371] biomass-power-at-night-dispatchable: clean
+[16 flagged / 35/371] blending-on-budget-energy-density-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/blending-on-budget-energy-density-and.md
+[16 flagged / 36/371] brandsafway-and-2017-roll-up-wave-that: clean
+[16 flagged / 37/371] brazil-pumps-e30-at-every-station: clean
+[17 flagged / 38/371] can-rupee-trade-actually-offset: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/can-rupee-trade-actually-offset.md
+[18 flagged / 39/371] cgd-geographical-areas-district: 10 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cgd-geographical-areas-district.md
+[19 flagged / 40/371] cheap-yen-rupee-roads-where-carry-trade: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cheap-yen-rupee-roads-where-carry-trade.md
+[19 flagged / 41/371] chemical-import-substitution-analysis: clean
+[19 flagged / 42/371] chemical-import-substitution-full-hsn-8_01082878313: clean
+[20 flagged / 43/371] chemical-import-substitution-hsn-8-registry: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/chemical-import-substitution-hsn-8-registry.md
+[21 flagged / 44/371] chemical-import-substitution-quarterly: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/chemical-import-substitution-quarterly.md
+[21 flagged / 45/371] city-gas-just-became-indias-largest-gas: clean
+[21 flagged / 46/371] cocoa-quintupled-then-gave-most-of-it: clean
+[22 flagged / 47/371] cocoas-blockchain-reckoning-one: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cocoas-blockchain-reckoning-one.md
+[22 flagged / 48/371] cold-chain-fuel-outlet-integrated-map: clean
+[23 flagged / 49/371] cotton-stalk-is-one-of-hardest-crop: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cotton-stalk-is-one-of-hardest-crop.md
+[24 flagged / 50/371] cough-syrup-in-lollipop-for-babies: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cough-syrup-in-lollipop-for-babies.md
+[25 flagged / 51/371] cough-syrup-in-lollipop-for-babies_0399087402: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cough-syrup-in-lollipop-for-babies_0399087402.md
+[26 flagged / 52/371] cow-dung-already-flew-rocket-engine: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cow-dung-already-flew-rocket-engine.md
+[27 flagged / 53/371] cpi-inflation-heatmap-india-june-2026: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/cpi-inflation-heatmap-india-june-2026.md
+[27 flagged / 54/371] cpi-wpi-trends-mospi-bulletin: clean
+[28 flagged / 55/371] delhis-smog-towers-failed-test-44-year: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/delhis-smog-towers-failed-test-44-year.md
+[29 flagged / 56/371] dgh-has-awarded-172-oalp-blocks-and-436_0369361351: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/dgh-has-awarded-172-oalp-blocks-and-436_0369361351.md
+[30 flagged / 57/371] diesel-doesnt-move-cpi-it-moves-40: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/diesel-doesnt-move-cpi-it-moves-40.md
+[30 flagged / 58/371] discom-debt-relief-token-charge: clean
+[31 flagged / 59/371] do-cbse-past-papers-actually-help: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/do-cbse-past-papers-actually-help.md
+[31 flagged / 60/371] do-cheap-stocks-stay-cheap-price-band: clean
+[32 flagged / 61/371] dr-reddys-cut-its-semaglutide-guidance: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/dr-reddys-cut-its-semaglutide-guidance.md
+[32 flagged / 62/371] e20-doesnt-cut-tailpipe-co2-by-30-run: clean
+[33 flagged / 63/371] effective-buying-power-china-comparison: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/effective-buying-power-china-comparison.md
+[34 flagged / 64/371] electrification-is-lngs-biggest: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/electrification-is-lngs-biggest.md
+[35 flagged / 65/371] endoscopes-never-made-indias-pli-list: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/endoscopes-never-made-indias-pli-list.md
+[36 flagged / 66/371] engineering-and-auto-component-makers: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/engineering-and-auto-component-makers.md
+[36 flagged / 67/371] epfos-pay-ceiling-rose-to-25000-after: clean
+[36 flagged / 68/371] ethanol-blending-omc-books-e20-today-vs: clean
+[36 flagged / 69/371] ethanol-freed-up-refinery-capacity-for: clean
+[37 flagged / 70/371] ethanols-coal-boilers-briquette-gap-and: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/ethanols-coal-boilers-briquette-gap-and.md
+[38 flagged / 71/371] europe-bought-record-amount-of-lng-and: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/europe-bought-record-amount-of-lng-and.md
+[38 flagged / 72/371] europes-export-credit-agencies-are: clean
+[39 flagged / 73/371] every-india-europe-tech-agreement-pib: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/every-india-europe-tech-agreement-pib.md
+[40 flagged / 74/371] every-litre-of-petrol-pays-5-for-roads: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/every-litre-of-petrol-pays-5-for-roads.md
+[41 flagged / 75/371] everyone-worries-about-who-pays-for: 8 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/everyone-worries-about-who-pays-for.md
+[41 flagged / 76/371] fbil-rates-vs-tradestat-volumes-does-fx: clean
+[42 flagged / 77/371] fci-grain-flow-procurement-storage: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/fci-grain-flow-procurement-storage.md
+[43 flagged / 78/371] fci-storage-scenario-capacity-stock-and: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/fci-storage-scenario-capacity-stock-and.md
+[44 flagged / 79/371] financing-fuel-to-chemicals-pivot-how: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/financing-fuel-to-chemicals-pivot-how.md
+[45 flagged / 80/371] fipis-biggest-ask-is-getting-natural: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/fipis-biggest-ask-is-getting-natural.md
+[45 flagged / 81/371] five-year-synthesis-trade-currency: clean
+[45 flagged / 82/371] five-years-and-25000-crore-later-china: clean
+[46 flagged / 83/371] foreign-capital-found-indias-hospitals: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/foreign-capital-found-indias-hospitals.md
+[46 flagged / 84/371] fourteen-states-reimburse-investors: clean
+[47 flagged / 85/371] fourteen-years-of-indian-wholesale: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/fourteen-years-of-indian-wholesale.md
+[48 flagged / 86/371] from-barrel-to-bottle-petrochemical: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/from-barrel-to-bottle-petrochemical.md
+[49 flagged / 87/371] from-cane-to-code-digital-layer: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/from-cane-to-code-digital-layer.md
+[50 flagged / 88/371] from-fuel-to-fibre-indias-textile: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/from-fuel-to-fibre-indias-textile.md
+[50 flagged / 89/371] fuel-and-bottle-two-taxes-states-never: clean
+[50 flagged / 90/371] fuel-pricing-to-crude-cost: clean
+[50 flagged / 91/371] fy2025-26-sample-report-india-trade: clean
+[51 flagged / 92/371] gail-and-sumitomo-both-turned-their: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/gail-and-sumitomo-both-turned-their.md
+[51 flagged / 93/371] global-biofuels-m-bankruptcy-bolt-on: clean
+[52 flagged / 94/371] global-lng-trade-hit-record-437-million: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/global-lng-trade-hit-record-437-million.md
+[53 flagged / 95/371] green-energy-corridor-iii-is-15-times: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/green-energy-corridor-iii-is-15-times.md
+[54 flagged / 96/371] green-energy-corridor-iii-is-15-times_01338283908: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/green-energy-corridor-iii-is-15-times_01338283908.md
+[55 flagged / 97/371] green-gold-what-spirulina-actually-is: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/green-gold-what-spirulina-actually-is.md
+[55 flagged / 98/371] greenhouse-emissions-reduction-and-cbam: clean
+[55 flagged / 99/371] guar-gum-indias-35-billion-export-peak: clean
+[56 flagged / 100/371] half-of-indias-import-bill-is: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/half-of-indias-import-bill-is.md
+[57 flagged / 101/371] how-india-actually-plans-to-hit-net: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/how-india-actually-plans-to-hit-net.md
+[57 flagged / 102/371] how-indias-automotive-clusters-rewired: clean
+[57 flagged / 103/371] hsn-wise-historical-importexport-trends: clean
+[58 flagged / 104/371] icra-rates-most-of-indias-economy: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/icra-rates-most-of-indias-economy.md
+[58 flagged / 105/371] iem-conversion-historical-performance: clean
+[59 flagged / 106/371] if-india-paid-brics-in-rupees-scenario: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/if-india-paid-brics-in-rupees-scenario.md
+[59 flagged / 107/371] import-dependent-sectors-vs-government: clean
+[59 flagged / 108/371] imported-fertiliser-fuel-prices-diesel: clean
+[59 flagged / 109/371] india-and-mercosur-are-expanding-450: clean
+[60 flagged / 110/371] india-approved-15-lakh-crore-in: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-approved-15-lakh-crore-in.md
+[61 flagged / 111/371] india-built-offshore-insurance-hub-it: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-built-offshore-insurance-hub-it.md
+[62 flagged / 112/371] india-cannot-sell-china-free-medicine: 45 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-cannot-sell-china-free-medicine.md
+[63 flagged / 113/371] india-doesnt-have-one-quality-regulator: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-doesnt-have-one-quality-regulator.md
+[63 flagged / 114/371] india-ec-approval-funnel-parivesh-20: clean
+[64 flagged / 115/371] india-ended-63-years-of-state-nuclear: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-ended-63-years-of-state-nuclear.md
+[64 flagged / 116/371] india-environmental-clearances-state: clean
+[65 flagged / 117/371] india-exports-naphtha-and-benzene-its: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-exports-naphtha-and-benzene-its.md
+[66 flagged / 118/371] india-exports-worlds-coco-peat-its-own: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-exports-worlds-coco-peat-its-own.md
+[67 flagged / 119/371] india-forest-wildlife-crz-clearances: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-forest-wildlife-crz-clearances.md
+[68 flagged / 120/371] india-fuel-retail-outlets-82k-geocoded: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-fuel-retail-outlets-82k-geocoded.md
+[68 flagged / 121/371] india-grain-cultivation-fci-storage: clean
+[68 flagged / 122/371] india-grows-most-coconuts-in-world-and: clean
+[68 flagged / 123/371] india-grows-soybean-exports-meal-leads: clean
+[69 flagged / 124/371] india-has-132-compressed-biogas-plants: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-has-132-compressed-biogas-plants.md
+[69 flagged / 125/371] india-has-auctioned-141-commercial-coal: clean
+[69 flagged / 126/371] india-has-tax-treaties-with-97: clean
+[69 flagged / 127/371] india-has-tested-its-soil-twice-second: clean
+[70 flagged / 128/371] india-hit-e20-on-maize-and-rice-not: 36 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-hit-e20-on-maize-and-rice-not.md
+[71 flagged / 129/371] india-imported-28-million-of-sucralose: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-imported-28-million-of-sucralose.md
+[72 flagged / 130/371] india-imported-295-more-steel-this-year: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-imported-295-more-steel-this-year.md
+[73 flagged / 131/371] india-imports-283000-tonnes-of-almonds: 26 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-imports-283000-tonnes-of-almonds.md
+[74 flagged / 132/371] india-imports-60-of-its-cooking-gas: 15 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-imports-60-of-its-cooking-gas.md
+[75 flagged / 133/371] india-irrigates-itself-966-of-its: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-irrigates-itself-966-of-its.md
+[76 flagged / 134/371] india-is-piping-jet-fuel-to-five-new: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-is-piping-jet-fuel-to-five-new.md
+[77 flagged / 135/371] india-leads-world-in-jute-and-ranks: 15 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-leads-world-in-jute-and-ranks.md
+[77 flagged / 136/371] india-let-oil-companies-put-solar-on: clean
+[78 flagged / 137/371] india-mapped-12174-tariff-codes-to-31: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-mapped-12174-tariff-codes-to-31.md
+[78 flagged / 138/371] india-mineral-oil-hsn-ch27-trade: clean
+[79 flagged / 139/371] india-pays-5-8-billion-year-to-ship-its: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-pays-5-8-billion-year-to-ship-its.md
+[80 flagged / 140/371] india-polishes-worlds-diamonds-with: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-polishes-worlds-diamonds-with.md
+[81 flagged / 141/371] india-polishes-worlds-diamonds-with_01635124664: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-polishes-worlds-diamonds-with_01635124664.md
+[81 flagged / 142/371] india-raised-cooking-oil-duties-to-help: clean
+[81 flagged / 143/371] india-rewrote-its-entire-maritime-legal: clean
+[82 flagged / 144/371] india-sells-world-53-billion-of-fuel: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-sells-world-53-billion-of-fuel.md
+[83 flagged / 145/371] india-sells-world-about-third-of-its: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-sells-world-about-third-of-its.md
+[84 flagged / 146/371] india-solved-carbon-credit-banking-with: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/india-solved-carbon-credit-banking-with.md
+[84 flagged / 147/371] india-trade-sector-policy: clean
+[84 flagged / 148/371] india-wants-isobutanol-in-both-diesel: clean
+[84 flagged / 149/371] india-will-finance-waste-to-energy: clean
+[85 flagged / 150/371] indian-it-in-ai-era: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indian-it-in-ai-era.md
+[86 flagged / 151/371] indian-railways-98-to-earn-100-business: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indian-railways-98-to-earn-100-business.md
+[86 flagged / 152/371] indias-12385-project-investment-grid: clean
+[86 flagged / 153/371] indias-445-billion-spice-export-book-is: clean
+[87 flagged / 154/371] indias-6000-crore-fisheries-scheme: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-6000-crore-fisheries-scheme.md
+[88 flagged / 155/371] indias-60000-crore-api-push-traced-to: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-60000-crore-api-push-traced-to.md
+[89 flagged / 156/371] indias-79-lakh-crore-rural-water: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-79-lakh-crore-rural-water.md
+[90 flagged / 157/371] indias-8-digit-trade-book-searchable: 10 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-8-digit-trade-book-searchable.md
+[90 flagged / 158/371] indias-animal-protein-export-complex: clean
+[91 flagged / 159/371] indias-battery-storage-boom-is: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-battery-storage-boom-is.md
+[92 flagged / 160/371] indias-biofuel-rules-are-being-written: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-biofuel-rules-are-being-written.md
+[92 flagged / 161/371] indias-carbon-credit-market-domestic: clean
+[92 flagged / 162/371] indias-coal-to-chemicals-menu-ranked-by: clean
+[93 flagged / 163/371] indias-coffee-crop-hasnt-grown-in: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-coffee-crop-hasnt-grown-in.md
+[93 flagged / 164/371] indias-coking-coal-import-problem-and: clean
+[94 flagged / 165/371] indias-cotton-yield-fell-from-566-kg-to: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-cotton-yield-fell-from-566-kg-to.md
+[95 flagged / 166/371] indias-display-fab-scheme-got-two: 11 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-display-fab-scheme-got-two.md
+[95 flagged / 167/371] indias-draft-seeds-bill-cuts-states: clean
+[95 flagged / 168/371] indias-e-commerce-inventory-ban-just: clean
+[96 flagged / 169/371] indias-epr-regime-just-got-teeth-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-epr-regime-just-got-teeth-and.md
+[97 flagged / 170/371] indias-ethanol-plants-are-sitting-on: 5 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ethanol-plants-are-sitting-on.md
+[98 flagged / 171/371] indias-ethanol-sector-already-had-its: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ethanol-sector-already-had-its.md
+[99 flagged / 172/371] indias-ethanol-surplus-buys-about-five: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ethanol-surplus-buys-about-five.md
+[100 flagged / 173/371] indias-ethanol-surplus-isnt-going-to: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ethanol-surplus-isnt-going-to.md
+[101 flagged / 174/371] indias-ev-localisation-deadline-just: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ev-localisation-deadline-just.md
+[102 flagged / 175/371] indias-ev-market-single-digit: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-ev-market-single-digit.md
+[103 flagged / 176/371] indias-factory-intentions-20012024-how: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-factory-intentions-20012024-how.md
+[104 flagged / 177/371] indias-factory-intentions-20012024-how_0101046393: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-factory-intentions-20012024-how_0101046393.md
+[105 flagged / 178/371] indias-fdi-moved-to-software-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-fdi-moved-to-software-and.md
+[106 flagged / 179/371] indias-fertiliser-import-bill-hits-18: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-fertiliser-import-bill-hits-18.md
+[106 flagged / 180/371] indias-first-seabed-mineral-auction: clean
+[107 flagged / 181/371] indias-first-tourism-survey-since-2014: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-first-tourism-survey-since-2014.md
+[108 flagged / 182/371] indias-food-processing-story-pli-scheme: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-food-processing-story-pli-scheme.md
+[109 flagged / 183/371] indias-gas-pipelines-run-at-half: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-gas-pipelines-run-at-half.md
+[109 flagged / 184/371] indias-irrigation-system-recovered-96: clean
+[109 flagged / 185/371] indias-labour-codes-took-six-years-to: clean
+[110 flagged / 186/371] indias-live-ipo-queue-has-232-companies: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-live-ipo-queue-has-232-companies.md
+[111 flagged / 187/371] indias-lng-terminal-rules-changed-twice: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-lng-terminal-rules-changed-twice.md
+[111 flagged / 188/371] indias-lng-trucks-grew-75-in-2025-about: clean
+[112 flagged / 189/371] indias-lock-imports-hit-19784-million: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-lock-imports-hit-19784-million.md
+[113 flagged / 190/371] indias-lysine-deficit-is-102-million: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-lysine-deficit-is-102-million.md
+[113 flagged / 191/371] indias-medical-device-trade-gap-and: clean
+[114 flagged / 192/371] indias-military-quantum-plan-has-four: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-military-quantum-plan-has-four.md
+[114 flagged / 193/371] indias-mobile-phone-pli-beat-every: clean
+[115 flagged / 194/371] indias-new-car-rules-count-every-ev-as: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-new-car-rules-count-every-ev-as.md
+[115 flagged / 195/371] indias-oil-fields-are-running-down-3696: clean
+[116 flagged / 196/371] indias-oil-fields-are-running-down: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-oil-fields-are-running-down.md
+[116 flagged / 197/371] indias-oil-psus-say-they-clear-their_01269248608: clean
+[116 flagged / 198/371] indias-old-factory-index-said: clean
+[116 flagged / 199/371] indias-petrochemical-import-tree-from: clean
+[116 flagged / 200/371] indias-petroleum-act-still-fines: clean
+[116 flagged / 201/371] indias-renewable-energy-certificates: clean
+[116 flagged / 202/371] indias-reported-central-project-overrun: clean
+[116 flagged / 203/371] indias-semaglutide-patent-cliff-26: clean
+[117 flagged / 204/371] indias-shrimp-exports-did-not-collapse: 5 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-shrimp-exports-did-not-collapse.md
+[117 flagged / 205/371] indias-state-incentive-war-gujarats: clean
+[118 flagged / 206/371] indias-subsidised-imports-fertilisers: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-subsidised-imports-fertilisers.md
+[118 flagged / 207/371] indias-textile-import-export-strategy: clean
+[119 flagged / 208/371] indias-trade-balance-hsn-wise: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-trade-balance-hsn-wise.md
+[119 flagged / 209/371] indias-trade-story-has-three-big-wins: clean
+[119 flagged / 210/371] indias-two-tracks-of-health-cover-and: clean
+[119 flagged / 211/371] indias-tyre-waste-problem-and-crumb: clean
+[119 flagged / 212/371] indias-used-oil-epr-wants-half-of-all: clean
+[120 flagged / 213/371] indias-wholesale-prices-next-to: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/indias-wholesale-prices-next-to.md
+[120 flagged / 214/371] inflation-trends-globally-what-five: clean
+[121 flagged / 215/371] inside-refinery-how-hydrogen-cleans: 5 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/inside-refinery-how-hydrogen-cleans.md
+[121 flagged / 216/371] interest-subvention-built-499-ethanol: clean
+[122 flagged / 217/371] interpreting-gazette-notification: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/interpreting-gazette-notification.md
+[123 flagged / 218/371] ipa-digital-twin-reportage-latest: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/ipa-digital-twin-reportage-latest.md
+[123 flagged / 219/371] jai-kisan-jai-javan-fci-based-military: clean
+[123 flagged / 220/371] jan-aushadhi-sells-2439-products-heres: clean
+[124 flagged / 221/371] japan-ran-out-of-matcha-assam-just-sold: 18 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/japan-ran-out-of-matcha-assam-just-sold.md
+[125 flagged / 222/371] kpler-and-vortexa-track-every-barrel: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/kpler-and-vortexa-track-every-barrel.md
+[126 flagged / 223/371] lemon-cultivation-in-india-steady-trees: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/lemon-cultivation-in-india-steady-trees.md
+[126 flagged / 224/371] lng-trucks-cost-about-what-diesel-does: clean
+[126 flagged / 225/371] lok-sabha-question-registry-1843-scheme: clean
+[127 flagged / 226/371] lpgs-missing-number-7308-commission-and: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/lpgs-missing-number-7308-commission-and.md
+[127 flagged / 227/371] making-plastic-releases-heat-unmaking: clean
+[128 flagged / 228/371] mapping-indias-other-pipelines-every: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/mapping-indias-other-pipelines-every.md
+[128 flagged / 229/371] mopsws-25000-crore-maritime-development: clean
+[128 flagged / 230/371] mrs-watanabe-traded-from-kitchen-table: clean
+[129 flagged / 231/371] nano-urea-works-as-supplement-and-fails: 49 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/nano-urea-works-as-supplement-and-fails.md
+[130 flagged / 232/371] nature-versus-nurture-indias-fertiliser: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/nature-versus-nurture-indias-fertiliser.md
+[130 flagged / 233/371] new-zealand-opens-every-tariff-line-to: clean
+[130 flagged / 234/371] nine-ministries-one-list-every-company: clean
+[131 flagged / 235/371] nobody-blockaded-hormuz-to-slow-india: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/nobody-blockaded-hormuz-to-slow-india.md
+[132 flagged / 236/371] not-drop-out-ethanols-zero-liquid: 5 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/not-drop-out-ethanols-zero-liquid.md
+[132 flagged / 237/371] oilfield-costs-rose-68-while-global: clean
+[133 flagged / 238/371] oisd-writes-indias-oil-safety-rules-api: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/oisd-writes-indias-oil-safety-rules-api.md
+[134 flagged / 239/371] one-gallon-five-numbers-how-gcam-fits: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/one-gallon-five-numbers-how-gcam-fits.md
+[135 flagged / 240/371] one-nation-one-gst-rate-what-true-flat: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/one-nation-one-gst-rate-what-true-flat.md
+[136 flagged / 241/371] one-nation-one-ration-card-doesnt-move: 8 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/one-nation-one-ration-card-doesnt-move.md
+[137 flagged / 242/371] one-refinery-flipped-nigeria-from: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/one-refinery-flipped-nigeria-from.md
+[138 flagged / 243/371] pet-recycling-already-cuts-emissions-60: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pet-recycling-already-cuts-emissions-60.md
+[139 flagged / 244/371] petroleum-trade-pairings-and-us-crude: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/petroleum-trade-pairings-and-us-crude.md
+[140 flagged / 245/371] pli-medical-devices-coverage-and-gaps: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pli-medical-devices-coverage-and-gaps.md
+[141 flagged / 246/371] pmfby-advertises-51-return-to-farmers: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pmfby-advertises-51-return-to-farmers.md
+[141 flagged / 247/371] pngrb-graded-its-own-homework-on-2025: clean
+[142 flagged / 248/371] pngrb-hydrogen-blending-pilots-real: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pngrb-hydrogen-blending-pilots-real.md
+[143 flagged / 249/371] pngrb-wants-prepaid-smart-meters-on: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pngrb-wants-prepaid-smart-meters-on.md
+[144 flagged / 250/371] pngrbs-own-2025-committee-now-expects: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pngrbs-own-2025-committee-now-expects.md
+[145 flagged / 251/371] pngrbs-own-committee-found-pipelines: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/pngrbs-own-committee-found-pipelines.md
+[146 flagged / 252/371] premium-now-claim-later-float-indias: 43 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/premium-now-claim-later-float-indias.md
+[147 flagged / 253/371] price-is-wire-how-gcam-actually-links: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/price-is-wire-how-gcam-actually-links.md
+[147 flagged / 254/371] priority-export-destinations-by-growth: clean
+[147 flagged / 255/371] priority-trade-partners-by-import: clean
+[148 flagged / 256/371] push-ethanol-sgst-rate-from-25-to-5-and: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/push-ethanol-sgst-rate-from-25-to-5-and.md
+[148 flagged / 257/371] quarterly-reportage-4034-scheme: clean
+[149 flagged / 258/371] raising-green-debt-globally-rec-euroyen: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/raising-green-debt-globally-rec-euroyen.md
+[150 flagged / 259/371] rajya-sabha-question-registry-scheme: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rajya-sabha-question-registry-scheme.md
+[150 flagged / 260/371] rare-earth-magnets-and-specialty-steel: clean
+[151 flagged / 261/371] rbi-foreign-exchange-reserves-20152026: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rbi-foreign-exchange-reserves-20152026.md
+[152 flagged / 262/371] re-spinning-charkha: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/re-spinning-charkha.md
+[152 flagged / 263/371] real-gdp-growth-india-fy2012-13-to: clean
+[153 flagged / 264/371] refineries-under-fire-how-two-wars: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/refineries-under-fire-how-two-wars.md
+[153 flagged / 265/371] refiners-won-exemption-fight-biofuels: clean
+[153 flagged / 266/371] reinvesting-capital-gains-in-higher: clean
+[153 flagged / 267/371] right-of-user-what-indias-pipeline: clean
+[154 flagged / 268/371] rin-red-and-cbio-what-indias-ethanol: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rin-red-and-cbio-what-indias-ethanol.md
+[154 flagged / 269/371] rooftop-solar-is-working-household: clean
+[155 flagged / 270/371] rural-indias-farm-employment-share: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/rural-indias-farm-employment-share.md
+[155 flagged / 271/371] scan-bottle-deliver-what-ppacs-numbers: clean
+[156 flagged / 272/371] securitising-deficit-what-it-would: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/securitising-deficit-what-it-would.md
+[156 flagged / 273/371] shippings-net-zero-vote-keeps-getting: clean
+[156 flagged / 274/371] south-africa-lost-its-gulf-fuel-supply: clean
+[157 flagged / 275/371] state-by-state-who-actually-earns-from: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/state-by-state-who-actually-earns-from.md
+[158 flagged / 276/371] sugar-at-5570-kilo-why-cane-acreage: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/sugar-at-5570-kilo-why-cane-acreage.md
+[159 flagged / 277/371] sugarcanes-third-claimant-whats: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/sugarcanes-third-claimant-whats.md
+[160 flagged / 278/371] sun-pharmas-1175bn-organon-bet-is: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/sun-pharmas-1175bn-organon-bet-is.md
+[160 flagged / 279/371] tamil-nadus-gst-gap-108-economy-growing: clean
+[160 flagged / 280/371] tamil-nadus-water-infrastructure-runs: clean
+[161 flagged / 281/371] tamil-nadus-wind-potential-according-to: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tamil-nadus-wind-potential-according-to.md
+[162 flagged / 282/371] tarpaulin-is-genuine-export-win: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tarpaulin-is-genuine-export-win.md
+[163 flagged / 283/371] tasmacs-retail-exit-case-for: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tasmacs-retail-exit-case-for.md
+[163 flagged / 284/371] tech-for-business-so-2019-tech-as: clean
+[164 flagged / 285/371] ten-cubic-metres-hour-indias-first: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/ten-cubic-metres-hour-indias-first.md
+[165 flagged / 286/371] textbooks-say-project-returns-converge: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/textbooks-say-project-returns-converge.md
+[165 flagged / 287/371] textile-hsn-deep-dive-apparel-vs-mmf: clean
+[165 flagged / 288/371] thali-investing-whats-actually-on-plate: clean
+[166 flagged / 289/371] the-1920s-rotor-thats-now-on-22-real: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-1920s-rotor-thats-now-on-22-real.md
+[167 flagged / 290/371] the-4-nobody-notices-and-three-other: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-4-nobody-notices-and-three-other.md
+[168 flagged / 291/371] the-50-tariff-and-234-one-untangling: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-50-tariff-and-234-one-untangling.md
+[169 flagged / 292/371] the-503020-rule-is-elizabeth-warrens: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-503020-rule-is-elizabeth-warrens.md
+[170 flagged / 293/371] the-balkan-relish-india-already-has: 10 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-balkan-relish-india-already-has.md
+[170 flagged / 294/371] the-barrel-really-is-shifting-indias: clean
+[170 flagged / 295/371] the-battery-passport-was-built-for: clean
+[170 flagged / 296/371] the-case-for-biofuels-over-imports: clean
+[170 flagged / 297/371] the-cbg-incentive-stack-every-leg-of: clean
+[171 flagged / 298/371] the-cluster-automotive-piece-left-out: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-cluster-automotive-piece-left-out.md
+[171 flagged / 299/371] the-corrosion-you-cant-see-until: clean
+[171 flagged / 300/371] the-currency-rupee-trends-piece-left: clean
+[172 flagged / 301/371] the-detergent-chemical-india-exports: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-detergent-chemical-india-exports.md
+[173 flagged / 302/371] the-diesel-truck-isnt-why-your-eggs: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-diesel-truck-isnt-why-your-eggs.md
+[174 flagged / 303/371] the-easiest-ev-conversion-in-india: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-easiest-ev-conversion-in-india.md
+[175 flagged / 304/371] the-empty-shed-greenhouse-what-indias: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-empty-shed-greenhouse-what-indias.md
+[175 flagged / 305/371] the-ethanol-sectors-buyers-market: clean
+[176 flagged / 306/371] the-fcc-lever-trading-petrol-yield-for: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-fcc-lever-trading-petrol-yield-for.md
+[177 flagged / 307/371] the-fearless-girls-charter-indias: 7 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-fearless-girls-charter-indias.md
+[178 flagged / 308/371] the-grain-value-loop-integrated-rice: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-grain-value-loop-integrated-rice.md
+[179 flagged / 309/371] the-green-shift-what-indias-oil: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-green-shift-what-indias-oil.md
+[179 flagged / 310/371] the-helper-motor-trick-that-already: clean
+[179 flagged / 311/371] the-hydrogen-bill-hiding-inside-indias: clean
+[180 flagged / 312/371] the-levelised-cost-of-hydrogen: 6 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-levelised-cost-of-hydrogen.md
+[181 flagged / 313/371] the-margin-case-why-lpg-and: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-margin-case-why-lpg-and.md
+[182 flagged / 314/371] the-masala-deutsch-shop-books-things: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-masala-deutsch-shop-books-things.md
+[182 flagged / 315/371] the-milk-india-doesnt-drink-cheese-and: clean
+[182 flagged / 316/371] the-ministry-of-power-published-two: clean
+[182 flagged / 317/371] the-most-discussed-schemes-in: clean
+[183 flagged / 318/371] the-national-beekeeping-honey-mission: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-national-beekeeping-honey-mission.md
+[183 flagged / 319/371] the-price-and-tap-two-levers-behind: clean
+[183 flagged / 320/371] the-price-of-grain-msp-msv-and: clean
+[184 flagged / 321/371] the-rbi-has-put-bonds-and-rupees-on-one: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-rbi-has-put-bonds-and-rupees-on-one.md
+[184 flagged / 322/371] the-rbis-fcnrb-window-drew-133-billion: clean
+[184 flagged / 323/371] the-reactor-nobody-names-how-coal: clean
+[185 flagged / 324/371] the-recycling-lottery-playbook-norways: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-recycling-lottery-playbook-norways.md
+[186 flagged / 325/371] the-rule-of-72-rule-of-114-and-how-to: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-rule-of-72-rule-of-114-and-how-to.md
+[186 flagged / 326/371] the-rupee-fell-10-and-exports-grew-09: clean
+[187 flagged / 327/371] the-sme-growth-fund-is-indias-fourth: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-sme-growth-fund-is-indias-fourth.md
+[188 flagged / 328/371] the-software-behind-still-whats: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-software-behind-still-whats.md
+[189 flagged / 329/371] the-solar-panel-recycling-opportunity: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-solar-panel-recycling-opportunity.md
+[189 flagged / 330/371] the-two-biggest-parties-in-parliament: clean
+[190 flagged / 331/371] the-wage-beats-crop-in-survey-that: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-wage-beats-crop-in-survey-that.md
+[191 flagged / 332/371] the-water-bill-nobody-mentions-what: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/the-water-bill-nobody-mentions-what.md
+[192 flagged / 333/371] thermal-parity-is-dead-what-85-oil-and: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/thermal-parity-is-dead-what-85-oil-and.md
+[193 flagged / 334/371] thermocol-dissolves-in-orange-peel-oil: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/thermocol-dissolves-in-orange-peel-oil.md
+[194 flagged / 335/371] thirty-one-years-of-asking-parliament: 14 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/thirty-one-years-of-asking-parliament.md
+[194 flagged / 336/371] three-different-eu-rules-are-making: clean
+[195 flagged / 337/371] tiffin-meets-thali-10-day-sip-already: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tiffin-meets-thali-10-day-sip-already.md
+[196 flagged / 338/371] tnpl-has-made-paper-from-sugarcane: 4 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/tnpl-has-made-paper-from-sugarcane.md
+[197 flagged / 339/371] top-15-chemicals-for-import: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/top-15-chemicals-for-import.md
+[197 flagged / 340/371] uk-retail-canopies-at-54m-real-design: clean
+[197 flagged / 341/371] under-corsias-own-numbers-corn-ethanol: clean
+[197 flagged / 342/371] up-has-indias-biggest-herd-punjab-has: clean
+[197 flagged / 343/371] upi-fees-are-now-legal-petrol-pumps: clean
+[197 flagged / 344/371] us-stock-picks-multi-screen-quant: clean
+[198 flagged / 345/371] uttar-pradeshs-gst-puzzle-growing: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/uttar-pradeshs-gst-puzzle-growing.md
+[198 flagged / 346/371] vehicles-out-motors-in-indias-chapter: clean
+[199 flagged / 347/371] we-fact-checked-66-investment: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/we-fact-checked-66-investment.md
+[199 flagged / 348/371] west-bengal-sanctioned-126-lakh-pmay-g: clean
+[200 flagged / 349/371] what-actually-happens-to-indias-used: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/what-actually-happens-to-indias-used.md
+[200 flagged / 350/371] what-failed-bankruptcy-auction-actually: clean
+[201 flagged / 351/371] what-india-is-actually-paying-for: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/what-india-is-actually-paying-for.md
+[202 flagged / 352/371] what-seven-model-stock-portfolios-look: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/what-seven-model-stock-portfolios-look.md
+[203 flagged / 353/371] what-sewage-disposal-in-key-parts-of: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/what-sewage-disposal-in-key-parts-of.md
+[203 flagged / 354/371] what-tepa-actually-opens-efta-goods: clean
+[204 flagged / 355/371] wheats-support-price-rose-by-25: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/wheats-support-price-rose-by-25.md
+[205 flagged / 356/371] where-india-actually-burns-its-fuel: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-india-actually-burns-its-fuel.md
+[205 flagged / 357/371] where-indias-captured-carbon-would: clean
+[206 flagged / 358/371] where-indias-factories-actually-get: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-indias-factories-actually-get.md
+[206 flagged / 359/371] where-indias-fdi-actually-lands-state: clean
+[206 flagged / 360/371] where-indias-forex-goes-country: clean
+[207 flagged / 361/371] where-indias-gigawatt-data-centre-bets: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-indias-gigawatt-data-centre-bets.md
+[207 flagged / 362/371] where-indias-green-hydrogen-bets-are: clean
+[208 flagged / 363/371] where-rupee-actually-stands-ten-years: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-rupee-actually-stands-ten-years.md
+[209 flagged / 364/371] where-worlds-oil-sits-when-it-isnt: 3 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/where-worlds-oil-sits-when-it-isnt.md
+[209 flagged / 365/371] which-ecb-currencies-are-actually: clean
+[210 flagged / 366/371] who-collects-indias-gst-and-who: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/who-collects-indias-gst-and-who.md
+[211 flagged / 367/371] whos-actually-building-mri-and-ct: 2 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/whos-actually-building-mri-and-ct.md
+[211 flagged / 368/371] why-bet-on-one-horse-when-you-can-buy: clean
+[212 flagged / 369/371] winter-is-coming-for-europes-landlocked: 49 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/winter-is-coming-for-europes-landlocked.md
+[213 flagged / 370/371] would-more-sgst-fix-donor-state-problem: 1 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/would-more-sgst-fix-donor-state-problem.md
+[214 flagged / 371/371] you-cannot-substitute-crude-oil-or-gold: 29 matches -> /Users/umashankar/masaladeutsch-archive/out/language_audit/you-cannot-substitute-crude-oil-or-gold.md
+
+DONE. 214 posts flagged. Summary -> out/language_audit/_summary_2026-10-12.md
+2026-10-12 11:33:56 language audit complete -- see out/language_audit/_summary_latest.md
+[main d5f2dbd8] Language audit snapshot 2026-10-12
+ 30 files changed, 331 insertions(+), 191 deletions(-)
+ create mode 100644 out/language_audit/_summary_2026-10-12.md
+ create mode 100644 out/language_audit/bagasse-is-one-crop-residue-already.md
+ create mode 100644 out/language_audit/india-imported-28-million-of-sucralose.md
+ create mode 100644 out/language_audit/indias-ev-localisation-deadline-just.md
+ create mode 100644 out/language_audit/indias-lysine-deficit-is-102-million.md
+ create mode 100644 out/language_audit/the-diesel-truck-isnt-why-your-eggs.md
+ create mode 100644 out/language_audit/the-wage-beats-crop-in-survey-that.md
+ create mode 100644 out/language_audit/thermocol-dissolves-in-orange-peel-oil.md
+To https://github.com/herrrickshaw/blogger_writeups_code.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/herrrickshaw/blogger_writeups_code.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-10-12 11:34:00 language audit committed + pushed
+=== 2026-10-12 11:34:00 GA4 traffic report (report-only) ===
+wrote out/ga_report/2026-10-12.md
+2026-10-12 11:34:08 GA4 report complete -- see out/ga_report/latest.md
+[main e9eba338] GA4 report snapshot 2026-10-12
+ 2 files changed, 215 insertions(+), 33 deletions(-)
+ create mode 100644 out/ga_report/2026-10-12.md
+To https://github.com/herrrickshaw/blogger_writeups_code.git
+ ! [rejected]          main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/herrrickshaw/blogger_writeups_code.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+2026-10-12 11:34:10 GA4 report committed + pushed

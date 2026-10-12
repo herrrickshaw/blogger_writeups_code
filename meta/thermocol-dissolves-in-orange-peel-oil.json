@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html",
   "slug": "thermocol-dissolves-in-orange-peel-oil",
   "published": "2026-10-10T09:50:59.000+05:30",
-  "updated": "2026-10-10T10:43:57.988+05:30",
+  "updated": "2026-10-12T12:56:47.121+05:30",
   "labels": [
     "Chemicals",
     "Climate & Carbon"
   ],
-  "bytes": 30660,
-  "sha256": "8c6b79394a5b3eea59b7927c028c164f69335d11f8a1941492e2cc9edb8df058",
+  "bytes": 31926,
+  "sha256": "3755df908172952dfc5d0e84f97c2fa8842e6dccf2e34cb6a54226fb11c1d2e5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "2.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -30,6 +30,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Insert limonene thermocol recycling article"
+    },
+    {
+      "version": "2.0.0",
+      "date": "2026-10-12T12:57:38+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        30660,
+        31926
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Thermocol: correct the CreaSolv claim (insolvency, GEC takeover, 2023 operation)"
     }
   ]
 }

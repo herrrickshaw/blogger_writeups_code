@@ -14366,3 +14366,16 @@ Article index rebuilt: now includes lysine
 **Changed**
 
 - `article-index-start-here` — 528,246 → 529,770 bytes (+1,524)
+
+## 2026-10-12T12:57:38+05:30 — 367 posts live
+
+Thermocol: correct the CreaSolv claim (insolvency, GEC takeover, 2023 operation)
+
+
+**Versions**
+
+- `thermocol-dissolves-in-orange-peel-oil` **1.0.0 → 2.0.0** (MAJOR) — forced via --as major (figures changed (+5/-0 distinct numbers))
+
+**Changed**
+
+- `thermocol-dissolves-in-orange-peel-oil` — 30,660 → 31,926 bytes (+1,266)
