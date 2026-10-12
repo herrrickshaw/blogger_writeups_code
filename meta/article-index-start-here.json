@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-11T02:32:13.883+05:30",
+  "updated": "2026-10-12T14:33:50.677+05:30",
   "labels": [],
-  "bytes": 529770,
-  "sha256": "50c2441dc37d30e0dbacca7692ba23917deabdd3e6ad5d94b85ebac60959accc",
+  "bytes": 531358,
+  "sha256": "4454b7428651b95eb361419deabe8c498db5aa7f20125736262a63c6fd17b374",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "59.0.0",
+  "version": "60.0.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1859,6 +1859,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Article index rebuilt: now includes lysine"
+    },
+    {
+      "version": "60.0.0",
+      "date": "2026-10-12T14:34:17+05:30",
+      "level": "major",
+      "reason": "forced via --as major (figures changed (+1/-2 distinct numbers))",
+      "bytes": [
+        529770,
+        531358
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": ""
     }
   ]
 }

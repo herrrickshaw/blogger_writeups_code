@@ -14402,3 +14402,13 @@ Update notes 12 Oct 2026: bagasse sugar-season data, sucralose FSSAI and IDF, ly
 **Added**
 
 - `methionine-not-lysine-is-indias-biggest` **v1.0.0** — Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case (29,747 bytes)
+
+## 2026-10-12T14:34:17+05:30 — 368 posts live
+
+**Versions**
+
+- `article-index-start-here` **59.0.0 → 60.0.0** (MAJOR) — forced via --as major (figures changed (+1/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 529,770 → 531,358 bytes (+1,588)
