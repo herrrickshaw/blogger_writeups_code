@@ -29,3 +29,7 @@ re-spinning-charkha and india-exports-naphtha-and-benzene-its (no checkable clai
 1. FCI stock "record", the diesel-truck sugar figures, the nylon duty dates, and the Finance Commission framing first: these are statements, not counts.
 2. Check the PNGRB LPG authorisation (21 Aug) and the 13 Aug PDF against PNGRB's site.
 3. B list items with a "latest" framing.
+
+## E. Applied 13 October 2026 (all 7 HIGH items)
+Dated "Updated 13 October 2026" notes (house `warn` div, original text unchanged, above the first section heading) are built from live copies into `out/update-2026-10-13-sweep3/<slug>.html` for: fci-storage-scenario-capacity-stock-and, pngrbs-own-committee-found-pipelines, 028-unit-diesel-math-behind-indias-data, would-more-sgst-fix-donor-state-problem, the-diesel-truck-isnt-why-your-eggs, the-recycling-lottery-playbook-norways, airbags-and-seat-belts-are-import-heavy. Contested items (Paradip-Raipur status, the 13 Aug PNGRB report, the Red Cross share basis, sugar and egg figures, nylon-duty product identity) are worded as reported or unverified. The PNGRB site was not reachable, so the 21 Aug authorisation rests on press reports.
+Pre-existing layout issue (not from these edits): the-recycling-lottery-playbook-norways is 1,158 px wide at a 375 px viewport before and after the edit.
