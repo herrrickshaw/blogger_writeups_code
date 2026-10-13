@@ -2,7 +2,7 @@
 
 *365 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 12 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 13 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -219,8 +219,10 @@
 ## By Topic
 
 
-### Agriculture & Fertilisers (66)
+### Agriculture & Fertilisers (67)
 
+- **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
+  India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)** — 2026-10-10
   Bagasse can be turned into foam polyol or sugars in the lab, with about 75% liquefied in nine minutes in one study. No cost or life-cycle study was found, and the competitor is the mill boiler that already burns it.
 - **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
@@ -435,8 +437,10 @@
 - **[Japan Ran Out of Matcha. Assam Just Sold Its First Five Kilos.](https://masaladeutsch.blogspot.com/2026/08/japan-ran-out-of-matcha-assam-just-sold.html)** — 2026-08-23
   Japan is in the first matcha shortage in its history. Tencha auction prices doubled in a year to ¥10,843 a kilo, and a 40-gram retail tin went from ¥1,500 to ¥6,500. On 3 July 2026 a tea estate in Tinsukia sold India’s first commercial matcha — five kilograms, at ₹3,000 a kilo. India grows 342 times more tea than the world makes matcha. The gap between those two facts is the story.
 
-### Chemicals (27)
+### Chemicals (28)
 
+- **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
+  India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[Thermocol Dissolves in Orange-Peel Oil, as Researchers Showed in 1998. The Published Record Stops Where the Recycling Begins](https://masaladeutsch.blogspot.com/2026/10/thermocol-dissolves-in-orange-peel-oil.html)** — 2026-10-10
   Limonene shrinks foam to about a twentieth of its volume and a first plant was built in the 1990s. No study found measures what the recovered polystyrene smells of, how the solvent ages, or what the process costs, and the industrial solvent routes use other solvents.
 - **[Bagasse Is the One Crop Residue Already Sitting at a Factory Gate. Labs Have Liquefied and Hydrolysed It. Nobody Has Priced It Against the Boiler](https://masaladeutsch.blogspot.com/2026/10/bagasse-is-one-crop-residue-already.html)** — 2026-10-10
@@ -2003,8 +2007,10 @@
 - **[India's Textile Import-Export Strategy: From Dependency to Self-Sufficiency](https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html)** — 2026-07-27
   HSN Breakdown Needed: Polypropylene, HDPE, LDPE, PET films by destination segment
 
-### Trade & Tariffs (81)
+### Trade & Tariffs (82)
 
+- **[Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)** — 2026-10-12
+  India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 - **[India's Lysine Deficit Is $102 Million and China Holds About Three-Quarters of World Capacity. Molasses Is the Cheap Part. The Fermenter Is the Hard Part](https://masaladeutsch.blogspot.com/2026/10/indias-lysine-deficit-is-102-million.html)** — 2026-10-10
   India imports $106 million of lysine a year and its unit price fell 18.7% in FY26. Mills and distilleries have the sugar, but a lysine fermenter is aerobic and sterile, and the world price is set by very large Chinese plants.
 - **[India Imported $28 Million of Sucralose in FY26, Up 49%. Sugar Mills Make the Raw Material. Making the Sweetener Is a Chlorination Problem, Not a Sugar One](https://masaladeutsch.blogspot.com/2026/10/india-imported-28-million-of-sucralose.html)** — 2026-10-10
@@ -2181,7 +2187,7 @@
 - **[Chemical Import Substitution Analysis: Executive Summary](https://masaladeutsch.blogspot.com/2026/07/chemical-import-substitution-analysis.html)** — 2026-08-01
   A re-derivation of this analysis against DGCI&S TradeStat on 2 August 2026 found that several HS-8 codes cited below do not exist in India’s tariff schedule, and the import values attached to them are not supported by the data. Specifically: ethylene was cited as 29011100 / $2,800M (the real line is 29012100, $44M); propylene as 29011200 / $1,400M (real: 29012200, $14M); polyethylene as 39021010/30 / $8.5bn (real 3901 lines total ~$2.8bn; 3902 is polypropylene); lecithin as 29239090 / $100M (real: 29232090, ~$19M); polypropylene as 39021100 (real: 39021000, value $1,372M is correct).
 
-### Unlabelled (11)
+### Unlabelled (10)
 
 - **[India's Old Factory Index Said Electronics Output Fell 11% in 2023-24. The New One Says It Rose 20%](https://masaladeutsch.blogspot.com/2026/10/indias-old-factory-index-said.html)** — 2026-10-09
   MoSPI moved the Index of Industrial Production to a 2022-23 base in June 2026. For the three years both series cover, the new index shows faster industrial growth (5.7% rather than 4.0% in 2024-25), and in 14 industry-years the two disagree on whether output rose or fell, so IIP figures quoted before and after the switch cannot be read against each other.
@@ -2191,8 +2197,6 @@
   MoSPI’s flash report put the cost overrun at ₹2.88 lakh crore in August against ₹5.65 lakh crore in April, but the set fell from 1,981 to 1,731 projects, mostly roads and Railways, and the reports no longer say how many are behind schedule.
 - **[India's Military Quantum Plan Has Four Pillars. So Far, the Forces Have Bought Only One](https://masaladeutsch.blogspot.com/2026/10/indias-military-quantum-plan-has-four.html)** — 2026-10-09
   The armed forces’ quantum framework, released in January 2026, covers communication, computing, sensing and materials. The Army has bought quantum key distribution and is rolling out post-quantum encryption, but computing is a 6-qubit lab processor, sensing is prototype contracts, and the first Indian ultra-cold refrigerator for quantum computers is due only in late 2027.
-- **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times_01338283908.html)** — 2026-10-09
-  The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
 - **[India Has Auctioned 141 Commercial Coal Mines Since 2020. Fifteen Produce Coal](https://masaladeutsch.blogspot.com/2026/10/india-has-auctioned-141-commercial-coal.html)** — 2026-10-09
   As the 16th round of commercial coal auctions opens with 25 blocks, the ministry’s own figures show 132 of the first 141 mines allocated, 23 cleared to open and 15 producing, about 26 million tonnes against a rated 366. The schedules are being shortened; the penalties for missing them are not published.
 - **[Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times.html)** — 2026-10-09
@@ -3964,11 +3968,6 @@ The armed forces’ quantum framework, released in January 2026, covers communic
 
 Steel imports rose to 3.49 million tonnes in April to August 2026 while demand grew faster than output. Producers want the 11.5% safeguard duty raised above 20%; the ministry reportedly will not. The ministry’s open houses on import issues concern registration and quality orders, and the data to judge any of it is not published.
 
-### [Green Energy Corridor III Is 15 Times the Last Phase. The First Two Are Still Not Finished](https://masaladeutsch.blogspot.com/2026/10/green-energy-corridor-iii-is-15-times_01338283908.html)
-*2026-10-09 · —*
-
-The Cabinet has approved ₹1.86 lakh crore for lines inside states and 50 GWh of batteries, to carry up to 135 GW of renewable power by 2032-33. The Centre pays 29%. The two earlier phases, a fraction of the size, have connected 26 of their 44 GW, and part of the new money pays their old bills.
-
 ### [New Zealand Opens Every Tariff Line to India on 20 October. Most Were Already Open; India's Concessions Are Apples, Kiwifruit and Wine](https://masaladeutsch.blogspot.com/2026/10/new-zealand-opens-every-tariff-line-to.html)
 *2026-10-09 · Trade & Tariffs*
 
@@ -4043,3 +4042,8 @@ India imports $106 million of lysine a year and its unit price fell 18.7% in FY2
 *2026-10-10 · Agriculture & Fertilisers, Chemicals, Healthcare, Trade & Tariffs*
 
 Diabetes is pulling intense sweeteners into India’s drinks and tabletop market, and sucralose imports are rising on a falling price. Sugar mills make the sucrose it starts from, but the tonnage is trivial and no Indian factory could be verified.
+
+### [Methionine, Not Lysine, Is India's Biggest Amino-Acid Gap. It Is Made From Petrochemicals, Not Sugar, and Glycine Is Now an Anti-Dumping Case](https://masaladeutsch.blogspot.com/2026/10/methionine-not-lysine-is-indias-biggest.html)
+*2026-10-12 · Agriculture & Fertilisers, Chemicals, Trade & Tariffs*
+
+India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
