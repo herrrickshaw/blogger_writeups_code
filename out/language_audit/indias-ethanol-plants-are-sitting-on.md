@@ -16,4 +16,3 @@
 - **[GRAMMAR/DOUBLE_NEGATIVE]** This phrase contains a double negative, or a comma may be missing.
   context: ...pply relationship, is not. That doesn't mean no such deal exists — merchant industrial-...
   suggested: mean any, mean, no
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
