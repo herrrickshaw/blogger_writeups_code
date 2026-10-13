@@ -108,15 +108,61 @@ PITCH_THEMES = [
 # (this data is already on the page, unlike live label counts).
 FILTER_BAR = (
     '<div class="gs-filter-bar" role="search" aria-label="Search and filter articles">'
-    '<div class="gs-f-field gs-f-q"><label for="gs-f-q">Search titles</label>'
+    '<div class="gs-f-field gs-f-q"><label for="gs-f-q">Search titles and article text</label>'
     '<input type="search" id="gs-f-q" autocomplete="off" placeholder="e.g. steel, FDI, ethanol"></div>'
     '<div class="gs-f-field"><label for="gs-f-month">Month</label><select id="gs-f-month"><option value="">All months</option></select></div>'
     '<div class="gs-f-field"><label for="gs-f-date">Date</label><select id="gs-f-date"><option value="">All dates</option></select></div>'
     '<div class="gs-f-field"><label for="gs-f-topic">Topic</label><select id="gs-f-topic"><option value="">All topics</option></select></div>'
     '<button type="button" class="gs-filter-reset" id="gs-f-reset">Clear search and filters</button>'
     '<p class="gs-filter-count" id="gs-f-count" role="status" aria-live="polite"></p>'
+    '<p class="gs-fulltext" id="gs-f-full" hidden>Showing matches from titles, headings and each article&#8217;s most distinctive terms. '
+    '<a id="gs-f-full-a" href="https://masaladeutsch.blogspot.com/search" rel="noopener">Search every word of every article on Blogger</a>.</p>'
     '</div>'
 )
+
+# gs-content-search-v1: per-article keyword index. A literal all-words index is
+# about 800 KB for 367 posts (more than the whole page), so the on-page search
+# covers headings, captions and the highest TF-IDF terms of each post, and the
+# fulltext link above hands anything else to Blogger's own search.
+_STOP = set("""this that with from have been were will would could should their there which these those
+than then them they what when where while about after before between because into over under also such
+only more most some many much very each other both same does done doing being india indian indias per cent
+crore lakh billion million tonnes tonne state states year years fiscal data table figure source sources
+article articles posts post blog read note notes click here share tools disclosure disclaimer assistance
+researched written drawing publicly available government cited above several reached search engine summary
+rather directly index start masaladeutsch updated revised version changed""".split())
+_TOK = re.compile(r"[a-z][a-z0-9\-]{3,}|\d{6,8}")
+_HEAD = re.compile(r"<h[1-3][^>]*>(.*?)</h[1-3]>|<caption[^>]*>(.*?)</caption>", re.S | re.I)
+
+
+def _post_text(slug):
+    f = ROOT / "posts" / f"{slug}.html"
+    if not f.exists():
+        return "", ""
+    raw = f.read_text(encoding="utf-8", errors="replace")
+    raw = re.sub(r"<(script|style)[^>]*>.*?</\1>", " ", raw, flags=re.S | re.I)
+    heads = " ".join(a or b for a, b in _HEAD.findall(raw))
+    clean = lambda t: html.unescape(re.sub(r"<[^>]+>", " ", t)).lower()
+    return clean(heads), clean(raw)
+
+
+def build_keywords(slugs, top=40):
+    """slug -> space-separated lowercase terms: every word in the post's headings
+    and captions plus its `top` highest TF-IDF body terms (6-8 digit codes such
+    as HS-8 lines are kept)."""
+    texts = {s: _post_text(s) for s in slugs}
+    toks = {s: [t for t in _TOK.findall(b) if t not in _STOP] for s, (_, b) in texts.items()}
+    df = collections.Counter(t for ts in toks.values() for t in set(ts))
+    n = max(len(toks), 1)
+    out = {}
+    for s, ts in toks.items():
+        tf = collections.Counter(ts)
+        score = {t: c * math.log(n / df[t]) for t, c in tf.items() if df[t] < 0.5 * n}
+        best = [t for t, _ in sorted(score.items(), key=lambda kv: (-kv[1], kv[0]))[:top]]
+        hw = [t for t in _TOK.findall(texts[s][0]) if t not in _STOP]
+        codes = list(dict.fromkeys(t for t in ts if t.isdigit()))[:25]
+        out[s] = " ".join(dict.fromkeys(hw + best + codes))
+    return out
 
 FILTER_JS = """<script>//<![CDATA[
 (function(){
@@ -141,20 +187,47 @@ FILTER_JS = """<script>//<![CDATA[
   var topics = uniqSorted('data-topic', function(a,b){return a.localeCompare(b);});
   var selM=document.getElementById('gs-f-month'), selD=document.getElementById('gs-f-date'),
       selT=document.getElementById('gs-f-topic'), q=document.getElementById('gs-f-q'),
-      countEl=document.getElementById('gs-f-count'), emptyEl=document.getElementById('gs-f-empty');
+      countEl=document.getElementById('gs-f-count'), emptyEl=document.getElementById('gs-f-empty'),
+      fullEl=document.getElementById('gs-f-full'), fullA=document.getElementById('gs-f-full-a');
   fill(selM, yms, function(ym){ var y=ym.slice(0,4), m=+ym.slice(5,7)-1;
     return MONTHS[m]+' '+y+' ('+countBy('data-ym',ym)+')'; });
   fill(selD, dates, function(d){ var y=d.slice(0,4), m=+d.slice(5,7)-1, day=+d.slice(8,10);
     return day+' '+MONTHS[m]+' '+y+' ('+countBy('data-date',d)+')'; });
   fill(selT, topics, function(t){ return t+' ('+countBy('data-topic',t)+')'; });
+  // gs-content-search-v1: the page's own keyword index answers instantly; Blogger's
+  // feed `q=` search (full text, same origin) adds matches on any other word.
+  var srv={q:'',slugs:null}, srvTimer=null, srvCtl=null;
+  function pathOf(u){ try{ return new URL(u, location.href).pathname; }catch(e){ return u; } }
+  var rowByPath={}; rows.forEach(function(r){ var a=r.querySelector('a.ctitle'); if(a) rowByPath[pathOf(a.href)]=r; });
+  function lookup(){
+    var qs=(q.value||'').trim();
+    if(srvCtl){ srvCtl.abort(); srvCtl=null; }
+    if(qs.length<3 || !window.fetch || !window.AbortController || location.protocol==='file:'){ srv={q:qs,slugs:null}; return; }
+    srvCtl=new AbortController();
+    fetch('/feeds/posts/summary?alt=json&max-results=500&q='+encodeURIComponent(qs), {signal:srvCtl.signal})
+      .then(function(r){ if(!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(j){
+        var set={}; ((j.feed&&j.feed.entry)||[]).forEach(function(e){
+          (e.link||[]).forEach(function(l){ if(l.rel==='alternate') set[pathOf(l.href)]=1; }); });
+        srv={q:qs,slugs:set}; apply();
+      })
+      .catch(function(){ srv={q:qs,slugs:null}; });
+  }
   function apply(){
     var m=selM.value, d=selD.value, t=selT.value, terms=(q.value||'').toLowerCase().split(/\s+/).filter(Boolean), shown=0;
     rows.forEach(function(r){
       var hay=r._hay||(r._hay=(r.textContent||'').toLowerCase());
+      var kw=r._kw||(r._kw=(r.getAttribute('data-kw')||'').toLowerCase());
+      var inTitle=terms.every(function(w){ return hay.indexOf(w)!==-1; });
+      var viaSrv=false;
+      if(srv.slugs && srv.q===(q.value||'').trim()){
+        var a_=r.querySelector('a.ctitle'); viaSrv=!!(a_ && srv.slugs[pathOf(a_.href)]);
+      }
+      var inText=inTitle || viaSrv || terms.every(function(w){ return hay.indexOf(w)!==-1 || kw.indexOf(w)!==-1; });
       var ok=(!m || r.getAttribute('data-ym')===m) && (!d || r.getAttribute('data-date')===d)
-           && (!t || r.getAttribute('data-topic')===t)
-           && terms.every(function(w){ return hay.indexOf(w)!==-1; });
+           && (!t || r.getAttribute('data-topic')===t) && inText;
       r.style.display = ok ? '' : 'none'; if(ok) shown++;
+      r.classList.toggle('via-text', !!(ok && terms.length && !inTitle));
     });
     months.forEach(function(g){
       var any=Array.prototype.some.call(g.querySelectorAll('.crow'), function(r){ return r.style.display!=='none'; });
@@ -163,9 +236,14 @@ FILTER_JS = """<script>//<![CDATA[
     var active = m||d||t||terms.length;
     countEl.textContent = active ? ('Showing '+shown+' of '+rows.length+' articles') : '';
     if(emptyEl) emptyEl.style.display = shown ? 'none' : 'block';
+    if(fullEl){
+      var qs=(q.value||'').trim();
+      fullEl.hidden = !qs || !!(srv.slugs && srv.q===qs);
+      if(qs) fullA.href='https://masaladeutsch.blogspot.com/search?q='+encodeURIComponent(qs);
+    }
   }
   [selM,selD,selT].forEach(function(el){ el.addEventListener('change', apply); });
-  q.addEventListener('input', apply);
+  q.addEventListener('input', function(){ apply(); clearTimeout(srvTimer); srvTimer=setTimeout(lookup, 350); });
   var resetBtn=document.getElementById('gs-f-reset');
   if(resetBtn) resetBtn.addEventListener('click', function(){
     selM.value=''; selD.value=''; selT.value=''; q.value=''; apply(); q.focus();
@@ -319,6 +397,7 @@ def main():
         for s in p["states"]:
             by_state[s].append(slug)
 
+    keywords = build_keywords(list(posts))
     o = []
     A = o.append
     A('<a class="gs-skip" href="#gs-all">Skip to the article list and search</a>')
@@ -494,7 +573,7 @@ def main():
     # the list the same date anchors the "By date" table above already has,
     # while leaving each row's own date untouched.
     A('<h2 id="gs-all">All articles</h2>')
-    A('<p class="h2sub">Newest first, grouped by month. Search the titles, or filter by month, day or topic.</p>')
+    A('<p class="h2sub">Newest first, grouped by month. Search the titles and article text, or filter by month, day or topic.</p>')
     A(FILTER_BAR)
     A('<div class="chrono">')
     ordered = sorted(posts.items(), key=lambda kv: kv[1]["published"], reverse=True)
@@ -519,7 +598,7 @@ def main():
         tag, tag_cls = (labels[0], "ctag") if labels else ("Unlabelled", "ctag none")
         date_str = _pretty_date(p["published"]) if p["published"] else "?"
         A(f'<li class="crow" data-ym="{E(ym or "")}" data-date="{E(day or "")}" data-topic="{E(tag)}"'
-          f'>')
+          f' data-kw="{E(keywords.get(slug, ""))}">')
         A(f'<time class="cdate" datetime="{E(day or "")}">{E(date_str)}</time>')
         A(f'<span class="{tag_cls}"><span class="sr-only">Topic: </span>{E(tag)}</span>')
         A(f'<a class="ctitle" href="{E(p["url"])}">{E(p["title"])}</a>')
@@ -575,6 +654,9 @@ def main():
  background:#fff;border:1px solid #12408f;border-radius:5px;cursor:pointer;padding:.4rem .8rem;min-height:44px;width:100%}
 .artx .gs-filter-reset:hover{background:#e6ecf5}
 .artx .gs-filter-count{font-size:.9rem;color:#3d3d3d;grid-column:1/-1;margin:0;min-height:1.2em}
+.artx .gs-fulltext{grid-column:1/-1;margin:0;font-size:.88rem;color:#3d3d3d}
+.artx .gs-fulltext a{color:#0B3D91;text-decoration:underline}
+.artx .crow.via-text::after{content:"Matched in article text";display:block;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif;font-size:.72rem;letter-spacing:.04em;text-transform:uppercase;color:#595959;margin-top:.15rem}
 .artx .gs-filter-empty{display:none;padding:1.2rem .2rem;color:#595959;font-size:.9rem;font-style:italic}
 .artx .chrono{border-top:1px solid #e2e2e2;margin:1.2rem 0 0}
 .artx .cgroup{position:sticky;top:0;z-index:1;display:flex;align-items:baseline;
