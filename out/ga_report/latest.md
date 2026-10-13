@@ -4,19 +4,19 @@
 
 ## Totals
 
-- Active users: **453**
-- Total users: **454**
-- Page views: **942**
-- Sessions: **591**
+- Active users: **454**
+- Total users: **455**
+- Page views: **960**
+- Sessions: **595**
 
 ## Views by country (top 30)
 
 | Country | Active users | Page views |
 |---|---|---|
 | United States | 149 | 144 |
-| Singapore | 89 | 83 |
+| Singapore | 90 | 92 |
 | Hong Kong | 34 | 31 |
-| India | 32 | 517 |
+| India | 32 | 526 |
 | Brazil | 17 | 14 |
 | Vietnam | 16 | 9 |
 | Indonesia | 15 | 13 |
@@ -48,26 +48,26 @@
 
 | City | Active users | Page views |
 |---|---|---|
-| Singapore | 89 | 83 |
+| Singapore | 90 | 92 |
 | New York | 67 | 67 |
 | Chicago | 50 | 50 |
 | (not set) | 40 | 23 |
 | Hong Kong | 34 | 31 |
 | Frankfurt am Main | 9 | 9 |
 | Banguntapan | 6 | 6 |
-| Coimbatore | 6 | 87 |
+| Coimbatore | 6 | 93 |
 | Shinjuku City | 6 | 6 |
-| Dindigul | 5 | 164 |
 | Hanoi | 5 | 4 |
 | Hyderabad | 5 | 32 |
 | New Delhi | 5 | 6 |
+| Dindigul | 4 | 152 |
 | Mumbai | 4 | 148 |
 | Suginami City | 4 | 4 |
 | Wonosari | 4 | 3 |
 | Ashburn | 3 | 3 |
 | Bengaluru | 3 | 4 |
 | Ho Chi Minh City | 3 | 2 |
-| Madurai | 3 | 55 |
+| Madurai | 3 | 70 |
 | Abuja | 2 | 2 |
 | Algiers | 2 | 2 |
 | Chennai | 2 | 6 |
@@ -85,12 +85,12 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
-| Dindigul | 164 | 5 | 32.8 | 39 | 58s | 36% | desktop/Chrome (134); desktop/Firefox (18); desktop/Safari (11); +1 more |
+| Dindigul | 152 | 4 | 38.0 | 35 | 60s | 34% | desktop/Chrome (134); desktop/Firefox (18) |
 | Mumbai | 148 | 4 | 37.0 | 42 | 59s | 33% | desktop/Chrome (145); desktop/Edge (3) |
-| Coimbatore | 87 | 6 | 14.5 | 29 | 54s | 38% | desktop/Chrome (79); mobile/Chrome (6); desktop/Firefox (2) |
-| Singapore | 83 | 89 | 0.9 | 89 | 1s | 91% | desktop/Chrome (83) |
+| Coimbatore | 93 | 6 | 15.5 | 31 | 53s | 35% | desktop/Chrome (85); mobile/Chrome (6); desktop/Firefox (2) |
+| Singapore | 92 | 90 | 1.0 | 91 | 4s | 90% | desktop/Chrome (92) |
+| Madurai | 70 | 3 | 23.3 | 29 | 51s | 52% | desktop/Chrome (67); desktop/Safari (3) |
 | New York | 67 | 67 | 1.0 | 67 | 0s | 100% | desktop/Chrome (67) |
-| Madurai | 55 | 3 | 18.3 | 24 | 49s | 50% | desktop/Chrome (52); desktop/Safari (3) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
 | Hyderabad | 32 | 5 | 6.4 | 6 | 40s | 0% | desktop/Chrome (27); desktop/Firefox (4); mobile/Chrome (1) |
 | Hong Kong | 31 | 34 | 0.9 | 34 | 1s | 85% | desktop/Chrome (31) |
@@ -101,9 +101,9 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 312 | 34 |
-| /2026/08/article-index-start-here.html | 40 | 6 |
-| /search | 17 | 6 |
+| / | 319 | 35 |
+| /2026/08/article-index-start-here.html | 44 | 5 |
+| /search | 24 | 7 |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 14 | 9 |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 7 | 2 |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 7 | 2 |
@@ -120,7 +120,7 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 | /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 4 | 3 |
 | /2026/08/do-cheap-stocks-stay-cheap-price-band.html | 3 | 3 |
 | /2026/08/india-cannot-sell-china-free-medicine.html | 3 | 3 |
-| /2026/08/lok-sabha-question-registry-1843-scheme.html | 3 | 3 |
+| /2026/08/raising-green-debt-globally-rec-euroyen.html | 3 | 3 |
 
 ## Likely human readership
 
@@ -128,7 +128,7 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 46 | 252 | 696 | 381 | 153 |
+| Human-like | 46 | 252 | 714 | 386 | 156 |
 | Bot-like (no engaged session) | 144 | 280 | 246 | 280 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
@@ -136,10 +136,10 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
 | Mumbai | 28 | 42 | 4 | 148 | 59s |
-| Dindigul | 25 | 39 | 5 | 164 | 58s |
-| Coimbatore | 18 | 29 | 6 | 87 | 54s |
-| Madurai | 12 | 24 | 3 | 55 | 49s |
-| Singapore | 8 | 89 | 89 | 83 | 1s |
+| Dindigul | 23 | 35 | 4 | 152 | 60s |
+| Coimbatore | 20 | 31 | 6 | 93 | 53s |
+| Madurai | 14 | 29 | 3 | 70 | 51s |
+| Singapore | 9 | 91 | 90 | 92 | 4s |
 | Hyderabad | 6 | 6 | 5 | 32 | 40s |
 | (not set) | 6 | 40 | 40 | 23 | 1s |
 | Hong Kong | 5 | 34 | 34 | 31 | 1s |
@@ -160,10 +160,10 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 99 | 312 | 34 | 11s |
-| /2026/08/article-index-start-here.html | 24 | 40 | 6 | 20s |
+| / | 101 | 319 | 35 | 11s |
+| /2026/08/article-index-start-here.html | 26 | 44 | 5 | 19s |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 9 | 14 | 9 | 66s |
-| /search | 8 | 17 | 6 | 6s |
+| /search | 9 | 24 | 7 | 15s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 4 | 7 | 2 | 34s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 5 | 2 | 30s |
 | /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 3 | 4 | 3 | 20s |
