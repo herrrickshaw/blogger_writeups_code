@@ -4,10 +4,10 @@
 
 ## Totals
 
-- Active users: **454**
-- Total users: **455**
-- Page views: **960**
-- Sessions: **595**
+- Active users: **456**
+- Total users: **457**
+- Page views: **945**
+- Sessions: **593**
 
 ## Views by country (top 30)
 
@@ -16,7 +16,7 @@
 | United States | 149 | 144 |
 | Singapore | 90 | 92 |
 | Hong Kong | 34 | 31 |
-| India | 32 | 526 |
+| India | 34 | 511 |
 | Brazil | 17 | 14 |
 | Vietnam | 16 | 9 |
 | Indonesia | 15 | 13 |
@@ -55,19 +55,20 @@
 | Hong Kong | 34 | 31 |
 | Frankfurt am Main | 9 | 9 |
 | Banguntapan | 6 | 6 |
-| Coimbatore | 6 | 93 |
+| Coimbatore | 6 | 79 |
 | Shinjuku City | 6 | 6 |
 | Hanoi | 5 | 4 |
 | Hyderabad | 5 | 32 |
 | New Delhi | 5 | 6 |
-| Dindigul | 4 | 152 |
+| Bengaluru | 4 | 6 |
+| Dindigul | 4 | 144 |
 | Mumbai | 4 | 148 |
 | Suginami City | 4 | 4 |
 | Wonosari | 4 | 3 |
 | Ashburn | 3 | 3 |
-| Bengaluru | 3 | 4 |
 | Ho Chi Minh City | 3 | 2 |
-| Madurai | 3 | 70 |
+| Madurai | 3 | 74 |
+| Noida | 3 | 3 |
 | Abuja | 2 | 2 |
 | Algiers | 2 | 2 |
 | Chennai | 2 | 6 |
@@ -76,7 +77,6 @@
 | Dubai | 2 | 7 |
 | Lome | 2 | 1 |
 | Muscat | 2 | 1 |
-| Noida | 2 | 2 |
 | Paris | 2 | 2 |
 
 ## City traffic-quality check (top 11 by page views)
@@ -85,11 +85,11 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | City | Page views | Active users | Views/user | Sessions | Avg engagement | Bounce rate | Top device/browser combos |
 |---|---|---|---|---|---|---|---|
-| Dindigul | 152 | 4 | 38.0 | 35 | 60s | 34% | desktop/Chrome (134); desktop/Firefox (18) |
 | Mumbai | 148 | 4 | 37.0 | 42 | 59s | 33% | desktop/Chrome (145); desktop/Edge (3) |
-| Coimbatore | 93 | 6 | 15.5 | 31 | 53s | 35% | desktop/Chrome (85); mobile/Chrome (6); desktop/Firefox (2) |
-| Singapore | 92 | 90 | 1.0 | 91 | 4s | 90% | desktop/Chrome (92) |
-| Madurai | 70 | 3 | 23.3 | 29 | 51s | 52% | desktop/Chrome (67); desktop/Safari (3) |
+| Dindigul | 144 | 4 | 36.0 | 31 | 66s | 32% | desktop/Chrome (126); desktop/Firefox (18) |
+| Singapore | 92 | 90 | 1.0 | 91 | 5s | 89% | desktop/Chrome (92) |
+| Coimbatore | 79 | 6 | 13.2 | 30 | 50s | 37% | desktop/Chrome (71); mobile/Chrome (6); desktop/Firefox (2) |
+| Madurai | 74 | 3 | 24.7 | 30 | 59s | 47% | desktop/Chrome (71); desktop/Safari (3) |
 | New York | 67 | 67 | 1.0 | 67 | 0s | 100% | desktop/Chrome (67) |
 | Chicago | 50 | 50 | 1.0 | 50 | 0s | 100% | desktop/Chrome (50) |
 | Hyderabad | 32 | 5 | 6.4 | 6 | 40s | 0% | desktop/Chrome (27); desktop/Firefox (4); mobile/Chrome (1) |
@@ -101,9 +101,9 @@ Device/browser variety and engagement time are stronger bot signals than views/u
 
 | Page path | Page views | Active users |
 |---|---|---|
-| / | 319 | 35 |
+| / | 314 | 36 |
 | /2026/08/article-index-start-here.html | 44 | 5 |
-| /search | 24 | 7 |
+| /search | 20 | 6 |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 14 | 9 |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 7 | 2 |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 7 | 2 |
@@ -128,7 +128,7 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 
 | Class | Cities | Active users | Page views | Sessions | Engaged sessions |
 |---|---|---|---|---|---|
-| Human-like | 46 | 252 | 714 | 386 | 156 |
+| Human-like | 46 | 254 | 699 | 384 | 157 |
 | Bot-like (no engaged session) | 144 | 280 | 246 | 280 | 0 |
 
 ### Human-like cities (top 20 by engaged sessions)
@@ -136,34 +136,34 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | City | Engaged sessions | Sessions | Active users | Page views | Avg engagement / session |
 |---|---|---|---|---|---|
 | Mumbai | 28 | 42 | 4 | 148 | 59s |
-| Dindigul | 23 | 35 | 4 | 152 | 60s |
-| Coimbatore | 20 | 31 | 6 | 93 | 53s |
-| Madurai | 14 | 29 | 3 | 70 | 51s |
-| Singapore | 9 | 91 | 90 | 92 | 4s |
+| Dindigul | 21 | 31 | 4 | 144 | 66s |
+| Coimbatore | 19 | 30 | 6 | 79 | 50s |
+| Madurai | 16 | 30 | 3 | 74 | 59s |
+| Singapore | 10 | 91 | 90 | 92 | 5s |
 | Hyderabad | 6 | 6 | 5 | 32 | 40s |
 | (not set) | 6 | 40 | 40 | 23 | 1s |
 | Hong Kong | 5 | 34 | 34 | 31 | 1s |
 | Dubai | 3 | 7 | 2 | 7 | 60s |
 | New Delhi | 3 | 7 | 5 | 6 | 38s |
+| Noida | 3 | 3 | 3 | 3 | 14s |
 | Delhi | 2 | 2 | 2 | 4 | 52s |
 | Frankfurt am Main | 2 | 9 | 9 | 9 | 1s |
-| Noida | 2 | 2 | 2 | 2 | 2s |
 | Jaipur | 1 | 1 | 1 | 2 | 199s |
 | Houston | 1 | 1 | 1 | 1 | 110s |
 | Budaun | 1 | 1 | 1 | 1 | 59s |
+| Bengaluru | 1 | 4 | 4 | 6 | 13s |
 | Chennai | 1 | 6 | 2 | 6 | 6s |
 | Dublin | 1 | 1 | 1 | 1 | 24s |
 | Gwangmyeong-si | 1 | 1 | 1 | 2 | 16s |
-| Subang Jaya | 1 | 1 | 1 | 0 | 9s |
 
 ### Pages read by likely humans (top 20 by engaged sessions)
 
 | Page path | Engaged sessions | Page views | Active users | Avg engagement / view |
 |---|---|---|---|---|
-| / | 101 | 319 | 35 | 11s |
-| /2026/08/article-index-start-here.html | 26 | 44 | 5 | 19s |
+| / | 100 | 314 | 36 | 12s |
+| /2026/08/article-index-start-here.html | 26 | 44 | 5 | 22s |
 | /2026/10/indias-ethanol-surplus-buys-about-five.html | 9 | 14 | 9 | 66s |
-| /search | 9 | 24 | 7 | 15s |
+| /search | 8 | 20 | 6 | 17s |
 | /2026/10/cotton-stalk-is-one-of-hardest-crop.html | 4 | 7 | 2 | 34s |
 | /2026/10/every-litre-of-petrol-pays-5-for-roads.html | 4 | 5 | 2 | 30s |
 | /2026/10/indias-factory-intentions-20012024-how_0101046393.html | 3 | 4 | 3 | 20s |
@@ -174,9 +174,9 @@ Heuristic, not a bot filter. GA4 already drops crawlers on the IAB list; what ge
 | /2026/09/india-has-132-compressed-biogas-plants.html | 3 | 3 | 2 | 13s |
 | /2026/09/five-years-and-25000-crore-later-china.html | 2 | 3 | 3 | 74s |
 | /2026/09/the-two-biggest-parties-in-parliament.html | 2 | 7 | 2 | 30s |
+| /2026/09/india-wants-isobutanol-in-both-diesel.html | 2 | 3 | 2 | 62s |
 | /2026/10/indias-lysine-deficit-is-102-million.html | 2 | 2 | 2 | 78s |
 | /2026/10/indias-factory-intentions-20012024-how.html | 2 | 4 | 1 | 37s |
 | /2026/09/e20-doesnt-cut-tailpipe-co2-by-30-run.html | 2 | 2 | 2 | 67s |
 | /2026/09/under-corsias-own-numbers-corn-ethanol.html | 2 | 5 | 1 | 19s |
-| /2026/08/where-indias-green-hydrogen-bets-are.html | 2 | 5 | 3 | 5s |
-| /2026/09/engineering-and-auto-component-makers.html | 2 | 3 | 3 | 7s |
+| /2026/08/the-hydrogen-bill-hiding-inside-indias.html | 2 | 3 | 3 | 22s |
