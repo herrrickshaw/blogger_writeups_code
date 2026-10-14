@@ -25,4 +25,15 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...ent, conventional packaging at up to 25 per cent. The display-fab-specific thresholds mo...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...na's HKC Overseas Ltd (Dixon holding 74 per cent, HKC 26 per cent) to manufacture LCD an...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ... Ltd (Dixon holding 74 per cent, HKC 26 per cent) to manufacture LCD and TFT-LCD display...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...s, why display-fab support fell from 50 per cent to 35 per cent while the revenue thresh...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...fab support fell from 50 per cent to 35 per cent while the revenue threshold also fell —...
+  suggested: percent
