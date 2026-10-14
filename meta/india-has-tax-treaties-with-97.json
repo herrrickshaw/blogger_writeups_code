@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-has-tax-treaties-with-97.html",
   "slug": "india-has-tax-treaties-with-97",
   "published": "2026-08-09T10:54:39.000+05:30",
-  "updated": "2026-10-01T08:29:15.189+05:30",
+  "updated": "2026-10-14T16:25:37.395+05:30",
   "labels": [
     "Free Trade Agreements",
     "Trade & Tariffs"
   ],
-  "bytes": 29790,
-  "sha256": "2a2f9e4de644b465a00b6826c3462233825aa3008f43cae69815a603bd1d1663",
+  "bytes": 30853,
+  "sha256": "c15df0963cfa8dd3552276c77838fb14554b1b9a20a8d13a10f5d712a8f3235c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -251,6 +251,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        29790,
+        30853
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

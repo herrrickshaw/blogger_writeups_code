@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/one-nation-one-gst-rate-what-true-flat.html",
   "slug": "one-nation-one-gst-rate-what-true-flat",
   "published": "2026-09-29T17:37:19.000+05:30",
-  "updated": "2026-10-01T09:05:53.509+05:30",
+  "updated": "2026-10-14T16:29:43.914+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 26842,
-  "sha256": "b901ed589d30e17cc5b7c9cdcab9a3c9869233b3c5e92116e0e9e457d2c08b59",
+  "bytes": 27986,
+  "sha256": "b2f00883a876dc8ff2855454a2ba29e369bd517979a5edcf32bb252f20c95643",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -43,6 +43,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        26842,
+        27986
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

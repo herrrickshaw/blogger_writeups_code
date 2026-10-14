@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/five-year-synthesis-trade-currency.html",
   "slug": "five-year-synthesis-trade-currency",
   "published": "2026-08-02T13:51:50.000+05:30",
-  "updated": "2026-10-01T08:22:25.001+05:30",
+  "updated": "2026-10-14T16:25:15.243+05:30",
   "labels": [
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 48067,
-  "sha256": "4ab15b5b7fa62cf22687109c47c713223a757f45ca0986cbd002be731260a229",
+  "bytes": 49380,
+  "sha256": "9683e97c1f1ec394401598207a35b3f7bc8810e80cc9a0e82c97e6c87ea1acc5",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -291,6 +291,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        48067,
+        49380
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

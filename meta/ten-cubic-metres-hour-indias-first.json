@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/ten-cubic-metres-hour-indias-first.html",
   "slug": "ten-cubic-metres-hour-indias-first",
   "published": "2026-08-20T10:01:38.000+05:30",
-  "updated": "2026-10-01T08:49:45.611+05:30",
+  "updated": "2026-10-14T16:30:45.204+05:30",
   "labels": [
     "Energy & Fuels",
     "Hydrogen",
     "Industrial Policy",
     "Shipping & Maritime Fuels"
   ],
-  "bytes": 36234,
-  "sha256": "4f01df434d2e6f4593bb9f3ca6dd8b1e1e10e5502a77ca7da5f8f952d29bd07c",
+  "bytes": 37245,
+  "sha256": "edbf79d5f1941c608f9363572c4278382b822b69af9d8a5de95831c87189bd41",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -136,6 +136,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        36234,
+        37245
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

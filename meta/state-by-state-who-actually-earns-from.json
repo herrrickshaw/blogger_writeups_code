@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/state-by-state-who-actually-earns-from.html",
   "slug": "state-by-state-who-actually-earns-from",
   "published": "2026-08-02T17:07:30.000+05:30",
-  "updated": "2026-10-01T08:48:17.698+05:30",
+  "updated": "2026-10-14T16:30:21.647+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 57787,
-  "sha256": "c5bef1010f02f1d2a33e73325398ddcd9ec22c4970a53e8cd318de5a1317aabf",
+  "bytes": 58841,
+  "sha256": "5c7445c8d5172e9a80d8b3410a1cc5b1a852bde18415c982d6ec28845f49e76f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -237,6 +237,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        57787,
+        58841
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

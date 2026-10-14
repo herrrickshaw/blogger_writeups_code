@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/tnpl-has-made-paper-from-sugarcane.html",
   "slug": "tnpl-has-made-paper-from-sugarcane",
   "published": "2026-09-01T20:24:15.000+05:30",
-  "updated": "2026-10-01T08:57:32.763+05:30",
+  "updated": "2026-10-14T16:31:30.433+05:30",
   "labels": [
     "Agriculture & Fertilisers"
   ],
-  "bytes": 33694,
-  "sha256": "f099afc8b7fc1ce9741cb169f9eb7d97e0c220e534a813d4a20abac389748d31",
+  "bytes": 34362,
+  "sha256": "e39f8c0d0e5c941f3b8a43d3206869d802e0a072ab2b7f3fe3c39b014df6b70e",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -94,6 +94,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        33694,
+        34362
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/cocoa-quintupled-then-gave-most-of-it.html",
   "slug": "cocoa-quintupled-then-gave-most-of-it",
   "published": "2026-09-30T03:34:12.000+05:30",
-  "updated": "2026-10-01T09:05:46.768+05:30",
+  "updated": "2026-10-14T16:24:41.579+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Trade & Tariffs"
   ],
-  "bytes": 33438,
-  "sha256": "72cb8fc4edd19e14817b648f876b0e5c530c1e08b2f1af5ca21a27bb70ad0e4b",
+  "bytes": 34435,
+  "sha256": "fe3110aa7042c31944f4c2259fbcad4f019c4d43aa6b221974b6459a8f3923ad",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        33438,
+        34435
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

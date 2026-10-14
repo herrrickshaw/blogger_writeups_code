@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/endoscopes-never-made-indias-pli-list.html",
   "slug": "endoscopes-never-made-indias-pli-list",
   "published": "2026-09-10T10:10:12.000+05:30",
-  "updated": "2026-10-01T08:19:55.672+05:30",
+  "updated": "2026-10-14T16:25:00.439+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 24944,
-  "sha256": "a1e04ac76ef5718f81ca283a956aa4345d71b47f220fd9b4a1473adc8e4f29ba",
+  "bytes": 25833,
+  "sha256": "182e5b3a29201b4d67823dd9ea58ec11c6f9ea57b4db925e8bffec8927e828c5",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -70,6 +70,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        24944,
+        25833
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

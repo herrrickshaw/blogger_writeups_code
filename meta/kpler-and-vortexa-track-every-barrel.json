@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/kpler-and-vortexa-track-every-barrel.html",
   "slug": "kpler-and-vortexa-track-every-barrel",
   "published": "2026-09-24T08:43:14.000+05:30",
-  "updated": "2026-09-24T09:17:49.264+05:30",
+  "updated": "2026-10-14T16:29:35.510+05:30",
   "labels": [
     "Energy & Fuels",
     "Trade & Tariffs"
   ],
-  "bytes": 38015,
-  "sha256": "dd0537ab285f69cc6df966c02d790242ebfdb0b7e322fbc28b485923d5edee10",
+  "bytes": 39202,
+  "sha256": "6edcf36f690308b6b466898afdcd8991cd1717e67d95b0ad9ee04fe1ec96ac11",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -56,6 +56,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Add tanker freight market and shadow-fleet section to Kpler/Vortexa post: record VLCC rates (Hellenic Shipping News/Affinity), the 1,300+-vessel sanctions-evading shadow fleet (Lloyd's List), and VLCC/LNG orderbook and rate contrast (Clarksons Research)"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        38015,
+        39202
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

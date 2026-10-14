@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/the-grain-value-loop-integrated-rice.html",
   "slug": "the-grain-value-loop-integrated-rice",
   "published": "2026-07-31T10:00:00.000+05:30",
-  "updated": "2026-10-01T08:53:34.073+05:30",
+  "updated": "2026-10-14T16:31:01.238+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Grain Procurement & Storage",
     "Trade & Tariffs"
   ],
-  "bytes": 87888,
-  "sha256": "2b0c1d7d81a45cb792cc2ef4c0b38d07925713f14f0963ab8f75d037c82fe8f4",
+  "bytes": 88988,
+  "sha256": "5084dfd6d8cfad228c844a9b0c611b4f861002b149c1d61143933420f7998bf2",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -306,6 +306,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        87888,
+        88988
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/fci-storage-scenario-capacity-stock-and.html",
   "slug": "fci-storage-scenario-capacity-stock-and",
   "published": "2026-07-31T10:15:00.000+05:30",
-  "updated": "2026-10-01T08:21:53.002+05:30",
+  "updated": "2026-10-14T16:32:09.436+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Grain Procurement & Storage"
   ],
-  "bytes": 23393,
-  "sha256": "e493e2175c5331aca51e112d435154f1db727d541ed779fc033e34afb17d8a20",
+  "bytes": 24483,
+  "sha256": "dc2b6d03cb48106ec718a38a46d8e8e5522994586b584c8cab6af4458c19f145",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -295,6 +295,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        23393,
+        24483
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

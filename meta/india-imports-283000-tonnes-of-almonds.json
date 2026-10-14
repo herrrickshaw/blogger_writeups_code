@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-imports-283000-tonnes-of-almonds.html",
   "slug": "india-imports-283000-tonnes-of-almonds",
   "published": "2026-08-21T23:00:40.000+05:30",
-  "updated": "2026-10-01T08:29:35.925+05:30",
+  "updated": "2026-10-14T16:25:47.194+05:30",
   "labels": [
     "Trade & Tariffs",
     "Trade Remedies & Antidumping"
   ],
-  "bytes": 33838,
-  "sha256": "07ba25776b9817973569e3efaf41bd1610f3f5b55cac7a8eaf9fe4459ff57cc8",
+  "bytes": 34710,
+  "sha256": "d5b2853996bd20015fd4a8d9e1011b63832dcdaeab4a4bff45d70a04be391d05",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -134,6 +134,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        33838,
+        34710
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

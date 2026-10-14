@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/028-unit-diesel-math-behind-indias-data.html",
   "slug": "028-unit-diesel-math-behind-indias-data",
   "published": "2026-08-20T19:11:25.000+05:30",
-  "updated": "2026-10-07T11:08:08.937+05:30",
+  "updated": "2026-10-14T16:31:41.558+05:30",
   "labels": [
     "Data Centres & AI Infra",
     "Energy & Fuels",
     "Renewable Power & Storage"
   ],
-  "bytes": 36919,
-  "sha256": "6cf0ef1125b20fdcc8b5ca15d7ecc4094866c4acf4f7dd963cf0995feba66c11",
+  "bytes": 38072,
+  "sha256": "8480b8b809c0d963c17f3041c1a1d9a0d4c7bef28fc6ba1393b5daa85d3bed67",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.2.0",
+  "version": "2.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -148,6 +148,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Telecom tower count updated to DoT Oct 2025"
+    },
+    {
+      "version": "2.3.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        36919,
+        38072
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/pngrbs-own-committee-found-pipelines.html",
   "slug": "pngrbs-own-committee-found-pipelines",
   "published": "2026-09-08T09:19:53.000+05:30",
-  "updated": "2026-10-01T08:44:14.692+05:30",
+  "updated": "2026-10-14T16:32:19.329+05:30",
   "labels": [
     "Energy & Fuels",
     "Industrial Policy",
     "Infrastructure & Investment"
   ],
-  "bytes": 30241,
-  "sha256": "b4094e8eb0bfae502bfc790ac333079e1fe99e31e5917cfc0ba84f8b045331f3",
+  "bytes": 31477,
+  "sha256": "d3d2cc7d3f49f9762972e74e358dd33744351be93c4dce3a917abd4f9cc7e389",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-0 distinct numbers))",
+      "bytes": [
+        30241,
+        31477
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

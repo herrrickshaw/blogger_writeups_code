@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/pli-medical-devices-coverage-and-gaps.html",
   "slug": "pli-medical-devices-coverage-and-gaps",
   "published": "2026-08-05T05:27:53.000+05:30",
-  "updated": "2026-10-01T08:43:38.209+05:30",
+  "updated": "2026-10-14T16:27:07.503+05:30",
   "labels": [
     "Industrial Policy",
     "PLI Schemes",
     "Trade & Tariffs"
   ],
-  "bytes": 23551,
-  "sha256": "b53f39cca9a0ea50258fcc54e3002724152a32556fcbb75818b182580e6e464d",
+  "bytes": 24600,
+  "sha256": "8d90c2d227c2667db4994ad19ce7874a97646681ea3eb6ccc54747d40d2774e9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -274,6 +274,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        23551,
+        24600
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

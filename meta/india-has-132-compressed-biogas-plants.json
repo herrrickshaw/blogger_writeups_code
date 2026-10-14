@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html",
   "slug": "india-has-132-compressed-biogas-plants",
   "published": "2026-09-23T13:15:31.000+05:30",
-  "updated": "2026-09-27T18:43:55.624+05:30",
+  "updated": "2026-10-14T16:29:08.815+05:30",
   "labels": [
     "City Gas Distribution",
     "Energy & Fuels",
     "Gas & LNG"
   ],
-  "bytes": 23782,
-  "sha256": "6ca067565409b6c1f7f26170decfedde03f91c894af4cdae86f530d567d39e17",
+  "bytes": 24871,
+  "sha256": "b9950f6efd7d2805406319289a499bc52a577c7e03f1ac492937fa1ae680786a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.2",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -57,6 +57,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Stop presenting fuel-pricing-to-crude-cost.html's 5 August 2026 crude quotes as 'live'/'today' -- relabel as a dated snapshot and disclose that Brent has since moved 30-45% higher (~$101-113/bbl), closer to the piece's own past-year-high scenario than its 'today' scenario"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        23782,
+        24871
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/every-india-europe-tech-agreement-pib.html",
   "slug": "every-india-europe-tech-agreement-pib",
   "published": "2026-08-23T18:35:54.000+05:30",
-  "updated": "2026-10-01T08:21:04.217+05:30",
+  "updated": "2026-10-14T16:28:34.159+05:30",
   "labels": [
     "India",
     "India Trade & Policy",
     "Industrial Policy"
   ],
-  "bytes": 33348,
-  "sha256": "e025313d31c8114b52815e54c9fcef35fe8ed340f08726d1eb4e5ba8063e4d6d",
+  "bytes": 34517,
+  "sha256": "201cb05c8810d25e2aac9bbe0e0e44ba888edbd9ed0860edc6fcd2f6991c4bc0",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -135,6 +135,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        33348,
+        34517
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

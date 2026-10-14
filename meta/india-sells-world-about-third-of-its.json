@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/india-sells-world-about-third-of-its.html",
   "slug": "india-sells-world-about-third-of-its",
   "published": "2026-09-30T06:12:49.000+05:30",
-  "updated": "2026-10-01T09:05:19.202+05:30",
+  "updated": "2026-10-14T16:25:55.686+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Industrial Policy",
     "Trade & Tariffs"
   ],
-  "bytes": 25357,
-  "sha256": "9a2e008774e8b8fc1d7f45aff52b74329c54c15dccdbfb2c42581af6b07418a0",
+  "bytes": 26638,
+  "sha256": "a46ce6563898bcabc2fe50be53d0e5a9e9e2a9bc4e30c1361d065523ac8217ae",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -44,6 +44,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Labour-codes retrofit retry; road cess post: NH tolls and satellite-tolling sections"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+6/-0 distinct numbers))",
+      "bytes": [
+        25357,
+        26638
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/announced-vs-delivered-three-indian.html",
   "slug": "announced-vs-delivered-three-indian",
   "published": "2026-08-02T18:31:16.000+05:30",
-  "updated": "2026-10-01T08:14:24.592+05:30",
+  "updated": "2026-10-14T16:24:01.148+05:30",
   "labels": [
     "Industrial Policy",
     "Mobility & EV",
     "State Investment Incentives"
   ],
-  "bytes": 52660,
-  "sha256": "df83c8fa8acb151f6cdf88926ec4576db970dd636d0f8a2fdb552d3eaaf47eef",
+  "bytes": 53799,
+  "sha256": "2029cb555cb82eebf2038f9b6e50bbd1cd7897022c1be1d83a7f081621050b32",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        52660,
+        53799
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }

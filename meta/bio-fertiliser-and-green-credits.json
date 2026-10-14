@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/bio-fertiliser-and-green-credits.html",
   "slug": "bio-fertiliser-and-green-credits",
   "published": "2026-08-02T21:16:59.000+05:30",
-  "updated": "2026-10-01T08:15:06.677+05:30",
+  "updated": "2026-10-14T16:28:12.155+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Climate & Carbon",
     "Fertilisers & Soil Health"
   ],
-  "bytes": 48761,
-  "sha256": "e69e6ef7058a631fea4b05dfe0f0feb4822243dc8daaf2209563a9c4ef4505ca",
+  "bytes": 50035,
+  "sha256": "a3d20357e0e5188202d5d303c7aaf678c8afa9b5f18f930c1dcc1729edd8197a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "5.1.0",
+  "version": "5.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -304,6 +304,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "5.2.0",
+      "date": "2026-10-14T16:33:23+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        48761,
+        50035
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Update notes 12-13 Oct 2026 from the currency sweeps (45 posts)"
     }
   ]
 }
