@@ -14457,3 +14457,9 @@ CCUS pipelines: CEEW 18,000 vs 32,000 km reconciled, PNGRB and PPAC lengths adde
 **Added**
 
 - `the-hydrogen-behind-biofuel-mandate` **v1.0.0** — The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For (45,658 bytes)
+
+## 2026-10-14T16:16:26+05:30 — 368 posts live
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `the-hydrogen-behind-biofuel-mandate` — 2026-10-14 &rarr; 2026-10-14
