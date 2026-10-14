@@ -748,6 +748,7 @@ SLUG_CONTAINS = {
     "sucralose": ["Healthcare", "Agriculture & Fertilisers", "Chemicals"],
     "lysine":    ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
     "methionine": ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
+    "hydrogen-behind-the-biofuel": ["Energy & Fuels", "Ethanol & Biofuels", "Hydrogen", "Industrial Policy"],
 }
 
 
