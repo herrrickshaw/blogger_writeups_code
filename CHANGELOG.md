@@ -14638,3 +14638,16 @@ Content-policy check: shop regulated items removed; labels for new posts
 
 - `petrol-pump-margins-and-e20-one-dealer` — 2026-10-16 &rarr; 2026-10-16
 - `biogas-is-priority-sector-loan-43` — 2026-10-16 &rarr; 2026-10-16
+
+## 2026-10-16T11:01:26+05:30 — 370 posts live
+
+Index: add CBG priority-sector and fuel-retail posts
+
+
+**Versions**
+
+- `article-index-start-here` **60.4.0 → 60.5.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `article-index-start-here` — 731,326 → 731,348 bytes (+22)
