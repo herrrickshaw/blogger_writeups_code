@@ -19,4 +19,15 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...r hybrid mix of 77 per cent wind and 23 per cent solar for Gujarat, its modelled base ca...
   suggested: percent
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...rs, wheeling charge waivers) make up 62 per cent of that total; non-power components (ca...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...reimbursement) make up the remaining 38 per cent. Seven states — Odisha, Maharashtra, Ta...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...at, and Andhra Pradesh — account for 92 per cent of the total potential support, roughly...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...tial support, roughly matching their 92 per cent share of the report's projected nationa...
+  suggested: percent

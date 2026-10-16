@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/the-masala-deutsch-shop-books-things.html",
   "slug": "the-masala-deutsch-shop-books-things",
   "published": "2026-08-08T18:11:59.000+05:30",
-  "updated": "2026-09-07T19:39:07.051+05:30",
+  "updated": "2026-10-16T11:21:10.978+05:30",
   "labels": [
     "Shop"
   ],
-  "bytes": 54222,
-  "sha256": "b5b90aae2c77bd504bb4c5a01d48b0ad77cb311b78ac2b4838df434a2baddf11",
+  "bytes": 51645,
+  "sha256": "02666d8a8c1aeabed01d5b415ecc2730fd05ed7e643520cf812589208404cc7c",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "9.0.2",
+  "version": "9.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -502,6 +502,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Bar links removed sitewide; dark-mode lock on 10 posts; headings on 2 posts"
+    },
+    {
+      "version": "9.1.0",
+      "date": "2026-10-16T11:21:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+0/-4 distinct numbers))",
+      "bytes": [
+        54222,
+        51645
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Content-policy check: shop regulated items removed; labels for new posts"
     }
   ]
 }

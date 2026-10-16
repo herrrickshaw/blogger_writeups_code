@@ -14651,3 +14651,16 @@ Index: add CBG priority-sector and fuel-retail posts
 **Changed**
 
 - `article-index-start-here` — 731,326 → 731,348 bytes (+22)
+
+## 2026-10-16T11:21:48+05:30 — 370 posts live
+
+Content-policy check: shop regulated items removed; labels for new posts
+
+
+**Versions**
+
+- `the-masala-deutsch-shop-books-things` **9.0.2 → 9.1.0** (MINOR) — forced via --as minor (figures changed (+0/-4 distinct numbers))
+
+**Changed**
+
+- `the-masala-deutsch-shop-books-things` — 54,222 → 51,645 bytes (-2,577)
