@@ -751,6 +751,7 @@ SLUG_CONTAINS = {
     "hydrogen-behind-the-biofuel": ["Energy & Fuels", "Ethanol & Biofuels", "Hydrogen", "Industrial Policy"],
     "hydrogen-behind-biofuel": ["Energy & Fuels", "Ethanol & Biofuels", "Hydrogen", "Industrial Policy"],
     "biogas-is-a-priority-sector": ["Energy & Fuels", "Gas & LNG", "City Gas Distribution", "Markets & Finance"],
+    "biogas-is-priority-sector": ["Energy & Fuels", "Gas & LNG", "City Gas Distribution", "Markets & Finance"],
     "petrol-pump-margins": ["Energy & Fuels", "Fuel Retail & Pricing", "Ethanol & Biofuels"],
 }
 
