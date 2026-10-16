@@ -14664,3 +14664,16 @@ Content-policy check: shop regulated items removed; labels for new posts
 **Changed**
 
 - `the-masala-deutsch-shop-books-things` — 54,222 → 51,645 bytes (-2,577)
+
+## 2026-10-16T11:22:52+05:30 — 370 posts live
+
+Index: add CBG priority-sector and fuel-retail posts
+
+
+**Versions**
+
+- `article-index-start-here` **60.5.0 → 60.6.0** (MINOR) — forced via --as minor (wording changed; no figures, sections or claims moved)
+
+**Changed**
+
+- `article-index-start-here` — 731,348 → 731,347 bytes (-1)

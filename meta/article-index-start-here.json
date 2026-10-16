@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-16T11:00:56.423+05:30",
+  "updated": "2026-10-16T11:22:23.250+05:30",
   "labels": [],
-  "bytes": 731348,
-  "sha256": "68bb92d2b5c63e16f8055403dcc61caa3aca2d27a2b7ed94ce952e9453d63033",
+  "bytes": 731347,
+  "sha256": "8e2098f30c18ae5092113b8b215027ea56580463bbdec75607d003ff9187271f",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "60.5.0",
+  "version": "60.6.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1933,6 +1933,19 @@
       "bytes": [
         731326,
         731348
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: add CBG priority-sector and fuel-retail posts"
+    },
+    {
+      "version": "60.6.0",
+      "date": "2026-10-16T11:22:52+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (wording changed; no figures, sections or claims moved)",
+      "bytes": [
+        731348,
+        731347
       ],
       "url_changed": null,
       "markers_changed": null,
