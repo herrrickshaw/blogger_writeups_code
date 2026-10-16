@@ -749,6 +749,7 @@ SLUG_CONTAINS = {
     "lysine":    ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
     "methionine": ["Chemicals", "Agriculture & Fertilisers", "Trade & Tariffs"],
     "hydrogen-behind-the-biofuel": ["Energy & Fuels", "Ethanol & Biofuels", "Hydrogen", "Industrial Policy"],
+    "hydrogen-behind-biofuel": ["Energy & Fuels", "Ethanol & Biofuels", "Hydrogen", "Industrial Policy"],
     "biogas-is-a-priority-sector": ["Energy & Fuels", "Gas & LNG", "City Gas Distribution", "Markets & Finance"],
     "petrol-pump-margins": ["Energy & Fuels", "Fuel Retail & Pricing", "Ethanol & Biofuels"],
 }
