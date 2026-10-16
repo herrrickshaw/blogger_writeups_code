@@ -14579,3 +14579,16 @@ Index: article-text search and new posts
 
 - `article-index-start-here` — 531,391 → 727,662 bytes (+196,271)
 - `us-stock-picks-multi-screen-quant` — 35,870 → 37,854 bytes (+1,984)
+
+## 2026-10-16T10:41:21+05:30 — 368 posts live
+
+CBG priority-sector post; CBG stack correction note
+
+
+**Versions**
+
+- `the-cbg-incentive-stack-every-leg-of` **3.2.0 → 3.3.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+
+**Changed**
+
+- `the-cbg-incentive-stack-every-leg-of` — 22,535 → 24,281 bytes (+1,746)

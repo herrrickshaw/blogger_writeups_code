@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-16T10:40:27+05:30",
+  "snapshot": "2026-10-16T10:41:21+05:30",
   "count": 368,
   "posts": {
     "1023631151138981087": {
@@ -574,13 +574,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/07/the-cbg-incentive-stack-every-leg-of.html",
       "slug": "the-cbg-incentive-stack-every-leg-of",
       "published": "2026-07-28T05:30:00.000+05:30",
-      "updated": "2026-10-09T09:48:45.497+05:30",
+      "updated": "2026-10-16T10:40:55.607+05:30",
       "labels": [
         "Energy & Fuels",
         "Industrial Policy"
       ],
-      "bytes": 22535,
-      "sha256": "2f20308335fefcc8386515052617923f24fcc913e07db5d7704411038429f3c8",
+      "bytes": 24281,
+      "sha256": "1f0a811a1a7ee2212305b0669712e16f94b4f712d12e04c0b710611fde0f80a9",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -592,7 +592,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.2.0",
+      "version": "3.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -844,6 +844,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
+        },
+        {
+          "version": "3.3.0",
+          "date": "2026-10-16T10:41:21+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            22535,
+            24281
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "CBG priority-sector post; CBG stack correction note"
         }
       ]
     },
@@ -51488,9 +51501,11 @@
       "url": "https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html",
       "slug": "the-hydrogen-behind-biofuel-mandate",
       "published": "2026-10-14T16:15:14.000+05:30",
-      "updated": "2026-10-14T16:15:54.177+05:30",
+      "updated": "2026-10-16T10:40:38.433+05:30",
       "labels": [
         "Energy & Fuels",
+        "Ethanol & Biofuels",
+        "Hydrogen",
         "Industrial Policy"
       ],
       "bytes": 45658,
