@@ -14615,3 +14615,16 @@ CBG priority-sector post; fuel-retail margins and E20 post
 
 - `petrol-pump-margins-and-e20-one-dealer` **v1.0.0** — Petrol-Pump Margins and E20: One Dealer Raise in Eight Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026 (42,824 bytes)
 - `biogas-is-priority-sector-loan-43` **v1.0.0** — Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches (34,924 bytes)
+
+## 2026-10-16T10:53:29+05:30 — 370 posts live
+
+Index: add CBG priority-sector and fuel-retail posts
+
+
+**Versions**
+
+- `article-index-start-here` **60.3.0 → 60.4.0** (MINOR) — forced via --as minor (figures changed (+2/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 727,752 → 731,326 bytes (+3,574)
