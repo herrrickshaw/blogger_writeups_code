@@ -14592,3 +14592,16 @@ CBG priority-sector post; CBG stack correction note
 **Changed**
 
 - `the-cbg-incentive-stack-every-leg-of` — 22,535 → 24,281 bytes (+1,746)
+
+## 2026-10-16T10:44:36+05:30 — 368 posts live
+
+Index: add CBG priority-sector and fuel-retail posts
+
+
+**Versions**
+
+- `article-index-start-here` **60.2.0 → 60.3.0** (MINOR) — forced via --as minor (visible text identical; only markup/styling changed)
+
+**Changed**
+
+- `article-index-start-here` — 727,662 → 727,752 bytes (+90)
