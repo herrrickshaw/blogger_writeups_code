@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*365 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*366 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 14 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 16 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -667,8 +667,10 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (109)
+### Energy & Fuels (110)
 
+- **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
+  Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)** — 2026-10-09
   Breaking the terms of a petroleum licence is a crime under the Petroleum Act, 1934, punishable by a month in jail or a ₹1,000 fine, amounts unchanged since 1970. A draft amendment released on 30 September would move licence breaches to civil penalties of up to ₹5 crore and make unlicensed activity and damage to oil infrastructure serious crimes; comments close on 30 October 2026.
 - **[India Raised Cooking-Oil Duties to Help Farmers in 2024. It Has Cut Them Twice Since, and Prices Kept Rising](https://masaladeutsch.blogspot.com/2026/10/india-raised-cooking-oil-duties-to-help.html)** — 2026-10-09
@@ -1312,8 +1314,10 @@
 - **[India Grows the Soybean, Exports the Meal, Leads in Lecithin — and Barely Makes Tofu Yet](https://masaladeutsch.blogspot.com/2026/08/india-grows-soybean-exports-meal-leads.html)** — 2026-08-15
   Madhya Pradesh and Maharashtra between them sow roughly 93 lakh hectares of soybean a year — a scale that ought to make India a soy-food powerhouse. Almost none of that crop becomes tofu, soy milk or protein isolate on an Indian plate. Trace the harvested bean through a crusher and it splits into meal, most of which used to be exported, and oil, which still leaves India roughly two-thirds reliant on imports to meet its own edible-oil demand. The one soy-derived product where India genuinely leads the world — lecithin — is a byproduct of that same oil-crushing step, not a separate industry. This piece follows the bean from MP and Maharashtra's fields through crushing, lecithin, and the still-small frontier of tofu, soy protein and edamame.
 
-### Industrial Policy (105)
+### Industrial Policy (106)
 
+- **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
+  Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India's First Tourism Survey Since 2014-15 Finds Pilgrimage Is 48% of Overnight Trips and Holidays 22%. The Ministry's 428 Crore Visits Are Not Comparable With It](https://masaladeutsch.blogspot.com/2026/10/indias-first-tourism-survey-since-2014.html)** — 2026-10-09
   MoSPI’s household survey of 2,46,113 households finds pilgrimage and treatment, not holidays, drive overnight travel. The Tourism Ministry’s count of domestic visits, built from state reports, rose 45.5% to 428.55 crore in 2025, and no published note reconciles the two.
 - **[Wheat's Support Price Rose by ₹25, the Smallest Rise in Years. The Granaries Explain Why](https://masaladeutsch.blogspot.com/2026/10/wheats-support-price-rose-by-25.html)** — 2026-10-09
@@ -4047,3 +4051,8 @@ Diabetes is pulling intense sweeteners into India’s drinks and tabletop market
 *2026-10-12 · Agriculture & Fertilisers, Chemicals, Trade & Tariffs*
 
 India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
+
+### [The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)
+*2026-10-14 · Energy & Fuels, Industrial Policy*
+
+Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
