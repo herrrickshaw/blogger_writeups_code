@@ -1352,5 +1352,23 @@ so verify any number that matters to a decision against the linked primary sourc
   document.head.appendChild(s);
 })();
 //]]></script>
+<script>//<![CDATA[
+/* Recent analysis cards: Blogger cuts data:post.snippet at a fixed length,
+   often mid-word ("...t&#8230;"). Drop the trailing partial word and end on
+   a whole word. Only touches snippets that end with an ellipsis. */
+(function(){
+  var ps=document.querySelectorAll('.card p');
+  for(var i=0;i<ps.length;i++){
+    var p=ps[i], t=p.textContent.replace(/\s+$/,'');
+    var m=t.match(/^([\s\S]*?)(?:\u2026|\.\.\.)$/);
+    if(!m) continue;
+    var body=m[1].replace(/\s+$/,'');
+    var cut=body.search(/\s\S*$/);
+    if(cut<20) continue;
+    body=body.slice(0,cut).replace(/[\s,;:\u2013\u2014-]+$/,'');
+    p.textContent=body+'\u2026';
+  }
+})();
+//]]></script>
 </body>
 </html>
