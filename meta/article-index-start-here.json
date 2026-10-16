@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-13T08:43:51.459+05:30",
+  "updated": "2026-10-16T10:25:34.632+05:30",
   "labels": [],
-  "bytes": 531391,
-  "sha256": "961548f4c92f3d6d1f8682c6333a4e52566a5e87fbf19d4057f3bd1358487ae9",
+  "bytes": 727662,
+  "sha256": "7677ec094f4bef990d3574e82cc4262eae12018be76168bb2a44a3b7ff492f71",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "60.1.0",
+  "version": "60.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1885,6 +1885,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index rebuilt with amino-acids article labelled"
+    },
+    {
+      "version": "60.2.0",
+      "date": "2026-10-16T10:26:07+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-3 distinct numbers))",
+      "bytes": [
+        531391,
+        727662
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: article-text search and new posts"
     }
   ]
 }
