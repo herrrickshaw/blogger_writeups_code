@@ -6,7 +6,9 @@
 
 - ERROR checking chunk: HTTP Error 500: Internal Server Error
 - ERROR checking chunk: HTTP Error 500: Internal Server Error
-- ERROR checking chunk: HTTP Error 500: Internal Server Error
+- **[GRAMMAR/ADVERB_OR_HYPHENATED_ADJECTIVE]** Make sure that the adjective ‘whole’ is correct. Possibly, it should be an adverb (typically ~ly) that modifies ‘recorded’. Possibly, it should be the first word in a compound adjective (hyphenated adjective). Possibly, it is correct.
+  context: ...rupee-settlement apparatus, that is the whole recorded stock of direct investment.  Exhibit 18...
+  suggested: whole-recorded
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ... imports, by SIPRI's five-year windows  Per cent of Indian arms imports supplied by Russ...
   suggested: Percent

@@ -25,3 +25,9 @@
 - **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
   context: ...42 billion by 2031 at a comparable 27.8 per cent CAGR — a more than three-fold differenc...
   suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...aimed its strikes had disabled about 51 per cent of Russian refining capacity, above the...
+  suggested: percent
+- **[COMPOUNDING/PER_CENT]** In American English, “percent” is the recommended spelling.
+  context: ...refining capacity, above the roughly 43 per cent cited below. This is a Ukrainian claim ...
+  suggested: percent

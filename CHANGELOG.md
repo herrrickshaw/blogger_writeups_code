@@ -14628,3 +14628,13 @@ Index: add CBG priority-sector and fuel-retail posts
 **Changed**
 
 - `article-index-start-here` — 727,752 → 731,326 bytes (+3,574)
+
+## 2026-10-16T10:58:23+05:30 — 370 posts live
+
+Content-policy check: shop regulated items removed; labels for new posts
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `petrol-pump-margins-and-e20-one-dealer` — 2026-10-16 &rarr; 2026-10-16
+- `biogas-is-priority-sector-loan-43` — 2026-10-16 &rarr; 2026-10-16
