@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-10-17T08:08:21.341+05:30",
+  "updated": "2026-10-17T08:14:54.902+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 30831,
-  "sha256": "72636405d9d8117482f7094fefcc70eb0ed25f402af6d218fb0f2db059f95b3b",
+  "bytes": 31000,
+  "sha256": "c4661dc8dc7470d6dc13414b6842a450efe3dbc8fadbadc1694acb1f818b54c9",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.2.0",
+  "version": "3.3.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -227,6 +227,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: LPG commission, CBG and fuel-retail posts"
+    },
+    {
+      "version": "3.3.0",
+      "date": "2026-10-17T08:15:26+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        30831,
+        31000
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "LPG commission: associations section; August note links the history post"
     }
   ]
 }

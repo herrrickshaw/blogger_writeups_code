@@ -14696,3 +14696,18 @@ Index: LPG commission, CBG and fuel-retail posts
 
 - `petrol-pump-margins-and-e20-one-dealer` — 42,824 → 51,268 bytes (+8,444)
 - `lpgs-missing-number-7308-commission-and` — 29,718 → 30,831 bytes (+1,113)
+
+## 2026-10-17T08:15:26+05:30 — 371 posts live
+
+LPG commission: associations section; August note links the history post
+
+
+**Versions**
+
+- `the-lpg-distributors-commission-rose-16` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+18/-0 distinct numbers))
+- `lpgs-missing-number-7308-commission-and` **3.2.0 → 3.3.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+
+**Changed**
+
+- `the-lpg-distributors-commission-rose-16` — 32,505 → 38,994 bytes (+6,489)
+- `lpgs-missing-number-7308-commission-and` — 30,831 → 31,000 bytes (+169)
