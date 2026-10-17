@@ -1,8 +1,8 @@
 # Masala Deutsch — All Posts, Summarised
 
-*366 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
+*369 published posts, 78 topic labels. Each entry is the post's own published standfirst — not a re-summary.*
 
-*Generated 16 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
+*Generated 17 October 2026 — regenerated daily by tools/update_summary_cron.sh.*
 
 
 ## Units & Figures Used in This Blog
@@ -515,8 +515,10 @@
 - **[PET Recycling Already Cuts Emissions 60%+. The New MOEFCC Rules Are About Making That System Traceable](https://masaladeutsch.blogspot.com/2026/08/pet-recycling-already-cuts-emissions-60.html)** — 2026-08-16
   Recycled PET uses 70-79% less energy than making the same plastic from scratch, and India already recovers the large majority of what it puts into bottles — almost entirely through an informal collection network the country's Extended Producer Responsibility system doesn't formally recognise. The Plastic Waste Management (Amendment) Rules, 2026, notified by MOEFCC in early 2026, don't fix that collection problem; they mandate what happens to the material once it's collected — recycled-content floors, food-grade certification, and QR-code tracking. This piece follows PET through both halves of that story, and places it against the same waste-to-value pattern this blog has already traced in batteries, tyres and used oil.
 
-### City Gas Distribution (6)
+### City Gas Distribution (7)
 
+- **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
+  A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
   SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 - **[PNGRB Wants Prepaid Smart Meters on Every New Gas Connection From 2027, All of Them by 2030](https://masaladeutsch.blogspot.com/2026/09/pngrb-wants-prepaid-smart-meters-on.html)** — 2026-09-08
@@ -667,8 +669,14 @@
 - **[India's Mobile-Phone PLI Beat Every Target. Its Chip-Fab Scheme Has 5 of 12 Plants Actually Producing.](https://masaladeutsch.blogspot.com/2026/08/indias-mobile-phone-pli-beat-every.html)** — 2026-08-30
   India's mobile-phone PLI scheme beat its own five-year investment target by 294% and its production target by 142% — a genuine, government-reported overperformance. Its chip-fabrication cousin, the Semicon India Programme, has 12 approved plants and, as of SEMICON India 2026 in September, 5 producing anything (up from 3 when this piece was first published). The gap between the two tells you which parts of India's electronics-manufacturing push are working and which are still mostly paper.
 
-### Energy & Fuels (110)
+### Energy & Fuels (113)
 
+- **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
+  PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
+- **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
+  A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
+- **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
+  The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
 - **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
   Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India's Petroleum Act Still Fines a Licence Breach ₹1,000. The Draft Fix Goes to ₹5 Crore](https://masaladeutsch.blogspot.com/2026/10/indias-petroleum-act-still-fines.html)** — 2026-10-09
@@ -927,8 +935,12 @@
 - **[US Stock Picks — Multi-Screen Quant Shortlist (24 Jul 2026)](https://masaladeutsch.blogspot.com/2026/07/us-stock-picks-multi-screen-quant.html)** — 2026-07-24
   Follow-up: see how the model portfolios built from these screens actually performed, cross-checked against public index benchmarks.
 
-### Ethanol & Biofuels (24)
+### Ethanol & Biofuels (26)
 
+- **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
+  The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
+- **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
+  Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India's Ethanol Surplus Buys About Five Blend Points. E30, Diesel and Jet Fuel Need Twice the Supply.](https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html)** — 2026-10-03
   India's ethanol industry was offered 1,776 crore litres against a need of about 1,050 in 2025-26, but that surplus covers only about five more points of petrol blending. E30, isobutanol in diesel and jet fuel from ethanol would together need more than twice what today's distilleries can deliver.
 - **[India's Biofuel Rules Are Being Written in Court: E20 Survives, States Gain Alcohol Powers, and Ethanol Contracts Go on Trial](https://masaladeutsch.blogspot.com/2026/10/indias-biofuel-rules-are-being-written.html)** — 2026-10-03
@@ -1019,8 +1031,12 @@
 - **[India's Trade Story Has Three Big Wins and One Gap the Headlines Skip](https://masaladeutsch.blogspot.com/2026/08/indias-trade-story-has-three-big-wins.html)** — 2026-08-08
   A record $825 billion in exports, a landmark EU trade deal, a PLI scheme that overshot its own investment target by 26%. Every headline number is real. The gap sits underneath them: in the first half of this fiscal year, merchandise exports grew 2.4% while services grew 6.5% — and almost every big new scheme this piece covers is aimed at the slower-growing half.
 
-### Fuel Retail & Pricing (6)
+### Fuel Retail & Pricing (8)
 
+- **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
+  PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
+- **[Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)** — 2026-10-16
+  The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
 - **[India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale.](https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html)** — 2026-09-27
   India imports 60 to 67 per cent of the roughly 31 to 33 million tonnes of LPG it burns in kitchens every year, and about 90 per cent of that import volume transits the Strait of Hormuz. That single fact is funding four separate attempts to redesign what comes out of the stove's burner: dimethyl ether blended into the cylinder, hydrogen blended into it or generated inside the appliance itself, and ethanol or methanol gel burned in a dedicated stove. The Bureau of Indian Standards has already reversed course once on how much of one of these fuels a cylinder can legally carry. This piece separates what is actually for sale from what is still a laboratory result, and names the body — LERC, the oil marketing companies' own equipment-research centre — whose single 2025 study did the reversing.
 - **[UK Retail Canopies at 5.4m: The Real Design Standard Is 5.03m, and One Approved Site Only Reached 5.1m](https://masaladeutsch.blogspot.com/2026/08/uk-retail-canopies-at-54m-real-design.html)** — 2026-08-30
@@ -1034,8 +1050,10 @@
 - **[India Fuel Retail Outlets — 82k Geocoded Map (Part 2 of 3)](https://masaladeutsch.blogspot.com/2026/07/india-fuel-retail-outlets-82k-geocoded.html)** — 2026-07-22
   Part 2 of 3 in the CNG/CGD retail-mapping series. Companion posts: the CGD GA district map (Part 1) and the cold-chain × outlet integrated map (Part 3). Served live from GitHub Pages.
 
-### Gas & LNG (27)
+### Gas & LNG (28)
 
+- **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
+  A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India Has 132 Compressed Biogas Plants Running. The Pipeline to Actually Use That Gas Reaches 17 of Them.](https://masaladeutsch.blogspot.com/2026/09/india-has-132-compressed-biogas-plants.html)** — 2026-09-23
   SATAT set out in 2018 to build 5,000 compressed biogas plants by 2023-24. India has commissioned 132. Of those, the regulator's own September 2026 count says only 17 are actually connected to a city gas network by dedicated pipeline — meaning most of the plants that exist still cannot inject their gas into the grid the blending mandate assumes they will feed.
 - **[PNGRB Graded Its Own Homework on the 2025-26 Plan. Its Own Numbers Undercut the Cover Letter.](https://masaladeutsch.blogspot.com/2026/09/pngrb-graded-its-own-homework-on-2025.html)** — 2026-09-23
@@ -1164,8 +1182,10 @@
 - **[India's Two Tracks of Health Cover, and Where They Actually Meet](https://masaladeutsch.blogspot.com/2026/08/indias-two-tracks-of-health-cover-and.html)** — 2026-08-12
   India now runs two large, separately-growing health-cover systems at once. On one track, the government's Ayushman Bharat PM-JAY has issued over 48.5 crore cards (up from 43.52 crore when this piece was first written) and reached every state and union territory as of June 2026, after West Bengal became the last holdout to join. On the other, private individual health insurance premiums grew nearly 30% in the six months after a September 2025 GST exemption, and international reinsurers are opening branches in GIFT City at a pace that's tripled the sector's local capacity this year. Both are real growth stories. What this piece checks is whether they're actually the same story — whether public scheme coverage and private insurance uptake move together, substitute for each other, or barely touch — using the state-level and research data available, not assumption.
 
-### Hydrogen (7)
+### Hydrogen (8)
 
+- **[The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)** — 2026-10-14
+  Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
 - **[India Imports 60% of Its Cooking Gas. Four Redesigned Stoves Are Trying to Fix That — Only One Is Actually for Sale.](https://masaladeutsch.blogspot.com/2026/09/india-imports-60-of-its-cooking-gas.html)** — 2026-09-27
   India imports 60 to 67 per cent of the roughly 31 to 33 million tonnes of LPG it burns in kitchens every year, and about 90 per cent of that import volume transits the Strait of Hormuz. That single fact is funding four separate attempts to redesign what comes out of the stove's burner: dimethyl ether blended into the cylinder, hydrogen blended into it or generated inside the appliance itself, and ethanol or methanol gel burned in a dedicated stove. The Bureau of Indian Standards has already reversed course once on how much of one of these fuels a cylinder can legally carry. This piece separates what is actually for sale from what is still a laboratory result, and names the body — LERC, the oil marketing companies' own equipment-research centre — whose single 2025 study did the reversing.
 - **[PNGRB Hydrogen-Blending Pilots: The Real Numbers Behind the 10 Percent Claim](https://masaladeutsch.blogspot.com/2026/09/pngrb-hydrogen-blending-pilots-real.html)** — 2026-09-02
@@ -1647,8 +1667,10 @@
 - **[How India's Automotive Clusters Rewired Themselves Around Just-in-Time Delivery](https://masaladeutsch.blogspot.com/2026/08/how-indias-automotive-clusters-rewired.html)** — 2026-08-15
   Maruti Suzuki gets over 76% of its 246 suppliers within 100km of its assembly lines, and its "e-Nagare" system cut the order-to-shopfloor cycle from 30 hours to 2. That single number is the clearest evidence of how India's automotive clusters actually work today — not as five separate manufacturing hubs, but as increasingly tight, just-in-time-organised ecosystems where component suppliers sit inside the same radius as the OEM. This piece maps the clusters, the mechanics of the JIT shift, and the one real crisis — the 2021 semiconductor shortage — that showed exactly where that model breaks.
 
-### Markets & Finance (49)
+### Markets & Finance (50)
 
+- **[Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)** — 2026-10-16
+  A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
 - **[India's FDI Moved to Software and Trading After 2017: Software Rose From 7.4% to 22.7% of Inflow, Townships Fell From 7.3% to 0.7%](https://masaladeutsch.blogspot.com/2026/10/indias-fdi-moved-to-software-and.html)** — 2026-10-10
   The open data portal’s sector tables stop their annual series at 2016-17 and give a cumulative total to June 2023. Subtracting one from the other shows what changed: inflow averaging $50 billion a year instead of $20 billion, and a different set of sectors taking it.
 - **[The RBI's FCNR(B) Window Drew $133 Billion. Reserves Have Since Fallen $51 Billion From Their Peak, and the RBI's Short Forward Book Passed $200 Billion](https://masaladeutsch.blogspot.com/2026/10/the-rbis-fcnrb-window-drew-133-billion.html)** — 2026-10-10
@@ -1853,8 +1875,10 @@
 - **[Priority Trade Partners by Import-Growth Sector, & Real PLI Coverage](https://masaladeutsch.blogspot.com/2026/08/priority-trade-partners-by-import.html)** — 2026-08-02
   Maps each of the 12 fastest-growing/highest-value import chapters (from this repo's HSN historical-trends bulletin) to its actual top supplier countries via TRADESTAT, builds a cross-sector country-priority ranking, and checks exactly which Production Linked Incentive sub-schemes — including White Goods and Specialty Steel — actually reach these chapters.
 
-### Prices & Inflation (8)
+### Prices & Inflation (9)
 
+- **[The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)** — 2026-10-17
+  PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
 - **[A 17% Rural Pay Rise That Nobody Received](https://masaladeutsch.blogspot.com/2026/08/a-17-rural-pay-rise-that-nobody-received.html)** — 2026-08-22
   India’s reported rural wage growth jumped from a steady 6 per cent to 17 per cent, and the average daily wage crossed ₹500. No comparable change happened in any field. What changed was the sample: the Labour Bureau swapped in a new set of villages and never announced it. The same sample sets the index that decides what ten crore rural workers are legally paid.
 - **[Where India Actually Burns Its Fuel: Sixteen Years of State-Level Sales](https://masaladeutsch.blogspot.com/2026/08/where-india-actually-burns-its-fuel.html)** — 2026-08-08
@@ -4053,6 +4077,21 @@ Diabetes is pulling intense sweeteners into India’s drinks and tabletop market
 India’s deficit across eight amino-acid lines is $354 million, and methionine alone is 48% of it. It is made from acrolein, methyl mercaptan and hydrogen cyanide, not sugar, while MSG imports grow and glycine trade is balanced but under a DGTR case.
 
 ### [The Hydrogen Behind the Biofuel Mandate: A Country-by-Country Map of Who Is Covered, What Counts, and Which Hydrogen Gets Paid For](https://masaladeutsch.blogspot.com/2026/10/the-hydrogen-behind-biofuel-mandate.html)
-*2026-10-14 · Energy & Fuels, Industrial Policy*
+*2026-10-14 · Energy & Fuels, Ethanol & Biofuels, Hydrogen, Industrial Policy*
 
 Biofuel rules cover road fuel, aviation and shipping in very different ways, and only the EU, the UK and a few of their member states tie a numbered hydrogen quota to them. This maps the rules and the hydrogen incentives country by country, with each status flagged, from summaries because no primary text was opened.
+
+### [Biogas Is a Priority-Sector Loan. The 43% Higher CBG Price Is Worth About 50 Times the Cost of the Repo Hike, for the Plants It Reaches](https://masaladeutsch.blogspot.com/2026/10/biogas-is-priority-sector-loan-43.html)
+*2026-10-16 · City Gas Distribution, Energy & Fuels, Gas & LNG, Markets & Finance*
+
+A biogas developer on a floating-rate loan pays more interest after the RBI’s hike to 5.50% while earning more per kilogram of gas. On the published numbers the price rise dwarfs the rate rise, except for plants that never receive the new price, and RBI data on CBG lending do not exist.
+
+### [Petrol-Pump Margins and E20: The First Dealer Raise in Seven Years, Not Tied to Ethanol, While Oil-Company Margins Followed Crude Into the Red in 2026](https://masaladeutsch.blogspot.com/2026/10/petrol-pump-margins-and-e20-one-dealer.html)
+*2026-10-16 · Energy & Fuels, Ethanol & Biofuels, Fuel Retail & Pricing*
+
+The average Indian outlet earns about Rs 4.77 lakh a month in gross commission, and the October 2024 revision, a litigation settlement, was the first increase in seven years and did not restore what inflation had taken. The oil companies’ margin followed crude, and the clear gainer from E20 is the ethanol supplier.
+
+### [The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012](https://masaladeutsch.blogspot.com/2026/10/the-lpg-distributors-commission-rose-16.html)
+*2026-10-17 · Energy & Fuels, Fuel Retail & Pricing, Prices & Inflation*
+
+PPAC’s record shows the commission on a domestic cylinder going from Rs 16.71 in 2004 to Rs 73.08 in 2023. In today’s rupees, the revisions of 2012 to 2018 only kept pace with prices, the 2019 raise was the one real gain, and inflation has since taken it back.
