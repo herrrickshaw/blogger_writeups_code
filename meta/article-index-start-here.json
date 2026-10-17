@@ -4,10 +4,10 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
   "slug": "article-index-start-here",
   "published": "2026-08-02T10:43:26.000+05:30",
-  "updated": "2026-10-17T08:09:21.982+05:30",
+  "updated": "2026-10-17T08:23:24.182+05:30",
   "labels": [],
-  "bytes": 731347,
-  "sha256": "8e2098f30c18ae5092113b8b215027ea56580463bbdec75607d003ff9187271f",
+  "bytes": 733393,
+  "sha256": "a4ee8d47e6e88a9405ccd7b91b270e0c66ba0bb98e507f0471026a9eb3c5ea7a",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -19,7 +19,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "60.6.0",
+  "version": "60.7.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -1950,6 +1950,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Index: add CBG priority-sector and fuel-retail posts"
+    },
+    {
+      "version": "60.7.0",
+      "date": "2026-10-17T08:23:57+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+4/-2 distinct numbers))",
+      "bytes": [
+        731347,
+        733393
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: labels for LPG commission post"
     }
   ]
 }
