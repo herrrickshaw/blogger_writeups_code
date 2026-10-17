@@ -14677,3 +14677,22 @@ Index: add CBG priority-sector and fuel-retail posts
 **Changed**
 
 - `article-index-start-here` — 731,348 → 731,347 bytes (-1)
+
+## 2026-10-17T08:09:55+05:30 — 371 posts live
+
+Index: LPG commission, CBG and fuel-retail posts
+
+
+**Added**
+
+- `the-lpg-distributors-commission-rose-16` **v1.0.0** — The LPG Distributor's Commission Rose 16 Times Since 2004. After Inflation, It Is Back Where It Was in 2012 (32,505 bytes)
+
+**Versions**
+
+- `petrol-pump-margins-and-e20-one-dealer` **1.0.0 → 1.1.0** (MINOR) — forced via --as minor (figures changed (+43/-5 distinct numbers))
+- `lpgs-missing-number-7308-commission-and` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+11/-0 distinct numbers))
+
+**Changed**
+
+- `petrol-pump-margins-and-e20-one-dealer` — 42,824 → 51,268 bytes (+8,444)
+- `lpgs-missing-number-7308-commission-and` — 29,718 → 30,831 bytes (+1,113)

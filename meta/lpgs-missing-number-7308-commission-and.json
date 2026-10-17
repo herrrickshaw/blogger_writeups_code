@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/lpgs-missing-number-7308-commission-and.html",
   "slug": "lpgs-missing-number-7308-commission-and",
   "published": "2026-08-08T20:55:54.000+05:30",
-  "updated": "2026-10-01T08:41:15.478+05:30",
+  "updated": "2026-10-17T08:08:21.341+05:30",
   "labels": [
     "Energy & Fuels",
     "Fuel Retail & Pricing",
     "Industrial Policy",
     "Markets & Finance"
   ],
-  "bytes": 29718,
-  "sha256": "9f27e639e44087acb1c2ad0acc2a3ddfb32dcd035dce14f5d8de337f4117eb9d",
+  "bytes": 30831,
+  "sha256": "72636405d9d8117482f7094fefcc70eb0ed25f402af6d218fb0f2db059f95b3b",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -214,6 +214,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-17T08:09:55+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        29718,
+        30831
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Index: LPG commission, CBG and fuel-retail posts"
     }
   ]
 }
