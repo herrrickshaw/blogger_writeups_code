@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
   "slug": "india-tracks-every-taxpayer-in-minutes",
   "published": "2026-10-18T06:50:17.000+05:30",
-  "updated": "2026-10-18T06:51:28.286+05:30",
+  "updated": "2026-10-18T08:13:26.890+05:30",
   "labels": [
     "Healthcare",
     "Industrial Policy",
     "Scheme Delivery Gap"
   ],
-  "bytes": 45823,
-  "sha256": "561ef459c4dc6f9bfd5150681fb20401a74f431ab42d977bd0473612176ee6ca",
+  "bytes": 51434,
+  "sha256": "d2202be122d5144cb57dd12b36ca6219e0b5c1c37fe246ed56b4d5c3a5bd2fa3",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -31,6 +31,19 @@
       "level": "initial",
       "reason": "first snapshot",
       "note": "Health-IT vs tax-ID post; GDP base-year and 16th FC notes"
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-10-18T08:13:54+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+11/-0 distinct numbers))",
+      "bytes": [
+        45823,
+        51434
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Health-IT post: AI and jobs conclusion"
     }
   ]
 }
