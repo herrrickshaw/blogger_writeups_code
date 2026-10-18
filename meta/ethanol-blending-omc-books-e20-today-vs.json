@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/ethanol-blending-omc-books-e20-today-vs.html",
   "slug": "ethanol-blending-omc-books-e20-today-vs",
   "published": "2026-07-24T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:20:16.664+05:30",
+  "updated": "2026-10-18T06:17:18.360+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 47588,
-  "sha256": "9d5c0b07e069082220105c924c87e6e32cb0033cb6982150601755c789324144",
+  "bytes": 49057,
+  "sha256": "1bd5f591e9c3d7ce3cf8abb0482e3b7fc8fc46a7395fbda06e8cafe8931f28af",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -282,6 +282,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-18T06:17:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        47588,
+        49057
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
     }
   ]
 }

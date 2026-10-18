@@ -4,14 +4,14 @@
   "url": "https://masaladeutsch.blogspot.com/2026/10/indias-ethanol-surplus-buys-about-five.html",
   "slug": "indias-ethanol-surplus-buys-about-five",
   "published": "2026-10-03T14:45:56.000+05:30",
-  "updated": "2026-10-04T05:22:32.812+05:30",
+  "updated": "2026-10-18T06:16:11.452+05:30",
   "labels": [
     "Agriculture & Fertilisers",
     "Energy & Fuels",
     "Ethanol & Biofuels"
   ],
-  "bytes": 59250,
-  "sha256": "9785f7ffdaeea614352aad36e5dd64683627023ab34c24b0a97ea7067854c1f3",
+  "bytes": 60792,
+  "sha256": "e7877eeec30d119d2494430b759c560c40364bc17e999d909eba043fbb112cf7",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": false,
@@ -23,7 +23,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "7.0.0",
+  "version": "7.1.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -122,6 +122,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": ""
+    },
+    {
+      "version": "7.1.0",
+      "date": "2026-10-18T06:17:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        59250,
+        60792
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
     }
   ]
 }

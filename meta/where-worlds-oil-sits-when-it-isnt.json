@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/where-worlds-oil-sits-when-it-isnt.html",
   "slug": "where-worlds-oil-sits-when-it-isnt",
   "published": "2026-08-14T07:00:46.000+05:30",
-  "updated": "2026-10-01T09:01:46.385+05:30",
+  "updated": "2026-10-18T06:17:03.023+05:30",
   "labels": [
     "Energy & Fuels"
   ],
-  "bytes": 49820,
-  "sha256": "8b7485667a8e911a07f5afcf859e05f9a00e2be1bd159a7c9f636143fac05c14",
+  "bytes": 50976,
+  "sha256": "e9b6927cb1469ebdd204045881ecdd0714e170d5de42eb0c24638d07561a537d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "2.1.0",
+  "version": "2.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -159,6 +159,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "2.2.0",
+      "date": "2026-10-18T06:17:48+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+      "bytes": [
+        49820,
+        50976
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)"
     }
   ]
 }

@@ -14751,3 +14751,28 @@ Sweep 4: Seeds Bill note and stale-claim notes on 7 posts
 - `upi-fees-are-now-legal-petrol-pumps` — 46,669 → 47,741 bytes (+1,072)
 - `fuel-pricing-to-crude-cost` — 88,001 → 89,425 bytes (+1,424)
 - `announced-vs-delivered-three-indian` — 53,799 → 55,332 bytes (+1,533)
+
+## 2026-10-18T06:17:48+05:30 — 371 posts live
+
+Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, excise)
+
+
+**Versions**
+
+- `petrol-pump-margins-and-e20-one-dealer` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+- `indias-ethanol-surplus-buys-about-five` **7.0.0 → 7.1.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+- `india-ended-63-years-of-state-nuclear` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `where-worlds-oil-sits-when-it-isnt` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `upi-fees-are-now-legal-petrol-pumps` **14.2.0 → 14.3.0** (MINOR) — forced via --as minor (figures changed (+4/-0 distinct numbers))
+- `indias-wholesale-prices-next-to` **7.1.0 → 7.2.0** (MINOR) — forced via --as minor (figures changed (+6/-0 distinct numbers))
+- `ethanol-blending-omc-books-e20-today-vs` **2.1.0 → 2.2.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+
+**Changed**
+
+- `petrol-pump-margins-and-e20-one-dealer` — 51,268 → 51,704 bytes (+436)
+- `indias-ethanol-surplus-buys-about-five` — 59,250 → 60,792 bytes (+1,542)
+- `india-ended-63-years-of-state-nuclear` — 22,387 → 23,769 bytes (+1,382)
+- `where-worlds-oil-sits-when-it-isnt` — 49,820 → 50,976 bytes (+1,156)
+- `upi-fees-are-now-legal-petrol-pumps` — 47,741 → 48,344 bytes (+603)
+- `indias-wholesale-prices-next-to` — 43,100 → 44,146 bytes (+1,046)
+- `ethanol-blending-omc-books-e20-today-vs` — 47,588 → 49,057 bytes (+1,469)
