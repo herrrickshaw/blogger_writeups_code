@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/09/indias-gas-pipelines-run-at-half.html",
   "slug": "indias-gas-pipelines-run-at-half",
   "published": "2026-09-08T05:37:01.000+05:30",
-  "updated": "2026-10-01T08:34:55.329+05:30",
+  "updated": "2026-10-18T06:23:55.626+05:30",
   "labels": [
     "Energy & Fuels",
     "Gas & LNG",
     "Gas Pipeline Infrastructure & Demand Planning",
     "Industrial Policy"
   ],
-  "bytes": 33720,
-  "sha256": "9be9b00c2017b33081784444f971dcf9876c27b410e1aaf8372c584651e2bc15",
+  "bytes": 34965,
+  "sha256": "e34ec3832983391328f98a38a3defed96780b5785c71b1bd01a8f5e3bcc2dc1d",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "1.1.0",
+  "version": "1.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -84,6 +84,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "1.2.0",
+      "date": "2026-10-18T06:24:50+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        33720,
+        34965
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-200"
     }
   ]
 }

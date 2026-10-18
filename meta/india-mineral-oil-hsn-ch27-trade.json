@@ -4,13 +4,13 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/india-mineral-oil-hsn-ch27-trade.html",
   "slug": "india-mineral-oil-hsn-ch27-trade",
   "published": "2026-07-30T09:42:00.000+05:30",
-  "updated": "2026-10-01T08:30:07.854+05:30",
+  "updated": "2026-10-18T06:23:44.662+05:30",
   "labels": [
     "Customs & HSN Trade Data",
     "Trade & Tariffs"
   ],
-  "bytes": 111563,
-  "sha256": "e9786289dda775ebf18279fc33d7de25efdb40a3e709f4265273d05a62661ec9",
+  "bytes": 112873,
+  "sha256": "b7211524b3793be6a68bbe42c7c161d0bc41b0b34d8b38b17274b418d02d93de",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -22,7 +22,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -325,6 +325,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-18T06:24:50+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+3/-0 distinct numbers))",
+      "bytes": [
+        111563,
+        112873
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-200"
     }
   ]
 }

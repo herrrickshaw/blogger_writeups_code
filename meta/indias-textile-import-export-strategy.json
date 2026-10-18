@@ -4,15 +4,15 @@
   "url": "https://masaladeutsch.blogspot.com/2026/07/indias-textile-import-export-strategy.html",
   "slug": "indias-textile-import-export-strategy",
   "published": "2026-07-27T05:30:00.000+05:30",
-  "updated": "2026-10-01T08:38:13.783+05:30",
+  "updated": "2026-10-18T06:24:10.692+05:30",
   "labels": [
     "Chemicals",
     "Quality Standards & Certification",
     "Textiles",
     "Trade & Tariffs"
   ],
-  "bytes": 53552,
-  "sha256": "4f0a64c90a54edc3f2e01b1b278c29deacdbc5ccc680930964bdde5f7bc3cb93",
+  "bytes": 54977,
+  "sha256": "edf62935629a0da93cf5e35ceb6503d46b89d9b845349e895065da11d38f3c05",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -24,7 +24,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -328,6 +328,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-18T06:24:50+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+1/-0 distinct numbers))",
+      "bytes": [
+        53552,
+        54977
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-200"
     }
   ]
 }

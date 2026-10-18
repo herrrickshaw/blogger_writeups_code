@@ -14776,3 +14776,22 @@ Sweep 4: notes for posts 81-160 (SHANTI, ethanol, UPI, WPI/PPI, Kirkuk-Ceyhan, e
 - `upi-fees-are-now-legal-petrol-pumps` — 47,741 → 48,344 bytes (+603)
 - `indias-wholesale-prices-next-to` — 43,100 → 44,146 bytes (+1,046)
 - `ethanol-blending-omc-books-e20-today-vs` — 47,588 → 49,057 bytes (+1,469)
+
+## 2026-10-18T06:24:50+05:30 — 371 posts live
+
+Sweep 4: notes for posts 81-200
+
+
+**Versions**
+
+- `indias-gas-pipelines-run-at-half` **1.1.0 → 1.2.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+- `inflation-trends-globally-what-five` **4.1.0 → 4.2.0** (MINOR) — forced via --as minor (figures changed (+5/-0 distinct numbers))
+- `india-mineral-oil-hsn-ch27-trade` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+3/-0 distinct numbers))
+- `indias-textile-import-export-strategy` **4.1.0 → 4.2.0** (MINOR) — forced via --as minor (figures changed (+1/-0 distinct numbers))
+
+**Changed**
+
+- `indias-gas-pipelines-run-at-half` — 33,720 → 34,965 bytes (+1,245)
+- `inflation-trends-globally-what-five` — 59,149 → 60,205 bytes (+1,056)
+- `india-mineral-oil-hsn-ch27-trade` — 111,563 → 112,873 bytes (+1,310)
+- `indias-textile-import-export-strategy` — 53,552 → 54,977 bytes (+1,425)

@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/inflation-trends-globally-what-five.html",
   "slug": "inflation-trends-globally-what-five",
   "published": "2026-08-08T08:31:31.000+05:30",
-  "updated": "2026-10-01T08:39:35.021+05:30",
+  "updated": "2026-10-18T06:24:22.114+05:30",
   "labels": [
     "Prices & Inflation"
   ],
-  "bytes": 59149,
-  "sha256": "99c7cc76c77aa41ee71cb5254242fdbc4492a98e826012cbfb9fd624e24e926b",
+  "bytes": 60205,
+  "sha256": "e85a548782fbe3ad7bde66cac3437a9bf29f2942d73c164a73cdd1fd8f3b0dc6",
   "markers": {
     "light_lock": false,
     "dark_panel_guard": false,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "4.1.0",
+  "version": "4.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -315,6 +315,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "4.2.0",
+      "date": "2026-10-18T06:24:50+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+5/-0 distinct numbers))",
+      "bytes": [
+        59149,
+        60205
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Sweep 4: notes for posts 81-200"
     }
   ]
 }
