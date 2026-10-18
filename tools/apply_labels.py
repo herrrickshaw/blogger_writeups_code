@@ -755,6 +755,7 @@ SLUG_CONTAINS = {
     "petrol-pump-margins": ["Energy & Fuels", "Fuel Retail & Pricing", "Ethanol & Biofuels"],
     "lpg-distributors-commission": ["Energy & Fuels", "Fuel Retail & Pricing", "Prices & Inflation"],
     "india-tracks-every-taxpayer": ["Healthcare", "Industrial Policy", "Scheme Delivery Gap"],
+    "ai-is-not-taking-indias-offshore": ["Markets & Finance", "Industrial Policy", "Scheme Delivery Gap"],
 }
 
 
