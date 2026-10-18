@@ -14905,3 +14905,16 @@ Index: cache_memory_cleaner how-to post
 - `how-to-use-news-tracker-score-headlines` **v1.0.0** — How to use the news tracker: score headlines and check them against stock picks (22,067 bytes)
 - `how-to-use-bms-battery-management` **v1.0.0** — How to use bms-battery-management: simulate an EV battery pack in Python (22,194 bytes)
 - `how-to-use-claude-lmstudio-router-keep` **v1.0.0** — How to use claude-lmstudio-router: keep working when Claude is unavailable (24,260 bytes)
+
+## 2026-10-18T08:56:52+05:30 — 380 posts live
+
+Index: six how-to posts (RAG, patient, battery, screener RAG, news, router)
+
+
+**Versions**
+
+- `article-index-start-here` **60.10.0 → 60.11.0** (MINOR) — forced via --as minor (figures changed (+1/-1 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 738,913 → 744,949 bytes (+6,036)

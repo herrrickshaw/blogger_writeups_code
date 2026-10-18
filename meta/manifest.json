@@ -1,5 +1,5 @@
 {
-  "snapshot": "2026-10-18T08:55:47+05:30",
+  "snapshot": "2026-10-18T08:56:52+05:30",
   "count": 380,
   "posts": {
     "1023631151138981087": {
@@ -39771,10 +39771,10 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/article-index-start-here.html",
       "slug": "article-index-start-here",
       "published": "2026-08-02T10:43:26.000+05:30",
-      "updated": "2026-10-18T08:53:42.584+05:30",
+      "updated": "2026-10-18T08:56:23.546+05:30",
       "labels": [],
-      "bytes": 738913,
-      "sha256": "7f01c05aa2e56526947925b5415a3951eb24bb165df323375655d822856a72a4",
+      "bytes": 744949,
+      "sha256": "19e1e6bac2de583a45b36aad6a0b04528163a19e30b628f87b23c683144be710",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -39786,7 +39786,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "60.10.0",
+      "version": "60.11.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -41769,6 +41769,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Index: cache_memory_cleaner how-to post"
+        },
+        {
+          "version": "60.11.0",
+          "date": "2026-10-18T08:56:52+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+1/-1 distinct numbers))",
+          "bytes": [
+            738913,
+            744949
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Index: six how-to posts (RAG, patient, battery, screener RAG, news, router)"
         }
       ]
     },
