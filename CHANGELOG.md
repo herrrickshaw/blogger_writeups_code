@@ -14823,3 +14823,16 @@ Labels: health-IT vs tax-ID post
 **Re-dated** (publication date changed; body and URL unchanged)
 
 - `india-tracks-every-taxpayer-in-minutes` — 2026-10-18 &rarr; 2026-10-18
+
+## 2026-10-18T07:30:08+05:30 — 372 posts live
+
+Index: health-IT vs tax-ID post
+
+
+**Versions**
+
+- `article-index-start-here` **60.7.0 → 60.8.0** (MINOR) — forced via --as minor (figures changed (+3/-2 distinct numbers))
+
+**Changed**
+
+- `article-index-start-here` — 733,393 → 736,481 bytes (+3,088)
