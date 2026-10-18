@@ -4,12 +4,12 @@
   "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
   "slug": "real-gdp-growth-india-fy2012-13-to",
   "published": "2026-08-02T13:45:39.000+05:30",
-  "updated": "2026-10-01T08:46:35.452+05:30",
+  "updated": "2026-10-18T06:50:33.073+05:30",
   "labels": [
     "Macroeconomics & Monetary Policy"
   ],
-  "bytes": 40875,
-  "sha256": "07fa8c3e58b593f34602917bc4f7bb434c00e1376181003227c69c4521531692",
+  "bytes": 42203,
+  "sha256": "82f992459563ac1f2466882f687cb7503292a0b4bfff2aee5fa4d2eb6cf6582a",
   "markers": {
     "light_lock": true,
     "dark_panel_guard": true,
@@ -21,7 +21,7 @@
     "inverted_media_query": false,
     "disclaimer_in_script": false
   },
-  "version": "3.1.0",
+  "version": "3.2.0",
   "version_history": [
     {
       "version": "1.0.0",
@@ -277,6 +277,19 @@
       "url_changed": null,
       "markers_changed": null,
       "note": "Rule 8 retrofit: added What would fix this section"
+    },
+    {
+      "version": "3.2.0",
+      "date": "2026-10-18T06:51:18+05:30",
+      "level": "minor",
+      "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+      "bytes": [
+        40875,
+        42203
+      ],
+      "url_changed": null,
+      "markers_changed": null,
+      "note": "Health-IT vs tax-ID post; GDP base-year and 16th FC notes"
     }
   ]
 }

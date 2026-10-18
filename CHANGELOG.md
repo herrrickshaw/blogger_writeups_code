@@ -14795,3 +14795,22 @@ Sweep 4: notes for posts 81-200
 - `inflation-trends-globally-what-five` — 59,149 → 60,205 bytes (+1,056)
 - `india-mineral-oil-hsn-ch27-trade` — 111,563 → 112,873 bytes (+1,310)
 - `indias-textile-import-export-strategy` — 53,552 → 54,977 bytes (+1,425)
+
+## 2026-10-18T06:51:18+05:30 — 372 posts live
+
+Health-IT vs tax-ID post; GDP base-year and 16th FC notes
+
+
+**Added**
+
+- `india-tracks-every-taxpayer-in-minutes` **v1.0.0** — India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare (45,823 bytes)
+
+**Versions**
+
+- `who-collects-indias-gst-and-who` **2.2.0 → 2.3.0** (MINOR) — forced via --as minor (figures changed (+2/-0 distinct numbers))
+- `real-gdp-growth-india-fy2012-13-to` **3.1.0 → 3.2.0** (MINOR) — forced via --as minor (figures changed (+9/-0 distinct numbers))
+
+**Changed**
+
+- `who-collects-indias-gst-and-who` — 36,903 → 37,998 bytes (+1,095)
+- `real-gdp-growth-india-fy2012-13-to` — 40,875 → 42,203 bytes (+1,328)

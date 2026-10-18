@@ -1,6 +1,6 @@
 {
-  "snapshot": "2026-10-18T06:24:50+05:30",
-  "count": 371,
+  "snapshot": "2026-10-18T06:51:18+05:30",
+  "count": 372,
   "posts": {
     "1023631151138981087": {
       "id": "1023631151138981087",
@@ -105,13 +105,13 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/who-collects-indias-gst-and-who.html",
       "slug": "who-collects-indias-gst-and-who",
       "published": "2026-08-12T19:04:21.000+05:30",
-      "updated": "2026-10-09T09:49:02.821+05:30",
+      "updated": "2026-10-18T06:50:46.980+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy",
         "Trade & Tariffs"
       ],
-      "bytes": 36903,
-      "sha256": "ed667ed8f0b7531e499d104ccdede52caa57e7f1d522776616ec6c96528ef057",
+      "bytes": 37998,
+      "sha256": "46a7429dcb58e83a6dbb867f76dbc96861289d9b55c04307c301b499b41c157b",
       "markers": {
         "light_lock": false,
         "dark_panel_guard": false,
@@ -123,7 +123,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "2.2.0",
+      "version": "2.3.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -378,6 +378,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "October update sweep: GEC-III, rabi MSP, edible-oil duty, GOBARdhan, GST H1, forex"
+        },
+        {
+          "version": "2.3.0",
+          "date": "2026-10-18T06:51:18+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+2/-0 distinct numbers))",
+          "bytes": [
+            36903,
+            37998
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Health-IT vs tax-ID post; GDP base-year and 16th FC notes"
         }
       ]
     },
@@ -19351,6 +19364,38 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        }
+      ]
+    },
+    "3723395141865746516": {
+      "id": "3723395141865746516",
+      "title": "India Tracks Every Taxpayer in Minutes. Its Patients Got a Digital ID in 2021, While Indian IT Earns Billions From Foreign Healthcare",
+      "url": "https://masaladeutsch.blogspot.com/2026/10/india-tracks-every-taxpayer-in-minutes.html",
+      "slug": "india-tracks-every-taxpayer-in-minutes",
+      "published": "2026-10-18T06:50:17.120+05:30",
+      "updated": "2026-10-18T06:50:17.120+05:30",
+      "labels": [],
+      "bytes": 45823,
+      "sha256": "561ef459c4dc6f9bfd5150681fb20401a74f431ab42d977bd0473612176ee6ca",
+      "markers": {
+        "light_lock": false,
+        "dark_panel_guard": false,
+        "typo_unify": false,
+        "translate_widget": true,
+        "index_link": true,
+        "ai_disclosure": true,
+        "revision_line": false,
+        "inverted_media_query": false,
+        "disclaimer_in_script": false
+      },
+      "version": "1.0.0",
+      "version_history": [
+        {
+          "version": "1.0.0",
+          "date": "2026-10-18T06:51:18+05:30",
+          "level": "initial",
+          "reason": "first snapshot",
+          "note": "Health-IT vs tax-ID post; GDP base-year and 16th FC notes"
         }
       ]
     },
@@ -61279,12 +61324,12 @@
       "url": "https://masaladeutsch.blogspot.com/2026/08/real-gdp-growth-india-fy2012-13-to.html",
       "slug": "real-gdp-growth-india-fy2012-13-to",
       "published": "2026-08-02T13:45:39.000+05:30",
-      "updated": "2026-10-01T08:46:35.452+05:30",
+      "updated": "2026-10-18T06:50:33.073+05:30",
       "labels": [
         "Macroeconomics & Monetary Policy"
       ],
-      "bytes": 40875,
-      "sha256": "07fa8c3e58b593f34602917bc4f7bb434c00e1376181003227c69c4521531692",
+      "bytes": 42203,
+      "sha256": "82f992459563ac1f2466882f687cb7503292a0b4bfff2aee5fa4d2eb6cf6582a",
       "markers": {
         "light_lock": true,
         "dark_panel_guard": true,
@@ -61296,7 +61341,7 @@
         "inverted_media_query": false,
         "disclaimer_in_script": false
       },
-      "version": "3.1.0",
+      "version": "3.2.0",
       "version_history": [
         {
           "version": "1.0.0",
@@ -61552,6 +61597,19 @@
           "url_changed": null,
           "markers_changed": null,
           "note": "Rule 8 retrofit: added What would fix this section"
+        },
+        {
+          "version": "3.2.0",
+          "date": "2026-10-18T06:51:18+05:30",
+          "level": "minor",
+          "reason": "forced via --as minor (figures changed (+9/-0 distinct numbers))",
+          "bytes": [
+            40875,
+            42203
+          ],
+          "url_changed": null,
+          "markers_changed": null,
+          "note": "Health-IT vs tax-ID post; GDP base-year and 16th FC notes"
         }
       ]
     },
