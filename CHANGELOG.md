@@ -14814,3 +14814,12 @@ Health-IT vs tax-ID post; GDP base-year and 16th FC notes
 
 - `who-collects-indias-gst-and-who` — 36,903 → 37,998 bytes (+1,095)
 - `real-gdp-growth-india-fy2012-13-to` — 40,875 → 42,203 bytes (+1,328)
+
+## 2026-10-18T06:51:57+05:30 — 372 posts live
+
+Labels: health-IT vs tax-ID post
+
+
+**Re-dated** (publication date changed; body and URL unchanged)
+
+- `india-tracks-every-taxpayer-in-minutes` — 2026-10-18 &rarr; 2026-10-18
