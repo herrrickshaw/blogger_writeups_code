@@ -160,3 +160,41 @@ how-india-actually-plans-to-hit-net (no CCUS mission approval found); chemical-i
 - 5. indias-semaglutide-patent-cliff-26 (MEDIUM): - **For most of the named markets the compound patent had already lapsed when the post went up (16 Sep 2026).**
 - 6. indias-semaglutide-patent-cliff-26 (LOW): - **A newer data point existed before publication.** Business Today (8 Jul 2026) reports that, on June 2026 data, generics accounted for 82% of semaglutide unit sales, Wegovy and Ozempic were still adding patients, and Mounjaro remained the
 - 7. indias-state-incentive-war-gujarats (LOW): - In August 2026 Ola Electric said the Ministry of Heavy Industries had approved revised timelines for its 20 GWh ACC PLI allocation. The incentive window now runs to 2031, worth up to ₹7,240 crore, with quarterly disbursal planned from the
+
+## Batches 21-24 (posts 201-240): HIGH 2, MEDIUM 12, LOW 8
+
+### A. HIGH (2), in `out/update-2026-10-18/`
+| Slug | Stale in post | Current, per reviewer | Conf. |
+|---|---|---|---|
+| real-gdp-growth-india-fy2012-13-to | Growth series on 2011-12 base; FY24 "9%", FY25 "dip back to 6%"; FY26 "only estimate released so far" | New 2022-23 base series (27 Feb 2026): FY24 7.2%, FY25 7.1%, FY26 PE 7.7%; Q1 FY27 7.8%; back series due by Dec 2026 | several summaries |
+| who-collects-indias-gst-and-who | Devolution "41% under the 15th Finance Commission"; UP 17.62% vs 15th FC share | 16th FC award 2026-31: 41% kept, UP 17.619%, new 10% GDP-contribution weight (matches sweep-3 note on would-more-sgst-fix-donor-state-problem) | several summaries |
+
+### B/C. MEDIUM and LOW
+- 2. mopsws-25000-crore-maritime-development (MEDIUM): - **Subvention rate.** A Directorate General of Shipping page on the MDF, seen as a summary, describes the IIF as offering an "interest incentive of up to 3%" to banks and financial institutions on loans to Indian shipyards.
+- 3. re-spinning-charkha (MEDIUM): - **One of the seven parks is open.** The Prime Minister inaugurated India's first PM MITRA park, the Kakatiya Mega Textile Park in Warangal, Telangana, on 10 May 2026. That was before this post (3 Aug 2026).
+- 4. mrs-watanabe-traded-from-kitchen-table (LOW): - **Maharashtra.** Newer NSE-based reporting puts its women's share at 28.5% for FY2026 year-to-date (Outlook Money) and 29% for May 2026 (Business Today).
+- 1. refiners-won-exemption-fight-biofuels (MEDIUM): - **EPA has acted on exemptions several times since the cases the post describes. The post (3 Oct 2026) mentions none of these actions.**
+- 2. scan-bottle-deliver-what-ppacs-numbers (MEDIUM): - **The fall was not limited to one quarter.**
+- 3. sugar-at-5570-kilo-why-cane-acreage (MEDIUM): - **The import decision had already been taken when the post went up (21 Aug 2026).** By a DGFT notification of 20 August 2026, the government allowed duty-free imports of 10 lakh tonnes of raw sugar under a tariff-rate quota, valid until 3
+- 4. tamil-nadus-water-infrastructure-runs (MEDIUM): - **Central funding was approved before the post went up (25 Aug 2026).** Swarajya reported on 11 June 2026, citing the Times of India, that the Union government gave in-principle approval for Rs 7,500 crore under the Urban Challenge Fund f
+- 5. state-by-state-who-actually-earns-from (LOW): on this blog's list of established since-events, Delhi pump prices rose from 15 May 2026 to Rs 102.12 for petrol and Rs 95.20 for diesel. A July 2026 Delhi basis should therefore use Rs 102.12, not about Rs 101.5. The gap is under 1% and do
+- 1. the-hydrogen-bill-hiding-inside-indias (MEDIUM): The December 2025 start date was missed. One search summary cites a June 2026 Argus report, quoting a source close to the matter, saying the Panipat UCO-based SAF unit (35,000 t/yr) was delayed and is now expected to start in the second hal
+- 2. the-grain-value-loop-integrated-rice (LOW): On 13 May 2026 the CCEA approved kharif MSPs for 2026-27. Common-grade paddy rose by Rs 72 to Rs 2,441 a quintal and Grade A to Rs 2,461, for the marketing season starting September/October 2026. KMS 2026-27 procurement is now under way, so
+- 3. the-milk-india-doesnt-drink-cheese-and (LOW): The March 2026 deadline has passed. Every search result traces to the August 2025 announcement (500+ to 2,000+ HoReCa outlets by end-March 2026, 100 new distributors, and Rs 3,300 crore revenue targeted for FY26). None reports a 2026 outlet
+- 4. the-recycling-lottery-playbook-norways (LOW): Two searches found no report of a recycling-lottery launch, or of a licence held by "Recycling Lottery International", in the UK, Sweden, Germany or Australia. Results covered only the Norwegian original (the Thon Group page gives Thon 60% 
+- 2. uttar-pradeshs-gst-puzzle-growing (MEDIUM): Newer monthly data exist. State-wise GST figures released 1 October 2026 put UP's domestic GST for September 2026 at ₹8,882 crore, up 18% from ₹7,516 crore in September 2025. The national gross figure was ₹2.04 lakh crore, up 14.7%. This su
+- 3. uttar-pradeshs-gst-puzzle-growing (LOW): The 16th Finance Commission award (2026-31) applies to devolution from April 2026. It still gives income distance the heaviest weight, but summaries say it adds a "contribution to GDP" criterion with a 10% weight. This is GDP, not GST, so t
+- 4. what-india-is-actually-paying-for (MEDIUM): A Trading Economics summary dated 7 October 2026 gives a later peak. It says reserves peaked at $785.71 billion on 4 September 2026, then fell for four straight weeks to $734.6 billion on 2 October 2026, which it attributes to RBI dollar sa
+- 5. what-india-is-actually-paying-for (MEDIUM): The RBI has since made that choice. On 7 October 2026 the MPC raised the repo rate by 25 bps to 5.50%. Summaries describe it as the first hike since February 2023. The stance moved from neutral to "calibrated tightening", and the reasons ci
+- 6. what-india-is-actually-paying-for (LOW): RBI data released around 1 September 2026, as reported, put the Q1 FY2026-27 (April–June 2026) CAD at $4.2 billion, or 0.5% of GDP. That compares with $3.4 billion (0.4%) a year earlier, and the merchandise trade deficit was $86.1 billion. 
+- 7. under-corsias-own-numbers-corn-ethanol (MEDIUM): Sources describe the status differently. An S&P Global report dated 30 July 2026 is headlined "India mandates 1% sustainable aviation fuel blend from January 2027". In a 9 July 2026 S&P report, an Indian Oil official describes domestic blen
+- 8. where-indias-gigawatt-data-centre-bets (MEDIUM): Two searches found no report of an 80 MW Google–Adani site, commissioned or due. The Google–AdaniConneX partnership in the summaries (announced 14 Oct 2025) is the Visakhapatnam AI hub itself: about $15 billion over 2026-2030, groundbreakin
+- 9. where-indias-gigawatt-data-centre-bets (LOW): Airtel landed SEA-ME-WE 6 in Mumbai on 30 December 2024 and in Chennai about two months later. Summaries say Airtel co-built four fibre pairs between Singapore, Chennai and Mumbai, adding about 220 Tbps of capacity for India. Service was ta
+
+## Sweep 4 totals (240 posts read)
+HIGH 19, MEDIUM 83, LOW 43. Every HIGH item was checked against the post text and has a dated note (or, for this blog's own 16 Oct post, an in-place fix recorded in its note) in `out/update-2026-10-18/`.
+
+### Cross-cutting follow-ups
+- **New statistical bases.** GDP moved to a 2022-23 base (27 Feb 2026) and WPI to a 2022-23 base with PPIs (15 Jun 2026). Any other post quoting 2011-12-base GDP growth or WPI as "current" is on a superseded series; a keyword pass for "2011-12" and "WPI" would find them.
+- **Fuel taxes.** The March 2026 SAED cut, May 2026 price rises and the export levy have now been noted on four posts; others citing Rs 19.90/21.90 excise or Rs 94.77/87.67 pump prices as current would need the same note.
+- **MEDIUM list.** About 83 items where a newer figure exists but the post's point survives; none has been applied.
